@@ -7,19 +7,21 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 Sinonimia is a static, dependency-free plain-language dictionary. It explains
 hard/technical words (bureaucratic, legal, health) using short "lectura
 fácil" (easy-read) definitions, a synonym repeated inside the same example
-sentence, and an ARASAAC pictogram. See `PRODUCT.md` for the full product
+sentence, and an ARASAAC pictogram. See [`doc/en/SPEC.md`](doc/en/SPEC.md)
+(or [`doc/es/SPEC.md`](doc/es/SPEC.md)) for the full product
 definition — target audience, the easy-read writing rules that every
 definition/example must follow, the multi-language architecture, and the
 rules that govern the gamification features. Read it before adding or
 editing dictionary content; it is the source of truth, not this file.
 
-One rule from `PRODUCT.md` worth surfacing here because it's easy to break
+One rule from `SPEC.md` worth surfacing here because it's easy to break
 by accident when editing UI copy: the project's real objective is
 occupational-therapy support for people with intellectual disability, but
 **nothing user-facing may say so** — not in `index.html`, not in any
 `I18N` string in `js/i18n.js`, in any language. That framing only belongs
-in maintainer-facing docs (`PRODUCT.md`, this file, `CONTRIBUTING.md`,
-`README.md`). `scripts/validar.js` enforces this with a blocklist scan over
+in maintainer-facing docs (`doc/*/SPEC.md`, this file, `CONTRIBUTING.md` /
+`CONTRIBUTING.es.md`, `README.md` / `README.es.md`).
+`scripts/validar.js` enforces this with a blocklist scan over
 `index.html` and `js/i18n.js` — it does not scan `js/data.*.js`, since a
 dictionary entry about an actual disability-related bureaucratic term (e.g.
 a disability-certificate procedure) would be legitimate content, not a
@@ -57,7 +59,7 @@ HTML/CSS/JS served as static files.
 
 ## Architecture
 
-**See `ARCHITECTURE.md` for the full technical reference** — the file-by-file
+**See [`doc/en/technical.md`](doc/en/technical.md) for the full technical reference** — the file-by-file
 breakdown, the routing/state model, the dictionary entry shape, the ARASAAC
 pictogram system, and the gamification system. It also documents the
 project's language policy (English for code/comments, Spanish/English for
@@ -72,5 +74,5 @@ intentionally language-agnostic — it only ever reads `activeDictionary`
 (`= DICCIONARIOS[currentLanguage]`) and calls `t(key)`, never a hardcoded
 string or a hardcoded language's data file. `js/i18n.js` is UI copy only,
 `js/data.es.js`/`js/data.en.js` are the actual dictionary content, and
-`PRODUCT.md` holds the non-negotiable content/UX rules (easy-read writing
-rules, "never gate content behind a game", etc.).
+`doc/en/SPEC.md` (or `doc/es/SPEC.md`) holds the non-negotiable content/UX
+rules (easy-read writing rules, "never gate content behind a game", etc.).

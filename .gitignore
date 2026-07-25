@@ -9,7 +9,6 @@ Thumbs.db
 # (el nombre empieza por coma por un renombrado accidental en Windows;
 #  Git lo trata como una carpeta normal y la subiría al repo)
 /,dev/
-\067ev/
 
 # Por si en el futuro alguien añade alguna herramienta con dependencias
 node_modules/
@@ -18,3 +17,8 @@ npm-debug.log*
 # Nunca subir el shared secret de OpenSymbols (se pasa como variable de entorno)
 .env
 .env.*
+
+# Salida de la herramienta graphify (grafo de conocimiento local; no debe
+# versionarse)
+/graphify-out/
+/.graphifyignore

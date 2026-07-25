@@ -36,7 +36,7 @@
  * "license"/"author" fields). Whatever you pick, if it isn't from ARASAAC,
  * the footer's current blanket "pictograms are from ARASAAC" credit
  * (js/i18n.js's `pieCreditosHtml` key) needs updating in the same change
- * to credit that bank too. See ARCHITECTURE.md's "Pictograms" section.
+ * to credit that bank too. See doc/en/technical.md's "Pictograms" section.
  */
 
 const secret = process.env.OPENSYMBOLS_SECRET;

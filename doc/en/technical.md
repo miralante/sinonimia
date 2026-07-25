@@ -2,9 +2,10 @@
 
 This is the technical reference for developers working on Sinonimia's
 codebase. For *what* the product is, *who* it's for, and the content rules
-every dictionary entry must follow, see `PRODUCT.md` — that document is the
-source of truth for product and content decisions; this one is the source
-of truth for how the system is built.
+every dictionary entry must follow, see [`SPEC.md`](SPEC.md)
+(or [`../es/SPEC.md`](../es/SPEC.md)) — that document is the source of
+truth for product and content decisions; this one is the source of truth
+for how the system is built.
 
 ## Project language policy
 
@@ -30,8 +31,8 @@ because they are shared data contracts, not implementation details:
   `sinonimos`, `ejemplo`, `ejemploSinonimo`, `situacion` in every entry of
   `js/data.<lang>.js`. Renaming these would touch all 44+ dictionary
   entries across every language file and the schema documentation in
-  `PRODUCT.md` and `CONTRIBUTING.md`, which teach Spanish-speaking
-  contributors how to add a word using these exact field names.
+  `doc/*/SPEC.md` and `../../CONTRIBUTING.md`/`../../CONTRIBUTING.es.md`,
+  which teach contributors how to add a word using these exact field names.
 - **`I18N` keys** in `js/i18n.js` (e.g. `heroEtiqueta`, `buscarPlaceholder`,
   `tema_tramites`) — referenced verbatim in `index.html`'s
   `data-i18n="..."` attributes and in `js/app.js`'s `t("...")` calls.
@@ -85,8 +86,9 @@ scripts/validar.js   the CI/local validation script
   simple `{placeholder}` substitution.
 - **`js/data.es.js`**, **`js/data.en.js`** each populate a shared global,
   `DICCIONARIOS.<lang>`, with that language's dictionary entries. Adding a
-  language means adding a new `js/data.<lang>.js` file (see `PRODUCT.md`'s
-  "How to add a new language") — `js/app.js` needs no changes, since it
+  language means adding a new `js/data.<lang>.js` file (see
+  `SPEC.md`'s "How to add a new language") — `js/app.js` needs no
+  changes, since it
   only ever reads whatever languages exist as keys on `DICCIONARIOS`.
 - **`js/app.js`** is a single IIFE containing the whole client app. It never
   hardcodes a UI string or a specific language's data — it only reads
@@ -109,7 +111,7 @@ latter used to cross-link a synonym to its own dictionary entry) whenever
 the language changes. All persisted state (discovery progress, game score,
 user-written sentences) is namespaced per language in `localStorage`, since
 the two dictionaries are unrelated content — see the key names in
-`PRODUCT.md`'s architecture section.
+`SPEC.md`'s architecture section.
 
 ## Dictionary entry shape
 
@@ -129,7 +131,7 @@ for, to highlight or blank it out.
 a homograph (two unrelated meanings sharing one word, e.g. "pensión" —
 retirement pay / a guesthouse) is modeled as two ordinary entries with the
 same `palabra` and different `id`/`situacion`/`definicion` (see "Palabras
-con doble significado" in `PRODUCT.md`). `entryByName` in `js/app.js`
+con doble significado" in `SPEC.md`). `entryByName` in `js/app.js`
 (keyed by normalized `palabra`, used to cross-link a synonym to its own
 entry and to pick the two games' multiple-choice options) reflects this:
 it maps a name to an **array** of entries rather than overwriting, so a
@@ -197,7 +199,7 @@ Word-of-the-day, "surprise me", a discovery progress bar, a free-text
 "write your own sentence" box, and two multiple-choice games
 (`renderWordGame`, `renderSentenceGame`, reached through `renderGameMenu`)
 all live in `js/app.js`, all read from `activeDictionary`, and none of them
-special-case a language. `PRODUCT.md` documents the rules that constrain
+special-case a language. `SPEC.md` documents the rules that constrain
 any future gamification (never hide content behind an interaction, never
 make a game punitive) — read it before adding a third game.
 
@@ -213,7 +215,7 @@ a unique id, a valid `situacion`, an `imagen.id` with a matching file under
 `js/app.js` looks up with `getElementById` exists in `index.html`; and that
 neither `index.html` nor `js/i18n.js` contains any of a blocklist of
 disability/therapy-related terms (the user-facing product's non-negotiable
-rule from `PRODUCT.md` — `js/data.*.js` is deliberately exempt, since a
+rule from `SPEC.md` — `js/data.*.js` is deliberately exempt, since a
 disability-related bureaucratic term could be a legitimate future entry).
 
 ## Growing the content (`scripts/estado-contenido.js`)
@@ -224,7 +226,7 @@ the 8-word threshold, and (with `--detalle`) lists every existing headword
 and its synonyms so a new entry doesn't duplicate a concept already
 covered. It's the bookkeeping half of content growth — it deliberately does
 not draft definitions, since that requires the editorial judgment described
-in `PRODUCT.md`'s "Proceso para ampliar el contenido", which this script's
+in `SPEC.md`'s "Process for expanding content", which this script's
 output feeds into.
 
 Read the script before changing the data-file format: it encodes the
@@ -238,3 +240,26 @@ not by duplicating rules per theme. Both preferences persist in
 `localStorage`. Dynamic UI regions (`#resultados-info`, the "your sentence
 saved" notice, game feedback) use `aria-live="polite"`; focus is moved to
 the new view's heading on every navigation (`h2.focus()`).
+
+## Hidden routes
+
+### `/about/`
+
+Public-facing presentation of the project, aimed at organizations,
+funders, journalists, and new contributors who want to understand what
+Sinonimia is without opening the source code. Five sections: the
+project's origin (including the occupational-therapy/intellectual-
+disability context that `index.html` never names), the six non-negotiable
+principles (easy-read language, synonym repetition, ARASAAC pictograms,
+non-punitive gamification, multi-language architecture, sober technology),
+how the site is built (static, no backend, `localStorage` only, MIT +
+CC BY-SA 4.0), the current dictionary stats per IADL area, and how to
+help. The footer links back to the dictionary (`../index.html`).
+
+**No public link points at it**: not from `index.html`, not from
+`README.md`/`README.es.md`, not from anywhere in `doc/`. It's reached only
+by typing the URL, and carries `<meta name="robots" content="noindex,
+nofollow">`. Keep it up to date, in both languages, whenever the word
+counts or the design principles change — but never add end-user-facing
+text there in a way that implies it's linked from the product; that page
+is not for the person using the dictionary.

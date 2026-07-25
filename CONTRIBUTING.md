@@ -1,107 +1,110 @@
-# Contribuir a Sinonimia
+# Contributing to Sinonimia
 
-Gracias por dedicarle tiempo a este proyecto. Antes de nada: **lee
-`PRODUCT.md`**. No es documentación opcional — son las reglas que hacen que
-Sinonimia sea útil para quien la necesita, y mandan sobre cualquier otra
-consideración (incluida la precisión técnica de una definición).
+> 🌐 **Other languages:** [Español](CONTRIBUTING.es.md)
 
-## Añadir una palabra
+Thanks for spending time on this project. Before anything else: **read
+[`doc/en/SPEC.md`](doc/en/SPEC.md)**. It isn't optional documentation —
+it's the rules that make Sinonimia useful to whoever needs it, and they
+override any other consideration (including a definition's technical
+accuracy).
 
-0. Antes de elegir qué palabra añadir, ejecuta `node scripts/estado-contenido.js`
-   (añade `--detalle` para ver las palabras y sinónimos que ya existen por
-   categoría). Te dice qué categorías tienen pocas palabras y evita que
-   propongas un concepto que ya está cubierto con otra palabra. Ver
-   "Proceso para ampliar el contenido" en `PRODUCT.md` para el
-   procedimiento completo.
-1. Elige el archivo de su idioma: `js/data.es.js` o `js/data.en.js`. Cada
-   idioma se amplía por separado: el diagnóstico del paso 0 cuenta las
-   categorías idioma por idioma, y una palabra no tiene por qué tener
-   equivalente en el otro idioma (busca términos candidatos en una fuente
-   del idioma que estás editando, no traduzcas palabras del otro archivo).
-   Ver "Proceso para ampliar el contenido" en `PRODUCT.md`.
-2. Copia un bloque `{ ... }` entero y rellena sus campos. El comentario al
-   principio de cada archivo explica cada campo.
-3. Sigue las reglas de lectura fácil de `PRODUCT.md` al pie de la letra:
-   frases cortas, una idea por frase, palabras conocidas, nada de
-   abstracciones evitables. Léela en voz alta al terminar: si suena a texto
-   legal o clínico, reescríbela.
-4. Comprueba que `ejemplo.palabra` y `ejemploSinonimo.palabra` aparecen tal
-   cual dentro de `ejemplo.texto` y `ejemploSinonimo.texto` (con su
-   conjugación o género exactos) — de eso depende que la web resalte la
-   palabra y que el juego de completar la frase funcione. `node
-   scripts/validar.js` te avisa si no coincide.
-5. Necesita un pictograma. Antes de descargar nada, comprueba si ya existe
-   una imagen para ese concepto en `img/` — se puede reutilizar entre
-   palabras e idiomas. Para buscar candidatos:
+## Adding a word
+
+0. Before choosing which word to add, run `node scripts/estado-contenido.js`
+   (add `--detalle` to see the words and synonyms that already exist per
+   category). It tells you which categories have few words and keeps you
+   from proposing a concept that's already covered under another word. See
+   "Process for expanding content" in [`doc/en/SPEC.md`](doc/en/SPEC.md)
+   for the full procedure.
+1. Pick its language's file: `js/data.es.js` or `js/data.en.js`. Each
+   language is expanded separately: step 0's diagnosis counts categories
+   language by language, and a word doesn't need an equivalent in the
+   other language (look for candidate terms in a source for the language
+   you're editing, don't translate words from the other file). See
+   "Process for expanding content" in [`doc/en/SPEC.md`](doc/en/SPEC.md).
+2. Copy an entire `{ ... }` block and fill in its fields. The comment at
+   the top of each file explains every field.
+3. Follow [`doc/en/SPEC.md`](doc/en/SPEC.md)'s easy-read rules to the
+   letter: short sentences, one idea per sentence, familiar words, no
+   avoidable abstractions. Read it out loud when you're done: if it sounds
+   like legal or clinical text, rewrite it.
+4. Check that `ejemplo.palabra` and `ejemploSinonimo.palabra` appear
+   verbatim inside `ejemplo.texto` and `ejemploSinonimo.texto` (with the
+   exact conjugation or gender) — the site's word-highlighting and the
+   fill-in-the-blank game depend on it. `node scripts/validar.js` warns you
+   if it doesn't match.
+5. It needs a pictogram. Before downloading anything, check whether an
+   image for that concept already exists in `img/` — it can be reused
+   across words and languages. To search for candidates:
    ```
-   node scripts/buscar-pictograma.js "palabra clave" <idioma>
+   node scripts/buscar-pictograma.js "keyword" <lang>
    ```
-   Usa el mismo código de idioma que la palabra (`es`, `en`...) — no
-   dejes siempre `es` si la palabra es de otro idioma. Busca primero en
-   **OpenSymbols** (agrega ARASAAC, Sclera, Mulberry y
-   otros bancos) si tienes configurada la variable de entorno
-   `OPENSYMBOLS_SECRET` (se consigue gratis en
-   https://www.opensymbols.org/api — piden organización, email y para qué
-   lo vas a usar; no la subas nunca al repositorio). **Sin esa variable, o
-   si OpenSymbols falla o no encuentra nada, el script recurre solo a la
-   API pública de ARASAAC automáticamente** (esa parte no necesita ninguna
-   clave). En ambos casos solo lista candidatos con su banco, licencia y
-   autor — el pictograma se descarga a mano en `img/<id>.png`.
-   - La búsqueda es literal, no por significado: si el término exacto de
-     la palabra no devuelve nada (pasa a menudo con palabras abstractas
-     como "aforo" o "incidencia"), prueba con un sinónimo suyo o de su
-     definición antes de darlo por imposible — casi siempre hay un
-     pictograma para el concepto, aunque no esté indexado bajo esa palabra
-     exacta.
-   - En Windows, si descargas la imagen con `curl` y falla con un error de
-     `schannel`/revocación de certificado, añade `--ssl-no-revoke` al
-     comando.
-   - **Importante sobre la licencia**: si el pictograma elegido no es de
-     ARASAAC, anota su banco, licencia y autor — el crédito del pie de
-     página (`js/i18n.js`, clave `pieCreditosHtml`) solo menciona ARASAAC
-     ahora mismo y hay que ampliarlo antes de fusionar el cambio. Ver
-     "Pictograms" en `ARCHITECTURE.md`.
-6. `situacion` tiene que ser una de las claves compartidas por todos los
-   idiomas: `tramites`, `salud`, `vida-diaria`, `finanzas`, `vivienda`,
-   `trabajo` o `legal` (ver "Arquitectura multi-idioma" en `PRODUCT.md`
-   para qué cubre cada una). No inventes una clave nueva para dos o tres
-   palabras sueltas, y si de verdad hace falta una, añade también su
-   etiqueta en `js/i18n.js` (`tema_<clave>`) para cada idioma.
+   Use the same language code as the word (`es`, `en`...) — don't leave it
+   as `es` if the word is in another language. It searches
+   **OpenSymbols** first (aggregates ARASAAC, Sclera, Mulberry, and other
+   banks) if you have the `OPENSYMBOLS_SECRET` environment variable set
+   (get one free at https://www.opensymbols.org/api — they ask for an
+   organization, email, and intended use; never commit it to the
+   repository). **Without that variable, or if OpenSymbols fails or finds
+   nothing, the script automatically falls back to ARASAAC's public API
+   alone** (that part needs no key). Either way it only lists candidates
+   with their bank, license, and author — the pictogram is downloaded by
+   hand into `img/<id>.png`.
+   - The search is literal, not by meaning: if the word's exact term
+     returns nothing (common with abstract words like "aforo" or
+     "incidencia"), try a synonym of it or of its definition before giving
+     up — there's almost always a pictogram for the concept, even if it
+     isn't indexed under that exact word.
+   - On Windows, if downloading the image with `curl` fails with a
+     `schannel`/certificate-revocation error, add `--ssl-no-revoke` to the
+     command.
+   - **Important note on licensing**: if the chosen pictogram isn't from
+     ARASAAC, note its bank, license, and author — the footer credit
+     (`js/i18n.js`, key `pieCreditosHtml`) currently only mentions ARASAAC
+     and needs to be expanded before merging the change. See "Pictograms"
+     in `doc/en/technical.md`.
+6. `situacion` has to be one of the keys shared across every language:
+   `tramites`, `salud`, `vida-diaria`, `finanzas`, `vivienda`, `trabajo`, or
+   `legal` (see "Multi-language architecture" in
+   [`doc/en/SPEC.md`](doc/en/SPEC.md) for what each one covers). Don't
+   invent a new key for two or three stray words, and if one is genuinely
+   needed, also add its label in `js/i18n.js` (`tema_<key>`) for every
+   language.
 
-## Añadir un idioma
+## Adding a language
 
-Está descrito paso a paso en la sección "Cómo añadir un idioma nuevo" de
-`PRODUCT.md`. En resumen: un bloque nuevo en `I18N` (`js/i18n.js`), un
-archivo `js/data.<idioma>.js` nuevo, su `<script>` en `index.html` y un
-botón en el selector de idioma. `js/app.js` no se toca: ya funciona con
-cualquier idioma que aparezca en `DICCIONARIOS`.
+It's described step by step in "How to add a new language" in
+[`doc/en/SPEC.md`](doc/en/SPEC.md). In short: a new block in `I18N`
+(`js/i18n.js`), a new `js/data.<lang>.js` file, its `<script>` tag in
+`index.html`, and a button in the language selector. `js/app.js` doesn't
+need to be touched: it already works with any language that appears in
+`DICCIONARIOS`.
 
-## Cambios de código
+## Code changes
 
-- No hay build ni framework: HTML, CSS y JavaScript directos. Mantenlo así
-  — es una decisión de diseño (ver "Mantenimiento" en `PRODUCT.md`), no una
-  limitación temporal.
-- Si añades una función a la interfaz (sobre todo si es gamificación),
-  repasa las reglas de `PRODUCT.md`: nunca esconder la definición, el
-  sinónimo o el ejemplo detrás de un clic o de un juego, y nunca hacer la
-  interacción punitiva (sin cronómetros, sin "vidas", sin mensajes de fallo
-  duros).
-- Los textos de la interfaz van en `js/i18n.js`, nunca escritos a mano en
-  `js/app.js` ni en `index.html`. Si añades un texto nuevo, añade su clave
-  en **todos** los idiomas de `I18N`.
+- No build and no framework: plain HTML, CSS, and JavaScript. Keep it that
+  way — it's a design decision (see "Maintenance" in
+  [`doc/en/SPEC.md`](doc/en/SPEC.md)), not a temporary limitation.
+- If you add a feature to the interface (especially gamification), review
+  [`doc/en/SPEC.md`](doc/en/SPEC.md)'s rules: never hide the definition,
+  the synonym, or the example behind a click or a game, and never make the
+  interaction punitive (no timers, no "lives", no harsh failure messages).
+- Interface text goes in `js/i18n.js`, never hardcoded in `js/app.js` or
+  `index.html`. If you add new text, add its key in **every** language in
+  `I18N`.
 
-## Antes de enviar un cambio
+## Before submitting a change
 
 ```
 node scripts/validar.js
 ```
 
-Revisa sintaxis de los archivos JS, balance de llaves del CSS, que cada
-palabra tenga pictograma y ejemplos bien formados, que las claves de
-interfaz existan en todos los idiomas y que los ids que usa `js/app.js`
-existan en `index.html`. Se ejecuta también automáticamente en cada pull
-request.
+Checks the syntax of the JS files, CSS brace balance, that every word has
+a pictogram and well-formed examples, that interface keys exist in every
+language, and that the ids `js/app.js` uses exist in `index.html`. It also
+runs automatically on every pull request.
 
-## Código de conducta
+## Code of conduct
 
-Este proyecto sigue el `CODE_OF_CONDUCT.md`. Participar implica aceptarlo.
+This project follows `CODE_OF_CONDUCT.md`. Participating means accepting
+it.

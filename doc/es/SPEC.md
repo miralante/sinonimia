@@ -1,4 +1,11 @@
-# Sinonimia — Definición de producto
+# SPEC.md — Definición de producto
+
+> **Este documento define QUÉ es Sinonimia, PARA QUIÉN es y por qué.**
+>
+> Para saber CÓMO está construida la aplicación (arquitectura, ficheros),
+> consulta [`tecnico.md`](tecnico.md).
+
+---
 
 ## Para quién es
 
@@ -34,6 +41,9 @@ nadie se sienta señalado ni excluido. Un objetivo terapéutico específico y
 una redacción pública inclusiva no son contradictorios: son la misma
 decisión de diseño vista desde dentro y desde fuera.
 
+Ver también [`roles.md`](roles.md) para quién participa en el proyecto y
+cómo.
+
 ### Regla de obligado cumplimiento: cero menciones en el producto de cara al usuario
 
 **Ningún texto que vea la persona usuaria puede mencionar, ni directa ni
@@ -56,10 +66,11 @@ Dónde sí aplica y dónde no:
   permanente"), se explica con total normalidad, igual que cualquier otra
   palabra — el objetivo ahí es definir la palabra, no describir a quien la
   consulta.
-- **No aplica** a la documentación interna del proyecto (`PRODUCT.md`,
-  `CLAUDE.md`, `CONTRIBUTING.md`, `README.md`): esos archivos los lee quien
-  mantiene o contribuye al proyecto, no la persona usuaria final, y ahí sí
-  debe quedar explicado el objetivo real (ver la sección anterior).
+- **No aplica** a la documentación interna del proyecto (este documento,
+  [`../../CLAUDE.md`](../../CLAUDE.md), [`../../CONTRIBUTING.es.md`](../../CONTRIBUTING.es.md),
+  [`../../README.es.md`](../../README.es.md), `roles.md`): esos archivos los
+  lee quien mantiene o contribuye al proyecto, no la persona usuaria final,
+  y ahí sí debe quedar explicado el objetivo real (ver la sección anterior).
 
 Esta regla se comprueba automáticamente: `node scripts/validar.js` falla si
 alguno de esos términos aparece en `index.html` o en `js/i18n.js`.
@@ -127,9 +138,10 @@ usado para enlazar un sinónimo a su propia entrada y para elegir las
 opciones falsas de los dos juegos) está preparado para que varias entradas
 compartan `palabra`: nunca se pisan entre sí, y si el sinónimo de otra
 palabra resulta ambiguo se enlaza a las dos, no a una elegida al azar. Ver
-"Dictionary entry shape" en `ARCHITECTURE.md` para el detalle técnico. Las
-dos entradas de `pensión` (`es`) y `pension` (`en`) en `js/data.*.js` son
-el caso de referencia — cópialas si necesitas añadir otro homónimo.
+"Dictionary entry shape" en [`tecnico.md`](tecnico.md)
+para el detalle técnico. Las dos entradas de `pensión` (`es`) y `pension`
+(`en`) en `js/data.*.js` son el caso de referencia — cópialas si necesitas
+añadir otro homónimo.
 
 ## Por qué "solo palabras difíciles"
 
@@ -159,8 +171,9 @@ formulario. Por eso la web incluye, sin backend ni cuentas de usuario:
   no acertar. Al guardar se muestra la frase con un pequeño refuerzo visual.
 - **Dos juegos**, accesibles desde el botón "🎮 Jugar", que abre un menú
   para elegir uno:
-  - **"¿Qué palabra es?"**: se muestra la definición y el pictograma de
-    una palabra y hay que elegir la palabra correcta entre 4 opciones.
+  - **"¿Qué palabra es?"**: se muestra el tema, la definición y el
+    pictograma de una palabra y hay que elegir la palabra correcta entre
+    3 opciones.
   - **"Completa la frase"**: se muestra la frase de ejemplo de una palabra
     con un hueco en el lugar de la palabra difícil, y hay que elegir cuál
     falta entre 3 opciones. Al acertar se revela la frase completa con la
@@ -195,9 +208,12 @@ Reglas que mandan sobre la gamificación:
    las palabras que no son la correcta se eligen primero de un tema
    distinto al de la palabra objetivo (`pickDistractorEntries` en
    `js/app.js`), y solo se recurre a otra palabra del mismo tema si no hay
-   suficientes de temas distintos. Así, releer la pista o la frase permite
-   descartar las opciones por no encajar con el tema, en vez de tener que
-   adivinar entre opciones parecidas.
+   suficientes de temas distintos. La propia pista muestra el tema de la
+   palabra objetivo (una pastilla `tema-pill`) para que ese contraste sea
+   algo que la persona pueda ver y usar, no algo que tenga que saber de
+   antemano. Así, releer la pista o la frase permite descartar las
+   opciones por no encajar con el tema, en vez de tener que adivinar
+   entre opciones parecidas.
 6. **Estrellas como refuerzo positivo, nunca como puntuación que se
    pueda perder.** Cada acierto suma una ⭐ al contador (`juegoAciertos`
    en `js/i18n.js`), con una pequeña animación al ganarla. No hay

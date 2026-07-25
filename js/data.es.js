@@ -12,7 +12,7 @@
  * To add a new word, copy a `{ ... }` block and fill in its fields. No other
  * file needs to change: the site reads this list automatically.
  *
- * Fields (kept in Spanish on purpose — see ARCHITECTURE.md's "Naming
+ * Fields (kept in Spanish on purpose — see doc/en/technical.md's "Naming
  * exceptions" for why the schema keys below are not translated):
  *  id          -> short id, no spaces or accents, unique (used in the word's
  *                 link). Doesn't need to match the same concept's id in
@@ -31,7 +31,7 @@
  *  ejemploSinonimo -> the SAME sentence, swapping that form for its plain version
  *  situacion   -> key shared across all languages: "tramites", "salud",
  *                 "vida-diaria", "finanzas", "vivienda", "trabajo", or
- *                 "legal" (see PRODUCT.md for what each covers). Their
+ *                 "legal" (see doc/en/SPEC.md for what each covers). Their
  *                 on-screen labels (Trámites/Procedures, etc.) live in
  *                 js/i18n.js.
  */
@@ -654,7 +654,7 @@ DICCIONARIOS.es = [
   // --- "Pensión" is a real homograph: two unrelated meanings, same word.
   // Both entries use "palabra": "Pensión" on purpose, to test that the
   // index and the game handle two entries with the same headword. See
-  // "Palabras con doble significado" in PRODUCT.md.
+  // "Palabras con doble significado" in doc/en/SPEC.md.
   {
     id: "pension-economica",
     palabra: "Pensión",

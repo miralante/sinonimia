@@ -25,7 +25,7 @@ npx serve .
 - **Instant search** (by the difficult word or by its meaning), topic
   filter, and browsing by letter.
 - **Spanish and English**, with an architecture designed to add more
-  languages (see "Adding a new language" in `PRODUCT.md`).
+  languages (see "How to add a new language" in [`doc/en/SPEC.md`](doc/en/SPEC.md)).
 - **Accessibility**: adjustable font size, high contrast, visible focus,
   keyboard navigation, `aria-live` on dynamic messages.
 - **Light gamification** with no backend or accounts: word of the day, a
@@ -37,18 +37,21 @@ npx serve .
 
 ## Project documentation
 
-- **`PRODUCT.md`** (in Spanish) — the product definition: who it's for, the
-  easy-read rules every definition and example must follow, the
-  multi-language architecture, and the rules governing gamification. It's
-  the source of truth for content: read it before adding or editing words.
-- **`ARCHITECTURE.md`** — the technical document: how the system is built,
-  file by file, and the project's language policy (English for code and
-  comments, Spanish/English for product content).
-- **`CLAUDE.md`** — technical guide for anyone (person or agent) touching
-  the code.
-- **`CONTRIBUTING.md`** (in Spanish) — how to propose a new word, a new
-  language, or a code change, and how to validate a change before
-  submitting it.
+All project documentation lives in the `doc/` folder, plus a few files at
+the repository root:
+
+| Language | Entry point |
+|---|---|
+| 🇬🇧 English (this file) | [`doc/en/index.md`](doc/en/index.md) |
+| 🇪🇸 Español | [`doc/es/indice.md`](doc/es/indice.md) |
+
+| If you want to… | Start with |
+|---|---|
+| Understand what Sinonimia is and who it's for | [`doc/en/SPEC.md`](doc/en/SPEC.md) — the product definition: easy-read rules, multi-language architecture, gamification rules. Source of truth for content: read it before adding or editing words. |
+| Know who participates in the project and how | [`doc/en/roles.md`](doc/en/roles.md) |
+| See the technical architecture | [`doc/en/technical.md`](doc/en/technical.md) — how the system is built, file by file, and the project's language policy (English for code and comments, Spanish/English for product content). |
+| Add a word, a language, or a code change | [`CONTRIBUTING.md`](CONTRIBUTING.md) / [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) |
+| Have an AI agent touch the code | `CLAUDE.md` |
 
 ## Validating changes
 
@@ -71,7 +74,7 @@ node scripts/estado-contenido.js --detalle
 Before adding words, this command reports which categories have few
 (fewer than 8) and lists the ones that already exist with their synonyms,
 to avoid repeating a concept. It's the first step of the process described
-in "Process for expanding content" in `PRODUCT.md`.
+in "Process for expanding content" in [`doc/en/SPEC.md`](doc/en/SPEC.md).
 
 ## License
 

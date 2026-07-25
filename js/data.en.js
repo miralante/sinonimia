@@ -6,7 +6,7 @@
  * needed. Extend this file the same way js/data.es.js is extended — see the
  * field-by-field comments there. "situacion" must use the same shared keys:
  * "tramites", "salud", "vida-diaria", "finanzas", "vivienda", "trabajo", or
- * "legal" (see PRODUCT.md; their on-screen labels live in js/i18n.js).
+ * "legal" (see doc/en/SPEC.md; their on-screen labels live in js/i18n.js).
  */
 
 window.DICCIONARIOS = window.DICCIONARIOS || {};
@@ -239,7 +239,7 @@ DICCIONARIOS.en = [
   // "Pension" is a real homograph in English too: unrelated meanings,
   // same word. Both entries use "palabra": "Pension" on purpose, to test
   // that the index and the game handle two entries with the same
-  // headword. See "Palabras con doble significado" in PRODUCT.md.
+  // headword. See "Palabras con doble significado" in doc/en/SPEC.md.
   {
     id: "pension-payment",
     palabra: "Pension",

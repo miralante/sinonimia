@@ -739,7 +739,7 @@
     return true;
   }
 
-  // --- Game 1: Which word is it? (clue + pictogram + 4 options) ---
+  // --- Game 1: Which word is it? (clue + pictogram + 3 options) ---
   function pickDistractorEntries(target, howMany) {
     var targetName = normalize(target.palabra);
     // Exclude the target's own homograph twin too (same "palabra", different
@@ -798,10 +798,20 @@
     img.alt = "";
     clue.appendChild(img);
 
+    var content = document.createElement("div");
+    content.className = "juego-pista-contenido";
+
+    var topicPill = document.createElement("span");
+    topicPill.className = "tema-pill";
+    topicPill.textContent = t("tema_" + target.situacion);
+    content.appendChild(topicPill);
+
     var def = document.createElement("p");
     def.className = "juego-pista-texto";
     def.textContent = target.definicion;
-    clue.appendChild(def);
+    content.appendChild(def);
+
+    clue.appendChild(content);
 
     gameView.appendChild(clue);
 
@@ -813,7 +823,7 @@
     message.setAttribute("role", "status");
     message.setAttribute("aria-live", "polite");
 
-    var optionList = shuffle([target].concat(pickDistractorEntries(target, 3)));
+    var optionList = shuffle([target].concat(pickDistractorEntries(target, 2)));
 
     optionList.forEach(function (option) {
       var btn = document.createElement("button");
@@ -906,6 +916,12 @@
 
     var clue = document.createElement("div");
     clue.className = "juego-pista juego-pista-frase";
+
+    var topicPill = document.createElement("span");
+    topicPill.className = "tema-pill";
+    topicPill.textContent = t("tema_" + target.situacion);
+    clue.appendChild(topicPill);
+
     clue.appendChild(createSentenceWithBlank(target.ejemplo.texto, target.ejemplo.palabra));
     gameView.appendChild(clue);
 

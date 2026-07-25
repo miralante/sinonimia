@@ -25,7 +25,7 @@ npx serve .
 - **Buscador** instantáneo (por la palabra difícil o por su significado),
   filtro por tema y navegación por letra.
 - **Español e inglés**, con arquitectura pensada para añadir más idiomas
-  (ver "Añadir un idioma" en `PRODUCT.md`).
+  (ver "Cómo añadir un idioma nuevo" en [`doc/es/SPEC.md`](doc/es/SPEC.md)).
 - **Accesibilidad**: tamaño de letra ajustable, alto contraste, foco visible,
   navegación por teclado, `aria-live` en los mensajes dinámicos.
 - **Gamificación ligera** sin backend ni cuentas: palabra del día, botón
@@ -37,18 +37,21 @@ npx serve .
 
 ## Documentación del proyecto
 
-- **`PRODUCT.md`** — la definición de producto: para quién es, las reglas de
-  lectura fácil que debe cumplir cada definición y ejemplo, la arquitectura
-  multi-idioma y las reglas que gobiernan la gamificación. Es la fuente de
-  la verdad sobre el contenido: léelo antes de añadir o editar palabras.
-- **`ARCHITECTURE.md`** (en inglés) — el documento técnico: cómo está
-  construido el sistema, archivo por archivo, y la política de idioma del
-  proyecto (inglés para código y comentarios, español/inglés para el
-  contenido de producto).
-- **`CLAUDE.md`** — guía técnica para quien (persona o agente) vaya a tocar
-  el código.
-- **`CONTRIBUTING.md`** — cómo proponer una palabra nueva, un idioma nuevo o
-  un cambio de código, y cómo validar lo que se cambia antes de enviarlo.
+Toda la documentación del proyecto vive en la carpeta `doc/`, junto con
+algunos archivos en la raíz del repositorio:
+
+| Idioma | Punto de entrada |
+|---|---|
+| 🇪🇸 Español (este archivo) | [`doc/es/indice.md`](doc/es/indice.md) |
+| 🇬🇧 English | [`doc/en/index.md`](doc/en/index.md) |
+
+| Si quieres… | Empieza por… |
+|---|---|
+| Entender qué es Sinonimia y para quién es | [`doc/es/SPEC.md`](doc/es/SPEC.md) — la definición de producto: reglas de lectura fácil, arquitectura multi-idioma, reglas de gamificación. Fuente de la verdad sobre el contenido: léelo antes de añadir o editar palabras. |
+| Saber quién participa en el proyecto y cómo | [`doc/es/roles.md`](doc/es/roles.md) |
+| Ver la arquitectura técnica | [`doc/es/tecnico.md`](doc/es/tecnico.md) — cómo está construido el sistema, archivo por archivo, y la política de idioma del proyecto (inglés para código y comentarios, español/inglés para el contenido de producto). |
+| Añadir una palabra, un idioma o un cambio de código | [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) / [`CONTRIBUTING.md`](CONTRIBUTING.md) |
+| Un agente de IA vaya a tocar el código | `CLAUDE.md` (en inglés) |
 
 ## Validar los cambios
 
@@ -71,7 +74,7 @@ node scripts/estado-contenido.js --detalle
 Antes de añadir palabras, este comando dice qué categorías tienen pocas
 (menos de 8) y lista las que ya existen con sus sinónimos, para no repetir
 un concepto. Es el primer paso del proceso descrito en "Proceso para
-ampliar el contenido" en `PRODUCT.md`.
+ampliar el contenido" en [`doc/es/SPEC.md`](doc/es/SPEC.md).
 
 ## Licencia
 

@@ -4,9 +4,9 @@
  *   node scripts/estado-contenido.js
  *
  * This is the first step of the content-growth process documented in
- * PRODUCT.md ("Proceso para ampliar el contenido"). It does NOT write or
+ * doc/en/SPEC.md ("Process for expanding content"). It does NOT write or
  * suggest definitions — writing a lectura-fácil definition needs editorial
- * judgment (see PRODUCT.md's writing rules) and can't be templated safely.
+ * judgment (see doc/en/SPEC.md's writing rules) and can't be templated safely.
  * What it CAN automate is the bookkeeping a human (or an AI agent) needs
  * before adding words:
  *
@@ -25,7 +25,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.join(__dirname, "..");
-const MIN_WORDS_PER_TOPIC = 8; // matches PRODUCT.md's "un puñado de palabras reales"
+const MIN_WORDS_PER_TOPIC = 8; // matches doc/en/SPEC.md's "un puñado de palabras reales"
 const detailed = process.argv.includes("--detalle") || process.argv.includes("--detail");
 
 function loadAsGlobal(relativePath, pattern, replacement) {
@@ -109,7 +109,7 @@ if (languages.length > 1) {
 
 console.log(
   "Next step: pick a topic flagged above, research candidate words for it\n" +
-  "(see PRODUCT.md's source list), check the headwords/synonyms already\n" +
+  "(see doc/en/SPEC.md's source list), check the headwords/synonyms already\n" +
   "listed with --detalle so you don't duplicate a concept, write each entry\n" +
   "following the lectura-fácil rules, find its pictogram with\n" +
   "scripts/buscar-pictograma.js, then run scripts/validar.js."

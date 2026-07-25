@@ -150,7 +150,7 @@ usedIds.forEach(function (id) {
 ok("DOM ids checked (" + usedIds.size + ")");
 
 // --- 7. The user-facing product never names disability ---
-// PRODUCT.md's rule ("Mandatory rule: zero mentions in the user-facing
+// doc/en/SPEC.md's rule ("Mandatory rule: zero mentions in the user-facing
 // product"): index.html and js/i18n.js are the only things the end user
 // sees, and they may not mention, directly or indirectly, intellectual
 // disability or occupational therapy. js/data.*.js is deliberately out of
@@ -178,7 +178,7 @@ const rawI18nSrc = fs.readFileSync(path.join(ROOT, "js/i18n.js"), "utf8");
   var normalized = normalize(target.content);
   FORBIDDEN_TERMS.forEach(function (term) {
     if (normalized.indexOf(normalize(term)) !== -1) {
-      fail(target.file + ": contains \"" + term + "\" — the user-facing product may not mention disability or occupational therapy (see PRODUCT.md)");
+      fail(target.file + ": contains \"" + term + "\" — the user-facing product may not mention disability or occupational therapy (see doc/en/SPEC.md)");
     }
   });
 });
