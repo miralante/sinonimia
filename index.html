@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sinonimia — Diccionario fácil de palabras difíciles</title>
+<meta name="description" content="Diccionario en lenguaje sencillo: palabras técnicas y difíciles de trámites y de salud, explicadas con ejemplos de la vida diaria y sus sinónimos.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#contenido" data-i18n="saltarContenido">Saltar al contenido</a>
+
+<header class="cabecera">
+  <div class="cabecera-fila">
+    <h1><a href="#/">Sinonimia<span class="cabecera-punto">.</span></a></h1>
+    <p class="tagline" data-i18n="tagline">Palabras difíciles, explicadas fácil</p>
+  </div>
+
+  <div class="a11y-barra" role="toolbar" aria-label="Herramientas de accesibilidad">
+    <div class="idioma-selector" role="group" aria-label="Idioma / Language">
+      <button type="button" class="idioma-btn activo" data-lang="es" aria-pressed="true">ES</button>
+      <button type="button" class="idioma-btn" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+
+    <span class="a11y-etiqueta" id="tamano-label" data-i18n="tamanoLetra">Tamaño de letra</span>
+    <div class="a11y-grupo" role="group" aria-labelledby="tamano-label">
+      <button type="button" id="letra-menos" data-i18n-aria-label="reducirLetra" aria-label="Reducir tamaño de letra">A−</button>
+      <button type="button" id="letra-normal" data-i18n-aria-label="letraNormal" aria-label="Tamaño de letra normal">A</button>
+      <button type="button" id="letra-mas" data-i18n-aria-label="aumentarLetra" aria-label="Aumentar tamaño de letra">A+</button>
+    </div>
+    <button type="button" id="contraste-toggle" class="a11y-contraste" aria-pressed="false" data-i18n="altoContraste">
+      Alto contraste
+    </button>
+  </div>
+</header>
+
+<main id="contenido">
+
+  <section class="hero" aria-label="Palabra del día y progreso">
+    <div class="hero-palabra">
+      <p class="hero-etiqueta" data-i18n="heroEtiqueta">Palabra del día</p>
+      <p class="hero-palabra-nombre" id="hero-palabra-nombre">—</p>
+      <a href="#/" id="hero-cta" class="boton-cta" data-i18n="heroCta">Descúbrela →</a>
+    </div>
+    <div class="hero-progreso">
+      <p class="hero-progreso-texto" id="progreso-texto" role="status" aria-live="polite">
+        0
+      </p>
+      <div class="barra-progreso" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="barra-progreso">
+        <div class="barra-progreso-relleno" id="barra-progreso-relleno"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="buscador" aria-label="Buscar una palabra">
+    <label for="buscar" data-i18n="buscarLabel">Escribe una palabra o un tema</label>
+    <div class="buscador-fila">
+      <input
+        type="search"
+        id="buscar"
+        autocomplete="off"
+        data-i18n-placeholder="buscarPlaceholder"
+        placeholder="Por ejemplo: subsanar, cefalea, artrosis…"
+        aria-describedby="buscar-ayuda">
+      <button type="button" id="sorprendeme" class="boton-cta boton-secundario" data-i18n="sorprendeme">🎲 Sorpréndeme</button>
+      <a href="#/" id="juego-cta" class="boton-cta boton-secundario" data-i18n="juegoCta">🎮 Jugar</a>
+    </div>
+    <p id="buscar-ayuda" class="ayuda-texto" data-i18n="buscarAyuda">
+      Busca por la palabra difícil o por su significado sencillo. No hace falta escribir acentos.
+    </p>
+    <p id="resultados-info" class="resultados-info" role="status" aria-live="polite"></p>
+  </section>
+
+  <nav class="filtros" aria-label="Filtrar por tema">
+    <span class="filtros-etiqueta" data-i18n="temaEtiqueta">Tema:</span>
+    <button type="button" class="filtro-btn activo" data-tema="todos" data-i18n="temaTodos">Todos</button>
+    <button type="button" class="filtro-btn" data-tema="tramites" data-i18n="tema_tramites">Trámites</button>
+    <button type="button" class="filtro-btn" data-tema="salud" data-i18n="tema_salud">Salud</button>
+    <button type="button" class="filtro-btn" data-tema="vida-diaria" data-i18n="tema_vida-diaria">Vida diaria</button>
+    <button type="button" class="filtro-btn" data-tema="finanzas" data-i18n="tema_finanzas">Finanzas</button>
+    <button type="button" class="filtro-btn" data-tema="vivienda" data-i18n="tema_vivienda">Vivienda</button>
+    <button type="button" class="filtro-btn" data-tema="trabajo" data-i18n="tema_trabajo">Trabajo</button>
+    <button type="button" class="filtro-btn" data-tema="legal" data-i18n="tema_legal">Legal</button>
+  </nav>
+
+  <nav class="alfabeto" data-i18n-aria-label="alfabetoLabel" aria-label="Buscar por letra inicial" id="alfabeto"></nav>
+
+  <section id="vista-lista" data-i18n-aria-label="listaLabel" aria-label="Lista de palabras">
+    <ul class="tarjetas" id="lista-palabras"></ul>
+  </section>
+
+  <section id="vista-detalle" class="detalle" hidden data-i18n-aria-label="detalleLabel" aria-label="Detalle de la palabra"></section>
+
+  <section id="vista-juego" class="detalle juego" hidden data-i18n-aria-label="juegoLabel" aria-label="Juego para practicar las palabras"></section>
+
+  <p id="sin-resultados" class="sin-resultados" hidden data-i18n="sinResultados">
+    No hemos encontrado esa palabra. Prueba a escribir solo el principio, por ejemplo «cefal» para «cefalea».
+  </p>
+
+</main>
+
+<footer class="pie">
+  <div class="pie-mensaje">
+    <p data-i18n="pieMensaje">Sinonimia explica palabras difíciles. Frases cortas. Ejemplos de cada día.</p>
+  </div>
+  <p class="pie-creditos" data-i18n-html="pieCreditosHtml">
+    Los pictogramas son de <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a>
+    (Gobierno de Aragón, autor Sergio Palao, licencia CC BY-NC-SA).
+    Las definiciones se basan en glosarios de lenguaje claro y glosarios médicos para pacientes.
+  </p>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/data.es.js"></script>
+<script src="js/data.en.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

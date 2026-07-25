@@ -1,0 +1,20 @@
+# Sistema operativo / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Carpeta local con notas personales y el .code-workspace del autor
+# (el nombre empieza por coma por un renombrado accidental en Windows;
+#  Git lo trata como una carpeta normal y la subiría al repo)
+/,dev/
+\067ev/
+
+# Por si en el futuro alguien añade alguna herramienta con dependencias
+node_modules/
+npm-debug.log*
+
+# Nunca subir el shared secret de OpenSymbols (se pasa como variable de entorno)
+.env
+.env.*
