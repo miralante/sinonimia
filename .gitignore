@@ -18,6 +18,10 @@ npm-debug.log*
 .env
 .env.*
 
+# Lista de frecuencias de lengua general descargada por
+# scripts/candidatos-corpus.js (se vuelve a descargar sola si se borra)
+/scripts/.cache/
+
 # Salida de la herramienta graphify (grafo de conocimiento local; no debe
 # versionarse)
 /graphify-out/

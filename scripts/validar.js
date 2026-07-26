@@ -114,11 +114,11 @@ languages.forEach(function (language) {
 });
 
 // --- 5. Every t("...") key app.js uses exists in every language ---
-// "tema_" is not a real key: app.js builds it as t("tema_" + situacion), so
-// the static scan only sees the prefix. The full keys (tema_tramites,
-// tema_salud, tema_vida-diaria) ARE checked, since they appear in full in
-// js/i18n.js and in index.html.
-const DYNAMIC_PREFIXES = ["tema_"];
+// "tema_" and "idiomaNombre_" aren't real keys: app.js builds them as
+// t("tema_" + situacion) / t("idiomaNombre_" + lang), so the static scan
+// only sees the prefix. The full keys (tema_tramites, idiomaNombre_es, ...)
+// ARE checked, since they appear in full in js/i18n.js and in index.html.
+const DYNAMIC_PREFIXES = ["tema_", "idiomaNombre_"];
 const appSrc = fs.readFileSync(path.join(ROOT, "js/app.js"), "utf8");
 const usedKeys = new Set();
 const keyRe = /\bt\(\s*["']([a-zA-Z0-9_-]+)["']/g;

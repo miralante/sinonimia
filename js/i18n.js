@@ -57,6 +57,9 @@ const I18N = {
     noEncontrada: "No hemos encontrado esa palabra.",
 
     volver: "← Volver al buscador",
+    verEnOtroIdioma: "🌐 Ver en {idioma}: {palabra}",
+    idiomaNombre_es: "español",
+    idiomaNombre_en: "inglés",
     seDiceTambien: "Se puede decir también",
     enFrase: "En una frase de cada día",
     dichoFormaSencilla: "Dicho de forma más sencilla:",
@@ -64,6 +67,7 @@ const I18N = {
 
     pieMensaje: "Sinonimia explica palabras difíciles. Frases cortas. Ejemplos de cada día.",
     pieCreditosHtml: 'Los pictogramas son de <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (Gobierno de Aragón, autor Sergio Palao, licencia CC BY-NC-SA). Las definiciones se basan en glosarios de lenguaje claro y glosarios médicos para pacientes.',
+    piePrivacidadHtml: '<a href="about/privacidad.html">Privacidad</a>',
 
     tituloDetalleSufijo: " — Sinonimia",
 
@@ -145,6 +149,9 @@ const I18N = {
     noEncontrada: "We couldn't find that word.",
 
     volver: "← Back to search",
+    verEnOtroIdioma: "🌐 See it in {idioma}: {palabra}",
+    idiomaNombre_es: "Spanish",
+    idiomaNombre_en: "English",
     seDiceTambien: "You can also say",
     enFrase: "In an everyday sentence",
     dichoFormaSencilla: "Said in a simpler way:",
@@ -152,6 +159,7 @@ const I18N = {
 
     pieMensaje: "Sinonimia explains hard words. Short sentences. Everyday examples.",
     pieCreditosHtml: 'Pictograms by <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (Government of Aragón, author Sergio Palao, CC BY-NC-SA license). Definitions are based on plain-language glossaries and patient-facing medical glossaries.',
+    piePrivacidadHtml: '<a href="about/privacidad.html">Privacy</a>',
 
     tituloDetalleSufijo: " — Sinonimia",
 

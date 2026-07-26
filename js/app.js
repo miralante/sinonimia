@@ -51,6 +51,33 @@
     });
   }
 
+  // Cross-language links use the shared ARASAAC pictogram id as the only
+  // link between a concept in one language's dictionary and its counterpart
+  // in another: the data files don't keep matching ids across languages (see
+  // js/data.es.js), but a translated word intentionally reuses the same
+  // pictogram (js/data.en.js's header comment). Pictogram ids ARE reused
+  // within a single language for unrelated words, though, so a match only
+  // counts when it's unique on both sides — otherwise there's no way to know
+  // which word it corresponds to, and no link is shown.
+  function otherLanguageEntries(entry) {
+    var ownMatches = activeDictionary.filter(function (e) {
+      return e.imagen.id === entry.imagen.id;
+    });
+    if (ownMatches.length !== 1) return [];
+
+    var translations = [];
+    AVAILABLE_LANGUAGES.forEach(function (lang) {
+      if (lang === currentLanguage) return;
+      var matches = (DICCIONARIOS[lang] || []).filter(function (e) {
+        return e.imagen.id === entry.imagen.id;
+      });
+      if (matches.length === 1) {
+        translations.push({ language: lang, entry: matches[0] });
+      }
+    });
+    return translations;
+  }
+
   function matchesSearch(entry, normalizedQuery) {
     if (!normalizedQuery) return true;
     if (normalize(entry.palabra).indexOf(normalizedQuery) !== -1) return true;
@@ -294,6 +321,23 @@
     detailView.appendChild(sentences);
 
     detailView.appendChild(createYourSentenceBlock(entry));
+
+    var translations = otherLanguageEntries(entry);
+    if (translations.length > 0) {
+      var translationsBox = document.createElement("div");
+      translationsBox.className = "detalle-traducciones";
+      translations.forEach(function (translation) {
+        var translationLink = document.createElement("a");
+        translationLink.className = "detalle-traduccion";
+        translationLink.href = "#/" + translation.language + "/palabra/" + translation.entry.id;
+        translationLink.textContent = t("verEnOtroIdioma", {
+          idioma: t("idiomaNombre_" + translation.language),
+          palabra: translation.entry.palabra,
+        });
+        translationsBox.appendChild(translationLink);
+      });
+      detailView.appendChild(translationsBox);
+    }
 
     document.title = entry.palabra + t("tituloDetalleSufijo");
     h2.focus();

@@ -65,6 +65,30 @@ exist in every language, and that the ids `js/app.js` uses exist in
 `index.html`. It also runs on every pull request
 (`.github/workflows/validate.yml`).
 
+## Deploying
+
+Sinonimia is a fully static site (HTML/CSS/JS, no build step), so it ships
+directly to **[Cloudflare Pages](https://pages.cloudflare.com)**. The
+configuration is in [`wrangler.toml`](wrangler.toml), the HTTP headers
+security policy is in [`_headers`](_headers), and the GitHub Actions
+workflow is in
+[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+
+To deploy your own fork:
+
+1. Create a Cloudflare Pages project from this repo in the dashboard
+   (**Workers & Pages → Create → Pages → Connect to Git**). Build command
+   is empty; output directory is `.`.
+2. In the repo's **Settings → Secrets and variables → Actions**, add:
+   - `CLOUDFLARE_API_TOKEN` — a Cloudflare API token with the
+     *Cloudflare Pages: Edit* permission.
+   - `CLOUDFLARE_ACCOUNT_ID` — your Cloudflare account ID.
+3. Push to `main`. The workflow re-runs `node scripts/validar.js` and, on
+   success, deploys.
+
+Pull requests automatically get a preview URL from Cloudflare Pages — no
+extra workflow is needed.
+
 ## Expanding the dictionary
 
 ```

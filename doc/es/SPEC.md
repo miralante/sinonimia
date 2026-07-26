@@ -314,15 +314,39 @@ diccionario:
    multi-idioma" más arriba), así que cada combinación categoría+idioma se
    trabaja de forma independiente, aunque una misma pasada puede cubrir
    varias.
-3. **Buscar términos candidatos** para esa categoría **en una fuente de
-   referencia del idioma elegido** (para `es`, glosarios de lenguaje claro o
-   glosarios médicos para pacientes en español; para `en` u otro idioma, el
-   equivalente de "lenguaje claro" en ese idioma — no un glosario en
-   español traducido a mano), descartando los que ya aparecen en el listado
-   de `--detalle` de ese idioma. **No traduzcas las palabras que ya existen
-   en el otro idioma**: cada idioma elige las palabras que de verdad son
-   difíciles en ese idioma, que no tienen por qué coincidir con las del
-   otro (lo mismo que ya dice "Cómo añadir un idioma nuevo" para el
+3. **Buscar términos candidatos** para esa categoría. Hay dos formas de
+   encontrarlos, y no son excluyentes:
+   - **Glosario de referencia**: para `es`, glosarios de lenguaje claro o
+     glosarios médicos para pacientes en español; para `en` u otro idioma,
+     el equivalente de "lenguaje claro" en ese idioma — no un glosario en
+     español traducido a mano.
+   - **Corpus + ontología**, útil cuando el glosario de referencia se queda
+     corto para una categoría concreta: compara la frecuencia de un término
+     en un corpus del dominio (BOE, folletos de atención primaria,
+     convenios laborales...) frente a su frecuencia en un corpus de lengua
+     general del mismo idioma (p. ej. CREA/CORPES para `es`); un término
+     mucho más frecuente en el dominio que en la lengua general es un buen
+     candidato a "palabra difícil que hace falta explicar" (técnica de
+     *keyness*). Una ontología de dominio (UMLS/SNOMED CT para `salud`,
+     EuroVoc o un tesauro jurídico para `legal`) no sustituye este paso de
+     búsqueda: sirve sobre todo para **clasificar** los candidatos que ya
+     tienes en una de las siete categorías, porque sus taxonomías no
+     coinciden 1:1 con `tramites/salud/vida-diaria/finanzas/vivienda/
+     trabajo/legal` (son categorías AIVD, no categorías de dominio) — sigue
+     haciendo falta criterio humano para encajar cada término.
+     `node scripts/candidatos-corpus.js <archivo-corpus.txt> <idioma>`
+     implementa la parte de *keyness*: tú aportas el corpus de dominio (un
+     `.txt` con extractos reales del tipo de documento de esa categoría), y
+     compara sus frecuencias contra la lista de lengua general de
+     [hermitdave/FrequencyWords](https://github.com/hermitdave/FrequencyWords)
+     (basada en subtítulos, como referencia de "lengua cotidiana"), que
+     descarga y cachea la primera vez que se usa.
+
+   Sea cual sea la fuente, descarta los términos que ya aparecen en el
+   listado de `--detalle` de ese idioma. **No traduzcas las palabras que ya
+   existen en el otro idioma**: cada idioma elige las palabras que de
+   verdad son difíciles en ese idioma, que no tienen por qué coincidir con
+   las del otro (lo mismo que ya dice "Cómo añadir un idioma nuevo" para el
    arranque de un idioma nuevo, aplica igual al hacer crecer uno que ya
    existe).
 4. **Escribir cada entrada** siguiendo al pie de la letra las reglas de

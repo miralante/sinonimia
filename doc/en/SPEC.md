@@ -308,11 +308,35 @@ the dictionary needs to grow:
    isn't shared across languages (see "Multi-language architecture"
    above), so each category+language combination is worked independently,
    even though a single pass can cover several.
-3. **Look for candidate terms** for that category **in a reference source
-   for the chosen language** (for `es`, plain-language or patient-facing
-   medical glossaries in Spanish; for `en` or another language, that
-   language's own "plain language" equivalent — not a Spanish glossary
-   translated by hand), discarding ones that already show up in that
+3. **Look for candidate terms** for that category. There are two ways to
+   find them, and they aren't mutually exclusive:
+   - **Reference glossary**: for `es`, plain-language or patient-facing
+     medical glossaries in Spanish; for `en` or another language, that
+     language's own "plain language" equivalent — not a Spanish glossary
+     translated by hand.
+   - **Corpus + ontology**, useful when the reference glossary falls short
+     for a given category: compare a term's frequency in a domain corpus
+     (official gazettes, primary-care leaflets, employment contracts...)
+     against its frequency in a general-language corpus of the same
+     language (e.g. a national reference corpus for `es`); a term that's
+     much more frequent in the domain than in general language is a good
+     candidate for "hard word that needs explaining" (a *keyness*
+     technique). A domain ontology (UMLS/SNOMED CT for `salud`, EuroVoc or
+     a legal thesaurus for `legal`) doesn't replace this search step: it's
+     mainly useful to **classify** candidates you already have into one of
+     the seven categories, because its taxonomy doesn't map 1:1 onto
+     `tramites/salud/vida-diaria/finanzas/vivienda/trabajo/legal` (those
+     are AIVD categories, not domain categories) — fitting each term still
+     needs human judgment.
+     `node scripts/candidatos-corpus.js <corpus-file.txt> <lang>` implements
+     the keyness half: you supply the domain corpus (a `.txt` with real
+     excerpts of that category's kind of document), and it compares
+     frequencies against
+     [hermitdave/FrequencyWords](https://github.com/hermitdave/FrequencyWords)'
+     general-language list (subtitle-based, as an "everyday language"
+     baseline), downloaded and cached the first time it runs.
+
+   Whichever source you use, discard terms that already show up in that
    language's `--detalle` listing. **Don't translate words that already
    exist in the other language**: each language picks whichever words are
    genuinely difficult in that language, and they don't have to match the
