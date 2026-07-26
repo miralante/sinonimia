@@ -168,12 +168,22 @@ environment variable. Never commit that secret.
 OPENSYMBOLS_SECRET=xxxx node scripts/buscar-pictograma.js "corregir un error" es
 ```
 
+If you already have a short-lived access token (the JSON the secret
+exchange returns, e.g. `{"access_token": "temp::...", "expires": "..."}`),
+pass it as `OPENSYMBOLS_TOKEN` instead — the script skips the exchange
+step and uses the token directly. Useful when the token was generated
+ahead of time by another tool:
+
+```
+OPENSYMBOLS_TOKEN=temp::... node scripts/buscar-pictograma.js "corregir un error" es
+```
+
 **The script automatically falls back to ARASAAC's own public API** (no
 key needed, `searchArasaac()` in the script) whenever OpenSymbols isn't
-usable: `OPENSYMBOLS_SECRET` isn't set, the OpenSymbols token/search request
-fails (bad secret, network error, rate limit, service down), or OpenSymbols
-returns zero results for the term. That fallback is why the script also
-works with no setup at all:
+usable: neither `OPENSYMBOLS_SECRET` nor `OPENSYMBOLS_TOKEN` is set, the
+OpenSymbols token/search request fails (bad secret, network error, rate
+limit, service down), or OpenSymbols returns zero results for the term.
+That fallback is why the script also works with no setup at all:
 
 ```
 node scripts/buscar-pictograma.js "corregir un error" es
