@@ -1,103 +1,73 @@
 # Deploying Sinonimia to Cloudflare Pages
 
-This file is the **runbook** for whoever has to deploy or re-deploy the site.
-It's deliberately outside the codebase (`.md` at the repo root, excluded
-from the deploy by `wrangler.toml → pages_build_exclude`) so the public site
-never exposes it.
+Sinonimia is deployed on **Cloudflare Pages**, using its built-in
+GitHub integration. There is no custom GitHub Actions workflow — the
+Cloudflare dashboard owns the build and deploy.
 
-> **Important:** Cloudflare credentials and GitHub Secrets are **never**
-> stored in this repository. If any email, token, or account ID appears in a
-> commit, rotate the credential and `git filter-repo` the history. See
-> [SECURITY.md § Reporting a vulnerability](#) if that ever happens.
+## How it works
 
-## When to read this
+1. The repo `miralante/sinonimia` is connected to a Cloudflare Pages
+   project named `sinonimia`.
+2. Every push to `main` triggers a Pages build in Cloudflare's
+   infrastructure.
+3. The build is a no-op: no `build command`, no `output directory` other
+   than `.`, so the static files are served as-is.
+4. The `validate.yml` GitHub Action still runs on every push and PR
+   to gate content, but it does not deploy.
 
-- First time the project is set up on Cloudflare.
-- Rotating the API token (the old one was leaked / expired / you lost it).
-- Onboarding a new maintainer with deploy rights.
+The custom `wrangler.toml` and `deploy.yml` workflow that the project
+briefly had have been removed; Cloudflare's own CI is enough for a
+zero-build static site.
 
-## Pre-requisites
+## Configuration in Cloudflare
 
-- A Cloudflare account. The current production account is the personal
-  Outlook account of the project owner; if that changes, update
-  `wrangler.toml → name` (project name is globally unique) before the next
-  push.
-- A GitHub account with **Maintain** access to this repo (to create secrets
-  and let Actions run deploys).
+When the project is set up in the Cloudflare dashboard:
 
-## One-time setup
-
-### 1. Create the Cloudflare Pages project
-
-1. Sign in to the [Cloudflare dashboard](https://dash.cloudflare.com).
-2. **Workers & Pages → Create → Pages → Connect to Git**.
-3. Pick this GitHub repo and the `main` branch.
-4. **Framework preset:** None.
-5. **Build command:** *(leave empty — there is no build step).*
-6. **Build output directory:** `.`.
-7. Save. The first deploy will fail or sit idle; the GitHub Actions
-   workflow takes over for actual deploys.
-
-### 2. Create the Cloudflare API token
-
-Use a scoped token, never the Global API Key.
-
-1. **My Profile → API Tokens → Create Token.**
-2. Use the **"Edit Cloudflare Pages"** template, or create a custom token
-   with:
-   - **Permissions:** Account → *Cloudflare Pages: Edit*.
-   - **Account Resources:** restrict to the account this project belongs
-     to.
-   - **TTL:** the shortest option (≤ 1 day) so the token expires fast if
-     forgotten.
-3. Copy the token. **Cloudflare only shows it once.**
-
-The Cloudflare **Account ID** is shown in the dashboard sidebar
-(bottom-right) on any zone. Copy it too.
-
-### 3. Add the GitHub Secrets
-
-The deploy workflow
-([`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)) reads two
-secrets:
-
-| Secret name | Value |
+| Setting | Value |
 |---|---|
-| `CLOUDFLARE_API_TOKEN` | the API token from step 2 |
-| `CLOUDFLARE_ACCOUNT_ID` | the account ID from step 2 |
+| Framework preset | None |
+| Build command | *(empty)* |
+| Build output directory | `.` |
+| Production branch | `main` |
+| Root directory | *(empty — repo root)* |
 
-Add them at **Settings → Secrets and variables → Actions → New repository
-secret**. They are encrypted at rest and only exposed to Actions runs.
+No environment variables are required: the app makes no server-side
+calls. The ARASAAC pictograms are public static images, served from
+`https://static.arasaac.org`.
 
-## Day-to-day
+## Required Cloudflare headers
 
-Nothing to do manually. Every push to `main` triggers:
+The site uses a `_headers` file at the repo root to set
+security headers (CSP, X-Frame-Options, Referrer-Policy,
+Permissions-Policy, etc.) and a one-year immutable cache for the
+dictionary, CSS, images, and app scripts. Cloudflare Pages reads this
+file on every deploy and applies the rules automatically — no
+dashboard configuration needed.
 
-1. The **Validar** workflow (`validate.yml`) — gates the deploy via PRs.
-2. The **Deploy to Cloudflare Pages** workflow (`deploy.yml`) — re-runs the
-   validator, then `wrangler pages deploy`s the repo root.
+## How to redeploy
 
-Pull requests automatically get a preview URL from Cloudflare Pages; no
-extra workflow is needed.
+Nothing to do. Push to `main` and Cloudflare Pages rebuilds.
 
-## Rotating the API token
+For a manual rebuild (e.g. after Cloudflare itself had an incident),
+go to the Cloudflare dashboard → Workers & Pages → sinonimia → "Create
+deployment" → choose a branch or upload a directory.
 
-If the token ever leaks, expires, or you simply want a fresh one:
+## How to roll back
 
-1. Create a new token in Cloudflare (step 2 above).
-2. Update `CLOUDFLARE_API_TOKEN` in GitHub Secrets.
-3. Revoke the old token from the same Cloudflare page.
+Cloudflare dashboard → Workers & Pages → sinonimia → **Deployments**.
+Each successful build is listed with a timestamp. Click any of them
+and select **"Retry deployment"** or **"Rollback to this deployment"**.
 
-There is no API call or cache to invalidate — the next deploy uses the new
-secret.
+## How to add a custom domain
 
-## Updating the Cloudflare account
+Cloudflare dashboard → Workers & Pages → sinonimia → **Custom
+domains** → **Set up a custom domain** → follow the wizard. The DNS
+will be configured automatically if the domain is already on
+Cloudflare, or by CNAME if it is on another provider.
 
-If the project moves to a different Cloudflare account (e.g. a new owner,
-an organisation account, or a different personal email):
+## Rotating credentials
 
-1. Create the new token on the new account.
-2. Update both secrets in GitHub.
-3. Update `wrangler.toml → name` if the project name on the new account
-   differs.
-4. The next push to `main` deploys to the new project.
+There are no API tokens or secrets to rotate. The GitHub integration
+is a one-time OAuth authorisation; revoking it is a matter of
+removing the app's access on
+[github.com/settings/applications](https://github.com/settings/applications).
