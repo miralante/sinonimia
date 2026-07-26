@@ -43,6 +43,19 @@ jobs:
         # Same gate as `validate.yml`. Failing here fails the deploy.
         run: node scripts/validar.js
 
+      - name: Install wrangler
+        # Generate a lock file on the fly from devDependencies and install
+        # the pinned wrangler version exactly. `npm install wrangler`
+        # resolves to 4.86.0 on the runner, which is too old to talk to
+        # the current Cloudflare Pages API (returns a misleading
+        # 8000007 "Project not found" error even when the project
+        # exists).
+        run: |
+          set -euo pipefail
+          npm install --no-audit --no-fund --package-lock-only
+          npm ci --no-audit --no-fund
+          npx wrangler --version
+
       - name: Deploy to Cloudflare Pages
         # `wrangler pages deploy` is the canonical, first-party deploy path
         # for Pages. The `cloudflare/wrangler-action` is just a wrapper that
@@ -54,10 +67,6 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           set -euo pipefail
-          # Pin a recent Wrangler. The default `npm install wrangler` picks
-          # up an old minor on the runner, which then chokes on newer
-          # wrangler.toml fields and emits misleading 8000007 errors.
-          npm install --no-save --no-audit --no-fund --prefer-offline wrangler@^4
           npx wrangler pages deploy . \
             --project-name sinonimia \
             --commit-dirty=true \

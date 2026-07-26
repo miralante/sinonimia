@@ -10,8 +10,10 @@
   "scripts": {
     "validate": "node scripts/validar.js",
     "content-report": "node scripts/estado-contenido.js --detalle",
-    "clean-cache": "node scripts/limpiar-cache.js",
     "deploy:local": "wrangler pages deploy . --project-name sinonimia"
   },
-  "// note": "Sinonimia has no runtime dependencies. The `wrangler` CLI is only needed for `npm run deploy:local` from a developer machine; it's installed on-demand by the CI workflow."
+  "devDependencies": {
+    "wrangler": "4.114.0"
+  },
+  "// note": "Sinonimia has no runtime dependencies. wrangler is a devDependency so `npm ci` in CI installs exactly this version (the runner's default `npm install wrangler` resolves to 4.86.0, which can't talk to the modern Pages API). The version pin is what makes the deploy reproducible."
 }
