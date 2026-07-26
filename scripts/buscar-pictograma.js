@@ -18,17 +18,26 @@
  * with no setup at all):
  *   1. Request a "shared secret" at https://www.opensymbols.org/api — the
  *      form asks for an organization name, an email, and what you'll use it
- *      for.
+ *      for. The script exchanges that secret for a short-lived access
+ *      token on every run.
  *   2. NEVER commit that secret or put it in any file under version
  *      control. Pass it only as an environment variable at run time.
+ *
+ *   If you already have a short-lived access token (the JSON the secret
+ *   exchange returns, e.g. {"access_token": "temp::...", "expires": "..."}),
+ *   pass it as OPENSYMBOLS_TOKEN instead — the script will skip the
+ *   exchange step and use it directly. Useful when the token was
+ *   generated ahead of time by another tool.
  *
  * Usage:
  *   node scripts/buscar-pictograma.js <term> [locale]
  *   OPENSYMBOLS_SECRET=xxxx node scripts/buscar-pictograma.js <term> [locale]
+ *   OPENSYMBOLS_TOKEN=temp::... node scripts/buscar-pictograma.js <term> [locale]
  *
  * Examples:
  *   node scripts/buscar-pictograma.js "corregir un error" es
  *   OPENSYMBOLS_SECRET=xxxx node scripts/buscar-pictograma.js "corregir un error" es
+ *   OPENSYMBOLS_TOKEN=temp::... node scripts/buscar-pictograma.js "corregir un error" es
  *
  * Licensing: unlike querying ARASAAC alone (always CC BY-NC-SA), an
  * OpenSymbols result can come from a bank with a *different* license (e.g.
@@ -40,6 +49,7 @@
  */
 
 const secret = process.env.OPENSYMBOLS_SECRET;
+const presetToken = process.env.OPENSYMBOLS_TOKEN;
 const term = process.argv[2];
 const locale = process.argv[3] || "es";
 
@@ -62,7 +72,7 @@ async function getOpenSymbolsToken() {
 }
 
 async function searchOpenSymbols() {
-  const accessToken = await getOpenSymbolsToken();
+  const accessToken = presetToken || (await getOpenSymbolsToken());
   const url = "https://www.opensymbols.org/api/v2/symbols" +
     "?q=" + encodeURIComponent(term) +
     "&locale=" + encodeURIComponent(locale) +
@@ -131,8 +141,8 @@ function printResults(sourceLabel, results) {
   let results = [];
   let usedFallback = false;
 
-  if (!secret) {
-    console.log("No OPENSYMBOLS_SECRET set — searching ARASAAC directly.\n");
+  if (!secret && !presetToken) {
+    console.log("No OPENSYMBOLS_SECRET or OPENSYMBOLS_TOKEN set — searching ARASAAC directly.\n");
     usedFallback = true;
   } else {
     try {

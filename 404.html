@@ -2,28 +2,196 @@
 <!--
   404.html — Cloudflare Pages serves this file automatically when a
   requested URL has no matching file in the deploy directory. Without it,
-  users see Cloudflare's generic error page, which isn't localised and
-  doesn't link back to the dictionary.
+  users would see Cloudflare's generic error page, which isn't localised
+  and doesn't link back to the dictionary.
 
-  Same approach as `index.html` on purpose: this is part of the same
-  client-side app, so we redirect into the hash router with a flag that
-  `js/app.js` understands. The user lands on the home view instead of a
-  dead end.
+  Design notes:
+  - Same header (language switcher, font size, high contrast) and same
+    footer (ARASAAC attribution, privacy link) as index.html, so the user
+    keeps the same controls and the licensing chain stays intact.
+  - Texts come from js/i18n.js via the same data-i18n attributes index.html
+    uses, so the page is bilingual without duplicating strings.
+  - Three suggestions instead of one "go back" link: home, a random word,
+    and the game. All three land on real existing routes in js/app.js's
+    hash router (#/<lang>/, #/<lang>/juego/palabra, #/<lang>/juego), so
+    they're useful, not decorative.
+  - The page never touches js/app.js's hash router (which would otherwise
+    reset currentLanguage to the hash's first segment). Language is decided
+    by localStorage / navigator.language, exactly like the entry path in
+    app.js's initialLanguage().
 -->
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sinonimia — Página no encontrada</title>
-<meta name="description" content="Página no encontrada.">
+<title data-i18n="error404Titulo">Sinonimia — Página no encontrada</title>
+<meta name="description" data-i18n="error404Descripcion" content="Página no encontrada.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="page-404">
+<a class="skip-link" href="#contenido" data-i18n="saltarContenido">Saltar al contenido</a>
+
+<header class="cabecera">
+  <div class="cabecera-fila">
+    <h1><a href="#/es/" id="cabecera-enlace">Sinonimia<span class="cabecera-punto">.</span></a></h1>
+    <p class="tagline" data-i18n="tagline">Palabras difíciles, explicadas fácil</p>
+  </div>
+
+  <div class="a11y-barra" role="toolbar" aria-label="Herramientas de accesibilidad">
+    <div class="idioma-selector" role="group" aria-label="Idioma / Language">
+      <button type="button" class="idioma-btn activo" data-lang="es" aria-pressed="true">ES</button>
+      <button type="button" class="idioma-btn" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+
+    <span class="a11y-etiqueta" id="tamano-label" data-i18n="tamanoLetra">Tamaño de letra</span>
+    <div class="a11y-grupo" role="group" aria-labelledby="tamano-label">
+      <button type="button" id="letra-menos" data-i18n-aria-label="reducirLetra" aria-label="Reducir tamaño de letra">A−</button>
+      <button type="button" id="letra-normal" data-i18n-aria-label="letraNormal" aria-label="Tamaño de letra normal">A</button>
+      <button type="button" id="letra-mas" data-i18n-aria-label="aumentarLetra" aria-label="Aumentar tamaño de letra">A+</button>
+    </div>
+    <button type="button" id="contraste-toggle" class="a11y-contraste" aria-pressed="false" data-i18n="altoContraste">
+      Alto contraste
+    </button>
+  </div>
+</header>
+
 <main id="contenido" class="error-404">
-  <h1>404</h1>
-  <p>No hemos encontrado esa página.</p>
-  <p><a href="./" class="boton-cta">Volver al diccionario</a></p>
+  <p class="error-404-codigo" data-i18n="error404Titulo">404</p>
+  <h2 class="error-404-encabezado" data-i18n="error404Encabezado">No hemos encontrado esa página</h2>
+  <p class="error-404-descripcion" data-i18n="error404Descripcion">Puede que la dirección esté mal escrita, o que la palabra que buscas no esté en el diccionario todavía.</p>
+  <p class="error-404-sugerencia" data-i18n="error404Sugerencia">Puedes probar con una de estas opciones:</p>
+
+  <div class="error-404-acciones">
+    <a href="#/es/" class="boton-cta" id="error-404-inicio" data-i18n="error404BotonInicio">← Volver al inicio</a>
+    <a href="#/es/juego/palabra" class="boton-cta boton-secundario" id="error-404-azar" data-i18n="error404BotonAleatoria">🎲 Ver una palabra al azar</a>
+    <a href="#/es/juego" class="boton-cta boton-secundario" id="error-404-juego" data-i18n="error404BotonJugar">🎮 Jugar con las palabras</a>
+  </div>
 </main>
+
+<footer class="pie">
+  <div class="pie-mensaje">
+    <p data-i18n="pieMensaje">Sinonimia explica palabras difíciles. Frases cortas. Ejemplos de cada día.</p>
+  </div>
+  <p class="pie-creditos" data-i18n-html="pieCreditosHtml">
+    Los pictogramas son de <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a>
+    (Gobierno de Aragón, autor Sergio Palao, licencia CC BY-NC-SA).
+    Las definiciones se basan en glosarios de lenguaje claro y glosarios médicos para pacientes.
+  </p>
+  <p class="pie-enlaces">
+    <a href="about/privacidad.html" data-i18n-html="piePrivacidadHtml">Privacidad</a>
+  </p>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/data.es.js"></script>
+<script src="js/data.en.js"></script>
+<!--
+  i18n + a11y wiring for the 404 page only. This script is intentionally
+  separate from js/app.js: app.js owns the hash router and would try to
+  route the current URL, which on a 404 means rewriting the hash to #/<lang>/
+  before the user even sees the error. We only need the static-text and
+  accessibility behaviour that the main page has — no routing, no list,
+  no detail, no game.
+-->
+<script>
+(function () {
+  "use strict";
+
+  var AVAILABLE_LANGUAGES = Object.keys(DICCIONARIOS);
+  var DEFAULT_LANGUAGE = "es";
+
+  var currentLanguage = (function () {
+    var saved = localStorage.getItem("sinonimia-idioma");
+    if (AVAILABLE_LANGUAGES.indexOf(saved) !== -1) return saved;
+    var browserLang = (navigator.language || "").slice(0, 2);
+    if (AVAILABLE_LANGUAGES.indexOf(browserLang) !== -1) return browserLang;
+    return DEFAULT_LANGUAGE;
+  })();
+
+  function t(key) {
+    return translate(currentLanguage, key);
+  }
+
+  function repaintStaticTexts() {
+    document.documentElement.lang = t("htmlLang");
+    document.title = t("error404Titulo") + " — Sinonimia";
+    var metaDescriptionEl = document.querySelector('meta[name="description"]');
+    if (metaDescriptionEl) metaDescriptionEl.setAttribute("content", t("error404Descripcion"));
+    document.querySelectorAll("[data-i18n]").forEach(function (el) {
+      el.textContent = t(el.getAttribute("data-i18n"));
+    });
+    document.querySelectorAll("[data-i18n-html]").forEach(function (el) {
+      el.innerHTML = t(el.getAttribute("data-i18n-html"));
+    });
+    document.querySelectorAll("[data-i18n-aria-label]").forEach(function (el) {
+      el.setAttribute("aria-label", t(el.getAttribute("data-i18n-aria-label")));
+    });
+  }
+
+  function repaintActions() {
+    document.getElementById("error-404-inicio").href = "#/" + currentLanguage + "/";
+    document.getElementById("error-404-azar").href = "#/" + currentLanguage + "/juego/palabra";
+    document.getElementById("error-404-juego").href = "#/" + currentLanguage + "/juego";
+    document.getElementById("cabecera-enlace").href = "#/" + currentLanguage + "/";
+  }
+
+  function paintLanguageButtons() {
+    var languageButtons = document.querySelectorAll(".idioma-btn");
+    languageButtons.forEach(function (btn) {
+      var active = btn.getAttribute("data-lang") === currentLanguage;
+      btn.classList.toggle("activo", active);
+      btn.setAttribute("aria-pressed", active ? "true" : "false");
+    });
+  }
+
+  repaintStaticTexts();
+  repaintActions();
+  paintLanguageButtons();
+
+  document.querySelectorAll(".idioma-btn").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      currentLanguage = btn.getAttribute("data-lang");
+      localStorage.setItem("sinonimia-idioma", currentLanguage);
+      repaintStaticTexts();
+      repaintActions();
+      paintLanguageButtons();
+    });
+  });
+
+  // Font size (same constants and behaviour as app.js)
+  var MIN_FONT_SIZE = 15, MAX_FONT_SIZE = 26, FONT_SIZE_STEP = 2;
+  function applyFontSize(px) {
+    document.documentElement.style.fontSize = px + "px";
+    localStorage.setItem("sinonimia-tamano", px);
+  }
+  function currentFontSize() {
+    var raw = parseInt(localStorage.getItem("sinonimia-tamano"), 10);
+    return isNaN(raw) ? 18 : raw;
+  }
+  document.getElementById("letra-mas").addEventListener("click", function () {
+    applyFontSize(Math.min(MAX_FONT_SIZE, currentFontSize() + FONT_SIZE_STEP));
+  });
+  document.getElementById("letra-menos").addEventListener("click", function () {
+    applyFontSize(Math.max(MIN_FONT_SIZE, currentFontSize() - FONT_SIZE_STEP));
+  });
+  document.getElementById("letra-normal").addEventListener("click", function () {
+    applyFontSize(18);
+  });
+  applyFontSize(currentFontSize());
+
+  // High contrast (same body class + localStorage flag as app.js)
+  var contrastBtn = document.getElementById("contraste-toggle");
+  function applyContrast(on) {
+    document.body.classList.toggle("alto-contraste", on);
+    contrastBtn.setAttribute("aria-pressed", on ? "true" : "false");
+    localStorage.setItem("sinonimia-contraste", on ? "1" : "0");
+  }
+  applyContrast(localStorage.getItem("sinonimia-contraste") === "1");
+  contrastBtn.addEventListener("click", function () {
+    applyContrast(document.body.classList.contains("alto-contraste") === false);
+  });
+})();
+</script>
 </body>
 </html>

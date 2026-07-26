@@ -1,0 +1,19 @@
+# .gitattributes — per-path git behaviour overrides.
+#
+# Sinonimia ships ~200 ARASAAC pictograms (~5–15 MB total). They're
+# immutable once downloaded (we never edit them in place; if a pictogram
+# needs replacing, the entry's `imagen.id` changes and a new file is
+# added), and git's normal diff/merge machinery has no use for PNG bytes
+# — every clone would download them in full anyway. Git LFS stores the
+# actual bytes out-of-band and lets the repo hold small pointer files.
+#
+# Pattern is anchored to img/ on purpose: don't extend the wildcard to
+# `*.png` repo-wide, or future PNGs elsewhere (favicons, docs diagrams,
+# generated assets) would silently become LFS-managed too. Keep the
+# scope explicit.
+#
+# If you ever need to bulk-replace these (e.g. switch to a higher-res
+# variant), prefer renaming the file and updating `imagen.id` in
+# js/data.*.js over rewriting the bytes in place — that keeps the LFS
+# history clean and avoids duplicating 200 × ~50 KB blobs.
+img/*.png filter=lfs diff=lfs merge=lfs -text

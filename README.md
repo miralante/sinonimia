@@ -100,6 +100,20 @@ Before adding words, this command reports which categories have few
 to avoid repeating a concept. It's the first step of the process described
 in "Process for expanding content" in [`doc/en/SPEC.md`](doc/en/SPEC.md).
 
+## Housekeeping
+
+The `scripts/.cache/` directory (frequency-word lists downloaded by
+`candidatos-corpus.js`) can be cleared with:
+
+```
+npm run clean-cache          # dry-run: shows what would be removed
+node scripts/limpiar-cache.js --apply   # actually delete it
+```
+
+The next call to `candidatos-corpus.js` rebuilds the cache automatically.
+`scripts/.scratch/` (the maintainer's one-off exploration scripts) is
+**not** touched by this command — clear it by hand if you want to.
+
 ## License
 
 - The **code** (HTML/CSS/JS) belongs to its contributors, under the MIT

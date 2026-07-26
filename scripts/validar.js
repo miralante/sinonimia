@@ -35,13 +35,28 @@ function normalize(text) {
 }
 
 // --- 1. Syntax of every JS file ---
-const jsFiles = ["js/i18n.js", "js/data.es.js", "js/data.en.js", "js/app.js"];
-jsFiles.forEach(function (relativePath) {
+// Three files are required (loaded by index.html in this exact order);
+// any extra js/*.js that happens to exist is checked too, so adding
+// bootstrap-i18n.js or similar helpers in the future can't silently
+// ship broken.
+const jsDir = path.join(ROOT, "js");
+const requiredJs = ["js/i18n.js", "js/data.es.js", "js/data.en.js", "js/app.js"];
+requiredJs.forEach(function (relativePath) {
   try {
     execFileSync(process.execPath, ["--check", path.join(ROOT, relativePath)]);
     ok("syntax OK: " + relativePath);
   } catch (e) {
     fail("syntax error in " + relativePath);
+  }
+});
+fs.readdirSync(jsDir).filter(function (f) {
+  return f.endsWith(".js") && requiredJs.indexOf("js/" + f) === -1;
+}).forEach(function (f) {
+  try {
+    execFileSync(process.execPath, ["--check", path.join(jsDir, f)]);
+    ok("syntax OK: js/" + f + " (extras)");
+  } catch (e) {
+    fail("syntax error in js/" + f);
   }
 });
 

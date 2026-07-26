@@ -102,6 +102,15 @@ const I18N = {
     juegoFraseDescripcion: "Elige la palabra que falta en la frase.",
     juegoFraseInstruccion: "Elige la palabra que completa la frase.",
     juegoFraseIncorrecto: "Esa no es. Vuelve a leer la frase: ¿qué palabra completa el hueco?",
+
+    // 404 page (404.html)
+    error404Titulo: "404",
+    error404Encabezado: "No hemos encontrado esa página",
+    error404Descripcion: "Puede que la dirección esté mal escrita, o que la palabra que buscas no esté en el diccionario todavía.",
+    error404Sugerencia: "Puedes probar con una de estas opciones:",
+    error404BotonInicio: "← Volver al inicio",
+    error404BotonAleatoria: "🎲 Ver una palabra al azar",
+    error404BotonJugar: "🎮 Jugar con las palabras",
   },
 
   en: {
@@ -194,6 +203,15 @@ const I18N = {
     juegoFraseDescripcion: "Pick the missing word in the sentence.",
     juegoFraseInstruccion: "Pick the word that completes the sentence.",
     juegoFraseIncorrecto: "Not quite. Read the sentence again: which word completes the blank?",
+
+    // 404 page (404.html)
+    error404Titulo: "404",
+    error404Encabezado: "We couldn't find that page",
+    error404Descripcion: "The address might be mistyped, or the word you're looking for might not be in the dictionary yet.",
+    error404Sugerencia: "You can try one of these:",
+    error404BotonInicio: "← Back to home",
+    error404BotonAleatoria: "🎲 Show me a random word",
+    error404BotonJugar: "🎮 Play with the words",
   },
 };
 

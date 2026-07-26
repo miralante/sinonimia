@@ -10,6 +10,7 @@
   "scripts": {
     "validate": "node scripts/validar.js",
     "content-report": "node scripts/estado-contenido.js --detalle",
+    "clean-cache": "node scripts/limpiar-cache.js",
     "deploy:local": "wrangler pages deploy . --project-name sinonimia"
   },
   "// note": "Sinonimia has no runtime dependencies. The `wrangler` CLI is only needed for `npm run deploy:local` from a developer machine; it's installed on-demand by the CI workflow."

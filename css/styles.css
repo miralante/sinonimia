@@ -988,6 +988,49 @@ body.alto-contraste .juego-pista-frase .destacado {
 .page-about .envoltorio,
 .page-privacidad .envoltorio { margin: 0 auto; padding: 0 1.25rem 4rem; }
 
+/* --- 404.html: the "page not found" landing (see also 404.html). --- */
+.page-404 .error-404 {
+  max-width: 640px;
+  margin: 2.5rem auto;
+  padding: 2rem 1.25rem 3rem;
+  text-align: center;
+}
+.page-404 .error-404-codigo {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 0.5rem;
+  color: var(--color-primario);
+  letter-spacing: 0.02em;
+}
+.page-404 .error-404-encabezado {
+  font-size: 1.6rem;
+  margin: 0 0 0.75rem;
+  color: var(--color-texto);
+}
+.page-404 .error-404-descripcion {
+  margin: 0 auto 1.5rem;
+  max-width: 32rem;
+  color: var(--color-texto);
+}
+.page-404 .error-404-sugerencia {
+  margin: 0 0 1.25rem;
+  font-weight: 600;
+  color: var(--color-primario-oscuro);
+}
+.page-404 .error-404-acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+.page-404 .error-404-acciones .boton-cta { min-width: 12rem; }
+@media (max-width: 480px) {
+  .page-404 .error-404-codigo { font-size: 3.75rem; }
+  .page-404 .error-404-encabezado { font-size: 1.35rem; }
+  .page-404 .error-404-acciones .boton-cta { width: 100%; }
+}
+
 .page-about header.cabecera,
 .page-privacidad header.cabecera {
   background: linear-gradient(135deg, var(--color-primario) 0%, var(--color-primario-oscuro) 100%);

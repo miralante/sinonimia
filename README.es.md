@@ -76,6 +76,21 @@ Antes de añadir palabras, este comando dice qué categorías tienen pocas
 un concepto. Es el primer paso del proceso descrito en "Proceso para
 ampliar el contenido" en [`doc/es/SPEC.md`](doc/es/SPEC.md).
 
+## Mantenimiento
+
+El directorio `scripts/.cache/` (listas de frecuencias de palabras que
+descarga `candidatos-corpus.js`) se puede vaciar con:
+
+```
+npm run clean-cache          # dry-run: muestra qué se borraría
+node scripts/limpiar-cache.js --apply   # borra de verdad
+```
+
+La siguiente ejecución de `candidatos-corpus.js` reconstruye la caché
+automáticamente. `scripts/.scratch/` (los scripts de exploración one-off
+del mantenedor) **no** se toca con este comando — límpialo a mano si lo
+necesitas.
+
 ## Licencia
 
 - El **código** (HTML/CSS/JS) es de quien contribuye, bajo licencia MIT
