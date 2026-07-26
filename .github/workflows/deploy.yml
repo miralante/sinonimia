@@ -54,7 +54,10 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           set -euo pipefail
-          npm install --no-save --no-audit --no-fund --prefer-offline wrangler
+          # Pin a recent Wrangler. The default `npm install wrangler` picks
+          # up an old minor on the runner, which then chokes on newer
+          # wrangler.toml fields and emits misleading 8000007 errors.
+          npm install --no-save --no-audit --no-fund --prefer-offline wrangler@^4
           npx wrangler pages deploy . \
             --project-name sinonimia \
             --commit-dirty=true \
