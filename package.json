@@ -7,6 +7,7 @@
   "engines": {
     "node": ">=20.0.0"
   },
+  "// engines note": "Sinonimia itself runs in any modern browser and needs no Node at runtime. The >=20 floor is what the validator script and older Wrangler versions need. The deploy workflow installs Node 22 explicitly because Wrangler 4.114+ requires it; the validator keeps working on Node 20 in validate.yml.",
   "scripts": {
     "validate": "node scripts/validar.js",
     "content-report": "node scripts/estado-contenido.js --detalle",
@@ -14,6 +15,5 @@
   },
   "devDependencies": {
     "wrangler": "4.114.0"
-  },
-  "// note": "Sinonimia has no runtime dependencies. wrangler is a devDependency so `npm ci` in CI installs exactly this version (the runner's default `npm install wrangler` resolves to 4.86.0, which can't talk to the modern Pages API). The version pin is what makes the deploy reproducible."
+  }
 }

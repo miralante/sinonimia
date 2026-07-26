@@ -36,8 +36,11 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          # LTS active in 2026. Bump via a follow-up PR when 22 reaches EOL.
-          node-version: "20"
+          # Wrangler 4.x requires Node >=22. The validator and the static
+          # site itself work on 20+; only the deploy step needs 22. We
+          # keep validate.yml on 20 to avoid forcing a Node bump on the
+          # whole project.
+          node-version: "22"
 
       - name: Run validator
         # Same gate as `validate.yml`. Failing here fails the deploy.
