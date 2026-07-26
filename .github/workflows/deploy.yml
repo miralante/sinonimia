@@ -1,0 +1,61 @@
+name: Deploy to Cloudflare Pages
+
+# Deploy on every push to main. The validation workflow (`validate.yml`) is
+# a separate job on the same trigger; it does not gate this deploy because
+# GitHub Actions cannot reference jobs across workflows with `needs:`. We
+# re-run the validator at the start of this job so a direct push that
+# bypassed the PR check still fails the deploy.
+#
+# Preview environments for pull requests are managed by the Cloudflare Pages
+# dashboard automatically (when the project is connected to the repo), so we
+# don't need a second workflow for them.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Avoid running two deploys at once when fast-pushing. The previous run is
+# cancelled and replaced by the newer one — we only ever want the latest
+# commit on `main` live.
+concurrency:
+  group: pages-deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      deployments: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          # LTS active in 2026. Bump via a follow-up PR when 22 reaches EOL.
+          node-version: "20"
+
+      - name: Run validator
+        # Same gate as `validate.yml`. Failing here fails the deploy.
+        run: node scripts/validar.js
+
+      - name: Deploy to Cloudflare Pages
+        # `wrangler pages deploy` is the canonical, first-party deploy path
+        # for Pages. The `cloudflare/wrangler-action` is just a wrapper that
+        # installs and runs `wrangler`; calling it directly avoids pinning
+        # to a third-party action version and keeps the workflow in sync
+        # with whatever we install locally.
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          npm install --no-save --no-audit --no-fund --prefer-offline wrangler
+          npx wrangler pages deploy . \
+            --project-name sinonimia \
+            --commit-dirty=true \
+            --branch ${{ github.ref_name }}

@@ -476,6 +476,29 @@ main {
   margin-top: 0.5rem;
 }
 
+.detalle-traducciones {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.detalle-traduccion {
+  display: inline-block;
+  background: var(--color-fondo);
+  border: 1px solid var(--color-primario);
+  border-radius: 999px;
+  padding: 0.15rem 0.75rem;
+  font-size: 0.9rem;
+  color: var(--color-primario-oscuro);
+  text-decoration: none;
+}
+
+.detalle-traduccion:hover,
+.detalle-traduccion:focus {
+  text-decoration: underline;
+}
+
 .detalle .definicion {
   font-size: 1.25rem;
   margin: 0 0 1.25rem;
@@ -904,4 +927,329 @@ body.alto-contraste .juego-pista-frase .destacado {
   .cabecera h1 { font-size: 1.5rem; }
   .detalle h2 { font-size: 1.7rem; }
   .detalle { padding: 1.1rem 1.1rem 1.5rem; }
+}
+
+/* ==========================================================================
+ * Pages: /about/ (about/index.html, about/privacidad.html) and 404.html.
+ *
+ * These pages were originally served with their own <style> blocks. They
+ * have been moved here so they satisfy the strict `style-src-elem 'self'`
+ * CSP set in _headers (an inline <style> block in <head> would be blocked
+ * in production).
+ *
+ * All selectors are scoped to a wrapper class on <body>:
+ *   .page-about       — about/index.html (project presentation)
+ *   .page-privacidad  — about/privacidad.html (privacy policy)
+ *   .page-404         — 404.html (Cloudflare Pages not-found response)
+ *
+ * Layout is the same on both /about/ pages (hero header with language
+ * picker + sections in cards + footer with back-to-dict buttons);
+ * privacidad only differs in narrower max-width and a few list-style
+ * tweaks. Single .envoltorio + shared .cabecera / .btn / .idioma-btn
+ * / .pie-about / .pie-nota / .pie-nota rules cover both.
+ * ========================================================================== */
+
+.page-about,
+.page-privacidad,
+.page-404 {
+  --color-fondo: #fbfaf7;
+  --color-texto: #202020;
+  --color-primario: #0a5c78;
+  --color-primario-oscuro: #073f52;
+  --color-tarjeta: #ffffff;
+  --color-borde: #d8d3c8;
+  --color-acento: #b45309;
+  --color-foco: #d6001c;
+  --acento-tramites: #0a5c78;
+  --acento-salud: #b4304a;
+  --acento-vida-diaria: #b45309;
+  --acento-finanzas: #2f7a4d;
+  --acento-vivienda: #6b4a91;
+  --acento-trabajo: #3b5b8c;
+  --acento-legal: #6b5b3e;
+  margin: 0;
+  background: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: "Atkinson Hyperlegible", "Segoe UI", Verdana, Arial, sans-serif;
+  line-height: 1.6;
+}
+.page-about a,
+.page-privacidad a,
+.page-404 a { color: var(--color-primario-oscuro); }
+.page-about :focus-visible,
+.page-privacidad :focus-visible,
+.page-404 :focus-visible { outline: 3px solid var(--color-foco); outline-offset: 2px; }
+.page-about html,
+.page-privacidad html,
+.page-404 html { scroll-behavior: smooth; }
+
+.page-about .envoltorio { max-width: 900px; }
+.page-privacidad .envoltorio { max-width: 760px; }
+.page-about .envoltorio,
+.page-privacidad .envoltorio { margin: 0 auto; padding: 0 1.25rem 4rem; }
+
+.page-about header.cabecera,
+.page-privacidad header.cabecera {
+  background: linear-gradient(135deg, var(--color-primario) 0%, var(--color-primario-oscuro) 100%);
+  color: #fff;
+  text-align: center;
+}
+.page-about header.cabecera { padding: 2.5rem 1.25rem 2rem; }
+.page-privacidad header.cabecera { padding: 2rem 1.25rem 1.75rem; }
+.page-about header.cabecera .envoltorio,
+.page-privacidad header.cabecera .envoltorio { padding: 0 1.25rem; }
+
+.page-about .idioma-selector { margin-bottom: 1.5rem; }
+.page-privacidad .idioma-selector { margin-bottom: 1.25rem; }
+.page-about .idioma-btn,
+.page-privacidad .idioma-btn {
+  font: inherit;
+  font-weight: 700;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.page-about .idioma-btn[aria-pressed="true"],
+.page-privacidad .idioma-btn[aria-pressed="true"] {
+  background: #fff;
+  color: var(--color-primario-oscuro);
+  border-color: #fff;
+}
+.page-about .idioma-btn + .idioma-btn,
+.page-privacidad .idioma-btn + .idioma-btn { margin-left: 0.5rem; }
+.page-about .aviso-ruta {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 10px;
+  padding: 0.6rem 1rem;
+  font-size: 0.9rem;
+  max-width: 32rem;
+  margin: 0 auto 1.5rem;
+}
+.page-about .logo-about { font-size: 3rem; line-height: 1; margin-bottom: 0.25rem; }
+.page-privacidad .logo-about { font-size: 2.5rem; line-height: 1; margin-bottom: 0.25rem; }
+.page-about header.cabecera h1 { margin: 0 0 0.25rem; font-size: 2.2rem; }
+.page-privacidad header.cabecera h1 { margin: 0 0 0.25rem; font-size: 1.9rem; }
+.page-about header.cabecera h1 span,
+.page-privacidad header.cabecera h1 span { color: #ffd7a8; }
+.page-about .lema { margin: 0 0 1rem; font-size: 1.1rem; opacity: 0.92; }
+.page-privacidad .lema { margin: 0; font-size: 1rem; opacity: 0.92; }
+.page-about .entradilla { max-width: 40rem; margin: 0 auto 1.75rem; font-size: 1.05rem; }
+
+.page-about nav.indice,
+.page-privacidad nav.indice {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.25rem;
+  font-size: 0.95rem;
+}
+.page-about nav.indice { margin-top: 0; }
+.page-privacidad nav.indice { margin-top: 1.25rem; }
+.page-about nav.indice a,
+.page-privacidad nav.indice a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  padding-bottom: 2px;
+}
+.page-about nav.indice a:hover,
+.page-about nav.indice a:focus-visible,
+.page-privacidad nav.indice a:hover,
+.page-privacidad nav.indice a:focus-visible { border-color: #ffd7a8; }
+
+.page-about main section {
+  background: var(--color-tarjeta);
+  border: 1px solid var(--color-borde);
+  border-radius: 12px;
+  padding: 1.75rem 1.75rem;
+  margin: 2rem 0;
+  scroll-margin-top: 1rem;
+}
+.page-privacidad main section {
+  background: var(--color-tarjeta);
+  border: 1px solid var(--color-borde);
+  border-radius: 12px;
+  padding: 1.5rem 1.75rem;
+  margin: 1.5rem 0;
+  scroll-margin-top: 1rem;
+}
+.page-about main h2,
+.page-privacidad main h2 {
+  color: var(--color-primario-oscuro);
+  margin-top: 0;
+  border-bottom: 2px solid var(--color-borde);
+  padding-bottom: 0.5rem;
+}
+.page-about main h2 { font-size: 1.4rem; }
+.page-privacidad main h2 { font-size: 1.25rem; }
+.page-about main h3 { margin-top: 0; }
+.page-privacidad main h3 { margin-top: 0; font-size: 1.05rem; }
+.page-privacidad main p,
+.page-privacidad main li { font-size: 1rem; }
+.page-privacidad main ul { padding-left: 1.25rem; }
+.page-privacidad main li { margin-bottom: 0.5rem; }
+
+.page-about .grid-principios,
+.page-about .grid-areas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+.page-about .principio,
+.page-about .area {
+  background: var(--color-fondo);
+  border: 1px solid var(--color-borde);
+  border-left: 5px solid var(--acento, var(--color-primario));
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+}
+.page-about .principio h3,
+.page-about .area h3 {
+  font-size: 1.05rem;
+  color: var(--color-primario-oscuro);
+}
+.page-about .principio p,
+.page-about .area p { margin-bottom: 0; font-size: 0.95rem; }
+.page-about .area-cifra {
+  font-weight: 700;
+  color: var(--acento, var(--color-acento));
+  margin-top: 0.4rem !important;
+}
+.page-about .cifras {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 1rem;
+  margin: 0 0 1.5rem;
+}
+.page-about .cifra {
+  text-align: center;
+  background: var(--color-fondo);
+  border: 1px solid var(--color-borde);
+  border-radius: 10px;
+  padding: 1rem 0.5rem;
+}
+.page-about .cifra strong { display: block; font-size: 1.8rem; color: var(--color-acento); }
+.page-about .cifra span { font-size: 0.9rem; }
+.page-about .lista-colaborar li { margin-bottom: 0.75rem; }
+
+.page-privacidad .resumen {
+  background: #fdf6e7;
+  border: 1px solid #e8d8a8;
+  border-left: 5px solid var(--color-acento);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin-top: 1rem;
+  font-size: 1.05rem;
+}
+.page-privacidad .lista-datos {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+.page-privacidad .dato {
+  background: var(--color-fondo);
+  border: 1px solid var(--color-borde);
+  border-radius: 10px;
+  padding: 0.85rem 1rem;
+}
+.page-privacidad .dato strong { color: var(--color-primario-oscuro); }
+
+.page-about footer.pie-about,
+.page-privacidad footer.pie-about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem 0;
+}
+.page-about .btn,
+.page-privacidad .btn,
+.page-about .boton-cta,
+.page-privacidad .boton-cta {
+  display: inline-block;
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.6rem 1.1rem;
+  border-radius: 999px;
+  border: 2px solid var(--color-primario);
+  color: var(--color-primario-oscuro);
+  background: var(--color-tarjeta);
+}
+.page-about .btn:hover,
+.page-about .btn:focus-visible,
+.page-privacidad .btn:hover,
+.page-privacidad .btn:focus-visible { background: var(--color-primario); color: #fff; }
+.page-about .pie-nota,
+.page-privacidad .pie-nota {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666;
+  padding: 1.5rem 1.25rem 0;
+}
+
+/* `[data-lang-block]` driven visibility: scoped to /about/ pages only so
+ * we don't accidentally hide anything elsewhere if a future page reuses
+ * the attribute.
+ */
+.page-about [data-lang-block],
+.page-privacidad [data-lang-block] { display: none; }
+.page-about html[data-lang="es"] [data-lang-block="es"],
+.page-privacidad html[data-lang="es"] [data-lang-block="es"] { display: block; }
+.page-about html[data-lang="en"] [data-lang-block="en"],
+.page-privacidad html[data-lang="en"] [data-lang-block="en"] { display: block; }
+.page-about html[data-lang="es"] span[data-lang-block="es"],
+.page-about html[data-lang="en"] span[data-lang-block="en"],
+.page-privacidad html[data-lang="es"] span[data-lang-block="es"],
+.page-privacidad html[data-lang="en"] span[data-lang-block="en"] { display: inline; }
+
+/* 404.html — the page is small enough that almost everything lives in
+ * the markup. Keep just the layout helpers here.
+ */
+.page-404 { text-align: center; }
+.page-404 .error-404 { padding: 4rem 1rem; }
+.page-404 .error-404 h1 { font-size: 5rem; margin: 0; }
+.page-404 .error-404 .boton-cta { margin-top: 1rem; }
+
+@media print {
+  .page-about header.cabecera,
+  .page-privacidad header.cabecera { background: none; color: var(--color-texto); }
+  .page-about header.cabecera h1 span,
+  .page-privacidad header.cabecera h1 span { color: var(--color-acento); }
+  .page-about .idioma-selector,
+  .page-privacidad .idioma-selector,
+  .page-about .aviso-ruta,
+  .page-about nav.indice,
+  .page-privacidad nav.indice,
+  .page-about footer.pie-about,
+  .page-privacidad footer.pie-about { display: none; }
+  .page-about main section,
+  .page-privacidad main section { break-inside: avoid; border: none; padding: 0; }
+}
+
+@media (prefers-color-scheme: dark) {
+  .page-about,
+  .page-privacidad,
+  .page-404 {
+    --color-fondo: #17191b;
+    --color-texto: #ececec;
+    --color-tarjeta: #22262a;
+    --color-borde: #3a3f43;
+  }
+  .page-about .principio,
+  .page-about .area,
+  .page-about .cifra,
+  .page-privacidad .dato { background: #1b1e21; }
+  .page-privacidad .resumen { background: #2b2618; border-color: #5a4a22; }
+  .page-about .btn,
+  .page-privacidad .btn,
+  .page-about .boton-cta,
+  .page-privacidad .boton-cta { background: #1b1e21; }
 }

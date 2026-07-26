@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+  404.html — Cloudflare Pages serves this file automatically when a
+  requested URL has no matching file in the deploy directory. Without it,
+  users see Cloudflare's generic error page, which isn't localised and
+  doesn't link back to the dictionary.
+
+  Same approach as `index.html` on purpose: this is part of the same
+  client-side app, so we redirect into the hash router with a flag that
+  `js/app.js` understands. The user lands on the home view instead of a
+  dead end.
+-->
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sinonimia — Página no encontrada</title>
+<meta name="description" content="Página no encontrada.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page-404">
+<main id="contenido" class="error-404">
+  <h1>404</h1>
+  <p>No hemos encontrado esa página.</p>
+  <p><a href="./" class="boton-cta">Volver al diccionario</a></p>
+</main>
+</body>
+</html>

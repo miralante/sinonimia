@@ -1,0 +1,82 @@
+# Cloudflare Pages custom headers
+# (https://developers.cloudflare.com/pages/configuration/headers/).
+#
+# Sinonimia is a fully static site with no API: dictionaries ship in
+# `js/data.*.js`, ARASAAC pictograms are fetched from `img/`, and every
+# other asset is HTML/CSS. The headers here are written to:
+#   1. Block the most common web attack classes (clickjacking, MIME
+#      sniffing, mixed content).
+#   2. Lock down a minimal-but-correct CSP that allows what the app
+#      actually does (see `js/app.js` for the runtime behaviour):
+#        - inline styles via `style.X =` on the documentElement and
+#          progress fill (so `style-src-attr 'unsafe-inline'`)
+#        - the ARASAAC static CDN at https://static.arasaac.org
+#        - data: URLs for the SVG favicon
+#        - no inline scripts, no eval, no remote scripts
+#   3. Long-cache the immutable assets so users don't re-download
+#      multi-megabyte dictionaries on every visit.
+
+# ---------------------------------------------------------------------------
+# Security headers — applied to every response, including HTML.
+# ---------------------------------------------------------------------------
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  # Hides the full URL (which may contain a word search) from cross-origin
+  # Referer headers, while still letting the ARASAAC attribution analytics
+  # see we exist.
+  Referrer-Policy: strict-origin-when-cross-origin
+  # Disable features we don't use. Cheap, belt-and-braces hardening.
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), serial=(), midi=()
+  # Cross-origin isolation. `credentialless` is the modern alternative that
+  # doesn't require `Cross-Origin-Opener-Policy: same-origin`; it lets us
+  # keep the site embeddable in iframes with credentials off without
+  # breaking the syndicate-based ARASAAC image fetch.
+  Cross-Origin-Resource-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  # Upgrade any accidental http:// subresources to https. Belt-and-braces —
+  # we don't link to any http:// URLs, but ARASAAC's CDN has historically
+  # served mixed content in mirror responses.
+  Upgrade-Insecure-Requests: 1
+  # Strict CSP. Directives:
+  #   default-src 'self'                          — deny everything by default
+  #   script-src 'self'                           — no inline scripts, no eval
+  #   style-src-attr 'unsafe-inline'              — needed for element.style.X
+  #                                                assignments in js/app.js
+  #   style-src-elem 'self'                       — block <style> blocks
+  #   img-src 'self' data: https://static.arasaac.org
+  #                                              — favicon data: + ARASAAC
+  #   font-src 'self' data:                      — system fonts + data: URIs
+  #   connect-src 'self'                          — no XHR/fetch to third
+  #                                                parties
+  #   worker-src 'none'                           — no service workers
+  #   manifest-src 'self'                         — in case we add a PWA
+  #                                                manifest later
+  #   object-src 'none'                           — no <object>/<embed>/<applet>
+  #   base-uri 'self'                             — block <base> hijacking
+  #   form-action 'self'                          — block form submission to
+  #                                                third parties
+  #   frame-ancestors 'none'                      — supersedes X-Frame-Options
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src-attr 'unsafe-inline'; style-src-elem 'self'; img-src 'self' data: https://static.arasaac.org; font-src 'self' data:; connect-src 'self'; worker-src 'none'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+
+# ---------------------------------------------------------------------------
+# Static assets — one year, immutable. Cloudflare's default cache is fine
+# for HTML (we want users to see updates on reload), but the dictionaries
+# and CSS rarely change and are big enough to be worth a year-long cache.
+#
+# The globs use `*` per the Pages docs (one path segment). Both dictionary
+# files (`data.es.js`, `data.en.js`) match `/js/data.*`.
+#
+# To bust the cache when the dictionary changes, rename the file
+# (e.g. `data.es.v2.js`) and update the `<script>` tag in `index.html`.
+# ---------------------------------------------------------------------------
+/js/data.*
+  Cache-Control: public, max-age=31536000, immutable
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+/img/*
+  Cache-Control: public, max-age=31536000, immutable
+/js/app.js
+  Cache-Control: public, max-age=31536000, immutable
+/js/i18n.js
+  Cache-Control: public, max-age=31536000, immutable

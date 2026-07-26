@@ -1,0 +1,12 @@
+# robots.txt — Sinonimia
+#
+# Cloudflare Pages serves this file directly. Update the sitemap URL when
+# you attach a custom domain. Until then, the canonical site is
+# https://sinonimia.pages.dev/
+
+User-agent: *
+Allow: /
+# Don't index the ARASAAC CDN images served as if they were ours.
+Disallow: /img/
+
+Sitemap: https://sinonimia.pages.dev/sitemap.xml

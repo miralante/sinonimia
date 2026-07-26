@@ -1,0 +1,62 @@
+# wrangler.toml — Cloudflare Pages configuration for Sinonimia.
+#
+# Sinonimia is a fully static site (plain HTML/CSS/JS, no build step). On
+# Cloudflare Pages, two fields in this file are actually read:
+#   * `name`                  — the Pages project name (subdomain on
+#                               *.pages.dev until a custom domain is
+#                               attached). Globally unique.
+#   * `pages_build_output_dir` — directory to publish. The repo root for
+#                                us; Cloudflare's default is `./public`,
+#                                which is why this file is needed.
+#   * `pages_build_include` / `pages_build_exclude` — globs that control
+#                                which files actually get uploaded. We
+#                                exclude maintainer-only folders (docs,
+#                                contributor scripts, AI agent notes) so
+#                                the public site isn't cluttered with
+#                                repo internals.
+#
+# See: https://developers.cloudflare.com/pages/configuration/build-configuration/
+
+name = "sinonimia"
+pages_build_output_dir = "."
+
+# Files that must reach Cloudflare Pages. The default behaviour (no
+# include) is "include everything", but we set one to silence the
+# `pages_build_exclude` warning about partial includes.
+pages_build_include = ["**/*"]
+
+# Maintainer-only / internal artefacts that should NOT be on the public
+# site. Patterns are minimatch globs (single `*` per path segment, `**`
+# for any depth).
+#
+#   .github/    — workflows only; Cloudflare already skips this, but we
+#                 list it defensively.
+#   .gitignore  — repo metadata, irrelevant to the site.
+#   doc/        — long-form project docs (SPEC, technical, etc.), kept
+#                 in the repo for maintainers but not part of the user-
+#                 facing site.
+#   scripts/    — Node validators and corpus helpers used by maintainers.
+#   about/      — NOT excluded: it's referenced from the index.html
+#                 footer (privacy page). Keep it on the site.
+#   docs at the repo root — README, CONTRIBUTING, etc. are for GitHub
+#                 visitors, not for the dictionary site.
+pages_build_exclude = [
+  ".github/**",
+  ".gitignore",
+  ".graphifyignore",
+  ".claude/**",
+  "doc/**",
+  "scripts/**",
+
+  "*.md",
+  "LICENSE",
+  "CODE_OF_CONDUCT.md",
+  "README.md",
+  "README.es.md",
+  "CONTRIBUTING.md",
+  "CONTRIBUTING.es.md",
+  "CLAUDE.md",
+  "package.json",
+  "package-lock.json",
+  "node_modules/**",
+]

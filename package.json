@@ -1,0 +1,16 @@
+{
+  "name": "sinonimia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sinonimia — a plain-language dictionary of bureaucratic, legal, and health terms. Static HTML/CSS/JS, no build step.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "validate": "node scripts/validar.js",
+    "content-report": "node scripts/estado-contenido.js --detalle",
+    "deploy:local": "wrangler pages deploy . --project-name sinonimia"
+  },
+  "// note": "Sinonimia has no runtime dependencies. The `wrangler` CLI is only needed for `npm run deploy:local` from a developer machine; it's installed on-demand by the CI workflow."
+}

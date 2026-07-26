@@ -5,225 +5,50 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Hidden route: not linked from index.html, the README, or any other
      doc. Aimed at whoever wants to know what Sinonimia is: organizations,
-     funders, journalists, or new contributors — reached only by typing
+     funders, journalists, or new contributors â€” reached only by typing
      this address directly. -->
 <meta name="robots" content="noindex, nofollow">
-<title>Sinonimia — Presentación del proyecto / Project presentation</title>
-<meta name="description" content="Sinonimia: un diccionario en lectura fácil para palabras difíciles de trámites, justicia y salud.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>">
-<style>
-  :root {
-    --color-fondo: #fbfaf7;
-    --color-texto: #202020;
-    --color-primario: #0a5c78;
-    --color-primario-oscuro: #073f52;
-    --color-tarjeta: #ffffff;
-    --color-borde: #d8d3c8;
-    --color-acento: #b45309;
-    --color-foco: #d6001c;
-    --acento-tramites: #0a5c78;
-    --acento-salud: #b4304a;
-    --acento-vida-diaria: #b45309;
-    --acento-finanzas: #2f7a4d;
-    --acento-vivienda: #6b4a91;
-    --acento-trabajo: #3b5b8c;
-    --acento-legal: #6b5b3e;
-  }
-  * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body {
-    margin: 0;
-    background: var(--color-fondo);
-    color: var(--color-texto);
-    font-family: "Atkinson Hyperlegible", "Segoe UI", Verdana, Arial, sans-serif;
-    line-height: 1.6;
-  }
-  a { color: var(--color-primario-oscuro); }
-  :focus-visible { outline: 3px solid var(--color-foco); outline-offset: 2px; }
+<title>Sinonimia â€” PresentaciÃ³n del proyecto / Project presentation</title>
+<meta name="description" content="Sinonimia: un diccionario en lectura fÃ¡cil para palabras difÃ­ciles de trÃ¡mites, justicia y salud.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>ðŸ“–</text></svg>">
+<link rel="stylesheet" href="../css/styles.css">
 
-  .envoltorio { max-width: 900px; margin: 0 auto; padding: 0 1.25rem 4rem; }
-
-  /* --- Hero --- */
-  header.cabecera {
-    background: linear-gradient(135deg, var(--color-primario) 0%, var(--color-primario-oscuro) 100%);
-    color: #fff;
-    padding: 2.5rem 1.25rem 2rem;
-    text-align: center;
-  }
-  header.cabecera .envoltorio { padding: 0 1.25rem; }
-  .idioma-selector { margin-bottom: 1.5rem; }
-  .idioma-btn {
-    font: inherit;
-    font-weight: 700;
-    padding: 0.4rem 0.9rem;
-    border-radius: 999px;
-    border: 2px solid rgba(255,255,255,0.6);
-    background: transparent;
-    color: #fff;
-    cursor: pointer;
-  }
-  .idioma-btn[aria-pressed="true"] { background: #fff; color: var(--color-primario-oscuro); border-color: #fff; }
-  .idioma-btn + .idioma-btn { margin-left: 0.5rem; }
-  .aviso-ruta {
-    display: inline-block;
-    background: rgba(255,255,255,0.12);
-    border: 1px solid rgba(255,255,255,0.35);
-    border-radius: 10px;
-    padding: 0.6rem 1rem;
-    font-size: 0.9rem;
-    max-width: 32rem;
-    margin: 0 auto 1.5rem;
-  }
-  .logo-about { font-size: 3rem; line-height: 1; margin-bottom: 0.25rem; }
-  header.cabecera h1 { margin: 0 0 0.25rem; font-size: 2.2rem; }
-  header.cabecera h1 span { color: #ffd7a8; }
-  .lema { margin: 0 0 1rem; font-size: 1.1rem; opacity: 0.92; }
-  .entradilla { max-width: 40rem; margin: 0 auto 1.75rem; font-size: 1.05rem; }
-
-  nav.indice {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.5rem 1.25rem;
-    font-size: 0.95rem;
-  }
-  nav.indice a { color: #fff; text-decoration: none; border-bottom: 2px solid rgba(255,255,255,0.4); padding-bottom: 2px; }
-  nav.indice a:hover, nav.indice a:focus-visible { border-color: #ffd7a8; }
-
-  /* --- Main content --- */
-  main section {
-    background: var(--color-tarjeta);
-    border: 1px solid var(--color-borde);
-    border-radius: 12px;
-    padding: 1.75rem 1.75rem;
-    margin: 2rem 0;
-    scroll-margin-top: 1rem;
-  }
-  main h2 {
-    color: var(--color-primario-oscuro);
-    margin-top: 0;
-    border-bottom: 2px solid var(--color-borde);
-    padding-bottom: 0.5rem;
-  }
-  main h3 { margin-top: 0; }
-
-  .grid-principios, .grid-areas {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-    gap: 1rem;
-    margin-top: 1.25rem;
-  }
-  .principio, .area {
-    background: var(--color-fondo);
-    border: 1px solid var(--color-borde);
-    border-left: 5px solid var(--acento, var(--color-primario));
-    border-radius: 10px;
-    padding: 1rem 1.1rem;
-  }
-  .principio h3, .area h3 { font-size: 1.05rem; color: var(--color-primario-oscuro); }
-  .principio p, .area p { margin-bottom: 0; font-size: 0.95rem; }
-  .area-cifra { font-weight: 700; color: var(--acento, var(--color-acento)); margin-top: 0.4rem !important; }
-
-  .cifras {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-    gap: 1rem;
-    margin: 0 0 1.5rem;
-  }
-  .cifra {
-    text-align: center;
-    background: var(--color-fondo);
-    border: 1px solid var(--color-borde);
-    border-radius: 10px;
-    padding: 1rem 0.5rem;
-  }
-  .cifra strong { display: block; font-size: 1.8rem; color: var(--color-acento); }
-  .cifra span { font-size: 0.9rem; }
-
-  .lista-colaborar li { margin-bottom: 0.75rem; }
-
-  /* --- Footer --- */
-  footer.pie-about {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.75rem;
-    padding: 1rem 1.25rem 0;
-  }
-  .btn {
-    display: inline-block;
-    font: inherit;
-    font-weight: 700;
-    text-decoration: none;
-    padding: 0.6rem 1.1rem;
-    border-radius: 999px;
-    border: 2px solid var(--color-primario);
-    color: var(--color-primario-oscuro);
-    background: var(--color-tarjeta);
-  }
-  .btn:hover, .btn:focus-visible { background: var(--color-primario); color: #fff; }
-  .pie-nota { text-align: center; font-size: 0.85rem; color: #666; padding: 1.5rem 1.25rem 0; }
-
-  [data-lang-block] { display: none; }
-  html[data-lang="es"] [data-lang-block="es"] { display: block; }
-  html[data-lang="en"] [data-lang-block="en"] { display: block; }
-  html[data-lang="es"] span[data-lang-block="es"],
-  html[data-lang="en"] span[data-lang-block="en"] { display: inline; }
-
-  @media print {
-    header.cabecera { background: none; color: var(--color-texto); }
-    header.cabecera h1 span { color: var(--color-acento); }
-    .idioma-selector, .aviso-ruta, nav.indice, footer.pie-about { display: none; }
-    main section { break-inside: avoid; border: none; padding: 0; }
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --color-fondo: #17191b;
-      --color-texto: #ececec;
-      --color-tarjeta: #22262a;
-      --color-borde: #3a3f43;
-    }
-    .principio, .area, .cifra { background: #1b1e21; }
-    .btn { background: #1b1e21; }
-  }
-</style>
 </head>
-<body>
+<body class="page-about">
 
 <header class="cabecera">
   <div class="envoltorio">
     <div class="idioma-selector" role="group" aria-label="Idioma / Language">
-      <button type="button" class="idioma-btn" data-lang="es" aria-pressed="true">🇪🇸 Español</button>
-      <button type="button" class="idioma-btn" data-lang="en" aria-pressed="false">🇬🇧 English</button>
+      <button type="button" class="idioma-btn" data-lang="es" aria-pressed="true">ðŸ‡ªðŸ‡¸ EspaÃ±ol</button>
+      <button type="button" class="idioma-btn" data-lang="en" aria-pressed="false">ðŸ‡¬ðŸ‡§ English</button>
     </div>
 
-    <p class="aviso-ruta" data-lang-block="es">Esta página no está enlazada desde la web de Sinonimia ni desde su README. Solo se llega escribiendo esta dirección directamente.</p>
+    <p class="aviso-ruta" data-lang-block="es">Esta pÃ¡gina no estÃ¡ enlazada desde la web de Sinonimia ni desde su README. Solo se llega escribiendo esta direcciÃ³n directamente.</p>
     <p class="aviso-ruta" data-lang-block="en">This page isn't linked from Sinonimia's site or its README. It's only reached by typing this address directly.</p>
 
-    <div class="logo-about">📖</div>
+    <div class="logo-about">ðŸ“–</div>
     <h1>Sinonimia<span>.</span></h1>
-    <p class="lema" data-lang-block="es">Palabras difíciles, explicadas fácil.</p>
+    <p class="lema" data-lang-block="es">Palabras difÃ­ciles, explicadas fÃ¡cil.</p>
     <p class="lema" data-lang-block="en">Difficult words, explained simply.</p>
 
-    <p class="entradilla" data-lang-block="es">Sinonimia es un <strong>diccionario web en lectura fácil</strong> para
-      palabras difíciles de trámites, justicia y salud, con pictogramas y
-      práctica activa, sin coste y sin depender de ningún servidor.</p>
+    <p class="entradilla" data-lang-block="es">Sinonimia es un <strong>diccionario web en lectura fÃ¡cil</strong> para
+      palabras difÃ­ciles de trÃ¡mites, justicia y salud, con pictogramas y
+      prÃ¡ctica activa, sin coste y sin depender de ningÃºn servidor.</p>
     <p class="entradilla" data-lang-block="en">Sinonimia is a <strong>web dictionary in easy-read language</strong>
       for difficult words in paperwork, justice, and health, with
       pictograms and active practice, free of charge and with no
       server to run.</p>
 
-    <nav class="indice" aria-label="Índice de la presentación">
+    <nav class="indice" aria-label="Ãndice de la presentaciÃ³n">
       <a href="#origen" data-lang-block="es">El origen</a>
       <a href="#origen" data-lang-block="en">The origin</a>
       <a href="#principios" data-lang-block="es">Los principios</a>
       <a href="#principios" data-lang-block="en">The principles</a>
-      <a href="#tecnologia" data-lang-block="es">Cómo está hecha</a>
+      <a href="#tecnologia" data-lang-block="es">CÃ³mo estÃ¡ hecha</a>
       <a href="#tecnologia" data-lang-block="en">How it's built</a>
       <a href="#contenido" data-lang-block="es">El diccionario hoy</a>
       <a href="#contenido" data-lang-block="en">The dictionary today</a>
-      <a href="#colaborar" data-lang-block="es">Cómo ayudar</a>
+      <a href="#colaborar" data-lang-block="es">CÃ³mo ayudar</a>
       <a href="#colaborar" data-lang-block="en">How to help</a>
     </nav>
   </div>
@@ -236,21 +61,21 @@
       <h2 data-lang-block="es">El origen</h2>
       <h2 data-lang-block="en">The origin</h2>
       <div data-lang-block="es">
-        <p>Sinonimia nace de una situación muy concreta: abrir una carta del
-          ayuntamiento, un contrato o un informe médico y encontrarse una
-          palabra que no se entiende a la primera. Para la mayoría es una
+        <p>Sinonimia nace de una situaciÃ³n muy concreta: abrir una carta del
+          ayuntamiento, un contrato o un informe mÃ©dico y encontrarse una
+          palabra que no se entiende a la primera. Para la mayorÃ­a es una
           molestia. Para una persona con discapacidad intelectual, en un
           proceso de <strong>terapia ocupacional</strong> orientado a ganar
-          autonomía en la vida adulta, es una barrera real.</p>
+          autonomÃ­a en la vida adulta, es una barrera real.</p>
         <p>Sinonimia se construye como esa herramienta de apoyo: un
-          diccionario que no traduce a otro idioma técnico, sino que explica
-          cada palabra difícil con lectura fácil, un pictograma y una frase
+          diccionario que no traduce a otro idioma tÃ©cnico, sino que explica
+          cada palabra difÃ­cil con lectura fÃ¡cil, un pictograma y una frase
           de la vida diaria, para que se entienda por el contexto y no solo
-          por la definición.</p>
-        <p>De cara a quien la usa, la web nunca nombra ese origen — es
+          por la definiciÃ³n.</p>
+        <p>De cara a quien la usa, la web nunca nombra ese origen â€” es
           deliberadamente universal, para que cualquiera que se encuentre una
-          palabra difícil la use sin sentirse señalado. Esta página, en
-          cambio, sí lo explica: es para quien evalúa el proyecto desde
+          palabra difÃ­cil la use sin sentirse seÃ±alado. Esta pÃ¡gina, en
+          cambio, sÃ­ lo explica: es para quien evalÃºa el proyecto desde
           fuera, no para quien lo usa.</p>
       </div>
       <div data-lang-block="en">
@@ -266,7 +91,7 @@
           everyday sentence, so it's understood through context, not just
           through the definition.</p>
         <p>From the point of view of whoever uses it, the site never names
-          that origin — it's deliberately universal, so that anyone who
+          that origin â€” it's deliberately universal, so that anyone who
           runs into a difficult word can use it without feeling singled
           out. This page, on the other hand, does explain it: it's for
           whoever is evaluating the project from the outside, not for
@@ -277,8 +102,8 @@
     <section id="principios">
       <h2 data-lang-block="es">Los principios que no negociamos</h2>
       <h2 data-lang-block="en">The principles we don't negotiate</h2>
-      <p data-lang-block="es">Estas reglas mandan sobre cualquier otra consideración, incluida la
-        precisión técnica de una definición. Están escritas en detalle en
+      <p data-lang-block="es">Estas reglas mandan sobre cualquier otra consideraciÃ³n, incluida la
+        precisiÃ³n tÃ©cnica de una definiciÃ³n. EstÃ¡n escritas en detalle en
         <code>doc/es/SPEC.md</code>.</p>
       <p data-lang-block="en">These rules override any other consideration, including a
         definition's technical accuracy. They're written in detail in
@@ -286,55 +111,55 @@
 
       <div class="grid-principios">
         <article class="principio" style="--acento: var(--acento-tramites);">
-          <h3 data-lang-block="es">📖 Lectura fácil</h3>
-          <h3 data-lang-block="en">📖 Easy-read language</h3>
+          <h3 data-lang-block="es">ðŸ“– Lectura fÃ¡cil</h3>
+          <h3 data-lang-block="en">ðŸ“– Easy-read language</h3>
           <p data-lang-block="es">Norma UNE 153101:2018 EX y pautas de Inclusion Europe: una idea
-            por frase, frases cortas, vocabulario cotidiano, sin metáforas.</p>
+            por frase, frases cortas, vocabulario cotidiano, sin metÃ¡foras.</p>
           <p data-lang-block="en">UNE 153101:2018 EX standard and Inclusion Europe's guidelines: one
             idea per sentence, short sentences, everyday vocabulary, no
             metaphors.</p>
         </article>
 
         <article class="principio" style="--acento: var(--acento-vida-diaria);">
-          <h3 data-lang-block="es">🔁 Repetición con sinónimo</h3>
-          <h3 data-lang-block="en">🔁 Synonym repetition</h3>
+          <h3 data-lang-block="es">ðŸ” RepeticiÃ³n con sinÃ³nimo</h3>
+          <h3 data-lang-block="en">ðŸ” Synonym repetition</h3>
           <p data-lang-block="es">La misma frase de ejemplo se repite cambiando solo la palabra
-            difícil por la sencilla: se entiende por contexto, no de memoria.</p>
+            difÃ­cil por la sencilla: se entiende por contexto, no de memoria.</p>
           <p data-lang-block="en">The same example sentence is repeated, swapping only the
             difficult word for the simple one: understood through context,
             not by rote.</p>
         </article>
 
         <article class="principio" style="--acento: var(--acento-finanzas);">
-          <h3 data-lang-block="es">🖼️ Pictogramas ARASAAC</h3>
-          <h3 data-lang-block="en">🖼️ ARASAAC pictograms</h3>
-          <p data-lang-block="es">Apoyo visual habitual en comunicación aumentativa, compartido
+          <h3 data-lang-block="es">ðŸ–¼ï¸ Pictogramas ARASAAC</h3>
+          <h3 data-lang-block="en">ðŸ–¼ï¸ ARASAAC pictograms</h3>
+          <p data-lang-block="es">Apoyo visual habitual en comunicaciÃ³n aumentativa, compartido
             entre idiomas cuando representan el mismo concepto.</p>
           <p data-lang-block="en">The standard visual support used in augmentative communication,
             shared across languages when they represent the same concept.</p>
         </article>
 
         <article class="principio" style="--acento: var(--acento-salud);">
-          <h3 data-lang-block="es">🎮 Gamificación sin presión</h3>
-          <h3 data-lang-block="en">🎮 Gamification with no pressure</h3>
-          <p data-lang-block="es">Sin cronómetros ni "vidas". Un fallo nunca se castiga: se invita
-            a releer la pista y volver a intentarlo, sin límite.</p>
+          <h3 data-lang-block="es">ðŸŽ® GamificaciÃ³n sin presiÃ³n</h3>
+          <h3 data-lang-block="en">ðŸŽ® Gamification with no pressure</h3>
+          <p data-lang-block="es">Sin cronÃ³metros ni "vidas". Un fallo nunca se castiga: se invita
+            a releer la pista y volver a intentarlo, sin lÃ­mite.</p>
           <p data-lang-block="en">No timers or "lives". A wrong answer is never punished: it
             invites re-reading the hint and trying again, with no limit.</p>
         </article>
 
         <article class="principio" style="--acento: var(--acento-vivienda);">
-          <h3 data-lang-block="es">🌐 Arquitectura multi-idioma</h3>
-          <h3 data-lang-block="en">🌐 Multi-language architecture</h3>
+          <h3 data-lang-block="es">ðŸŒ Arquitectura multi-idioma</h3>
+          <h3 data-lang-block="en">ðŸŒ Multi-language architecture</h3>
           <p data-lang-block="es">Cada idioma tiene su propio diccionario, clasificado en siete
-            áreas AIVD compartidas, sin necesidad de traducir palabra por palabra.</p>
+            Ã¡reas AIVD compartidas, sin necesidad de traducir palabra por palabra.</p>
           <p data-lang-block="en">Each language has its own dictionary, classified into seven
             shared IADL areas, with no need to translate word for word.</p>
         </article>
 
         <article class="principio" style="--acento: var(--acento-trabajo);">
-          <h3 data-lang-block="es">🧱 Tecnología sobria</h3>
-          <h3 data-lang-block="en">🧱 Sober technology</h3>
+          <h3 data-lang-block="es">ðŸ§± TecnologÃ­a sobria</h3>
+          <h3 data-lang-block="en">ðŸ§± Sober technology</h3>
           <p data-lang-block="es">HTML, CSS y JavaScript sin frameworks, sin build ni backend.
             Funciona abriendo un archivo, sin coste de servidor.</p>
           <p data-lang-block="en">Plain HTML, CSS, and JavaScript, no frameworks, no build step, no
@@ -344,21 +169,21 @@
     </section>
 
     <section id="tecnologia">
-      <h2 data-lang-block="es">Cómo está hecha</h2>
+      <h2 data-lang-block="es">CÃ³mo estÃ¡ hecha</h2>
       <h2 data-lang-block="en">How it's built</h2>
       <div data-lang-block="es">
         <ul>
           <li><strong>Sin servidor propio</strong>: un conjunto de archivos
-            estáticos servidos por cualquier hosting gratuito. No hay
+            estÃ¡ticos servidos por cualquier hosting gratuito. No hay
             backend, ni base de datos, ni API propia.</li>
           <li><strong>Persistencia solo en <code>localStorage</code></strong>:
             el progreso de cada persona (palabras descubiertas, aciertos de
-            los juegos, frases propias) vive únicamente en su navegador.
-            Nunca se envía a ningún sitio. Sin cuentas, sin cookies, sin
-            analítica.</li>
-          <li><strong>Sin dependencias externas</strong>: JavaScript clásico,
-            sin frameworks ni paso de compilación.</li>
-          <li><strong>Código abierto</strong>: el código (HTML/CSS/JS) es MIT;
+            los juegos, frases propias) vive Ãºnicamente en su navegador.
+            Nunca se envÃ­a a ningÃºn sitio. Sin cuentas, sin cookies, sin
+            analÃ­tica.</li>
+          <li><strong>Sin dependencias externas</strong>: JavaScript clÃ¡sico,
+            sin frameworks ni paso de compilaciÃ³n.</li>
+          <li><strong>CÃ³digo abierto</strong>: el cÃ³digo (HTML/CSS/JS) es MIT;
             el contenido del diccionario es CC BY-SA 4.0.</li>
         </ul>
       </div>
@@ -383,16 +208,16 @@
       <h2 data-lang-block="en">The dictionary today</h2>
 
       <div class="cifras">
-        <div class="cifra"><strong>62</strong><span data-lang-block="es">palabras en español</span><span data-lang-block="en">words in Spanish</span></div>
-        <div class="cifra"><strong>24</strong><span data-lang-block="es">palabras en inglés</span><span data-lang-block="en">words in English</span></div>
-        <div class="cifra"><strong>7</strong><span data-lang-block="es">áreas (AIVD)</span><span data-lang-block="en">areas (IADL)</span></div>
+        <div class="cifra"><strong>62</strong><span data-lang-block="es">palabras en espaÃ±ol</span><span data-lang-block="en">words in Spanish</span></div>
+        <div class="cifra"><strong>24</strong><span data-lang-block="es">palabras en inglÃ©s</span><span data-lang-block="en">words in English</span></div>
+        <div class="cifra"><strong>7</strong><span data-lang-block="es">Ã¡reas (AIVD)</span><span data-lang-block="en">areas (IADL)</span></div>
         <div class="cifra"><strong>2</strong><span data-lang-block="es">idiomas activos</span><span data-lang-block="en">active languages</span></div>
       </div>
 
-      <p data-lang-block="es">Las palabras se clasifican en siete áreas AIVD (actividades
+      <p data-lang-block="es">Las palabras se clasifican en siete Ã¡reas AIVD (actividades
         instrumentales de la vida diaria), el marco que usa la terapia
-        ocupacional para identificar dónde suele hacer falta más apoyo para
-        ganar autonomía:</p>
+        ocupacional para identificar dÃ³nde suele hacer falta mÃ¡s apoyo para
+        ganar autonomÃ­a:</p>
       <p data-lang-block="en">Words are classified into seven IADL areas (instrumental
         activities of daily living), the framework occupational therapy
         uses to identify where more support tends to be needed to gain
@@ -400,45 +225,45 @@
 
       <div class="grid-areas">
         <article class="area" style="--acento: var(--acento-tramites);">
-          <h3 data-lang-block="es">📄 Trámites</h3>
-          <h3 data-lang-block="en">📄 Paperwork</h3>
-          <p class="area-cifra">ES 5 · EN 4</p>
+          <h3 data-lang-block="es">ðŸ“„ TrÃ¡mites</h3>
+          <h3 data-lang-block="en">ðŸ“„ Paperwork</h3>
+          <p class="area-cifra">ES 5 Â· EN 4</p>
         </article>
         <article class="area" style="--acento: var(--acento-salud);">
-          <h3 data-lang-block="es">🩺 Salud</h3>
-          <h3 data-lang-block="en">🩺 Health</h3>
-          <p class="area-cifra">ES 20 · EN 6</p>
+          <h3 data-lang-block="es">ðŸ©º Salud</h3>
+          <h3 data-lang-block="en">ðŸ©º Health</h3>
+          <p class="area-cifra">ES 20 Â· EN 6</p>
         </article>
         <article class="area" style="--acento: var(--acento-vida-diaria);">
-          <h3 data-lang-block="es">🏠 Vida diaria</h3>
-          <h3 data-lang-block="en">🏠 Everyday life</h3>
-          <p class="area-cifra">ES 9 · EN 6</p>
+          <h3 data-lang-block="es">ðŸ  Vida diaria</h3>
+          <h3 data-lang-block="en">ðŸ  Everyday life</h3>
+          <p class="area-cifra">ES 9 Â· EN 6</p>
         </article>
         <article class="area" style="--acento: var(--acento-finanzas);">
-          <h3 data-lang-block="es">💶 Finanzas</h3>
-          <h3 data-lang-block="en">💶 Finance</h3>
-          <p class="area-cifra">ES 6 · EN 2</p>
+          <h3 data-lang-block="es">ðŸ’¶ Finanzas</h3>
+          <h3 data-lang-block="en">ðŸ’¶ Finance</h3>
+          <p class="area-cifra">ES 6 Â· EN 2</p>
         </article>
         <article class="area" style="--acento: var(--acento-vivienda);">
-          <h3 data-lang-block="es">🏘️ Vivienda</h3>
-          <h3 data-lang-block="en">🏘️ Housing</h3>
-          <p class="area-cifra">ES 5 · EN 1</p>
+          <h3 data-lang-block="es">ðŸ˜ï¸ Vivienda</h3>
+          <h3 data-lang-block="en">ðŸ˜ï¸ Housing</h3>
+          <p class="area-cifra">ES 5 Â· EN 1</p>
         </article>
         <article class="area" style="--acento: var(--acento-trabajo);">
-          <h3 data-lang-block="es">💼 Trabajo</h3>
-          <h3 data-lang-block="en">💼 Employment</h3>
-          <p class="area-cifra">ES 5 · EN 1</p>
+          <h3 data-lang-block="es">ðŸ’¼ Trabajo</h3>
+          <h3 data-lang-block="en">ðŸ’¼ Employment</h3>
+          <p class="area-cifra">ES 5 Â· EN 1</p>
         </article>
         <article class="area" style="--acento: var(--acento-legal);">
-          <h3 data-lang-block="es">⚖️ Legal</h3>
-          <h3 data-lang-block="en">⚖️ Legal</h3>
-          <p class="area-cifra">ES 12 · EN 4</p>
+          <h3 data-lang-block="es">âš–ï¸ Legal</h3>
+          <h3 data-lang-block="en">âš–ï¸ Legal</h3>
+          <p class="area-cifra">ES 12 Â· EN 4</p>
         </article>
       </div>
 
-      <p data-lang-block="es" style="margin-top:1.25rem;">El inglés va por detrás del español a propósito: cada idioma
-        elige las palabras que de verdad son difíciles en ese idioma, no
-        una traducción del otro. Igualar la cobertura es parte de la hoja
+      <p data-lang-block="es" style="margin-top:1.25rem;">El inglÃ©s va por detrÃ¡s del espaÃ±ol a propÃ³sito: cada idioma
+        elige las palabras que de verdad son difÃ­ciles en ese idioma, no
+        una traducciÃ³n del otro. Igualar la cobertura es parte de la hoja
         de ruta.</p>
       <p data-lang-block="en" style="margin-top:1.25rem;">English deliberately lags behind Spanish: each language picks
         the words that are genuinely difficult in that language, not a
@@ -447,28 +272,28 @@
     </section>
 
     <section id="colaborar">
-      <h2 data-lang-block="es">Cómo ayudar</h2>
+      <h2 data-lang-block="es">CÃ³mo ayudar</h2>
       <h2 data-lang-block="en">How to help</h2>
       <div data-lang-block="es">
         <ul class="lista-colaborar">
-          <li><strong>Financiar tiempo de redacción</strong>: escribir una
-            definición en lectura fácil necesita criterio humano — no se
-            puede generar en plantilla sin que se note. El recurso que más
+          <li><strong>Financiar tiempo de redacciÃ³n</strong>: escribir una
+            definiciÃ³n en lectura fÃ¡cil necesita criterio humano â€” no se
+            puede generar en plantilla sin que se note. El recurso que mÃ¡s
             falta es tiempo experto para ampliarlo.</li>
-          <li><strong>Validar el contenido</strong>: revisión por
+          <li><strong>Validar el contenido</strong>: revisiÃ³n por
             profesionales de terapia ocupacional o personas usuarias antes
             de dar una palabra por terminada.</li>
           <li><strong>Difundir</strong>: contar que existe a quien atiende a
-            diario a personas que se encuentran estas palabras difíciles.</li>
-          <li><strong>Contribuir código o contenido</strong>: el proceso
-            completo está descrito en <code>CONTRIBUTING.es.md</code> y
+            diario a personas que se encuentran estas palabras difÃ­ciles.</li>
+          <li><strong>Contribuir cÃ³digo o contenido</strong>: el proceso
+            completo estÃ¡ descrito en <code>CONTRIBUTING.es.md</code> y
             <code>doc/es/SPEC.md</code>.</li>
         </ul>
       </div>
       <div data-lang-block="en">
         <ul class="lista-colaborar">
           <li><strong>Fund writing time</strong>: writing an easy-read
-            definition needs human judgment — it can't be templated
+            definition needs human judgment â€” it can't be templated
             without it showing. The scarcest resource is expert time to
             grow it.</li>
           <li><strong>Validate the content</strong>: review by
@@ -481,7 +306,7 @@
             <code>doc/en/SPEC.md</code>.</li>
         </ul>
       </div>
-      <p data-lang-block="es"><em>Contacto: [añadir aquí el email o formulario de contacto]</em></p>
+      <p data-lang-block="es"><em>Contacto: [aÃ±adir aquÃ­ el email o formulario de contacto]</em></p>
       <p data-lang-block="en"><em>Contact: [add contact email or form here]</em></p>
     </section>
 
@@ -490,35 +315,14 @@
   <footer class="pie-about">
     <a class="btn" href="../index.html" data-lang-block="es">Ir al diccionario</a>
     <a class="btn" href="../index.html" data-lang-block="en">Go to the dictionary</a>
-    <a class="btn" href="#colaborar" data-lang-block="es">Cómo ayudar</a>
+    <a class="btn" href="#colaborar" data-lang-block="es">CÃ³mo ayudar</a>
     <a class="btn" href="#colaborar" data-lang-block="en">How to help</a>
   </footer>
-  <p class="pie-nota" data-lang-block="es">Sinonimia — presentación del proyecto, uso interno y para entidades colaboradoras.</p>
-  <p class="pie-nota" data-lang-block="en">Sinonimia — project presentation, for internal use and partner organizations.</p>
+  <p class="pie-nota" data-lang-block="es">Sinonimia â€” presentaciÃ³n del proyecto, uso interno y para entidades colaboradoras.</p>
+  <p class="pie-nota" data-lang-block="en">Sinonimia â€” project presentation, for internal use and partner organizations.</p>
 </div>
 
-<script>
-(function () {
-  var root = document.documentElement;
-  var params = new URLSearchParams(location.search);
-  var requested = params.get("lang");
-  if (requested === "es" || requested === "en") {
-    root.setAttribute("data-lang", requested);
-  }
-  function setLang(lang) {
-    root.setAttribute("data-lang", lang);
-    document.querySelectorAll(".idioma-btn").forEach(function (btn) {
-      btn.setAttribute("aria-pressed", String(btn.getAttribute("data-lang") === lang));
-    });
-  }
-  document.querySelectorAll(".idioma-btn").forEach(function (btn) {
-    btn.addEventListener("click", function () {
-      setLang(btn.getAttribute("data-lang"));
-    });
-  });
-  setLang(root.getAttribute("data-lang"));
-})();
-</script>
+<script src="about.js"></script>
 
 </body>
 </html>

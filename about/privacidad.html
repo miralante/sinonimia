@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es" data-lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Hidden route: like about/index.html, this page is not linked from
+     index.html. It's reached by typing the address directly, so search
+     engines are told not to index it. -->
+<meta name="robots" content="noindex, nofollow">
+<title>Sinonimia â€” Privacidad / Privacy</title>
+<meta name="description" content="QuÃ© datos guarda Sinonimia en tu dispositivo, quÃ© datos no se recogen, y cÃ³mo borrar lo guardado.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>ðŸ“–</text></svg>">
+<link rel="stylesheet" href="../css/styles.css">
+
+</head>
+<body class="page-privacidad">
+
+<header class="cabecera">
+  <div class="envoltorio">
+    <div class="idioma-selector" role="group" aria-label="Idioma / Language">
+      <button type="button" class="idioma-btn" data-lang="es" aria-pressed="true">ðŸ‡ªðŸ‡¸ EspaÃ±ol</button>
+      <button type="button" class="idioma-btn" data-lang="en" aria-pressed="false">ðŸ‡¬ðŸ‡§ English</button>
+    </div>
+
+    <div class="logo-about">ðŸ”’</div>
+    <h1>Sinonimia<span>.</span></h1>
+    <p class="lema" data-lang-block="es">QuÃ© datos guarda la app en tu dispositivo.</p>
+    <p class="lema" data-lang-block="en">What data the app stores on your device.</p>
+
+    <nav class="indice" aria-label="Ãndice">
+      <a href="#resumen" data-lang-block="es">Resumen</a>
+      <a href="#resumen" data-lang-block="en">Summary</a>
+      <a href="#que-guarda" data-lang-block="es">QuÃ© se guarda</a>
+      <a href="#que-guarda" data-lang-block="en">What's stored</a>
+      <a href="#que-no" data-lang-block="es">QuÃ© NO se hace</a>
+      <a href="#que-no" data-lang-block="en">What is NOT done</a>
+      <a href="#borrar" data-lang-block="es">Borrar los datos</a>
+      <a href="#borrar" data-lang-block="en">Delete the data</a>
+      <a href="#imagenes" data-lang-block="es">ImÃ¡genes</a>
+      <a href="#imagenes" data-lang-block="en">Images</a>
+    </nav>
+  </div>
+</header>
+
+<div class="envoltorio">
+  <main>
+
+    <section id="resumen">
+      <div data-lang-block="es">
+        <p class="resumen"><strong>En una frase:</strong> Sinonimia no recoge datos personales. Todo se queda en tu navegador. No hay servidor, no hay cuentas, no hay seguimiento.</p>
+      </div>
+      <div data-lang-block="en">
+        <p class="resumen"><strong>In one sentence:</strong> Sinonimia does not collect personal data. Everything stays in your browser. There is no server, no accounts, no tracking.</p>
+      </div>
+    </section>
+
+    <section id="que-guarda">
+      <h2 data-lang-block="es">QuÃ© datos se guardan</h2>
+      <h2 data-lang-block="en">What data is stored</h2>
+      <div data-lang-block="es">
+        <p>Sinonimia guarda <strong>solo en tu navegador</strong>, usando <code>localStorage</code>, estos datos:</p>
+        <div class="lista-datos">
+          <div class="dato"><strong>Idioma elegido</strong> â€” para recordar si prefieres espaÃ±ol o inglÃ©s.</div>
+          <div class="dato"><strong>TamaÃ±o de letra</strong> â€” para que la prÃ³xima vez abras con el mismo tamaÃ±o.</div>
+          <div class="dato"><strong>Modo alto contraste</strong> â€” si lo activaste, se queda activado.</div>
+          <div class="dato"><strong>Palabras descubiertas</strong> â€” para la barra de progreso y la "palabra del dÃ­a".</div>
+          <div class="dato"><strong>Aciertos de los juegos</strong> â€” el contador de â­ de cada juego.</div>
+          <div class="dato"><strong>Tus frases escritas</strong> â€” si escribes una frase propia para una palabra, se guarda en tu navegador.</div>
+        </div>
+        <p style="margin-top:1rem;">Nada de esto sale de tu dispositivo. No se envÃ­a a ningÃºn servidor, ni se comparte con nadie.</p>
+      </div>
+      <div data-lang-block="en">
+        <p>Sinonimia stores <strong>only in your browser</strong>, using <code>localStorage</code>, the following:</p>
+        <div class="lista-datos">
+          <div class="dato"><strong>Chosen language</strong> â€” so it remembers whether you prefer Spanish or English.</div>
+          <div class="dato"><strong>Text size</strong> â€” so the next visit opens with the same size.</div>
+          <div class="dato"><strong>High-contrast mode</strong> â€” if you turned it on, it stays on.</div>
+          <div class="dato"><strong>Discovered words</strong> â€” for the progress bar and the "word of the day".</div>
+          <div class="dato"><strong>Game scores</strong> â€” the â­ counter for each game.</div>
+          <div class="dato"><strong>Your own sentences</strong> â€” if you write your own sentence for a word, it's kept in your browser.</div>
+        </div>
+        <p style="margin-top:1rem;">None of this leaves your device. It isn't sent to any server, and it isn't shared with anyone.</p>
+      </div>
+    </section>
+
+    <section id="que-no">
+      <h2 data-lang-block="es">QuÃ© NO se hace</h2>
+      <h2 data-lang-block="en">What is NOT done</h2>
+      <div data-lang-block="es">
+        <ul>
+          <li><strong>No hay servidor propio.</strong> Sinonimia son archivos estÃ¡ticos (HTML, CSS, JavaScript). No hay backend que reciba datos.</li>
+          <li><strong>No hay cuentas de usuario.</strong> No se pide nombre, correo ni contraseÃ±a.</li>
+          <li><strong>No hay cookies.</strong> La app no usa cookies, ni propias ni de terceros.</li>
+          <li><strong>No hay analÃ­tica ni seguimiento.</strong> No se usa Google Analytics, ni Plausible, ni Matomo, ni ningÃºn pÃ­xel de seguimiento.</li>
+          <li><strong>No hay publicidad.</strong> Ni anuncios propios ni de terceros.</li>
+          <li><strong>No se comparten datos con terceros.</strong> No hay terceros a quien compartirlos.</li>
+        </ul>
+      </div>
+      <div data-lang-block="en">
+        <ul>
+          <li><strong>No server of its own.</strong> Sinonimia is static files (HTML, CSS, JavaScript). There's no backend receiving data.</li>
+          <li><strong>No user accounts.</strong> No name, email, or password is asked for.</li>
+          <li><strong>No cookies.</strong> The app doesn't use cookies â€” not its own, not third-party.</li>
+          <li><strong>No analytics or tracking.</strong> No Google Analytics, no Plausible, no Matomo, no tracking pixels.</li>
+          <li><strong>No advertising.</strong> Neither first-party nor third-party ads.</li>
+          <li><strong>No data shared with third parties.</strong> There are no third parties to share it with.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="borrar">
+      <h2 data-lang-block="es">CÃ³mo borrar los datos guardados</h2>
+      <h2 data-lang-block="en">How to delete the stored data</h2>
+      <div data-lang-block="es">
+        <p>Los datos viven en tu navegador, asÃ­ que se borran desde tu navegador. Tienes dos opciones:</p>
+        <ul>
+          <li><strong>Borrar solo Sinonimia</strong>: en la configuraciÃ³n del navegador, busca "datos de sitios" o "almacenamiento del sitio", localiza este sitio web y pulsa "borrar datos" o "eliminar".</li>
+          <li><strong>Borrar todo lo guardado en este navegador</strong>: la opciÃ³n habitual de "borrar datos de navegaciÃ³n" tambiÃ©n lo elimina, junto con el resto.</li>
+        </ul>
+        <p>DespuÃ©s de borrar, la siguiente visita empezarÃ¡ de cero: idioma por defecto, letra normal, sin alto contraste, sin progreso y sin frases guardadas.</p>
+      </div>
+      <div data-lang-block="en">
+        <p>The data lives in your browser, so it's deleted from your browser. You have two options:</p>
+        <ul>
+          <li><strong>Delete only Sinonimia</strong>: in your browser settings, look for "site data" or "site storage", find this website, and click "clear data" or "remove".</li>
+          <li><strong>Delete everything stored in this browser</strong>: the usual "clear browsing data" option will also remove it, along with the rest.</li>
+        </ul>
+        <p>After deleting, the next visit starts from scratch: default language, normal text size, no high contrast, no progress, and no saved sentences.</p>
+      </div>
+    </section>
+
+    <section id="imagenes">
+      <h2 data-lang-block="es">Sobre las imÃ¡genes (pictogramas)</h2>
+      <h2 data-lang-block="en">About the images (pictograms)</h2>
+      <div data-lang-block="es">
+        <p>Los pictogramas son de <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a>
+          (Gobierno de AragÃ³n, autor Sergio Palao) y se usan bajo licencia
+          <strong>CC BY-NC-SA</strong>: puedes compartirlos y adaptarlos,
+          citando la autorÃ­a, sin uso comercial y manteniendo la misma
+          licencia. MÃ¡s detalles en la web de ARASAAC.</p>
+        <p>Los pictogramas son archivos de imagen servidos desde
+          <code>img/</code> dentro del propio sitio, igual que el resto de
+          archivos. No se cargan desde un servidor externo.</p>
+      </div>
+      <div data-lang-block="en">
+        <p>Pictograms are by <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a>
+          (Government of AragÃ³n, author Sergio Palao) and are used under
+          the <strong>CC BY-NC-SA</strong> license: you can share and
+          adapt them, with attribution, no commercial use, and keeping
+          the same license. See ARASAAC's site for details.</p>
+        <p>Pictograms are image files served from <code>img/</code> within
+          the site itself, just like the rest of the files. They are not
+          loaded from any external server.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="pie-about">
+    <a class="btn" href="../index.html" data-lang-block="es">Ir al diccionario</a>
+    <a class="btn" href="../index.html" data-lang-block="en">Go to the dictionary</a>
+    <a class="btn" href="index.html" data-lang-block="es">Sobre el proyecto</a>
+    <a class="btn" href="index.html" data-lang-block="en">About the project</a>
+  </footer>
+  <p class="pie-nota" data-lang-block="es">Sinonimia â€” privacidad. Ãšltima revisiÃ³n: julio de 2026.</p>
+  <p class="pie-nota" data-lang-block="en">Sinonimia â€” privacy. Last reviewed: July 2026.</p>
+</div>
+
+<script src="about.js"></script>
+
+</body>
+</html>
