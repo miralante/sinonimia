@@ -41,9 +41,16 @@
   # Strict CSP. Directives:
   #   default-src 'self'                          — deny everything by default
   #   script-src 'self'                           — no inline scripts, no eval
-  #   style-src-attr 'unsafe-inline'              — needed for element.style.X
-  #                                                assignments in js/app.js
-  #   style-src-elem 'self'                       — block <style> blocks
+  #   style-src 'self' 'unsafe-inline'            — allow the external
+  #                                                stylesheet AND inline
+  #                                                `element.style.X =` writes
+  #                                                done by js/app.js (font size,
+  #                                                progress bar fill, etc.)
+  #                                                We do NOT use `style-src-elem`
+  #                                                on purpose: Safari had
+  #                                                inconsistent support and the
+  #                                                single `style-src` directive
+  #                                                is enough here.
   #   img-src 'self' data: https://static.arasaac.org
   #                                              — favicon data: + ARASAAC
   #   font-src 'self' data:                      — system fonts + data: URIs
@@ -57,7 +64,7 @@
   #   form-action 'self'                          — block form submission to
   #                                                third parties
   #   frame-ancestors 'none'                      — supersedes X-Frame-Options
-  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src-attr 'unsafe-inline'; style-src-elem 'self'; img-src 'self' data: https://static.arasaac.org; font-src 'self' data:; connect-src 'self'; worker-src 'none'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://static.arasaac.org; font-src 'self' data:; connect-src 'self'; worker-src 'none'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
 
 # ---------------------------------------------------------------------------
 # Static assets — one year, immutable. Cloudflare's default cache is fine

@@ -67,25 +67,24 @@ exist in every language, and that the ids `js/app.js` uses exist in
 
 ## Deploying
 
-Sinonimia is a fully static site (HTML/CSS/JS, no build step, no
-server-side code), so it ships as a **Cloudflare Worker with static
-assets** (see [`wrangler.toml`](wrangler.toml)) through "Workers Builds",
-Cloudflare's built-in GitHub integration — there is no custom GitHub
+Sinonimia is a fully static site (HTML/CSS/JS, no build step), so it
+ships directly to **[Cloudflare Pages](https://pages.cloudflare.com)**
+through its built-in GitHub integration — there is no custom GitHub
 Actions workflow. The HTTP headers security policy is in
 [`_headers`](_headers). See [`DEPLOY.md`](DEPLOY.md) for the runbook.
 
 To deploy your own fork:
 
-1. Create a Worker from this repo in the dashboard (**Workers & Pages →
-   Create → Import a repository**). Cloudflare detects `wrangler.toml`
-   and uses it as-is — no build command or output directory to set.
+1. Create a Cloudflare Pages project from this repo in the dashboard
+   (**Workers & Pages → Create → Pages → Connect to Git**). Build
+   command is empty; output directory is `.`.
 2. Push to `main`. Cloudflare rebuilds and deploys automatically. The
    validation workflow ([`.github/workflows/validate.yml`](.github/workflows/validate.yml))
    still runs on every push and PR to gate content, but it does not
    deploy.
 
-Pull requests automatically get a preview URL from Cloudflare — no extra
-workflow is needed.
+Pull requests automatically get a preview URL on `*.pages.dev` — no
+extra workflow is needed.
 
 ## Expanding the dictionary
 

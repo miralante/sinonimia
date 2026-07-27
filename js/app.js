@@ -26,10 +26,16 @@
   }
 
   function normalize(text) {
+    // Explicit `\uXXXX` escapes for the combining-marks range, NOT literal
+    // Unicode characters in the source: Safari's regex engine has been
+    // observed to mis-parse the character range when the source file's
+    // bytes for the combining marks are literal, so the regex silently
+    // fails to strip accents. That breaks search-by-letter, the alphabet
+    // filters, and the highlight/blank-game word finders in Safari.
     return text
       .toString()
       .normalize("NFD")
-      .replace(/[̀-ͯ]/g, "")
+      .replace(/[\u0300-\u036f]/g, "")
       .toLowerCase()
       .trim();
   }

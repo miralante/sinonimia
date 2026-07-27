@@ -1,23 +1,18 @@
-# wrangler.toml — Cloudflare Workers (static assets) configuration for
-# Sinonimia.
+# wrangler.toml — Cloudflare Pages configuration for Sinonimia.
 #
-# Sinonimia is a fully static site (plain HTML/CSS/JS, no build step, no
-# server-side code), so it's deployed as a Worker with no `main` script —
-# just a static-assets binding. This is Cloudflare's current recommended
-# path for static sites (the classic "Pages" product is being superseded by
-# Workers + static assets); it's also what the existing "sinonimia" resource
-# in the Cloudflare dashboard already is — a Worker with "Workers Builds"
-# connected to GitHub, not a Pages project. `wrangler pages deploy` /
-# a Pages-style wrangler.toml (`pages_build_output_dir`) do not apply here.
+# Sinonimia is a fully static site (plain HTML/CSS/JS, no build step). On
+# Cloudflare Pages, only two fields in this file are read:
+#   * `name`                   — the Pages project name (becomes the
+#                                `*.pages.dev` subdomain).
+#   * `pages_build_output_dir` — directory to publish. The repo root for
+#                                us; Cloudflare's default is `./public`.
 #
-# See: https://developers.cloudflare.com/workers/static-assets/
+# No `compatibility_date` (Pages ignores it — it's a Workers concept).
+# No `[assets]` (Pages doesn't use static-assets binding).
+# No `wrangler pages deploy` (Pages builds via the Cloudflare dashboard
+# or the Workers Builds integration; the CLI isn't needed).
+#
+# See: https://developers.cloudflare.com/pages/configuration/build-configuration/
 
 name = "sinonimia"
-compatibility_date = "2026-07-27"
-
-[assets]
-directory = "."
-# Serve 404.html for any path that isn't a static asset, instead of
-# Cloudflare's default JSON 404 — the app itself never needs server-side
-# routing (js/app.js is a client-side hash router).
-not_found_handling = "404-page"
+pages_build_output_dir = "."
