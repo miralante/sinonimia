@@ -89,23 +89,35 @@
   Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://static.arasaac.org; font-src 'self' data:; connect-src 'self'; worker-src 'none'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
 
 # ---------------------------------------------------------------------------
-# Static assets — one year, immutable. Cloudflare's default cache is fine
-# for HTML (we want users to see updates on reload), but the dictionaries
-# and CSS rarely change and are big enough to be worth a year-long cache.
+# Cache policy per asset type.
 #
 # The globs use `*` per the Pages docs (one path segment). Both dictionary
 # files (`data.es.js`, `data.en.js`) match `/js/data.*`.
 #
-# To bust the cache when the dictionary changes, rename the file
-# (e.g. `data.es.v2.js`) and update the `<script>` tag in `index.html`.
+# `js/data.*`, `js/i18n.js`, `img/*` change rarely and are big enough to
+# warrant a year-long cache. To bust the dictionary cache when content
+# changes, rename the file (e.g. `data.es.v2.js`) and update the
+# `<script>` tag in `index.html`.
+#
+# `js/app.js` and `css/styles.css` change every few commits (Safari fix,
+# responsive tweaks, accessibility changes). A year-long `immutable`
+# cache for those leaves every iPhone / locked-down browser stuck on the
+# stale version forever — `immutable` short-circuits even hard refresh,
+# and Safari iOS is more aggressive than Chrome about respecting it.
+# Five minutes is short enough that any visitor who reloads within that
+# window (very common for repeat visits) gets the latest version without
+# a manual "borrar historial y datos de sitios web"; long enough to
+# deduplicate within a single browsing session. If we ever ship a
+# critical fix and can't wait 5 min for users to see it, bump a query
+# string on the <link>/<script> tag in index.html.
 # ---------------------------------------------------------------------------
 /js/data.*
   Cache-Control: public, max-age=31536000, immutable
 /css/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=300
 /img/*
   Cache-Control: public, max-age=31536000, immutable
 /js/app.js
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=300
 /js/i18n.js
   Cache-Control: public, max-age=31536000, immutable

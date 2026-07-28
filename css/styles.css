@@ -267,6 +267,11 @@ main {
 
 .buscador-fila #buscar {
   flex: 1;
+  /* iOS Safari otherwise keeps the rendered <input> wide enough to fit its
+     placeholder in one line, so the two buttons squeeze the field out of
+     view at narrow widths (375px iPhone and similar). min-width:0 lets
+     flex actually shrink it. */
+  min-width: 0;
 }
 
 #buscar {
@@ -922,6 +927,18 @@ body.alto-contraste .juego-pista-frase .destacado {
 }
 
 /* ---------- Responsive ---------- */
+
+@media (max-width: 640px) {
+  /* Stack the search input above the two buttons so the field is always
+     visible on phones (was being squeezed out at 375px by the buttons'
+     intrinsic width). */
+  .buscador-fila {
+    flex-wrap: wrap;
+  }
+  .buscador-fila #buscar {
+    flex-basis: 100%;
+  }
+}
 
 @media (max-width: 480px) {
   .cabecera h1 { font-size: 1.5rem; }
