@@ -10,7 +10,14 @@
      English-speaking users. Same-origin <script src> satisfies the CSP
      `script-src 'self'` directive; an inline <script> would be blocked. -->
 <script src="js/bootstrap-i18n.js"></script>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>">
+<!-- Favicon. The SVG doubles as the iOS / Android / Windows home-screen
+     shortcut icon via `apple-touch-icon` (iOS 16+ and modern Chromium
+     accept SVG here). `theme-color` tints the browser chrome and the
+     shortcut background on Android. -->
+<link rel="icon" type="image/svg+xml" href="img/logo.svg">
+<link rel="apple-touch-icon" href="img/logo.svg">
+<meta name="theme-color" content="#0a5c78">
+<meta name="application-name" content="Sinonimia">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>

@@ -25,11 +25,13 @@ function ok(message) {
   console.log("✓ " + message);
 }
 
+// Explicit Unicode escapes, not literal combining marks — same reason as
+// in js/app.js (Safari's regex engine mis-parses the literal range).
 function normalize(text) {
   return text
     .toString()
     .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
+    .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
     .trim();
 }
