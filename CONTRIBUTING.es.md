@@ -33,7 +33,22 @@ definición).
    conjugación o género exactos) — de eso depende que la web resalte la
    palabra y que el juego de completar la frase funcione. `node
    scripts/validar.js` te avisa si no coincide.
-5. Necesita un pictograma. Antes de descargar nada, comprueba si ya existe
+5. Si la palabra tiene un equivalente claro en otro idioma, añade un
+   campo `traduccion` que la enlace por id — string para uno-a-uno,
+   array para uno-a-muchos (una palabra española con varias
+   traducciones inglesas válidas, o varias palabras españolas que
+   todas se mapean a la misma palabra inglesa). Esto es opcional:
+   cuando el pictograma de la palabra nueva es único en ambos lados,
+   el fallback de pictograma compartido en `js/app.js` elige el
+   enlace por ti. Pero como ARASAAC solo tiene un pictograma para
+   "dinero", uno para "documento", etc., el fallback solo resuelve
+   una fracción de las entradas — sin un `traduccion` explícito, una
+   palabra española cuyo pictograma lo comparten varias palabras sin
+   relación (el caso habitual) no enlazará con su equivalente
+   inglés. Edita `scripts/.mapping.js` y ejecuta `node
+   scripts/inject-translations.js` (es idempotente) para añadir el
+   campo en `js/data.es.js`.
+6. Necesita un pictograma. Antes de descargar nada, comprueba si ya existe
    una imagen para ese concepto en `img/` — se puede reutilizar entre
    palabras e idiomas. Para buscar candidatos:
    ```
@@ -71,6 +86,11 @@ definición).
    una clave nueva para dos o tres palabras sueltas, y si de verdad hace
    falta una, añade también su etiqueta en `js/i18n.js` (`tema_<clave>`)
    para cada idioma.
+
+8. Ejecuta `node scripts/validar.js` y `node
+   scripts/validate-mapping.js` para asegurarte de que la palabra nueva
+   está bien formada y (si añadiste una `traduccion` en el paso 5) el
+   enlace entre idiomas se resuelve.
 
 ## Añadir un idioma
 

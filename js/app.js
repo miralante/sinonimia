@@ -57,28 +57,62 @@
     });
   }
 
-  // Cross-language links use the shared ARASAAC pictogram id as the only
-  // link between a concept in one language's dictionary and its counterpart
-  // in another: the data files don't keep matching ids across languages (see
-  // js/data.es.js), but a translated word intentionally reuses the same
-  // pictogram (js/data.en.js's header comment). Pictogram ids ARE reused
-  // within a single language for unrelated words, though, so a match only
-  // counts when it's unique on both sides — otherwise there's no way to know
-  // which word it corresponds to, and no link is shown.
+  // Cross-language links resolve in two passes:
+  //
+  // 1. EXPLICIT (preferred): if the entry has a `traduccion` field whose
+  //    value (string or array of strings) names entries in another
+  //    language by id, that wins. This is the only way to link entries
+  //    whose pictogram isn't unique on one of the sides (the most common
+  //    case in this dictionary, since ARASAAC has only one "money" /
+  //    "document" / "pen" pictogram and it's shared by many unrelated
+  //    words). It also handles EN-side homographs (a Spanish word with
+  //    several valid English translations, or several Spanish words that
+  //    all map to one English word).
+  //
+  // 2. IMPLICIT (fallback): if `traduccion` doesn't mention a language,
+  //    fall back to the shared-pictogram rule that previous versions of
+  //    the code used: link when the entry is the unique one with its
+  //    pictogram in the current language AND there is a unique entry
+  //    with the same pictogram in the other language. This keeps older
+  //    entries (and entries added without an explicit translation)
+  //    working without needing to be edited.
+  //
+  // If neither pass finds anything for a given language, no link is shown
+  // for that language — better to show nothing than to link to a wrong
+  // translation.
   function otherLanguageEntries(entry) {
-    var ownMatches = activeDictionary.filter(function (e) {
-      return e.imagen.id === entry.imagen.id;
-    });
-    if (ownMatches.length !== 1) return [];
-
     var translations = [];
     AVAILABLE_LANGUAGES.forEach(function (lang) {
       if (lang === currentLanguage) return;
-      var matches = (DICCIONARIOS[lang] || []).filter(function (e) {
+      var otherEntries = DICCIONARIOS[lang] || [];
+      var entryByIdLookup = {};
+      otherEntries.forEach(function (e) { entryByIdLookup[e.id] = e; });
+
+      // Pass 1: explicit traduccion. Accepts both string and array values.
+      if (entry.traduccion && entry.traduccion[lang]) {
+        var declared = entry.traduccion[lang];
+        var ids = Array.isArray(declared) ? declared : [declared];
+        ids.forEach(function (otherId) {
+          var otherEntry = entryByIdLookup[otherId];
+          if (otherEntry) {
+            translations.push({ language: lang, entry: otherEntry });
+          }
+        });
+        return;
+      }
+
+      // Pass 2: implicit shared-pictogram fallback (only when this entry's
+      // pictogram is unique among entries in *both* languages — otherwise
+      // a pictogram id collision could pick the wrong word).
+      var ownMatches = activeDictionary.filter(function (e) {
         return e.imagen.id === entry.imagen.id;
       });
-      if (matches.length === 1) {
-        translations.push({ language: lang, entry: matches[0] });
+      if (ownMatches.length !== 1) return;
+      var otherMatches = otherEntries.filter(function (e) {
+        return e.imagen.id === entry.imagen.id;
+      });
+      if (otherMatches.length === 1) {
+        translations.push({ language: lang, entry: otherMatches[0] });
       }
     });
     return translations;

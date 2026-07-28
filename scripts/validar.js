@@ -123,6 +123,47 @@ languages.forEach(function (language) {
         fail(language + "/" + entry.id + ": \"" + value.palabra + "\" does not appear inside " + fieldName + ".texto");
       }
     });
+
+    // `traduccion` is an OPTIONAL field — entries that resolve to their
+    // counterpart by the shared-pictogram rule don't need it. When it IS
+    // set, validate the shape: object keyed by language code, values are
+    // either a single id string or an array of id strings, every id must
+    // exist in the referenced language's dictionary and must not be the
+    // entry's own id. Self-references would produce an obvious "see this
+    // word in the other language" loop; an unknown id would produce a
+    // broken link.
+    if (entry.traduccion) {
+      if (typeof entry.traduccion !== "object" || Array.isArray(entry.traduccion)) {
+        fail(language + "/" + entry.id + ": traduccion must be an object keyed by language code, got " + typeof entry.traduccion);
+      } else {
+        Object.keys(entry.traduccion).forEach(function (targetLang) {
+          if (targetLang === language) {
+            fail(language + "/" + entry.id + ": traduccion must not reference the entry's own language \"" + targetLang + "\"");
+            return;
+          }
+          if (!DICCIONARIOS[targetLang]) {
+            fail(language + "/" + entry.id + ": traduccion references unknown language \"" + targetLang + "\"");
+            return;
+          }
+          var raw = entry.traduccion[targetLang];
+          var ids = Array.isArray(raw) ? raw : [raw];
+          ids.forEach(function (otherId) {
+            if (typeof otherId !== "string") {
+              fail(language + "/" + entry.id + ": traduccion." + targetLang + " must be a string id or array of ids");
+              return;
+            }
+            // We allow `otherId === entry.id` — that's a legitimate link
+            // when the same id exists in both languages (e.g. "edema",
+            // "cl@ve", "nif"). js/app.js never renders a link to the
+            // entry itself because language switches route to a different
+            // language, not the same id.
+            if (!DICCIONARIOS[targetLang].some(function (e) { return e.id === otherId; })) {
+              fail(language + "/" + entry.id + ": traduccion." + targetLang + " references unknown id \"" + otherId + "\"");
+            }
+          });
+        });
+      }
+    }
   });
 
   ok(language + ": " + entries.length + " words, no duplicate ids and no missing pictograms");

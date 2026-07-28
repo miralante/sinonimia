@@ -33,7 +33,20 @@ accuracy).
    exact conjugation or gender) — the site's word-highlighting and the
    fill-in-the-blank game depend on it. `node scripts/validar.js` warns you
    if it doesn't match.
-5. It needs a pictogram. Before downloading anything, check whether an
+5. If the word has a clear equivalent in another language, add a
+   `traduccion` field linking it by id — a string for one-to-one, an
+   array for one-to-many (a Spanish word with several valid English
+   translations, or several Spanish words that all map to the same
+   English word). This is optional: when the new word's pictogram is
+   unique on both sides, the shared-pictogram fallback in `js/app.js`
+   picks the link for you. But because ARASAAC has only one "money"
+   pictogram, one "document" pictogram, etc., the fallback resolves
+   only a fraction of entries — without an explicit `traduccion`, a
+   Spanish word whose pictogram is shared by several unrelated words
+   (the common case) won't link to its English counterpart. Edit
+   `scripts/.mapping.js` and run `node scripts/inject-translations.js`
+   (idempotent) to add the field to `js/data.es.js`.
+6. It needs a pictogram. Before downloading anything, check whether an
    image for that concept already exists in `img/` — it can be reused
    across words and languages. To search for candidates:
    ```
@@ -70,6 +83,10 @@ accuracy).
    invent a new key for two or three stray words, and if one is genuinely
    needed, also add its label in `js/i18n.js` (`tema_<key>`) for every
    language.
+
+7. Run `node scripts/validar.js` and `node scripts/validate-mapping.js`
+   to make sure the new word is well-formed and (if you added a
+   `traduccion` in step 5) the cross-language link resolves.
 
 ## Adding a language
 

@@ -57,6 +57,28 @@
   #   connect-src 'self'                          — no XHR/fetch to third
   #                                                parties
   #   worker-src 'none'                           — no service workers
+  #                                              Sinonimia does not ship a
+  #                                              SW of its own. If you ever
+  #                                              add one (e.g. for offline),
+  #                                              remove this directive in
+  #                                              the same commit and drop
+  #                                              the kill-switch block at
+  #                                              the bottom of index.html.
+  #                                              The kill-switch exists
+  #                                              because third-party SWs
+  #                                              (browser extensions, stale
+  #                                              *.pages.dev previews) can
+  #                                              still register against
+  #                                              this origin and trigger
+  #                                              Chrome's "Response served
+  #                                              by service worker has
+  #                                              redirections" DevTools
+  #                                              warning, which has
+  #                                              nothing to do with our
+  #                                              code but confuses editors
+  #                                              and reviewers. See
+  #                                              doc/*/technical.md (or
+  #                                              tecnico.md).
   #   manifest-src 'self'                         — in case we add a PWA
   #                                                manifest later
   #   object-src 'none'                           — no <object>/<embed>/<applet>

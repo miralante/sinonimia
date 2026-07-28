@@ -34,6 +34,20 @@
  *                 "legal" (see doc/en/SPEC.md for what each covers). Their
  *                 on-screen labels (Trámites/Procedures, etc.) live in
  *                 js/i18n.js.
+ *  traduccion  -> OPTIONAL: { <otherLangCode>: "<otherEntryId>" } or
+ *                 { <otherLangCode>: ["<otherEntryId1>", "<otherEntryId2>"] }.
+ *                 Names the entry's counterpart in each other language by
+ *                 its `id`. When set, this wins over the shared-pictogram
+ *                 fallback below. Required when several entries share the
+ *                 same ARASAAC pictogram id (very common in this
+ *                 dictionary — ARASAAC has only one "money" pictogram,
+ *                 one "document" pictogram, etc., so the unique-pictogram
+ *                 rule can't disambiguate them). Set by editing
+ *                 scripts/.mapping.js and running
+ *                 scripts/inject-translations.js (the injection is
+ *                 idempotent; the markers /*traduccion-start* / /*traduccion-end* /
+ *                 wrap the injected line so it can be stripped and
+ *                 re-injected safely).
  */
 
 window.DICCIONARIOS = window.DICCIONARIOS || {};
@@ -68,6 +82,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "requerimiento", texto: "Recibió un requerimiento de Hacienda para presentar más documentos." },
     ejemploSinonimo: { palabra: "aviso", texto: "Recibió un aviso de Hacienda para presentar más documentos." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "notice" },/*traduccion-end*/
   },
   {
     id: "incurso",
@@ -78,6 +93,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "incurso", texto: "El conductor está incurso en un expediente por exceso de velocidad." },
     ejemploSinonimo: { palabra: "implicado", texto: "El conductor está implicado en un expediente por exceso de velocidad." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "fine" },/*traduccion-end*/
   },
   {
     id: "interponer",
@@ -88,6 +104,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "interponer", texto: "Puede interponer un recurso si no está de acuerdo con la decisión." },
     ejemploSinonimo: { palabra: "presentar", texto: "Puede presentar un recurso si no está de acuerdo con la decisión." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "police-report" },/*traduccion-end*/
   },
   {
     id: "comparecer",
@@ -98,6 +115,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "comparecer", texto: "El testigo debe comparecer en el juzgado el próximo lunes." },
     ejemploSinonimo: { palabra: "presentarse", texto: "El testigo debe presentarse en el juzgado el próximo lunes." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "court-appearance" },/*traduccion-end*/
   },
   {
     id: "notificacion",
@@ -108,6 +126,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "notificación", texto: "Le llegó una notificación del juzgado a su casa." },
     ejemploSinonimo: { palabra: "aviso", texto: "Le llegó un aviso del juzgado a su casa." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "notice" },/*traduccion-end*/
   },
   {
     id: "resolucion",
@@ -118,6 +137,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "resolución", texto: "La resolución del ayuntamiento llegó por correo esta semana." },
     ejemploSinonimo: { palabra: "decisión", texto: "La decisión del ayuntamiento llegó por correo esta semana." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "appeal-higher" },/*traduccion-end*/
   },
   {
     id: "instancia",
@@ -128,6 +148,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "instancia", texto: "Rellenó una instancia para pedir el certificado." },
     ejemploSinonimo: { palabra: "solicitud", texto: "Rellenó una solicitud para pedir el certificado." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "apply-for" },/*traduccion-end*/
   },
   {
     id: "compulsar",
@@ -138,6 +159,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "compulsar", texto: "Tienes que compulsar el título antes de entregarlo." },
     ejemploSinonimo: { palabra: "cotejar", texto: "Tienes que cotejar el título antes de entregarlo." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "certified-copy" },/*traduccion-end*/
   },
   {
     id: "apostilla",
@@ -148,6 +170,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "apostilla", texto: "Necesita la apostilla para usar el certificado en otro país." },
     ejemploSinonimo: { palabra: "sello internacional", texto: "Necesita el sello internacional para usar el certificado en otro país." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "apostille" },/*traduccion-end*/
   },
   {
     id: "silencio-administrativo",
@@ -178,6 +201,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "fehaciente", texto: "Necesita un documento fehaciente que demuestre dónde vive." },
     ejemploSinonimo: { palabra: "seguro", texto: "Necesita un documento seguro que demuestre dónde vive." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "sign-name" },/*traduccion-end*/
   },
   {
     id: "cautelar",
@@ -198,6 +222,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "usufructo", texto: "La abuela dejó a su hija el usufructo de la casa de la playa." },
     ejemploSinonimo: { palabra: "uso y disfrute", texto: "La abuela dejó a su hija el uso y disfrute de la casa de la playa." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "usufruct" },/*traduccion-end*/
   },
   {
     id: "litigio",
@@ -208,6 +233,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "litigio", texto: "Los dos vecinos tienen un litigio por el muro del jardín." },
     ejemploSinonimo: { palabra: "pleito", texto: "Los dos vecinos tienen un pleito por el muro del jardín." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "lawsuit" },/*traduccion-end*/
   },
 
   // --- Health (patient-facing medical glossaries) ---
@@ -260,6 +286,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "edema", texto: "El tobillo tiene un edema después del golpe." },
     ejemploSinonimo: { palabra: "una hinchazón", texto: "El tobillo tiene una hinchazón después del golpe." },
     situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "edema" },/*traduccion-end*/
   },
   {
     id: "bradicardia",
@@ -280,6 +307,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "cianosis", texto: "El bebé tenía cianosis en los labios y lo llevaron corriendo al hospital." },
     ejemploSinonimo: { palabra: "color azulado", texto: "El bebé tenía color azulado en los labios y lo llevaron corriendo al hospital." },
     situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "cyanosis" },/*traduccion-end*/
   },
   {
     id: "astenia",
@@ -310,6 +338,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "eritema", texto: "La crema nueva le dejó un eritema en el brazo." },
     ejemploSinonimo: { palabra: "un enrojecimiento", texto: "La crema nueva le dejó un enrojecimiento en el brazo." },
     situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "erythema" },/*traduccion-end*/
   },
   {
     id: "dermatitis",
@@ -320,6 +349,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "dermatitis", texto: "El niño tiene dermatitis en los brazos por el calor." },
     ejemploSinonimo: { palabra: "irritación de la piel", texto: "El niño tiene irritación de la piel en los brazos por el calor." },
     situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "dermatitis" },/*traduccion-end*/
   },
   {
     id: "gastritis",
@@ -390,6 +420,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "asintomático", texto: "El análisis dio positivo, aunque Juan estaba asintomático." },
     ejemploSinonimo: { palabra: "sin síntomas", texto: "El análisis dio positivo, aunque Juan estaba sin síntomas." },
     situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "asthenia" },/*traduccion-end*/
   },
   {
     id: "cronico",
@@ -400,6 +431,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "crónica", texto: "La diabetes es una enfermedad crónica que hay que controlar cada día." },
     ejemploSinonimo: { palabra: "de larga duración", texto: "La diabetes es una enfermedad de larga duración que hay que controlar cada día." },
     situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "chronic" },/*traduccion-end*/
   },
   {
     id: "benigno",
@@ -422,6 +454,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "aval", texto: "Mi padre me hizo de aval para el préstamo del coche." },
     ejemploSinonimo: { palabra: "garantía", texto: "Mi padre me hizo de garantía para el préstamo del coche." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "guarantor" },/*traduccion-end*/
   },
   {
     id: "interes",
@@ -432,6 +465,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "interés", texto: "El banco cobra un interés alto por este préstamo." },
     ejemploSinonimo: { palabra: "recargo", texto: "El banco cobra un recargo alto por este préstamo." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "interest" },/*traduccion-end*/
   },
   {
     id: "domiciliar",
@@ -442,6 +476,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "domiciliar", texto: "Puedes domiciliar la factura de la luz." },
     ejemploSinonimo: { palabra: "poner en pago automático", texto: "Puedes poner en pago automático la factura de la luz." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "direct-debit" },/*traduccion-end*/
   },
   {
     id: "saldo",
@@ -452,6 +487,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "saldo", texto: "Puedes ver tu saldo en el cajero automático." },
     ejemploSinonimo: { palabra: "dinero disponible", texto: "Puedes ver tu dinero disponible en el cajero automático." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "balance" },/*traduccion-end*/
   },
   {
     id: "plazo",
@@ -462,6 +498,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "plazos", texto: "Vamos a pagar la lavadora a plazos." },
     ejemploSinonimo: { palabra: "poco a poco", texto: "Vamos a pagar la lavadora poco a poco." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "deadline" },/*traduccion-end*/
   },
   {
     id: "amortizacion",
@@ -472,6 +509,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "amortización", texto: "Cada mes pagamos la amortización del préstamo del piso." },
     ejemploSinonimo: { palabra: "devolución del préstamo", texto: "Cada mes pagamos la devolución del préstamo del piso." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: ["loan-money", "severance-pay"] },/*traduccion-end*/
   },
   {
     id: "embargo",
@@ -482,6 +520,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "embargo", texto: "El banco pidió el embargo de la cuenta por la deuda." },
     ejemploSinonimo: { palabra: "retención de bienes", texto: "El banco pidió la retención de bienes de la cuenta por la deuda." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "garnishment" },/*traduccion-end*/
   },
   {
     id: "descubierto-bancario",
@@ -492,6 +531,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "descubierto", texto: "El banco cobra comisión si tienes un descubierto en la cuenta." },
     ejemploSinonimo: { palabra: "saldo negativo", texto: "El banco cobra comisión si tienes un saldo negativo en la cuenta." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "overdraft" },/*traduccion-end*/
   },
   {
     id: "impago",
@@ -502,6 +542,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "impago", texto: "Hubo un impago de la factura del gas." },
     ejemploSinonimo: { palabra: "deuda sin pagar", texto: "Hubo una deuda sin pagar de la factura del gas." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "unpaid" },/*traduccion-end*/
   },
 
   // --- Vivienda ---
@@ -514,6 +555,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "hipoteca", texto: "Pagamos la hipoteca cada mes." },
     ejemploSinonimo: { palabra: "préstamo de la vivienda", texto: "Pagamos el préstamo de la vivienda cada mes." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "mortgage" },/*traduccion-end*/
   },
   {
     id: "fianza",
@@ -524,6 +566,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "fianza", texto: "Al alquilar el piso, pagamos una fianza de un mes." },
     ejemploSinonimo: { palabra: "depósito", texto: "Al alquilar el piso, pagamos un depósito de un mes." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "deposit" },/*traduccion-end*/
   },
   {
     id: "empadronarse",
@@ -544,6 +587,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "comunidad de vecinos", texto: "La comunidad de vecinos decidió arreglar el ascensor." },
     ejemploSinonimo: { palabra: "vecinos del edificio", texto: "Los vecinos del edificio decidieron arreglar el ascensor." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "homeowners-association" },/*traduccion-end*/
   },
   {
     id: "suministro",
@@ -554,6 +598,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "suministro", texto: "Este mes ha subido el precio del suministro eléctrico." },
     ejemploSinonimo: { palabra: "servicio", texto: "Este mes ha subido el precio del servicio eléctrico." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "utilities" },/*traduccion-end*/
   },
   {
     id: "desahucio",
@@ -584,6 +629,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "IBI", texto: "Este año ha subido el IBI de nuestra casa." },
     ejemploSinonimo: { palabra: "impuesto de la vivienda", texto: "Este año ha subido el impuesto de la vivienda de nuestra casa." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "property-tax" },/*traduccion-end*/
   },
   {
     id: "cedula-habitabilidad",
@@ -594,6 +640,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "cédula de habitabilidad", texto: "Necesitamos la cédula de habitabilidad para alquilar el piso." },
     ejemploSinonimo: { palabra: "certificado de habitabilidad", texto: "Necesitamos el certificado de habitabilidad para alquilar el piso." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "deed" },/*traduccion-end*/
   },
 
   // --- Trabajo ---
@@ -606,6 +653,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "nómina", texto: "Puedes ver tu nómina en el correo de la empresa." },
     ejemploSinonimo: { palabra: "recibo de sueldo", texto: "Puedes ver tu recibo de sueldo en el correo de la empresa." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "payslip" },/*traduccion-end*/
   },
   {
     id: "contrato",
@@ -616,6 +664,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "contrato", texto: "Firmó el contrato antes de empezar a trabajar." },
     ejemploSinonimo: { palabra: "acuerdo", texto: "Firmó el acuerdo antes de empezar a trabajar." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "contract" },/*traduccion-end*/
   },
   {
     id: "baja",
@@ -636,6 +685,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "indemnización", texto: "Le pagaron una indemnización al perder el trabajo." },
     ejemploSinonimo: { palabra: "compensación económica", texto: "Le pagaron una compensación económica al perder el trabajo." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "severance-pay" },/*traduccion-end*/
   },
   {
     id: "jornada",
@@ -646,6 +696,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "jornada", texto: "Su jornada laboral empieza a las ocho de la mañana." },
     ejemploSinonimo: { palabra: "horario de trabajo", texto: "Su horario de trabajo empieza a las ocho de la mañana." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "working-hours" },/*traduccion-end*/
   },
   {
     id: "despido",
@@ -656,6 +707,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "despido", texto: "Le comunicaron el despido con un mes de antelación." },
     ejemploSinonimo: { palabra: "cese", texto: "Le comunicaron el cese con un mes de antelación." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "redundancy" },/*traduccion-end*/
   },
   {
     id: "entrevista-trabajo",
@@ -666,6 +718,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "entrevista de trabajo", texto: "Mañana tiene una entrevista de trabajo en la empresa nueva." },
     ejemploSinonimo: { palabra: "reunión de selección", texto: "Mañana tiene una reunión de selección en la empresa nueva." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "job-interview" },/*traduccion-end*/
   },
   {
     id: "curriculum",
@@ -676,6 +729,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "currículum", texto: "Envió su currículum a varias empresas de la ciudad." },
     ejemploSinonimo: { palabra: "historial laboral", texto: "Envió su historial laboral a varias empresas de la ciudad." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "resume" },/*traduccion-end*/
   },
 
   // --- Legal ---
@@ -688,6 +742,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "consentimiento", texto: "El médico pidió su consentimiento antes de la operación." },
     ejemploSinonimo: { palabra: "permiso", texto: "El médico pidió su permiso antes de la operación." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "consent" },/*traduccion-end*/
   },
   {
     id: "poder-notarial",
@@ -698,6 +753,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "poder notarial", texto: "Firmó un poder notarial para que su hija hiciera las gestiones del banco." },
     ejemploSinonimo: { palabra: "autorización legal", texto: "Firmó una autorización legal para que su hija hiciera las gestiones del banco." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "power-of-attorney" },/*traduccion-end*/
   },
   {
     id: "responsabilidad-civil",
@@ -708,6 +764,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "responsabilidad civil", texto: "El seguro cubre la responsabilidad civil si chocas con el coche." },
     ejemploSinonimo: { palabra: "el gasto del daño", texto: "El seguro cubre el gasto del daño si chocas con el coche." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "civil-liability" },/*traduccion-end*/
   },
   {
     id: "responsabilidad-penal",
@@ -718,6 +775,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "responsabilidad penal", texto: "Puede tener responsabilidad penal si roba algo en la tienda." },
     ejemploSinonimo: { palabra: "que responder ante la justicia", texto: "Puede tener que responder ante la justicia si roba algo en la tienda." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "criminal-liability" },/*traduccion-end*/
   },
 
   // --- Vida diaria ---
@@ -730,6 +788,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "reclamación", texto: "Puso una reclamación porque el pantalón nuevo estaba roto." },
     ejemploSinonimo: { palabra: "queja formal", texto: "Puso una queja formal porque el pantalón nuevo estaba roto." },
     situacion: "vida-diaria",
+    /*traduccion-start*/traduccion: { en: "complaint" },/*traduccion-end*/
   },
   {
     id: "caducidad",
@@ -740,6 +799,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "fecha de caducidad", texto: "Antes de comer el yogur, mira la fecha de caducidad." },
     ejemploSinonimo: { palabra: "fecha límite", texto: "Antes de comer el yogur, mira la fecha límite." },
     situacion: "vida-diaria",
+    /*traduccion-start*/traduccion: { en: "overdue" },/*traduccion-end*/
   },
   {
     id: "turno",
@@ -750,6 +810,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "turno", texto: "Sacó un turno en el banco y esperó su momento." },
     ejemploSinonimo: { palabra: "número de espera", texto: "Sacó un número de espera en el banco y esperó su momento." },
     situacion: "vida-diaria",
+    /*traduccion-start*/traduccion: { en: "queue" },/*traduccion-end*/
   },
   {
     id: "aforo",
@@ -770,6 +831,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "franja horaria", texto: "Eligió una franja horaria de la tarde para recibir el paquete." },
     ejemploSinonimo: { palabra: "tramo de horas", texto: "Eligió un tramo de horas de la tarde para recibir el paquete." },
     situacion: "vida-diaria",
+    /*traduccion-start*/traduccion: { en: "time-window" },/*traduccion-end*/
   },
   {
     id: "justificante",
@@ -780,6 +842,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "justificante", texto: "El colegio le pidió un justificante del médico." },
     ejemploSinonimo: { palabra: "comprobante", texto: "El colegio le pidió un comprobante del médico." },
     situacion: "vida-diaria",
+    /*traduccion-start*/traduccion: { en: "payment-receipt" },/*traduccion-end*/
   },
   {
     id: "incidencia",
@@ -790,6 +853,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "incidencia", texto: "Avisó de una incidencia en la luz de su casa." },
     ejemploSinonimo: { palabra: "problema", texto: "Avisó de un problema en la luz de su casa." },
     situacion: "vida-diaria",
+    /*traduccion-start*/traduccion: { en: "complaint" },/*traduccion-end*/
   },
   {
     id: "extravio",
@@ -814,6 +878,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "pensión", texto: "Cobra su pensión el día 1 de cada mes." },
     ejemploSinonimo: { palabra: "paga de jubilación", texto: "Cobra su paga de jubilación el día 1 de cada mes." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: ["pension-payment", "retirement-work"] },/*traduccion-end*/
   },
   {
     id: "pension-alojamiento",
@@ -824,6 +889,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "pensión", texto: "Se alojaron en una pensión cerca de la playa." },
     ejemploSinonimo: { palabra: "hostal", texto: "Se alojaron en un hostal cerca de la playa." },
     situacion: "vida-diaria",
+    /*traduccion-start*/traduccion: { en: "pension-guesthouse" },/*traduccion-end*/
   },
 
   // --- Health (extended batch, lote 1) ---
@@ -836,6 +902,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "anemia", texto: "Le diagnosticaron anemia y le dieron vitaminas." },
     ejemploSinonimo: { palabra: "sangre baja", texto: "Le diagnosticaron sangre baja y le dieron vitaminas." },
     situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "anemia" },/*traduccion-end*/
   },
   {
     id: "antibiotico",
@@ -846,6 +913,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "antibiótico", texto: "El médico le recetó un antibiótico para la garganta." },
     ejemploSinonimo: { palabra: "medicina para la infección", texto: "El médico le recetó una medicina para la infección de garganta." },
     situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "antibiotic" },/*traduccion-end*/
   },
   {
     id: "analgesico",
@@ -876,6 +944,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "antiinflamatorio", texto: "Tomó un antiinflamatorio para el tobillo hinchado." },
     ejemploSinonimo: { palabra: "medicina para la hinchazón", texto: "Tomó una medicina para la hinchazón del tobillo." },
     situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "anti-inflammatory" },/*traduccion-end*/
   },
   {
     id: "colonoscopia",
@@ -916,6 +985,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "escayola", texto: "Le pusieron una escayola en el brazo durante un mes." },
     ejemploSinonimo: { palabra: "yeso", texto: "Le pusieron un yeso en el brazo durante un mes." },
     situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "cast" },/*traduccion-end*/
   },
   {
     id: "fiebre",
@@ -988,6 +1058,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "tutela", texto: "La tía pidió la tutela del sobrino huérfano." },
     ejemploSinonimo: { palabra: "custodia legal", texto: "La tía pidió la custodia legal de su sobrino huérfano." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "guardianship" },/*traduccion-end*/
   },
   {
     id: "curatela",
@@ -998,6 +1069,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "curatela", texto: "Su hermano quedó bajo curatela tras el ictus." },
     ejemploSinonimo: { palabra: "asistencia legal", texto: "Su hermano quedó bajo asistencia legal tras el ictus." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "conservatorship" },/*traduccion-end*/
   },
   {
     id: "divorcio",
@@ -1018,6 +1090,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "custodia", texto: "El juez le dio la custodia del hijo a la madre." },
     ejemploSinonimo: { palabra: "guarda del hijo", texto: "El juez le dio la guarda del hijo a la madre." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "custody" },/*traduccion-end*/
   },
   {
     id: "pension-alimenticia",
@@ -1028,6 +1101,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "pensión alimenticia", texto: "Él paga la pensión alimenticia cada mes." },
     ejemploSinonimo: { palabra: "paga para los hijos", texto: "Él paga la paga para los hijos cada mes." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "alimony" },/*traduccion-end*/
   },
   {
     id: "apelacion",
@@ -1038,6 +1112,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "apelación", texto: "Presentó una apelación contra la sentencia." },
     ejemploSinonimo: { palabra: "recurso", texto: "Presentó un recurso contra la sentencia." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "appeal" },/*traduccion-end*/
   },
   {
     id: "denuncia",
@@ -1048,6 +1123,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "denuncia", texto: "Puso una denuncia por el robo en su casa." },
     ejemploSinonimo: { palabra: "aviso a la policía", texto: "Puso un aviso a la policía por el robo en su casa." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "police-report" },/*traduccion-end*/
   },
   {
     id: "detencion",
@@ -1068,6 +1144,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "fianza", texto: "Pagó la fianza y salió de la cárcel ese mismo día." },
     ejemploSinonimo: { palabra: "depósito para salir libre", texto: "Pagó el depósito para salir libre y salió de la cárcel ese mismo día." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "bail" },/*traduccion-end*/
   },
   {
     id: "indulto",
@@ -1090,6 +1167,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "alquiler", texto: "El alquiler del piso sube cada año." },
     ejemploSinonimo: { palabra: "renta", texto: "La renta del piso sube cada año." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "lease" },/*traduccion-end*/
   },
   {
     id: "arrendador",
@@ -1100,6 +1178,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "arrendador", texto: "El arrendador subió el alquiler y avisó con dos meses." },
     ejemploSinonimo: { palabra: "dueño que alquila", texto: "El dueño que alquila subió el alquiler y avisó con dos meses." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "landlord" },/*traduccion-end*/
   },
   {
     id: "inquilino",
@@ -1110,6 +1189,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "inquilino", texto: "El inquilino firmó el contrato por un año." },
     ejemploSinonimo: { palabra: "arrendatario", texto: "El arrendatario firmó el contrato por un año." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "tenant" },/*traduccion-end*/
   },
   {
     id: "propietario",
@@ -1140,6 +1220,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "nota simple", texto: "Pidió una nota simple antes de comprar el piso." },
     ejemploSinonimo: { palabra: "informe del registro", texto: "Pidió un informe del registro antes de comprar el piso." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "land-registry-note" },/*traduccion-end*/
   },
   {
     id: "registro-propiedad",
@@ -1160,6 +1241,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "tasación", texto: "El banco pidió una tasación antes de dar la hipoteca." },
     ejemploSinonimo: { palabra: "valoración de la casa", texto: "El banco pidió una valoración de la casa antes de dar la hipoteca." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "appraisal" },/*traduccion-end*/
   },
   {
     id: "vicios-ocultos",
@@ -1170,6 +1252,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "vicios ocultos", texto: "Descubrió vicios ocultos un mes después de comprar el piso." },
     ejemploSinonimo: { palabra: "defectos escondidos", texto: "Descubrió defectos escondidos un mes después de comprar el piso." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "latent-defects" },/*traduccion-end*/
   },
   {
     id: "reforma",
@@ -1190,6 +1273,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "gastos de comunidad", texto: "Los gastos de comunidad suben este año." },
     ejemploSinonimo: { palabra: "cuota de la comunidad", texto: "La cuota de la comunidad sube este año." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "hoa-fees" },/*traduccion-end*/
   },
   {
     id: "comunidad-propietarios",
@@ -1200,6 +1284,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "comunidad de propietarios", texto: "La comunidad de propietarios votó arreglar la fachada." },
     ejemploSinonimo: { palabra: "junta de vecinos", texto: "La junta de vecinos votó arreglar la fachada." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "homeowners-association" },/*traduccion-end*/
   },
   {
     id: "itp",
@@ -1210,6 +1295,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "ITP", texto: "Pagó el ITP al firmar las escrituras del piso." },
     ejemploSinonimo: { palabra: "impuesto de transmisiones", texto: "Pagó el impuesto de transmisiones al firmar las escrituras del piso." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "transfer-tax" },/*traduccion-end*/
   },
 
   // --- Vida diaria (lote 4) ---
@@ -1222,6 +1308,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "DNI", texto: "Lleva el DNI para hacer cualquier trámite." },
     ejemploSinonimo: { palabra: "carnet de identidad", texto: "Lleva el carnet de identidad para hacer cualquier trámite." },
     situacion: "vida-diaria",
+    /*traduccion-start*/traduccion: { en: "id-card" },/*traduccion-end*/
   },
   {
     id: "pasaporte",
@@ -1262,6 +1349,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "cola", texto: "Hizo cola media hora para entrar al cine." },
     ejemploSinonimo: { palabra: "fila de espera", texto: "Hizo una fila de espera media hora para entrar al cine." },
     situacion: "vida-diaria",
+    /*traduccion-start*/traduccion: { en: "queue" },/*traduccion-end*/
   },
   {
     id: "recibo",
@@ -1272,6 +1360,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "recibo", texto: "Guarda el recibo por si necesitas reclamar." },
     ejemploSinonimo: { palabra: "papel de pago", texto: "Guarda el papel de pago por si necesitas reclamar." },
     situacion: "vida-diaria",
+    /*traduccion-start*/traduccion: { en: "payment-receipt" },/*traduccion-end*/
   },
   {
     id: "garantia",
@@ -1282,6 +1371,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "garantía", texto: "El móvil viene con dos años de garantía." },
     ejemploSinonimo: { palabra: "seguro del producto", texto: "El móvil viene con dos años de seguro del producto." },
     situacion: "vida-diaria",
+    /*traduccion-start*/traduccion: { en: "warranty-cover" },/*traduccion-end*/
   },
   {
     id: "devolucion",
@@ -1302,6 +1392,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "vale", texto: "Le regalaron un vale de cincuenta euros para la librería." },
     ejemploSinonimo: { palabra: "bono", texto: "Le regalaron un bono de cincuenta euros para la librería." },
     situacion: "vida-diaria",
+    /*traduccion-start*/traduccion: { en: "voucher-ticket" },/*traduccion-end*/
   },
   {
     id: "tarjeta",
@@ -1312,6 +1403,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "tarjeta", texto: "Pagó con la tarjeta en el supermercado." },
     ejemploSinonimo: { palabra: "tarjeta bancaria", texto: "Pagó con la tarjeta bancaria en el supermercado." },
     situacion: "vida-diaria",
+    /*traduccion-start*/traduccion: { en: "bank-card" },/*traduccion-end*/
   },
   {
     id: "recado",
@@ -1322,6 +1414,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "recado", texto: "Su madre la mandó a hacer un recado a la farmacia." },
     ejemploSinonimo: { palabra: "encargo", texto: "Su madre la mandó a hacer un encargo a la farmacia." },
     situacion: "vida-diaria",
+    /*traduccion-start*/traduccion: { en: "errand" },/*traduccion-end*/
   },
   {
     id: "factura",
@@ -1342,6 +1435,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "venta", texto: "La venta del piso se cerró en dos semanas." },
     ejemploSinonimo: { palabra: "transacción", texto: "La transacción del piso se cerró en dos semanas." },
     situacion: "vida-diaria",
+    /*traduccion-start*/traduccion: { en: "sale-deal" },/*traduccion-end*/
   },
 
   // --- Finanzas (lote 5) ---
@@ -1354,6 +1448,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
     ejemploSinonimo: { palabra: "dinero prestado", texto: "Pidió dinero prestado para reformar la cocina." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "loan-money" },/*traduccion-end*/
   },
   {
     id: "credito",
@@ -1364,6 +1459,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "crédito", texto: "Compró el sofá a crédito y lo paga cada mes." },
     ejemploSinonimo: { palabra: "dinero a devolver", texto: "Compró el sofá con dinero a devolver y lo paga cada mes." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "credit-money" },/*traduccion-end*/
   },
   {
     id: "cheque",
@@ -1384,6 +1480,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "transferencia", texto: "Hizo una transferencia al casero desde su cuenta." },
     ejemploSinonimo: { palabra: "envío de dinero", texto: "Hizo un envío de dinero al casero desde su cuenta." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "money-transfer" },/*traduccion-end*/
   },
   {
     id: "cajero",
@@ -1404,6 +1501,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "banco", texto: "Va al banco todos los viernes a sacar dinero." },
     ejemploSinonimo: { palabra: "entidad bancaria", texto: "Va a la entidad bancaria todos los viernes a sacar dinero." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "bank-place" },/*traduccion-end*/
   },
   {
     id: "sucursal",
@@ -1414,6 +1512,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "sucursal", texto: "Abrió su cuenta en la sucursal de su barrio." },
     ejemploSinonimo: { palabra: "oficina del banco", texto: "Abrió su cuenta en la oficina del banco de su barrio." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "bank-branch" },/*traduccion-end*/
   },
   {
     id: "comision",
@@ -1434,6 +1533,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "cuenta corriente", texto: "Cobra la nómina en su cuenta corriente cada mes." },
     ejemploSinonimo: { palabra: "cuenta del banco", texto: "Cobra la nómina en su cuenta del banco cada mes." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "current-account" },/*traduccion-end*/
   },
   {
     id: "cuenta-ahorros",
@@ -1444,6 +1544,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "cuenta de ahorros", texto: "Guarda sus ahorros en una cuenta de ahorros del banco." },
     ejemploSinonimo: { palabra: "depósito de dinero", texto: "Guarda sus ahorros en un depósito de dinero del banco." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "savings-account" },/*traduccion-end*/
   },
   {
     id: "tarjeta-debito",
@@ -1454,6 +1555,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "tarjeta de débito", texto: "Pagó la compra con la tarjeta de débito." },
     ejemploSinonimo: { palabra: "tarjeta del banco", texto: "Pagó la compra con la tarjeta del banco." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "debit-card" },/*traduccion-end*/
   },
   {
     id: "extracto",
@@ -1484,6 +1586,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "ingreso", texto: "Vio el ingreso de la nómina el primer día del mes." },
     ejemploSinonimo: { palabra: "dinero que entra", texto: "Vio el dinero que entra de la nómina el primer día del mes." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "income-money" },/*traduccion-end*/
   },
 
   // --- Trámites (lote 6) ---
@@ -1496,6 +1599,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "solicita", texto: "Solicita una cita previa para la semana que viene." },
     ejemploSinonimo: { palabra: "pide por escrito", texto: "Pide por escrito una cita previa para la semana que viene." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "apply-for" },/*traduccion-end*/
   },
   {
     id: "solicitud",
@@ -1506,6 +1610,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "solicitud", texto: "Entregó la solicitud de ayuda en el ayuntamiento." },
     ejemploSinonimo: { palabra: "petición por escrito", texto: "Entregó la petición por escrito de ayuda en el ayuntamiento." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "application-form" },/*traduccion-end*/
   },
   {
     id: "oficina",
@@ -1516,6 +1621,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "oficina", texto: "Fue a la oficina del DNI para renovar el documento." },
     ejemploSinonimo: { palabra: "lugar de atención", texto: "Fue al lugar de atención del DNI para renovar el documento." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "office-building" },/*traduccion-end*/
   },
   {
     id: "ventanilla",
@@ -1526,6 +1632,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "ventanilla", texto: "Hizo cola en la ventanilla del banco." },
     ejemploSinonimo: { palabra: "mostrador", texto: "Hizo cola en el mostrador del banco." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "counter-window" },/*traduccion-end*/
   },
   {
     id: "sello",
@@ -1536,6 +1643,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "sello", texto: "Pusieron el sello en el certificado del ayuntamiento." },
     ejemploSinonimo: { palabra: "timbre", texto: "Pusieron el timbre en el certificado del ayuntamiento." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "stamp-paper" },/*traduccion-end*/
   },
   {
     id: "sellar",
@@ -1546,6 +1654,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "selló", texto: "Selló la instancia antes de entregarla." },
     ejemploSinonimo: { palabra: "estampó", texto: "Estampó la instancia antes de entregarla." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "stamp-document" },/*traduccion-end*/
   },
   {
     id: "carta-certificada",
@@ -1566,6 +1675,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "acuse de recibo", texto: "Le dieron un acuse de recibo al entregar la solicitud." },
     ejemploSinonimo: { palabra: "recibo de entrega", texto: "Le dieron un recibo de entrega al entregar la solicitud." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "proof-of-receipt" },/*traduccion-end*/
   },
   {
     id: "volante",
@@ -1576,6 +1686,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "volante", texto: "Le dieron un volante médico para justificar la ausencia." },
     ejemploSinonimo: { palabra: "papel acreditativo", texto: "Le dieron un papel acreditativo médico para justificar la ausencia." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "slip-paper" },/*traduccion-end*/
   },
   {
     id: "certificado-empadronamiento",
@@ -1586,6 +1697,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "certificado de empadronamiento", texto: "Pidió el certificado de empadronamiento en el ayuntamiento." },
     ejemploSinonimo: { palabra: "papel del padrón", texto: "Pidió el papel del padrón en el ayuntamiento." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "proof-of-address" },/*traduccion-end*/
   },
   {
     id: "formulario",
@@ -1596,6 +1708,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "formulario", texto: "Rellenó el formulario de la solicitud en casa." },
     ejemploSinonimo: { palabra: "impreso", texto: "Rellenó el impreso de la solicitud en casa." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "form-blank" },/*traduccion-end*/
   },
   {
     id: "firmar",
@@ -1606,6 +1719,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "firmó", texto: "Firmó el contrato antes de empezar a trabajar." },
     ejemploSinonimo: { palabra: "rubricó", texto: "Rubricó el contrato antes de empezar a trabajar." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "sign-name" },/*traduccion-end*/
   },
   {
     id: "expediente",
@@ -1616,6 +1730,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "expediente", texto: "Abrieron un expediente para su solicitud de ayuda." },
     ejemploSinonimo: { palabra: "caso", texto: "Abrieron un caso para su solicitud de ayuda." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "case-file" },/*traduccion-end*/
   },
   {
     id: "archivo",
@@ -1626,6 +1741,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "archivo", texto: "Pidió su expediente en el archivo del ayuntamiento." },
     ejemploSinonimo: { palabra: "lugar de papeles", texto: "Pidió su expediente en el lugar de papeles del ayuntamiento." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "archive-store" },/*traduccion-end*/
   },
   {
     id: "documento",
@@ -1636,6 +1752,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "documento", texto: "Llevó todos los documentos al ayuntamiento." },
     ejemploSinonimo: { palabra: "papel", texto: "Llevó todos los papeles al ayuntamiento." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "document-paper" },/*traduccion-end*/
   },
   {
     id: "padron",
@@ -1658,6 +1775,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "sueldo", texto: "Cobra el sueldo a fin de mes." },
     ejemploSinonimo: { palabra: "salario", texto: "Cobra el salario a fin de mes." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "wage-pay" },/*traduccion-end*/
   },
   {
     id: "salario",
@@ -1668,6 +1786,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "salario", texto: "El salario mínimo es lo mínimo que puede pagar una empresa." },
     ejemploSinonimo: { palabra: "sueldo", texto: "El sueldo mínimo es lo mínimo que puede pagar una empresa." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "salary-pay" },/*traduccion-end*/
   },
   {
     id: "autonomo",
@@ -1688,6 +1807,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "empresa", texto: "Trabaja en una empresa de alimentación." },
     ejemploSinonimo: { palabra: "compañía", texto: "Trabaja en una compañía de alimentación." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "company-business" },/*traduccion-end*/
   },
   {
     id: "puesto-trabajo",
@@ -1708,6 +1828,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "horario", texto: "Su horario es de lunes a viernes de nueve a seis." },
     ejemploSinonimo: { palabra: "turno de trabajo", texto: "Su turno de trabajo es de lunes a viernes de nueve a seis." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "work-schedule" },/*traduccion-end*/
   },
   {
     id: "horas-extra",
@@ -1718,6 +1839,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "horas extra", texto: "Hizo horas extra para acabar el informe." },
     ejemploSinonimo: { palabra: "horas extra de trabajo", texto: "Hizo horas extra de trabajo para acabar el informe." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "overtime-hours" },/*traduccion-end*/
   },
   {
     id: "vacaciones",
@@ -1748,6 +1870,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "prestación", texto: "Cobró la prestación por incapacidad durante seis meses." },
     ejemploSinonimo: { palabra: "ayuda del Estado", texto: "Cobró la ayuda del Estado por incapacidad durante seis meses." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "state-benefit" },/*traduccion-end*/
   },
   {
     id: "jubilacion",
@@ -1758,6 +1881,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "jubilación", texto: "Se apuntó a la jubilación a los sesenta y cinco años." },
     ejemploSinonimo: { palabra: "retiro", texto: "Se apuntó al retiro a los sesenta y cinco años." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "retirement-work" },/*traduccion-end*/
   },
   {
     id: "oferta-trabajo",
@@ -1778,6 +1902,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "carta de presentación", texto: "Mandó su currículum con una carta de presentación." },
     ejemploSinonimo: { palabra: "carta para pedir trabajo", texto: "Mandó su currículum con una carta para pedir trabajo." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "cover-letter" },/*traduccion-end*/
   },
   {
     id: "plantilla",
@@ -1788,6 +1913,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "plantilla", texto: "La plantilla de la fábrica es de doscientos trabajadores." },
     ejemploSinonimo: { palabra: "conjunto de trabajadores", texto: "El conjunto de trabajadores de la fábrica es de doscientos." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "staff-workers" },/*traduccion-end*/
   },
   {
     id: "lugar-trabajo",
@@ -1808,6 +1934,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "Seguridad Social", texto: "Cotiza a la Seguridad Social cada mes." },
     ejemploSinonimo: { palabra: "sistema público de salud", texto: "Cotiza al sistema público de salud cada mes." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "national-insurance" },/*traduccion-end*/
   },
   {
     id: "reclamacion-laboral",
@@ -1818,6 +1945,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "reclamación laboral", texto: "Presentó una reclamación laboral por el impago de horas extra." },
     ejemploSinonimo: { palabra: "queja formal del trabajador", texto: "Presentó una queja formal del trabajador por el impago de horas extra." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "grievance" },/*traduccion-end*/
   },
   {
     id: "sindicato",
@@ -1828,6 +1956,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "sindicato", texto: "Se afilió al sindicato para tener apoyo en la negociación." },
     ejemploSinonimo: { palabra: "asociación de trabajadores", texto: "Se afilió a la asociación de trabajadores para tener apoyo en la negociación." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "union" },/*traduccion-end*/
   },
   {
     id: "salario-minimo",
@@ -1838,6 +1967,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "Salario mínimo", texto: "El Salario mínimo subió al inicio del año." },
     ejemploSinonimo: { palabra: "sueldo mínimo legal", texto: "El sueldo mínimo legal subió al inicio del año." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "wage-pay" },/*traduccion-end*/
   },
   // Lote de profundización 1 (LP1): salud
   {
@@ -1859,6 +1989,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "alergia", texto: "Tiene alergia al polen y estornuda mucho en primavera." },
     ejemploSinonimo: { palabra: "reacción alérgica", texto: "Tiene una reacción alérgica al polen y estornuda mucho en primavera." },
     situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "allergy" },/*traduccion-end*/
   },
   {
     id: "glaucoma",
@@ -1869,6 +2000,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "glaucoma", texto: "Le diagnosticaron glaucoma y ahora se revisa la vista cada seis meses." },
     ejemploSinonimo: { palabra: "presión alta en el ojo", texto: "Le diagnosticaron presión alta en el ojo y ahora se revisa la vista cada seis meses." },
     situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "glaucoma-en" },/*traduccion-end*/
   },
   {
     id: "ictericia",
@@ -1909,6 +2041,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "esguince", texto: "Se hizo un esguince de tobillo bajando las escaleras." },
     ejemploSinonimo: { palabra: "torcedura fuerte", texto: "Se hizo una torcedura fuerte de tobillo bajando las escaleras." },
     situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "sprain" },/*traduccion-end*/
   },
   {
     id: "quemadura",
@@ -1939,6 +2072,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "colesterol", texto: "El médico le dijo que tenía el colesterol alto y bajó la comida con grasa." },
     ejemploSinonimo: { palabra: "grasa en la sangre", texto: "El médico le dijo que tenía grasa en la sangre alta y bajó la comida con grasa." },
     situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "cholesterol-en" },/*traduccion-end*/
   },
   {
     id: "insomnio",
@@ -1999,6 +2133,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "crónica", texto: "La diabetes es una enfermedad crónica que se controla cada día." },
     ejemploSinonimo: { palabra: "enfermedad para siempre", texto: "La diabetes es una enfermedad para siempre que se controla cada día." },
     situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "chronic-illness" },/*traduccion-end*/
   },
   // Lote de profundización 2 (LP2): legal
   {
@@ -2010,6 +2145,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "multa", texto: "Le pusieron una multa por aparcar en la acera." },
     ejemploSinonimo: { palabra: "sanción de dinero", texto: "Le pusieron una sanción de dinero por aparcar en la acera." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "fine" },/*traduccion-end*/
   },
   {
     id: "juicio",
@@ -2020,6 +2156,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "juicio", texto: "El juicio por el caso se celebrará el próximo lunes." },
     ejemploSinonimo: { palabra: "proceso en el tribunal", texto: "El proceso en el tribunal por el caso se celebrará el próximo lunes." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "trial" },/*traduccion-end*/
   },
   {
     id: "sentencia",
@@ -2040,6 +2177,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "recurso", texto: "Presentó un recurso porque no estaba de acuerdo con la sentencia." },
     ejemploSinonimo: { palabra: "pedir otra revisión", texto: "Presentó un pedir otra revisión porque no estaba de acuerdo con la sentencia." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "legal-remedy" },/*traduccion-end*/
   },
   {
     id: "acusado",
@@ -2050,6 +2188,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "acusado", texto: "El acusado llegó al tribunal con su abogado." },
     ejemploSinonimo: { palabra: "persona señalada", texto: "La persona señalada llegó al tribunal con su abogado." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "defendant" },/*traduccion-end*/
   },
   {
     id: "demandante",
@@ -2060,6 +2199,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "demandante", texto: "La demandante contó al juez lo que le pasó." },
     ejemploSinonimo: { palabra: "persona que reclama", texto: "La persona que reclama contó al juez lo que le pasó." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "plaintiff" },/*traduccion-end*/
   },
   {
     id: "testigo",
@@ -2070,6 +2210,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "testigo", texto: "El testigo dijo que escuchó un ruido muy fuerte." },
     ejemploSinonimo: { palabra: "persona que vio los hechos", texto: "La persona que vio los hechos dijo que escuchó un ruido muy fuerte." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "witness" },/*traduccion-end*/
   },
   {
     id: "delito",
@@ -2090,6 +2231,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "pena", texto: "El juez le puso una pena de dos años de cárcel." },
     ejemploSinonimo: { palabra: "castigo de la ley", texto: "El juez le puso un castigo de la ley de dos años de cárcel." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "punishment" },/*traduccion-end*/
   },
   {
     id: "carcel",
@@ -2100,6 +2242,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "cárcel", texto: "Pasó tres años en la cárcel por robar." },
     ejemploSinonimo: { palabra: "prisión", texto: "Pasó tres años en la prisión por robar." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "jail-en" },/*traduccion-end*/
   },
   {
     id: "deudor",
@@ -2110,6 +2253,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "deudor", texto: "El deudor no pudo pagar las cuotas del préstamo." },
     ejemploSinonimo: { palabra: "persona que debe dinero", texto: "La persona que debe dinero no pudo pagar las cuotas del préstamo." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "debtor" },/*traduccion-end*/
   },
   {
     id: "acreedor",
@@ -2120,6 +2264,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "acreedor", texto: "El acreedor reclamó la deuda en el juzgado." },
     ejemploSinonimo: { palabra: "persona que cobra dinero", texto: "La persona que cobra dinero reclamó la deuda en el juzgado." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "creditor" },/*traduccion-end*/
   },
   {
     id: "huella-digital",
@@ -2140,6 +2285,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "sospechoso", texto: "La policía detuvo al sospechoso esta mañana." },
     ejemploSinonimo: { palabra: "persona bajo sospecha", texto: "La policía detuvo a la persona bajo sospecha esta mañana." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "suspect" },/*traduccion-end*/
   },
   {
     id: "antecedentes",
@@ -2150,6 +2296,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "antecedentes", texto: "Pidió un certificado de antecedentes para el trabajo nuevo." },
     ejemploSinonimo: { palabra: "historial penal", texto: "Pidió un certificado de historial penal para el trabajo nuevo." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "criminal-record" },/*traduccion-end*/
   },
   {
     id: "derecho-defensa",
@@ -2160,6 +2307,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "derecho a defenderse", texto: "Todo acusado tiene derecho a defenderse ante un juez." },
     ejemploSinonimo: { palabra: "derecho de defensa", texto: "Todo acusado tiene derecho de defensa ante un juez." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "right-to-defence" },/*traduccion-end*/
   },
   // Lote de profundización 3 (LP3): vivienda
   {
@@ -2171,6 +2319,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "contrato de alquiler", texto: "Firmaron el contrato de alquiler por un año." },
     ejemploSinonimo: { palabra: "papel firmado del alquiler", texto: "Firmaron el papel firmado del alquiler por un año." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "rental-contract" },/*traduccion-end*/
   },
   {
     id: "recibo-alquiler",
@@ -2181,6 +2330,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "recibo del alquiler", texto: "Guardó el recibo del alquiler para sus cuentas." },
     ejemploSinonimo: { palabra: "papel del pago del alquiler", texto: "Guardó el papel del pago del alquiler para sus cuentas." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "rent-receipt" },/*traduccion-end*/
   },
   {
     id: "llaves",
@@ -2211,6 +2361,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "piso", texto: "Compraron un piso en el centro de la ciudad." },
     ejemploSinonimo: { palabra: "apartamento", texto: "Compraron un apartamento en el centro de la ciudad." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "flat" },/*traduccion-end*/
   },
   {
     id: "casa",
@@ -2221,6 +2372,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "casa", texto: "Viven en una casa con jardín en las afueras." },
     ejemploSinonimo: { palabra: "vivienda unifamiliar", texto: "Viven en una vivienda unifamiliar con jardín en las afueras." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "house" },/*traduccion-end*/
   },
   {
     id: "piscina",
@@ -2311,6 +2463,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "factura de la luz", texto: "La factura de la luz llegó más cara este mes." },
     ejemploSinonimo: { palabra: "recibo de la luz", texto: "El recibo de la luz llegó más caro este mes." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "electricity-bill" },/*traduccion-end*/
   },
   {
     id: "agua",
@@ -2332,6 +2485,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "seguro", texto: "Pagó el seguro del coche para todo el año." },
     ejemploSinonimo: { palabra: "póliza", texto: "Pagó la póliza del coche para todo el año." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "insurance" },/*traduccion-end*/
   },
   {
     id: "tarjeta-credito",
@@ -2342,6 +2496,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "tarjeta de crédito", texto: "Pagó las vacaciones con la tarjeta de crédito." },
     ejemploSinonimo: { palabra: "plástico para pagar a plazos", texto: "Pagó las vacaciones con el plástico para pagar a plazos." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "credit-card" },/*traduccion-end*/
   },
   {
     id: "deuda",
@@ -2352,6 +2507,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "deuda", texto: "Tiene una deuda con el banco por el préstamo del coche." },
     ejemploSinonimo: { palabra: "dinero que debo", texto: "Tiene dinero que debo con el banco por el préstamo del coche." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "debt" },/*traduccion-end*/
   },
   {
     id: "ahorro",
@@ -2362,6 +2518,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
     ejemploSinonimo: { palabra: "dinero guardado", texto: "Cada mes guarda parte de su sueldo como dinero guardado." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "savings" },/*traduccion-end*/
   },
   {
     id: "inversion",
@@ -2372,6 +2529,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "inversión", texto: "Hizo una inversión en un fondo de pensiones para su jubilación." },
     ejemploSinonimo: { palabra: "dinero que crece", texto: "Puso dinero que crece en un fondo de pensiones para su jubilación." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "investment" },/*traduccion-end*/
   },
   {
     id: "iban",
@@ -2382,6 +2540,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "IBAN", texto: "Le dio su IBAN al jefe para que le pagara el sueldo." },
     ejemploSinonimo: { palabra: "código de la cuenta", texto: "Le dio el código de la cuenta al jefe para que le pagara el sueldo." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "iban-en" },/*traduccion-end*/
   },
   {
     id: "cambio",
@@ -2402,6 +2561,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "banca online", texto: "Consulta su saldo por la banca online del banco." },
     ejemploSinonimo: { palabra: "banco por internet", texto: "Consulta su saldo por el banco por internet del banco." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "online-banking" },/*traduccion-end*/
   },
   {
     id: "bizum",
@@ -2432,6 +2592,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "fraude", texto: "Denunció el fraude cuando vio un cargo raro en la tarjeta." },
     ejemploSinonimo: { palabra: "engaño para robar", texto: "Denunció el engaño para robar cuando vio un cargo raro en la tarjeta." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "fraud" },/*traduccion-end*/
   },
   {
     id: "estafa",
@@ -2442,6 +2603,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "estafa", texto: "Fue víctima de una estafa por internet y perdió sus ahorros." },
     ejemploSinonimo: { palabra: "timo", texto: "Fue víctima de un timo por internet y perdió sus ahorros." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "scam" },/*traduccion-end*/
   },
   {
     id: "seguro-hogar",
@@ -2493,6 +2655,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "ascenso", texto: "Le dieron el ascenso a jefa de equipo tras dos años." },
     ejemploSinonimo: { palabra: "subir de puesto", texto: "Le dieron el subir de puesto a jefa de equipo tras dos años." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "promotion" },/*traduccion-end*/
   },
   {
     id: "jefe",
@@ -2533,6 +2696,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "reunión", texto: "La reunión de trabajo empieza a las diez en la sala grande." },
     ejemploSinonimo: { palabra: "encuentro de trabajo", texto: "El encuentro de trabajo empieza a las diez en la sala grande." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "meeting" },/*traduccion-end*/
   },
   {
     id: "proyecto",
@@ -2573,6 +2737,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "formación", texto: "La empresa le pagó una formación de office avanzado." },
     ejemploSinonimo: { palabra: "curso de trabajo", texto: "La empresa le pagó un curso de trabajo de office avanzado." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "training" },/*traduccion-end*/
   },
   {
     id: "aumento",
@@ -2583,6 +2748,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "aumento", texto: "Pidió un aumento de sueldo tras su primer año." },
     ejemploSinonimo: { palabra: "subida de sueldo", texto: "Pidió una subida de sueldo tras su primer año." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "raise" },/*traduccion-end*/
   },
   {
     id: "meta",
@@ -2613,6 +2779,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "preaviso", texto: "Entregó el preaviso de dimisión con dos semanas de antelación." },
     ejemploSinonimo: { palabra: "aviso por escrito", texto: "Entregó el aviso por escrito de dimisión con dos semanas de antelación." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "notice-period" },/*traduccion-end*/
   },
   {
     id: "convenio",
@@ -2623,6 +2790,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "convenio", texto: "El convenio subió el salario mínimo del sector." },
     ejemploSinonimo: { palabra: "acuerdo laboral", texto: "El acuerdo laboral subió el salario mínimo del sector." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "collective-agreement" },/*traduccion-end*/
   },
   {
     id: "categoria-profesional",
@@ -2654,6 +2822,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "registro", texto: "Tuvo que ir al registro civil para pedir el certificado de nacimiento." },
     ejemploSinonimo: { palabra: "oficina de archivos oficiales", texto: "Tuvo que ir a la oficina de archivos oficiales para pedir el certificado de nacimiento." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "registry" },/*traduccion-end*/
   },
   {
     id: "tasa",
@@ -2664,6 +2833,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "tasa", texto: "Pagó la tasa del pasaporte en el banco antes de ir a la oficina." },
     ejemploSinonimo: { palabra: "precio del trámite", texto: "Pagó el precio del trámite del pasaporte en el banco antes de ir a la oficina." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "fee" },/*traduccion-end*/
   },
   {
     id: "modelo",
@@ -2674,6 +2844,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "modelo", texto: "Rellenó el modelo 303 de Hacienda con los datos de su negocio." },
     ejemploSinonimo: { palabra: "impreso oficial", texto: "Rellenó el impreso oficial 303 de Hacienda con los datos de su negocio." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "official-form" },/*traduccion-end*/
   },
   {
     id: "certificado",
@@ -2684,6 +2855,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "certificado", texto: "Necesita un certificado de empadronamiento para el trámite del ayuntamiento." },
     ejemploSinonimo: { palabra: "papel que dice que es verdad", texto: "Necesita un papel que dice que es verdad de empadronamiento para el trámite del ayuntamiento." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "certificate" },/*traduccion-end*/
   },
   {
     id: "tramite",
@@ -2704,6 +2876,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "digitalizar", texto: "Pidieron digitalizar las facturas viejas para guardarlas en la nube." },
     ejemploSinonimo: { palabra: "pasar a digital", texto: "Pidieron pasar a digital las facturas viejas para guardarlas en la nube." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "digitise" },/*traduccion-end*/
   },
   {
     id: "presencial",
@@ -2724,6 +2897,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "telemático", texto: "Presentó la solicitud por el canal telemático de Hacienda." },
     ejemploSinonimo: { palabra: "por internet", texto: "Presentó la solicitud por el canal por internet de Hacienda." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "online-procedure" },/*traduccion-end*/
   },
   {
     id: "validar",
@@ -2744,6 +2918,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "firma digital", texto: "Puso la firma digital en el contrato desde el móvil." },
     ejemploSinonimo: { palabra: "firma electrónica", texto: "Puso la firma electrónica en el contrato desde el móvil." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "digital-signature" },/*traduccion-end*/
   },
   {
     id: "anexar",
@@ -2774,6 +2949,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "plazo", texto: "El plazo para presentar la solicitud termina el viernes." },
     ejemploSinonimo: { palabra: "días de margen", texto: "Los días de margen para presentar la solicitud terminan el viernes." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "admin-deadline" },/*traduccion-end*/
   },
   {
     id: "organismo",
@@ -2804,6 +2980,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "declaración", texto: "Presentó la declaración de la renta antes del 30 de junio." },
     ejemploSinonimo: { palabra: "papel de datos al Estado", texto: "Presentó el papel de datos al Estado de la renta antes del 30 de junio." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "declaration" },/*traduccion-end*/
   },
   // Lote de profundización 7 (LP7): vida-diaria
   {
@@ -2976,6 +3153,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "cefalea tensional", texto: "Le dio una cefalea tensional después de un día muy duro de trabajo." },
     ejemploSinonimo: { palabra: "dolor de cabeza por tensión", texto: "Le dio un dolor de cabeza por tensión después de un día muy duro de trabajo." },
     situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "tension-headache" },/*traduccion-end*/
   },
   {
     id: "tos",
@@ -2996,6 +3174,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "gripe", texto: "Estuvo en cama una semana con gripe y mucha fiebre." },
     ejemploSinonimo: { palabra: "influenza", texto: "Estuvo en cama una semana con influenza y mucha fiebre." },
     situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "flu" },/*traduccion-end*/
   },
   {
     id: "resfriado",
@@ -3016,6 +3195,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "cabeza", texto: "Le dolía la cabeza después de trabajar muchas horas." },
     ejemploSinonimo: { palabra: "parte alta del cuerpo", texto: "Le dolía la parte alta del cuerpo después de trabajar muchas horas." },
     situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "head" },/*traduccion-end*/
   },
   {
     id: "ojo",
@@ -3026,6 +3206,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "ojo", texto: "Le dolía el ojo después de mirar la pantalla todo el día." },
     ejemploSinonimo: { palabra: "órgano de la vista", texto: "Le dolía el órgano de la vista después de mirar la pantalla todo el día." },
     situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "eye" },/*traduccion-end*/
   },
   {
     id: "boca",
@@ -3137,6 +3318,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "juez", texto: "El juez leyó la sentencia al final del juicio." },
     ejemploSinonimo: { palabra: "magistrado", texto: "El magistrado leyó la sentencia al final del juicio." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "judge" },/*traduccion-end*/
   },
   {
     id: "fiscal",
@@ -3167,6 +3349,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
     ejemploSinonimo: { palabra: "persona que da fe", texto: "Firmaron las escrituras de la casa delante de la persona que da fe." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "notary" },/*traduccion-end*/
   },
   {
     id: "acta",
@@ -3177,6 +3360,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "acta", texto: "El acta de la reunión la firmó el jefe al final." },
     ejemploSinonimo: { palabra: "documento de lo dicho", texto: "El documento de lo dicho de la reunión lo firmó el jefe al final." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "minutes" },/*traduccion-end*/
   },
   {
     id: "auto-judicial",
@@ -3187,6 +3371,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "auto judicial", texto: "El juez firmó un auto judicial para seguir investigando el caso." },
     ejemploSinonimo: { palabra: "resolución del juez", texto: "El juez firmó una resolución del juez para seguir investigando el caso." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "court-order" },/*traduccion-end*/
   },
   {
     id: "prueba",
@@ -3197,6 +3382,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "prueba", texto: "La prueba del vídeo demostró que el acusado no estaba allí." },
     ejemploSinonimo: { palabra: "evidencia", texto: "La evidencia del vídeo demostró que el acusado no estaba allí." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "evidence" },/*traduccion-end*/
   },
   {
     id: "testimonio",
@@ -3207,6 +3393,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "testimonio", texto: "Su testimonio fue clave para resolver el caso." },
     ejemploSinonimo: { palabra: "lo que dice el testigo", texto: "Lo que dice el testigo fue clave para resolver el caso." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "testimony" },/*traduccion-end*/
   },
   {
     id: "declaracion-jurada",
@@ -3217,6 +3404,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "declaración jurada", texto: "Firmó una declaración jurada ante el juez diciendo toda la verdad." },
     ejemploSinonimo: { palabra: "papel bajo promesa", texto: "Firmó un papel bajo promesa ante el juez diciendo toda la verdad." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "sworn-statement" },/*traduccion-end*/
   },
   {
     id: "perito",
@@ -3247,6 +3435,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "conciliación", texto: "La conciliación evitó que el caso llegara a un juez." },
     ejemploSinonimo: { palabra: "reunión de acuerdo", texto: "La reunión de acuerdo evitó que el caso llegara a un juez." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "conciliation" },/*traduccion-end*/
   },
   {
     id: "arbitraje",
@@ -3267,6 +3456,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "apoderado", texto: "El hijo mayor es el apoderado de la madre para los temas del banco." },
     ejemploSinonimo: { palabra: "representante legal", texto: "El hijo mayor es el representante legal de la madre para los temas del banco." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "representative" },/*traduccion-end*/
   },
   {
     id: "tribunal",
@@ -3277,6 +3467,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "tribunal", texto: "El juicio se celebró en el tribunal de la ciudad." },
     ejemploSinonimo: { palabra: "sala de juicios", texto: "El juicio se celebró en la sala de juicios de la ciudad." },
     situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "court" },/*traduccion-end*/
   },
   {
     id: "abogado-defensor",
@@ -3438,6 +3629,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "suelo", texto: "El suelo de la cocina es de baldosa." },
     ejemploSinonimo: { palabra: "piso de la casa", texto: "El piso de la casa de la cocina es de baldosa." },
     situacion: "vivienda",
+    /*traduccion-start*/traduccion: { en: "floor" },/*traduccion-end*/
   },
   {
     id: "techo",
@@ -3479,6 +3671,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "cobrar", texto: "Cobrará el sueldo a final de mes." },
     ejemploSinonimo: { palabra: "lo que le deben", texto: "Recibirá lo que le deben a final de mes." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "collect" },/*traduccion-end*/
   },
   {
     id: "tarjeta-regalo",
@@ -3499,6 +3692,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "cláusula", texto: "Leyó cada cláusula del contrato antes de firmar." },
     ejemploSinonimo: { palabra: "condición del contrato", texto: "Leyó cada condición del contrato antes de firmar." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "clause" },/*traduccion-end*/
   },
   {
     id: "moroso",
@@ -3509,6 +3703,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "moroso", texto: "Lo incluyeron en la lista de morosos por no pagar el préstamo." },
     ejemploSinonimo: { palabra: "personas que no pagan", texto: "Lo incluyeron en la lista de personas que no pagan por no pagar el préstamo." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "defaulter" },/*traduccion-end*/
   },
   {
     id: "avalista",
@@ -3519,6 +3714,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "avalista", texto: "Su padre fue el avalista del préstamo del coche." },
     ejemploSinonimo: { palabra: "persona que firma por ti", texto: "Su padre fue la persona que firma por ti del préstamo del coche." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "guarantor" },/*traduccion-end*/
   },
   {
     id: "depositar",
@@ -3539,6 +3735,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "retirar", texto: "Fue al cajero a retirar dinero para el fin de semana." },
     ejemploSinonimo: { palabra: "sacar dinero", texto: "Fue al cajero a sacar dinero para el fin de semana." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "withdraw" },/*traduccion-end*/
   },
   {
     id: "tarjeta-coordenadas",
@@ -3549,6 +3746,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "tarjeta de coordenadas", texto: "Usó la tarjeta de coordenadas para confirmar la compra por internet." },
     ejemploSinonimo: { palabra: "tarjeta de números secretos", texto: "Usó la tarjeta de números secretos para confirmar la compra por internet." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "coord-card" },/*traduccion-end*/
   },
   {
     id: "ingresar",
@@ -3569,6 +3767,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "beneficiario", texto: "Sus hijos son los beneficiarios del seguro de vida." },
     ejemploSinonimo: { palabra: "personas que reciben el dinero", texto: "Sus hijos son las personas que reciben el dinero del seguro de vida." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "beneficiary" },/*traduccion-end*/
   },
   {
     id: "seguro-vida",
@@ -3589,6 +3788,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "seguro de coche", texto: "El seguro de coche pagó la reparación del golpe del parking." },
     ejemploSinonimo: { palabra: "seguro del vehículo", texto: "El seguro del vehículo pagó la reparación del golpe del parking." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "car-insurance" },/*traduccion-end*/
   },
   {
     id: "declarar",
@@ -3599,6 +3799,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "declarar", texto: "Tuvo que declarar sus ingresos del año pasado en Hacienda." },
     ejemploSinonimo: { palabra: "presentar la declaración", texto: "Tuvo que presentar la declaración sus ingresos del año pasado en Hacienda." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "file-taxes" },/*traduccion-end*/
   },
   {
     id: "recaudar",
@@ -3609,6 +3810,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "recaudar", texto: "La oficina de Hacienda se encarga de recaudar los impuestos." },
     ejemploSinonimo: { palabra: "cobrar para el Estado", texto: "La oficina de Hacienda se encarga de cobrar para el Estado los impuestos." },
     situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "collect-taxes" },/*traduccion-end*/
   },
   // Lote de profundización 12 (LP12): trabajo
   {
@@ -3630,6 +3832,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "contrato indefinido", texto: "Después de un año le pasaron a contrato indefinido." },
     ejemploSinonimo: { palabra: "contrato fijo", texto: "Después de un año le pasaron a contrato fijo." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "permanent-contract" },/*traduccion-end*/
   },
   {
     id: "jornada-completa",
@@ -3650,6 +3853,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "jornada parcial", texto: "Trabaja a jornada parcial por las mañanas para cuidar a sus hijos." },
     ejemploSinonimo: { palabra: "medio trabajo", texto: "Trabaja a medio trabajo por las mañanas para cuidar a sus hijos." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "part-time" },/*traduccion-end*/
   },
   {
     id: "permiso",
@@ -3670,6 +3874,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "paga extra", texto: "Cobró la paga extra de Navidad antes de las fiestas." },
     ejemploSinonimo: { palabra: "sueldo extra", texto: "Cobró el sueldo extra de Navidad antes de las fiestas." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "extra-pay" },/*traduccion-end*/
   },
   {
     id: "fin-contrato",
@@ -3680,6 +3885,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "fin del contrato", texto: "Le avisaron del fin del contrato con quince días de antelación." },
     ejemploSinonimo: { palabra: "final del contrato", texto: "Le avisaron del final del contrato con quince días de antelación." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "end-of-contract" },/*traduccion-end*/
   },
   {
     id: "periodo-prueba",
@@ -3690,6 +3896,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "periodo de prueba", texto: "Estuvo tres meses de periodo de prueba antes de quedarse fija." },
     ejemploSinonimo: { palabra: "meses de prueba", texto: "Estuvo tres meses de meses de prueba antes de quedarse fija." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "probation-period" },/*traduccion-end*/
   },
   {
     id: "jubilacion-anticipada",
@@ -3700,6 +3907,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "jubilación anticipada", texto: "Se cogió la jubilación anticipada a los sesenta años." },
     ejemploSinonimo: { palabra: "retiro antes de tiempo", texto: "Se cogió el retiro antes de tiempo a los sesenta años." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "early-retirement" },/*traduccion-end*/
   },
   {
     id: "renovar-contrato",
@@ -3710,6 +3918,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "renovar el contrato", texto: "Le ofrecieron renovar el contrato por un año más." },
     ejemploSinonimo: { palabra: "volver a firmar el contrato", texto: "Le ofrecieron volver a firmar el contrato por un año más." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "renew-contract" },/*traduccion-end*/
   },
   {
     id: "despido-improcedente",
@@ -3720,6 +3929,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "despido improcedente", texto: "El juez declaró el despido improcedente y la empresa tuvo que readmitirlo." },
     ejemploSinonimo: { palabra: "despido que no vale", texto: "El juez declaró el despido que no vale y la empresa tuvo que readmitirlo." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "unfair-dismissal" },/*traduccion-end*/
   },
   {
     id: "despido-procedente",
@@ -3730,6 +3940,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "despido procedente", texto: "El juez declaró el despido procedente y el trabajador no recibió indemnización." },
     ejemploSinonimo: { palabra: "despido legal", texto: "El juez declaró el despido legal y el trabajador no recibió indemnización." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "fair-dismissal" },/*traduccion-end*/
   },
   {
     id: "excedencia",
@@ -3740,6 +3951,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "excedencia", texto: "Pidió una excedencia de un año para cuidar a su madre." },
     ejemploSinonimo: { palabra: "tiempo sin trabajar", texto: "Pidió un tiempo sin trabajar de un año para cuidar a su madre." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "leave-of-absence" },/*traduccion-end*/
   },
   {
     id: "cambio-turno",
@@ -3750,6 +3962,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "cambio de turno", texto: "Hizo un cambio de turno con su compañero para ir al médico." },
     ejemploSinonimo: { palabra: "intercambio de turno", texto: "Hizo un intercambio de turno con su compañero para ir al médico." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "shift-change" },/*traduccion-end*/
   },
   {
     id: "turno-noche",
@@ -3760,6 +3973,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "turno de noche", texto: "Trabaja en turno de noche en el hospital." },
     ejemploSinonimo: { palabra: "turno nocturno", texto: "Trabaja en turno nocturno en el hospital." },
     situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "night-shift" },/*traduccion-end*/
   },
   {
     id: "candidato",
@@ -3791,6 +4005,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "impuesto", texto: "El impuesto sobre la renta se paga una vez al año." },
     ejemploSinonimo: { palabra: "tributo", texto: "El tributo sobre la renta se paga una vez al año." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "tax" },/*traduccion-end*/
   },
   {
     id: "comunicacion-oficial",
@@ -3821,6 +4036,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "CIF", texto: "El autónomo dio su CIF para emitir la factura del trabajo." },
     ejemploSinonimo: { palabra: "código de empresa", texto: "El autónomo dio el código de empresa para emitir la factura del trabajo." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "tax-id" },/*traduccion-end*/
   },
   {
     id: "certificado-digital",
@@ -3841,6 +4057,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "Cl@ve", texto: "Se registró en Cl@ve para entrar en la sede electrónica de la Seguridad Social." },
     ejemploSinonimo: { palabra: "clave del Estado", texto: "Se registró en la clave del Estado para entrar en la sede electrónica de la Seguridad Social." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "cl@ve" },/*traduccion-end*/
   },
   {
     id: "codigo-sms",
@@ -3851,6 +4068,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "código por SMS", texto: "Le llegó un código por SMS al móvil para confirmar la compra." },
     ejemploSinonimo: { palabra: "número de confirmación", texto: "Le llegó un número de confirmación al móvil para confirmar la compra." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "sms-code" },/*traduccion-end*/
   },
   {
     id: "renovar-dni",
@@ -3871,6 +4089,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "DNI electrónico", texto: "Usó el DNI electrónico para entrar en la sede de Hacienda." },
     ejemploSinonimo: { palabra: "DNI con chip", texto: "Usó el DNI con chip para entrar en la sede de Hacienda." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "electronic-id" },/*traduccion-end*/
   },
   {
     id: "nif",
@@ -3881,6 +4100,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "NIF", texto: "Le pidieron el NIF para hacer la declaración de la renta." },
     ejemploSinonimo: { palabra: "número fiscal", texto: "Le pidieron el número fiscal para hacer la declaración de la renta." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "nif" },/*traduccion-end*/
   },
   {
     id: "justificar",
@@ -3891,6 +4111,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "justificar", texto: "Tuvo que justificar la falta con un parte médico." },
     ejemploSinonimo: { palabra: "demostrar con un papel", texto: "Tuvo que demostrar con un papel la falta con un parte médico." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "justify" },/*traduccion-end*/
   },
   {
     id: "recurso-alzada",
@@ -3901,6 +4122,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "recurso de alzada", texto: "Presentó un recurso de alzada contra la multa de tráfico." },
     ejemploSinonimo: { palabra: "recurso a la oficina superior", texto: "Presentó un recurso a la oficina superior contra la multa de tráfico." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "appeal-higher" },/*traduccion-end*/
   },
   {
     id: "copia-compulsada",
@@ -3911,6 +4133,7 @@ DICCIONARIOS.es = [
     ejemplo: { palabra: "copia compulsada", texto: "Llevó una copia compulsada del título a la oficina." },
     ejemploSinonimo: { palabra: "copia oficial sellada", texto: "Llevó una copia oficial sellada del título a la oficina." },
     situacion: "tramites",
+    /*traduccion-start*/traduccion: { en: "certified-companion" },/*traduccion-end*/
   },
   {
     id: "salida-oficina",
@@ -3930,6 +4153,819 @@ DICCIONARIOS.es = [
     sinonimos: ["comunicado que entra"],
     ejemplo: { palabra: "entrada de registro", texto: "Conserva la entrada de registro como prueba de que presentó la solicitud." },
     ejemploSinonimo: { palabra: "comunicado que entra", texto: "Conserva el comunicado que entra como prueba de que presentó la solicitud." },
+    situacion: "tramites",
+  },
+  // Lote de profundización 14 (LP14): vida-diaria
+  {
+    id: "zapato",
+    palabra: "Zapato",
+    imagen: { id: 32923, alt: "Un zapato" },
+    definicion: "Una pieza de ropa que cubre el pie. Sirve para caminar y proteger el pie.",
+    sinonimos: ["calzado cerrado"],
+    ejemplo: { palabra: "zapato", texto: "Se puso los zapatos antes de salir de casa." },
+    ejemploSinonimo: { palabra: "calzado cerrado", texto: "Se puso el calzado cerrado antes de salir de casa." },
+    situacion: "vida-diaria",
+  },
+  {
+    id: "camisa",
+    palabra: "Camisa",
+    imagen: { id: 13640, alt: "Una camisa" },
+    definicion: "Una prenda de ropa con botones, que cubre la parte de arriba del cuerpo.",
+    sinonimos: ["prenda con botones"],
+    ejemplo: { palabra: "camisa", texto: "Se puso una camisa blanca para la entrevista de trabajo." },
+    ejemploSinonimo: { palabra: "prenda con botones", texto: "Se puso una prenda con botones blanca para la entrevista de trabajo." },
+    situacion: "vida-diaria",
+  },
+  {
+    id: "pantalon",
+    palabra: "Pantalón",
+    imagen: { id: 2565, alt: "Un pantalón" },
+    definicion: "Una prenda de ropa que cubre cada pierna por separado, desde la cintura al tobillo.",
+    sinonimos: ["prenda de piernas"],
+    ejemplo: { palabra: "pantalón", texto: "Se compró un pantalón nuevo para la boda." },
+    ejemploSinonimo: { palabra: "prenda de piernas", texto: "Se compró una prenda de piernas nueva para la boda." },
+    situacion: "vida-diaria",
+  },
+  {
+    id: "abrigo",
+    palabra: "Abrigo",
+    imagen: { id: 8122, alt: "Un abrigo" },
+    definicion: "Una prenda gruesa de ropa que te pones encima de todo para no pasar frío.",
+    sinonimos: ["ropa de abrigo"],
+    ejemplo: { palabra: "abrigo", texto: "Se puso el abrigo porque hacía mucho frío en la calle." },
+    ejemploSinonimo: { palabra: "ropa de abrigo", texto: "Se puso la ropa de abrigo porque hacía mucho frío en la calle." },
+    situacion: "vida-diaria",
+  },
+  {
+    id: "lluvia",
+    palabra: "Lluvia",
+    imagen: { id: 3123, alt: "Una lluvia" },
+    definicion: "Agua que cae de las nubes. Moja a la gente y las cosas en la calle.",
+    sinonimos: ["agua que cae del cielo"],
+    ejemplo: { palabra: "lluvia", texto: "La lluvia nos pilló de camino al trabajo." },
+    ejemploSinonimo: { palabra: "agua que cae del cielo", texto: "El agua que cae del cielo nos pilló de camino al trabajo." },
+    situacion: "vida-diaria",
+  },
+  {
+    id: "sol",
+    palabra: "Sol",
+    imagen: { id: 2798, alt: "Un sol" },
+    definicion: "La estrella que nos da luz y calor durante el día en la Tierra.",
+    sinonimos: ["estrella del día"],
+    ejemplo: { palabra: "sol", texto: "Salieron a tomar el sol al parque por la tarde." },
+    ejemploSinonimo: { palabra: "estrella del día", texto: "Salieron a tomar la estrella del día al parque por la tarde." },
+    situacion: "vida-diaria",
+  },
+  {
+    id: "nieve",
+    palabra: "Nieve",
+    imagen: { id: 3135, alt: "Una nieve" },
+    definicion: "Agua congelada que cae del cielo en copos blancos. Cubre las calles y los campos.",
+    sinonimos: ["agua congelada del cielo"],
+    ejemplo: { palabra: "nieve", texto: "Los niños jugaron con la nieve en la montaña." },
+    ejemploSinonimo: { palabra: "agua congelada del cielo", texto: "Los niños jugaron con el agua congelada del cielo en la montaña." },
+    situacion: "vida-diaria",
+  },
+  {
+    id: "viento",
+    palabra: "Viento",
+    imagen: { id: 7259, alt: "Un viento" },
+    definicion: "Aire que se mueve. Lo notas cuando mueve tu pelo o las hojas de los árboles.",
+    sinonimos: ["aire en movimiento"],
+    ejemplo: { palabra: "viento", texto: "El viento tumbó el paraguas al salir de casa." },
+    ejemploSinonimo: { palabra: "aire en movimiento", texto: "El aire en movimiento tumbó el paraguas al salir de casa." },
+    situacion: "vida-diaria",
+  },
+  {
+    id: "hotel",
+    palabra: "Hotel",
+    imagen: { id: 9895, alt: "Un hotel" },
+    definicion: "Un edificio donde pagas por dormir una o varias noches cuando viajas.",
+    sinonimos: ["lugar para dormir de viaje"],
+    ejemplo: { palabra: "hotel", texto: "Reservaron un hotel céntrico para el fin de semana." },
+    ejemploSinonimo: { palabra: "lugar para dormir de viaje", texto: "Reservaron un lugar para dormir de viaje céntrico para el fin de semana." },
+    situacion: "vida-diaria",
+  },
+  {
+    id: "restaurante",
+    palabra: "Restaurante",
+    imagen: { id: 10283, alt: "Un restaurante" },
+    definicion: "Un sitio donde te sientas a comer platos cocinados. Los cocineros trabajan en la cocina.",
+    sinonimos: ["sitio para comer fuera"],
+    ejemplo: { palabra: "restaurante", texto: "El domingo fueron a comer al restaurante del barrio." },
+    ejemploSinonimo: { palabra: "sitio para comer fuera", texto: "El domingo fueron a comer al sitio para comer fuera del barrio." },
+    situacion: "vida-diaria",
+  },
+  {
+    id: "iglesia",
+    palabra: "Iglesia",
+    imagen: { id: 3118, alt: "Una iglesia o templo" },
+    definicion: "Un edificio religioso cristiano donde se reúna la gente a celebrar misas.",
+    sinonimos: ["templo cristiano"],
+    ejemplo: { palabra: "iglesia", texto: "Se casaron en la iglesia del pueblo el sábado." },
+    ejemploSinonimo: { palabra: "templo cristiano", texto: "Se casaron en el templo cristiano del pueblo el sábado." },
+    situacion: "vida-diaria",
+  },
+  {
+    id: "tienda",
+    palabra: "Tienda",
+    imagen: { id: 35695, alt: "Una tienda" },
+    definicion: "Un sitio donde compras cosas: ropa, comida, regalos o cosas para la casa.",
+    sinonimos: ["comercio"],
+    ejemplo: { palabra: "tienda", texto: "Entró en la tienda a comprar un regalo de cumpleaños." },
+    ejemploSinonimo: { palabra: "comercio", texto: "Entró en el comercio a comprar un regalo de cumpleaños." },
+    situacion: "vida-diaria",
+  },
+  {
+    id: "cine",
+    palabra: "Cine",
+    imagen: { id: 4602, alt: "Un cine" },
+    definicion: "Un sitio con una pantalla grande donde ves películas. Suele tener butacas y palomitas.",
+    sinonimos: ["sala de cine"],
+    ejemplo: { palabra: "cine", texto: "Fueron al cine a ver la nueva película el sábado." },
+    ejemploSinonimo: { palabra: "sala de cine", texto: "Fueron a la sala de cine a ver la nueva película el sábado." },
+    situacion: "vida-diaria",
+  },
+  {
+    id: "aeropuerto",
+    palabra: "Aeropuerto",
+    imagen: { id: 6031, alt: "Un aeropuerto" },
+    definicion: "Un sitio con pistas largas donde aterrizan y despegan los aviones.",
+    sinonimos: ["pista de aviones"],
+    ejemplo: { palabra: "aeropuerto", texto: "Llegaron al aeropuerto con dos horas de antelación." },
+    ejemploSinonimo: { palabra: "pista de aviones", texto: "Llegaron a la pista de aviones con dos horas de antelación." },
+    situacion: "vida-diaria",
+  },
+  {
+    id: "bicicleta",
+    palabra: "Bicicleta",
+    imagen: { id: 2277, alt: "Una bicicleta" },
+    definicion: "Un vehículo con dos ruedas y pedales. Tú la mueves con las piernas.",
+    sinonimos: ["bici"],
+    ejemplo: { palabra: "bicicleta", texto: "Va al trabajo en bicicleta todos los días." },
+    ejemploSinonimo: { palabra: "bici", texto: "Va al trabajo en bici todos los días." },
+    situacion: "vida-diaria",
+  },
+  {
+    id: "tren",
+    palabra: "Tren",
+    imagen: { id: 2603, alt: "Un tren" },
+    definicion: "Un vehículo largo con muchos vagones que va por unos carriles. Sirve para viajar lejos.",
+    sinonimos: ["tren de pasajeros"],
+    ejemplo: { palabra: "tren", texto: "Cogieron el tren de las ocho para ir a Madrid." },
+    ejemploSinonimo: { palabra: "tren de pasajeros", texto: "Cogieron el tren de pasajeros de las ocho para ir a Madrid." },
+    situacion: "vida-diaria",
+  },
+  // Lote de profundización 15 (LP15): salud
+  {
+    id: "covid",
+    palabra: "COVID",
+    imagen: { id: 2467, alt: "Un médico" },
+    definicion: "Una enfermedad causada por un virus. Da fiebre, tos y cansancio.",
+    sinonimos: ["enfermedad del coronavirus"],
+    ejemplo: { palabra: "COVID", texto: "Se vacunó del COVID el mes pasado." },
+    ejemploSinonimo: { palabra: "enfermedad del coronavirus", texto: "Se vacunó de la enfermedad del coronavirus el mes pasado." },
+    situacion: "salud",
+  },
+  {
+    id: "gripe-a",
+    palabra: "Gripe A",
+    imagen: { id: 5479, alt: "Una persona con gripe" },
+    definicion: "Una gripe más fuerte que la normal. A veces necesita hospital.",
+    sinonimos: ["gripe fuerte"],
+    ejemplo: { palabra: "Gripe A", texto: "Le diagnosticaron la Gripe A y le dieron reposo absoluto." },
+    ejemploSinonimo: { palabra: "gripe fuerte", texto: "Le diagnosticaron una gripe fuerte y le dieron reposo absoluto." },
+    situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "flu-a" },/*traduccion-end*/
+  },
+  {
+    id: "neumonia",
+    palabra: "Neumonía",
+    imagen: { id: 8365, alt: "Un pulmón" },
+    definicion: "Una enfermedad grave en los pulmones. Cuesta respirar y da fiebre alta.",
+    sinonimos: ["infección del pulmón"],
+    ejemplo: { palabra: "neumonía", texto: "Pasó una neumonía el invierno pasado y estuvo ingresado dos semanas." },
+    ejemploSinonimo: { palabra: "infección del pulmón", texto: "Pasó una infección del pulmón el invierno pasado y estuvo ingresado dos semanas." },
+    situacion: "salud",
+  },
+  {
+    id: "acidez",
+    palabra: "Acidez",
+    imagen: { id: 39652, alt: "Una acidez esofágica" },
+    definicion: "Una sensación de quemazón en el estómago que sube por el pecho.",
+    sinonimos: ["ardor de estómago"],
+    ejemplo: { palabra: "acidez", texto: "Le dio acidez después de comer picante." },
+    ejemploSinonimo: { palabra: "ardor de estómago", texto: "Le dio ardor de estómago después de comer picante." },
+    situacion: "salud",
+  },
+  {
+    id: "gases",
+    palabra: "Gases",
+    imagen: { id: 37389, alt: "Una persona expulsa gases" },
+    definicion: "Aire que se acumula en el estómago y duele. Sale por arriba o por abajo.",
+    sinonimos: ["aires en el estómago"],
+    ejemplo: { palabra: "gases", texto: "Comió muchas legumbres y tuvo gases toda la noche." },
+    ejemploSinonimo: { palabra: "aires en el estómago", texto: "Comió muchas legumbres y tuvo aires en el estómago toda la noche." },
+    situacion: "salud",
+  },
+  {
+    id: "estrenimiento",
+    palabra: "Estreñimiento",
+    imagen: { id: 37386, alt: "Una persona con estreñimiento" },
+    definicion: "Dificultad para ir al baño. Pasas días sin poder hacer caca.",
+    sinonimos: ["sin poder ir al baño"],
+    ejemplo: { palabra: "estreñimiento", texto: "Lleva una semana con estreñimiento por comer poca fibra." },
+    ejemploSinonimo: { palabra: "sin poder ir al baño", texto: "Lleva una semana sin poder ir al baño por comer poca fibra." },
+    situacion: "salud",
+  },
+  {
+    id: "diarrea",
+    palabra: "Diarrea",
+    imagen: { id: 7023, alt: "Una persona con diarrea" },
+    definicion: "Ir al baño muchas veces con caca muy blanda o líquida. Suele pasar con virus o comida en mal estado.",
+    sinonimos: ["caca líquida"],
+    ejemplo: { palabra: "diarrea", texto: "Tuvo diarrea después de comer en un restaurante." },
+    ejemploSinonimo: { palabra: "caca líquida", texto: "Tuvo caca líquida después de comer en un restaurante." },
+    situacion: "salud",
+  },
+  {
+    id: "vomito",
+    palabra: "Vómito",
+    imagen: { id: 7303, alt: "Una persona vomita" },
+    definicion: "Devolver la comida del estómago por la boca. El cuerpo lo hace cuando algo le sienta mal.",
+    sinonimos: ["devolver la comida"],
+    ejemplo: { palabra: "vómito", texto: "El niño tuvo vómito y fiebre durante la noche." },
+    ejemploSinonimo: { palabra: "devolver la comida", texto: "El niño tuvo que devolver la comida y fiebre durante la noche." },
+    situacion: "salud",
+  },
+  {
+    id: "marcapasos",
+    palabra: "Marcapasos",
+    imagen: { id: 27877, alt: "Un marcapasos" },
+    definicion: "Un aparato pequeño que se pone en el pecho. Hace que el corazón lata bien.",
+    sinonimos: ["aparato para el corazón"],
+    ejemplo: { palabra: "marcapasos", texto: "Le pusieron un marcapasos después de la operación del corazón." },
+    ejemploSinonimo: { palabra: "aparato para el corazón", texto: "Le pusieron un aparato para el corazón después de la operación del corazón." },
+    situacion: "salud",
+  },
+  {
+    id: "transplante",
+    palabra: "Trasplante",
+    imagen: { id: 27925, alt: "Una operación" },
+    definicion: "Una operación para cambiar un órgano enfermo por uno sano de otra persona.",
+    sinonimos: ["operación de cambio de órgano"],
+    ejemplo: { palabra: "trasplante", texto: "El trasplante de riñón se hizo con éxito en el hospital." },
+    ejemploSinonimo: { palabra: "operación de cambio de órgano", texto: "La operación de cambio de órgano de riñón se hizo con éxito en el hospital." },
+    situacion: "salud",
+  },
+  {
+    id: "donante",
+    palabra: "Donante",
+    imagen: { id: 35321, alt: "Una sala de donación" },
+    definicion: "Una persona que da un órgano o su sangre a otra persona que lo necesita.",
+    sinonimos: ["persona que da"],
+    ejemplo: { palabra: "donante", texto: "Fue donante de sangre durante diez años." },
+    ejemploSinonimo: { palabra: "persona que da", texto: "Fue una persona que da de sangre durante diez años." },
+    situacion: "salud",
+  },
+  {
+    id: "transfusion",
+    palabra: "Transfusión",
+    imagen: { id: 2803, alt: "Una bolsa de sangre" },
+    definicion: "Pasar sangre de una persona a otra por la vena. Se hace en el hospital.",
+    sinonimos: ["pusieron sangre por la vena"],
+    ejemplo: { palabra: "transfusión", texto: "Le hicieron una transfusión de sangre después del accidente." },
+    ejemploSinonimo: { palabra: "pusieron sangre por la vena", texto: "Le pusieron sangre por la vena después del accidente." },
+    situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "transfusion" },/*traduccion-end*/
+  },
+  {
+    id: "radioterapia",
+    palabra: "Radioterapia",
+    imagen: { id: 30192, alt: "Un técnico en radiología" },
+    definicion: "Un tratamiento con rayos que se usa para curar el cáncer.",
+    sinonimos: ["tratamiento con rayos"],
+    ejemplo: { palabra: "radioterapia", texto: "Le hacen radioterapia tres veces por semana en el hospital." },
+    ejemploSinonimo: { palabra: "tratamiento con rayos", texto: "Le hacen un tratamiento con rayos tres veces por semana en el hospital." },
+    situacion: "salud",
+  },
+  {
+    id: "quimioterapia",
+    palabra: "Quimioterapia",
+    imagen: { id: 29816, alt: "Una quimioterapia" },
+    definicion: "Un tratamiento con medicinas fuertes para curar el cáncer.",
+    sinonimos: ["tratamiento con medicinas para cáncer"],
+    ejemplo: { palabra: "quimioterapia", texto: "El pelo se le cayó por la quimioterapia." },
+    ejemploSinonimo: { palabra: "tratamiento con medicinas para cáncer", texto: "El pelo se le cayó por el tratamiento con medicinas para cáncer." },
+    situacion: "salud",
+  },
+  {
+    id: "oncologo",
+    palabra: "Oncólogo",
+    imagen: { id: 34727, alt: "Un oncólogo" },
+    definicion: "El médico especialista en el cáncer. Decide el tratamiento que necesitas.",
+    sinonimos: ["médico del cáncer"],
+    ejemplo: { palabra: "oncólogo", texto: "El oncólogo le explicó los pasos del tratamiento." },
+    ejemploSinonimo: { palabra: "médico del cáncer", texto: "El médico del cáncer le explicó los pasos del tratamiento." },
+    situacion: "salud",
+  },
+  {
+    id: "alergia-alimentaria",
+    palabra: "Alergia alimentaria",
+    imagen: { id: 39517, alt: "Una intolerancia alimentaria" },
+    definicion: "Una alergia que tienes a una comida. Si la comes, te pones enfermo.",
+    sinonimos: ["alergia a una comida"],
+    ejemplo: { palabra: "alergia alimentaria", texto: "Tiene alergia alimentaria a los frutos secos." },
+    ejemploSinonimo: { palabra: "alergia a una comida", texto: "Tiene una alergia a una comida a los frutos secos." },
+    situacion: "salud",
+  },
+  // Lote de profundización 16 (LP16): trabajo
+  {
+    id: "jornada-partida",
+    palabra: "Jornada partida",
+    imagen: { id: 6170, alt: "Una jornada partida" },
+    definicion: "Trabajar con un descanso largo en medio. Por ejemplo, de nueve a dos y de cuatro a siete.",
+    sinonimos: ["jornada con descanso"],
+    ejemplo: { palabra: "jornada partida", texto: "Trabaja con jornada partida y vuelve a casa a comer." },
+    ejemploSinonimo: { palabra: "jornada con descanso", texto: "Trabaja con jornada con descanso y vuelve a casa a comer." },
+    situacion: "trabajo",
+  },
+  {
+    id: "jornada-continua",
+    palabra: "Jornada continua",
+    imagen: { id: 37679, alt: "Una jornada continua" },
+    definicion: "Trabajar sin descanso largo en medio, solo una pausa corta para comer o un café.",
+    sinonimos: ["jornada sin pausa larga"],
+    ejemplo: { palabra: "jornada continua", texto: "En verano hacen jornada continua de ocho a tres." },
+    ejemploSinonimo: { palabra: "jornada sin pausa larga", texto: "En verano hacen jornada sin pausa larga de ocho a tres." },
+    situacion: "trabajo",
+  },
+  {
+    id: "nomina-digital",
+    palabra: "Nómina digital",
+    imagen: { id: 9162, alt: "Una pantalla digital" },
+    definicion: "La nómina que te llega por internet, sin papel. Puedes verla en la app del banco o de la empresa.",
+    sinonimos: ["nómina en línea"],
+    ejemplo: { palabra: "nómina digital", texto: "Recibió la nómina digital en la app del banco el día 30." },
+    ejemploSinonimo: { palabra: "nómina en línea", texto: "Recibió la nómina en línea en la app del banco el día 30." },
+    situacion: "trabajo",
+  },
+  {
+    id: "teletrabajador",
+    palabra: "Teletrabajador",
+    imagen: { id: 7190, alt: "Un ordenador" },
+    definicion: "Una persona que trabaja desde casa con el ordenador. Está conectada con la empresa por internet.",
+    sinonimos: ["persona que trabaja desde casa"],
+    ejemplo: { palabra: "teletrabajador", texto: "Es teletrabajador desde hace dos años." },
+    ejemploSinonimo: { palabra: "persona que trabaja desde casa", texto: "Es una persona que trabaja desde casa desde hace dos años." },
+    situacion: "trabajo",
+  },
+  {
+    id: "oficinista",
+    palabra: "Oficinista",
+    imagen: { id: 20113, alt: "Un obrero o trabajador" },
+    definicion: "Una persona que trabaja en una oficina. Hace papeles, atiende llamadas o usa el ordenador.",
+    sinonimos: ["trabajador de oficina"],
+    ejemplo: { palabra: "oficinista", texto: "Trabaja como oficinista en una empresa de seguros." },
+    ejemploSinonimo: { palabra: "trabajador de oficina", texto: "Trabaja como trabajador de oficina en una empresa de seguros." },
+    situacion: "trabajo",
+  },
+  {
+    id: "obrero",
+    palabra: "Obrero",
+    imagen: { id: 20113, alt: "Un obrero" },
+    definicion: "Una persona que trabaja con las manos en una obra o una fábrica. Construye cosas.",
+    sinonimos: ["trabajador manual"],
+    ejemplo: { palabra: "obrero", texto: "El obrero llevaba casco en la obra del edificio." },
+    ejemploSinonimo: { palabra: "trabajador manual", texto: "El trabajador manual llevaba casco en la obra del edificio." },
+    situacion: "trabajo",
+  },
+  {
+    id: "becario",
+    palabra: "Becario",
+    imagen: { id: 32666, alt: "Un estudiante" },
+    definicion: "Una persona, normalmente joven, que trabaja para aprender. Cobra poco o nada.",
+    sinonimos: ["persona en prácticas"],
+    ejemplo: { palabra: "becario", texto: "El becario pasó seis meses aprendiendo en la empresa." },
+    ejemploSinonimo: { palabra: "persona en prácticas", texto: "La persona en prácticas pasó seis meses aprendiendo en la empresa." },
+    situacion: "trabajo",
+  },
+  {
+    id: "practicas",
+    palabra: "Prácticas",
+    imagen: { id: 39847, alt: "Un inicio" },
+    definicion: "Tiempo que pasas trabajando en una empresa solo para aprender. Suele ser corto.",
+    sinonimos: ["tiempo de aprendizaje"],
+    ejemplo: { palabra: "prácticas", texto: "Hizo las prácticas de verano en un hospital." },
+    ejemploSinonimo: { palabra: "tiempo de aprendizaje", texto: "Hizo el tiempo de aprendizaje de verano en un hospital." },
+    situacion: "trabajo",
+  },
+  {
+    id: "contrato-formacion",
+    palabra: "Contrato de formación",
+    imagen: { id: 8098, alt: "Una persona recibe formación" },
+    definicion: "Un contrato que sirve para que trabajes y estudies a la vez. Dura uno o dos años.",
+    sinonimos: ["contrato para aprender"],
+    ejemplo: { palabra: "contrato de formación", texto: "Le hicieron un contrato de formación de un año con estudios incluidos." },
+    ejemploSinonimo: { palabra: "contrato para aprender", texto: "Le hicieron un contrato para aprender de un año con estudios incluidos." },
+    situacion: "trabajo",
+  },
+  {
+    id: "merito",
+    palabra: "Mérito",
+    imagen: { id: 26845, alt: "Un premio o galardón" },
+    definicion: "Un premio o reconocimiento que te dan por hacer bien tu trabajo.",
+    sinonimos: ["premio al trabajo bien hecho"],
+    ejemplo: { palabra: "mérito", texto: "Le dieron un diploma al mérito por sus veinte años en la empresa." },
+    ejemploSinonimo: { palabra: "premio al trabajo bien hecho", texto: "Le dieron un diploma al premio al trabajo bien hecho por sus veinte años en la empresa." },
+    situacion: "trabajo",
+  },
+  {
+    id: "antiguedad",
+    palabra: "Antigüedad",
+    imagen: { id: 2549, alt: "Un reloj" },
+    definicion: "Los años que llevas trabajando en la empresa. Cuanta más antigüedad, más derechos.",
+    sinonimos: ["años en la empresa"],
+    ejemplo: { palabra: "antigüedad", texto: "Tiene diez años de antigüedad y le aumentaron el sueldo." },
+    ejemploSinonimo: { palabra: "años en la empresa", texto: "Tiene diez años de años en la empresa y le aumentaron el sueldo." },
+    situacion: "trabajo",
+  },
+  {
+    id: "productividad",
+    palabra: "Productividad",
+    imagen: { id: 16631, alt: "Un gráfico con una flecha que sube" },
+    definicion: "La cantidad de trabajo útil que haces en un tiempo. Más productividad es más trabajo.",
+    sinonimos: ["trabajo útil en un tiempo"],
+    ejemplo: { palabra: "productividad", texto: "La productividad subió con el nuevo programa del ordenador." },
+    ejemploSinonimo: { palabra: "trabajo útil en un tiempo", texto: "El trabajo útil en un tiempo subió con el nuevo programa del ordenador." },
+    situacion: "trabajo",
+  },
+  {
+    id: "absentismo",
+    palabra: "Absentismo",
+    imagen: { id: 37634, alt: "Una ausencia" },
+    definicion: "Cuando los trabajadores faltan al trabajo sin razón o sin justificante. Suele ser un problema.",
+    sinonimos: ["faltar al trabajo"],
+    ejemplo: { palabra: "absentismo", texto: "El absentismo bajó después de poner horarios flexibles." },
+    ejemploSinonimo: { palabra: "faltar al trabajo", texto: "El faltar al trabajo bajó después de poner horarios flexibles." },
+    situacion: "trabajo",
+  },
+  {
+    id: "mobbing",
+    palabra: "Mobbing",
+    imagen: { id: 30644, alt: "Un acoso" },
+    definicion: "Cuando un jefe o unos compañeros te hacen la vida imposible en el trabajo a diario.",
+    sinonimos: ["acoso en el trabajo"],
+    ejemplo: { palabra: "mobbing", texto: "Denunció el mobbing que sufría desde hacía meses." },
+    ejemploSinonimo: { palabra: "acoso en el trabajo", texto: "Denunció el acoso en el trabajo que sufría desde hacía meses." },
+    situacion: "trabajo",
+  },
+  {
+    id: "salir-trabajo",
+    palabra: "Salir del trabajo",
+    imagen: { id: 36879, alt: "Una persona saliendo" },
+    definicion: "Irte de la empresa. Lo normal es avisar antes con tiempo.",
+    sinonimos: ["dejar el trabajo"],
+    ejemplo: { palabra: "salir del trabajo", texto: "Va a salir del trabajo el mes que viene para jubilarse." },
+    ejemploSinonimo: { palabra: "dejar el trabajo", texto: "Va a dejar el trabajo el mes que viene para jubilarse." },
+    situacion: "trabajo",
+  },
+  {
+    id: "incorporarse",
+    palabra: "Incorporarse",
+    imagen: { id: 5431, alt: "Un comienzo" },
+    definicion: "Empezar a trabajar en un sitio nuevo, en una fecha concreta.",
+    sinonimos: ["empezar a trabajar"],
+    ejemplo: { palabra: "incorporarse", texto: "Va a incorporarse al nuevo puesto el próximo lunes." },
+    ejemploSinonimo: { palabra: "empezar a trabajar", texto: "Va a empezar a trabajar al nuevo puesto el próximo lunes." },
+    situacion: "trabajo",
+  },
+  // Lote de profundización 17 (LP17): legal
+  {
+    id: "demanda-judicial",
+    palabra: "Demanda judicial",
+    imagen: { id: 15030, alt: "Una persona presenta una demanda" },
+    definicion: "Un papel que llevas al juez para que resuelva un problema. Inicia un juicio.",
+    sinonimos: ["papel que abre el juicio"],
+    ejemplo: { palabra: "demanda judicial", texto: "Presentó la demanda judicial contra la empresa por el despido." },
+    ejemploSinonimo: { palabra: "papel que abre el juicio", texto: "Presentó el papel que abre el juicio contra la empresa por el despido." },
+    situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "lawsuit" },/*traduccion-end*/
+  },
+  {
+    id: "prescripcion",
+    palabra: "Prescripción",
+    imagen: { id: 2549, alt: "Un reloj" },
+    definicion: "El tiempo que tienes para reclamar un derecho. Pasado el tiempo, ya no puedes.",
+    sinonimos: ["tiempo para reclamar"],
+    ejemplo: { palabra: "prescripción", texto: "Pasó el plazo de prescripción y ya no pudo reclamar la deuda." },
+    ejemploSinonimo: { palabra: "tiempo para reclamar", texto: "Pasó el plazo de tiempo para reclamar y ya no pudo reclamar la deuda." },
+    situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "overdue" },/*traduccion-end*/
+  },
+  {
+    id: "legislacion",
+    palabra: "Legislación",
+    imagen: { id: 36943, alt: "Un parlamento" },
+    definicion: "El conjunto de leyes que rigen un país o un tema concreto.",
+    sinonimos: ["conjunto de leyes"],
+    ejemplo: { palabra: "legislación", texto: "La legislación laboral cambió el año pasado." },
+    ejemploSinonimo: { palabra: "conjunto de leyes", texto: "El conjunto de leyes laboral cambió el año pasado." },
+    situacion: "legal",
+  },
+  {
+    id: "constitucion",
+    palabra: "Constitución",
+    imagen: { id: 25191, alt: "Un libro" },
+    definicion: "La ley más importante de un país. Dice cómo se organiza el Estado y los derechos de todos.",
+    sinonimos: ["ley principal"],
+    ejemplo: { palabra: "Constitución", texto: "La Constitución española se aprobó en 1978." },
+    ejemploSinonimo: { palabra: "ley principal", texto: "La ley principal española se aprobó en 1978." },
+    situacion: "legal",
+  },
+  {
+    id: "ley",
+    palabra: "Ley",
+    imagen: { id: 11473, alt: "Un símbolo de ley" },
+    definicion: "Una norma escrita que dice lo que se puede hacer y lo que no. Si la rompes, te castigan.",
+    sinonimos: ["norma del Estado"],
+    ejemplo: { palabra: "ley", texto: "La nueva ley prohíbe usar el móvil al volante." },
+    ejemploSinonimo: { palabra: "norma del Estado", texto: "La nueva norma del Estado prohíbe usar el móvil al volante." },
+    situacion: "legal",
+  },
+  {
+    id: "codigo-penal",
+    palabra: "Código penal",
+    imagen: { id: 10320, alt: "Un código de barras" },
+    definicion: "El libro que reúne todos los delitos y los castigos que les corresponden.",
+    sinonimos: ["libro de delitos"],
+    ejemplo: { palabra: "código penal", texto: "El robo está castigado con cárcel en el código penal." },
+    ejemploSinonimo: { palabra: "libro de delitos", texto: "El robo está castigado con cárcel en el libro de delitos." },
+    situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "criminal-liability" },/*traduccion-end*/
+  },
+  {
+    id: "codigo-civil",
+    palabra: "Código civil",
+    imagen: { id: 32996, alt: "Un registro civil" },
+    definicion: "El libro que reúne las normas sobre la familia, las propiedades y los contratos.",
+    sinonimos: ["libro de normas civiles"],
+    ejemplo: { palabra: "código civil", texto: "El código civil regula los contratos de compraventa." },
+    ejemploSinonimo: { palabra: "libro de normas civiles", texto: "El libro de normas civiles regula los contratos de compraventa." },
+    situacion: "legal",
+  },
+  {
+    id: "juzgado",
+    palabra: "Juzgado",
+    imagen: { id: 32994, alt: "Un juzgado de paz" },
+    definicion: "El edificio o sala donde un juez resuelve los casos que le tocan.",
+    sinonimos: ["sala del juez"],
+    ejemplo: { palabra: "juzgado", texto: "El caso se vio en el juzgado de primera instancia." },
+    ejemploSinonimo: { palabra: "sala del juez", texto: "El caso se vio en la sala del juez de primera instancia." },
+    situacion: "legal",
+  },
+  {
+    id: "tribunal-supremo",
+    palabra: "Tribunal Supremo",
+    imagen: { id: 34480, alt: "Un tribunal" },
+    definicion: "El tribunal más alto del país. Decide las leyes que aplican en todo el territorio.",
+    sinonimos: ["tribunal más alto"],
+    ejemplo: { palabra: "Tribunal Supremo", texto: "El Tribunal Supremo dictó la sentencia que fija la doctrina." },
+    ejemploSinonimo: { palabra: "tribunal más alto", texto: "El tribunal más alto dictó la sentencia que fija la doctrina." },
+    situacion: "legal",
+  },
+  {
+    id: "jurado",
+    palabra: "Jurado",
+    imagen: { id: 26885, alt: "Un jurado" },
+    definicion: "Un grupo de personas normales que decide si el acusado es culpable o inocente.",
+    sinonimos: ["grupo de personas que decide"],
+    ejemplo: { palabra: "jurado", texto: "El jurado declaró culpable al acusado tras tres horas de deliberación." },
+    ejemploSinonimo: { palabra: "grupo de personas que decide", texto: "El grupo de personas que decide declaró culpable al acusado tras tres horas de deliberación." },
+    situacion: "legal",
+  },
+  {
+    id: "veredicto",
+    palabra: "Veredicto",
+    imagen: { id: 36937, alt: "Un mazo de juez" },
+    definicion: "La decisión final del juez o del jurado sobre si alguien es culpable o inocente.",
+    sinonimos: ["decisión final"],
+    ejemplo: { palabra: "veredicto", texto: "El veredicto del jurado fue de culpabilidad." },
+    ejemploSinonimo: { palabra: "decisión final", texto: "La decisión final del jurado fue de culpabilidad." },
+    situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "verdict" },/*traduccion-end*/
+  },
+  {
+    id: "demanda-archivada",
+    palabra: "Demanda archivada",
+    imagen: { id: 15030, alt: "Una persona presenta una demanda" },
+    definicion: "Una demanda que ya no sigue adelante. Se cierra el caso sin más trámites.",
+    sinonimos: ["demanda cerrada"],
+    ejemplo: { palabra: "demanda archivada", texto: "La demanda archivada ya no se puede reabrir." },
+    ejemploSinonimo: { palabra: "demanda cerrada", texto: "La demanda cerrada ya no se puede reabrir." },
+    situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "archive-store" },/*traduccion-end*/
+  },
+  {
+    id: "preso",
+    palabra: "Preso",
+    imagen: { id: 4725, alt: "Un preso o prisionero" },
+    definicion: "Una persona encerrada en la cárcel porque cometió un delito.",
+    sinonimos: ["prisionero"],
+    ejemplo: { palabra: "preso", texto: "El preso pasó veinte años en la cárcel." },
+    ejemploSinonimo: { palabra: "prisionero", texto: "El prisionero pasó veinte años en la cárcel." },
+    situacion: "legal",
+  },
+  {
+    id: "libertad-condicional",
+    palabra: "Libertad condicional",
+    imagen: { id: 11488, alt: "Libertad" },
+    definicion: "Salir de la cárcel antes de cumplir toda la condena. Te tienen que vigilar.",
+    sinonimos: ["salida antes de tiempo"],
+    ejemplo: { palabra: "libertad condicional", texto: "Le concedieron la libertad condicional tras cinco años." },
+    ejemploSinonimo: { palabra: "salida antes de tiempo", texto: "Le concedieron la salida antes de tiempo tras cinco años." },
+    situacion: "legal",
+  },
+  {
+    id: "cadena-perpetua",
+    palabra: "Cadena perpetua",
+    imagen: { id: 37908, alt: "Director de prisión" },
+    definicion: "Una condena de cárcel que no tiene fecha de salida. El preso muere en la cárcel.",
+    sinonimos: ["cárcel de por vida"],
+    ejemplo: { palabra: "cadena perpetua", texto: "Le impusieron la cadena perpetua por el asesinato." },
+    ejemploSinonimo: { palabra: "cárcel de por vida", texto: "Le impusieron la cárcel de por vida por el asesinato." },
+    situacion: "legal",
+  },
+  {
+    id: "querella",
+    palabra: "Querella",
+    imagen: { id: 14006, alt: "Una denuncia o querella" },
+    definicion: "Una denuncia que pone una persona contra otra ante un juez. Pide que se castigue un delito.",
+    sinonimos: ["denuncia ante el juez"],
+    ejemplo: { palabra: "querella", texto: "Puso una querella contra el vecino por amenazas." },
+    ejemploSinonimo: { palabra: "denuncia ante el juez", texto: "Puso una denuncia ante el juez contra el vecino por amenazas." },
+    situacion: "legal",
+    /*traduccion-start*/traduccion: { en: ["police-report", "appeal"] },/*traduccion-end*/
+  },
+  // Lote de profundización 18 (LP18): tramites
+  {
+    id: "oficina-virtual",
+    palabra: "Oficina virtual",
+    imagen: { id: 36103, alt: "Un casco de realidad virtual" },
+    definicion: "Una oficina que está solo en internet. Haces los trámites desde el ordenador sin ir a ningún sitio.",
+    sinonimos: ["oficina en internet"],
+    ejemplo: { palabra: "oficina virtual", texto: "Hizo el trámite desde la oficina virtual sin salir de casa." },
+    ejemploSinonimo: { palabra: "oficina en internet", texto: "Hizo el trámite desde la oficina en internet sin salir de casa." },
+    situacion: "tramites",
+  },
+  {
+    id: "papel-firmado",
+    palabra: "Papel firmado",
+    imagen: { id: 12317, alt: "Una mano firma un papel" },
+    definicion: "Un documento que alguien ha firmado. Sirve como prueba de lo que dice.",
+    sinonimos: ["documento con firma"],
+    ejemplo: { palabra: "papel firmado", texto: "Guarda el papel firmado en un lugar seguro." },
+    ejemploSinonimo: { palabra: "documento con firma", texto: "Guarda el documento con firma en un lugar seguro." },
+    situacion: "tramites",
+  },
+  {
+    id: "requisitos",
+    palabra: "Requisitos",
+    imagen: { id: 7144, alt: "Una lista" },
+    definicion: "Las cosas que necesitas para pedir un trámite. Sin ellas no te lo dan.",
+    sinonimos: ["cosas que necesitas"],
+    ejemplo: { palabra: "requisitos", texto: "Los requisitos para el paro son el DNI y la vida laboral." },
+    ejemploSinonimo: { palabra: "cosas que necesitas", texto: "Las cosas que necesitas para el paro son el DNI y la vida laboral." },
+    situacion: "tramites",
+  },
+  {
+    id: "plazo-caducidad",
+    palabra: "Plazo de caducidad",
+    imagen: { id: 15503, alt: "Una caducidad" },
+    definicion: "El día final en que puedes usar un papel o pedir un trámite. Pasado el día, ya no vale.",
+    sinonimos: ["fecha final para pedir"],
+    ejemplo: { palabra: "plazo de caducidad", texto: "El plazo de caducidad de la solicitud es el 31 de octubre." },
+    ejemploSinonimo: { palabra: "fecha final para pedir", texto: "La fecha final para pedir de la solicitud es el 31 de octubre." },
+    situacion: "tramites",
+  },
+  {
+    id: "sello-oficial",
+    palabra: "Sello oficial",
+    imagen: { id: 10324, alt: "Un sello de caucho" },
+    definicion: "Una marca que pone una oficina del Estado en un papel. Dice que es auténtico.",
+    sinonimos: ["marca oficial"],
+    ejemplo: { palabra: "sello oficial", texto: "El sello oficial de la comisaría valida la denuncia." },
+    ejemploSinonimo: { palabra: "marca oficial", texto: "La marca oficial de la comisaría valida la denuncia." },
+    situacion: "tramites",
+  },
+  {
+    id: "pago-tasa",
+    palabra: "Pago de tasa",
+    imagen: { id: 4630, alt: "Billetes y monedas de euro" },
+    definicion: "Cuando pagas el dinero que cuesta un trámite al Estado. Suele ser poco.",
+    sinonimos: ["pagar la tasa"],
+    ejemplo: { palabra: "pago de tasa", texto: "El pago de tasa se hace en el banco antes de pedir el documento." },
+    ejemploSinonimo: { palabra: "pagar la tasa", texto: "El pagar la tasa se hace en el banco antes de pedir el documento." },
+    situacion: "tramites",
+  },
+  {
+    id: "acreditacion",
+    palabra: "Acreditación",
+    imagen: { id: 37406, alt: "Un título o documento oficial" },
+    definicion: "Un papel oficial que dice que representas a alguien o a una organización. Sirve para entrar a sitios especiales.",
+    sinonimos: ["credencial"],
+    ejemplo: { palabra: "acreditación", texto: "Le dieron la acreditación para entrar al congreso." },
+    ejemploSinonimo: { palabra: "credencial", texto: "Le dieron la credencial para entrar al congreso." },
+    situacion: "tramites",
+  },
+  {
+    id: "autorizacion",
+    palabra: "Autorización",
+    imagen: { id: 12317, alt: "Una mano firma un papel" },
+    definicion: "Un papel que te da permiso para hacer algo. Lo firma una persona con autoridad.",
+    sinonimos: ["papel de permiso"],
+    ejemplo: { palabra: "autorización", texto: "Necesita la autorización de su madre para ir al viaje del colegio." },
+    ejemploSinonimo: { palabra: "papel de permiso", texto: "Necesita el papel de permiso de su madre para ir al viaje del colegio." },
+    situacion: "tramites",
+  },
+  {
+    id: "licencia",
+    palabra: "Licencia",
+    imagen: { id: 27865, alt: "Una licencia" },
+    definicion: "Un permiso oficial que te da el Estado para hacer una cosa. Por ejemplo, abrir un bar o reformar una casa.",
+    sinonimos: ["permiso oficial"],
+    ejemplo: { palabra: "licencia", texto: "Pidió la licencia de obras antes de empezar el baño nuevo." },
+    ejemploSinonimo: { palabra: "permiso oficial", texto: "Pidió el permiso oficial de obras antes de empezar el baño nuevo." },
+    situacion: "tramites",
+  },
+  {
+    id: "registrar",
+    palabra: "Registrar",
+    imagen: { id: 8490, alt: "Una persona apunta" },
+    definicion: "Apuntar un papel en un libro o registro oficial para que conste.",
+    sinonimos: ["anotar en un registro"],
+    ejemplo: { palabra: "registrar", texto: "Tuvo que registrar el contrato en el Registro de la Propiedad." },
+    ejemploSinonimo: { palabra: "anotar en un registro", texto: "Tuvo que anotar en un registro el contrato en el Registro de la Propiedad." },
+    situacion: "tramites",
+  },
+  {
+    id: "oficina-atencion",
+    palabra: "Oficina de atención",
+    imagen: { id: 9897, alt: "Una oficina de información" },
+    definicion: "El sitio dentro de una oficina donde te atienden para hacer un trámite o pedir información.",
+    sinonimos: ["mostrador de información"],
+    ejemplo: { palabra: "oficina de atención", texto: "Preguntó en la oficina de atención dónde le tocaba." },
+    ejemploSinonimo: { palabra: "mostrador de información", texto: "Preguntó en el mostrador de información dónde le tocaba." },
+    situacion: "tramites",
+  },
+  {
+    id: "cola-digital",
+    palabra: "Cola digital",
+    imagen: { id: 2709, alt: "Una cola de personas" },
+    definicion: "Una cola que pides desde el móvil. Te avisa cuando te toca y no tienes que esperar sentado.",
+    sinonimos: ["cola por aplicación"],
+    ejemplo: { palabra: "cola digital", texto: "Pidió la cola digital desde el móvil y fue cuando le avisaron." },
+    ejemploSinonimo: { palabra: "cola por aplicación", texto: "Pidió la cola por aplicación desde el móvil y fue cuando le avisaron." },
+    situacion: "tramites",
+  },
+  {
+    id: "procedimiento",
+    palabra: "Procedimiento",
+    imagen: { id: 24709, alt: "Un trámite" },
+    definicion: "La forma concreta en que se hace un trámite. Es el conjunto de pasos que tienes que seguir.",
+    sinonimos: ["conjunto de pasos"],
+    ejemplo: { palabra: "procedimiento", texto: "El procedimiento para pedir el paro es rellenar el formulario y entregar el DNI." },
+    ejemploSinonimo: { palabra: "conjunto de pasos", texto: "El conjunto de pasos para pedir el paro es rellenar el formulario y entregar el DNI." },
+    situacion: "tramites",
+  },
+  {
+    id: "sancion",
+    palabra: "Sanción",
+    imagen: { id: 10173, alt: "Una mano multa a una persona" },
+    definicion: "Un castigo que te pone el Estado por hacer algo mal. Puede ser una multa o algo peor.",
+    sinonimos: ["castigo por hacer algo mal"],
+    ejemplo: { palabra: "sanción", texto: "Recibió una sanción por no llevar el cinturón en el coche." },
+    ejemploSinonimo: { palabra: "castigo por hacer algo mal", texto: "Recibió un castigo por hacer algo mal por no llevar el cinturón en el coche." },
+    situacion: "tramites",
+  },
+  {
+    id: "recurrir",
+    palabra: "Recurrir",
+    imagen: { id: 16103, alt: "Un documento de recurso" },
+    definicion: "Pedir a una oficina superior que cambie una decisión que no te parece justa.",
+    sinonimos: ["pedir que cambien una decisión"],
+    ejemplo: { palabra: "recurrir", texto: "Tuvo que recurrir la multa porque le parecía injusta." },
+    ejemploSinonimo: { palabra: "pedir que cambien una decisión", texto: "Tuvo que pedir que cambien una decisión la multa porque le parecía injusta." },
+    situacion: "tramites",
+  },
+  {
+    id: "personarse",
+    palabra: "Personarse",
+    imagen: { id: 11291, alt: "Un juez o un juzgado" },
+    definicion: "Ir en persona a un sitio que te han dicho, sobre todo una oficina o un juzgado.",
+    sinonimos: ["ir en persona"],
+    ejemplo: { palabra: "personarse", texto: "Le mandaron personarse en el juzgado el jueves." },
+    ejemploSinonimo: { palabra: "ir en persona", texto: "Le mandaron ir en persona en el juzgado el jueves." },
     situacion: "tramites",
   },
 ];

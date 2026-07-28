@@ -84,6 +84,157 @@ img/<arasaac-id>.png pictogramas
 scripts/validar.js   el script de validación de CI/local
 ```
 
+## Despliegue
+
+Sinonimia se despliega en **Cloudflare Pages** (no en Cloudflare
+Workers, ni en un hosting estático genérico). La distinción importa
+cuando depuras un despliegue o añades una funcionalidad de runtime:
+
+- Pages sirve el repositorio tal cual: no hay paso de compilación,
+  ni bundler, ni edge function, ni Worker. Cada archivo
+  HTML/CSS/JS en la raíz del repositorio (y en `about/`, para las
+  páginas `/about/*`) se publica sin transformar.
+- La configuración vive en dos sitios. **`_headers`** en la raíz
+  del repositorio se lee en cada despliegue y aplica las
+  cabeceras de seguridad (CSP, `X-Frame-Options`, `Referrer-Policy`,
+  `Permissions-Policy`, `Cross-Origin-*`) y la `Cache-Control`
+  inmutable de un año para `js/data.*`, `css/*`, `img/*`,
+  `js/app.js` y `js/i18n.js`. La CSP es la más estricta correcta
+  que aún permite que la app funcione — consulta los comentarios
+  directiva por directiva en `_headers` para el rationale,
+  incluido por qué mantenemos un único `style-src` en lugar de
+  dividir en `style-src-elem` (Safari tenía soporte inconsistente).
+- **`wrangler.toml`** fija el nombre del proyecto Pages
+  (`name = "sinonimia"`) y el directorio de publicación
+  (`pages_build_output_dir = "."`) para que un
+  `wrangler pages deploy . --project-name=sinonimia` manual desde
+  una máquina de desarrollo haga lo mismo que la integración de
+  GitHub de Cloudflare en cada push a `main`. La CLI de wrangler
+  **no** sabe que es un proyecto Pages, así que un
+  `wrangler deploy` a secas falla con `Missing entry-point to
+  Worker script or to assets directory` — usa la subcomando de
+  Pages en su lugar.
+
+Los detalles operativos (configuración en el dashboard, rollback,
+dominios personalizados, el historial de la migración de Workers a
+Pages) viven en [`../../DEPLOY.md`](../../DEPLOY.md), no aquí — este
+documento solo cubre lo que afecta al código.
+
+### Qué implica esto para el código
+
+- **No hay runtime en el servidor.** Ni Worker, ni Functions, ni
+  edge handlers. Cada funcionalidad que añadas tiene que correr
+  en el navegador, o pre-calcularse al editar contenido y
+  entregarse en un archivo estático. Por eso el pipeline de
+  validación, el censo de contenido, el buscador de pictogramas y
+  el inyector de traducciones son todos `node scripts/*.js`
+  invocados en local/CI, no endpoints de servidor.
+- **Sin variables de entorno ni secretos en runtime.** La app no
+  hace llamadas de servidor; `OPENSYMBOLS_SECRET` (usada por
+  `scripts/buscar-pictograma.js` para hablar con OpenSymbols)
+  solo se lee del entorno de shell de quien desarrolla, en
+  momento de editar contenido.
+- **La caché se direcciona por ruta, no por hash.** El HTML se
+  cachea según el default (así las personas ven las
+  actualizaciones al recargar); el diccionario, CSS, imágenes y
+  los dos scripts no-de-datos se cachean un año con `immutable`.
+  Para romper la caché cuando cambie el esquema del diccionario,
+  renombra el archivo (`js/data.es.v2.js`) y actualiza la
+  etiqueta `<script>` en `index.html` en el mismo commit. No
+  añadas un paso de bundler con hashes solo para arreglar un
+  problema de caché — renombra el archivo.
+
+## Navegadores soportados
+
+Sinonimia tiene como objetivo los **navegadores de escritorio
+evergreen** (Chrome, Edge, Firefox) **más Safari en macOS e
+iOS/iPadOS**. El iPad es el dispositivo más habitual en los
+entornos de terapia ocupacional a los que el proyecto va
+dirigido, y en iPhone Safari es el navegador por defecto — el
+soporte de Safari no es opcional, forma parte de la definición de
+"funciona".
+
+En la práctica esto significa:
+
+- **Sin transpilación, sin polyfills, sin bundler.** El sitio
+  envía el JavaScript tal y como se escribe, servido como
+  módulos ES mediante `<script src="...">`. Las
+  características del lenguaje realmente usadas son
+  `const`/`let`, arrow functions, template literals,
+  destructuring, spread, `Array.prototype.includes` / `find` /
+  `filter` / `map`, `Object.entries`, `localStorage`,
+  `URLSearchParams` y las APIs del DOM que invocan. Todo eso
+  lleva años en Safari. Si quieres usar algo más reciente
+  (top-level `await`, `?.` en WebKit antiguo, `structuredClone`,
+  la propuesta Temporal, etc.), comprueba en
+  [caniuse.com](https://caniuse.com) la versión de iOS Safari
+  que aún recibe actualizaciones en tu país objetivo antes de
+  añadirlo — no la última versión de Safari en macOS.
+- **Sin paso de build no hay auto-prefijado.** Cuando añadas
+  una característica de CSS que solo lleva prefijo en WebKit
+  (`-webkit-*`), tienes que añadir la propiedad con prefijo a
+  mano junto a la sin prefijo. `css/styles.css` es la única
+  hoja de estilos, así que la auditoría es de un solo archivo.
+- **La CSP en `_headers` ya está moldeada alrededor de Safari.**
+  El bloque de comentarios sobre la línea de
+  `Content-Security-Policy` señala que usamos un único
+  `style-src` a propósito porque Safari tenía soporte
+  inconsistente para `style-src-elem`. El emparejamiento
+  `Cross-Origin-Resource-Policy: same-origin` +
+  `Cross-Origin-Opener-Policy: same-origin` también está
+  elegido para que el sitio siga siendo embebible en iframes
+  sin credenciales en vez de forzar `credentialless` (que
+  Safari envió más tarde que Chromium). Cuando cambies la CSP,
+  relee primero esos comentarios.
+- **Sin detección de navegador, sin UA sniffing.** Las ramas
+  Safari-vs-resto están prohibidas — son la forma en que las
+  peculiaridades solo-de-WebKit se convierten en carga
+  permanente del código. Si una funcionalidad realmente no
+  funciona en Safari, busca un equivalente cross-browser o
+  documenta la carencia explícitamente en `SPEC.md` (no la
+  escondas).
+- **Táctil y teclado en iPad.** Los controles de accesibilidad
+  y los dos juegos de opción múltiple deben seguir siendo
+  operables con el teclado en pantalla de iPad y con teclados
+  Bluetooth externos, no solo con ratón. Cualquier cosa que
+  añadas que intercepte `keydown` debe funcionar también con
+  las teclas que iPadOS reasigna (p. ej. `Meta` por `Ctrl`,
+  `Alt+Left` por `Atrás`).
+
+La validación de CI (`scripts/validar.js`) no ejecuta hoy pruebas
+de navegador — no hay Chrome / WebDriver headless en el repo y no
+hay presupuesto de CI para ello. Antes de añadir una dependencia
+de automatización de navegador, mira el punto de "sin
+dependencias en runtime" de arriba: cada dependencia que entre en
+el repositorio tiene que justificarse contra el principio de
+runtime cero.
+
+## Kill-switch de service worker
+
+Sinonimia no envía un service worker propio, y la CSP en
+[`_headers`](../../_headers) fija `worker-src 'none'` para
+mantenerlo así. Aun así Chrome puede mostrar `Response served by
+service worker has redirections` en DevTools cuando *otra cosa*
+ha registrado un SW contra este origen — una preview obsoleta de
+Cloudflare Pages, una extensión del navegador, o una PWA
+`*.pages.dev` que quedó cacheada de un despliegue anterior. El
+aviso se refiere al SW que intercepta, no al código de
+Sinonimia, pero confunde a editoras y revisoras, así que un
+pequeño bloque defensivo al final de
+[`index.html`](../../index.html) llama a
+`navigator.serviceWorker.getRegistrations()` y hace `.unregister()`
+de cualquier cosa que encuentre al cargar. La consulta va
+envuelta en try/catch para que los navegadores sin la API de SW
+(o en modo privado, donde no está disponible) sigan funcionando.
+
+Si una versión futura de Sinonimia necesita de verdad un SW
+(p. ej. para uso offline de `js/data.*.js`), este bloque tiene
+que eliminarse **en el mismo commit** que añada el registro, y
+la directiva `worker-src 'none'` de `_headers` tiene que
+relajarse. Es el único motivo por el que el kill-switch va
+comentado en el propio HTML — para que la siguiente persona que
+lo toque sepa exactamente qué hacer.
+
 ## La separación en tres archivos: contenido vs. interfaz vs. lógica
 
 - **`js/i18n.js`** contiene objetos `I18N.<idioma>` solo con textos de
@@ -129,14 +280,15 @@ Cada entrada (ver las excepciones de nomenclatura de arriba para saber
 por qué estos nombres de campo se quedan en español) tiene: `id`,
 `palabra`, `imagen: {id, alt}`, `definicion`, `sinonimos[]`,
 `ejemplo: {palabra, texto}`, `ejemploSinonimo: {palabra, texto}`,
-`situacion`. `situacion` es uno de siete valores compartidos por todos
-los idiomas (`tramites`, `salud`, `vida-diaria`, `finanzas`, `vivienda`,
-`trabajo`, `legal`) — es una clave de filtro, no texto visible; su
-etiqueta en cada idioma vive en `js/i18n.js` como `tema_<situacion>`. El
-campo `palabra` *dentro* de `ejemplo` / `ejemploSinonimo` es la forma
-exacta conjugada o concordada que aparece en esa frase (no
-necesariamente la palabra cabecera del diccionario) — eso es lo que
-buscan `createHighlightedSentence()` y `createSentenceWithBlank()` para
+`situacion`, y **opcionalmente** `traduccion`. `situacion` es uno de
+siete valores compartidos por todos los idiomas (`tramites`, `salud`,
+`vida-diaria`, `finanzas`, `vivienda`, `trabajo`, `legal`) — es una
+clave de filtro, no texto visible; su etiqueta en cada idioma vive en
+`js/i18n.js` como `tema_<situacion>`. El campo `palabra` *dentro* de
+`ejemplo` / `ejemploSinonimo` es la forma exacta conjugada o
+concordada que aparece en esa frase (no necesariamente la palabra
+cabecera del diccionario) — eso es lo que buscan
+`createHighlightedSentence()` y `createSentenceWithBlank()` para
 resaltarla o dejarla en blanco.
 
 `id` es el único campo que tiene que ser único — `palabra` no lo es, a
@@ -155,6 +307,33 @@ muestran un enlace por cada coincidencia en vez de adivinar;
 coincida con la del objetivo, así que el gemelo de un homógrafo nunca
 puede aparecer como opción falsa de aspecto idéntico en ninguno de los
 dos juegos.
+
+### `traduccion`: enlazar el mismo concepto entre idiomas
+
+```js
+traduccion: { en: "pension-payment" }                       // un equivalente
+traduccion: { en: ["pension-payment", "retirement-work"] }   // varios EN para un mismo ES
+```
+
+`traduccion` es un objeto **opcional** cuyas claves son códigos de idioma
+y cuyos valores son el `id` de la entrada equivalente en ese idioma — un
+string para enlaces uno-a-uno, o un array para uno-a-muchos (una palabra
+española con varias traducciones inglesas válidas, o varias palabras
+españolas que todas se mapean a la misma palabra inglesa). Cuando está
+presente, `traduccion` es el enlace autoritativo entre idiomas; cuando
+no está presente, se aplica el fallback de pictograma compartido que se
+describe en la sección siguiente.
+
+¿Por qué hace falta este campo si los pictogramas ARASAAC ya enlazan
+conceptos entre idiomas? Porque ARASAAC tiene un único pictograma para
+"dinero", uno para "documento", uno para "bolígrafo", etc., y el
+diccionario tiene muchas palabras no relacionadas que comparten cada uno
+de ellos — por eso el fallback de pictograma único solo resuelve una
+fracción de las entradas. `traduccion` es donde la persona editora
+desambigua el resto. `scripts/validar.js` comprueba la forma del campo
+(objeto indexado por código de idioma, valores string o array de
+strings) y que cada id referenciado exista en el diccionario del idioma
+destino.
 
 ## Pictogramas: ARASAAC (+ OpenSymbols para buscar)
 
@@ -235,12 +414,24 @@ entrada del diccionario tenga un id único, una `situacion` válida, un
 `ejemploSinonimo` tengan una `palabra` que sea una subcadena real (sin
 distinguir acentos) de su propio `texto`; que cada clave `t()` que usa
 `js/app.js` exista en cada bloque de idioma de `I18N`; que cada id de DOM
-que `js/app.js` busca con `getElementById` exista en `index.html`; y que
+que `js/app.js` busca con `getElementById` exista en `index.html`; que
+cualquier campo `traduccion` de una entrada tenga forma correcta (objeto
+indexado por código de idioma, valores string o array de strings) y
+referencie ids que existan en el diccionario del idioma destino; y que
 ni `index.html` ni `js/i18n.js` contengan ninguno de una lista de
 términos relacionados con discapacidad/terapia (la regla no negociable
 del producto de cara al usuario, ver `SPEC.md` — `js/data.*.js` está
 deliberadamente exento, ya que un término burocrático relacionado con la
 discapacidad podría ser una entrada legítima en el futuro).
+
+Un script compañero, **`scripts/validate-mapping.js`**, valida el
+`scripts/.mapping.js` autoritativo contra los archivos de datos
+reales: cada id ES y cada id EN del mapa deben existir; y cada entrada
+ES debe estar auto-emparejada (pictograma único en ambos lados) o tener
+una entrada en el mapa — cualquier entrada ES sin enlace se reporta
+como aviso para que la persona editora detecte un olvido real, pero el
+script pasa cuando solo quedan entradas legítimamente ES-only (por
+ejemplo tipos de contrato específicos de España).
 
 ## Hacer crecer el contenido (`scripts/estado-contenido.js`)
 
