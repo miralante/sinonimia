@@ -76,3 +76,17 @@ string or a hardcoded language's data file. `js/i18n.js` is UI copy only,
 `js/data.es.js`/`js/data.en.js` are the actual dictionary content, and
 `doc/en/SPEC.md` (or `doc/es/SPEC.md`) holds the non-negotiable content/UX
 rules (easy-read writing rules, "never gate content behind a game", etc.).
+
+## Agent workflow — scratch scripts and the repo root
+
+The repo root only holds files that are part of the shipped site or
+tracked docs (`index.html`, `404.html`, `wrangler.toml`, this file, the
+READMEs, etc.). When you (the agent) need to explore — batch-search
+ARASAAC for a list of candidate terms, dump corpus entries to inspect
+them, prototype a fallback strategy — the scratch script **must** live
+in [`scripts/.scratch/`](scripts/.scratch/README.md), named
+`<topic>_<purpose>.js` (no leading dot). **Do not** write `.tmp_*.js`,
+`scratch.js`, or any other throwaway `.js`/`.sh` directly under the
+repo root, even if you plan to delete it in the same session — `.gitignore`
+ignores it but the root is not a scratch directory. The full rule and
+rationale are in [`scripts/.scratch/README.md`](scripts/.scratch/README.md).
