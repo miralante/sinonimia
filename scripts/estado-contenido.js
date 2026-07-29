@@ -109,8 +109,8 @@ if (languages.length > 1) {
 
 console.log(
   "Next step: pick a topic flagged above, research candidate words for it\n" +
-  "(see doc/en/SPEC.md's source list), check the headwords/synonyms already\n" +
-  "listed with --detalle so you don't duplicate a concept, write each entry\n" +
-  "following the lectura-fácil rules, find its pictogram with\n" +
-  "scripts/buscar-pictograma.js, then run scripts/validar.js."
+  "(see \"Process for expanding content\" in doc/en/SPEC.md), check the\n" +
+  "headwords/synonyms already listed with --detalle so you don't duplicate\n" +
+  "a concept, write each entry following the lectura-fácil rules, find its\n" +
+  "pictogram with scripts/buscar-pictograma.js, then run scripts/validar.js."
 );

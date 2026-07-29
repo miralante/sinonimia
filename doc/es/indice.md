@@ -16,12 +16,14 @@ doc/
 │   ├── indice.md   ← Este archivo (punto de entrada, ES)
 │   ├── roles.md    ← Roles del proyecto
 │   ├── SPEC.md     ← Definición de producto
-│   └── tecnico.md  ← Arquitectura técnica
+│   ├── tecnico.md  ← Arquitectura técnica
+│   └── fuentes.md  ← Prompts + fuentes para buscar palabras candidatas
 └── en/
     ├── index.md    ← Entry point, EN
     ├── roles.md    ← Project roles
     ├── SPEC.md     ← Product definition
-    └── technical.md ← Technical architecture
+    ├── technical.md ← Technical architecture
+    └── sourcing.md  ← Prompts + sources for finding candidate words
 ```
 
 La documentación de contribución (`CONTRIBUTING.md` / `CONTRIBUTING.es.md`)
@@ -38,4 +40,5 @@ y la licencia viven en la raíz del repositorio junto con el
 | Saber quién participa en el proyecto y cómo | [`roles.md`](roles.md) |
 | Añadir una palabra nueva o un idioma nuevo | [`../../CONTRIBUTING.es.md`](../../CONTRIBUTING.es.md) |
 | Ver la arquitectura técnica y las convenciones de código | [`tecnico.md`](tecnico.md) |
+| Buscar palabras candidatas para una categoría (prompts + fuentes) | [`fuentes.md`](fuentes.md) |
 | Probar la web | [`../../README.es.md`](../../README.es.md) — "Probarlo" |

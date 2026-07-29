@@ -281,8 +281,9 @@ por qué estos nombres de campo se quedan en español) tiene: `id`,
 `palabra`, `imagen: {id, alt}`, `definicion`, `sinonimos[]`,
 `ejemplo: {palabra, texto}`, `ejemploSinonimo: {palabra, texto}`,
 `situacion`, y **opcionalmente** `traduccion`. `situacion` es uno de
-siete valores compartidos por todos los idiomas (`tramites`, `salud`,
-`vida-diaria`, `finanzas`, `vivienda`, `trabajo`, `legal`) — es una
+nueve valores compartidos por todos los idiomas (`tramites`, `salud`,
+`vida-diaria`, `finanzas`, `vivienda`, `trabajo`, `legal`, `tecnologia`,
+`seguridad`) — es una
 clave de filtro, no texto visible; su etiqueta en cada idioma vive en
 `js/i18n.js` como `tema_<situacion>`. El campo `palabra` *dentro* de
 `ejemplo` / `ejemploSinonimo` es la forma exacta conjugada o
@@ -423,15 +424,6 @@ términos relacionados con discapacidad/terapia (la regla no negociable
 del producto de cara al usuario, ver `SPEC.md` — `js/data.*.js` está
 deliberadamente exento, ya que un término burocrático relacionado con la
 discapacidad podría ser una entrada legítima en el futuro).
-
-Un script compañero, **`scripts/validate-mapping.js`**, valida el
-`scripts/.mapping.js` autoritativo contra los archivos de datos
-reales: cada id ES y cada id EN del mapa deben existir; y cada entrada
-ES debe estar auto-emparejada (pictograma único en ambos lados) o tener
-una entrada en el mapa — cualquier entrada ES sin enlace se reporta
-como aviso para que la persona editora detecte un olvido real, pero el
-script pasa cuando solo quedan entradas legítimamente ES-only (por
-ejemplo tipos de contrato específicos de España).
 
 ## Hacer crecer el contenido (`scripts/estado-contenido.js`)
 

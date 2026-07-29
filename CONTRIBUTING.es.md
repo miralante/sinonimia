@@ -45,9 +45,8 @@ definición).
    una fracción de las entradas — sin un `traduccion` explícito, una
    palabra española cuyo pictograma lo comparten varias palabras sin
    relación (el caso habitual) no enlazará con su equivalente
-   inglés. Edita `scripts/.mapping.js` y ejecuta `node
-   scripts/inject-translations.js` (es idempotente) para añadir el
-   campo en `js/data.es.js`.
+   inglés. Añade el campo a mano en `js/data.es.js` (o en el archivo
+   del idioma que estés editando).
 6. Necesita un pictograma. Antes de descargar nada, comprueba si ya existe
    una imagen para ese concepto en `img/` — se puede reutilizar entre
    palabras e idiomas. Para buscar candidatos:
@@ -79,18 +78,18 @@ definición).
      página (`js/i18n.js`, clave `pieCreditosHtml`) solo menciona ARASAAC
      ahora mismo y hay que ampliarlo antes de fusionar el cambio. Ver
      "Pictograms" en `doc/es/tecnico.md`.
-6. `situacion` tiene que ser una de las claves compartidas por todos los
+7. `situacion` tiene que ser una de las claves compartidas por todos los
    idiomas: `tramites`, `salud`, `vida-diaria`, `finanzas`, `vivienda`,
-   `trabajo` o `legal` (ver "Arquitectura multi-idioma" en
+   `trabajo`, `legal`, `tecnologia` o `seguridad` (ver "Arquitectura
+   multi-idioma" en
    [`doc/es/SPEC.md`](doc/es/SPEC.md) para qué cubre cada una). No inventes
    una clave nueva para dos o tres palabras sueltas, y si de verdad hace
    falta una, añade también su etiqueta en `js/i18n.js` (`tema_<clave>`)
    para cada idioma.
 
-8. Ejecuta `node scripts/validar.js` y `node
-   scripts/validate-mapping.js` para asegurarte de que la palabra nueva
-   está bien formada y (si añadiste una `traduccion` en el paso 5) el
-   enlace entre idiomas se resuelve.
+8. Ejecuta `node scripts/validar.js` para asegurarte de que la
+   palabra nueva está bien formada y (si añadiste una `traduccion` en
+   el paso 5) el enlace entre idiomas se resuelve.
 
 ## Añadir un idioma
 

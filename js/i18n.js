@@ -46,6 +46,8 @@ const I18N = {
     tema_vivienda: "Vivienda",
     tema_trabajo: "Trabajo",
     tema_legal: "Legal",
+    tema_tecnologia: "Tecnología",
+    tema_seguridad: "Seguridad",
 
     alfabetoLabel: "Buscar por letra inicial",
     listaLabel: "Lista de palabras",
@@ -147,6 +149,8 @@ const I18N = {
     tema_vivienda: "Housing",
     tema_trabajo: "Employment",
     tema_legal: "Legal",
+    tema_tecnologia: "Technology",
+    tema_seguridad: "Safety",
 
     alfabetoLabel: "Browse by first letter",
     listaLabel: "List of words",

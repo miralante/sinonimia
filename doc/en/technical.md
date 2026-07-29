@@ -251,8 +251,9 @@ Every entry (see the Naming exceptions above for why these field names stay
 Spanish) has: `id`, `palabra`, `imagen: {id, alt}`, `definicion`,
 `sinonimos[]`, `ejemplo: {palabra, texto}`, `ejemploSinonimo: {palabra,
 texto}`, `situacion`, and **optionally** `traduccion`. `situacion` is one
-of seven values shared across every language (`tramites`, `salud`,
-`vida-diaria`, `finanzas`, `vivienda`, `trabajo`, `legal`) — it's a
+of nine values shared across every language (`tramites`, `salud`,
+`vida-diaria`, `finanzas`, `vivienda`, `trabajo`, `legal`, `tecnologia`,
+`seguridad`) — it's a
 filter key, not display text; its label per language lives in
 `js/i18n.js` as `tema_<situacion>`. The `palabra` field *inside*
 `ejemplo` / `ejemploSinonimo` is the exact inflected/agreed form used
@@ -388,14 +389,6 @@ ids that exist in the target language's dictionary; and that neither
 disability/therapy-related terms (the user-facing product's non-negotiable
 rule from `SPEC.md` — `js/data.*.js` is deliberately exempt, since a
 disability-related bureaucratic term could be a legitimate future entry).
-
-A companion script, **`scripts/validate-mapping.js`**, validates the
-authoritative `scripts/.mapping.js` against the live data files: every ES
-id and EN id in the map must exist; and every ES entry should either be
-auto-matched (unique pictogram on both sides) or have an entry in the map
-— any ES entry without a link is reported as a warning so an editor can
-spot a real oversight, but the script passes when only legitimately
-ES-only entries (e.g. ES-specific contract types) remain.
 
 ## Growing the content (`scripts/estado-contenido.js`)
 

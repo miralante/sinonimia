@@ -25,9 +25,10 @@ explains them so they can be understood on the first read.
 ## Objective and origin (internal context)
 
 Sinonimia was born as a support tool in **occupational therapy**, designed
-specifically for **people with intellectual disability**. That is the
-project's real objective and the reason behind almost all of its design
-rules: easy-read language isn't a style preference, it's the requirement
+specifically to help **people with intellectual disability** **learn
+vocabulary**. That is the project's real objective and the reason behind
+almost all of its design rules: easy-read language isn't a style
+preference, it's the requirement
 that makes the tool serve its purpose; gamification is light and never
 punitive because the therapeutic context demands it; pictograms exist
 because they're the standard visual support in augmentative communication.
@@ -247,14 +248,19 @@ step. Each piece lives in its own file:
     utilities.
   - `trabajo` — employment contracts, payslips, sick leave, worker rights.
   - `legal` — rights, consent, judicial processes, legal representation.
+  - `tecnologia` — devices, apps, internet and digital communication
+    (phone, password, video call...).
+  - `seguridad` — emergencies, risk prevention and personal protection
+    (evacuation, first aid, reporting abuse...).
 
-  These seven categories come from the **IADL (instrumental activities of
+  These nine categories come from the **IADL (instrumental activities of
   daily living)**, the framework occupational therapy uses to identify
   which areas of adult life tend to need more support to gain autonomy —
-  which is why finance, housing, employment, and legal are treated as
-  their own areas instead of a generic "paperwork" catch-all. Don't add a
-  new category for two or three stray words: it needs a real handful of
-  words to justify it, or the topic filter ends up with near-empty boxes.
+  which is why finance, housing, employment, legal, technology, and safety
+  are treated as their own areas instead of a generic "paperwork"
+  catch-all. Don't add a new category for two or three stray words: it
+  needs a real handful of words to justify it, or the topic filter ends up
+  with near-empty boxes.
 - The `imagen.id` field is the pictogram's identifier in ARASAAC. ARASAAC
   is a multi-language pictogram bank: the same image serves the same
   concept in any language, so two words in different languages can point
@@ -324,10 +330,10 @@ the dictionary needs to grow:
      technique). A domain ontology (UMLS/SNOMED CT for `salud`, EuroVoc or
      a legal thesaurus for `legal`) doesn't replace this search step: it's
      mainly useful to **classify** candidates you already have into one of
-     the seven categories, because its taxonomy doesn't map 1:1 onto
-     `tramites/salud/vida-diaria/finanzas/vivienda/trabajo/legal` (those
-     are AIVD categories, not domain categories) — fitting each term still
-     needs human judgment.
+     the nine categories, because its taxonomy doesn't map 1:1 onto
+     `tramites/salud/vida-diaria/finanzas/vivienda/trabajo/legal/tecnologia/
+     seguridad` (those are AIVD categories, not domain categories) —
+     fitting each term still needs human judgment.
      `node scripts/candidatos-corpus.js <corpus-file.txt> <lang>` implements
      the keyness half: you supply the domain corpus (a `.txt` with real
      excerpts of that category's kind of document), and it compares
@@ -343,6 +349,11 @@ the dictionary needs to grow:
    other language's list (the same point "How to add a new language"
    already makes when bootstrapping a new language applies equally when
    growing an existing one).
+
+   [`doc/en/sourcing.md`](sourcing.md) has a ready-to-use prompt template
+   for each of these two methods, plus a table of plausible glossary and
+   corpus sources for every category, so this step doesn't start from a
+   blank page.
 4. **Write each entry** following this document's easy-read rules to the
    letter, **in the chosen language** — the whole entry (`definicion`,
    `sinonimos`, `ejemplo`, `ejemploSinonimo`) goes in `js/data.<lang>.js`,

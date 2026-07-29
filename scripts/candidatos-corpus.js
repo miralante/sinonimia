@@ -7,7 +7,9 @@
  * Given a domain corpus (a text file YOU curate — paste real excerpts of
  * the kind of document this category deals with: official gazettes for
  * `tramites`/`legal`, patient leaflets for `salud`, payslips or contracts
- * for `trabajo`, etc.), it ranks words by *keyness*: how much more often a
+ * for `trabajo`, etc. — see doc/en/sourcing.md for a source table and a
+ * ready-to-use prompt covering all nine categories), it ranks words by
+ * *keyness*: how much more often a
  * word shows up in that domain text than in everyday language. A high
  * score means "common in this domain, rare outside it" — exactly the
  * profile of a word that needs a lectura-fácil definition.

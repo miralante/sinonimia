@@ -87,7 +87,7 @@ const languages = Object.keys(DICCIONARIOS);
 ok("languages found: " + languages.join(", "));
 
 // --- 4. Every entry: unique id, image present, well-formed example ---
-const VALID_TOPICS = ["tramites", "salud", "vida-diaria", "finanzas", "vivienda", "trabajo", "legal"];
+const VALID_TOPICS = ["tramites", "salud", "vida-diaria", "finanzas", "vivienda", "trabajo", "legal", "tecnologia", "seguridad"];
 const imgDir = path.join(ROOT, "img");
 const imagesOnDisk = fs.readdirSync(imgDir);
 
@@ -209,8 +209,10 @@ ok("DOM ids checked (" + usedIds.size + ")");
 
 // --- 7. The user-facing product never names disability ---
 // doc/en/SPEC.md's rule ("Mandatory rule: zero mentions in the user-facing
-// product"): index.html and js/i18n.js are the only things the end user
-// sees, and they may not mention, directly or indirectly, intellectual
+// product"): every page a visitor can actually reach — index.html,
+// js/i18n.js, and anything under about/ (it's deployed, unauthenticated,
+// and listed in sitemap.xml, so "noindex" and "not linked" don't make it
+// private) — may not mention, directly or indirectly, intellectual
 // disability or occupational therapy. js/data.*.js is deliberately out of
 // scope: a paperwork word like "disability certificate" could legitimately
 // be a future dictionary entry.
@@ -228,19 +230,31 @@ const FORBIDDEN_TERMS = [
   "capacidades diferentes",
 ];
 const rawI18nSrc = fs.readFileSync(path.join(ROOT, "js/i18n.js"), "utf8");
+const aboutDir = path.join(ROOT, "about");
+const aboutTargets = fs.existsSync(aboutDir)
+  ? fs
+      .readdirSync(aboutDir)
+      .filter(function (f) { return f.endsWith(".html"); })
+      .map(function (f) {
+        return {
+          file: "about/" + f,
+          content: fs.readFileSync(path.join(aboutDir, f), "utf8"),
+        };
+      })
+  : [];
 
 [
   { file: "index.html", content: html },
   { file: "js/i18n.js", content: rawI18nSrc },
-].forEach(function (target) {
+].concat(aboutTargets).forEach(function (target) {
   var normalized = normalize(target.content);
   FORBIDDEN_TERMS.forEach(function (term) {
     if (normalized.indexOf(normalize(term)) !== -1) {
-      fail(target.file + ": contains \"" + term + "\" — the user-facing product may not mention disability or occupational therapy (see doc/en/SPEC.md)");
+      fail(target.file + ": contains \"" + term + "\" — no page a visitor can reach may mention disability or occupational therapy (see doc/en/SPEC.md)");
     }
   });
 });
-ok("index.html and js/i18n.js do not mention disability or occupational therapy");
+ok("index.html, js/i18n.js, and about/*.html do not mention disability or occupational therapy");
 
 // --- Result ---
 console.log("");

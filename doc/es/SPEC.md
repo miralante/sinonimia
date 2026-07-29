@@ -25,9 +25,10 @@ forma que se puedan entender a la primera.
 ## Objetivo y origen (contexto interno)
 
 Sinonimia nace como herramienta de apoyo en **terapia ocupacional**,
-pensada específicamente para **personas con discapacidad intelectual**. Ese
-es el objetivo real del proyecto y la razón de ser de casi todas sus reglas
-de diseño: la lectura fácil no es una preferencia de estilo, es el
+pensada específicamente para ayudar a **personas con discapacidad
+intelectual** a **aprender vocabulario**. Ese es el objetivo real del
+proyecto y la razón de ser de casi todas sus reglas de diseño: la lectura
+fácil no es una preferencia de estilo, es el
 requisito que hace que la herramienta cumpla su función; la gamificación es
 ligera y nunca punitiva porque así lo exige el contexto terapéutico; los
 pictogramas existen porque son el apoyo visual habitual en comunicación
@@ -249,15 +250,19 @@ su propio archivo:
   - `trabajo` — contratos laborales, nómina, bajas, derechos del trabajador.
   - `legal` — derechos, consentimiento, procesos judiciales, representación
     legal.
+  - `tecnologia` — dispositivos, aplicaciones, internet y comunicación
+    digital (móvil, contraseña, videollamada...).
+  - `seguridad` — emergencias, prevención de riesgos y protección personal
+    (evacuación, primeros auxilios, denunciar un abuso...).
 
-  Estas siete categorías salen de las **AIVD (actividades instrumentales de
+  Estas nueve categorías salen de las **AIVD (actividades instrumentales de
   la vida diaria)**, el marco que usa la terapia ocupacional para identificar
   en qué áreas de la vida adulta suele hacer falta más apoyo para ganar
-  autonomía — de ahí que finanzas, vivienda, trabajo y legal se traten como
-  áreas propias y no como currículum genérico de "trámites". No añadas una
-  categoría nueva para dos o tres palabras sueltas: hace falta un puñado de
-  palabras reales que la justifiquen, si no el filtro de tema queda con
-  casillas casi vacías.
+  autonomía — de ahí que finanzas, vivienda, trabajo, legal, tecnología y
+  seguridad se traten como áreas propias y no como currículum genérico de
+  "trámites". No añadas una categoría nueva para dos o tres palabras
+  sueltas: hace falta un puñado de palabras reales que la justifiquen, si no
+  el filtro de tema queda con casillas casi vacías.
 - El campo `imagen.id` es el identificador del pictograma en ARASAAC.
   ARASAAC es un banco de pictogramas multi-idioma: la misma imagen sirve
   para el mismo concepto en cualquier idioma, así que dos palabras de
@@ -330,10 +335,11 @@ diccionario:
      *keyness*). Una ontología de dominio (UMLS/SNOMED CT para `salud`,
      EuroVoc o un tesauro jurídico para `legal`) no sustituye este paso de
      búsqueda: sirve sobre todo para **clasificar** los candidatos que ya
-     tienes en una de las siete categorías, porque sus taxonomías no
+     tienes en una de las nueve categorías, porque sus taxonomías no
      coinciden 1:1 con `tramites/salud/vida-diaria/finanzas/vivienda/
-     trabajo/legal` (son categorías AIVD, no categorías de dominio) — sigue
-     haciendo falta criterio humano para encajar cada término.
+     trabajo/legal/tecnologia/seguridad` (son categorías AIVD, no
+     categorías de dominio) — sigue haciendo falta criterio humano para
+     encajar cada término.
      `node scripts/candidatos-corpus.js <archivo-corpus.txt> <idioma>`
      implementa la parte de *keyness*: tú aportas el corpus de dominio (un
      `.txt` con extractos reales del tipo de documento de esa categoría), y
@@ -349,6 +355,11 @@ diccionario:
    las del otro (lo mismo que ya dice "Cómo añadir un idioma nuevo" para el
    arranque de un idioma nuevo, aplica igual al hacer crecer uno que ya
    existe).
+
+   [`doc/es/fuentes.md`](fuentes.md) tiene una plantilla de prompt lista
+   para usar con cada uno de estos dos métodos, más una tabla de fuentes
+   plausibles (glosarios y corpus) para cada categoría, para que este paso
+   no arranque de cero.
 4. **Escribir cada entrada** siguiendo al pie de la letra las reglas de
    lectura fácil de este documento, **en el idioma elegido** — la entrada
    entera (`definicion`, `sinonimos`, `ejemplo`, `ejemploSinonimo`) va en

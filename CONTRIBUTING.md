@@ -43,9 +43,9 @@ accuracy).
    pictogram, one "document" pictogram, etc., the fallback resolves
    only a fraction of entries — without an explicit `traduccion`, a
    Spanish word whose pictogram is shared by several unrelated words
-   (the common case) won't link to its English counterpart. Edit
-   `scripts/.mapping.js` and run `node scripts/inject-translations.js`
-   (idempotent) to add the field to `js/data.es.js`.
+   (the common case) won't link to its English counterpart. Add the
+   field by hand to `js/data.es.js` (or to whichever language's file
+   you're editing).
 6. It needs a pictogram. Before downloading anything, check whether an
    image for that concept already exists in `img/` — it can be reused
    across words and languages. To search for candidates:
@@ -76,17 +76,17 @@ accuracy).
      (`js/i18n.js`, key `pieCreditosHtml`) currently only mentions ARASAAC
      and needs to be expanded before merging the change. See "Pictograms"
      in `doc/en/technical.md`.
-6. `situacion` has to be one of the keys shared across every language:
-   `tramites`, `salud`, `vida-diaria`, `finanzas`, `vivienda`, `trabajo`, or
-   `legal` (see "Multi-language architecture" in
+7. `situacion` has to be one of the keys shared across every language:
+   `tramites`, `salud`, `vida-diaria`, `finanzas`, `vivienda`, `trabajo`,
+   `legal`, `tecnologia`, or `seguridad` (see "Multi-language architecture" in
    [`doc/en/SPEC.md`](doc/en/SPEC.md) for what each one covers). Don't
    invent a new key for two or three stray words, and if one is genuinely
    needed, also add its label in `js/i18n.js` (`tema_<key>`) for every
    language.
 
-7. Run `node scripts/validar.js` and `node scripts/validate-mapping.js`
-   to make sure the new word is well-formed and (if you added a
-   `traduccion` in step 5) the cross-language link resolves.
+7. Run `node scripts/validar.js` to make sure the new word is
+   well-formed and (if you added a `traduccion` in step 5) the
+   cross-language link resolves.
 
 ## Adding a language
 

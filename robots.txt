@@ -8,5 +8,8 @@ User-agent: *
 Allow: /
 # Don't index the ARASAAC CDN images served as if they were ours.
 Disallow: /img/
+# /about/ is a hidden project-presentation page, not part of the product;
+# keep it out of search results (also carries its own noindex meta tag).
+Disallow: /about/
 
 Sitemap: https://sinonimia.pages.dev/sitemap.xml
