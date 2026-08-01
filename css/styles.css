@@ -814,13 +814,13 @@ main {
 .pie-creditos {
   max-width: 900px;
   margin: 0 auto;
-  padding: 1rem 1.25rem 2.5rem;
-  color: #6a6a6a;
-  font-size: 0.85rem;
+  padding: 0.75rem 1.25rem 1.5rem;
+  color: #9a9a9a;
+  font-size: 0.65rem;
 }
 
 .pie-creditos a {
-  color: #6a6a6a;
+  color: #9a9a9a;
 }
 
 body.alto-contraste .pie-mensaje {
@@ -828,7 +828,7 @@ body.alto-contraste .pie-mensaje {
   border-top: 3px solid #fff;
 }
 body.alto-contraste .pie-creditos {
-  color: #fff;
+  color: #d0d0d0;
 }
 body.alto-contraste .pie-creditos a {
   color: #ffff00;
