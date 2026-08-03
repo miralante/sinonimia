@@ -1,4 +1,28 @@
-# Deploying Sinonimia to Cloudflare Pages
+# Cloudflare Pages — Sinonimia
+
+> **Production branch & automatic deploy.** Sinonimia deploys
+> **automatically on every push to `main`** via the **Cloudflare
+> Git connector** configured in the Cloudflare dashboard. There is no
+> GitHub Actions workflow that deploys — the only workflow in
+> `.github/workflows/validate.yml` runs `node scripts/validar.js` on
+> every push and PR to gate content, but it does **not** deploy. The
+> Cloudflare dashboard is the source of truth for project settings.
+>
+> **Part of a group of sibling projects.** Sinonimia is one of five
+> static PWAs that share the same author, the same accessibility-first
+> / no-backend philosophy, and the same Cloudflare deploy story.
+> **Apptonomia is the main project** of the group. The canonical
+> Cloudflare guide for the group lives in
+> [Apptonomia's `CLOUDFLARE.md`](https://github.com/thenkdframe/apptonomia/blob/master/CLOUDFLARE.md);
+> this document is the Sinonimia-specific runbook on top of it.
+>
+> Sinonimia uses the **Workers + static assets** model (`wrangler.toml`
+> + `[assets]`) rather than the classic Pages model used by Apptonomia
+> and Teclatlon. That is intentional: the existing Cloudflare dashboard
+> project for `sinonimia` is a Worker with "Workers Builds", not a Pages
+> project, and that's the shape Cloudflare currently recommends for
+> static sites. Do not "fix" this by deleting `wrangler.toml` — it
+> would break the deploy.
 
 Sinonimia is deployed on **Cloudflare Pages**, using its built-in
 GitHub integration. There is no custom GitHub Actions workflow — the

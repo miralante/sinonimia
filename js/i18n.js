@@ -8,8 +8,15 @@
  *  2. Create js/data.<lang>.js with that language's words (see that file for
  *     the format) and add its <script> tag in index.html.
  *  3. Add a button to the language selector in index.html.
- * No changes needed in app.js.
- */
+ * No changes needed in app.js. *
+ * The full step-by-step — including the mirrored strings in
+ * js/bootstrap-i18n.js, the about.js whitelist and the parallel
+ * data-lang-block blocks on about/* and 404.html, the
+ * idiomaNombre_<code> key that has to be added in every existing
+ * I18N block, the traduccion cross-link conventions, and a complete
+ * checklist — is in doc/en/I18N.md (or doc/es/I18N.md in
+ * Spanish). That document is the canonical reference; this header
+ * is the short version. */
 
 const I18N = {
   es: {

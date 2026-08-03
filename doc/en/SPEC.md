@@ -47,23 +47,30 @@ how.
 ### Mandatory rule: zero mentions in the user-facing product
 
 **No text the end user sees may mention, directly or indirectly,
-intellectual disability, occupational therapy, or equivalent expressions**
-("cognitive difficulties", "special needs", "different abilities", etc.).
-This includes everything visible in the site's interface: `index.html`
-(titles, meta description, static text), the `js/i18n.js` text in every
-language (buttons, labels, messages, icon alt text), and the footer. The
-reason is exactly the one from the previous section: that nobody who uses
-the site feels singled out, inferior, or discriminated against by what the
-site says about them.
+intellectual disability, occupational therapy, minors, children, or
+equivalent expressions** ("cognitive difficulties", "special needs",
+"different abilities", "underage", etc.). This includes everything
+visible in the site's interface: `index.html` (titles, meta description,
+static text), the `js/i18n.js` text in every language (buttons, labels,
+messages, icon alt text), and the footer. The reason is exactly the one
+from the previous section: that nobody who uses the site feels singled
+out, inferior, or discriminated against by what the site says about
+them.
 
 Where it applies and where it doesn't:
 
 - **It applies** to everything the end user sees on the site:
-  `index.html`, `js/i18n.js`.
+  `index.html`, `js/i18n.js`, and `about/privacidad.html` (the privacy
+  page is user-facing even though it's unlinked — anyone who lands on
+  it is a visitor). It does **not** apply to `about/index.html`: that
+  is the project's own presentation, which explains its origin and
+  internal context — the same exemption that applies to the §2 "Audience"
+  section below.
 - **It doesn't apply** to the dictionary content (`js/data.<lang>.js`). If a
-  difficult word related to disability as a bureaucratic procedure is added
-  in the future (for example a disability-certificate procedure, or
-  permanent-disability benefits), it's explained with total normality, just
+  difficult word related to disability, age, or any other group as a
+  bureaucratic procedure is added in the future (for example a
+  disability-certificate procedure, permanent-disability benefits,
+  emancipation of minors), it's explained with total normality, just
   like any other word — the goal there is to define the word, not to
   describe whoever looks it up.
 - **It doesn't apply** to the project's internal documentation (this
@@ -73,9 +80,10 @@ Where it applies and where it doesn't:
   by whoever maintains or contributes to the project, not by the end user,
   and that's exactly where the project's real objective must be explained
   (see the previous section).
+`about/privacidad
 
 This rule is checked automatically: `node scripts/validar.js` fails if any
-of those terms show up in `index.html` or `js/i18n.js`.
+of those terms show up in `index.html`, `js/i18n.js`, or `about/*.html`.
 
 ## Design principle: easy-read language
 
@@ -290,6 +298,17 @@ step. Each piece lives in its own file:
 
 None of this touches `js/app.js`: search, routing, progress, and word of
 the day already work for any language that appears in `DICCIONARIOS`.
+
+The above is the short version. The full step-by-step — including the
+mirrored strings in `js/bootstrap-i18n.js`, the `about.js` whitelist
+and parallel `data-lang-block` blocks on `about/*` and `404.html`,
+the `idiomaNombre_<code>` keys to add in **every** `I18N` block, the
+`traduccion` cross-linking conventions, the rules around RTL and
+per-locale variants, the per-category 8-word threshold, and a complete
+checklist — lives in [`languages.md`](languages.md) (or
+[`../es/idiomas.md`](../es/idiomas.md) in Spanish). This section is the
+one to remember; that document is the one to follow when actually
+adding the language.
 
 ## Process for expanding content
 

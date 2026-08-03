@@ -1,4 +1,4 @@
-# CLAUDE.md
+﻿﻿# CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
@@ -26,6 +26,42 @@ in maintainer-facing docs (`doc/*/SPEC.md`, this file, `CONTRIBUTING.md` /
 dictionary entry about an actual disability-related bureaucratic term (e.g.
 a disability-certificate procedure) would be legitimate content, not a
 violation.
+
+
+## Language policy
+
+- **UI**: multilingual. Default locales are **Spanish (es)** and
+  **English (en)**; es is the default and the source of truth for
+  every product decision that is not dictated by maintainers. The
+  architecture is intentionally language-agnostic: js/app.js never
+  reads a hardcoded language's data file — it goes through
+  DICCIONARIOS[currentLanguage] and 	(key), so adding a third
+  language requires **no changes to js/app.js** (see
+  [doc/en/I18N.md](doc/en/I18N.md) or [doc/es/I18N.md](doc/es/I18N.md)
+  for the step-by-step).
+- **Technical code**: **always English** — variables, functions,
+  identifiers, comments, and commit messages. UI text lives in
+  js/i18n.js (one I18N.<lang> block per language); dictionary
+  content lives in js/data.<lang>.js. Identifiers that are deliberately
+  kept in Spanish are listed in doc/en/technical.md (e.g. dictionary
+  schema field names, I18N keys, localStorage keys, URL route
+  segments) — read that list before renaming anything, since those are
+  shared data contracts.
+- **Product changes apply to all locales by default**: any change to
+  product content (UI strings, dictionary entries, examples,
+  pictograms, game copy, accessibility labels, catalog entries, etc.)
+  **must be applied to every supported locale** — at minimum es and
+  en. Spanish (es) is the source of truth when not dictated
+  otherwise; English (en) must keep parity. If a new locale is added,
+  the same change applies there too. Never ship a product change that
+  exists only in one language.
+- **Self-test for "did I cover both languages?"**: search the new
+  string or data shape in the es files, then the en files; if
+  the es change has no en mirror (or vice versa), it is not done.
+  scripts/validar.js enforces key parity of 	() keys in
+  js/i18n.js (it fails if js/app.js calls a key missing from any
+  I18N block) but does not enforce translation quality or
+  dictionary-parity — proofread both.
 
 ## Commands
 

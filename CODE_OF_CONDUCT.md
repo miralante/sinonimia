@@ -1,66 +1,66 @@
-# Código de conducta para contribuyentes
+# Contributor Code of Conduct
 
-## Nuestro compromiso
+> 🌐 **Other languages:** [Español](CODE_OF_CONDUCT.es.md)
 
-Como personas que participamos y contribuimos a este proyecto, nos
-comprometemos a que participar en nuestra comunidad sea una experiencia
-libre de acoso para todo el mundo, sin importar la edad, el tamaño
-corporal, la discapacidad visible o invisible, el origen étnico, las
-características sexuales, la identidad y expresión de género, el nivel de
-experiencia, la educación, el estatus socioeconómico, la nacionalidad, la
-apariencia física, la raza, la religión, o la identidad y orientación
-sexual.
+## Our pledge
 
-Dado que Sinonimia existe para hacer el lenguaje más accesible a personas
-que a menudo quedan fuera por no entender un texto, esperamos ese mismo
-espíritu de claridad y respeto en cómo nos tratamos entre nosotros.
+As members, contributors, and maintainers of this project, we pledge to
+make participation in our community a harassment-free experience for
+everyone, regardless of age, body size, visible or invisible disability,
+ethnicity, sex characteristics, gender identity and expression, level of
+experience, education, socio-economic status, nationality, personal
+appearance, race, religion, or sexual identity and orientation.
 
-## Nuestros estándares
+Since Sinonimia exists to make language more accessible to people who are
+often left out because they cannot understand a text, we expect that same
+spirit of clarity and respect in how we treat each other.
 
-Ejemplos de comportamiento que contribuyen a crear un ambiente positivo:
+## Our standards
 
-- Mostrar empatía y amabilidad ante otras personas.
-- Respetar opiniones, puntos de vista y experiencias diferentes.
-- Dar y aceptar con gracia comentarios constructivos.
-- Asumir la responsabilidad y disculparse ante quienes se vean afectados
-  por nuestros errores, aprendiendo de la experiencia.
-- Centrarse en lo que sea mejor no solo para nosotros como individuos, sino
-  para la comunidad en general.
+Examples of behavior that contributes to a positive environment:
 
-Ejemplos de comportamiento inaceptable:
+- Demonstrating empathy and kindness toward other people.
+- Being respectful of differing opinions, viewpoints, and experiences.
+- Giving and gracefully accepting constructive feedback.
+- Accepting responsibility and apologizing to those affected by our
+  mistakes, and learning from the experience.
+- Focusing on what is best not just for us as individuals, but for the
+  overall community.
 
-- El uso de lenguaje o imágenes sexualizadas, y la atención o
-  insinuaciones sexuales de cualquier tipo.
-- Comentarios despectivos o insultantes, y ataques personales o políticos.
-- El acoso público o privado.
-- Publicar información privada de otras personas (dirección física o de
-  correo electrónico, por ejemplo) sin su permiso explícito.
-- Otras conductas que razonablemente se puedan considerar inapropiadas en
-  un entorno profesional.
+Examples of unacceptable behavior:
 
-## Responsabilidades de aplicación
+- The use of sexualized language or imagery, and sexual attention or
+  advances of any kind.
+- Trolling, insulting or derogatory comments, and personal or political
+  attacks.
+- Public or private harassment.
+- Publishing others' private information, such as a physical or email
+  address, without their explicit permission.
+- Other conduct which could reasonably be considered inappropriate in a
+  professional setting.
 
-Quienes mantienen el proyecto son responsables de aclarar y hacer cumplir
-los estándares de comportamiento aceptable, y tomarán acciones correctivas
-apropiadas y justas ante cualquier conducta que consideren inapropiada,
-amenazante, ofensiva o dañina.
+## Enforcement responsibilities
 
-## Alcance
+Project maintainers are responsible for clarifying and enforcing our
+standards of acceptable behavior and will take appropriate and fair
+corrective action in response to any behavior that they deem
+inappropriate, threatening, offensive, or harmful.
 
-Este código de conducta aplica en todos los espacios del proyecto (issues,
-pull requests, discusiones) y también cuando alguien representa al proyecto
-en espacios públicos.
+## Scope
 
-## Aplicación
+This Code of Conduct applies within all project spaces (issues, pull
+requests, discussions), and also applies when an individual is officially
+representing the project in public spaces.
 
-Los casos de comportamiento abusivo, acosador o inaceptable de cualquier
-otra forma se pueden reportar a quienes mantienen el proyecto en
-`[añadir correo o forma de contacto]`. Todas las quejas serán revisadas e
-investigadas con prontitud y equidad.
+## Enforcement
 
-## Atribución
+Instances of abusive, harassing, or otherwise unacceptable behavior may be
+reported to the project maintainers at `[add contact email or form here]`.
+All complaints will be reviewed and investigated promptly and fairly.
 
-Este código de conducta está adaptado del
-[Contributor Covenant](https://www.contributor-covenant.org), versión 2.1,
-disponible en
-https://www.contributor-covenant.org/es/version/2/1/code_of_conduct.html.
+## Attribution
+
+This Code of Conduct is adapted from the
+[Contributor Covenant](https://www.contributor-covenant.org), version 2.1,
+available at
+https://www.contributor-covenant.org/version/2/1/code_of_conduct.html.

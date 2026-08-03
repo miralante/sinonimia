@@ -48,33 +48,40 @@ cómo.
 ### Regla de obligado cumplimiento: cero menciones en el producto de cara al usuario
 
 **Ningún texto que vea la persona usuaria puede mencionar, ni directa ni
-indirectamente, la discapacidad intelectual, la terapia ocupacional, ni
-expresiones equivalentes** ("dificultades cognitivas", "necesidades
-especiales", "capacidades diferentes", etc.). Esto incluye todo lo visible
-en la interfaz de la web: `index.html` (títulos, meta-descripción, textos
-estáticos), los textos de `js/i18n.js` en todos los idiomas (botones,
-etiquetas, mensajes, alt de iconos), y el pie de página. El motivo es
-exactamente el de la sección anterior: que ninguna persona que use la web se
-sienta señalada, inferior o discriminada por lo que la web dice de ella.
+indirectamente, la discapacidad intelectual, la terapia ocupacional, los
+menores, los niños, ni expresiones equivalentes** ("dificultades
+cognitivas", "necesidades especiales", "capacidades diferentes",
+"menor de edad", etc.). Esto incluye todo lo visible en la interfaz de
+la web: `index.html` (títulos, meta-descripción, textos estáticos), los
+textos de `js/i18n.js` en todos los idiomas (botones, etiquetas,
+mensajes, alt de iconos), y el pie de página. El motivo es exactamente
+el de la sección anterior: que ninguna persona que use la web se sienta
+señalada, inferior o discriminada por lo que la web dice de ella.
 
 Dónde sí aplica y dónde no:
 
 - **Sí aplica** a todo lo que la persona usuaria final ve en la web:
-  `index.html`, `js/i18n.js`.
+  `index.html`, `js/i18n.js`, y `about/privacidad.html` (la página de
+  privacidad es visible para quien llega a ella, aunque no esté
+  enlazada — cualquier visita es una persona usuaria). **No aplica** a
+  `about/index.html`: esa es la presentación del proyecto, donde se
+  explica el origen y el contexto interno — la misma exención que se
+  aplica a la sección §2 "Para quién es" de abajo.
 - **No aplica** al contenido del diccionario (`js/data.<idioma>.js`). Si en
   el futuro se añade una palabra difícil relacionada con la discapacidad
-  como trámite (por ejemplo "certificado de discapacidad" o "incapacidad
-  permanente"), se explica con total normalidad, igual que cualquier otra
-  palabra — el objetivo ahí es definir la palabra, no describir a quien la
-  consulta.
+  o con la edad como trámite (por ejemplo "certificado de discapacidad",
+  "incapacidad permanente", "emancipación de menores"), se explica con
+  total normalidad, igual que cualquier otra palabra — el objetivo ahí
+  es definir la palabra, no describir a quien la consulta.
 - **No aplica** a la documentación interna del proyecto (este documento,
   [`../../CLAUDE.md`](../../CLAUDE.md), [`../../CONTRIBUTING.es.md`](../../CONTRIBUTING.es.md),
   [`../../README.es.md`](../../README.es.md), `roles.md`): esos archivos los
   lee quien mantiene o contribuye al proyecto, no la persona usuaria final,
   y ahí sí debe quedar explicado el objetivo real (ver la sección anterior).
-
+`about/privacidad.html`.
 Esta regla se comprueba automáticamente: `node scripts/validar.js` falla si
-alguno de esos términos aparece en `index.html` o en `js/i18n.js`.
+alguno de esos términos aparece en `index.html`, `js/i18n.js` o
+`about/*.html`.
 
 ## Principio de diseño: lectura fácil
 
@@ -293,6 +300,17 @@ su propio archivo:
 Nada de esto toca `js/app.js`: el buscador, el enrutado, el progreso y la
 palabra del día ya funcionan para cualquier idioma que aparezca en
 `DICCIONARIOS`.
+
+Lo anterior es la versión corta. El paso a paso completo — incluyendo las
+cadenas reflejadas en `js/bootstrap-i18n.js`, la whitelist de `about.js`
+y los bloques paralelos `data-lang-block` en `about/*` y `404.html`,
+las claves `idiomaNombre_<código>` que hay que añadir en **cada**
+bloque `I18N`, las convenciones de cross-linking con `traduccion`, las
+reglas sobre RTL y variantes por locale, el umbral de 8 palabras por
+categoría, y un checklist completo — vive en [`idiomas.md`](idiomas.md)
+(o [`../en/languages.md`](../en/languages.md) en inglés). Esta sección
+es la que hay que recordar; ese documento es el que hay que seguir
+cuando se va a añadir el idioma de verdad.
 
 ## Proceso para ampliar el contenido
 

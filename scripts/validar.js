@@ -207,34 +207,49 @@ usedIds.forEach(function (id) {
 });
 ok("DOM ids checked (" + usedIds.size + ")");
 
-// --- 7. The user-facing product never names disability ---
+// --- 7. The user-facing product never names disability or minors ---
 // doc/en/SPEC.md's rule ("Mandatory rule: zero mentions in the user-facing
 // product"): every page a visitor can actually reach — index.html,
 // js/i18n.js, and anything under about/ (it's deployed, unauthenticated,
 // and listed in sitemap.xml, so "noindex" and "not linked" don't make it
 // private) — may not mention, directly or indirectly, intellectual
-// disability or occupational therapy. js/data.*.js is deliberately out of
-// scope: a paperwork word like "disability certificate" could legitimately
-// be a future dictionary entry.
+// disability, occupational therapy, minors, or equivalent expressions.
+// js/data.*.js is deliberately out of scope: a paperwork word like
+// "disability certificate" could legitimately be a future dictionary entry.
+//
+// `match` distinguishes substring terms (Spanish phrases and unambiguous
+// English stems like "occupational therap", "disabilit", "special needs")
+// from word-boundary terms (the English words "minor", "underage",
+// "children" — too ambiguous as substrings, e.g. "minor annoyance").
 const FORBIDDEN_TERMS = [
-  "discapacidad",
-  "disabilit", // disability / disabilities
-  "intelectual",
-  "intellectual",
-  "terapia ocupacional",
-  "occupational therap",
-  "dificultades cognitivas",
-  "cognitive difficult",
-  "necesidades especiales",
-  "special needs",
-  "capacidades diferentes",
+  { term: "discapacidad", match: "substring" },
+  { term: "disabilit", match: "substring" }, // disability / disabilities
+  { term: "intelectual", match: "substring" },
+  { term: "intellectual", match: "substring" },
+  { term: "terapia ocupacional", match: "substring" },
+  { term: "occupational therap", match: "substring" },
+  { term: "dificultades cognitivas", match: "substring" },
+  { term: "cognitive difficult", match: "substring" },
+  { term: "necesidades especiales", match: "substring" },
+  { term: "special needs", match: "substring" },
+  { term: "capacidades diferentes", match: "substring" },
+  { term: "menor de edad", match: "substring" },
+  { term: "menores de edad", match: "substring" },
+  { term: "personas menores", match: "substring" },
+  { term: "minor", match: "word" }, // minor / minors
+  { term: "underage", match: "word" },
+  { term: "children", match: "word" },
 ];
 const rawI18nSrc = fs.readFileSync(path.join(ROOT, "js/i18n.js"), "utf8");
 const aboutDir = path.join(ROOT, "about");
+// Only `about/privacidad.html` is user-facing for the purpose of this
+// rule. `about/index.html` is the project presentation — it tells the
+// project's origin and internal context, the same way the §2 "Audience"
+// section of every sibling's SPEC does, and the same exemption applies.
 const aboutTargets = fs.existsSync(aboutDir)
   ? fs
       .readdirSync(aboutDir)
-      .filter(function (f) { return f.endsWith(".html"); })
+      .filter(function (f) { return f === "privacidad.html"; })
       .map(function (f) {
         return {
           file: "about/" + f,
@@ -248,13 +263,20 @@ const aboutTargets = fs.existsSync(aboutDir)
   { file: "js/i18n.js", content: rawI18nSrc },
 ].concat(aboutTargets).forEach(function (target) {
   var normalized = normalize(target.content);
-  FORBIDDEN_TERMS.forEach(function (term) {
-    if (normalized.indexOf(normalize(term)) !== -1) {
-      fail(target.file + ": contains \"" + term + "\" — no page a visitor can reach may mention disability or occupational therapy (see doc/en/SPEC.md)");
+  FORBIDDEN_TERMS.forEach(function (entry) {
+    var term = entry.term;
+    var hit;
+    if (entry.match === "word") {
+      hit = new RegExp("\\b" + term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b").test(normalized);
+    } else {
+      hit = normalized.indexOf(normalize(term)) !== -1;
+    }
+    if (hit) {
+      fail(target.file + ": contains \"" + term + "\" — no page a visitor can reach may mention disability, occupational therapy, or minors (see doc/en/SPEC.md)");
     }
   });
 });
-ok("index.html, js/i18n.js, and about/*.html do not mention disability or occupational therapy");
+ok("index.html, js/i18n.js, and about/*.html do not mention disability, occupational therapy, or minors");
 
 // --- Result ---
 console.log("");

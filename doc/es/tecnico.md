@@ -248,6 +248,15 @@ lo toque sepa exactamente qué hacer.
   archivo `js/data.<idioma>.js` (ver "Cómo añadir un idioma nuevo" en
   `SPEC.md`) — `js/app.js` no necesita cambios, ya que solo lee los
   idiomas que existan como claves en `DICCIONARIOS`.
+  El paso a paso completo para un idioma nuevo — incluyendo las
+  cadenas reflejadas en `js/bootstrap-i18n.js`, la whitelist de
+  `about.js` y los bloques paralelos `data-lang-block` en `about/*` y
+  `404.html`, y la clave `idiomaNombre_<idioma>` que hay que añadir en
+  **cada** bloque `I18N` existente — está en
+  [`idiomas.md`](idiomas.md) (o [`../en/languages.md`](../en/languages.md)
+  en inglés). Ese documento es la referencia canónica de "cómo añadir
+  un idioma"; las secciones de SPEC.md / tecnico.md son los resúmenes
+  cortos.
 - **`js/app.js`** es una única IIFE que contiene toda la app cliente.
   Nunca escribe a mano un texto de interfaz ni los datos de un idioma
   concreto — solo lee `activeDictionary` (`= DICCIONARIOS[currentLanguage]`)

@@ -1,6 +1,8 @@
 # Sinonimia 📖
 
 > 🌐 **Other languages:** [Español](README.es.md)
+>
+> 🚀 **Try it live:** [sinonimia.miralante.workers.dev](https://sinonimia.miralante.workers.dev/)
 
 A plain-language dictionary for difficult words: paperwork, justice, and
 health. Every word has a short definition, a simple synonym, an everyday
@@ -13,8 +15,11 @@ made to be easy to maintain and to extend.
 
 ## Try it
 
-Nothing to install. Just open `index.html` in a browser, or serve the
-folder with any static server, for example:
+It's deployed at **[sinonimia.miralante.workers.dev](https://sinonimia.miralante.workers.dev/)**
+— open it in your browser and use it directly, no installation needed.
+
+If you want to run it locally, just open `index.html` in a browser, or
+serve the folder with any static server, for example:
 
 ```
 npx serve .
@@ -71,7 +76,7 @@ Sinonimia is a fully static site (HTML/CSS/JS, no build step), so it
 ships directly to **[Cloudflare Pages](https://pages.cloudflare.com)**
 through its built-in GitHub integration — there is no custom GitHub
 Actions workflow. The HTTP headers security policy is in
-[`_headers`](_headers). See [`DEPLOY.md`](DEPLOY.md) for the runbook.
+[`_headers`](_headers). See [`CLOUDFLARE.md`](CLOUDFLARE.md) for the runbook.
 
 To deploy your own fork:
 
@@ -128,3 +133,28 @@ The next call to `candidatos-corpus.js` rebuilds the cache automatically.
 Definitions and examples are based on public "plain language" glossaries
 from government and court bodies (IVAP, Red de Lenguaje Claro) and on
 medical glossaries written for patients.
+
+---
+
+## 🧩 Sibling projects
+
+This project is one of a small group of sibling projects that share
+the same author, the same accessibility-first / no-backend philosophy
+and the same Cloudflare deploy story. **Apptonomia is the main project**;
+the others (Calculia, Okeymoney, Sinonimia, Teclatlon) were spun out of
+it or built next to it on the same stack.
+
+| Project | What it is | Repository |
+|---|---|---|
+| **Apptonomia** *(main)* | Occupational therapy: 7 modules, 69 activities | [github.com/miralante/apptonomia](https://github.com/miralante/apptonomia) |
+| Calculia | Math and logical reasoning: 12 activities | [github.com/miralante/calculia](https://github.com/miralante/calculia) |
+| Okeymoney | Personal finance and everyday autonomy | [github.com/miralante/okeymoney](https://github.com/miralante/okeymoney) |
+| Sinonimia | Plain-language dictionary (easy-read) | [github.com/miralante/sinonimia](https://github.com/miralante/sinonimia) |
+| Teclatlon | Touch-typing with a physical keyboard | [github.com/miralante/teclatlon](https://github.com/miralante/teclatlon) |
+
+The canonical Cloudflare / deploy guide for the group lives in
+[Apptonomia's `CLOUDFLARE.md`](https://github.com/miralante/apptonomia/blob/master/CLOUDFLARE.md).
+This repo uses the **Workers + static assets** model (`wrangler.toml`
++ `[assets]`), which is a different shape than Apptonomia/Teclatlon's
+classic Pages model — see [`DEPLOY.md`](DEPLOY.md) for the local
+runbook.

@@ -1,6 +1,8 @@
 # Sinonimia 📖
 
 > 🌐 **Otros idiomas:** [English](README.md)
+>
+> 🚀 **Pruébalo en vivo:** [sinonimia.miralante.workers.dev](https://sinonimia.miralante.workers.dev/)
 
 Un diccionario en lenguaje sencillo para palabras difíciles: trámites,
 justicia y salud. Cada palabra tiene una definición corta, un sinónimo
@@ -13,8 +15,12 @@ tal cual, pensado para ser fácil de mantener y de ampliar.
 
 ## Probarlo
 
-No hace falta instalar nada. Basta con abrir `index.html` en un navegador,
-o servir la carpeta con cualquier servidor estático, por ejemplo:
+Está desplegado en **[sinonimia.miralante.workers.dev](https://sinonimia.miralante.workers.dev/)**
+— entra y úsalo directamente desde el navegador, sin instalar nada.
+
+Si quieres ejecutarlo en local, basta con abrir `index.html` en un
+navegador, o servir la carpeta con cualquier servidor estático, por
+ejemplo:
 
 ```
 npx serve .
@@ -108,3 +114,28 @@ necesitas.
 Las definiciones y ejemplos se basan en glosarios públicos de "lenguaje
 claro" de administraciones y tribunales (IVAP, Red de Lenguaje Claro) y en
 glosarios médicos pensados para pacientes.
+
+---
+
+## 🧩 Proyectos hermanos
+
+Este proyecto forma parte de un pequeño grupo de proyectos hermanos
+que comparten autor, la misma filosofía de accesibilidad y sin
+backend, y la misma historia de despliegue en Cloudflare. **Apptonomia
+es el proyecto principal**; los demás (Calculia, Okeymoney, Sinonimia,
+Teclatlon) salieron de él o se construyeron a su lado sobre el mismo
+stack.
+
+| Proyecto | Qué es | Repositorio |
+|---|---|---|
+| **Apptonomia** *(principal)* | Terapia ocupacional: 7 módulos, 69 actividades | [github.com/miralante/apptonomia](https://github.com/miralante/apptonomia) |
+| Calculia | Cálculo y razonamiento lógico: 12 actividades | [github.com/miralante/calculia](https://github.com/miralante/calculia) |
+| Okeymoney | Finanzas personales y autonomía cotidiana | [github.com/miralante/okeymoney](https://github.com/miralante/okeymoney) |
+| Sinonimia | Diccionario en lectura fácil | [github.com/miralante/sinonimia](https://github.com/miralante/sinonimia) |
+| Teclatlon | Mecanografía con el teclado físico | [github.com/miralante/teclatlon](https://github.com/miralante/teclatlon) |
+
+La guía canónica de Cloudflare / despliegue para el grupo vive en
+[`CLOUDFLARE.md` de Apptonomia](https://github.com/miralante/apptonomia/blob/master/CLOUDFLARE.md).
+Este repo usa el modelo **Workers + static assets** (`wrangler.toml` +
+`[assets]`), que es una forma distinta al modelo Pages clásico de
+Apptonomia/Teclatlon — ver [`CLOUDFLARE.md`](CLOUDFLARE.md) para la guía local.

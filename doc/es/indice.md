@@ -17,12 +17,14 @@ doc/
 │   ├── roles.md    ← Roles del proyecto
 │   ├── SPEC.md     ← Definición de producto
 │   ├── tecnico.md  ← Arquitectura técnica
+│   ├── idiomas.md  ← Añadir/extendiendo idiomas (canónico, ES)
 │   └── fuentes.md  ← Prompts + fuentes para buscar palabras candidatas
 └── en/
     ├── index.md    ← Entry point, EN
     ├── roles.md    ← Project roles
     ├── SPEC.md     ← Product definition
     ├── technical.md ← Technical architecture
+    ├── languages.md ← Adding/extending languages (canonical, EN)
     └── sourcing.md  ← Prompts + sources for finding candidate words
 ```
 
@@ -38,7 +40,8 @@ y la licencia viven en la raíz del repositorio junto con el
 |---|---|
 | Entender qué es Sinonimia y para quién es | [`SPEC.md`](SPEC.md) |
 | Saber quién participa en el proyecto y cómo | [`roles.md`](roles.md) |
-| Añadir una palabra nueva o un idioma nuevo | [`../../CONTRIBUTING.es.md`](../../CONTRIBUTING.es.md) |
+| Añadir una palabra nueva | [`../../CONTRIBUTING.es.md`](../../CONTRIBUTING.es.md) |
+| Añadir o extender un idioma | [`idiomas.md`](idiomas.md) |
 | Ver la arquitectura técnica y las convenciones de código | [`tecnico.md`](tecnico.md) |
 | Buscar palabras candidatas para una categoría (prompts + fuentes) | [`fuentes.md`](fuentes.md) |
 | Probar la web | [`../../README.es.md`](../../README.es.md) — "Probarlo" |

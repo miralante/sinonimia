@@ -14,6 +14,11 @@
  * Kept as an external file (not inline) so the CSP `script-src 'self'`
  * allows it: inline <script> blocks would be blocked, but <script src="…">
  * pointing at a same-origin file is fine.
+ *
+ * Adding a new language: see doc/en/I18N.md (or doc/es/I18N.md
+ * in Spanish). In short, add an entry to BOOTSTRAP_I18N with htmlLang,
+ * metaTitulo, and metaDescripcion mirroring the same keys in
+ * I18N.<code>, and add the code to the AVAILABLE array.
  */
 (function () {
   var BOOTSTRAP_I18N = {

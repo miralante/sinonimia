@@ -222,6 +222,14 @@ itself — so the next person to touch it knows exactly what to do.
   `SPEC.md`'s "How to add a new language") — `js/app.js` needs no
   changes, since it
   only ever reads whatever languages exist as keys on `DICCIONARIOS`.
+  The full step-by-step for a new language — including the mirrored
+  strings in `js/bootstrap-i18n.js`, the `about.js` whitelist and the
+  parallel `data-lang-block` blocks on `about/*` and `404.html`, and
+  the `idiomaNombre_<lang>` key that has to be added in **every**
+  existing `I18N` block — is in [`languages.md`](languages.md) (or
+  [`../es/idiomas.md`](../es/idiomas.md) in Spanish). That document is
+  the canonical "how to add a language" reference; the SPEC.md /
+  technical.md sections are the short summaries.
 - **`js/app.js`** is a single IIFE containing the whole client app. It never
   hardcodes a UI string or a specific language's data — it only reads
   `activeDictionary` (`= DICCIONARIOS[currentLanguage]`) and calls `t(key)`.

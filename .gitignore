@@ -22,6 +22,15 @@ graphify-out/
 # Cachés que generan los scripts de mantenimiento (buscar-pictograma.js, etc.)
 scripts/.cache/
 
+# Corpus de palabras fuente en formato borrador (no es contenido publicado;
+# el diccionario vive en js/data.<lang>.js).
+dev/corpus/
+
+# Parches generados localmente (git format-patch, diffs de una sesión, etc.)
+*.patch
+# Logs de servidores de desarrollo locales (p.ej. scripts/.scratch/serve.js).
+*.log
+
 # Nunca subir el shared secret de OpenSymbols (se pasa como variable de entorno)
 .env
 .env.*
