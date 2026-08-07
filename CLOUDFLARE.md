@@ -1,4 +1,4 @@
-# Cloudflare Pages — Sinonimia
+# Cloudflare Workers (static assets) — Sinonimia
 
 > **Production branch & automatic deploy.** Sinonimia deploys
 > **automatically on every push to `main`** via the **Cloudflare
@@ -18,34 +18,40 @@
 >
 > Sinonimia uses the **Workers + static assets** model (`wrangler.toml`
 > + `[assets]`) rather than the classic Pages model used by Apptonomia
-> and Teclatlon. That is intentional: the existing Cloudflare dashboard
-> project for `sinonimia` is a Worker with "Workers Builds", not a Pages
-> project, and that's the shape Cloudflare currently recommends for
-> static sites. Do not "fix" this by deleting `wrangler.toml` — it
-> would break the deploy.
+> — Teclatlon, Calculia and Okeymoney have since moved to this same
+> model too (see their own `CLOUDFLARE.md` files). That is
+> intentional: the existing Cloudflare dashboard project for
+> `sinonimia` is a Worker with "Workers Builds", not a Pages project,
+> and that's the shape Cloudflare currently recommends for static
+> sites. Do not "fix" this by deleting `wrangler.toml` — it would
+> break the deploy.
 
-Sinonimia is deployed on **Cloudflare Pages**, using its built-in
-GitHub integration. There is no custom GitHub Actions workflow — the
-Cloudflare dashboard owns the build and deploy.
+Sinonimia is deployed as a **Cloudflare Worker (static assets)**,
+using its built-in GitHub integration — reachable at
+<https://sinonimia.miralante.workers.dev>. There is no custom GitHub
+Actions workflow — the Cloudflare dashboard owns the build and
+deploy.
 
 ## How it works
 
-1. The repo `miralante/sinonimia` is connected to a Cloudflare Pages
-   project named `sinonimia`.
-2. Every push to `main` triggers a Pages build in Cloudflare's
-   infrastructure.
+1. The repo `miralante/sinonimia` is connected to a Cloudflare
+   Workers project named `sinonimia`.
+2. Every push to `main` triggers a build in Cloudflare's
+   infrastructure via Workers Builds, which reads `wrangler.toml` to
+   deploy the repo root as a static-assets Worker (no `main` script).
 3. The build is a no-op: no `build command`, no `output directory` other
    than `.`, so the static files are served as-is.
 4. The `validate.yml` GitHub Action still runs on every push and PR
    to gate content, but it does not deploy.
 
-`wrangler.toml` is kept for two reasons:
-- It pins the project name (`name = "sinonimia"`) so anyone running
-  the local `wrangler` CLI for debugging sees the same project.
-- It declares `pages_build_output_dir = "."` so a manual `wrangler
-  pages deploy` (run from a developer machine) does the same thing
-  Cloudflare's CI does. Cloudflare itself doesn't need this file —
-  the dashboard configuration is the source of truth at deploy time.
+`wrangler.toml` is the actual deploy configuration Workers Builds
+reads — not just a convenience for local CLI use:
+- It pins the project name (`name = "sinonimia"`).
+- Its `[assets] directory = "."` and `not_found_handling =
+  "404-page"` are what make Cloudflare serve this repo's own
+  `404.html` for an unmatched path instead of a bare empty 404
+  (verified live: `curl` against an unknown path returns the real,
+  styled page).
 
 ## Configuration in Cloudflare
 
@@ -68,13 +74,13 @@ The ARASAAC pictograms are public static images, served from
 The site uses a `_headers` file at the repo root to set
 security headers (CSP, X-Frame-Options, Referrer-Policy,
 Permissions-Policy, etc.) and a one-year immutable cache for the
-dictionary, CSS, images, and app scripts. Cloudflare Pages reads this
+dictionary, CSS, images, and app scripts. Cloudflare reads this
 file on every deploy and applies the rules automatically — no
 dashboard configuration needed.
 
 ## How to redeploy
 
-Nothing to do. Push to `main` and Cloudflare Pages rebuilds.
+Nothing to do. Push to `main` and Cloudflare rebuilds.
 
 For a manual rebuild (e.g. after Cloudflare itself had an incident),
 go to the Cloudflare dashboard → Workers & Pages → sinonimia → "Create
@@ -100,18 +106,16 @@ is a one-time OAuth authorisation; revoking it is a matter of
 removing the app's access on
 [github.com/settings/applications](https://github.com/settings/applications).
 
-## Migrating from Workers to Pages
+## Do not migrate to Pages
 
-This project has been on Workers with `[assets]` before, and migrated
-to Pages. If you're doing the same:
-
-1. Delete the existing Worker `sinonimia` from the dashboard — Pages
-   and Workers share the project name namespace, so a stale Worker
-   will block Pages from taking the same name.
-2. Create a Pages project with the same name (`sinonimia`), connected
-   to the same GitHub repo. Cloudflare will reuse the same
-   `*.pages.dev` subdomain.
-3. The DNS records (`A`, `AAAA` for `*.pages.dev`) are managed by
-   Cloudflare; nothing to update by hand.
-4. The custom headers in `_headers` carry over as-is — Pages reads
-   the same file format as Workers.
+An earlier version of this file described migrating *from* Workers
+*to* Pages — that migration never actually happened (or was reverted):
+the live site (<https://sinonimia.miralante.workers.dev>) is a
+`*.workers.dev` address, `wrangler.toml` is committed and live, and
+Cloudflare's own current guidance is to prefer Workers + static
+assets over classic Pages for new static sites. Treat "Pages" as the
+legacy option here, not the target. If a future migration is ever
+genuinely wanted, verify against Cloudflare's current docs rather
+than reusing the old steps that were here — they described a
+different Cloudflare product shape than what this project's
+`wrangler.toml` uses today.

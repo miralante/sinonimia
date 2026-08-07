@@ -87,7 +87,7 @@ const languages = Object.keys(DICCIONARIOS);
 ok("languages found: " + languages.join(", "));
 
 // --- 4. Every entry: unique id, image present, well-formed example ---
-const VALID_TOPICS = ["tramites", "salud", "vida-diaria", "finanzas", "vivienda", "trabajo", "legal", "tecnologia", "seguridad"];
+const VALID_TOPICS = ["tramites", "salud", "vida-diaria", "finanzas", "vivienda", "trabajo", "legal", "tecnologia", "seguridad", "educacion"];
 const imgDir = path.join(ROOT, "img");
 const imagesOnDisk = fs.readdirSync(imgDir);
 
@@ -277,6 +277,36 @@ const aboutTargets = fs.existsSync(aboutDir)
   });
 });
 ok("index.html, js/i18n.js, and about/*.html do not mention disability, occupational therapy, or minors");
+
+// --- _headers: CSP source-expression quoting ---
+// Every quoted Content-Security-Policy source expression (e.g. 'self')
+// must have exactly one leading and one trailing quote — catches
+// malformed quoting like ''self'' that browsers silently drop, turning
+// a directive into "block everything". This bit the sibling teclatlon
+// project in production; see its CLOUDFLARE.md for the story.
+(function () {
+  var headersContent = fs.readFileSync(path.join(ROOT, "_headers"), "utf8");
+  var malformed = [];
+  headersContent.split("\n").filter(function (line) {
+    return /^\s*Content-Security-Policy:/i.test(line);
+  }).forEach(function (line) {
+    var value = line.replace(/^\s*Content-Security-Policy:/i, "");
+    value.split(";").forEach(function (directive) {
+      directive.trim().split(/\s+/).filter(Boolean).forEach(function (token) {
+        var quoteCount = (token.match(/'/g) || []).length;
+        if (quoteCount === 0) return;
+        var wellFormed = quoteCount === 2 && token[0] === "'" && token[token.length - 1] === "'";
+        if (!wellFormed) malformed.push(token);
+      });
+    });
+  });
+  if (malformed.length) {
+    fail("_headers: malformed CSP source expression(s): " + malformed.join(", ") +
+      " — quotes should wrap the keyword exactly once (e.g. 'self', not ''self'')");
+  } else {
+    ok("_headers: CSP source expressions are quoted correctly");
+  }
+})();
 
 // --- Result ---
 console.log("");

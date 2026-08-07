@@ -73,23 +73,24 @@ exist in every language, and that the ids `js/app.js` uses exist in
 ## Deploying
 
 Sinonimia is a fully static site (HTML/CSS/JS, no build step), so it
-ships directly to **[Cloudflare Pages](https://pages.cloudflare.com)**
+ships directly to **[Cloudflare Workers (static assets)](https://developers.cloudflare.com/workers/static-assets/)**
 through its built-in GitHub integration — there is no custom GitHub
 Actions workflow. The HTTP headers security policy is in
-[`_headers`](_headers). See [`CLOUDFLARE.md`](CLOUDFLARE.md) for the runbook.
+[`_headers`](_headers), and the static-assets binding is in
+[`wrangler.toml`](wrangler.toml). See [`CLOUDFLARE.md`](CLOUDFLARE.md) for the runbook.
 
 To deploy your own fork:
 
-1. Create a Cloudflare Pages project from this repo in the dashboard
-   (**Workers & Pages → Create → Pages → Connect to Git**). Build
-   command is empty; output directory is `.`.
+1. Create a Cloudflare Workers project from this repo in the dashboard
+   (**Workers & Pages → Create → Connect to Git**). Build command is
+   empty; `wrangler.toml` declares the static-assets directory.
 2. Push to `main`. Cloudflare rebuilds and deploys automatically. The
    validation workflow ([`.github/workflows/validate.yml`](.github/workflows/validate.yml))
    still runs on every push and PR to gate content, but it does not
    deploy.
 
-Pull requests automatically get a preview URL on `*.pages.dev` — no
-extra workflow is needed.
+Pull requests automatically get a preview URL — no extra workflow is
+needed.
 
 ## Expanding the dictionary
 
@@ -108,13 +109,16 @@ The `scripts/.cache/` directory (frequency-word lists downloaded by
 `candidatos-corpus.js`) can be cleared with:
 
 ```
-npm run clean-cache          # dry-run: shows what would be removed
-node scripts/limpiar-cache.js --apply   # actually delete it
+node scripts/limpiar-cache.js            # dry-run: shows what would be removed
+node scripts/limpiar-cache.js --apply    # actually delete it
 ```
 
 The next call to `candidatos-corpus.js` rebuilds the cache automatically.
-`scripts/.scratch/` (the maintainer's one-off exploration scripts) is
-**not** touched by this command — clear it by hand if you want to.
+`scripts/ingest/` (the maintainer's batch pipeline, batch/fix data
+files, and one-off exploration scripts) is **not** touched by this
+command — clear it by hand if you want to, or read
+[`scripts/ingest/README.md`](scripts/ingest/README.md) to see what's
+in there and how it's organized.
 
 ## License
 
