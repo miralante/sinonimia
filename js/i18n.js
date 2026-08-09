@@ -55,6 +55,7 @@ const I18N = {
     tema_legal: "Legal",
     tema_tecnologia: "Tecnología",
     tema_seguridad: "Seguridad",
+    tema_educacion: "Educación",
 
     alfabetoLabel: "Buscar por letra inicial",
     listaLabel: "Lista de palabras",
@@ -158,6 +159,7 @@ const I18N = {
     tema_legal: "Legal",
     tema_tecnologia: "Technology",
     tema_seguridad: "Safety",
+    tema_educacion: "Education",
 
     alfabetoLabel: "Browse by first letter",
     listaLabel: "List of words",
