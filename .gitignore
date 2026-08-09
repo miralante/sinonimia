@@ -6,8 +6,10 @@ Thumbs.db
 .idea/
 # Ficheros scratch de sesiones del editor/agente (no forman parte del repo)
 .tmp*
-# Scripts de exploración one-off del mantenedor (no son tests, no son CI)
-scripts/.scratch/
+# Scripts de exploraciÃ³n / ingest / one-off del mantenedor
+# (no son tests, no son CI; el README en scripts/ingest/README.md
+#  explica quÃ© hay en cada subdirectorio).
+scripts/ingest/
 # Notas/workspace personal del mantenedor (otros productos, .code-workspace local)
 ,dev/
 
@@ -21,6 +23,10 @@ graphify-out/
 
 # Cachés que generan los scripts de mantenimiento (buscar-pictograma.js, etc.)
 scripts/.cache/
+scripts/ingest/.cache/
+# Dependencias locales de scripts de la pipeline (msgpackr, etc.); se
+# reinstalan con `npm install` al ejecutar el script si faltan.
+scripts/ingest/pipeline/node_modules_root/
 
 # Corpus de palabras fuente en formato borrador (no es contenido publicado;
 # el diccionario vive en js/data.<lang>.js).

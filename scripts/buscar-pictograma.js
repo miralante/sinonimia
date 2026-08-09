@@ -20,8 +20,12 @@
  *      form asks for an organization name, an email, and what you'll use it
  *      for. The script exchanges that secret for a short-lived access
  *      token on every run.
- *   2. NEVER commit that secret or put it in any file under version
- *      control. Pass it only as an environment variable at run time.
+ *   2. NEVER commit that secret. It can be passed as an environment
+ *      variable at run time, or kept in a project-root `.env` file
+ *      (`OPENSYMBOLS_SECRET=xxxx`, gitignored, loaded automatically below).
+ *      Note this repo lives under OneDrive, which syncs the whole tree to
+ *      the cloud — a `.env` here is convenient but not local-only the way
+ *      it would be outside a synced folder.
  *
  *   If you already have a short-lived access token (the JSON the secret
  *   exchange returns, e.g. {"access_token": "temp::...", "expires": "..."}),
@@ -47,6 +51,21 @@
  * (js/i18n.js's `pieCreditosHtml` key) needs updating in the same change
  * to credit that bank too. See doc/en/technical.md's "Pictograms" section.
  */
+
+function loadDotEnv() {
+  const fs = require("fs");
+  const path = require("path");
+  const envPath = path.join(__dirname, "..", ".env");
+  if (!fs.existsSync(envPath)) return;
+  for (const line of fs.readFileSync(envPath, "utf8").split(/\r?\n/)) {
+    const m = /^\s*([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*)\s*$/.exec(line);
+    if (!m) continue;
+    const key = m[1];
+    const value = m[2].replace(/^["']|["']$/, "");
+    if (!(key in process.env)) process.env[key] = value;
+  }
+}
+loadDotEnv();
 
 const secret = process.env.OPENSYMBOLS_SECRET;
 const presetToken = process.env.OPENSYMBOLS_TOKEN;
