@@ -127,14 +127,22 @@
     });
   }
 
+  // Sorted fresh from activeDictionary on every call (never cached) so it
+  // always reflects whatever words are currently in js/data.<lang>.js — the
+  // dictionary is under active ingestion and gains new entries often, and
+  // this order also drives the detail page's previous/next navigation.
+  function alphabeticalEntries() {
+    return activeDictionary.slice().sort(function (a, b) {
+      return a.palabra.localeCompare(b.palabra, currentLanguage);
+    });
+  }
+
   function filteredEntries() {
     var query = normalize(searchInput.value || "");
-    return activeDictionary.filter(function (entry) {
+    return alphabeticalEntries().filter(function (entry) {
       if (state.topic !== "todos" && entry.situacion !== state.topic) return false;
       if (state.letter && normalize(entry.palabra).charAt(0) !== state.letter) return false;
       return matchesSearch(entry, query);
-    }).sort(function (a, b) {
-      return a.palabra.localeCompare(b.palabra, currentLanguage);
     });
   }
 
@@ -212,7 +220,7 @@
       if (isLearned(entry.id)) {
         var badge = document.createElement("span");
         badge.className = "tarjeta-aprendida";
-        badge.setAttribute("aria-label", t("yaDescubierta"));
+        badge.setAttribute("aria-label", t("alreadyDiscovered"));
         badge.textContent = "✓";
         a.appendChild(badge);
       }
@@ -224,8 +232,8 @@
 
     noResults.hidden = results.length !== 0;
     resultsInfo.textContent = results.length === 1
-      ? t("resultadoUno")
-      : t("resultadosVarios", { n: results.length });
+      ? t("resultOne")
+      : t("resultsMany", { n: results.length });
 
     updateAlphabetVisual();
   }
@@ -254,16 +262,38 @@
     return p;
   }
 
+  // Previous/next always walk the whole dictionary in alphabetical order
+  // (not the list view's current search/topic/letter filters), so a word
+  // reached directly (a link, a game, a bookmark) has stable neighbors
+  // regardless of how the visitor got there.
+  function buildWordNavLink(direction, targetEntry) {
+    var el;
+    if (targetEntry) {
+      el = document.createElement("a");
+      el.href = wordLink(targetEntry.id);
+      el.setAttribute(
+        "aria-label",
+        t(direction === "anterior" ? "previousWordAria" : "nextWordAria", { palabra: targetEntry.palabra })
+      );
+    } else {
+      el = document.createElement("span");
+      el.setAttribute("aria-hidden", "true");
+    }
+    el.className = "detalle-navegacion-enlace detalle-navegacion-" + direction;
+    el.textContent = t(direction === "anterior" ? "previousWord" : "nextWord");
+    return el;
+  }
+
   function renderDetail(id) {
     var entry = entryById[id];
     if (!entry) {
       detailView.innerHTML = "";
       var notFound = document.createElement("p");
-      notFound.textContent = t("noEncontrada");
+      notFound.textContent = t("wordNotFound");
       var notFoundBackLink = document.createElement("a");
-      notFoundBackLink.className = "volver";
+      notFoundBackLink.className = "backToSearch";
       notFoundBackLink.href = "#/" + currentLanguage + "/";
-      notFoundBackLink.textContent = t("volver");
+      notFoundBackLink.textContent = t("backToSearch");
       detailView.appendChild(notFound);
       detailView.appendChild(notFoundBackLink);
       showView("detalle");
@@ -274,9 +304,9 @@
     detailView.innerHTML = "";
 
     var backLink = document.createElement("a");
-    backLink.className = "volver";
+    backLink.className = "backToSearch";
     backLink.href = "#/" + currentLanguage + "/";
-    backLink.textContent = t("volver");
+    backLink.textContent = t("backToSearch");
     detailView.appendChild(backLink);
 
     var header = document.createElement("div");
@@ -297,7 +327,7 @@
 
     var topicPill = document.createElement("span");
     topicPill.className = "tema-pill";
-    topicPill.textContent = t("tema_" + entry.situacion);
+    topicPill.textContent = t("topic_" + entry.situacion);
     titleBox.appendChild(topicPill);
 
     header.appendChild(titleBox);
@@ -309,7 +339,7 @@
     detailView.appendChild(def);
 
     var synonymsHeading = document.createElement("h3");
-    synonymsHeading.textContent = t("seDiceTambien");
+    synonymsHeading.textContent = t("alsoKnownAs");
     detailView.appendChild(synonymsHeading);
 
     var synonymsList = document.createElement("ul");
@@ -335,7 +365,7 @@
           if (index > 0) li.appendChild(document.createTextNode(" / "));
           var link = document.createElement("a");
           link.href = wordLink(relatedEntry.id);
-          link.textContent = t("tema_" + relatedEntry.situacion);
+          link.textContent = t("topic_" + relatedEntry.situacion);
           li.appendChild(link);
         });
         li.appendChild(document.createTextNode(")"));
@@ -345,7 +375,7 @@
     detailView.appendChild(synonymsList);
 
     var exampleHeading = document.createElement("h3");
-    exampleHeading.textContent = t("enFrase");
+    exampleHeading.textContent = t("inASentence");
     detailView.appendChild(exampleHeading);
 
     var sentences = document.createElement("div");
@@ -354,7 +384,7 @@
 
     var simplifiedLabel = document.createElement("p");
     simplifiedLabel.className = "equivale";
-    simplifiedLabel.textContent = t("dichoFormaSencilla");
+    simplifiedLabel.textContent = t("saidSimply");
     sentences.appendChild(simplifiedLabel);
 
     sentences.appendChild(createHighlightedSentence(entry.ejemploSinonimo.texto, entry.ejemploSinonimo.palabra));
@@ -370,8 +400,8 @@
         var translationLink = document.createElement("a");
         translationLink.className = "detalle-traduccion";
         translationLink.href = "#/" + translation.language + "/palabra/" + translation.entry.id;
-        translationLink.textContent = t("verEnOtroIdioma", {
-          idioma: t("idiomaNombre_" + translation.language),
+        translationLink.textContent = t("viewInOtherLanguage", {
+          idioma: t("languageName_" + translation.language),
           palabra: translation.entry.palabra,
         });
         translationsBox.appendChild(translationLink);
@@ -379,7 +409,19 @@
       detailView.appendChild(translationsBox);
     }
 
-    document.title = entry.palabra + t("tituloDetalleSufijo");
+    var ordered = alphabeticalEntries();
+    var currentIndex = ordered.indexOf(entry);
+    var previousEntry = currentIndex > 0 ? ordered[currentIndex - 1] : null;
+    var nextEntry = currentIndex < ordered.length - 1 ? ordered[currentIndex + 1] : null;
+
+    var wordNav = document.createElement("nav");
+    wordNav.className = "detalle-navegacion";
+    wordNav.setAttribute("aria-label", t("wordNavLabel"));
+    wordNav.appendChild(buildWordNavLink("anterior", previousEntry));
+    wordNav.appendChild(buildWordNavLink("siguiente", nextEntry));
+    detailView.appendChild(wordNav);
+
+    document.title = entry.palabra + t("detailTitleSuffix");
     h2.focus();
 
     markLearned(entry.id);
@@ -410,12 +452,12 @@
     section.className = "tu-frase";
 
     var h3 = document.createElement("h3");
-    h3.textContent = t("fraseTuTurno");
+    h3.textContent = t("yourTurn");
     section.appendChild(h3);
 
     var instructions = document.createElement("p");
     instructions.className = "ayuda-texto";
-    instructions.textContent = t("fraseInstruccion");
+    instructions.textContent = t("sentenceInstruction");
     section.appendChild(instructions);
 
     var fieldId = "tu-frase-campo-" + entry.id;
@@ -427,18 +469,18 @@
     var label = document.createElement("label");
     label.setAttribute("for", fieldId);
     label.className = "tu-frase-label";
-    label.textContent = t("fraseLabel");
+    label.textContent = t("sentenceLabel");
 
     var field = document.createElement("textarea");
     field.id = fieldId;
     field.rows = 2;
-    field.placeholder = t("frasePlaceholder");
+    field.placeholder = t("sentencePlaceholder");
     field.value = mySentences()[entry.id] || "";
 
     var saveBtn = document.createElement("button");
     saveBtn.type = "submit";
     saveBtn.className = "boton-cta boton-secundario";
-    saveBtn.textContent = t("fraseGuardar");
+    saveBtn.textContent = t("saveSentence");
 
     var notice = document.createElement("p");
     notice.className = "tu-frase-aviso";
@@ -448,7 +490,7 @@
     function showAsSaved(text) {
       notice.innerHTML = "";
       var savedLabel = document.createElement("strong");
-      savedLabel.textContent = t("fraseGuardadaAviso") + " ";
+      savedLabel.textContent = t("sentenceSavedNotice") + " ";
       var quotedText = document.createElement("span");
       quotedText.className = "tu-frase-texto";
       quotedText.textContent = "“" + text + "”";
@@ -515,7 +557,7 @@
     } else if (parts[1] === "juego") {
       renderGameMenu();
     } else {
-      document.title = t("metaTitulo");
+      document.title = t("metaTitle");
       renderList();
     }
   }
@@ -523,10 +565,10 @@
   // --- Apply the interface's fixed texts for the current language ---
   function applyStaticTexts() {
     document.documentElement.lang = t("htmlLang");
-    document.title = t("metaTitulo");
+    document.title = t("metaTitle");
 
     var metaDescriptionEl = document.querySelector('meta[name="description"]');
-    if (metaDescriptionEl) metaDescriptionEl.setAttribute("content", t("metaDescripcion"));
+    if (metaDescriptionEl) metaDescriptionEl.setAttribute("content", t("metaDescription"));
 
     document.querySelectorAll("[data-i18n]").forEach(function (el) {
       el.textContent = t(el.getAttribute("data-i18n"));
@@ -677,8 +719,8 @@
     var percentage = total === 0 ? 0 : Math.round((learnedCount / total) * 100);
 
     progressText.textContent = learnedCount === 0
-      ? t("progresoNinguna")
-      : t("progresoParcial", { n: learnedCount, total: total }) + (learnedCount === total ? t("progresoCompleto") : "");
+      ? t("progressNone")
+      : t("progressPartial", { n: learnedCount, total: total }) + (learnedCount === total ? t("progressComplete") : "");
 
     progressBar.setAttribute("aria-valuenow", String(percentage));
     progressBarFill.style.width = percentage + "%";
@@ -711,7 +753,7 @@
     document.getElementById("hero-cta").href = wordLink(wordOfDay.id);
   }
 
-  document.getElementById("sorprendeme").addEventListener("click", function () {
+  document.getElementById("surpriseMe").addEventListener("click", function () {
     if (activeDictionary.length === 0) return;
     var random = activeDictionary[Math.floor(Math.random() * activeDictionary.length)];
     location.hash = wordLink(random.id);
@@ -749,7 +791,7 @@
 
   function createBackLink(text, href) {
     var backLink = document.createElement("a");
-    backLink.className = "volver";
+    backLink.className = "backToSearch";
     backLink.href = href;
     backLink.textContent = text;
     return backLink;
@@ -758,7 +800,7 @@
   function createScoreBadge() {
     var scoreEl = document.createElement("p");
     scoreEl.className = "juego-aciertos";
-    scoreEl.textContent = t("juegoAciertos", { n: savedScore() });
+    scoreEl.textContent = t("gameScore", { n: savedScore() });
     return scoreEl;
   }
 
@@ -766,16 +808,16 @@
     showView("juego");
     gameView.innerHTML = "";
 
-    gameView.appendChild(createBackLink(t("volver"), "#/" + currentLanguage + "/"));
+    gameView.appendChild(createBackLink(t("backToSearch"), "#/" + currentLanguage + "/"));
 
     var h2 = document.createElement("h2");
     h2.tabIndex = -1;
-    h2.textContent = t("juegoMenuTitulo");
+    h2.textContent = t("gameMenuTitle");
     gameView.appendChild(h2);
 
     var instructions = document.createElement("p");
     instructions.className = "ayuda-texto";
-    instructions.textContent = t("juegoMenuInstruccion");
+    instructions.textContent = t("gameMenuInstruction");
     gameView.appendChild(instructions);
 
     gameView.appendChild(createScoreBadge());
@@ -784,8 +826,8 @@
     menu.className = "juego-menu";
 
     [
-      { href: "palabra", title: t("juegoPalabraTitulo"), desc: t("juegoPalabraDescripcion"), icon: "🖼️" },
-      { href: "frase", title: t("juegoFraseTitulo"), desc: t("juegoFraseDescripcion"), icon: "✏️" },
+      { href: "palabra", title: t("wordGameTitle"), desc: t("wordGameDescription"), icon: "🖼️" },
+      { href: "frase", title: t("sentenceGameTitle"), desc: t("sentenceGameDescription"), icon: "✏️" },
     ].forEach(function (option) {
       var card = document.createElement("a");
       card.className = "juego-menu-opcion";
@@ -817,7 +859,7 @@
   function checkTooFewWords(h2) {
     if (activeDictionary.length >= MIN_WORDS_FOR_GAME) return false;
     var notice = document.createElement("p");
-    notice.textContent = t("juegoPocasPalabras");
+    notice.textContent = t("gameTooFewWords");
     gameView.appendChild(notice);
     h2.focus();
     return true;
@@ -853,18 +895,18 @@
     showView("juego");
     gameView.innerHTML = "";
 
-    gameView.appendChild(createBackLink(t("juegoVolverMenu"), "#/" + currentLanguage + "/juego"));
+    gameView.appendChild(createBackLink(t("gameBackToMenu"), "#/" + currentLanguage + "/juego"));
 
     var h2 = document.createElement("h2");
     h2.tabIndex = -1;
-    h2.textContent = t("juegoPalabraTitulo");
+    h2.textContent = t("wordGameTitle");
     gameView.appendChild(h2);
 
     if (checkTooFewWords(h2)) return;
 
     var instructions = document.createElement("p");
     instructions.className = "ayuda-texto";
-    instructions.textContent = t("juegoPalabraInstruccion");
+    instructions.textContent = t("wordGameInstruction");
     gameView.appendChild(instructions);
 
     var scoreEl = createScoreBadge();
@@ -887,7 +929,7 @@
 
     var topicPill = document.createElement("span");
     topicPill.className = "tema-pill";
-    topicPill.textContent = t("tema_" + target.situacion);
+    topicPill.textContent = t("topic_" + target.situacion);
     content.appendChild(topicPill);
 
     var def = document.createElement("p");
@@ -923,22 +965,22 @@
           Array.prototype.forEach.call(options.children, function (other) {
             other.disabled = true;
           });
-          message.textContent = t("juegoCorrecto");
+          message.textContent = t("gameCorrect");
           message.className = "juego-mensaje juego-mensaje-correcto";
-          scoreEl.textContent = t("juegoAciertos", { n: addPoint() });
+          scoreEl.textContent = t("gameScore", { n: addPoint() });
           markScoreEarned(scoreEl);
 
           var nextBtn = document.createElement("button");
           nextBtn.type = "button";
           nextBtn.className = "boton-cta";
-          nextBtn.textContent = t("juegoSiguiente");
+          nextBtn.textContent = t("gameNext");
           nextBtn.addEventListener("click", renderWordGame);
           gameView.appendChild(nextBtn);
           nextBtn.focus();
         } else {
           btn.classList.add("incorrecta");
           btn.disabled = true;
-          message.textContent = t("juegoPalabraIncorrecto");
+          message.textContent = t("wordGameIncorrect");
           message.className = "juego-mensaje juego-mensaje-incorrecto";
         }
       });
@@ -978,18 +1020,18 @@
     showView("juego");
     gameView.innerHTML = "";
 
-    gameView.appendChild(createBackLink(t("juegoVolverMenu"), "#/" + currentLanguage + "/juego"));
+    gameView.appendChild(createBackLink(t("gameBackToMenu"), "#/" + currentLanguage + "/juego"));
 
     var h2 = document.createElement("h2");
     h2.tabIndex = -1;
-    h2.textContent = t("juegoFraseTitulo");
+    h2.textContent = t("sentenceGameTitle");
     gameView.appendChild(h2);
 
     if (checkTooFewWords(h2)) return;
 
     var instructions = document.createElement("p");
     instructions.className = "ayuda-texto";
-    instructions.textContent = t("juegoFraseInstruccion");
+    instructions.textContent = t("sentenceGameInstruction");
     gameView.appendChild(instructions);
 
     var scoreEl = createScoreBadge();
@@ -1003,7 +1045,7 @@
 
     var topicPill = document.createElement("span");
     topicPill.className = "tema-pill";
-    topicPill.textContent = t("tema_" + target.situacion);
+    topicPill.textContent = t("topic_" + target.situacion);
     clue.appendChild(topicPill);
 
     clue.appendChild(createSentenceWithBlank(target.ejemplo.texto, target.ejemplo.palabra));
@@ -1039,22 +1081,22 @@
           });
           clue.innerHTML = "";
           clue.appendChild(createHighlightedSentence(target.ejemplo.texto, target.ejemplo.palabra));
-          message.textContent = t("juegoCorrecto");
+          message.textContent = t("gameCorrect");
           message.className = "juego-mensaje juego-mensaje-correcto";
-          scoreEl.textContent = t("juegoAciertos", { n: addPoint() });
+          scoreEl.textContent = t("gameScore", { n: addPoint() });
           markScoreEarned(scoreEl);
 
           var nextBtn = document.createElement("button");
           nextBtn.type = "button";
           nextBtn.className = "boton-cta";
-          nextBtn.textContent = t("juegoSiguiente");
+          nextBtn.textContent = t("gameNext");
           nextBtn.addEventListener("click", renderSentenceGame);
           gameView.appendChild(nextBtn);
           nextBtn.focus();
         } else {
           btn.classList.add("incorrecta");
           btn.disabled = true;
-          message.textContent = t("juegoFraseIncorrecto");
+          message.textContent = t("sentenceGameIncorrect");
           message.className = "juego-mensaje juego-mensaje-incorrecto";
         }
       });

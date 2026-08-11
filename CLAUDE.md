@@ -44,7 +44,7 @@ violation.
   js/i18n.js (one I18N.<lang> block per language); dictionary
   content lives in js/data.<lang>.js. Identifiers that are deliberately
   kept in Spanish are listed in doc/en/technical.md (e.g. dictionary
-  schema field names, I18N keys, localStorage keys, URL route
+  schema field names, localStorage keys, URL route
   segments) — read that list before renaming anything, since those are
   shared data contracts.
 - **Product changes apply to all locales by default**: any change to
@@ -100,7 +100,7 @@ breakdown, the routing/state model, the dictionary entry shape, the ARASAAC
 pictogram system, and the gamification system. It also documents the
 project's language policy (English for code/comments, Spanish/English for
 product content) and the specific identifiers that are deliberately kept in
-Spanish (dictionary schema field names, `I18N` keys, HTML/CSS identifiers,
+Spanish (dictionary schema field names, HTML/CSS identifiers,
 `localStorage` keys, URL route segments) — read that list before renaming
 anything, since those are shared data contracts, not stray leftovers.
 
@@ -120,9 +120,16 @@ tracked docs (`index.html`, `404.html`, `wrangler.toml`, this file, the
 READMEs, etc.). When you (the agent) need to explore — batch-search
 ARASAAC for a list of candidate terms, dump corpus entries to inspect
 them, prototype a fallback strategy — the scratch script **must** live
-in [`scripts/.scratch/`](scripts/.scratch/README.md), named
+in [`scripts/ingest/explore/`](scripts/ingest/README.md), named
 `<topic>_<purpose>.js` (no leading dot). **Do not** write `.tmp_*.js`,
 `scratch.js`, or any other throwaway `.js`/`.sh` directly under the
 repo root, even if you plan to delete it in the same session — `.gitignore`
 ignores it but the root is not a scratch directory. The full rule and
-rationale are in [`scripts/.scratch/README.md`](scripts/.scratch/README.md).
+rationale are in [`scripts/ingest/README.md`](scripts/ingest/README.md).
+
+`scripts/ingest/` also holds the batch-ingestion pipeline
+(`pipeline/`), batch/fix data files (`batches/`, `fixes/`) and
+ephemeral artifacts (`one-off/`). Those are the maintainer's working
+area, not the agent's. The agent should not add, edit, or move
+anything under `scripts/ingest/` unless the user explicitly asks for
+batch work.

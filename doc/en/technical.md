@@ -33,11 +33,6 @@ because they are shared data contracts, not implementation details:
   entries across every language file and the schema documentation in
   `doc/*/SPEC.md` and `../../CONTRIBUTING.md`/`../../CONTRIBUTING.es.md`,
   which teach contributors how to add a word using these exact field names.
-- **`I18N` keys** in `js/i18n.js` (e.g. `heroEtiqueta`, `buscarPlaceholder`,
-  `tema_tramites`) — referenced verbatim in `index.html`'s
-  `data-i18n="..."` attributes and in `js/app.js`'s `t("...")` calls.
-  Renaming them means touching every reference in lockstep across three
-  files.
 - **HTML `id`/`class` attributes and their CSS selectors** (e.g.
   `#vista-lista`, `.tarjeta`, `.boton-cta`) — shared literally between
   `index.html`, `css/styles.css`, and the string literals `js/app.js` passes
@@ -53,9 +48,14 @@ because they are shared data contracts, not implementation details:
 
 Everything else — function names, local variables, parameters, and every
 comment in `js/app.js`, `js/i18n.js`, `js/data.*.js`, `css/styles.css`, and
-`scripts/validar.js` — is English. If you're adding new code, follow that;
-if you're touching one of the exceptions above, touch it everywhere it's
-used or not at all.
+`scripts/validar.js` — is English. That includes the `I18N` object's keys
+in `js/i18n.js` (e.g. `heroLabel`, `searchPlaceholder`, `topic_tramites`):
+they are English identifiers like the rest of the code, referenced
+verbatim in `index.html`'s `data-i18n="..."` attributes and in
+`js/app.js`'s `t("...")` calls — only their *values* are per-language,
+matching the convention used in the sibling project apptonomia. If you're
+adding new code, follow that; if you're touching one of the exceptions
+above, touch it everywhere it's used or not at all.
 
 ## System overview
 
@@ -225,7 +225,7 @@ itself — so the next person to touch it knows exactly what to do.
   The full step-by-step for a new language — including the mirrored
   strings in `js/bootstrap-i18n.js`, the `about.js` whitelist and the
   parallel `data-lang-block` blocks on `about/*` and `404.html`, and
-  the `idiomaNombre_<lang>` key that has to be added in **every**
+  the `languageName_<lang>` key that has to be added in **every**
   existing `I18N` block — is in [`languages.md`](languages.md) (or
   [`../es/idiomas.md`](../es/idiomas.md) in Spanish). That document is
   the canonical "how to add a language" reference; the SPEC.md /
@@ -259,11 +259,11 @@ Every entry (see the Naming exceptions above for why these field names stay
 Spanish) has: `id`, `palabra`, `imagen: {id, alt}`, `definicion`,
 `sinonimos[]`, `ejemplo: {palabra, texto}`, `ejemploSinonimo: {palabra,
 texto}`, `situacion`, and **optionally** `traduccion`. `situacion` is one
-of nine values shared across every language (`tramites`, `salud`,
+of ten values shared across every language (`tramites`, `salud`,
 `vida-diaria`, `finanzas`, `vivienda`, `trabajo`, `legal`, `tecnologia`,
-`seguridad`) — it's a
+`seguridad`, `educacion`) — it's a
 filter key, not display text; its label per language lives in
-`js/i18n.js` as `tema_<situacion>`. The `palabra` field *inside*
+`js/i18n.js` as `topic_<situacion>`. The `palabra` field *inside*
 `ejemplo` / `ejemploSinonimo` is the exact inflected/agreed form used
 in that sentence (not necessarily the dictionary headword) — that's
 what `createHighlightedSentence()` and `createSentenceWithBlank()`
@@ -321,7 +321,7 @@ ARASAAC's drawings are language-neutral concepts, not localized text.
 
 ARASAAC's license (CC BY-NC-SA) requires attribution and forbids commercial
 use without ARASAAC's permission; the attribution lives in the page footer
-(`js/i18n.js`'s `pieCreditosHtml` key) and must stay intact.
+(`js/i18n.js`'s `footerCreditsHtml` key) and must stay intact.
 
 **Finding a pictogram**: run `node scripts/buscar-pictograma.js "<term>" es`.
 It tries **[OpenSymbols](https://www.opensymbols.org)** first — an
@@ -362,7 +362,7 @@ human to review; nothing is downloaded or picked automatically.
 **Multi-license caveat**: unlike the ARASAAC-only fallback, an OpenSymbols
 result can come from a bank with a *different* license (e.g. Sclera is
 CC BY-NC, Mulberry is CC BY-SA — check each result's `license`/`author`
-fields). The footer's `pieCreditosHtml` currently only credits ARASAAC; the
+fields). The footer's `footerCreditsHtml` currently only credits ARASAAC; the
 moment a non-ARASAAC image is actually added to `img/`, that key needs to
 grow a credit line for the new bank too. Don't add a non-ARASAAC image
 without updating it in the same change.

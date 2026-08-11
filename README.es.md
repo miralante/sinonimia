@@ -88,14 +88,16 @@ El directorio `scripts/.cache/` (listas de frecuencias de palabras que
 descarga `candidatos-corpus.js`) se puede vaciar con:
 
 ```
-npm run clean-cache          # dry-run: muestra qué se borraría
-node scripts/limpiar-cache.js --apply   # borra de verdad
+node scripts/limpiar-cache.js            # dry-run: muestra qué se borraría
+node scripts/limpiar-cache.js --apply    # borra de verdad
 ```
 
 La siguiente ejecución de `candidatos-corpus.js` reconstruye la caché
-automáticamente. `scripts/.scratch/` (los scripts de exploración one-off
-del mantenedor) **no** se toca con este comando — límpialo a mano si lo
-necesitas.
+automáticamente. `scripts/ingest/` (el pipeline de ingest por lotes
+del mantenedor, los ficheros de datos de batches/fixes, y los scripts
+de exploración one-off) **no** se toca con este comando — límpialo a
+mano si lo necesitas, o lee [`scripts/ingest/README.md`](scripts/ingest/README.md)
+para ver qué hay dentro y cómo está organizado.
 
 ## Licencia
 

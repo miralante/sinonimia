@@ -55,7 +55,7 @@ function allTopicKeys() {
   const keys = new Set();
   languages.forEach(function (lang) {
     Object.keys(I18N[lang]).forEach(function (k) {
-      if (k.indexOf("tema_") === 0) keys.add(k.slice("tema_".length));
+      if (k.indexOf("topic_") === 0) keys.add(k.slice("topic_".length));
     });
   });
   return Array.from(keys).sort();
@@ -72,7 +72,7 @@ languages.forEach(function (lang) {
   console.log("--- " + lang + " (" + entries.length + " words total) ---");
   topics.forEach(function (topic) {
     const list = grouped[topic] || [];
-    const label = I18N[lang]["tema_" + topic] || topic;
+    const label = I18N[lang]["topic_" + topic] || topic;
     const flag = list.length < MIN_WORDS_PER_TOPIC ? "  <- needs more words" : "";
     console.log("  " + topic.padEnd(16) + label.padEnd(16) + list.length + flag);
 

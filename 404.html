@@ -24,13 +24,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title data-i18n="error404Titulo">Sinonimia — Página no encontrada</title>
-<meta name="description" data-i18n="error404Descripcion" content="Página no encontrada.">
+<title data-i18n="error404Title">Sinonimia — Página no encontrada</title>
+<meta name="description" data-i18n="error404Description" content="Página no encontrada.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="page-404">
-<a class="skip-link" href="#contenido" data-i18n="saltarContenido">Saltar al contenido</a>
+<a class="skip-link" href="#contenido" data-i18n="skipToContent">Saltar al contenido</a>
 
 <header class="cabecera">
   <div class="cabecera-fila">
@@ -44,40 +44,40 @@
       <button type="button" class="idioma-btn" data-lang="en" aria-pressed="false">EN</button>
     </div>
 
-    <span class="a11y-etiqueta" id="tamano-label" data-i18n="tamanoLetra">Tamaño de letra</span>
+    <span class="a11y-etiqueta" id="tamano-label" data-i18n="fontSize">Tamaño de letra</span>
     <div class="a11y-grupo" role="group" aria-labelledby="tamano-label">
-      <button type="button" id="letra-menos" data-i18n-aria-label="reducirLetra" aria-label="Reducir tamaño de letra">A−</button>
-      <button type="button" id="letra-normal" data-i18n-aria-label="letraNormal" aria-label="Tamaño de letra normal">A</button>
-      <button type="button" id="letra-mas" data-i18n-aria-label="aumentarLetra" aria-label="Aumentar tamaño de letra">A+</button>
+      <button type="button" id="letra-menos" data-i18n-aria-label="decreaseFontSize" aria-label="Reducir tamaño de letra">A−</button>
+      <button type="button" id="letra-normal" data-i18n-aria-label="normalFontSize" aria-label="Tamaño de letra normal">A</button>
+      <button type="button" id="letra-mas" data-i18n-aria-label="increaseFontSize" aria-label="Aumentar tamaño de letra">A+</button>
     </div>
-    <button type="button" id="contraste-toggle" class="a11y-contraste" aria-pressed="false" data-i18n="altoContraste">
+    <button type="button" id="contraste-toggle" class="a11y-contraste" aria-pressed="false" data-i18n="highContrast">
       Alto contraste
     </button>
   </div>
 </header>
 
 <main id="contenido" class="error-404">
-  <p class="error-404-codigo" data-i18n="error404Titulo">404</p>
-  <h2 class="error-404-encabezado" data-i18n="error404Encabezado">No hemos encontrado esa página</h2>
-  <p class="error-404-descripcion" data-i18n="error404Descripcion">Puede que la dirección esté mal escrita, o que la palabra que buscas no esté en el diccionario todavía.</p>
-  <p class="error-404-sugerencia" data-i18n="error404Sugerencia">Puedes probar con una de estas opciones:</p>
+  <p class="error-404-codigo" data-i18n="error404Title">404</p>
+  <h2 class="error-404-encabezado" data-i18n="error404Heading">No hemos encontrado esa página</h2>
+  <p class="error-404-descripcion" data-i18n="error404Description">Puede que la dirección esté mal escrita, o que la palabra que buscas no esté en el diccionario todavía.</p>
+  <p class="error-404-sugerencia" data-i18n="error404Suggestion">Puedes probar con una de estas opciones:</p>
 
   <div class="error-404-acciones">
-    <a href="#/es/" class="boton-cta" id="error-404-inicio" data-i18n="error404BotonInicio">← Volver al inicio</a>
-    <a href="#/es/juego/palabra" class="boton-cta boton-secundario" id="error-404-azar" data-i18n="error404BotonAleatoria">🎲 Ver una palabra al azar</a>
-    <a href="#/es/juego" class="boton-cta boton-secundario" id="error-404-juego" data-i18n="error404BotonJugar">🎮 Jugar con las palabras</a>
+    <a href="#/es/" class="boton-cta" id="error-404-inicio" data-i18n="error404HomeButton">← Volver al inicio</a>
+    <a href="#/es/juego/palabra" class="boton-cta boton-secundario" id="error-404-azar" data-i18n="error404RandomButton">🎲 Ver una palabra al azar</a>
+    <a href="#/es/juego" class="boton-cta boton-secundario" id="error-404-juego" data-i18n="error404PlayButton">🎮 Jugar con las palabras</a>
   </div>
 </main>
 
 <footer class="pie">
   <div class="pie-mensaje">
-    <p data-i18n="pieMensaje">Sinonimia explica palabras difíciles. Frases cortas. Ejemplos de cada día.</p>
+    <p data-i18n="footerMessage">Sinonimia explica palabras difíciles. Frases cortas. Ejemplos de cada día.</p>
   </div>
-  <p class="pie-creditos" data-i18n-html="pieCreditosHtml">
+  <p class="pie-creditos" data-i18n-html="footerCreditsHtml">
     Pictogramas: <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (CC BY-NC-SA).
   </p>
   <p class="pie-enlaces">
-    <a href="about/privacidad.html" data-i18n-html="piePrivacidadHtml">Privacidad</a>
+    <a href="about/privacidad.html" data-i18n-html="footerPrivacyHtml">Privacidad</a>
   </p>
 </footer>
 
@@ -113,9 +113,9 @@
 
   function repaintStaticTexts() {
     document.documentElement.lang = t("htmlLang");
-    document.title = t("error404Titulo") + " — Sinonimia";
+    document.title = t("error404Title") + " — Sinonimia";
     var metaDescriptionEl = document.querySelector('meta[name="description"]');
-    if (metaDescriptionEl) metaDescriptionEl.setAttribute("content", t("error404Descripcion"));
+    if (metaDescriptionEl) metaDescriptionEl.setAttribute("content", t("error404Description"));
     document.querySelectorAll("[data-i18n]").forEach(function (el) {
       el.textContent = t(el.getAttribute("data-i18n"));
     });

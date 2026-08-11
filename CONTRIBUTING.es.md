@@ -171,19 +171,54 @@ Ejemplos:
      `--ssl-no-revoke`.
    - **Importante sobre la licencia**: si el pictograma elegido no es
      de ARASAAC, anota su banco, licencia y autor — el crédito del
-     pie de página (`js/i18n.js`, clave `pieCreditosHtml`) solo
+     pie de página (`js/i18n.js`, clave `footerCreditsHtml`) solo
      menciona ARASAAC ahora mismo y hay que ampliarlo antes de
      fusionar el cambio. Ver "Pictogramas" en `doc/es/tecnico.md`.
 7. `situacion` tiene que ser una de las claves compartidas por todos
    los idiomas: `tramites`, `salud`, `vida-diaria`, `finanzas`,
-   `vivienda`, `trabajo`, `legal`, `tecnologia` o `seguridad` (ver
+   `vivienda`, `trabajo`, `legal`, `tecnologia`, `seguridad` o
+   `educacion` (ver
    "Arquitectura multi-idioma" en [`doc/es/SPEC.md`](doc/es/SPEC.md)
    para qué cubre cada una). No inventes una clave nueva para dos o
    tres palabras sueltas, y si de verdad hace falta una, añade también
-   su etiqueta en `js/i18n.js` (`tema_<clave>`) para cada idioma.
+   su etiqueta en `js/i18n.js` (`topic_<clave>`) para cada idioma.
 8. Ejecuta `node scripts/validar.js` para asegurarte de que la palabra
    nueva está bien formada y (si añadiste una `traduccion` en el paso
    5) el enlace entre idiomas se resuelve.
+
+### Otras herramientas en `scripts/`
+
+Hay unos cuantos scripts en `scripts/` que no forman parte de "añadir
+una palabra" pero sí del flujo de la web publicada — conviene
+conocerlos:
+
+- **`scripts/inject-translations.js`** — vuelve a aplicar la inyección
+  de traducciones desde `scripts/.mapping.js` a `js/data.es.js`
+  (es idempotente, vía los marcadores `/*traduccion-start*/`).
+  Solo lo necesitas si has cambiado `scripts/.mapping.js` directamente.
+  El camino normal para una palabra nueva es añadir el campo
+  `traduccion` a mano en el bloque de la entrada (paso 5 de arriba) —
+  `inject-translations.js` es el equivalente por lotes.
+- **`scripts/validate-mapping.js`** — comprobación rápida de que todos
+  los ids de `scripts/.mapping.js` siguen existiendo en
+  `js/data.<lang>.js`, y de que cada entrada ES que el fallback de
+  pictograma compartido no puede resolver tiene un `traduccion`
+  explícito en algún sitio. Ejecútalo tras un cambio grande de
+  contenido (un batch grande, un refactor de `js/data.*.js`) para
+  pillar enlaces huérfanos antes de que lleguen a `scripts/validar.js`
+  (que también los pilla, pero con un mensaje de error menos
+  específico).
+- **`scripts/limpiar-cache.js`** — vacía `scripts/.cache/` (las listas
+  de frecuencias que descarga `candidatos-corpus.js`). Seguro de
+  ejecutar; la caché se reconstruye en la siguiente llamada a
+  `candidatos-corpus.js`. **No** toca `scripts/ingest/`.
+
+Para adiciones por lotes (10 o más palabras de golpe) el flujo de
+arriba sigue valiendo, pero conviene conocer el pipeline de ingest en
+`scripts/ingest/pipeline/` — mira [`scripts/ingest/README.md`](scripts/ingest/README.md)
+para el panorama completo (`validar-batch.js`, `dedupe-batch.js`,
+`ingesta_batch.js`, etc.). El mantenedor es quien corre ese pipeline;
+un contribuidor puntual no lo necesita.
 
 ### Cómo añadir un idioma
 
@@ -193,7 +228,7 @@ bloque nuevo en `I18N` (`js/i18n.js`), un archivo `js/data.<idioma>.js`
 nuevo, su `<script>` en `index.html` y un botón en el selector de
 idioma", pero la guía completa cubre el espejo de `bootstrap-i18n.js`,
 la whitelist de `about.js`, los bloques paralelos `data-lang-block` en
-`about/*` y `404.html`, la clave `idiomaNombre_<idioma>` que hay que
+`about/*` y `404.html`, la clave `languageName_<idioma>` que hay que
 añadir en cada bloque `I18N` existente, las convenciones de
 cross-linking con `traduccion`, el umbral de 8 palabras por categoría,
 y un checklist completo. `js/app.js` no se toca: ya funciona con

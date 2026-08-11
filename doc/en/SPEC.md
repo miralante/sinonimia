@@ -127,7 +127,7 @@ answer; it never hands it over directly.
 
 This is rule 4 of the gamification section below (failure message: never
 "Wrong!", always an invitation to re-read the hint or the sentence, as
-`juegoPalabraIncorrecto` already does in `js/i18n.js`). Any new failure
+`wordGameIncorrect` already does in `js/i18n.js`). Any new failure
 message added to the games, in any language, must follow the same pattern.
 
 ## Words with a double meaning
@@ -223,7 +223,7 @@ Rules governing gamification:
    because they don't fit the topic, instead of having to guess among
    similar-looking options.
 6. **Stars as positive reinforcement, never as a score that can be
-   lost.** Every correct answer adds a ⭐ to the counter (`juegoAciertos`
+   lost.** Every correct answer adds a ⭐ to the counter (`gameScore`
    in `js/i18n.js`), with a small animation when it's earned. There are no
    stars that get taken away, no maximum, no leaderboard: they're a
    cumulative reward, not a grade.
@@ -244,7 +244,7 @@ step. Each piece lives in its own file:
 - Each word's `situacion` field uses a **key shared across every
   language**, so the topic filter works the same way in any language. Its
   visible label in each language is defined in `js/i18n.js`
-  (`tema_<key>`), never in the data file. The current keys are:
+  (`topic_<key>`), never in the data file. The current keys are:
 
   - `tramites` — general administrative procedures (notices, resolutions,
     official documents that don't fit better in another category).
@@ -260,15 +260,17 @@ step. Each piece lives in its own file:
     (phone, password, video call...).
   - `seguridad` — emergencies, risk prevention and personal protection
     (evacuation, first aid, reporting abuse...).
+  - `educacion` — school and university procedures and vocabulary
+    (enrolment, tuition, exams, degrees, campus life...).
 
-  These nine categories come from the **IADL (instrumental activities of
+  These ten categories come from the **IADL (instrumental activities of
   daily living)**, the framework occupational therapy uses to identify
   which areas of adult life tend to need more support to gain autonomy —
-  which is why finance, housing, employment, legal, technology, and safety
-  are treated as their own areas instead of a generic "paperwork"
-  catch-all. Don't add a new category for two or three stray words: it
-  needs a real handful of words to justify it, or the topic filter ends up
-  with near-empty boxes.
+  which is why finance, housing, employment, legal, technology, safety,
+  and education are treated as their own areas instead of a generic
+  "paperwork" catch-all. Don't add a new category for two or three stray
+  words: it needs a real handful of words to justify it, or the topic
+  filter ends up with near-empty boxes.
 - The `imagen.id` field is the pictogram's identifier in ARASAAC. ARASAAC
   is a multi-language pictogram bank: the same image serves the same
   concept in any language, so two words in different languages can point
@@ -302,7 +304,7 @@ the day already work for any language that appears in `DICCIONARIOS`.
 The above is the short version. The full step-by-step — including the
 mirrored strings in `js/bootstrap-i18n.js`, the `about.js` whitelist
 and parallel `data-lang-block` blocks on `about/*` and `404.html`,
-the `idiomaNombre_<code>` keys to add in **every** `I18N` block, the
+the `languageName_<code>` keys to add in **every** `I18N` block, the
 `traduccion` cross-linking conventions, the rules around RTL and
 per-locale variants, the per-category 8-word threshold, and a complete
 checklist — lives in [`languages.md`](languages.md) (or
@@ -349,10 +351,10 @@ the dictionary needs to grow:
      technique). A domain ontology (UMLS/SNOMED CT for `salud`, EuroVoc or
      a legal thesaurus for `legal`) doesn't replace this search step: it's
      mainly useful to **classify** candidates you already have into one of
-     the nine categories, because its taxonomy doesn't map 1:1 onto
+     the ten categories, because its taxonomy doesn't map 1:1 onto
      `tramites/salud/vida-diaria/finanzas/vivienda/trabajo/legal/tecnologia/
-     seguridad` (those are AIVD categories, not domain categories) —
-     fitting each term still needs human judgment.
+     seguridad/educacion` (those are AIVD categories, not domain
+     categories) — fitting each term still needs human judgment.
      `node scripts/candidatos-corpus.js <corpus-file.txt> <lang>` implements
      the keyness half: you supply the domain corpus (a `.txt` with real
      excerpts of that category's kind of document), and it compares

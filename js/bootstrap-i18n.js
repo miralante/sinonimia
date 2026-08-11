@@ -17,20 +17,20 @@
  *
  * Adding a new language: see doc/en/I18N.md (or doc/es/I18N.md
  * in Spanish). In short, add an entry to BOOTSTRAP_I18N with htmlLang,
- * metaTitulo, and metaDescripcion mirroring the same keys in
+ * metaTitle, and metaDescription mirroring the same keys in
  * I18N.<code>, and add the code to the AVAILABLE array.
  */
 (function () {
   var BOOTSTRAP_I18N = {
     es: {
       htmlLang: "es",
-      metaTitulo: "Sinonimia \u2014 Diccionario f\u00e1cil de palabras dif\u00edciles",
-      metaDescripcion: "Diccionario en lenguaje sencillo: palabras t\u00e9cnicas y dif\u00edciles de tr\u00e1mites y de salud, explicadas con ejemplos de la vida diaria y sus sin\u00f3nimos."
+      metaTitle: "Sinonimia \u2014 Diccionario f\u00e1cil de palabras dif\u00edciles",
+      metaDescription: "Diccionario en lenguaje sencillo: palabras t\u00e9cnicas y dif\u00edciles de tr\u00e1mites y de salud, explicadas con ejemplos de la vida diaria y sus sin\u00f3nimos."
     },
     en: {
       htmlLang: "en",
-      metaTitulo: "Sinonimia \u2014 An easy dictionary for hard words",
-      metaDescripcion: "A plain-language dictionary: hard official and health words explained with everyday examples and simple synonyms."
+      metaTitle: "Sinonimia \u2014 An easy dictionary for hard words",
+      metaDescription: "A plain-language dictionary: hard official and health words explained with everyday examples and simple synonyms."
     }
   };
   var AVAILABLE = ["es", "en"];
@@ -52,7 +52,7 @@
   var strings = BOOTSTRAP_I18N[lang] || BOOTSTRAP_I18N[DEFAULT];
 
   document.documentElement.lang = strings.htmlLang;
-  document.title = strings.metaTitulo;
+  document.title = strings.metaTitle;
   var metaDesc = document.querySelector('meta[name="description"]');
-  if (metaDesc) metaDesc.setAttribute("content", strings.metaDescripcion);
+  if (metaDesc) metaDesc.setAttribute("content", strings.metaDescription);
 })();

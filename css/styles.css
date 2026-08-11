@@ -83,6 +83,34 @@ input:focus-visible {
 }
 .cabecera-punto { color: var(--color-acento); }
 
+.cabecera-hermanas {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  font-size: 0.78rem;
+  font-weight: 400;
+}
+
+.hermana-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.18rem 0.55rem;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 1.2;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.hermana-pill:hover,
+.hermana-pill:focus-visible {
+  background: rgba(255, 255, 255, 0.22);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
 .tagline {
   margin: 0;
   opacity: 0.92;
@@ -504,6 +532,40 @@ main {
   text-decoration: underline;
 }
 
+.detalle-navegacion {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 2px dashed var(--color-borde);
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.detalle-navegacion-enlace {
+  flex: 1 1 0;
+  max-width: 48%;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio);
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--color-primario-oscuro);
+}
+
+.detalle-navegacion-siguiente {
+  text-align: right;
+}
+
+a.detalle-navegacion-enlace:hover,
+a.detalle-navegacion-enlace:focus {
+  border-color: var(--color-primario);
+  background: var(--color-fondo);
+}
+
+span.detalle-navegacion-enlace {
+  visibility: hidden;
+}
+
 .detalle .definicion {
   font-size: 1.25rem;
   margin: 0 0 1.25rem;
@@ -823,6 +885,18 @@ main {
   color: #9a9a9a;
 }
 
+.pie-proyectos {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.25rem 1.5rem;
+  color: #9a9a9a;
+  font-size: 0.65rem;
+}
+
+.pie-proyectos a {
+  color: #9a9a9a;
+}
+
 body.alto-contraste .pie-mensaje {
   background: #000;
   border-top: 3px solid #fff;
@@ -831,6 +905,12 @@ body.alto-contraste .pie-creditos {
   color: #d0d0d0;
 }
 body.alto-contraste .pie-creditos a {
+  color: #ffff00;
+}
+body.alto-contraste .pie-proyectos {
+  color: #d0d0d0;
+}
+body.alto-contraste .pie-proyectos a {
   color: #ffff00;
 }
 

@@ -38,11 +38,6 @@ implementación:
   `../../CONTRIBUTING.md`/`../../CONTRIBUTING.es.md`, que enseñan a quien
   contribuye a añadir una palabra usando exactamente estos nombres de
   campo.
-- **Las claves de `I18N`** en `js/i18n.js` (por ejemplo `heroEtiqueta`,
-  `buscarPlaceholder`, `tema_tramites`) — referenciadas tal cual en los
-  atributos `data-i18n="..."` de `index.html` y en las llamadas
-  `t("...")` de `js/app.js`. Renombrarlas implica tocar cada referencia a
-  la vez en tres archivos.
 - **Los atributos `id`/`class` de HTML y sus selectores CSS** (por
   ejemplo `#vista-lista`, `.tarjeta`, `.boton-cta`) — compartidos
   literalmente entre `index.html`, `css/styles.css`, y los literales de
@@ -60,9 +55,15 @@ implementación:
 
 Todo lo demás — nombres de función, variables locales, parámetros, y
 cualquier comentario en `js/app.js`, `js/i18n.js`, `js/data.*.js`,
-`css/styles.css` y `scripts/validar.js` — está en inglés. Si añades código
-nuevo, sigue esa norma; si tocas una de las excepciones de arriba, tócala
-en todos los sitios donde se usa o en ninguno.
+`css/styles.css` y `scripts/validar.js` — está en inglés. Esto incluye las
+claves del objeto `I18N` en `js/i18n.js` (por ejemplo `heroLabel`,
+`searchPlaceholder`, `topic_tramites`): son identificadores en inglés como
+el resto del código, referenciadas tal cual en los atributos
+`data-i18n="..."` de `index.html` y en las llamadas `t("...")` de
+`js/app.js` — solo sus *valores* son por idioma, siguiendo la convención
+del proyecto hermano apptonomia. Si añades código nuevo, sigue esa norma;
+si tocas una de las excepciones de arriba, tócala en todos los sitios
+donde se usa o en ninguno.
 
 ## Visión general del sistema
 
@@ -251,7 +252,7 @@ lo toque sepa exactamente qué hacer.
   El paso a paso completo para un idioma nuevo — incluyendo las
   cadenas reflejadas en `js/bootstrap-i18n.js`, la whitelist de
   `about.js` y los bloques paralelos `data-lang-block` en `about/*` y
-  `404.html`, y la clave `idiomaNombre_<idioma>` que hay que añadir en
+  `404.html`, y la clave `languageName_<idioma>` que hay que añadir en
   **cada** bloque `I18N` existente — está en
   [`idiomas.md`](idiomas.md) (o [`../en/languages.md`](../en/languages.md)
   en inglés). Ese documento es la referencia canónica de "cómo añadir
@@ -290,11 +291,11 @@ por qué estos nombres de campo se quedan en español) tiene: `id`,
 `palabra`, `imagen: {id, alt}`, `definicion`, `sinonimos[]`,
 `ejemplo: {palabra, texto}`, `ejemploSinonimo: {palabra, texto}`,
 `situacion`, y **opcionalmente** `traduccion`. `situacion` es uno de
-nueve valores compartidos por todos los idiomas (`tramites`, `salud`,
+diez valores compartidos por todos los idiomas (`tramites`, `salud`,
 `vida-diaria`, `finanzas`, `vivienda`, `trabajo`, `legal`, `tecnologia`,
-`seguridad`) — es una
+`seguridad`, `educacion`) — es una
 clave de filtro, no texto visible; su etiqueta en cada idioma vive en
-`js/i18n.js` como `tema_<situacion>`. El campo `palabra` *dentro* de
+`js/i18n.js` como `topic_<situacion>`. El campo `palabra` *dentro* de
 `ejemplo` / `ejemploSinonimo` es la forma exacta conjugada o
 concordada que aparece en esa frase (no necesariamente la palabra
 cabecera del diccionario) — eso es lo que buscan
@@ -359,7 +360,7 @@ ARASAAC son conceptos sin idioma, no texto localizado.
 
 La licencia de ARASAAC (CC BY-NC-SA) exige atribución y prohíbe el uso
 comercial sin permiso de ARASAAC; la atribución vive en el pie de página
-(clave `pieCreditosHtml` de `js/i18n.js`) y debe mantenerse intacta.
+(clave `footerCreditsHtml` de `js/i18n.js`) y debe mantenerse intacta.
 
 **Buscar un pictograma**: ejecuta
 `node scripts/buscar-pictograma.js "<término>" es`. Primero prueba con
@@ -394,7 +395,7 @@ se descarga ni se elige automáticamente.
 de ARASAAC, un resultado de OpenSymbols puede venir de un banco con una
 licencia *distinta* (por ejemplo Sclera es CC BY-NC, Mulberry es CC
 BY-SA — revisa los campos `license`/`author` de cada resultado). El
-`pieCreditosHtml` del pie de página solo da crédito a ARASAAC ahora
+`footerCreditsHtml` del pie de página solo da crédito a ARASAAC ahora
 mismo; en el momento en que se añada de verdad una imagen que no sea de
 ARASAAC a `img/`, esa clave necesita crecer con una línea de crédito para
 el nuevo banco. No añadas una imagen que no sea de ARASAAC sin

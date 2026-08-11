@@ -164,19 +164,49 @@ Examples:
      `schannel`/certificate-revocation error, add `--ssl-no-revoke`.
    - **Important note on licensing**: if the chosen pictogram isn't from
      ARASAAC, note its bank, license, and author — the footer credit
-     (`js/i18n.js`, key `pieCreditosHtml`) currently only mentions ARASAAC
+     (`js/i18n.js`, key `footerCreditsHtml`) currently only mentions ARASAAC
      and needs to be expanded before merging the change. See "Pictograms"
      in `doc/en/technical.md`.
 7. `situacion` has to be one of the keys shared across every language:
    `tramites`, `salud`, `vida-diaria`, `finanzas`, `vivienda`, `trabajo`,
-   `legal`, `tecnologia`, or `seguridad` (see "Multi-language
+   `legal`, `tecnologia`, `seguridad`, or `educacion` (see "Multi-language
    architecture" in [`doc/en/SPEC.md`](doc/en/SPEC.md) for what each one
    covers). Don't invent a new key for two or three stray words, and if
    one is genuinely needed, also add its label in `js/i18n.js`
-   (`tema_<key>`) for every language.
+   (`topic_<key>`) for every language.
 8. Run `node scripts/validar.js` to make sure the new word is well-formed
    and (if you added a `traduccion` in step 5) the cross-language link
    resolves.
+
+### Other tools in `scripts/`
+
+A few scripts in `scripts/` are not part of "add a word" but are still
+part of the published site workflow — they are worth knowing about:
+
+- **`scripts/inject-translations.js`** — re-runs the translation
+  injection from `scripts/.mapping.js` into `js/data.es.js` (idempotent
+  via `/*traduccion-start*/` markers). You only need this if you
+  changed `scripts/.mapping.js` directly. The normal path for a new
+  word is to add the `traduccion` field by hand on the entry block
+  (step 5 above) — `inject-translations.js` is the batch equivalent.
+- **`scripts/validate-mapping.js`** — sanity check that every id in
+  `scripts/.mapping.js` still exists in `js/data.<lang>.js`, and that
+  every ES entry that the shared-pictogram fallback can't resolve
+  has an explicit `traduccion` somewhere. Run it after a large
+  content change (a big batch, a refactor of `js/data.*.js`) to catch
+  orphaned links before they reach `scripts/validar.js` (which catches
+  them too, but with a less specific error message).
+- **`scripts/limpiar-cache.js`** — clears `scripts/.cache/` (the
+  frequency-word lists downloaded by `candidatos-corpus.js`). Safe to
+  run; the cache rebuilds on the next `candidatos-corpus.js` call.
+  Does **not** touch `scripts/ingest/`.
+
+For batch additions (10+ new words at once) the workflow above still
+applies, but it's worth knowing about the ingestion pipeline under
+`scripts/ingest/pipeline/` — see [`scripts/ingest/README.md`](scripts/ingest/README.md)
+for the full picture (`validar-batch.js`, `dedupe-batch.js`,
+`ingesta_batch.js`, etc.). The maintainer runs that pipeline; a one-off
+contributor doesn't need to.
 
 ### How to add a language
 
@@ -186,7 +216,7 @@ in `I18N` (`js/i18n.js`), a new `js/data.<lang>.js` file, its `<script>`
 tag in `index.html`, and a button in the language selector", but the
 full guide covers the `bootstrap-i18n.js` mirror, the `about.js`
 whitelist, the parallel `data-lang-block` blocks on `about/*` and
-`404.html`, the `idiomaNombre_<lang>` key that has to be added in every
+`404.html`, the `languageName_<lang>` key that has to be added in every
 existing `I18N` block, the `traduccion` cross-link conventions, the
 per-category 8-word threshold, and a complete checklist. `js/app.js`
 doesn't need to be touched: it already works with any language that

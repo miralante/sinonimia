@@ -124,7 +124,7 @@ razonamiento hacia la respuesta, nunca la entrega directamente.
 
 Esto es la regla 4 de la sección de gamificación más abajo (mensaje de
 fallo: nunca "¡Mal!", siempre una invitación a releer la pista o la frase,
-como ya hace `juegoPalabraIncorrecto` en `js/i18n.js`). Cualquier mensaje
+como ya hace `wordGameIncorrect` en `js/i18n.js`). Cualquier mensaje
 de fallo nuevo que se añada a los juegos, en cualquier idioma, debe seguir
 el mismo patrón.
 
@@ -223,7 +223,7 @@ Reglas que mandan sobre la gamificación:
    opciones por no encajar con el tema, en vez de tener que adivinar
    entre opciones parecidas.
 6. **Estrellas como refuerzo positivo, nunca como puntuación que se
-   pueda perder.** Cada acierto suma una ⭐ al contador (`juegoAciertos`
+   pueda perder.** Cada acierto suma una ⭐ al contador (`gameScore`
    en `js/i18n.js`), con una pequeña animación al ganarla. No hay
    estrellas que se quiten, ni un máximo, ni una tabla de clasificación:
    son un premio acumulativo, no una nota.
@@ -245,7 +245,7 @@ su propio archivo:
 - El campo `situacion` de cada palabra usa una **clave común a todos los
   idiomas**, para que el filtro por tema funcione igual en cualquier idioma.
   Su etiqueta visible en cada idioma se define en `js/i18n.js`
-  (`tema_<clave>`), nunca en el archivo de datos. Las claves actuales son:
+  (`topic_<clave>`), nunca en el archivo de datos. Las claves actuales son:
 
   - `tramites` — gestiones administrativas generales (avisos, resoluciones,
     documentos oficiales que no encajan mejor en otra categoría).
@@ -261,15 +261,17 @@ su propio archivo:
     digital (móvil, contraseña, videollamada...).
   - `seguridad` — emergencias, prevención de riesgos y protección personal
     (evacuación, primeros auxilios, denunciar un abuso...).
+  - `educacion` — trámites y vocabulario escolar y universitario
+    (matrícula, tasas académicas, exámenes, títulos, vida en el campus...).
 
-  Estas nueve categorías salen de las **AIVD (actividades instrumentales de
+  Estas diez categorías salen de las **AIVD (actividades instrumentales de
   la vida diaria)**, el marco que usa la terapia ocupacional para identificar
   en qué áreas de la vida adulta suele hacer falta más apoyo para ganar
-  autonomía — de ahí que finanzas, vivienda, trabajo, legal, tecnología y
-  seguridad se traten como áreas propias y no como currículum genérico de
-  "trámites". No añadas una categoría nueva para dos o tres palabras
-  sueltas: hace falta un puñado de palabras reales que la justifiquen, si no
-  el filtro de tema queda con casillas casi vacías.
+  autonomía — de ahí que finanzas, vivienda, trabajo, legal, tecnología,
+  seguridad y educación se traten como áreas propias y no como currículum
+  genérico de "trámites". No añadas una categoría nueva para dos o tres
+  palabras sueltas: hace falta un puñado de palabras reales que la
+  justifiquen, si no el filtro de tema queda con casillas casi vacías.
 - El campo `imagen.id` es el identificador del pictograma en ARASAAC.
   ARASAAC es un banco de pictogramas multi-idioma: la misma imagen sirve
   para el mismo concepto en cualquier idioma, así que dos palabras de
@@ -304,7 +306,7 @@ palabra del día ya funcionan para cualquier idioma que aparezca en
 Lo anterior es la versión corta. El paso a paso completo — incluyendo las
 cadenas reflejadas en `js/bootstrap-i18n.js`, la whitelist de `about.js`
 y los bloques paralelos `data-lang-block` en `about/*` y `404.html`,
-las claves `idiomaNombre_<código>` que hay que añadir en **cada**
+las claves `languageName_<código>` que hay que añadir en **cada**
 bloque `I18N`, las convenciones de cross-linking con `traduccion`, las
 reglas sobre RTL y variantes por locale, el umbral de 8 palabras por
 categoría, y un checklist completo — vive en [`idiomas.md`](idiomas.md)
@@ -353,11 +355,11 @@ diccionario:
      *keyness*). Una ontología de dominio (UMLS/SNOMED CT para `salud`,
      EuroVoc o un tesauro jurídico para `legal`) no sustituye este paso de
      búsqueda: sirve sobre todo para **clasificar** los candidatos que ya
-     tienes en una de las nueve categorías, porque sus taxonomías no
+     tienes en una de las diez categorías, porque sus taxonomías no
      coinciden 1:1 con `tramites/salud/vida-diaria/finanzas/vivienda/
-     trabajo/legal/tecnologia/seguridad` (son categorías AIVD, no
-     categorías de dominio) — sigue haciendo falta criterio humano para
-     encajar cada término.
+     trabajo/legal/tecnologia/seguridad/educacion` (son categorías AIVD,
+     no categorías de dominio) — sigue haciendo falta criterio humano
+     para encajar cada término.
      `node scripts/candidatos-corpus.js <archivo-corpus.txt> <idioma>`
      implementa la parte de *keyness*: tú aportas el corpus de dominio (un
      `.txt` con extractos reales del tipo de documento de esa categoría), y
