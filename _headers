@@ -94,22 +94,31 @@
 # The globs use `*` per the Pages docs (one path segment). Both dictionary
 # files (`data.es.js`, `data.en.js`) match `/js/data.*`.
 #
-# `js/data.*`, `js/i18n.js`, `img/*` change rarely and are big enough to
-# warrant a year-long cache. To bust the dictionary cache when content
-# changes, rename the file (e.g. `data.es.v2.js`) and update the
-# `<script>` tag in `index.html`.
+# `js/data.*` and `img/*` change rarely and are big enough to warrant a
+# year-long cache. To bust the dictionary cache when content changes,
+# rename the file (e.g. `data.es.v2.js`) and update the `<script>` tag
+# in `index.html`.
 #
-# `js/app.js` and `css/styles.css` change every few commits (Safari fix,
-# responsive tweaks, accessibility changes). A year-long `immutable`
-# cache for those leaves every iPhone / locked-down browser stuck on the
-# stale version forever — `immutable` short-circuits even hard refresh,
-# and Safari iOS is more aggressive than Chrome about respecting it.
-# Five minutes is short enough that any visitor who reloads within that
-# window (very common for repeat visits) gets the latest version without
-# a manual "borrar historial y datos de sitios web"; long enough to
-# deduplicate within a single browsing session. If we ever ship a
-# critical fix and can't wait 5 min for users to see it, bump a query
-# string on the <link>/<script> tag in index.html.
+# `js/app.js`, `js/i18n.js` and `css/styles.css` change every few commits
+# (Safari fix, responsive tweaks, accessibility changes, new UI copy). A
+# year-long `immutable` cache for those leaves every iPhone / locked-down
+# browser stuck on the stale version forever — `immutable` short-circuits
+# even hard refresh, and Safari iOS is more aggressive than Chrome about
+# respecting it. `js/i18n.js` specifically must stay in lockstep with
+# `index.html`'s `data-i18n*` attributes (index.html itself is
+# `must-revalidate`, never cached) — a stale immutable `i18n.js` served
+# alongside a fresh `index.html` that references keys the cached copy
+# doesn't have yet renders literal key names instead of text (this
+# happened twice: see the `?v=` query-string bump in the "Bust
+# immutable-cache on JS assets" commit, which is a manual workaround that
+# only works if every editor remembers to bump it on every i18n.js
+# change — this short cache removes that footgun). Five minutes is short
+# enough that any visitor who reloads within that window (very common for
+# repeat visits) gets the latest version without a manual "borrar
+# historial y datos de sitios web"; long enough to deduplicate within a
+# single browsing session. If we ever ship a critical fix and can't wait
+# 5 min for users to see it, bump a query string on the <link>/<script>
+# tag in index.html.
 # ---------------------------------------------------------------------------
 /js/data.*
   Cache-Control: public, max-age=31536000, immutable
@@ -120,4 +129,4 @@
 /js/app.js
   Cache-Control: public, max-age=300
 /js/i18n.js
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=300
