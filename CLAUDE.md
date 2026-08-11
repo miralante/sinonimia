@@ -2,6 +2,15 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Service worker / PWA cache
+
+Sinonimia is **not a PWA** — there is no `sw.js` and no `manifest.json`.
+Pages are served fresh on every visit (the simple plain-HTML dictionary
+use case doesn't justify the offline-app complexity). Unlike Calculia,
+Apptonomia and Teclatlon, there is no `VERSION` to bump here — anything
+you commit is what the next visitor downloads. No cache contract to
+maintain.
+
 ## What this is
 
 Sinonimia is a static, dependency-free plain-language dictionary. It explains

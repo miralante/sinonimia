@@ -207,6 +207,26 @@ usedIds.forEach(function (id) {
 });
 ok("DOM ids checked (" + usedIds.size + ")");
 
+// --- 6b. Every data-i18n* key index.html uses exists in every language ---
+// Unlike the literal t("...") calls checked in step 5, these keys are read
+// dynamically at runtime (js/app.js: el.getAttribute("data-i18n[-html|
+// -placeholder|-aria-label]")), so that static scan can't see them. A typo'd
+// or missing key here doesn't throw — translate() falls back to returning
+// the raw key (js/i18n.js#translate) — so the only symptom is literal key
+// names (e.g. "searchLabel") rendered on the page instead of real text.
+const htmlI18nKeys = new Set();
+const htmlI18nRe = /data-i18n(?:-html|-placeholder|-aria-label)?="([^"]+)"/g;
+while ((m = htmlI18nRe.exec(html))) htmlI18nKeys.add(m[1]);
+
+languages.forEach(function (language) {
+  htmlI18nKeys.forEach(function (key) {
+    if (!(key in I18N[language])) {
+      fail("index.html: missing key \"" + key + "\" for language \"" + language + "\" (used via data-i18n*)");
+    }
+  });
+});
+ok("index.html data-i18n keys checked (" + htmlI18nKeys.size + ") across " + languages.join(", "));
+
 // --- 7. The user-facing product never names disability or minors ---
 // doc/en/SPEC.md's rule ("Mandatory rule: zero mentions in the user-facing
 // product"): every page a visitor can actually reach — index.html,
