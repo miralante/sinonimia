@@ -34,7 +34,7 @@ DICCIONARIOS.en = [
   {
     id: "notice",
     palabra: "Notice",
-    imagen: { id: 2688, alt: "An envelope with a letter" },
+    imagen: { id: 6963, alt: "Letter" },
     definicion: "An official letter. It tells you something.",
     sinonimos: ["letter"],
     ejemplo: { palabra: "notice", texto: "You received a notice from the tax office." },
@@ -54,7 +54,7 @@ DICCIONARIOS.en = [
   {
     id: "appear",
     palabra: "Appear",
-    imagen: { id: 11291, alt: "A judge with a gavel" },
+    imagen: { id: 5990, alt: "Find, turn up, appear" },
     definicion: "To go to a place in person. A judge asks you to.",
     sinonimos: ["show up", "attend"],
     ejemplo: { palabra: "appear", texto: "The witness must appear in court next Monday." },
@@ -176,7 +176,7 @@ DICCIONARIOS.en = [
   {
     id: "balance",
     palabra: "Balance",
-    imagen: { id: 4630, alt: "Euro notes and coins" },
+    imagen: { id: 11256, alt: "Balance, equilibrium" },
     definicion: "The money you have right now in your bank account.",
     sinonimos: ["available money"],
     ejemplo: { palabra: "balance", texto: "You can check your balance at the cash machine." },
@@ -356,7 +356,7 @@ DICCIONARIOS.en = [
   {
     id: "consent",
     palabra: "Consent",
-    imagen: { id: 25698, alt: "A doctor with a paper and a person thinking" },
+    imagen: { id: 27865, alt: "Permission, license, planning permission" },
     definicion: "Saying yes to something, after understanding it well.",
     sinonimos: ["permission", "agreement"],
     ejemplo: { palabra: "consent", texto: "The doctor asked for her consent before the operation." },
@@ -517,7 +517,7 @@ DICCIONARIOS.en = [
   {
     id: "invoice",
     palabra: "Invoice",
-    imagen: { id: 5995, alt: "A bill with a signature line" },
+    imagen: { id: 15517, alt: "Invoice, ticket, bill" },
     definicion: "A paper that says how much you owe. You must pay it before the date on it.",
     sinonimos: ["bill", "payment request"],
     ejemplo: { palabra: "invoice", texto: "The plumber sent an invoice for the repair." },
@@ -539,7 +539,7 @@ DICCIONARIOS.en = [
   {
     id: "lawyer",
     palabra: "Lawyer",
-    imagen: { id: 2636, alt: "A lawyer in court" },
+    imagen: { id: 11160, alt: "Defense lawyer, defence counsel, lawyer" },
     definicion: "A person who knows the law. They help you in court or with papers.",
     sinonimos: ["attorney", "legal advisor"],
     ejemplo: { palabra: "lawyer", texto: "He hired a lawyer to help with the dispute." },
@@ -549,7 +549,7 @@ DICCIONARIOS.en = [
   {
     id: "fine",
     palabra: "Fine",
-    imagen: { id: 10173, alt: "A police officer gives a ticket to a car" },
+    imagen: { id: 5397, alt: "Well, ok, okay" },
     definicion: "Money you must pay when you break a rule. The police or the court sets the amount.",
     sinonimos: ["penalty", "ticket"],
     ejemplo: { palabra: "fine", texto: "She got a fine for parking in the wrong place." },
@@ -1059,7 +1059,7 @@ DICCIONARIOS.en = [
   {
     id: "return-item",
     palabra: "Return",
-    imagen: { id: 9026, alt: "A person returns an object" },
+    imagen: { id: 6248, alt: "Return, turn, turn around" },
     definicion: "To give back something you bought. The shop gives your money back.",
     sinonimos: ["send back", "give the money back"],
     ejemplo: { palabra: "return", texto: "She made a return of the sweater at the shop." },
@@ -1151,7 +1151,7 @@ DICCIONARIOS.en = [
   {
     id: "money-transfer",
     palabra: "Transfer",
-    imagen: { id: 16909, alt: "Money transferred from one bank to another" },
+    imagen: { id: 39072, alt: "Transfer, transfer" },
     definicion: "Moving money from one account to another. The bank does it in a few minutes.",
     sinonimos: ["send money", "move money"],
     ejemplo: { palabra: "transfer", texto: "He made a transfer to his landlord from his account." },
@@ -1171,7 +1171,7 @@ DICCIONARIOS.en = [
   {
     id: "bank-place",
     palabra: "Bank",
-    imagen: { id: 3062, alt: "A bank building" },
+    imagen: { id: 36828, alt: "Bank" },
     definicion: "A place where you keep your money, take loans or make payments.",
     sinonimos: ["banking place", "money place"],
     ejemplo: { palabra: "bank", texto: "He goes to the bank every Friday to take out money." },
@@ -1251,7 +1251,7 @@ DICCIONARIOS.en = [
   {
     id: "income-money",
     palabra: "Income",
-    imagen: { id: 4630, alt: "Euro notes and coins" },
+    imagen: { id: 36346, alt: "Income" },
     definicion: "Money that lands in your account. For example, your salary or a transfer.",
     sinonimos: ["money coming in", "money in"],
     ejemplo: { palabra: "income", texto: "She saw the income from her salary on the first day of the month." },
@@ -1303,7 +1303,7 @@ DICCIONARIOS.en = [
   {
     id: "stamp-paper",
     palabra: "Stamp",
-    imagen: { id: 2802, alt: "An official stamp" },
+    imagen: { id: 7243, alt: "Seal, stamp" },
     definicion: "A small piece stuck on a paper. It shows the paper is valid.",
     sinonimos: ["seal", "official mark"],
     ejemplo: { palabra: "stamp", texto: "They put the stamp on the council certificate." },
@@ -1313,7 +1313,7 @@ DICCIONARIOS.en = [
   {
     id: "stamp-document",
     palabra: "Stamp",
-    imagen: { id: 10324, alt: "A rubber stamp for documents" },
+    imagen: { id: 2802, alt: "Stamp, postage stamp" },
     definicion: "To put a stamp on a paper. So the paper becomes official.",
     sinonimos: ["seal the paper", "apply the stamp"],
     ejemplo: { palabra: "stamped", texto: "He stamped the form before handing it in." },
@@ -1363,7 +1363,7 @@ DICCIONARIOS.en = [
   {
     id: "form-blank",
     palabra: "Form",
-    imagen: { id: 9173, alt: "A form with empty boxes" },
+    imagen: { id: 32619, alt: "Shape, form" },
     definicion: "A paper with blank spaces to fill in. You use it to ask for something or sign up.",
     sinonimos: ["printed sheet", "paper to fill in"],
     ejemplo: { palabra: "form", texto: "She filled in the form at home." },
@@ -1373,7 +1373,7 @@ DICCIONARIOS.en = [
   {
     id: "sign-name",
     palabra: "Sign",
-    imagen: { id: 12317, alt: "A hand signs a paper" },
+    imagen: { id: 6008, alt: "Sign" },
     definicion: "To put your name on a paper. It shows you accept what the paper says.",
     sinonimos: ["put your signature", "write your name"],
     ejemplo: { palabra: "signed", texto: "He signed the contract before starting work." },
@@ -1383,7 +1383,7 @@ DICCIONARIOS.en = [
   {
     id: "case-file",
     palabra: "Case file",
-    imagen: { id: 16078, alt: "Folders in a case file cabinet" },
+    imagen: { id: 9187, alt: "Disc, vynil record, record" },
     definicion: "A set of papers about one subject. The council opens one when you start a process.",
     sinonimos: ["record", "set of papers"],
     ejemplo: { palabra: "case file", texto: "They opened a case file for her benefit claim." },
@@ -1455,7 +1455,7 @@ DICCIONARIOS.en = [
   {
     id: "company-business",
     palabra: "Company",
-    imagen: { id: 24507, alt: "A company factory" },
+    imagen: { id: 6880, alt: "Accompanied, company" },
     definicion: "A place where many people work together. It has one owner or many.",
     sinonimos: ["business", "firm"],
     ejemplo: { palabra: "company", texto: "She works at a food company." },
@@ -1555,7 +1555,7 @@ DICCIONARIOS.en = [
   {
     id: "staff-workers",
     palabra: "Staff",
-    imagen: { id: 24507, alt: "Staff at a company" },
+    imagen: { id: 7795, alt: "Workers, worker, profession" },
     definicion: "All the people who work at a company. The whole team of workers.",
     sinonimos: ["workers", "company team"],
     ejemplo: { palabra: "staff", texto: "The staff at the factory is two hundred workers." },
@@ -1997,7 +1997,7 @@ DICCIONARIOS.en = [
   {
     id: "ticket-fine",
     palabra: "Fine",
-    imagen: { id: 10173, alt: "A hand gives a fine to a person" },
+    imagen: { id: 5397, alt: "Well, ok, okay" },
     definicion: "Money you must pay to the state for doing something you are not allowed to do.",
     sinonimos: ["financial penalty"],
     ejemplo: { palabra: "fine", texto: "She got a fine for parking on the pavement." },
@@ -2037,7 +2037,7 @@ DICCIONARIOS.en = [
   {
     id: "defendant",
     palabra: "Defendant",
-    imagen: { id: 15984, alt: "A person in the dock" },
+    imagen: { id: 16093, alt: "Accused, defendant" },
     definicion: "The person who is said to have done something wrong. They sit in the dock.",
     sinonimos: ["accused person"],
     ejemplo: { palabra: "defendant", texto: "The defendant arrived at court with his lawyer." },
@@ -2057,7 +2057,7 @@ DICCIONARIOS.en = [
   {
     id: "witness",
     palabra: "Witness",
-    imagen: { id: 12339, alt: "A witness giving a statement" },
+    imagen: { id: 34351, alt: "Witness" },
     definicion: "A person who saw how something happened and tells the court about it.",
     sinonimos: ["person who saw what happened"],
     ejemplo: { palabra: "witness", texto: "The witness said she heard a very loud noise." },
@@ -2198,7 +2198,7 @@ DICCIONARIOS.en = [
   {
     id: "flat",
     palabra: "Flat",
-    imagen: { id: 2575, alt: "A floor of a building" },
+    imagen: { id: 13372, alt: "Recumbent, lying down, flat" },
     definicion: "A home in a building. It has several rooms and is on one floor.",
     sinonimos: ["apartment"],
     ejemplo: { palabra: "flat", texto: "They bought a flat in the city centre." },
@@ -2208,7 +2208,7 @@ DICCIONARIOS.en = [
   {
     id: "house",
     palabra: "House",
-    imagen: { id: 2317, alt: "A house" },
+    imagen: { id: 5957, alt: "Detached house, chalet, house" },
     definicion: "A standalone home, with its own door to the street and usually a garden.",
     sinonimos: ["detached home"],
     ejemplo: { palabra: "house", texto: "They live in a house with a garden in the suburbs." },
@@ -2480,7 +2480,7 @@ DICCIONARIOS.en = [
   {
     id: "promotion",
     palabra: "Promotion",
-    imagen: { id: 16631, alt: "A chart with an upward arrow" },
+    imagen: { id: 17034, alt: "Impulse, promotion, impetus" },
     definicion: "When you are given a better position in the company, with more pay and more responsibility.",
     sinonimos: ["move up"],
     ejemplo: { palabra: "promotion", texto: "She got a promotion to team leader after two years." },
@@ -2671,7 +2671,7 @@ DICCIONARIOS.en = [
   {
     id: "certificate",
     palabra: "Certificate",
-    imagen: { id: 27677, alt: "An official certificate" },
+    imagen: { id: 27724, alt: "Diploma, certificate" },
     definicion: "An official paper that says something is true. A state person signs it.",
     sinonimos: ["proof paper"],
     ejemplo: { palabra: "certificate", texto: "She needs a residence certificate for the town hall procedure." },
@@ -3043,7 +3043,7 @@ DICCIONARIOS.en = [
   {
     id: "dentist",
     palabra: "Dentist",
-    imagen: { id: 2733, alt: "A dentist" },
+    imagen: { id: 11229, alt: "Dentist, dental surgeon, odontologist" },
     definicion: "The doctor who looks after your teeth and your mouth.",
     sinonimos: ["dental doctor"],
     ejemplo: { palabra: "dentist", texto: "She goes to the dentist every six months for a check-up." },
@@ -3103,7 +3103,7 @@ DICCIONARIOS.en = [
   {
     id: "dermatologist",
     palabra: "Dermatologist",
-    imagen: { id: 34375, alt: "A dermatologist" },
+    imagen: { id: 34373, alt: "Dermatologist" },
     definicion: "The doctor who looks after your skin, hair and nails.",
     sinonimos: ["skin doctor"],
     ejemplo: { palabra: "dermatologist", texto: "He went to the dermatologist because a strange spot appeared on his back." },
@@ -3124,7 +3124,7 @@ DICCIONARIOS.en = [
   {
     id: "judge",
     palabra: "Judge",
-    imagen: { id: 11291, alt: "A judge" },
+    imagen: { id: 2957, alt: "Judge, magistrate" },
     definicion: "The person who runs the trial and decides who is right according to the law.",
     sinonimos: ["magistrate"],
     ejemplo: { palabra: "judge", texto: "The judge read the sentence at the end of the trial." },
@@ -3154,7 +3154,7 @@ DICCIONARIOS.en = [
   {
     id: "notary",
     palabra: "Notary",
-    imagen: { id: 35413, alt: "A notary" },
+    imagen: { id: 35415, alt: "Notary, notary public" },
     definicion: "A state person who certifies papers. They stamp and sign them so they are valid.",
     sinonimos: ["certifier"],
     ejemplo: { palabra: "notary", texto: "They signed the home deed in front of the notary." },
@@ -3264,7 +3264,7 @@ DICCIONARIOS.en = [
   {
     id: "court",
     palabra: "Court",
-    imagen: { id: 8147, alt: "A courthouse" },
+    imagen: { id: 6186, alt: "Sports centre, sports arena, court" },
     definicion: "The building or room where trials take place. One or several judges run it.",
     sinonimos: ["trial room"],
     ejemplo: { palabra: "court", texto: "The trial was held in the court of the city." },
@@ -3325,7 +3325,7 @@ DICCIONARIOS.en = [
   {
     id: "bathroom",
     palabra: "Bathroom",
-    imagen: { id: 2430, alt: "A toilet" },
+    imagen: { id: 6929, alt: "Bathroom, men's bathroom, toilet" },
     definicion: "The room in the house with a toilet, sink and shower or bath.",
     sinonimos: ["washroom"],
     ejemplo: { palabra: "bathroom", texto: "The bathroom is in the hall, at the end on the right." },
@@ -3385,7 +3385,7 @@ DICCIONARIOS.en = [
   {
     id: "door",
     palabra: "Door",
-    imagen: { id: 3244, alt: "A door" },
+    imagen: { id: 38750, alt: "Door" },
     definicion: "A large board with hinges that opens and closes to go in or out of a room.",
     sinonimos: ["hinged opening"],
     ejemplo: { palabra: "door", texto: "The front door closes on its own." },
@@ -3415,7 +3415,7 @@ DICCIONARIOS.en = [
   {
     id: "wall",
     palabra: "Wall",
-    imagen: { id: 2860, alt: "A wall" },
+    imagen: { id: 8266, alt: "Wall, city wall, rampart" },
     definicion: "Each of the parts that separate the rooms of a house. They are usually smooth.",
     sinonimos: ["inner wall"],
     ejemplo: { palabra: "wall", texto: "He painted the walls of the living room white." },
@@ -3425,7 +3425,7 @@ DICCIONARIOS.en = [
   {
     id: "floor",
     palabra: "Floor",
-    imagen: { id: 2575, alt: "A floor" },
+    imagen: { id: 37864, alt: "Floor, story, storey" },
     definicion: "The bottom part of a room. You step on the floor when you walk inside.",
     sinonimos: ["room bottom"],
     ejemplo: { palabra: "floor", texto: "The kitchen floor is made of tiles." },
@@ -3466,7 +3466,7 @@ DICCIONARIOS.en = [
   {
     id: "collect",
     palabra: "Collect",
-    imagen: { id: 15986, alt: "A person collects" },
+    imagen: { id: 26817, alt: "Put together, get together, collect" },
     definicion: "Receive money that someone owes you, for a job or a service.",
     sinonimos: ["what you are owed"],
     ejemplo: { palabra: "collect", texto: "She will collect her salary at the end of the month." },
@@ -4039,7 +4039,7 @@ DICCIONARIOS.en = [
   {
     id: "shop",
     palabra: "Shop",
-    imagen: { id: 35695, alt: "A shop" },
+    imagen: { id: 8985, alt: "Buy, go shopping, do the shopping" },
     definicion: "A place where you buy things: clothes, food, gifts or things for your home.",
     sinonimos: ["store"],
     ejemplo: { palabra: "shop", texto: "He went into the shop to buy a birthday gift." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 35503, alt: "A tablet and a phone with a wifi signal" },
+    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -4905,7 +4905,7 @@ DICCIONARIOS.en = [
   {
     id: "padlock",
     palabra: "Padlock",
-    imagen: { id: 6957, alt: "A closed metal padlock" },
+    imagen: { id: 3261, alt: "Lock" },
     definicion: "A metal lock with a key that protects something. It is used on doors, gates or bags.",
     sinonimos: ["lock", "clasp lock"],
     ejemplo: { palabra: "padlock", texto: "He put a new padlock on the storage room door." },
@@ -4987,7 +4987,7 @@ DICCIONARIOS.en = [
   {
     id: "touchscreen",
     palabra: "Touchscreen",
-    imagen: { id: 9160, alt: "A finger touching a screen" },
+    imagen: { id: 30225, alt: "Touch screen, touchscreen" },
     definicion: "A screen that works when you touch it with your finger. It needs no mouse or keyboard.",
     sinonimos: ["touch screen", "touch display"],
     ejemplo: { palabra: "touchscreen", texto: "The bank machine has a touchscreen to choose the option." },
@@ -5057,7 +5057,7 @@ DICCIONARIOS.en = [
   {
     id: "keyboard",
     palabra: "Keyboard",
-    imagen: { id: 2793, alt: "A computer keyboard" },
+    imagen: { id: 2451, alt: "Keys" },
     definicion: "The part of the computer with letters and numbers for typing. It can be attached to the screen or separate.",
     sinonimos: ["keys", "typing pad"],
     ejemplo: { palabra: "keyboard", texto: "He typed the password using the computer keyboard." },
@@ -5087,7 +5087,7 @@ DICCIONARIOS.en = [
   {
     id: "speaker",
     palabra: "Speaker",
-    imagen: { id: 8336, alt: "A speaker for playing sound" },
+    imagen: { id: 26628, alt: "Speaker, loudspeaker" },
     definicion: "A device that plays sound and music out loud. It connects to a phone or computer.",
     sinonimos: ["loudspeaker", "sound speaker"],
     ejemplo: { palabra: "speaker", texto: "She played music on the speaker during lunch." },
@@ -5099,7 +5099,7 @@ DICCIONARIOS.en = [
   {
     id: "price-tag",
     palabra: "Price tag",
-    imagen: { id: 9920, alt: "A price tag" },
+    imagen: { id: 9874, alt: "Price, value, cost" },
     definicion: "The small label with the price or details of a product. It is stuck or hung on the item.",
     sinonimos: ["price label", "product tag"],
     ejemplo: { palabra: "price tag", texto: "Check the price tag before you pay at the till." },
@@ -5179,7 +5179,7 @@ DICCIONARIOS.en = [
   {
     id: "suitcase",
     palabra: "Suitcase",
-    imagen: { id: 11297, alt: "A travel suitcase" },
+    imagen: { id: 2931, alt: "Suitcase" },
     definicion: "A box with a handle for carrying clothes when you travel. It can be carried or have wheels.",
     sinonimos: ["luggage", "travel case"],
     ejemplo: { palabra: "suitcase", texto: "She packed the suitcase the night before the trip." },
@@ -5311,7 +5311,7 @@ DICCIONARIOS.en = [
   {
     id: "socket",
     palabra: "Socket",
-    imagen: { id: 2373, alt: "A wall socket" },
+    imagen: { id: 32888, alt: "Wall plug, wall socket, socket" },
     definicion: "The hole in the wall where you plug in an electrical device. It gives power so the device works.",
     sinonimos: ["power point", "outlet"],
     ejemplo: { palabra: "socket", texto: "He plugged the lamp into the living room socket." },
@@ -5739,7 +5739,7 @@ DICCIONARIOS.en = [
   {
     id: "police-officer",
     palabra: "Police officer",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 11345, alt: "Police, police officer, policewoman" },
     definicion: "The person who watches over order and helps when there is a problem or a crime. You can call them if there is danger.",
     sinonimos: ["officer"],
     ejemplo: { palabra: "police officer", texto: "She called a police officer when she saw the robbery." },
@@ -5963,7 +5963,7 @@ DICCIONARIOS.en = [
   {
     id: "fire-hose",
     palabra: "Fire hose",
-    imagen: { id: 36413, alt: "A firefighting hose" },
+    imagen: { id: 2929, alt: "Hose, hosepipe" },
     definicion: "A long tube that sprays pressurised water to put out a fire. Firefighters use it.",
     sinonimos: ["hose"],
     ejemplo: { palabra: "fire hose", texto: "The firefighters connected the fire hose to the hydrant." },
@@ -6015,7 +6015,7 @@ DICCIONARIOS.en = [
   {
     id: "webcam",
     palabra: "Webcam",
-    imagen: { id: 3409, alt: "A webcam for video calls" },
+    imagen: { id: 9167, alt: "Webcam" },
     definicion: "A small camera connected to the computer for making video calls. It records the picture live.",
     sinonimos: ["web camera"],
     ejemplo: { palabra: "webcam", texto: "She turned on the webcam for the online meeting." },
@@ -6453,7 +6453,7 @@ DICCIONARIOS.en = [
   {
     id: "mobile-phone",
     palabra: "Mobile phone",
-    imagen: { id: 2586, alt: "A mobile phone" },
+    imagen: { id: 25269, alt: "Mobile phone, cell phone, mobile" },
     definicion: "A small phone you carry with you to call, text and use the internet. It also takes photos.",
     sinonimos: ["cell phone", "smartphone"],
     ejemplo: { palabra: "mobile phone", texto: "He left his mobile phone at home in the morning." },
@@ -6907,7 +6907,7 @@ DICCIONARIOS.en = [
   {
     id: "link",
     palabra: "Link",
-    imagen: { id: 16913, alt: "A computer screen showing a web page open in a browser" },
+    imagen: { id: 8243, alt: "Join, link" },
     definicion: "Text or a picture you tap to open a web page. It usually looks blue or underlined.",
     sinonimos: ["web link", "hyperlink"],
     ejemplo: { palabra: "link", texto: "She tapped the link to see the photos of the trip." },
@@ -8607,7 +8607,7 @@ DICCIONARIOS.en = [
   {
     id: "grumble",
     palabra: "Grumble",
-    imagen: { id: 2791, alt: "A person on the phone looking annoyed" },
+    imagen: { id: 7121, alt: "Growl, grunt, grumble" },
     definicion: "To say that something has not seemed right to you, so it gets fixed.",
     sinonimos: ["complain"],
     ejemplo: { palabra: "grumbled", texto: "He grumbled to customer service about the delay." },
@@ -8757,7 +8757,7 @@ DICCIONARIOS.en = [
   {
     id: "courtyard",
     palabra: "Courtyard",
-    imagen: { id: 2317, alt: "An open space between the walls of a building" },
+    imagen: { id: 39552, alt: "Inner courtyard, inner yard, interior patio" },
     definicion: "An open space with no roof, inside or behind a building.",
     sinonimos: ["inner courtyard"],
     ejemplo: { palabra: "courtyard", texto: "He hung the washing out in the courtyard of his house." },
@@ -8827,7 +8827,7 @@ DICCIONARIOS.en = [
   {
     id: "mould",
     palabra: "Mould",
-    imagen: { id: 2860, alt: "Dark marks in the corner of a wall" },
+    imagen: { id: 3283, alt: "Model, mould, mold" },
     definicion: "Green or black marks that grow on a wall or a ceiling when there is too much damp.",
     sinonimos: ["mildew"],
     ejemplo: { palabra: "mould", texto: "He cleaned the mould in the corner of the bathroom." },
@@ -8837,7 +8837,7 @@ DICCIONARIOS.en = [
   {
     id: "crack",
     palabra: "Crack",
-    imagen: { id: 2860, alt: "A broken line in a wall" },
+    imagen: { id: 4735, alt: "Break, snap, bust" },
     definicion: "A thin, long broken line that appears in a wall or a ceiling.",
     sinonimos: ["fissure"],
     ejemplo: { palabra: "crack", texto: "She told the building manager about a crack in the living room wall." },
@@ -8917,7 +8917,7 @@ DICCIONARIOS.en = [
   {
     id: "building",
     palabra: "Building",
-    imagen: { id: 35655, alt: "A multi-storey building" },
+    imagen: { id: 35859, alt: "Building, construction, buildings" },
     definicion: "The official name given to a building or a piece of land in legal papers.",
     sinonimos: ["property"],
     ejemplo: { palabra: "building", texto: "The manager was in charge of the whole building." },
@@ -9177,7 +9177,7 @@ DICCIONARIOS.en = [
   {
     id: "postman",
     palabra: "Postman",
-    imagen: { id: 2688, alt: "A person carrying a bag of letters" },
+    imagen: { id: 2690, alt: "Postman, mailman" },
     definicion: "The person who delivers letters to houses.",
     sinonimos: ["postal worker"],
     ejemplo: { palabra: "postman", texto: "The postman left an important letter in the mailbox." },
@@ -9327,7 +9327,7 @@ DICCIONARIOS.en = [
   {
     id: "vaccine",
     palabra: "Vaccine",
-    imagen: { id: 30074, alt: "A small syringe with a drop" },
+    imagen: { id: 30073, alt: "Vaccination, vaccinate, vaccine" },
     definicion: "An injection that protects your body so an illness cannot affect you, or makes it milder.",
     sinonimos: ["vaccination"],
     ejemplo: { palabra: "vaccine", texto: "She got the flu vaccine at the surgery." },
@@ -9367,7 +9367,7 @@ DICCIONARIOS.en = [
   {
     id: "gp",
     palabra: "GP",
-    imagen: { id: 2467, alt: "A doctor sitting in a consulting room" },
+    imagen: { id: 32085, alt: "General practitioner, family physician, family doctor" },
     definicion: "The regular doctor who sees you first, before you go to a specialist.",
     sinonimos: ["family doctor"],
     ejemplo: { palabra: "GP", texto: "He booked an appointment with his GP for his sore throat." },
@@ -9387,7 +9387,7 @@ DICCIONARIOS.en = [
   {
     id: "blood-test",
     palabra: "Blood test",
-    imagen: { id: 5901, alt: "A small tube full of blood" },
+    imagen: { id: 30084, alt: "Blood analysis, blood test" },
     definicion: "A medical test that studies a small amount of your blood to check your health.",
     sinonimos: ["blood work"],
     ejemplo: { palabra: "blood test", texto: "She had a blood test done on an empty stomach." },
@@ -9397,7 +9397,7 @@ DICCIONARIOS.en = [
   {
     id: "ultrasound-scan",
     palabra: "Ultrasound scan",
-    imagen: { id: 38355, alt: "A medical screen showing a black and white image" },
+    imagen: { id: 8718, alt: "Watch, look over, look down on" },
     definicion: "A test using sound waves that lets you see inside the body on a screen, without hurting.",
     sinonimos: ["scan"],
     ejemplo: { palabra: "ultrasound scan", texto: "She had an ultrasound scan to see the baby." },
@@ -9407,7 +9407,7 @@ DICCIONARIOS.en = [
   {
     id: "mri-scan",
     palabra: "MRI scan",
-    imagen: { id: 38355, alt: "A large medical machine shaped like a tunnel" },
+    imagen: { id: 38354, alt: "Tomogram, tomography, magnetic resonance imaging" },
     definicion: "A medical test that takes very detailed pictures inside the body, inside a big machine.",
     sinonimos: ["magnetic resonance imaging"],
     ejemplo: { palabra: "MRI scan", texto: "He had an MRI scan of his knee." },
@@ -9427,7 +9427,7 @@ DICCIONARIOS.en = [
   {
     id: "ecg",
     palabra: "ECG",
-    imagen: { id: 2715, alt: "A line going up and down on a medical screen" },
+    imagen: { id: 8100, alt: "Electrocardiogram, cardiogram, EKG" },
     definicion: "A test that measures how your heart beats, using wires stuck onto your chest.",
     sinonimos: ["electrocardiogram"],
     ejemplo: { palabra: "ECG", texto: "He had an ECG before the operation." },
@@ -9897,7 +9897,7 @@ DICCIONARIOS.en = [
   {
     id: "monitor",
     palabra: "Monitor",
-    imagen: { id: 2910, alt: "A computer screen on a desk" },
+    imagen: { id: 27897, alt: "Monitor" },
     definicion: "The screen connected to a computer, where you see everything you do.",
     sinonimos: ["computer screen"],
     ejemplo: { palabra: "monitor", texto: "He bought a bigger monitor for his desk." },
@@ -9977,7 +9977,7 @@ DICCIONARIOS.en = [
   {
     id: "meeting-room",
     palabra: "Meeting room",
-    imagen: { id: 8207, alt: "A long table with chairs around it" },
+    imagen: { id: 9911, alt: "Meeting room, teachers' room, teachers' lounge" },
     definicion: "A room at work made for holding meetings with other people.",
     sinonimos: ["conference room"],
     ejemplo: { palabra: "meeting room", texto: "They met in the meeting room to talk about the project." },
@@ -10107,7 +10107,7 @@ DICCIONARIOS.en = [
   {
     id: "public-notary",
     palabra: "Public notary",
-    imagen: { id: 21802, alt: "A person signing a document at a desk" },
+    imagen: { id: 35413, alt: "Notary, notary public" },
     definicion: "An official who checks and signs important documents, to make sure they are legal and true.",
     sinonimos: ["notary public"],
     ejemplo: { palabra: "public notary", texto: "They signed the house sale in front of a public notary." },
@@ -10117,7 +10117,7 @@ DICCIONARIOS.en = [
   {
     id: "job-centre",
     palabra: "Job centre",
-    imagen: { id: 36089, alt: "An office with a job noticeboard" },
+    imagen: { id: 24637, alt: "Job centre, employment office, employment agency" },
     definicion: "A public office that helps people find work and claim unemployment benefit.",
     sinonimos: ["employment office"],
     ejemplo: { palabra: "job centre", texto: "She registered at the job centre after losing her job." },
@@ -10640,7 +10640,7 @@ DICCIONARIOS.en = [
   {
     id: "aggravating-circumstance",
     palabra: "Aggravating circumstance",
-    imagen: { id: 34479, alt: "A law court" },
+    imagen: { id: 6920, alt: "Increase" },
     definicion: "A reason that makes a judge give a bigger punishment.",
     sinonimos: ["reason to increase a punishment"],
     ejemplo: { palabra: "aggravating circumstance", texto: "Using a weapon was an aggravating circumstance at the trial." },
@@ -14106,7 +14106,7 @@ DICCIONARIOS.en = [
   {
     id: "infection",
     palabra: "Infection",
-    imagen: { id: 25315, alt: "A red, swollen wound with warning signs" },
+    imagen: { id: 31773, alt: "Urinary tract infection, cystitis, infection" },
     definicion: "Illness caused by germs entering the body. It can spread and needs treatment.",
     sinonimos: ["germ illness"],
     ejemplo: { palabra: "infection", texto: "The wound showed signs of infection." },
@@ -14206,7 +14206,7 @@ DICCIONARIOS.en = [
   {
     id: "principal",
     palabra: "Principal",
-    imagen: { id: 4666, alt: "A loan document with the borrowed amount highlighted" },
+    imagen: { id: 4631, alt: "School principal, head teacher, principal" },
     definicion: "The original amount of money borrowed in a loan. It does not include the interest.",
     sinonimos: ["original loan amount"],
     ejemplo: { palabra: "principal", texto: "Her monthly payment covers interest and some of the principal." },
@@ -14256,7 +14256,7 @@ DICCIONARIOS.en = [
   {
     id: "allowance",
     palabra: "Allowance",
-    imagen: { id: 39712, alt: "A hand giving money regularly to a family" },
+    imagen: { id: 16017, alt: "Payment" },
     definicion: "A fixed amount of money given to someone regularly. It can come from a government, a parent, or an employer.",
     sinonimos: ["a regular payment"],
     ejemplo: { palabra: "an allowance", texto: "The government gives an allowance to families with children." },
@@ -14296,7 +14296,7 @@ DICCIONARIOS.en = [
   {
     id: "fence",
     palabra: "Fence",
-    imagen: { id: 6651, alt: "A wooden fence between two gardens" },
+    imagen: { id: 9041, alt: "Fence in, fence" },
     definicion: "A structure that marks the edge of a garden or land. It is often made of wood or metal.",
     sinonimos: ["boundary structure"],
     ejemplo: { palabra: "fence", texto: "They built a fence between the two gardens." },
@@ -14766,7 +14766,7 @@ DICCIONARIOS.en = [
   {
     id: "tertiary",
     palabra: "Tertiary",
-    imagen: { id: 15537, alt: "A university building" },
+    imagen: { id: 32294, alt: "Higher education, secondary education" },
     definicion: "The level of education after secondary school, like university or college. It usually leads to a qualification.",
     sinonimos: ["higher education"],
     ejemplo: { palabra: "tertiary education", texto: "She continued into tertiary education after finishing school." },
@@ -15266,7 +15266,7 @@ DICCIONARIOS.en = [
   {
     id: "abortion",
     palabra: "Abortion",
-    imagen: { id: 3116, alt: "A doctor talks with a patient in a clinic" },
+    imagen: { id: 14974, alt: "Abortion" },
     definicion: "A medical procedure that ends a pregnancy.",
     sinonimos: ["pregnancy termination"],
     ejemplo: { palabra: "abortion", texto: "The clinic offers abortion services to anyone who asks for them." },
@@ -15286,7 +15286,7 @@ DICCIONARIOS.en = [
   {
     id: "abstinence",
     palabra: "Abstinence",
-    imagen: { id: 26626, alt: "Bottles and glasses of alcoholic drinks" },
+    imagen: { id: 37215, alt: "Alcohol forbidden" },
     definicion: "Stopping the use of something completely, like alcohol or drugs.",
     sinonimos: ["giving up alcohol completely", "not drinking at all"],
     ejemplo: { palabra: "abstinence", texto: "The doctor recommended abstinence." },
@@ -15306,7 +15306,7 @@ DICCIONARIOS.en = [
   {
     id: "accredited",
     palabra: "Accredited",
-    imagen: { id: 27724, alt: "A person holds an official certificate" },
+    imagen: { id: 21514, alt: "Certified letter" },
     definicion: "Officially recognized as meeting certain standards, like a school or a professional.",
     sinonimos: ["officially recognized", "certified"],
     ejemplo: { palabra: "accredited", texto: "The nursing program she chose is accredited." },
@@ -15346,7 +15346,7 @@ DICCIONARIOS.en = [
   {
     id: "adoptive",
     palabra: "Adoptive",
-    imagen: { id: 2392, alt: "A family with parents and a child holding hands" },
+    imagen: { id: 24517, alt: "Adoptive family" },
     definicion: "Related through adoption rather than birth, like an adoptive parent or child.",
     sinonimos: ["non-biological", "adopted"],
     ejemplo: { palabra: "adoptive", texto: "Her adoptive father came to every school event." },
@@ -15386,7 +15386,7 @@ DICCIONARIOS.en = [
   {
     id: "alcoholism",
     palabra: "Alcoholism",
-    imagen: { id: 26626, alt: "Bottles and glasses of alcoholic drinks" },
+    imagen: { id: 26053, alt: "Drunkenness" },
     definicion: "A disease. Being unable to stop drinking alcohol, even when it causes harm.",
     sinonimos: ["alcohol addiction", "alcohol dependence"],
     ejemplo: { palabra: "alcoholism", texto: "He got professional help to overcome his alcoholism." },
@@ -15396,7 +15396,7 @@ DICCIONARIOS.en = [
   {
     id: "allegation",
     palabra: "Allegation",
-    imagen: { id: 37671, alt: "An empty courtroom" },
+    imagen: { id: 15529, alt: "Claim, complaint" },
     definicion: "A claim that someone did something wrong, made before it is proven true.",
     sinonimos: ["unproven claim", "accusation"],
     ejemplo: { palabra: "allegation", texto: "The company denied the allegation of fraud." },
@@ -15406,7 +15406,7 @@ DICCIONARIOS.en = [
   {
     id: "allocation",
     palabra: "Allocation",
-    imagen: { id: 4630, alt: "Money divided into separate piles" },
+    imagen: { id: 15361, alt: "Share" },
     definicion: "The amount of something, like money or space, given to a person or a purpose.",
     sinonimos: ["share", "amount assigned"],
     ejemplo: { palabra: "allocation", texto: "Each department received its allocation of the budget." },
@@ -15516,7 +15516,7 @@ DICCIONARIOS.en = [
   {
     id: "assignment",
     palabra: "Assignment",
-    imagen: { id: 2599, alt: "A person writes on paper at a desk" },
+    imagen: { id: 11251, alt: "Ask, order, task" },
     definicion: "A task or piece of work that someone is given to do.",
     sinonimos: ["task", "given work"],
     ejemplo: { palabra: "assignment", texto: "She finished the assignment before the deadline." },
@@ -15586,7 +15586,7 @@ DICCIONARIOS.en = [
   {
     id: "abstemious",
     palabra: "Abstemious",
-    imagen: { id: 26626, alt: "Bottles and glasses of alcoholic drinks" },
+    imagen: { id: 29177, alt: "Drinking forbidden" },
     definicion: "Never drinking alcohol.",
     sinonimos: ["someone who never drinks alcohol"],
     ejemplo: { palabra: "abstemious", texto: "He has always been abstemious, even at parties." },
@@ -15596,7 +15596,7 @@ DICCIONARIOS.en = [
   {
     id: "accost",
     palabra: "Accost",
-    imagen: { id: 2374, alt: "An angry face" },
+    imagen: { id: 6878, alt: "Approach" },
     definicion: "To approach and speak to someone in an aggressive or unwanted way.",
     sinonimos: ["approach aggressively", "confront"],
     ejemplo: { palabra: "accost", texto: "A stranger tried to accost her outside the station." },
@@ -15606,7 +15606,7 @@ DICCIONARIOS.en = [
   {
     id: "adjudicate",
     palabra: "Adjudicate",
-    imagen: { id: 2957, alt: "A judge with a gavel" },
+    imagen: { id: 30510, alt: "Choose, decide" },
     definicion: "To make an official decision about who is right in a dispute.",
     sinonimos: ["decide officially", "rule on"],
     ejemplo: { palabra: "adjudicate", texto: "A judge was asked to adjudicate the dispute." },
@@ -15626,7 +15626,7 @@ DICCIONARIOS.en = [
   {
     id: "admonish",
     palabra: "Admonish",
-    imagen: { id: 10175, alt: "A person scolds another person" },
+    imagen: { id: 39036, alt: "Tell off, scold" },
     definicion: "To firmly tell someone they did something wrong, as a warning.",
     sinonimos: ["firmly warn", "scold"],
     ejemplo: { palabra: "admonish", texto: "The teacher had to admonish the student for being late again." },
@@ -15696,7 +15696,7 @@ DICCIONARIOS.en = [
   {
     id: "ailment",
     palabra: "Ailment",
-    imagen: { id: 2467, alt: "A doctor examines a patient" },
+    imagen: { id: 11252, alt: "Illness" },
     definicion: "An illness, usually not very serious.",
     sinonimos: ["minor illness"],
     ejemplo: { palabra: "ailment", texto: "He went to the doctor about a strange ailment." },
@@ -15716,7 +15716,7 @@ DICCIONARIOS.en = [
   {
     id: "allergist",
     palabra: "Allergist",
-    imagen: { id: 2467, alt: "A doctor examines a patient" },
+    imagen: { id: 31172, alt: "Allergist, allergology" },
     definicion: "A doctor who specializes in allergies.",
     sinonimos: ["allergy doctor", "allergy specialist"],
     ejemplo: { palabra: "allergist", texto: "The allergist ran tests to find out what he was allergic to." },
@@ -15766,7 +15766,7 @@ DICCIONARIOS.en = [
   {
     id: "amortize",
     palabra: "Amortize",
-    imagen: { id: 4630, alt: "A person pays money at a bank" },
+    imagen: { id: 39710, alt: "Pay" },
     definicion: "To pay off a debt or loan little by little over time.",
     sinonimos: ["pay off", "pay down over time"],
     ejemplo: { palabra: "amortize", texto: "He chose to slowly amortize the mortgage." },
@@ -15776,7 +15776,7 @@ DICCIONARIOS.en = [
   {
     id: "amputee",
     palabra: "Amputee",
-    imagen: { id: 3116, alt: "A doctor talks with a patient in a hospital" },
+    imagen: { id: 26952, alt: "Person with reduced mobility, amputee, cripple" },
     definicion: "A person who has had an arm, leg, or other body part removed by surgery.",
     sinonimos: ["person who lost a limb"],
     ejemplo: { palabra: "amputee", texto: "The amputee learned to walk again with a prosthetic leg." },
@@ -15806,7 +15806,7 @@ DICCIONARIOS.en = [
   {
     id: "angina",
     palabra: "Angina",
-    imagen: { id: 2715, alt: "A drawing of the human heart" },
+    imagen: { id: 28781, alt: "Chest pain" },
     definicion: "Chest pain caused by reduced blood flow to the heart.",
     sinonimos: ["chest pain from the heart"],
     ejemplo: { palabra: "angina", texto: "He felt a sharp angina while climbing the stairs." },
@@ -16066,7 +16066,7 @@ DICCIONARIOS.en = [
   {
     id: "avalanche",
     palabra: "Avalanche",
-    imagen: { id: 3135, alt: "Snow falling down a mountain" },
+    imagen: { id: 29686, alt: "Avalanche" },
     definicion: "A large mass of snow that suddenly falls down a mountain.",
     sinonimos: ["mass of falling snow"],
     ejemplo: { palabra: "an avalanche", texto: "The storm caused an avalanche on the mountain road." },
@@ -16116,7 +16116,7 @@ DICCIONARIOS.en = [
   {
     id: "barricade",
     palabra: "Barricade",
-    imagen: { id: 2824, alt: "A police officer blocks a street" },
+    imagen: { id: 32716, alt: "Barrier" },
     definicion: "A barrier put up quickly to block a road or entrance, often for safety.",
     sinonimos: ["barrier"],
     ejemplo: { palabra: "barricade", texto: "Police set up a barricade to block the street." },
@@ -16126,7 +16126,7 @@ DICCIONARIOS.en = [
   {
     id: "barrister",
     palabra: "Barrister",
-    imagen: { id: 2636, alt: "A lawyer with the scales of justice" },
+    imagen: { id: 11160, alt: "Defense lawyer, defence counsel, lawyer" },
     definicion: "A type of lawyer, mainly in the UK, who represents clients in court.",
     sinonimos: ["courtroom lawyer"],
     ejemplo: { palabra: "barrister", texto: "She hired a barrister to represent her in court." },
@@ -16236,7 +16236,7 @@ DICCIONARIOS.en = [
   {
     id: "bronchitis",
     palabra: "Bronchitis",
-    imagen: { id: 2822, alt: "A drawing of human lungs" },
+    imagen: { id: 5403, alt: "Bronchitis" },
     definicion: "An inflammation of the airways in the lungs that causes coughing and difficulty breathing.",
     sinonimos: ["inflammation of the airways"],
     ejemplo: { palabra: "bronchitis", texto: "The doctor diagnosed him with bronchitis and told him to rest." },
@@ -16306,7 +16306,7 @@ DICCIONARIOS.en = [
   {
     id: "buyout",
     palabra: "Buyout",
-    imagen: { id: 4630, alt: "Two people shake hands over an agreement" },
+    imagen: { id: 6457, alt: "Buy, pay, purchase" },
     definicion: "The purchase of a company, or of someone's share in it.",
     sinonimos: ["purchase"],
     ejemplo: { palabra: "a buyout", texto: "The company announced a buyout of its biggest competitor." },
@@ -16336,7 +16336,7 @@ DICCIONARIOS.en = [
   {
     id: "candidacy",
     palabra: "Candidacy",
-    imagen: { id: 6631, alt: "A hand puts a ballot into a voting box" },
+    imagen: { id: 2719, alt: "Run" },
     definicion: "The state of being a candidate for an election or a position.",
     sinonimos: ["run"],
     ejemplo: { palabra: "candidacy", texto: "She announced her candidacy for mayor." },
@@ -16426,7 +16426,7 @@ DICCIONARIOS.en = [
   {
     id: "cavity",
     palabra: "Cavity",
-    imagen: { id: 2737, alt: "A drawing of teeth" },
+    imagen: { id: 21494, alt: "Cavity, caries, tooth decay" },
     definicion: "A small hole in a tooth caused by decay.",
     sinonimos: ["hole in a tooth"],
     ejemplo: { palabra: "a cavity", texto: "The dentist found a cavity during the checkup." },
@@ -16456,7 +16456,7 @@ DICCIONARIOS.en = [
   {
     id: "cesarean",
     palabra: "Cesarean",
-    imagen: { id: 6060, alt: "A newborn baby sleeping" },
+    imagen: { id: 32020, alt: "Cesarean, caesarean, cesarian" },
     definicion: "A surgery to deliver a baby by cutting into the mother's abdomen instead of a natural birth.",
     sinonimos: ["surgical birth"],
     ejemplo: { palabra: "a cesarean", texto: "The doctors performed a cesarean because the baby was in a difficult position." },
@@ -16626,7 +16626,7 @@ DICCIONARIOS.en = [
   {
     id: "citation",
     palabra: "Citation",
-    imagen: { id: 2824, alt: "A police officer writing a ticket" },
+    imagen: { id: 16165, alt: "Appointment, citation, date" },
     definicion: "An official written notice that orders a person to appear in court or pay a fine, often for a traffic offense.",
     sinonimos: ["an official traffic ticket"],
     ejemplo: { palabra: "a citation", texto: "The officer gave him a citation for speeding." },
@@ -16776,7 +16776,7 @@ DICCIONARIOS.en = [
   {
     id: "colostomy",
     palabra: "Colostomy",
-    imagen: { id: 2467, alt: "A doctor talking with a patient" },
+    imagen: { id: 37399, alt: "Ostomy, colostomy" },
     definicion: "A surgery that creates an opening in the belly for waste to leave the body into a bag.",
     sinonimos: ["a surgical opening for waste"],
     ejemplo: { palabra: "a colostomy", texto: "He had a colostomy after the surgery on his intestine." },
@@ -16986,7 +16986,7 @@ DICCIONARIOS.en = [
   {
     id: "creche",
     palabra: "Creche",
-    imagen: { id: 39661, alt: "A nursery school building with a playground" },
+    imagen: { id: 5089, alt: "Nativity scene, crib, creche" },
     definicion: "A place where young children are cared for while their parents are away, such as at work.",
     sinonimos: ["a childcare center"],
     ejemplo: { palabra: "the creche", texto: "She dropped her daughter off at the creche before work." },
@@ -16996,7 +16996,7 @@ DICCIONARIOS.en = [
   {
     id: "cremate",
     palabra: "Cremate",
-    imagen: { id: 3195, alt: "A funeral with a coffin" },
+    imagen: { id: 26008, alt: "Crematorium, cremate, cremation chamber" },
     definicion: "To burn a dead body until only ashes remain, as an alternative to burial.",
     sinonimos: ["burn the body of"],
     ejemplo: { palabra: "cremate", texto: "The family decided to cremate their father instead of holding a burial." },
@@ -17206,7 +17206,7 @@ DICCIONARIOS.en = [
   {
     id: "diarrhea",
     palabra: "Diarrhea",
-    imagen: { id: 2467, alt: "A person with severe diarrhea on the toilet" },
+    imagen: { id: 7023, alt: "Diarrhoea, diarrhea" },
     definicion: "A condition in which a person passes loose, watery stools more often than usual.",
     sinonimos: ["frequent loose watery stools"],
     ejemplo: { palabra: "diarrhea", texto: "The doctor recommended plenty of fluids to treat his diarrhea." },
@@ -17426,7 +17426,7 @@ DICCIONARIOS.en = [
   {
     id: "druggist",
     palabra: "Druggist",
-    imagen: { id: 8163, alt: "Medicines and pills" },
+    imagen: { id: 3312, alt: "Chemist, pharmacist, apothecary" },
     definicion: "A person who prepares and sells medicines, especially in a pharmacy.",
     sinonimos: ["a person who prepares medicines"],
     ejemplo: { palabra: "the druggist", texto: "She asked the druggist for advice about the medication." },
@@ -17456,7 +17456,7 @@ DICCIONARIOS.en = [
   {
     id: "eczema",
     palabra: "Eczema",
-    imagen: { id: 2840, alt: "An itchy rash on an arm" },
+    imagen: { id: 5578, alt: "Rash, eczema, skin rash" },
     definicion: "A skin condition that causes red, itchy, and dry patches.",
     sinonimos: ["itchy dry skin patches"],
     ejemplo: { palabra: "eczema", texto: "The cream helped soothe the eczema on her hands." },
@@ -17566,7 +17566,7 @@ DICCIONARIOS.en = [
   {
     id: "endoscopy",
     palabra: "Endoscopy",
-    imagen: { id: 2467, alt: "A doctor" },
+    imagen: { id: 31716, alt: "Gastroscopy, endoscopy" },
     definicion: "A medical test that uses a small camera to look inside the body.",
     sinonimos: ["a test using a camera inside the body"],
     ejemplo: { palabra: "an endoscopy", texto: "The doctor scheduled an endoscopy to examine his stomach." },
@@ -17616,7 +17616,7 @@ DICCIONARIOS.en = [
   {
     id: "episiotomy",
     palabra: "Episiotomy",
-    imagen: { id: 2467, alt: "A doctor" },
+    imagen: { id: 32180, alt: "Episiotomy" },
     definicion: "A surgical cut made during childbirth to help the baby come out more easily.",
     sinonimos: ["a surgical cut made during childbirth"],
     ejemplo: { palabra: "an episiotomy", texto: "The doctor performed an episiotomy to help the baby be born safely." },
@@ -17826,7 +17826,7 @@ DICCIONARIOS.en = [
   {
     id: "firearm",
     palabra: "Firearm",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 2831, alt: "Pistol, handgun, firearm" },
     definicion: "A weapon, such as a gun, that fires bullets.",
     sinonimos: ["a gun that fires bullets"],
     ejemplo: { palabra: "a firearm", texto: "He needed a license to own a firearm legally." },
@@ -18266,7 +18266,7 @@ DICCIONARIOS.en = [
   {
     id: "hemorrhage",
     palabra: "Hemorrhage",
-    imagen: { id: 2803, alt: "A bleeding hand" },
+    imagen: { id: 39616, alt: "Bleed, hemorrhage" },
     definicion: "Heavy or uncontrolled bleeding, especially inside the body.",
     sinonimos: ["heavy uncontrolled bleeding"],
     ejemplo: { palabra: "a hemorrhage", texto: "Doctors rushed to stop a hemorrhage after the surgery." },
@@ -18696,7 +18696,7 @@ DICCIONARIOS.en = [
   {
     id: "juror",
     palabra: "Juror",
-    imagen: { id: 37671, alt: "An empty courtroom" },
+    imagen: { id: 36546, alt: "Juror, jurywoman, member of the jury" },
     definicion: "A member of the public who helps decide the outcome of a trial in court.",
     sinonimos: ["a person who helps decide a trial's outcome"],
     ejemplo: { palabra: "a juror", texto: "She was chosen as a juror for the criminal trial." },
@@ -18746,7 +18746,7 @@ DICCIONARIOS.en = [
   {
     id: "kidnapping",
     palabra: "Kidnapping",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 27037, alt: "Kidnapping, kidnapped, hijacked" },
     definicion: "The crime of taking and holding a person against their will, often for ransom.",
     sinonimos: ["taking and holding a person against their will"],
     ejemplo: { palabra: "a kidnapping", texto: "Police launched a search after reports of a kidnapping." },
@@ -18886,7 +18886,7 @@ DICCIONARIOS.en = [
   {
     id: "ligament",
     palabra: "Ligament",
-    imagen: { id: 8666, alt: "A leg diagram" },
+    imagen: { id: 24149, alt: "Ligament" },
     definicion: "A band of tough tissue that connects bones together at a joint.",
     sinonimos: ["a band of tissue that connects bones"],
     ejemplo: { palabra: "a torn ligament", texto: "The player was out for months with a torn ligament." },
@@ -18966,7 +18966,7 @@ DICCIONARIOS.en = [
   {
     id: "lumbago",
     palabra: "Lumbago",
-    imagen: { id: 16619, alt: "A spine diagram" },
+    imagen: { id: 7775, alt: "Backache, back pain, lumbalgia" },
     definicion: "Pain in the lower back, often caused by muscle strain.",
     sinonimos: ["pain in the lower back"],
     ejemplo: { palabra: "his lumbago", texto: "He stayed home from work because of his lumbago." },
@@ -19376,7 +19376,7 @@ DICCIONARIOS.en = [
   {
     id: "nausea",
     palabra: "Nausea",
-    imagen: { id: 2467, alt: "A doctor" },
+    imagen: { id: 38403, alt: "Sickness, nausea, retch" },
     definicion: "A feeling of sickness in the stomach that often makes a person want to vomit.",
     sinonimos: ["a feeling of sickness that makes someone want to vomit"],
     ejemplo: { palabra: "nausea", texto: "The medication caused nausea as a side effect." },
@@ -19526,7 +19526,7 @@ DICCIONARIOS.en = [
   {
     id: "obese",
     palabra: "Obese",
-    imagen: { id: 2467, alt: "A doctor" },
+    imagen: { id: 4656, alt: "Fat, obese, plump" },
     definicion: "Having an excessive amount of body fat that can affect health.",
     sinonimos: ["having an excessive amount of body fat"],
     ejemplo: { palabra: "being obese", texto: "The doctor explained the health risks of being obese." },
@@ -19546,7 +19546,7 @@ DICCIONARIOS.en = [
   {
     id: "oedema",
     palabra: "Oedema",
-    imagen: { id: 8666, alt: "A leg diagram" },
+    imagen: { id: 31678, alt: "Oedema, edema" },
     definicion: "Swelling caused by fluid trapped in the body's tissues.",
     sinonimos: ["swelling caused by trapped fluid"],
     ejemplo: { palabra: "oedema", texto: "His legs showed signs of oedema after the long flight." },
@@ -19566,7 +19566,7 @@ DICCIONARIOS.en = [
   {
     id: "ointment",
     palabra: "Ointment",
-    imagen: { id: 8163, alt: "Medicines" },
+    imagen: { id: 3376, alt: "Ointment, cream, unguent" },
     definicion: "A thick, smooth substance applied to the skin to treat a wound, rash, or infection.",
     sinonimos: ["a thick substance applied to the skin to treat it"],
     ejemplo: { palabra: "an ointment", texto: "The pharmacist recommended an ointment for the rash." },
@@ -19576,7 +19576,7 @@ DICCIONARIOS.en = [
   {
     id: "optician",
     palabra: "Optician",
-    imagen: { id: 3329, alt: "Glasses" },
+    imagen: { id: 15489, alt: "Optician" },
     definicion: "A person trained to test eyesight and fit glasses or contact lenses.",
     sinonimos: ["a person who tests eyesight and fits glasses"],
     ejemplo: { palabra: "the optician", texto: "She visited the optician to get her eyes tested." },
@@ -19596,7 +19596,7 @@ DICCIONARIOS.en = [
   {
     id: "orderly",
     palabra: "Orderly",
-    imagen: { id: 3116, alt: "A hospital with an ambulance" },
+    imagen: { id: 4707, alt: "Organised, orderly, ordered" },
     definicion: "A hospital worker who helps move patients and keep the ward clean and organized.",
     sinonimos: ["a hospital worker who helps move patients"],
     ejemplo: { palabra: "an orderly", texto: "The nurse asked an orderly to bring a wheelchair." },
@@ -19796,7 +19796,7 @@ DICCIONARIOS.en = [
   {
     id: "paralegal",
     palabra: "Paralegal",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 31756, alt: "Procurator, proxy, attorney" },
     definicion: "A trained professional who helps lawyers with legal work but is not a lawyer.",
     sinonimos: ["a trained assistant who helps lawyers"],
     ejemplo: { palabra: "a paralegal", texto: "She works as a paralegal at a law firm." },
@@ -20066,7 +20066,7 @@ DICCIONARIOS.en = [
   {
     id: "podiatrist",
     palabra: "Podiatrist",
-    imagen: { id: 25327, alt: "A foot" },
+    imagen: { id: 22765, alt: "Chiropodist, podiatrist" },
     definicion: "A doctor who treats problems with the feet and ankles.",
     sinonimos: ["a doctor who treats the feet"],
     ejemplo: { palabra: "a podiatrist", texto: "She saw a podiatrist about the pain in her heel." },
@@ -20096,7 +20096,7 @@ DICCIONARIOS.en = [
   {
     id: "pollution",
     palabra: "Pollution",
-    imagen: { id: 25315, alt: "A warning sign" },
+    imagen: { id: 7066, alt: "Pollution, pollute, contamination" },
     definicion: "Harmful substances such as chemicals or waste that damage air, water, or land.",
     sinonimos: ["harmful substances that damage the environment"],
     ejemplo: { palabra: "pollution in the river", texto: "The factory was fined for causing pollution in the river." },
@@ -20216,7 +20216,7 @@ DICCIONARIOS.en = [
   {
     id: "prescribe",
     palabra: "Prescribe",
-    imagen: { id: 8163, alt: "Medicines" },
+    imagen: { id: 26366, alt: "Prescribe" },
     definicion: "For a doctor to officially recommend a medicine or treatment.",
     sinonimos: ["officially recommend a medicine"],
     ejemplo: { palabra: "prescribe antibiotics", texto: "The doctor decided to prescribe antibiotics for the infection." },
@@ -20896,7 +20896,7 @@ DICCIONARIOS.en = [
   {
     id: "scoliosis",
     palabra: "Scoliosis",
-    imagen: { id: 16619, alt: "A spine diagram" },
+    imagen: { id: 32681, alt: "Scoliosis" },
     definicion: "An abnormal sideways curve of the spine.",
     sinonimos: ["an abnormal sideways curve of the spine"],
     ejemplo: { palabra: "scoliosis", texto: "The doctor detected scoliosis during her checkup." },
@@ -20926,7 +20926,7 @@ DICCIONARIOS.en = [
   {
     id: "sedentary",
     palabra: "Sedentary",
-    imagen: { id: 2599, alt: "A person working at a desk" },
+    imagen: { id: 38015, alt: "Sedentary" },
     definicion: "Involving little physical activity or movement, such as sitting for long periods.",
     sinonimos: ["involving little physical activity"],
     ejemplo: { palabra: "a sedentary lifestyle", texto: "The doctor warned him about the risks of a sedentary lifestyle." },
@@ -21176,7 +21176,7 @@ DICCIONARIOS.en = [
   {
     id: "solicitor",
     palabra: "Solicitor",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 2636, alt: "Lawyer, attorney, solicitor" },
     definicion: "A type of lawyer who advises clients and prepares legal documents, common in the UK.",
     sinonimos: ["a type of lawyer who advises clients"],
     ejemplo: { palabra: "a solicitor", texto: "She hired a solicitor to help with the property sale." },
@@ -21246,7 +21246,7 @@ DICCIONARIOS.en = [
   {
     id: "sponsor",
     palabra: "Sponsor",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 14674, alt: "Sponsor" },
     definicion: "A person or organization that agrees to support or take responsibility for someone, such as an immigrant applying for residency.",
     sinonimos: ["a person who agrees to support or take responsibility for someone"],
     ejemplo: { palabra: "a sponsor", texto: "He needed a sponsor to apply for the visa." },
@@ -21336,7 +21336,7 @@ DICCIONARIOS.en = [
   {
     id: "stigma",
     palabra: "Stigma",
-    imagen: { id: 2606, alt: "A sad face" },
+    imagen: { id: 37148, alt: "Stigma" },
     definicion: "A feeling of shame or disapproval that society attaches to something, such as an illness or condition.",
     sinonimos: ["shame or disapproval attached to something by society"],
     ejemplo: { palabra: "the stigma", texto: "She hoped to reduce the stigma around mental illness." },
@@ -21446,7 +21446,7 @@ DICCIONARIOS.en = [
   {
     id: "suicide",
     palabra: "Suicide",
-    imagen: { id: 2606, alt: "A sad face" },
+    imagen: { id: 26463, alt: "Suicide" },
     definicion: "The act of intentionally ending one's own life.",
     sinonimos: ["the act of intentionally ending one's own life"],
     ejemplo: { palabra: "suicide", texto: "The clinic offers support for people affected by suicide." },
@@ -21546,7 +21546,7 @@ DICCIONARIOS.en = [
   {
     id: "terrorism",
     palabra: "Terrorism",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 16109, alt: "Terrorism" },
     definicion: "The use of violence or threats to frighten people, usually for political reasons.",
     sinonimos: ["the use of violence to frighten people for political reasons"],
     ejemplo: { palabra: "terrorism", texto: "The country strengthened its laws to prevent terrorism." },
@@ -21556,7 +21556,7 @@ DICCIONARIOS.en = [
   {
     id: "terrorist",
     palabra: "Terrorist",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 16111, alt: "Terrorist" },
     definicion: "A person who uses violence or threats to frighten people, usually for political reasons.",
     sinonimos: ["a person who uses violence to frighten people for political reasons"],
     ejemplo: { palabra: "a terrorist", texto: "Police arrested a terrorist before the attack could happen." },
@@ -21676,7 +21676,7 @@ DICCIONARIOS.en = [
   {
     id: "tsunami",
     palabra: "Tsunami",
-    imagen: { id: 25315, alt: "A warning sign" },
+    imagen: { id: 4669, alt: "Flood, tsunami, inundation" },
     definicion: "A very large, powerful ocean wave usually caused by an earthquake, capable of causing severe destruction.",
     sinonimos: ["a very large destructive ocean wave"],
     ejemplo: { palabra: "a tsunami", texto: "The earthquake triggered a tsunami along the coast." },
@@ -21806,7 +21806,7 @@ DICCIONARIOS.en = [
   {
     id: "vasectomy",
     palabra: "Vasectomy",
-    imagen: { id: 2467, alt: "A doctor" },
+    imagen: { id: 16681, alt: "Vasectomy" },
     definicion: "A minor surgery that makes a man unable to have children.",
     sinonimos: ["surgery that makes a man unable to have children"],
     ejemplo: { palabra: "a vasectomy", texto: "He decided to have a vasectomy after his third child." },
@@ -21921,6 +21921,166 @@ DICCIONARIOS.en = [
     sinonimos: ["a mosquito-borne virus that can cause birth defects"],
     ejemplo: { palabra: "the Zika virus", texto: "Health officials warned travelers about the Zika virus." },
     ejemploSinonimo: { palabra: "the mosquito-borne virus that can cause birth defects", texto: "Health officials warned travelers about the mosquito-borne virus that can cause birth defects." },
+    situacion: "salud",
+  },
+  {
+    id: "abduction",
+    palabra: "Abduction",
+    imagen: { id: 2824, alt: "A police officer" },
+    definicion: "The crime of taking a person away by force, usually against their will.",
+    sinonimos: ["taking a person away by force"],
+    ejemplo: { palabra: "the abduction of the child", texto: "Police launched a search after the abduction of the child." },
+    ejemploSinonimo: { palabra: "the taking of the child by force", texto: "Police launched a search after the taking of the child by force." },
+    situacion: "seguridad",
+  },
+  {
+    id: "abolish",
+    palabra: "Abolish",
+    imagen: { id: 21802, alt: "An official document" },
+    definicion: "To officially end a law, system, or practice.",
+    sinonimos: ["officially end a law or practice"],
+    ejemplo: { palabra: "abolish the tax", texto: "Lawmakers voted to abolish the tax." },
+    ejemploSinonimo: { palabra: "officially end the tax", texto: "Lawmakers voted to officially end the tax." },
+    situacion: "legal",
+  },
+  {
+    id: "abrasion",
+    palabra: "Abrasion",
+    imagen: { id: 2840, alt: "Skin" },
+    definicion: "A scrape or graze on the skin caused by rubbing against something rough.",
+    sinonimos: ["a scrape on the skin"],
+    ejemplo: { palabra: "an abrasion on his knee", texto: "The nurse cleaned an abrasion on his knee." },
+    ejemploSinonimo: { palabra: "a scrape on the skin of his knee", texto: "The nurse cleaned a scrape on the skin of his knee." },
+    situacion: "salud",
+  },
+  {
+    id: "absconding",
+    palabra: "Absconding",
+    imagen: { id: 2824, alt: "An official document" },
+    definicion: "Leaving secretly to avoid arrest, prosecution, or a legal obligation.",
+    sinonimos: ["leaving secretly to avoid arrest or a legal obligation"],
+    ejemplo: { palabra: "absconding", texto: "He was charged with absconding while on bail." },
+    ejemploSinonimo: { palabra: "leaving secretly to avoid arrest", texto: "He was charged with leaving secretly to avoid arrest while on bail." },
+    situacion: "legal",
+  },
+  {
+    id: "abstain",
+    palabra: "Abstain",
+    imagen: { id: 6631, alt: "A ballot box" },
+    definicion: "To choose not to vote, or to deliberately not do something.",
+    sinonimos: ["choose not to vote or not do something"],
+    ejemplo: { palabra: "abstain from voting", texto: "Two members chose to abstain from voting." },
+    ejemploSinonimo: { palabra: "not take part in the vote", texto: "Two members chose to not take part in the vote." },
+    situacion: "vida-diaria",
+  },
+  {
+    id: "abusive",
+    palabra: "Abusive",
+    imagen: { id: 9007, alt: "Two people fighting" },
+    definicion: "Treating someone with cruelty or violence, whether physically or verbally.",
+    sinonimos: ["treating someone with cruelty or violence"],
+    ejemplo: { palabra: "an abusive relationship", texto: "The shelter helps people leave an abusive relationship." },
+    ejemploSinonimo: { palabra: "a relationship involving cruelty or violence", texto: "The shelter helps people leave a relationship involving cruelty or violence." },
+    situacion: "seguridad",
+  },
+  {
+    id: "accomplice",
+    palabra: "Accomplice",
+    imagen: { id: 2824, alt: "A police officer" },
+    definicion: "A person who helps another person commit a crime.",
+    sinonimos: ["a person who helps someone commit a crime"],
+    ejemplo: { palabra: "an accomplice", texto: "Police believe he had an accomplice during the robbery." },
+    ejemploSinonimo: { palabra: "a person who helped him commit the crime", texto: "Police believe he had a person who helped him commit the crime during the robbery." },
+    situacion: "legal",
+  },
+  {
+    id: "acrophobia",
+    palabra: "Acrophobia",
+    imagen: { id: 10261, alt: "A frightened person" },
+    definicion: "An intense and irrational fear of heights.",
+    sinonimos: ["an intense fear of heights"],
+    ejemplo: { palabra: "his acrophobia", texto: "The ladder was hard to climb because of his acrophobia." },
+    ejemploSinonimo: { palabra: "his intense fear of heights", texto: "The ladder was hard to climb because of his intense fear of heights." },
+    situacion: "salud",
+  },
+  {
+    id: "adhesion",
+    palabra: "Adhesion",
+    imagen: { id: 3116, alt: "A hospital with an ambulance" },
+    definicion: "A band of scar tissue that forms inside the body, often after surgery, joining tissues that are normally separate.",
+    sinonimos: ["scar tissue joining tissues that are normally separate"],
+    ejemplo: { palabra: "an adhesion", texto: "Doctors found an adhesion after the surgery." },
+    ejemploSinonimo: { palabra: "a band of scar tissue", texto: "Doctors found a band of scar tissue after the surgery." },
+    situacion: "salud",
+  },
+  {
+    id: "adolescent",
+    palabra: "Adolescent",
+    imagen: { id: 4673, alt: "A teenager" },
+    definicion: "A young person between childhood and adulthood, usually a teenager.",
+    sinonimos: ["a young person between childhood and adulthood"],
+    ejemplo: { palabra: "an adolescent", texto: "The counselor works with an adolescent every Tuesday." },
+    ejemploSinonimo: { palabra: "a young person between childhood and adulthood", texto: "The counselor works with a young person between childhood and adulthood every Tuesday." },
+    situacion: "educacion",
+  },
+  {
+    id: "adoptee",
+    palabra: "Adoptee",
+    imagen: { id: 2392, alt: "A family" },
+    definicion: "A person who has been legally adopted.",
+    sinonimos: ["a person who has been legally adopted"],
+    ejemplo: { palabra: "an adoptee", texto: "She learned she was an adoptee when she turned eighteen." },
+    ejemploSinonimo: { palabra: "a person who had been legally adopted", texto: "She learned she was a person who had been legally adopted when she turned eighteen." },
+    situacion: "tramites",
+  },
+  {
+    id: "advocacy",
+    palabra: "Advocacy",
+    imagen: { id: 4570, alt: "Two hands helping each other" },
+    definicion: "Public support for a cause, policy, or a group of people.",
+    sinonimos: ["public support for a cause or group of people"],
+    ejemplo: { palabra: "advocacy", texto: "The organization focuses on advocacy for tenants' rights." },
+    ejemploSinonimo: { palabra: "public support", texto: "The organization focuses on public support for tenants' rights." },
+    situacion: "vida-diaria",
+  },
+  {
+    id: "affidavit",
+    palabra: "Affidavit",
+    imagen: { id: 21802, alt: "An official document" },
+    definicion: "A written statement that a person swears is true, used as evidence in legal matters.",
+    sinonimos: ["a written statement sworn to be true"],
+    ejemplo: { palabra: "an affidavit", texto: "She signed an affidavit confirming her address." },
+    ejemploSinonimo: { palabra: "a written statement sworn to be true", texto: "She signed a written statement sworn to be true confirming her address." },
+    situacion: "tramites",
+  },
+  {
+    id: "affliction",
+    palabra: "Affliction",
+    imagen: { id: 2467, alt: "A doctor" },
+    definicion: "A condition that causes pain or suffering, such as an illness.",
+    sinonimos: ["a condition that causes pain or suffering"],
+    ejemplo: { palabra: "his affliction", texto: "He learned to live with his affliction." },
+    ejemploSinonimo: { palabra: "his condition that caused pain", texto: "He learned to live with his condition that caused pain." },
+    situacion: "salud",
+  },
+  {
+    id: "ageism",
+    palabra: "Ageism",
+    imagen: { id: 12323, alt: "A group of people, one of them excluded" },
+    definicion: "Discrimination or prejudice against people because of their age, especially older people.",
+    sinonimos: ["discrimination against people because of their age"],
+    ejemplo: { palabra: "ageism", texto: "The company was accused of ageism during layoffs." },
+    ejemploSinonimo: { palabra: "discrimination based on age", texto: "The company was accused of discrimination based on age during layoffs." },
+    situacion: "vida-diaria",
+  },
+  {
+    id: "agitation",
+    palabra: "Agitation",
+    imagen: { id: 2467, alt: "A doctor" },
+    definicion: "A state of anxious restlessness or excitement, often seen as a symptom of illness or distress.",
+    sinonimos: ["a state of anxious restlessness"],
+    ejemplo: { palabra: "agitation", texto: "The patient showed agitation during the exam." },
+    ejemploSinonimo: { palabra: "a state of anxious restlessness", texto: "The patient showed a state of anxious restlessness during the exam." },
     situacion: "salud",
   },
 ];
