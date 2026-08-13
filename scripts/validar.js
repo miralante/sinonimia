@@ -11,6 +11,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const crypto = require("crypto");
 const { execFileSync } = require("child_process");
 
 const ROOT = path.join(__dirname, "..");
@@ -226,6 +227,53 @@ languages.forEach(function (language) {
   });
 });
 ok("index.html data-i18n keys checked (" + htmlI18nKeys.size + ") across " + languages.join(", "));
+
+// --- 6c. js/data.*.js cache-busting: ?v= must be a hash of the file it names ---
+// _headers caches /js/data.* as `public, max-age=31536000, immutable` on
+// purpose (the dictionaries are big and change rarely) — but that means the
+// ONLY way a returning visitor ever sees new/edited entries is if the
+// <script src="js/data.es.js?v=..."> query string changes, since `immutable`
+// tells the browser to never even revalidate. A date-string version relied
+// on every editor remembering to bump it by hand on every content change;
+// this is exactly the bug already fixed once for js/i18n.js (see 52e46b7)
+// but that fix only moved i18n.js to a short cache — js/data.*.js kept the
+// manual-bump footgun and re-triggered the same failure mode (dictionary
+// expansion shipped, ?v= left stale, returning visitors never saw the new
+// words). Hashing the actual file content removes the human-memory step:
+// the query string is either right or CI fails with the exact value to
+// paste in.
+function contentHash(relativePath) {
+  const content = fs.readFileSync(path.join(ROOT, relativePath));
+  return crypto.createHash("sha256").update(content).digest("hex").slice(0, 10);
+}
+
+// 404.html carries its own copy of these <script> tags (it's a standalone
+// page, not routed through index.html), so it's just as exposed to the
+// stale-immutable-cache bug and gets the same check.
+const html404Path = path.join(ROOT, "404.html");
+const htmlPages = [{ file: "index.html", content: html }];
+if (fs.existsSync(html404Path)) {
+  htmlPages.push({ file: "404.html", content: fs.readFileSync(html404Path, "utf8") });
+}
+
+htmlPages.forEach(function (page) {
+  ["es", "en"].forEach(function (language) {
+    const relativePath = "js/data." + language + ".js";
+    const tagRe = new RegExp('<script src="js/data\\.' + language + '\\.js(?:\\?v=([^"]*))?">');
+    const tagMatch = page.content.match(tagRe);
+    if (!tagMatch) return; // this page doesn't load the dictionary at all
+    const expected = contentHash(relativePath);
+    if (tagMatch[1] !== expected) {
+      fail(
+        page.file + ": " + relativePath + " query string is \"" + (tagMatch[1] || "(none)") +
+        "\" but the file's content hash is \"" + expected + "\" — bump it to " +
+        "?v=" + expected + " or returning visitors keep the immutable-cached stale " +
+        "dictionary (see _headers' js/data.* Cache-Control policy)"
+      );
+    }
+  });
+});
+ok("js/data.*.js cache-busting query strings checked (es: " + contentHash("js/data.es.js") + ", en: " + contentHash("js/data.en.js") + ")");
 
 // --- 7. The user-facing product never names disability or minors ---
 // doc/en/SPEC.md's rule ("Mandatory rule: zero mentions in the user-facing
