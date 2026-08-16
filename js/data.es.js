@@ -448,7 +448,7 @@ DICCIONARIOS.es = [
   {
     id: "aval",
     palabra: "Aval",
-    imagen: { id: 3062, alt: "La fachada de un banco con un cajero automático" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Una persona promete pagar tu deuda si tú no puedes.",
     sinonimos: ["garantía", "garante"],
     ejemplo: { palabra: "aval", texto: "Mi padre me hizo de aval para el préstamo del coche." },
@@ -549,7 +549,7 @@ DICCIONARIOS.es = [
   {
     id: "hipoteca",
     palabra: "Hipoteca",
-    imagen: { id: 3062, alt: "La fachada de un banco con un cajero automático" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Dinero que te presta el banco para comprar una casa. Lo devuelves poco a poco durante muchos años.",
     sinonimos: ["préstamo para la vivienda"],
     ejemplo: { palabra: "hipoteca", texto: "Pagamos la hipoteca cada mes." },
@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 34814, alt: "Préstamo" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -1506,7 +1506,7 @@ DICCIONARIOS.es = [
   {
     id: "sucursal",
     palabra: "Sucursal",
-    imagen: { id: 3062, alt: "La fachada de un banco" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Una oficina del banco. Cada barrio tiene la suya.",
     sinonimos: ["oficina del banco", "delegación del banco"],
     ejemplo: { palabra: "sucursal", texto: "Abrió su cuenta en la sucursal de su barrio." },
@@ -1538,7 +1538,7 @@ DICCIONARIOS.es = [
   {
     id: "cuenta-ahorros",
     palabra: "Cuenta de ahorros",
-    imagen: { id: 36403, alt: "Una hucha con monedas" },
+    imagen: { id: 19528, alt: "Caja de ahorros" },
     definicion: "Una cuenta del banco para guardar dinero. Te da un poco de interés.",
     sinonimos: ["cuenta para guardar", "depósito de dinero"],
     ejemplo: { palabra: "cuenta de ahorros", texto: "Guarda sus ahorros en una cuenta de ahorros del banco." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 36403, alt: "Una hucha con monedas" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 11291, alt: "Juez, magistrado" },
+    imagen: { id: 35413, alt: "Notario" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -5278,7 +5278,7 @@ DICCIONARIOS.es = [
   {
     id: "conexion-internet",
     palabra: "Conexión a internet",
-    imagen: { id: 5492, alt: "El símbolo de internet" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "El enlace que permite usar internet en el móvil o el ordenador. Sin conexión, no se puede navegar.",
     sinonimos: ["acceso a internet", "enlace a la red"],
     ejemplo: { palabra: "conexión a internet", texto: "En el pueblo la conexión a internet va muy lenta." },
@@ -7578,7 +7578,7 @@ DICCIONARIOS.es = [
   {
     id: "navegador",
     palabra: "Navegador",
-    imagen: { id: 5492, alt: "Un símbolo de conexión a internet" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "El programa que abres en el ordenador o el móvil para entrar en páginas web.",
     sinonimos: ["navegador de internet", "programa para ver páginas web"],
     ejemplo: { palabra: "navegador", texto: "Abrió el navegador para buscar la dirección del médico." },
@@ -8288,7 +8288,7 @@ DICCIONARIOS.es = [
   {
     id: "fondo-de-inversion",
     palabra: "Fondo de inversión",
-    imagen: { id: 36403, alt: "Varias monedas juntas formando un montón" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Un producto donde varias personas juntan su dinero para invertirlo entre todas.",
     sinonimos: ["fondo de ahorro colectivo"],
     ejemplo: { palabra: "fondo de inversión", texto: "Metió parte de sus ahorros en un fondo de inversión." },
@@ -8308,7 +8308,7 @@ DICCIONARIOS.es = [
   {
     id: "plazo-fijo",
     palabra: "Plazo fijo",
-    imagen: { id: 36403, alt: "Una hucha con un calendario al lado" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Un tipo de ahorro donde dejas tu dinero en el banco un tiempo fijo y te dan un poco más al final.",
     sinonimos: ["depósito a plazo fijo"],
     ejemplo: { palabra: "plazo fijo", texto: "Puso sus ahorros en un plazo fijo a un año." },
@@ -9488,7 +9488,7 @@ DICCIONARIOS.es = [
   {
     id: "domiciliacion-bancaria",
     palabra: "Domiciliación bancaria",
-    imagen: { id: 3062, alt: "Un recibo con una flecha hacia una cuenta bancaria" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dar permiso a una empresa para que cobre un recibo directamente de tu cuenta cada mes.",
     sinonimos: ["orden de pago automático"],
     ejemplo: { palabra: "domiciliación bancaria", texto: "Puso la domiciliación bancaria de la luz para no olvidarse de pagarla." },
@@ -9588,7 +9588,7 @@ DICCIONARIOS.es = [
   {
     id: "aportacion",
     palabra: "Aportación",
-    imagen: { id: 36403, alt: "Una mano metiendo una moneda en una hucha" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "El dinero que metes tú mismo en un plan de ahorro o de pensiones, poco a poco.",
     sinonimos: ["ingreso al plan de ahorro"],
     ejemplo: { palabra: "aportación", texto: "Hacía una aportación de cincuenta euros al mes a su plan de pensiones." },
@@ -11816,7 +11816,7 @@ DICCIONARIOS.es = [
   {
     id: "estatutos-de-la-comunidad",
     palabra: "Estatutos de la comunidad",
-    imagen: { id: 6241, alt: "Dos vecinos se saludan desde la ventana" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Las normas escritas que todos los vecinos de un edificio deben cumplir.",
     sinonimos: ["normas escritas de los vecinos"],
     ejemplo: { palabra: "estatutos de la comunidad", texto: "Los estatutos de la comunidad prohibían tener animales en la piscina." },
@@ -16032,7 +16032,7 @@ DICCIONARIOS.es = [
   {
     id: "apatrida",
     palabra: "Apátrida",
-    imagen: { id: 6171, alt: "Un pasaporte junto a banderas de varios países" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona que no tiene la nacionalidad de ningún país.",
     sinonimos: ["persona sin país"],
     ejemplo: { palabra: "apátrida", texto: "Fue reconocido como apátrida porque ningún país lo aceptaba como ciudadano." },
@@ -16812,7 +16812,7 @@ DICCIONARIOS.es = [
   {
     id: "consular",
     palabra: "Consular",
-    imagen: { id: 6171, alt: "Un pasaporte junto a un documento" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Relacionado con el consulado, la oficina que representa a un país en el extranjero.",
     sinonimos: ["del consulado"],
     ejemplo: { palabra: "consular", texto: "Pidió cita en la oficina consular para renovar su pasaporte." },
@@ -17082,7 +17082,7 @@ DICCIONARIOS.es = [
   {
     id: "deportar",
     palabra: "Deportar",
-    imagen: { id: 6171, alt: "Un pasaporte junto a banderas de varios países" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Sacar a una persona de un país de forma oficial y obligatoria.",
     sinonimos: ["expulsar del país"],
     ejemplo: { palabra: "deportar", texto: "El gobierno decidió deportar a los inmigrantes sin papeles." },
@@ -17322,7 +17322,7 @@ DICCIONARIOS.es = [
   {
     id: "embargar",
     palabra: "Embargar",
-    imagen: { id: 3062, alt: "Un banco con documentos" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Quitar legalmente bienes o dinero a una persona porque no ha pagado una deuda.",
     sinonimos: ["retener bienes por una deuda"],
     ejemplo: { palabra: "embargar la cuenta", texto: "El banco decidió embargar la cuenta por no pagar el préstamo." },
@@ -17602,7 +17602,7 @@ DICCIONARIOS.es = [
   {
     id: "extraditar",
     palabra: "Extraditar",
-    imagen: { id: 6171, alt: "Un pasaporte y un documento oficial" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Entregar a una persona que está en un país a las autoridades de otro país para ser juzgada.",
     sinonimos: ["entregar a otro país para juicio"],
     ejemplo: { palabra: "extraditar", texto: "El gobierno aceptó extraditar al fugitivo." },
@@ -18512,7 +18512,7 @@ DICCIONARIOS.es = [
   {
     id: "migratorio",
     palabra: "Migratorio",
-    imagen: { id: 6171, alt: "Un pasaporte" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Relacionado con el movimiento de personas de un país a otro para vivir o trabajar.",
     sinonimos: ["relacionado con la migración"],
     ejemplo: { palabra: "el proceso migratorio", texto: "El abogado le explicó el proceso migratorio para obtener el permiso de trabajo." },
