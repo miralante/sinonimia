@@ -216,7 +216,7 @@ DICCIONARIOS.en = [
   {
     id: "arrears",
     palabra: "Arrears",
-    imagen: { id: 15517, alt: "An unpaid bill" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Money you owe that you should have paid before now.",
     sinonimos: ["overdue debt", "unpaid debt"],
     ejemplo: { palabra: "arrears", texto: "He paid the arrears before the eviction notice arrived." },
@@ -2298,7 +2298,7 @@ DICCIONARIOS.en = [
   {
     id: "electricity-bill",
     palabra: "Electricity bill",
-    imagen: { id: 15517, alt: "An electricity bill" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "The paper the electricity company sends you every month. You must pay it.",
     sinonimos: ["power bill"],
     ejemplo: { palabra: "electricity bill", texto: "The electricity bill came higher this month." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -6207,7 +6207,7 @@ DICCIONARIOS.en = [
   {
     id: "calendar",
     palabra: "Calendar",
-    imagen: { id: 8717, alt: "Vida" },
+    imagen: { id: 3071, alt: "Calendar, yearbook, almanac" },
     definicion: "A paper or an app that shows the days, weeks and months of the year. It helps you remember dates.",
     sinonimos: ["almanac"],
     ejemplo: { palabra: "calendar", texto: "She wrote the doctor's appointment on the calendar." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 2402, alt: "Biscuits, cookies" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -7677,7 +7677,7 @@ DICCIONARIOS.en = [
   {
     id: "encryption",
     palabra: "Encryption",
-    imagen: { id: 6957, alt: "A padlock over a text message" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A way of protecting a message so only the person you send it to can read it.",
     sinonimos: ["data protection code"],
     ejemplo: { palabra: "encryption", texto: "The messaging app uses encryption to protect conversations." },
@@ -7727,7 +7727,7 @@ DICCIONARIOS.en = [
   {
     id: "lock-screen",
     palabra: "Lock screen",
-    imagen: { id: 6957, alt: "A padlock" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "The first screen on a phone, the one you see before typing your code to get in.",
     sinonimos: ["locked home screen"],
     ejemplo: { palabra: "lock screen", texto: "She changed the picture on her phone's lock screen." },
@@ -8667,7 +8667,7 @@ DICCIONARIOS.en = [
   {
     id: "data-protection",
     palabra: "Data protection",
-    imagen: { id: 6957, alt: "A padlock protecting a screen" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "The rules that protect your personal information, so no one uses it without your permission.",
     sinonimos: ["privacy law"],
     ejemplo: { palabra: "data protection", texto: "The company followed the data protection law." },
@@ -9467,7 +9467,7 @@ DICCIONARIOS.en = [
   {
     id: "prosthesis",
     palabra: "Prosthesis",
-    imagen: { id: 8666, alt: "A leg" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "An artificial part that replaces part of the body, like a leg or a tooth.",
     sinonimos: ["artificial limb"],
     ejemplo: { palabra: "prosthesis", texto: "He was fitted with a knee prosthesis after the operation." },
@@ -10128,7 +10128,7 @@ DICCIONARIOS.en = [
   {
     id: "late-payment-interest",
     palabra: "Late payment interest",
-    imagen: { id: 15517, alt: "An unpaid bill" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Extra money you must pay for paying a bill late.",
     sinonimos: ["late fee on a debt"],
     ejemplo: { palabra: "late payment interest", texto: "She paid the bill late and was charged late payment interest." },
@@ -10148,7 +10148,7 @@ DICCIONARIOS.en = [
   {
     id: "insolvency",
     palabra: "Insolvency",
-    imagen: { id: 15517, alt: "An unpaid bill" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Not having enough money to pay your debts.",
     sinonimos: ["not enough money to pay debts"],
     ejemplo: { palabra: "insolvency", texto: "The company closed because of insolvency." },
@@ -10258,7 +10258,7 @@ DICCIONARIOS.en = [
   {
     id: "returned-direct-debit",
     palabra: "Returned direct debit",
-    imagen: { id: 15517, alt: "An unpaid bill" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "When the bank cannot pay a direct debit because there is no money in the account.",
     sinonimos: ["direct debit rejected by the bank"],
     ejemplo: { palabra: "returned direct debit", texto: "He had a returned direct debit and the bank charged him extra." },
@@ -10489,7 +10489,7 @@ DICCIONARIOS.en = [
   {
     id: "vpn",
     palabra: "VPN",
-    imagen: { id: 6957, alt: "A padlock" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A connection that hides what you do online, to make it more private.",
     sinonimos: ["virtual private network", "private internet connection"],
     ejemplo: { palabra: "VPN", texto: "He used a VPN to connect from the hotel." },
@@ -11555,7 +11555,7 @@ DICCIONARIOS.en = [
   {
     id: "squatting",
     palabra: "Squatting",
-    imagen: { id: 6957, alt: "A padlock" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Living in a home without the owner's permission and without paying for it.",
     sinonimos: ["living in a home without permission"],
     ejemplo: { palabra: "squatting", texto: "He reported squatting in his empty flat." },
@@ -11957,7 +11957,7 @@ DICCIONARIOS.en = [
   {
     id: "ssl-certificate",
     palabra: "SSL certificate",
-    imagen: { id: 6957, alt: "A padlock" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A padlock mark in the browser that shows a website is safe.",
     sinonimos: ["padlock mark showing a website is safe"],
     ejemplo: { palabra: "SSL certificate", texto: "She checked for the SSL certificate before paying on the online shop." },
@@ -11967,7 +11967,7 @@ DICCIONARIOS.en = [
   {
     id: "secure-connection",
     palabra: "Secure connection",
-    imagen: { id: 6957, alt: "A padlock" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A way of browsing the internet where the data you send is protected.",
     sinonimos: ["HTTPS", "browsing with protected data"],
     ejemplo: { palabra: "secure connection", texto: "The bank only works over a secure connection." },
@@ -12127,7 +12127,7 @@ DICCIONARIOS.en = [
   {
     id: "app-lock",
     palabra: "App lock",
-    imagen: { id: 6957, alt: "A padlock" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Putting a passcode on a single app so no one else can open it.",
     sinonimos: ["passcode to open just one app"],
     ejemplo: { palabra: "app lock", texto: "She turned on app lock for the banking app on her phone." },
@@ -12570,7 +12570,7 @@ DICCIONARIOS.en = [
   {
     id: "right-to-be-forgotten",
     palabra: "Right to be forgotten",
-    imagen: { id: 6957, alt: "A padlock" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "The right to ask a company or a website to delete your personal data.",
     sinonimos: ["right to have your data deleted"],
     ejemplo: { palabra: "right to be forgotten", texto: "He used his right to be forgotten to remove old photos from the site." },
@@ -15846,7 +15846,7 @@ DICCIONARIOS.en = [
   {
     id: "antenatal",
     palabra: "Antenatal",
-    imagen: { id: 11250, alt: "A doctor talks with a pregnant patient" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Related to the time before a baby is born, like antenatal care.",
     sinonimos: ["before birth", "prenatal"],
     ejemplo: { palabra: "antenatal", texto: "She went to her antenatal appointment at the clinic." },
@@ -17376,7 +17376,7 @@ DICCIONARIOS.en = [
   {
     id: "doula",
     palabra: "Doula",
-    imagen: { id: 11250, alt: "A pregnant woman with a doctor" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A trained person who supports a woman during pregnancy and childbirth, without being a doctor or nurse.",
     sinonimos: ["a birth support helper"],
     ejemplo: { palabra: "a doula", texto: "She hired a doula to help her through labor." },
@@ -17466,7 +17466,7 @@ DICCIONARIOS.en = [
   {
     id: "ectopic-pregnancy",
     palabra: "Ectopic pregnancy",
-    imagen: { id: 11250, alt: "A pregnant woman with a doctor" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A pregnancy in which the fertilized egg grows outside the womb, which can be dangerous.",
     sinonimos: ["a pregnancy outside the womb"],
     ejemplo: { palabra: "an ectopic pregnancy", texto: "She was rushed to the hospital after doctors found an ectopic pregnancy." },
@@ -17486,7 +17486,7 @@ DICCIONARIOS.en = [
   {
     id: "eclampsia",
     palabra: "Eclampsia",
-    imagen: { id: 11250, alt: "A pregnant woman with a doctor" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A serious condition during pregnancy that causes seizures, linked to high blood pressure.",
     sinonimos: ["seizures caused by high blood pressure in pregnancy"],
     ejemplo: { palabra: "eclampsia", texto: "Doctors monitor blood pressure closely to prevent eclampsia." },
@@ -18086,7 +18086,7 @@ DICCIONARIOS.en = [
   {
     id: "gestation",
     palabra: "Gestation",
-    imagen: { id: 11250, alt: "A pregnant woman with a doctor" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The period of time during which a baby develops inside the womb before birth.",
     sinonimos: ["the period before birth"],
     ejemplo: { palabra: "gestation", texto: "Doctors monitor gestation closely during high-risk pregnancies." },
@@ -19116,7 +19116,7 @@ DICCIONARIOS.en = [
   {
     id: "meniscus",
     palabra: "Meniscus",
-    imagen: { id: 8666, alt: "A leg diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A piece of cartilage in the knee that cushions and stabilizes the joint.",
     sinonimos: ["cartilage in the knee that cushions the joint"],
     ejemplo: { palabra: "a torn meniscus", texto: "The player needed surgery for a torn meniscus." },
@@ -19176,7 +19176,7 @@ DICCIONARIOS.en = [
   {
     id: "midwifery",
     palabra: "Midwifery",
-    imagen: { id: 11250, alt: "A pregnancy diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The profession of helping women during pregnancy, childbirth, and after birth.",
     sinonimos: ["the profession of helping women give birth"],
     ejemplo: { palabra: "midwifery", texto: "She studied midwifery to help mothers during childbirth." },
@@ -19206,7 +19206,7 @@ DICCIONARIOS.en = [
   {
     id: "miscarry",
     palabra: "Miscarry",
-    imagen: { id: 11250, alt: "A pregnancy diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "To lose a pregnancy before the baby can survive outside the womb.",
     sinonimos: ["lose a pregnancy before birth"],
     ejemplo: { palabra: "miscarry", texto: "Doctors warned that she might miscarry if she did not rest." },
@@ -19626,7 +19626,7 @@ DICCIONARIOS.en = [
   {
     id: "orthopedic",
     palabra: "Orthopedic",
-    imagen: { id: 8666, alt: "A leg diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Relating to the treatment of bone and muscle problems.",
     sinonimos: ["relating to bone and muscle treatment"],
     ejemplo: { palabra: "orthopedic surgery", texto: "She needed orthopedic surgery after breaking her leg." },
@@ -19766,7 +19766,7 @@ DICCIONARIOS.en = [
   {
     id: "paralysis",
     palabra: "Paralysis",
-    imagen: { id: 8666, alt: "A leg diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The loss of the ability to move part or all of the body.",
     sinonimos: ["loss of the ability to move the body"],
     ejemplo: { palabra: "paralysis", texto: "The accident caused paralysis in both of his legs." },
@@ -20266,7 +20266,7 @@ DICCIONARIOS.en = [
   {
     id: "prosthetic",
     palabra: "Prosthetic",
-    imagen: { id: 8666, alt: "A leg diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "An artificial device used to replace a missing body part, such as a leg or hand.",
     sinonimos: ["an artificial replacement for a body part"],
     ejemplo: { palabra: "a prosthetic leg", texto: "He learned to walk again with a prosthetic leg." },
@@ -21196,7 +21196,7 @@ DICCIONARIOS.en = [
   {
     id: "sonogram",
     palabra: "Sonogram",
-    imagen: { id: 11250, alt: "A pregnancy diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "An image created using sound waves, often used to see a baby before birth.",
     sinonimos: ["an image created using sound waves"],
     ejemplo: { palabra: "a sonogram", texto: "The clinic used a sonogram to check the baby's growth." },
@@ -21536,7 +21536,7 @@ DICCIONARIOS.en = [
   {
     id: "thrombosis",
     palabra: "Thrombosis",
-    imagen: { id: 8666, alt: "A leg diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The formation of a blood clot that blocks a blood vessel.",
     sinonimos: ["the formation of a blood clot that blocks a blood vessel"],
     ejemplo: { palabra: "a thrombosis", texto: "Doctors found a thrombosis in his leg." },
@@ -21776,7 +21776,7 @@ DICCIONARIOS.en = [
   {
     id: "uterus",
     palabra: "Uterus",
-    imagen: { id: 11250, alt: "A pregnancy diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The organ in a woman's body where a baby grows during pregnancy.",
     sinonimos: ["the organ where a baby grows during pregnancy"],
     ejemplo: { palabra: "her uterus", texto: "The scan showed a small growth in her uterus." },
@@ -21796,7 +21796,7 @@ DICCIONARIOS.en = [
   {
     id: "varicose",
     palabra: "Varicose",
-    imagen: { id: 8666, alt: "A leg diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Describing veins, usually in the legs, that have become swollen and twisted.",
     sinonimos: ["swollen and twisted veins"],
     ejemplo: { palabra: "varicose veins", texto: "She had surgery to treat her varicose veins." },
