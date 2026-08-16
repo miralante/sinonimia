@@ -712,7 +712,7 @@ DICCIONARIOS.es = [
   {
     id: "entrevista-trabajo",
     palabra: "Entrevista de trabajo",
-    imagen: { id: 8207, alt: "Varias personas se reúnen alrededor de una mesa con papeles" },
+    imagen: { id: 8105, alt: "Entrevista" },
     definicion: "Una reunión antes de darte el trabajo. Te hacen preguntas para conocerte.",
     sinonimos: ["reunión de selección"],
     ejemplo: { palabra: "entrevista de trabajo", texto: "Mañana tiene una entrevista de trabajo en la empresa nueva." },
@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 34814, alt: "Préstamo" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 36403, alt: "Ahorro" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -2690,7 +2690,7 @@ DICCIONARIOS.es = [
   {
     id: "reunion",
     palabra: "Reunión de trabajo",
-    imagen: { id: 8207, alt: "Una reunión de personas" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Varias personas del equipo se juntan para hablar de un tema del trabajo.",
     sinonimos: ["encuentro de trabajo"],
     ejemplo: { palabra: "reunión", texto: "La reunión de trabajo empieza a las diez en la sala grande." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 11291, alt: "Juez, magistrado" },
+    imagen: { id: 35413, alt: "Notario" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -11615,7 +11615,7 @@ DICCIONARIOS.es = [
   {
     id: "plazo-de-desistimiento",
     palabra: "Plazo de desistimiento",
-    imagen: { id: 9026, alt: "Una persona devuelve un objeto" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Los días que tienes para devolver algo comprado por internet sin dar explicaciones.",
     sinonimos: ["días para devolver una compra online"],
     ejemplo: { palabra: "plazo de desistimiento", texto: "Devolvió los zapatos dentro del plazo de desistimiento." },
@@ -12097,7 +12097,7 @@ DICCIONARIOS.es = [
   {
     id: "contracargo",
     palabra: "Contracargo",
-    imagen: { id: 9026, alt: "Una persona devuelve un objeto" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Cuando el banco devuelve tu dinero después de que reclames un cobro que no reconoces.",
     sinonimos: ["devolución de un cobro reclamado"],
     ejemplo: { palabra: "contracargo", texto: "Pidió un contracargo por un cobro que no había hecho." },
@@ -12802,7 +12802,7 @@ DICCIONARIOS.es = [
   {
     id: "reincorporacion",
     palabra: "Reincorporación",
-    imagen: { id: 8207, alt: "Una persona vuelve a su puesto de trabajo sonriendo" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Volver a tu puesto después de una baja o de un permiso. Vuelves a trabajar como antes.",
     sinonimos: ["vuelta al trabajo"],
     ejemplo: { palabra: "reincorporación", texto: "Tras la baja, tu reincorporación está prevista para el lunes." },
@@ -12912,7 +12912,7 @@ DICCIONARIOS.es = [
   {
     id: "derecho-desistimiento",
     palabra: "Derecho de desistimiento",
-    imagen: { id: 9014, alt: "Una persona devuelve un paquete a una tienda" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Tu derecho a devolver un producto o cancelar un servicio comprado por internet, sin dar explicaciones.",
     sinonimos: ["derecho a devolver lo comprado"],
     ejemplo: { palabra: "desistimiento", texto: "Puedes ejercer el desistimiento durante catorce días desde que recibiste el producto." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 21802, alt: "Documento" },
+    imagen: { id: 8483, alt: "Frontera, aduana" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
@@ -16872,7 +16872,7 @@ DICCIONARIOS.es = [
   {
     id: "conyuge",
     palabra: "Cónyuge",
-    imagen: { id: 8256, alt: "Una pareja casada" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "El esposo o la esposa de una persona.",
     sinonimos: ["esposo o esposa"],
     ejemplo: { palabra: "cónyuge", texto: "Debe firmar el documento junto a su cónyuge." },
