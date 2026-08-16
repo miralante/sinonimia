@@ -1615,7 +1615,7 @@ DICCIONARIOS.en = [
   {
     id: "cyanosis",
     palabra: "Cyanosis",
-    imagen: { id: 2840, alt: "Skin on a hand" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Your skin turns blue because there is not enough oxygen in your blood.",
     sinonimos: ["bluish skin"],
     ejemplo: { palabra: "cyanosis", texto: "The baby had cyanosis on his lips and was rushed to the hospital." },
@@ -1645,7 +1645,7 @@ DICCIONARIOS.en = [
   {
     id: "erythema",
     palabra: "Erythema",
-    imagen: { id: 2840, alt: "Skin on a hand" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A red patch on your skin caused by irritation.",
     sinonimos: ["skin redness"],
     ejemplo: { palabra: "erythema", texto: "The new cream left erythema on her arm." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 2402, alt: "Biscuits, cookies" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -8447,7 +8447,7 @@ DICCIONARIOS.en = [
   {
     id: "joint-custody",
     palabra: "Joint custody",
-    imagen: { id: 2392, alt: "An adult and a child holding hands" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "When separated parents both share the time and decisions about their children.",
     sinonimos: ["shared custody"],
     ejemplo: { palabra: "joint custody", texto: "The judge decided on joint custody of the children." },
@@ -8467,7 +8467,7 @@ DICCIONARIOS.en = [
   {
     id: "adoption",
     palabra: "Adoption",
-    imagen: { id: 2392, alt: "A family hugging a child" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The legal process by which a person becomes the parent of a child they did not have biologically.",
     sinonimos: ["adoption process"],
     ejemplo: { palabra: "adoption", texto: "They finished the adoption process after two years of waiting." },
@@ -8477,7 +8477,7 @@ DICCIONARIOS.en = [
   {
     id: "foster-care",
     palabra: "Foster care",
-    imagen: { id: 2392, alt: "A family with a new child at home" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Looking after a child in your home for a while, without being their legal parent, for as long as they need it.",
     sinonimos: ["fostering"],
     ejemplo: { palabra: "foster care", texto: "The family started foster care for a five-year-old boy." },
@@ -10600,7 +10600,7 @@ DICCIONARIOS.en = [
   {
     id: "parentage",
     palabra: "Parentage",
-    imagen: { id: 2392, alt: "A family" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The legal relationship between a parent and their child.",
     sinonimos: ["legal parent-child relationship"],
     ejemplo: { palabra: "parentage", texto: "The judge confirmed the child's parentage." },
@@ -10660,7 +10660,7 @@ DICCIONARIOS.en = [
   {
     id: "next-of-kin",
     palabra: "Next of kin",
-    imagen: { id: 2392, alt: "A family" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Your closest living relative, the person the law asks first in an emergency.",
     sinonimos: ["closest living relative"],
     ejemplo: { palabra: "next of kin", texto: "The hospital called his next of kin after the accident." },
@@ -15706,7 +15706,7 @@ DICCIONARIOS.en = [
   {
     id: "albinism",
     palabra: "Albinism",
-    imagen: { id: 2840, alt: "A drawing of human skin" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A condition present from birth that causes very little color in the skin, hair, and eyes.",
     sinonimos: ["lack of skin pigment"],
     ejemplo: { palabra: "albinism", texto: "He was born with albinism and has very pale skin." },
@@ -16446,7 +16446,7 @@ DICCIONARIOS.en = [
   {
     id: "cellulitis",
     palabra: "Cellulitis",
-    imagen: { id: 2840, alt: "A drawing of human skin" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A bacterial infection of the skin that causes redness, swelling, and pain.",
     sinonimos: ["a bacterial skin infection"],
     ejemplo: { palabra: "cellulitis", texto: "He was treated with antibiotics for cellulitis in his leg." },
@@ -17026,7 +17026,7 @@ DICCIONARIOS.en = [
   {
     id: "custodial",
     palabra: "Custodial",
-    imagen: { id: 2392, alt: "A family with two parents and two children" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Related to the legal responsibility of caring for and making decisions for a child.",
     sinonimos: ["the legal right to care for a child"],
     ejemplo: { palabra: "custodial rights", texto: "The court granted her custodial rights after the divorce." },
@@ -17656,7 +17656,7 @@ DICCIONARIOS.en = [
   {
     id: "estrangement",
     palabra: "Estrangement",
-    imagen: { id: 2392, alt: "A family with two parents and two children" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A state in which family members no longer speak to or have a relationship with each other.",
     sinonimos: ["a lack of contact between family members"],
     ejemplo: { palabra: "estrangement", texto: "Years of estrangement kept the brothers apart." },
@@ -18116,7 +18116,7 @@ DICCIONARIOS.en = [
   {
     id: "godchild",
     palabra: "Godchild",
-    imagen: { id: 2392, alt: "A family with two parents and two children" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A child that a person has promised to help raise and guide, often in a religious sense.",
     sinonimos: ["a child someone promised to help raise"],
     ejemplo: { palabra: "his godchild", texto: "He attended the baptism of his godchild." },
@@ -18246,7 +18246,7 @@ DICCIONARIOS.en = [
   {
     id: "heirloom",
     palabra: "Heirloom",
-    imagen: { id: 2392, alt: "A handshake" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "An object of value that is passed down in a family from one generation to another.",
     sinonimos: ["an object passed down in a family"],
     ejemplo: { palabra: "a family heirloom", texto: "The ring was a family heirloom that her grandmother once wore." },
@@ -18716,7 +18716,7 @@ DICCIONARIOS.en = [
   {
     id: "keloid",
     palabra: "Keloid",
-    imagen: { id: 2840, alt: "Skin" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A raised, thick scar that grows larger than the original wound.",
     sinonimos: ["a raised scar larger than the wound"],
     ejemplo: { palabra: "a keloid", texto: "The surgery left a keloid on her shoulder." },
@@ -18766,7 +18766,7 @@ DICCIONARIOS.en = [
   {
     id: "laceration",
     palabra: "Laceration",
-    imagen: { id: 2840, alt: "Skin" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A deep cut or tear in the skin.",
     sinonimos: ["a deep cut or tear in the skin"],
     ejemplo: { palabra: "a laceration", texto: "The nurse cleaned a laceration on his arm." },
@@ -18856,7 +18856,7 @@ DICCIONARIOS.en = [
   {
     id: "leprosy",
     palabra: "Leprosy",
-    imagen: { id: 2840, alt: "Skin" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A serious infectious disease that damages the skin, nerves, and other parts of the body.",
     sinonimos: ["infectious disease that damages skin and nerves"],
     ejemplo: { palabra: "his leprosy", texto: "The medicine cured his leprosy after months of treatment." },
@@ -19096,7 +19096,7 @@ DICCIONARIOS.en = [
   {
     id: "melasma",
     palabra: "Melasma",
-    imagen: { id: 2840, alt: "Skin" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Dark patches that appear on the skin, often on the face, usually caused by sun or hormones.",
     sinonimos: ["dark patches on the skin from sun or hormones"],
     ejemplo: { palabra: "melasma", texto: "The dermatologist explained that melasma often appears during pregnancy." },
@@ -19266,7 +19266,7 @@ DICCIONARIOS.en = [
   {
     id: "monkeypox",
     palabra: "Monkeypox",
-    imagen: { id: 2840, alt: "Skin" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A viral disease that causes fever, rash, and swollen lymph nodes, and can spread between people and animals.",
     sinonimos: ["viral disease with fever and rash"],
     ejemplo: { palabra: "monkeypox", texto: "The clinic offered free testing for monkeypox after the outbreak." },
@@ -20626,7 +20626,7 @@ DICCIONARIOS.en = [
   {
     id: "resettlement",
     palabra: "Resettlement",
-    imagen: { id: 2392, alt: "A family" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "The process of helping people, such as refugees, move to and settle in a new place.",
     sinonimos: ["helping people move and settle in a new place"],
     ejemplo: { palabra: "the resettlement program", texto: "They were assisted by the resettlement program in finding housing." },
@@ -20716,7 +20716,7 @@ DICCIONARIOS.en = [
   {
     id: "ringworm",
     palabra: "Ringworm",
-    imagen: { id: 2840, alt: "Skin" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A common skin infection caused by fungus that forms a ring-shaped rash.",
     sinonimos: ["a skin infection with a ring-shaped rash"],
     ejemplo: { palabra: "the child's ringworm", texto: "The doctor prescribed cream to treat the child's ringworm." },
@@ -20746,7 +20746,7 @@ DICCIONARIOS.en = [
   {
     id: "rosacea",
     palabra: "Rosacea",
-    imagen: { id: 2840, alt: "Skin" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A skin condition that causes redness and visible blood vessels, usually on the face.",
     sinonimos: ["a skin condition causing redness on the face"],
     ejemplo: { palabra: "her rosacea", texto: "She uses a gentle cream to manage her rosacea." },
@@ -20866,7 +20866,7 @@ DICCIONARIOS.en = [
   {
     id: "scabies",
     palabra: "Scabies",
-    imagen: { id: 2840, alt: "Skin" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A contagious skin condition caused by tiny mites that burrow under the skin, causing itching.",
     sinonimos: ["a contagious skin condition caused by mites"],
     ejemplo: { palabra: "scabies", texto: "The clinic treated several children for scabies." },
