@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 2402, alt: "Biscuits, cookies" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -17636,7 +17636,7 @@ DICCIONARIOS.en = [
   {
     id: "escapee",
     palabra: "Escapee",
-    imagen: { id: 2824, alt: "A prison building" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A person who has escaped from prison or from custody.",
     sinonimos: ["a person who has escaped from prison"],
     ejemplo: { palabra: "an escapee", texto: "Police searched the area after reports of an escapee." },
@@ -17726,7 +17726,7 @@ DICCIONARIOS.en = [
   {
     id: "eyewitness",
     palabra: "Eyewitness",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who has seen an event, such as a crime, happen with their own eyes.",
     sinonimos: ["a person who saw the event happen"],
     ejemplo: { palabra: "an eyewitness to the robbery", texto: "The police interviewed an eyewitness to the robbery." },
@@ -17996,7 +17996,7 @@ DICCIONARIOS.en = [
   {
     id: "fugitive",
     palabra: "Fugitive",
-    imagen: { id: 2824, alt: "A person fleeing" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who is running away from the police or the law, often after committing a crime.",
     sinonimos: ["a person running from the law"],
     ejemplo: { palabra: "a fugitive", texto: "The police tracked down a fugitive who had escaped custody." },
@@ -18306,7 +18306,7 @@ DICCIONARIOS.en = [
   {
     id: "hijacking",
     palabra: "Hijacking",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "The illegal act of taking control of a vehicle, plane, or other property by force.",
     sinonimos: ["taking control of a vehicle by force"],
     ejemplo: { palabra: "a hijacking", texto: "Police were called to investigate a hijacking at the airport." },
@@ -18326,7 +18326,7 @@ DICCIONARIOS.en = [
   {
     id: "hoax",
     palabra: "Hoax",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A trick meant to make people believe something false, often to deceive or scare them.",
     sinonimos: ["a trick to make people believe something false"],
     ejemplo: { palabra: "a hoax", texto: "The bomb threat turned out to be a hoax." },
@@ -18346,7 +18346,7 @@ DICCIONARIOS.en = [
   {
     id: "homicide",
     palabra: "Homicide",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 16359, alt: "Muerte, morir" },
     definicion: "The illegal killing of one person by another.",
     sinonimos: ["the illegal killing of one person by another"],
     ejemplo: { palabra: "the homicide", texto: "The police opened an investigation into the homicide." },
@@ -18376,7 +18376,7 @@ DICCIONARIOS.en = [
   {
     id: "hostage",
     palabra: "Hostage",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 27037, alt: "Secuestro, secuestrado" },
     definicion: "A person held captive by someone as a way to obtain demands.",
     sinonimos: ["a person held captive to obtain demands"],
     ejemplo: { palabra: "the hostage", texto: "Negotiators worked for hours to free the hostage." },
@@ -18486,7 +18486,7 @@ DICCIONARIOS.en = [
   {
     id: "impound",
     palabra: "Impound",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To take and hold something, such as a vehicle, by legal authority until a fine or condition is met.",
     sinonimos: ["take and hold something by legal authority"],
     ejemplo: { palabra: "impound", texto: "Officers decided to impound the car for unpaid fines." },
@@ -18606,7 +18606,7 @@ DICCIONARIOS.en = [
   {
     id: "intoxicate",
     palabra: "Intoxicate",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "To make someone lose control of their body or mind, usually from alcohol or drugs.",
     sinonimos: ["make someone lose control from alcohol or drugs"],
     ejemplo: { palabra: "was intoxicated", texto: "The driver was arrested because he was intoxicated." },
@@ -18666,7 +18666,7 @@ DICCIONARIOS.en = [
   {
     id: "jaywalking",
     palabra: "Jaywalking",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Crossing a street illegally, not at a crosswalk or when the signal does not allow it.",
     sinonimos: ["crossing a street illegally"],
     ejemplo: { palabra: "jaywalking", texto: "He was fined for jaywalking near the school." },
@@ -18786,7 +18786,7 @@ DICCIONARIOS.en = [
   {
     id: "larceny",
     palabra: "Larceny",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The crime of stealing someone else's property.",
     sinonimos: ["the crime of stealing property"],
     ejemplo: { palabra: "larceny", texto: "He was charged with larceny after taking items from the store." },
@@ -18926,7 +18926,7 @@ DICCIONARIOS.en = [
   {
     id: "loitering",
     palabra: "Loitering",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Staying in a public place for no clear reason, sometimes considered suspicious or against local rules.",
     sinonimos: ["staying in a public place for no clear reason"],
     ejemplo: { palabra: "loitering", texto: "Signs warned that loitering outside the store was not allowed." },
@@ -18946,7 +18946,7 @@ DICCIONARIOS.en = [
   {
     id: "looting",
     palabra: "Looting",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Stealing goods from shops or homes during a riot, disaster, or other chaos.",
     sinonimos: ["stealing goods during chaos or a disaster"],
     ejemplo: { palabra: "the looting", texto: "Police were called in to stop the looting after the storm." },
@@ -19006,7 +19006,7 @@ DICCIONARIOS.en = [
   {
     id: "maiming",
     palabra: "Maiming",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Causing someone a severe and permanent physical injury.",
     sinonimos: ["causing someone a severe permanent injury"],
     ejemplo: { palabra: "the maiming", texto: "Investigators studied the maiming of the victim closely." },
@@ -19056,7 +19056,7 @@ DICCIONARIOS.en = [
   {
     id: "manhunt",
     palabra: "Manhunt",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "An organized police search for a person, usually a criminal who has escaped.",
     sinonimos: ["an organized police search for a person"],
     ejemplo: { palabra: "a manhunt", texto: "Police launched a manhunt after the prisoner escaped." },
@@ -19256,7 +19256,7 @@ DICCIONARIOS.en = [
   {
     id: "molest",
     palabra: "Molest",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To touch or approach someone, especially a child, in a sexual and inappropriate way.",
     sinonimos: ["touch someone inappropriately"],
     ejemplo: { palabra: "molest a child", texto: "He was arrested for trying to molest a child at the park." },
@@ -19316,7 +19316,7 @@ DICCIONARIOS.en = [
   {
     id: "mugging",
     palabra: "Mugging",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A robbery in which someone is attacked or threatened in a public place to steal their belongings.",
     sinonimos: ["a robbery with a threat or attack in public"],
     ejemplo: { palabra: "a mugging", texto: "Police were called to investigate a mugging near the station." },
@@ -19556,7 +19556,7 @@ DICCIONARIOS.en = [
   {
     id: "offender",
     palabra: "Offender",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who has committed a crime.",
     sinonimos: ["a person who has committed a crime"],
     ejemplo: { palabra: "an offender", texto: "The program helps an offender find a job after release." },
@@ -19886,7 +19886,7 @@ DICCIONARIOS.en = [
   {
     id: "perpetrate",
     palabra: "Perpetrate",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To carry out or commit a crime or a harmful act.",
     sinonimos: ["carry out a crime"],
     ejemplo: { palabra: "perpetrate the crime", texto: "Police are trying to find out who helped perpetrate the crime." },
@@ -19996,7 +19996,7 @@ DICCIONARIOS.en = [
   {
     id: "pilfer",
     palabra: "Pilfer",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "To steal small items, often repeatedly and in small amounts.",
     sinonimos: ["steal small items repeatedly"],
     ejemplo: { palabra: "pilfer", texto: "An employee was caught trying to pilfer supplies from the office." },
@@ -20156,7 +20156,7 @@ DICCIONARIOS.en = [
   {
     id: "precinct",
     palabra: "Precinct",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A local police station or the area it is responsible for.",
     sinonimos: ["a local police station"],
     ejemplo: { palabra: "the precinct", texto: "He filed the report at the precinct." },
@@ -20406,7 +20406,7 @@ DICCIONARIOS.en = [
   {
     id: "racketeering",
     palabra: "Racketeering",
-    imagen: { id: 2824, alt: "Police handcuffs" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Running an illegal business or scheme, often involving threats or organized crime.",
     sinonimos: ["running an illegal business through threats"],
     ejemplo: { palabra: "racketeering", texto: "He was charged with racketeering after years of illegal activity." },
