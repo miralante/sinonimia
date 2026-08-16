@@ -76,7 +76,7 @@ DICCIONARIOS.es = [
   {
     id: "requerimiento",
     palabra: "Requerimiento",
-    imagen: { id: 2688, alt: "Un sobre con una carta" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un papel oficial. Te pide hacer algo.",
     sinonimos: ["aviso", "petición formal"],
     ejemplo: { palabra: "requerimiento", texto: "Recibió un requerimiento de Hacienda para presentar más documentos." },
@@ -514,7 +514,7 @@ DICCIONARIOS.es = [
   {
     id: "embargo",
     palabra: "Embargo",
-    imagen: { id: 36937, alt: "Un mazo de juez" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Un juez ordena quitarte dinero o cosas para pagar una deuda que no pagaste.",
     sinonimos: ["retención de bienes", "confiscación"],
     ejemplo: { palabra: "embargo", texto: "El banco pidió el embargo de la cuenta por la deuda." },
@@ -1052,7 +1052,7 @@ DICCIONARIOS.es = [
   {
     id: "tutela",
     palabra: "Tutela",
-    imagen: { id: 36927, alt: "Un adulto cuida de un menor" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona se hace cargo de un niño o de alguien que no puede valerse solo. La nombra un juez.",
     sinonimos: ["custodia legal", "persona a cargo"],
     ejemplo: { palabra: "tutela", texto: "La tía pidió la tutela del sobrino huérfano." },
@@ -1084,7 +1084,7 @@ DICCIONARIOS.es = [
   {
     id: "custodia",
     palabra: "Custodia",
-    imagen: { id: 36927, alt: "Un adulto cuida de un menor" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "La persona con la que vive un hijo tras un divorcio. La decide un juez.",
     sinonimos: ["guarda del hijo", "persona que cuida al hijo"],
     ejemplo: { palabra: "custodia", texto: "El juez le dio la custodia del hijo a la madre." },
@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 34814, alt: "Préstamo" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 36403, alt: "Ahorro" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -2773,7 +2773,7 @@ DICCIONARIOS.es = [
   {
     id: "preaviso",
     palabra: "Preaviso",
-    imagen: { id: 2688, alt: "Una carta de aviso" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Un aviso por escrito de que vas a dejar el trabajo o te van a despedir. Se da antes.",
     sinonimos: ["aviso por escrito"],
     ejemplo: { palabra: "preaviso", texto: "Entregó el preaviso de dimisión con dos semanas de antelación." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 11291, alt: "Juez, magistrado" },
+    imagen: { id: 35413, alt: "Notario" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -4748,7 +4748,7 @@ DICCIONARIOS.es = [
   {
     id: "veredicto",
     palabra: "Veredicto",
-    imagen: { id: 36937, alt: "Un mazo de juez" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "La decisión final del juez o del jurado sobre si alguien es culpable o inocente.",
     sinonimos: ["decisión final"],
     ejemplo: { palabra: "veredicto", texto: "El veredicto del jurado fue de culpabilidad." },
@@ -8438,7 +8438,7 @@ DICCIONARIOS.es = [
   {
     id: "escritura-publica",
     palabra: "Escritura pública",
-    imagen: { id: 2380, alt: "Un documento oficial con un sello y una firma" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "El documento oficial firmado ante un notario que demuestra que has comprado una casa.",
     sinonimos: ["escritura de la casa"],
     ejemplo: { palabra: "escritura pública", texto: "Guardó la escritura pública de la casa en la caja fuerte." },
@@ -8988,7 +8988,7 @@ DICCIONARIOS.es = [
   {
     id: "carta-de-recomendacion",
     palabra: "Carta de recomendación",
-    imagen: { id: 2688, alt: "Una carta firmada por una persona" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Un papel donde un jefe anterior explica que trabajaste bien, para ayudarte a encontrar otro empleo.",
     sinonimos: ["referencia laboral"],
     ejemplo: { palabra: "carta de recomendación", texto: "Le pidió a su antiguo jefe una carta de recomendación." },
@@ -9718,7 +9718,7 @@ DICCIONARIOS.es = [
   {
     id: "asistencia-juridica-gratuita",
     palabra: "Asistencia jurídica gratuita",
-    imagen: { id: 2636, alt: "Un abogado ayudando a una persona sin cobrarle" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Ayuda de un abogado y un procurador sin pagar, para las personas que no pueden permitírselo.",
     sinonimos: ["abogado de oficio", "justicia gratuita"],
     ejemplo: { palabra: "asistencia jurídica gratuita", texto: "Pidió la asistencia jurídica gratuita porque no podía pagar un abogado." },
@@ -10861,7 +10861,7 @@ DICCIONARIOS.es = [
   {
     id: "patria-potestad",
     palabra: "Patria potestad",
-    imagen: { id: 36927, alt: "Un adulto cuida de un menor" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "El derecho y el deber legal de los padres de cuidar y decidir por sus hijos menores.",
     sinonimos: ["autoridad legal de los padres"],
     ejemplo: { palabra: "patria potestad", texto: "Los dos padres comparten la patria potestad de su hija." },
@@ -12972,7 +12972,7 @@ DICCIONARIOS.es = [
   {
     id: "escritura-compraventa",
     palabra: "Escritura de compraventa",
-    imagen: { id: 2380, alt: "Una mano firma una escritura sobre una mesa" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "El papel oficial que hace oficial la venta de una casa. Lo firma un notario.",
     sinonimos: ["escritura de venta"],
     ejemplo: { palabra: "escritura de compraventa", texto: "Firmaron la escritura de compraventa ante el notario la semana pasada." },
@@ -13062,7 +13062,7 @@ DICCIONARIOS.es = [
   {
     id: "subrogacion",
     palabra: "Subrogación",
-    imagen: { id: 2380, alt: "Una persona firma en lugar de otra en un contrato" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Entrar en el lugar de otra persona en un contrato. Tus derechos y obligaciones pasan a ti.",
     sinonimos: ["sustitución en un contrato"],
     ejemplo: { palabra: "subrogación", texto: "El nuevo inquilino firmó la subrogación del contrato de alquiler." },
@@ -13102,7 +13102,7 @@ DICCIONARIOS.es = [
   {
     id: "titulo-propiedad",
     palabra: "Título de propiedad",
-    imagen: { id: 2380, alt: "Una escritura junto a las llaves de una casa" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "El papel oficial que demuestra que una casa es tuya. Suele ser la escritura de compraventa.",
     sinonimos: ["papel que demuestra que la casa es tuya"],
     ejemplo: { palabra: "título de propiedad", texto: "Guarda el título de propiedad en un lugar seguro junto con las escrituras." },
@@ -13152,7 +13152,7 @@ DICCIONARIOS.es = [
   {
     id: "derivacion-medica",
     palabra: "Derivación médica",
-    imagen: { id: 2688, alt: "Un médico entregando un papel" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un médico te manda a ver a otro médico. Es un papel para un especialista.",
     sinonimos: ["carta al especialista"],
     ejemplo: { palabra: "derivación médica", texto: "El médico le dio una derivación médica para hacer más pruebas." },
@@ -14992,7 +14992,7 @@ DICCIONARIOS.es = [
   {
     id: "orden-de-detencion",
     palabra: "Orden de detención",
-    imagen: { id: 36937, alt: "Un juez firmando un documento con una placa de policía cerca" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un documento que firma un juez y que permite a la policía detener a alguien o registrar un lugar.",
     sinonimos: ["orden judicial"],
     ejemplo: { palabra: "una orden de detención", texto: "La policía consiguió una orden de detención antes de entrar en la casa." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 21802, alt: "Documento" },
+    imagen: { id: 8483, alt: "Frontera, aduana" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15262,7 +15262,7 @@ DICCIONARIOS.es = [
   {
     id: "decomiso",
     palabra: "Decomiso",
-    imagen: { id: 36937, alt: "El mazo de un juez" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Perder una propiedad o dinero como castigo por incumplir una ley. El Estado o un juez puede quitártelo.",
     sinonimos: ["incautación"],
     ejemplo: { palabra: "el decomiso", texto: "El juez ordenó el decomiso de los productos robados." },
@@ -15312,7 +15312,7 @@ DICCIONARIOS.es = [
   {
     id: "abogacia",
     palabra: "Abogacía",
-    imagen: { id: 2636, alt: "Una persona con toga defiende un caso ante la justicia" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "El trabajo de los abogados. Defender a las personas ante la ley.",
     sinonimos: ["profesión de abogado", "defensa legal"],
     ejemplo: { palabra: "abogacía", texto: "Estudió abogacía y ahora defiende a otras personas ante un juez." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
@@ -17372,7 +17372,7 @@ DICCIONARIOS.es = [
   {
     id: "endodoncia",
     palabra: "Endodoncia",
-    imagen: { id: 2733, alt: "Un dentista revisa los dientes de un paciente" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un tratamiento dental que limpia y sella el interior de un diente dañado, para no tener que sacarlo.",
     sinonimos: ["tratamiento del interior del diente"],
     ejemplo: { palabra: "la endodoncia", texto: "El dentista le hizo la endodoncia para salvar la muela." },
@@ -18732,7 +18732,7 @@ DICCIONARIOS.es = [
   {
     id: "ortodoncia",
     palabra: "Ortodoncia",
-    imagen: { id: 2733, alt: "Un dentista revisa los dientes de un paciente" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un tratamiento dental para corregir la posición de los dientes.",
     sinonimos: ["tratamiento para corregir los dientes"],
     ejemplo: { palabra: "ortodoncia", texto: "El dentista recomendó ortodoncia tras la revisión." },
