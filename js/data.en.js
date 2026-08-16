@@ -7567,7 +7567,7 @@ DICCIONARIOS.en = [
   {
     id: "dark-mode",
     palabra: "Dark mode",
-    imagen: { id: 2910, alt: "A touch screen" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "An option that turns the screen background black with light text. It is easier on your eyes at night.",
     sinonimos: ["night mode"],
     ejemplo: { palabra: "dark mode", texto: "He turned on dark mode on his phone before going to sleep." },
@@ -7907,7 +7907,7 @@ DICCIONARIOS.en = [
   {
     id: "junk-email",
     palabra: "Junk email",
-    imagen: { id: 5432, alt: "A bin full of envelopes" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Annoying emails that arrive without you asking for them, almost always adverts.",
     sinonimos: ["unwanted emails"],
     ejemplo: { palabra: "junk email", texto: "She emptied the junk email folder in her inbox." },
@@ -8487,7 +8487,7 @@ DICCIONARIOS.en = [
   {
     id: "free-legal-aid",
     palabra: "Free legal aid",
-    imagen: { id: 2636, alt: "A lawyer helping a person without charging" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Help from a lawyer without paying, for people who cannot afford one.",
     sinonimos: ["legal aid"],
     ejemplo: { palabra: "free legal aid", texto: "She applied for free legal aid because she could not pay for a lawyer." },
@@ -8627,7 +8627,7 @@ DICCIONARIOS.en = [
   {
     id: "electronic-notification",
     palabra: "Electronic notification",
-    imagen: { id: 2910, alt: "A screen with an official envelope" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "An official notice that arrives in an online inbox, instead of by letter.",
     sinonimos: ["digital notice"],
     ejemplo: { palabra: "electronic notification", texto: "She got an electronic notification from the tax office on her phone." },
@@ -9017,7 +9017,7 @@ DICCIONARIOS.en = [
   {
     id: "pay-national-insurance",
     palabra: "Pay national insurance",
-    imagen: { id: 4666, alt: "A hand putting coins into an official piggy bank" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "To pay money every month while you work, so you have the right to a pension or unemployment benefit later.",
     sinonimos: ["make contributions"],
     ejemplo: { palabra: "paid national insurance", texto: "He paid national insurance for thirty years before retiring." },
@@ -10399,7 +10399,7 @@ DICCIONARIOS.en = [
   {
     id: "virtual-keyboard",
     palabra: "Virtual keyboard",
-    imagen: { id: 2793, alt: "A keyboard" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "The keyboard that appears on a phone or tablet screen so you can type.",
     sinonimos: ["on-screen keyboard"],
     ejemplo: { palabra: "virtual keyboard", texto: "She typed the message with the virtual keyboard on her phone." },
@@ -10469,7 +10469,7 @@ DICCIONARIOS.en = [
   {
     id: "autocomplete",
     palabra: "Autocomplete",
-    imagen: { id: 2793, alt: "A keyboard" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "When a phone finishes typing a word or a sentence for you.",
     sinonimos: ["automatic text completion"],
     ejemplo: { palabra: "autocomplete", texto: "The autocomplete suggested the end of his sentence." },
@@ -10771,7 +10771,7 @@ DICCIONARIOS.en = [
   {
     id: "stair-gate",
     palabra: "Stair gate",
-    imagen: { id: 32716, alt: "A barrier" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A small gate placed at the start of the stairs so a child cannot fall.",
     sinonimos: ["safety gate for stairs"],
     ejemplo: { palabra: "stair gate", texto: "He put up a stair gate when his daughter was born." },
@@ -11725,7 +11725,7 @@ DICCIONARIOS.en = [
   {
     id: "joint-ownership",
     palabra: "Joint ownership",
-    imagen: { id: 15361, alt: "Sharing" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Owning a home together with another person, at the same time.",
     sinonimos: ["owning a home together with someone"],
     ejemplo: { palabra: "joint ownership", texto: "They bought the flat in joint ownership with their two children." },
@@ -12047,7 +12047,7 @@ DICCIONARIOS.en = [
   {
     id: "data-plan",
     palabra: "Data plan",
-    imagen: { id: 2586, alt: "A mobile phone" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "The price you pay each month to use the internet on your phone.",
     sinonimos: ["monthly price for phone internet"],
     ejemplo: { palabra: "data plan", texto: "He switched data plan to pay less each month." },
@@ -12117,7 +12117,7 @@ DICCIONARIOS.en = [
   {
     id: "multitasking",
     palabra: "Multitasking",
-    imagen: { id: 2586, alt: "A mobile phone" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Using several apps at the same time on the same device.",
     sinonimos: ["using several apps at once"],
     ejemplo: { palabra: "multitasking", texto: "He used multitasking to chat while watching a video." },
@@ -12519,7 +12519,7 @@ DICCIONARIOS.en = [
   {
     id: "flood-barrier",
     palabra: "Flood barrier",
-    imagen: { id: 32716, alt: "A barrier" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A board or a small wall placed at a door so water cannot get in.",
     sinonimos: ["board that keeps water out"],
     ejemplo: { palabra: "flood barrier", texto: "He set up a flood barrier at the garage door." },
@@ -12680,7 +12680,7 @@ DICCIONARIOS.en = [
   {
     id: "public-hearing",
     palabra: "Public hearing",
-    imagen: { id: 3060, alt: "A town hall" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A meeting where the public can speak and ask questions about a council decision.",
     sinonimos: ["meeting where the public can speak"],
     ejemplo: { palabra: "public hearing", texto: "He spoke at the public hearing about the new park." },
@@ -13606,7 +13606,7 @@ DICCIONARIOS.en = [
   {
     id: "escrow",
     palabra: "Escrow",
-    imagen: { id: 6068, alt: "A locked box holding money between two hands" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Money held by a neutral third party until a deal is complete. It is released once both sides agree.",
     sinonimos: ["in a holding account"],
     ejemplo: { palabra: "in escrow", texto: "The deposit stayed in escrow until the sale closed." },
@@ -13636,7 +13636,7 @@ DICCIONARIOS.en = [
   {
     id: "dividend",
     palabra: "Dividend",
-    imagen: { id: 15361, alt: "A hand receiving a share of company profit" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A part of a company's profit paid to its shareholders. It is usually paid once or twice a year.",
     sinonimos: ["profit share"],
     ejemplo: { palabra: "dividend", texto: "Shareholders received a dividend at the end of the year." },
@@ -15766,7 +15766,7 @@ DICCIONARIOS.en = [
   {
     id: "amortize",
     palabra: "Amortize",
-    imagen: { id: 39710, alt: "Pay" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "To pay off a debt or loan little by little over time.",
     sinonimos: ["pay off", "pay down over time"],
     ejemplo: { palabra: "amortize", texto: "He chose to slowly amortize the mortgage." },
@@ -16246,7 +16246,7 @@ DICCIONARIOS.en = [
   {
     id: "bruxism",
     palabra: "Bruxism",
-    imagen: { id: 2737, alt: "A drawing of teeth" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Clenching or grinding the teeth without realizing it, especially during sleep.",
     sinonimos: ["teeth grinding"],
     ejemplo: { palabra: "bruxism", texto: "The dentist recommended a mouthguard because of his bruxism." },
@@ -16616,7 +16616,7 @@ DICCIONARIOS.en = [
   {
     id: "cirrhosis",
     palabra: "Cirrhosis",
-    imagen: { id: 2980, alt: "An anatomical diagram of a liver" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A serious disease of the liver, often caused by long-term heavy drinking or infection.",
     sinonimos: ["serious liver disease"],
     ejemplo: { palabra: "cirrhosis of the liver", texto: "Years of heavy drinking led to cirrhosis of the liver." },
@@ -16656,7 +16656,7 @@ DICCIONARIOS.en = [
   {
     id: "cistern",
     palabra: "Cistern",
-    imagen: { id: 2430, alt: "A toilet with a water tank" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "A tank used to store water, often found in a toilet or on a roof.",
     sinonimos: ["a water storage tank"],
     ejemplo: { palabra: "the cistern", texto: "The plumber replaced the cistern behind the toilet." },
@@ -17146,7 +17146,7 @@ DICCIONARIOS.en = [
   {
     id: "dentures",
     palabra: "Dentures",
-    imagen: { id: 2737, alt: "Teeth" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A removable set of false teeth used to replace missing natural teeth.",
     sinonimos: ["false teeth"],
     ejemplo: { palabra: "dentures", texto: "Her grandfather cleaned his dentures every night before bed." },
@@ -17986,7 +17986,7 @@ DICCIONARIOS.en = [
   {
     id: "frostbite",
     palabra: "Frostbite",
-    imagen: { id: 3135, alt: "Snow" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "An injury to the skin caused by extreme cold, which can damage the fingers, toes, or nose.",
     sinonimos: ["a skin injury from extreme cold"],
     ejemplo: { palabra: "frostbite", texto: "The climber suffered frostbite on his fingers." },
@@ -18176,7 +18176,7 @@ DICCIONARIOS.en = [
   {
     id: "halitosis",
     palabra: "Halitosis",
-    imagen: { id: 2733, alt: "A dentist with a patient" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A medical term for having bad-smelling breath.",
     sinonimos: ["bad-smelling breath"],
     ejemplo: { palabra: "halitosis", texto: "The dentist recommended mouthwash to treat his halitosis." },
@@ -18396,7 +18396,7 @@ DICCIONARIOS.en = [
   {
     id: "hygienist",
     palabra: "Hygienist",
-    imagen: { id: 2733, alt: "A dentist with a patient" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A healthcare worker trained to clean teeth and give advice on oral care.",
     sinonimos: ["a worker trained to clean teeth"],
     ejemplo: { palabra: "the dental hygienist", texto: "Her appointment with the dental hygienist included a teeth cleaning." },
@@ -18806,7 +18806,7 @@ DICCIONARIOS.en = [
   {
     id: "latrine",
     palabra: "Latrine",
-    imagen: { id: 2430, alt: "A toilet" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A simple toilet, often just a hole in the ground, used where there is no proper plumbing.",
     sinonimos: ["a simple toilet without proper plumbing"],
     ejemplo: { palabra: "a latrine", texto: "The camp built a latrine away from the tents." },
@@ -18866,7 +18866,7 @@ DICCIONARIOS.en = [
   {
     id: "lesion",
     palabra: "Lesion",
-    imagen: { id: 2980, alt: "A liver diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "An area of damaged tissue caused by injury or disease.",
     sinonimos: ["an area of damaged tissue from injury or disease"],
     ejemplo: { palabra: "a lesion", texto: "The scan revealed a lesion on his liver." },
@@ -21316,7 +21316,7 @@ DICCIONARIOS.en = [
   {
     id: "stepfamily",
     palabra: "Stepfamily",
-    imagen: { id: 2392, alt: "A family" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A family formed when one parent remarries or starts a new relationship, joining children from previous relationships.",
     sinonimos: ["a family formed when a parent remarries"],
     ejemplo: { palabra: "a stepfamily", texto: "After the wedding, the children became part of a stepfamily." },
