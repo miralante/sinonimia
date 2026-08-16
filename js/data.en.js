@@ -256,7 +256,7 @@ DICCIONARIOS.en = [
   {
     id: "property-tax",
     palabra: "Property tax",
-    imagen: { id: 35449, alt: "A tax document from the treasury with an amount to pay" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Money you pay every year for owning a home. The local council collects it.",
     sinonimos: ["council tax", "home tax"],
     ejemplo: { palabra: "property tax", texto: "Our property tax went up again this year." },
@@ -2791,7 +2791,7 @@ DICCIONARIOS.en = [
   {
     id: "declaration",
     palabra: "Declaration",
-    imagen: { id: 35449, alt: "A tax declaration paper" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A paper where you tell the state your data, especially money data, to pay taxes.",
     sinonimos: ["state data paper"],
     ejemplo: { palabra: "declaration", texto: "She filed the tax declaration before 30 June." },
@@ -3204,7 +3204,7 @@ DICCIONARIOS.en = [
   {
     id: "sworn-statement",
     palabra: "Sworn statement",
-    imagen: { id: 35449, alt: "An official statement" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A paper where you say something under promise to tell the truth. If you lie, you get punished.",
     sinonimos: ["under oath paper"],
     ejemplo: { palabra: "sworn statement", texto: "He signed a sworn statement in front of the judge telling the whole truth." },
@@ -3586,7 +3586,7 @@ DICCIONARIOS.en = [
   {
     id: "file-taxes",
     palabra: "File taxes",
-    imagen: { id: 35449, alt: "A tax declaration paper" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Tell the state how much you earned so they can work out your taxes.",
     sinonimos: ["submit tax return"],
     ejemplo: { palabra: "file taxes", texto: "The tax office asked him to file taxes for last year." },
@@ -3778,7 +3778,7 @@ DICCIONARIOS.en = [
   {
     id: "tax-payment",
     palabra: "Tax",
-    imagen: { id: 35449, alt: "A tax declaration paper" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Money the state makes you pay. It pays for public services.",
     sinonimos: ["tax"],
     ejemplo: { palabra: "tax", texto: "Income tax is paid once a year." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -6207,7 +6207,7 @@ DICCIONARIOS.en = [
   {
     id: "calendar",
     palabra: "Calendar",
-    imagen: { id: 8717, alt: "Vida" },
+    imagen: { id: 3071, alt: "Calendar, yearbook, almanac" },
     definicion: "A paper or an app that shows the days, weeks and months of the year. It helps you remember dates.",
     sinonimos: ["almanac"],
     ejemplo: { palabra: "calendar", texto: "She wrote the doctor's appointment on the calendar." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 2402, alt: "Biscuits, cookies" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -8007,7 +8007,7 @@ DICCIONARIOS.en = [
   {
     id: "tax-return",
     palabra: "Tax return",
-    imagen: { id: 35449, alt: "A tax document" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A yearly process to tell the tax office how much money you have earned.",
     sinonimos: ["income tax filing"],
     ejemplo: { palabra: "tax return", texto: "She filed her tax return before the deadline." },
@@ -8067,7 +8067,7 @@ DICCIONARIOS.en = [
   {
     id: "vat",
     palabra: "VAT",
-    imagen: { id: 35449, alt: "A tax receipt" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A tax that is already included in the price of almost everything you buy.",
     sinonimos: ["value added tax"],
     ejemplo: { palabra: "VAT", texto: "The price of the ticket already included VAT." },
@@ -8367,7 +8367,7 @@ DICCIONARIOS.en = [
   {
     id: "notary-s-office",
     palabra: "Notary's office",
-    imagen: { id: 36089, alt: "An office with a desk and documents" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The office where a notary works. Important documents are signed there, such as buying a house.",
     sinonimos: ["notary office"],
     ejemplo: { palabra: "notary's office", texto: "They went to the notary's office to sign the purchase of the flat." },
@@ -8547,7 +8547,7 @@ DICCIONARIOS.en = [
   {
     id: "paperwork-agency",
     palabra: "Paperwork agency",
-    imagen: { id: 36089, alt: "A person helping another person with papers" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A private office that does official paperwork for you, in exchange for money.",
     sinonimos: ["admin agency"],
     ejemplo: { palabra: "paperwork agency", texto: "He paid a paperwork agency to do his tax return for him." },
@@ -11193,7 +11193,7 @@ DICCIONARIOS.en = [
   {
     id: "tax-withholding",
     palabra: "Tax withholding",
-    imagen: { id: 35449, alt: "A tax paper from the tax office" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The part of your salary the company sends straight to the tax office.",
     sinonimos: ["money from your pay sent to the tax office"],
     ejemplo: { palabra: "tax withholding", texto: "The tax withholding on her payslip went up this year." },
@@ -12630,7 +12630,7 @@ DICCIONARIOS.en = [
   {
     id: "registered-agent",
     palabra: "Registered agent",
-    imagen: { id: 36089, alt: "An office" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "The official contact person of a company, who receives its legal papers.",
     sinonimos: ["official contact person of a company"],
     ejemplo: { palabra: "registered agent", texto: "The lawyer acted as registered agent for the new company." },
@@ -16156,7 +16156,7 @@ DICCIONARIOS.en = [
   {
     id: "bereaved",
     palabra: "Bereaved",
-    imagen: { id: 2606, alt: "A person offers support to another person" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Feeling deep sadness because someone close to you has died.",
     sinonimos: ["grieving"],
     ejemplo: { palabra: "bereaved", texto: "The support group helps bereaved families cope with loss." },
@@ -16216,7 +16216,7 @@ DICCIONARIOS.en = [
   {
     id: "breakdown",
     palabra: "Breakdown",
-    imagen: { id: 2606, alt: "A person offers support to another person" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A time when a person cannot cope anymore because of stress or emotional strain.",
     sinonimos: ["emotional collapse"],
     ejemplo: { palabra: "a breakdown", texto: "The pressure at work led to a breakdown." },
@@ -17126,7 +17126,7 @@ DICCIONARIOS.en = [
   {
     id: "demotion",
     palabra: "Demotion",
-    imagen: { id: 36089, alt: "An office with two people working" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The act of being moved to a lower job position or rank, often as a punishment.",
     sinonimos: ["being moved to a lower job position"],
     ejemplo: { palabra: "a demotion", texto: "He received a demotion after missing several deadlines." },
@@ -17246,7 +17246,7 @@ DICCIONARIOS.en = [
   {
     id: "diplomat",
     palabra: "Diplomat",
-    imagen: { id: 36089, alt: "An office with two people working" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A person who officially represents their country in another country.",
     sinonimos: ["an official representative of a country"],
     ejemplo: { palabra: "a diplomat", texto: "She worked as a diplomat in the embassy for many years." },
@@ -17386,7 +17386,7 @@ DICCIONARIOS.en = [
   {
     id: "downsizing",
     palabra: "Downsizing",
-    imagen: { id: 36089, alt: "An office with two people working" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The act of reducing the number of employees in a company, often to save money.",
     sinonimos: ["reducing the number of employees"],
     ejemplo: { palabra: "downsizing", texto: "The factory announced downsizing after losing a major client." },
@@ -17536,7 +17536,7 @@ DICCIONARIOS.en = [
   {
     id: "emphysema",
     palabra: "Emphysema",
-    imagen: { id: 2822, alt: "A diagram of lungs" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A lung disease that makes breathing difficult, often caused by long-term smoking.",
     sinonimos: ["a lung disease that makes breathing difficult"],
     ejemplo: { palabra: "emphysema diagnosis", texto: "Years of smoking led to his emphysema diagnosis." },
@@ -17886,7 +17886,7 @@ DICCIONARIOS.en = [
   {
     id: "flexitime",
     palabra: "Flexitime",
-    imagen: { id: 36089, alt: "An office with two people working" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A work arrangement that lets employees choose their own starting and finishing times within limits.",
     sinonimos: ["flexible working hours"],
     ejemplo: { palabra: "flexitime", texto: "The company introduced flexitime to help parents manage childcare." },
@@ -17946,7 +17946,7 @@ DICCIONARIOS.en = [
   {
     id: "franchisee",
     palabra: "Franchisee",
-    imagen: { id: 36089, alt: "A factory building" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A person or company that pays to use a larger company's name and business model to run their own store.",
     sinonimos: ["a person who runs a franchise business"],
     ejemplo: { palabra: "a franchisee", texto: "She became a franchisee of the popular coffee chain." },
@@ -18086,7 +18086,7 @@ DICCIONARIOS.en = [
   {
     id: "gestation",
     palabra: "Gestation",
-    imagen: { id: 11250, alt: "Pregnancy, gestation" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The period of time during which a baby develops inside the womb before birth.",
     sinonimos: ["the period before birth"],
     ejemplo: { palabra: "gestation", texto: "Doctors monitor gestation closely during high-risk pregnancies." },
@@ -18936,7 +18936,7 @@ DICCIONARIOS.en = [
   {
     id: "loneliness",
     palabra: "Loneliness",
-    imagen: { id: 2606, alt: "A sad face" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The unpleasant feeling of being alone or without company.",
     sinonimos: ["the feeling of being alone without company"],
     ejemplo: { palabra: "loneliness", texto: "Many older adults experience loneliness after losing a spouse." },
@@ -19026,7 +19026,7 @@ DICCIONARIOS.en = [
   {
     id: "malignancy",
     palabra: "Malignancy",
-    imagen: { id: 2822, alt: "A lungs diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A cancerous growth that can spread to other parts of the body.",
     sinonimos: ["a cancerous growth that can spread"],
     ejemplo: { palabra: "a malignancy", texto: "The biopsy confirmed a malignancy in the lung." },
@@ -19686,7 +19686,7 @@ DICCIONARIOS.en = [
   {
     id: "overwhelm",
     palabra: "Overwhelm",
-    imagen: { id: 2606, alt: "A sad face" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "To make someone feel like they cannot cope because there is too much to deal with.",
     sinonimos: ["make someone feel unable to cope"],
     ejemplo: { palabra: "overwhelm her", texto: "The amount of paperwork began to overwhelm her." },
@@ -20056,7 +20056,7 @@ DICCIONARIOS.en = [
   {
     id: "pleurisy",
     palabra: "Pleurisy",
-    imagen: { id: 2822, alt: "A lungs diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A painful swelling of the tissue around the lungs, often caused by infection.",
     sinonimos: ["painful swelling around the lungs"],
     ejemplo: { palabra: "pleurisy", texto: "He was hospitalized with pleurisy after weeks of chest pain." },
@@ -20316,7 +20316,7 @@ DICCIONARIOS.en = [
   {
     id: "pulmonary",
     palabra: "Pulmonary",
-    imagen: { id: 2822, alt: "A lungs diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Relating to the lungs.",
     sinonimos: ["relating to the lungs"],
     ejemplo: { palabra: "pulmonary disease", texto: "He was diagnosed with a pulmonary disease affecting his breathing." },
@@ -20496,7 +20496,7 @@ DICCIONARIOS.en = [
   {
     id: "reclusive",
     palabra: "Reclusive",
-    imagen: { id: 2606, alt: "A sad face" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Preferring to live alone and avoid contact with other people.",
     sinonimos: ["preferring to live alone and avoid others"],
     ejemplo: { palabra: "a reclusive life", texto: "After the loss, he chose to live a reclusive life." },
@@ -20946,7 +20946,7 @@ DICCIONARIOS.en = [
   {
     id: "selfharm",
     palabra: "Selfharm",
-    imagen: { id: 2606, alt: "A sad face" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The act of deliberately hurting oneself, often as a way to cope with emotional pain.",
     sinonimos: ["deliberately hurting oneself"],
     ejemplo: { palabra: "self-harm", texto: "The counselor helped him find healthier ways to cope instead of self-harm." },
@@ -20976,7 +20976,7 @@ DICCIONARIOS.en = [
   {
     id: "seclusion",
     palabra: "Seclusion",
-    imagen: { id: 2606, alt: "A sad face" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "The state of being alone and away from other people.",
     sinonimos: ["being alone and away from other people"],
     ejemplo: { palabra: "seclusion", texto: "After the accident, she preferred seclusion to visitors." },
@@ -21086,7 +21086,7 @@ DICCIONARIOS.en = [
   {
     id: "silicosis",
     palabra: "Silicosis",
-    imagen: { id: 2822, alt: "A lungs diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A lung disease caused by breathing in tiny particles of silica dust over a long time, common in certain jobs.",
     sinonimos: ["a lung disease from breathing in dust"],
     ejemplo: { palabra: "silicosis", texto: "Years of working in the mine left him with silicosis." },
@@ -21456,7 +21456,7 @@ DICCIONARIOS.en = [
   {
     id: "suffocate",
     palabra: "Suffocate",
-    imagen: { id: 2822, alt: "A lungs diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "To die or have difficulty breathing because of a lack of air.",
     sinonimos: ["have difficulty breathing due to lack of air"],
     ejemplo: { palabra: "suffocate", texto: "Firefighters rescued the child before he could suffocate." },
@@ -22196,7 +22196,7 @@ DICCIONARIOS.en = [
   {
     id: "respiratory-medicine",
     palabra: "Respiratory medicine",
-    imagen: { id: 2822, alt: "A picture of lungs" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The area of medicine that treats the lungs. Doctors in this area are called respiratory doctors.",
     sinonimos: ["lung medicine"],
     ejemplo: { palabra: "respiratory medicine", texto: "He had a breathing test done in respiratory medicine." },
