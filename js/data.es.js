@@ -907,7 +907,7 @@ DICCIONARIOS.es = [
   {
     id: "antibiotico",
     palabra: "Antibiótico",
-    imagen: { id: 8163, alt: "Cajas de medicinas" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una medicina fuerte. Mata los gérmenes que causan una infección.",
     sinonimos: ["medicina contra gérmenes", "medicina para la infección"],
     ejemplo: { palabra: "antibiótico", texto: "El médico le recetó un antibiótico para la garganta." },
@@ -2555,7 +2555,7 @@ DICCIONARIOS.es = [
   {
     id: "banca-online",
     palabra: "Banca online",
-    imagen: { id: 7190, alt: "Un ordenador" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Hacer operaciones del banco desde el ordenador o el móvil, sin ir a la oficina.",
     sinonimos: ["banco por internet"],
     ejemplo: { palabra: "banca online", texto: "Consulta su saldo por la banca online del banco." },
@@ -2871,7 +2871,7 @@ DICCIONARIOS.es = [
   {
     id: "digitalizar",
     palabra: "Digitalizar",
-    imagen: { id: 7190, alt: "Un ordenador" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Pasar un papel de toda la vida a un archivo del ordenador.",
     sinonimos: ["pasar a digital"],
     ejemplo: { palabra: "digitalizar", texto: "Pidieron digitalizar las facturas viejas para guardarlas en la nube." },
@@ -2892,7 +2892,7 @@ DICCIONARIOS.es = [
   {
     id: "telematico",
     palabra: "Telemático",
-    imagen: { id: 7190, alt: "Un ordenador" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Cuando haces el trámite por internet, sin ir a la oficina.",
     sinonimos: ["por internet"],
     ejemplo: { palabra: "telemático", texto: "Presentó la solicitud por el canal telemático de Hacienda." },
@@ -4514,7 +4514,7 @@ DICCIONARIOS.es = [
   {
     id: "teletrabajador",
     palabra: "Teletrabajador",
-    imagen: { id: 7190, alt: "Un ordenador" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Una persona que trabaja desde casa con el ordenador. Está conectada con la empresa por internet.",
     sinonimos: ["persona que trabaja desde casa"],
     ejemplo: { palabra: "teletrabajador", texto: "Es teletrabajador desde hace dos años." },
@@ -7758,7 +7758,7 @@ DICCIONARIOS.es = [
   {
     id: "cifrado",
     palabra: "Cifrado",
-    imagen: { id: 6957, alt: "Un candado cerrado" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Una forma de proteger un mensaje para que solo lo pueda leer la persona a la que se lo mandas.",
     sinonimos: ["encriptación", "mensaje protegido"],
     ejemplo: { palabra: "cifrado", texto: "La aplicación de mensajes usa cifrado para proteger las conversaciones." },
@@ -8008,7 +8008,7 @@ DICCIONARIOS.es = [
   {
     id: "sistema-operativo",
     palabra: "Sistema operativo",
-    imagen: { id: 7190, alt: "Un ordenador" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "El programa principal que hace funcionar un ordenador o un móvil por dentro.",
     sinonimos: ["software del aparato"],
     ejemplo: { palabra: "sistema operativo", texto: "Actualizó el sistema operativo del móvil para que funcionara mejor." },
@@ -9398,7 +9398,7 @@ DICCIONARIOS.es = [
   {
     id: "efectos-secundarios",
     palabra: "Efectos secundarios",
-    imagen: { id: 8163, alt: "Un bote de pastillas con un signo de exclamación" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Otras cosas que puede hacerte una medicina, además de curarte, como sueño o dolor de cabeza.",
     sinonimos: ["reacciones del medicamento"],
     ejemplo: { palabra: "efectos secundarios", texto: "El médico le explicó los efectos secundarios de la pastilla." },
@@ -10770,7 +10770,7 @@ DICCIONARIOS.es = [
   {
     id: "red-privada-virtual",
     palabra: "Red privada virtual",
-    imagen: { id: 6957, alt: "Un candado" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Una conexión que esconde lo que haces en internet, para que sea más privado.",
     sinonimos: ["VPN", "conexión privada de internet"],
     ejemplo: { palabra: "red privada virtual", texto: "Usó una red privada virtual para conectarse desde el hotel." },
@@ -11806,7 +11806,7 @@ DICCIONARIOS.es = [
   {
     id: "okupacion",
     palabra: "Okupación",
-    imagen: { id: 6957, alt: "Un candado" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Vivir en una casa sin permiso del dueño y sin pagar por ella.",
     sinonimos: ["vivir en una casa sin permiso"],
     ejemplo: { palabra: "okupación", texto: "Denunció la okupación de su piso vacío." },
@@ -12208,7 +12208,7 @@ DICCIONARIOS.es = [
   {
     id: "certificado-ssl",
     palabra: "Certificado SSL",
-    imagen: { id: 6957, alt: "Un candado" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Una marca de candado en el navegador que indica que una página web es segura.",
     sinonimos: ["candado que indica que una web es segura"],
     ejemplo: { palabra: "certificado SSL", texto: "Comprobó el certificado SSL antes de pagar en la tienda online." },
@@ -12218,7 +12218,7 @@ DICCIONARIOS.es = [
   {
     id: "conexion-segura-https",
     palabra: "Conexión segura",
-    imagen: { id: 6957, alt: "Un candado" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Una forma de navegar por internet donde los datos que envías van protegidos.",
     sinonimos: ["HTTPS", "navegación con datos protegidos"],
     ejemplo: { palabra: "conexión segura", texto: "El banco solo funciona con una conexión segura." },
@@ -12378,7 +12378,7 @@ DICCIONARIOS.es = [
   {
     id: "bloqueo-de-aplicaciones",
     palabra: "Bloqueo de aplicaciones",
-    imagen: { id: 6957, alt: "Un candado" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Poner una clave a una aplicación concreta para que nadie más la abra.",
     sinonimos: ["clave para abrir solo una aplicación"],
     ejemplo: { palabra: "bloqueo de aplicaciones", texto: "Activó el bloqueo de aplicaciones en el banco del móvil." },
@@ -15982,7 +15982,7 @@ DICCIONARIOS.es = [
   {
     id: "antidoto",
     palabra: "Antídoto",
-    imagen: { id: 8163, alt: "Un médico da medicina a un paciente" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un medicamento que anula el efecto de un veneno.",
     sinonimos: ["contraveneno"],
     ejemplo: { palabra: "antídoto", texto: "Le dieron el antídoto justo después del envenenamiento." },
@@ -16592,7 +16592,7 @@ DICCIONARIOS.es = [
   {
     id: "ciberataque",
     palabra: "Ciberataque",
-    imagen: { id: 7190, alt: "Un ordenador con un símbolo de alerta" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Un ataque a través de internet contra un ordenador, una empresa o un sistema.",
     sinonimos: ["ataque informático"],
     ejemplo: { palabra: "ciberataque", texto: "La empresa sufrió un ciberataque que bloqueó sus sistemas." },
@@ -16602,7 +16602,7 @@ DICCIONARIOS.es = [
   {
     id: "ciberdelito",
     palabra: "Ciberdelito",
-    imagen: { id: 7190, alt: "Un policía frente a un ordenador" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Un delito que se comete usando internet o un ordenador.",
     sinonimos: ["delito informático"],
     ejemplo: { palabra: "ciberdelito", texto: "La policía investiga el ciberdelito cometido contra el banco." },
@@ -17252,7 +17252,7 @@ DICCIONARIOS.es = [
   {
     id: "distrofia",
     palabra: "Distrofia",
-    imagen: { id: 2891, alt: "Una pierna con los músculos marcados" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una enfermedad que hace que los músculos se debiliten poco a poco.",
     sinonimos: ["debilidad muscular progresiva"],
     ejemplo: { palabra: "la distrofia", texto: "El médico explicó que la distrofia afecta a los músculos de las piernas." },
@@ -17482,7 +17482,7 @@ DICCIONARIOS.es = [
   {
     id: "espasmo",
     palabra: "Espasmo",
-    imagen: { id: 2891, alt: "Una pierna con los músculos marcados" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una contracción brusca e involuntaria de un músculo.",
     sinonimos: ["contracción muscular brusca"],
     ejemplo: { palabra: "un espasmo", texto: "Sintió un espasmo en la pierna mientras corría." },
@@ -17662,7 +17662,7 @@ DICCIONARIOS.es = [
   {
     id: "fibromialgia",
     palabra: "Fibromialgia",
-    imagen: { id: 2891, alt: "Una pierna con los músculos marcados" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una enfermedad que causa dolor constante en los músculos y el cuerpo, sin una causa visible.",
     sinonimos: ["dolor muscular constante sin causa visible"],
     ejemplo: { palabra: "la fibromialgia", texto: "El reumatólogo le diagnosticó la fibromialgia tras varias pruebas." },
@@ -17692,7 +17692,7 @@ DICCIONARIOS.es = [
   {
     id: "fisioterapia",
     palabra: "Fisioterapia",
-    imagen: { id: 2891, alt: "Una pierna con los músculos marcados" },
+    imagen: { id: 2395, alt: "Fisioterapeuta" },
     definicion: "Un tratamiento que usa ejercicios y técnicas manuales para recuperar el movimiento del cuerpo.",
     sinonimos: ["tratamiento con ejercicios para el cuerpo"],
     ejemplo: { palabra: "la fisioterapia", texto: "El médico recomendó la fisioterapia tras la operación de rodilla." },
@@ -18282,7 +18282,7 @@ DICCIONARIOS.es = [
   {
     id: "laxante",
     palabra: "Laxante",
-    imagen: { id: 8163, alt: "Medicinas y pastillas" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un medicamento que ayuda a evacuar el intestino cuando hay estreñimiento.",
     sinonimos: ["medicamento contra el estreñimiento"],
     ejemplo: { palabra: "un laxante", texto: "El médico le recetó un laxante tras la consulta." },
@@ -19312,7 +19312,7 @@ DICCIONARIOS.es = [
   {
     id: "reumatismo",
     palabra: "Reumatismo",
-    imagen: { id: 2891, alt: "Una pierna con los músculos marcados" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una enfermedad que causa dolor e inflamación en las articulaciones y los músculos.",
     sinonimos: ["enfermedad con dolor en las articulaciones"],
     ejemplo: { palabra: "el reumatismo", texto: "El frío empeoraba el reumatismo de su abuela." },
