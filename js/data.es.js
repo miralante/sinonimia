@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 34814, alt: "Préstamo" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2290,7 +2290,7 @@ DICCIONARIOS.es = [
   {
     id: "antecedentes",
     palabra: "Antecedentes penales",
-    imagen: { id: 16078, alt: "Una carpeta de antecedentes" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "La lista de delitos que una persona ha cometido antes. La lleva el Estado.",
     sinonimos: ["historial penal"],
     ejemplo: { palabra: "antecedentes", texto: "Pidió un certificado de antecedentes para el trabajo nuevo." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 36403, alt: "Ahorro" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -2523,7 +2523,7 @@ DICCIONARIOS.es = [
   {
     id: "inversion",
     palabra: "Inversión",
-    imagen: { id: 16631, alt: "Un gráfico con una flecha que sube" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Poner dinero en algo para conseguir más dinero con el tiempo.",
     sinonimos: ["dinero que crece"],
     ejemplo: { palabra: "inversión", texto: "Hizo una inversión en un fondo de pensiones para su jubilación." },
@@ -2649,7 +2649,7 @@ DICCIONARIOS.es = [
   {
     id: "ascenso",
     palabra: "Ascenso",
-    imagen: { id: 16631, alt: "Un gráfico con una flecha que sube" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Cuando te dan un puesto mejor en la empresa, con más sueldo y más responsabilidad.",
     sinonimos: ["subir de puesto"],
     ejemplo: { palabra: "ascenso", texto: "Le dieron el ascenso a jefa de equipo tras dos años." },
@@ -2742,7 +2742,7 @@ DICCIONARIOS.es = [
   {
     id: "aumento",
     palabra: "Aumento de sueldo",
-    imagen: { id: 16631, alt: "Un gráfico con una flecha que sube" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Cuando te suben el sueldo porque lo haces bien o cambias de puesto.",
     sinonimos: ["subida de sueldo"],
     ejemplo: { palabra: "aumento", texto: "Pidió un aumento de sueldo tras su primer año." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 11291, alt: "Juez, magistrado" },
+    imagen: { id: 35413, alt: "Notario" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -11343,7 +11343,7 @@ DICCIONARIOS.es = [
   {
     id: "anulacion",
     palabra: "Anulación",
-    imagen: { id: 17194, alt: "Una acción de cancelar" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Dejar sin efecto un papel o una gestión, como si no se hubiera hecho.",
     sinonimos: ["dejar sin efecto"],
     ejemplo: { palabra: "anulación", texto: "Pidió la anulación de la cita porque no podía ir." },
@@ -11394,7 +11394,7 @@ DICCIONARIOS.es = [
   {
     id: "baja-en-la-seguridad-social",
     palabra: "Baja en la Seguridad Social",
-    imagen: { id: 17194, alt: "Una acción de cancelar" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Dejar de estar registrado como trabajador en la Seguridad Social al terminar un trabajo.",
     sinonimos: ["cancelación del registro como trabajador"],
     ejemplo: { palabra: "baja en la Seguridad Social", texto: "Le llegó la baja en la Seguridad Social al terminar el contrato." },
@@ -11474,7 +11474,7 @@ DICCIONARIOS.es = [
   {
     id: "cese-de-actividad",
     palabra: "Cese de actividad",
-    imagen: { id: 17194, alt: "Una acción de cancelar" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "La ayuda que recibe un autónomo cuando tiene que dejar de trabajar por cuenta propia.",
     sinonimos: ["ayuda por dejar de trabajar como autónomo"],
     ejemplo: { palabra: "cese de actividad", texto: "Pidió el cese de actividad al cerrar su negocio." },
@@ -11725,7 +11725,7 @@ DICCIONARIOS.es = [
   {
     id: "cargo-por-cancelacion",
     palabra: "Cargo por cancelación",
-    imagen: { id: 17194, alt: "Una acción de cancelar" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "El dinero que te cobran por cancelar una reserva o una cita.",
     sinonimos: ["dinero que se cobra por cancelar"],
     ejemplo: { palabra: "cargo por cancelación", texto: "Le cobraron un cargo por cancelación al anular el hotel." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 21802, alt: "Documento" },
+    imagen: { id: 8483, alt: "Frontera, aduana" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15332,7 +15332,7 @@ DICCIONARIOS.es = [
   {
     id: "abstinencia",
     palabra: "Abstinencia",
-    imagen: { id: 26626, alt: "Botellas y copas de bebidas alcohólicas" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Dejar de tomar algo por completo, como alcohol o drogas.",
     sinonimos: ["dejar de consumir", "privación"],
     ejemplo: { palabra: "abstinencia", texto: "El médico le recomendó la abstinencia de alcohol." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
@@ -15642,7 +15642,7 @@ DICCIONARIOS.es = [
   {
     id: "abstemio",
     palabra: "Abstemio",
-    imagen: { id: 26626, alt: "Botellas y copas de bebidas alcohólicas" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una persona que no bebe alcohol nunca.",
     sinonimos: ["una persona que no bebe alcohol", "no bebedor"],
     ejemplo: { palabra: "abstemio", texto: "Se declaró abstemio y no probó ni una gota de vino." },
