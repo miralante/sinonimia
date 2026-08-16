@@ -94,7 +94,7 @@ DICCIONARIOS.en = [
   {
     id: "backlog",
     palabra: "Backlog",
-    imagen: { id: 16169, alt: "A pile of documents" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A pile of papers or requests still waiting to be handled.",
     sinonimos: ["pile of pending work", "queue of unprocessed papers"],
     ejemplo: { palabra: "backlog", texto: "The office still has a backlog to clear." },
@@ -805,7 +805,7 @@ DICCIONARIOS.en = [
   {
     id: "appeal",
     palabra: "Appeal",
-    imagen: { id: 16103, alt: "A judge signs a ruling" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To ask another judge to look again at a court decision you think is unfair.",
     sinonimos: ["reconsideration", "ask for a new review of the case"],
     ejemplo: { palabra: "appeal", texto: "She filed an appeal against the ruling." },
@@ -2027,7 +2027,7 @@ DICCIONARIOS.en = [
   {
     id: "legal-remedy",
     palabra: "Legal remedy",
-    imagen: { id: 16103, alt: "A legal remedy document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "You ask a higher court to look again at another judge's decision.",
     sinonimos: ["ask for a review"],
     ejemplo: { palabra: "legal remedy", texto: "She filed a legal remedy because she disagreed with the sentence." },
@@ -3888,7 +3888,7 @@ DICCIONARIOS.en = [
   {
     id: "appeal-higher",
     palabra: "Higher appeal",
-    imagen: { id: 16103, alt: "A remedy document" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Ask a higher office to look again at a decision that you do not think is fair.",
     sinonimos: ["appeal to higher office"],
     ejemplo: { palabra: "higher appeal", texto: "She filed a higher appeal against the traffic fine." },
@@ -4492,7 +4492,7 @@ DICCIONARIOS.en = [
   {
     id: "supreme-court",
     palabra: "Supreme court",
-    imagen: { id: 34480, alt: "A court" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The highest court of the country. It rules on the laws that apply across the whole country.",
     sinonimos: ["highest court"],
     ejemplo: { palabra: "supreme court", texto: "The supreme court set the ruling that fixes the doctrine." },
@@ -4713,7 +4713,7 @@ DICCIONARIOS.en = [
   {
     id: "appeal-action",
     palabra: "Lodge an appeal",
-    imagen: { id: 16103, alt: "A remedy document" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Ask a higher office to change a decision that does not seem fair to you.",
     sinonimos: ["ask for a change"],
     ejemplo: { palabra: "lodge an appeal", texto: "He had to lodge an appeal against the fine because it seemed unfair." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -6207,7 +6207,7 @@ DICCIONARIOS.en = [
   {
     id: "calendar",
     palabra: "Calendar",
-    imagen: { id: 3071, alt: "Calendar, yearbook, almanac" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A paper or an app that shows the days, weeks and months of the year. It helps you remember dates.",
     sinonimos: ["almanac"],
     ejemplo: { palabra: "calendar", texto: "She wrote the doctor's appointment on the calendar." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 2402, alt: "Biscuits, cookies" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -8527,7 +8527,7 @@ DICCIONARIOS.en = [
   {
     id: "void-contract",
     palabra: "Void contract",
-    imagen: { id: 17194, alt: "A document with a big red cross" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "When a document or a contract stops being valid, as if it had never existed.",
     sinonimos: ["null contract"],
     ejemplo: { palabra: "void contract", texto: "The judge declared it a void contract because it was signed under pressure." },
@@ -8647,7 +8647,7 @@ DICCIONARIOS.en = [
   {
     id: "submit-documents",
     palabra: "Submit documents",
-    imagen: { id: 16169, alt: "A hand handing over a folder of papers" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "To hand in the papers that are asked for, to complete a procedure.",
     sinonimos: ["hand in papers"],
     ejemplo: { palabra: "submit documents", texto: "He had to submit documents to finish the application." },
@@ -8697,7 +8697,7 @@ DICCIONARIOS.en = [
   {
     id: "cancel-registration",
     palabra: "Cancel registration",
-    imagen: { id: 17194, alt: "A form with a red mark" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "To officially leave a service or a system you were registered with.",
     sinonimos: ["deregister"],
     ejemplo: { palabra: "cancel registration", texto: "She asked to cancel registration at the gym before moving city." },
@@ -10298,7 +10298,7 @@ DICCIONARIOS.en = [
   {
     id: "bankruptcy",
     palabra: "Bankruptcy",
-    imagen: { id: 34479, alt: "A law court" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A legal process for a person or company that cannot pay their debts.",
     sinonimos: ["legal process for unpaid debts"],
     ejemplo: { palabra: "bankruptcy", texto: "The company filed for bankruptcy and could not pay its suppliers." },
@@ -10630,7 +10630,7 @@ DICCIONARIOS.en = [
   {
     id: "mitigating-circumstance",
     palabra: "Mitigating circumstance",
-    imagen: { id: 34479, alt: "A law court" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A reason that makes a judge give a smaller punishment.",
     sinonimos: ["reason to reduce a punishment"],
     ejemplo: { palabra: "mitigating circumstance", texto: "His remorse was a mitigating circumstance at the trial." },
@@ -10650,7 +10650,7 @@ DICCIONARIOS.en = [
   {
     id: "challenge-a-decision",
     palabra: "Challenge a decision",
-    imagen: { id: 16103, alt: "A legal remedy document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To say officially that something is wrong, so it gets reviewed again.",
     sinonimos: ["officially reject a decision"],
     ejemplo: { palabra: "challenge a decision", texto: "She decided to challenge a decision about the election result." },
@@ -10690,7 +10690,7 @@ DICCIONARIOS.en = [
   {
     id: "capacity-assessment",
     palabra: "Capacity assessment",
-    imagen: { id: 34479, alt: "A law court" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A legal process where a judge decides if a person needs help making decisions.",
     sinonimos: ["legal process to decide if you need help"],
     ejemplo: { palabra: "capacity assessment", texto: "The family requested a capacity assessment to help him with his money." },
@@ -10720,7 +10720,7 @@ DICCIONARIOS.en = [
   {
     id: "administrative-appeal",
     palabra: "Administrative appeal",
-    imagen: { id: 16103, alt: "A legal remedy document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A paper asking a higher official to review a government decision.",
     sinonimos: ["appeal to a higher official"],
     ejemplo: { palabra: "administrative appeal", texto: "He filed an administrative appeal against the council's fine." },
@@ -11082,7 +11082,7 @@ DICCIONARIOS.en = [
   {
     id: "cancellation",
     palabra: "Cancellation",
-    imagen: { id: 17194, alt: "A cancel action" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Making a paper or a procedure stop counting, as if it had not been done.",
     sinonimos: ["making something stop counting"],
     ejemplo: { palabra: "cancellation", texto: "She requested the cancellation of the appointment because she could not go." },
@@ -11143,7 +11143,7 @@ DICCIONARIOS.en = [
   {
     id: "deregister-from-social-security",
     palabra: "Deregister from social security",
-    imagen: { id: 17194, alt: "A cancel action" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Stopping being registered as a worker with social security when a job ends.",
     sinonimos: ["cancel your worker registration"],
     ejemplo: { palabra: "deregister from social security", texto: "Her deregister from social security arrived when the contract ended." },
@@ -11223,7 +11223,7 @@ DICCIONARIOS.en = [
   {
     id: "self-employment-cessation-benefit",
     palabra: "Cessation benefit",
-    imagen: { id: 17194, alt: "A cancel action" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Money a self-employed person gets when they have to stop working for themselves.",
     sinonimos: ["benefit for stopping self-employment"],
     ejemplo: { palabra: "cessation benefit", texto: "He applied for the cessation benefit when he closed his business." },
@@ -11474,7 +11474,7 @@ DICCIONARIOS.en = [
   {
     id: "cancellation-fee",
     palabra: "Cancellation fee",
-    imagen: { id: 17194, alt: "A cancel action" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Money you are charged for cancelling a booking or an appointment.",
     sinonimos: ["money charged for cancelling"],
     ejemplo: { palabra: "cancellation fee", texto: "She was charged a cancellation fee for cancelling the hotel." },
@@ -12288,7 +12288,7 @@ DICCIONARIOS.en = [
   {
     id: "final-judgment",
     palabra: "Final judgment",
-    imagen: { id: 34479, alt: "A law court" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A judge's decision that can no longer be appealed, because the deadline passed or no more appeals are possible.",
     sinonimos: ["court decision that can no longer be appealed"],
     ejemplo: { palabra: "final judgment", texto: "The final judgment forced him to pay the compensation." },
@@ -12308,7 +12308,7 @@ DICCIONARIOS.en = [
   {
     id: "constitutional-court",
     palabra: "Constitutional Court",
-    imagen: { id: 34479, alt: "A law court" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The highest court that decides if a law or a decision respects fundamental rights.",
     sinonimos: ["court that protects fundamental rights"],
     ejemplo: { palabra: "Constitutional Court", texto: "The case reached the Constitutional Court." },
@@ -12560,7 +12560,7 @@ DICCIONARIOS.en = [
   {
     id: "proof-of-identity",
     palabra: "Proof of identity",
-    imagen: { id: 16169, alt: "Documents" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A document that shows who you are, like an ID card or a passport.",
     sinonimos: ["document that shows who you are"],
     ejemplo: { palabra: "proof of identity", texto: "She showed proof of identity to collect the parcel." },
@@ -13366,7 +13366,7 @@ DICCIONARIOS.en = [
   {
     id: "workload",
     palabra: "Workload",
-    imagen: { id: 16169, alt: "A person surrounded by many papers and files" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The amount of work a person has to do. A heavy workload can be hard to manage.",
     sinonimos: ["amount of work"],
     ejemplo: { palabra: "workload", texto: "Her workload doubled after the new project started." },
@@ -16266,7 +16266,7 @@ DICCIONARIOS.en = [
   {
     id: "bureaucrat",
     palabra: "Bureaucrat",
-    imagen: { id: 16169, alt: "Documents on a desk in an office" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A person who works in a government office, often following strict rules and procedures.",
     sinonimos: ["government office worker"],
     ejemplo: { palabra: "bureaucrat", texto: "The bureaucrat processed hundreds of forms every day." },
@@ -16386,7 +16386,7 @@ DICCIONARIOS.en = [
   {
     id: "caseload",
     palabra: "Caseload",
-    imagen: { id: 16169, alt: "Documents piled on a desk" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The number of cases or clients a person, like a social worker or lawyer, is responsible for.",
     sinonimos: ["number of cases"],
     ejemplo: { palabra: "caseload", texto: "The social worker had a heavy caseload this month." },
@@ -18086,7 +18086,7 @@ DICCIONARIOS.en = [
   {
     id: "gestation",
     palabra: "Gestation",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 11250, alt: "Pregnancy, gestation" },
     definicion: "The period of time during which a baby develops inside the womb before birth.",
     sinonimos: ["the period before birth"],
     ejemplo: { palabra: "gestation", texto: "Doctors monitor gestation closely during high-risk pregnancies." },
@@ -18456,7 +18456,7 @@ DICCIONARIOS.en = [
   {
     id: "immunity",
     palabra: "Immunity",
-    imagen: { id: 30074, alt: "A person receiving a vaccine" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Protection from a disease, often gained through vaccination or having had the illness before.",
     sinonimos: ["protection from a disease"],
     ejemplo: { palabra: "immunity to the virus", texto: "The vaccine gave him immunity to the virus." },
@@ -19926,7 +19926,7 @@ DICCIONARIOS.en = [
   {
     id: "pertussis",
     palabra: "Pertussis",
-    imagen: { id: 30074, alt: "A person receiving a vaccine" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A contagious respiratory infection also known as whooping cough.",
     sinonimos: ["whooping cough"],
     ejemplo: { palabra: "pertussis", texto: "The baby was vaccinated against pertussis at two months old." },
@@ -20756,7 +20756,7 @@ DICCIONARIOS.en = [
   {
     id: "rotavirus",
     palabra: "Rotavirus",
-    imagen: { id: 30074, alt: "A person receiving a vaccine" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A virus that causes severe diarrhea and vomiting, especially in young children.",
     sinonimos: ["a virus causing severe diarrhea in children"],
     ejemplo: { palabra: "rotavirus", texto: "The vaccine protects infants against rotavirus." },
@@ -20766,7 +20766,7 @@ DICCIONARIOS.en = [
   {
     id: "rubella",
     palabra: "Rubella",
-    imagen: { id: 30074, alt: "A person receiving a vaccine" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A contagious viral illness, also called German measles, that can be dangerous during pregnancy.",
     sinonimos: ["German measles"],
     ejemplo: { palabra: "rubella", texto: "The vaccine protects against measles, mumps, and rubella." },
@@ -21146,7 +21146,7 @@ DICCIONARIOS.en = [
   {
     id: "smallpox",
     palabra: "Smallpox",
-    imagen: { id: 30074, alt: "A person receiving a vaccine" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A serious contagious disease that caused skin blisters, now eliminated worldwide through vaccination.",
     sinonimos: ["a serious disease eliminated through vaccination"],
     ejemplo: { palabra: "smallpox", texto: "The vaccine helped wipe out smallpox worldwide." },
@@ -21526,7 +21526,7 @@ DICCIONARIOS.en = [
   {
     id: "tetanus",
     palabra: "Tetanus",
-    imagen: { id: 30074, alt: "A person receiving a vaccine" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A serious infection that causes muscle stiffness, often entering the body through a wound.",
     sinonimos: ["a serious infection causing muscle stiffness"],
     ejemplo: { palabra: "a tetanus shot", texto: "He got a tetanus shot after cutting his hand on rusty metal." },
