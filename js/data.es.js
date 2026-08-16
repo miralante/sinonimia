@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 34814, alt: "Préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -1994,7 +1994,7 @@ DICCIONARIOS.es = [
   {
     id: "glaucoma",
     palabra: "Glaucoma",
-    imagen: { id: 6573, alt: "Un ojo" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una enfermedad del ojo. La presión dentro del ojo sube y puede dejarte sin vista.",
     sinonimos: ["presión alta en el ojo"],
     ejemplo: { palabra: "glaucoma", texto: "Le diagnosticaron glaucoma y ahora se revisa la vista cada seis meses." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 36403, alt: "Ahorro" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3190,7 +3190,7 @@ DICCIONARIOS.es = [
   {
     id: "cabeza",
     palabra: "Cabeza",
-    imagen: { id: 2673, alt: "Cabeza" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "La parte de arriba del cuerpo. Dentro está el cerebro y la cara.",
     sinonimos: ["parte alta del cuerpo"],
     ejemplo: { palabra: "cabeza", texto: "Le dolía la cabeza después de trabajar muchas horas." },
@@ -3292,7 +3292,7 @@ DICCIONARIOS.es = [
   {
     id: "dermatologo",
     palabra: "Dermatólogo",
-    imagen: { id: 34375, alt: "Dermatólogo" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "El médico que cuida tu piel, tu pelo y tus uñas.",
     sinonimos: ["médico de la piel"],
     ejemplo: { palabra: "dermatólogo", texto: "Fue al dermatólogo porque le salía una mancha rara en la espalda." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 35413, alt: "Notario" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -3624,7 +3624,7 @@ DICCIONARIOS.es = [
   {
     id: "suelo",
     palabra: "Suelo",
-    imagen: { id: 2575, alt: "Suelo, piso" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "La parte de abajo de una habitación. Pisas el suelo cuando caminas dentro.",
     sinonimos: ["piso de la casa"],
     ejemplo: { palabra: "suelo", texto: "El suelo de la cocina es de baldosa." },
@@ -5026,7 +5026,7 @@ DICCIONARIOS.es = [
   {
     id: "alarma-antirrobo",
     palabra: "Alarma antirrobo",
-    imagen: { id: 6891, alt: "Una sirena de alarma sonando" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Un aparato que suena muy fuerte si alguien entra en la casa sin permiso. Avisa del peligro.",
     sinonimos: ["sistema antirrobo", "alarma de seguridad"],
     ejemplo: { palabra: "alarma antirrobo", texto: "Instalaron una alarma antirrobo en la puerta del piso." },
@@ -12650,7 +12650,7 @@ DICCIONARIOS.es = [
   {
     id: "cerca-electrica",
     palabra: "Cerca eléctrica",
-    imagen: { id: 6651, alt: "Una valla metálica" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Una valla que da una pequeña descarga si la tocas, para que nadie pase.",
     sinonimos: ["valla que da una pequeña descarga"],
     ejemplo: { palabra: "cerca eléctrica", texto: "Pusieron una cerca eléctrica alrededor del terreno." },
@@ -13612,7 +13612,7 @@ DICCIONARIOS.es = [
   {
     id: "inflacion",
     palabra: "Inflación",
-    imagen: { id: 5948, alt: "Una cesta de la compra con etiquetas de precio subiendo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Una subida de los precios con el paso del tiempo. Tu dinero compra menos que antes.",
     sinonimos: ["subida de precios"],
     ejemplo: { palabra: "inflación", texto: "La inflación encareció la compra este año." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 8483, alt: "Frontera, aduana" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
