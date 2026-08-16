@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 34814, alt: "Préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 36403, alt: "Ahorro" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 35413, alt: "Notario" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -4728,7 +4728,7 @@ DICCIONARIOS.es = [
   {
     id: "tribunal-supremo",
     palabra: "Tribunal Supremo",
-    imagen: { id: 34480, alt: "Un tribunal" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "El tribunal más alto del país. Decide las leyes que aplican en todo el territorio.",
     sinonimos: ["tribunal más alto"],
     ejemplo: { palabra: "Tribunal Supremo", texto: "El Tribunal Supremo dictó la sentencia que fija la doctrina." },
@@ -7188,7 +7188,7 @@ DICCIONARIOS.es = [
   {
     id: "enlace",
     palabra: "Enlace",
-    imagen: { id: 16913, alt: "Una pantalla de ordenador con una página web" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Una palabra o imagen en la que haces clic para ir a otra página. Te lleva directamente a esa página.",
     sinonimos: ["link", "vínculo"],
     ejemplo: { palabra: "enlace", texto: "Pinchó en el enlace del correo para ver la factura." },
@@ -8418,7 +8418,7 @@ DICCIONARIOS.es = [
   {
     id: "albacea",
     palabra: "Albacea",
-    imagen: { id: 35629, alt: "Una persona sujetando un documento oficial" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "La persona encargada de repartir las cosas de alguien que ha muerto, siguiendo su testamento.",
     sinonimos: ["ejecutor del testamento"],
     ejemplo: { palabra: "albacea", texto: "Su hermano mayor fue nombrado albacea en el testamento." },
@@ -8488,7 +8488,7 @@ DICCIONARIOS.es = [
   {
     id: "gestoria",
     palabra: "Gestoría",
-    imagen: { id: 36089, alt: "Una persona ayudando a otra con unos papeles" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Una oficina privada que hace los trámites y papeles por ti, a cambio de dinero.",
     sinonimos: ["asesoría de trámites"],
     ejemplo: { palabra: "gestoría", texto: "Pagó a una gestoría para que le hicieran la declaración de la renta." },
@@ -9858,7 +9858,7 @@ DICCIONARIOS.es = [
   {
     id: "nombre-de-dominio",
     palabra: "Nombre de dominio",
-    imagen: { id: 16913, alt: "Una barra de direcciones de internet" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "La dirección única de una página web, como la parte que va después de la www.",
     sinonimos: ["dirección web"],
     ejemplo: { palabra: "nombre de dominio", texto: "Compró el nombre de dominio para la web de su negocio." },
@@ -10198,7 +10198,7 @@ DICCIONARIOS.es = [
   {
     id: "tramite-presencial",
     palabra: "Trámite presencial",
-    imagen: { id: 36089, alt: "Una persona hablando con un funcionario en una ventanilla" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un trámite que hay que hacer yendo en persona a una oficina, sin poder hacerlo por internet.",
     sinonimos: ["gestión en persona"],
     ejemplo: { palabra: "trámite presencial", texto: "Ese trámite presencial obligaba a pedir cita con antelación." },
@@ -11193,7 +11193,7 @@ DICCIONARIOS.es = [
   {
     id: "certificado-de-defuncion",
     palabra: "Certificado de defunción",
-    imagen: { id: 33018, alt: "Un funeral" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un papel oficial que dice cuándo y dónde murió una persona.",
     sinonimos: ["partida de defunción"],
     ejemplo: { palabra: "certificado de defunción", texto: "Necesitaba el certificado de defunción para cerrar la cuenta del banco." },
@@ -11956,7 +11956,7 @@ DICCIONARIOS.es = [
   {
     id: "portal-inmobiliario",
     palabra: "Portal inmobiliario",
-    imagen: { id: 16913, alt: "Una página web" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Una página de internet donde se anuncian casas y pisos para alquilar o comprar.",
     sinonimos: ["página web de casas en venta o alquiler"],
     ejemplo: { palabra: "portal inmobiliario", texto: "Buscó piso en un portal inmobiliario durante semanas." },
@@ -12419,7 +12419,7 @@ DICCIONARIOS.es = [
   {
     id: "testamento-vital",
     palabra: "Testamento vital",
-    imagen: { id: 35629, alt: "Un papel firmado que es un testamento" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un papel donde dices qué cuidados médicos quieres o no quieres si un día no puedes decidirlo tú mismo.",
     sinonimos: ["instrucciones médicas para el futuro"],
     ejemplo: { palabra: "testamento vital", texto: "Firmó un testamento vital para dejar claras sus decisiones médicas." },
@@ -12549,7 +12549,7 @@ DICCIONARIOS.es = [
   {
     id: "recurso-de-amparo",
     palabra: "Recurso de amparo",
-    imagen: { id: 34480, alt: "Un tribunal de justicia" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un recurso ante el Tribunal Constitucional cuando crees que se ha violado un derecho fundamental.",
     sinonimos: ["recurso por violar un derecho fundamental"],
     ejemplo: { palabra: "recurso de amparo", texto: "Presentó un recurso de amparo al Tribunal Constitucional." },
@@ -12569,7 +12569,7 @@ DICCIONARIOS.es = [
   {
     id: "circunstancia-eximente",
     palabra: "Circunstancia eximente",
-    imagen: { id: 34480, alt: "Un tribunal de justicia" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un motivo que hace que una persona no reciba ningún castigo por lo que hizo.",
     sinonimos: ["motivo que libra de todo castigo"],
     ejemplo: { palabra: "circunstancia eximente", texto: "El juez apreció una circunstancia eximente por el estado de salud del acusado." },
@@ -14272,7 +14272,7 @@ DICCIONARIOS.es = [
   {
     id: "validacion-del-testamento",
     palabra: "Validación del testamento",
-    imagen: { id: 35629, alt: "Un juez comprobando un documento de testamento" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "El proceso legal que confirma que un testamento es válido. Un tribunal lo comprueba antes de repartir los bienes.",
     sinonimos: ["comprobación testamentaria"],
     ejemplo: { palabra: "validación del testamento", texto: "La herencia pasó por la validación del testamento antes de repartirse." },
@@ -14312,7 +14312,7 @@ DICCIONARIOS.es = [
   {
     id: "gravamen-legal",
     palabra: "Gravamen legal",
-    imagen: { id: 34480, alt: "Un coche con un documento legal adjunto" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Un derecho legal sobre la propiedad de alguien por una deuda. La propiedad no se puede vender hasta pagar la deuda.",
     sinonimos: ["bloqueo legal"],
     ejemplo: { palabra: "gravamen legal", texto: "El banco puso un gravamen legal sobre el coche hasta pagar el préstamo." },
@@ -14782,7 +14782,7 @@ DICCIONARIOS.es = [
   {
     id: "alojamiento-web",
     palabra: "Alojamiento web",
-    imagen: { id: 16913, alt: "Un servidor guardando una página web en internet" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Un servicio que guarda una página web para que la gente pueda visitarla en internet. Las empresas pagan por el alojamiento web para mantener su página activa.",
     sinonimos: ["servicio de almacenamiento web"],
     ejemplo: { palabra: "alojamiento web", texto: "Pagó por el alojamiento web para mantener su página activa." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 8483, alt: "Frontera, aduana" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
@@ -17312,7 +17312,7 @@ DICCIONARIOS.es = [
   {
     id: "embalsamar",
     palabra: "Embalsamar",
-    imagen: { id: 33018, alt: "Un funeral con un ataúd" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Preparar el cuerpo de una persona muerta con productos especiales para conservarlo.",
     sinonimos: ["conservar el cuerpo de un fallecido"],
     ejemplo: { palabra: "embalsamar el cuerpo", texto: "El especialista se encargó de embalsamar el cuerpo antes del funeral." },
@@ -17412,7 +17412,7 @@ DICCIONARIOS.es = [
   {
     id: "enviudar",
     palabra: "Enviudar",
-    imagen: { id: 33018, alt: "Una persona mayor triste" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Quedarse sin pareja porque el marido o la esposa ha muerto.",
     sinonimos: ["quedarse viudo o viuda"],
     ejemplo: { palabra: "enviudar", texto: "Después de enviudar, se mudó a vivir con su hija." },
@@ -17762,7 +17762,7 @@ DICCIONARIOS.es = [
   {
     id: "funeraria",
     palabra: "Funeraria",
-    imagen: { id: 33018, alt: "Un funeral con un ataúd" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Una empresa que se encarga de organizar los funerales y el entierro de una persona.",
     sinonimos: ["empresa de funerales"],
     ejemplo: { palabra: "la funeraria", texto: "La familia llamó a la funeraria para organizar el entierro." },
@@ -17782,7 +17782,7 @@ DICCIONARIOS.es = [
   {
     id: "gabinete",
     palabra: "Gabinete",
-    imagen: { id: 36089, alt: "Un documento oficial en una oficina" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Un despacho u oficina donde un profesional atiende a sus clientes o pacientes.",
     sinonimos: ["despacho profesional"],
     ejemplo: { palabra: "al gabinete", texto: "Acudió al gabinete del abogado para firmar los papeles." },
@@ -18652,7 +18652,7 @@ DICCIONARIOS.es = [
   {
     id: "nepotismo",
     palabra: "Nepotismo",
-    imagen: { id: 36089, alt: "Un documento en una oficina" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "El favoritismo hacia familiares o amigos a la hora de dar un trabajo o un cargo.",
     sinonimos: ["favoritismo hacia familiares en el trabajo"],
     ejemplo: { palabra: "el nepotismo", texto: "La empresa fue criticada por el nepotismo en las contrataciones." },
@@ -18682,7 +18682,7 @@ DICCIONARIOS.es = [
   {
     id: "obituario",
     palabra: "Obituario",
-    imagen: { id: 33018, alt: "Un funeral con un ataúd" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Un texto publicado en un periódico que anuncia la muerte de una persona y recuerda su vida.",
     sinonimos: ["texto que anuncia una muerte en el periódico"],
     ejemplo: { palabra: "el obituario", texto: "Leyó el obituario de su antiguo profesor en el periódico." },
