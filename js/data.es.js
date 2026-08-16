@@ -1365,7 +1365,7 @@ DICCIONARIOS.es = [
   {
     id: "garantia",
     palabra: "Garantía",
-    imagen: { id: 3149, alt: "Una caja de regalo" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Un compromiso de la tienda. Si el producto falla, lo arreglan o te lo cambian.",
     sinonimos: ["seguro del producto", "compromiso de la tienda"],
     ejemplo: { palabra: "garantía", texto: "El móvil viene con dos años de garantía." },
@@ -1429,7 +1429,7 @@ DICCIONARIOS.es = [
   {
     id: "venta",
     palabra: "Venta",
-    imagen: { id: 3149, alt: "Una caja de regalo" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Cuando algo se vende. La tienda te da el producto a cambio de dinero.",
     sinonimos: ["compra y venta", "transacción"],
     ejemplo: { palabra: "venta", texto: "La venta del piso se cerró en dos semanas." },
@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 34814, alt: "Préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 36403, alt: "Ahorro" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 35413, alt: "Notario" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -5096,7 +5096,7 @@ DICCIONARIOS.es = [
   {
     id: "cerradura-seguridad",
     palabra: "Cerradura de seguridad",
-    imagen: { id: 3261, alt: "Una cerradura con llave" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Una cerradura muy resistente que cuesta más de forzar. Protege mejor la puerta de casa.",
     sinonimos: ["cerradura reforzada", "cerrojo de seguridad"],
     ejemplo: { palabra: "cerradura de seguridad", texto: "Cambiaron la cerradura de seguridad después del robo." },
@@ -7318,7 +7318,7 @@ DICCIONARIOS.es = [
   {
     id: "puerta-cortafuegos",
     palabra: "Puerta cortafuegos",
-    imagen: { id: 3244, alt: "Una puerta gruesa cerrada que separa dos zonas de un edificio" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Una puerta especial que no deja pasar el fuego ni el humo de una habitación a otra.",
     sinonimos: ["puerta antiincendios", "puerta resistente al fuego"],
     ejemplo: { palabra: "puerta cortafuegos", texto: "El pasillo tiene una puerta cortafuegos que se cierra sola." },
@@ -7368,7 +7368,7 @@ DICCIONARIOS.es = [
   {
     id: "mirilla",
     palabra: "Mirilla",
-    imagen: { id: 3244, alt: "Un agujero redondo en el centro de una puerta cerrada" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Un agujero pequeño y redondo en la puerta. Sirve para ver quién llama sin abrir.",
     sinonimos: ["ojo de la puerta"],
     ejemplo: { palabra: "mirilla", texto: "Miró por la mirilla antes de abrir la puerta." },
@@ -7398,7 +7398,7 @@ DICCIONARIOS.es = [
   {
     id: "puerta-blindada",
     palabra: "Puerta blindada",
-    imagen: { id: 3244, alt: "Una puerta cerrada" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Una puerta muy fuerte y pesada, difícil de forzar o romper.",
     sinonimos: ["puerta acorazada", "puerta reforzada"],
     ejemplo: { palabra: "puerta blindada", texto: "Cambió la puerta de casa por una puerta blindada." },
@@ -7498,7 +7498,7 @@ DICCIONARIOS.es = [
   {
     id: "cerradura-infantil",
     palabra: "Cerradura infantil",
-    imagen: { id: 3261, alt: "Una cerradura pequeña" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Un cierre especial en un armario o cajón. Los niños pequeños no pueden abrirlo solos.",
     sinonimos: ["seguro para niños", "bloqueo infantil"],
     ejemplo: { palabra: "cerradura infantil", texto: "Puso una cerradura infantil en el armario de los productos de limpieza." },
@@ -7848,7 +7848,7 @@ DICCIONARIOS.es = [
   {
     id: "cerrajero",
     palabra: "Cerrajero",
-    imagen: { id: 3261, alt: "Una persona arreglando la cerradura de una puerta" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "La persona que abre puertas cerradas sin llave y arregla o cambia cerraduras.",
     sinonimos: ["profesional de cerraduras"],
     ejemplo: { palabra: "cerrajero", texto: "Llamó a un cerrajero porque se había dejado las llaves dentro de casa." },
@@ -9058,7 +9058,7 @@ DICCIONARIOS.es = [
   {
     id: "punto-de-recogida",
     palabra: "Punto de recogida",
-    imagen: { id: 3086, alt: "Una oficina de correos" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Una tienda o un lugar donde puedes ir a buscar un paquete si no estabas en casa.",
     sinonimos: ["punto de entrega"],
     ejemplo: { palabra: "punto de recogida", texto: "Recogió el paquete en el punto de recogida del barrio." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 8483, alt: "Frontera, aduana" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
@@ -16412,7 +16412,7 @@ DICCIONARIOS.es = [
   {
     id: "calumniar",
     palabra: "Calumniar",
-    imagen: { id: 3345, alt: "Una persona habla mal de otra" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Decir algo falso sobre una persona para dañar su reputación.",
     sinonimos: ["difamar"],
     ejemplo: { palabra: "calumniar", texto: "Lo denunció por calumniar públicamente a su expareja." },
@@ -16612,7 +16612,7 @@ DICCIONARIOS.es = [
   {
     id: "cirrosis",
     palabra: "Cirrosis",
-    imagen: { id: 2980, alt: "Botellas y copas de bebidas alcohólicas" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una enfermedad grave del hígado que lo daña de forma permanente.",
     sinonimos: ["daño grave del hígado"],
     ejemplo: { palabra: "cirrosis", texto: "El consumo excesivo de alcohol le provocó cirrosis." },
@@ -17612,7 +17612,7 @@ DICCIONARIOS.es = [
   {
     id: "faringitis",
     palabra: "Faringitis",
-    imagen: { id: 3332, alt: "Diagrama de la garganta señalada con una flecha" },
+    imagen: { id: 10262, alt: "Faringitis" },
     definicion: "Una inflamación de la garganta que causa dolor, especialmente al tragar.",
     sinonimos: ["inflamación de la garganta"],
     ejemplo: { palabra: "la faringitis", texto: "El médico le diagnosticó la faringitis tras la revisión." },
