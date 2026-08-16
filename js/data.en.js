@@ -64,7 +64,7 @@ DICCIONARIOS.en = [
   {
     id: "certified-copy",
     palabra: "Certified copy",
-    imagen: { id: 10324, alt: "A rubber stamp for documents" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A copy of a document that an official confirms matches the original.",
     sinonimos: ["verified copy", "official copy"],
     ejemplo: { palabra: "certified copy", texto: "You must bring a certified copy of your degree." },
@@ -453,7 +453,7 @@ DICCIONARIOS.en = [
   {
     id: "pension-payment",
     palabra: "Pension",
-    imagen: { id: 14666, alt: "A retired older person" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Money the state pays you every month. You get it when you retire.",
     sinonimos: ["retirement pay", "monthly payment"],
     ejemplo: { palabra: "pension", texto: "She receives her pension on the first day of the month." },
@@ -1785,7 +1785,7 @@ DICCIONARIOS.en = [
   {
     id: "unpaid",
     palabra: "Unpaid",
-    imagen: { id: 15517, alt: "An unpaid bill" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A bill or debt that has not been paid on time.",
     sinonimos: ["overdue", "missed payment"],
     ejemplo: { palabra: "unpaid", texto: "There was an unpaid gas bill last month." },
@@ -2047,7 +2047,7 @@ DICCIONARIOS.en = [
   {
     id: "plaintiff",
     palabra: "Plaintiff",
-    imagen: { id: 15030, alt: "A person files a lawsuit" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The person who takes a case to court because they say they were harmed.",
     sinonimos: ["person who claims"],
     ejemplo: { palabra: "plaintiff", texto: "The plaintiff told the judge what happened to her." },
@@ -3194,7 +3194,7 @@ DICCIONARIOS.en = [
   {
     id: "testimony",
     palabra: "Testimony",
-    imagen: { id: 12339, alt: "A witness gives testimony" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "What a person says in court about what they saw or know.",
     sinonimos: ["witness statement"],
     ejemplo: { palabra: "testimony", texto: "Her testimony was key to solving the case." },
@@ -3687,7 +3687,7 @@ DICCIONARIOS.en = [
   {
     id: "early-retirement",
     palabra: "Early retirement",
-    imagen: { id: 14666, alt: "A retired person" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Stop working and get the pension before the normal age.",
     sinonimos: ["early exit"],
     ejemplo: { palabra: "early retirement", texto: "She took early retirement at sixty." },
@@ -3838,7 +3838,7 @@ DICCIONARIOS.en = [
   {
     id: "sms-code",
     palabra: "SMS code",
-    imagen: { id: 10320, alt: "A barcode" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A short number the bank or the state sends to your phone to confirm an operation.",
     sinonimos: ["confirmation number"],
     ejemplo: { palabra: "SMS code", texto: "An SMS code arrived on her phone to confirm the purchase." },
@@ -3898,7 +3898,7 @@ DICCIONARIOS.en = [
   {
     id: "certified-companion",
     palabra: "Certified copy",
-    imagen: { id: 10324, alt: "A rubber stamp" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A copy of a paper that an office stamps. It says it matches the original.",
     sinonimos: ["stamped official copy"],
     ejemplo: { palabra: "certified copy", texto: "He took a certified copy of the title to the office." },
@@ -4412,7 +4412,7 @@ DICCIONARIOS.en = [
   {
     id: "lawsuit-filed",
     palabra: "Lawsuit filed",
-    imagen: { id: 15030, alt: "A person files a lawsuit" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A paper you take to the judge to solve a problem. It starts a trial.",
     sinonimos: ["trial-opening paper"],
     ejemplo: { palabra: "lawsuit filed", texto: "He got a lawsuit filed against the company over the dismissal." },
@@ -4462,7 +4462,7 @@ DICCIONARIOS.en = [
   {
     id: "criminal-code",
     palabra: "Criminal code",
-    imagen: { id: 10320, alt: "A barcode" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The book that gathers every crime and the punishment that goes with it.",
     sinonimos: ["book of crimes"],
     ejemplo: { palabra: "criminal code", texto: "Robbery is punished with jail under the criminal code." },
@@ -4522,7 +4522,7 @@ DICCIONARIOS.en = [
   {
     id: "dismissed-case",
     palabra: "Dismissed case",
-    imagen: { id: 15030, alt: "A person files a lawsuit" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A lawsuit that no longer moves forward. The case is closed with no more action.",
     sinonimos: ["closed case"],
     ejemplo: { palabra: "dismissed case", texto: "The dismissed case cannot be reopened." },
@@ -4613,7 +4613,7 @@ DICCIONARIOS.en = [
   {
     id: "official-stamp",
     palabra: "Official stamp",
-    imagen: { id: 10324, alt: "A rubber stamp" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A mark a state office puts on a paper. It says the paper is real.",
     sinonimos: ["official mark"],
     ejemplo: { palabra: "official stamp", texto: "The police station official stamp makes the report valid." },
@@ -8057,7 +8057,7 @@ DICCIONARIOS.en = [
   {
     id: "pension-plan",
     palabra: "Pension plan",
-    imagen: { id: 14666, alt: "A piggy bank next to an older person" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Money you save little by little during your working life, to have more when you retire.",
     sinonimos: ["retirement savings"],
     ejemplo: { palabra: "pension plan", texto: "She started a pension plan to save for retirement." },
@@ -8437,7 +8437,7 @@ DICCIONARIOS.en = [
   {
     id: "emancipation",
     palabra: "Emancipation",
-    imagen: { id: 11484, alt: "A young person with a suitcase leaving home" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "When a minor is legally allowed to decide about their own life before turning eighteen.",
     sinonimos: ["legal independence of a minor"],
     ejemplo: { palabra: "emancipation", texto: "She applied for emancipation at sixteen to work and live alone." },
@@ -10057,7 +10057,7 @@ DICCIONARIOS.en = [
   {
     id: "care-leaver-support",
     palabra: "Care leaver support",
-    imagen: { id: 11484, alt: "A young person with a suitcase leaving home" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Help given to a young person leaving foster care, so they can live on their own.",
     sinonimos: ["leaving care support"],
     ejemplo: { palabra: "care leaver support", texto: "She received care leaver support when she turned eighteen." },
@@ -10972,7 +10972,7 @@ DICCIONARIOS.en = [
   {
     id: "document-legalisation",
     palabra: "Document legalisation",
-    imagen: { id: 10324, alt: "A rubber stamp" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Putting an official stamp on a document so it is also valid in another country.",
     sinonimos: ["stamping a paper so it is valid abroad"],
     ejemplo: { palabra: "document legalisation", texto: "She needed document legalisation to work abroad." },
@@ -11504,7 +11504,7 @@ DICCIONARIOS.en = [
   {
     id: "promo-code",
     palabra: "Promo code",
-    imagen: { id: 10320, alt: "A barcode" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A set of letters or numbers that gives you a discount on a purchase when you enter it.",
     sinonimos: ["discount code"],
     ejemplo: { palabra: "promo code", texto: "He used a promo code to pay less for the shoes." },
@@ -11715,7 +11715,7 @@ DICCIONARIOS.en = [
   {
     id: "property-encumbrances",
     palabra: "Property encumbrances",
-    imagen: { id: 15517, alt: "An unpaid bill" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Debts or legal problems tied to a home before you buy it, like an unpaid mortgage.",
     sinonimos: ["debts tied to the home"],
     ejemplo: { palabra: "property encumbrances", texto: "The notary checked the property encumbrances before the signing." },
@@ -11816,7 +11816,7 @@ DICCIONARIOS.en = [
   {
     id: "swift-code",
     palabra: "SWIFT code",
-    imagen: { id: 10320, alt: "A barcode" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A code of letters that identifies a bank so it can receive money from another country.",
     sinonimos: ["bank's international code"],
     ejemplo: { palabra: "SWIFT code", texto: "She needed the SWIFT code to receive money from abroad." },
@@ -12148,7 +12148,7 @@ DICCIONARIOS.en = [
   {
     id: "statement-of-arguments",
     palabra: "Statement of arguments",
-    imagen: { id: 15030, alt: "A person files a claim" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A paper where you explain your reasons before an official decision is made.",
     sinonimos: ["paper with your reasons"],
     ejemplo: { palabra: "statement of arguments", texto: "He filed a statement of arguments against the fine." },
@@ -12640,7 +12640,7 @@ DICCIONARIOS.en = [
   {
     id: "late-payment-notice",
     palabra: "Late payment notice",
-    imagen: { id: 15517, alt: "An unpaid bill" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A letter that tells you that a bill or a fee has not been paid on time.",
     sinonimos: ["letter about an unpaid bill"],
     ejemplo: { palabra: "late payment notice", texto: "He received a late payment notice for the council tax." },
@@ -13476,7 +13476,7 @@ DICCIONARIOS.en = [
   {
     id: "acquittal",
     palabra: "Acquittal",
-    imagen: { id: 11484, alt: "A person leaving a courtroom smiling" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A court decision that says a person is not guilty. The case ends and they go free.",
     sinonimos: ["not-guilty verdict"],
     ejemplo: { palabra: "acquittal", texto: "The jury's acquittal meant he walked free." },
@@ -14526,7 +14526,7 @@ DICCIONARIOS.en = [
   {
     id: "testify",
     palabra: "Testify",
-    imagen: { id: 12339, alt: "A witness speaking in front of a jury" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To formally state facts as a witness, usually in court. You promise to tell the truth before you do it.",
     sinonimos: ["give evidence"],
     ejemplo: { palabra: "testify", texto: "She had to testify in front of the jury." },
@@ -14536,7 +14536,7 @@ DICCIONARIOS.en = [
   {
     id: "deposition",
     palabra: "Deposition",
-    imagen: { id: 12339, alt: "A witness giving a written statement to a lawyer" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A formal statement a witness gives outside of court, before the trial. It is written down and can be used later.",
     sinonimos: ["out-of-court statement"],
     ejemplo: { palabra: "deposition", texto: "The lawyer took his deposition before the trial." },
@@ -16016,7 +16016,7 @@ DICCIONARIOS.en = [
   {
     id: "asylee",
     palabra: "Asylee",
-    imagen: { id: 6171, alt: "A passport next to flags of different countries" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who has been officially given asylum in another country.",
     sinonimos: ["person granted asylum"],
     ejemplo: { palabra: "an asylee", texto: "As an asylee, she was allowed to live and work legally." },
@@ -16316,7 +16316,7 @@ DICCIONARIOS.en = [
   {
     id: "bystander",
     palabra: "Bystander",
-    imagen: { id: 12339, alt: "A person watches from the street" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A person who is present when something happens but does not take part in it.",
     sinonimos: ["person who watched without taking part"],
     ejemplo: { palabra: "a bystander", texto: "The witness statement came from a bystander at the scene." },
@@ -17716,7 +17716,7 @@ DICCIONARIOS.en = [
   {
     id: "expatriate",
     palabra: "Expatriate",
-    imagen: { id: 6171, alt: "A passport" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A person who lives outside their own country, usually by choice.",
     sinonimos: ["a person living outside their own country"],
     ejemplo: { palabra: "an expatriate", texto: "He has lived as an expatriate for over a decade." },
@@ -17766,7 +17766,7 @@ DICCIONARIOS.en = [
   {
     id: "extradite",
     palabra: "Extradite",
-    imagen: { id: 6171, alt: "A passport" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To send a person accused of a crime to another country where they will be put on trial.",
     sinonimos: ["send to another country for trial"],
     ejemplo: { palabra: "extradite him", texto: "The government agreed to extradite him after the request was approved." },
