@@ -4864,7 +4864,7 @@ DICCIONARIOS.es = [
   {
     id: "pago-tasa",
     palabra: "Pago de tasa",
-    imagen: { id: 4630, alt: "Billetes y monedas de euro" },
+    imagen: { id: 6457, alt: "Comprar, pagar, adquirir" },
     definicion: "Cuando pagas el dinero que cuesta un trámite al Estado. Suele ser poco.",
     sinonimos: ["pagar la tasa"],
     ejemplo: { palabra: "pago de tasa", texto: "El pago de tasa se hace en el banco antes de pedir el documento." },
@@ -9598,7 +9598,7 @@ DICCIONARIOS.es = [
   {
     id: "pago-fraccionado",
     palabra: "Pago fraccionado",
-    imagen: { id: 4630, alt: "Varias monedas iguales seguidas en fila" },
+    imagen: { id: 29070, alt: "Pagar" },
     definicion: "Pagar algo caro en varias partes pequeñas, en vez de todo de una vez.",
     sinonimos: ["pago a plazos"],
     ejemplo: { palabra: "pago fraccionado", texto: "Compró el sofá con un pago fraccionado en seis meses." },
@@ -10539,7 +10539,7 @@ DICCIONARIOS.es = [
   {
     id: "renta-vitalicia",
     palabra: "Renta vitalicia",
-    imagen: { id: 4630, alt: "Billetes y monedas de euro" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Dinero que el banco te paga cada mes para siempre, a cambio de tus ahorros.",
     sinonimos: ["pago mensual de por vida"],
     ejemplo: { palabra: "renta vitalicia", texto: "Cambió su piso por una renta vitalicia al jubilarse." },
@@ -16072,7 +16072,7 @@ DICCIONARIOS.es = [
   {
     id: "arbitral",
     palabra: "Arbitral",
-    imagen: { id: 21802, alt: "Dos personas firman un acuerdo" },
+    imagen: { id: 4564, alt: "Árbitro" },
     definicion: "Relacionado con una decisión tomada por un árbitro para resolver un conflicto.",
     sinonimos: ["de arbitraje"],
     ejemplo: { palabra: "arbitral", texto: "El laudo arbitral puso fin a la disputa laboral." },
@@ -16712,7 +16712,7 @@ DICCIONARIOS.es = [
   {
     id: "colitis",
     palabra: "Colitis",
-    imagen: { id: 2467, alt: "Un médico examina a un paciente" },
+    imagen: { id: 2967, alt: "Intestino" },
     definicion: "Una inflamación del intestino grueso que causa dolor de barriga.",
     sinonimos: ["inflamación del intestino"],
     ejemplo: { palabra: "colitis", texto: "El médico le diagnosticó colitis tras varios días de dolor." },
@@ -17032,7 +17032,7 @@ DICCIONARIOS.es = [
   {
     id: "defuncion",
     palabra: "Defunción",
-    imagen: { id: 21802, alt: "Un documento oficial en una oficina" },
+    imagen: { id: 16359, alt: "Muerte, morir" },
     definicion: "La muerte de una persona, sobre todo cuando se registra de forma oficial.",
     sinonimos: ["fallecimiento"],
     ejemplo: { palabra: "defunción", texto: "Necesita el certificado de defunción para el trámite de herencia." },
@@ -17342,7 +17342,7 @@ DICCIONARIOS.es = [
   {
     id: "enajenar",
     palabra: "Enajenar",
-    imagen: { id: 21802, alt: "Dos personas firman un documento de propiedad" },
+    imagen: { id: 6652, alt: "Vender" },
     definicion: "Vender o transferir a otra persona la propiedad de un bien, siguiendo un trámite legal.",
     sinonimos: ["transferir"],
     ejemplo: { palabra: "enajenar", texto: "El propietario decidió enajenar el terreno mediante un contrato legal." },
@@ -18302,7 +18302,7 @@ DICCIONARIOS.es = [
   {
     id: "legajo",
     palabra: "Legajo",
-    imagen: { id: 21802, alt: "Un archivador" },
+    imagen: { id: 16169, alt: "Documentos" },
     definicion: "Un conjunto de documentos relacionados con un mismo asunto, ordenados y archivados juntos.",
     sinonimos: ["conjunto de documentos archivados"],
     ejemplo: { palabra: "el legajo", texto: "El funcionario revisó el legajo antes de resolver la solicitud." },
@@ -18532,7 +18532,7 @@ DICCIONARIOS.es = [
   {
     id: "minusvalia",
     palabra: "Minusvalía",
-    imagen: { id: 21802, alt: "Un documento oficial con un sello" },
+    imagen: { id: 24513, alt: "Personas con discapacidad, discapacidad" },
     definicion: "El grado de discapacidad que reconoce oficialmente la administración a una persona, para acceder a ayudas.",
     sinonimos: ["grado oficial de discapacidad reconocido"],
     ejemplo: { palabra: "de minusvalía", texto: "El médico tramitó el certificado de minusvalía para solicitar ayudas." },
@@ -18842,7 +18842,7 @@ DICCIONARIOS.es = [
   {
     id: "patrocinio",
     palabra: "Patrocinio",
-    imagen: { id: 4630, alt: "Dinero y un documento" },
+    imagen: { id: 14674, alt: "Patrocinador" },
     definicion: "El apoyo económico que una empresa u organización da a una persona o a un evento a cambio de publicidad.",
     sinonimos: ["apoyo económico a cambio de publicidad"],
     ejemplo: { palabra: "el patrocinio", texto: "La marca ofreció el patrocinio del equipo local." },
@@ -18962,7 +18962,7 @@ DICCIONARIOS.es = [
   {
     id: "plagiar",
     palabra: "Plagiar",
-    imagen: { id: 21802, alt: "Un documento oficial" },
+    imagen: { id: 21559, alt: "Copiar" },
     definicion: "Copiar el trabajo de otra persona y presentarlo como propio.",
     sinonimos: ["copiar el trabajo de otro como propio"],
     ejemplo: { palabra: "plagiar el trabajo de un compañero", texto: "El estudiante fue expulsado por plagiar el trabajo de un compañero." },
@@ -19202,7 +19202,7 @@ DICCIONARIOS.es = [
   {
     id: "recesion",
     palabra: "Recesión",
-    imagen: { id: 4630, alt: "Dinero y un documento" },
+    imagen: { id: 15990, alt: "Crisis, crisis económica" },
     definicion: "Un periodo en el que la economía de un país empeora y hay menos actividad y empleo.",
     sinonimos: ["periodo en el que la economía empeora"],
     ejemplo: { palabra: "en recesión", texto: "El país entró en recesión tras varios trimestres de caída económica." },
@@ -19332,7 +19332,7 @@ DICCIONARIOS.es = [
   {
     id: "revocar",
     palabra: "Revocar",
-    imagen: { id: 21802, alt: "Un documento oficial con un sello" },
+    imagen: { id: 7045, alt: "Anular" },
     definicion: "Anular oficialmente una decisión, un permiso o un documento que antes tenía validez.",
     sinonimos: ["anular oficialmente una decisión"],
     ejemplo: { palabra: "revocar", texto: "El ayuntamiento decidió revocar la licencia del negocio." },
@@ -19882,7 +19882,7 @@ DICCIONARIOS.es = [
   {
     id: "viudez",
     palabra: "Viudez",
-    imagen: { id: 4630, alt: "Dinero y un documento" },
+    imagen: { id: 11637, alt: "Viuda" },
     definicion: "La condición de una persona cuyo cónyuge ha fallecido.",
     sinonimos: ["condición de haber perdido al cónyuge"],
     ejemplo: { palabra: "la viudez", texto: "La ayuda para la viudez llegó tras la muerte de su marido." },
