@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 34814, alt: "Préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -1769,7 +1769,7 @@ DICCIONARIOS.es = [
   {
     id: "sueldo",
     palabra: "Sueldo",
-    imagen: { id: 33996, alt: "Un sobre con dinero de sueldo" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "El dinero que cobras cada mes por tu trabajo.",
     sinonimos: ["salario", "paga del trabajo"],
     ejemplo: { palabra: "sueldo", texto: "Cobra el sueldo a fin de mes." },
@@ -1961,7 +1961,7 @@ DICCIONARIOS.es = [
   {
     id: "salario-minimo",
     palabra: "Salario mínimo",
-    imagen: { id: 33996, alt: "Sueldo básico" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Lo mínimo que la ley obliga a pagar a un trabajador por hora o por mes.",
     sinonimos: ["sueldo mínimo legal", "paga mínima"],
     ejemplo: { palabra: "Salario mínimo", texto: "El Salario mínimo subió al inicio del año." },
@@ -2215,7 +2215,7 @@ DICCIONARIOS.es = [
   {
     id: "delito",
     palabra: "Delito",
-    imagen: { id: 31900, alt: "Un hecho delictivo" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una acción grave que va contra la ley. Quien lo hace va a juicio.",
     sinonimos: ["hecho grave contra la ley"],
     ejemplo: { palabra: "delito", texto: "Robar un banco es un delito muy grave." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 36403, alt: "Ahorro" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3292,7 +3292,7 @@ DICCIONARIOS.es = [
   {
     id: "dermatologo",
     palabra: "Dermatólogo",
-    imagen: { id: 34375, alt: "Un dermatólogo" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "El médico que cuida tu piel, tu pelo y tus uñas.",
     sinonimos: ["médico de la piel"],
     ejemplo: { palabra: "dermatólogo", texto: "Fue al dermatólogo porque le salía una mancha rara en la espalda." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 35413, alt: "Notario" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -7168,7 +7168,7 @@ DICCIONARIOS.es = [
   {
     id: "suplantacion-identidad",
     palabra: "Suplantación de identidad",
-    imagen: { id: 31195, alt: "Una persona esconde algo mientras otra persona duda con un signo de interrogación" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Alguien finge ser tu banco o una empresa para robarte datos. Te escribe para engañarte y sacarte dinero.",
     sinonimos: ["phishing", "engaño para robar datos"],
     ejemplo: { palabra: "suplantación de identidad", texto: "Recibió un correo de suplantación de identidad que parecía del banco." },
@@ -10600,7 +10600,7 @@ DICCIONARIOS.es = [
   {
     id: "estafa-por-sms",
     palabra: "Estafa por SMS",
-    imagen: { id: 31195, alt: "Una persona esconde algo mientras otra persona duda con un signo de interrogación" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Un mensaje de texto falso que pide tus datos o tu dinero.",
     sinonimos: ["mensaje falso para robar datos"],
     ejemplo: { palabra: "estafa por SMS", texto: "Recibió una estafa por SMS que decía ser de su banco." },
@@ -13442,7 +13442,7 @@ DICCIONARIOS.es = [
   {
     id: "falsificacion",
     palabra: "Falsificación",
-    imagen: { id: 31195, alt: "Una mano copiando una firma en un documento" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Hacer una copia falsa de algo oficial para engañar. Por ejemplo, una firma o un documento falso.",
     sinonimos: ["copia falsa"],
     ejemplo: { palabra: "falsificación", texto: "La firma era una falsificación." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 8483, alt: "Frontera, aduana" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
@@ -16012,7 +16012,7 @@ DICCIONARIOS.es = [
   {
     id: "antitetanica",
     palabra: "Antitetánica",
-    imagen: { id: 30073, alt: "Una enfermera pone una inyección" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una vacuna que protege contra el tétanos, sobre todo después de una herida.",
     sinonimos: ["vacuna del tétanos"],
     ejemplo: { palabra: "la antitetánica", texto: "Le pusieron la antitetánica después del corte con el metal oxidado." },
@@ -17212,7 +17212,7 @@ DICCIONARIOS.es = [
   {
     id: "difteria",
     palabra: "Difteria",
-    imagen: { id: 30073, alt: "Una enfermera pone una vacuna" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una enfermedad infecciosa grave que afecta a la garganta y puede prevenirse con una vacuna.",
     sinonimos: ["la infección grave de garganta"],
     ejemplo: { palabra: "la difteria", texto: "La vacuna protege contra la difteria." },
@@ -19632,7 +19632,7 @@ DICCIONARIOS.es = [
   {
     id: "tetanos",
     palabra: "Tétanos",
-    imagen: { id: 30073, alt: "Una persona recibe una vacuna" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una infección grave causada por una bacteria que entra por una herida y afecta a los músculos.",
     sinonimos: ["infección grave que afecta a los músculos"],
     ejemplo: { palabra: "el tétanos", texto: "La enfermera le puso la vacuna contra el tétanos tras la herida." },
