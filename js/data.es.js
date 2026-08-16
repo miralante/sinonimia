@@ -18212,7 +18212,7 @@ DICCIONARIOS.es = [
   {
     id: "jaqueca",
     palabra: "Jaqueca",
-    imagen: { id: 2467, alt: "Un médico habla con un paciente" },
+    imagen: { id: 28754, alt: "Dolor de cabeza" },
     definicion: "Un dolor de cabeza muy intenso, a veces acompañado de náuseas o sensibilidad a la luz.",
     sinonimos: ["dolor de cabeza muy intenso"],
     ejemplo: { palabra: "una jaqueca", texto: "Tuvo que ausentarse del trabajo por una jaqueca." },
@@ -18632,7 +18632,7 @@ DICCIONARIOS.es = [
   {
     id: "necropsia",
     palabra: "Necropsia",
-    imagen: { id: 2467, alt: "Un médico habla con un paciente" },
+    imagen: { id: 27586, alt: "Autopsia" },
     definicion: "Un examen médico que se hace al cuerpo de una persona muerta para determinar la causa de la muerte.",
     sinonimos: ["examen del cuerpo para determinar la causa de la muerte"],
     ejemplo: { palabra: "la necropsia", texto: "El forense realizó la necropsia esa misma tarde." },
@@ -19592,7 +19592,7 @@ DICCIONARIOS.es = [
   {
     id: "tendinitis",
     palabra: "Tendinitis",
-    imagen: { id: 2467, alt: "Un médico habla con un paciente" },
+    imagen: { id: 24432, alt: "Tendón" },
     definicion: "Una inflamación de un tendón que causa dolor al mover la zona afectada.",
     sinonimos: ["inflamación de un tendón"],
     ejemplo: { palabra: "tendinitis", texto: "El fisioterapeuta le diagnosticó tendinitis en el hombro." },
