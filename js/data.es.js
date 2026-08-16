@@ -17402,7 +17402,7 @@ DICCIONARIOS.es = [
   {
     id: "enjuiciar",
     palabra: "Enjuiciar",
-    imagen: { id: 11291, alt: "Un juez con un mazo en el tribunal" },
+    imagen: { id: 8148, alt: "Juzgar" },
     definicion: "Llevar a una persona ante un tribunal para juzgar si cometió un delito.",
     sinonimos: ["llevar a juicio"],
     ejemplo: { palabra: "enjuiciar", texto: "La fiscalía decidió enjuiciar al sospechoso por el robo." },
@@ -17642,7 +17642,7 @@ DICCIONARIOS.es = [
   {
     id: "feminicidio",
     palabra: "Feminicidio",
-    imagen: { id: 11291, alt: "Un juez con un mazo en el tribunal" },
+    imagen: { id: 16363, alt: "Muerte, asesinato" },
     definicion: "El asesinato de una mujer por el hecho de ser mujer, normalmente por parte de su pareja o expareja.",
     sinonimos: ["asesinato de una mujer por machismo"],
     ejemplo: { palabra: "el feminicidio", texto: "La ley endureció las penas contra el feminicidio." },
@@ -18002,7 +18002,7 @@ DICCIONARIOS.es = [
   {
     id: "homicidio",
     palabra: "Homicidio",
-    imagen: { id: 11291, alt: "Un juez con un mazo en el tribunal" },
+    imagen: { id: 16359, alt: "Muerte, morir" },
     definicion: "La muerte de una persona causada por otra, de forma intencionada o no.",
     sinonimos: ["muerte causada por otra persona"],
     ejemplo: { palabra: "el homicidio", texto: "La policía investigó el homicidio del barrio." },
