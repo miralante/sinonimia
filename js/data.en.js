@@ -196,7 +196,7 @@ DICCIONARIOS.en = [
   {
     id: "garnishment",
     palabra: "Garnishment",
-    imagen: { id: 36937, alt: "A judge's gavel" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Money or property is taken from you to pay a debt you did not pay.",
     sinonimos: ["seizure", "forced payment from wages"],
     ejemplo: { palabra: "garnishment", texto: "The court ordered the garnishment of his wages." },
@@ -755,7 +755,7 @@ DICCIONARIOS.en = [
   {
     id: "guardianship",
     palabra: "Guardianship",
-    imagen: { id: 36927, alt: "An adult takes care of a child" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person takes charge of a child or someone who cannot look after themselves. A judge names them.",
     sinonimos: ["legal care", "person in charge"],
     ejemplo: { palabra: "guardianship", texto: "The aunt asked for guardianship of her orphan nephew." },
@@ -765,7 +765,7 @@ DICCIONARIOS.en = [
   {
     id: "conservatorship",
     palabra: "Conservatorship",
-    imagen: { id: 36927, alt: "An adult takes care of a child" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person helps an adult who cannot decide for themselves. A judge names them.",
     sinonimos: ["legal help", "legal representative"],
     ejemplo: { palabra: "conservatorship", texto: "Her brother was placed under conservatorship after the stroke." },
@@ -785,7 +785,7 @@ DICCIONARIOS.en = [
   {
     id: "custody",
     palabra: "Custody",
-    imagen: { id: 36927, alt: "An adult takes care of a child" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The person a child lives with after a divorce. A judge decides it.",
     sinonimos: ["child's care", "person who cares for the child"],
     ejemplo: { palabra: "custody", texto: "The mother has custody of both children." },
@@ -1211,7 +1211,7 @@ DICCIONARIOS.en = [
   {
     id: "savings-account",
     palabra: "Savings account",
-    imagen: { id: 36403, alt: "A piggy bank with coins" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A bank account to keep money in. It pays you a little interest.",
     sinonimos: ["money saver", "saving account"],
     ejemplo: { palabra: "savings account", texto: "She keeps her savings in a savings account at the bank." },
@@ -2419,7 +2419,7 @@ DICCIONARIOS.en = [
   {
     id: "fraud",
     palabra: "Fraud",
-    imagen: { id: 4674, alt: "A thief or fraudster" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A trick to take your money. Someone says something false to take advantage of you.",
     sinonimos: ["scam"],
     ejemplo: { palabra: "fraud", texto: "He reported the fraud when he saw a strange charge on his card." },
@@ -2429,7 +2429,7 @@ DICCIONARIOS.en = [
   {
     id: "scam",
     palabra: "Scam",
-    imagen: { id: 4674, alt: "A scammer" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Someone tells you a false story so you give them your money or your data.",
     sinonimos: ["swindle"],
     ejemplo: { palabra: "scam", texto: "She was the victim of an online scam and lost her savings." },
@@ -4512,7 +4512,7 @@ DICCIONARIOS.en = [
   {
     id: "verdict",
     palabra: "Verdict",
-    imagen: { id: 36937, alt: "A judge gavel" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The final decision of the judge or jury on whether someone is guilty or innocent.",
     sinonimos: ["final decision"],
     ejemplo: { palabra: "verdict", texto: "The jury's verdict was guilty." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -5543,7 +5543,7 @@ DICCIONARIOS.en = [
   {
     id: "passbook",
     palabra: "Passbook",
-    imagen: { id: 4678, alt: "Bankbook, passbook" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A bank book where the money going in and out of your account is written down. Many banks no longer use it today.",
     sinonimos: ["savings book", "bank book"],
     ejemplo: { palabra: "passbook", texto: "He updated the passbook at the branch." },
@@ -5913,7 +5913,7 @@ DICCIONARIOS.en = [
   {
     id: "bike-helmet",
     palabra: "Bike helmet",
-    imagen: { id: 2691, alt: "A helmet for riding a bicycle" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A hard protection for the head worn when riding a bicycle. It prevents serious injury in a fall.",
     sinonimos: ["cycling helmet"],
     ejemplo: { palabra: "bike helmet", texto: "He put on the bike helmet before going out to cycle." },
@@ -6207,7 +6207,7 @@ DICCIONARIOS.en = [
   {
     id: "calendar",
     palabra: "Calendar",
-    imagen: { id: 3071, alt: "Calendar, yearbook, almanac" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A paper or an app that shows the days, weeks and months of the year. It helps you remember dates.",
     sinonimos: ["almanac"],
     ejemplo: { palabra: "calendar", texto: "She wrote the doctor's appointment on the calendar." },
@@ -7057,7 +7057,7 @@ DICCIONARIOS.en = [
   {
     id: "hard-hat",
     palabra: "Hard hat",
-    imagen: { id: 2691, alt: "A hard protective helmet" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A hard, coloured helmet that protects your head on a building site.",
     sinonimos: ["safety helmet"],
     ejemplo: { palabra: "hard hat", texto: "No one can enter the site without a hard hat." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 2402, alt: "Biscuits, cookies" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -8157,7 +8157,7 @@ DICCIONARIOS.en = [
   {
     id: "investment-fund",
     palabra: "Investment fund",
-    imagen: { id: 36403, alt: "Several coins together in a pile" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A product where several people put their money together to invest it all together.",
     sinonimos: ["mutual fund"],
     ejemplo: { palabra: "investment fund", texto: "She put part of her savings into an investment fund." },
@@ -8177,7 +8177,7 @@ DICCIONARIOS.en = [
   {
     id: "fixed-term-deposit",
     palabra: "Fixed-term deposit",
-    imagen: { id: 36403, alt: "A piggy bank next to a calendar" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A type of savings where you leave your money in the bank for a set time and get a little more back at the end.",
     sinonimos: ["term deposit"],
     ejemplo: { palabra: "fixed-term deposit", texto: "She put her savings into a one-year fixed-term deposit." },
@@ -8977,7 +8977,7 @@ DICCIONARIOS.en = [
   {
     id: "health-and-safety-training",
     palabra: "Health and safety training",
-    imagen: { id: 2691, alt: "A worker with a helmet and a vest" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The rules and steps that stop you getting hurt while you work.",
     sinonimos: ["workplace safety training"],
     ejemplo: { palabra: "health and safety training", texto: "The company gave health and safety training to all the new staff." },
@@ -10610,7 +10610,7 @@ DICCIONARIOS.en = [
   {
     id: "parental-authority",
     palabra: "Parental authority",
-    imagen: { id: 36927, alt: "An adult cares for a minor" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The legal right and duty of parents to care for and decide for their children.",
     sinonimos: ["legal authority of parents"],
     ejemplo: { palabra: "parental authority", texto: "Both parents share parental authority over their daughter." },
@@ -10700,7 +10700,7 @@ DICCIONARIOS.en = [
   {
     id: "de-facto-guardian",
     palabra: "De facto guardian",
-    imagen: { id: 36927, alt: "An adult cares for a minor" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Someone who cares for another person before a judge has decided it officially.",
     sinonimos: ["carer without an official court decision yet"],
     ejemplo: { palabra: "de facto guardian", texto: "Her sister acted as de facto guardian for their mother." },
@@ -11836,7 +11836,7 @@ DICCIONARIOS.en = [
   {
     id: "card-fraud",
     palabra: "Card fraud",
-    imagen: { id: 4674, alt: "A thief or scammer" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "When someone uses your bank card without your permission to buy things or take out money.",
     sinonimos: ["use of her card without permission"],
     ejemplo: { palabra: "card fraud", texto: "She found card fraud on her bank statement." },
@@ -12409,7 +12409,7 @@ DICCIONARIOS.en = [
   {
     id: "full-face-helmet",
     palabra: "Full-face helmet",
-    imagen: { id: 2691, alt: "A bicycle helmet" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A motorcycle helmet that covers your whole head and face, with a screen at the front.",
     sinonimos: ["helmet that covers the whole face"],
     ejemplo: { palabra: "full-face helmet", texto: "He put on the full-face helmet before getting on the motorbike." },
@@ -12907,7 +12907,7 @@ DICCIONARIOS.en = [
   {
     id: "encumbrances",
     palabra: "Encumbrances",
-    imagen: { id: 36937, alt: "A house with a padlock on the door" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Debts or commitments attached to a house, like a mortgage or a lien. They must be paid before selling.",
     sinonimos: ["house debts"],
     ejemplo: { palabra: "encumbrances", texto: "The land registry note said the home had no encumbrances." },
@@ -14186,7 +14186,7 @@ DICCIONARIOS.en = [
   {
     id: "asset",
     palabra: "Asset",
-    imagen: { id: 36403, alt: "A house and coins representing something valuable someone owns" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Something valuable that a person or company owns. It can be money, property, or an investment.",
     sinonimos: ["valuable possession"],
     ejemplo: { palabra: "asset", texto: "The house is her biggest asset." },
@@ -14946,7 +14946,7 @@ DICCIONARIOS.en = [
   {
     id: "warrant",
     palabra: "Warrant",
-    imagen: { id: 36937, alt: "A judge's gavel" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A document a judge signs that allows the police to arrest someone or search a place.",
     sinonimos: ["judicial order"],
     ejemplo: { palabra: "an arrest warrant", texto: "The police obtained an arrest warrant before entering the house." },
@@ -15216,7 +15216,7 @@ DICCIONARIOS.en = [
   {
     id: "forfeiture",
     palabra: "Forfeiture",
-    imagen: { id: 36937, alt: "A judge's gavel" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Losing property or money as a punishment for breaking a law. The government or a court can take it.",
     sinonimos: ["confiscation"],
     ejemplo: { palabra: "the forfeiture", texto: "The court ordered the forfeiture of the stolen goods." },
@@ -15696,7 +15696,7 @@ DICCIONARIOS.en = [
   {
     id: "ailment",
     palabra: "Ailment",
-    imagen: { id: 11252, alt: "Illness" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "An illness, usually not very serious.",
     sinonimos: ["minor illness"],
     ejemplo: { palabra: "ailment", texto: "He went to the doctor about a strange ailment." },
@@ -16006,7 +16006,7 @@ DICCIONARIOS.en = [
   {
     id: "astigmatic",
     palabra: "Astigmatic",
-    imagen: { id: 3329, alt: "A pair of glasses" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Having astigmatism, an eye condition that makes things look blurry or distorted.",
     sinonimos: ["astigmatism-affected"],
     ejemplo: { palabra: "astigmatic", texto: "His astigmatic eyes needed a special prescription." },
@@ -18086,7 +18086,7 @@ DICCIONARIOS.en = [
   {
     id: "gestation",
     palabra: "Gestation",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 11250, alt: "Pregnancy, gestation" },
     definicion: "The period of time during which a baby develops inside the womb before birth.",
     sinonimos: ["the period before birth"],
     ejemplo: { palabra: "gestation", texto: "Doctors monitor gestation closely during high-risk pregnancies." },
@@ -19346,7 +19346,7 @@ DICCIONARIOS.en = [
   {
     id: "myopia",
     palabra: "Myopia",
-    imagen: { id: 3329, alt: "Glasses" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A vision problem that makes distant objects look blurry, also called nearsightedness.",
     sinonimos: ["nearsightedness"],
     ejemplo: { palabra: "myopia", texto: "The optometrist diagnosed myopia and prescribed glasses." },
@@ -19466,7 +19466,7 @@ DICCIONARIOS.en = [
   {
     id: "nonprofit",
     palabra: "Nonprofit",
-    imagen: { id: 4570, alt: "Two hands helping each other" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "An organization that uses its money to help people or a cause, instead of making a profit for owners.",
     sinonimos: ["an organization that helps people instead of making profit"],
     ejemplo: { palabra: "a local nonprofit", texto: "She volunteers every weekend at a local nonprofit." },
@@ -20206,7 +20206,7 @@ DICCIONARIOS.en = [
   {
     id: "presbyopia",
     palabra: "Presbyopia",
-    imagen: { id: 3329, alt: "Glasses" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The gradual loss of the ability to focus on close objects that happens with age.",
     sinonimos: ["gradual loss of near vision with age"],
     ejemplo: { palabra: "presbyopia", texto: "Many people develop presbyopia after the age of forty." },
@@ -20806,7 +20806,7 @@ DICCIONARIOS.en = [
   {
     id: "safeguard",
     palabra: "Safeguard",
-    imagen: { id: 4570, alt: "Two hands helping each other" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "To protect someone or something from harm or danger.",
     sinonimos: ["protect from harm or danger"],
     ejemplo: { palabra: "safeguard the children", texto: "New rules were introduced to safeguard the children in the program." },
@@ -21876,7 +21876,7 @@ DICCIONARIOS.en = [
   {
     id: "vulnerable",
     palabra: "Vulnerable",
-    imagen: { id: 4570, alt: "Two hands helping each other" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Easily hurt, harmed, or affected due to weakness or lack of protection.",
     sinonimos: ["easily hurt due to a lack of protection"],
     ejemplo: { palabra: "vulnerable to abuse", texto: "The program supports older people who are vulnerable to abuse." },
