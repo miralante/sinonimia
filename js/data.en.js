@@ -164,7 +164,7 @@ DICCIONARIOS.en = [
   {
     id: "usufruct",
     palabra: "Usufruct",
-    imagen: { id: 2317, alt: "A house" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The right to use something and enjoy it. Even if it's not yours.",
     sinonimos: ["right to use"],
     ejemplo: { palabra: "usufruct", texto: "Grandma left her daughter the usufruct of the beach house." },
@@ -4723,7 +4723,7 @@ DICCIONARIOS.en = [
   {
     id: "appear-act",
     palabra: "Appear in person",
-    imagen: { id: 11291, alt: "A judge or a court" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Go in person to a place they told you to, usually an office or a court.",
     sinonimos: ["go in person"],
     ejemplo: { palabra: "appear in person", texto: "They told him to appear in person at the court on Thursday." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 2402, alt: "Biscuits, cookies" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -7657,7 +7657,7 @@ DICCIONARIOS.en = [
   {
     id: "location",
     palabra: "Location",
-    imagen: { id: 2317, alt: "A map with a red dot marking a place" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "The exact place where you are, which your phone can share with an app.",
     sinonimos: ["GPS position"],
     ejemplo: { palabra: "location", texto: "She shared her location with her daughter so she would know where she was." },
@@ -7747,7 +7747,7 @@ DICCIONARIOS.en = [
   {
     id: "smart-home",
     palabra: "Smart home",
-    imagen: { id: 2317, alt: "A house" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Home devices that you control from your phone, like the lights or the heating.",
     sinonimos: ["home automation"],
     ejemplo: { palabra: "smart home", texto: "With his smart home he could turn the lights on from his phone." },
@@ -8347,7 +8347,7 @@ DICCIONARIOS.en = [
   {
     id: "marital-property",
     palabra: "Marital property",
-    imagen: { id: 2317, alt: "A house with two people standing in front of it" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The money and things a married couple buy together, which belong to both of them.",
     sinonimos: ["joint marital assets"],
     ejemplo: { palabra: "marital property", texto: "The house was part of the couple's marital property." },
@@ -10509,7 +10509,7 @@ DICCIONARIOS.en = [
   {
     id: "digital-footprint",
     palabra: "Digital footprint",
-    imagen: { id: 2317, alt: "A map with a red dot marking a place" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "The trace you leave online every time you search, post, or buy something.",
     sinonimos: ["trace you leave online"],
     ejemplo: { palabra: "digital footprint", texto: "He thought about his digital footprint before posting the photo." },
@@ -11766,7 +11766,7 @@ DICCIONARIOS.en = [
   {
     id: "mortgage-spread",
     palabra: "Mortgage spread",
-    imagen: { id: 2317, alt: "A small house with coins next to it" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "The fixed part the bank adds to the Euribor to work out a mortgage's interest.",
     sinonimos: ["fixed part the bank adds to a mortgage"],
     ejemplo: { palabra: "mortgage spread", texto: "He negotiated a lower mortgage spread with the bank." },
@@ -11776,7 +11776,7 @@ DICCIONARIOS.en = [
   {
     id: "fixed-rate-mortgage",
     palabra: "Fixed-rate mortgage",
-    imagen: { id: 2317, alt: "A small house with coins next to it" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A mortgage where the payment is always the same, every month, until the end.",
     sinonimos: ["mortgage with the same payment always"],
     ejemplo: { palabra: "fixed-rate mortgage", texto: "She chose a fixed-rate mortgage to avoid surprises." },
@@ -11786,7 +11786,7 @@ DICCIONARIOS.en = [
   {
     id: "variable-rate-mortgage",
     palabra: "Variable-rate mortgage",
-    imagen: { id: 2317, alt: "A small house with coins next to it" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A mortgage where the payment goes up or down as Euribor changes.",
     sinonimos: ["mortgage with a payment that goes up or down"],
     ejemplo: { palabra: "variable-rate mortgage", texto: "His variable-rate mortgage went up this year." },
@@ -15966,7 +15966,7 @@ DICCIONARIOS.en = [
   {
     id: "assessor",
     palabra: "Assessor",
-    imagen: { id: 2317, alt: "A person inspects a house with a clipboard" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A person whose job is to officially decide the value or amount of something, like a property or a tax.",
     sinonimos: ["official value estimator"],
     ejemplo: { palabra: "tax assessor", texto: "The tax assessor visited the property last week." },
