@@ -376,7 +376,7 @@ DICCIONARIOS.en = [
   {
     id: "criminal-liability",
     palabra: "Criminal liability",
-    imagen: { id: 4588, alt: "A prison building" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Having to answer to the law for committing a crime.",
     sinonimos: ["answering to the law", "criminal guilt"],
     ejemplo: { palabra: "criminal liability", texto: "You can face criminal liability if you steal something from a shop." },
@@ -967,7 +967,7 @@ DICCIONARIOS.en = [
   {
     id: "homeowners-association",
     palabra: "Homeowners association",
-    imagen: { id: 6241, alt: "Two neighbours greet each other from the window" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "The group of all owners in a building. They meet to decide things about the building.",
     sinonimos: ["neighbours' meeting", "owners' group"],
     ejemplo: { palabra: "homeowners association", texto: "The homeowners association voted to fix the front of the building." },
@@ -3908,7 +3908,7 @@ DICCIONARIOS.en = [
   {
     id: "outgoing-record",
     palabra: "Outgoing record",
-    imagen: { id: 8687, alt: "An emergency exit" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A paper that writes down what the office sends out. The opposite of an incoming record.",
     sinonimos: ["outgoing notice"],
     ejemplo: { palabra: "outgoing record", texto: "The registry keeps track of the outgoing record of every document." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -5543,7 +5543,7 @@ DICCIONARIOS.en = [
   {
     id: "passbook",
     palabra: "Passbook",
-    imagen: { id: 4678, alt: "A book with bank account entries" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A bank book where the money going in and out of your account is written down. Many banks no longer use it today.",
     sinonimos: ["savings book", "bank book"],
     ejemplo: { palabra: "passbook", texto: "He updated the passbook at the branch." },
@@ -5625,7 +5625,7 @@ DICCIONARIOS.en = [
   {
     id: "barcode",
     palabra: "Barcode",
-    imagen: { id: 10320, alt: "A barcode with lines" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A pattern of lines that a machine reads to identify a product or a document. It is found on labels and invoices.",
     sinonimos: ["scan lines"],
     ejemplo: { palabra: "barcode", texto: "The cashier scanned the barcode with the reader." },
@@ -6207,7 +6207,7 @@ DICCIONARIOS.en = [
   {
     id: "calendar",
     palabra: "Calendar",
-    imagen: { id: 3071, alt: "Calendar, yearbook, almanac" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A paper or an app that shows the days, weeks and months of the year. It helps you remember dates.",
     sinonimos: ["almanac"],
     ejemplo: { palabra: "calendar", texto: "She wrote the doctor's appointment on the calendar." },
@@ -7147,7 +7147,7 @@ DICCIONARIOS.en = [
   {
     id: "emergency-services",
     palabra: "Emergency services",
-    imagen: { id: 8687, alt: "A person in a rescue vest helping someone" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "The public service that helps people when there is a big danger, like a flood.",
     sinonimos: ["rescue services"],
     ejemplo: { palabra: "emergency services", texto: "The emergency services helped families leave their homes because of the flood." },
@@ -7167,7 +7167,7 @@ DICCIONARIOS.en = [
   {
     id: "emergency",
     palabra: "Emergency",
-    imagen: { id: 8687, alt: "An ambulance with its lights on" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A serious problem that happens suddenly and needs help fast.",
     sinonimos: ["urgent situation"],
     ejemplo: { palabra: "emergency", texto: "She called 999 because it was an emergency." },
@@ -7257,7 +7257,7 @@ DICCIONARIOS.en = [
   {
     id: "panic-bar-door",
     palabra: "Panic bar door",
-    imagen: { id: 8687, alt: "A green emergency exit door with a horizontal bar" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "An exit door with a bar across it. It opens just by pushing, without using a handle or a key.",
     sinonimos: ["push-bar door"],
     ejemplo: { palabra: "panic bar door", texto: "He pushed the bar of the panic bar door to get out quickly." },
@@ -7277,7 +7277,7 @@ DICCIONARIOS.en = [
   {
     id: "neighbourhood-watch",
     palabra: "Neighbourhood watch",
-    imagen: { id: 6241, alt: "Several neighbours talking together at a building entrance" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "When neighbours in an area warn each other if they see something strange or dangerous.",
     sinonimos: ["community watch"],
     ejemplo: { palabra: "neighbourhood watch", texto: "The street set up a neighbourhood watch after several burglaries." },
@@ -7387,7 +7387,7 @@ DICCIONARIOS.en = [
   {
     id: "emergency-number",
     palabra: "Emergency number",
-    imagen: { id: 8687, alt: "A hand dialling a phone number" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "The telephone number you call when something serious happens and you need help fast.",
     sinonimos: ["999"],
     ejemplo: { palabra: "emergency number", texto: "He dialled the emergency number when he saw the accident." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 2402, alt: "Biscuits, cookies" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -8037,7 +8037,7 @@ DICCIONARIOS.en = [
   {
     id: "joint-account",
     palabra: "Joint account",
-    imagen: { id: 4678, alt: "A bank passbook" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A bank account shared by two people. Both of them can put in and take out money.",
     sinonimos: ["shared account"],
     ejemplo: { palabra: "joint account", texto: "They opened a joint account when they got married." },
@@ -8087,7 +8087,7 @@ DICCIONARIOS.en = [
   {
     id: "frozen-account",
     palabra: "Frozen account",
-    imagen: { id: 4678, alt: "A bank passbook with a padlock" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A bank account you cannot use for a while. You cannot take out or put in money.",
     sinonimos: ["blocked account"],
     ejemplo: { palabra: "frozen account", texto: "Her frozen account would not let her take out money at the cash machine." },
@@ -8117,7 +8117,7 @@ DICCIONARIOS.en = [
   {
     id: "excess",
     palabra: "Excess",
-    imagen: { id: 4775, alt: "Two hands sharing coins" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "The part of a cost you pay yourself, before the insurance starts paying the rest.",
     sinonimos: ["deductible"],
     ejemplo: { palabra: "excess", texto: "He had to pay the excess on his insurance before the car was repaired." },
@@ -8227,7 +8227,7 @@ DICCIONARIOS.en = [
   {
     id: "interest-bearing-account",
     palabra: "Interest-bearing account",
-    imagen: { id: 4678, alt: "A bank passbook with extra coins" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A bank account that gives you a little extra money just for keeping your savings there.",
     sinonimos: ["savings account with interest"],
     ejemplo: { palabra: "interest-bearing account", texto: "He moved his savings into an interest-bearing account." },
@@ -8257,7 +8257,7 @@ DICCIONARIOS.en = [
   {
     id: "payroll-account",
     palabra: "Payroll account",
-    imagen: { id: 4678, alt: "A bank passbook with banknotes going in" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A bank account made for receiving your salary every month, which often has lower fees.",
     sinonimos: ["salary account"],
     ejemplo: { palabra: "payroll account", texto: "She opened a payroll account at her company's bank." },
@@ -9047,7 +9047,7 @@ DICCIONARIOS.en = [
   {
     id: "salary-supplement",
     palabra: "Salary supplement",
-    imagen: { id: 4775, alt: "Extra coins next to some banknotes" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Extra money added to your normal wage, for example for danger or for travel.",
     sinonimos: ["pay supplement"],
     ejemplo: { palabra: "salary supplement", texto: "He received a salary supplement for working in a dangerous place." },
@@ -10550,7 +10550,7 @@ DICCIONARIOS.en = [
   {
     id: "pretrial-detention",
     palabra: "Pre-trial detention",
-    imagen: { id: 4588, alt: "A jail" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Being kept in jail before the trial, while the case is investigated.",
     sinonimos: ["jail before the trial"],
     ejemplo: { palabra: "pre-trial detention", texto: "The judge ordered pre-trial detention while the case was investigated." },
@@ -11565,7 +11565,7 @@ DICCIONARIOS.en = [
   {
     id: "community-bylaws",
     palabra: "Community bylaws",
-    imagen: { id: 6241, alt: "Two neighbours wave to each other from the window" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "The written rules that every neighbour in a building must follow.",
     sinonimos: ["written rules for neighbours"],
     ejemplo: { palabra: "community bylaws", texto: "The community bylaws did not allow pets in the pool." },
@@ -12995,7 +12995,7 @@ DICCIONARIOS.en = [
   {
     id: "easement",
     palabra: "Easement",
-    imagen: { id: 6241, alt: "A passage between two houses with a door" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "A right that one property has to cross another, like a path or a pipe that goes through it.",
     sinonimos: ["right of way"],
     ejemplo: { palabra: "easement", texto: "The easement lets you enter through the neighbour's path." },
@@ -13006,7 +13006,7 @@ DICCIONARIOS.en = [
   {
     id: "condominium",
     palabra: "Condominium",
-    imagen: { id: 6241, alt: "A building with several flats and a front door" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "The legal way a building is shared between several owners. Each one owns their own flat.",
     sinonimos: ["shared-ownership building"],
     ejemplo: { palabra: "condominium", texto: "The building has been a condominium since it was built." },
@@ -13276,7 +13276,7 @@ DICCIONARIOS.en = [
   {
     id: "rebate",
     palabra: "Rebate",
-    imagen: { id: 4775, alt: "A hand receiving money back after a purchase" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Money paid back to you after a purchase. You get part of what you spent.",
     sinonimos: ["money-back offer"],
     ejemplo: { palabra: "rebate", texto: "She got a rebate after buying the washing machine." },
@@ -13336,7 +13336,7 @@ DICCIONARIOS.en = [
   {
     id: "stipend",
     palabra: "Stipend",
-    imagen: { id: 4775, alt: "A hand receiving a small amount of money" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A fixed amount of money paid regularly for training or study. It is often lower than a normal salary.",
     sinonimos: ["training allowance"],
     ejemplo: { palabra: "stipend", texto: "The intern receives a monthly stipend." },
@@ -14476,7 +14476,7 @@ DICCIONARIOS.en = [
   {
     id: "fiduciary",
     palabra: "Fiduciary",
-    imagen: { id: 4775, alt: "A bank manager looking after someone else's money" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person or company legally trusted to manage someone else's money. They must act in that person's best interest.",
     sinonimos: ["trusted money manager"],
     ejemplo: { palabra: "fiduciary", texto: "The bank acted as a fiduciary for the trust fund." },
@@ -15276,7 +15276,7 @@ DICCIONARIOS.en = [
   {
     id: "absentee",
     palabra: "Absentee",
-    imagen: { id: 6631, alt: "A person puts a voting ballot into an envelope" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A person who is not present, like someone who votes by mail instead of going in person.",
     sinonimos: ["non-present voter", "mail-in voter"],
     ejemplo: { palabra: "absentee", texto: "He voted by absentee ballot before moving abroad." },
@@ -15576,7 +15576,7 @@ DICCIONARIOS.en = [
   {
     id: "abstention",
     palabra: "Abstention",
-    imagen: { id: 6631, alt: "A hand puts a ballot into a voting box" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Choosing not to vote, either for or against.",
     sinonimos: ["not voting", "declining to vote"],
     ejemplo: { palabra: "abstention", texto: "His abstention meant the vote had no clear winner." },
@@ -16346,7 +16346,7 @@ DICCIONARIOS.en = [
   {
     id: "canvassing",
     palabra: "Canvassing",
-    imagen: { id: 6631, alt: "A person knocks on doors in a neighborhood" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Going around asking people for their votes or opinions, especially before an election.",
     sinonimos: ["asking for votes in"],
     ejemplo: { palabra: "canvassing", texto: "Volunteers spent the weekend canvassing the neighborhood." },
@@ -18086,7 +18086,7 @@ DICCIONARIOS.en = [
   {
     id: "gestation",
     palabra: "Gestation",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 11250, alt: "Pregnancy, gestation" },
     definicion: "The period of time during which a baby develops inside the womb before birth.",
     sinonimos: ["the period before birth"],
     ejemplo: { palabra: "gestation", texto: "Doctors monitor gestation closely during high-risk pregnancies." },
@@ -19786,7 +19786,7 @@ DICCIONARIOS.en = [
   {
     id: "parolee",
     palabra: "Parolee",
-    imagen: { id: 4588, alt: "A prison" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who has been released from prison early under certain conditions.",
     sinonimos: ["a person released from prison under conditions"],
     ejemplo: { palabra: "a parolee", texto: "As a parolee, he was required to meet his officer weekly." },
@@ -20046,7 +20046,7 @@ DICCIONARIOS.en = [
   {
     id: "plebiscite",
     palabra: "Plebiscite",
-    imagen: { id: 6631, alt: "A ballot box" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A vote by the whole population on a single important political question.",
     sinonimos: ["a vote by the whole population on one question"],
     ejemplo: { palabra: "a plebiscite", texto: "The government called a plebiscite to decide the new law." },
@@ -20466,7 +20466,7 @@ DICCIONARIOS.en = [
   {
     id: "recidivism",
     palabra: "Recidivism",
-    imagen: { id: 4588, alt: "A prison" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The tendency of a person who has committed a crime to commit another crime after being punished.",
     sinonimos: ["reoffending after being punished"],
     ejemplo: { palabra: "recidivism", texto: "The program was designed to reduce recidivism among former inmates." },
@@ -20566,7 +20566,7 @@ DICCIONARIOS.en = [
   {
     id: "remand",
     palabra: "Remand",
-    imagen: { id: 4588, alt: "Police handcuffs" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To send an accused person to prison or custody until their trial.",
     sinonimos: ["send an accused person to custody until trial"],
     ejemplo: { palabra: "remand him", texto: "The judge decided to remand him until the trial." },
