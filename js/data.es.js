@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 34814, alt: "Préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2279,7 +2279,7 @@ DICCIONARIOS.es = [
   {
     id: "sospechoso",
     palabra: "Sospechoso",
-    imagen: { id: 15984, alt: "Una persona bajo sospecha" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona que la policía cree que pudo hacer algo malo, pero todavía no se ha demostrado.",
     sinonimos: ["persona bajo sospecha"],
     ejemplo: { palabra: "sospechoso", texto: "La policía detuvo al sospechoso esta mañana." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 36403, alt: "Ahorro" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 35413, alt: "Notario" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -4842,7 +4842,7 @@ DICCIONARIOS.es = [
   {
     id: "plazo-caducidad",
     palabra: "Plazo de caducidad",
-    imagen: { id: 15503, alt: "Una caducidad" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El día final en que puedes usar un papel o pedir un trámite. Pasado el día, ya no vale.",
     sinonimos: ["fecha final para pedir"],
     ejemplo: { palabra: "plazo de caducidad", texto: "El plazo de caducidad de la solicitud es el 31 de octubre." },
@@ -12449,7 +12449,7 @@ DICCIONARIOS.es = [
   {
     id: "rueda-de-reconocimiento",
     palabra: "Rueda de reconocimiento",
-    imagen: { id: 15984, alt: "Una persona bajo sospecha" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Cuando la policía pone a varias personas juntas para que un testigo señale quién cometió el delito.",
     sinonimos: ["fila de personas para identificar al culpable"],
     ejemplo: { palabra: "rueda de reconocimiento", texto: "El testigo participó en una rueda de reconocimiento en comisaría." },
@@ -13362,7 +13362,7 @@ DICCIONARIOS.es = [
   {
     id: "carga-de-trabajo",
     palabra: "Carga de trabajo",
-    imagen: { id: 16169, alt: "Una persona rodeada de muchos papeles y carpetas" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "La cantidad de trabajo que tiene una persona. Una carga de trabajo alta puede ser difícil de manejar.",
     sinonimos: ["volumen de trabajo"],
     ejemplo: { palabra: "carga de trabajo", texto: "Su carga de trabajo se duplicó cuando empezó el proyecto nuevo." },
@@ -14602,7 +14602,7 @@ DICCIONARIOS.es = [
   {
     id: "declaracion-extrajudicial",
     palabra: "Declaración extrajudicial",
-    imagen: { id: 12339, alt: "Un testigo dando una declaración escrita a un abogado" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una declaración oficial que da un testigo fuera del tribunal, antes del juicio. Se escribe y se puede usar más tarde.",
     sinonimos: ["declaración fuera del tribunal"],
     ejemplo: { palabra: "declaración extrajudicial", texto: "El abogado tomó su declaración extrajudicial antes del juicio." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 8483, alt: "Frontera, aduana" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
@@ -16392,7 +16392,7 @@ DICCIONARIOS.es = [
   {
     id: "burocracia",
     palabra: "Burocracia",
-    imagen: { id: 16169, alt: "Una pila de documentos en una oficina" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El conjunto de trámites y normas que hay que seguir en la administración pública, muchas veces lentos y complicados.",
     sinonimos: ["trámites administrativos"],
     ejemplo: { palabra: "mucha burocracia", texto: "Tuvo que lidiar con mucha burocracia para conseguir el permiso." },
@@ -18482,7 +18482,7 @@ DICCIONARIOS.es = [
   {
     id: "mendicidad",
     palabra: "Mendicidad",
-    imagen: { id: 15519, alt: "Una persona triste pidiendo dinero" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "La situación de pedir dinero o comida en la calle para poder sobrevivir.",
     sinonimos: ["pedir dinero o comida en la calle"],
     ejemplo: { palabra: "la mendicidad", texto: "El ayuntamiento puso en marcha un plan contra la mendicidad." },
@@ -19442,7 +19442,7 @@ DICCIONARIOS.es = [
   {
     id: "sinhogarismo",
     palabra: "Sinhogarismo",
-    imagen: { id: 15519, alt: "Una persona triste pidiendo dinero" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "La situación de las personas que no tienen una vivienda donde vivir.",
     sinonimos: ["situación de no tener vivienda"],
     ejemplo: { palabra: "el sinhogarismo", texto: "El ayuntamiento puso en marcha un plan contra el sinhogarismo." },
