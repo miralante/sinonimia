@@ -527,7 +527,7 @@ DICCIONARIOS.en = [
   {
     id: "tax",
     palabra: "Tax",
-    imagen: { id: 35449, alt: "A tax document from the treasury with an amount to pay" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Money you pay to the government. It pays for schools, roads and hospitals.",
     sinonimos: ["government fee", "income levy"],
     ejemplo: { palabra: "tax", texto: "Every year she files her income tax online." },
@@ -977,7 +977,7 @@ DICCIONARIOS.en = [
   {
     id: "transfer-tax",
     palabra: "Transfer tax",
-    imagen: { id: 35449, alt: "A treasury document with an amount to pay" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Tax you pay when you buy a second-hand home. The local government collects it.",
     sinonimos: ["sales tax on homes", "tax for buying a used home"],
     ejemplo: { palabra: "transfer tax", texto: "He paid the transfer tax when he signed the deeds." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 2402, alt: "Biscuits, cookies" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -19036,7 +19036,7 @@ DICCIONARIOS.en = [
   {
     id: "malingering",
     palabra: "Malingering",
-    imagen: { id: 2467, alt: "A doctor" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Pretending to be sick or injured in order to avoid work or responsibility.",
     sinonimos: ["pretending to be sick to avoid work"],
     ejemplo: { palabra: "malingering", texto: "His manager suspected him of malingering during the busiest week." },
