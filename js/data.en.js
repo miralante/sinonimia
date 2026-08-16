@@ -134,7 +134,7 @@ DICCIONARIOS.en = [
   {
     id: "chronic",
     palabra: "Chronic",
-    imagen: { id: 11252, alt: "A sick person with medicines" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "It lasts a long time. It does not go away quickly.",
     sinonimos: ["long-term"],
     ejemplo: { palabra: "chronic", texto: "Diabetes is a chronic illness you must manage every day." },
@@ -276,7 +276,7 @@ DICCIONARIOS.en = [
   {
     id: "payslip",
     palabra: "Payslip",
-    imagen: { id: 15986, alt: "A hand receives a bank note" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A paper that says how much money you earn each month at work.",
     sinonimos: ["pay stub"],
     ejemplo: { palabra: "payslip", texto: "You can see your payslip in the company email." },
@@ -366,7 +366,7 @@ DICCIONARIOS.en = [
   {
     id: "civil-liability",
     palabra: "Civil liability",
-    imagen: { id: 16029, alt: "Car insurance paper with the owner's signature" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Having to pay for harm you caused to someone else.",
     sinonimos: ["paying for the harm caused"],
     ejemplo: { palabra: "civil liability", texto: "The insurance covers civil liability if you crash the car." },
@@ -815,7 +815,7 @@ DICCIONARIOS.en = [
   {
     id: "police-report",
     palabra: "Police report",
-    imagen: { id: 14006, alt: "A hand presents a signed paper" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To tell the police in writing about a crime or a problem that happened to you.",
     sinonimos: ["report to the police", "tell the police in writing"],
     ejemplo: { palabra: "police report", texto: "She filed a police report after the break-in." },
@@ -1393,7 +1393,7 @@ DICCIONARIOS.en = [
   {
     id: "archive-store",
     palabra: "Archive",
-    imagen: { id: 16078, alt: "A general archive" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A place where old papers are kept. Also the set of papers that are kept.",
     sinonimos: ["paper store", "document store"],
     ejemplo: { palabra: "archive", texto: "He asked for his record at the council archive." },
@@ -1986,7 +1986,7 @@ DICCIONARIOS.en = [
   {
     id: "chronic-illness",
     palabra: "Chronic illness",
-    imagen: { id: 11252, alt: "A sick person with medicines" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "An illness you cannot fully cure and need to look after for life.",
     sinonimos: ["lifelong illness"],
     ejemplo: { palabra: "chronic", texto: "Diabetes is a chronic illness you have to control every day." },
@@ -2137,7 +2137,7 @@ DICCIONARIOS.en = [
   {
     id: "criminal-record",
     palabra: "Criminal record",
-    imagen: { id: 16078, alt: "A criminal record file" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The list of crimes a person has committed before. The state keeps it.",
     sinonimos: ["police record"],
     ejemplo: { palabra: "criminal record", texto: "She asked for a criminal record certificate for her new job." },
@@ -4562,7 +4562,7 @@ DICCIONARIOS.en = [
   {
     id: "criminal-complaint",
     palabra: "Criminal complaint",
-    imagen: { id: 14006, alt: "A criminal complaint" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A complaint one person makes against another in court. It asks for a crime to be punished.",
     sinonimos: ["court complaint"],
     ejemplo: { palabra: "criminal complaint", texto: "He filed a criminal complaint against his neighbour for threats." },
@@ -6835,7 +6835,7 @@ DICCIONARIOS.en = [
   {
     id: "short-circuit",
     palabra: "Short circuit",
-    imagen: { id: 8656, alt: "A yellow warning sign with a lightning bolt, for electrical danger" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A fault in a cable that sends electricity the wrong way. It can cause sparks or a fire.",
     sinonimos: ["electrical fault"],
     ejemplo: { palabra: "short circuit", texto: "A short circuit cut off the power in the whole flat." },
@@ -7997,7 +7997,7 @@ DICCIONARIOS.en = [
   {
     id: "tag-someone",
     palabra: "Tag someone",
-    imagen: { id: 9920, alt: "A photo with a name written on it" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "To put a person's name on a photo or video on social media.",
     sinonimos: ["tag a friend"],
     ejemplo: { palabra: "tagged", texto: "She tagged her sister in the wedding photo." },
@@ -8857,7 +8857,7 @@ DICCIONARIOS.en = [
   {
     id: "energy-performance-certificate",
     palabra: "Energy performance certificate",
-    imagen: { id: 9920, alt: "A coloured label with letters from A to G" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "A document that says how much energy a house uses. You need it to sell or rent it.",
     sinonimos: ["EPC"],
     ejemplo: { palabra: "energy performance certificate", texto: "He got the energy performance certificate before renting out the flat." },
@@ -10580,7 +10580,7 @@ DICCIONARIOS.en = [
   {
     id: "disinherit",
     palabra: "Disinherit",
-    imagen: { id: 11700, alt: "A house key passing from one hand to another" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To leave someone out of a will for a reason the law allows.",
     sinonimos: ["remove someone's right to inherit"],
     ejemplo: { palabra: "disinherit", texto: "The father decided to disinherit one of his children." },
@@ -10751,7 +10751,7 @@ DICCIONARIOS.en = [
   {
     id: "circuit-breaker",
     palabra: "Circuit breaker",
-    imagen: { id: 8656, alt: "An electrical danger sign" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A device that cuts the power to the whole house if it detects a dangerous fault.",
     sinonimos: ["electrical safety switch"],
     ejemplo: { palabra: "circuit breaker", texto: "The circuit breaker tripped and the whole house lost power." },
@@ -11012,7 +11012,7 @@ DICCIONARIOS.en = [
   {
     id: "pre-registration",
     palabra: "Pre-registration",
-    imagen: { id: 9901, alt: "A person registers" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Signing up for something first, like a school, before the place is fully confirmed.",
     sinonimos: ["signing up before it is confirmed"],
     ejemplo: { palabra: "pre-registration", texto: "She did the pre-registration for her daughter's school in March." },
@@ -11133,7 +11133,7 @@ DICCIONARIOS.en = [
   {
     id: "register-for-social-security",
     palabra: "Register for social security",
-    imagen: { id: 9901, alt: "A person registers" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Signing up as a worker with social security when you start a job.",
     sinonimos: ["sign up as a worker"],
     ejemplo: { palabra: "register for social security", texto: "The company did his register for social security on the first day." },
@@ -11233,7 +11233,7 @@ DICCIONARIOS.en = [
   {
     id: "self-employment-registration",
     palabra: "Self-employment registration",
-    imagen: { id: 9901, alt: "A person registers" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Registering as self-employed so you can start working for yourself.",
     sinonimos: ["registering as a self-employed worker"],
     ejemplo: { palabra: "self-employment registration", texto: "She did her self-employment registration before opening her shop." },
@@ -11354,7 +11354,7 @@ DICCIONARIOS.en = [
   {
     id: "designation-of-origin",
     palabra: "Designation of origin",
-    imagen: { id: 9920, alt: "A price tag" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A seal that says a product comes from a specific place and was made in a special way.",
     sinonimos: ["seal of the place of origin"],
     ejemplo: { palabra: "designation of origin", texto: "She bought a cheese with a designation of origin." },
@@ -11585,7 +11585,7 @@ DICCIONARIOS.en = [
   {
     id: "electrical-certificate",
     palabra: "Electrical certificate",
-    imagen: { id: 8656, alt: "An electrical danger sign" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "A paper from an electrician that says a home's wiring is safe.",
     sinonimos: ["certificate for a home's wiring"],
     ejemplo: { palabra: "electrical certificate", texto: "She needed the electrical certificate to connect the power." },
@@ -12580,7 +12580,7 @@ DICCIONARIOS.en = [
   {
     id: "whistleblower-channel",
     palabra: "Whistleblower channel",
-    imagen: { id: 14006, alt: "A report" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A safe way to report wrongdoing inside a company or a public body, without giving your name.",
     sinonimos: ["safe way to report wrongdoing"],
     ejemplo: { palabra: "whistleblower channel", texto: "She used the whistleblower channel to report the fraud." },
@@ -12742,7 +12742,7 @@ DICCIONARIOS.en = [
   {
     id: "occupational-disease",
     palabra: "Occupational disease",
-    imagen: { id: 11252, alt: "A person with back pain from work" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "An illness that comes from doing your job for a long time. Social Security recognises it.",
     sinonimos: ["work-related illness"],
     ejemplo: { palabra: "occupational disease", texto: "Back pain is an occupational disease for people who lift heavy loads." },
@@ -12929,7 +12929,7 @@ DICCIONARIOS.en = [
   {
     id: "receipt-of-payment",
     palabra: "Receipt of payment",
-    imagen: { id: 15986, alt: "A signed paper that confirms a payment was received" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A paper that confirms you have been paid. The person who gets the money signs it.",
     sinonimos: ["official payment receipt"],
     ejemplo: { palabra: "receipt of payment", texto: "The seller signed the receipt of payment on receiving the money for the house." },
@@ -13072,7 +13072,7 @@ DICCIONARIOS.en = [
   {
     id: "contract-novation",
     palabra: "Contract novation",
-    imagen: { id: 15986, alt: "A paper with changes marked on a contract" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Changing the conditions of a signed contract. Both sides must agree.",
     sinonimos: ["changing the contract terms"],
     ejemplo: { palabra: "contract novation", texto: "They asked for a contract novation of the loan to lower the monthly payment." },
@@ -13456,7 +13456,7 @@ DICCIONARIOS.en = [
   {
     id: "smuggling",
     palabra: "Smuggling",
-    imagen: { id: 8483, alt: "Hidden boxes being checked at a border" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Moving goods or people illegally, often across a border. It is done secretly to avoid the law.",
     sinonimos: ["illegal transport"],
     ejemplo: { palabra: "smuggling", texto: "Customs officers stopped the smuggling at the border." },
@@ -13916,7 +13916,7 @@ DICCIONARIOS.en = [
   {
     id: "semester",
     palabra: "Semester",
-    imagen: { id: 15537, alt: "A calendar split into two halves of a school year" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "Half of a school or university year. Most years have two semesters.",
     sinonimos: ["half-year term"],
     ejemplo: { palabra: "semester", texto: "She passed all her subjects this semester." },
@@ -13946,7 +13946,7 @@ DICCIONARIOS.en = [
   {
     id: "degree",
     palabra: "Degree",
-    imagen: { id: 15537, alt: "A graduate holding a rolled-up degree certificate" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "A qualification you get after finishing university studies. It shows what subject you studied.",
     sinonimos: ["university qualification"],
     ejemplo: { palabra: "degree", texto: "He has a degree in engineering." },
@@ -14016,7 +14016,7 @@ DICCIONARIOS.en = [
   {
     id: "faculty",
     palabra: "Faculty",
-    imagen: { id: 15537, alt: "A university building with a department sign" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "A department of a university that teaches one subject area. For example, the Faculty of Medicine.",
     sinonimos: ["university department"],
     ejemplo: { palabra: "faculty", texto: "The faculty organised a welcome event for new students." },
@@ -15106,7 +15106,7 @@ DICCIONARIOS.en = [
   {
     id: "deportation",
     palabra: "Deportation",
-    imagen: { id: 8483, alt: "A border checkpoint with an officer and a barrier" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Being forced to leave a country and sent back to your own country. It is ordered by the government.",
     sinonimos: ["expulsion from the country"],
     ejemplo: { palabra: "deportation", texto: "He received an order for deportation after his visa expired." },
