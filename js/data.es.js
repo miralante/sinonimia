@@ -470,7 +470,7 @@ DICCIONARIOS.es = [
   {
     id: "domiciliar",
     palabra: "Domiciliar",
-    imagen: { id: 16909, alt: "Dinero que se transfiere de un banco a otro" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Hacer que el banco pague algo cada mes sin que tengas que hacer nada.",
     sinonimos: ["automatizar el pago", "poner en pago automático"],
     ejemplo: { palabra: "domiciliar", texto: "Puedes domiciliar la factura de la luz." },
@@ -747,7 +747,7 @@ DICCIONARIOS.es = [
   {
     id: "poder-notarial",
     palabra: "Poder notarial",
-    imagen: { id: 35413, alt: "Un notario junto a unos documentos firmados" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Papel legal. Da permiso a otra persona para hacer trámites por ti.",
     sinonimos: ["autorización legal", "autorización ante notario"],
     ejemplo: { palabra: "poder notarial", texto: "Firmó un poder notarial para que su hija hiciera las gestiones del banco." },
@@ -1106,7 +1106,7 @@ DICCIONARIOS.es = [
   {
     id: "apelacion",
     palabra: "Apelación",
-    imagen: { id: 16103, alt: "Un juez firma una resolución" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Pedir a otro juez que revise una sentencia que no te parece justa.",
     sinonimos: ["recurso", "pedir otra revisión del caso"],
     ejemplo: { palabra: "apelación", texto: "Presentó una apelación contra la sentencia." },
@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 34814, alt: "Préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -1474,7 +1474,7 @@ DICCIONARIOS.es = [
   {
     id: "transferencia",
     palabra: "Transferencia",
-    imagen: { id: 16909, alt: "Dinero que se transfiere de un banco a otro" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Mover dinero de una cuenta a otra. Lo hace el banco en pocos minutos.",
     sinonimos: ["envío de dinero", "traspaso de dinero"],
     ejemplo: { palabra: "transferencia", texto: "Hizo una transferencia al casero desde su cuenta." },
@@ -1669,7 +1669,7 @@ DICCIONARIOS.es = [
   {
     id: "acuse-recibo",
     palabra: "Acuse de recibo",
-    imagen: { id: 27677, alt: "Un acuse de recibo" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un papel pequeño. Dice que la otra persona ha recibido tu carta.",
     sinonimos: ["recibo de entrega", "papel de recibido"],
     ejemplo: { palabra: "acuse de recibo", texto: "Le dieron un acuse de recibo al entregar la solicitud." },
@@ -1691,7 +1691,7 @@ DICCIONARIOS.es = [
   {
     id: "certificado-empadronamiento",
     palabra: "Certificado de empadronamiento",
-    imagen: { id: 27677, alt: "Un certificado de empadronamiento" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un papel del ayuntamiento. Dice en qué dirección vives ahora mismo.",
     sinonimos: ["papel del padrón", "papel de empadronamiento"],
     ejemplo: { palabra: "certificado de empadronamiento", texto: "Pidió el certificado de empadronamiento en el ayuntamiento." },
@@ -1939,7 +1939,7 @@ DICCIONARIOS.es = [
   {
     id: "reclamacion-laboral",
     palabra: "Reclamación laboral",
-    imagen: { id: 16103, alt: "Documento de reclamación" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Una queja formal que hace un trabajador a la empresa. La presentas por escrito.",
     sinonimos: ["queja formal del trabajador", "denuncia del trabajador"],
     ejemplo: { palabra: "reclamación laboral", texto: "Presentó una reclamación laboral por el impago de horas extra." },
@@ -2171,7 +2171,7 @@ DICCIONARIOS.es = [
   {
     id: "recurso",
     palabra: "Recurso",
-    imagen: { id: 16103, alt: "Un documento de recurso" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Pides a un tribunal superior que revise la decisión de otro juez.",
     sinonimos: ["pedir otra revisión"],
     ejemplo: { palabra: "recurso", texto: "Presentó un recurso porque no estaba de acuerdo con la sentencia." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 35413, alt: "Un notario" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -4958,7 +4958,7 @@ DICCIONARIOS.es = [
   {
     id: "recurrir",
     palabra: "Recurrir",
-    imagen: { id: 16103, alt: "Un documento de recurso" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Pedir a una oficina superior que cambie una decisión que no te parece justa.",
     sinonimos: ["pedir que cambien una decisión"],
     ejemplo: { palabra: "recurrir", texto: "Tuvo que recurrir la multa porque le parecía injusta." },
@@ -8188,7 +8188,7 @@ DICCIONARIOS.es = [
   {
     id: "cuenta-bancaria-conjunta",
     palabra: "Cuenta bancaria conjunta",
-    imagen: { id: 16909, alt: "Dos personas delante de una libreta de banco" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Una cuenta del banco que comparten dos personas. Las dos pueden sacar y meter dinero.",
     sinonimos: ["cuenta compartida", "cuenta a nombre de dos personas"],
     ejemplo: { palabra: "cuenta bancaria conjunta", texto: "Abrieron una cuenta bancaria conjunta al casarse." },
@@ -8228,7 +8228,7 @@ DICCIONARIOS.es = [
   {
     id: "cuenta-bloqueada",
     palabra: "Cuenta bloqueada",
-    imagen: { id: 16909, alt: "Una transferencia bancaria" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Una cuenta del banco que no se puede usar durante un tiempo. No se puede sacar ni meter dinero.",
     sinonimos: ["cuenta congelada"],
     ejemplo: { palabra: "cuenta bloqueada", texto: "Su cuenta bloqueada no le dejaba sacar dinero del cajero." },
@@ -8568,7 +8568,7 @@ DICCIONARIOS.es = [
   {
     id: "certificado-de-residencia",
     palabra: "Certificado de residencia",
-    imagen: { id: 27677, alt: "Un documento oficial con una casa dibujada" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un documento oficial que demuestra en qué ciudad o pueblo vives.",
     sinonimos: ["certificado de domicilio"],
     ejemplo: { palabra: "certificado de residencia", texto: "Pidió el certificado de residencia para matricular a su hijo en el colegio." },
@@ -9508,7 +9508,7 @@ DICCIONARIOS.es = [
   {
     id: "cuenta-remunerada",
     palabra: "Cuenta remunerada",
-    imagen: { id: 16909, alt: "Una libreta de banco con una moneda extra" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Una cuenta bancaria que te da un poco de dinero extra solo por tener tus ahorros allí.",
     sinonimos: ["cuenta que da intereses"],
     ejemplo: { palabra: "cuenta remunerada", texto: "Cambió sus ahorros a una cuenta remunerada para ganar algo de interés." },
@@ -9548,7 +9548,7 @@ DICCIONARIOS.es = [
   {
     id: "cuenta-nomina",
     palabra: "Cuenta nómina",
-    imagen: { id: 16909, alt: "Una libreta de banco con billetes entrando" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Una cuenta bancaria pensada para recibir el sueldo cada mes, que suele tener menos comisiones.",
     sinonimos: ["cuenta de sueldo"],
     ejemplo: { palabra: "cuenta nómina", texto: "Abrió una cuenta nómina en el banco de su empresa." },
@@ -10158,7 +10158,7 @@ DICCIONARIOS.es = [
   {
     id: "certificado-de-ultimas-voluntades",
     palabra: "Certificado de últimas voluntades",
-    imagen: { id: 27677, alt: "Un documento oficial con un sello" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un documento que dice si una persona que ha muerto dejó testamento, y ante qué notario.",
     sinonimos: ["certificado de testamentos"],
     ejemplo: { palabra: "certificado de últimas voluntades", texto: "Pidió el certificado de últimas voluntades de su padre." },
@@ -10168,7 +10168,7 @@ DICCIONARIOS.es = [
   {
     id: "certificado-de-antecedentes-penales",
     palabra: "Certificado de antecedentes penales",
-    imagen: { id: 27677, alt: "Un documento oficial con un sello del Ministerio" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un documento que dice si has sido condenado por algún delito antes.",
     sinonimos: ["certificado de penales"],
     ejemplo: { palabra: "certificado de antecedentes penales", texto: "Le pidieron el certificado de antecedentes penales para el nuevo trabajo." },
@@ -10901,7 +10901,7 @@ DICCIONARIOS.es = [
   {
     id: "impugnar",
     palabra: "Impugnar",
-    imagen: { id: 16103, alt: "Un documento de recurso" },
+    imagen: { id: 29638, alt: "Suspender, rechazar" },
     definicion: "Decir de forma oficial que algo no es correcto, para que lo revisen de nuevo.",
     sinonimos: ["rechazar de forma oficial"],
     ejemplo: { palabra: "impugnar", texto: "Decidió impugnar el resultado de las elecciones." },
@@ -10971,7 +10971,7 @@ DICCIONARIOS.es = [
   {
     id: "recurso-de-alzada",
     palabra: "Recurso de alzada",
-    imagen: { id: 16103, alt: "Un documento de recurso" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un papel para pedir que un jefe superior revise la decisión de la Administración.",
     sinonimos: ["recurso ante un superior administrativo"],
     ejemplo: { palabra: "recurso de alzada", texto: "Presentó un recurso de alzada contra la sanción del ayuntamiento." },
@@ -12057,7 +12057,7 @@ DICCIONARIOS.es = [
   {
     id: "comision-de-transferencia-internacional",
     palabra: "Comisión de transferencia internacional",
-    imagen: { id: 16909, alt: "Una transferencia bancaria" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "El dinero que cobra el banco por enviar dinero a otro país.",
     sinonimos: ["cobro por enviar dinero a otro país"],
     ejemplo: { palabra: "comisión de transferencia internacional", texto: "Pagó una comisión de transferencia internacional al enviar dinero a su familia." },
@@ -12952,7 +12952,7 @@ DICCIONARIOS.es = [
   {
     id: "protocolo-notarial",
     palabra: "Protocolo notarial",
-    imagen: { id: 35413, alt: "Un libro grueso con un número de escritura" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "El libro oficial donde el notario guarda todas las escrituras que firma, por orden de número.",
     sinonimos: ["libro de escrituras del notario"],
     ejemplo: { palabra: "protocolo notarial", texto: "La copia autorizada sale del protocolo notarial del año pasado." },
@@ -17452,7 +17452,7 @@ DICCIONARIOS.es = [
   {
     id: "escriturar",
     palabra: "Escriturar",
-    imagen: { id: 35413, alt: "Una persona firma un documento ante un notario" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Registrar oficialmente la compra de una vivienda u otro bien ante un notario.",
     sinonimos: ["registrar ante notario"],
     ejemplo: { palabra: "escriturar la casa nueva", texto: "La pareja fue al notario para escriturar la casa nueva." },
@@ -17732,7 +17732,7 @@ DICCIONARIOS.es = [
   {
     id: "formalizar",
     palabra: "Formalizar",
-    imagen: { id: 35413, alt: "Una persona firma un documento ante un notario" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Hacer oficial un acuerdo o un trámite, normalmente firmando un documento.",
     sinonimos: ["hacer oficial con una firma"],
     ejemplo: { palabra: "formalizar", texto: "Fueron a la notaría para formalizar la compra de la casa." },
@@ -18672,7 +18672,7 @@ DICCIONARIOS.es = [
   {
     id: "notariado",
     palabra: "Notariado",
-    imagen: { id: 35413, alt: "Una persona firma un documento ante un notario" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El conjunto de notarios y la actividad que realizan para dar validez legal a documentos.",
     sinonimos: ["profesión de dar validez legal a documentos"],
     ejemplo: { palabra: "al notariado", texto: "Estudió durante años para acceder al notariado." },
