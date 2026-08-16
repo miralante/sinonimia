@@ -306,7 +306,7 @@ DICCIONARIOS.en = [
   {
     id: "grievance",
     palabra: "Grievance",
-    imagen: { id: 15529, alt: "An angry face next to a complaint form" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A formal complaint about your job. You write it to tell your employer about a problem.",
     sinonimos: ["formal complaint"],
     ejemplo: { palabra: "grievance", texto: "She filed a grievance about her working hours." },
@@ -917,7 +917,7 @@ DICCIONARIOS.en = [
   {
     id: "land-registry",
     palabra: "Land Registry",
-    imagen: { id: 37870, alt: "A Land Registry office" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "An official office. It keeps the papers of every home and says who owns it.",
     sinonimos: ["home registry", "property records office"],
     ejemplo: { palabra: "Land Registry", texto: "She checked the Land Registry before signing." },
@@ -2771,7 +2771,7 @@ DICCIONARIOS.en = [
   {
     id: "public-body",
     palabra: "Public body",
-    imagen: { id: 21906, alt: "A government building" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A state office that looks after one area: health, education, work…",
     sinonimos: ["public agency"],
     ejemplo: { palabra: "public body", texto: "The tax public body collects everyone's taxes." },
@@ -7157,7 +7157,7 @@ DICCIONARIOS.en = [
   {
     id: "maximum-capacity",
     palabra: "Maximum capacity",
-    imagen: { id: 38445, alt: "A crowd of people" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "The highest number of people allowed inside a place at the same time, for safety.",
     sinonimos: ["occupancy limit"],
     ejemplo: { palabra: "maximum capacity", texto: "The hall had reached its maximum capacity and no one else could go in." },
@@ -8357,7 +8357,7 @@ DICCIONARIOS.en = [
   {
     id: "executor",
     palabra: "Executor",
-    imagen: { id: 35629, alt: "A person holding an official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The person in charge of sharing out someone's things after they die, following their will.",
     sinonimos: ["estate executor"],
     ejemplo: { palabra: "executor", texto: "His older brother was named executor in the will." },
@@ -8617,7 +8617,7 @@ DICCIONARIOS.en = [
   {
     id: "residency-certificate",
     palabra: "Residency certificate",
-    imagen: { id: 27724, alt: "An official document with a house drawn on it" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "An official document that proves which town or city you live in.",
     sinonimos: ["proof of residency"],
     ejemplo: { palabra: "residency certificate", texto: "He asked for the residency certificate to enrol his son in school." },
@@ -9167,7 +9167,7 @@ DICCIONARIOS.en = [
   {
     id: "pickup-point",
     palabra: "Pickup point",
-    imagen: { id: 35695, alt: "A shop with several parcels inside" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A shop or a place where you can collect a parcel if you were not at home.",
     sinonimos: ["collection point"],
     ejemplo: { palabra: "pickup point", texto: "She collected the parcel at the local pickup point." },
@@ -11002,7 +11002,7 @@ DICCIONARIOS.en = [
   {
     id: "reconsideration-appeal",
     palabra: "Reconsideration appeal",
-    imagen: { id: 15529, alt: "A complaint paper" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A paper asking the same office to review its own decision.",
     sinonimos: ["asking the same office to review its decision"],
     ejemplo: { palabra: "reconsideration appeal", texto: "He filed a reconsideration appeal against the fine." },
@@ -11072,7 +11072,7 @@ DICCIONARIOS.en = [
   {
     id: "academic-transcript",
     palabra: "Academic transcript",
-    imagen: { id: 27724, alt: "A diploma" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "An official paper that shows the courses you took and the marks you got.",
     sinonimos: ["paper with your academic record"],
     ejemplo: { palabra: "academic transcript", texto: "He handed in his academic transcript to apply for the grant." },
@@ -11524,7 +11524,7 @@ DICCIONARIOS.en = [
   {
     id: "click-and-collect",
     palabra: "Click and collect",
-    imagen: { id: 35695, alt: "A shop" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Buying something online and picking it up at the shop, instead of having it delivered home.",
     sinonimos: ["buy online and pick up in shop"],
     ejemplo: { palabra: "click and collect", texto: "He chose click and collect so he would not have to wait for the courier." },
@@ -11645,7 +11645,7 @@ DICCIONARIOS.en = [
   {
     id: "key-money",
     palabra: "Key money",
-    imagen: { id: 35695, alt: "A shop" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Money you pay to take over a shop or a business that is already set up.",
     sinonimos: ["payment to take over a set-up business"],
     ejemplo: { palabra: "key money", texto: "He paid key money for the bar to keep the furniture and the customers." },
@@ -12168,7 +12168,7 @@ DICCIONARIOS.en = [
   {
     id: "living-will",
     palabra: "Living will",
-    imagen: { id: 35629, alt: "A signed paper that is a will" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A paper where you say what medical care you want or do not want if one day you cannot decide yourself.",
     sinonimos: ["medical instructions for the future"],
     ejemplo: { palabra: "living will", texto: "She signed a living will to make her medical wishes clear." },
@@ -12962,7 +12962,7 @@ DICCIONARIOS.en = [
   {
     id: "tenancy-agreement",
     palabra: "Tenancy agreement",
-    imagen: { id: 37870, alt: "A rental contract with two signatures" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "A contract that lets you rent a home for an agreed time and price.",
     sinonimos: ["rental contract"],
     ejemplo: { palabra: "tenancy agreement", texto: "A tenancy agreement runs for five years and can be renewed." },
@@ -12973,7 +12973,7 @@ DICCIONARIOS.en = [
   {
     id: "tenant-contract",
     palabra: "Renter under contract",
-    imagen: { id: 37870, alt: "A person signs a rental contract" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "The person who rents a home. They pay the owner each month to live there.",
     sinonimos: ["tenant under contract"],
     ejemplo: { palabra: "renter under contract", texto: "The renter under contract left the flat at the end of the contract." },
@@ -13105,7 +13105,7 @@ DICCIONARIOS.en = [
   {
     id: "registry-registration",
     palabra: "Registry registration",
-    imagen: { id: 37870, alt: "An open book of the Land Registry" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The official entry made in the Land Registry to record who owns a house.",
     sinonimos: ["entry in the registry"],
     ejemplo: { palabra: "registry registration", texto: "The registry registration of the house was done two months after the deed." },
@@ -14176,7 +14176,7 @@ DICCIONARIOS.en = [
   {
     id: "probate",
     palabra: "Probate",
-    imagen: { id: 35629, alt: "A judge checking a will document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The legal process that confirms a will is valid. A court checks it before the property can be shared out.",
     sinonimos: ["will validation"],
     ejemplo: { palabra: "probate", texto: "The estate went through probate before it was shared out." },
@@ -14856,7 +14856,7 @@ DICCIONARIOS.en = [
   {
     id: "retail",
     palabra: "Retail",
-    imagen: { id: 35695, alt: "A shop storefront" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Selling goods directly to customers in shops, in small amounts. It is different from selling in bulk to other businesses.",
     sinonimos: ["shop price"],
     ejemplo: { palabra: "retail price", texto: "The retail price is higher than buying wholesale." },
@@ -15396,7 +15396,7 @@ DICCIONARIOS.en = [
   {
     id: "allegation",
     palabra: "Allegation",
-    imagen: { id: 15529, alt: "Claim, complaint" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A claim that someone did something wrong, made before it is proven true.",
     sinonimos: ["unproven claim", "accusation"],
     ejemplo: { palabra: "allegation", texto: "The company denied the allegation of fraud." },
@@ -16586,7 +16586,7 @@ DICCIONARIOS.en = [
   {
     id: "chiropody",
     palabra: "Chiropody",
-    imagen: { id: 25327, alt: "A doctor examining a foot" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The medical care and treatment of the feet, done by a trained specialist.",
     sinonimos: ["foot care by a specialist"],
     ejemplo: { palabra: "chiropody", texto: "She booked an appointment for chiropody because her feet hurt." },
@@ -16686,7 +16686,7 @@ DICCIONARIOS.en = [
   {
     id: "clubfoot",
     palabra: "Clubfoot",
-    imagen: { id: 25327, alt: "A doctor examining a baby's foot" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A condition present at birth in which a baby's foot is twisted out of its normal position.",
     sinonimos: ["a twisted foot from birth"],
     ejemplo: { palabra: "clubfoot", texto: "The baby was born with clubfoot and needed early treatment." },
@@ -18036,7 +18036,7 @@ DICCIONARIOS.en = [
   {
     id: "gangrene",
     palabra: "Gangrene",
-    imagen: { id: 25327, alt: "A foot" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The death of body tissue caused by a lack of blood flow, which can lead to serious infection.",
     sinonimos: ["death of body tissue from lack of blood"],
     ejemplo: { palabra: "gangrene", texto: "The doctor found gangrene in the diabetic patient's foot." },
@@ -18136,7 +18136,7 @@ DICCIONARIOS.en = [
   {
     id: "gout",
     palabra: "Gout",
-    imagen: { id: 25327, alt: "A foot" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A type of arthritis that causes sudden, severe pain and swelling, often in the big toe.",
     sinonimos: ["a painful joint disease"],
     ejemplo: { palabra: "gout", texto: "He woke up with severe pain from gout in his toe." },
@@ -19196,7 +19196,7 @@ DICCIONARIOS.en = [
   {
     id: "ministry",
     palabra: "Ministry",
-    imagen: { id: 21906, alt: "A government building" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A government department responsible for a specific area, such as health or education.",
     sinonimos: ["a government department responsible for an area"],
     ejemplo: { palabra: "the ministry", texto: "She filed a complaint with the ministry of health." },
@@ -19586,7 +19586,7 @@ DICCIONARIOS.en = [
   {
     id: "ordinance",
     palabra: "Ordinance",
-    imagen: { id: 21906, alt: "A government building" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "An official rule or law made by a local government.",
     sinonimos: ["an official rule made by a local government"],
     ejemplo: { palabra: "a city ordinance", texto: "The store closed early to follow a city ordinance." },
@@ -19966,7 +19966,7 @@ DICCIONARIOS.en = [
   {
     id: "picketing",
     palabra: "Picketing",
-    imagen: { id: 38445, alt: "A crowd of people together" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Standing outside a workplace to protest, often during a strike.",
     sinonimos: ["protesting outside a workplace during a strike"],
     ejemplo: { palabra: "picketing outside the factory", texto: "Workers began picketing outside the factory gates." },
@@ -20276,7 +20276,7 @@ DICCIONARIOS.en = [
   {
     id: "protester",
     palabra: "Protester",
-    imagen: { id: 38445, alt: "A crowd of people together" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A person who publicly shows disagreement with something, often as part of a group.",
     sinonimos: ["a person who publicly shows disagreement"],
     ejemplo: { palabra: "a protester", texto: "Police spoke with a protester outside the building." },
@@ -21066,7 +21066,7 @@ DICCIONARIOS.en = [
   {
     id: "shutdown",
     palabra: "Shutdown",
-    imagen: { id: 21906, alt: "Government officials" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The temporary closing of a business or government operation, often due to lack of funding or an emergency.",
     sinonimos: ["the temporary closing of an operation"],
     ejemplo: { palabra: "a government shutdown", texto: "Thousands of workers were affected by a government shutdown." },
@@ -21746,7 +21746,7 @@ DICCIONARIOS.en = [
   {
     id: "unrest",
     palabra: "Unrest",
-    imagen: { id: 38445, alt: "A crowd of people together" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A state of public disorder or protest, often involving anger toward the government.",
     sinonimos: ["public disorder or protest"],
     ejemplo: { palabra: "unrest", texto: "The city experienced unrest after the announcement." },
