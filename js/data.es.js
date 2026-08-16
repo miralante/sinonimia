@@ -603,7 +603,7 @@ DICCIONARIOS.es = [
   {
     id: "desahucio",
     palabra: "Desahucio",
-    imagen: { id: 2931, alt: "Una maleta hecha para salir de casa" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Te obligan a dejar tu casa. Pasa cuando no pagas el alquiler o la hipoteca.",
     sinonimos: ["expulsión de la vivienda", "desalojo"],
     ejemplo: { palabra: "desahucio", texto: "El juez ordenó el desahucio porque no pagaba el alquiler." },
@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 34814, alt: "Préstamo" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -1812,7 +1812,7 @@ DICCIONARIOS.es = [
   {
     id: "puesto-trabajo",
     palabra: "Puesto de trabajo",
-    imagen: { id: 9117, alt: "Un puesto de trabajo" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "El lugar y el trabajo que tienes en una empresa. Por ejemplo, cajero o dependienta.",
     sinonimos: ["cargo", "trabajo concreto"],
     ejemplo: { palabra: "puesto", texto: "Dejó su puesto de trabajo después de veinte años." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 36403, alt: "Ahorro" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -2934,7 +2934,7 @@ DICCIONARIOS.es = [
   {
     id: "subsanacion",
     palabra: "Subsanación",
-    imagen: { id: 6998, alt: "Una mano corrige un papel" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Cuando el Estado te pide que corrijas algo de tu solicitud porque falta o está mal.",
     sinonimos: ["corrección de errores"],
     ejemplo: { palabra: "subsanación", texto: "Le dieron diez días para la subsanación de la solicitud." },
@@ -3292,7 +3292,7 @@ DICCIONARIOS.es = [
   {
     id: "dermatologo",
     palabra: "Dermatólogo",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 34375, alt: "Dermatólogo" },
     definicion: "El médico que cuida tu piel, tu pelo y tus uñas.",
     sinonimos: ["médico de la piel"],
     ejemplo: { palabra: "dermatólogo", texto: "Fue al dermatólogo porque le salía una mancha rara en la espalda." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 11291, alt: "Juez, magistrado" },
+    imagen: { id: 35413, alt: "Notario" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -7178,7 +7178,7 @@ DICCIONARIOS.es = [
   {
     id: "verificacion-dos-pasos",
     palabra: "Verificación en dos pasos",
-    imagen: { id: 6998, alt: "Una lista con casillas marcadas y una persona con un lápiz" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Un paso extra para entrar en una cuenta. Además de la contraseña, te piden un código que llega al móvil.",
     sinonimos: ["doble verificación", "código de seguridad extra"],
     ejemplo: { palabra: "verificación en dos pasos", texto: "Activó la verificación en dos pasos para proteger su correo." },
@@ -9138,7 +9138,7 @@ DICCIONARIOS.es = [
   {
     id: "boletin-de-notas",
     palabra: "Boletín de notas",
-    imagen: { id: 38462, alt: "Un examen con una nota" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "Un papel del colegio que dice las notas que ha sacado un alumno.",
     sinonimos: ["boletín de calificaciones"],
     ejemplo: { palabra: "boletín de notas", texto: "Recibió el boletín de notas al final del trimestre." },
@@ -11494,7 +11494,7 @@ DICCIONARIOS.es = [
   {
     id: "clausula-de-confidencialidad",
     palabra: "Cláusula de confidencialidad",
-    imagen: { id: 39197, alt: "Confidencial" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Una parte del contrato que te obliga a no contar información de la empresa a otros.",
     sinonimos: ["condición para no compartir información de la empresa"],
     ejemplo: { palabra: "cláusula de confidencialidad", texto: "El contrato tenía una cláusula de confidencialidad sobre los clientes." },
@@ -13082,7 +13082,7 @@ DICCIONARIOS.es = [
   {
     id: "dacion-pago",
     palabra: "Dación en pago",
-    imagen: { id: 2931, alt: "Una persona entrega las llaves de una casa al banco" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Entregar tu casa al banco para saldar la deuda de la hipoteca. Dejas de deber y de ser dueño.",
     sinonimos: ["entrega de la casa al banco"],
     ejemplo: { palabra: "dación en pago", texto: "Hizo una dación en pago porque no podía seguir pagando la hipoteca." },
@@ -13482,7 +13482,7 @@ DICCIONARIOS.es = [
   {
     id: "imputacion",
     palabra: "Imputación",
-    imagen: { id: 39172, alt: "Un papel oficial con una lista de cargos" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un papel oficial que acusa formalmente a alguien de un delito. Da comienzo al proceso penal.",
     sinonimos: ["acusación formal"],
     ejemplo: { palabra: "imputación", texto: "La imputación incluía tres cargos distintos." },
@@ -14852,7 +14852,7 @@ DICCIONARIOS.es = [
   {
     id: "vigilante-de-examen",
     palabra: "Vigilante de examen",
-    imagen: { id: 38462, alt: "Un examen escrito con un bolígrafo" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "Una persona que supervisa a los estudiantes durante un examen. Se asegura de que nadie copie.",
     sinonimos: ["supervisor del examen"],
     ejemplo: { palabra: "vigilante de examen", texto: "El vigilante de examen caminaba por la sala durante la prueba." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 21802, alt: "Documento" },
+    imagen: { id: 8483, alt: "Frontera, aduana" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
@@ -15582,7 +15582,7 @@ DICCIONARIOS.es = [
   {
     id: "atraco",
     palabra: "Atraco",
-    imagen: { id: 8209, alt: "Una persona con las manos arriba dentro de un banco" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Robar a alguien usando la fuerza o amenazas.",
     sinonimos: ["robo con violencia", "asalto"],
     ejemplo: { palabra: "atraco", texto: "Hubo un atraco en el banco esta mañana." },
