@@ -647,7 +647,7 @@ DICCIONARIOS.es = [
   {
     id: "nomina",
     palabra: "Nómina",
-    imagen: { id: 15986, alt: "Una mano recibe un billete" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Papel que dice cuánto dinero ganas cada mes en tu trabajo.",
     sinonimos: ["recibo de sueldo", "recibo de salario"],
     ejemplo: { palabra: "nómina", texto: "Puedes ver tu nómina en el correo de la empresa." },
@@ -872,7 +872,7 @@ DICCIONARIOS.es = [
   {
     id: "pension-economica",
     palabra: "Pensión",
-    imagen: { id: 14666, alt: "Una persona mayor jubilada" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que da el Estado cada mes. Lo cobras cuando dejas de trabajar por edad.",
     sinonimos: ["paga de jubilación", "dinero mensual"],
     ejemplo: { palabra: "pensión", texto: "Cobra su pensión el día 1 de cada mes." },
@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 34814, alt: "Préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2193,7 +2193,7 @@ DICCIONARIOS.es = [
   {
     id: "demandante",
     palabra: "Demandante",
-    imagen: { id: 15030, alt: "Una persona presenta una demanda" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "La persona que lleva el caso al juez porque dice que le hicieron un daño.",
     sinonimos: ["persona que reclama"],
     ejemplo: { palabra: "demandante", texto: "La demandante contó al juez lo que le pasó." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 36403, alt: "Ahorro" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 35413, alt: "Notario" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -3902,7 +3902,7 @@ DICCIONARIOS.es = [
   {
     id: "jubilacion-anticipada",
     palabra: "Jubilación anticipada",
-    imagen: { id: 14666, alt: "Una persona jubilada" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Dejar de trabajar y cobrar la pensión antes de la edad normal.",
     sinonimos: ["retiro antes de tiempo"],
     ejemplo: { palabra: "jubilación anticipada", texto: "Se cogió la jubilación anticipada a los sesenta años." },
@@ -4645,7 +4645,7 @@ DICCIONARIOS.es = [
   {
     id: "demanda-judicial",
     palabra: "Demanda judicial",
-    imagen: { id: 15030, alt: "Una persona presenta una demanda" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un papel que llevas al juez para que resuelva un problema. Inicia un juicio.",
     sinonimos: ["papel que abre el juicio"],
     ejemplo: { palabra: "demanda judicial", texto: "Presentó la demanda judicial contra la empresa por el despido." },
@@ -4759,7 +4759,7 @@ DICCIONARIOS.es = [
   {
     id: "demanda-archivada",
     palabra: "Demanda archivada",
-    imagen: { id: 15030, alt: "Una persona presenta una demanda" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una demanda que ya no sigue adelante. Se cierra el caso sin más trámites.",
     sinonimos: ["demanda cerrada"],
     ejemplo: { palabra: "demanda archivada", texto: "La demanda archivada ya no se puede reabrir." },
@@ -8208,7 +8208,7 @@ DICCIONARIOS.es = [
   {
     id: "plan-de-pensiones",
     palabra: "Plan de pensiones",
-    imagen: { id: 14666, alt: "Una hucha al lado de una persona mayor" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Un dinero que vas guardando poco a poco durante tu vida laboral, para tener más cuando te jubiles.",
     sinonimos: ["ahorro para la jubilación"],
     ejemplo: { palabra: "plan de pensiones", texto: "Empezó un plan de pensiones para ahorrar de cara a la jubilación." },
@@ -8548,7 +8548,7 @@ DICCIONARIOS.es = [
   {
     id: "hoja-de-reclamaciones",
     palabra: "Hoja de reclamaciones",
-    imagen: { id: 15529, alt: "Un formulario con un bolígrafo encima" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un formulario oficial que puedes pedir en una tienda o un servicio para quejarte por escrito.",
     sinonimos: ["formulario de quejas"],
     ejemplo: { palabra: "hoja de reclamaciones", texto: "Pidió la hoja de reclamaciones porque el pedido llegó roto." },
@@ -9708,7 +9708,7 @@ DICCIONARIOS.es = [
   {
     id: "reclamacion-previa",
     palabra: "Reclamación previa",
-    imagen: { id: 15529, alt: "Una persona entregando un escrito en una ventanilla" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un escrito que tienes que presentar a la Administración antes de poder ir a juicio contra ella.",
     sinonimos: ["queja administrativa previa"],
     ejemplo: { palabra: "reclamación previa", texto: "Presentó una reclamación previa antes de llevar el caso a juicio." },
@@ -11263,7 +11263,7 @@ DICCIONARIOS.es = [
   {
     id: "recurso-de-reposicion",
     palabra: "Recurso de reposición",
-    imagen: { id: 15529, alt: "Un papel de reclamación" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un papel para pedir a la misma oficina que revise su propia decisión.",
     sinonimos: ["pedir a la misma oficina que revise su decisión"],
     ejemplo: { palabra: "recurso de reposición", texto: "Presentó un recurso de reposición contra la multa." },
@@ -12399,7 +12399,7 @@ DICCIONARIOS.es = [
   {
     id: "escrito-de-alegaciones",
     palabra: "Escrito de alegaciones",
-    imagen: { id: 15030, alt: "Una persona presenta una demanda" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un papel donde explicas tus razones antes de que se tome una decisión oficial.",
     sinonimos: ["papel con tus razones"],
     ejemplo: { palabra: "escrito de alegaciones", texto: "Presentó un escrito de alegaciones contra la multa." },
@@ -12962,7 +12962,7 @@ DICCIONARIOS.es = [
   {
     id: "carta-pago",
     palabra: "Carta de pago",
-    imagen: { id: 15986, alt: "Un papel firmado que confirma que se ha recibido un pago" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un papel donde se reconoce que te han pagado. La firma el que recibe el dinero.",
     sinonimos: ["recibo oficial de pago"],
     ejemplo: { palabra: "carta de pago", texto: "Entregó carta de pago al recibir el dinero de la casa." },
@@ -13092,7 +13092,7 @@ DICCIONARIOS.es = [
   {
     id: "novacion",
     palabra: "Novación",
-    imagen: { id: 15986, alt: "Un papel con cambios marcados sobre un contrato" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Cambiar las condiciones de un contrato ya firmado. Las dos partes tienen que estar de acuerdo.",
     sinonimos: ["cambio de condiciones del contrato"],
     ejemplo: { palabra: "novación", texto: "Pidieron novación del préstamo para bajar la cuota mensual." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 8483, alt: "Frontera, aduana" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
