@@ -266,7 +266,7 @@ DICCIONARIOS.en = [
   {
     id: "utilities",
     palabra: "Utilities",
-    imagen: { id: 5995, alt: "A utility bill with a signature" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Services that come to your home, like water, gas and power. You pay for them every month.",
     sinonimos: ["home services", "monthly services"],
     ejemplo: { palabra: "utilities", texto: "This month the utilities cost more than usual." },
@@ -1201,7 +1201,7 @@ DICCIONARIOS.en = [
   {
     id: "current-account",
     palabra: "Current account",
-    imagen: { id: 5995, alt: "A bill with a signature line" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A bank account for your daily life. Your salary lands here and you pay from it.",
     sinonimos: ["day-to-day account", "spending account"],
     ejemplo: { palabra: "current account", texto: "Her salary lands in her current account every month." },
@@ -1926,7 +1926,7 @@ DICCIONARIOS.en = [
   {
     id: "cholesterol-en",
     palabra: "Cholesterol",
-    imagen: { id: 2803, alt: "A blood bag" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A fat that travels in your blood. Too much of it can block your veins.",
     sinonimos: ["blood fat"],
     ejemplo: { palabra: "cholesterol", texto: "The doctor said her cholesterol was high and she cut down on fatty food." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -6207,7 +6207,7 @@ DICCIONARIOS.en = [
   {
     id: "calendar",
     palabra: "Calendar",
-    imagen: { id: 3071, alt: "A calendar with the days of the month" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A paper or an app that shows the days, weeks and months of the year. It helps you remember dates.",
     sinonimos: ["almanac"],
     ejemplo: { palabra: "calendar", texto: "She wrote the doctor's appointment on the calendar." },
@@ -7377,7 +7377,7 @@ DICCIONARIOS.en = [
   {
     id: "helpline",
     palabra: "Helpline",
-    imagen: { id: 2791, alt: "A person talking on the phone asking for help" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A free telephone number where someone listens and helps you if you have a serious problem.",
     sinonimos: ["support line"],
     ejemplo: { palabra: "helpline", texto: "He called the helpline to talk about what was happening to him." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 2402, alt: "Biscuits, cookies" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -8327,7 +8327,7 @@ DICCIONARIOS.en = [
   {
     id: "visitation-schedule",
     palabra: "Visitation schedule",
-    imagen: { id: 3071, alt: "A calendar with a day marked and a family" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The days and times when a parent who does not live with their children can spend time with them.",
     sinonimos: ["contact schedule"],
     ejemplo: { palabra: "visitation schedule", texto: "The judge set a visitation schedule of alternate weekends." },
@@ -8407,7 +8407,7 @@ DICCIONARIOS.en = [
   {
     id: "expiry",
     palabra: "Expiry",
-    imagen: { id: 3071, alt: "A calendar with a date marked in red" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The moment when a document or a right stops being valid, because too much time has passed.",
     sinonimos: ["end of validity"],
     ejemplo: { palabra: "expiry", texto: "He checked the expiry date on his driving licence." },
@@ -8637,7 +8637,7 @@ DICCIONARIOS.en = [
   {
     id: "extension",
     palabra: "Extension",
-    imagen: { id: 3071, alt: "A calendar with an arrow moving forward" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "More time to finish a procedure, after the final date has already passed.",
     sinonimos: ["deadline extension"],
     ejemplo: { palabra: "extension", texto: "She asked for an extension because she could not hand in the papers on time." },
@@ -9807,7 +9807,7 @@ DICCIONARIOS.en = [
   {
     id: "storage-space",
     palabra: "Storage space",
-    imagen: { id: 2791, alt: "A phone screen showing a full storage bar" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "The amount of room a phone or computer has to save photos, apps, and files.",
     sinonimos: ["memory space"],
     ejemplo: { palabra: "storage space", texto: "He deleted old photos because he was running out of storage space." },
@@ -9827,7 +9827,7 @@ DICCIONARIOS.en = [
   {
     id: "contact-list",
     palabra: "Contact list",
-    imagen: { id: 2791, alt: "A phone screen with a list of names" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "The list of names and numbers saved on your phone.",
     sinonimos: ["address book"],
     ejemplo: { palabra: "contact list", texto: "He saved the doctor's number in his contact list." },
@@ -9837,7 +9837,7 @@ DICCIONARIOS.en = [
   {
     id: "missed-call",
     palabra: "Missed call",
-    imagen: { id: 2791, alt: "A phone screen showing a call symbol" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A call that came in while you did not answer your phone.",
     sinonimos: ["unanswered call"],
     ejemplo: { palabra: "missed call", texto: "She saw a missed call from her son and rang him back." },
@@ -9847,7 +9847,7 @@ DICCIONARIOS.en = [
   {
     id: "voicemail",
     palabra: "Voicemail",
-    imagen: { id: 2791, alt: "A phone with a small red message light" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A recorded message someone leaves you when you do not answer the phone.",
     sinonimos: ["answerphone message"],
     ejemplo: { palabra: "voicemail", texto: "He listened to the voicemail his sister had left him." },
@@ -9857,7 +9857,7 @@ DICCIONARIOS.en = [
   {
     id: "wireless-charger",
     palabra: "Wireless charger",
-    imagen: { id: 2791, alt: "A phone lying on a charging pad" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A pad that charges your phone battery just by placing the phone on top, with no cable.",
     sinonimos: ["charging pad"],
     ejemplo: { palabra: "wireless charger", texto: "He left his phone on the wireless charger overnight." },
@@ -10027,7 +10027,7 @@ DICCIONARIOS.en = [
   {
     id: "standing-order",
     palabra: "Standing order",
-    imagen: { id: 5995, alt: "A bill with an arrow pointing to a bank account" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "An instruction to your bank to pay the same amount to someone automatically, every month.",
     sinonimos: ["automatic transfer"],
     ejemplo: { palabra: "standing order", texto: "He set up a standing order to pay the rent every month." },
@@ -10067,7 +10067,7 @@ DICCIONARIOS.en = [
   {
     id: "bank-holiday",
     palabra: "Bank holiday",
-    imagen: { id: 3071, alt: "A calendar with a day marked" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A day when banks, offices, and many shops are closed, set by the government.",
     sinonimos: ["public holiday"],
     ejemplo: { palabra: "bank holiday", texto: "The offices were closed for the bank holiday." },
@@ -10138,7 +10138,7 @@ DICCIONARIOS.en = [
   {
     id: "payment-extension",
     palabra: "Payment extension",
-    imagen: { id: 3071, alt: "A calendar with a later date marked" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "More time to pay a debt. The payment date moves later.",
     sinonimos: ["more time to pay"],
     ejemplo: { palabra: "payment extension", texto: "He asked for a payment extension on the dentist's bill." },
@@ -10308,7 +10308,7 @@ DICCIONARIOS.en = [
   {
     id: "grace-period",
     palabra: "Grace period",
-    imagen: { id: 3071, alt: "A calendar with a later date marked" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A time at the start of a loan when you do not pay, or pay less.",
     sinonimos: ["time without paying instalments"],
     ejemplo: { palabra: "grace period", texto: "The bank gave him a grace period of six months." },
@@ -12550,7 +12550,7 @@ DICCIONARIOS.en = [
   {
     id: "renewal-notice",
     palabra: "Renewal notice",
-    imagen: { id: 3071, alt: "A calendar" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A letter that reminds you that a document or a licence is about to expire.",
     sinonimos: ["reminder that a document is expiring"],
     ejemplo: { palabra: "renewal notice", texto: "He got a renewal notice for his driving licence." },
@@ -12700,7 +12700,7 @@ DICCIONARIOS.en = [
   {
     id: "objection-period",
     palabra: "Objection period",
-    imagen: { id: 3071, alt: "A calendar" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "The time you have to formally disagree with a draft decision before it becomes final.",
     sinonimos: ["time to formally disagree with a draft decision"],
     ejemplo: { palabra: "objection period", texto: "She sent her objection before the objection period ended." },
@@ -15786,7 +15786,7 @@ DICCIONARIOS.en = [
   {
     id: "anemic",
     palabra: "Anemic",
-    imagen: { id: 2803, alt: "A tired person touches their forehead" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Having too little iron in the blood, which causes tiredness.",
     sinonimos: ["low on iron", "iron-deficient"],
     ejemplo: { palabra: "anemic", texto: "The doctor said he was anemic and prescribed iron pills." },
@@ -16696,7 +16696,7 @@ DICCIONARIOS.en = [
   {
     id: "coagulate",
     palabra: "Coagulate",
-    imagen: { id: 2803, alt: "A drop of blood" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "To change from a liquid into a thicker, solid or semi-solid form, as blood does when it clots.",
     sinonimos: ["clot"],
     ejemplo: { palabra: "coagulate", texto: "The medicine helps the blood coagulate faster after a cut." },
@@ -17196,7 +17196,7 @@ DICCIONARIOS.en = [
   {
     id: "diabetic",
     palabra: "Diabetic",
-    imagen: { id: 2803, alt: "A blood test in a laboratory" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A person who has diabetes, a condition that affects blood sugar levels.",
     sinonimos: ["a person with diabetes"],
     ejemplo: { palabra: "a diabetic", texto: "She is a diabetic and checks her blood sugar every day." },
@@ -18186,7 +18186,7 @@ DICCIONARIOS.en = [
   {
     id: "haemolysis",
     palabra: "Haemolysis",
-    imagen: { id: 2803, alt: "A hand bleeding" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The breakdown of red blood cells, which can lead to anemia.",
     sinonimos: ["the breakdown of red blood cells"],
     ejemplo: { palabra: "haemolysis", texto: "The lab results showed signs of haemolysis in his blood sample." },
@@ -18286,7 +18286,7 @@ DICCIONARIOS.en = [
   {
     id: "hemophilia",
     palabra: "Hemophilia",
-    imagen: { id: 2803, alt: "A bleeding hand" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A genetic condition in which the blood does not clot normally, causing excess bleeding.",
     sinonimos: ["a condition where blood does not clot normally"],
     ejemplo: { palabra: "hemophilia", texto: "He was diagnosed with hemophilia as a child." },
@@ -19956,7 +19956,7 @@ DICCIONARIOS.en = [
   {
     id: "phlebotomy",
     palabra: "Phlebotomy",
-    imagen: { id: 2803, alt: "A blood test" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The medical practice of drawing blood from a patient, usually for testing.",
     sinonimos: ["drawing blood for testing"],
     ejemplo: { palabra: "phlebotomy", texto: "She trained in phlebotomy before working at the clinic." },
@@ -20736,7 +20736,7 @@ DICCIONARIOS.en = [
   {
     id: "robocall",
     palabra: "Robocall",
-    imagen: { id: 2791, alt: "A phone" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "An automated phone call, often used for scams or unwanted advertising.",
     sinonimos: ["an automated phone call, often used for scams"],
     ejemplo: { palabra: "a robocall", texto: "She hung up as soon as she realized it was a robocall." },
@@ -20876,7 +20876,7 @@ DICCIONARIOS.en = [
   {
     id: "scammer",
     palabra: "Scammer",
-    imagen: { id: 2791, alt: "A phone" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A person who tricks others out of money through dishonest schemes.",
     sinonimos: ["a person who tricks others out of money"],
     ejemplo: { palabra: "a scammer", texto: "She realized the caller was a scammer and hung up." },
@@ -20966,7 +20966,7 @@ DICCIONARIOS.en = [
   {
     id: "septicemia",
     palabra: "Septicemia",
-    imagen: { id: 2803, alt: "Blood" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A serious blood infection that can spread throughout the body.",
     sinonimos: ["a serious blood infection"],
     ejemplo: { palabra: "septicemia", texto: "He was rushed to the hospital with septicemia." },
@@ -21236,7 +21236,7 @@ DICCIONARIOS.en = [
   {
     id: "specimen",
     palabra: "Specimen",
-    imagen: { id: 2803, alt: "A blood test" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A small sample of something, such as blood or tissue, collected for testing.",
     sinonimos: ["a small sample collected for testing"],
     ejemplo: { palabra: "a specimen", texto: "The nurse collected a specimen from the patient." },
@@ -21856,7 +21856,7 @@ DICCIONARIOS.en = [
   {
     id: "vishing",
     palabra: "Vishing",
-    imagen: { id: 2791, alt: "A phone" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A type of scam in which someone calls pretending to be from a trusted organization to steal personal information.",
     sinonimos: ["a phone scam pretending to be from a trusted organization"],
     ejemplo: { palabra: "vishing", texto: "The bank warned customers about a rise in vishing." },
