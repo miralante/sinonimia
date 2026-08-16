@@ -1194,7 +1194,7 @@ DICCIONARIOS.es = [
   {
     id: "propietario",
     palabra: "Propietario",
-    imagen: { id: 37704, alt: "Una persona identificada como dueño" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "La persona dueña de la casa. Aparece en el Registro de la Propiedad.",
     sinonimos: ["dueño de la casa", "titular de la vivienda"],
     ejemplo: { palabra: "propietario", texto: "El propietario paga el IBI cada año." },
@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 34814, alt: "Préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 36403, alt: "Ahorro" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3292,7 +3292,7 @@ DICCIONARIOS.es = [
   {
     id: "dermatologo",
     palabra: "Dermatólogo",
-    imagen: { id: 34375, alt: "Dermatólogo" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "El médico que cuida tu piel, tu pelo y tus uñas.",
     sinonimos: ["médico de la piel"],
     ejemplo: { palabra: "dermatólogo", texto: "Fue al dermatólogo porque le salía una mancha rara en la espalda." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 35413, alt: "Notario" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -3420,7 +3420,7 @@ DICCIONARIOS.es = [
   {
     id: "mediador",
     palabra: "Mediador",
-    imagen: { id: 37782, alt: "Un mediador" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona neutral que ayuda a dos partes a ponerse de acuerdo sin ir a juicio.",
     sinonimos: ["persona neutral"],
     ejemplo: { palabra: "mediador", texto: "El mediador ayudó a las dos partes a firmar un acuerdo." },
@@ -5146,7 +5146,7 @@ DICCIONARIOS.es = [
   {
     id: "boton-panico",
     palabra: "Botón de pánico",
-    imagen: { id: 36435, alt: "Un botón rojo de alarma" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Un botón que avisa a la policía o pide ayuda si hay peligro. Se aprieta en una emergencia.",
     sinonimos: ["botón de emergencia", "aviso de socorro"],
     ejemplo: { palabra: "botón de pánico", texto: "La tienda tiene un botón de pánico junto a la caja." },
@@ -7106,7 +7106,7 @@ DICCIONARIOS.es = [
   {
     id: "fuga-gas",
     palabra: "Fuga de gas",
-    imagen: { id: 38282, alt: "Una tubería con un escape de agua" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Cuando el gas sale de una tubería o un aparato sin control. Huele mal y puede ser peligroso.",
     sinonimos: ["escape de gas", "pérdida de gas"],
     ejemplo: { palabra: "fuga de gas", texto: "Olieron una fuga de gas en la cocina y llamaron a los bomberos." },
@@ -7928,7 +7928,7 @@ DICCIONARIOS.es = [
   {
     id: "boton-sos-del-movil",
     palabra: "Botón SOS del móvil",
-    imagen: { id: 36435, alt: "Un botón rojo de alarma" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Una función del teléfono que avisa a tus contactos o a emergencias con solo apretar un botón.",
     sinonimos: ["botón de emergencia del móvil", "SOS del teléfono"],
     ejemplo: { palabra: "botón SOS del móvil", texto: "Activó el botón SOS del móvil cuando se sintió mareada en la calle." },
@@ -8148,7 +8148,7 @@ DICCIONARIOS.es = [
   {
     id: "sincronizar",
     palabra: "Sincronizar",
-    imagen: { id: 38248, alt: "Dos flechas formando un círculo entre dos pantallas" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Hacer que la información sea igual en todos tus aparatos, como el móvil y el ordenador.",
     sinonimos: ["actualizar en todos los aparatos"],
     ejemplo: { palabra: "sincronizó", texto: "Sincronizó las fotos del móvil con el ordenador." },
@@ -9558,7 +9558,7 @@ DICCIONARIOS.es = [
   {
     id: "comision-de-apertura",
     palabra: "Comisión de apertura",
-    imagen: { id: 37351, alt: "Una mano pagando una comisión al banco" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que cobra el banco solo por darte un préstamo, además de los intereses.",
     sinonimos: ["gasto de abrir el préstamo"],
     ejemplo: { palabra: "comisión de apertura", texto: "Comparó la comisión de apertura de varios bancos antes de pedir el préstamo." },
@@ -9778,7 +9778,7 @@ DICCIONARIOS.es = [
   {
     id: "actualizacion-automatica",
     palabra: "Actualización automática",
-    imagen: { id: 38248, alt: "Una flecha circular sobre una pantalla de móvil" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Cuando una aplicación se pone al día ella sola, sin que tengas que hacer nada.",
     sinonimos: ["actualización sin avisar"],
     ejemplo: { palabra: "actualización automática", texto: "La actualización automática cambió los iconos de la pantalla sin avisar." },
@@ -10409,7 +10409,7 @@ DICCIONARIOS.es = [
   {
     id: "comision-de-mantenimiento",
     palabra: "Comisión de mantenimiento",
-    imagen: { id: 37351, alt: "Un documento de comisión bancaria" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "El dinero que cobra el banco cada mes por tener la cuenta abierta.",
     sinonimos: ["cobro mensual del banco"],
     ejemplo: { palabra: "comisión de mantenimiento", texto: "El banco le cobró una comisión de mantenimiento en enero." },
@@ -12610,7 +12610,7 @@ DICCIONARIOS.es = [
   {
     id: "boton-de-hombre-caido",
     palabra: "Botón de hombre caído",
-    imagen: { id: 36435, alt: "Un botón rojo de alarma" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Un botón que un trabajador solo lleva encima y avisa si se cae o deja de moverse.",
     sinonimos: ["botón que avisa si un trabajador se cae"],
     ejemplo: { palabra: "botón de hombre caído", texto: "El vigilante nocturno llevaba un botón de hombre caído." },
@@ -13662,7 +13662,7 @@ DICCIONARIOS.es = [
   {
     id: "persona-de-enlace",
     palabra: "Persona de enlace",
-    imagen: { id: 37782, alt: "Una persona entre dos grupos pasando un mensaje" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Una persona que conecta a dos grupos y ayuda a que se comuniquen. Pasa información entre las dos partes.",
     sinonimos: ["persona de contacto"],
     ejemplo: { palabra: "persona de enlace", texto: "Él es la persona de enlace entre el colegio y las familias." },
@@ -14962,7 +14962,7 @@ DICCIONARIOS.es = [
   {
     id: "mediacion",
     palabra: "Mediación",
-    imagen: { id: 37782, alt: "Un mediador entre dos personas dándose la mano" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una reunión donde una persona neutral ayuda a dos partes a resolver un desacuerdo. Puede evitar ir a juicio.",
     sinonimos: ["negociación asistida"],
     ejemplo: { palabra: "mediación", texto: "Probaron la mediación antes de llevar el caso a juicio." },
@@ -15042,7 +15042,7 @@ DICCIONARIOS.es = [
   {
     id: "carcinoma",
     palabra: "Carcinoma",
-    imagen: { id: 34375, alt: "Un dermatólogo examinando la mano de un paciente" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un tipo de cáncer que empieza en la piel o en el tejido que cubre los órganos. Un médico puede quitarlo a tiempo.",
     sinonimos: ["un tipo de cáncer"],
     ejemplo: { palabra: "un carcinoma", texto: "El médico encontró un carcinoma durante la revisión." },
@@ -15082,7 +15082,7 @@ DICCIONARIOS.es = [
   {
     id: "melanoma",
     palabra: "Melanoma",
-    imagen: { id: 34375, alt: "Un dermatólogo examinando la piel de un paciente" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un tipo grave de cáncer de piel que puede empezar en un lunar. Detectarlo pronto facilita el tratamiento.",
     sinonimos: ["un cáncer de piel grave"],
     ejemplo: { palabra: "un melanoma", texto: "El dermatólogo le quitó un melanoma de la espalda." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 8483, alt: "Frontera, aduana" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
