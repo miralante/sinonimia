@@ -495,7 +495,7 @@ DICCIONARIOS.en = [
   {
     id: "working-hours",
     palabra: "Working hours",
-    imagen: { id: 6012, alt: "A weekly schedule from Monday to Sunday" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The hours you work each day. Your contract says when they start and end.",
     sinonimos: ["work schedule", "time on the job"],
     ejemplo: { palabra: "working hours", texto: "His working hours are from nine to five." },
@@ -867,7 +867,7 @@ DICCIONARIOS.en = [
   {
     id: "landlord",
     palabra: "Landlord",
-    imagen: { id: 8153, alt: "A key that opens a home door" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "The person who lets you live in their home in exchange for monthly money.",
     sinonimos: ["owner who rents", "person who rents out a home"],
     ejemplo: { palabra: "landlord", texto: "The landlord raised the rent with two months' notice." },
@@ -877,7 +877,7 @@ DICCIONARIOS.en = [
   {
     id: "tenant",
     palabra: "Tenant",
-    imagen: { id: 8153, alt: "A key that opens a home door" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "The person who lives in a home that is not theirs. They pay each month to the owner.",
     sinonimos: ["renter", "person who rents a home"],
     ejemplo: { palabra: "tenant", texto: "The tenant signed the lease for one year." },
@@ -1475,7 +1475,7 @@ DICCIONARIOS.en = [
   {
     id: "work-schedule",
     palabra: "Work schedule",
-    imagen: { id: 6012, alt: "A weekly schedule" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The hours of the day when you work. It is usually the same every week.",
     sinonimos: ["working hours", "office hours"],
     ejemplo: { palabra: "work schedule", texto: "His work schedule is Monday to Friday, nine to six." },
@@ -1735,7 +1735,7 @@ DICCIONARIOS.en = [
   {
     id: "precautionary",
     palabra: "Precautionary",
-    imagen: { id: 6192, alt: "A shield" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A measure taken to prevent harm before it happens.",
     sinonimos: ["preventive"],
     ejemplo: { palabra: "precautionary", texto: "The judge ordered a precautionary measure to protect the child." },
@@ -1825,7 +1825,7 @@ DICCIONARIOS.en = [
   {
     id: "time-window",
     palabra: "Time window",
-    imagen: { id: 6012, alt: "A schedule with hours marked to choose a moment" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A range of hours you choose for something to happen, like a delivery or a visit.",
     sinonimos: ["time slot", "chosen hours"],
     ejemplo: { palabra: "time window", texto: "She chose an afternoon time window to receive the parcel." },
@@ -1856,7 +1856,7 @@ DICCIONARIOS.en = [
   {
     id: "glaucoma-en",
     palabra: "Glaucoma",
-    imagen: { id: 6573, alt: "An eye" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "An eye disease. Pressure inside the eye rises and can make you lose sight.",
     sinonimos: ["eye pressure"],
     ejemplo: { palabra: "glaucoma", texto: "She was diagnosed with glaucoma and now checks her eyes every six months." },
@@ -3808,7 +3808,7 @@ DICCIONARIOS.en = [
   {
     id: "tax-id",
     palabra: "Tax ID",
-    imagen: { id: 5987, alt: "A DNI card" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A code that identifies your company or business. You need it to invoice.",
     sinonimos: ["company code"],
     ejemplo: { palabra: "tax ID", texto: "The freelancer gave her tax ID to issue the work invoice." },
@@ -3858,7 +3858,7 @@ DICCIONARIOS.en = [
   {
     id: "electronic-id",
     palabra: "Electronic ID card",
-    imagen: { id: 5987, alt: "A DNI card" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "The ID card that has a chip inside. It lets you identify yourself online.",
     sinonimos: ["chip ID card"],
     ejemplo: { palabra: "electronic ID card", texto: "She used her electronic ID card to enter the tax office website." },
@@ -5017,7 +5017,7 @@ DICCIONARIOS.en = [
   {
     id: "internet-connection",
     palabra: "Internet connection",
-    imagen: { id: 5492, alt: "The internet symbol" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "The link that lets you use the internet on a phone or computer. Without it, you cannot go online.",
     sinonimos: ["internet access", "online link"],
     ejemplo: { palabra: "internet connection", texto: "In the village the internet connection is very slow." },
@@ -5119,7 +5119,7 @@ DICCIONARIOS.en = [
   {
     id: "opening-hours",
     palabra: "Opening hours",
-    imagen: { id: 5561, alt: "A clock with a shop's hours" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "The hours when a shop or office is open to the public. Outside those hours, it is closed.",
     sinonimos: ["business hours", "opening times"],
     ejemplo: { palabra: "opening hours", texto: "The pharmacy's opening hours are 9am to 9pm." },
@@ -7507,7 +7507,7 @@ DICCIONARIOS.en = [
   {
     id: "web-browser",
     palabra: "Web browser",
-    imagen: { id: 5492, alt: "A computer window with an address bar at the top" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "The program you open on a computer or phone to visit web pages.",
     sinonimos: ["browser"],
     ejemplo: { palabra: "web browser", texto: "He opened the web browser to look up the doctor's address." },
@@ -7937,7 +7937,7 @@ DICCIONARIOS.en = [
   {
     id: "screen-recording",
     palabra: "Screen recording",
-    imagen: { id: 3409, alt: "A video camera" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Making a video of everything that happens on your phone or computer screen.",
     sinonimos: ["record the screen"],
     ejemplo: { palabra: "screen recording", texto: "He used screen recording to explain how to use the app." },
@@ -7947,7 +7947,7 @@ DICCIONARIOS.en = [
   {
     id: "time-zone",
     palabra: "Time zone",
-    imagen: { id: 5561, alt: "A clock and a world map" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "The time used in a country or a part of the world, which can be different from yours.",
     sinonimos: ["time difference"],
     ejemplo: { palabra: "time zone", texto: "He changed his phone's time zone when he arrived in another country." },
@@ -8877,7 +8877,7 @@ DICCIONARIOS.en = [
   {
     id: "sublet",
     palabra: "Sublet",
-    imagen: { id: 8153, alt: "A key" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "To rent out part of the home you already rent, to another person.",
     sinonimos: ["sub-rent"],
     ejemplo: { palabra: "sublet", texto: "She sublet a room in her flat to a student." },
@@ -9007,7 +9007,7 @@ DICCIONARIOS.en = [
   {
     id: "reduced-hours",
     palabra: "Reduced hours",
-    imagen: { id: 5561, alt: "A clock showing fewer hours" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Working fewer hours than normal, and being paid less too, to have more free time.",
     sinonimos: ["shortened working hours"],
     ejemplo: { palabra: "reduced hours", texto: "He asked for reduced hours to look after his young son." },
@@ -10881,7 +10881,7 @@ DICCIONARIOS.en = [
   {
     id: "reversing-camera",
     palabra: "Reversing camera",
-    imagen: { id: 3409, alt: "A video camera" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A car camera that shows what is behind you when you reverse.",
     sinonimos: ["rear-view camera"],
     ejemplo: { palabra: "reversing camera", texto: "She used the reversing camera to park in the garage." },
@@ -11535,7 +11535,7 @@ DICCIONARIOS.en = [
   {
     id: "lease-renewal",
     palabra: "Lease renewal",
-    imagen: { id: 8012, alt: "A signed paper to rent a home" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Staying in a rented home for longer than the contract first said.",
     sinonimos: ["extending a rental contract"],
     ejemplo: { palabra: "lease renewal", texto: "She asked for a lease renewal for one more year." },
@@ -12037,7 +12037,7 @@ DICCIONARIOS.en = [
   {
     id: "unlimited-data",
     palabra: "Unlimited data",
-    imagen: { id: 5492, alt: "Internet" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A phone plan that lets you use as much internet as you want, with no limit.",
     sinonimos: ["internet with no limit on your phone"],
     ejemplo: { palabra: "unlimited data", texto: "She got unlimited data so she could watch videos without worrying." },
@@ -12188,7 +12188,7 @@ DICCIONARIOS.en = [
   {
     id: "court-appointed-defender",
     palabra: "Court-appointed defender",
-    imagen: { id: 6192, alt: "A person defends" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person a judge names to represent you for one specific matter, for a short time.",
     sinonimos: ["representative named for one specific matter"],
     ejemplo: { palabra: "court-appointed defender", texto: "The judge named a court-appointed defender for the child during the process." },
@@ -12228,7 +12228,7 @@ DICCIONARIOS.en = [
   {
     id: "self-defence",
     palabra: "Self-defence",
-    imagen: { id: 6192, alt: "A person defends" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Defending yourself from an attack in a way the law allows.",
     sinonimos: ["defending yourself in a way the law allows"],
     ejemplo: { palabra: "self-defence", texto: "The judge decided he had acted in self-defence." },
@@ -12349,7 +12349,7 @@ DICCIONARIOS.en = [
   {
     id: "thermal-camera",
     palabra: "Thermal camera",
-    imagen: { id: 3409, alt: "A video camera" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A camera that sees people's heat, useful for finding someone in the smoke.",
     sinonimos: ["camera that sees heat"],
     ejemplo: { palabra: "thermal camera", texto: "Firefighters used a thermal camera to find him in the smoke." },
@@ -12764,7 +12764,7 @@ DICCIONARIOS.en = [
   {
     id: "breastfeeding-leave",
     palabra: "Breastfeeding leave",
-    imagen: { id: 6017, alt: "A mother breastfeeding a baby" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Time off that parents can take to feed or care for a newborn baby.",
     sinonimos: ["nursing leave"],
     ejemplo: { palabra: "breastfeeding leave", texto: "She asked for breastfeeding leave until her baby was nine months old." },
@@ -15996,7 +15996,7 @@ DICCIONARIOS.en = [
   {
     id: "asthmatic",
     palabra: "Asthmatic",
-    imagen: { id: 6017, alt: "A person uses an inhaler" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Having asthma, a condition that makes it hard to breathe, especially with effort.",
     sinonimos: ["a person with asthma"],
     ejemplo: { palabra: "asthmatic", texto: "He is asthmatic and always carries his inhaler." },
@@ -22316,7 +22316,7 @@ DICCIONARIOS.en = [
   {
     id: "cataracts",
     palabra: "Cataracts",
-    imagen: { id: 6573, alt: "An eye with blurry vision" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The lens of the eye becomes cloudy. Sight looks blurry.",
     sinonimos: ["a cloudy eye lens"],
     ejemplo: { palabra: "cataracts", texto: "He had surgery for cataracts to see better." },
