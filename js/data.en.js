@@ -206,7 +206,7 @@ DICCIONARIOS.en = [
   {
     id: "direct-debit",
     palabra: "Direct debit",
-    imagen: { id: 16909, alt: "Money transferred automatically from one bank to another" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A payment that leaves your account automatically every month.",
     sinonimos: ["automatic payment", "automated payment"],
     ejemplo: { palabra: "direct debit", texto: "Set up a direct debit to pay the rent on time." },
@@ -2007,7 +2007,7 @@ DICCIONARIOS.en = [
   {
     id: "trial",
     palabra: "Trial",
-    imagen: { id: 8147, alt: "The front of a courthouse" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The process in court where a judge decides if someone did something wrong.",
     sinonimos: ["court process"],
     ejemplo: { palabra: "trial", texto: "The trial for the case will be held next Monday." },
@@ -2127,7 +2127,7 @@ DICCIONARIOS.en = [
   {
     id: "suspect",
     palabra: "Suspect",
-    imagen: { id: 15984, alt: "A person under suspicion" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person the police think may have done something wrong, but it has not been proved yet.",
     sinonimos: ["person under suspicion"],
     ejemplo: { palabra: "suspect", texto: "The police arrested the suspect this morning." },
@@ -4703,7 +4703,7 @@ DICCIONARIOS.en = [
   {
     id: "sanction",
     palabra: "Sanction",
-    imagen: { id: 10173, alt: "A hand fines a person" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A punishment the state gives you for doing something wrong. It can be a fine or something worse.",
     sinonimos: ["wrongdoing penalty"],
     ejemplo: { palabra: "sanction", texto: "He got a sanction for not wearing the seat belt in the car." },
@@ -7117,7 +7117,7 @@ DICCIONARIOS.en = [
   {
     id: "pool-fence",
     palabra: "Pool fence",
-    imagen: { id: 6651, alt: "A low fence around a swimming pool" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A fence around a swimming pool. It stops children going near the water alone.",
     sinonimos: ["pool barrier"],
     ejemplo: { palabra: "pool fence", texto: "They installed a pool fence so the children could not get near the water alone." },
@@ -7287,7 +7287,7 @@ DICCIONARIOS.en = [
   {
     id: "fire-hydrant",
     palabra: "Fire hydrant",
-    imagen: { id: 36413, alt: "A fire hose" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A water point in the street that firefighters use to connect their hoses.",
     sinonimos: ["hydrant"],
     ejemplo: { palabra: "fire hydrant", texto: "The firefighters connected the hose to the fire hydrant on the street." },
@@ -7687,7 +7687,7 @@ DICCIONARIOS.en = [
   {
     id: "virtual-assistant",
     palabra: "Virtual assistant",
-    imagen: { id: 8336, alt: "A round speaker" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A program that answers when you talk to it. It can play music, tell the time, or answer questions.",
     sinonimos: ["voice assistant"],
     ejemplo: { palabra: "virtual assistant", texto: "She asked the virtual assistant to put the radio on." },
@@ -8427,7 +8427,7 @@ DICCIONARIOS.en = [
   {
     id: "co-debtor",
     palabra: "Co-debtor",
-    imagen: { id: 6008, alt: "Two people signing the same document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who signs a loan with you and also has to pay the money back if you cannot.",
     sinonimos: ["co-borrower"],
     ejemplo: { palabra: "co-debtor", texto: "His father was the co-debtor on the car loan." },
@@ -8817,7 +8817,7 @@ DICCIONARIOS.en = [
   {
     id: "damp",
     palabra: "Damp",
-    imagen: { id: 2860, alt: "A dark stain on a wall" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Water that stays in the walls or the ceiling of a house and does not dry.",
     sinonimos: ["water stain"],
     ejemplo: { palabra: "damp", texto: "Damp appeared on the bathroom ceiling." },
@@ -9197,7 +9197,7 @@ DICCIONARIOS.en = [
   {
     id: "nursery",
     palabra: "Nursery",
-    imagen: { id: 39661, alt: "A building with colourful pictures on the front" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "A place that looks after young children while their parents are at work.",
     sinonimos: ["daycare"],
     ejemplo: { palabra: "nursery", texto: "He took his son to nursery before going to work." },
@@ -9417,7 +9417,7 @@ DICCIONARIOS.en = [
   {
     id: "ct-scan",
     palabra: "CT scan",
-    imagen: { id: 38355, alt: "A round medical machine with a bed" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A medical test that takes many X-ray pictures to see inside the body in detail.",
     sinonimos: ["CAT scan"],
     ejemplo: { palabra: "CT scan", texto: "He had a CT scan of his head after the fall." },
@@ -9587,7 +9587,7 @@ DICCIONARIOS.en = [
   {
     id: "fire-hose-cabinet",
     palabra: "Fire hose cabinet",
-    imagen: { id: 36413, alt: "A red cabinet on a wall with a hose" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A cupboard on the wall of a building with a hose inside, for putting out a big fire.",
     sinonimos: ["hose reel cabinet"],
     ejemplo: { palabra: "fire hose cabinet", texto: "The guard checked the fire hose cabinet in the corridor." },
@@ -9637,7 +9637,7 @@ DICCIONARIOS.en = [
   {
     id: "non-slip-flooring",
     palabra: "Non-slip flooring",
-    imagen: { id: 2575, alt: "A floor with a raised dot texture" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A special floor that stops you slipping, even when it is wet.",
     sinonimos: ["anti-slip floor"],
     ejemplo: { palabra: "non-slip flooring", texto: "They fitted non-slip flooring in the bathroom to prevent falls." },
@@ -10640,7 +10640,7 @@ DICCIONARIOS.en = [
   {
     id: "aggravating-circumstance",
     palabra: "Aggravating circumstance",
-    imagen: { id: 6920, alt: "Increase" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A reason that makes a judge give a bigger punishment.",
     sinonimos: ["reason to increase a punishment"],
     ejemplo: { palabra: "aggravating circumstance", texto: "Using a weapon was an aggravating circumstance at the trial." },
@@ -10710,7 +10710,7 @@ DICCIONARIOS.en = [
   {
     id: "trial-in-absentia",
     palabra: "Trial in absentia",
-    imagen: { id: 8147, alt: "The front of a courthouse" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A trial that goes ahead even though the accused person does not attend.",
     sinonimos: ["trial without the accused present"],
     ejemplo: { palabra: "trial in absentia", texto: "Because he did not appear, there was a trial in absentia." },
@@ -11364,7 +11364,7 @@ DICCIONARIOS.en = [
   {
     id: "cooling-off-period",
     palabra: "Cooling-off period",
-    imagen: { id: 9026, alt: "A person returns an item" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "The days you have to return something bought online without giving a reason.",
     sinonimos: ["days to return an online purchase"],
     ejemplo: { palabra: "cooling-off period", texto: "He returned the shoes within the cooling-off period." },
@@ -11374,7 +11374,7 @@ DICCIONARIOS.en = [
   {
     id: "baggage-claim-tag",
     palabra: "Baggage claim tag",
-    imagen: { id: 11297, alt: "A suitcase" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A small paper you get when you check in your suitcase, so you can collect it later.",
     sinonimos: ["luggage receipt"],
     ejemplo: { palabra: "baggage claim tag", texto: "She kept the baggage claim tag in her pocket." },
@@ -11414,7 +11414,7 @@ DICCIONARIOS.en = [
   {
     id: "excess-baggage",
     palabra: "Excess baggage",
-    imagen: { id: 11297, alt: "A suitcase" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "When your suitcase weighs more than allowed and you have to pay extra.",
     sinonimos: ["a suitcase that is too heavy"],
     ejemplo: { palabra: "excess baggage", texto: "He had to pay for excess baggage at the airport." },
@@ -11806,7 +11806,7 @@ DICCIONARIOS.en = [
   {
     id: "international-transfer-fee",
     palabra: "International transfer fee",
-    imagen: { id: 16909, alt: "A bank transfer" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Money the bank charges for sending money to another country.",
     sinonimos: ["charge for sending money abroad"],
     ejemplo: { palabra: "international transfer fee", texto: "He paid an international transfer fee to send money to his family." },
@@ -11846,7 +11846,7 @@ DICCIONARIOS.en = [
   {
     id: "chargeback",
     palabra: "Chargeback",
-    imagen: { id: 9026, alt: "A person returns an item" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "When the bank gives you back your money after you dispute a charge you do not recognise.",
     sinonimos: ["refund after disputing a charge"],
     ejemplo: { palabra: "chargeback", texto: "He requested a chargeback for a charge he had not made." },
@@ -12138,7 +12138,7 @@ DICCIONARIOS.en = [
   {
     id: "cassation-appeal",
     palabra: "Cassation appeal",
-    imagen: { id: 34479, alt: "A law court" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "An appeal that asks the Supreme Court to check if a trial applied the law correctly.",
     sinonimos: ["appeal to the Supreme Court"],
     ejemplo: { palabra: "cassation appeal", texto: "Her lawyer filed a cassation appeal after losing the trial." },
@@ -12198,7 +12198,7 @@ DICCIONARIOS.en = [
   {
     id: "police-lineup",
     palabra: "Police lineup",
-    imagen: { id: 15984, alt: "A person under suspicion" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "When the police put several people together so a witness can point out who committed a crime.",
     sinonimos: ["line of people to identify a suspect"],
     ejemplo: { palabra: "police lineup", texto: "The witness took part in a police lineup at the station." },
@@ -12399,7 +12399,7 @@ DICCIONARIOS.en = [
   {
     id: "electric-fence",
     palabra: "Electric fence",
-    imagen: { id: 6651, alt: "A metal fence" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A fence that gives a small shock if you touch it, so no one goes through.",
     sinonimos: ["fence that gives a small shock"],
     ejemplo: { palabra: "electric fence", texto: "They put an electric fence around the land." },
@@ -12753,7 +12753,7 @@ DICCIONARIOS.en = [
   {
     id: "return-to-work",
     palabra: "Return to work",
-    imagen: { id: 8207, alt: "A person comes back to their job smiling" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Going back to your job after time off. You work like before again.",
     sinonimos: ["going back to work"],
     ejemplo: { palabra: "return to work", texto: "After the sick leave, your return to work is set for Monday." },
@@ -12797,7 +12797,7 @@ DICCIONARIOS.en = [
   {
     id: "employment-court",
     palabra: "Employment court",
-    imagen: { id: 8336, alt: "The facade of an employment court" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The courts that solve problems between workers and the company.",
     sinonimos: ["labour court"],
     ejemplo: { palabra: "employment court", texto: "She took her dismissal to employment court to claim compensation." },
@@ -13396,7 +13396,7 @@ DICCIONARIOS.en = [
   {
     id: "intruder",
     palabra: "Intruder",
-    imagen: { id: 4674, alt: "A shadowy person climbing through a window" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A person who enters a place without permission. They are not allowed to be there.",
     sinonimos: ["unwanted visitor"],
     ejemplo: { palabra: "intruder", texto: "The alarm went off when the intruder opened the window." },
@@ -14496,7 +14496,7 @@ DICCIONARIOS.en = [
   {
     id: "subsidiary",
     palabra: "Subsidiary",
-    imagen: { id: 24507, alt: "A small shop sign under a large supermarket chain logo" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A company that is owned by a larger company. It usually keeps its own name.",
     sinonimos: ["an owned company"],
     ejemplo: { palabra: "a subsidiary", texto: "The shop is a subsidiary of a big supermarket chain." },
@@ -14506,7 +14506,7 @@ DICCIONARIOS.en = [
   {
     id: "repository",
     palabra: "Repository",
-    imagen: { id: 16078, alt: "A room full of stored official documents" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A place where documents or information are kept safe. You can go there to find official records.",
     sinonimos: ["records storage place"],
     ejemplo: { palabra: "repository", texto: "The certificates are kept in a central repository." },
@@ -15286,7 +15286,7 @@ DICCIONARIOS.en = [
   {
     id: "abstinence",
     palabra: "Abstinence",
-    imagen: { id: 37215, alt: "Alcohol forbidden" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Stopping the use of something completely, like alcohol or drugs.",
     sinonimos: ["giving up alcohol completely", "not drinking at all"],
     ejemplo: { palabra: "abstinence", texto: "The doctor recommended abstinence." },
@@ -15306,7 +15306,7 @@ DICCIONARIOS.en = [
   {
     id: "accredited",
     palabra: "Accredited",
-    imagen: { id: 21514, alt: "Certified letter" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "Officially recognized as meeting certain standards, like a school or a professional.",
     sinonimos: ["officially recognized", "certified"],
     ejemplo: { palabra: "accredited", texto: "The nursing program she chose is accredited." },
@@ -15346,7 +15346,7 @@ DICCIONARIOS.en = [
   {
     id: "adoptive",
     palabra: "Adoptive",
-    imagen: { id: 24517, alt: "Adoptive family" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Related through adoption rather than birth, like an adoptive parent or child.",
     sinonimos: ["non-biological", "adopted"],
     ejemplo: { palabra: "adoptive", texto: "Her adoptive father came to every school event." },
@@ -15386,7 +15386,7 @@ DICCIONARIOS.en = [
   {
     id: "alcoholism",
     palabra: "Alcoholism",
-    imagen: { id: 26053, alt: "Drunkenness" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A disease. Being unable to stop drinking alcohol, even when it causes harm.",
     sinonimos: ["alcohol addiction", "alcohol dependence"],
     ejemplo: { palabra: "alcoholism", texto: "He got professional help to overcome his alcoholism." },
@@ -15586,7 +15586,7 @@ DICCIONARIOS.en = [
   {
     id: "abstemious",
     palabra: "Abstemious",
-    imagen: { id: 29177, alt: "Drinking forbidden" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Never drinking alcohol.",
     sinonimos: ["someone who never drinks alcohol"],
     ejemplo: { palabra: "abstemious", texto: "He has always been abstemious, even at parties." },
@@ -15596,7 +15596,7 @@ DICCIONARIOS.en = [
   {
     id: "accost",
     palabra: "Accost",
-    imagen: { id: 6878, alt: "Approach" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "To approach and speak to someone in an aggressive or unwanted way.",
     sinonimos: ["approach aggressively", "confront"],
     ejemplo: { palabra: "accost", texto: "A stranger tried to accost her outside the station." },
@@ -15606,7 +15606,7 @@ DICCIONARIOS.en = [
   {
     id: "adjudicate",
     palabra: "Adjudicate",
-    imagen: { id: 30510, alt: "Choose, decide" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To make an official decision about who is right in a dispute.",
     sinonimos: ["decide officially", "rule on"],
     ejemplo: { palabra: "adjudicate", texto: "A judge was asked to adjudicate the dispute." },
@@ -15806,7 +15806,7 @@ DICCIONARIOS.en = [
   {
     id: "angina",
     palabra: "Angina",
-    imagen: { id: 28781, alt: "Chest pain" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Chest pain caused by reduced blood flow to the heart.",
     sinonimos: ["chest pain from the heart"],
     ejemplo: { palabra: "angina", texto: "He felt a sharp angina while climbing the stairs." },
@@ -16196,7 +16196,7 @@ DICCIONARIOS.en = [
   {
     id: "bootlegger",
     palabra: "Bootlegger",
-    imagen: { id: 26626, alt: "Bottles and glasses of alcoholic drinks" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who makes, sells, or transports something illegally, especially alcohol.",
     sinonimos: ["illegal seller"],
     ejemplo: { palabra: "bootlegger", texto: "The bootlegger sold alcohol illegally during Prohibition." },
@@ -16536,7 +16536,7 @@ DICCIONARIOS.en = [
   {
     id: "childcare",
     palabra: "Childcare",
-    imagen: { id: 39661, alt: "A nursery school building with a playground" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The service of looking after young children while their parents work or are busy.",
     sinonimos: ["looking after children"],
     ejemplo: { palabra: "childcare", texto: "She pays for childcare so she can go to work." },
@@ -17186,7 +17186,7 @@ DICCIONARIOS.en = [
   {
     id: "detox",
     palabra: "Detox",
-    imagen: { id: 26626, alt: "Bottles of alcoholic drinks" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A period of stopping the use of alcohol or drugs to remove them from the body.",
     sinonimos: ["a program to stop drug or alcohol use"],
     ejemplo: { palabra: "a detox program", texto: "He entered a detox program after years of heavy drinking." },
@@ -19856,7 +19856,7 @@ DICCIONARIOS.en = [
   {
     id: "patronize",
     palabra: "Patronize",
-    imagen: { id: 10175, alt: "A person scolding someone" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "To treat someone as if they are less intelligent or important than you.",
     sinonimos: ["treat someone as less important than you"],
     ejemplo: { palabra: "patronize him", texto: "She didn't mean to patronize him during the meeting." },
@@ -20606,7 +20606,7 @@ DICCIONARIOS.en = [
   {
     id: "reprimand",
     palabra: "Reprimand",
-    imagen: { id: 10175, alt: "A person scolding someone" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A formal expression of disapproval for something someone has done.",
     sinonimos: ["a formal expression of disapproval"],
     ejemplo: { palabra: "a reprimand", texto: "He received a reprimand for being late repeatedly." },
@@ -21216,7 +21216,7 @@ DICCIONARIOS.en = [
   {
     id: "spammer",
     palabra: "Spammer",
-    imagen: { id: 7190, alt: "A desktop computer" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A person or program that sends large amounts of unwanted messages, often online.",
     sinonimos: ["a person who sends large amounts of unwanted messages"],
     ejemplo: { palabra: "a spammer", texto: "She blocked a spammer on social media." },
@@ -21256,7 +21256,7 @@ DICCIONARIOS.en = [
   {
     id: "spyware",
     palabra: "Spyware",
-    imagen: { id: 7190, alt: "A desktop computer" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Software that secretly collects information from a computer without the user's permission.",
     sinonimos: ["software that secretly collects information without permission"],
     ejemplo: { palabra: "spyware", texto: "The technician found spyware installed on her laptop." },
@@ -21376,7 +21376,7 @@ DICCIONARIOS.en = [
   {
     id: "strep",
     palabra: "Strep",
-    imagen: { id: 3332, alt: "A throat diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A bacterial infection, often affecting the throat, caused by streptococcus bacteria.",
     sinonimos: ["a bacterial infection of the throat"],
     ejemplo: { palabra: "strep throat", texto: "The doctor tested him for strep throat." },
