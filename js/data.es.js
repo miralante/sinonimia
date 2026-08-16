@@ -634,7 +634,7 @@ DICCIONARIOS.es = [
   {
     id: "cedula-habitabilidad",
     palabra: "Cédula de habitabilidad",
-    imagen: { id: 8153, alt: "Una llave que abre la puerta de una vivienda" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Papel que dice que una vivienda es segura para vivir en ella.",
     sinonimos: ["certificado de habitabilidad", "permiso para vivir en la casa"],
     ejemplo: { palabra: "cédula de habitabilidad", texto: "Necesitamos la cédula de habitabilidad para alquilar el piso." },
@@ -1172,7 +1172,7 @@ DICCIONARIOS.es = [
   {
     id: "arrendador",
     palabra: "Arrendador",
-    imagen: { id: 8153, alt: "Una llave que abre una puerta de casa" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "La persona que te deja vivir en su casa a cambio de dinero cada mes.",
     sinonimos: ["dueño que alquila", "propietario que alquila"],
     ejemplo: { palabra: "arrendador", texto: "El arrendador subió el alquiler y avisó con dos meses." },
@@ -1183,7 +1183,7 @@ DICCIONARIOS.es = [
   {
     id: "inquilino",
     palabra: "Inquilino",
-    imagen: { id: 8153, alt: "Una llave que abre una puerta de casa" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "La persona que vive en una casa que no es suya. Paga cada mes al dueño.",
     sinonimos: ["arrendatario", "persona que alquila"],
     ejemplo: { palabra: "inquilino", texto: "El inquilino firmó el contrato por un año." },
@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 34814, alt: "Préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 36403, alt: "Ahorro" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 35413, alt: "Notario" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -8778,7 +8778,7 @@ DICCIONARIOS.es = [
   {
     id: "subarrendar",
     palabra: "Subarrendar",
-    imagen: { id: 8012, alt: "Una llave pasando de una mano a otra dentro de una casa" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Alquilar tú una parte de la casa que ya tienes alquilada, a otra persona.",
     sinonimos: ["realquilar"],
     ejemplo: { palabra: "subarrendó", texto: "Subarrendó una habitación de su piso a un estudiante." },
@@ -13962,7 +13962,7 @@ DICCIONARIOS.es = [
   {
     id: "recurso-contencioso",
     palabra: "Recurso contencioso",
-    imagen: { id: 8147, alt: "Una persona entregando una demanda en un tribunal" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Una demanda contra una decisión de la Administración. Se presenta ante un tribunal.",
     sinonimos: ["pleito administrativo"],
     ejemplo: { palabra: "recurso contencioso", texto: "Presentó un recurso contencioso contra la multa." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 8483, alt: "Frontera, aduana" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
