@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 34814, alt: "Préstamo" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 36403, alt: "Ahorro" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 11291, alt: "Juez, magistrado" },
+    imagen: { id: 35413, alt: "Notario" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -7418,7 +7418,7 @@ DICCIONARIOS.es = [
   {
     id: "alarma-de-coche",
     palabra: "Alarma de coche",
-    imagen: { id: 6891, alt: "Una sirena de alarma sonando" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Un sonido fuerte que suena si alguien intenta entrar o mover el coche sin permiso.",
     sinonimos: ["alarma del vehículo", "antirrobo del coche"],
     ejemplo: { palabra: "alarma de coche", texto: "La alarma de coche sonó cuando alguien tocó la puerta." },
@@ -7838,7 +7838,7 @@ DICCIONARIOS.es = [
   {
     id: "sensor-de-movimiento",
     palabra: "Sensor de movimiento",
-    imagen: { id: 3409, alt: "Una cámara de vigilancia" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Un aparato que detecta si alguien se mueve cerca. Puede encender una luz o una alarma.",
     sinonimos: ["detector de movimiento"],
     ejemplo: { palabra: "sensor de movimiento", texto: "El sensor de movimiento encendió la luz del jardín al pasar el gato." },
@@ -9518,7 +9518,7 @@ DICCIONARIOS.es = [
   {
     id: "amortizacion-anticipada",
     palabra: "Amortización anticipada",
-    imagen: { id: 6457, alt: "Una mano entregando dinero para pagar una deuda antes de tiempo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Pagar antes de tiempo parte o todo el dinero que debes de un préstamo.",
     sinonimos: ["pago anticipado del préstamo"],
     ejemplo: { palabra: "amortización anticipada", texto: "Hizo una amortización anticipada de la hipoteca con la paga extra." },
@@ -11132,7 +11132,7 @@ DICCIONARIOS.es = [
   {
     id: "camara-trasera",
     palabra: "Cámara trasera",
-    imagen: { id: 3409, alt: "Una cámara de vídeo" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Una cámara del coche que muestra lo que hay detrás cuando das marcha atrás.",
     sinonimos: ["cámara de marcha atrás"],
     ejemplo: { palabra: "cámara trasera", texto: "Usó la cámara trasera para aparcar en el garaje." },
@@ -12600,7 +12600,7 @@ DICCIONARIOS.es = [
   {
     id: "camara-termica",
     palabra: "Cámara térmica",
-    imagen: { id: 3409, alt: "Una cámara de vídeo" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Una cámara que ve el calor de las personas, útil para buscar a alguien entre humo.",
     sinonimos: ["cámara que ve el calor"],
     ejemplo: { palabra: "cámara térmica", texto: "Los bomberos usaron una cámara térmica para encontrarlo entre el humo." },
@@ -12812,7 +12812,7 @@ DICCIONARIOS.es = [
   {
     id: "permiso-lactancia",
     palabra: "Permiso de lactancia",
-    imagen: { id: 6017, alt: "Una madre dando el pecho a un bebé" },
+    imagen: { id: 37608, alt: "Amamantar, dar el pecho, lactancia" },
     definicion: "Tiempo libre que tienen los padres para dar de mamar o cuidar a un bebé recién nacido.",
     sinonimos: ["tiempo para lactar"],
     ejemplo: { palabra: "permiso de lactancia", texto: "Pidió el permiso de lactancia hasta que su hija cumpliera nueve meses." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 21802, alt: "Documento" },
+    imagen: { id: 8483, alt: "Frontera, aduana" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
@@ -15742,7 +15742,7 @@ DICCIONARIOS.es = [
   {
     id: "adquiriente",
     palabra: "Adquiriente",
-    imagen: { id: 6457, alt: "Una persona paga a cambio de un regalo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "La persona o empresa que compra algo, sobre todo en un contrato.",
     sinonimos: ["comprador"],
     ejemplo: { palabra: "adquiriente", texto: "El adquiriente firmó el contrato de compraventa." },
@@ -16152,7 +16152,7 @@ DICCIONARIOS.es = [
   {
     id: "asmatico",
     palabra: "Asmático",
-    imagen: { id: 6017, alt: "Una persona usa un inhalador" },
+    imagen: { id: 23761, alt: "Asma" },
     definicion: "Que tiene asma. Le cuesta respirar, sobre todo al hacer esfuerzo.",
     sinonimos: ["una persona con asma"],
     ejemplo: { palabra: "asmático", texto: "Es asmático y siempre lleva su inhalador." },
