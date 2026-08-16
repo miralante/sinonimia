@@ -286,7 +286,7 @@ DICCIONARIOS.en = [
   {
     id: "redundancy",
     palabra: "Redundancy",
-    imagen: { id: 21531, alt: "A boss dismisses a worker in the office" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The end of your job. The company no longer needs your role.",
     sinonimos: ["job loss", "layoff"],
     ejemplo: { palabra: "redundancy", texto: "He got a letter about his redundancy last week." },
@@ -1333,7 +1333,7 @@ DICCIONARIOS.en = [
   {
     id: "proof-of-receipt",
     palabra: "Proof of receipt",
-    imagen: { id: 27677, alt: "A proof of receipt" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A small paper. It shows the other person got your letter.",
     sinonimos: ["delivery slip", "paper slip"],
     ejemplo: { palabra: "proof of receipt", texto: "They gave him a proof of receipt when he handed in the form." },
@@ -1353,7 +1353,7 @@ DICCIONARIOS.en = [
   {
     id: "proof-of-address",
     palabra: "Proof of address",
-    imagen: { id: 27677, alt: "A proof of address" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A paper from the council. It says where you live right now.",
     sinonimos: ["address paper", "register paper"],
     ejemplo: { palabra: "proof of address", texto: "She asked for a proof of address at the council." },
@@ -3707,7 +3707,7 @@ DICCIONARIOS.en = [
   {
     id: "unfair-dismissal",
     palabra: "Unfair dismissal",
-    imagen: { id: 21531, alt: "A hand gives a dismissal paper" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A dismissal that does not follow the rules of the law. The worker can claim.",
     sinonimos: ["invalid dismissal"],
     ejemplo: { palabra: "unfair dismissal", texto: "The judge called the dismissal unfair dismissal and the company had to take him back." },
@@ -3717,7 +3717,7 @@ DICCIONARIOS.en = [
   {
     id: "fair-dismissal",
     palabra: "Fair dismissal",
-    imagen: { id: 21531, alt: "A hand gives a dismissal paper" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A dismissal that does follow the rules of the law. You cannot claim.",
     sinonimos: ["lawful dismissal"],
     ejemplo: { palabra: "fair dismissal", texto: "The judge called the dismissal fair dismissal and the worker got no payout." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -5543,7 +5543,7 @@ DICCIONARIOS.en = [
   {
     id: "passbook",
     palabra: "Passbook",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 4678, alt: "Bankbook, passbook" },
     definicion: "A bank book where the money going in and out of your account is written down. Many banks no longer use it today.",
     sinonimos: ["savings book", "bank book"],
     ejemplo: { palabra: "passbook", texto: "He updated the passbook at the branch." },
@@ -6207,7 +6207,7 @@ DICCIONARIOS.en = [
   {
     id: "calendar",
     palabra: "Calendar",
-    imagen: { id: 8717, alt: "Vida" },
+    imagen: { id: 3071, alt: "Calendar, yearbook, almanac" },
     definicion: "A paper or an app that shows the days, weeks and months of the year. It helps you remember dates.",
     sinonimos: ["almanac"],
     ejemplo: { palabra: "calendar", texto: "She wrote the doctor's appointment on the calendar." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 2402, alt: "Biscuits, cookies" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -8097,7 +8097,7 @@ DICCIONARIOS.en = [
   {
     id: "insurance-policy",
     palabra: "Insurance policy",
-    imagen: { id: 21557, alt: "A document with a signature at the bottom" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "The document you sign when you take out insurance. It explains what is covered and what is not.",
     sinonimos: ["policy document"],
     ejemplo: { palabra: "insurance policy", texto: "He read the insurance policy carefully before signing the car insurance." },
@@ -9077,7 +9077,7 @@ DICCIONARIOS.en = [
   {
     id: "freelance-contract",
     palabra: "Freelance contract",
-    imagen: { id: 21557, alt: "Two people shaking hands over a document" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A type of contract for working with a company on your own, without being a regular employee.",
     sinonimos: ["service contract"],
     ejemplo: { palabra: "freelance contract", texto: "She signed a freelance contract to do a one-off project." },
@@ -9947,7 +9947,7 @@ DICCIONARIOS.en = [
   {
     id: "banker-s-draft",
     palabra: "Banker's draft",
-    imagen: { id: 16605, alt: "A cheque with a bank stamp" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A paper from the bank that guarantees the money is available, safer than a normal cheque.",
     sinonimos: ["certified cheque"],
     ejemplo: { palabra: "banker's draft", texto: "He paid for the kitchen renovation with a banker's draft." },
@@ -10248,7 +10248,7 @@ DICCIONARIOS.en = [
   {
     id: "bounced-cheque",
     palabra: "Bounced cheque",
-    imagen: { id: 16605, alt: "A bank cheque" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A cheque the bank will not pay because there is not enough money in the account.",
     sinonimos: ["cheque with no funds"],
     ejemplo: { palabra: "bounced cheque", texto: "The supplier got a bounced cheque and was not paid." },
@@ -11032,7 +11032,7 @@ DICCIONARIOS.en = [
   {
     id: "certificate-of-good-standing",
     palabra: "Certificate of good standing",
-    imagen: { id: 27677, alt: "A certificate" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A paper that proves a company is legally active and has no problems with its registration.",
     sinonimos: ["paper proving a company is in order"],
     ejemplo: { palabra: "certificate of good standing", texto: "The bank asked for a certificate of good standing before the loan." },
@@ -11042,7 +11042,7 @@ DICCIONARIOS.en = [
   {
     id: "tax-clearance-certificate",
     palabra: "Tax clearance certificate",
-    imagen: { id: 27677, alt: "A certificate" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A paper that proves you have paid all your taxes and owe nothing.",
     sinonimos: ["paper proving your taxes are paid"],
     ejemplo: { palabra: "tax clearance certificate", texto: "She needed a tax clearance certificate to apply for the grant." },
@@ -11052,7 +11052,7 @@ DICCIONARIOS.en = [
   {
     id: "negative-certificate",
     palabra: "Negative certificate",
-    imagen: { id: 27677, alt: "A certificate" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "An official paper that says something does not exist or has not happened.",
     sinonimos: ["paper confirming something does not exist"],
     ejemplo: { palabra: "negative certificate", texto: "He asked for a negative certificate of a criminal record for the job." },
@@ -11153,7 +11153,7 @@ DICCIONARIOS.en = [
   {
     id: "collective-redundancy",
     palabra: "Collective redundancy",
-    imagen: { id: 21531, alt: "A boss dismisses a worker in the office" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "When a company dismisses many workers at once because of money problems.",
     sinonimos: ["mass layoff"],
     ejemplo: { palabra: "collective redundancy", texto: "The factory announced a collective redundancy affecting a hundred people." },
@@ -11163,7 +11163,7 @@ DICCIONARIOS.en = [
   {
     id: "furlough",
     palabra: "Furlough",
-    imagen: { id: 21531, alt: "A boss dismisses a worker in the office" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "When a company stops giving work for a while, without fully dismissing anyone.",
     sinonimos: ["temporary work stoppage"],
     ejemplo: { palabra: "furlough", texto: "The company put the staff on furlough for two months." },
@@ -11605,7 +11605,7 @@ DICCIONARIOS.en = [
   {
     id: "social-energy-discount",
     palabra: "Social energy discount",
-    imagen: { id: 15519, alt: "Poverty" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "A discount on the power bill for families with low income.",
     sinonimos: ["power discount for low-income families"],
     ejemplo: { palabra: "social energy discount", texto: "She applied for the social energy discount after losing her job." },
@@ -11736,7 +11736,7 @@ DICCIONARIOS.en = [
   {
     id: "bill-of-exchange",
     palabra: "Bill of exchange",
-    imagen: { id: 16605, alt: "A bank cheque" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A paper that promises to pay an amount of money on a future date.",
     sinonimos: ["deferred payment paper"],
     ejemplo: { palabra: "bill of exchange", texto: "The supplier accepted a bill of exchange due in thirty days." },
@@ -11746,7 +11746,7 @@ DICCIONARIOS.en = [
   {
     id: "promissory-note",
     palabra: "Promissory note",
-    imagen: { id: 16605, alt: "A bank cheque" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A signed paper where someone promises to pay you an amount of money on a set date.",
     sinonimos: ["signed promise to pay"],
     ejemplo: { palabra: "promissory note", texto: "He signed a promissory note to pay back the money in three months." },
@@ -12158,7 +12158,7 @@ DICCIONARIOS.en = [
   {
     id: "legal-finality",
     palabra: "Legal finality",
-    imagen: { id: 34480, alt: "A law court" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "When a trial has fully ended and the same matter cannot be judged again.",
     sinonimos: ["a matter decided for good"],
     ejemplo: { palabra: "legal finality", texto: "The judge rejected the case because of legal finality." },
@@ -12298,7 +12298,7 @@ DICCIONARIOS.en = [
   {
     id: "constitutional-appeal",
     palabra: "Constitutional appeal",
-    imagen: { id: 34480, alt: "A law court" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "An appeal to the Constitutional Court when you believe a fundamental right has been violated.",
     sinonimos: ["appeal for a violated fundamental right"],
     ejemplo: { palabra: "constitutional appeal", texto: "She filed a constitutional appeal with the Constitutional Court." },
@@ -12318,7 +12318,7 @@ DICCIONARIOS.en = [
   {
     id: "exempting-circumstance",
     palabra: "Exempting circumstance",
-    imagen: { id: 34480, alt: "A law court" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A reason that makes a person receive no punishment at all for what they did.",
     sinonimos: ["reason that removes all punishment"],
     ejemplo: { palabra: "exempting circumstance", texto: "The judge found an exempting circumstance because of the accused's health." },
@@ -14226,7 +14226,7 @@ DICCIONARIOS.en = [
   {
     id: "lien",
     palabra: "Lien",
-    imagen: { id: 34480, alt: "A car with a legal document attached to it" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A legal claim on someone's property because of a debt. The property cannot be sold until the debt is paid.",
     sinonimos: ["legal hold"],
     ejemplo: { palabra: "lien", texto: "The bank placed a lien on the car until the loan was paid." },
@@ -14516,7 +14516,7 @@ DICCIONARIOS.en = [
   {
     id: "litigation",
     palabra: "Litigation",
-    imagen: { id: 34480, alt: "Two lawyers arguing a case in front of a judge" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The process of settling a disagreement through the court system. It usually involves lawyers on both sides.",
     sinonimos: ["legal proceedings"],
     ejemplo: { palabra: "litigation", texto: "The dispute ended in litigation." },
@@ -15976,7 +15976,7 @@ DICCIONARIOS.en = [
   {
     id: "assignee",
     palabra: "Assignee",
-    imagen: { id: 21557, alt: "A person signs an official contract" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who officially receives rights or property from someone else.",
     sinonimos: ["person who receives rights or property"],
     ejemplo: { palabra: "assignee", texto: "The contract named her as the assignee of the lease." },
@@ -15986,7 +15986,7 @@ DICCIONARIOS.en = [
   {
     id: "assignor",
     palabra: "Assignor",
-    imagen: { id: 21557, alt: "A person signs an official contract" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who officially gives their rights or property to someone else.",
     sinonimos: ["person who gives away rights or property"],
     ejemplo: { palabra: "assignor", texto: "The assignor signed the contract to transfer the lease." },
@@ -17166,7 +17166,7 @@ DICCIONARIOS.en = [
   {
     id: "destitute",
     palabra: "Destitute",
-    imagen: { id: 15519, alt: "A sad person asking for money" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Extremely poor, without money, food, or a place to live.",
     sinonimos: ["extremely poor and without a home"],
     ejemplo: { palabra: "destitute", texto: "The charity helps families who have become destitute after losing their jobs." },
@@ -18086,7 +18086,7 @@ DICCIONARIOS.en = [
   {
     id: "gestation",
     palabra: "Gestation",
-    imagen: { id: 11250, alt: "Pregnancy, gestation" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The period of time during which a baby develops inside the womb before birth.",
     sinonimos: ["the period before birth"],
     ejemplo: { palabra: "gestation", texto: "Doctors monitor gestation closely during high-risk pregnancies." },
@@ -19846,7 +19846,7 @@ DICCIONARIOS.en = [
   {
     id: "pauper",
     palabra: "Pauper",
-    imagen: { id: 15519, alt: "A sad person asking for money" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A very poor person who has little or no money.",
     sinonimos: ["a very poor person"],
     ejemplo: { palabra: "a pauper", texto: "He died a pauper after losing all his savings." },
@@ -21266,7 +21266,7 @@ DICCIONARIOS.en = [
   {
     id: "squalor",
     palabra: "Squalor",
-    imagen: { id: 15519, alt: "A sad person asking for money" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A dirty and very poor living condition.",
     sinonimos: ["a dirty and very poor living condition"],
     ejemplo: { palabra: "squalor", texto: "The inspectors found the children living in squalor." },
@@ -21786,7 +21786,7 @@ DICCIONARIOS.en = [
   {
     id: "vagrancy",
     palabra: "Vagrancy",
-    imagen: { id: 15519, alt: "A sad person asking for money" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The state of having no permanent home and moving from place to place, sometimes treated as a legal offense.",
     sinonimos: ["having no permanent home and moving from place to place"],
     ejemplo: { palabra: "vagrancy", texto: "The old law made vagrancy a criminal offense." },
