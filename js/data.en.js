@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 2402, alt: "Biscuits, cookies" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -8497,7 +8497,7 @@ DICCIONARIOS.en = [
   {
     id: "hearing",
     palabra: "Hearing",
-    imagen: { id: 37671, alt: "A courtroom" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The moment when both sides of a trial speak in front of the judge.",
     sinonimos: ["court hearing"],
     ejemplo: { palabra: "hearing", texto: "The hearing was held on a Tuesday morning." },
@@ -10077,7 +10077,7 @@ DICCIONARIOS.en = [
   {
     id: "small-claims-court",
     palabra: "Small claims court",
-    imagen: { id: 37671, alt: "A courtroom" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A simpler court where you can claim a small amount of money without needing a lawyer.",
     sinonimos: ["small claims procedure"],
     ejemplo: { palabra: "small claims court", texto: "She took the case to the small claims court to get her deposit back." },
@@ -15336,7 +15336,7 @@ DICCIONARIOS.en = [
   {
     id: "adjourned",
     palabra: "Adjourned",
-    imagen: { id: 37671, alt: "An empty courtroom" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Stopped for a while and continued another day, like a court hearing or a meeting.",
     sinonimos: ["postponed", "paused"],
     ejemplo: { palabra: "adjourned", texto: "The judge adjourned the hearing until the following week." },
@@ -15566,7 +15566,7 @@ DICCIONARIOS.en = [
   {
     id: "absentia",
     palabra: "Absentia",
-    imagen: { id: 37671, alt: "An empty courtroom" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Without being present in person, used mostly for a trial or ceremony.",
     sinonimos: ["without being present"],
     ejemplo: { palabra: "in absentia", texto: "He was tried in absentia after leaving the country." },
@@ -15886,7 +15886,7 @@ DICCIONARIOS.en = [
   {
     id: "appellant",
     palabra: "Appellant",
-    imagen: { id: 37671, alt: "An empty courtroom" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who asks a higher court to review a decision.",
     sinonimos: ["person who appeals a decision"],
     ejemplo: { palabra: "appellant", texto: "The appellant asked the court to reverse the ruling." },
@@ -16956,7 +16956,7 @@ DICCIONARIOS.en = [
   {
     id: "courthouse",
     palabra: "Courthouse",
-    imagen: { id: 37671, alt: "An empty courtroom" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A building where legal cases are heard and decided by a judge.",
     sinonimos: ["a building for legal trials"],
     ejemplo: { palabra: "the courthouse", texto: "They met outside the courthouse before the trial began." },
@@ -17326,7 +17326,7 @@ DICCIONARIOS.en = [
   {
     id: "docket",
     palabra: "Docket",
-    imagen: { id: 37671, alt: "An empty courtroom" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "An official list or schedule of cases to be heard in court.",
     sinonimos: ["a court schedule of cases"],
     ejemplo: { palabra: "the docket", texto: "The case was added to the docket for next month." },
@@ -18706,7 +18706,7 @@ DICCIONARIOS.en = [
   {
     id: "juvenile",
     palabra: "Juvenile",
-    imagen: { id: 37671, alt: "An empty courtroom" },
+    imagen: { id: 36977, alt: "Una niña pequeña" },
     definicion: "A young person, usually under 18, especially in relation to the legal system.",
     sinonimos: ["a young person under 18"],
     ejemplo: { palabra: "a juvenile offender", texto: "The court treated him as a juvenile offender due to his age." },
@@ -18906,7 +18906,7 @@ DICCIONARIOS.en = [
   {
     id: "litigant",
     palabra: "Litigant",
-    imagen: { id: 37671, alt: "An empty courtroom" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person or company involved in a lawsuit.",
     sinonimos: ["a person involved in a lawsuit"],
     ejemplo: { palabra: "a litigant", texto: "The judge asked a litigant to present evidence." },
@@ -19136,7 +19136,7 @@ DICCIONARIOS.en = [
   {
     id: "mentee",
     palabra: "Mentee",
-    imagen: { id: 2599, alt: "A person working at a desk" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A person who is guided and advised by a more experienced person.",
     sinonimos: ["a person guided by a more experienced person"],
     ejemplo: { palabra: "a mentee", texto: "She was paired with a mentee to help him learn the job." },
@@ -19246,7 +19246,7 @@ DICCIONARIOS.en = [
   {
     id: "mistrial",
     palabra: "Mistrial",
-    imagen: { id: 37671, alt: "An empty courtroom" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A trial that is declared invalid because of a serious legal error, requiring a new trial.",
     sinonimos: ["a trial declared invalid due to a legal error"],
     ejemplo: { palabra: "a mistrial", texto: "The judge declared a mistrial after the jury could not agree." },
@@ -19386,7 +19386,7 @@ DICCIONARIOS.en = [
   {
     id: "negligent",
     palabra: "Negligent",
-    imagen: { id: 37671, alt: "An empty courtroom" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Failing to take proper care, causing harm or damage to someone.",
     sinonimos: ["failing to take proper care, causing harm"],
     ejemplo: { palabra: "negligent", texto: "The court found the company negligent in the accident." },
@@ -19406,7 +19406,7 @@ DICCIONARIOS.en = [
   {
     id: "nepotism",
     palabra: "Nepotism",
-    imagen: { id: 2599, alt: "A person working at a desk" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Giving jobs or advantages to family members or friends instead of choosing the most qualified person.",
     sinonimos: ["giving jobs to family or friends unfairly"],
     ejemplo: { palabra: "nepotism", texto: "Employees complained about nepotism after the manager hired his nephew." },
@@ -19436,7 +19436,7 @@ DICCIONARIOS.en = [
   {
     id: "nightshift",
     palabra: "Nightshift",
-    imagen: { id: 2599, alt: "A person working at a desk" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A work schedule that takes place during the night instead of the day.",
     sinonimos: ["a work schedule during the night"],
     ejemplo: { palabra: "the nightshift", texto: "She preferred the nightshift because it paid more." },
@@ -19516,7 +19516,7 @@ DICCIONARIOS.en = [
   {
     id: "oath",
     palabra: "Oath",
-    imagen: { id: 37671, alt: "An empty courtroom" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A formal, solemn promise to tell the truth or fulfill a duty.",
     sinonimos: ["a formal solemn promise"],
     ejemplo: { palabra: "an oath", texto: "The witness took an oath before testifying in court." },
@@ -19656,7 +19656,7 @@ DICCIONARIOS.en = [
   {
     id: "outsource",
     palabra: "Outsource",
-    imagen: { id: 2599, alt: "A person working at a desk" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "To pay another company to do work instead of doing it yourself.",
     sinonimos: ["pay another company to do the work"],
     ejemplo: { palabra: "outsource", texto: "The firm decided to outsource its customer service." },
@@ -19706,7 +19706,7 @@ DICCIONARIOS.en = [
   {
     id: "overturn",
     palabra: "Overturn",
-    imagen: { id: 37671, alt: "An empty courtroom" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To officially change or cancel a previous legal decision.",
     sinonimos: ["officially cancel a previous decision"],
     ejemplo: { palabra: "overturn the verdict", texto: "The appeals court voted to overturn the verdict." },
@@ -19746,7 +19746,7 @@ DICCIONARIOS.en = [
   {
     id: "overwork",
     palabra: "Overwork",
-    imagen: { id: 2599, alt: "A person working at a desk" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "To make someone work too much, causing tiredness or stress.",
     sinonimos: ["make someone work too much"],
     ejemplo: { palabra: "overwork herself", texto: "She tends to overwork herself during busy months." },
@@ -19876,7 +19876,7 @@ DICCIONARIOS.en = [
   {
     id: "perjure",
     palabra: "Perjure",
-    imagen: { id: 37671, alt: "An empty courtroom" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To lie while under oath in a court of law.",
     sinonimos: ["lie while under oath in court"],
     ejemplo: { palabra: "perjure himself", texto: "He risked going to prison if he chose to perjure himself." },
@@ -19946,7 +19946,7 @@ DICCIONARIOS.en = [
   {
     id: "petitioner",
     palabra: "Petitioner",
-    imagen: { id: 37671, alt: "An empty courtroom" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who formally asks a court or authority to take a specific action.",
     sinonimos: ["a person who formally asks a court for action"],
     ejemplo: { palabra: "the petitioner", texto: "The judge reviewed the request made by the petitioner." },
@@ -20356,7 +20356,7 @@ DICCIONARIOS.en = [
   {
     id: "quota",
     palabra: "Quota",
-    imagen: { id: 2599, alt: "Three professionals" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A fixed number or amount that must be reached or is allowed.",
     sinonimos: ["a fixed number that must be reached"],
     ejemplo: { palabra: "a sales quota", texto: "Each employee must meet a sales quota every month." },
@@ -20676,7 +20676,7 @@ DICCIONARIOS.en = [
   {
     id: "retrial",
     palabra: "Retrial",
-    imagen: { id: 37671, alt: "An empty courtroom" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A new trial held for a case that has already been tried once.",
     sinonimos: ["a new trial for a case already tried"],
     ejemplo: { palabra: "a retrial", texto: "The judge ordered a retrial after new evidence was found." },
