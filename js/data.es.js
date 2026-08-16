@@ -153,7 +153,7 @@ DICCIONARIOS.es = [
   {
     id: "compulsar",
     palabra: "Compulsar",
-    imagen: { id: 10324, alt: "Un sello de caucho para documentos" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un funcionario mira una copia y confirma que es igual al original.",
     sinonimos: ["cotejar", "certificar una copia"],
     ejemplo: { palabra: "compulsar", texto: "Tienes que compulsar el título antes de entregarlo." },
@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 34814, alt: "Préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 36403, alt: "Ahorro" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 35413, alt: "Notario" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -4128,7 +4128,7 @@ DICCIONARIOS.es = [
   {
     id: "copia-compulsada",
     palabra: "Copia compulsada",
-    imagen: { id: 10324, alt: "Un sello de caucho" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Una copia de un papel que sella una oficina. Dice que es igual al original.",
     sinonimos: ["copia oficial sellada"],
     ejemplo: { palabra: "copia compulsada", texto: "Llevó una copia compulsada del título a la oficina." },
@@ -4832,7 +4832,7 @@ DICCIONARIOS.es = [
   {
     id: "requisitos",
     palabra: "Requisitos",
-    imagen: { id: 7144, alt: "Una lista" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Las cosas que necesitas para pedir un trámite. Sin ellas no te lo dan.",
     sinonimos: ["cosas que necesitas"],
     ejemplo: { palabra: "requisitos", texto: "Los requisitos para el paro son el DNI y la vida laboral." },
@@ -4853,7 +4853,7 @@ DICCIONARIOS.es = [
   {
     id: "sello-oficial",
     palabra: "Sello oficial",
-    imagen: { id: 10324, alt: "Un sello de caucho" },
+    imagen: { id: 2802, alt: "Sello, timbre, estampilla" },
     definicion: "Una marca que pone una oficina del Estado en un papel. Dice que es auténtico.",
     sinonimos: ["marca oficial"],
     ejemplo: { palabra: "sello oficial", texto: "El sello oficial de la comisaría valida la denuncia." },
@@ -7598,7 +7598,7 @@ DICCIONARIOS.es = [
   {
     id: "historial-de-navegacion",
     palabra: "Historial de navegación",
-    imagen: { id: 7144, alt: "Una lista de líneas de texto" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "La lista de todas las páginas web que has visitado antes. Se guarda en el navegador.",
     sinonimos: ["historial de internet", "páginas visitadas"],
     ejemplo: { palabra: "historial de navegación", texto: "Borró el historial de navegación al terminar de usar el ordenador público." },
@@ -12117,7 +12117,7 @@ DICCIONARIOS.es = [
   {
     id: "historial-crediticio",
     palabra: "Historial crediticio",
-    imagen: { id: 7144, alt: "Una lista" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "El registro de todos los préstamos que has pedido y si los has pagado bien.",
     sinonimos: ["registro de tus préstamos anteriores"],
     ejemplo: { palabra: "historial crediticio", texto: "El banco revisó su historial crediticio antes de dar el préstamo." },
@@ -13232,7 +13232,7 @@ DICCIONARIOS.es = [
   {
     id: "inventario",
     palabra: "Inventario",
-    imagen: { id: 7144, alt: "Dos personas revisando una lista en una vivienda" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Una lista completa de todo lo que hay en una vivienda. Se hace al entrar o salir de ella.",
     sinonimos: ["listado de contenido"],
     ejemplo: { palabra: "inventario", texto: "El propietario y el inquilino revisaron el inventario juntos." },
@@ -13452,7 +13452,7 @@ DICCIONARIOS.es = [
   {
     id: "contrabando",
     palabra: "Contrabando",
-    imagen: { id: 8483, alt: "Cajas escondidas revisadas en una frontera" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Mover mercancías o personas de forma ilegal, muchas veces cruzando una frontera. Se hace en secreto para evitar la ley.",
     sinonimos: ["transporte ilegal"],
     ejemplo: { palabra: "contrabando", texto: "Los agentes de aduanas detuvieron el contrabando en la frontera." },
@@ -14002,7 +14002,7 @@ DICCIONARIOS.es = [
   {
     id: "acta-de-conciliacion",
     palabra: "Acta de conciliación",
-    imagen: { id: 10324, alt: "Dos personas firmando un documento de acuerdo" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un documento que recoge el acuerdo entre dos personas que tenían un conflicto. Lo firman las dos partes.",
     sinonimos: ["documento de acuerdo"],
     ejemplo: { palabra: "acta de conciliación", texto: "Firmaron el acta de conciliación en la oficina del juzgado." },
@@ -15152,7 +15152,7 @@ DICCIONARIOS.es = [
   {
     id: "deportacion",
     palabra: "Deportación",
-    imagen: { id: 8483, alt: "Un puesto fronterizo con un agente y una barrera" },
+    imagen: { id: 8997, alt: "Expulsar, expulsión, echar" },
     definicion: "Ser obligado a salir de un país y enviado de vuelta a tu propio país. Lo ordena el gobierno.",
     sinonimos: ["expulsión forzosa"],
     ejemplo: { palabra: "deportación", texto: "Recibió una orden de deportación cuando caducó su visado." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 8483, alt: "Un funcionario revisando la maleta de un viajero en un puesto fronterizo" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15362,7 +15362,7 @@ DICCIONARIOS.es = [
   {
     id: "aduanero",
     palabra: "Aduanero",
-    imagen: { id: 8483, alt: "Un funcionario revisa una maleta en la aduana" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Relacionado con la aduana. El control de las cosas que entran o salen de un país.",
     sinonimos: ["de aduana", "de frontera"],
     ejemplo: { palabra: "aduanero", texto: "Pasó el control aduanero al llegar al aeropuerto." },
@@ -16802,7 +16802,7 @@ DICCIONARIOS.es = [
   {
     id: "consorcio",
     palabra: "Consorcio",
-    imagen: { id: 8581, alt: "Dos personas firman un acuerdo" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Un grupo de empresas que se unen para hacer un proyecto juntas.",
     sinonimos: ["grupo de empresas unidas"],
     ejemplo: { palabra: "consorcio", texto: "Varias empresas formaron un consorcio para construir el puente." },
@@ -17152,7 +17152,7 @@ DICCIONARIOS.es = [
   {
     id: "desocupacion",
     palabra: "Desocupación",
-    imagen: { id: 8581, alt: "Una fábrica" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "La falta de trabajo. No tener un empleo.",
     sinonimos: ["desempleo"],
     ejemplo: { palabra: "la desocupación", texto: "El informe mostró que la desocupación subió mucho ese año." },
@@ -17702,7 +17702,7 @@ DICCIONARIOS.es = [
   {
     id: "flebitis",
     palabra: "Flebitis",
-    imagen: { id: 8666, alt: "Una pierna con los músculos marcados" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una inflamación de una vena que causa dolor, hinchazón y enrojecimiento.",
     sinonimos: ["inflamación de una vena"],
     ejemplo: { palabra: "la flebitis", texto: "El médico diagnosticó la flebitis en la pierna tras la operación." },
@@ -17932,7 +17932,7 @@ DICCIONARIOS.es = [
   {
     id: "hematoma",
     palabra: "Hematoma",
-    imagen: { id: 8666, alt: "Una pierna con los músculos marcados" },
+    imagen: { id: 8170, alt: "Moradura, cardenal, moratón" },
     definicion: "Una acumulación de sangre bajo la piel causada por un golpe, que produce un moretón.",
     sinonimos: ["acumulación de sangre bajo la piel"],
     ejemplo: { palabra: "un hematoma", texto: "Se hizo un hematoma en la pierna al golpearse con la mesa." },
@@ -18452,7 +18452,7 @@ DICCIONARIOS.es = [
   {
     id: "mayorista",
     palabra: "Mayorista",
-    imagen: { id: 8581, alt: "Un edificio de una fábrica" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Una empresa que vende productos en grandes cantidades a otras empresas, no directamente al público.",
     sinonimos: ["empresa que vende en grandes cantidades"],
     ejemplo: { palabra: "al mayorista", texto: "La tienda compra la mercancía al mayorista para venderla más barata." },
@@ -18792,7 +18792,7 @@ DICCIONARIOS.es = [
   {
     id: "paralisis",
     palabra: "Parálisis",
-    imagen: { id: 8666, alt: "Una pierna con los músculos marcados" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "La pérdida de la capacidad de mover una parte del cuerpo.",
     sinonimos: ["pérdida de la capacidad de mover el cuerpo"],
     ejemplo: { palabra: "una parálisis en las piernas", texto: "El accidente le provocó una parálisis en las piernas." },
@@ -19702,7 +19702,7 @@ DICCIONARIOS.es = [
   {
     id: "trombosis",
     palabra: "Trombosis",
-    imagen: { id: 8666, alt: "Una pierna" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "La formación de un coágulo de sangre que bloquea un vaso sanguíneo.",
     sinonimos: ["formación de un coágulo que bloquea un vaso sanguíneo"],
     ejemplo: { palabra: "una trombosis", texto: "El médico detectó una trombosis en la pierna del paciente." },
