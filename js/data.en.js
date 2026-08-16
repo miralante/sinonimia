@@ -2389,7 +2389,7 @@ DICCIONARIOS.en = [
   {
     id: "online-banking",
     palabra: "Online banking",
-    imagen: { id: 7190, alt: "A computer" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Doing bank operations from your computer or phone, without going to the office.",
     sinonimos: ["bank by internet"],
     ejemplo: { palabra: "online banking", texto: "She checks her balance through her bank's online banking." },
@@ -2691,7 +2691,7 @@ DICCIONARIOS.en = [
   {
     id: "digitise",
     palabra: "Digitise",
-    imagen: { id: 7190, alt: "A computer" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Turn an old paper into a computer file.",
     sinonimos: ["scan to digital"],
     ejemplo: { palabra: "digitise", texto: "They asked to digitise the old invoices to store them in the cloud." },
@@ -2711,7 +2711,7 @@ DICCIONARIOS.en = [
   {
     id: "online-procedure",
     palabra: "Online procedure",
-    imagen: { id: 7190, alt: "A computer" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "When you do the procedure by internet, without going to the office.",
     sinonimos: ["e-procedure"],
     ejemplo: { palabra: "online procedure", texto: "He filed the request through the tax office online procedure." },
@@ -4281,7 +4281,7 @@ DICCIONARIOS.en = [
   {
     id: "remote-worker",
     palabra: "Remote worker",
-    imagen: { id: 7190, alt: "A computer" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A person who works from home on a computer. They are connected to the company online.",
     sinonimos: ["home worker"],
     ejemplo: { palabra: "remote worker", texto: "She has been a remote worker for two years." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 2402, alt: "Biscuits, cookies" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -7737,7 +7737,7 @@ DICCIONARIOS.en = [
   {
     id: "operating-system",
     palabra: "Operating system",
-    imagen: { id: 7190, alt: "A computer" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "The main program that makes a computer or a phone work inside.",
     sinonimos: ["device software"],
     ejemplo: { palabra: "operating system", texto: "He updated his phone's operating system so it would work better." },
@@ -9547,7 +9547,7 @@ DICCIONARIOS.en = [
   {
     id: "mental-health",
     palabra: "Mental health",
-    imagen: { id: 2696, alt: "A brain" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The wellbeing of your mind: how you think, how you feel, and how you cope with everyday problems.",
     sinonimos: ["emotional wellbeing"],
     ejemplo: { palabra: "mental health", texto: "He started looking after his mental health by seeing a psychologist." },
@@ -15756,7 +15756,7 @@ DICCIONARIOS.en = [
   {
     id: "amnesiac",
     palabra: "Amnesiac",
-    imagen: { id: 2696, alt: "A drawing of the human brain" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A person who has lost part or all of their memory.",
     sinonimos: ["person with memory loss"],
     ejemplo: { palabra: "amnesiac", texto: "The amnesiac could not recognize his own family." },
@@ -16176,7 +16176,7 @@ DICCIONARIOS.en = [
   {
     id: "blockchain",
     palabra: "Blockchain",
-    imagen: { id: 7190, alt: "A computer with a document" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A digital system that records information in a way that is very hard to change or fake.",
     sinonimos: ["secure digital record system"],
     ejemplo: { palabra: "a blockchain", texto: "The company used a blockchain to track every payment." },
@@ -16826,7 +16826,7 @@ DICCIONARIOS.en = [
   {
     id: "concussion",
     palabra: "Concussion",
-    imagen: { id: 2696, alt: "A brain diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A brain injury caused by a hit or blow to the head, which can cause confusion or dizziness.",
     sinonimos: ["a brain injury from a hit to the head"],
     ejemplo: { palabra: "a concussion", texto: "He suffered a concussion after falling off his bike." },
@@ -16976,7 +16976,7 @@ DICCIONARIOS.en = [
   {
     id: "craniotomy",
     palabra: "Craniotomy",
-    imagen: { id: 2696, alt: "A brain diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A surgery that removes part of the skull to allow doctors to operate on the brain.",
     sinonimos: ["a surgery on the skull to reach the brain"],
     ejemplo: { palabra: "a craniotomy", texto: "The surgeon performed a craniotomy to remove the tumor." },
@@ -17046,7 +17046,7 @@ DICCIONARIOS.en = [
   {
     id: "cybercrime",
     palabra: "Cybercrime",
-    imagen: { id: 7190, alt: "A desktop computer" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A crime committed using computers or the internet, such as hacking or online fraud.",
     sinonimos: ["a crime committed online"],
     ejemplo: { palabra: "cybercrime", texto: "The police created a new unit to investigate cybercrime." },
@@ -17346,7 +17346,7 @@ DICCIONARIOS.en = [
   {
     id: "dopamine",
     palabra: "Dopamine",
-    imagen: { id: 2696, alt: "A brain diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A chemical in the brain that affects mood, motivation, and feelings of pleasure.",
     sinonimos: ["a brain chemical linked to pleasure"],
     ejemplo: { palabra: "dopamine levels", texto: "Exercise can increase dopamine levels in the brain." },
@@ -18106,7 +18106,7 @@ DICCIONARIOS.en = [
   {
     id: "glioma",
     palabra: "Glioma",
-    imagen: { id: 2696, alt: "A brain diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A type of tumor that grows in the brain or spinal cord.",
     sinonimos: ["a tumor in the brain or spinal cord"],
     ejemplo: { palabra: "a glioma", texto: "The scan revealed a glioma pressing on his brain." },
@@ -18736,7 +18736,7 @@ DICCIONARIOS.en = [
   {
     id: "keylogger",
     palabra: "Keylogger",
-    imagen: { id: 7190, alt: "A desktop computer" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A program that secretly records everything a person types on a keyboard.",
     sinonimos: ["a program that secretly records what someone types"],
     ejemplo: { palabra: "a keylogger", texto: "The hacker installed a keylogger to steal her passwords." },
@@ -19776,7 +19776,7 @@ DICCIONARIOS.en = [
   {
     id: "paranoid",
     palabra: "Paranoid",
-    imagen: { id: 2696, alt: "A brain diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Feeling that other people are trying to harm you, even without proof.",
     sinonimos: ["feeling that others are trying to harm you without proof"],
     ejemplo: { palabra: "paranoid", texto: "He became paranoid that his coworkers were talking about him." },
@@ -19986,7 +19986,7 @@ DICCIONARIOS.en = [
   {
     id: "phobia",
     palabra: "Phobia",
-    imagen: { id: 2696, alt: "A brain diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "An intense and irrational fear of a specific thing or situation.",
     sinonimos: ["an intense irrational fear"],
     ejemplo: { palabra: "a phobia", texto: "He developed a phobia of enclosed spaces after the accident." },
@@ -20006,7 +20006,7 @@ DICCIONARIOS.en = [
   {
     id: "pituitary",
     palabra: "Pituitary",
-    imagen: { id: 2696, alt: "A brain diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A small gland in the brain that controls hormones affecting growth and other body functions.",
     sinonimos: ["a gland that controls hormones"],
     ejemplo: { palabra: "the pituitary gland", texto: "Doctors examined the pituitary gland after her symptoms began." },
@@ -20036,7 +20036,7 @@ DICCIONARIOS.en = [
   {
     id: "piracy",
     palabra: "Piracy",
-    imagen: { id: 7190, alt: "A desktop computer" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "The illegal copying or use of someone else's creative work, such as movies or music.",
     sinonimos: ["illegal copying of someone's creative work"],
     ejemplo: { palabra: "piracy", texto: "The company lost money because of online piracy of its films." },
@@ -20296,7 +20296,7 @@ DICCIONARIOS.en = [
   {
     id: "psychiatry",
     palabra: "Psychiatry",
-    imagen: { id: 2696, alt: "A brain diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The branch of medicine that studies and treats mental illness.",
     sinonimos: ["the branch of medicine that treats mental illness"],
     ejemplo: { palabra: "psychiatry", texto: "She decided to specialize in psychiatry after medical school." },
@@ -20346,7 +20346,7 @@ DICCIONARIOS.en = [
   {
     id: "pyromania",
     palabra: "Pyromania",
-    imagen: { id: 2696, alt: "A brain diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A strong urge to deliberately set fires.",
     sinonimos: ["a strong urge to deliberately set fires"],
     ejemplo: { palabra: "pyromania", texto: "The therapist explained how pyromania is treated with counseling." },
@@ -20386,7 +20386,7 @@ DICCIONARIOS.en = [
   {
     id: "radicalize",
     palabra: "Radicalize",
-    imagen: { id: 2696, alt: "A brain diagram" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "To cause someone to adopt extreme political or religious beliefs, often leading to violence.",
     sinonimos: ["cause someone to adopt extreme beliefs"],
     ejemplo: { palabra: "radicalize young people", texto: "Officials worried the group could radicalize young people online." },
@@ -20416,7 +20416,7 @@ DICCIONARIOS.en = [
   {
     id: "ransomware",
     palabra: "Ransomware",
-    imagen: { id: 7190, alt: "A desktop computer" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A type of malicious software that blocks access to a computer or its files until money is paid.",
     sinonimos: ["software that blocks files until money is paid"],
     ejemplo: { palabra: "ransomware", texto: "The hospital's computers were infected with ransomware last week." },
