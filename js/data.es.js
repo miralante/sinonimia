@@ -164,7 +164,7 @@ DICCIONARIOS.es = [
   {
     id: "apostilla",
     palabra: "Apostilla",
-    imagen: { id: 2802, alt: "Un sello oficial" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Sello oficial que hace válido un documento en otro país.",
     sinonimos: ["sello internacional", "certificado para el extranjero"],
     ejemplo: { palabra: "apostilla", texto: "Necesita la apostilla para usar el certificado en otro país." },
@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 34814, alt: "Préstamo" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2025,7 +2025,7 @@ DICCIONARIOS.es = [
   {
     id: "calambre",
     palabra: "Calambre",
-    imagen: { id: 2891, alt: "Un músculo" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un músculo se aprieta solo y duele mucho. Dura unos segundos.",
     sinonimos: ["contractura dolorosa"],
     ejemplo: { palabra: "calambre", texto: "Le dio un calambre en la pierna mientras nadaba." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 36403, alt: "Ahorro" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 11291, alt: "Juez, magistrado" },
+    imagen: { id: 35413, alt: "Notario" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -9838,7 +9838,7 @@ DICCIONARIOS.es = [
   {
     id: "enchufe-inteligente",
     palabra: "Enchufe inteligente",
-    imagen: { id: 2373, alt: "Un enchufe conectado a un móvil por ondas" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Un enchufe que se puede encender y apagar desde el móvil, sin tocarlo con la mano.",
     sinonimos: ["enchufe con wifi"],
     ejemplo: { palabra: "enchufe inteligente", texto: "Apagó la lámpara con el enchufe inteligente desde la cama." },
@@ -10670,7 +10670,7 @@ DICCIONARIOS.es = [
   {
     id: "teclado-virtual",
     palabra: "Teclado virtual",
-    imagen: { id: 2793, alt: "Un teclado" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "El teclado que aparece en la pantalla del móvil o la tableta para escribir.",
     sinonimos: ["teclado en pantalla"],
     ejemplo: { palabra: "teclado virtual", texto: "Escribió el mensaje con el teclado virtual del móvil." },
@@ -10750,7 +10750,7 @@ DICCIONARIOS.es = [
   {
     id: "autocompletar",
     palabra: "Autocompletar",
-    imagen: { id: 2793, alt: "Un teclado" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Cuando el móvil termina de escribir una palabra o una frase por ti.",
     sinonimos: ["completar el texto automáticamente"],
     ejemplo: { palabra: "autocompletar", texto: "El autocompletar le sugirió el final de la frase." },
@@ -11042,7 +11042,7 @@ DICCIONARIOS.es = [
   {
     id: "cubre-enchufes",
     palabra: "Cubre enchufes",
-    imagen: { id: 2373, alt: "Un enchufe" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Una pieza pequeña que tapa el enchufe para que un niño no meta los dedos.",
     sinonimos: ["tapa de enchufe"],
     ejemplo: { palabra: "cubre enchufes", texto: "Puso cubre enchufes en toda la casa." },
@@ -11223,7 +11223,7 @@ DICCIONARIOS.es = [
   {
     id: "visado",
     palabra: "Visado",
-    imagen: { id: 2802, alt: "Un sello" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un permiso especial que un país te da para poder entrar y quedarte allí.",
     sinonimos: ["permiso de entrada a un país"],
     ejemplo: { palabra: "visado", texto: "Tramitó el visado antes de viajar a ese país." },
@@ -14562,7 +14562,7 @@ DICCIONARIOS.es = [
   {
     id: "poder-judicial",
     palabra: "Poder judicial",
-    imagen: { id: 2957, alt: "Un edificio de juzgado representando el sistema judicial" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "La parte del Estado formada por los jueces y los tribunales. Decide cómo se aplica la ley a cada caso.",
     sinonimos: ["sistema de tribunales"],
     ejemplo: { palabra: "poder judicial", texto: "El poder judicial es independiente del gobierno." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 21802, alt: "Documento" },
+    imagen: { id: 8483, alt: "Frontera, aduana" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
@@ -16192,7 +16192,7 @@ DICCIONARIOS.es = [
   {
     id: "atrofiar",
     palabra: "Atrofiar",
-    imagen: { id: 2891, alt: "Una persona con la pierna vendada" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Perder fuerza o tamaño un músculo u órgano por falta de uso.",
     sinonimos: ["debilitar"],
     ejemplo: { palabra: "atrofiar", texto: "La falta de movimiento puede atrofiar un músculo." },
@@ -18912,7 +18912,7 @@ DICCIONARIOS.es = [
   {
     id: "pericarditis",
     palabra: "Pericarditis",
-    imagen: { id: 2715, alt: "Un corazón" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una inflamación de la membrana que rodea el corazón.",
     sinonimos: ["inflamación de la membrana del corazón"],
     ejemplo: { palabra: "pericarditis", texto: "El cardiólogo diagnosticó pericarditis tras el dolor en el pecho." },
@@ -19392,7 +19392,7 @@ DICCIONARIOS.es = [
   {
     id: "sarcopenia",
     palabra: "Sarcopenia",
-    imagen: { id: 2891, alt: "Una pierna con los músculos marcados" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "La pérdida progresiva de masa y fuerza muscular asociada al envejecimiento.",
     sinonimos: ["pérdida de masa muscular por la edad"],
     ejemplo: { palabra: "la sarcopenia", texto: "El médico recomendó ejercicio para prevenir la sarcopenia." },
@@ -19842,7 +19842,7 @@ DICCIONARIOS.es = [
   {
     id: "viruela",
     palabra: "Viruela",
-    imagen: { id: 2840, alt: "Piel" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una enfermedad infecciosa grave que causaba ampollas en la piel, hoy erradicada gracias a la vacuna.",
     sinonimos: ["enfermedad infecciosa grave con ampollas en la piel"],
     ejemplo: { palabra: "la viruela", texto: "La vacuna consiguió eliminar la viruela en todo el mundo." },
@@ -19862,7 +19862,7 @@ DICCIONARIOS.es = [
   {
     id: "vitiligo",
     palabra: "Vitíligo",
-    imagen: { id: 2840, alt: "Piel" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una enfermedad de la piel que hace que aparezcan manchas blancas por la pérdida de pigmento.",
     sinonimos: ["enfermedad de la piel con manchas blancas"],
     ejemplo: { palabra: "vitíligo", texto: "El dermatólogo le diagnosticó vitíligo en las manos." },
