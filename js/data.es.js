@@ -404,7 +404,7 @@ DICCIONARIOS.es = [
   {
     id: "ambulatorio",
     palabra: "Ambulatorio",
-    imagen: { id: 3116, alt: "Un hospital" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "No hace falta quedarse en el hospital. Vuelves a casa el mismo día.",
     sinonimos: ["sin ingreso"],
     ejemplo: { palabra: "ambulatoria", texto: "Le han dicho que la operación es ambulatoria y podrá volver a casa el mismo día." },
@@ -7968,7 +7968,7 @@ DICCIONARIOS.es = [
   {
     id: "cordon-policial",
     palabra: "Cordón policial",
-    imagen: { id: 2824, alt: "Un agente de policía" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Una cinta o una fila de policías que marca una zona donde no puede pasar la gente.",
     sinonimos: ["cinta policial", "zona acordonada"],
     ejemplo: { palabra: "cordón policial", texto: "La policía puso un cordón policial alrededor del edificio." },
@@ -8908,7 +8908,7 @@ DICCIONARIOS.es = [
   {
     id: "mutua",
     palabra: "Mutua",
-    imagen: { id: 3116, alt: "Un hospital" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "La empresa que atiende y paga si te haces daño o te pones enfermo por culpa del trabajo.",
     sinonimos: ["mutua de accidentes de trabajo"],
     ejemplo: { palabra: "mutua", texto: "La mutua le atendió después de hacerse daño en la fábrica." },
@@ -10559,7 +10559,7 @@ DICCIONARIOS.es = [
   {
     id: "concurso-de-acreedores",
     palabra: "Concurso de acreedores",
-    imagen: { id: 34479, alt: "Un tribunal de justicia" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Un proceso legal para una empresa que no puede pagar a todos a quienes debe dinero.",
     sinonimos: ["proceso legal por deudas de empresa"],
     ejemplo: { palabra: "concurso de acreedores", texto: "La empresa entró en concurso de acreedores y no pudo pagar a los proveedores." },
@@ -12459,7 +12459,7 @@ DICCIONARIOS.es = [
   {
     id: "extradicion",
     palabra: "Extradición",
-    imagen: { id: 2824, alt: "Un agente de policía" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Enviar a una persona a otro país para que la juzguen allí por un delito.",
     sinonimos: ["enviar a alguien a otro país para juzgarlo"],
     ejemplo: { palabra: "extradición", texto: "El gobierno aprobó la extradición del acusado." },
@@ -15822,7 +15822,7 @@ DICCIONARIOS.es = [
   {
     id: "alcotest",
     palabra: "Alcotest",
-    imagen: { id: 2824, alt: "Un policía junto a un coche en un control de carretera" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Una prueba que mide la cantidad de alcohol en el cuerpo, sobre todo al conducir.",
     sinonimos: ["prueba de alcoholemia", "control de alcohol"],
     ejemplo: { palabra: "alcotest", texto: "La policía le hizo un alcotest durante la revisión de tráfico." },
@@ -15932,7 +15932,7 @@ DICCIONARIOS.es = [
   {
     id: "amputacion",
     palabra: "Amputación",
-    imagen: { id: 3116, alt: "Un médico habla con un paciente en el hospital" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una operación para quitar una parte del cuerpo, como un brazo o una pierna.",
     sinonimos: ["quitar una extremidad"],
     ejemplo: { palabra: "una amputación", texto: "Necesitó una amputación después del accidente." },
@@ -16172,7 +16172,7 @@ DICCIONARIOS.es = [
   {
     id: "atentar",
     palabra: "Atentar",
-    imagen: { id: 2824, alt: "Un policía" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Intentar hacer daño grave a una persona o a un lugar, muchas veces por motivos políticos.",
     sinonimos: ["cometer un ataque"],
     ejemplo: { palabra: "atentar", texto: "Lo acusaron de atentar contra la seguridad del edificio." },
@@ -16262,7 +16262,7 @@ DICCIONARIOS.es = [
   {
     id: "balacera",
     palabra: "Balacera",
-    imagen: { id: 2824, alt: "Un policía" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Un tiroteo, muchas balas disparadas al mismo tiempo.",
     sinonimos: ["tiroteo"],
     ejemplo: { palabra: "una balacera", texto: "Hubo una balacera cerca del mercado." },
@@ -16632,7 +16632,7 @@ DICCIONARIOS.es = [
   {
     id: "clandestino",
     palabra: "Clandestino",
-    imagen: { id: 2824, alt: "Un policía descubre un lugar secreto" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Que se hace en secreto, muchas veces porque es ilegal.",
     sinonimos: ["secreto e ilegal"],
     ejemplo: { palabra: "clandestino", texto: "Descubrieron un taller clandestino sin ningún permiso." },
@@ -16652,7 +16652,7 @@ DICCIONARIOS.es = [
   {
     id: "coaccionar",
     palabra: "Coaccionar",
-    imagen: { id: 2824, alt: "Una persona amenaza a otra" },
+    imagen: { id: 15525, alt: "Obligar" },
     definicion: "Obligar a alguien a hacer algo mediante amenazas o presión.",
     sinonimos: ["obligar con amenazas"],
     ejemplo: { palabra: "coaccionar", texto: "Lo acusaron de coaccionar a los testigos." },
@@ -16732,7 +16732,7 @@ DICCIONARIOS.es = [
   {
     id: "comatoso",
     palabra: "Comatoso",
-    imagen: { id: 3116, alt: "Un paciente en una cama de hospital" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Que está en un estado de sueño muy profundo, sin poder despertar, por una enfermedad grave.",
     sinonimos: ["en coma"],
     ejemplo: { palabra: "comatoso", texto: "Tras el accidente, quedó comatoso durante varios días." },
@@ -16752,7 +16752,7 @@ DICCIONARIOS.es = [
   {
     id: "comisario",
     palabra: "Comisario",
-    imagen: { id: 2824, alt: "Un policía revisa documentos" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Un cargo de la policía con mucha responsabilidad y autoridad.",
     sinonimos: ["jefe de policía"],
     ejemplo: { palabra: "comisario", texto: "El comisario dirigió la investigación del caso." },
@@ -16782,7 +16782,7 @@ DICCIONARIOS.es = [
   {
     id: "confiscar",
     palabra: "Confiscar",
-    imagen: { id: 2824, alt: "Un policía junto a paquetes" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Quitar algo a alguien de forma oficial, muchas veces porque es ilegal.",
     sinonimos: ["incautar"],
     ejemplo: { palabra: "confiscar", texto: "La policía decidió confiscar la mercancía ilegal." },
@@ -16972,7 +16972,7 @@ DICCIONARIOS.es = [
   {
     id: "cuadriplejia",
     palabra: "Cuadriplejia",
-    imagen: { id: 3116, alt: "Un médico habla con un paciente en el hospital" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "La parálisis total de brazos y piernas, casi siempre por una lesión grave.",
     sinonimos: ["parálisis de brazos y piernas"],
     ejemplo: { palabra: "cuadriplejia", texto: "El accidente le provocó cuadriplejia." },
@@ -17062,7 +17062,7 @@ DICCIONARIOS.es = [
   {
     id: "delinquir",
     palabra: "Delinquir",
-    imagen: { id: 2824, alt: "Un policía revisa documentos" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Cometer un delito, hacer algo prohibido por la ley.",
     sinonimos: ["cometer un delito"],
     ejemplo: { palabra: "delinquir", texto: "Fue detenido por delinquir de nuevo." },
@@ -18022,7 +18022,7 @@ DICCIONARIOS.es = [
   {
     id: "hospitalizar",
     palabra: "Hospitalizar",
-    imagen: { id: 3116, alt: "Un hospital con una ambulancia" },
+    imagen: { id: 36209, alt: "Hospital" },
     definicion: "Ingresar a una persona en un hospital para tratarla.",
     sinonimos: ["ingresar en el hospital"],
     ejemplo: { palabra: "hospitalizar", texto: "Tuvieron que hospitalizar al paciente por la gravedad de sus síntomas." },
@@ -18422,7 +18422,7 @@ DICCIONARIOS.es = [
   {
     id: "manicomio",
     palabra: "Manicomio",
-    imagen: { id: 3116, alt: "Un hospital con una ambulancia" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un hospital especializado en el tratamiento de enfermedades mentales.",
     sinonimos: ["hospital para enfermedades mentales"],
     ejemplo: { palabra: "el manicomio", texto: "Antiguamente se internaba a muchos pacientes en el manicomio sin diagnóstico claro." },
@@ -18772,7 +18772,7 @@ DICCIONARIOS.es = [
   {
     id: "paliativo",
     palabra: "Paliativo",
-    imagen: { id: 3116, alt: "Un hospital con una ambulancia" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Que alivia el dolor o los síntomas de una enfermedad grave, sin curarla.",
     sinonimos: ["que alivia el dolor sin curar"],
     ejemplo: { palabra: "cuidados paliativos", texto: "El hospital ofrece cuidados paliativos para enfermos terminales." },
@@ -18852,7 +18852,7 @@ DICCIONARIOS.es = [
   {
     id: "patrullero",
     palabra: "Patrullero",
-    imagen: { id: 2824, alt: "Un policía" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Un policía o un vehículo que vigila una zona para mantener la seguridad.",
     sinonimos: ["policía que vigila una zona"],
     ejemplo: { palabra: "el patrullero", texto: "Cada noche, el patrullero recorría el barrio." },
@@ -19222,7 +19222,7 @@ DICCIONARIOS.es = [
   {
     id: "rehen",
     palabra: "Rehén",
-    imagen: { id: 2824, alt: "Un policía" },
+    imagen: { id: 27037, alt: "Secuestro, secuestrado" },
     definicion: "Una persona retenida por la fuerza para exigir algo a cambio de su libertad.",
     sinonimos: ["persona retenida a cambio de algo"],
     ejemplo: { palabra: "un rehén", texto: "Los secuestradores mantuvieron a un rehén durante varios días." },
@@ -19372,7 +19372,7 @@ DICCIONARIOS.es = [
   {
     id: "sanatorio",
     palabra: "Sanatorio",
-    imagen: { id: 3116, alt: "Un hospital con una ambulancia" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un centro médico donde se trata a personas con enfermedades que requieren cuidados prolongados.",
     sinonimos: ["centro médico para cuidados prolongados"],
     ejemplo: { palabra: "el sanatorio", texto: "Pasó varios meses en el sanatorio recuperándose." },
@@ -19422,7 +19422,7 @@ DICCIONARIOS.es = [
   {
     id: "sepsis",
     palabra: "Sepsis",
-    imagen: { id: 3116, alt: "Un hospital con una ambulancia" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una respuesta grave del cuerpo a una infección que puede dañar órganos y poner en peligro la vida.",
     sinonimos: ["respuesta grave a una infección que daña órganos"],
     ejemplo: { palabra: "sepsis", texto: "El paciente fue ingresado en la UCI por sepsis." },
@@ -19612,7 +19612,7 @@ DICCIONARIOS.es = [
   {
     id: "tenencia",
     palabra: "Tenencia",
-    imagen: { id: 2824, alt: "Un policía" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "El hecho de tener y controlar algo, como un arma o un animal, de forma legal.",
     sinonimos: ["tener y controlar algo de forma legal"],
     ejemplo: { palabra: "la tenencia de armas", texto: "El comercio necesita un permiso para la tenencia de armas." },
@@ -19682,7 +19682,7 @@ DICCIONARIOS.es = [
   {
     id: "traumatismo",
     palabra: "Traumatismo",
-    imagen: { id: 3116, alt: "Un hospital con una ambulancia" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una lesión física causada por un golpe, un accidente o un impacto.",
     sinonimos: ["lesión física causada por un golpe"],
     ejemplo: { palabra: "un traumatismo", texto: "El paciente sufrió un traumatismo en la cabeza tras el accidente." },
@@ -19742,7 +19742,7 @@ DICCIONARIOS.es = [
   {
     id: "tuberculosis",
     palabra: "Tuberculosis",
-    imagen: { id: 3116, alt: "Un hospital con una ambulancia" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una infección grave que afecta principalmente a los pulmones y se contagia por el aire.",
     sinonimos: ["infección grave que afecta a los pulmones"],
     ejemplo: { palabra: "tuberculosis", texto: "El hospital diagnosticó tuberculosis al paciente tras varios análisis." },
