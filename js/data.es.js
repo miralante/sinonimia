@@ -1713,7 +1713,7 @@ DICCIONARIOS.es = [
   {
     id: "firmar",
     palabra: "Firmar",
-    imagen: { id: 21802, alt: "Documento" },
+    imagen: { id: 12317, alt: "Firmar" },
     definicion: "Poner tu nombre en un papel. Sirve para aceptar lo que dice el papel.",
     sinonimos: ["rubricar", "poner la firma"],
     ejemplo: { palabra: "firmó", texto: "Firmó el contrato antes de empezar a trabajar." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 36403, alt: "Ahorro" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
