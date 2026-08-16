@@ -1775,7 +1775,7 @@ DICCIONARIOS.en = [
   {
     id: "land-registry-full",
     palabra: "Land registry",
-    imagen: { id: 5505, alt: "A map of land plots" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "An official map and list of every property in your town, with its owner and size.",
     sinonimos: ["property registry"],
     ejemplo: { palabra: "land registry", texto: "You can check the land registry to see who owns a plot." },
@@ -4593,7 +4593,7 @@ DICCIONARIOS.en = [
   {
     id: "requirements",
     palabra: "Requirements",
-    imagen: { id: 7144, alt: "A list" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "The things you need to ask for a procedure. Without them they will not give it to you.",
     sinonimos: ["things you need"],
     ejemplo: { palabra: "requirements", texto: "The requirements for unemployment are the ID card and the work history." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -5543,7 +5543,7 @@ DICCIONARIOS.en = [
   {
     id: "passbook",
     palabra: "Passbook",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 4678, alt: "Bankbook, passbook" },
     definicion: "A bank book where the money going in and out of your account is written down. Many banks no longer use it today.",
     sinonimos: ["savings book", "bank book"],
     ejemplo: { palabra: "passbook", texto: "He updated the passbook at the branch." },
@@ -6207,7 +6207,7 @@ DICCIONARIOS.en = [
   {
     id: "calendar",
     palabra: "Calendar",
-    imagen: { id: 8717, alt: "Vida" },
+    imagen: { id: 3071, alt: "Calendar, yearbook, almanac" },
     definicion: "A paper or an app that shows the days, weeks and months of the year. It helps you remember dates.",
     sinonimos: ["almanac"],
     ejemplo: { palabra: "calendar", texto: "She wrote the doctor's appointment on the calendar." },
@@ -7267,7 +7267,7 @@ DICCIONARIOS.en = [
   {
     id: "earthquake-drill",
     palabra: "Earthquake drill",
-    imagen: { id: 4755, alt: "Children crouched under a desk during a school practice" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A practice to learn what to do if the ground really starts shaking.",
     sinonimos: ["earthquake practice"],
     ejemplo: { palabra: "earthquake drill", texto: "The school held an earthquake drill and the children hid under their desks." },
@@ -7527,7 +7527,7 @@ DICCIONARIOS.en = [
   {
     id: "browsing-history",
     palabra: "Browsing history",
-    imagen: { id: 7144, alt: "A list" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "The list of every web page you have visited before. It is saved by the browser.",
     sinonimos: ["internet history"],
     ejemplo: { palabra: "browsing history", texto: "He cleared his browsing history after using the public computer." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 2402, alt: "Biscuits, cookies" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -8317,7 +8317,7 @@ DICCIONARIOS.en = [
   {
     id: "marriage-certificate",
     palabra: "Marriage certificate",
-    imagen: { id: 8256, alt: "An official document with two rings drawn on it" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The official document that proves two people are married.",
     sinonimos: ["certificate of marriage"],
     ejemplo: { palabra: "marriage certificate", texto: "She needed her marriage certificate to change her insurance." },
@@ -9057,7 +9057,7 @@ DICCIONARIOS.en = [
   {
     id: "work-uniform",
     palabra: "Work uniform",
-    imagen: { id: 7795, alt: "A person wearing work clothes" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The special clothes a company gives you to wear while you work.",
     sinonimos: ["work clothes"],
     ejemplo: { palabra: "work uniform", texto: "She put on her work uniform before starting her shift." },
@@ -9107,7 +9107,7 @@ DICCIONARIOS.en = [
   {
     id: "job-satisfaction",
     palabra: "Job satisfaction",
-    imagen: { id: 7795, alt: "A worker smiling at their desk" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "How happy and comfortable you feel doing your job.",
     sinonimos: ["work satisfaction"],
     ejemplo: { palabra: "job satisfaction", texto: "Her job satisfaction improved after she changed teams." },
@@ -9917,7 +9917,7 @@ DICCIONARIOS.en = [
   {
     id: "gps-navigation",
     palabra: "GPS navigation",
-    imagen: { id: 5505, alt: "A map with a route marked" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A phone or car function that shows you the way to get somewhere.",
     sinonimos: ["satnav"],
     ejemplo: { palabra: "GPS navigation", texto: "He used GPS navigation to find the new address." },
@@ -10519,7 +10519,7 @@ DICCIONARIOS.en = [
   {
     id: "screen-mirroring",
     palabra: "Screen mirroring",
-    imagen: { id: 9160, alt: "A finger touching a screen" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Showing what is on your phone screen on a bigger screen, like a TV.",
     sinonimos: ["casting your screen"],
     ejemplo: { palabra: "screen mirroring", texto: "He used screen mirroring to show photos on the TV." },
@@ -11866,7 +11866,7 @@ DICCIONARIOS.en = [
   {
     id: "credit-history",
     palabra: "Credit history",
-    imagen: { id: 7144, alt: "A list" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "The record of every loan you have taken and whether you paid it back well.",
     sinonimos: ["record of your past loans"],
     ejemplo: { palabra: "credit history", texto: "The bank checked his credit history before giving the loan." },
@@ -11876,7 +11876,7 @@ DICCIONARIOS.en = [
   {
     id: "credit-bureau",
     palabra: "Credit bureau",
-    imagen: { id: 7144, alt: "A list" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "An official list that gathers everyone's debts so banks can check it.",
     sinonimos: ["official list of people's debts"],
     ejemplo: { palabra: "credit bureau", texto: "She appeared in the credit bureau because of an old debt." },
@@ -11937,7 +11937,7 @@ DICCIONARIOS.en = [
   {
     id: "proximity-sensor",
     palabra: "Proximity sensor",
-    imagen: { id: 9160, alt: "A finger touching a screen" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A phone part that turns off the screen when you hold it near your ear.",
     sinonimos: ["part that turns off the screen near your face"],
     ejemplo: { palabra: "proximity sensor", texto: "The proximity sensor turned off the screen during the call." },
@@ -11947,7 +11947,7 @@ DICCIONARIOS.en = [
   {
     id: "screen-resolution",
     palabra: "Screen resolution",
-    imagen: { id: 9160, alt: "A finger touching a screen" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "The number of dots that make up a screen's image. More dots make it look sharper.",
     sinonimos: ["screen sharpness"],
     ejemplo: { palabra: "screen resolution", texto: "He changed the screen resolution so it looked better." },
@@ -12509,7 +12509,7 @@ DICCIONARIOS.en = [
   {
     id: "earthquake-early-warning",
     palabra: "Earthquake early warning",
-    imagen: { id: 4755, alt: "An earthquake" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A warning that arrives a few seconds before an earthquake, so you can protect yourself in time.",
     sinonimos: ["warning before an earthquake arrives"],
     ejemplo: { palabra: "earthquake early warning", texto: "Her phone sounded with an earthquake early warning." },
@@ -12896,7 +12896,7 @@ DICCIONARIOS.en = [
   {
     id: "registered-property",
     palabra: "Registered property",
-    imagen: { id: 5505, alt: "A registry record with a large number" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Each home, piece of land or business has a unique number in the Land Registry to identify it.",
     sinonimos: ["property registry number"],
     ejemplo: { palabra: "registered property", texto: "A registered property corresponds to the flat on Main Street." },
@@ -13028,7 +13028,7 @@ DICCIONARIOS.en = [
   {
     id: "cadastral-reference",
     palabra: "Cadastral reference",
-    imagen: { id: 5505, alt: "A cadastral map with a code marked on it" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "The unique code each home has in the cadastre. It appears on the property tax bill.",
     sinonimos: ["cadastral code of the house"],
     ejemplo: { palabra: "cadastral reference", texto: "The cadastral reference appears on the property tax bill each year." },
@@ -13826,7 +13826,7 @@ DICCIONARIOS.en = [
   {
     id: "hormone",
     palabra: "Hormone",
-    imagen: { id: 5901, alt: "A small molecule diagram next to a body outline" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A chemical made by the body that controls how it works. It affects growth, mood, and many other things.",
     sinonimos: ["body chemical"],
     ejemplo: { palabra: "hormone", texto: "A hormone controls how fast your body grows." },
@@ -14736,7 +14736,7 @@ DICCIONARIOS.en = [
   {
     id: "dashboard",
     palabra: "Dashboard",
-    imagen: { id: 9160, alt: "A screen with charts and summary data" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A screen that shows all the important information for a program at once. It gives you a quick overview.",
     sinonimos: ["overview screen"],
     ejemplo: { palabra: "dashboard", texto: "She checked her sales on the dashboard." },
@@ -14816,7 +14816,7 @@ DICCIONARIOS.en = [
   {
     id: "apprentice",
     palabra: "Apprentice",
-    imagen: { id: 7795, alt: "Workers from different trades and professions" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "A person learning a trade by working under an experienced worker. They study and gain practical skills at the same time.",
     sinonimos: ["a trainee worker"],
     ejemplo: { palabra: "an apprentice", texto: "He started as an apprentice at the electrician's workshop." },
@@ -15456,7 +15456,7 @@ DICCIONARIOS.en = [
   {
     id: "antibody",
     palabra: "Antibody",
-    imagen: { id: 5901, alt: "A blood sample being tested in a lab" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A substance the body makes to fight off germs and disease.",
     sinonimos: ["immune protein"],
     ejemplo: { palabra: "antibody", texto: "The test checked for antibody levels in his blood." },
@@ -15666,7 +15666,7 @@ DICCIONARIOS.en = [
   {
     id: "affray",
     palabra: "Affray",
-    imagen: { id: 9007, alt: "Two people fighting" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A public fight between two or more people that disturbs the peace.",
     sinonimos: ["public fight", "brawl"],
     ejemplo: { palabra: "affray", texto: "Two men were arrested after the affray outside the bar." },
@@ -15686,7 +15686,7 @@ DICCIONARIOS.en = [
   {
     id: "aftershock",
     palabra: "Aftershock",
-    imagen: { id: 4755, alt: "Cracks appear in the ground during an earthquake" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A smaller earthquake that happens after a bigger one.",
     sinonimos: ["smaller earthquake after the main one"],
     ejemplo: { palabra: "an aftershock", texto: "The town felt an aftershock later that day." },
@@ -15816,7 +15816,7 @@ DICCIONARIOS.en = [
   {
     id: "annulment",
     palabra: "Annulment",
-    imagen: { id: 8256, alt: "A document with a court stamp" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A legal decision that says a marriage was never valid.",
     sinonimos: ["marriage cancellation", "legal cancellation of a marriage"],
     ejemplo: { palabra: "an annulment", texto: "She applied for an annulment instead of a divorce." },
@@ -15856,7 +15856,7 @@ DICCIONARIOS.en = [
   {
     id: "antigen",
     palabra: "Antigen",
-    imagen: { id: 5901, alt: "A blood sample being tested in a lab" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A substance that causes the body's immune system to react, like part of a virus.",
     sinonimos: ["substance that triggers the immune system"],
     ejemplo: { palabra: "antigen", texto: "The test looked for a specific antigen in his blood." },
@@ -16086,7 +16086,7 @@ DICCIONARIOS.en = [
   {
     id: "bacteremia",
     palabra: "Bacteremia",
-    imagen: { id: 5901, alt: "A blood sample being tested in a lab" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Having bacteria in the blood, which can be a sign of a serious infection.",
     sinonimos: ["bacteria in the blood"],
     ejemplo: { palabra: "bacteremia", texto: "Blood tests confirmed he had bacteremia." },
@@ -16166,7 +16166,7 @@ DICCIONARIOS.en = [
   {
     id: "bigamist",
     palabra: "Bigamist",
-    imagen: { id: 8256, alt: "A married couple next to a document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who is married to two people at the same time.",
     sinonimos: ["person married to two people"],
     ejemplo: { palabra: "bigamist", texto: "He was charged as a bigamist after his second marriage was discovered." },
@@ -17816,7 +17816,7 @@ DICCIONARIOS.en = [
   {
     id: "fiancee",
     palabra: "Fiancee",
-    imagen: { id: 8256, alt: "A wedding couple" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A woman who is engaged to be married.",
     sinonimos: ["a woman engaged to be married"],
     ejemplo: { palabra: "his fiancee", texto: "He introduced his fiancee to the whole family." },
@@ -18086,7 +18086,7 @@ DICCIONARIOS.en = [
   {
     id: "gestation",
     palabra: "Gestation",
-    imagen: { id: 11250, alt: "Pregnancy, gestation" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The period of time during which a baby develops inside the womb before birth.",
     sinonimos: ["the period before birth"],
     ejemplo: { palabra: "gestation", texto: "Doctors monitor gestation closely during high-risk pregnancies." },
@@ -20656,7 +20656,7 @@ DICCIONARIOS.en = [
   {
     id: "retaliate",
     palabra: "Retaliate",
-    imagen: { id: 9007, alt: "Two people fighting" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "To do something harmful to someone in return for something harmful they did.",
     sinonimos: ["do something harmful in return"],
     ejemplo: { palabra: "retaliate against him", texto: "The company was warned not to retaliate against him." },
@@ -21846,7 +21846,7 @@ DICCIONARIOS.en = [
   {
     id: "violence",
     palabra: "Violence",
-    imagen: { id: 9007, alt: "Two people fighting" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Physical force used to hurt, damage, or kill.",
     sinonimos: ["physical force used to hurt or kill"],
     ejemplo: { palabra: "violence", texto: "The shelter offers support for people affected by violence." },
@@ -22306,7 +22306,7 @@ DICCIONARIOS.en = [
   {
     id: "parkinson-s-disease",
     palabra: "Parkinson's disease",
-    imagen: { id: 4755, alt: "A picture of a tremor" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "An illness that affects body movement. Hands can shake and walking becomes hard.",
     sinonimos: ["Parkinson's"],
     ejemplo: { palabra: "Parkinson's disease", texto: "His grandad was diagnosed with Parkinson's disease last year." },
