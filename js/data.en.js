@@ -74,7 +74,7 @@ DICCIONARIOS.en = [
   {
     id: "apostille",
     palabra: "Apostille",
-    imagen: { id: 2802, alt: "An official stamp" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "An official stamp that makes a document valid in another country.",
     sinonimos: ["international stamp", "foreign validity stamp"],
     ejemplo: { palabra: "apostille", texto: "You need the apostille to use the certificate abroad." },
@@ -1029,7 +1029,7 @@ DICCIONARIOS.en = [
   {
     id: "queue",
     palabra: "Queue",
-    imagen: { id: 2709, alt: "A line of people waiting" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A group of people in a line. They wait their turn to be served.",
     sinonimos: ["waiting line", "line of people"],
     ejemplo: { palabra: "queue", texto: "He stood in the queue for half an hour to get into the cinema." },
@@ -1049,7 +1049,7 @@ DICCIONARIOS.en = [
   {
     id: "warranty-cover",
     palabra: "Warranty",
-    imagen: { id: 3149, alt: "A gift box" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A promise from the shop. If the product breaks, they fix it or change it.",
     sinonimos: ["product cover", "shop promise"],
     ejemplo: { palabra: "warranty", texto: "The phone comes with a two-year warranty." },
@@ -1089,7 +1089,7 @@ DICCIONARIOS.en = [
   {
     id: "errand",
     palabra: "Errand",
-    imagen: { id: 2709, alt: "A line of people waiting" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A small task you do outside the home. For example, going to buy something.",
     sinonimos: ["small task", "chore outside home"],
     ejemplo: { palabra: "errand", texto: "Her mother sent her on an errand to the chemist." },
@@ -1109,7 +1109,7 @@ DICCIONARIOS.en = [
   {
     id: "sale-deal",
     palabra: "Sale",
-    imagen: { id: 3149, alt: "A gift box" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "When something is sold. The shop gives you the product in exchange for money.",
     sinonimos: ["selling", "transaction"],
     ejemplo: { palabra: "sale", texto: "The sale of the flat closed in two weeks." },
@@ -2600,7 +2600,7 @@ DICCIONARIOS.en = [
   {
     id: "notice-period",
     palabra: "Notice period",
-    imagen: { id: 2688, alt: "A notice letter" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A written notice that you are leaving your job or being let go. You give it ahead of time.",
     sinonimos: ["written notice"],
     ejemplo: { palabra: "notice period", texto: "She handed in her resignation notice period two weeks ahead." },
@@ -4683,7 +4683,7 @@ DICCIONARIOS.en = [
   {
     id: "digital-queue",
     palabra: "Digital queue",
-    imagen: { id: 2709, alt: "A queue of people" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A queue you take from your phone. It tells you when it is your turn so you do not wait sitting down.",
     sinonimos: ["app queue"],
     ejemplo: { palabra: "digital queue", texto: "He took a digital queue from his phone and went when they called him." },
@@ -7027,7 +7027,7 @@ DICCIONARIOS.en = [
   {
     id: "fire-door",
     palabra: "Fire door",
-    imagen: { id: 3244, alt: "A thick closed door separating two parts of a building" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A strong door that stops fire and smoke from moving from one room to another.",
     sinonimos: ["fireproof door"],
     ejemplo: { palabra: "fire door", texto: "The corridor has a fire door that closes by itself." },
@@ -7077,7 +7077,7 @@ DICCIONARIOS.en = [
   {
     id: "peephole",
     palabra: "Peephole",
-    imagen: { id: 3244, alt: "A small round hole in the middle of a closed door" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A small round hole in a door. It lets you see who is knocking without opening it.",
     sinonimos: ["door viewer"],
     ejemplo: { palabra: "peephole", texto: "He looked through the peephole before opening the door." },
@@ -7107,7 +7107,7 @@ DICCIONARIOS.en = [
   {
     id: "reinforced-door",
     palabra: "Reinforced door",
-    imagen: { id: 3244, alt: "A closed door" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A very strong, heavy door that is hard to break or force open.",
     sinonimos: ["armoured door"],
     ejemplo: { palabra: "reinforced door", texto: "She replaced her front door with a reinforced door." },
@@ -7317,7 +7317,7 @@ DICCIONARIOS.en = [
   {
     id: "motion-sensor",
     palabra: "Motion sensor",
-    imagen: { id: 2680, alt: "A security camera" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A device that detects if someone is moving nearby. It can switch on a light or an alarm.",
     sinonimos: ["movement detector"],
     ejemplo: { palabra: "motion sensor", texto: "The motion sensor switched on the garden light when the cat walked past." },
@@ -7857,7 +7857,7 @@ DICCIONARIOS.en = [
   {
     id: "screenshot",
     palabra: "Screenshot",
-    imagen: { id: 2680, alt: "A camera photographing a phone screen" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A photo of what is on your phone or computer screen at that moment.",
     sinonimos: ["screen capture"],
     ejemplo: { palabra: "screenshot", texto: "He took a screenshot of the message to keep it." },
@@ -7927,7 +7927,7 @@ DICCIONARIOS.en = [
   {
     id: "front-camera",
     palabra: "Front camera",
-    imagen: { id: 2680, alt: "A camera" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "The phone camera that faces you, the one used for selfies or video calls.",
     sinonimos: ["selfie camera"],
     ejemplo: { palabra: "front camera", texto: "She used the front camera to take a photo with her friends." },
@@ -7957,7 +7957,7 @@ DICCIONARIOS.en = [
   {
     id: "smart-plug",
     palabra: "Smart plug",
-    imagen: { id: 2373, alt: "A plug connected to a phone by waves" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A plug that can be switched on and off from your phone, without touching it.",
     sinonimos: ["wifi plug"],
     ejemplo: { palabra: "smart plug", texto: "She turned off the lamp with the smart plug from bed." },
@@ -9067,7 +9067,7 @@ DICCIONARIOS.en = [
   {
     id: "reference-letter",
     palabra: "Reference letter",
-    imagen: { id: 2688, alt: "A letter signed by a person" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A letter where a former boss explains that you worked well, to help you find another job.",
     sinonimos: ["letter of reference"],
     ejemplo: { palabra: "reference letter", texto: "He asked his old boss for a reference letter." },
@@ -9687,7 +9687,7 @@ DICCIONARIOS.en = [
   {
     id: "gas-shut-off-valve",
     palabra: "Gas shut-off valve",
-    imagen: { id: 3259, alt: "A gas boiler" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A part that cuts off the gas by itself if it detects a problem, to stop a leak.",
     sinonimos: ["gas cut-off valve"],
     ejemplo: { palabra: "gas shut-off valve", texto: "She closed the gas shut-off valve before going on holiday." },
@@ -10791,7 +10791,7 @@ DICCIONARIOS.en = [
   {
     id: "outlet-cover",
     palabra: "Outlet cover",
-    imagen: { id: 2373, alt: "An electrical socket" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A small piece that covers a socket so a child cannot put their fingers in it.",
     sinonimos: ["socket cover"],
     ejemplo: { palabra: "outlet cover", texto: "He put outlet covers all over the house." },
@@ -10962,7 +10962,7 @@ DICCIONARIOS.en = [
   {
     id: "visa",
     palabra: "Visa",
-    imagen: { id: 2802, alt: "A stamp" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A special permission a country gives you so you can enter and stay there.",
     sinonimos: ["permission to enter a country"],
     ejemplo: { palabra: "visa", texto: "He applied for a visa before travelling to that country." },
@@ -11334,7 +11334,7 @@ DICCIONARIOS.en = [
   {
     id: "extended-warranty",
     palabra: "Extended warranty",
-    imagen: { id: 3149, alt: "A gift box" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Extra warranty time a shop adds to a product, sometimes for a bit more money.",
     sinonimos: ["longer warranty cover"],
     ejemplo: { palabra: "extended warranty", texto: "She paid for an extended warranty when she bought the washing machine." },
@@ -11625,7 +11625,7 @@ DICCIONARIOS.en = [
   {
     id: "boiler-inspection",
     palabra: "Boiler inspection",
-    imagen: { id: 3259, alt: "A gas boiler" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "A yearly check by a technician to make sure the boiler works well and safely.",
     sinonimos: ["yearly check of the boiler"],
     ejemplo: { palabra: "boiler inspection", texto: "The technician came for the boiler inspection in autumn." },
@@ -13136,7 +13136,7 @@ DICCIONARIOS.en = [
   {
     id: "referral",
     palabra: "Referral",
-    imagen: { id: 2688, alt: "A doctor handing over a letter" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A doctor sends you to see another doctor. It is a paper for a specialist.",
     sinonimos: ["specialist letter"],
     ejemplo: { palabra: "referral", texto: "The GP gave her a referral for a heart check." },
@@ -15296,7 +15296,7 @@ DICCIONARIOS.en = [
   {
     id: "abuser",
     palabra: "Abuser",
-    imagen: { id: 2374, alt: "An angry face" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A person who hurts or mistreats another person, often again and again.",
     sinonimos: ["aggressor", "person who mistreats others"],
     ejemplo: { palabra: "abuser", texto: "She finally found the courage to leave her abuser." },
@@ -15506,7 +15506,7 @@ DICCIONARIOS.en = [
   {
     id: "assailant",
     palabra: "Assailant",
-    imagen: { id: 2374, alt: "An angry face" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A person who physically attacks another person.",
     sinonimos: ["attacker"],
     ejemplo: { palabra: "assailant", texto: "The victim could not identify her assailant." },
@@ -16146,7 +16146,7 @@ DICCIONARIOS.en = [
   {
     id: "bedridden",
     palabra: "Bedridden",
-    imagen: { id: 2304, alt: "A person lies in a hospital bed" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Unable to get out of bed because of illness or injury.",
     sinonimos: ["confined to bed"],
     ejemplo: { palabra: "bedridden", texto: "She became bedridden after the surgery." },
@@ -16896,7 +16896,7 @@ DICCIONARIOS.en = [
   {
     id: "convalescence",
     palabra: "Convalescence",
-    imagen: { id: 2304, alt: "A bed" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The period of time needed to recover after an illness or surgery.",
     sinonimos: ["the recovery period after illness"],
     ejemplo: { palabra: "convalescence", texto: "She spent several weeks in convalescence at home." },
@@ -18386,7 +18386,7 @@ DICCIONARIOS.en = [
   {
     id: "humiliate",
     palabra: "Humiliate",
-    imagen: { id: 2374, alt: "An angry face" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "To make someone feel ashamed or foolish, often in front of others.",
     sinonimos: ["make someone feel ashamed in front of others"],
     ejemplo: { palabra: "humiliate his coworker", texto: "He tried to humiliate his coworker during the meeting." },
@@ -18796,7 +18796,7 @@ DICCIONARIOS.en = [
   {
     id: "laryngitis",
     palabra: "Laryngitis",
-    imagen: { id: 3332, alt: "A throat diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "An inflammation of the voice box that causes hoarseness or loss of voice.",
     sinonimos: ["inflammation of the voice box"],
     ejemplo: { palabra: "laryngitis", texto: "She lost her voice due to laryngitis." },
@@ -22336,7 +22336,7 @@ DICCIONARIOS.en = [
   {
     id: "tonsillitis",
     palabra: "Tonsillitis",
-    imagen: { id: 3332, alt: "An inflamed throat" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "An infection in the throat. It hurts to swallow and can cause a fever.",
     sinonimos: ["a throat infection"],
     ejemplo: { palabra: "tonsillitis", texto: "The doctor diagnosed tonsillitis and prescribed antibiotics." },
