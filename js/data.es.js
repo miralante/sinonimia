@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 34814, alt: "Préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 36403, alt: "Ahorro" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 35413, alt: "Notario" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -4063,7 +4063,7 @@ DICCIONARIOS.es = [
   {
     id: "codigo-sms",
     palabra: "Código por SMS",
-    imagen: { id: 10320, alt: "Un código de barras" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un número corto que el banco o el Estado te manda al móvil para confirmar una operación.",
     sinonimos: ["número de confirmación"],
     ejemplo: { palabra: "código por SMS", texto: "Le llegó un código por SMS al móvil para confirmar la compra." },
@@ -4564,7 +4564,7 @@ DICCIONARIOS.es = [
   {
     id: "contrato-formacion",
     palabra: "Contrato de formación",
-    imagen: { id: 8098, alt: "Una persona recibe formación" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Un contrato que sirve para que trabajes y estudies a la vez. Dura uno o dos años.",
     sinonimos: ["contrato para aprender"],
     ejemplo: { palabra: "contrato de formación", texto: "Le hicieron un contrato de formación de un año con estudios incluidos." },
@@ -4697,7 +4697,7 @@ DICCIONARIOS.es = [
   {
     id: "codigo-penal",
     palabra: "Código penal",
-    imagen: { id: 10320, alt: "Un código de barras" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "El libro que reúne todos los delitos y los castigos que les corresponden.",
     sinonimos: ["libro de delitos"],
     ejemplo: { palabra: "código penal", texto: "El robo está castigado con cárcel en el código penal." },
@@ -7638,7 +7638,7 @@ DICCIONARIOS.es = [
   {
     id: "modo-oscuro",
     palabra: "Modo oscuro",
-    imagen: { id: 9160, alt: "Una pantalla de móvil" },
+    imagen: { id: 4710, alt: "Oscuro, oscura" },
     definicion: "Una opción que pone el fondo de la pantalla en negro, con letras claras. Cansa menos la vista de noche.",
     sinonimos: ["tema oscuro", "pantalla oscura"],
     ejemplo: { palabra: "modo oscuro", texto: "Activó el modo oscuro del móvil antes de dormir." },
@@ -8118,7 +8118,7 @@ DICCIONARIOS.es = [
   {
     id: "captura-de-pantalla",
     palabra: "Captura de pantalla",
-    imagen: { id: 9160, alt: "Una pantalla táctil" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Una foto de lo que se ve en la pantalla del móvil o el ordenador en ese momento.",
     sinonimos: ["pantallazo"],
     ejemplo: { palabra: "captura de pantalla", texto: "Hizo una captura de pantalla del mensaje para guardarlo." },
@@ -10248,7 +10248,7 @@ DICCIONARIOS.es = [
   {
     id: "consentimiento-del-interesado",
     palabra: "Consentimiento del interesado",
-    imagen: { id: 9173, alt: "Un formulario con una casilla marcada" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El permiso que das para que usen tus datos personales en un trámite.",
     sinonimos: ["autorización del interesado"],
     ejemplo: { palabra: "consentimiento del interesado", texto: "Marcó la casilla de consentimiento del interesado antes de enviar el formulario." },
@@ -11755,7 +11755,7 @@ DICCIONARIOS.es = [
   {
     id: "codigo-promocional",
     palabra: "Código promocional",
-    imagen: { id: 10320, alt: "Un código de barras" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Un conjunto de letras o números que, al escribirlo, te hace un descuento en una compra.",
     sinonimos: ["código de descuento"],
     ejemplo: { palabra: "código promocional", texto: "Usó un código promocional para pagar menos por los zapatos." },
@@ -13292,7 +13292,7 @@ DICCIONARIOS.es = [
   {
     id: "induccion",
     palabra: "Inducción",
-    imagen: { id: 8098, alt: "Un trabajador nuevo escuchando a un compañero" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Formación que recibes en tus primeros días en un trabajo nuevo. Explica cómo funciona la empresa.",
     sinonimos: ["formación inicial"],
     ejemplo: { palabra: "inducción", texto: "Tuvo una inducción antes de empezar sus tareas." },
@@ -13642,7 +13642,7 @@ DICCIONARIOS.es = [
   {
     id: "directiva",
     palabra: "Directiva",
-    imagen: { id: 8098, alt: "Un documento oficial con un sello dando instrucciones" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Una instrucción oficial que se debe cumplir. Suele venir de una autoridad o una organización.",
     sinonimos: ["instrucción oficial"],
     ejemplo: { palabra: "directiva", texto: "La nueva directiva cambió cómo se entregan los formularios." },
@@ -13892,7 +13892,7 @@ DICCIONARIOS.es = [
   {
     id: "codigo-fuente",
     palabra: "Código fuente",
-    imagen: { id: 10320, alt: "Una pantalla con líneas de código de programación" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "El texto escrito que forma un programa de ordenador. Los programadores lo escriben y lo modifican.",
     sinonimos: ["texto del programa"],
     ejemplo: { palabra: "código fuente", texto: "Publicó el código fuente en internet." },
@@ -15322,7 +15322,7 @@ DICCIONARIOS.es = [
   {
     id: "abstencion",
     palabra: "Abstención",
-    imagen: { id: 6631, alt: "Una persona no levanta la mano para votar" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "No votar ni opinar en una decisión. No elegir ninguna opción cuando toca votar.",
     sinonimos: ["falta de voto", "no votar"],
     ejemplo: { palabra: "abstención", texto: "Su abstención hizo que la votación quedara sin ganador claro." },
@@ -17492,7 +17492,7 @@ DICCIONARIOS.es = [
   {
     id: "escrutinio",
     palabra: "Escrutinio",
-    imagen: { id: 6631, alt: "Una urna de votación" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "El recuento oficial de los votos después de una elección.",
     sinonimos: ["recuento de votos"],
     ejemplo: { palabra: "el escrutinio", texto: "Los resultados se conocieron después del escrutinio." },
@@ -18182,7 +18182,7 @@ DICCIONARIOS.es = [
   {
     id: "inseminacion",
     palabra: "Inseminación",
-    imagen: { id: 11250, alt: "Una mujer embarazada con un médico" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un tratamiento médico para ayudar a quedarse embarazada, introduciendo semen directamente en el útero.",
     sinonimos: ["tratamiento médico para quedar embarazada"],
     ejemplo: { palabra: "la inseminación", texto: "La pareja optó por la inseminación tras varios intentos fallidos." },
@@ -18832,7 +18832,7 @@ DICCIONARIOS.es = [
   {
     id: "parturienta",
     palabra: "Parturienta",
-    imagen: { id: 11250, alt: "Una mujer embarazada con un médico" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una mujer que está dando a luz o que acaba de dar a luz.",
     sinonimos: ["mujer que está dando a luz"],
     ejemplo: { palabra: "la parturienta", texto: "El equipo médico atendió a la parturienta durante el parto." },
@@ -18972,7 +18972,7 @@ DICCIONARIOS.es = [
   {
     id: "plebiscito",
     palabra: "Plebiscito",
-    imagen: { id: 6631, alt: "Una urna de votación" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una votación en la que todos los ciudadanos deciden sobre un asunto importante.",
     sinonimos: ["votación de todos los ciudadanos sobre un asunto"],
     ejemplo: { palabra: "un plebiscito", texto: "El país celebró un plebiscito sobre la nueva constitución." },
@@ -19042,7 +19042,7 @@ DICCIONARIOS.es = [
   {
     id: "preeclampsia",
     palabra: "Preeclampsia",
-    imagen: { id: 11250, alt: "Una mujer embarazada con un médico" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una complicación del embarazo que causa presión arterial alta y puede ser peligrosa para la madre y el bebé.",
     sinonimos: ["complicación del embarazo con presión arterial alta"],
     ejemplo: { palabra: "preeclampsia", texto: "El médico controló la tensión para detectar preeclampsia a tiempo." },
