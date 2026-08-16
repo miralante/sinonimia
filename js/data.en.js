@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 2402, alt: "Biscuits, cookies" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -7887,7 +7887,7 @@ DICCIONARIOS.en = [
   {
     id: "firewall",
     palabra: "Firewall",
-    imagen: { id: 12260, alt: "A shield in front of a computer screen" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A program that watches what enters and leaves your computer through the internet, to protect it.",
     sinonimos: ["digital firewall"],
     ejemplo: { palabra: "firewall", texto: "He turned on the firewall on his new computer." },
@@ -8397,7 +8397,7 @@ DICCIONARIOS.en = [
   {
     id: "protection-order",
     palabra: "Protection order",
-    imagen: { id: 12260, alt: "A shield protecting a person" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A judge's decision that gives extra help and safety to a person in danger.",
     sinonimos: ["protective order"],
     ejemplo: { palabra: "protection order", texto: "She asked for a protection order after receiving threats." },
@@ -13466,7 +13466,7 @@ DICCIONARIOS.en = [
   {
     id: "injunction",
     palabra: "Injunction",
-    imagen: { id: 2957, alt: "A judge signing a document that stops a construction site" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A court order that stops someone from doing something. It must be obeyed right away.",
     sinonimos: ["a court stop order"],
     ejemplo: { palabra: "an injunction", texto: "The judge issued an injunction against the noisy building work." },
@@ -14116,7 +14116,7 @@ DICCIONARIOS.en = [
   {
     id: "conviction",
     palabra: "Conviction",
-    imagen: { id: 2957, alt: "A judge announcing a guilty decision" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "An official decision by a court that says a person is guilty. It becomes part of their criminal record.",
     sinonimos: ["guilty verdict"],
     ejemplo: { palabra: "conviction", texto: "His conviction meant he had to serve time in prison." },
@@ -14486,7 +14486,7 @@ DICCIONARIOS.en = [
   {
     id: "judiciary",
     palabra: "Judiciary",
-    imagen: { id: 2957, alt: "A courthouse building representing the justice system" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The part of government made up of judges and courts. It decides how the law applies to each case.",
     sinonimos: ["court system"],
     ejemplo: { palabra: "judiciary", texto: "The judiciary is independent from the government." },
@@ -16666,7 +16666,7 @@ DICCIONARIOS.en = [
   {
     id: "clemency",
     palabra: "Clemency",
-    imagen: { id: 2957, alt: "A judge with a gavel in court" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Kindness or mercy shown by reducing or forgiving a punishment.",
     sinonimos: ["mercy in a punishment"],
     ejemplo: { palabra: "clemency", texto: "The judge granted clemency and reduced his sentence." },
@@ -16816,7 +16816,7 @@ DICCIONARIOS.en = [
   {
     id: "complicity",
     palabra: "Complicity",
-    imagen: { id: 2957, alt: "A judge with a gavel in court" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Involvement in a crime or wrongdoing together with another person.",
     sinonimos: ["involvement in a crime with others"],
     ejemplo: { palabra: "complicity", texto: "He was charged with complicity after the robbery took place." },
@@ -16866,7 +16866,7 @@ DICCIONARIOS.en = [
   {
     id: "contempt-of-court",
     palabra: "Contempt of court",
-    imagen: { id: 2957, alt: "A judge with a gavel in court" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The act of disobeying or disrespecting a court's rules or orders.",
     sinonimos: ["disobeying a court's orders"],
     ejemplo: { palabra: "contempt of court", texto: "The witness was charged with contempt of court for refusing to answer." },
@@ -17676,7 +17676,7 @@ DICCIONARIOS.en = [
   {
     id: "exhumation",
     palabra: "Exhumation",
-    imagen: { id: 2957, alt: "A judge with a gavel in court" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The act of digging up a dead body from the ground, usually for a legal investigation.",
     sinonimos: ["digging up a body for investigation"],
     ejemplo: { palabra: "the exhumation", texto: "The judge ordered the exhumation to gather more evidence." },
@@ -17696,7 +17696,7 @@ DICCIONARIOS.en = [
   {
     id: "exonerate",
     palabra: "Exonerate",
-    imagen: { id: 2957, alt: "A judge with a gavel in court" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To officially clear someone of blame or guilt for something they were accused of.",
     sinonimos: ["officially clear of blame"],
     ejemplo: { palabra: "exonerate the man", texto: "New evidence helped exonerate the man after years in prison." },
@@ -17786,7 +17786,7 @@ DICCIONARIOS.en = [
   {
     id: "femicide",
     palabra: "Femicide",
-    imagen: { id: 2957, alt: "A judge with a gavel in court" },
+    imagen: { id: 16363, alt: "Muerte, asesinato" },
     definicion: "The killing of a woman because she is a woman, often by a partner or family member.",
     sinonimos: ["the killing of a woman because of her gender"],
     ejemplo: { palabra: "femicide", texto: "The new law increased penalties for femicide." },
@@ -18056,7 +18056,7 @@ DICCIONARIOS.en = [
   {
     id: "genocide",
     palabra: "Genocide",
-    imagen: { id: 2957, alt: "A judge with a gavel in court" },
+    imagen: { id: 11291, alt: "Un juez con un mazo en el tribunal" },
     definicion: "The deliberate killing of a large group of people from a particular nation or ethnic group.",
     sinonimos: ["the mass killing of a group of people"],
     ejemplo: { palabra: "the genocide", texto: "The international court judged the genocide committed during the war." },
@@ -18236,7 +18236,7 @@ DICCIONARIOS.en = [
   {
     id: "headhunter",
     palabra: "Headhunter",
-    imagen: { id: 2599, alt: "A person working at a desk" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A person or company that finds and recruits people for jobs, especially high-level jobs.",
     sinonimos: ["a person who recruits people for jobs"],
     ejemplo: { palabra: "a headhunter", texto: "She was contacted by a headhunter about a new job opportunity." },
@@ -18656,7 +18656,7 @@ DICCIONARIOS.en = [
   {
     id: "janitor",
     palabra: "Janitor",
-    imagen: { id: 2599, alt: "A person working at a desk" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A person whose job is to clean and take care of a building.",
     sinonimos: ["a person who cleans and takes care of a building"],
     ejemplo: { palabra: "the janitor", texto: "Every evening, the janitor locked the doors after the last class ended." },
@@ -18686,7 +18686,7 @@ DICCIONARIOS.en = [
   {
     id: "jobseeker",
     palabra: "Jobseeker",
-    imagen: { id: 2599, alt: "A person working at a desk" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A person who is actively looking for a job.",
     sinonimos: ["a person actively looking for a job"],
     ejemplo: { palabra: "a jobseeker", texto: "As a jobseeker, she attended three interviews last week." },
@@ -19696,7 +19696,7 @@ DICCIONARIOS.en = [
   {
     id: "overrule",
     palabra: "Overrule",
-    imagen: { id: 2957, alt: "A judge with a gavel" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "For a judge to reject a decision, objection, or a lower court's ruling.",
     sinonimos: ["reject a decision or objection"],
     ejemplo: { palabra: "overrule the objection", texto: "The judge decided to overrule the objection." },
@@ -20226,7 +20226,7 @@ DICCIONARIOS.en = [
   {
     id: "presiding",
     palabra: "Presiding",
-    imagen: { id: 2957, alt: "A judge with a gavel" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Being in charge of a meeting, court case, or event.",
     sinonimos: ["being in charge of a meeting or court case"],
     ejemplo: { palabra: "the presiding judge", texto: "Both lawyers approached the presiding judge to ask a question." },
@@ -20476,7 +20476,7 @@ DICCIONARIOS.en = [
   {
     id: "recusal",
     palabra: "Recusal",
-    imagen: { id: 2957, alt: "A judge with a gavel" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The act of a judge or official stepping aside from a case because of a conflict of interest.",
     sinonimos: ["stepping aside from a case due to a conflict of interest"],
     ejemplo: { palabra: "the recusal", texto: "The lawyers requested the recusal of the judge." },
@@ -20636,7 +20636,7 @@ DICCIONARIOS.en = [
   {
     id: "reprieve",
     palabra: "Reprieve",
-    imagen: { id: 2957, alt: "A judge with a gavel" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A delay or cancellation of a punishment, especially a death sentence.",
     sinonimos: ["a delay or cancellation of a punishment"],
     ejemplo: { palabra: "a reprieve", texto: "The governor granted a reprieve just hours before the execution." },
@@ -20956,7 +20956,7 @@ DICCIONARIOS.en = [
   {
     id: "sentencing",
     palabra: "Sentencing",
-    imagen: { id: 2957, alt: "A judge with a gavel" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The part of a trial when a judge decides the punishment for someone found guilty.",
     sinonimos: ["when a judge decides the punishment"],
     ejemplo: { palabra: "the sentencing", texto: "The family attended the sentencing at the courthouse." },
@@ -21466,7 +21466,7 @@ DICCIONARIOS.en = [
   {
     id: "summon",
     palabra: "Summon",
-    imagen: { id: 2957, alt: "A judge with a gavel" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To officially order someone to appear somewhere, such as in court.",
     sinonimos: ["officially order someone to appear somewhere"],
     ejemplo: { palabra: "summon him", texto: "The judge decided to summon him to explain the missing payments." },
@@ -21896,7 +21896,7 @@ DICCIONARIOS.en = [
   {
     id: "wrongdoer",
     palabra: "Wrongdoer",
-    imagen: { id: 2957, alt: "A judge with a gavel" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who does something illegal or morally wrong.",
     sinonimos: ["a person who does something illegal or wrong"],
     ejemplo: { palabra: "the wrongdoer", texto: "The judge ordered the wrongdoer to pay for the damage." },
