@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 34814, alt: "Préstamo" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -8388,7 +8388,7 @@ DICCIONARIOS.es = [
   {
     id: "regimen-de-visitas",
     palabra: "Régimen de visitas",
-    imagen: { id: 3071, alt: "Un calendario" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Los días y las horas en los que un padre o una madre que no vive con sus hijos puede estar con ellos.",
     sinonimos: ["calendario de visitas"],
     ejemplo: { palabra: "régimen de visitas", texto: "El juez fijó un régimen de visitas de fines de semana alternos." },
@@ -8608,7 +8608,7 @@ DICCIONARIOS.es = [
   {
     id: "prorroga",
     palabra: "Prórroga",
-    imagen: { id: 3071, alt: "Un calendario con una flecha que sigue avanzando" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Más tiempo para hacer un trámite, después de que pasara la fecha final.",
     sinonimos: ["ampliación de plazo"],
     ejemplo: { palabra: "prórroga", texto: "Pidió una prórroga porque no llegaba a presentar los papeles a tiempo." },
@@ -8878,7 +8878,7 @@ DICCIONARIOS.es = [
   {
     id: "baja-por-maternidad",
     palabra: "Baja por maternidad",
-    imagen: { id: 6060, alt: "Una madre sujetando a un bebé" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "El tiempo que puede dejar de trabajar una madre para cuidar a su bebé recién nacido, sin perder el sueldo.",
     sinonimos: ["permiso de maternidad"],
     ejemplo: { palabra: "baja por maternidad", texto: "Pidió la baja por maternidad al nacer su hija." },
@@ -8888,7 +8888,7 @@ DICCIONARIOS.es = [
   {
     id: "baja-por-paternidad",
     palabra: "Baja por paternidad",
-    imagen: { id: 6060, alt: "Un padre sujetando a un bebé" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "El tiempo que puede dejar de trabajar un padre para cuidar a su bebé recién nacido, sin perder el sueldo.",
     sinonimos: ["permiso de paternidad"],
     ejemplo: { palabra: "baja por paternidad", texto: "Pidió la baja por paternidad al nacer su hijo." },
@@ -10569,7 +10569,7 @@ DICCIONARIOS.es = [
   {
     id: "periodo-de-carencia",
     palabra: "Período de carencia",
-    imagen: { id: 3071, alt: "Un calendario con una fecha marcada más adelante" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Un tiempo al principio de un préstamo en el que no pagas o pagas menos.",
     sinonimos: ["tiempo sin pagar cuotas"],
     ejemplo: { palabra: "período de carencia", texto: "El banco le dio un período de carencia de seis meses." },
@@ -12077,7 +12077,7 @@ DICCIONARIOS.es = [
   {
     id: "cuenta-multidivisa",
     palabra: "Cuenta multidivisa",
-    imagen: { id: 8633, alt: "Una moneda" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Una cuenta del banco que guarda dinero en varias monedas distintas a la vez.",
     sinonimos: ["cuenta con varias monedas"],
     ejemplo: { palabra: "cuenta multidivisa", texto: "Abrió una cuenta multidivisa para trabajar con clientes de otros países." },
@@ -14032,7 +14032,7 @@ DICCIONARIOS.es = [
   {
     id: "tasas-academicas",
     palabra: "Tasas académicas",
-    imagen: { id: 8633, alt: "Una mano pagando dinero en una oficina universitaria" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "El dinero que pagas para estudiar en un colegio o universidad. Cubre el coste de la enseñanza.",
     sinonimos: ["cuotas de estudio"],
     ejemplo: { palabra: "tasas académicas", texto: "Pidió un préstamo para pagar las tasas académicas." },
@@ -14292,7 +14292,7 @@ DICCIONARIOS.es = [
   {
     id: "patrimonio-neto",
     palabra: "Patrimonio neto",
-    imagen: { id: 8633, alt: "Una casa con una parte resaltada como ya pagada" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "El valor de algo que posees después de pagar la deuda que tiene. En una casa, es el precio menos lo que aún debes.",
     sinonimos: ["valor de propiedad"],
     ejemplo: { palabra: "patrimonio neto", texto: "Tiene mucho patrimonio neto en su piso." },
@@ -14332,7 +14332,7 @@ DICCIONARIOS.es = [
   {
     id: "asignacion-economica",
     palabra: "Asignación económica",
-    imagen: { id: 8633, alt: "Una mano dando dinero de forma regular a una familia" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Una cantidad fija de dinero que se da a alguien de forma regular. Puede venir de un gobierno, un padre o un empleador.",
     sinonimos: ["paga regular"],
     ejemplo: { palabra: "asignación económica", texto: "El gobierno da una asignación económica a las familias con hijos." },
@@ -14642,7 +14642,7 @@ DICCIONARIOS.es = [
   {
     id: "solvente",
     palabra: "Solvente",
-    imagen: { id: 8633, alt: "Una empresa con una marca verde junto a sus finanzas" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Tener suficiente dinero para pagar todas tus deudas. Es lo contrario de no poder pagar lo que debes.",
     sinonimos: ["capaz de pagar deudas"],
     ejemplo: { palabra: "solvente", texto: "La empresa siguió siendo solvente a pesar de la crisis." },
@@ -14872,7 +14872,7 @@ DICCIONARIOS.es = [
   {
     id: "aprendiz",
     palabra: "Aprendiz",
-    imagen: { id: 7795, alt: "Trabajadores de distintos oficios y profesiones" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "Una persona que aprende un oficio trabajando junto a alguien con experiencia. Estudia y gana habilidades prácticas a la vez.",
     sinonimos: ["trabajador en formación"],
     ejemplo: { palabra: "aprendiz", texto: "Empezó como aprendiz en un taller de electricidad." },
@@ -15552,7 +15552,7 @@ DICCIONARIOS.es = [
   {
     id: "asalariado",
     palabra: "Asalariado",
-    imagen: { id: 7795, alt: "Tres personas con uniformes de distintos trabajos" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Una persona que trabaja a cambio de un sueldo fijo para otra persona o empresa.",
     sinonimos: ["empleado", "trabajador con sueldo"],
     ejemplo: { palabra: "asalariado", texto: "Como asalariado, recibe su sueldo cada mes." },
@@ -16212,7 +16212,7 @@ DICCIONARIOS.es = [
   {
     id: "ausentismo",
     palabra: "Ausentismo",
-    imagen: { id: 3071, alt: "Un calendario con varios días marcados" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Faltar mucho al trabajo o a clase de forma repetida.",
     sinonimos: ["faltas repetidas"],
     ejemplo: { palabra: "del ausentismo", texto: "La empresa investigó las causas del ausentismo." },
@@ -17882,7 +17882,7 @@ DICCIONARIOS.es = [
   {
     id: "gremio",
     palabra: "Gremio",
-    imagen: { id: 7795, alt: "Tres personas con uniformes de distintos trabajos" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Una asociación de personas que trabajan en el mismo oficio, para defender sus intereses comunes.",
     sinonimos: ["asociación de trabajadores del mismo oficio"],
     ejemplo: { palabra: "al gremio", texto: "Los trabajadores se unieron al gremio para defender sus derechos." },
@@ -18222,7 +18222,7 @@ DICCIONARIOS.es = [
   {
     id: "jornalero",
     palabra: "Jornalero",
-    imagen: { id: 7795, alt: "Tres personas con uniformes de distintos trabajos" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Una persona que trabaja por un salario diario, normalmente en el campo.",
     sinonimos: ["trabajador que cobra por día"],
     ejemplo: { palabra: "el jornalero", texto: "Cada mañana, el jornalero recogía fruta desde el amanecer." },
@@ -18292,7 +18292,7 @@ DICCIONARIOS.es = [
   {
     id: "labio-leporino",
     palabra: "Labio leporino",
-    imagen: { id: 6060, alt: "Un bebé recién nacido durmiendo" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una malformación de nacimiento en la que el labio superior no se cierra completamente.",
     sinonimos: ["malformación de nacimiento en el labio"],
     ejemplo: { palabra: "el labio leporino", texto: "La cirugía corrigió el labio leporino del bebé." },
@@ -18392,7 +18392,7 @@ DICCIONARIOS.es = [
   {
     id: "malformacion",
     palabra: "Malformación",
-    imagen: { id: 6060, alt: "Un bebé recién nacido durmiendo" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una anomalía en la forma o estructura de una parte del cuerpo, presente desde el nacimiento.",
     sinonimos: ["anomalía de nacimiento en el cuerpo"],
     ejemplo: { palabra: "una malformación en el corazón", texto: "El bebé nació con una malformación en el corazón." },
@@ -18622,7 +18622,7 @@ DICCIONARIOS.es = [
   {
     id: "natalidad",
     palabra: "Natalidad",
-    imagen: { id: 6060, alt: "Un bebé recién nacido durmiendo" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "El número de nacimientos que se producen en un lugar durante un periodo de tiempo.",
     sinonimos: ["número de nacimientos en un periodo"],
     ejemplo: { palabra: "la natalidad", texto: "El gobierno impulsó ayudas para aumentar la natalidad." },
@@ -18702,7 +18702,7 @@ DICCIONARIOS.es = [
   {
     id: "neonatologia",
     palabra: "Neonatología",
-    imagen: { id: 6060, alt: "Un bebé recién nacido durmiendo" },
+    imagen: { id: 28215, alt: "Bebé, recién nacido, neonato" },
     definicion: "La rama de la medicina que se ocupa del cuidado de los bebés recién nacidos, especialmente los prematuros o enfermos.",
     sinonimos: ["medicina del cuidado de recién nacidos"],
     ejemplo: { palabra: "de neonatología", texto: "El hospital cuenta con una unidad de neonatología muy avanzada." },
@@ -19602,7 +19602,7 @@ DICCIONARIOS.es = [
   {
     id: "tercerizar",
     palabra: "Tercerizar",
-    imagen: { id: 7795, alt: "Tres personas con uniformes de distintos trabajos" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Contratar a otra empresa para que haga un servicio o una tarea, en vez de hacerlo con personal propio.",
     sinonimos: ["contratar a otra empresa para un servicio"],
     ejemplo: { palabra: "tercerizar", texto: "La empresa decidió tercerizar el servicio de limpieza." },
