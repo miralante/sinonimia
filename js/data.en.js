@@ -186,7 +186,7 @@ DICCIONARIOS.en = [
   {
     id: "overdraft",
     palabra: "Overdraft",
-    imagen: { id: 17312, alt: "A hand takes money out of an account" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "You spend more money than you have in your bank account.",
     sinonimos: ["negative balance", "spending past zero"],
     ejemplo: { palabra: "overdraft", texto: "The bank charges a fee for every overdraft." },
@@ -226,7 +226,7 @@ DICCIONARIOS.en = [
   {
     id: "deposit",
     palabra: "Deposit",
-    imagen: { id: 30480, alt: "One hand gives a coin to another hand" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Money you leave with the landlord when you rent a home. You get it back if everything is fine.",
     sinonimos: ["security deposit"],
     ejemplo: { palabra: "deposit", texto: "We paid a deposit of one month when we rented the flat." },
@@ -947,7 +947,7 @@ DICCIONARIOS.en = [
   {
     id: "renovation",
     palabra: "Renovation",
-    imagen: { id: 19537, alt: "Construction work on a home" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Big changes in a home. For example, changing the kitchen or the bathrooms.",
     sinonimos: ["home remodeling", "big home fix"],
     ejemplo: { palabra: "renovation", texto: "They did a bathroom renovation last summer." },
@@ -1705,7 +1705,7 @@ DICCIONARIOS.en = [
   {
     id: "consent-written",
     palabra: "Written consent",
-    imagen: { id: 25698, alt: "A person signs a paper" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Permission you give in writing. For example, before a medical procedure.",
     sinonimos: ["written permission"],
     ejemplo: { palabra: "written consent", texto: "The hospital asked for her written consent before the surgery." },
@@ -1755,7 +1755,7 @@ DICCIONARIOS.en = [
   {
     id: "security-bond",
     palabra: "Security bond",
-    imagen: { id: 30480, alt: "Money given as a guarantee" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Money you leave with the landlord when you rent a home. You get it back when you leave.",
     sinonimos: ["rental deposit"],
     ejemplo: { palabra: "security bond", texto: "They paid a security bond of one month's rent." },
@@ -2147,7 +2147,7 @@ DICCIONARIOS.en = [
   {
     id: "right-to-defence",
     palabra: "Right to a defence",
-    imagen: { id: 25698, alt: "A person signs a paper with a lawyer" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Every person has the right to speak and to have a lawyer in court.",
     sinonimos: ["right to defend yourself"],
     ejemplo: { palabra: "right to a defence", texto: "Every defendant has the right to a defence before a judge." },
@@ -2359,7 +2359,7 @@ DICCIONARIOS.en = [
   {
     id: "investment",
     palabra: "Investment",
-    imagen: { id: 16631, alt: "A chart with an upward arrow" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Putting money into something to get more money back over time.",
     sinonimos: ["money that grows"],
     ejemplo: { palabra: "investment", texto: "He made an investment in a pension fund for his retirement." },
@@ -2570,7 +2570,7 @@ DICCIONARIOS.en = [
   {
     id: "raise",
     palabra: "Pay raise",
-    imagen: { id: 16631, alt: "A chart with an upward arrow" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "When you get more salary because you do well or change to a better position.",
     sinonimos: ["salary increase"],
     ejemplo: { palabra: "pay raise", texto: "He asked for a pay raise after his first year." },
@@ -3526,7 +3526,7 @@ DICCIONARIOS.en = [
   {
     id: "withdraw",
     palabra: "Withdraw",
-    imagen: { id: 17312, alt: "A hand takes out money" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Take money out of your bank account. You can do it at a cash machine or a counter.",
     sinonimos: ["take money out"],
     ejemplo: { palabra: "withdraw", texto: "He went to the cash machine to withdraw money for the weekend." },
@@ -4361,7 +4361,7 @@ DICCIONARIOS.en = [
   {
     id: "productivity",
     palabra: "Productivity",
-    imagen: { id: 16631, alt: "A chart with an upward arrow" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The amount of useful work you do in a time. More productivity is more work done.",
     sinonimos: ["useful work in time"],
     ejemplo: { palabra: "productivity", texto: "Productivity went up with the new computer programme." },
@@ -7897,7 +7897,7 @@ DICCIONARIOS.en = [
   {
     id: "domain-name",
     palabra: "Domain name",
-    imagen: { id: 16913, alt: "An internet address bar" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "The unique address of a website, the part that comes after the www.",
     sinonimos: ["web address"],
     ejemplo: { palabra: "domain name", texto: "She bought the domain name for her business website." },
@@ -8077,7 +8077,7 @@ DICCIONARIOS.en = [
   {
     id: "cash-withdrawal",
     palabra: "Cash withdrawal",
-    imagen: { id: 17312, alt: "A hand taking banknotes from a cash machine" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Taking cash out of your account, usually from a cash machine.",
     sinonimos: ["take out cash"],
     ejemplo: { palabra: "cash withdrawal", texto: "He made a cash withdrawal of fifty pounds at the ATM." },
@@ -11575,7 +11575,7 @@ DICCIONARIOS.en = [
   {
     id: "building-permit",
     palabra: "Building permit",
-    imagen: { id: 19537, alt: "Building work on a house" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "A permit from the council that you need before doing a big renovation at home.",
     sinonimos: ["permission to do building work"],
     ejemplo: { palabra: "building permit", texto: "He got a building permit before knocking down a wall." },
@@ -11705,7 +11705,7 @@ DICCIONARIOS.en = [
   {
     id: "property-listing-website",
     palabra: "Property listing website",
-    imagen: { id: 16913, alt: "A webpage" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "A website where homes and flats are advertised for rent or sale.",
     sinonimos: ["website of homes for sale or rent"],
     ejemplo: { palabra: "property listing website", texto: "He looked for a flat on a property listing website for weeks." },
@@ -12218,7 +12218,7 @@ DICCIONARIOS.en = [
   {
     id: "caught-in-the-act",
     palabra: "Caught in the act",
-    imagen: { id: 31900, alt: "A criminal act" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A crime that the police discover at the very moment it is happening.",
     sinonimos: ["crime discovered as it happens"],
     ejemplo: { palabra: "caught in the act", texto: "He was arrested caught in the act at the supermarket." },
@@ -12660,7 +12660,7 @@ DICCIONARIOS.en = [
   {
     id: "zoning-permit",
     palabra: "Zoning permit",
-    imagen: { id: 19537, alt: "Building work on a house" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "An official paper that says what a piece of land can be used for.",
     sinonimos: ["paper that says what land can be used for"],
     ejemplo: { palabra: "zoning permit", texto: "They checked the zoning permit before buying the plot." },
@@ -12775,7 +12775,7 @@ DICCIONARIOS.en = [
   {
     id: "union-representative",
     palabra: "Union representative",
-    imagen: { id: 25698, alt: "A worker talking with a group of colleagues" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A person chosen by their co-workers to defend their rights at the company.",
     sinonimos: ["union rep"],
     ejemplo: { palabra: "union representative", texto: "The union representative negotiated the schedule with management." },
@@ -12808,7 +12808,7 @@ DICCIONARIOS.en = [
   {
     id: "final-settlement",
     palabra: "Final settlement",
-    imagen: { id: 30480, alt: "An envelope with money and a signed paper" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The total amount the company pays you when you leave the job. It covers what they owe you.",
     sinonimos: ["severance pay"],
     ejemplo: { palabra: "final settlement", texto: "He received his final settlement the week the contract ended." },
@@ -14236,7 +14236,7 @@ DICCIONARIOS.en = [
   {
     id: "brokerage",
     palabra: "Brokerage",
-    imagen: { id: 21453, alt: "A person opening an investment account on a computer" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A company that buys and sells investments for its clients. It usually charges a fee for the service.",
     sinonimos: ["investment firm"],
     ejemplo: { palabra: "brokerage", texto: "He opened an account with an online brokerage." },
@@ -14566,7 +14566,7 @@ DICCIONARIOS.en = [
   {
     id: "investor",
     palabra: "Investor",
-    imagen: { id: 21453, alt: "A person buying shares on a screen" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A person or company that puts money into something to make more money later. They take on some risk.",
     sinonimos: ["a person who invests"],
     ejemplo: { palabra: "An investor", texto: "An investor bought shares in the new company." },
@@ -15196,7 +15196,7 @@ DICCIONARIOS.en = [
   {
     id: "felony",
     palabra: "Felony",
-    imagen: { id: 31900, alt: "A crossed-out scale of justice surrounded by crime scenes" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A serious crime, more serious than a minor offence. It can lead to prison time.",
     sinonimos: ["serious crime"],
     ejemplo: { palabra: "a felony", texto: "Stealing a car is considered a felony in some countries." },
@@ -18756,7 +18756,7 @@ DICCIONARIOS.en = [
   {
     id: "kyphosis",
     palabra: "Kyphosis",
-    imagen: { id: 16619, alt: "A spine diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "An excessive forward curve of the upper spine that causes a hunched back.",
     sinonimos: ["excessive forward curve of the upper spine"],
     ejemplo: { palabra: "kyphosis", texto: "The doctor diagnosed kyphosis after examining his back." },
@@ -18956,7 +18956,7 @@ DICCIONARIOS.en = [
   {
     id: "lordosis",
     palabra: "Lordosis",
-    imagen: { id: 16619, alt: "A spine diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "An excessive inward curve of the lower spine.",
     sinonimos: ["excessive inward curve of the lower spine"],
     ejemplo: { palabra: "lordosis", texto: "The doctor diagnosed lordosis after examining his lower back." },
@@ -19806,7 +19806,7 @@ DICCIONARIOS.en = [
   {
     id: "paraplegic",
     palabra: "Paraplegic",
-    imagen: { id: 16619, alt: "A spine diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A person who cannot move or feel the lower half of their body, usually because of a spinal cord injury.",
     sinonimos: ["a person who cannot move their lower body"],
     ejemplo: { palabra: "a paraplegic", texto: "After the injury, he became a paraplegic." },
@@ -22286,7 +22286,7 @@ DICCIONARIOS.en = [
   {
     id: "hypothyroidism",
     palabra: "Hypothyroidism",
-    imagen: { id: 32186, alt: "A blood test for the thyroid" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The thyroid works less than normal. The body feels more tired and works more slowly.",
     sinonimos: ["underactive thyroid"],
     ejemplo: { palabra: "hypothyroidism", texto: "He takes a tablet every day for his hypothyroidism." },
@@ -22296,7 +22296,7 @@ DICCIONARIOS.en = [
   {
     id: "hyperthyroidism",
     palabra: "Hyperthyroidism",
-    imagen: { id: 32186, alt: "A blood test for the thyroid" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The thyroid works more than normal. The heart beats faster and weight drops for no reason.",
     sinonimos: ["an overactive thyroid"],
     ejemplo: { palabra: "hyperthyroidism", texto: "She was diagnosed with hyperthyroidism from a blood test." },
@@ -22376,7 +22376,7 @@ DICCIONARIOS.en = [
   {
     id: "goitre",
     palabra: "Goitre",
-    imagen: { id: 32186, alt: "A neck with a lump" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The thyroid grows larger than normal. A lump appears in the neck.",
     sinonimos: ["a lump in the neck from the thyroid"],
     ejemplo: { palabra: "a goitre", texto: "The doctor noticed a goitre during the check-up." },
