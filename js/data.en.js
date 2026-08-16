@@ -613,7 +613,7 @@ DICCIONARIOS.en = [
   {
     id: "antibiotic",
     palabra: "Antibiotic",
-    imagen: { id: 8163, alt: "Boxes of medicine" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A strong medicine. It kills the germs that cause an infection.",
     sinonimos: ["germ-killing medicine", "infection medicine"],
     ejemplo: { palabra: "antibiotic", texto: "The doctor prescribed an antibiotic for her ear infection." },
@@ -643,7 +643,7 @@ DICCIONARIOS.en = [
   {
     id: "anti-inflammatory",
     palabra: "Anti-inflammatory",
-    imagen: { id: 8163, alt: "Boxes of medicine" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A medicine that brings down swelling and pain in one part of the body.",
     sinonimos: ["swelling medicine", "inflammation medicine"],
     ejemplo: { palabra: "anti-inflammatory", texto: "He took an anti-inflammatory for his swollen ankle." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 2402, alt: "Biscuits, cookies" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -13436,7 +13436,7 @@ DICCIONARIOS.en = [
   {
     id: "negligence",
     palabra: "Negligence",
-    imagen: { id: 2957, alt: "A judge with a gavel next to a warning sign" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Not taking enough care, which causes harm to someone. It can make you legally responsible.",
     sinonimos: ["carelessness"],
     ejemplo: { palabra: "negligence", texto: "The court found the company guilty of negligence." },
@@ -15466,7 +15466,7 @@ DICCIONARIOS.en = [
   {
     id: "antidote",
     palabra: "Antidote",
-    imagen: { id: 8163, alt: "A doctor gives medicine to a patient" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A medicine that stops the harmful effects of a poison.",
     sinonimos: ["poison treatment"],
     ejemplo: { palabra: "antidote", texto: "Doctors gave him the antidote right after the poisoning." },
@@ -15646,7 +15646,7 @@ DICCIONARIOS.en = [
   {
     id: "adulterant",
     palabra: "Adulterant",
-    imagen: { id: 8163, alt: "A bottle of medicine with a warning sign" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A harmful substance secretly added to a product, making it unsafe.",
     sinonimos: ["harmful additive", "contaminant"],
     ejemplo: { palabra: "an adulterant", texto: "Tests found an adulterant mixed into the medicine." },
@@ -15836,7 +15836,7 @@ DICCIONARIOS.en = [
   {
     id: "antacid",
     palabra: "Antacid",
-    imagen: { id: 8163, alt: "A bottle of pills next to a glass of water" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A medicine that reduces stomach acid and heartburn.",
     sinonimos: ["heartburn medicine"],
     ejemplo: { palabra: "an antacid", texto: "He took an antacid after the spicy meal." },
@@ -15866,7 +15866,7 @@ DICCIONARIOS.en = [
   {
     id: "anxiolytic",
     palabra: "Anxiolytic",
-    imagen: { id: 8163, alt: "A bottle of pills next to a glass of water" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A medicine that helps calm anxiety.",
     sinonimos: ["anti-anxiety medicine", "calming medicine"],
     ejemplo: { palabra: "an anxiolytic", texto: "The doctor prescribed an anxiolytic to help him sleep." },
@@ -17286,7 +17286,7 @@ DICCIONARIOS.en = [
   {
     id: "dispensary",
     palabra: "Dispensary",
-    imagen: { id: 8163, alt: "Medicines and pills" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A place where medicines are given out, often within a clinic or hospital.",
     sinonimos: ["a place where medicine is given out"],
     ejemplo: { palabra: "the dispensary", texto: "She picked up her prescription at the dispensary." },
@@ -17296,7 +17296,7 @@ DICCIONARIOS.en = [
   {
     id: "diuretic",
     palabra: "Diuretic",
-    imagen: { id: 8163, alt: "Medicines and pills" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A medicine that helps the body get rid of extra water and salt through urine.",
     sinonimos: ["a medicine that increases urination"],
     ejemplo: { palabra: "a diuretic", texto: "The doctor prescribed a diuretic to reduce his blood pressure." },
@@ -17356,7 +17356,7 @@ DICCIONARIOS.en = [
   {
     id: "dosage",
     palabra: "Dosage",
-    imagen: { id: 8163, alt: "Medicines and pills" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The amount of a medicine that a person should take, and how often.",
     sinonimos: ["the amount of medicine to take"],
     ejemplo: { palabra: "the dosage", texto: "The pharmacist explained the dosage printed on the label." },
@@ -17796,7 +17796,7 @@ DICCIONARIOS.en = [
   {
     id: "fentanyl",
     palabra: "Fentanyl",
-    imagen: { id: 8163, alt: "Medicines and pills" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A very strong drug used for severe pain, which can be extremely dangerous or deadly if misused.",
     sinonimos: ["a very strong and dangerous pain drug"],
     ejemplo: { palabra: "fentanyl", texto: "The hospital keeps fentanyl under strict security due to its risks." },
@@ -18276,7 +18276,7 @@ DICCIONARIOS.en = [
   {
     id: "hemorrhoid",
     palabra: "Hemorrhoid",
-    imagen: { id: 8163, alt: "Medicines" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A swollen vein near the anus that can cause pain or itching.",
     sinonimos: ["a swollen vein near the anus"],
     ejemplo: { palabra: "his hemorrhoid", texto: "The doctor prescribed a cream to treat his hemorrhoid." },
@@ -18816,7 +18816,7 @@ DICCIONARIOS.en = [
   {
     id: "laxative",
     palabra: "Laxative",
-    imagen: { id: 8163, alt: "Medicines" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A medicine or food that helps a person have a bowel movement.",
     sinonimos: ["a medicine that helps bowel movement"],
     ejemplo: { palabra: "a laxative", texto: "The doctor recommended a laxative for his constipation." },
@@ -19166,7 +19166,7 @@ DICCIONARIOS.en = [
   {
     id: "methadone",
     palabra: "Methadone",
-    imagen: { id: 8163, alt: "Medicines" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A medicine used to treat addiction to drugs like heroin, reducing withdrawal symptoms.",
     sinonimos: ["a medicine used to treat drug addiction"],
     ejemplo: { palabra: "methadone", texto: "The clinic prescribed methadone to help him stop using heroin." },
@@ -19366,7 +19366,7 @@ DICCIONARIOS.en = [
   {
     id: "narcotic",
     palabra: "Narcotic",
-    imagen: { id: 8163, alt: "Medicines" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A drug that relieves pain and can cause sleepiness, and may be addictive with repeated use.",
     sinonimos: ["a drug that relieves pain and can be addictive"],
     ejemplo: { palabra: "a narcotic", texto: "The doctor prescribed a narcotic to manage his severe pain." },
@@ -19606,7 +19606,7 @@ DICCIONARIOS.en = [
   {
     id: "opioid",
     palabra: "Opioid",
-    imagen: { id: 8163, alt: "Medicines" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A powerful type of drug used to relieve pain, which can be addictive.",
     sinonimos: ["a powerful pain-relief drug that can be addictive"],
     ejemplo: { palabra: "an opioid", texto: "The hospital carefully monitored his use of an opioid after the surgery." },
@@ -19716,7 +19716,7 @@ DICCIONARIOS.en = [
   {
     id: "palliate",
     palabra: "Palliate",
-    imagen: { id: 8163, alt: "Medicines" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "To reduce the pain or symptoms of an illness without curing it.",
     sinonimos: ["reduce pain without curing an illness"],
     ejemplo: { palabra: "palliate", texto: "Doctors could only palliate his pain, not cure the disease." },
@@ -20016,7 +20016,7 @@ DICCIONARIOS.en = [
   {
     id: "placebo",
     palabra: "Placebo",
-    imagen: { id: 8163, alt: "Medicines" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A treatment with no real medical effect, sometimes given during medical studies to compare results.",
     sinonimos: ["a treatment with no real medical effect"],
     ejemplo: { palabra: "a placebo", texto: "Half of the patients received a placebo instead of the real medicine." },
@@ -20546,7 +20546,7 @@ DICCIONARIOS.en = [
   {
     id: "regimen",
     palabra: "Regimen",
-    imagen: { id: 8163, alt: "Medicines" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A planned set of actions, such as medicines or exercises, followed regularly to improve health.",
     sinonimos: ["a planned set of health actions followed regularly"],
     ejemplo: { palabra: "a treatment regimen", texto: "The doctor prescribed a treatment regimen." },
@@ -20916,7 +20916,7 @@ DICCIONARIOS.en = [
   {
     id: "sedative",
     palabra: "Sedative",
-    imagen: { id: 8163, alt: "Medicines" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A medicine that makes a person feel calm or sleepy.",
     sinonimos: ["a medicine that makes someone feel calm or sleepy"],
     ejemplo: { palabra: "a sedative", texto: "The nurse gave him a sedative before the procedure." },
@@ -21306,7 +21306,7 @@ DICCIONARIOS.en = [
   {
     id: "steroid",
     palabra: "Steroid",
-    imagen: { id: 8163, alt: "Medicines" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A type of medicine used to reduce swelling or treat certain illnesses.",
     sinonimos: ["a medicine used to reduce swelling"],
     ejemplo: { palabra: "a steroid", texto: "The doctor prescribed a steroid for his allergic reaction." },
@@ -21356,7 +21356,7 @@ DICCIONARIOS.en = [
   {
     id: "stimulant",
     palabra: "Stimulant",
-    imagen: { id: 8163, alt: "Medicines" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A substance or medicine that increases activity in the body, such as heart rate or alertness.",
     sinonimos: ["a substance that increases activity in the body"],
     ejemplo: { palabra: "a stimulant", texto: "The doctor warned against mixing the medicine with a stimulant." },
