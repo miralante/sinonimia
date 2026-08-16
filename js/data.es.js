@@ -503,7 +503,7 @@ DICCIONARIOS.es = [
   {
     id: "amortizacion",
     palabra: "Amortización",
-    imagen: { id: 34814, alt: "Una persona entrega dinero para pagar un préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Pagar poco a poco un préstamo hasta terminarlo del todo.",
     sinonimos: ["pago poco a poco", "devolución del préstamo"],
     ejemplo: { palabra: "amortización", texto: "Cada mes pagamos la amortización del préstamo del piso." },
@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 34814, alt: "Una persona entrega dinero para pagar un préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2975,7 +2975,7 @@ DICCIONARIOS.es = [
   {
     id: "declaracion",
     palabra: "Declaración",
-    imagen: { id: 35449, alt: "Un papel de declaración de Hacienda" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un papel donde le dices al Estado tus datos, sobre todo los de dinero, para pagar impuestos.",
     sinonimos: ["papel de datos al Estado"],
     ejemplo: { palabra: "declaración", texto: "Presentó la declaración de la renta antes del 30 de junio." },
@@ -3399,7 +3399,7 @@ DICCIONARIOS.es = [
   {
     id: "declaracion-jurada",
     palabra: "Declaración jurada",
-    imagen: { id: 35449, alt: "Una declaración oficial" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un papel donde dices algo bajo promesa de decir la verdad. Si mientes, tienes un castigo.",
     sinonimos: ["papel bajo promesa"],
     ejemplo: { palabra: "declaración jurada", texto: "Firmó una declaración jurada ante el juez diciendo toda la verdad." },
@@ -3794,7 +3794,7 @@ DICCIONARIOS.es = [
   {
     id: "declarar",
     palabra: "Declarar",
-    imagen: { id: 35449, alt: "Un papel de declaración de Hacienda" },
+    imagen: { id: 11308, alt: "Mostrar, presentar, enseñar" },
     definicion: "Decir al Estado cuánto has ganado para que calcule tus impuestos.",
     sinonimos: ["presentar la declaración"],
     ejemplo: { palabra: "declarar", texto: "Tuvo que declarar sus ingresos del año pasado en Hacienda." },
@@ -3968,7 +3968,7 @@ DICCIONARIOS.es = [
   {
     id: "turno-noche",
     palabra: "Turno de noche",
-    imagen: { id: 2549, alt: "Un reloj" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Trabajar por la noche, normalmente desde las diez de la noche hasta las seis de la mañana.",
     sinonimos: ["turno nocturno"],
     ejemplo: { palabra: "turno de noche", texto: "Trabaja en turno de noche en el hospital." },
@@ -4000,7 +4000,7 @@ DICCIONARIOS.es = [
   {
     id: "impuesto",
     palabra: "Impuesto",
-    imagen: { id: 35449, alt: "Un papel de impuestos de Hacienda" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Dinero que el Estado te obliga a pagar. Sirve para mantener los servicios públicos.",
     sinonimos: ["tributo"],
     ejemplo: { palabra: "impuesto", texto: "El impuesto sobre la renta se paga una vez al año." },
@@ -4584,7 +4584,7 @@ DICCIONARIOS.es = [
   {
     id: "antiguedad",
     palabra: "Antigüedad",
-    imagen: { id: 2549, alt: "Un reloj" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Los años que llevas trabajando en la empresa. Cuanta más antigüedad, más derechos.",
     sinonimos: ["años en la empresa"],
     ejemplo: { palabra: "antigüedad", texto: "Tiene diez años de antigüedad y le aumentaron el sueldo." },
@@ -4656,7 +4656,7 @@ DICCIONARIOS.es = [
   {
     id: "prescripcion",
     palabra: "Prescripción",
-    imagen: { id: 2549, alt: "Un reloj" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "El tiempo que tienes para reclamar un derecho. Pasado el tiempo, ya no puedes.",
     sinonimos: ["tiempo para reclamar"],
     ejemplo: { palabra: "prescripción", texto: "Pasó el plazo de prescripción y ya no pudo reclamar la deuda." },
@@ -8158,7 +8158,7 @@ DICCIONARIOS.es = [
   {
     id: "declaracion-de-la-renta",
     palabra: "Declaración de la renta",
-    imagen: { id: 35449, alt: "Un documento con una calculadora al lado" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Un trámite que se hace cada año para decir a Hacienda cuánto dinero has ganado.",
     sinonimos: ["declaración de impuestos", "IRPF"],
     ejemplo: { palabra: "declaración de la renta", texto: "Hizo la declaración de la renta antes de que terminara el plazo." },
@@ -9908,7 +9908,7 @@ DICCIONARIOS.es = [
   {
     id: "zona-horaria",
     palabra: "Zona horaria",
-    imagen: { id: 2549, alt: "Un reloj y un mapa del mundo" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "La hora que se usa en un país o una parte del mundo, que puede ser distinta de la tuya.",
     sinonimos: ["huso horario"],
     ejemplo: { palabra: "zona horaria", texto: "Cambió la zona horaria del móvil al llegar a otro país." },
@@ -10489,7 +10489,7 @@ DICCIONARIOS.es = [
   {
     id: "refinanciacion",
     palabra: "Refinanciación",
-    imagen: { id: 34814, alt: "Una persona entrega dinero para pagar un préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Cambiar las condiciones de un préstamo para pagarlo de otra manera.",
     sinonimos: ["cambio de las condiciones del préstamo"],
     ejemplo: { palabra: "refinanciación", texto: "Pidió una refinanciación para pagar cuotas más bajas." },
@@ -10499,7 +10499,7 @@ DICCIONARIOS.es = [
   {
     id: "reunificacion-de-deudas",
     palabra: "Reunificación de deudas",
-    imagen: { id: 34814, alt: "Una persona entrega dinero para pagar un préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Juntar varias deudas en una sola. Así se paga una sola cuota cada mes.",
     sinonimos: ["juntar todas las deudas en una"],
     ejemplo: { palabra: "reunificación de deudas", texto: "Hizo una reunificación de deudas para pagar menos cada mes." },
@@ -10549,7 +10549,7 @@ DICCIONARIOS.es = [
   {
     id: "capital-del-prestamo",
     palabra: "Capital del préstamo",
-    imagen: { id: 34814, alt: "Una persona entrega dinero para pagar un préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "El dinero que pediste prestado, sin contar los intereses.",
     sinonimos: ["dinero prestado sin intereses"],
     ejemplo: { palabra: "capital del préstamo", texto: "Ya ha pagado la mitad del capital del préstamo." },
@@ -10720,7 +10720,7 @@ DICCIONARIOS.es = [
   {
     id: "tiempo-de-pantalla",
     palabra: "Tiempo de pantalla",
-    imagen: { id: 2549, alt: "Un reloj" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "El tiempo que pasas usando el móvil o la tableta cada día.",
     sinonimos: ["tiempo de uso del móvil"],
     ejemplo: { palabra: "tiempo de pantalla", texto: "El móvil le avisó de su tiempo de pantalla del día." },
@@ -10911,7 +10911,7 @@ DICCIONARIOS.es = [
   {
     id: "caducidad-legal",
     palabra: "Caducidad",
-    imagen: { id: 2549, alt: "Un reloj" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "El fin del plazo para usar un derecho. Después de esa fecha, ya no se puede reclamar.",
     sinonimos: ["fin del plazo para reclamar un derecho"],
     ejemplo: { palabra: "caducidad", texto: "El abogado avisó de la caducidad del plazo para recurrir." },
@@ -11444,7 +11444,7 @@ DICCIONARIOS.es = [
   {
     id: "retencion-irpf",
     palabra: "Retención de IRPF",
-    imagen: { id: 35449, alt: "Un papel de impuestos de Hacienda" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "La parte del sueldo que la empresa envía directamente a Hacienda, como impuesto.",
     sinonimos: ["dinero del sueldo que va a Hacienda"],
     ejemplo: { palabra: "retención de IRPF", texto: "La retención de IRPF de su nómina subió este año." },
@@ -14302,7 +14302,7 @@ DICCIONARIOS.es = [
   {
     id: "capital-pendiente-del-prestamo",
     palabra: "Capital pendiente del préstamo",
-    imagen: { id: 34814, alt: "Un documento de préstamo con la cantidad prestada resaltada" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "La cantidad original de dinero pedida en un préstamo. No incluye los intereses.",
     sinonimos: ["importe original del préstamo"],
     ejemplo: { palabra: "capital pendiente del préstamo", texto: "Su cuota mensual cubre intereses y parte del capital pendiente del préstamo." },
@@ -14532,7 +14532,7 @@ DICCIONARIOS.es = [
   {
     id: "fibrosis",
     palabra: "Fibrosis",
-    imagen: { id: 2822, alt: "Un diagrama de pulmones con tejido cicatrizado" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un endurecimiento o cicatrización de un tejido del cuerpo. Puede dificultar el funcionamiento del órgano afectado.",
     sinonimos: ["cicatrización del tejido"],
     ejemplo: { palabra: "fibrosis", texto: "Le detectaron fibrosis en los pulmones." },
@@ -17392,7 +17392,7 @@ DICCIONARIOS.es = [
   {
     id: "enfisema",
     palabra: "Enfisema",
-    imagen: { id: 2822, alt: "Unos pulmones dibujados" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una enfermedad de los pulmones que dificulta la respiración.",
     sinonimos: ["enfermedad pulmonar que dificulta respirar"],
     ejemplo: { palabra: "un enfisema", texto: "El médico diagnosticó un enfisema tras años de tabaco." },
@@ -18662,7 +18662,7 @@ DICCIONARIOS.es = [
   {
     id: "neumotorax",
     palabra: "Neumotórax",
-    imagen: { id: 2822, alt: "Unos pulmones dibujados" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "La entrada de aire en el espacio entre el pulmón y la pared del tórax, que provoca su colapso.",
     sinonimos: ["aire acumulado que colapsa el pulmón"],
     ejemplo: { palabra: "un neumotórax", texto: "El accidente le provocó un neumotórax que requirió cirugía urgente." },
@@ -19122,7 +19122,7 @@ DICCIONARIOS.es = [
   {
     id: "pulmonia",
     palabra: "Pulmonía",
-    imagen: { id: 2822, alt: "Unos pulmones dibujados" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una infección grave de los pulmones que causa fiebre, tos y dificultad para respirar.",
     sinonimos: ["infección grave de los pulmones"],
     ejemplo: { palabra: "una pulmonía", texto: "El médico le diagnosticó una pulmonía tras varios días de fiebre." },
@@ -20162,7 +20162,7 @@ DICCIONARIOS.es = [
   {
     id: "neumologia",
     palabra: "Neumología",
-    imagen: { id: 2822, alt: "Un cartel de departamento hospitalario de pulmones" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "El área de la medicina que trata los pulmones. Los médicos de esta área se llaman neumólogos.",
     sinonimos: ["medicina de los pulmones"],
     ejemplo: { palabra: "neumología", texto: "Le hicieron una prueba de respiración en neumología." },
