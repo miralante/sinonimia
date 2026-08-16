@@ -236,7 +236,7 @@ DICCIONARIOS.en = [
   {
     id: "eviction",
     palabra: "Eviction",
-    imagen: { id: 2931, alt: "A packed suitcase for being forced to leave home" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Being forced to leave your home. It happens when you stop paying rent.",
     sinonimos: ["forced removal", "being made to leave"],
     ejemplo: { palabra: "eviction", texto: "The court ordered the eviction because he stopped paying rent." },
@@ -569,7 +569,7 @@ DICCIONARIOS.en = [
   {
     id: "power-of-attorney",
     palabra: "Power of attorney",
-    imagen: { id: 35413, alt: "A notary next to signed documents" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A legal paper. It lets another person handle things for you, like banking or housing.",
     sinonimos: ["legal authority", "signed authority"],
     ejemplo: { palabra: "power of attorney", texto: "Her son holds power of attorney for her bank account." },
@@ -887,7 +887,7 @@ DICCIONARIOS.en = [
   {
     id: "homeowner",
     palabra: "Homeowner",
-    imagen: { id: 37704, alt: "A person identified as the owner" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "The person who owns the home. Their name is in the Land Registry.",
     sinonimos: ["owner of the home", "property holder"],
     ejemplo: { palabra: "homeowner", texto: "The homeowner pays the property tax every year." },
@@ -1485,7 +1485,7 @@ DICCIONARIOS.en = [
   {
     id: "overtime-hours",
     palabra: "Overtime",
-    imagen: { id: 34713, alt: "A shift change" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Hours you work outside your normal schedule. You get paid more for them.",
     sinonimos: ["extra hours", "extra work time"],
     ejemplo: { palabra: "overtime", texto: "She worked overtime to finish the report." },
@@ -3637,7 +3637,7 @@ DICCIONARIOS.en = [
   {
     id: "part-time",
     palabra: "Part-time",
-    imagen: { id: 34713, alt: "A shift change" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Working fewer hours than full-time, usually mornings or afternoons.",
     sinonimos: ["half job"],
     ejemplo: { palabra: "part-time", texto: "She works part-time in the mornings to look after her kids." },
@@ -4937,7 +4937,7 @@ DICCIONARIOS.en = [
   {
     id: "update",
     palabra: "Update",
-    imagen: { id: 38248, alt: "A button to refresh" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A change that improves an app or a program. It fixes problems or adds new things.",
     sinonimos: ["software update", "refresh"],
     ejemplo: { palabra: "update", texto: "The phone is asking to install a system update." },
@@ -7627,7 +7627,7 @@ DICCIONARIOS.en = [
   {
     id: "public-wifi",
     palabra: "Public wifi",
-    imagen: { id: 35503, alt: "A wifi symbol above a café table" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A free internet connection you can use in places like cafés or libraries. It is less safe than your home wifi.",
     sinonimos: ["free wifi"],
     ejemplo: { palabra: "public wifi", texto: "He avoided checking his bank account on the café's public wifi." },
@@ -7827,7 +7827,7 @@ DICCIONARIOS.en = [
   {
     id: "sync",
     palabra: "Sync",
-    imagen: { id: 38248, alt: "Two arrows forming a circle between two screens" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "To make your information the same across all your devices, like your phone and your computer.",
     sinonimos: ["synchronise"],
     ejemplo: { palabra: "synced", texto: "He synced the photos from his phone to his computer." },
@@ -7877,7 +7877,7 @@ DICCIONARIOS.en = [
   {
     id: "automatic-update",
     palabra: "Automatic update",
-    imagen: { id: 38248, alt: "A circular arrow over a phone screen" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "When an app updates itself, without you having to do anything.",
     sinonimos: ["auto-update"],
     ejemplo: { palabra: "automatic update", texto: "The automatic update changed the icons on the screen without warning." },
@@ -8267,7 +8267,7 @@ DICCIONARIOS.en = [
   {
     id: "signature",
     palabra: "Signature",
-    imagen: { id: 6008, alt: "A hand signing with a pen" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Writing your name in a special way on paper, to say that you agree.",
     sinonimos: ["autograph"],
     ejemplo: { palabra: "signature", texto: "He put his signature at the end of the contract." },
@@ -8867,7 +8867,7 @@ DICCIONARIOS.en = [
   {
     id: "social-housing",
     palabra: "Social housing",
-    imagen: { id: 35655, alt: "A block of flats with an official flag" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "A cheaper home sold or rented by the government, for families with less money.",
     sinonimos: ["affordable housing"],
     ejemplo: { palabra: "social housing", texto: "She signed up for the list to get social housing." },
@@ -9907,7 +9907,7 @@ DICCIONARIOS.en = [
   {
     id: "wireless-network",
     palabra: "Wireless network",
-    imagen: { id: 35503, alt: "A wifi symbol" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "An internet connection with no cables, that reaches every room in the house.",
     sinonimos: ["wifi network"],
     ejemplo: { palabra: "wireless network", texto: "He connected his laptop to the wireless network at home." },
@@ -10097,7 +10097,7 @@ DICCIONARIOS.en = [
   {
     id: "community-centre",
     palabra: "Community centre",
-    imagen: { id: 35655, alt: "A public building with people going in" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A public building where local people can go to activities, classes, or meetings.",
     sinonimos: ["civic centre"],
     ejemplo: { palabra: "community centre", texto: "He went to a computer class at the community centre." },
@@ -10459,7 +10459,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi-hotspot",
     palabra: "Wifi hotspot",
-    imagen: { id: 9163, alt: "A device that gives wifi at home" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Sharing a phone's internet with another device, like a small router.",
     sinonimos: ["shared internet from a phone"],
     ejemplo: { palabra: "wifi hotspot", texto: "She turned on a wifi hotspot so her son could use the internet." },
@@ -12339,7 +12339,7 @@ DICCIONARIOS.en = [
   {
     id: "flood-drill",
     palabra: "Flood drill",
-    imagen: { id: 4669, alt: "A flood" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A practice to learn what to do if water suddenly comes into a place.",
     sinonimos: ["practice for when water comes in"],
     ejemplo: { palabra: "flood drill", texto: "The school held a flood drill in spring." },
@@ -12918,7 +12918,7 @@ DICCIONARIOS.en = [
   {
     id: "notarial-protocol",
     palabra: "Notarial protocol",
-    imagen: { id: 35413, alt: "A thick book with a deed number" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The official book where the notary keeps all the deeds they sign, numbered in order.",
     sinonimos: ["notary's deed book"],
     ejemplo: { palabra: "notarial protocol", texto: "The authorised copy comes from the notarial protocol of last year." },
@@ -12984,7 +12984,7 @@ DICCIONARIOS.en = [
   {
     id: "bare-ownership",
     palabra: "Bare ownership",
-    imagen: { id: 37704, alt: "A hand holds a house while another signs" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Owning a house but not being able to use it because someone else has the use of it until a date.",
     sinonimos: ["ownership without use"],
     ejemplo: { palabra: "bare ownership", texto: "She has bare ownership of the flat, but her mother uses it for life." },
@@ -13061,7 +13061,7 @@ DICCIONARIOS.en = [
   {
     id: "deed-in-lieu",
     palabra: "Deed in lieu",
-    imagen: { id: 2931, alt: "A person hands the keys of a house to a bank" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Giving your house to the bank to clear the mortgage debt. You stop owing and stop owning.",
     sinonimos: ["handing the house to the bank"],
     ejemplo: { palabra: "deed in lieu", texto: "She did a deed in lieu because she could no longer pay the mortgage." },
@@ -13094,7 +13094,7 @@ DICCIONARIOS.en = [
   {
     id: "property-possession",
     palabra: "Possession",
-    imagen: { id: 37704, alt: "A person holds the keys of a house" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Having a home in your power and using it, even if you are not the legal owner yet.",
     sinonimos: ["having the home in use"],
     ejemplo: { palabra: "possession", texto: "She took possession of the flat the day she signed the rental contract." },
@@ -13626,7 +13626,7 @@ DICCIONARIOS.en = [
   {
     id: "annuity",
     palabra: "Annuity",
-    imagen: { id: 39712, alt: "A hand receiving money on a calendar marked yearly" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A fixed amount of money paid to you regularly, often every year. It usually comes from an insurance plan or pension.",
     sinonimos: ["a yearly payout"],
     ejemplo: { palabra: "an annuity", texto: "He receives an annuity from his retirement plan." },
@@ -13696,7 +13696,7 @@ DICCIONARIOS.en = [
   {
     id: "liaison",
     palabra: "Liaison",
-    imagen: { id: 37782, alt: "A person standing between two groups passing a message" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A person who connects two groups and helps them communicate. They pass information between both sides.",
     sinonimos: ["contact person"],
     ejemplo: { palabra: "liaison", texto: "He is the liaison between the school and the families." },
@@ -13766,7 +13766,7 @@ DICCIONARIOS.en = [
   {
     id: "hotspot",
     palabra: "Hotspot",
-    imagen: { id: 35503, alt: "A phone sharing a Wi-Fi signal with a laptop" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A Wi-Fi signal shared from a phone or device. Other devices can connect to the internet through it.",
     sinonimos: ["shared Wi-Fi"],
     ejemplo: { palabra: "hotspot", texto: "He used his phone's hotspot to connect his laptop." },
@@ -14216,7 +14216,7 @@ DICCIONARIOS.en = [
   {
     id: "default",
     palabra: "Default",
-    imagen: { id: 39712, alt: "An overdue bill with a red warning stamp" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Failing to pay back money you owe on time. It can hurt your credit history.",
     sinonimos: ["payment failure"],
     ejemplo: { palabra: "default", texto: "He went into default after losing his job." },
@@ -14256,7 +14256,7 @@ DICCIONARIOS.en = [
   {
     id: "allowance",
     palabra: "Allowance",
-    imagen: { id: 16017, alt: "Payment" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A fixed amount of money given to someone regularly. It can come from a government, a parent, or an employer.",
     sinonimos: ["a regular payment"],
     ejemplo: { palabra: "an allowance", texto: "The government gives an allowance to families with children." },
@@ -14916,7 +14916,7 @@ DICCIONARIOS.en = [
   {
     id: "mediation",
     palabra: "Mediation",
-    imagen: { id: 37782, alt: "A mediator standing between two people shaking hands" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A meeting where a neutral person helps two sides solve a disagreement. It can avoid going to court.",
     sinonimos: ["assisted negotiation"],
     ejemplo: { palabra: "mediation", texto: "They tried mediation before taking the case to court." },
@@ -15496,7 +15496,7 @@ DICCIONARIOS.en = [
   {
     id: "asbestos",
     palabra: "Asbestos",
-    imagen: { id: 35655, alt: "An old apartment building" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "A harmful material once used in buildings. It can cause serious illness if breathed in.",
     sinonimos: ["harmful building material"],
     ejemplo: { palabra: "asbestos", texto: "The old house was checked for asbestos before renovation." },
@@ -17876,7 +17876,7 @@ DICCIONARIOS.en = [
   {
     id: "flooding",
     palabra: "Flooding",
-    imagen: { id: 4669, alt: "A flooded scene" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "An overflow of water that covers land which is normally dry.",
     sinonimos: ["an overflow of water covering dry land"],
     ejemplo: { palabra: "flooding", texto: "Heavy rain caused flooding in the city center." },
