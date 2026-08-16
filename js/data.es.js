@@ -9668,7 +9668,7 @@ DICCIONARIOS.es = [
   {
     id: "guarda-y-custodia",
     palabra: "Guarda y custodia",
-    imagen: { id: 2392, alt: "Un adulto y un niño de la mano" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "La decisión legal de con quién vive un hijo día a día, cuando sus padres están separados.",
     sinonimos: ["custodia de los hijos"],
     ejemplo: { palabra: "guarda y custodia", texto: "El juez decidió la guarda y custodia compartida de los niños." },
@@ -9688,7 +9688,7 @@ DICCIONARIOS.es = [
   {
     id: "adopcion",
     palabra: "Adopción",
-    imagen: { id: 2392, alt: "Una familia abrazando a un niño" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "El trámite legal por el que una persona se convierte en el padre o la madre de un niño que no ha tenido biológicamente.",
     sinonimos: ["proceso de adoptar"],
     ejemplo: { palabra: "adopción", texto: "Terminaron el proceso de adopción después de dos años de espera." },
@@ -9698,7 +9698,7 @@ DICCIONARIOS.es = [
   {
     id: "acogimiento-familiar",
     palabra: "Acogimiento familiar",
-    imagen: { id: 2392, alt: "Una familia con un niño nuevo en casa" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Cuidar temporalmente a un niño en tu casa, sin ser sus padres legales, mientras lo necesite.",
     sinonimos: ["acogida de un menor"],
     ejemplo: { palabra: "acogimiento familiar", texto: "La familia empezó un acogimiento familiar de un niño de cinco años." },
@@ -10851,7 +10851,7 @@ DICCIONARIOS.es = [
   {
     id: "filiacion",
     palabra: "Filiación",
-    imagen: { id: 2392, alt: "Una familia" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "La relación legal entre un padre o una madre y su hijo.",
     sinonimos: ["relación legal de padres e hijos"],
     ejemplo: { palabra: "filiación", texto: "El juez reconoció la filiación del niño." },
@@ -10881,7 +10881,7 @@ DICCIONARIOS.es = [
   {
     id: "atenuante",
     palabra: "Circunstancia atenuante",
-    imagen: { id: 34479, alt: "Un tribunal de justicia" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un motivo que hace que el juez ponga un castigo más pequeño.",
     sinonimos: ["motivo para reducir el castigo"],
     ejemplo: { palabra: "circunstancia atenuante", texto: "Su arrepentimiento fue una circunstancia atenuante en el juicio." },
@@ -10891,7 +10891,7 @@ DICCIONARIOS.es = [
   {
     id: "agravante",
     palabra: "Circunstancia agravante",
-    imagen: { id: 34479, alt: "Un tribunal de justicia" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un motivo que hace que el juez ponga un castigo más grande.",
     sinonimos: ["motivo para aumentar el castigo"],
     ejemplo: { palabra: "circunstancia agravante", texto: "Usar un arma fue una circunstancia agravante en el juicio." },
@@ -12389,7 +12389,7 @@ DICCIONARIOS.es = [
   {
     id: "recurso-de-casacion",
     palabra: "Recurso de casación",
-    imagen: { id: 34479, alt: "Un tribunal de justicia" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un recurso que pide al Tribunal Supremo que revise si un juicio aplicó bien la ley.",
     sinonimos: ["recurso ante el Tribunal Supremo"],
     ejemplo: { palabra: "recurso de casación", texto: "Su abogado presentó un recurso de casación tras perder el juicio." },
@@ -12539,7 +12539,7 @@ DICCIONARIOS.es = [
   {
     id: "sentencia-firme",
     palabra: "Sentencia firme",
-    imagen: { id: 34479, alt: "Un tribunal de justicia" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una decisión del juez que ya no se puede recurrir, porque el plazo terminó o no hay más recursos posibles.",
     sinonimos: ["decisión judicial que ya no se puede recurrir"],
     ejemplo: { palabra: "sentencia firme", texto: "La sentencia firme le obligó a pagar la indemnización." },
@@ -12559,7 +12559,7 @@ DICCIONARIOS.es = [
   {
     id: "tribunal-constitucional",
     palabra: "Tribunal Constitucional",
-    imagen: { id: 34479, alt: "Un tribunal de justicia" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "El tribunal más alto que decide si una ley o una decisión respeta los derechos fundamentales.",
     sinonimos: ["tribunal que protege los derechos fundamentales"],
     ejemplo: { palabra: "Tribunal Constitucional", texto: "El caso llegó hasta el Tribunal Constitucional." },
@@ -15732,7 +15732,7 @@ DICCIONARIOS.es = [
   {
     id: "adoptivo",
     palabra: "Adoptivo",
-    imagen: { id: 2392, alt: "Una familia con padres e hijos cogidos de la mano" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Relacionado con la adopción. Por ejemplo, un padre o un hijo adoptivo.",
     sinonimos: ["por adopción"],
     ejemplo: { palabra: "adoptivo", texto: "Su padre adoptivo la acompañó a cada cita del colegio." },
@@ -16142,7 +16142,7 @@ DICCIONARIOS.es = [
   {
     id: "asilar",
     palabra: "Asilar",
-    imagen: { id: 2392, alt: "Una familia" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Dar protección oficial a una persona que huye de peligro en su país.",
     sinonimos: ["dar refugio a", "dar protección oficial"],
     ejemplo: { palabra: "asilar a", texto: "El país decidió asilar a la familia que huía de la guerra." },
@@ -16502,7 +16502,7 @@ DICCIONARIOS.es = [
   {
     id: "casacion",
     palabra: "Casación",
-    imagen: { id: 34479, alt: "Una sala de tribunal vacía" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un recurso legal que pide a un tribunal superior revisar una sentencia.",
     sinonimos: ["recurso ante un tribunal superior"],
     ejemplo: { palabra: "de casación", texto: "Presentó un recurso de casación contra la sentencia." },
@@ -17562,7 +17562,7 @@ DICCIONARIOS.es = [
   {
     id: "exclusion",
     palabra: "Exclusión",
-    imagen: { id: 12323, alt: "Un grupo de personas, una de ellas excluida" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "El hecho de dejar a una persona o a un grupo fuera de algo, sin dejarles participar.",
     sinonimos: ["marginación"],
     ejemplo: { palabra: "la exclusión", texto: "El informe denunció la exclusión de personas mayores en el programa." },
@@ -17862,7 +17862,7 @@ DICCIONARIOS.es = [
   {
     id: "gordofobia",
     palabra: "Gordofobia",
-    imagen: { id: 12323, alt: "Un grupo de personas, una de ellas excluida" },
+    imagen: { id: 22761, alt: "Discriminación, burla" },
     definicion: "El rechazo o la discriminación hacia las personas por su peso o su cuerpo.",
     sinonimos: ["discriminación por el peso"],
     ejemplo: { palabra: "la gordofobia", texto: "La campaña buscaba visibilizar la gordofobia en el trabajo." },
@@ -18012,7 +18012,7 @@ DICCIONARIOS.es = [
   {
     id: "homofobia",
     palabra: "Homofobia",
-    imagen: { id: 12323, alt: "Un grupo de personas, una de ellas excluida" },
+    imagen: { id: 22761, alt: "Discriminación, burla" },
     definicion: "El rechazo o la discriminación hacia las personas homosexuales.",
     sinonimos: ["discriminación por la orientación sexual"],
     ejemplo: { palabra: "la homofobia", texto: "La campaña buscaba combatir la homofobia en las escuelas." },
@@ -18202,7 +18202,7 @@ DICCIONARIOS.es = [
   {
     id: "islamofobia",
     palabra: "Islamofobia",
-    imagen: { id: 12323, alt: "Un grupo de personas, una de ellas excluida" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "El rechazo o la discriminación hacia las personas musulmanas.",
     sinonimos: ["discriminación hacia los musulmanes"],
     ejemplo: { palabra: "la islamofobia", texto: "El informe denunció la islamofobia en el ámbito laboral." },
@@ -18242,7 +18242,7 @@ DICCIONARIOS.es = [
   {
     id: "jurisdiccion",
     palabra: "Jurisdicción",
-    imagen: { id: 34479, alt: "Una sala de tribunal vacía" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "El territorio o el ámbito en el que una autoridad o un tribunal tiene poder para actuar.",
     sinonimos: ["territorio de poder de un tribunal"],
     ejemplo: { palabra: "de la jurisdicción de ese tribunal", texto: "El caso quedó fuera de la jurisdicción de ese tribunal." },
@@ -18552,7 +18552,7 @@ DICCIONARIOS.es = [
   {
     id: "misoginia",
     palabra: "Misoginia",
-    imagen: { id: 12323, alt: "Un grupo de personas, una de ellas excluida" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "El desprecio o la discriminación hacia las mujeres.",
     sinonimos: ["discriminación hacia las mujeres"],
     ejemplo: { palabra: "la misoginia", texto: "El curso trataba sobre cómo identificar la misoginia en el lenguaje cotidiano." },
@@ -18882,7 +18882,7 @@ DICCIONARIOS.es = [
   {
     id: "paternidad",
     palabra: "Paternidad",
-    imagen: { id: 2392, alt: "Un documento oficial con un sello" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "La condición de ser padre de un hijo, reconocida legalmente.",
     sinonimos: ["condición legal de ser padre"],
     ejemplo: { palabra: "de paternidad", texto: "Solicitó una prueba de paternidad para confirmar el parentesco." },
@@ -19012,7 +19012,7 @@ DICCIONARIOS.es = [
   {
     id: "potestad",
     palabra: "Potestad",
-    imagen: { id: 2392, alt: "Una familia con dos padres y dos hijos" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "El poder legal que tienen los padres para cuidar y tomar decisiones sobre sus hijos menores.",
     sinonimos: ["poder legal de los padres sobre sus hijos"],
     ejemplo: { palabra: "la patria potestad", texto: "El juez decidió sobre la patria potestad tras el divorcio." },
@@ -19152,7 +19152,7 @@ DICCIONARIOS.es = [
   {
     id: "racista",
     palabra: "Racista",
-    imagen: { id: 12323, alt: "Un grupo de personas, una de ellas excluida" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Que discrimina o trata mal a las personas por su raza o su origen étnico.",
     sinonimos: ["que discrimina por raza u origen"],
     ejemplo: { palabra: "un comentario racista", texto: "Fue sancionado por hacer un comentario racista en el trabajo." },
@@ -19172,7 +19172,7 @@ DICCIONARIOS.es = [
   {
     id: "reagrupacion",
     palabra: "Reagrupación",
-    imagen: { id: 2392, alt: "Una familia con dos padres y dos hijos" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El proceso legal que permite a un inmigrante traer a su familia a vivir con él a otro país.",
     sinonimos: ["proceso para traer a la familia de un inmigrante"],
     ejemplo: { palabra: "la reagrupación familiar", texto: "Solicitó la reagrupación familiar tras conseguir el permiso de residencia." },
@@ -19402,7 +19402,7 @@ DICCIONARIOS.es = [
   {
     id: "segregacion",
     palabra: "Segregación",
-    imagen: { id: 12323, alt: "Un grupo de personas, una de ellas excluida" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "La separación de personas por su raza, género u otro motivo, negándoles los mismos derechos.",
     sinonimos: ["separación injusta de un grupo de personas"],
     ejemplo: { palabra: "la segregación racial", texto: "La ley prohíbe la segregación racial en las escuelas." },
@@ -19722,7 +19722,7 @@ DICCIONARIOS.es = [
   {
     id: "transfobia",
     palabra: "Transfobia",
-    imagen: { id: 12323, alt: "Un grupo de personas, una de ellas excluida" },
+    imagen: { id: 22761, alt: "Discriminación, burla" },
     definicion: "El rechazo o la discriminación hacia las personas transgénero.",
     sinonimos: ["discriminación hacia las personas transgénero"],
     ejemplo: { palabra: "la transfobia", texto: "La campaña buscaba combatir la transfobia en el trabajo." },
@@ -19892,7 +19892,7 @@ DICCIONARIOS.es = [
   {
     id: "xenofobia",
     palabra: "Xenofobia",
-    imagen: { id: 12323, alt: "Un grupo de personas, una de ellas excluida" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "El rechazo o el odio hacia las personas de otros países o culturas.",
     sinonimos: ["rechazo hacia las personas de otros países"],
     ejemplo: { palabra: "la xenofobia", texto: "La campaña buscaba combatir la xenofobia en la ciudad." },
