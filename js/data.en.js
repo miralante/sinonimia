@@ -1069,7 +1069,7 @@ DICCIONARIOS.en = [
   {
     id: "voucher-ticket",
     palabra: "Voucher",
-    imagen: { id: 4751, alt: "A card" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A paper that is worth something. You swap it for a product or a service.",
     sinonimos: ["gift card", "swap paper"],
     ejemplo: { palabra: "voucher", texto: "She got a fifty-pound voucher for the bookshop as a gift." },
@@ -2158,7 +2158,7 @@ DICCIONARIOS.en = [
   {
     id: "rental-contract",
     palabra: "Rental contract",
-    imagen: { id: 12317, alt: "A hand signs a paper" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "The paper you sign with the landlord to rent their home. It says how much you pay and how long you stay.",
     sinonimos: ["signed rental paper"],
     ejemplo: { palabra: "rental contract", texto: "They signed a rental contract for one year." },
@@ -2610,7 +2610,7 @@ DICCIONARIOS.en = [
   {
     id: "collective-agreement",
     palabra: "Collective agreement",
-    imagen: { id: 12317, alt: "A hand signs a paper" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A signed deal between workers and the company. It lists the working conditions.",
     sinonimos: ["labour deal"],
     ejemplo: { palabra: "collective agreement", texto: "The collective agreement raised the minimum pay in the sector." },
@@ -2731,7 +2731,7 @@ DICCIONARIOS.en = [
   {
     id: "digital-signature",
     palabra: "Digital signature",
-    imagen: { id: 12317, alt: "A hand signs a paper" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A signature you put on a computer document. It has the same value as signing on paper.",
     sinonimos: ["e-signature"],
     ejemplo: { palabra: "digital signature", texto: "She put her digital signature on the contract from her phone." },
@@ -3617,7 +3617,7 @@ DICCIONARIOS.en = [
   {
     id: "permanent-contract",
     palabra: "Permanent contract",
-    imagen: { id: 12317, alt: "A hand signs a paper" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A work contract with no end date. It lasts until you leave or get dismissed.",
     sinonimos: ["open-ended contract"],
     ejemplo: { palabra: "permanent contract", texto: "After a year they moved her to a permanent contract." },
@@ -3697,7 +3697,7 @@ DICCIONARIOS.en = [
   {
     id: "renew-contract",
     palabra: "Renew contract",
-    imagen: { id: 12317, alt: "A hand signs a paper" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Sign another equal contract to stay in the same job for another stretch of time.",
     sinonimos: ["re-sign the contract"],
     ejemplo: { palabra: "renew contract", texto: "They offered to renew contract for one more year." },
@@ -4583,7 +4583,7 @@ DICCIONARIOS.en = [
   {
     id: "signed-paper",
     palabra: "Signed paper",
-    imagen: { id: 12317, alt: "A hand signs a paper" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A document that someone has signed. It works as proof of what it says.",
     sinonimos: ["paper with signature"],
     ejemplo: { palabra: "signed paper", texto: "Keep the signed paper in a safe place." },
@@ -4643,7 +4643,7 @@ DICCIONARIOS.en = [
   {
     id: "authorisation",
     palabra: "Authorisation",
-    imagen: { id: 12317, alt: "A hand signs a paper" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A paper that gives you permission to do something. A person with authority signs it.",
     sinonimos: ["permission paper"],
     ejemplo: { palabra: "authorisation", texto: "She needs her mother's authorisation for the school trip." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 2402, alt: "Biscuits, cookies" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -10178,7 +10178,7 @@ DICCIONARIOS.en = [
   {
     id: "account-holder",
     palabra: "Account holder",
-    imagen: { id: 12317, alt: "A person signs a bank paper" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "The person who owns a bank account. Their name is on the account.",
     sinonimos: ["owner of the account"],
     ejemplo: { palabra: "account holder", texto: "Only the account holder can take out that money." },
@@ -10188,7 +10188,7 @@ DICCIONARIOS.en = [
   {
     id: "joint-account-holder",
     palabra: "Joint account holder",
-    imagen: { id: 12317, alt: "Two people sign a bank paper together" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A person who shares a bank account with someone else. Both can use the money.",
     sinonimos: ["shared owner of the account"],
     ejemplo: { palabra: "joint account holder", texto: "He made his son a joint account holder." },
@@ -11102,7 +11102,7 @@ DICCIONARIOS.en = [
   {
     id: "signature-by-proxy",
     palabra: "Signature by proxy",
-    imagen: { id: 12317, alt: "A person signs a paper" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "When another person signs for you, because you cannot write your signature.",
     sinonimos: ["signature made by someone else on your behalf"],
     ejemplo: { palabra: "signature by proxy", texto: "The witness made a signature by proxy because the patient could not sign." },
@@ -11253,7 +11253,7 @@ DICCIONARIOS.en = [
   {
     id: "non-compete-clause",
     palabra: "Non-compete clause",
-    imagen: { id: 12317, alt: "A hand signs a paper" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A part of the contract that stops you from working for a rival company after you leave.",
     sinonimos: ["condition against working for a rival"],
     ejemplo: { palabra: "non-compete clause", texto: "She signed a non-compete clause for one year." },
@@ -11685,7 +11685,7 @@ DICCIONARIOS.en = [
   {
     id: "deposit-contract",
     palabra: "Deposit contract",
-    imagen: { id: 12317, alt: "A hand signs a paper" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "A paper you sign, and a sum of money you pay, to reserve a home before buying it.",
     sinonimos: ["payment to reserve a home"],
     ejemplo: { palabra: "deposit contract", texto: "They signed the deposit contract before going to the notary." },
@@ -19976,7 +19976,7 @@ DICCIONARIOS.en = [
   {
     id: "pickpocket",
     palabra: "Pickpocket",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A thief who steals things from people's pockets or bags without them noticing.",
     sinonimos: ["a thief who steals from pockets or bags"],
     ejemplo: { palabra: "a pickpocket", texto: "She realized a pickpocket had taken her wallet on the train." },
@@ -20116,7 +20116,7 @@ DICCIONARIOS.en = [
   {
     id: "polygraph",
     palabra: "Polygraph",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A machine that measures body signals to help tell if someone is lying.",
     sinonimos: ["a test that helps tell if someone is lying"],
     ejemplo: { palabra: "a polygraph test", texto: "The suspect agreed to take a polygraph test during the investigation." },
@@ -20706,7 +20706,7 @@ DICCIONARIOS.en = [
   {
     id: "riot",
     palabra: "Riot",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Violent public disorder caused by a large group of people, often destroying property.",
     sinonimos: ["violent disorder by a large group of people"],
     ejemplo: { palabra: "a riot", texto: "Police were called to control a riot downtown." },
@@ -21006,7 +21006,7 @@ DICCIONARIOS.en = [
   {
     id: "sextortion",
     palabra: "Sextortion",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Blackmailing a person using intimate images or videos of them to get money or favors.",
     sinonimos: ["blackmail using intimate images"],
     ejemplo: { palabra: "sextortion", texto: "Police are investigating a case of sextortion involving social media users." },
@@ -21036,7 +21036,7 @@ DICCIONARIOS.en = [
   {
     id: "shoplifter",
     palabra: "Shoplifter",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A person who steals goods from a store while pretending to shop.",
     sinonimos: ["a person who steals goods from a store"],
     ejemplo: { palabra: "a shoplifter", texto: "Security cameras caught a shoplifter leaving with unpaid items." },
@@ -21646,7 +21646,7 @@ DICCIONARIOS.en = [
   {
     id: "treason",
     palabra: "Treason",
-    imagen: { id: 2824, alt: "Police handcuffs" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The crime of betraying one's country, especially by helping its enemies.",
     sinonimos: ["the crime of betraying one's country"],
     ejemplo: { palabra: "treason", texto: "He was charged with treason for sharing military secrets." },
@@ -21666,7 +21666,7 @@ DICCIONARIOS.en = [
   {
     id: "trespasser",
     palabra: "Trespasser",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who enters someone else's property without permission.",
     sinonimos: ["a person who enters property without permission"],
     ejemplo: { palabra: "a trespasser", texto: "The farmer called the police after finding a trespasser on his land." },
@@ -21826,7 +21826,7 @@ DICCIONARIOS.en = [
   {
     id: "victim",
     palabra: "Victim",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A person who has been harmed, injured, or killed as a result of a crime or accident.",
     sinonimos: ["a person who has been harmed by a crime or accident"],
     ejemplo: { palabra: "the victim", texto: "Police interviewed the victim after the robbery." },
