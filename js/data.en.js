@@ -999,7 +999,7 @@ DICCIONARIOS.en = [
   {
     id: "passport-doc",
     palabra: "Passport",
-    imagen: { id: 8717, alt: "Vida" },
+    imagen: { id: 6171, alt: "Passport" },
     definicion: "An official paper with your photo. You need it to travel to other countries.",
     sinonimos: ["travel document", "paper to leave the country"],
     ejemplo: { palabra: "passport", texto: "He renewed his passport because it was about to expire." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -5625,7 +5625,7 @@ DICCIONARIOS.en = [
   {
     id: "barcode",
     palabra: "Barcode",
-    imagen: { id: 21802, alt: "Documento" },
+    imagen: { id: 10320, alt: "Barcode, bar code" },
     definicion: "A pattern of lines that a machine reads to identify a product or a document. It is found on labels and invoices.",
     sinonimos: ["scan lines"],
     ejemplo: { palabra: "barcode", texto: "The cashier scanned the barcode with the reader." },
@@ -18086,7 +18086,7 @@ DICCIONARIOS.en = [
   {
     id: "gestation",
     palabra: "Gestation",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 11250, alt: "Pregnancy, gestation" },
     definicion: "The period of time during which a baby develops inside the womb before birth.",
     sinonimos: ["the period before birth"],
     ejemplo: { palabra: "gestation", texto: "Doctors monitor gestation closely during high-risk pregnancies." },
