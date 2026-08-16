@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 2402, alt: "Biscuits, cookies" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -12208,7 +12208,7 @@ DICCIONARIOS.en = [
   {
     id: "extradition",
     palabra: "Extradition",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Sending a person to another country to be tried there for a crime.",
     sinonimos: ["sending someone abroad to face trial"],
     ejemplo: { palabra: "extradition", texto: "The government approved the extradition of the accused." },
@@ -16376,7 +16376,7 @@ DICCIONARIOS.en = [
   {
     id: "cartel",
     palabra: "Cartel",
-    imagen: { id: 2824, alt: "A police officer investigates a crime" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A group of people or businesses that work together illegally to control prices or trade, often in crime.",
     sinonimos: ["criminal organization"],
     ejemplo: { palabra: "a drug cartel", texto: "The police broke up a drug cartel operating in the city." },
@@ -16876,7 +16876,7 @@ DICCIONARIOS.en = [
   {
     id: "contraband",
     palabra: "Contraband",
-    imagen: { id: 2824, alt: "A police officer with a document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Goods that are illegal to bring into or sell in a country.",
     sinonimos: ["illegal goods"],
     ejemplo: { palabra: "contraband", texto: "Customs officers found contraband hidden in the suitcase." },
@@ -20556,7 +20556,7 @@ DICCIONARIOS.en = [
   {
     id: "relinquish",
     palabra: "Relinquish",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To formally give up a right, position, or possession.",
     sinonimos: ["formally give up a right or possession"],
     ejemplo: { palabra: "relinquish custody", texto: "She agreed to relinquish custody of the property." },
@@ -20616,7 +20616,7 @@ DICCIONARIOS.en = [
   {
     id: "rescind",
     palabra: "Rescind",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To officially cancel a law, contract, or agreement.",
     sinonimos: ["officially cancel a contract or agreement"],
     ejemplo: { palabra: "rescind the contract", texto: "The company decided to rescind the contract after the breach." },
@@ -20646,7 +20646,7 @@ DICCIONARIOS.en = [
   {
     id: "restraint",
     palabra: "Restraint",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A court order that legally limits or controls a person's actions, often to protect someone else.",
     sinonimos: ["a court order that limits a person's actions"],
     ejemplo: { palabra: "a restraint order", texto: "She obtained a restraint order against her former partner." },
@@ -20686,7 +20686,7 @@ DICCIONARIOS.en = [
   {
     id: "revocation",
     palabra: "Revocation",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 7045, alt: "Anular" },
     definicion: "The official cancellation of a right, license, or agreement.",
     sinonimos: ["the official cancellation of a license or right"],
     ejemplo: { palabra: "the revocation", texto: "He received a letter about the revocation of his driving license." },
@@ -20906,7 +20906,7 @@ DICCIONARIOS.en = [
   {
     id: "scofflaw",
     palabra: "Scofflaw",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who ignores laws or fails to pay fines, such as parking tickets.",
     sinonimos: ["a person who ignores laws or fines"],
     ejemplo: { palabra: "a scofflaw", texto: "The city labeled him a scofflaw for years of unpaid tickets." },
@@ -20986,7 +20986,7 @@ DICCIONARIOS.en = [
   {
     id: "servitude",
     palabra: "Servitude",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "A condition in which a person is forced to work for someone else with little or no freedom.",
     sinonimos: ["forced labor with little or no freedom"],
     ejemplo: { palabra: "servitude", texto: "The workers were held in conditions of servitude." },
@@ -21076,7 +21076,7 @@ DICCIONARIOS.en = [
   {
     id: "signatory",
     palabra: "Signatory",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person or country that has officially signed an agreement or treaty.",
     sinonimos: ["a person who officially signed an agreement"],
     ejemplo: { palabra: "a signatory", texto: "He was proud to become a signatory." },
@@ -21106,7 +21106,7 @@ DICCIONARIOS.en = [
   {
     id: "slander",
     palabra: "Slander",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A false spoken statement that damages someone's reputation.",
     sinonimos: ["a false spoken statement that damages someone's reputation"],
     ejemplo: { palabra: "slander", texto: "He sued the man for slander after the false accusations." },
@@ -21116,7 +21116,7 @@ DICCIONARIOS.en = [
   {
     id: "slavery",
     palabra: "Slavery",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A system in which people are treated as property and forced to work without pay or freedom.",
     sinonimos: ["forcing people to work without pay or freedom"],
     ejemplo: { palabra: "slavery", texto: "The museum has an exhibit about the history of slavery." },
@@ -21366,7 +21366,7 @@ DICCIONARIOS.en = [
   {
     id: "stipulate",
     palabra: "Stipulate",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To state clearly and specifically that something must be done as a condition of an agreement.",
     sinonimos: ["state clearly as a condition of an agreement"],
     ejemplo: { palabra: "stipulate", texto: "The contract did not stipulate a deadline for payment." },
@@ -21406,7 +21406,7 @@ DICCIONARIOS.en = [
   {
     id: "subpoena",
     palabra: "Subpoena",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A legal document that orders a person to appear in court or provide evidence.",
     sinonimos: ["a legal order to appear in court"],
     ejemplo: { palabra: "a subpoena", texto: "She received a subpoena to testify in the case." },
@@ -21566,7 +21566,7 @@ DICCIONARIOS.en = [
   {
     id: "testator",
     palabra: "Testator",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who has made a legal will.",
     sinonimos: ["a person who has made a legal will"],
     ejemplo: { palabra: "the testator", texto: "The lawyer explained the wishes of the testator to the family." },
@@ -21706,7 +21706,7 @@ DICCIONARIOS.en = [
   {
     id: "ultimatum",
     palabra: "Ultimatum",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "A final demand or statement that, if rejected, will lead to serious consequences.",
     sinonimos: ["a final demand with serious consequences if rejected"],
     ejemplo: { palabra: "an ultimatum", texto: "The landlord gave him an ultimatum to pay the rent or leave." },
@@ -21736,7 +21736,7 @@ DICCIONARIOS.en = [
   {
     id: "unlicensed",
     palabra: "Unlicensed",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Not having the official permission or qualification required to do something.",
     sinonimos: ["not having official permission to do something"],
     ejemplo: { palabra: "an unlicensed driver", texto: "Police stopped an unlicensed driver during the checkpoint." },
@@ -21816,7 +21816,7 @@ DICCIONARIOS.en = [
   {
     id: "veteran",
     palabra: "Veteran",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A person who has served in the armed forces, especially during a war.",
     sinonimos: ["a person who has served in the armed forces"],
     ejemplo: { palabra: "a veteran", texto: "He receives medical care as a veteran." },
@@ -21836,7 +21836,7 @@ DICCIONARIOS.en = [
   {
     id: "violation",
     palabra: "Violation",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The act of breaking a law, rule, or agreement.",
     sinonimos: ["the act of breaking a law or rule"],
     ejemplo: { palabra: "a violation", texto: "The inspector found a violation during the visit." },
