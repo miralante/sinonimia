@@ -87,7 +87,7 @@ DICCIONARIOS.es = [
   {
     id: "incurso",
     palabra: "Incurso",
-    imagen: { id: 10173, alt: "Un policía pone una multa a un coche" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Has hecho algo mal. Por eso se abre un caso contra ti.",
     sinonimos: ["implicado", "sometido a expediente"],
     ejemplo: { palabra: "incurso", texto: "El conductor está incurso en un expediente por exceso de velocidad." },
@@ -938,7 +938,7 @@ DICCIONARIOS.es = [
   {
     id: "antiinflamatorio",
     palabra: "Antiinflamatorio",
-    imagen: { id: 8163, alt: "Cajas de medicinas" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una medicina que baja la hinchazón y el dolor de una zona del cuerpo.",
     sinonimos: ["medicina para la hinchazón", "medicina que baja la inflamación"],
     ejemplo: { palabra: "antiinflamatorio", texto: "Tomó un antiinflamatorio para el tobillo hinchado." },
@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 34814, alt: "Préstamo" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 36403, alt: "Ahorro" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 11291, alt: "Juez, magistrado" },
+    imagen: { id: 35413, alt: "Notario" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -4947,7 +4947,7 @@ DICCIONARIOS.es = [
   {
     id: "sancion",
     palabra: "Sanción",
-    imagen: { id: 10173, alt: "Una mano multa a una persona" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un castigo que te pone el Estado por hacer algo mal. Puede ser una multa o algo peor.",
     sinonimos: ["castigo por hacer algo mal"],
     ejemplo: { palabra: "sanción", texto: "Recibió una sanción por no llevar el cinturón en el coche." },
@@ -7538,7 +7538,7 @@ DICCIONARIOS.es = [
   {
     id: "puerta-antipanico",
     palabra: "Puerta antipánico",
-    imagen: { id: 8687, alt: "Un cartel de salida de emergencia" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Una puerta de salida con una barra. Se abre solo con empujarla, sin usar la mano ni una llave.",
     sinonimos: ["puerta de emergencia con barra", "barra antipánico"],
     ejemplo: { palabra: "puerta antipánico", texto: "Empujó la barra de la puerta antipánico para salir rápido." },
@@ -7828,7 +7828,7 @@ DICCIONARIOS.es = [
   {
     id: "plan-de-autoproteccion",
     palabra: "Plan de autoprotección",
-    imagen: { id: 8687, alt: "Una salida de emergencia" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Un documento que explica qué hacer en un edificio si hay un peligro, como un incendio.",
     sinonimos: ["plan de emergencia del edificio", "protocolo de seguridad"],
     ejemplo: { palabra: "plan de autoprotección", texto: "El colegio tiene un plan de autoprotección que todos los profesores conocen." },
@@ -8708,7 +8708,7 @@ DICCIONARIOS.es = [
   {
     id: "fusible",
     palabra: "Fusible",
-    imagen: { id: 8656, alt: "Una señal de peligro eléctrico" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Una pieza pequeña que corta la electricidad sola si algo va mal, para evitar un incendio.",
     sinonimos: ["plomo"],
     ejemplo: { palabra: "fusible", texto: "Cambió el fusible que se había fundido." },
@@ -10128,7 +10128,7 @@ DICCIONARIOS.es = [
   {
     id: "maniobra-de-heimlich",
     palabra: "Maniobra de Heimlich",
-    imagen: { id: 12252, alt: "Una persona ayudando a otra por detrás" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Una técnica de primeros auxilios que ayuda a sacar algo que se ha atascado en la garganta.",
     sinonimos: ["compresión abdominal"],
     ejemplo: { palabra: "maniobra de Heimlich", texto: "Aprendió a hacer la maniobra de Heimlich en un curso de primeros auxilios." },
@@ -11002,7 +11002,7 @@ DICCIONARIOS.es = [
   {
     id: "diferencial-electrico",
     palabra: "Diferencial eléctrico",
-    imagen: { id: 8656, alt: "Una señal de peligro eléctrico" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Un aparato que corta la luz de toda la casa si detecta un fallo peligroso.",
     sinonimos: ["interruptor de seguridad eléctrica"],
     ejemplo: { palabra: "diferencial eléctrico", texto: "Saltó el diferencial eléctrico y se fue la luz de toda la casa." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 21802, alt: "Documento" },
+    imagen: { id: 8483, alt: "Frontera, aduana" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
@@ -15952,7 +15952,7 @@ DICCIONARIOS.es = [
   {
     id: "ansiolitico",
     palabra: "Ansiolítico",
-    imagen: { id: 8163, alt: "Un bote de pastillas junto a un vaso de agua" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un medicamento que ayuda a calmar la ansiedad.",
     sinonimos: ["medicamento para la ansiedad", "calmante"],
     ejemplo: { palabra: "un ansiolítico", texto: "El médico le recetó un ansiolítico para dormir mejor." },
@@ -19052,7 +19052,7 @@ DICCIONARIOS.es = [
   {
     id: "posologia",
     palabra: "Posología",
-    imagen: { id: 8163, alt: "Medicinas y pastillas" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Las instrucciones sobre la cantidad y la frecuencia con la que se debe tomar un medicamento.",
     sinonimos: ["instrucciones sobre la cantidad de medicamento a tomar"],
     ejemplo: { palabra: "la posología", texto: "El prospecto explica la posología de forma clara." },
@@ -19542,7 +19542,7 @@ DICCIONARIOS.es = [
   {
     id: "supositorio",
     palabra: "Supositorio",
-    imagen: { id: 8163, alt: "Medicinas" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un medicamento sólido que se introduce en el recto para que se disuelva.",
     sinonimos: ["medicamento que se introduce en el recto"],
     ejemplo: { palabra: "un supositorio", texto: "El pediatra recetó un supositorio para bajar la fiebre." },
