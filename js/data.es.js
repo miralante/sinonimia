@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 34814, alt: "Préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 36403, alt: "Ahorro" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3190,7 +3190,7 @@ DICCIONARIOS.es = [
   {
     id: "cabeza",
     palabra: "Cabeza",
-    imagen: { id: 2673, alt: "Una cabeza" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "La parte de arriba del cuerpo. Dentro está el cerebro y la cara.",
     sinonimos: ["parte alta del cuerpo"],
     ejemplo: { palabra: "cabeza", texto: "Le dolía la cabeza después de trabajar muchas horas." },
@@ -3292,7 +3292,7 @@ DICCIONARIOS.es = [
   {
     id: "dermatologo",
     palabra: "Dermatólogo",
-    imagen: { id: 34375, alt: "Dermatólogo" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "El médico que cuida tu piel, tu pelo y tus uñas.",
     sinonimos: ["médico de la piel"],
     ejemplo: { palabra: "dermatólogo", texto: "Fue al dermatólogo porque le salía una mancha rara en la espalda." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 35413, alt: "Notario" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -3624,7 +3624,7 @@ DICCIONARIOS.es = [
   {
     id: "suelo",
     palabra: "Suelo",
-    imagen: { id: 2575, alt: "Un suelo" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "La parte de abajo de una habitación. Pisas el suelo cuando caminas dentro.",
     sinonimos: ["piso de la casa"],
     ejemplo: { palabra: "suelo", texto: "El suelo de la cocina es de baldosa." },
@@ -7478,7 +7478,7 @@ DICCIONARIOS.es = [
   {
     id: "punto-de-primeros-auxilios",
     palabra: "Punto de primeros auxilios",
-    imagen: { id: 2930, alt: "Un botiquín con una cruz" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Un lugar en un evento o edificio grande donde te curan si te haces daño.",
     sinonimos: ["puesto de primeros auxilios", "caseta sanitaria"],
     ejemplo: { palabra: "punto de primeros auxilios", texto: "Se torció el tobillo y fue al punto de primeros auxilios del concierto." },
@@ -11062,7 +11062,7 @@ DICCIONARIOS.es = [
   {
     id: "botiquin-de-coche",
     palabra: "Botiquín de coche",
-    imagen: { id: 2930, alt: "Una caja con material de primeros auxilios" },
+    imagen: { id: 5930, alt: "Botiquín" },
     definicion: "Una caja pequeña con material de primeros auxilios que se lleva en el coche.",
     sinonimos: ["kit de primeros auxilios del coche"],
     ejemplo: { palabra: "botiquín de coche", texto: "Revisó el botiquín de coche antes del viaje largo." },
@@ -13432,7 +13432,7 @@ DICCIONARIOS.es = [
   {
     id: "negligencia",
     palabra: "Negligencia",
-    imagen: { id: 2957, alt: "Un juez con un mazo junto a una señal de advertencia" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "No tener suficiente cuidado, lo que causa daño a alguien. Puede hacerte responsable legalmente.",
     sinonimos: ["falta de cuidado"],
     ejemplo: { palabra: "negligencia", texto: "El tribunal declaró culpable a la empresa por negligencia." },
@@ -14222,7 +14222,7 @@ DICCIONARIOS.es = [
   {
     id: "condena",
     palabra: "Condena",
-    imagen: { id: 2957, alt: "Un juez anunciando una decisión de culpabilidad" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una decisión oficial de un tribunal que dice que una persona es culpable. Pasa a formar parte de sus antecedentes penales.",
     sinonimos: ["veredicto de culpabilidad"],
     ejemplo: { palabra: "condena", texto: "Su condena significó que tuvo que cumplir tiempo en prisión." },
@@ -14452,7 +14452,7 @@ DICCIONARIOS.es = [
   {
     id: "hepatitis",
     palabra: "Hepatitis",
-    imagen: { id: 2980, alt: "Un diagrama de un hígado inflamado" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una enfermedad que causa inflamación en el hígado. Puede estar causada por un virus o por el alcohol.",
     sinonimos: ["inflamación del hígado"],
     ejemplo: { palabra: "hepatitis", texto: "Le diagnosticaron hepatitis después del análisis de sangre." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 8483, alt: "Frontera, aduana" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
@@ -16102,7 +16102,7 @@ DICCIONARIOS.es = [
   {
     id: "asbestosis",
     palabra: "Asbestosis",
-    imagen: { id: 2822, alt: "Una fábrica con humo saliendo de las chimeneas" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una enfermedad de los pulmones causada por respirar amianto durante mucho tiempo.",
     sinonimos: ["daño pulmonar por amianto"],
     ejemplo: { palabra: "asbestosis", texto: "Le diagnosticaron asbestosis años después de trabajar en la fábrica." },
@@ -16792,7 +16792,7 @@ DICCIONARIOS.es = [
   {
     id: "conmocion",
     palabra: "Conmoción",
-    imagen: { id: 2673, alt: "Un dibujo del cerebro humano" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un golpe fuerte en la cabeza que afecta al cerebro durante un tiempo.",
     sinonimos: ["golpe fuerte en la cabeza"],
     ejemplo: { palabra: "una conmoción cerebral", texto: "Sufrió una conmoción cerebral tras la caída." },
@@ -17822,7 +17822,7 @@ DICCIONARIOS.es = [
   {
     id: "gingivitis",
     palabra: "Gingivitis",
-    imagen: { id: 2733, alt: "Un dentista revisa los dientes de un paciente" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una inflamación de las encías, normalmente causada por una mala higiene dental.",
     sinonimos: ["inflamación de las encías"],
     ejemplo: { palabra: "la gingivitis", texto: "El dentista le explicó que tenía la gingivitis por falta de cepillado." },
@@ -18052,7 +18052,7 @@ DICCIONARIOS.es = [
   {
     id: "icterico",
     palabra: "Ictérico",
-    imagen: { id: 2980, alt: "Un hígado" },
+    imagen: { id: 31768, alt: "Ictericia" },
     definicion: "Que tiene la piel y los ojos de color amarillento por un problema del hígado.",
     sinonimos: ["con la piel amarillenta por el hígado"],
     ejemplo: { palabra: "ictérico", texto: "El recién nacido estaba ictérico y necesitó fototerapia." },
@@ -18982,7 +18982,7 @@ DICCIONARIOS.es = [
   {
     id: "pleuritis",
     palabra: "Pleuritis",
-    imagen: { id: 2822, alt: "Unos pulmones dibujados" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una inflamación de la membrana que recubre los pulmones, que causa dolor al respirar.",
     sinonimos: ["inflamación de la membrana de los pulmones"],
     ejemplo: { palabra: "pleuritis", texto: "El médico diagnosticó pleuritis tras la radiografía." },
