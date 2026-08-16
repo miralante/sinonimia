@@ -571,7 +571,7 @@ DICCIONARIOS.es = [
   {
     id: "empadronarse",
     palabra: "Empadronarse",
-    imagen: { id: 3060, alt: "La fachada de un ayuntamiento" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Apuntarte en el ayuntamiento para decir dónde vives.",
     sinonimos: ["registrarte en el ayuntamiento", "darte de alta"],
     ejemplo: { palabra: "empadronarte", texto: "Tienes que empadronarte en tu nuevo barrio." },
@@ -613,7 +613,7 @@ DICCIONARIOS.es = [
   {
     id: "catastro",
     palabra: "Catastro",
-    imagen: { id: 5505, alt: "Un mapa con las viviendas y terrenos marcados" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Lista oficial de todas las viviendas y terrenos. Dice de quién es cada uno.",
     sinonimos: ["registro de viviendas", "registro de terrenos"],
     ejemplo: { palabra: "catastro", texto: "Fuimos al catastro para actualizar los datos de la casa." },
@@ -825,7 +825,7 @@ DICCIONARIOS.es = [
   {
     id: "franja-horaria",
     palabra: "Franja horaria",
-    imagen: { id: 6012, alt: "Un horario con las horas marcadas para elegir un momento" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Un tramo de horas para hacer algo. Se elige antes de una cita o entrega.",
     sinonimos: ["tramo de horas", "horario elegido"],
     ejemplo: { palabra: "franja horaria", texto: "Eligió una franja horaria de la tarde para recibir el paquete." },
@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 34814, alt: "Préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 36403, alt: "Ahorro" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -2586,7 +2586,7 @@ DICCIONARIOS.es = [
   {
     id: "fraude",
     palabra: "Fraude",
-    imagen: { id: 4674, alt: "Un ladrón o estafador" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Un engaño para quitarte dinero. Alguien dice algo falso para aprovecharse.",
     sinonimos: ["engaño para robar"],
     ejemplo: { palabra: "fraude", texto: "Denunció el fraude cuando vio un cargo raro en la tarjeta." },
@@ -2597,7 +2597,7 @@ DICCIONARIOS.es = [
   {
     id: "estafa",
     palabra: "Estafa",
-    imagen: { id: 4674, alt: "Un estafador" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Te cuentan una historia falsa para que les des tu dinero o tus datos.",
     sinonimos: ["timo"],
     ejemplo: { palabra: "estafa", texto: "Fue víctima de una estafa por internet y perdió sus ahorros." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 35413, alt: "Notario" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -8928,7 +8928,7 @@ DICCIONARIOS.es = [
   {
     id: "reduccion-de-jornada",
     palabra: "Reducción de jornada",
-    imagen: { id: 6012, alt: "Un reloj con menos horas marcadas" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Trabajar menos horas de las normales, y cobrar también menos, para tener más tiempo libre.",
     sinonimos: ["jornada reducida"],
     ejemplo: { palabra: "reducción de jornada", texto: "Pidió una reducción de jornada para cuidar a su hijo pequeño." },
@@ -12087,7 +12087,7 @@ DICCIONARIOS.es = [
   {
     id: "fraude-con-tarjeta",
     palabra: "Fraude con tarjeta",
-    imagen: { id: 4674, alt: "Un ladrón o estafador" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Cuando alguien usa tu tarjeta bancaria sin tu permiso para comprar o sacar dinero.",
     sinonimos: ["uso de tu tarjeta sin permiso"],
     ejemplo: { palabra: "fraude con tarjeta", texto: "Descubrió un fraude con tarjeta en su extracto del banco." },
@@ -12479,7 +12479,7 @@ DICCIONARIOS.es = [
   {
     id: "legitima-defensa",
     palabra: "Legítima defensa",
-    imagen: { id: 6192, alt: "Una persona defiende" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Defenderte de un ataque de una forma que la ley permite.",
     sinonimos: ["defenderse de un ataque de forma permitida"],
     ejemplo: { palabra: "legítima defensa", texto: "El juez consideró que actuó en legítima defensa." },
@@ -12932,7 +12932,7 @@ DICCIONARIOS.es = [
   {
     id: "finca-registral",
     palabra: "Finca registral",
-    imagen: { id: 5505, alt: "Una ficha del Registro con un número grande" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Cada casa, terreno o local tiene un número único en el Registro de la Propiedad para identificarla.",
     sinonimos: ["número de finca en el Registro"],
     ejemplo: { palabra: "finca registral", texto: "Su finca registral corresponde a la vivienda de la calle Mayor." },
@@ -13052,7 +13052,7 @@ DICCIONARIOS.es = [
   {
     id: "referencia-catastral",
     palabra: "Referencia catastral",
-    imagen: { id: 5505, alt: "Un plano del catastro con un código marcado" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "El código único que tiene cada vivienda en el catastro. Sale en los recibos del IBI.",
     sinonimos: ["código de la casa en el catastro"],
     ejemplo: { palabra: "referencia catastral", texto: "Tu referencia catastral aparece en el recibo del IBI de cada año." },
@@ -13382,7 +13382,7 @@ DICCIONARIOS.es = [
   {
     id: "intruso",
     palabra: "Intruso",
-    imagen: { id: 4674, alt: "Una persona entrando por una ventana a oscuras" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Una persona que entra en un lugar sin permiso. No tiene derecho a estar allí.",
     sinonimos: ["visitante no deseado"],
     ejemplo: { palabra: "intruso", texto: "La alarma sonó cuando el intruso abrió la ventana." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 8483, alt: "Frontera, aduana" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
@@ -16322,7 +16322,7 @@ DICCIONARIOS.es = [
   {
     id: "blindar",
     palabra: "Blindar",
-    imagen: { id: 6192, alt: "Un grupo de personas se protege mutuamente" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Proteger algo o alguien de forma muy fuerte, para que no le puedan hacer daño.",
     sinonimos: ["proteger fuertemente"],
     ejemplo: { palabra: "blindar", texto: "El nuevo contrato buscaba blindar sus derechos laborales." },
@@ -17332,7 +17332,7 @@ DICCIONARIOS.es = [
   {
     id: "empadronar",
     palabra: "Empadronar",
-    imagen: { id: 3060, alt: "El edificio del ayuntamiento" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Inscribir a una persona en el registro oficial de vecinos de un municipio.",
     sinonimos: ["registrar como vecino"],
     ejemplo: { palabra: "empadronar", texto: "Fue al ayuntamiento para empadronar a toda su familia en la nueva dirección." },
@@ -17592,7 +17592,7 @@ DICCIONARIOS.es = [
   {
     id: "expropiar",
     palabra: "Expropiar",
-    imagen: { id: 3060, alt: "Un edificio del ayuntamiento" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Quitar el gobierno una propiedad a su dueño, normalmente a cambio de una compensación económica.",
     sinonimos: ["quitar una propiedad con compensación"],
     ejemplo: { palabra: "expropiar el terreno", texto: "El ayuntamiento decidió expropiar el terreno para construir la carretera." },
@@ -17902,7 +17902,7 @@ DICCIONARIOS.es = [
   {
     id: "habilitar",
     palabra: "Habilitar",
-    imagen: { id: 3060, alt: "Un edificio del ayuntamiento" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Dar autorización oficial a una persona o a un lugar para que pueda hacer algo o funcionar.",
     sinonimos: ["dar autorización oficial"],
     ejemplo: { palabra: "habilitar el local", texto: "El ayuntamiento decidió habilitar el local como centro de vacunación." },
