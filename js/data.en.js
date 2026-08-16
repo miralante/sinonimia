@@ -795,7 +795,7 @@ DICCIONARIOS.en = [
   {
     id: "alimony",
     palabra: "Alimony",
-    imagen: { id: 4630, alt: "Euro notes and coins" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Money one parent pays to the other for the children. A judge sets the amount.",
     sinonimos: ["child support", "maintenance for the children"],
     ejemplo: { palabra: "alimony", texto: "He pays alimony for his two children every month." },
@@ -835,7 +835,7 @@ DICCIONARIOS.en = [
   {
     id: "bail",
     palabra: "Bail",
-    imagen: { id: 4630, alt: "Euro notes and coins" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Money paid so a person can leave jail while the judge decides the case.",
     sinonimos: ["release money", "deposit to go free"],
     ejemplo: { palabra: "bail", texto: "His family paid bail and he went home the same day." },
@@ -927,7 +927,7 @@ DICCIONARIOS.en = [
   {
     id: "appraisal",
     palabra: "Appraisal",
-    imagen: { id: 4630, alt: "Euro notes and coins" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "A check of how much a home is worth. An expert does it. The bank needs it for a mortgage.",
     sinonimos: ["home valuation", "price check"],
     ejemplo: { palabra: "appraisal", texto: "The bank asked for an appraisal before giving the mortgage." },
@@ -957,7 +957,7 @@ DICCIONARIOS.en = [
   {
     id: "hoa-fees",
     palabra: "HOA fees",
-    imagen: { id: 4630, alt: "Euro notes and coins" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Money the neighbours pay each month. It pays for the lift, stair lights and cleaning.",
     sinonimos: ["building fee", "neighbours' fee"],
     ejemplo: { palabra: "HOA fees", texto: "HOA fees are going up this year." },
@@ -1515,7 +1515,7 @@ DICCIONARIOS.en = [
   {
     id: "state-benefit",
     palabra: "State benefit",
-    imagen: { id: 4630, alt: "State benefit money" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Money the state gives when you cannot work. For example, because you are ill.",
     sinonimos: ["state help", "welfare payment"],
     ejemplo: { palabra: "state benefit", texto: "She got the state benefit for six months because she was ill." },
@@ -1575,7 +1575,7 @@ DICCIONARIOS.en = [
   {
     id: "national-insurance",
     palabra: "National insurance",
-    imagen: { id: 4630, alt: "National insurance money" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A state system. It takes money from your pay to cover your doctor and your retirement.",
     sinonimos: ["state insurance", "public health system"],
     ejemplo: { palabra: "national insurance", texto: "He pays national insurance every month." },
@@ -2097,7 +2097,7 @@ DICCIONARIOS.en = [
   {
     id: "debtor",
     palabra: "Debtor",
-    imagen: { id: 4630, alt: "Euro bills and coins" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The person who owes money to someone else and has not paid it yet.",
     sinonimos: ["person who owes money"],
     ejemplo: { palabra: "debtor", texto: "The debtor could not pay the loan instalments." },
@@ -2107,7 +2107,7 @@ DICCIONARIOS.en = [
   {
     id: "creditor",
     palabra: "Creditor",
-    imagen: { id: 4630, alt: "Euro bills and coins" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The person or company who has the right to collect money from another.",
     sinonimos: ["person who collects money"],
     ejemplo: { palabra: "creditor", texto: "The creditor claimed the debt in court." },
@@ -2651,7 +2651,7 @@ DICCIONARIOS.en = [
   {
     id: "fee",
     palabra: "Fee",
-    imagen: { id: 4630, alt: "Euro bills and coins" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Money you pay to the state to do a procedure or get an official paper.",
     sinonimos: ["procedure cost"],
     ejemplo: { palabra: "fee", texto: "He paid the passport fee at the bank before going to the office." },
@@ -3164,7 +3164,7 @@ DICCIONARIOS.en = [
   {
     id: "minutes",
     palabra: "Minutes",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "An official paper that writes down what was said or agreed in a meeting.",
     sinonimos: ["meeting record"],
     ejemplo: { palabra: "minutes", texto: "The manager signed the minutes of the meeting at the end." },
@@ -3174,7 +3174,7 @@ DICCIONARIOS.en = [
   {
     id: "court-order",
     palabra: "Court order",
-    imagen: { id: 21802, alt: "A court document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A written decision by a judge about how to keep a case moving before the trial.",
     sinonimos: ["judge ruling"],
     ejemplo: { palabra: "court order", texto: "The judge signed a court order to keep investigating the case." },
@@ -3486,7 +3486,7 @@ DICCIONARIOS.en = [
   {
     id: "clause",
     palabra: "Clause",
-    imagen: { id: 21802, alt: "A document with conditions" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Each one of the conditions of a contract. You sign them when you accept the paper.",
     sinonimos: ["contract condition"],
     ejemplo: { palabra: "clause", texto: "She read every clause of the contract before signing." },
@@ -3657,7 +3657,7 @@ DICCIONARIOS.en = [
   {
     id: "extra-pay",
     palabra: "Extra pay",
-    imagen: { id: 4630, alt: "Euro bills and coins" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Extra money you get paid twice a year: in summer and at Christmas.",
     sinonimos: ["bonus pay"],
     ejemplo: { palabra: "extra pay", texto: "She got the Christmas extra pay before the holidays." },
@@ -3667,7 +3667,7 @@ DICCIONARIOS.en = [
   {
     id: "end-of-contract",
     palabra: "End of contract",
-    imagen: { id: 21802, alt: "A document" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The moment when your work contract finishes. It stops having effect.",
     sinonimos: ["contract end"],
     ejemplo: { palabra: "end of contract", texto: "They told her about the end of contract two weeks before." },
@@ -4623,7 +4623,7 @@ DICCIONARIOS.en = [
   {
     id: "fee-payment",
     palabra: "Fee payment",
-    imagen: { id: 4630, alt: "Euro bills and coins" },
+    imagen: { id: 6457, alt: "Comprar, pagar, adquirir" },
     definicion: "When you pay the money a procedure costs the state. It is usually small.",
     sinonimos: ["pay the fee"],
     ejemplo: { palabra: "fee payment", texto: "The fee payment is made at the bank before asking for the document." },
@@ -7777,7 +7777,7 @@ DICCIONARIOS.en = [
   {
     id: "terms-and-conditions",
     palabra: "Terms and conditions",
-    imagen: { id: 21802, alt: "A long document with a tick box" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "The long text that explains an app's rules. You have to accept it to use the app.",
     sinonimos: ["terms of use"],
     ejemplo: { palabra: "terms and conditions", texto: "She accepted the terms and conditions before creating the account." },
@@ -7837,7 +7837,7 @@ DICCIONARIOS.en = [
   {
     id: "scan-a-document",
     palabra: "Scan a document",
-    imagen: { id: 21802, alt: "A document" },
+    imagen: { id: 39197, alt: "Un documento" },
     definicion: "To use your phone's camera to make a digital copy of a piece of paper.",
     sinonimos: ["digitise a document"],
     ejemplo: { palabra: "scan a document", texto: "She used her phone to scan a document and email it." },
@@ -8377,7 +8377,7 @@ DICCIONARIOS.en = [
   {
     id: "property-deed",
     palabra: "Property deed",
-    imagen: { id: 21802, alt: "An official document with a stamp and a signature" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "The official document, signed before a notary, that proves you have bought a house.",
     sinonimos: ["title deed"],
     ejemplo: { palabra: "property deed", texto: "She kept the property deed for the house in the safe." },
@@ -8417,7 +8417,7 @@ DICCIONARIOS.en = [
   {
     id: "validity",
     palabra: "Validity",
-    imagen: { id: 21802, alt: "A document next to a calendar" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The time during which a document or a law can still be used.",
     sinonimos: ["validity period"],
     ejemplo: { palabra: "validity", texto: "The rental contract had a validity of one year." },
@@ -8507,7 +8507,7 @@ DICCIONARIOS.en = [
   {
     id: "court-costs",
     palabra: "Court costs",
-    imagen: { id: 4630, alt: "A set of scales with coins on one side" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The money you have to pay for a trial, like the lawyer's or the court's expenses.",
     sinonimos: ["legal costs"],
     ejemplo: { palabra: "court costs", texto: "He had to pay the court costs after losing the case." },
@@ -8557,7 +8557,7 @@ DICCIONARIOS.en = [
   {
     id: "proof-document",
     palabra: "Proof document",
-    imagen: { id: 21802, alt: "A small paper with a stamp" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A paper that proves you have done something, like paying or handing in a document.",
     sinonimos: ["supporting document"],
     ejemplo: { palabra: "proof document", texto: "He kept the proof document for the application in case he needed it." },
@@ -8687,7 +8687,7 @@ DICCIONARIOS.en = [
   {
     id: "free-of-charge",
     palabra: "Free of charge",
-    imagen: { id: 21802, alt: "A document with a crossed-out price" },
+    imagen: { id: 11582, alt: "Un documento con un cero tachado, sin coste" },
     definicion: "A procedure that costs no money, with no fee to pay.",
     sinonimos: ["no-cost procedure"],
     ejemplo: { palabra: "free of charge", texto: "Asking for a proof of residency is free of charge." },
@@ -8727,7 +8727,7 @@ DICCIONARIOS.en = [
   {
     id: "change-of-ownership",
     palabra: "Change of ownership",
-    imagen: { id: 21802, alt: "A document with a new name written on it" },
+    imagen: { id: 37407, alt: "Una persona escribiendo un nombre en un documento" },
     definicion: "Putting a gas, water, or electricity contract in your name, instead of the previous owner's name.",
     sinonimos: ["transfer of ownership"],
     ejemplo: { palabra: "change of ownership", texto: "He did the change of ownership for the electricity when he moved into the flat." },
@@ -8937,7 +8937,7 @@ DICCIONARIOS.en = [
   {
     id: "special-levy",
     palabra: "Special levy",
-    imagen: { id: 4630, alt: "Several neighbours putting money together" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "An extra payment neighbours in a building have to make for a big job, like fixing the roof.",
     sinonimos: ["one-off charge"],
     ejemplo: { palabra: "special levy", texto: "The neighbours paid a special levy to fix the lift." },
@@ -8997,7 +8997,7 @@ DICCIONARIOS.en = [
   {
     id: "employment-history",
     palabra: "Employment history",
-    imagen: { id: 21802, alt: "A document with a list of companies" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "An official document listing every company you have worked for, and for how long.",
     sinonimos: ["work record"],
     ejemplo: { palabra: "employment history", texto: "She asked for her employment history to see how many years she had left before retiring." },
@@ -9137,7 +9137,7 @@ DICCIONARIOS.en = [
   {
     id: "refund",
     palabra: "Refund",
-    imagen: { id: 4630, alt: "A hand receiving banknotes back" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Getting back the money you paid, usually because you returned something.",
     sinonimos: ["money back"],
     ejemplo: { palabra: "refund", texto: "She asked for a refund when she returned the jacket that did not fit." },
@@ -9957,7 +9957,7 @@ DICCIONARIOS.en = [
   {
     id: "rental-guarantor",
     palabra: "Rental guarantor",
-    imagen: { id: 21802, alt: "A signed guarantee document" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "An extra guarantee, besides the deposit, that a landlord asks for before renting out a flat.",
     sinonimos: ["additional rental guarantee"],
     ejemplo: { palabra: "rental guarantor", texto: "His father signed as rental guarantor for the flat." },
@@ -10007,7 +10007,7 @@ DICCIONARIOS.en = [
   {
     id: "proof-of-attendance",
     palabra: "Proof of attendance",
-    imagen: { id: 21802, alt: "A stamped paper with a time written on it" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A paper that proves you were at an appointment or a meeting, to show it at work.",
     sinonimos: ["attendance certificate"],
     ejemplo: { palabra: "proof of attendance", texto: "She asked for proof of attendance at the doctor's surgery." },
@@ -10047,7 +10047,7 @@ DICCIONARIOS.en = [
   {
     id: "installment-plan",
     palabra: "Installment plan",
-    imagen: { id: 4630, alt: "Several equal coins in a row" },
+    imagen: { id: 29070, alt: "Pagar" },
     definicion: "Paying for something expensive in several small parts, instead of all at once.",
     sinonimos: ["pay in installments"],
     ejemplo: { palabra: "installment plan", texto: "She bought the sofa on an installment plan over six months." },
@@ -10278,7 +10278,7 @@ DICCIONARIOS.en = [
   {
     id: "life-annuity",
     palabra: "Life annuity",
-    imagen: { id: 4630, alt: "Euro banknotes and coins" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Money the bank pays you every month for the rest of your life, in exchange for your savings.",
     sinonimos: ["monthly payment for life"],
     ejemplo: { palabra: "life annuity", texto: "He exchanged his flat for a life annuity when he retired." },
@@ -10530,7 +10530,7 @@ DICCIONARIOS.en = [
   {
     id: "court-summons",
     palabra: "Court summons",
-    imagen: { id: 21802, alt: "A court document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A court paper that tells you to come to a trial.",
     sinonimos: ["notice to appear in court"],
     ejemplo: { palabra: "court summons", texto: "She received a court summons to testify as a witness." },
@@ -10540,7 +10540,7 @@ DICCIONARIOS.en = [
   {
     id: "court-notice",
     palabra: "Court notice",
-    imagen: { id: 21802, alt: "A court document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "An official paper the court sends you to tell you something.",
     sinonimos: ["official message from the court"],
     ejemplo: { palabra: "court notice", texto: "He got a court notice about the trial date." },
@@ -10590,7 +10590,7 @@ DICCIONARIOS.en = [
   {
     id: "separation-of-property",
     palabra: "Separation of property",
-    imagen: { id: 21802, alt: "A document signed by two people" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A marriage agreement where each person owns only what is theirs, not everything together.",
     sinonimos: ["separate ownership within a marriage"],
     ejemplo: { palabra: "separation of property", texto: "They signed a separation of property agreement before the wedding." },
@@ -10680,7 +10680,7 @@ DICCIONARIOS.en = [
   {
     id: "lasting-power-of-attorney",
     palabra: "Lasting power of attorney",
-    imagen: { id: 21802, alt: "A document signed by two people" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A legal paper that chooses who will decide for you if one day you cannot decide alone.",
     sinonimos: ["authorisation for the future"],
     ejemplo: { palabra: "lasting power of attorney", texto: "She signed a lasting power of attorney in favour of her daughter." },
@@ -11173,7 +11173,7 @@ DICCIONARIOS.en = [
   {
     id: "gross-salary",
     palabra: "Gross salary",
-    imagen: { id: 4630, alt: "Euro banknotes and coins" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The money you earn before taxes and social security are taken out.",
     sinonimos: ["pay before deductions"],
     ejemplo: { palabra: "gross salary", texto: "Her gross salary was higher than the money she got in the bank." },
@@ -11183,7 +11183,7 @@ DICCIONARIOS.en = [
   {
     id: "net-salary",
     palabra: "Net salary",
-    imagen: { id: 4630, alt: "Euro banknotes and coins" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The money you really receive, after taxes and social security are taken out.",
     sinonimos: ["pay after deductions"],
     ejemplo: { palabra: "net salary", texto: "He checked his net salary on this month's payslip." },
@@ -11293,7 +11293,7 @@ DICCIONARIOS.en = [
   {
     id: "general-scheme",
     palabra: "General scheme",
-    imagen: { id: 4630, alt: "Social security money" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The group of social security rules for most salaried employees.",
     sinonimos: ["social security rules for salaried employees"],
     ejemplo: { palabra: "general scheme", texto: "She paid into the general scheme as a shop employee." },
@@ -11323,7 +11323,7 @@ DICCIONARIOS.en = [
   {
     id: "hourly-wage",
     palabra: "Hourly wage",
-    imagen: { id: 4630, alt: "Euro banknotes and coins" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Money you earn based on the hours you work, instead of a fixed monthly salary.",
     sinonimos: ["pay calculated by the hour"],
     ejemplo: { palabra: "hourly wage", texto: "He was paid an hourly wage at his summer job." },
@@ -11484,7 +11484,7 @@ DICCIONARIOS.en = [
   {
     id: "cancellation-policy",
     palabra: "Cancellation policy",
-    imagen: { id: 21802, alt: "A document" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "The rules that say what happens to your money if you cancel a booking.",
     sinonimos: ["rules for cancelling a booking"],
     ejemplo: { palabra: "cancellation policy", texto: "He read the cancellation policy before booking the flight." },
@@ -11545,7 +11545,7 @@ DICCIONARIOS.en = [
   {
     id: "rent-increase",
     palabra: "Rent increase",
-    imagen: { id: 4630, alt: "Euro banknotes and coins" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "The rise in rent price every year, as the law allows.",
     sinonimos: ["yearly rise in rent"],
     ejemplo: { palabra: "rent increase", texto: "The landlord announced a rent increase for the new year." },
@@ -16766,7 +16766,7 @@ DICCIONARIOS.en = [
   {
     id: "collusion",
     palabra: "Collusion",
-    imagen: { id: 21802, alt: "A document with an official stamp" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A secret agreement between people to do something dishonest or illegal.",
     sinonimos: ["a secret dishonest agreement"],
     ejemplo: { palabra: "collusion", texto: "The investigation found evidence of collusion between the two companies." },
@@ -17476,7 +17476,7 @@ DICCIONARIOS.en = [
   {
     id: "edict",
     palabra: "Edict",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "An official order or announcement issued by an authority, such as a government.",
     sinonimos: ["an official order from an authority"],
     ejemplo: { palabra: "an edict", texto: "The king issued an edict banning the sale of weapons." },
@@ -17736,7 +17736,7 @@ DICCIONARIOS.en = [
   {
     id: "falsification",
     palabra: "Falsification",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The act of changing or creating a document dishonestly to deceive someone.",
     sinonimos: ["dishonestly changing official records"],
     ejemplo: { palabra: "falsification of records", texto: "He was charged with falsification of records." },
