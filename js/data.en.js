@@ -1745,7 +1745,7 @@ DICCIONARIOS.en = [
   {
     id: "mortgage",
     palabra: "Mortgage",
-    imagen: { id: 3062, alt: "A house and a document" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "A loan you take from the bank to buy a home. You pay it back over many years.",
     sinonimos: ["home loan"],
     ejemplo: { palabra: "mortgage", texto: "They took out a mortgage to buy their first flat." },
@@ -2560,7 +2560,7 @@ DICCIONARIOS.en = [
   {
     id: "training",
     palabra: "Training",
-    imagen: { id: 8098, alt: "A person receives training" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A course you take to learn new things about your work or to improve.",
     sinonimos: ["work course"],
     ejemplo: { palabra: "training", texto: "The company paid for her advanced Excel training." },
@@ -4331,7 +4331,7 @@ DICCIONARIOS.en = [
   {
     id: "training-contract",
     palabra: "Training contract",
-    imagen: { id: 8098, alt: "A person receives training" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A contract that lets you work and study at the same time. It lasts one or two years.",
     sinonimos: ["learn-while-work deal"],
     ejemplo: { palabra: "training contract", texto: "They offered her a one-year training contract with studies included." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -6207,7 +6207,7 @@ DICCIONARIOS.en = [
   {
     id: "calendar",
     palabra: "Calendar",
-    imagen: { id: 8717, alt: "Vida" },
+    imagen: { id: 3071, alt: "Calendar, yearbook, almanac" },
     definicion: "A paper or an app that shows the days, weeks and months of the year. It helps you remember dates.",
     sinonimos: ["almanac"],
     ejemplo: { palabra: "calendar", texto: "She wrote the doctor's appointment on the calendar." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 2402, alt: "Biscuits, cookies" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -8197,7 +8197,7 @@ DICCIONARIOS.en = [
   {
     id: "late-fee",
     palabra: "Late fee",
-    imagen: { id: 5995, alt: "A bill with an extra amount marked in red" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Extra money you have to pay for paying late or for breaking a rule.",
     sinonimos: ["penalty charge"],
     ejemplo: { palabra: "late fee", texto: "He was charged a late fee for paying the bill after the deadline." },
@@ -8207,7 +8207,7 @@ DICCIONARIOS.en = [
   {
     id: "direct-debit-setup",
     palabra: "Direct debit setup",
-    imagen: { id: 5995, alt: "A bill with an arrow pointing to a bank account" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Giving a company permission to take a bill directly from your account every month.",
     sinonimos: ["set up automatic payment"],
     ejemplo: { palabra: "direct debit setup", texto: "He did the direct debit setup for the electricity so he would not forget to pay." },
@@ -8217,7 +8217,7 @@ DICCIONARIOS.en = [
   {
     id: "signing-authority",
     palabra: "Signing authority",
-    imagen: { id: 3062, alt: "A person signing a bank document" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Permission the bank gives someone to sign and manage money in an account that is not only theirs.",
     sinonimos: ["account authorisation"],
     ejemplo: { palabra: "signing authority", texto: "She gave her daughter signing authority to manage her account." },
@@ -10037,7 +10037,7 @@ DICCIONARIOS.en = [
   {
     id: "bank-signing-rights",
     palabra: "Bank signing rights",
-    imagen: { id: 3062, alt: "A person signing a bank document" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Permission the bank gives someone to sign and move money in an account that is not only theirs.",
     sinonimos: ["account signing permission"],
     ejemplo: { palabra: "bank signing rights", texto: "She gave her daughter bank signing rights to manage her account." },
@@ -10198,7 +10198,7 @@ DICCIONARIOS.en = [
   {
     id: "inheritance-tax",
     palabra: "Inheritance tax",
-    imagen: { id: 11700, alt: "A house key passing from one hand to another" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Money you must pay to the government when you receive an inheritance.",
     sinonimos: ["tax on an inheritance"],
     ejemplo: { palabra: "inheritance tax", texto: "She paid inheritance tax when she inherited her mother's house." },
@@ -10570,7 +10570,7 @@ DICCIONARIOS.en = [
   {
     id: "reserved-share",
     palabra: "Reserved share",
-    imagen: { id: 11700, alt: "A house key passing from one hand to another" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The part of an inheritance the law says must go to certain family members.",
     sinonimos: ["part of an inheritance the law protects"],
     ejemplo: { palabra: "reserved share", texto: "Her children received the reserved share of the inheritance." },
@@ -11595,7 +11595,7 @@ DICCIONARIOS.en = [
   {
     id: "utility-contract",
     palabra: "Utility contract",
-    imagen: { id: 5995, alt: "A bill with a signature" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "The agreement you sign with a company to have electricity, water, or gas at home.",
     sinonimos: ["agreement for electricity, water, or gas"],
     ejemplo: { palabra: "utility contract", texto: "He signed a utility contract with the new power company." },
@@ -12248,7 +12248,7 @@ DICCIONARIOS.en = [
   {
     id: "bequest",
     palabra: "Bequest",
-    imagen: { id: 11700, alt: "A house key passing from one hand to another" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A specific item, like a piece of jewellery or a car, that someone leaves to a person in their will.",
     sinonimos: ["specific item left in a will"],
     ejemplo: { palabra: "bequest", texto: "She received her grandfather's watch as a bequest." },
@@ -12819,7 +12819,7 @@ DICCIONARIOS.en = [
   {
     id: "special-assessment",
     palabra: "Special assessment",
-    imagen: { id: 5995, alt: "A hand pays an extra bill in an envelope" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "An extra amount neighbours pay to fix something in the building, like the lift or the roof.",
     sinonimos: ["extra building fee"],
     ejemplo: { palabra: "special assessment", texto: "There is a special assessment for fixing the roof, paid over three months." },
@@ -12852,7 +12852,7 @@ DICCIONARIOS.en = [
   {
     id: "billing-period",
     palabra: "Billing period",
-    imagen: { id: 5995, alt: "A bill with a start and end date" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "The time a bill covers. It is usually one month, from one date to another.",
     sinonimos: ["time the bill covers"],
     ejemplo: { palabra: "billing period", texto: "The billing period for electricity runs from the 1st to the last day of the month." },
@@ -13266,7 +13266,7 @@ DICCIONARIOS.en = [
   {
     id: "collateral",
     palabra: "Collateral",
-    imagen: { id: 3062, alt: "A car key placed on a loan document" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Something valuable you offer to get a loan. The bank can take it if you don't pay.",
     sinonimos: ["loan security"],
     ejemplo: { palabra: "collateral", texto: "He used his car as collateral to get the loan." },
@@ -13676,7 +13676,7 @@ DICCIONARIOS.en = [
   {
     id: "directive",
     palabra: "Directive",
-    imagen: { id: 8098, alt: "An official document with a stamp giving instructions" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "An official instruction that must be followed. It usually comes from an authority or organisation.",
     sinonimos: ["official instruction"],
     ejemplo: { palabra: "directive", texto: "The new directive changed how forms are submitted." },
@@ -15726,7 +15726,7 @@ DICCIONARIOS.en = [
   {
     id: "allergen",
     palabra: "Allergen",
-    imagen: { id: 4610, alt: "A warning label on a food package" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A substance that causes an allergic reaction in some people.",
     sinonimos: ["substance that causes allergies"],
     ejemplo: { palabra: "allergen", texto: "Peanuts are a common allergen in children." },
@@ -16206,7 +16206,7 @@ DICCIONARIOS.en = [
   {
     id: "borrower",
     palabra: "Borrower",
-    imagen: { id: 3062, alt: "A person signs a bank document" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A person or company that takes money from a bank or another person, with a promise to pay it back.",
     sinonimos: ["person taking the loan"],
     ejemplo: { palabra: "borrower", texto: "The bank reviewed the borrower before approving the loan." },
@@ -17506,7 +17506,7 @@ DICCIONARIOS.en = [
   {
     id: "embalming",
     palabra: "Embalming",
-    imagen: { id: 3195, alt: "A funeral with a coffin" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "The process of treating a dead body with chemicals to preserve it before burial.",
     sinonimos: ["the preservation of a body before burial"],
     ejemplo: { palabra: "embalming", texto: "The funeral home offers embalming as part of its services." },
@@ -17626,7 +17626,7 @@ DICCIONARIOS.en = [
   {
     id: "epitaph",
     palabra: "Epitaph",
-    imagen: { id: 3195, alt: "A funeral with a coffin" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Words written on a gravestone in memory of the person who died.",
     sinonimos: ["words written on a gravestone"],
     ejemplo: { palabra: "the epitaph", texto: "The family chose the epitaph carefully before the burial." },
@@ -17746,7 +17746,7 @@ DICCIONARIOS.en = [
   {
     id: "famine",
     palabra: "Famine",
-    imagen: { id: 4610, alt: "Food: a drumstick, an apple, and bread" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A severe shortage of food that affects a large number of people over a long time.",
     sinonimos: ["a severe shortage of food"],
     ejemplo: { palabra: "a famine", texto: "The drought led to a famine across the region." },
@@ -17936,7 +17936,7 @@ DICCIONARIOS.en = [
   {
     id: "foodbank",
     palabra: "Foodbank",
-    imagen: { id: 4610, alt: "Food: a drumstick, an apple, and bread" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A place where free food is given to people who cannot afford to buy enough to eat.",
     sinonimos: ["a place giving free food to people in need"],
     ejemplo: { palabra: "a foodbank", texto: "Many families relied on a foodbank during the crisis." },
@@ -18086,7 +18086,7 @@ DICCIONARIOS.en = [
   {
     id: "gestation",
     palabra: "Gestation",
-    imagen: { id: 11250, alt: "Pregnancy, gestation" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The period of time during which a baby develops inside the womb before birth.",
     sinonimos: ["the period before birth"],
     ejemplo: { palabra: "gestation", texto: "Doctors monitor gestation closely during high-risk pregnancies." },
@@ -19296,7 +19296,7 @@ DICCIONARIOS.en = [
   {
     id: "mortician",
     palabra: "Mortician",
-    imagen: { id: 3195, alt: "A funeral service" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A person whose job is to prepare and arrange for the burial or cremation of the dead.",
     sinonimos: ["a person who prepares the dead for burial"],
     ejemplo: { palabra: "a mortician", texto: "The family met with a mortician to plan the funeral." },
@@ -19536,7 +19536,7 @@ DICCIONARIOS.en = [
   {
     id: "obituary",
     palabra: "Obituary",
-    imagen: { id: 3195, alt: "A funeral with a casket" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A published notice about a person's death, often including details of their life.",
     sinonimos: ["a published notice about a person's death"],
     ejemplo: { palabra: "an obituary", texto: "The family wrote an obituary to honor her life." },
@@ -19726,7 +19726,7 @@ DICCIONARIOS.en = [
   {
     id: "pallbearer",
     palabra: "Pallbearer",
-    imagen: { id: 3195, alt: "A funeral with a coffin" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A person who helps carry the coffin at a funeral.",
     sinonimos: ["a person who carries the coffin at a funeral"],
     ejemplo: { palabra: "a pallbearer", texto: "His brother agreed to be a pallbearer at the funeral." },
@@ -19906,7 +19906,7 @@ DICCIONARIOS.en = [
   {
     id: "perishable",
     palabra: "Perishable",
-    imagen: { id: 4610, alt: "Food" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Food that spoils quickly and must be eaten or stored carefully.",
     sinonimos: ["food that spoils quickly"],
     ejemplo: { palabra: "perishable food", texto: "The store donated perishable food before it went bad." },
@@ -20426,7 +20426,7 @@ DICCIONARIOS.en = [
   {
     id: "rationing",
     palabra: "Rationing",
-    imagen: { id: 4610, alt: "Food" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Limiting the amount of food, fuel, or other goods each person can have, especially during a shortage.",
     sinonimos: ["limiting the amount each person can have"],
     ejemplo: { palabra: "fuel rationing", texto: "The government introduced fuel rationing during the crisis." },
@@ -21286,7 +21286,7 @@ DICCIONARIOS.en = [
   {
     id: "starvation",
     palabra: "Starvation",
-    imagen: { id: 4610, alt: "Food" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The suffering or death caused by a severe lack of food.",
     sinonimos: ["suffering caused by a severe lack of food"],
     ejemplo: { palabra: "starvation", texto: "The refugees faced starvation during the long journey." },
