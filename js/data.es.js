@@ -425,7 +425,7 @@ DICCIONARIOS.es = [
   {
     id: "cronico",
     palabra: "Crónico",
-    imagen: { id: 11252, alt: "Una persona enferma con medicinas" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Dura mucho tiempo. No se cura enseguida.",
     sinonimos: ["de larga duración"],
     ejemplo: { palabra: "crónica", texto: "La diabetes es una enfermedad crónica que hay que controlar cada día." },
@@ -836,7 +836,7 @@ DICCIONARIOS.es = [
   {
     id: "justificante",
     palabra: "Justificante",
-    imagen: { id: 16873, alt: "Un papel de recibo" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Un papel que demuestra algo. Por ejemplo, que fuiste a una cita.",
     sinonimos: ["comprobante", "papel que lo demuestra"],
     ejemplo: { palabra: "justificante", texto: "El colegio le pidió un justificante del médico." },
@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 34814, alt: "Préstamo" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2127,7 +2127,7 @@ DICCIONARIOS.es = [
   {
     id: "enfermedad-cronica",
     palabra: "Enfermedad crónica",
-    imagen: { id: 11252, alt: "Una persona enferma con medicinas" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una enfermedad que no se cura del todo y necesitas cuidarte toda la vida.",
     sinonimos: ["enfermedad para siempre"],
     ejemplo: { palabra: "crónica", texto: "La diabetes es una enfermedad crónica que se controla cada día." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 36403, alt: "Ahorro" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 11291, alt: "Juez, magistrado" },
+    imagen: { id: 35413, alt: "Notario" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -9238,7 +9238,7 @@ DICCIONARIOS.es = [
   {
     id: "historial-medico",
     palabra: "Historial médico",
-    imagen: { id: 16735, alt: "Un informe médico" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Todos los datos guardados sobre tu salud: enfermedades, pruebas y tratamientos pasados.",
     sinonimos: ["historia clínica"],
     ejemplo: { palabra: "historial médico", texto: "El médico miró su historial médico antes de recetarle nada." },
@@ -9248,7 +9248,7 @@ DICCIONARIOS.es = [
   {
     id: "baja-medica",
     palabra: "Baja médica",
-    imagen: { id: 16735, alt: "Un documento firmado por un médico" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "El permiso que te da el médico para no ir a trabajar mientras estás enfermo.",
     sinonimos: ["baja por enfermedad"],
     ejemplo: { palabra: "baja médica", texto: "El médico le dio la baja médica por la espalda." },
@@ -9258,7 +9258,7 @@ DICCIONARIOS.es = [
   {
     id: "parte-de-baja",
     palabra: "Parte de baja",
-    imagen: { id: 16735, alt: "Un papel oficial con la firma de un médico" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "El papel oficial que firma el médico para confirmar que estás de baja del trabajo.",
     sinonimos: ["documento de baja médica"],
     ejemplo: { palabra: "parte de baja", texto: "Llevó el parte de baja a la empresa al día siguiente." },
@@ -9268,7 +9268,7 @@ DICCIONARIOS.es = [
   {
     id: "alta-medica",
     palabra: "Alta médica",
-    imagen: { id: 16735, alt: "Un médico entregando un documento" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "El papel del médico que dice que ya puedes volver a trabajar, porque estás curado.",
     sinonimos: ["fin de la baja"],
     ejemplo: { palabra: "alta médica", texto: "Recibió el alta médica después de tres semanas de reposo." },
@@ -10288,7 +10288,7 @@ DICCIONARIOS.es = [
   {
     id: "cheque-bancario",
     palabra: "Cheque bancario",
-    imagen: { id: 16605, alt: "Un cheque con un sello del banco" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Un papel del banco que garantiza que el dinero está disponible, más seguro que un cheque normal.",
     sinonimos: ["cheque conformado"],
     ejemplo: { palabra: "cheque bancario", texto: "Pagó la reforma de la cocina con un cheque bancario." },
@@ -10368,7 +10368,7 @@ DICCIONARIOS.es = [
   {
     id: "recibo-digital",
     palabra: "Recibo digital",
-    imagen: { id: 16873, alt: "Una pantalla de móvil mostrando un recibo" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un recibo que te llega por correo electrónico o por una aplicación, en vez de en papel.",
     sinonimos: ["recibo electrónico"],
     ejemplo: { palabra: "recibo digital", texto: "Prefería el recibo digital para no acumular papeles." },
@@ -10509,7 +10509,7 @@ DICCIONARIOS.es = [
   {
     id: "cheque-sin-fondos",
     palabra: "Cheque sin fondos",
-    imagen: { id: 16605, alt: "Un cheque bancario" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Un cheque que el banco no paga porque no hay dinero suficiente en la cuenta.",
     sinonimos: ["cheque que rebota"],
     ejemplo: { palabra: "cheque sin fondos", texto: "El proveedor recibió un cheque sin fondos y no cobró." },
@@ -11987,7 +11987,7 @@ DICCIONARIOS.es = [
   {
     id: "letra-de-cambio",
     palabra: "Letra de cambio",
-    imagen: { id: 16605, alt: "Un cheque bancario" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Un papel que promete pagar una cantidad de dinero en una fecha futura.",
     sinonimos: ["papel de pago aplazado"],
     ejemplo: { palabra: "letra de cambio", texto: "El proveedor aceptó una letra de cambio a treinta días." },
@@ -11997,7 +11997,7 @@ DICCIONARIOS.es = [
   {
     id: "pagare",
     palabra: "Pagaré",
-    imagen: { id: 16605, alt: "Un cheque bancario" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Un papel firmado donde alguien promete pagarte una cantidad de dinero en una fecha concreta.",
     sinonimos: ["promesa de pago firmada"],
     ejemplo: { palabra: "pagaré", texto: "Firmó un pagaré para devolver el dinero en tres meses." },
@@ -12792,7 +12792,7 @@ DICCIONARIOS.es = [
   {
     id: "enfermedad-profesional",
     palabra: "Enfermedad profesional",
-    imagen: { id: 11252, alt: "Una persona con la espalda dolorida por el trabajo" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Una enfermedad que sale por hacer tu trabajo durante mucho tiempo. La Seguridad Social la reconoce.",
     sinonimos: ["enfermedad del trabajo"],
     ejemplo: { palabra: "enfermedad profesional", texto: "La lumbalgia es una enfermedad profesional típica de quienes cargan peso." },
@@ -13132,7 +13132,7 @@ DICCIONARIOS.es = [
   {
     id: "diagnostico",
     palabra: "Diagnóstico",
-    imagen: { id: 16735, alt: "Un médico con un informe médico" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "El nombre de la enfermedad. El médico lo dice después de revisarte.",
     sinonimos: ["hallazgo médico"],
     ejemplo: { palabra: "diagnóstico", texto: "El diagnóstico fue claro: tiene asma." },
@@ -13582,7 +13582,7 @@ DICCIONARIOS.es = [
   {
     id: "cargo-adicional",
     palabra: "Cargo adicional",
-    imagen: { id: 16873, alt: "Un recibo con un cargo extra resaltado" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Una cantidad extra que se añade al precio normal. La pagas además del coste habitual.",
     sinonimos: ["coste añadido"],
     ejemplo: { palabra: "cargo adicional", texto: "La aerolínea añadió un cargo adicional por la maleta pesada." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 21802, alt: "Documento" },
+    imagen: { id: 8483, alt: "Frontera, aduana" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 11252, alt: "Un médico examina a una persona con un problema de salud" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
@@ -15912,7 +15912,7 @@ DICCIONARIOS.es = [
   {
     id: "amnistiar",
     palabra: "Amnistiar",
-    imagen: { id: 11473, alt: "Las puertas de una prisión se abren" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Perdonar oficialmente un delito, normalmente por decisión del gobierno.",
     sinonimos: ["perdonar oficialmente", "indultar"],
     ejemplo: { palabra: "amnistiar", texto: "El gobierno decidió amnistiar a los presos políticos." },
@@ -16832,7 +16832,7 @@ DICCIONARIOS.es = [
   {
     id: "contravenir",
     palabra: "Contravenir",
-    imagen: { id: 11473, alt: "Un documento legal con un sello" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "No cumplir una ley, una norma o un acuerdo.",
     sinonimos: ["incumplir"],
     ejemplo: { palabra: "contravenir", texto: "La empresa fue multada por contravenir la normativa ambiental." },
@@ -16952,7 +16952,7 @@ DICCIONARIOS.es = [
   {
     id: "criminalizar",
     palabra: "Criminalizar",
-    imagen: { id: 11473, alt: "Un documento legal con un sello" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Convertir algo en un delito según la ley.",
     sinonimos: ["convertir en delito"],
     ejemplo: { palabra: "criminalizar", texto: "La nueva ley busca criminalizar ese tipo de fraude." },
@@ -17162,7 +17162,7 @@ DICCIONARIOS.es = [
   {
     id: "despenalizar",
     palabra: "Despenalizar",
-    imagen: { id: 11473, alt: "Un documento legal con un sello" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Dejar de considerar delito algo que antes sí lo era.",
     sinonimos: ["dejar de considerar delito"],
     ejemplo: { palabra: "despenalizar", texto: "El país decidió despenalizar esa conducta." },
@@ -17232,7 +17232,7 @@ DICCIONARIOS.es = [
   {
     id: "disenteria",
     palabra: "Disentería",
-    imagen: { id: 11252, alt: "Un médico examina a un paciente" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una enfermedad del intestino que causa diarrea fuerte, a veces con sangre.",
     sinonimos: ["infección intestinal grave"],
     ejemplo: { palabra: "la disentería", texto: "El médico dijo que tenía la disentería por el agua contaminada." },
