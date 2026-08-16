@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 2402, alt: "Biscuits, cookies" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -18546,7 +18546,7 @@ DICCIONARIOS.en = [
   {
     id: "infringe",
     palabra: "Infringe",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To break a law, rule, or someone's rights.",
     sinonimos: ["break a law or someone's rights"],
     ejemplo: { palabra: "infringe copyright law", texto: "The company was accused of using the image to infringe copyright law." },
@@ -18556,7 +18556,7 @@ DICCIONARIOS.en = [
   {
     id: "inheritor",
     palabra: "Inheritor",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who receives money or property from someone who has died.",
     sinonimos: ["a person who receives property after someone dies"],
     ejemplo: { palabra: "the sole inheritor", texto: "She became the sole inheritor after her grandfather died." },
@@ -18596,7 +18596,7 @@ DICCIONARIOS.en = [
   {
     id: "intestate",
     palabra: "Intestate",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Having died without leaving a valid will.",
     sinonimos: ["having died without a will"],
     ejemplo: { palabra: "intestate", texto: "He died intestate, so the court decided how to divide his property." },
@@ -18846,7 +18846,7 @@ DICCIONARIOS.en = [
   {
     id: "legalese",
     palabra: "Legalese",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Complicated legal language that is hard for most people to understand.",
     sinonimos: ["complicated legal language"],
     ejemplo: { palabra: "legalese", texto: "He struggled to understand the legalese in the contract." },
@@ -19216,7 +19216,7 @@ DICCIONARIOS.en = [
   {
     id: "misconduct",
     palabra: "Misconduct",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Behavior that breaks rules or is not appropriate, especially at work.",
     sinonimos: ["behavior that breaks rules, especially at work"],
     ejemplo: { palabra: "misconduct", texto: "He was fired after an investigation into misconduct." },
@@ -19226,7 +19226,7 @@ DICCIONARIOS.en = [
   {
     id: "misinform",
     palabra: "Misinform",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "To give someone false or incorrect information, often without meaning to.",
     sinonimos: ["give someone false information"],
     ejemplo: { palabra: "misinform", texto: "The article seemed designed to misinform readers about the vaccine." },
@@ -19276,7 +19276,7 @@ DICCIONARIOS.en = [
   {
     id: "moratorium",
     palabra: "Moratorium",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 4630, alt: "Dinero y un documento" },
     definicion: "An official pause or delay on a rule, payment, or activity for a period of time.",
     sinonimos: ["an official pause on a payment or activity"],
     ejemplo: { palabra: "a moratorium on evictions", texto: "The government announced a moratorium on evictions during the crisis." },
@@ -19446,7 +19446,7 @@ DICCIONARIOS.en = [
   {
     id: "noncompete",
     palabra: "Noncompete",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "An agreement that stops an employee from working for a competing company for a period of time after leaving a job.",
     sinonimos: ["an agreement not to work for a competitor"],
     ejemplo: { palabra: "a noncompete", texto: "He signed a noncompete when he started the new job." },
@@ -20196,7 +20196,7 @@ DICCIONARIOS.en = [
   {
     id: "prenuptial",
     palabra: "Prenuptial",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Made or agreed before a marriage, especially about how money will be divided.",
     sinonimos: ["agreed before a marriage"],
     ejemplo: { palabra: "a prenuptial agreement", texto: "The couple signed a prenuptial agreement about their finances." },
@@ -20326,7 +20326,7 @@ DICCIONARIOS.en = [
   {
     id: "punitive",
     palabra: "Punitive",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Intended to punish, rather than to help or fix a problem.",
     sinonimos: ["intended to punish"],
     ejemplo: { palabra: "a punitive measure", texto: "The fine was seen as a punitive measure rather than a fix." },
@@ -20366,7 +20366,7 @@ DICCIONARIOS.en = [
   {
     id: "quitclaim",
     palabra: "Quitclaim",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "A legal document that transfers a person's ownership rights in a property to someone else.",
     sinonimos: ["a document that transfers ownership of property"],
     ejemplo: { palabra: "a quitclaim deed", texto: "She signed a quitclaim deed for the house." },
@@ -20516,7 +20516,7 @@ DICCIONARIOS.en = [
   {
     id: "redress",
     palabra: "Redress",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A way of fixing or making up for a wrong or injustice, often through a legal process.",
     sinonimos: ["a way of fixing a wrong through legal means"],
     ejemplo: { palabra: "legal redress", texto: "She sought legal redress after the company breached the contract." },
