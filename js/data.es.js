@@ -142,7 +142,7 @@ DICCIONARIOS.es = [
   {
     id: "instancia",
     palabra: "Instancia",
-    imagen: { id: 9173, alt: "Un formulario con casillas para rellenar" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Papel oficial que rellenas para pedir algo a la administración.",
     sinonimos: ["solicitud", "petición por escrito"],
     ejemplo: { palabra: "instancia", texto: "Rellenó una instancia para pedir el certificado." },
@@ -896,7 +896,7 @@ DICCIONARIOS.es = [
   {
     id: "anemia",
     palabra: "Anemia",
-    imagen: { id: 2803, alt: "Una bolsa de sangre" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Tienes poca sangre o poca hierro. Te sientes muy cansado.",
     sinonimos: ["falta de hierro", "sangre baja"],
     ejemplo: { palabra: "anemia", texto: "Le diagnosticaron anemia y le dieron vitaminas." },
@@ -1386,7 +1386,7 @@ DICCIONARIOS.es = [
   {
     id: "vale",
     palabra: "Vale",
-    imagen: { id: 4751, alt: "Una tarjeta" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Un papel que vale por algo. Se cambia por un producto o un servicio.",
     sinonimos: ["bono", "tarjeta para cambiar"],
     ejemplo: { palabra: "vale", texto: "Le regalaron un vale de cincuenta euros para la librería." },
@@ -1549,7 +1549,7 @@ DICCIONARIOS.es = [
   {
     id: "tarjeta-debito",
     palabra: "Tarjeta de débito",
-    imagen: { id: 4751, alt: "Una tarjeta bancaria" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Una tarjeta para pagar. El dinero sale de tu cuenta al momento.",
     sinonimos: ["tarjeta del banco", "tarjeta para pagar ya"],
     ejemplo: { palabra: "tarjeta de débito", texto: "Pagó la compra con la tarjeta de débito." },
@@ -1593,7 +1593,7 @@ DICCIONARIOS.es = [
   {
     id: "solicitar",
     palabra: "Solicitar",
-    imagen: { id: 9173, alt: "Un formulario con casillas para rellenar" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Pedir algo por escrito a la administración. Rellenas un papel y esperas.",
     sinonimos: ["pedir por escrito", "hacer una solicitud"],
     ejemplo: { palabra: "solicita", texto: "Solicita una cita previa para la semana que viene." },
@@ -1604,7 +1604,7 @@ DICCIONARIOS.es = [
   {
     id: "solicitud",
     palabra: "Solicitud",
-    imagen: { id: 9173, alt: "Un formulario con casillas para rellenar" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un papel que rellenas para pedir algo a la administración.",
     sinonimos: ["petición por escrito", "papel de petición"],
     ejemplo: { palabra: "solicitud", texto: "Entregó la solicitud de ayuda en el ayuntamiento." },
@@ -2066,7 +2066,7 @@ DICCIONARIOS.es = [
   {
     id: "colesterol",
     palabra: "Colesterol",
-    imagen: { id: 2803, alt: "Una bolsa de sangre" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una grasa que lleva la sangre. Si se acumula mucho, tapa las venas.",
     sinonimos: ["grasa en la sangre"],
     ejemplo: { palabra: "colesterol", texto: "El médico le dijo que tenía el colesterol alto y bajó la comida con grasa." },
@@ -2534,7 +2534,7 @@ DICCIONARIOS.es = [
   {
     id: "iban",
     palabra: "IBAN",
-    imagen: { id: 4751, alt: "Una tarjeta bancaria" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Un código largo de tu cuenta bancaria. Lo necesitas para que te manden dinero.",
     sinonimos: ["código de la cuenta"],
     ejemplo: { palabra: "IBAN", texto: "Le dio su IBAN al jefe para que le pagara el sueldo." },
@@ -2838,7 +2838,7 @@ DICCIONARIOS.es = [
   {
     id: "modelo",
     palabra: "Modelo oficial",
-    imagen: { id: 9173, alt: "Un formulario con casillas" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un impreso que te da el Estado para rellenarlo igual en todo el país.",
     sinonimos: ["impreso oficial"],
     ejemplo: { palabra: "modelo", texto: "Rellenó el modelo 303 de Hacienda con los datos de su negocio." },
@@ -3741,7 +3741,7 @@ DICCIONARIOS.es = [
   {
     id: "tarjeta-coordenadas",
     palabra: "Tarjeta de coordenadas",
-    imagen: { id: 4751, alt: "Una tarjeta bancaria" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Una tarjeta del banco con números secretos para confirmar operaciones por internet.",
     sinonimos: ["tarjeta de números secretos"],
     ejemplo: { palabra: "tarjeta de coordenadas", texto: "Usó la tarjeta de coordenadas para confirmar la compra por internet." },
@@ -4432,7 +4432,7 @@ DICCIONARIOS.es = [
   {
     id: "transfusion",
     palabra: "Transfusión",
-    imagen: { id: 2803, alt: "Una bolsa de sangre" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Pasar sangre de una persona a otra por la vena. Se hace en el hospital.",
     sinonimos: ["pusieron sangre por la vena"],
     ejemplo: { palabra: "transfusión", texto: "Le hicieron una transfusión de sangre después del accidente." },
@@ -7668,7 +7668,7 @@ DICCIONARIOS.es = [
   {
     id: "antivirus",
     palabra: "Antivirus",
-    imagen: { id: 12260, alt: "Un escudo de protección" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Un programa que protege el ordenador o el móvil de los virus informáticos.",
     sinonimos: ["programa de protección", "programa antivirus"],
     ejemplo: { palabra: "antivirus", texto: "Instaló un antivirus nuevo después de que le entrara un virus." },
@@ -7788,7 +7788,7 @@ DICCIONARIOS.es = [
   {
     id: "suscripcion-digital",
     palabra: "Suscripción digital",
-    imagen: { id: 4751, alt: "Una tarjeta de crédito" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Un pago mensual para usar una aplicación o ver películas y series en internet.",
     sinonimos: ["suscripción online", "pago mensual digital"],
     ejemplo: { palabra: "suscripción digital", texto: "Canceló la suscripción digital que ya no usaba." },
@@ -8458,7 +8458,7 @@ DICCIONARIOS.es = [
   {
     id: "orden-de-proteccion",
     palabra: "Orden de protección",
-    imagen: { id: 12260, alt: "Un escudo protegiendo a una persona" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una decisión de un juez que da ayuda y seguridad extra a una persona en peligro.",
     sinonimos: ["medida de protección judicial"],
     ejemplo: { palabra: "orden de protección", texto: "Pidió una orden de protección después de recibir amenazas." },
@@ -9538,7 +9538,7 @@ DICCIONARIOS.es = [
   {
     id: "tarjeta-prepago",
     palabra: "Tarjeta prepago",
-    imagen: { id: 4751, alt: "Una tarjeta bancaria" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Una tarjeta a la que metes dinero antes de usarla. Solo puedes gastar lo que tiene cargado.",
     sinonimos: ["tarjeta recargable"],
     ejemplo: { palabra: "tarjeta prepago", texto: "Le dio una tarjeta prepago a su hijo para sus gastos del mes." },
@@ -9788,7 +9788,7 @@ DICCIONARIOS.es = [
   {
     id: "cortafuegos-digital",
     palabra: "Cortafuegos digital",
-    imagen: { id: 12260, alt: "Un escudo delante de una pantalla de ordenador" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Un programa que vigila lo que entra y sale de tu ordenador por internet, para protegerlo.",
     sinonimos: ["firewall"],
     ejemplo: { palabra: "cortafuegos digital", texto: "Activó el cortafuegos digital del ordenador nuevo." },
@@ -12137,7 +12137,7 @@ DICCIONARIOS.es = [
   {
     id: "cuenta-de-credito",
     palabra: "Cuenta de crédito",
-    imagen: { id: 4751, alt: "Una tarjeta de crédito" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Una cuenta del banco de la que puedes sacar dinero prestado hasta un límite, cuando lo necesites.",
     sinonimos: ["línea de dinero prestado disponible"],
     ejemplo: { palabra: "cuenta de crédito", texto: "Usó la cuenta de crédito para pagar una reparación urgente." },
@@ -15942,7 +15942,7 @@ DICCIONARIOS.es = [
   {
     id: "anemico",
     palabra: "Anémico",
-    imagen: { id: 2803, alt: "Una persona cansada se toca la frente" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Que tiene poco hierro en la sangre y se cansa con facilidad.",
     sinonimos: ["falto de hierro"],
     ejemplo: { palabra: "anémico", texto: "El médico dijo que estaba anémico y le mandó hierro." },
@@ -15972,7 +15972,7 @@ DICCIONARIOS.es = [
   {
     id: "anticuerpo",
     palabra: "Anticuerpo",
-    imagen: { id: 2803, alt: "Una muestra de sangre analizada en un laboratorio" },
+    imagen: { id: 36979, alt: "Anticuerpos, defensas" },
     definicion: "Una sustancia que el cuerpo produce para defenderse de enfermedades.",
     sinonimos: ["defensa del cuerpo", "proteína defensiva"],
     ejemplo: { palabra: "anticuerpo", texto: "La prueba midió el nivel de anticuerpo en su sangre." },
@@ -16662,7 +16662,7 @@ DICCIONARIOS.es = [
   {
     id: "coagulacion",
     palabra: "Coagulación",
-    imagen: { id: 2803, alt: "Un análisis de sangre en un laboratorio" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "El proceso por el que la sangre se vuelve espesa para cerrar una herida.",
     sinonimos: ["capacidad de coagular la sangre"],
     ejemplo: { palabra: "coagulación", texto: "El médico revisó su coagulación antes de la operación." },
@@ -17202,7 +17202,7 @@ DICCIONARIOS.es = [
   {
     id: "diabetico",
     palabra: "Diabético",
-    imagen: { id: 2803, alt: "Un análisis de sangre en un laboratorio" },
+    imagen: { id: 28245, alt: "Diabetes" },
     definicion: "Que tiene diabetes, una enfermedad que afecta al nivel de azúcar en la sangre.",
     sinonimos: ["una persona con diabetes"],
     ejemplo: { palabra: "diabético", texto: "Es diabético y debe controlar su alimentación." },
@@ -17832,7 +17832,7 @@ DICCIONARIOS.es = [
   {
     id: "glucemia",
     palabra: "Glucemia",
-    imagen: { id: 2803, alt: "Un análisis de sangre en un laboratorio" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "La cantidad de azúcar (glucosa) que hay en la sangre.",
     sinonimos: ["nivel de azúcar en la sangre"],
     ejemplo: { palabra: "la glucemia", texto: "El médico le pidió medir la glucemia antes del desayuno." },
@@ -17942,7 +17942,7 @@ DICCIONARIOS.es = [
   {
     id: "hemodialisis",
     palabra: "Hemodiálisis",
-    imagen: { id: 2803, alt: "Un análisis de sangre en un laboratorio" },
+    imagen: { id: 32494, alt: "Diálisis" },
     definicion: "Un tratamiento médico que filtra la sangre con una máquina cuando los riñones no funcionan bien.",
     sinonimos: ["filtrado de sangre con máquina"],
     ejemplo: { palabra: "la hemodiálisis", texto: "El paciente acude tres veces por semana para la hemodiálisis." },
@@ -18192,7 +18192,7 @@ DICCIONARIOS.es = [
   {
     id: "isquemia",
     palabra: "Isquemia",
-    imagen: { id: 2803, alt: "Una mano sangrando" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una falta de riego sanguíneo en una parte del cuerpo, que puede dañar los tejidos.",
     sinonimos: ["falta de riego sanguíneo"],
     ejemplo: { palabra: "una isquemia", texto: "El médico diagnosticó una isquemia en la pierna del paciente." },
