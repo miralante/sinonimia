@@ -240,7 +240,7 @@ DICCIONARIOS.es = [
   {
     id: "afasia",
     palabra: "Afasia",
-    imagen: { id: 3345, alt: "Dos personas hablan" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Cuesta hablar o entender. Pasa por un problema en el cerebro.",
     sinonimos: ["pérdida del habla"],
     ejemplo: { palabra: "afasia", texto: "Después del ictus, el abuelo tiene afasia y le cuesta encontrar las palabras." },
@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 34814, alt: "Préstamo" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 36403, alt: "Ahorro" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3190,7 +3190,7 @@ DICCIONARIOS.es = [
   {
     id: "cabeza",
     palabra: "Cabeza",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 2673, alt: "Cabeza" },
     definicion: "La parte de arriba del cuerpo. Dentro está el cerebro y la cara.",
     sinonimos: ["parte alta del cuerpo"],
     ejemplo: { palabra: "cabeza", texto: "Le dolía la cabeza después de trabajar muchas horas." },
@@ -3292,7 +3292,7 @@ DICCIONARIOS.es = [
   {
     id: "dermatologo",
     palabra: "Dermatólogo",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 34375, alt: "Dermatólogo" },
     definicion: "El médico que cuida tu piel, tu pelo y tus uñas.",
     sinonimos: ["médico de la piel"],
     ejemplo: { palabra: "dermatólogo", texto: "Fue al dermatólogo porque le salía una mancha rara en la espalda." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 11291, alt: "Juez, magistrado" },
+    imagen: { id: 35413, alt: "Notario" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -3624,7 +3624,7 @@ DICCIONARIOS.es = [
   {
     id: "suelo",
     palabra: "Suelo",
-    imagen: { id: 2317, alt: "Casa" },
+    imagen: { id: 2575, alt: "Suelo, piso" },
     definicion: "La parte de abajo de una habitación. Pisas el suelo cuando caminas dentro.",
     sinonimos: ["piso de la casa"],
     ejemplo: { palabra: "suelo", texto: "El suelo de la cocina es de baldosa." },
@@ -7978,7 +7978,7 @@ DICCIONARIOS.es = [
   {
     id: "riesgo-de-incendio-forestal",
     palabra: "Riesgo de incendio forestal",
-    imagen: { id: 4668, alt: "Un incendio con llamas" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "El aviso que dice lo fácil que es que empiece un fuego en el monte ese día.",
     sinonimos: ["peligro de incendio forestal", "alerta de incendio forestal"],
     ejemplo: { palabra: "riesgo de incendio forestal", texto: "No hicieron la barbacoa porque el riesgo de incendio forestal era muy alto." },
@@ -8578,7 +8578,7 @@ DICCIONARIOS.es = [
   {
     id: "notificacion-electronica",
     palabra: "Notificación electrónica",
-    imagen: { id: 5432, alt: "Una pantalla con un sobre de correo oficial" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un aviso oficial que te llega a un buzón de internet, en vez de por carta.",
     sinonimos: ["aviso oficial digital"],
     ejemplo: { palabra: "notificación electrónica", texto: "Recibió una notificación electrónica de Hacienda en su móvil." },
@@ -9868,7 +9868,7 @@ DICCIONARIOS.es = [
   {
     id: "correo-basura",
     palabra: "Correo basura",
-    imagen: { id: 5432, alt: "Una papelera llena de sobres de correo" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Correos electrónicos molestos que llegan sin que los hayas pedido, casi siempre publicidad.",
     sinonimos: ["correos no deseados"],
     ejemplo: { palabra: "correo basura", texto: "Vació la carpeta de correo basura del correo electrónico." },
@@ -10058,7 +10058,7 @@ DICCIONARIOS.es = [
   {
     id: "bateria-de-emergencia",
     palabra: "Batería de emergencia",
-    imagen: { id: 5923, alt: "Una batería pequeña cargando un móvil" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Una batería extra que guarda electricidad para usarla si se va la luz o se acaba el móvil.",
     sinonimos: ["batería externa"],
     ejemplo: { palabra: "batería de emergencia", texto: "Llevaba una batería de emergencia para cargar el móvil en el viaje." },
@@ -10680,7 +10680,7 @@ DICCIONARIOS.es = [
   {
     id: "modo-ahorro-de-bateria",
     palabra: "Modo ahorro de batería",
-    imagen: { id: 5923, alt: "Una batería" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Una opción del móvil que gasta menos batería, apagando algunas funciones.",
     sinonimos: ["modo de bajo consumo"],
     ejemplo: { palabra: "modo ahorro de batería", texto: "Activó el modo ahorro de batería porque le quedaba poca carga." },
@@ -10871,7 +10871,7 @@ DICCIONARIOS.es = [
   {
     id: "reincidencia",
     palabra: "Reincidencia",
-    imagen: { id: 3307, alt: "Unas esposas de metal" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Cometer otro delito después de haber sido ya condenado por otro antes.",
     sinonimos: ["volver a cometer un delito"],
     ejemplo: { palabra: "reincidencia", texto: "El juez tuvo en cuenta la reincidencia al dictar la pena." },
@@ -14932,7 +14932,7 @@ DICCIONARIOS.es = [
   {
     id: "incendio-provocado",
     palabra: "Incendio provocado",
-    imagen: { id: 4668, alt: "Un edificio en llamas con bomberos cerca" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "El delito de prender fuego a un edificio o a una propiedad a propósito. El seguro del hogar normalmente no lo cubre.",
     sinonimos: ["incendio intencionado"],
     ejemplo: { palabra: "incendio provocado", texto: "Más tarde se confirmó que el fuego fue un incendio provocado." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 21802, alt: "Documento" },
+    imagen: { id: 8483, alt: "Frontera, aduana" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
@@ -18252,7 +18252,7 @@ DICCIONARIOS.es = [
   {
     id: "laringitis",
     palabra: "Laringitis",
-    imagen: { id: 3332, alt: "Diagrama de la garganta señalada con una flecha" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una inflamación de la laringe que causa ronquera o pérdida de voz.",
     sinonimos: ["inflamación de la laringe"],
     ejemplo: { palabra: "la laringitis", texto: "El cantante canceló el concierto por la laringitis." },
