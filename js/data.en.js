@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 2402, alt: "Biscuits, cookies" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -16836,7 +16836,7 @@ DICCIONARIOS.en = [
   {
     id: "confiscate",
     palabra: "Confiscate",
-    imagen: { id: 2824, alt: "A police officer with a document" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "To officially take away someone's property, usually because a rule was broken.",
     sinonimos: ["officially take away"],
     ejemplo: { palabra: "confiscate", texto: "The teacher had to confiscate the phone during the exam." },
@@ -17176,7 +17176,7 @@ DICCIONARIOS.en = [
   {
     id: "detainee",
     palabra: "Detainee",
-    imagen: { id: 2824, alt: "A police officer" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who is held by the police or authorities, often before a trial.",
     sinonimos: ["a person held by the police"],
     ejemplo: { palabra: "a detainee", texto: "The lawyer visited a detainee at the police station." },
@@ -17336,7 +17336,7 @@ DICCIONARIOS.en = [
   {
     id: "domicile",
     palabra: "Domicile",
-    imagen: { id: 2317, alt: "A house" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "The place where a person officially lives, used for legal and tax purposes.",
     sinonimos: ["a person's official place of residence"],
     ejemplo: { palabra: "his domicile", texto: "He listed his domicile as required on the tax form." },
@@ -18316,7 +18316,7 @@ DICCIONARIOS.en = [
   {
     id: "hoarding",
     palabra: "Hoarding",
-    imagen: { id: 2317, alt: "A house" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The act of collecting and keeping large amounts of objects, often making it hard to live in the home.",
     sinonimos: ["collecting and keeping too many objects"],
     ejemplo: { palabra: "her hoarding", texto: "Social workers said her hoarding made it difficult to walk through the house." },
@@ -18406,7 +18406,7 @@ DICCIONARIOS.en = [
   {
     id: "housebound",
     palabra: "Housebound",
-    imagen: { id: 2317, alt: "A house" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Unable to leave one's home because of illness, injury, or disability.",
     sinonimos: ["unable to leave home because of illness"],
     ejemplo: { palabra: "housebound", texto: "The illness left her housebound for several weeks." },
@@ -20456,7 +20456,7 @@ DICCIONARIOS.en = [
   {
     id: "realtor",
     palabra: "Realtor",
-    imagen: { id: 2317, alt: "A house" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A professional who helps people buy, sell, or rent property.",
     sinonimos: ["a professional who helps buy or sell property"],
     ejemplo: { palabra: "a realtor", texto: "They hired a realtor to find a new home." },
