@@ -291,7 +291,7 @@ DICCIONARIOS.es = [
   {
     id: "bradicardia",
     palabra: "Bradicardia",
-    imagen: { id: 2715, alt: "Un corazón" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "El corazón late más despacio de lo normal.",
     sinonimos: ["latido lento del corazón"],
     ejemplo: { palabra: "bradicardia", texto: "El cardiólogo detectó bradicardia en la última revisión." },
@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 34814, alt: "Préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 36403, alt: "Ahorro" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 35413, alt: "Notario" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -8648,7 +8648,7 @@ DICCIONARIOS.es = [
   {
     id: "portal",
     palabra: "Portal",
-    imagen: { id: 35655, alt: "Un edificio de pisos" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "La entrada de un edificio de pisos, antes de llegar a las escaleras o al ascensor.",
     sinonimos: ["entrada del edificio"],
     ejemplo: { palabra: "portal", texto: "Dejó la bicicleta en el portal del edificio." },
@@ -8828,7 +8828,7 @@ DICCIONARIOS.es = [
   {
     id: "administrador-de-fincas",
     palabra: "Administrador de fincas",
-    imagen: { id: 35655, alt: "Una persona con una carpeta delante de un edificio" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "La persona que se encarga de organizar los pagos y las reparaciones de un edificio de vecinos.",
     sinonimos: ["gestor de la comunidad"],
     ejemplo: { palabra: "administrador de fincas", texto: "Llamaron al administrador de fincas para arreglar el ascensor." },
@@ -10419,7 +10419,7 @@ DICCIONARIOS.es = [
   {
     id: "comision-de-descubierto",
     palabra: "Comisión de descubierto",
-    imagen: { id: 37351, alt: "Un documento de comisión bancaria" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "El dinero que cobra el banco cuando gastas más dinero del que tienes en la cuenta.",
     sinonimos: ["cobro por saldo negativo"],
     ejemplo: { palabra: "comisión de descubierto", texto: "Le cobraron una comisión de descubierto por quedarse sin saldo." },
@@ -10449,7 +10449,7 @@ DICCIONARIOS.es = [
   {
     id: "comision-de-cambio",
     palabra: "Comisión de cambio",
-    imagen: { id: 37351, alt: "Un documento de comisión bancaria" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "El dinero que cobra el banco por cambiar una moneda por otra.",
     sinonimos: ["cobro por cambiar de moneda"],
     ejemplo: { palabra: "comisión de cambio", texto: "Pagó una comisión de cambio al convertir euros en dólares." },
@@ -11775,7 +11775,7 @@ DICCIONARIOS.es = [
   {
     id: "recogida-en-tienda",
     palabra: "Recogida en tienda",
-    imagen: { id: 35695, alt: "Una tienda" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Comprar algo por internet y recogerlo en la tienda, en vez de que te lo envíen a casa.",
     sinonimos: ["comprar online y recoger en la tienda"],
     ejemplo: { palabra: "recogida en tienda", texto: "Eligió la recogida en tienda para no esperar al repartidor." },
@@ -11896,7 +11896,7 @@ DICCIONARIOS.es = [
   {
     id: "traspaso",
     palabra: "Traspaso",
-    imagen: { id: 35695, alt: "Una tienda" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Pagar dinero para quedarte con un local o un negocio que ya estaba montado.",
     sinonimos: ["compra de un negocio ya montado"],
     ejemplo: { palabra: "traspaso", texto: "Pagó el traspaso del bar para quedarse con los muebles y los clientes." },
@@ -12167,7 +12167,7 @@ DICCIONARIOS.es = [
   {
     id: "comision-de-custodia",
     palabra: "Comisión de custodia",
-    imagen: { id: 37351, alt: "Un documento de comisión bancaria" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "El dinero que cobra el banco por guardar tus acciones o tus fondos de inversión.",
     sinonimos: ["cobro por guardar tus inversiones"],
     ejemplo: { palabra: "comisión de custodia", texto: "Revisó la comisión de custodia de su cuenta de inversión." },
@@ -14492,7 +14492,7 @@ DICCIONARIOS.es = [
   {
     id: "neurologia",
     palabra: "Neurología",
-    imagen: { id: 2696, alt: "Un cartel de departamento hospitalario de cerebro y nervios" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "El área de la medicina que trata problemas del cerebro y los nervios. Los médicos de esta área se llaman neurólogos.",
     sinonimos: ["medicina del cerebro y los nervios"],
     ejemplo: { palabra: "neurología", texto: "Lo enviaron al departamento de neurología para pruebas." },
@@ -14912,7 +14912,7 @@ DICCIONARIOS.es = [
   {
     id: "al-por-menor",
     palabra: "Al por menor",
-    imagen: { id: 35695, alt: "El escaparate de una tienda" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Vender productos directamente a los clientes en tiendas, en pequeñas cantidades. Es diferente de vender al por mayor a otras empresas.",
     sinonimos: ["precio de tienda"],
     ejemplo: { palabra: "precio al por menor", texto: "El precio al por menor es más alto que comprando al por mayor." },
@@ -15482,7 +15482,7 @@ DICCIONARIOS.es = [
   {
     id: "amnesia",
     palabra: "Amnesia",
-    imagen: { id: 2696, alt: "Un dibujo del cerebro humano" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "La pérdida total o parcial de la memoria.",
     sinonimos: ["pérdida de memoria"],
     ejemplo: { palabra: "amnesia", texto: "El golpe en la cabeza le provocó amnesia temporal." },
@@ -16312,7 +16312,7 @@ DICCIONARIOS.es = [
   {
     id: "bipolar",
     palabra: "Bipolar",
-    imagen: { id: 2696, alt: "Un dibujo del cerebro humano" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un trastorno mental que causa cambios extremos de ánimo, entre mucha energía y mucha tristeza.",
     sinonimos: ["con cambios extremos de ánimo"],
     ejemplo: { palabra: "bipolar", texto: "Le diagnosticaron un trastorno bipolar el año pasado." },
@@ -16332,7 +16332,7 @@ DICCIONARIOS.es = [
   {
     id: "boicot",
     palabra: "Boicot",
-    imagen: { id: 35695, alt: "Un grupo de personas protesta con carteles" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Dejar de comprar o usar algo de una empresa como forma de protesta.",
     sinonimos: ["protesta de no comprar"],
     ejemplo: { palabra: "un boicot", texto: "Organizaron un boicot contra la marca por sus malas prácticas." },
@@ -16642,7 +16642,7 @@ DICCIONARIOS.es = [
   {
     id: "cleptomania",
     palabra: "Cleptomanía",
-    imagen: { id: 35695, alt: "Una persona habla con un psicólogo" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un impulso incontrolable de robar cosas, sin necesitarlas realmente.",
     sinonimos: ["impulso incontrolable de robar"],
     ejemplo: { palabra: "la cleptomanía", texto: "El psicólogo le explicó qué era la cleptomanía." },
@@ -16892,7 +16892,7 @@ DICCIONARIOS.es = [
   {
     id: "correccional",
     palabra: "Correccional",
-    imagen: { id: 35655, alt: "Un edificio con vigilancia" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Un centro donde se recluye a menores que han cometido un delito.",
     sinonimos: ["centro de menores"],
     ejemplo: { palabra: "correccional de menores", texto: "Lo enviaron a un correccional de menores tras el juicio." },
@@ -17112,7 +17112,7 @@ DICCIONARIOS.es = [
   {
     id: "desalojar",
     palabra: "Desalojar",
-    imagen: { id: 35655, alt: "Personas salen de un edificio en emergencia" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Hacer que las personas salgan de un lugar, muchas veces por seguridad.",
     sinonimos: ["evacuar"],
     ejemplo: { palabra: "desalojar", texto: "Tuvieron que desalojar el edificio por el incendio." },
@@ -18542,7 +18542,7 @@ DICCIONARIOS.es = [
   {
     id: "miocarditis",
     palabra: "Miocarditis",
-    imagen: { id: 2715, alt: "Un corazón" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una inflamación del músculo del corazón.",
     sinonimos: ["inflamación del músculo del corazón"],
     ejemplo: { palabra: "miocarditis", texto: "El cardiólogo diagnosticó miocarditis tras varias pruebas." },
