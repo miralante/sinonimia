@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 2402, alt: "Biscuits, cookies" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -19286,7 +19286,7 @@ DICCIONARIOS.en = [
   {
     id: "mortgagee",
     palabra: "Mortgagee",
-    imagen: { id: 4630, alt: "Money and a document" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "The bank or lender that gives a mortgage loan to buy a home.",
     sinonimos: ["the bank that lends money to buy a home"],
     ejemplo: { palabra: "the mortgagee", texto: "He submitted proof of income to the mortgagee before the loan was approved." },
@@ -20486,7 +20486,7 @@ DICCIONARIOS.en = [
   {
     id: "redlining",
     palabra: "Redlining",
-    imagen: { id: 4630, alt: "Money and a document" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "The unfair practice of denying loans or services to people based on where they live.",
     sinonimos: ["denying loans to people based on where they live"],
     ejemplo: { palabra: "redlining", texto: "The bank was investigated for redlining in poor neighborhoods." },
@@ -20666,7 +20666,7 @@ DICCIONARIOS.en = [
   {
     id: "retiree",
     palabra: "Retiree",
-    imagen: { id: 4630, alt: "Money and a document" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A person who has stopped working, usually because of age.",
     sinonimos: ["a person who has stopped working due to age"],
     ejemplo: { palabra: "a retiree", texto: "As a retiree, he now spends his mornings gardening." },
@@ -21426,7 +21426,7 @@ DICCIONARIOS.en = [
   {
     id: "subsidy",
     palabra: "Subsidy",
-    imagen: { id: 4630, alt: "Money and a document" },
+    imagen: { id: 33998, alt: "Una mano dando dinero a otra mano" },
     definicion: "Money given by a government to support a business, industry, or person.",
     sinonimos: ["money given by a government to support something"],
     ejemplo: { palabra: "a subsidy", texto: "Farmers received a subsidy this year." },
@@ -21606,7 +21606,7 @@ DICCIONARIOS.en = [
   {
     id: "swindling",
     palabra: "Swindling",
-    imagen: { id: 4630, alt: "Money and a document" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Tricking someone out of money through dishonest means.",
     sinonimos: ["tricking someone out of money"],
     ejemplo: { palabra: "swindling", texto: "He was arrested for swindling elderly customers out of their savings." },
