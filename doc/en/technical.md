@@ -402,9 +402,12 @@ disability-related bureaucratic term could be a legitimate future entry).
 
 A second zero-dependency script, separate from validation: it reports word
 counts per `situacion` category and per language, flags categories below
-the 8-word threshold, and (with `--detalle`) lists every existing headword
-and its synonyms so a new entry doesn't duplicate a concept already
-covered. It's the bookkeeping half of content growth — it deliberately does
+the 8-word threshold, and (with `--detalle`, optionally scoped with
+`--categoria <topic>` and `--lang <es|en>`) lists every existing headword
+with its synonyms, definición and ejemplo, so a new entry doesn't
+duplicate a concept or recycle an illustrative scenario already covered —
+all without opening the megabyte-plus `js/data.<lang>.js` files directly.
+It's the bookkeeping half of content growth — it deliberately does
 not draft definitions, since that requires the editorial judgment described
 in `SPEC.md`'s "Process for expanding content", which this script's
 output feeds into.

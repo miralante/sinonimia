@@ -331,8 +331,18 @@ diccionario:
    multi-idioma" para no dejar el filtro de tema con casillas vacías), y
    avisa si un idioma se ha quedado muy por detrás de otro en una misma
    categoría. Con `--detalle` lista además cada palabra ya existente con
-   sus sinónimos, para no proponer un término que ya está cubierto bajo
-   otra palabra.
+   sus sinónimos, definición y ejemplo, para no proponer un término que ya
+   está cubierto bajo otra palabra, ni escribir una entrada nueva que
+   recicle un escenario ilustrativo ya usado en la misma categoría. Una
+   vez elegida la categoría y el idioma (paso 2), vuelve a ejecutarlo
+   acotado a ambos — `node scripts/estado-contenido.js --detalle
+   --categoria salud --lang es` — en vez del informe sin acotar: esta es
+   también la forma de conseguir esta información **sin abrir nunca
+   `js/data.<idioma>.js` directamente**, que con 1MB+/20.000+ líneas por
+   idioma es demasiado grande para leerlo entero solo para planificar un
+   lote. Reserva la lectura/grep directo de `js/data.<idioma>.js` para
+   arreglos quirúrgicos de una entrada ya localizada, nunca para
+   planificar qué añadir.
 2. **Elegir una categoría y un idioma** de los marcados por el
    diagnóstico. El diagnóstico cuenta cada idioma por separado a propósito:
    el contenido no se comparte entre idiomas (ver "Arquitectura
@@ -369,12 +379,15 @@ diccionario:
      descarga y cachea la primera vez que se usa.
 
    Sea cual sea la fuente, descarta los términos que ya aparecen en el
-   listado de `--detalle` de ese idioma. **No traduzcas las palabras que ya
-   existen en el otro idioma**: cada idioma elige las palabras que de
-   verdad son difíciles en ese idioma, que no tienen por qué coincidir con
-   las del otro (lo mismo que ya dice "Cómo añadir un idioma nuevo" para el
-   arranque de un idioma nuevo, aplica igual al hacer crecer uno que ya
-   existe).
+   listado de `--detalle` acotado a esa categoría+idioma, y contrasta el
+   escenario probable de cada candidato con la columna `ejemplo` que ya
+   muestra ese listado — una categoría no debería apoyarse en la misma
+   situación ilustrativa (p. ej. "el ayuntamiento le pide que...") para
+   cada entrada. **No traduzcas las palabras que ya existen en el otro
+   idioma**: cada idioma elige las palabras que de verdad son difíciles en
+   ese idioma, que no tienen por qué coincidir con las del otro (lo mismo
+   que ya dice "Cómo añadir un idioma nuevo" para el arranque de un idioma
+   nuevo, aplica igual al hacer crecer uno que ya existe).
 
    [`doc/es/fuentes.md`](fuentes.md) tiene una plantilla de prompt lista
    para usar con cada uno de estos dos métodos, más una tabla de fuentes

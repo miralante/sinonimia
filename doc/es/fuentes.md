@@ -13,12 +13,22 @@ cualquier fila por la fuente real que tengas a mano.
 Empieza siempre con:
 
 ```
-node scripts/estado-contenido.js --detalle
+node scripts/estado-contenido.js
 ```
 
-para ver qué combinaciones de categoría+idioma necesitan trabajo y qué
-palabras (con sus sinónimos) ya están cubiertas, para que ninguno de los
-dos métodos proponga un duplicado.
+para ver qué combinaciones de categoría+idioma necesitan trabajo. Una vez
+elegida una, vuelve a ejecutarlo acotado a ella:
+
+```
+node scripts/estado-contenido.js --detalle --categoria {categoria} --lang {idioma}
+```
+
+para ver qué palabras (con sus sinónimos, definición y ejemplo) ya están
+cubiertas, para que ninguno de los dos métodos proponga un duplicado ni
+recicle un escenario ilustrativo ya usado en esa categoría. Acotarlo así
+también mantiene la salida pequeña — nunca abras `js/data.<idioma>.js`
+directamente para responder esta pregunta, tiene 1MB+/20.000+ líneas por
+idioma.
 
 ## Prompt A — corpus de dominio + keyness (`candidatos-corpus.js`)
 
@@ -38,7 +48,7 @@ para el diccionario de lectura fácil Sinonimia.
    más) en un .txt, p. ej. dev/corpus/{categoria}-{idioma}.txt.
 3. Ejecuta: node scripts/candidatos-corpus.js <archivo> {idioma} 40
 4. Descarta cualquier candidato que ya aparezca en
-   `node scripts/estado-contenido.js --detalle` para esa categoría/idioma.
+   `node scripts/estado-contenido.js --detalle --categoria {categoria} --lang {idioma}`.
 5. Para cada candidato que tenga sentido, confirma a mano que encaja en
    {categoria} y no en otra (una ontología de dominio no mapea 1:1 con
    las categorías AIVD de Sinonimia — juicio humano, no automático).
@@ -63,7 +73,7 @@ Sinonimia.
    fuente (derechos de autor y estilo propio lo exigen, tampoco vale
    traducir literalmente la fuente).
 3. Descarta los términos que ya aparecen en
-   `node scripts/estado-contenido.js --detalle` para esa categoría/idioma.
+   `node scripts/estado-contenido.js --detalle --categoria {categoria} --lang {idioma}`.
 4. Confirma a mano que cada término encaja en la categoría AIVD
    correcta — la clasificación del glosario de origen no tiene por qué
    coincidir.

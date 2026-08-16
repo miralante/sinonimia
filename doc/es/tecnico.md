@@ -439,10 +439,13 @@ discapacidad podría ser una entrada legítima en el futuro).
 
 Un segundo script sin dependencias, separado de la validación: informa
 del número de palabras por categoría `situacion` y por idioma, marca las
-categorías por debajo del umbral de 8 palabras, y (con `--detalle`) lista
-cada palabra cabecera existente y sus sinónimos para que una entrada
-nueva no duplique un concepto ya cubierto. Es la mitad "de contabilidad"
-del crecimiento de contenido — deliberadamente no redacta definiciones,
+categorías por debajo del umbral de 8 palabras, y (con `--detalle`,
+acotable con `--categoria <categoria>` y `--lang <es|en>`) lista cada
+palabra cabecera existente con sus sinónimos, definición y ejemplo, para
+que una entrada nueva no duplique un concepto ni recicle un escenario
+ilustrativo ya cubierto — todo sin abrir directamente los
+`js/data.<idioma>.js`, de más de un megabyte. Es la mitad "de
+contabilidad" del crecimiento de contenido — deliberadamente no redacta definiciones,
 ya que eso requiere el criterio editorial descrito en `SPEC.md`'s
 "Proceso para ampliar el contenido", que se alimenta de la salida de
 este script.

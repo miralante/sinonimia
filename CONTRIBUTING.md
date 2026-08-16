@@ -105,10 +105,12 @@ Examples:
    documentation. It contains the easy-read rules, the multi-language
    architecture, and the non-negotiable product constraints that your
    content must never break.
-2. Run `node scripts/estado-contenido.js` (add `--detalle` to see the
-   words and synonyms that already exist per category). It tells you
-   which categories have few words and keeps you from proposing a concept
-   that's already covered under another word.
+2. Run `node scripts/estado-contenido.js` — it tells you which categories
+   have few words. Once you've picked one, re-run scoped to it, e.g.
+   `node scripts/estado-contenido.js --detalle --categoria salud --lang es`,
+   to see the words, synonyms, definiciones and ejemplos that already
+   exist there, so you don't propose a concept or scenario that's already
+   covered.
 3. For the full procedure, see **"Process for expanding content"** in
    [`doc/en/SPEC.md`](doc/en/SPEC.md).
 

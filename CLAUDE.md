@@ -95,6 +95,17 @@ HTML/CSS/JS served as static files.
   `js/i18n.js` contain any blocklisted term. Read the script before
   changing the data-file format — it encodes the invariants that format
   relies on.
+- **Planning new dictionary entries — don't read `js/data.<lang>.js`
+  directly**: it's 1MB+/20,000+ lines per language, far too large to open
+  wholesale just to check what a category already covers. Use
+  `node scripts/estado-contenido.js --detalle --categoria <topic> --lang
+  <es|en>` instead — scoped to the category+language you're about to work
+  on, it lists every existing headword with its synonyms, definición and
+  ejemplo, enough to avoid both duplicating a concept and recycling the
+  same illustrative scenario across a category (see "Process for
+  expanding content" in `doc/en/SPEC.md`). Reserve a direct
+  read/grep of `js/data.<lang>.js` for surgical fixes to one
+  already-located entry, never for planning what to add next.
 - **Adding a pictogram for a new word**: search ARASAAC's public API —
   `https://api.arasaac.org/api/pictograms/es/search/<term>` — pick a
   non-schematic result whose keywords match, then download

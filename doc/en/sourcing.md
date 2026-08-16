@@ -12,12 +12,21 @@ a closed list — swap in whatever real source you can get your hands on.
 Always start with:
 
 ```
-node scripts/estado-contenido.js --detalle
+node scripts/estado-contenido.js
 ```
 
-to see which category+language combinations need work and which words
-(and their synonyms) are already covered, so neither method below proposes
-a duplicate.
+to see which category+language combinations need work. Once you've picked
+one, re-run scoped to it:
+
+```
+node scripts/estado-contenido.js --detalle --categoria {categoria} --lang {idioma}
+```
+
+to see which words (with their synonyms, definición and ejemplo) are
+already covered, so neither method below proposes a duplicate or recycles
+an illustrative scenario already used in that category. Scoping this way
+also keeps the output small — never open `js/data.<lang>.js` directly to
+answer this question, it's 1MB+/20,000+ lines per language.
 
 ## Prompt A — domain corpus + keyness (`candidatos-corpus.js`)
 
@@ -37,7 +46,7 @@ Sinonimia plain-language dictionary.
    into a .txt file, e.g. dev/corpus/{categoria}-{idioma}.txt.
 3. Run: node scripts/candidatos-corpus.js <file> {idioma} 40
 4. Discard any candidate that already appears in
-   `node scripts/estado-contenido.js --detalle` for that category/language.
+   `node scripts/estado-contenido.js --detalle --categoria {categoria} --lang {idioma}`.
 5. For each candidate worth keeping, confirm by hand that it fits
    {categoria} and not another one (a domain ontology doesn't map 1:1 onto
    Sinonimia's AIVD categories — human judgment, not automatic).
@@ -60,7 +69,7 @@ one) for category {categoria} in {idioma}, for the Sinonimia dictionary.
    house style both require original wording, not a translation of the
    source either).
 3. Discard terms that already appear in
-   `node scripts/estado-contenido.js --detalle` for that category/language.
+   `node scripts/estado-contenido.js --detalle --categoria {categoria} --lang {idioma}`.
 4. Confirm by hand that each term fits the correct AIVD category — the
    source glossary's own classification doesn't have to match.
 5. Write the entry in js/data.{idioma}.js, find a pictogram with

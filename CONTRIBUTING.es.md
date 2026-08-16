@@ -108,10 +108,13 @@ Ejemplos:
    opcional. Contiene las reglas de lectura fácil, la arquitectura
    multi-idioma y las restricciones innegociables del producto que tu
    contenido nunca debe romper.
-2. Ejecuta `node scripts/estado-contenido.js` (añade `--detalle` para
-   ver las palabras y sinónimos que ya existen por categoría). Te dice
-   qué categorías tienen pocas palabras y evita que propongas un
-   concepto que ya está cubierto con otra palabra.
+2. Ejecuta `node scripts/estado-contenido.js` — te dice qué categorías
+   tienen pocas palabras. Una vez elegida una, vuelve a ejecutarlo
+   acotado a ella, p. ej.
+   `node scripts/estado-contenido.js --detalle --categoria salud --lang es`,
+   para ver las palabras, sinónimos, definiciones y ejemplos que ya
+   existen ahí, y así evitar proponer un concepto o escenario que ya
+   está cubierto.
 3. Para el procedimiento completo, ver **"Proceso para ampliar el
    contenido"** en [`doc/es/SPEC.md`](doc/es/SPEC.md).
 

@@ -328,8 +328,17 @@ the dictionary needs to grow:
    required, so the topic filter doesn't end up with empty boxes), and
    warns if one language has fallen far behind another in the same
    category. With `--detalle` it also lists every existing word with its
-   synonyms, so you don't propose a term that's already covered under
-   another word.
+   synonyms, definición and ejemplo, so you don't propose a term that's
+   already covered under another word, or write a new entry that recycles
+   an illustrative scenario already used elsewhere in the same category.
+   Once you've picked a category and language (step 2), re-run scoped to
+   them — `node scripts/estado-contenido.js --detalle --categoria salud
+   --lang es` — instead of the unscoped report: this is also the way to
+   get this information **without ever opening `js/data.<lang>.js`
+   directly**, which at 1MB+/20,000+ lines per language is far too large
+   to read wholesale just to plan a batch. Reserve a direct read/grep of
+   `js/data.<lang>.js` for surgical fixes to one already-located entry,
+   never for planning what to add next.
 2. **Pick a category and a language** from the ones the diagnosis flagged.
    The diagnosis deliberately counts each language separately: content
    isn't shared across languages (see "Multi-language architecture"
@@ -364,12 +373,15 @@ the dictionary needs to grow:
      baseline), downloaded and cached the first time it runs.
 
    Whichever source you use, discard terms that already show up in that
-   language's `--detalle` listing. **Don't translate words that already
-   exist in the other language**: each language picks whichever words are
-   genuinely difficult in that language, and they don't have to match the
-   other language's list (the same point "How to add a new language"
-   already makes when bootstrapping a new language applies equally when
-   growing an existing one).
+   category+language's scoped `--detalle` listing, and check each
+   candidate's likely example scenario against the `ejemplo` column
+   already shown there — a category shouldn't lean on the same illustrative
+   situation (e.g. "el ayuntamiento le pide que...") for every entry.
+   **Don't translate words that already exist in the other language**:
+   each language picks whichever words are genuinely difficult in that
+   language, and they don't have to match the other language's list (the
+   same point "How to add a new language" already makes when bootstrapping
+   a new language applies equally when growing an existing one).
 
    [`doc/en/sourcing.md`](sourcing.md) has a ready-to-use prompt template
    for each of these two methods, plus a table of plausible glossary and

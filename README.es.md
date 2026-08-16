@@ -74,12 +74,16 @@ ejecuta también en cada pull request (`.github/workflows/validate.yml`).
 ## Ampliar el diccionario
 
 ```
-node scripts/estado-contenido.js --detalle
+node scripts/estado-contenido.js
+node scripts/estado-contenido.js --detalle --categoria <categoria> --lang <es|en>
 ```
 
-Antes de añadir palabras, este comando dice qué categorías tienen pocas
-(menos de 8) y lista las que ya existen con sus sinónimos, para no repetir
-un concepto. Es el primer paso del proceso descrito en "Proceso para
+Antes de añadir palabras, el primer comando dice qué categorías tienen
+pocas (menos de 8); el segundo, acotado a la categoría+idioma elegidos,
+lista las palabras que ya existen ahí con sus sinónimos, definición y
+ejemplo, para no repetir un concepto ni un escenario ilustrativo — sin
+abrir nunca el `js/data.<idioma>.js` de varios megabytes. Es el primer
+paso del proceso descrito en "Proceso para
 ampliar el contenido" en [`doc/es/SPEC.md`](doc/es/SPEC.md).
 
 ## Mantenimiento

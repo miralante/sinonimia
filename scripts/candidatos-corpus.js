@@ -216,9 +216,10 @@ const MIN_DOMAIN_COUNT = 2; // ignore one-off typos/noise in the corpus
 
   console.log(
     "\nSiguiente paso: para cada candidato que tenga sentido, confirma con\n" +
-    "node scripts/estado-contenido.js --detalle que no está ya cubierto bajo\n" +
-    "otro sinónimo, elige a mano en qué de las siete categorías encaja, y\n" +
-    "sigue el resto del proceso de doc/en/SPEC.md (escribir la entrada,\n" +
-    "buscar pictograma con buscar-pictograma.js, validar con validar.js)."
+    "node scripts/estado-contenido.js --detalle --categoria <categoria> --lang " + lang + "\n" +
+    "que no está ya cubierto bajo otro sinónimo ni con el mismo escenario\n" +
+    "de ejemplo, elige a mano en qué categoría encaja, y sigue el resto del\n" +
+    "proceso de doc/en/SPEC.md (escribir la entrada, buscar pictograma con\n" +
+    "buscar-pictograma.js, validar con validar.js)."
   );
 })();

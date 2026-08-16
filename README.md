@@ -95,13 +95,17 @@ needed.
 ## Expanding the dictionary
 
 ```
-node scripts/estado-contenido.js --detalle
+node scripts/estado-contenido.js
+node scripts/estado-contenido.js --detalle --categoria <topic> --lang <es|en>
 ```
 
-Before adding words, this command reports which categories have few
-(fewer than 8) and lists the ones that already exist with their synonyms,
-to avoid repeating a concept. It's the first step of the process described
-in "Process for expanding content" in [`doc/en/SPEC.md`](doc/en/SPEC.md).
+Before adding words, the first command reports which categories have few
+(fewer than 8); the second, scoped to the category+language you picked,
+lists the words that already exist there with their synonyms, definición
+and ejemplo, to avoid repeating a concept or an illustrative scenario —
+without ever opening the multi-megabyte `js/data.<lang>.js` directly.
+It's the first step of the process described in "Process for expanding
+content" in [`doc/en/SPEC.md`](doc/en/SPEC.md).
 
 ## Housekeeping
 
