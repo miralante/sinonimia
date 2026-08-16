@@ -485,7 +485,7 @@ DICCIONARIOS.en = [
   {
     id: "severance-pay",
     palabra: "Severance pay",
-    imagen: { id: 34814, alt: "A person hands over money to pay a loan" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Money the company gives you when they end your job. It helps you until you find a new one.",
     sinonimos: ["redundancy money", "end-of-job payment"],
     ejemplo: { palabra: "severance pay", texto: "He received severance pay after the company closed." },
@@ -897,7 +897,7 @@ DICCIONARIOS.en = [
   {
     id: "deed",
     palabra: "Deed",
-    imagen: { id: 2380, alt: "A hand writes on a paper" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "A paper you sign in front of a notary. You need it to buy a home or make a contract.",
     sinonimos: ["notary paper", "notary document"],
     ejemplo: { palabra: "deed", texto: "They signed the deed of sale at the notary's office." },
@@ -1121,7 +1121,7 @@ DICCIONARIOS.en = [
   {
     id: "loan-money",
     palabra: "Loan",
-    imagen: { id: 34814, alt: "A person hands over money to pay a loan" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Money the bank gives you to use. You give it back little by little with interest.",
     sinonimos: ["borrowed money", "bank credit"],
     ejemplo: { palabra: "loan", texto: "She took out a loan to fix the kitchen." },
@@ -1191,7 +1191,7 @@ DICCIONARIOS.en = [
   {
     id: "bank-fee",
     palabra: "Bank fee",
-    imagen: { id: 37351, alt: "A bank fee document" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Extra money the bank charges for a service. For example, for taking money from an ATM.",
     sinonimos: ["bank charge", "extra charge"],
     ejemplo: { palabra: "bank fee", texto: "The bank charges a bank fee if you use another bank's ATM." },
@@ -1765,7 +1765,7 @@ DICCIONARIOS.en = [
   {
     id: "register-residence",
     palabra: "Register residence",
-    imagen: { id: 3060, alt: "A person registers at the town hall" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "To officially tell your town hall where you live.",
     sinonimos: ["register at the town hall"],
     ejemplo: { palabra: "register residence", texto: "You must register residence within three months of moving." },
@@ -3747,7 +3747,7 @@ DICCIONARIOS.en = [
   {
     id: "night-shift",
     palabra: "Night shift",
-    imagen: { id: 2549, alt: "A clock" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Working at night, usually from ten at night until six in the morning.",
     sinonimos: ["night work"],
     ejemplo: { palabra: "night shift", texto: "He works the night shift at the hospital." },
@@ -4351,7 +4351,7 @@ DICCIONARIOS.en = [
   {
     id: "seniority",
     palabra: "Seniority",
-    imagen: { id: 2549, alt: "A clock" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The years you have worked at the company. The more seniority, the more rights.",
     sinonimos: ["years at the company"],
     ejemplo: { palabra: "seniority", texto: "He has ten years of seniority and got a pay rise." },
@@ -4422,7 +4422,7 @@ DICCIONARIOS.en = [
   {
     id: "statute-bar",
     palabra: "Statute bar",
-    imagen: { id: 2549, alt: "A clock" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The time you have to claim a right. After that time, you can no longer claim.",
     sinonimos: ["time to claim"],
     ejemplo: { palabra: "statute bar", texto: "The statute bar period passed and he could no longer claim the debt." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -6207,7 +6207,7 @@ DICCIONARIOS.en = [
   {
     id: "calendar",
     palabra: "Calendar",
-    imagen: { id: 8717, alt: "Vida" },
+    imagen: { id: 3071, alt: "Calendar, yearbook, almanac" },
     definicion: "A paper or an app that shows the days, weeks and months of the year. It helps you remember dates.",
     sinonimos: ["almanac"],
     ejemplo: { palabra: "calendar", texto: "She wrote the doctor's appointment on the calendar." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 2402, alt: "Biscuits, cookies" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -10158,7 +10158,7 @@ DICCIONARIOS.en = [
   {
     id: "maintenance-fee",
     palabra: "Maintenance fee",
-    imagen: { id: 37351, alt: "A bank fee document" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Money the bank charges every month just for keeping your account open.",
     sinonimos: ["monthly account charge"],
     ejemplo: { palabra: "maintenance fee", texto: "The bank charged her a maintenance fee in January." },
@@ -10168,7 +10168,7 @@ DICCIONARIOS.en = [
   {
     id: "overdraft-fee",
     palabra: "Overdraft fee",
-    imagen: { id: 37351, alt: "A bank fee document" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Money the bank charges you for spending more than you have in your account.",
     sinonimos: ["charge for a negative balance"],
     ejemplo: { palabra: "overdraft fee", texto: "He was charged an overdraft fee for going below zero." },
@@ -10228,7 +10228,7 @@ DICCIONARIOS.en = [
   {
     id: "refinancing",
     palabra: "Refinancing",
-    imagen: { id: 34814, alt: "A person hands over money to pay a loan" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Changing the conditions of a loan so it is easier to pay back.",
     sinonimos: ["changing a loan's conditions"],
     ejemplo: { palabra: "refinancing", texto: "She asked for refinancing to pay lower monthly instalments." },
@@ -10238,7 +10238,7 @@ DICCIONARIOS.en = [
   {
     id: "debt-consolidation",
     palabra: "Debt consolidation",
-    imagen: { id: 34814, alt: "A person hands over money to pay a loan" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Putting several debts together into one. You pay only one instalment each month.",
     sinonimos: ["joining all debts into one"],
     ejemplo: { palabra: "debt consolidation", texto: "He used debt consolidation to pay less each month." },
@@ -10268,7 +10268,7 @@ DICCIONARIOS.en = [
   {
     id: "currency-exchange-fee",
     palabra: "Currency exchange fee",
-    imagen: { id: 37351, alt: "A bank fee document" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Money the bank charges you for changing one currency into another.",
     sinonimos: ["charge for changing currency"],
     ejemplo: { palabra: "currency exchange fee", texto: "She paid a currency exchange fee to change euros into dollars." },
@@ -10288,7 +10288,7 @@ DICCIONARIOS.en = [
   {
     id: "loan-principal",
     palabra: "Loan principal",
-    imagen: { id: 34814, alt: "A person hands over money to pay a loan" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "The money you borrowed, not counting the interest.",
     sinonimos: ["borrowed money without interest"],
     ejemplo: { palabra: "loan principal", texto: "She has already paid half of the loan principal." },
@@ -10439,7 +10439,7 @@ DICCIONARIOS.en = [
   {
     id: "screen-time",
     palabra: "Screen time",
-    imagen: { id: 2549, alt: "A clock" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "The time you spend using a phone or tablet each day.",
     sinonimos: ["time spent using your phone"],
     ejemplo: { palabra: "screen time", texto: "The phone showed her screen time for the day." },
@@ -11856,7 +11856,7 @@ DICCIONARIOS.en = [
   {
     id: "loan-pre-approval",
     palabra: "Loan pre-approval",
-    imagen: { id: 34814, alt: "A person hands over money to pay a loan" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "When the bank tells you, before you fully apply, that it will likely give you the loan.",
     sinonimos: ["early notice that a loan will likely be given"],
     ejemplo: { palabra: "loan pre-approval", texto: "She got loan pre-approval before looking for a house." },
@@ -11916,7 +11916,7 @@ DICCIONARIOS.en = [
   {
     id: "custody-fee",
     palabra: "Custody fee",
-    imagen: { id: 37351, alt: "A bank fee document" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Money the bank charges for holding your shares or investment funds.",
     sinonimos: ["charge for holding your investments"],
     ejemplo: { palabra: "custody fee", texto: "She checked the custody fee on her investment account." },
@@ -12540,7 +12540,7 @@ DICCIONARIOS.en = [
   {
     id: "public-consultation",
     palabra: "Public consultation",
-    imagen: { id: 3060, alt: "A town hall" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A period when the public can send their opinion about a new rule before it becomes final.",
     sinonimos: ["period to give your opinion on a new rule"],
     ejemplo: { palabra: "public consultation", texto: "She sent her comments during the public consultation on the new bylaw." },
@@ -12620,7 +12620,7 @@ DICCIONARIOS.en = [
   {
     id: "same-day-service",
     palabra: "Same-day service",
-    imagen: { id: 2549, alt: "A clock" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A procedure that is finished on the same day you ask for it.",
     sinonimos: ["procedure finished the same day"],
     ejemplo: { palabra: "same-day service", texto: "The office offered same-day service for the certificate." },
@@ -12650,7 +12650,7 @@ DICCIONARIOS.en = [
   {
     id: "municipal-ordinance",
     palabra: "Municipal ordinance",
-    imagen: { id: 3060, alt: "A town hall" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A rule made by the town hall that applies only within that town or city.",
     sinonimos: ["local rule made by the town hall"],
     ejemplo: { palabra: "municipal ordinance", texto: "A new municipal ordinance banned noise after ten at night." },
@@ -12940,7 +12940,7 @@ DICCIONARIOS.en = [
   {
     id: "sale-deed-house",
     palabra: "Sale deed",
-    imagen: { id: 2380, alt: "A hand signs a deed on a table" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "The official paper that makes a house sale legal. A notary signs it.",
     sinonimos: ["house purchase deed"],
     ejemplo: { palabra: "sale deed", texto: "They signed the sale deed in front of the notary last week." },
@@ -12951,7 +12951,7 @@ DICCIONARIOS.en = [
   {
     id: "house-sale",
     palabra: "House sale",
-    imagen: { id: 2380, alt: "Two people exchange keys and papers" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "The act of buying and selling a house. A deed is signed in front of a notary.",
     sinonimos: ["property sale"],
     ejemplo: { palabra: "house sale", texto: "A house sale was completed at the notary on the planned day." },
@@ -13039,7 +13039,7 @@ DICCIONARIOS.en = [
   {
     id: "contract-subrogation",
     palabra: "Contract subrogation",
-    imagen: { id: 2380, alt: "A person signs in place of another on a contract" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Stepping into someone else's place in a contract. Their rights and duties pass to you.",
     sinonimos: ["stepping into a contract"],
     ejemplo: { palabra: "contract subrogation", texto: "The new tenant signed the contract subrogation for the rental." },
@@ -13083,7 +13083,7 @@ DICCIONARIOS.en = [
   {
     id: "title-deed",
     palabra: "Title deed",
-    imagen: { id: 2380, alt: "A deed next to the keys of a house" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "The official paper that proves a house is yours. It is usually the sale deed.",
     sinonimos: ["paper that proves the house is yours"],
     ejemplo: { palabra: "title deed", texto: "Keep your title deed in a safe place with the other papers." },
@@ -14246,7 +14246,7 @@ DICCIONARIOS.en = [
   {
     id: "commission",
     palabra: "Commission",
-    imagen: { id: 37351, alt: "A salesperson receiving extra money after a sale" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Extra money paid to someone based on what they sell or manage. It is often a percentage of the amount.",
     sinonimos: ["sales percentage"],
     ejemplo: { palabra: "commission", texto: "The agent earned a commission on the sale." },
@@ -16366,7 +16366,7 @@ DICCIONARIOS.en = [
   {
     id: "carjacking",
     palabra: "Carjacking",
-    imagen: { id: 2339, alt: "A police officer near a car" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Stealing a car by force while the driver is still in it.",
     sinonimos: ["a violent car theft"],
     ejemplo: { palabra: "a carjacking", texto: "Police are investigating a carjacking near the mall." },
@@ -16516,7 +16516,7 @@ DICCIONARIOS.en = [
   {
     id: "chattel",
     palabra: "Chattel",
-    imagen: { id: 2339, alt: "A car and an official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A piece of personal property that can be moved, such as furniture or a vehicle, as opposed to land or buildings.",
     sinonimos: ["personal property"],
     ejemplo: { palabra: "a chattel", texto: "The car was listed as a chattel in the loan agreement." },
@@ -16756,7 +16756,7 @@ DICCIONARIOS.en = [
   {
     id: "collision",
     palabra: "Collision",
-    imagen: { id: 2339, alt: "Two cars crashed on a road" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A crash between two or more moving objects, such as cars.",
     sinonimos: ["a crash"],
     ejemplo: { palabra: "a collision", texto: "The driver was injured in a collision on the highway." },
@@ -17806,7 +17806,7 @@ DICCIONARIOS.en = [
   {
     id: "fatality",
     palabra: "Fatality",
-    imagen: { id: 2339, alt: "A car" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A death caused by an accident, disaster, or violence.",
     sinonimos: ["a death caused by an accident"],
     ejemplo: { palabra: "a fatality", texto: "The crash resulted in a fatality on the highway." },
@@ -18086,7 +18086,7 @@ DICCIONARIOS.en = [
   {
     id: "gestation",
     palabra: "Gestation",
-    imagen: { id: 11250, alt: "Pregnancy, gestation" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The period of time during which a baby develops inside the womb before birth.",
     sinonimos: ["the period before birth"],
     ejemplo: { palabra: "gestation", texto: "Doctors monitor gestation closely during high-risk pregnancies." },
@@ -20596,7 +20596,7 @@ DICCIONARIOS.en = [
   {
     id: "repossess",
     palabra: "Repossess",
-    imagen: { id: 2339, alt: "A car" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "To take back property or goods because the owner has not made the required payments.",
     sinonimos: ["take back property due to unpaid payments"],
     ejemplo: { palabra: "repossess the car", texto: "The bank threatened to repossess the car after missed payments." },
