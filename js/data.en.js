@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 2402, alt: "Biscuits, cookies" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -16226,7 +16226,7 @@ DICCIONARIOS.en = [
   {
     id: "bribery",
     palabra: "Bribery",
-    imagen: { id: 4630, alt: "A hand secretly gives money" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Giving money or gifts to someone in power to get them to do something dishonest.",
     sinonimos: ["corruption"],
     ejemplo: { palabra: "bribery", texto: "The official was arrested for bribery." },
@@ -21516,7 +21516,7 @@ DICCIONARIOS.en = [
   {
     id: "thyroid",
     palabra: "Thyroid",
-    imagen: { id: 2467, alt: "A doctor" },
+    imagen: { id: 32112, alt: "Análisis de sangre" },
     definicion: "A gland in the neck that produces hormones controlling how the body uses energy.",
     sinonimos: ["a gland in the neck that controls how the body uses energy"],
     ejemplo: { palabra: "her thyroid", texto: "The doctor ran tests to check her thyroid." },
