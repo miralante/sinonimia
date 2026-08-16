@@ -84,7 +84,6 @@ const I18N = {
     footerMessage: "Sinonimia explica palabras difíciles. Frases cortas. Ejemplos de cada día.",
     footerCreditsHtml: 'Pictogramas: <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (CC BY-NC-SA) y <a href="https://opensymbols.org/" target="_blank" rel="noopener">OpenSymbols</a>.',
     footerPrivacyHtml: '<a href="about/privacidad.html">Privacidad</a>',
-    headerHermanasHtml: '<a class="hermana-pill" href="https://apptonomia.miralante.workers.dev/" target="_blank" rel="noopener" aria-label="Abrir Apptonomia en una pestaña nueva">🧠 Apptonomia</a><a class="hermana-pill" href="https://calculia.miralante.workers.dev/" target="_blank" rel="noopener" aria-label="Abrir Calculia en una pestaña nueva">🔢 Calculia</a><a class="hermana-pill" href="https://okeymoney.miralante.workers.dev/" target="_blank" rel="noopener" aria-label="Abrir Okeymoney en una pestaña nueva">💶 Okeymoney</a><a class="hermana-pill" href="https://teclatlon.miralante.workers.dev/" target="_blank" rel="noopener" aria-label="Abrir Teclatlon en una pestaña nueva">⌨️ Teclatlon</a>',
 
     detailTitleSuffix: " — Sinonimia",
 
@@ -195,7 +194,6 @@ const I18N = {
     footerMessage: "Sinonimia explains hard words. Short sentences. Everyday examples.",
     footerCreditsHtml: 'Pictograms: <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (CC BY-NC-SA) and <a href="https://opensymbols.org/" target="_blank" rel="noopener">OpenSymbols</a>.',
     footerPrivacyHtml: '<a href="about/privacidad.html">Privacy</a>',
-    headerHermanasHtml: '<a class="hermana-pill" href="https://apptonomia.miralante.workers.dev/" target="_blank" rel="noopener" aria-label="Open Apptonomia in a new tab">🧠 Apptonomia</a><a class="hermana-pill" href="https://calculia.miralante.workers.dev/" target="_blank" rel="noopener" aria-label="Open Calculia in a new tab">🔢 Calculia</a><a class="hermana-pill" href="https://okeymoney.miralante.workers.dev/" target="_blank" rel="noopener" aria-label="Open Okeymoney in a new tab">💶 Okeymoney</a><a class="hermana-pill" href="https://teclatlon.miralante.workers.dev/" target="_blank" rel="noopener" aria-label="Open Teclatlon in a new tab">⌨️ Teclatlon</a>',
 
     detailTitleSuffix: " — Sinonimia",
 

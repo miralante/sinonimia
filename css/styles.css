@@ -83,34 +83,6 @@ input:focus-visible {
 }
 .cabecera-punto { color: var(--color-acento); }
 
-.cabecera-hermanas {
-  display: inline-flex;
-  flex-wrap: wrap;
-  gap: 0.3rem;
-  font-size: 0.78rem;
-  font-weight: 400;
-}
-
-.hermana-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.25rem;
-  padding: 0.18rem 0.55rem;
-  background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  border-radius: 999px;
-  color: #fff;
-  text-decoration: none;
-  line-height: 1.2;
-  transition: background-color 0.15s ease, border-color 0.15s ease;
-}
-
-.hermana-pill:hover,
-.hermana-pill:focus-visible {
-  background: rgba(255, 255, 255, 0.22);
-  border-color: rgba(255, 255, 255, 0.6);
-}
-
 .tagline {
   margin: 0;
   opacity: 0.92;
