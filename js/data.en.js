@@ -1605,7 +1605,7 @@ DICCIONARIOS.en = [
   {
     id: "bradycardia",
     palabra: "Bradycardia",
-    imagen: { id: 2715, alt: "A heart" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Your heart beats more slowly than normal.",
     sinonimos: ["slow heartbeat"],
     ejemplo: { palabra: "bradycardia", texto: "The cardiologist found bradycardia at her last check-up." },
@@ -1886,7 +1886,7 @@ DICCIONARIOS.en = [
   {
     id: "cramp",
     palabra: "Cramp",
-    imagen: { id: 2891, alt: "A muscle" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A muscle tightens on its own and hurts a lot. It lasts a few seconds.",
     sinonimos: ["muscle spasm"],
     ejemplo: { palabra: "cramp", texto: "He got a cramp in his leg while swimming." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -5513,7 +5513,7 @@ DICCIONARIOS.en = [
   {
     id: "coin",
     palabra: "Coin",
-    imagen: { id: 8633, alt: "Several coins of different value" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A piece of metal used to pay for small things. It is worth less than a note.",
     sinonimos: ["piece of change"],
     ejemplo: { palabra: "coin", texto: "He paid for the coffee with a two-euro coin." },
@@ -6207,7 +6207,7 @@ DICCIONARIOS.en = [
   {
     id: "calendar",
     palabra: "Calendar",
-    imagen: { id: 3071, alt: "Calendar, yearbook, almanac" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A paper or an app that shows the days, weeks and months of the year. It helps you remember dates.",
     sinonimos: ["almanac"],
     ejemplo: { palabra: "calendar", texto: "She wrote the doctor's appointment on the calendar." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 2402, alt: "Biscuits, cookies" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -8167,7 +8167,7 @@ DICCIONARIOS.en = [
   {
     id: "cryptocurrency",
     palabra: "Cryptocurrency",
-    imagen: { id: 8633, alt: "A pile of coins" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Digital money that does not exist as notes or coins, only on the internet.",
     sinonimos: ["digital currency"],
     ejemplo: { palabra: "cryptocurrency", texto: "He bought a small amount of cryptocurrency online." },
@@ -11826,7 +11826,7 @@ DICCIONARIOS.en = [
   {
     id: "multi-currency-account",
     palabra: "Multi-currency account",
-    imagen: { id: 8633, alt: "A coin" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A bank account that holds money in several different currencies at once.",
     sinonimos: ["account with several currencies"],
     ejemplo: { palabra: "multi-currency account", texto: "He opened a multi-currency account to work with clients abroad." },
@@ -13926,7 +13926,7 @@ DICCIONARIOS.en = [
   {
     id: "tuition",
     palabra: "Tuition",
-    imagen: { id: 8633, alt: "A hand paying money at a university office" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "The money you pay to study at a school or university. It covers the cost of teaching.",
     sinonimos: ["course fees"],
     ejemplo: { palabra: "tuition", texto: "He took a loan to pay for his tuition." },
@@ -14196,7 +14196,7 @@ DICCIONARIOS.en = [
   {
     id: "equity",
     palabra: "Equity",
-    imagen: { id: 8633, alt: "A house with part of it highlighted as already paid off" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "The value of something you own after paying off any debt on it. For a home, it is the price minus what you still owe.",
     sinonimos: ["ownership value"],
     ejemplo: { palabra: "equity", texto: "She has a lot of equity in her flat." },
@@ -14576,7 +14576,7 @@ DICCIONARIOS.en = [
   {
     id: "solvent",
     palabra: "Solvent",
-    imagen: { id: 8633, alt: "A company with a green checkmark next to its finances" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Having enough money to pay all your debts. It is the opposite of being unable to pay what you owe.",
     sinonimos: ["able to pay debts"],
     ejemplo: { palabra: "solvent", texto: "The company remained solvent despite the crisis." },
@@ -14956,7 +14956,7 @@ DICCIONARIOS.en = [
   {
     id: "trustee",
     palabra: "Trustee",
-    imagen: { id: 8633, alt: "Coins and money" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A person who legally manages money or property on behalf of someone else, following clear rules.",
     sinonimos: ["fund manager"],
     ejemplo: { palabra: "a trustee", texto: "The bank appointed a trustee to manage the children's inheritance." },
@@ -15356,7 +15356,7 @@ DICCIONARIOS.en = [
   {
     id: "adrenaline",
     palabra: "Adrenaline",
-    imagen: { id: 2715, alt: "A person's heart beats fast from fear" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A substance the body makes when there is fear or danger. It makes the heart beat faster.",
     sinonimos: ["stress hormone"],
     ejemplo: { palabra: "adrenaline", texto: "A rush of adrenaline made his heart race before the exam." },
@@ -15926,7 +15926,7 @@ DICCIONARIOS.en = [
   {
     id: "arrhythmia",
     palabra: "Arrhythmia",
-    imagen: { id: 2715, alt: "A drawing of the human heart" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A problem with the rhythm of the heart. It beats too fast, too slow, or unevenly.",
     sinonimos: ["irregular heartbeat"],
     ejemplo: { palabra: "an arrhythmia", texto: "The cardiologist diagnosed him with an arrhythmia." },
@@ -16026,7 +16026,7 @@ DICCIONARIOS.en = [
   {
     id: "atrophy",
     palabra: "Atrophy",
-    imagen: { id: 2891, alt: "A drawing of a human muscle" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "To lose strength or size, like a muscle that is not used.",
     sinonimos: ["weaken"],
     ejemplo: { palabra: "atrophy", texto: "Lack of movement can cause a muscle to atrophy." },
@@ -17436,7 +17436,7 @@ DICCIONARIOS.en = [
   {
     id: "drowsiness",
     palabra: "Drowsiness",
-    imagen: { id: 2369, alt: "A person sleeping" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A feeling of being sleepy or not fully alert, often caused by medicine or tiredness.",
     sinonimos: ["a feeling of sleepiness"],
     ejemplo: { palabra: "drowsiness", texto: "The medication can cause drowsiness, so avoid driving." },
@@ -17776,7 +17776,7 @@ DICCIONARIOS.en = [
   {
     id: "fatphobia",
     palabra: "Fatphobia",
-    imagen: { id: 12323, alt: "A group of people with one person excluded" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Unfair treatment or dislike of people because of their weight or body size.",
     sinonimos: ["discrimination based on weight"],
     ejemplo: { palabra: "fatphobia", texto: "The campaign aimed to raise awareness about fatphobia in healthcare." },
@@ -18086,7 +18086,7 @@ DICCIONARIOS.en = [
   {
     id: "gestation",
     palabra: "Gestation",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 11250, alt: "Pregnancy, gestation" },
     definicion: "The period of time during which a baby develops inside the womb before birth.",
     sinonimos: ["the period before birth"],
     ejemplo: { palabra: "gestation", texto: "Doctors monitor gestation closely during high-risk pregnancies." },
@@ -18196,7 +18196,7 @@ DICCIONARIOS.en = [
   {
     id: "hamstring",
     palabra: "Hamstring",
-    imagen: { id: 2891, alt: "A muscle diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "One of the muscles at the back of the thigh, often injured during sports.",
     sinonimos: ["a muscle at the back of the thigh"],
     ejemplo: { palabra: "his hamstring", texto: "He pulled his hamstring during the race." },
@@ -18366,7 +18366,7 @@ DICCIONARIOS.en = [
   {
     id: "homophobia",
     palabra: "Homophobia",
-    imagen: { id: 12323, alt: "A group of people, one excluded" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Prejudice or hatred directed at people because of their sexual orientation.",
     sinonimos: ["prejudice against people for their sexual orientation"],
     ejemplo: { palabra: "homophobia", texto: "The school launched a campaign against homophobia." },
@@ -18526,7 +18526,7 @@ DICCIONARIOS.en = [
   {
     id: "infarction",
     palabra: "Infarction",
-    imagen: { id: 2715, alt: "A heart" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The death of tissue caused by a lack of blood supply, often referring to a heart attack.",
     sinonimos: ["death of tissue from a lack of blood supply"],
     ejemplo: { palabra: "a myocardial infarction", texto: "Doctors confirmed he suffered a myocardial infarction." },
@@ -18586,7 +18586,7 @@ DICCIONARIOS.en = [
   {
     id: "insomniac",
     palabra: "Insomniac",
-    imagen: { id: 2369, alt: "A person sleeping" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A person who regularly has trouble falling or staying asleep.",
     sinonimos: ["a person who has trouble sleeping"],
     ejemplo: { palabra: "an insomniac", texto: "As an insomniac, he rarely slept more than four hours a night." },
@@ -18636,7 +18636,7 @@ DICCIONARIOS.en = [
   {
     id: "ischemia",
     palabra: "Ischemia",
-    imagen: { id: 2715, alt: "A heart" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A condition where a part of the body does not get enough blood.",
     sinonimos: ["not getting enough blood in a part of the body"],
     ejemplo: { palabra: "ischemia", texto: "The scan showed signs of ischemia in his heart." },
@@ -19106,7 +19106,7 @@ DICCIONARIOS.en = [
   {
     id: "melatonin",
     palabra: "Melatonin",
-    imagen: { id: 2369, alt: "A person sleeping" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A hormone that helps control the body's sleep cycle, often taken as a supplement.",
     sinonimos: ["a hormone that helps control sleep"],
     ejemplo: { palabra: "melatonin", texto: "He took melatonin to help him fall asleep faster." },
@@ -19326,7 +19326,7 @@ DICCIONARIOS.en = [
   {
     id: "murmur",
     palabra: "Murmur",
-    imagen: { id: 2715, alt: "A heart" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "An unusual sound made by the heart, often caused by irregular blood flow.",
     sinonimos: ["an unusual sound made by the heart"],
     ejemplo: { palabra: "a heart murmur", texto: "The doctor detected a heart murmur during the checkup." },
@@ -19336,7 +19336,7 @@ DICCIONARIOS.en = [
   {
     id: "myalgia",
     palabra: "Myalgia",
-    imagen: { id: 2891, alt: "A muscle" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Pain in the muscles, often caused by illness, overuse, or tension.",
     sinonimos: ["pain in the muscles"],
     ejemplo: { palabra: "myalgia", texto: "The flu left her with fever and myalgia for several days." },
@@ -19356,7 +19356,7 @@ DICCIONARIOS.en = [
   {
     id: "narcolepsy",
     palabra: "Narcolepsy",
-    imagen: { id: 2369, alt: "A person sleeping" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A disorder that causes sudden, uncontrollable episodes of falling asleep during the day.",
     sinonimos: ["a disorder that causes sudden episodes of falling asleep"],
     ejemplo: { palabra: "narcolepsy", texto: "He was diagnosed with narcolepsy after several incidents at work." },
@@ -19636,7 +19636,7 @@ DICCIONARIOS.en = [
   {
     id: "ostracize",
     palabra: "Ostracize",
-    imagen: { id: 12323, alt: "A group of people, one of them excluded" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "To deliberately exclude someone from a group.",
     sinonimos: ["deliberately exclude someone from a group"],
     ejemplo: { palabra: "ostracize", texto: "Other students began to ostracize him after the incident." },
@@ -20996,7 +20996,7 @@ DICCIONARIOS.en = [
   {
     id: "sexism",
     palabra: "Sexism",
-    imagen: { id: 12323, alt: "A group of people, one of them excluded" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Unfair treatment of people because of their sex, usually against women.",
     sinonimos: ["unfair treatment of people because of their sex"],
     ejemplo: { palabra: "sexism", texto: "The company launched training to reduce sexism in the workplace." },
@@ -21126,7 +21126,7 @@ DICCIONARIOS.en = [
   {
     id: "sleepwalk",
     palabra: "Sleepwalk",
-    imagen: { id: 2369, alt: "A person sleeping" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "To walk or perform actions while still asleep.",
     sinonimos: ["walk while still asleep"],
     ejemplo: { palabra: "sleepwalk", texto: "Her son began to sleepwalk after starting school." },
@@ -21166,7 +21166,7 @@ DICCIONARIOS.en = [
   {
     id: "snoring",
     palabra: "Snoring",
-    imagen: { id: 2369, alt: "A person sleeping" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A rough, noisy sound made while breathing during sleep.",
     sinonimos: ["a rough noisy sound while breathing during sleep"],
     ejemplo: { palabra: "his snoring", texto: "She couldn't sleep because of his snoring." },
@@ -21226,7 +21226,7 @@ DICCIONARIOS.en = [
   {
     id: "spasm",
     palabra: "Spasm",
-    imagen: { id: 2891, alt: "A muscle diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A sudden, uncontrollable tightening of a muscle.",
     sinonimos: ["a sudden uncontrollable tightening of a muscle"],
     ejemplo: { palabra: "a muscle spasm", texto: "He woke up in pain from a muscle spasm in his leg." },
@@ -21716,7 +21716,7 @@ DICCIONARIOS.en = [
   {
     id: "transphobia",
     palabra: "Transphobia",
-    imagen: { id: 12323, alt: "A group of people, one of them excluded" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Prejudice or discrimination against transgender people.",
     sinonimos: ["discrimination against transgender people"],
     ejemplo: { palabra: "transphobia", texto: "The campaign worked to reduce transphobia in schools." },
@@ -21906,7 +21906,7 @@ DICCIONARIOS.en = [
   {
     id: "xenophobia",
     palabra: "Xenophobia",
-    imagen: { id: 12323, alt: "A group of people, one of them excluded" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Fear or dislike of people from other countries or cultures.",
     sinonimos: ["fear or dislike of people from other countries"],
     ejemplo: { palabra: "xenophobia", texto: "The organization works to challenge xenophobia in the community." },
