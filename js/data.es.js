@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 34814, alt: "Préstamo" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2301,7 +2301,7 @@ DICCIONARIOS.es = [
   {
     id: "derecho-defensa",
     palabra: "Derecho a defenderse",
-    imagen: { id: 25698, alt: "Una persona firma un papel con un abogado" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Toda persona tiene derecho a hablar y a tener un abogado en un juicio.",
     sinonimos: ["derecho de defensa"],
     ejemplo: { palabra: "derecho a defenderse", texto: "Todo acusado tiene derecho a defenderse ante un juez." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 36403, alt: "Ahorro" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 11291, alt: "Juez, magistrado" },
+    imagen: { id: 35413, alt: "Notario" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -7268,7 +7268,7 @@ DICCIONARIOS.es = [
   {
     id: "configuracion-privacidad",
     palabra: "Configuración de privacidad",
-    imagen: { id: 22635, alt: "Un candado protege una pantalla que pasa de una mano a otra" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Las opciones que eligen quién ve tu información en una aplicación. Puedes hacer que solo la vean tus contactos.",
     sinonimos: ["ajustes de privacidad", "opciones de privacidad"],
     ejemplo: { palabra: "configuración de privacidad", texto: "Cambió la configuración de privacidad para que nadie viera sus fotos." },
@@ -8048,7 +8048,7 @@ DICCIONARIOS.es = [
   {
     id: "politica-de-privacidad",
     palabra: "Política de privacidad",
-    imagen: { id: 22635, alt: "Un documento con un candado dibujado" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "El texto que explica qué hace una aplicación con tus datos personales.",
     sinonimos: ["normas de privacidad"],
     ejemplo: { palabra: "política de privacidad", texto: "Leyó la política de privacidad antes de dar su correo electrónico." },
@@ -10238,7 +10238,7 @@ DICCIONARIOS.es = [
   {
     id: "proteccion-de-datos",
     palabra: "Protección de datos",
-    imagen: { id: 22635, alt: "Un candado protegiendo una pantalla" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Las normas que protegen tu información personal, para que nadie la use sin tu permiso.",
     sinonimos: ["ley de privacidad"],
     ejemplo: { palabra: "protección de datos", texto: "La empresa cumplía la ley de protección de datos." },
@@ -12318,7 +12318,7 @@ DICCIONARIOS.es = [
   {
     id: "lector-de-pantalla",
     palabra: "Lector de pantalla",
-    imagen: { id: 28643, alt: "Una persona lee" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Un programa que lee en voz alta lo que aparece en la pantalla del aparato.",
     sinonimos: ["programa que lee la pantalla en voz alta"],
     ejemplo: { palabra: "lector de pantalla", texto: "Activó el lector de pantalla para escuchar los mensajes." },
@@ -12822,7 +12822,7 @@ DICCIONARIOS.es = [
   {
     id: "delegado-sindical",
     palabra: "Delegado sindical",
-    imagen: { id: 25698, alt: "Un trabajador hablando con un grupo de compañeros" },
+    imagen: { id: 15931, alt: "Representante, delegado" },
     definicion: "Una persona elegida por sus compañeros para defender sus derechos en la empresa.",
     sinonimos: ["representante del sindicato"],
     ejemplo: { palabra: "delegado sindical", texto: "El delegado sindical negoció el horario con la dirección." },
@@ -13042,7 +13042,7 @@ DICCIONARIOS.es = [
   {
     id: "acta-comunidad",
     palabra: "Acta de la comunidad",
-    imagen: { id: 28643, alt: "Un papel firmado en una reunión de vecinos" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "El papel donde se escribe lo que se ha decidido en una reunión de vecinos. Lo firma el presidente.",
     sinonimos: ["escrito de la reunión de vecinos"],
     ejemplo: { palabra: "acta de la comunidad", texto: "El acta de la comunidad recoge el acuerdo de pintar el portal." },
@@ -13422,7 +13422,7 @@ DICCIONARIOS.es = [
   {
     id: "amenaza",
     palabra: "Amenaza",
-    imagen: { id: 25315, alt: "Una persona leyendo un mensaje preocupante en el móvil" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Decir o mostrar que quieres hacerle daño a alguien. Busca meter miedo a esa persona.",
     sinonimos: ["intimidación"],
     ejemplo: { palabra: "amenaza", texto: "Recibió una amenaza por mensaje de texto." },
@@ -14582,7 +14582,7 @@ DICCIONARIOS.es = [
   {
     id: "repositorio",
     palabra: "Repositorio",
-    imagen: { id: 16078, alt: "Una sala llena de documentos oficiales archivados" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un lugar donde se guardan documentos o información de forma segura. Puedes acudir allí para encontrar registros oficiales.",
     sinonimos: ["archivo de registros"],
     ejemplo: { palabra: "repositorio", texto: "Los certificados se guardan en un repositorio central." },
@@ -14662,7 +14662,7 @@ DICCIONARIOS.es = [
   {
     id: "abusivo",
     palabra: "Abusivo",
-    imagen: { id: 25315, alt: "Una señal de advertencia junto a un documento de préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Diseñado para aprovecharse injustamente de alguien, sobre todo con el dinero. Por ejemplo, un préstamo con costes ocultos e injustos.",
     sinonimos: ["deliberadamente injusto"],
     ejemplo: { palabra: "abusivo", texto: "Le avisaron sobre un préstamo abusivo." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 21802, alt: "Documento" },
+    imagen: { id: 8483, alt: "Frontera, aduana" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
