@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 2402, alt: "Biscuits, cookies" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -9357,7 +9357,7 @@ DICCIONARIOS.en = [
   {
     id: "specialist",
     palabra: "Specialist",
-    imagen: { id: 2467, alt: "A doctor wearing a white coat" },
+    imagen: { id: 38852, alt: "Un médico con una bata blanca" },
     definicion: "A doctor who only treats one type of illness or one part of the body.",
     sinonimos: ["specialist doctor"],
     ejemplo: { palabra: "specialist", texto: "The family doctor referred her to a heart specialist." },
@@ -16726,7 +16726,7 @@ DICCIONARIOS.en = [
   {
     id: "clinician",
     palabra: "Clinician",
-    imagen: { id: 2467, alt: "A doctor talking with a patient" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A healthcare professional, such as a doctor or nurse, who works directly with patients.",
     sinonimos: ["a healthcare professional"],
     ejemplo: { palabra: "a clinician", texto: "Before the surgery, a clinician examined her thoroughly." },
@@ -17226,7 +17226,7 @@ DICCIONARIOS.en = [
   {
     id: "dietician",
     palabra: "Dietician",
-    imagen: { id: 2467, alt: "A doctor" },
+    imagen: { id: 35803, alt: "Una persona mostrando frutas y verduras" },
     definicion: "A professional trained in nutrition who helps people plan healthy meals.",
     sinonimos: ["a nutrition expert"],
     ejemplo: { palabra: "a dietician", texto: "She met with a dietician to plan a healthier diet." },
@@ -17266,7 +17266,7 @@ DICCIONARIOS.en = [
   {
     id: "dislocate",
     palabra: "Dislocate",
-    imagen: { id: 2467, alt: "A doctor" },
+    imagen: { id: 2972, alt: "Un hueso" },
     definicion: "To force a bone out of its normal position at a joint.",
     sinonimos: ["force a bone out of place"],
     ejemplo: { palabra: "dislocate his shoulder", texto: "He fell and managed to dislocate his shoulder." },
@@ -17906,7 +17906,7 @@ DICCIONARIOS.en = [
   {
     id: "forensic",
     palabra: "Forensic",
-    imagen: { id: 2467, alt: "A judge with a gavel in court" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Related to the scientific methods used to investigate a crime.",
     sinonimos: ["related to scientific crime investigation"],
     ejemplo: { palabra: "forensic evidence", texto: "The investigators relied on forensic evidence to solve the case." },
@@ -18166,7 +18166,7 @@ DICCIONARIOS.en = [
   {
     id: "gynecology",
     palabra: "Gynecology",
-    imagen: { id: 2467, alt: "A doctor" },
+    imagen: { id: 38725, alt: "Un cartel de departamento hospitalario de ginecología" },
     definicion: "The branch of medicine that deals with the health of the female reproductive system.",
     sinonimos: ["medicine for female reproductive health"],
     ejemplo: { palabra: "gynecology", texto: "She studied gynecology to specialize in women's health." },
