@@ -154,7 +154,7 @@ DICCIONARIOS.en = [
   {
     id: "outpatient",
     palabra: "Outpatient",
-    imagen: { id: 3116, alt: "A hospital" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "You don't need to stay in hospital. You go home the same day.",
     sinonimos: ["day-case"],
     ejemplo: { palabra: "outpatient", texto: "The surgery is outpatient care. She goes home the same day." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 2402, alt: "Biscuits, cookies" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -8987,7 +8987,7 @@ DICCIONARIOS.en = [
   {
     id: "occupational-health-insurer",
     palabra: "Occupational health insurer",
-    imagen: { id: 3116, alt: "A person with a bandaged arm at a clinic" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The company that treats and pays for you if you get hurt or ill because of your job.",
     sinonimos: ["work injury insurer"],
     ejemplo: { palabra: "occupational health insurer", texto: "The occupational health insurer treated him after he got hurt at the factory." },
@@ -9127,7 +9127,7 @@ DICCIONARIOS.en = [
   {
     id: "gp-surgery",
     palabra: "GP surgery",
-    imagen: { id: 3116, alt: "A small building with a green cross" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "The place near your home where you see your family doctor for things that are not urgent.",
     sinonimos: ["doctor's surgery"],
     ejemplo: { palabra: "GP surgery", texto: "She booked an appointment at the GP surgery for her yearly check-up." },
@@ -9487,7 +9487,7 @@ DICCIONARIOS.en = [
   {
     id: "side-effects",
     palabra: "Side effects",
-    imagen: { id: 8163, alt: "A pill bottle with an exclamation mark" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Other things a medicine can do to you, besides curing you, like tiredness or headache.",
     sinonimos: ["drug reactions"],
     ejemplo: { palabra: "side effects", texto: "The doctor explained the side effects of the pill." },
@@ -15446,7 +15446,7 @@ DICCIONARIOS.en = [
   {
     id: "amputation",
     palabra: "Amputation",
-    imagen: { id: 3116, alt: "A doctor talks with a patient in a hospital" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A surgery that removes part of the body, like an arm or a leg.",
     sinonimos: ["surgical removal of a limb"],
     ejemplo: { palabra: "an amputation", texto: "He needed an amputation after the accident." },
@@ -15796,7 +15796,7 @@ DICCIONARIOS.en = [
   {
     id: "aneurysm",
     palabra: "Aneurysm",
-    imagen: { id: 3116, alt: "An ambulance outside a hospital" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A dangerous bulge in a blood vessel that can burst.",
     sinonimos: ["dangerous bulge in a blood vessel"],
     ejemplo: { palabra: "an aneurysm", texto: "He was rushed to the hospital because of an aneurysm." },
@@ -16076,7 +16076,7 @@ DICCIONARIOS.en = [
   {
     id: "avulsion",
     palabra: "Avulsion",
-    imagen: { id: 3116, alt: "A doctor talks with a patient in a hospital" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The tearing away of a body part or tissue, often from an injury.",
     sinonimos: ["a tearing away", "forceful tissue separation"],
     ejemplo: { palabra: "an avulsion", texto: "He suffered an avulsion of the tooth after the fall." },
@@ -16136,7 +16136,7 @@ DICCIONARIOS.en = [
   {
     id: "bariatric",
     palabra: "Bariatric",
-    imagen: { id: 3116, alt: "A doctor talks with a patient in a hospital" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Related to the medical treatment of severe obesity, such as weight-loss surgery.",
     sinonimos: ["weight-loss"],
     ejemplo: { palabra: "bariatric", texto: "He had bariatric surgery to help him lose weight." },
@@ -16786,7 +16786,7 @@ DICCIONARIOS.en = [
   {
     id: "comatose",
     palabra: "Comatose",
-    imagen: { id: 3116, alt: "A hospital building with an ambulance" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "In a deep state of unconsciousness, unable to wake up or respond.",
     sinonimos: ["in a deep unconscious state"],
     ejemplo: { palabra: "comatose", texto: "The patient remained comatose for several days after the accident." },
@@ -18616,7 +18616,7 @@ DICCIONARIOS.en = [
   {
     id: "intubation",
     palabra: "Intubation",
-    imagen: { id: 3116, alt: "A hospital with an ambulance" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The medical procedure of placing a tube into a person's airway to help them breathe.",
     sinonimos: ["placing a tube into the airway to help breathing"],
     ejemplo: { palabra: "intubation", texto: "The patient needed intubation to breathe during the surgery." },
@@ -18976,7 +18976,7 @@ DICCIONARIOS.en = [
   {
     id: "lumpectomy",
     palabra: "Lumpectomy",
-    imagen: { id: 3116, alt: "A hospital with an ambulance" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A surgery to remove a lump, usually from the breast, without removing the whole breast.",
     sinonimos: ["surgery to remove a lump from the breast"],
     ejemplo: { palabra: "a lumpectomy", texto: "She had a lumpectomy after doctors found a small tumor." },
@@ -19086,7 +19086,7 @@ DICCIONARIOS.en = [
   {
     id: "medevac",
     palabra: "Medevac",
-    imagen: { id: 3116, alt: "A hospital with an ambulance" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The emergency transport of an injured or sick person by helicopter or aircraft.",
     sinonimos: ["emergency transport of an injured person by air"],
     ejemplo: { palabra: "a medevac", texto: "The injured hiker was flown out by a medevac." },
@@ -19306,7 +19306,7 @@ DICCIONARIOS.en = [
   {
     id: "mrsa",
     palabra: "MRSA",
-    imagen: { id: 3116, alt: "A hospital with an ambulance" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A type of bacteria that is resistant to many common antibiotics, making infections hard to treat.",
     sinonimos: ["bacteria resistant to many antibiotics"],
     ejemplo: { palabra: "MRSA", texto: "The hospital isolated the patient after testing positive for MRSA." },
@@ -19646,7 +19646,7 @@ DICCIONARIOS.en = [
   {
     id: "outbreak",
     palabra: "Outbreak",
-    imagen: { id: 3116, alt: "A hospital with an ambulance" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A sudden appearance of a disease affecting many people at the same time.",
     sinonimos: ["sudden spread of a disease"],
     ejemplo: { palabra: "an outbreak of the flu", texto: "The hospital reported an outbreak of the flu." },
@@ -20076,7 +20076,7 @@ DICCIONARIOS.en = [
   {
     id: "poisoning",
     palabra: "Poisoning",
-    imagen: { id: 3116, alt: "A hospital with an ambulance" },
+    imagen: { id: 2467, alt: "Un médico habla con un paciente" },
     definicion: "Illness or harm caused by swallowing, breathing, or touching a harmful substance.",
     sinonimos: ["illness caused by a harmful substance"],
     ejemplo: { palabra: "food poisoning", texto: "Several guests suffered food poisoning after the party." },
@@ -20106,7 +20106,7 @@ DICCIONARIOS.en = [
   {
     id: "polyclinic",
     palabra: "Polyclinic",
-    imagen: { id: 3116, alt: "A hospital with an ambulance" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A medical center that offers many different specialists in one place.",
     sinonimos: ["a medical center with many specialists"],
     ejemplo: { palabra: "a polyclinic", texto: "He was referred to a polyclinic for further tests." },
@@ -20136,7 +20136,7 @@ DICCIONARIOS.en = [
   {
     id: "postmortem",
     palabra: "Postmortem",
-    imagen: { id: 3116, alt: "A hospital with an ambulance" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A medical examination of a body after death to find the cause of death.",
     sinonimos: ["a medical exam of a body after death"],
     ejemplo: { palabra: "a postmortem", texto: "The coroner ordered a postmortem to determine the cause of death." },
@@ -20436,7 +20436,7 @@ DICCIONARIOS.en = [
   {
     id: "readmit",
     palabra: "Readmit",
-    imagen: { id: 3116, alt: "A hospital with an ambulance" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "To allow a patient back into a hospital after they had already been discharged.",
     sinonimos: ["allow a patient back into a hospital"],
     ejemplo: { palabra: "readmit him", texto: "Doctors decided to readmit him after his symptoms returned." },
@@ -20816,7 +20816,7 @@ DICCIONARIOS.en = [
   {
     id: "salmonella",
     palabra: "Salmonella",
-    imagen: { id: 3116, alt: "A hospital with an ambulance" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A type of bacteria that can cause food poisoning.",
     sinonimos: ["bacteria that causes food poisoning"],
     ejemplo: { palabra: "salmonella", texto: "Several people got sick from salmonella in the chicken." },
@@ -20846,7 +20846,7 @@ DICCIONARIOS.en = [
   {
     id: "sanatorium",
     palabra: "Sanatorium",
-    imagen: { id: 3116, alt: "A hospital with an ambulance" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A medical facility where people go for long-term treatment and rest, especially for illnesses like tuberculosis.",
     sinonimos: ["a facility for long-term medical treatment and rest"],
     ejemplo: { palabra: "a sanatorium", texto: "He spent months recovering in a sanatorium." },
@@ -21026,7 +21026,7 @@ DICCIONARIOS.en = [
   {
     id: "shigella",
     palabra: "Shigella",
-    imagen: { id: 3116, alt: "A hospital with an ambulance" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A type of bacteria that causes a serious intestinal infection, often spread through contaminated food or water.",
     sinonimos: ["bacteria that causes a serious intestinal infection"],
     ejemplo: { palabra: "shigella", texto: "The outbreak was traced to shigella in the water supply." },
@@ -21346,7 +21346,7 @@ DICCIONARIOS.en = [
   {
     id: "stillbirth",
     palabra: "Stillbirth",
-    imagen: { id: 3116, alt: "A hospital with an ambulance" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The birth of a baby who has died before or during delivery.",
     sinonimos: ["the birth of a baby who has already died"],
     ejemplo: { palabra: "a stillbirth", texto: "The hospital offers support for families after a stillbirth." },
