@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 34814, alt: "Préstamo" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -1833,7 +1833,7 @@ DICCIONARIOS.es = [
   {
     id: "horas-extra",
     palabra: "Horas extra",
-    imagen: { id: 34713, alt: "Un cambio de turno de trabajo" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Las horas que trabajas fuera de tu horario normal. Se pagan más.",
     sinonimos: ["horas extra de trabajo", "horas adicionales"],
     ejemplo: { palabra: "horas extra", texto: "Hizo horas extra para acabar el informe." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 36403, alt: "Ahorro" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3292,7 +3292,7 @@ DICCIONARIOS.es = [
   {
     id: "dermatologo",
     palabra: "Dermatólogo",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 34375, alt: "Dermatólogo" },
     definicion: "El médico que cuida tu piel, tu pelo y tus uñas.",
     sinonimos: ["médico de la piel"],
     ejemplo: { palabra: "dermatólogo", texto: "Fue al dermatólogo porque le salía una mancha rara en la espalda." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 11291, alt: "Juez, magistrado" },
+    imagen: { id: 35413, alt: "Notario" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -3848,7 +3848,7 @@ DICCIONARIOS.es = [
   {
     id: "jornada-parcial",
     palabra: "Jornada parcial",
-    imagen: { id: 34713, alt: "Un cambio de turno" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Trabajar menos horas que la jornada completa, normalmente por las mañanas o las tardes.",
     sinonimos: ["medio trabajo"],
     ejemplo: { palabra: "jornada parcial", texto: "Trabaja a jornada parcial por las mañanas para cuidar a sus hijos." },
@@ -3859,7 +3859,7 @@ DICCIONARIOS.es = [
   {
     id: "permiso",
     palabra: "Permiso",
-    imagen: { id: 34697, alt: "Una persona solicita un permiso" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Un papel que pides al jefe para no ir a trabajar un día. Te lo dan o no.",
     sinonimos: ["día libre pedido"],
     ejemplo: { palabra: "permiso", texto: "Pidió un permiso al jefe para ir al médico." },
@@ -4812,7 +4812,7 @@ DICCIONARIOS.es = [
   {
     id: "oficina-virtual",
     palabra: "Oficina virtual",
-    imagen: { id: 36103, alt: "Un casco de realidad virtual" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Una oficina que está solo en internet. Haces los trámites desde el ordenador sin ir a ningún sitio.",
     sinonimos: ["oficina en internet"],
     ejemplo: { palabra: "oficina virtual", texto: "Hizo el trámite desde la oficina virtual sin salir de casa." },
@@ -8938,7 +8938,7 @@ DICCIONARIOS.es = [
   {
     id: "cotizar",
     palabra: "Cotizar",
-    imagen: { id: 36403, alt: "Una hucha de ahorro" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Pagar dinero cada mes a la Seguridad Social mientras trabajas, para tener derecho a la pensión o al paro.",
     sinonimos: ["pagar a la Seguridad Social"],
     ejemplo: { palabra: "cotizó", texto: "Cotizó durante treinta años antes de jubilarse." },
@@ -9818,7 +9818,7 @@ DICCIONARIOS.es = [
   {
     id: "realidad-aumentada",
     palabra: "Realidad aumentada",
-    imagen: { id: 36103, alt: "Un móvil mostrando un mueble dibujado encima de una habitación real" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Una tecnología que añade dibujos o información encima de lo que ve la cámara del móvil, en tiempo real.",
     sinonimos: ["RA"],
     ejemplo: { palabra: "realidad aumentada", texto: "Usó la realidad aumentada del móvil para ver cómo quedaría el sofá en el salón." },
@@ -9928,7 +9928,7 @@ DICCIONARIOS.es = [
   {
     id: "boca-de-incendio",
     palabra: "Boca de incendio",
-    imagen: { id: 36413, alt: "Un armario rojo en la pared con una manguera" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Un armario en la pared de un edificio con una manguera dentro, para apagar un fuego grande.",
     sinonimos: ["boca de incendio equipada"],
     ejemplo: { palabra: "boca de incendio", texto: "El vigilante revisó la boca de incendio del pasillo." },
@@ -10178,7 +10178,7 @@ DICCIONARIOS.es = [
   {
     id: "solicitud-telematica",
     palabra: "Solicitud telemática",
-    imagen: { id: 24709, alt: "Un ordenador con un formulario en la pantalla" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un trámite que se hace por internet, sin ir a ninguna oficina.",
     sinonimos: ["trámite online"],
     ejemplo: { palabra: "solicitud telemática", texto: "Hizo la solicitud telemática desde el ordenador de casa." },
@@ -10921,7 +10921,7 @@ DICCIONARIOS.es = [
   {
     id: "habeas-corpus",
     palabra: "Habeas corpus",
-    imagen: { id: 34479, alt: "Un tribunal de justicia" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un derecho para pedir a un juez que revise si una detención es legal.",
     sinonimos: ["derecho a que un juez revise una detención"],
     ejemplo: { palabra: "habeas corpus", texto: "Su abogado pidió un habeas corpus porque creía que la detención era ilegal." },
@@ -10941,7 +10941,7 @@ DICCIONARIOS.es = [
   {
     id: "modificacion-judicial-de-la-capacidad",
     palabra: "Modificación judicial de la capacidad",
-    imagen: { id: 34479, alt: "Un tribunal de justicia" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un proceso legal en el que un juez decide si una persona necesita ayuda para tomar decisiones.",
     sinonimos: ["proceso legal para decidir si necesitas ayuda"],
     ejemplo: { palabra: "modificación judicial de la capacidad", texto: "La familia pidió una modificación judicial de la capacidad para poder ayudarlo con el dinero." },
@@ -13262,7 +13262,7 @@ DICCIONARIOS.es = [
   {
     id: "exencion",
     palabra: "Exención",
-    imagen: { id: 34697, alt: "Una persona pidiendo un permiso especial en una oficina" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "No tener que pagar algo o hacer algo obligatorio. Un permiso especial te libera de ello.",
     sinonimos: ["dispensa"],
     ejemplo: { palabra: "exención", texto: "Pidió una exención de la tasa por tener pocos ingresos." },
@@ -13922,7 +13922,7 @@ DICCIONARIOS.es = [
   {
     id: "realidad-virtual",
     palabra: "Realidad virtual",
-    imagen: { id: 36103, alt: "Una persona con gafas de realidad virtual" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Un mundo digital que ves con unas gafas especiales. Sientes que estás dentro de ese mundo.",
     sinonimos: ["simulación digital"],
     ejemplo: { palabra: "realidad virtual", texto: "Probó la realidad virtual en la tienda de videojuegos." },
@@ -13972,7 +13972,7 @@ DICCIONARIOS.es = [
   {
     id: "poder-especial",
     palabra: "Poder especial",
-    imagen: { id: 34697, alt: "Una persona firmando una autorización para un asunto concreto" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Una autorización legal para un asunto concreto. Solo sirve para eso, no para todo.",
     sinonimos: ["permiso concreto"],
     ejemplo: { palabra: "poder especial", texto: "Le dio un poder especial para vender solo el coche." },
@@ -14282,7 +14282,7 @@ DICCIONARIOS.es = [
   {
     id: "activo",
     palabra: "Activo",
-    imagen: { id: 36403, alt: "Una casa y monedas representando algo valioso que alguien posee" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Algo valioso que posee una persona o empresa. Puede ser dinero, una propiedad o una inversión.",
     sinonimos: ["posesión valiosa"],
     ejemplo: { palabra: "activo", texto: "La casa es su mayor activo." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 21802, alt: "Documento" },
+    imagen: { id: 8483, alt: "Frontera, aduana" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
