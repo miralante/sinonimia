@@ -769,7 +769,7 @@ DICCIONARIOS.es = [
   {
     id: "responsabilidad-penal",
     palabra: "Responsabilidad penal",
-    imagen: { id: 4588, alt: "Un edificio de una cárcel" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Tener que responder ante la ley por cometer un delito.",
     sinonimos: ["responder ante la justicia", "culpa penal"],
     ejemplo: { palabra: "responsabilidad penal", texto: "Puede tener responsabilidad penal si roba algo en la tienda." },
@@ -1278,7 +1278,7 @@ DICCIONARIOS.es = [
   {
     id: "comunidad-propietarios",
     palabra: "Comunidad de propietarios",
-    imagen: { id: 6241, alt: "Dos vecinos se saludan desde la ventana" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "El grupo de todos los dueños de un edificio. Se juntan para decidir cosas del edificio.",
     sinonimos: ["junta de vecinos", "reunión de los dueños"],
     ejemplo: { palabra: "comunidad de propietarios", texto: "La comunidad de propietarios votó arreglar la fachada." },
@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 34814, alt: "Préstamo" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 36403, alt: "Ahorro" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 11291, alt: "Juez, magistrado" },
+    imagen: { id: 35413, alt: "Notario" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -4031,7 +4031,7 @@ DICCIONARIOS.es = [
   {
     id: "cif",
     palabra: "CIF",
-    imagen: { id: 5987, alt: "Una tarjeta de DNI" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un código que identifica a tu empresa o negocio. Lo necesitas para facturar.",
     sinonimos: ["código de empresa"],
     ejemplo: { palabra: "CIF", texto: "El autónomo dio su CIF para emitir la factura del trabajo." },
@@ -4084,7 +4084,7 @@ DICCIONARIOS.es = [
   {
     id: "dni-electronico",
     palabra: "DNI electrónico",
-    imagen: { id: 5987, alt: "Una tarjeta de DNI" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El DNI que lleva un chip dentro. Sirve para identificarte en internet.",
     sinonimos: ["DNI con chip"],
     ejemplo: { palabra: "DNI electrónico", texto: "Usó el DNI electrónico para entrar en la sede de Hacienda." },
@@ -4095,7 +4095,7 @@ DICCIONARIOS.es = [
   {
     id: "nif",
     palabra: "NIF",
-    imagen: { id: 5987, alt: "Una tarjeta de DNI" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El número que identifica a una persona para sus cosas con Hacienda. Está en el DNI.",
     sinonimos: ["número fiscal"],
     ejemplo: { palabra: "NIF", texto: "Le pidieron el NIF para hacer la declaración de la renta." },
@@ -7558,7 +7558,7 @@ DICCIONARIOS.es = [
   {
     id: "vigilancia-vecinal",
     palabra: "Vigilancia vecinal",
-    imagen: { id: 6241, alt: "Varios vecinos hablando juntos en la puerta de un edificio" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Cuando los vecinos de un barrio se avisan entre ellos si ven algo raro o peligroso.",
     sinonimos: ["vecinos vigilantes", "alerta entre vecinos"],
     ejemplo: { palabra: "vigilancia vecinal", texto: "El barrio organizó un grupo de vigilancia vecinal después de varios robos." },
@@ -10028,7 +10028,7 @@ DICCIONARIOS.es = [
   {
     id: "valvula-de-seguridad-del-gas",
     palabra: "Válvula de seguridad del gas",
-    imagen: { id: 3259, alt: "Una llave de paso junto a un tubo de gas" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Una pieza que corta el gas sola si detecta un problema, para evitar un escape.",
     sinonimos: ["llave de corte del gas"],
     ejemplo: { palabra: "válvula de seguridad del gas", texto: "Cerró la válvula de seguridad del gas antes de irse de vacaciones." },
@@ -10038,7 +10038,7 @@ DICCIONARIOS.es = [
   {
     id: "aviso-de-gas",
     palabra: "Aviso de gas",
-    imagen: { id: 3259, alt: "Una nube de gas con un signo de alarma" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Un aviso, sonoro o por mensaje, que avisa de que hay una fuga de gas cerca.",
     sinonimos: ["alerta de fuga de gas"],
     ejemplo: { palabra: "aviso de gas", texto: "Salió de casa al oír el aviso de gas." },
@@ -11846,7 +11846,7 @@ DICCIONARIOS.es = [
   {
     id: "contrato-de-suministro",
     palabra: "Contrato de suministro",
-    imagen: { id: 5995, alt: "Una factura con una firma" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "El acuerdo que firmas con una empresa para tener luz, agua o gas en casa.",
     sinonimos: ["acuerdo para tener luz, agua o gas"],
     ejemplo: { palabra: "contrato de suministro", texto: "Firmó un contrato de suministro con la nueva compañía de luz." },
@@ -11876,7 +11876,7 @@ DICCIONARIOS.es = [
   {
     id: "revision-de-la-caldera",
     palabra: "Revisión de la caldera",
-    imagen: { id: 3259, alt: "Una caldera de gas" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Una comprobación anual que hace un técnico para ver que la caldera funciona bien y con seguridad.",
     sinonimos: ["comprobación anual de la caldera"],
     ejemplo: { palabra: "revisión de la caldera", texto: "El técnico vino a hacer la revisión de la caldera en otoño." },
@@ -12862,7 +12862,7 @@ DICCIONARIOS.es = [
   {
     id: "cuota-derramo",
     palabra: "Cuota derrama",
-    imagen: { id: 5995, alt: "Una mano paga un recibo extra en un sobre" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Una cantidad extra que pagan los vecinos para arreglar algo del edificio, como el ascensor o el tejado.",
     sinonimos: ["pago extra de la comunidad"],
     ejemplo: { palabra: "cuota derrama", texto: "Cada vecino paga su cuota derrama para arreglar el tejado en tres meses." },
@@ -12892,7 +12892,7 @@ DICCIONARIOS.es = [
   {
     id: "periodo-facturacion",
     palabra: "Periodo de facturación",
-    imagen: { id: 5995, alt: "Una factura con una fecha de inicio y otra de fin" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El tiempo que cubre una factura. Normalmente es de un mes, desde una fecha hasta otra.",
     sinonimos: ["tiempo que cobra la factura"],
     ejemplo: { palabra: "periodo de facturación", texto: "El periodo de facturación de la luz va del día 1 al último día del mes." },
@@ -14792,7 +14792,7 @@ DICCIONARIOS.es = [
   {
     id: "autenticacion",
     palabra: "Autenticación",
-    imagen: { id: 5987, alt: "Una pantalla de móvil pidiendo una contraseña para confirmar identidad" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "El proceso de demostrar que eres quien dices ser en internet. Suele usar una contraseña o un código.",
     sinonimos: ["verificación de identidad"],
     ejemplo: { palabra: "autenticación", texto: "La aplicación usa autenticación para proteger tu cuenta." },
@@ -15512,7 +15512,7 @@ DICCIONARIOS.es = [
   {
     id: "anorexia",
     palabra: "Anorexia",
-    imagen: { id: 4610, alt: "Una báscula junto a un plato de comida" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una enfermedad. Dejar de comer casi por completo por miedo a engordar.",
     sinonimos: ["trastorno alimentario"],
     ejemplo: { palabra: "anorexia", texto: "Empezó un tratamiento para superar su anorexia." },
@@ -16362,7 +16362,7 @@ DICCIONARIOS.es = [
   {
     id: "botulismo",
     palabra: "Botulismo",
-    imagen: { id: 4610, alt: "Comida en mal estado junto a un signo de advertencia" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una intoxicación grave causada por comer alimentos en mal estado.",
     sinonimos: ["intoxicación alimentaria grave"],
     ejemplo: { palabra: "del botulismo", texto: "El médico explicó los síntomas del botulismo." },
@@ -16472,7 +16472,7 @@ DICCIONARIOS.es = [
   {
     id: "carcelero",
     palabra: "Carcelero",
-    imagen: { id: 4588, alt: "Un policía con llaves frente a una celda" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "La persona que trabaja vigilando a los presos en una cárcel.",
     sinonimos: ["guardia de prisión"],
     ejemplo: { palabra: "carcelero", texto: "El carcelero abrió la puerta de la celda." },
@@ -17142,7 +17142,7 @@ DICCIONARIOS.es = [
   {
     id: "desnutricion",
     palabra: "Desnutrición",
-    imagen: { id: 4610, alt: "Frutas y verduras frescas" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un estado de salud débil por no comer suficiente o no comer alimentos adecuados.",
     sinonimos: ["falta de alimentación adecuada"],
     ejemplo: { palabra: "desnutrición", texto: "El médico detectó desnutrición en el niño." },
@@ -17352,7 +17352,7 @@ DICCIONARIOS.es = [
   {
     id: "encarcelar",
     palabra: "Encarcelar",
-    imagen: { id: 4588, alt: "Una cárcel con barrotes" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Meter a una persona en la cárcel como castigo por un delito.",
     sinonimos: ["meter en la cárcel"],
     ejemplo: { palabra: "encarcelar", texto: "El juez ordenó encarcelar al acusado tras el juicio." },
@@ -17552,7 +17552,7 @@ DICCIONARIOS.es = [
   {
     id: "excarcelar",
     palabra: "Excarcelar",
-    imagen: { id: 4588, alt: "Una cárcel con barrotes" },
+    imagen: { id: 11488, alt: "Libertad, liberación" },
     definicion: "Dejar en libertad a una persona que estaba en la cárcel.",
     sinonimos: ["poner en libertad"],
     ejemplo: { palabra: "excarcelar", texto: "El juez ordenó excarcelar al detenido por falta de pruebas." },
@@ -17922,7 +17922,7 @@ DICCIONARIOS.es = [
   {
     id: "hambruna",
     palabra: "Hambruna",
-    imagen: { id: 4610, alt: "Alimentos básicos: comida, fruta y pan" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Una escasez extrema de alimentos que afecta a una gran cantidad de personas durante mucho tiempo.",
     sinonimos: ["escasez extrema de alimentos"],
     ejemplo: { palabra: "una hambruna", texto: "La sequía provocó una hambruna en la región." },
