@@ -1221,7 +1221,7 @@ DICCIONARIOS.en = [
   {
     id: "debit-card",
     palabra: "Debit card",
-    imagen: { id: 4751, alt: "A bank card" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A card to pay with. The money leaves your account right away.",
     sinonimos: ["bank card", "pay-now card"],
     ejemplo: { palabra: "debit card", texto: "He paid for the shopping with his debit card." },
@@ -1263,7 +1263,7 @@ DICCIONARIOS.en = [
   {
     id: "apply-for",
     palabra: "Apply",
-    imagen: { id: 9173, alt: "A form with boxes to fill in" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "To ask for something in writing from the council. You fill in a paper and wait.",
     sinonimos: ["ask in writing", "put in a request"],
     ejemplo: { palabra: "apply", texto: "She went online to apply for an appointment." },
@@ -2369,7 +2369,7 @@ DICCIONARIOS.en = [
   {
     id: "iban-en",
     palabra: "IBAN",
-    imagen: { id: 4751, alt: "A bank card" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A long code for your bank account. You need it to receive money.",
     sinonimos: ["account code"],
     ejemplo: { palabra: "IBAN", texto: "She gave her IBAN to her boss so he could pay her salary." },
@@ -2661,7 +2661,7 @@ DICCIONARIOS.en = [
   {
     id: "official-form",
     palabra: "Official form",
-    imagen: { id: 9173, alt: "A form with boxes to fill in" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A printed sheet the state gives you to fill in the same way across the country.",
     sinonimos: ["official sheet"],
     ejemplo: { palabra: "official form", texto: "She filled in the official form from her local tax office." },
@@ -3536,7 +3536,7 @@ DICCIONARIOS.en = [
   {
     id: "coord-card",
     palabra: "Coord card",
-    imagen: { id: 4751, alt: "A bank card" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A bank card with secret numbers to confirm operations on the internet.",
     sinonimos: ["secret number card"],
     ejemplo: { palabra: "coord card", texto: "She used the coord card to confirm the online purchase." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 2402, alt: "Biscuits, cookies" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -7707,7 +7707,7 @@ DICCIONARIOS.en = [
   {
     id: "digital-subscription",
     palabra: "Digital subscription",
-    imagen: { id: 4751, alt: "A credit card" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A monthly payment to use an app or watch films and shows on the internet.",
     sinonimos: ["online subscription"],
     ejemplo: { palabra: "digital subscription", texto: "She cancelled the digital subscription she no longer used." },
@@ -7817,7 +7817,7 @@ DICCIONARIOS.en = [
   {
     id: "in-app-purchase",
     palabra: "In-app purchase",
-    imagen: { id: 4751, alt: "A credit card in front of a game screen" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Paying real money for something inside a game or an app, like coins or extra levels.",
     sinonimos: ["in-game purchase"],
     ejemplo: { palabra: "in-app purchase", texto: "The game asked for real money through an in-app purchase." },
@@ -8247,7 +8247,7 @@ DICCIONARIOS.en = [
   {
     id: "prepaid-card",
     palabra: "Prepaid card",
-    imagen: { id: 4751, alt: "A bank card" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A card you load with money before using it. You can only spend what is loaded on it.",
     sinonimos: ["top-up card"],
     ejemplo: { palabra: "prepaid card", texto: "He gave his son a prepaid card for his monthly spending." },
@@ -8587,7 +8587,7 @@ DICCIONARIOS.en = [
   {
     id: "self-assessment",
     palabra: "Self-assessment",
-    imagen: { id: 9173, alt: "A form next to a calculator" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A form where you calculate yourself how much money you owe for a tax.",
     sinonimos: ["tax self-assessment"],
     ejemplo: { palabra: "self-assessment", texto: "She filled in the self-assessment before submitting the tax." },
@@ -8597,7 +8597,7 @@ DICCIONARIOS.en = [
   {
     id: "complaints-form",
     palabra: "Complaints form",
-    imagen: { id: 9173, alt: "A form with a pen on top" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "An official form you can ask for in a shop or a service to complain in writing.",
     sinonimos: ["complaint form"],
     ejemplo: { palabra: "complaints form", texto: "He asked for the complaints form because the order arrived broken." },
@@ -8657,7 +8657,7 @@ DICCIONARIOS.en = [
   {
     id: "personal-data",
     palabra: "Personal data",
-    imagen: { id: 9173, alt: "A form with a name and an address" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "The information that identifies you, like your name, address, or phone number.",
     sinonimos: ["personal details"],
     ejemplo: { palabra: "personal data", texto: "She filled in her personal data in the first step of the form." },
@@ -8707,7 +8707,7 @@ DICCIONARIOS.en = [
   {
     id: "tick-box",
     palabra: "Tick box",
-    imagen: { id: 9173, alt: "A form with a small square ticked" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A small square on a form where you write a piece of data or tick an answer.",
     sinonimos: ["checkbox"],
     ejemplo: { palabra: "tick box", texto: "He marked the tick box for yes before signing." },
@@ -8717,7 +8717,7 @@ DICCIONARIOS.en = [
   {
     id: "fill-in-a-form",
     palabra: "Fill in a form",
-    imagen: { id: 9173, alt: "A hand writing on a form" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "To write down all the details a form asks for.",
     sinonimos: ["complete a form"],
     ejemplo: { palabra: "fill in the form", texto: "It took him ten minutes to fill in the form." },
@@ -9227,7 +9227,7 @@ DICCIONARIOS.en = [
   {
     id: "school-enrolment",
     palabra: "School enrolment",
-    imagen: { id: 9173, alt: "A form with the name of a school" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "The process of officially signing up for a school, a course, or a university.",
     sinonimos: ["registration for school"],
     ejemplo: { palabra: "school enrolment", texto: "She did her son's school enrolment before term started." },
@@ -11886,7 +11886,7 @@ DICCIONARIOS.en = [
   {
     id: "credit-line",
     palabra: "Credit line",
-    imagen: { id: 4751, alt: "A credit card" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A bank account you can take borrowed money from up to a limit, whenever you need it.",
     sinonimos: ["available borrowed money"],
     ejemplo: { palabra: "credit line", texto: "He used his credit line to pay for an urgent repair." },
@@ -14986,7 +14986,7 @@ DICCIONARIOS.en = [
   {
     id: "claimant",
     palabra: "Claimant",
-    imagen: { id: 9173, alt: "A claim form" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The person who asks for money or a benefit, like an insurance payout or a compensation payment.",
     sinonimos: ["person making the claim"],
     ejemplo: { palabra: "The claimant", texto: "The claimant had to send proof of the accident." },
@@ -16646,7 +16646,7 @@ DICCIONARIOS.en = [
   {
     id: "classism",
     palabra: "Classism",
-    imagen: { id: 12323, alt: "A group of people with one person excluded" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Unfair treatment of people because of their social or economic class.",
     sinonimos: ["discrimination based on social class"],
     ejemplo: { palabra: "classism", texto: "The report described classism in how tenants were treated by the landlord." },
@@ -19236,7 +19236,7 @@ DICCIONARIOS.en = [
   {
     id: "misogyny",
     palabra: "Misogyny",
-    imagen: { id: 12323, alt: "A group of people, one excluded" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A strong dislike or prejudice against women.",
     sinonimos: ["prejudice against women"],
     ejemplo: { palabra: "misogyny", texto: "The company launched training to address misogyny in the workplace." },
@@ -20376,7 +20376,7 @@ DICCIONARIOS.en = [
   {
     id: "racism",
     palabra: "Racism",
-    imagen: { id: 12323, alt: "A group of people, one of them excluded" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "The unfair treatment of people because of their race.",
     sinonimos: ["unfair treatment of people because of their race"],
     ejemplo: { palabra: "racism", texto: "The school introduced a new program to fight racism." },
