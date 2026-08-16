@@ -536,7 +536,7 @@ DICCIONARIOS.es = [
   {
     id: "impago",
     palabra: "Impago",
-    imagen: { id: 15517, alt: "Una factura sin pagar" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "No pagas una deuda en la fecha que tocaba.",
     sinonimos: ["deuda sin pagar", "pago pendiente"],
     ejemplo: { palabra: "impago", texto: "Hubo un impago de la factura del gas." },
@@ -679,7 +679,7 @@ DICCIONARIOS.es = [
   {
     id: "indemnizacion",
     palabra: "Indemnización",
-    imagen: { id: 21531, alt: "Un jefe despide a un trabajador en la oficina" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Dinero que te da la empresa cuando te despide.",
     sinonimos: ["compensación económica", "compensación"],
     ejemplo: { palabra: "indemnización", texto: "Le pagaron una indemnización al perder el trabajo." },
@@ -758,7 +758,7 @@ DICCIONARIOS.es = [
   {
     id: "responsabilidad-civil",
     palabra: "Responsabilidad civil",
-    imagen: { id: 16029, alt: "Un seguro de coche con la firma del dueño" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Tener que pagar por un daño que le has hecho a otra persona.",
     sinonimos: ["pagar el daño causado", "el gasto del daño"],
     ejemplo: { palabra: "responsabilidad civil", texto: "El seguro cubre la responsabilidad civil si chocas con el coche." },
@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 34814, alt: "Préstamo" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2457,7 +2457,7 @@ DICCIONARIOS.es = [
   {
     id: "factura-luz",
     palabra: "Factura de la luz",
-    imagen: { id: 15517, alt: "Una factura de la luz" },
+    imagen: { id: 38971, alt: "Cuenta, factura" },
     definicion: "El papel que te manda la compañía eléctrica cada mes. Tienes que pagarlo.",
     sinonimos: ["recibo de la luz"],
     ejemplo: { palabra: "factura de la luz", texto: "La factura de la luz llegó más cara este mes." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 36403, alt: "Ahorro" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 11291, alt: "Juez, magistrado" },
+    imagen: { id: 35413, alt: "Notario" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -3924,7 +3924,7 @@ DICCIONARIOS.es = [
   {
     id: "despido-improcedente",
     palabra: "Despido improcedente",
-    imagen: { id: 21531, alt: "Una mano entrega un documento de despido" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Un despido que no cumple las reglas de la ley. El trabajador puede reclamar.",
     sinonimos: ["despido que no vale"],
     ejemplo: { palabra: "despido improcedente", texto: "El juez declaró el despido improcedente y la empresa tuvo que readmitirlo." },
@@ -3935,7 +3935,7 @@ DICCIONARIOS.es = [
   {
     id: "despido-procedente",
     palabra: "Despido procedente",
-    imagen: { id: 21531, alt: "Una mano entrega un documento de despido" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Un despido que sí cumple las reglas de la ley. No se puede reclamar.",
     sinonimos: ["despido legal"],
     ejemplo: { palabra: "despido procedente", texto: "El juez declaró el despido procedente y el trabajador no recibió indemnización." },
@@ -10379,7 +10379,7 @@ DICCIONARIOS.es = [
   {
     id: "interes-de-demora",
     palabra: "Interés de demora",
-    imagen: { id: 15517, alt: "Una factura sin pagar con un recargo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "El dinero extra que pagas por pagar tarde. Se suma a la deuda.",
     sinonimos: ["recargo por retraso"],
     ejemplo: { palabra: "interés de demora", texto: "Como pagó el recibo tarde, le cobraron un interés de demora." },
@@ -10399,7 +10399,7 @@ DICCIONARIOS.es = [
   {
     id: "insolvencia",
     palabra: "Insolvencia",
-    imagen: { id: 15517, alt: "Una factura sin pagar" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "No tener dinero para pagar las deudas.",
     sinonimos: ["falta de dinero para pagar"],
     ejemplo: { palabra: "insolvencia", texto: "La empresa cerró por una situación de insolvencia." },
@@ -10459,7 +10459,7 @@ DICCIONARIOS.es = [
   {
     id: "impuesto-de-sucesiones",
     palabra: "Impuesto de sucesiones",
-    imagen: { id: 11700, alt: "Una persona hereda algo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "El dinero que se paga al Estado cuando recibes una herencia.",
     sinonimos: ["impuesto de la herencia"],
     ejemplo: { palabra: "impuesto de sucesiones", texto: "Pagó el impuesto de sucesiones al heredar la casa de su madre." },
@@ -10519,7 +10519,7 @@ DICCIONARIOS.es = [
   {
     id: "devolucion-de-recibo",
     palabra: "Devolución de recibo",
-    imagen: { id: 15517, alt: "Una factura sin pagar" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Cuando el banco no puede cobrar un recibo porque no hay dinero en la cuenta.",
     sinonimos: ["recibo rechazado por el banco"],
     ejemplo: { palabra: "devolución de recibo", texto: "Tuvo una devolución de recibo y el banco le cobró un extra." },
@@ -10821,7 +10821,7 @@ DICCIONARIOS.es = [
   {
     id: "legitima",
     palabra: "Legítima",
-    imagen: { id: 11700, alt: "Una persona hereda algo" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "La parte de una herencia que la ley obliga a dejar a ciertos familiares.",
     sinonimos: ["parte obligatoria de la herencia"],
     ejemplo: { palabra: "legítima", texto: "Sus hijos recibieron la legítima de la herencia." },
@@ -10831,7 +10831,7 @@ DICCIONARIOS.es = [
   {
     id: "desheredar",
     palabra: "Desheredar",
-    imagen: { id: 11700, alt: "Una persona hereda algo" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Dejar a alguien sin herencia por una razón que permite la ley.",
     sinonimos: ["quitar el derecho a heredar"],
     ejemplo: { palabra: "desheredar", texto: "El padre decidió desheredar a uno de sus hijos." },
@@ -11404,7 +11404,7 @@ DICCIONARIOS.es = [
   {
     id: "ere",
     palabra: "ERE",
-    imagen: { id: 21531, alt: "Un jefe despide a un trabajador en la oficina" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Cuando una empresa despide a muchos trabajadores a la vez por problemas económicos.",
     sinonimos: ["despido colectivo"],
     ejemplo: { palabra: "ERE", texto: "La fábrica anunció un ERE que afectaba a cien personas." },
@@ -11966,7 +11966,7 @@ DICCIONARIOS.es = [
   {
     id: "cargas-de-la-vivienda",
     palabra: "Cargas de la vivienda",
-    imagen: { id: 15517, alt: "Una factura sin pagar" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Las deudas o los problemas legales que tiene una casa antes de comprarla, como una hipoteca sin terminar de pagar.",
     sinonimos: ["deudas de una casa antes de comprarla"],
     ejemplo: { palabra: "cargas de la vivienda", texto: "El notario comprobó las cargas de la vivienda antes de la firma." },
@@ -12499,7 +12499,7 @@ DICCIONARIOS.es = [
   {
     id: "legado",
     palabra: "Legado",
-    imagen: { id: 11700, alt: "Una persona hereda algo" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un bien concreto, como una joya o un coche, que alguien deja a una persona en su testamento.",
     sinonimos: ["bien concreto dejado en un testamento"],
     ejemplo: { palabra: "legado", texto: "Recibió el reloj de su abuelo como legado." },
@@ -14022,7 +14022,7 @@ DICCIONARIOS.es = [
   {
     id: "semestre",
     palabra: "Semestre",
-    imagen: { id: 15537, alt: "Un calendario dividido en dos mitades de un curso escolar" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "La mitad de un curso escolar o universitario. La mayoría de los cursos tienen dos semestres.",
     sinonimos: ["medio curso"],
     ejemplo: { palabra: "semestre", texto: "Aprobó todas las asignaturas este semestre." },
@@ -14052,7 +14052,7 @@ DICCIONARIOS.es = [
   {
     id: "titulo-universitario",
     palabra: "Título universitario",
-    imagen: { id: 15537, alt: "Un graduado sosteniendo un título enrollado" },
+    imagen: { id: 27724, alt: "Diploma" },
     definicion: "Una titulación que obtienes al terminar estudios universitarios. Indica qué materia estudiaste.",
     sinonimos: ["grado universitario"],
     ejemplo: { palabra: "título universitario", texto: "Tiene un título universitario en ingeniería." },
@@ -14112,7 +14112,7 @@ DICCIONARIOS.es = [
   {
     id: "campus",
     palabra: "Campus",
-    imagen: { id: 15537, alt: "Varios edificios universitarios alrededor de una zona verde" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "El terreno y los edificios de un colegio o universidad. Incluye aulas, oficinas y a veces alojamiento.",
     sinonimos: ["recinto universitario"],
     ejemplo: { palabra: "campus", texto: "La biblioteca está en el centro del campus." },
@@ -14122,7 +14122,7 @@ DICCIONARIOS.es = [
   {
     id: "facultad",
     palabra: "Facultad",
-    imagen: { id: 15537, alt: "Un edificio universitario con un cartel de departamento" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "Un departamento de una universidad que enseña un área de estudio. Por ejemplo, la Facultad de Medicina.",
     sinonimos: ["unidad académica"],
     ejemplo: { palabra: "facultad", texto: "La facultad organizó un acto de bienvenida para los nuevos estudiantes." },
@@ -14822,7 +14822,7 @@ DICCIONARIOS.es = [
   {
     id: "educacion-terciaria",
     palabra: "Educación terciaria",
-    imagen: { id: 15537, alt: "Un edificio universitario" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "El nivel de estudios después de la educación secundaria, como la universidad. Suele llevar a una titulación.",
     sinonimos: ["educación superior"],
     ejemplo: { palabra: "educación terciaria", texto: "Continuó con la educación terciaria después de terminar el colegio." },
@@ -15562,7 +15562,7 @@ DICCIONARIOS.es = [
   {
     id: "aseguradora",
     palabra: "Aseguradora",
-    imagen: { id: 16029, alt: "Una persona llama por teléfono junto a un coche accidentado" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Una empresa que cobra dinero a cambio de pagar si ocurre un problema, como un accidente.",
     sinonimos: ["compañía de seguros"],
     ejemplo: { palabra: "aseguradora", texto: "Llamó a la aseguradora tras el accidente de coche." },
@@ -16982,7 +16982,7 @@ DICCIONARIOS.es = [
   {
     id: "cuatrimestre",
     palabra: "Cuatrimestre",
-    imagen: { id: 15537, alt: "Un calendario junto a libros de estudio" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "Un período de cuatro meses, sobre todo en la universidad.",
     sinonimos: ["período de cuatro meses"],
     ejemplo: { palabra: "cuatrimestre", texto: "Aprobó todas las asignaturas del primer cuatrimestre." },
