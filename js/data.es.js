@@ -1442,7 +1442,7 @@ DICCIONARIOS.es = [
   {
     id: "prestamo",
     palabra: "Préstamo",
-    imagen: { id: 34814, alt: "Préstamo" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Dinero que te da el banco para usarlo. Lo devuelves poco a poco con intereses.",
     sinonimos: ["dinero prestado", "crédito del banco"],
     ejemplo: { palabra: "préstamo", texto: "Pidió un préstamo para reformar la cocina." },
@@ -2512,7 +2512,7 @@ DICCIONARIOS.es = [
   {
     id: "ahorro",
     palabra: "Ahorro",
-    imagen: { id: 4630, alt: "Dinero" },
+    imagen: { id: 36403, alt: "Ahorro" },
     definicion: "Dinero que guardas en lugar de gastarlo, para usarlo más adelante.",
     sinonimos: ["dinero guardado"],
     ejemplo: { palabra: "ahorro", texto: "Cada mes guarda parte de su sueldo como ahorro." },
@@ -3148,7 +3148,7 @@ DICCIONARIOS.es = [
   {
     id: "cefalea-tensional",
     palabra: "Cefalea tensional",
-    imagen: { id: 2673, alt: "Una cabeza" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un dolor de cabeza que pasa por estar mucho tiempo tenso o preocupado.",
     sinonimos: ["dolor de cabeza por tensión"],
     ejemplo: { palabra: "cefalea tensional", texto: "Le dio una cefalea tensional después de un día muy duro de trabajo." },
@@ -3344,7 +3344,7 @@ DICCIONARIOS.es = [
   {
     id: "notario",
     palabra: "Notario",
-    imagen: { id: 35413, alt: "Notario" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona del Estado que da fe de los papeles. Sella y firma para que valgan.",
     sinonimos: ["persona que da fe"],
     ejemplo: { palabra: "notario", texto: "Firmaron las escrituras de la casa delante del notario." },
@@ -4544,7 +4544,7 @@ DICCIONARIOS.es = [
   {
     id: "becario",
     palabra: "Becario",
-    imagen: { id: 32666, alt: "Un estudiante" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Una persona, normalmente joven, que trabaja para aprender. Cobra poco o nada.",
     sinonimos: ["persona en prácticas"],
     ejemplo: { palabra: "becario", texto: "El becario pasó seis meses aprendiendo en la empresa." },
@@ -7568,7 +7568,7 @@ DICCIONARIOS.es = [
   {
     id: "aplicacion",
     palabra: "Aplicación",
-    imagen: { id: 2586, alt: "Un teléfono móvil" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Un programa pequeño que instalas en el móvil o la tableta para hacer algo, como chatear o jugar.",
     sinonimos: ["app", "programa del móvil"],
     ejemplo: { palabra: "aplicación", texto: "Se descargó una aplicación nueva para aprender inglés." },
@@ -8948,7 +8948,7 @@ DICCIONARIOS.es = [
   {
     id: "beca",
     palabra: "Beca",
-    imagen: { id: 32666, alt: "Un estudiante con libros" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Dinero que te da una institución para estudiar o para hacer prácticas.",
     sinonimos: ["ayuda para estudiar"],
     ejemplo: { palabra: "beca", texto: "Consiguió una beca para hacer prácticas en un hospital." },
@@ -12298,7 +12298,7 @@ DICCIONARIOS.es = [
   {
     id: "tarifa-de-datos",
     palabra: "Tarifa de datos",
-    imagen: { id: 2586, alt: "Un teléfono móvil" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "El precio que pagas cada mes por usar internet en el móvil.",
     sinonimos: ["precio mensual del internet del móvil"],
     ejemplo: { palabra: "tarifa de datos", texto: "Cambió de tarifa de datos para pagar menos cada mes." },
@@ -13002,7 +13002,7 @@ DICCIONARIOS.es = [
   {
     id: "arrendatario",
     palabra: "Arrendatario",
-    imagen: { id: 37870, alt: "Una persona firma un contrato de alquiler" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "La persona que alquila una casa. Paga cada mes al dueño por vivir allí.",
     sinonimos: ["inquilino con contrato"],
     ejemplo: { palabra: "arrendatario", texto: "El arrendatario dejó el piso al final del contrato." },
@@ -13122,7 +13122,7 @@ DICCIONARIOS.es = [
   {
     id: "inscripcion-registral",
     palabra: "Inscripción registral",
-    imagen: { id: 37870, alt: "Un libro abierto del Registro de la Propiedad" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "El apunte oficial que se hace en el Registro de la Propiedad para registrar quién es dueño de una casa.",
     sinonimos: ["apunte en el Registro"],
     ejemplo: { palabra: "inscripción registral", texto: "La inscripción registral de la casa se hizo dos meses después de la escritura." },
@@ -15182,7 +15182,7 @@ DICCIONARIOS.es = [
   {
     id: "aduana",
     palabra: "Aduana",
-    imagen: { id: 8483, alt: "Frontera, aduana" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "El lugar en una frontera donde los funcionarios revisan lo que la gente trae al país. Algunos productos hay que declararlos.",
     sinonimos: ["control fronterizo de mercancías"],
     ejemplo: { palabra: "la aduana", texto: "Tuvo que pasar por la aduana para declarar los regalos." },
@@ -15292,7 +15292,7 @@ DICCIONARIOS.es = [
   {
     id: "suspension-escolar",
     palabra: "Suspensión escolar",
-    imagen: { id: 32666, alt: "Un estudiante con una mochila" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "Un período corto en el que un estudiante no puede ir al colegio, como castigo. No es permanente.",
     sinonimos: ["exclusión temporal"],
     ejemplo: { palabra: "una suspensión escolar", texto: "Recibió una suspensión escolar por pelearse." },
@@ -15372,7 +15372,7 @@ DICCIONARIOS.es = [
   {
     id: "afeccion",
     palabra: "Afección",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 11252, alt: "Enfermedades, enfermedad" },
     definicion: "Un problema de salud. Una enfermedad o molestia en el cuerpo.",
     sinonimos: ["enfermedad", "dolencia"],
     ejemplo: { palabra: "afección", texto: "Tiene una afección en la piel que le pica mucho." },
