@@ -404,6 +404,45 @@ actualizarla en el mismo cambio.
 Sea cual sea el camino que la encuentre, mira primero en `img/` — el
 concepto que necesitas puede que ya esté ahí.
 
+**Respaldo por categoría cuando no existe ningún pictograma**: algunas
+palabras — sobre todo términos abstractos legales/financieros/
+administrativos (*tributario*, *vencimiento*, *hipotecar*) — no tienen
+ningún pictograma no esquemático en ARASAAC, y punto. Confirma esto
+antes de aplicar el respaldo, no lo supongas: prueba la palabra misma,
+sus `sinonimos`, y un par de sinónimos de la definición contra
+`buscar-pictograma.js` (OpenSymbols + ARASAAC). Verificado a mano sobre
+un lote real: de 18 términos sin ningún resultado en ARASAAC, 16
+tampoco devolvieron ningún resultado en OpenSymbols en ninguno de los
+bancos que agrega — para este tipo de palabra, muchas veces no hay
+literalmente nada que encontrar, en ningún banco.
+
+Una vez confirmado, no dejes la entrada con la imagen que le tocara por
+casualidad durante la ingesta — así es como lotes anteriores acabaron
+con entradas apuntando a una catedral concreta o a un tió de Nadal para
+un término de finanzas, que es peor que un icono honestamente genérico.
+Asigna en su lugar el respaldo deliberado por `situacion` de
+[`scripts/category-pictogram-defaults.js`](../../scripts/category-pictogram-defaults.js):
+
+| `situacion` | id de pictograma | palabra(s) clave |
+| --- | --- | --- |
+| `tramites` | 21802 | documento |
+| `salud` | 2467 | médico, doctor |
+| `vida-diaria` | 8717 | vida |
+| `finanzas` | 4630 | dinero |
+| `vivienda` | 2317 | casa |
+| `trabajo` | 11457 | mercado laboral, empleo |
+| `legal` | 11291 | juez, magistrado |
+| `tecnologia` | 11459 | tecnología |
+| `seguridad` | 12260 | protección, seguridad |
+| `educacion` | 8098 | educación, formación |
+
+Son los mismos pictogramas genéricos que la mayoría de entradas de cada
+categoría ya terminaron compartiendo de forma orgánica en tandas de
+ingesta anteriores — esta tabla convierte ese patrón ya existente en
+algo deliberado y documentado en vez de accidental, y le da a cada tanda
+futura un respaldo definido en vez de un error de ingesta que arreglar
+luego a mano.
+
 ## Gamificación
 
 La palabra del día, "sorpréndeme", una barra de progreso de

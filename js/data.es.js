@@ -216,7 +216,7 @@ DICCIONARIOS.es = [
   {
     id: "usufructo",
     palabra: "Usufructo",
-    imagen: { id: 2317, alt: "Una casa" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Usar algo y aprovecharlo. Aunque no sea tuyo.",
     sinonimos: ["uso y disfrute"],
     ejemplo: { palabra: "usufructo", texto: "La abuela dejó a su hija el usufructo de la casa de la playa." },
@@ -301,7 +301,7 @@ DICCIONARIOS.es = [
   {
     id: "cianosis",
     palabra: "Cianosis",
-    imagen: { id: 2840, alt: "La piel de una mano" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "La piel o los labios se ponen azules. Falta oxígeno.",
     sinonimos: ["color azulado de la piel"],
     ejemplo: { palabra: "cianosis", texto: "El bebé tenía cianosis en los labios y lo llevaron corriendo al hospital." },
@@ -332,7 +332,7 @@ DICCIONARIOS.es = [
   {
     id: "eritema",
     palabra: "Eritema",
-    imagen: { id: 2840, alt: "La piel de una mano" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "La piel se pone roja. Puede picar un poco.",
     sinonimos: ["enrojecimiento de la piel"],
     ejemplo: { palabra: "eritema", texto: "La crema nueva le dejó un eritema en el brazo." },
@@ -343,7 +343,7 @@ DICCIONARIOS.es = [
   {
     id: "dermatitis",
     palabra: "Dermatitis",
-    imagen: { id: 2840, alt: "La piel de una mano" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "La piel se irrita. Pica o sale rojez.",
     sinonimos: ["irritación de la piel"],
     ejemplo: { palabra: "dermatitis", texto: "El niño tiene dermatitis en los brazos por el calor." },
@@ -658,7 +658,7 @@ DICCIONARIOS.es = [
   {
     id: "contrato",
     palabra: "Contrato",
-    imagen: { id: 12317, alt: "Una mano firma un papel" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Papel que firmas cuando empiezas un trabajo. Dice las condiciones.",
     sinonimos: ["acuerdo escrito", "acuerdo"],
     ejemplo: { palabra: "contrato", texto: "Firmó el contrato antes de empezar a trabajar." },
@@ -1095,7 +1095,7 @@ DICCIONARIOS.es = [
   {
     id: "pension-alimenticia",
     palabra: "Pensión alimenticia",
-    imagen: { id: 4630, alt: "Billetes y monedas de euro" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Dinero que paga un padre o una madre al otro para los hijos. Lo dice un juez.",
     sinonimos: ["paga para los hijos", "mantenimiento de los hijos"],
     ejemplo: { palabra: "pensión alimenticia", texto: "Él paga la pensión alimenticia cada mes." },
@@ -1138,7 +1138,7 @@ DICCIONARIOS.es = [
   {
     id: "fianza-juridica",
     palabra: "Fianza",
-    imagen: { id: 4630, alt: "Billetes y monedas de euro" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Dinero que se paga para salir de la cárcel mientras el juez decide el caso.",
     sinonimos: ["depósito para salir libre", "dinero para salir en libertad"],
     ejemplo: { palabra: "fianza", texto: "Pagó la fianza y salió de la cárcel ese mismo día." },
@@ -1235,7 +1235,7 @@ DICCIONARIOS.es = [
   {
     id: "tasacion",
     palabra: "Tasación",
-    imagen: { id: 4630, alt: "Billetes y monedas de euro" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Mirar cuánto vale una casa. Lo hace un experto y sirve para pedir una hipoteca.",
     sinonimos: ["valoración de la casa", "cálculo del precio"],
     ejemplo: { palabra: "tasación", texto: "El banco pidió una tasación antes de dar la hipoteca." },
@@ -1267,7 +1267,7 @@ DICCIONARIOS.es = [
   {
     id: "gastos-comunidad",
     palabra: "Gastos de comunidad",
-    imagen: { id: 4630, alt: "Billetes y monedas de euro" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Dinero que pagan los vecinos cada mes. Sirve para el ascensor, la luz de la escalera y la limpieza.",
     sinonimos: ["cuota de la comunidad", "cuota del edificio"],
     ejemplo: { palabra: "gastos de comunidad", texto: "Los gastos de comunidad suben este año." },
@@ -1713,7 +1713,7 @@ DICCIONARIOS.es = [
   {
     id: "firmar",
     palabra: "Firmar",
-    imagen: { id: 12317, alt: "Una mano firma un papel" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Poner tu nombre en un papel. Sirve para aceptar lo que dice el papel.",
     sinonimos: ["rubricar", "poner la firma"],
     ejemplo: { palabra: "firmó", texto: "Firmó el contrato antes de empezar a trabajar." },
@@ -1864,7 +1864,7 @@ DICCIONARIOS.es = [
   {
     id: "prestacion",
     palabra: "Prestación",
-    imagen: { id: 4630, alt: "Dinero de prestación" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Dinero que da la Seguridad Social cuando no puedes trabajar. Por ejemplo, por enfermedad.",
     sinonimos: ["ayuda del Estado", "dinero de la Seguridad Social"],
     ejemplo: { palabra: "prestación", texto: "Cobró la prestación por incapacidad durante seis meses." },
@@ -1928,7 +1928,7 @@ DICCIONARIOS.es = [
   {
     id: "seguridad-social",
     palabra: "Seguridad Social",
-    imagen: { id: 4630, alt: "Dinero de la Seguridad Social" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Un sistema del Estado. Te quita dinero del sueldo para pagar tu médico y tu jubilación.",
     sinonimos: ["seguridad social pública", "sistema público de salud"],
     ejemplo: { palabra: "Seguridad Social", texto: "Cotiza a la Seguridad Social cada mes." },
@@ -2247,7 +2247,7 @@ DICCIONARIOS.es = [
   {
     id: "deudor",
     palabra: "Deudor",
-    imagen: { id: 4630, alt: "Billetes y monedas de euro" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "La persona que le debe dinero a otra y todavía no lo ha pagado.",
     sinonimos: ["persona que debe dinero"],
     ejemplo: { palabra: "deudor", texto: "El deudor no pudo pagar las cuotas del préstamo." },
@@ -2258,7 +2258,7 @@ DICCIONARIOS.es = [
   {
     id: "acreedor",
     palabra: "Acreedor",
-    imagen: { id: 4630, alt: "Billetes y monedas de euro" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "La persona o entidad que tiene derecho a cobrar dinero de otra.",
     sinonimos: ["persona que cobra dinero"],
     ejemplo: { palabra: "acreedor", texto: "El acreedor reclamó la deuda en el juzgado." },
@@ -2313,7 +2313,7 @@ DICCIONARIOS.es = [
   {
     id: "contrato-alquiler",
     palabra: "Contrato de alquiler",
-    imagen: { id: 12317, alt: "Una mano firma un papel" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "El papel que firmas con el dueño para alquilar su piso. Dice cuánto pagas y cuánto dura.",
     sinonimos: ["papel firmado del alquiler"],
     ejemplo: { palabra: "contrato de alquiler", texto: "Firmaron el contrato de alquiler por un año." },
@@ -2784,7 +2784,7 @@ DICCIONARIOS.es = [
   {
     id: "convenio",
     palabra: "Convenio",
-    imagen: { id: 12317, alt: "Una mano firma un papel" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Un acuerdo firmado entre los trabajadores y la empresa. Dice las condiciones del trabajo.",
     sinonimos: ["acuerdo laboral"],
     ejemplo: { palabra: "convenio", texto: "El convenio subió el salario mínimo del sector." },
@@ -2827,7 +2827,7 @@ DICCIONARIOS.es = [
   {
     id: "tasa",
     palabra: "Tasa",
-    imagen: { id: 4630, alt: "Billetes y monedas de euro" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Dinero que pagas al Estado por hacer un trámite o pedir un documento oficial.",
     sinonimos: ["precio del trámite"],
     ejemplo: { palabra: "tasa", texto: "Pagó la tasa del pasaporte en el banco antes de ir a la oficina." },
@@ -3355,7 +3355,7 @@ DICCIONARIOS.es = [
   {
     id: "acta",
     palabra: "Acta",
-    imagen: { id: 21802, alt: "Un documento oficial" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un papel oficial que deja por escrito lo que se dijo o acordó en una reunión.",
     sinonimos: ["documento de lo dicho"],
     ejemplo: { palabra: "acta", texto: "El acta de la reunión la firmó el jefe al final." },
@@ -3366,7 +3366,7 @@ DICCIONARIOS.es = [
   {
     id: "auto-judicial",
     palabra: "Auto judicial",
-    imagen: { id: 21802, alt: "Un documento judicial" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una decisión escrita de un juez sobre cómo seguir un caso antes del juicio.",
     sinonimos: ["resolución del juez"],
     ejemplo: { palabra: "auto judicial", texto: "El juez firmó un auto judicial para seguir investigando el caso." },
@@ -3687,7 +3687,7 @@ DICCIONARIOS.es = [
   {
     id: "clausula",
     palabra: "Cláusula",
-    imagen: { id: 21802, alt: "Un documento con condiciones" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Cada una de las condiciones de un contrato. Las firmas cuando aceptas el papel.",
     sinonimos: ["condición del contrato"],
     ejemplo: { palabra: "cláusula", texto: "Leyó cada cláusula del contrato antes de firmar." },
@@ -3827,7 +3827,7 @@ DICCIONARIOS.es = [
   {
     id: "contrato-indefinido",
     palabra: "Contrato indefinido",
-    imagen: { id: 12317, alt: "Una mano firma un papel" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Un contrato de trabajo sin fecha de fin. Dura hasta que te vayas o te despidan.",
     sinonimos: ["contrato fijo"],
     ejemplo: { palabra: "contrato indefinido", texto: "Después de un año le pasaron a contrato indefinido." },
@@ -3869,7 +3869,7 @@ DICCIONARIOS.es = [
   {
     id: "paga-extra",
     palabra: "Paga extra",
-    imagen: { id: 4630, alt: "Billetes y monedas de euro" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Un dinero extra que te pagan dos veces al año: en verano y en Navidad.",
     sinonimos: ["sueldo extra"],
     ejemplo: { palabra: "paga extra", texto: "Cobró la paga extra de Navidad antes de las fiestas." },
@@ -3880,7 +3880,7 @@ DICCIONARIOS.es = [
   {
     id: "fin-contrato",
     palabra: "Fin del contrato",
-    imagen: { id: 21802, alt: "Un documento" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "El momento en que tu contrato de trabajo se acaba. Deja de tener efectos.",
     sinonimos: ["final del contrato"],
     ejemplo: { palabra: "fin del contrato", texto: "Le avisaron del fin del contrato con quince días de antelación." },
@@ -3913,7 +3913,7 @@ DICCIONARIOS.es = [
   {
     id: "renovar-contrato",
     palabra: "Renovar el contrato",
-    imagen: { id: 12317, alt: "Una mano firma un papel" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Firmar otro contrato igual para seguir en el mismo puesto otro tiempo.",
     sinonimos: ["volver a firmar el contrato"],
     ejemplo: { palabra: "renovar el contrato", texto: "Le ofrecieron renovar el contrato por un año más." },
@@ -4822,7 +4822,7 @@ DICCIONARIOS.es = [
   {
     id: "papel-firmado",
     palabra: "Papel firmado",
-    imagen: { id: 12317, alt: "Una mano firma un papel" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un documento que alguien ha firmado. Sirve como prueba de lo que dice.",
     sinonimos: ["documento con firma"],
     ejemplo: { palabra: "papel firmado", texto: "Guarda el papel firmado en un lugar seguro." },
@@ -4885,7 +4885,7 @@ DICCIONARIOS.es = [
   {
     id: "autorizacion",
     palabra: "Autorización",
-    imagen: { id: 12317, alt: "Una mano firma un papel" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un papel que te da permiso para hacer algo. Lo firma una persona con autoridad.",
     sinonimos: ["papel de permiso"],
     ejemplo: { palabra: "autorización", texto: "Necesita la autorización de su madre para ir al viaje del colegio." },
@@ -4969,7 +4969,7 @@ DICCIONARIOS.es = [
   {
     id: "personarse",
     palabra: "Personarse",
-    imagen: { id: 11291, alt: "Un juez o un juzgado" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Ir en persona a un sitio que te han dicho, sobre todo una oficina o un juzgado.",
     sinonimos: ["ir en persona"],
     ejemplo: { palabra: "personarse", texto: "Le mandaron personarse en el juzgado el jueves." },
@@ -8018,7 +8018,7 @@ DICCIONARIOS.es = [
   {
     id: "domotica",
     palabra: "Domótica",
-    imagen: { id: 2317, alt: "Una casa" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Aparatos de casa que se controlan desde el móvil, como las luces o la calefacción.",
     sinonimos: ["casa inteligente", "hogar inteligente"],
     ejemplo: { palabra: "domótica", texto: "Con la domótica encendía las luces de casa desde el móvil." },
@@ -8038,7 +8038,7 @@ DICCIONARIOS.es = [
   {
     id: "terminos-y-condiciones",
     palabra: "Términos y condiciones",
-    imagen: { id: 21802, alt: "Un documento largo con una casilla para marcar" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "El texto largo que explica las normas de una aplicación. Hay que aceptarlo para poder usarla.",
     sinonimos: ["condiciones de uso"],
     ejemplo: { palabra: "términos y condiciones", texto: "Aceptó los términos y condiciones antes de crear la cuenta." },
@@ -8328,7 +8328,7 @@ DICCIONARIOS.es = [
   {
     id: "firma",
     palabra: "Firma",
-    imagen: { id: 12317, alt: "Una mano firmando un documento" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Escribir tu nombre de una forma especial en un papel, para decir que estás de acuerdo.",
     sinonimos: ["rúbrica"],
     ejemplo: { palabra: "firma", texto: "Puso su firma al final del contrato." },
@@ -8468,7 +8468,7 @@ DICCIONARIOS.es = [
   {
     id: "vigencia",
     palabra: "Vigencia",
-    imagen: { id: 21802, alt: "Un documento" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "El tiempo durante el cual un documento o una ley todavía sirve y se puede usar.",
     sinonimos: ["periodo de validez"],
     ejemplo: { palabra: "vigencia", texto: "El contrato de alquiler tenía una vigencia de un año." },
@@ -8838,7 +8838,7 @@ DICCIONARIOS.es = [
   {
     id: "derrama",
     palabra: "Derrama",
-    imagen: { id: 4630, alt: "Varios vecinos poniendo dinero juntos" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Un pago extra que tienen que hacer los vecinos de un edificio para una obra grande, como arreglar el tejado.",
     sinonimos: ["pago extraordinario de la comunidad"],
     ejemplo: { palabra: "derrama", texto: "Los vecinos pagaron una derrama para arreglar el ascensor." },
@@ -8868,7 +8868,7 @@ DICCIONARIOS.es = [
   {
     id: "finiquito",
     palabra: "Finiquito",
-    imagen: { id: 4630, alt: "Un sobre con dinero y un documento" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "El dinero que te da la empresa el último día de trabajo, con todo lo que todavía te debía.",
     sinonimos: ["liquidación final"],
     ejemplo: { palabra: "finiquito", texto: "Firmó el finiquito el último día en la empresa." },
@@ -8918,7 +8918,7 @@ DICCIONARIOS.es = [
   {
     id: "vida-laboral",
     palabra: "Vida laboral",
-    imagen: { id: 21802, alt: "Un documento con una lista de empresas" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Un documento oficial que lista todas las empresas en las que has trabajado y cuánto tiempo.",
     sinonimos: ["informe de vida laboral", "historial de trabajo"],
     ejemplo: { palabra: "vida laboral", texto: "Pidió su vida laboral para ver los años que le faltaban para jubilarse." },
@@ -8998,7 +8998,7 @@ DICCIONARIOS.es = [
   {
     id: "contrato-mercantil",
     palabra: "Contrato mercantil",
-    imagen: { id: 21802, alt: "Dos personas dándose la mano sobre un documento" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Un tipo de contrato para trabajar por tu cuenta con una empresa, sin ser su empleado fijo.",
     sinonimos: ["contrato de servicios", "contrato como autónomo"],
     ejemplo: { palabra: "contrato mercantil", texto: "Firmó un contrato mercantil para hacer un proyecto puntual." },
@@ -9028,7 +9028,7 @@ DICCIONARIOS.es = [
   {
     id: "reembolso",
     palabra: "Reembolso",
-    imagen: { id: 4630, alt: "Una mano recibiendo billetes de vuelta" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Recibir de vuelta el dinero que pagaste, normalmente porque devolviste algo.",
     sinonimos: ["devolución del dinero"],
     ejemplo: { palabra: "reembolso", texto: "Pidió el reembolso al devolver la chaqueta que no le valía." },
@@ -9498,7 +9498,7 @@ DICCIONARIOS.es = [
   {
     id: "poder-de-firma",
     palabra: "Poder de firma",
-    imagen: { id: 12317, alt: "Una mano firmando un documento del banco" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "El permiso que da el banco a una persona para firmar y mover el dinero de una cuenta que no es solo suya.",
     sinonimos: ["autorización en la cuenta"],
     ejemplo: { palabra: "poder de firma", texto: "Le dio poder de firma a su hija para gestionar su cuenta." },
@@ -9528,7 +9528,7 @@ DICCIONARIOS.es = [
   {
     id: "cuota-hipotecaria",
     palabra: "Cuota hipotecaria",
-    imagen: { id: 2317, alt: "Una casa pequeña con unas monedas al lado" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "El dinero que pagas cada mes al banco por la hipoteca de tu casa.",
     sinonimos: ["pago mensual de la hipoteca"],
     ejemplo: { palabra: "cuota hipotecaria", texto: "La cuota hipotecaria le salía por seiscientos euros al mes." },
@@ -9618,7 +9618,7 @@ DICCIONARIOS.es = [
   {
     id: "poder-general",
     palabra: "Poder general",
-    imagen: { id: 21802, alt: "Un documento firmado por dos personas" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un documento que da permiso a otra persona para hacer casi cualquier trámite en tu nombre.",
     sinonimos: ["autorización amplia"],
     ejemplo: { palabra: "poder general", texto: "Firmó un poder general para que su hija le representara en todo." },
@@ -9628,7 +9628,7 @@ DICCIONARIOS.es = [
   {
     id: "codeudor",
     palabra: "Codeudor",
-    imagen: { id: 12317, alt: "Una mano firmando un documento" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona que firma junto a ti un préstamo y también debe devolver el dinero si tú no puedes.",
     sinonimos: ["deudor solidario"],
     ejemplo: { palabra: "codeudor", texto: "Su padre fue el codeudor del préstamo del coche." },
@@ -9638,7 +9638,7 @@ DICCIONARIOS.es = [
   {
     id: "vicio-de-consentimiento",
     palabra: "Vicio de consentimiento",
-    imagen: { id: 12317, alt: "Una mano firmando un documento con dudas" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Cuando alguien firma algo porque le han engañado, amenazado o confundido, sin decidir libremente.",
     sinonimos: ["consentimiento forzado"],
     ejemplo: { palabra: "vicio de consentimiento", texto: "El contrato se anuló por vicio de consentimiento." },
@@ -9748,7 +9748,7 @@ DICCIONARIOS.es = [
   {
     id: "costas-judiciales",
     palabra: "Costas judiciales",
-    imagen: { id: 4630, alt: "Una balanza con monedas en un lado" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "El dinero que hay que pagar por un juicio, como los gastos del abogado o del procurador.",
     sinonimos: ["gastos del juicio"],
     ejemplo: { palabra: "costas judiciales", texto: "Tuvo que pagar las costas judiciales al perder el juicio." },
@@ -10188,7 +10188,7 @@ DICCIONARIOS.es = [
   {
     id: "firma-electronica-avanzada",
     palabra: "Firma electrónica avanzada",
-    imagen: { id: 12317, alt: "Una mano firmando un documento digital" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Un tipo de firma digital muy segura, que demuestra sin ninguna duda quién ha firmado un documento.",
     sinonimos: ["firma digital segura"],
     ejemplo: { palabra: "firma electrónica avanzada", texto: "Usó la firma electrónica avanzada para firmar el contrato de trabajo." },
@@ -10298,7 +10298,7 @@ DICCIONARIOS.es = [
   {
     id: "aval-de-alquiler",
     palabra: "Aval de alquiler",
-    imagen: { id: 21802, alt: "Un documento de garantía firmado" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Una garantía extra, además de la fianza, que pide el dueño de un piso antes de alquilarlo.",
     sinonimos: ["garantía adicional del alquiler"],
     ejemplo: { palabra: "aval de alquiler", texto: "Su padre firmó como aval de alquiler del piso." },
@@ -10348,7 +10348,7 @@ DICCIONARIOS.es = [
   {
     id: "justificante-de-asistencia",
     palabra: "Justificante de asistencia",
-    imagen: { id: 21802, alt: "Un papel sellado con una hora escrita" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un papel que demuestra que estuviste en una cita o en una reunión, para enseñarlo en el trabajo.",
     sinonimos: ["comprobante de asistencia"],
     ejemplo: { palabra: "justificante de asistencia", texto: "Pidió el justificante de asistencia en la consulta del médico." },
@@ -10358,7 +10358,7 @@ DICCIONARIOS.es = [
   {
     id: "poliza-de-decesos",
     palabra: "Póliza de decesos",
-    imagen: { id: 21802, alt: "Un documento de seguro con una firma" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "El documento que firmas al contratar un seguro de decesos, con todas sus condiciones.",
     sinonimos: ["contrato del seguro de decesos"],
     ejemplo: { palabra: "póliza de decesos", texto: "Guardó la póliza de decesos junto con los otros seguros." },
@@ -10429,7 +10429,7 @@ DICCIONARIOS.es = [
   {
     id: "titular-de-la-cuenta",
     palabra: "Titular de la cuenta",
-    imagen: { id: 12317, alt: "Una persona firma un papel del banco" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "La persona dueña de la cuenta del banco. Su nombre está en la cuenta.",
     sinonimos: ["dueño de la cuenta"],
     ejemplo: { palabra: "titular de la cuenta", texto: "Solo el titular de la cuenta puede sacar ese dinero." },
@@ -10439,7 +10439,7 @@ DICCIONARIOS.es = [
   {
     id: "cotitular",
     palabra: "Cotitular",
-    imagen: { id: 12317, alt: "Dos personas firman juntas un papel del banco" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Una persona que comparte la cuenta del banco con otra. Los dos pueden usar el dinero.",
     sinonimos: ["dueño compartido de la cuenta"],
     ejemplo: { palabra: "cotitular", texto: "Puso a su hijo como cotitular de la cuenta." },
@@ -10781,7 +10781,7 @@ DICCIONARIOS.es = [
   {
     id: "emplazamiento-judicial",
     palabra: "Emplazamiento judicial",
-    imagen: { id: 21802, alt: "Un documento judicial" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un papel del juzgado que te avisa para que te presentes en un juicio.",
     sinonimos: ["citación del juzgado"],
     ejemplo: { palabra: "emplazamiento judicial", texto: "Recibió un emplazamiento judicial para declarar como testigo." },
@@ -10791,7 +10791,7 @@ DICCIONARIOS.es = [
   {
     id: "notificacion-judicial",
     palabra: "Notificación judicial",
-    imagen: { id: 21802, alt: "Un documento judicial" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un papel oficial que el juzgado te envía para informarte de algo.",
     sinonimos: ["aviso oficial del juzgado"],
     ejemplo: { palabra: "notificación judicial", texto: "Le llegó una notificación judicial sobre la fecha del juicio." },
@@ -10841,7 +10841,7 @@ DICCIONARIOS.es = [
   {
     id: "separacion-de-bienes",
     palabra: "Separación de bienes",
-    imagen: { id: 21802, alt: "Un documento firmado por dos personas" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un acuerdo del matrimonio en el que cada persona es dueña de lo suyo, no de todo junto.",
     sinonimos: ["propiedad separada del matrimonio"],
     ejemplo: { palabra: "separación de bienes", texto: "Firmaron un régimen de separación de bienes antes de la boda." },
@@ -10931,7 +10931,7 @@ DICCIONARIOS.es = [
   {
     id: "poder-preventivo",
     palabra: "Poder preventivo",
-    imagen: { id: 21802, alt: "Un documento firmado por dos personas" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un papel legal que elige quién decidirá por ti si un día no puedes decidir solo.",
     sinonimos: ["autorización para el futuro"],
     ejemplo: { palabra: "poder preventivo", texto: "Firmó un poder preventivo a favor de su hija." },
@@ -11424,7 +11424,7 @@ DICCIONARIOS.es = [
   {
     id: "salario-bruto",
     palabra: "Salario bruto",
-    imagen: { id: 4630, alt: "Billetes y monedas de euro" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "El dinero que ganas antes de quitar los impuestos y la Seguridad Social.",
     sinonimos: ["sueldo antes de los descuentos"],
     ejemplo: { palabra: "salario bruto", texto: "Su salario bruto era mayor que el dinero que recibía en el banco." },
@@ -11434,7 +11434,7 @@ DICCIONARIOS.es = [
   {
     id: "salario-neto",
     palabra: "Salario neto",
-    imagen: { id: 4630, alt: "Billetes y monedas de euro" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "El dinero que recibes de verdad, después de quitar los impuestos y la Seguridad Social.",
     sinonimos: ["sueldo después de los descuentos"],
     ejemplo: { palabra: "salario neto", texto: "Comprobó su salario neto en la nómina de este mes." },
@@ -11504,7 +11504,7 @@ DICCIONARIOS.es = [
   {
     id: "clausula-de-no-competencia",
     palabra: "Cláusula de no competencia",
-    imagen: { id: 12317, alt: "Una mano firma un papel" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Una parte del contrato que te prohíbe trabajar para una empresa rival al dejar tu trabajo.",
     sinonimos: ["condición para no trabajar con la competencia"],
     ejemplo: { palabra: "cláusula de no competencia", texto: "Firmó una cláusula de no competencia por un año." },
@@ -11544,7 +11544,7 @@ DICCIONARIOS.es = [
   {
     id: "regimen-general",
     palabra: "Régimen general",
-    imagen: { id: 4630, alt: "Dinero de la Seguridad Social" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "El grupo de normas de la Seguridad Social para la mayoría de los trabajadores por cuenta ajena.",
     sinonimos: ["normas de la Seguridad Social para trabajadores por cuenta ajena"],
     ejemplo: { palabra: "régimen general", texto: "Cotizaba en el régimen general como empleada de la tienda." },
@@ -11574,7 +11574,7 @@ DICCIONARIOS.es = [
   {
     id: "salario-por-horas",
     palabra: "Salario por horas",
-    imagen: { id: 4630, alt: "Billetes y monedas de euro" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "El dinero que ganas según las horas que trabajas, en vez de un sueldo fijo al mes.",
     sinonimos: ["sueldo calculado por horas"],
     ejemplo: { palabra: "salario por horas", texto: "Cobraba un salario por horas en su trabajo de verano." },
@@ -11735,7 +11735,7 @@ DICCIONARIOS.es = [
   {
     id: "politica-de-cancelacion",
     palabra: "Política de cancelación",
-    imagen: { id: 21802, alt: "Un documento" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "Las normas que dicen qué pasa con tu dinero si cancelas una reserva.",
     sinonimos: ["normas para cancelar una reserva"],
     ejemplo: { palabra: "política de cancelación", texto: "Leyó la política de cancelación antes de reservar el vuelo." },
@@ -11796,7 +11796,7 @@ DICCIONARIOS.es = [
   {
     id: "actualizacion-de-la-renta",
     palabra: "Actualización de la renta",
-    imagen: { id: 4630, alt: "Billetes y monedas de euro" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "La subida del precio del alquiler cada año, según marca la ley.",
     sinonimos: ["subida anual del alquiler"],
     ejemplo: { palabra: "actualización de la renta", texto: "El casero avisó de la actualización de la renta para el nuevo año." },
@@ -11936,7 +11936,7 @@ DICCIONARIOS.es = [
   {
     id: "contrato-de-arras",
     palabra: "Contrato de arras",
-    imagen: { id: 12317, alt: "Una mano firma un papel" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Un papel que firmas y una señal de dinero que entregas para reservar una casa antes de comprarla.",
     sinonimos: ["señal para reservar una casa"],
     ejemplo: { palabra: "contrato de arras", texto: "Firmaron el contrato de arras antes de ir al notario." },
@@ -12017,7 +12017,7 @@ DICCIONARIOS.es = [
   {
     id: "diferencial-hipotecario",
     palabra: "Diferencial hipotecario",
-    imagen: { id: 2317, alt: "Una casa pequeña con unas monedas al lado" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "La parte fija que el banco añade al Euríbor para calcular el interés de una hipoteca.",
     sinonimos: ["parte fija que añade el banco a la hipoteca"],
     ejemplo: { palabra: "diferencial hipotecario", texto: "Negoció un diferencial hipotecario más bajo con el banco." },
@@ -12027,7 +12027,7 @@ DICCIONARIOS.es = [
   {
     id: "hipoteca-a-tipo-fijo",
     palabra: "Hipoteca a tipo fijo",
-    imagen: { id: 2317, alt: "Una casa pequeña con unas monedas al lado" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Una hipoteca donde la cuota es siempre la misma, todos los meses, hasta el final.",
     sinonimos: ["hipoteca con la misma cuota siempre"],
     ejemplo: { palabra: "hipoteca a tipo fijo", texto: "Eligió una hipoteca a tipo fijo para no tener sorpresas." },
@@ -12037,7 +12037,7 @@ DICCIONARIOS.es = [
   {
     id: "hipoteca-a-tipo-variable",
     palabra: "Hipoteca a tipo variable",
-    imagen: { id: 2317, alt: "Una casa pequeña con unas monedas al lado" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Una hipoteca donde la cuota sube o baja según cambia el Euríbor.",
     sinonimos: ["hipoteca con cuota que sube o baja"],
     ejemplo: { palabra: "hipoteca a tipo variable", texto: "Su hipoteca a tipo variable subió este año." },
@@ -13492,7 +13492,7 @@ DICCIONARIOS.es = [
   {
     id: "extorsion",
     palabra: "Extorsión",
-    imagen: { id: 4630, alt: "Una nota amenazante junto a dinero" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Obligar a alguien a dar dinero o hacer algo mediante amenazas. Se hace metiendo miedo.",
     sinonimos: ["chantaje"],
     ejemplo: { palabra: "extorsión", texto: "Lo acusaron de extorsión tras amenazar al dueño de la tienda." },
@@ -15662,7 +15662,7 @@ DICCIONARIOS.es = [
   {
     id: "accesoria",
     palabra: "Accesoria",
-    imagen: { id: 21802, alt: "Un documento legal con un sello" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una pena o consecuencia legal añadida a la principal, por ejemplo perder un permiso.",
     sinonimos: ["pena añadida", "consecuencia legal extra"],
     ejemplo: { palabra: "pena accesoria", texto: "Le impusieron una pena accesoria de retirada del carnet." },
@@ -15812,7 +15812,7 @@ DICCIONARIOS.es = [
   {
     id: "albinismo",
     palabra: "Albinismo",
-    imagen: { id: 2840, alt: "Un dibujo de la piel humana" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una condición genética. Hace que la piel, el pelo y los ojos tengan muy poco color.",
     sinonimos: ["falta de pigmentación"],
     ejemplo: { palabra: "albinismo", texto: "Nació con albinismo y tiene la piel muy clara." },
@@ -15832,7 +15832,7 @@ DICCIONARIOS.es = [
   {
     id: "alegacion",
     palabra: "Alegación",
-    imagen: { id: 21802, alt: "Una persona entrega un documento a un juez" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un argumento o razón que se presenta ante un juez para defender algo.",
     sinonimos: ["argumento legal", "razón presentada"],
     ejemplo: { palabra: "una alegación", texto: "Presentó una alegación contra la multa de tráfico." },
@@ -15902,7 +15902,7 @@ DICCIONARIOS.es = [
   {
     id: "amonestacion",
     palabra: "Amonestación",
-    imagen: { id: 21802, alt: "Un documento oficial de aviso" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Un aviso oficial y serio por hacer algo mal, antes de un castigo mayor.",
     sinonimos: ["aviso formal", "reprimenda oficial"],
     ejemplo: { palabra: "una amonestación", texto: "Recibió una amonestación por llegar tarde varias veces." },
@@ -16182,7 +16182,7 @@ DICCIONARIOS.es = [
   {
     id: "atribucion",
     palabra: "Atribución",
-    imagen: { id: 21802, alt: "Un documento oficial" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Una responsabilidad o poder que tiene una persona por su cargo o puesto.",
     sinonimos: ["responsabilidad del cargo", "competencia"],
     ejemplo: { palabra: "atribución", texto: "Firmar contratos es una atribución del gerente." },
@@ -16342,7 +16342,7 @@ DICCIONARIOS.es = [
   {
     id: "bonificacion",
     palabra: "Bonificación",
-    imagen: { id: 4630, alt: "Una persona recibe dinero como premio" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Una cantidad de dinero extra o un descuento que se da como premio o ventaja.",
     sinonimos: ["extra"],
     ejemplo: { palabra: "una bonificación", texto: "Recibió una bonificación por cumplir sus objetivos de ventas." },
@@ -16532,7 +16532,7 @@ DICCIONARIOS.es = [
   {
     id: "cesacion",
     palabra: "Cesación",
-    imagen: { id: 21802, alt: "Un documento oficial de trabajo" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "El fin definitivo de una actividad, como un trabajo o un contrato.",
     sinonimos: ["terminación"],
     ejemplo: { palabra: "cesación", texto: "La cesación del contrato se hizo efectiva ese mismo mes." },
@@ -16692,7 +16692,7 @@ DICCIONARIOS.es = [
   {
     id: "colegiado",
     palabra: "Colegiado",
-    imagen: { id: 21802, alt: "Un documento oficial en una oficina" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Una persona registrada de forma oficial en un colegio profesional, como médicos o abogados.",
     sinonimos: ["registrado en un colegio profesional"],
     ejemplo: { palabra: "colegiado", texto: "Solo un abogado colegiado puede representarte en el juicio." },
@@ -16722,7 +16722,7 @@ DICCIONARIOS.es = [
   {
     id: "colusion",
     palabra: "Colusión",
-    imagen: { id: 21802, alt: "Un documento junto a dinero" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un acuerdo secreto entre personas o empresas para engañar a otros.",
     sinonimos: ["acuerdo secreto"],
     ejemplo: { palabra: "una posible colusión", texto: "Investigaron una posible colusión entre las empresas para subir los precios." },
@@ -16822,7 +16822,7 @@ DICCIONARIOS.es = [
   {
     id: "contaduria",
     palabra: "Contaduría",
-    imagen: { id: 4630, alt: "Documentos y dinero en una oficina" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "La oficina donde se llevan las cuentas de dinero de una empresa.",
     sinonimos: ["oficina de contabilidad"],
     ejemplo: { palabra: "contaduría", texto: "Envió las facturas a contaduría para su registro." },
@@ -16902,7 +16902,7 @@ DICCIONARIOS.es = [
   {
     id: "corrupto",
     palabra: "Corrupto",
-    imagen: { id: 4630, alt: "Una mano entrega dinero en secreto" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Que usa su poder o su cargo para beneficiarse de forma ilegal.",
     sinonimos: ["deshonesto"],
     ejemplo: { palabra: "corrupto", texto: "El funcionario corrupto aceptaba dinero a cambio de favores." },
@@ -17022,7 +17022,7 @@ DICCIONARIOS.es = [
   {
     id: "defraudador",
     palabra: "Defraudador",
-    imagen: { id: 4630, alt: "Un policía junto a documentos y dinero" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona que engaña a otros para quedarse con su dinero de forma ilegal.",
     sinonimos: ["estafador"],
     ejemplo: { palabra: "defraudador", texto: "Detuvieron al defraudador que engañaba a personas mayores." },
@@ -17182,7 +17182,7 @@ DICCIONARIOS.es = [
   {
     id: "detentar",
     palabra: "Detentar",
-    imagen: { id: 21802, alt: "Un documento oficial en una oficina" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Tener u ocupar un cargo o un poder, muchas veces sin derecho legítimo.",
     sinonimos: ["ocupar"],
     ejemplo: { palabra: "detentar", texto: "Lo acusaron de detentar el cargo sin autoridad legítima." },
@@ -17292,7 +17292,7 @@ DICCIONARIOS.es = [
   {
     id: "edicto",
     palabra: "Edicto",
-    imagen: { id: 21802, alt: "Un documento oficial pegado en un tablón" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un aviso oficial que publica una autoridad para informar de algo importante, muchas veces relacionado con la justicia.",
     sinonimos: ["aviso oficial"],
     ejemplo: { palabra: "el edicto", texto: "El ayuntamiento publicó el edicto en el tablón de anuncios." },
@@ -17502,7 +17502,7 @@ DICCIONARIOS.es = [
   {
     id: "erisipela",
     palabra: "Erisipela",
-    imagen: { id: 2840, alt: "Piel enrojecida e hinchada" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una infección de la piel que causa enrojecimiento, hinchazón y fiebre.",
     sinonimos: ["infección de la piel con fiebre"],
     ejemplo: { palabra: "la erisipela", texto: "El dermatólogo trató la erisipela con antibióticos." },
@@ -17522,7 +17522,7 @@ DICCIONARIOS.es = [
   {
     id: "estatuto",
     palabra: "Estatuto",
-    imagen: { id: 21802, alt: "Un documento oficial con un sello" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Un conjunto de normas oficiales que regulan una organización o una institución.",
     sinonimos: ["conjunto de normas oficiales"],
     ejemplo: { palabra: "el estatuto", texto: "La empresa modificó el estatuto para incluir nuevas normas." },
@@ -17582,7 +17582,7 @@ DICCIONARIOS.es = [
   {
     id: "expedientar",
     palabra: "Expedientar",
-    imagen: { id: 21802, alt: "Un documento oficial en una oficina" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Abrir un proceso oficial para investigar una falta cometida por un trabajador o un alumno.",
     sinonimos: ["abrir un proceso disciplinario"],
     ejemplo: { palabra: "expedientar", texto: "La empresa decidió expedientar al empleado por su comportamiento." },
@@ -17652,7 +17652,7 @@ DICCIONARIOS.es = [
   {
     id: "fideicomiso",
     palabra: "Fideicomiso",
-    imagen: { id: 21802, alt: "Un documento oficial con un sello" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Un acuerdo legal en el que una persona entrega bienes a otra para que los administre en beneficio de un tercero.",
     sinonimos: ["acuerdo para administrar bienes de otra persona"],
     ejemplo: { palabra: "un fideicomiso", texto: "Creó un fideicomiso para proteger la herencia de sus hijos." },
@@ -17672,7 +17672,7 @@ DICCIONARIOS.es = [
   {
     id: "finiquitar",
     palabra: "Finiquitar",
-    imagen: { id: 4630, alt: "Dinero y un documento de trabajo" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Pagar y cerrar de forma definitiva un contrato de trabajo u otro asunto pendiente.",
     sinonimos: ["cerrar y pagar definitivamente"],
     ejemplo: { palabra: "finiquitar", texto: "La empresa tuvo que finiquitar el contrato tras el despido." },
@@ -17722,7 +17722,7 @@ DICCIONARIOS.es = [
   {
     id: "forense",
     palabra: "Forense",
-    imagen: { id: 2467, alt: "Un juez con un mazo en el tribunal" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Que se dedica a investigar pruebas relacionadas con un delito o una muerte, para ayudar a la justicia.",
     sinonimos: ["experto en pruebas para la justicia"],
     ejemplo: { palabra: "el forense", texto: "Tras la autopsia, el forense determinó la causa de la muerte." },
@@ -17872,7 +17872,7 @@ DICCIONARIOS.es = [
   {
     id: "gravamen",
     palabra: "Gravamen",
-    imagen: { id: 21802, alt: "Un documento oficial con un sello" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Una carga económica o legal que se impone sobre un bien, como un impuesto o una deuda.",
     sinonimos: ["carga económica sobre un bien"],
     ejemplo: { palabra: "un gravamen", texto: "La vivienda tenía un gravamen por una deuda pendiente." },
@@ -17982,7 +17982,7 @@ DICCIONARIOS.es = [
   {
     id: "herpes",
     palabra: "Herpes",
-    imagen: { id: 2840, alt: "Piel con manchas rojas" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una infección viral que causa ampollas dolorosas en la piel o las mucosas.",
     sinonimos: ["infección viral con ampollas"],
     ejemplo: { palabra: "el herpes", texto: "El dermatólogo confirmó que el herpes había vuelto a aparecer." },
@@ -17992,7 +17992,7 @@ DICCIONARIOS.es = [
   {
     id: "hipotecar",
     palabra: "Hipotecar",
-    imagen: { id: 2317, alt: "Una casa y un documento bancario" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Pedir dinero a un banco usando una vivienda u otro bien como garantía de pago.",
     sinonimos: ["pedir dinero usando la vivienda como garantía"],
     ejemplo: { palabra: "hipotecar la casa", texto: "Tuvieron que hipotecar la casa para pagar los estudios de su hijo." },
@@ -18072,7 +18072,7 @@ DICCIONARIOS.es = [
   {
     id: "impetigo",
     palabra: "Impétigo",
-    imagen: { id: 2840, alt: "Piel con manchas rojas" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una infección de la piel muy contagiosa que causa ampollas, común en niños.",
     sinonimos: ["infección de piel contagiosa en niños"],
     ejemplo: { palabra: "el impétigo", texto: "El pediatra diagnosticó el impétigo por las ampollas en la cara." },
@@ -18092,7 +18092,7 @@ DICCIONARIOS.es = [
   {
     id: "incapacidad",
     palabra: "Incapacidad",
-    imagen: { id: 2467, alt: "Un médico habla con un paciente" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "La imposibilidad de trabajar o realizar ciertas actividades por una enfermedad o discapacidad.",
     sinonimos: ["imposibilidad de trabajar por enfermedad"],
     ejemplo: { palabra: "la incapacidad", texto: "El médico le concedió la incapacidad después del accidente." },
@@ -18152,7 +18152,7 @@ DICCIONARIOS.es = [
   {
     id: "intestado",
     palabra: "Intestado",
-    imagen: { id: 21802, alt: "Un documento oficial con un sello" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Que muere sin haber dejado testamento.",
     sinonimos: ["que muere sin testamento"],
     ejemplo: { palabra: "intestado", texto: "El hombre murió intestado y sus bienes se repartieron según la ley." },
@@ -18262,7 +18262,7 @@ DICCIONARIOS.es = [
   {
     id: "laudo",
     palabra: "Laudo",
-    imagen: { id: 21802, alt: "Un documento oficial con un sello" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una decisión oficial que resuelve un conflicto, tomada por un árbitro en lugar de un juez.",
     sinonimos: ["decisión de un árbitro"],
     ejemplo: { palabra: "el laudo del árbitro", texto: "Las empresas aceptaron el laudo del árbitro." },
@@ -18272,7 +18272,7 @@ DICCIONARIOS.es = [
   {
     id: "legatario",
     palabra: "Legatario",
-    imagen: { id: 21802, alt: "Un documento oficial con un sello" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona que recibe bienes de otra a través de un testamento.",
     sinonimos: ["persona que recibe una herencia por testamento"],
     ejemplo: { palabra: "el legatario", texto: "Según el testamento, el legatario recibió la casa." },
@@ -18312,7 +18312,7 @@ DICCIONARIOS.es = [
   {
     id: "lepra",
     palabra: "Lepra",
-    imagen: { id: 2840, alt: "Piel con manchas rojas" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una enfermedad infecciosa crónica que afecta a la piel y los nervios, curable con tratamiento.",
     sinonimos: ["enfermedad infecciosa de la piel y los nervios"],
     ejemplo: { palabra: "la lepra", texto: "La organización trabaja para erradicar la lepra en la región." },
@@ -18722,7 +18722,7 @@ DICCIONARIOS.es = [
   {
     id: "opositor",
     palabra: "Opositor",
-    imagen: { id: 21802, alt: "Un documento oficial con un sello" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Una persona que se presenta a un examen público para conseguir un puesto de funcionario.",
     sinonimos: ["persona que hace un examen público para funcionario"],
     ejemplo: { palabra: "opositor", texto: "Cada año se presenta como opositor a la misma plaza." },
@@ -18782,7 +18782,7 @@ DICCIONARIOS.es = [
   {
     id: "papiloma",
     palabra: "Papiloma",
-    imagen: { id: 2840, alt: "Piel con manchas rojas" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un pequeño bulto benigno en la piel o las mucosas, causado a veces por un virus.",
     sinonimos: ["bulto en la piel causado por un virus"],
     ejemplo: { palabra: "un papiloma", texto: "El dermatólogo eliminó un papiloma durante la consulta." },
@@ -19032,7 +19032,7 @@ DICCIONARIOS.es = [
   {
     id: "prejubilado",
     palabra: "Prejubilado",
-    imagen: { id: 4630, alt: "Dinero y un documento" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Una persona que ha dejado de trabajar antes de la edad oficial de jubilación, normalmente con una compensación.",
     sinonimos: ["persona que se jubiló antes de tiempo"],
     ejemplo: { palabra: "un prejubilado", texto: "Su padre es un prejubilado desde hace dos años." },
@@ -19092,7 +19092,7 @@ DICCIONARIOS.es = [
   {
     id: "procuraduria",
     palabra: "Procuraduría",
-    imagen: { id: 21802, alt: "Un documento oficial con un sello" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una institución que representa y defiende los derechos de los ciudadanos ante la ley.",
     sinonimos: ["institución que defiende los derechos de los ciudadanos"],
     ejemplo: { palabra: "la procuraduría", texto: "Presentó la denuncia ante la procuraduría." },
@@ -19112,7 +19112,7 @@ DICCIONARIOS.es = [
   {
     id: "psoriasis",
     palabra: "Psoriasis",
-    imagen: { id: 2840, alt: "Piel con manchas rojas" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una enfermedad de la piel que causa manchas rojas y escamosas.",
     sinonimos: ["enfermedad de la piel con manchas escamosas"],
     ejemplo: { palabra: "la psoriasis", texto: "El dermatólogo recetó una crema para tratar la psoriasis." },
@@ -19142,7 +19142,7 @@ DICCIONARIOS.es = [
   {
     id: "quiste",
     palabra: "Quiste",
-    imagen: { id: 2840, alt: "Piel con manchas rojas" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Un pequeño bulto lleno de líquido u otro material que se forma bajo la piel o dentro del cuerpo.",
     sinonimos: ["bulto lleno de líquido bajo la piel"],
     ejemplo: { palabra: "un quiste", texto: "El médico extirpó un quiste de su espalda." },
@@ -19162,7 +19162,7 @@ DICCIONARIOS.es = [
   {
     id: "ratificar",
     palabra: "Ratificar",
-    imagen: { id: 21802, alt: "Un documento oficial con un sello" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Confirmar oficialmente que un acuerdo o un documento es válido.",
     sinonimos: ["confirmar oficialmente un acuerdo"],
     ejemplo: { palabra: "ratificar", texto: "El parlamento debía ratificar el tratado internacional." },
@@ -19242,7 +19242,7 @@ DICCIONARIOS.es = [
   {
     id: "rescision",
     palabra: "Rescisión",
-    imagen: { id: 21802, alt: "Un documento oficial con un sello" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "La cancelación de un contrato antes de que termine su plazo, por acuerdo o por incumplimiento.",
     sinonimos: ["cancelación de un contrato"],
     ejemplo: { palabra: "la rescisión", texto: "La empresa notificó la rescisión del contrato con antelación." },
@@ -19252,7 +19252,7 @@ DICCIONARIOS.es = [
   {
     id: "represalia",
     palabra: "Represalia",
-    imagen: { id: 21802, alt: "Un documento oficial con un sello" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una acción de venganza o castigo contra alguien por algo que hizo.",
     sinonimos: ["acción de venganza contra alguien"],
     ejemplo: { palabra: "una represalia", texto: "El despido se consideró una represalia por su denuncia." },
@@ -19262,7 +19262,7 @@ DICCIONARIOS.es = [
   {
     id: "remuneracion",
     palabra: "Remuneración",
-    imagen: { id: 4630, alt: "Dinero y un documento" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "El pago o el sueldo que recibe una persona por su trabajo.",
     sinonimos: ["pago por un trabajo"],
     ejemplo: { palabra: "la remuneración", texto: "El contrato especifica la remuneración mensual del puesto." },
@@ -19342,7 +19342,7 @@ DICCIONARIOS.es = [
   {
     id: "rubeola",
     palabra: "Rubéola",
-    imagen: { id: 2840, alt: "Una persona con manchas en la piel" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una enfermedad infecciosa leve que causa erupciones en la piel, peligrosa si se contrae durante el embarazo.",
     sinonimos: ["enfermedad infecciosa con erupciones en la piel"],
     ejemplo: { palabra: "la rubéola", texto: "La vacuna protege contra la rubéola desde la infancia." },
@@ -19352,7 +19352,7 @@ DICCIONARIOS.es = [
   {
     id: "sarampion",
     palabra: "Sarampión",
-    imagen: { id: 2840, alt: "Un niño enfermo con fiebre en la cama" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una enfermedad infecciosa muy contagiosa que causa fiebre y manchas rojas en la piel.",
     sinonimos: ["enfermedad contagiosa con fiebre y manchas"],
     ejemplo: { palabra: "sarampión", texto: "El brote de sarampión preocupó a las autoridades sanitarias." },
@@ -19512,7 +19512,7 @@ DICCIONARIOS.es = [
   {
     id: "subvencionar",
     palabra: "Subvencionar",
-    imagen: { id: 4630, alt: "Dinero y un documento" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Dar dinero público a una persona o entidad para ayudar a pagar una actividad o un proyecto.",
     sinonimos: ["dar dinero público para pagar una actividad"],
     ejemplo: { palabra: "subvencionar", texto: "El ayuntamiento decidió subvencionar el transporte público para jóvenes." },
@@ -19622,7 +19622,7 @@ DICCIONARIOS.es = [
   {
     id: "testaferro",
     palabra: "Testaferro",
-    imagen: { id: 21802, alt: "Un documento oficial" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Una persona que figura como dueña de algo en documentos, aunque en realidad pertenece a otra persona.",
     sinonimos: ["persona que figura como dueña de algo sin serlo"],
     ejemplo: { palabra: "un testaferro", texto: "La policía descubrió que usaba a un testaferro para ocultar sus propiedades." },
@@ -19782,7 +19782,7 @@ DICCIONARIOS.es = [
   {
     id: "urticaria",
     palabra: "Urticaria",
-    imagen: { id: 2840, alt: "Piel" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Una reacción de la piel que causa manchas rojas y picor, normalmente por alergia.",
     sinonimos: ["reacción de la piel con manchas rojas y picor"],
     ejemplo: { palabra: "urticaria", texto: "El niño desarrolló urticaria después de comer marisco." },
@@ -19822,7 +19822,7 @@ DICCIONARIOS.es = [
   {
     id: "vencimiento",
     palabra: "Vencimiento",
-    imagen: { id: 4630, alt: "Dinero y un documento" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "La fecha en la que termina el plazo para pagar o renovar algo.",
     sinonimos: ["fecha en la que termina un plazo"],
     ejemplo: { palabra: "del vencimiento", texto: "El banco avisó del vencimiento del préstamo." },
@@ -19902,7 +19902,7 @@ DICCIONARIOS.es = [
   {
     id: "zanjar",
     palabra: "Zanjar",
-    imagen: { id: 21802, alt: "Un apretón de manos" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Resolver definitivamente un problema, una discusión o un conflicto.",
     sinonimos: ["resolver definitivamente un problema"],
     ejemplo: { palabra: "zanjar", texto: "Las dos partes decidieron zanjar el conflicto con un acuerdo." },

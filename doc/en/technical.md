@@ -370,6 +370,44 @@ without updating it in the same change.
 Whichever path finds it, check `img/` first — the concept you need might
 already be there.
 
+**Category fallback when no pictogram exists at all**: some words —
+mostly abstract legal/financial/administrative terms (*tributario*,
+*vencimiento*, *hipotecar*) — have no non-schematic pictogram in ARASAAC,
+full stop. Confirm this before falling back, don't assume it: try the
+word itself, its `sinonimos`, and a couple of synonyms of the definition
+against `buscar-pictograma.js` (OpenSymbols + ARASAAC). Verified by hand
+across a real batch: of 18 terms with zero ARASAAC hits, 16 also
+returned zero OpenSymbols results across every bank it aggregates — for
+this class of word, there is often genuinely nothing to find, in any
+bank.
+
+When that's confirmed, don't leave the entry on whatever image the
+ingest pipeline happened to have on hand — that's how earlier batches
+ended up with entries pointing at a specific cathedral or a Christmas
+Yule log for a finance term, which is worse than an honestly generic
+icon. Assign the deliberate per-`situacion` default from
+[`scripts/category-pictogram-defaults.js`](../../scripts/category-pictogram-defaults.js)
+instead:
+
+| `situacion` | pictogram id | keyword(s) |
+| --- | --- | --- |
+| `tramites` | 21802 | documento |
+| `salud` | 2467 | médico, doctor |
+| `vida-diaria` | 8717 | vida |
+| `finanzas` | 4630 | dinero |
+| `vivienda` | 2317 | casa |
+| `trabajo` | 11457 | mercado laboral, empleo |
+| `legal` | 11291 | juez, magistrado |
+| `tecnologia` | 11459 | tecnología |
+| `seguridad` | 12260 | protección, seguridad |
+| `educacion` | 8098 | educación, formación |
+
+These are the same generic pictograms that most entries in each
+category already ended up sharing organically during earlier ingest
+runs — this table makes that existing pattern deliberate and documented
+instead of accidental, and gives every future batch a defined fallback
+instead of an ingest error to fix by hand later.
+
 ## Gamification
 
 Word-of-the-day, "surprise me", a discovery progress bar, a free-text
