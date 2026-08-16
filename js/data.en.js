@@ -603,7 +603,7 @@ DICCIONARIOS.en = [
   {
     id: "anemia",
     palabra: "Anemia",
-    imagen: { id: 2803, alt: "A bag of blood" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "You have too little iron in your blood. It makes you feel very tired.",
     sinonimos: ["low iron", "tired blood"],
     ejemplo: { palabra: "anemia", texto: "She was diagnosed with anemia and started taking iron pills." },
@@ -1655,7 +1655,7 @@ DICCIONARIOS.en = [
   {
     id: "dermatitis",
     palabra: "Dermatitis",
-    imagen: { id: 2840, alt: "Skin on a hand" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Your skin gets sore, red and itchy.",
     sinonimos: ["skin irritation"],
     ejemplo: { palabra: "dermatitis", texto: "The child has dermatitis on his arms because of the heat." },
@@ -3828,7 +3828,7 @@ DICCIONARIOS.en = [
   {
     id: "cl@ve",
     palabra: "Cl@ve",
-    imagen: { id: 7190, alt: "A computer" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A state system to identify you with a username and password in online offices.",
     sinonimos: ["state key"],
     ejemplo: { palabra: "Cl@ve", texto: "She signed up for Cl@ve to enter the social security electronic office." },
@@ -3868,7 +3868,7 @@ DICCIONARIOS.en = [
   {
     id: "nif",
     palabra: "NIF",
-    imagen: { id: 5987, alt: "A DNI card" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "The number that identifies a person for tax matters. It is on the ID card.",
     sinonimos: ["tax number"],
     ejemplo: { palabra: "NIF", texto: "They asked for his NIF to file the tax return." },
@@ -4200,7 +4200,7 @@ DICCIONARIOS.en = [
   {
     id: "transfusion",
     palabra: "Transfusion",
-    imagen: { id: 2803, alt: "A blood bag" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Pass blood from one person to another through a vein. It happens at the hospital.",
     sinonimos: ["blood through a vein"],
     ejemplo: { palabra: "transfusion", texto: "He was given a blood transfusion after the accident." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 5492, alt: "An internet symbol" },
+    imagen: { id: 2402, alt: "Biscuits, cookies" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -7577,7 +7577,7 @@ DICCIONARIOS.en = [
   {
     id: "spam",
     palabra: "Spam",
-    imagen: { id: 5432, alt: "An envelope" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Messages or emails you did not ask for, usually adverts or scams.",
     sinonimos: ["junk mail"],
     ejemplo: { palabra: "spam", texto: "He deleted the email because it was spam." },
@@ -7587,7 +7587,7 @@ DICCIONARIOS.en = [
   {
     id: "antivirus",
     palabra: "Antivirus",
-    imagen: { id: 12260, alt: "A protective shield" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A program that protects your computer or phone from computer viruses.",
     sinonimos: ["protection software"],
     ejemplo: { palabra: "antivirus", texto: "He installed a new antivirus after his computer caught a virus." },
@@ -7987,7 +7987,7 @@ DICCIONARIOS.en = [
   {
     id: "pdf",
     palabra: "PDF",
-    imagen: { id: 21802, alt: "A document icon" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A type of file for documents, like bills or contracts, that looks the same on any device.",
     sinonimos: ["PDF document"],
     ejemplo: { palabra: "PDF", texto: "They sent him the bill as a PDF by email." },
@@ -9117,7 +9117,7 @@ DICCIONARIOS.en = [
   {
     id: "job-description",
     palabra: "Job description",
-    imagen: { id: 21802, alt: "A document with a list of tasks" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A document that explains what tasks you have to do in your job.",
     sinonimos: ["role description"],
     ejemplo: { palabra: "job description", texto: "He read the job description before applying for the post." },
@@ -10318,7 +10318,7 @@ DICCIONARIOS.en = [
   {
     id: "credit-note",
     palabra: "Credit note",
-    imagen: { id: 21802, alt: "A document" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A paper that says a shop owes you money, instead of giving your cash back.",
     sinonimos: ["shop voucher for a refund"],
     ejemplo: { palabra: "credit note", texto: "The shop gave her a credit note instead of cash back." },
@@ -10670,7 +10670,7 @@ DICCIONARIOS.en = [
   {
     id: "habeas-corpus",
     palabra: "Habeas corpus",
-    imagen: { id: 34479, alt: "A law court" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A right to ask a judge to check if a detention is legal.",
     sinonimos: ["right to have a detention checked by a judge"],
     ejemplo: { palabra: "habeas corpus", texto: "His lawyer requested habeas corpus because he believed the detention was unlawful." },
@@ -14006,7 +14006,7 @@ DICCIONARIOS.en = [
   {
     id: "campus",
     palabra: "Campus",
-    imagen: { id: 15537, alt: "Several university buildings around a green area" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "The land and buildings of a school or university. It includes classrooms, offices, and often housing.",
     sinonimos: ["university grounds"],
     ejemplo: { palabra: "campus", texto: "The library is in the centre of the campus." },
@@ -14276,7 +14276,7 @@ DICCIONARIOS.en = [
   {
     id: "habitable",
     palabra: "Habitable",
-    imagen: { id: 6068, alt: "An inspector checking a home with a clipboard" },
+    imagen: { id: 2317, alt: "Casa" },
     definicion: "Safe and fit to live in. A home must reach certain conditions to be considered habitable.",
     sinonimos: ["fit to live in"],
     ejemplo: { palabra: "habitable", texto: "The council said the flat was not habitable." },
@@ -14386,7 +14386,7 @@ DICCIONARIOS.en = [
   {
     id: "hepatitis",
     palabra: "Hepatitis",
-    imagen: { id: 2980, alt: "A diagram of a swollen liver" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "An illness that causes swelling in the liver. It can be caused by a virus or by alcohol.",
     sinonimos: ["liver inflammation"],
     ejemplo: { palabra: "hepatitis", texto: "He was diagnosed with hepatitis after the blood test." },
@@ -14996,7 +14996,7 @@ DICCIONARIOS.en = [
   {
     id: "carcinoma",
     palabra: "Carcinoma",
-    imagen: { id: 34375, alt: "A dermatologist examining a patient's hand" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A type of cancer that starts in the skin or the tissue covering organs. A doctor can remove it early.",
     sinonimos: ["a type of cancer"],
     ejemplo: { palabra: "a carcinoma", texto: "The doctor found a carcinoma during the check-up." },
@@ -15026,7 +15026,7 @@ DICCIONARIOS.en = [
   {
     id: "melanoma",
     palabra: "Melanoma",
-    imagen: { id: 34375, alt: "A dermatologist examining a patient's skin" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A serious type of skin cancer that can start in a mole. Finding it early makes it easier to treat.",
     sinonimos: ["a serious skin cancer"],
     ejemplo: { palabra: "a melanoma", texto: "The dermatologist removed a melanoma from her back." },
@@ -15426,7 +15426,7 @@ DICCIONARIOS.en = [
   {
     id: "anorexia",
     palabra: "Anorexia",
-    imagen: { id: 4610, alt: "A scale next to a plate of food" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A disease. Eating almost nothing because of a fear of gaining weight.",
     sinonimos: ["eating disorder"],
     ejemplo: { palabra: "anorexia", texto: "She started treatment to overcome her anorexia." },
@@ -15636,7 +15636,7 @@ DICCIONARIOS.en = [
   {
     id: "affiant",
     palabra: "Affiant",
-    imagen: { id: 21802, alt: "A person signs an official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who signs a written statement under oath.",
     sinonimos: ["person who signs a sworn statement"],
     ejemplo: { palabra: "affiant", texto: "The affiant confirmed every detail was true." },
@@ -15876,7 +15876,7 @@ DICCIONARIOS.en = [
   {
     id: "apnea",
     palabra: "Apnea",
-    imagen: { id: 2369, alt: "A person sleeps deeply" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Stopping breathing for a while, especially during sleep.",
     sinonimos: ["pauses in breathing during sleep"],
     ejemplo: { palabra: "sleep apnea", texto: "He was diagnosed with sleep apnea." },
@@ -16416,7 +16416,7 @@ DICCIONARIOS.en = [
   {
     id: "caveat",
     palabra: "Caveat",
-    imagen: { id: 21802, alt: "A person signs an official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A warning or condition attached to something, especially an agreement.",
     sinonimos: ["warning"],
     ejemplo: { palabra: "a caveat", texto: "The contract included a caveat about late payments." },
@@ -16476,7 +16476,7 @@ DICCIONARIOS.en = [
   {
     id: "cession",
     palabra: "Cession",
-    imagen: { id: 21802, alt: "Two people signing an official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The act of giving up land, rights, or property to someone else, usually through a legal agreement.",
     sinonimos: ["the handover"],
     ejemplo: { palabra: "the cession", texto: "The treaty included the cession of the territory to the neighboring country." },
@@ -16596,7 +16596,7 @@ DICCIONARIOS.en = [
   {
     id: "chicanery",
     palabra: "Chicanery",
-    imagen: { id: 21802, alt: "A person signing a suspicious document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The use of tricks or lies to deceive someone, especially in business or legal matters.",
     sinonimos: ["deceptive tricks"],
     ejemplo: { palabra: "chicanery", texto: "The investigation uncovered years of chicanery in the company's accounts." },
@@ -16636,7 +16636,7 @@ DICCIONARIOS.en = [
   {
     id: "circumvent",
     palabra: "Circumvent",
-    imagen: { id: 21802, alt: "A document with an official stamp" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To find a way around a rule, law, or problem instead of dealing with it directly.",
     sinonimos: ["find a way around"],
     ejemplo: { palabra: "circumvent", texto: "The company tried to circumvent the new safety regulations." },
@@ -16736,7 +16736,7 @@ DICCIONARIOS.en = [
   {
     id: "codicil",
     palabra: "Codicil",
-    imagen: { id: 21802, alt: "A document with a signature" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A document that adds or changes something in a person's will after it was written.",
     sinonimos: ["an addition to a will"],
     ejemplo: { palabra: "a codicil", texto: "The lawyer prepared a codicil after the family asked for changes." },
@@ -16796,7 +16796,7 @@ DICCIONARIOS.en = [
   {
     id: "combatant",
     palabra: "Combatant",
-    imagen: { id: 21802, alt: "A document with an official stamp" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who takes an active part in fighting during a war or conflict.",
     sinonimos: ["a person who fights in a war"],
     ejemplo: { palabra: "a combatant", texto: "The treaty defines who counts as a combatant during the conflict." },
@@ -16916,7 +16916,7 @@ DICCIONARIOS.en = [
   {
     id: "coroner",
     palabra: "Coroner",
-    imagen: { id: 21802, alt: "A document with an official stamp" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "An official who investigates the cause of death when it happens suddenly or in unusual circumstances.",
     sinonimos: ["an official who investigates deaths"],
     ejemplo: { palabra: "the coroner", texto: "After the investigation, the coroner determined the cause of death." },
@@ -16946,7 +16946,7 @@ DICCIONARIOS.en = [
   {
     id: "cosigner",
     palabra: "Cosigner",
-    imagen: { id: 21802, alt: "Two people signing an official document" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A person who signs a loan agreement with someone else and agrees to pay if that person cannot.",
     sinonimos: ["a person who signs a loan with someone"],
     ejemplo: { palabra: "a cosigner", texto: "The bank asked for a cosigner before approving the loan." },
@@ -17016,7 +17016,7 @@ DICCIONARIOS.en = [
   {
     id: "cronyism",
     palabra: "Cronyism",
-    imagen: { id: 21802, alt: "A document in an office" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The unfair practice of giving jobs or favors to friends, instead of choosing the most qualified person.",
     sinonimos: ["giving jobs to friends unfairly"],
     ejemplo: { palabra: "cronyism", texto: "Critics accused the mayor of cronyism in hiring his relatives." },
@@ -17066,7 +17066,7 @@ DICCIONARIOS.en = [
   {
     id: "debarment",
     palabra: "Debarment",
-    imagen: { id: 21802, alt: "A document with an official stamp" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "An official decision that stops a person or company from working in a certain job or activity.",
     sinonimos: ["an official ban from an activity"],
     ejemplo: { palabra: "debarment", texto: "The company faced debarment after the investigation revealed serious violations." },
@@ -17076,7 +17076,7 @@ DICCIONARIOS.en = [
   {
     id: "decedent",
     palabra: "Decedent",
-    imagen: { id: 21802, alt: "A document with an official stamp" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who has died, especially as referred to in legal documents.",
     sinonimos: ["a person who has died"],
     ejemplo: { palabra: "the decedent's family", texto: "The lawyer read the will in front of the decedent's family." },
@@ -17256,7 +17256,7 @@ DICCIONARIOS.en = [
   {
     id: "disclosure",
     palabra: "Disclosure",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The act of making information known, especially something that was private or hidden.",
     sinonimos: ["a statement making hidden information known"],
     ejemplo: { palabra: "a disclosure", texto: "The contract included a disclosure about potential risks." },
@@ -17276,7 +17276,7 @@ DICCIONARIOS.en = [
   {
     id: "disqualify",
     palabra: "Disqualify",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To officially stop someone from taking part in something because they broke a rule.",
     sinonimos: ["officially stop from taking part"],
     ejemplo: { palabra: "disqualify the runner", texto: "The judges decided to disqualify the runner for a false start." },
@@ -17316,7 +17316,7 @@ DICCIONARIOS.en = [
   {
     id: "divorcee",
     palabra: "Divorcee",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A person who is legally divorced from their spouse.",
     sinonimos: ["a person who is divorced"],
     ejemplo: { palabra: "a divorcee", texto: "She met her new partner two years after becoming a divorcee." },
@@ -17396,7 +17396,7 @@ DICCIONARIOS.en = [
   {
     id: "draftee",
     palabra: "Draftee",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who is required by law to join the military.",
     sinonimos: ["a person required to join the military"],
     ejemplo: { palabra: "a draftee", texto: "He became a draftee shortly after finishing school." },
@@ -17406,7 +17406,7 @@ DICCIONARIOS.en = [
   {
     id: "duress",
     palabra: "Duress",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The use of threats or force to make someone do something against their will.",
     sinonimos: ["forced by threats"],
     ejemplo: { palabra: "under duress", texto: "He signed the contract under duress." },
@@ -17556,7 +17556,7 @@ DICCIONARIOS.en = [
   {
     id: "endorsement",
     palabra: "Endorsement",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A signature on a document, such as a check, that transfers it or approves it officially.",
     sinonimos: ["an official signature that approves a document"],
     ejemplo: { palabra: "an endorsement", texto: "The check required an endorsement before it could be deposited." },
@@ -17606,7 +17606,7 @@ DICCIONARIOS.en = [
   {
     id: "endangerment",
     palabra: "Endangerment",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The act of putting someone, especially a child, in a dangerous situation.",
     sinonimos: ["putting someone in danger"],
     ejemplo: { palabra: "endangerment", texto: "The driver was charged with endangerment after the accident." },
@@ -17646,7 +17646,7 @@ DICCIONARIOS.en = [
   {
     id: "espionage",
     palabra: "Espionage",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "The activity of secretly collecting private or government information for another country or organization.",
     sinonimos: ["secretly collecting private information"],
     ejemplo: { palabra: "espionage", texto: "He was arrested and charged with espionage." },
@@ -17756,7 +17756,7 @@ DICCIONARIOS.en = [
   {
     id: "expungement",
     palabra: "Expungement",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The official removal of a criminal record from public view.",
     sinonimos: ["the official removal of a criminal record"],
     ejemplo: { palabra: "expungement of his old conviction", texto: "He applied for expungement of his old conviction." },
@@ -18096,7 +18096,7 @@ DICCIONARIOS.en = [
   {
     id: "gingivitis",
     palabra: "Gingivitis",
-    imagen: { id: 2733, alt: "A dentist with a patient" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "An inflammation of the gums, usually caused by poor dental hygiene.",
     sinonimos: ["an inflammation of the gums"],
     ejemplo: { palabra: "gingivitis", texto: "The dentist explained that he had gingivitis from not flossing." },
@@ -18146,7 +18146,7 @@ DICCIONARIOS.en = [
   {
     id: "grantee",
     palabra: "Grantee",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A person or organization that receives money or property given by someone else.",
     sinonimos: ["a person who receives a grant"],
     ejemplo: { palabra: "a grantee", texto: "The foundation selected a grantee for the research funding." },
@@ -18156,7 +18156,7 @@ DICCIONARIOS.en = [
   {
     id: "guaranty",
     palabra: "Guaranty",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "A formal promise to pay someone else's debt if that person fails to pay it.",
     sinonimos: ["a formal promise to pay someone's debt"],
     ejemplo: { palabra: "a guaranty", texto: "The bank required a guaranty before approving the loan." },
@@ -18206,7 +18206,7 @@ DICCIONARIOS.en = [
   {
     id: "handover",
     palabra: "Handover",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The act of formally transferring responsibility, control, or duties to someone else.",
     sinonimos: ["the formal transfer of duties"],
     ejemplo: { palabra: "the handover of duties", texto: "Staff completed the handover of duties before the manager left." },
@@ -18216,7 +18216,7 @@ DICCIONARIOS.en = [
   {
     id: "harass",
     palabra: "Harass",
-    imagen: { id: 21802, alt: "An official document" },
+    imagen: { id: 30644, alt: "Una persona triste con otra persona detrás, muy cerca" },
     definicion: "To repeatedly trouble, threaten, or pressure someone in an unwanted way.",
     sinonimos: ["repeatedly trouble someone"],
     ejemplo: { palabra: "harass", texto: "The company was accused of allowing managers to harass employees." },
@@ -18476,7 +18476,7 @@ DICCIONARIOS.en = [
   {
     id: "impetigo",
     palabra: "Impetigo",
-    imagen: { id: 2840, alt: "Skin" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A contagious skin infection that causes red sores, common in young children.",
     sinonimos: ["a contagious skin infection with red sores"],
     ejemplo: { palabra: "his impetigo", texto: "The doctor prescribed a cream to treat his impetigo." },
@@ -20026,7 +20026,7 @@ DICCIONARIOS.en = [
   {
     id: "placenta",
     palabra: "Placenta",
-    imagen: { id: 11250, alt: "A pregnancy diagram" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The organ that connects a pregnant woman to her baby and provides it with food and oxygen.",
     sinonimos: ["the organ that feeds a baby before birth"],
     ejemplo: { palabra: "the placenta", texto: "The doctor checked the placenta during the ultrasound." },
@@ -20286,7 +20286,7 @@ DICCIONARIOS.en = [
   {
     id: "psoriasis",
     palabra: "Psoriasis",
-    imagen: { id: 2840, alt: "Skin" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A skin condition that causes red, itchy, scaly patches.",
     sinonimos: ["a skin condition with red itchy patches"],
     ejemplo: { palabra: "her psoriasis", texto: "She uses a special cream to manage her psoriasis." },
@@ -21866,7 +21866,7 @@ DICCIONARIOS.en = [
   {
     id: "vitiligo",
     palabra: "Vitiligo",
-    imagen: { id: 2840, alt: "Skin" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A skin condition that causes patches of skin to lose their color.",
     sinonimos: ["a skin condition that causes patches of skin to lose color"],
     ejemplo: { palabra: "vitiligo", texto: "He has vitiligo on his hands and face." },
