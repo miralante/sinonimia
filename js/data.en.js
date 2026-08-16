@@ -999,7 +999,7 @@ DICCIONARIOS.en = [
   {
     id: "passport-doc",
     palabra: "Passport",
-    imagen: { id: 6171, alt: "An open passport with a photo" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "An official paper with your photo. You need it to travel to other countries.",
     sinonimos: ["travel document", "paper to leave the country"],
     ejemplo: { palabra: "passport", texto: "He renewed his passport because it was about to expire." },
@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -6207,7 +6207,7 @@ DICCIONARIOS.en = [
   {
     id: "calendar",
     palabra: "Calendar",
-    imagen: { id: 3071, alt: "Calendar, yearbook, almanac" },
+    imagen: { id: 8717, alt: "Vida" },
     definicion: "A paper or an app that shows the days, weeks and months of the year. It helps you remember dates.",
     sinonimos: ["almanac"],
     ejemplo: { palabra: "calendar", texto: "She wrote the doctor's appointment on the calendar." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 2402, alt: "Biscuits, cookies" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -8957,7 +8957,7 @@ DICCIONARIOS.en = [
   {
     id: "maternity-leave",
     palabra: "Maternity leave",
-    imagen: { id: 6060, alt: "A mother holding a baby" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Time a mother can take off work to look after her newborn baby, without losing her pay.",
     sinonimos: ["maternity break"],
     ejemplo: { palabra: "maternity leave", texto: "She took maternity leave when her daughter was born." },
@@ -8967,7 +8967,7 @@ DICCIONARIOS.en = [
   {
     id: "paternity-leave",
     palabra: "Paternity leave",
-    imagen: { id: 6060, alt: "A father holding a baby" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Time a father can take off work to look after his newborn baby, without losing his pay.",
     sinonimos: ["paternity break"],
     ejemplo: { palabra: "paternity leave", texto: "He took paternity leave when his son was born." },
@@ -13226,7 +13226,7 @@ DICCIONARIOS.en = [
   {
     id: "disclaimer",
     palabra: "Disclaimer",
-    imagen: { id: 25315, alt: "A warning sign on a paper" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "A short warning on a document. It says the company is not responsible for something.",
     sinonimos: ["warning notice"],
     ejemplo: { palabra: "disclaimer", texto: "The website has a disclaimer about the advice given." },
@@ -13376,7 +13376,7 @@ DICCIONARIOS.en = [
   {
     id: "hazard",
     palabra: "Hazard",
-    imagen: { id: 25315, alt: "A warning sign next to a wet floor" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Something that can hurt you or cause damage. It is a danger you should avoid.",
     sinonimos: ["danger source"],
     ejemplo: { palabra: "hazard", texto: "Wet floors are a hazard in the kitchen." },
@@ -13416,7 +13416,7 @@ DICCIONARIOS.en = [
   {
     id: "tampering",
     palabra: "Tampering",
-    imagen: { id: 25315, alt: "A hand forcing open a lock" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Touching or changing something you should not. It is done to cause harm or cheat.",
     sinonimos: ["interference"],
     ejemplo: { palabra: "tampering", texto: "The lock showed signs of tampering." },
@@ -14596,7 +14596,7 @@ DICCIONARIOS.en = [
   {
     id: "predatory",
     palabra: "Predatory",
-    imagen: { id: 25315, alt: "A warning sign next to a loan document" },
+    imagen: { id: 4630, alt: "Dinero" },
     definicion: "Designed to unfairly take advantage of someone, especially with money. For example, a loan with unfair, hidden costs.",
     sinonimos: ["deliberately unfair"],
     ejemplo: { palabra: "predatory", texto: "They warned him about predatory lending." },
@@ -16106,7 +16106,7 @@ DICCIONARIOS.en = [
   {
     id: "banishment",
     palabra: "Banishment",
-    imagen: { id: 6171, alt: "A passport next to a border checkpoint" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The official punishment of forcing someone to leave a place, usually their own country.",
     sinonimos: ["forced removal from the country"],
     ejemplo: { palabra: "banishment", texto: "He faced banishment for betraying the king." },
@@ -16606,7 +16606,7 @@ DICCIONARIOS.en = [
   {
     id: "circumcise",
     palabra: "Circumcise",
-    imagen: { id: 6060, alt: "A doctor with a newborn baby" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "To remove the loose skin covering the tip of a baby boy's or man's penis, usually for religious, cultural, or medical reasons.",
     sinonimos: ["remove the foreskin"],
     ejemplo: { palabra: "circumcise", texto: "The parents chose to circumcise their newborn son." },
@@ -16846,7 +16846,7 @@ DICCIONARIOS.en = [
   {
     id: "congenital",
     palabra: "Congenital",
-    imagen: { id: 6060, alt: "A newborn baby sleeping" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Present in a person from birth, usually referring to a health condition.",
     sinonimos: ["present from birth"],
     ejemplo: { palabra: "a congenital condition", texto: "The baby was born with a congenital condition affecting the heart." },
@@ -17116,7 +17116,7 @@ DICCIONARIOS.en = [
   {
     id: "deport",
     palabra: "Deport",
-    imagen: { id: 6171, alt: "A passport" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To force a person to leave a country, usually because they broke immigration law.",
     sinonimos: ["send back to their home country"],
     ejemplo: { palabra: "deport him", texto: "The government decided to deport him after his visa expired." },
@@ -17526,7 +17526,7 @@ DICCIONARIOS.en = [
   {
     id: "emigration",
     palabra: "Emigration",
-    imagen: { id: 6171, alt: "A passport" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "The act of leaving one's own country to live permanently in another.",
     sinonimos: ["leaving your country to live elsewhere"],
     ejemplo: { palabra: "emigration", texto: "Economic hardship led to a wave of emigration from the region." },
@@ -17686,7 +17686,7 @@ DICCIONARIOS.en = [
   {
     id: "exile",
     palabra: "Exile",
-    imagen: { id: 6171, alt: "A passport" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "The state of being forced to live away from one's own country, often for political reasons.",
     sinonimos: ["forced to live away from your country"],
     ejemplo: { palabra: "in exile", texto: "The activist spent ten years in exile after criticizing the government." },
@@ -17926,7 +17926,7 @@ DICCIONARIOS.en = [
   {
     id: "fontanelle",
     palabra: "Fontanelle",
-    imagen: { id: 6060, alt: "A newborn baby sleeping" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A soft spot on a baby's skull where the bones have not yet joined together.",
     sinonimos: ["a soft spot on a baby's head"],
     ejemplo: { palabra: "the fontanelle", texto: "The nurse gently checked the fontanelle during the exam." },
@@ -18086,7 +18086,7 @@ DICCIONARIOS.en = [
   {
     id: "gestation",
     palabra: "Gestation",
-    imagen: { id: 2467, alt: "Médico, doctor" },
+    imagen: { id: 11250, alt: "Pregnancy, gestation" },
     definicion: "The period of time during which a baby develops inside the womb before birth.",
     sinonimos: ["the period before birth"],
     ejemplo: { palabra: "gestation", texto: "Doctors monitor gestation closely during high-risk pregnancies." },
@@ -19396,7 +19396,7 @@ DICCIONARIOS.en = [
   {
     id: "neonatal",
     palabra: "Neonatal",
-    imagen: { id: 6060, alt: "A newborn baby sleeping" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Relating to newborn babies, especially in the first four weeks after birth.",
     sinonimos: ["relating to newborn babies"],
     ejemplo: { palabra: "the neonatal unit", texto: "The premature baby was cared for in the neonatal unit." },
@@ -19496,7 +19496,7 @@ DICCIONARIOS.en = [
   {
     id: "noxious",
     palabra: "Noxious",
-    imagen: { id: 25315, alt: "A warning triangle sign" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "Harmful or poisonous, especially when breathed in.",
     sinonimos: ["harmful or poisonous"],
     ejemplo: { palabra: "noxious fumes", texto: "Workers wore masks to avoid breathing the noxious fumes." },
@@ -19896,7 +19896,7 @@ DICCIONARIOS.en = [
   {
     id: "persecute",
     palabra: "Persecute",
-    imagen: { id: 25315, alt: "A warning sign" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "To treat someone cruelly or unfairly over a long time, often because of who they are.",
     sinonimos: ["treat someone cruelly over a long time"],
     ejemplo: { palabra: "persecute journalists", texto: "The regime continued to persecute journalists for years." },
@@ -19916,7 +19916,7 @@ DICCIONARIOS.en = [
   {
     id: "personnel",
     palabra: "Personnel",
-    imagen: { id: 2599, alt: "A person working at a desk" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The people who work for a particular organization or company.",
     sinonimos: ["the people who work for an organization"],
     ejemplo: { palabra: "personnel", texto: "The company hired more personnel for the summer season." },
@@ -19936,7 +19936,7 @@ DICCIONARIOS.en = [
   {
     id: "pesticide",
     palabra: "Pesticide",
-    imagen: { id: 25315, alt: "A warning sign" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A chemical used to kill insects or other pests that damage plants or crops.",
     sinonimos: ["a chemical used to kill insects"],
     ejemplo: { palabra: "pesticide", texto: "Farmers spray pesticide to protect their crops." },
@@ -20126,7 +20126,7 @@ DICCIONARIOS.en = [
   {
     id: "postpartum",
     palabra: "Postpartum",
-    imagen: { id: 6060, alt: "A newborn baby sleeping" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Relating to the period of time right after a woman gives birth.",
     sinonimos: ["relating to the time right after giving birth"],
     ejemplo: { palabra: "postpartum depression", texto: "Doctors treated her for postpartum depression." },
@@ -20166,7 +20166,7 @@ DICCIONARIOS.en = [
   {
     id: "precarious",
     palabra: "Precarious",
-    imagen: { id: 2599, alt: "Three professionals" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Not safe or stable; likely to fail or get worse.",
     sinonimos: ["not safe or stable"],
     ejemplo: { palabra: "a precarious situation", texto: "Many workers face a precarious situation with short-term contracts." },
@@ -20176,7 +20176,7 @@ DICCIONARIOS.en = [
   {
     id: "preemie",
     palabra: "Preemie",
-    imagen: { id: 6060, alt: "A newborn baby sleeping" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A baby born too early, before it is fully developed.",
     sinonimos: ["a baby born too early"],
     ejemplo: { palabra: "a preemie", texto: "The nurse explained how to care for a preemie in the NICU." },
@@ -20256,7 +20256,7 @@ DICCIONARIOS.en = [
   {
     id: "proprietor",
     palabra: "Proprietor",
-    imagen: { id: 2599, alt: "Three professionals" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A person who owns a business, such as a shop or restaurant.",
     sinonimos: ["a person who owns a business"],
     ejemplo: { palabra: "the proprietor", texto: "She spoke with the proprietor about renting the space." },
@@ -20506,7 +20506,7 @@ DICCIONARIOS.en = [
   {
     id: "redundant",
     palabra: "Redundant",
-    imagen: { id: 2599, alt: "Three professionals" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "No longer needed for a job, often resulting in the loss of employment.",
     sinonimos: ["no longer needed for a job"],
     ejemplo: { palabra: "redundant", texto: "The factory closure left hundreds of workers redundant." },
@@ -20786,7 +20786,7 @@ DICCIONARIOS.en = [
   {
     id: "sabbatical",
     palabra: "Sabbatical",
-    imagen: { id: 2599, alt: "An official document" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A long period of time away from work, often to study, rest, or travel.",
     sinonimos: ["a long period away from work"],
     ejemplo: { palabra: "a sabbatical", texto: "She took a sabbatical to write a book." },
@@ -20936,7 +20936,7 @@ DICCIONARIOS.en = [
   {
     id: "secondment",
     palabra: "Secondment",
-    imagen: { id: 2599, alt: "An official document" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A temporary move to a different job or organization while remaining employed by the original one.",
     sinonimos: ["a temporary move to a different job"],
     ejemplo: { palabra: "a secondment", texto: "She accepted a secondment for six months." },
@@ -21156,7 +21156,7 @@ DICCIONARIOS.en = [
   {
     id: "smog",
     palabra: "Smog",
-    imagen: { id: 25315, alt: "A warning sign" },
+    imagen: { id: 12260, alt: "Protección, seguridad" },
     definicion: "A type of air pollution formed by smoke and fog, common in cities with heavy traffic.",
     sinonimos: ["air pollution formed by smoke and fog"],
     ejemplo: { palabra: "smog", texto: "Thick smog covered the city for days." },
@@ -21476,7 +21476,7 @@ DICCIONARIOS.en = [
   {
     id: "supervisor",
     palabra: "Supervisor",
-    imagen: { id: 2599, alt: "A person working at a desk" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "A person who oversees and manages the work of other employees.",
     sinonimos: ["a person who oversees other employees"],
     ejemplo: { palabra: "her supervisor", texto: "She asked her supervisor for time off next week." },
@@ -21496,7 +21496,7 @@ DICCIONARIOS.en = [
   {
     id: "terminate",
     palabra: "Terminate",
-    imagen: { id: 2599, alt: "An official document" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "To officially end something, such as a job or a contract.",
     sinonimos: ["officially end a job or contract"],
     ejemplo: { palabra: "terminate his contract", texto: "The company decided to terminate his contract early." },
@@ -21626,7 +21626,7 @@ DICCIONARIOS.en = [
   {
     id: "toxicity",
     palabra: "Toxicity",
-    imagen: { id: 25315, alt: "A poison bottle with a skull symbol" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The degree to which a substance is poisonous or harmful to the body.",
     sinonimos: ["how poisonous or harmful a substance is"],
     ejemplo: { palabra: "the toxicity", texto: "The report explained the toxicity in simple terms." },
