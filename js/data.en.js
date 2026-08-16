@@ -4753,7 +4753,7 @@ DICCIONARIOS.en = [
   {
     id: "wifi",
     palabra: "Wifi",
-    imagen: { id: 11459, alt: "Tecnología" },
+    imagen: { id: 9163, alt: "Access point, router, wi-fi router" },
     definicion: "Internet without wires. It reaches your phone or computer through the air.",
     sinonimos: ["wireless internet", "wi-fi"],
     ejemplo: { palabra: "wifi", texto: "The library has free wifi to connect your phone." },
@@ -7537,7 +7537,7 @@ DICCIONARIOS.en = [
   {
     id: "cookies",
     palabra: "Cookies",
-    imagen: { id: 2402, alt: "Biscuits, cookies" },
+    imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Small pieces of data that a website saves on your computer to remember your preferences.",
     sinonimos: ["browsing data"],
     ejemplo: { palabra: "cookies", texto: "The website asked if she accepted cookies before entering." },
@@ -16296,7 +16296,7 @@ DICCIONARIOS.en = [
   {
     id: "bursar",
     palabra: "Bursar",
-    imagen: { id: 4630, alt: "Money next to a school building" },
+    imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "A person who manages the money and finances of a school or university.",
     sinonimos: ["school finance manager"],
     ejemplo: { palabra: "bursar", texto: "She paid her tuition through the bursar's office." },
@@ -16906,7 +16906,7 @@ DICCIONARIOS.en = [
   {
     id: "copayment",
     palabra: "Copayment",
-    imagen: { id: 4630, alt: "Money and a doctor" },
+    imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "A fixed amount of money a patient pays for medical care, with the rest paid by insurance.",
     sinonimos: ["a fixed payment for medical care"],
     ejemplo: { palabra: "a copayment", texto: "She had to pay a copayment before seeing the doctor." },
@@ -17096,7 +17096,7 @@ DICCIONARIOS.en = [
   {
     id: "defraud",
     palabra: "Defraud",
-    imagen: { id: 4630, alt: "Money and a document" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "To take money or property from someone by tricking them.",
     sinonimos: ["take money by tricking someone"],
     ejemplo: { palabra: "defraud", texto: "He was accused of trying to defraud elderly customers out of their savings." },
@@ -17416,7 +17416,7 @@ DICCIONARIOS.en = [
   {
     id: "dutiable",
     palabra: "Dutiable",
-    imagen: { id: 4630, alt: "Money and a document" },
+    imagen: { id: 21802, alt: "Documento" },
     definicion: "Describes goods that require a tax to be paid when brought into a country.",
     sinonimos: ["subject to import tax"],
     ejemplo: { palabra: "dutiable goods", texto: "Travelers must declare dutiable goods at customs." },
@@ -17956,7 +17956,7 @@ DICCIONARIOS.en = [
   {
     id: "fraudster",
     palabra: "Fraudster",
-    imagen: { id: 4630, alt: "Money" },
+    imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "A person who deceives others to gain money or property illegally.",
     sinonimos: ["a person who commits fraud"],
     ejemplo: { palabra: "a fraudster", texto: "The bank warned customers about a fraudster posing as staff." },
@@ -18506,7 +18506,7 @@ DICCIONARIOS.en = [
   {
     id: "incentive",
     palabra: "Incentive",
-    imagen: { id: 4630, alt: "Money" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "Something that encourages a person to do something, often a reward or payment.",
     sinonimos: ["a reward that encourages someone to do something"],
     ejemplo: { palabra: "a financial incentive", texto: "The company offered a financial incentive to employees who stayed longer." },
@@ -18626,7 +18626,7 @@ DICCIONARIOS.en = [
   {
     id: "invoicing",
     palabra: "Invoicing",
-    imagen: { id: 4630, alt: "Money and a document" },
+    imagen: { id: 11457, alt: "Mercado laboral, empleo" },
     definicion: "The process of sending a document that requests payment for goods or services.",
     sinonimos: ["sending a document that requests payment"],
     ejemplo: { palabra: "its invoicing", texto: "The company improved its invoicing to get paid faster." },
