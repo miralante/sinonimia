@@ -312,6 +312,17 @@ const TRADUCCIONES = {
   "paro-huelga": "strike",
   "turno-laboral": "shift",
   "tutor-firma": "guardian",
+  // Third doble-significado round, from the Wiktionary domain cross-scan
+  // (words already in Sinonimia that also belong to a different domain
+  // category). `escaner-medico` and `buzon-voz` reuse the EXISTING EN
+  // `ct-scan` and `voicemail` entries rather than duplicating them.
+  "puente-bypass": "bypass",
+  "escaner-medico": "ct-scan",
+  "menu-app": "menu-app",
+  "ventana-programa": "window-program",
+  "archivo-digital": "file",
+  "buzon-voz": "voicemail",
+  "carpeta-digital": "folder-digital",
 };
 
 if (typeof module !== "undefined") module.exports = TRADUCCIONES;

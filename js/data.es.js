@@ -22047,4 +22047,81 @@ DICCIONARIOS.es = [
     situacion: "tramites",
     /*traduccion-start*/traduccion: { en: "guardian" },/*traduccion-end*/
   },
+  {
+    id: "puente-bypass",
+    palabra: "Puente",
+    imagen: { id: 27925, alt: "Un equipo médico operando a un paciente" },
+    definicion: "Una operación del corazón que crea un nuevo camino para la sangre. Se hace cuando una arteria está muy bloqueada.",
+    sinonimos: ["bypass"],
+    ejemplo: { palabra: "puente", texto: "Le hicieron un puente para curar la arteria bloqueada." },
+    ejemploSinonimo: { palabra: "bypass", texto: "Le hicieron un bypass para curar la arteria bloqueada." },
+    situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "bypass" },/*traduccion-end*/
+  },
+  {
+    id: "escaner-medico",
+    palabra: "Escáner",
+    imagen: { id: 30705, alt: "Una máquina de tomografía médica" },
+    definicion: "Una prueba médica que hace fotos del interior del cuerpo. Ayuda a los médicos a ver huesos y órganos.",
+    sinonimos: ["TAC"],
+    ejemplo: { palabra: "escáner", texto: "Le hicieron un escáner para ver la lesión." },
+    ejemploSinonimo: { palabra: "TAC", texto: "Le hicieron un TAC para ver la lesión." },
+    situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "ct-scan" },/*traduccion-end*/
+  },
+  {
+    id: "menu-app",
+    palabra: "Menú",
+    imagen: { id: 39466, alt: "Un icono de configuración con forma de engranaje" },
+    definicion: "La lista de opciones que aparece en el móvil o el ordenador. Sirve para elegir qué quieres hacer o cambiar.",
+    sinonimos: ["listado de opciones"],
+    ejemplo: { palabra: "menú", texto: "Abrió el menú para cambiar el idioma del móvil." },
+    ejemploSinonimo: { palabra: "listado de opciones", texto: "Abrió el listado de opciones para cambiar el idioma del móvil." },
+    situacion: "tecnologia",
+    /*traduccion-start*/traduccion: { en: "menu-app" },/*traduccion-end*/
+  },
+  {
+    id: "ventana-programa",
+    palabra: "Ventana",
+    imagen: { id: 7190, alt: "Un ordenador de sobremesa" },
+    definicion: "Un espacio en la pantalla donde se ve un programa o una página. Puedes moverlo, cerrarlo o hacerlo más grande.",
+    sinonimos: ["vista del programa"],
+    ejemplo: { palabra: "ventana", texto: "Cerró la ventana sin guardar los cambios del documento." },
+    ejemploSinonimo: { palabra: "vista del programa", texto: "Cerró la vista del programa sin guardar los cambios del documento." },
+    situacion: "tecnologia",
+    /*traduccion-start*/traduccion: { en: "window-program" },/*traduccion-end*/
+  },
+  {
+    id: "archivo-digital",
+    palabra: "Archivo",
+    imagen: { id: 22801, alt: "Unas manos escribiendo en el teclado de un ordenador" },
+    definicion: "Un documento guardado en el ordenador o el móvil. Tiene un nombre y se puede abrir, guardar o borrar.",
+    sinonimos: ["documento digital"],
+    ejemplo: { palabra: "archivo", texto: "Guardó el archivo antes de apagar el ordenador." },
+    ejemploSinonimo: { palabra: "documento digital", texto: "Guardó el documento digital antes de apagar el ordenador." },
+    situacion: "tecnologia",
+    /*traduccion-start*/traduccion: { en: "file" },/*traduccion-end*/
+  },
+  {
+    id: "buzon-voz",
+    palabra: "Buzón",
+    imagen: { id: 11459, alt: "Varios dispositivos de tecnología: portátil, reloj y móvil" },
+    definicion: "Un servicio que graba los mensajes de voz cuando no contestas el teléfono. Puedes escucharlos más tarde.",
+    sinonimos: ["contestador automático"],
+    ejemplo: { palabra: "buzón de voz", texto: "Dejó un mensaje en el buzón de voz de su compañero." },
+    ejemploSinonimo: { palabra: "contestador automático", texto: "Dejó un mensaje en el contestador automático de su compañero." },
+    situacion: "tecnologia",
+    /*traduccion-start*/traduccion: { en: "voicemail" },/*traduccion-end*/
+  },
+  {
+    id: "carpeta-digital",
+    palabra: "Carpeta",
+    imagen: { id: 7214, alt: "Un ordenador portátil" },
+    definicion: "Un espacio en el ordenador o el móvil donde guardas archivos juntos. Ayuda a organizarlos por temas.",
+    sinonimos: ["sección de archivos"],
+    ejemplo: { palabra: "carpeta", texto: "Creó una carpeta nueva para guardar las fotos." },
+    ejemploSinonimo: { palabra: "sección de archivos", texto: "Creó una sección de archivos nueva para guardar las fotos." },
+    situacion: "tecnologia",
+    /*traduccion-start*/traduccion: { en: "folder-digital" },/*traduccion-end*/
+  },
 ];
