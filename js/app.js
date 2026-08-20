@@ -446,6 +446,26 @@
     all[id] = text;
     localStorage.setItem(sentencesKey(), JSON.stringify(all));
   }
+  function sentenceStarsKey() {
+    return "sinonimia-frases-estrellas-" + currentLanguage;
+  }
+
+  function sentenceStars() {
+    try {
+      var saved = JSON.parse(localStorage.getItem(sentenceStarsKey()) || "[]");
+      return Array.isArray(saved) ? saved : [];
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function earnSentenceStar(id) {
+    var earned = sentenceStars();
+    if (earned.indexOf(id) !== -1) return false;
+    earned.push(id);
+    localStorage.setItem(sentenceStarsKey(), JSON.stringify(earned));
+    return true;
+  }
 
   function createYourSentenceBlock(entry) {
     var section = document.createElement("div");
@@ -459,6 +479,10 @@
     instructions.className = "ayuda-texto";
     instructions.textContent = t("sentenceInstruction");
     section.appendChild(instructions);
+    var stars = document.createElement("p");
+    stars.className = "tu-frase-estrellas";
+    stars.textContent = t("sentenceStars", { n: sentenceStars().length });
+    section.appendChild(stars);
 
     var fieldId = "tu-frase-campo-" + entry.id;
 
@@ -505,6 +529,13 @@
       if (!text) return;
       saveMySentence(entry.id, text);
       showAsSaved(text);
+      if (earnSentenceStar(entry.id)) {
+        stars.textContent = t("sentenceStars", { n: sentenceStars().length });
+        stars.classList.remove("acierto-pop");
+        void stars.offsetWidth;
+        stars.classList.add("acierto-pop");
+        notice.appendChild(document.createTextNode(" " + t("sentenceStarEarned")));
+      }
     });
 
     var row = document.createElement("div");

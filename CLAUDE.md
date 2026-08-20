@@ -36,6 +36,48 @@ dictionary entry about an actual disability-related bureaucratic term (e.g.
 a disability-certificate procedure) would be legitimate content, not a
 violation.
 
+### Public-facing wording: "usuario/a tipo" euphemism
+
+When presenting the project to **the general public** (press, talks, public
+READMEs that anyone can read, the metaproject landing at `apptonomia.uk`,
+etc.) the term **"discapacidad intellectual" / "intellectual disability"**
+must not be used as a way to describe the audience of the app — even when
+the surrounding text would otherwise be public. The accepted euphemism for
+that audience in those surfaces is **"usuario/a tipo"** (plural
+"usuarios/as tipo"), used as a generic profile marker, not as a label for
+any real person.
+
+Where the euphemism applies and where it doesn't:
+
+- **Applies** to any text that anyone outside the project can read without
+  authentication: `README.md`, `README.es.md`, the portal at
+  `apptonomia.uk`, public talks, social media copy, press notes, marketing
+  material. In these surfaces, refer to the audience as "el/la usuario/a
+  tipo" or "usuarios/as tipo" of the app.
+- **Does NOT apply** to internal documentation (`CLAUDE.md`,
+  `doc/en/SPEC.md`, `doc/es/SPEC.md`, `technical.md`, `roles.md`,
+  `CONTRIBUTING.md`, `CONTRIBUTING.es.md`) — those files are read by
+  maintainers and contributors, and **"discapacidad intellectual" /
+  "intellectual disability" remains the canonical term there**, because
+  the project needs an explicit, unambiguous explanation of its real
+  objective for whoever maintains it.
+- **Does NOT apply** to dictionary content (`js/data.*.js`): a dictionary
+  entry about a real bureaucratic concept (a disability certificate, a
+  permanent-disability benefit, etc.) names the concept as it is named in
+  the real world — that is content, not labelling of an audience.
+- **Does NOT apply** to the UI of the site itself: the rule in
+  `doc/es/SPEC.md` §2.3 / `doc/en/SPEC.md` §"Mandatory rule: zero mentions
+  in the user-facing product" continues to forbid **any** mention,
+  including "usuario/a tipo", in `index.html` / `js/i18n.js` /
+  `about/privacidad.html`. The euphemism is for the outside world, not
+  for what the visitor reads on the site.
+
+Rationale: presenting the project's real objective in maintainer docs is
+useful and necessary; presenting it in marketing or landing surfaces is
+neither necessary nor respectful of the audience — "usuario/a tipo" lets
+public material describe what the app is for (who the typical profile
+is) without publicly naming a clinical group.
+
 
 ## Language policy
 
@@ -132,6 +174,15 @@ string or a hardcoded language's data file. `js/i18n.js` is UI copy only,
 `js/data.es.js`/`js/data.en.js` are the actual dictionary content, and
 `doc/en/SPEC.md` (or `doc/es/SPEC.md`) holds the non-negotiable content/UX
 rules (easy-read writing rules, "never gate content behind a game", etc.).
+
+## graphify
+
+This project has a knowledge graph at `graphify-out/` with god nodes, community structure, and cross-file relationships.
+
+- For codebase questions, first run `graphify query "<question>"` when `graphify-out/graph.json` exists. Use `graphify path "<A>" "<B>"` for relationships and `graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than `GRAPH_REPORT.md` or raw grep output.
+- If `graphify-out/wiki/index.md` exists, use it for broad navigation instead of raw source browsing.
+- Read `graphify-out/GRAPH_REPORT.md` only for broad architecture review or when `query`/`path`/`explain` do not surface enough context.
+- After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).
 
 ## Agent workflow — scratch scripts and the repo root
 

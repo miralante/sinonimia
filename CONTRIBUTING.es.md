@@ -8,10 +8,11 @@ de proyectos con un rol de apoyo dedicado, Sinonimia está pensada para
 consultarse sola, sin que nadie tenga que mediar):
 
 1. 👤 **Persona usuaria** — cualquiera que se encuentra una palabra
-   difícil (en origen, personas con discapacidad intelectual en un
-   contexto de terapia ocupacional). Usa la web directamente. **No lee
-   ni escribe código**, y ese es justamente el objetivo: que la
-   herramienta sea para ella.
+   difícil (en origen, **usuarios/as tipo** que se benefician de un
+   contexto de terapia ocupacional; ver
+   [`doc/es/SPEC.md`](doc/es/SPEC.md) §2.2 para el contexto interno).
+   Usa la web directamente. **No lee ni escribe código**, y ese es
+   justamente el objetivo: que la herramienta sea para ella.
 2. 💻 **Persona colaboradora** — quien propone una palabra nueva, un
    idioma nuevo, o toca el código. Este rol cubre tanto contenido como
    código; ver las secciones siguientes.

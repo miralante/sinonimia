@@ -4,6 +4,7 @@ Thumbs.db
 *.swp
 .vscode/
 .idea/
+.claude/
 # Ficheros scratch de sesiones del editor/agente (no forman parte del repo)
 .tmp*
 # Scripts de exploraciÃ³n / ingest / one-off del mantenedor

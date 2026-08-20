@@ -288,6 +288,11 @@ main {
   margin: 0.4rem 0 0;
   font-size: 0.9rem;
   color: #4a4a4a;
+.tu-frase-estrellas {
+  margin: 0.5rem 0 0.8rem;
+  color: var(--color-acento);
+  font-weight: bold;
+}
 }
 
 .resultados-info {

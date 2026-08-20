@@ -1,447 +1,320 @@
-# SPEC.md — Definición de producto
+# SPEC.md - Definición de producto
 
-> **Este documento define QUÉ es Sinonimia, PARA QUIÉN es y por qué.**
+> Este documento define **qué es Sinonimia, para quién es y por qué**.
+> Describe las decisiones de producto, contenido y experiencia que deben
+> mantenerse aunque cambie la implementación.
 >
-> Para saber CÓMO está construida la aplicación (arquitectura, ficheros),
-> consulta [`tecnico.md`](tecnico.md).
+> Para saber **cómo** está construida la aplicación, consulta
+> [`tecnico.md`](tecnico.md). Para añadir o ampliar idiomas, consulta
+> [`idiomas.md`](idiomas.md).
 
----
+## 1. Resumen del producto
 
-## Para quién es
+Sinonimia es un diccionario de **palabras difíciles o técnicas** que aparecen
+en trámites, cartas oficiales, procesos judiciales y consultas médicas. Cada
+palabra se explica con lenguaje claro, un sinónimo sencillo, un ejemplo real y
+un pictograma.
 
-Sinonimia es un diccionario para **cualquiera que se encuentre una palabra
-difícil** en un trámite, en una carta oficial o en la consulta del médico.
-Está escrito para que se entienda a la primera, sin dar nada por sabido.
+No es un diccionario general de sinónimos. No incluye vocabulario común como
+"casa", "feliz" o "comer", porque esas palabras ya suelen entenderse. Su
+valor está en explicar las palabras que pueden dejar fuera a quien no las
+conoce.
 
-No hace distinciones sobre quién lo usa ni por qué: la palabra "usufructo"
-o "cefalea" es igual de difícil de entender la primera vez la lea quien la
-lea. Diseñar para que se entienda a la primera hace la web más clara para
-todo el mundo, no solo para quien más lo necesita.
+## 2. Público objetivo y origen
 
-No es un diccionario general de sinónimos. Solo recoge palabras **difíciles o
-técnicas** (de la administración, la justicia y la salud) y las explica de
-forma que se puedan entender a la primera.
+### 2.1 Público de cara al producto
 
-## Objetivo y origen (contexto interno)
+Sinonimia es para **cualquier persona que se encuentre una palabra difícil**
+en un trámite, una carta oficial o una visita al médico. La explicación debe
+entenderse a la primera y no debe dar conocimientos previos por supuestos.
 
-Sinonimia nace como herramienta de apoyo en **terapia ocupacional**,
-pensada específicamente para ayudar a **personas con discapacidad
-intelectual** a **aprender vocabulario**. Ese es el objetivo real del
-proyecto y la razón de ser de casi todas sus reglas de diseño: la lectura
-fácil no es una preferencia de estilo, es el
-requisito que hace que la herramienta cumpla su función; la gamificación es
-ligera y nunca punitiva porque así lo exige el contexto terapéutico; los
-pictogramas existen porque son el apoyo visual habitual en comunicación
-aumentativa.
+La web no distingue quién la usa ni por qué. La primera vez que alguien lee
+"usufructo" o "cefalea", esas palabras pueden ser difíciles para cualquiera.
+Diseñar para la comprensión inmediata hace la web más clara para todo el
+mundo, sin señalar ni excluir a nadie.
 
-Esto es información de contexto para quien mantiene o contribuye al
-proyecto — explica el "por qué" de las reglas de más abajo. No cambia la
-sección anterior ("Para quién es"): de cara a quien usa la web, el texto se
-mantiene deliberadamente universal y no nombra ningún colectivo, para que
-nadie se sienta señalado ni excluido. Un objetivo terapéutico específico y
-una redacción pública inclusiva no son contradictorios: son la misma
-decisión de diseño vista desde dentro y desde fuera.
+### 2.2 Objetivo interno del proyecto
 
-Ver también [`roles.md`](roles.md) para quién participa en el proyecto y
-cómo.
+Sinonimia nace como herramienta de apoyo en **terapia ocupacional**, pensada
+para ayudar específicamente a **personas con discapacidad intelectual a
+aprender vocabulario**. Este es el objetivo real del proyecto y explica sus
+decisiones principales:
 
-### Regla de obligado cumplimiento: cero menciones en el producto de cara al usuario
+- La lectura fácil no es un adorno de estilo: es el requisito que permite que
+  la herramienta cumpla su función.
+- La gamificación es ligera y nunca punitiva porque debe apoyar, no presionar.
+- Los pictogramas aportan un apoyo visual habitual en la comunicación
+  aumentativa.
+- Las categorías se inspiran en las áreas de autonomía de las actividades
+  instrumentales de la vida diaria (AIVD).
 
-**Ningún texto que vea la persona usuaria puede mencionar, ni directa ni
+Este contexto es para quienes mantienen o contribuyen al proyecto. No cambia
+el lenguaje público de la sección anterior: una finalidad terapéutica
+específica y una presentación universal son decisiones compatibles. Consulta
+[`roles.md`](roles.md) para los perfiles de participación en el proyecto.
+
+### 2.3 Regla obligatoria: cero menciones en el producto visible
+
+Ningún texto que pueda ver la persona usuaria puede mencionar, directa o
 indirectamente, la discapacidad intelectual, la terapia ocupacional, los
-menores, los niños, ni expresiones equivalentes** ("dificultades
-cognitivas", "necesidades especiales", "capacidades diferentes",
-"menor de edad", etc.). Esto incluye todo lo visible en la interfaz de
-la web: `index.html` (títulos, meta-descripción, textos estáticos), los
-textos de `js/i18n.js` en todos los idiomas (botones, etiquetas,
-mensajes, alt de iconos), y el pie de página. El motivo es exactamente
-el de la sección anterior: que ninguna persona que use la web se sienta
-señalada, inferior o discriminada por lo que la web dice de ella.
+menores, los niños ni expresiones equivalentes como "dificultades cognitivas",
+"necesidades especiales", "capacidades diferentes" o "menor de edad".
 
-Dónde sí aplica y dónde no:
+La regla cubre:
 
-- **Sí aplica** a todo lo que la persona usuaria final ve en la web:
-  `index.html`, `js/i18n.js`, y `about/privacidad.html` (la página de
-  privacidad es visible para quien llega a ella, aunque no esté
-  enlazada — cualquier visita es una persona usuaria). **No aplica** a
-  `about/index.html`: esa es la presentación del proyecto, donde se
-  explica el origen y el contexto interno — la misma exención que se
-  aplica a la sección §2 "Para quién es" de abajo.
-- **No aplica** al contenido del diccionario (`js/data.<idioma>.js`). Si en
-  el futuro se añade una palabra difícil relacionada con la discapacidad
-  o con la edad como trámite (por ejemplo "certificado de discapacidad",
-  "incapacidad permanente", "emancipación de menores"), se explica con
-  total normalidad, igual que cualquier otra palabra — el objetivo ahí
-  es definir la palabra, no describir a quien la consulta.
-- **No aplica** a la documentación interna del proyecto (este documento,
-  [`../../CLAUDE.md`](../../CLAUDE.md), [`../../CONTRIBUTING.es.md`](../../CONTRIBUTING.es.md),
-  [`../../README.es.md`](../../README.es.md), `roles.md`): esos archivos los
-  lee quien mantiene o contribuye al proyecto, no la persona usuaria final,
-  y ahí sí debe quedar explicado el objetivo real (ver la sección anterior).
-`about/privacidad.html`.
-Esta regla se comprueba automáticamente: `node scripts/validar.js` falla si
-alguno de esos términos aparece en `index.html`, `js/i18n.js` o
-`about/*.html`.
+- `index.html`, incluidos títulos, metadescripción y texto estático.
+- Los textos de `js/i18n.js`, en todos los idiomas, incluidos botones,
+  etiquetas, mensajes y textos alternativos.
+- `about/privacidad.html`, porque es una página visible para quien llegue a
+  ella aunque no esté enlazada.
 
-## Principio de diseño: lectura fácil
+La regla no cubre:
 
-Todo el contenido de Sinonimia se escribe siguiendo las pautas de
-**lectura fácil**, la norma UNE 153101:2018 EX y las pautas europeas de
-Inclusion Europe. Esto no es un detalle de estilo: es el criterio principal
-que manda sobre cualquier otro (incluida la precisión técnica). Si una
-definición es correcta pero difícil de entender, está mal escrita.
+- `js/data.<idioma>.js`: una entrada puede definir legítimamente un trámite
+  relacionado con discapacidad o edad.
+- La documentación interna, `CLAUDE.md`, los documentos de contribución,
+  los README y `doc/es/SPEC.md` / `doc/en/SPEC.md`.
+- `about/index.html`, que presenta el origen y el contexto interno del
+  proyecto.
 
-Reglas que se aplican a **cada palabra nueva** que se añade a `js/data.<idioma>.js`:
+`node scripts/validar.js` comprueba automáticamente los archivos visibles
+indicados arriba. No se debe ocultar una mención problemática trasladándola a
+otro texto de interfaz.
 
-1. **Una idea por frase.** Nada de frases con "que", comas encadenadas o
-   varias ideas juntas.
-2. **Frases muy cortas.** Máximo 10-12 palabras por frase. La definición
-   completa, 2 frases como mucho.
-3. **Palabras conocidas.** Si para explicar una palabra difícil hace falta
-   otra palabra difícil, se cambia por una palabra de uso diario.
-4. **Nada de abstracciones evitables.** Mejor "un papel" que "un documento";
-   mejor "duele" que "produce dolor"; mejor "no es grave" que "no reviste
-   gravedad".
-5. **Sin metáforas, sin ironía, sin dobles negaciones.**
-6. **Voz activa y concreta.** Sujeto claro, verbo claro.
-7. **El ejemplo manda.** La frase de ejemplo debe ser una situación real y
-   corriente (un trámite, una visita al médico, un mensaje que llega a casa),
-   nunca un caso abstracto.
-8. **La repetición con sinónimo es la explicación, no un adorno.** La misma
-   frase se repite cambiando solo la palabra difícil por la sencilla, para que
-   se entienda por el contexto, no por la definición.
+### 2.4 Eufemismo público: "usuario/a tipo"
 
-Antes de guardar una palabra nueva, léela en voz alta: si suena a texto
+Cuando se presenta el proyecto de cara al **público general** (prensa,
+charlas, READMEs públicos que cualquiera pueda leer, el portal
+`apptonomia.uk`, etc.) el término "discapacidad intelectual" **no debe
+usarse** para describir la audiencia de la app, ni siquiera cuando el
+texto que lo rodea sería público. El eufemismo aceptado en esas
+superficies para referirse a la audiencia es **"usuario/a tipo"** (en
+plural "usuarios/as tipo"), entendido como marcador genérico de perfil,
+no como etiqueta para ninguna persona real.
+
+Dónde se aplica y dónde no:
+
+- **Se aplica** a cualquier texto que cualquier persona ajena al proyecto
+  pueda leer sin autenticarse: `README.es.md`, `README.md`, el portal en
+  `apptonomia.uk`, charlas públicas, copy en redes, notas de prensa,
+  material de marketing. En estas superficies se habla de la audiencia
+  como "el/la usuario/a tipo" o "los/las usuarios/as tipo" de la app.
+- **No se aplica** a la documentación interna (`CLAUDE.md`,
+  `doc/es/SPEC.md`, `doc/en/SPEC.md`, `tecnico.md`, `roles.md`,
+  `CONTRIBUTING.es.md`, `CONTRIBUTING.md`) — esos archivos los lee quien
+  mantiene o contribuye al proyecto, y "discapacidad intelectual" sigue
+  siendo allí el término canónico, porque el proyecto necesita explicar
+  sin ambigüedad su objetivo real a quien lo mantiene.
+- **No se aplica** al contenido del diccionario (`js/data.*.js`): una
+  entrada sobre un trámite real (certificado de discapacidad, prestación
+  por incapacidad permanente, etc.) nombra el concepto como se nombra en
+  el mundo real — eso es contenido, no etiquetado de audiencia.
+- **No se aplica** a la UI de la propia web: la regla de §2.3 sigue
+  prohibiendo **cualquier** mención, incluida "usuario/a tipo", en
+  `index.html` / `js/i18n.js` / `about/privacidad.html`. El eufemismo es
+  para el exterior, no para lo que lee quien visita el sitio.
+
+Razón: presentar el objetivo real del proyecto en documentación interna
+es útil y necesario; presentarlo en superficies de marketing o landing
+no es necesario ni respetuoso con la audiencia — "usuario/a tipo"
+permite describir en público para qué sirve la app (qué perfil tiene
+quien la usa) sin nombrar públicamente un grupo clínico.
+
+## 3. Principios de diseño
+
+### 3.1 Lectura fácil
+
+Todo el contenido sigue las pautas de lectura fácil, la norma UNE 153101:2018
+EX y las pautas europeas de Inclusion Europe. La comprensión es el criterio
+principal y prevalece sobre la precisión técnica expresada con dificultad.
+Una definición técnicamente correcta pero difícil de entender está mal
+redactada.
+
+Cada entrada nueva debe cumplir estas reglas:
+
+1. Una idea por frase.
+2. Frases muy cortas: 10-12 palabras como máximo por frase y dos frases como
+   máximo para la definición completa.
+3. Palabras conocidas. No se explica una palabra difícil con otra igual de
+   difícil.
+4. Preferencia por expresiones concretas: "un papel" antes que "un
+   documento"; "duele" antes que "produce dolor".
+5. Sin metáforas, ironía ni dobles negaciones.
+6. Voz activa, sujeto claro y verbo claro.
+7. Ejemplos basados en situaciones reales y corrientes: un trámite, una
+   consulta médica o un mensaje que llega a casa.
+8. La frase con sinónimo repite la misma situación y cambia solo la palabra
+   difícil por la sencilla. Esa repetición explica el significado por el
+   contexto.
+
+Antes de guardar una entrada, hay que leerla en voz alta. Si suena a texto
 legal o clínico, hay que reescribirla.
 
-## Principio de diseño: método socrático en los juegos
+### 3.2 Comprensión guiada en los juegos
 
-Cuando la persona falla en uno de los dos juegos, Sinonimia nunca se limita
-a decirle que está mal: la redirige a mirar otra vez la pista, la palabra o
-la frase de ejemplo, para que sea ella quien razone la respuesta en el
-siguiente intento en vez de ir probando opciones al azar. El juego guía el
-razonamiento hacia la respuesta, nunca la entrega directamente.
+Cuando una persona falla, el juego la invita a volver a mirar la pista, la
+palabra o la frase de ejemplo. No se limita a decir que la respuesta es
+incorrecta ni entrega directamente la solución. La interacción debe guiar el
+razonamiento hacia la respuesta.
 
-Esto es la regla 4 de la sección de gamificación más abajo (mensaje de
-fallo: nunca "¡Mal!", siempre una invitación a releer la pista o la frase,
-como ya hace `wordGameIncorrect` en `js/i18n.js`). Cualquier mensaje
-de fallo nuevo que se añada a los juegos, en cualquier idioma, debe seguir
-el mismo patrón.
+### 3.3 Palabras con doble significado
 
-## Palabras con doble significado
+Un homónimo se modela como **dos entradas normales**. Ambas pueden compartir
+el mismo valor de `palabra`, pero deben tener distinto `id`, `situacion` y
+`definicion`. No se añaden aclaraciones artificiales como "Pensión (dinero)"
+al campo `palabra`.
 
-Algunas palabras difíciles son además homónimos: la misma palabra tiene dos
-significados que no tienen nada que ver (por ejemplo "pensión" — el dinero
-que se cobra al jubilarse, o una casa de huéspedes barata). Sinonimia los
-trata como **dos entradas normales**, cada una con su propio `id` y su
-propia `situacion`, y las dos usan el mismo texto en `palabra` a propósito
-(no se desambigua añadiendo algo como "Pensión (dinero)" al campo
-`palabra`: cada entrada ya se distingue por su `definicion` y por la
-pastilla de tema en su página de detalle, igual que un diccionario en
-papel numera las acepciones en vez de inventarse una palabra distinta para
-cada una).
+La definición y la categoría distinguen las acepciones. El índice interno
+acepta varias entradas con el mismo nombre y enlaza todas las coincidencias de
+un sinónimo ambiguo. Las entradas de `pensión` en `js/data.es.js` y `pension`
+en `js/data.en.js` son el caso de referencia. El comportamiento técnico está
+descrito en [la forma de la entrada](tecnico.md#5-forma-de-una-entrada).
 
-Esto es seguro porque el índice interno de `js/app.js` (`entryByName`,
-usado para enlazar un sinónimo a su propia entrada y para elegir las
-opciones falsas de los dos juegos) está preparado para que varias entradas
-compartan `palabra`: nunca se pisan entre sí, y si el sinónimo de otra
-palabra resulta ambiguo se enlaza a las dos, no a una elegida al azar. Ver
-"Dictionary entry shape" en [`tecnico.md`](tecnico.md)
-para el detalle técnico. Las dos entradas de `pensión` (`es`) y `pension`
-(`en`) en `js/data.*.js` son el caso de referencia — cópialas si necesitas
-añadir otro homónimo.
+## 4. Experiencia y gamificación
 
-## Por qué "solo palabras difíciles"
+Consultar una palabra debe ser ágil y agradable, no parecer un formulario.
+La aplicación funciona sin backend ni cuentas de usuario e incluye:
 
-El diccionario no incluye vocabulario común (casa, feliz, comer...) porque
-ese vocabulario ya se entiende. El valor de Sinonimia está en las palabras
-que aparecen en cartas del ayuntamiento, en juicios o en la consulta del
-médico, y que suelen dejar fuera a quien no las conoce.
+- **Palabra del día**, con un botón para abrirla.
+- **Sorpréndeme**, que abre una palabra al azar.
+- **Progreso de descubrimiento**, guardado en el navegador, con contador y
+  barra de progreso. Es un premio visual, nunca un requisito.
+- **Microanimaciones CSS** para tarjetas, frases y progreso, sin JavaScript
+  pesado ni dependencias externas.
+- **Crea tu propia frase**, un campo por palabra e idioma que se guarda en
+  `localStorage`. No se corrige ni se puntúa: practicar la producción del
+  lenguaje importa más que acertar.
+- **Dos juegos de opción múltiple**, accesibles desde el botón de jugar:
+  - **¿Qué palabra es?** Muestra tema, definición y pictograma, y ofrece
+    tres palabras posibles.
+  - **Completa la frase** Muestra una frase con un hueco y ofrece tres
+    palabras posibles. Al acertar, revela la frase completa con la palabra
+    resaltada.
 
-## Llamada a la acción y motivación (gamificación ligera)
+En ambos juegos las opciones se mezclan en cada pregunta. No hay cronómetro,
+vidas ni límite de intentos: una opción fallida se marca y se puede continuar.
+Los aciertos de ambos juegos se acumulan juntos con una estrella en
+`localStorage`, separados por idioma. Siempre se usan las palabras del idioma
+activo.
 
-Consultar una palabra debe sentirse ágil y con premio, no como rellenar un
-formulario. Por eso la web incluye, sin backend ni cuentas de usuario:
+### 4.1 Reglas que limitan la gamificación
 
-- **Palabra del día**, con un botón claro para ir directamente a ella.
-- **"Sorpréndeme"**, un botón que lleva a una palabra al azar, para explorar
-  sin tener que buscar.
-- **Progreso guardado en el navegador** (`localStorage`, sin servidor): cada
-  palabra que se abre queda marcada como descubierta, con un contador y una
-  barra de progreso. Es un premio visual, no un requisito para usar la web.
-- **Micro-animaciones en CSS** (hover en las tarjetas, aparición suave de la
-  frase con sinónimo, la barra de progreso al rellenarse) para que la
-  interfaz se sienta viva, sin JavaScript pesado ni dependencias externas.
-- **"Crea tu propia frase"**, debajo de las frases de ejemplo en cada
-  palabra: un campo para que la persona escriba su propia frase usando la
-  palabra, guardado en `localStorage` (por palabra e idioma). No se corrige
-  ni se puntúa el texto — el objetivo es practicar produciendo lenguaje,
-  no acertar. Al guardar se muestra la frase con un pequeño refuerzo visual.
-- **Dos juegos**, accesibles desde el botón "🎮 Jugar", que abre un menú
-  para elegir uno:
-  - **"¿Qué palabra es?"**: se muestra el tema, la definición y el
-    pictograma de una palabra y hay que elegir la palabra correcta entre
-    3 opciones.
-  - **"Completa la frase"**: se muestra la frase de ejemplo de una palabra
-    con un hueco en el lugar de la palabra difícil, y hay que elegir cuál
-    falta entre 3 opciones. Al acertar se revela la frase completa con la
-    palabra resaltada, igual que en el detalle de la palabra.
-  En los dos juegos, las opciones se reordenan al azar en cada pregunta
-  (para que no se pueda memorizar la posición de la respuesta), no hay
-  cronómetro ni penalización: si falla, se marca en rojo esa opción y se
-  puede seguir probando el resto sin límite de intentos. Los aciertos de
-  ambos juegos se acumulan juntos, con una ⭐, en `localStorage` por idioma.
-  Los dos juegos usan siempre las palabras del idioma activo, así que
-  funcionan igual al añadir un idioma nuevo — no hay que tocarlos.
+1. Nunca se esconde ni retrasa la definición, el sinónimo o el ejemplo detrás
+   de un clic o de un juego.
+2. El juego nunca es punitivo: no hay cronómetros, vidas, pérdida de puntos
+   ni mensajes duros como "¡Mal!" o "Has perdido".
+3. Fuera del juego, la frase propia no se valida ni se juzga. Cualquier texto
+   guardado recibe el mismo refuerzo positivo.
+4. Un fallo siempre redirige a una pista o a la frase para que la persona
+   razone; nunca da la respuesta correcta directamente.
+5. Los distractores se eligen primero de un tema distinto al objetivo y solo
+   se usa el mismo tema si no hay suficientes opciones. La pastilla de tema
+   hace visible ese contraste.
+6. Las estrellas son refuerzo acumulativo. No se quitan, no tienen máximo y no
+   hay clasificación.
 
-Reglas que mandan sobre la gamificación:
+## 5. Arquitectura de contenido multi-idioma
 
-1. **Nunca esconder ni retrasar la definición, el sinónimo o el ejemplo
-   detrás de un clic o de un juego.** La gamificación premia la
-   exploración; no debe ser una barrera para entender la palabra. Si algo
-   compite con la claridad, gana la claridad.
-2. **Nunca es punitiva.** Sin cronómetros, sin "vidas", sin mensajes de
-   fallo duros ("¡Mal!", "Has perdido"). Un fallo en el juego se trata
-   igual que un intento más: se invita a seguir probando, no se penaliza.
-3. **Nada se corrige ni se puntúa como "incorrecto" fuera del propio
-   juego.** "Crea tu propia frase" no se valida ni se juzga: cualquier
-   frase que la persona escriba se guarda y se celebra igual.
-4. **Método socrático al fallar.** Cuando se elige mal, el mensaje nunca
-   se limita a decir que está mal: siempre redirige a la pista o a la
-   frase ("Vuelve a leer la pista: ¿qué palabra encaja mejor?"), para que
-   la persona razone su propia respuesta en el siguiente intento en vez de
-   limitarse a ir probando opciones al azar. Nunca se da la respuesta
-   correcta directamente.
-5. **Las opciones deben distinguirse por contraste.** En los dos juegos,
-   las palabras que no son la correcta se eligen primero de un tema
-   distinto al de la palabra objetivo (`pickDistractorEntries` en
-   `js/app.js`), y solo se recurre a otra palabra del mismo tema si no hay
-   suficientes de temas distintos. La propia pista muestra el tema de la
-   palabra objetivo (una pastilla `tema-pill`) para que ese contraste sea
-   algo que la persona pueda ver y usar, no algo que tenga que saber de
-   antemano. Así, releer la pista o la frase permite descartar las
-   opciones por no encajar con el tema, en vez de tener que adivinar
-   entre opciones parecidas.
-6. **Estrellas como refuerzo positivo, nunca como puntuación que se
-   pueda perder.** Cada acierto suma una ⭐ al contador (`gameScore`
-   en `js/i18n.js`), con una pequeña animación al ganarla. No hay
-   estrellas que se quiten, ni un máximo, ni una tabla de clasificación:
-   son un premio acumulativo, no una nota.
+Cada idioma tiene su propia interfaz y su propio diccionario. La aplicación
+no traduce automáticamente las palabras existentes.
 
-## Arquitectura multi-idioma
+| Pieza | Responsabilidad |
+|---|---|
+| `js/i18n.js` | Textos fijos de interfaz en un objeto `I18N` por idioma. |
+| `js/data.<idioma>.js` | Palabras, definiciones, ejemplos y pictogramas de un idioma. |
+| `situacion` | Clave de categoría compartida por todos los idiomas. |
+| `imagen.id` | Identificador de pictograma, reutilizable entre idiomas. |
+| `traduccion` | Enlace explícito y opcional con una entrada equivalente en otro idioma. |
 
-Sinonimia está pensada para tener varios idiomas (hoy español, en el futuro
-inglés y los que hagan falta), sin backend y sin build. Cada pieza vive en
-su propio archivo:
+Las categorías actuales son:
 
-- `js/i18n.js` — los **textos fijos de la interfaz** (botones, etiquetas,
-  mensajes) en un objeto `I18N` con una clave por idioma (`es`, `en`...).
-  Esto NO son palabras del diccionario, son los rótulos de la web.
-- `js/data.<idioma>.js` — el **diccionario de ese idioma**, como una lista
-  que se añade a `DICCIONARIOS.<idioma>` (por ejemplo `DICCIONARIOS.es`,
-  `DICCIONARIOS.en`). Cada idioma tiene sus propias palabras: no hace falta
-  que "usufructo" (es) y "usufruct" (en) compartan nada más que la
-  estructura del bloque.
-- El campo `situacion` de cada palabra usa una **clave común a todos los
-  idiomas**, para que el filtro por tema funcione igual en cualquier idioma.
-  Su etiqueta visible en cada idioma se define en `js/i18n.js`
-  (`topic_<clave>`), nunca en el archivo de datos. Las claves actuales son:
+- `tramites`: gestiones administrativas generales.
+- `salud`: términos médicos y de atención sanitaria.
+- `vida-diaria`: vocabulario difícil que no encaja mejor en otra categoría;
+  funciona como criterio de desempate.
+- `finanzas`: dinero, bancos, deudas, ahorro, impuestos y derechos del
+  consumidor (garantías, devoluciones, reclamaciones de compra).
+- `vivienda`: alquiler, hipoteca, empadronamiento y suministros del hogar.
+- `trabajo`: contratos, nóminas, bajas y derechos laborales.
+- `legal`: derechos, consentimiento, procesos judiciales y representación.
+- `tecnologia`: dispositivos, aplicaciones, internet y comunicación digital.
+- `seguridad`: emergencias, prevención de riesgos y protección personal.
+- `educacion`: vocabulario y trámites escolares y universitarios.
 
-  - `tramites` — gestiones administrativas generales (avisos, resoluciones,
-    documentos oficiales que no encajan mejor en otra categoría).
-  - `salud` — términos médicos y de atención sanitaria.
-  - `vida-diaria` — vocabulario de situaciones cotidianas que no encaja en
-    ninguna categoría más específica.
-  - `finanzas` — dinero, bancos, deudas, ahorro, impuestos.
-  - `vivienda` — alquiler, hipoteca, empadronamiento, suministros del hogar.
-  - `trabajo` — contratos laborales, nómina, bajas, derechos del trabajador.
-  - `legal` — derechos, consentimiento, procesos judiciales, representación
-    legal.
-  - `tecnologia` — dispositivos, aplicaciones, internet y comunicación
-    digital (móvil, contraseña, videollamada...).
-  - `seguridad` — emergencias, prevención de riesgos y protección personal
-    (evacuación, primeros auxilios, denunciar un abuso...).
-  - `educacion` — trámites y vocabulario escolar y universitario
-    (matrícula, tasas académicas, exámenes, títulos, vida en el campus...).
+Estas diez categorías se inspiran en las AIVD. No se debe crear una categoría
+para dos o tres palabras sueltas: hace falta un grupo real de palabras y una
+etiqueta `topic_<clave>` en todos los bloques de `I18N`.
 
-  Estas diez categorías salen de las **AIVD (actividades instrumentales de
-  la vida diaria)**, el marco que usa la terapia ocupacional para identificar
-  en qué áreas de la vida adulta suele hacer falta más apoyo para ganar
-  autonomía — de ahí que finanzas, vivienda, trabajo, legal, tecnología,
-  seguridad y educación se traten como áreas propias y no como currículum
-  genérico de "trámites". No añadas una categoría nueva para dos o tres
-  palabras sueltas: hace falta un puñado de palabras reales que la
-  justifiquen, si no el filtro de tema queda con casillas casi vacías.
-- El campo `imagen.id` es el identificador del pictograma en ARASAAC.
-  ARASAAC es un banco de pictogramas multi-idioma: la misma imagen sirve
-  para el mismo concepto en cualquier idioma, así que dos palabras de
-  idiomas distintos pueden apuntar al mismo `imagen.id` y compartir el
-  archivo `img/<id>.png` sin descargarlo dos veces.
-- La URL recuerda el idioma: `#/es/palabra/subsanar`, `#/en/palabra/rectify`.
-  Cambiar de idioma no intenta traducir la palabra que estabas viendo:
-  vuelve a la lista, en el idioma nuevo.
-- El progreso ("palabras descubiertas"), los aciertos del juego y las
-  frases propias se guardan por idioma (`localStorage`, claves
-  `sinonimia-aprendidas-<idioma>`, `sinonimia-juego-aciertos-<idioma>` y
-  `sinonimia-mis-frases-<idioma>`), porque son diccionarios de contenido
-  distinto.
+La URL conserva el idioma, por ejemplo `#/es/palabra/subsanar` y
+`#/en/palabra/rectify`. Cambiar de idioma vuelve a la lista: no intenta
+traducir automáticamente la palabra abierta. El progreso, los aciertos y las
+frases propias se separan por idioma mediante las claves de `localStorage`.
 
-### Cómo añadir un idioma nuevo
+## 6. Añadir un idioma nuevo
 
-1. Copia el bloque `es` (o `en`) entero dentro de `I18N` en `js/i18n.js` y
-   tradúcelo, clave por clave.
-2. Crea `js/data.<idioma>.js` copiando la estructura de `js/data.es.js` y
-   escribe las palabras difíciles de ese idioma (no es necesario traducir
-   las palabras existentes: elige las que de verdad sean difíciles en ese
-   idioma). Usa las claves compartidas en `situacion`.
-3. Añade `<script src="js/data.<idioma>.js"></script>` en `index.html`,
-   junto a los otros `data.*.js`.
-4. Añade un botón en `.idioma-selector` en `index.html`:
-   `<button class="idioma-btn" data-lang="<idioma>">XX</button>`.
+Esta es la versión resumida; el procedimiento completo está en
+[`idiomas.md`](idiomas.md).
 
-Nada de esto toca `js/app.js`: el buscador, el enrutado, el progreso y la
-palabra del día ya funcionan para cualquier idioma que aparezca en
-`DICCIONARIOS`.
+1. Copiar y traducir un bloque completo de `I18N` en `js/i18n.js`, incluida
+   `languageName_<idioma>` y `htmlLang`.
+2. Crear `js/data.<idioma>.js` con palabras difíciles de ese idioma, usando
+   las claves compartidas de `situacion`.
+3. Cargar el nuevo archivo de datos en `index.html` antes de `js/app.js`.
+4. Añadir el botón del idioma en `.idioma-selector`.
+5. Añadir el código a la whitelist de `about.js` y bloques paralelos en
+   `about/index.html`, `about/privacidad.html` y `404.html`.
+6. Reflejar `htmlLang`, `metaTitle` y `metaDescription` en
+   `js/bootstrap-i18n.js`.
+7. Revisar RTL, variantes regionales, enlaces `traduccion` y categorías.
+8. Ejecutar `node scripts/validar.js`.
 
-Lo anterior es la versión corta. El paso a paso completo — incluyendo las
-cadenas reflejadas en `js/bootstrap-i18n.js`, la whitelist de `about.js`
-y los bloques paralelos `data-lang-block` en `about/*` y `404.html`,
-las claves `languageName_<código>` que hay que añadir en **cada**
-bloque `I18N`, las convenciones de cross-linking con `traduccion`, las
-reglas sobre RTL y variantes por locale, el umbral de 8 palabras por
-categoría, y un checklist completo — vive en [`idiomas.md`](idiomas.md)
-(o [`../en/languages.md`](../en/languages.md) en inglés). Esta sección
-es la que hay que recordar; ese documento es el que hay que seguir
-cuando se va a añadir el idioma de verdad.
+No se modifica `js/app.js`: búsqueda, rutas, juegos, progreso y palabra del
+día funcionan con cualquier clave presente en `DICCIONARIOS`.
 
-## Proceso para ampliar el contenido
+## 7. Proceso para ampliar el contenido
 
-Escribir una definición en lectura fácil necesita criterio humano — no se
-puede generar en plantilla sin que se note (por eso `scripts/validar.js`
-comprueba la forma de los datos, pero nunca la calidad de una definición:
-eso solo lo valora una persona, o una IA, leyéndola en voz alta). Lo que sí
-se puede automatizar es la parte de contabilidad que hay que hacer antes de
-escribir nada, y eso es lo que hace `scripts/estado-contenido.js`. El
-proceso completo, repetible cada vez que se quiera hacer crecer el
-diccionario:
+La calidad de una definición requiere criterio humano. El script de validación
+comprueba la forma de los datos, pero no puede decidir si una definición se
+entiende. El proceso recomendado es:
 
-1. **Diagnóstico**: `node scripts/estado-contenido.js` — cuenta las
-   palabras que hay por categoría y por idioma, marca las categorías con
-   menos de 8 palabras (el umbral que ya pedía la sección de "Arquitectura
-   multi-idioma" para no dejar el filtro de tema con casillas vacías), y
-   avisa si un idioma se ha quedado muy por detrás de otro en una misma
-   categoría. Con `--detalle` lista además cada palabra ya existente con
-   sus sinónimos, definición y ejemplo, para no proponer un término que ya
-   está cubierto bajo otra palabra, ni escribir una entrada nueva que
-   recicle un escenario ilustrativo ya usado en la misma categoría. Una
-   vez elegida la categoría y el idioma (paso 2), vuelve a ejecutarlo
-   acotado a ambos — `node scripts/estado-contenido.js --detalle
-   --categoria salud --lang es` — en vez del informe sin acotar: esta es
-   también la forma de conseguir esta información **sin abrir nunca
-   `js/data.<idioma>.js` directamente**, que con 1MB+/20.000+ líneas por
-   idioma es demasiado grande para leerlo entero solo para planificar un
-   lote. Reserva la lectura/grep directo de `js/data.<idioma>.js` para
-   arreglos quirúrgicos de una entrada ya localizada, nunca para
-   planificar qué añadir.
-2. **Elegir una categoría y un idioma** de los marcados por el
-   diagnóstico. El diagnóstico cuenta cada idioma por separado a propósito:
-   el contenido no se comparte entre idiomas (ver "Arquitectura
-   multi-idioma" más arriba), así que cada combinación categoría+idioma se
-   trabaja de forma independiente, aunque una misma pasada puede cubrir
-   varias.
-3. **Buscar términos candidatos** para esa categoría. Hay dos formas de
-   encontrarlos, y no son excluyentes:
-   - **Glosario de referencia**: para `es`, glosarios de lenguaje claro o
-     glosarios médicos para pacientes en español; para `en` u otro idioma,
-     el equivalente de "lenguaje claro" en ese idioma — no un glosario en
-     español traducido a mano.
-   - **Corpus + ontología**, útil cuando el glosario de referencia se queda
-     corto para una categoría concreta: compara la frecuencia de un término
-     en un corpus del dominio (BOE, folletos de atención primaria,
-     convenios laborales...) frente a su frecuencia en un corpus de lengua
-     general del mismo idioma (p. ej. CREA/CORPES para `es`); un término
-     mucho más frecuente en el dominio que en la lengua general es un buen
-     candidato a "palabra difícil que hace falta explicar" (técnica de
-     *keyness*). Una ontología de dominio (UMLS/SNOMED CT para `salud`,
-     EuroVoc o un tesauro jurídico para `legal`) no sustituye este paso de
-     búsqueda: sirve sobre todo para **clasificar** los candidatos que ya
-     tienes en una de las diez categorías, porque sus taxonomías no
-     coinciden 1:1 con `tramites/salud/vida-diaria/finanzas/vivienda/
-     trabajo/legal/tecnologia/seguridad/educacion` (son categorías AIVD,
-     no categorías de dominio) — sigue haciendo falta criterio humano
-     para encajar cada término.
-     `node scripts/candidatos-corpus.js <archivo-corpus.txt> <idioma>`
-     implementa la parte de *keyness*: tú aportas el corpus de dominio (un
-     `.txt` con extractos reales del tipo de documento de esa categoría), y
-     compara sus frecuencias contra la lista de lengua general de
-     [hermitdave/FrequencyWords](https://github.com/hermitdave/FrequencyWords)
-     (basada en subtítulos, como referencia de "lengua cotidiana"), que
-     descarga y cachea la primera vez que se usa.
+1. **Diagnosticar** con `node scripts/estado-contenido.js`. Revisar el número
+   de palabras por categoría e idioma, las categorías con menos de 8 entradas
+   y los desequilibrios entre idiomas. Usar `--detalle --categoria <tema>
+   --lang <es|en>` para ver palabras, sinónimos, definiciones y ejemplos ya
+   existentes. No abrir el archivo de datos completo para planificar: supera
+   un megabyte.
+2. **Elegir una combinación de idioma y categoría** marcada por el
+   diagnóstico. El contenido no se comparte automáticamente entre idiomas.
+3. **Buscar candidatos** en glosarios de lenguaje claro o mediante un corpus
+   del dominio comparado con un corpus de lengua general. La técnica de
+   *keyness* ayuda a encontrar términos propios del dominio, pero el criterio
+   humano decide si son difíciles y en qué categoría encajan. Para el análisis
+   de corpus se puede usar `node scripts/candidatos-corpus.js <archivo>
+   <idioma>`.
+4. **Descartar duplicados** y escenarios repetidos comparando la salida de
+   `--detalle`. No traducir automáticamente las palabras del otro idioma.
+   [`fuentes.md`](fuentes.md) contiene prompts y fuentes de referencia.
+5. **Redactar la entrada completa** (`definicion`, `sinonimos`, `ejemplo` y
+   `ejemploSinonimo`) en el idioma elegido y siguiendo la sección de lectura
+   fácil.
+6. **Buscar el pictograma** con `node scripts/buscar-pictograma.js
+   "<término>" <idioma>`. Primero se intenta OpenSymbols si existe
+   `OPENSYMBOLS_SECRET`; si no, o si falla, se usa automáticamente ARASAAC.
+   Revisar siempre los candidatos y comprobar antes si el concepto ya usa una
+   imagen de `img/`.
+7. **Usar un respaldo de categoría** solo después de comprobar que la palabra,
+   sus sinónimos y términos cercanos no tienen un pictograma adecuado. La
+   tabla canónica está en `scripts/category-pictogram-defaults.js`.
+8. **Validar** con `node scripts/validar.js`.
 
-   Sea cual sea la fuente, descarta los términos que ya aparecen en el
-   listado de `--detalle` acotado a esa categoría+idioma, y contrasta el
-   escenario probable de cada candidato con la columna `ejemplo` que ya
-   muestra ese listado — una categoría no debería apoyarse en la misma
-   situación ilustrativa (p. ej. "el ayuntamiento le pide que...") para
-   cada entrada. **No traduzcas las palabras que ya existen en el otro
-   idioma**: cada idioma elige las palabras que de verdad son difíciles en
-   ese idioma, que no tienen por qué coincidir con las del otro (lo mismo
-   que ya dice "Cómo añadir un idioma nuevo" para el arranque de un idioma
-   nuevo, aplica igual al hacer crecer uno que ya existe).
+Un resultado de búsqueda no descarga ni selecciona nada automáticamente. Si
+se incorpora una imagen que no sea de ARASAAC, hay que revisar su licencia y
+actualizar los créditos de `footerCreditsHtml` en el mismo cambio.
 
-   [`doc/es/fuentes.md`](fuentes.md) tiene una plantilla de prompt lista
-   para usar con cada uno de estos dos métodos, más una tabla de fuentes
-   plausibles (glosarios y corpus) para cada categoría, para que este paso
-   no arranque de cero.
-4. **Escribir cada entrada** siguiendo al pie de la letra las reglas de
-   lectura fácil de este documento, **en el idioma elegido** — la entrada
-   entera (`definicion`, `sinonimos`, `ejemplo`, `ejemploSinonimo`) va en
-   `js/data.<idioma>.js`, nunca mezclada con otro idioma.
-5. **Buscar el pictograma** con
-   `node scripts/buscar-pictograma.js "<término>" <idioma>`, usando el
-   mismo código de idioma que la palabra (`es`, `en`...), no siempre `es`
-   (usa OpenSymbols si hay `OPENSYMBOLS_SECRET`, si no cae solo en
-   ARASAAC). Antes de buscar, mira si el concepto ya tiene pictograma en
-   `img/` por una palabra de otro idioma — los pictogramas de ARASAAC son
-   dibujos sin texto, así que un mismo `imagen.id` sirve para el mismo
-   concepto en cualquier idioma.
-6. **Validar**: `node scripts/validar.js` antes de dar la palabra por
-   terminada. Comprueba las palabras de todos los idiomas a la vez, así que
-   basta una ejecución aunque hayas tocado varios `js/data.<idioma>.js`.
+## 8. Mantenimiento y fuentes
 
-Este proceso no corre solo ni con un cron — no hay servidor donde
-ejecutarlo, y automatizarlo del todo violaría la regla de que cada
-definición se revisa a mano. Es un procedimiento para que cualquiera
-(persona o agente) que quiera ampliar el diccionario sepa exactamente por
-dónde empezar y qué pasos no se pueden saltar, **en cualquier idioma que
-tenga el diccionario**.
-
-### Ejemplo real de una pasada completa
-
-Un caso real ayuda más que la lista abstracta de pasos. En una pasada por
-`vida-diaria` (la categoría más floja en los dos idiomas: 3 palabras en
-`es`, 0 en `en`), el proceso completo dejó la categoría en 8 palabras en
-`es` y 5 en `en` — `aforo`, `franja horaria`, `justificante`, `incidencia`,
-`extravío` y `overdue`, `complimentary`, `duplicate`, `enclosed`,
-`lost property`. Dos cosas no obvias que salieron de esa pasada y que no
-estaban documentadas antes:
-
-- **`scripts/buscar-pictograma.js` busca por coincidencia literal de
-  palabra, no por significado.** Términos exactos como "aforo",
-  "capacidad", "justificante" o "incidencia" no devolvieron ningún
-  resultado en ARASAAC, pero un sinónimo más común sí lo hizo ("lleno",
-  "completo", "recibo", "problema"). Si el término exacto no encuentra
-  nada, antes de descartar el pictograma prueba con un sinónimo de la
-  propia palabra o de su definición.
-- **Dos palabras de idiomas distintos pueden compartir `imagen.id`** si
-  representan el mismo concepto, tal y como ya explica la sección de
-  arquitectura multi-idioma más arriba: `extravío` (es) y `lost property`
-  (en) usan las dos el pictograma 16159 ("lost item(s)"), sin descargarlo
-  dos veces.
-
-## Mantenimiento
-
-Todo el contenido vive en archivos planos (`js/i18n.js`, `js/data.*.js`),
-sin base de datos ni backend. Añadir una palabra es copiar un bloque en el
-archivo de su idioma y rellenarlo siguiendo las reglas de arriba. No hace
-falta tocar HTML, CSS ni el buscador.
+El contenido vive en archivos planos, sin base de datos ni backend. Añadir una
+palabra normalmente consiste en copiar un bloque al archivo de su idioma y
+validarlo. Los detalles de licencias, búsqueda de pictogramas y fuentes
+editoriales están en [`fuentes.md`](fuentes.md); los roles del proyecto están
+en [`roles.md`](roles.md).

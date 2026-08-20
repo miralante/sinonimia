@@ -85,6 +85,46 @@ Where it applies and where it doesn't:
 This rule is checked automatically: `node scripts/validar.js` fails if any
 of those terms show up in `index.html`, `js/i18n.js`, or `about/*.html`.
 
+### Public-facing wording: "usuario/a tipo" euphemism
+
+When presenting the project to **the general public** (press, talks, public
+READMEs that anyone can read, the metaproject landing at `apptonomia.uk`,
+etc.) the term **"discapacidad intellectual" / "intellectual disability"**
+must not be used as a way to describe the audience of the app — even when
+the surrounding text would otherwise be public. The accepted euphemism for
+that audience in those surfaces is **"usuario/a tipo"** (plural
+"usuarios/as tipo"), used as a generic profile marker, not as a label for
+any real person.
+
+Where the euphemism applies and where it doesn't:
+
+- **Applies** to any text that anyone outside the project can read without
+  authentication: `README.md`, `README.es.md`, the portal at
+  `apptonomia.uk`, public talks, social media copy, press notes, marketing
+  material. In these surfaces, refer to the audience as "el/la usuario/a
+  tipo" or "usuarios/as tipo" of the app.
+- **Does NOT apply** to internal documentation (`CLAUDE.md`,
+  `doc/en/SPEC.md`, `doc/es/SPEC.md`, `technical.md`, `roles.md`,
+  `CONTRIBUTING.md`, `CONTRIBUTING.es.md`) — those files are read by
+  maintainers and contributors, and **"discapacidad intellectual" /
+  "intellectual disability" remains the canonical term there**, because
+  the project needs an explicit, unambiguous explanation of its real
+  objective for whoever maintains it.
+- **Does NOT apply** to dictionary content (`js/data.*.js`): a dictionary
+  entry about a real bureaucratic concept (a disability certificate, a
+  permanent-disability benefit, etc.) names the concept as it is named in
+  the real world — that is content, not labelling of an audience.
+- **Does NOT apply** to the UI of the site itself: the rule above
+  continues to forbid **any** mention, including "usuario/a tipo", in
+  `index.html` / `js/i18n.js` / `about/privacidad.html`. The euphemism
+  is for the outside world, not for what the visitor reads on the site.
+
+Rationale: presenting the project's real objective in maintainer docs is
+useful and necessary; presenting it in marketing or landing surfaces is
+neither necessary nor respectful of the audience — "usuario/a tipo" lets
+public material describe what the app is for (who the typical profile
+is) without publicly naming a clinical group.
+
 ## Design principle: easy-read language
 
 All of Sinonimia's content is written following **easy-read** guidelines,
@@ -249,9 +289,14 @@ step. Each piece lives in its own file:
   - `tramites` — general administrative procedures (notices, resolutions,
     official documents that don't fit better in another category).
   - `salud` — medical and healthcare terms.
-  - `vida-diaria` — everyday-situation vocabulary that doesn't fit any more
-    specific category.
-  - `finanzas` — money, banks, debts, savings, taxes.
+  - `vida-diaria` — catch-all: any hard word that doesn't fit another
+    category better, including general vocabulary (not just everyday
+    situations) that isn't tied to a specific procedure. This is the
+    tie-breaker: if a word doesn't fit another category better, it goes
+    here — unless a real cluster of words (not two or three stray ones,
+    see below) clearly points to a new category that doesn't exist yet.
+  - `finanzas` — money, banks, debts, savings, taxes, and consumer rights
+    (warranties, returns, purchase complaints).
   - `vivienda` — renting, mortgages, residence registration, home
     utilities.
   - `trabajo` — employment contracts, payslips, sick leave, worker rights.

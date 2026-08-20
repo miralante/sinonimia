@@ -4,6 +4,13 @@
 >
 > 🚀 **Try it live:** [sinonimia.miralante.workers.dev](https://sinonimia.miralante.workers.dev/)
 
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![No dependencies](https://img.shields.io/badge/dependencies-none-success.svg)](#-features)
+[![Static site](https://img.shields.io/badge/build-none-informational.svg)](#-quick-start)
+[![No PWA](https://img.shields.io/badge/PWA-none-lightgrey.svg)](#-features)
+[![i18n](https://img.shields.io/badge/i18n-es%20%7C%20en-yellow.svg)](#-documentation)
+[![CI](https://img.shields.io/badge/CI-node%20scripts%2Fvalidar.js-blue.svg)](.github/workflows/validate.yml)
+
 A plain-language dictionary for difficult words: paperwork, justice, and
 health. Every word has a short definition, a simple synonym, an everyday
 sentence (repeated with the synonym), and a pictogram. Written to follow
@@ -39,6 +46,19 @@ npx serve .
   it?" and "Complete the sentence").
 - **Pictograms from [ARASAAC](https://arasaac.org)**, shared across
   languages when they represent the same concept.
+
+## 👥 Roles in the project
+
+| Role | Who they are | How they participate | Where they look first |
+|---|---|---|---|
+| 👤 **End user** | Anyone who runs into a difficult word (at its origin, our typical user profile — see [`doc/en/roles.md`](doc/en/roles.md)) | Uses the site directly, no sign-up or account | The site itself (`index.html`) |
+| 💻 **Contributor** (content or code) | Whoever proposes a new word, a new language, or touches the code | Follows the process in [`CONTRIBUTING.md`](CONTRIBUTING.md): adds a word following the easy-read rules, or implements/reviews code changes | [`CONTRIBUTING.md`](CONTRIBUTING.md) · [`technical.md`](doc/en/technical.md) |
+
+See [`doc/en/roles.md`](doc/en/roles.md) for the full role description and
+why Sinonimia has no dedicated "support" role — it's designed to be used
+alone, with nobody needing to mediate.
+
+---
 
 ## Project documentation
 
@@ -144,7 +164,27 @@ medical glossaries written for patients.
 
 ---
 
-## 🧩 Sibling projects
+## � Contributing
+
+Issues and pull requests are welcome. See [`CONTRIBUTING.md`](CONTRIBUTING.md)
+for the workflow (and [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) for the
+Spanish version). All participants are expected to follow
+[`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md).
+
+---
+
+## 🛡️ Security
+
+Sinonimia is a fully client-side static site: no backend, no database,
+no telemetry, no third-party runtime. The threat model is essentially
+"what a hostile offline page could do to the same origin", which the
+browser already sandboxes. See [`SECURITY.md`](SECURITY.md) (or
+[`SECURITY.es.md`](SECURITY.es.md)) for how to report a suspected
+issue privately.
+
+---
+
+## �🧩 Sibling projects
 
 This project is one of a small group of sibling projects that share
 the same author, the same accessibility-first / no-backend philosophy
@@ -154,11 +194,12 @@ it or built next to it on the same stack.
 
 | Project | What it is | Repository |
 |---|---|---|
-| **Apptonomia** *(main)* | Occupational therapy: 7 modules, 69 activities | [github.com/miralante/apptonomia](https://github.com/miralante/apptonomia) |
-| Calculia | Math and logical reasoning: 12 activities | [github.com/miralante/calculia](https://github.com/miralante/calculia) |
+| **Apptonomia** *(main)* | Activities for routines and daily-life skills (designed for our typical user profile) | [github.com/miralante/apptonomia](https://github.com/miralante/apptonomia) |
+| Calculia | Math and logical reasoning | [github.com/miralante/calculia](https://github.com/miralante/calculia) |
 | Memofun | Flashcards built around meaningful learning | [github.com/miralante/memofun](https://github.com/miralante/memofun) |
 | Okeymoney | Personal finance and everyday autonomy | [github.com/miralante/okeymoney](https://github.com/miralante/okeymoney) |
-| Sinonimia | Plain-language dictionary (easy-read) | [github.com/miralante/sinonimia](https://github.com/miralante/sinonimia) |
+| Routime | Activities for routines and daily-life skills | [github.com/miralante/routime](https://github.com/miralante/routime) |
+| Sinonimia | Easy-read dictionary | [github.com/miralante/sinonimia](https://github.com/miralante/sinonimia) |
 | Teclatlon | Touch-typing with a physical keyboard | [github.com/miralante/teclatlon](https://github.com/miralante/teclatlon) |
 
 The canonical Cloudflare / deploy guide for the group lives in

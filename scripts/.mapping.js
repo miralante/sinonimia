@@ -300,6 +300,18 @@ const TRADUCCIONES = {
   // el futuro se reusan los pictogramas con otras entradas.
   wifi: "wifi",
   nube: "cloud",
+  // Additional-sense entries from doc/es/ingesta-doble-significado.md:
+  // `revocar-pared` shares its pictogram (2642) with two unrelated
+  // entries, and `remision-envio`/`referral-transfer` use different
+  // pictograms entirely, so neither pair auto-matches by pictogram.
+  "revocar-pared": "plaster-wall",
+  "remision-envio": "referral-transfer",
+  // Second doble-significado round: pictograms 19561, 34713, and 12317
+  // are each shared with unrelated entries in at least one language, so
+  // these three additional-sense pairs can't auto-match either.
+  "paro-huelga": "strike",
+  "turno-laboral": "shift",
+  "tutor-firma": "guardian",
 };
 
 if (typeof module !== "undefined") module.exports = TRADUCCIONES;

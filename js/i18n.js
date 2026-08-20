@@ -94,6 +94,8 @@ const I18N = {
     sentencePlaceholder: "Escribe aquí tu frase…",
     saveSentence: "Guardar mi frase",
     sentenceSavedNotice: "¡Bien hecho! Esta es tu frase:",
+    sentenceStars: "⭐ Estrellas por tus frases: {n}",
+    sentenceStarEarned: "¡Has ganado una estrella!",
     editSentence: "Editar mi frase",
 
     // Games: menu and shared texts
@@ -204,6 +206,8 @@ const I18N = {
     sentencePlaceholder: "Write your sentence here…",
     saveSentence: "Save my sentence",
     sentenceSavedNotice: "Well done! Here's your sentence:",
+    sentenceStars: "⭐ Stars for your sentences: {n}",
+    sentenceStarEarned: "You earned a star!",
     editSentence: "Edit my sentence",
 
     // Games: menu and shared texts

@@ -4,6 +4,13 @@
 >
 > 🚀 **Pruébalo en vivo:** [sinonimia.miralante.workers.dev](https://sinonimia.miralante.workers.dev/)
 
+[![Licencia MIT](https://img.shields.io/badge/licencia-MIT-blue.svg)](LICENSE)
+[![Sin dependencias](https://img.shields.io/badge/dependencias-ninguna-success.svg)](#-caracter%C3%ADsticas)
+[![Sitio estático](https://img.shields.io/badge/build-ninguno-informational.svg)](#-arranque-r%C3%A1pido)
+[![Sin PWA](https://img.shields.io/badge/PWA-ninguna-lightgrey.svg)](#-caracter%C3%ADsticas)
+[![i18n](https://img.shields.io/badge/i18n-es%20%7C%20en-yellow.svg)](#-documentaci%C3%B3n)
+[![CI](https://img.shields.io/badge/CI-node%20scripts%2Fvalidar.js-blue.svg)](.github/workflows/validate.yml)
+
 Un diccionario en lenguaje sencillo para palabras difíciles: trámites,
 justicia y salud. Cada palabra tiene una definición corta, un sinónimo
 sencillo, una frase de la vida diaria (repetida con el sinónimo) y un
@@ -40,6 +47,19 @@ npx serve .
   ("¿Qué palabra es?" y "Completa la frase").
 - **Pictogramas de [ARASAAC](https://arasaac.org)**, compartidos entre
   idiomas cuando representan el mismo concepto.
+
+## 👥 Roles del proyecto
+
+| Rol | Quién es | Cómo participa | Dónde mira primero |
+|---|---|---|---|
+| 👤 **Persona usuaria** | Cualquiera que se encuentra una palabra difícil (en origen, **usuarios/as tipo** que se benefician de un contexto de terapia ocupacional — ver [`doc/es/roles.md`](doc/es/roles.md) para el detalle) | Usa la web directamente, sin registro ni cuenta | La propia web (`index.html`) |
+| 💻 **Persona colaboradora** (contenido o código) | Quien propone una palabra nueva, un idioma nuevo, o toca el código | Sigue el proceso de [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md): añade una palabra siguiendo las reglas de lectura fácil, o implementa/revisa cambios de código | [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) · [`tecnico.md`](doc/es/tecnico.md) |
+
+Ver [`doc/es/roles.md`](doc/es/roles.md) para la descripción completa de
+los roles y por qué Sinonimia no tiene un rol de "apoyo" dedicado — está
+pensada para consultarse sola, sin que nadie tenga que mediar.
+
+---
 
 ## Documentación del proyecto
 
@@ -123,6 +143,26 @@ glosarios médicos pensados para pacientes.
 
 ---
 
+## 🙌 Contribuir
+
+Las contribuciones son bienvenidas. Consulta [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md)
+para el flujo (o [`CONTRIBUTING.md`](CONTRIBUTING.md) para la versión en
+inglés). Todas las personas participantes deben seguir
+[`CODE_OF_CONDUCT.es.md`](CODE_OF_CONDUCT.es.md).
+
+---
+
+## 🔐 Seguridad
+
+Sinonimia es un sitio estático completamente del lado del cliente: sin
+backend, sin base de datos, sin telemetría, sin servicios de terceros en
+tiempo de ejecución. El modelo de amenaza es esencialmente "qué podría
+hacer una página maliciosa offline contra el mismo origen", algo que el
+navegador ya aísla. Ver [`SECURITY.es.md`](SECURITY.es.md) (o
+[`SECURITY.md`](SECURITY.md)) para reportar una sospecha de forma privada.
+
+---
+
 ## 🧩 Proyectos hermanos
 
 Este proyecto forma parte de un pequeño grupo de proyectos hermanos
@@ -134,10 +174,11 @@ stack.
 
 | Proyecto | Qué es | Repositorio |
 |---|---|---|
-| **Apptonomia** *(principal)* | Terapia ocupacional: 7 módulos, 69 actividades | [github.com/miralante/apptonomia](https://github.com/miralante/apptonomia) |
-| Calculia | Cálculo y razonamiento lógico: 12 actividades | [github.com/miralante/calculia](https://github.com/miralante/calculia) |
+| **Apptonomia** *(principal)* | Actividades para rutinas y vida cotidiana (diseñado para nuestros/as usuarios/as tipo) | [github.com/miralante/apptonomia](https://github.com/miralante/apptonomia) |
+| Calculia | Cálculo y razonamiento lógico | [github.com/miralante/calculia](https://github.com/miralante/calculia) |
 | Memofun | Tarjetas de memoria con aprendizaje significativo | [github.com/miralante/memofun](https://github.com/miralante/memofun) |
 | Okeymoney | Finanzas personales y autonomía cotidiana | [github.com/miralante/okeymoney](https://github.com/miralante/okeymoney) |
+| Routime | Actividades para rutinas y vida cotidiana | [github.com/miralante/routime](https://github.com/miralante/routime) |
 | Sinonimia | Diccionario en lectura fácil | [github.com/miralante/sinonimia](https://github.com/miralante/sinonimia) |
 | Teclatlon | Mecanografía con el teclado físico | [github.com/miralante/teclatlon](https://github.com/miralante/teclatlon) |
 
