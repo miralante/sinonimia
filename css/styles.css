@@ -1,3 +1,26 @@
+/* ---------- Self-hosted fonts (alineadas con el resto de la suite) ---------- */
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/atkinson-hyperlegible-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/atkinson-hyperlegible-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url('fonts/nunito-variable.woff2') format('woff2-variations');
+}
+
 /* ---------- Base and accessibility ---------- */
 
 :root {
@@ -11,6 +34,7 @@
   --color-acento: #b45309;
   --color-foco: #d6001c;
   --radio: 14px;
+  --fuente: 'Atkinson Hyperlegible', 'Nunito', "Segoe UI", Verdana, Arial, sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -21,7 +45,7 @@ body {
   margin: 0;
   background: var(--color-fondo);
   color: var(--color-texto);
-  font-family: "Atkinson Hyperlegible", "Segoe UI", Verdana, Arial, sans-serif;
+  font-family: var(--fuente);
   line-height: 1.6;
 }
 
@@ -1044,7 +1068,7 @@ body.alto-contraste .juego-pista-frase .destacado {
   margin: 0;
   background: var(--color-fondo);
   color: var(--color-texto);
-  font-family: "Atkinson Hyperlegible", "Segoe UI", Verdana, Arial, sans-serif;
+  font-family: var(--fuente);
   line-height: 1.6;
 }
 .page-about a,
@@ -1349,24 +1373,4 @@ body.alto-contraste .juego-pista-frase .destacado {
   .page-privacidad footer.pie-about { display: none; }
   .page-about main section,
   .page-privacidad main section { break-inside: avoid; border: none; padding: 0; }
-}
-
-@media (prefers-color-scheme: dark) {
-  .page-about,
-  .page-privacidad,
-  .page-404 {
-    --color-fondo: #17191b;
-    --color-texto: #ececec;
-    --color-tarjeta: #22262a;
-    --color-borde: #3a3f43;
-  }
-  .page-about .principio,
-  .page-about .area,
-  .page-about .cifra,
-  .page-privacidad .dato { background: #1b1e21; }
-  .page-privacidad .resumen { background: #2b2618; border-color: #5a4a22; }
-  .page-about .btn,
-  .page-privacidad .btn,
-  .page-about .boton-cta,
-  .page-privacidad .boton-cta { background: #1b1e21; }
 }

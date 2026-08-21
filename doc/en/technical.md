@@ -138,6 +138,29 @@ settings, and iPhone users get only Safari by default — Safari
 support is therefore not optional, it's part of the definition of
 "works".
 
+## Typography
+
+The UI uses two self-hosted typefaces loaded from `css/fonts/`:
+
+- **Atkinson Hyperlegible** (weights 400 and 700) — for high-contrast
+  areas and short UI labels, chosen for the letter-shape
+  disambiguation that helps readers with low vision.
+- **Nunito** (variable, weight range 400–900) — for body text and
+  reading flows, chosen for the warm humanist tone that keeps long
+  explanations approachable.
+
+Both fonts are SIL OFL 1.1 licensed and are bundled as `.woff2` files
+in `css/fonts/`. The CSS exposes them through the `--fuente` custom
+property, set in `:root` to
+`'Atkinson Hyperlegible', 'Nunito', "Segoe UI", Verdana, Arial, sans-serif`
+and applied to `body` (and the `about/privacidad.html` view) via
+`font-family: var(--fuente)`. `@font-face` blocks use `font-display:
+swap` so the first paint is never blocked on font loading.
+
+This matches the rest of the suite (Apptonomia, Calculia, Memofun,
+Okeymoney, Teclatlon, Routime) — every PWA of Miralante ships the same
+two typefaces, self-hosted, never fetched from a CDN.
+
 In practice this means:
 
 - **No transpilation, no polyfills, no bundler.** The site ships

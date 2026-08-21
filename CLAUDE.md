@@ -36,6 +36,50 @@ dictionary entry about an actual disability-related bureaucratic term (e.g.
 a disability-certificate procedure) would be legitimate content, not a
 violation.
 
+## UNE 153101 reference (suite-wide)
+
+All seven sibling projects follow **UNE 153101:2018 EX** (Spanish
+easy-read standard) and Inclusion Europe's European easy-read
+guidelines as the normative basis for the cognitive accessibility
+principles that guide content and UI: short sentences, one idea per
+sentence, everyday vocabulary, no clinical or technical jargon in
+what the end user reads. This is the standard each `SPEC.md` cites
+when it states the "easy read always" rule (see `doc/en/SPEC.md` §3.3
+or its mirror in `doc/es/SPEC.md` §3.3). Adding a new language or a
+new piece of UI copy means following UNE 153101 — not paraphrasing
+it.
+
+## WCAG AAA baseline (suite-wide)
+
+This project conforms to WCAG 2.1 at **AA minimum** and adopts the
+**AAA criteria that apply to the suite's audience** whenever feasible.
+Full conformance at AAA is not feasible for a whole web application
+(the W3C itself states AAA is meant for specific contexts); the rule
+below lists the AAA criteria that ARE applicable and that this project
+honours.
+
+Adopted AAA criteria:
+
+- **1.4.6 Contrast (Enhanced)** — text contrast ≥ 7:1 (large text
+  ≥ 4.5:1). WCAG AA (4.5:1) is the legal floor; AAA is the design
+  target. Verified pairs in Okeymoney (`#F2F4F8` on `#161A21` = 14.6:1,
+  `#B7BDC9` on `#161A21` = 8.4:1) already meet AAA; this project aims
+  at the same ratio when its token palette is next touched.
+- **3.1.5 Reading Level** — content for the general public does not
+  require advanced reading ability. Already complied with through
+  UNE 153101 (see the section above) and Inclusion Europe's easy-read
+  guidelines (the dictionary's `definicion` and `ejemplo` fields are
+  written against this rule — see `SPEC.md` §3.3).
+- **1.4.1 Use of Color** — color is never the only means of conveying
+  information. Every feedback state (success / hint / error) also uses
+  shape, icon, text or sound, so users with color-vision deficiencies
+  are not excluded.
+
+The product-facing wording in `doc/en/SPEC.md` (and the Spanish mirror
+in `doc/es/SPEC.md`) references this baseline using the literal phrase
+**"WCAG AA minimum, AAA whenever possible"**, mirroring the suite-wide
+rule in the metaproject's `apptonomia/CLAUDE.md`.
+
 ### Public-facing wording: "usuario/a tipo" euphemism
 
 When presenting the project to **the general public** (press, talks, public

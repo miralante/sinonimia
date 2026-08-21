@@ -79,6 +79,29 @@ contenido. Cuando cambia un diccionario, `scripts/validar.js` indica el hash
 que debe ponerse en `index.html` y `404.html`. No usar versiones manuales ni
 añadir un bundler solo para resolver esta caché.
 
+## Tipografía
+
+La interfaz usa dos tipografías autoalojadas en `css/fonts/`:
+
+- **Atkinson Hyperlegible** (pesos 400 y 700) — para zonas de alto contraste
+  y etiquetas cortas, elegida por la desambiguación de letras que ayuda a
+  personas con baja visión.
+- **Nunito** (variable, rango de peso 400–900) — para cuerpo de texto y
+  flujos de lectura, por el tono humanista cálido que mantiene los textos
+  largos en un registro cercano.
+
+Ambas fuentes tienen licencia SIL OFL 1.1 y se distribuyen como `.woff2` en
+`css/fonts/`. La CSS las expone a través de la variable `--fuente`, definida
+en `:root` con la pila
+`'Atkinson Hyperlegible', 'Nunito', "Segoe UI", Verdana, Arial, sans-serif`
+y aplicada en `body` (y en la vista `about/privacidad.html`) con
+`font-family: var(--fuente)`. Los bloques `@font-face` usan `font-display:
+swap` para que el primer pintado no se bloquee por la carga de la fuente.
+
+Esto coincide con el resto de la suite (Apptonomia, Calculia, Memofun,
+Okeymoney, Teclatlon, Routime): cada PWA de Miralante envía las mismas dos
+tipografías, autoalojadas, nunca desde una CDN.
+
 ## 4. Navegadores y accesibilidad técnica
 
 El objetivo son Chrome, Edge y Firefox evergreen, además de Safari en macOS e

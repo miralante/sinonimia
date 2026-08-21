@@ -170,6 +170,48 @@ un sinónimo ambiguo. Las entradas de `pensión` en `js/data.es.js` y `pension`
 en `js/data.en.js` son el caso de referencia. El comportamiento técnico está
 descrito en [la forma de la entrada](tecnico.md#5-forma-de-una-entrada).
 
+### 3.7 Comunicación persuasiva al servicio del aprendizaje
+
+Sinonimia es una herramienta de comprensión, no un producto de consumo.
+Su gamificación es ligera y su motivación es **intrínseca** (la
+satisfacción de entender una palabra difícil y poder usarla), nunca
+extrínseca. Por eso los patrones de mercado que funcionan en
+aplicaciones de consumo — y que dependen de presión, comparación o
+miedo a perder — **no pueden** aparecer en ningún punto del sitio.
+Esta regla es suite-wide y se comparte con Apptonomia, Calculia,
+Okeymoney, Memofun, Teclatlon y Routime; la lista concreta es la
+misma en los siete proyectos para que ningún patrón que se rechace
+aquí pueda entrar por la puerta de otro.
+
+La lista cerrada de patrones prohibidos. Los siguientes patrones
+forman parte de la "presión" que Sinonimia destierra y **no pueden**
+aparecer en ningún punto del sitio:
+
+- **Escasez**: "¡Solo te queda 1!", "Última oportunidad", "Date
+  prisa", cuentas atrás, palabras o ejemplos que desaparecen.
+- **Falsa urgencia**: cronómetros, carreras, "termina pronto",
+  castigar la lentitud, cualquier tiempo límite que no sea el del
+  flujo de carga del sitio.
+- **Prueba social convertida en presión**: rankings de palabras
+  descubiertas, posiciones, "otros ya han visto esta palabra" como
+  presión social, comparaciones entre personas usuarias.
+- **Coste irrecuperable / FOMO**: "perderás tu progreso si cierras",
+  "no pierdas tu racha", mensajes forzados de retención,
+  notificaciones de tipo "te echamos de menos".
+- **Reciprocidad manipuladora / dark patterns**: registros forzados,
+  casillas premarcadas, costes ocultos, alertas falsas,
+  confirmaciones tramposas (por ejemplo, un botón de "no" que en
+  realidad cierra la sesión o elimina el progreso).
+- **Aversión a la pérdida explotadora**: "tenías X palabras
+  descubiertas, has perdido Y". El progreso en Sinonimia **solo
+  suma**, nunca resta como castigo (ver §4.1).
+
+El tono por defecto en Sinonimia es **calmo y predecible**. La
+persona consulta una palabra porque la necesita, no porque la
+estemos empujando. Cuando un patrón de esta lista aparece en una
+propuesta de producto o de UI, se rechaza por defecto; cualquier
+excepción se discute en una PR con motivo explícito.
+
 ## 4. Experiencia y gamificación
 
 Consultar una palabra debe ser ágil y agradable, no parecer un formulario.
@@ -212,6 +254,9 @@ activo.
    hace visible ese contraste.
 6. Las estrellas son refuerzo acumulativo. No se quitan, no tienen máximo y no
    hay clasificación.
+7. No usa patrones de mercado prohibidos (escasez, falsa urgencia, prueba
+   social como presión, FOMO, dark patterns, aversión explotadora a la
+   pérdida). Lista cerrada y rationale en §3.7.
 
 ## 5. Arquitectura de contenido multi-idioma
 

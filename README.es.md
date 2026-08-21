@@ -20,7 +20,7 @@ pictograma. Pensado siguiendo las pautas de **lectura fácil** (norma UNE
 No hay build, no hay backend, no hay dependencias: HTML, CSS y JavaScript
 tal cual, pensado para ser fácil de mantener y de ampliar.
 
-## Probarlo
+## 🚀 Pruébalo en vivo
 
 Está desplegado en **[sinonimia.miralante.workers.dev](https://sinonimia.miralante.workers.dev/)**
 — entra y úsalo directamente desde el navegador, sin instalar nada.
@@ -33,7 +33,7 @@ ejemplo:
 npx serve .
 ```
 
-## Qué incluye
+## ✨ Características
 
 - **Buscador** instantáneo (por la palabra difícil o por su significado),
   filtro por tema y navegación por letra.
@@ -61,7 +61,7 @@ pensada para consultarse sola, sin que nadie tenga que mediar.
 
 ---
 
-## Documentación del proyecto
+## 📚 Documentación del proyecto (bilingüe)
 
 Toda la documentación del proyecto vive en la carpeta `doc/`, junto con
 algunos archivos en la raíz del repositorio:
@@ -79,7 +79,7 @@ algunos archivos en la raíz del repositorio:
 | Añadir una palabra, un idioma o un cambio de código | [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) / [`CONTRIBUTING.md`](CONTRIBUTING.md) |
 | Un agente de IA vaya a tocar el código | `CLAUDE.md` (en inglés) |
 
-## Validar los cambios
+## ✅ Validar los cambios
 
 ```
 node scripts/validar.js
@@ -91,7 +91,32 @@ formados, que las claves de texto de la interfaz existan en todos los
 idiomas, y que los ids que usa `js/app.js` existan en `index.html`. Se
 ejecuta también en cada pull request (`.github/workflows/validate.yml`).
 
-## Ampliar el diccionario
+## ☁️ Despliegue
+
+Sinonimia es un sitio totalmente estático (HTML/CSS/JS, sin build), así
+que se publica directamente en **[Cloudflare Workers (static assets)](https://developers.cloudflare.com/workers/static-assets/)**
+mediante su integración nativa con GitHub — no hay workflow personalizado
+de GitHub Actions. Las cabeceras de seguridad HTTP viven en
+[`_headers`](_headers), y la metadata del proyecto en
+[`wrangler.toml`](wrangler.toml). Consulta [`CLOUDFLARE.md`](CLOUDFLARE.md)
+con la guía completa (rebuild, rollback, dominio personalizado,
+rotación de credenciales).
+
+Para desplegar tu propia versión:
+
+1. Crea un proyecto Cloudflare Workers desde este repo en el dashboard
+   (**Workers & Pages → Create → Connect to Git**). El comando de build
+   queda vacío; `wrangler.toml` declara el directorio de static assets.
+2. Push a `main`. Cloudflare reconstruye y despliega automáticamente.
+   El workflow de validación
+   ([`.github/workflows/validate.yml`](.github/workflows/validate.yml))
+   sigue corriendo en cada push y PR para gatekeeping de contenido,
+   pero no despliega.
+
+Las pull requests reciben automáticamente una URL de previsualización —
+sin necesidad de un workflow extra.
+
+## 🛠️ Preparar / Ampliar contenido
 
 ```
 node scripts/estado-contenido.js
@@ -106,7 +131,7 @@ abrir nunca el `js/data.<idioma>.js` de varios megabytes. Es el primer
 paso del proceso descrito en "Proceso para
 ampliar el contenido" en [`doc/es/SPEC.md`](doc/es/SPEC.md).
 
-## Mantenimiento
+## 🧹 Mantenimiento
 
 El directorio `scripts/.cache/` (listas de frecuencias de palabras que
 descarga `candidatos-corpus.js`) se puede vaciar con:
@@ -123,7 +148,7 @@ de exploración one-off) **no** se toca con este comando — límpialo a
 mano si lo necesitas, o lee [`scripts/ingest/README.md`](scripts/ingest/README.md)
 para ver qué hay dentro y cómo está organizado.
 
-## Licencia
+## 📄 Licencia
 
 - El **código** (HTML/CSS/JS) es de quien contribuye, bajo licencia MIT
   (ver `LICENSE`).
@@ -135,7 +160,7 @@ para ver qué hay dentro y cómo está organizado.
   nuevo desde ARASAAC, mantén esa licencia y la atribución del pie de
   página — no se pueden usar con fines comerciales sin permiso de ARASAAC.
 
-## Créditos
+## 🙏 Créditos
 
 Las definiciones y ejemplos se basan en glosarios públicos de "lenguaje
 claro" de administraciones y tribunales (IVAP, Red de Lenguaje Claro) y en

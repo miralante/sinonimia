@@ -192,6 +192,48 @@ detail. The two entries for `pensión` (`es`) and `pension` (`en`) in
 `js/data.*.js` are the reference case — copy them if you need to add
 another homonym.
 
+## Persuasive communication in service of learning
+
+Sinonimia is a comprehension tool, not a consumer product. Its
+gamification is light and its motivation is **intrinsic** — the
+satisfaction of understanding a difficult word and being able to use
+it — never extrinsic. The market patterns that work in consumer apps
+— and that rely on pressure, comparison or fear of losing — must
+never appear anywhere in the site. This rule is suite-wide and shared
+with Apptonomia, Calculia, Okeymoney, Memofun, Teclatlon and Routime;
+the concrete list is identical across the seven projects so that no
+pattern rejected here can sneak in through another one.
+
+The closed list of forbidden patterns. The following patterns are
+part of the "pressure" Sinonimia disowns and **must not** appear
+anywhere in the site:
+
+- **Scarcity**: "Only 1 left!", "Last chance", "Hurry", countdown
+  timers, words or examples that disappear.
+- **False urgency**: timers, races, "finish quickly", punishing
+  slowness, any time limit that isn't the natural one for the
+  site's load flow.
+- **Social proof turned into pressure**: leaderboards of words
+  discovered, ranks, "others have already seen this word" as social
+  pressure, comparisons between end users.
+- **Sunk-cost / FOMO**: "you'll lose your progress if you close",
+  "don't lose your streak", forced retention messages, "we miss
+  you" notifications.
+- **Manipulative reciprocity / dark patterns**: forced signups,
+  pre-checked boxes, hidden costs, fake alerts, deceptive
+  confirmations (a "no" button that actually logs the user out or
+  wipes their progress).
+- **Exploitative loss aversion**: "you had X words discovered, you
+  lost Y". Progress in Sinonimia **only grows**, never shrinks as
+  punishment (see `Call to action and motivation (light
+  gamification)` below).
+
+The default tone in Sinonimia is **calm and predictable**. The
+person looks up a word because they need it, not because we are
+pushing them. When a pattern from this list shows up in a product or
+UI proposal, it is rejected by default; any exception is discussed
+in a PR with an explicit rationale.
+
 ## Why "only difficult words"
 
 The dictionary doesn't include common vocabulary (house, happy, eat...)
@@ -267,6 +309,10 @@ Rules governing gamification:
    in `js/i18n.js`), with a small animation when it's earned. There are no
    stars that get taken away, no maximum, no leaderboard: they're a
    cumulative reward, not a grade.
+7. **No forbidden marketing patterns** (scarcity, false urgency,
+   social-proof pressure, FOMO, dark patterns, exploitative loss
+   aversion). The closed list and rationale live in §"Persuasive
+   communication in service of learning" above.
 
 ## Multi-language architecture
 

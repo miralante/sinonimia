@@ -20,7 +20,7 @@ understood on the first read.
 No build, no backend, no dependencies: plain HTML, CSS, and JavaScript,
 made to be easy to maintain and to extend.
 
-## Try it
+## 🚀 Try it live
 
 It's deployed at **[sinonimia.miralante.workers.dev](https://sinonimia.miralante.workers.dev/)**
 — open it in your browser and use it directly, no installation needed.
@@ -32,7 +32,7 @@ serve the folder with any static server, for example:
 npx serve .
 ```
 
-## What it includes
+## ✨ Features
 
 - **Instant search** (by the difficult word or by its meaning), topic
   filter, and browsing by letter.
@@ -60,7 +60,7 @@ alone, with nobody needing to mediate.
 
 ---
 
-## Project documentation
+## 📚 Project documentation (bilingual)
 
 All project documentation lives in the `doc/` folder, plus a few files at
 the repository root:
@@ -78,7 +78,7 @@ the repository root:
 | Add a word, a language, or a code change | [`CONTRIBUTING.md`](CONTRIBUTING.md) / [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) |
 | Have an AI agent touch the code | `CLAUDE.md` |
 
-## Validating changes
+## ✅ Validating changes
 
 ```
 node scripts/validar.js
@@ -90,7 +90,7 @@ exist in every language, and that the ids `js/app.js` uses exist in
 `index.html`. It also runs on every pull request
 (`.github/workflows/validate.yml`).
 
-## Deploying
+## ☁️ Deploying
 
 Sinonimia is a fully static site (HTML/CSS/JS, no build step), so it
 ships directly to **[Cloudflare Workers (static assets)](https://developers.cloudflare.com/workers/static-assets/)**
@@ -112,7 +112,9 @@ To deploy your own fork:
 Pull requests automatically get a preview URL — no extra workflow is
 needed.
 
-## Expanding the dictionary
+## 🛠️ Preparing / Expanding content
+
+To expand the dictionary:
 
 ```
 node scripts/estado-contenido.js
@@ -125,9 +127,9 @@ lists the words that already exist there with their synonyms, definición
 and ejemplo, to avoid repeating a concept or an illustrative scenario —
 without ever opening the multi-megabyte `js/data.<lang>.js` directly.
 It's the first step of the process described in "Process for expanding
-content" in [`doc/en/SPEC.md`](doc/en/SPEC.md).
+con🧹 tent" in [`doc/en/SPEC.md`](doc/en/SPEC.md).
 
-## Housekeeping
+## 🧹 Housekeeping
 
 The `scripts/.cache/` directory (frequency-word lists downloaded by
 `candidatos-corpus.js`) can be cleared with:
@@ -142,9 +144,9 @@ The next call to `candidatos-corpus.js` rebuilds the cache automatically.
 files, and one-off exploration scripts) is **not** touched by this
 command — clear it by hand if you want to, or read
 [`scripts/ingest/README.md`](scripts/ingest/README.md) to see what's
-in there and how it's organized.
+in 📄 there and how it's organized.
 
-## License
+## 📄 License
 
 - The **code** (HTML/CSS/JS) belongs to its contributors, under the MIT
   license (see `LICENSE`).
@@ -154,9 +156,9 @@ in there and how it's organized.
   [ARASAAC](https://arasaac.org) (author Sergio Palao, owned by the
   Government of Aragón), under a CC BY-NC-SA license. If you add a new
   pictogram from ARASAAC, keep that license and the footer attribution —
-  they can't be used commercially without ARASAAC's permission.
+  t🙏 hey can't be used commercially without ARASAAC's permission.
 
-## Credits
+## 🙏 Credits
 
 Definitions and examples are based on public "plain language" glossaries
 from government and court bodies (IVAP, Red de Lenguaje Claro) and on
@@ -164,7 +166,7 @@ medical glossaries written for patients.
 
 ---
 
-## � Contributing
+##  Contributing
 
 Issues and pull requests are welcome. See [`CONTRIBUTING.md`](CONTRIBUTING.md)
 for the workflow (and [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) for the
@@ -184,7 +186,7 @@ issue privately.
 
 ---
 
-## �🧩 Sibling projects
+## 🧩 Sibling projects
 
 This project is one of a small group of sibling projects that share
 the same author, the same accessibility-first / no-backend philosophy
