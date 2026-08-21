@@ -176,7 +176,7 @@ Examples:
    covers). Don't invent a new key for two or three stray words, and if
    one is genuinely needed, also add its label in `js/i18n.js`
    (`topic_<key>`) for every language.
-8. Run `node scripts/validar.js` to make sure the new word is well-formed
+8. Run `node scripts/check.js` to make sure the new word is well-formed
    and (if you added a `traduccion` in step 5) the cross-language link
    resolves.
 
@@ -196,7 +196,7 @@ part of the published site workflow — they are worth knowing about:
   every ES entry that the shared-pictogram fallback can't resolve
   has an explicit `traduccion` somewhere. Run it after a large
   content change (a big batch, a refactor of `js/data.*.js`) to catch
-  orphaned links before they reach `scripts/validar.js` (which catches
+  orphaned links before they reach `scripts/check.js` (which catches
   them too, but with a less specific error message).
 - **`scripts/limpiar-cache.js`** — clears `scripts/.cache/` (the
   frequency-word lists downloaded by `candidatos-corpus.js`). Safe to
@@ -252,7 +252,7 @@ validates that:
    and principles.
 2. Read [`doc/en/technical.md`](doc/en/technical.md) entirely — you'll
    understand the architecture, the dictionary schema, and the recipes.
-3. Run `node scripts/validar.js` to verify your environment is good.
+3. Run `node scripts/check.js` to verify your environment is good.
 
 ### Quick recipes
 
@@ -262,7 +262,7 @@ validates that:
 
 ### Checklist before opening a PR
 
-- `node scripts/validar.js` passes without errors
+- `node scripts/check.js` passes without errors
 - Tested on mobile (responsive 360 px)
 - No console errors
 - If you changed UI strings, the keys exist in every `I18N` block

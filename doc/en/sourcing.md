@@ -30,7 +30,7 @@ Practical guide for finding, filtering, and reviewing new words for Sinonimia. I
 7. Validate before incorporating the entry:
 
    ```sh
-   node scripts/validar.js
+   node scripts/check.js
    ```
 
 A source only proposes words. It never decides by itself that a word merits an entry.

@@ -30,7 +30,7 @@ occupational-therapy support for people with intellectual disability, but
 `I18N` string in `js/i18n.js`, in any language. That framing only belongs
 in maintainer-facing docs (`doc/*/SPEC.md`, this file, `CONTRIBUTING.md` /
 `CONTRIBUTING.es.md`, `README.md` / `README.es.md`).
-`scripts/validar.js` enforces this with a blocklist scan over
+`scripts/check.js` enforces this with a blocklist scan over
 `index.html` and `js/i18n.js` — it does not scan `js/data.*.js`, since a
 dictionary entry about an actual disability-related bureaucratic term (e.g.
 a disability-certificate procedure) would be legitimate content, not a
@@ -153,7 +153,7 @@ is) without publicly naming a clinical group.
 - **Self-test for "did I cover both languages?"**: search the new
   string or data shape in the es files, then the en files; if
   the es change has no en mirror (or vice versa), it is not done.
-  scripts/validar.js enforces key parity of 	() keys in
+  scripts/check.js enforces key parity of 	() keys in
   js/i18n.js (it fails if js/app.js calls a key missing from any
   I18N block) but does not enforce translation quality or
   dictionary-parity — proofread both.
@@ -166,9 +166,9 @@ HTML/CSS/JS served as static files.
 - **Preview**: open `index.html` directly in a browser, or serve the folder
   with any static server (e.g. `npx serve .`). Everything runs client-side.
 - **Validate everything** (this repo's only "test" step, and what CI runs
-  on every PR via `.github/workflows/validate.yml`):
+  on every PR via `.github/workflows/check.yml`):
   ```
-  node scripts/validar.js
+  node scripts/check.js
   ```
   It checks JS syntax, CSS brace balance, that every `ejemplo.palabra` /
   `ejemploSinonimo.palabra` is an exact (accent-insensitive) substring of its

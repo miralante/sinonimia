@@ -9,7 +9,7 @@
 [![Static site](https://img.shields.io/badge/build-none-informational.svg)](#-quick-start)
 [![No PWA](https://img.shields.io/badge/PWA-none-lightgrey.svg)](#-features)
 [![i18n](https://img.shields.io/badge/i18n-es%20%7C%20en-yellow.svg)](#-documentation)
-[![CI](https://img.shields.io/badge/CI-node%20scripts%2Fvalidar.js-blue.svg)](.github/workflows/validate.yml)
+[![CI](https://img.shields.io/badge/CI-node%20scripts%2Fcheck.js-blue.svg)](.github/workflows/check.yml)
 
 A plain-language dictionary for difficult words: paperwork, justice, and
 health. Every word has a short definition, a simple synonym, an everyday
@@ -81,14 +81,14 @@ the repository root:
 ## ✅ Validating changes
 
 ```
-node scripts/validar.js
+node scripts/check.js
 ```
 
 Checks the syntax of the JS files, that CSS braces are balanced, that every
 word has its pictogram and well-formed examples, that interface text keys
 exist in every language, and that the ids `js/app.js` uses exist in
 `index.html`. It also runs on every pull request
-(`.github/workflows/validate.yml`).
+(`.github/workflows/check.yml`).
 
 ## ☁️ Deploying
 
@@ -105,7 +105,7 @@ To deploy your own fork:
    (**Workers & Pages → Create → Connect to Git**). Build command is
    empty; `wrangler.toml` declares the static-assets directory.
 2. Push to `main`. Cloudflare rebuilds and deploys automatically. The
-   validation workflow ([`.github/workflows/validate.yml`](.github/workflows/validate.yml))
+   validation workflow ([`.github/workflows/check.yml`](.github/workflows/check.yml))
    still runs on every push and PR to gate content, but it does not
    deploy.
 

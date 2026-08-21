@@ -2,7 +2,7 @@
 /*
  * Production smoke test: catches drift between what's deployed and what's
  * cached at the edge/in visitors' browsers — the class of bug
- * scripts/validar.js structurally cannot see, because validar.js only
+ * scripts/check.js structurally cannot see, because check.js only
  * checks the source tree, not what a real visitor is actually served.
  *
  * Concretely: fetches the live index.html, follows the exact

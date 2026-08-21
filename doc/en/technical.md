@@ -48,7 +48,7 @@ because they are shared data contracts, not implementation details:
 
 Everything else — function names, local variables, parameters, and every
 comment in `js/app.js`, `js/i18n.js`, `js/data.*.js`, `css/styles.css`, and
-`scripts/validar.js` — is English. That includes the `I18N` object's keys
+`scripts/check.js` — is English. That includes the `I18N` object's keys
 in `js/i18n.js` (e.g. `heroLabel`, `searchPlaceholder`, `topic_tramites`):
 they are English identifiers like the rest of the code, referenced
 verbatim in `index.html`'s `data-i18n="..."` attributes and in
@@ -62,7 +62,7 @@ above, touch it everywhere it's used or not at all.
 Sinonimia is a static site: plain HTML, CSS, and vanilla JavaScript, no
 build step, no bundler, no framework, no runtime dependencies. It runs by
 opening `index.html` in a browser or serving the folder with any static
-file server. `scripts/validar.js` (Node, zero dependencies) is the only
+file server. `scripts/check.js` (Node, zero dependencies) is the only
 tooling in the repo, and it only runs at commit/CI time — it never runs in
 the browser.
 
@@ -74,7 +74,7 @@ js/data.es.js        Spanish dictionary entries
 js/data.en.js        English dictionary entries
 js/app.js            the entire client app (router, rendering, state)
 img/<arasaac-id>.png pictograms
-scripts/validar.js   the CI/local validation script
+scripts/check.js   the CI/local validation script
 ```
 
 ## Hosting
@@ -201,7 +201,7 @@ In practice this means:
   also work for the keys iPadOS remaps (e.g. `Meta` for `Ctrl`,
   `Alt+Left` for `Back`).
 
-The CI validation (`scripts/validar.js`) doesn't currently run any
+The CI validation (`scripts/check.js`) doesn't currently run any
 browser tests — there's no headless Chrome / WebDriver in the repo
 and no CI budget for one. Before adding a browser-automation
 dependency, see the "no runtime dependencies" point above: every
@@ -326,7 +326,7 @@ across languages? Because ARASAAC has only one "money" pictogram, one
 "document" pictogram, one "pen" pictogram, etc., and the dictionary has
 many unrelated words that share each of those — so the unique-pictogram
 fallback can only resolve a fraction of the entries. `traduccion` is
-where the human editor disambiguates the rest. `scripts/validar.js`
+where the human editor disambiguates the rest. `scripts/check.js`
 checks the shape (object keyed by language code, values are strings or
 arrays of strings) and that every referenced id exists in the target
 language's dictionary.
@@ -441,10 +441,10 @@ special-case a language. `SPEC.md` documents the rules that constrain
 any future gamification (never hide content behind an interaction, never
 make a game punitive) — read it before adding a third game.
 
-## Validation (`scripts/validar.js`)
+## Validation (`scripts/check.js`)
 
 Zero-dependency Node script, run locally and in CI
-(`.github/workflows/validate.yml`) on every push/PR. It checks, in order:
+(`.github/workflows/check.yml`) on every push/PR. It checks, in order:
 JS syntax of every file; CSS brace balance; that every dictionary entry has
 a unique id, a valid `situacion`, an `imagen.id` with a matching file under
 `img/`, and `ejemplo`/`ejemploSinonimo` whose `palabra` is a real

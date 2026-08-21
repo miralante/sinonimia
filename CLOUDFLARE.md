@@ -4,7 +4,7 @@
 > **automatically on every push to `main`** via the **Cloudflare
 > Git connector** configured in the Cloudflare dashboard. There is no
 > GitHub Actions workflow that deploys — the only workflow in
-> `.github/workflows/validate.yml` runs `node scripts/validar.js` on
+> `.github/workflows/check.yml` runs `node scripts/check.js` on
 > every push and PR to gate content, but it does **not** deploy. The
 > Cloudflare dashboard is the source of truth for project settings.
 >
@@ -41,7 +41,7 @@ deploy.
    deploy the repo root as a static-assets Worker (no `main` script).
 3. The build is a no-op: no `build command`, no `output directory` other
    than `.`, so the static files are served as-is.
-4. The `validate.yml` GitHub Action still runs on every push and PR
+4. The `check.yml` GitHub Action still runs on every push and PR
    to gate content, but it does not deploy.
 
 `wrangler.toml` is the actual deploy configuration Workers Builds

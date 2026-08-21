@@ -6,7 +6,7 @@
 
 ## Comprobaciones
 
-- [ ] `node scripts/validar.js` pasa en local.
+- [ ] `node scripts/check.js` pasa en local.
 - [ ] Si has modificado el shell de la app, has actualizado la
       documentación canónica correspondiente (`doc/es/`).
 - [ ] Si has cambiado contenido de UI o del diccionario, los strings

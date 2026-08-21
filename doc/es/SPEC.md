@@ -77,7 +77,7 @@ La regla no cubre:
 - `about/index.html`, que presenta el origen y el contexto interno del
   proyecto.
 
-`node scripts/validar.js` comprueba automáticamente los archivos visibles
+`node scripts/check.js` comprueba automáticamente los archivos visibles
 indicados arriba. No se debe ocultar una mención problemática trasladándola a
 otro texto de interfaz.
 
@@ -311,7 +311,7 @@ Esta es la versión resumida; el procedimiento completo está en
 6. Reflejar `htmlLang`, `metaTitle` y `metaDescription` en
    `js/bootstrap-i18n.js`.
 7. Revisar RTL, variantes regionales, enlaces `traduccion` y categorías.
-8. Ejecutar `node scripts/validar.js`.
+8. Ejecutar `node scripts/check.js`.
 
 No se modifica `js/app.js`: búsqueda, rutas, juegos, progreso y palabra del
 día funcionan con cualquier clave presente en `DICCIONARIOS`.
@@ -350,7 +350,7 @@ entiende. El proceso recomendado es:
 7. **Usar un respaldo de categoría** solo después de comprobar que la palabra,
    sus sinónimos y términos cercanos no tienen un pictograma adecuado. La
    tabla canónica está en `scripts/category-pictogram-defaults.js`.
-8. **Validar** con `node scripts/validar.js`.
+8. **Validar** con `node scripts/check.js`.
 
 Un resultado de búsqueda no descarga ni selecciona nada automáticamente. Si
 se incorpora una imagen que no sea de ARASAAC, hay que revisar su licencia y

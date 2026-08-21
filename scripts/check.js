@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /*
- * Sinonimia's validator. No dependencies (plain Node), so anyone can run it
- * without installing anything: node scripts/validar.js
+ * Sinonimia's check script. No dependencies (plain Node), so anyone can run
+ * it without installing anything: node scripts/check.js
  *
  * Checks what an editor can't: that every example sentence really contains
  * the word it claims to contain, that no pictogram is missing, that

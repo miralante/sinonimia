@@ -82,7 +82,7 @@ Where it applies and where it doesn't:
   (see the previous section).
 `about/privacidad
 
-This rule is checked automatically: `node scripts/validar.js` fails if any
+This rule is checked automatically: `node scripts/check.js` fails if any
 of those terms show up in `index.html`, `js/i18n.js`, or `about/*.html`.
 
 ### Public-facing wording: "usuario/a tipo" euphemism
@@ -406,7 +406,7 @@ adding the language.
 ## Process for expanding content
 
 Writing an easy-read definition needs human judgment — it can't be
-templated without it showing (that's why `scripts/validar.js` checks the
+templated without it showing (that's why `scripts/check.js` checks the
 shape of the data, but never a definition's quality: only a person, or an
 AI, reading it out loud, can judge that). What can be automated is the
 bookkeeping that needs to happen before writing anything, and that's what
@@ -490,7 +490,7 @@ the dictionary needs to grow:
    a pictogram in `img/` from a word in another language — ARASAAC's
    pictograms are drawings with no text, so the same `imagen.id` serves
    the same concept in any language.
-6. **Validate**: `node scripts/validar.js` before considering the word
+6. **Validate**: `node scripts/check.js` before considering the word
    done. It checks every language's words at once, so one run is enough
    even if you touched several `js/data.<lang>.js` files.
 

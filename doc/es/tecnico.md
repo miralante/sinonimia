@@ -47,7 +47,7 @@ js/data.en.js       diccionario inglés
 js/app.js           router, renderizado y estado de la aplicación
 js/bootstrap-i18n.js textos mínimos para evitar flash de idioma
 img/<id>.png        pictogramas servidos localmente
-scripts/validar.js  validación local y de CI
+scripts/check.js  validación local y de CI
 ```
 
 El orden de carga de los archivos de datos debe preceder a `js/app.js`. No hay
@@ -75,7 +75,7 @@ un año e `immutable`. El HTML conserva la caché por defecto para que las
 actualizaciones se vean al recargar.
 
 Los scripts de datos llevan una query `?v=` calculada a partir del hash de su
-contenido. Cuando cambia un diccionario, `scripts/validar.js` indica el hash
+contenido. Cuando cambia un diccionario, `scripts/check.js` indica el hash
 que debe ponerse en `index.html` y `404.html`. No usar versiones manuales ni
 añadir un bundler solo para resolver esta caché.
 
@@ -277,8 +277,8 @@ nuevo están en [`SPEC.md`](SPEC.md).
 
 ## 10. Validación
 
-Ejecutar `node scripts/validar.js` en local y en CI
-(`.github/workflows/validate.yml`). El script comprueba:
+Ejecutar `node scripts/check.js` en local y en CI
+(`.github/workflows/check.yml`). El script comprueba:
 
 1. Sintaxis de todos los JavaScript.
 2. Balance de llaves de `css/styles.css`.

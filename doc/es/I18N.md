@@ -68,7 +68,7 @@ Lo que esta política **no** es:
   (`…-aprendidas-<lang>`, `…-juego-aciertos-<lang>`,
   `…-mis-frases-<lang>`), así que un idioma nuevo empieza en limpio y
   nunca colisiona con otro.
-- `scripts/validar.js` recorre **todos** los idiomas en una sola
+- `scripts/check.js` recorre **todos** los idiomas en una sola
   pasada: añadir un idioma extiende las mismas comprobaciones
   automáticamente.
 
@@ -80,7 +80,7 @@ cambia.
 
 ## 3. Ficheros que sí hay que tocar al añadir un idioma
 
-El orden importa — el validador (`scripts/validar.js`) es la última
+El orden importa — el validador (`scripts/check.js`) es la última
 puerta, y falla si se salta cualquiera de estos pasos.
 
 ### 3.1 `js/i18n.js` — textos de la interfaz
@@ -111,7 +111,7 @@ tercero:
    `fa`), documenta aquí que `css/styles.css` necesita una regla
    `dir="rtl"` para `<html>` en ese idioma — es el único trozo de
    CSS que genuinamente varía por idioma, y el único que
-   `scripts/validar.js` no coge automáticamente.
+   `scripts/check.js` no coge automáticamente.
 
 ### 3.2 `js/data.<código>.js` — el diccionario
 
@@ -229,7 +229,7 @@ Al añadir un idioma:
    claves en `I18N.<código>` (se mantienen en dos sitios a
    propósito — `bootstrap-i18n.js` no puede cargar `js/i18n.js` desde
    `<head>` sin una dependencia circular, así que se reflejan a
-   mano). `scripts/validar.js` no enforza este espejo (las cadenas
+   mano). `scripts/check.js` no enforza este espejo (las cadenas
    son dinámicas), pero si divergen, el título y la meta-descripción
    parpadean entre las versiones pre-pintado y post-`app.js`.
 2. Añade el código nuevo al array `AVAILABLE` — si no,
@@ -260,7 +260,7 @@ tocar" es donde se ve la decisión de arquitectura:
 - **`css/styles.css`** — salvo por la matización RTL del paso 6 de
   3.1. El selector de idioma, las pastillas de tema, el buscador,
   los juegos y las reglas tipográficas son agnósticas al idioma.
-- **`scripts/validar.js`** — recorre `Object.keys(I18N)` y
+- **`scripts/check.js`** — recorre `Object.keys(I18N)` y
   `Object.keys(DICCIONARIOS)` automáticamente. Eso sí, **marca
   en rojo** un idioma nuevo que no satisfaga las comprobaciones
   existentes (toda entrada con id único, `situacion` válida,
@@ -417,7 +417,7 @@ Para quien acaba de decir "vamos a añadir catalán":
    tiene resultados en catalán).
 10. Añade campos `traduccion` en **ambas direcciones** entre las
     entradas nuevas y sus equivalentes en `es`/`en`.
-11. Ejecuta `node scripts/validar.js` — arregla cualquier cosa en
+11. Ejecuta `node scripts/check.js` — arregla cualquier cosa en
     rojo.
 12. Ejecuta `node scripts/estado-contenido.js --detalle` —
     confirma que los conteos por categoría ya no están por debajo

@@ -6,7 +6,7 @@
 
 ## Checks
 
-- [ ] `node scripts/validar.js` passes locally.
+- [ ] `node scripts/check.js` passes locally.
 - [ ] If you modified the app shell, you updated the relevant
       canonical documentation in `doc/en/`.
 - [ ] If you changed UI or dictionary content, the `es`/`en` strings

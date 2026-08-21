@@ -157,5 +157,5 @@ console.log(
   "to see existing headwords, synonyms, definiciones and ejemplos so you\n" +
   "don't duplicate a concept or recycle the same illustrative scenario.\n" +
   "Write each entry following the lectura-fácil rules, find its pictogram\n" +
-  "with scripts/buscar-pictograma.js, then run scripts/validar.js."
+  "with scripts/buscar-pictograma.js, then run scripts/check.js."
 );

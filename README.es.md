@@ -9,7 +9,7 @@
 [![Sitio estático](https://img.shields.io/badge/build-ninguno-informational.svg)](#-arranque-r%C3%A1pido)
 [![Sin PWA](https://img.shields.io/badge/PWA-ninguna-lightgrey.svg)](#-caracter%C3%ADsticas)
 [![i18n](https://img.shields.io/badge/i18n-es%20%7C%20en-yellow.svg)](#-documentaci%C3%B3n)
-[![CI](https://img.shields.io/badge/CI-node%20scripts%2Fvalidar.js-blue.svg)](.github/workflows/validate.yml)
+[![CI](https://img.shields.io/badge/CI-node%20scripts%2Fcheck.js-blue.svg)](.github/workflows/check.yml)
 
 Un diccionario en lenguaje sencillo para palabras difíciles: trámites,
 justicia y salud. Cada palabra tiene una definición corta, un sinónimo
@@ -82,14 +82,14 @@ algunos archivos en la raíz del repositorio:
 ## ✅ Validar los cambios
 
 ```
-node scripts/validar.js
+node scripts/check.js
 ```
 
 Comprueba la sintaxis de los archivos JS, que las llaves del CSS estén
 balanceadas, que cada palabra tenga su pictograma y sus ejemplos bien
 formados, que las claves de texto de la interfaz existan en todos los
 idiomas, y que los ids que usa `js/app.js` existan en `index.html`. Se
-ejecuta también en cada pull request (`.github/workflows/validate.yml`).
+ejecuta también en cada pull request (`.github/workflows/check.yml`).
 
 ## ☁️ Despliegue
 
@@ -109,7 +109,7 @@ Para desplegar tu propia versión:
    queda vacío; `wrangler.toml` declara el directorio de static assets.
 2. Push a `main`. Cloudflare reconstruye y despliega automáticamente.
    El workflow de validación
-   ([`.github/workflows/validate.yml`](.github/workflows/validate.yml))
+   ([`.github/workflows/check.yml`](.github/workflows/check.yml))
    sigue corriendo en cada push y PR para gatekeeping de contenido,
    pero no despliega.
 

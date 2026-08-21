@@ -220,6 +220,6 @@ const MIN_DOMAIN_COUNT = 2; // ignore one-off typos/noise in the corpus
     "que no está ya cubierto bajo otro sinónimo ni con el mismo escenario\n" +
     "de ejemplo, elige a mano en qué categoría encaja, y sigue el resto del\n" +
     "proceso de doc/en/SPEC.md (escribir la entrada, buscar pictograma con\n" +
-    "buscar-pictograma.js, validar con validar.js)."
+    "buscar-pictograma.js, validar con check.js)."
   );
 })();

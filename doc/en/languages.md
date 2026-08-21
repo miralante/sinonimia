@@ -63,7 +63,7 @@ What this policy is **not**:
 - `localStorage` is automatically namespaced per language (`…-aprendidas-<lang>`,
   `…-juego-aciertos-<lang>`, `…-mis-frases-<lang>`), so a new
   language starts with a clean slate and never collides with another.
-- `scripts/validar.js` runs over **every** language in a single pass:
+- `scripts/check.js` runs over **every** language in a single pass:
   adding a new language extends the same checks automatically.
 
 What this means: a new language is a content + UI-copy exercise, not
@@ -74,7 +74,7 @@ changes.
 
 ## 3. Files that must change when adding a language
 
-The order matters — the validator (`scripts/validar.js`) is the last
+The order matters — the validator (`scripts/check.js`) is the last
 gate, and it fails if any of these steps is missed.
 
 ### 3.1 `js/i18n.js` — UI copy
@@ -102,7 +102,7 @@ The file ships two language blocks today (`es`, `en`). To add a third:
 6. If the language reads right-to-left (e.g. `ar`, `he`, `fa`),
    document here that `css/styles.css` needs a `dir="rtl"` rule for
    `<html>` in that language — this is the one piece of CSS that
-   genuinely varies per language, and the only one `scripts/validar.js`
+   genuinely varies per language, and the only one `scripts/check.js`
    doesn't catch automatically.
 
 ### 3.2 `js/data.<code>.js` — the dictionary
@@ -212,7 +212,7 @@ When adding a language:
    to `BOOTSTRAP_I18N`. The strings must match the same keys in
    `I18N.<code>` (kept in two places on purpose — `bootstrap-i18n.js`
    can't load `js/i18n.js` from `<head>` without a circular
-   dependency, so they're mirrored by hand). `scripts/validar.js`
+   dependency, so they're mirrored by hand). `scripts/check.js`
    doesn't enforce this mirror (the strings are dynamic), but if
    they drift, the title and meta description flash between the
    pre-paint and the post-`app.js` versions.
@@ -243,7 +243,7 @@ where the architecture decision shows up:
 - **`css/styles.css`** — except for the RTL caveat in 3.1 step 6.
   The language selector, the topic pills, the search box, the games,
   and the typography rules are language-agnostic.
-- **`scripts/validar.js`** — it iterates over `Object.keys(I18N)` and
+- **`scripts/check.js`** — it iterates over `Object.keys(I18N)` and
   `Object.keys(DICCIONARIOS)` automatically. It will, however,
   **flag** a new language that doesn't satisfy the existing checks
   (every entry has a unique id, a valid `situacion`, a pictogram file,
@@ -388,7 +388,7 @@ For the person who just said "let's add Catalan":
    OpenSymbols has no Catalan hits).
 10. Add `traduccion` fields in **both directions** between the new
     entries and their `es`/`en` equivalents.
-11. Run `node scripts/validar.js` — fix anything red.
+11. Run `node scripts/check.js` — fix anything red.
 12. Run `node scripts/estado-contenido.js --detalle` — confirm the
     category counts are no longer below 8 for `ca` in the
     categories you filled.

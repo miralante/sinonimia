@@ -30,7 +30,7 @@ Guía práctica para encontrar, filtrar y revisar palabras nuevas para Sinonimia
 7. Valida la entrada:
 
    ```sh
-   node scripts/validar.js
+   node scripts/check.js
    ```
 
 Una fuente solo propone palabras. Nunca decide por sí sola que una palabra merece una entrada.

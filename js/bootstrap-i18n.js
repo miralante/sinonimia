@@ -8,7 +8,7 @@
  * Mirrors js/app.js#initialLanguage and js/i18n.js (only the three
  * <head>-relevant keys: lang attribute, document title, meta description).
  * If you change any of these strings here, change them in js/i18n.js too
- * — scripts/validar.js doesn't enforce the mirror (the strings are
+ * — scripts/check.js doesn't enforce the mirror (the strings are
  * dynamic), but readers will.
  *
  * Kept as an external file (not inline) so the CSP `script-src 'self'`

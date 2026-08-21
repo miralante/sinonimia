@@ -186,7 +186,7 @@ Ejemplos:
    para qué cubre cada una). No inventes una clave nueva para dos o
    tres palabras sueltas, y si de verdad hace falta una, añade también
    su etiqueta en `js/i18n.js` (`topic_<clave>`) para cada idioma.
-8. Ejecuta `node scripts/validar.js` para asegurarte de que la palabra
+8. Ejecuta `node scripts/check.js` para asegurarte de que la palabra
    nueva está bien formada y (si añadiste una `traduccion` en el paso
    5) el enlace entre idiomas se resuelve.
 
@@ -209,7 +209,7 @@ conocerlos:
   pictograma compartido no puede resolver tiene un `traduccion`
   explícito en algún sitio. Ejecútalo tras un cambio grande de
   contenido (un batch grande, un refactor de `js/data.*.js`) para
-  pillar enlaces huérfanos antes de que lleguen a `scripts/validar.js`
+  pillar enlaces huérfanos antes de que lleguen a `scripts/check.js`
   (que también los pilla, pero con un mensaje de error menos
   específico).
 - **`scripts/limpiar-cache.js`** — vacía `scripts/.cache/` (las listas
@@ -267,7 +267,7 @@ colaboradora de contenido valida que:
    principios de producto.
 2. Lee [`doc/es/tecnico.md`](doc/es/tecnico.md) entero — entenderás la
    arquitectura, el esquema del diccionario y las recetas.
-3. Ejecuta `node scripts/validar.js` para verificar que tu entorno está
+3. Ejecuta `node scripts/check.js` para verificar que tu entorno está
    bien.
 
 ### Recetas rápidas
@@ -278,7 +278,7 @@ colaboradora de contenido valida que:
 
 ### Checklist antes de abrir PR
 
-- `node scripts/validar.js` pasa sin errores
+- `node scripts/check.js` pasa sin errores
 - Probado en móvil (responsive 360 px)
 - Sin errores en consola
 - Si cambias textos de la UI, las claves existen en cada bloque `I18N`
