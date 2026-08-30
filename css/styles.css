@@ -1374,3 +1374,40 @@ body.alto-contraste .juego-pista-frase .destacado {
   .page-about main section,
   .page-privacidad main section { break-inside: avoid; border: none; padding: 0; }
 }
+
+/* ---------- Responsive: tablet (641px–1023px) ----------
+   Puente entre el mobile (<=640) y el desktop ancho (>=1024). El layout
+   ya es de una columna en mobile, así que aquí sobre todo engordamos
+   tipografía y damos más padding a las tarjetas del diccionario. */
+@media (min-width: 641px) and (max-width: 1023px) {
+  .cabecera h1 { font-size: 1.85rem; }
+  .detalle { padding: 1.5rem 1.75rem 2rem; }
+  .detalle h2 { font-size: 2rem; }
+}
+
+/* ---------- Responsive: escritorio ancho (>=1024px) ----------
+   El diccionario ya limita el ancho del contenido (envoltorio max-width
+   900px), pero en monitores grandes el texto se ve pequeño y las tarjetas
+   muy comprimidas verticalmente. Engordamos tipografía, damos más aire
+   y activamos un layout de dos columnas en el detalle para usar el
+   espacio horizontal sobrante (pictograma a la izquierda, ficha a la
+   derecha). En tablets y mobile sigue apilado. */
+@media (min-width: 1024px) {
+  .cabecera h1 { font-size: 2.25rem; }
+  .cabecera .eslogan { font-size: 1.1rem; }
+  .detalle { padding: 2rem 2.5rem 2.5rem; }
+  .detalle h2 { font-size: 2.4rem; }
+  .detalle .definicion { font-size: 1.15rem; }
+  .detalle .ejemplo { font-size: 1.1rem; }
+  /* Dos columnas en el detalle (pictograma | ficha), 1fr y 2fr para que
+     la ficha tenga más sitio que la imagen. Solo cuando hay imagen
+     presente (.detalle-imagen que es la clase del <img> inyectada por
+     app.js al renderizar una entrada con pictograma). */
+  .detalle .detalle-cabecera {
+    display: grid;
+    grid-template-columns: minmax(160px, 240px) 2fr;
+    gap: 2rem;
+    align-items: start;
+  }
+  .detalle .detalle-cabecera .detalle-imagen { margin: 0; }
+}

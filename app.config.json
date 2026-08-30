@@ -1,0 +1,21 @@
+{
+  "name": "Sinonimia",
+  "domain": "sinonimia.apptonomia.uk",
+  "title": "Sinonimia — Diccionario fácil de palabras difíciles",
+  "description": "Diccionario en lenguaje sencillo: palabras técnicas y difíciles de trámites y de salud, explicadas con ejemplos de la vida diaria y sus sinónimos.",
+  "keywords": "sinonimia, apptonomia, diccionario, sinónimos, lectura fácil, easy read, accesibilidad cognitiva, palabras difíciles, vocabulario, pictogramas arasaac, aplicaciones gratuitas sin registro",
+  "author": "Apptonomia",
+  "ogSiteName": "Apptonomia",
+  "ogDescription": "Palabras técnicas y difíciles de trámites y de salud, explicadas con ejemplos de la vida diaria y sus sinónimos. Gratis y sin registro.",
+  "twitterDescription": "Palabras difíciles explicadas con ejemplos de la vida diaria y sus sinónimos.",
+  "ogImageAlt": "Sinonimia: diccionario en lectura fácil con sinónimos y pictogramas",
+  "ogAccent": "#6B3FA0",
+  "ogAccentInk": "#FFFFFF",
+  "ogTagline": "Diccionario en lectura fácil",
+  "themeColor": "#FAF7F2",
+  "colorScheme": "light",
+  "ogImageAsset": null,
+  "iconAsset": "img/logo.svg",
+  "manifest": null,
+  "hasItemList": false
+}

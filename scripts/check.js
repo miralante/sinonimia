@@ -7,6 +7,22 @@
  * the word it claims to contain, that no pictogram is missing, that
  * interface keys exist in every language, etc. Meant to run locally before
  * a commit and in CI on every pull request.
+ *
+ * Also enforces three Cloudflare Pages limits (per
+ * https://developers.cloudflare.com/pages/limits/ and the matching pages
+ * for _headers and _redirects):
+ *
+ *   - _redirects: max 2 000 static redirects + 100 dynamic (placeholder)
+ *     redirects per file (2 100 total). If absent the check is skipped,
+ *     which is sinonimia's current state.
+ *   - _headers: max 100 rule lines (path-globs + Key: value lines) per
+ *     file. Counting both kinds matches the wording in Cloudflare's
+ *     pages/configuration/headers/ docs.
+ *   - No shipped file may exceed 25 MB. The walker excludes .git/,
+ *     node_modules/, .claude/, graphify-out*, and scripts/ingest/
+ *     (sinonimia's batch content pipeline - multi-MB plaintext
+ *     wordlists and ARASAAC cache files, never uploaded). 20 MB warns,
+ *     25 MB fails.
  */
 
 const fs = require("fs");
@@ -375,6 +391,123 @@ ok("index.html, js/i18n.js, and about/*.html do not mention disability, occupati
     ok("_headers: CSP source expressions are quoted correctly");
   }
 })();
+
+// --- _redirects: stays within Cloudflare's per-file limits
+// (https://developers.cloudflare.com/pages/configuration/redirects/):
+// a maximum of 2 000 static redirects and 100 dynamic (placeholder)
+// redirects per file — 2 100 in total. If the file is absent (the
+// common case for projects that have no redirects at all) the check
+// is skipped: zero is valid. Sinonimia currently has no _redirects,
+// so this branch is the active one in CI.
+(function () {
+  const redirectsFile = path.join(ROOT, "_redirects");
+  if (!fs.existsSync(redirectsFile)) {
+    ok("_redirects: absent, OK (zero redirects is valid)");
+    return;
+  }
+  const lines = fs.readFileSync(redirectsFile, "utf8").split("\n");
+  let staticCount = 0;
+  let dynamicCount = 0;
+  lines.forEach(function (line) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.charAt(0) === "#") return;
+    const isStatic = /\s(?:200|301|302|303|307|308)\s*$/.test(trimmed) && !/:\w+\$/.test(trimmed);
+    const isDynamic = /:\w+\$/.test(trimmed);
+    if (isStatic) staticCount += 1;
+    else if (isDynamic) dynamicCount += 1;
+  });
+  const STATIC_LIMIT = 2000;
+  const DYNAMIC_LIMIT = 100;
+  if (staticCount > STATIC_LIMIT) {
+    fail("_redirects: " + staticCount + " static redirects, max is " + STATIC_LIMIT +
+      " (Cloudflare Pages rejects the file)");
+  }
+  if (dynamicCount > DYNAMIC_LIMIT) {
+    fail("_redirects: " + dynamicCount + " dynamic redirects, max is " + DYNAMIC_LIMIT +
+      " (Cloudflare Pages rejects the file)");
+  }
+  if (staticCount <= STATIC_LIMIT && dynamicCount <= DYNAMIC_LIMIT) {
+    ok("_redirects: " + staticCount + " static, " + dynamicCount + " dynamic (within Cloudflare limits)");
+  }
+})();
+
+// --- _headers: stays within Cloudflare's per-file limit of 100
+// header rules per file
+// (https://developers.cloudflare.com/pages/configuration/headers/).
+// Both path-glob lines and individual Key: value lines are counted,
+// because Cloudflare's published limit of 100 applies to the total
+// number of lines in `_headers`, per the wording at the URL above.
+// The 7 currently shipped suites all stay well under 100 either way.
+(function () {
+  const headersFile = path.join(ROOT, "_headers");
+  if (!fs.existsSync(headersFile)) {
+    ok("_headers: absent, OK");
+    return;
+  }
+  const lines = fs.readFileSync(headersFile, "utf8").split("\n");
+  let ruleCount = 0;
+  for (let i = 0; i < lines.length; i++) {
+    const hLine = lines[i];
+    const hTrim = hLine.trim();
+    if (!hTrim || hTrim.charAt(0) === "#") continue;
+    if (hLine.charAt(0) === "/" && !/^\/.*:/.test(hLine)) {
+      ruleCount += 1;
+      continue;
+    }
+    if (/^[A-Za-z][\w-]*:\s/.test(hLine)) ruleCount += 1;
+  }
+  const HEADERS_RULE_LIMIT = 100;
+  if (ruleCount > HEADERS_RULE_LIMIT) {
+    fail("_headers: " + ruleCount + " rule lines (path-globs + headers), max is " +
+      HEADERS_RULE_LIMIT + " (Cloudflare Pages rejects the file)");
+  } else {
+    ok("_headers: " + ruleCount + " rule lines (within Cloudflare limit)");
+  }
+})();
+
+// --- 25 MB per-file limit (Cloudflare Pages):
+// https://developers.cloudflare.com/pages/limits/. Warns at 20 MB
+// (legal but worth a nudge before the next content commit pushes it
+// over) and fails at 25 MB (Cloudflare will reject the deploy). Only
+// walks files that actually deploy: .git/, node_modules/, .claude/
+// (graphify skill + agent settings, never uploaded), graphify-out*
+// (build artifacts), and scripts/ingest/ (sinonimia's batch content
+// pipeline, contains multi-megabyte plaintext wordlists and ARASAAC
+// cache files — never shipped). This check cares about what
+// Cloudflare serves, not the maintainer's working area.
+const FILE_SIZE_WARN_MB = 20;
+const FILE_SIZE_FAIL_MB = 25;
+const sizeExcluded = new Set([".git", "node_modules", ".claude", "graphify-out", "graphify-out-meta", "ingest"]);
+const largeFileWarnings = [];
+(function walkForLargeFiles(dir) {
+  if (!fs.existsSync(dir)) return;
+  fs.readdirSync(dir, { withFileTypes: true }).forEach(function (entry) {
+    if (sizeExcluded.has(entry.name)) return;
+    const full = path.join(dir, entry.name);
+    // scripts/ingest is the batch content pipeline; exclude both the
+    // top-level and any sub-folder inside it.
+    if (full.indexOf(path.sep + "scripts" + path.sep + "ingest") !== -1) return;
+    if (entry.isDirectory()) {
+      walkForLargeFiles(full);
+    } else if (entry.isFile()) {
+      const size = fs.statSync(full).size;
+      const sizeMb = size / (1024 * 1024);
+      if (sizeMb >= FILE_SIZE_FAIL_MB) {
+        fail(path.relative(ROOT, full).split(path.sep).join("/") + ": " +
+          sizeMb.toFixed(2) + " MB, max per file is " + FILE_SIZE_FAIL_MB +
+          " MB (Cloudflare Pages rejects the deploy)");
+      } else if (sizeMb >= FILE_SIZE_WARN_MB) {
+        largeFileWarnings.push(path.relative(ROOT, full).split(path.sep).join("/") +
+          ": " + sizeMb.toFixed(2) + " MB (warning: still legal, getting close)");
+      }
+    }
+  });
+})(ROOT);
+if (largeFileWarnings.length) {
+  console.log("");
+  console.warn("WARNINGS (" + largeFileWarnings.length + ") - non-blocking, see https://developers.cloudflare.com/pages/limits/ (25 MB per-file limit):");
+  largeFileWarnings.forEach(function (w) { console.warn("  - " + w); });
+}
 
 // --- Result ---
 console.log("");
