@@ -104,7 +104,7 @@ const languages = Object.keys(DICCIONARIOS);
 ok("languages found: " + languages.join(", "));
 
 // --- 4. Every entry: unique id, image present, well-formed example ---
-const VALID_TOPICS = ["tramites", "salud", "vida-diaria", "finanzas", "vivienda", "trabajo", "legal", "tecnologia", "seguridad", "educacion"];
+const VALID_TOPICS = ["tramites", "salud", "vida-diaria", "finanzas", "vivienda", "trabajo", "legal", "tecnologia", "seguridad", "educacion", "conocimiento"];
 const imgDir = path.join(ROOT, "img");
 const imagesOnDisk = fs.readdirSync(imgDir);
 

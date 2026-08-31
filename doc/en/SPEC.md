@@ -18,9 +18,14 @@ It makes no distinction about who uses it or why: the word "usufruct" or
 it. Designing for first-read comprehension makes the site clearer for
 everyone, not only for those who need it most.
 
-It is not a general dictionary of synonyms. It only covers **difficult or
+It is not a general dictionary of synonyms. It mainly covers **difficult or
 technical words** (from public administration, justice, and health) and
-explains them so they can be understood on the first read.
+explains them so they can be understood on the first read. A smaller
+`conocimiento` ("general knowledge") category also covers everyday
+abstract/scientific vocabulary (science, geography, weather, learning
+verbs) that isn't paperwork-specific but is still hard to understand on
+first read — see [`technical.md`](technical.md)'s "Dictionary entry shape"
+for the full list of `situacion` values.
 
 ## Objective and origin (internal context)
 

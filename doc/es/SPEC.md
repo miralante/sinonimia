@@ -18,7 +18,12 @@ un pictograma.
 No es un diccionario general de sinónimos. No incluye vocabulario común como
 "casa", "feliz" o "comer", porque esas palabras ya suelen entenderse. Su
 valor está en explicar las palabras que pueden dejar fuera a quien no las
-conoce.
+conoce. Una categoría más pequeña, `conocimiento` ("conocimiento general"),
+cubre además vocabulario abstracto o científico de uso cotidiano (ciencia,
+geografía, clima, verbos de aprendizaje) que no es propio de un trámite
+pero sigue siendo difícil de entender a la primera — ver
+["Forma de cada entrada"](tecnico.md) en `tecnico.md` para la lista
+completa de valores de `situacion`.
 
 ## 2. Público objetivo y origen
 

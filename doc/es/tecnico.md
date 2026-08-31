@@ -155,9 +155,9 @@ Reglas del esquema:
 - Solo `id` debe ser único. `palabra` puede repetirse para representar un
   homónimo; el índice mantiene un array de entradas con el mismo nombre.
 - `imagen.id` apunta a `img/<id>.png` y `imagen.alt` es obligatorio.
-- `situacion` es una de estas diez claves compartidas: `tramites`, `salud`,
+- `situacion` es una de estas once claves compartidas: `tramites`, `salud`,
   `vida-diaria`, `finanzas`, `vivienda`, `trabajo`, `legal`, `tecnologia`,
-  `seguridad`, `educacion`.
+  `seguridad`, `educacion`, `conocimiento`.
 - `ejemplo.palabra` y `ejemploSinonimo.palabra` deben ser exactamente la
   forma que aparece en su propio `texto`, aunque sea una forma conjugada o
   concordada y no la cabecera.
@@ -264,6 +264,7 @@ respaldo deliberado de `scripts/category-pictogram-defaults.js`:
 | `tecnologia` | 11459 | tecnología |
 | `seguridad` | 12260 | protección |
 | `educacion` | 8098 | educación |
+| `conocimiento` | 2450 | libro |
 
 No dejar una palabra abstracta con una imagen elegida por casualidad.
 

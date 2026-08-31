@@ -282,9 +282,9 @@ Every entry (see the Naming exceptions above for why these field names stay
 Spanish) has: `id`, `palabra`, `imagen: {id, alt}`, `definicion`,
 `sinonimos[]`, `ejemplo: {palabra, texto}`, `ejemploSinonimo: {palabra,
 texto}`, `situacion`, and **optionally** `traduccion`. `situacion` is one
-of ten values shared across every language (`tramites`, `salud`,
+of eleven values shared across every language (`tramites`, `salud`,
 `vida-diaria`, `finanzas`, `vivienda`, `trabajo`, `legal`, `tecnologia`,
-`seguridad`, `educacion`) — it's a
+`seguridad`, `educacion`, `conocimiento`) — it's a
 filter key, not display text; its label per language lives in
 `js/i18n.js` as `topic_<situacion>`. The `palabra` field *inside*
 `ejemplo` / `ejemploSinonimo` is the exact inflected/agreed form used
@@ -424,6 +424,7 @@ instead:
 | `tecnologia` | 11459 | tecnología |
 | `seguridad` | 12260 | protección, seguridad |
 | `educacion` | 8098 | educación, formación |
+| `conocimiento` | 2450 | libro |
 
 These are the same generic pictograms that most entries in each
 category already ended up sharing organically during earlier ingest

@@ -18,4 +18,5 @@ module.exports = {
   tecnologia: { id: 11459, alt: "Tecnología" },
   seguridad: { id: 12260, alt: "Protección, seguridad" },
   educacion: { id: 8098, alt: "Educación, formación" },
+  conocimiento: { id: 2450, alt: "Libro" },
 };

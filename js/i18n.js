@@ -56,6 +56,7 @@ const I18N = {
     topic_tecnologia: "Tecnología",
     topic_seguridad: "Seguridad",
     topic_educacion: "Educación",
+    topic_conocimiento: "Conocimiento general",
 
     alphabetLabel: "Buscar por letra inicial",
     listLabel: "Lista de palabras",
@@ -168,6 +169,7 @@ const I18N = {
     topic_tecnologia: "Technology",
     topic_seguridad: "Safety",
     topic_educacion: "Education",
+    topic_conocimiento: "General knowledge",
 
     alphabetLabel: "Browse by first letter",
     listLabel: "List of words",
