@@ -8,11 +8,13 @@
 > every push and PR to gate content, but it does **not** deploy. The
 > Cloudflare dashboard is the source of truth for project settings.
 >
-> **Part of a group of sibling projects.** Sinonimia is one of five
-> static PWAs that share the same author, the same accessibility-first
-> / no-backend philosophy, and the same Cloudflare deploy story.
-> **Apptonomia is the main project** of the group. The canonical
-> Cloudflare guide for the group lives in
+> **Part of a group of sibling projects — the Miralante suite.**
+> Sinonimia is one of **six apps** (Calculia, Memofun, Okeymoney,
+> Routime, Sinonimia, Teclatlon) that share the same author, the
+> same accessibility-first / no-backend philosophy, and the same
+> Cloudflare deploy story. **Apptonomia is the landing portal of
+> the suite, not a runtime app.** The canonical Cloudflare guide
+> for the group lives in
 > [Apptonomia's `CLOUDFLARE.md`](https://github.com/thenkdframe/apptonomia/blob/master/CLOUDFLARE.md);
 > this document is the Sinonimia-specific runbook on top of it.
 >
