@@ -9,7 +9,7 @@
    The SW's job is just to make the first paint and the first
    dictionary load work offline.
    ============================================================ */
-var VERSION = 'sinonimia-v1';
+var VERSION = 'sinonimia-v2';
 
 var ARCHIVOS = [
   './',
@@ -25,7 +25,10 @@ var ARCHIVOS = [
   './js/app.js',
   './img/logo.svg',
   './about/privacidad.html',
-  './legal/index.html'
+  './about/about.js',
+  './legal/index.html',
+  './config/index.html',
+  './config/config.js'
 ];
 
 var CACHE_NAME = 'sinonimia-' + VERSION;

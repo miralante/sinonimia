@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es" data-lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Hidden route: like about/privacidad.html, this page is not linked
+     from index.html's main flow. It's reached by typing the URL (or
+     clicking the footer link). Search engines are told not to index
+     it — there's nothing here a visitor landing cold would benefit
+     from, and the only way to even know about it is via the footer
+     of the site itself. -->
+<meta name="robots" content="noindex, nofollow">
+<title data-lang-block="es">Sinonimia — Configuración</title>
+<title data-lang-block="en">Sinonimia — Settings</title>
+<meta name="description" data-lang-block="es" content="Sinonimia: qué datos guarda en tu dispositivo y cómo borrarlos.">
+<meta name="description" data-lang-block="en" content="Sinonimia: what data it saves on your device and how to clear it.">
+<meta name="theme-color" content="#FAF7F2">
+<link rel="icon" type="image/svg+xml" href="../img/logo.svg">
+<link rel="apple-touch-icon" href="../img/logo.svg">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="page-config">
+
+<a class="skip-link" href="#contenido" data-lang-block="es">Saltar al contenido</a>
+<a class="skip-link" href="#contenido" data-lang-block="en">Skip to content</a>
+
+<header class="cabecera">
+  <div class="envoltorio">
+    <div class="idioma-selector" role="group" aria-label="Idioma / Language">
+      <button type="button" class="idioma-btn activo" data-lang="es" aria-pressed="true">🇪🇸 Español</button>
+      <button type="button" class="idioma-btn" data-lang="en" aria-pressed="false">🇬🇧 English</button>
+    </div>
+
+    <div class="logo-about">⚙️</div>
+    <h1>Sinonimia<span>.</span></h1>
+    <p class="lema" data-lang-block="es">Configuración de este dispositivo.</p>
+    <p class="lema" data-lang-block="en">Settings for this device.</p>
+
+    <nav class="indice" aria-label="Índice de esta página" data-lang-block="es">
+      <a href="#que-guardamos">Qué guardamos</a>
+      <a href="#borrar">Borrar mis datos</a>
+      <a href="../index.html">Volver al diccionario</a>
+    </nav>
+    <nav class="indice" aria-label="Page contents" data-lang-block="en">
+      <a href="#que-guardamos">What we save</a>
+      <a href="#borrar">Clear my data</a>
+      <a href="../index.html">Back to the dictionary</a>
+    </nav>
+  </div>
+</header>
+
+<div class="envoltorio">
+<main id="contenido">
+
+<section id="que-guardamos">
+  <h2 data-lang-block="es">Qué guardamos en tu dispositivo</h2>
+  <h2 data-lang-block="en">What we save on your device</h2>
+
+  <p data-lang-block="es">
+    Sinonimia guarda algunas cosas en este navegador para que la página funcione bien.
+  </p>
+  <p data-lang-block="en">
+    Sinonimia saves a few things in this browser so the page works well.
+  </p>
+
+  <ul class="lista-datos">
+    <li>
+      <strong data-lang-block="es">El idioma que elegiste.</strong>
+      <strong data-lang-block="en">The language you chose.</strong>
+      <span data-lang-block="es">Guardamos si elegiste español o inglés, para no preguntarte otra vez.</span>
+      <span data-lang-block="en">We save whether you chose Spanish or English, so we don't ask again.</span>
+      <code>sinonimia-idioma</code>
+    </li>
+    <li>
+      <strong data-lang-block="es">El tamaño de letra.</strong>
+      <strong data-lang-block="en">The font size.</strong>
+      <span data-lang-block="es">Guardamos si la letra es más grande o más pequeña, para que siga así la próxima vez.</span>
+      <span data-lang-block="en">We save whether the text is bigger or smaller, so it stays that way next time.</span>
+      <code>sinonimia-tamano</code>
+    </li>
+    <li>
+      <strong data-lang-block="es">El alto contraste.</strong>
+      <strong data-lang-block="en">High contrast.</strong>
+      <span data-lang-block="es">Guardamos si pediste alto contraste, para mantenerlo.</span>
+      <span data-lang-block="en">We save whether you asked for high contrast, so it stays on.</span>
+      <code>sinonimia-contraste</code>
+    </li>
+    <li>
+      <strong data-lang-block="es">Las palabras que ya descubriste.</strong>
+      <strong data-lang-block="en">Words you've already discovered.</strong>
+      <span data-lang-block="es">Guardamos qué palabras miraste, para mostrar tu progreso.</span>
+      <span data-lang-block="en">We save which words you looked at, to show your progress.</span>
+      <code data-lang-block="es">sinonimia-aprendidas-es / sinonimia-aprendidas-en</code>
+      <code data-lang-block="en">sinonimia-aprendidas-es / sinonimia-aprendidas-en</code>
+    </li>
+    <li>
+      <strong data-lang-block="es">Tus frases escritas.</strong>
+      <strong data-lang-block="en">Your written sentences.</strong>
+      <span data-lang-block="es">Si escribiste tu propia frase con alguna palabra, la guardamos en este navegador.</span>
+      <span data-lang-block="en">If you wrote your own sentence with a word, we save it in this browser.</span>
+      <code>sinonimia-mis-frases-{es|en}</code>
+    </li>
+    <li>
+      <strong data-lang-block="es">Tus estrellas y puntos del juego.</strong>
+      <strong data-lang-block="en">Your game stars and points.</strong>
+      <span data-lang-block="es">Guardamos las estrellas y los aciertos del juego en este navegador.</span>
+      <span data-lang-block="en">We save game stars and correct answers in this browser.</span>
+      <code>sinonimia-frases-estrellas-{es|en} · sinonimia-juego-aciertos-{es|en}</code>
+    </li>
+  </ul>
+
+  <p class="nota" data-lang-block="es">
+    Todo esto se guarda <strong>solo en este dispositivo</strong>. No se envía a ningún sitio. No hay servidor, no hay cuenta, no hay analítica.
+  </p>
+  <p class="nota" data-lang-block="en">
+    All of this lives <strong>only on this device</strong>. Nothing is sent anywhere. No backend, no account, no analytics.
+  </p>
+</section>
+
+<section id="borrar">
+  <h2 data-lang-block="es">Borrar mis datos</h2>
+  <h2 data-lang-block="en">Clear my data</h2>
+
+  <p data-lang-block="es">
+    Si quieres, puedes borrar todo lo de arriba. La próxima vez que entres, el idioma volverá a detectarse y el progreso empezará desde cero.
+  </p>
+  <p data-lang-block="en">
+    If you want, you can erase all of the above. Next time you visit, the language will be detected again and your progress will start fresh.
+  </p>
+
+  <p data-lang-block="es">
+    Esta acción no se puede deshacer.
+  </p>
+  <p data-lang-block="en">
+    This action cannot be undone.
+  </p>
+
+  <div class="acciones">
+    <button type="button" id="borrar-iniciar" class="boton-peligro" data-lang-block="es">
+      Borrar mis datos
+    </button>
+    <button type="button" id="borrar-iniciar" class="boton-peligro" data-lang-block="en">
+      Clear my data
+    </button>
+  </div>
+
+  <div id="borrar-confirmar" hidden>
+    <p class="aviso" data-lang-block="es">
+      ¿Seguro? Se borrarán tus frases, tu progreso y tus estrellas.
+    </p>
+    <p class="aviso" data-lang-block="en">
+      Are you sure? Your sentences, progress and stars will be erased.
+    </p>
+
+    <div class="acciones">
+      <button type="button" id="borrar-cancelar" class="boton-secundario" data-lang-block="es">
+        No, cancelar
+      </button>
+      <button type="button" id="borrar-cancelar" class="boton-secundario" data-lang-block="en">
+        No, cancel
+      </button>
+
+      <button type="button" id="borrar-confirmar-btn" class="boton-peligro" data-lang-block="es">
+        Sí, borrar todo
+      </button>
+      <button type="button" id="borrar-confirmar-btn" class="boton-peligro" data-lang-block="en">
+        Yes, erase everything
+      </button>
+    </div>
+  </div>
+
+  <div id="borrar-resultado" hidden>
+    <p class="confirmado" data-lang-block="es">
+      Listo. Tus datos se han borrado.
+    </p>
+    <p class="confirmado" data-lang-block="en">
+      Done. Your data has been erased.
+    </p>
+
+    <p>
+      <a href="../index.html" class="boton-cta" data-lang-block="es">Volver al diccionario</a>
+      <a href="../index.html" class="boton-cta" data-lang-block="en">Back to the dictionary</a>
+    </p>
+  </div>
+</section>
+
+</main>
+</div>
+
+<footer class="pie">
+  <p data-lang-block="es">Sinonimia explica palabras difíciles. Frases cortas. Ejemplos de cada día.</p>
+  <p data-lang-block="en">Sinonimia explains hard words. Short sentences. Everyday examples.</p>
+</footer>
+
+<!--
+  Same language-switcher + footer pattern as about/privacidad.html:
+  about.js owns the locale toggle and the injected shared footer.
+  config.js below owns the data-reset button (two-step confirm, scoped
+  to keys with the sinonimia- prefix, never calls localStorage.clear()).
+  Both scripts run synchronously at the bottom of <body>; no async /
+  defer, same as about/.
+-->
+<script src="../about/about.js"></script>
+<script src="config.js"></script>
+</body>
+</html>
