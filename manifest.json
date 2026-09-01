@@ -1,0 +1,20 @@
+{
+  "name": "Sinonimia",
+  "short_name": "Sinonimia",
+  "description": "Diccionario en lectura fácil con sinónimos y pictogramas para explicar palabras técnicas y difíciles.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#FAF7F2",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./img/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

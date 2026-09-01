@@ -65,6 +65,14 @@ function buildHead(config) {
   lines.push('  <link rel="alternate" hreflang="en" href="' + escapeAttr(config.domain) + '/?lang=en">');
   lines.push('  <link rel="alternate" hreflang="x-default" href="' + escapeAttr(config.domain) + '/">');
 
+  // PWA manifest — optional. When config.manifest is null/empty, the
+  // <link> is omitted entirely (today's behaviour: no PWA, no manifest
+  // tag). When set, it points at the relative path so the site works
+  // both at the domain root and under any preview subpath.
+  if (config.manifest) {
+    lines.push('  <link rel="manifest" href="' + escapeAttr(config.manifest) + '">');
+  }
+
   // Open Graph — og:image is optional. If ogImageAsset is null/empty, the
   // og:image / twitter:image tags are omitted entirely (the meta block in
   // index.html no longer references a missing asset, which would 404 in

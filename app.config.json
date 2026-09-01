@@ -16,6 +16,6 @@
   "colorScheme": "light",
   "ogImageAsset": null,
   "iconAsset": "img/logo.svg",
-  "manifest": null,
+  "manifest": "./manifest.json",
   "hasItemList": false
 }

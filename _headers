@@ -56,37 +56,23 @@
   #   font-src 'self' data:                      — system fonts + data: URIs
   #   connect-src 'self'                          — no XHR/fetch to third
   #                                                parties
-  #   worker-src 'none'                           — no service workers
-  #                                              Sinonimia does not ship a
-  #                                              SW of its own. If you ever
-  #                                              add one (e.g. for offline),
-  #                                              remove this directive in
-  #                                              the same commit and drop
-  #                                              the kill-switch block at
-  #                                              the bottom of index.html.
-  #                                              The kill-switch exists
-  #                                              because third-party SWs
-  #                                              (browser extensions, stale
-  #                                              *.pages.dev previews) can
-  #                                              still register against
-  #                                              this origin and trigger
-  #                                              Chrome's "Response served
-  #                                              by service worker has
-  #                                              redirections" DevTools
-  #                                              warning, which has
-  #                                              nothing to do with our
-  #                                              code but confuses editors
-  #                                              and reviewers. See
-  #                                              doc/*/technical.md (or
-  #                                              tecnico.md).
-  #   manifest-src 'self'                         — in case we add a PWA
-  #                                                manifest later
+  #   worker-src 'self'                           — only our own sw.js may
+  #                                                register; 'self' is the
+  #                                                canonical lockdown for a
+  #                                                same-origin SW. Bump
+  #                                                var VERSION in sw.js on
+  #                                                every commit that changes
+  #                                                a cached file (see
+  #                                                CLAUDE.md §B.1 and the
+  #                                                comment at the top of
+  #                                                sw.js).
+  #   manifest-src 'self'                         — only our own manifest
   #   object-src 'none'                           — no <object>/<embed>/<applet>
   #   base-uri 'self'                             — block <base> hijacking
   #   form-action 'self'                          — block form submission to
   #                                                third parties
   #   frame-ancestors 'none'                      — supersedes X-Frame-Options
-  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://static.arasaac.org; font-src 'self' data:; connect-src 'self'; worker-src 'none'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://static.arasaac.org; font-src 'self' data:; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
 
 # ---------------------------------------------------------------------------
 # Cache policy per asset type.

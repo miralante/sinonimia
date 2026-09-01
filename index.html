@@ -16,6 +16,7 @@
   <link rel="alternate" hreflang="es" href="sinonimia.apptonomia.uk/?lang=es">
   <link rel="alternate" hreflang="en" href="sinonimia.apptonomia.uk/?lang=en">
   <link rel="alternate" hreflang="x-default" href="sinonimia.apptonomia.uk/">
+  <link rel="manifest" href="./manifest.json">
 
   <!-- ===== Theme / appearance ===== -->
   <meta name="theme-color" content="#FAF7F2">
@@ -169,7 +170,8 @@
     Pictogramas: <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (CC BY-NC-SA).
   </p>
   <p class="pie-enlaces">
-    <a href="about/privacidad.html" data-i18n-html="footerPrivacyHtml">Privacidad</a>
+    <a href="config/" data-i18n-html="footerConfigHtml">Configuración</a>
+    · <a href="about/privacidad.html" data-i18n-html="footerPrivacyHtml">Privacidad</a>
   </p>
 </footer>
 
@@ -177,27 +179,21 @@
 <script src="js/data.es.js?v=6f7cb909f2"></script>
 <script src="js/data.en.js?v=b6f0f98133"></script>
 <script src="js/app.js"></script>
-<!-- Service-worker kill-switch.
-     Sinonimia does not register a service worker of its own, and the CSP
-     in `_headers` sets `worker-src 'none'` to keep it that way. The
-     `Response served by service worker has redirections` warning Chrome
-     shows in DevTools can still appear when *something else* registered
-     a SW against this origin (a stale Cloudflare Pages preview, a
-     browser extension, or a `*.pages.dev` PWA cache left over from an
-     older deploy). When that happens the warning has nothing to do with
-     Sinonimia's own code, but it confuses editors and reviewers, so we
-     defensively unregister any registration found on this scope at load
-     time. The query is wrapped in try/catch because older browsers
-     without `navigator.serviceWorker` (or in private mode where it is
-     unavailable) must still work. Remove this block the day Sinonimia
-     ships a real offline SW — see doc/*/technical.md (or tecnico.md).
-     No deps: 4 lines, plain DOM API, runs in <1ms on first load. -->
+<!-- Service-worker registration. Lazy + try/catch so older browsers
+     (or private mode where navigator.serviceWorker is unavailable)
+     silently no-op rather than throwing. Same-origin './sw.js' keeps
+     the CSP `script-src 'self'` and `worker-src 'self'` directives
+     happy. The install handler in sw.js is what pre-caches the app
+     shell listed in ARCHIVOS. See CLAUDE.md §B.1 for the cache
+     contract and the bump-on-every-cached-file-change rule. -->
 <script>
 (function () {
   if (!('serviceWorker' in navigator)) return;
-  navigator.serviceWorker.getRegistrations().then(function (regs) {
-    regs.forEach(function (r) { r.unregister(); });
-  }).catch(function () { /* SW API unavailable: nothing to do */ });
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register('./sw.js').catch(function (err) {
+      console.warn('[sinonimia] service worker registration failed:', err);
+    });
+  });
 })();
 </script>
 </body>
