@@ -1,5 +1,20 @@
 ﻿﻿# CLAUDE.md — AI agent workflow
 
+## About this project
+
+Sinonimia is an **easy-read dictionary for difficult words** — from public administration, justice and health, plus a smaller `conocimiento` ("general knowledge") section for everyday abstract or scientific vocabulary. Every entry is written to be understood on the first read, taking nothing for granted. It is one of the seven siblings of the Apptonomia suite.
+
+## Other projects in the Apptonomia suite
+
+This project is one of seven siblings. The rest of the suite:
+
+- **Apptonomia** — the metaproject root and the public landing at https://apptonomia.uk/, linking out to each sibling app.
+- **Calculia** — math and logical reasoning with short, visual activities.
+- **Memofun** — study flashcards for autonomous review, one idea per card.
+- **Okeymoney** — personal finance and everyday financial autonomy, with a personal-finance simulator.
+- **Sinonimia** *(this project)* — easy-read dictionary of difficult words, with synonyms and ARASAAC pictograms.
+- **Teclatlon** — touch typing on the physical computer keyboard, finger by finger.
+
 This file provides guidance to Claude Code (claude.ai/code) when working
 with code in this repository. It is intentionally short and stable;
 anything that grows beyond a short rule belongs in the canonical sources
