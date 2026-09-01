@@ -90,15 +90,15 @@ Where it applies and where it doesn't:
 This rule is checked automatically: `node scripts/check.js` fails if any
 of those terms show up in `index.html`, `js/i18n.js`, or `about/*.html`.
 
-### Public-facing wording: "usuario/a tipo" euphemism
+### Public-facing wording: "persona tipo" euphemism
 
 When presenting the project to **the general public** (press, talks, public
 READMEs that anyone can read, the metaproject landing at `apptonomia.uk`,
 etc.) the term **"discapacidad intellectual" / "intellectual disability"**
 must not be used as a way to describe the audience of the app — even when
 the surrounding text would otherwise be public. The accepted euphemism for
-that audience in those surfaces is **"usuario/a tipo"** (plural
-"usuarios/as tipo"), used as a generic profile marker, not as a label for
+that audience in those surfaces is **"persona tipo"** (plural
+"personas tipo"), used as a generic profile marker, not as a label for
 any real person.
 
 Where the euphemism applies and where it doesn't:
@@ -107,7 +107,7 @@ Where the euphemism applies and where it doesn't:
   authentication: `README.md`, `README.es.md`, the portal at
   `apptonomia.uk`, public talks, social media copy, press notes, marketing
   material. In these surfaces, refer to the audience as "el/la usuario/a
-  tipo" or "usuarios/as tipo" of the app.
+  tipo" or "las personas tipo" of the app.
 - **Does NOT apply** to internal documentation (`CLAUDE.md`,
   `doc/en/SPEC.md`, `doc/es/SPEC.md`, `technical.md`, `roles.md`,
   `CONTRIBUTING.md`, `CONTRIBUTING.es.md`) — those files are read by
@@ -120,13 +120,13 @@ Where the euphemism applies and where it doesn't:
   permanent-disability benefit, etc.) names the concept as it is named in
   the real world — that is content, not labelling of an audience.
 - **Does NOT apply** to the UI of the site itself: the rule above
-  continues to forbid **any** mention, including "usuario/a tipo", in
+  continues to forbid **any** mention, including "persona tipo", in
   `index.html` / `js/i18n.js` / `about/privacidad.html`. The euphemism
   is for the outside world, not for what the visitor reads on the site.
 
 Rationale: presenting the project's real objective in maintainer docs is
 useful and necessary; presenting it in marketing or landing surfaces is
-neither necessary nor respectful of the audience — "usuario/a tipo" lets
+neither necessary nor respectful of the audience — "persona tipo" lets
 public material describe what the app is for (who the typical profile
 is) without publicly naming a clinical group.
 

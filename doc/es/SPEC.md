@@ -86,15 +86,15 @@ La regla no cubre:
 indicados arriba. No se debe ocultar una mención problemática trasladándola a
 otro texto de interfaz.
 
-### 2.4 Eufemismo público: "usuario/a tipo"
+### 2.4 Eufemismo público: "persona tipo"
 
 Cuando se presenta el proyecto de cara al **público general** (prensa,
 charlas, READMEs públicos que cualquiera pueda leer, el portal
 `apptonomia.uk`, etc.) el término "discapacidad intelectual" **no debe
 usarse** para describir la audiencia de la app, ni siquiera cuando el
 texto que lo rodea sería público. El eufemismo aceptado en esas
-superficies para referirse a la audiencia es **"usuario/a tipo"** (en
-plural "usuarios/as tipo"), entendido como marcador genérico de perfil,
+superficies para referirse a la audiencia es **"persona tipo"** (en
+plural "personas tipo"), entendido como marcador genérico de perfil,
 no como etiqueta para ninguna persona real.
 
 Dónde se aplica y dónde no:
@@ -103,7 +103,7 @@ Dónde se aplica y dónde no:
   pueda leer sin autenticarse: `README.es.md`, `README.md`, el portal en
   `apptonomia.uk`, charlas públicas, copy en redes, notas de prensa,
   material de marketing. En estas superficies se habla de la audiencia
-  como "el/la usuario/a tipo" o "los/las usuarios/as tipo" de la app.
+  como "la persona tipo" o "las personas tipo" de la app.
 - **No se aplica** a la documentación interna (`CLAUDE.md`,
   `doc/es/SPEC.md`, `doc/en/SPEC.md`, `tecnico.md`, `roles.md`,
   `CONTRIBUTING.es.md`, `CONTRIBUTING.md`) — esos archivos los lee quien
@@ -115,13 +115,13 @@ Dónde se aplica y dónde no:
   por incapacidad permanente, etc.) nombra el concepto como se nombra en
   el mundo real — eso es contenido, no etiquetado de audiencia.
 - **No se aplica** a la UI de la propia web: la regla de §2.3 sigue
-  prohibiendo **cualquier** mención, incluida "usuario/a tipo", en
+  prohibiendo **cualquier** mención, incluida "persona tipo", en
   `index.html` / `js/i18n.js` / `about/privacidad.html`. El eufemismo es
   para el exterior, no para lo que lee quien visita el sitio.
 
 Razón: presentar el objetivo real del proyecto en documentación interna
 es útil y necesario; presentarlo en superficies de marketing o landing
-no es necesario ni respetuoso con la audiencia — "usuario/a tipo"
+no es necesario ni respetuoso con la audiencia — "persona tipo"
 permite describir en público para qué sirve la app (qué perfil tiene
 quien la usa) sin nombrar públicamente un grupo clínico.
 

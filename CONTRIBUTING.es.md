@@ -8,7 +8,7 @@ de proyectos con un rol de apoyo dedicado, Sinonimia está pensada para
 consultarse sola, sin que nadie tenga que mediar):
 
 1. 👤 **Persona usuaria** — cualquiera que se encuentra una palabra
-   difícil (en origen, **usuarios/as tipo** que se benefician de un
+   difícil (en origen, **personas tipo** que se benefician de un
    contexto de terapia ocupacional; ver
    [`doc/es/SPEC.md`](doc/es/SPEC.md) §2.2 para el contexto interno).
    Usa la web directamente. **No lee ni escribe código**, y ese es
