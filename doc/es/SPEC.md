@@ -78,7 +78,7 @@ La regla no cubre:
 - `js/data.<idioma>.js`: una entrada puede definir legítimamente un trámite
   relacionado con discapacidad o edad.
 - La documentación interna, `CLAUDE.md`, los documentos de contribución,
-  los README y `doc/es/SPEC.md` / `doc/en/SPEC.md`.
+  los README y `doc/es/spec.md` / `doc/en/spec.md`.
 - `about/index.html`, que presenta el origen y el contexto interno del
   proyecto.
 
@@ -105,7 +105,7 @@ Dónde se aplica y dónde no:
   material de marketing. En estas superficies se habla de la audiencia
   como "la persona tipo" o "las personas tipo" de la app.
 - **No se aplica** a la documentación interna (`CLAUDE.md`,
-  `doc/es/SPEC.md`, `doc/en/SPEC.md`, `tecnico.md`, `roles.md`,
+  `doc/es/spec.md`, `doc/en/spec.md`, `tecnico.md`, `roles.md`,
   `CONTRIBUTING.es.md`, `CONTRIBUTING.md`) — esos archivos los lee quien
   mantiene o contribuye al proyecto, y "discapacidad intelectual" sigue
   siendo allí el término canónico, porque el proyecto necesita explicar
@@ -327,7 +327,7 @@ La calidad de una definición requiere criterio humano. El script de validación
 comprueba la forma de los datos, pero no puede decidir si una definición se
 entiende. El proceso recomendado es:
 
-1. **Diagnosticar** con `node scripts/estado-contenido.js`. Revisar el número
+1. **Diagnosticar** con `node scripts/content-status.js`. Revisar el número
    de palabras por categoría e idioma, las categorías con menos de 8 entradas
    y los desequilibrios entre idiomas. Usar `--detalle --categoria <tema>
    --lang <es|en>` para ver palabras, sinónimos, definiciones y ejemplos ya
@@ -339,15 +339,16 @@ entiende. El proceso recomendado es:
    del dominio comparado con un corpus de lengua general. La técnica de
    *keyness* ayuda a encontrar términos propios del dominio, pero el criterio
    humano decide si son difíciles y en qué categoría encajan. Para el análisis
-   de corpus se puede usar `node scripts/candidatos-corpus.js <archivo>
+   de corpus se puede usar `node scripts/corpus-candidates.js <archivo>
    <idioma>`.
 4. **Descartar duplicados** y escenarios repetidos comparando la salida de
    `--detalle`. No traducir automáticamente las palabras del otro idioma.
-   [`fuentes.md`](fuentes.md) contiene prompts y fuentes de referencia.
+   [`guia-crear-elementos.md`](guia-crear-elementos.md) §3 contiene las
+   fuentes de referencia y los criterios de aceptación.
 5. **Redactar la entrada completa** (`definicion`, `sinonimos`, `ejemplo` y
    `ejemploSinonimo`) en el idioma elegido y siguiendo la sección de lectura
    fácil.
-6. **Buscar el pictograma** con `node scripts/buscar-pictograma.js
+6. **Buscar el pictograma** con `node scripts/search-pictogram.js
    "<término>" <idioma>`. Primero se intenta OpenSymbols si existe
    `OPENSYMBOLS_SECRET`; si no, o si falla, se usa automáticamente ARASAAC.
    Revisar siempre los candidatos y comprobar antes si el concepto ya usa una
@@ -366,5 +367,5 @@ actualizar los créditos de `footerCreditsHtml` en el mismo cambio.
 El contenido vive en archivos planos, sin base de datos ni backend. Añadir una
 palabra normalmente consiste en copiar un bloque al archivo de su idioma y
 validarlo. Los detalles de licencias, búsqueda de pictogramas y fuentes
-editoriales están en [`fuentes.md`](fuentes.md); los roles del proyecto están
-en [`roles.md`](roles.md).
+editoriales están en [`guia-crear-elementos.md`](guia-crear-elementos.md)
+§3; los roles del proyecto están en [`roles.md`](roles.md).

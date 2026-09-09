@@ -79,7 +79,7 @@ This is the flow we use to integrate contributions in an orderly way.
 Examples:
 - `content/new-word-aforo`
 - `i18n/ca-catalan`
-- `fix/audio-not-playing-on-mobile`
+- `fix/pictogram-not-loading-on-mobile`
 
 ### Commits
 
@@ -101,22 +101,22 @@ Examples:
 
 ### How to start
 
-1. Read [`doc/en/SPEC.md`](doc/en/SPEC.md) — it isn't optional
+1. Read [`doc/en/spec.md`](doc/en/spec.md) — it isn't optional
    documentation. It contains the easy-read rules, the multi-language
    architecture, and the non-negotiable product constraints that your
    content must never break.
-2. Run `node scripts/estado-contenido.js` — it tells you which categories
+2. Run `node scripts/content-status.js` — it tells you which categories
    have few words. Once you've picked one, re-run scoped to it, e.g.
-   `node scripts/estado-contenido.js --detalle --categoria salud --lang es`,
+   `node scripts/content-status.js --detalle --categoria salud --lang es`,
    to see the words, synonyms, definiciones and ejemplos that already
    exist there, so you don't propose a concept or scenario that's already
    covered.
 3. For the full procedure, see **"Process for expanding content"** in
-   [`doc/en/SPEC.md`](doc/en/SPEC.md).
+   [`doc/en/spec.md`](doc/en/spec.md).
 
 ### How to add a word
 
-0. Run `node scripts/estado-contenido.js` first to pick a category that
+0. Run `node scripts/content-status.js` first to pick a category that
    needs more words.
 1. Pick its language's file: `js/data.es.js` or `js/data.en.js`. Each
    language is expanded separately: the diagnosis from step 0 counts
@@ -125,7 +125,7 @@ Examples:
    language you're editing — don't translate words from the other file.
 2. Copy an entire `{ ... }` block and fill in its fields. The comment at
    the top of each file explains every field.
-3. Follow [`doc/en/SPEC.md`](doc/en/SPEC.md)'s easy-read rules to the
+3. Follow [`doc/en/spec.md`](doc/en/spec.md)'s easy-read rules to the
    letter: short sentences, one idea per sentence, familiar words, no
    avoidable abstractions. Read it out loud when you're done: if it
    sounds like legal or clinical text, rewrite it.
@@ -147,7 +147,7 @@ Examples:
    image for that concept already exists in `img/` — it can be reused
    across words and languages. To search for candidates:
    ```
-   node scripts/buscar-pictograma.js "keyword" <lang>
+   node scripts/search-pictogram.js "keyword" <lang>
    ```
    Use the same language code as the word (`es`, `en`...). It searches
    **OpenSymbols** first (aggregates ARASAAC, Sclera, Mulberry, and other
@@ -172,7 +172,7 @@ Examples:
 7. `situacion` has to be one of the keys shared across every language:
    `tramites`, `salud`, `vida-diaria`, `finanzas`, `vivienda`, `trabajo`,
    `legal`, `tecnologia`, `seguridad`, or `educacion` (see "Multi-language
-   architecture" in [`doc/en/SPEC.md`](doc/en/SPEC.md) for what each one
+   architecture" in [`doc/en/spec.md`](doc/en/spec.md) for what each one
    covers). Don't invent a new key for two or three stray words, and if
    one is genuinely needed, also add its label in `js/i18n.js`
    (`topic_<key>`) for every language.
@@ -198,9 +198,9 @@ part of the published site workflow — they are worth knowing about:
   content change (a big batch, a refactor of `js/data.*.js`) to catch
   orphaned links before they reach `scripts/check.js` (which catches
   them too, but with a less specific error message).
-- **`scripts/limpiar-cache.js`** — clears `scripts/.cache/` (the
-  frequency-word lists downloaded by `candidatos-corpus.js`). Safe to
-  run; the cache rebuilds on the next `candidatos-corpus.js` call.
+- **`scripts/clean-downloads.js`** — clears `scripts/.cache/` (the
+  frequency-word lists downloaded by `corpus-candidates.js`). Safe to
+  run; the cache rebuilds on the next `corpus-candidates.js` call.
   Does **not** touch `scripts/ingest/`.
 
 For batch additions (10+ new words at once) the workflow above still
@@ -212,7 +212,7 @@ contributor doesn't need to.
 
 ### How to add a language
 
-The full step-by-step lives in [`doc/en/I18N.md`](doc/en/I18N.md). That
+The full step-by-step lives in [`doc/en/i18n.md`](doc/en/i18n.md). That
 document is the canonical reference — the short summary is "a new block
 in `I18N` (`js/i18n.js`), a new `js/data.<lang>.js` file, its `<script>`
 tag in `index.html`, and a button in the language selector", but the
@@ -248,7 +248,7 @@ validates that:
 
 ### How to start
 
-1. Read [`doc/en/SPEC.md`](doc/en/SPEC.md) §3–§4 — product constraints
+1. Read [`doc/en/spec.md`](doc/en/spec.md) §3–§4 — product constraints
    and principles.
 2. Read [`doc/en/technical.md`](doc/en/technical.md) entirely — you'll
    understand the architecture, the dictionary schema, and the recipes.
@@ -257,8 +257,8 @@ validates that:
 ### Quick recipes
 
 - **New word** → the "How to add a word" section above
-- **New language** → [`doc/en/I18N.md`](doc/en/I18N.md) §5
-- **Pictogram sourcing** → `scripts/buscar-pictograma.js`
+- **New language** → [`doc/en/i18n.md`](doc/en/i18n.md) §5
+- **Pictogram sourcing** → `scripts/search-pictogram.js`
 
 ### Checklist before opening a PR
 
@@ -276,7 +276,7 @@ validates that:
 (They're here so they don't get suggested and we all save time)
 
 - **Changes that break easy-read, accessibility or privacy** — they are
-  the non-negotiable product constraints ([SPEC §3](doc/en/SPEC.md))
+  the non-negotiable product constraints ([SPEC §3](doc/en/spec.md))
 - **New dependencies** (npm, CDNs) — vanilla HTML/CSS/JS only, see
   [`doc/en/technical.md`](doc/en/technical.md)
 - **Features that add pressure** to the end user (visible timers,

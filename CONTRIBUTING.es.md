@@ -10,7 +10,7 @@ consultarse sola, sin que nadie tenga que mediar):
 1. 👤 **Persona usuaria** — cualquiera que se encuentra una palabra
    difícil (en origen, **personas tipo** que se benefician de un
    contexto de terapia ocupacional; ver
-   [`doc/es/SPEC.md`](doc/es/SPEC.md) §2.2 para el contexto interno).
+   [`doc/es/spec.md`](doc/es/spec.md) §2.2 para el contexto interno).
    Usa la web directamente. **No lee ni escribe código**, y ese es
    justamente el objetivo: que la herramienta sea para ella.
 2. 💻 **Persona colaboradora** — quien propone una palabra nueva, un
@@ -81,7 +81,7 @@ ordenada.
 Ejemplos:
 - `content/nueva-palabra-aforo`
 - `i18n/ca-catalan`
-- `fix/audio-no-suena-en-movil`
+- `fix/pictograma-no-carga-en-movil`
 
 ### Commits
 
@@ -105,23 +105,23 @@ Ejemplos:
 
 ### Cómo empezar
 
-1. Lee [`doc/es/SPEC.md`](doc/es/SPEC.md) — no es documentación
+1. Lee [`doc/es/spec.md`](doc/es/spec.md) — no es documentación
    opcional. Contiene las reglas de lectura fácil, la arquitectura
    multi-idioma y las restricciones innegociables del producto que tu
    contenido nunca debe romper.
-2. Ejecuta `node scripts/estado-contenido.js` — te dice qué categorías
+2. Ejecuta `node scripts/content-status.js` — te dice qué categorías
    tienen pocas palabras. Una vez elegida una, vuelve a ejecutarlo
    acotado a ella, p. ej.
-   `node scripts/estado-contenido.js --detalle --categoria salud --lang es`,
+   `node scripts/content-status.js --detalle --categoria salud --lang es`,
    para ver las palabras, sinónimos, definiciones y ejemplos que ya
    existen ahí, y así evitar proponer un concepto o escenario que ya
    está cubierto.
 3. Para el procedimiento completo, ver **"Proceso para ampliar el
-   contenido"** en [`doc/es/SPEC.md`](doc/es/SPEC.md).
+   contenido"** en [`doc/es/spec.md`](doc/es/spec.md).
 
 ### Cómo añadir una palabra
 
-0. Ejecuta primero `node scripts/estado-contenido.js` para elegir una
+0. Ejecuta primero `node scripts/content-status.js` para elegir una
    categoría que necesite más palabras.
 1. Elige el archivo de su idioma: `js/data.es.js` o `js/data.en.js`.
    Cada idioma se amplía por separado: el diagnóstico del paso 0
@@ -131,7 +131,7 @@ Ejemplos:
    del otro archivo.
 2. Copia un bloque `{ ... }` entero y rellena sus campos. El comentario
    al principio de cada archivo explica cada campo.
-3. Sigue las reglas de lectura fácil de [`doc/es/SPEC.md`](doc/es/SPEC.md)
+3. Sigue las reglas de lectura fácil de [`doc/es/spec.md`](doc/es/spec.md)
    al pie de la letra: frases cortas, una idea por frase, palabras
    conocidas, nada de abstracciones evitables. Léela en voz alta al
    terminar: si suena a texto legal o clínico, reescríbela.
@@ -154,7 +154,7 @@ Ejemplos:
    existe una imagen para ese concepto en `img/` — se puede reutilizar
    entre palabras e idiomas. Para buscar candidatos:
    ```
-   node scripts/buscar-pictograma.js "palabra clave" <idioma>
+   node scripts/search-pictogram.js "palabra clave" <idioma>
    ```
    Usa el mismo código de idioma que la palabra (`es`, `en`...). Busca
    primero en **OpenSymbols** (agrega ARASAAC, Sclera, Mulberry y
@@ -182,7 +182,7 @@ Ejemplos:
    los idiomas: `tramites`, `salud`, `vida-diaria`, `finanzas`,
    `vivienda`, `trabajo`, `legal`, `tecnologia`, `seguridad` o
    `educacion` (ver
-   "Arquitectura multi-idioma" en [`doc/es/SPEC.md`](doc/es/SPEC.md)
+   "Arquitectura multi-idioma" en [`doc/es/spec.md`](doc/es/spec.md)
    para qué cubre cada una). No inventes una clave nueva para dos o
    tres palabras sueltas, y si de verdad hace falta una, añade también
    su etiqueta en `js/i18n.js` (`topic_<clave>`) para cada idioma.
@@ -212,10 +212,10 @@ conocerlos:
   pillar enlaces huérfanos antes de que lleguen a `scripts/check.js`
   (que también los pilla, pero con un mensaje de error menos
   específico).
-- **`scripts/limpiar-cache.js`** — vacía `scripts/.cache/` (las listas
-  de frecuencias que descarga `candidatos-corpus.js`). Seguro de
+- **`scripts/clean-downloads.js`** — vacía `scripts/.cache/` (las listas
+  de frecuencias que descarga `corpus-candidates.js`). Seguro de
   ejecutar; la caché se reconstruye en la siguiente llamada a
-  `candidatos-corpus.js`. **No** toca `scripts/ingest/`.
+  `corpus-candidates.js`. **No** toca `scripts/ingest/`.
 
 Para adiciones por lotes (10 o más palabras de golpe) el flujo de
 arriba sigue valiendo, pero conviene conocer el pipeline de ingest en
@@ -226,7 +226,7 @@ un contribuidor puntual no lo necesita.
 
 ### Cómo añadir un idioma
 
-El paso a paso completo vive en [`doc/es/I18N.md`](doc/es/I18N.md).
+El paso a paso completo vive en [`doc/es/i18n.md`](doc/es/i18n.md).
 Ese documento es la referencia canónica — el resumen corto es "un
 bloque nuevo en `I18N` (`js/i18n.js`), un archivo `js/data.<idioma>.js`
 nuevo, su `<script>` en `index.html` y un botón en el selector de
@@ -263,7 +263,7 @@ colaboradora de contenido valida que:
 
 ### Cómo empezar
 
-1. Lee [`doc/es/SPEC.md`](doc/es/SPEC.md) §3–§4 — restricciones y
+1. Lee [`doc/es/spec.md`](doc/es/spec.md) §3–§4 — restricciones y
    principios de producto.
 2. Lee [`doc/es/tecnico.md`](doc/es/tecnico.md) entero — entenderás la
    arquitectura, el esquema del diccionario y las recetas.
@@ -273,8 +273,8 @@ colaboradora de contenido valida que:
 ### Recetas rápidas
 
 - **Palabra nueva** → la sección "Cómo añadir una palabra" de arriba
-- **Idioma nuevo** → [`doc/es/I18N.md`](doc/es/I18N.md) §5
-- **Búsqueda de pictogramas** → `scripts/buscar-pictograma.js`
+- **Idioma nuevo** → [`doc/es/i18n.md`](doc/es/i18n.md) §5
+- **Búsqueda de pictogramas** → `scripts/search-pictogram.js`
 
 ### Checklist antes de abrir PR
 
@@ -292,7 +292,7 @@ colaboradora de contenido valida que:
 
 - **Cambios que rompan lectura fácil, accesibilidad o privacidad** —
   son las restricciones innegociables del producto
-  ([SPEC §3](doc/es/SPEC.md))
+  ([SPEC §3](doc/es/spec.md))
 - **Dependencias nuevas** (npm, CDNs) — solo HTML/CSS/JS directos, ver
   [`doc/es/tecnico.md`](doc/es/tecnico.md)
 - **Funcionalidades que añadan presión** al usuario final (cronómetros

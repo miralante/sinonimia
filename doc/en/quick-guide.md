@@ -12,7 +12,7 @@ the app**, ordered from easiest to hardest.
 > canonical cross-suite guide:
 > [`routime/doc/en/quick-guide.md`](https://github.com/thenkdframe/routime/blob/main/doc/en/quick-guide.md).
 > The **opening flow, PWA install and troubleshooting are identical**
-> across the Apptonomia-sibling projects. This document only lists
+> across the apps of the Miralante suite. This document only lists
 > what's specific to Sinonimia (mostly: there is no fixed grid of
 > activities — the dictionary **is** the activity).
 
@@ -77,35 +77,28 @@ From the home screen, you can also start one of two short games
 Sessions are **5–10 questions**, not an exam. There is no failure
 state.
 
-## 6. Audio
-
-When the entry has audio (e.g. a recorded pronunciation or the
-example sentence read aloud), a 🔊 button appears. Sinonimia
-respects `prefers-reduced-motion` and the audio preference in
-settings.
-
-## 7. Response messages
+## 6. Response messages
 
 Sinonimia has **no failure state** in the games. A wrong match or
 out-of-order sentence produces a friendly "almost there, try again"
 message. There are **no stars**, **no score**, **no negative
 feedback** — see [`SPEC.md`](SPEC.md) §3.
 
-## 8. Progress and known words
+## 7. Progress and known words
 
 The reader can mark a word as **known** (👍) from the entry page.
 Known words are remembered in the browser's `localStorage` and can
 be reviewed or reset from settings. See [`team.md`](team.md) for the
 privacy note for families.
 
-## 9. Changing language
+## 8. Changing language
 
 Open the language menu from the header (globe icon 🌐). Available:
 **Spanish (default)** and **English**. Each language has its own
 dictionary, games and progress. See
 [`languages.md`](languages.md) for how to add a new locale.
 
-## 10. Personal settings
+## 9. Personal settings
 
 Open `/settings` (the exact path depends on the deployment; Sinonimia
 uses a hash router — see [`technical.md`](technical.md)). From there:
@@ -113,20 +106,20 @@ uses a hash router — see [`technical.md`](technical.md)). From there:
 - View **My known words** (per language).
 - Reset the **known words** and **"Mis frases"** for a language
   (with a confirmation prompt, since it's destructive).
-- Manage the audio and reduced-motion preferences.
+- Manage the reduced-motion preference.
 
-## 11. Install the app on mobile
+## 10. Install the app on mobile
 
 The full steps (Android / iOS / desktop) are in the canonical guide.
 Short version: open Sinonimia in the browser, choose "Add to home
 screen" / "Install", confirm.
 
-## 12. Troubleshooting
+## 11. Troubleshooting
 
 See **§11 Troubleshooting** in the canonical guide — those items
 apply identically to Sinonimia.
 
-## 13. More help
+## 12. More help
 
 - Product: [`SPEC.md`](SPEC.md).
 - Architecture: [`technical.md`](technical.md).
@@ -134,7 +127,7 @@ apply identically to Sinonimia.
 - Languages: [`languages.md`](languages.md).
 - For families and support staff: [`team.md`](team.md).
 
-## 14. Quick summary
+## 13. Quick summary
 
 1. Open Sinonimia (4 methods; easiest is **A**).
 2. Search a word or filter by topic.

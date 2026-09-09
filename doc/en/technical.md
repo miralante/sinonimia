@@ -118,7 +118,7 @@ not here — this doc only covers what affects the code.
   scripts/*.js` invoked locally/CI, not server endpoints.
 - **No env vars, no secrets at runtime.** The app makes no
   server-side calls; `OPENSYMBOLS_SECRET` (used by
-  `scripts/buscar-pictograma.js` to talk to OpenSymbols) is only
+  `scripts/search-pictogram.js` to talk to OpenSymbols) is only
   read from the developer's shell environment at content-edit time.
 - **Cache is content-addressed by path, not hash.** HTML is cached
   per the default (so users see updates on reload); the dictionary,
@@ -346,7 +346,7 @@ ARASAAC's license (CC BY-NC-SA) requires attribution and forbids commercial
 use without ARASAAC's permission; the attribution lives in the page footer
 (`js/i18n.js`'s `footerCreditsHtml` key) and must stay intact.
 
-**Finding a pictogram**: run `node scripts/buscar-pictograma.js "<term>" es`.
+**Finding a pictogram**: run `node scripts/search-pictogram.js "<term>" es`.
 It tries **[OpenSymbols](https://www.opensymbols.org)** first — an
 aggregator that queries ARASAAC, Sclera, Mulberry, and other open-licensed
 banks behind one API, searchable directly in Spanish (`locale=es`) — using
@@ -355,7 +355,7 @@ https://www.opensymbols.org/api) read from the `OPENSYMBOLS_SECRET`
 environment variable. Never commit that secret.
 
 ```
-OPENSYMBOLS_SECRET=xxxx node scripts/buscar-pictograma.js "corregir un error" es
+OPENSYMBOLS_SECRET=xxxx node scripts/search-pictogram.js "corregir un error" es
 ```
 
 If you already have a short-lived access token (the JSON the secret
@@ -365,7 +365,7 @@ step and uses the token directly. Useful when the token was generated
 ahead of time by another tool:
 
 ```
-OPENSYMBOLS_TOKEN=temp::... node scripts/buscar-pictograma.js "corregir un error" es
+OPENSYMBOLS_TOKEN=temp::... node scripts/search-pictogram.js "corregir un error" es
 ```
 
 **The script automatically falls back to ARASAAC's own public API** (no
@@ -376,7 +376,7 @@ limit, service down), or OpenSymbols returns zero results for the term.
 That fallback is why the script also works with no setup at all:
 
 ```
-node scripts/buscar-pictograma.js "corregir un error" es
+node scripts/search-pictogram.js "corregir un error" es
 ```
 
 Either path only lists candidates (bank, license, author, image URL) for a
@@ -398,7 +398,7 @@ mostly abstract legal/financial/administrative terms (*tributario*,
 *vencimiento*, *hipotecar*) — have no non-schematic pictogram in ARASAAC,
 full stop. Confirm this before falling back, don't assume it: try the
 word itself, its `sinonimos`, and a couple of synonyms of the definition
-against `buscar-pictograma.js` (OpenSymbols + ARASAAC). Verified by hand
+against `search-pictogram.js` (OpenSymbols + ARASAAC). Verified by hand
 across a real batch: of 18 terms with zero ARASAAC hits, 16 also
 returned zero OpenSymbols results across every bank it aggregates — for
 this class of word, there is often genuinely nothing to find, in any
@@ -460,7 +460,7 @@ disability/therapy-related terms (the user-facing product's non-negotiable
 rule from `SPEC.md` — `js/data.*.js` is deliberately exempt, since a
 disability-related bureaucratic term could be a legitimate future entry).
 
-## Growing the content (`scripts/estado-contenido.js`)
+## Growing the content (`scripts/content-status.js`)
 
 A second zero-dependency script, separate from validation: it reports word
 counts per `situacion` category and per language, flags categories below

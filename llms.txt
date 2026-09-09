@@ -1,0 +1,31 @@
+# Sinonimia — Diccionario en lectura fácil
+
+> Diccionario en lenguaje sencillo: palabras técnicas y difíciles de trámites, justicia y salud, explicadas con ejemplos de la vida diaria, sinónimos y pictogramas.
+
+## What it is
+
+- Un diccionario de palabras difíciles explicado en lenguaje sencillo, con un sinónimo y un ejemplo de la vida diaria por entrada.
+- Pictogramas de ARASAAC para reforzar visualmente el significado, citados en el pie del sitio.
+- Miles de entradas organizadas en administración y trámites, justicia y salud, y un bloque de conocimiento general.
+- Gratuito, sin registro y con dos juegos opcionales para repasar (palabra y frase).
+
+## What it is not
+
+- No es un diccionario enciclopédico: las definiciones son cortas y se centran en entender a la primera.
+- No usa IA generativa en tiempo de ejecución: ninguna página llama a una API externa.
+- No envía datos a un servidor: el idioma y las preferencias viven en el navegador.
+- No reemplaza el acompañamiento profesional: es una ayuda para entender palabras, no un sustituto.
+
+## Resources
+
+- [Portal Apptonomia](https://apptonomia.uk/) — Página de inicio de la suite.
+- [Calculia](https://calculia.apptonomia.uk/) — Cálculo y razonamiento lógico.
+- [Routime](https://routime.apptonomia.uk/) — Actividades cotidianas.
+- [Okeymoney](https://okeymoney.apptonomia.uk/) — Dinero del día a día.
+- [Sinonimia](https://sinonimia.apptonomia.uk/) — Esta aplicación.
+- [Memofun](https://memofun.apptonomia.uk/) — Tarjetas de estudio.
+- [Teclatlon](https://teclatlon.apptonomia.uk/) — Mecanografía con el teclado del ordenador.
+
+## License
+
+MIT (código). Definiciones y ejemplos son contenido propio bajo CC BY 4.0. Los pictogramas son de ARASAAC (Gobierno de Aragón / Sergio Palao) bajo CC BY-NC-SA.

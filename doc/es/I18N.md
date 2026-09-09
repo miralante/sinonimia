@@ -267,7 +267,7 @@ tocar" es donde se ve la decisión de arquitectura:
   fichero de pictograma, ejemplos que contienen la palabra). Es
   esperable un CI rojo en el primer commit de un idioma nuevo;
   itera hasta que esté en verde.
-- **`scripts/estado-contenido.js`** — cuenta palabras por
+- **`scripts/content-status.js`** — cuenta palabras por
   `situacion` por idioma. Un idioma nuevo parte de 0; el script
   sugerirá las nueve categorías por orden de necesidad.
 - **El CSP en `_headers`** — no tiene orígenes específicos por
@@ -389,7 +389,7 @@ No lo hagas si:
 
 Para quien acaba de decir "vamos a añadir catalán":
 
-1. `node scripts/estado-contenido.js` — mira los conteos actuales
+1. `node scripts/content-status.js` — mira los conteos actuales
    por idioma y categoría.
 2. Crea `js/data.ca.js` con las primeras ~20 entradas en `ca`,
    siguiendo las reglas de lectura fácil de [`SPEC.md`](SPEC.md) →
@@ -412,14 +412,14 @@ Para quien acaba de decir "vamos a añadir catalán":
    `BOOTSTRAP_I18N` con `htmlLang`, `metaTitle` y
    `metaDescription` reflejando las mismas claves en `I18N.ca`, y
    añade `"ca"` al array `AVAILABLE`.
-9. Busca pictogramas: `node scripts/buscar-pictograma.js "<término>" ca`
+9. Busca pictogramas: `node scripts/search-pictogram.js "<término>" ca`
    para cada entrada nueva (cae solo a ARASAAC si OpenSymbols no
    tiene resultados en catalán).
 10. Añade campos `traduccion` en **ambas direcciones** entre las
     entradas nuevas y sus equivalentes en `es`/`en`.
 11. Ejecuta `node scripts/check.js` — arregla cualquier cosa en
     rojo.
-12. Ejecuta `node scripts/estado-contenido.js --detalle` —
+12. Ejecuta `node scripts/content-status.js --detalle` —
     confirma que los conteos por categoría ya no están por debajo
     de 8 para `ca` en las categorías que rellenaste.
 13. Actualiza la sección "Probarlo" de `README.md` /

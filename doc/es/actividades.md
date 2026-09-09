@@ -3,9 +3,10 @@
 > Sinonimia es un **diccionario** — la "actividad" principal es la
 > lectura de una entrada, complementada con dos juegos ligeros
 > encima del diccionario. No hay una cuadrícula fija de actividades
-> en el mismo sentido que los proyectos hermanos (Calculia, Routime,
-> Okeymoney). Este documento recoge lo que Sinonimia expone realmente,
-> con la misma forma que `actividades.md` en los otros repos.
+> en el mismo sentido que en las otras apps de la suite (Calculia,
+> Routime, Okeymoney). Este documento recoge lo que Sinonimia expone
+> realmente, con la misma forma que `actividades.md` en los otros
+> repos.
 
 ---
 
@@ -41,8 +42,8 @@ exploración:
 | **Educación y trabajo** | Escuela, formación, empleo, contratos. |
 
 Las categorías exactas y el conteo de palabras por tema se pueden
-consultar con `node scripts/estado-contenido.js` (ver
-[`fuentes.md`](fuentes.md) §1).
+consultar con `node scripts/content-status.js` (ver
+[`guia-crear-elementos.md`](guia-crear-elementos.md) §3).
 
 ---
 
@@ -90,14 +91,16 @@ Esta es la tarea del rol de apoyo. La versión corta:
    idioma de destino** (ver [`SPEC.md`](SPEC.md) "Proceso para
    ampliar el contenido").
 2. Comprueba que la palabra no esté ya cubierta con una definición
-   parecida (`node scripts/estado-contenido.js --detalle`).
+   parecida (`node scripts/content-status.js --detalle`).
 3. Escribe la entrada siguiendo las reglas de lectura fácil de
    [`SPEC.md`](SPEC.md).
 4. Busca e inspecciona un pictograma
-   (`node scripts/buscar-pictograma.js`).
+   (`node scripts/search-pictogram.js`).
 5. Valida antes de abrir el PR: `node scripts/check.js`.
 
-El flujo editorial completo vive en [`fuentes.md`](fuentes.md).
+El flujo editorial completo, con las fuentes de candidatos y los
+criterios de aceptación, vive en
+[`guia-crear-elementos.md`](guia-crear-elementos.md).
 
 ---
 
@@ -106,4 +109,4 @@ El flujo editorial completo vive en [`fuentes.md`](fuentes.md).
 - Producto: [`SPEC.md`](SPEC.md).
 - Arquitectura: [`tecnico.md`](tecnico.md).
 - Idiomas: [`idiomas.md`](idiomas.md).
-- Fuentes y flujo editorial: [`fuentes.md`](fuentes.md).
+- Fuentes y flujo editorial: [`guia-crear-elementos.md`](guia-crear-elementos.md).

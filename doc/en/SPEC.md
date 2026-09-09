@@ -109,7 +109,7 @@ Where the euphemism applies and where it doesn't:
   material. In these surfaces, refer to the audience as "el/la usuario/a
   tipo" or "las personas tipo" of the app.
 - **Does NOT apply** to internal documentation (`CLAUDE.md`,
-  `doc/en/SPEC.md`, `doc/es/SPEC.md`, `technical.md`, `roles.md`,
+  `doc/en/spec.md`, `doc/es/spec.md`, `technical.md`, `roles.md`,
   `CONTRIBUTING.md`, `CONTRIBUTING.es.md`) — those files are read by
   maintainers and contributors, and **"discapacidad intellectual" /
   "intellectual disability" remains the canonical term there**, because
@@ -415,10 +415,10 @@ templated without it showing (that's why `scripts/check.js` checks the
 shape of the data, but never a definition's quality: only a person, or an
 AI, reading it out loud, can judge that). What can be automated is the
 bookkeeping that needs to happen before writing anything, and that's what
-`scripts/estado-contenido.js` does. The full process, repeatable every time
+`scripts/content-status.js` does. The full process, repeatable every time
 the dictionary needs to grow:
 
-1. **Diagnosis**: `node scripts/estado-contenido.js` — counts words by
+1. **Diagnosis**: `node scripts/content-status.js` — counts words by
    category and language, flags categories with fewer than 8 words (the
    threshold the "Multi-language architecture" section above already
    required, so the topic filter doesn't end up with empty boxes), and
@@ -428,7 +428,7 @@ the dictionary needs to grow:
    already covered under another word, or write a new entry that recycles
    an illustrative scenario already used elsewhere in the same category.
    Once you've picked a category and language (step 2), re-run scoped to
-   them — `node scripts/estado-contenido.js --detalle --categoria salud
+   them — `node scripts/content-status.js --detalle --categoria salud
    --lang es` — instead of the unscoped report: this is also the way to
    get this information **without ever opening `js/data.<lang>.js`
    directly**, which at 1MB+/20,000+ lines per language is far too large
@@ -460,7 +460,7 @@ the dictionary needs to grow:
      `tramites/salud/vida-diaria/finanzas/vivienda/trabajo/legal/tecnologia/
      seguridad/educacion` (those are AIVD categories, not domain
      categories) — fitting each term still needs human judgment.
-     `node scripts/candidatos-corpus.js <corpus-file.txt> <lang>` implements
+     `node scripts/corpus-candidates.js <corpus-file.txt> <lang>` implements
      the keyness half: you supply the domain corpus (a `.txt` with real
      excerpts of that category's kind of document), and it compares
      frequencies against
@@ -479,16 +479,16 @@ the dictionary needs to grow:
    same point "How to add a new language" already makes when bootstrapping
    a new language applies equally when growing an existing one).
 
-   [`doc/en/sourcing.md`](sourcing.md) has a ready-to-use prompt template
-   for each of these two methods, plus a table of plausible glossary and
-   corpus sources for every category, so this step doesn't start from a
-   blank page.
+   [`doc/en/creating-elements-guide.md`](creating-elements-guide.md) §3
+   has the full acceptance criteria for both methods, plus a table of
+   plausible glossary and corpus sources for every category, so this
+   step doesn't start from a blank page.
 4. **Write each entry** following this document's easy-read rules to the
    letter, **in the chosen language** — the whole entry (`definicion`,
    `sinonimos`, `ejemplo`, `ejemploSinonimo`) goes in `js/data.<lang>.js`,
    never mixed with another language.
 5. **Find the pictogram** with
-   `node scripts/buscar-pictograma.js "<term>" <lang>`, using the same
+   `node scripts/search-pictogram.js "<term>" <lang>`, using the same
    language code as the word (`es`, `en`...), not always `es` (uses
    OpenSymbols if `OPENSYMBOLS_SECRET` is set, otherwise falls back to
    ARASAAC alone). Before searching, check whether the concept already has
@@ -515,7 +515,7 @@ and 5 in `en` — `aforo`, `franja horaria`, `justificante`, `incidencia`,
 `lost property`. Two non-obvious things came out of that pass that weren't
 documented before:
 
-- **`scripts/buscar-pictograma.js` searches by literal word match, not by
+- **`scripts/search-pictogram.js` searches by literal word match, not by
   meaning.** Exact terms like "aforo", "capacidad", "justificante", or
   "incidencia" returned no results in ARASAAC, but a more common synonym
   did ("lleno", "completo", "recibo", "problema"). If the exact term finds

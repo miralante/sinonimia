@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 /*
  * Content-gap report for Sinonimia. Zero dependencies, run locally:
- *   node scripts/estado-contenido.js
+ *   node scripts/content-status.js
  *
  * This is the first step of the content-growth process documented in
- * doc/en/SPEC.md ("Process for expanding content"). It does NOT write or
+ * doc/en/spec.md ("Process for expanding content"). It does NOT write or
  * suggest definitions — writing a lectura-fácil definition needs editorial
- * judgment (see doc/en/SPEC.md's writing rules) and can't be templated safely.
+ * judgment (see doc/en/spec.md's writing rules) and can't be templated safely.
  * What it CAN automate is the bookkeeping a human (or an AI agent) needs
  * before adding words, without ever having to open the raw
  * js/data.<lang>.js files (over a megabyte each, tens of thousands of
@@ -24,9 +24,9 @@
  *   4. Whether the two languages have drifted far apart in size.
  *
  * Usage:
- *   node scripts/estado-contenido.js                     # summary + gaps
- *   node scripts/estado-contenido.js --detalle            # + word/synonym/definicion/ejemplo per category
- *   node scripts/estado-contenido.js --detalle --categoria salud --lang es
+ *   node scripts/content-status.js                     # summary + gaps
+ *   node scripts/content-status.js --detalle            # + word/synonym/definicion/ejemplo per category
+ *   node scripts/content-status.js --detalle --categoria salud --lang es
  *                                                          # scoped to one category+language — the
  *                                                          # right-sized digest before writing a batch,
  *                                                          # see "Process for expanding content" step 1
@@ -36,7 +36,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.join(__dirname, "..");
-const MIN_WORDS_PER_TOPIC = 8; // matches doc/en/SPEC.md's "un puñado de palabras reales"
+const MIN_WORDS_PER_TOPIC = 8; // matches doc/en/spec.md's "un puñado de palabras reales"
 const detailed = process.argv.includes("--detalle") || process.argv.includes("--detail");
 
 function argValue(flag) {
@@ -151,11 +151,11 @@ if (languages.length > 1) {
 
 console.log(
   "Next step: pick a topic flagged above, research candidate words for it\n" +
-  "(see \"Process for expanding content\" in doc/en/SPEC.md). Re-run scoped\n" +
-  "to it — e.g. node scripts/estado-contenido.js --detalle --categoria " +
+  "(see \"Process for expanding content\" in doc/en/spec.md). Re-run scoped\n" +
+  "to it — e.g. node scripts/content-status.js --detalle --categoria " +
   (categoriaFilter || "<topic>") + " --lang " + (langFilter || "<es|en>") + " —\n" +
   "to see existing headwords, synonyms, definiciones and ejemplos so you\n" +
   "don't duplicate a concept or recycle the same illustrative scenario.\n" +
   "Write each entry following the lectura-fácil rules, find its pictogram\n" +
-  "with scripts/buscar-pictograma.js, then run scripts/check.js."
+  "with scripts/search-pictogram.js, then run scripts/check.js."
 );

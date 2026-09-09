@@ -4,7 +4,7 @@
 
 This document is the **detailed didactic index of Sinonimia**. It
 expands on [`activities.md`](activities.md) and
-[`creating-activities-guide.md`](creating-activities-guide.md) by
+[`creating-elements-guide.md`](creating-elements-guide.md) by
 listing every dictionary entry, theme and pedagogical concept
 shipped with the app, and pointing back to the canonical doc for
 each one.
@@ -21,7 +21,7 @@ first.
 
 > **Source of truth for product rules**: [`SPEC.md`](SPEC.md).
 > **Source of truth for pedagogy and easy-read writing rules**:
-> [`creating-activities-guide.md`](creating-activities-guide.md).
+> [`creating-elements-guide.md`](creating-elements-guide.md).
 > **Source of truth for dictionary schema, gamification mechanics
 > and the list of identifiers deliberately kept in Spanish**:
 > [`technical.md`](technical.md).
@@ -61,7 +61,7 @@ This section is the **placeholder for the per-category inventory**.
 When you add a category or rebalance coverage, document it here
 (name, scope, typical user question, related headwords) and link
 back to the section in
-[`creating-activities-guide.md`](creating-activities-guide.md) that
+[`creating-elements-guide.md`](creating-elements-guide.md) that
 governs the addition.
 
 Sections to flesh out as the project grows:
@@ -80,7 +80,7 @@ Sections to flesh out as the project grows:
 
 This section is the **placeholder for the headword inventory per
 category**. To see the actual headword list for a given category,
-use `node scripts/estado-contenido.js --detalle --categoria <topic>
+use `node scripts/content-status.js --detalle --categoria <topic>
 --lang <es|en>` (see [`quick-guide.md`](quick-guide.md)) — that
 script lists every existing headword with its synonyms, definition
 and example, scoped to one category + one language. Reserve direct

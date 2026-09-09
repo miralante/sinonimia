@@ -4,7 +4,7 @@
 
 Este documento es el **índice didáctico detallado de Sinonimia**.
 Amplía [`actividades.md`](actividades.md) y
-[`guia-crear-actividades.md`](guia-crear-actividades.md) listando
+[`guia-crear-elementos.md`](guia-crear-elementos.md) listando
 cada entrada del diccionario, tema y concepto pedagógico que
 incluye la app, y remitiendo al documento canónico
 correspondiente.
@@ -24,7 +24,7 @@ documento a leer primero.
 > [`SPEC.md`](SPEC.md).
 > **Fuente de verdad de la pedagogía y de las reglas de
 > escritura en lectura fácil**:
-> [`guia-crear-actividades.md`](guia-crear-actividades.md).
+> [`guia-crear-elementos.md`](guia-crear-elementos.md).
 > **Fuente de verdad del esquema del diccionario, mecánica de
 > gamificación y lista de identificadores mantenidos
 > deliberadamente en español**: [`tecnico.md`](tecnico.md).
@@ -67,7 +67,7 @@ Cuando añadas una categoría o rebalancees la cobertura,
 documéntala aquí (nombre, alcance, pregunta típica de la
 persona usuaria, términos relacionados) y enlaza la sección
 correspondiente de
-[`guia-crear-actividades.md`](guia-crear-actividades.md) que
+[`guia-crear-elementos.md`](guia-crear-elementos.md) que
 gobierna la adición.
 
 Secciones a desarrollar según crezca el proyecto:
@@ -86,7 +86,7 @@ Secciones a desarrollar según crezca el proyecto:
 
 Esta sección es el **hueco para el inventario de entradas por
 categoría**. Para ver la lista real de entradas de una categoría,
-usa `node scripts/estado-contenido.js --detalle --categoria <tema>
+usa `node scripts/content-status.js --detalle --categoria <tema>
 --lang <es|en>` (ver [`guia-rapida.md`](guia-rapida.md)) — ese
 script lista cada término con sus sinónimos, definición y ejemplo,
 acotado a una categoría + idioma. Reserva la lectura directa de

@@ -13,10 +13,10 @@ a la más elaborada.
 > vive en la guía canónica transversal:
 > [`routime/doc/es/guia-rapida.md`](https://github.com/thenkdframe/routime/blob/main/doc/es/guia-rapida.md).
 > El **flujo de apertura, instalación PWA y resolución de problemas
-> son idénticos** en todos los proyectos hermanos de Apptonomia.
-> Este documento solo recoge lo específico de Sinonimia (sobre
-> todo: no hay una cuadrícula fija de actividades — el diccionario
-> **es** la actividad).
+> son idénticos** en todas las apps de la suite Miralante. Este
+> documento solo recoge lo específico de Sinonimia (sobre todo:
+> no hay una cuadrícula fija de actividades — el diccionario **es**
+> la actividad).
 
 ---
 
@@ -81,14 +81,7 @@ juegos cortos (ver [`actividades.md`](actividades.md) §2):
 Las sesiones son **5–10 preguntas**, no un examen. No hay estado de
 fallo.
 
-## 6. Audio
-
-Cuando la entrada tiene audio (p. ej. una pronunciación grabada o
-la frase de ejemplo leída en voz alta), aparece el botón 🔊.
-Sinonimia respeta `prefers-reduced-motion` y la preferencia de
-audio de los ajustes.
-
-## 7. Mensajes de respuesta
+## 6. Mensajes de respuesta
 
 Sinonimia **no tiene estado de fallo** en los juegos. Un emparejamiento
 erróneo o una frase fuera de orden producen un mensaje amable
@@ -96,7 +89,7 @@ del tipo "casi, inténtalo otra vez". **No hay estrellas**, **no
 hay puntuación**, **no hay feedback negativo** — ver
 [`SPEC.md`](SPEC.md) §3.
 
-## 8. Progreso y palabras aprendidas
+## 7. Progreso y palabras aprendidas
 
 Quien lee puede marcar una palabra como **aprendida** (👍) desde la
 página de la entrada. Las palabras aprendidas se recuerdan en el
@@ -104,14 +97,14 @@ página de la entrada. Las palabras aprendidas se recuerdan en el
 desde los ajustes. Consulta [`equipo.md`](equipo.md) para la nota
 de privacidad para familias.
 
-## 9. Cambiar idioma
+## 8. Cambiar idioma
 
 Abre el menú de idioma desde la cabecera (icono del globo 🌐).
 Disponibles: **Español (predeterminado)** e **Inglés**. Cada idioma
 tiene su propio diccionario, sus juegos y su progreso. Consulta
 [`idiomas.md`](idiomas.md) para ver cómo añadir un nuevo idioma.
 
-## 10. Ajustes personales
+## 9. Ajustes personales
 
 Abre `/settings` (la ruta exacta depende del despliegue; Sinonimia
 usa un hash router — ver [`tecnico.md`](tecnico.md)). Desde allí
@@ -120,20 +113,20 @@ puedes:
 - Ver **Mis palabras aprendidas** (por idioma).
 - Restablecer las **palabras aprendidas** y las **"Mis frases"** de
   un idioma (con confirmación, porque es destructivo).
-- Gestionar las preferencias de audio y de movimiento reducido.
+- Gestionar la preferencia de movimiento reducido.
 
-## 11. Instalar la app en el móvil
+## 10. Instalar la app en el móvil
 
 Los pasos completos (Android / iOS / escritorio) están en la guía
 canónica. Versión corta: abre Sinonimia en el navegador, elige
 "Añadir a pantalla de inicio" / "Instalar", confirma.
 
-## 12. Resolución de problemas
+## 11. Resolución de problemas
 
 Consulta **§11 Resolución de problemas** de la guía canónica —
 esos apartados aplican idénticamente a Sinonimia.
 
-## 13. Más ayuda
+## 12. Más ayuda
 
 - Producto: [`SPEC.md`](SPEC.md).
 - Arquitectura: [`tecnico.md`](tecnico.md).
@@ -141,7 +134,7 @@ esos apartados aplican idénticamente a Sinonimia.
 - Idiomas: [`idiomas.md`](idiomas.md).
 - Para familias y personal de apoyo: [`equipo.md`](equipo.md).
 
-## 14. Resumen rápido
+## 13. Resumen rápido
 
 1. Abre Sinonimia (4 métodos; el más fácil es **A**).
 2. Busca una palabra o filtra por tema.

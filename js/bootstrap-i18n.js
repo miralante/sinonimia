@@ -15,7 +15,7 @@
  * allows it: inline <script> blocks would be blocked, but <script src="…">
  * pointing at a same-origin file is fine.
  *
- * Adding a new language: see doc/en/I18N.md (or doc/es/I18N.md
+ * Adding a new language: see doc/en/i18n.md (or doc/es/i18n.md
  * in Spanish). In short, add an entry to BOOTSTRAP_I18N with htmlLang,
  * metaTitle, and metaDescription mirroring the same keys in
  * I18N.<code>, and add the code to the AVAILABLE array.

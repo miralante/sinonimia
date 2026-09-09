@@ -249,7 +249,7 @@ where the architecture decision shows up:
   (every entry has a unique id, a valid `situacion`, a pictogram file,
   examples that match the headword). A red CI is expected on the
   first commit of a new language; iterate until it's green.
-- **`scripts/estado-contenido.js`** — counts words per `situacion` per
+- **`scripts/content-status.js`** — counts words per `situacion` per
   language. A new language starts at 0; the script will suggest the
   nine categories in order of need.
 - **The CSP in `_headers`** — no language-specific sources.
@@ -362,7 +362,7 @@ do it if:
 
 For the person who just said "let's add Catalan":
 
-1. `node scripts/estado-contenido.js` — see the current per-language
+1. `node scripts/content-status.js` — see the current per-language
    per-category counts.
 2. Create `js/data.ca.js` with the first ~20 entries in `ca`,
    following the easy-read rules of [`SPEC.md`](SPEC.md) →
@@ -383,13 +383,13 @@ For the person who just said "let's add Catalan":
    with `htmlLang`, `metaTitle`, and `metaDescription` mirroring
    the same keys in `I18N.ca`, and add `"ca"` to the `AVAILABLE`
    array.
-9. Find pictograms: `node scripts/buscar-pictograma.js "<term>" ca`
+9. Find pictograms: `node scripts/search-pictogram.js "<term>" ca`
    for each new entry (it auto-falls-back to ARASAAC if
    OpenSymbols has no Catalan hits).
 10. Add `traduccion` fields in **both directions** between the new
     entries and their `es`/`en` equivalents.
 11. Run `node scripts/check.js` — fix anything red.
-12. Run `node scripts/estado-contenido.js --detalle` — confirm the
+12. Run `node scripts/content-status.js --detalle` — confirm the
     category counts are no longer below 8 for `ca` in the
     categories you filled.
 13. Update `README.md` / `README.es.md` "Try it" section with a

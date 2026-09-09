@@ -1,4 +1,4 @@
-﻿﻿# CLAUDE.md — AI agent workflow
+﻿# CLAUDE.md — AI agent workflow
 
 ## About this project
 
@@ -6,14 +6,16 @@ Sinonimia is an **easy-read dictionary for difficult words** — from public adm
 
 ## Other projects in the Apptonomia suite
 
-This project is one of seven siblings. The rest of the suite:
+This project is one of seven siblings. The rest of the suite (paths
+relative to this folder, all under `Miralante/`):
 
-- **Apptonomia** — the metaproject root and the public landing at https://apptonomia.uk/, linking out to each sibling app.
-- **Calculia** — math and logical reasoning with short, visual activities.
-- **Memofun** — study flashcards for autonomous review, one idea per card.
-- **Okeymoney** — personal finance and everyday financial autonomy, with a personal-finance simulator.
+- **Apptonomia** — the metaproject root and the public landing at https://apptonomia.uk/, linking out to each sibling app. Folder: [`../apptonomia/`](../apptonomia/) · CLAUDE.md: [`../apptonomia/CLAUDE.md`](../apptonomia/CLAUDE.md)
+- **Calculia** — math and logical reasoning with short, visual activities. Folder: [`../calculia/`](../calculia/) · CLAUDE.md: [`../calculia/CLAUDE.md`](../calculia/CLAUDE.md)
+- **Memofun** — study flashcards for autonomous review, one idea per card. Folder: [`../memofun/`](../memofun/) · CLAUDE.md: [`../memofun/CLAUDE.md`](../memofun/CLAUDE.md)
+- **Okeymoney** — personal finance and everyday financial autonomy, with a personal-finance simulator. Folder: [`../okeymoney/`](../okeymoney/) · CLAUDE.md: [`../okeymoney/CLAUDE.md`](../okeymoney/CLAUDE.md)
 - **Sinonimia** *(this project)* — easy-read dictionary of difficult words, with synonyms and ARASAAC pictograms.
-- **Teclatlon** — touch typing on the physical computer keyboard, finger by finger.
+- **Teclatlon** — touch typing on the physical computer keyboard, finger by finger. Folder: [`../teclatlon/`](../teclatlon/) · CLAUDE.md: [`../teclatlon/CLAUDE.md`](../teclatlon/CLAUDE.md)
+- **Routime** — everyday activities to train mind and daily-life skills between sessions. Folder: [`../routime/`](../routime/) · CLAUDE.md: [`../routime/CLAUDE.md`](../routime/CLAUDE.md)
 
 This file provides guidance to Claude Code (claude.ai/code) when working
 with code in this repository. It is intentionally short and stable;
@@ -25,9 +27,9 @@ The document is split in two blocks:
 - **Block A — Workflow** (§A.1 … §A.4): rules that govern *how* an
   agent edits this repo (canonical sources, mandatory workflow,
   external/destructive operations, scope of the file).
-- **Block B — Suite-wide policies** (§B.1 … §B.6): inherited rules
+- **Block B — Suite-wide policies** (§B.1 … §B.5): inherited rules
   from the Miralante metaproject that also apply here (service worker
-  cache, language policy, UNE 153101 / WCAG, public-facing wording,
+  cache, language policy, accessibility pointer to `spec.md`,
   graphify).
 
 If two sections disagree, the more specific one wins: per-project
@@ -48,17 +50,16 @@ location.
 
 | Topic | Canonical source |
 |---|---|
-| Product, audience, accessibility rules, non-negotiable principles (Sinonimia: easy-read writing rules, gamification, no-PWA rules) | [`doc/en/SPEC.md`](doc/en/SPEC.md) ↔ [`doc/es/SPEC.md`](doc/es/SPEC.md) |
+| Product, audience, accessibility rules, non-negotiable principles (Sinonimia: easy-read writing rules, gamification, no-PWA rules) | [`doc/en/spec.md`](doc/en/spec.md) ↔ [`doc/es/spec.md`](doc/es/spec.md) |
 | Project roles (user, support, build) and who reads what first | [`doc/en/roles.md`](doc/en/roles.md) ↔ [`doc/es/roles.md`](doc/es/roles.md) |
 | Architecture, structure, activity anatomy, APIs, contracts, tests, deploy (Sinonimia: dictionary schema, gamification mechanics, identifiers kept in Spanish) | [`doc/en/technical.md`](doc/en/technical.md) ↔ [`doc/es/tecnico.md`](doc/es/tecnico.md) |
-| Internationalization (App.i18n core, formatting, recipe to add a third language; Sinonimia: language-agnostic `js/app.js`) | [`doc/en/I18N.md`](doc/en/I18N.md) ↔ [`doc/es/I18N.md`](doc/es/I18N.md) |
+| Internationalization (App.i18n core, formatting, recipe to add a third language; Sinonimia: language-agnostic `js/app.js`) | [`doc/en/i18n.md`](doc/en/i18n.md) ↔ [`doc/es/i18n.md`](doc/es/i18n.md) |
 | Activity catalog | [`doc/en/activities.md`](doc/en/activities.md) ↔ [`doc/es/actividades.md`](doc/es/actividades.md) |
-| Activity creation guide | [`doc/en/creating-activities-guide.md`](doc/en/creating-activities-guide.md) ↔ [`doc/es/guia-crear-actividades.md`](doc/es/guia-crear-actividades.md) |
 | Coverage and therapeutic guidance | [`doc/en/team.md`](doc/en/team.md) ↔ [`doc/es/equipo.md`](doc/es/equipo.md) |
 | Roadmap and closed product decisions | Git only: every PR leaves a message; reconstruct with `git log`. |
 | Human contribution flow | [`CONTRIBUTING.md`](CONTRIBUTING.md) ↔ [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) |
 | AI agent operational flow | `CLAUDE.md` (this file) |
-| Contents / TOC | [`doc/en/CONTENTS.md`](doc/en/CONTENTS.md) ↔ [`doc/es/CONTENIDOS.md`](doc/es/CONTENIDOS.md) |
+| Contents / TOC | [`doc/en/contents.md`](doc/en/contents.md) ↔ [`doc/es/contenidos.md`](doc/es/contenidos.md) |
 | Cloudflare deploy / cache contract (network-first vs cache-first SW) | [`CLOUDFLARE.md`](CLOUDFLARE.md) |
 | Doc index | [`doc/en/index.md`](doc/en/index.md) ↔ [`doc/es/indice.md`](doc/es/indice.md) |
 | Quick guide | [`doc/en/quick-guide.md`](doc/en/quick-guide.md) ↔ [`doc/es/guia-rapida.md`](doc/es/guia-rapida.md) |
@@ -69,7 +70,7 @@ Sinonimia is a static, dependency-free plain-language dictionary. It
 explains hard/technical words (bureaucratic, legal, health) using
 short "lectura fácil" (easy-read) definitions, a synonym repeated
 inside the same example sentence, and an ARASAAC pictogram. See
-[`doc/en/SPEC.md`](doc/en/SPEC.md) (or [`doc/es/SPEC.md`](doc/es/SPEC.md))
+[`doc/en/spec.md`](doc/en/spec.md) (or [`doc/es/spec.md`](doc/es/spec.md))
 for the full product definition — target audience, the easy-read
 writing rules that every definition/example must follow, the
 multi-language architecture, and the rules that govern the
@@ -118,13 +119,13 @@ plain HTML/CSS/JS served as static files.
 - **Planning new dictionary entries — don't read `js/data.<lang>.js`
   directly**: it's 1MB+/20,000+ lines per language, far too large to
   open wholesale just to check what a category already covers. Use
-  `node scripts/estado-contenido.js --detalle --categoria <topic>
+  `node scripts/content-status.js --detalle --categoria <topic>
   --lang <es|en>` instead — scoped to the category+language you're
   about to work on, it lists every existing headword with its
   synonyms, definición and ejemplo, enough to avoid both duplicating
   a concept and recycling the same illustrative scenario across a
   category (see "Process for expanding content" in
-  `doc/en/SPEC.md`). Reserve a direct read/grep of `js/data.<lang>.js`
+  `doc/en/spec.md`). Reserve a direct read/grep of `js/data.<lang>.js`
   for surgical fixes to one already-located entry, never for planning
   what to add next.
 - **Adding a pictogram for a new word**: search ARASAAC's public API
@@ -153,8 +154,8 @@ games). It's intentionally language-agnostic — it only ever reads
 `activeDictionary` (`= DICCIONARIOS[currentLanguage]`) and calls
 `t(key)`, never a hardcoded string or a hardcoded language's data
 file. `js/i18n.js` is UI copy only, `js/data.es.js`/`js/data.en.js`
-are the actual dictionary content, and `doc/en/SPEC.md` (or
-`doc/es/SPEC.md`) holds the non-negotiable content/UX rules
+are the actual dictionary content, and `doc/en/spec.md` (or
+`doc/es/spec.md`) holds the non-negotiable content/UX rules
 (easy-read writing rules, "never gate content behind a game", etc.).
 
 ### A.2 Mandatory workflow
@@ -165,7 +166,7 @@ overwrite in-flight work — re-read the file and reconcile if it
 changed since your last read. Update the canonical source for the
 topic, not a copy in `CLAUDE.md`. Keep `i18n` parity per the I18N
 docs. For activity changes, follow `technical.md` §9 **and read
-[`creating-activities-guide.md`](doc/en/creating-activities-guide.md)
+[`creating-elements-guide.md`](doc/en/creating-elements-guide.md)
 first** (didactic, gamification, persuasion and neuromarketing
 techniques for our audience); if a guide rule conflicts with `technical.md`,
 `technical.md` wins. Update the catalogs and guides it names. Keep
@@ -223,6 +224,21 @@ area, not the agent's. The agent should not add, edit, or move
 anything under `scripts/ingest/` unless the user explicitly asks for
 batch work.
 
+#### A.2.5 Token discipline during batch ingestion
+
+When the user does ask for batch work: only three steps in the
+ingestion pipeline may spend tokens — deciding which candidate words
+to accept, writing their `definicion`/`sinonimos`/`ejemplo`/
+`ejemploSinonimo`/`alt`, and visually verifying an ARASAAC pictogram
+before trusting it. Every other step (scraping, filtering, deduping,
+slugifying an `id`, searching/downloading pictograms, appending to
+`js/data.<lang>.js`, injecting `traduccion` links, bumping `?v=` /
+`sw.js VERSION`) **must** run through a script — reuse one under
+`scripts/ingest/pipeline/`, or extend one with a minimal flag, rather
+than reasoning through the equivalent work by hand. Full rule and
+rationale: [`scripts/ingest/README.md`](scripts/ingest/README.md)'s
+"Token discipline" section.
+
 ### A.3 External and destructive operations
 
 - A deploy (even to a temporary Cloudflare Pages preview) is a
@@ -247,40 +263,15 @@ brief, operational, and stable.
 
 ### B.1 Service worker cache
 
-This project ships a service worker. **Behavior**: `sw.js` is
-**cache-first** — every file in `ARCHIVOS` is served from the
-cache; the network is only consulted when the request is not in
-the cache. Same model as Calculia, Memofun, Okeymoney and Routime
-(Teclatlon is the network-first exception; see its own `CLAUDE.md`).
-
-**The cache is silent and persistent**. The developer sees a
-change on a hard refresh, but users with the PWA installed keep
-seeing the old version until either the SW itself is refreshed or
-the cache is purged. The only reliable way to refresh the
-deployed app after a new deploy is to bump `VERSION` in `sw.js`,
-because the SW's `install` handler compares its `VERSION` against
-the active cache name and only re-fetches + activates when they
-differ.
-
-**Rule — bump `VERSION` on every commit that touches any cached
-file** (i.e. anything in `ARCHIVOS`, or a new file that should be
-cached):
-
-- Edit `sw.js` and increment the `VERSION` literal (e.g.
-  `sinonimia-v1` → `sinonimia-v2`).
-- Add any new file to `ARCHIVOS` at the same time.
-- The `?v=` content-hash on `<script src="js/data.*.js">` (enforced
-  by `scripts/check.js`) handles dictionary revisions independently
-  — the SW caches the file with whatever `?v=` is on the tag at
-  install time, and the next deploy ships the new tag, so a new
-  dictionary revision picks up automatically without bumping
-  `VERSION` as long as no other cached file changed.
-
-The cost of bumping is one integer; the cost of not bumping is
-"the deployed app keeps serving the old version after a deploy".
-Bump liberally rather than conservatively. Full contract:
-[`CLOUDFLARE.md`](CLOUDFLARE.md) § "Cache contract". This rule is
-also the source of §A.2.3 step 2.
+`sw.js` is **cache-first**: every file in `FILES` is served from
+the cache; the network is only consulted when the request is not in
+the cache. The cache is silent and persistent — users with the PWA
+installed keep seeing the old version after a deploy until `VERSION`
+in `sw.js` is bumped. **Rule**: bump `VERSION` on every commit that
+touches any file in `FILES`, and add any new file to `FILES` at the
+same time. Run `node scripts/check-version-bump.js` to verify the
+bump is consistent. Full contract: [`CLOUDFLARE.md`](CLOUDFLARE.md)
+§ "Cache contract".
 
 ### B.2 Language policy
 
@@ -291,8 +282,8 @@ also the source of §A.2.3 step 2.
   reads a hardcoded language's data file — it goes through
   `DICCIONARIOS[currentLanguage]` and `t(key)`, so adding a third
   language requires **no changes to `js/app.js`** (see
-  [`doc/en/I18N.md`](doc/en/I18N.md) or
-  [`doc/es/I18N.md`](doc/es/I18N.md) for the step-by-step).
+  [`doc/en/i18n.md`](doc/en/i18n.md) or
+  [`doc/es/i18n.md`](doc/es/i18n.md) for the step-by-step).
 - **Technical code**: **always English** — variables, functions,
   identifiers, comments, and commit messages. UI text lives in
   `js/i18n.js` (one `I18N.<lang>` block per language); dictionary
@@ -317,79 +308,16 @@ also the source of §A.2.3 step 2.
   `I18N` block) but does not enforce translation quality or
   dictionary-parity — proofread both.
 
-### B.3 UNE 153101 reference
+### B.3 Accessibility & public-facing wording (pointer)
 
-All seven sibling projects follow **UNE 153101:2018 EX** (Spanish
-easy-read standard) and Inclusion Europe's European easy-read
-guidelines as the normative basis for the cognitive accessibility
-principles that guide content and UI: short sentences, one idea per
-sentence, everyday vocabulary, no clinical or technical jargon in
-what the end user reads. This is the standard each `SPEC.md` cites
-when it states the "easy read always" rule (see `doc/en/SPEC.md`
-§3.3 or its mirror in `doc/es/SPEC.md` §3.3). Adding a new language
-or a new piece of UI copy means following UNE 153101 — not
-paraphrasing it.
+The canonical source for UNE 153101 / easy-read, WCAG AA + AAA
+baseline, and the public-facing "persona tipo" euphemism is
+[`doc/en/spec.md`](doc/en/spec.md) §3.3 / §3.4 / §3.6 / §5 (mirror
+[`doc/es/spec.md`](doc/es/spec.md)). Per `§A.1`, those are the
+authoritative documents for product, audience and accessibility
+rules — `CLAUDE.md` does not duplicate them here.
 
-### B.4 WCAG AAA baseline
-
-This project conforms to WCAG 2.1 at **AA minimum** and adopts the
-**AAA criteria that apply to the suite's audience** whenever feasible.
-Full conformance at AAA is not feasible for a whole web application
-(the W3C itself states AAA is meant for specific contexts); the list
-below enumerates the AAA criteria that ARE applicable and that this
-project honours.
-
-Adopted AAA criteria:
-
-- **1.4.6 Contrast (Enhanced)** — text ≥ 7:1 (large text ≥ 4.5:1).
-  WCAG AA is the floor; AAA is the design target. Okeymoney is the
-  suite's verified reference for this criterion (`#F2F4F8` on
-  `#161A21` = 14.6:1, `#B7BDC9` on `#161A21` = 8.4:1).
-- **3.1.5 Reading Level** — already covered by UNE 153101 (§B.3)
-  and applied to the dictionary's `definicion` and `ejemplo` fields.
-- **1.4.1 Use of Color** — color is never the only channel. Feedback
-  states (success / hint / error) also use shape, icon, text or
-  sound.
-
-The literal phrase **"WCAG AA minimum, AAA whenever possible"** lives
-in `doc/en/SPEC.md` §3.6 / §5 (mirror in `doc/es/SPEC.md`). This
-section mirrors the metaproject's `apptonomia/CLAUDE.md`.
-
-### B.5 Public-facing wording: "persona tipo" euphemism
-
-Applies to the whole Miralante suite and the `apptonomia.uk`
-landing. The suite's real objective lives in internal docs; public
-surfaces use **"persona tipo"** instead.
-
-#### B.5.1 Where each term is allowed
-
-- **"Discapacidad intelectual"** / **"intellectual disability"** —
-  internal docs only (`CLAUDE.md`, `doc/<lang>/SPEC.md`,
-  `technical.md` / `tecnico.md`, `roles.md`, `CONTRIBUTING.md`,
-  `CONTRIBUTING.es.md`, `scripts/`). Forbidden in any public-facing
-  surface, README, talk, press note or marketing material.
-- **"Persona tipo"** — public surfaces only (`README.md`,
-  `README.es.md`, talks, social copy, press notes, marketing,
-  contributor-facing docs that double as public description, e.g.
-  `CONTRIBUTING.md`).
-- It does **not** apply to the UI of the app itself: each project's
-  zero-mention rule (`doc/en/SPEC.md` §3.4 / `doc/es/SPEC.md` §3.4)
-  forbids **any** mention — including "persona tipo" — in
-  `index.html`, `app.js`, `strings.<locale>.js`, `js/i18n.js`,
-  `about/privacidad.html`, etc.
-- It does **not** apply to content that names a clinical concept
-  by its real-world name (e.g. a dictionary entry about a disability
-  certificate): that is content, not audience labelling.
-
-#### B.5.2 Rationale
-
-Maintainer docs describe the project's real purpose so contributors
-can serve it. Public surfaces describe the audience generically via
-"persona tipo" without publicly naming a clinical group. This rule
-is mirrored in `apptonomia/CLAUDE.md` and every sibling's
-`CLAUDE.md` / `SPEC.md`.
-
-### B.6 graphify
+### B.4 graphify
 
 This project has a knowledge graph at `graphify-out/` with god nodes,
 community structure, and cross-file relationships.
@@ -406,3 +334,28 @@ community structure, and cross-file relationships.
   context.
 - After modifying code, run `graphify update .` to keep the graph
   current (AST-only, no API cost).
+
+### B.5 GEO, AEO and LLMO (suite-wide reference)
+
+This project follows the suite-wide GEO/AEO/LLMO layers defined in
+[`../apptonomia/doc/en/guia-de-cumplimiento.md` §7](../apptonomia/doc/en/guia-de-cumplimiento.md#7-geo-aeo-and-llmo-search--answer-engine--and-llm-visibility)
+↔ [`../apptonomia/doc/es/guia-de-cumplimiento.md` §7](../apptonomia/doc/es/guia-de-cumplimiento.md#7-geo-aeo-y-llmo-presencia-en-buscadores-answer-engines-y-llms)
+and summarised in [`../apptonomia/CLAUDE.md` §B.6](../apptonomia/CLAUDE.md#b6-geo-aeo-and-llmo-search--answer-engine--and-llm-visibility):
+
+- **GEO** — six `<meta name="DC.*">` rendered by `scripts/build-head.js`
+  from `app.config.json > dc*` (geography-agnostic, Dublin Core).
+- **AEO** — `FAQPage` JSON-LD injected into the existing `@graph` by
+  `scripts/build-head.js`, with 3–5 `{question, answer}` pairs sourced
+  from `app.config.json > faq[]`. No visible FAQ block on the landing.
+- **LLMO** — `/llms.txt` at the project root, linked from `<head>`
+  via `<link rel="alternate" type="text/markdown">`, generated by
+  `scripts/build-llms-txt.js` from `app.config.json > llms*`. Plus a
+  known-AI-crawler allowlist (GPTBot, ClaudeBot, CCBot, Google-Extended,
+  Applebot-Extended, PerplexityBot, anthropic-ai, cohere-ai, Claude-Web)
+  in `robots.txt`.
+
+`scripts/check.js` enforces the four gates (Dublin Core count,
+`FAQPage` node, `llms.txt` existence, AI-crawler UA list). The
+canonical source for the policy is the metaproject's guide §7.
+
+

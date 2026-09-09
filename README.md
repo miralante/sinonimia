@@ -1,4 +1,4 @@
-# Sinonimia 📖
+﻿# Sinonimia 📖
 
 > 🌐 **Other languages:** [Español](README.es.md)
 >
@@ -42,7 +42,7 @@ needed.
   topic filter, and browsing by letter.
 - **Spanish and English**, with an architecture designed to add more
   languages (see "How to add a new language" in
-  [`doc/en/SPEC.md`](doc/en/SPEC.md)).
+  [`doc/en/spec.md`](doc/en/spec.md)).
 - **Light gamification** with no backend or accounts: word of the
   day, a "surprise me" button, progress saved in the browser, a
   field to write your own sentence with each word, and two practice
@@ -68,7 +68,7 @@ Sinonimia only has two roles — there is no dedicated "support"
 position: the dictionary is designed to be used on one's own, without
 needing anyone to mediate. See [`doc/en/roles.md`](doc/en/roles.md)
 for the full role description and how Sinonimia fits the trio-vs-
-pair-vs-sole patterns of the sibling suite.
+pair-vs-sole patterns across the apps of the suite.
 
 ---
 
@@ -84,10 +84,10 @@ at the repository root:
 
 | Topic | Document |
 |---|---|
-| Product, audience, easy-read rules | [`doc/en/SPEC.md`](doc/en/SPEC.md) · [`doc/es/SPEC.md`](doc/es/SPEC.md) |
+| Product, audience, easy-read rules | [`doc/en/spec.md`](doc/en/spec.md) · [`doc/es/spec.md`](doc/es/spec.md) |
 | Architecture and technical reference | [`doc/en/technical.md`](doc/en/technical.md) · [`doc/es/tecnico.md`](doc/es/tecnico.md) |
-| Internationalization (add a language) | [`doc/en/I18N.md`](doc/en/I18N.md) · [`doc/es/I18N.md`](doc/es/I18N.md) |
-| Roles (trio / pair / sole across siblings) | [`doc/en/roles.md`](doc/en/roles.md) · [`doc/es/roles.md`](doc/es/roles.md) |
+| Internationalization (add a language) | [`doc/en/i18n.md`](doc/en/i18n.md) · [`doc/es/i18n.md`](doc/es/i18n.md) |
+| Roles (trio / pair / sole across the suite) | [`doc/en/roles.md`](doc/en/roles.md) · [`doc/es/roles.md`](doc/es/roles.md) |
 | Deploy runbook (Cloudflare Workers) | [`CLOUDFLARE.md`](CLOUDFLARE.md) |
 | AI agent operational workflow | `CLAUDE.md` |
 
@@ -97,7 +97,7 @@ at the repository root:
 |---|---|
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Anyone who wants to contribute (family, therapists, devs) |
 | `CLAUDE.md` | AI agents: operational workflow, coordination and approvals |
-| [`CLOUDFLARE.md`](CLOUDFLARE.md) | Canonical Cloudflare Workers deploy guide for the sibling group (Sinonimia + Apptonomia + Calculia, Memofun, Okeymoney, Teclatlon) |
+| [`CLOUDFLARE.md`](CLOUDFLARE.md) | Canonical Cloudflare Workers deploy guide for the suite (Sinonimia + Apptonomia + Calculia, Memofun, Okeymoney, Teclatlon) |
 | Project history | Lives in `git log`; no external roadmap is maintained |
 
 ---
@@ -107,8 +107,8 @@ at the repository root:
 To expand the dictionary:
 
 ```bash
-node scripts/estado-contenido.js
-node scripts/estado-contenido.js --detalle --categoria <topic> --lang <es|en>
+node scripts/content-status.js
+node scripts/content-status.js --detalle --categoria <topic> --lang <es|en>
 ```
 
 Before adding words, the first command reports which categories have
@@ -118,7 +118,7 @@ definition, and example — to avoid repeating a concept or an
 illustrative scenario, without ever opening the multi-megabyte
 `js/data.<lang>.js` directly. It's the first step of the process
 described in "Process for expanding content" in
-[`doc/en/SPEC.md`](doc/en/SPEC.md).
+[`doc/en/spec.md`](doc/en/spec.md).
 
 ---
 
@@ -200,14 +200,14 @@ worker from DevTools (`Application → Service workers → Unregister`)
 and clear site data.
 
 The `scripts/.cache/` directory (frequency-word lists downloaded by
-`candidatos-corpus.js`) can be cleared with:
+`corpus-candidates.js`) can be cleared with:
 
 ```bash
-node scripts/limpiar-cache.js            # dry-run: shows what would be removed
-node scripts/limpiar-cache.js --apply    # actually delete it
+node scripts/clean-downloads.js            # dry-run: shows what would be removed
+node scripts/clean-downloads.js --apply    # actually delete it
 ```
 
-The next call to `candidatos-corpus.js` rebuilds the cache
+The next call to `corpus-candidates.js` rebuilds the cache
 automatically. `scripts/ingest/` (the maintainer's batch pipeline,
 batch/fix data files, and one-off exploration scripts) is **not**
 touched by this command — clear it by hand if you want to, or read
@@ -224,7 +224,7 @@ Claro) and on medical glossaries written for patients.
 
 ---
 
-## 🧩 Sibling projects — the Miralante suite
+## 🌐 The Miralante suite — projects in the suite
 
 Sinonimia is one of **six apps** in the **Miralante** suite, sharing
 the same author, the same accessibility-first / no-backend philosophy
@@ -249,3 +249,7 @@ This repo uses the **Workers + static assets** model (`wrangler.toml`
 + `[assets]`), which is a different shape than Apptonomia/Teclatlon's
 classic Pages model — see [`CLOUDFLARE.md`](CLOUDFLARE.md) for the
 local runbook.
+
+## More about this project
+
+- [About this project](https://sinonimia.apptonomia.uk/about/)

@@ -34,14 +34,14 @@
  *   generated ahead of time by another tool.
  *
  * Usage:
- *   node scripts/buscar-pictograma.js <term> [locale]
- *   OPENSYMBOLS_SECRET=xxxx node scripts/buscar-pictograma.js <term> [locale]
- *   OPENSYMBOLS_TOKEN=temp::... node scripts/buscar-pictograma.js <term> [locale]
+ *   node scripts/search-pictogram.js <term> [locale]
+ *   OPENSYMBOLS_SECRET=xxxx node scripts/search-pictogram.js <term> [locale]
+ *   OPENSYMBOLS_TOKEN=temp::... node scripts/search-pictogram.js <term> [locale]
  *
  * Examples:
- *   node scripts/buscar-pictograma.js "corregir un error" es
- *   OPENSYMBOLS_SECRET=xxxx node scripts/buscar-pictograma.js "corregir un error" es
- *   OPENSYMBOLS_TOKEN=temp::... node scripts/buscar-pictograma.js "corregir un error" es
+ *   node scripts/search-pictogram.js "corregir un error" es
+ *   OPENSYMBOLS_SECRET=xxxx node scripts/search-pictogram.js "corregir un error" es
+ *   OPENSYMBOLS_TOKEN=temp::... node scripts/search-pictogram.js "corregir un error" es
  *
  * Licensing: unlike querying ARASAAC alone (always CC BY-NC-SA), an
  * OpenSymbols result can come from a bank with a *different* license (e.g.
@@ -73,7 +73,7 @@ const term = process.argv[2];
 const locale = process.argv[3] || "es";
 
 if (!term) {
-  console.error("Usage: node scripts/buscar-pictograma.js <term> [locale]");
+  console.error("Usage: node scripts/search-pictogram.js <term> [locale]");
   process.exit(1);
 }
 

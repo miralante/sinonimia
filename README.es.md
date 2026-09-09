@@ -1,4 +1,4 @@
-# Sinonimia 📖
+﻿# Sinonimia 📖
 
 > 🌐 **Otros idiomas:** [English](README.md)
 >
@@ -41,7 +41,7 @@ Sinonimia está desplegada en **[sinonimia.apptonomia.uk](https://sinonimia.appt
   significado), filtro por tema y navegación por letra.
 - **Español e inglés**, con arquitectura pensada para añadir más
   idiomas (ver "Cómo añadir un idioma nuevo" en
-  [`doc/es/SPEC.md`](doc/es/SPEC.md)).
+  [`doc/es/spec.md`](doc/es/spec.md)).
 - **Gamificación ligera** sin backend ni cuentas: palabra del día,
   botón "sorpréndeme", progreso guardado en el navegador, un campo
   para escribir tu propia frase con cada palabra, y dos juegos de
@@ -69,7 +69,7 @@ Sinonimia solo tiene dos roles — no hay un rol de "apoyo" dedicado:
 el diccionario está pensado para consultarse solo, sin que nadie tenga
 que mediar. Ver [`doc/es/roles.md`](doc/es/roles.md) para la
 descripción completa de los roles y cómo Sinonimia encaja en los
-patrones trio/par/único del conjunto de hermanos.
+patrones trio/par/único del conjunto de la suite.
 
 ---
 
@@ -85,10 +85,10 @@ con algunos archivos en la raíz del repositorio:
 
 | Tema | Documento |
 |---|---|
-| Producto, audiencia, reglas de lectura fácil | [`doc/es/SPEC.md`](doc/es/SPEC.md) · [`doc/en/SPEC.md`](doc/en/SPEC.md) |
+| Producto, audiencia, reglas de lectura fácil | [`doc/es/spec.md`](doc/es/spec.md) · [`doc/en/spec.md`](doc/en/spec.md) |
 | Arquitectura y referencia técnica | [`doc/es/tecnico.md`](doc/es/tecnico.md) · [`doc/en/technical.md`](doc/en/technical.md) |
-| Internacionalización (añadir un idioma) | [`doc/es/I18N.md`](doc/es/I18N.md) · [`doc/en/I18N.md`](doc/en/I18N.md) |
-| Roles (trio / par / único entre hermanos) | [`doc/es/roles.md`](doc/es/roles.md) · [`doc/en/roles.md`](doc/en/roles.md) |
+| Internacionalización (añadir un idioma) | [`doc/es/i18n.md`](doc/es/i18n.md) · [`doc/en/i18n.md`](doc/en/i18n.md) |
+| Roles (trio / par / único en la suite) | [`doc/es/roles.md`](doc/es/roles.md) · [`doc/en/roles.md`](doc/en/roles.md) |
 | Guía de despliegue (Cloudflare Workers) | [`CLOUDFLARE.md`](CLOUDFLARE.md) |
 | Flujo operativo para agentes de IA | `CLAUDE.md` |
 
@@ -98,7 +98,7 @@ con algunos archivos en la raíz del repositorio:
 |---|---|
 | [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) | Familias, terapeutas y desarrolladores que quieran contribuir |
 | `CLAUDE.md` | Agentes IA: reglas obligatorias y estado del proyecto |
-| [`CLOUDFLARE.md`](CLOUDFLARE.md) | Guía canónica de despliegue en Cloudflare Workers para el grupo de hermanos (Sinonimia + Apptonomia + Calculia, Memofun, Okeymoney, Teclatlon) |
+| [`CLOUDFLARE.md`](CLOUDFLARE.md) | Guía canónica de despliegue en Cloudflare Workers para la suite (Sinonimia + Apptonomia + Calculia, Memofun, Okeymoney, Teclatlon) |
 | Historial del proyecto | En `git log`; no se mantiene una hoja de ruta externa |
 
 ---
@@ -108,8 +108,8 @@ con algunos archivos en la raíz del repositorio:
 Para ampliar el diccionario:
 
 ```bash
-node scripts/estado-contenido.js
-node scripts/estado-contenido.js --detalle --categoria <categoría> --lang <es|en>
+node scripts/content-status.js
+node scripts/content-status.js --detalle --categoria <categoría> --lang <es|en>
 ```
 
 Antes de añadir palabras, el primer comando dice qué categorías
@@ -118,7 +118,7 @@ elegidos, lista las palabras que ya existen ahí con sus sinónimos,
 definición y ejemplo, para no repetir un concepto ni un escenario
 ilustrativo — sin abrir nunca el `js/data.<idioma>.js` de varios
 megabytes. Es el primer paso del proceso descrito en "Proceso para
-ampliar el contenido" en [`doc/es/SPEC.md`](doc/es/SPEC.md).
+ampliar el contenido" en [`doc/es/spec.md`](doc/es/spec.md).
 
 ---
 
@@ -203,14 +203,14 @@ worker desde DevTools (`Application → Service workers → Unregister`)
 y borra los datos del sitio.
 
 El directorio `scripts/.cache/` (listas de frecuencias de palabras
-que descarga `candidatos-corpus.js`) se puede vaciar con:
+que descarga `corpus-candidates.js`) se puede vaciar con:
 
 ```bash
-node scripts/limpiar-cache.js            # dry-run: muestra qué se borraría
-node scripts/limpiar-cache.js --apply    # borra de verdad
+node scripts/clean-downloads.js            # dry-run: muestra qué se borraría
+node scripts/clean-downloads.js --apply    # borra de verdad
 ```
 
-La siguiente ejecución de `candidatos-corpus.js` reconstruye la caché
+La siguiente ejecución de `corpus-candidates.js` reconstruye la caché
 automáticamente. `scripts/ingest/` (el pipeline de ingest por lotes
 del mantenedor, los ficheros de datos de batches/fixes, y los scripts
 de exploración one-off) **no** se toca con este comando — límpialo a
@@ -227,7 +227,7 @@ Lenguaje Claro) y en glosarios médicos pensados para pacientes.
 
 ---
 
-## 🧩 Proyectos hermanos — la suite Miralante
+## 🌐 La suite Miralante — proyectos del grupo
 
 Sinonimia es una de las **seis apps** de la suite **Miralante**, que
 comparten autor, la misma filosofía de accesibilidad sin backend y la
@@ -252,3 +252,8 @@ Este repo usa el modelo **Workers + static assets** (`wrangler.toml`
 + `[assets]`), que es una forma distinta al modelo Pages clásico de
 Apptonomia/Teclatlon — ver [`CLOUDFLARE.md`](CLOUDFLARE.md) para la
 guía local.
+
+## More about this project
+
+- [About this project](https://sinonimia.apptonomia.uk/about/)
+- [Privacy](https://sinonimia.apptonomia.uk/legal/privacidad.html)

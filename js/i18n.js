@@ -14,7 +14,7 @@
  * data-lang-block blocks on about/* and 404.html, the
  * languageName_<code> key that has to be added in every existing
  * I18N block, the traduccion cross-link conventions, and a complete
- * checklist — is in doc/en/I18N.md (or doc/es/I18N.md in
+ * checklist — is in doc/en/i18n.md (or doc/es/i18n.md in
  * Spanish). That document is the canonical reference; this header
  * is the short version. */
 
@@ -85,7 +85,7 @@ const I18N = {
     footerMessage: "Sinonimia explica palabras difíciles. Frases cortas. Ejemplos de cada día.",
     footerCreditsHtml: 'Pictogramas: <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (CC BY-NC-SA) y <a href="https://opensymbols.org/" target="_blank" rel="noopener">OpenSymbols</a>.',
     footerConfigHtml: '<a href="config/">Configuración</a>',
-    footerPrivacyHtml: '<a href="about/privacidad.html">Privacidad</a>',
+    footerPrivacyHtml: '<a href="legal/privacidad.html">Privacidad</a>',
 
     detailTitleSuffix: " — Sinonimia",
 
@@ -199,7 +199,7 @@ const I18N = {
     footerMessage: "Sinonimia explains hard words. Short sentences. Everyday examples.",
     footerCreditsHtml: 'Pictograms: <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (CC BY-NC-SA) and <a href="https://opensymbols.org/" target="_blank" rel="noopener">OpenSymbols</a>.',
     footerConfigHtml: '<a href="config/">Settings</a>',
-    footerPrivacyHtml: '<a href="about/privacidad.html">Privacy</a>',
+    footerPrivacyHtml: '<a href="legal/privacidad.html">Privacy</a>',
 
     detailTitleSuffix: " — Sinonimia",
 

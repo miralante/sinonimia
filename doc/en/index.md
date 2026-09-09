@@ -18,14 +18,17 @@ doc/
 │   ├── SPEC.md     ← Product definition
 │   ├── tecnico.md  ← Technical architecture
 │   ├── idiomas.md  ← Adding/extending languages (canonical, ES)
-│   └── fuentes.md  ← Prompts + sources for finding candidate words
+│   └── guia-crear-elementos.md ← How to add content: sources,
+│                                  criteria and technical recipe
 └── en/
     ├── index.md    ← This file (entry point, EN)
     ├── roles.md    ← Project roles
     ├── SPEC.md     ← Product definition
+    ├── README.md   ← Easy-read intro (audience-first)
     ├── technical.md ← Technical architecture
     ├── languages.md ← Adding/extending languages (canonical, EN)
-    └── sourcing.md  ← Prompts + sources for finding candidate words
+    └── creating-elements-guide.md ← How to add content: sources,
+                                      criteria and technical recipe
 ```
 
 Contributing documentation (`CONTRIBUTING.md` / `CONTRIBUTING.es.md`) and
@@ -39,9 +42,10 @@ the license live at the repository root alongside
 | If you want to… | Start with |
 |---|---|
 | Understand what Sinonimia is and who it's for | [`SPEC.md`](SPEC.md) |
+| 👤 End user or family member | [`README.md`](README.md) |
 | Know who participates in the project and how | [`roles.md`](roles.md) |
 | Add a new word | [`../../CONTRIBUTING.md`](../../CONTRIBUTING.md) |
 | Add or extend a language | [`languages.md`](languages.md) |
 | See the technical architecture and code conventions | [`technical.md`](technical.md) |
-| Find candidate words for a category (prompts + source list) | [`sourcing.md`](sourcing.md) |
+| Find candidate words for a category (sources + criteria) | [`creating-elements-guide.md`](creating-elements-guide.md) §3 |
 | Try the site | [`../../README.md`](../../README.md) — "Try it" |

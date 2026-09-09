@@ -14,8 +14,58 @@
   "ogTagline": "Diccionario en lectura fácil",
   "themeColor": "#FAF7F2",
   "colorScheme": "light",
-  "ogImageAsset": null,
+  "ogImageAsset": "og-image.svg",
   "iconAsset": "img/logo.svg",
   "manifest": "./manifest.json",
-  "hasItemList": false
+  "hasItemList": false,
+  "dcCreator": "Sinonimia (parte de la suite Apptonomia)",
+  "dcSubject": "Diccionario en lenguaje sencillo: palabras técnicas y difíciles de trámites y de salud, explicadas con ejemplos de la vida diaria y sus sinónimos.",
+  "dcRights": "MIT (código). Las definiciones y ejemplos son contenido propio bajo CC BY 4.0. Los pictogramas son de ARASAAC (Gobierno de Aragón / Sergio Palao) bajo CC BY-NC-SA, citados en el pie del sitio.",
+  "dcType": "InteractiveResource",
+  "faq": [
+    {
+      "question": "¿Qué es Sinonimia?",
+      "answer": "Sinonimia es un diccionario en lenguaje sencillo: explica palabras técnicas y difíciles de trámites, justicia y salud con ejemplos de la vida diaria y un sinónimo dentro del mismo ejemplo."
+    },
+    {
+      "question": "¿Sinonimia usa pictogramas?",
+      "answer": "Sí. Cada entrada incluye un pictograma de ARASAAC para reforzar visualmente el significado. Los pictogramas se citan en el pie del sitio bajo CC BY-NC-SA."
+    },
+    {
+      "question": "¿Cuántas palabras tiene Sinonimia?",
+      "answer": "Varios miles de entradas, organizadas en tres bloques: administración y trámites, justicia y salud, y un bloque más pequeño de conocimiento general con vocabulario cotidiano y científico."
+    },
+    {
+      "question": "¿Sinonimia necesita registro?",
+      "answer": "No. Es gratuita y sin registro. Funciona desde el navegador y puede instalarse como aplicación web progresiva para usarla sin conexión."
+    },
+    {
+      "question": "¿Sinonimia envía mis datos a algún servidor?",
+      "answer": "No. Es un sitio estático: solo guarda en el navegador el idioma elegido y la preferencia de pictogramas grandes. No hay cuentas ni copia de seguridad remota."
+    }
+  ],
+  "llmsTitle": "Sinonimia — Diccionario en lectura fácil",
+  "llmsSummary": "Diccionario en lenguaje sencillo: palabras técnicas y difíciles de trámites, justicia y salud, explicadas con ejemplos de la vida diaria, sinónimos y pictogramas.",
+  "llmsWhatItIs": [
+    "Un diccionario de palabras difíciles explicado en lenguaje sencillo, con un sinónimo y un ejemplo de la vida diaria por entrada.",
+    "Pictogramas de ARASAAC para reforzar visualmente el significado, citados en el pie del sitio.",
+    "Miles de entradas organizadas en administración y trámites, justicia y salud, y un bloque de conocimiento general.",
+    "Gratuito, sin registro y con dos juegos opcionales para repasar (palabra y frase)."
+  ],
+  "llmsWhatItIsNot": [
+    "No es un diccionario enciclopédico: las definiciones son cortas y se centran en entender a la primera.",
+    "No usa IA generativa en tiempo de ejecución: ninguna página llama a una API externa.",
+    "No envía datos a un servidor: el idioma y las preferencias viven en el navegador.",
+    "No reemplaza el acompañamiento profesional: es una ayuda para entender palabras, no un sustituto."
+  ],
+  "llmsResources": [
+    { "name": "Portal Apptonomia", "url": "https://apptonomia.uk/", "description": "Página de inicio de la suite." },
+    { "name": "Calculia", "url": "https://calculia.apptonomia.uk/", "description": "Cálculo y razonamiento lógico." },
+    { "name": "Routime", "url": "https://routime.apptonomia.uk/", "description": "Actividades cotidianas." },
+    { "name": "Okeymoney", "url": "https://okeymoney.apptonomia.uk/", "description": "Dinero del día a día." },
+    { "name": "Sinonimia", "url": "https://sinonimia.apptonomia.uk/", "description": "Esta aplicación." },
+    { "name": "Memofun", "url": "https://memofun.apptonomia.uk/", "description": "Tarjetas de estudio." },
+    { "name": "Teclatlon", "url": "https://teclatlon.apptonomia.uk/", "description": "Mecanografía con el teclado del ordenador." }
+  ],
+  "llmsLicense": "MIT (código). Definiciones y ejemplos son contenido propio bajo CC BY 4.0. Los pictogramas son de ARASAAC (Gobierno de Aragón / Sergio Palao) bajo CC BY-NC-SA."
 }

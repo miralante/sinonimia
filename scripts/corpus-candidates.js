@@ -1,48 +1,48 @@
 #!/usr/bin/env node
 /*
  * Corpus-based candidate finder — the concrete tool for the "corpus +
- * ontología" technique documented in doc/en/SPEC.md's "Process for
+ * ontología" technique documented in doc/en/spec.md's "Process for
  * expanding content", step 3.
  *
  * Given a domain corpus (a text file YOU curate — paste real excerpts of
  * the kind of document this category deals with: official gazettes for
  * `tramites`/`legal`, patient leaflets for `salud`, payslips or contracts
- * for `trabajo`, etc. — see doc/en/sourcing.md for a source table and a
- * ready-to-use prompt covering all nine categories), it ranks words by
+ * for `trabajo`, etc. — see doc/en/creating-elements-guide.md §3 for a
+ * source table covering all nine categories), it ranks words by
  * *keyness*: how much more often a
  * word shows up in that domain text than in everyday language. A high
  * score means "common in this domain, rare outside it" — exactly the
  * profile of a word that needs a lectura-fácil definition.
  *
  * This tool does NOT pick the category or write anything — it only
- * narrows down where to look, the same way `estado-contenido.js` automates
+ * narrows down where to look, the same way `content-status.js` automates
  * the bookkeeping side of step 3 without touching the editorial part. Each
  * candidate still needs a human (or an AI agent) to check it isn't already
  * covered, that it genuinely belongs in this category (an ontology like
  * UMLS/SNOMED CT for `salud` or EuroVoc for `legal` can help here, but its
  * taxonomy doesn't map 1:1 onto Sinonimia's seven AIVD categories — see
- * doc/en/SPEC.md), and that it's worth an entry at all.
+ * doc/en/spec.md), and that it's worth an entry at all.
  *
  * General-language baseline: hermitdave/FrequencyWords
  * (https://github.com/hermitdave/FrequencyWords), word-frequency lists
  * built from OpenSubtitles — a large everyday-language sample, which is
  * the right contrast for "hard/technical" (the opposite of everyday). The
  * top-50k list for the chosen language is downloaded once and cached in
- * scripts/.cache/ (gitignored, not part of the site); delete that folder
+ * scripts/download/ (gitignored, not part of the site); delete that folder
  * to force a fresh download.
  *
  * Usage:
- *   node scripts/candidatos-corpus.js <archivo-corpus.txt> <es|en> [top-n]
+ *   node scripts/corpus-candidates.js <archivo-corpus.txt> <es|en> [top-n]
  *
  * Example:
- *   node scripts/candidatos-corpus.js ~/textos/boe-resoluciones.txt es 40
+ *   node scripts/corpus-candidates.js ~/textos/boe-resoluciones.txt es 40
  */
 
 const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.join(__dirname, "..");
-const CACHE_DIR = path.join(__dirname, ".cache");
+const CACHE_DIR = path.join(__dirname, "download");
 
 // hermitdave/FrequencyWords: one language file per entry. Add a URL here
 // before using a language this script doesn't know about yet.
@@ -81,7 +81,7 @@ const lang = process.argv[3];
 const topN = parseInt(process.argv[4], 10) || 30;
 
 if (!corpusPath || !lang) {
-  console.error("Usage: node scripts/candidatos-corpus.js <archivo-corpus.txt> <es|en> [top-n]");
+  console.error("Usage: node scripts/corpus-candidates.js <archivo-corpus.txt> <es|en> [top-n]");
   process.exit(1);
 }
 if (!FREQ_LIST_URL[lang]) {
@@ -137,8 +137,12 @@ async function loadGeneralFrequencies() {
   return { freq, total };
 }
 
-// Existing headwords + synonyms for this language, so an already-covered
-// concept doesn't show up as a "new" candidate.
+// Existing headwords + synonyms + example words for this language, so an
+// already-covered concept doesn't show up as a "new" candidate. (This
+// script ships as part of the tracked site tooling — scripts/, not the
+// gitignored scripts/ingest/ tree — so it deliberately stays
+// self-contained rather than requiring scripts/ingest/pipeline/filters/,
+// which may not exist on a fresh checkout.)
 loadAsGlobal("js/data.es.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
 loadAsGlobal("js/data.en.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
 
@@ -146,6 +150,8 @@ const covered = new Set();
 (DICCIONARIOS[lang] || []).forEach(function (entry) {
   covered.add(normalize(entry.palabra));
   (entry.sinonimos || []).forEach(function (synonym) { covered.add(normalize(synonym)); });
+  if (entry.ejemplo && entry.ejemplo.palabra) covered.add(normalize(entry.ejemplo.palabra));
+  if (entry.ejemploSinonimo && entry.ejemploSinonimo.palabra) covered.add(normalize(entry.ejemploSinonimo.palabra));
 });
 
 const MIN_DOMAIN_COUNT = 2; // ignore one-off typos/noise in the corpus
@@ -216,10 +222,10 @@ const MIN_DOMAIN_COUNT = 2; // ignore one-off typos/noise in the corpus
 
   console.log(
     "\nSiguiente paso: para cada candidato que tenga sentido, confirma con\n" +
-    "node scripts/estado-contenido.js --detalle --categoria <categoria> --lang " + lang + "\n" +
+    "node scripts/content-status.js --detalle --categoria <categoria> --lang " + lang + "\n" +
     "que no está ya cubierto bajo otro sinónimo ni con el mismo escenario\n" +
     "de ejemplo, elige a mano en qué categoría encaja, y sigue el resto del\n" +
-    "proceso de doc/en/SPEC.md (escribir la entrada, buscar pictograma con\n" +
-    "buscar-pictograma.js, validar con check.js)."
+    "proceso de doc/en/spec.md (escribir la entrada, buscar pictograma con\n" +
+    "search-pictogram.js, validar con check.js)."
   );
 })();

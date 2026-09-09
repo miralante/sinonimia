@@ -1,7 +1,7 @@
 // Deliberate per-`situacion` fallback pictogram — see "Category fallback
 // when no pictogram exists" in doc/en/technical.md (doc/es/tecnico.md).
 // Used when a word has no non-schematic ARASAAC pictogram at all, confirmed
-// against both buscar-pictograma.js's ARASAAC-direct path and OpenSymbols
+// against both search-pictogram.js's ARASAAC-direct path and OpenSymbols
 // itself (not merely "the term I tried didn't match"). Assigning the
 // category's honest generic icon here beats leaving the entry on whatever
 // unrelated image the ingest pipeline happened to have on hand, which is

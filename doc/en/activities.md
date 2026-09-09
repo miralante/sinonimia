@@ -2,10 +2,10 @@
 
 > Sinonimia is a **dictionary** — the "activity" is the reading of
 > an entry, and a small set of light games on top of the dictionary.
-> There is no fixed grid of activities in the same sense as
-> sibling projects (Calculia, Routime, Okeymoney). This document
-> lists what Sinonimia actually exposes, in the same shape as
-> `activities.md` in the other repos.
+> There is no fixed grid of activities in the same sense as in
+> the other apps of the suite (Calculia, Routime, Okeymoney). This
+> document lists what Sinonimia actually exposes, in the same shape
+> as `activities.md` in the other repos.
 
 ---
 
@@ -39,8 +39,8 @@ The dictionary is organised by topic to make browsing easier:
 | **Educación y trabajo** | School, training, employment, contracts. |
 
 The exact categories and the per-topic word counts can be inspected
-with `node scripts/estado-contenido.js` (see
-[`sourcing.md`](sourcing.md) §1).
+with `node scripts/content-status.js` (see
+[`creating-elements-guide.md`](creating-elements-guide.md) §3).
 
 ---
 
@@ -86,15 +86,17 @@ This is the support role's task. The short version:
    target language** (see [`SPEC.md`](SPEC.md) "Process for
    expanding content").
 2. Verify the word is not already covered with a similar definition
-   (`node scripts/estado-contenido.js --detalle`).
+   (`node scripts/content-status.js --detalle`).
 3. Write the entry following the easy-read rules in
    [`SPEC.md`](SPEC.md).
 4. Find and inspect a pictogram
-   (`node scripts/buscar-pictograma.js`).
+   (`node scripts/search-pictogram.js`).
 5. Validate before opening the PR:
    `node scripts/check.js`.
 
-The full editorial workflow lives in [`sourcing.md`](sourcing.md).
+The full editorial workflow, with candidate sources and acceptance
+criteria, lives in
+[`creating-elements-guide.md`](creating-elements-guide.md).
 
 ---
 
@@ -103,4 +105,4 @@ The full editorial workflow lives in [`sourcing.md`](sourcing.md).
 - Product: [`SPEC.md`](SPEC.md).
 - Architecture: [`technical.md`](technical.md).
 - Languages: [`languages.md`](languages.md).
-- Sources and editorial workflow: [`sourcing.md`](sourcing.md).
+- Sources and editorial workflow: [`creating-elements-guide.md`](creating-elements-guide.md).

@@ -23,7 +23,17 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://sinonimia.pages.dev/about/privacidad.html</loc>
+    <loc>https://sinonimia.pages.dev/legal/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://sinonimia.pages.dev/legal/privacidad.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://sinonimia.pages.dev/team/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>

@@ -91,7 +91,7 @@ doctor. The dictionary is the first step, not the last one.
 
 - Word and games catalogue: [`activities.md`](activities.md).
 - Sources and editorial workflow (how new words are added):
-  [`sourcing.md`](sourcing.md).
+  [`creating-elements-guide.md`](creating-elements-guide.md).
 - Languages and how to extend Sinonimia:
   [`languages.md`](languages.md).
 - Cross-suite guide for families on daily living skills:

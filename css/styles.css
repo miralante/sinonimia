@@ -1029,7 +1029,9 @@ body.alto-contraste .juego-pista-frase .destacado {
 }
 
 /* ==========================================================================
- * Pages: /about/ (about/index.html, about/privacidad.html) and 404.html.
+ * Pages: /about/ (about/index.html), /legal/ (legal/index.html,
+ * legal/privacidad.html), /team/ (team/index.html), /config/ (config/
+ * index.html) and 404.html.
  *
  * These pages were originally served with their own <style> blocks. They
  * have been moved here so they satisfy the strict `style-src-elem 'self'`
@@ -1038,18 +1040,21 @@ body.alto-contraste .juego-pista-frase .destacado {
  *
  * All selectors are scoped to a wrapper class on <body>:
  *   .page-about       — about/index.html (project presentation)
- *   .page-privacidad  — about/privacidad.html (privacy policy)
+ *   .page-legal       — legal/index.html (legal notice index)
+ *   .page-privacidad  — legal/privacidad.html (privacy policy)
+ *   .page-team        — team/index.html (who builds Sinonimia)
+ *   .page-config      — config/index.html (settings / data reset)
  *   .page-404         — 404.html (Cloudflare Pages not-found response)
  *
- * Layout is the same on both /about/ pages (hero header with language
- * picker + sections in cards + footer with back-to-dict buttons);
- * privacidad only differs in narrower max-width and a few list-style
- * tweaks. Single .envoltorio + shared .cabecera / .btn / .idioma-btn
- * / .pie-about / .pie-nota / .pie-nota rules cover both.
+ * Layout is the same on all /about/, /legal/, /team/, /config/ pages
+ * (hero header with language picker + sections in cards + footer with
+ * back-to-dict buttons); privacy only differs in narrower max-width
+ * and a few list-style tweaks. Single .envoltorio + shared .cabecera
+ * / .btn / .idioma-btn / .pie-* / .pie-nota rules cover all of them.
  * ========================================================================== */
 
 .page-about,
-.page-privacidad,
+.page-legal,
 .page-config,
 .page-404 {
   --color-fondo: #fbfaf7;
@@ -1074,23 +1079,23 @@ body.alto-contraste .juego-pista-frase .destacado {
   line-height: 1.6;
 }
 .page-about a,
-.page-privacidad a,
+.page-legal a,
 .page-config a,
 .page-404 a { color: var(--color-primario-oscuro); }
 .page-about :focus-visible,
-.page-privacidad :focus-visible,
+.page-legal :focus-visible,
 .page-config :focus-visible,
 .page-404 :focus-visible { outline: 3px solid var(--color-foco); outline-offset: 2px; }
 .page-about html,
-.page-privacidad html,
+.page-legal html,
 .page-config html,
 .page-404 html { scroll-behavior: smooth; }
 
 .page-about .envoltorio { max-width: 900px; }
-.page-privacidad .envoltorio { max-width: 760px; }
+.page-legal .envoltorio { max-width: 760px; }
 .page-config .envoltorio { max-width: 760px; }
 .page-about .envoltorio,
-.page-privacidad .envoltorio,
+.page-legal .envoltorio,
 .page-config .envoltorio { margin: 0 auto; padding: 0 1.25rem 4rem; }
 
 /* --- 404.html: the "page not found" landing (see also 404.html). --- */
@@ -1137,24 +1142,24 @@ body.alto-contraste .juego-pista-frase .destacado {
 }
 
 .page-about header.cabecera,
-.page-privacidad header.cabecera,
+.page-legal header.cabecera,
 .page-config header.cabecera {
   background: linear-gradient(135deg, var(--color-primario) 0%, var(--color-primario-oscuro) 100%);
   color: #fff;
   text-align: center;
 }
 .page-about header.cabecera { padding: 2.5rem 1.25rem 2rem; }
-.page-privacidad header.cabecera { padding: 2rem 1.25rem 1.75rem; }
+.page-legal header.cabecera { padding: 2rem 1.25rem 1.75rem; }
 .page-config header.cabecera { padding: 2rem 1.25rem 1.75rem; }
 .page-about header.cabecera .envoltorio,
-.page-privacidad header.cabecera .envoltorio,
+.page-legal header.cabecera .envoltorio,
 .page-config header.cabecera .envoltorio { padding: 0 1.25rem; }
 
 .page-about .idioma-selector { margin-bottom: 1.5rem; }
-.page-privacidad .idioma-selector { margin-bottom: 1.25rem; }
+.page-legal .idioma-selector { margin-bottom: 1.25rem; }
 .page-config .idioma-selector { margin-bottom: 1.25rem; }
 .page-about .idioma-btn,
-.page-privacidad .idioma-btn,
+.page-legal .idioma-btn,
 .page-config .idioma-btn {
   font: inherit;
   font-weight: 700;
@@ -1166,14 +1171,14 @@ body.alto-contraste .juego-pista-frase .destacado {
   cursor: pointer;
 }
 .page-about .idioma-btn[aria-pressed="true"],
-.page-privacidad .idioma-btn[aria-pressed="true"],
+.page-legal .idioma-btn[aria-pressed="true"],
 .page-config .idioma-btn[aria-pressed="true"] {
   background: #fff;
   color: var(--color-primario-oscuro);
   border-color: #fff;
 }
 .page-about .idioma-btn + .idioma-btn,
-.page-privacidad .idioma-btn + .idioma-btn,
+.page-legal .idioma-btn + .idioma-btn,
 .page-config .idioma-btn + .idioma-btn { margin-left: 0.5rem; }
 .page-about .aviso-ruta {
   display: inline-block;
@@ -1186,21 +1191,21 @@ body.alto-contraste .juego-pista-frase .destacado {
   margin: 0 auto 1.5rem;
 }
 .page-about .logo-about { font-size: 3rem; line-height: 1; margin-bottom: 0.25rem; }
-.page-privacidad .logo-about { font-size: 2.5rem; line-height: 1; margin-bottom: 0.25rem; }
+.page-legal .logo-about { font-size: 2.5rem; line-height: 1; margin-bottom: 0.25rem; }
 .page-config .logo-about { font-size: 2.5rem; line-height: 1; margin-bottom: 0.25rem; }
 .page-about header.cabecera h1 { margin: 0 0 0.25rem; font-size: 2.2rem; }
-.page-privacidad header.cabecera h1 { margin: 0 0 0.25rem; font-size: 1.9rem; }
+.page-legal header.cabecera h1 { margin: 0 0 0.25rem; font-size: 1.9rem; }
 .page-config header.cabecera h1 { margin: 0 0 0.25rem; font-size: 1.9rem; }
 .page-about header.cabecera h1 span,
-.page-privacidad header.cabecera h1 span,
+.page-legal header.cabecera h1 span,
 .page-config header.cabecera h1 span { color: #ffd7a8; }
 .page-about .lema { margin: 0 0 1rem; font-size: 1.1rem; opacity: 0.92; }
-.page-privacidad .lema { margin: 0; font-size: 1rem; opacity: 0.92; }
+.page-legal .lema { margin: 0; font-size: 1rem; opacity: 0.92; }
 .page-config .lema { margin: 0; font-size: 1rem; opacity: 0.92; }
 .page-about .entradilla { max-width: 40rem; margin: 0 auto 1.75rem; font-size: 1.05rem; }
 
 .page-about nav.indice,
-.page-privacidad nav.indice,
+.page-legal nav.indice,
 .page-config nav.indice {
   display: flex;
   flex-wrap: wrap;
@@ -1209,10 +1214,10 @@ body.alto-contraste .juego-pista-frase .destacado {
   font-size: 0.95rem;
 }
 .page-about nav.indice { margin-top: 0; }
-.page-privacidad nav.indice { margin-top: 1.25rem; }
+.page-legal nav.indice { margin-top: 1.25rem; }
 .page-config nav.indice { margin-top: 1.25rem; }
 .page-about nav.indice a,
-.page-privacidad nav.indice a,
+.page-legal nav.indice a,
 .page-config nav.indice a {
   color: #fff;
   text-decoration: none;
@@ -1221,13 +1226,13 @@ body.alto-contraste .juego-pista-frase .destacado {
 }
 .page-about nav.indice a:hover,
 .page-about nav.indice a:focus-visible,
-.page-privacidad nav.indice a:hover,
-.page-privacidad nav.indice a:focus-visible,
+.page-legal nav.indice a:hover,
+.page-legal nav.indice a:focus-visible,
 .page-config nav.indice a:hover,
 .page-config nav.indice a:focus-visible { border-color: #ffd7a8; }
 
 .page-about main section,
-.page-privacidad main section,
+.page-legal main section,
 .page-config main section {
   background: var(--color-tarjeta);
   border: 1px solid var(--color-borde);
@@ -1236,7 +1241,7 @@ body.alto-contraste .juego-pista-frase .destacado {
   margin: 2rem 0;
   scroll-margin-top: 1rem;
 }
-.page-privacidad main section,
+.page-legal main section,
 .page-config main section {
   background: var(--color-tarjeta);
   border: 1px solid var(--color-borde);
@@ -1246,7 +1251,7 @@ body.alto-contraste .juego-pista-frase .destacado {
   scroll-margin-top: 1rem;
 }
 .page-about main h2,
-.page-privacidad main h2,
+.page-legal main h2,
 .page-config main h2 {
   color: var(--color-primario-oscuro);
   margin-top: 0;
@@ -1254,18 +1259,18 @@ body.alto-contraste .juego-pista-frase .destacado {
   padding-bottom: 0.5rem;
 }
 .page-about main h2 { font-size: 1.4rem; }
-.page-privacidad main h2 { font-size: 1.25rem; }
+.page-legal main h2 { font-size: 1.25rem; }
 .page-config main h2 { font-size: 1.25rem; }
 .page-about main h3 { margin-top: 0; }
-.page-privacidad main h3 { margin-top: 0; font-size: 1.05rem; }
+.page-legal main h3 { margin-top: 0; font-size: 1.05rem; }
 .page-config main h3 { margin-top: 0; font-size: 1.05rem; }
-.page-privacidad main p,
-.page-privacidad main li { font-size: 1rem; }
+.page-legal main p,
+.page-legal main li { font-size: 1rem; }
 .page-config main p,
 .page-config main li { font-size: 1rem; }
-.page-privacidad main ul { padding-left: 1.25rem; }
+.page-legal main ul { padding-left: 1.25rem; }
 .page-config main ul { padding-left: 1.25rem; }
-.page-privacidad main li { margin-bottom: 0.5rem; }
+.page-legal main li { margin-bottom: 0.5rem; }
 .page-config main li { margin-bottom: 0.5rem; }
 
 .page-about .grid-principios,
@@ -1312,7 +1317,7 @@ body.alto-contraste .juego-pista-frase .destacado {
 .page-about .cifra span { font-size: 0.9rem; }
 .page-about .lista-colaborar li { margin-bottom: 0.75rem; }
 
-.page-privacidad .resumen {
+.page-legal .resumen {
   background: #fdf6e7;
   border: 1px solid #e8d8a8;
   border-left: 5px solid var(--color-acento);
@@ -1321,23 +1326,25 @@ body.alto-contraste .juego-pista-frase .destacado {
   margin-top: 1rem;
   font-size: 1.05rem;
 }
-.page-privacidad .lista-datos {
+.page-legal .lista-datos {
   display: grid;
   grid-template-columns: 1fr;
   gap: 0.75rem;
   margin-top: 1rem;
 }
-.page-privacidad .dato {
+.page-legal .dato {
   background: var(--color-fondo);
   border: 1px solid var(--color-borde);
   border-radius: 10px;
   padding: 0.85rem 1rem;
 }
-.page-privacidad .dato strong { color: var(--color-primario-oscuro); }
+.page-legal .dato strong { color: var(--color-primario-oscuro); }
 
-.page-about footer.pie-about,
-.page-privacidad footer.pie-about,
-.page-config footer.pie-about {
+.page-about footer[class*="pie-"],
+.page-legal footer[class*="pie-"],
+.page-privacidad footer[class*="pie-"],
+.page-team footer[class*="pie-"],
+.page-config footer[class*="pie-"] {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -1345,10 +1352,10 @@ body.alto-contraste .juego-pista-frase .destacado {
   padding: 1rem 1.25rem 0;
 }
 .page-about .btn,
-.page-privacidad .btn,
+.page-legal .btn,
 .page-config .btn,
 .page-about .boton-cta,
-.page-privacidad .boton-cta,
+.page-legal .boton-cta,
 .page-config .boton-cta {
   display: inline-block;
   font: inherit;
@@ -1362,12 +1369,12 @@ body.alto-contraste .juego-pista-frase .destacado {
 }
 .page-about .btn:hover,
 .page-about .btn:focus-visible,
-.page-privacidad .btn:hover,
-.page-privacidad .btn:focus-visible,
+.page-legal .btn:hover,
+.page-legal .btn:focus-visible,
 .page-config .btn:hover,
 .page-config .btn:focus-visible { background: var(--color-primario); color: #fff; }
 .page-about .pie-nota,
-.page-privacidad .pie-nota,
+.page-legal .pie-nota,
 .page-config .pie-nota {
   text-align: center;
   font-size: 0.85rem;
@@ -1380,18 +1387,18 @@ body.alto-contraste .juego-pista-frase .destacado {
  * the attribute.
  */
 .page-about [data-lang-block],
-.page-privacidad [data-lang-block],
+.page-legal [data-lang-block],
 .page-config [data-lang-block] { display: none; }
 .page-about html[data-lang="es"] [data-lang-block="es"],
-.page-privacidad html[data-lang="es"] [data-lang-block="es"],
+.page-legal html[data-lang="es"] [data-lang-block="es"],
 .page-config html[data-lang="es"] [data-lang-block="es"] { display: block; }
 .page-about html[data-lang="en"] [data-lang-block="en"],
-.page-privacidad html[data-lang="en"] [data-lang-block="en"],
+.page-legal html[data-lang="en"] [data-lang-block="en"],
 .page-config html[data-lang="en"] [data-lang-block="en"] { display: block; }
 .page-about html[data-lang="es"] span[data-lang-block="es"],
 .page-about html[data-lang="en"] span[data-lang-block="en"],
-.page-privacidad html[data-lang="es"] span[data-lang-block="es"],
-.page-privacidad html[data-lang="en"] span[data-lang-block="en"],
+.page-legal html[data-lang="es"] span[data-lang-block="es"],
+.page-legal html[data-lang="en"] span[data-lang-block="en"],
 .page-config html[data-lang="es"] span[data-lang-block="es"],
 .page-config html[data-lang="en"] span[data-lang-block="en"] { display: inline; }
 
@@ -1505,27 +1512,29 @@ body.alto-contraste .juego-pista-frase .destacado {
 @media print {
   .page-about header.cabecera,
   .page-about header.cabecera,
-  .page-privacidad header.cabecera,
+  .page-legal header.cabecera,
   .page-config header.cabecera { background: none; color: var(--color-texto); }
   .page-about header.cabecera h1 span,
   .page-about header.cabecera h1 span,
-  .page-privacidad header.cabecera h1 span,
+  .page-legal header.cabecera h1 span,
   .page-config header.cabecera h1 span { color: var(--color-acento); }
   .page-about .idioma-selector,
   .page-about .idioma-selector,
-  .page-privacidad .idioma-selector,
+  .page-legal .idioma-selector,
   .page-config .idioma-selector,
   .page-about .aviso-ruta,
   .page-about nav.indice,
   .page-config nav.indice,
-  .page-privacidad nav.indice,
-  .page-about footer.pie-about,
-  .page-about footer.pie-about,
-  .page-privacidad footer.pie-about,
-  .page-config footer.pie-about { display: none; }
+  .page-legal nav.indice,
+  .page-about footer[class*="pie-"],
+  .page-about footer[class*="pie-"],
+  .page-legal footer[class*="pie-"],
+  .page-privacidad footer[class*="pie-"],
+  .page-team footer[class*="pie-"],
+  .page-config footer[class*="pie-"] { display: none; }
   .page-about main section,
   .page-about main section,
-  .page-privacidad main section,
+  .page-legal main section,
   .page-config main section { break-inside: avoid; border: none; padding: 0; }
 }
 

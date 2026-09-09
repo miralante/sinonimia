@@ -292,7 +292,7 @@ htmlPages.forEach(function (page) {
 ok("js/data.*.js cache-busting query strings checked (es: " + contentHash("js/data.es.js") + ", en: " + contentHash("js/data.en.js") + ")");
 
 // --- 7. The user-facing product never names disability or minors ---
-// doc/en/SPEC.md's rule ("Mandatory rule: zero mentions in the user-facing
+// doc/en/spec.md's rule ("Mandatory rule: zero mentions in the user-facing
 // product"): every page a visitor can actually reach — index.html,
 // js/i18n.js, and anything under about/ (it's deployed, unauthenticated,
 // and listed in sitemap.xml, so "noindex" and "not linked" don't make it
@@ -356,7 +356,7 @@ const aboutTargets = fs.existsSync(aboutDir)
       hit = normalized.indexOf(normalize(term)) !== -1;
     }
     if (hit) {
-      fail(target.file + ": contains \"" + term + "\" — no page a visitor can reach may mention disability, occupational therapy, or minors (see doc/en/SPEC.md)");
+      fail(target.file + ": contains \"" + term + "\" — no page a visitor can reach may mention disability, occupational therapy, or minors (see doc/en/spec.md)");
     }
   });
 });
@@ -471,13 +471,16 @@ ok("index.html, js/i18n.js, and about/*.html do not mention disability, occupati
 // over) and fails at 25 MB (Cloudflare will reject the deploy). Only
 // walks files that actually deploy: .git/, node_modules/, .claude/
 // (graphify skill + agent settings, never uploaded), graphify-out*
-// (build artifacts), and scripts/ingest/ (sinonimia's batch content
+// (build artifacts), scripts/ingest/ (sinonimia's batch content
 // pipeline, contains multi-megabyte plaintext wordlists and ARASAAC
-// cache files — never shipped). This check cares about what
-// Cloudflare serves, not the maintainer's working area.
+// cache files — never shipped), and scripts/download/ (downloaded
+// source caches like the ~500 MB Kaikki EN extract, gitignored, never
+// shipped either — one shared download/ for the whole project since
+// 2026-09-05, see PROGRESS.md). This check cares about what Cloudflare
+// serves, not the maintainer's working area.
 const FILE_SIZE_WARN_MB = 20;
 const FILE_SIZE_FAIL_MB = 25;
-const sizeExcluded = new Set([".git", "node_modules", ".claude", "graphify-out", "graphify-out-meta", "ingest"]);
+const sizeExcluded = new Set([".git", "node_modules", ".claude", "graphify-out", "graphify-out-meta", "ingest", "download"]);
 const largeFileWarnings = [];
 (function walkForLargeFiles(dir) {
   if (!fs.existsSync(dir)) return;

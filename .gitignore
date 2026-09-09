@@ -22,9 +22,12 @@ npm-debug.log*
 graphify-out/
 .graphifyignore
 
-# Cachés que generan los scripts de mantenimiento (buscar-pictograma.js, etc.)
-scripts/.cache/
-scripts/ingest/.cache/
+# Corpus/listas descargados por los scripts de mantenimiento y de
+# sourcing (search-pictogram.js, es_list_clean.js, etc.) — contenido
+# descargado de fuentes externas (Kaikki, listas de frecuencia, CEFRLex,
+# nombres propios...), no una caché HTTP efímera; de ahí el nombre.
+scripts/download/
+scripts/ingest/download/
 # Dependencias locales de scripts de la pipeline (msgpackr, etc.); se
 # reinstalan con `npm install` al ejecutar el script si faltan.
 scripts/ingest/pipeline/node_modules_root/
