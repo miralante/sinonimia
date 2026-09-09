@@ -45,7 +45,7 @@ const ROOT = path.join(__dirname, "..");
 const TARGETS = [
   {
     dir: path.join(__dirname, "download"),
-    note: "shared cache: frequency lists (scripts/corpus-candidates.js), Kaikki/CEFRLex/wordfreq/proper-noun-list pipeline inputs (scripts/ingest/pipeline/candidates/*.js)",
+    note: "shared cache: frequency lists (scripts/corpus-candidates.js), Kaikki extracts (proper-noun safety net for every batch insertion, and es-candidates-listapalabras.js's own filters), listapalabras.com's scraped pages",
     // - listapalabras.com has no API — every `listapalabras_*` file (the
     //   word list plus one `listapalabras_letra-<L>[-completa].html` per
     //   scraped letter, 27+ files) is a slow, reverse-engineered
@@ -53,23 +53,13 @@ const TARGETS = [
     //   like the rest of this cache. Losing them means re-scraping the
     //   whole site, not re-running one fetch — hence the prefix match
     //   (a trailing "*") rather than naming each letter's file.
-    // - wiktionary_candidates.txt / wikipedia-candidatos-completo.md are
-    //   the same story for a rate-limited, many-page Wiktionary/Wikipedia
-    //   category crawl (see pipeline/candidates/wiktionary_candidates.js
-    //   and wikipedia_candidates.js). wikipedia_survivors.txt is NOT
-    //   excluded (2026-09-05, user's call) — it's `--recheck`'s output, a
-    //   fully local re-audit of wikipedia-candidatos-completo.md with no
-    //   network fetch of its own, so losing it costs nothing to
-    //   regenerate.
-    // - proper-nouns-en.txt (built by
-    //   shared/build-proper-noun-list.js from 5 small, static name/place
-    //   databases) is a plain re-fetch like everything else here, not
-    //   excluded either.
     // Everything else here is a plain single-URL/API fetch, safe to lose.
+    // (2026-09-09: the Wiktionary/Wikipedia/Kaikki-general/Wikimedia/
+    // CEFRLex/wordfreq candidate sources this exclude list used to also
+    // cover are closed and their scripts + cached dumps removed — see
+    // scripts/ingest/PROGRESS.md's Sources table.)
     exclude: [
       "listapalabras_*",
-      "wiktionary_candidates.txt",
-      "wikipedia-candidatos-completo.md",
     ],
   },
 ];

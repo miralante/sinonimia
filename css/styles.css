@@ -48,6 +48,7 @@ body {
   color: var(--color-texto);
   font-family: var(--fuente);
   line-height: 1.6;
+  overflow-x: clip;
 }
 
 h1, h2, h3 { line-height: 1.25; }

@@ -128,7 +128,7 @@ No abras `js/data.{idioma}.js` directamente: son archivos muy grandes.
 | [ARASAAC](https://api.arasaac.org/) | Banco de pictogramas. | Pictogramas de cada entrada, y también fuente directa de candidatos ya ilustrados (método D). |
 | [OpenSymbols](https://www.opensymbols.org/) | Agregador de varios bancos de símbolos con licencia abierta (ARASAAC, Sclera, Mulberry...) tras una sola API. | Primera opción de `search-pictogram.js` (con `OPENSYMBOLS_SECRET`); si no hay resultados, cae a ARASAAC. Cada banco tiene su propia licencia — revísala en cada resultado antes de usarlo. |
 | [Wikipedia](https://www.wikipedia.org/) | Categorías temáticas (jurídico, médico, financiero...). | Lista de términos agrupados por tema (método E). |
-| [listapalabras.com](https://www.listapalabras.com/) | Lista alfabética de 87.363 cabeceras españolas únicas (no cubre `Ñ`). | Universo de palabras sin ningún filtro propio; solo es útil cruzado con categorías de dominio de Wikcionario (método F). Procesada por completo — detalle en la sección listapalabras.com de `scripts/ingest/PROGRESS.md`. |
+| [listapalabras.com](https://www.listapalabras.com/) | Lista alfabética de 87.363 cabeceras españolas únicas (no cubre `Ñ`). | Universo de palabras sin categoría propia. `es-candidates-listapalabras.js` filtra solo por criterios de dificultad (criterios 1-5: forma válida, no cubierta, no nombre propio, no demasiado común, no ya rechazada) — nunca por categoría de dominio (ver nota 2026-09-09 sobre el criterio 6 más abajo). El resultado son ~66.600 candidatas reales, ordenadas con una pista de raíz/sufijo (no un filtro) para revisar primero las de mayor señal. Procesada por completo — detalle en la sección listapalabras.com de `scripts/ingest/PROGRESS.md`. |
 
 ### 3.2 Criterios para aceptar una palabra
 
@@ -155,7 +155,7 @@ Compara la frecuencia del corpus con la lengua general y prioriza lo específico
 
 **B. Glosarios de lenguaje claro.** Busca un glosario oficial que explique términos en lenguaje sencillo (sección 3.5 es punto de partida; verifica que siga disponible). No copies definiciones: redacta con palabras propias y conserva solo lo que encaje en Sinonimia.
 
-**C. Lista general de palabras + filtro de dominio.** Para ampliación amplia, no una categoría concreta. Combina Kaikki, Wikimedia, listapalabras.com y frecuencia, y cruza con un filtro temático — en la práctica, ese filtro es el método F, que es el paso que realmente decide si hay candidatos. Revisa el resultado palabra por palabra. CEFRLex/ELELex no debe exigirse para vocabulario jurídico, médico o burocrático muy especializado: puede no aparecer en sus lecturas graduadas.
+**C. Lista general de palabras, filtrada solo por dificultad.** Para ampliación amplia, no una categoría concreta. Combina fuentes de vocabulario general (Kaikki, Wikimedia, listapalabras.com, frecuencia) y filtra únicamente por los criterios 1-5 de la sección 3.2 (forma válida, no cubierta, no nombre propio, no demasiado común, no ya rechazada) — nunca por si una palabra aparece o no en una categoría de dominio externa, ver la nota 2026-09-09 sobre el criterio 6 al final de esta sección. Revisa el resultado palabra por palabra; una raíz o sufijo característico de un dominio (método F, o `shared/domain_stems.js`) puede usarse para decidir qué revisar primero, nunca para descartar el resto sin revisión. CEFRLex/ELELex no debe exigirse para vocabulario jurídico, médico o burocrático muy especializado: puede no aparecer en sus lecturas graduadas. Los scripts de las fuentes Kaikki/Wikimedia/frecuencia generales para inglés y español se retiraron 2026-09-09 al agotarse (ver `scripts/ingest/PROGRESS.md`); `es-candidates-listapalabras.js` es hoy la única implementación activa de este método.
 
 **D. ARASAAC como fuente de candidatos.**
 
@@ -181,9 +181,23 @@ https://{es|en}.wiktionary.org/w/api.php?action=query&list=categorymembers&cmtit
 
 Un resultado solo confirma que *una acepción* cumple los criterios: comprueba cuál antes de redactar y escribe la entrada solo para ese sentido. También es la mejor forma de comprobar si una palabra ya cubierta tiene otro sentido que merezca entrada propia.
 
-`wiktionary_candidates.js --list-categories` lista todas las categorías `Categoría:ES:*` existentes con su tamaño, para elegir cuáles añadir al `PLAN` de ese mismo script (una única fuente, un único script, ver la regla de diseño en `scripts/ingest/README.md`). Pagina con `cmcontinue`; las categorías grandes pueden alcanzar el límite de paginación de la API.
-
-**Regla de proceso: agotar el inventario de categorías, no minar solo un subconjunto elegido a mano.** El `PLAN` interno de `wiktionary_candidates.js` es un orden de prioridad, no un límite de cobertura: una categoría `Categoría:ES:*` que exista pero no esté en el `PLAN` no debe darse por descartada — solo significa que todavía no se ha minado. `wiktionary_candidates.js --exhaustive` amplía automáticamente el `PLAN` con cualquier categoría del inventario (`--list-categories`) que aún no tenga una entrada equivalente, etiquetándolas como `sin-asignar` (una pista de descubrimiento, nunca la `situacion` final — sigue aplicando el criterio 6) y evitando reminar las ya cubiertas en una ejecución previa. Antes de dar por explotada esta fuente, ejecuta `--exhaustive` y confirma que el inventario está agotado, no solo que el `PLAN` manual está completo. Este razonamiento no traslada igual al método E: Wikipedia no tiene un espacio de nombres equivalente a `Categoría:ES:*` que agrupe solo categorías-glosa de dominio (su namespace `Categoría:`/`Category:` mezcla temas, portales y listas de todo tipo), así que por ahora el `PLAN` de `wikipedia_candidates.js` sigue siendo una selección manual sin un modo `--exhaustive` equivalente — documentado como asimetría deliberada, no como un olvido.
+**2026-09-09 (directiva del mantenedor): el script dedicado a este método
+(`wiktionary_candidates.js`, con su `PLAN`, `--list-categories` y
+`--exhaustive`) se retiró por completo del proyecto.** No porque
+consultar la API de categorías de Wikcionario esté mal — como
+*técnica de descubrimiento* para un lote acotado de palabras a revisar
+a mano sigue siendo legítima — sino porque en la práctica se estaba
+usando para lo contrario de lo que dice el criterio 6: su salida se
+cruzaba contra otras listas de palabras (`es-candidates-listapalabras.js`,
+el método C) como un **filtro de exclusión** que descartaba sin
+revisión cualquier palabra sin coincidencia de categoría, en vez de
+usarse solo para decidir el orden de revisión. El criterio editorial
+de Sinonimia es la dificultad real de la palabra (criterios 1-5), nunca
+si una categoría externa —inestable, incompleta e inconsistente entre
+ejecuciones, ver `scripts/ingest/PROGRESS.md`— la etiquetó o no. Si se
+retoma esta técnica en el futuro, debe construirse para *anotar* una
+lista de candidatas ya seleccionada por dificultad, nunca para
+seleccionarlas.
 
 ### 3.4 Glosarios y corpus por categoría
 

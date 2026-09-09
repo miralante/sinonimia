@@ -125,7 +125,7 @@ Do not open `js/data.{idioma}.js` directly; the files are very large.
 | [ARASAAC](https://api.arasaac.org/) | Pictogram bank. | Pictograms for every entry, and also a direct candidate source (method D). |
 | [OpenSymbols](https://www.opensymbols.org/) | Aggregator of several open-licensed symbol banks (ARASAAC, Sclera, Mulberry...) behind one API. | `search-pictogram.js`'s first choice (with `OPENSYMBOLS_SECRET`); falls back to ARASAAC when empty. Each bank carries its own license — check it on every result before using it. |
 | [Wikipedia](https://www.wikipedia.org/) | Thematic categories (legal, medical, financial...). | Grouped term lists (method E). |
-| [listapalabras.com](https://www.listapalabras.com/) | Alphabetical list of 87,363 unique Spanish headwords (does not cover `Ñ`). | A raw word universe with no filter of its own; only useful cross-referenced against Wiktionary domain categories (method F). Fully processed — details in `scripts/ingest/PROGRESS.md`'s listapalabras.com section. |
+| [listapalabras.com](https://www.listapalabras.com/) | Alphabetical list of 87,363 unique Spanish headwords (does not cover `Ñ`). | A raw word universe with no category of its own. `es-candidates-listapalabras.js` filters only by difficulty criteria (criteria 1-5: valid word shape, not already covered, not a proper noun, not too common, not already declined) — never by domain category (see the 2026-09-09 note on criterion 6 below). The result is ~66,600 real candidates, sorted with a root/suffix hint (not a filter) so the highest-signal ones get reviewed first. Fully processed — details in `scripts/ingest/PROGRESS.md`'s listapalabras.com section. |
 
 ### 3.2 Criteria for accepting a word
 
@@ -152,7 +152,7 @@ It compares corpus frequency against general language and prioritizes domain-spe
 
 **B. Existing plain-language glossaries.** Find an official glossary that explains terms simply (section 3.5 is a starting point; verify it's still available). Don't copy definitions: write original Sinonimia wording and keep only what fits the project.
 
-**C. General word list + domain filter.** For broad expansion, not one category. Combine Kaikki, Wikimedia, listapalabras.com, and frequency, then cross-reference with a topic filter — in practice, that filter is method F, which is the step that actually decides whether there are candidates. Review the result word by word. CEFRLex/ELELex shouldn't be required for highly specialized legal, medical, or bureaucratic vocabulary: it may be absent from graded readers.
+**C. General word list, filtered only by difficulty.** For broad expansion, not one category. Combine general vocabulary sources (Kaikki, Wikimedia, listapalabras.com, frequency) and filter only by section 3.2's criteria 1-5 (valid word shape, not already covered, not a proper noun, not too common, not already declined) — never by whether a word happens to show up in an external domain category, see the 2026-09-09 note on criterion 6 at the end of this section. Review the result word by word; a domain-characteristic root or suffix (method F, or `shared/domain_stems.js`) can decide review order, never which words get discarded without review. CEFRLex/ELELex shouldn't be required for highly specialized legal, medical, or bureaucratic vocabulary: it may be absent from graded readers. The general Kaikki/Wikimedia/frequency scripts for both languages were retired 2026-09-09 once exhausted (see `scripts/ingest/PROGRESS.md`); `es-candidates-listapalabras.js` is now the only live implementation of this method.
 
 **D. ARASAAC as a candidate source.**
 
@@ -178,9 +178,22 @@ https://{es|en}.wiktionary.org/w/api.php?action=query&list=categorymembers&cmtit
 
 A hit here only confirms *one sense* qualifies: check which one before drafting, and write the entry for that sense only. It's also the best way to check whether a word already covered has another sense worth its own entry.
 
-`wiktionary_candidates.js --list-categories` lists every existing `Categoría:ES:*` category with its size, to pick which ones to add to that same script's `PLAN` (one source, one script, see the design rule in `scripts/ingest/README.md`). Paginate with `cmcontinue`; large categories can hit the API's pagination cap.
-
-**Process rule: exhaust the category inventory, don't stop at a hand-picked subset.** `wiktionary_candidates.js`'s internal `PLAN` is a priority order, not a coverage limit — a `Categoría:ES:*` category that exists but isn't in `PLAN` is not thereby ruled out, it just hasn't been mined yet. `wiktionary_candidates.js --exhaustive` automatically extends `PLAN` with every inventory category (`--list-categories`) that has no equivalent entry yet, tagging them `sin-asignar` (a discovery hint, never the final `situacion` — criterion 6 still applies) and skipping ones already mined in a previous run. Before declaring this source exhausted, run `--exhaustive` and confirm the inventory itself is drained, not just that the hand-picked `PLAN` is complete. This reasoning doesn't carry over to method E the same way: Wikipedia has no equivalent to the `Categoría:ES:*` namespace that groups only domain-gloss categories (its `Categoría:`/`Category:` namespace mixes topics, portals, and every kind of list), so `wikipedia_candidates.js`'s `PLAN` stays a manual selection with no `--exhaustive` counterpart for now — a deliberate asymmetry, not an oversight.
+**2026-09-09 (maintainer directive): the script dedicated to this
+method (`wiktionary_candidates.js`, with its `PLAN`,
+`--list-categories`, and `--exhaustive`) was removed from the project
+entirely.** Not because querying Wiktionary's category API is wrong —
+as a *discovery* technique for a bounded batch of words to review by
+hand it's still legitimate — but because in practice its output was
+being cross-referenced against other word lists
+(`es-candidates-listapalabras.js`, method C) as an **exclusion
+filter** that discarded, without review, any word with no category
+match — the exact opposite of what criterion 6 says. Sinonimia's
+editorial criterion is a word's actual difficulty (criteria 1-5),
+never whether an external category — unstable, incomplete, and
+inconsistent run to run, see `scripts/ingest/PROGRESS.md` — happened
+to tag it. If this technique gets rebuilt in the future, it must
+*annotate* a candidate list already selected by difficulty, never
+*select* it.
 
 ### 3.4 Glossaries and corpora by category
 
