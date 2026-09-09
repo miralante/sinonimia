@@ -422,7 +422,14 @@
     detailView.appendChild(wordNav);
 
     document.title = entry.palabra + t("detailTitleSuffix");
-    h2.focus();
+    // The hash changes before this view is rebuilt. On mobile browsers that
+    // can leave the viewport at the old document position (often the footer).
+    // Focus the heading for accessibility without letting the browser choose
+    // a position, then explicitly place the word at the top of the viewport.
+    h2.focus({ preventScroll: true });
+    window.requestAnimationFrame(function () {
+      h2.scrollIntoView({ block: "start", inline: "nearest" });
+    });
 
     markLearned(entry.id);
   }
