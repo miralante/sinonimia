@@ -21,6 +21,7 @@
 const I18N = {
   es: {
     htmlLang: "es",
+    suiteBy: "Una app de",
     metaTitle: "Sinonimia — Diccionario fácil de palabras difíciles",
     metaDescription: "Diccionario en lenguaje sencillo: palabras técnicas y difíciles de trámites y de salud, explicadas con ejemplos de la vida diaria y sus sinónimos.",
     skipToContent: "Saltar al contenido",
@@ -135,6 +136,7 @@ const I18N = {
 
   en: {
     htmlLang: "en",
+    suiteBy: "An app by",
     metaTitle: "Sinonimia — An easy dictionary for hard words",
     metaDescription: "A plain-language dictionary: hard official and health words explained with everyday examples and simple synonyms.",
     skipToContent: "Skip to content",

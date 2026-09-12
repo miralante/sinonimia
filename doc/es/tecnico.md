@@ -562,7 +562,7 @@ la **plantilla**; las desviaciones se indican donde apliquen.
   pie reducido que solo vuelve a la SPA. La raÃ­z de la app
   (`index.html`) **no** renderiza este pie (tiene su propio
   pie con el botÃ³n de reset y el enlace a protecciÃ³n de datos
-  â€” ver Â§2 arriba).
+  â€” ver §2 arriba).
 
 #### 12.1.3 El par de strings
 
@@ -628,7 +628,7 @@ Cada app de la suite trae los mismos seis ficheros bajo
 `assets/js/`, en el mismo orden de carga, con la misma forma
 exportada. Adelgazar estÃ¡ permitido; **aÃ±adir** funcionalidad
 de vuelta estÃ¡ prohibido a menos que sirva a una necesidad
-concreta (las notas de adelgazamiento en Â§2.1 arriba son la
+concreta (las notas de adelgazamiento en §2.1 arriba son la
 justificaciÃ³n canÃ³nica).
 
 | MÃ³dulo | Superficie | Requerido por |
@@ -724,7 +724,7 @@ esta lista estÃ©n actualizados:
    `speechSynthesis`).
 3. El detector pre-paint en `index.html` (el `<script>`
    inline que elige el locale antes del primer paint â€” ver
-   Â§2.5 arriba).
+   §2.5 arriba).
 4. `strings.<locale>.js` y cada par `strings.<locale>.js`
    por carpeta (`legal/`, `about/`, `team/`, `config/`).
 5. `data.js`: cada array dividido por locale
@@ -823,7 +823,7 @@ y debe revisarse antes de aterrizarlo.
 Cada app es una variante de una sola actividad del patrÃ³n de
 arriba. Las diferencias por app â€” quÃ© se comparte con la
 suite, quÃ© se adelgaza, y quÃ© es intencionalmente distinto â€”
-se documentan en el `tecnico.md` Â§ "Other apps of the suite:
+se documentan en el `tecnico.md` § "Other apps of the suite:
 real differences" (la "diferencia especÃ­fica del proyecto")
 de cada repo. Usa esa secciÃ³n para decidir si una
 desviaciÃ³n en un repo es intencional antes de copiarla a
@@ -836,13 +836,13 @@ demÃ¡s en el mismo PR.
 
 ### 12.8 Ver tambiÃ©n
 
-- Â§2 arriba â€” Recetas y contratos especÃ­ficos de Teclatlon
+- §2 arriba â€” Recetas y contratos especÃ­ficos de Teclatlon
   que se construyen sobre este patrÃ³n.
 - [`I18N.md`](I18N.md) â€” CÃ³mo aÃ±adir un idioma manteniendo
   las invariantes de i18n intactas.
 - [`CLOUDFLARE.md`](../../CLOUDFLARE.md) â€” Contratos de
   deploy y SW/headers a nivel de Cloudflare Workers.
-- [`SPEC.md`](SPEC.md) Â§"Mandatory rule" â€” Las invariantes
+- [`SPEC.md`](SPEC.md) §"Mandatory rule" â€” Las invariantes
   de accesibilidad y "ninguna menciÃ³n clÃ­nica" que cada
   pÃ¡gina debe respetar.
 

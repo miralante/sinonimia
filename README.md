@@ -1,4 +1,4 @@
-﻿# Sinonimia 📖
+# Sinonimia 📖
 
 > 🌐 **Other languages:** [Español](README.es.md)
 >
@@ -253,3 +253,5 @@ local runbook.
 ## More about this project
 
 - [About this project](https://sinonimia.apptonomia.uk/about/)
+- [Privacy](https://sinonimia.apptonomia.uk/legal/privacidad.html)
+

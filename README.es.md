@@ -1,4 +1,4 @@
-﻿# Sinonimia 📖
+# Sinonimia 📖
 
 > 🌐 **Otros idiomas:** [English](README.md)
 >
@@ -257,3 +257,4 @@ guía local.
 
 - [About this project](https://sinonimia.apptonomia.uk/about/)
 - [Privacy](https://sinonimia.apptonomia.uk/legal/privacidad.html)
+

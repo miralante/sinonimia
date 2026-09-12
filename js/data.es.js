@@ -22143,7 +22143,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "alicuota",
-    palabra: "alícuota",
+    palabra: "Alícuota",
     imagen: { id: 4630, alt: "Dinero" },
     definicion: "Es la parte que te toca pagar de un gasto que compartes con otras personas. Cada persona paga su alícuota según lo que le corresponde.",
     sinonimos: ["parte", "porción"],
@@ -22153,7 +22153,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "bajista",
-    palabra: "bajista",
+    palabra: "Bajista",
     imagen: { id: 4630, alt: "Dinero" },
     definicion: "Un mercado bajista es cuando el precio de las acciones baja durante un tiempo. Es lo contrario de un mercado alcista.",
     sinonimos: ["en descenso", "a la baja"],
@@ -22163,7 +22163,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "factoraje",
-    palabra: "factoraje",
+    palabra: "Factoraje",
     imagen: { id: 5995, alt: "Una factura pasando de una empresa a un banco a cambio de dinero" },
     definicion: "Es cuando una empresa vende sus facturas pendientes a otra empresa para cobrar el dinero antes.",
     sinonimos: ["venta de facturas", "adelanto de cobro"],
@@ -22173,7 +22173,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "inmovilizado",
-    palabra: "inmovilizado",
+    palabra: "Inmovilizado",
     imagen: { id: 8581, alt: "Una fábrica con chimeneas, un edificio de la empresa" },
     definicion: "Es todo lo que una empresa tiene para trabajar y no vende rápido, como edificios o máquinas.",
     sinonimos: ["bienes de la empresa", "activo fijo"],
@@ -22183,7 +22183,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "interanual",
-    palabra: "interanual",
+    palabra: "Interanual",
     imagen: { id: 39857, alt: "Una gráfica comparando dos años seguidos" },
     definicion: "Compara un dato de este año con el mismo dato del año pasado. Se usa mucho para hablar de precios.",
     sinonimos: ["de un año a otro", "respecto al año anterior"],
@@ -22193,7 +22193,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "pignoracion",
-    palabra: "pignoración",
+    palabra: "Pignoración",
     imagen: { id: 4630, alt: "Dinero" },
     definicion: "Es dejar algo de valor como garantía para conseguir dinero prestado. Si no pagas, pierdes esa cosa.",
     sinonimos: ["empeño", "garantía prestada"],
@@ -22203,7 +22203,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "sobregirar",
-    palabra: "sobregirar",
+    palabra: "Sobregirar",
     imagen: { id: 17312, alt: "Una mano saca dinero de una cuenta" },
     definicion: "Es gastar más dinero del que tienes en la cuenta del banco. El banco te deja en números rojos.",
     sinonimos: ["dejar en descubierto", "gastar de más"],
@@ -22213,7 +22213,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "capitalizar",
-    palabra: "capitalizar",
+    palabra: "Capitalizar",
     imagen: { id: 4630, alt: "Dinero" },
     definicion: "Es sumar los intereses ganados a la cantidad de dinero inicial, para que ese dinero crezca más rápido.",
     sinonimos: ["sumar los intereses", "reinvertir intereses"],
@@ -22223,7 +22223,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "corresponsal",
-    palabra: "corresponsal",
+    palabra: "Corresponsal",
     imagen: { id: 3062, alt: "La fachada de un banco con un cajero automático" },
     definicion: "Es un banco de otro país que ayuda a mandar tu dinero al extranjero cuando tu banco no llega hasta allí.",
     sinonimos: ["banco intermediario", "banco enlace"],
@@ -22233,7 +22233,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "agio",
-    palabra: "agio",
+    palabra: "Agio",
     imagen: { id: 39579, alt: "Un cajero automático de cambio de moneda, euros a dólares" },
     definicion: "Es la ganancia que se obtiene al cambiar dinero o títulos aprovechando la diferencia de precio.",
     sinonimos: ["especulación", "beneficio del cambio"],
@@ -22243,7 +22243,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "pretensor",
-    palabra: "pretensor",
+    palabra: "Pretensor",
     imagen: { id: 5962, alt: "Un cinturón de seguridad de coche sobre el asiento" },
     definicion: "Es la pieza del cinturón de seguridad del coche que lo aprieta fuerte en un choque. Así te sujeta mejor al asiento.",
     sinonimos: ["tensor del cinturón", "sujeción automática"],
@@ -22253,7 +22253,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "alfabetizando",
-    palabra: "alfabetizando",
+    palabra: "Alfabetizando",
     imagen: { id: 8107, alt: "Una persona aprendiendo a escribir letras" },
     definicion: "Es una persona adulta que está aprendiendo a leer y a escribir en un curso especial.",
     sinonimos: ["alumno de alfabetización", "estudiante adulto de lectura"],
@@ -22263,7 +22263,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "doctorando",
-    palabra: "doctorando",
+    palabra: "Doctorando",
     imagen: { id: 15537, alt: "Una persona con una tesis defendiéndola ante un tribunal universitario" },
     definicion: "Es la persona que está haciendo un doctorado y todavía no ha terminado su tesis.",
     sinonimos: ["estudiante de doctorado", "futuro doctor universitario"],
@@ -22273,7 +22273,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "escolaridad",
-    palabra: "escolaridad",
+    palabra: "Escolaridad",
     imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "Es el tiempo y los cursos que una persona ha estudiado en el colegio. Un papel oficial certifica la escolaridad.",
     sinonimos: ["historial escolar", "años estudiados"],
@@ -22283,7 +22283,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "pasante",
-    palabra: "pasante",
+    palabra: "Pasante",
     imagen: { id: 32666, alt: "Un estudiante en prácticas con documentos" },
     definicion: "Es una persona que trabaja y aprende a la vez en un despacho, antes de terminar su formación.",
     sinonimos: ["practicante", "becario en formación", "pasantía"],
@@ -22303,7 +22303,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "prerrequisito",
-    palabra: "prerrequisito",
+    palabra: "Prerrequisito",
     imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "Es una asignatura que tienes que aprobar antes de poder matricularte en otra.",
     sinonimos: ["requisito previo", "asignatura obligatoria antes"],
@@ -22313,7 +22313,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "promociono",
-    palabra: "promocionó",
+    palabra: "Promocionó",
     imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "Un alumno promociona cuando pasa al siguiente curso porque aprobó lo necesario. No es lo mismo que repetir curso.",
     sinonimos: ["pasó de curso", "avanzó de curso", "promocionar"],
@@ -22323,7 +22323,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "repesca",
-    palabra: "repesca",
+    palabra: "Repesca",
     imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "Es una segunda oportunidad para aprobar un examen que suspendiste antes.",
     sinonimos: ["segunda oportunidad", "examen de recuperación"],
@@ -22333,7 +22333,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "temario",
-    palabra: "temario",
+    palabra: "Temario",
     imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "Es la lista de todos los temas que tienes que estudiar para un examen o una oposición.",
     sinonimos: ["lista de temas", "contenido del examen"],
@@ -22343,7 +22343,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "vicerrector",
-    palabra: "vicerrector",
+    palabra: "Vicerrector",
     imagen: { id: 15537, alt: "Una persona firmando un documento en un despacho universitario" },
     definicion: "Es la persona que ayuda al rector de la universidad y lo sustituye si él no puede.",
     sinonimos: ["ayudante del rector", "segundo al mando de la universidad"],
@@ -22353,7 +22353,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "arroba",
-    palabra: "arroba",
+    palabra: "Arroba",
     imagen: { id: 3177, alt: "El símbolo arroba, una a rodeada de un círculo" },
     definicion: "Es el símbolo @ que se usa en las direcciones de correo electrónico, entre el nombre y la empresa.",
     sinonimos: ["el símbolo @", "el signo arroba"],
@@ -22363,7 +22363,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "bloqueo",
-    palabra: "bloqueó",
+    palabra: "Bloqueó",
     imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Bloquear a alguien es impedir que esa persona o ese número te vuelva a llamar o a escribir.",
     sinonimos: ["cortar el contacto con", "impedir que te escriba"],
@@ -22373,7 +22373,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "colgo",
-    palabra: "colgó",
+    palabra: "Colgó",
     imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Un aparato se cuelga cuando deja de funcionar de golpe y no responde a nada.",
     sinonimos: ["dejar de responder", "quedarse parado"],
@@ -22383,7 +22383,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "configurar",
-    palabra: "configurar",
+    palabra: "Configurar",
     imagen: { id: 39466, alt: "Una persona tocando un icono de ajustes con un engranaje" },
     definicion: "Es ajustar las opciones de un aparato o una aplicación para que funcione como tú quieres.",
     sinonimos: ["ajustar", "preparar los ajustes"],
@@ -22393,7 +22393,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "controlador",
-    palabra: "controlador",
+    palabra: "Controlador",
     imagen: { id: 2970, alt: "Una impresora conectada a un ordenador con un símbolo de instalación" },
     definicion: "Es un programa que necesita el ordenador para que funcione bien un aparato conectado, como una impresora.",
     sinonimos: ["programa del aparato", "driver"],
@@ -22403,7 +22403,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "formatear",
-    palabra: "formatear",
+    palabra: "Formatear",
     imagen: { id: 38652, alt: "Un móvil con una flecha circular de restaurar" },
     definicion: "Es borrar todo lo que hay en un móvil o un ordenador para dejarlo como si fuera nuevo.",
     sinonimos: ["borrar todo", "restaurar de fábrica"],
@@ -22413,7 +22413,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "pestana",
-    palabra: "pestaña",
+    palabra: "Pestaña",
     imagen: { id: 5492, alt: "Un ordenador conectado a internet" },
     definicion: "Es cada una de las páginas web que tienes abiertas a la vez en el navegador.",
     sinonimos: ["ventana nueva", "página abierta aparte"],
@@ -22423,7 +22423,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "puerto",
-    palabra: "puerto",
+    palabra: "Puerto",
     imagen: { id: 9800, alt: "Una memoria USB con el conector metálico visible" },
     definicion: "Es el hueco de un aparato donde conectas un cable o una memoria USB.",
     sinonimos: ["conexión USB", "entrada del cable"],
@@ -22433,7 +22433,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "reenviar",
-    palabra: "reenviar",
+    palabra: "Reenviar",
     imagen: { id: 37867, alt: "Una flecha que manda un mensaje de un móvil a otro" },
     definicion: "Es mandar a otra persona un mensaje o un correo que tú has recibido.",
     sinonimos: ["volver a enviar", "pasar el mensaje"],
@@ -22443,7 +22443,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "acometida",
-    palabra: "acometida",
+    palabra: "Acometida",
     imagen: { id: 8240, alt: "Una tubería con varias conexiones" },
     definicion: "Es la tubería o el cable que conecta tu casa con la red general de agua, luz o gas de la calle.",
     sinonimos: ["conexión a la red", "enganche del suministro"],
@@ -22453,7 +22453,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "alcantarillado",
-    palabra: "alcantarillado",
+    palabra: "Alcantarillado",
     imagen: { id: 17161, alt: "Una tapa de alcantarilla en una calle" },
     definicion: "Es el sistema de tuberías bajo la calle que se lleva el agua sucia de las casas.",
     sinonimos: ["red de saneamiento", "tuberías de aguas residuales"],
@@ -22463,7 +22463,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "cerramiento",
-    palabra: "cerramiento",
+    palabra: "Cerramiento",
     imagen: { id: 2317, alt: "Casa" },
     definicion: "Es cerrar con paredes o cristales una terraza o un balcón. Necesitas un permiso del ayuntamiento para hacerlo.",
     sinonimos: ["cerrar la terraza", "acristalar el balcón"],
@@ -22473,7 +22473,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "acristalamiento",
-    palabra: "acristalamiento",
+    palabra: "Acristalamiento",
     imagen: { id: 11212, alt: "Dos ventanas de cristal" },
     definicion: "Son los cristales de las ventanas de una casa. El doble acristalamiento ayuda a que la casa esté más caliente.",
     sinonimos: ["cristales de la ventana", "ventanas dobles"],
@@ -22483,7 +22483,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "amparo",
-    palabra: "amparo",
+    palabra: "Amparo",
     imagen: { id: 34479, alt: "Una persona entregando un papel de recurso legal a un juzgado" },
     definicion: "Es un recurso legal para pedir que se proteja un derecho fundamental que ha sido violado.",
     sinonimos: ["recurso de protección", "petición de protección legal"],
@@ -22493,7 +22493,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "alzada",
-    palabra: "alzada",
+    palabra: "Alzada",
     imagen: { id: 10173, alt: "Una persona entregando un papel de recurso en una oficina" },
     definicion: "Es un recurso para pedir a un jefe superior que revise una decisión de la administración con la que no estás de acuerdo.",
     sinonimos: ["recurso administrativo", "apelación a un superior"],
@@ -22503,7 +22503,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "atenuante-2",
-    palabra: "atenuante",
+    palabra: "Atenuante",
     imagen: { id: 8612, alt: "Una balanza de la justicia" },
     definicion: "Es una razón que hace más pequeño el castigo de un delito. El juez la tiene en cuenta para ser menos duro.",
     sinonimos: ["circunstancia que reduce la pena", "razón para un castigo menor"],
@@ -22513,7 +22513,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "eximente",
-    palabra: "eximente",
+    palabra: "Eximente",
     imagen: { id: 34479, alt: "Una persona hablando ante un juez en un juicio" },
     definicion: "Es una razón que libra a una persona de un castigo por completo. Por ejemplo, actuar en defensa propia.",
     sinonimos: ["razón que libra de castigo", "circunstancia que exime de culpa"],
@@ -22523,7 +22523,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "dolo",
-    palabra: "dolo",
+    palabra: "Dolo",
     imagen: { id: 31195, alt: "Una persona firmando un papel a escondidas" },
     definicion: "Es hacer algo malo a propósito, sabiendo que puede hacer daño a otra persona. Es distinto de hacerlo sin querer.",
     sinonimos: ["mala intención", "engaño intencionado"],
@@ -22533,7 +22533,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "incoo",
-    palabra: "incoó",
+    palabra: "Incoó",
     imagen: { id: 34479, alt: "Una carpeta de expediente con un sello oficial" },
     definicion: "Incoar es empezar oficialmente un proceso legal o un expediente contra alguien.",
     sinonimos: ["abrir un expediente", "iniciar el proceso"],
@@ -22543,7 +22543,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "mora",
-    palabra: "mora",
+    palabra: "Mora",
     imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Es el retraso en pagar una deuda. Si no pagas a tiempo, puedes tener que pagar más dinero de más.",
     sinonimos: ["retraso en el pago", "deuda vencida sin pagar"],
@@ -22553,7 +22553,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "querellarse",
-    palabra: "querellarse",
+    palabra: "Querellarse",
     imagen: { id: 8147, alt: "Una persona entregando un papel de denuncia en un juzgado" },
     definicion: "Es poner una denuncia formal ante un juez, normalmente por un delito grave.",
     sinonimos: ["poner una denuncia formal", "denunciar ante el juez"],
@@ -22563,7 +22563,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "rebeldia",
-    palabra: "rebeldía",
+    palabra: "Rebeldía",
     imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "En un juicio, es cuando una persona no se presenta cuando la llaman. El juicio sigue adelante sin ella.",
     sinonimos: ["no presentarse al juicio", "ausencia en el juicio"],
@@ -22573,7 +22573,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "tentativa",
-    palabra: "tentativa",
+    palabra: "Tentativa",
     imagen: { id: 8209, alt: "Una persona deteniendo a otra antes de terminar un robo" },
     definicion: "Es intentar hacer un delito sin llegar a terminarlo. Igualmente puede ser castigado por la ley.",
     sinonimos: ["intento de delito", "delito no terminado"],
@@ -22583,7 +22583,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "usufructuaria",
-    palabra: "usufructuaria",
+    palabra: "Usufructuaria",
     imagen: { id: 11700, alt: "Una persona mayor en el salón de una casa" },
     definicion: "Es la persona que puede usar una casa o un bien y disfrutar de él, aunque no sea su dueño legal.",
     sinonimos: ["persona con derecho de uso", "quien disfruta del bien"],
@@ -22593,7 +22593,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "entablillar",
-    palabra: "entablillar",
+    palabra: "Entablillar",
     imagen: { id: 21863, alt: "Un dedo con una tablilla y una venda para sujetarlo" },
     definicion: "Es poner una tablilla dura junto a un hueso roto para que no se mueva mientras cura.",
     sinonimos: ["poner una tablilla", "inmovilizar con tablilla"],
@@ -22603,7 +22603,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "escayolar",
-    palabra: "escayolar",
+    palabra: "Escayolar",
     imagen: { id: 5457, alt: "Un brazo con una escayola blanca" },
     definicion: "Es cubrir un brazo o una pierna rota con una escayola dura para que el hueso se quede quieto y cure bien.",
     sinonimos: ["poner una escayola", "enyesar"],
@@ -22613,7 +22613,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "facultativo",
-    palabra: "facultativo",
+    palabra: "Facultativo",
     imagen: { id: 2467, alt: "Un médico firmando un papel oficial" },
     definicion: "Es la palabra oficial para decir médico. Aparece en los papeles del médico, como la baja o el alta.",
     sinonimos: ["médico", "doctor"],
@@ -22623,7 +22623,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "congelamiento",
-    palabra: "congelamiento",
+    palabra: "Congelamiento",
     imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Es cuando el frío muy fuerte daña la piel de una parte del cuerpo, como los dedos o las orejas.",
     sinonimos: ["daño por el frío", "quemadura de frío"],
@@ -22633,7 +22633,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "extirpar",
-    palabra: "extirpar",
+    palabra: "Extirpar",
     imagen: { id: 27925, alt: "Un cirujano operando en un quirófano" },
     definicion: "Es quitar con una operación algo malo del cuerpo, como un tumor o las amígdalas.",
     sinonimos: ["quitar con cirugía", "sacar por operación"],
@@ -22643,7 +22643,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "drenaje",
-    palabra: "drenaje",
+    palabra: "Drenaje",
     imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Es un tubo fino que se pone después de una operación para sacar el líquido que sobra del cuerpo.",
     sinonimos: ["tubo para sacar líquido", "sonda de salida"],
@@ -22653,7 +22653,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "injerto",
-    palabra: "injerto",
+    palabra: "Injerto",
     imagen: { id: 2840, alt: "Una mano señalando la piel" },
     definicion: "Es un trozo de piel u otro tejido que se pone en el cuerpo para reparar una parte dañada.",
     sinonimos: ["trasplante de piel", "tejido trasplantado"],
@@ -22663,7 +22663,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "posoperatorio",
-    palabra: "posoperatorio",
+    palabra: "Posoperatorio",
     imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Es el tiempo después de una operación, mientras el cuerpo se recupera.",
     sinonimos: ["después de la operación", "recuperación tras la cirugía"],
@@ -22673,7 +22673,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "sutura",
-    palabra: "sutura",
+    palabra: "Sutura",
     imagen: { id: 37885, alt: "Una herida cerrada con puntos de sutura" },
     definicion: "Son los puntos que cose el médico para cerrar una herida grande.",
     sinonimos: ["puntos de sutura", "puntos"],
@@ -22693,7 +22693,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "taquicardia",
-    palabra: "taquicardia",
+    palabra: "Taquicardia",
     imagen: { id: 2715, alt: "Un corazón con líneas que muestran un latido rápido" },
     definicion: "Es cuando el corazón late mucho más rápido de lo normal.",
     sinonimos: ["corazón muy acelerado", "pulso muy rápido"],
@@ -22703,7 +22703,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "alarma",
-    palabra: "alarma",
+    palabra: "Alarma",
     imagen: { id: 6891, alt: "Una sirena de alarma sonando" },
     definicion: "Es un sonido fuerte o una señal que avisa de un peligro. Sirve para que la gente reaccione rápido.",
     sinonimos: ["señal de aviso", "sistema de alerta"],
@@ -22713,7 +22713,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "primeros-auxilios",
-    palabra: "primeros auxilios",
+    palabra: "Primeros auxilios",
     imagen: { id: 38748, alt: "Una mano con guante poniendo crema en una herida" },
     definicion: "Son los cuidados que se dan enseguida a una persona herida, antes de que llegue el médico.",
     sinonimos: ["ayuda inmediata", "curas de urgencia"],
@@ -22723,7 +22723,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "alquiler-compartido",
-    palabra: "alquiler compartido",
+    palabra: "Alquiler compartido",
     imagen: { id: 8012, alt: "Una casa con un cartel de se alquila" },
     definicion: "Es alquilar un piso entre varias personas que no son familia. Cada una paga una parte del alquiler.",
     sinonimos: ["piso compartido", "renta compartida"],
@@ -22734,7 +22734,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "buscar-piso",
-    palabra: "buscar piso",
+    palabra: "Buscar piso",
     imagen: { id: 29893, alt: "El escaparate de una inmobiliaria con pisos en venta" },
     definicion: "Es mirar anuncios y visitar casas para encontrar un piso donde vivir.",
     sinonimos: ["buscar vivienda", "mirar pisos"],
@@ -22745,7 +22745,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "convivencia",
-    palabra: "convivencia",
+    palabra: "Convivencia",
     imagen: { id: 2255, alt: "Tres amigos abrazados por los hombros" },
     definicion: "Es vivir con otras personas en la misma casa, compartiendo espacios y normas.",
     sinonimos: ["vivir juntos", "compartir casa"],
@@ -22755,7 +22755,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "tareas-del-hogar",
-    palabra: "tareas del hogar",
+    palabra: "Tareas del hogar",
     imagen: { id: 36347, alt: "Una persona cocinando, haciendo la cama y planchando" },
     definicion: "Son los trabajos que se hacen en casa cada día, como limpiar, cocinar o lavar la ropa.",
     sinonimos: ["trabajo doméstico", "faenas de la casa"],
@@ -22766,7 +22766,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "apoyo-escolar",
-    palabra: "apoyo escolar",
+    palabra: "Apoyo escolar",
     imagen: { id: 36735, alt: "Un profesor ayudando a un grupo pequeño de estudiantes en una mesa" },
     definicion: "Es la ayuda extra que recibe un alumno en el colegio para seguir mejor las clases.",
     sinonimos: ["ayuda escolar", "refuerzo educativo"],
@@ -22777,7 +22777,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "curso-de-formacion",
-    palabra: "curso de formación",
+    palabra: "Curso de formación",
     imagen: { id: 24613, alt: "Personas sentadas en una sala escuchando a un formador" },
     definicion: "Es un conjunto de clases para aprender algo concreto, normalmente relacionado con un trabajo.",
     sinonimos: ["curso formativo", "clases de formación"],
@@ -22788,7 +22788,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "educacion-especial",
-    palabra: "educación especial",
+    palabra: "Educación especial",
     imagen: { id: 39261, alt: "Una profesora ayudando a un niño en una clase pequeña" },
     definicion: "Es la enseñanza pensada para alumnos que necesitan una ayuda diferente para aprender.",
     sinonimos: ["enseñanza especial", "educación adaptada"],
@@ -22799,7 +22799,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "expediente-academico",
-    palabra: "expediente académico",
+    palabra: "Expediente académico",
     imagen: { id: 32666, alt: "Una carpeta con notas y cursos de un estudiante" },
     definicion: "Es el documento donde constan todos los cursos y las notas de un estudiante.",
     sinonimos: ["historial académico", "registro de estudios"],
@@ -22810,7 +22810,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "logopeda",
-    palabra: "logopeda",
+    palabra: "Logopeda",
     imagen: { id: 2454, alt: "Una profesional ayudando a un niño a pronunciar palabras frente a un espejo" },
     definicion: "Es la persona que ayuda a mejorar cómo hablas, si tienes dificultades para hablar bien.",
     sinonimos: ["especialista del habla", "terapeuta del lenguaje"],
@@ -22821,7 +22821,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "aprender",
-    palabra: "aprender",
+    palabra: "Aprender",
     imagen: { id: 8029, alt: "Una persona aprendiendo a tocar la guitarra con un profesor" },
     definicion: "Es conseguir saber o saber hacer algo nuevo, gracias al estudio o a la práctica.",
     sinonimos: ["instruirse", "adquirir un conocimiento nuevo"],
@@ -22832,7 +22832,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "dudar",
-    palabra: "dudar",
+    palabra: "Dudar",
     imagen: { id: 11696, alt: "Una persona pensativa con signos de interrogación" },
     definicion: "Es no estar seguro de algo y no saber qué decisión tomar.",
     sinonimos: ["vacilar", "no estar seguro"],
@@ -22843,7 +22843,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "ensenar",
-    palabra: "enseñar",
+    palabra: "Enseñar",
     imagen: { id: 26809, alt: "Un profesor explicando en la pizarra a un alumno" },
     definicion: "Es explicar algo a otra persona para que aprenda a saberlo o a hacerlo.",
     sinonimos: ["instruir", "dar clases"],
@@ -22854,7 +22854,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "entender",
-    palabra: "entender",
+    palabra: "Entender",
     imagen: { id: 11697, alt: "Una persona leyendo con atención una carta" },
     definicion: "Es comprender el significado de algo, sin quedarte con dudas.",
     sinonimos: ["comprender", "captar el significado"],
@@ -22865,7 +22865,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "imaginar",
-    palabra: "imaginar",
+    palabra: "Imaginar",
     imagen: { id: 38003, alt: "Una cabeza con dibujos de imaginación dentro, como un cohete y una bombilla" },
     definicion: "Es pensar en algo que no está pasando de verdad, formando una idea en la mente.",
     sinonimos: ["figurarse", "hacerse una idea"],
@@ -22876,7 +22876,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "observar",
-    palabra: "observar",
+    palabra: "Observar",
     imagen: { id: 2474, alt: "Un médico mirando con atención una herida en un brazo" },
     definicion: "Es mirar algo con atención para fijarte bien en los detalles.",
     sinonimos: ["fijarse", "mirar con atención"],
@@ -22887,7 +22887,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "olvidar",
-    palabra: "olvidar",
+    palabra: "Olvidar",
     imagen: { id: 26258, alt: "Una persona con cara de despiste buscando algo" },
     definicion: "Es dejar de recordar algo que sabías o que tenías que hacer.",
     sinonimos: ["no acordarse", "despistarse"],
@@ -22898,7 +22898,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "recordar",
-    palabra: "recordar",
+    palabra: "Recordar",
     imagen: { id: 11357, alt: "Una persona buscando algo intentando recordar dónde lo dejó" },
     definicion: "Es traer a la memoria algo que pasó o que tienes que hacer.",
     sinonimos: ["acordarse", "tener presente"],
@@ -22909,7 +22909,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "reflexionar",
-    palabra: "reflexionar",
+    palabra: "Reflexionar",
     imagen: { id: 8662, alt: "Una cara con una nube de pensamiento" },
     definicion: "Es pensar despacio y con calma sobre algo antes de decidir.",
     sinonimos: ["pensarlo bien", "meditar", "reflexión"],
@@ -22920,7 +22920,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "comparar",
-    palabra: "comparar",
+    palabra: "Comparar",
     imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "Es mirar dos o más cosas para ver en qué se parecen y en qué son diferentes.",
     sinonimos: ["contrastar", "confrontar"],
@@ -22931,7 +22931,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "ayuda-a-domicilio",
-    palabra: "ayuda a domicilio",
+    palabra: "Ayuda a domicilio",
     imagen: { id: 12252, alt: "Dos manos que se ayudan" },
     definicion: "Es un servicio en el que una persona va a tu casa para ayudarte con la limpieza, la comida o el cuidado personal.",
     sinonimos: ["asistencia domiciliaria", "servicio a domicilio", "atención domiciliaria"],
@@ -22942,7 +22942,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "plazo-de-pago",
-    palabra: "plazo de pago",
+    palabra: "Plazo de pago",
     imagen: { id: 27411, alt: "Una mano escribiendo una fecha en un documento" },
     definicion: "Es el tiempo que tienes para pagar una factura o una deuda antes de que se retrase.",
     sinonimos: ["fecha límite de pago", "tiempo para pagar"],
@@ -22953,7 +22953,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "rescindir",
-    palabra: "rescindir",
+    palabra: "Rescindir",
     imagen: { id: 12317, alt: "Una persona firmando un documento" },
     definicion: "Es terminar un contrato antes de tiempo, de forma oficial.",
     sinonimos: ["cancelar el contrato", "romper el contrato"],
@@ -22964,7 +22964,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "servicios-sociales",
-    palabra: "servicios sociales",
+    palabra: "Servicios sociales",
     imagen: { id: 5103, alt: "Una trabajadora social hablando con una familia en una oficina" },
     definicion: "Es la parte de la administración que ayuda a personas y familias con problemas económicos, de salud o de cuidados.",
     sinonimos: ["asistencia social", "trabajo social"],
@@ -22975,7 +22975,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "valoracion",
-    palabra: "valoración",
+    palabra: "Valoración",
     imagen: { id: 39775, alt: "Una mano rellenando un formulario oficial de valoración" },
     definicion: "Es un estudio oficial que hace un profesional para saber cuánta ayuda necesita una persona.",
     sinonimos: ["informe de necesidades", "estudio profesional"],
@@ -22986,7 +22986,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "condiciones-generales",
-    palabra: "condiciones generales",
+    palabra: "Condiciones generales",
     imagen: { id: 21802, alt: "Documento" },
     definicion: "Son las reglas escritas que explican los derechos y obligaciones de un contrato o un servicio.",
     sinonimos: ["reglas del contrato", "normas del servicio"],
@@ -22996,7 +22996,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "subsidio",
-    palabra: "subsidio",
+    palabra: "Subsidio",
     imagen: { id: 33998, alt: "Una mano dando dinero a otra mano" },
     definicion: "Es dinero que da el Estado a una persona que lo necesita, cuando ya no le queda otra ayuda por desempleo.",
     sinonimos: ["ayuda no contributiva", "subsidio por desempleo"],
@@ -23006,7 +23006,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "dependencia",
-    palabra: "dependencia",
+    palabra: "Dependencia",
     imagen: { id: 11481, alt: "Una persona empujando a otra en silla de ruedas" },
     definicion: "Es necesitar la ayuda de otra persona para hacer cosas del día a día, por edad, enfermedad o discapacidad.",
     sinonimos: ["necesidad de cuidados", "falta de autonomía"],
@@ -23017,7 +23017,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "borrador",
-    palabra: "borrador",
+    palabra: "Borrador",
     imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Es una versión de un texto o un mensaje que todavía no está terminada ni enviada.",
     sinonimos: ["texto sin terminar", "versión provisional"],
@@ -23028,7 +23028,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "bulo",
-    palabra: "bulo",
+    palabra: "Bulo",
     imagen: { id: 31195, alt: "Una persona engañando a otra con un juego de manos" },
     definicion: "Es una noticia o un mensaje inventado que la gente comparte como si fuera verdad.",
     sinonimos: ["mentira que se comparte", "rumor falso"],
@@ -23038,7 +23038,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "consentimiento-digital",
-    palabra: "consentimiento digital",
+    palabra: "Consentimiento digital",
     imagen: { id: 25696, alt: "Una persona firmando un documento de consentimiento" },
     definicion: "Es decir que sí, de forma clara, a que una aplicación use tus datos personales.",
     sinonimos: ["aceptar el uso de datos", "permiso para usar tus datos"],
@@ -23049,7 +23049,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "contrasena-segura",
-    palabra: "contraseña segura",
+    palabra: "Contraseña segura",
     imagen: { id: 27691, alt: "Un candado con una contraseña de asteriscos" },
     definicion: "Es una contraseña difícil de adivinar, con letras, números y símbolos mezclados.",
     sinonimos: ["clave difícil de adivinar", "contraseña fuerte"],
@@ -23060,7 +23060,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "navegar",
-    palabra: "navegar",
+    palabra: "Navegar",
     imagen: { id: 5492, alt: "Un ordenador conectado a un globo terráqueo" },
     definicion: "Es moverte de una página a otra en internet, buscando o mirando información.",
     sinonimos: ["moverse por internet", "buscar en la web"],
@@ -23071,7 +23071,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "noticia-falsa",
-    palabra: "noticia falsa",
+    palabra: "Noticia falsa",
     imagen: { id: 7784, alt: "Un periódico abierto" },
     definicion: "Es una noticia que no es verdad, pero que parece real.",
     sinonimos: ["información falsa", "noticia inventada"],
@@ -23082,7 +23082,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "verificar-informacion",
-    palabra: "verificar información",
+    palabra: "Verificar información",
     imagen: { id: 6998, alt: "Una mano marcando una lista de comprobación" },
     definicion: "Es comprobar si algo que has leído o escuchado es verdad antes de creerlo o compartirlo.",
     sinonimos: ["comprobar si es verdad", "contrastar la información"],
@@ -23093,7 +23093,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "aceptar-herencia",
-    palabra: "aceptar herencia",
+    palabra: "Aceptar herencia",
     imagen: { id: 35629, alt: "Un papel firmado" },
     definicion: "Es decir de forma oficial que quieres recibir una herencia, con sus bienes y también sus deudas.",
     sinonimos: ["aceptación de la herencia", "recibir la herencia"],
@@ -23104,7 +23104,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "derecho",
-    palabra: "derecho",
+    palabra: "Derecho",
     imagen: { id: 8612, alt: "Una balanza de la justicia" },
     definicion: "Es algo que la ley dice que puedes tener o hacer, y que nadie te puede quitar.",
     sinonimos: ["facultad legal", "algo que la ley te permite"],
@@ -23115,7 +23115,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "derechos-humanos",
-    palabra: "derechos humanos",
+    palabra: "Derechos humanos",
     imagen: { id: 11247, alt: "Varias personas de manos unidas alrededor del mundo" },
     definicion: "Son los derechos básicos que tiene toda persona, solo por ser persona, en cualquier parte del mundo.",
     sinonimos: ["derechos fundamentales", "derechos de toda persona"],
@@ -23126,7 +23126,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "dignidad",
-    palabra: "dignidad",
+    palabra: "Dignidad",
     imagen: { id: 11695, alt: "Una persona mayor tratada con cariño y respeto" },
     definicion: "Es el respeto que merece toda persona, solo por ser persona.",
     sinonimos: ["respeto merecido", "valor como persona"],
@@ -23137,7 +23137,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "igualdad",
-    palabra: "igualdad",
+    palabra: "Igualdad",
     imagen: { id: 11455, alt: "Dos personas distintas con un signo de igual entre ellas" },
     definicion: "Es que todas las personas tengan los mismos derechos y las mismas oportunidades, sin importar quiénes sean.",
     sinonimos: ["mismos derechos para todos", "trato igual"],
@@ -23148,7 +23148,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "intimidad",
-    palabra: "intimidad",
+    palabra: "Intimidad",
     imagen: { id: 25702, alt: "Una puerta cerrada con un candado pequeño" },
     definicion: "Es la parte de tu vida privada que no tienes que compartir con nadie si no quieres.",
     sinonimos: ["vida privada", "privacidad"],
@@ -23159,7 +23159,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "respeto",
-    palabra: "respeto",
+    palabra: "Respeto",
     imagen: { id: 14660, alt: "Dos personas dándose la mano con una sonrisa" },
     definicion: "Es tratar bien a otra persona, sin insultarla ni hacerle daño, aceptando cómo es.",
     sinonimos: ["buen trato", "consideración"],
@@ -23170,7 +23170,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "sucesion",
-    palabra: "sucesión",
+    palabra: "Sucesión",
     imagen: { id: 11700, alt: "Una persona recibe una herencia" },
     definicion: "Es el conjunto de leyes y trámites que deciden quién recibe los bienes de una persona que ha muerto.",
     sinonimos: ["proceso de herencia", "trámite de herencia"],
@@ -23180,7 +23180,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "conflicto",
-    palabra: "conflicto",
+    palabra: "Conflicto",
     imagen: { id: 37786, alt: "Dos personas discutiendo con los brazos cruzados" },
     definicion: "Es un desacuerdo o una pelea entre dos o más personas.",
     sinonimos: ["desacuerdo", "roce entre personas"],
@@ -23191,7 +23191,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "deber-legal",
-    palabra: "deber",
+    palabra: "Deber",
     imagen: { id: 15523, alt: "Un aviso importante con un signo de exclamación" },
     definicion: "Es algo que tienes la obligación de hacer, según la ley o según las normas.",
     sinonimos: ["obligación", "responsabilidad"],
@@ -23202,7 +23202,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "defensor-derechos",
-    palabra: "defensor",
+    palabra: "Defensor",
     imagen: { id: 11247, alt: "Derechos" },
     definicion: "Es una persona que ayuda y defiende los derechos de otra persona, sin ser su abogado en un juicio.",
     sinonimos: ["defensor de derechos", "persona que apoya tus derechos"],
@@ -23213,7 +23213,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "heredero",
-    palabra: "heredero",
+    palabra: "Heredero",
     imagen: { id: 11700, alt: "Una persona recibe una herencia" },
     definicion: "Es la persona que tiene derecho a recibir los bienes de alguien cuando esa persona muere.",
     sinonimos: ["persona que hereda", "sucesor"],
@@ -23224,7 +23224,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "colaborar",
-    palabra: "colaborar",
+    palabra: "Colaborar",
     imagen: { id: 24665, alt: "Varias personas trabajando juntas alrededor de una mesa" },
     definicion: "Es trabajar junto a otras personas para conseguir algo en común.",
     sinonimos: ["trabajar en equipo", "cooperar"],
@@ -23235,7 +23235,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "colectivo",
-    palabra: "colectivo",
+    palabra: "Colectivo",
     imagen: { id: 7116, alt: "Un grupo de personas diferentes juntas" },
     definicion: "Es un grupo de personas que comparten una característica o una situación parecida.",
     sinonimos: ["grupo de personas", "conjunto de personas"],
@@ -23245,7 +23245,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "comunidad",
-    palabra: "comunidad",
+    palabra: "Comunidad",
     imagen: { id: 6241, alt: "Dos vecinos saludándose desde sus ventanas" },
     definicion: "Es un grupo de personas que viven en el mismo lugar o comparten algo importante entre ellas.",
     sinonimos: ["grupo social", "vecindario"],
@@ -23256,7 +23256,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "contrato-de-trabajo",
-    palabra: "contrato de trabajo",
+    palabra: "Contrato de trabajo",
     imagen: { id: 37465, alt: "Un contrato de trabajo" },
     definicion: "Es el papel oficial que dice las condiciones de un trabajo, como el sueldo y el horario.",
     sinonimos: ["contrato laboral", "papel del trabajo"],
@@ -23266,7 +23266,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "discriminacion",
-    palabra: "discriminación",
+    palabra: "Discriminación",
     imagen: { id: 12323, alt: "Una persona excluida de un grupo por ser diferente" },
     definicion: "Es tratar peor a una persona por cómo es, por ejemplo por su edad, su origen o su discapacidad.",
     sinonimos: ["trato injusto", "trato desigual"],
@@ -23277,7 +23277,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "empleo-con-apoyo",
-    palabra: "empleo con apoyo",
+    palabra: "Empleo con apoyo",
     imagen: { id: 12252, alt: "Dos manos que se ayudan" },
     definicion: "Es un trabajo normal en una empresa, con una persona que ayuda al principio a aprender las tareas.",
     sinonimos: ["trabajo con apoyo", "empleo apoyado"],
@@ -23288,7 +23288,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "entidad",
-    palabra: "entidad",
+    palabra: "Entidad",
     imagen: { id: 12333, alt: "Un edificio de oficinas con un cartel de una organización" },
     definicion: "Es una organización, como una empresa, una asociación o un ayuntamiento, con sus propias normas.",
     sinonimos: ["institución", "organización"],
@@ -23298,7 +23298,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "gestion",
-    palabra: "gestión",
+    palabra: "Gestión",
     imagen: { id: 16174, alt: "Una persona organizando papeles y una agenda en una oficina" },
     definicion: "Es organizar y llevar adelante las tareas necesarias para que algo funcione bien.",
     sinonimos: ["organización de tareas", "administración"],
@@ -23309,7 +23309,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "inclusion",
-    palabra: "inclusión",
+    palabra: "Inclusión",
     imagen: { id: 22785, alt: "Varias personas diferentes participando juntas en un grupo" },
     definicion: "Es hacer que todas las personas puedan participar de verdad, sin dejar a nadie fuera.",
     sinonimos: ["integración", "participación de todos", "integrar"],
@@ -23320,7 +23320,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "infraestructura",
-    palabra: "infraestructura",
+    palabra: "Infraestructura",
     imagen: { id: 38727, alt: "Un viaducto de obra pública" },
     definicion: "Son las instalaciones y los servicios básicos que necesita un lugar para funcionar, como carreteras o edificios.",
     sinonimos: ["instalaciones básicas", "servicios básicos"],
@@ -23331,7 +23331,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "normativa",
-    palabra: "normativa",
+    palabra: "Normativa",
     imagen: { id: 34779, alt: "Un documento con una lista de normas" },
     definicion: "Es el conjunto de normas y reglas que hay que cumplir en un lugar o para hacer algo.",
     sinonimos: ["conjunto de normas", "reglamento"],
@@ -23342,7 +23342,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "preparador-laboral",
-    palabra: "preparador laboral",
+    palabra: "Preparador laboral",
     imagen: { id: 24659, alt: "Un orientador laboral hablando con una persona en su despacho" },
     definicion: "Es la persona que ayuda a alguien a aprender un trabajo nuevo, acompañándolo en el propio puesto.",
     sinonimos: ["apoyo en el trabajo", "tutor laboral"],
@@ -23353,7 +23353,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "representante",
-    palabra: "representante",
+    palabra: "Representante",
     imagen: { id: 15929, alt: "Una persona hablando en nombre de un grupo en una reunión" },
     definicion: "Es la persona elegida para hablar y actuar en nombre de un grupo de personas.",
     sinonimos: ["portavoz", "persona que habla por el grupo"],
@@ -23363,7 +23363,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "sostenible",
-    palabra: "sostenible",
+    palabra: "Sostenible",
     imagen: { id: 33034, alt: "Una hoja verde dentro de un círculo de reciclaje" },
     definicion: "Es algo que se puede mantener en el tiempo sin dañar el medioambiente ni gastar más de lo necesario.",
     sinonimos: ["respetuoso con el medioambiente", "duradero sin dañar", "sostenibilidad", "sustentable"],
@@ -23374,7 +23374,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "taller-ocupacional",
-    palabra: "taller ocupacional",
+    palabra: "Taller ocupacional",
     imagen: { id: 25692, alt: "Un centro de día con actividades en grupo" },
     definicion: "Es un lugar donde un grupo de personas hace tareas y manualidades juntas, de forma organizada.",
     sinonimos: ["taller de actividades", "centro de día ocupacional"],
@@ -23385,7 +23385,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "transparencia",
-    palabra: "transparencia",
+    palabra: "Transparencia",
     imagen: { id: 36377, alt: "Un informe firmado con las cuentas revisadas" },
     definicion: "Es dar información clara y verdadera sobre cómo funciona algo, sin esconder nada.",
     sinonimos: ["claridad", "información abierta"],
@@ -23396,7 +23396,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "convocatoria",
-    palabra: "convocatoria",
+    palabra: "Convocatoria",
     imagen: { id: 37462, alt: "Un cartel oficial anunciando plazas de trabajo" },
     definicion: "Es el aviso oficial que dice que se abre un proceso para pedir un trabajo, una beca o una ayuda.",
     sinonimos: ["anuncio de plazas", "llamada a presentar solicitudes"],
@@ -23406,7 +23406,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "cambio-2",
-    palabra: "cambio",
+    palabra: "Cambio",
     imagen: { id: 28833, alt: "Unas monedas sueltas en la mano de una persona" },
     definicion: "Es el dinero que te devuelven cuando pagas con más dinero del que cuesta algo.",
     sinonimos: ["vuelta", "dinero de vuelta"],
@@ -23417,7 +23417,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "consumo",
-    palabra: "consumo",
+    palabra: "Consumo",
     imagen: { id: 5995, alt: "Una factura con una cantidad de dinero" },
     definicion: "Es la cantidad de agua, luz o gas que gastas en tu casa.",
     sinonimos: ["gasto de suministros", "uso de energía o agua"],
@@ -23428,7 +23428,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "descuento",
-    palabra: "descuento",
+    palabra: "Descuento",
     imagen: { id: 9874, alt: "Una etiqueta de precio colgada de unas gafas" },
     definicion: "Es la cantidad de dinero que se resta del precio normal de algo.",
     sinonimos: ["rebaja", "reducción de precio", "descuentazo"],
@@ -23439,7 +23439,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "lectura-del-contador",
-    palabra: "lectura del contador",
+    palabra: "Lectura del contador",
     imagen: { id: 15901, alt: "Un cuadro eléctrico de una casa" },
     definicion: "Es el número que marca el contador de luz, agua o gas para calcular cuánto has gastado.",
     sinonimos: ["número del contador", "medición del gasto"],
@@ -23450,7 +23450,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "moneda-suelta",
-    palabra: "moneda suelta",
+    palabra: "Moneda suelta",
     imagen: { id: 8633, alt: "Varias monedas de distintos valores" },
     definicion: "Son las monedas pequeñas que llevas sueltas, sin guardarlas en un monedero fijo.",
     sinonimos: ["monedas sueltas", "calderilla"],
@@ -23461,7 +23461,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "pago-sin-contacto",
-    palabra: "pago sin contacto",
+    palabra: "Pago sin contacto",
     imagen: { id: 38781, alt: "Una mano pasando una tarjeta por un datáfono" },
     definicion: "Es pagar acercando la tarjeta o el móvil al datáfono, sin escribir el código secreto.",
     sinonimos: ["pago contactless", "pago con tarjeta sin código"],
@@ -23472,7 +23472,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "sueldo-neto",
-    palabra: "sueldo neto",
+    palabra: "Sueldo neto",
     imagen: { id: 33996, alt: "Una persona recibiendo un billete de dinero por su trabajo" },
     definicion: "Es el dinero que recibes de verdad en tu cuenta, después de quitar los impuestos y la Seguridad Social.",
     sinonimos: ["sueldo real", "dinero que cobras al final"],
@@ -23483,7 +23483,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "analisis",
-    palabra: "análisis",
+    palabra: "Análisis",
     imagen: { id: 32112, alt: "Un tubo con una muestra para analizar" },
     definicion: "Es una prueba médica que estudia una muestra de tu cuerpo, como la sangre o la orina.",
     sinonimos: ["prueba médica", "estudio médico"],
@@ -23493,7 +23493,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "apoyo",
-    palabra: "apoyo",
+    palabra: "Apoyo",
     imagen: { id: 12252, alt: "Una mano apoyando el hombro de otra persona" },
     definicion: "Es la ayuda que recibe una persona de otra para hacer algo o para sentirse mejor.",
     sinonimos: ["ayuda", "respaldo"],
@@ -23504,7 +23504,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "apoyo-psicologico",
-    palabra: "apoyo psicológico",
+    palabra: "Apoyo psicológico",
     imagen: { id: 3377, alt: "Una persona hablando con un psicólogo en una consulta" },
     definicion: "Es la ayuda que da un profesional para cuidar tu salud mental y tus emociones.",
     sinonimos: ["ayuda psicológica", "atención emocional"],
@@ -23514,7 +23514,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "asistente-personal",
-    palabra: "asistente personal",
+    palabra: "Asistente personal",
     imagen: { id: 12252, alt: "Dos manos que se ayudan" },
     definicion: "Es la persona que ayuda a alguien cada día con tareas como vestirse, comer o desplazarse.",
     sinonimos: ["persona de apoyo", "auxiliar personal"],
@@ -23525,7 +23525,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "asociacion",
-    palabra: "asociación",
+    palabra: "Asociación",
     imagen: { id: 12333, alt: "Un grupo de personas reunidas con un cartel" },
     definicion: "Es un grupo de personas que se organiza para ayudarse o para defender una causa común.",
     sinonimos: ["organización sin ánimo de lucro", "grupo organizado"],
@@ -23536,7 +23536,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "centro-de-dia",
-    palabra: "centro de día",
+    palabra: "Centro de día",
     imagen: { id: 25692, alt: "Un centro de día con actividades en grupo" },
     definicion: "Es un lugar donde una persona pasa el día recibiendo cuidados y haciendo actividades, y por la noche vuelve a su casa.",
     sinonimos: ["centro de atención diurna", "servicio de día"],
@@ -23547,7 +23547,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "chequeo",
-    palabra: "chequeo",
+    palabra: "Chequeo",
     imagen: { id: 27142, alt: "Un médico escuchando el pecho de un paciente con un fonendoscopio" },
     definicion: "Es una revisión médica para comprobar cómo está tu salud en general.",
     sinonimos: ["revisión médica", "control de salud"],
@@ -23558,7 +23558,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "cita",
-    palabra: "cita",
+    palabra: "Cita",
     imagen: { id: 27142, alt: "Un médico con un paciente en la consulta" },
     definicion: "Es el momento fijado para ver a un médico u otro profesional.",
     sinonimos: ["consulta", "hora fijada"],
@@ -23568,7 +23568,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "cuidador",
-    palabra: "cuidador",
+    palabra: "Cuidador",
     imagen: { id: 7163, alt: "Una persona ayudando a otra en su casa" },
     definicion: "Es la persona que se ocupa de cuidar a alguien que necesita ayuda por su edad o su salud.",
     sinonimos: ["persona que cuida", "encargado de los cuidados"],
@@ -23578,7 +23578,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "capsula",
-    palabra: "cápsula",
+    palabra: "Cápsula",
     imagen: { id: 3006, alt: "Unas cápsulas de medicina de colores" },
     definicion: "Es una medicina cerrada en una cubierta blanda que se traga entera.",
     sinonimos: ["pastilla blanda", "medicina en cápsula"],
@@ -23589,7 +23589,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "dermatologia",
-    palabra: "dermatología",
+    palabra: "Dermatología",
     imagen: { id: 2840, alt: "Una mano tocando la piel" },
     definicion: "Es la parte de la medicina que estudia y trata las enfermedades de la piel.",
     sinonimos: ["medicina de la piel", "especialidad de la piel"],
@@ -23600,7 +23600,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "digestivo",
-    palabra: "digestivo",
+    palabra: "Digestivo",
     imagen: { id: 3309, alt: "Un estómago" },
     definicion: "Es todo lo relacionado con el estómago y el intestino, que se encargan de digerir la comida.",
     sinonimos: ["del estómago y el intestino", "relacionado con la digestión"],
@@ -23610,7 +23610,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "discapacidad-intelectual",
-    palabra: "discapacidad intelectual",
+    palabra: "Discapacidad intelectual",
     imagen: { id: 29971, alt: "Un certificado oficial de discapacidad" },
     definicion: "Es una discapacidad que hace que a la persona le cueste más aprender y entender algunas cosas.",
     sinonimos: ["dificultad para aprender y entender", "discapacidad cognitiva"],
@@ -23621,7 +23621,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "efecto-secundario",
-    palabra: "efecto secundario",
+    palabra: "Efecto secundario",
     imagen: { id: 8163, alt: "Una persona mirando el prospecto de una medicina" },
     definicion: "Es una molestia que puede causar una medicina, además de curarte.",
     sinonimos: ["reacción de la medicina", "molestia de la medicina"],
@@ -23632,7 +23632,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "estres",
-    palabra: "estrés",
+    palabra: "Estrés",
     imagen: { id: 11312, alt: "Una persona nerviosa mordiéndose las uñas" },
     definicion: "Es sentirte muy cansado y nervioso porque tienes demasiadas cosas que hacer o preocupaciones.",
     sinonimos: ["agobio", "tensión nerviosa"],
@@ -23643,7 +23643,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "grupo-de-apoyo",
-    palabra: "grupo de apoyo",
+    palabra: "Grupo de apoyo",
     imagen: { id: 15925, alt: "Varias personas sentadas en círculo hablando" },
     definicion: "Es un grupo de personas con un problema parecido que se reúnen para ayudarse entre ellas.",
     sinonimos: ["grupo de ayuda mutua", "reunión de apoyo"],
@@ -23654,7 +23654,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "mindfulness",
-    palabra: "mindfulness",
+    palabra: "Mindfulness",
     imagen: { id: 32689, alt: "Una persona sentada con los ojos cerrados respirando tranquila" },
     definicion: "Es una técnica para prestar atención al momento presente y calmar la mente.",
     sinonimos: ["atención plena", "meditación consciente"],
@@ -23665,7 +23665,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "otorrino",
-    palabra: "otorrino",
+    palabra: "Otorrino",
     imagen: { id: 34733, alt: "Un médico mirando el oído de un paciente" },
     definicion: "Es el médico especialista en oídos, nariz y garganta.",
     sinonimos: ["médico de oídos", "especialista de garganta"],
@@ -23675,7 +23675,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "parche",
-    palabra: "parche",
+    palabra: "Parche",
     imagen: { id: 33915, alt: "Unas manos pegando un parche de medicina en la piel" },
     definicion: "Es una tirita con medicina que se pega en la piel para que el cuerpo la absorba poco a poco.",
     sinonimos: ["tirita con medicina", "apósito medicinal"],
@@ -23686,7 +23686,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "pomada",
-    palabra: "pomada",
+    palabra: "Pomada",
     imagen: { id: 3376, alt: "Una mano extendiendo pomada sobre la piel" },
     definicion: "Es una medicina espesa que se extiende sobre la piel con la mano.",
     sinonimos: ["crema medicinal", "ungüento"],
@@ -23697,7 +23697,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "psicologia",
-    palabra: "psicología",
+    palabra: "Psicología",
     imagen: { id: 3377, alt: "Una persona hablando con un psicólogo" },
     definicion: "Es la ciencia que estudia cómo piensan, sienten y se comportan las personas.",
     sinonimos: ["ciencia de la mente", "estudio del comportamiento"],
@@ -23708,7 +23708,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "remedio",
-    palabra: "remedio",
+    palabra: "Remedio",
     imagen: { id: 14664, alt: "Una taza de infusión caliente junto a un limón" },
     definicion: "Es algo que ayuda a curar una molestia o un problema de salud pequeño.",
     sinonimos: ["solución casera", "cura sencilla"],
@@ -23719,7 +23719,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "residencia",
-    palabra: "residencia",
+    palabra: "Residencia",
     imagen: { id: 25728, alt: "Un edificio de residencia con personas mayores" },
     definicion: "Es un lugar donde viven personas mayores o con discapacidad que reciben cuidados todos los días.",
     sinonimos: ["residencia de mayores", "centro residencial"],
@@ -23730,7 +23730,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "resiliencia",
-    palabra: "resiliencia",
+    palabra: "Resiliencia",
     imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "Es la capacidad de recuperarte y seguir adelante después de algo difícil.",
     sinonimos: ["capacidad de recuperación", "fortaleza ante las dificultades"],
@@ -23741,7 +23741,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "traumatologia",
-    palabra: "traumatología",
+    palabra: "Traumatología",
     imagen: { id: 34235, alt: "Un traumatólogo" },
     definicion: "Es la parte de la medicina que trata los huesos, los músculos y las articulaciones.",
     sinonimos: ["medicina de los huesos", "especialidad de huesos y músculos"],
@@ -23752,7 +23752,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "abstracto",
-    palabra: "abstracto",
+    palabra: "Abstracto",
     imagen: { id: 6019, alt: "Una nube con signos de interrogación dentro" },
     definicion: "Es algo que no puedes tocar ni ver, como una idea. Es lo contrario de algo concreto.",
     sinonimos: ["que no se puede tocar", "idea sin forma"],
@@ -23763,7 +23763,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "analogia",
-    palabra: "analogía",
+    palabra: "Analogía",
     imagen: { id: 8579, alt: "Dos objetos distintos con una flecha comparándolos" },
     definicion: "Es explicar algo comparándolo con otra cosa parecida que ya conoces.",
     sinonimos: ["comparación", "parecido explicativo"],
@@ -23774,7 +23774,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "autoctono",
-    palabra: "autóctono",
+    palabra: "Autóctono",
     imagen: { id: 21964, alt: "Un lince, un animal autóctono de España" },
     definicion: "Es algo o alguien que es originario del lugar donde vive, no ha venido de fuera.",
     sinonimos: ["propio del lugar", "originario"],
@@ -23785,7 +23785,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "biodiversidad",
-    palabra: "biodiversidad",
+    palabra: "Biodiversidad",
     imagen: { id: 20389, alt: "Varios animales y plantas diferentes juntos" },
     definicion: "Es la gran variedad de plantas y animales diferentes que existen en un lugar.",
     sinonimos: ["variedad de seres vivos", "riqueza natural"],
@@ -23796,7 +23796,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "ciudad-capital",
-    palabra: "ciudad capital",
+    palabra: "Ciudad capital",
     imagen: { id: 21906, alt: "Personas delante de un edificio de gobierno" },
     definicion: "Es la ciudad más importante de un país, donde suele estar el gobierno.",
     sinonimos: ["capital", "ciudad principal"],
@@ -23807,7 +23807,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "civilizacion",
-    palabra: "civilización",
+    palabra: "Civilización",
     imagen: { id: 26086, alt: "Un faraón del antiguo Egipto" },
     definicion: "Es un grupo grande de personas que comparte una forma de vivir, una cultura y una organización.",
     sinonimos: ["cultura organizada", "sociedad"],
@@ -23818,7 +23818,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "clima",
-    palabra: "clima",
+    palabra: "Clima",
     imagen: { id: 24721, alt: "Distintos tipos de clima: lluvia, sol y viento" },
     definicion: "Es el tiempo que suele hacer en un lugar durante mucho tiempo, como el frío o el calor habituales.",
     sinonimos: ["tiempo habitual", "condiciones del tiempo"],
@@ -23829,7 +23829,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "concreto",
-    palabra: "concreto",
+    palabra: "Concreto",
     imagen: { id: 11318, alt: "Varios objetos reales y concretos" },
     definicion: "Es algo real y específico, que puedes ver o tocar. Es lo contrario de abstracto.",
     sinonimos: ["específico", "real y palpable"],
@@ -23840,7 +23840,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "continente",
-    palabra: "continente",
+    palabra: "Continente",
     imagen: { id: 34547, alt: "Un mapa del mundo con los continentes marcados" },
     definicion: "Es una de las grandes partes de tierra en las que se divide el mundo, como Europa o África.",
     sinonimos: ["parte grande del mundo", "gran masa de tierra", "continental"],
@@ -23851,7 +23851,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "cordillera",
-    palabra: "cordillera",
+    palabra: "Cordillera",
     imagen: { id: 23975, alt: "Una fila de montañas con nieve" },
     definicion: "Es una fila larga de montañas seguidas.",
     sinonimos: ["cadena de montañas", "sierra"],
@@ -23862,7 +23862,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "desierto",
-    palabra: "desierto",
+    palabra: "Desierto",
     imagen: { id: 2734, alt: "Dunas de arena bajo un sol fuerte" },
     definicion: "Es un lugar muy seco donde casi no llueve y hay poca vida vegetal.",
     sinonimos: ["zona muy seca", "arenal"],
@@ -23873,7 +23873,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "digital",
-    palabra: "digital",
+    palabra: "Digital",
     imagen: { id: 9162, alt: "Una pantalla de ordenador con documentos" },
     definicion: "Es algo que funciona con ordenadores o tecnología, en vez de en papel o de forma física.",
     sinonimos: ["electrónico", "informático"],
@@ -23884,7 +23884,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "ecosistema",
-    palabra: "ecosistema",
+    palabra: "Ecosistema",
     imagen: { id: 2666, alt: "Un bosque con animales y plantas" },
     definicion: "Es un lugar natural donde los animales, las plantas y el ambiente viven relacionados entre sí.",
     sinonimos: ["medio natural", "entorno natural"],
@@ -23895,7 +23895,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "empirico",
-    palabra: "empírico",
+    palabra: "Empírico",
     imagen: { id: 8119, alt: "Una persona haciendo un experimento en un laboratorio" },
     definicion: "Es algo que se sabe porque se ha comprobado con la experiencia o con pruebas, no solo con ideas.",
     sinonimos: ["basado en la experiencia", "comprobado con pruebas"],
@@ -23906,7 +23906,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "fenomeno",
-    palabra: "fenómeno",
+    palabra: "Fenómeno",
     imagen: { id: 34613, alt: "Un arcoíris en el cielo" },
     definicion: "Es algo que pasa en la naturaleza o en la vida y que se puede observar.",
     sinonimos: ["suceso observable", "hecho que ocurre"],
@@ -23917,7 +23917,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "filosofia",
-    palabra: "filosofía",
+    palabra: "Filosofía",
     imagen: { id: 36365, alt: "Una persona pensando con un libro abierto" },
     definicion: "Es pensar y hacerse preguntas profundas sobre la vida, la verdad o lo que está bien y mal.",
     sinonimos: ["reflexión profunda", "estudio del pensamiento"],
@@ -23928,7 +23928,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "globalizacion",
-    palabra: "globalización",
+    palabra: "Globalización",
     imagen: { id: 30014, alt: "Un globo terráqueo con líneas conectando países" },
     definicion: "Es que los países del mundo estén cada vez más conectados entre ellos, en comercio, cultura o comunicación.",
     sinonimos: ["conexión mundial", "mundo conectado"],
@@ -23939,7 +23939,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "hemisferio",
-    palabra: "hemisferio",
+    palabra: "Hemisferio",
     imagen: { id: 10285, alt: "Un globo terráqueo dividido por la mitad" },
     definicion: "Es cada una de las dos mitades en las que se divide la Tierra, como norte y sur.",
     sinonimos: ["mitad del planeta", "mitad de la Tierra"],
@@ -23950,7 +23950,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "hermetico",
-    palabra: "hermético",
+    palabra: "Hermético",
     imagen: { id: 4596, alt: "Un bote de cristal cerrado con una tapa firme" },
     definicion: "Es algo cerrado del todo, que no deja pasar el aire ni el agua.",
     sinonimos: ["cerrado del todo", "sellado"],
@@ -23961,7 +23961,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "hipotesis",
-    palabra: "hipótesis",
+    palabra: "Hipótesis",
     imagen: { id: 6019, alt: "Una persona con una bombilla de idea sobre la cabeza" },
     definicion: "Es una idea que se propone para explicar algo, pero que todavía no se ha comprobado.",
     sinonimos: ["idea sin comprobar", "suposición"],
@@ -23972,7 +23972,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "isla",
-    palabra: "isla",
+    palabra: "Isla",
     imagen: { id: 2966, alt: "Una isla pequeña con palmeras rodeada de mar" },
     definicion: "Es un trozo de tierra rodeado de agua por todas partes.",
     sinonimos: ["tierra rodeada de agua", "islote"],
@@ -23983,7 +23983,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "oceano",
-    palabra: "océano",
+    palabra: "Océano",
     imagen: { id: 2925, alt: "El mar visto desde la orilla hasta el horizonte" },
     definicion: "Es una gran extensión de agua salada que separa los continentes.",
     sinonimos: ["gran mar", "mar grande"],
@@ -23994,7 +23994,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "otono",
-    palabra: "otoño",
+    palabra: "Otoño",
     imagen: { id: 5531, alt: "Un árbol con hojas naranjas cayendo" },
     definicion: "Es la estación del año entre el verano y el invierno, cuando las hojas de los árboles caen.",
     sinonimos: ["estación de las hojas caídas"],
@@ -24005,7 +24005,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "paradoja",
-    palabra: "paradoja",
+    palabra: "Paradoja",
     imagen: { id: 6019, alt: "Dos flechas apuntando en direcciones opuestas" },
     definicion: "Es algo que parece contradictorio o imposible, pero que puede ser verdad.",
     sinonimos: ["contradicción aparente", "idea contradictoria"],
@@ -24016,7 +24016,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "patrimonio",
-    palabra: "patrimonio",
+    palabra: "Patrimonio",
     imagen: { id: 36249, alt: "Un monumento histórico antiguo" },
     definicion: "Son los bienes, monumentos o tradiciones importantes que se conservan y se pasan de generación en generación.",
     sinonimos: ["herencia cultural", "bienes históricos"],
@@ -24027,7 +24027,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "pais",
-    palabra: "país",
+    palabra: "País",
     imagen: { id: 5918, alt: "Una bandera" },
     definicion: "Es un territorio con su propio gobierno, sus leyes y sus fronteras.",
     sinonimos: ["nación", "estado"],
@@ -24038,7 +24038,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "primavera",
-    palabra: "primavera",
+    palabra: "Primavera",
     imagen: { id: 5553, alt: "Un árbol con flores rosas en primavera" },
     definicion: "Es la estación del año entre el invierno y el verano, cuando las plantas florecen.",
     sinonimos: ["estación de las flores"],
@@ -24049,7 +24049,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "selva-tropical",
-    palabra: "selva tropical",
+    palabra: "Selva tropical",
     imagen: { id: 3385, alt: "Un bosque muy verde y denso" },
     definicion: "Es un bosque muy denso y húmedo, con muchas plantas y animales, en zonas cálidas.",
     sinonimos: ["bosque tropical", "jungla"],
@@ -24060,7 +24060,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "sofisticado",
-    palabra: "sofisticado",
+    palabra: "Sofisticado",
     imagen: { id: 11459, alt: "Varios aparatos tecnológicos avanzados" },
     definicion: "Es algo complejo y avanzado, hecho con mucho cuidado o mucha tecnología.",
     sinonimos: ["complejo y avanzado", "muy elaborado"],
@@ -24071,7 +24071,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "subjetivo",
-    palabra: "subjetivo",
+    palabra: "Subjetivo",
     imagen: { id: 8662, alt: "Una persona pensando en su propia opinión" },
     definicion: "Es algo que depende de la opinión o de los sentimientos de cada persona.",
     sinonimos: ["personal", "según la opinión de cada uno"],
@@ -24082,7 +24082,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "tecnologia",
-    palabra: "tecnología",
+    palabra: "Tecnología",
     imagen: { id: 11459, alt: "Varios aparatos electrónicos juntos, como un móvil y un ordenador" },
     definicion: "Son los aparatos, programas y conocimientos que usamos para hacer las cosas más fáciles.",
     sinonimos: ["aparatos y programas", "avances técnicos"],
@@ -24093,7 +24093,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "teoria",
-    palabra: "teoría",
+    palabra: "Teoría",
     imagen: { id: 11217, alt: "Una pizarra con fórmulas y dibujos científicos" },
     definicion: "Es una explicación que intenta responder por qué pasa algo, basada en ideas o en estudios.",
     sinonimos: ["explicación científica", "conjunto de ideas"],
@@ -24104,7 +24104,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "tormenta",
-    palabra: "tormenta",
+    palabra: "Tormenta",
     imagen: { id: 34892, alt: "Un cielo oscuro con rayos y lluvia" },
     definicion: "Es un tiempo muy malo con lluvia fuerte, viento, truenos y rayos.",
     sinonimos: ["temporal", "mal tiempo con rayos", "tormentoso"],
@@ -24115,7 +24115,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "universal",
-    palabra: "universal",
+    palabra: "Universal",
     imagen: { id: 30014, alt: "La Tierra, el mundo entero" },
     definicion: "Es algo que vale o se aplica para todo el mundo, en todos los lugares.",
     sinonimos: ["para todos", "válido en todas partes"],
@@ -24126,7 +24126,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "volcan",
-    palabra: "volcán",
+    palabra: "Volcán",
     imagen: { id: 6247, alt: "Un volcán expulsando lava y humo" },
     definicion: "Es una montaña con una abertura por donde puede salir lava caliente del interior de la Tierra.",
     sinonimos: ["montaña con lava"],
@@ -24148,7 +24148,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "frio",
-    palabra: "frío",
+    palabra: "Frío",
     imagen: { id: 5493, alt: "Un copo de nieve" },
     definicion: "Es la sensación de temperatura baja, cuando hace mucho frío ambiental.",
     sinonimos: ["temperatura baja", "sensación helada"],
@@ -24159,7 +24159,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "calor",
-    palabra: "calor",
+    palabra: "Calor",
     imagen: { id: 36407, alt: "Un sol brillante con rayas de calor" },
     definicion: "Es la sensación de temperatura alta, cuando hace mucho sol o hay mucho calor ambiental.",
     sinonimos: ["bochorno", "calor ambiental"],
@@ -24170,7 +24170,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "innovador",
-    palabra: "innovador",
+    palabra: "Innovador",
     imagen: { id: 6019, alt: "Una bombilla encendida junto a unos engranajes" },
     definicion: "Es algo nuevo y original, que aporta una forma diferente de hacer las cosas.",
     sinonimos: ["novedoso", "creativo y nuevo"],
@@ -24181,7 +24181,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "objetivo",
-    palabra: "objetivo",
+    palabra: "Objetivo",
     imagen: { id: 37862, alt: "Una balanza equilibrada entre dos personas" },
     definicion: "Es explicar algo tal como es, sin dejar que tus gustos o tus sentimientos lo cambien.",
     sinonimos: ["imparcial", "sin opinión personal"],
@@ -24192,7 +24192,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "afable",
-    palabra: "afable",
+    palabra: "Afable",
     imagen: { id: 33994, alt: "Una persona sonriendo y saludando con la mano" },
     definicion: "Es una persona amable y agradable, fácil de tratar con los demás.",
     sinonimos: ["amable en el trato", "agradable"],
@@ -24203,7 +24203,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "altruista",
-    palabra: "altruista",
+    palabra: "Altruista",
     imagen: { id: 4570, alt: "Dos manos ayudándose" },
     definicion: "Es alguien que ayuda a los demás sin esperar nada a cambio.",
     sinonimos: ["generoso con los demás", "desinteresado"],
@@ -24214,7 +24214,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "asertivo",
-    palabra: "asertivo",
+    palabra: "Asertivo",
     imagen: { id: 8289, alt: "Una señal de stop" },
     definicion: "Es decir lo que piensas y sientes con claridad, pero sin faltar al respeto a nadie.",
     sinonimos: ["firme al hablar", "directo y respetuoso"],
@@ -24225,7 +24225,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "cauteloso",
-    palabra: "cauteloso",
+    palabra: "Cauteloso",
     imagen: { id: 25618, alt: "Un aviso de cuidado o precaución" },
     definicion: "Es una persona que actúa con mucho cuidado para evitar problemas o peligros.",
     sinonimos: ["precavido", "con mucho cuidado"],
@@ -24236,7 +24236,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "compasivo",
-    palabra: "compasivo",
+    palabra: "Compasivo",
     imagen: { id: 25986, alt: "Una persona consolando a otra con la mano en el hombro" },
     definicion: "Es alguien que siente el dolor de otra persona y quiere ayudarla.",
     sinonimos: ["solidario", "que siente empatía"],
@@ -24247,7 +24247,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "desconfiado",
-    palabra: "desconfiado",
+    palabra: "Desconfiado",
     imagen: { id: 11696, alt: "Una persona mirando el teléfono con gesto de duda" },
     definicion: "Es alguien que no se cree fácilmente lo que le dicen los demás.",
     sinonimos: ["receloso", "que no se fía"],
@@ -24258,7 +24258,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "extrovertido",
-    palabra: "extrovertido",
+    palabra: "Extrovertido",
     imagen: { id: 36544, alt: "Un grupo de personas hablando y riendo juntas" },
     definicion: "Es una persona a la que le gusta mucho hablar con otras personas y estar rodeada de gente.",
     sinonimos: ["sociable", "abierto con la gente"],
@@ -24269,7 +24269,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "fiable",
-    palabra: "fiable",
+    palabra: "Fiable",
     imagen: { id: 12315, alt: "Dos personas dándose la mano con confianza" },
     definicion: "Es alguien en quien puedes confiar porque cumple lo que promete.",
     sinonimos: ["digno de confianza", "de confianza"],
@@ -24280,7 +24280,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "genuino",
-    palabra: "genuino",
+    palabra: "Genuino",
     imagen: { id: 8715, alt: "Una persona sonriendo de forma sincera" },
     definicion: "Es algo o alguien verdadero y sincero, que no finge ser diferente.",
     sinonimos: ["auténtico", "sincero de verdad"],
@@ -24291,7 +24291,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "impulsivo",
-    palabra: "impulsivo",
+    palabra: "Impulsivo",
     imagen: { id: 8985, alt: "Una persona comprando en el supermercado" },
     definicion: "Es actuar rápido, sin pararte a pensar antes en lo que puede pasar.",
     sinonimos: ["que actúa sin pensar", "precipitado"],
@@ -24302,7 +24302,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "introvertido",
-    palabra: "introvertido",
+    palabra: "Introvertido",
     imagen: { id: 5936, alt: "Una persona pidiendo silencio y tranquilidad" },
     definicion: "Es una persona a la que le gusta estar tranquila y sola, y se cansa de estar mucho tiempo con gente.",
     sinonimos: ["reservado", "que prefiere estar solo"],
@@ -24313,7 +24313,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "jovial",
-    palabra: "jovial",
+    palabra: "Jovial",
     imagen: { id: 21537, alt: "Niños riendo al escuchar un chiste" },
     definicion: "Es una persona alegre, que sonríe mucho y le gusta hacer bromas.",
     sinonimos: ["alegre", "de buen humor"],
@@ -24324,7 +24324,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "melancolico",
-    palabra: "melancólico",
+    palabra: "Melancólico",
     imagen: { id: 5531, alt: "Una hoja de otoño" },
     definicion: "Es sentir una tristeza suave, muchas veces al recordar algo del pasado.",
     sinonimos: ["nostálgico", "con tristeza suave"],
@@ -24335,7 +24335,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "obstinado",
-    palabra: "obstinado",
+    palabra: "Obstinado",
     imagen: { id: 31859, alt: "Una persona cruzada de brazos negando con la cabeza" },
     definicion: "Es alguien que no cambia de idea aunque le den buenas razones para hacerlo.",
     sinonimos: ["terco", "que no cede"],
@@ -24346,7 +24346,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "prudente",
-    palabra: "prudente",
+    palabra: "Prudente",
     imagen: { id: 2712, alt: "Una persona conduciendo con cuidado bajo la lluvia" },
     definicion: "Es pensar bien las cosas antes de actuar, para no correr riesgos innecesarios.",
     sinonimos: ["sensato", "con buen criterio"],
@@ -24357,7 +24357,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "rencoroso",
-    palabra: "rencoroso",
+    palabra: "Rencoroso",
     imagen: { id: 35567, alt: "Dos personas de espaldas, enfadadas, sin hablarse" },
     definicion: "Es alguien que sigue enfadado con una persona mucho tiempo después de una discusión.",
     sinonimos: ["resentido", "que guarda rencor"],
@@ -24368,7 +24368,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "resiliente",
-    palabra: "resiliente",
+    palabra: "Resiliente",
     imagen: { id: 25638, alt: "Un símbolo de fuerza" },
     definicion: "Es la capacidad de recuperarte y seguir adelante después de pasar por algo difícil.",
     sinonimos: ["que sabe recuperarse", "fuerte ante las dificultades"],
@@ -24379,7 +24379,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "servicial",
-    palabra: "servicial",
+    palabra: "Servicial",
     imagen: { id: 4570, alt: "Dos manos ayudándose" },
     definicion: "Es alguien que ayuda a los demás con gusto, sin que se lo pidan muchas veces.",
     sinonimos: ["dispuesto a ayudar", "atento con los demás"],
@@ -24390,7 +24390,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "versatil",
-    palabra: "versátil",
+    palabra: "Versátil",
     imagen: { id: 7795, alt: "Varias personas con distintas profesiones" },
     definicion: "Es alguien capaz de hacer bien tareas muy diferentes entre sí.",
     sinonimos: ["que se adapta a todo", "polivalente"],
@@ -24401,7 +24401,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "vulnerable",
-    palabra: "vulnerable",
+    palabra: "Vulnerable",
     imagen: { id: 34557, alt: "Una trabajadora social visitando a una persona mayor en su casa" },
     definicion: "Es una persona que tiene más riesgo de sufrir daño y necesita más protección o ayuda.",
     sinonimos: ["desprotegido", "en riesgo"],
@@ -24412,7 +24412,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "duradero",
-    palabra: "duradero",
+    palabra: "Duradero",
     imagen: { id: 26587, alt: "Un electrodoméstico con un sello de calidad" },
     definicion: "Es algo que dura mucho tiempo sin romperse ni gastarse.",
     sinonimos: ["que dura mucho tiempo", "resistente"],
@@ -24422,7 +24422,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "flexible",
-    palabra: "flexible",
+    palabra: "Flexible",
     imagen: { id: 6012, alt: "Un reloj con varias horas posibles marcadas" },
     definicion: "Es algo que se puede cambiar o adaptar fácilmente según lo que se necesite.",
     sinonimos: ["adaptable", "que se puede cambiar"],
@@ -24432,7 +24432,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "gradual",
-    palabra: "gradual",
+    palabra: "Gradual",
     imagen: { id: 37931, alt: "Una escalera con escalones" },
     definicion: "Es algo que pasa poco a poco, paso a paso, sin ser todo de golpe.",
     sinonimos: ["progresivo", "poco a poco"],
@@ -24442,7 +24442,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "habitual",
-    palabra: "habitual",
+    palabra: "Habitual",
     imagen: { id: 16165, alt: "Un calendario con una cita marcada cada mes" },
     definicion: "Es algo que pasa siempre o casi siempre, de forma normal y esperada.",
     sinonimos: ["frecuente", "de costumbre"],
@@ -24452,7 +24452,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "impecable",
-    palabra: "impecable",
+    palabra: "Impecable",
     imagen: { id: 38006, alt: "Un gesto de perfecto" },
     definicion: "Es algo hecho perfectamente bien, sin ningún error ni fallo.",
     sinonimos: ["perfecto", "sin ningún fallo"],
@@ -24462,7 +24462,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "moderado",
-    palabra: "moderado",
+    palabra: "Moderado",
     imagen: { id: 10156, alt: "Un médico recomendando ejercicio a un paciente" },
     definicion: "Es algo que no es ni mucho ni poco, que tiene una cantidad media y equilibrada.",
     sinonimos: ["equilibrado", "ni mucho ni poco"],
@@ -24472,7 +24472,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "previsible",
-    palabra: "previsible",
+    palabra: "Previsible",
     imagen: { id: 24721, alt: "Distintos tipos de clima: lluvia, sol y viento" },
     definicion: "Es algo que se puede saber o esperar antes de que pase.",
     sinonimos: ["esperable", "que se puede prever"],
@@ -24482,7 +24482,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "provisional",
-    palabra: "provisional",
+    palabra: "Provisional",
     imagen: { id: 5987, alt: "Un carnet con un sello de temporal" },
     definicion: "Es algo que solo dura un tiempo, hasta que llega la solución definitiva.",
     sinonimos: ["mientras tanto", "no definitivo"],
@@ -24492,7 +24492,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "suficiente",
-    palabra: "suficiente",
+    palabra: "Suficiente",
     imagen: { id: 4630, alt: "Billetes y monedas de euro" },
     definicion: "Es la cantidad necesaria de algo, ni de más ni de menos.",
     sinonimos: ["bastante", "lo necesario"],
@@ -24502,7 +24502,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "viable",
-    palabra: "viable",
+    palabra: "Viable",
     imagen: { id: 35859, alt: "Distintos tipos de construcción" },
     definicion: "Es algo que se puede hacer de verdad, porque hay manera de conseguirlo.",
     sinonimos: ["posible de hacer", "realizable"],
@@ -24512,7 +24512,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "limite",
-    palabra: "límite",
+    palabra: "Límite",
     imagen: { id: 32765, alt: "Una persona levantando la mano en señal de stop" },
     definicion: "Es lo máximo que una persona acepta o permite en una situación.",
     sinonimos: ["tope", "lo máximo permitido"],
@@ -24522,7 +24522,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "frecuencia",
-    palabra: "frecuencia",
+    palabra: "Frecuencia",
     imagen: { id: 11752, alt: "Repetir varias veces" },
     definicion: "Es cuántas veces pasa algo en un periodo de tiempo.",
     sinonimos: ["periodicidad", "cuántas veces"],
@@ -24532,7 +24532,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "urgente",
-    palabra: "urgente",
+    palabra: "Urgente",
     imagen: { id: 10263, alt: "Una persona con dolor de muelas pidiendo cita" },
     definicion: "Es algo que hay que hacer o resolver enseguida, sin esperar.",
     sinonimos: ["inmediato", "que no puede esperar"],
@@ -24542,7 +24542,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "puntual",
-    palabra: "puntual",
+    palabra: "Puntual",
     imagen: { id: 11708, alt: "Un reloj y una persona esperando en la puerta" },
     definicion: "Es llegar a la hora exacta, ni antes ni después de lo previsto.",
     sinonimos: ["a tiempo", "sin retraso"],
@@ -24552,7 +24552,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "arrepentirse",
-    palabra: "arrepentirse",
+    palabra: "Arrepentirse",
     imagen: { id: 12317, alt: "Una persona firmando un papel" },
     definicion: "Es sentir pena por algo que hiciste y desear no haberlo hecho.",
     sinonimos: ["lamentar", "sentir pena por algo hecho", "arrepentimiento"],
@@ -24562,7 +24562,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "asumir",
-    palabra: "asumir",
+    palabra: "Asumir",
     imagen: { id: 25757, alt: "Una persona hablando con su equipo de trabajo" },
     definicion: "Es aceptar o hacerte cargo de una responsabilidad o de un gasto.",
     sinonimos: ["hacerse cargo de", "aceptar"],
@@ -24572,7 +24572,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "beneficiarse",
-    palabra: "beneficiarse",
+    palabra: "Beneficiarse",
     imagen: { id: 33998, alt: "Una persona recibiendo una ayuda económica" },
     definicion: "Es recibir una ventaja o una ayuda gracias a algo.",
     sinonimos: ["sacar provecho", "recibir una ventaja"],
@@ -24582,7 +24582,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "encargarse",
-    palabra: "encargarse",
+    palabra: "Encargarse",
     imagen: { id: 38130, alt: "Una persona organizando una fiesta de cumpleaños" },
     definicion: "Es ocuparte de una tarea y ser responsable de que se haga.",
     sinonimos: ["ocuparse de", "hacerse responsable"],
@@ -24592,7 +24592,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "esforzarse",
-    palabra: "esforzarse",
+    palabra: "Esforzarse",
     imagen: { id: 2387, alt: "Una persona estudiando para el examen de conducir" },
     definicion: "Es poner mucho esfuerzo y ganas para conseguir algo difícil.",
     sinonimos: ["poner esfuerzo", "esmerarse"],
@@ -24602,7 +24602,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "someterse",
-    palabra: "someterse",
+    palabra: "Someterse",
     imagen: { id: 28826, alt: "Un médico haciendo una revisión completa a un paciente" },
     definicion: "Es aceptar pasar por algo, como una prueba o una operación, aunque no sea agradable.",
     sinonimos: ["pasar por", "aceptar hacerse"],
@@ -24612,7 +24612,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "eventual",
-    palabra: "eventual",
+    palabra: "Eventual",
     imagen: { id: 37465, alt: "Un contrato de trabajo con un calendario" },
     definicion: "Es algo que pasa solo algunas veces, no de forma fija ni segura.",
     sinonimos: ["no fijo", "de duración limitada"],
@@ -24622,7 +24622,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "razonable",
-    palabra: "razonable",
+    palabra: "Razonable",
     imagen: { id: 15020, alt: "Dos personas llegando a un acuerdo justo" },
     definicion: "Es algo justo y sensato, que tiene sentido y no es exagerado.",
     sinonimos: ["lógico", "justo y equilibrado"],
@@ -24632,7 +24632,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "alimento-fresco",
-    palabra: "alimento fresco",
+    palabra: "Alimento fresco",
     imagen: { id: 29131, alt: "Fruta y verdura fresca en un puesto de mercado" },
     definicion: "Es comida que se ha hecho o recogido hace poco tiempo y no ha sido tratada para durar mucho.",
     sinonimos: ["comida reciente", "sin conservantes"],
@@ -24643,7 +24643,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "alergeno-alimentario",
-    palabra: "alérgeno alimentario",
+    palabra: "Alérgeno alimentario",
     imagen: { id: 20105, alt: "Frutos secos, un alérgeno alimentario común" },
     definicion: "Es una sustancia de un alimento que puede hacer daño a las personas alérgicas a ella.",
     sinonimos: ["sustancia que da alergia", "alérgeno de la comida"],
@@ -24654,7 +24654,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "anden",
-    palabra: "andén",
+    palabra: "Andén",
     imagen: { id: 6494, alt: "Una estación de tren" },
     definicion: "Es la zona junto a la vía del tren o autobús donde esperan y suben los viajeros.",
     sinonimos: ["plataforma de la vía", "zona de embarque"],
@@ -24665,7 +24665,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "antelacion",
-    palabra: "antelación",
+    palabra: "Antelación",
     imagen: { id: 3071, alt: "Un calendario" },
     definicion: "Es hacer algo antes del momento en que hace falta, con tiempo de sobra.",
     sinonimos: ["con tiempo de sobra", "de antemano"],
@@ -24676,7 +24676,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "apoyo-emocional",
-    palabra: "apoyo emocional",
+    palabra: "Apoyo emocional",
     imagen: { id: 15925, alt: "Un grupo de personas escuchando y apoyando a alguien" },
     definicion: "Es ayudar a una persona a sentirse mejor cuando está triste o preocupada, escuchándola y acompañándola.",
     sinonimos: ["ayuda para sentirse mejor", "acompañamiento emocional"],
@@ -24687,7 +24687,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "colectivo-local",
-    palabra: "colectivo local",
+    palabra: "Colectivo local",
     imagen: { id: 6241, alt: "Un grupo de vecinos reunidos organizando algo juntos" },
     definicion: "Es un grupo de personas de un barrio o pueblo que se organizan para conseguir algo juntas.",
     sinonimos: ["grupo del barrio", "asociación vecinal"],
@@ -24698,7 +24698,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "dieta-equilibrada",
-    palabra: "dieta equilibrada",
+    palabra: "Dieta equilibrada",
     imagen: { id: 37201, alt: "Distintos alimentos saludables" },
     definicion: "Es comer cada día una cantidad y variedad de alimentos que le hacen bien al cuerpo.",
     sinonimos: ["alimentación equilibrada", "comer de forma sana"],
@@ -24709,7 +24709,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "documentacion",
-    palabra: "documentación",
+    palabra: "Documentación",
     imagen: { id: 8828, alt: "Una carpeta con varios papeles y documentos oficiales" },
     definicion: "Es el conjunto de papeles oficiales que demuestran quién eres o que tienes derecho a algo.",
     sinonimos: ["papeles oficiales", "documentos necesarios"],
@@ -24720,7 +24720,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "espacio-personal",
-    palabra: "espacio personal",
+    palabra: "Espacio personal",
     imagen: { id: 8717, alt: "Vida" },
     definicion: "Es la distancia física que una persona necesita sentir cómoda con los demás.",
     sinonimos: ["distancia personal", "espacio propio"],
@@ -24731,7 +24731,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "frontera",
-    palabra: "frontera",
+    palabra: "Frontera",
     imagen: { id: 8483, alt: "Un puesto de control fronterizo" },
     definicion: "Es la línea que separa un país de otro.",
     sinonimos: ["límite entre países", "línea fronteriza"],
@@ -24742,7 +24742,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "hidratacion",
-    palabra: "hidratación",
+    palabra: "Hidratación",
     imagen: { id: 2276, alt: "Una persona bebiendo agua" },
     definicion: "Es beber suficiente agua u otros líquidos para que el cuerpo funcione bien.",
     sinonimos: ["beber suficiente agua", "reponer líquidos"],
@@ -24753,7 +24753,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "itinerario",
-    palabra: "itinerario",
+    palabra: "Itinerario",
     imagen: { id: 25648, alt: "Una ruta marcada de un punto a otro" },
     definicion: "Es el plan con el orden de los lugares y las horas de un viaje.",
     sinonimos: ["plan del viaje", "recorrido planeado"],
@@ -24764,7 +24764,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "pareja-sentimental",
-    palabra: "pareja sentimental",
+    palabra: "Pareja sentimental",
     imagen: { id: 4558, alt: "Una pareja enamorada" },
     definicion: "Es la persona con la que alguien mantiene una relación de amor.",
     sinonimos: ["novio o novia", "compañero sentimental"],
@@ -24775,7 +24775,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "retraso",
-    palabra: "retraso",
+    palabra: "Retraso",
     imagen: { id: 39597, alt: "Un panel de aeropuerto anunciando un vuelo retrasado" },
     definicion: "Es llegar o hacer algo más tarde de la hora prevista.",
     sinonimos: ["demora", "tardanza"],
@@ -24786,7 +24786,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "transbordo",
-    palabra: "transbordo",
+    palabra: "Transbordo",
     imagen: { id: 6494, alt: "Una estación de tren" },
     definicion: "Es cambiar de un transporte a otro durante un viaje para llegar al destino final.",
     sinonimos: ["cambio de transporte", "trasbordo", "transbordar", "trasbordar"],
@@ -24797,7 +24797,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "trayecto",
-    palabra: "trayecto",
+    palabra: "Trayecto",
     imagen: { id: 3099, alt: "Una línea de tren marcada en un mapa entre dos ciudades" },
     definicion: "Es el camino o la distancia que se recorre para ir de un lugar a otro.",
     sinonimos: ["recorrido", "camino recorrido"],
@@ -24808,7 +24808,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "voluntario",
-    palabra: "voluntario",
+    palabra: "Voluntario",
     imagen: { id: 25536, alt: "Una persona voluntaria de una ONG" },
     definicion: "Es una persona que ayuda en algo sin cobrar dinero por hacerlo.",
     sinonimos: ["persona que ayuda sin cobrar", "colaborador sin sueldo"],
@@ -24819,7 +24819,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "aislamiento",
-    palabra: "aislamiento",
+    palabra: "Aislamiento",
     imagen: { id: 36696, alt: "Una persona quedándose segura en casa" },
     definicion: "Es estar solo, separado de otras personas, durante un tiempo.",
     sinonimos: ["soledad", "estar apartado de los demás"],
@@ -24830,7 +24830,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "aficion",
-    palabra: "afición",
+    palabra: "Afición",
     imagen: { id: 34767, alt: "Una persona pintando un cuadro en su tiempo libre" },
     definicion: "Es algo que a una persona le gusta mucho hacer en su tiempo libre.",
     sinonimos: ["pasatiempo", "hobby"],
@@ -24841,7 +24841,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "bienestar",
-    palabra: "bienestar",
+    palabra: "Bienestar",
     imagen: { id: 11653, alt: "Una persona caminando al aire libre" },
     definicion: "Es sentirse bien, tanto en el cuerpo como en la mente.",
     sinonimos: ["sentirse bien", "buen estado físico y mental"],
@@ -24852,7 +24852,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "alojamiento",
-    palabra: "alojamiento",
+    palabra: "Alojamiento",
     imagen: { id: 9895, alt: "Un cartel de hotel" },
     definicion: "Es el lugar donde una persona duerme y se queda cuando no está en su propia casa.",
     sinonimos: ["hospedaje", "lugar donde quedarse"],
@@ -24863,7 +24863,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "aposito",
-    palabra: "apósito",
+    palabra: "Apósito",
     imagen: { id: 27794, alt: "Una gasa" },
     definicion: "Es una gasa o un vendaje que se pone sobre una herida para protegerla y ayudar a que cure.",
     sinonimos: ["gasa protectora", "gasa para la herida"],
@@ -24874,7 +24874,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "contractual",
-    palabra: "contractual",
+    palabra: "Contractual",
     imagen: { id: 12317, alt: "Un contrato de trabajo firmado" },
     definicion: "Es algo relacionado con un contrato o que forma parte de sus condiciones.",
     sinonimos: ["relacionada con el contrato", "que forma parte del contrato"],
@@ -24885,7 +24885,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "disciplinario",
-    palabra: "disciplinario",
+    palabra: "Disciplinario",
     imagen: { id: 37340, alt: "Un jefe entregando un aviso por escrito a un empleado" },
     definicion: "Es algo relacionado con las normas de conducta en el trabajo y las sanciones si no se cumplen.",
     sinonimos: ["relacionado con las sanciones", "de conducta laboral"],
@@ -24896,7 +24896,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "incumplimiento",
-    palabra: "incumplimiento",
+    palabra: "Incumplimiento",
     imagen: { id: 8371, alt: "Una tarjeta roja" },
     definicion: "Es no hacer o no respetar algo que se había prometido o acordado, como un contrato o una norma.",
     sinonimos: ["no cumplir un acuerdo", "falta de cumplimiento"],
@@ -24907,7 +24907,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "conforme",
-    palabra: "conforme",
+    palabra: "Conforme",
     imagen: { id: 21383, alt: "Una persona aprobando con el pulgar hacia arriba" },
     definicion: "Es estar de acuerdo con algo o actuar siguiendo exactamente lo que dice una norma o un documento.",
     sinonimos: ["de acuerdo con", "siguiendo lo que dice"],
@@ -24918,7 +24918,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "competente",
-    palabra: "competente",
+    palabra: "Competente",
     imagen: { id: 8147, alt: "Un edificio de juzgado con la balanza de la justicia" },
     definicion: "Es la autoridad o el organismo que tiene el poder legal para ocuparse de un asunto concreto.",
     sinonimos: ["con autoridad legal", "encargado por ley"],
@@ -24929,7 +24929,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "importe",
-    palabra: "importe",
+    palabra: "Importe",
     imagen: { id: 38971, alt: "Una factura con la cantidad total marcada" },
     definicion: "Es la cantidad de dinero que hay que pagar por algo.",
     sinonimos: ["cantidad a pagar", "suma de dinero"],
@@ -24940,7 +24940,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "unitario",
-    palabra: "unitario",
+    palabra: "Unitario",
     imagen: { id: 9874, alt: "Una etiqueta de precio" },
     definicion: "Es el precio de una sola unidad de un producto o servicio, antes de multiplicarlo por la cantidad.",
     sinonimos: ["precio por unidad", "coste de cada unidad"],
@@ -24951,7 +24951,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "prestador",
-    palabra: "prestador",
+    palabra: "Prestador",
     imagen: { id: 5492, alt: "Una persona comparando ofertas de compañías de internet" },
     definicion: "Es la empresa o persona que ofrece un servicio, como internet, teléfono o electricidad.",
     sinonimos: ["empresa de servicios", "proveedor de servicios"],
@@ -24962,7 +24962,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "penalizacion",
-    palabra: "penalización",
+    palabra: "Penalización",
     imagen: { id: 15517, alt: "Una factura con un cargo extra resaltado" },
     definicion: "Es el dinero que hay que pagar de más por no cumplir una condición, como cancelar algo antes de tiempo.",
     sinonimos: ["cargo extra por cancelar", "multa por incumplir"],
@@ -24973,7 +24973,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "permanencia",
-    palabra: "permanencia",
+    palabra: "Permanencia",
     imagen: { id: 3071, alt: "Un calendario" },
     definicion: "Es el tiempo mínimo que tienes que mantener un contrato antes de poder cancelarlo sin pagar de más.",
     sinonimos: ["tiempo mínimo obligatorio", "compromiso de contrato"],
@@ -24984,7 +24984,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "facturacion",
-    palabra: "facturación",
+    palabra: "Facturación",
     imagen: { id: 38971, alt: "Una factura" },
     definicion: "Es el proceso de hacer y enviar las facturas de lo que se ha comprado o usado.",
     sinonimos: ["proceso de facturar", "emisión de facturas"],
@@ -24995,7 +24995,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "perjuicio",
-    palabra: "perjuicio",
+    palabra: "Perjuicio",
     imagen: { id: 2636, alt: "Un abogado presentando una reclamación de indemnización" },
     definicion: "Es un daño o una pérdida que sufre una persona por culpa de otra.",
     sinonimos: ["daño causado", "pérdida sufrida"],
@@ -25006,7 +25006,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "suspension",
-    palabra: "suspensión",
+    palabra: "Suspensión",
     imagen: { id: 8289, alt: "Una señal de stop" },
     definicion: "Es parar temporalmente un servicio o un contrato, sin cancelarlo del todo.",
     sinonimos: ["parada temporal", "interrupción temporal"],
@@ -25017,7 +25017,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "registral",
-    palabra: "registral",
+    palabra: "Registral",
     imagen: { id: 37870, alt: "Un documento del Registro de la Propiedad con un sello" },
     definicion: "Es algo relacionado con el Registro de la Propiedad, donde se anotan oficialmente las viviendas y sus dueños.",
     sinonimos: ["del registro de la propiedad", "relacionado con el registro"],
@@ -25028,7 +25028,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "otorgamiento",
-    palabra: "otorgamiento",
+    palabra: "Otorgamiento",
     imagen: { id: 35413, alt: "Dos personas firmando un documento ante un notario" },
     definicion: "Es el momento en el que se firma oficialmente un documento legal, como una escritura, delante de un notario.",
     sinonimos: ["firma oficial del documento", "concesión formal"],
@@ -25039,7 +25039,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "hacer-constar",
-    palabra: "hacer constar",
+    palabra: "Hacer constar",
     imagen: { id: 12317, alt: "Una persona firmando un acta oficial" },
     definicion: "Es decir o escribir algo de forma oficial para que quede como prueba o como parte de un documento.",
     sinonimos: ["dejar constancia", "declarar oficialmente"],
@@ -25050,7 +25050,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "particion",
-    palabra: "partición",
+    palabra: "Partición",
     imagen: { id: 26377, alt: "Varios hermanos repartiendo los bienes de una herencia" },
     definicion: "Es repartir los bienes de una persona fallecida entre las personas que los heredan.",
     sinonimos: ["reparto de la herencia", "división de los bienes"],
@@ -25061,7 +25061,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "folio",
-    palabra: "folio",
+    palabra: "Folio",
     imagen: { id: 2398, alt: "Varios folios de papel" },
     definicion: "Es el número de página donde está anotada oficialmente una vivienda en el Registro de la Propiedad.",
     sinonimos: ["número de registro", "página del registro"],
@@ -25072,7 +25072,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "diferencial",
-    palabra: "diferencial",
+    palabra: "Diferencial",
     imagen: { id: 34814, alt: "Una persona pidiendo un préstamo" },
     definicion: "Es la parte fija que el banco añade al interés variable de una hipoteca.",
     sinonimos: ["parte fija del interés", "margen del banco"],
@@ -25083,7 +25083,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "gravedad",
-    palabra: "gravedad",
+    palabra: "Gravedad",
     imagen: { id: 4569, alt: "Un astronauta flotando en el espacio" },
     definicion: "Es la fuerza que hace que las cosas caigan al suelo y que los planetas se mantengan girando alrededor del Sol.",
     sinonimos: ["fuerza de atracción", "fuerza que atrae hacia el suelo"],
@@ -25094,7 +25094,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "atmosfera",
-    palabra: "atmósfera",
+    palabra: "Atmósfera",
     imagen: { id: 30014, alt: "La Tierra, el planeta" },
     definicion: "Es la capa de aire y gases que rodea un planeta, como la Tierra.",
     sinonimos: ["capa de aire", "capa de gases"],
@@ -25105,7 +25105,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "galaxia",
-    palabra: "galaxia",
+    palabra: "Galaxia",
     imagen: { id: 37733, alt: "Una galaxia espiral con muchas estrellas" },
     definicion: "Es un grupo enorme de estrellas, planetas y polvo que se mantienen juntos en el espacio.",
     sinonimos: ["conjunto de estrellas", "sistema de estrellas"],
@@ -25116,7 +25116,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "nucleo",
-    palabra: "núcleo",
+    palabra: "Núcleo",
     imagen: { id: 36340, alt: "Una célula con su núcleo en el centro" },
     definicion: "Es la parte central de algo, como una célula o un átomo, donde está lo más importante.",
     sinonimos: ["parte central", "centro de la célula o del átomo"],
@@ -25127,7 +25127,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "dimension",
-    palabra: "dimensión",
+    palabra: "Dimensión",
     imagen: { id: 9134, alt: "Un cubo tridimensional" },
     definicion: "Es cada una de las direcciones que se pueden medir en un espacio, como el largo, el ancho o el alto.",
     sinonimos: ["medidas del espacio", "tamaño en una dirección"],
@@ -25138,7 +25138,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "evolucion",
-    palabra: "evolución",
+    palabra: "Evolución",
     imagen: { id: 2437, alt: "Una jirafa con el cuello muy largo" },
     definicion: "Es el cambio poco a poco de los seres vivos a lo largo de mucho tiempo, para adaptarse mejor a su entorno.",
     sinonimos: ["cambio a lo largo del tiempo", "adaptación progresiva"],
@@ -25149,7 +25149,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "genetica",
-    palabra: "genética",
+    palabra: "Genética",
     imagen: { id: 32084, alt: "Una familia con rasgos parecidos entre padres e hijos" },
     definicion: "Es la ciencia que estudia cómo se pasan las características de padres a hijos.",
     sinonimos: ["ciencia de la herencia", "estudio de los genes", "genético"],
@@ -25160,7 +25160,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "eclipse",
-    palabra: "eclipse",
+    palabra: "Eclipse",
     imagen: { id: 8097, alt: "El Sol tapado por la Luna" },
     definicion: "Es cuando un astro tapa la luz de otro, como cuando la Luna se pone delante del Sol.",
     sinonimos: ["ocultación de un astro", "sol o luna tapados"],
@@ -25171,7 +25171,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "densidad",
-    palabra: "densidad",
+    palabra: "Densidad",
     imagen: { id: 2655, alt: "Una balanza" },
     definicion: "Es la cantidad de materia que hay en un espacio determinado. Por eso unas cosas pesan más que otras del mismo tamaño.",
     sinonimos: ["cantidad de materia por espacio", "peso por volumen"],
@@ -25193,7 +25193,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "particula",
-    palabra: "partícula",
+    palabra: "Partícula",
     imagen: { id: 8168, alt: "Un microscopio enfocando algo muy pequeño" },
     definicion: "Es un trozo diminuto de materia, mucho más pequeño de lo que se puede ver a simple vista.",
     sinonimos: ["trozo diminuto", "fragmento muy pequeño"],
@@ -25204,7 +25204,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "asteroide",
-    palabra: "asteroide",
+    palabra: "Asteroide",
     imagen: { id: 34241, alt: "Un asteroide pasando cerca de la Tierra, la Luna y el Sol" },
     definicion: "Es una roca grande que viaja por el espacio, más pequeña que un planeta.",
     sinonimos: ["roca espacial", "cuerpo rocoso del espacio"],
@@ -25215,7 +25215,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "glaciar",
-    palabra: "glaciar",
+    palabra: "Glaciar",
     imagen: { id: 34268, alt: "Una gran masa de hielo entre montañas" },
     definicion: "Es una masa muy grande de hielo que se mueve muy despacio por un valle o una montaña.",
     sinonimos: ["masa de hielo", "río de hielo"],
@@ -25226,7 +25226,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "constelacion",
-    palabra: "constelación",
+    palabra: "Constelación",
     imagen: { id: 6978, alt: "Un cielo estrellado con líneas uniendo algunas estrellas" },
     definicion: "Es un grupo de estrellas que, vistas desde la Tierra, forman un dibujo reconocible en el cielo.",
     sinonimos: ["grupo de estrellas con forma", "dibujo de estrellas"],
@@ -25237,7 +25237,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "ecuador",
-    palabra: "ecuador",
+    palabra: "Ecuador",
     imagen: { id: 30014, alt: "La Tierra, el planeta" },
     definicion: "Es la línea imaginaria que rodea la Tierra por la mitad, entre el norte y el sur.",
     sinonimos: ["línea que divide la Tierra en dos", "línea media del planeta"],
@@ -25248,7 +25248,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "parasito",
-    palabra: "parásito",
+    palabra: "Parásito",
     imagen: { id: 2935, alt: "Una lombriz" },
     definicion: "Es un ser vivo que vive dentro o encima de otro ser vivo y se alimenta de él, haciéndole daño.",
     sinonimos: ["ser que vive de otro", "organismo dañino que vive en otro"],
@@ -25259,7 +25259,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "contaminacion",
-    palabra: "contaminación",
+    palabra: "Contaminación",
     imagen: { id: 36902, alt: "Plástico y basura contaminando el mar" },
     definicion: "Es cuando el aire, el agua o la tierra se ensucian con sustancias dañinas para la salud o la naturaleza.",
     sinonimos: ["suciedad del medio ambiente", "polución"],
@@ -25270,7 +25270,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "anomalia",
-    palabra: "anomalía",
+    palabra: "Anomalía",
     imagen: { id: 9927, alt: "Una lupa" },
     definicion: "Es algo que no sigue lo normal o lo esperado, algo raro o distinto de lo habitual.",
     sinonimos: ["algo fuera de lo normal", "irregularidad"],
@@ -25281,7 +25281,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "altitud",
-    palabra: "altitud",
+    palabra: "Altitud",
     imagen: { id: 4580, alt: "Una montaña alta con una ciudad en la cima" },
     definicion: "Es la altura a la que está un lugar, medida desde el nivel del mar.",
     sinonimos: ["altura sobre el mar", "elevación"],
@@ -25292,7 +25292,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "magnetismo",
-    palabra: "magnetismo",
+    palabra: "Magnetismo",
     imagen: { id: 8138, alt: "Un imán atrayendo clips de metal" },
     definicion: "Es la fuerza que hace que un imán atraiga objetos de metal, como el hierro.",
     sinonimos: ["fuerza de un imán", "atracción magnética"],
@@ -25561,7 +25561,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "meteorito",
-    palabra: "meteorito",
+    palabra: "Meteorito",
     imagen: { id: 34241, alt: "Una roca cayendo del espacio" },
     definicion: "Es un trozo de roca que viaja por el espacio y llega a caer en la Tierra.",
     sinonimos: ["piedra del espacio", "roca espacial que cae a la Tierra"],
@@ -25572,7 +25572,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "supernova",
-    palabra: "supernova",
+    palabra: "Supernova",
     imagen: { id: 4791, alt: "Una explosión" },
     definicion: "Es la explosión muy grande de una estrella al final de su vida.",
     sinonimos: ["explosión de una estrella", "estrella que explota"],
@@ -25583,7 +25583,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "mutacion",
-    palabra: "mutación",
+    palabra: "Mutación",
     imagen: { id: 10268, alt: "ADN" },
     definicion: "Es un cambio en los genes de un ser vivo, que puede pasar de padres a hijos.",
     sinonimos: ["cambio genético", "cambio en el ADN"],
@@ -25594,7 +25594,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "genoma",
-    palabra: "genoma",
+    palabra: "Genoma",
     imagen: { id: 10268, alt: "Una cadena de ADN" },
     definicion: "Es toda la información genética de un ser vivo, guardada en sus genes.",
     sinonimos: ["información genética completa", "conjunto de todos los genes"],
@@ -25605,7 +25605,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "ozono",
-    palabra: "ozono",
+    palabra: "Ozono",
     imagen: { id: 10289, alt: "La Tierra rodeada de una capa protectora" },
     definicion: "Es un gas que forma una capa alrededor de la Tierra y nos protege del Sol.",
     sinonimos: ["gas protector de la atmósfera", "capa que protege del Sol"],
@@ -25616,7 +25616,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "cromosoma",
-    palabra: "cromosoma",
+    palabra: "Cromosoma",
     imagen: { id: 36340, alt: "Un cromosoma en forma de X" },
     definicion: "Es una parte de la célula donde se guardan los genes de un ser vivo.",
     sinonimos: ["parte de la célula con los genes", "estructura que guarda los genes"],
@@ -25627,7 +25627,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "clonacion",
-    palabra: "clonación",
+    palabra: "Clonación",
     imagen: { id: 2489, alt: "Una oveja" },
     definicion: "Es crear un ser vivo copiando exactamente los genes de otro ser vivo.",
     sinonimos: ["copia genética exacta de un ser vivo", "creación de una copia idéntica"],
@@ -25638,7 +25638,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "biotecnologia",
-    palabra: "biotecnología",
+    palabra: "Biotecnología",
     imagen: { id: 8150, alt: "Un laboratorio científico" },
     definicion: "Es usar seres vivos o partes de ellos para fabricar productos útiles, como medicinas.",
     sinonimos: ["tecnología que usa seres vivos", "ciencia que fabrica productos con seres vivos"],
@@ -25649,7 +25649,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "radiactividad",
-    palabra: "radiactividad",
+    palabra: "Radiactividad",
     imagen: { id: 8657, alt: "Símbolo de peligro por radiación" },
     definicion: "Es la energía peligrosa que sueltan algunos materiales de forma natural.",
     sinonimos: ["energía peligrosa de algunos materiales", "emisión de energía nuclear", "radioactividad"],
@@ -25660,7 +25660,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "multiverso",
-    palabra: "multiverso",
+    palabra: "Multiverso",
     imagen: { id: 37375, alt: "Varios universos diferentes" },
     definicion: "Es la idea de que pueden existir muchos universos diferentes al mismo tiempo.",
     sinonimos: ["conjunto de varios universos", "muchos universos posibles"],
@@ -25671,7 +25671,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "enzima",
-    palabra: "enzima",
+    palabra: "Enzima",
     imagen: { id: 26346, alt: "Una proteína" },
     definicion: "Es una sustancia del cuerpo que hace que las reacciones químicas, como la digestión, pasen más rápido.",
     sinonimos: ["sustancia que acelera las reacciones del cuerpo", "proteína que ayuda a digerir los alimentos"],
@@ -25693,7 +25693,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "inercia",
-    palabra: "inercia",
+    palabra: "Inercia",
     imagen: { id: 4638, alt: "Una persona empujando algo" },
     definicion: "Es la fuerza que hace que las cosas sigan quietas o en movimiento si nadie las cambia.",
     sinonimos: ["tendencia a seguir igual", "resistencia a cambiar de estado"],
@@ -25704,7 +25704,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "plancton",
-    palabra: "plancton",
+    palabra: "Plancton",
     imagen: { id: 2925, alt: "Seres diminutos flotando en el mar" },
     definicion: "Son seres muy pequeños que flotan en el agua del mar y sirven de alimento a muchos animales.",
     sinonimos: ["seres diminutos que flotan en el mar", "alimento base de la vida marina"],
@@ -25715,7 +25715,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "tundra",
-    palabra: "tundra",
+    palabra: "Tundra",
     imagen: { id: 3135, alt: "Paisaje frío con nieve" },
     definicion: "Es una zona muy fría donde casi no crecen árboles y el suelo está helado.",
     sinonimos: ["zona helada sin árboles", "llanura fría del norte"],
@@ -25726,7 +25726,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "fision",
-    palabra: "fisión",
+    palabra: "Fisión",
     imagen: { id: 8534, alt: "Una central nuclear" },
     definicion: "Es dividir el núcleo de un átomo para liberar una gran cantidad de energía.",
     sinonimos: ["división del núcleo de un átomo", "proceso que libera energía nuclear"],
@@ -25737,7 +25737,7 @@ DICCIONARIOS.es = [
   },
   {
     id: "entropia",
-    palabra: "entropía",
+    palabra: "Entropía",
     imagen: { id: 36633, alt: "Un cuarto desordenado" },
     definicion: "Es una medida del desorden de un sistema, que tiende a aumentar con el tiempo.",
     sinonimos: ["nivel de desorden de un sistema", "tendencia natural al desorden"],
@@ -28123,5 +28123,172 @@ DICCIONARIOS.es = [
     ejemploSinonimo: { palabra: "aviso temprano", texto: "El colesterol alto es un aviso temprano de infartos." },
     situacion: "salud",
     /*traduccion-start*/traduccion: { en: "predictor" },/*traduccion-end*/
+  },
+
+  // --- AIVD: listapalabras.com hinted re-review (suffix-tagged pool) - erario/signatario/biliario/etario/torsion/pulsion/oratoria/rogatorio/cesionario/habilitacion/reunificacion-familiar/ocultacion-bienes/espiratorio/autoexclusion/sionista (2026-09-10) ---
+  {
+    id: "erario",
+    palabra: "Erario",
+    imagen: { id: 8625, alt: "Un mapa del tesoro" },
+    definicion: "El dinero y los bienes que pertenecen al Estado o a una administración pública.",
+    sinonimos: ["dinero público","fondos del Estado"],
+    ejemplo: { palabra: "erario", texto: "El alcalde fue acusado de usar el erario para gastos personales." },
+    ejemploSinonimo: { palabra: "dinero público", texto: "El alcalde fue acusado de usar el dinero público para gastos personales." },
+    situacion: "finanzas",
+    /*traduccion-start*/traduccion: { en: "public-treasury" },/*traduccion-end*/
+  },
+  {
+    id: "signatario",
+    palabra: "Signatario",
+    imagen: { id: 11291, alt: "Juez, magistrado" },
+    definicion: "La persona o el país que ha firmado oficialmente un acuerdo o un tratado.",
+    sinonimos: ["país que firma un acuerdo","persona que firma un acuerdo"],
+    ejemplo: { palabra: "signatario", texto: "Ese país es conocido como signatario del tratado." },
+    ejemploSinonimo: { palabra: "país que firma un acuerdo", texto: "Ese país es conocido como país que firma un acuerdo del tratado." },
+    situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "signatory" },/*traduccion-end*/
+  },
+  {
+    id: "biliario",
+    palabra: "Biliario",
+    imagen: { id: 2980, alt: "El hígado dentro del cuerpo" },
+    definicion: "Relacionado con la bilis o con los conductos que la transportan desde el hígado.",
+    sinonimos: ["relacionado con la bilis","relativo a los conductos que llevan la bilis"],
+    ejemplo: { palabra: "biliario", texto: "El médico detectó un cálculo biliario en una ecografía." },
+    ejemploSinonimo: { palabra: "relacionado con la bilis", texto: "El médico detectó un cálculo relacionado con la bilis en una ecografía." },
+    situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "biliary" },/*traduccion-end*/
+  },
+  {
+    id: "grupo-etario",
+    palabra: "Grupo etario",
+    imagen: { id: 7116, alt: "Un grupo de personas de distintas edades" },
+    definicion: "Un conjunto de personas que tienen edades parecidas.",
+    sinonimos: ["conjunto de personas de edades parecidas","personas de la misma edad aproximada"],
+    ejemplo: { palabra: "grupo etario", texto: "La vacuna se recomienda para ese grupo etario." },
+    ejemploSinonimo: { palabra: "conjunto de personas de edades parecidas", texto: "La vacuna se recomienda para ese conjunto de personas de edades parecidas." },
+    situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "age-group" },/*traduccion-end*/
+  },
+  {
+    id: "torsion",
+    palabra: "Torsión",
+    imagen: { id: 3405, alt: "Un tobillo hinchado" },
+    definicion: "Un giro forzado de una parte del cuerpo que la daña o le corta el paso de la sangre.",
+    sinonimos: ["vuelta forzada que daña una parte del cuerpo","retorcimiento que corta la circulación"],
+    ejemplo: { palabra: "torsión", texto: "Le diagnosticaron una torsión en el tobillo." },
+    ejemploSinonimo: { palabra: "vuelta forzada que daña una parte del cuerpo", texto: "Le diagnosticaron una vuelta forzada que daña una parte del cuerpo en el tobillo." },
+    situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "torsion" },/*traduccion-end*/
+  },
+  {
+    id: "pulsion",
+    palabra: "Pulsión",
+    imagen: { id: 2450, alt: "Un libro" },
+    definicion: "Un impulso interno y poderoso que empuja a una persona a hacer algo, muchas veces sin que se dé cuenta.",
+    sinonimos: ["fuerza interna e incontrolable","impulso interno y poderoso"],
+    ejemplo: { palabra: "pulsión", texto: "El terapeuta habló sobre la pulsión que sentía el paciente." },
+    ejemploSinonimo: { palabra: "fuerza interna e incontrolable", texto: "El terapeuta habló sobre la fuerza interna e incontrolable que sentía el paciente." },
+    situacion: "conocimiento",
+    /*traduccion-start*/traduccion: { en: "psychological-drive" },/*traduccion-end*/
+  },
+  {
+    id: "oratoria",
+    palabra: "Oratoria",
+    imagen: { id: 2912, alt: "Un micrófono para grabar sonido" },
+    definicion: "El arte de hablar bien en público para convencer o emocionar a quien escucha.",
+    sinonimos: ["arte de hablar bien en público","habilidad para hablar en público"],
+    ejemplo: { palabra: "oratoria", texto: "El político era famoso por su oratoria." },
+    ejemploSinonimo: { palabra: "arte de hablar bien en público", texto: "El político era famoso por su arte de hablar bien en público." },
+    situacion: "conocimiento",
+    /*traduccion-start*/traduccion: { en: "oratory" },/*traduccion-end*/
+  },
+  {
+    id: "carta-rogatoria",
+    palabra: "Carta rogatoria",
+    imagen: { id: 2688, alt: "Una carta oficial" },
+    definicion: "Un documento oficial con el que un juez de un país pide ayuda legal a un juez de otro país.",
+    sinonimos: ["petición legal entre jueces de países distintos","documento oficial de ayuda judicial internacional"],
+    ejemplo: { palabra: "carta rogatoria", texto: "El juez envió una carta rogatoria a Francia para citar al testigo." },
+    ejemploSinonimo: { palabra: "petición legal entre jueces de países distintos", texto: "El juez envió una petición legal entre jueces de países distintos a Francia para citar al testigo." },
+    situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "letter-rogatory" },/*traduccion-end*/
+  },
+  {
+    id: "cesionario",
+    palabra: "Cesionario",
+    imagen: { id: 11291, alt: "Juez, magistrado" },
+    definicion: "La persona que recibe oficialmente un derecho o una propiedad de otra persona.",
+    sinonimos: ["persona que recibe un derecho o propiedad","persona a la que se ceden derechos"],
+    ejemplo: { palabra: "cesionario", texto: "El contrato nombró a su hijo como cesionario del alquiler." },
+    ejemploSinonimo: { palabra: "persona que recibe un derecho o propiedad", texto: "El contrato nombró a su hijo como persona que recibe un derecho o propiedad del alquiler." },
+    situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "assignee" },/*traduccion-end*/
+  },
+  {
+    id: "habilitacion",
+    palabra: "Habilitación",
+    imagen: { id: 37406, alt: "Un título o documento oficial" },
+    definicion: "El permiso oficial que confirma que una persona puede ejercer una profesión.",
+    sinonimos: ["certificación oficial para ejercer una profesión","autorización para trabajar en una profesión"],
+    ejemplo: { palabra: "habilitación", texto: "Necesita la habilitación que exige el ministerio." },
+    ejemploSinonimo: { palabra: "certificación oficial para ejercer una profesión", texto: "Necesita la certificación oficial para ejercer una profesión que exige el ministerio." },
+    situacion: "trabajo",
+    /*traduccion-start*/traduccion: { en: "licensure" },/*traduccion-end*/
+  },
+  {
+    id: "reunificacion-familiar",
+    palabra: "Reunificación familiar",
+    imagen: { id: 4550, alt: "Un abrazo" },
+    definicion: "El derecho de una persona inmigrante a traer a su país a los miembros más cercanos de su familia.",
+    sinonimos: ["reunión legal de una familia separada por la migración","vía legal para traer a la familia cercana"],
+    ejemplo: { palabra: "reunificación familiar", texto: "Pidió la reunificación familiar para traer a sus hijos." },
+    ejemploSinonimo: { palabra: "reunión legal de una familia separada por la migración", texto: "Pidió la reunión legal de una familia separada por la migración para traer a sus hijos." },
+    situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "family-reunification" },/*traduccion-end*/
+  },
+  {
+    id: "ocultacion-de-bienes",
+    palabra: "Ocultación de bienes",
+    imagen: { id: 4642, alt: "Una persona escondida" },
+    definicion: "Esconder dinero o propiedades a propósito para no pagar una deuda o un impuesto.",
+    sinonimos: ["esconder bienes para no pagar una deuda","acción de esconder dinero o propiedades"],
+    ejemplo: { palabra: "ocultación de bienes", texto: "Lo acusaron de ocultación de bienes durante el juicio." },
+    ejemploSinonimo: { palabra: "esconder bienes para no pagar una deuda", texto: "Lo acusaron de esconder bienes para no pagar una deuda durante el juicio." },
+    situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "asset-concealment" },/*traduccion-end*/
+  },
+  {
+    id: "espiratorio",
+    palabra: "Espiratorio",
+    imagen: { id: 34409, alt: "Una persona respira" },
+    definicion: "Relacionado con el momento de soltar el aire de los pulmones al respirar.",
+    sinonimos: ["relacionado con soltar el aire al respirar","relativo a la salida del aire de los pulmones"],
+    ejemplo: { palabra: "espiratorio", texto: "El aparato mide el flujo espiratorio del paciente." },
+    ejemploSinonimo: { palabra: "relacionado con soltar el aire al respirar", texto: "El aparato mide el flujo relacionado con soltar el aire al respirar del paciente." },
+    situacion: "salud",
+    /*traduccion-start*/traduccion: { en: "expiratory" },/*traduccion-end*/
+  },
+  {
+    id: "registro-de-autoexclusion",
+    palabra: "Registro de autoexclusión",
+    imagen: { id: 28227, alt: "Una ruleta de casino con fichas y cartas" },
+    definicion: "Una lista oficial en la que una persona se apunta para que no la dejen entrar a casinos ni apostar dinero.",
+    sinonimos: ["programa para prohibirse a uno mismo el juego","lista de personas excluidas voluntariamente del juego"],
+    ejemplo: { palabra: "registro de autoexclusión", texto: "Se apuntó al registro de autoexclusión para dejar de jugar." },
+    ejemploSinonimo: { palabra: "programa para prohibirse a uno mismo el juego", texto: "Se apuntó al programa para prohibirse a uno mismo el juego para dejar de jugar." },
+    situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "self-exclusion-registry" },/*traduccion-end*/
+  },
+  {
+    id: "sionista",
+    palabra: "Sionista",
+    imagen: { id: 5918, alt: "Una bandera" },
+    definicion: "Una persona que apoya el sionismo, el movimiento que defiende la existencia de un Estado judío en la tierra de Israel.",
+    sinonimos: ["persona que apoya el sionismo","partidario del movimiento que defiende un Estado judío en Israel"],
+    ejemplo: { palabra: "sionista", texto: "Aquel político era conocido como sionista." },
+    ejemploSinonimo: { palabra: "persona que apoya el sionismo", texto: "Aquel político era conocido como persona que apoya el sionismo." },
+    situacion: "conocimiento",
+    /*traduccion-start*/traduccion: { en: "zionist" },/*traduccion-end*/
   },
 ];

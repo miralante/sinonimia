@@ -15989,6 +15989,7 @@ DICCIONARIOS.en = [
     ejemplo: { palabra: "assignee", texto: "The contract named her as the assignee of the lease." },
     ejemploSinonimo: { palabra: "person who receives rights or property", texto: "The contract named her as the person who receives rights or property of the lease." },
     situacion: "legal",
+    traduccion: { es: "cesionario" },
   },
   {
     id: "assignor",
@@ -21099,6 +21100,7 @@ DICCIONARIOS.en = [
     ejemplo: { palabra: "a signatory", texto: "He was proud to become a signatory." },
     ejemploSinonimo: { palabra: "a person who officially signed the agreement", texto: "He was proud to become a person who officially signed the agreement." },
     situacion: "legal",
+    traduccion: { es: "signatario" },
   },
   {
     id: "silicosis",
@@ -23818,7 +23820,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "evacuate",
-    palabra: "evacuate",
+    palabra: "Evacuate",
     imagen: { id: 37863, alt: "People leaving a building through an exit" },
     definicion: "To make everyone leave a place quickly and in order, because of a serious danger.",
     sinonimos: ["clear out", "get everyone out"],
@@ -23828,7 +23830,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "first-aid",
-    palabra: "first aid",
+    palabra: "First aid",
     imagen: { id: 2930, alt: "A box with first aid supplies" },
     definicion: "The care given straight away to an injured person, before the doctor arrives.",
     sinonimos: ["immediate help", "emergency care"],
@@ -23838,7 +23840,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "theft",
-    palabra: "theft",
+    palabra: "Theft",
     imagen: { id: 22088, alt: "A hand taking a wallet from someone's bag" },
     definicion: "Taking something that belongs to someone else without asking or paying for it.",
     sinonimos: ["stealing", "taking without permission"],
@@ -23849,7 +23851,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "airer",
-    palabra: "airer",
+    palabra: "Airer",
     imagen: { id: 6228, alt: "A folding rack with wet clothes hanging to dry" },
     definicion: "A frame you use to hang wet clothes on so they dry indoors.",
     sinonimos: ["clothes drying rack", "drying frame"],
@@ -23859,7 +23861,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "flat-hunting",
-    palabra: "flat hunting",
+    palabra: "Flat hunting",
     imagen: { id: 29893, alt: "The window display of an estate agency with flats for sale" },
     definicion: "Looking at adverts and visiting homes to find a flat to live in.",
     sinonimos: ["looking for a flat", "house hunting"],
@@ -23870,7 +23872,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "household-chores",
-    palabra: "household chores",
+    palabra: "Household chores",
     imagen: { id: 3227, alt: "A vacuum cleaner" },
     definicion: "The jobs done at home every day, like cleaning, cooking or washing clothes.",
     sinonimos: ["housework", "domestic tasks"],
@@ -23881,7 +23883,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "moving-house",
-    palabra: "moving house",
+    palabra: "Moving house",
     imagen: { id: 32594, alt: "Stacked moving boxes" },
     definicion: "Taking all your things from one home to another. You need boxes and a van.",
     sinonimos: ["house move", "relocating"],
@@ -23892,7 +23894,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "shared-housing",
-    palabra: "shared housing",
+    palabra: "Shared housing",
     imagen: { id: 7062, alt: "Two flatmates" },
     definicion: "Renting a flat between several people who are not family. Each person pays part of the rent.",
     sinonimos: ["house share", "shared rent"],
@@ -23903,7 +23905,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "learning-support",
-    palabra: "learning support",
+    palabra: "Learning support",
     imagen: { id: 21020, alt: "A support teacher" },
     definicion: "Extra help a pupil gets at school to follow lessons better.",
     sinonimos: ["school support", "extra help at school"],
@@ -23914,7 +23916,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "special-educational-needs",
-    palabra: "special educational needs",
+    palabra: "Special educational needs",
     imagen: { id: 39261, alt: "An adult and a child playing with building blocks" },
     definicion: "Teaching designed for pupils who need different help to learn.",
     sinonimos: ["SEN", "special needs education"],
@@ -23925,7 +23927,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "speech-therapist",
-    palabra: "speech therapist",
+    palabra: "Speech therapist",
     imagen: { id: 2454, alt: "A professional helping a child pronounce words in front of a mirror" },
     definicion: "The professional who helps you speak better if you find it hard to talk clearly.",
     sinonimos: ["speech and language specialist"],
@@ -23936,7 +23938,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "training-course",
-    palabra: "training course",
+    palabra: "Training course",
     imagen: { id: 24613, alt: "A trainer teaching a small class with a whiteboard" },
     definicion: "A set of classes to learn something specific, usually related to a job.",
     sinonimos: ["training programme", "vocational course"],
@@ -23947,7 +23949,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "tutor",
-    palabra: "tutor",
+    palabra: "Tutor",
     imagen: { id: 39166, alt: "An adult helping a child with homework at a table" },
     definicion: "A person who gives someone extra lessons outside school, usually one to one.",
     sinonimos: ["private teacher", "extra-lessons teacher"],
@@ -23957,7 +23959,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "compare",
-    palabra: "compare",
+    palabra: "Compare",
     imagen: { id: 8098, alt: "Educación, formación" },
     definicion: "To look at two or more things to see how they are alike and how they are different.",
     sinonimos: ["contrast", "check against each other"],
@@ -23968,7 +23970,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "doubt",
-    palabra: "doubt",
+    palabra: "Doubt",
     imagen: { id: 11696, alt: "A thoughtful person with question marks" },
     definicion: "To not be sure about something and not know what decision to make.",
     sinonimos: ["hesitate", "not be sure"],
@@ -23979,7 +23981,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "forget",
-    palabra: "forget",
+    palabra: "Forget",
     imagen: { id: 26258, alt: "A person looking confused, trying to remember" },
     definicion: "To stop remembering something you knew or something you had to do.",
     sinonimos: ["not remember", "lose track of"],
@@ -23990,7 +23992,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "imagine",
-    palabra: "imagine",
+    palabra: "Imagine",
     imagen: { id: 38003, alt: "A person looking at an empty room thinking about furniture" },
     definicion: "To think of something that is not really happening, forming an idea in your mind.",
     sinonimos: ["picture", "form an idea"],
@@ -24001,7 +24003,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "learn",
-    palabra: "learn",
+    palabra: "Learn",
     imagen: { id: 8029, alt: "A person learning to play the guitar with a teacher" },
     definicion: "To get to know or know how to do something new, through study or practice.",
     sinonimos: ["pick up a new skill", "gain knowledge"],
@@ -24012,7 +24014,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "observe",
-    palabra: "observe",
+    palabra: "Observe",
     imagen: { id: 2474, alt: "A doctor looking closely at a wound on an arm" },
     definicion: "To look at something carefully to notice the details.",
     sinonimos: ["watch", "look carefully at"],
@@ -24023,7 +24025,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "reflect",
-    palabra: "reflect",
+    palabra: "Reflect",
     imagen: { id: 8662, alt: "A face with a thought bubble" },
     definicion: "To think slowly and calmly about something before deciding.",
     sinonimos: ["think it over", "consider carefully"],
@@ -24034,7 +24036,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "remember",
-    palabra: "remember",
+    palabra: "Remember",
     imagen: { id: 11357, alt: "A person searching for something, trying to remember" },
     definicion: "To bring back to your mind something that happened or something you have to do.",
     sinonimos: ["recall", "keep in mind"],
@@ -24045,7 +24047,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "teach",
-    palabra: "teach",
+    palabra: "Teach",
     imagen: { id: 26809, alt: "A teacher explaining at the blackboard to a pupil" },
     definicion: "To explain something to another person so they learn to know it or do it.",
     sinonimos: ["instruct", "give lessons"],
@@ -24056,7 +24058,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "understand",
-    palabra: "understand",
+    palabra: "Understand",
     imagen: { id: 11697, alt: "A person reading a letter carefully" },
     definicion: "To grasp the meaning of something, with no doubts left.",
     sinonimos: ["comprehend", "grasp the meaning", "comprehension"],
@@ -24067,7 +24069,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "qualification",
-    palabra: "qualification",
+    palabra: "Qualification",
     imagen: { id: 37406, alt: "A diploma with a ribbon" },
     definicion: "The official paper that shows what studies you have finished.",
     sinonimos: ["certificate of studies"],
@@ -24078,7 +24080,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "appointee",
-    palabra: "appointee",
+    palabra: "Appointee",
     imagen: { id: 21802, alt: "Documento" },
     definicion: "The person officially chosen to manage money and decisions for someone who cannot do it themselves.",
     sinonimos: ["appointed person", "official representative"],
@@ -24088,7 +24090,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "assessment",
-    palabra: "assessment",
+    palabra: "Assessment",
     imagen: { id: 39775, alt: "A hand filling in an official assessment checklist" },
     definicion: "An official check done by a professional to see how much help a person needs.",
     sinonimos: ["evaluation", "needs report", "evaluate"],
@@ -24099,7 +24101,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "care-needs",
-    palabra: "care needs",
+    palabra: "Care needs",
     imagen: { id: 11691, alt: "A person taking care of someone sick in bed" },
     definicion: "The help a person needs with daily tasks, because of age, illness or disability.",
     sinonimos: ["need for care", "lack of independence"],
@@ -24110,7 +24112,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "deputy",
-    palabra: "deputy",
+    palabra: "Deputy",
     imagen: { id: 21802, alt: "Documento" },
     definicion: "A person a court appoints to make decisions for an adult who cannot make them alone.",
     sinonimos: ["court-appointed decision-maker"],
@@ -24120,7 +24122,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "direct-payment",
-    palabra: "direct payment",
+    palabra: "Direct payment",
     imagen: { id: 16909, alt: "Money transferring from one bank to another" },
     definicion: "Money the council gives you directly so you can pay for your own care.",
     sinonimos: ["care budget payment"],
@@ -24130,7 +24132,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "home-care",
-    palabra: "home care",
+    palabra: "Home care",
     imagen: { id: 11691, alt: "A person taking care of someone sick in bed" },
     definicion: "A service where a person comes to your home to help you with cleaning, food or personal care.",
     sinonimos: ["home help", "in-home assistance", "domiciliary care"],
@@ -24141,7 +24143,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "payment-deadline",
-    palabra: "payment deadline",
+    palabra: "Payment deadline",
     imagen: { id: 27411, alt: "A hand writing a date on a document" },
     definicion: "The time you have to pay a bill or a debt before it becomes late.",
     sinonimos: ["due date", "time to pay"],
@@ -24152,7 +24154,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "personal-budget",
-    palabra: "personal budget",
+    palabra: "Personal budget",
     imagen: { id: 21802, alt: "Documento" },
     definicion: "Money given by the council so a person can choose and pay for their own care.",
     sinonimos: ["care budget", "individual budget"],
@@ -24162,7 +24164,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "social-services",
-    palabra: "social services",
+    palabra: "Social services",
     imagen: { id: 5103, alt: "A social worker talking with a family in an office" },
     definicion: "The part of government that helps people and families with money, health or care problems.",
     sinonimos: ["social assistance", "social work services"],
@@ -24173,7 +24175,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "browse",
-    palabra: "browse",
+    palabra: "Browse",
     imagen: { id: 5492, alt: "A person looking at web pages on a computer" },
     definicion: "To move from one page to another on the internet, looking for or checking information.",
     sinonimos: ["surf the web", "look around online"],
@@ -24184,7 +24186,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "digital-consent",
-    palabra: "digital consent",
+    palabra: "Digital consent",
     imagen: { id: 25696, alt: "A person signing a consent document" },
     definicion: "Clearly saying yes to letting an app use your personal data.",
     sinonimos: ["accepting data use", "permission to use your data"],
@@ -24195,7 +24197,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "draft",
-    palabra: "draft",
+    palabra: "Draft",
     imagen: { id: 11459, alt: "Tecnología" },
     definicion: "A version of a text or a message that is not finished or sent yet.",
     sinonimos: ["unfinished text", "provisional version"],
@@ -24206,7 +24208,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "fake-news",
-    palabra: "fake news",
+    palabra: "Fake news",
     imagen: { id: 7784, alt: "An open newspaper" },
     definicion: "News that is not true, but looks real.",
     sinonimos: ["false information", "made-up news"],
@@ -24217,7 +24219,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "strong-password",
-    palabra: "strong password",
+    palabra: "Strong password",
     imagen: { id: 27691, alt: "A padlock with a password of asterisks" },
     definicion: "A password that is hard to guess, with mixed letters, numbers and symbols.",
     sinonimos: ["hard-to-guess password", "secure password"],
@@ -24228,7 +24230,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "verify-information",
-    palabra: "verify information",
+    palabra: "Verify information",
     imagen: { id: 6998, alt: "A hand marking a checklist" },
     definicion: "To check if something you read or heard is true before believing or sharing it.",
     sinonimos: ["check if it's true", "cross-check the information"],
@@ -24239,7 +24241,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "identity-spoofing",
-    palabra: "identity spoofing",
+    palabra: "Identity spoofing",
     imagen: { id: 11459, alt: "Tecnología" },
     definicion: "Someone pretends to be your bank or a company to steal your data. They write to trick you and take your money.",
     sinonimos: ["phishing", "trick to steal your data"],
@@ -24250,7 +24252,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "accept-an-inheritance",
-    palabra: "accept an inheritance",
+    palabra: "Accept an inheritance",
     imagen: { id: 11700, alt: "A person receiving an inheritance" },
     definicion: "Officially saying you want to receive an inheritance, along with its assets and also its debts.",
     sinonimos: ["acceptance of an inheritance", "receive the inheritance"],
@@ -24261,7 +24263,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "claim",
-    palabra: "claim",
+    palabra: "Claim",
     imagen: { id: 15529, alt: "A claim form" },
     definicion: "To formally ask for something you believe you have a right to, like money or a benefit.",
     sinonimos: ["ask for what you're owed", "formally request"],
@@ -24271,7 +24273,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "dignity",
-    palabra: "dignity",
+    palabra: "Dignity",
     imagen: { id: 11695, alt: "An older person being treated with kindness and respect" },
     definicion: "The respect every person deserves, just for being a person.",
     sinonimos: ["deserved respect", "worth as a person"],
@@ -24282,7 +24284,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "duty",
-    palabra: "duty",
+    palabra: "Duty",
     imagen: { id: 15523, alt: "A list of obligatory tasks marked with a sign" },
     definicion: "Something you have an obligation to do, according to the law or the rules.",
     sinonimos: ["obligation", "responsibility"],
@@ -24293,7 +24295,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "equality",
-    palabra: "equality",
+    palabra: "Equality",
     imagen: { id: 11455, alt: "Several different people in a row, all at the same height" },
     definicion: "Every person having the same rights and the same opportunities, no matter who they are.",
     sinonimos: ["same rights for all", "equal treatment"],
@@ -24304,7 +24306,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "estate",
-    palabra: "estate",
+    palabra: "Estate",
     imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "All the money, property and belongings a person leaves behind when they die.",
     sinonimos: ["assets left behind", "property of the deceased"],
@@ -24314,7 +24316,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "hate-crime",
-    palabra: "hate crime",
+    palabra: "Hate crime",
     imagen: { id: 12323, alt: "A person being excluded because they are different" },
     definicion: "A crime committed against someone because of who they are, like their race, religion or disability.",
     sinonimos: ["crime motivated by hate", "discriminatory attack"],
@@ -24324,7 +24326,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "heir",
-    palabra: "heir",
+    palabra: "Heir",
     imagen: { id: 11700, alt: "A person receiving an inheritance" },
     definicion: "The person who has the right to receive someone's belongings when that person dies.",
     sinonimos: ["person who inherits", "successor"],
@@ -24335,7 +24337,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "human-rights",
-    palabra: "human rights",
+    palabra: "Human rights",
     imagen: { id: 11247, alt: "Several people holding hands around the world" },
     definicion: "The basic rights every person has, just for being a person, anywhere in the world.",
     sinonimos: ["fundamental rights", "rights of every person"],
@@ -24346,7 +24348,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "independent-advocate",
-    palabra: "independent advocate",
+    palabra: "Independent advocate",
     imagen: { id: 11472, alt: "A person accompanying another to an official meeting" },
     definicion: "A person who helps and defends another person's rights, without being their lawyer in court.",
     sinonimos: ["rights advocate", "person who supports you"],
@@ -24357,7 +24359,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "neglect",
-    palabra: "neglect",
+    palabra: "Neglect",
     imagen: { id: 11291, alt: "Juez, magistrado" },
     definicion: "Not giving someone the care they need, which can cause them harm.",
     sinonimos: ["failing to care for someone", "lack of proper care"],
@@ -24367,7 +24369,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "privacy",
-    palabra: "privacy",
+    palabra: "Privacy",
     imagen: { id: 22635, alt: "A closed door with a small padlock" },
     definicion: "The part of your life you don't have to share with anyone if you don't want to.",
     sinonimos: ["private life", "personal space"],
@@ -24378,7 +24380,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "report",
-    palabra: "report",
+    palabra: "Report",
     imagen: { id: 14006, alt: "A person speaking to an official across a desk" },
     definicion: "To tell an authority, like the police or social services, about something wrong that happened.",
     sinonimos: ["tell the authorities", "notify officially"],
@@ -24388,7 +24390,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "respect",
-    palabra: "respect",
+    palabra: "Respect",
     imagen: { id: 11621, alt: "Two people shaking hands with a smile" },
     definicion: "Treating another person well, without insulting or harming them, accepting who they are.",
     sinonimos: ["good treatment", "consideration"],
@@ -24399,7 +24401,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "right",
-    palabra: "right",
+    palabra: "Right",
     imagen: { id: 8612, alt: "A scale of justice" },
     definicion: "Something the law says you can have or do, that no one can take away from you.",
     sinonimos: ["legal entitlement", "something the law allows you"],
@@ -24410,7 +24412,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "conflict",
-    palabra: "conflict",
+    palabra: "Conflict",
     imagen: { id: 37786, alt: "Two people arguing with crossed arms" },
     definicion: "A disagreement or a fight between two or more people.",
     sinonimos: ["disagreement", "friction between people"],
@@ -24421,7 +24423,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "cooperate",
-    palabra: "cooperate",
+    palabra: "Cooperate",
     imagen: { id: 4570, alt: "Several people working together around a table" },
     definicion: "To work together with other people to achieve something in common.",
     sinonimos: ["work as a team", "collaborate"],
@@ -24432,7 +24434,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "discrimination",
-    palabra: "discrimination",
+    palabra: "Discrimination",
     imagen: { id: 12323, alt: "A person excluded from a group for being different" },
     definicion: "Treating a person worse because of who they are, for example their age, background or disability.",
     sinonimos: ["unfair treatment", "unequal treatment"],
@@ -24443,7 +24445,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "supported-employment",
-    palabra: "supported employment",
+    palabra: "Supported employment",
     imagen: { id: 12252, alt: "Two hands helping each other" },
     definicion: "A normal job at a company, with a person who helps you learn the tasks at the start.",
     sinonimos: ["supported job", "assisted employment"],
@@ -24454,7 +24456,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "inclusion",
-    palabra: "inclusion",
+    palabra: "Inclusion",
     imagen: { id: 22787, alt: "Several different people taking part together in a group" },
     definicion: "Making sure everyone can really take part, without leaving anyone out.",
     sinonimos: ["integration", "everyone taking part"],
@@ -24465,7 +24467,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "infrastructure",
-    palabra: "infrastructure",
+    palabra: "Infrastructure",
     imagen: { id: 38727, alt: "A viaduct of public works" },
     definicion: "The basic facilities and services a place needs to work, like roads or buildings.",
     sinonimos: ["basic facilities", "basic services"],
@@ -24476,7 +24478,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "institution",
-    palabra: "institution",
+    palabra: "Institution",
     imagen: { id: 37462, alt: "A government building" },
     definicion: "An official organisation, like the town hall or a public hospital, that offers a service to people.",
     sinonimos: ["official body", "public organisation"],
@@ -24486,7 +24488,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "job-coach",
-    palabra: "job coach",
+    palabra: "Job coach",
     imagen: { id: 24659, alt: "An employment advisor talking with a person at a desk" },
     definicion: "The person who helps someone learn a new job, going with them at the workplace itself.",
     sinonimos: ["workplace support", "employment mentor"],
@@ -24497,7 +24499,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "sustainable",
-    palabra: "sustainable",
+    palabra: "Sustainable",
     imagen: { id: 33034, alt: "A green leaf inside a recycling circle" },
     definicion: "Something that can be kept up over time without harming the environment or wasting more than needed.",
     sinonimos: ["environmentally friendly", "lasting without harm"],
@@ -24508,7 +24510,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "day-workshop",
-    palabra: "day workshop",
+    palabra: "Day workshop",
     imagen: { id: 25692, alt: "A day centre with group activities" },
     definicion: "A place where a group of people do tasks and crafts together, in an organised way.",
     sinonimos: ["activity workshop", "day centre workshop"],
@@ -24519,7 +24521,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "transparency",
-    palabra: "transparency",
+    palabra: "Transparency",
     imagen: { id: 36377, alt: "A signed accountability report with checkmarks" },
     definicion: "Giving clear and true information about how something works, without hiding anything.",
     sinonimos: ["clarity", "open information"],
@@ -24530,7 +24532,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "regulation",
-    palabra: "regulation",
+    palabra: "Regulation",
     imagen: { id: 34779, alt: "A document with a list of rules" },
     definicion: "The set of rules that must be followed in a place or to do something.",
     sinonimos: ["set of rules", "rulebook"],
@@ -24541,7 +24543,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "management",
-    palabra: "management",
+    palabra: "Management",
     imagen: { id: 16174, alt: "A person organising papers and a diary in an office" },
     definicion: "Organising and carrying out the tasks needed to make something work well.",
     sinonimos: ["organising tasks", "administration", "administer"],
@@ -24552,7 +24554,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "citizenship",
-    palabra: "citizenship",
+    palabra: "Citizenship",
     imagen: { id: 12338, alt: "A person inside a country's flag" },
     definicion: "The official right to belong to a country, with its rights and its duties.",
     sinonimos: ["nationality", "official membership of a country"],
@@ -24562,7 +24564,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "diverse",
-    palabra: "diverse",
+    palabra: "Diverse",
     imagen: { id: 7116, alt: "A group of different people standing together" },
     definicion: "Made up of people or things that are different from each other.",
     sinonimos: ["varied", "made up of different people"],
@@ -24572,7 +24574,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "reasonable-adjustment",
-    palabra: "reasonable adjustment",
+    palabra: "Reasonable adjustment",
     imagen: { id: 15020, alt: "Icons for different needs pointing to a scale of fairness" },
     definicion: "A change a workplace makes so a person can do their job well, based on what they need.",
     sinonimos: ["workplace change", "adapted arrangement"],
@@ -24582,7 +24584,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "community",
-    palabra: "community",
+    palabra: "Community",
     imagen: { id: 6241, alt: "Two neighbours waving from their windows" },
     definicion: "A group of people who live in the same place or share something important with each other.",
     sinonimos: ["social group", "people who share something"],
@@ -24593,7 +24595,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "consumption",
-    palabra: "consumption",
+    palabra: "Consumption",
     imagen: { id: 5995, alt: "A bill with an amount of money" },
     definicion: "The amount of water, electricity or gas you use at home.",
     sinonimos: ["usage", "amount used"],
@@ -24604,7 +24606,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "contactless-payment",
-    palabra: "contactless payment",
+    palabra: "Contactless payment",
     imagen: { id: 39712, alt: "A card being tapped on a card machine to pay" },
     definicion: "Paying by holding your card or phone near the card machine, without typing your PIN.",
     sinonimos: ["tap-to-pay payment", "card machine payment"],
@@ -24615,7 +24617,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "discount",
-    palabra: "discount",
+    palabra: "Discount",
     imagen: { id: 9874, alt: "A price tag hanging from a pair of glasses" },
     definicion: "The amount of money taken off the normal price of something.",
     sinonimos: ["price reduction", "money off"],
@@ -24626,7 +24628,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "doorstep-fraud",
-    palabra: "doorstep fraud",
+    palabra: "Doorstep fraud",
     imagen: { id: 31195, alt: "A person tricking another person" },
     definicion: "When someone comes to your home and tricks you into giving them money or letting them in.",
     sinonimos: ["home visit scam", "trick at your door"],
@@ -24636,7 +24638,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "meter-reading",
-    palabra: "meter reading",
+    palabra: "Meter reading",
     imagen: { id: 15901, alt: "An electrical panel in a home" },
     definicion: "The number shown on your electricity, water or gas meter, used to work out how much you have used.",
     sinonimos: ["meter number", "usage reading"],
@@ -24647,7 +24649,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "net-pay",
-    palabra: "net pay",
+    palabra: "Net pay",
     imagen: { id: 33996, alt: "A person receiving a banknote for their work" },
     definicion: "The money you actually receive in your account, after tax and other deductions are taken out.",
     sinonimos: ["take-home pay", "money you actually get"],
@@ -24658,7 +24660,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "self-employed",
-    palabra: "self-employed",
+    palabra: "Self-employed",
     imagen: { id: 4630, alt: "Dinero" },
     definicion: "Working for yourself, running your own business instead of working for an employer.",
     sinonimos: ["working for yourself", "freelance"],
@@ -24668,7 +24670,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "small-change",
-    palabra: "small change",
+    palabra: "Small change",
     imagen: { id: 8633, alt: "Coins of different values" },
     definicion: "Small loose coins you carry, not kept in a fixed purse or wallet section.",
     sinonimos: ["loose coins", "spare change"],
@@ -24679,7 +24681,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "supply",
-    palabra: "supply",
+    palabra: "Supply",
     imagen: { id: 22166, alt: "Pipes and cables bringing gas and electricity to a house" },
     definicion: "The service that brings something like water, gas or electricity to your home.",
     sinonimos: ["utility service", "energy or water service"],
@@ -24689,7 +24691,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "tenants-association",
-    palabra: "tenants association",
+    palabra: "Tenants association",
     imagen: { id: 38660, alt: "A group of neighbours campaigning together" },
     definicion: "A group formed by the people who rent homes in the same building or area, to defend their rights together.",
     sinonimos: ["renters' group", "tenants' group"],
@@ -24699,7 +24701,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "utility-bill",
-    palabra: "utility bill",
+    palabra: "Utility bill",
     imagen: { id: 5995, alt: "A bill with an amount of money" },
     definicion: "The paper or online document that shows how much you must pay for water, gas or electricity.",
     sinonimos: ["bill for services", "household bill"],
@@ -24709,7 +24711,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "change",
-    palabra: "change",
+    palabra: "Change",
     imagen: { id: 8053, alt: "Loose coins in a person's hand" },
     definicion: "The money given back to you when you pay with more money than something costs.",
     sinonimos: ["coins handed back", "leftover coins from a payment"],
@@ -24720,7 +24722,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "service-charge",
-    palabra: "service charge",
+    palabra: "Service charge",
     imagen: { id: 16051, alt: "A maintenance supervisor with workers" },
     definicion: "An extra amount added to a bill to pay for a service, like maintenance in a building.",
     sinonimos: ["building maintenance cost", "extra service cost"],
@@ -24730,7 +24732,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "annual-health-check",
-    palabra: "annual health check",
+    palabra: "Annual health check",
     imagen: { id: 6000, alt: "A doctor listening to a patient's chest with a stethoscope" },
     definicion: "A full medical check done once a year to see how your health is doing.",
     sinonimos: ["yearly check-up", "yearly medical review"],
@@ -24740,7 +24742,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "association",
-    palabra: "association",
+    palabra: "Association",
     imagen: { id: 12333, alt: "A group of people gathered with a sign" },
     definicion: "A group of people who organise themselves to help each other or defend a common cause.",
     sinonimos: ["non-profit group", "organised group"],
@@ -24751,7 +24753,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "capsule",
-    palabra: "capsule",
+    palabra: "Capsule",
     imagen: { id: 3006, alt: "Some coloured medicine capsules" },
     definicion: "A medicine closed inside a soft covering that you swallow whole.",
     sinonimos: ["soft pill", "medicine in a capsule"],
@@ -24762,7 +24764,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "care-home",
-    palabra: "care home",
+    palabra: "Care home",
     imagen: { id: 25728, alt: "A care home building with older residents" },
     definicion: "A place where older people or people with a disability live and get care every day.",
     sinonimos: ["residential home", "nursing home"],
@@ -24773,7 +24775,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "check-up",
-    palabra: "check-up",
+    palabra: "Check-up",
     imagen: { id: 6000, alt: "A stethoscope" },
     definicion: "A medical review to see how your health is doing in general.",
     sinonimos: ["medical review", "health check"],
@@ -24784,7 +24786,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "day-centre",
-    palabra: "day centre",
+    palabra: "Day centre",
     imagen: { id: 25692, alt: "A day centre with group activities" },
     definicion: "A place where a person spends the day getting care and doing activities, then goes home at night.",
     sinonimos: ["daytime care centre", "day service"],
@@ -24795,7 +24797,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "dermatology",
-    palabra: "dermatology",
+    palabra: "Dermatology",
     imagen: { id: 34373, alt: "A dermatologist" },
     definicion: "The area of medicine that studies and treats skin conditions.",
     sinonimos: ["skin medicine", "skin specialty", "dermatological"],
@@ -24806,7 +24808,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "end-of-life-care",
-    palabra: "end of life care",
+    palabra: "End of life care",
     imagen: { id: 2375, alt: "A nurse caring for a patient at home" },
     definicion: "Care given to a person in the last part of their life, to keep them comfortable.",
     sinonimos: ["care for the dying", "comfort care at the end of life"],
@@ -24816,7 +24818,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "intellectual-disability",
-    palabra: "intellectual disability",
+    palabra: "Intellectual disability",
     imagen: { id: 29971, alt: "An official disability certificate" },
     definicion: "A disability that makes it harder for a person to learn and understand certain things.",
     sinonimos: ["difficulty learning and understanding", "cognitive disability"],
@@ -24827,7 +24829,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "mindfulness",
-    palabra: "mindfulness",
+    palabra: "Mindfulness",
     imagen: { id: 32689, alt: "A person sitting with eyes closed, breathing calmly" },
     definicion: "A technique for paying attention to the present moment and calming your mind.",
     sinonimos: ["present-moment awareness", "mindful breathing"],
@@ -24838,7 +24840,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "orthopaedics",
-    palabra: "orthopaedics",
+    palabra: "Orthopaedics",
     imagen: { id: 34235, alt: "An orthopaedic surgeon" },
     definicion: "The area of medicine that treats bones, muscles and joints.",
     sinonimos: ["bone medicine", "bone and joint specialty"],
@@ -24849,7 +24851,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "patch",
-    palabra: "patch",
+    palabra: "Patch",
     imagen: { id: 33915, alt: "Hands sticking a medicine patch onto skin" },
     definicion: "A sticky pad with medicine that you stick on your skin so your body absorbs it slowly.",
     sinonimos: ["medicine sticker", "medicated patch"],
@@ -24860,7 +24862,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "person-centred-planning",
-    palabra: "person-centred planning",
+    palabra: "Person-centred planning",
     imagen: { id: 34870, alt: "Planning together" },
     definicion: "Planning support around what one specific person wants and needs, not a general rule for everyone.",
     sinonimos: ["planning around the person", "individual support planning"],
@@ -24870,7 +24872,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "personal-assistant",
-    palabra: "personal assistant",
+    palabra: "Personal assistant",
     imagen: { id: 12252, alt: "Two hands helping each other" },
     definicion: "The person who helps someone every day with tasks like dressing, eating or getting around.",
     sinonimos: ["support worker", "personal carer"],
@@ -24881,7 +24883,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "psychology",
-    palabra: "psychology",
+    palabra: "Psychology",
     imagen: { id: 3377, alt: "A person talking with a psychologist" },
     definicion: "The science that studies how people think, feel and behave.",
     sinonimos: ["science of the mind", "study of behaviour"],
@@ -24892,7 +24894,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "remedy",
-    palabra: "remedy",
+    palabra: "Remedy",
     imagen: { id: 3376, alt: "A cup of hot tea next to a lemon" },
     definicion: "Something that helps cure a minor health problem or discomfort.",
     sinonimos: ["home cure", "simple treatment"],
@@ -24903,7 +24905,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "resilience",
-    palabra: "resilience",
+    palabra: "Resilience",
     imagen: { id: 2467, alt: "Médico, doctor" },
     definicion: "The ability to recover and carry on after something difficult.",
     sinonimos: ["ability to recover", "strength through hardship"],
@@ -24914,7 +24916,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "stress",
-    palabra: "stress",
+    palabra: "Stress",
     imagen: { id: 11312, alt: "A nervous person biting their nails" },
     definicion: "Feeling very tired and on edge because you have too much to do or too many worries.",
     sinonimos: ["strain", "nervous tension"],
@@ -24925,7 +24927,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "support",
-    palabra: "support",
+    palabra: "Support",
     imagen: { id: 12252, alt: "Two hands helping each other" },
     definicion: "Help one person gives another to do something or to feel better.",
     sinonimos: ["help", "backing"],
@@ -24936,7 +24938,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "support-group",
-    palabra: "support group",
+    palabra: "Support group",
     imagen: { id: 15925, alt: "Several people sitting in a circle talking" },
     definicion: "A group of people with a similar problem who meet to help each other.",
     sinonimos: ["mutual aid group", "support meeting"],
@@ -24947,7 +24949,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "symptom",
-    palabra: "symptom",
+    palabra: "Symptom",
     imagen: { id: 2789, alt: "A thermometer" },
     definicion: "A sign in your body that shows something might be wrong with your health.",
     sinonimos: ["sign of illness", "warning sign"],
@@ -24957,7 +24959,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "therapist",
-    palabra: "therapist",
+    palabra: "Therapist",
     imagen: { id: 4708, alt: "A counsellor talking with a person" },
     definicion: "A professional who helps you talk through and work on an emotional or mental health problem.",
     sinonimos: ["counsellor", "mental health professional", "counselor"],
@@ -24967,7 +24969,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "volunteer",
-    palabra: "volunteer",
+    palabra: "Volunteer",
     imagen: { id: 25534, alt: "A person helping another person as a volunteer" },
     definicion: "A person who helps others without being paid for it.",
     sinonimos: ["unpaid helper", "person who helps for free"],
@@ -24978,7 +24980,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "abstract",
-    palabra: "abstract",
+    palabra: "Abstract",
     imagen: { id: 6019, alt: "A cloud with question marks inside" },
     definicion: "Something you cannot touch or see, like an idea. It is the opposite of something concrete.",
     sinonimos: ["not physical", "idea without a shape"],
@@ -24989,7 +24991,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "airtight",
-    palabra: "airtight",
+    palabra: "Airtight",
     imagen: { id: 2637, alt: "A glass jar closed with a tight lid" },
     definicion: "Something closed completely, so no air or water can get in or out.",
     sinonimos: ["completely sealed", "closed tight"],
@@ -25000,7 +25002,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "analogy",
-    palabra: "analogy",
+    palabra: "Analogy",
     imagen: { id: 8579, alt: "Two different objects with an arrow comparing them" },
     definicion: "Explaining something by comparing it to another similar thing you already know.",
     sinonimos: ["comparison", "explanatory comparison"],
@@ -25011,7 +25013,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "autumn",
-    palabra: "autumn",
+    palabra: "Autumn",
     imagen: { id: 5531, alt: "A tree with orange leaves falling" },
     definicion: "The season between summer and winter, when the leaves fall from the trees.",
     sinonimos: ["fall", "season of falling leaves"],
@@ -25022,7 +25024,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "biodiversity",
-    palabra: "biodiversity",
+    palabra: "Biodiversity",
     imagen: { id: 20389, alt: "A bird, a flower, a mountain and a lake" },
     definicion: "The great variety of different plants and animals that exist in a place.",
     sinonimos: ["variety of living things", "natural richness"],
@@ -25033,7 +25035,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "capital-city",
-    palabra: "capital city",
+    palabra: "Capital city",
     imagen: { id: 21906, alt: "People in front of a government building" },
     definicion: "The most important city in a country, where the government is usually based.",
     sinonimos: ["capital", "main city"],
@@ -25044,7 +25046,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "civilization",
-    palabra: "civilization",
+    palabra: "Civilization",
     imagen: { id: 26086, alt: "An ancient Egyptian pharaoh" },
     definicion: "A large group of people who share a way of living, a culture and an organisation.",
     sinonimos: ["organised culture", "society"],
@@ -25055,7 +25057,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "climate",
-    palabra: "climate",
+    palabra: "Climate",
     imagen: { id: 24721, alt: "Different kinds of weather: rain, sun and wind" },
     definicion: "The weather a place usually has over a long time, like the usual cold or heat.",
     sinonimos: ["usual weather", "weather conditions"],
@@ -25066,7 +25068,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "concrete",
-    palabra: "concrete",
+    palabra: "Concrete",
     imagen: { id: 11318, alt: "Several real, concrete objects" },
     definicion: "Something real and specific, that you can see or touch. It is the opposite of abstract.",
     sinonimos: ["specific", "real and touchable"],
@@ -25077,7 +25079,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "continent",
-    palabra: "continent",
+    palabra: "Continent",
     imagen: { id: 34547, alt: "A world map with the continents marked" },
     definicion: "One of the large parts of land the world is divided into, like Europe or Africa.",
     sinonimos: ["large part of the world", "large landmass"],
@@ -25088,7 +25090,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "country",
-    palabra: "country",
+    palabra: "Country",
     imagen: { id: 5918, alt: "A flag" },
     definicion: "A territory with its own government, laws and borders.",
     sinonimos: ["nation", "state"],
@@ -25099,7 +25101,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "desert",
-    palabra: "desert",
+    palabra: "Desert",
     imagen: { id: 2734, alt: "Sand dunes under a strong sun" },
     definicion: "A very dry place where it almost never rains and there is little plant life.",
     sinonimos: ["very dry area", "arid land"],
@@ -25110,7 +25112,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "digital",
-    palabra: "digital",
+    palabra: "Digital",
     imagen: { id: 9162, alt: "A person using an interactive digital screen" },
     definicion: "Something that works with computers or technology, instead of on paper or physically.",
     sinonimos: ["electronic", "computer-based", "digitalize"],
@@ -25121,7 +25123,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "ecosystem",
-    palabra: "ecosystem",
+    palabra: "Ecosystem",
     imagen: { id: 30015, alt: "A forest with animals and plants" },
     definicion: "A natural place where animals, plants and the environment all live connected to each other.",
     sinonimos: ["natural environment", "natural surroundings"],
@@ -25132,7 +25134,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "empirical",
-    palabra: "empirical",
+    palabra: "Empirical",
     imagen: { id: 8119, alt: "A person doing an experiment in a laboratory" },
     definicion: "Known because it has been checked through experience or tests, not just through ideas.",
     sinonimos: ["based on experience", "proven through testing"],
@@ -25143,7 +25145,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "ethics",
-    palabra: "ethics",
+    palabra: "Ethics",
     imagen: { id: 34709, alt: "A scale balanced between right and wrong" },
     definicion: "Thinking about what is right and what is wrong, and deciding how to act properly.",
     sinonimos: ["morals", "sense of right and wrong"],
@@ -25154,7 +25156,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "globalization",
-    palabra: "globalization",
+    palabra: "Globalization",
     imagen: { id: 30014, alt: "The Earth, the whole world" },
     definicion: "The countries of the world becoming more and more connected, in trade, culture or communication.",
     sinonimos: ["world connection", "connected world"],
@@ -25165,7 +25167,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "hemisphere",
-    palabra: "hemisphere",
+    palabra: "Hemisphere",
     imagen: { id: 10285, alt: "A globe divided in half" },
     definicion: "Each of the two halves the Earth is divided into, like north and south.",
     sinonimos: ["half of the planet", "half of the Earth"],
@@ -25176,7 +25178,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "heritage",
-    palabra: "heritage",
+    palabra: "Heritage",
     imagen: { id: 36249, alt: "An old historic monument" },
     definicion: "The important buildings, objects or traditions that are kept and passed down from one generation to the next.",
     sinonimos: ["cultural inheritance", "historic assets"],
@@ -25187,7 +25189,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "hypothesis",
-    palabra: "hypothesis",
+    palabra: "Hypothesis",
     imagen: { id: 6019, alt: "A person with an idea lightbulb over their head" },
     definicion: "An idea put forward to explain something, but that has not been proven yet.",
     sinonimos: ["unproven idea", "assumption"],
@@ -25198,7 +25200,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "island",
-    palabra: "island",
+    palabra: "Island",
     imagen: { id: 2966, alt: "A small island with palm trees surrounded by sea" },
     definicion: "A piece of land surrounded by water on all sides.",
     sinonimos: ["land surrounded by water", "islet"],
@@ -25209,7 +25211,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "mountain-range",
-    palabra: "mountain range",
+    palabra: "Mountain range",
     imagen: { id: 23975, alt: "A row of snow-capped mountains" },
     definicion: "A long row of mountains one after another.",
     sinonimos: ["chain of mountains"],
@@ -25220,7 +25222,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "native",
-    palabra: "native",
+    palabra: "Native",
     imagen: { id: 21964, alt: "A lynx, a native animal of Spain" },
     definicion: "Something or someone that originally comes from the place where it lives, not from elsewhere.",
     sinonimos: ["local to the place", "originating from"],
@@ -25231,7 +25233,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "objective",
-    palabra: "objective",
+    palabra: "Objective",
     imagen: { id: 37862, alt: "A balanced scale" },
     definicion: "Explaining something as it really is, without letting your tastes or feelings change it.",
     sinonimos: ["impartial", "without personal opinion"],
@@ -25242,7 +25244,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "ocean",
-    palabra: "ocean",
+    palabra: "Ocean",
     imagen: { id: 2925, alt: "The sea seen from the shore to the horizon" },
     definicion: "A huge body of salt water that separates the continents.",
     sinonimos: ["large sea", "big sea"],
@@ -25253,7 +25255,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "paradox",
-    palabra: "paradox",
+    palabra: "Paradox",
     imagen: { id: 6019, alt: "Two arrows pointing in opposite directions" },
     definicion: "Something that seems contradictory or impossible, but can still be true.",
     sinonimos: ["apparent contradiction", "contradictory idea"],
@@ -25264,7 +25266,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "phenomenon",
-    palabra: "phenomenon",
+    palabra: "Phenomenon",
     imagen: { id: 34613, alt: "A rainbow in the sky" },
     definicion: "Something that happens in nature or in life that can be observed.",
     sinonimos: ["observable event", "occurrence"],
@@ -25275,7 +25277,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "philosophy",
-    palabra: "philosophy",
+    palabra: "Philosophy",
     imagen: { id: 36365, alt: "A person thinking with an open book" },
     definicion: "Thinking about and asking deep questions about life, truth or what is right and wrong.",
     sinonimos: ["deep reflection", "study of thought"],
@@ -25286,7 +25288,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "rainforest",
-    palabra: "rainforest",
+    palabra: "Rainforest",
     imagen: { id: 3385, alt: "A very green, dense forest" },
     definicion: "A very thick, wet forest with many plants and animals, in warm areas.",
     sinonimos: ["tropical forest", "jungle"],
@@ -25297,7 +25299,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "sophisticated",
-    palabra: "sophisticated",
+    palabra: "Sophisticated",
     imagen: { id: 11459, alt: "Several advanced technology devices" },
     definicion: "Something complex and advanced, made with great care or a lot of technology.",
     sinonimos: ["complex and advanced", "highly developed"],
@@ -25308,7 +25310,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "spring",
-    palabra: "spring",
+    palabra: "Spring",
     imagen: { id: 5553, alt: "A tree with pink flowers in spring" },
     definicion: "The season between winter and summer, when plants bloom.",
     sinonimos: ["season of flowers"],
@@ -25319,7 +25321,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "storm",
-    palabra: "storm",
+    palabra: "Storm",
     imagen: { id: 34892, alt: "A dark sky with lightning and rain" },
     definicion: "Very bad weather with heavy rain, wind, thunder and lightning.",
     sinonimos: ["bad weather with lightning", "tempest"],
@@ -25330,7 +25332,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "subjective",
-    palabra: "subjective",
+    palabra: "Subjective",
     imagen: { id: 8662, alt: "A person thinking about their own opinion" },
     definicion: "Something that depends on each person's opinion or feelings.",
     sinonimos: ["personal", "based on each person's view"],
@@ -25341,7 +25343,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "technology",
-    palabra: "technology",
+    palabra: "Technology",
     imagen: { id: 11459, alt: "Several electronic devices together, like a phone and a computer" },
     definicion: "The devices, programs and knowledge we use to make things easier.",
     sinonimos: ["devices and programs", "technical advances"],
@@ -25352,7 +25354,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "theory",
-    palabra: "theory",
+    palabra: "Theory",
     imagen: { id: 9870, alt: "A blackboard with formulas and scientific drawings" },
     definicion: "An explanation that tries to answer why something happens, based on ideas or studies.",
     sinonimos: ["scientific explanation", "set of ideas"],
@@ -25363,7 +25365,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "universal",
-    palabra: "universal",
+    palabra: "Universal",
     imagen: { id: 30014, alt: "The Earth, the whole world" },
     definicion: "Something that applies to everyone, everywhere.",
     sinonimos: ["for everyone", "valid everywhere"],
@@ -25374,7 +25376,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "volcano",
-    palabra: "volcano",
+    palabra: "Volcano",
     imagen: { id: 6247, alt: "A volcano throwing out lava and smoke" },
     definicion: "A mountain with an opening that hot lava can come out of, from inside the Earth.",
     sinonimos: ["mountain with lava"],
@@ -25385,7 +25387,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "heat",
-    palabra: "heat",
+    palabra: "Heat",
     imagen: { id: 8520, alt: "A bright sun with heat lines" },
     definicion: "The feeling of high temperature, when it is very sunny or hot outside.",
     sinonimos: ["warmth", "hot weather"],
@@ -25396,7 +25398,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "innovative",
-    palabra: "innovative",
+    palabra: "Innovative",
     imagen: { id: 6019, alt: "A lit lightbulb next to some gears" },
     definicion: "Something new and original, that brings a different way of doing things.",
     sinonimos: ["novel", "creative and new"],
@@ -25407,7 +25409,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "cold-weather",
-    palabra: "cold",
+    palabra: "Cold",
     imagen: { id: 5493, alt: "A snowflake" },
     definicion: "The feeling of low temperature, when it is very cold outside.",
     sinonimos: ["low temperature", "chilly feeling"],
@@ -25418,7 +25420,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "affable",
-    palabra: "affable",
+    palabra: "Affable",
     imagen: { id: 33994, alt: "A person being friendly" },
     definicion: "Someone who is friendly and pleasant, easy to get along with.",
     sinonimos: ["friendly and warm", "pleasant"],
@@ -25429,7 +25431,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "altruistic",
-    palabra: "altruistic",
+    palabra: "Altruistic",
     imagen: { id: 4570, alt: "Two hands helping each other" },
     definicion: "Someone who helps other people without expecting anything in return.",
     sinonimos: ["selfless", "generous towards others"],
@@ -25440,7 +25442,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "assertive",
-    palabra: "assertive",
+    palabra: "Assertive",
     imagen: { id: 8289, alt: "A stop sign" },
     definicion: "Saying what you think and feel clearly, without disrespecting anyone.",
     sinonimos: ["firm when speaking", "direct and respectful"],
@@ -25451,7 +25453,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "cautious",
-    palabra: "cautious",
+    palabra: "Cautious",
     imagen: { id: 25618, alt: "A caution warning sign" },
     definicion: "Someone who acts very carefully to avoid problems or danger.",
     sinonimos: ["careful", "wary"],
@@ -25462,7 +25464,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "compassionate",
-    palabra: "compassionate",
+    palabra: "Compassionate",
     imagen: { id: 25986, alt: "A person comforting another with a hand on the shoulder" },
     definicion: "Someone who feels another person's pain and wants to help them.",
     sinonimos: ["caring", "empathetic"],
@@ -25473,7 +25475,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "distrustful",
-    palabra: "distrustful",
+    palabra: "Distrustful",
     imagen: { id: 11696, alt: "A person looking at a phone with a doubtful face" },
     definicion: "Someone who does not easily believe what other people tell them.",
     sinonimos: ["suspicious", "wary of others"],
@@ -25484,7 +25486,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "reliable",
-    palabra: "reliable",
+    palabra: "Reliable",
     imagen: { id: 12315, alt: "A thumbs up over a signed document" },
     definicion: "Someone you can trust because they do what they promise.",
     sinonimos: ["trustworthy", "dependable", "dependability"],
@@ -25495,7 +25497,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "genuine",
-    palabra: "genuine",
+    palabra: "Genuine",
     imagen: { id: 8715, alt: "A person thinking of someone truthfully" },
     definicion: "Something or someone true and sincere, that does not pretend to be different.",
     sinonimos: ["authentic", "truly sincere"],
@@ -25506,7 +25508,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "impulsive",
-    palabra: "impulsive",
+    palabra: "Impulsive",
     imagen: { id: 8985, alt: "A person shopping at the supermarket" },
     definicion: "Acting fast, without stopping to think first about what could happen.",
     sinonimos: ["acting without thinking", "rash"],
@@ -25517,7 +25519,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "introverted",
-    palabra: "introverted",
+    palabra: "Introverted",
     imagen: { id: 5936, alt: "A person asking for quiet and calm" },
     definicion: "Someone who likes to be calm and alone, and gets tired of being with people for too long.",
     sinonimos: ["reserved", "who prefers being alone"],
@@ -25528,7 +25530,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "jovial",
-    palabra: "jovial",
+    palabra: "Jovial",
     imagen: { id: 21537, alt: "Children laughing at a joke" },
     definicion: "Someone cheerful, who smiles a lot and likes to make jokes.",
     sinonimos: ["cheerful", "good-humoured"],
@@ -25539,7 +25541,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "melancholic",
-    palabra: "melancholic",
+    palabra: "Melancholic",
     imagen: { id: 5531, alt: "An autumn leaf" },
     definicion: "Feeling a soft kind of sadness, often when remembering something from the past.",
     sinonimos: ["nostalgic", "softly sad"],
@@ -25550,7 +25552,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "obstinate",
-    palabra: "obstinate",
+    palabra: "Obstinate",
     imagen: { id: 31859, alt: "A person with crossed arms shaking their head" },
     definicion: "Someone who does not change their mind even when given good reasons to.",
     sinonimos: ["stubborn", "unyielding"],
@@ -25561,7 +25563,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "prudent",
-    palabra: "prudent",
+    palabra: "Prudent",
     imagen: { id: 2712, alt: "A person driving carefully with both hands on the wheel" },
     definicion: "Thinking things through carefully before acting, to avoid unnecessary risks.",
     sinonimos: ["sensible", "with good judgement"],
@@ -25572,7 +25574,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "resentful",
-    palabra: "resentful",
+    palabra: "Resentful",
     imagen: { id: 35567, alt: "An angry face" },
     definicion: "Someone who stays angry with a person long after an argument.",
     sinonimos: ["bitter", "holding a grudge"],
@@ -25583,7 +25585,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "resilient",
-    palabra: "resilient",
+    palabra: "Resilient",
     imagen: { id: 25638, alt: "A symbol of strength" },
     definicion: "The ability to recover and keep going after going through something difficult.",
     sinonimos: ["able to bounce back", "strong through hardship"],
@@ -25594,7 +25596,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "helpful",
-    palabra: "helpful",
+    palabra: "Helpful",
     imagen: { id: 4570, alt: "Two hands helping each other" },
     definicion: "Someone who helps other people gladly, without being asked many times.",
     sinonimos: ["willing to help", "attentive to others"],
@@ -25605,7 +25607,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "versatile",
-    palabra: "versatile",
+    palabra: "Versatile",
     imagen: { id: 7795, alt: "Several people with different professions" },
     definicion: "Someone able to do very different tasks well.",
     sinonimos: ["adaptable", "multi-skilled"],
@@ -25616,7 +25618,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "extroverted",
-    palabra: "extroverted",
+    palabra: "Extroverted",
     imagen: { id: 36544, alt: "Two people talking and laughing together" },
     definicion: "Someone who loves talking to other people and being around a crowd.",
     sinonimos: ["sociable", "talkative with everyone", "extroversion"],
@@ -25627,7 +25629,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "durable",
-    palabra: "durable",
+    palabra: "Durable",
     imagen: { id: 4655, alt: "Home appliances: a fridge, a hairdryer and a washing machine" },
     definicion: "Something that lasts a long time without breaking or wearing out.",
     sinonimos: ["long-lasting", "sturdy"],
@@ -25637,7 +25639,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "casual",
-    palabra: "casual",
+    palabra: "Casual",
     imagen: { id: 21557, alt: "A work contract with a calendar" },
     definicion: "Something that happens only sometimes, not on a fixed or secure basis.",
     sinonimos: ["not fixed", "of limited duration"],
@@ -25647,7 +25649,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "gradual",
-    palabra: "gradual",
+    palabra: "Gradual",
     imagen: { id: 2379, alt: "A ladder with steps" },
     definicion: "Something that happens little by little, step by step, not all at once.",
     sinonimos: ["progressive", "step by step"],
@@ -25657,7 +25659,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "habitual",
-    palabra: "habitual",
+    palabra: "Habitual",
     imagen: { id: 16167, alt: "A calendar with an appointment marked every month" },
     definicion: "Something that happens always or almost always, in a normal and expected way.",
     sinonimos: ["frequent", "usual"],
@@ -25667,7 +25669,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "impeccable",
-    palabra: "impeccable",
+    palabra: "Impeccable",
     imagen: { id: 38006, alt: "A perfect gesture" },
     definicion: "Something done perfectly well, without any error or mistake.",
     sinonimos: ["perfect", "flawless", "perfection"],
@@ -25677,7 +25679,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "moderate",
-    palabra: "moderate",
+    palabra: "Moderate",
     imagen: { id: 2719, alt: "A doctor recommending exercise to a patient" },
     definicion: "Something that is neither too much nor too little, a fair and balanced amount.",
     sinonimos: ["balanced", "neither too much nor too little"],
@@ -25687,7 +25689,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "predictable",
-    palabra: "predictable",
+    palabra: "Predictable",
     imagen: { id: 38241, alt: "Different kinds of weather: rain, sun and wind" },
     definicion: "Something that can be known or expected before it happens.",
     sinonimos: ["expected", "foreseeable", "foreseeability"],
@@ -25697,7 +25699,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "provisional",
-    palabra: "provisional",
+    palabra: "Provisional",
     imagen: { id: 11566, alt: "An identity card" },
     definicion: "Something that only lasts a while, until the final solution arrives.",
     sinonimos: ["temporary", "not final"],
@@ -25707,7 +25709,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "reasonable",
-    palabra: "reasonable",
+    palabra: "Reasonable",
     imagen: { id: 36241, alt: "Two people reaching a fair agreement" },
     definicion: "Something fair and sensible, that makes sense and is not excessive.",
     sinonimos: ["logical", "fair and balanced", "reasonability"],
@@ -25717,7 +25719,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "sufficient",
-    palabra: "sufficient",
+    palabra: "Sufficient",
     imagen: { id: 4630, alt: "Euro banknotes and coins" },
     definicion: "The amount of something that is needed, neither more nor less.",
     sinonimos: ["enough", "what is needed"],
@@ -25727,7 +25729,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "viable",
-    palabra: "viable",
+    palabra: "Viable",
     imagen: { id: 4935, alt: "Different types of construction" },
     definicion: "Something that can really be done, because there is a way to achieve it.",
     sinonimos: ["achievable", "doable"],
@@ -25737,7 +25739,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "limit",
-    palabra: "limit",
+    palabra: "Limit",
     imagen: { id: 38200, alt: "A limit symbol" },
     definicion: "The most a person accepts or allows in a situation.",
     sinonimos: ["boundary", "the most allowed"],
@@ -25747,7 +25749,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "frequency",
-    palabra: "frequency",
+    palabra: "Frequency",
     imagen: { id: 11752, alt: "Repeating several times" },
     definicion: "How many times something happens in a period of time.",
     sinonimos: ["how often", "how many times"],
@@ -25757,7 +25759,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "urgent",
-    palabra: "urgent",
+    palabra: "Urgent",
     imagen: { id: 10263, alt: "A tooth in pain" },
     definicion: "Something that must be done or solved right away, without waiting.",
     sinonimos: ["immediate", "that cannot wait"],
@@ -25767,7 +25769,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "punctual",
-    palabra: "punctual",
+    palabra: "Punctual",
     imagen: { id: 13026, alt: "A clock and a person waiting at the door" },
     definicion: "Arriving at the exact time, neither before nor after it was expected.",
     sinonimos: ["on time", "without delay"],
@@ -25777,7 +25779,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "regret",
-    palabra: "regret",
+    palabra: "Regret",
     imagen: { id: 4729, alt: "A person signing a document" },
     definicion: "To feel sorry about something you did and wish you had not done it.",
     sinonimos: ["feel sorry", "wish you had not done something"],
@@ -25787,7 +25789,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "take-on",
-    palabra: "take on",
+    palabra: "Take on",
     imagen: { id: 37234, alt: "A person with a thumbs-up and a checkmark" },
     definicion: "To accept or become responsible for a duty or a cost.",
     sinonimos: ["take responsibility for", "accept"],
@@ -25797,7 +25799,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "benefit-from",
-    palabra: "benefit from",
+    palabra: "Benefit from",
     imagen: { id: 16373, alt: "A person receiving financial help" },
     definicion: "To receive an advantage or help thanks to something.",
     sinonimos: ["gain from", "receive an advantage"],
@@ -25807,7 +25809,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "take-charge-of",
-    palabra: "take charge of",
+    palabra: "Take charge of",
     imagen: { id: 3204, alt: "A person organising a birthday party" },
     definicion: "To deal with a task and be responsible for it getting done.",
     sinonimos: ["deal with", "be responsible for"],
@@ -25817,7 +25819,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "make-an-effort",
-    palabra: "make an effort",
+    palabra: "Make an effort",
     imagen: { id: 5945, alt: "A person studying for the driving test" },
     definicion: "To put a lot of effort and will into achieving something difficult.",
     sinonimos: ["strive", "work hard"],
@@ -25827,7 +25829,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "undergo",
-    palabra: "undergo",
+    palabra: "Undergo",
     imagen: { id: 27278, alt: "A doctor giving a full check-up" },
     definicion: "To accept going through something, like a test or an operation, even if it is not pleasant.",
     sinonimos: ["go through", "have done"],
@@ -25837,7 +25839,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "flexible",
-    palabra: "flexible",
+    palabra: "Flexible",
     imagen: { id: 24055, alt: "A weekly schedule grid" },
     definicion: "Something that can be easily changed or adapted depending on what is needed.",
     sinonimos: ["changeable", "easy to adjust"],
@@ -25847,7 +25849,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "fresh-food",
-    palabra: "fresh food",
+    palabra: "Fresh food",
     imagen: { id: 29131, alt: "Fresh fruit and vegetables at a market stall" },
     definicion: "Food that has been made or picked recently and has not been treated to last a long time.",
     sinonimos: ["recently made food", "without preservatives"],
@@ -25858,7 +25860,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "accommodation",
-    palabra: "accommodation",
+    palabra: "Accommodation",
     imagen: { id: 34337, alt: "A person looking for somewhere to stay near a hospital" },
     definicion: "The place where a person sleeps and stays when they are not in their own home.",
     sinonimos: ["lodging", "a place to stay"],
@@ -25869,7 +25871,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "food-allergen",
-    palabra: "food allergen",
+    palabra: "Food allergen",
     imagen: { id: 8667, alt: "Nuts, a common food allergen" },
     definicion: "A substance in a food that can harm people who are allergic to it.",
     sinonimos: ["substance that causes allergy", "allergen in food"],
@@ -25880,7 +25882,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "platform",
-    palabra: "platform",
+    palabra: "Platform",
     imagen: { id: 3099, alt: "A train station" },
     definicion: "The area next to the train or bus track where passengers wait and get on.",
     sinonimos: ["train platform", "boarding area"],
@@ -25891,7 +25893,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "in-advance",
-    palabra: "in advance",
+    palabra: "In advance",
     imagen: { id: 3071, alt: "A calendar" },
     definicion: "Doing something before the moment it is needed, with plenty of time to spare.",
     sinonimos: ["ahead of time", "beforehand"],
@@ -25902,7 +25904,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "emotional-support",
-    palabra: "emotional support",
+    palabra: "Emotional support",
     imagen: { id: 15925, alt: "A group of people listening to and supporting someone" },
     definicion: "Helping a person feel better when they are sad or worried, by listening to them and being there for them.",
     sinonimos: ["help to feel better", "emotional care"],
@@ -25913,7 +25915,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "local-group",
-    palabra: "local group",
+    palabra: "Local group",
     imagen: { id: 6241, alt: "Neighbours gathered organising something together" },
     definicion: "A group of people from a neighbourhood or town who organise themselves to achieve something together.",
     sinonimos: ["neighbourhood group", "residents' association"],
@@ -25924,7 +25926,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "balanced-diet",
-    palabra: "balanced diet",
+    palabra: "Balanced diet",
     imagen: { id: 37201, alt: "Different kinds of healthy food" },
     definicion: "Eating an amount and variety of food each day that is good for the body.",
     sinonimos: ["balanced eating", "eating healthily"],
@@ -25935,7 +25937,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "documentation",
-    palabra: "documentation",
+    palabra: "Documentation",
     imagen: { id: 3233, alt: "A folder with several official documents" },
     definicion: "The set of official papers that prove who you are or that you have a right to something.",
     sinonimos: ["official papers", "necessary documents"],
@@ -25946,7 +25948,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "border",
-    palabra: "border",
+    palabra: "Border",
     imagen: { id: 8483, alt: "A border checkpoint" },
     definicion: "The line that separates one country from another.",
     sinonimos: ["boundary between countries", "borderline"],
@@ -25957,7 +25959,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "hydration",
-    palabra: "hydration",
+    palabra: "Hydration",
     imagen: { id: 2276, alt: "A person drinking water" },
     definicion: "Drinking enough water or other liquids so the body works well.",
     sinonimos: ["drinking enough water", "replacing fluids"],
@@ -25968,7 +25970,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "itinerary",
-    palabra: "itinerary",
+    palabra: "Itinerary",
     imagen: { id: 25648, alt: "A route marked from one point to another" },
     definicion: "The plan with the order of places and times for a trip.",
     sinonimos: ["trip plan", "planned route"],
@@ -25979,7 +25981,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "romantic-partner",
-    palabra: "romantic partner",
+    palabra: "Romantic partner",
     imagen: { id: 7232, alt: "A couple in love" },
     definicion: "The person with whom someone has a loving relationship.",
     sinonimos: ["boyfriend or girlfriend", "significant other"],
@@ -25990,7 +25992,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "delay",
-    palabra: "delay",
+    palabra: "Delay",
     imagen: { id: 39597, alt: "An airport board announcing a delayed flight" },
     definicion: "Arriving or doing something later than the expected time.",
     sinonimos: ["hold-up", "lateness"],
@@ -26001,7 +26003,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "route",
-    palabra: "route",
+    palabra: "Route",
     imagen: { id: 2472, alt: "A train line marked on a map between two cities" },
     definicion: "The path or the distance travelled to go from one place to another.",
     sinonimos: ["journey", "distance travelled"],
@@ -26012,7 +26014,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "isolation",
-    palabra: "isolation",
+    palabra: "Isolation",
     imagen: { id: 36696, alt: "A person staying safe at home" },
     definicion: "Being alone, separated from other people, for a period of time.",
     sinonimos: ["solitude", "being kept apart from others"],
@@ -26023,7 +26025,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "hobby",
-    palabra: "hobby",
+    palabra: "Hobby",
     imagen: { id: 8644, alt: "A person painting a picture in their free time" },
     definicion: "Something a person really enjoys doing in their free time.",
     sinonimos: ["pastime", "leisure activity"],
@@ -26034,7 +26036,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "wellbeing",
-    palabra: "wellbeing",
+    palabra: "Wellbeing",
     imagen: { id: 11653, alt: "A person walking outdoors" },
     definicion: "Feeling good, both in body and in mind.",
     sinonimos: ["feeling good", "good physical and mental health"],
@@ -26045,7 +26047,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "personal-space",
-    palabra: "personal space",
+    palabra: "Personal space",
     imagen: { id: 8717, alt: "Life" },
     definicion: "The physical distance a person needs to feel comfortable around others.",
     sinonimos: ["personal distance", "own space"],
@@ -26056,7 +26058,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "train-transfer",
-    palabra: "transfer",
+    palabra: "Transfer",
     imagen: { id: 6494, alt: "A train station" },
     definicion: "Changing from one type of transport to another during a trip to reach the final destination.",
     sinonimos: ["change of transport", "connection"],
@@ -26067,7 +26069,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "wound-dressing",
-    palabra: "wound dressing",
+    palabra: "Wound dressing",
     imagen: { id: 27794, alt: "Gauze" },
     definicion: "A piece of gauze or bandage put over a wound to protect it and help it heal.",
     sinonimos: ["protective gauze", "gauze for a wound"],
@@ -26078,7 +26080,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "contractual",
-    palabra: "contractual",
+    palabra: "Contractual",
     imagen: { id: 21557, alt: "A signed work contract" },
     definicion: "Something related to a contract or that is part of its conditions.",
     sinonimos: ["related to the contract", "part of the contract"],
@@ -26089,7 +26091,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "disciplinary",
-    palabra: "disciplinary",
+    palabra: "Disciplinary",
     imagen: { id: 37340, alt: "A written document with several lines of text" },
     definicion: "Something related to workplace conduct rules and the penalties for breaking them.",
     sinonimos: ["related to penalties", "about workplace conduct"],
@@ -26100,7 +26102,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "in-accordance-with",
-    palabra: "in accordance with",
+    palabra: "In accordance with",
     imagen: { id: 21383, alt: "A person approving with a thumbs up" },
     definicion: "Agreeing with something, or acting exactly as a rule or a document says.",
     sinonimos: ["in agreement with", "following what it says"],
@@ -26111,7 +26113,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "competent-authority",
-    palabra: "competent authority",
+    palabra: "Competent authority",
     imagen: { id: 34480, alt: "A courthouse building with the scales of justice" },
     definicion: "The authority or body that has the legal power to deal with a specific matter.",
     sinonimos: ["with legal authority", "in charge by law"],
@@ -26122,7 +26124,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "amount-due",
-    palabra: "amount due",
+    palabra: "Amount due",
     imagen: { id: 38971, alt: "A restaurant bill and a credit card on a tray" },
     definicion: "The amount of money that has to be paid for something.",
     sinonimos: ["sum owed", "sum to be paid"],
@@ -26133,7 +26135,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "unit-price",
-    palabra: "unit price",
+    palabra: "Unit price",
     imagen: { id: 9874, alt: "A price tag" },
     definicion: "The price of a single unit of a product or service, before multiplying it by the quantity.",
     sinonimos: ["price per unit", "cost of each unit"],
@@ -26144,7 +26146,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "service-provider",
-    palabra: "service provider",
+    palabra: "Service provider",
     imagen: { id: 5492, alt: "A computer connected to the internet" },
     definicion: "The company or person that offers a service, like internet, phone or electricity.",
     sinonimos: ["service company", "provider"],
@@ -26155,7 +26157,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "early-termination-fee",
-    palabra: "early termination fee",
+    palabra: "Early termination fee",
     imagen: { id: 15517, alt: "A bill with an extra charge highlighted" },
     definicion: "Money you have to pay extra for not meeting a condition, such as cancelling something before the agreed time.",
     sinonimos: ["cancellation charge", "fee for cancelling early"],
@@ -26166,7 +26168,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "minimum-term",
-    palabra: "minimum term",
+    palabra: "Minimum term",
     imagen: { id: 3071, alt: "A calendar" },
     definicion: "The minimum amount of time you must keep a contract before you can cancel it without paying extra.",
     sinonimos: ["minimum contract period", "lock-in period"],
@@ -26177,7 +26179,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "harm",
-    palabra: "harm",
+    palabra: "Harm",
     imagen: { id: 2636, alt: "A lawyer holding papers next to the scales of justice" },
     definicion: "Damage or loss that a person suffers because of someone else.",
     sinonimos: ["damage caused", "loss suffered"],
@@ -26188,7 +26190,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "service-suspension",
-    palabra: "service suspension",
+    palabra: "Service suspension",
     imagen: { id: 8289, alt: "A stop sign" },
     definicion: "Temporarily stopping a service or contract, without cancelling it completely.",
     sinonimos: ["temporary stop", "temporary pause of a service"],
@@ -26199,7 +26201,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "land-registry-record",
-    palabra: "land registry record",
+    palabra: "Land registry record",
     imagen: { id: 22797, alt: "A Land Registry document with a stamp" },
     definicion: "Something related to the Land Registry, where homes and their owners are officially recorded.",
     sinonimos: ["from the Land Registry", "related to the property register"],
@@ -26210,7 +26212,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "execution-of-a-deed",
-    palabra: "execution of a deed",
+    palabra: "Execution of a deed",
     imagen: { id: 35413, alt: "Two people signing a document in front of a notary" },
     definicion: "The moment when a legal document, like a deed, is officially signed in front of a notary.",
     sinonimos: ["official signing of the document", "formal granting"],
@@ -26221,7 +26223,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "put-on-record",
-    palabra: "put on record",
+    palabra: "Put on record",
     imagen: { id: 12317, alt: "A person signing an official record" },
     definicion: "To say or write something officially so it stands as proof or becomes part of a document.",
     sinonimos: ["record officially", "state officially"],
@@ -26232,7 +26234,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "division-of-the-estate",
-    palabra: "division of the estate",
+    palabra: "Division of the estate",
     imagen: { id: 11700, alt: "Several siblings sharing out an inheritance" },
     definicion: "Sharing out the belongings of a person who has died among the people who inherit them.",
     sinonimos: ["sharing out the inheritance", "splitting the assets"],
@@ -26243,7 +26245,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "folio-number",
-    palabra: "folio number",
+    palabra: "Folio number",
     imagen: { id: 2398, alt: "Several sheets of paper" },
     definicion: "The page number where a home is officially recorded in the Land Registry.",
     sinonimos: ["registry page number", "record page number"],
@@ -26254,7 +26256,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "mortgage-differential",
-    palabra: "mortgage differential",
+    palabra: "Mortgage differential",
     imagen: { id: 3062, alt: "A person asking for a loan" },
     definicion: "The fixed part the bank adds to the variable interest rate of a mortgage.",
     sinonimos: ["fixed part of the interest rate", "bank's margin"],
@@ -26265,7 +26267,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "gravity",
-    palabra: "gravity",
+    palabra: "Gravity",
     imagen: { id: 4569, alt: "An astronaut floating in space" },
     definicion: "The force that makes things fall to the ground and keeps planets moving around the Sun.",
     sinonimos: ["force of attraction", "force that pulls things down"],
@@ -26276,7 +26278,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "atmosphere",
-    palabra: "atmosphere",
+    palabra: "Atmosphere",
     imagen: { id: 30014, alt: "The Earth, the planet" },
     definicion: "The layer of air and gases that surrounds a planet, such as Earth.",
     sinonimos: ["layer of air", "layer of gases"],
@@ -26287,7 +26289,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "galaxy",
-    palabra: "galaxy",
+    palabra: "Galaxy",
     imagen: { id: 37733, alt: "A spiral galaxy with many stars" },
     definicion: "A huge group of stars, planets and dust that stay together in space.",
     sinonimos: ["group of stars", "star system"],
@@ -26298,7 +26300,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "nucleus",
-    palabra: "nucleus",
+    palabra: "Nucleus",
     imagen: { id: 36340, alt: "A cell with its nucleus in the centre" },
     definicion: "The central part of something, like a cell or an atom, where the most important part is.",
     sinonimos: ["central part", "centre of a cell or atom"],
@@ -26309,7 +26311,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "dimension",
-    palabra: "dimension",
+    palabra: "Dimension",
     imagen: { id: 9134, alt: "A three-dimensional cube" },
     definicion: "Each of the directions that can be measured in a space, such as length, width or height.",
     sinonimos: ["measurements of space", "size in one direction"],
@@ -26320,7 +26322,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "evolution",
-    palabra: "evolution",
+    palabra: "Evolution",
     imagen: { id: 2437, alt: "A giraffe with a very long neck" },
     definicion: "The gradual change of living things over a long time, to adapt better to their surroundings.",
     sinonimos: ["change over time", "gradual adaptation"],
@@ -26331,7 +26333,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "genetics",
-    palabra: "genetics",
+    palabra: "Genetics",
     imagen: { id: 32084, alt: "A family with similar features between parents and children" },
     definicion: "The science that studies how characteristics pass from parents to children.",
     sinonimos: ["science of heredity", "study of genes"],
@@ -26342,7 +26344,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "eclipse",
-    palabra: "eclipse",
+    palabra: "Eclipse",
     imagen: { id: 8097, alt: "The Sun blocked by the Moon" },
     definicion: "When one heavenly body blocks the light of another, like when the Moon moves in front of the Sun.",
     sinonimos: ["blocking of a heavenly body", "sun or moon blocked"],
@@ -26353,7 +26355,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "density",
-    palabra: "density",
+    palabra: "Density",
     imagen: { id: 36618, alt: "A scale" },
     definicion: "The amount of matter there is in a given space. That is why some things weigh more than others of the same size.",
     sinonimos: ["amount of matter per space", "weight per volume"],
@@ -26364,7 +26366,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "atom",
-    palabra: "atom",
+    palabra: "Atom",
     imagen: { id: 24240, alt: "Several small particles of different sizes" },
     definicion: "The smallest part into which matter can be divided while still being that same substance.",
     sinonimos: ["tiny particles of matter", "smallest unit of an element"],
@@ -26375,7 +26377,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "particle",
-    palabra: "particle",
+    palabra: "Particle",
     imagen: { id: 8168, alt: "A microscope" },
     definicion: "A tiny piece of matter, much smaller than what can be seen with the naked eye.",
     sinonimos: ["tiny piece", "very small fragment"],
@@ -26386,7 +26388,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "asteroid",
-    palabra: "asteroid",
+    palabra: "Asteroid",
     imagen: { id: 34241, alt: "An asteroid passing near Earth, the Moon and the Sun" },
     definicion: "A large rock that travels through space, smaller than a planet.",
     sinonimos: ["space rock", "rocky body in space"],
@@ -26397,7 +26399,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "glacier",
-    palabra: "glacier",
+    palabra: "Glacier",
     imagen: { id: 34268, alt: "A large mass of ice between mountains" },
     definicion: "A very large mass of ice that moves very slowly through a valley or a mountain.",
     sinonimos: ["mass of ice", "river of ice"],
@@ -26408,7 +26410,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "constellation",
-    palabra: "constellation",
+    palabra: "Constellation",
     imagen: { id: 6978, alt: "A starry night sky" },
     definicion: "A group of stars that, seen from Earth, form a recognisable pattern in the sky.",
     sinonimos: ["group of stars with a shape", "pattern of stars"],
@@ -26419,7 +26421,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "equator",
-    palabra: "equator",
+    palabra: "Equator",
     imagen: { id: 27798, alt: "The Earth, the planet" },
     definicion: "The imaginary line that goes around the Earth through the middle, between the north and the south.",
     sinonimos: ["line that splits the Earth in two", "middle line of the planet"],
@@ -26430,7 +26432,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "parasite",
-    palabra: "parasite",
+    palabra: "Parasite",
     imagen: { id: 2935, alt: "An earthworm" },
     definicion: "A living thing that lives inside or on another living thing and feeds off it, causing it harm.",
     sinonimos: ["living thing that feeds off another", "harmful organism that lives in another", "parasitic"],
@@ -26441,7 +26443,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "anomaly",
-    palabra: "anomaly",
+    palabra: "Anomaly",
     imagen: { id: 9927, alt: "A magnifying glass" },
     definicion: "Something that does not follow what is normal or expected, something strange or different from usual.",
     sinonimos: ["something out of the ordinary", "irregularity"],
@@ -26452,7 +26454,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "altitude",
-    palabra: "altitude",
+    palabra: "Altitude",
     imagen: { id: 4580, alt: "Hiking boots" },
     definicion: "The height a place is at, measured from sea level.",
     sinonimos: ["height above sea level", "elevation"],
@@ -26463,7 +26465,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "magnetism",
-    palabra: "magnetism",
+    palabra: "Magnetism",
     imagen: { id: 8138, alt: "A magnet attracting metal clips" },
     definicion: "The force that makes a magnet attract metal objects, like iron.",
     sinonimos: ["force of a magnet", "magnetic attraction"],
@@ -26655,7 +26657,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "supernova",
-    palabra: "supernova",
+    palabra: "Supernova",
     imagen: { id: 4791, alt: "An explosion" },
     definicion: "The very large explosion of a star at the end of its life.",
     sinonimos: ["explosion of a star", "star that explodes"],
@@ -26666,7 +26668,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "mutation",
-    palabra: "mutation",
+    palabra: "Mutation",
     imagen: { id: 10268, alt: "DNA" },
     definicion: "A change in the genes of a living thing, that can pass from parents to children.",
     sinonimos: ["genetic change", "change in the DNA"],
@@ -26677,7 +26679,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "genome",
-    palabra: "genome",
+    palabra: "Genome",
     imagen: { id: 10268, alt: "A strand of DNA" },
     definicion: "All the genetic information of a living thing, kept in its genes.",
     sinonimos: ["complete genetic information", "full set of genes"],
@@ -26688,7 +26690,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "ozone",
-    palabra: "ozone",
+    palabra: "Ozone",
     imagen: { id: 10289, alt: "The Earth surrounded by a protective layer" },
     definicion: "A gas that forms a layer around the Earth and protects us from the Sun.",
     sinonimos: ["protective atmosphere gas", "layer that protects from the Sun"],
@@ -26699,7 +26701,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "chromosome",
-    palabra: "chromosome",
+    palabra: "Chromosome",
     imagen: { id: 36340, alt: "A cell" },
     definicion: "A part of the cell where the genes of a living thing are kept.",
     sinonimos: ["part of the cell with the genes", "structure that holds the genes"],
@@ -26710,7 +26712,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "cloning",
-    palabra: "cloning",
+    palabra: "Cloning",
     imagen: { id: 2489, alt: "A sheep" },
     definicion: "Creating a living thing by copying exactly the genes of another living thing.",
     sinonimos: ["exact genetic copy of a living thing", "creation of an identical copy"],
@@ -26721,7 +26723,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "biotechnology",
-    palabra: "biotechnology",
+    palabra: "Biotechnology",
     imagen: { id: 31178, alt: "A science laboratory" },
     definicion: "Using living things or parts of them to make useful products, like medicines.",
     sinonimos: ["technology that uses living things", "science that makes products from living things"],
@@ -26732,7 +26734,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "radioactivity",
-    palabra: "radioactivity",
+    palabra: "Radioactivity",
     imagen: { id: 8657, alt: "Radiation danger symbol" },
     definicion: "The dangerous energy that some materials give off naturally.",
     sinonimos: ["dangerous energy from some materials", "release of nuclear energy"],
@@ -26743,7 +26745,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "multiverse",
-    palabra: "multiverse",
+    palabra: "Multiverse",
     imagen: { id: 37375, alt: "Several different universes" },
     definicion: "The idea that many different universes can exist at the same time.",
     sinonimos: ["group of several universes", "many possible universes"],
@@ -26754,7 +26756,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "meteorite",
-    palabra: "meteorite",
+    palabra: "Meteorite",
     imagen: { id: 34241, alt: "A rock falling from space" },
     definicion: "A piece of rock from space that falls and lands on Earth.",
     sinonimos: ["rock from space", "piece of rock that lands on Earth"],
@@ -26765,7 +26767,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "enzyme",
-    palabra: "enzyme",
+    palabra: "Enzyme",
     imagen: { id: 26346, alt: "A protein" },
     definicion: "A substance in the body that makes chemical reactions, like digestion, happen faster.",
     sinonimos: ["substance that speeds up the body's reactions", "protein that helps digest food"],
@@ -26787,7 +26789,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "inertia",
-    palabra: "inertia",
+    palabra: "Inertia",
     imagen: { id: 4638, alt: "A person pushing something" },
     definicion: "The force that makes things stay still or keep moving unless something changes them.",
     sinonimos: ["tendency to stay the same", "resistance to changing state"],
@@ -26798,7 +26800,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "plankton",
-    palabra: "plankton",
+    palabra: "Plankton",
     imagen: { id: 2925, alt: "Tiny living things floating in the sea" },
     definicion: "Very small living things that float in the sea and are food for many animals.",
     sinonimos: ["tiny living things that float in the sea", "basic food of marine life"],
@@ -26809,7 +26811,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "tundra",
-    palabra: "tundra",
+    palabra: "Tundra",
     imagen: { id: 3135, alt: "A cold, snowy landscape" },
     definicion: "A very cold area where almost no trees grow and the ground stays frozen.",
     sinonimos: ["frozen area without trees", "cold northern plain"],
@@ -26820,7 +26822,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "fission",
-    palabra: "fission",
+    palabra: "Fission",
     imagen: { id: 8534, alt: "A nuclear power plant" },
     definicion: "Splitting the nucleus of an atom to release a large amount of energy.",
     sinonimos: ["splitting of an atom's nucleus", "process that releases nuclear energy"],
@@ -26831,7 +26833,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "entropy",
-    palabra: "entropy",
+    palabra: "Entropy",
     imagen: { id: 36633, alt: "A messy room" },
     definicion: "A measure of how disordered a system is, which tends to increase over time.",
     sinonimos: ["level of disorder in a system", "natural tendency toward disorder"],
@@ -26842,7 +26844,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "underinsured",
-    palabra: "underinsured",
+    palabra: "Underinsured",
     imagen: { id: 32356, alt: "An insurance policy that does not cover everything" },
     definicion: "Having less insurance than you need, so it does not cover the full cost if something goes wrong.",
     sinonimos: ["without enough insurance", "having insurance that does not cover enough"],
@@ -26853,7 +26855,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "vesting",
-    palabra: "vesting",
+    palabra: "Vesting",
     imagen: { id: 21557, alt: "A work contract" },
     definicion: "The process of gradually earning full ownership of money or benefits your employer promised you, usually the longer you stay.",
     sinonimos: ["gradual earning of ownership", "process of earning full rights to a benefit over time"],
@@ -26864,7 +26866,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "abandonment",
-    palabra: "abandonment",
+    palabra: "Abandonment",
     imagen: { id: 6215, alt: "A hand dropping something" },
     definicion: "Voluntarily giving up a right, duty, or responsibility.",
     sinonimos: ["voluntary giving up of a right", "leaving a duty unfulfilled on purpose"],
@@ -26875,7 +26877,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "adherence",
-    palabra: "adherence",
+    palabra: "Adherence",
     imagen: { id: 8163, alt: "A person taking a pill" },
     definicion: "Following medical treatment the way the doctor recommends, like taking medicine and advice correctly.",
     sinonimos: ["correctly following medical treatment", "sticking to the doctor's instructions"],
@@ -26886,7 +26888,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "acceleration",
-    palabra: "acceleration",
+    palabra: "Acceleration",
     imagen: { id: 3062, alt: "A bank document with money" },
     definicion: "When a bank demands full repayment of a debt before the agreed date, usually after missed payments.",
     sinonimos: ["demand for early full repayment of a loan", "early repayment forced by missed payments", "accelerate"],
@@ -26897,7 +26899,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "comorbidity",
-    palabra: "comorbidity",
+    palabra: "Comorbidity",
     imagen: { id: 11252, alt: "Two illness symptoms together" },
     definicion: "Having two or more illnesses or health problems at the same time.",
     sinonimos: ["having several illnesses at once", "presence of more than one illness"],
@@ -26908,7 +26910,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "overdiagnosis",
-    palabra: "overdiagnosis",
+    palabra: "Overdiagnosis",
     imagen: { id: 6198, alt: "An X-ray" },
     definicion: "Detecting a disease that would never have caused symptoms or real problems for the person.",
     sinonimos: ["detecting a disease that would not have caused harm", "diagnosing more than needed"],
@@ -26919,7 +26921,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "planned-obsolescence",
-    palabra: "planned obsolescence",
+    palabra: "Planned obsolescence",
     imagen: { id: 34908, alt: "A broken screen" },
     definicion: "When a company makes a device so it stops working well after some time, so you have to buy a new one.",
     sinonimos: ["designing something to break down on purpose", "making a product wear out sooner than it should"],
@@ -26930,7 +26932,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "voidable",
-    palabra: "voidable",
+    palabra: "Voidable",
     imagen: { id: 21557, alt: "A contract with a question mark" },
     definicion: "A contract that has a defect allowing the harmed party to cancel it, even though it stays valid until then.",
     sinonimos: ["able to be cancelled due to a defect", "not automatically invalid, but cancellable"],
@@ -26941,7 +26943,7 @@ DICCIONARIOS.en = [
   },
   {
     id: "retroactivity",
-    palabra: "retroactivity",
+    palabra: "Retroactivity",
     imagen: { id: 32488, alt: "A calendar" },
     definicion: "When a new law or rule also applies to events that happened before it existed.",
     sinonimos: ["applying a law to earlier events", "a rule's effect on the past"],
@@ -28778,5 +28780,150 @@ DICCIONARIOS.en = [
     ejemploSinonimo: { palabra: "warning sign", texto: "High cholesterol is a warning sign of heart attacks." },
     situacion: "salud",
     traduccion: { "es": "predictor" },
+  },
+
+  // --- AIVD: listapalabras.com hinted re-review (suffix-tagged pool) - public-treasury/biliary/age-group/torsion/psychological-drive/oratory/letter-rogatory/licensure/family-reunification/asset-concealment/expiratory/self-exclusion-registry/zionist (2026-09-10) ---
+  {
+    id: "public-treasury",
+    palabra: "Public treasury",
+    imagen: { id: 8625, alt: "A treasure map" },
+    definicion: "The money and property that belong to the State or to a public administration.",
+    sinonimos: ["public money","State funds"],
+    ejemplo: { palabra: "public treasury", texto: "The mayor was accused of using the public treasury for personal expenses." },
+    ejemploSinonimo: { palabra: "public money", texto: "The mayor was accused of using the public money for personal expenses." },
+    situacion: "finanzas",
+    traduccion: { "es": "erario" },
+  },
+  {
+    id: "biliary",
+    palabra: "Biliary",
+    imagen: { id: 2980, alt: "The liver inside the body" },
+    definicion: "Relating to bile or to the ducts that carry it from the liver.",
+    sinonimos: ["related to bile","related to the ducts that carry bile"],
+    ejemplo: { palabra: "biliary", texto: "The doctor said the stone was biliary." },
+    ejemploSinonimo: { palabra: "related to bile", texto: "The doctor said the stone was related to bile." },
+    situacion: "salud",
+    traduccion: { "es": "biliario" },
+  },
+  {
+    id: "age-group",
+    palabra: "Age group",
+    imagen: { id: 7116, alt: "A group of people of different ages" },
+    definicion: "A set of people who are around the same age.",
+    sinonimos: ["set of people of similar age","people who are roughly the same age"],
+    ejemplo: { palabra: "age group", texto: "The vaccine is recommended for that age group." },
+    ejemploSinonimo: { palabra: "set of people of similar age", texto: "The vaccine is recommended for that set of people of similar age." },
+    situacion: "salud",
+    traduccion: { "es": "grupo-etario" },
+  },
+  {
+    id: "torsion",
+    palabra: "Torsion",
+    imagen: { id: 3405, alt: "A swollen ankle" },
+    definicion: "A forced twist of a body part that damages it or cuts off its blood supply.",
+    sinonimos: ["forced twist that damages a body part","twisting that cuts off blood flow"],
+    ejemplo: { palabra: "torsion", texto: "They diagnosed him with a torsion in the ankle." },
+    ejemploSinonimo: { palabra: "forced twist that damages a body part", texto: "They diagnosed him with a forced twist that damages a body part in the ankle." },
+    situacion: "salud",
+    traduccion: { "es": "torsion" },
+  },
+  {
+    id: "psychological-drive",
+    palabra: "Psychological drive",
+    imagen: { id: 2450, alt: "A book" },
+    definicion: "A powerful inner urge that pushes a person to do something, often without them realizing it.",
+    sinonimos: ["powerful uncontrollable inner force","powerful inner urge"],
+    ejemplo: { palabra: "psychological drive", texto: "The therapist talked about the psychological drive the patient felt." },
+    ejemploSinonimo: { palabra: "powerful uncontrollable inner force", texto: "The therapist talked about the powerful uncontrollable inner force the patient felt." },
+    situacion: "conocimiento",
+    traduccion: { "es": "pulsion" },
+  },
+  {
+    id: "oratory",
+    palabra: "Oratory",
+    imagen: { id: 2912, alt: "A microphone for recording sound" },
+    definicion: "The art of speaking well in public to persuade or move an audience.",
+    sinonimos: ["art of speaking well in public","skill for speaking in public"],
+    ejemplo: { palabra: "oratory", texto: "The politician was famous for his oratory." },
+    ejemploSinonimo: { palabra: "art of speaking well in public", texto: "The politician was famous for his art of speaking well in public." },
+    situacion: "conocimiento",
+    traduccion: { "es": "oratoria" },
+  },
+  {
+    id: "letter-rogatory",
+    palabra: "Letter rogatory",
+    imagen: { id: 2688, alt: "An official letter" },
+    definicion: "An official document a judge in one country uses to ask a judge in another country for legal help.",
+    sinonimos: ["legal request between judges of different countries","official document for international judicial help"],
+    ejemplo: { palabra: "letter rogatory", texto: "The judge sent a letter rogatory to France to summon the witness." },
+    ejemploSinonimo: { palabra: "legal request between judges of different countries", texto: "The judge sent a legal request between judges of different countries to France to summon the witness." },
+    situacion: "legal",
+    traduccion: { "es": "carta-rogatoria" },
+  },
+  {
+    id: "licensure",
+    palabra: "Licensure",
+    imagen: { id: 37406, alt: "A title or official document" },
+    definicion: "The official permission that confirms a person can practice a profession.",
+    sinonimos: ["official certification to practice a profession","official authorization to work in a profession"],
+    ejemplo: { palabra: "licensure", texto: "She needs the licensure the ministry requires." },
+    ejemploSinonimo: { palabra: "official certification to practice a profession", texto: "She needs the official certification to practice a profession the ministry requires." },
+    situacion: "trabajo",
+    traduccion: { "es": "habilitacion" },
+  },
+  {
+    id: "family-reunification",
+    palabra: "Family reunification",
+    imagen: { id: 4550, alt: "A hug" },
+    definicion: "The right of an immigrant to bring their closest family members to their country.",
+    sinonimos: ["legal reunion of a family separated by migration","legal path to bring close family members"],
+    ejemplo: { palabra: "family reunification", texto: "She applied for family reunification to bring her children." },
+    ejemploSinonimo: { palabra: "legal reunion of a family separated by migration", texto: "She applied for legal reunion of a family separated by migration to bring her children." },
+    situacion: "legal",
+    traduccion: { "es": "reunificacion-familiar" },
+  },
+  {
+    id: "asset-concealment",
+    palabra: "Asset concealment",
+    imagen: { id: 4642, alt: "A hidden person" },
+    definicion: "Hiding money or property on purpose to avoid paying a debt or a tax.",
+    sinonimos: ["hiding assets to avoid paying a debt","act of hiding money or property"],
+    ejemplo: { palabra: "asset concealment", texto: "He was accused of asset concealment during the trial." },
+    ejemploSinonimo: { palabra: "hiding assets to avoid paying a debt", texto: "He was accused of hiding assets to avoid paying a debt during the trial." },
+    situacion: "legal",
+    traduccion: { "es": "ocultacion-de-bienes" },
+  },
+  {
+    id: "expiratory",
+    palabra: "Expiratory",
+    imagen: { id: 34409, alt: "A person breathing" },
+    definicion: "Relating to the moment of releasing air from the lungs when breathing.",
+    sinonimos: ["related to releasing air when breathing","related to air leaving the lungs"],
+    ejemplo: { palabra: "expiratory", texto: "The device shows that the patient's flow is expiratory." },
+    ejemploSinonimo: { palabra: "related to releasing air when breathing", texto: "The device shows that the patient's flow is related to releasing air when breathing." },
+    situacion: "salud",
+    traduccion: { "es": "espiratorio" },
+  },
+  {
+    id: "self-exclusion-registry",
+    palabra: "Self-exclusion registry",
+    imagen: { id: 28227, alt: "A casino roulette wheel with chips and cards" },
+    definicion: "An official list a person signs up to so they are not allowed into casinos or to bet money.",
+    sinonimos: ["program to ban oneself from gambling","list of people voluntarily excluded from gambling"],
+    ejemplo: { palabra: "self-exclusion registry", texto: "He signed up for the self-exclusion registry to stop gambling." },
+    ejemploSinonimo: { palabra: "program to ban oneself from gambling", texto: "He signed up for the program to ban oneself from gambling to stop gambling." },
+    situacion: "legal",
+    traduccion: { "es": "registro-de-autoexclusion" },
+  },
+  {
+    id: "zionist",
+    palabra: "Zionist",
+    imagen: { id: 5918, alt: "A flag" },
+    definicion: "A person who supports Zionism, the movement that advocates for the existence of a Jewish State in the land of Israel.",
+    sinonimos: ["person who supports Zionism","supporter of the movement for a Jewish State in Israel"],
+    ejemplo: { palabra: "Zionist", texto: "That politician was known as a Zionist." },
+    ejemploSinonimo: { palabra: "person who supports Zionism", texto: "That politician was known as a person who supports Zionism." },
+    situacion: "conocimiento",
+    traduccion: { "es": "sionista" },
   },
 ];
