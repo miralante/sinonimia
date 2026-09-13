@@ -28926,4 +28926,28 @@ DICCIONARIOS.en = [
     situacion: "conocimiento",
     traduccion: { "es": "sionista" },
   },
+
+  // --- AIVD: parked candidates from listapalabras.com hinted re-review - Weapon carrying permit, Involuntary commitment (2026-09-13) ---
+  {
+    id: "weapon-carrying-permit",
+    palabra: "Weapon carrying permit",
+    imagen: { id: 2831, alt: "Pistol, handgun, firearm" },
+    definicion: "The legal permission to carry a weapon on you, outside the home. It is different from the permit to just keep it stored.",
+    sinonimos: ["permit to carry a weapon outside the home","permission to carry a weapon in public"],
+    ejemplo: { palabra: "weapon carrying permit", texto: "He needs a weapon carrying permit to work as a bodyguard." },
+    ejemploSinonimo: { palabra: "permit to carry a weapon outside the home", texto: "He needs a permit to carry a weapon outside the home to work as a bodyguard." },
+    situacion: "legal",
+    traduccion: { "es": "portacion-de-armas" },
+  },
+  {
+    id: "involuntary-commitment",
+    palabra: "Involuntary commitment",
+    imagen: { id: 29875, alt: "A hospital building with a troubled face inside" },
+    definicion: "Admitting a person to a mental health hospital without their permission, something only a judge can authorize.",
+    sinonimos: ["admission to a mental health hospital without permission","hospital admission ordered by a judge"],
+    ejemplo: { palabra: "involuntary commitment", texto: "The judge authorized the involuntary commitment of the patient." },
+    ejemploSinonimo: { palabra: "admission to a mental health hospital without permission", texto: "The judge authorized the admission to a mental health hospital without permission of the patient." },
+    situacion: "legal",
+    traduccion: { "es": "internamiento-involuntario" },
+  },
 ];

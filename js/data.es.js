@@ -28291,4 +28291,28 @@ DICCIONARIOS.es = [
     situacion: "conocimiento",
     /*traduccion-start*/traduccion: { en: "zionist" },/*traduccion-end*/
   },
+
+  // --- AIVD: parked candidates from listapalabras.com hinted re-review - Portacion de armas, Internamiento involuntario (2026-09-13) ---
+  {
+    id: "portacion-de-armas",
+    palabra: "Portación de armas",
+    imagen: { id: 2831, alt: "Pistola, arma de fuego" },
+    definicion: "El permiso legal para llevar un arma encima, fuera de casa. Es distinto del permiso para tenerla solo guardada.",
+    sinonimos: ["llevar un arma encima fuera de casa","permiso de llevar un arma en público"],
+    ejemplo: { palabra: "portación de armas", texto: "Necesita el permiso de portación de armas para trabajar como escolta." },
+    ejemploSinonimo: { palabra: "llevar un arma encima fuera de casa", texto: "Necesita el permiso de llevar un arma encima fuera de casa para trabajar como escolta." },
+    situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "weapon-carrying-permit" },/*traduccion-end*/
+  },
+  {
+    id: "internamiento-involuntario",
+    palabra: "Internamiento involuntario",
+    imagen: { id: 29875, alt: "hospital psiquiátrico" },
+    definicion: "Ingresar a una persona en un hospital de salud mental sin su permiso, algo que solo puede autorizar un juez.",
+    sinonimos: ["ingreso en un hospital de salud mental sin permiso","ingreso hospitalario ordenado por un juez"],
+    ejemplo: { palabra: "internamiento involuntario", texto: "El juez autorizó el internamiento involuntario del paciente." },
+    ejemploSinonimo: { palabra: "ingreso en un hospital de salud mental sin permiso", texto: "El juez autorizó el ingreso en un hospital de salud mental sin permiso del paciente." },
+    situacion: "legal",
+    /*traduccion-start*/traduccion: { en: "involuntary-commitment" },/*traduccion-end*/
+  },
 ];
