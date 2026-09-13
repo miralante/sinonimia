@@ -1600,3 +1600,4 @@ body.alto-contraste .juego-pista-frase .destacado {
   outline-offset: 2px;
   border-radius: 2px;
 }
+#progreso-texto { display: none; }
