@@ -20159,6 +20159,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "fisónomo", text: "«fisónomo»." },
     exampleSynonym: { word: "persona que se dedica al estudio de la fisonomía", text: "«persona que se dedica al estudio de la fisonomía»." },
     situacion: "educacion",
+    translation: { en: "physionomer" },
   },
   {
     id: "fitocromatico",
@@ -21189,6 +21190,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "geogónico", text: "«geogónico»." },
     exampleSynonym: { word: "relativo a la geogonía, teoría o estudio sobre el origen de la Tierra", text: "«relativo a la geogonía, teoría o estudio sobre el origen de la Tierra»." },
     situacion: "educacion",
+    translation: { en: "geogonic" },
   },
   {
     id: "geomagnetico",
@@ -23399,6 +23401,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "inurbano", text: "«inurbano»." },
     exampleSynonym: { word: "que carece de urbanidad, cortesía o educación", text: "«que carece de urbanidad, cortesía o educación»." },
     situacion: "educacion",
+    translation: { en: "inurban" },
   },
   {
     id: "inyectador",
@@ -25859,6 +25862,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "micrografía", text: "«micrografía»." },
     exampleSynonym: { word: "técnica de reproducción de textos o imágenes en un tamaño muy reducido", text: "«técnica de reproducción de textos o imágenes en un tamaño muy reducido»." },
     situacion: "educacion",
+    translation: { en: "micrograph" },
   },
   {
     id: "mielinico",
@@ -26819,6 +26823,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "neología", text: "«neología»." },
     exampleSynonym: { word: "estudio de los neologismos o creación de palabras nuevas", text: "«estudio de los neologismos o creación de palabras nuevas»." },
     situacion: "educacion",
+    translation: { en: "neology" },
   },
   {
     id: "neonatologico",
@@ -27589,6 +27594,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "paidología", text: "«paidología»." },
     exampleSynonym: { word: "ciencia que se dedica al estudio de la infancia y de los niños", text: "«ciencia que se dedica al estudio de la infancia y de los niños»." },
     situacion: "educacion",
+    translation: { en: "paidology" },
   },
   {
     id: "paipudo",
@@ -27649,6 +27655,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "paleólogo", text: "«paleólogo»." },
     exampleSynonym: { word: "especialista en paleología, estudio de las cosas antiguas", text: "«especialista en paleología, estudio de las cosas antiguas»." },
     situacion: "educacion",
+    translation: { en: "paleologist" },
   },
   {
     id: "paleontografia",
@@ -30569,6 +30576,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "radiotecnia", text: "«radiotecnia»." },
     exampleSynonym: { word: "técnica y estudio de la radiocomunicación", text: "«técnica y estudio de la radiocomunicación»." },
     situacion: "educacion",
+    translation: { en: "radiotechnics" },
   },
   {
     id: "radiotecnico",
@@ -32729,6 +32737,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "senequismo", text: "«senequismo»." },
     exampleSynonym: { word: "doctrina o seguidores de las enseñanzas del filósofo romano Séneca", text: "«doctrina o seguidores de las enseñanzas del filósofo romano Séneca»." },
     situacion: "educacion",
+    translation: { en: "senechism" },
   },
   {
     id: "sensuntepecano",
@@ -34579,6 +34588,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "timbrólogo", text: "«timbrólogo»." },
     exampleSynonym: { word: "persona que se dedica al estudio de la timbrología", text: "«persona que se dedica al estudio de la timbrología»." },
     situacion: "educacion",
+    translation: { en: "timbrologist" },
   },
   {
     id: "timeleaceo",
@@ -34619,6 +34629,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "tirocinio", text: "«tirocinio»." },
     exampleSynonym: { word: "periodo de aprendizaje o práctica en una profesión o arte", text: "«periodo de aprendizaje o práctica en una profesión o arte»." },
     situacion: "educacion",
+    translation: { en: "tyrocinium" },
   },
   {
     id: "tirrioso",
@@ -35699,6 +35710,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "vascólogo", text: "«vascólogo»." },
     exampleSynonym: { word: "especialista en el estudio de los vasos sanguíneos y linfáticos", text: "«especialista en el estudio de los vasos sanguíneos y linfáticos»." },
     situacion: "educacion",
+    translation: { en: "basqueologist" },
   },
   {
     id: "vasculoso",
@@ -44789,6 +44801,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "principianta", text: "«principianta»." },
     exampleSynonym: { word: "aprendiza de cualquier arte u oficio", text: "«aprendiza de cualquier arte u oficio»." },
     situacion: "educacion",
+    translation: { en: "beginner" },
   },
   {
     id: "propileo",
@@ -46589,6 +46602,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "arqueozoología", text: "«arqueozoología»." },
     exampleSynonym: { word: "parte de la arqueología que se ocupa especialmente del estudio de restos de animales en", text: "«parte de la arqueología que se ocupa especialmente del estudio de restos de animales en»." },
     situacion: "educacion",
+    translation: { en: "archaeozoology" },
   },
   {
     id: "arquibanco",
@@ -46859,6 +46873,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "calciotermia", text: "«calciotermia»." },
     exampleSynonym: { word: "técnica para obtener un metal por reducción de un compuesto suyo", text: "«técnica para obtener un metal por reducción de un compuesto suyo»." },
     situacion: "educacion",
+    translation: { en: "calciothermy" },
   },
   {
     id: "canime",
@@ -47719,6 +47734,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "imaginología", text: "«imaginología»." },
     exampleSynonym: { word: "estudio y utilización clínica de las imágenes producidas por los rayos X", text: "«estudio y utilización clínica de las imágenes producidas por los rayos X»." },
     situacion: "educacion",
+    translation: { en: "imaging" },
   },
   {
     id: "impluvio",
@@ -47899,6 +47915,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "magnesiotermia", text: "«magnesiotermia»." },
     exampleSynonym: { word: "técnica para obtener un metal mediante reducción de un compuesto de él", text: "«técnica para obtener un metal mediante reducción de un compuesto de él»." },
     situacion: "educacion",
+    translation: { en: "magnesiothermy" },
   },
   {
     id: "maltusianismo",
@@ -48119,6 +48136,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "neuston", text: "«neuston»." },
     exampleSynonym: { word: "conjunto de organismos de dimensiones reducidas que viven en contacto con la película", text: "«conjunto de organismos de dimensiones reducidas que viven en contacto con la película»." },
     situacion: "educacion",
+    translation: { en: "neuton" },
   },
   {
     id: "nilad",
@@ -49359,6 +49377,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "conminuta", text: "«conminuta»." },
     exampleSynonym: { word: "aquella en que el hueso queda reducido a fragmentos menudos", text: "«aquella en que el hueso queda reducido a fragmentos menudos»." },
     situacion: "educacion",
+    translation: { en: "comminuted" },
   },
   {
     id: "consignativo",
