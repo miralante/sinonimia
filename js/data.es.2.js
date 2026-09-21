@@ -22533,6 +22533,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "hircocervo", text: "«hircocervo»." },
     exampleSynonym: { word: "animal fabuloso con cuerpo de ciervo y cabeza de cabra", text: "«animal fabuloso con cuerpo de ciervo y cabeza de cabra»." },
     situacion: "salud",
+    translation: { en: "hyrcocervo" },
   },
   {
     id: "hispanofobo",
@@ -24045,6 +24046,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "lacerioso", text: "«lacerioso»." },
     exampleSynonym: { word: "que causa laceración o gran dolor", text: "«que causa laceración o gran dolor»." },
     situacion: "salud",
+    translation: { en: "lacerous" },
   },
   {
     id: "lacetano",
@@ -24235,6 +24237,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "laringólogo", text: "«laringólogo»." },
     exampleSynonym: { word: "médico especialista en las enfermedades de la laringe", text: "«médico especialista en las enfermedades de la laringe»." },
     situacion: "salud",
+    translation: { en: "laryngologist" },
   },
   {
     id: "latebroso",
@@ -24325,6 +24328,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "lazaroso", text: "«lazaroso»." },
     exampleSynonym: { word: "que padece de lepra o enfermedades similares", text: "«que padece de lepra o enfermedades similares»." },
     situacion: "salud",
+    translation: { en: "lazarous" },
   },
   {
     id: "lechucero",
@@ -26431,6 +26435,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "morbífico", text: "«morbífico»." },
     exampleSynonym: { word: "que causa enfermedad o que tiene relación con ella", text: "«que causa enfermedad o que tiene relación con ella»." },
     situacion: "salud",
+    translation: { en: "morbific" },
   },
   {
     id: "morcillero",
@@ -26902,6 +26907,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "neonatólogo", text: "«neonatólogo»." },
     exampleSynonym: { word: "médico especializado en neonatología", text: "«médico especializado en neonatología»." },
     situacion: "salud",
+    translation: { en: "neonatologist" },
   },
   {
     id: "neoplatonico",
@@ -27063,6 +27069,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "nosomántica", text: "«nosomántica»." },
     exampleSynonym: { word: "disciplina que estudia el significado de los términos médicos", text: "«disciplina que estudia el significado de los términos médicos»." },
     situacion: "salud",
+    translation: { en: "nosomantic" },
   },
   {
     id: "nostramo",
@@ -27394,6 +27401,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "opoterápico", text: "«opoterápico»." },
     exampleSynonym: { word: "relativo a la opoterapia", text: "«relativo a la opoterapia»." },
     situacion: "salud",
+    translation: { en: "opotherapeutic" },
   },
   {
     id: "oracionero",
@@ -27444,6 +27452,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "organología", text: "«organología»." },
     exampleSynonym: { word: "estudio de los órganos de los seres vivos", text: "«estudio de los órganos de los seres vivos»." },
     situacion: "salud",
+    translation: { en: "organology" },
   },
   {
     id: "orientano",
@@ -28066,6 +28075,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "paratífico", text: "«paratífico»." },
     exampleSynonym: { word: "relativo al paratifus o que tiene relación con esta enfermedad", text: "«relativo al paratifus o que tiene relación con esta enfermedad»." },
     situacion: "salud",
+    translation: { en: "paratific" },
   },
   {
     id: "pardisco",
@@ -30667,6 +30677,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "radiotóxico", text: "«radiotóxico»." },
     exampleSynonym: { word: "que contiene sustancias radiactivas nocivas para la salud", text: "«que contiene sustancias radiactivas nocivas para la salud»." },
     situacion: "salud",
+    translation: { en: "radiotoxic" },
   },
   {
     id: "raedor",
@@ -31771,6 +31782,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "rinólogo", text: "«rinólogo»." },
     exampleSynonym: { word: "médico especialista en rinología", text: "«médico especialista en rinología»." },
     situacion: "salud",
+    translation: { en: "rhinologist" },
   },
   {
     id: "riohachero",
@@ -33633,6 +33645,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "suertero", text: "«suertero»." },
     exampleSynonym: { word: "relativo a la suerte o a la sueroterapia", text: "«relativo a la suerte o a la sueroterapia»." },
     situacion: "salud",
+    translation: { en: "luck" },
   },
   {
     id: "suevico",
@@ -34997,6 +35010,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "tracomatoso", text: "«tracomatoso»." },
     exampleSynonym: { word: "relativo al tracoma o que padece de esta enfermedad", text: "«relativo al tracoma o que padece de esta enfermedad»." },
     situacion: "salud",
+    translation: { en: "trachomatous" },
   },
   {
     id: "trafagador",
@@ -35970,6 +35984,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "venereólogo", text: "«venereólogo»." },
     exampleSynonym: { word: "médico especialista en venereología", text: "«médico especialista en venereología»." },
     situacion: "salud",
+    translation: { en: "venereologist" },
   },
   {
     id: "ventroso",
@@ -37934,6 +37949,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "bendicera", text: "«bendicera»." },
     exampleSynonym: { word: "mujer que santiguaba con señales y oraciones supersticiosas, para sanar a los enfermos", text: "«mujer que santiguaba con señales y oraciones supersticiosas, para sanar a los enfermos»." },
     situacion: "salud",
+    translation: { en: "blesser" },
   },
   {
     id: "berrenchin",
@@ -38444,6 +38460,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cacoquimia", text: "«cacoquimia»." },
     exampleSynonym: { word: "enferma de tristeza o disgusto que le ocasiona estar pálida y melancólica", text: "«enferma de tristeza o disgusto que le ocasiona estar pálida y melancólica»." },
     situacion: "salud",
+    translation: { en: "cacochemy" },
   },
   {
     id: "cacoquimio",
@@ -38846,6 +38863,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "celescopio", text: "«celescopio»." },
     exampleSynonym: { word: "aparato que sirve para iluminar las cavidades de un cuerpo orgánico", text: "«aparato que sirve para iluminar las cavidades de un cuerpo orgánico»." },
     situacion: "salud",
+    translation: { en: "telescope" },
   },
   {
     id: "celestre",
@@ -39317,6 +39335,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "coccinela", text: "«coccinela»." },
     exampleSynonym: { word: "insecto coleóptero, trímero, de pequeño tamaño y cuerpo hemisférico con puntos negros", text: "«insecto coleóptero, trímero, de pequeño tamaño y cuerpo hemisférico con puntos negros»." },
     situacion: "salud",
+    translation: { en: "coccinella" },
   },
   {
     id: "cocharro",
@@ -44420,6 +44439,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "patografía", text: "«patografía»." },
     exampleSynonym: { word: "descripción de las enfermedades", text: "«descripción de las enfermedades»." },
     situacion: "salud",
+    translation: { en: "pathography" },
   },
   {
     id: "pechardino",
@@ -46377,6 +46397,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "venereología", text: "«venereología»." },
     exampleSynonym: { word: "parte de la medicina referente a las enfermedades venéreas", text: "«parte de la medicina referente a las enfermedades venéreas»." },
     situacion: "salud",
+    translation: { en: "venereology" },
   },
   {
     id: "ventola",
@@ -47242,6 +47263,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "colobo", text: "«colobo»." },
     exampleSynonym: { word: "mono catarrino", text: "«mono catarrino»." },
     situacion: "salud",
+    translation: { en: "colobus" },
   },
   {
     id: "contraaproches",
@@ -47313,6 +47335,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cortapicos", text: "«cortapicos»." },
     exampleSynonym: { word: "insecto ortóptero de dos centímetros de largo aproximadamente", text: "«insecto ortóptero de dos centímetros de largo aproximadamente»." },
     situacion: "salud",
+    translation: { en: "pickaxe-cutter" },
   },
   {
     id: "cuairon",
@@ -47485,6 +47508,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "docetismo", text: "«docetismo»." },
     exampleSynonym: { word: "herejía de los primeros siglos cristianos", text: "«herejía de los primeros siglos cristianos»." },
     situacion: "salud",
+    translation: { en: "docetism" },
   },
   {
     id: "dosimetria",
@@ -47495,6 +47519,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "dosimetría", text: "«dosimetría»." },
     exampleSynonym: { word: "sistema terapéutico que emplea exclusivamente los principios activos de las sustancias", text: "«sistema terapéutico que emplea exclusivamente los principios activos de las sustancias»." },
     situacion: "salud",
+    translation: { en: "dosimetry" },
   },
   {
     id: "ecotoxicologia",
@@ -47536,6 +47561,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "entrepalmadura", text: "«entrepalmadura»." },
     exampleSynonym: { word: "enfermedad de las caballerías en la cara palmar del casco", text: "«enfermedad de las caballerías en la cara palmar del casco»." },
     situacion: "salud",
+    translation: { en: "interpalmadura" },
   },
   {
     id: "episcopalismo",
@@ -47556,6 +47582,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "equinococo", text: "«equinococo»." },
     exampleSynonym: { word: "larva de una tenia de tres a cinco milímetros de largo que vive en el intestino del perro", text: "«larva de una tenia de tres a cinco milímetros de largo que vive en el intestino del perro»." },
     situacion: "salud",
+    translation: { en: "echinococcus" },
   },
   {
     id: "espinosismo",
@@ -47576,6 +47603,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "estereocomparador", text: "«estereocomparador»." },
     exampleSynonym: { word: "aparato para determinar el desplazamiento relativo de los cuerpos valiéndose de la", text: "«aparato para determinar el desplazamiento relativo de los cuerpos valiéndose de la»." },
     situacion: "salud",
+    translation: { en: "stereocomparator" },
   },
   {
     id: "estrofanto",
