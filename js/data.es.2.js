@@ -7717,6 +7717,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "antidemocracia", text: "«antidemocracia»." },
     exampleSynonym: { word: "tendencia política contraria a la democracia", text: "«tendencia política contraria a la democracia»." },
     situacion: "legal",
+    translation: { en: "anti-democracy" },
   },
   {
     id: "antieuropeo",
@@ -7727,6 +7728,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "antieuropeo", text: "«antieuropeo»." },
     exampleSynonym: { word: "antieuropeísta", text: "«antieuropeísta»." },
     situacion: "legal",
+    translation: { en: "anti-european" },
   },
   {
     id: "antiflatulento",
@@ -7857,6 +7859,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "antisoviético", text: "«antisoviético»." },
     exampleSynonym: { word: "contrario a lo relacionado con la antigua unión de repúblicas socialistas soviéticas", text: "«contrario a lo relacionado con la antigua unión de repúblicas socialistas soviéticas»." },
     situacion: "legal",
+    translation: { en: "anti-soviet" },
   },
   {
     id: "antivenereo",
@@ -12553,6 +12556,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "carleta", text: "«carleta»." },
     exampleSynonym: { word: "gorro militar antiguo, usado especialmente por la caballería", text: "«gorro militar antiguo, usado especialmente por la caballería»." },
     situacion: "legal",
+    translation: { en: "carlette" },
   },
   {
     id: "carneruno",
@@ -14595,6 +14599,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "codelincuente", text: "«codelincuente»." },
     exampleSynonym: { word: "que participa con otros en la comisión de un delito", text: "«que participa con otros en la comisión de un delito»." },
     situacion: "legal",
+    translation: { en: "co-offender" },
   },
   {
     id: "codena",
@@ -15835,6 +15840,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cuadrigato", text: "«cuadrigato»." },
     exampleSynonym: { word: "período de cuatro años en algunos cargos políticos o administrativos", text: "«período de cuatro años en algunos cargos políticos o administrativos»." },
     situacion: "legal",
+    translation: { en: "quadrigato" },
   },
   {
     id: "cuadrilon",
@@ -25835,6 +25841,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "mesocracia", text: "«mesocracia»." },
     exampleSynonym: { word: "gobierno o predominio de las clases medias en una sociedad", text: "«gobierno o predominio de las clases medias en una sociedad»." },
     situacion: "legal",
+    translation: { en: "mesocracy" },
   },
   {
     id: "metalografico",
@@ -28613,6 +28620,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "pentarquía", text: "«pentarquía»." },
     exampleSynonym: { word: "gobierno de cinco personas", text: "«gobierno de cinco personas»." },
     situacion: "legal",
+    translation: { en: "pentarchy" },
   },
   {
     id: "peoneria",
@@ -29495,6 +29503,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "poderhabiente", text: "«poderhabiente»." },
     exampleSynonym: { word: "persona que posee un poder legal para actuar en nombre de otra", text: "«persona que posee un poder legal para actuar en nombre de otra»." },
     situacion: "legal",
+    translation: { en: "powerholder" },
   },
   {
     id: "poino",
@@ -30128,6 +30137,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "prorrogativo", text: "«prorrogativo»." },
     exampleSynonym: { word: "perteneciente o relativo al derecho o privilegio exclusivo de alguien", text: "«perteneciente o relativo al derecho o privilegio exclusivo de alguien»." },
     situacion: "legal",
+    translation: { en: "prorogative" },
   },
   {
     id: "prosador",
@@ -35469,6 +35479,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "ultraizquierdismo", text: "«ultraizquierdismo»." },
     exampleSynonym: { word: "ideología o movimiento político de la ultraizquierda", text: "«ideología o movimiento político de la ultraizquierda»." },
     situacion: "legal",
+    translation: { en: "ultra-leftism" },
   },
   {
     id: "ultramundano",
@@ -37262,6 +37273,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "antirreeleccionismo", text: "«antirreeleccionismo»." },
     exampleSynonym: { word: "doctrina contraria a que haya reelección en los cargos de gobierno", text: "«doctrina contraria a que haya reelección en los cargos de gobierno»." },
     situacion: "legal",
+    translation: { en: "anti-reelectionism" },
   },
   {
     id: "antuvion",
@@ -43208,6 +43220,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "mandarinismo", text: "«mandarinismo»." },
     exampleSynonym: { word: "gobierno arbitrario", text: "«gobierno arbitrario»." },
     situacion: "legal",
+    translation: { en: "mandarinism" },
   },
   {
     id: "mangajo",
@@ -48008,6 +48021,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "maltusianismo", text: "«maltusianismo»." },
     exampleSynonym: { word: "conjunto de las teorías económicas de Thomas Malthus", text: "«conjunto de las teorías económicas de Thomas Malthus»." },
     situacion: "finanzas",
+    translation: { en: "malthusianism" },
   },
   {
     id: "martaguilla",
@@ -48301,6 +48315,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "paneuropeísmo", text: "«paneuropeísmo»." },
     exampleSynonym: { word: "tendencia o doctrina que aspira a la aproximación política", text: "«tendencia o doctrina que aspira a la aproximación política»." },
     situacion: "legal",
+    translation: { en: "pan-europeanism" },
   },
   {
     id: "pangelin",
@@ -48381,6 +48396,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "platirrino", text: "«platirrino»." },
     exampleSynonym: { word: "se dice de los simios indígenas de América", text: "«se dice de los simios indígenas de América»." },
     situacion: "finanzas",
+    translation: { en: "platyrrhine" },
   },
   {
     id: "plutonismo",
@@ -48832,6 +48848,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "tuciorismo", text: "«tuciorismo»." },
     exampleSynonym: { word: "doctrina de teología moral que en puntos discutibles sigue la opinión más segura y", text: "«doctrina de teología moral que en puntos discutibles sigue la opinión más segura y»." },
     situacion: "legal",
+    translation: { en: "tuciorism" },
   },
   {
     id: "tumbilla",
@@ -49854,6 +49871,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "pauliana", text: "«pauliana»." },
     exampleSynonym: { word: "la que la ley confiere al acreedor para impugnar los actos que el deudor realice en", text: "«la que la ley confiere al acreedor para impugnar los actos que el deudor realice en»." },
     situacion: "legal",
+    translation: { en: "poliana" },
   },
   {
     id: "penador",
@@ -49874,6 +49892,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "pinjado", text: "«pinjado»." },
     exampleSynonym: { word: "antigua máquina militar hecha de maderos bien trabados", text: "«antigua máquina militar hecha de maderos bien trabados»." },
     situacion: "legal",
+    translation: { en: "pinned" },
   },
   {
     id: "plagal",
@@ -49934,6 +49953,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "retrovendendo", text: "«retrovendendo»." },
     exampleSynonym: { word: "convención accesoria al contrato de compra y venta", text: "«convención accesoria al contrato de compra y venta»." },
     situacion: "finanzas",
+    translation: { en: "backselling" },
   },
   {
     id: "ruante",
@@ -51058,6 +51078,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "atendedor", text: "«atendedor»." },
     exampleSynonym: { word: "Persona que atiende a lo que va leyendo el corrector", text: "«Persona que atiende a lo que va leyendo el corrector»." },
     situacion: "legal",
+    translation: { en: "attendant" },
   },
   {
     id: "ateperetado",
@@ -57367,6 +57388,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "flagicioso", text: "«flagicioso»." },
     exampleSynonym: { word: "Que comete muchos y graves delitos", text: "«Que comete muchos y graves delitos»." },
     situacion: "legal",
+    translation: { en: "flagitious" },
   },
   {
     id: "flipero",
@@ -63154,6 +63176,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "sableador", text: "«sableador»." },
     exampleSynonym: { word: "Persona hábil para sablear o sacar dinero a otra", text: "«Persona hábil para sablear o sacar dinero a otra»." },
     situacion: "finanzas",
+    translation: { en: "saber" },
   },
   {
     id: "saboroso",
