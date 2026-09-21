@@ -47705,6 +47705,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "gallocresta", text: "«gallocresta»." },
     exampleSynonym: { word: "planta medicinal", text: "«planta medicinal»." },
     situacion: "salud",
+    translation: { en: "roostercrest" },
   },
   {
     id: "girino",
@@ -47845,6 +47846,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "humoralismo", text: "«humoralismo»." },
     exampleSynonym: { word: "doctrina médica según la cual las enfermedades consistirían fundamentalmente en un", text: "«doctrina médica según la cual las enfermedades consistirían fundamentalmente en un»." },
     situacion: "salud",
+    translation: { en: "humorism" },
   },
   {
     id: "ictiol",
@@ -48006,6 +48008,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "leucoplaquia", text: "«leucoplaquia»." },
     exampleSynonym: { word: "enfermedad caracterizada por unas manchas blancas que aparecen en las mucosas bucal o", text: "«enfermedad caracterizada por unas manchas blancas que aparecen en las mucosas bucal o»." },
     situacion: "salud",
+    translation: { en: "leukoplakia" },
   },
   {
     id: "loxodromia",
@@ -48128,6 +48131,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "meningococo", text: "«meningococo»." },
     exampleSynonym: { word: "microorganismo", text: "«microorganismo»." },
     situacion: "salud",
+    translation: { en: "meningococcus" },
   },
   {
     id: "mercerizar",
@@ -48239,6 +48243,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "narcotina", text: "«narcotina»." },
     exampleSynonym: { word: "alcaloide que se extrae del opio por medio del éter sulfúrico", text: "«alcaloide que se extrae del opio por medio del éter sulfúrico»." },
     situacion: "salud",
+    translation: { en: "narcotine" },
   },
   {
     id: "neopositivismo",
@@ -48402,6 +48407,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "pinnípedo", text: "«pinnípedo»." },
     exampleSynonym: { word: "se dice de los mamíferos marinos que se alimentan exclusivamente de peces", text: "«se dice de los mamíferos marinos que se alimentan exclusivamente de peces»." },
     situacion: "salud",
+    translation: { en: "pinniped" },
   },
   {
     id: "pionia",
@@ -48513,6 +48519,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "protocloruro", text: "«protocloruro»." },
     exampleSynonym: { word: "cuerpo resultante de la combinación del cloro con un radical simple o compuesto", text: "«cuerpo resultante de la combinación del cloro con un radical simple o compuesto»." },
     situacion: "salud",
+    translation: { en: "protochloride" },
   },
   {
     id: "protutor",
@@ -51196,6 +51203,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "auriculado", text: "«auriculado»." },
     exampleSynonym: { word: "de forma parecida a una oreja, como algunas conchas de moluscos", text: "«de forma parecida a una oreja, como algunas conchas de moluscos»." },
     situacion: "salud",
+    translation: { en: "headphone" },
   },
   {
     id: "autoguiado",
@@ -51416,6 +51424,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "berrejo", text: "«berrejo»." },
     exampleSynonym: { word: "delgada y amarillenta por enfermedad", text: "«delgada y amarillenta por enfermedad»." },
     situacion: "salud",
+    translation: { en: "cockerel" },
   },
   {
     id: "betuminoso",
@@ -52717,6 +52726,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "carcoso", text: "«carcoso»." },
     exampleSynonym: { word: "Mugriento, con suciedad del cuerpo", text: "«Mugriento, con suciedad del cuerpo»." },
     situacion: "salud",
+    translation: { en: "carcosous" },
   },
   {
     id: "carduzador",
@@ -56131,6 +56141,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "endeblucho", text: "«endeblucho»." },
     exampleSynonym: { word: "Que tiene quebrantada la salud", text: "«Que tiene quebrantada la salud»." },
     situacion: "salud",
+    translation: { en: "indeblucho" },
   },
   {
     id: "endechoso",
@@ -65994,6 +66005,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "eritroblastosis", text: "El análisis permitió detectar «eritroblastosis»." },
     exampleSynonym: { word: "presencia de eritroblastos en la sangre", text: "El análisis permitió detectar «presencia de eritroblastos en la sangre»." },
     situacion: "salud",
+    translation: { en: "erythroblastosis" },
   },
   {
     id: "faleuco",
@@ -66247,6 +66259,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "enfistolarse", text: "La herida puede «enfistolarse» si no se trata." },
     exampleSynonym: { word: "convertirse en fístula", text: "La herida puede «convertirse en fístula» si no se trata." },
     situacion: "salud",
+    translation: { en: "fistfist" },
   },
   {
     id: "etos",
