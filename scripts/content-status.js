@@ -58,9 +58,16 @@ function loadAsGlobal(relativePath, pattern, replacement) {
   eval(src);
 }
 
-loadAsGlobal("js/data.es.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
-loadAsGlobal("js/data.es.2.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
-loadAsGlobal("js/data.en.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
+loadAsGlobal(
+  "js/dictionary-manifest.js",
+  "window.SINONIMIA_DICTIONARY_SHARDS",
+  "global.SINONIMIA_DICTIONARY_SHARDS"
+);
+Object.keys(global.SINONIMIA_DICTIONARY_SHARDS || {}).forEach(function (language) {
+  (global.SINONIMIA_DICTIONARY_SHARDS[language] || []).forEach(function (shard) {
+    loadAsGlobal(shard.file, "window.DICCIONARIOS", "global.DICCIONARIOS");
+  });
+});
 loadAsGlobal("js/i18n.js", "const I18N", "global.I18N");
 
 let languages = Object.keys(DICCIONARIOS);

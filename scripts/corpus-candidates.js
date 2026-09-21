@@ -143,9 +143,16 @@ async function loadGeneralFrequencies() {
 // gitignored scripts/ingest/ tree — so it deliberately stays
 // self-contained rather than requiring scripts/ingest/pipeline/filters/,
 // which may not exist on a fresh checkout.)
-loadAsGlobal("js/data.es.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
-loadAsGlobal("js/data.es.2.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
-loadAsGlobal("js/data.en.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
+loadAsGlobal(
+  "js/dictionary-manifest.js",
+  "window.SINONIMIA_DICTIONARY_SHARDS",
+  "global.SINONIMIA_DICTIONARY_SHARDS"
+);
+Object.keys(global.SINONIMIA_DICTIONARY_SHARDS || {}).forEach(function (language) {
+  (global.SINONIMIA_DICTIONARY_SHARDS[language] || []).forEach(function (shard) {
+    loadAsGlobal(shard.file, "window.DICCIONARIOS", "global.DICCIONARIOS");
+  });
+});
 
 const covered = new Set();
 (DICCIONARIOS[lang] || []).forEach(function (entry) {

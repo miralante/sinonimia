@@ -385,12 +385,13 @@ step. Each piece lives in its own file:
 
 1. Copy the entire `es` (or `en`) block inside `I18N` in `js/i18n.js` and
    translate it, key by key.
-2. Create `js/data.<lang>.js` copying the structure of `js/data.es.js` and
-   write that language's difficult words (there's no need to translate the
-   existing words: pick whichever are genuinely difficult in that
-   language). Use the shared `situacion` keys.
-3. Add `<script src="js/data.<lang>.js"></script>` in `index.html`, next to
-   the other `data.*.js` scripts.
+2. Create one or more `js/data.<lang>[.<shard>].js` files copying the
+   structure of `js/data.es.js` and write that language's difficult words
+   (there's no need to translate the existing words: pick whichever are
+   genuinely difficult in that language). Use the shared `situacion` keys.
+3. Add the ordered shards to `js/dictionary-manifest.js`. The loader executes
+   them before `js/app.js`; if a file approaches the host's per-file limit,
+   split it into another shard instead of exceeding the limit.
 4. Add a button in `.idioma-selector` in `index.html`:
    `<button class="idioma-btn" data-lang="<lang>">XX</button>`.
 
@@ -528,7 +529,8 @@ documented before:
 
 ## Maintenance
 
-All the content lives in plain files (`js/i18n.js`, `js/data.*.js`), with
-no database or backend. Adding a word means copying a block in its
+All the content lives in plain files (`js/i18n.js`, `js/data.*.js` and the
+dictionary shard manifest), with no database or backend. Adding a word means
+copying a block in its
 language's file and filling it in following the rules above. No need to
 touch HTML, CSS, or the search engine.

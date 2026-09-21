@@ -77,23 +77,22 @@
 # ---------------------------------------------------------------------------
 # Cache policy per asset type.
 #
-# The globs use `*` per the Pages docs (one path segment). Both dictionary
-# files (`data.es.js`, `data.en.js`) match `/js/data.*`.
+# The globs use `*` per the Pages docs (one path segment). Every dictionary
+# shard (`data.es.js`, `data.es.2.js`, `data.en.js`, and future shards) matches
+# `/js/data.*`.
 #
 # `js/data.*` and `img/*` change rarely and are big enough to warrant a
-# year-long cache. The dictionary cache is busted via the `?v=` query
-# string on the `<script src="js/data.es.js?v=...">` / `data.en.js` tags
-# in `index.html` and `404.html` — but that query string is a content
-# hash (sha256 of the file, first 10 hex chars), not a hand-picked date
-# or version number. `scripts/check.js` recomputes the hash of both
-# files on every run and fails the build if either page's `?v=` doesn't
-# match, printing the exact value to paste in. This exists because a
+# year-long cache. The dictionary cache is busted via the per-shard `?v=`
+# query strings in `js/dictionary-manifest.js` — each query is a content
+# hash (sha256 of that file, first 10 hex chars), not a hand-picked date
+# or version number. `scripts/check.js` recomputes every shard hash on every
+# run and fails the build if any manifest entry doesn't match. This exists because a
 # manually-bumped date string was tried first and silently went stale
 # when the dictionary was expanded without remembering to touch it —
 # the immutable cache then kept serving the old dictionary to every
 # returning visitor. Never hand-edit these `?v=` values; run
-# `node scripts/check.js` after editing `js/data.es.js` / `data.en.js`
-# and copy the hash it reports.
+# `node scripts/check.js` after editing any dictionary shard and update the
+# manifest entry it reports.
 #
 # `js/app.js`, `js/i18n.js` and `css/styles.css` change every few commits
 # (Safari fix, responsive tweaks, accessibility changes, new UI copy). A

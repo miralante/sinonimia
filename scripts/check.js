@@ -54,12 +54,17 @@ function normalize(text) {
 }
 
 // --- 1. Syntax of every JS file ---
-// Three files are required (loaded by index.html in this exact order);
-// any extra js/*.js that happens to exist is checked too, so adding
-// bootstrap-i18n.js or similar helpers in the future can't silently
+// The manifest and loader are required by the HTML boot sequence. Dictionary
+// shards are discovered from the manifest below, while any extra js/*.js that
+// happens to exist is checked too, so adding a future shard can't silently
 // ship broken.
 const jsDir = path.join(ROOT, "js");
-const requiredJs = ["js/i18n.js", "js/data.es.js", "js/data.es.2.js", "js/data.en.js", "js/app.js"];
+const requiredJs = [
+  "js/i18n.js",
+  "js/dictionary-manifest.js",
+  "js/dictionary-loader.js",
+  "js/app.js",
+];
 requiredJs.forEach(function (relativePath) {
   try {
     execFileSync(process.execPath, ["--check", path.join(ROOT, relativePath)]);
@@ -96,9 +101,91 @@ function loadAsGlobal(relativePath, pattern, replacement) {
   eval(src);
 }
 
-loadAsGlobal("js/data.es.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
-loadAsGlobal("js/data.es.2.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
-loadAsGlobal("js/data.en.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
+loadAsGlobal(
+  "js/dictionary-manifest.js",
+  "window.SINONIMIA_DICTIONARY_SHARDS",
+  "global.SINONIMIA_DICTIONARY_SHARDS"
+);
+
+function manifestDataFiles() {
+  const manifest = global.SINONIMIA_DICTIONARY_SHARDS;
+  if (!manifest || typeof manifest !== "object") {
+    fail("js/dictionary-manifest.js did not define a shard manifest");
+    return [];
+  }
+
+  const files = [];
+  const seen = new Set();
+  Object.keys(manifest).forEach(function (language) {
+    const shards = manifest[language];
+    if (!Array.isArray(shards) || shards.length === 0) {
+      fail("dictionary manifest: " + language + " has no shards");
+      return;
+    }
+    shards.forEach(function (shard) {
+      if (!shard || typeof shard.file !== "string" || typeof shard.src !== "string") {
+        fail("dictionary manifest: invalid shard in " + language);
+        return;
+      }
+      if (seen.has(shard.file)) {
+        fail("dictionary manifest: shard listed twice: " + shard.file);
+        return;
+      }
+      if (shard.src.split("?v=")[0] !== shard.file) {
+        fail("dictionary manifest: file and src disagree for " + shard.file);
+        return;
+      }
+      if (!/^js\/data\.[a-z0-9-]+(?:\.[a-z0-9-]+)*\.js$/.test(shard.file) ||
+          !/^js\/data\.[a-z0-9-]+(?:\.[a-z0-9-]+)*\.js\?v=[a-f0-9]{10}$/.test(shard.src)) {
+        fail("dictionary manifest: invalid shard path or URL for " + shard.file);
+        return;
+      }
+      if (!fs.existsSync(path.join(ROOT, shard.file))) {
+        fail("dictionary manifest: missing file " + shard.file);
+        return;
+      }
+      seen.add(shard.file);
+      files.push(shard.file);
+    });
+  });
+
+  // A data file that exists on disk but is absent from the manifest would
+  // look valid in a Node-only check and still be invisible in the browser.
+  // Fail that drift explicitly so every future shard is wired into the boot
+  // sequence.
+  fs.readdirSync(jsDir).filter(function (file) {
+    return /^data\.[a-z0-9-]+(?:\.[a-z0-9-]+)*\.js$/.test(file);
+  }).forEach(function (file) {
+    const relativePath = "js/" + file;
+    if (!seen.has(relativePath)) {
+      fail("dictionary manifest: data file is not listed: " + relativePath);
+    }
+  });
+  return files;
+}
+
+const dictionaryFiles = manifestDataFiles();
+dictionaryFiles.forEach(function (relativePath) {
+  loadAsGlobal(relativePath, "window.DICCIONARIOS", "global.DICCIONARIOS");
+});
+
+// Service-worker projects must pre-cache every shard as well as the loader
+// and manifest. Without this check a new shard would work online but could be
+// missing on a first offline visit after installation.
+const swPath = path.join(ROOT, "sw.js");
+if (fs.existsSync(swPath)) {
+  const swSource = fs.readFileSync(swPath, "utf8");
+  const filesMatch = swSource.match(/(?:FILES|ARCHIVOS)\s*=\s*\[([\s\S]*?)\]/);
+  const cachedFiles = filesMatch
+    ? Array.from(filesMatch[1].matchAll(/["']\.\/([^"']+)["']/g)).map(function (match) { return match[1]; })
+    : [];
+  ["js/dictionary-manifest.js", "js/dictionary-loader.js"].concat(dictionaryFiles).forEach(function (relativePath) {
+    if (cachedFiles.indexOf(relativePath) === -1) {
+      fail("sw.js: dictionary asset is missing from FILES: " + relativePath);
+    }
+  });
+  ok("sw.js dictionary shard cache manifest checked (" + dictionaryFiles.length + " shard(s))");
+}
 loadAsGlobal("js/i18n.js", "const I18N", "global.I18N");
 
 const languages = Object.keys(DICCIONARIOS);
@@ -245,28 +332,16 @@ languages.forEach(function (language) {
 });
 ok("index.html data-i18n keys checked (" + htmlI18nKeys.size + ") across " + languages.join(", "));
 
-// --- 6c. js/data.*.js cache-busting: ?v= must be a hash of the file it names ---
-// _headers caches /js/data.* as `public, max-age=31536000, immutable` on
-// purpose (the dictionaries are big and change rarely) — but that means the
-// ONLY way a returning visitor ever sees new/edited entries is if the
-// <script src="js/data.es.js?v=..."> query string changes, since `immutable`
-// tells the browser to never even revalidate. A date-string version relied
-// on every editor remembering to bump it by hand on every content change;
-// this is exactly the bug already fixed once for js/i18n.js (see 52e46b7)
-// but that fix only moved i18n.js to a short cache — js/data.*.js kept the
-// manual-bump footgun and re-triggered the same failure mode (dictionary
-// expansion shipped, ?v= left stale, returning visitors never saw the new
-// words). Hashing the actual file content removes the human-memory step:
-// the query string is either right or CI fails with the exact value to
-// paste in.
+// --- 6c. Dictionary shard manifest and cache-busting ---
+// _headers caches /js/data.* as `public, max-age=31536000, immutable`. Every
+// shard therefore carries its own content hash in the manifest. The manifest
+// is the single source of truth for both pages and for the Node-side loaders;
+// adding data.es.3.js (or a named shard) requires no code change elsewhere.
 function contentHash(relativePath) {
   const content = fs.readFileSync(path.join(ROOT, relativePath));
   return crypto.createHash("sha256").update(content).digest("hex").slice(0, 10);
 }
 
-// 404.html carries its own copy of these <script> tags (it's a standalone
-// page, not routed through index.html), so it's just as exposed to the
-// stale-immutable-cache bug and gets the same check.
 const html404Path = path.join(ROOT, "404.html");
 const htmlPages = [{ file: "index.html", content: html }];
 if (fs.existsSync(html404Path)) {
@@ -274,34 +349,27 @@ if (fs.existsSync(html404Path)) {
 }
 
 htmlPages.forEach(function (page) {
-  ["es", "en"].forEach(function (language) {
-    const relativePath = "js/data." + language + ".js";
-    const tagRe = new RegExp('<script src="js/data\\.' + language + '\\.js(?:\\?v=([^"]*))?">');
-    const tagMatch = page.content.match(tagRe);
-    if (!tagMatch) return; // this page doesn't load the dictionary at all
-    const expected = contentHash(relativePath);
-    if (tagMatch[1] !== expected) {
+  if (!/<script src="js\/dictionary-manifest\.js"><\/script>/.test(page.content)) {
+    fail(page.file + ": missing dictionary-manifest.js script tag");
+  }
+  if (!/<script src="js\/dictionary-loader\.js"><\/script>/.test(page.content)) {
+    fail(page.file + ": missing dictionary-loader.js script tag");
+  }
+});
+
+Object.keys(global.SINONIMIA_DICTIONARY_SHARDS || {}).forEach(function (language) {
+  (global.SINONIMIA_DICTIONARY_SHARDS[language] || []).forEach(function (shard) {
+    const expected = contentHash(shard.file);
+    const expectedSrc = shard.file + "?v=" + expected;
+    if (shard.src !== expectedSrc) {
       fail(
-        page.file + ": " + relativePath + " query string is \"" + (tagMatch[1] || "(none)") +
-        "\" but the file's content hash is \"" + expected + "\" — bump it to " +
-        "?v=" + expected + " or returning visitors keep the immutable-cached stale " +
-        "dictionary (see _headers' js/data.* Cache-Control policy)"
+        "js/dictionary-manifest.js: " + shard.file + " uses \"" + shard.src +
+        "\" but the file hash requires \"" + expectedSrc + "\""
       );
     }
   });
 });
-htmlPages.forEach(function (page) {
-  const relativePath = "js/data.es.2.js";
-  const tagRe = new RegExp('<script src="js/data\\.es\\.2\\.js(?:\\?v=([^"]*))?">');
-  const tagMatch = page.content.match(tagRe);
-  if (!tagMatch) {
-    fail(page.file + ": missing script tag for " + relativePath);
-    return;
-  }
-  const expected = contentHash(relativePath);
-  if (tagMatch[1] !== expected) fail(page.file + ": " + relativePath + " query string is wrong; expected ?v=" + expected);
-});
-ok("js/data.*.js cache-busting query strings checked (es: " + contentHash("js/data.es.js") + ", es.2: " + contentHash("js/data.es.2.js") + ", en: " + contentHash("js/data.en.js") + ")");
+ok("dictionary shard manifest and cache-busting checked (" + dictionaryFiles.length + " shard(s))");
 
 // --- 7. The user-facing product never names disability or minors ---
 // doc/en/spec.md's rule ("Mandatory rule: zero mentions in the user-facing

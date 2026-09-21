@@ -3,13 +3,13 @@
    Cache-first strategy for the app shell (works offline).
    When adding new files: add them to FILES and bump VERSION.
    The shell is intentionally small — the dictionaries already ship
-   under /js/data.*.js with content-hash ?v= query strings (handled
-   by scripts/check.js), so a new dictionary revision picks up
-   automatically as soon as the index.html <script> tag is bumped.
+   under /js/data.*.js with content-hash ?v= query strings in
+   js/dictionary-manifest.js (handled by scripts/check.js), so a new
+   dictionary revision picks up automatically when the manifest changes.
    The SW's job is just to make the first paint and the first
    dictionary load work offline.
    ============================================================ */
-var VERSION = 'sinonimia-v172';
+var VERSION = 'sinonimia-v173';
 
 var FILES = [
   './',
@@ -19,6 +19,8 @@ var FILES = [
   './offline.html',
   './css/styles.css',
   './js/i18n.js',
+  './js/dictionary-manifest.js',
+  './js/dictionary-loader.js',
   './js/bootstrap-i18n.js',
   './js/data.es.js',
   './js/data.es.2.js',

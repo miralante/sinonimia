@@ -139,14 +139,16 @@ adding the first entry.
 
 ### 3.3 `index.html` — script tag, language button, meta tags
 
-Two additions, in this order (the file's `<script>` order must put
-**all** `data.*.js` before `app.js`):
+Two additions, in this order (the manifest and loader must run before
+`app.js`):
 
-1. `<script src="js/data.<code>.js"></script>` — placed alongside
-   the existing `<script src="js/data.es.js">` and
-   `<script src="js/data.en.js">`. Without this tag,
-   `DICCIONARIOS.<code>` is undefined when `app.js` boots, and the
-   language will silently disappear.
+1. Add the language's ordered data shard(s) to
+   `js/dictionary-manifest.js`. The first shard creates
+   `DICCIONARIOS.<code>` and later shards append with `concat`; each `src`
+   must carry the ten-character content hash. The existing
+   `js/dictionary-loader.js` loads every manifest entry before `app.js`, so
+   pages do not gain one hardcoded script tag per shard. If a shard nears the
+   host's per-file limit, split it and add the new file to the manifest.
 2. Inside the `.idioma-selector` block, add a button:
    `<button type="button" class="idioma-btn" data-lang="<code>" aria-pressed="false"><FLAG/NATIVE LABEL></button>`.
    - The button label is the **endonym** (the language's name for
@@ -370,9 +372,9 @@ For the person who just said "let's add Catalan":
 3. Add a `ca` block to `I18N` in `js/i18n.js` (copy `en`, translate
    every key, set `htmlLang: "ca"`, add `languageName_ca: "català"`).
 4. Add `languageName_ca` to `es` and `en` blocks too.
-5. In `index.html`, add the `<script src="js/data.ca.js">` tag
-   **before** `<script src="js/app.js">`, and add a language
-   selector button.
+5. Add the ordered Catalan shard(s) to `js/dictionary-manifest.js`; do not
+   add a page-specific data-script tag. The loader handles every manifest
+   entry before the app starts, and add a language selector button.
 6. In `about/index.html` and `about/privacidad.html`, add parallel
    `data-lang-block="ca"` blocks for every existing dual block, and
    extend the `if (requested === "es" || requested === "en")`

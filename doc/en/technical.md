@@ -89,8 +89,9 @@ the browser.
 index.html          markup for every view + data-i18n hooks
 css/styles.css       all styling (custom properties for theming)
 js/i18n.js           interface copy, per language
-js/data.es.js        Spanish dictionary entries
-js/data.en.js        English dictionary entries
+js/dictionary-manifest.js ordered dictionary shard manifest + hashes
+js/dictionary-loader.js  static-hosting loader for every listed shard
+js/data.<lang>[.<shard>].js dictionary shard entries
 js/app.js            the entire client app (router, rendering, state)
 img/<arasaac-id>.png pictograms
 scripts/check.js   the CI/local validation script
@@ -140,13 +141,14 @@ not here — this doc only covers what affects the code.
   `scripts/search-pictogram.js` to talk to OpenSymbols) is only
   read from the developer's shell environment at content-edit time.
 - **Cache is content-addressed by path, not hash.** HTML is cached
-  per the default (so users see updates on reload); the dictionary,
-  CSS, images, and the two non-data scripts are cached for a year
-  with `immutable`. To bust the cache when the dictionary schema
-  changes, rename the file (`js/data.es.v2.js`) and update the
-  `<script>` tag in `index.html` in the same commit. Don't try to
-  add a hashed-bundler step just to fix a cache problem — rename
-  the file instead.
+  per the default (so users see updates on reload); dictionary shards,
+  CSS and images are cached for a year with `immutable`. Every shard is
+  listed in `js/dictionary-manifest.js` with a `?v=` value equal to its
+  first ten SHA-256 characters. The loader writes all shards in manifest
+  order before `js/app.js` starts, so the application never depends on a
+  fixed number of data files. If a shard approaches the host's per-file
+  limit, split the ordered entries into a new shard and add one manifest
+  item; do not put the whole dictionary back into a single file.
 
 ## Browser support
 
@@ -251,19 +253,22 @@ the same commit** that adds the registration, and the
 That's the only reason the kill-switch is commented in the HTML
 itself — so the next person to touch it knows exactly what to do.
 
-## The three-file split for content vs. interface vs. logic
+## The content, interface and logic split
 
 - **`js/i18n.js`** holds `I18N.<lang>` objects with only UI copy: button
   labels, headings, status messages. It is not dictionary content.
   `translate(language, key, variables)` looks up a key for a language,
   falling back to Spanish and then to the raw key if missing, and does
   simple `{placeholder}` substitution.
-- **`js/data.es.js`**, **`js/data.en.js`** each populate a shared global,
-  `DICCIONARIOS.<lang>`, with that language's dictionary entries. Adding a
-  language means adding a new `js/data.<lang>.js` file (see
-  `SPEC.md`'s "How to add a new language") — `js/app.js` needs no
-  changes, since it
-  only ever reads whatever languages exist as keys on `DICCIONARIOS`.
+- **`js/dictionary-manifest.js`** is the suite-compatible data contract:
+  it lists ordered `{file, src}` shards for each language and the hash used
+  to bust immutable caches. **`js/dictionary-loader.js`** expands that
+  manifest into script tags while the HTML parser is still running. Each
+  `js/data.<lang>[.<shard>].js` file either creates its language array (the
+  base shard) or appends to it with `concat`. Adding a language or splitting
+  an existing language therefore changes the manifest and data files, not
+  `js/app.js` or page-specific code. This is the file-shard contract for
+  Sinonimia and the other static applications in the Apptonomia suite.
   The full step-by-step for a new language — including the mirrored
   strings in `js/bootstrap-i18n.js`, the `about.js` whitelist and the
   parallel `data-lang-block` blocks on `about/*` and `404.html`, and
@@ -476,6 +481,8 @@ a unique id, a valid `situacion`, an `imagen.id` with a matching file under
 (accent-insensitive) substring of their own `texto`; that every `t()` key
 `js/app.js` uses exists in every `I18N` language block; that every DOM id
 `js/app.js` looks up with `getElementById` exists in `index.html`; that
+the dictionary manifest lists every shard exactly once and each `?v=` value
+matches that shard's content hash; that
 any `traduccion` field on an entry is well-formed (object keyed by
 language code, values are strings or arrays of strings) and references
 ids that exist in the target language's dictionary; and that neither
@@ -1011,5 +1018,3 @@ in one repo, mirror it across the others in the same PR.
   no-clinical-mention invariants every page must respect.
 
 ---
-
-

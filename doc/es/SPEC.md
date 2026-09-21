@@ -307,9 +307,12 @@ Esta es la versión resumida; el procedimiento completo está en
 
 1. Copiar y traducir un bloque completo de `I18N` en `js/i18n.js`, incluida
    `languageName_<idioma>` y `htmlLang`.
-2. Crear `js/data.<idioma>.js` con palabras difíciles de ese idioma, usando
-   las claves compartidas de `situacion`.
-3. Cargar el nuevo archivo de datos en `index.html` antes de `js/app.js`.
+2. Crear uno o varios `js/data.<idioma>[.<shard>].js` con palabras difíciles
+   de ese idioma, usando las claves compartidas de `situacion`. El primer
+   shard crea el array y los siguientes lo amplían con `concat`.
+3. Añadir los shards ordenados a `js/dictionary-manifest.js`; el cargador los
+   ejecuta antes de `js/app.js`. Si un fichero se acerca al límite del host,
+   dividirlo en otro shard en vez de superar el límite.
 4. Añadir el botón del idioma en `.idioma-selector`.
 5. Añadir el código a la whitelist de `about.js` y bloques paralelos en
    `about/index.html`, `about/privacidad.html` y `404.html`.

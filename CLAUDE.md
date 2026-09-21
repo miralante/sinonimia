@@ -162,8 +162,9 @@ client app (hash router, rendering, accessibility controls, both
 games). It's intentionally language-agnostic — it only ever reads
 `activeDictionary` (`= DICCIONARIOS[currentLanguage]`) and calls
 `t(key)`, never a hardcoded string or a hardcoded language's data
-file. `js/i18n.js` is UI copy only, `js/data.es.js`/`js/data.en.js`
-are the actual dictionary content, and `doc/en/spec.md` (or
+file. `js/i18n.js` is UI copy only, `js/dictionary-manifest.js` plus
+the `js/data.<lang>[.<shard>].js` files are the actual dictionary content,
+and `doc/en/spec.md` (or
 `doc/es/spec.md`) holds the non-negotiable content/UX rules
 (easy-read writing rules, "never gate content behind a game", etc.).
 
@@ -285,6 +286,18 @@ same time. Run `node scripts/check-version-bump.js` to verify the
 bump is consistent. Full contract: [`CLOUDFLARE.md`](CLOUDFLARE.md)
 § "Cache contract".
 
+### B.1.1 File-shard contract (suite-wide)
+
+Static applications must not assume that a growing data set fits in one
+published file. When a file approaches its host's per-file limit, split the
+ordered data into `*.1.js`, `*.2.js`, or named shards, list them in the
+project's manifest, list them in the service-worker cache manifest when one
+is present, and load them before application code. Each shard must remain a
+separately cacheable asset; validation must check that every shard is
+referenced exactly once and that its cache-busting hash matches its content.
+This contract applies to dictionaries and to any other large static data set
+across the Apptonomia suite.
+
 ### B.2 Language policy
 
 - **UI**: multilingual. Default locales are **Spanish (es)** and
@@ -299,7 +312,8 @@ bump is consistent. Full contract: [`CLOUDFLARE.md`](CLOUDFLARE.md)
 - **Technical code**: **always English** — variables, functions,
   identifiers, comments, and commit messages. UI text lives in
   `js/i18n.js` (one `I18N.<lang>` block per language); dictionary
-  content lives in `js/data.<lang>.js`. Identifiers that are
+  content lives in `js/dictionary-manifest.js` and its ordered
+  `js/data.<lang>[.<shard>].js` files. Identifiers that are
   deliberately kept in Spanish are listed in `doc/en/technical.md`
   (e.g. dictionary schema field names, `localStorage` keys, URL route
   segments) — read that list before renaming anything, since those

@@ -151,15 +151,16 @@ antes de añadir la primera entrada.
 
 ### 3.3 `index.html` — etiqueta de script, botón de idioma, meta-etiquetas
 
-Dos adiciones, en este orden (el orden de los `<script>` del
-fichero tiene que poner **todos** los `data.*.js` antes de
-`app.js`):
+Dos pasos, en este orden (el manifiesto y el cargador tienen que
+ejecutarse antes de `app.js`):
 
-1. `<script src="js/data.<código>.js"></script>` — junto a los
-   `<script src="js/data.es.js">` y `<script src="js/data.en.js">`
-   ya existentes. Sin esta etiqueta, `DICCIONARIOS.<código>` es
-   `undefined` cuando `app.js` arranca, y el idioma desaparece
-   silenciosamente.
+1. Añade los shards ordenados del idioma a
+   `js/dictionary-manifest.js`. El primero crea `DICCIONARIOS.<código>` y
+   los siguientes lo amplían con `concat`; cada `src` debe llevar los diez
+   caracteres del hash del contenido. `js/dictionary-loader.js` carga todos
+   los elementos antes de `app.js`, sin etiquetas de script hardcodeadas por
+   shard. Si un shard se acerca al límite por fichero del proveedor, divídelo
+   y añade el nuevo fichero al manifiesto.
 2. Dentro del bloque `.idioma-selector`, añade un botón:
    `<button type="button" class="idioma-btn" data-lang="<código>" aria-pressed="false"><BANDERA/ETIQUETA NATIVA></button>`.
    - La etiqueta del botón es el **endónimo** (el nombre que el
@@ -398,9 +399,10 @@ Para quien acaba de decir "vamos a añadir catalán":
    traduce cada clave, pon `htmlLang: "ca"`, añade
    `languageName_ca: "català"`).
 4. Añade `languageName_ca` también a los bloques `es` y `en`.
-5. En `index.html`, añade la etiqueta `<script src="js/data.ca.js">`
-   **antes** de `<script src="js/app.js">`, y un botón en el
-   selector de idioma.
+5. Añade los shards ordenados del catalán a `js/dictionary-manifest.js`;
+   no añadas una etiqueta de datos específica de una página. El cargador
+   procesa todos los elementos antes de arrancar la aplicación, y añade un
+   botón en el selector de idioma.
 6. En `about/index.html` y `about/privacidad.html`, añade bloques
    paralelos `data-lang-block="ca"` para cada bloque dual
    existente, y amplía la whitelist

@@ -83,6 +83,20 @@ dictionary, CSS, images, and app scripts. Cloudflare reads this
 file on every deploy and applies the rules automatically — no
 dashboard configuration needed.
 
+## Dictionary file-shard contract
+
+Cloudflare's file-size limit applies to each published asset, not to the
+site as a whole. The dictionary therefore uses ordered file shards:
+`js/dictionary-manifest.js` lists every `js/data.<lang>[.<shard>].js` file,
+and `js/dictionary-loader.js` loads them before the application starts. Each
+shard has its own content-hash query string and is cached independently.
+
+When any shard approaches the per-file limit, split its ordered entries into
+another shard and add it to the manifest. Do not increase the size of the
+existing shard or add a page-specific hardcoded script tag. This is the
+standard file-shard contract for the static applications in the Apptonomia
+suite; `scripts/check.js` validates the manifest and every shard hash.
+
 ## How to redeploy
 
 Nothing to do. Push to `main` and Cloudflare rebuilds.

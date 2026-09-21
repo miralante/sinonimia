@@ -63,8 +63,9 @@ navegador.
 index.html          marcado de las vistas y enlaces data-i18n
 css/styles.css      estilos y propiedades personalizadas del tema
 js/i18n.js          textos de interfaz por idioma
-js/data.es.js       diccionario espaÃ±ol
-js/data.en.js       diccionario inglÃ©s
+js/dictionary-manifest.js manifiesto ordenado de shards + hashes
+js/dictionary-loader.js  cargador estÃ¡tico de todos los shards
+js/data.<idioma>[.<shard>].js fragmentos del diccionario
 js/app.js           router, renderizado y estado de la aplicaciÃ³n
 js/bootstrap-i18n.js textos mÃ­nimos para evitar flash de idioma
 img/<id>.png        pictogramas servidos localmente
@@ -91,14 +92,14 @@ El sitio se despliega en **Cloudflare Pages**, no en Workers:
 
 ### 3.2 CachÃ© inmutable
 
-`js/data.*`, `css/*`, `img/*`, `js/app.js` y `js/i18n.js` tienen una cachÃ© de
-un aÃ±o e `immutable`. El HTML conserva la cachÃ© por defecto para que las
-actualizaciones se vean al recargar.
-
-Los scripts de datos llevan una query `?v=` calculada a partir del hash de su
-contenido. Cuando cambia un diccionario, `scripts/check.js` indica el hash
-que debe ponerse en `index.html` y `404.html`. No usar versiones manuales ni
-aÃ±adir un bundler solo para resolver esta cachÃ©.
+`js/data.*`, `css/*` e `img/*` tienen una cachÃ© de un aÃ±o e `immutable`. El
+manifiesto `js/dictionary-manifest.js` contiene cada shard ordenado y su
+query `?v=` calculada a partir de los primeros diez caracteres de SHA-256.
+`js/dictionary-loader.js` carga todos los shards antes de `js/app.js`. Si un
+shard se acerca al lÃ­mite por fichero del proveedor, se divide en otro shard
+y se aÃ±ade una entrada al manifiesto; no se vuelve a concentrar todo en un
+Ãºnico archivo. Esto es el contrato de file shards para Sinonimia y para toda
+la suite de aplicaciones estÃ¡ticas.
 
 ### 3.3 Service worker (`sw.js`)
 
@@ -116,14 +117,12 @@ re-fetch + activa cuando difieren; un bump que no aterriza es silencioso y
 las personas usuarias finales siguen viendo los archivos antiguos hasta que el
 SW se desinstala.
 
-**Atajo para el contenido del diccionario.** La query `?v=` en el tag
-`<script src="js/data.*.js">` (gestionada por `scripts/check.js`) maneja
-revisiones del diccionario independientemente del `VERSION` de `sw.js`: el SW
-cachea el archivo con el `?v=` del tag al instalar, y la próxima release lleva
-el `?v=` nuevo, así que una revisión del diccionario se recoge sola sin
-tocar `VERSION` mientras ningún otro archivo cacheado cambie. Esto significa que
-para cambios solo en `js/data.*.js` basta con correr `node scripts/check.js` y
-commitear; no hay que bumpear `VERSION`.
+**Atajo para el contenido del diccionario.** Cada shard de `js/data.*.js`
+lleva su query `?v=` en `js/dictionary-manifest.js` (gestionada por
+`scripts/check.js`). El SW cachea cada archivo con esa URL al instalar y la
+próxima release recoge un hash nuevo. Si cambia el manifiesto o el cargador,
+también se incluye en `FILES` y se bumpea `VERSION`; no se debe depender de
+un número fijo de shards.
 
 **Verificación local antes de pushear.** `scripts/check-version-bump.js`
 falla el commit/push si un archivo listado en `FILES` cambió sin que
@@ -242,9 +241,11 @@ distintos.
 - `js/i18n.js` contiene solo textos de interfaz. `translate(language, key,
   variables)` busca el idioma solicitado, recurre a espaÃ±ol y despuÃ©s a la
   clave cruda, y sustituye marcadores `{nombre}`.
-- `js/data.es.js` y `js/data.en.js` rellenan el global compartido
-  `DICCIONARIOS.<idioma>`. Un idioma nuevo aÃ±ade otro archivo; no hay que
-  cambiar `js/app.js`.
+- `js/dictionary-manifest.js` lista los shards ordenados de cada idioma y
+  `js/dictionary-loader.js` los carga antes de `js/app.js`. Cada
+  `js/data.<idioma>[.<shard>].js` crea o amplÃ­a `DICCIONARIOS.<idioma>`.
+  AÃ±adir un idioma o dividir un diccionario solo cambia el manifiesto y los
+  datos, no `js/app.js` ni las pÃ¡ginas.
 - `js/app.js` es una IIFE que contiene router, renderizado, Ã­ndices, juegos y
   estado. No escribe textos de interfaz ni lee un idioma concreto: usa
   `activeDictionary = DICCIONARIOS[currentLanguage]` y `t(key)`.
@@ -349,7 +350,7 @@ Ejecutar `node scripts/check.js` en local y en CI
 5. Paridad de claves de `I18N` usadas por `js/app.js` y `data-i18n*` de
    `index.html`.
 6. Existencia de todos los ids DOM buscados por `js/app.js`.
-7. Hashes `?v=` correctos para los diccionarios en `index.html` y `404.html`.
+7. Manifiesto de shards completo y hashes `?v=` correctos para cada fichero.
 8. Ausencia de menciones prohibidas en `index.html`, `js/i18n.js` y
    `about/privacidad.html`.
 
@@ -874,5 +875,3 @@ demÃ¡s en el mismo PR.
   pÃ¡gina debe respetar.
 
 ---
-
-
