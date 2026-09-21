@@ -48058,6 +48058,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "mesotrofia", text: "«mesotrofia»." },
     exampleSynonym: { word: "propiedad de las aguas de lagos con poca transparencia y escasa profundidad", text: "«propiedad de las aguas de lagos con poca transparencia y escasa profundidad»." },
     situacion: "vivienda",
+    translation: { en: "mesotrophy" },
   },
   {
     id: "mialmas",
@@ -48219,6 +48220,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "oligotrofia", text: "«oligotrofia»." },
     exampleSynonym: { word: "propiedad de las aguas de lagos profundos de alta montaña", text: "«propiedad de las aguas de lagos profundos de alta montaña»." },
     situacion: "vivienda",
+    translation: { en: "oligotrophy" },
   },
   {
     id: "ombliguero",
