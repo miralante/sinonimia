@@ -64,7 +64,7 @@
    * page that wants to keep its own footer markup can just write the
    * children directly and leave the marker attribute off.
    * --------------------------------------------------------------- */
-  function inyectarPie() {
+  function injectFooter() {
     var pies = document.querySelectorAll("footer[data-pie-app]");
     for (var i = 0; i < pies.length; i++) {
       var pie = pies[i];
@@ -91,5 +91,5 @@
       pie.innerHTML = html;
     }
   }
-  inyectarPie();
+  injectFooter();
 })();

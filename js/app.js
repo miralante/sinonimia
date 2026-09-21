@@ -4,16 +4,16 @@
   var AVAILABLE_LANGUAGES = Object.keys(DICCIONARIOS); // ["es", "en"]
   var DEFAULT_LANGUAGE = "es";
 
-  var listEl = document.getElementById("lista-palabras");
-  var listView = document.getElementById("vista-lista");
-  var detailView = document.getElementById("vista-detalle");
-  var gameView = document.getElementById("vista-juego");
-  var searchInput = document.getElementById("buscar");
-  var resultsInfo = document.getElementById("resultados-info");
-  var noResults = document.getElementById("sin-resultados");
-  var alphabetNav = document.getElementById("alfabeto");
-  var filterButtons = document.querySelectorAll(".filtro-btn");
-  var languageButtons = document.querySelectorAll(".idioma-btn");
+  var listEl = document.getElementById("word-list");
+  var listView = document.getElementById("list-view");
+  var detailView = document.getElementById("detail-view");
+  var gameView = document.getElementById("game-view");
+  var searchInput = document.getElementById("search");
+  var resultsInfo = document.getElementById("results-info");
+  var noResults = document.getElementById("no-results");
+  var alphabetNav = document.getElementById("alphabet");
+  var filterButtons = document.querySelectorAll(".filter-btn");
+  var languageButtons = document.querySelectorAll(".lang-btn");
 
   var state = { topic: "todos", letter: null };
   var currentLanguage = DEFAULT_LANGUAGE;
@@ -41,7 +41,7 @@
   }
 
   // entryByName maps a normalized headword to an ARRAY of entries, never a
-  // single entry: two entries can legitimately share the same "palabra"
+  // single entry: two entries can legitimately share the same "word"
   // (a homograph, e.g. "Pensión" = retirement pay / a guesthouse). Storing
   // an array instead of overwriting keeps both reachable and lets callers
   // detect the ambiguity instead of silently resolving to whichever entry
@@ -52,7 +52,7 @@
     entryByName = {};
     activeDictionary.forEach(function (entry) {
       entryById[entry.id] = entry;
-      var key = normalize(entry.palabra);
+      var key = normalize(entry.word);
       (entryByName[key] = entryByName[key] || []).push(entry);
     });
   }
@@ -89,8 +89,8 @@
       otherEntries.forEach(function (e) { entryByIdLookup[e.id] = e; });
 
       // Pass 1: explicit traduccion. Accepts both string and array values.
-      if (entry.traduccion && entry.traduccion[lang]) {
-        var declared = entry.traduccion[lang];
+      if (entry.translation && entry.translation[lang]) {
+        var declared = entry.translation[lang];
         var ids = Array.isArray(declared) ? declared : [declared];
         ids.forEach(function (otherId) {
           var otherEntry = entryByIdLookup[otherId];
@@ -105,11 +105,11 @@
       // pictogram is unique among entries in *both* languages — otherwise
       // a pictogram id collision could pick the wrong word).
       var ownMatches = activeDictionary.filter(function (e) {
-        return e.imagen.id === entry.imagen.id;
+        return e.image.id === entry.image.id;
       });
       if (ownMatches.length !== 1) return;
       var otherMatches = otherEntries.filter(function (e) {
-        return e.imagen.id === entry.imagen.id;
+        return e.image.id === entry.image.id;
       });
       if (otherMatches.length === 1) {
         translations.push({ language: lang, entry: otherMatches[0] });
@@ -120,9 +120,9 @@
 
   function matchesSearch(entry, normalizedQuery) {
     if (!normalizedQuery) return true;
-    if (normalize(entry.palabra).indexOf(normalizedQuery) !== -1) return true;
-    if (normalize(entry.definicion).indexOf(normalizedQuery) !== -1) return true;
-    return entry.sinonimos.some(function (synonym) {
+    if (normalize(entry.word).indexOf(normalizedQuery) !== -1) return true;
+    if (normalize(entry.definition).indexOf(normalizedQuery) !== -1) return true;
+    return entry.synonyms.some(function (synonym) {
       return normalize(synonym).indexOf(normalizedQuery) !== -1;
     });
   }
@@ -133,7 +133,7 @@
   // this order also drives the detail page's previous/next navigation.
   function alphabeticalEntries() {
     return activeDictionary.slice().sort(function (a, b) {
-      return a.palabra.localeCompare(b.palabra, currentLanguage);
+      return a.word.localeCompare(b.word, currentLanguage);
     });
   }
 
@@ -141,7 +141,7 @@
     var query = normalize(searchInput.value || "");
     return alphabeticalEntries().filter(function (entry) {
       if (state.topic !== "todos" && entry.situacion !== state.topic) return false;
-      if (state.letter && normalize(entry.palabra).charAt(0) !== state.letter) return false;
+      if (state.letter && normalize(entry.word).charAt(0) !== state.letter) return false;
       return matchesSearch(entry, query);
     });
   }
@@ -149,7 +149,7 @@
   function availableLetters() {
     var set = {};
     activeDictionary.forEach(function (e) {
-      set[normalize(e.palabra).charAt(0)] = true;
+      set[normalize(e.word).charAt(0)] = true;
     });
     return set;
   }
@@ -189,7 +189,7 @@
   }
 
   function wordLink(id) {
-    return "#/" + currentLanguage + "/palabra/" + id;
+    return "#/" + currentLanguage + "/word/" + id;
   }
 
   function renderList() {
@@ -199,27 +199,27 @@
 
     results.forEach(function (entry) {
       var li = document.createElement("li");
-      li.className = "tarjeta";
+      li.className = "card";
       var a = document.createElement("a");
       a.href = wordLink(entry.id);
-      a.className = "tarjeta-enlace";
+      a.className = "card-enlace";
 
       var img = document.createElement("img");
-      img.className = "tarjeta-imagen";
-      img.src = "img/" + entry.imagen.id + ".png";
+      img.className = "card-image";
+      img.src = "img/" + entry.image.id + ".png";
       img.alt = "";
       img.loading = "lazy";
 
       var h3 = document.createElement("h3");
-      h3.textContent = entry.palabra;
+      h3.textContent = entry.word;
       var def = document.createElement("p");
-      def.className = "definicion-corta";
-      def.textContent = entry.definicion;
+      def.className = "short-definition";
+      def.textContent = entry.definition;
 
       a.appendChild(img);
       if (isLearned(entry.id)) {
         var badge = document.createElement("span");
-        badge.className = "tarjeta-aprendida";
+        badge.className = "card-aprendida";
         badge.setAttribute("aria-label", t("alreadyDiscovered"));
         badge.textContent = "✓";
         a.appendChild(badge);
@@ -273,14 +273,14 @@
       el.href = wordLink(targetEntry.id);
       el.setAttribute(
         "aria-label",
-        t(direction === "anterior" ? "previousWordAria" : "nextWordAria", { palabra: targetEntry.palabra })
+        t(direction === "previous" ? "previousWordAria" : "nextWordAria", { word: targetEntry.word })
       );
     } else {
       el = document.createElement("span");
       el.setAttribute("aria-hidden", "true");
     }
     el.className = "detalle-navegacion-enlace detalle-navegacion-" + direction;
-    el.textContent = t(direction === "anterior" ? "previousWord" : "nextWord");
+    el.textContent = t(direction === "previous" ? "previousWord" : "nextWord");
     return el;
   }
 
@@ -313,16 +313,16 @@
     header.className = "detalle-cabecera";
 
     var img = document.createElement("img");
-    img.className = "detalle-imagen";
-    img.src = "img/" + entry.imagen.id + ".png";
-    img.alt = entry.imagen.alt;
+    img.className = "detail-image";
+    img.src = "img/" + entry.image.id + ".png";
+    img.alt = entry.image.alt;
     header.appendChild(img);
 
     var titleBox = document.createElement("div");
 
     var h2 = document.createElement("h2");
     h2.tabIndex = -1;
-    h2.textContent = entry.palabra;
+    h2.textContent = entry.word;
     titleBox.appendChild(h2);
 
     var topicPill = document.createElement("span");
@@ -335,7 +335,7 @@
 
     var def = document.createElement("p");
     def.className = "definicion";
-    def.textContent = entry.definicion;
+    def.textContent = entry.definition;
     detailView.appendChild(def);
 
     var synonymsHeading = document.createElement("h3");
@@ -343,8 +343,8 @@
     detailView.appendChild(synonymsHeading);
 
     var synonymsList = document.createElement("ul");
-    synonymsList.className = "sinonimos-lista";
-    entry.sinonimos.forEach(function (synonym) {
+    synonymsList.className = "synonyms-list";
+    entry.synonyms.forEach(function (synonym) {
       var li = document.createElement("li");
       var relatedEntries = (entryByName[normalize(synonym)] || []).filter(function (candidate) {
         return candidate.id !== entry.id;
@@ -379,15 +379,15 @@
     detailView.appendChild(exampleHeading);
 
     var sentences = document.createElement("div");
-    sentences.className = "frases";
-    sentences.appendChild(createHighlightedSentence(entry.ejemplo.texto, entry.ejemplo.palabra));
+    sentences.className = "sentences";
+    sentences.appendChild(createHighlightedSentence(entry.example.text, entry.example.word));
 
     var simplifiedLabel = document.createElement("p");
     simplifiedLabel.className = "equivale";
     simplifiedLabel.textContent = t("saidSimply");
     sentences.appendChild(simplifiedLabel);
 
-    sentences.appendChild(createHighlightedSentence(entry.ejemploSinonimo.texto, entry.ejemploSinonimo.palabra));
+    sentences.appendChild(createHighlightedSentence(entry.exampleSynonym.text, entry.exampleSynonym.word));
     detailView.appendChild(sentences);
 
     detailView.appendChild(createYourSentenceBlock(entry));
@@ -395,14 +395,14 @@
     var translations = otherLanguageEntries(entry);
     if (translations.length > 0) {
       var translationsBox = document.createElement("div");
-      translationsBox.className = "detalle-traducciones";
+      translationsBox.className = "detail-translations";
       translations.forEach(function (translation) {
         var translationLink = document.createElement("a");
-        translationLink.className = "detalle-traduccion";
-        translationLink.href = "#/" + translation.language + "/palabra/" + translation.entry.id;
+        translationLink.className = "detail-translation";
+        translationLink.href = "#/" + translation.language + "/word/" + translation.entry.id;
         translationLink.textContent = t("viewInOtherLanguage", {
           idioma: t("languageName_" + translation.language),
-          palabra: translation.entry.palabra,
+          word: translation.entry.word,
         });
         translationsBox.appendChild(translationLink);
       });
@@ -417,11 +417,11 @@
     var wordNav = document.createElement("nav");
     wordNav.className = "detalle-navegacion";
     wordNav.setAttribute("aria-label", t("wordNavLabel"));
-    wordNav.appendChild(buildWordNavLink("anterior", previousEntry));
-    wordNav.appendChild(buildWordNavLink("siguiente", nextEntry));
+    wordNav.appendChild(buildWordNavLink("previous", previousEntry));
+    wordNav.appendChild(buildWordNavLink("next", nextEntry));
     detailView.appendChild(wordNav);
 
-    document.title = entry.palabra + t("detailTitleSuffix");
+    document.title = entry.word + t("detailTitleSuffix");
     // The hash changes before this view is rebuilt. On mobile browsers that
     // can leave the viewport at the old document position (often the footer).
     // Focus the heading for accessibility without letting the browser choose
@@ -436,7 +436,7 @@
 
   // --- Write your own sentence (per word, saved in this browser) ---
   function sentencesKey() {
-    return "sinonimia-mis-frases-" + currentLanguage;
+    return "sinonimia-mis-sentences-" + currentLanguage;
   }
 
   function mySentences() {
@@ -454,7 +454,7 @@
     localStorage.setItem(sentencesKey(), JSON.stringify(all));
   }
   function sentenceStarsKey() {
-    return "sinonimia-frases-estrellas-" + currentLanguage;
+    return "sinonimia-sentences-estrellas-" + currentLanguage;
   }
 
   function sentenceStars() {
@@ -483,7 +483,7 @@
     section.appendChild(h3);
 
     var instructions = document.createElement("p");
-    instructions.className = "ayuda-texto";
+    instructions.className = "help-texto";
     instructions.textContent = t("sentenceInstruction");
     section.appendChild(instructions);
     var stars = document.createElement("p");
@@ -523,7 +523,7 @@
       var savedLabel = document.createElement("strong");
       savedLabel.textContent = t("sentenceSavedNotice") + " ";
       var quotedText = document.createElement("span");
-      quotedText.className = "tu-frase-texto";
+      quotedText.className = "your-sentence-text";
       quotedText.textContent = "“" + text + "”";
       notice.appendChild(savedLabel);
       notice.appendChild(quotedText);
@@ -569,10 +569,10 @@
     noResults.hidden = noResults.hidden || name !== "lista";
   }
 
-  // --- Routing: #/<lang>/  and  #/<lang>/palabra/<id> ---
-  // The "palabra" / "juego" path segments are deliberately NOT translated per
+  // --- Routing: #/<lang>/  and  #/<lang>/word/<id> ---
+  // The "word" / "juego" path segments are deliberately NOT translated per
   // language: they're routing tokens, not user-facing text, so the URL shape
-  // stays identical across languages (#/es/palabra/x, #/en/palabra/y).
+  // stays identical across languages (#/es/word/x, #/en/word/y).
   function route() {
     var parts = (location.hash || "").replace(/^#\/?/, "").split("/").filter(Boolean);
     var hashLanguage = parts[0];
@@ -586,9 +586,9 @@
       syncLanguage(hashLanguage);
     }
 
-    if (parts[1] === "palabra" && parts[2]) {
+    if (parts[1] === "word" && parts[2]) {
       renderDetail(parts[2]);
-    } else if (parts[1] === "juego" && parts[2] === "palabra") {
+    } else if (parts[1] === "juego" && parts[2] === "word") {
       renderWordGame();
     } else if (parts[1] === "juego" && parts[2] === "frase") {
       renderSentenceGame();
@@ -659,7 +659,7 @@
 
   // --- Search box and filters ---
   searchInput.addEventListener("input", function () {
-    if (location.hash.indexOf("/palabra/") !== -1) {
+    if (location.hash.indexOf("/word/") !== -1) {
       location.hash = "#/" + currentLanguage + "/";
     }
     renderList();
@@ -674,7 +674,7 @@
       btn.classList.add("activo");
       btn.setAttribute("aria-pressed", "true");
       state.topic = btn.getAttribute("data-tema");
-      if (location.hash.indexOf("/palabra/") !== -1) {
+      if (location.hash.indexOf("/word/") !== -1) {
         location.hash = "#/" + currentLanguage + "/";
       }
       renderList();
@@ -730,9 +730,9 @@
   applyContrast(localStorage.getItem("sinonimia-contraste") === "1");
 
   // --- Progress: discovered words (this browser only, per language) ---
-  var progressText = document.getElementById("progreso-texto");
-  var progressBar = document.getElementById("barra-progreso");
-  var progressBarFill = document.getElementById("barra-progreso-relleno");
+  var progressText = document.getElementById("progress-text");
+  var progressBar = document.getElementById("progress-bar");
+  var progressBarFill = document.getElementById("barra-progress-relleno");
 
   function progressKey() {
     return "sinonimia-aprendidas-" + currentLanguage;
@@ -787,7 +787,7 @@
     document.getElementById("juego-cta").href = "#/" + currentLanguage + "/juego";
     if (activeDictionary.length === 0) return;
     var wordOfDay = activeDictionary[dayIndex()];
-    document.getElementById("hero-palabra-nombre").textContent = wordOfDay.palabra;
+    document.getElementById("hero-word-name").textContent = wordOfDay.word;
     document.getElementById("hero-cta").href = wordLink(wordOfDay.id);
   }
 
@@ -854,7 +854,7 @@
     gameView.appendChild(h2);
 
     var instructions = document.createElement("p");
-    instructions.className = "ayuda-texto";
+    instructions.className = "help-texto";
     instructions.textContent = t("gameMenuInstruction");
     gameView.appendChild(instructions);
 
@@ -864,11 +864,11 @@
     menu.className = "juego-menu";
 
     [
-      { href: "palabra", title: t("wordGameTitle"), desc: t("wordGameDescription"), icon: "🖼️" },
+      { href: "word", title: t("wordGameTitle"), desc: t("wordGameDescription"), icon: "🖼️" },
       { href: "frase", title: t("sentenceGameTitle"), desc: t("sentenceGameDescription"), icon: "✏️" },
     ].forEach(function (option) {
       var card = document.createElement("a");
-      card.className = "juego-menu-opcion";
+      card.className = "juego-menu-option";
       card.href = "#/" + currentLanguage + "/juego/" + option.href;
 
       var icon = document.createElement("span");
@@ -905,13 +905,13 @@
 
   // --- Game 1: Which word is it? (clue + pictogram + 3 options) ---
   function pickDistractorEntries(target, howMany) {
-    var targetName = normalize(target.palabra);
-    // Exclude the target's own homograph twin too (same "palabra", different
+    var targetName = normalize(target.word);
+    // Exclude the target's own homograph twin too (same "word", different
     // id) — otherwise the game could show two options with identical text,
     // which breaks the "options must differ" rule since you can't tell them
     // apart by reading the button.
     var remaining = activeDictionary.filter(function (e) {
-      return e.id !== target.id && normalize(e.palabra) !== targetName;
+      return e.id !== target.id && normalize(e.word) !== targetName;
     });
     // Socratic design: put distractors from a DIFFERENT topic first. Reading
     // the clue should let you rule them out by contrast (they clearly don't
@@ -943,7 +943,7 @@
     if (checkTooFewWords(h2)) return;
 
     var instructions = document.createElement("p");
-    instructions.className = "ayuda-texto";
+    instructions.className = "help-texto";
     instructions.textContent = t("wordGameInstruction");
     gameView.appendChild(instructions);
 
@@ -957,8 +957,8 @@
     clue.className = "juego-pista";
 
     var img = document.createElement("img");
-    img.className = "juego-pista-imagen";
-    img.src = "img/" + target.imagen.id + ".png";
+    img.className = "game-hint-image";
+    img.src = "img/" + target.image.id + ".png";
     img.alt = "";
     clue.appendChild(img);
 
@@ -971,8 +971,8 @@
     content.appendChild(topicPill);
 
     var def = document.createElement("p");
-    def.className = "juego-pista-texto";
-    def.textContent = target.definicion;
+    def.className = "game-hint-text";
+    def.textContent = target.definition;
     content.appendChild(def);
 
     clue.appendChild(content);
@@ -980,7 +980,7 @@
     gameView.appendChild(clue);
 
     var options = document.createElement("div");
-    options.className = "juego-opciones";
+    options.className = "game-options";
 
     var message = document.createElement("p");
     message.className = "juego-mensaje";
@@ -992,8 +992,8 @@
     optionList.forEach(function (option) {
       var btn = document.createElement("button");
       btn.type = "button";
-      btn.className = "juego-opcion";
-      btn.textContent = option.palabra;
+      btn.className = "game-option";
+      btn.textContent = option.word;
 
       btn.addEventListener("click", function () {
         if (btn.classList.contains("correcta")) return;
@@ -1068,7 +1068,7 @@
     if (checkTooFewWords(h2)) return;
 
     var instructions = document.createElement("p");
-    instructions.className = "ayuda-texto";
+    instructions.className = "help-texto";
     instructions.textContent = t("sentenceGameInstruction");
     gameView.appendChild(instructions);
 
@@ -1086,27 +1086,27 @@
     topicPill.textContent = t("topic_" + target.situacion);
     clue.appendChild(topicPill);
 
-    clue.appendChild(createSentenceWithBlank(target.ejemplo.texto, target.ejemplo.palabra));
+    clue.appendChild(createSentenceWithBlank(target.example.text, target.example.word));
     gameView.appendChild(clue);
 
     var options = document.createElement("div");
-    options.className = "juego-opciones";
+    options.className = "game-options";
 
     var message = document.createElement("p");
     message.className = "juego-mensaje";
     message.setAttribute("role", "status");
     message.setAttribute("aria-live", "polite");
 
-    var correctWord = target.ejemplo.palabra;
+    var correctWord = target.example.word;
     var distractors = pickDistractorEntries(target, 2).map(function (e) {
-      return e.ejemplo.palabra;
+      return e.example.word;
     });
     var optionList = shuffle([correctWord].concat(distractors));
 
     optionList.forEach(function (optionWord) {
       var btn = document.createElement("button");
       btn.type = "button";
-      btn.className = "juego-opcion";
+      btn.className = "game-option";
       btn.textContent = optionWord;
 
       btn.addEventListener("click", function () {
@@ -1118,7 +1118,7 @@
             other.disabled = true;
           });
           clue.innerHTML = "";
-          clue.appendChild(createHighlightedSentence(target.ejemplo.texto, target.ejemplo.palabra));
+          clue.appendChild(createHighlightedSentence(target.example.text, target.example.word));
           message.textContent = t("gameCorrect");
           message.className = "juego-mensaje juego-mensaje-correcto";
           scoreEl.textContent = t("gameScore", { n: addPoint() });

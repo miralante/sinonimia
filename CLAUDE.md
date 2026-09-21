@@ -207,7 +207,10 @@ belongs to the in-flight work before adding new changes.
 #### A.2.3 Before finishing
 
 1. Always run `node scripts/check.js`.
-2. Report only verifications you actually ran; flag remaining manual
+2. Before pushing, run `npm run test:ui`, `node scripts/smoke-sw.js`,
+   and `node scripts/check-version-bump.js`; do not push if any required
+   check fails.
+3. Report only verifications you actually ran; flag remaining manual
    tests.
 
 #### A.2.4 Scratch scripts and the repo root

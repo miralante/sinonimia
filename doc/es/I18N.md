@@ -287,7 +287,7 @@ concepto entre idiomas". El resumen relevante para un idioma nuevo:
    entrada lista los `id`s en el idioma destino que significan el
    mismo concepto. Para una palabra en español con varias
    traducciones válidas al catalán, usa un **array** de ids
-   (`traduccion: { ca: ["foo", "bar"] }`).
+   (`translation: { ca: ["foo", "bar"] }`).
 2. **Pasada 2 (fallback)**: si `traduccion` no menciona un idioma,
    se cae al "ambas entradas comparten un pictograma único". Esto
    solo funciona cuando cada idioma tiene exactamente una entrada
@@ -298,8 +298,8 @@ En un idioma nuevo, la secuencia típica al añadir una palabra es:
 
 1. Decide la palabra y la `situacion`.
 2. Busca el equivalente (si lo hay) en `es` y `en` por id, y añade
-   `traduccion: { es: "<id>", en: "<id>" }` a la entrada nueva.
-3. Añade `traduccion: { <código>: "<id-nuevo>" }` a las entradas
+   `translation: { es: "<id>", en: "<id>" }` a la entrada nueva.
+3. Añade `translation: { <código>: "<id-nuevo>" }` a las entradas
    existentes en `es`/`en` para que el enlace funcione en **ambas
    direcciones**. Un enlace escrito solo en un lado es medio
    enlace.

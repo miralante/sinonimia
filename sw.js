@@ -1,7 +1,7 @@
 /* ============================================================
    Sinonimia — Service Worker
    Cache-first strategy for the app shell (works offline).
-   When adding new files: add them to ARCHIVOS and bump VERSION.
+   When adding new files: add them to FILES and bump VERSION.
    The shell is intentionally small — the dictionaries already ship
    under /js/data.*.js with content-hash ?v= query strings (handled
    by scripts/check.js), so a new dictionary revision picks up
@@ -9,9 +9,9 @@
    The SW's job is just to make the first paint and the first
    dictionary load work offline.
    ============================================================ */
-var VERSION = 'sinonimia-v51';
+var VERSION = 'sinonimia-v172';
 
-var ARCHIVOS = [
+var FILES = [
   './',
   './index.html',
   './404.html',
@@ -21,6 +21,7 @@ var ARCHIVOS = [
   './js/i18n.js',
   './js/bootstrap-i18n.js',
   './js/data.es.js',
+  './js/data.es.2.js',
   './js/data.en.js',
   './js/app.js',
   './img/logo.svg',
@@ -43,7 +44,7 @@ self.addEventListener('install', function (event) {
       // shell that's missing one entry than a shell that never
       // installs.
       return Promise.all(
-        ARCHIVOS.map(function (url) {
+        FILES.map(function (url) {
           return cache.add(url).catch(function (err) {
             // Surface the failing path in DevTools so an editor who
             // added a path that doesn't exist on disk sees the cause

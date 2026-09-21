@@ -144,6 +144,7 @@ async function loadGeneralFrequencies() {
 // self-contained rather than requiring scripts/ingest/pipeline/filters/,
 // which may not exist on a fresh checkout.)
 loadAsGlobal("js/data.es.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
+loadAsGlobal("js/data.es.2.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
 loadAsGlobal("js/data.en.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
 
 const covered = new Set();

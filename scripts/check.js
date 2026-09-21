@@ -59,7 +59,7 @@ function normalize(text) {
 // bootstrap-i18n.js or similar helpers in the future can't silently
 // ship broken.
 const jsDir = path.join(ROOT, "js");
-const requiredJs = ["js/i18n.js", "js/data.es.js", "js/data.en.js", "js/app.js"];
+const requiredJs = ["js/i18n.js", "js/data.es.js", "js/data.es.2.js", "js/data.en.js", "js/app.js"];
 requiredJs.forEach(function (relativePath) {
   try {
     execFileSync(process.execPath, ["--check", path.join(ROOT, relativePath)]);
@@ -97,6 +97,7 @@ function loadAsGlobal(relativePath, pattern, replacement) {
 }
 
 loadAsGlobal("js/data.es.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
+loadAsGlobal("js/data.es.2.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
 loadAsGlobal("js/data.en.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
 loadAsGlobal("js/i18n.js", "const I18N", "global.I18N");
 
@@ -110,7 +111,7 @@ const imagesOnDisk = fs.readdirSync(imgDir);
 
 languages.forEach(function (language) {
   const entries = DICCIONARIOS[language];
-  const seenIds = {};
+  const seenIds = Object.create(null);
 
   entries.forEach(function (entry) {
     if (seenIds[entry.id]) {
@@ -122,28 +123,28 @@ languages.forEach(function (language) {
       fail(language + "/" + entry.id + ": situacion \"" + entry.situacion + "\" is not a valid key");
     }
 
-    if (!entry.imagen || !entry.imagen.id || !entry.imagen.alt) {
-      fail(language + "/" + entry.id + ": missing imagen.id or imagen.alt");
-    } else if (imagesOnDisk.indexOf(entry.imagen.id + ".png") === -1) {
-      fail(language + "/" + entry.id + ": img/" + entry.imagen.id + ".png does not exist");
+    if (!entry.image || !entry.image.id || !entry.image.alt) {
+      fail(language + "/" + entry.id + ": missing image.id or image.alt");
+    } else if (imagesOnDisk.indexOf(entry.image.id + ".png") === -1) {
+      fail(language + "/" + entry.id + ": img/" + entry.image.id + ".png does not exist");
     }
 
     [
-      ["ejemplo", entry.ejemplo],
-      ["ejemploSinonimo", entry.ejemploSinonimo],
+      ["example", entry.example],
+      ["exampleSynonym", entry.exampleSynonym],
     ].forEach(function (pair) {
       var fieldName = pair[0], value = pair[1];
-      if (!value || !value.texto || !value.palabra) {
-        fail(language + "/" + entry.id + ": missing texto or palabra in " + fieldName);
+      if (!value || !value.text || !value.word) {
+        fail(language + "/" + entry.id + ": missing text or word in " + fieldName);
         return;
       }
-      var idx = normalize(value.texto).indexOf(normalize(value.palabra));
+      var idx = normalize(value.text).indexOf(normalize(value.word));
       if (idx === -1) {
-        fail(language + "/" + entry.id + ": \"" + value.palabra + "\" does not appear inside " + fieldName + ".texto");
+        fail(language + "/" + entry.id + ": \"" + value.word + "\" does not appear inside " + fieldName + ".text");
       }
     });
 
-    // `traduccion` is an OPTIONAL field — entries that resolve to their
+    // `translation` is an OPTIONAL field — entries that resolve to their
     // counterpart by the shared-pictogram rule don't need it. When it IS
     // set, validate the shape: object keyed by language code, values are
     // either a single id string or an array of id strings, every id must
@@ -151,24 +152,24 @@ languages.forEach(function (language) {
     // entry's own id. Self-references would produce an obvious "see this
     // word in the other language" loop; an unknown id would produce a
     // broken link.
-    if (entry.traduccion) {
-      if (typeof entry.traduccion !== "object" || Array.isArray(entry.traduccion)) {
-        fail(language + "/" + entry.id + ": traduccion must be an object keyed by language code, got " + typeof entry.traduccion);
+    if (entry.translation) {
+      if (typeof entry.translation !== "object" || Array.isArray(entry.translation)) {
+        fail(language + "/" + entry.id + ": translation must be an object keyed by language code, got " + typeof entry.translation);
       } else {
-        Object.keys(entry.traduccion).forEach(function (targetLang) {
+        Object.keys(entry.translation).forEach(function (targetLang) {
           if (targetLang === language) {
-            fail(language + "/" + entry.id + ": traduccion must not reference the entry's own language \"" + targetLang + "\"");
+            fail(language + "/" + entry.id + ": translation must not reference the entry's own language \"" + targetLang + "\"");
             return;
           }
           if (!DICCIONARIOS[targetLang]) {
-            fail(language + "/" + entry.id + ": traduccion references unknown language \"" + targetLang + "\"");
+            fail(language + "/" + entry.id + ": translation references unknown language \"" + targetLang + "\"");
             return;
           }
-          var raw = entry.traduccion[targetLang];
+          var raw = entry.translation[targetLang];
           var ids = Array.isArray(raw) ? raw : [raw];
           ids.forEach(function (otherId) {
             if (typeof otherId !== "string") {
-              fail(language + "/" + entry.id + ": traduccion." + targetLang + " must be a string id or array of ids");
+              fail(language + "/" + entry.id + ": translation." + targetLang + " must be a string id or array of ids");
               return;
             }
             // We allow `otherId === entry.id` — that's a legitimate link
@@ -177,7 +178,7 @@ languages.forEach(function (language) {
             // entry itself because language switches route to a different
             // language, not the same id.
             if (!DICCIONARIOS[targetLang].some(function (e) { return e.id === otherId; })) {
-              fail(language + "/" + entry.id + ": traduccion." + targetLang + " references unknown id \"" + otherId + "\"");
+              fail(language + "/" + entry.id + ": translation." + targetLang + " references unknown id \"" + otherId + "\"");
             }
           });
         });
@@ -289,7 +290,18 @@ htmlPages.forEach(function (page) {
     }
   });
 });
-ok("js/data.*.js cache-busting query strings checked (es: " + contentHash("js/data.es.js") + ", en: " + contentHash("js/data.en.js") + ")");
+htmlPages.forEach(function (page) {
+  const relativePath = "js/data.es.2.js";
+  const tagRe = new RegExp('<script src="js/data\\.es\\.2\\.js(?:\\?v=([^"]*))?">');
+  const tagMatch = page.content.match(tagRe);
+  if (!tagMatch) {
+    fail(page.file + ": missing script tag for " + relativePath);
+    return;
+  }
+  const expected = contentHash(relativePath);
+  if (tagMatch[1] !== expected) fail(page.file + ": " + relativePath + " query string is wrong; expected ?v=" + expected);
+});
+ok("js/data.*.js cache-busting query strings checked (es: " + contentHash("js/data.es.js") + ", es.2: " + contentHash("js/data.es.2.js") + ", en: " + contentHash("js/data.en.js") + ")");
 
 // --- 7. The user-facing product never names disability or minors ---
 // doc/en/spec.md's rule ("Mandatory rule: zero mentions in the user-facing

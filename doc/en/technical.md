@@ -24,27 +24,46 @@ English dictionary, depending on the language the visitor picked.
 
 ### Naming exceptions (read before renaming something)
 
-A few identifiers are Spanish words and are **staying that way on purpose**,
-because they are shared data contracts, not implementation details:
+**2026-09-17 update**: the dictionary schema field names and the
+`"palabra"` URL path segment — both listed as deliberate Spanish
+exceptions in earlier versions of this section — were renamed to
+English (`word`, `definition`, `image`, `synonyms`, `example`,
+`exampleSynonym`, and route segment `word`; `situacion` was kept, see
+below) across `js/data.es.js`, `js/data.en.js`, `js/app.js`, and every
+tool under `scripts/ingest/pipeline/` that reads or writes those
+fields. `scripts/check.js`, `scripts/content-status.js`, and
+`doc/*/SPEC.md` / `CONTRIBUTING.md` / `CONTRIBUTING.es.md` were updated
+to match. **Known consequence**: any previously-shared or indexed link
+using the old `#/<lang>/palabra/<id>` route shape no longer resolves —
+there is no redirect/back-compat shim for it. If that turns out to
+matter (backlinks, search indexing), it needs its own fix; flagged
+here rather than silently accepted.
 
-- **Dictionary schema field names** — `palabra`, `definicion`, `imagen`,
-  `sinonimos`, `ejemplo`, `ejemploSinonimo`, `situacion` in every entry of
-  `js/data.<lang>.js`. Renaming these would touch all 44+ dictionary
-  entries across every language file and the schema documentation in
-  `doc/*/SPEC.md` and `../../CONTRIBUTING.md`/`../../CONTRIBUTING.es.md`,
-  which teach contributors how to add a word using these exact field names.
-- **HTML `id`/`class` attributes and their CSS selectors** (e.g.
-  `#vista-lista`, `.tarjeta`, `.boton-cta`) — shared literally between
-  `index.html`, `css/styles.css`, and the string literals `js/app.js` passes
-  to `getElementById` / `className`.
+A few identifiers are still Spanish words and are **staying that way on
+purpose**, because they are shared data contracts, not implementation
+details:
+
+- **The `situacion` dictionary schema field** and its nine valid values
+  (`tramites`, `salud`, `vida-diaria`, `finanzas`, `vivienda`, `trabajo`,
+  `legal`, `tecnologia`, `seguridad`, `educacion`, `conocimiento`) in
+  every entry of `js/data.<lang>.js`. Unlike the other field names, this
+  one was deliberately left alone in the 2026-09-17 rename above.
+- **HTML `id`/`class` attributes and their CSS selectors that are still
+  Spanish** (e.g. `.cabecera`, `.tarjetas`'s sibling static-chrome
+  classes, `.filtros`, `.a11y-*`) — shared literally between
+  `index.html`, `css/styles.css`, and the string literals `js/app.js`
+  passes to `getElementById` / `className`. Some of these (the dynamic,
+  JS-injected ones: `.card`, `.detail-image`, `.game-option`, etc.) were
+  renamed to English in the same 2026-09-17 pass; the static structural
+  chrome classes were not touched.
 - **`localStorage` key names** (e.g. `sinonimia-idioma`,
   `sinonimia-aprendidas-<lang>`) — a persisted data contract; renaming
   would silently discard anyone's already-saved progress.
-- **The `"palabra"` / `"juego"` URL path segments** in the hash router
-  (`#/<lang>/palabra/<id>`, `#/<lang>/juego`) — deliberately not translated
-  per language, so the route shape stays identical for every language
-  (`#/en/palabra/rectify`, not `#/en/word/rectify`). This is a routing
-  token, not user-facing text.
+- **The `"juego"` URL path segment** in the hash router (`#/<lang>/juego`)
+  — deliberately not translated per language, so the route shape stays
+  identical for every language. This is a routing token, not user-facing
+  text. (The sibling `"palabra"` segment was renamed to `"word"` in the
+  2026-09-17 pass — see the note above.)
 
 Everything else — function names, local variables, parameters, and every
 comment in `js/app.js`, `js/i18n.js`, `js/data.*.js`, `css/styles.css`, and
@@ -278,46 +297,51 @@ the two dictionaries are unrelated content — see the key names in
 
 ## Dictionary entry shape
 
-Every entry (see the Naming exceptions above for why these field names stay
-Spanish) has: `id`, `palabra`, `imagen: {id, alt}`, `definicion`,
-`sinonimos[]`, `ejemplo: {palabra, texto}`, `ejemploSinonimo: {palabra,
-texto}`, `situacion`, and **optionally** `traduccion`. `situacion` is one
-of eleven values shared across every language (`tramites`, `salud`,
-`vida-diaria`, `finanzas`, `vivienda`, `trabajo`, `legal`, `tecnologia`,
-`seguridad`, `educacion`, `conocimiento`) — it's a
+Every entry has: `id`, `word`, `image: {id, alt}`, `definition`,
+`synonyms[]`, `example: {word, text}`, `exampleSynonym: {word,
+text}`, `situacion`, and **optionally** `translation`. Every field is
+English (2026-09-17 rename — see the Naming exceptions section above)
+except `situacion` itself, which stays Spanish on purpose. `situacion`
+is one of eleven values shared across every language (`tramites`,
+`salud`, `vida-diaria`, `finanzas`, `vivienda`, `trabajo`, `legal`,
+`tecnologia`, `seguridad`, `educacion`, `conocimiento`) — it's a
 filter key, not display text; its label per language lives in
-`js/i18n.js` as `topic_<situacion>`. The `palabra` field *inside*
-`ejemplo` / `ejemploSinonimo` is the exact inflected/agreed form used
+`js/i18n.js` as `topic_<situacion>`. The `word` field *inside*
+`example` / `exampleSynonym` is the exact inflected/agreed form used
 in that sentence (not necessarily the dictionary headword) — that's
 what `createHighlightedSentence()` and `createSentenceWithBlank()`
 search for, to highlight or blank it out.
 
-`id` is the only field required to be unique — `palabra` isn't, on purpose:
+`id` is the only field required to be unique — `word` isn't, on purpose:
 a homograph (two unrelated meanings sharing one word, e.g. "pensión" —
 retirement pay / a guesthouse) is modeled as two ordinary entries with the
-same `palabra` and different `id`/`situacion`/`definicion` (see "Palabras
+same `word` and different `id`/`situacion`/`definition` (see "Palabras
 con doble significado" in `SPEC.md`). `entryByName` in `js/app.js`
-(keyed by normalized `palabra`, used to cross-link a synonym to its own
+(keyed by normalized `word`, used to cross-link a synonym to its own
 entry and to pick the two games' multiple-choice options) reflects this:
 it maps a name to an **array** of entries rather than overwriting, so a
-second entry with the same `palabra` never silently shadows the first.
+second entry with the same `word` never silently shadows the first.
 Synonym cross-links that resolve to more than one entry render a link per
 match instead of guessing; `pickDistractorEntries` additionally excludes
-any entry whose `palabra` matches the target's, so a homograph's twin can
+any entry whose `word` matches the target's, so a homograph's twin can
 never appear as a same-looking distractor option in either game.
 
-### `traduccion`: linking the same concept across languages
+### `translation`: linking the same concept across languages
 
 ```js
-traduccion: { en: "pension-payment" }                     // one equivalent
-traduccion: { en: ["pension-payment", "retirement-work"] } // several EN words for one ES concept
+translation: { en: "pension-payment" }                     // one equivalent
+translation: { en: ["pension-payment", "retirement-work"] } // several EN words for one ES concept
 ```
 
-`traduccion` is an **optional** object keyed by language code. Its values
+`translation` is an **optional** object keyed by language code (the field
+itself was named `traduccion` before the 2026-09-17 rename — the batch
+tooling under `scripts/ingest/pipeline/` still uses `traduccion` as the
+*batch-file* authoring key and translates it to `translation` on
+insert, so hand-authored batch files keep the Spanish key). Its values
 are the `id` of the equivalent entry in that language — a single string
 for one-to-one links, or an array for one-to-many links (a Spanish word
 with several valid English translations, or several Spanish words that
-all map to the same English word). When set, `traduccion` is the
+all map to the same English word). When set, `translation` is the
 authoritative cross-language link; when not set, the shared-pictogram
 fallback described in the next section applies.
 
@@ -325,7 +349,7 @@ Why is this field needed when ARASAAC pictograms already link concepts
 across languages? Because ARASAAC has only one "money" pictogram, one
 "document" pictogram, one "pen" pictogram, etc., and the dictionary has
 many unrelated words that share each of those — so the unique-pictogram
-fallback can only resolve a fraction of the entries. `traduccion` is
+fallback can only resolve a fraction of the entries. `translation` is
 where the human editor disambiguates the rest. `scripts/check.js`
 checks the shape (object keyed by language code, values are strings or
 arrays of strings) and that every referenced id exists in the target

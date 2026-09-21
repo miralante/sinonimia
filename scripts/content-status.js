@@ -59,6 +59,7 @@ function loadAsGlobal(relativePath, pattern, replacement) {
 }
 
 loadAsGlobal("js/data.es.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
+loadAsGlobal("js/data.es.2.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
 loadAsGlobal("js/data.en.js", "window.DICCIONARIOS", "global.DICCIONARIOS");
 loadAsGlobal("js/i18n.js", "const I18N", "global.I18N");
 
@@ -116,11 +117,11 @@ languages.forEach(function (lang) {
 
     if (detailed && list.length) {
       list.forEach(function (entry) {
-        const synonyms = entry.sinonimos.join(", ");
+        const synonyms = entry.synonyms.join(", ");
         console.log(
-          "      - " + entry.palabra + " (" + entry.id + "): " + synonyms +
-          " | " + entry.definicion +
-          " | ej: " + entry.ejemplo.texto
+          "      - " + entry.word + " (" + entry.id + "): " + synonyms +
+          " | " + entry.definition +
+          " | ej: " + entry.example.text
         );
       });
     }

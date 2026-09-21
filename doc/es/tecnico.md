@@ -16,19 +16,40 @@
 
 ### 1.1 Identificadores que son contratos y no deben renombrarse
 
-Estos nombres en espaÃ±ol se mantienen deliberadamente:
+**Actualización 2026-09-17**: los campos del esquema del diccionario y el
+segmento de ruta `"palabra"` — antes listados aquí como excepciones
+deliberadas en español — pasaron a inglés (`word`, `definition`,
+`image`, `synonyms`, `example`, `exampleSynonym`, y el segmento de ruta
+`word`; `situacion` se mantuvo, ver más abajo) en `js/data.es.js`,
+`js/data.en.js`, `js/app.js` y todas las herramientas de
+`scripts/ingest/pipeline/` que leen o escriben esos campos.
+`scripts/check.js`, `scripts/content-status.js` y la documentación se
+actualizaron para coincidir. **Consecuencia conocida**: cualquier enlace
+compartido o indexado antes con la ruta antigua `#/<idioma>/palabra/<id>`
+ya no funciona — no hay redirección de compatibilidad. Si esto importa
+(enlaces externos, indexación), necesita su propio arreglo; se deja
+anotado aquí en vez de asumirlo en silencio.
 
-- Campos del diccionario: `palabra`, `definicion`, `imagen`, `sinonimos`,
-  `ejemplo`, `ejemploSinonimo` y `situacion`.
-- Atributos `id` y `class` de HTML y sus selectores CSS, compartidos entre
-  `index.html`, `css/styles.css` y `js/app.js`.
+Estos nombres en español se mantienen deliberadamente:
+
+- El campo `situacion` del esquema del diccionario y sus nueve valores
+  válidos (`tramites`, `salud`, `vida-diaria`, `finanzas`, `vivienda`,
+  `trabajo`, `legal`, `tecnologia`, `seguridad`, `educacion`,
+  `conocimiento`). A diferencia del resto de campos, este se mantuvo
+  tal cual en el cambio del 2026-09-17.
+- Atributos `id` y `class` de HTML y sus selectores CSS que siguen en
+  español (p. ej. `.cabecera`, `.filtros`, `.a11y-*`), compartidos entre
+  `index.html`, `css/styles.css` y `js/app.js`. Las clases dinámicas que
+  inyecta JS (`.card`, `.detail-image`, `.game-option`, etc.) sí pasaron
+  a inglés en el mismo cambio.
 - Claves de `localStorage`, como `sinonimia-idioma`,
   `sinonimia-aprendidas-<idioma>`, `sinonimia-juego-aciertos-<idioma>` y
   `sinonimia-mis-frases-<idioma>`.
-- Segmentos de ruta `palabra` y `juego` del router hash. Son tokens de URL,
-  no textos traducibles.
+- El segmento de ruta `"juego"` del router hash. Es un token de URL, no
+  texto traducible. (El segmento hermano `"palabra"` pasó a `"word"` en
+  el cambio del 2026-09-17 — ver la nota de arriba.)
 
-Todo lo demÃ¡s debe seguir la convenciÃ³n tÃ©cnica en inglÃ©s. Si se cambia uno de
+Todo lo demás debe seguir la convención técnica en inglés. Si se cambia uno de
 estos contratos, hay que actualizar todos sus consumidores en el mismo cambio.
 
 ## 2. Forma del proyecto y ejecuciÃ³n
@@ -84,12 +105,12 @@ aÃ±adir un bundler solo para resolver esta cachÃ©.
 Sinonimia envía un service worker propio en la raíz del proyecto (es la
 excepción reciente dentro del suite; apptonomia no envía uno, memofun y
 sinonimia sí). El SW sigue la estrategia **cache-first**: el `fetch` genérico
-de `sw.js` sirve desde la caché cuando el archivo está listado en `ARCHIVOS`,
+de `sw.js` sirve desde la caché cuando el archivo está listado en `FILES`,
 y solo va a la red cuando no está.
 
 **Regla de bump de `VERSION`** (`sw.js` declara `var VERSION =
 "sinonimia-vN";`): bumpear `VERSION` en cada commit que toque cualquier archivo
-de `ARCHIVOS` o que añada un archivo nuevo que deba quedar en caché. El handler
+de `FILES` o que añada un archivo nuevo que deba quedar en caché. El handler
 `install` del SW compara `VERSION` con el nombre de la caché activa y solo
 re-fetch + activa cuando difieren; un bump que no aterriza es silencioso y
 las personas usuarias finales siguen viendo los archivos antiguos hasta que el
@@ -104,10 +125,11 @@ tocar `VERSION` mientras ningún otro archivo cacheado cambie. Esto significa qu
 para cambios solo en `js/data.*.js` basta con correr `node scripts/check.js` y
 commitear; no hay que bumpear `VERSION`.
 
-**Verificación local antes de pushear.** Sinonimia no tiene un
-`scripts/check-version-bump.js` propio todavía — el bump de `VERSION` en
-`sw.js` es manual. La regla sigue siendo la misma: bumpear en cada commit
-que toque un archivo de `ARCHIVOS` (o añada uno nuevo).
+**Verificación local antes de pushear.** `scripts/check-version-bump.js`
+falla el commit/push si un archivo listado en `FILES` cambió sin que
+`VERSION` también se haya bumpeado en el mismo diff — corre
+`node scripts/check-version-bump.js` antes de cada push que toque
+alguno de esos archivos.
 
 Ver [`CLOUDFLARE.md`](../../CLOUDFLARE.md) §"Cache contract" para el
 contrato de despliegue completo, y [`CLAUDE.md`](../../CLAUDE.md) §B.1
@@ -172,38 +194,43 @@ Cada elemento de `DICCIONARIOS.<idioma>` tiene esta forma:
 ```js
 {
   id: "identificador-unico",
-  palabra: "palabra difÃ­cil",
-  imagen: { id: "arasaac-id", alt: "texto alternativo" },
-  definicion: "ExplicaciÃ³n breve y clara.",
-  sinonimos: ["palabra sencilla"],
-  ejemplo: { palabra: "forma usada", texto: "Frase real." },
-  ejemploSinonimo: { palabra: "forma sencilla", texto: "Frase equivalente." },
+  word: "palabra difícil",
+  image: { id: "arasaac-id", alt: "texto alternativo" },
+  definition: "Explicación breve y clara.",
+  synonyms: ["palabra sencilla"],
+  example: { word: "forma usada", text: "Frase real." },
+  exampleSynonym: { word: "forma sencilla", text: "Frase equivalente." },
   situacion: "tramites",
-  traduccion: { en: "id-equivalente" } // opcional
+  translation: { en: "id-equivalente" } // opcional
 }
 ```
 
 Reglas del esquema:
 
-- Solo `id` debe ser Ãºnico. `palabra` puede repetirse para representar un
-  homÃ³nimo; el Ã­ndice mantiene un array de entradas con el mismo nombre.
-- `imagen.id` apunta a `img/<id>.png` y `imagen.alt` es obligatorio.
+- Solo `id` debe ser único. `word` puede repetirse para representar un
+  homónimo; el índice mantiene un array de entradas con el mismo nombre.
+- `image.id` apunta a `img/<id>.png` y `image.alt` es obligatorio.
 - `situacion` es una de estas once claves compartidas: `tramites`, `salud`,
   `vida-diaria`, `finanzas`, `vivienda`, `trabajo`, `legal`, `tecnologia`,
   `seguridad`, `educacion`, `conocimiento`.
-- `ejemplo.palabra` y `ejemploSinonimo.palabra` deben ser exactamente la
-  forma que aparece en su propio `texto`, aunque sea una forma conjugada o
+- `example.word` y `exampleSynonym.word` deben ser exactamente la
+  forma que aparece en su propio `text`, aunque sea una forma conjugada o
   concordada y no la cabecera.
-- `traduccion` es opcional. Sus claves son cÃ³digos de idioma y sus valores
+- `translation` es opcional (el campo se llamaba `traduccion` antes del
+  cambio del 2026-09-17 — las herramientas de lote de
+  `scripts/ingest/pipeline/` siguen usando `traduccion` como clave de
+  autoría en los ficheros de lote y la traducen a `translation` al
+  insertar, así que los lotes escritos a mano mantienen la clave en
+  español). Sus claves son códigos de idioma y sus valores
   son un `id` string o un array de ids del idioma destino. Es el enlace
-  autoritativo entre conceptos cuando existe; si falta, la aplicaciÃ³n puede
+  autoritativo entre conceptos cuando existe; si falta, la aplicación puede
   usar el pictograma compartido como fallback.
 
 Ejemplo de traducciÃ³n uno-a-uno y uno-a-varios:
 
 ```js
-traduccion: { en: "pension-payment" }
-traduccion: { en: ["pension-payment", "retirement-work"] }
+translation: { en: "pension-payment" }
+translation: { en: ["pension-payment", "retirement-work"] }
 ```
 
 El validador comprueba la forma, los idiomas y los ids de destino. Permite que

@@ -22,8 +22,8 @@ const I18N = {
   es: {
     htmlLang: "es",
     suiteBy: "Una app de",
-    metaTitle: "Sinonimia — Diccionario fácil de palabras difíciles",
-    metaDescription: "Diccionario en lenguaje sencillo: palabras técnicas y difíciles de trámites y de salud, explicadas con ejemplos de la vida diaria y sus sinónimos.",
+    metaTitle: "Sinonimia — Diccionario fácil de words difíciles",
+    metaDescription: "Diccionario en lenguaje sencillo: words técnicas y difíciles de trámites y de salud, explicadas con ejemplos de la vida diaria y sus sinónimos.",
     skipToContent: "Saltar al contenido",
     tagline: "Palabras difíciles, explicadas fácil",
 
@@ -36,13 +36,13 @@ const I18N = {
 
     heroLabel: "Palabra del día",
     heroCta: "Descúbrela →",
-    progressNone: "Todavía no has descubierto ninguna palabra",
-    progressPartial: "{n} de {total} palabras descubiertas",
+    progressNone: "Todavía no has descubierto ninguna word",
+    progressPartial: "{n} de {total} words descubiertas",
     progressComplete: " · ¡Las has visto todas! 🎉",
 
-    searchLabel: "Escribe una palabra o un tema",
+    searchLabel: "Escribe una word o un tema",
     searchPlaceholder: "Por ejemplo: subsanar, cefalea, artrosis…",
-    searchHelp: "Busca por la palabra difícil o por su significado sencillo. No hace falta escribir acentos.",
+    searchHelp: "Busca por la word difícil o por su significado sencillo. No hace falta escribir acentos.",
     surpriseMe: "🎲 Sorpréndeme",
 
     topicLabel: "Tema:",
@@ -60,30 +60,30 @@ const I18N = {
     topic_conocimiento: "Conocimiento general",
 
     alphabetLabel: "Buscar por letra inicial",
-    listLabel: "Lista de palabras",
-    detailLabel: "Detalle de la palabra",
+    listLabel: "Lista de words",
+    detailLabel: "Detalle de la word",
 
-    resultOne: "1 palabra encontrada.",
-    resultsMany: "{n} palabras encontradas.",
-    noResultsFound: "No hemos encontrado esa palabra. Prueba a escribir solo el principio, por ejemplo «cefal» para «cefalea».",
-    wordNotFound: "No hemos encontrado esa palabra.",
+    resultOne: "1 word encontrada.",
+    resultsMany: "{n} words encontradas.",
+    noResultsFound: "No hemos encontrado esa word. Prueba a escribir solo el principio, por ejemplo «cefal» para «cefalea».",
+    wordNotFound: "No hemos encontrado esa word.",
 
     backToSearch: "← Volver al buscador",
-    viewInOtherLanguage: "🌐 Ver en {idioma}: {palabra}",
+    viewInOtherLanguage: "🌐 Ver en {idioma}: {word}",
     languageName_es: "español",
     languageName_en: "inglés",
     alsoKnownAs: "Se puede decir también",
     inASentence: "En una frase de cada día",
-    saidSimply: "Dicho de forma más sencilla:",
+    saidSimply: "Dicho de shape más sencilla:",
     alreadyDiscovered: "Ya descubierta",
 
-    wordNavLabel: "Ir a otra palabra",
+    wordNavLabel: "Ir a otra word",
     previousWord: "← Anterior",
     nextWord: "Siguiente →",
-    previousWordAria: "Palabra anterior: {palabra}",
-    nextWordAria: "Palabra siguiente: {palabra}",
+    previousWordAria: "Palabra previous: {word}",
+    nextWordAria: "Palabra next: {word}",
 
-    footerMessage: "Sinonimia explica palabras difíciles. Frases cortas. Ejemplos de cada día.",
+    footerMessage: "Sinonimia explica words difíciles. Frases cortas. Ejemplos de cada día.",
     footerCreditsHtml: 'Pictogramas: <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (CC BY-NC-SA) y <a href="https://opensymbols.org/" target="_blank" rel="noopener">OpenSymbols</a>.',
     footerConfigHtml: '<a href="config/">Configuración</a>',
     footerPrivacyHtml: '<a href="legal/privacidad.html">Privacidad</a>',
@@ -92,46 +92,46 @@ const I18N = {
 
     // Write your own sentence (below the examples, on each word's detail page)
     yourTurn: "Ahora te toca a ti",
-    sentenceInstruction: "Escribe tu propia frase con esta palabra.",
+    sentenceInstruction: "Escribe tu propia frase con esta word.",
     sentenceLabel: "Tu frase",
     sentencePlaceholder: "Escribe aquí tu frase…",
     saveSentence: "Guardar mi frase",
-    sentenceSavedNotice: "¡Bien hecho! Esta es tu frase:",
+    sentenceSavedNotice: "¡Bien done! Esta es tu frase:",
     sentenceStars: "⭐ Estrellas por tus frases: {n}",
     sentenceStarEarned: "¡Has ganado una estrella!",
     editSentence: "Editar mi frase",
 
     // Games: menu and shared texts
     playCta: "🎮 Jugar",
-    gameLabel: "Juego para practicar las palabras",
+    gameLabel: "Juego para practicar las words",
     gameMenuTitle: "¿A qué quieres jugar?",
-    gameMenuInstruction: "Elige un juego para practicar las palabras.",
+    gameMenuInstruction: "Elige un juego para practicar las words.",
     gameScore: "⭐ Aciertos: {n}",
     gameCorrect: "¡Correcto! 🎉",
     gameNext: "Siguiente →",
-    gameTooFewWords: "Todavía no hay palabras suficientes para jugar en este idioma.",
+    gameTooFewWords: "Todavía no hay words suficientes para jugar en este idioma.",
     gameBackToMenu: "← Elegir otro juego",
 
     // Game 1: pick the right word from a clue
-    wordGameTitle: "¿Qué palabra es?",
-    wordGameDescription: "Lee la pista y elige la palabra.",
-    wordGameInstruction: "Lee la pista y elige la palabra correcta.",
-    wordGameIncorrect: "Esa no es. Vuelve a leer la pista: ¿qué palabra encaja mejor?",
+    wordGameTitle: "¿Qué word es?",
+    wordGameDescription: "Lee la pista y elige la word.",
+    wordGameInstruction: "Lee la pista y elige la word correcta.",
+    wordGameIncorrect: "Esa no es. Vuelve a leer la pista: ¿qué word encaja mejor?",
 
     // Game 2: complete the sentence with the right word
     sentenceGameTitle: "Completa la frase",
-    sentenceGameDescription: "Elige la palabra que falta en la frase.",
-    sentenceGameInstruction: "Elige la palabra que completa la frase.",
-    sentenceGameIncorrect: "Esa no es. Vuelve a leer la frase: ¿qué palabra completa el hueco?",
+    sentenceGameDescription: "Elige la word que falta en la frase.",
+    sentenceGameInstruction: "Elige la word que completa la frase.",
+    sentenceGameIncorrect: "Esa no es. Vuelve a leer la frase: ¿qué word completa el hueco?",
 
     // 404 page (404.html)
     error404Title: "404",
     error404Heading: "No hemos encontrado esa página",
-    error404Description: "Puede que la dirección esté mal escrita, o que la palabra que buscas no esté en el diccionario todavía.",
+    error404Description: "Puede que la dirección esté mal escrita, o que la word que buscas no esté en el diccionario todavía.",
     error404Suggestion: "Puedes probar con una de estas opciones:",
     error404HomeButton: "← Volver al inicio",
-    error404RandomButton: "🎲 Ver una palabra al azar",
-    error404PlayButton: "🎮 Jugar con las palabras",
+    error404RandomButton: "🎲 Ver una word al azar",
+    error404PlayButton: "🎮 Jugar con las words",
   },
 
   en: {
@@ -184,7 +184,7 @@ const I18N = {
     wordNotFound: "We couldn't find that word.",
 
     backToSearch: "← Back to search",
-    viewInOtherLanguage: "🌐 See it in {idioma}: {palabra}",
+    viewInOtherLanguage: "🌐 See it in {idioma}: {word}",
     languageName_es: "Spanish",
     languageName_en: "English",
     alsoKnownAs: "You can also say",
@@ -195,8 +195,8 @@ const I18N = {
     wordNavLabel: "Go to another word",
     previousWord: "← Previous",
     nextWord: "Next →",
-    previousWordAria: "Previous word: {palabra}",
-    nextWordAria: "Next word: {palabra}",
+    previousWordAria: "Previous word: {word}",
+    nextWordAria: "Next word: {word}",
 
     footerMessage: "Sinonimia explains hard words. Short sentences. Everyday examples.",
     footerCreditsHtml: 'Pictograms: <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (CC BY-NC-SA) and <a href="https://opensymbols.org/" target="_blank" rel="noopener">OpenSymbols</a>.',

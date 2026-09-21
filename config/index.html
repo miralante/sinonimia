@@ -27,8 +27,8 @@
 <header class="cabecera">
   <div class="envoltorio">
     <div class="idioma-selector" role="group" aria-label="Idioma / Language">
-      <button type="button" class="idioma-btn activo" data-lang="es" aria-pressed="true">🇪🇸 Español</button>
-      <button type="button" class="idioma-btn" data-lang="en" aria-pressed="false">🇬🇧 English</button>
+      <button type="button" class="lang-btn activo" data-lang="es" aria-pressed="true">🇪🇸 Español</button>
+      <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">🇬🇧 English</button>
     </div>
 
     <div class="logo-about">⚙️</div>
@@ -117,7 +117,7 @@
   </p>
 </section>
 
-<section id="borrar">
+<section id="erase">
   <h2 data-lang-block="es">Borrar mis datos</h2>
   <h2 data-lang-block="en">Clear my data</h2>
 
@@ -135,16 +135,16 @@
     This action cannot be undone.
   </p>
 
-  <div class="acciones">
-    <button type="button" id="borrar-iniciar" class="boton-peligro" data-lang-block="es">
+  <div class="actions">
+    <button type="button" id="erase-iniciar" class="boton-peligro" data-lang-block="es">
       Borrar mis datos
     </button>
-    <button type="button" id="borrar-iniciar" class="boton-peligro" data-lang-block="en">
+    <button type="button" id="erase-iniciar" class="boton-peligro" data-lang-block="en">
       Clear my data
     </button>
   </div>
 
-  <div id="borrar-confirmar" hidden>
+  <div id="erase-confirm" hidden>
     <p class="aviso" data-lang-block="es">
       ¿Seguro? Se borrarán tus frases, tu progreso y tus estrellas.
     </p>
@@ -152,24 +152,24 @@
       Are you sure? Your sentences, progress and stars will be erased.
     </p>
 
-    <div class="acciones">
-      <button type="button" id="borrar-cancelar" class="boton-secundario" data-lang-block="es">
+    <div class="actions">
+      <button type="button" id="erase-cancel" class="boton-secundario" data-lang-block="es">
         No, cancelar
       </button>
-      <button type="button" id="borrar-cancelar" class="boton-secundario" data-lang-block="en">
+      <button type="button" id="erase-cancel" class="boton-secundario" data-lang-block="en">
         No, cancel
       </button>
 
-      <button type="button" id="borrar-confirmar-btn" class="boton-peligro" data-lang-block="es">
+      <button type="button" id="erase-confirm-btn" class="boton-peligro" data-lang-block="es">
         Sí, borrar todo
       </button>
-      <button type="button" id="borrar-confirmar-btn" class="boton-peligro" data-lang-block="en">
+      <button type="button" id="erase-confirm-btn" class="boton-peligro" data-lang-block="en">
         Yes, erase everything
       </button>
     </div>
   </div>
 
-  <div id="borrar-resultado" hidden>
+  <div id="erase-resultado" hidden>
     <p class="confirmado" data-lang-block="es">
       Listo. Tus datos se han borrado.
     </p>

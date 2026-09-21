@@ -9,7 +9,8 @@
 [![Sitio estático](https://img.shields.io/badge/build-ninguno-informational.svg)](#-caracter%C3%ADsticas)
 [![Sin PWA](https://img.shields.io/badge/PWA-ninguna-lightgrey.svg)](#-caracter%C3%ADsticas)
 [![i18n](https://img.shields.io/badge/i18n-es%20%7C%20en-yellow.svg)](#-documentaci%C3%B3n-del-proyecto-biling%C3%BCe)
-[![CI](https://img.shields.io/badge/CI-node%20scripts%2Fcheck.js-blue.svg)](.github/workflows/check.yml)
+[![CI](https://img.shields.io/badge/CI-node%20scripts%2Fcheck.js-blue.svg)](.github/workflows/validate.yml)
+[![Pacto del colaborador](https://img.shields.io/badge/Pacto%20del%20colaborador-2.1-4baaaa.svg)](CODE_OF_CONDUCT.es.md)
 
 Un diccionario en lenguaje sencillo para palabras difíciles: trámites,
 justicia y salud. Cada palabra tiene una definición corta, un sinónimo
@@ -97,6 +98,7 @@ con algunos archivos en la raíz del repositorio:
 | Documento | Para quién |
 |---|---|
 | [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) | Familias, terapeutas y desarrolladores que quieran contribuir |
+| [`CODE_OF_CONDUCT.es.md`](CODE_OF_CONDUCT.es.md) | Pacto del colaborador (Contributor Covenant 2.1) |
 | `CLAUDE.md` | Agentes IA: reglas obligatorias y estado del proyecto |
 | [`CLOUDFLARE.md`](CLOUDFLARE.md) | Guía canónica de despliegue en Cloudflare Workers para la suite (Sinonimia + Apptonomia + Calculia, Memofun, Okeymoney, Teclatlon) |
 | Historial del proyecto | En `git log`; no se mantiene una hoja de ruta externa |
@@ -134,7 +136,7 @@ CSS estén balanceadas, que cada palabra tenga su pictograma y sus
 ejemplos bien formados, que las claves de texto de la interfaz
 existan en todos los idiomas, y que los ids que usa `js/app.js`
 existan en `index.html`. También corre en cada pull request
-([`.github/workflows/check.yml`](.github/workflows/check.yml)).
+([`.github/workflows/validate.yml`](.github/workflows/validate.yml)).
 
 ---
 
@@ -156,7 +158,7 @@ Para desplegar tu propia versión:
    de static assets.
 2. Push a `main`. Cloudflare reconstruye y despliega
    automáticamente. El workflow de validación
-   ([`.github/workflows/check.yml`](.github/workflows/check.yml))
+   ([`.github/workflows/validate.yml`](.github/workflows/validate.yml))
    sigue corriendo en cada push y PR para gatekeeping de contenido,
    pero no despliega.
 
@@ -192,6 +194,15 @@ Sinonimia publica **tres** licencias, una por tipo de activo:
   nuevo desde ARASAAC, mantén esa licencia y la atribución del pie
   de página — no se pueden usar con fines comerciales sin permiso de
   ARASAAC.
+
+---
+
+## Contribuir
+
+Issues y pull requests son bienvenidos. Ver [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md)
+para el flujo de trabajo (y [`CONTRIBUTING.md`](CONTRIBUTING.md) para la versión en inglés).
+Todas las personas participantes deben seguir
+[`CODE_OF_CONDUCT.es.md`](CODE_OF_CONDUCT.es.md).
 
 ---
 

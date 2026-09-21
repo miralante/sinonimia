@@ -186,8 +186,8 @@
 
   <div class="a11y-barra" role="toolbar" aria-label="Herramientas de accesibilidad">
     <div class="idioma-selector" role="group" aria-label="Idioma / Language">
-      <button type="button" class="idioma-btn activo" data-lang="es" aria-pressed="true">ES</button>
-      <button type="button" class="idioma-btn" data-lang="en" aria-pressed="false">EN</button>
+      <button type="button" class="lang-btn activo" data-lang="es" aria-pressed="true">ES</button>
+      <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
     </div>
 
     <span class="a11y-etiqueta" id="tamano-label" data-i18n="fontSize">Tamaño de letra</span>
@@ -205,17 +205,17 @@
 <main id="contenido">
 
   <section class="hero" aria-label="Palabra del día y progreso">
-    <div class="hero-palabra">
+    <div class="hero-word">
       <p class="hero-etiqueta" data-i18n="heroLabel">Palabra del día</p>
-      <p class="hero-palabra-nombre" id="hero-palabra-nombre">—</p>
+      <p class="hero-word-name" id="hero-word-name">—</p>
       <a href="#/" id="hero-cta" class="boton-cta" data-i18n="heroCta">Descúbrela →</a>
     </div>
-    <div class="hero-progreso">
-      <p class="hero-progreso-texto" id="progreso-texto" role="status" aria-live="polite">
+    <div class="hero-progress">
+      <p class="hero-progress-texto" id="progress-text" role="status" aria-live="polite">
         0
       </p>
-      <div class="barra-progreso" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="barra-progreso">
-        <div class="barra-progreso-relleno" id="barra-progreso-relleno"></div>
+      <div class="barra-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress-bar">
+        <div class="barra-progress-relleno" id="barra-progress-relleno"></div>
       </div>
     </div>
   </section>
@@ -225,7 +225,7 @@
     <div class="buscador-fila">
       <input
         type="search"
-        id="buscar"
+        id="search"
         autocomplete="off"
         data-i18n-placeholder="searchPlaceholder"
         placeholder="Por ejemplo: subsanar, cefalea, artrosis…"
@@ -233,38 +233,38 @@
       <button type="button" id="surpriseMe" class="boton-cta boton-secundario" data-i18n="surpriseMe">🎲 Sorpréndeme</button>
       <a href="#/" id="juego-cta" class="boton-cta boton-secundario" data-i18n="playCta">🎮 Jugar</a>
     </div>
-    <p id="buscar-ayuda" class="ayuda-texto" data-i18n="searchHelp">
+    <p id="buscar-help" class="help-texto" data-i18n="searchHelp">
       Busca por la palabra difícil o por su significado sencillo. No hace falta escribir acentos.
     </p>
-    <p id="resultados-info" class="resultados-info" role="status" aria-live="polite"></p>
+    <p id="results-info" class="resultados-info" role="status" aria-live="polite"></p>
   </section>
 
   <nav class="filtros" aria-label="Filtrar por tema">
     <span class="filtros-etiqueta" data-i18n="topicLabel">Tema:</span>
-    <button type="button" class="filtro-btn activo" data-tema="todos" data-i18n="topicAll">Todos</button>
-    <button type="button" class="filtro-btn" data-tema="tramites" data-i18n="topic_tramites">Trámites</button>
-    <button type="button" class="filtro-btn" data-tema="salud" data-i18n="topic_salud">Salud</button>
-    <button type="button" class="filtro-btn" data-tema="vida-diaria" data-i18n="topic_vida-diaria">Vida diaria</button>
-    <button type="button" class="filtro-btn" data-tema="finanzas" data-i18n="topic_finanzas">Finanzas</button>
-    <button type="button" class="filtro-btn" data-tema="vivienda" data-i18n="topic_vivienda">Vivienda</button>
-    <button type="button" class="filtro-btn" data-tema="trabajo" data-i18n="topic_trabajo">Trabajo</button>
-    <button type="button" class="filtro-btn" data-tema="legal" data-i18n="topic_legal">Legal</button>
-    <button type="button" class="filtro-btn" data-tema="tecnologia" data-i18n="topic_tecnologia">Tecnología</button>
-    <button type="button" class="filtro-btn" data-tema="seguridad" data-i18n="topic_seguridad">Seguridad</button>
-    <button type="button" class="filtro-btn" data-tema="educacion" data-i18n="topic_educacion">Educación</button>
+    <button type="button" class="filter-btn activo" data-tema="todos" data-i18n="topicAll">Todos</button>
+    <button type="button" class="filter-btn" data-tema="tramites" data-i18n="topic_tramites">Trámites</button>
+    <button type="button" class="filter-btn" data-tema="salud" data-i18n="topic_salud">Salud</button>
+    <button type="button" class="filter-btn" data-tema="vida-diaria" data-i18n="topic_vida-diaria">Vida diaria</button>
+    <button type="button" class="filter-btn" data-tema="finanzas" data-i18n="topic_finanzas">Finanzas</button>
+    <button type="button" class="filter-btn" data-tema="vivienda" data-i18n="topic_vivienda">Vivienda</button>
+    <button type="button" class="filter-btn" data-tema="trabajo" data-i18n="topic_trabajo">Trabajo</button>
+    <button type="button" class="filter-btn" data-tema="legal" data-i18n="topic_legal">Legal</button>
+    <button type="button" class="filter-btn" data-tema="tecnologia" data-i18n="topic_tecnologia">Tecnología</button>
+    <button type="button" class="filter-btn" data-tema="seguridad" data-i18n="topic_seguridad">Seguridad</button>
+    <button type="button" class="filter-btn" data-tema="educacion" data-i18n="topic_educacion">Educación</button>
   </nav>
 
-  <nav class="alfabeto" data-i18n-aria-label="alphabetLabel" aria-label="Buscar por letra inicial" id="alfabeto"></nav>
+  <nav class="alfabeto" data-i18n-aria-label="alphabetLabel" aria-label="Buscar por letra inicial" id="alphabet"></nav>
 
-  <section id="vista-lista" data-i18n-aria-label="listLabel" aria-label="Lista de palabras">
-    <ul class="tarjetas" id="lista-palabras"></ul>
+  <section id="list-view" data-i18n-aria-label="listLabel" aria-label="Lista de palabras">
+    <ul class="cards" id="word-list"></ul>
   </section>
 
-  <section id="vista-detalle" class="detalle" hidden data-i18n-aria-label="detailLabel" aria-label="Detalle de la palabra"></section>
+  <section id="detail-view" class="detalle" hidden data-i18n-aria-label="detailLabel" aria-label="Detalle de la palabra"></section>
 
-  <section id="vista-juego" class="detalle juego" hidden data-i18n-aria-label="gameLabel" aria-label="Juego para practicar las palabras"></section>
+  <section id="game-view" class="detalle juego" hidden data-i18n-aria-label="gameLabel" aria-label="Juego para practicar las palabras"></section>
 
-  <p id="sin-resultados" class="sin-resultados" hidden data-i18n="noResultsFound">
+  <p id="no-results" class="sin-resultados" hidden data-i18n="noResultsFound">
     No hemos encontrado esa palabra. Prueba a escribir solo el principio, por ejemplo «cefal» para «cefalea».
   </p>
 
@@ -284,15 +284,16 @@
 </footer>
 
 <script src="js/i18n.js?v=2026-08-11"></script>
-<script src="js/data.es.js?v=d3f2a59910"></script>
-<script src="js/data.en.js?v=1556bb3b49"></script>
+<script src="js/data.es.js?v=fd86f778c6"></script>
+<script src="js/data.es.2.js?v=a5a66e79ca"></script>
+<script src="js/data.en.js?v=8874f98e4f"></script>
 <script src="js/app.js"></script>
 <!-- Service-worker registration. Lazy + try/catch so older browsers
      (or private mode where navigator.serviceWorker is unavailable)
      silently no-op rather than throwing. Same-origin './sw.js' keeps
      the CSP `script-src 'self'` and `worker-src 'self'` directives
      happy. The install handler in sw.js is what pre-caches the app
-     shell listed in ARCHIVOS. See CLAUDE.md §B.1 for the cache
+     shell listed in FILES. See CLAUDE.md §B.1 for the cache
      contract and the bump-on-every-cached-file-change rule. -->
 <script>
 (function () {

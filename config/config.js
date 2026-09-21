@@ -45,11 +45,11 @@
   }
 
   // --- Wire up the two-step confirmation -------------------------------
-  var btnIniciar = document.getElementById("borrar-iniciar");
-  var btnConfirmar = document.getElementById("borrar-confirmar-btn");
-  var btnCancelar = document.getElementById("borrar-cancelar");
-  var panelConfirmar = document.getElementById("borrar-confirmar");
-  var panelResultado = document.getElementById("borrar-resultado");
+  var btnIniciar = document.getElementById("erase-iniciar");
+  var btnConfirmar = document.getElementById("erase-confirm-btn");
+  var btnCancelar = document.getElementById("erase-cancel");
+  var panelConfirmar = document.getElementById("erase-confirm");
+  var panelResultado = document.getElementById("erase-resultado");
 
   // Defensive: if any element is missing (older markup, partial fetch,
   // CSS-only page preview), the script just no-ops rather than throwing.

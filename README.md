@@ -9,7 +9,8 @@
 [![Static site](https://img.shields.io/badge/build-none-informational.svg)](#-features)
 [![No PWA](https://img.shields.io/badge/PWA-none-lightgrey.svg)](#-features)
 [![i18n](https://img.shields.io/badge/i18n-es%20%7C%20en-yellow.svg)](#-project-documentation-bilingual)
-[![CI](https://img.shields.io/badge/CI-node%20scripts%2Fcheck.js-blue.svg)](.github/workflows/check.yml)
+[![CI](https://img.shields.io/badge/CI-node%20scripts%2Fcheck.js-blue.svg)](.github/workflows/validate.yml)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 A plain-language dictionary for difficult words: paperwork, justice,
 and health. Every word has a short definition, a simple synonym, an
@@ -96,6 +97,7 @@ at the repository root:
 | Document | Audience |
 |---|---|
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Anyone who wants to contribute (family, therapists, devs) |
+| [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Contributor covenant (Contributor Covenant 2.1) |
 | `CLAUDE.md` | AI agents: operational workflow, coordination and approvals |
 | [`CLOUDFLARE.md`](CLOUDFLARE.md) | Canonical Cloudflare Workers deploy guide for the suite (Sinonimia + Apptonomia + Calculia, Memofun, Okeymoney, Teclatlon) |
 | Project history | Lives in `git log`; no external roadmap is maintained |
@@ -133,7 +135,7 @@ It checks the syntax of JS files, that CSS braces are balanced, that
 every word has its pictogram and well-formed examples, that interface
 text keys exist in every language, and that the ids `js/app.js` uses
 exist in `index.html`. It also runs on every pull request
-([`.github/workflows/check.yml`](.github/workflows/check.yml)).
+([`.github/workflows/validate.yml`](.github/workflows/validate.yml)).
 
 ---
 
@@ -155,7 +157,7 @@ To deploy your own fork:
    directory.
 2. Push to `main`. Cloudflare rebuilds and deploys automatically. The
    validation workflow
-   ([`.github/workflows/check.yml`](.github/workflows/check.yml))
+   ([`.github/workflows/validate.yml`](.github/workflows/validate.yml))
    still runs on every push and PR to gate content, but it does not
    deploy.
 
@@ -189,6 +191,15 @@ Sinonimia ships **three** licences, one per asset kind:
   new pictogram from ARASAAC, keep that license and the footer
   attribution — they can't be used commercially without ARASAAC's
   permission.
+
+---
+
+## Contributing
+
+Issues and pull requests are welcome. See [`CONTRIBUTING.md`](CONTRIBUTING.md)
+for the workflow (and [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) for the
+Spanish version). All participants are expected to follow
+[`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md).
 
 ---
 

@@ -267,7 +267,7 @@ across languages". The summary relevant to a new language:
 1. **Pass 1 (preferred)**: an entry's `traduccion.<code>` field lists
    the `id`s in the target language that mean the same concept. For
    a Spanish word with several valid Catalan translations, use an
-   **array** of ids (`traduccion: { ca: ["foo", "bar"] }`).
+   **array** of ids (`translation: { ca: ["foo", "bar"] }`).
 2. **Pass 2 (fallback)**: if `traduccion` doesn't mention a
    language, fall back to "both entries share a unique pictogram".
    This works only when each language has exactly one entry per
@@ -278,8 +278,8 @@ In a new language, the typical sequence when adding a word is:
 
 1. Decide on the headword and `situacion`.
 2. Look up the equivalent (if any) in `es` and `en` by id, and add
-   `traduccion: { es: "<id>", en: "<id>" }` to the new entry.
-3. Add `traduccion: { <code>: "<new-id>" }` to the existing `es`/`en`
+   `translation: { es: "<id>", en: "<id>" }` to the new entry.
+3. Add `translation: { <code>: "<new-id>" }` to the existing `es`/`en`
    entries so the link works in **both** directions. A link only
    written on one side is half a link.
 4. Only if the new word genuinely has no equivalent in `es` or `en`

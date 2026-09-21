@@ -24,8 +24,8 @@
   var BOOTSTRAP_I18N = {
     es: {
       htmlLang: "es",
-      metaTitle: "Sinonimia \u2014 Diccionario f\u00e1cil de palabras dif\u00edciles",
-      metaDescription: "Diccionario en lenguaje sencillo: palabras t\u00e9cnicas y dif\u00edciles de tr\u00e1mites y de salud, explicadas con ejemplos de la vida diaria y sus sin\u00f3nimos."
+      metaTitle: "Sinonimia \u2014 Diccionario f\u00e1cil de words dif\u00edciles",
+      metaDescription: "Diccionario en lenguaje sencillo: words t\u00e9cnicas y dif\u00edciles de tr\u00e1mites y de salud, explicadas con ejemplos de la vida diaria y sus sin\u00f3nimos."
     },
     en: {
       htmlLang: "en",
