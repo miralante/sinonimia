@@ -65420,6 +65420,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "ardero", text: "«ardero»." },
     exampleSynonym: { word: "real Academia Española Asociación de Academias de la Lengua Española Menú Palabra Filtros Filtros Consulta", text: "«real Academia Española Asociación de Academias de la Lengua Española Menú Palabra Filtros Filtros Consulta»." },
     situacion: "legal",
+    translation: { en: "i-burn" },
   },
   {
     id: "armenico",
@@ -65460,6 +65461,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "calumbriento", text: "«calumbriento»." },
     exampleSynonym: { word: "real Academia Española Asociación de Academias de la Lengua Española Menú Palabra Filtros Filtros Consulta", text: "«real Academia Española Asociación de Academias de la Lengua Española Menú Palabra Filtros Filtros Consulta»." },
     situacion: "legal",
+    translation: { en: "calumbriety" },
   },
   {
     id: "cascalbo",
@@ -65480,6 +65482,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cebellina", text: "«cebellina»." },
     exampleSynonym: { word: "real Academia Española Asociación de Academias de la Lengua Española Menú Palabra Filtros Filtros Consulta", text: "«real Academia Española Asociación de Academias de la Lengua Española Menú Palabra Filtros Filtros Consulta»." },
     situacion: "legal",
+    translation: { en: "sable" },
   },
   {
     id: "cervigudo",
@@ -65520,6 +65523,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "derraspado", text: "«derraspado»." },
     exampleSynonym: { word: "real Academia Española Asociación de Academias de la Lengua Española Menú Palabra Filtros Filtros Consulta", text: "«real Academia Española Asociación de Academias de la Lengua Española Menú Palabra Filtros Filtros Consulta»." },
     situacion: "legal",
+    translation: { en: "skidded" },
   },
   {
     id: "docible",
@@ -65540,6 +65544,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "equipolado", text: "«equipolado»." },
     exampleSynonym: { word: "real Academia Española Asociación de Academias de la Lengua Española Menú Palabra Filtros Filtros Consulta", text: "«real Academia Española Asociación de Academias de la Lengua Española Menú Palabra Filtros Filtros Consulta»." },
     situacion: "legal",
+    translation: { en: "equipment" },
   },
   {
     id: "foiso",
@@ -65560,6 +65565,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "gargantero", text: "«gargantero»." },
     exampleSynonym: { word: "real Academia Española Asociación de Academias de la Lengua Española Menú Palabra Filtros Filtros Consulta", text: "«real Academia Española Asociación de Academias de la Lengua Española Menú Palabra Filtros Filtros Consulta»." },
     situacion: "legal",
+    translation: { en: "garganter" },
   },
   {
     id: "jaldado",
@@ -65680,6 +65686,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "semidoble", text: "«semidoble»." },
     exampleSynonym: { word: "real Academia Española Asociación de Academias de la Lengua Española Menú Palabra Filtros Filtros Consulta", text: "«real Academia Española Asociación de Academias de la Lengua Española Menú Palabra Filtros Filtros Consulta»." },
     situacion: "legal",
+    translation: { en: "semi-double" },
   },
   {
     id: "tardano",
@@ -65710,6 +65717,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "turbioso", text: "«turbioso»." },
     exampleSynonym: { word: "real Academia Española Asociación de Academias de la Lengua Española Menú Palabra Filtros Filtros Consulta", text: "«real Academia Española Asociación de Academias de la Lengua Española Menú Palabra Filtros Filtros Consulta»." },
     situacion: "legal",
+    translation: { en: "turbid" },
   },
   {
     id: "usier",
