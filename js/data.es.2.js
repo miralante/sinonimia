@@ -16699,6 +16699,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "desladrillar", text: "«desladrillar»." },
     exampleSynonym: { word: "quitar los ladrillos de una construcción", text: "«quitar los ladrillos de una construcción»." },
     situacion: "vivienda",
+    translation: { en: "debrick" },
   },
   {
     id: "deslustrador",
@@ -19313,6 +19314,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "estereógrafo", text: "«estereógrafo»." },
     exampleSynonym: { word: "aparato para la toma o visión de fotografías estereoscópicas", text: "«aparato para la toma o visión de fotografías estereoscópicas»." },
     situacion: "tecnologia",
+    translation: { en: "stereograph" },
   },
   {
     id: "estereometrico",
@@ -19744,6 +19746,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "extrusor", text: "«extrusor»." },
     exampleSynonym: { word: "que extruye", text: "«que extruye»." },
     situacion: "tecnologia",
+    translation: { en: "extruder" },
   },
   {
     id: "eyaculador",
@@ -23428,6 +23431,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "inyectador", text: "«inyectador»." },
     exampleSynonym: { word: "dispositivo o aparato utilizado para inyectar", text: "«dispositivo o aparato utilizado para inyectar»." },
     situacion: "tecnologia",
+    translation: { en: "injector" },
   },
   {
     id: "irideo",
@@ -24968,6 +24972,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "magnetoeléctrico", text: "«magnetoeléctrico»." },
     exampleSynonym: { word: "relativo a la producción de electricidad a partir de un campo magnético", text: "«relativo a la producción de electricidad a partir de un campo magnético»." },
     situacion: "tecnologia",
+    translation: { en: "magnetoelectric" },
   },
   {
     id: "magnoliaceo",
@@ -25198,6 +25203,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "mandrilador", text: "«mandrilador»." },
     exampleSynonym: { word: "herramienta o máquina que realiza el mandrilado", text: "«herramienta o máquina que realiza el mandrilado»." },
     situacion: "tecnologia",
+    translation: { en: "chucker" },
   },
   {
     id: "mandrinador",
@@ -26990,6 +26996,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "niquelador", text: "«niquelador»." },
     exampleSynonym: { word: "persona o máquina que realiza el proceso de niquelar", text: "«persona o máquina que realiza el proceso de niquelar»." },
     situacion: "tecnologia",
+    translation: { en: "nickeler" },
   },
   {
     id: "nixtamalero",
@@ -29132,6 +29139,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "piroeléctrico", text: "«piroeléctrico»." },
     exampleSynonym: { word: "relacionado con la piroelectricidad o que posee esta propiedad", text: "«relacionado con la piroelectricidad o que posee esta propiedad»." },
     situacion: "tecnologia",
+    translation: { en: "pyroelectric" },
   },
   {
     id: "pirograbador",
@@ -29602,6 +29610,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "polistilo", text: "«polistilo»." },
     exampleSynonym: { word: "relativo a un edificio que tiene varios estilos arquitectónicos", text: "«relativo a un edificio que tiene varios estilos arquitectónicos»." },
     situacion: "vivienda",
+    translation: { en: "polystyle" },
   },
   {
     id: "polivinilico",
@@ -29672,6 +29681,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "pompático", text: "«pompático»." },
     exampleSynonym: { word: "relativo a la pompa o al aparato ostentoso", text: "«relativo a la pompa o al aparato ostentoso»." },
     situacion: "tecnologia",
+    translation: { en: "pompatic" },
   },
   {
     id: "ponceno",
@@ -30873,6 +30883,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "recalcadora", text: "«recalcadora»." },
     exampleSynonym: { word: "aparato o máquina que se utiliza para recalcar o enfatizar algo", text: "«aparato o máquina que se utiliza para recalcar o enfatizar algo»." },
     situacion: "tecnologia",
+    translation: { en: "upsetting-machine" },
   },
   {
     id: "recamarero",
@@ -31293,6 +31304,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "reóforo", text: "«reóforo»." },
     exampleSynonym: { word: "hilo o alambre conductor de electricidad", text: "«hilo o alambre conductor de electricidad»." },
     situacion: "tecnologia",
+    translation: { en: "rheophore" },
   },
   {
     id: "repartidero",
@@ -34514,6 +34526,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "tiflotécnico", text: "«tiflotécnico»." },
     exampleSynonym: { word: "relacionado con la tiflotecnología", text: "«relacionado con la tiflotecnología»." },
     situacion: "tecnologia",
+    translation: { en: "tyflotechnician" },
   },
   {
     id: "tiliaceo",
@@ -34584,6 +34597,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "timbrador", text: "«timbrador»." },
     exampleSynonym: { word: "aparato o dispositivo que sirve para timbrar documentos o papeles", text: "«aparato o dispositivo que sirve para timbrar documentos o papeles»." },
     situacion: "tecnologia",
+    translation: { en: "ringer" },
   },
   {
     id: "timbrofilo",
@@ -37067,6 +37081,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "tiflotécnica", text: "«tiflotécnica»." },
     exampleSynonym: { word: "tiflotécnico", text: "«tiflotécnico»." },
     situacion: "tecnologia",
+    translation: { en: "tyflotechnic" },
   },
   {
     id: "tilichera",
@@ -40367,6 +40382,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "diástilo", text: "«diástilo»." },
     exampleSynonym: { word: "dicho de un monumento o de un edificio", text: "«dicho de un monumento o de un edificio»." },
     situacion: "vivienda",
+    translation: { en: "diastyle" },
   },
   {
     id: "discrasia",
@@ -40457,6 +40473,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "drosómetro", text: "«drosómetro»." },
     exampleSynonym: { word: "aparato para medir el rocío", text: "«aparato para medir el rocío»." },
     situacion: "tecnologia",
+    translation: { en: "drosometer" },
   },
   {
     id: "duliman",
@@ -40527,6 +40544,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "electrotipia", text: "«electrotipia»." },
     exampleSynonym: { word: "arte de reproducir los caracteres de imprenta por procedimientos electroquímicos", text: "«arte de reproducir los caracteres de imprenta por procedimientos electroquímicos»." },
     situacion: "tecnologia",
+    translation: { en: "electrotyping" },
   },
   {
     id: "embelga",
@@ -42187,6 +42205,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "hidrotecnia", text: "«hidrotecnia»." },
     exampleSynonym: { word: "arte de construir máquinas y aparatos hidráulicos", text: "«arte de construir máquinas y aparatos hidráulicos»." },
     situacion: "tecnologia",
+    translation: { en: "hydrotechnics" },
   },
   {
     id: "hidrotorax",
