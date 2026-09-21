@@ -54714,6 +54714,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "decástilo", text: "«decástilo»." },
     exampleSynonym: { word: "Arq. Dicho especialmente de un edificio de estilo clásico: Que presenta una fila de diez columnas en el", text: "«Arq. Dicho especialmente de un edificio de estilo clásico: Que presenta una fila de diez columnas en el»." },
     situacion: "vivienda",
+    translation: { en: "decastyle" },
   },
   {
     id: "decemnovenal",
@@ -56324,6 +56325,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "enversado", text: "«enversado»." },
     exampleSynonym: { word: "que está revocada", text: "«que está revocada»." },
     situacion: "vivienda",
+    translation: { en: "conversant" },
   },
   {
     id: "envirotado",
@@ -58556,6 +58558,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "hipóstilo", text: "«hipóstilo»." },
     exampleSynonym: { word: "Arq. Especialmente en la arquitectura antigua, dicho de un edificio o de un recinto: Que tiene el techo", text: "«Arq. Especialmente en la arquitectura antigua, dicho de un edificio o de un recinto: Que tiene el techo»." },
     situacion: "vivienda",
+    translation: { en: "hypostylus" },
   },
   {
     id: "hipotactico",
@@ -61227,6 +61230,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "octástilo", text: "«octástilo»." },
     exampleSynonym: { word: "Arq. Dicho especialmente de un edificio de estilo clásico: Que presenta una fila de ocho columnas en el", text: "«Arq. Dicho especialmente de un edificio de estilo clásico: Que presenta una fila de ocho columnas en el»." },
     situacion: "vivienda",
+    translation: { en: "octastyle" },
   },
   {
     id: "octostilo",
