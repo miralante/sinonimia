@@ -40955,6 +40955,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "escuyer", text: "«escuyer»." },
     exampleSynonym: { word: "según el ritual de la casa de Borgoña, veedor de vianda", text: "«según el ritual de la casa de Borgoña, veedor de vianda»." },
     situacion: "vivienda",
+    translation: { en: "listen" },
   },
   {
     id: "esfiladiz",
@@ -44726,6 +44727,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "poliandria", text: "«poliandria»." },
     exampleSynonym: { word: "estado de la mujer casada simultáneamente con dos o más hombres", text: "«estado de la mujer casada simultáneamente con dos o más hombres»." },
     situacion: "vivienda",
+    translation: { en: "polyandry" },
   },
   {
     id: "pollancona",
@@ -45027,6 +45029,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "radioteléfono", text: "«radioteléfono»." },
     exampleSynonym: { word: "teléfono sin hilos, en el que la comunicación se establece por ondas electromagnéticas", text: "«teléfono sin hilos, en el que la comunicación se establece por ondas electromagnéticas»." },
     situacion: "tecnologia",
+    translation: { en: "radiotelephone" },
   },
   {
     id: "ragua",
@@ -45127,6 +45130,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "remanguillé", text: "«remanguillé»." },
     exampleSynonym: { word: "de forma desordenada", text: "«de forma desordenada»." },
     situacion: "vivienda",
+    translation: { en: "i-rolled-up-my-sleeves" },
   },
   {
     id: "repapo",
@@ -46337,6 +46341,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "verascopio", text: "«verascopio»." },
     exampleSynonym: { word: "aparato fotográfico para tomar vistas estereoscópicas", text: "«aparato fotográfico para tomar vistas estereoscópicas»." },
     situacion: "tecnologia",
+    translation: { en: "verascope" },
   },
   {
     id: "virol",
@@ -47309,6 +47314,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "dactilión", text: "«dactilión»." },
     exampleSynonym: { word: "aparato que se colocaba en el teclado de los pianos para dar agilidad y seguridad a los", text: "«aparato que se colocaba en el teclado de los pianos para dar agilidad y seguridad a los»." },
     situacion: "tecnologia",
+    translation: { en: "dactylion" },
   },
   {
     id: "dardabasi",
@@ -47439,6 +47445,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "electrocinética", text: "«electrocinética»." },
     exampleSynonym: { word: "parte de la física que estudia los fenómenos que produce la electricidad en movimiento en", text: "«parte de la física que estudia los fenómenos que produce la electricidad en movimiento en»." },
     situacion: "tecnologia",
+    translation: { en: "electrokinetics" },
   },
   {
     id: "empirocriticismo",
@@ -48872,6 +48879,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "centralita", text: "«centralita»." },
     exampleSynonym: { word: "aparato que conecta una o varias líneas telefónicas con diversos teléfonos instalados en", text: "«aparato que conecta una o varias líneas telefónicas con diversos teléfonos instalados en»." },
     situacion: "tecnologia",
+    translation: { en: "switchboard" },
   },
   {
     id: "ejem",
@@ -50313,6 +50321,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "sifónico", text: "«sifónico»." },
     exampleSynonym: { word: "recipiente cilíndrico empotrado en el pavimento", text: "«recipiente cilíndrico empotrado en el pavimento»." },
     situacion: "tecnologia",
+    translation: { en: "siphonic" },
   },
   {
     id: "arrebatacapas",
@@ -56993,6 +57002,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "farádico", text: "«farádico»." },
     exampleSynonym: { word: "Electr. Dicho de una corriente eléctrica: Producida por inducción", text: "«Electr. Dicho de una corriente eléctrica: Producida por inducción»." },
     situacion: "tecnologia",
+    translation: { en: "faradic" },
   },
   {
     id: "farfallon",
@@ -58493,6 +58503,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "hidromecánico", text: "«hidromecánico»." },
     exampleSynonym: { word: "que aprovecha el agua como fuerza motriz", text: "«que aprovecha el agua como fuerza motriz»." },
     situacion: "tecnologia",
+    translation: { en: "hydromechanical" },
   },
   {
     id: "hidrotimetrico",
@@ -59623,6 +59634,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "laringófono", text: "«laringófono»." },
     exampleSynonym: { word: "Aparato electrónico que, adosado a la garganta, permite emitir sonidos inteligibles a las personas a quienes", text: "«Aparato electrónico que, adosado a la garganta, permite emitir sonidos inteligibles a las personas a quienes»." },
     situacion: "tecnologia",
+    translation: { en: "laryngophone" },
   },
   {
     id: "laurino",
@@ -63053,6 +63065,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "rumbático", text: "«rumbático»." },
     exampleSynonym: { word: "Rumboso, ostentoso, aparatoso", text: "«Rumboso, ostentoso, aparatoso»." },
     situacion: "tecnologia",
+    translation: { en: "rumbatic" },
   },
   {
     id: "rumion",
@@ -63193,6 +63206,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "salvapantalla", text: "«salvapantalla»." },
     exampleSynonym: { word: "Lámina transparente que se coloca delante de una pantalla de proyección o de una pantalla electrónica para", text: "«Lámina transparente que se coloca delante de una pantalla de proyección o de una pantalla electrónica para»." },
     situacion: "tecnologia",
+    translation: { en: "screensaver" },
   },
   {
     id: "salvaunas",
@@ -64003,6 +64017,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "tecnólogo", text: "«tecnólogo»." },
     exampleSynonym: { word: "Persona que se dedica a la tecnología", text: "«Persona que se dedica a la tecnología»." },
     situacion: "tecnologia",
+    translation: { en: "technologist" },
   },
   {
     id: "tecuin",
@@ -64513,6 +64528,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "trasfusor", text: "«trasfusor»." },
     exampleSynonym: { word: "Que transfunde. Aparato transfusor. U. t. c. s", text: "«Que transfunde. Aparato transfusor. U. t. c. s»." },
     situacion: "tecnologia",
+    translation: { en: "transfuser" },
   },
   {
     id: "traslato",
