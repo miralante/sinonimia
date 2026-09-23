@@ -67733,6 +67733,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "traslato", text: "«traslato»." },
     exampleSynonym: { word: "traslaticio (‖ dicho de un vocablo)", text: "«traslaticio (‖ dicho de un vocablo)»." },
     situacion: "conocimiento",
+    translation: { en: "transfer-18" },
   },
   {
     id: "trasmarino",
