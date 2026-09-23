@@ -67958,6 +67958,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cuartogénito", text: "El «cuartogénito» de la familia llegó a la reunión." },
     exampleSynonym: { word: "cuarto hijo", text: "El «cuarto hijo» de la familia llegó a la reunión." },
     situacion: "conocimiento",
+    translation: { en: "fourthborn" },
   },
   {
     id: "diezmesino",
@@ -68009,6 +68010,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "ferrocianhídrico", text: "El laboratorio identificó el compuesto «ferrocianhídrico»." },
     exampleSynonym: { word: "ácido ferrocianhídrico", text: "El laboratorio identificó el compuesto «ácido ferrocianhídrico»." },
     situacion: "conocimiento",
+    translation: { en: "ferrocyanhydric" },
   },
   {
     id: "fotiniano",
@@ -68019,6 +68021,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "fotiniano", text: "El texto describe el movimiento «fotiniano»." },
     exampleSynonym: { word: "relativo a Fotino", text: "El texto describe el movimiento «relativo a Fotino»." },
     situacion: "conocimiento",
+    translation: { en: "photinian" },
   },
   {
     id: "gradiolo",
@@ -68039,6 +68042,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "hevicultor", text: "El «hevicultor» recorrió la plantación." },
     exampleSynonym: { word: "cultivador de caucho", text: "El «cultivador de caucho» recorrió la plantación." },
     situacion: "conocimiento",
+    translation: { en: "heviculturist" },
   },
   {
     id: "jalbegador",
@@ -68119,6 +68123,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "polivalvo", text: "El catálogo incluye un molusco «polivalvo»." },
     exampleSynonym: { word: "de varias valvas", text: "El catálogo incluye un molusco «de varias valvas»." },
     situacion: "conocimiento",
+    translation: { en: "polyvalve" },
   },
   {
     id: "quiscudo",
@@ -68139,6 +68144,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "superfino", text: "Eligió un tejido «superfino» para el traje." },
     exampleSynonym: { word: "muy fino", text: "Eligió un tejido «muy fino» para el traje." },
     situacion: "conocimiento",
+    translation: { en: "superfine" },
   },
   {
     id: "tusunco",
@@ -68191,6 +68197,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cádmico", text: "La muestra contiene un compuesto «cádmico»." },
     exampleSynonym: { word: "relativo al cadmio", text: "La muestra contiene un compuesto «relativo al cadmio»." },
     situacion: "conocimiento",
+    translation: { en: "cadmic" },
   },
   {
     id: "chicorrotin",
@@ -68221,6 +68228,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cobáltico", text: "El análisis identificó un ion «cobáltico»." },
     exampleSynonym: { word: "relativo al cobalto", text: "El análisis identificó un ion «relativo al cobalto»." },
     situacion: "conocimiento",
+    translation: { en: "cobaltic" },
   },
   {
     id: "cuartodecimano",
@@ -68264,6 +68272,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "fabrido", text: "El manuscrito describe un objeto «fabrido» a mano." },
     exampleSynonym: { word: "labrado", text: "El manuscrito describe un objeto «labrado» a mano." },
     situacion: "conocimiento",
+    translation: { en: "fabricated" },
   },
   {
     id: "febrido",
@@ -68314,6 +68323,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "pirogálico", text: "El laboratorio empleó un reactivo «pirogálico»." },
     exampleSynonym: { word: "relativo al ácido pirogálico", text: "El laboratorio empleó un reactivo «relativo al ácido pirogálico»." },
     situacion: "conocimiento",
+    translation: { en: "pyrogallic" },
   },
   {
     id: "sabandeno",
@@ -68438,6 +68448,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "melquisedeciano", text: "El estudio analiza un rito «melquisedeciano»." },
     exampleSynonym: { word: "relativo a Melquisedec", text: "El estudio analiza un rito «relativo a Melquisedec»." },
     situacion: "conocimiento",
+    translation: { en: "melchizedekian" },
   },
   {
     id: "zaratoso",
@@ -68500,6 +68511,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "erétrico", text: "El historiador estudió el pensamiento «erétrico»." },
     exampleSynonym: { word: "relativo a Eretria", text: "El historiador estudió el pensamiento «relativo a Eretria»." },
     situacion: "conocimiento",
+    translation: { en: "erethric" },
   },
   {
     id: "fonoptico",
@@ -68584,6 +68596,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "fondado", text: "El barril «fondado» quedó listo para el transporte." },
     exampleSynonym: { word: "con el fondo asegurado", text: "El barril «con el fondo asegurado» quedó listo para el transporte." },
     situacion: "conocimiento",
+    translation: { en: "funded" },
   },
   {
     id: "pusinesco",
@@ -68594,6 +68607,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "pusinesco", text: "El artista empleó un tamaño «pusinesco» para representar las figuras." },
     exampleSynonym: { word: "de un tercio del tamaño natural", text: "El artista empleó un tamaño «de un tercio del tamaño natural» para representar las figuras." },
     situacion: "conocimiento",
+    translation: { en: "pusinesque" },
   },
   {
     id: "despizcarse",
@@ -68604,6 +68618,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "despizcarse", text: "La mezcla puede «despizcarse» si se seca demasiado." },
     exampleSynonym: { word: "desmenuzarse", text: "La mezcla puede «desmenuzarse» si se seca demasiado." },
     situacion: "conocimiento",
+    translation: { en: "peel-off" },
   },
   {
     id: "mencieno",
