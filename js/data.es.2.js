@@ -35912,6 +35912,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "tiloso", text: "«tiloso»." },
     exampleSynonym: { word: "que tiene tilos o está cubierto de ellos", text: "«que tiene tilos o está cubierto de ellos»." },
     situacion: "conocimiento",
+    translation: { en: "tylosus" },
   },
   {
     id: "timbon",
@@ -35943,6 +35944,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "timbrófilo", text: "«timbrófilo»." },
     exampleSynonym: { word: "persona aficionada a la timbrofilia", text: "«persona aficionada a la timbrofilia»." },
     situacion: "conocimiento",
+    translation: { en: "timbrophile" },
   },
   {
     id: "timbrologo",
@@ -35964,6 +35966,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "timeleáceo", text: "«timeleáceo»." },
     exampleSynonym: { word: "relativo a las timeleáceas, una familia de plantas dicotiledóneas", text: "«relativo a las timeleáceas, una familia de plantas dicotiledóneas»." },
     situacion: "conocimiento",
+    translation: { en: "timeleaceous" },
   },
   {
     id: "tinelero",
@@ -35984,6 +35987,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "tirintio", text: "«tirintio»." },
     exampleSynonym: { word: "relacionado con la antigua ciudad de Tirinto, en Grecia", text: "«relacionado con la antigua ciudad de Tirinto, en Grecia»." },
     situacion: "conocimiento",
+    translation: { en: "tiryntius" },
   },
   {
     id: "tirocinio",
@@ -36045,6 +36049,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "tocológico", text: "«tocológico»." },
     exampleSynonym: { word: "relativo a la tocología", text: "«relativo a la tocología»." },
     situacion: "conocimiento",
+    translation: { en: "tocological" },
   },
   {
     id: "toldero",
@@ -36075,6 +36080,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "topadizo", text: "«topadizo»." },
     exampleSynonym: { word: "que se encuentra o aparece por casualidad", text: "«que se encuentra o aparece por casualidad»." },
     situacion: "conocimiento",
+    translation: { en: "bumpy" },
   },
   {
     id: "topetero",
@@ -36095,6 +36101,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "topetudo", text: "«topetudo»." },
     exampleSynonym: { word: "que tiene el pelo o plumaje erizado en la parte superior de la cabeza", text: "«que tiene el pelo o plumaje erizado en la parte superior de la cabeza»." },
     situacion: "conocimiento",
+    translation: { en: "butthead" },
   },
   {
     id: "topino",
@@ -36135,6 +36142,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "torculado", text: "«torculado»." },
     exampleSynonym: { word: "que tiene forma de torculo o prensa para grabar", text: "«que tiene forma de torculo o prensa para grabar»." },
     situacion: "conocimiento",
+    translation: { en: "torculated" },
   },
   {
     id: "tordella",
@@ -36175,6 +36183,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "tórpido", text: "«tórpido»." },
     exampleSynonym: { word: "que es lento, pesado o falto de agilidad o de vivacidad", text: "«que es lento, pesado o falto de agilidad o de vivacidad»." },
     situacion: "conocimiento",
+    translation: { en: "torpid" },
   },
   {
     id: "torrances",
@@ -36215,6 +36224,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "tosijoso", text: "«tosijoso»." },
     exampleSynonym: { word: "que tiene tos o que tose con frecuencia", text: "«que tiene tos o que tose con frecuencia»." },
     situacion: "conocimiento",
+    translation: { en: "coughy" },
   },
   {
     id: "tostadillo",
@@ -36265,6 +36275,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "toxígeno", text: "«toxígeno»." },
     exampleSynonym: { word: "que produce toxinas", text: "«que produce toxinas»." },
     situacion: "conocimiento",
+    translation: { en: "toxigenic" },
   },
   {
     id: "tozalbo",
@@ -36326,6 +36337,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "tramilla", text: "«tramilla»." },
     exampleSynonym: { word: "red pequeña o tejido de malla fina", text: "«red pequeña o tejido de malla fina»." },
     situacion: "conocimiento",
+    translation: { en: "tramline" },
   },
   {
     id: "transmarino",
@@ -36336,6 +36348,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "transmarino", text: "«transmarino»." },
     exampleSynonym: { word: "que está situado más allá del mar o que viene de allí", text: "«que está situado más allá del mar o que viene de allí»." },
     situacion: "conocimiento",
+    translation: { en: "transmarine" },
   },
   {
     id: "transmediterraneo",
@@ -36346,6 +36359,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "transmediterráneo", text: "«transmediterráneo»." },
     exampleSynonym: { word: "que atraviesa o está relacionado con el mar Mediterráneo", text: "«que atraviesa o está relacionado con el mar Mediterráneo»." },
     situacion: "conocimiento",
+    translation: { en: "transmediterranean" },
   },
   {
     id: "transmundano",
@@ -36356,6 +36370,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "transmundano", text: "«transmundano»." },
     exampleSynonym: { word: "que está más allá del mundo físico o terrenal", text: "«que está más allá del mundo físico o terrenal»." },
     situacion: "conocimiento",
+    translation: { en: "transmundane" },
   },
   {
     id: "transmutativo",
@@ -36366,6 +36381,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "transmutativo", text: "«transmutativo»." },
     exampleSynonym: { word: "relativo a la transmutación", text: "«relativo a la transmutación»." },
     situacion: "conocimiento",
+    translation: { en: "transmutative" },
   },
   {
     id: "transversalidad",
@@ -36376,6 +36392,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "transversalidad", text: "«transversalidad»." },
     exampleSynonym: { word: "cualidad de ser transversal o de cruzar diferentes áreas o disciplinas", text: "«cualidad de ser transversal o de cruzar diferentes áreas o disciplinas»." },
     situacion: "conocimiento",
+    translation: { en: "transversality" },
   },
   {
     id: "trapajoso",
@@ -36396,6 +36413,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "trapalón", text: "«trapalón»." },
     exampleSynonym: { word: "trapo grande o pedazo de tela grande y viejo", text: "«trapo grande o pedazo de tela grande y viejo»." },
     situacion: "conocimiento",
+    translation: { en: "trapal" },
   },
   {
     id: "trasabuelo",
@@ -36436,6 +36454,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "trasladador", text: "«trasladador»." },
     exampleSynonym: { word: "que traslada", text: "«que traslada»." },
     situacion: "conocimiento",
+    translation: { en: "portkey" },
   },
   {
     id: "traspasador",
@@ -36486,6 +36505,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "trenca", text: "«trenca»." },
     exampleSynonym: { word: "abrigo de paño grueso que se abrocha con alamares o corchetes", text: "«abrigo de paño grueso que se abrocha con alamares o corchetes»." },
     situacion: "conocimiento",
+    translation: { en: "duffle-coat" },
   },
   {
     id: "tresmesino",
@@ -36516,6 +36536,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "tridentífero", text: "«tridentífero»." },
     exampleSynonym: { word: "que lleva o sostiene un tridente", text: "«que lleva o sostiene un tridente»." },
     situacion: "conocimiento",
+    translation: { en: "tridentiferous" },
   },
   {
     id: "trifloro",
@@ -36526,6 +36547,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "trifloro", text: "«trifloro»." },
     exampleSynonym: { word: "compuesto químico que contiene tres átomos de flúor", text: "«compuesto químico que contiene tres átomos de flúor»." },
     situacion: "conocimiento",
+    translation: { en: "triflorus" },
   },
   {
     id: "trilatero",
@@ -36536,6 +36558,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "trilátero", text: "«trilátero»." },
     exampleSynonym: { word: "que tiene tres lados", text: "«que tiene tres lados»." },
     situacion: "conocimiento",
+    translation: { en: "trilateral" },
   },
   {
     id: "trilitero",
@@ -36546,6 +36569,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "trilítero", text: "«trilítero»." },
     exampleSynonym: { word: "variante menos usada de trilátero, que tiene tres lados", text: "«variante menos usada de trilátero, que tiene tres lados»." },
     situacion: "conocimiento",
+    translation: { en: "triliter" },
   },
   {
     id: "trinquetero",
@@ -36556,6 +36580,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "trinquetero", text: "«trinquetero»." },
     exampleSynonym: { word: "relativo al trinquete o propio de este juego", text: "«relativo al trinquete o propio de este juego»." },
     situacion: "conocimiento",
+    translation: { en: "ratchet" },
   },
   {
     id: "tripicallero",
@@ -36586,6 +36611,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "tritíceo", text: "«tritíceo»." },
     exampleSynonym: { word: "perteneciente o relativo al trigo", text: "«perteneciente o relativo al trigo»." },
     situacion: "conocimiento",
+    translation: { en: "triticeus" },
   },
   {
     id: "triunviral",
@@ -36596,6 +36622,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "triunviral", text: "«triunviral»." },
     exampleSynonym: { word: "perteneciente o relativo al triunvirato", text: "«perteneciente o relativo al triunvirato»." },
     situacion: "conocimiento",
+    translation: { en: "triumviral" },
   },
   {
     id: "trocador",
@@ -36616,6 +36643,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "trocaico", text: "«trocaico»." },
     exampleSynonym: { word: "perteneciente o relativo al troqueo, un pie métrico de la poesía", text: "«perteneciente o relativo al troqueo, un pie métrico de la poesía»." },
     situacion: "conocimiento",
+    translation: { en: "trochaic" },
   },
   {
     id: "trofologo",
@@ -36626,6 +36654,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "trofólogo", text: "«trofólogo»." },
     exampleSynonym: { word: "especialista en trofología, experto en alimentación y nutrición", text: "«especialista en trofología, experto en alimentación y nutrición»." },
     situacion: "conocimiento",
+    translation: { en: "trophologist" },
   },
   {
     id: "trojero",
@@ -36656,6 +36685,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "trompero", text: "«trompero»." },
     exampleSynonym: { word: "persona que toca la trompa", text: "«persona que toca la trompa»." },
     situacion: "conocimiento",
+    translation: { en: "tromper" },
   },
   {
     id: "tronga",
@@ -36676,6 +36706,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "tropeoláceo", text: "«tropeoláceo»." },
     exampleSynonym: { word: "relativo a la familia de las Tropaeolaceae", text: "«relativo a la familia de las Tropaeolaceae»." },
     situacion: "conocimiento",
+    translation: { en: "tropeolaceous" },
   },
   {
     id: "trufaldin",
@@ -36746,6 +36777,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "turanio", text: "«turanio»." },
     exampleSynonym: { word: "relativo a Turán, una región histórica de Asia Central", text: "«relativo a Turán, una región histórica de Asia Central»." },
     situacion: "conocimiento",
+    translation: { en: "turanium" },
   },
   {
     id: "turupial",
@@ -36766,6 +36798,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "tusculano", text: "«tusculano»." },
     exampleSynonym: { word: "relativo a Tusculum, antigua ciudad del Lacio", text: "«relativo a Tusculum, antigua ciudad del Lacio»." },
     situacion: "conocimiento",
+    translation: { en: "tusculan" },
   },
   {
     id: "ubrera",
@@ -36797,6 +36830,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "ultramundano", text: "«ultramundano»." },
     exampleSynonym: { word: "que está más allá del mundo o de la vida terrenal", text: "«que está más allá del mundo o de la vida terrenal»." },
     situacion: "conocimiento",
+    translation: { en: "otherworldly" },
   },
   {
     id: "ultraviolado",
@@ -36807,6 +36841,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "ultraviolado", text: "«ultraviolado»." },
     exampleSynonym: { word: "que es extremadamente violento o intenso", text: "«que es extremadamente violento o intenso»." },
     situacion: "conocimiento",
+    translation: { en: "ultraviolated" },
   },
   {
     id: "umbratico",
@@ -36817,6 +36852,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "umbrático", text: "«umbrático»." },
     exampleSynonym: { word: "relativo a la sombra o a un lugar sombreado", text: "«relativo a la sombra o a un lugar sombreado»." },
     situacion: "conocimiento",
+    translation: { en: "umbratic" },
   },
   {
     id: "unalbo",
@@ -36837,6 +36873,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "undísono", text: "«undísono»." },
     exampleSynonym: { word: "que suena al unísono, al mismo tiempo y con el mismo tono", text: "«que suena al unísono, al mismo tiempo y con el mismo tono»." },
     situacion: "conocimiento",
+    translation: { en: "undisson" },
   },
   {
     id: "uniformador",
@@ -36847,6 +36884,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "uniformador", text: "«uniformador»." },
     exampleSynonym: { word: "que uniforma, hace uniforme", text: "«que uniforma, hace uniforme»." },
     situacion: "conocimiento",
+    translation: { en: "uniformer" },
   },
   {
     id: "univalvo",
@@ -36857,6 +36895,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "univalvo", text: "«univalvo»." },
     exampleSynonym: { word: "dicho de un molusco", text: "«dicho de un molusco»." },
     situacion: "conocimiento",
+    translation: { en: "univalve" },
   },
   {
     id: "universalisimo",
@@ -36867,6 +36906,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "universalísimo", text: "«universalísimo»." },
     exampleSynonym: { word: "grado superlativo de universal", text: "«grado superlativo de universal»." },
     situacion: "conocimiento",
+    translation: { en: "very-universal" },
   },
   {
     id: "univitelino",
@@ -36897,6 +36937,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "untoso", text: "«untoso»." },
     exampleSynonym: { word: "que tiene unto o grasa", text: "«que tiene unto o grasa»." },
     situacion: "conocimiento",
+    translation: { en: "ungreasy" },
   },
   {
     id: "unilargo",
@@ -36907,6 +36948,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "uñilargo", text: "«uñilargo»." },
     exampleSynonym: { word: "persona que tiene las uñas largas", text: "«persona que tiene las uñas largas»." },
     situacion: "conocimiento",
+    translation: { en: "long-nail" },
   },
   {
     id: "uralaltaico",
@@ -36917,6 +36959,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "uralaltaico", text: "«uralaltaico»." },
     exampleSynonym: { word: "relativo a los montes Urales y la región de Altái", text: "«relativo a los montes Urales y la región de Altái»." },
     situacion: "conocimiento",
+    translation: { en: "uralaltaic" },
   },
   {
     id: "uraloaltaico",
@@ -36927,6 +36970,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "uraloaltaico", text: "«uraloaltaico»." },
     exampleSynonym: { word: "relativo a los montes Urales y la región de Altái, similar a uralaltaico", text: "«relativo a los montes Urales y la región de Altái, similar a uralaltaico»." },
     situacion: "conocimiento",
+    translation: { en: "uraloaltaic" },
   },
   {
     id: "ureotelico",
@@ -36937,6 +36981,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "ureotélico", text: "«ureotélico»." },
     exampleSynonym: { word: "relativo a los animales que excretan el nitrógeno principalmente en forma de urea", text: "«relativo a los animales que excretan el nitrógeno principalmente en forma de urea»." },
     situacion: "conocimiento",
+    translation: { en: "ureotelic" },
   },
   {
     id: "uretico",
@@ -36947,6 +36992,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "urético", text: "«urético»." },
     exampleSynonym: { word: "relativo a la orina", text: "«relativo a la orina»." },
     situacion: "conocimiento",
+    translation: { en: "uretic" },
   },
   {
     id: "uricotelico",
@@ -36957,6 +37003,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "uricotélico", text: "«uricotélico»." },
     exampleSynonym: { word: "relativo a los animales que excretan el nitrógeno principalmente en forma de ácido úrico", text: "«relativo a los animales que excretan el nitrógeno principalmente en forma de ácido úrico»." },
     situacion: "conocimiento",
+    translation: { en: "uricotelic" },
   },
   {
     id: "urticaceo",
@@ -36967,6 +37014,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "urticáceo", text: "«urticáceo»." },
     exampleSynonym: { word: "relativo a la familia de las Urticáceas, que comprende plantas como la ortiga", text: "«relativo a la familia de las Urticáceas, que comprende plantas como la ortiga»." },
     situacion: "conocimiento",
+    translation: { en: "urticaceous" },
   },
   {
     id: "urubambino",
@@ -37027,6 +37075,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "valentiniano", text: "«valentiniano»." },
     exampleSynonym: { word: "relativo a alguno de los emperadores romanos llamados Valentiniano", text: "«relativo a alguno de los emperadores romanos llamados Valentiniano»." },
     situacion: "conocimiento",
+    translation: { en: "valentinian" },
   },
   {
     id: "valerano",
@@ -37047,6 +37096,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "valerianáceo", text: "«valerianáceo»." },
     exampleSynonym: { word: "relativo a las valerianáceas, una familia de plantas dicotiledóneas", text: "«relativo a las valerianáceas, una familia de plantas dicotiledóneas»." },
     situacion: "conocimiento",
+    translation: { en: "valerianaceous" },
   },
   {
     id: "vallenarino",
@@ -37088,6 +37138,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "vasculoso", text: "«vasculoso»." },
     exampleSynonym: { word: "que tiene muchos vasos, especialmente vasos sanguíneos", text: "«que tiene muchos vasos, especialmente vasos sanguíneos»." },
     situacion: "conocimiento",
+    translation: { en: "vascular" },
   },
   {
     id: "vatidico",
@@ -37098,6 +37149,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "vatídico", text: "«vatídico»." },
     exampleSynonym: { word: "que tiene la cualidad de vaticinar, profético", text: "«que tiene la cualidad de vaticinar, profético»." },
     situacion: "conocimiento",
+    translation: { en: "vatidic" },
   },
   {
     id: "vedijero",
@@ -37118,6 +37170,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "vedijoso", text: "«vedijoso»." },
     exampleSynonym: { word: "que tiene vedijas o se asemeja a ellas", text: "«que tiene vedijas o se asemeja a ellas»." },
     situacion: "conocimiento",
+    translation: { en: "vediculous" },
   },
   {
     id: "vedijudo",
@@ -37138,6 +37191,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "vegetalismo", text: "«vegetalismo»." },
     exampleSynonym: { word: "práctica de alimentarse exclusivamente de productos del reino vegetal", text: "«práctica de alimentarse exclusivamente de productos del reino vegetal»." },
     situacion: "conocimiento",
+    translation: { en: "vegetalism" },
   },
   {
     id: "vegoso",
@@ -37188,6 +37242,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "vejigoso", text: "«vejigoso»." },
     exampleSynonym: { word: "que tiene vejigas o ampollas", text: "«que tiene vejigas o ampollas»." },
     situacion: "conocimiento",
+    translation: { en: "bladdery" },
   },
   {
     id: "vejuco",
@@ -37280,6 +37335,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "venturero", text: "«venturero»." },
     exampleSynonym: { word: "que se arriesga a la aventura, que busca fortuna con riesgo", text: "«que se arriesga a la aventura, que busca fortuna con riesgo»." },
     situacion: "conocimiento",
+    translation: { en: "venturer" },
   },
   {
     id: "verdinal",
@@ -37340,6 +37396,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "versificador", text: "«versificador»." },
     exampleSynonym: { word: "que versifica, es decir, que compone versos", text: "«que versifica, es decir, que compone versos»." },
     situacion: "conocimiento",
+    translation: { en: "versifier" },
   },
   {
     id: "vertedor",
@@ -37370,6 +37427,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "vesiculoso", text: "«vesiculoso»." },
     exampleSynonym: { word: "que está lleno de vesículas o que tiene aspecto de ellas", text: "«que está lleno de vesículas o que tiene aspecto de ellas»." },
     situacion: "conocimiento",
+    translation: { en: "vesicular" },
   },
   {
     id: "vetisesgado",
@@ -37400,6 +37458,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "vicealmiranta", text: "«vicealmiranta»." },
     exampleSynonym: { word: "esposa o viuda de un vicealmirante", text: "«esposa o viuda de un vicealmirante»." },
     situacion: "conocimiento",
+    translation: { en: "vice-admiral" },
   },
   {
     id: "vigilativo",
@@ -37410,6 +37469,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "vigilativo", text: "«vigilativo»." },
     exampleSynonym: { word: "relacionado con la vigilancia o que implica una acción de vigilar", text: "«relacionado con la vigilancia o que implica una acción de vigilar»." },
     situacion: "conocimiento",
+    translation: { en: "vigilant" },
   },
   {
     id: "vigorizador",
@@ -37420,6 +37480,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "vigorizador", text: "«vigorizador»." },
     exampleSynonym: { word: "que vigoriza, que da fuerza o energía", text: "«que vigoriza, que da fuerza o energía»." },
     situacion: "conocimiento",
+    translation: { en: "invigorator" },
   },
   {
     id: "vilipendiador",
@@ -37430,6 +37491,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "vilipendiador", text: "«vilipendiador»." },
     exampleSynonym: { word: "que vilipendia, que desprecia o trata con desdén a alguien o algo", text: "«que vilipendia, que desprecia o trata con desdén a alguien o algo»." },
     situacion: "conocimiento",
+    translation: { en: "vilifier" },
   },
   {
     id: "villamonteno",
@@ -37500,6 +37562,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "vipéreo", text: "«vipéreo»." },
     exampleSynonym: { word: "relativo a las víboras", text: "«relativo a las víboras»." },
     situacion: "conocimiento",
+    translation: { en: "viperous" },
   },
   {
     id: "vireco",
@@ -37520,6 +37583,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "virgiliano", text: "«virgiliano»." },
     exampleSynonym: { word: "perteneciente o relativo al poeta romano Virgilio o a su obra", text: "«perteneciente o relativo al poeta romano Virgilio o a su obra»." },
     situacion: "conocimiento",
+    translation: { en: "virgilian" },
   },
   {
     id: "virginiano",
@@ -37530,6 +37594,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "virginiano", text: "«virginiano»." },
     exampleSynonym: { word: "perteneciente o relativo al estado de Virginia, en Estados Unidos", text: "«perteneciente o relativo al estado de Virginia, en Estados Unidos»." },
     situacion: "conocimiento",
+    translation: { en: "virginian" },
   },
   {
     id: "viroleno",
@@ -37550,6 +37615,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "virósico", text: "«virósico»." },
     exampleSynonym: { word: "relativo a los virus", text: "«relativo a los virus»." },
     situacion: "conocimiento",
+    translation: { en: "virus" },
   },
   {
     id: "visontino",
@@ -37570,6 +37636,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "vitalizador", text: "«vitalizador»." },
     exampleSynonym: { word: "que vitaliza o da energía y vigor", text: "«que vitaliza o da energía y vigor»." },
     situacion: "conocimiento",
+    translation: { en: "vitalizer" },
   },
   {
     id: "vitelino",
@@ -37580,6 +37647,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "vitelino", text: "«vitelino»." },
     exampleSynonym: { word: "relativo al vitelo o yema del huevo", text: "«relativo al vitelo o yema del huevo»." },
     situacion: "conocimiento",
+    translation: { en: "vitelline" },
   },
   {
     id: "vituperador",
@@ -37590,6 +37658,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "vituperador", text: "«vituperador»." },
     exampleSynonym: { word: "que vitupera, es decir, que censura o reprocha duramente", text: "«que vitupera, es decir, que censura o reprocha duramente»." },
     situacion: "conocimiento",
+    translation: { en: "vituperator" },
   },
   {
     id: "vituperoso",
@@ -37600,6 +37669,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "vituperoso", text: "«vituperoso»." },
     exampleSynonym: { word: "que incluye vituperio o que es dado a vituperar", text: "«que incluye vituperio o que es dado a vituperar»." },
     situacion: "conocimiento",
+    translation: { en: "vituperative" },
   },
   {
     id: "viverrido",
@@ -37610,6 +37680,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "vivérrido", text: "«vivérrido»." },
     exampleSynonym: { word: "relativo a la familia Viverridae, que incluye a los civetas, ginetas y linsangs", text: "«relativo a la familia Viverridae, que incluye a los civetas, ginetas y linsangs»." },
     situacion: "conocimiento",
+    translation: { en: "viverrid" },
   },
   {
     id: "vivon",
@@ -37640,6 +37711,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "volvedor", text: "«volvedor»." },
     exampleSynonym: { word: "que vuelve o hace volver algo", text: "«que vuelve o hace volver algo»." },
     situacion: "conocimiento",
+    translation: { en: "returner" },
   },
   {
     id: "vomipurgativo",
