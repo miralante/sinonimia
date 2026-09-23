@@ -12,10 +12,10 @@
  */
 window.SINONIMIA_DICTIONARY_SHARDS = {
   es: [
-    { file: "js/data.es.js", src: "js/data.es.js?v=72f353c187" },
+    { file: "js/data.es.js", src: "js/data.es.js?v=9ee2376446" },
     { file: "js/data.es.2.js", src: "js/data.es.2.js?v=9768928b3d" },
   ],
   en: [
-    { file: "js/data.en.js", src: "js/data.en.js?v=5cc426d60c" },
+    { file: "js/data.en.js", src: "js/data.en.js?v=4fba7b9a4a" },
   ],
 };
