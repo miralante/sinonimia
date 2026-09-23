@@ -55156,6 +55156,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "calentano", text: "«calentano»." },
     exampleSynonym: { word: "Natural de Tierra Caliente, territorio de Centroamérica. U. t. c. s", text: "«Natural de Tierra Caliente, territorio de Centroamérica. U. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "warm-up-5" },
   },
   {
     id: "calidoscopico",
@@ -61454,6 +61455,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "hablantina", text: "«hablantina»." },
     exampleSynonym: { word: "Que habla lo que no debe. U. t. c. s", text: "«Que habla lo que no debe. U. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "speaking-2" },
   },
   {
     id: "hadador",
@@ -62982,6 +62984,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "lengüetero", text: "«lengüetero»." },
     exampleSynonym: { word: "Chismoso, murmurador. U. t. c. s", text: "«Chismoso, murmurador. U. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "tongue-6" },
   },
   {
     id: "leptorrino",
@@ -64482,6 +64485,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "novomejicano", text: "«novomejicano»." },
     exampleSynonym: { word: "neomexicano. Apl. a pers., u. t. c. s", text: "«neomexicano. Apl. a pers., u. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "new-mexican-4" },
   },
   {
     id: "nubiloso",
@@ -68198,6 +68202,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "trillonésimo", text: "«trillonésimo»." },
     exampleSynonym: { word: "que es una del trillón de partes iguales en que se divide un todo. U. t. c. s. m", text: "«que es una del trillón de partes iguales en que se divide un todo. U. t. c. s. m»." },
     situacion: "conocimiento",
+    translation: { en: "trillionth-2" },
   },
   {
     id: "trochemoche",
