@@ -39944,6 +39944,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "caloriamperímetro", text: "«caloriamperímetro»." },
     exampleSynonym: { word: "electr", text: "«electr»." },
     situacion: "tecnologia",
+    translation: { en: "caloriammeter" },
   },
   {
     id: "calpixque",
@@ -40872,6 +40873,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cómpreda", text: "«cómpreda»." },
     exampleSynonym: { word: "compra", text: "«compra»." },
     situacion: "finanzas",
+    translation: { en: "buy" },
   },
   {
     id: "concejeramente",
@@ -40953,6 +40955,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "condutal", text: "«condutal»." },
     exampleSynonym: { word: "constr", text: "«constr»." },
     situacion: "vivienda",
+    translation: { en: "conduct" },
   },
   {
     id: "conficiente",
@@ -43744,6 +43747,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "hidrópata", text: "«hidrópata»." },
     exampleSynonym: { word: "quien profesaba la hidropatía (|| hidroterapia). Era u. t. c. adj.", text: "«quien profesaba la hidropatía (|| hidroterapia). Era u. t. c. adj.»." },
     situacion: "salud",
+    translation: { en: "hydropath" },
   },
   {
     id: "hidrotecnia",
@@ -44992,6 +44996,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "megaciclo", text: "«megaciclo»." },
     exampleSynonym: { word: "electr", text: "«electr»." },
     situacion: "tecnologia",
+    translation: { en: "megacycle" },
   },
   {
     id: "meguez",
@@ -51456,6 +51461,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "magnetomotriz", text: "«magnetomotriz»." },
     exampleSynonym: { word: "electr", text: "«electr»." },
     situacion: "tecnologia",
+    translation: { en: "magnetomotive" },
   },
   {
     id: "mazorgano",
@@ -52316,6 +52322,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "ronchadora", text: "«ronchadora»." },
     exampleSynonym: { word: "hormiga negra y carnívora", text: "«hormiga negra y carnívora»." },
     situacion: "vivienda",
+    translation: { en: "roncadora" },
   },
   {
     id: "suita",
@@ -55653,6 +55660,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "compradero", text: "«compradero»." },
     exampleSynonym: { word: "comprador. Era u. t. c. s", text: "«comprador. Era u. t. c. s»." },
     situacion: "finanzas",
+    translation: { en: "buyer" },
   },
   {
     id: "compradizo",
@@ -55683,6 +55691,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "comprero", text: "«comprero»." },
     exampleSynonym: { word: "Ar. comprador. U. t. c. s", text: "«Ar. comprador. U. t. c. s»." },
     situacion: "finanzas",
+    translation: { en: "i-buy" },
   },
   {
     id: "comprofesor",
@@ -66272,6 +66281,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "termiónico", text: "«termiónico»." },
     exampleSynonym: { word: "Electr. termoiónico", text: "«Electr. termoiónico»." },
     situacion: "tecnologia",
+    translation: { en: "thermionic" },
   },
   {
     id: "ternejon",
