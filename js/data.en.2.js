@@ -173800,4 +173800,17 @@ DICCIONARIOS.en = DICCIONARIOS.en.concat([{"id":"migraine-2","word":"Migraine","
     situacion: "conocimiento",
     translation: { "es": "desembrollar" },
   },
+
+  // --- Translated synonymy batch 287 ---
+  {
+    id: "unravel-33",
+    word: "unravel",
+    image: { id: 2450, alt: "Information and knowledge" },
+    definition: "Remove or decompose the bow.",
+    synonyms: ["place"],
+    example: { word: "unravel", text: "The term “unravel” refers to Remove or decompose the bow.." },
+    exampleSynonym: { word: "place", text: "The term “place” refers to Remove or decompose the bow.." },
+    situacion: "conocimiento",
+    translation: { "es": "desmonar" },
+  },
 ]);
