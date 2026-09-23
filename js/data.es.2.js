@@ -27021,6 +27021,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "mitigador", text: "«mitigador»." },
     exampleSynonym: { word: "que mitiga, que suaviza o alivia", text: "«que mitiga, que suaviza o alivia»." },
     situacion: "conocimiento",
+    translation: { en: "mitigator" },
   },
   {
     id: "mitigativo",
@@ -27031,6 +27032,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "mitigativo", text: "«mitigativo»." },
     exampleSynonym: { word: "que sirve para mitigar o aliviar", text: "«que sirve para mitigar o aliviar»." },
     situacion: "conocimiento",
+    translation: { en: "mitigative" },
   },
   {
     id: "mitografo",
@@ -27041,6 +27043,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "mitógrafo", text: "«mitógrafo»." },
     exampleSynonym: { word: "persona que escribe o estudia mitos", text: "«persona que escribe o estudia mitos»." },
     situacion: "conocimiento",
+    translation: { en: "mythographer" },
   },
   {
     id: "mizqueno",
@@ -27131,6 +27134,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "mojador", text: "«mojador»." },
     exampleSynonym: { word: "que moja o sirve para mojar", text: "«que moja o sirve para mojar»." },
     situacion: "conocimiento",
+    translation: { en: "wetter" },
   },
   {
     id: "mojeno",
@@ -27171,6 +27175,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "molificativo", text: "«molificativo»." },
     exampleSynonym: { word: "que tiene la propiedad de molificar o suavizar", text: "«que tiene la propiedad de molificar o suavizar»." },
     situacion: "conocimiento",
+    translation: { en: "molificative" },
   },
   {
     id: "molitivo",
@@ -27181,6 +27186,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "molitivo", text: "«molitivo»." },
     exampleSynonym: { word: "que tiene la capacidad o la función de moler o triturar", text: "«que tiene la capacidad o la función de moler o triturar»." },
     situacion: "conocimiento",
+    translation: { en: "molitive" },
   },
   {
     id: "mollendino",
@@ -27201,6 +27207,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "monaquismo", text: "«monaquismo»." },
     exampleSynonym: { word: "sistema de vida y prácticas propias de los monjes", text: "«sistema de vida y prácticas propias de los monjes»." },
     situacion: "conocimiento",
+    translation: { en: "monasticism" },
   },
   {
     id: "monimiaceo",
@@ -27211,6 +27218,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "monimiáceo", text: "«monimiáceo»." },
     exampleSynonym: { word: "relativo a las Monimiáceas, una familia de plantas angiospermas", text: "«relativo a las Monimiáceas, una familia de plantas angiospermas»." },
     situacion: "conocimiento",
+    translation: { en: "monimiaceous" },
   },
   {
     id: "monofonematico",
@@ -27221,6 +27229,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "monofonemático", text: "«monofonemático»." },
     exampleSynonym: { word: "relacionado con un solo fonema o que tiene un solo fonema", text: "«relacionado con un solo fonema o que tiene un solo fonema»." },
     situacion: "conocimiento",
+    translation: { en: "monophonematic" },
   },
   {
     id: "monomaniaco",
@@ -27231,6 +27240,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "monomaníaco", text: "«monomaníaco»." },
     exampleSynonym: { word: "relacionado con la monomanía o que la padece", text: "«relacionado con la monomanía o que la padece»." },
     situacion: "conocimiento",
+    translation: { en: "monomaniac" },
   },
   {
     id: "monomaniatico",
@@ -27251,6 +27261,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "monopétalo", text: "«monopétalo»." },
     exampleSynonym: { word: "dicho de una flor", text: "«dicho de una flor»." },
     situacion: "conocimiento",
+    translation: { en: "monopetal" },
   },
   {
     id: "monorritmico",
@@ -27261,6 +27272,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "monorrítmico", text: "«monorrítmico»." },
     exampleSynonym: { word: "relativo a la música o a la poesía que utiliza un solo ritmo", text: "«relativo a la música o a la poesía que utiliza un solo ritmo»." },
     situacion: "conocimiento",
+    translation: { en: "monorhythmic" },
   },
   {
     id: "monosepalo",
@@ -27271,6 +27283,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "monosépalo", text: "«monosépalo»." },
     exampleSynonym: { word: "dicho de una flor", text: "«dicho de una flor»." },
     situacion: "conocimiento",
+    translation: { en: "monosepal" },
   },
   {
     id: "monosilabico",
@@ -27361,6 +27374,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "moratiniano", text: "«moratiniano»." },
     exampleSynonym: { word: "relativo a Moratín o a su estilo literario", text: "«relativo a Moratín o a su estilo literario»." },
     situacion: "conocimiento",
+    translation: { en: "moratinian" },
   },
   {
     id: "morbifico",
@@ -27382,6 +27396,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "morcillero", text: "«morcillero»." },
     exampleSynonym: { word: "persona que fabrica o vende morcillas", text: "«persona que fabrica o vende morcillas»." },
     situacion: "conocimiento",
+    translation: { en: "morcillaro" },
   },
   {
     id: "morfofonologico",
@@ -27392,6 +27407,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "morfofonológico", text: "«morfofonológico»." },
     exampleSynonym: { word: "relativo a la morfofonología", text: "«relativo a la morfofonología»." },
     situacion: "conocimiento",
+    translation: { en: "morphophonological" },
   },
   {
     id: "morfosintactico",
@@ -27402,6 +27418,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "morfosintáctico", text: "«morfosintáctico»." },
     exampleSynonym: { word: "relativo a la morfosintaxis", text: "«relativo a la morfosintaxis»." },
     situacion: "conocimiento",
+    translation: { en: "morphosyntactic" },
   },
   {
     id: "moridor",
@@ -27432,6 +27449,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "moringáceo", text: "«moringáceo»." },
     exampleSynonym: { word: "relativo a la familia de las moringáceas, que son un grupo de plantas angiospermas", text: "«relativo a la familia de las moringáceas, que son un grupo de plantas angiospermas»." },
     situacion: "conocimiento",
+    translation: { en: "moringaceous" },
   },
   {
     id: "morochillo",
@@ -27492,6 +27510,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "mostrativo", text: "«mostrativo»." },
     exampleSynonym: { word: "que sirve para mostrar o que muestra algo", text: "«que sirve para mostrar o que muestra algo»." },
     situacion: "conocimiento",
+    translation: { en: "demonstrative" },
   },
   {
     id: "motudo",
@@ -27522,6 +27541,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "moxitano", text: "«moxitano»." },
     exampleSynonym: { word: "relacionado con Móxos, una región de Bolivia", text: "«relacionado con Móxos, una región de Bolivia»." },
     situacion: "conocimiento",
+    translation: { en: "moxitane" },
   },
   {
     id: "moyobambino",
@@ -27552,6 +27572,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "mucolítico", text: "«mucolítico»." },
     exampleSynonym: { word: "que tiene la propiedad de disolver o licuar el moco", text: "«que tiene la propiedad de disolver o licuar el moco»." },
     situacion: "conocimiento",
+    translation: { en: "mucolytic" },
   },
   {
     id: "mue",
@@ -27592,6 +27613,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "municipalizar", text: "«municipalizar»." },
     exampleSynonym: { word: "transferir una empresa o servicio al control del municipio", text: "«transferir una empresa o servicio al control del municipio»." },
     situacion: "conocimiento",
+    translation: { en: "municipalize" },
   },
   {
     id: "murceguillo",
@@ -27642,6 +27664,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "musicógrafo", text: "«musicógrafo»." },
     exampleSynonym: { word: "persona que escribe sobre música o que compone tratados musicales", text: "«persona que escribe sobre música o que compone tratados musicales»." },
     situacion: "conocimiento",
+    translation: { en: "musicographer" },
   },
   {
     id: "musicomano",
@@ -27652,6 +27675,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "musicómano", text: "«musicómano»." },
     exampleSynonym: { word: "persona con una pasión excesiva por la música", text: "«persona con una pasión excesiva por la música»." },
     situacion: "conocimiento",
+    translation: { en: "music-lover" },
   },
   {
     id: "musivo",
@@ -27692,6 +27716,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "mutagénico", text: "«mutagénico»." },
     exampleSynonym: { word: "que produce mutaciones genéticas", text: "«que produce mutaciones genéticas»." },
     situacion: "conocimiento",
+    translation: { en: "mutagenic" },
   },
   {
     id: "mutilon",
@@ -27732,6 +27757,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "naipesco", text: "«naipesco»." },
     exampleSynonym: { word: "relativo a los naipes o al juego de naipes", text: "«relativo a los naipes o al juego de naipes»." },
     situacion: "conocimiento",
+    translation: { en: "naipesque" },
   },
   {
     id: "najerino",
@@ -27802,6 +27828,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "neocatólico", text: "«neocatólico»." },
     exampleSynonym: { word: "perteneciente o relativo al neocatolicismo", text: "«perteneciente o relativo al neocatolicismo»." },
     situacion: "conocimiento",
+    translation: { en: "neocatholic" },
   },
   {
     id: "neokantiano",
@@ -27812,6 +27839,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "neokantiano", text: "«neokantiano»." },
     exampleSynonym: { word: "perteneciente o relativo al neokantismo", text: "«perteneciente o relativo al neokantismo»." },
     situacion: "conocimiento",
+    translation: { en: "neokantian" },
   },
   {
     id: "neologia",
@@ -27833,6 +27861,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "neonatológico", text: "«neonatológico»." },
     exampleSynonym: { word: "relativo a la neonatología, rama de la medicina que se ocupa de los recién nacidos", text: "«relativo a la neonatología, rama de la medicina que se ocupa de los recién nacidos»." },
     situacion: "conocimiento",
+    translation: { en: "neonatological" },
   },
   {
     id: "neonatologo",
@@ -27854,6 +27883,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "neoplatónico", text: "«neoplatónico»." },
     exampleSynonym: { word: "perteneciente o relativo al neoplatonismo", text: "«perteneciente o relativo al neoplatonismo»." },
     situacion: "conocimiento",
+    translation: { en: "neoplatonist" },
   },
   {
     id: "nepentaceo",
@@ -27864,6 +27894,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "nepentáceo", text: "«nepentáceo»." },
     exampleSynonym: { word: "relativo a las nepentáceas, una familia de plantas carnívoras", text: "«relativo a las nepentáceas, una familia de plantas carnívoras»." },
     situacion: "conocimiento",
+    translation: { en: "nepentaceous" },
   },
   {
     id: "neptunico",
@@ -27884,6 +27915,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "nestóreo", text: "«nestóreo»." },
     exampleSynonym: { word: "variante de nestoriano", text: "«variante de nestoriano»." },
     situacion: "conocimiento",
+    translation: { en: "nestorean" },
   },
   {
     id: "neuroembriologo",
@@ -27894,6 +27926,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "neuroembriólogo", text: "«neuroembriólogo»." },
     exampleSynonym: { word: "especialista en neuroembriología", text: "«especialista en neuroembriología»." },
     situacion: "conocimiento",
+    translation: { en: "neuroembryologist" },
   },
   {
     id: "neuroesqueleto",
@@ -27904,6 +27937,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "neuroesqueleto", text: "«neuroesqueleto»." },
     exampleSynonym: { word: "estructura de soporte del sistema nervioso en algunos invertebrados", text: "«estructura de soporte del sistema nervioso en algunos invertebrados»." },
     situacion: "conocimiento",
+    translation: { en: "neuroskeleton" },
   },
   {
     id: "neurotomia",
@@ -27914,6 +27948,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "neurotomía", text: "«neurotomía»." },
     exampleSynonym: { word: "procedimiento quirúrgico que consiste en la sección de un nervio", text: "«procedimiento quirúrgico que consiste en la sección de un nervio»." },
     situacion: "conocimiento",
+    translation: { en: "neurotomy" },
   },
   {
     id: "neurovegetativo",
@@ -27924,6 +27959,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "neurovegetativo", text: "«neurovegetativo»." },
     exampleSynonym: { word: "perteneciente o relativo al sistema nervioso autónomo", text: "«perteneciente o relativo al sistema nervioso autónomo»." },
     situacion: "conocimiento",
+    translation: { en: "neurovegetative" },
   },
   {
     id: "nictaginaceo",
@@ -27934,6 +27970,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "nictagináceo", text: "«nictagináceo»." },
     exampleSynonym: { word: "relativo a las nictagináceas, una familia de plantas dicotiledóneas", text: "«relativo a las nictagináceas, una familia de plantas dicotiledóneas»." },
     situacion: "conocimiento",
+    translation: { en: "nyctaginaceous" },
   },
   {
     id: "nictagineo",
@@ -27944,6 +27981,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "nictagíneo", text: "«nictagíneo»." },
     exampleSynonym: { word: "variante de nictagináceo, perteneciente o relativo a las nictagináceas", text: "«variante de nictagináceo, perteneciente o relativo a las nictagináceas»." },
     situacion: "conocimiento",
+    translation: { en: "nictaginous" },
   },
   {
     id: "nidio",
@@ -27964,6 +28002,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "ninfeáceo", text: "«ninfeáceo»." },
     exampleSynonym: { word: "relativo a las ninfeáceas, una familia de plantas acuáticas", text: "«relativo a las ninfeáceas, una familia de plantas acuáticas»." },
     situacion: "conocimiento",
+    translation: { en: "nymphaea" },
   },
   {
     id: "niquelador",
@@ -27995,6 +28034,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "nomofiláctico", text: "«nomofiláctico»." },
     exampleSynonym: { word: "relacionado con la nomofilaxis", text: "«relacionado con la nomofilaxis»." },
     situacion: "conocimiento",
+    translation: { en: "nomophylactic" },
   },
   {
     id: "nosomantica",
@@ -28077,6 +28117,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "nubífero", text: "«nubífero»." },
     exampleSynonym: { word: "que lleva o produce nubes", text: "«que lleva o produce nubes»." },
     situacion: "conocimiento",
+    translation: { en: "nubiferous" },
   },
   {
     id: "oblativo",
@@ -28087,6 +28128,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "oblativo", text: "«oblativo»." },
     exampleSynonym: { word: "relativo a la oblación", text: "«relativo a la oblación»." },
     situacion: "conocimiento",
+    translation: { en: "oblative" },
   },
   {
     id: "obrepticio",
@@ -28097,6 +28139,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "obrepticio", text: "«obrepticio»." },
     exampleSynonym: { word: "que se consigue con ocultación o engaño", text: "«que se consigue con ocultación o engaño»." },
     situacion: "conocimiento",
+    translation: { en: "obreptic" },
   },
   {
     id: "obsidional",
@@ -28127,6 +28170,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "occitánico", text: "«occitánico»." },
     exampleSynonym: { word: "perteneciente o relativo al occitano", text: "«perteneciente o relativo al occitano»." },
     situacion: "conocimiento",
+    translation: { en: "occitanic" },
   },
   {
     id: "ocoeno",
@@ -28167,6 +28211,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "oenoteráceo", text: "«oenoteráceo»." },
     exampleSynonym: { word: "relativo a una familia de plantas dicotiledóneas, que incluye la vid y otras especies", text: "«relativo a una familia de plantas dicotiledóneas, que incluye la vid y otras especies»." },
     situacion: "conocimiento",
+    translation: { en: "oenotheracean" },
   },
   {
     id: "oficinesco",
@@ -28187,6 +28232,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "ofuscador", text: "«ofuscador»." },
     exampleSynonym: { word: "que ofusca o tiene la capacidad de ofuscar", text: "«que ofusca o tiene la capacidad de ofuscar»." },
     situacion: "conocimiento",
+    translation: { en: "obfuscator" },
   },
   {
     id: "ojalador",
@@ -28197,6 +28243,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "ojalador", text: "«ojalador»." },
     exampleSynonym: { word: "herramienta que se utiliza para hacer ojales en la ropa", text: "«herramienta que se utiliza para hacer ojales en la ropa»." },
     situacion: "conocimiento",
+    translation: { en: "buttonholer" },
   },
   {
     id: "oleicultor",
@@ -28207,6 +28254,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "oleicultor", text: "«oleicultor»." },
     exampleSynonym: { word: "persona que se dedica al cultivo de olivos", text: "«persona que se dedica al cultivo de olivos»." },
     situacion: "conocimiento",
+    translation: { en: "olive-grower" },
   },
   {
     id: "oliscoso",
@@ -28257,6 +28305,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "olmeca", text: "«olmeca»." },
     exampleSynonym: { word: "relativo a la cultura precolombina que se desarrolló en la región del Golfo de México", text: "«relativo a la cultura precolombina que se desarrolló en la región del Golfo de México»." },
     situacion: "conocimiento",
+    translation: { en: "olmec" },
   },
   {
     id: "olmedano",
@@ -28297,6 +28346,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "ontólogo", text: "«ontólogo»." },
     exampleSynonym: { word: "especialista en ontología", text: "«especialista en ontología»." },
     situacion: "conocimiento",
+    translation: { en: "ontologist" },
   },
   {
     id: "opiado",
@@ -28307,6 +28357,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "opiado", text: "«opiado»." },
     exampleSynonym: { word: "que contiene opio o sus derivados", text: "«que contiene opio o sus derivados»." },
     situacion: "conocimiento",
+    translation: { en: "opiated" },
   },
   {
     id: "opistografo",
@@ -28317,6 +28368,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "opistógrafo", text: "«opistógrafo»." },
     exampleSynonym: { word: "escrito por el anverso y el reverso", text: "«escrito por el anverso y el reverso»." },
     situacion: "conocimiento",
+    translation: { en: "opisthograph" },
   },
   {
     id: "opoponaco",
@@ -28358,6 +28410,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "orático", text: "«orático»." },
     exampleSynonym: { word: "relativo a la oración o al discurso", text: "«relativo a la oración o al discurso»." },
     situacion: "conocimiento",
+    translation: { en: "oratic" },
   },
   {
     id: "orfre",
@@ -28378,6 +28431,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "organográfico", text: "«organográfico»." },
     exampleSynonym: { word: "relativo a la organografía", text: "«relativo a la organografía»." },
     situacion: "conocimiento",
+    translation: { en: "organographic" },
   },
   {
     id: "organologia",
@@ -28399,6 +28453,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "orientano", text: "«orientano»." },
     exampleSynonym: { word: "relativo a Oriente", text: "«relativo a Oriente»." },
     situacion: "conocimiento",
+    translation: { en: "oriental" },
   },
   {
     id: "orlador",
@@ -28409,6 +28464,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "orlador", text: "«orlador»." },
     exampleSynonym: { word: "que orla, que pone una orla o adorno en el borde de algo", text: "«que orla, que pone una orla o adorno en el borde de algo»." },
     situacion: "conocimiento",
+    translation: { en: "orlator" },
   },
   {
     id: "ormesi",
@@ -28429,6 +28485,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "ornitodelfo", text: "«ornitodelfo»." },
     exampleSynonym: { word: "relacionado con un género de mamíferos que incluye al ornitorrinco", text: "«relacionado con un género de mamíferos que incluye al ornitorrinco»." },
     situacion: "conocimiento",
+    translation: { en: "ornithodelfo" },
   },
   {
     id: "orobancaceo",
@@ -28479,6 +28536,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "otacústico", text: "«otacústico»." },
     exampleSynonym: { word: "relativo al oído o a la audición", text: "«relativo al oído o a la audición»." },
     situacion: "conocimiento",
+    translation: { en: "otacoustic" },
   },
   {
     id: "otomaco",
@@ -28519,6 +28577,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "ovidiano", text: "«ovidiano»." },
     exampleSynonym: { word: "perteneciente o relativo al poeta romano Ovidio", text: "«perteneciente o relativo al poeta romano Ovidio»." },
     situacion: "conocimiento",
+    translation: { en: "ovidian" },
   },
   {
     id: "ovoso",
@@ -28529,6 +28588,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "ovoso", text: "«ovoso»." },
     exampleSynonym: { word: "que tiene forma o aspecto de huevo", text: "«que tiene forma o aspecto de huevo»." },
     situacion: "conocimiento",
+    translation: { en: "ovy" },
   },
   {
     id: "oxalidaceo",
@@ -28539,6 +28599,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "oxalidáceo", text: "«oxalidáceo»." },
     exampleSynonym: { word: "relativo a las oxalidáceas, una familia de plantas dicotiledóneas", text: "«relativo a las oxalidáceas, una familia de plantas dicotiledóneas»." },
     situacion: "conocimiento",
+    translation: { en: "oxalidaceae" },
   },
   {
     id: "oxalideo",
@@ -28549,6 +28610,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "oxalídeo", text: "«oxalídeo»." },
     exampleSynonym: { word: "relativo a las oxalidáceas, una familia de plantas dicotiledóneas", text: "«relativo a las oxalidáceas, una familia de plantas dicotiledóneas»." },
     situacion: "conocimiento",
+    translation: { en: "oxalid" },
   },
   {
     id: "pacedero",
@@ -28579,6 +28641,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "pacienzudo", text: "«pacienzudo»." },
     exampleSynonym: { word: "que tiene mucha paciencia", text: "«que tiene mucha paciencia»." },
     situacion: "conocimiento",
+    translation: { en: "patient" },
   },
   {
     id: "pafio",
@@ -28640,6 +28703,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "palahierro", text: "«palahierro»." },
     exampleSynonym: { word: "herramienta parecida a una pala, usada para remover hierro candente", text: "«herramienta parecida a una pala, usada para remover hierro candente»." },
     situacion: "conocimiento",
+    translation: { en: "ironsword" },
   },
   {
     id: "palancon",
