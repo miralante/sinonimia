@@ -13,9 +13,9 @@
 window.SINONIMIA_DICTIONARY_SHARDS = {
   es: [
     { file: "js/data.es.js", src: "js/data.es.js?v=1611d3717b" },
-    { file: "js/data.es.2.js", src: "js/data.es.2.js?v=d6fc5fb8a1" },
+    { file: "js/data.es.2.js", src: "js/data.es.2.js?v=d1922e82bd" },
   ],
   en: [
-    { file: "js/data.en.js", src: "js/data.en.js?v=e2f1766fa2" },
+    { file: "js/data.en.js", src: "js/data.en.js?v=dfaebbb40d" },
   ],
 };
