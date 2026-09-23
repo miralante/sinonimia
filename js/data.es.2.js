@@ -12468,6 +12468,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "capricorniano", text: "«capricorniano»." },
     exampleSynonym: { word: "perteneciente o relativo al signo zodiacal de Capricornio", text: "«perteneciente o relativo al signo zodiacal de Capricornio»." },
     situacion: "conocimiento",
+    translation: { en: "capricorn" },
   },
   {
     id: "capripedo",
@@ -12478,6 +12479,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "caprípedo", text: "«caprípedo»." },
     exampleSynonym: { word: "que tiene pies de cabra", text: "«que tiene pies de cabra»." },
     situacion: "conocimiento",
+    translation: { en: "capriped" },
   },
   {
     id: "capulo",
@@ -12488,6 +12490,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cápulo", text: "«cápulo»." },
     exampleSynonym: { word: "inflorescencia en forma de cabezuela o racimo muy contraído", text: "«inflorescencia en forma de cabezuela o racimo muy contraído»." },
     situacion: "conocimiento",
+    translation: { en: "capule" },
   },
   {
     id: "caquectico",
@@ -12498,6 +12501,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "caquéctico", text: "«caquéctico»." },
     exampleSynonym: { word: "relacionado con la caquexia o que padece de ella", text: "«relacionado con la caquexia o que padece de ella»." },
     situacion: "conocimiento",
+    translation: { en: "cachectic" },
   },
   {
     id: "caquetio",
@@ -12528,6 +12532,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "carachoso", text: "«carachoso»." },
     exampleSynonym: { word: "que tiene muchas carachas o imperfecciones en la piel", text: "«que tiene muchas carachas o imperfecciones en la piel»." },
     situacion: "conocimiento",
+    translation: { en: "carousy" },
   },
   {
     id: "caracoa",
@@ -12548,6 +12553,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "caracterismo", text: "«caracterismo»." },
     exampleSynonym: { word: "uso excesivo o abuso de las características propias de algo o alguien", text: "«uso excesivo o abuso de las características propias de algo o alguien»." },
     situacion: "conocimiento",
+    translation: { en: "characterism" },
   },
   {
     id: "caracul",
@@ -12688,6 +12694,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cargareme", text: "«cargareme»." },
     exampleSynonym: { word: "término desusado que se refería a un tipo de embarcación", text: "«término desusado que se refería a un tipo de embarcación»." },
     situacion: "conocimiento",
+    translation: { en: "i-will-carry-me" },
   },
   {
     id: "carguillero",
@@ -12728,6 +12735,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "carialzado", text: "«carialzado»." },
     exampleSynonym: { word: "dicho de una persona, que tiene la nariz respingona o levantada", text: "«dicho de una persona, que tiene la nariz respingona o levantada»." },
     situacion: "conocimiento",
+    translation: { en: "carialized" },
   },
   {
     id: "cariampollado",
@@ -12738,6 +12746,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cariampollado", text: "«cariampollado»." },
     exampleSynonym: { word: "dicho de una persona, que tiene cariampollas", text: "«dicho de una persona, que tiene cariampollas»." },
     situacion: "conocimiento",
+    translation: { en: "blistered" },
   },
   {
     id: "cariampollar",
@@ -12768,6 +12777,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "caricáceo", text: "«caricáceo»." },
     exampleSynonym: { word: "relativo a la familia de las Caricáceas, que incluye plantas como el papayo", text: "«relativo a la familia de las Caricáceas, que incluye plantas como el papayo»." },
     situacion: "conocimiento",
+    translation: { en: "caricaceous" },
   },
   {
     id: "carichato",
@@ -12818,6 +12828,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cariocariáceo", text: "«cariocariáceo»." },
     exampleSynonym: { word: "relativo a la familia de las plantas Caryocaraceae", text: "«relativo a la familia de las plantas Caryocaraceae»." },
     situacion: "conocimiento",
+    translation: { en: "cariocariaceous" },
   },
   {
     id: "cariocinetico",
@@ -12828,6 +12839,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cariocinético", text: "«cariocinético»." },
     exampleSynonym: { word: "relativo o perteneciente a la cariocinesis", text: "«relativo o perteneciente a la cariocinesis»." },
     situacion: "conocimiento",
+    translation: { en: "karyokinetic" },
   },
   {
     id: "cariofilaceo",
@@ -12838,6 +12850,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cariofiláceo", text: "«cariofiláceo»." },
     exampleSynonym: { word: "relativo a la familia de las plantas Caryophyllaceae", text: "«relativo a la familia de las plantas Caryophyllaceae»." },
     situacion: "conocimiento",
+    translation: { en: "caryophylaceous" },
   },
   {
     id: "cariofileo",
@@ -12848,6 +12861,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cariofileo", text: "«cariofileo»." },
     exampleSynonym: { word: "relativo a la familia de las plantas Caryophyllaceae", text: "«relativo a la familia de las plantas Caryophyllaceae»." },
     situacion: "conocimiento",
+    translation: { en: "caryophyleum" },
   },
   {
     id: "carlancon",
@@ -12919,6 +12933,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "carpófago", text: "«carpófago»." },
     exampleSynonym: { word: "se dice de los animales que se alimentan de frutos", text: "«se dice de los animales que se alimentan de frutos»." },
     situacion: "conocimiento",
+    translation: { en: "carpophagus" },
   },
   {
     id: "carrancudo",
@@ -12969,6 +12984,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "carraspiento", text: "«carraspiento»." },
     exampleSynonym: { word: "que tiene tendencia a carraspear o que carraspea con frecuencia", text: "«que tiene tendencia a carraspear o que carraspea con frecuencia»." },
     situacion: "conocimiento",
+    translation: { en: "throat" },
   },
   {
     id: "carredano",
@@ -12999,6 +13015,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "carroñoso", text: "«carroñoso»." },
     exampleSynonym: { word: "que tiene carroña o se parece a ella, especialmente en el mal olor", text: "«que tiene carroña o se parece a ella, especialmente en el mal olor»." },
     situacion: "conocimiento",
+    translation: { en: "carrionous" },
   },
   {
     id: "carrujado",
@@ -13019,6 +13036,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cartilágine", text: "«cartilágine»." },
     exampleSynonym: { word: "variante poco común para referirse al cartílago", text: "«variante poco común para referirse al cartílago»." },
     situacion: "conocimiento",
+    translation: { en: "cartilage" },
   },
   {
     id: "cartometria",
@@ -13029,6 +13047,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cartometría", text: "«cartometría»." },
     exampleSynonym: { word: "medición de distancias en mapas y planos", text: "«medición de distancias en mapas y planos»." },
     situacion: "conocimiento",
+    translation: { en: "cartometry" },
   },
   {
     id: "cartometrico",
@@ -13039,6 +13058,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cartométrico", text: "«cartométrico»." },
     exampleSynonym: { word: "relacionado con la cartometría", text: "«relacionado con la cartometría»." },
     situacion: "conocimiento",
+    translation: { en: "cartometric" },
   },
   {
     id: "casariego",
@@ -13079,6 +13099,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "caseico", text: "«caseico»." },
     exampleSynonym: { word: "perteneciente o relativo al queso", text: "«perteneciente o relativo al queso»." },
     situacion: "conocimiento",
+    translation: { en: "caseic" },
   },
   {
     id: "casmeno",
@@ -13129,6 +13150,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "castrapuercas", text: "«castrapuercas»." },
     exampleSynonym: { word: "instrumento utilizado para castrar cerdas", text: "«instrumento utilizado para castrar cerdas»." },
     situacion: "conocimiento",
+    translation: { en: "hogcatcher" },
   },
   {
     id: "castrino",
@@ -13149,6 +13171,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "casuárido", text: "«casuárido»." },
     exampleSynonym: { word: "relativo a los casuares", text: "«relativo a los casuares»." },
     situacion: "conocimiento",
+    translation: { en: "casuarid" },
   },
   {
     id: "casuarinaceo",
@@ -13159,6 +13182,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "casuarináceo", text: "«casuarináceo»." },
     exampleSynonym: { word: "relativo a las casuarinas o a la familia botánica Casuarinaceae", text: "«relativo a las casuarinas o a la familia botánica Casuarinaceae»." },
     situacion: "conocimiento",
+    translation: { en: "casuarinaceous" },
   },
   {
     id: "catalaunico",
@@ -13179,6 +13203,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "catequético", text: "«catequético»." },
     exampleSynonym: { word: "relativo a la catequesis o al catequismo", text: "«relativo a la catequesis o al catequismo»." },
     situacion: "conocimiento",
+    translation: { en: "catechetical" },
   },
   {
     id: "catingudo",
@@ -13199,6 +13224,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "catoquita", text: "«catoquita»." },
     exampleSynonym: { word: "mineral compuesto de óxido de níquel y magnesio, de color verde oscuro", text: "«mineral compuesto de óxido de níquel y magnesio, de color verde oscuro»." },
     situacion: "conocimiento",
+    translation: { en: "catochite" },
   },
   {
     id: "cauba",
@@ -13219,6 +13245,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cauchicultor", text: "«cauchicultor»." },
     exampleSynonym: { word: "persona que se dedica al cultivo del caucho", text: "«persona que se dedica al cultivo del caucho»." },
     situacion: "conocimiento",
+    translation: { en: "rubber-farmer" },
   },
   {
     id: "cauje",
@@ -13239,6 +13266,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "caulescente", text: "«caulescente»." },
     exampleSynonym: { word: "dicho de una planta, que tiene tallo aparente", text: "«dicho de una planta, que tiene tallo aparente»." },
     situacion: "conocimiento",
+    translation: { en: "caulescent" },
   },
   {
     id: "caulifero",
@@ -13249,6 +13277,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "caulífero", text: "«caulífero»." },
     exampleSynonym: { word: "que lleva o produce tallos", text: "«que lleva o produce tallos»." },
     situacion: "conocimiento",
+    translation: { en: "cauliferous" },
   },
   {
     id: "causidico",
@@ -13259,6 +13288,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "causídico", text: "«causídico»." },
     exampleSynonym: { word: "término anticuado o en desuso para referirse a un abogado", text: "«término anticuado o en desuso para referirse a un abogado»." },
     situacion: "conocimiento",
+    translation: { en: "causidic" },
   },
   {
     id: "cavadizo",
@@ -13349,6 +13379,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cebollón", text: "«cebollón»." },
     exampleSynonym: { word: "cebolla grande o de tamaño considerable", text: "«cebolla grande o de tamaño considerable»." },
     situacion: "conocimiento",
+    translation: { en: "chives" },
   },
   {
     id: "cebolludo",
@@ -13439,6 +13470,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cejunto", text: "«cejunto»." },
     exampleSynonym: { word: "que tiene las cejas juntas", text: "«que tiene las cejas juntas»." },
     situacion: "conocimiento",
+    translation: { en: "cejun" },
   },
   {
     id: "celastraceo",
@@ -13449,6 +13481,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "celastráceo", text: "«celastráceo»." },
     exampleSynonym: { word: "relativo a la familia de plantas Celastraceae", text: "«relativo a la familia de plantas Celastraceae»." },
     situacion: "conocimiento",
+    translation: { en: "celastracean" },
   },
   {
     id: "celastrineo",
@@ -13459,6 +13492,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "celastríneo", text: "«celastríneo»." },
     exampleSynonym: { word: "relativo a los celastros", text: "«relativo a los celastros»." },
     situacion: "conocimiento",
+    translation: { en: "celastrine" },
   },
   {
     id: "celebrador",
@@ -13469,6 +13503,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "celebrador", text: "«celebrador»." },
     exampleSynonym: { word: "que celebra o realiza una celebración", text: "«que celebra o realiza una celebración»." },
     situacion: "conocimiento",
+    translation: { en: "celebrator" },
   },
   {
     id: "celeminero",
@@ -13489,6 +13524,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "celestinesco", text: "«celestinesco»." },
     exampleSynonym: { word: "relativo a la celestina o al celestineo", text: "«relativo a la celestina o al celestineo»." },
     situacion: "conocimiento",
+    translation: { en: "celestinesque" },
   },
   {
     id: "celoidina",
@@ -13499,6 +13535,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "celoidina", text: "«celoidina»." },
     exampleSynonym: { word: "pólvora sin humo hecha de algodón pólvora y éter o alcohol", text: "«pólvora sin humo hecha de algodón pólvora y éter o alcohol»." },
     situacion: "conocimiento",
+    translation: { en: "celloidin" },
   },
   {
     id: "celtideo",
@@ -13509,6 +13546,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "celtídeo", text: "«celtídeo»." },
     exampleSynonym: { word: "relativo a los celtas", text: "«relativo a los celtas»." },
     situacion: "conocimiento",
+    translation: { en: "celtidean" },
   },
   {
     id: "celtohispanico",
@@ -13519,6 +13557,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "celtohispánico", text: "«celtohispánico»." },
     exampleSynonym: { word: "relativo a la cultura y pueblos de origen celta en la Hispania antigua", text: "«relativo a la cultura y pueblos de origen celta en la Hispania antigua»." },
     situacion: "conocimiento",
+    translation: { en: "celtohispanic" },
   },
   {
     id: "celtohispano",
@@ -13559,6 +13598,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "celulósico", text: "«celulósico»." },
     exampleSynonym: { word: "relativo a la celulosa", text: "«relativo a la celulosa»." },
     situacion: "conocimiento",
+    translation: { en: "cellulosic" },
   },
   {
     id: "cementoso",
@@ -13569,6 +13609,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cementoso", text: "«cementoso»." },
     exampleSynonym: { word: "que tiene la naturaleza o las propiedades del cemento", text: "«que tiene la naturaleza o las propiedades del cemento»." },
     situacion: "conocimiento",
+    translation: { en: "cementy" },
   },
   {
     id: "cencapa",
@@ -13609,6 +13650,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cenizoso", text: "«cenizoso»." },
     exampleSynonym: { word: "que contiene ceniza o tiene su aspecto", text: "«que contiene ceniza o tiene su aspecto»." },
     situacion: "conocimiento",
+    translation: { en: "ashy" },
   },
   {
     id: "censador",
@@ -13629,6 +13671,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "centenoso", text: "«centenoso»." },
     exampleSynonym: { word: "que tiene muchas centenas o que está compuesto de ellas", text: "«que tiene muchas centenas o que está compuesto de ellas»." },
     situacion: "conocimiento",
+    translation: { en: "rye" },
   },
   {
     id: "centillero",
@@ -13649,6 +13692,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "centiplicado", text: "«centiplicado»." },
     exampleSynonym: { word: "que ha sido aumentado o multiplicado por cien", text: "«que ha sido aumentado o multiplicado por cien»." },
     situacion: "conocimiento",
+    translation: { en: "centiplicated" },
   },
   {
     id: "centrarco",
@@ -13659,6 +13703,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "centrarco", text: "«centrarco»." },
     exampleSynonym: { word: "arco de círculo menor que el semicírculo", text: "«arco de círculo menor que el semicírculo»." },
     situacion: "conocimiento",
+    translation: { en: "centrorco" },
   },
   {
     id: "centrina",
@@ -13669,6 +13714,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "centrina", text: "«centrina»." },
     exampleSynonym: { word: "proteína que forma parte de los centriolos y otros elementos celulares", text: "«proteína que forma parte de los centriolos y otros elementos celulares»." },
     situacion: "conocimiento",
+    translation: { en: "centrine" },
   },
   {
     id: "centunvirato",
@@ -13679,6 +13725,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "centunvirato", text: "«centunvirato»." },
     exampleSynonym: { word: "colegio de ciento un jueces en la antigua Roma", text: "«colegio de ciento un jueces en la antigua Roma»." },
     situacion: "conocimiento",
+    translation: { en: "centunvirate" },
   },
   {
     id: "cenzalino",
@@ -13689,6 +13736,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cenzalino", text: "«cenzalino»." },
     exampleSynonym: { word: "perteneciente o relativo al cenzontle o a su canto", text: "«perteneciente o relativo al cenzontle o a su canto»." },
     situacion: "conocimiento",
+    translation: { en: "cenzaline" },
   },
   {
     id: "cepejon",
@@ -13759,6 +13807,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "ceretano", text: "«ceretano»." },
     exampleSynonym: { word: "relativo a la ciudad de Ceres o a sus habitantes", text: "«relativo a la ciudad de Ceres o a sus habitantes»." },
     situacion: "conocimiento",
+    translation: { en: "ceretane" },
   },
   {
     id: "cerifero",
@@ -13769,6 +13818,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cerífero", text: "«cerífero»." },
     exampleSynonym: { word: "que lleva o produce cera", text: "«que lleva o produce cera»." },
     situacion: "conocimiento",
+    translation: { en: "ceriferous" },
   },
   {
     id: "cernaja",
@@ -13809,6 +13859,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "ceroplástica", text: "«ceroplástica»." },
     exampleSynonym: { word: "arte de modelar figuras en cera", text: "«arte de modelar figuras en cera»." },
     situacion: "conocimiento",
+    translation: { en: "ceroplastic" },
   },
   {
     id: "cerradizo",
@@ -13819,6 +13870,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cerradizo", text: "«cerradizo»." },
     exampleSynonym: { word: "que se cierra con facilidad o frecuencia", text: "«que se cierra con facilidad o frecuencia»." },
     situacion: "conocimiento",
+    translation: { en: "lockable" },
   },
   {
     id: "cerrateno",
@@ -13859,6 +13911,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cervantófilo", text: "«cervantófilo»." },
     exampleSynonym: { word: "aficionado o amante de la obra de Miguel de Cervantes Saavedra", text: "«aficionado o amante de la obra de Miguel de Cervantes Saavedra»." },
     situacion: "conocimiento",
+    translation: { en: "cervantophile" },
   },
   {
     id: "cesenes",
@@ -13929,6 +13982,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "chalanesco", text: "«chalanesco»." },
     exampleSynonym: { word: "relativo a la chalanería o a los chalanes", text: "«relativo a la chalanería o a los chalanes»." },
     situacion: "conocimiento",
+    translation: { en: "chalanesque" },
   },
   {
     id: "challapateno",
@@ -13959,6 +14013,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "chambeador", text: "«chambeador»." },
     exampleSynonym: { word: "que trabaja mucho o es muy activo en su labor", text: "«que trabaja mucho o es muy activo en su labor»." },
     situacion: "conocimiento",
+    translation: { en: "chamberer" },
   },
   {
     id: "chamicado",
@@ -14029,6 +14084,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "chaparrudo", text: "«chaparrudo»." },
     exampleSynonym: { word: "fuerte, robusto, de aspecto recio", text: "«fuerte, robusto, de aspecto recio»." },
     situacion: "conocimiento",
+    translation: { en: "shorty" },
   },
   {
     id: "chapinismo",
@@ -14039,6 +14095,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "chapinismo", text: "«chapinismo»." },
     exampleSynonym: { word: "uso o costumbre de llevar chapines", text: "«uso o costumbre de llevar chapines»." },
     situacion: "conocimiento",
+    translation: { en: "chapinism" },
   },
   {
     id: "charaneno",
