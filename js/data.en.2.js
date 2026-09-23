@@ -173787,4 +173787,17 @@ DICCIONARIOS.en = DICCIONARIOS.en.concat([{"id":"migraine-2","word":"Migraine","
     situacion: "conocimiento",
     translation: { "es": "trillonesimo" },
   },
+
+  // --- Translated synonymy batch 286 ---
+  {
+    id: "unravel-32",
+    word: "unravel",
+    image: { id: 2450, alt: "Information and knowledge" },
+    definition: "Untangle, clarify.",
+    synonyms: ["place"],
+    example: { word: "unravel", text: "The term “unravel” refers to Untangle, clarify.." },
+    exampleSynonym: { word: "place", text: "The term “place” refers to Untangle, clarify.." },
+    situacion: "conocimiento",
+    translation: { "es": "desembrollar" },
+  },
 ]);
