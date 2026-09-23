@@ -67700,6 +67700,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "trasfijo", text: "«trasfijo»." },
     exampleSynonym: { word: "Atravesado o traspasado con un arma u otra cosa puntiaguda", text: "«Atravesado o traspasado con un arma u otra cosa puntiaguda»." },
     situacion: "conocimiento",
+    translation: { en: "transfer-17" },
   },
   {
     id: "trasfollado",
