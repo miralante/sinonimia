@@ -53598,6 +53598,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "bienfechor", text: "«bienfechor»." },
     exampleSynonym: { word: "bienhechor. Era u. t. c. s", text: "«bienhechor. Era u. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "do-gooder" },
   },
   {
     id: "bipontino",
@@ -55965,6 +55966,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "contravenidor", text: "«contravenidor»." },
     exampleSynonym: { word: "contraventor. Era u. t. c. s", text: "«contraventor. Era u. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "contravener" },
   },
   {
     id: "contraverado",
@@ -56572,6 +56574,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "damnado", text: "«damnado»." },
     exampleSynonym: { word: "réprobo (‖ condenado a las penas eternas). Era u. t. c. s", text: "«réprobo (‖ condenado a las penas eternas). Era u. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "damned" },
   },
   {
     id: "danchado",
@@ -57075,6 +57078,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "desguisado", text: "«desguisado»." },
     exampleSynonym: { word: "desaguisado", text: "«desaguisado»." },
     situacion: "conocimiento",
+    translation: { en: "disguised" },
   },
   {
     id: "deshabido",
@@ -57190,6 +57194,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "despartidor", text: "«despartidor»." },
     exampleSynonym: { word: "Que desparte. Era u. t. c. s", text: "«Que desparte. Era u. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "splitter" },
   },
   {
     id: "despecheretado",
@@ -58204,6 +58209,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "ensolvedor", text: "«ensolvedor»." },
     exampleSynonym: { word: "Que resuelve o declara una cosa o duda. Era u. t. c. s", text: "«Que resuelve o declara una cosa o duda. Era u. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "solver" },
   },
   {
     id: "entremetedor",
@@ -58381,6 +58387,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "escantador", text: "«escantador»." },
     exampleSynonym: { word: "encantador. Era u. t. c. s", text: "«encantador. Era u. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "charmer" },
   },
   {
     id: "escarnidor",
@@ -58391,6 +58398,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "escarnidor", text: "«escarnidor»." },
     exampleSynonym: { word: "escarnecedor. Era u. t. c. s", text: "«escarnecedor. Era u. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "scarener" },
   },
   {
     id: "escasero",
@@ -58513,6 +58521,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "esforzador", text: "«esforzador»." },
     exampleSynonym: { word: "Que esfuerza. Era u. t. c. s", text: "«Que esfuerza. Era u. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "endeavor" },
   },
   {
     id: "espalditendido",
@@ -60645,6 +60654,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "honrador", text: "«honrador»." },
     exampleSynonym: { word: "Que honra. Era u. t. c. s", text: "«Que honra. Era u. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "honoring" },
   },
   {
     id: "horcado",
@@ -61644,6 +61654,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "lanzacabos", text: "«lanzacabos»." },
     exampleSynonym: { word: "cañón lanzacabos", text: "«cañón lanzacabos»." },
     situacion: "conocimiento",
+    translation: { en: "line-launcher" },
   },
   {
     id: "lapidoso",
@@ -62226,6 +62237,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "malencónico", text: "«malencónico»." },
     exampleSynonym: { word: "melancólico. U. en Sal", text: "«melancólico. U. en Sal»." },
     situacion: "conocimiento",
+    translation: { en: "malenconic" },
   },
   {
     id: "malenconioso",
@@ -62367,6 +62379,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "manifacero", text: "«manifacero»." },
     exampleSynonym: { word: "Ar. y Mur. Revoltoso y que se mete en todo. U. t. c. s", text: "«Ar. y Mur. Revoltoso y que se mete en todo. U. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "manifesto" },
   },
   {
     id: "manilargo",
@@ -62600,6 +62613,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "metrificador", text: "«metrificador»." },
     exampleSynonym: { word: "Persona que metrifica. U. frec. en sent. despect., en contraposición a poeta", text: "«Persona que metrifica. U. frec. en sent. despect., en contraposición a poeta»." },
     situacion: "conocimiento",
+    translation: { en: "metrifier" },
   },
   {
     id: "micrografo",
@@ -63927,6 +63941,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "permisor", text: "«permisor»." },
     exampleSynonym: { word: "Que permite", text: "«Que permite»." },
     situacion: "conocimiento",
+    translation: { en: "permittor" },
   },
   {
     id: "permitidero",
@@ -64309,6 +64324,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "prepasado", text: "«prepasado»." },
     exampleSynonym: { word: "ya pasado. Era u. t. c. s", text: "«ya pasado. Era u. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "prepared" },
   },
   {
     id: "prerromanico",
@@ -64391,6 +64407,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "profazador", text: "«profazador»." },
     exampleSynonym: { word: "Chismoso, que con cuentos y enredos procura desavenir a los que se profesan amistad. Era u. t. c. s", text: "«Chismoso, que con cuentos y enredos procura desavenir a los que se profesan amistad. Era u. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "profazer" },
   },
   {
     id: "propagulo",
@@ -64453,6 +64470,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "punidor", text: "«punidor»." },
     exampleSynonym: { word: "Castigador de un culpado. Era u. t. c. s", text: "«Castigador de un culpado. Era u. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "punisher" },
   },
   {
     id: "puntuoso",
@@ -64718,6 +64736,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "recuestador", text: "«recuestador»." },
     exampleSynonym: { word: "Que recuesta (‖ reta). Era u. t. c. s", text: "«Que recuesta (‖ reta). Era u. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "recliner" },
   },
   {
     id: "reedificador",
@@ -66032,6 +66051,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "tamarrizquito", text: "«tamarrizquito»." },
     exampleSynonym: { word: "Muy pequeño", text: "«Muy pequeño»." },
     situacion: "conocimiento",
+    translation: { en: "tamarizquito" },
   },
   {
     id: "tamarrusquito",
@@ -66042,6 +66062,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "tamarrusquito", text: "«tamarrusquito»." },
     exampleSynonym: { word: "Muy pequeño", text: "«Muy pequeño»." },
     situacion: "conocimiento",
+    translation: { en: "tamarusquito" },
   },
   {
     id: "tapido",
@@ -66093,6 +66114,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "tardador", text: "«tardador»." },
     exampleSynonym: { word: "Que tarda o se tarda. Era u. t. c. s", text: "«Que tarda o se tarda. Era u. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "tardy" },
   },
   {
     id: "tardinero",
@@ -66813,6 +66835,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "triduano", text: "«triduano»." },
     exampleSynonym: { word: "De tres días", text: "«De tres días»." },
     situacion: "conocimiento",
+    translation: { en: "triduan" },
   },
   {
     id: "trillonesima",
