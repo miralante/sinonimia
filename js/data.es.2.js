@@ -24899,6 +24899,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "kinesiterápico", text: "«kinesiterápico»." },
     exampleSynonym: { word: "relativo a la kinesiterapia", text: "«relativo a la kinesiterapia»." },
     situacion: "salud",
+    translation: { en: "kinesitherapy-4" },
   },
   {
     id: "labioso",
