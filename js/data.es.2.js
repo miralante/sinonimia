@@ -14186,6 +14186,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "chicoriáceo", text: "«chicoriáceo»." },
     exampleSynonym: { word: "relativo a la chicoria o a la familia de las asteráceas", text: "«relativo a la chicoria o a la familia de las asteráceas»." },
     situacion: "conocimiento",
+    translation: { en: "chicoriaceous" },
   },
   {
     id: "chilmolero",
@@ -14206,6 +14207,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "chiquirritico", text: "«chiquirritico»." },
     exampleSynonym: { word: "diminutivo afectivo para indicar que algo es muy pequeño o diminuto", text: "«diminutivo afectivo para indicar que algo es muy pequeño o diminuto»." },
     situacion: "conocimiento",
+    translation: { en: "chiquirritic" },
   },
   {
     id: "chiquirritin",
@@ -14396,6 +14398,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "chupativo", text: "«chupativo»." },
     exampleSynonym: { word: "que tiene la costumbre de chupar algo con frecuencia", text: "«que tiene la costumbre de chupar algo con frecuencia»." },
     situacion: "conocimiento",
+    translation: { en: "chupative" },
   },
   {
     id: "churrioso",
@@ -14436,6 +14439,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cibeleo", text: "«cibeleo»." },
     exampleSynonym: { word: "relativo a Cibeles, una diosa de la mitología griega y romana", text: "«relativo a Cibeles, una diosa de la mitología griega y romana»." },
     situacion: "conocimiento",
+    translation: { en: "cybeleum" },
   },
   {
     id: "cicadaceo",
@@ -14446,6 +14450,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cicadáceo", text: "«cicadáceo»." },
     exampleSynonym: { word: "relativo a las cicadáceas, una familia de plantas gimnospermas", text: "«relativo a las cicadáceas, una familia de plantas gimnospermas»." },
     situacion: "conocimiento",
+    translation: { en: "cycad" },
   },
   {
     id: "cicadeo",
@@ -14466,6 +14471,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cicindélido", text: "«cicindélido»." },
     exampleSynonym: { word: "relativo a los cicindélidos, una familia de insectos coleópteros", text: "«relativo a los cicindélidos, una familia de insectos coleópteros»." },
     situacion: "conocimiento",
+    translation: { en: "cicindelid" },
   },
   {
     id: "ciclostil",
@@ -14506,6 +14512,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cienmillonésimo", text: "«cienmillonésimo»." },
     exampleSynonym: { word: "que ocupa el lugar número cien millones en una serie", text: "«que ocupa el lugar número cien millones en una serie»." },
     situacion: "conocimiento",
+    translation: { en: "one-hundred-millionth" },
   },
   {
     id: "cienmilmillonesimo",
@@ -14516,6 +14523,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cienmilmillonésimo", text: "«cienmilmillonésimo»." },
     exampleSynonym: { word: "que ocupa el lugar número cien mil millones en una serie", text: "«que ocupa el lugar número cien mil millones en una serie»." },
     situacion: "conocimiento",
+    translation: { en: "one-hundred-billionth" },
   },
   {
     id: "cigarralero",
@@ -14526,6 +14534,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cigarralero", text: "«cigarralero»." },
     exampleSynonym: { word: "persona que posee o cuida un cigarral", text: "«persona que posee o cuida un cigarral»." },
     situacion: "conocimiento",
+    translation: { en: "cigarette-holder" },
   },
   {
     id: "cigofilaceo",
@@ -14536,6 +14545,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cigofiláceo", text: "«cigofiláceo»." },
     exampleSynonym: { word: "relativo a las cigofiláceas, una familia de plantas", text: "«relativo a las cigofiláceas, una familia de plantas»." },
     situacion: "conocimiento",
+    translation: { en: "zygophylaceous" },
   },
   {
     id: "cigofileo",
@@ -14577,6 +14587,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "címbrico", text: "«címbrico»." },
     exampleSynonym: { word: "relativo a los cimbrios, antiguo pueblo germánico", text: "«relativo a los cimbrios, antiguo pueblo germánico»." },
     situacion: "conocimiento",
+    translation: { en: "cimbric" },
   },
   {
     id: "cimentador",
@@ -14597,6 +14608,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cinámico", text: "«cinámico»." },
     exampleSynonym: { word: "relativo a la canela", text: "«relativo a la canela»." },
     situacion: "conocimiento",
+    translation: { en: "cinnamic" },
   },
   {
     id: "cinericio",
@@ -14617,6 +14629,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cingiberáceo", text: "«cingiberáceo»." },
     exampleSynonym: { word: "relativo a la familia de las plantas cingiberáceas, a la que pertenece el jengibre", text: "«relativo a la familia de las plantas cingiberáceas, a la que pertenece el jengibre»." },
     situacion: "conocimiento",
+    translation: { en: "cingiberaceous" },
   },
   {
     id: "cinteado",
@@ -14647,6 +14660,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cipresino", text: "«cipresino»." },
     exampleSynonym: { word: "relativo al ciprés o similar a esta conífera", text: "«relativo al ciprés o similar a esta conífera»." },
     situacion: "conocimiento",
+    translation: { en: "cypressino" },
   },
   {
     id: "circunfuso",
@@ -14657,6 +14671,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "circunfuso", text: "«circunfuso»." },
     exampleSynonym: { word: "difuso, que se extiende vagamente en varias direcciones", text: "«difuso, que se extiende vagamente en varias direcciones»." },
     situacion: "conocimiento",
+    translation: { en: "circumfuse" },
   },
   {
     id: "cireneo",
@@ -14667,6 +14682,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cireneo", text: "«cireneo»." },
     exampleSynonym: { word: "natural de Cirene, antigua ciudad de la actual Libia", text: "«natural de Cirene, antigua ciudad de la actual Libia»." },
     situacion: "conocimiento",
+    translation: { en: "cyrenean" },
   },
   {
     id: "cirigallo",
@@ -14707,6 +14723,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cistáceo", text: "«cistáceo»." },
     exampleSynonym: { word: "relativo a la familia de las Cistáceas, que son un grupo de plantas dicotiledóneas", text: "«relativo a la familia de las Cistáceas, que son un grupo de plantas dicotiledóneas»." },
     situacion: "conocimiento",
+    translation: { en: "cystacean" },
   },
   {
     id: "cistineo",
@@ -14717,6 +14734,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cistíneo", text: "«cistíneo»." },
     exampleSynonym: { word: "relativo a los cistíneos, una subfamilia de aves", text: "«relativo a los cistíneos, una subfamilia de aves»." },
     situacion: "conocimiento",
+    translation: { en: "cystineus" },
   },
   {
     id: "citaredo",
@@ -14747,6 +14765,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "citramontano", text: "«citramontano»." },
     exampleSynonym: { word: "situado al otro lado de los montes", text: "«situado al otro lado de los montes»." },
     situacion: "conocimiento",
+    translation: { en: "citramontane" },
   },
   {
     id: "clapa",
@@ -14787,6 +14806,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "clariniano", text: "«clariniano»." },
     exampleSynonym: { word: "relativo a Clarín, pseudónimo del escritor español Leopoldo Alas", text: "«relativo a Clarín, pseudónimo del escritor español Leopoldo Alas»." },
     situacion: "conocimiento",
+    translation: { en: "clarinian" },
   },
   {
     id: "clavadizo",
@@ -14807,6 +14827,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "claviculado", text: "«claviculado»." },
     exampleSynonym: { word: "que tiene forma de clavícula o está relacionado con ella", text: "«que tiene forma de clavícula o está relacionado con ella»." },
     situacion: "conocimiento",
+    translation: { en: "claviculated" },
   },
   {
     id: "clibano",
@@ -14817,6 +14838,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "clíbano", text: "«clíbano»." },
     exampleSynonym: { word: "horno o estufa antigua", text: "«horno o estufa antigua»." },
     situacion: "conocimiento",
+    translation: { en: "clibanus" },
   },
   {
     id: "cliceno",
@@ -14837,6 +14859,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cloratado", text: "«cloratado»." },
     exampleSynonym: { word: "que contiene clorato o está tratado con clorato", text: "«que contiene clorato o está tratado con clorato»." },
     situacion: "conocimiento",
+    translation: { en: "chlorinated" },
   },
   {
     id: "cloritico",
@@ -14847,6 +14870,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "clorítico", text: "«clorítico»." },
     exampleSynonym: { word: "perteneciente o relativo al cloro", text: "«perteneciente o relativo al cloro»." },
     situacion: "conocimiento",
+    translation: { en: "chloritic" },
   },
   {
     id: "clorotico",
@@ -14868,6 +14892,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cneoráceo", text: "«cneoráceo»." },
     exampleSynonym: { word: "relativo a una familia de plantas dicotiledóneas, típicas de regiones mediterráneas", text: "«relativo a una familia de plantas dicotiledóneas, típicas de regiones mediterráneas»." },
     situacion: "conocimiento",
+    translation: { en: "cneoraceous" },
   },
   {
     id: "coadministrador",
@@ -14899,6 +14924,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "coaguloso", text: "«coaguloso»." },
     exampleSynonym: { word: "que tiene la propiedad de coagular o que está coagulado", text: "«que tiene la propiedad de coagular o que está coagulado»." },
     situacion: "conocimiento",
+    translation: { en: "clotted" },
   },
   {
     id: "coautor",
@@ -14909,6 +14935,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "coautor", text: "«coautor»." },
     exampleSynonym: { word: "persona que es autor de una obra conjuntamente con otra u otras", text: "«persona que es autor de una obra conjuntamente con otra u otras»." },
     situacion: "conocimiento",
+    translation: { en: "co-author" },
   },
   {
     id: "cobreno",
@@ -14929,6 +14956,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cocedizo", text: "«cocedizo»." },
     exampleSynonym: { word: "que se cuece con facilidad", text: "«que se cuece con facilidad»." },
     situacion: "conocimiento",
+    translation: { en: "coedice" },
   },
   {
     id: "cochastro",
@@ -14990,6 +15018,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "codirector", text: "«codirector»." },
     exampleSynonym: { word: "que codirige", text: "«que codirige»." },
     situacion: "conocimiento",
+    translation: { en: "co-director" },
   },
   {
     id: "codorro",
@@ -15020,6 +15049,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "coeditor", text: "«coeditor»." },
     exampleSynonym: { word: "persona o entidad que coedita una obra", text: "«persona o entidad que coedita una obra»." },
     situacion: "conocimiento",
+    translation: { en: "co-editor" },
   },
   {
     id: "coeterno",
@@ -15030,6 +15060,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "coeterno", text: "«coeterno»." },
     exampleSynonym: { word: "que existe y ha existido siempre conjuntamente con otra cosa o persona", text: "«que existe y ha existido siempre conjuntamente con otra cosa o persona»." },
     situacion: "conocimiento",
+    translation: { en: "coeternal" },
   },
   {
     id: "cofrero",
@@ -15050,6 +15081,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cogermano", text: "«cogermano»." },
     exampleSynonym: { word: "hermano por parte de uno de los progenitores", text: "«hermano por parte de uno de los progenitores»." },
     situacion: "conocimiento",
+    translation: { en: "catchman" },
   },
   {
     id: "cogitativo",
@@ -15060,6 +15092,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cogitativo", text: "«cogitativo»." },
     exampleSynonym: { word: "relativo a la facultad de pensar", text: "«relativo a la facultad de pensar»." },
     situacion: "conocimiento",
+    translation: { en: "cogitative" },
   },
   {
     id: "cogotera",
@@ -15101,6 +15134,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "colativo", text: "«colativo»." },
     exampleSynonym: { word: "perteneciente o relativo al colado o filtrado", text: "«perteneciente o relativo al colado o filtrado»." },
     situacion: "conocimiento",
+    translation: { en: "colative" },
   },
   {
     id: "colchero",
@@ -15111,6 +15145,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "colchero", text: "«colchero»." },
     exampleSynonym: { word: "persona que se dedica a fabricar o vender colchas", text: "«persona que se dedica a fabricar o vender colchas»." },
     situacion: "conocimiento",
+    translation: { en: "quilter" },
   },
   {
     id: "colicano",
@@ -15141,6 +15176,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "colinérgico", text: "«colinérgico»." },
     exampleSynonym: { word: "relacionado con la acetilcolina o a la neurotransmisión que implica su uso", text: "«relacionado con la acetilcolina o a la neurotransmisión que implica su uso»." },
     situacion: "conocimiento",
+    translation: { en: "cholinergic" },
   },
   {
     id: "coloideo",
@@ -15161,6 +15197,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "colorativo", text: "«colorativo»." },
     exampleSynonym: { word: "que tiene la propiedad de dar color", text: "«que tiene la propiedad de dar color»." },
     situacion: "conocimiento",
+    translation: { en: "colorative" },
   },
   {
     id: "colquechaqueno",
@@ -15181,6 +15218,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "colquicáceo", text: "«colquicáceo»." },
     exampleSynonym: { word: "perteneciente a la familia de las plantas Colchicaceae", text: "«perteneciente a la familia de las plantas Colchicaceae»." },
     situacion: "conocimiento",
+    translation: { en: "colchicaceous" },
   },
   {
     id: "colusor",
@@ -15191,6 +15229,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "colusor", text: "«colusor»." },
     exampleSynonym: { word: "persona que participa en una colusión", text: "«persona que participa en una colusión»." },
     situacion: "conocimiento",
+    translation: { en: "colluder" },
   },
   {
     id: "comadrero",
@@ -15221,6 +15260,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "combretáceo", text: "«combretáceo»." },
     exampleSynonym: { word: "relativo a la familia de las Combretáceas, que es un grupo de plantas dicotiledóneas", text: "«relativo a la familia de las Combretáceas, que es un grupo de plantas dicotiledóneas»." },
     situacion: "conocimiento",
+    translation: { en: "combretaceous" },
   },
   {
     id: "commelinaceo",
@@ -15231,6 +15271,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "commelináceo", text: "«commelináceo»." },
     exampleSynonym: { word: "relativo a las Commelinaceae, una familia de plantas monocotiledóneas", text: "«relativo a las Commelinaceae, una familia de plantas monocotiledóneas»." },
     situacion: "conocimiento",
+    translation: { en: "commelinaceous" },
   },
   {
     id: "compaisano",
@@ -15241,6 +15282,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "compaisano", text: "«compaisano»." },
     exampleSynonym: { word: "dicho de una persona, que es del mismo país o región que otra", text: "«dicho de una persona, que es del mismo país o región que otra»." },
     situacion: "conocimiento",
+    translation: { en: "compasiano" },
   },
   {
     id: "compartidor",
@@ -15251,6 +15293,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "compartidor", text: "«compartidor»." },
     exampleSynonym: { word: "persona que comparte algo con otros", text: "«persona que comparte algo con otros»." },
     situacion: "conocimiento",
+    translation: { en: "sharer" },
   },
   {
     id: "compaternidad",
@@ -15271,6 +15314,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "compensativo", text: "«compensativo»." },
     exampleSynonym: { word: "relativo a la compensación", text: "«relativo a la compensación»." },
     situacion: "conocimiento",
+    translation: { en: "compensatory" },
   },
   {
     id: "completivo",
@@ -15291,6 +15335,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "comprensor", text: "«comprensor»." },
     exampleSynonym: { word: "que comprime", text: "«que comprime»." },
     situacion: "conocimiento",
+    translation: { en: "compressor" },
   },
   {
     id: "compresivo",
@@ -15301,6 +15346,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "compresivo", text: "«compresivo»." },
     exampleSynonym: { word: "que tiene la capacidad de compresión o comprensión", text: "«que tiene la capacidad de compresión o comprensión»." },
     situacion: "conocimiento",
+    translation: { en: "compressive" },
   },
   {
     id: "compungivo",
@@ -15322,6 +15368,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "conativo", text: "«conativo»." },
     exampleSynonym: { word: "perteneciente o relativo al conato o al esfuerzo", text: "«perteneciente o relativo al conato o al esfuerzo»." },
     situacion: "conocimiento",
+    translation: { en: "conative" },
   },
   {
     id: "concercano",
@@ -15332,6 +15379,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "concercano", text: "«concercano»." },
     exampleSynonym: { word: "que está muy cercano o próximo en el espacio o en el tiempo", text: "«que está muy cercano o próximo en el espacio o en el tiempo»." },
     situacion: "conocimiento",
+    translation: { en: "nearby" },
   },
   {
     id: "concesivo",
@@ -15342,6 +15390,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "concesivo", text: "«concesivo»." },
     exampleSynonym: { word: "relativo a la concesión o al acto de conceder", text: "«relativo a la concesión o al acto de conceder»." },
     situacion: "conocimiento",
+    translation: { en: "concessive" },
   },
   {
     id: "conchifero",
@@ -15362,6 +15411,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "concitativo", text: "«concitativo»." },
     exampleSynonym: { word: "relativo a la acción de concitar", text: "«relativo a la acción de concitar»." },
     situacion: "conocimiento",
+    translation: { en: "concitative" },
   },
   {
     id: "concoideo",
@@ -15382,6 +15432,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "concordador", text: "«concordador»." },
     exampleSynonym: { word: "que concuerda, que hace que algo esté de acuerdo o en armonía", text: "«que concuerda, que hace que algo esté de acuerdo o en armonía»." },
     situacion: "conocimiento",
+    translation: { en: "concordator" },
   },
   {
     id: "concordativo",
@@ -15392,6 +15443,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "concordativo", text: "«concordativo»." },
     exampleSynonym: { word: "relativo a la concordancia", text: "«relativo a la concordancia»." },
     situacion: "conocimiento",
+    translation: { en: "concordative" },
   },
   {
     id: "concorporeo",
@@ -15413,6 +15465,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "concreado", text: "«concreado»." },
     exampleSynonym: { word: "creado conjuntamente con otra cosa", text: "«creado conjuntamente con otra cosa»." },
     situacion: "conocimiento",
+    translation: { en: "concreated" },
   },
   {
     id: "condensativo",
@@ -15423,6 +15476,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "condensativo", text: "«condensativo»." },
     exampleSynonym: { word: "relativo a la condensación", text: "«relativo a la condensación»." },
     situacion: "conocimiento",
+    translation: { en: "condensative" },
   },
   {
     id: "conexivo",
@@ -15433,6 +15487,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "conexivo", text: "«conexivo»." },
     exampleSynonym: { word: "que sirve para conectar o unir", text: "«que sirve para conectar o unir»." },
     situacion: "conocimiento",
+    translation: { en: "connective" },
   },
   {
     id: "confirmativo",
@@ -15443,6 +15498,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "confirmativo", text: "«confirmativo»." },
     exampleSynonym: { word: "que sirve para confirmar o que implica confirmación", text: "«que sirve para confirmar o que implica confirmación»." },
     situacion: "conocimiento",
+    translation: { en: "confirmative" },
   },
   {
     id: "confortativo",
@@ -15473,6 +15529,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "conglutinativo", text: "«conglutinativo»." },
     exampleSynonym: { word: "relativo a la conglutinación", text: "«relativo a la conglutinación»." },
     situacion: "conocimiento",
+    translation: { en: "conglutinative" },
   },
   {
     id: "coniza",
@@ -15503,6 +15560,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "conmensurativo", text: "«conmensurativo»." },
     exampleSynonym: { word: "relativo a la conmensuración", text: "«relativo a la conmensuración»." },
     situacion: "conocimiento",
+    translation: { en: "commensurative" },
   },
   {
     id: "conminador",
@@ -15513,6 +15571,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "conminador", text: "«conminador»." },
     exampleSynonym: { word: "que conmina o amenaza", text: "«que conmina o amenaza»." },
     situacion: "conocimiento",
+    translation: { en: "conminator" },
   },
   {
     id: "conminativo",
@@ -15523,6 +15582,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "conminativo", text: "«conminativo»." },
     exampleSynonym: { word: "relativo a la conminación", text: "«relativo a la conminación»." },
     situacion: "conocimiento",
+    translation: { en: "conminative" },
   },
   {
     id: "conmistion",
@@ -15543,6 +15603,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "connovicio", text: "«connovicio»." },
     exampleSynonym: { word: "vicio o defecto que se adquiere en compañía de otros", text: "«vicio o defecto que se adquiere en compañía de otros»." },
     situacion: "conocimiento",
+    translation: { en: "co-novice" },
   },
   {
     id: "consolativo",
@@ -15553,6 +15614,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "consolativo", text: "«consolativo»." },
     exampleSynonym: { word: "que tiene la propiedad de consolar", text: "«que tiene la propiedad de consolar»." },
     situacion: "conocimiento",
+    translation: { en: "consolative" },
   },
   {
     id: "consolidativo",
@@ -15563,6 +15625,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "consolidativo", text: "«consolidativo»." },
     exampleSynonym: { word: "que sirve para consolidar", text: "«que sirve para consolidar»." },
     situacion: "conocimiento",
+    translation: { en: "consolidative" },
   },
   {
     id: "constituidor",
@@ -15604,6 +15667,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "contertuliano", text: "«contertuliano»." },
     exampleSynonym: { word: "persona que asiste con frecuencia a una tertulia", text: "«persona que asiste con frecuencia a una tertulia»." },
     situacion: "conocimiento",
+    translation: { en: "contertulian" },
   },
   {
     id: "continuativo",
@@ -15614,6 +15678,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "continuativo", text: "«continuativo»." },
     exampleSynonym: { word: "que sirve para continuar o dar continuidad", text: "«que sirve para continuar o dar continuidad»." },
     situacion: "conocimiento",
+    translation: { en: "continuous" },
   },
   {
     id: "contrachapeado",
@@ -15634,6 +15699,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "contraguía", text: "«contraguía»." },
     exampleSynonym: { word: "persona o cosa que sirve de guía en sentido contrario o alternativo", text: "«persona o cosa que sirve de guía en sentido contrario o alternativo»." },
     situacion: "conocimiento",
+    translation: { en: "counterguide" },
   },
   {
     id: "contrahacedor",
@@ -15644,6 +15710,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "contrahacedor", text: "«contrahacedor»." },
     exampleSynonym: { word: "que contrahace o imita algo", text: "«que contrahace o imita algo»." },
     situacion: "conocimiento",
+    translation: { en: "counterdoer" },
   },
   {
     id: "contraindicante",
@@ -15654,6 +15721,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "contraindicante", text: "«contraindicante»." },
     exampleSynonym: { word: "sustancia o factor que contraindica el uso de algo", text: "«sustancia o factor que contraindica el uso de algo»." },
     situacion: "conocimiento",
+    translation: { en: "contraindicator" },
   },
   {
     id: "contraponedor",
@@ -15664,6 +15732,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "contraponedor", text: "«contraponedor»." },
     exampleSynonym: { word: "que contrapone", text: "«que contrapone»." },
     situacion: "conocimiento",
+    translation: { en: "counterponder" },
   },
   {
     id: "contrasalva",
