@@ -9,7 +9,7 @@
    The SW's job is just to make the first paint and the first
    dictionary load work offline.
    ============================================================ */
-var VERSION = 'sinonimia-v173';
+var VERSION = 'sinonimia-v174';
 
 var FILES = [
   './',
@@ -25,6 +25,7 @@ var FILES = [
   './js/data.es.js',
   './js/data.es.2.js',
   './js/data.en.js',
+  './js/data.en.2.js',
   './js/app.js',
   './img/logo.svg',
   './about/index.html',
