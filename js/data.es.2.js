@@ -53160,6 +53160,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "bituminado", text: "«bituminado»." },
     exampleSynonym: { word: "bituminoso, betuminoso, abetunado", text: "«bituminoso, betuminoso, abetunado»." },
     situacion: "conocimiento",
+    translation: { en: "bituminated" },
   },
   {
     id: "blancazo",
@@ -53210,6 +53211,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "aquistador", text: "«aquistador»." },
     exampleSynonym: { word: "Que aquista", text: "«Que aquista»." },
     situacion: "conocimiento",
+    translation: { en: "acquistador" },
   },
   {
     id: "ardidoso",
@@ -53260,6 +53262,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "arisnegro", text: "«arisnegro»." },
     exampleSynonym: { word: "de aristas o raspas negras", text: "«de aristas o raspas negras»." },
     situacion: "conocimiento",
+    translation: { en: "blackris" },
   },
   {
     id: "arisprieto",
@@ -53420,6 +53423,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "axénico", text: "«axénico»." },
     exampleSynonym: { word: "que se desarrolla en un ambiente donde no hay ningún otro organismo vivo", text: "«que se desarrolla en un ambiente donde no hay ningún otro organismo vivo»." },
     situacion: "conocimiento",
+    translation: { en: "axenic" },
   },
   {
     id: "ayayero",
@@ -53500,6 +53504,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "batipelágico", text: "«batipelágico»." },
     exampleSynonym: { word: "Perteneciente o relativo a las grandes profundidades marinas", text: "«Perteneciente o relativo a las grandes profundidades marinas»." },
     situacion: "conocimiento",
+    translation: { en: "bathypelagic" },
   },
   {
     id: "bazuquero",
@@ -53580,6 +53585,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "bipontino", text: "«bipontino»." },
     exampleSynonym: { word: "Natural de Dos Puentes, ciudad alemana, antigua capital del ducado y estado del mismo nombre, en el", text: "«Natural de Dos Puentes, ciudad alemana, antigua capital del ducado y estado del mismo nombre, en el»." },
     situacion: "conocimiento",
+    translation: { en: "bipontine" },
   },
   {
     id: "birrioso",
@@ -53640,6 +53646,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "bocinegro", text: "«bocinegro»." },
     exampleSynonym: { word: "boquinegro", text: "«boquinegro»." },
     situacion: "conocimiento",
+    translation: { en: "blackhorn" },
   },
   {
     id: "bohemico",
@@ -53700,6 +53707,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "boquihundido", text: "«boquihundido»." },
     exampleSynonym: { word: "que tiene muy altas las comisuras de los labios", text: "«que tiene muy altas las comisuras de los labios»." },
     situacion: "conocimiento",
+    translation: { en: "sunkenmouth" },
   },
   {
     id: "bornero",
@@ -53710,6 +53718,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "bornero", text: "«bornero»." },
     exampleSynonym: { word: "piedra bornera", text: "«piedra bornera»." },
     situacion: "conocimiento",
+    translation: { en: "terminal-block" },
   },
   {
     id: "borriqueno",
@@ -53730,6 +53739,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "boruquiento", text: "«boruquiento»." },
     exampleSynonym: { word: "Que causa o gusta de boruca1", text: "«Que causa o gusta de boruca1»." },
     situacion: "conocimiento",
+    translation: { en: "boruquient" },
   },
   {
     id: "boshito",
@@ -53791,6 +53801,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "brechtiano", text: "«brechtiano»." },
     exampleSynonym: { word: "Perteneciente o relativo a Bertolt Brecht, dramaturgo y poeta alemán, o a su obra. Un diálogo brechtiano", text: "«Perteneciente o relativo a Bertolt Brecht, dramaturgo y poeta alemán, o a su obra. Un diálogo brechtiano»." },
     situacion: "conocimiento",
+    translation: { en: "brechtian" },
   },
   {
     id: "breguero",
@@ -53811,6 +53822,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "bribiático", text: "«bribiático»." },
     exampleSynonym: { word: "Perteneciente o relativo a la briba", text: "«Perteneciente o relativo a la briba»." },
     situacion: "conocimiento",
+    translation: { en: "bribiatic" },
   },
   {
     id: "brocalado",
@@ -53831,6 +53843,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "bubático", text: "«bubático»." },
     exampleSynonym: { word: "Perteneciente o relativo a las bubas", text: "«Perteneciente o relativo a las bubas»." },
     situacion: "conocimiento",
+    translation: { en: "bubatic" },
   },
   {
     id: "bucha",
@@ -53861,6 +53874,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "búlico", text: "«búlico»." },
     exampleSynonym: { word: "que tiene las plumas de color amarillo con pintas blancas", text: "«que tiene las plumas de color amarillo con pintas blancas»." },
     situacion: "conocimiento",
+    translation: { en: "bulic" },
   },
   {
     id: "burdelero",
@@ -53951,6 +53965,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cabizmordido", text: "«cabizmordido»." },
     exampleSynonym: { word: "De nuca hundida o aplastada", text: "«De nuca hundida o aplastada»." },
     situacion: "conocimiento",
+    translation: { en: "headbitten" },
   },
   {
     id: "cachador",
@@ -53971,6 +53986,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cachicuerno", text: "«cachicuerno»." },
     exampleSynonym: { word: "que tiene las cachas o el mango de cuerno", text: "«que tiene las cachas o el mango de cuerno»." },
     situacion: "conocimiento",
+    translation: { en: "cachihorn" },
   },
   {
     id: "cachigordo",
@@ -54051,6 +54067,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "calatoso", text: "«calatoso»." },
     exampleSynonym: { word: "sarnoso", text: "«sarnoso»." },
     situacion: "conocimiento",
+    translation: { en: "calatous" },
   },
   {
     id: "calcador",
@@ -54061,6 +54078,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "calcador", text: "«calcador»." },
     exampleSynonym: { word: "Persona que calca", text: "«Persona que calca»." },
     situacion: "conocimiento",
+    translation: { en: "tracer" },
   },
   {
     id: "calchon",
@@ -54131,6 +54149,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "calocéfalo", text: "«calocéfalo»." },
     exampleSynonym: { word: "Que tiene hermosa cabeza", text: "«Que tiene hermosa cabeza»." },
     situacion: "conocimiento",
+    translation: { en: "calocephalus" },
   },
   {
     id: "calpamulo",
@@ -54191,6 +54210,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "camelotado", text: "«camelotado»." },
     exampleSynonym: { word: "hecho por el estilo del camelote1", text: "«hecho por el estilo del camelote1»." },
     situacion: "conocimiento",
+    translation: { en: "cameloted" },
   },
   {
     id: "camilucho",
@@ -54311,6 +54331,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cangroso", text: "«cangroso»." },
     exampleSynonym: { word: "Que padece cáncer", text: "«Que padece cáncer»." },
     situacion: "conocimiento",
+    translation: { en: "cangross" },
   },
   {
     id: "canibalesco",
@@ -54321,6 +54342,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "canibalesco", text: "«canibalesco»." },
     exampleSynonym: { word: "Propio de caníbales", text: "«Propio de caníbales»." },
     situacion: "conocimiento",
+    translation: { en: "cannibalistic" },
   },
   {
     id: "cannaceo",
@@ -54341,6 +54363,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cansadón", text: "«cansadón»." },
     exampleSynonym: { word: "Algo cansado", text: "«Algo cansado»." },
     situacion: "conocimiento",
+    translation: { en: "tiredness" },
   },
   {
     id: "cantinflerico",
@@ -54422,6 +54445,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "carduzador", text: "«carduzador»." },
     exampleSynonym: { word: "Persona que carduza", text: "«Persona que carduza»." },
     situacion: "conocimiento",
+    translation: { en: "carder" },
   },
   {
     id: "cariacuchillado",
@@ -54432,6 +54456,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cariacuchillado", text: "«cariacuchillado»." },
     exampleSynonym: { word: "Que tiene en la cara alguna cicatriz", text: "«Que tiene en la cara alguna cicatriz»." },
     situacion: "conocimiento",
+    translation: { en: "cariaclashed" },
   },
   {
     id: "cariaguileno",
@@ -54442,6 +54467,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cariaguileño", text: "«cariaguileño»." },
     exampleSynonym: { word: "Que tiene larga la cara, enjutos los carrillos y algo corva la nariz", text: "«Que tiene larga la cara, enjutos los carrillos y algo corva la nariz»." },
     situacion: "conocimiento",
+    translation: { en: "cariaguilean" },
   },
   {
     id: "cariancho",
@@ -54462,6 +54488,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "caridelantero", text: "«caridelantero»." },
     exampleSynonym: { word: "Descarado y entremetido", text: "«Descarado y entremetido»." },
     situacion: "conocimiento",
+    translation: { en: "carideforward" },
   },
   {
     id: "cariduro",
@@ -54482,6 +54509,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "carifruncido", text: "«carifruncido»." },
     exampleSynonym: { word: "Que tiene fruncida la cara", text: "«Que tiene fruncida la cara»." },
     situacion: "conocimiento",
+    translation: { en: "frown-faced" },
   },
   {
     id: "carigordo",
@@ -54492,6 +54520,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "carigordo", text: "«carigordo»." },
     exampleSynonym: { word: "Que tiene gorda la cara", text: "«Que tiene gorda la cara»." },
     situacion: "conocimiento",
+    translation: { en: "fat-face" },
   },
   {
     id: "carilargo",
@@ -54502,6 +54531,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "carilargo", text: "«carilargo»." },
     exampleSynonym: { word: "Que tiene larga la cara", text: "«Que tiene larga la cara»." },
     situacion: "conocimiento",
+    translation: { en: "long-faced" },
   },
   {
     id: "carilleno",
@@ -54562,6 +54592,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "carirraído", text: "«carirraído»." },
     exampleSynonym: { word: "Descarado o sin vergüenza", text: "«Descarado o sin vergüenza»." },
     situacion: "conocimiento",
+    translation: { en: "raggedy" },
   },
   {
     id: "carminoso",
@@ -54572,6 +54603,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "carminoso", text: "«carminoso»." },
     exampleSynonym: { word: "que tira a carmín", text: "«que tira a carmín»." },
     situacion: "conocimiento",
+    translation: { en: "carminous" },
   },
   {
     id: "caroquero",
@@ -54702,6 +54734,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "casquiacopado", text: "«casquiacopado»." },
     exampleSynonym: { word: "que tiene el casco alto, redondo y hueco, a manera de copa", text: "«que tiene el casco alto, redondo y hueco, a manera de copa»." },
     situacion: "conocimiento",
+    translation: { en: "shell-coated" },
   },
   {
     id: "casquiblando",
@@ -54752,6 +54785,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "catalogador", text: "«catalogador»." },
     exampleSynonym: { word: "Que cataloga", text: "«Que cataloga»." },
     situacion: "conocimiento",
+    translation: { en: "cataloger" },
   },
   {
     id: "cataro",
@@ -54762,6 +54796,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cátaro", text: "«cátaro»." },
     exampleSynonym: { word: "Seguidor de una de las varias sectas consideradas heréticas que se extendieron por Europa durante los siglos", text: "«Seguidor de una de las varias sectas consideradas heréticas que se extendieron por Europa durante los siglos»." },
     situacion: "conocimiento",
+    translation: { en: "cathar" },
   },
   {
     id: "catoniano",
@@ -54772,6 +54807,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "catoniano", text: "«catoniano»." },
     exampleSynonym: { word: "Perteneciente o relativo a Marco Catón, estadista romano del siglo II a. C., o a sus imitadores", text: "«Perteneciente o relativo a Marco Catón, estadista romano del siglo II a. C., o a sus imitadores»." },
     situacion: "conocimiento",
+    translation: { en: "catonian" },
   },
   {
     id: "cavanillero",
@@ -55002,6 +55038,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "chapeador", text: "«chapeador»." },
     exampleSynonym: { word: "Persona que ejecuta la operación de chapear (‖ limpiar la tierra)", text: "«Persona que ejecuta la operación de chapear (‖ limpiar la tierra)»." },
     situacion: "conocimiento",
+    translation: { en: "chaper" },
   },
   {
     id: "chapeadora",
@@ -55392,6 +55429,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cirroso", text: "«cirroso»." },
     exampleSynonym: { word: "Que tiene cirros", text: "«Que tiene cirros»." },
     situacion: "conocimiento",
+    translation: { en: "cirrus" },
   },
   {
     id: "clarucho",
@@ -55502,6 +55540,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "colactáneo", text: "«colactáneo»." },
     exampleSynonym: { word: "hermano de leche", text: "«hermano de leche»." },
     situacion: "conocimiento",
+    translation: { en: "colactaneous" },
   },
   {
     id: "colimote",
@@ -55522,6 +55561,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "colipavo", text: "«colipavo»." },
     exampleSynonym: { word: "que tienen la cola más ancha que las demás", text: "«que tienen la cola más ancha que las demás»." },
     situacion: "conocimiento",
+    translation: { en: "fantail" },
   },
   {
     id: "collon",
@@ -55562,6 +55602,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "comedura", text: "«comedura»." },
     exampleSynonym: { word: "coloqs. Esp. Dominación o influencia sobre la mente o la voluntad de alguien. Algunos programas de televisión", text: "«coloqs. Esp. Dominación o influencia sobre la mente o la voluntad de alguien. Algunos programas de televisión»." },
     situacion: "conocimiento",
+    translation: { en: "eatery" },
   },
   {
     id: "comenzadero",
@@ -55673,6 +55714,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "comunicatorias", text: "«comunicatorias»." },
     exampleSynonym: { word: "letras comunicatorias", text: "«letras comunicatorias»." },
     situacion: "conocimiento",
+    translation: { en: "communications" },
   },
   {
     id: "concentuoso",
@@ -55793,6 +55835,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "consiliativo", text: "«consiliativo»." },
     exampleSynonym: { word: "Que aconseja o sirve de consejo", text: "«Que aconseja o sirve de consejo»." },
     situacion: "conocimiento",
+    translation: { en: "consiliative" },
   },
   {
     id: "constipativo",
@@ -55803,6 +55846,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "constipativo", text: "«constipativo»." },
     exampleSynonym: { word: "Que produce constipación", text: "«Que produce constipación»." },
     situacion: "conocimiento",
+    translation: { en: "constipative" },
   },
   {
     id: "contactologo",
@@ -55813,6 +55857,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "contactólogo", text: "«contactólogo»." },
     exampleSynonym: { word: "Especialista en contactología", text: "«Especialista en contactología»." },
     situacion: "conocimiento",
+    translation: { en: "contactologist" },
   },
   {
     id: "contamanino",
@@ -55853,6 +55898,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "contraflorado", text: "«contraflorado»." },
     exampleSynonym: { word: "Heráld. Que tiene flores contrapuestas en el color y metal, estando opuestas las bases", text: "«Heráld. Que tiene flores contrapuestas en el color y metal, estando opuestas las bases»." },
     situacion: "conocimiento",
+    translation: { en: "counterflowered" },
   },
   {
     id: "contrapalado",
@@ -55873,6 +55919,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "contrapotenzado", text: "«contrapotenzado»." },
     exampleSynonym: { word: "Heráld. Que tiene potenzas encontradas en los metales o en el color", text: "«Heráld. Que tiene potenzas encontradas en los metales o en el color»." },
     situacion: "conocimiento",
+    translation: { en: "counter-powered" },
   },
   {
     id: "contrariador",
@@ -55953,6 +56000,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "coopositor", text: "«coopositor»." },
     exampleSynonym: { word: "Persona que con otra u otras concurre a las oposiciones a una prebenda, cátedra, etc", text: "«Persona que con otra u otras concurre a las oposiciones a una prebenda, cátedra, etc»." },
     situacion: "conocimiento",
+    translation: { en: "co-opponent" },
   },
   {
     id: "corchotaponero",
@@ -55973,6 +56021,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cordato", text: "«cordato»." },
     exampleSynonym: { word: "Juicioso, prudente", text: "«Juicioso, prudente»." },
     situacion: "conocimiento",
+    translation: { en: "cordate" },
   },
   {
     id: "cordiaco",
@@ -56003,6 +56052,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cordojoso", text: "«cordojoso»." },
     exampleSynonym: { word: "Muy afligido, acongojado", text: "«Muy afligido, acongojado»." },
     situacion: "conocimiento",
+    translation: { en: "cordojaso" },
   },
   {
     id: "coriambico",
@@ -56013,6 +56063,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "coriámbico", text: "«coriámbico»." },
     exampleSynonym: { word: "Métr. Dicho de una composición poética: Escrita en versos coriámbicos", text: "«Métr. Dicho de una composición poética: Escrita en versos coriámbicos»." },
     situacion: "conocimiento",
+    translation: { en: "choriambic" },
   },
   {
     id: "corlador",
@@ -56053,6 +56104,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "corniapretado", text: "«corniapretado»." },
     exampleSynonym: { word: "que tiene los cuernos muy juntos o recogidos", text: "«que tiene los cuernos muy juntos o recogidos»." },
     situacion: "conocimiento",
+    translation: { en: "corniatight" },
   },
   {
     id: "cornibrocho",
@@ -56103,6 +56155,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cortesanazo", text: "«cortesanazo»." },
     exampleSynonym: { word: "Afectadamente cortés", text: "«Afectadamente cortés»." },
     situacion: "conocimiento",
+    translation: { en: "courtier" },
   },
   {
     id: "corveno",
@@ -56143,6 +56196,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cosijo", text: "«cosijo»." },
     exampleSynonym: { word: "Persona que ha sido criada como hijo sin serlo, y, por ext., hijo postizo o putativo", text: "«Persona que ha sido criada como hijo sin serlo, y, por ext., hijo postizo o putativo»." },
     situacion: "conocimiento",
+    translation: { en: "i-cosy" },
   },
   {
     id: "cosmografo",
@@ -56153,6 +56207,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cosmógrafo", text: "«cosmógrafo»." },
     exampleSynonym: { word: "Especialista en cosmografía", text: "«Especialista en cosmografía»." },
     situacion: "conocimiento",
+    translation: { en: "cosmographer" },
   },
   {
     id: "costilludo",
@@ -56183,6 +56238,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cramponado", text: "«cramponado»." },
     exampleSynonym: { word: "Heráld. Dicho de una pieza: Que en sus extremidades tiene una media potenza y a veces un gancho", text: "«Heráld. Dicho de una pieza: Que en sus extremidades tiene una media potenza y a veces un gancho»." },
     situacion: "conocimiento",
+    translation: { en: "cramped" },
   },
   {
     id: "crepusculino",
@@ -56243,6 +56299,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cronógrafo", text: "«cronógrafo»." },
     exampleSynonym: { word: "Autor de cronografías", text: "«Autor de cronografías»." },
     situacion: "conocimiento",
+    translation: { en: "chronograph" },
   },
   {
     id: "cronologo",
@@ -56253,6 +56310,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cronólogo", text: "«cronólogo»." },
     exampleSynonym: { word: "Especialista en cronología", text: "«Especialista en cronología»." },
     situacion: "conocimiento",
+    translation: { en: "chronologist" },
   },
   {
     id: "cruzador",
@@ -56263,6 +56321,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cruzador", text: "«cruzador»." },
     exampleSynonym: { word: "Que cruza o atraviesa de una parte a otra", text: "«Que cruza o atraviesa de una parte a otra»." },
     situacion: "conocimiento",
+    translation: { en: "crosser" },
   },
   {
     id: "cuadrifolio",
@@ -56273,6 +56332,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cuadrifolio", text: "«cuadrifolio»." },
     exampleSynonym: { word: "Que tiene cuatro hojas", text: "«Que tiene cuatro hojas»." },
     situacion: "conocimiento",
+    translation: { en: "quatrefoil" },
   },
   {
     id: "cuatacho",
@@ -56323,6 +56383,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cuellidegollado", text: "«cuellidegollado»." },
     exampleSynonym: { word: "Que llevaba el vestido muy escotado", text: "«Que llevaba el vestido muy escotado»." },
     situacion: "conocimiento",
+    translation: { en: "neckneck" },
   },
   {
     id: "cuentavueltas",
@@ -56333,6 +56394,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "cuentavueltas", text: "«cuentavueltas»." },
     exampleSynonym: { word: "cuentarrevoluciones", text: "«cuentarrevoluciones»." },
     situacion: "conocimiento",
+    translation: { en: "lap-counter" },
   },
   {
     id: "cuenton",
@@ -56403,6 +56465,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "culinegro", text: "«culinegro»." },
     exampleSynonym: { word: "De culo negro", text: "«De culo negro»." },
     situacion: "conocimiento",
+    translation: { en: "black-tailed" },
   },
   {
     id: "cumplimentero",
@@ -56443,6 +56506,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "dactilado", text: "«dactilado»." },
     exampleSynonym: { word: "Que tiene forma semejante a la de un dedo", text: "«Que tiene forma semejante a la de un dedo»." },
     situacion: "conocimiento",
+    translation: { en: "fingerprinted" },
   },
   {
     id: "dadero",
@@ -56513,6 +56577,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "davídico", text: "«davídico»." },
     exampleSynonym: { word: "Perteneciente o relativo a David, rey de Israel, o a su poesía y estilo", text: "«Perteneciente o relativo a David, rey de Israel, o a su poesía y estilo»." },
     situacion: "conocimiento",
+    translation: { en: "davidic" },
   },
   {
     id: "decastilo",
@@ -56574,6 +56639,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "dejativo", text: "«dejativo»." },
     exampleSynonym: { word: "Perezoso, flojo y desmayado", text: "«Perezoso, flojo y desmayado»." },
     situacion: "conocimiento",
+    translation: { en: "leavetive" },
   },
   {
     id: "dejazon",
@@ -56624,6 +56690,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "delusor", text: "«delusor»." },
     exampleSynonym: { word: "engañoso (‖ falaz)", text: "«engañoso (‖ falaz)»." },
     situacion: "conocimiento",
+    translation: { en: "delutor" },
   },
   {
     id: "demografo",
@@ -56634,6 +56701,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "demógrafo", text: "«demógrafo»." },
     exampleSynonym: { word: "Persona que ejerce la demografía o tiene en ella especiales conocimientos", text: "«Persona que ejerce la demografía o tiene en ella especiales conocimientos»." },
     situacion: "conocimiento",
+    translation: { en: "demographer" },
   },
   {
     id: "demoniado",
@@ -56684,6 +56752,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "deportoso", text: "«deportoso»." },
     exampleSynonym: { word: "divertido (‖ alegre)", text: "«divertido (‖ alegre)»." },
     situacion: "conocimiento",
+    translation: { en: "sporty" },
   },
   {
     id: "deprecativo",
@@ -56694,6 +56763,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "deprecativo", text: "«deprecativo»." },
     exampleSynonym: { word: "Perteneciente o relativo a la deprecación", text: "«Perteneciente o relativo a la deprecación»." },
     situacion: "conocimiento",
+    translation: { en: "deprecative" },
   },
   {
     id: "deprendador",
@@ -56754,6 +56824,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "desambientado", text: "«desambientado»." },
     exampleSynonym: { word: "Que no está en su ambiente habitual", text: "«Que no está en su ambiente habitual»." },
     situacion: "conocimiento",
+    translation: { en: "disestablished" },
   },
   {
     id: "desapercebido",
@@ -56824,6 +56895,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "descalostrado", text: "«descalostrado»." },
     exampleSynonym: { word: "que ha pasado ya los días del calostro", text: "«que ha pasado ya los días del calostro»." },
     situacion: "conocimiento",
+    translation: { en: "decolostration" },
   },
   {
     id: "descomodo",
@@ -56844,6 +56916,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "descorregido", text: "«descorregido»." },
     exampleSynonym: { word: "Desarreglado, incorrecto", text: "«Desarreglado, incorrecto»." },
     situacion: "conocimiento",
+    translation: { en: "uncorrected" },
   },
   {
     id: "descuitado",
@@ -56894,6 +56967,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "desensortijado", text: "«desensortijado»." },
     exampleSynonym: { word: "deshecho, sin forma", text: "«deshecho, sin forma»." },
     situacion: "conocimiento",
+    translation: { en: "desensitized" },
   },
   {
     id: "desentido",
@@ -56904,6 +56978,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "desentido", text: "«desentido»." },
     exampleSynonym: { word: "Loco o necio", text: "«Loco o necio»." },
     situacion: "conocimiento",
+    translation: { en: "dissenting" },
   },
   {
     id: "desequido",
@@ -56944,6 +57019,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "desgabilado", text: "«desgabilado»." },
     exampleSynonym: { word: "desvaída, desgarbada y pusilánime", text: "«desvaída, desgarbada y pusilánime»." },
     situacion: "conocimiento",
+    translation: { en: "weakened" },
   },
   {
     id: "desgalichado",
@@ -56994,6 +57070,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "deshospedado", text: "«deshospedado»." },
     exampleSynonym: { word: "Que carece de hospedaje o alojamiento", text: "«Que carece de hospedaje o alojamiento»." },
     situacion: "conocimiento",
+    translation: { en: "unhoused" },
   },
   {
     id: "deslanguido",
@@ -57004,6 +57081,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "deslánguido", text: "«deslánguido»." },
     exampleSynonym: { word: "Flaco, débil y extenuado", text: "«Flaco, débil y extenuado»." },
     situacion: "conocimiento",
+    translation: { en: "listless" },
   },
   {
     id: "deslindador",
@@ -57014,6 +57092,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "deslindador", text: "«deslindador»." },
     exampleSynonym: { word: "Persona que deslinda", text: "«Persona que deslinda»." },
     situacion: "conocimiento",
+    translation: { en: "delineator" },
   },
   {
     id: "deslizadizo",
@@ -57054,6 +57133,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "desmultiplicador", text: "«desmultiplicador»." },
     exampleSynonym: { word: "Mec. Dispositivo que permite desmultiplicar (‖ transformar un movimiento en otro)", text: "«Mec. Dispositivo que permite desmultiplicar (‖ transformar un movimiento en otro)»." },
     situacion: "conocimiento",
+    translation: { en: "demultiplier" },
   },
   {
     id: "despabilador",
@@ -57064,6 +57144,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "despabilador", text: "«despabilador»." },
     exampleSynonym: { word: "Que espabila", text: "«Que espabila»." },
     situacion: "conocimiento",
+    translation: { en: "snuffer" },
   },
   {
     id: "despampanador",
@@ -57134,6 +57215,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "despiritado", text: "«despiritado»." },
     exampleSynonym: { word: "Que carece de espíritu", text: "«Que carece de espíritu»." },
     situacion: "conocimiento",
+    translation: { en: "despirited" },
   },
   {
     id: "desplantador",
@@ -57204,6 +57286,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "deyecto", text: "«deyecto»." },
     exampleSynonym: { word: "vil (‖ despreciable)", text: "«vil (‖ despreciable)»." },
     situacion: "conocimiento",
+    translation: { en: "deject" },
   },
   {
     id: "diablesco",
@@ -57235,6 +57318,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "dialipétalo", text: "«dialipétalo»." },
     exampleSynonym: { word: "que tiene los pétalos libres, no soldados entre sí", text: "«que tiene los pétalos libres, no soldados entre sí»." },
     situacion: "conocimiento",
+    translation: { en: "dialipetalum" },
   },
   {
     id: "dialisepalo",
@@ -57245,6 +57329,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "dialisépalo", text: "«dialisépalo»." },
     exampleSynonym: { word: "que tiene los sépalos libres, no soldados entre sí", text: "«que tiene los sépalos libres, no soldados entre sí»." },
     situacion: "conocimiento",
+    translation: { en: "dialysepalus" },
   },
   {
     id: "dialitico",
@@ -57255,6 +57340,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "dialítico", text: "«dialítico»." },
     exampleSynonym: { word: "Fís. y Med. Perteneciente o relativo a la diálisis", text: "«Fís. y Med. Perteneciente o relativo a la diálisis»." },
     situacion: "conocimiento",
+    translation: { en: "dialytic" },
   },
   {
     id: "diamagnetico",
@@ -57265,6 +57351,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "diamagnético", text: "«diamagnético»." },
     exampleSynonym: { word: "Fís. Dicho de un material: Que tiene menor permeabilidad magnética que el vacío, y es repelido por la acción", text: "«Fís. Dicho de un material: Que tiene menor permeabilidad magnética que el vacío, y es repelido por la acción»." },
     situacion: "conocimiento",
+    translation: { en: "diamagnetic" },
   },
   {
     id: "diapreado",
@@ -57275,6 +57362,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "diapreado", text: "«diapreado»." },
     exampleSynonym: { word: "Heráld. Dicho de un palo, de una faja o de otra pieza: Abigarrado o matizado de diferentes colores, con los", text: "«Heráld. Dicho de un palo, de una faja o de otra pieza: Abigarrado o matizado de diferentes colores, con los»." },
     situacion: "conocimiento",
+    translation: { en: "diapreated" },
   },
   {
     id: "diatesico",
@@ -57285,6 +57373,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "diatésico", text: "«diatésico»." },
     exampleSynonym: { word: "Perteneciente o relativo a la diátesis", text: "«Perteneciente o relativo a la diátesis»." },
     situacion: "conocimiento",
+    translation: { en: "diathesic" },
   },
   {
     id: "diay",
@@ -57315,6 +57404,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "dicroico", text: "«dicroico»." },
     exampleSynonym: { word: "Fís. Que tiene dicroísmo", text: "«Fís. Que tiene dicroísmo»." },
     situacion: "conocimiento",
+    translation: { en: "dichroic" },
   },
   {
     id: "dileniaceo",
@@ -57335,6 +57425,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "dilusivo", text: "«dilusivo»." },
     exampleSynonym: { word: "Que tiene facultad de diluir2", text: "«Que tiene facultad de diluir2»." },
     situacion: "conocimiento",
+    translation: { en: "dilutive" },
   },
   {
     id: "dipsacaceo",
@@ -57435,6 +57526,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "dontancredismo", text: "«dontancredismo»." },
     exampleSynonym: { word: "Esp. Actitud imperturbable de quien parece no darse cuenta de la amenaza de un peligro grande", text: "«Esp. Actitud imperturbable de quien parece no darse cuenta de la amenaza de un peligro grande»." },
     situacion: "conocimiento",
+    translation: { en: "dontancredism" },
   },
   {
     id: "donigal",
@@ -57525,6 +57617,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "ecotado", text: "«ecotado»." },
     exampleSynonym: { word: "que se forma con los nudos correspondientes a los ramos menores", text: "«que se forma con los nudos correspondientes a los ramos menores»." },
     situacion: "conocimiento",
+    translation: { en: "ecoted" },
   },
   {
     id: "egeno",
@@ -57665,6 +57758,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "empampirolado", text: "«empampirolado»." },
     exampleSynonym: { word: "Presuntuoso, jactancioso", text: "«Presuntuoso, jactancioso»." },
     situacion: "conocimiento",
+    translation: { en: "empanpirolado" },
   },
   {
     id: "emparejador",
@@ -57755,6 +57849,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "encarcajado", text: "«encarcajado»." },
     exampleSynonym: { word: "Que lleva carcaj", text: "«Que lleva carcaj»." },
     situacion: "conocimiento",
+    translation: { en: "encased" },
   },
   {
     id: "encartonador",
@@ -57765,6 +57860,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "encartonador", text: "«encartonador»." },
     exampleSynonym: { word: "Persona que encartona los libros para encuadernarlos", text: "«Persona que encartona los libros para encuadernarlos»." },
     situacion: "conocimiento",
+    translation: { en: "cartoner" },
   },
   {
     id: "encatarrado",
@@ -57816,6 +57912,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "encrisnejado", text: "«encrisnejado»." },
     exampleSynonym: { word: "hecho trenzas", text: "«hecho trenzas»." },
     situacion: "conocimiento",
+    translation: { en: "crisnejado" },
   },
   {
     id: "endeblucho",
@@ -57887,6 +57984,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "engaitador", text: "«engaitador»." },
     exampleSynonym: { word: "Que engaita", text: "«Que engaita»." },
     situacion: "conocimiento",
+    translation: { en: "deceiver" },
   },
   {
     id: "engastador",
@@ -57917,6 +58015,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "engestado", text: "«engestado»." },
     exampleSynonym: { word: "De buena cara", text: "«De buena cara»." },
     situacion: "conocimiento",
+    translation: { en: "engested" },
   },
   {
     id: "englandado",
@@ -57927,6 +58026,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "englandado", text: "«englandado»." },
     exampleSynonym: { word: "cargado de bellotas", text: "«cargado de bellotas»." },
     situacion: "conocimiento",
+    translation: { en: "englanded" },
   },
   {
     id: "englantado",
@@ -57947,6 +58047,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "englutativo", text: "«englutativo»." },
     exampleSynonym: { word: "Glutinoso o aglutinante", text: "«Glutinoso o aglutinante»." },
     situacion: "conocimiento",
+    translation: { en: "englutative" },
   },
   {
     id: "enguedejado",
@@ -58037,6 +58138,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "enorfanecido", text: "«enorfanecido»." },
     exampleSynonym: { word: "Que ha quedado huérfano", text: "«Que ha quedado huérfano»." },
     situacion: "conocimiento",
+    translation: { en: "enorphaned" },
   },
   {
     id: "enriador",
@@ -58107,6 +58209,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "entrepretado", text: "«entrepretado»." },
     exampleSynonym: { word: "Veter. Dicho de una caballería: Lastimada de los pechos o de los brazuelos", text: "«Veter. Dicho de una caballería: Lastimada de los pechos o de los brazuelos»." },
     situacion: "conocimiento",
+    translation: { en: "interpreted" },
   },
   {
     id: "entrerraido",
@@ -58117,6 +58220,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "entrerraído", text: "«entrerraído»." },
     exampleSynonym: { word: "Raído por partes, o a medio raer", text: "«Raído por partes, o a medio raer»." },
     situacion: "conocimiento",
+    translation: { en: "buried" },
   },
   {
     id: "entron",
@@ -58148,6 +58252,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "envirotado", text: "«envirotado»." },
     exampleSynonym: { word: "entonada y tiesa en demasía", text: "«entonada y tiesa en demasía»." },
     situacion: "conocimiento",
+    translation: { en: "enviroted" },
   },
   {
     id: "enviso",
@@ -58178,6 +58283,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "eradicativo", text: "«eradicativo»." },
     exampleSynonym: { word: "Que tiene virtud de desarraigar", text: "«Que tiene virtud de desarraigar»." },
     situacion: "conocimiento",
+    translation: { en: "eradicative" },
   },
   {
     id: "ergonomo",
@@ -58188,6 +58294,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "ergónomo", text: "«ergónomo»." },
     exampleSynonym: { word: "Persona especializada en ergonomía", text: "«Persona especializada en ergonomía»." },
     situacion: "conocimiento",
+    translation: { en: "ergonomist" },
   },
   {
     id: "eritroxileo",
@@ -58238,6 +58345,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "escamón", text: "«escamón»." },
     exampleSynonym: { word: "Receloso, desconfiado, que se escama", text: "«Receloso, desconfiado, que se escama»." },
     situacion: "conocimiento",
+    translation: { en: "escammon" },
   },
   {
     id: "escantador",
@@ -58298,6 +58406,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "esclisiado", text: "«esclisiado»." },
     exampleSynonym: { word: "germ. Herido en el rostro", text: "«germ. Herido en el rostro»." },
     situacion: "conocimiento",
+    translation: { en: "sclisiado" },
   },
   {
     id: "escociano",
@@ -58328,6 +58437,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "escolimado", text: "«escolimado»." },
     exampleSynonym: { word: "muy delicada y endeble", text: "«muy delicada y endeble»." },
     situacion: "conocimiento",
+    translation: { en: "scolimated" },
   },
   {
     id: "escorchador",
@@ -58418,6 +58528,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "espigoso", text: "«espigoso»." },
     exampleSynonym: { word: "Que tiene espigas o abunda en ellas", text: "«Que tiene espigas o abunda en ellas»." },
     situacion: "conocimiento",
+    translation: { en: "spikey" },
   },
   {
     id: "espondaico",
@@ -58428,6 +58539,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "espondaico", text: "«espondaico»." },
     exampleSynonym: { word: "Perteneciente o relativo al espondeo", text: "«Perteneciente o relativo al espondeo»." },
     situacion: "conocimiento",
+    translation: { en: "spondaic" },
   },
   {
     id: "espongioso",
@@ -58448,6 +58560,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "esqueletado", text: "«esqueletado»." },
     exampleSynonym: { word: "esquelético (‖ muy flaco)", text: "«esquelético (‖ muy flaco)»." },
     situacion: "conocimiento",
+    translation: { en: "skeletonized" },
   },
   {
     id: "esquizado",
@@ -58458,6 +58571,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "esquizado", text: "«esquizado»." },
     exampleSynonym: { word: "salpicado de pintas", text: "«salpicado de pintas»." },
     situacion: "conocimiento",
+    translation: { en: "schized" },
   },
   {
     id: "estafetero",
@@ -58488,6 +58602,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "estereotipador", text: "«estereotipador»." },
     exampleSynonym: { word: "Persona que estereotipa", text: "«Persona que estereotipa»." },
     situacion: "conocimiento",
+    translation: { en: "stereotyper" },
   },
   {
     id: "esterero",
@@ -58518,6 +58633,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "estimuloso", text: "«estimuloso»." },
     exampleSynonym: { word: "Que estimula", text: "«Que estimula»." },
     situacion: "conocimiento",
+    translation: { en: "stimulating" },
   },
   {
     id: "estofon",
@@ -58558,6 +58674,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "estucador", text: "«estucador»." },
     exampleSynonym: { word: "Persona que hace obras de estuco", text: "«Persona que hace obras de estuco»." },
     situacion: "conocimiento",
+    translation: { en: "stuccoer" },
   },
   {
     id: "etiopiano",
@@ -58618,6 +58735,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "exercivo", text: "«exercivo»." },
     exampleSynonym: { word: "Que ejerce con actividad y fuerza", text: "«Que ejerce con actividad y fuerza»." },
     situacion: "conocimiento",
+    translation: { en: "exercive" },
   },
   {
     id: "exigidero",
@@ -58638,6 +58756,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "exinanido", text: "«exinanido»." },
     exampleSynonym: { word: "Notablemente falto de vigor", text: "«Notablemente falto de vigor»." },
     situacion: "conocimiento",
+    translation: { en: "exinanid" },
   },
   {
     id: "extirpador",
@@ -58688,6 +58807,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "facionado", text: "«facionado»." },
     exampleSynonym: { word: "bien configurada en sus miembros, y especialmente en el rostro", text: "«bien configurada en sus miembros, y especialmente en el rostro»." },
     situacion: "conocimiento",
+    translation: { en: "facion" },
   },
   {
     id: "fagaceo",
@@ -58738,6 +58858,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "falcirrostro", text: "«falcirrostro»." },
     exampleSynonym: { word: "que tiene el pico en forma de hoz", text: "«que tiene el pico en forma de hoz»." },
     situacion: "conocimiento",
+    translation: { en: "falciface" },
   },
   {
     id: "faldicorto",
@@ -58748,6 +58869,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "faldicorto", text: "«faldicorto»." },
     exampleSynonym: { word: "Corto de faldas", text: "«Corto de faldas»." },
     situacion: "conocimiento",
+    translation: { en: "short-skirt" },
   },
   {
     id: "faldinegro",
@@ -58758,6 +58880,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "faldinegro", text: "«faldinegro»." },
     exampleSynonym: { word: "bermejo por encima y negro por debajo", text: "«bermejo por encima y negro por debajo»." },
     situacion: "conocimiento",
+    translation: { en: "blackskirt" },
   },
   {
     id: "falecio",
@@ -58768,6 +58891,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "falecio", text: "«falecio»." },
     exampleSynonym: { word: "verso falecio", text: "«verso falecio»." },
     situacion: "conocimiento",
+    translation: { en: "died" },
   },
   {
     id: "faleucio",
@@ -58899,6 +59023,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "faulkneriano", text: "«faulkneriano»." },
     exampleSynonym: { word: "Perteneciente o relativo a William Faulkner, novelista estadounidense, o a su obra. Influencias faulknerianas", text: "«Perteneciente o relativo a William Faulkner, novelista estadounidense, o a su obra. Influencias faulknerianas»." },
     situacion: "conocimiento",
+    translation: { en: "faulknerian" },
   },
   {
     id: "faunesco",
@@ -58919,6 +59044,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "febroniano", text: "«febroniano»." },
     exampleSynonym: { word: "Perteneciente o relativo a la doctrina que rebajaba la potestad pontificia y exaltaba la autoridad de los", text: "«Perteneciente o relativo a la doctrina que rebajaba la potestad pontificia y exaltaba la autoridad de los»." },
     situacion: "conocimiento",
+    translation: { en: "febronian" },
   },
   {
     id: "ferostico",
@@ -58929,6 +59055,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "feróstico", text: "«feróstico»." },
     exampleSynonym: { word: "Irritable y díscolo", text: "«Irritable y díscolo»." },
     situacion: "conocimiento",
+    translation: { en: "ferostic" },
   },
   {
     id: "ferromozo",
@@ -58969,6 +59096,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "fideero", text: "«fideero»." },
     exampleSynonym: { word: "Persona que fabrica fideos u otras pastas semejantes", text: "«Persona que fabrica fideos u otras pastas semejantes»." },
     situacion: "conocimiento",
+    translation: { en: "noodle" },
   },
   {
     id: "figonero",
@@ -59020,6 +59148,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "filautero", text: "«filautero»." },
     exampleSynonym: { word: "egoísta (‖ que tiene egoísmo)", text: "«egoísta (‖ que tiene egoísmo)»." },
     situacion: "conocimiento",
+    translation: { en: "philauter" },
   },
   {
     id: "fileno",
@@ -59050,6 +59179,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "finítimo", text: "«finítimo»." },
     exampleSynonym: { word: "cercanos, vecinos, confinantes", text: "«cercanos, vecinos, confinantes»." },
     situacion: "conocimiento",
+    translation: { en: "finite" },
   },
   {
     id: "firifiro",
@@ -59100,6 +59230,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "fitógrafo", text: "«fitógrafo»." },
     exampleSynonym: { word: "Especialista en fitografía", text: "«Especialista en fitografía»." },
     situacion: "conocimiento",
+    translation: { en: "phytographer" },
   },
   {
     id: "fitolacaceo",
@@ -59151,6 +59282,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "fluorimetría", text: "«fluorimetría»." },
     exampleSynonym: { word: "Técnica para medir la concentración de una sustancia por medio de su fluorescencia", text: "«Técnica para medir la concentración de una sustancia por medio de su fluorescencia»." },
     situacion: "conocimiento",
+    translation: { en: "fluorimetry" },
   },
   {
     id: "foguero",
@@ -59181,6 +59313,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "fontanoso", text: "«fontanoso»." },
     exampleSynonym: { word: "que tiene muchos manantiales", text: "«que tiene muchos manantiales»." },
     situacion: "conocimiento",
+    translation: { en: "fontanos" },
   },
   {
     id: "forinseco",
@@ -59201,6 +59334,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "formidoloso", text: "«formidoloso»." },
     exampleSynonym: { word: "Que tiene mucho miedo", text: "«Que tiene mucho miedo»." },
     situacion: "conocimiento",
+    translation: { en: "formidolosus" },
   },
   {
     id: "forzolento",
@@ -59221,6 +59355,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "fotófobo", text: "«fotófobo»." },
     exampleSynonym: { word: "y Psiquiatr. Que padece fotofobia. U. t. c. s", text: "«y Psiquiatr. Que padece fotofobia. U. t. c. s»." },
     situacion: "conocimiento",
+    translation: { en: "photophobe" },
   },
   {
     id: "francote",
@@ -59371,6 +59506,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "furfuráceo", text: "«furfuráceo»." },
     exampleSynonym: { word: "Parecido al salvado", text: "«Parecido al salvado»." },
     situacion: "conocimiento",
+    translation: { en: "furfuraceous" },
   },
   {
     id: "futurizo",
@@ -59381,6 +59517,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "futurizo", text: "«futurizo»." },
     exampleSynonym: { word: "Orientado o proyectado hacia el futuro", text: "«Orientado o proyectado hacia el futuro»." },
     situacion: "conocimiento",
+    translation: { en: "futuristic" },
   },
   {
     id: "fututo",
@@ -59461,6 +59598,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "galorrománico", text: "«galorrománico»." },
     exampleSynonym: { word: "Perteneciente o relativo al galorrománico. Léxico galorrománico", text: "«Perteneciente o relativo al galorrománico. Léxico galorrománico»." },
     situacion: "conocimiento",
+    translation: { en: "gallo-romanesque" },
   },
   {
     id: "gamonoso",
@@ -59551,6 +59689,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "geotectónico", text: "«geotectónico»." },
     exampleSynonym: { word: "Geol. Perteneciente o relativo a la forma, disposición y estructura de las rocas y terrenos que constituyen", text: "«Geol. Perteneciente o relativo a la forma, disposición y estructura de las rocas y terrenos que constituyen»." },
     situacion: "conocimiento",
+    translation: { en: "geotectonic" },
   },
   {
     id: "geotico",
@@ -59561,6 +59700,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "geótico", text: "«geótico»." },
     exampleSynonym: { word: "Perteneciente o relativo a la tierra", text: "«Perteneciente o relativo a la tierra»." },
     situacion: "conocimiento",
+    translation: { en: "geotic" },
   },
   {
     id: "gerundiano",
@@ -59571,6 +59711,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "gerundiano", text: "«gerundiano»." },
     exampleSynonym: { word: "hinchado y ridículo", text: "«hinchado y ridículo»." },
     situacion: "conocimiento",
+    translation: { en: "gerundian" },
   },
   {
     id: "getulo",
@@ -59601,6 +59742,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "girostático", text: "«girostático»." },
     exampleSynonym: { word: "Mec. Perteneciente o relativo al giróstato", text: "«Mec. Perteneciente o relativo al giróstato»." },
     situacion: "conocimiento",
+    translation: { en: "gyrostatic" },
   },
   {
     id: "globero",
@@ -59641,6 +59783,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "goliardesco", text: "«goliardesco»." },
     exampleSynonym: { word: "Perteneciente o relativo a los goliardos o a las poesías que componían", text: "«Perteneciente o relativo a los goliardos o a las poesías que componían»." },
     situacion: "conocimiento",
+    translation: { en: "goliardesque" },
   },
   {
     id: "golimbro",
@@ -59681,6 +59824,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "gorruendo", text: "«gorruendo»." },
     exampleSynonym: { word: "Harto o satisfecho de comer", text: "«Harto o satisfecho de comer»." },
     situacion: "conocimiento",
+    translation: { en: "gorrundo" },
   },
   {
     id: "gosipino",
@@ -59731,6 +59875,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "gravativo", text: "«gravativo»." },
     exampleSynonym: { word: "que grava", text: "«que grava»." },
     situacion: "conocimiento",
+    translation: { en: "gravative" },
   },
   {
     id: "gravedoso",
@@ -59741,6 +59886,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "gravedoso", text: "«gravedoso»." },
     exampleSynonym: { word: "Circunspecto y serio con afectación", text: "«Circunspecto y serio con afectación»." },
     situacion: "conocimiento",
+    translation: { en: "serious" },
   },
   {
     id: "greciano",
@@ -59821,6 +59967,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "guarabeado", text: "«guarabeado»." },
     exampleSynonym: { word: "estampada en muchos colores", text: "«estampada en muchos colores»." },
     situacion: "conocimiento",
+    translation: { en: "guarabado" },
   },
   {
     id: "guarachoso",
@@ -59951,6 +60098,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "guiñolesco", text: "«guiñolesco»." },
     exampleSynonym: { word: "Perteneciente o relativo al guiñol", text: "«Perteneciente o relativo al guiñol»." },
     situacion: "conocimiento",
+    translation: { en: "guignolesque" },
   },
   {
     id: "guipipia",
@@ -60001,6 +60149,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"tontedad","word":"Tontedad","im
     example: { word: "guitarresco", text: "«guitarresco»." },
     exampleSynonym: { word: "Perteneciente o relativo a la guitarra", text: "«Perteneciente o relativo a la guitarra»." },
     situacion: "conocimiento",
+    translation: { en: "guitarresque" },
   },
   {
     id: "guitero",
