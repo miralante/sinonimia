@@ -128569,4 +128569,17 @@ DICCIONARIOS.en = DICCIONARIOS.en.concat([{"id":"migraine-2","word":"Migraine","
     situacion: "conocimiento",
     translation: { "es": "traslato" },
   },
+
+  // --- Translated synonymy batch 282 ---
+  {
+    id: "unravel-28",
+    word: "Unravel",
+    image: { id: 2450, alt: "Information and knowledge" },
+    definition: "Remove an obstruction.",
+    synonyms: ["remove an obstruction"],
+    example: { word: "Unravel", text: "The term “Unravel” refers to Remove an obstruction.." },
+    exampleSynonym: { word: "remove an obstruction", text: "The term “remove an obstruction” refers to Remove an obstruction.." },
+    situacion: "conocimiento",
+    translation: { "es": "desatibar" },
+  },
 ]);
