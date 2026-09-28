@@ -18,8 +18,8 @@
   var state = { topic: "todos", letter: null };
   var currentLanguage = DEFAULT_LANGUAGE;
   var activeDictionary = [];
-  var entryById = {};
-  var entryByName = {};
+  var entryById = new Map();
+  var entryByName = new Map();
 
   function t(key, variables) {
     return translate(currentLanguage, key, variables);
@@ -48,12 +48,13 @@
   // happened to be defined last.
   function buildIndexes() {
     activeDictionary = DICCIONARIOS[currentLanguage] || [];
-    entryById = {};
-    entryByName = {};
+    entryById = new Map();
+    entryByName = new Map();
     activeDictionary.forEach(function (entry) {
-      entryById[entry.id] = entry;
+      entryById.set(entry.id, entry);
       var key = normalize(entry.word);
-      (entryByName[key] = entryByName[key] || []).push(entry);
+      if (!entryByName.has(key)) entryByName.set(key, []);
+      entryByName.get(key).push(entry);
     });
   }
 
@@ -85,15 +86,15 @@
     AVAILABLE_LANGUAGES.forEach(function (lang) {
       if (lang === currentLanguage) return;
       var otherEntries = DICCIONARIOS[lang] || [];
-      var entryByIdLookup = {};
-      otherEntries.forEach(function (e) { entryByIdLookup[e.id] = e; });
+      var entryByIdLookup = new Map();
+      otherEntries.forEach(function (e) { entryByIdLookup.set(e.id, e); });
 
       // Pass 1: explicit traduccion. Accepts both string and array values.
       if (entry.translation && entry.translation[lang]) {
         var declared = entry.translation[lang];
         var ids = Array.isArray(declared) ? declared : [declared];
         ids.forEach(function (otherId) {
-          var otherEntry = entryByIdLookup[otherId];
+          var otherEntry = entryByIdLookup.get(otherId);
           if (otherEntry) {
             translations.push({ language: lang, entry: otherEntry });
           }
@@ -192,50 +193,71 @@
     return "#/" + currentLanguage + "/word/" + id;
   }
 
+  // Chunk size for async rendering — yields to Chromium's CDP thread
+  // every CHUNK entries, preventing main-thread blocking that causes
+  // Playwright CDP deadlocks when the input event is dispatched.
+  var CHUNK = 100;
+
   function renderList() {
     showView("lista");
     var results = filteredEntries();
     listEl.innerHTML = "";
 
-    results.forEach(function (entry) {
-      var li = document.createElement("li");
-      li.className = "card";
-      var a = document.createElement("a");
-      a.href = wordLink(entry.id);
-      a.className = "card-enlace";
+    // buildFragment collects DOM nodes without touching the live DOM,
+    // then appends everything at once for better performance.
+    var fragment = document.createDocumentFragment();
 
-      var img = document.createElement("img");
-      img.className = "card-image";
-      img.src = "img/" + entry.image.id + ".png";
-      img.alt = "";
-      img.loading = "lazy";
+    (async function () {
+      for (var i = 0; i < results.length; i++) {
+        var entry = results[i];
+        var li = document.createElement("li");
+        li.className = "card";
+        var a = document.createElement("a");
+        a.href = wordLink(entry.id);
+        a.className = "card-enlace";
 
-      var h3 = document.createElement("h3");
-      h3.textContent = entry.word;
-      var def = document.createElement("p");
-      def.className = "short-definition";
-      def.textContent = entry.definition;
+        var img = document.createElement("img");
+        img.className = "card-image";
+        img.src = "img/" + entry.image.id + ".png";
+        img.alt = "";
+        img.loading = "lazy";
 
-      a.appendChild(img);
-      if (isLearned(entry.id)) {
-        var badge = document.createElement("span");
-        badge.className = "card-aprendida";
-        badge.setAttribute("aria-label", t("alreadyDiscovered"));
-        badge.textContent = "✓";
-        a.appendChild(badge);
+        var h3 = document.createElement("h3");
+        h3.textContent = entry.word;
+        var def = document.createElement("p");
+        def.className = "short-definition";
+        def.textContent = entry.definition;
+
+        a.appendChild(img);
+        if (isLearned(entry.id)) {
+          var badge = document.createElement("span");
+          badge.className = "card-aprendida";
+          badge.setAttribute("aria-label", t("alreadyDiscovered"));
+          badge.textContent = "✓";
+          a.appendChild(badge);
+        }
+        a.appendChild(h3);
+        a.appendChild(def);
+        li.appendChild(a);
+        fragment.appendChild(li);
+
+        // Yield every CHUNK entries — critical for Playwright CDP responsiveness
+        if ((i + 1) % CHUNK === 0 && i + 1 < results.length) {
+          listEl.appendChild(fragment);
+          fragment = document.createDocumentFragment();
+          await new Promise(function (r) { setTimeout(r, 0); });
+        }
       }
-      a.appendChild(h3);
-      a.appendChild(def);
-      li.appendChild(a);
-      listEl.appendChild(li);
-    });
 
-    noResults.hidden = results.length !== 0;
-    resultsInfo.textContent = results.length === 1
-      ? t("resultOne")
-      : t("resultsMany", { n: results.length });
+      listEl.appendChild(fragment);
 
-    updateAlphabetVisual();
+      noResults.hidden = results.length !== 0;
+      resultsInfo.textContent = results.length === 1
+        ? t("resultOne")
+        : t("resultsMany", { n: results.length });
+
+      updateAlphabetVisual();
+    })();
   }
 
   function createHighlightedSentence(text, highlightedWord) {
@@ -285,7 +307,7 @@
   }
 
   function renderDetail(id) {
-    var entry = entryById[id];
+    var entry = entryById.get(id);
     if (!entry) {
       detailView.innerHTML = "";
       var notFound = document.createElement("p");
@@ -346,7 +368,7 @@
     synonymsList.className = "synonyms-list";
     entry.synonyms.forEach(function (synonym) {
       var li = document.createElement("li");
-      var relatedEntries = (entryByName[normalize(synonym)] || []).filter(function (candidate) {
+      var relatedEntries = (entryByName.get(normalize(synonym)) || []).filter(function (candidate) {
         return candidate.id !== entry.id;
       });
       if (relatedEntries.length === 0) {
@@ -566,7 +588,7 @@
     listView.hidden = name !== "lista";
     detailView.hidden = name !== "detalle";
     gameView.hidden = name !== "juego";
-    noResults.hidden = noResults.hidden || name !== "lista";
+    noResults.hidden = name !== "lista";
   }
 
   // --- Routing: #/<lang>/  and  #/<lang>/word/<id> ---
@@ -1156,4 +1178,8 @@
   initHero();
   updateProgressBar();
   route();
+
+  // Re-route on hash changes (e.g. after route() sets the initial hash,
+  // or after user navigates to a different route).
+  window.addEventListener("hashchange", route);
 })();

@@ -9,7 +9,7 @@
    The SW's job is just to make the first paint and the first
    dictionary load work offline.
    ============================================================ */
-var VERSION = 'sinonimia-v174';
+var VERSION = 'sinonimia-v205';
 
 var FILES = [
   './',
@@ -18,7 +18,11 @@ var FILES = [
   './manifest.json',
   './offline.html',
   './css/styles.css',
+  './css/locale-picker.css',
   './js/i18n.js',
+  './js/locale-picker-config.js',
+  './js/locale-picker.js',
+  './js/sw-register.js',
   './js/dictionary-manifest.js',
   './js/dictionary-loader.js',
   './js/bootstrap-i18n.js',
