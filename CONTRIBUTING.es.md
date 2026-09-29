@@ -113,7 +113,10 @@ pipeline del maintainer.
    clara.
 6. Consigue un pictograma con `node scripts/search-pictogram.js`
    (ARASAAC u OpenSymbols; respeta la licencia que indique el script).
-7. Ejecuta `node scripts/check.js` para verificar que todo resuelve.
+7. Ejecuta `node scripts/build-dictionary-data.js` (regenera el índice y
+   los ficheros de detalle que carga el navegador), sube `VERSION` en
+   `sw.js` y ejecuta `node scripts/check.js` para verificar que todo
+   resuelve y que nada generado está desactualizado.
 
 ### Nuevo idioma
 

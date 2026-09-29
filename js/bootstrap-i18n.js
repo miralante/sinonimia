@@ -43,7 +43,7 @@
       var saved = localStorage.getItem("sinonimia-idioma");
       if (AVAILABLE.indexOf(saved) !== -1) return saved;
     } catch (e) { /* localStorage may be blocked; fall through */ }
-    var browser = (navigator.language || "").slice(0, 2);
+    var browser = ((navigator.languages && navigator.languages[0]) || navigator.language || "").toLowerCase().split(/[-_]/)[0];
     if (AVAILABLE.indexOf(browser) !== -1) return browser;
     return DEFAULT;
   }

@@ -233,6 +233,63 @@ async function exerciseSoundSettings(browser, baseUrl) {
   }
 }
 
+async function exerciseFontSizeSettings(browser, baseUrl) {
+  const nativePrefs = {
+    calculia: { fontSize: 'muygrande' },
+    memofun: { textSize: 'extraLarge' },
+    okeymoney: { textSize: 'extraLarge' },
+    routime: { tamanoLetra: 'muygrande' },
+  }[APP];
+  const context = await browser.newContext({ serviceWorkers: 'block', viewport: { width: 1280, height: 900 } });
+  const page = await context.newPage();
+  try {
+    await page.addInitScript(({ app, prefs }) => {
+      if (!sessionStorage.getItem('__font_size_test_initialized')) {
+        localStorage.clear();
+        if (prefs) localStorage.setItem(app + ':prefs', JSON.stringify(prefs));
+        sessionStorage.setItem('__font_size_test_initialized', 'true');
+      }
+    }, { app: APP, prefs: nativePrefs });
+    await page.goto(baseUrl + '/', { waitUntil: 'domcontentloaded', timeout: NAV_TIMEOUT });
+    await page.locator('.locale-settings-trigger').waitFor({ state: 'visible', timeout: NAV_TIMEOUT });
+    const scaleVariable = APP === 'calculia' || APP === 'routime' ? '--escala-texto' : '--text-scale';
+    const readScale = () => page.evaluate(variable =>
+      parseFloat(getComputedStyle(document.documentElement).getPropertyValue(variable)), scaleVariable);
+    if (nativePrefs) {
+      assert.strictEqual(await readScale(), 1.3,
+        'La preferencia de tamaño guardada en la app debe aplicarse al cargar');
+    }
+    const fontSizeBefore = await page.evaluate(() => parseFloat(getComputedStyle(document.body).fontSize));
+
+    await page.locator('.locale-settings-trigger').click();
+    await page.locator('[data-settings-size="large"]').click();
+    assert.strictEqual(await readScale(), 1.15,
+      'El tamaño elegido debe cambiar la escala tipográfica visible de la app');
+    const fontSizeAfter = await page.evaluate(() => parseFloat(getComputedStyle(document.body).fontSize));
+    assert.notStrictEqual(fontSizeAfter, fontSizeBefore,
+      'El tamaño elegido debe modificar el tamaño calculado del texto de la app');
+    assert.strictEqual(await page.locator('[data-settings-size="large"]').getAttribute('aria-pressed'), 'true');
+    const settingsKey = APP === 'ludia' ? 'enroca:locale:accessibility' : APP + ':locale:accessibility';
+    // An app can choose its own key through LocalePickerConfig (Sinonimia
+    // uses 'sinonimia-idioma'), so prefer what the page actually configured.
+    const saved = await page.evaluate(fallbackKey => {
+      const cfg = window.LocalePickerConfig || {};
+      const key = cfg.settingsStorageKey || (cfg.storageKey ? cfg.storageKey + ':accessibility' : fallbackKey);
+      return JSON.parse(localStorage.getItem(key));
+    }, settingsKey);
+    assert.strictEqual(saved.textSize, 'large', 'El tamaño elegido debe guardarse');
+
+    await page.reload({ waitUntil: 'domcontentloaded' });
+    assert.strictEqual(await readScale(), 1.15,
+      'El tamaño elegido debe seguir aplicado tras recargar la app');
+    assert.strictEqual(await page.evaluate(() => parseFloat(getComputedStyle(document.body).fontSize)), fontSizeAfter,
+      'El tamaño calculado del texto debe persistir tras recargar la app');
+  } finally {
+    await page.close().catch(() => {});
+    await context.close().catch(() => {});
+  }
+}
+
 async function exerciseForms(page) {
   const items = await page.locator('input:visible, select:visible, textarea:visible')
     .evaluateAll(nodes => nodes.map((node, index) => ({
@@ -378,6 +435,8 @@ async function exerciseSinonimia(page, route) {
   await clickFirstVisible(page, '#contraste-toggle');
   await clickFirstVisible(page, '#contraste-toggle');
   if (route.includes('/juego/')) {
+    // The dictionary loads lazily, so the game renders after DOMContentLoaded.
+    await page.waitForSelector(ANSWER_SELECTOR, { state: 'visible', timeout: NAV_TIMEOUT }).catch(() => {});
     actions += await answerVisibleQuestions(page, 10);
     assert.ok(actions > 0, 'El juego de Sinonimia no permite responder ninguna pregunta');
     return actions ? 1 : 0;
@@ -385,10 +444,38 @@ async function exerciseSinonimia(page, route) {
   const search = page.locator('#search').first();
   if (await search.isVisible().catch(() => false)) {
     await search.fill('a');
-    await page.waitForTimeout(SETTLE_MS);
-    assert.ok(await page.locator('#word-list .card').count() ||
-      await page.locator('#no-results:not([hidden])').count(),
-      'La búsqueda de Sinonimia no produce estado visible');
+    // The app debounces the search, so wait for the result state instead of
+    // sleeping a fixed time.
+    await page.waitForSelector('#word-list .card, #no-results:not([hidden])',
+      { state: 'attached', timeout: NAV_TIMEOUT })
+      .catch(() => assert.fail('La búsqueda de Sinonimia no produce estado visible'));
+    // A search with no match offers to look the text up elsewhere: two links
+    // (dictionary, encyclopedia, each in a new tab) and two plain tips (search
+    // the Internet, ask your chatbot) that name no product.
+    await search.fill('zzqqxxnoword');
+    // Wait for THIS query's suggestions (the search is debounced, and a previous
+    // "no results" state may still be on screen).
+    await page.waitForFunction(() => {
+      const box = document.getElementById('no-results');
+      const tips = document.getElementById('no-results-tips');
+      return box && !box.hidden && tips && /zzqqxxnoword/.test(tips.textContent);
+    }, null, { timeout: NAV_TIMEOUT })
+      .catch(() => assert.fail('Una búsqueda sin resultados debe sugerir buscar en otros sitios'));
+    const external = await page.locator('#no-results-links a').evaluateAll(links =>
+      links.map(a => ({ href: a.href, target: a.target, rel: a.rel })));
+    assert.strictEqual(external.length, 2, 'Se esperaban 2 enlaces de búsqueda externa (diccionario y Wikipedia)');
+    assert.strictEqual(await page.locator('#no-results-tips li').count(), 2,
+      'Se esperaban 2 consejos (buscar en Internet y preguntar al chatbot)');
+    const chatbotTip = await page.locator('#no-results-tips li').nth(1).textContent();
+    assert.ok(/zzqqxxnoword/.test(chatbotTip),
+      'El consejo del chatbot debe incluir la palabra buscada: ' + JSON.stringify(chatbotTip));
+    external.forEach(link => {
+      assert.ok(/^https:\/\//.test(link.href) && link.target === '_blank' && /noopener/.test(link.rel),
+        'Los enlaces externos deben ser https, abrirse en otra pestaña y llevar noopener: ' + link.href);
+    });
+    await search.fill('a');
+    await page.waitForSelector('#word-list .card', { state: 'attached', timeout: NAV_TIMEOUT });
+    actions += 1;
     const filter = page.locator('.filter-btn').nth(1);
     if (await filter.isVisible().catch(() => false)) { await filter.click(); actions += 1; }
     const alphabet = page.locator('#alphabet button:not([disabled])').first();
@@ -396,9 +483,9 @@ async function exerciseSinonimia(page, route) {
     const word = page.locator('a[href*="/word/"]').first();
     if (await word.isVisible().catch(() => false)) {
       await word.click();
-      await page.waitForTimeout(SETTLE_MS);
-      assert.ok(await page.locator('#detail-view:not([hidden])').count(),
-        'La tarjeta de palabra no abre el detalle');
+      // The detail fields arrive in a small chunk fetched on demand.
+      await page.waitForSelector('#detail-view:not([hidden]) h2', { state: 'attached', timeout: NAV_TIMEOUT })
+        .catch(() => assert.fail('La tarjeta de palabra no abre el detalle'));
       actions += 1;
       await page.goBack({ waitUntil: 'domcontentloaded', timeout: NAV_TIMEOUT }).catch(() => {});
       await page.waitForTimeout(SETTLE_MS);
@@ -527,6 +614,9 @@ async function exerciseControls(page) {
         else await locator.click({ timeout: 2000, force: true });
         actions += 1;
         await page.waitForTimeout(25);
+        // Sinonimia marks <main> aria-busy while a word's detail chunk loads.
+        await page.waitForFunction(() => !document.querySelector('main[aria-busy="true"]'),
+          null, { timeout: NAV_TIMEOUT }).catch(() => {});
       } catch (error) {
         if (await locator.isVisible().catch(() => false)) {
           throw new Error('No se pudo activar ' + control.tag + '#' +
@@ -613,6 +703,8 @@ async function main() {
   try {
     await exerciseSoundSettings(browser, baseUrl);
     process.stdout.write('\n[' + APP + '] sound settings OK');
+    await exerciseFontSizeSettings(browser, baseUrl);
+    process.stdout.write('\n[' + APP + '] font-size settings OK');
     await exerciseUnsupportedBrowserLanguage(browser, baseUrl);
     process.stdout.write('\n[' + APP + '] fr-FR fallback OK');
     for (const route of routes) {

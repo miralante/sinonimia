@@ -162,7 +162,7 @@
      runs before the first paint and avoids a flash of Spanish content for
      English-speaking users. Same-origin <script src> satisfies the CSP
      `script-src 'self'` directive; an inline <script> would be blocked. -->
-<script src="js/bootstrap-i18n.js"></script>
+<script src="js/bootstrap-i18n.js?v=2"></script>
 <!-- Favicon. The SVG doubles as the iOS / Android / Windows home-screen
      shortcut icon via `apple-touch-icon` (iOS 16+ and modern Chromium
      accept SVG here). `theme-color` tints the browser chrome and the
@@ -220,7 +220,7 @@
   </section>
 
   <section class="buscador" aria-label="Buscar una palabra">
-    <label for="buscar" data-i18n="searchLabel">Escribe una palabra o un tema</label>
+    <label for="search" data-i18n="searchLabel">Escribe una palabra o un tema</label>
     <div class="buscador-fila">
       <input
         type="search"
@@ -257,15 +257,23 @@
 
   <section id="list-view" data-i18n-aria-label="listLabel" aria-label="Lista de palabras">
     <ul class="cards" id="word-list"></ul>
+    <p class="mostrar-mas-fila"><button type="button" id="show-more" class="boton-cta boton-secundario" data-i18n="showMore" hidden>Mostrar más palabras</button></p>
   </section>
 
   <section id="detail-view" class="detalle" hidden data-i18n-aria-label="detailLabel" aria-label="Detalle de la palabra"></section>
 
   <section id="game-view" class="detalle juego" hidden data-i18n-aria-label="gameLabel" aria-label="Juego para practicar las palabras"></section>
 
-  <p id="no-results" class="sin-resultados" hidden data-i18n="noResultsFound">
-    No hemos encontrado esa palabra. Prueba a escribir solo el principio, por ejemplo «cefal» para «cefalea».
-  </p>
+  <div id="no-results" class="sin-resultados" hidden>
+    <p data-i18n="noResultsFound">
+      No hemos encontrado esa palabra. Prueba a escribir solo el principio, por ejemplo «cefal» para «cefalea».
+    </p>
+    <div id="no-results-help" hidden>
+      <p id="no-results-help-text"></p>
+      <ul id="no-results-links" class="sin-resultados-enlaces"></ul>
+      <ul id="no-results-tips" class="sin-resultados-consejos"></ul>
+    </div>
+  </div>
 
 </main>
 
@@ -276,6 +284,8 @@
   <p class="pie-creditos" data-i18n-html="footerCreditsHtml">
     Pictogramas: <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (CC BY-NC-SA).
   </p>
+  <p id="offline-status" class="pie-creditos" role="status" aria-live="polite" hidden></p>
+  <p class="pie-creditos" hidden><button type="button" id="offline-images" class="boton-cta boton-secundario"></button></p>
   <p class="pie-enlaces">
     <a href="config/" data-i18n-html="footerConfigHtml">Configuración</a>
     · <a href="legal/privacidad.html" data-i18n-html="footerPrivacyHtml">Privacidad</a>
@@ -283,13 +293,13 @@
 </footer>
 
 <script src="js/i18n.js?v=2026-09-28"></script>
-<script src="js/dictionary-manifest.js"></script>
+<script src="js/dictionary-data.js"></script>
 <script src="js/dictionary-loader.js"></script>
 <script src="js/app.js"></script>
 <!-- Locale picker config (must run BEFORE js/locale-picker.js). Kept as an
      external file, not inline, so the CSP `script-src 'self'` allows it. -->
 <script src="js/locale-picker-config.js"></script>
-<script src="js/locale-picker.js?v=sinonimia-v1" defer></script>
+<script src="js/locale-picker.js?v=sinonimia-v2" defer></script>
 <!-- Service-worker registration. Kept as an external file, not inline, so
      the CSP `script-src 'self'` allows it. -->
 <script src="js/sw-register.js"></script>

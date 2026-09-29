@@ -89,9 +89,13 @@ the browser.
 index.html          markup for every view + data-i18n hooks
 css/styles.css       all styling (custom properties for theming)
 js/i18n.js           interface copy, per language
-js/dictionary-manifest.js ordered dictionary shard manifest + hashes
-js/dictionary-loader.js  static-hosting loader for every listed shard
-js/data.<lang>[.<shard>].js dictionary shard entries
+js/data.<lang>[.<shard>].js dictionary SOURCE shards (edited by people/ingestion, not loaded by the browser)
+js/dictionary-manifest.js ordered source shard manifest + hashes (tooling only)
+js/dict.<lang>.idx.<n>.js  GENERATED light index shards (what the list/search/games need)
+js/dict.<lang>.det.<kkk>.js GENERATED detail chunks (examples, alt text, translation links)
+js/dictionary-data.js    GENERATED runtime manifest of every dict.* file with its ?v= hash
+js/dictionary-loader.js  loader: SinonimiaDictionary.loadIndex / loadDetail
+scripts/build-dictionary-data.js  regenerates js/dict.* and js/dictionary-data.js
 js/app.js            the entire client app (router, rendering, state)
 img/<arasaac-id>.png pictograms
 scripts/check.js   the CI/local validation script
@@ -142,13 +146,16 @@ not here — this doc only covers what affects the code.
   read from the developer's shell environment at content-edit time.
 - **Cache is content-addressed by path, not hash.** HTML is cached
   per the default (so users see updates on reload); dictionary shards,
-  CSS and images are cached for a year with `immutable`. Every shard is
-  listed in `js/dictionary-manifest.js` with a `?v=` value equal to its
-  first ten SHA-256 characters. The loader writes all shards in manifest
-  order before `js/app.js` starts, so the application never depends on a
-  fixed number of data files. If a shard approaches the host's per-file
-  limit, split the ordered entries into a new shard and add one manifest
-  item; do not put the whole dictionary back into a single file.
+  CSS and images are cached for a year with `immutable`. Every generated
+  file is listed in `js/dictionary-data.js` with a `?v=` value equal to its
+  first ten SHA-256 characters. Before the first render `js/app.js` fetches
+  only the active language's light index; a word's example sentences come
+  from a small detail chunk fetched when the word is opened or played;
+  `404.html` loads no dictionary at all (it only needs the language list).
+  The application never depends on a fixed number of data files. If an
+  index shard would approach the host's per-file limit, lower
+  `INDEX_ROWS_PER_SHARD` in `scripts/build-dictionary-data.js`; do not put
+  the whole dictionary back into a single file.
 
 ## Browser support
 
@@ -260,15 +267,53 @@ itself — so the next person to touch it knows exactly what to do.
   `translate(language, key, variables)` looks up a key for a language,
   falling back to Spanish and then to the raw key if missing, and does
   simple `{placeholder}` substitution.
-- **`js/dictionary-manifest.js`** is the suite-compatible data contract:
-  it lists ordered `{file, src}` shards for each language and the hash used
-  to bust immutable caches. **`js/dictionary-loader.js`** expands that
-  manifest into script tags while the HTML parser is still running. Each
-  `js/data.<lang>[.<shard>].js` file either creates its language array (the
-  base shard) or appends to it with `concat`. Adding a language or splitting
-  an existing language therefore changes the manifest and data files, not
-  `js/app.js` or page-specific code. This is the file-shard contract for
-  Sinonimia and the other static applications in the Apptonomia suite.
+- **Dictionary data layers.** The people-edited source stays in
+  `js/data.<lang>[.<shard>].js` (listed, with hashes, in
+  `js/dictionary-manifest.js`; the ingestion pipeline and
+  `scripts/content-status.js` read it). The browser never loads it.
+  **`scripts/build-dictionary-data.js`** derives from it, per language:
+  *index shards* `js/dict.<lang>.idx.<n>.js` (rows of
+  `[id, word, definition, synonyms, imageId, topic]`) and *detail chunks*
+  `js/dict.<lang>.det.<kkk>.js` (`[imageAlt, exampleWord, exampleText,
+  synonymWord, synonymText, translationLinks?]` keyed by id; an entry lives
+  in chunk `fnv1a(id) % 128`, computed identically by the builder and the
+  loader). Translation links are resolved at build time (explicit
+  `traduccion` first, unique-shared-pictogram fallback second), so showing
+  "see it in English" never requires the other language's dictionary.
+  **`js/dictionary-data.js`** lists every generated file with its `?v=`
+  hash. **`js/dictionary-loader.js`** exposes `SinonimiaDictionary`:
+  `loadIndex(language)` (all index shards in parallel, then builds the
+  entries) and `loadDetail(language, entries)` (only the chunks those entries
+  need, merged into the entries as `example`, `exampleSynonym`,
+  `image.alt`, `translations`). Adding a language or splitting an existing
+  one changes source data and the generated files, not `js/app.js` or
+  page-specific code. **After ANY change to a `js/data.*.js` file run
+  `node scripts/build-dictionary-data.js`, then bump `VERSION` in `sw.js`**
+  (`js/dictionary-data.js` is in `FILES`); `scripts/check.js` fails when the
+  generated files are stale.
+- **Offline copy.** `sw.js` keeps two caches: the shell (`FILES`, tied to
+  `VERSION`) and `sinonimia-data`, which holds the generated dictionary
+  files keyed by their content-hash URL and is **never wiped by a `VERSION`
+  bump** — a release that does not change the dictionary downloads none of it
+  again, and a content batch downloads only the files whose hash changed.
+  The worker learns the file list from `js/dictionary-data.js`
+  (`importScripts`). A few seconds after the first render (and never when
+  the browser asks to save data or the connection is 2G) the page sends
+  `{type: 'warm-dictionary'}`; the worker then downloads every index shard
+  and detail chunk of both languages, four at a time, active language and
+  indexes first, reports progress (`dictionary-offline` messages, shown in
+  the footer `#offline-status`) and finally drops files of older dictionary
+  versions. Pictograms (`img/<id>.png`, ~40 MB in total, ids listed in
+  `js/dictionary-data.js`) live in their own `sinonimia-img` cache, also
+  untouched by `VERSION` bumps. They are stored as they are viewed; the
+  whole set is downloaded **only when the person accepts** the footer offer
+  (`#offline-images`, which states the size). The choice is kept in
+  `localStorage` (`sinonimia-offline-images`) and later visits only complete
+  what is missing; the offer never appears under data-saver. Offline,
+  anything not stored yet shows the `offlineMissing` message instead of
+  failing silently. `node scripts/smoke-offline.js` proves the whole flow in
+  a real browser (cold load fetches only one index, network cut, reload,
+  word, game and language switch all work, nothing re-downloaded).
   The full step-by-step for a new language — including the mirrored
   strings in `js/bootstrap-i18n.js`, the `about.js` whitelist and the
   parallel `data-lang-block` blocks on `about/*` and `404.html`, and
@@ -481,8 +526,11 @@ a unique id, a valid `situacion`, an `imagen.id` with a matching file under
 (accent-insensitive) substring of their own `texto`; that every `t()` key
 `js/app.js` uses exists in every `I18N` language block; that every DOM id
 `js/app.js` looks up with `getElementById` exists in `index.html`; that
-the dictionary manifest lists every shard exactly once and each `?v=` value
-matches that shard's content hash; that
+the source manifest lists every shard exactly once and each `?v=` value
+matches that shard's content hash; that the generated `js/dict.*` files and
+`js/dictionary-data.js` are exactly what `scripts/build-dictionary-data.js`
+produces from the source (no stale, missing or hand-edited file) and that the
+loader and the builder pick the same detail chunk for every id; that
 any `traduccion` field on an entry is well-formed (object keyed by
 language code, values are strings or arrays of strings) and references
 ids that exist in the target language's dictionary; and that neither

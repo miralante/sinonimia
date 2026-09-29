@@ -77,13 +77,14 @@
 # ---------------------------------------------------------------------------
 # Cache policy per asset type.
 #
-# The globs use `*` per the Pages docs (one path segment). Every dictionary
-# shard (`data.es.js`, `data.es.2.js`, `data.en.js`, and future shards) matches
-# `/js/data.*`.
+# The globs use `*` per the Pages docs (one path segment). The files the app
+# actually loads are the GENERATED dictionary files (`dict.es.idx.1.js`,
+# `dict.es.det.017.js`, ...), which match `/js/dict.*`; the source shards
+# (`data.*`) are kept for the tooling and matched by `/js/data.*`.
 #
-# `js/data.*` and `img/*` change rarely and are big enough to warrant a
+# `js/dict.*`, `js/data.*` and `img/*` change rarely and are big enough to warrant a
 # year-long cache. The dictionary cache is busted via the per-shard `?v=`
-# query strings in `js/dictionary-manifest.js` — each query is a content
+# query strings in `js/dictionary-data.js` — each query is a content
 # hash (sha256 of that file, first 10 hex chars), not a hand-picked date
 # or version number. `scripts/check.js` recomputes every shard hash on every
 # run and fails the build if any manifest entry doesn't match. This exists because a
@@ -91,8 +92,8 @@
 # when the dictionary was expanded without remembering to touch it —
 # the immutable cache then kept serving the old dictionary to every
 # returning visitor. Never hand-edit these `?v=` values; run
-# `node scripts/check.js` after editing any dictionary shard and update the
-# manifest entry it reports.
+# `node scripts/build-dictionary-data.js` after editing any dictionary shard;
+# `node scripts/check.js` fails when the generated files are stale.
 #
 # `js/app.js`, `js/i18n.js` and `css/styles.css` change every few commits
 # (Safari fix, responsive tweaks, accessibility changes, new UI copy). A
@@ -115,6 +116,8 @@
 # 5 min for users to see it, bump a query string on the <link>/<script>
 # tag in index.html.
 # ---------------------------------------------------------------------------
+/js/dict.*
+  Cache-Control: public, max-age=31536000, immutable
 /js/data.*
   Cache-Control: public, max-age=31536000, immutable
 /css/*

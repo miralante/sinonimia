@@ -63,9 +63,26 @@ const I18N = {
     listLabel: "Lista de palabras",
     detailLabel: "Detalle de la palabra",
 
+    showMore: "Mostrar más palabras",
+    loadError: "No se pudieron cargar las palabras. Comprueba tu conexión y recarga la página.",
+    offlinePreparing: "Guardando las palabras para usarlas sin conexión… {n} %",
+    offlineReady: "Todas las palabras están guardadas. Puedes usar Sinonimia sin conexión.",
+    offlineMissing: "No hay conexión y esto aún no está guardado. Conéctate a internet para verlo.",
+    offlineImagesButton: "Guardar también los dibujos para usarlos sin conexión ({mb} MB)",
+    offlineImagesPreparing: "Guardando los dibujos… {n} %",
+    offlineImagesReady: "Los dibujos están guardados. Ya puedes usar todo sin conexión.",
+    offlineImagesFailed: "No se pudieron guardar todos los dibujos. Inténtalo de nuevo con conexión.",
     resultOne: "1 palabra encontrada.",
     resultsMany: "{n} palabras encontradas.",
     noResultsFound: "No hemos encontrado esa palabra. Prueba a escribir solo el principio, por ejemplo «cefal» para «cefalea».",
+    noResultsHelp: "También puedes buscar «{q}» en otro sitio:",
+    noResultsTipInternet: "Búscala en Internet.",
+    noResultsTipChatbot: "Pregúntale a tu chatbot: “Explícame con palabras muy sencillas qué significa «{q}»”.",
+    externalDictionaryLabel: "Buscar en el diccionario de la RAE",
+    externalDictionaryUrl: "https://dle.rae.es/{q}",
+    externalWikipediaLabel: "Buscar en Wikipedia",
+    externalWikipediaUrl: "https://es.wikipedia.org/w/index.php?search={q}",
+    externalOpensNote: "se abre en otra pestaña",
     wordNotFound: "No hemos encontrado esa palabra.",
 
     backToSearch: "← Volver al buscador",
@@ -178,9 +195,26 @@ const I18N = {
     listLabel: "List of words",
     detailLabel: "Word detail",
 
+    showMore: "Show more words",
+    loadError: "The words could not be loaded. Check your connection and reload the page.",
+    offlinePreparing: "Saving the words to use them offline… {n}%",
+    offlineReady: "All the words are saved. You can use Sinonimia offline.",
+    offlineMissing: "There is no connection and this is not saved yet. Connect to the internet to see it.",
+    offlineImagesButton: "Also save the pictures to use them offline ({mb} MB)",
+    offlineImagesPreparing: "Saving the pictures… {n}%",
+    offlineImagesReady: "The pictures are saved. You can now use everything offline.",
+    offlineImagesFailed: "Not all the pictures could be saved. Try again when you are online.",
     resultOne: "1 word found.",
     resultsMany: "{n} words found.",
     noResultsFound: "We couldn't find that word. Try typing just the start, for example «migr» for «migraine».",
+    noResultsHelp: "You can also look up «{q}» somewhere else:",
+    noResultsTipInternet: "Search for it on the Internet.",
+    noResultsTipChatbot: "Ask your chatbot: “Explain in very simple words what «{q}» means.”",
+    externalDictionaryLabel: "Search the Cambridge Dictionary",
+    externalDictionaryUrl: "https://dictionary.cambridge.org/search/english/direct/?q={q}",
+    externalWikipediaLabel: "Search Wikipedia",
+    externalWikipediaUrl: "https://en.wikipedia.org/w/index.php?search={q}",
+    externalOpensNote: "opens in a new tab",
     wordNotFound: "We couldn't find that word.",
 
     backToSearch: "← Back to search",
@@ -255,7 +289,7 @@ function translate(language, key, variables) {
   var value = texts[key] != null ? texts[key] : (I18N.es[key] || key);
   if (variables) {
     Object.keys(variables).forEach(function (name) {
-      value = value.replace("{" + name + "}", variables[name]);
+      value = value.replace("{" + name + "}", function () { return variables[name]; });
     });
   }
   return value;

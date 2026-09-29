@@ -62,6 +62,7 @@ const jsDir = path.join(ROOT, "js");
 const requiredJs = [
   "js/i18n.js",
   "js/dictionary-manifest.js",
+  "js/dictionary-data.js",
   "js/dictionary-loader.js",
   "js/app.js",
 ];
@@ -74,7 +75,7 @@ requiredJs.forEach(function (relativePath) {
   }
 });
 fs.readdirSync(jsDir).filter(function (f) {
-  return f.endsWith(".js") && requiredJs.indexOf("js/" + f) === -1;
+  return f.endsWith(".js") && requiredJs.indexOf("js/" + f) === -1 && !/^dict\..+\.js$/.test(f);
 }).forEach(function (f) {
   try {
     execFileSync(process.execPath, ["--check", path.join(jsDir, f)]);
@@ -169,9 +170,11 @@ dictionaryFiles.forEach(function (relativePath) {
   loadAsGlobal(relativePath, "window.DICCIONARIOS", "global.DICCIONARIOS");
 });
 
-// Service-worker projects must pre-cache every shard as well as the loader
-// and manifest. Without this check a new shard would work online but could be
-// missing on a first offline visit after installation.
+// The service worker keeps two caches (see sw.js): the shell (FILES, tied to
+// VERSION) and a data cache for the generated dictionary files, whose list it
+// reads from js/dictionary-data.js via importScripts. The shell must carry the
+// manifest and the loader, must NOT list the (large, content-hashed) dictionary
+// files, and must import the manifest.
 const swPath = path.join(ROOT, "sw.js");
 if (fs.existsSync(swPath)) {
   const swSource = fs.readFileSync(swPath, "utf8");
@@ -179,12 +182,24 @@ if (fs.existsSync(swPath)) {
   const cachedFiles = filesMatch
     ? Array.from(filesMatch[1].matchAll(/["']\.\/([^"']+)["']/g)).map(function (match) { return match[1]; })
     : [];
-  ["js/dictionary-manifest.js", "js/dictionary-loader.js"].concat(dictionaryFiles).forEach(function (relativePath) {
+  ["js/dictionary-data.js", "js/dictionary-loader.js"].forEach(function (relativePath) {
     if (cachedFiles.indexOf(relativePath) === -1) {
       fail("sw.js: dictionary asset is missing from FILES: " + relativePath);
     }
   });
-  ok("sw.js dictionary shard cache manifest checked (" + dictionaryFiles.length + " shard(s))");
+  cachedFiles.filter(function (file) { return /^js\/(?:dict|data)\./.test(file); }).forEach(function (file) {
+    fail("sw.js: " + file + " must not be in FILES — dictionary files live in the data cache (DATA_CACHE)");
+  });
+  if (!/importScripts\(\s*['"]\.\/js\/dictionary-data\.js['"]\s*\)/.test(swSource)) {
+    fail("sw.js: must importScripts('./js/dictionary-data.js') to know which dictionary files to store offline");
+  }
+  if (!/DATA_CACHE/.test(swSource) || !/warm-dictionary/.test(swSource)) {
+    fail("sw.js: the offline dictionary copy (DATA_CACHE / warm-dictionary) is missing");
+  }
+  if (!/IMG_CACHE/.test(swSource) || !/warm-images/.test(swSource)) {
+    fail("sw.js: the offline pictogram copy (IMG_CACHE / warm-images) is missing");
+  }
+  ok("sw.js shell cache and dictionary data cache contract checked");
 }
 loadAsGlobal("js/i18n.js", "const I18N", "global.I18N");
 
@@ -349,11 +364,15 @@ if (fs.existsSync(html404Path)) {
 }
 
 htmlPages.forEach(function (page) {
-  if (!/<script src="js\/dictionary-manifest\.js"><\/script>/.test(page.content)) {
-    fail(page.file + ": missing dictionary-manifest.js script tag");
+  if (!/<script src="js\/dictionary-data\.js"><\/script>/.test(page.content)) {
+    fail(page.file + ": missing dictionary-data.js script tag");
   }
-  if (!/<script src="js\/dictionary-loader\.js"><\/script>/.test(page.content)) {
+  // Only index.html loads dictionary content; 404.html just needs the language list.
+  if (page.file === "index.html" && !/<script src="js\/dictionary-loader\.js"><\/script>/.test(page.content)) {
     fail(page.file + ": missing dictionary-loader.js script tag");
+  }
+  if (/js\/dictionary-manifest\.js/.test(page.content)) {
+    fail(page.file + ": must not load js/dictionary-manifest.js (source manifest, tooling only)");
   }
 });
 
@@ -364,12 +383,97 @@ Object.keys(global.SINONIMIA_DICTIONARY_SHARDS || {}).forEach(function (language
     if (shard.src !== expectedSrc) {
       fail(
         "js/dictionary-manifest.js: " + shard.file + " uses \"" + shard.src +
-        "\" but the file hash requires \"" + expectedSrc + "\""
+        "\" but the file hash requires \"" + expectedSrc + "\" — run: node scripts/build-dictionary-data.js"
       );
     }
   });
 });
-ok("dictionary shard manifest and cache-busting checked (" + dictionaryFiles.length + " shard(s))");
+ok("dictionary source manifest and cache-busting checked (" + dictionaryFiles.length + " shard(s))");
+
+// --- 6d. Generated runtime dictionary (index + detail chunks) ---
+// The browser and the service worker only ever load js/dict.* and
+// js/dictionary-data.js. They are derived from the source shards by
+// scripts/build-dictionary-data.js, so this check regenerates them in memory
+// and fails on ANY difference: a stale file, a missing file, a leftover file
+// or a hand edit. Fix: node scripts/build-dictionary-data.js
+(function () {
+  const builder = require("./build-dictionary-data.js");
+  let built;
+  try {
+    built = builder.build(DICCIONARIOS);
+  } catch (e) {
+    fail("scripts/build-dictionary-data.js: " + e.message);
+    return;
+  }
+
+  let stale = 0;
+  const expectedFiles = new Set();
+  built.files.forEach(function (file) {
+    expectedFiles.add(file.path);
+    const target = path.join(ROOT, file.path);
+    if (!fs.existsSync(target)) {
+      fail(file.path + ": missing — run: node scripts/build-dictionary-data.js");
+      stale++;
+    } else if (fs.readFileSync(target, "utf8") !== file.content) {
+      fail(file.path + ": out of date — run: node scripts/build-dictionary-data.js");
+      stale++;
+    }
+  });
+  fs.readdirSync(jsDir).filter(function (f) { return /^dict\..+\.js$/.test(f); }).forEach(function (f) {
+    if (!expectedFiles.has("js/" + f)) {
+      fail("js/" + f + ": not produced by the dictionary build (stale) — run: node scripts/build-dictionary-data.js");
+      stale++;
+    }
+  });
+
+  const manifestPath = path.join(ROOT, "js/dictionary-data.js");
+  if (!fs.existsSync(manifestPath) || fs.readFileSync(manifestPath, "utf8") !== built.manifestSource) {
+    fail("js/dictionary-data.js: out of date — run: node scripts/build-dictionary-data.js");
+    stale++;
+  }
+
+  // Every src in the manifest carries the hash of the file's real content.
+  const listed = {};
+  Object.keys(built.manifest.languages).forEach(function (lang) {
+    ["index", "detail"].forEach(function (kind) {
+      built.manifest.languages[lang][kind].forEach(function (shard) {
+        if (listed[shard.file]) fail("js/dictionary-data.js: file listed twice: " + shard.file);
+        listed[shard.file] = true;
+        if (fs.existsSync(path.join(ROOT, shard.file)) &&
+            shard.src !== shard.file + "?v=" + contentHash(shard.file)) {
+          fail("js/dictionary-data.js: hash of " + shard.file + " does not match its content");
+        }
+      });
+    });
+  });
+
+  // The loader and the builder must pick the same detail chunk for every id,
+  // or the app would ask for a chunk that does not hold the entry.
+  const vm = require("vm");
+  const loaderCtx = { document: {} };
+  loaderCtx.window = loaderCtx;
+  loaderCtx.globalThis = loaderCtx;
+  vm.createContext(loaderCtx);
+  vm.runInContext(fs.readFileSync(manifestPath, "utf8"), loaderCtx);
+  vm.runInContext(fs.readFileSync(path.join(ROOT, "js/dictionary-loader.js"), "utf8"), loaderCtx);
+  let chunkMismatch = 0;
+  Object.keys(DICCIONARIOS).forEach(function (lang) {
+    DICCIONARIOS[lang].forEach(function (entry) {
+      if (loaderCtx.SinonimiaDictionary.chunkOf(entry.id) !== builder.chunkOf(entry.id, builder.DETAIL_CHUNKS)) {
+        chunkMismatch++;
+      }
+    });
+  });
+  if (chunkMismatch) {
+    fail("js/dictionary-loader.js chunkOf disagrees with scripts/build-dictionary-data.js for " + chunkMismatch + " id(s)");
+  }
+
+  if (stale === 0 && chunkMismatch === 0) {
+    ok("generated dictionary data is up to date (" + built.files.length + " files, " +
+      Object.keys(built.manifest.languages).join("+") + ")");
+  }
+})();
+
 
 // --- 7. The user-facing product never names disability or minors ---
 // doc/en/spec.md's rule ("Mandatory rule: zero mentions in the user-facing

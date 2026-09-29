@@ -64,8 +64,13 @@ index.html          marcado de las vistas y enlaces data-i18n
 css/styles.css      estilos y propiedades personalizadas del tema
 js/i18n.js          textos de interfaz por idioma
 js/dictionary-manifest.js manifiesto ordenado de shards + hashes
-js/dictionary-loader.js  cargador estÃ¡tico de todos los shards
-js/data.<idioma>[.<shard>].js fragmentos del diccionario
+js/data.<idioma>[.<shard>].js fragmentos FUENTE del diccionario (los editan personas/ingesta; el navegador no los carga)
+js/dictionary-manifest.js manifiesto de los fragmentos fuente + hashes (solo herramientas)
+js/dict.<idioma>.idx.<n>.js  ÍNDICE ligero GENERADO (lo que necesitan lista, búsqueda y juegos)
+js/dict.<idioma>.det.<kkk>.js fragmentos de DETALLE GENERADOS (ejemplos, alt, enlaces de traducción)
+js/dictionary-data.js    manifiesto de ejecución GENERADO con el ?v= de cada dict.*
+js/dictionary-loader.js  cargador: SinonimiaDictionary.loadIndex / loadDetail
+scripts/build-dictionary-data.js  regenera js/dict.* y js/dictionary-data.js
 js/app.js           router, renderizado y estado de la aplicaciÃ³n
 js/bootstrap-i18n.js textos mÃ­nimos para evitar flash de idioma
 img/<id>.png        pictogramas servidos localmente
@@ -92,14 +97,16 @@ El sitio se despliega en **Cloudflare Pages**, no en Workers:
 
 ### 3.2 CachÃ© inmutable
 
-`js/data.*`, `css/*` e `img/*` tienen una cachÃ© de un aÃ±o e `immutable`. El
-manifiesto `js/dictionary-manifest.js` contiene cada shard ordenado y su
-query `?v=` calculada a partir de los primeros diez caracteres de SHA-256.
-`js/dictionary-loader.js` carga todos los shards antes de `js/app.js`. Si un
-shard se acerca al lÃ­mite por fichero del proveedor, se divide en otro shard
-y se aÃ±ade una entrada al manifiesto; no se vuelve a concentrar todo en un
-Ãºnico archivo. Esto es el contrato de file shards para Sinonimia y para toda
-la suite de aplicaciones estÃ¡ticas.
+`js/dict.*`, `js/data.*`, `css/*` e `img/*` tienen una caché de un año e
+`immutable`. El manifiesto `js/dictionary-data.js` contiene cada fichero
+generado y su query `?v=` calculada a partir de los primeros diez caracteres
+de SHA-256. Antes del primer pintado `js/app.js` solo descarga el índice
+ligero del idioma activo; las frases de ejemplo de una palabra llegan en un
+fragmento pequeño de detalle al abrirla o jugarla, y `404.html` no carga
+ningún diccionario. Si un shard del índice se acercara al límite por fichero
+del proveedor, se baja `INDEX_ROWS_PER_SHARD` en
+`scripts/build-dictionary-data.js`; no se vuelve a concentrar todo en un
+único archivo.
 
 ### 3.3 Service worker (`sw.js`)
 
@@ -117,12 +124,27 @@ re-fetch + activa cuando difieren; un bump que no aterriza es silencioso y
 las personas usuarias finales siguen viendo los archivos antiguos hasta que el
 SW se desinstala.
 
-**Atajo para el contenido del diccionario.** Cada shard de `js/data.*.js`
-lleva su query `?v=` en `js/dictionary-manifest.js` (gestionada por
-`scripts/check.js`). El SW cachea cada archivo con esa URL al instalar y la
-próxima release recoge un hash nuevo. Si cambia el manifiesto o el cargador,
-también se incluye en `FILES` y se bumpea `VERSION`; no se debe depender de
-un número fijo de shards.
+**Contenido del diccionario y uso sin conexión.** El SW mantiene dos cachés:
+el *shell* (`FILES`, atado a `VERSION`) y `sinonimia-data`, con los ficheros
+generados `js/dict.*` guardados por su URL con hash. Esa segunda caché **no
+se borra al subir `VERSION`**: una release que no cambia el diccionario no
+vuelve a descargar nada, y un lote de contenido solo descarga los ficheros
+cuyo hash cambió. El SW conoce la lista por `js/dictionary-data.js`
+(`importScripts`), que sí está en `FILES`: si cambia, se bumpea `VERSION`.
+Unos segundos después del primer pintado (y nunca si el navegador pide
+ahorrar datos o la conexión es 2G) la página envía
+`{type: 'warm-dictionary'}` y el SW descarga, de cuatro en cuatro, todos los
+fragmentos de los dos idiomas (primero el activo y los índices), informa del
+progreso en el pie (`#offline-status`) y al terminar elimina los ficheros de
+versiones antiguas. Los pictogramas (`img/<id>.png`, unos 40 MB en total, ids
+listados en `js/dictionary-data.js`) tienen su propia caché `sinonimia-img`,
+que tampoco borra un bump de `VERSION`. Se guardan al verse, y el conjunto
+completo solo se descarga **si la persona acepta** el ofrecimiento del pie
+(`#offline-images`, que indica el tamaño). La elección se recuerda en
+`localStorage` (`sinonimia-offline-images`) y las visitas siguientes solo
+completan lo que falte; con ahorro de datos no se ofrece. Sin
+conexión, lo que aún no está guardado muestra el mensaje `offlineMissing`.
+`node scripts/smoke-offline.js` prueba el flujo completo en un navegador real.
 
 **Verificación local antes de pushear.** `scripts/check-version-bump.js`
 falla el commit/push si un archivo listado en `FILES` cambió sin que
@@ -241,11 +263,20 @@ distintos.
 - `js/i18n.js` contiene solo textos de interfaz. `translate(language, key,
   variables)` busca el idioma solicitado, recurre a espaÃ±ol y despuÃ©s a la
   clave cruda, y sustituye marcadores `{nombre}`.
-- `js/dictionary-manifest.js` lista los shards ordenados de cada idioma y
-  `js/dictionary-loader.js` los carga antes de `js/app.js`. Cada
-  `js/data.<idioma>[.<shard>].js` crea o amplÃ­a `DICCIONARIOS.<idioma>`.
-  AÃ±adir un idioma o dividir un diccionario solo cambia el manifiesto y los
-  datos, no `js/app.js` ni las pÃ¡ginas.
+- Capas de datos del diccionario. La fuente sigue en
+  `js/data.<idioma>[.<shard>].js` (listada en `js/dictionary-manifest.js`;
+  la leen la ingesta y `scripts/content-status.js`), pero el navegador no la
+  carga. `scripts/build-dictionary-data.js` genera por idioma un índice
+  ligero (`js/dict.<idioma>.idx.<n>.js`, filas `[id, palabra, definición,
+  sinónimos, idPictograma, tema]`) y fragmentos de detalle
+  (`js/dict.<idioma>.det.<kkk>.js`: alt, frases de ejemplo y enlaces de
+  traducción ya resueltos, en el fragmento `fnv1a(id) % 128`).
+  `js/dictionary-loader.js` expone `SinonimiaDictionary.loadIndex(idioma)` y
+  `loadDetail(idioma, entradas)`. **Tras cualquier cambio en un
+  `js/data.*.js` ejecuta `node scripts/build-dictionary-data.js` y sube
+  `VERSION` en `sw.js`**; `scripts/check.js` falla si lo generado está
+  desactualizado. Añadir un idioma o dividir un diccionario solo cambia los
+  datos y lo generado, no `js/app.js` ni las páginas.
 - `js/app.js` es una IIFE que contiene router, renderizado, Ã­ndices, juegos y
   estado. No escribe textos de interfaz ni lee un idioma concreto: usa
   `activeDictionary = DICCIONARIOS[currentLanguage]` y `t(key)`.

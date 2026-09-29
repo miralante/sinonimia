@@ -1,7 +1,9 @@
 (function () {
   "use strict";
 
-  var AVAILABLE_LANGUAGES = Object.keys(DICCIONARIOS); // ["es", "en"]
+  // Languages come from the runtime manifest: each language's dictionary is
+  // fetched on demand (see js/dictionary-loader.js).
+  var AVAILABLE_LANGUAGES = SinonimiaDictionary.languages; // ["es", "en"]
   var DEFAULT_LANGUAGE = "en";
 
   var listEl = document.getElementById("word-list");
@@ -82,7 +84,7 @@
   // detect the ambiguity instead of silently resolving to whichever entry
   // happened to be defined last.
   function buildIndexes() {
-    activeDictionary = DICCIONARIOS[currentLanguage] || [];
+    activeDictionary = SinonimiaDictionary.entries(currentLanguage);
     entryById = new Map();
     entryByName = new Map();
     activeDictionary.forEach(function (entry) {
@@ -93,91 +95,53 @@
     });
   }
 
-  // Cross-language links resolve in two passes:
-  //
-  // 1. EXPLICIT (preferred): if the entry has a `traduccion` field whose
-  //    value (string or array of strings) names entries in another
-  //    language by id, that wins. This is the only way to link entries
-  //    whose pictogram isn't unique on one of the sides (the most common
-  //    case in this dictionary, since ARASAAC has only one "money" /
-  //    "document" / "pen" pictogram and it's shared by many unrelated
-  //    words). It also handles EN-side homographs (a Spanish word with
-  //    several valid English translations, or several Spanish words that
-  //    all map to one English word).
-  //
-  // 2. IMPLICIT (fallback): if `traduccion` doesn't mention a language,
-  //    fall back to the shared-pictogram rule that previous versions of
-  //    the code used: link when the entry is the unique one with its
-  //    pictogram in the current language AND there is a unique entry
-  //    with the same pictogram in the other language. This keeps older
-  //    entries (and entries added without an explicit translation)
-  //    working without needing to be edited.
-  //
-  // If neither pass finds anything for a given language, no link is shown
-  // for that language — better to show nothing than to link to a wrong
-  // translation.
-  function otherLanguageEntries(entry) {
-    var translations = [];
-    AVAILABLE_LANGUAGES.forEach(function (lang) {
-      if (lang === currentLanguage) return;
-      var otherEntries = DICCIONARIOS[lang] || [];
-      var entryByIdLookup = new Map();
-      otherEntries.forEach(function (e) { entryByIdLookup.set(e.id, e); });
+  // Cross-language links ("see it in English") are resolved when the dictionary
+  // data is generated (scripts/build-dictionary-data.js: explicit `traduccion`
+  // first, shared-pictogram fallback second) and arrive with the entry's detail
+  // as `entry.translations`, so the other language never has to be loaded just
+  // to draw them.
 
-      // Pass 1: explicit traduccion. Accepts both string and array values.
-      if (entry.translation && entry.translation[lang]) {
-        var declared = entry.translation[lang];
-        var ids = Array.isArray(declared) ? declared : [declared];
-        ids.forEach(function (otherId) {
-          var otherEntry = entryByIdLookup.get(otherId);
-          if (otherEntry) {
-            translations.push({ language: lang, entry: otherEntry });
-          }
-        });
-        return;
-      }
-
-      // Pass 2: implicit shared-pictogram fallback (only when this entry's
-      // pictogram is unique among entries in *both* languages — otherwise
-      // a pictogram id collision could pick the wrong word).
-      var ownMatches = activeDictionary.filter(function (e) {
-        return e.image.id === entry.image.id;
-      });
-      if (ownMatches.length !== 1) return;
-      var otherMatches = otherEntries.filter(function (e) {
-        return e.image.id === entry.image.id;
-      });
-      if (otherMatches.length === 1) {
-        translations.push({ language: lang, entry: otherMatches[0] });
-      }
-    });
-    return translations;
+  // Normalized search keys are computed once per entry and cached on it.
+  function searchKeys(entry) {
+    if (!entry._k) {
+      entry._k = {
+        word: normalize(entry.word),
+        rest: normalize(entry.definition + " | " + entry.synonyms.join(" | "))
+      };
+    }
+    return entry._k;
   }
 
   function matchesSearch(entry, normalizedQuery) {
     if (!normalizedQuery) return true;
-    if (normalize(entry.word).indexOf(normalizedQuery) !== -1) return true;
-    if (normalize(entry.definition).indexOf(normalizedQuery) !== -1) return true;
-    return entry.synonyms.some(function (synonym) {
-      return normalize(synonym).indexOf(normalizedQuery) !== -1;
-    });
+    var keys = searchKeys(entry);
+    return keys.word.indexOf(normalizedQuery) !== -1 ||
+      keys.rest.indexOf(normalizedQuery) !== -1;
   }
 
   // Sorted fresh from activeDictionary on every call (never cached) so it
   // always reflects whatever words are currently in js/data.<lang>.js — the
   // dictionary is under active ingestion and gains new entries often, and
   // this order also drives the detail page's previous/next navigation.
+  // Cached per dictionary array: with tens of thousands of entries, sorting
+  // and normalizing on every keystroke froze the search box.
+  var sortedCache = { source: null, list: null };
   function alphabeticalEntries() {
-    return activeDictionary.slice().sort(function (a, b) {
-      return a.word.localeCompare(b.word, currentLanguage);
-    });
+    if (sortedCache.source !== activeDictionary) {
+      var collator = new Intl.Collator(currentLanguage);
+      sortedCache.source = activeDictionary;
+      sortedCache.list = activeDictionary.slice().sort(function (a, b) {
+        return collator.compare(a.word, b.word);
+      });
+    }
+    return sortedCache.list;
   }
 
   function filteredEntries() {
     var query = normalize(searchInput.value || "");
     return alphabeticalEntries().filter(function (entry) {
       if (state.topic !== "todos" && entry.situacion !== state.topic) return false;
-      if (state.letter && normalize(entry.word).charAt(0) !== state.letter) return false;
+      if (state.letter && searchKeys(entry).word.charAt(0) !== state.letter) return false;
       return matchesSearch(entry, query);
     });
   }
@@ -228,83 +192,116 @@
     return "#/" + currentLanguage + "/word/" + id;
   }
 
-  // Chunk size for async rendering — yields to Chromium's CDP thread
-  // every CHUNK entries, preventing main-thread blocking that causes
-  // Playwright CDP deadlocks when the input event is dispatched.
-  var CHUNK = 100;
-  var _renderId = 0;
+  // Only PAGE_SIZE cards are in the DOM at a time; "show more" appends the
+  // next page. Rendering every match (the dictionary has tens of thousands
+  // of entries) made the page and the search box unusable.
+  var PAGE_SIZE = 60;
+  var listResults = [];
+  var listShown = 0;
+  var showMoreBtn = document.getElementById("show-more");
+
+  function buildCard(entry) {
+    var li = document.createElement("li");
+    li.className = "card";
+    var a = document.createElement("a");
+    a.href = wordLink(entry.id);
+    a.className = "card-enlace";
+
+    var img = document.createElement("img");
+    img.className = "card-image";
+    img.src = "img/" + entry.image.id + ".png";
+    img.alt = "";
+    img.loading = "lazy";
+
+    var h3 = document.createElement("h3");
+    h3.textContent = entry.word;
+    var def = document.createElement("p");
+    def.className = "short-definition";
+    def.textContent = entry.definition;
+
+    a.appendChild(img);
+    if (isLearned(entry.id)) {
+      var badge = document.createElement("span");
+      badge.className = "card-aprendida";
+      badge.setAttribute("aria-label", t("alreadyDiscovered"));
+      badge.textContent = "✓";
+      a.appendChild(badge);
+    }
+    a.appendChild(h3);
+    a.appendChild(def);
+    li.appendChild(a);
+    return li;
+  }
+
+  function renderNextPage() {
+    var fragment = document.createDocumentFragment();
+    var end = Math.min(listShown + PAGE_SIZE, listResults.length);
+    for (var i = listShown; i < end; i++) fragment.appendChild(buildCard(listResults[i]));
+    listShown = end;
+    listEl.appendChild(fragment);
+    showMoreBtn.hidden = listShown >= listResults.length;
+  }
+
+  // When a search finds nothing, point the person somewhere else: two links (a
+  // dictionary and an encyclopedia, which differ by language) and two plain
+  // tips — search the Internet, ask your chatbot — deliberately naming no
+  // product. Labels and URL templates live in js/i18n.js (per language), so the
+  // set can differ by language without touching this file. `{q}` is the
+  // encoded text. Only shown when the person typed something; links open in a
+  // new tab.
+  var EXTERNAL_SEARCHES = [
+    { label: "externalDictionaryLabel", url: "externalDictionaryUrl" },
+    { label: "externalWikipediaLabel", url: "externalWikipediaUrl" }
+  ];
+  var noResultsHelp = document.getElementById("no-results-help");
+  var noResultsHelpText = document.getElementById("no-results-help-text");
+  var noResultsLinks = document.getElementById("no-results-links");
+  var noResultsTips = document.getElementById("no-results-tips");
+
+  function renderExternalSearch(query) {
+    noResultsLinks.innerHTML = "";
+    noResultsTips.innerHTML = "";
+    noResultsHelp.hidden = !query;
+    if (!query) return;
+
+    noResultsHelpText.textContent = t("noResultsHelp", { q: query });
+    [t("noResultsTipInternet"), t("noResultsTipChatbot", { q: query })].forEach(function (tip) {
+      var li = document.createElement("li");
+      li.textContent = tip;
+      noResultsTips.appendChild(li);
+    });
+    var vars = { q: encodeURIComponent(query) };
+    EXTERNAL_SEARCHES.forEach(function (item) {
+      var li = document.createElement("li");
+      var a = document.createElement("a");
+      a.className = "boton-cta boton-secundario";
+      a.href = t(item.url, vars);
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = t(item.label);
+      a.setAttribute("aria-label", t(item.label) + " (" + t("externalOpensNote") + ")");
+      li.appendChild(a);
+      noResultsLinks.appendChild(li);
+    });
+  }
 
   function renderList() {
     showView("lista");
-    var results = filteredEntries();
+    listResults = filteredEntries();
+    listShown = 0;
     listEl.innerHTML = "";
 
-    // Increment the render id so any in-flight async render from a PREVIOUS
-    // search will self-cancel when it next checks the guard.
-    var renderId = ++_renderId;
-
-    // Set no-results visibility BEFORE the async render loop starts, so the
-    // UI is correct while cards are being progressively appended.
-    noResults.hidden = results.length !== 0;
-    resultsInfo.textContent = results.length === 1
+    noResults.hidden = listResults.length !== 0;
+    renderExternalSearch(listResults.length === 0 ? (searchInput.value || "").trim().slice(0, 200) : "");
+    resultsInfo.textContent = listResults.length === 1
       ? t("resultOne")
-      : t("resultsMany", { n: results.length });
+      : t("resultsMany", { n: listResults.length });
 
-    // buildFragment collects DOM nodes without touching the live DOM,
-    // then appends everything at once for better performance.
-    var fragment = document.createDocumentFragment();
-
-    (async function () {
-      // Guard: if a newer render started since this one began, bail out.
-      if (renderId !== _renderId) return;
-
-      for (var i = 0; i < results.length; i++) {
-        var entry = results[i];
-        var li = document.createElement("li");
-        li.className = "card";
-        var a = document.createElement("a");
-        a.href = wordLink(entry.id);
-        a.className = "card-enlace";
-
-        var img = document.createElement("img");
-        img.className = "card-image";
-        img.src = "img/" + entry.image.id + ".png";
-        img.alt = "";
-        img.loading = "lazy";
-
-        var h3 = document.createElement("h3");
-        h3.textContent = entry.word;
-        var def = document.createElement("p");
-        def.className = "short-definition";
-        def.textContent = entry.definition;
-
-        a.appendChild(img);
-        if (isLearned(entry.id)) {
-          var badge = document.createElement("span");
-          badge.className = "card-aprendida";
-          badge.setAttribute("aria-label", t("alreadyDiscovered"));
-          badge.textContent = "✓";
-          a.appendChild(badge);
-        }
-        a.appendChild(h3);
-        a.appendChild(def);
-        li.appendChild(a);
-        fragment.appendChild(li);
-
-        // Yield every CHUNK entries — critical for Playwright CDP responsiveness
-        if ((i + 1) % CHUNK === 0 && i + 1 < results.length) {
-          listEl.appendChild(fragment);
-          fragment = document.createDocumentFragment();
-          await new Promise(function (r) { setTimeout(r, 0); });
-          // After yielding, check if a newer render has started.
-          if (renderId !== _renderId) return;
-        }
-      }
-
-      listEl.appendChild(fragment);
-      updateAlphabetVisual();
-    })();
+    renderNextPage();
+    updateAlphabetVisual();
   }
+
+  showMoreBtn.addEventListener("click", renderNextPage);
 
   function createHighlightedSentence(text, highlightedWord) {
     var p = document.createElement("p");
@@ -354,6 +351,15 @@
 
   function renderDetail(id) {
     var entry = entryById.get(id);
+    if (entry && !SinonimiaDictionary.hasDetail(entry)) {
+      // The list only carries the light index; the example sentences and
+      // translation links live in a small per-word chunk fetched on demand.
+      withDetails([entry], function () { renderDetail(id); }, function () {
+        showView("detalle");
+        showUnavailable(detailView, "#/" + currentLanguage + "/");
+      });
+      return;
+    }
     if (!entry) {
       detailView.innerHTML = "";
       var notFound = document.createElement("p");
@@ -460,17 +466,17 @@
 
     detailView.appendChild(createYourSentenceBlock(entry));
 
-    var translations = otherLanguageEntries(entry);
+    var translations = entry.translations || [];
     if (translations.length > 0) {
       var translationsBox = document.createElement("div");
       translationsBox.className = "detail-translations";
       translations.forEach(function (translation) {
         var translationLink = document.createElement("a");
         translationLink.className = "detail-translation";
-        translationLink.href = "#/" + translation.language + "/word/" + translation.entry.id;
+        translationLink.href = "#/" + translation.language + "/word/" + translation.id;
         translationLink.textContent = t("viewInOtherLanguage", {
           idioma: t("languageName_" + translation.language),
-          word: translation.entry.word,
+          word: translation.word,
         });
         translationsBox.appendChild(translationLink);
       });
@@ -634,7 +640,6 @@
     // A list render can still be yielding between chunks when navigation
     // changes to a detail page or a game. Invalidate it immediately so it
     // cannot keep building thousands of hidden cards in the background.
-    if (name !== "lista") _renderId++;
     listView.hidden = name !== "lista";
     detailView.hidden = name !== "detalle";
     gameView.hidden = name !== "juego";
@@ -645,12 +650,70 @@
   // The "word" / "juego" path segments are deliberately NOT translated per
   // language: they're routing tokens, not user-facing text, so the URL shape
   // stays identical across languages (#/es/word/x, #/en/word/y).
+  var booted = false;
+  // Bumped by every navigation and every async render, so a chunk that arrives
+  // late for a page the user already left cannot overwrite the current one.
+  var viewToken = 0;
+
+  function showLoadError() {
+    resultsInfo.textContent = t("loadError");
+  }
+
+  // Runs `render` once every entry has its detail fields. Chunks come from the
+  // network or, for an installed app, from the offline cache.
+  function withDetails(entries, render, onFailure) {
+    var missing = entries.filter(function (entry) { return !SinonimiaDictionary.hasDetail(entry); });
+    if (missing.length === 0) { render(); return; }
+    var token = ++viewToken;
+    setBusy(1);
+    SinonimiaDictionary.loadDetail(currentLanguage, missing).then(function () {
+      setBusy(-1);
+      if (token === viewToken) render();
+    }, function () {
+      setBusy(-1);
+      if (token === viewToken) onFailure();
+    });
+  }
+
+  // `aria-busy` on <main> while a detail chunk is being fetched: assistive
+  // technology knows the content is about to change, and the UI smoke test
+  // waits for it to clear before touching the next control.
+  var pendingLoads = 0;
+  var mainEl = document.getElementById("contenido");
+  function setBusy(delta) {
+    pendingLoads += delta;
+    if (pendingLoads > 0) mainEl.setAttribute("aria-busy", "true");
+    else mainEl.removeAttribute("aria-busy");
+  }
+
+  // Shown when a chunk cannot be fetched: offline (not saved yet) or a network error.
+  function showUnavailable(container, backHref) {
+    container.innerHTML = "";
+    var message = document.createElement("p");
+    message.textContent = t(navigator.onLine === false ? "offlineMissing" : "loadError");
+    var back = document.createElement("a");
+    back.className = "backToSearch";
+    back.href = backHref;
+    back.textContent = t("backToSearch");
+    container.appendChild(message);
+    container.appendChild(back);
+  }
+
   function route() {
+    if (!booted) return; // start() routes once the first language is loaded
+    viewToken++;
     var parts = (location.hash || "").replace(/^#\/?/, "").split("/").filter(Boolean);
     var hashLanguage = parts[0];
 
     if (AVAILABLE_LANGUAGES.indexOf(hashLanguage) === -1) {
       location.hash = "#/" + currentLanguage + "/";
+      return;
+    }
+
+    // Never render a language whose data has not arrived yet: fetch it, then
+    // route again (the hash is re-read, so a newer navigation wins).
+    if (!SinonimiaDictionary.isIndexLoaded(hashLanguage)) {
+      SinonimiaDictionary.loadIndex(hashLanguage).then(route, showLoadError);
       return;
     }
 
@@ -723,18 +786,22 @@
     var saved = localStorage.getItem("sinonimia-idioma");
     if (AVAILABLE_LANGUAGES.indexOf(saved) !== -1) return saved;
 
-    var browserLang = (navigator.language || "").slice(0, 2);
+    var browserLang = ((navigator.languages && navigator.languages[0]) || navigator.language || "").toLowerCase().split(/[-_]/)[0];
     if (AVAILABLE_LANGUAGES.indexOf(browserLang) !== -1) return browserLang;
 
     return DEFAULT_LANGUAGE;
   }
 
   // --- Search box and filters ---
+  var searchTimer = null;
   searchInput.addEventListener("input", function () {
     if (location.hash.indexOf("/word/") !== -1) {
       location.hash = "#/" + currentLanguage + "/";
     }
-    renderList();
+    clearTimeout(searchTimer);
+    // Before the first language is loaded there is nothing to list: start()
+    // renders with whatever is in the box by then.
+    searchTimer = setTimeout(function () { if (booted) renderList(); }, 150);
   });
 
   filterButtons.forEach(function (btn) {
@@ -1151,87 +1218,184 @@
 
     var target = activeDictionary[Math.floor(Math.random() * activeDictionary.length)];
     gameTargetId = target.id;
+    var distractorEntries = pickDistractorEntries(target, 2);
 
-    var clue = document.createElement("div");
-    clue.className = "juego-pista juego-pista-frase";
+    // The sentences are detail fields: fetch the (few, small) chunks that hold
+    // the target and its two distractors, then draw the round.
+    withDetails([target].concat(distractorEntries), function () {
 
-    var topicPill = document.createElement("span");
-    topicPill.className = "tema-pill";
-    topicPill.textContent = t("topic_" + target.situacion);
-    clue.appendChild(topicPill);
+      var clue = document.createElement("div");
+      clue.className = "juego-pista juego-pista-frase";
 
-    clue.appendChild(createSentenceWithBlank(target.example.text, target.example.word));
-    gameView.appendChild(clue);
+      var topicPill = document.createElement("span");
+      topicPill.className = "tema-pill";
+      topicPill.textContent = t("topic_" + target.situacion);
+      clue.appendChild(topicPill);
 
-    var options = document.createElement("div");
-    options.className = "game-options";
+      clue.appendChild(createSentenceWithBlank(target.example.text, target.example.word));
+      gameView.appendChild(clue);
 
-    var message = document.createElement("p");
-    message.className = "juego-mensaje";
-    message.setAttribute("role", "status");
-    message.setAttribute("aria-live", "polite");
+      var options = document.createElement("div");
+      options.className = "game-options";
 
-    var correctWord = target.example.word;
-    var distractors = pickDistractorEntries(target, 2).map(function (e) {
-      return e.example.word;
-    });
-    var optionList = shuffle([correctWord].concat(distractors));
+      var message = document.createElement("p");
+      message.className = "juego-mensaje";
+      message.setAttribute("role", "status");
+      message.setAttribute("aria-live", "polite");
 
-    optionList.forEach(function (optionWord) {
-      var btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "game-option";
-      btn.textContent = optionWord;
+      var correctWord = target.example.word;
+      var distractors = distractorEntries.map(function (e) {
+        return e.example.word;
+      });
+      var optionList = shuffle([correctWord].concat(distractors));
 
-      btn.addEventListener("click", function () {
-        if (btn.classList.contains("correcta")) return;
+      optionList.forEach(function (optionWord) {
+        var btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "game-option";
+        btn.textContent = optionWord;
 
-        if (optionWord === correctWord) {
-          btn.classList.add("correcta");
-          Array.prototype.forEach.call(options.children, function (other) {
-            other.disabled = true;
-          });
-          clue.innerHTML = "";
-          clue.appendChild(createHighlightedSentence(target.example.text, target.example.word));
-          message.textContent = t("gameCorrect");
-          message.className = "juego-mensaje juego-mensaje-correcto";
-          playSuiteSound("success");
-          scoreEl.textContent = t("gameScore", { n: addPoint() });
-          markScoreEarned(scoreEl);
+        btn.addEventListener("click", function () {
+          if (btn.classList.contains("correcta")) return;
 
-          var nextBtn = document.createElement("button");
-          nextBtn.type = "button";
-          nextBtn.className = "boton-cta";
-          nextBtn.textContent = t("gameNext");
-          nextBtn.addEventListener("click", renderSentenceGame);
-          gameView.appendChild(nextBtn);
-          nextBtn.focus();
-        } else {
-          btn.classList.add("incorrecta");
-          btn.disabled = true;
-          message.textContent = t("sentenceGameIncorrect");
-          message.className = "juego-mensaje juego-mensaje-incorrecto";
-          playSuiteSound("error");
-        }
+          if (optionWord === correctWord) {
+            btn.classList.add("correcta");
+            Array.prototype.forEach.call(options.children, function (other) {
+              other.disabled = true;
+            });
+            clue.innerHTML = "";
+            clue.appendChild(createHighlightedSentence(target.example.text, target.example.word));
+            message.textContent = t("gameCorrect");
+            message.className = "juego-mensaje juego-mensaje-correcto";
+            playSuiteSound("success");
+            scoreEl.textContent = t("gameScore", { n: addPoint() });
+            markScoreEarned(scoreEl);
+
+            var nextBtn = document.createElement("button");
+            nextBtn.type = "button";
+            nextBtn.className = "boton-cta";
+            nextBtn.textContent = t("gameNext");
+            nextBtn.addEventListener("click", renderSentenceGame);
+            gameView.appendChild(nextBtn);
+            nextBtn.focus();
+          } else {
+            btn.classList.add("incorrecta");
+            btn.disabled = true;
+            message.textContent = t("sentenceGameIncorrect");
+            message.className = "juego-mensaje juego-mensaje-incorrecto";
+            playSuiteSound("error");
+          }
+        });
+
+        options.appendChild(btn);
       });
 
-      options.appendChild(btn);
+      gameView.appendChild(options);
+      gameView.appendChild(message);
+
+      h2.focus();
+    }, function () {
+      showUnavailable(gameView, "#/" + currentLanguage + "/");
     });
-
-    gameView.appendChild(options);
-    gameView.appendChild(message);
-
-    h2.focus();
   }
 
   // --- Startup ---
+  // The page shell is already painted; only the active language's light index
+  // is fetched before the first render. Everything else (example sentences,
+  // the other language) is fetched when needed and, for an installed app,
+  // saved in the background for offline use (see requestOfflineCopy).
+  function start() {
+    booted = true;
+    listView.removeAttribute("aria-busy");
+    buildIndexes();
+    applyStaticTexts();
+    buildAlphabet();
+    initHero();
+    updateProgressBar();
+    route();
+    requestOfflineCopy();
+  }
+
+  // --- Offline copy ---
+  // sw.js downloads every dictionary file (both languages) into its own cache
+  // when asked and reports progress back. We ask a few seconds after the first
+  // render so it never competes with the first pictograms or the user's first
+  // interaction, and not at all when the browser asks to save data.
+  var offlineStatusEl = document.getElementById("offline-status");
+
+  function showOfflineStatus(message) {
+    offlineStatusEl.textContent = message;
+    offlineStatusEl.hidden = !message;
+  }
+
+  function requestOfflineCopy() {
+    if (!("serviceWorker" in navigator)) return;
+    var connection = navigator.connection;
+    if (connection && (connection.saveData || /(^|-)2g$/.test(connection.effectiveType || ""))) return;
+
+    var imagesButton = document.getElementById("offline-images");
+    var imagesMb = Math.round(SINONIMIA_DICTIONARY_DATA.imagesBytes / 1e6);
+
+    function tellWorker(message) {
+      navigator.serviceWorker.ready.then(function (registration) {
+        if (registration.active) registration.active.postMessage(message);
+      }).catch(function () { /* optional: the app works online without it */ });
+    }
+
+    function readImagesChoice() {
+      try { return localStorage.getItem("sinonimia-offline-images") === "1"; } catch (e) { return false; }
+    }
+
+    function offerImages() {
+      imagesButton.textContent = t("offlineImagesButton", { mb: imagesMb });
+      imagesButton.parentNode.hidden = false;
+    }
+
+    // The ~40 MB of pictograms are never downloaded without asking. Once the
+    // person says yes, the choice is remembered and later visits only complete
+    // what is missing (new words with new pictograms).
+    imagesButton.addEventListener("click", function () {
+      try { localStorage.setItem("sinonimia-offline-images", "1"); } catch (e) { /* asked again next time */ }
+      imagesButton.parentNode.hidden = true;
+      showOfflineStatus(t("offlineImagesPreparing", { n: 0 }));
+      tellWorker({ type: "warm-images" });
+    });
+
+    navigator.serviceWorker.addEventListener("message", function (event) {
+      var msg = event.data;
+      if (!msg) return;
+      if (msg.type === "dictionary-offline") {
+        if (msg.state === "done") {
+          showOfflineStatus(t("offlineReady"));
+          if (readImagesChoice()) tellWorker({ type: "warm-images" });
+          else offerImages();
+        } else if (msg.state === "progress") {
+          showOfflineStatus(t("offlinePreparing", { n: Math.floor((msg.done / msg.total) * 100) }));
+        }
+      } else if (msg.type === "images-offline") {
+        if (msg.state === "done") {
+          showOfflineStatus(t("offlineImagesReady"));
+        } else if (msg.state === "progress") {
+          showOfflineStatus(t("offlineImagesPreparing", { n: Math.floor((msg.done / msg.total) * 100) }));
+        } else if (msg.state === "failed") {
+          showOfflineStatus(t("offlineImagesFailed"));
+          offerImages();
+        }
+      }
+    });
+
+    setTimeout(function () {
+      navigator.serviceWorker.ready.then(function (registration) {
+        if (registration.active) {
+          registration.active.postMessage({ type: "warm-dictionary", language: currentLanguage });
+        }
+      }).catch(function () { /* optional: the app works online without it */ });
+    }, 3000);
+  }
+
   currentLanguage = initialLanguage();
-  buildIndexes();
-  applyStaticTexts();
-  buildAlphabet();
-  initHero();
-  updateProgressBar();
-  route();
+  listView.setAttribute("aria-busy", "true");
+  SinonimiaDictionary.loadIndex(currentLanguage).then(start, showLoadError);
 
   // Re-route on hash changes (e.g. after route() sets the initial hash,
   // or after user navigates to a different route).

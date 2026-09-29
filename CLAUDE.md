@@ -1,5 +1,19 @@
 ﻿# CLAUDE.md — AI agent workflow
 
+## Shared Playwright installation
+
+Playwright and its browsers are installed globally for the machine by
+`dev/setups/pc-playwright-first-setup.ps1` or
+`pc-playwright-next-setup.ps1`. Run the project's existing browser-test
+command (for example, `npm run test:ui`) or invoke the global CLI with
+`playwright test`.
+
+Do not add `playwright` or `@playwright/test` to project dependencies, install
+Playwright with `npm`/`npx`, or run `npx playwright install`. The setup scripts
+manage the shared browser cache under `{drive}\apps\playwright_browsers`.
+Always attempt the relevant browser test; if the global CLI or browsers are
+unavailable, report that blocker and continue with the other checks.
+
 ## About this project
 
 Sinonimia is an **easy-read dictionary for difficult words** — from public administration, justice and health, plus a smaller `conocimiento` ("general knowledge") section for everyday abstract or scientific vocabulary. Every entry is written to be understood on the first read, taking nothing for granted. It is one of the seven siblings of the Apptonomia suite.
@@ -285,6 +299,15 @@ touches any file in `FILES`, and add any new file to `FILES` at the
 same time. Run `node scripts/check-version-bump.js` to verify the
 bump is consistent. Full contract: [`CLOUDFLARE.md`](CLOUDFLARE.md)
 § "Cache contract".
+
+The dictionary the browser loads is **generated** (`js/dict.*`,
+`js/dictionary-data.js`) from the `js/data.*.js` sources: after any
+change to a source shard run `node scripts/build-dictionary-data.js`
+(then bump `VERSION`; `check.js` fails on stale output). Those files
+live in a separate, hash-keyed `sinonimia-data` cache that a `VERSION`
+bump does not wipe, and are downloaded in full in the background for
+offline use — see [`doc/en/technical.md`](doc/en/technical.md)
+("Offline copy"). `node scripts/smoke-offline.js` verifies it.
 
 ### B.1.1 File-shard contract (suite-wide)
 

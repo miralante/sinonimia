@@ -250,7 +250,7 @@ main {
 /* Ludia's compact progress track. */
 .barra-progress,
 .barra-progreso {
-  background: #ddd9eb;
+  background: var(--color-borde);
   border: 0;
   border-radius: 4px;
   height: 6px;
@@ -261,7 +261,8 @@ main {
 .barra-progreso-relleno {
   height: 100%;
   width: 0;
-  background: #7462bb;
+  background: var(--color-primario);
+  background-image: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.18) 0 3px, transparent 3px 6px);
   border-radius: 4px;
   transition: width 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 }
@@ -460,6 +461,40 @@ main {
 .sin-resultados {
   margin-top: 2rem;
   font-size: 1.1rem;
+}
+
+/* External-search suggestions shown under "no results": wrap to as many rows
+   as the width needs, so nothing overflows at 320px. */
+.sin-resultados-enlaces {
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.sin-resultados-enlaces li {
+  max-width: 100%;
+}
+
+/* Plain tips under the links (search the Internet, ask your chatbot). */
+.sin-resultados-consejos {
+  margin: 1rem 0 0;
+  padding-left: 1.25rem;
+  overflow-wrap: anywhere;
+}
+
+.sin-resultados-consejos li + li {
+  margin-top: 0.4rem;
+}
+
+.sin-resultados-enlaces a {
+  display: inline-block;
+  max-width: 100%;
+  white-space: normal;   /* .boton-secundario is nowrap; these labels must wrap */
+  text-align: center;
+  overflow-wrap: anywhere;
 }
 
 /* ---------- Detail view ---------- */
@@ -978,6 +1013,7 @@ body.alto-contraste .boton-cta {
 }
 body.alto-contraste .barra-progreso-relleno {
   background: #ffff00;
+  background-image: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.45) 0 3px, transparent 3px 6px);
 }
 body.alto-contraste .tarjeta-aprendida {
   background: #ffff00;
@@ -1604,4 +1640,6 @@ body.alto-contraste .juego-pista-frase .destacado {
   outline-offset: 2px;
   border-radius: 2px;
 }
-#progress-text { display: none; }
+
+.mostrar-mas-fila { text-align: center; margin: 1.25rem 0; }
+.mostrar-mas-fila [hidden] { display: none; }

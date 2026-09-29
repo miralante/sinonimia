@@ -106,7 +106,10 @@ for the maintainer's pipeline.
    counterpart.
 6. Source a pictogram via `node scripts/search-pictogram.js` (ARASAAC
    or OpenSymbols; respect the license noted by the script).
-7. Run `node scripts/check.js` to verify everything resolves.
+7. Run `node scripts/build-dictionary-data.js` (it regenerates the
+   index and detail files the browser actually loads), bump `VERSION`
+   in `sw.js`, then run `node scripts/check.js` to verify everything
+   resolves and nothing generated is stale.
 
 ### New language
 
