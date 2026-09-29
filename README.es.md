@@ -59,18 +59,81 @@ Sinonimia está desplegada en **[sinonimia.apptonomia.uk](https://sinonimia.appt
 
 ---
 
-## 👥 Roles del proyecto
+## � Acerca de
+
+Sinonimia es un **diccionario en lenguaje llano para palabras
+difíciles** — las que aparecen en trámites, justicia y salud, más
+una sección más pequeña de conocimiento del día a día para
+vocabulario abstracto o científico. Cada entrada tiene una
+definición corta, un sinónimo cercano, una frase cotidiana
+(repetida con el sinónimo) y un pictograma de ARASAAC, escrita
+siguiendo las pautas de **lectura fácil** (norma UNE 153101:2018
+EX) para que se entienda a la primera lectura.
+
+Sinonimia se publica como web estática sin dependencias (sin PWA,
+por decisión de diseño — ver [`doc/es/spec.md`](doc/es/spec.md)
+para los motivos). Es una de las **siete apps** de la suite
+**Miralante** — la lista completa está en
+[🌐 La suite Miralante](#-la-suite-miralante--proyectos-del-grupo)
+más abajo. La especificación real del producto vive en
+[`doc/es/spec.md`](doc/es/spec.md); este README rehúye
+reformular decisiones de producto para que la descripción
+pública y la especificación no se separen.
+
+---
+
+## 🎯 Objetivos
+
+Sinonimia se construye para:
+
+- 📖 **Explicar cada entrada a la primera lectura** —
+  definición corta, sinónimo cercano, frase cotidiana,
+  pictograma; sin cadenas de "ver también" y sin jerga clínica.
+- 🪶 **Mantenerse sin dependencias** — HTML, CSS y JavaScript
+  puros, sin build, sin frameworks, sin llamadas a APIs de
+  ningún tipo.
+- 🌐 **Mantener la paridad bilingüe** — español por defecto y
+  fuente de verdad; inglés con paridad en cada cadena y cada
+  entrada.
+- 🔒 **Llevar todas las entradas en el bundle** — las palabras
+  viven en el JSON que se envía, nunca en un servidor remoto,
+  nunca detrás de una búsqueda.
+- 🖐️ **Cumplir WCAG AA de contraste y nivel de lectura fácil**
+  (ver [`doc/es/spec.md`](doc/es/spec.md) §3.6).
+- 🚫 **No esconder contenido detrás del juego** — la
+  gamificación existe pero nunca es una puerta para acceder al
+  contenido (ver [`doc/es/spec.md`](doc/es/spec.md)).
+
+Cada objetivo referencia una sección de
+[`doc/es/spec.md`](doc/es/spec.md); si un objetivo no está allí,
+añádelo a la especificación o sácalo de la lista.
+
+---
+
+## 👥 Audiencia y roles
+
+Sinonimia está pensada para una **persona tipo** — quien se
+encuentra con una palabra difícil en un trámite o una lectura
+del día a día y quiere una explicación en lenguaje llano en
+segundos, sin cuenta ni instalación. La especificación real del
+producto vive en [`doc/es/spec.md`](doc/es/spec.md); este README
+evita a propósito cualquier etiqueta clínica para que la
+descripción pública se mantenga genérica.
+
+---
+
+Sinonimia solo tiene dos roles — no hay un rol de "apoyo"
+dedicado: el diccionario está pensado para consultarse solo, sin
+que nadie tenga que mediar.
 
 | Rol | Quién es | Cómo participa | Dónde mira primero |
 |---|---|---|---|
 | 👤 **Persona usuaria** (persona tipo) | Se encuentra con una palabra difícil | Usa la web directamente, sin registro ni cuenta | La propia web (`index.html`) |
 | 💻 **Persona colaboradora** (contenido o código) | Propone una palabra nueva, un idioma nuevo, o toca el código | Sigue el proceso de [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md): añade una palabra siguiendo las reglas de lectura fácil, o implementa/revisa cambios de código | [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) · [`tecnico.md`](doc/es/tecnico.md) |
 
-Sinonimia solo tiene dos roles — no hay un rol de "apoyo" dedicado:
-el diccionario está pensado para consultarse solo, sin que nadie tenga
-que mediar. Ver [`doc/es/roles.md`](doc/es/roles.md) para la
-descripción completa de los roles y cómo Sinonimia encaja en los
-patrones trio/par/único del conjunto de la suite.
+Ver [`doc/es/roles.md`](doc/es/roles.md) para la descripción completa
+de los roles y cómo Sinonimia encaja en los patrones trio/par/único
+del conjunto de la suite.
 
 ---
 
@@ -175,7 +238,8 @@ en tiempo de ejecución. El modelo de amenaza es esencialmente "qué
 podría hacer una página maliciosa offline contra el mismo origen",
 algo que el navegador ya aísla. Ver [`SECURITY.es.md`](SECURITY.es.md)
 (o [`SECURITY.md`](SECURITY.md)) para reportar una sospecha de forma
-privada.
+privada (canal preferido:
+[`hello@apptonomia.uk`](mailto:hello@apptonomia.uk)).
 
 ---
 
@@ -240,7 +304,7 @@ Lenguaje Claro) y en glosarios médicos pensados para pacientes.
 
 ## 🌐 La suite Miralante — proyectos del grupo
 
-Sinonimia es una de las **seis apps** de la suite **Miralante**, que
+Sinonimia es una de las **siete apps** de la suite **Miralante**, que
 comparten autor, la misma filosofía de accesibilidad sin backend y la
 misma historia de despliegue en Cloudflare. Apptonomia, además de ser
 una app en sí misma, actúa como **portal de la suite** que la presenta
@@ -251,6 +315,7 @@ este es el producto original del que nació el grupo.
 |---|---|---|
 | **Apptonomia** *(portal — landing only, no es app)* | Landing que presenta la suite Miralante (no es una app en tiempo de ejecución) | [github.com/miralante/apptonomia](https://github.com/miralante/apptonomia) |
 | [Calculia](https://calculia.apptonomia.uk/) | Cálculo y razonamiento lógico | [github.com/miralante/calculia](https://github.com/miralante/calculia) |
+| [Ludia](https://ludia.apptonomia.uk/) | Juegos adaptados con reglas, ejercicios y partidas | [github.com/miralante/ludia](https://github.com/miralante/ludia) |
 | [Memofun](https://memofun.apptonomia.uk/) | Tarjetas de memoria con aprendizaje significativo | [github.com/miralante/memofun](https://github.com/miralante/memofun) |
 | [Okeymoney](https://okeymoney.apptonomia.uk/) | Finanzas personales y autonomía cotidiana | [github.com/miralante/okeymoney](https://github.com/miralante/okeymoney) |
 | [Routime](https://routime.apptonomia.uk/) | Actividades para rutinas y vida cotidiana | [github.com/miralante/routime](https://github.com/miralante/routime) |

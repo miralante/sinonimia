@@ -2,7 +2,7 @@
   "use strict";
 
   var AVAILABLE_LANGUAGES = Object.keys(DICCIONARIOS); // ["es", "en"]
-  var DEFAULT_LANGUAGE = "es";
+  var DEFAULT_LANGUAGE = "en";
 
   var listEl = document.getElementById("word-list");
   var listView = document.getElementById("list-view");
@@ -20,6 +20,41 @@
   var activeDictionary = [];
   var entryById = new Map();
   var entryByName = new Map();
+  var suiteAudioContext = null;
+
+  function playSuiteSound(kind) {
+    var enabled = kind === "success";
+    try {
+      var saved = JSON.parse(localStorage.getItem("miralante:sounds") || "null");
+      if (saved && typeof saved[kind] === "boolean") enabled = saved[kind];
+    } catch (e) { /* ignore */ }
+    if (!enabled) return;
+    try {
+      var AC = window.AudioContext || window.webkitAudioContext;
+      if (!AC) return;
+      if (!suiteAudioContext) suiteAudioContext = new AC();
+      if (suiteAudioContext.state === "suspended") suiteAudioContext.resume();
+      function tone(frequency, duration, type, delay) {
+        var now = suiteAudioContext.currentTime + (delay || 0);
+        var oscillator = suiteAudioContext.createOscillator();
+        var gain = suiteAudioContext.createGain();
+        oscillator.type = type;
+        oscillator.frequency.value = frequency;
+        gain.gain.setValueAtTime(0.12, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + duration);
+        oscillator.connect(gain);
+        gain.connect(suiteAudioContext.destination);
+        oscillator.start(now);
+        oscillator.stop(now + duration);
+      }
+      if (kind === "success") {
+        tone(523.25, 0.15, "sine", 0);
+        tone(659.25, 0.2, "sine", 0.12);
+      } else {
+        tone(180, 0.12, "triangle", 0);
+      }
+    } catch (e) { /* optional audio must never block the activity */ }
+  }
 
   function t(key, variables) {
     return translate(currentLanguage, key, variables);
@@ -197,17 +232,32 @@
   // every CHUNK entries, preventing main-thread blocking that causes
   // Playwright CDP deadlocks when the input event is dispatched.
   var CHUNK = 100;
+  var _renderId = 0;
 
   function renderList() {
     showView("lista");
     var results = filteredEntries();
     listEl.innerHTML = "";
 
+    // Increment the render id so any in-flight async render from a PREVIOUS
+    // search will self-cancel when it next checks the guard.
+    var renderId = ++_renderId;
+
+    // Set no-results visibility BEFORE the async render loop starts, so the
+    // UI is correct while cards are being progressively appended.
+    noResults.hidden = results.length !== 0;
+    resultsInfo.textContent = results.length === 1
+      ? t("resultOne")
+      : t("resultsMany", { n: results.length });
+
     // buildFragment collects DOM nodes without touching the live DOM,
     // then appends everything at once for better performance.
     var fragment = document.createDocumentFragment();
 
     (async function () {
+      // Guard: if a newer render started since this one began, bail out.
+      if (renderId !== _renderId) return;
+
       for (var i = 0; i < results.length; i++) {
         var entry = results[i];
         var li = document.createElement("li");
@@ -246,16 +296,12 @@
           listEl.appendChild(fragment);
           fragment = document.createDocumentFragment();
           await new Promise(function (r) { setTimeout(r, 0); });
+          // After yielding, check if a newer render has started.
+          if (renderId !== _renderId) return;
         }
       }
 
       listEl.appendChild(fragment);
-
-      noResults.hidden = results.length !== 0;
-      resultsInfo.textContent = results.length === 1
-        ? t("resultOne")
-        : t("resultsMany", { n: results.length });
-
       updateAlphabetVisual();
     })();
   }
@@ -585,6 +631,10 @@
   }
 
   function showView(name) {
+    // A list render can still be yielding between chunks when navigation
+    // changes to a detail page or a game. Invalidate it immediately so it
+    // cannot keep building thousands of hidden cards in the background.
+    if (name !== "lista") _renderId++;
     listView.hidden = name !== "lista";
     detailView.hidden = name !== "detalle";
     gameView.hidden = name !== "juego";
@@ -610,7 +660,7 @@
 
     if (parts[1] === "word" && parts[2]) {
       renderDetail(parts[2]);
-    } else if (parts[1] === "juego" && parts[2] === "word") {
+    } else if (parts[1] === "juego" && (parts[2] === "word" || parts[2] === "palabra")) {
       renderWordGame();
     } else if (parts[1] === "juego" && parts[2] === "frase") {
       renderSentenceGame();
@@ -1027,6 +1077,7 @@
           });
           message.textContent = t("gameCorrect");
           message.className = "juego-mensaje juego-mensaje-correcto";
+          playSuiteSound("success");
           scoreEl.textContent = t("gameScore", { n: addPoint() });
           markScoreEarned(scoreEl);
 
@@ -1042,6 +1093,7 @@
           btn.disabled = true;
           message.textContent = t("wordGameIncorrect");
           message.className = "juego-mensaje juego-mensaje-incorrecto";
+          playSuiteSound("error");
         }
       });
 
@@ -1143,6 +1195,7 @@
           clue.appendChild(createHighlightedSentence(target.example.text, target.example.word));
           message.textContent = t("gameCorrect");
           message.className = "juego-mensaje juego-mensaje-correcto";
+          playSuiteSound("success");
           scoreEl.textContent = t("gameScore", { n: addPoint() });
           markScoreEarned(scoreEl);
 
@@ -1158,6 +1211,7 @@
           btn.disabled = true;
           message.textContent = t("sentenceGameIncorrect");
           message.className = "juego-mensaje juego-mensaje-incorrecto";
+          playSuiteSound("error");
         }
       });
 

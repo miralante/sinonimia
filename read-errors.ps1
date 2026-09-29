@@ -1,0 +1,1 @@
+Get-ChildItem 'D:\apps\onedrive\jrodriguezgar\OneDrive\dev\git\Miralante\sinonimia\test-results' -Recurse -Filter 'error-context.md' -ErrorAction SilentlyContinue | ForEach-Object { Write-Host "=== $($_.FullName) ==="; Get-Content $_.FullName }

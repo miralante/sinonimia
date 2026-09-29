@@ -1,0 +1,135 @@
+﻿
+Running 23 tests using 1 worker
+
+[1/23] [chromium] › tests\app.spec.js:76:1 › 1 — home loads with word list and search
+[2/23] (retries) [chromium] › tests\app.spec.js:76:1 › 1 — home loads with word list and search (retry #1)
+  1) [chromium] › tests\app.spec.js:76:1 › 1 — home loads with word list and search ────────────────
+
+    Test timeout of 60000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\app-1-—-home-loads-with-word-list-and-search-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\app-1-—-home-loads-with-word-list-and-search-chromium\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\app-1-—-home-loads-with-word-list-and-search-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\app-1-—-home-loads-with-word-list-and-search-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test timeout of 60000ms exceeded.
+
+    Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open 'D:\apps\onedrive\jrodriguezgar\OneDrive\dev\git\Miralante\sinonimia\test-results\.playwright-artifacts-1\traces\screencast\page@4aa276f88b7d33bcd3d3a0262b89a059-1790413583315.jpeg'
+
+    Error: ENOENT: no such file or directory, open 'D:\apps\onedrive\jrodriguezgar\OneDrive\dev\git\Miralante\sinonimia\test-results\.playwright-artifacts-1\adfd30ab3f66eb89da9693b4182d1707.zip'
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\app-1-—-home-loads-with-word-list-and-search-chromium-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[3/23] [chromium] › tests\app.spec.js:93:1 › 2 — word cards link to detail view
+[4/23] (retries) [chromium] › tests\app.spec.js:93:1 › 2 — word cards link to detail view (retry #1)
+  2) [chromium] › tests\app.spec.js:93:1 › 2 — word cards link to detail view ──────────────────────
+
+    Test timeout of 60000ms exceeded.
+
+    Error: locator.click: Test ended.
+    Call log:
+      - waiting for locator('#word-list .card a').first()
+
+
+      104 |   try {
+      105 |     // Click with a tight timeout to isolate whether the hang is the click itself.
+    > 106 |     await firstCard.click({ timeout: 5000 });
+          |                     ^
+      107 |     // If click succeeds, give route() time to render the detail view.
+      108 |     await page.waitForTimeout(2000);
+      109 |     await expect(page.locator('#detail-view')).toBeVisible({ timeout: NAV_TIMEOUT });
+        at D:\apps\onedrive\jrodriguezgar\OneDrive\dev\git\Miralante\sinonimia\tests\app.spec.js:106:21
+
+    Error Context: test-results\app-2-—-word-cards-link-to-detail-view-chromium\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\app-2-—-word-cards-link-to-detail-view-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\app-2-—-word-cards-link-to-detail-view-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test timeout of 60000ms exceeded.
+
+    Error: page.waitForFunction: Test ended.
+
+      36 |     Uses polling so we don't depend on a fixed timeout being "long enough". */
+      37 | async function waitForCards(page, timeout = 10000) {
+    > 38 |   await page.waitForFunction(
+         |              ^
+      39 |     () => document.querySelectorAll('#word-list .card').length > 0,
+      40 |     { timeout }
+      41 |   );
+        at waitForCards (D:\apps\onedrive\jrodriguezgar\OneDrive\dev\git\Miralante\sinonimia\tests\app.spec.js:38:14)
+        at D:\apps\onedrive\jrodriguezgar\OneDrive\dev\git\Miralante\sinonimia\tests\app.spec.js:95:9
+
+    Error Context: test-results\app-2-—-word-cards-link-to-detail-view-chromium-retry1\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\app-2-—-word-cards-link-to-detail-view-chromium-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\app-2-—-word-cards-link-to-detail-view-chromium-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[5/23] [chromium] › tests\app.spec.js:122:1 › 3 — typing in search filters the word list
+[6/23] (retries) [chromium] › tests\app.spec.js:122:1 › 3 — typing in search filters the word list (retry #1)
+  3) [chromium] › tests\app.spec.js:122:1 › 3 — typing in search filters the word list ─────────────
+
+    Test timeout of 60000ms exceeded.
+
+    Error: locator.fill: Test ended.
+    Call log:
+      - waiting for locator('#search')
+
+
+      127 |   expect(initialCount).toBeGreaterThan(1);
+      128 |
+    > 129 |   await page.locator('#search').fill('a');
+          |                                 ^
+      130 |   await page.waitForTimeout(SETTLE_MS);
+      131 |
+      132 |   const filteredCount = await page.locator('#word-list .card').count();
+        at D:\apps\onedrive\jrodriguezgar\OneDrive\dev\git\Miralante\sinonimia\tests\app.spec.js:129:33
+
+    Error: ENOENT: no such file or directory, open 'D:\apps\onedrive\jrodriguezgar\OneDrive\dev\git\Miralante\sinonimia\test-results\.playwright-artifacts-4\6cb782f689a4c78fb17a69cb4e9289bf.zip'
+
+    Error Context: test-results\app-3-—-typing-in-search-filters-the-word-list-chromium\error-context.md
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Test timeout of 60000ms exceeded.
+
+    Error: Object with guid response@a446a90da7efee8bbc67f56bcdafb191 was not bound in the connection
+
+    Error Context: test-results\app-3-—-typing-in-search-filters-the-word-list-chromium-retry1\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\app-3-—-typing-in-search-filters-the-word-list-chromium-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\app-3-—-typing-in-search-filters-the-word-list-chromium-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[7/23] [chromium] › tests\app.spec.js:144:1 › 4 — search with no matches shows no-results message

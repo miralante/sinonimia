@@ -7,7 +7,7 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![No dependencies](https://img.shields.io/badge/dependencies-none-success.svg)](#-features)
 [![Static site](https://img.shields.io/badge/build-none-informational.svg)](#-features)
-[![No PWA](https://img.shields.io/badge/PWA-none-lightgrey.svg)](#-features)
+[![PWA](https://img.shields.io/badge/PWA-installable-5A0FC8.svg)](manifest.json)
 [![i18n](https://img.shields.io/badge/i18n-es%20%7C%20en-yellow.svg)](#-project-documentation-bilingual)
 [![CI](https://img.shields.io/badge/CI-node%20scripts%2Fcheck.js-blue.svg)](.github/workflows/validate.yml)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
@@ -58,18 +58,78 @@ needed.
 
 ---
 
-## 👥 Roles in the project
+## � About
+
+Sinonimia is a **plain-language dictionary for difficult words** —
+the words that come up in paperwork, justice and health, plus a
+smaller everyday-knowledge section for abstract or scientific
+vocabulary. Each entry has a short definition, a familiar synonym,
+an everyday sentence (repeated with the synonym), and an
+ARASAAC pictogram, written to follow **easy-read** guidelines
+(Spanish standard UNE 153101:2018 EX) so it can be understood on
+the first read.
+
+Sinonimia ships as a static, dependency-free web app (no PWA, by
+design — see [`doc/en/spec.md`](doc/en/spec.md) for why). It is one
+of the **Miralante** suite of seven sibling apps — see
+[🌐 The Miralante suite](#-the-miralante-suite--projects-in-the-suite)
+below for the full list. The real product specification lives in
+[`doc/en/spec.md`](doc/en/spec.md); this README deliberately avoids
+rephrasing product decisions to keep the public description and
+the spec in lock-step.
+
+---
+
+## 🎯 Goals
+
+Sinonimia is built to:
+
+- 📖 **Explain every entry on the first read** — short
+  definition, familiar synonym, everyday sentence, pictogram;
+  no "see also" chains and no clinical jargon.
+- 🪶 **Stay dependency-free** — plain HTML, CSS, and JavaScript,
+  no build, no framework, no API call of any kind.
+- 🌐 **Stay bilingual end-to-end** — Spanish is the default and
+  source of truth; English keeps parity in every string and
+  every entry.
+- 🔒 **Keep all entries in the bundle** — words live in the
+  shipped JSON, never on a remote server, never behind a search.
+- 🖐️ **Meet WCAG AA contrast and easy-read reading-level**
+  targets (see [`doc/en/spec.md`](doc/en/spec.md) §3.6).
+- 🚫 **Stay game-free on the surface** — gamification exists but
+  is never a gate to entry content (see
+  [`doc/en/spec.md`](doc/en/spec.md) for the rationale).
+
+Each goal cross-references a spec section in
+[`doc/en/spec.md`](doc/en/spec.md); if a goal is not in the spec,
+either add it to the spec or drop it from this list.
+
+---
+
+## 👥 Audience & roles
+
+Sinonimia is designed for a **typical user profile** — anyone
+who runs into a difficult word in everyday paperwork or reading
+and wants a plain-language explanation in seconds, with no
+account and no app install. The real product specification lives
+in [`doc/en/spec.md`](doc/en/spec.md); this README deliberately
+avoids any clinical label so the public description stays
+generic.
+
+---
+
+Sinonimia only has two roles — there is no dedicated "support"
+position: the dictionary is designed to be used on one's own,
+without needing anyone to mediate.
 
 | Role | Who they are | How they participate | Where they look first |
 |---|---|---|---|
 | 👤 **End user** (typical user profile) | Runs into a difficult word | Uses the site directly, no sign-up or account | The site itself (`index.html`) |
 | 💻 **Contributor** (content or code) | Proposes a new word, a new language, or touches the code | Follows the process in [`CONTRIBUTING.md`](CONTRIBUTING.md): adds a word following the easy-read rules, or implements/reviews code changes | [`CONTRIBUTING.md`](CONTRIBUTING.md) · [`technical.md`](doc/en/technical.md) |
 
-Sinonimia only has two roles — there is no dedicated "support"
-position: the dictionary is designed to be used on one's own, without
-needing anyone to mediate. See [`doc/en/roles.md`](doc/en/roles.md)
-for the full role description and how Sinonimia fits the trio-vs-
-pair-vs-sole patterns across the apps of the suite.
+See [`doc/en/roles.md`](doc/en/roles.md) for the full role description
+and how Sinonimia fits the trio-vs-pair-vs-sole patterns across the
+apps of the suite.
 
 ---
 
@@ -173,7 +233,8 @@ no telemetry, no third-party runtime. The threat model is essentially
 "what a hostile offline page could do to the same origin", which the
 browser already sandboxes. See [`SECURITY.md`](SECURITY.md) (or
 [`SECURITY.es.md`](SECURITY.es.md)) for how to report a suspected
-issue privately.
+issue privately (preferred channel:
+[`hello@apptonomia.uk`](mailto:hello@apptonomia.uk)).
 
 ---
 
@@ -237,7 +298,7 @@ Claro) and on medical glossaries written for patients.
 
 ## 🌐 The Miralante suite — projects in the suite
 
-Sinonimia is one of **six apps** in the **Miralante** suite, sharing
+Sinonimia is one of **seven apps** in the **Miralante** suite, sharing
 the same author, the same accessibility-first / no-backend philosophy
 and the same deploy story. Apptonomia, on top of being an app itself,
 also acts as the **landing portal** that introduces the whole suite.
@@ -248,6 +309,7 @@ just the original product this group grew out of.
 |---|---|---|
 | **Apptonomia** *(portal — landing only, no app)* | Landing page that introduces the Miralante suite (not a runtime app) | [github.com/miralante/apptonomia](https://github.com/miralante/apptonomia) |
 | [Calculia](https://calculia.apptonomia.uk/) | Math and logical reasoning | [github.com/miralante/calculia](https://github.com/miralante/calculia) |
+| [Ludia](https://ludia.apptonomia.uk/) | Adapted games with rules, exercises and matches | [github.com/miralante/ludia](https://github.com/miralante/ludia) |
 | [Memofun](https://memofun.apptonomia.uk/) | Flashcards built around meaningful learning | [github.com/miralante/memofun](https://github.com/miralante/memofun) |
 | [Okeymoney](https://okeymoney.apptonomia.uk/) | Personal finance and everyday autonomy | [github.com/miralante/okeymoney](https://github.com/miralante/okeymoney) |
 | [Routime](https://routime.apptonomia.uk/) | Activities for routines and daily-life skills | [github.com/miralante/routime](https://github.com/miralante/routime) |

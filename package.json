@@ -1,11 +1,12 @@
 {
-  "name": "sinonimia-ui-tests",
-  "private": true,
-  "scripts": {
-    "test:ui": "node scripts/ui-smoke.js",
-    "test:sw": "node scripts/smoke-sw.js"
-  },
-  "devDependencies": {
-    "playwright": "^1.62.1"
-  }
+    "name": "sinonimia-ui-tests",
+    "private": true,
+    "scripts": {
+        "test:ui": "node scripts/ui-smoke.js",
+        "test:sw": "node scripts/smoke-sw.js",
+        "test": "npx playwright test"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.63.0"
+    }
 }

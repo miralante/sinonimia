@@ -29,11 +29,11 @@
   }
   function setLang(lang) {
     root.setAttribute("data-lang", lang);
-    document.querySelectorAll(".idioma-btn").forEach(function (btn) {
+    document.querySelectorAll(".idioma-btn, .lang-btn").forEach(function (btn) {
       btn.setAttribute("aria-pressed", String(btn.getAttribute("data-lang") === lang));
     });
   }
-  document.querySelectorAll(".idioma-btn").forEach(function (btn) {
+  document.querySelectorAll(".idioma-btn, .lang-btn").forEach(function (btn) {
     btn.addEventListener("click", function () {
       setLang(btn.getAttribute("data-lang"));
     });

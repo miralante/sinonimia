@@ -20,7 +20,8 @@ window.LocalePickerConfig = {
      locales listed explicitly in requiredLocales. */
   path: null,
   requiredLocales: ['es', 'en'],
-  defaultLocale: 'es',
+  defaultLocale: 'en',
+  settingsHref: 'config/',
   onChange: function (locale) {
     /* Sinonimia hashes the current language into the URL so deep
        links to specific words stay scoped. Match the existing

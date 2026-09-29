@@ -34,7 +34,7 @@
     }
   };
   var AVAILABLE = ["es", "en"];
-  var DEFAULT = "es";
+  var DEFAULT = "en";
 
   function resolveLang() {
     var hashParts = (location.hash || "").replace(/^#\/?/, "").split("/").filter(Boolean);

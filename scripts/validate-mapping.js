@@ -48,9 +48,9 @@ for (const [esId, rawValue] of Object.entries(map)) {
 function byPictogram(entries) {
   const m = new Map();
   for (const e of entries) {
-    const list = m.get(e.imagen.id) || [];
+    const list = m.get(e.image.id) || [];
     list.push(e);
-    m.set(e.imagen.id, list);
+    m.set(e.image.id, list);
   }
   return m;
 }
@@ -58,7 +58,7 @@ const esByPic = byPictogram(es);
 const enByPic = byPictogram(en);
 const autoMatched = new Set();
 for (const e of es) {
-  if (esByPic.get(e.imagen.id).length === 1 && enByPic.get(e.imagen.id) && enByPic.get(e.imagen.id).length === 1) {
+  if (esByPic.get(e.image.id).length === 1 && enByPic.get(e.image.id) && enByPic.get(e.image.id).length === 1) {
     autoMatched.add(e.id);
   }
 }
@@ -68,7 +68,7 @@ const missing = [];
 for (const e of es) {
   if (autoMatched.has(e.id)) continue;
   if (mappedEsIds.has(e.id)) continue;
-  missing.push(`${e.id}  "${e.palabra}"  [${e.situacion}]`);
+  missing.push(`${e.id}  "${e.word}"  [${e.situacion}]`);
 }
 if (missing.length === 0) ok(`coverage: every ES entry is either auto-matched or in TRADUCCIONES (${es.length} total)`);
 else { console.warn(`coverage: ${missing.length} ES entries still have no link to EN (likely ES-specific or pending):`); for (const m of missing) console.warn("    " + m); }

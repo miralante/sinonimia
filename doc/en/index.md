@@ -4,7 +4,7 @@
 > for project roles, see [`roles.md`](roles.md); for how to contribute, see
 > [`../../CONTRIBUTING.md`](../../CONTRIBUTING.md).
 >
-> **Other language**: [Español](../es/indice.md)
+> **App**: [sinonimia.apptonomia.uk](https://sinonimia.apptonomia.uk) · **Repository**: [github.com/miralante/sinonimia](https://github.com/miralante/sinonimia) · **Other language**: [Español](../es/indice.md)
 
 ---
 
