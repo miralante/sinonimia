@@ -869,9 +869,10 @@
   applyContrast(localStorage.getItem("sinonimia-contraste") === "1");
 
   // --- Progress: discovered words (this browser only, per language) ---
-  var progressText = document.getElementById("progress-text");
-  var progressBar = document.getElementById("progress-bar");
-  var progressBarFill = document.getElementById("barra-progress-relleno");
+  // Shown as two independent counters (discovered / in the dictionary),
+  // not as a fraction or percentage of each other.
+  var statDiscovered = document.getElementById("stat-descubiertas");
+  var statDictionary = document.getElementById("stat-diccionario");
 
   function progressKey() {
     return "sinonimia-aprendidas-" + currentLanguage;
@@ -891,16 +892,8 @@
   }
 
   function updateProgressBar() {
-    var total = activeDictionary.length;
-    var learnedCount = learnedWords().length;
-    var percentage = total === 0 ? 0 : Math.round((learnedCount / total) * 100);
-
-    progressText.textContent = learnedCount === 0
-      ? t("progressNone")
-      : t("progressPartial", { n: learnedCount, total: total }) + (learnedCount === total ? t("progressComplete") : "");
-
-    progressBar.setAttribute("aria-valuenow", String(percentage));
-    progressBarFill.style.width = percentage + "%";
+    statDiscovered.textContent = String(learnedWords().length);
+    statDictionary.textContent = String(activeDictionary.length);
   }
 
   function markLearned(id) {
@@ -909,9 +902,9 @@
     list.push(id);
     localStorage.setItem(progressKey(), JSON.stringify(list));
     updateProgressBar();
-    progressBarFill.classList.remove("animar-relleno");
-    void progressBarFill.offsetWidth;
-    progressBarFill.classList.add("animar-relleno");
+    statDiscovered.classList.remove("animar-numero");
+    void statDiscovered.offsetWidth;
+    statDiscovered.classList.add("animar-numero");
   }
 
   // --- Word of the day ---
@@ -1396,8 +1389,4 @@
   currentLanguage = initialLanguage();
   listView.setAttribute("aria-busy", "true");
   SinonimiaDictionary.loadIndex(currentLanguage).then(start, showLoadError);
-
-  // Re-route on hash changes (e.g. after route() sets the initial hash,
-  // or after user navigates to a different route).
-  window.addEventListener("hashchange", route);
 })();

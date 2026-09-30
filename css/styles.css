@@ -239,12 +239,30 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 0.85rem;
 }
 
-.hero-progress-texto {
-  margin: 0 0 0.6rem;
+/* Two independent counters (words discovered, words in the dictionary).
+   Deliberately not shown as a fraction or percentage of each other. */
+.hero-stat {
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.hero-stat-numero {
   font-weight: bold;
+  font-size: 1.4rem;
   color: var(--color-primario-oscuro);
+}
+
+.hero-stat-numero.animar-numero {
+  animation: destello-progreso 0.6s ease;
+}
+
+.hero-stat-etiqueta {
+  color: var(--color-texto-suave, inherit);
 }
 
 /* Ludia's compact progress track. */

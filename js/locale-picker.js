@@ -162,10 +162,16 @@
       apply(chosen, active);
     });
     document.addEventListener('click', function (e) {
-      if (!root.contains(e.target)) close(panel, btn);
+      /* Guard on is-open: close() unconditionally calls btn.focus() (so
+         Escape/outside-click-while-open returns focus to the trigger, per
+         standard disclosure-widget a11y). Without this guard the listener
+         ran on EVERY click anywhere on the page, stealing focus to this
+         button even while the panel was already closed — including from
+         the search box, making it impossible to type there by clicking in. */
+      if (panel.classList.contains('is-open') && !root.contains(e.target)) close(panel, btn);
     });
     document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') close(panel, btn);
+      if (e.key === 'Escape' && panel.classList.contains('is-open')) close(panel, btn);
     });
   }
 

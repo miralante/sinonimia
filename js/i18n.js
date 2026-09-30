@@ -36,9 +36,8 @@ const I18N = {
 
     heroLabel: "Palabra del día",
     heroCta: "Descúbrela →",
-    progressNone: "Todavía no has descubierto ninguna palabra",
-    progressPartial: "{n} de {total} palabras descubiertas",
-    progressComplete: " · ¡Las has visto todas! 🎉",
+    statDiscovered: "Palabras descubiertas",
+    statDictionary: "Palabras en el diccionario",
 
     searchLabel: "Escribe una palabra o un tema",
     searchPlaceholder: "Por ejemplo: subsanar, cefalea, artrosis…",
@@ -168,9 +167,8 @@ const I18N = {
 
     heroLabel: "Word of the day",
     heroCta: "Discover it →",
-    progressNone: "You haven't discovered any word yet",
-    progressPartial: "{n} of {total} words discovered",
-    progressComplete: " · You've seen them all! 🎉",
+    statDiscovered: "Words discovered",
+    statDictionary: "Words in the dictionary",
 
     searchLabel: "Type a word or a topic",
     searchPlaceholder: "For example: rectify, migraine, arthritis…",
