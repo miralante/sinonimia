@@ -40,7 +40,7 @@
 
 * { box-sizing: border-box; }
 
-html { font-size: var(--tam-base); scroll-behavior: smooth; }
+html { font-size: var(--tam-base); scroll-behavior: smooth; overflow-x: hidden; }
 
 body {
   margin: 0;
@@ -1085,6 +1085,13 @@ body.alto-contraste .juego-pista-frase .destacado {
   .cabecera h1 { font-size: 1.5rem; }
   .detalle h2 { font-size: 1.7rem; }
   .detalle { padding: 1.1rem 1.1rem 1.5rem; }
+  /* Phones: give the content the full width. The 1.25rem gutters (at an
+     18px root) plus the card padding left barely ~300px of a 390px iPhone
+     screen for the result text. */
+  .cabecera { padding-left: 0.75rem; padding-right: 0.75rem; }
+  main { padding-left: 0.75rem; padding-right: 0.75rem; }
+  .cards { grid-template-columns: 1fr; gap: 0.75rem; }
+  .card { padding: 0.8rem 0.85rem; }
 }
 
 /* ==========================================================================
