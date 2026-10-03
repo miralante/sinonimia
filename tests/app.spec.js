@@ -758,3 +758,33 @@ test('28 — cross-language: clicking translation link navigates to word in othe
   // Back link should return to the word list.
   await expect(page.locator('#detail-view .backToSearch')).toBeVisible();
 });
+
+// ===========================================================================
+// ABOUT THE APP: ACHIEVEMENTS
+// ===========================================================================
+
+test('29 — opening a word unlocks an achievement shown on "About the app"', async ({ browser }) => {
+  const page = await openAppAtListView(browser);
+  const errors = [];
+  page.on('pageerror', err => errors.push(err.message));
+  await waitForCards(page);
+
+  // Footer: "Sobre la app" sits right before "Configuración".
+  const footerLinks = await page.locator('footer.pie .pie-enlaces > a').evaluateAll(
+    links => links.map(a => a.getAttribute('href')));
+  expect(footerLinks.indexOf('about-app/')).toBeGreaterThanOrEqual(0);
+  expect(footerLinks.indexOf('about-app/')).toBe(footerLinks.indexOf('config/') - 1);
+
+  await page.locator('#word-list .card a').first().click();
+  await expect(page.locator('#detail-view')).toBeVisible({ timeout: NAV_TIMEOUT });
+  const stored = await page.evaluate(() => JSON.parse(localStorage.getItem('sinonimia-logros') || '{}'));
+  expect(stored.firstWord).toBeTruthy();
+
+  await page.goto(BASE + 'about-app/?lang=es');
+  await expect(page.locator('.achievement-badge')).toHaveCount(6);
+  await expect(page.locator('.achievement-badge.unlocked')).toContainText('Primera palabra');
+  await expect(page.locator('#achievements-count')).toContainText('de 6 logros');
+  expect(errors).toHaveLength(0);
+  await page.close();
+  await _lastCtx.close();
+});

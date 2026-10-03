@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- "About the app" page: linked from index.html's footer, right before
+     "Settings". Shows the achievements saved in this browser. Texts come
+     from js/i18n.js (same keys as the main app); the catalog and the badge
+     grid come from js/achievements.js. Same visual shell as config/
+     (body.page-config in css/styles.css), plus .page-about-app rules. -->
+<meta name="robots" content="noindex, nofollow">
+<title>Sobre la app — Sinonimia</title>
+<meta name="theme-color" content="#FAF7F2">
+<link rel="icon" type="image/svg+xml" href="../img/logo.svg">
+<link rel="apple-touch-icon" href="../img/logo.svg">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="page-config page-about-app">
+
+<header class="cabecera">
+  <div class="envoltorio">
+    <div class="idioma-selector" role="group" aria-label="Idioma / Language">
+      <button type="button" class="lang-btn" data-lang="es" aria-pressed="true">🇪🇸 Español</button>
+      <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">🇬🇧 English</button>
+    </div>
+
+    <h1 data-about-i18n="aboutAppTitle">ℹ️ Sobre la app</h1>
+    <p class="lema" data-about-i18n="aboutAppIntro">Sinonimia explica palabras difíciles con frases cortas. Aquí ves tus logros.</p>
+  </div>
+</header>
+
+<div class="envoltorio">
+<main id="contenido">
+
+<section id="logros" aria-labelledby="achievements-title">
+  <h2 id="achievements-title" data-about-i18n="achievementsTitle">⭐ Logros</h2>
+  <p data-about-i18n="achievementsHint">Los logros llegan solos cuando usas el diccionario y los juegos.</p>
+  <p class="achievements-count" id="achievements-count" aria-live="polite"></p>
+  <ul class="achievements-grid" id="achievements-grid"></ul>
+</section>
+
+<p class="pie-nota" data-about-i18n="aboutAppSavedLocally">Tus logros se guardan solo en este dispositivo.</p>
+
+</main>
+</div>
+
+<footer class="pie-about-app">
+  <a class="btn" href="../index.html" data-about-i18n="aboutAppBackToDictionary">Ir al diccionario</a>
+  <a class="btn" href="../config/" data-about-i18n="aboutAppConfig">Configuración</a>
+</footer>
+
+<script src="../js/i18n.js"></script>
+<script src="../js/achievements.js"></script>
+<script src="about-app.js"></script>
+</body>
+</html>

@@ -545,6 +545,7 @@
     if (earned.indexOf(id) !== -1) return false;
     earned.push(id);
     localStorage.setItem(sentenceStarsKey(), JSON.stringify(earned));
+    checkAchievements();
     return true;
   }
 
@@ -894,6 +895,52 @@
   function updateProgressBar() {
     statDiscovered.textContent = String(learnedWords().length);
     statDictionary.textContent = String(activeDictionary.length);
+    checkAchievements();
+  }
+
+  // --- Achievements (catalog and storage in js/achievements.js) ---
+  // Most achievements are derived from progress already saved, so this
+  // runs at every progress event and at start-up (credit is retroactive).
+  // Achievements are only ever added, never removed.
+  var topicsCache = { dictionary: null, topics: null };
+
+  function dictionaryTopics() {
+    if (topicsCache.dictionary !== activeDictionary) {
+      var topics = {};
+      activeDictionary.forEach(function (entry) { topics[entry.situacion] = true; });
+      topicsCache = { dictionary: activeDictionary, topics: Object.keys(topics) };
+    }
+    return topicsCache.topics;
+  }
+
+  function hasWordInEveryTopic() {
+    var topics = dictionaryTopics();
+    if (topics.length === 0) return false;
+    var seen = {};
+    learnedWords().forEach(function (id) {
+      var entry = entryById.get(id);
+      if (entry) seen[entry.situacion] = true;
+    });
+    return topics.every(function (topic) { return seen[topic]; });
+  }
+
+  function checkAchievements() {
+    if (typeof SINONIMIA_ACHIEVEMENTS === "undefined") return;
+    SINONIMIA_ACHIEVEMENTS.syncFromStorage();
+    if (!SINONIMIA_ACHIEVEMENTS.unlocked().allTopics && hasWordInEveryTopic()) {
+      SINONIMIA_ACHIEVEMENTS.achieve("allTopics");
+    }
+  }
+
+  // Game answers right on the first try, in a row, across rounds of both
+  // games. Kept in memory only: a miss just restarts the count quietly.
+  var firstTryStreak = 0;
+
+  function registerGameAnswer(firstTry) {
+    firstTryStreak = firstTry ? firstTryStreak + 1 : 0;
+    if (firstTryStreak >= 3 && typeof SINONIMIA_ACHIEVEMENTS !== "undefined") {
+      SINONIMIA_ACHIEVEMENTS.achieve("streak3");
+    }
   }
 
   function markLearned(id) {
@@ -945,6 +992,7 @@
   function addPoint() {
     var total = savedScore() + 1;
     localStorage.setItem(scoreKey(), String(total));
+    checkAchievements();
     return total;
   }
 
@@ -1120,6 +1168,7 @@
     message.setAttribute("aria-live", "polite");
 
     var optionList = shuffle([target].concat(pickDistractorEntries(target, 2)));
+    var missedThisRound = false;
 
     optionList.forEach(function (option) {
       var btn = document.createElement("button");
@@ -1140,6 +1189,7 @@
           playSuiteSound("success");
           scoreEl.textContent = t("gameScore", { n: addPoint() });
           markScoreEarned(scoreEl);
+          registerGameAnswer(!missedThisRound);
 
           var nextBtn = document.createElement("button");
           nextBtn.type = "button";
@@ -1151,6 +1201,7 @@
         } else {
           btn.classList.add("incorrecta");
           btn.disabled = true;
+          missedThisRound = true;
           message.textContent = t("wordGameIncorrect");
           message.className = "juego-mensaje juego-mensaje-incorrecto";
           playSuiteSound("error");
@@ -1241,6 +1292,7 @@
         return e.example.word;
       });
       var optionList = shuffle([correctWord].concat(distractors));
+      var missedThisRound = false;
 
       optionList.forEach(function (optionWord) {
         var btn = document.createElement("button");
@@ -1263,6 +1315,7 @@
             playSuiteSound("success");
             scoreEl.textContent = t("gameScore", { n: addPoint() });
             markScoreEarned(scoreEl);
+            registerGameAnswer(!missedThisRound);
 
             var nextBtn = document.createElement("button");
             nextBtn.type = "button";
@@ -1274,6 +1327,7 @@
           } else {
             btn.classList.add("incorrecta");
             btn.disabled = true;
+            missedThisRound = true;
             message.textContent = t("sentenceGameIncorrect");
             message.className = "juego-mensaje juego-mensaje-incorrecto";
             playSuiteSound("error");

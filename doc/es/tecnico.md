@@ -368,6 +368,14 @@ se implementan en `js/app.js` mediante `renderGameMenu`, `renderWordGame` y
 especiales por idioma. Las reglas de producto que limitan cualquier juego
 nuevo estÃ¡n en [`SPEC.md`](SPEC.md).
 
+Logros: `js/achievements.js` tiene el catálogo (seis logros), la clave
+`sinonimia-logros` (`{ id: marca de tiempo }`) y la rejilla de insignias.
+`js/app.js` los desbloquea en cada evento de progreso (`checkAchievements`,
+`registerGameAnswer`); casi todos se deducen del progreso ya guardado, así
+que cuentan también el progreso anterior. Se muestran en `about-app/`
+("Sobre la app"), enlazada en el pie justo antes de "Configuración". Nunca
+se quitan; "Borrar mis datos" los borra con el resto del prefijo `sinonimia-`.
+
 ## 10. ValidaciÃ³n
 
 Ejecutar `node scripts/check.js` en local y en CI
