@@ -201,10 +201,21 @@ function build(dictionaries) {
   manifest.images = Array.from(imageIds).sort(function (a, b) { return a - b; });
   manifest.images.forEach(function (id) {
     const file = path.join(ROOT, "img", id + ".png");
-    if (fs.existsSync(file)) manifest.imagesBytes += fs.statSync(file).size;
+    if (fs.existsSync(file)) manifest.imagesBytes += imageBytes(file);
   });
 
   return { files: files, manifestSource: renderManifest(manifest), manifest: manifest };
+}
+
+// Real size of a pictogram. A checkout without Git LFS (CI) holds a small
+// pointer file instead of the PNG; its "size" line is the real size, so the
+// generated manifest is the same with or without LFS.
+function imageBytes(file) {
+  const size = fs.statSync(file).size;
+  if (size > 1024) return size;
+  const pointer = fs.readFileSync(file, "utf8");
+  const match = /^version https:\/\/git-lfs\.github\.com\/spec\/v1\r?\n[\s\S]*^size (\d+)$/m.exec(pointer);
+  return match ? Number(match[1]) : size;
 }
 
 function renderManifest(manifest) {

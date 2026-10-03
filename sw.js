@@ -26,7 +26,7 @@
    ============================================================ */
 importScripts('./js/dictionary-data.js');
 
-var VERSION = 'sinonimia-v216';
+var VERSION = 'sinonimia-v217';
 
 var FILES = [
   './',
@@ -44,6 +44,7 @@ var FILES = [
   './js/dictionary-loader.js',
   './js/bootstrap-i18n.js',
   './js/app.js',
+  './js/achievements.js',
   './img/logo.svg',
   './about/index.html',
   './about/about.js',
@@ -51,7 +52,9 @@ var FILES = [
   './legal/privacidad.html',
   './team/index.html',
   './config/index.html',
-  './config/config.js'
+  './config/config.js',
+  './about-app/index.html',
+  './about-app/about-app.js'
 ];
 
 var CACHE_NAME = 'sinonimia-' + VERSION;

@@ -516,6 +516,14 @@ special-case a language. `SPEC.md` documents the rules that constrain
 any future gamification (never hide content behind an interaction, never
 make a game punitive) — read it before adding a third game.
 
+Achievements: `js/achievements.js` holds the catalog (six achievements), the
+`sinonimia-logros` key (`{ id: timestamp }`) and the badge grid. `js/app.js`
+unlocks them at every progress event (`checkAchievements`,
+`registerGameAnswer`); most are derived from progress already saved, so
+earlier progress counts too. They are shown on `about-app/` ("About the
+app"), linked from the footer right before "Settings". They are never taken
+away; "Clear my data" erases them with the rest of the `sinonimia-` prefix.
+
 ## Validation (`scripts/check.js`)
 
 Zero-dependency Node script, run locally and in CI
