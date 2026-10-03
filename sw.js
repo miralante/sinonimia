@@ -26,7 +26,7 @@
    ============================================================ */
 importScripts('./js/dictionary-data.js');
 
-var VERSION = 'sinonimia-v226';
+var VERSION = 'sinonimia-v236';
 
 var FILES = [
   './',
@@ -40,6 +40,12 @@ var FILES = [
   './js/locale-picker-config.js',
   './js/locale-picker.js',
   './js/sw-register.js',
+  /* External scripts that used to be inline <script> blocks. The CSP is
+     `script-src 'self'`, so they must stay external: team-page-lang (the
+     whole translation pass on team/) and notfound-page (the 404 page's
+     language, font-size and contrast controls). */
+  './js/team-page-lang.js',
+  './js/notfound-page.js',
   './js/dictionary-data.js',
   './js/dictionary-loader.js',
   './js/bootstrap-i18n.js',

@@ -125,14 +125,17 @@ test('1 — home loads with word list and search', async ({ browser }) => {
 test('1b — first visit renders the word of the day and progress data', async ({ browser }) => {
   const page = await openAppAtListView(browser);
 
-  // These two values are populated during the synchronous application boot.
+  // These values are populated during the synchronous application boot.
   // Checking them separately from the word list catches a broken first paint
   // even when the chunked list renderer eventually produces cards.
   await expect(page.locator('#hero-word-name')).not.toHaveText('—');
   await expect(page.locator('#hero-word-name')).not.toHaveText('');
-  await expect(page.locator('#progress-text')).not.toHaveText(/^\s*0\s*$/);
-  await expect(page.locator('#progress-text')).not.toHaveText('');
-  await expect(page.locator('#progress-bar')).toHaveAttribute('aria-valuenow', '0');
+
+  // The hero shows two counters, not a single "x/y" bar: how many words the
+  // visitor has saved, and how many the dictionary holds.
+  await expect(page.locator('#stat-descubiertas')).toHaveText('0');
+  await expect(page.locator('#stat-diccionario')).toHaveText(/\d/);
+  await expect(page.locator('#stat-diccionario')).not.toHaveText('0');
 
   await page.close();
   await _lastCtx.close();
@@ -506,99 +509,225 @@ test('16 — sentence game correct answer shows feedback', async ({ browser }) =
 
 // ===========================================================================
 // ACCESSIBILITY CONTROLS
+//
+// Text size, theme and high contrast live in the shared settings drawer
+// (js/locale-picker.js) — the same ⚙️ the other 7 suite apps use. The app
+// no longer paints its own A−/A/A+ buttons or its own "Alto contraste"
+// toggle: two paths to the same setting meant two different themes.
 // ===========================================================================
 
-test('17 — font size increase button changes the root font size', async ({ browser }) => {
+/** Open the shared settings drawer from the header gear. */
+async function openSettingsDrawer(page) {
+  const trigger = page.locator('.locale-settings-trigger');
+  await expect(trigger).toBeVisible();
+  await trigger.click();
+  const drawer = page.locator('#accessibility-settings');
+  await expect(drawer).toBeVisible();
+  return drawer;
+}
+
+/** Root font size in px, as painted (not the inline style string). */
+function rootFontSize(page) {
+  return page.evaluate(() =>
+    parseFloat(getComputedStyle(document.documentElement).fontSize));
+}
+
+/** What the drawer has persisted, under the shared accessibility key. */
+function savedSettings(page) {
+  return page.evaluate(() =>
+    JSON.parse(localStorage.getItem('sinonimia-idioma:accessibility') || 'null'));
+}
+
+test('17a — the header exposes one settings control, not duplicated ones', async ({ browser }) => {
   const page = await openAppAtListView(browser);
   await expect(page.locator('body')).toBeVisible();
 
-  const beforeSize = await page.evaluate(() =>
-    parseInt(document.documentElement.style.fontSize || '18', 10));
+  // Exactly one gear in the header, and the language picker lives in the
+  // drawer (the header copy is emptied on purpose).
+  await expect(page.locator('.locale-settings-trigger')).toHaveCount(1);
+  await expect(page.locator('#locale-picker')).toHaveAttribute('data-empty', 'true');
+  await expect(page.locator('#locale-picker .locale-picker-btn')).toHaveCount(0);
 
-  await page.locator('#letra-mas').click();
-  await page.waitForTimeout(SETTLE_MS);
-
-  const afterSize = await page.evaluate(() =>
-    parseInt(document.documentElement.style.fontSize || '18', 10));
-  expect(afterSize).toBeGreaterThan(beforeSize);
+  // The old per-app controls must be gone for good: they wrote the same
+  // font-size and the same theme by a second route.
+  await expect(page.locator('#letra-mas')).toHaveCount(0);
+  await expect(page.locator('#letra-menos')).toHaveCount(0);
+  await expect(page.locator('#letra-normal')).toHaveCount(0);
+  await expect(page.locator('#contraste-toggle')).toHaveCount(0);
+  await expect(page.locator('body.alto-contraste')).toHaveCount(0);
 });
 
-test('18 — font size decrease button changes the root font size', async ({ browser }) => {
+test('17b — "large" text size in the drawer enlarges the root font size', async ({ browser }) => {
   const page = await openAppAtListView(browser);
   await expect(page.locator('body')).toBeVisible();
 
-  // Increase twice, then decrease once.
-  await page.locator('#letra-mas').click();
-  await page.locator('#letra-mas').click();
+  const before = await rootFontSize(page);
+  const drawer = await openSettingsDrawer(page);
+  await drawer.locator('[data-settings-size="large"]').click();
   await page.waitForTimeout(SETTLE_MS);
 
-  const beforeSize = await page.evaluate(() =>
-    parseInt(document.documentElement.style.fontSize || '18', 10));
-
-  await page.locator('#letra-menos').click();
-  await page.waitForTimeout(SETTLE_MS);
-
-  const afterSize = await page.evaluate(() =>
-    parseInt(document.documentElement.style.fontSize || '18', 10));
-  expect(afterSize).toBeLessThan(beforeSize);
+  expect(await rootFontSize(page)).toBeGreaterThan(before);
+  expect(await page.evaluate(() =>
+    document.documentElement.getAttribute('data-a11y-text'))).toBe('large');
+  await expect(drawer.locator('[data-settings-size="large"]'))
+    .toHaveAttribute('aria-pressed', 'true');
+  expect((await savedSettings(page)).textSize).toBe('large');
 });
 
-test('19 — normal font size button restores 18px', async ({ browser }) => {
+test('17c — "small" text size in the drawer shrinks the root font size', async ({ browser }) => {
   const page = await openAppAtListView(browser);
   await expect(page.locator('body')).toBeVisible();
 
-  // Increase twice.
-  await page.locator('#letra-mas').click();
-  await page.locator('#letra-mas').click();
+  const before = await rootFontSize(page);
+  const drawer = await openSettingsDrawer(page);
+  await drawer.locator('[data-settings-size="small"]').click();
   await page.waitForTimeout(SETTLE_MS);
 
-  // Click "normal" button.
-  await page.locator('#letra-normal').click();
-  await page.waitForTimeout(SETTLE_MS);
-
-  const size = await page.evaluate(() =>
-    parseInt(document.documentElement.style.fontSize || '18', 10));
-  expect(size).toBe(18);
+  expect(await rootFontSize(page)).toBeLessThan(before);
+  expect(await page.evaluate(() =>
+    document.documentElement.getAttribute('data-a11y-text'))).toBe('small');
+  expect((await savedSettings(page)).textSize).toBe('small');
 });
 
-test('20 — high contrast toggle updates the body class', async ({ browser }) => {
+test('17d — "normal" text size returns to the default', async ({ browser }) => {
   const page = await openAppAtListView(browser);
   await expect(page.locator('body')).toBeVisible();
 
-  const toggle = page.locator('#contraste-toggle');
-  const hasHighContrast = async () =>
-    await page.evaluate(() => document.body.classList.contains('alto-contraste'));
-
-  // Toggle on.
-  await toggle.click();
+  const normal = await rootFontSize(page);
+  const drawer = await openSettingsDrawer(page);
+  await drawer.locator('[data-settings-size="large"]').click();
   await page.waitForTimeout(SETTLE_MS);
-  expect(await hasHighContrast()).toBe(true);
-
-  // Toggle off.
-  await toggle.click();
+  await drawer.locator('[data-settings-size="normal"]').click();
   await page.waitForTimeout(SETTLE_MS);
-  expect(await hasHighContrast()).toBe(false);
+
+  expect(await rootFontSize(page)).toBeCloseTo(normal, 1);
+  expect(await page.evaluate(() =>
+    document.documentElement.getAttribute('data-a11y-text'))).toBe('normal');
+});
+
+test('17e — high contrast in the drawer switches the page to the contrast theme', async ({ browser }) => {
+  const page = await openAppAtListView(browser);
+  await expect(page.locator('body')).toBeVisible();
+
+  const drawer = await openSettingsDrawer(page);
+  const contrast = drawer.locator('[data-settings-contrast]');
+
+  // On: the suite's contrast theme, and the flag that paints the
+  // high-contrast palette. No body class of our own any more.
+  await contrast.check();
+  await page.waitForTimeout(SETTLE_MS);
+  expect(await page.evaluate(() =>
+    document.documentElement.getAttribute('data-theme'))).toBe('contrast');
+  expect(await page.evaluate(() =>
+    document.documentElement.getAttribute('data-a11y-contrast'))).toBe('high');
+  expect(await page.evaluate(() => document.body.classList.contains('alto-contraste')))
+    .toBe(false);
+  expect((await savedSettings(page)).contrast).toBe(true);
+
+  // Off: back to "auto", which means no data-theme at all so that
+  // prefers-color-scheme decides.
+  await contrast.uncheck();
+  await page.waitForTimeout(SETTLE_MS);
+  expect(await page.evaluate(() =>
+    document.documentElement.hasAttribute('data-theme'))).toBe(false);
+  expect(await page.evaluate(() =>
+    document.documentElement.getAttribute('data-a11y-contrast'))).toBe('normal');
+});
+
+test('17f — picking a concrete theme turns high contrast off instead of fighting it', async ({ browser }) => {
+  const page = await openAppAtListView(browser);
+  await expect(page.locator('body')).toBeVisible();
+
+  const drawer = await openSettingsDrawer(page);
+  await drawer.locator('[data-settings-contrast]').check();
+  await page.waitForTimeout(SETTLE_MS);
+
+  await drawer.locator('[data-settings-theme="dark"]').click();
+  await page.waitForTimeout(SETTLE_MS);
+
+  expect(await page.evaluate(() =>
+    document.documentElement.getAttribute('data-theme'))).toBe('dark');
+  expect(await page.evaluate(() =>
+    document.documentElement.getAttribute('data-a11y-contrast'))).toBe('normal');
+  await expect(drawer.locator('[data-settings-contrast]')).not.toBeChecked();
+  await expect(drawer.locator('[data-settings-theme="dark"]'))
+    .toHaveAttribute('aria-pressed', 'true');
+});
+
+test('17g — the reading settings survive a reload', async ({ browser }) => {
+  const page = await openAppAtListView(browser);
+  await expect(page.locator('body')).toBeVisible();
+
+  const drawer = await openSettingsDrawer(page);
+  await drawer.locator('[data-settings-size="large"]').click();
+  await drawer.locator('[data-settings-contrast]').check();
+  await page.waitForTimeout(SETTLE_MS);
+
+  await page.reload();
+  await expect(page.locator('body')).toBeVisible();
+
+  expect(await page.evaluate(() =>
+    document.documentElement.getAttribute('data-theme'))).toBe('contrast');
+  expect(await page.evaluate(() =>
+    document.documentElement.getAttribute('data-a11y-text'))).toBe('large');
+});
+
+test('17h — the 404 page uses the same settings drawer and repaints in place', async ({ browser }) => {
+  const context = await browser.newContext();
+  _lastCtx = context;
+  const page = await context.newPage();
+  await page.goto(BASE + '404.html');
+  await expect(page.locator('body')).toBeVisible();
+
+  // Same single gear as the app, and no leftover per-page controls.
+  await expect(page.locator('.locale-settings-trigger')).toHaveCount(1);
+  await expect(page.locator('#contraste-toggle')).toHaveCount(0);
+  await expect(page.locator('#letra-mas')).toHaveCount(0);
+
+  // The Playwright context runs es-ES, so the page starts in Spanish.
+  await expect(page.locator('.error-404-encabezado'))
+    .toHaveText('No hemos encontrado esa página');
+
+  const drawer = await openSettingsDrawer(page);
+  // The language picker lives inside the drawer, as everywhere else.
+  await drawer.locator('.locale-picker-btn').click();
+  await drawer.locator('.locale-picker-panel li[data-locale="en"]').click();
+
+  // The 404 has no hash to route, so the page repaints where it is
+  // instead of jumping into the app.
+  await expect(page.locator('.error-404-encabezado'))
+    .toHaveText('We couldn\'t find that page');
+  expect(await page.evaluate(() => location.hash)).toBe('');
+  expect(await page.evaluate(() => document.documentElement.lang)).toBe('en');
+  await expect(page.locator('#error-404-inicio'))
+    .toHaveAttribute('href', '#/en/');
+
+  // And the reading settings work here too, from the same key. The drawer
+  // is still open from the language switch, and its backdrop covers the
+  // page, so talk to it directly instead of clicking the gear again.
+  await page.locator('[data-settings-contrast]').check();
+  expect(await page.evaluate(() =>
+    document.documentElement.getAttribute('data-theme'))).toBe('contrast');
 });
 
 // ===========================================================================
 // PROGRESS BAR
 // ===========================================================================
 
-test('21 — progress bar shows a numeric value in the header', async ({ browser }) => {
+test('21 — the saved-words counter shows a number after saving words', async ({ browser }) => {
   const context = await browser.newContext();
   const page = await context.newPage();
-  // Pre-populate learned words so the progress bar shows a number, not "none discovered".
+  // Pre-populate learned words so the counter shows a number, not zero.
   await page.addInitScript(() => {
     localStorage.setItem('sinonimia-aprendidas-es', JSON.stringify([1, 2, 3]));
   });
   await page.goto(BASE);
   await page.waitForTimeout(SETTLE_MS);
 
-  const progressEl = page.locator('#progress-bar');
-  await expect(progressEl).toBeVisible();
-  const text = await page.locator('#progress-text').textContent();
-  // Must contain at least one digit (the fraction seen so far, e.g. "3/69096").
-  expect(text.trim()).toMatch(/\d/);
+  const counter = page.locator('#stat-descubiertas');
+  await expect(counter).toBeVisible();
+  // Must contain at least one digit (the count of words saved so far).
+  expect((await counter.textContent()).trim()).toMatch(/\d/);
   await context.close();
 });
 
@@ -635,8 +764,10 @@ test('22b — unsupported browser language falls back to English', async ({ brow
   try {
     await page.addInitScript(() => localStorage.clear());
     await page.goto(BASE);
-    await page.waitForSelector('#locale-picker', { state: 'attached' });
-    await page.waitForSelector('.locale-picker-current', { state: 'visible' });
+    // The language indicator is not in the header any more: the picker
+    // lives inside the settings drawer, so open it to read it.
+    await page.locator('.locale-settings-trigger').click();
+    await expect(page.locator('#accessibility-settings')).toBeVisible();
     expect(await page.locator('.locale-picker-current').textContent()).toBe('EN');
     expect((await page.locator('html').getAttribute('lang') || '').slice(0, 2)).toBe('en');
   } finally {

@@ -10,7 +10,7 @@
 module.exports = {
   tramites: { id: 21802, alt: "Documento" },
   salud: { id: 2467, alt: "Médico, doctor" },
-  "vida-diaria": { id: 8717, alt: "Vida" },
+  "vida-diaria": { id: 7024, alt: "Una palabra del diccionario" },
   finanzas: { id: 4630, alt: "Dinero" },
   vivienda: { id: 2317, alt: "Casa" },
   trabajo: { id: 11457, alt: "Mercado laboral, empleo" },

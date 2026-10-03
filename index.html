@@ -170,8 +170,8 @@
 <link rel="icon" type="image/svg+xml" href="img/logo.svg">
 <link rel="apple-touch-icon" href="img/logo.svg">
 <meta name="application-name" content="Sinonimia">
-<link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="css/locale-picker.css?v=sinonimia-v1">
+<link rel="stylesheet" href="css/styles.css?v=sinonimia-v4">
+<link rel="stylesheet" href="css/locale-picker.css?v=sinonimia-v2d">
 <link rel="manifest" href="./manifest.json">
 </head>
 <body>
@@ -186,18 +186,13 @@
     <p class="tagline" data-i18n="tagline">Palabras difíciles, explicadas fácil</p>
   </div>
 
-  <div class="a11y-barra" role="toolbar" aria-label="Herramientas de accesibilidad">
+  <!-- Controles de la suite: un solo botón ⚙️. js/locale-picker.js lo
+       inserta aquí y mete el selector de idioma en su cajón de ajustes,
+       junto con el tema, el tamaño de letra y el alto contraste. Igual
+       que en las otras 7 apps: nada de controles duplicados en la
+       cabecera que peleen con los del cajón por el mismo ajuste. -->
+  <div class="cabecera-controles">
     <div id="locale-picker"></div>
-
-    <span class="a11y-etiqueta" id="tamano-label" data-i18n="fontSize">Tamaño de letra</span>
-    <div class="a11y-grupo" role="group" aria-labelledby="tamano-label">
-      <button type="button" id="letra-menos" data-i18n-aria-label="decreaseFontSize" aria-label="Reducir tamaño de letra">A−</button>
-      <button type="button" id="letra-normal" data-i18n-aria-label="normalFontSize" aria-label="Tamaño de letra normal">A</button>
-      <button type="button" id="letra-mas" data-i18n-aria-label="increaseFontSize" aria-label="Aumentar tamaño de letra">A+</button>
-    </div>
-    <button type="button" id="contraste-toggle" class="a11y-contraste" aria-pressed="false" data-i18n="highContrast">
-      Alto contraste
-    </button>
   </div>
 </header>
 
@@ -301,7 +296,7 @@
 <!-- Locale picker config (must run BEFORE js/locale-picker.js). Kept as an
      external file, not inline, so the CSP `script-src 'self'` allows it. -->
 <script src="js/locale-picker-config.js"></script>
-<script src="js/locale-picker.js?v=sinonimia-v2" defer></script>
+<script src="js/locale-picker.js?v=sinonimia-v4" defer></script>
 <!-- Service-worker registration. Kept as an external file, not inline, so
      the CSP `script-src 'self'` allows it. -->
 <script src="js/sw-register.js"></script>

@@ -45,40 +45,56 @@
   }
 
   // --- Wire up the two-step confirmation -------------------------------
-  var btnIniciar = document.getElementById("erase-iniciar");
-  var btnConfirmar = document.getElementById("erase-confirm-btn");
-  var btnCancelar = document.getElementById("erase-cancel");
+  var btnIniciar = document.querySelectorAll("#erase-iniciar");
+  var btnConfirmar = document.querySelectorAll("#erase-confirm-btn");
+  var btnCancelar = document.querySelectorAll("#erase-cancel");
   var panelConfirmar = document.getElementById("erase-confirm");
   var panelResultado = document.getElementById("erase-resultado");
 
   // Defensive: if any element is missing (older markup, partial fetch,
   // CSS-only page preview), the script just no-ops rather than throwing.
-  if (!btnIniciar || !btnConfirmar || !btnCancelar ||
+  if (!btnIniciar.length || !btnConfirmar.length || !btnCancelar.length ||
       !panelConfirmar || !panelResultado) {
     return;
   }
 
-  btnIniciar.addEventListener("click", function () {
-    panelConfirmar.hidden = false;
-    btnIniciar.hidden = true;
-    // Move focus to the cancel button so the user can back out with the
-    // keyboard without first tabbing through the now-hidden trigger.
-    btnCancelar.focus();
+  function setHidden(buttons, hidden) {
+    Array.prototype.forEach.call(buttons, function (button) { button.hidden = hidden; });
+  }
+
+  function focusVisible(buttons) {
+    var target = Array.prototype.find.call(buttons, function (button) {
+      return button.getClientRects().length > 0;
+    }) || buttons[0];
+    target.focus();
+  }
+
+  Array.prototype.forEach.call(btnIniciar, function (button) {
+    button.addEventListener("click", function () {
+      panelConfirmar.hidden = false;
+      setHidden(btnIniciar, true);
+      // Move focus to the visible cancel button so a keyboard user can back out.
+      focusVisible(btnCancelar);
+    });
   });
 
-  btnCancelar.addEventListener("click", function () {
-    panelConfirmar.hidden = true;
-    btnIniciar.hidden = false;
-    btnIniciar.focus();
+  Array.prototype.forEach.call(btnCancelar, function (button) {
+    button.addEventListener("click", function () {
+      panelConfirmar.hidden = true;
+      setHidden(btnIniciar, false);
+      focusVisible(btnIniciar);
+    });
   });
 
-  btnConfirmar.addEventListener("click", function () {
-    var erased = clearAll();
-    panelConfirmar.hidden = true;
-    panelResultado.hidden = false;
-    // The dev console is the only place the count is logged. End users
-    // see a plain "Done. / Listo." — no numbers, no key names, no
-    // technical detail that would need translation or maintenance.
-    console.info("[sinonimia] erased " + erased + " localStorage key(s)");
+  Array.prototype.forEach.call(btnConfirmar, function (button) {
+    button.addEventListener("click", function () {
+      var erased = clearAll();
+      panelConfirmar.hidden = true;
+      panelResultado.hidden = false;
+      // The dev console is the only place the count is logged. End users
+      // see a plain "Done. / Listo." — no numbers, no key names, no
+      // technical detail that would need translation or maintenance.
+      console.info("[sinonimia] erased " + erased + " localStorage key(s)");
+    });
   });
 })();

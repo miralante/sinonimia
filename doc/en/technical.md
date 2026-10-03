@@ -490,7 +490,7 @@ instead:
 | --- | --- | --- |
 | `tramites` | 21802 | documento |
 | `salud` | 2467 | médico, doctor |
-| `vida-diaria` | 8717 | vida |
+| `vida-diaria` | 7024 | diccionario |
 | `finanzas` | 4630 | dinero |
 | `vivienda` | 2317 | casa |
 | `trabajo` | 11457 | mercado laboral, empleo |
@@ -558,12 +558,17 @@ invariants that format relies on, in executable form.
 
 ## Accessibility
 
-Font-size stepper and a high-contrast toggle are implemented with CSS
-custom properties on `:root`, overridden by a `body.alto-contraste` class —
-not by duplicating rules per theme. Both preferences persist in
-`localStorage`. Dynamic UI regions (`#resultados-info`, the "your sentence
-saved" notice, game feedback) use `aria-live="polite"`; focus is moved to
-the new view's heading on every navigation (`h2.focus()`).
+Text size, theme and high contrast are not implemented in the app: they are
+painted by the shared settings drawer (`js/locale-picker.js`, the ⚙️ in the
+header, same component as the other 7 suite apps), which writes
+`data-a11y-text`, `data-theme` and `<html>`'s `font-size` and persists
+everything under `sinonimia-idioma:accessibility`. High contrast is a third
+theme (`data-theme="contrast"`), not a class of its own — so the app must not
+add its own text-size or contrast buttons next to the gear, because two paths
+to the same setting end up producing two different themes. Dynamic UI regions
+(`#resultados-info`, the "your sentence saved" notice, game feedback) use
+`aria-live="polite"`; focus is moved to the new view's heading on every
+navigation (`h2.focus()`).
 
 ## Hidden routes
 

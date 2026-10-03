@@ -830,43 +830,13 @@
 
   window.addEventListener("hashchange", route);
 
-  // --- Accessibility: font size ---
-  var MIN_FONT_SIZE = 15, MAX_FONT_SIZE = 26, FONT_SIZE_STEP = 2;
-
-  function applyFontSize(px) {
-    document.documentElement.style.fontSize = px + "px";
-    localStorage.setItem("sinonimia-tamano", px);
-  }
-
-  function currentFontSize() {
-    var raw = parseInt(localStorage.getItem("sinonimia-tamano"), 10);
-    return isNaN(raw) ? 18 : raw;
-  }
-
-  document.getElementById("letra-mas").addEventListener("click", function () {
-    applyFontSize(Math.min(MAX_FONT_SIZE, currentFontSize() + FONT_SIZE_STEP));
-  });
-  document.getElementById("letra-menos").addEventListener("click", function () {
-    applyFontSize(Math.max(MIN_FONT_SIZE, currentFontSize() - FONT_SIZE_STEP));
-  });
-  document.getElementById("letra-normal").addEventListener("click", function () {
-    applyFontSize(18);
-  });
-  applyFontSize(currentFontSize());
-
-  // --- Accessibility: high contrast ---
-  var contrastBtn = document.getElementById("contraste-toggle");
-
-  function applyContrast(active) {
-    document.body.classList.toggle("alto-contraste", active);
-    contrastBtn.setAttribute("aria-pressed", active ? "true" : "false");
-    localStorage.setItem("sinonimia-contraste", active ? "1" : "0");
-  }
-
-  contrastBtn.addEventListener("click", function () {
-    applyContrast(!document.body.classList.contains("alto-contraste"));
-  });
-  applyContrast(localStorage.getItem("sinonimia-contraste") === "1");
+  // --- Accessibility ---
+  // El tamaño de letra, el tema y el alto contraste NO se controlan
+  // aquí: los lleva el cajón de ajustes compartido (js/locale-picker.js),
+  // que escribe data-a11y-text, data-theme y el font-size de <html>.
+  // Este bloque ponía el mismo font-size y un body.alto-contraste
+  // propio en su propia clave, y los dos pelearon por el mismo ajuste:
+  // la cabecera y el cajón llegaban a temas distintos.
 
   // --- Progress: discovered words (this browser only, per language) ---
   // Shown as two independent counters (discovered / in the dictionary),

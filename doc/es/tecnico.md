@@ -1,17 +1,17 @@
-﻿# Sinonimia - Arquitectura tÃ©cnica
+﻿# Sinonimia - Arquitectura técnica
 
-> Esta es la referencia para desarrollar y mantener el cÃ³digo de Sinonimia.
-> Para saber quÃ© es el producto, para quiÃ©n es y quÃ© reglas debe cumplir el
-> contenido, consulta [`SPEC.md`](SPEC.md). Para aÃ±adir idiomas, consulta
+> Esta es la referencia para desarrollar y mantener el código de Sinonimia.
+> Para saber qué es el producto, para quién es y qué reglas debe cumplir el
+> contenido, consulta [`SPEC.md`](SPEC.md). Para añadir idiomas, consulta
 > [`idiomas.md`](idiomas.md).
 
-## 1. PolÃ­tica de idioma del cÃ³digo
+## 1. Política de idioma del código
 
-- El lenguaje tÃ©cnico es siempre **inglÃ©s**: identificadores, comentarios,
-  documentaciÃ³n de ingenierÃ­a y mensajes de commit.
+- El lenguaje técnico es siempre **inglés**: identificadores, comentarios,
+  documentación de ingeniería y mensajes de commit.
 - El producto visible y el contenido del diccionario se escriben en el idioma
-  correspondiente: espaÃ±ol, inglÃ©s o el que se aÃ±ada.
-- Las claves de `I18N` son identificadores tÃ©cnicos en inglÃ©s; sus valores son
+  correspondiente: español, inglés o el que se añada.
+- Las claves de `I18N` son identificadores técnicos en inglés; sus valores son
   los textos traducidos.
 
 ### 1.1 Identificadores que son contratos y no deben renombrarse
@@ -52,11 +52,11 @@ Estos nombres en español se mantienen deliberadamente:
 Todo lo demás debe seguir la convención técnica en inglés. Si se cambia uno de
 estos contratos, hay que actualizar todos sus consumidores en el mismo cambio.
 
-## 2. Forma del proyecto y ejecuciÃ³n
+## 2. Forma del proyecto y ejecución
 
-Sinonimia es un sitio estÃ¡tico, sin frameworks, bundler, build ni dependencias
+Sinonimia es un sitio estático, sin frameworks, bundler, build ni dependencias
 de runtime. Se puede abrir `index.html` directamente o servir el directorio
-con cualquier servidor estÃ¡tico. Todo el estado de la aplicaciÃ³n vive en el
+con cualquier servidor estático. Todo el estado de la aplicación vive en el
 navegador.
 
 ```text
@@ -71,31 +71,31 @@ js/dict.<idioma>.det.<kkk>.js fragmentos de DETALLE GENERADOS (ejemplos, alt, en
 js/dictionary-data.js    manifiesto de ejecución GENERADO con el ?v= de cada dict.*
 js/dictionary-loader.js  cargador: SinonimiaDictionary.loadIndex / loadDetail
 scripts/build-dictionary-data.js  regenera js/dict.* y js/dictionary-data.js
-js/app.js           router, renderizado y estado de la aplicaciÃ³n
-js/bootstrap-i18n.js textos mÃ­nimos para evitar flash de idioma
+js/app.js           router, renderizado y estado de la aplicación
+js/bootstrap-i18n.js textos mínimos para evitar flash de idioma
 img/<id>.png        pictogramas servidos localmente
-scripts/check.js  validaciÃ³n local y de CI
+scripts/check.js  validación local y de CI
 ```
 
 El orden de carga de los archivos de datos debe preceder a `js/app.js`. No hay
 runtime de servidor, endpoints ni secretos en el navegador. `OPENSYMBOLS_SECRET`
-solo se usa desde el entorno de quien busca pictogramas durante la ediciÃ³n.
+solo se usa desde el entorno de quien busca pictogramas durante la edición.
 
-## 3. Despliegue y cachÃ©
+## 3. Despliegue y caché
 
 ### 3.1 Cloudflare Pages
 
 El sitio se despliega en **Cloudflare Pages**, no en Workers:
 
-- Pages publica el repositorio tal cual, sin compilaciÃ³n, bundler, Functions ni
+- Pages publica el repositorio tal cual, sin compilación, bundler, Functions ni
   edge handlers.
 - `_headers` define CSP, `X-Frame-Options`, `Referrer-Policy`,
-  `Permissions-Policy` y cabeceras `Cross-Origin-*`, ademÃ¡s de la cachÃ©.
+  `Permissions-Policy` y cabeceras `Cross-Origin-*`, además de la caché.
 - `wrangler.toml` fija el proyecto `sinonimia` y publica `.`. El comando
   manual es `wrangler pages deploy . --project-name=sinonimia`; `wrangler
   deploy` no es el comando correcto para Pages.
 
-### 3.2 CachÃ© inmutable
+### 3.2 Caché inmutable
 
 `js/dict.*`, `js/data.*`, `css/*` e `img/*` tienen una caché de un año e
 `immutable`. El manifiesto `js/dictionary-data.js` contiene cada fichero
@@ -155,19 +155,19 @@ alguno de esos archivos.
 Ver [`CLOUDFLARE.md`](../../CLOUDFLARE.md) §"Cache contract" para el
 contrato de despliegue completo, y [`CLAUDE.md`](../../CLAUDE.md) §B.1
 (ya no) — esta sección del `tecnico.md` es la fuente canónica.
-## TipografÃ­a
+## Tipografía
 
-La interfaz usa dos tipografÃ­as autoalojadas en `css/fonts/`:
+La interfaz usa dos tipografías autoalojadas en `css/fonts/`:
 
-- **Atkinson Hyperlegible** (pesos 400 y 700) â€” para zonas de alto contraste
-  y etiquetas cortas, elegida por la desambiguaciÃ³n de letras que ayuda a
-  personas con baja visiÃ³n.
-- **Nunito** (variable, rango de peso 400â€“900) â€” para cuerpo de texto y
-  flujos de lectura, por el tono humanista cÃ¡lido que mantiene los textos
+- **Atkinson Hyperlegible** (pesos 400 y 700) — para zonas de alto contraste
+  y etiquetas cortas, elegida por la desambiguación de letras que ayuda a
+  personas con baja visión.
+- **Nunito** (variable, rango de peso 400–900) — para cuerpo de texto y
+  flujos de lectura, por el tono humanista cálido que mantiene los textos
   largos en un registro cercano.
 
 Ambas fuentes tienen licencia SIL OFL 1.1 y se distribuyen como `.woff2` en
-`css/fonts/`. La CSS las expone a travÃ©s de la variable `--fuente`, definida
+`css/fonts/`. La CSS las expone a través de la variable `--fuente`, definida
 en `:root` con la pila
 `'Atkinson Hyperlegible', 'Nunito', "Segoe UI", Verdana, Arial, sans-serif`
 y aplicada en `body` (y en la vista `about/privacidad.html`) con
@@ -175,38 +175,43 @@ y aplicada en `body` (y en la vista `about/privacidad.html`) con
 swap` para que el primer pintado no se bloquee por la carga de la fuente.
 
 Esto coincide con el resto de la suite (Apptonomia, Calculia, Memofun,
-Okeymoney, Teclatlon, Routime): cada PWA de Miralante envÃ­a las mismas dos
-tipografÃ­as, autoalojadas, nunca desde una CDN.
+Okeymoney, Teclatlon, Routime): cada PWA de Miralante envía las mismas dos
+tipografías, autoalojadas, nunca desde una CDN.
 
-## 4. Navegadores y accesibilidad tÃ©cnica
+## 4. Navegadores y accesibilidad técnica
 
-El objetivo son Chrome, Edge y Firefox evergreen, ademÃ¡s de Safari en macOS e
-iOS/iPadOS. Safari es parte de la definiciÃ³n de funcionamiento, especialmente
+El objetivo son Chrome, Edge y Firefox evergreen, además de Safari en macOS e
+iOS/iPadOS. Safari es parte de la definición de funcionamiento, especialmente
 por el uso previsto en iPad.
 
-- No hay transpilaciÃ³n, polyfills ni bundler. Se usan caracterÃ­sticas con
+- No hay transpilación, polyfills ni bundler. Se usan características con
   soporte amplio: `const`/`let`, arrow functions, template literals,
   destructuring, spread, `includes`, `find`, `filter`, `map`, `Object.entries`,
   `localStorage`, `URLSearchParams` y APIs DOM.
-- Antes de usar APIs mÃ¡s nuevas, comprobar la versiÃ³n de iOS Safari que aÃºn
+- Antes de usar APIs más nuevas, comprobar la versión de iOS Safari que aún
   recibe actualizaciones en el entorno objetivo.
-- No hay autoprefijado CSS. AÃ±adir manualmente propiedades `-webkit-*` cuando
-  una caracterÃ­stica lo necesite.
-- No hacer detecciÃ³n de navegador ni ramas especÃ­ficas para Safari. Buscar un
-  equivalente multiplataforma o documentar una limitaciÃ³n.
+- No hay autoprefijado CSS. Añadir manualmente propiedades `-webkit-*` cuando
+  una característica lo necesite.
+- No hacer detección de navegador ni ramas específicas para Safari. Buscar un
+  equivalente multiplataforma o documentar una limitación.
 - Los controles de accesibilidad y los juegos deben funcionar con tacto,
   teclado en pantalla y teclado Bluetooth. Los atajos que intercepten
   `keydown` deben contemplar las reasignaciones de iPadOS, como `Meta` por
-  `Ctrl` y `Alt+Left` por AtrÃ¡s.
+  `Ctrl` y `Alt+Left` por Atrás.
 
-El tamaÃ±o de letra y el alto contraste usan propiedades personalizadas en
-`:root` y `body.alto-contraste`; ambas preferencias se guardan en
-`localStorage`. Las regiones dinÃ¡micas (`#resultados-info`, el aviso de frase
-guardada y el feedback de juego) usan `aria-live="polite"`. Al navegar, el
-foco pasa al encabezado de la vista nueva.
+El tamaño de letra, el tema y el alto contraste no se implementan en la app: los
+pinta el cajón de ajustes compartido (`js/locale-picker.js`, el ⚙️ de la cabecera,
+igual que en las otras 7 de la suite), que escribe `data-a11y-text`,
+`data-theme` y el `font-size` de `<html>` y lo guarda todo en
+`sinonimia-idioma:accessibility`. El alto contraste es un tercer tema
+(`data-theme="contrast"`), no una clase propia: la app no debe añadir botones de
+tamaño ni de contraste junto al engranaje, porque dos caminos al mismo ajuste
+terminan dando dos temas distintos. Las regiones dinámicas (`#resultados-info`, el
+aviso de frase guardada y el feedback de juego) usan `aria-live="polite"`. Al
+navegar, el foco pasa al encabezado de la vista nueva.
 
-La validaciÃ³n no ejecuta pruebas de navegador porque el repositorio no incluye
-Chrome/WebDriver ni una dependencia de automatizaciÃ³n.
+La validación no ejecuta pruebas de navegador porque el repositorio no incluye
+Chrome/WebDriver ni una dependencia de automatización.
 
 ## 5. Forma de una entrada
 
@@ -247,7 +252,7 @@ Reglas del esquema:
   autoritativo entre conceptos cuando existe; si falta, la aplicación puede
   usar el pictograma compartido como fallback.
 
-Ejemplo de traducciÃ³n uno-a-uno y uno-a-varios:
+Ejemplo de traducción uno-a-uno y uno-a-varios:
 
 ```js
 translation: { en: "pension-payment" }
@@ -258,10 +263,10 @@ El validador comprueba la forma, los idiomas y los ids de destino. Permite que
 un id sea igual en dos idiomas si son entradas distintas en diccionarios
 distintos.
 
-## 6. SeparaciÃ³n entre interfaz, datos y lÃ³gica
+## 6. Separación entre interfaz, datos y lógica
 
 - `js/i18n.js` contiene solo textos de interfaz. `translate(language, key,
-  variables)` busca el idioma solicitado, recurre a espaÃ±ol y despuÃ©s a la
+  variables)` busca el idioma solicitado, recurre a español y después a la
   clave cruda, y sustituye marcadores `{nombre}`.
 - Capas de datos del diccionario. La fuente sigue en
   `js/data.<idioma>[.<shard>].js` (listada en `js/dictionary-manifest.js`;
@@ -277,7 +282,7 @@ distintos.
   `VERSION` en `sw.js`**; `scripts/check.js` falla si lo generado está
   desactualizado. Añadir un idioma o dividir un diccionario solo cambia los
   datos y lo generado, no `js/app.js` ni las páginas.
-- `js/app.js` es una IIFE que contiene router, renderizado, Ã­ndices, juegos y
+- `js/app.js` es una IIFE que contiene router, renderizado, índices, juegos y
   estado. No escribe textos de interfaz ni lee un idioma concreto: usa
   `activeDictionary = DICCIONARIOS[currentLanguage]` y `t(key)`.
 
@@ -294,15 +299,15 @@ Las rutas son hash-based y no usan History API:
 ```
 
 `route()` valida primero el idioma y redirige al idioma inicial si falta o no
-es vÃ¡lido. DespuÃ©s despacha la vista. Solo una de `#vista-lista`,
-`#vista-detalle` y `#vista-juego` se muestra cada vez; cada renderizado vacÃ­a
+es válido. Después despacha la vista. Solo una de `#vista-lista`,
+`#vista-detalle` y `#vista-juego` se muestra cada vez; cada renderizado vacía
 su contenedor con `innerHTML = ""` y lo reconstruye.
 
 Al cambiar `currentLanguage`, `buildIndexes()` reconstruye:
 
 - `entryById`, para resolver rutas y entradas.
 - `entryByName`, un mapa de nombre normalizado a arrays de entradas, para
-  enlazar sinÃ³nimos ambiguos y elegir distractores.
+  enlazar sinónimos ambiguos y elegir distractores.
 
 El estado persistido se separa por idioma:
 
@@ -312,70 +317,70 @@ El estado persistido se separa por idioma:
 
 ## 8. Pictogramas
 
-Las imÃ¡genes se sirven localmente y hoy proceden de
-[ARASAAC](https://arasaac.org), Portal AragonÃ©s de ComunicaciÃ³n Aumentativa
+Las imágenes se sirven localmente y hoy proceden de
+[ARASAAC](https://arasaac.org), Portal Aragonés de Comunicación Aumentativa
 y Alternativa. La misma imagen conceptual puede reutilizarse en varias
 entradas o idiomas mediante el mismo `imagen.id`.
 
-ARASAAC usa licencia CC BY-NC-SA y requiere atribuciÃ³n. Los crÃ©ditos viven en
+ARASAAC usa licencia CC BY-NC-SA y requiere atribución. Los créditos viven en
 `footerCreditsHtml` de `js/i18n.js` y no se deben eliminar.
 
-### 8.1 BÃºsqueda
+### 8.1 Búsqueda
 
 Ejecutar:
 
 ```text
-node scripts/search-pictogram.js "<tÃ©rmino>" <idioma>
+node scripts/search-pictogram.js "<término>" <idioma>
 ```
 
 El script intenta primero OpenSymbols cuando existe `OPENSYMBOLS_SECRET` y
-recurre automÃ¡ticamente a la API pÃºblica de ARASAAC si no hay secreto, falla
-la peticiÃ³n o no hay resultados. Solo lista candidatos para revisiÃ³n humana;
-no descarga ni elige imÃ¡genes automÃ¡ticamente. Nunca subir el secreto al
+recurre automáticamente a la API pública de ARASAAC si no hay secreto, falla
+la petición o no hay resultados. Solo lista candidatos para revisión humana;
+no descarga ni elige imágenes automáticamente. Nunca subir el secreto al
 repositorio.
 
 OpenSymbols agrega bancos con licencias distintas, como Sclera o Mulberry.
-Si se incorpora una imagen de otro banco, hay que revisar autorÃ­a y licencia y
-aÃ±adir sus crÃ©ditos en `footerCreditsHtml` en el mismo cambio.
+Si se incorpora una imagen de otro banco, hay que revisar autoría y licencia y
+añadir sus créditos en `footerCreditsHtml` en el mismo cambio.
 
 ### 8.2 Sin pictograma adecuado
 
-Antes de usar un respaldo, probar el tÃ©rmino, sus sinÃ³nimos y sinÃ³nimos de la
-definiciÃ³n. Para palabras abstractas sin pictograma adecuado se usa el
+Antes de usar un respaldo, probar el término, sus sinónimos y sinónimos de la
+definición. Para palabras abstractas sin pictograma adecuado se usa el
 respaldo deliberado de `scripts/category-pictogram-defaults.js`:
 
 | `situacion` | id | concepto |
 |---|---:|---|
 | `tramites` | 21802 | documento |
-| `salud` | 2467 | mÃ©dico |
-| `vida-diaria` | 8717 | vida |
+| `salud` | 2467 | médico |
+| `vida-diaria` | 7024 | diccionario |
 | `finanzas` | 4630 | dinero |
 | `vivienda` | 2317 | casa |
 | `trabajo` | 11457 | empleo |
 | `legal` | 11291 | juez |
-| `tecnologia` | 11459 | tecnologÃ­a |
-| `seguridad` | 12260 | protecciÃ³n |
-| `educacion` | 8098 | educaciÃ³n |
+| `tecnologia` | 11459 | tecnología |
+| `seguridad` | 12260 | protección |
+| `educacion` | 8098 | educación |
 | `conocimiento` | 2450 | libro |
 
 No dejar una palabra abstracta con una imagen elegida por casualidad.
 
-## 9. GamificaciÃ³n en el cÃ³digo
+## 9. Gamificación en el código
 
-La palabra del dÃ­a, "sorprÃ©ndeme", el progreso, la frase propia y los juegos
+La palabra del día, "sorpréndeme", el progreso, la frase propia y los juegos
 se implementan en `js/app.js` mediante `renderGameMenu`, `renderWordGame` y
 `renderSentenceGame`. Todos leen `activeDictionary` y no tienen casos
 especiales por idioma. Las reglas de producto que limitan cualquier juego
-nuevo estÃ¡n en [`SPEC.md`](SPEC.md).
+nuevo están en [`SPEC.md`](SPEC.md).
 
-## 10. ValidaciÃ³n
+## 10. Validación
 
 Ejecutar `node scripts/check.js` en local y en CI
 (`.github/workflows/check.yml`). El script comprueba:
 
 1. Sintaxis de todos los JavaScript.
 2. Balance de llaves de `css/styles.css`.
-3. IDs Ãºnicos, categorÃ­as vÃ¡lidas, pictogramas existentes y campos
+3. IDs únicos, categorías válidas, pictogramas existentes y campos
    `ejemplo` / `ejemploSinonimo` coherentes.
 4. Forma y referencias de `traduccion`.
 5. Paridad de claves de `I18N` usadas por `js/app.js` y `data-i18n*` de
@@ -387,31 +392,31 @@ Ejecutar `node scripts/check.js` en local y en CI
 
 ## 11. `about/` y rutas no enlazadas
 
-`about/index.html` es la presentaciÃ³n externa del proyecto para organismos,
+`about/index.html` es la presentación externa del proyecto para organismos,
 entidades financiadoras, periodistas y colaboradores. Explica origen,
-principios, tecnologÃ­a, cifras por Ã¡rea AIVD y formas de ayudar. Incluye el
+principios, tecnología, cifras por área AIVD y formas de ayudar. Incluye el
 contexto interno que el diccionario principal no debe mencionar.
 
-`about/privacidad.html` es la pÃ¡gina visible de privacidad. Ambas pÃ¡ginas usan
-bloques paralelos `data-lang-block` y `about/about.js`; al aÃ±adir un idioma hay
-que ampliar la whitelist, aÃ±adir cada bloque traducido y mantener los enlaces
+`about/privacidad.html` es la página visible de privacidad. Ambas páginas usan
+bloques paralelos `data-lang-block` y `about/about.js`; al añadir un idioma hay
+que ampliar la whitelist, añadir cada bloque traducido y mantener los enlaces
 de idioma.
 
-NingÃºn enlace pÃºblico apunta actualmente a `about/index.html`: se llega por
+Ningún enlace público apunta actualmente a `about/index.html`: se llega por
 URL directa y lleva `noindex, nofollow`. La falta de enlace no convierte su
-contenido en una excusa para omitir la traducciÃ³n o dejarlo desactualizado.
+contenido en una excusa para omitir la traducción o dejarlo desactualizado.
 
 Sinonimia no tiene service worker propio. `_headers` fija `worker-src 'none'`
 y el bloque defensivo de `index.html` desregistra cualquier service worker
-ajeno que haya quedado asociado al origen. Si algÃºn dÃ­a se aÃ±ade soporte
+ajeno que haya quedado asociado al origen. Si algún día se añade soporte
 offline real, hay que retirar ese kill-switch y relajar CSP en el mismo
 cambio.
 
-## 12. PatrÃ³n de la suite â€” cÃ³mo se construye cada app de Miralante
+## 12. Patrón de la suite — cómo se construye cada app de Miralante
 
 > ðŸŒ **Other language:** [English](../en/technical.md#8-suite-pattern-how-every-app-of-miralante-is-built)
 
-Esta secciÃ³n es la **guÃ­a canÃ³nica y transversal** de cÃ³mo se
+Esta sección es la **guía canónica y transversal** de cómo se
 construye y mantiene cada app de la [suite Miralante](https://apptonomia.uk).
 Es la fuente de verdad que prevalece sobre el `technical.md`
 (tecnico.md) de cualquier repo cuando entran en conflicto,
@@ -420,45 +425,45 @@ porque el objetivo es mantener las siete apps hermanas
 Routime) consistentes: misma forma, mismas convenciones,
 mismo deploy, mismo i18n, mismo comportamiento offline.
 
-Un cambio en esta secciÃ³n es un **cambio transversal a la
+Un cambio en esta sección es un **cambio transversal a la
 suite** y debe aplicarse a todos los repos. Un cambio en
-otras secciones de este archivo es especÃ­fico del proyecto y
-se queda ahÃ­.
+otras secciones de este archivo es específico del proyecto y
+se queda ahí.
 
 > **Fuente de verdad de las reglas de producto** en este
 > repo: [`SPEC.md`](SPEC.md).
 > **Fuente de verdad del i18n**: [`I18N.md`](I18N.md).
-> Esta secciÃ³n **no** redefine esas; codifica el patrÃ³n que
+> Esta sección **no** redefine esas; codifica el patrón que
 > todas comparten.
 
-### 12.0 El patrÃ³n en un pÃ¡rrafo
+### 12.0 El patrón en un párrafo
 
-Cada app de la suite Miralante es una **PWA estÃ¡tica, sin
+Cada app de la suite Miralante es una **PWA estática, sin
 dependencias y offline-first**, construida a partir del mismo
-esqueleto mÃ­nimo:
+esqueleto mínimo:
 
-1. Un conjunto pequeÃ±o de **pÃ¡ginas HTML standalone** en la
-   raÃ­z del repo (una sola actividad) o bajo `tools/<slug>/`
+1. Un conjunto pequeño de **páginas HTML standalone** en la
+   raíz del repo (una sola actividad) o bajo `tools/<slug>/`
    (hubs multi-actividad).
-2. Cada pÃ¡gina es una **URL real y navegable** â€” **no hay
-   routing SPA**, ni cambio de vista en la misma pÃ¡gina, ni
-   `pushState`. Cada pÃ¡gina se recarga al entrar; la
-   navegaciÃ³n entre pÃ¡ginas es un clic normal en un `<a>`.
+2. Cada página es una **URL real y navegable** — **no hay
+   routing SPA**, ni cambio de vista en la misma página, ni
+   `pushState`. Cada página se recarga al entrar; la
+   navegación entre páginas es un clic normal en un `<a>`.
 3. Las rutas ocultas (`about/`, `team/`, `legal/`, `config/`)
    comparten la misma forma: `index.html` + `styles.css` + par
    `strings.<locale>.js`, con **interlinking en el pie** para
-   que cualquiera de ellas estÃ© a un clic de cualquier otra.
+   que cualquiera de ellas esté a un clic de cualquier otra.
 4. Un **service worker** (`sw.js`, network-first) cachea el
    shell (lista `FILES`, `VERSION` bumped) para que la app
    funcione offline.
 5. **Sin paso de build**, sin `package.json`, sin frameworks,
-   sin bundlers, sin CDNs de JS. La raÃ­z del repo es el
+   sin bundlers, sin CDNs de JS. La raíz del repo es el
    output de deploy.
 
-### 12.1 La forma de las pÃ¡ginas standalone
+### 12.1 La forma de las páginas standalone
 
-Este es el patrÃ³n que siguen todas las rutas ocultas y todas
-las rutas pÃºblicas. La forma es idÃ©ntica en la suite; solo
+Este es el patrón que siguen todas las rutas ocultas y todas
+las rutas públicas. La forma es idéntica en la suite; solo
 cambian los contenidos.
 
 #### 12.1.1 El esqueleto de cinco carpetas
@@ -467,28 +472,28 @@ Cada app expone las mismas cinco carpetas:
 
 ```
 <app>/
-  index.html              # Entrada pÃºblica (la actividad)
-  app.js                  # LÃ³gica
+  index.html              # Entrada pública (la actividad)
+  app.js                  # Lógica
   data.js                 # Layouts sin locale + contenido por locale
-  strings.es.js           # Textos UI en espaÃ±ol (fuente de verdad)
-  strings.en.js           # Textos UI en inglÃ©s
-  styles.css              # Estilos especÃ­ficos de la app
+  strings.es.js           # Textos UI en español (fuente de verdad)
+  strings.en.js           # Textos UI en inglés
+  styles.css              # Estilos específicos de la app
   assets/
     css/{tokens,base,components}.css
     fonts/                # Atkinson Hyperlegible + Nunito autohospedados
-    img/                  # Icono de la app + imÃ¡genes decorativas
+    img/                  # Icono de la app + imágenes decorativas
     js/{utils,i18n,tts,storage,feedback}.js
-  about/                  # Ruta oculta: presentaciÃ³n
+  about/                  # Ruta oculta: presentación
     index.html
     styles.css
     strings.es.js
     strings.en.js
-  team/                   # Ruta oculta: quiÃ©nes la hacen
+  team/                   # Ruta oculta: quiénes la hacen
     index.html
     styles.css
     strings.es.js
     strings.en.js
-  legal/                  # PÃ¡gina de protecciÃ³n de datos (enlazada desde el pie)
+  legal/                  # Página de protección de datos (enlazada desde el pie)
     index.html
     styles.css
     strings.es.js
@@ -508,14 +513,14 @@ Cada app expone las mismas cinco carpetas:
 ```
 
 Las apps de una sola actividad (Teclatlon, Okeymoney) ponen el
-`index.html` en la raÃ­z del repo. Las apps multi-actividad
+`index.html` en la raíz del repo. Las apps multi-actividad
 (Apptonomia, Calculia) ponen `tools/<slug>/index.html` por
 actividad y un landing `site/index.html`; las cuatro carpetas
-ocultas viven en la raÃ­z del repo.
+ocultas viven en la raíz del repo.
 
-#### 12.1.2 La concha HTML de una pÃ¡gina standalone
+#### 12.1.2 La concha HTML de una página standalone
 
-Cada pÃ¡gina standalone abre con el mismo boilerplate. Abajo,
+Cada página standalone abre con el mismo boilerplate. Abajo,
 la **plantilla**; las desviaciones se indican donde apliquen.
 
 ```html
@@ -524,7 +529,7 @@ la **plantilla**; las desviaciones se indican donde apliquen.
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sinonimia â€” Sobre este proyecto</title>
+  <title>Sinonimia — Sobre este proyecto</title>
   <!-- Hidden route: not linked from the main menu and should not be
        indexed. Aimed at anyone who wants to know what Teclatlon is:
        families, professionals, journalists, funders, contributors. -->
@@ -541,7 +546,7 @@ la **plantilla**; las desviaciones se indican donde apliquen.
     <header class="cabecera-{legal|about}">
       <div class="idioma-selector" role="group" aria-label="Elegir idioma">
         <button type="button" class="btn-idioma" id="btnIdiomaEs"
-                data-locale="es" aria-pressed="false">ðŸ‡ªðŸ‡¸ EspaÃ±ol</button>
+                data-locale="es" aria-pressed="false">ðŸ‡ªðŸ‡¸ Español</button>
         <button type="button" class="btn-idioma" id="btnIdiomaEn"
                 data-locale="en" aria-pressed="false">ðŸ‡¬ðŸ‡§ English</button>
       </div>
@@ -550,7 +555,7 @@ la **plantilla**; las desviaciones se indican donde apliquen.
       <h1>â€¦</h1>
       <p class="lema" data-i18n="tagline">â€¦</p>
       <p class="entradilla" data-i18n="lead">â€¦</p>
-      <nav class="indice">â€¦opcional, solo en pÃ¡ginas largasâ€¦</nav>
+      <nav class="indice">â€¦opcional, solo en páginas largasâ€¦</nav>
     </header>
 
     <main class="pila">
@@ -559,13 +564,13 @@ la **plantilla**; las desviaciones se indican donde apliquen.
 
     <footer class="pie-{legal|about}">
       <a class="btn btn-secundario" href="../"
-         data-i18n="footerActivities">Ir a la aplicaciÃ³n</a>
+         data-i18n="footerActivities">Ir a la aplicación</a>
       <a class="btn btn-secundario" href="../legal/"
-         data-i18n="footerDataProtection">ProtecciÃ³n de datos</a>
+         data-i18n="footerDataProtection">Protección de datos</a>
       <a class="btn btn-secundario" href="../about/"
          data-i18n="footerAbout">Sobre este proyecto</a>
       <a class="btn btn-secundario" href="../team/"
-         data-i18n="footerTeamGuide">QuiÃ©nes la hacen</a>
+         data-i18n="footerTeamGuide">Quiénes la hacen</a>
       <a class="btn btn-secundario" href="../config/"
          data-i18n="footerSettings">Ajustes</a>
     </footer>
@@ -609,62 +614,62 @@ la **plantilla**; las desviaciones se indican donde apliquen.
 - `data-i18n-title="pageTitle"` en `<html>` permite que
   `assets/js/i18n.js` rellene `document.title` durante
   `init()`. El `<title>` hardcoded es el fallback que la
-  pestaÃ±a del navegador mostrarÃ­a antes de que i18n.js se
+  pestaña del navegador mostraría antes de que i18n.js se
   ejecute (y el fallback de la cache del SW).
-- La clase propia de la pÃ¡gina en el wrapper
+- La clase propia de la página en el wrapper
   `<div class="container â€¦">` es bajo la que `styles.css` de
-  la pÃ¡gina scopea sus reglas (`legal-page`, `about-page`,
+  la página scopea sus reglas (`legal-page`, `about-page`,
   `team-page`). Sin prefijos ancestro `.sp-*` (eran residuo
-  de la fusiÃ³n SPA, retirado en 2026-09; ver `git log`).
+  de la fusión SPA, retirado en 2026-09; ver `git log`).
 - El pie es **siempre** los mismos cinco enlaces (en el mismo
   orden) en `about/`, `team/` y `legal/`. `config/` tiene un
-  pie reducido que solo vuelve a la SPA. La raÃ­z de la app
+  pie reducido que solo vuelve a la SPA. La raíz de la app
   (`index.html`) **no** renderiza este pie (tiene su propio
-  pie con el botÃ³n de reset y el enlace a protecciÃ³n de datos
-  â€” ver §2 arriba).
+  pie con el botón de reset y el enlace a protección de datos
+  — ver §2 arriba).
 
 #### 12.1.3 El par de strings
 
 Cada carpeta standalone trae su propio par `strings.es.js` /
-`strings.en.js`. Siguen el patrÃ³n **clave plana,
-IIFE-register**; `scripts/check.js` extrae el diccionario vÃ­a
+`strings.en.js`. Siguen el patrón **clave plana,
+IIFE-register**; `scripts/check.js` extrae el diccionario vía
 `vm.createContext` con un stub `App.i18n.register` y verifica
 la paridad de claves entre locales.
 
 ```javascript
-/* legal/strings.es.js â€” texto de la pÃ¡gina (ES). */
+/* legal/strings.es.js — texto de la página (ES). */
 (function () {
   'use strict';
   App.i18n.register({
-    pageTitle: 'ProtecciÃ³n de datos',
-    pageDescription: 'Teclatlon: quÃ© datos guarda, dÃ³nde y por quÃ©. â€¦',
-    routeNotice: 'Esta pÃ¡gina no se enlaza desde la aplicaciÃ³n. â€¦',
-    tagline: 'Sin registro. Sin cookies. Sin analÃ­tica.',
+    pageTitle: 'Protección de datos',
+    pageDescription: 'Teclatlon: qué datos guarda, dónde y por qué. â€¦',
+    routeNotice: 'Esta página no se enlaza desde la aplicación. â€¦',
+    tagline: 'Sin registro. Sin cookies. Sin analítica.',
     lead: 'Teclatlon no pide tus datos personales. â€¦',
-    navResponsible: 'QuiÃ©n trata tus datos',
-    navData: 'QuÃ© guardamos',
-    /* â€¦mÃ¡s clavesâ€¦ */
-    footerActivities: 'Ir a la aplicaciÃ³n',
+    navResponsible: 'Quién trata tus datos',
+    navData: 'Qué guardamos',
+    /* â€¦más clavesâ€¦ */
+    footerActivities: 'Ir a la aplicación',
     footerAbout: 'Sobre este proyecto',
-    footerTeamGuide: 'QuiÃ©nes la hacen',
+    footerTeamGuide: 'Quiénes la hacen',
     footerSettings: 'Ajustes'
   }, 'es');
 })();
 ```
 
 Las claves son planas (sin namespacing tipo
-`legal.pageTitle`); la pÃ¡gina **es** el namespace, porque el
+`legal.pageTitle`); la página **es** el namespace, porque el
 archivo vive en su propia carpeta. Las claves comunes
 (`core.back`, `core.listen`, `core.dataProtection`) ya vienen
-en `assets/js/i18n.js` y no se redefinen aquÃ­.
+en `assets/js/i18n.js` y no se redefinen aquí.
 
 #### 12.1.4 La hoja de estilos standalone
 
 Cada carpeta standalone trae su propio `styles.css`. Es **el
-antiguo `assets/css/subpages.css` dividido por pÃ¡gina**, con
+antiguo `assets/css/subpages.css` dividido por página**, con
 los prefijos ancestro `.sp-legal` / `.sp-about` eliminados
-(eran residuo de la fusiÃ³n SPA). La clase wrapper de la
-pÃ¡gina (`<div class="legal-page">`, `<div class="about-page">`,
+(eran residuo de la fusión SPA). La clase wrapper de la
+página (`<div class="legal-page">`, `<div class="about-page">`,
 etc.) es la que usa el CSS para scope:
 
 ```css
@@ -674,28 +679,28 @@ etc.) es la que usa el CSS para scope:
 .legal-page section { â€¦ }
 ```
 
-**No** introduzcas nombres de clase por pÃ¡gina que colisionen
+**No** introduzcas nombres de clase por página que colisionen
 con los componentes compartidos (`base.css` ya define
 `.cabecera`, `.lema`, `.indice`, `.btn`, `.card`, `.pila`, â€¦).
-Cuando la pÃ¡gina standalone necesite un aspecto distinto,
-scopea la regla bajo la clase de la pÃ¡gina â€” nunca bajo un
-`.cabecera` o `.indice` genÃ©rico.
+Cuando la página standalone necesite un aspecto distinto,
+scopea la regla bajo la clase de la página — nunca bajo un
+`.cabecera` o `.indice` genérico.
 
-### 12.2 El nÃºcleo compartido
+### 12.2 El núcleo compartido
 
 Cada app de la suite trae los mismos seis ficheros bajo
 `assets/js/`, en el mismo orden de carga, con la misma forma
-exportada. Adelgazar estÃ¡ permitido; **aÃ±adir** funcionalidad
-de vuelta estÃ¡ prohibido a menos que sirva a una necesidad
+exportada. Adelgazar está permitido; **añadir** funcionalidad
+de vuelta está prohibido a menos que sirva a una necesidad
 concreta (las notas de adelgazamiento en §2.1 arriba son la
-justificaciÃ³n canÃ³nica).
+justificación canónica).
 
-| MÃ³dulo | Superficie | Requerido por |
+| Módulo | Superficie | Requerido por |
 |---|---|---|
-| `utils.js` | `App.utils.shuffle / $ / $$ / reducedMotion / wakeLock` | cada pÃ¡gina |
-| `i18n.js` | `App.i18n.{locale, setLocale, lang, register, t, pick, apply, SUPPORTED, DEFAULT_LOCALE, LABEL, FLAG}` | cada pÃ¡gina |
-| `tts.js` | `App.tts.speak` | solo pÃ¡ginas que leen en voz alta (la mayorÃ­a) |
-| `storage.js` | `App.storage.{get, set, remove}` | solo pÃ¡ginas que leen o escriben `localStorage` (`index.html`, `config/`) |
+| `utils.js` | `App.utils.shuffle / $ / $$ / reducedMotion / wakeLock` | cada página |
+| `i18n.js` | `App.i18n.{locale, setLocale, lang, register, t, pick, apply, SUPPORTED, DEFAULT_LOCALE, LABEL, FLAG}` | cada página |
+| `tts.js` | `App.tts.speak` | solo páginas que leen en voz alta (la mayoría) |
+| `storage.js` | `App.storage.{get, set, remove}` | solo páginas que leen o escriben `localStorage` (`index.html`, `config/`) |
 | `feedback.js` | `App.feedback.{success, encourage, celebrate}` | solo el `app.js` de la actividad |
 
 El orden de carga es `utils.js â†’ i18n.js â†’ tts.js â†’ storage.js â†’
@@ -704,8 +709,8 @@ debe cargar **antes** que `tts.js` y `feedback.js`, que leen
 el idioma activo.
 
 Tanto `strings.es.js` como `strings.en.js` cargan siempre (no
-estÃ¡n gateados por `locale`); `App.i18n.locale()` decide cuÃ¡l
-estÃ¡ activo. El locale se elige primero de
+están gateados por `locale`); `App.i18n.locale()` decide cuál
+está activo. El locale se elige primero de
 `localStorage['teclatlon:locale']`, luego de `navigator.language`
 (fallback `'es'`).
 
@@ -728,7 +733,7 @@ var FILES = [
   './styles.css',
   /* una entrada por fichero del shell, incluyendo cada
      index.html / styles.css / par strings.<locale>.js de las
-     pÃ¡ginas standalone */
+     páginas standalone */
   './legal/index.html',
   './legal/styles.css',
   './legal/strings.es.js',
@@ -749,102 +754,102 @@ var FILES = [
 
 Dos reglas gobiernan cambios en `FILES`:
 
-1. **Fichero nuevo â†’ aÃ±adirlo a `FILES`.** El handler
+1. **Fichero nuevo â†’ añadirlo a `FILES`.** El handler
    `install` mete cada fichero individualmente (nunca
    `cache.addAll`, que aborta en el primer fallo y rompe la
    cache para todos).
 2. **Cualquier cambio en un fichero cacheado â†’ bumpear
    `VERSION`** (`'teclatlon-vN'` â†’ `'teclatlon-vN+1'`). Sin el
-   bump, un usuario offline queda atascado en la versiÃ³n
+   bump, un usuario offline queda atascado en la versión
    vieja para siempre, porque el handler `activate` solo
    purga caches con un nombre distinto.
 
 `scripts/check-version-bump.js` aplica (2): hace
-`git show HEAD:sw.js` para ver quÃ© `VERSION` habÃ­a en el
-Ãºltimo commit, lo compara contra el `VERSION` actual, y
+`git show HEAD:sw.js` para ver qué `VERSION` había en el
+último commit, lo compara contra el `VERSION` actual, y
 verifica que `FILES` y el diff contra HEAD coincidan. Si no
 coinciden, el script falla y el job `cache-bump` de CI
-tambiÃ©n falla.
+también falla.
 
-Cada pÃ¡gina standalone tambiÃ©n ejecuta
+Cada página standalone también ejecuta
 `navigator.serviceWorker.register('../sw.js')` desde su
-script inline, asÃ­ una visita directa a `/legal/`,
-`/about/` o `/team/` prima el SW para la raÃ­z de la SPA del
+script inline, así una visita directa a `/legal/`,
+`/about/` o `/team/` prima el SW para la raíz de la SPA del
 mismo modo que hace `index.html`.
 
 ### 12.4 Invariantes de i18n
 
 Estas son no negociables en toda la suite. Un cambio de
-locale estÃ¡ incompleto hasta que **todos** los ficheros de
-esta lista estÃ©n actualizados:
+locale está incompleto hasta que **todos** los ficheros de
+esta lista estén actualizados:
 
 1. `assets/js/i18n.js#SUPPORTED` y `#DEFAULT_LOCALE`.
-2. `assets/js/i18n.js#BCP47` (para selecciÃ³n de voz en
+2. `assets/js/i18n.js#BCP47` (para selección de voz en
    `speechSynthesis`).
 3. El detector pre-paint en `index.html` (el `<script>`
-   inline que elige el locale antes del primer paint â€” ver
+   inline que elige el locale antes del primer paint — ver
    §2.5 arriba).
 4. `strings.<locale>.js` y cada par `strings.<locale>.js`
    por carpeta (`legal/`, `about/`, `team/`, `config/`).
 5. `data.js`: cada array dividido por locale
    (`DATA.lessons.<locale>`, `DATA.words.<locale>`,
    `DATA.templates.<locale>`, `DATA.numpadSteps.<locale>`).
-6. `sw.js`: aÃ±adir los nuevos `strings.<locale>.js` a
+6. `sw.js`: añadir los nuevos `strings.<locale>.js` a
    `FILES` y bumpear `VERSION`.
-7. `scripts/check.js`: la verificaciÃ³n de paridad funciona
-   en N locales sin cambios de cÃ³digo (los coge todos vÃ­a
+7. `scripts/check.js`: la verificación de paridad funciona
+   en N locales sin cambios de código (los coge todos vía
    `fs.readdirSync`); confirmar que el script sigue pasando
-   tras aÃ±adir el locale.
+   tras añadir el locale.
 
-La receta paso a paso completa (con cÃ³digo de ejemplo) estÃ¡
+La receta paso a paso completa (con código de ejemplo) está
 en [`I18N.md`](I18N.md).
 
-### 12.5 Lo que estÃ¡ **prohibido** (en toda la suite)
+### 12.5 Lo que está **prohibido** (en toda la suite)
 
-Estos son antipatrones observados en algÃºn momento y
-retirados explÃ­citamente; el historial de commits es la fuente
+Estos son antipatrones observados en algún momento y
+retirados explícitamente; el historial de commits es la fuente
 de verdad de cada retirada. La regla es: "si te ves tentado
-de usar uno de estos, para y vuelve a leer esta secciÃ³n".
+de usar uno de estos, para y vuelve a leer esta sección".
 
 - **Sin SPA / sin `pushState` / sin secciones `view-*`.**
-  Cada pÃ¡gina es su propia URL. No fusionar `legal/`,
+  Cada página es su propia URL. No fusionar `legal/`,
   `about/`, `team/` dentro de `index.html` como secciones
-  ocultas, ni siquiera con un redirect shim. Se intentÃ³ en
-  2026-09 (`spa: merge`) y se revirtiÃ³ en la misma release;
+  ocultas, ni siquiera con un redirect shim. Se intentó en
+  2026-09 (`spa: merge`) y se revirtió en la misma release;
   ver `git log` para las lecciones aprendidas. La
-  navegaciÃ³n entre pÃ¡ginas debe ser siempre un clic real en
+  navegación entre páginas debe ser siempre un clic real en
   un `<a>`, y cada ruta oculta debe estar a un clic de
-  cualquier otra vÃ­a el pie compartido.
+  cualquier otra vía el pie compartido.
 - **Sin `App.goLegal` / `App.goAbout` / `view-legal` /
   `view-about` / `sp-legal` / `sp-about` / `sp-idioma` /
-  `subpages.css`.** Todos pertenecen al modelo de fusiÃ³n
+  `subpages.css`.** Todos pertenecen al modelo de fusión
   SPA retirado.
 - **Sin `_redirects` SPA catch-all.** Cloudflare lo
   rechaza como loop; documentado en `CLOUDFLARE.md` y en
   la receta de deploy.
 - **Sin flash de `data-app-blocked="mobile"`.** El script
-  pre-paint es un Ãºnico `<script>` inline en `<head>`; no
+  pre-paint es un único `<script>` inline en `<head>`; no
   lo dividas en un `.js` aparte (CSP `script-src 'self'`
-  lo permitirÃ­a, pero la garantÃ­a de timing sÃ­ncrono solo
+  lo permitiría, pero la garantía de timing síncrono solo
   se cumple con scripts inline en la cabeza).
 - **Sin `package.json`, sin `node_modules`.** El repo es
-  el output de build. Un package manifest forzarÃ­a a
+  el output de build. Un package manifest forzaría a
   Cloudflare a ejecutar `npm install` en cada build,
-  sobrepasando el lÃ­mite de 25 MiB de assets.
+  sobrepasando el límite de 25 MiB de assets.
 - **Sin CDNs de JS.** Todas las fuentes, iconos y JS
   vienen en `assets/`.
 - **Sin imports de ES modules** (`<script type="module">`).
   La app debe funcionar desde `file://` para uso offline;
   los ES modules rompen eso.
 - **Sin base de datos en tiempo real, sin login, sin
-  cookies, sin analÃ­tica.** La persistencia es solo
+  cookies, sin analítica.** La persistencia es solo
   `localStorage`.
-- **Sin teclado en pantalla tÃ¡ctil** en apps que apuntan
-  al teclado fÃ­sico del ordenador (Teclatlon, importes
+- **Sin teclado en pantalla táctil** en apps que apuntan
+  al teclado físico del ordenador (Teclatlon, importes
   tipeados de Okeymoney, palabras tipeadas de Sinonimia).
   El teclado en pantalla es solo decorativo.
 
-### 12.6 Checklist de validaciÃ³n
+### 12.6 Checklist de validación
 
 Ejecutar esto en cada PR que toque cualquiera de los
 ficheros de superficie (`*.html`, `*.js`, `*.css`, `sw.js`,
@@ -855,13 +860,13 @@ node scripts/check.js           # debe reportar OK (N checks, sin fallos)
 node scripts/check-version-bump.js   # debe pasar
 ```
 
-DespuÃ©s abrir las pÃ¡ginas afectadas en un navegador en
+Después abrir las páginas afectadas en un navegador en
 `http://localhost:<puerto>/<ruta>` y recorrer el smoke
 manual:
 
-- `index.html` arranca en la pantalla de nombre o en el menÃº
-  segÃºn el estado guardado; el roundtrip de `localStorage`
-  funciona; el botÃ³n "ðŸ—‘ï¸ Borrar mi progreso" resetea tanto
+- `index.html` arranca en la pantalla de nombre o en el menú
+  según el estado guardado; el roundtrip de `localStorage`
+  funciona; el botón "ðŸ—‘ï¸ Borrar mi progreso" resetea tanto
   los datos como la UI.
 - `/legal/` carga con el h1, lema y pie localizados; el
   selector de idioma cambia `lang`, `document.title` y cada
@@ -870,39 +875,39 @@ manual:
   entre ellos y a `/legal/` y `/config/` sin recargas
   antes de que el SW se prime.
 - `/config/` lista el estado guardado y sus dos botones de
-  reset funcionan (confirmaciÃ³n en dos pasos).
+  reset funcionan (confirmación en dos pasos).
 - Refrescar una vez tras la primera carga y verificar que
   `navigator.serviceWorker.controller` no es null.
 
-Si algo falla, el cambio no encaja con el patrÃ³n de la suite
+Si algo falla, el cambio no encaja con el patrón de la suite
 y debe revisarse antes de aterrizarlo.
 
-### 12.7 Diferencias entre repos (lo que esta secciÃ³n **no** cubre)
+### 12.7 Diferencias entre repos (lo que esta sección **no** cubre)
 
-Cada app es una variante de una sola actividad del patrÃ³n de
-arriba. Las diferencias por app â€” quÃ© se comparte con la
-suite, quÃ© se adelgaza, y quÃ© es intencionalmente distinto â€”
+Cada app es una variante de una sola actividad del patrón de
+arriba. Las diferencias por app — qué se comparte con la
+suite, qué se adelgaza, y qué es intencionalmente distinto —
 se documentan en el `tecnico.md` § "Other apps of the suite:
-real differences" (la "diferencia especÃ­fica del proyecto")
-de cada repo. Usa esa secciÃ³n para decidir si una
-desviaciÃ³n en un repo es intencional antes de copiarla a
+real differences" (la "diferencia específica del proyecto")
+de cada repo. Usa esa sección para decidir si una
+desviación en un repo es intencional antes de copiarla a
 otro.
 
-Esta secciÃ³n canÃ³nica vive en el `tecnico.md` /
+Esta sección canónica vive en el `tecnico.md` /
 `technical.md` de **todos los repos** de la suite, mantenida
-en sincronÃ­a. Si la cambias en un repo, espejÃ©ala en los
-demÃ¡s en el mismo PR.
+en sincronía. Si la cambias en un repo, espejéala en los
+demás en el mismo PR.
 
-### 12.8 Ver tambiÃ©n
+### 12.8 Ver también
 
-- §2 arriba â€” Recetas y contratos especÃ­ficos de Teclatlon
-  que se construyen sobre este patrÃ³n.
-- [`I18N.md`](I18N.md) â€” CÃ³mo aÃ±adir un idioma manteniendo
+- §2 arriba — Recetas y contratos específicos de Teclatlon
+  que se construyen sobre este patrón.
+- [`I18N.md`](I18N.md) — Cómo añadir un idioma manteniendo
   las invariantes de i18n intactas.
-- [`CLOUDFLARE.md`](../../CLOUDFLARE.md) â€” Contratos de
+- [`CLOUDFLARE.md`](../../CLOUDFLARE.md) — Contratos de
   deploy y SW/headers a nivel de Cloudflare Workers.
-- [`SPEC.md`](SPEC.md) §"Mandatory rule" â€” Las invariantes
-  de accesibilidad y "ninguna menciÃ³n clÃ­nica" que cada
-  pÃ¡gina debe respetar.
+- [`SPEC.md`](SPEC.md) §"Mandatory rule" — Las invariantes
+  de accesibilidad y "ninguna mención clínica" que cada
+  página debe respetar.
 
 ---

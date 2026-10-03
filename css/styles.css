@@ -27,15 +27,139 @@
   --tam-base: 18px;
   --color-fondo: #fbfaf7;
   --color-texto: #202020;
+  --color-texto-suave: #4a4a4a;
   --color-primario: #0a5c78;
   --color-primario-oscuro: #073f52;
   --color-tarjeta: #ffffff;
+  --color-pildora: #eef3f0;
   --color-borde: #d8d3c8;
   --color-acento: #b45309;
   --color-foco: #d6001c;
   --color-peligro: #b91c1c;
   --radio: 14px;
   --fuente: 'Atkinson Hyperlegible', 'Nunito', "Segoe UI", Verdana, Arial, sans-serif;
+  /* Texto legible ENCIMA de los fondos solidos (botones primarios).
+     En oscuro el primario se aclara, asi que el texto tiene que
+     volverse oscuro o el boton quedaria blanco sobre azul claro. */
+  --texto-sobre-primario: #fff;
+  /* Texto sobre el rojo de "borrar mis datos". En oscuro y contraste el
+     rojo se aclara (para que se distinga sobre el fondo), así que el
+     blanco fijo se quedaba ilegible: 2.32:1 y 2.86:1. */
+  --texto-sobre-peligro: #fff;
+  --texto-sobre-acento: #fff;
+  /* La cabecera lleva fondo sólido propio en vez de --color-primario:
+     en oscuro ese primario se aclara a azul y el texto blanco encima
+     quedaba en 2.23:1. Se mantiene oscura con texto claro. */
+  --cabecera-fondo: #0a5c78;
+  --cabecera-fondo-2: #073f52;
+  --cabecera-texto: #fff;
+  --cabecera-texto-punto: #ffd9a8;
+}
+
+/* -------- Tema oscuro --------
+   Lo activa el conmutador del engranaje con data-theme="dark", o solo
+   prefers-color-scheme cuando no hay tema forzado (opcion "Auto").
+   El alto contraste es el tercer tema: data-theme="contrast". */
+[data-theme="dark"] {
+  --color-fondo: #14161E;
+  --color-texto: #F2F0EA;
+  --color-texto-suave: #B3B0C8;
+  --color-primario: #6BB4F2;
+  --color-primario-oscuro: #9ACBFA;
+  --color-tarjeta: #1E2230;
+  --color-pildora: #252B33;
+  --color-borde: #39405A;
+  --color-acento: #F0B472;
+  --color-foco: #8FCBFF;
+  --color-peligro: #F2907A;
+  --nota-fondo: #33261E;
+  --nota-borde: #4E3A28;
+  --texto-sobre-primario: #14161E;
+  --texto-sobre-peligro: #14161E;
+  --texto-sobre-acento: #14161E;
+  /* La cabecera se mantiene oscura en dark con texto claro: si se
+     aclarara con el primario, el logo y el punto perderian contraste. */
+  --cabecera-fondo: #0F2833;
+  --cabecera-fondo-2: #0A1E27;
+  --cabecera-texto: #EAF4FA;
+  --cabecera-texto-punto: #F0B472;
+  --skip-fondo: #0F2833;
+  --skip-texto: #EAF4FA;
+}
+
+/* -------- Alto contraste (data-theme="contrast", el extremo de la serie) --------
+   OJO, al tocar este bloque: el alto contraste de la suite no lo pinta
+   solo esta regla. css/locale-picker.css tiene
+
+       html[data-a11y-contrast="high"] { --color-fondo:#FFF; ... }
+       html[data-a11y-contrast="high"] body { color:#000 !important;
+                                             background:#FFF !important }
+
+   y el cajón pone las dos cosas a la vez (data-theme="contrast" y
+   data-a11y-contrast="high"). Ese selector es tipo+atributo (0,1,1) y
+   gana a [data-theme="contrast"] (0,1,0), así que el papel, el texto y
+   los bordes los manda el bloque compartido en TODA la suite, y aquí
+   solo sobreviven los tokens que ese bloque no declara.
+
+   De ahí las dos reglas que mandan en este bloque:
+   1) Los tokens de superficie --color-tarjeta y --color-pildora van en
+      BLANCO, no en negro: la página es blanca y el texto negro, así que
+      una tarjeta negra dejaba texto negro sobre negro.
+   2) Cada color que aquí se declara tiene que ser legible sobre blanco
+      o llevar encima su --texto-sobre-*. */
+[data-theme="contrast"] {
+  --color-primario: #000000;
+  --color-primario-oscuro: #0044AA;
+  --color-tarjeta: #FFFFFF;
+  --color-pildora: #FFFFFF;
+  --color-acento: #000000;
+  /* El anillo de foco se ve igual sobre el papel blanco (8:1) y sobre
+     un boton negro (3.4:1). Un amarillo de alto contraste solo se veria
+     sobre negro y desapareceria sobre el papel. */
+  --color-foco: #B00020;
+  --color-peligro: #B00020;
+  --nota-fondo: #FFFFFF;
+  --nota-borde: #000000;
+  --texto-sobre-primario: #FFFFFF;
+  --texto-sobre-peligro: #FFFFFF;
+  --texto-sobre-acento: #FFFFFF;
+  /* La cabecera conserva fondo propio (negro, no el transparente) para
+     que el logo blanco y el punto amarillo no se pierdan. */
+  --cabecera-fondo: #000000;
+  --cabecera-fondo-2: #000000;
+  --cabecera-texto: #FFFFFF;
+  --cabecera-texto-punto: #FFFF00;
+  --skip-fondo: #000000;
+  --skip-texto: #FFFF00;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --color-fondo: #14161E;
+    --color-texto: #F2F0EA;
+    --color-texto-suave: #B3B0C8;
+    --color-primario: #6BB4F2;
+    --color-primario-oscuro: #9ACBFA;
+    --color-tarjeta: #1E2230;
+    --color-pildora: #252B33;
+    --color-borde: #39405A;
+    --color-acento: #F0B472;
+    --color-foco: #8FCBFF;
+    --color-peligro: #F2907A;
+  --nota-fondo: #33261E;
+  --nota-borde: #4E3A28;
+    --texto-sobre-primario: #14161E;
+  --texto-sobre-peligro: #14161E;
+  --texto-sobre-acento: #14161E;
+    --cabecera-fondo: #0F2833;
+    --cabecera-fondo-2: #0A1E27;
+    --cabecera-texto: #EAF4FA;
+    --cabecera-texto-punto: #F0B472;
+    /* El skip-link tiene su propio fondo y sus tokens faltaban aqui, con
+       lo que en "Auto" sobre un sistema oscuro caia al crema de :root. */
+    --skip-fondo: #0F2833;
+    --skip-texto: #EAF4FA;
+  }
 }
 
 * { box-sizing: border-box; }
@@ -67,8 +191,14 @@ input:focus-visible {
   position: absolute;
   left: -999px;
   top: 0;
-  background: var(--color-primario-oscuro);
-  color: #fff;
+  /* Fondo y texto con tokens distintos: con --color-primario-oscuro en
+     ambos, en modo oscuro el texto quedaba del mismo color que su
+     fondo (1:1, invisible) al cambiar a azul.
+     "!important" no es capricho: las páginas internas tienen
+     `.page-config a { color: ... }`, que es más específica que un
+     `.skip-link` suelto y le pisaba el color. */
+  background: var(--skip-fondo, var(--color-primario-oscuro)) !important;
+  color: var(--skip-texto, #fff) !important;
   padding: 0.75rem 1rem;
   z-index: 100;
   border-radius: 0 0 8px 0;
@@ -85,8 +215,8 @@ input:focus-visible {
 /* ---------- Header ---------- */
 
 .cabecera {
-  background: var(--color-primario);
-  color: #fff;
+  background: var(--cabecera-fondo, var(--color-primario));
+  color: var(--cabecera-texto, var(--texto-sobre-primario, #fff));
   padding: 1.25rem 1.25rem 1rem;
 }
 
@@ -104,10 +234,10 @@ input:focus-visible {
   font-size: 1.9rem;
 }
 .cabecera h1 a {
-  color: #fff;
+  color: var(--cabecera-texto, #fff);
   text-decoration: none;
 }
-.cabecera-punto { color: var(--color-acento); }
+.cabecera-punto { color: var(--cabecera-texto-punto, var(--color-acento)); }
 
 .tagline {
   margin: 0;
@@ -115,20 +245,21 @@ input:focus-visible {
   font-size: 1.05rem;
 }
 
-.a11y-barra {
+/* Fila de controles de la cabecera. Solo va aquí el punto de anclaje
+   #locale-picker: el ⚙️ lo inserta js/locale-picker.js al lado y lleva
+   dentro idioma, tema, tamaño de letra y alto contraste. Es la misma
+   pieza que en las otras 7 apps de la suite, sin copias propias, así que
+   aquí no se tocan sus botones: los pinta css/locale-picker.css. */
+.cabecera-controles {
   max-width: 900px;
   margin: 0.9rem auto 0;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   gap: 0.6rem;
-  font-size: 0.95rem;
 }
 
-.a11y-etiqueta { opacity: 0.9; }
-
-.a11y-grupo { display: inline-flex; gap: 0.3rem; }
-
+/* El separador vertical entre el selector de idioma y el resto, que
+   usan las páginas internas (about/legal/config…). */
 .idioma-selector {
   display: inline-flex;
   gap: 0.3rem;
@@ -137,27 +268,11 @@ input:focus-visible {
   border-right: 1px solid rgba(255,255,255,0.4);
 }
 
-.a11y-barra button {
-  background: rgba(255,255,255,0.12);
-  border: 1px solid rgba(255,255,255,0.6);
-  color: #fff;
-  border-radius: 8px;
-  padding: 0.35rem 0.7rem;
-  cursor: pointer;
-  font-size: 1rem;
-}
-.a11y-barra button:hover { background: rgba(255,255,255,0.25); }
-
 .lang-btn.activo,
 .lang-btn[aria-pressed="true"] {
   background: var(--color-acento);
   border-color: var(--color-acento);
-  font-weight: bold;
-}
-
-.a11y-contraste[aria-pressed="true"] {
-  background: #fff;
-  color: var(--color-primario-oscuro);
+  color: var(--color-fondo);
   font-weight: bold;
 }
 
@@ -187,8 +302,10 @@ main {
 }
 
 .hero-word {
+  /* Gradiente del primario, con el texto del token: en contraste el
+     primario pasa a amarillo puro y el blanco fijo se perdería. */
   background: linear-gradient(135deg, var(--color-primario) 0%, var(--color-primario-oscuro) 100%);
-  color: #fff;
+  color: var(--texto-sobre-primario, #fff);
   border: none;
 }
 
@@ -209,7 +326,7 @@ main {
 .boton-cta {
   display: inline-block;
   background: var(--color-acento);
-  color: #fff;
+  color: var(--texto-sobre-primario, #fff);
   text-decoration: none;
   font-weight: bold;
   font-size: 1.05rem;
@@ -335,7 +452,9 @@ main {
 .help-texto {
   margin: 0.4rem 0 0;
   font-size: 0.9rem;
-  color: #4a4a4a;
+  /* Gris fijo ilegible sobre el fondo oscuro (#14161E) y en alto
+     contraste; el token de texto suave acompaña a cada tema. */
+  color: var(--color-texto-suave, #4a4a4a);
 }
 
 .tu-frase-estrellas {
@@ -373,7 +492,7 @@ main {
 .filter-btn[aria-pressed="true"] {
   background: var(--color-primario);
   border-color: var(--color-primario);
-  color: #fff;
+  color: var(--texto-sobre-primario, #fff);
   font-weight: bold;
 }
 
@@ -391,11 +510,14 @@ main {
   border-radius: 6px;
   cursor: pointer;
   font-size: 1rem;
+  /* Sin esto el <button> usaba su negro por defecto (buttontext) y en
+     tema oscuro quedaba negro sobre la tarjeta oscura: ilegible. */
+  color: var(--color-texto);
 }
 .alfabeto button.activo {
   background: var(--color-acento);
   border-color: var(--color-acento);
-  color: #fff;
+  color: var(--texto-sobre-primario, #fff);
 }
 .alfabeto button:disabled {
   opacity: 0.35;
@@ -455,7 +577,7 @@ main {
   top: 0.6rem;
   right: 0.6rem;
   background: var(--color-primario);
-  color: #fff;
+  color: var(--texto-sobre-primario, #fff);
   width: 1.6rem;
   height: 1.6rem;
   border-radius: 50%;
@@ -648,7 +770,9 @@ span.detalle-navegacion-enlace {
   gap: 0.5rem;
 }
 .synonyms-list li {
-  background: #eef3f0;
+  /* Fondo claro fijo: en oscuro la pila quedaba #eef3f0 con texto claro
+     encima (1.02:1). */
+  background: var(--color-pildora, #eef3f0);
   border: 1px solid var(--color-borde);
   border-radius: 999px;
   padding: 0.3rem 0.9rem;
@@ -688,7 +812,8 @@ span.detalle-navegacion-enlace {
 }
 .sentences .equivale {
   font-size: 0.95rem;
-  color: #4a4a4a;
+  /* Gris fijo: en oscuro el texto salia #4a4a4a sobre #1E2230 (1.79:1). */
+  color: var(--color-texto-suave);
   margin: 0.3rem 0 0.8rem;
 }
 
@@ -794,7 +919,7 @@ span.detalle-navegacion-enlace {
 }
 
 .juego-menu-desc {
-  color: #4a4a4a;
+  color: var(--color-texto-suave);
 }
 
 .juego-pista {
@@ -922,7 +1047,7 @@ span.detalle-navegacion-enlace {
 
 .pie-mensaje {
   background: var(--color-primario);
-  color: #fff;
+  color: var(--texto-sobre-primario, #fff);
 }
 
 .pie-mensaje p {
@@ -937,134 +1062,70 @@ span.detalle-navegacion-enlace {
   max-width: 900px;
   margin: 0 auto;
   padding: 0.75rem 1.25rem 1.5rem;
-  color: #9a9a9a;
+  /* Gris fijo #9a9a9a daba 2.7:1 sobre el crema claro. El token de
+     texto suave acompaña a cada tema. */
+  color: var(--color-texto-suave, #6b6b6b);
   font-size: 0.65rem;
 }
 
 .pie-creditos a {
-  color: #9a9a9a;
+  color: var(--color-texto-suave, #6b6b6b);
 }
 
 .pie-proyectos {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 1.25rem 1.5rem;
-  color: #9a9a9a;
+  /* Gris fijo #9a9a9a: 2.7:1 sobre el crema claro y 2.4:1 sobre el papel
+     del alto contraste. Antes solo se tapaba con un parche específico de
+     ese modo; el token acompaña a cada tema. */
+  color: var(--color-texto-suave, #6b6b6b);
   font-size: 0.65rem;
 }
 
 .pie-proyectos a {
-  color: #9a9a9a;
+  color: var(--color-texto-suave, #6b6b6b);
 }
 
-body.alto-contraste .pie-mensaje {
-  background: #000;
-  border-top: 3px solid #fff;
-}
-body.alto-contraste .pie-creditos {
-  color: #d0d0d0;
-}
-body.alto-contraste .pie-creditos a {
-  color: #ffff00;
-}
-body.alto-contraste .pie-proyectos {
-  color: #d0d0d0;
-}
-body.alto-contraste .pie-proyectos a {
-  color: #ffff00;
-}
+/* ---------- High contrast ----------
+   El alto contraste ya no se pinta con una clase propia. Lo aplica el
+   cajón de ajustes compartido con data-theme="contrast" y
+   data-a11y-contrast="high", igual que en las otras 7 apps. Antes
+   convivían dos caminos con paletas distintas (esta: fondo negro y
+   texto amarillo; la del cajón: papel blanco y texto negro), así que el
+   botón de la cabecera y la casilla del cajón llegaban a temas
+   diferentes.
 
-/* ---------- High contrast ---------- */
-
-body.alto-contraste {
-  --color-fondo: #000000;
-  --color-texto: #ffffff;
-  --color-primario: #000000;
-  --color-primario-oscuro: #ffff00;
-  --color-tarjeta: #000000;
-  --color-borde: #ffffff;
-  --color-acento: #ffff00;
-  --color-foco: #00e5ff;
-}
-body.alto-contraste .cabecera {
-  border-bottom: 3px solid #ffffff;
-}
-body.alto-contraste a { color: #ffff00; }
-body.alto-contraste .a11y-barra button {
-  background: #000;
-  border-color: #fff;
-}
-body.alto-contraste .lang-btn.activo,
-body.alto-contraste .lang-btn[aria-pressed="true"] {
-  background: #ffff00;
-  color: #000;
-  border-color: #ffff00;
-}
-body.alto-contraste .filter-btn.activo,
-body.alto-contraste .filter-btn[aria-pressed="true"] {
-  background: #ffff00;
-  color: #000;
-  border-color: #ffff00;
-}
-body.alto-contraste .tarjeta,
-body.alto-contraste .detalle {
+   El papel en alto contraste es blanco (lo fija el bloque compartido
+   de css/locale-picker.css), así que de todo el bloque anterior solo
+   sobrevive lo que sigue siendo útil sobre blanco: bordes más
+   gruesos, el contorno de los botones y el borde del estado activo.
+   Los colores de texto y de fondo ya salen de los tokens. */
+[data-theme="contrast"] .tarjeta,
+[data-theme="contrast"] .detalle,
+[data-theme="contrast"] .juego-menu-option,
+[data-theme="contrast"] .game-option {
   border-width: 2px;
 }
-body.alto-contraste .synonyms-list li {
-  background: #000;
-  color: #fff;
-}
-body.alto-contraste .sentences .destacado {
-  color: #ffff00;
-}
-body.alto-contraste .hero-palabra {
-  background: #000;
-  border: 2px solid #ffff00;
-}
-body.alto-contraste .hero-progreso {
-  border-width: 2px;
-}
-body.alto-contraste .boton-cta {
-  background: #ffff00;
-  color: #000;
+
+/* El botón primario no lleva borde (se apoya en su sombra), y una
+   sombra no separa nada de un papel blanco: necesita contorno. */
+[data-theme="contrast"] .boton-cta {
+  border: 2px solid #000000;
   box-shadow: none;
 }
-body.alto-contraste .barra-progreso-relleno {
-  background: #ffff00;
-  background-image: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.45) 0 3px, transparent 3px 6px);
+
+[data-theme="contrast"] .juego-menu-option:hover,
+[data-theme="contrast"] .juego-menu-option:focus-visible {
+  border-color: #000000;
 }
-body.alto-contraste .tarjeta-aprendida {
-  background: #ffff00;
-  color: #000;
-}
-body.alto-contraste .game-option.correcta {
-  background: #000;
-  border-color: #ffff00;
-  color: #ffff00;
-}
-body.alto-contraste .game-option.incorrecta {
-  background: #000;
-  border-color: #fff;
-  color: #fff;
-}
-body.alto-contraste .juego-mensaje-correcto,
-body.alto-contraste .juego-mensaje-incorrecto,
-body.alto-contraste .juego-aciertos,
-body.alto-contraste .tu-frase-aviso .your-sentence-text {
-  color: #ffff00;
-}
-body.alto-contraste .juego-menu-option {
-  border-width: 2px;
-}
-body.alto-contraste .juego-menu-option:hover,
-body.alto-contraste .juego-menu-option:focus-visible {
-  border-color: #ffff00;
-}
-body.alto-contraste .juego-pista-frase .hueco,
-body.alto-contraste .juego-pista-frase .destacado {
-  color: #ffff00;
-  border-color: #ffff00;
-  text-decoration-color: #ffff00;
+
+/* Las respuestas correctas e incorrectas del juego traen verde y rojo
+   claros fijos (#dff3e6 / #fbe4e4). Sobre papel blanco se leen bien,
+   pero el borde de color se perdía, así que se refuerza. */
+[data-theme="contrast"] .game-option.correcta,
+[data-theme="contrast"] .game-option.incorrecta {
+  border-width: 3px;
 }
 
 /* ---------- Responsive ---------- */
@@ -1122,15 +1183,30 @@ body.alto-contraste .juego-pista-frase .destacado {
 .page-about,
 .page-legal,
 .page-config,
-.page-404 {
+.page-404,
+.page-privacidad,
+.page-offline {
+  /* Estas páginas internas (about/legal/team/config) son una plantilla
+     aparte con su propia paleta. Redeclarar aquí los tokens a valores
+     claros los pisaba y anulaba la paleta oscura del tema entero: el
+     skip-link quedaba con el texto del mismo color que su fondo y
+     los botones de borrar, blancos sobre rojo claro. Se mantienen los
+     valores de claro solo como override de :root, y cada tema los
+     sobreescribe con su propio juego. */
   --color-fondo: #fbfaf7;
   --color-texto: #202020;
+  --color-texto-suave: #4a4a4a;
   --color-primario: #0a5c78;
   --color-primario-oscuro: #073f52;
   --color-tarjeta: #ffffff;
+  --color-pildora: #eef3f0;
   --color-borde: #d8d3c8;
   --color-acento: #b45309;
   --color-foco: #d6001c;
+  --color-peligro: #b91c1c;
+  --texto-sobre-primario: #fff;
+  --texto-sobre-peligro: #fff;
+  --texto-sobre-acento: #fff;
   --acento-tramites: #0a5c78;
   --acento-salud: #b4304a;
   --acento-vida-diaria: #b45309;
@@ -1143,6 +1219,122 @@ body.alto-contraste .juego-pista-frase .destacado {
   color: var(--color-texto);
   font-family: var(--fuente);
   line-height: 1.6;
+}
+
+/* Las mismas páginas en tema oscuro y en alto contraste. Sin esto
+   quedan siempre en claro, por muy oscuro que esté el sistema o
+   por mucho que la persona haya forzado el tema. */
+[data-theme="dark"] .page-about,
+[data-theme="dark"] .page-legal,
+[data-theme="dark"] .page-team,
+[data-theme="dark"] .page-config,
+[data-theme="dark"] .page-404,
+[data-theme="dark"] .page-privacidad,
+[data-theme="dark"] .page-offline {
+  --color-fondo: #14161E;
+  --color-texto: #F2F0EA;
+  --color-texto-suave: #B3B0C8;
+  --color-primario: #6BB4F2;
+  --color-primario-oscuro: #9ACBFA;
+  --color-tarjeta: #1E2230;
+  --color-pildora: #252B33;
+  --color-borde: #39405A;
+  --color-acento: #F0B472;
+  --color-foco: #8FCBFF;
+  --color-peligro: #F2907A;
+  --nota-fondo: #33261E;
+  --nota-borde: #4E3A28;
+  --texto-sobre-primario: #14161E;
+  --texto-sobre-peligro: #14161E;
+  --texto-sobre-acento: #14161E;
+  --cabecera-fondo: #0F2833;
+  --cabecera-fondo-2: #0A1E27;
+  --cabecera-texto: #EAF4FA;
+  --cabecera-texto-punto: #F0B472;
+  --acento-tramites: #6BB4F2;
+  --acento-salud: #F09BC0;
+  --acento-vida-diaria: #F0B472;
+  --acento-finanzas: #7BD389;
+  --acento-vivienda: #C3A0F0;
+  --acento-trabajo: #8FCBFF;
+  --acento-legal: #E0B85C;
+}
+
+/* Mismo juego que el [data-theme="contrast"] de arriba, y por el mismo
+   motivo: estas páginas redeclaran los tokens sobre el <body>, así que
+   sus valores ganan a los de html y no pueden quedarse en la paleta
+   negra de la cabecera del bloque. El papel es blanco (lo fija el
+   bloque compartido de locale-picker.css) y una tarjeta negra dejaba
+   texto negro sobre negro. */
+[data-theme="contrast"] .page-about,
+[data-theme="contrast"] .page-legal,
+[data-theme="contrast"] .page-team,
+[data-theme="contrast"] .page-config,
+[data-theme="contrast"] .page-404,
+[data-theme="contrast"] .page-privacidad,
+[data-theme="contrast"] .page-offline {
+  --color-fondo: #FFFFFF;
+  --color-texto: #000000;
+  --color-texto-suave: #202020;
+  --color-borde: #000000;
+  --color-primario: #000000;
+  --color-primario-oscuro: #0044AA;
+  --color-tarjeta: #FFFFFF;
+  --color-pildora: #FFFFFF;
+  --color-acento: #000000;
+  --color-foco: #B00020;
+  --color-peligro: #B00020;
+  --nota-fondo: #FFFFFF;
+  --nota-borde: #000000;
+  --texto-sobre-primario: #FFFFFF;
+  --texto-sobre-peligro: #FFFFFF;
+  --texto-sobre-acento: #FFFFFF;
+  --cabecera-fondo: #000000;
+  --cabecera-fondo-2: #000000;
+  --cabecera-texto: #FFFFFF;
+  --cabecera-texto-punto: #FFFF00;
+  --acento-tramites: #0044AA;
+  --acento-salud: #B00020;
+  --acento-vida-diaria: #7A3B00;
+  --acento-finanzas: #1E5B33;
+  --acento-vivienda: #4A2E7A;
+  --acento-trabajo: #1B3B6F;
+  --acento-legal: #4A3A00;
+}
+
+/* Opción "Auto": sin tema forzado, estas páginas siguen al sistema. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .page-about,
+  :root:not([data-theme]) .page-legal,
+  :root:not([data-theme]) .page-team,
+  :root:not([data-theme]) .page-config,
+  :root:not([data-theme]) .page-404,
+  :root:not([data-theme]) .page-privacidad,
+  :root:not([data-theme]) .page-offline {
+    --color-fondo: #14161E;
+    --color-texto: #F2F0EA;
+    --color-texto-suave: #B3B0C8;
+    --color-primario: #6BB4F2;
+    --color-primario-oscuro: #9ACBFA;
+    --color-tarjeta: #1E2230;
+    --color-pildora: #252B33;
+    --color-borde: #39405A;
+    --color-acento: #F0B472;
+    --color-foco: #8FCBFF;
+    --color-peligro: #F2907A;
+  --nota-fondo: #33261E;
+  --nota-borde: #4E3A28;
+    --texto-sobre-primario: #14161E;
+    --texto-sobre-peligro: #14161E;
+  --texto-sobre-acento: #14161E;
+    --acento-tramites: #6BB4F2;
+    --acento-salud: #F09BC0;
+    --acento-vida-diaria: #F0B472;
+    --acento-finanzas: #7BD389;
+    --acento-vivienda: #C3A0F0;
+    --acento-trabajo: #8FCBFF;
+    --acento-legal: #E0B85C;
+  }
 }
 .page-about a,
 .page-legal a,
@@ -1208,10 +1400,57 @@ body.alto-contraste .juego-pista-frase .destacado {
 }
 
 .page-about header.cabecera,
+/* El botón de la cabecera se pinta sobre --color-primario, así que su
+   texto tiene que ser el "sobre primario". Sin esta regla gana el color
+   de enlace de `.page-* a` / `.boton-cta` y queda tono sobre tono
+   (1.53:1 sobre el azul de la cabecera, 1.00:1 en alto contraste). */
+.page-about header.cabecera .boton-cta,
+.page-about header.cabecera .boton-cta:visited,
+.page-legal header.cabecera .boton-cta,
+.page-legal header.cabecera .boton-cta:visited,
+.page-config header.cabecera .boton-cta,
+.page-config header.cabecera .boton-cta:visited,
+.page-404 header.cabecera .boton-cta,
+.page-404 header.cabecera .boton-cta:visited,
+.page-privacidad header.cabecera .boton-cta,
+.page-privacidad header.cabecera .boton-cta:visited,
+.page-offline header.cabecera .boton-cta,
+.page-offline header.cabecera .boton-cta:visited {
+  color: var(--cabecera-texto, var(--texto-sobre-primario, #fff));
+  background: var(--cabecera-boton-fondo, transparent);
+  border-color: var(--cabecera-texto, var(--texto-sobre-primario, #fff));
+}
+
+/* Los botones del cuerpo del 404 van sobre --color-primario / acento
+   sólidos, así que también necesitan el texto "sobre" ese color y no el
+   de enlace, que se leía a 1.30:1 sobre el azul. */
+.page-404 .error-404 .boton-cta {
+  color: var(--texto-sobre-primario, #fff);
+}
+.page-404 .error-404 .boton-cta.boton-secundario {
+  background: var(--color-primario);
+  color: var(--texto-sobre-primario, #fff);
+  border-color: var(--texto-sobre-primario, #fff);
+}
+.page-404 .error-404 .boton-cta:not(.boton-secundario) {
+  background: var(--color-acento);
+  color: var(--texto-sobre-acento, #fff);
+  border-color: var(--texto-sobre-acento, #fff);
+}
+
+.page-about header.cabecera,
 .page-legal header.cabecera,
-.page-config header.cabecera {
-  background: linear-gradient(135deg, var(--color-primario) 0%, var(--color-primario-oscuro) 100%);
-  color: #fff;
+.page-config header.cabecera,
+.page-404 header.cabecera,
+.page-privacidad header.cabecera,
+.page-offline header.cabecera {
+  /* El gradiente va con los tokens de cabecera, no con --color-primario:
+     en oscuro ese primario se aclara a azul y el `color: #fff` fijo
+     quedaba en 2.23:1. Se aplica a las cuatro páginas internas: si
+     falta en alguna, su cabecera se queda sin fondo y el texto blanco
+     queda sobre el crema de la página (1.04:1). */
+  background: linear-gradient(135deg, var(--cabecera-fondo, var(--color-primario)) 0%, var(--cabecera-fondo-2, var(--color-primario-oscuro)) 100%);
+  color: var(--cabecera-texto, #fff);
   text-align: center;
 }
 .page-about header.cabecera { padding: 2.5rem 1.25rem 2rem; }
@@ -1226,22 +1465,30 @@ body.alto-contraste .juego-pista-frase .destacado {
 .page-config .idioma-selector { margin-bottom: 1.25rem; }
 .page-about .lang-btn,
 .page-legal .lang-btn,
-.page-config .lang-btn {
+.page-config .lang-btn,
+.page-404 .lang-btn,
+.page-privacidad .lang-btn,
+.page-offline .lang-btn {
   font: inherit;
   font-weight: 700;
   padding: 0.4rem 0.9rem;
   border-radius: 999px;
-  border: 2px solid rgba(255, 255, 255, 0.6);
+  /* Viven dentro de la cabecera, así que van con sus tokens: el borde
+     y el texto blancos fijos quedaban a 1.71:1 con la cabecera clara. */
+  border: 2px solid var(--cabecera-borde, rgba(255, 255, 255, 0.6));
   background: transparent;
-  color: #fff;
+  color: var(--cabecera-texto, #fff);
   cursor: pointer;
 }
 .page-about .lang-btn[aria-pressed="true"],
 .page-legal .lang-btn[aria-pressed="true"],
-.page-config .lang-btn[aria-pressed="true"] {
-  background: #fff;
-  color: var(--color-primario-oscuro);
-  border-color: #fff;
+.page-config .lang-btn[aria-pressed="true"],
+.page-404 .lang-btn[aria-pressed="true"],
+.page-privacidad .lang-btn[aria-pressed="true"],
+.page-offline .lang-btn[aria-pressed="true"] {
+  background: var(--cabecera-texto, #fff);
+  color: var(--cabecera-fondo, var(--color-primario-oscuro));
+  border-color: var(--cabecera-texto, #fff);
 }
 .page-about .lang-btn + .lang-btn,
 .page-legal .lang-btn + .lang-btn,
@@ -1284,8 +1531,12 @@ body.alto-contraste .juego-pista-frase .destacado {
 .page-config nav.indice { margin-top: 1.25rem; }
 .page-about nav.indice a,
 .page-legal nav.indice a,
-.page-config nav.indice a {
-  color: #fff;
+.page-config nav.indice a,
+.page-privacidad nav.indice a,
+.page-offline nav.indice a {
+  /* Sobre la cabecera (azul solido), el color de enlace se leia a
+     1.53:1. Va con el token de cabecera, que si se adapta al tema. */
+  color: var(--cabecera-texto, #fff);
   text-decoration: none;
   border-bottom: 2px solid rgba(255, 255, 255, 0.4);
   padding-bottom: 2px;
@@ -1295,7 +1546,11 @@ body.alto-contraste .juego-pista-frase .destacado {
 .page-legal nav.indice a:hover,
 .page-legal nav.indice a:focus-visible,
 .page-config nav.indice a:hover,
-.page-config nav.indice a:focus-visible { border-color: #ffd7a8; }
+.page-config nav.indice a:focus-visible,
+.page-privacidad nav.indice a:hover,
+.page-privacidad nav.indice a:focus-visible,
+.page-offline nav.indice a:hover,
+.page-offline nav.indice a:focus-visible { border-color: var(--cabecera-texto, #ffd7a8); }
 
 .page-about main section,
 .page-legal main section,
@@ -1384,8 +1639,10 @@ body.alto-contraste .juego-pista-frase .destacado {
 .page-about .lista-colaborar li { margin-bottom: 0.75rem; }
 
 .page-legal .resumen {
-  background: #fdf6e7;
-  border: 1px solid #e8d8a8;
+  /* Fondo y borde con tokens: fijos, el crema claro se quedaba en el
+     tema oscuro y el texto claro encima quedaba en 1.06:1. */
+  background: var(--nota-fondo, #fdf6e7);
+  border: 1px solid var(--nota-borde, #e8d8a8);
   border-left: 5px solid var(--color-acento);
   border-radius: 10px;
   padding: 1rem 1.25rem;
@@ -1438,13 +1695,15 @@ body.alto-contraste .juego-pista-frase .destacado {
 .page-legal .btn:hover,
 .page-legal .btn:focus-visible,
 .page-config .btn:hover,
-.page-config .btn:focus-visible { background: var(--color-primario); color: #fff; }
+.page-config .btn:focus-visible { background: var(--color-primario); color: var(--texto-sobre-primario, #fff); }
 .page-about .pie-nota,
 .page-legal .pie-nota,
 .page-config .pie-nota {
   text-align: center;
   font-size: 0.85rem;
-  color: #666;
+  /* Gris fijo #666 daba 5.3:1 en claro pero se quedaba igual en
+     oscuro; con el token acompaña a cada tema. */
+  color: var(--color-texto-suave, #666);
   padding: 1.5rem 1.25rem 0;
 }
 
@@ -1455,18 +1714,18 @@ body.alto-contraste .juego-pista-frase .destacado {
 .page-about [data-lang-block],
 .page-legal [data-lang-block],
 .page-config [data-lang-block] { display: none; }
-.page-about html[data-lang="es"] [data-lang-block="es"],
-.page-legal html[data-lang="es"] [data-lang-block="es"],
-.page-config html[data-lang="es"] [data-lang-block="es"] { display: block; }
-.page-about html[data-lang="en"] [data-lang-block="en"],
-.page-legal html[data-lang="en"] [data-lang-block="en"],
-.page-config html[data-lang="en"] [data-lang-block="en"] { display: block; }
-.page-about html[data-lang="es"] span[data-lang-block="es"],
-.page-about html[data-lang="en"] span[data-lang-block="en"],
-.page-legal html[data-lang="es"] span[data-lang-block="es"],
-.page-legal html[data-lang="en"] span[data-lang-block="en"],
-.page-config html[data-lang="es"] span[data-lang-block="es"],
-.page-config html[data-lang="en"] span[data-lang-block="en"] { display: inline; }
+html[data-lang="es"] .page-about [data-lang-block="es"],
+html[data-lang="es"] .page-legal [data-lang-block="es"],
+html[data-lang="es"] .page-config [data-lang-block="es"] { display: block; }
+html[data-lang="en"] .page-about [data-lang-block="en"],
+html[data-lang="en"] .page-legal [data-lang-block="en"],
+html[data-lang="en"] .page-config [data-lang-block="en"] { display: block; }
+html[data-lang="es"] .page-about span[data-lang-block="es"],
+html[data-lang="en"] .page-about span[data-lang-block="en"],
+html[data-lang="es"] .page-legal span[data-lang-block="es"],
+html[data-lang="en"] .page-legal span[data-lang-block="en"],
+html[data-lang="es"] .page-config span[data-lang-block="es"],
+html[data-lang="en"] .page-config span[data-lang-block="en"] { display: inline; }
 
 /* --- config.html: settings / data-reset page (suite-wide §B.6.2
  * contract). The reset is a destructive action, so the button is given
@@ -1502,8 +1761,10 @@ body.alto-contraste .juego-pista-frase .destacado {
 .page-config .nota {
   margin-top: 1rem;
   padding: 0.75rem 1rem;
-  background: #fdf6e7;
-  border: 1px solid #e8d8a8;
+  /* Fondo y borde con tokens: fijos, el crema claro se quedaba en el
+     tema oscuro y el texto claro encima quedaba en 1.06:1. */
+  background: var(--nota-fondo, #fdf6e7);
+  border: 1px solid var(--nota-borde, #e8d8a8);
   border-left: 5px solid var(--color-acento);
   border-radius: 10px;
   font-size: 0.95rem;
@@ -1522,7 +1783,7 @@ body.alto-contraste .juego-pista-frase .destacado {
   padding: 0.6rem 1.1rem;
   border-radius: 999px;
   border: 2px solid var(--color-peligro);
-  color: #fff;
+  color: var(--texto-sobre-peligro, #fff);
   background: var(--color-peligro);
   cursor: pointer;
 }
@@ -1607,7 +1868,7 @@ body.alto-contraste .juego-pista-frase .destacado {
 /* ---------- Responsive: tablet (641px–1023px) ----------
    Puente entre el mobile (<=640) y el desktop ancho (>=1024). El layout
    ya es de una columna en mobile, así que aquí sobre todo engordamos
-   tipografía y damos más padding a las tarjetas del diccionario. */
+   tipografía y damos m¡s padding a las tarjetas del diccionario. */
 @media (min-width: 641px) and (max-width: 1023px) {
   .cabecera h1 { font-size: 1.85rem; }
   .detalle { padding: 1.5rem 1.75rem 2rem; }
@@ -1616,8 +1877,8 @@ body.alto-contraste .juego-pista-frase .destacado {
 
 /* ---------- Responsive: escritorio ancho (>=1024px) ----------
    El diccionario ya limita el ancho del contenido (envoltorio max-width
-   900px), pero en monitores grandes el texto se ve pequeño y las tarjetas
-   muy comprimidas verticalmente. Engordamos tipografía, damos más aire
+   900px), pero en monitores grandes el texto se ve pequeÃƒÂ±o y las tarjetas
+   muy comprimidas verticalmente. Engordamos tipografía, damos m¡s aire
    y activamos un layout de dos columnas en el detalle para usar el
    espacio horizontal sobrante (pictograma a la izquierda, ficha a la
    derecha). En tablets y mobile sigue apilado. */
@@ -1629,7 +1890,7 @@ body.alto-contraste .juego-pista-frase .destacado {
   .detalle .definicion { font-size: 1.15rem; }
   .detalle .ejemplo { font-size: 1.1rem; }
   /* Dos columnas en el detalle (pictograma | ficha), 1fr y 2fr para que
-     la ficha tenga más sitio que la imagen. Solo cuando hay imagen
+     la ficha tenga m¡s sitio que la imagen. Solo cuando hay imagen
      presente (.detail-image que es la clase del <img> inyectada por
      app.js al renderizar una entrada con pictograma). */
   .detalle .detalle-cabecera {

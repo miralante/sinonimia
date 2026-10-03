@@ -90,7 +90,7 @@ const I18N = {
     languageName_en: "inglés",
     alsoKnownAs: "Se puede decir también",
     inASentence: "En una frase de cada día",
-    saidSimply: "Dicho de shape más sencilla:",
+    saidSimply: "Dicho de forma más sencilla:",
     alreadyDiscovered: "Ya descubierta",
 
     wordNavLabel: "Ir a otra palabra",

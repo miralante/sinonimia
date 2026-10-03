@@ -31,7 +31,16 @@ async function main() {
   assert.ok(version, 'sw.js debe declarar VERSION');
   const filesBlock = sw.match(/(?:FILES|ARCHIVOS)\s*=\s*\[([\s\S]*?)\]/);
   assert.ok(filesBlock, 'sw.js debe declarar FILES o ARCHIVOS');
-  const files = [...filesBlock[1].matchAll(/['"]([^'"]+)['"]/g)].map(match => match[1]);
+  /* Los comentarios de la lista no son rutas. El array lleva un
+     comentario que explica por qué los scripts de team-page y del 404
+     tienen que ser externos, y ese comentario cita la CSP
+     (`script-src 'self'`). Sin limpiarlos, el extractor leía ese
+     'self' como un fichero más y el smoke fallaba con
+     "Falta en disco: self" sin que faltara nada. */
+  const filesSource = filesBlock[1]
+    .replace(/\/\*[\s\S]*?\*\//g, '')
+    .replace(/(^|[^:])\/\/[^\n]*/g, '$1');
+  const files = [...filesSource.matchAll(/['"]([^'"]+)['"]/g)].map(match => match[1]);
   assert.ok(files.length > 0, 'La lista de caché no puede estar vacía');
   for (const relative of files) {
     assert.ok(fs.existsSync(path.join(ROOT, relative.replace(/^\.\//, ''))), `Falta en disco: ${relative}`);

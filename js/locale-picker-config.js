@@ -23,10 +23,17 @@ window.LocalePickerConfig = {
   defaultLocale: 'en',
   settingsHref: 'config/',
   onChange: function (locale) {
-    /* Sinonimia hashes the current language into the URL so deep
-       links to specific words stay scoped. Match the existing
-       behaviour: location.hash = "#/<locale>/". The hashchange
-       listener in app.js picks it up and re-renders. */
+    /* En el 404 no hay hash al que ir: esa página publica
+       window.SinonimiaNotFound.setLanguage (js/notfound-page.js) y se
+       repinta en el idioma nuevo sin moverse de sitio. Si no —es decir,
+       en index.html— el comportamiento de siempre: el idioma viaja en el
+       hash para que los enlaces profundos a una palabra sigan apuntando
+       a la versión correcta. El hashchange de app.js recoge el cambio y
+       vuelve a pintar. */
+    if (window.SinonimiaNotFound && typeof window.SinonimiaNotFound.setLanguage === 'function') {
+      window.SinonimiaNotFound.setLanguage(locale);
+      return;
+    }
     if (typeof location !== 'undefined') {
       location.hash = '#/' + locale + '/';
     }
