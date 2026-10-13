@@ -94,6 +94,7 @@ const I18N = {
     externalWikipediaUrl: "https://es.wikipedia.org/w/index.php?search={q}",
     externalOpensNote: "se abre en otra pestaña",
     wordNotFound: "No hemos encontrado esa palabra.",
+    dictionaryEntryName: "Entrada del diccionario: {word}",
 
     backToSearch: "← Volver al buscador",
     viewInOtherLanguage: "🌐 Ver en {idioma}: {word}",
@@ -234,6 +235,7 @@ const I18N = {
     externalWikipediaUrl: "https://en.wikipedia.org/w/index.php?search={q}",
     externalOpensNote: "opens in a new tab",
     wordNotFound: "We couldn't find that word.",
+    dictionaryEntryName: "Dictionary entry: {word}",
 
     backToSearch: "← Back to search",
     viewInOtherLanguage: "🌐 See it in {idioma}: {word}",

@@ -119,6 +119,21 @@
       keys.rest.indexOf(normalizedQuery) !== -1;
   }
 
+  // When a search exactly matches a synonym, show the word the person typed
+  // as the result label while keeping the canonical entry as its destination.
+  function exactSearchSynonym(entry, normalizedQuery) {
+    if (!normalizedQuery) return "";
+    for (var i = 0; i < entry.synonyms.length; i++) {
+      if (normalize(entry.synonyms[i]) === normalizedQuery) return entry.synonyms[i];
+    }
+    return "";
+  }
+
+  function displayedSearchSynonym(entry, normalizedQuery) {
+    var synonym = exactSearchSynonym(entry, normalizedQuery);
+    return synonym ? synonym.charAt(0).toLocaleUpperCase(currentLanguage) + synonym.slice(1) : "";
+  }
+
   // Sorted fresh from activeDictionary on every call (never cached) so it
   // always reflects whatever words are currently in js/data.<lang>.js — the
   // dictionary is under active ingestion and gains new entries often, and
@@ -188,8 +203,9 @@
     });
   }
 
-  function wordLink(id) {
-    return "#/" + currentLanguage + "/word/" + id;
+  function wordLink(id, displayWord) {
+    var href = "#/" + currentLanguage + "/word/" + id;
+    return displayWord ? href + "/" + encodeURIComponent(displayWord) : href;
   }
 
   // Only PAGE_SIZE cards are in the DOM at a time; "show more" appends the
@@ -204,7 +220,8 @@
     var li = document.createElement("li");
     li.className = "card";
     var a = document.createElement("a");
-    a.href = wordLink(entry.id);
+    var searchAlias = displayedSearchSynonym(entry, normalize(searchInput.value || ""));
+    a.href = wordLink(entry.id, searchAlias);
     a.className = "card-enlace";
 
     var img = document.createElement("img");
@@ -214,7 +231,7 @@
     img.loading = "lazy";
 
     var h3 = document.createElement("h3");
-    h3.textContent = entry.word;
+    h3.textContent = searchAlias || entry.word;
     var def = document.createElement("p");
     def.className = "short-definition";
     def.textContent = entry.definition;
@@ -349,12 +366,13 @@
     return el;
   }
 
-  function renderDetail(id) {
+  function renderDetail(id, displayWord) {
     var entry = entryById.get(id);
+    var searchAlias = displayWord && displayedSearchSynonym(entry || { synonyms: [] }, normalize(displayWord));
     if (entry && !SinonimiaDictionary.hasDetail(entry)) {
       // The list only carries the light index; the example sentences and
       // translation links live in a small per-word chunk fetched on demand.
-      withDetails([entry], function () { renderDetail(id); }, function () {
+      withDetails([entry], function () { renderDetail(id, searchAlias); }, function () {
         showView("detalle");
         showUnavailable(detailView, "#/" + currentLanguage + "/");
       });
@@ -396,8 +414,15 @@
 
     var h2 = document.createElement("h2");
     h2.tabIndex = -1;
-    h2.textContent = entry.word;
+    h2.textContent = searchAlias || entry.word;
     titleBox.appendChild(h2);
+
+    if (searchAlias) {
+      var canonicalName = document.createElement("p");
+      canonicalName.className = "detail-canonical-name";
+      canonicalName.textContent = t("dictionaryEntryName", { word: entry.word });
+      titleBox.appendChild(canonicalName);
+    }
 
     var topicPill = document.createElement("span");
     topicPill.className = "tema-pill";
@@ -495,7 +520,7 @@
     wordNav.appendChild(buildWordNavLink("next", nextEntry));
     detailView.appendChild(wordNav);
 
-    document.title = entry.word + t("detailTitleSuffix");
+    document.title = (searchAlias || entry.word) + t("detailTitleSuffix");
     // The hash changes before this view is rebuilt. On mobile browsers that
     // can leave the viewport at the old document position (often the footer).
     // Focus the heading for accessibility without letting the browser choose
@@ -722,7 +747,11 @@
     }
 
     if (parts[1] === "word" && parts[2]) {
-      renderDetail(parts[2]);
+      var displayWord = "";
+      if (parts[3]) {
+        try { displayWord = decodeURIComponent(parts[3]); } catch (e) { displayWord = ""; }
+      }
+      renderDetail(parts[2], displayWord);
     } else if (parts[1] === "juego" && (parts[2] === "word" || parts[2] === "palabra")) {
       renderWordGame();
     } else if (parts[1] === "juego" && parts[2] === "frase") {

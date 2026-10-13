@@ -656,6 +656,11 @@ main {
   color: var(--color-primario-oscuro);
 }
 
+.detail-canonical-name {
+  margin: 0.2rem 0 0;
+  color: var(--color-texto-secundario, #555);
+}
+
 .tema-pill {
   display: inline-block;
   background: var(--color-fondo);
