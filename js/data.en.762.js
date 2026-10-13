@@ -16,5 +16,5 @@
     return parts.length > 0 && parts.every((part) => numericWords.has(part)) ||
       parts.length > 2 && parts.includes("and") && parts.every((part) => part === "and" || numericWords.has(part));
   };
-  DICCIONARIOS.en = DICCIONARIOS.en.filter((entry) => !isNumberOrOrdinal(entry.word) && !lateEnglishHeadwords.has(normalize(entry.word)));
+  DICCIONARIOS.en = DICCIONARIOS.en.filter((entry) => !isNumberOrOrdinal(entry.word));
 })();

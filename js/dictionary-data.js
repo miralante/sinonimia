@@ -121,7 +121,7 @@ globalThis.SINONIMIA_DICTIONARY_DATA = {
     "es": {
       count: 62371,
       index: [
-        {"file":"js/dict.es.idx.1.js","src":"js/dict.es.idx.1.js?v=9a8e11fa46"},
+        {"file":"js/dict.es.idx.1.js","src":"js/dict.es.idx.1.js?v=4d8063d8cb"},
         {"file":"js/dict.es.idx.2.js","src":"js/dict.es.idx.2.js?v=b76ab95d49"},
         {"file":"js/dict.es.idx.3.js","src":"js/dict.es.idx.3.js?v=8a6f63f6ce"},
         {"file":"js/dict.es.idx.4.js","src":"js/dict.es.idx.4.js?v=81a99a9776"},
