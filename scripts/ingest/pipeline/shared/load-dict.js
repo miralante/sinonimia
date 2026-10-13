@@ -12,28 +12,27 @@
 
 const fs = require('fs');
 const path = require('path');
+const vm = require('vm');
 
 const ROOT = path.resolve(__dirname, '..', '..', '..', '..');
+const { applySynonymMerges } = require('./apply-synonym-merges');
 
 function loadDict(fileRel) {
-  const match = /^js\/data\.([a-z0-9-]+)\.js$/.exec(fileRel);
-  const files = [fileRel];
-  if (match) {
-    const shardPattern = new RegExp(`^data\\.${match[1]}\\.\\d+\\.js$`);
-    const shardFiles = fs.readdirSync(path.join(ROOT, 'js'))
-      .filter((name) => shardPattern.test(name))
-      .sort((a, b) => Number(a.match(/\.(\d+)\.js$/)[1]) - Number(b.match(/\.(\d+)\.js$/)[1]));
-    files.push(...shardFiles.map((name) => `js/${name}`));
+  const ctx = {};
+  ctx.window = ctx;
+  vm.createContext(ctx);
+  const manifestPath = path.join(ROOT, 'js/dictionary-manifest.js');
+  vm.runInContext(fs.readFileSync(manifestPath, 'utf8'), ctx, { filename: 'js/dictionary-manifest.js' });
+  const manifest = ctx.SINONIMIA_DICTIONARY_SHARDS;
+  // Load every language first because later source shards can contain patches
+  // to either dictionary. Then run the requested language's merge registry.
+  for (const lang of Object.keys(manifest)) {
+    for (const shard of manifest[lang] || []) {
+      const shardPath = path.join(ROOT, shard.file);
+      vm.runInContext(fs.readFileSync(shardPath, 'utf8'), ctx, { filename: shard.file });
+    }
   }
-  global.__DICT = undefined;
-  for (const relativePath of files) {
-    const code = fs.readFileSync(path.join(ROOT, relativePath), 'utf8')
-      .replace(/window\.DICCIONARIOS/g, 'global.__DICT')
-      .replace(/\bDICCIONARIOS\b/g, 'global.__DICT');
-    // eslint-disable-next-line no-eval
-    eval(code);
-  }
-  return global.__DICT || {};
+  return applySynonymMerges(ctx.DICCIONARIOS || {});
 }
 
 module.exports = { loadDict };

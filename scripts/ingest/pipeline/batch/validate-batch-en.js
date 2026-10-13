@@ -4,6 +4,7 @@
 //      [path/to/batch_<lang>_<category>_<n>.js]
 //      (defaults to scripts/ingest/batches/batch_en_corpus_nuevo.js)
 const { loadDict } = require("../shared/load-dict.js");
+const { findSynonymOverlaps } = require("../shared/find-synonym-overlaps.js");
 
 const batch = require(process.argv[2] || "../batches/batch_en_corpus_nuevo.js");
 const DICCIONARIOS = {
@@ -49,6 +50,9 @@ batch.forEach((b) => {
       problems++;
     }
   }
+});
+findSynonymOverlaps(batch, DICCIONARIOS.en).forEach((overlap) => {
+  console.log(`REVIEW possible same sense: ${overlap.candidate} ↔ ${overlap.existing} (${overlap.relation})`);
 });
 
 // Conflictos con data.en.js

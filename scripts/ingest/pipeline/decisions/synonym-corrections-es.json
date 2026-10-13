@@ -1,0 +1,14 @@
+[
+  { "entry": "arpa", "remove": ["matalón"] },
+  { "entry": "defensa", "remove": ["parachoques"] },
+  {
+    "entry": "matalote",
+    "remove": ["matalón (caballo)"],
+    "set": {
+      "definition": "Marinero o compañero de a bordo en un barco.",
+      "synonyms": ["marinero", "compañero de a bordo"],
+      "example": { "word": "matalote", "text": "El matalote trabajó junto al marinero en el barco." },
+      "exampleSynonym": { "word": "marinero", "text": "El marinero trabajó junto al matalote en el barco." }
+    }
+  }
+]

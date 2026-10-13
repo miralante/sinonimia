@@ -175,6 +175,19 @@ un sinónimo ambiguo. Las entradas de `pensión` en `js/data.es.js` y `pension`
 en `js/data.en.js` son el caso de referencia. El comportamiento técnico está
 descrito en [la forma de la entrada](tecnico.md#5-forma-de-una-entrada).
 
+### 3.4 Un concepto, una ficha y varios nombres de búsqueda
+
+Cuando dos lemas expresan la misma acepción, el diccionario conserva una
+sola ficha y guarda los demás lemas como sinónimos. Buscar cualquiera de
+ellos lleva al mismo concepto y muestra el término que la persona escribió.
+Antes de crear una ficha, la ingesta revisa las coincidencias entre sinónimos
+y otros lemas, junto con la definición y la categoría. Estas señales proponen
+una revisión; no autorizan una fusión automática.
+
+Solo se fusionan fichas cuando describen la misma acepción. Un sinónimo que
+coincide solo en uno de varios significados, o dos definiciones distintas,
+conservan fichas separadas. Los homónimos siguen la regla de §3.3.
+
 ### 3.7 Comunicación persuasiva al servicio del aprendizaje
 
 Sinonimia es una herramienta de comprensión, no un producto de consumo.

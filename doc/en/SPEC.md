@@ -197,6 +197,19 @@ detail. The two entries for `pensión` (`es`) and `pension` (`en`) in
 `js/data.*.js` are the reference case — copy them if you need to add
 another homonym.
 
+### One concept, one entry, several searchable names
+
+When two headwords express the same sense, the dictionary keeps one entry
+and stores the other headwords as synonyms. Searching any of them reaches
+the same concept and shows the term the person typed. Before creating an
+entry, ingestion reviews matches between synonyms and other headwords,
+together with their definitions and topics. These signals propose a review;
+they do not authorize an automatic merge.
+
+Merge entries only when they describe the same sense. A synonym that overlaps
+only in one of several meanings, or two entries with different definitions,
+keeps separate entries. Homonyms follow the rule above.
+
 ## Persuasive communication in service of learning
 
 Sinonimia is a comprehension tool, not a consumer product. Its

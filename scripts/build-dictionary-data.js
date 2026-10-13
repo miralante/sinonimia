@@ -45,6 +45,7 @@ const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 const crypto = require("crypto");
+const { applySynonymMerges } = require("./ingest/pipeline/shared/apply-synonym-merges");
 
 const ROOT = path.join(__dirname, "..");
 const JS_DIR = path.join(ROOT, "js");
@@ -148,6 +149,14 @@ function build(dictionaries) {
     for (let k = 0; k < DETAIL_CHUNKS; k += 1) detailChunks.push({});
 
     entries.forEach(function (entry, position) {
+      if (typeof entry.id !== "string" || typeof entry.word !== "string" ||
+          typeof entry.definition !== "string" || !Array.isArray(entry.synonyms) ||
+          !entry.image || typeof entry.image.id !== "number" || typeof entry.image.alt !== "string" ||
+          !entry.example || typeof entry.example.word !== "string" || typeof entry.example.text !== "string" ||
+          !entry.exampleSynonym || typeof entry.exampleSynonym.word !== "string" ||
+          typeof entry.exampleSynonym.text !== "string" || typeof entry.situacion !== "string") {
+        throw new Error(lang + "/" + entry.id + ": invalid dictionary entry shape");
+      }
       Object.keys(entry).forEach(function (field) {
         if (!KNOWN_FIELDS.has(field)) {
           throw new Error(lang + "/" + entry.id + ": unknown field \"" + field +
@@ -274,7 +283,7 @@ function refreshSourceManifest() {
 
 function main() {
   const started = Date.now();
-  const dictionaries = loadSourceDictionaries();
+  const dictionaries = applySynonymMerges(loadSourceDictionaries());
   const result = build(dictionaries);
 
   const keep = new Set(result.files.map(function (f) { return f.path; }));

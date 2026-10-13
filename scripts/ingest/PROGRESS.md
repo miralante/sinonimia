@@ -12,8 +12,8 @@ versioned `pipeline/filters/rejected-words-{es,en}.txt` lists.
 
 | | Value |
 |---|---|
-| ES entries | 62.371 |
-| EN entries | 47.246 |
+| ES entries | 62.118 |
+| EN entries | 46.898 |
 | Full dictionary hygiene review | Completed for both languages |
 | Standalone cardinal and ordinal headwords removed | 62 ES; 134 EN |
 | Valid entries with empty cards | Reviewed and completed |
@@ -21,6 +21,7 @@ versioned `pipeline/filters/rejected-words-{es,en}.txt` lists.
 | Data build | Successful; `scripts/build-dictionary-data.js` |
 
 - On 2026-10-13, standalone number and ordinal headwords were excluded by the visible word only; compound terms were retained.
+- On 2026-10-13, synonym audits consolidated 253 Spanish and 348 English aliases into canonical entries, including identical duplicate headwords and reviewed reciprocal synonyms with matching definitions. All removed headwords and their synonyms remain searchable aliases; the full candidate report is reproducible with `audit-synonym-duplicates.js`. Two incorrect cross-references were removed (`Arpa` → *matalón* and `Defensa` → *parachoques*); the horse sense was separated from the sailor entry *matalote*.
 - The full Spanish and English dictionaries were reviewed alphabetically for
   conjugated verb forms, inaccurate definitions, invented or invalid words,
   and demonyms. Valid entries with empty cards were completed.

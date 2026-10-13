@@ -52,6 +52,25 @@ pictogram fixes (`apply-picto-fixes.js`), and bumping the `?v=`
 cache-busting hashes / `sw.js` `VERSION` (`scripts/check.js` reports
 the correct hash — copy it, don't recompute it by hand).
 
+### Synonym-based duplicate rule
+
+The dictionary models one sense with one entry. Before accepting a candidate,
+run `node scripts/ingest/pipeline/audit-synonym-duplicates.js es` (or `en`)
+and review cases where a synonym points to an existing headword. Mutual
+synonym references, matching definitions, and matching topics are strong
+signals, but never merge automatically: a shared synonym can describe only
+one sense, and bad source data can copy a definition to an unrelated word.
+When a merge is confirmed, record the canonical and alias ids in
+`pipeline/decisions/synonym-merges-<lang>.json`; the builder and shared
+ingestion loader keep one entry and preserve the removed lemmata as searchable
+synonyms. Record confirmed bad synonym links or related editorial corrections in
+`pipeline/decisions/synonym-corrections-<lang>.json`. The UI displays the alias the person searched. Keep separate
+entries for distinct senses and homonyms. Each batch validator also reports
+when a candidate's synonyms overlap existing headwords, or vice versa, so the
+review happens before insertion. Run the audit with `--out path.json` to save
+the complete report; the default output is limited to its highest-priority
+candidates.
+
 **Pictogram visual verification, cheaply**: fetch the ARASAAC
 `_300.png` preset (300×300, ≈120 vision tokens) for the temporary copy
 you view with the Read tool to decide — not the `_500.png` (≈333
@@ -100,6 +119,7 @@ scripts/ingest/
 ├── pipeline/          ← ingestion pipeline + candidate sourcing
 │   ├── batch/         ← runs on every batch: validate → dedupe → ingest → pictograms
 │   ├── candidates/    ← one script per external source (or per merged pool) — see below
+│   ├── decisions/     ← reviewed editorial synonym merges
 │   ├── picto-review/  ← second workflow: fixes pictograms already in js/data.<lang>.js
 │   ├── filters/       ← shared pre-filters every candidate-sourcing script must consult
 │   │                    (includes rejected-words-es.txt/rejected-words-en.txt, hand-curated
@@ -223,6 +243,7 @@ These are run on every batch, in roughly this order.
 | --- | --- |
 | `validate-batch-es.js` / `validate-batch-en.js` | Pre-flight check on a batch file (same easy-read rules as `scripts/check.js`, but scoped to the batch). Catches `ejemplo.palabra` not in `ejemplo.texto`, missing required fields, etc., before they land in `js/data.<lang>.js`. |
 | `dedupe-batch.js` | Drops entries from a batch whose `id` or `palabra` already exists in `js/data.es.js`. Outputs the kept entries to stdout. |
+| `audit-synonym-duplicates.js` | Lists entries connected because a synonym matches another headword. Ranks mutual links with identical definitions first; output is a review report, never an automatic merge. |
 | `ingest-batch.js` | The main ingest: appends a deduped, validated batch to `js/data.<lang>.js`, searching ARASAAC for each entry's pictogram and downloading it into `img/` if missing. |
 | `insert-batch-es.js` / `insert-batch-en.js` | Format-only variant: writes the batch to `js/data.<lang>.js` without the ARASAAC search (use this when the pictogram is already known or the batch has no pictogram terms). |
 | `inject-batch-translations.js` | After an EN batch is inserted, injects the `traduccion: { en: "<id-en>" }` field into the corresponding ES entries (mirrors what `scripts/inject-translations.js` does for the global `scripts/.mapping.js`). |

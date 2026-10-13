@@ -810,7 +810,7 @@ window.SINONIMIA_DICTIONARY_SHARDS = {
   ],
   en: [
     { file: "js/data.en.js", src: "js/data.en.js?v=bc9a0c6071" },
-    { file: "js/data.en.2.js", src: "js/data.en.2.js?v=dea0da51ad" },
+    { file: "js/data.en.2.js", src: "js/data.en.2.js?v=ae66b61663" },
     { file: "js/data.en.3.js", src: "js/data.en.3.js?v=610e913071" },
     { file: "js/data.en.4.js", src: "js/data.en.4.js?v=2a18d2ea49" },
     { file: "js/data.en.5.js", src: "js/data.en.5.js?v=7b5f4a4fb8" },

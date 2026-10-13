@@ -1,0 +1,6 @@
+[
+  {
+    "entry": "muezzin",
+    "remove": ["muezzin variant"]
+  }
+]

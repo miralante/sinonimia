@@ -22,6 +22,7 @@
   var activeDictionary = [];
   var entryById = new Map();
   var entryByName = new Map();
+  var entryBySynonym = new Map();
   var suiteAudioContext = null;
 
   function playSuiteSound(kind) {
@@ -87,11 +88,18 @@
     activeDictionary = SinonimiaDictionary.entries(currentLanguage);
     entryById = new Map();
     entryByName = new Map();
+    entryBySynonym = new Map();
     activeDictionary.forEach(function (entry) {
       entryById.set(entry.id, entry);
       var key = normalize(entry.word);
       if (!entryByName.has(key)) entryByName.set(key, []);
       entryByName.get(key).push(entry);
+      entry.synonyms.forEach(function (synonym) {
+        var synonymKey = normalize(synonym);
+        if (!entryBySynonym.has(synonymKey)) entryBySynonym.set(synonymKey, []);
+        var matches = entryBySynonym.get(synonymKey);
+        if (!matches.some(function (match) { return match.id === entry.id; })) matches.push(entry);
+      });
     });
   }
 
@@ -119,6 +127,13 @@
       keys.rest.indexOf(normalizedQuery) !== -1;
   }
 
+  function matchesExactSearch(entry, normalizedQuery) {
+    if (searchKeys(entry).word === normalizedQuery) return true;
+    return entry.synonyms.some(function (synonym) {
+      return normalize(synonym) === normalizedQuery;
+    });
+  }
+
   // When a search exactly matches a synonym, show the word the person typed
   // as the result label while keeping the canonical entry as its destination.
   function exactSearchSynonym(entry, normalizedQuery) {
@@ -130,6 +145,11 @@
   }
 
   function displayedSearchSynonym(entry, normalizedQuery) {
+    // Substitute only when the searched term has no headword and identifies
+    // one entry. Otherwise alias cards could duplicate or obscure real names.
+    if (entryByName.has(normalizedQuery)) return "";
+    var synonymMatches = entryBySynonym.get(normalizedQuery) || [];
+    if (synonymMatches.length !== 1 || synonymMatches[0].id !== entry.id) return "";
     var synonym = exactSearchSynonym(entry, normalizedQuery);
     return synonym ? synonym.charAt(0).toLocaleUpperCase(currentLanguage) + synonym.slice(1) : "";
   }
@@ -154,9 +174,16 @@
 
   function filteredEntries() {
     var query = normalize(searchInput.value || "");
-    return alphabeticalEntries().filter(function (entry) {
+    var scopedEntries = alphabeticalEntries().filter(function (entry) {
       if (state.topic !== "todos" && entry.situacion !== state.topic) return false;
       if (state.letter && searchKeys(entry).word.charAt(0) !== state.letter) return false;
+      return true;
+    });
+    if (!query) return scopedEntries;
+    var exactMatches = scopedEntries.filter(function (entry) {
+      return matchesExactSearch(entry, query);
+    });
+    return exactMatches.length ? exactMatches : scopedEntries.filter(function (entry) {
       return matchesSearch(entry, query);
     });
   }

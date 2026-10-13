@@ -257,6 +257,19 @@ entradas deben incluir los ids equivalentes en `translation`. Mantén el enlace
 recíproco cuando se añade una relación nueva; usa un array en el registro que
 enlace con varias entradas.
 
+La deduplicación por sinónimos se aplica al construir y cargar el diccionario:
+`scripts/ingest/pipeline/decisions/synonym-merges-<idioma>.json` conserva las
+fusiones editoriales aprobadas. El proceso incorpora el lema eliminado y sus
+sinónimos a `synonyms[]` de la ficha canónica y omite la ficha duplicada del
+índice generado. La interfaz conserva el alias buscado como título y enlaza
+con el mismo `id`. Las coincidencias de `audit-synonym-duplicates.js` son
+candidatas: se confirma que expresan la misma acepción antes de añadir una
+fusión. Las relaciones de sinónimos incorrectas y otras correcciones editoriales
+se guardan en `synonym-corrections-<idioma>.json`.
+
+Al buscar, las coincidencias exactas con el lema o un sinónimo tienen prioridad
+sobre las coincidencias parciales dentro de una definición u otra frase.
+
 Ejemplo de traducción uno-a-uno y uno-a-varios:
 
 ```js

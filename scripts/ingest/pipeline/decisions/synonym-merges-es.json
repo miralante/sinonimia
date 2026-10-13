@@ -1,0 +1,985 @@
+[
+  {
+    "canonical": "alcoholismo",
+    "aliases": [
+      "etilismo"
+    ]
+  },
+  {
+    "canonical": "ablandabrevas",
+    "alias": "ablandahigos"
+  },
+  {
+    "canonical": "acatalecto",
+    "alias": "acatalectico"
+  },
+  {
+    "canonical": "acebal",
+    "aliases": [
+      "acebedo",
+      "acebeda"
+    ]
+  },
+  {
+    "canonical": "albarejo",
+    "alias": "albarigo"
+  },
+  {
+    "canonical": "alemanesco",
+    "aliases": [
+      "alemanisco",
+      "alimanisco"
+    ]
+  },
+  {
+    "canonical": "almueza",
+    "alias": "almuezada"
+  },
+  {
+    "canonical": "anonadador",
+    "alias": "anonadante"
+  },
+  {
+    "canonical": "anteanteayer",
+    "aliases": [
+      "anteantier",
+      "trasanteayer",
+      "trasantier"
+    ]
+  },
+  {
+    "canonical": "astringir",
+    "aliases": [
+      "astrenir",
+      "astrinir"
+    ]
+  },
+  {
+    "canonical": "atemperador",
+    "alias": "atemperante"
+  },
+  {
+    "canonical": "barrigon",
+    "aliases": [
+      "barrigudo",
+      "panzon",
+      "panzudo",
+      "tripon",
+      "tripudo",
+      "ventrudo",
+      "ventroso"
+    ]
+  },
+  {
+    "canonical": "bembon",
+    "alias": "bembudo"
+  },
+  {
+    "canonical": "bisilabo",
+    "alias": "disilabo"
+  },
+  {
+    "canonical": "borbollon",
+    "alias": "borboton"
+  },
+  {
+    "canonical": "casimir",
+    "alias": "casimira"
+  },
+  {
+    "canonical": "casuca",
+    "alias": "casucho"
+  },
+  {
+    "canonical": "chiquilicuatre",
+    "alias": "chiquilicuatro"
+  },
+  {
+    "canonical": "chirreador",
+    "aliases": [
+      "chirriador",
+      "chirriante",
+      "chirriadero"
+    ]
+  },
+  {
+    "canonical": "cigonino",
+    "alias": "ciguenato"
+  },
+  {
+    "canonical": "dieciochoavo",
+    "alias": "dieciochavo"
+  },
+  {
+    "canonical": "dubitable",
+    "alias": "dudable"
+  },
+  {
+    "canonical": "esmirriado",
+    "alias": "desmirriado"
+  },
+  {
+    "canonical": "esteroideo",
+    "alias": "esteroidico"
+  },
+  {
+    "canonical": "estetoscopio",
+    "aliases": [
+      "fonendoscopio",
+      "fonendo"
+    ]
+  },
+  {
+    "canonical": "fariseismo",
+    "alias": "farisaismo"
+  },
+  {
+    "canonical": "gordiflon",
+    "aliases": [
+      "gordinflon",
+      "gordinflas"
+    ]
+  },
+  {
+    "canonical": "hercio",
+    "alias": "hertz"
+  },
+  {
+    "canonical": "hilomorfismo",
+    "alias": "hilemorfismo"
+  },
+  {
+    "canonical": "hispanohablante",
+    "alias": "hispanoparlante"
+  },
+  {
+    "canonical": "incomprensibilidad",
+    "alias": "incomprehensibilidad"
+  },
+  {
+    "canonical": "infravalorar",
+    "alias": "minusvalorar"
+  },
+  {
+    "canonical": "mancarron",
+    "alias": "matalon"
+  },
+  {
+    "canonical": "maullido",
+    "alias": "maullo"
+  },
+  {
+    "canonical": "menstrual",
+    "alias": "catamenial"
+  },
+  {
+    "canonical": "merendola",
+    "alias": "merendona"
+  },
+  {
+    "canonical": "mofletudo",
+    "aliases": [
+      "cacheton",
+      "molletudo"
+    ]
+  },
+  {
+    "canonical": "nalgon",
+    "aliases": [
+      "nalgudo",
+      "fundillon",
+      "parrilludo"
+    ]
+  },
+  {
+    "canonical": "octagono",
+    "alias": "octogono"
+  },
+  {
+    "canonical": "orfanato",
+    "alias": "orfelinato"
+  },
+  {
+    "canonical": "paragolpes",
+    "aliases": [
+      "paragolpe",
+      "parachoques"
+    ]
+  },
+  {
+    "canonical": "penasco",
+    "alias": "penon"
+  },
+  {
+    "canonical": "plazoleta",
+    "alias": "plazuela"
+  },
+  {
+    "canonical": "previsibilidad",
+    "alias": "predictibilidad"
+  },
+  {
+    "canonical": "robustez",
+    "alias": "robusteza"
+  },
+  {
+    "canonical": "semidesnatado",
+    "alias": "semidescremado"
+  },
+  {
+    "canonical": "sideral",
+    "alias": "sidereo"
+  },
+  {
+    "canonical": "sobreabundar",
+    "alias": "superabundar"
+  },
+  {
+    "canonical": "tragaperras",
+    "alias": "tragamonedas"
+  },
+  {
+    "canonical": "trasnoche",
+    "alias": "trasnocho"
+  },
+  {
+    "canonical": "vascohablante",
+    "alias": "vascoparlante"
+  },
+  {
+    "canonical": "velis",
+    "alias": "veliz"
+  },
+  {
+    "canonical": "venustez",
+    "alias": "venustidad"
+  },
+  {
+    "canonical": "vociferador",
+    "alias": "vociferante"
+  },
+  {
+    "canonical": "zeta",
+    "alias": "zeda"
+  },
+  {
+    "canonical": "zurrapiento",
+    "alias": "zurraposo"
+  },
+  {
+    "canonical": "jabega",
+    "aliases": [
+      "jabega-lexical1"
+    ]
+  },
+  {
+    "canonical": "cuilio",
+    "aliases": [
+      "cuilio-translated1"
+    ]
+  },
+  {
+    "canonical": "bellaqueria",
+    "alias": "bellacada"
+  },
+  {
+    "canonical": "dulzon",
+    "alias": "dulzarron"
+  },
+  {
+    "canonical": "embriagador",
+    "alias": "embriagante"
+  },
+  {
+    "canonical": "enajenador",
+    "alias": "enajenante"
+  },
+  {
+    "canonical": "encinar",
+    "alias": "encinal"
+  },
+  {
+    "canonical": "enfervorecer",
+    "alias": "enfervorizar"
+  },
+  {
+    "canonical": "enjuagadura",
+    "alias": "enjaguadura"
+  },
+  {
+    "canonical": "enmugrecer",
+    "alias": "enmugrar"
+  },
+  {
+    "canonical": "enrojecer",
+    "alias": "enrojar"
+  },
+  {
+    "canonical": "entremedio",
+    "alias": "entremediano"
+  },
+  {
+    "canonical": "enverdecer",
+    "alias": "reverdecer"
+  },
+  {
+    "canonical": "ergastulo",
+    "alias": "ergastula"
+  },
+  {
+    "canonical": "escarnecer",
+    "alias": "befar"
+  },
+  {
+    "canonical": "evocador",
+    "alias": "evocativo"
+  },
+  {
+    "canonical": "excerpta",
+    "alias": "excerta"
+  },
+  {
+    "canonical": "expresable",
+    "alias": "articulable"
+  },
+  {
+    "canonical": "falible",
+    "alias": "defectible"
+  },
+  {
+    "canonical": "falsopeto",
+    "alias": "farseto"
+  },
+  {
+    "canonical": "fantoche",
+    "alias": "guinol"
+  },
+  {
+    "canonical": "faramallero",
+    "alias": "faramallon"
+  },
+  {
+    "canonical": "ferruginoso",
+    "alias": "ferrugineo"
+  },
+  {
+    "canonical": "forcejeo",
+    "alias": "forcejo"
+  },
+  {
+    "canonical": "fotolitografia",
+    "alias": "litofotografia"
+  },
+  {
+    "canonical": "fraileno",
+    "alias": "frailengo"
+  },
+  {
+    "canonical": "friolento",
+    "alias": "friolero"
+  },
+  {
+    "canonical": "gatero",
+    "alias": "gatuno"
+  },
+  {
+    "canonical": "gesticulador",
+    "alias": "gesticulante"
+  },
+  {
+    "canonical": "giroscopio",
+    "alias": "giroscopo"
+  },
+  {
+    "canonical": "gubernativo",
+    "alias": "gobernativo"
+  },
+  {
+    "canonical": "godeno",
+    "alias": "godizo"
+  },
+  {
+    "canonical": "goloso",
+    "alias": "chuchero"
+  },
+  {
+    "canonical": "gracejada",
+    "alias": "bufonada"
+  },
+  {
+    "canonical": "granitico",
+    "alias": "berroqueno"
+  },
+  {
+    "canonical": "granujada",
+    "alias": "granujeria"
+  },
+  {
+    "canonical": "guardamangel",
+    "alias": "guardamangier"
+  },
+  {
+    "canonical": "guayabo",
+    "alias": "guayabero"
+  },
+  {
+    "canonical": "gulusmear",
+    "alias": "golosinear"
+  },
+  {
+    "canonical": "gusanear",
+    "alias": "hormiguear"
+  },
+  {
+    "canonical": "hamacar",
+    "alias": "hamaquear"
+  },
+  {
+    "canonical": "hampesco",
+    "alias": "hampo"
+  },
+  {
+    "canonical": "hayuco",
+    "alias": "hove"
+  },
+  {
+    "canonical": "hedentino",
+    "alias": "hedentina"
+  },
+  {
+    "canonical": "hocicon",
+    "alias": "hocicudo"
+  },
+  {
+    "canonical": "hominal",
+    "alias": "humanal"
+  },
+  {
+    "canonical": "incircunscrito",
+    "alias": "incircunscripto"
+  },
+  {
+    "canonical": "incivil",
+    "alias": "incivilizado"
+  },
+  {
+    "canonical": "indoeuropeo",
+    "alias": "indogermanico"
+  },
+  {
+    "canonical": "inhallable",
+    "alias": "inencontrable"
+  },
+  {
+    "canonical": "inmemorial",
+    "alias": "inmemorable"
+  },
+  {
+    "canonical": "inmerecido",
+    "alias": "inmerito"
+  },
+  {
+    "canonical": "inmunizador",
+    "alias": "inmunizante"
+  },
+  {
+    "canonical": "insinuador",
+    "alias": "insinuante"
+  },
+  {
+    "canonical": "intrascendente",
+    "alias": "intrascendental"
+  },
+  {
+    "canonical": "jabardillo",
+    "alias": "jabardo"
+  },
+  {
+    "canonical": "jicotea",
+    "alias": "hicotea"
+  },
+  {
+    "canonical": "jorro",
+    "alias": "arrastradero"
+  },
+  {
+    "canonical": "juraderia",
+    "alias": "juraduria"
+  },
+  {
+    "canonical": "kirie",
+    "alias": "kirieleison"
+  },
+  {
+    "canonical": "lobato",
+    "alias": "lobezno"
+  },
+  {
+    "canonical": "lodazal",
+    "alias": "barrizal"
+  },
+  {
+    "canonical": "ludria",
+    "alias": "lutria"
+  },
+  {
+    "canonical": "macadam",
+    "alias": "macadan"
+  },
+  {
+    "canonical": "majoleto",
+    "alias": "marjoleto"
+  },
+  {
+    "canonical": "manazo",
+    "alias": "manotazo"
+  },
+  {
+    "canonical": "manchadizo",
+    "alias": "manchoso"
+  },
+  {
+    "canonical": "mansejon",
+    "alias": "mansurron"
+  },
+  {
+    "canonical": "mareoso",
+    "alias": "mareador"
+  },
+  {
+    "canonical": "marihuanero",
+    "alias": "mariguanero"
+  },
+  {
+    "canonical": "marmaja",
+    "alias": "marcasita"
+  },
+  {
+    "canonical": "marrulla",
+    "alias": "marrulleria"
+  },
+  {
+    "canonical": "martillero",
+    "alias": "subastador"
+  },
+  {
+    "canonical": "martirizador",
+    "alias": "martirizante"
+  },
+  {
+    "canonical": "matarife",
+    "alias": "jifero"
+  },
+  {
+    "canonical": "mazdeismo",
+    "alias": "zoroastrismo"
+  },
+  {
+    "canonical": "milpa",
+    "alias": "maizal"
+  },
+  {
+    "canonical": "mnemonico",
+    "alias": "memoristico"
+  },
+  {
+    "canonical": "flotable",
+    "alias": "natatil"
+  },
+  {
+    "canonical": "negrura",
+    "alias": "negregura"
+  },
+  {
+    "canonical": "nomenclador",
+    "alias": "nomenclator"
+  },
+  {
+    "canonical": "obligatoriedad",
+    "alias": "forzosidad"
+  },
+  {
+    "canonical": "ocasionador",
+    "alias": "causador"
+  },
+  {
+    "canonical": "ofendedor",
+    "alias": "ofensor"
+  },
+  {
+    "canonical": "omnisciente",
+    "alias": "omniscio"
+  },
+  {
+    "canonical": "ornar",
+    "alias": "adornar"
+  },
+  {
+    "canonical": "orquideo",
+    "alias": "orquidaceo"
+  },
+  {
+    "canonical": "pamplinero",
+    "alias": "pamplinoso"
+  },
+  {
+    "canonical": "papelote",
+    "alias": "papelucho"
+  },
+  {
+    "canonical": "paramar",
+    "alias": "brisar"
+  },
+  {
+    "canonical": "pechar",
+    "alias": "pechear"
+  },
+  {
+    "canonical": "perimetral",
+    "alias": "perimetrico"
+  },
+  {
+    "canonical": "piragon",
+    "alias": "pirausta"
+  },
+  {
+    "canonical": "plagoso",
+    "alias": "llagador"
+  },
+  {
+    "canonical": "poliglota",
+    "alias": "poligloto"
+  },
+  {
+    "canonical": "porcino",
+    "alias": "porcuno"
+  },
+  {
+    "canonical": "prevalecer",
+    "alias": "prevaler"
+  },
+  {
+    "canonical": "proponente",
+    "alias": "proponedor"
+  },
+  {
+    "canonical": "quejigal",
+    "alias": "cajigal"
+  },
+  {
+    "canonical": "revolvedora",
+    "alias": "revolvedor"
+  },
+  {
+    "canonical": "rotulador",
+    "alias": "rotuladora"
+  },
+  {
+    "canonical": "tonificador",
+    "alias": "tonificante"
+  },
+  {
+    "canonical": "traumatizar",
+    "alias": "traumar"
+  },
+  {
+    "canonical": "trisilabo",
+    "alias": "trisilabico"
+  },
+  {
+    "canonical": "troglodita",
+    "alias": "cavernicola"
+  },
+  {
+    "canonical": "tumefacto",
+    "alias": "tumido"
+  },
+  {
+    "canonical": "tutia",
+    "alias": "atutia"
+  },
+  {
+    "canonical": "vacaray",
+    "alias": "vacarai"
+  },
+  {
+    "canonical": "verduzco",
+    "alias": "verdusco"
+  },
+  {
+    "canonical": "versalita",
+    "alias": "versalilla"
+  },
+  {
+    "canonical": "yaguar",
+    "alias": "yaguarete"
+  },
+  {
+    "canonical": "yerbal",
+    "alias": "yerbatal"
+  },
+  {
+    "canonical": "zooftirio",
+    "alias": "anopluro"
+  },
+  {
+    "canonical": "zorronglon",
+    "alias": "zorrongo"
+  },
+  {
+    "canonical": "zorzaleno",
+    "alias": "lechin"
+  },
+  {
+    "canonical": "zurriar",
+    "alias": "zurrir"
+  },
+  {
+    "canonical": "zurrumba",
+    "alias": "bramadera"
+  },
+  {
+    "canonical": "aceituna",
+    "alias": "oliva"
+  },
+  {
+    "canonical": "amenazador",
+    "alias": "amenazante"
+  },
+  {
+    "canonical": "antiviral",
+    "alias": "antivirico"
+  },
+  {
+    "canonical": "antinatural",
+    "alias": "innatural"
+  },
+  {
+    "canonical": "avaricioso",
+    "alias": "avaro"
+  },
+  {
+    "canonical": "barrida",
+    "alias": "barredura"
+  },
+  {
+    "canonical": "bisonte",
+    "alias": "cibolo"
+  },
+  {
+    "canonical": "bocanada",
+    "alias": "buchada"
+  },
+  {
+    "canonical": "brujula",
+    "alias": "calamita"
+  },
+  {
+    "canonical": "castilla",
+    "alias": "bayeton"
+  },
+  {
+    "canonical": "chispa",
+    "alias": "chiribita"
+  },
+  {
+    "canonical": "corcho",
+    "alias": "corchera"
+  },
+  {
+    "canonical": "descaro",
+    "alias": "desfachatez"
+  },
+  {
+    "canonical": "desenmascarar",
+    "alias": "desembozar"
+  },
+  {
+    "canonical": "destapar",
+    "alias": "destaponar"
+  },
+  {
+    "canonical": "embudo",
+    "alias": "infundibulo"
+  },
+  {
+    "canonical": "entranable",
+    "alias": "entranal"
+  },
+  {
+    "canonical": "entrepierna",
+    "alias": "bragadura"
+  },
+  {
+    "canonical": "gotera",
+    "alias": "griseta"
+  },
+  {
+    "canonical": "grosor",
+    "alias": "grosura"
+  },
+  {
+    "canonical": "huerta",
+    "alias": "huerto"
+  },
+  {
+    "canonical": "impresionable",
+    "alias": "influenciable"
+  },
+  {
+    "canonical": "letal",
+    "alias": "mortifero"
+  },
+  {
+    "canonical": "morsa",
+    "alias": "rosmaro"
+  },
+  {
+    "canonical": "pesadilla",
+    "alias": "mampesada"
+  },
+  {
+    "canonical": "precipicio",
+    "alias": "despenadero"
+  },
+  {
+    "canonical": "varadura",
+    "alias": "varada"
+  },
+  {
+    "canonical": "belemnita",
+    "alias": "belemnites"
+  },
+  {
+    "canonical": "brujeril",
+    "alias": "brujesco"
+  },
+  {
+    "canonical": "calomel",
+    "alias": "calomelanos"
+  },
+  {
+    "canonical": "ceraste",
+    "alias": "cerasta"
+  },
+  {
+    "canonical": "ciclonico",
+    "alias": "ciclonal"
+  },
+  {
+    "canonical": "cimbalillo",
+    "alias": "cimbanillo"
+  },
+  {
+    "canonical": "clavicembalo",
+    "alias": "clavicimbano"
+  },
+  {
+    "canonical": "coadjutor",
+    "alias": "coadyutor"
+  },
+  {
+    "canonical": "cohombrillo",
+    "alias": "cogombrillo"
+  },
+  {
+    "canonical": "cojutepecano",
+    "alias": "cojutepequense"
+  },
+  {
+    "canonical": "compatrono",
+    "alias": "compatron"
+  },
+  {
+    "canonical": "cristianodemocrata",
+    "alias": "democristiano"
+  },
+  {
+    "canonical": "cuodlibetal",
+    "alias": "cuodlibetico"
+  },
+  {
+    "canonical": "decenvir",
+    "alias": "decenviro"
+  },
+  {
+    "canonical": "delictivo",
+    "alias": "delictual"
+  },
+  {
+    "canonical": "diaspro",
+    "alias": "diaspero"
+  },
+  {
+    "canonical": "clavadura",
+    "alias": "enclavadura"
+  },
+  {
+    "canonical": "enjambradero",
+    "alias": "enjambradera"
+  },
+  {
+    "canonical": "josefinismo",
+    "alias": "josefismo"
+  },
+  {
+    "canonical": "lumbrarada",
+    "alias": "lumbrerada"
+  },
+  {
+    "canonical": "malviz",
+    "alias": "malvis"
+  },
+  {
+    "canonical": "nictemero",
+    "alias": "nictimero"
+  },
+  {
+    "canonical": "parpallota",
+    "alias": "parpalla"
+  },
+  {
+    "canonical": "pegujalero",
+    "alias": "pegujarero"
+  },
+  {
+    "canonical": "perojimenez",
+    "alias": "perojimen"
+  },
+  {
+    "canonical": "trispasto",
+    "alias": "tripastos"
+  },
+  {
+    "canonical": "trocola",
+    "alias": "trocla"
+  },
+  {
+    "canonical": "lienteria",
+    "alias": "lientera"
+  },
+  {
+    "canonical": "pacae",
+    "alias": "pacay"
+  },
+  {
+    "canonical": "taragallo",
+    "alias": "tarangallo"
+  },
+  {
+    "canonical": "carolingio",
+    "alias": "carlovingio"
+  },
+  {
+    "canonical": "uraloaltaico",
+    "alias": "uralaltaico"
+  },
+  {
+    "canonical": "labradoresco",
+    "alias": "labradoril"
+  },
+  {
+    "canonical": "pastoriego",
+    "alias": "pastoricio"
+  }
+]

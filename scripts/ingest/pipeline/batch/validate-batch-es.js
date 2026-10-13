@@ -6,6 +6,8 @@
 //      (defaults to scripts/ingest/batches/batch_es_corpus_nuevo.js)
 
 const batch = require(process.argv[2] || "../batches/batch_es_corpus_nuevo.js");
+const { loadDict } = require("../shared/load-dict.js");
+const { findSynonymOverlaps } = require("../shared/find-synonym-overlaps.js");
 
 function norm(s) {
   return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -47,6 +49,11 @@ batch.forEach((b) => {
       problems++;
     }
   }
+});
+
+const overlaps = findSynonymOverlaps(batch, loadDict("js/data.es.js").es || []);
+overlaps.forEach((overlap) => {
+  console.log(`REVISAR posible misma acepción: ${overlap.candidate} ↔ ${overlap.existing} (${overlap.relation})`);
 });
 
 console.log(`Total: ${batch.length}, Problemas: ${problems}`);

@@ -400,6 +400,18 @@ both entries should include the equivalent ids in `translation`. Keep the
 link reciprocal when adding a relationship; use an array on the record that
 links to multiple entries.
 
+Synonym deduplication runs when the dictionary is loaded and built.
+`scripts/ingest/pipeline/decisions/synonym-merges-<language>.json` records
+approved editorial merges. The process adds the removed headword and its
+synonyms to the canonical entry's `synonyms[]`, then omits the duplicate from
+the generated index. The UI keeps the searched alias as the displayed title
+and links to the same `id`. Matches from `audit-synonym-duplicates.js` are
+candidates; confirm that they express the same sense before adding a merge.
+Incorrect synonym links and related editorial corrections are recorded in
+`synonym-corrections-<language>.json`.
+Exact matches for a headword or synonym take priority over partial matches
+inside definitions and other phrases.
+
 Why is this field needed when ARASAAC pictograms already link concepts
 across languages? Because ARASAAC has only one "money" pictogram, one
 "document" pictogram, one "pen" pictogram, etc., and the dictionary has
