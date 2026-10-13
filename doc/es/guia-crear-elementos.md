@@ -186,6 +186,13 @@ definición del diccionario externo.
 
 Ningún filtro sustituye la revisión editorial de una persona o un agente de IA. Las coincidencias por subcadena en filtros temáticos producen falsos positivos: compartir letras con una raíz jurídica no implica relación semántica.
 
+Cuando la revisión editorial rechace una candidata, registra la palabra con
+`node scripts/ingest/pipeline/shared/record-rejection.js --lang <es|en> palabra`.
+Los filtros consultan esa lista para no volver a proponer una palabra ya
+descartada. El flujo y el estado de la ingesta están en
+[`scripts/ingest/README.md`](../../scripts/ingest/README.md) y
+[`scripts/ingest/PROGRESS.md`](../../scripts/ingest/PROGRESS.md).
+
 ### 3.3 Métodos de búsqueda
 
 **A. Corpus de dominio y *keyness*.** Método principal para cubrir una categoría concreta. Reúne 15-30 fragmentos reales en `dev/corpus/` (fuentes en la sección 3.5) y ejecuta:

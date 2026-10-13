@@ -253,12 +253,13 @@ repo root, even if you plan to delete it in the same session —
 full rule and rationale are in
 [`scripts/ingest/README.md`](scripts/ingest/README.md).
 
-`scripts/ingest/` also holds the batch-ingestion pipeline
-(`pipeline/`), batch/fix data files (`batches/`, `fixes/`) and
-ephemeral artifacts (`one-off/`). Those are the maintainer's working
-area, not the agent's. The agent should not add, edit, or move
-anything under `scripts/ingest/` unless the user explicitly asks for
-batch work.
+`scripts/ingest/README.md`, `PROGRESS.md`, and the reusable
+`pipeline/` (including its rejection registers) are versioned parts of
+the content workflow. `batches/`, `fixes/`, `explore/`, `repair/`, and
+`wip/` are local working areas and remain gitignored. Agents may update
+the tracked workflow when a task calls for it; they must not add, edit,
+or move batch inputs or active review state unless the user explicitly
+asks for that batch work.
 
 #### A.2.5 Token discipline during batch ingestion
 

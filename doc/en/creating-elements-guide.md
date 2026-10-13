@@ -184,6 +184,13 @@ corrected headword. Do not copy the external definition.
 
 No automated filter replaces editorial review by a person or an AI agent. Topic filters based on substring matches create false positives: sharing letters with a legal stem doesn't mean a semantic link.
 
+When editorial review rejects a candidate, record it with
+`node scripts/ingest/pipeline/shared/record-rejection.js --lang <es|en> word`.
+Candidate filters consult that list so a declined word is not proposed
+again. The ingestion workflow and status are in
+[`scripts/ingest/README.md`](../../scripts/ingest/README.md) and
+[`scripts/ingest/PROGRESS.md`](../../scripts/ingest/PROGRESS.md).
+
 ### 3.3 Search methods
 
 **A. Domain corpus and *keyness*.** The main method for one specific category. Collect 15-30 real excerpts under `dev/corpus/` (sources in section 3.5) and run:

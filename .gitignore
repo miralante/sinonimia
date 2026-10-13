@@ -7,10 +7,15 @@ Thumbs.db
 .claude/
 # Ficheros scratch de sesiones del editor/agente (no forman parte del repo)
 .tmp*
-# Scripts de exploración / ingest / one-off del mantenedor
-# (no son tests, no son CI; el README en scripts/ingest/README.md
-#  explica qué hay en cada subdirectorio).
-scripts/ingest/
+# La herramienta de ingesta, su documentación, filtros y listas de rechazos
+# se versionan. Los lotes y resultados de revisión son estado local de trabajo.
+scripts/ingest/batches/
+scripts/ingest/download/
+scripts/ingest/explore/
+scripts/ingest/fixes/
+scripts/ingest/repair/
+scripts/ingest/wip/
+scripts/ingest/pipeline/node_modules_root/
 # Notas/workspace personal del mantenedor (otros productos, .code-workspace local)
 ,dev/
 

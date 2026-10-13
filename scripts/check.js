@@ -85,6 +85,32 @@ fs.readdirSync(jsDir).filter(function (f) {
   }
 });
 
+// The reusable ingestion pipeline is versioned with the project too. Check
+// its root maintenance scripts and pipeline modules, but skip ignored batch,
+// exploration, repair, and WIP workspaces.
+function collectJavaScriptFiles(directory) {
+  return fs.readdirSync(directory, { withFileTypes: true }).reduce(function (files, entry) {
+    const absolutePath = path.join(directory, entry.name);
+    if (entry.isDirectory()) return files.concat(collectJavaScriptFiles(absolutePath));
+    if (entry.isFile() && entry.name.endsWith(".js")) files.push(absolutePath);
+    return files;
+  }, []);
+}
+const ingestRoot = path.join(ROOT, "scripts/ingest");
+const ingestJavaScript = fs.readdirSync(ingestRoot, { withFileTypes: true })
+  .filter(function (entry) { return entry.isFile() && entry.name.endsWith(".js"); })
+  .map(function (entry) { return path.join(ingestRoot, entry.name); })
+  .concat(collectJavaScriptFiles(path.join(ingestRoot, "pipeline")));
+ingestJavaScript.forEach(function (absolutePath) {
+  const relativePath = path.relative(ROOT, absolutePath).split(path.sep).join("/");
+  try {
+    execFileSync(process.execPath, ["--check", absolutePath]);
+    ok("syntax OK: " + relativePath);
+  } catch (e) {
+    fail("syntax error in " + relativePath);
+  }
+});
+
 // --- 2. Balanced braces in the CSS (no CSS linter is configured) ---
 const css = fs.readFileSync(path.join(ROOT, "css/styles.css"), "utf8");
 const openBraces = (css.match(/{/g) || []).length;
