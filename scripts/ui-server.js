@@ -5,7 +5,7 @@ const http = require('node:http');
 const path = require('node:path');
 
 const ROOT = path.resolve(__dirname, '..');
-const PORT = 4174;
+const PORT = Number(process.env.PORT || 4174);
 const MIME_TYPES = {
   '.html': 'text/html; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',

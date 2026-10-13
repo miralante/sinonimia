@@ -1,0 +1,27 @@
+(()=>{const u={
+  inercial:{synonyms:['relativo a la inercia','masa inercial (en física)']},
+  informalidad:{synonyms:['falta de formalidad','trato informal','descuido de las formas']},
+  informatizar:{synonyms:['digitalizar','aplicar herramientas informáticas']},
+  infundir:{definition:'Comunicar o hacer nacer en alguien una idea, un sentimiento, una actitud o una cualidad; también, inspirar confianza o ánimo.',synonyms:['inspirar','inculcar','transmitir']},
+  infuso:{definition:'Que ha sido comunicado o introducido en alguien, especialmente dicho de un don o conocimiento que se considera recibido de un poder sobrenatural.',synonyms:['inspirado','comunicado']},
+  infurtir:{definition:'Enfurtir: encoger o espesar una tela mediante el trabajo de la lana y el agua.',synonyms:['enfurtir','abatanar (en ciertos usos)']},
+  infuscar:{definition:'Oscurecer o ensuciar algo, por ejemplo cubriéndolo de polvo.',synonyms:['oscurecer','ensuciar']},
+  infierno:{synonyms:['lugar de castigo eterno (en algunas religiones)','situación de gran sufrimiento']},
+  infrasonico:{definition:'Relativo a los infrasonidos, sonidos con una frecuencia inferior al límite que suele percibir el oído humano.',synonyms:['relativo al infrasonido','de frecuencia muy baja']},
+  infrasonido:{synonyms:['sonido de frecuencia inferior al rango audible','sonido de muy baja frecuencia']},
+  infractor:{definition:'Persona que incumple una ley, una norma, un acuerdo o una orden.',synonyms:['transgresor','incumplidor','contraventor']},
+  ingresar:{definition:'Entrar en un lugar o institución; también, depositar dinero en una cuenta o recibir dinero como ingreso.',synonyms:['entrar','incorporarse','depositar dinero']},
+  inmancable:{synonyms:['infalible (uso regional venezolano)','seguro']},
+  inmanejable:{synonyms:['ingobernable','difícil de controlar','intratable (según el contexto)']},
+  inmanente:{synonyms:['inherente','inseparable','propio de algo']},
+  inmanentismo:{synonyms:['filosofía de la inmanencia','doctrina inmanentista']},
+  inmediacion:{synonyms:['presencia directa','contacto inmediato','principio de inmediación (jurídico)']},
+  infundibulo:{synonyms:['embudo','pieza cónica para trasvasar']},
+  inglete:{synonyms:['ensamble a 45 grados','corte en inglete','unión en ángulo']},
+  inmaculado:{synonyms:['limpio','sin mancha','impoluto']},
+  inmaculadamente:{synonyms:['sin mancha','impecablemente']},
+  inicuo:{definition:'Contrario a la justicia o a la equidad; muy injusto.',synonyms:['injusto','inicuo','arbitrario']},
+  injundia:{definition:'Enjundia: sustancia o energía; también, importancia, valor o interés de algo.',synonyms:['enjundia','sustancia','importancia']},
+  ineficiente:{synonyms:['poco eficaz','de bajo rendimiento']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}
+const ids=new Set(['inhospital','inhospitable','ingon']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

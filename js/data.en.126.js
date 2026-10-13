@@ -1,0 +1,1 @@
+(()=>{for(const id of ['prude','grind','mill','nun','monk','monogamy','monologue','monotonous','forklift','monument']){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}})();

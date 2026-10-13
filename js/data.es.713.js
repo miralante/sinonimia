@@ -1,0 +1,20 @@
+(()=>{const u={
+  mojarrilla:{definition:'Mojarra pequeña o joven; nombre aplicado también a diversas especies pequeñas de peces.',synonyms:['mojarra pequeña','pez pequeño']},
+  moji:{definition:'Mojicón: golpe dado con el puño en la cara; uso coloquial.',synonyms:['mojicón','puñetazo']},
+  mojicon:{definition:'Bizcocho o bollo dulce, a veces bañado; también, golpe dado con el puño en la cara.',synonyms:['bizcocho','bollo','puñetazo']},
+  mojiganga:{definition:'Farsa festiva con máscaras y disfraces grotescos; también, cosa ridícula o burlesca.',synonyms:['farsa','mascarada','burla']},
+  mojigateria:{synonyms:['mojigatería','hipocresía moral']},
+  mojigatez:{synonyms:['mojigatería','gazmoñería']},
+  mojigato:{definition:'Que muestra una moralidad o religiosidad afectada y excesiva; también, persona que así se comporta.',synonyms:['gazmoño','beato afectado','puritano']},
+  mojil:{definition:'Mojicón: golpe dado con el puño en la cara; voz coloquial.',synonyms:['mojí','mojicón','puñetazo']},
+  mojina:{definition:'Cazuela mojina: torta cuajada hecha en cazuela con queso, pan rallado, berenjenas y miel; en México, nombre de una tortuga de agua dulce.',synonyms:['cazuela mojí','torta cuajada','tortuga mojina']},
+  mojinete:{definition:'Tejadillo o cubierta pequeña que protege la parte superior de un muro.',synonyms:['tejadillo','cubierta de muro']},
+  mojo:{synonyms:['salsa canaria','salsa de ajo y especias']},
+  mojonar:{definition:'Señalar o marcar un terreno con mojones para fijar sus límites.',synonyms:['amojonar','deslindar']},
+  mojonera:{synonyms:['hito','límite','serie de mojones']},
+  molacho:{synonyms:['desdentado','mellado']},
+  molada:{definition:'Porción de color que se muele de una vez con la moleta; uso antiguo.',synonyms:['porción molida','tanda de color']},
+  molasa:{definition:'Roca sedimentaria detrítica, formada por materiales erosionados y depositados al pie de una cordillera.',synonyms:['molasse','depósito detrítico']},
+  molcajetear:{definition:'Triturar o machacar alimentos en un molcajete.',synonyms:['machacar en molcajete','triturar']},
+  moldar:{definition:'Dar forma a algo, especialmente mediante un molde; variante o forma antigua de «moldear».',synonyms:['moldear','formar']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}const ids=new Set(['mojel','mojera']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

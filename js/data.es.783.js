@@ -1,0 +1,22 @@
+(()=>{const u={
+ paladinamente:{definition:'De manera paladina: con claridad, abiertamente y sin disimulo.',synonyms:['abiertamente','claramente','sin disimulo']},
+ paladion:{definition:'Objeto en el que se cree que reside la defensa o seguridad de algo.',synonyms:['talismán','salvaguardia']},
+ palafitico:{definition:'Perteneciente o relativo a los palafitos.',synonyms:['relativo a los palafitos']},
+ palafito:{definition:'Vivienda construida sobre estacas o pilotes, generalmente sobre el agua o en terrenos inundables.',synonyms:['casa sobre pilotes']},
+ palafren:{definition:'Caballo manso, generalmente de paso, en que antiguamente montaban damas y personajes principales en ceremonias o cacerías.',synonyms:['caballo de silla']},
+ palamallo:{definition:'Juego semejante al mallo, en el que se impulsa una bola con una maza.',synonyms:['juego de mallo']},
+ palancazo:{definition:'En Cuba y El Salvador, acción de usar influencias o recomendaciones para conseguir algo.',synonyms:['influencia','recomendación']},
+ palanciano:{definition:'Palaciego; persona que vive o sirve en un palacio.',synonyms:['palaciego']},
+ palancon:{definition:'Dicho de una persona: corpulenta o de gran tamaño, según el uso regional.',synonyms:['corpulento (regional)']},
+ palanganear:{definition:'En Argentina y Perú, fanfarronear.',synonyms:['fanfarronear','guapear']},
+ palanganero:{definition:'Mueble, generalmente con pies, donde se coloca una palangana y los útiles de aseo.',synonyms:['aguamanil','lavamanos']},
+ palangrismo:{definition:'Práctica de obtener o conceder favores mediante influencias, sin atender al mérito o a la verdad; uso regional.',synonyms:['clientelismo','favoritismo']},
+ palangre:{definition:'Arte de pesca formado por una línea larga de la que cuelgan ramales con anzuelos.',synonyms:['cordel de pesca con anzuelos']},
+ palangrero:{definition:'Barco dedicado a la pesca con palangre.',synonyms:['barco palangrero']},
+ palanquetazo:{definition:'Golpe dado con una palanqueta.',synonyms:['golpe de palanqueta']},
+ palastro:{definition:'Plancha de hierro o acero.',synonyms:['chapa metálica']},
+ palatabilidad:{definition:'Cualidad de un alimento que resulta agradable al paladar.',synonyms:['agrado al paladar']},
+ palatalizar:{definition:'Dar a un sonido o a una consonante articulación palatal.',synonyms:['articular palatalmente']},
+ palangana:{definition:'Vasija baja y ancha, generalmente de forma circular, usada para lavarse o lavar.',synonyms:['jofaina','bacía']},
+ palancana:{definition:'Jofaina: vasija ancha y poco profunda para lavarse o lavar.',synonyms:['palangana','jofaina']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

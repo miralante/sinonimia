@@ -1,0 +1,1 @@
+(()=>{for(const id of ['olfaction','elm','odour','odor','scent','neglectful','remis','omit','omnipotent','almighty']){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}})();

@@ -1,0 +1,2 @@
+(()=>{const ids=new Set(['rescue-2','rescue-3']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();
+(()=>{const u={rescue:{definition:'The act or process of saving someone or something from danger, harm, or a difficult situation; also, to save them from it.',synonyms:['save','liberate','recover','retrieve']}};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();

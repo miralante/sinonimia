@@ -1,0 +1,22 @@
+(()=>{const u={
+  moridero:{definition:'Lugar donde suelen morir muchas personas o animales; también, lugar destinado a la atención de personas moribundas.',synonyms:['moridera','lugar de muerte']},
+  moridor:{definition:'Que está muriendo o parece próximo a morir; voz antigua.',synonyms:['moribundo','agonizante']},
+  morigerado:{synonyms:['comedido','moderado','de buenas costumbres']},
+  morigerar:{definition:'Moderar o contener la intensidad de un sentimiento, una pasión o una conducta.',synonyms:['moderar','templar','contener']},
+  morilla:{definition:'Seta comestible del género Morchella, de sombrero alveolado; también llamada colmenilla.',synonyms:['colmenilla','cagarria','Morchella']},
+  morillero:{definition:'En algunas zonas rurales, muchacho que sirve de recadero para los trabajadores del campo.',synonyms:['mochil','recadero rural']},
+  moringa:{definition:'Árbol tropical de hojas y vainas comestibles; algunas especies se cultivan por su valor alimentario.',synonyms:['ben','Moringa oleifera']},
+  moringaceo:{synonyms:['relativo a las moringáceas','de la familia Moringaceae']},
+  morisco:{definition:'Históricamente, musulmán de la península ibérica convertido al cristianismo tras la Reconquista, o descendiente de esos conversos.',synonyms:['converso morisco','mudéjar convertido']},
+  morisma:{definition:'Conjunto de moros o musulmanes; también, grupo que representa a los moros en una fiesta o representación histórica.',synonyms:['conjunto de moros','representación de moros']},
+  morisqueta:{definition:'Mueca o gesto exagerado hecho con la cara; también, gesto afectado o burlesco.',synonyms:['mueca','gesticulación','visaje']},
+  morito:{definition:'Ave zancuda de plumaje oscuro y pico curvo, del género Plegadis; especialmente, el morito común.',synonyms:['ibis','Plegadis falcinellus']},
+  morivivi:{definition:'En Cuba, planta sensitiva que pliega sus hojas al tocarlas; voz regional.',synonyms:['sensitiva','Mimosa pudica']},
+  morles:{definition:'Tela de lino, no muy fina, fabricada antiguamente en Morlaix, Bretaña.',synonyms:['tejido de lino','tela de Morlaix']},
+  morlon:{definition:'Morlaco: dicho de una persona, que finge torpeza o ignorancia.',synonyms:['morlaco','fingidamente ingenuo']},
+  mormarse:{definition:'Dicho de la nariz: congestionarse u obstruirse por la mucosidad.',synonyms:['congestionarse','taponarse']},
+  mormon:{definition:'Persona que profesa alguna de las ramas del movimiento religioso fundado por Joseph Smith en el siglo XIX.',synonyms:['miembro del movimiento mormón','miembro de la Iglesia de Jesucristo de los Santos de los Últimos Días']},
+  mormonico:{definition:'Perteneciente o relativo al mormonismo.',synonyms:['mormón','del movimiento mormón']},
+  mormonismo:{definition:'Movimiento religioso iniciado por Joseph Smith en el siglo XIX, del que surgieron varias iglesias que consideran sagrado el Libro de Mormón.',synonyms:['movimiento de los Santos de los Últimos Días','tradición mormona']},
+  mormotear:{definition:'En Aragón, marmotear: hablar entre dientes o murmurar.',synonyms:['murmurar','mascullar']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

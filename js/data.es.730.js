@@ -1,0 +1,21 @@
+(()=>{const u={
+  mor:{definition:'Causa, motivo o razón; forma antigua o poco usada.',synonyms:['motivo','razón','causa']},
+  mora:{definition:'Retraso culpable en el cumplimiento de una obligación, especialmente en el pago de una deuda; también, fruto de la morera o de ciertas zarzas.',synonyms:['retraso en el pago','demora','fruto de la morera']},
+  morabetino:{definition:'Moneda medieval almorávide de oro, basada en el dinar andalusí; el nombre también se aplicó a monedas posteriores.',synonyms:['dinar almorávide','moneda medieval de oro']},
+  morabito:{definition:'En el islam, persona considerada santa o devota, a menudo un asceta o maestro religioso; también, ermita o santuario asociado a ella.',synonyms:['santón musulmán','asceta musulmán','santuario']},
+  morabuto:{definition:'Variante de «morabito».',synonyms:['morabito','santón musulmán']},
+  moraceo:{definition:'Perteneciente o relativo a las moráceas, familia botánica que incluye higueras, moreras y ficus.',synonyms:['de las Moraceae','moráceo']},
+  moracho:{definition:'Dicho de un color: morado poco intenso o apagado.',synonyms:['morado pálido','violáceo apagado']},
+  morada:{definition:'Acción y efecto de morar o residir; también, lugar donde alguien vive, vivienda.',synonyms:['residencia','vivienda','estancia']},
+  morado:{definition:'De color entre rojo y azul, semejante al de la mora; también, amoratado.',synonyms:['violeta','púrpura','amoratado']},
+  morador:{definition:'Que habita o reside en un lugar; habitante.',synonyms:['habitante','residente']},
+  moradura:{definition:'Cardenal o mancha violácea producida por un golpe.',synonyms:['cardenal','hematoma','moretón']},
+  moradux:{definition:'Mejorana: planta aromática de hojas pequeñas, usada como condimento.',synonyms:['mejorana','Origanum majorana']},
+  moral:{definition:'Perteneciente o relativo a las costumbres y a la conducta humana; también, conjunto de normas sobre lo bueno y lo malo.',synonyms:['ético','relativo a la conducta','principios morales']},
+  moraleja:{definition:'Enseñanza que se desprende de un relato, una fábula o una experiencia.',synonyms:['lección','enseñanza','conclusión moral']},
+  moralidad:{definition:'Conformidad de los actos con los principios morales; también, conjunto de normas morales de una sociedad.',synonyms:['rectitud','ética','conducta moral']},
+  moralina:{definition:'Moralidad superficial, afectada o hipócrita, presentada como sermón o censura.',synonyms:['moralismo superficial','sermón moralizante']},
+  moralismo:{definition:'Actitud que insiste en juzgar o regular la conducta desde normas morales, a menudo de forma rígida o excesiva.',synonyms:['rigorismo moral','moralización']},
+  moralizador:{definition:'Que moraliza o intenta influir en la conducta mediante consejos o juicios morales.',synonyms:['moralizante','aleccionador']},
+  moralizante:{definition:'Que moraliza o transmite una enseñanza moral.',synonyms:['moralizador','aleccionador']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}const ids=new Set(['moquitear']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

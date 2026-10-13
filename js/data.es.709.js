@@ -1,0 +1,22 @@
+(()=>{const u={
+  moderno:{definition:'Perteneciente o relativo a la época actual; también, propio de la Edad Moderna, según el contexto.',synonyms:['actual','contemporáneo','reciente']},
+  modestamente:{definition:'Con modestia o sencillez; también, en cantidad limitada o de manera no ostentosa.',synonyms:['con humildad','sencillamente','sin ostentación']},
+  modestia:{definition:'Cualidad de quien no se atribuye méritos o importancia excesivos; también, sobriedad y falta de ostentación.',synonyms:['humildad','sencillez','mesura']},
+  modesto:{definition:'Que tiene modestia o no presume; también, sencillo o de alcance limitado.',synonyms:['humilde','sencillo','moderado']},
+  modicamente:{definition:'De manera módica, moderada o a bajo precio.',synonyms:['moderadamente','a bajo precio']},
+  modicidad:{definition:'Cualidad de módico: moderación en la cantidad o en el precio.',synonyms:['moderación','precio bajo']},
+  modico:{definition:'Moderado o limitado en cantidad, precio o intensidad.',synonyms:['moderado','reducido','barato']},
+  modificable:{synonyms:['alterable','transformable','susceptible de modificación']},
+  'modificacion-judicial-de-la-capacidad':{definition:'Expresión jurídica histórica, usada en España antes de la reforma de 2021, para referirse a procedimientos que afectaban al ejercicio de la capacidad jurídica; la legislación vigente regula medidas de apoyo para ejercerla.',synonyms:['modificación de la capacidad (histórico)','medidas judiciales de apoyo (actual)']},
+  modificante:{definition:'Que modifica o produce una modificación.',synonyms:['modificador','modificativo']},
+  modificar:{definition:'Cambiar o alterar parcialmente algo, sin transformarlo por completo.',synonyms:['alterar','cambiar','variar']},
+  modificativo:{definition:'Que modifica o sirve para modificar algo.',synonyms:['modificante','modificador']},
+  modio:{definition:'Antigua medida romana de capacidad para áridos, equivalente aproximadamente a 8,7 litros.',synonyms:['medida romana de capacidad']},
+  modistilla:{definition:'Modista joven o de poca experiencia; también, forma diminutiva de «modista».',synonyms:['modista joven','costurera']},
+  modisto:{definition:'Persona que se dedica profesionalmente a diseñar o confeccionar prendas de vestir, especialmente de moda.',synonyms:['diseñador de moda','sastre']},
+  'modo-ahorro-de-bateria':{definition:'Función de un dispositivo que reduce el consumo de energía al limitar ciertas actividades o funciones.',synonyms:['ahorro de energía','modo de bajo consumo']},
+  modo_avion:{definition:'Configuración de un dispositivo que desactiva sus transmisiones inalámbricas, como la telefonía móvil y, según el dispositivo, Wi-Fi o Bluetooth.',synonyms:['modo avión','modo sin conexión']},
+  'modo-oscuro':{definition:'Esquema de interfaz que utiliza fondos oscuros y texto o elementos claros.',synonyms:['tema oscuro','interfaz oscura']},
+  modorrar:{synonyms:['adormecer','causar somnolencia']},
+  modorrilla:{definition:'Persona perezosa o dormilona; voz coloquial y despectiva.',synonyms:['dormilón','perezoso']}
+};for(const[id,p]of Object.entries(u)){let r=DICCIONARIOS.es.find(x=>x.id===id);if(!r&&id==='modo_avion')r=DICCIONARIOS.es.find(x=>x.id==='modo-avion');if(r)Object.assign(r,p);}})();

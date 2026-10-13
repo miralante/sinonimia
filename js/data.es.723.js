@@ -1,0 +1,22 @@
+(()=>{const u={
+  monodia:{definition:'Composición musical para una sola línea melódica, con o sin acompañamiento.',synonyms:['melodía única','monofonía']},
+  monodico:{definition:'Perteneciente o relativo a la monodia.',synonyms:['monódico','monofónico']},
+  monofasico:{definition:'Que tiene una sola fase; en electricidad, dicho de un sistema de corriente alterna con una fase.',synonyms:['de una fase','monofásico']},
+  monofilo:{synonyms:['de una sola hoja','con folíolos soldados']},
+  monofisismo:{definition:'Doctrina cristológica que afirma una sola naturaleza en Cristo después de la unión de lo divino y lo humano; fue condenada como herética por los concilios de Calcedonia.',synonyms:['doctrina monofisita','monofisismo']},
+  monofisita:{definition:'Partidario del monofisismo o perteneciente a las iglesias históricas que sostienen esa doctrina cristológica.',synonyms:['adepto al monofisismo','cristiano monofisita']},
+  monofonematico:{synonyms:['de un solo fonema','monofonémico']},
+  monogamia:{definition:'Régimen de matrimonio o pareja en el que cada persona tiene un solo cónyuge o pareja a la vez.',synonyms:['matrimonio monógamo','unión monógama']},
+  monogenismo:{definition:'Doctrina según la cual todos los seres humanos proceden de un origen o tronco común.',synonyms:['monogénesis','origen común']},
+  monografia:{definition:'Descripción o estudio detallado de un asunto particular, de una disciplina o de una parte de ella.',synonyms:['estudio monográfico','tratado especializado']},
+  monografico:{definition:'Perteneciente o relativo a una monografía; dedicado de manera específica a un tema.',synonyms:['especializado','temático']},
+  monograma:{synonyms:['cifra','iniciales enlazadas','emblema']},
+  monolingue:{definition:'Que utiliza una sola lengua o está expresado en una sola lengua.',synonyms:['unilingüe','de una sola lengua']},
+  monolitico:{definition:'Hecho de una sola pieza o compuesto por un solo bloque; también, inflexible o uniforme.',synonyms:['de una pieza','compacto','rígido']},
+  monolitismo:{definition:'Cualidad de lo monolítico; carácter compacto, uniforme o poco diverso.',synonyms:['uniformidad','rigidez','estructura monolítica']},
+  monolito:{synonyms:['bloque de piedra','monumento pétreo']},
+  monologal:{definition:'Perteneciente o relativo al monólogo, discurso en que habla una sola persona.',synonyms:['monológico','de un solo hablante']},
+  monologante:{definition:'Que habla en forma de monólogo; persona que habla sin interlocutor.',synonyms:['monologuista','hablante solitario']},
+  monologar:{definition:'Hablar una persona consigo misma o desarrollar un discurso sin diálogo.',synonyms:['hablar a solas','hacer un monólogo']},
+  monologo:{definition:'Discurso de una sola persona; en teatro, escena en que un personaje habla sin interlocutor.',synonyms:['soliloquio','parlamento teatral']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

@@ -1,0 +1,21 @@
+(()=>{const u={
+  opinion:{definition:'Juicio o valoración que una persona se forma sobre algo; también, fama o concepto que se tiene de alguien o algo.',synonyms:['parecer','criterio','punto de vista']},
+  opio:{definition:'Látex seco obtenido de las cápsulas de la adormidera, que contiene varios alcaloides y se ha usado como analgésico; su consumo sin supervisión médica es peligroso.',synonyms:['látex de adormidera','opio crudo']},
+  opobalsamo:{definition:'Bálsamo aromático obtenido del árbol llamado bálsamo de La Meca (Commiphora gileadensis), usado antiguamente en medicina y perfumería.',synonyms:['bálsamo de La Meca','bálsamo de Judea']},
+  opoponace:{definition:'Planta umbelífera conocida como pánace; de ella se obtiene una goma resinosa aromática llamada opopónaco.',synonyms:['pánace','planta del opopónaco']},
+  opremente:{definition:'Que oprime o causa agobio.',synonyms:['opresivo','agobiante']},
+  opulentamente:{definition:'Con opulencia o gran abundancia de bienes.',synonyms:['lujosamente','abundantemente']},
+  oraje:{definition:'Estado del tiempo o de la temperatura; antiguamente, borrasca o temporal en tierra.',synonyms:['tiempo atmosférico','borrasca (desusado)']},
+  orcaneta:{definition:'Planta herbácea de la familia de las boragináceas, de flores azules o violáceas y raíz usada para obtener un colorante rojo.',synonyms:['anchusa','buglosa']},
+  orchilla:{definition:'Liquen de los géneros Roccella y afines, que crece sobre rocas y del que se extrae un tinte purpúreo.',synonyms:['roccella','liquen tintóreo']},
+  orcina:{definition:'Materia colorante que se forma en ciertos líquenes, especialmente en especies de Roccella y Lecanora.',synonyms:['colorante de líquenes','orceína (relacionado, no siempre idéntico)']},
+  orfo:{definition:'Pez marino parecido al besugo, de color rojizo o rubio y ojos grandes.',synonyms:['besugo (parecido)']},
+  orate:{definition:'Persona que actúa de manera disparatada o insensata; antiguamente también se aplicaba a quien se consideraba mentalmente enfermo.',synonyms:['insensato','disparatado (coloquial)']},
+  ordinariez:{definition:'Falta de finura, educación o buen gusto; dicho o hecho grosero o vulgar.',synonyms:['vulgaridad','grosería','zafiedad']},
+  ordovicico:{definition:'Perteneciente o relativo al Ordovícico, segundo período de la era paleozoica, situado aproximadamente entre hace 485 y 444 millones de años.',synonyms:['relativo al Ordovícico']},
+  oreoselino:{definition:'Planta herbácea europea de la familia de las apiáceas (Peucedanum oreoselinum), de hojas divididas y flores blancas dispuestas en umbelas.',synonyms:['apio de monte','Peucedanum oreoselinum']},
+  orejismo:{definition:'En Honduras, acción de espiar e informar a la policía sobre alguien o algo.',synonyms:['delación','espionaje (regional)']},
+  orfebre:{definition:'Artífice que trabaja metales preciosos, especialmente oro y plata, para crear o decorar objetos.',synonyms:['orífice','platero','joyero']},
+  orfismo:{definition:'Conjunto de creencias y prácticas religiosas de la antigua Grecia atribuidas a Orfeo; también, movimiento pictórico de comienzos del siglo XX.',synonyms:['religión órfica','orfismo pictórico (otro sentido)']},
+  oremus:{definition:'Palabra latina que significa «oremos», usada en la liturgia cristiana para invitar a la oración.',synonyms:['oremos','llamada a la oración']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}const ids=new Set(['oranes']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

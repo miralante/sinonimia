@@ -1,0 +1,21 @@
+(()=>{const u={
+  mollificar:{definition:'Ablandar o suavizar una cosa; uso raro o literario.',synonyms:['ablandar','suavizar']},
+  mollina:{definition:'Lluvia muy fina y suave; llovizna.',synonyms:['llovizna','mollizna','brisa']},
+  mollinear:{definition:'Lloviznar o caer una lluvia muy fina; uso regional.',synonyms:['molliznear','lloviznar','brisar']},
+  mollino:{definition:'Relativo a la lluvia fina o mollina; también, dicha de la lluvia, suave y menuda.',synonyms:['mollina','llovizna']},
+  mollir:{definition:'Ablandar algo; uso antiguo o regional.',synonyms:['ablandar','suavizar']},
+  mollizna:{definition:'Lluvia muy fina y ligera.',synonyms:['llovizna','mollina','brisa']},
+  molliznear:{definition:'Caer una lluvia fina; variante de «molliznar».',synonyms:['molliznar','lloviznar']},
+  molon:{definition:'En Álava, piedra grande, irregular y redondeada, desprendida de una cantera al barrenar.',synonyms:['piedra grande','bloque de cantera']},
+  molondra:{definition:'Cabeza grande; coloquialmente, persona perezosa y torpe.',synonyms:['cabeza grande','cabezota','perezosa']},
+  molondro:{definition:'Hombre perezoso y torpe; en ciertos usos regionales, cabeza grande o testarudo.',synonyms:['perezoso','torpe','holgazán']},
+  molondron:{definition:'Molondro; persona perezosa y torpe.',synonyms:['molondro','perezoso','torpe']},
+  molonquear:{definition:'En El Salvador, sacudir o mover algo con violencia.',synonyms:['sacudir','zarandear']},
+  molote:{definition:'En México y Centroamérica, preparación de masa rellena, enrollada y frita; según la región, puede designar otros alimentos.',synonyms:['antojito frito','empanada de masa']},
+  molotera:{definition:'Riña o pelea entre varias personas; uso regional de Guatemala, Honduras, México y Nicaragua.',synonyms:['riña','pelea','trifulca']},
+  molotov:{definition:'Artefacto incendiario improvisado, normalmente una botella con líquido inflamable y una mecha.',synonyms:['bomba incendiaria casera','cóctel molotov']},
+  molsa:{definition:'Musgo; variante antigua o regional.',synonyms:['musgo']},
+  molso:{definition:'Musgo; forma antigua o variante regional.',synonyms:['musgo','molsa']},
+  molturador:{definition:'Que moltura o muele; persona o máquina que realiza la molienda.',synonyms:['molendero','moledor','molino']},
+  molturar:{definition:'Moler o triturar un material, especialmente grano.',synonyms:['moler','triturar','molturación']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

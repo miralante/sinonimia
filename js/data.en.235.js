@@ -1,0 +1,4 @@
+(()=>{const u={
+ papaveraceae:{definition:'The botanical family of flowering plants that includes poppies and related genera.',synonyms:['poppy family','family Papaveraceae'],example:{word:'Papaveraceae',text:'Several familiar poppies belong to the Papaveraceae.'},exampleSynonym:{word:'poppy family',text:'Several familiar poppies belong to the poppy family.'}},
+ papaverine:{definition:'A crystalline alkaloid found in opium, used medically as an antispasmodic.',synonyms:['opium alkaloid'],example:{word:'papaverine',text:'Papaverine may be used to relieve certain smooth-muscle spasms.'},exampleSynonym:{word:'opium alkaloid',text:'The opium alkaloid may be used to relieve certain smooth-muscle spasms.'}}
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();

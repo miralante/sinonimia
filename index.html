@@ -167,11 +167,11 @@
      shortcut icon via `apple-touch-icon` (iOS 16+ and modern Chromium
      accept SVG here). `theme-color` tints the browser chrome and the
      shortcut background on Android. -->
-<link rel="icon" type="image/svg+xml" href="img/logo.svg">
-<link rel="apple-touch-icon" href="img/logo.svg">
+<link rel="icon" type="image/svg+xml" href="img/logo.svg?v=sinonimia-v7591a68c">
+<link rel="apple-touch-icon" href="img/logo.svg?v=sinonimia-v7591a68c">
 <meta name="application-name" content="Sinonimia">
-<link rel="stylesheet" href="css/styles.css?v=sinonimia-v4">
-<link rel="stylesheet" href="css/locale-picker.css?v=sinonimia-v2d">
+<link rel="stylesheet" href="css/styles.css?v=sinonimia-v4a">
+<link rel="stylesheet" href="css/locale-picker.css?v=sinonimia-v6aa">
 <link rel="manifest" href="./manifest.json">
 </head>
 <body>
@@ -285,7 +285,7 @@
   <p class="pie-creditos" hidden><button type="button" id="offline-images" class="boton-cta boton-secundario"></button></p>
   <p class="pie-enlaces">
     <a href="config/" data-i18n-html="footerConfigHtml">Configuración</a>
-    · <a href="legal/privacidad.html" data-i18n-html="footerPrivacyHtml">Privacidad</a>
+    · <a href="legal/privacidad" data-i18n-html="footerPrivacyHtml">Privacidad</a>
   </p>
 </footer>
 
@@ -295,8 +295,8 @@
 <script src="js/app.js"></script>
 <!-- Locale picker config (must run BEFORE js/locale-picker.js). Kept as an
      external file, not inline, so the CSP `script-src 'self'` allows it. -->
-<script src="js/locale-picker-config.js"></script>
-<script src="js/locale-picker.js?v=sinonimia-v4" defer></script>
+<script src="js/locale-picker-config.js?v=1ab"></script>
+<script src="js/locale-picker.js?v=sinonimia-v6aaa" defer></script>
 <!-- Service-worker registration. Kept as an external file, not inline, so
      the CSP `script-src 'self'` allows it. -->
 <script src="js/sw-register.js"></script>

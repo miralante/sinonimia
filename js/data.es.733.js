@@ -1,0 +1,22 @@
+(()=>{const u={
+  mordida:{definition:'Acción de morder o señal producida al clavar los dientes; también, en varios países, soborno.',synonyms:['mordedura','mordisco','soborno (regional)']},
+  mordiente:{definition:'Sustancia que fija un colorante a una tela u otra superficie; también, que muerde o resulta incisivo.',synonyms:['fijador de tintes','mordente','incisivo']},
+  mordihui:{definition:'Gorgojo, insecto coleóptero que vive en los granos o semillas y puede dañarlos.',synonyms:['gorgojo','insecto de los granos']},
+  mordiscar:{definition:'Morder repetidamente y con poca fuerza.',synonyms:['mordisquear','dar pequeños mordiscos']},
+  mordisco:{definition:'Acción y efecto de morder; mordedura hecha con los dientes.',synonyms:['mordedura','dentellada']},
+  mordisquear:{synonyms:['mordiscar','dar mordiscos pequeños']},
+  mordisqueo:{synonyms:['mordisqueo','acción de mordisquear']},
+  morena:{definition:'Hogaza de pan moreno o de harina poco refinada; también, femenino de «moreno».',synonyms:['pan moreno','hogaza']},
+  morenal:{definition:'En Honduras, pueblo o aldea habitada por población garífuna; voz eufemística y regional.',synonyms:['aldea garífuna (Honduras)','pueblo garífuna']},
+  morenero:{definition:'Jornalero que, durante el esquileo, lleva carbón molido para tratar los cortes causados a las ovejas.',synonyms:['ayudante de esquila','jornalero de esquileo']},
+  morenez:{definition:'Cualidad de moreno; color oscuro o tostado.',synonyms:['tez morena','color oscuro']},
+  morenillo:{definition:'Mezcla de carbón molido y vinagre usada para curar los cortes que se hacen a los animales durante el esquileo.',synonyms:['carbón medicinal','mezcla para cortes de esquila']},
+  morenito:{definition:'Diminutivo de «moreno»; también, forma afectuosa de dirigirse a una persona morena.',synonyms:['moreno (diminutivo)','trigueño (según el contexto)']},
+  moreno:{definition:'De color oscuro, especialmente pardo; aplicado a una persona, de piel o cabello oscuro.',synonyms:['trigueño','bruno','de tez oscura']},
+  morenura:{definition:'Morenez: coloración oscura o tostada.',synonyms:['morenez','tez morena']},
+  moreo:{definition:'Perteneciente o relativo a la mora o morera; forma poco usada.',synonyms:['de la mora','relativo a la morera']},
+  moreral:{synonyms:['plantación de moreras','morería']},
+  moreria:{definition:'Barrio o zona donde vivían los musulmanes en algunas poblaciones de la España medieval.',synonyms:['barrio morisco','aljama']},
+  morete:{definition:'En Bolivia y México, cardenal o moratón producido por un golpe.',synonyms:['moratón','cardenal','hematoma']},
+  moretear:{definition:'Causar moretones o cardenales; uso coloquial y regional.',synonyms:['amoratar','magullar','hacer moretones']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

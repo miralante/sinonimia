@@ -1,0 +1,4 @@
+(()=>{const u={
+ embermejar:{definition:'(Poco usado.) Volver bermejo o rojizo; teñir o poner algo de ese color.',synonyms:['enrojecer','teñir de rojo','embermejecer'],example:{word:'embermejar',text:'El atardecer pareció embermejar las nubes.'},exampleSynonym:{word:'enrojecer',text:'El atardecer pareció enrojecer las nubes.'}},
+ embero:{definition:'Árbol de la familia de las meliáceas, propio del África ecuatorial y apreciado por su madera; también, madera que se obtiene de él.',synonyms:['árbol meliáceo africano','madera de embero'],example:{word:'embero',text:'La madera de embero se emplea en ebanistería.'},exampleSynonym:{word:'madera de embero',text:'La madera de embero se emplea en ebanistería.'}}
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();

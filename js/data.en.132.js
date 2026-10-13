@@ -1,0 +1,1 @@
+(()=>{for(const id of ['muslim','mutually','be-born','hatch','germinate','sprout','national','nationalism','swim','nanotechnology']){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}})();

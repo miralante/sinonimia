@@ -2,6 +2,10 @@
 
 const { defineConfig } = require('@playwright/test');
 
+const PORT = Number(process.env.PORT || 4174);
+const ORIGIN = process.env.PLAYWRIGHT_BASE_URL || `http://127.0.0.1:${PORT}`;
+const BASE_URL = `${ORIGIN}/`;
+
 module.exports = defineConfig({
   testDir: './tests',
   /* Allow generous time for the very first test on a cold browser:
@@ -16,7 +20,7 @@ module.exports = defineConfig({
   retries: 1,
   reporter: 'line',
   use: {
-    baseURL: 'http://127.0.0.1:4174/',
+    baseURL: BASE_URL,
     locale: 'es-ES',
     serviceWorkers: 'block',
     viewport: { width: 1280, height: 900 },
@@ -28,8 +32,8 @@ module.exports = defineConfig({
   },
   webServer: {
     command: 'node scripts/ui-server.js',
-    url: 'http://127.0.0.1:4174/',
-    reuseExistingServer: true,
+    url: BASE_URL,
+    reuseExistingServer: false,
     timeout: 10000,
   },
 });

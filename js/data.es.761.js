@@ -1,0 +1,23 @@
+(()=>{const u={
+  negatron:{definition:'Electrón, especialmente para distinguirlo del positrón.',synonyms:['electrón']},
+  neciamente:{definition:'Con necedad; de manera tonta, imprudente u obstinada.',synonyms:['tontamente','imprudentemente','obstinadamente']},
+  negrada:{definition:'En algunos países de América, conjunto de personas negras; voz coloquial que puede resultar despectiva según el contexto.',synonyms:['grupo de personas negras (regional, coloquial)']},
+  negramenta:{definition:'En Honduras y Venezuela, conjunto de personas negras; voz coloquial despectiva.',synonyms:['negrada (coloquial, despectivo)']},
+  negramentazon:{definition:'En Venezuela, conjunto numeroso de personas negras; voz coloquial despectiva.',synonyms:['negrada (coloquial, despectivo)','negramenta']},
+  negrear:{definition:'Ennegrecer algo o volverse negro; en varios países de América, explotar laboralmente, maltratar, menospreciar o discriminar a alguien por su color de piel, según el país.',synonyms:['ennegrecer','explotar laboralmente (América)','menospreciar']},
+  negregar:{definition:'En poco uso, presentar color negro o visos oscuros.',synonyms:['negrear','negreguear','ennegrecer']},
+  negreguear:{definition:'Presentar color negro o visos oscuros.',synonyms:['negrear','negregar','ennegrecer']},
+  negreria:{definition:'En Colombia, conjunto de personas negras; en Bolivia, grupo de personas negras que realiza labores agrícolas en una hacienda.',synonyms:['grupo de personas negras (Colombia)','grupo de trabajadores agrícolas negros (Bolivia)']},
+  negrero:{definition:'Persona que se dedicaba a la trata y comercio de personas esclavizadas, especialmente africanas; también, dicho de alguien, que explota abusivamente a sus trabajadores.',synonyms:['traficante de esclavos','explotador laboral']},
+  negrestino:{definition:'Variante anticuada de «negruzco»: que tira a negro.',synonyms:['negruzco','oscuro']},
+  negrita:{definition:'Estilo tipográfico de trazo más grueso que el normal, usado para destacar texto; también, femenino de «negrito».',synonyms:['letra negrita','negrilla (tipografía)']},
+  negrito:{definition:'Diminutivo de «negro»; también, en varios países de América, nombre de distintas plantas, aves, peces y bailes tradicionales.',synonyms:['negrillo (según el contexto)','diminutivo de negro']},
+  negrizco:{definition:'Variante poco usada de «negruzco»: que tira a negro.',synonyms:['negruzco','oscuro']},
+  negrilla:{definition:'En tipografía, variante de la letra negrita; también, nombre de ciertas plantas u hongos regionales.',synonyms:['negrita (tipografía)','hongo negrilla (según la región)']},
+  negrismo:{definition:'Movimiento artístico y literario hispanoamericano, desarrollado sobre todo en el siglo XX, que incorpora temas, ritmos y tradiciones afrodescendientes.',synonyms:['poesía negrista','arte afrohispanoamericano']},
+  negrecer:{definition:'Volverse negro u oscuro.',synonyms:['ennegrecerse','oscurecerse']},
+  negral:{definition:'Que tira a negro; también, dicho de un pino, de una variedad de negral.',synonyms:['negruzco','oscuro']},
+  negociable:{definition:'Que puede ser objeto de negociación o acuerdo.',synonyms:['transable','que admite negociación']},
+  negociador:{definition:'Persona que negocia o participa en una negociación.',synonyms:['mediador','interlocutor']},
+  negozuelo:{definition:'Diminutivo poco usado de «negocio».',synonyms:['negocito','pequeño negocio']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

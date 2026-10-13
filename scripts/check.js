@@ -207,7 +207,13 @@ const languages = Object.keys(DICCIONARIOS);
 ok("languages found: " + languages.join(", "));
 
 // --- 4. Every entry: unique id, image present, well-formed example ---
-const VALID_TOPICS = ["tramites", "salud", "vida-diaria", "finanzas", "vivienda", "trabajo", "legal", "tecnologia", "seguridad", "educacion", "conocimiento"];
+// The regenerated dictionary introduced seven topics (arte, comida, historia,
+// naturaleza, deportes, juegos, sociedad). This list lagged behind it and
+// reported 41 entries as invalid. app.js renders the topic with
+// t("topic_" + situacion), so a topic missing here is also a topic missing
+// from js/i18n.js — keep the two in sync. Measured over all 116,396 entries.
+const VALID_TOPICS = ["tramites", "salud", "vida-diaria", "finanzas", "vivienda", "trabajo", "legal", "tecnologia", "seguridad", "educacion", "conocimiento",
+  "arte", "comida", "historia", "naturaleza", "deportes", "juegos", "sociedad"];
 const imgDir = path.join(ROOT, "img");
 const imagesOnDisk = fs.readdirSync(imgDir);
 

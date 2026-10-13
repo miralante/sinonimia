@@ -1,0 +1,1 @@
+(()=>{const row=DICCIONARIOS.en.find(e=>e.id==='short-story-2');if(!row)throw Error('Missing en/short-story-2');delete row.translation;const fart=DICCIONARIOS.en.find(e=>e.id==='fart');if(!fart)throw Error('Missing en/fart');fart.translation={es:'cuesco'};})();

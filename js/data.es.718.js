@@ -1,0 +1,22 @@
+(()=>{const u={
+  molusco:{synonyms:['animal de cuerpo blando','invertebrado con manto']},
+  momeador:{definition:'Que hace momos o gestos; también, persona que los hace.',synonyms:['gesticulador','momeador']},
+  momear:{definition:'Hacer momos o gestos, generalmente de burla o de juego.',synonyms:['hacer muecas','gesticular']},
+  momentaneamente:{definition:'Por un momento o durante un tiempo breve, de manera pasajera.',synonyms:['temporalmente','brevemente','por un instante']},
+  momentaneo:{synonyms:['pasajero','transitorio','temporal']},
+  momeria:{definition:'Burla o broma hecha mediante gestos o acciones ridículas.',synonyms:['burla','farsa','momería']},
+  momero:{definition:'Que hace momos o gestos burlescos; también, quien los hace.',synonyms:['gesticulador','burlón']},
+  momia:{definition:'Cadáver conservado por desecación natural o mediante técnicas de embalsamamiento.',synonyms:['cadáver momificado','cuerpo embalsamado']},
+  momificar:{synonyms:['embalsamar','conservar un cadáver']},
+  momio:{definition:'Magro, sin grasa; coloquialmente, beneficio fácil o cosa que se obtiene con poco esfuerzo. También, relativo a una postura conservadora en ciertos usos.',synonyms:['magro','ganga','beneficio fácil']},
+  momordiga:{definition:'Balsamina: planta trepadora del género Impatiens, de fruto que se abre al tocarlo.',synonyms:['balsamina','Impatiens balsamina']},
+  momperada:{definition:'Dicho de una lamparilla: hecha con tejido más fino que el común, prensado y lustroso.',synonyms:['de tejido fino','prensada y lustrosa']},
+  monacal:{synonyms:['monástico','relativo a los monjes']},
+  monacato:{definition:'Estado, vida o condición de monje; conjunto de monjes o de instituciones monásticas.',synonyms:['vida monástica','estado monástico']},
+  monacillo:{definition:'Monaguillo o ayudante que sirve en las ceremonias religiosas.',synonyms:['monaguillo','acólito']},
+  monacordio:{definition:'Instrumento musical antiguo de una sola cuerda; variante de «monocordio» o «manicordio».',synonyms:['monocordio','manicordio']},
+  monadelfos:{definition:'En botánica, dicho de los estambres de una flor: soldados entre sí por sus filamentos y reunidos en un solo haz; se usa normalmente en plural.',synonyms:['estambres monadelfos','estambres unidos en un haz']},
+  monadologia:{definition:'Sistema filosófico de Leibniz según el cual la realidad está constituida por mónadas, sustancias simples e indivisibles.',synonyms:['filosofía de Leibniz','doctrina de las mónadas']},
+  monago:{definition:'Monaguillo; forma coloquial o regional.',synonyms:['monaguillo','acólito']},
+  monaguillo:{definition:'Niño o persona que ayuda al sacerdote en las celebraciones litúrgicas.',synonyms:['acólito','monacillo']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

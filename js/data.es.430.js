@@ -1,0 +1,28 @@
+(()=>{const ids=new Set(['estandardizar']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();
+(()=>{const u={
+ estampero:{definition:'Persona que trabaja en estampación o impresión.',synonyms:['estampador','impresor']},
+ estampia:{definition:'En la locución “de estampía”, muy deprisa y con precipitación.',synonyms:['de estampía','a toda prisa','precipitadamente']},
+ estampido:{definition:'Ruido fuerte, seco y repentino, como el de un disparo o una explosión.',synonyms:['estruendo','detonación','estallido']},
+ estampillar:{definition:'Poner o adherir una estampilla, sello o timbre a un documento o envío.',synonyms:['sellar','poner un sello','timbrar']},
+ estanador:{definition:'Persona que tiene por oficio recubrir objetos con estaño.',synonyms:['estañador','estañero']},
+ estanadura:{definition:'Acción y efecto de estañar.',synonyms:['estañado','recubrimiento con estaño']},
+ estanar:{definition:'Recubrir un objeto con una capa de estaño.',synonyms:['estañar','dar un baño de estaño']},
+ estanciero:{definition:'Persona propietaria de una estancia o encargada de administrarla.',synonyms:['hacendado','propietario de una estancia','administrador rural']},
+ estand:{definition:'Puesto o instalación, a menudo desmontable, en una exposición, feria o mercado.',synonyms:['puesto','caseta','pabellón']},
+ estandarizar:{definition:'Ajustar las características de algo a una norma o estándar común.',synonyms:['normalizar','uniformar','regular']},
+ estanero:{definition:'Persona que trabaja con objetos de estaño o comercia con ellos.',synonyms:['estañador','estañero']},
+ estannifero:{definition:'Que contiene estaño.',synonyms:['estañífero','con estaño']},
+ estanqueidad:{definition:'Cualidad de un recipiente, unión o estructura que impide el paso de líquidos o gases.',synonyms:['impermeabilidad','hermeticidad']},
+ estanquidad:{definition:'Cualidad de una embarcación o compartimento que impide el paso del agua.',synonyms:['estanqueidad','hermeticidad']},
+ estanquillero:{definition:'Persona encargada de un estanco o que vende en él.',synonyms:['estanquero','vendedor de estanco']},
+ estanquillo:{definition:'En varios países de América, tienda pequeña de barrio que vende artículos de uso cotidiano.',synonyms:['tienda de barrio','pequeño comercio']},
+ estanteria:{definition:'Mueble formado por estantes o baldas para colocar libros y otros objetos.',synonyms:['estante','librería','anaquel']},
+ estantigua:{definition:'Persona o aparición de aspecto fantasmal, muy alta, flaca o desvaída.',synonyms:['fantasma','espantajo','figura espectral']},
+ estantio:{definition:'Dicho de un líquido: estancado o detenido en su curso.',synonyms:['estancado','inmóvil']},
+ estaqueadero:{definition:'Argentina y Uruguay, rural. Lugar donde se sujetan los cueros extendiéndolos con estacas para secarlos.',synonyms:['secadero de cueros','lugar de estaqueo']},
+ estaqueador:{definition:'Argentina y Paraguay, rural. Peón encargado de estaquear cueros para secarlos.',synonyms:['peón de cueros','estaqueador de cueros']},
+ estaquear:{definition:'Sujetar un cuero extendiéndolo y fijándolo con estacas, para secarlo.',synonyms:['estacar cueros','tender con estacas']},
+ estaquilla:{definition:'Estaca pequeña.',synonyms:['estaca pequeña','clavija']},
+ estaquillador:{definition:'Herramienta pequeña empleada para fijar o sujetar piezas con estaquillas.',synonyms:['herramienta de sujeción','clavador']},
+ estaquillar:{definition:'Clavar o sujetar algo con estaquillas.',synonyms:['fijar con estacas pequeñas','clavar estaquillas']}
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();

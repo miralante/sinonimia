@@ -57,6 +57,17 @@ const I18N = {
     topic_seguridad: "Seguridad",
     topic_educacion: "Educación",
     topic_conocimiento: "Conocimiento general",
+    /* Topics the regenerated dictionary actually uses. app.js renders them
+       with t("topic_" + entry.situacion), so without these keys the pill
+       showed the literal string "topic_arte". Keep this list in sync with
+       VALID_TOPICS in scripts/check.js. */
+    topic_arte: "Arte",
+    topic_comida: "Comida",
+    topic_historia: "Historia",
+    topic_naturaleza: "Naturaleza",
+    topic_deportes: "Deportes",
+    topic_juegos: "Juegos",
+    topic_sociedad: "Sociedad",
 
     alphabetLabel: "Buscar por letra inicial",
     listLabel: "Lista de palabras",
@@ -188,6 +199,15 @@ const I18N = {
     topic_seguridad: "Safety",
     topic_educacion: "Education",
     topic_conocimiento: "General knowledge",
+    /* See the note on the Spanish block: these topics are used by the
+       regenerated dictionary and were missing here too. */
+    topic_arte: "Art",
+    topic_comida: "Food",
+    topic_historia: "History",
+    topic_naturaleza: "Nature",
+    topic_deportes: "Sports",
+    topic_juegos: "Games",
+    topic_sociedad: "Society",
 
     alphabetLabel: "Browse by first letter",
     listLabel: "List of words",

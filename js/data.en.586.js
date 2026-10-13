@@ -1,0 +1,2 @@
+(()=>{const ids=new Set(['rescue-4','rescue-5','rescue-6','rescue-7','rescue-8','rescuer-2']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();
+(()=>{const u={reseal:{definition:'To seal something again, or to close a container or opening securely after it has been opened.',synonyms:['seal again','close again']}};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();

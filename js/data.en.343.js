@@ -1,0 +1,1 @@
+(()=>{const ids=new Set(['peddler-2','peddler-of-smuggled-merchandise','pedaling-2','pedantic-2','pedestrian-2','pedestrian-3','pedestrian-4','pedestrian-crossing-2']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

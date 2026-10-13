@@ -1,0 +1,1 @@
+(()=>{const ids=new Set(['peace-of-mind-quality','pea-2','pea-3','pea-5','pea-8','pea-9','peach-2','peach-3','peach-4','peach-5','peach-6','peach-tree-2','peanut-2','peanut-tree','peacefully-2','paywall-2']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

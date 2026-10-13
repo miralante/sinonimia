@@ -313,7 +313,8 @@ Esta es la versión resumida; el procedimiento completo está en
 3. Añadir los shards ordenados a `js/dictionary-manifest.js`; el cargador los
    ejecuta antes de `js/app.js`. Si un fichero se acerca al límite del host,
    dividirlo en otro shard en vez de superar el límite.
-4. Añadir el botón del idioma en `.idioma-selector`.
+4. El idioma lo monta el desplegable compartido en `<div id="locale-picker"></div>`;
+   no hay botón que añadir.
 5. Añadir el código a la whitelist de `about.js` y bloques paralelos en
    `about/index.html`, `about/privacidad.html` y `404.html`.
 6. Reflejar `htmlLang`, `metaTitle` y `metaDescription` en
@@ -348,18 +349,25 @@ entiende. El proceso recomendado es:
    `--detalle`. No traducir automáticamente las palabras del otro idioma.
    [`guia-crear-elementos.md`](guia-crear-elementos.md) §3 contiene las
    fuentes de referencia y los criterios de aceptación.
-5. **Redactar la entrada completa** (`definicion`, `sinonimos`, `ejemplo` y
+5. **Comprobar la voz equivalente en el otro idioma** consultando también
+   el diccionario de esa lengua. Si ya existe una entrada equivalente,
+   enlazar ambas voces con `traduccion` en los dos registros. Si falta el
+   enlace de vuelta, completar también la entrada existente. Si la voz no
+   existe como entrada, solo crearla si es genuinamente difícil y cumple por
+   separado los criterios editoriales de su idioma; no añadir traducciones
+   palabra por palabra por sistema. El enlace admite relaciones uno-a-varios.
+6. **Redactar la entrada completa** (`definicion`, `sinonimos`, `ejemplo` y
    `ejemploSinonimo`) en el idioma elegido y siguiendo la sección de lectura
    fácil.
-6. **Buscar el pictograma** con `node scripts/search-pictogram.js
+7. **Buscar el pictograma** con `node scripts/search-pictogram.js
    "<término>" <idioma>`. Primero se intenta OpenSymbols si existe
    `OPENSYMBOLS_SECRET`; si no, o si falla, se usa automáticamente ARASAAC.
    Revisar siempre los candidatos y comprobar antes si el concepto ya usa una
    imagen de `img/`.
-7. **Usar un respaldo de categoría** solo después de comprobar que la palabra,
+8. **Usar un respaldo de categoría** solo después de comprobar que la palabra,
    sus sinónimos y términos cercanos no tienen un pictograma adecuado. La
    tabla canónica está en `scripts/category-pictogram-defaults.js`.
-8. **Validar** con `node scripts/check.js`.
+9. **Validar** con `node scripts/check.js`.
 
 Un resultado de búsqueda no descarga ni selecciona nada automáticamente. Si
 se incorpora una imagen que no sea de ARASAAC, hay que revisar su licencia y

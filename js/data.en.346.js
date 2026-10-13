@@ -1,0 +1,5 @@
+(()=>{const u={
+ peelable:{definition:'Able to be peeled or removed in a layer.',synonyms:['removable','strippable'],example:{word:'peelable',text:'The label has a peelable backing.'},exampleSynonym:{word:'removable',text:'The label has a removable backing.'}},
+ peeler:{definition:'A tool for removing the skin or rind from fruit and vegetables; also, a person or machine that peels.',synonyms:['vegetable peeler','paring tool','peeling machine'],example:{word:'peeler',text:'Use a peeler to remove the carrot skin.'},exampleSynonym:{word:'vegetable peeler',text:'Use a vegetable peeler to remove the carrot skin.'}},
+ peeling:{definition:'The act or process of removing a skin or outer layer; also, skin or coating that is coming away in strips.',synonyms:['peeling process','flaking','shedding'],example:{word:'peeling',text:'The old paint was peeling from the door.'},exampleSynonym:{word:'flaking',text:'The old paint was flaking from the door.'}}
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();

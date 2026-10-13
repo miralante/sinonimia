@@ -1,0 +1,4 @@
+(()=>{const u={
+ enatiamente:{definition:'Con desaliño, descompostura o desaseo.',synonyms:['con desaliño','descuidadamente','de manera descompuesta'],example:{word:'enatiamente',text:'El actor entró enatiamente, con la ropa y el cabello desordenados.'},exampleSynonym:{word:'con desaliño',text:'El actor entró con desaliño, con la ropa y el cabello desordenados.'}},
+ enatieza:{definition:'Desaliño, descompostura o desaseo.',synonyms:['desaliño','desaseo','descompostura'],example:{word:'enatieza',text:'Su enatieza contrastaba con el cuidado del resto de la sala.'},exampleSynonym:{word:'desaliño',text:'Su desaliño contrastaba con el cuidado del resto de la sala.'}}
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();

@@ -57,9 +57,11 @@
 }
 
 /* -------- Tema oscuro --------
-   Lo activa el conmutador del engranaje con data-theme="dark", o solo
-   prefers-color-scheme cuando no hay tema forzado (opcion "Auto").
-   El alto contraste es el tercer tema: data-theme="contrast". */
+   Lo activa el conmutador del engranaje con data-theme="dark". El tema por
+   defecto es "light" y el "auto" ya no existe: delegaba en
+   prefers-color-scheme, con lo que en un equipo en oscuro el sitio salía
+   oscuro sin que nadie lo hubiera pedido. El alto contraste es el tercer
+   tema: data-theme="contrast". */
 [data-theme="dark"] {
   --color-fondo: #14161E;
   --color-texto: #F2F0EA;
@@ -131,35 +133,6 @@
   --cabecera-texto-punto: #FFFF00;
   --skip-fondo: #000000;
   --skip-texto: #FFFF00;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme]) {
-    --color-fondo: #14161E;
-    --color-texto: #F2F0EA;
-    --color-texto-suave: #B3B0C8;
-    --color-primario: #6BB4F2;
-    --color-primario-oscuro: #9ACBFA;
-    --color-tarjeta: #1E2230;
-    --color-pildora: #252B33;
-    --color-borde: #39405A;
-    --color-acento: #F0B472;
-    --color-foco: #8FCBFF;
-    --color-peligro: #F2907A;
-  --nota-fondo: #33261E;
-  --nota-borde: #4E3A28;
-    --texto-sobre-primario: #14161E;
-  --texto-sobre-peligro: #14161E;
-  --texto-sobre-acento: #14161E;
-    --cabecera-fondo: #0F2833;
-    --cabecera-fondo-2: #0A1E27;
-    --cabecera-texto: #EAF4FA;
-    --cabecera-texto-punto: #F0B472;
-    /* El skip-link tiene su propio fondo y sus tokens faltaban aqui, con
-       lo que en "Auto" sobre un sistema oscuro caia al crema de :root. */
-    --skip-fondo: #0F2833;
-    --skip-texto: #EAF4FA;
-  }
 }
 
 * { box-sizing: border-box; }
@@ -246,21 +219,26 @@ input:focus-visible {
 }
 
 /* Fila de controles de la cabecera. Solo va aquí el punto de anclaje
-   #locale-picker: el ⚙️ lo inserta js/locale-picker.js al lado y lleva
-   dentro idioma, tema, tamaño de letra y alto contraste. Es la misma
-   pieza que en las otras 7 apps de la suite, sin copias propias, así que
-   aquí no se tocan sus botones: los pinta css/locale-picker.css. */
+   #locale-picker: el desplegable de idioma y el ⚙️ que inserta
+   js/locale-picker.js justo detrás, como hermano. Es la misma pieza que
+   en las otras 7 apps de la suite, sin copias propias, así que aquí no se
+   tocan sus botones: los pinta css/locale-picker.css.
+
+   Va en la MISMA fila que la marca y el lema, alineada al final y con
+   margen automático a la izquierda, para que el engranaje caiga arriba a
+   la derecha igual que en el resto de la suite. Antes esta fila estaba
+   debajo de la cabecera (`margin: 0.9rem auto 0`) y el ⚙️ quedaba
+   centrado, no arriba a la derecha. `align-self` corrige el `baseline`
+   que hereda de .cabecera-fila: los botones se centran sobre la fila en
+   lugar de alinearse por la base del texto. */
 .cabecera-controles {
-  max-width: 900px;
-  margin: 0.9rem auto 0;
+  margin-left: auto;
+  align-self: center;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: 0.6rem;
-}
-
-/* El separador vertical entre el selector de idioma y el resto, que
-   usan las páginas internas (about/legal/config…). */
-.idioma-selector {
+}/* El separador vertical entre el selector de idioma y el resto{
   display: inline-flex;
   gap: 0.3rem;
   padding-right: 0.6rem;
@@ -1303,39 +1281,6 @@ span.detalle-navegacion-enlace {
 }
 
 /* Opción "Auto": sin tema forzado, estas páginas siguen al sistema. */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme]) .page-about,
-  :root:not([data-theme]) .page-legal,
-  :root:not([data-theme]) .page-team,
-  :root:not([data-theme]) .page-config,
-  :root:not([data-theme]) .page-404,
-  :root:not([data-theme]) .page-privacidad,
-  :root:not([data-theme]) .page-offline {
-    --color-fondo: #14161E;
-    --color-texto: #F2F0EA;
-    --color-texto-suave: #B3B0C8;
-    --color-primario: #6BB4F2;
-    --color-primario-oscuro: #9ACBFA;
-    --color-tarjeta: #1E2230;
-    --color-pildora: #252B33;
-    --color-borde: #39405A;
-    --color-acento: #F0B472;
-    --color-foco: #8FCBFF;
-    --color-peligro: #F2907A;
-  --nota-fondo: #33261E;
-  --nota-borde: #4E3A28;
-    --texto-sobre-primario: #14161E;
-    --texto-sobre-peligro: #14161E;
-  --texto-sobre-acento: #14161E;
-    --acento-tramites: #6BB4F2;
-    --acento-salud: #F09BC0;
-    --acento-vida-diaria: #F0B472;
-    --acento-finanzas: #7BD389;
-    --acento-vivienda: #C3A0F0;
-    --acento-trabajo: #8FCBFF;
-    --acento-legal: #E0B85C;
-  }
-}
 .page-about a,
 .page-legal a,
 .page-config a,
@@ -1459,10 +1404,6 @@ span.detalle-navegacion-enlace {
 .page-about header.cabecera .envoltorio,
 .page-legal header.cabecera .envoltorio,
 .page-config header.cabecera .envoltorio { padding: 0 1.25rem; }
-
-.page-about .idioma-selector { margin-bottom: 1.5rem; }
-.page-legal .idioma-selector { margin-bottom: 1.25rem; }
-.page-config .idioma-selector { margin-bottom: 1.25rem; }
 .page-about .lang-btn,
 .page-legal .lang-btn,
 .page-config .lang-btn,
@@ -1707,25 +1648,43 @@ span.detalle-navegacion-enlace {
   padding: 1.5rem 1.25rem 0;
 }
 
-/* `[data-lang-block]` driven visibility: scoped to /about/ pages only so
- * we don't accidentally hide anything elsewhere if a future page reuses
- * the attribute.
+/* `[data-lang-block]` driven visibility: scoped to the static template
+ * pages only, so we don't accidentally hide anything elsewhere if a future
+ * page reuses the attribute.
+ *
+ * These rules are `!important` on purpose. The attribute is what decides
+ * which language is on screen, and plain rules lose: `.page-config
+ * nav.indice { display: flex }` and `.page-config .boton-peligro
+ * { display: inline-block }` are later and at least as specific, so nine
+ * Spanish blocks stayed on screen after switching to English (the nav, the
+ * section leads, the storage keys and the delete button). It never showed
+ * while the dropdown on this page was dead — nobody could switch language,
+ * so nothing to look wrong.
+ *
+ * `.page-privacidad` was missing from every group here: both languages were
+ * visible at once and the switcher looked broken because it set `data-lang`
+ * and no rule listened.
  */
 .page-about [data-lang-block],
 .page-legal [data-lang-block],
-.page-config [data-lang-block] { display: none; }
+.page-config [data-lang-block],
+.page-privacidad [data-lang-block] { display: none !important; }
 html[data-lang="es"] .page-about [data-lang-block="es"],
 html[data-lang="es"] .page-legal [data-lang-block="es"],
-html[data-lang="es"] .page-config [data-lang-block="es"] { display: block; }
+html[data-lang="es"] .page-config [data-lang-block="es"],
+html[data-lang="es"] .page-privacidad [data-lang-block="es"] { display: block !important; }
 html[data-lang="en"] .page-about [data-lang-block="en"],
 html[data-lang="en"] .page-legal [data-lang-block="en"],
-html[data-lang="en"] .page-config [data-lang-block="en"] { display: block; }
+html[data-lang="en"] .page-config [data-lang-block="en"],
+html[data-lang="en"] .page-privacidad [data-lang-block="en"] { display: block !important; }
 html[data-lang="es"] .page-about span[data-lang-block="es"],
 html[data-lang="en"] .page-about span[data-lang-block="en"],
 html[data-lang="es"] .page-legal span[data-lang-block="es"],
 html[data-lang="en"] .page-legal span[data-lang-block="en"],
 html[data-lang="es"] .page-config span[data-lang-block="es"],
-html[data-lang="en"] .page-config span[data-lang-block="en"] { display: inline; }
+html[data-lang="en"] .page-config span[data-lang-block="en"],
+html[data-lang="es"] .page-privacidad span[data-lang-block="es"],
+html[data-lang="en"] .page-privacidad span[data-lang-block="en"] { display: inline !important; }
 
 /* --- config.html: settings / data-reset page (suite-wide §B.6.2
  * contract). The reset is a destructive action, so the button is given
@@ -1844,21 +1803,7 @@ html[data-lang="en"] .page-config span[data-lang-block="en"] { display: inline; 
   .page-about header.cabecera h1 span,
   .page-about header.cabecera h1 span,
   .page-legal header.cabecera h1 span,
-  .page-config header.cabecera h1 span { color: var(--color-acento); }
-  .page-about .idioma-selector,
-  .page-about .idioma-selector,
-  .page-legal .idioma-selector,
-  .page-config .idioma-selector,
-  .page-about .aviso-ruta,
-  .page-about nav.indice,
-  .page-config nav.indice,
-  .page-legal nav.indice,
-  .page-about footer[class*="pie-"],
-  .page-about footer[class*="pie-"],
-  .page-legal footer[class*="pie-"],
-  .page-privacidad footer[class*="pie-"],
-  .page-team footer[class*="pie-"],
-  .page-config footer[class*="pie-"] { display: none; }
+  .page-config header.cabecera h1 span { color: var(--color-acento); }.page-about .aviso-ruta, .page-about nav.indice, .page-config nav.indice, .page-legal nav.indice, .page-about footer[class*="pie-"], .page-about footer[class*="pie-"], .page-legal footer[class*="pie-"], .page-privacidad footer[class*="pie-"], .page-team footer[class*="pie-"], .page-config footer[class*="pie-"]{ display: none; }
   .page-about main section,
   .page-about main section,
   .page-legal main section,
@@ -1877,7 +1822,7 @@ html[data-lang="en"] .page-config span[data-lang-block="en"] { display: inline; 
 
 /* ---------- Responsive: escritorio ancho (>=1024px) ----------
    El diccionario ya limita el ancho del contenido (envoltorio max-width
-   900px), pero en monitores grandes el texto se ve pequeÃƒÂ±o y las tarjetas
+   900px), pero en monitores grandes el texto se ve pequeño y las tarjetas
    muy comprimidas verticalmente. Engordamos tipografía, damos m¡s aire
    y activamos un layout de dos columnas en el detalle para usar el
    espacio horizontal sobrante (pictograma a la izquierda, ficha a la

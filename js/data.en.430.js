@@ -1,0 +1,6 @@
+(()=>{const u={
+ pope:{definition:'The bishop of Rome and head of the Roman Catholic Church.',synonyms:['Bishop of Rome','pontiff','Holy Father'],example:{word:'pope',text:'The pope addressed the crowd from the balcony.'},exampleSynonym:{word:'pontiff',text:'The pontiff addressed the crowd from the balcony.'}},
+ 'poplar-2':{definition:'Any tree of the genus Populus, in the willow family Salicaceae; poplars are generally deciduous and often fast-growing.',synonyms:['poplar tree','Populus tree'],example:{word:'poplar',text:'A row of poplars lined the road to the village.'},exampleSynonym:{word:'Populus tree',text:'A row of Populus trees lined the road to the village.'}},
+ populace:{definition:'The people who live in a particular place, considered as a whole; the general population.',synonyms:['population','people','public'],example:{word:'populace',text:'The announcement was welcomed by the local populace.'},exampleSynonym:{word:'population',text:'The announcement was welcomed by the local population.'}}
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+(()=>{const ids=new Set(['popeable','poplin-3','poppy','populace-2']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

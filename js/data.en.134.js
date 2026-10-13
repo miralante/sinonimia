@@ -1,0 +1,1 @@
+(()=>{for(const id of ['bold','black','tyre','neuronal','neuronic','neurosis','neutral','neutrality','nest','grandchild']){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}})();

@@ -1,0 +1,1 @@
+(()=>{for(const id of ['optimism','oracle','orangutan','orca','killer-whale','ordinate','milk','organizer','orgasm','orgy']){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}})();

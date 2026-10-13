@@ -1,0 +1,1 @@
+(()=>{for(const id of ['mobilise','mobilize','furniture','movable','dirt','filth','grime','philanderer','skirt-chaser','womanizer']){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}})();

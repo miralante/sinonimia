@@ -10,26 +10,26 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Sinonimia — Presentación del proyecto / Project presentation</title>
 <meta name="description" content="Sinonimia: un diccionario en lectura fácil para palabras difíciles de trámites, justicia y salud.">
-<link rel="icon" type="image/svg+xml" href="../img/logo.svg">
-<link rel="apple-touch-icon" href="../img/logo.svg">
+<link rel="icon" type="image/svg+xml" href="../img/logo.svg?v=sinonimia-v7591a68c">
+<link rel="apple-touch-icon" href="../img/logo.svg?v=sinonimia-v7591a68c">
 <meta name="theme-color" content="#0a5c78">
 <meta name="application-name" content="Sinonimia">
-<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="../css/styles.css?v=sinonimia-v4a">
+<link rel="stylesheet" href="../css/locale-picker.css?v=sinonimia-v6aa">
 
 </head>
 <body class="page-about">
 
 <header class="cabecera">
   <div class="envoltorio">
-    <div class="idioma-selector" role="group" aria-label="Idioma / Language">
-      <button type="button" class="lang-btn" data-lang="es" aria-pressed="true">ðŸ‡ªðŸ‡¸ Español</button>
-      <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">ðŸ‡¬ðŸ‡§ English</button>
+    <div class="suite-controls">
+      <div id="locale-picker"></div>
     </div>
 
     <p class="aviso-ruta" data-lang-block="es">Esta página no está enlazada desde la web de Sinonimia ni desde su README. Solo se llega escribiendo esta dirección directamente.</p>
     <p class="aviso-ruta" data-lang-block="en">This page isn't linked from Sinonimia's site or its README. It's only reached by typing this address directly.</p>
 
-    <div class="logo-about">ðŸ“–</div>
+    <div class="logo-about">📖</div>
     <h1>Sinonimia<span>.</span></h1>
     <p class="lema" data-lang-block="es">Palabras difíciles, explicadas fácil.</p>
     <p class="lema" data-lang-block="en">Difficult words, explained simply.</p>
@@ -42,7 +42,7 @@
       pictograms and active practice, free of charge and with no
       server to run.</p>
 
-    <nav class="indice" aria-label="Ãndice de la presentación">
+    <nav class="indice" aria-label="Índice de la presentación">
       <a href="#origen" data-lang-block="es">El origen</a>
       <a href="#origen" data-lang-block="en">The origin</a>
       <a href="#principios" data-lang-block="es">Los principios</a>
@@ -108,8 +108,8 @@
 
       <div class="grid-principios">
         <article class="principio" style="--acento: var(--acento-tramites);">
-          <h3 data-lang-block="es">ðŸ“– Lectura fácil</h3>
-          <h3 data-lang-block="en">ðŸ“– Easy-read language</h3>
+          <h3 data-lang-block="es">📖 Lectura fácil</h3>
+          <h3 data-lang-block="en">📖 Easy-read language</h3>
           <p data-lang-block="es">Norma UNE 153101:2018 EX y pautas de Inclusion Europe: una idea
             por frase, frases cortas, vocabulario cotidiano, sin metáforas.</p>
           <p data-lang-block="en">UNE 153101:2018 EX standard and Inclusion Europe's guidelines: one
@@ -118,8 +118,8 @@
         </article>
 
         <article class="principio" style="--acento: var(--acento-vida-diaria);">
-          <h3 data-lang-block="es">ðŸ” Repetición con sinónimo</h3>
-          <h3 data-lang-block="en">ðŸ” Synonym repetition</h3>
+          <h3 data-lang-block="es">🔁 Repetición con sinónimo</h3>
+          <h3 data-lang-block="en">🔁 Synonym repetition</h3>
           <p data-lang-block="es">La misma frase de ejemplo se repite cambiando solo la palabra
             difícil por la sencilla: se entiende por contexto, no de memoria.</p>
           <p data-lang-block="en">The same example sentence is repeated, swapping only the
@@ -128,8 +128,8 @@
         </article>
 
         <article class="principio" style="--acento: var(--acento-finanzas);">
-          <h3 data-lang-block="es">ðŸ–¼ï¸ Pictogramas ARASAAC</h3>
-          <h3 data-lang-block="en">ðŸ–¼ï¸ ARASAAC pictograms</h3>
+          <h3 data-lang-block="es">🖼️ Pictogramas ARASAAC</h3>
+          <h3 data-lang-block="en">🖼️ ARASAAC pictograms</h3>
           <p data-lang-block="es">Apoyo visual habitual en comunicación aumentativa, compartido
             entre idiomas cuando representan el mismo concepto.</p>
           <p data-lang-block="en">The standard visual support used in augmentative communication,
@@ -137,8 +137,8 @@
         </article>
 
         <article class="principio" style="--acento: var(--acento-salud);">
-          <h3 data-lang-block="es">ðŸŽ® Gamificación sin presión</h3>
-          <h3 data-lang-block="en">ðŸŽ® Gamification with no pressure</h3>
+          <h3 data-lang-block="es">🎮 Gamificación sin presión</h3>
+          <h3 data-lang-block="en">🎮 Gamification with no pressure</h3>
           <p data-lang-block="es">Sin cronómetros ni "vidas". Un fallo nunca se castiga: se invita
             a releer la pista y volver a intentarlo, sin límite.</p>
           <p data-lang-block="en">No timers or "lives". A wrong answer is never punished: it
@@ -146,8 +146,8 @@
         </article>
 
         <article class="principio" style="--acento: var(--acento-vivienda);">
-          <h3 data-lang-block="es">ðŸŒ Arquitectura multi-idioma</h3>
-          <h3 data-lang-block="en">ðŸŒ Multi-language architecture</h3>
+          <h3 data-lang-block="es">🌐 Arquitectura multi-idioma</h3>
+          <h3 data-lang-block="en">🌐 Multi-language architecture</h3>
           <p data-lang-block="es">Cada idioma tiene su propio diccionario, clasificado en siete
             áreas AIVD compartidas, sin necesidad de traducir palabra por palabra.</p>
           <p data-lang-block="en">Each language has its own dictionary, classified into seven
@@ -155,8 +155,8 @@
         </article>
 
         <article class="principio" style="--acento: var(--acento-trabajo);">
-          <h3 data-lang-block="es">ðŸ§± Tecnología sobria</h3>
-          <h3 data-lang-block="en">ðŸ§± Sober technology</h3>
+          <h3 data-lang-block="es">🧱 Tecnología sobria</h3>
+          <h3 data-lang-block="en">🧱 Sober technology</h3>
           <p data-lang-block="es">HTML, CSS y JavaScript sin frameworks, sin build ni backend.
             Funciona abriendo un archivo, sin coste de servidor.</p>
           <p data-lang-block="en">Plain HTML, CSS, and JavaScript, no frameworks, no build step, no
@@ -220,38 +220,38 @@
 
       <div class="grid-areas">
         <article class="area" style="--acento: var(--acento-tramites);">
-          <h3 data-lang-block="es">ðŸ“„ Trámites</h3>
-          <h3 data-lang-block="en">ðŸ“„ Paperwork</h3>
+          <h3 data-lang-block="es">📄 Trámites</h3>
+          <h3 data-lang-block="en">📄 Paperwork</h3>
           <p class="area-cifra">ES 5 · EN 4</p>
         </article>
         <article class="area" style="--acento: var(--acento-salud);">
-          <h3 data-lang-block="es">ðŸ©º Salud</h3>
-          <h3 data-lang-block="en">ðŸ©º Health</h3>
+          <h3 data-lang-block="es">🩺 Salud</h3>
+          <h3 data-lang-block="en">🩺 Health</h3>
           <p class="area-cifra">ES 20 · EN 6</p>
         </article>
         <article class="area" style="--acento: var(--acento-vida-diaria);">
-          <h3 data-lang-block="es">ðŸ  Vida diaria</h3>
-          <h3 data-lang-block="en">ðŸ  Everyday life</h3>
+          <h3 data-lang-block="es">🏠 Vida diaria</h3>
+          <h3 data-lang-block="en">🏠 Everyday life</h3>
           <p class="area-cifra">ES 9 · EN 6</p>
         </article>
         <article class="area" style="--acento: var(--acento-finanzas);">
-          <h3 data-lang-block="es">ðŸ’¶ Finanzas</h3>
-          <h3 data-lang-block="en">ðŸ’¶ Finance</h3>
+          <h3 data-lang-block="es">💶 Finanzas</h3>
+          <h3 data-lang-block="en">💶 Finance</h3>
           <p class="area-cifra">ES 6 · EN 2</p>
         </article>
         <article class="area" style="--acento: var(--acento-vivienda);">
-          <h3 data-lang-block="es">ðŸ˜ï¸ Vivienda</h3>
-          <h3 data-lang-block="en">ðŸ˜ï¸ Housing</h3>
+          <h3 data-lang-block="es">🏘️ Vivienda</h3>
+          <h3 data-lang-block="en">🏘️ Housing</h3>
           <p class="area-cifra">ES 5 · EN 1</p>
         </article>
         <article class="area" style="--acento: var(--acento-trabajo);">
-          <h3 data-lang-block="es">ðŸ’¼ Trabajo</h3>
-          <h3 data-lang-block="en">ðŸ’¼ Employment</h3>
+          <h3 data-lang-block="es">💼 Trabajo</h3>
+          <h3 data-lang-block="en">💼 Employment</h3>
           <p class="area-cifra">ES 5 · EN 1</p>
         </article>
         <article class="area" style="--acento: var(--acento-legal);">
-          <h3 data-lang-block="es">âš–ï¸ Legal</h3>
-          <h3 data-lang-block="en">âš–ï¸ Legal</h3>
+          <h3 data-lang-block="es">⚖️ Legal</h3>
+          <h3 data-lang-block="en">⚖️ Legal</h3>
           <p class="area-cifra">ES 12 · EN 4</p>
         </article>
       </div>
@@ -312,7 +312,12 @@
   <p class="pie-nota" data-lang-block="en">Sinonimia — project presentation, for internal use and partner organizations.</p>
 </div>
 
-<script src="about.js"></script>
+<script src="about.js?v=about-v1"></script>
 
+<!-- Controles compartidos con la pantalla principal: el desplegable de idioma
+     y el ⚙️ de la cabecera, con su cajón de accesibilidad. Mismo ?v= que la
+     portada, para que las dos páginas compartan la copia en caché. -->
+<script src="../js/locale-picker-config.js?v=1ab"></script>
+<script src="../js/locale-picker.js?v=sinonimia-v6aaa" defer></script>
 </body>
 </html>

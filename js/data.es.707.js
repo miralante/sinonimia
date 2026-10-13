@@ -1,0 +1,20 @@
+(()=>{const u={
+  moceton:{definition:'Hombre joven, alto y corpulento.',synonyms:['mozancón','joven corpulento']},
+  mochada:{synonyms:['cabezazo','golpe de cabeza']},
+  mochar:{definition:'Dar un golpe con la cabeza; también, cortar o quitar la parte superior de algo, según el uso regional.',synonyms:['cabecear contra','golpear con la cabeza','cortar']},
+  mochazo:{synonyms:['cabezazo','golpe con la cabeza']},
+  mochete:{definition:'Persona muy tacaña; uso coloquial y regional.',synonyms:['tacaño','avaro']},
+  mochilear:{synonyms:['viajar con mochila','recorrer llevando solo una mochila']},
+  mochillero:{synonyms:['mochilero','portador de mochilas']},
+  mocil:{definition:'Propio de la gente joven o de los mozos; voz antigua.',synonyms:['juvenil','moceril']},
+  mocionar:{definition:'Proponer una moción o propuesta, especialmente en una asamblea.',synonyms:['proponer','presentar una moción']},
+  mocito:{synonyms:['mozo joven','muchacho']},
+  moclin:{definition:'En la jerga de Nicaragua, violador de mujeres, particularmente de niñas; uso vulgar.',synonyms:['violador (Nicaragua, jerga)']},
+  moco:{synonyms:['secreción nasal','mucosidad']},
+  mocoso:{definition:'Que tiene mocos o está relacionado con ellos; aplicado despectivamente a un niño, muy joven o inexperto.',synonyms:['mocudo','niño (despectivo)','inexperto']},
+  mocosuena:{definition:'Sin atender al sentido, guiándose por el sonido de las palabras; «a mocosuena».',synonyms:['por el sonido','sin atender al significado']},
+  modal:{synonyms:['relativo al modo','que expresa modalidad']},
+  modalidad:{definition:'Modo o forma particular de ser, manifestarse o realizarse algo.',synonyms:['variedad','forma','tipo']},
+  modejar:{definition:'Mudéjar; forma antigua o variante.',synonyms:['mudéjar']},
+  modelable:{synonyms:['moldeable','maleable']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}const ids=new Set(['mochica']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

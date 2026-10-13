@@ -1,0 +1,2 @@
+(()=>{const ids=new Set(['reside-2','residence-certificate-2']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();
+(()=>{const u={reshoe:{definition:'To put new horseshoes on a horse or replace its existing horseshoes.',synonyms:['shoe again','replace a horse’s shoes']}};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();

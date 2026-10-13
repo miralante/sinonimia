@@ -1,0 +1,22 @@
+(()=>{const u={
+  moralizar:{definition:'Predicar o inculcar ideas morales; también, juzgar una conducta con criterios morales.',synonyms:['aleccionar','moralizar','dar lecciones de moral']},
+  moralmente:{definition:'Desde el punto de vista moral o de acuerdo con ciertos principios éticos.',synonyms:['éticamente','según la moral']},
+  morapio:{definition:'Vino tinto corriente, generalmente de calidad sencilla y con poca acidez.',synonyms:['vino tinto corriente','vino común']},
+  morar:{synonyms:['habitar','residir','vivir']},
+  moratiniano:{synonyms:['relativo a Moratín','de estilo moratiniano']},
+  moraton:{definition:'Mancha violácea o azulada en la piel causada por un golpe y una pequeña hemorragia bajo la piel.',synonyms:['cardenal','hematoma','equimosis']},
+  moratoria:{synonyms:['aplazamiento','prórroga','suspensión temporal']},
+  morbidez:{definition:'Cualidad de mórbido; blandura, suavidad o delicadeza, especialmente en una forma o textura.',synonyms:['suavidad','blandura','ternura']},
+  morbideza:{definition:'Morbidez; suavidad o blandura. Uso antiguo.',synonyms:['morbidez','suavidad']},
+  morbido:{definition:'Relativo a una enfermedad; también, blando, delicado o de formas suaves.',synonyms:['enfermizo','blando','suave']},
+  morbifico:{definition:'Que causa enfermedad o favorece su aparición; uso raro.',synonyms:['patógeno','que causa enfermedad']},
+  morbo:{definition:'Enfermedad; también, interés o atracción por asuntos desagradables, escabrosos o prohibidos.',synonyms:['enfermedad','curiosidad malsana','atracción morbosa']},
+  morbosidad:{definition:'Cualidad de morboso; interés por lo desagradable o escabroso, especialmente cuando resulta excesivo.',synonyms:['morbo','curiosidad malsana']},
+  morboso:{definition:'Relativo a una enfermedad o que la causa; también, que despierta un interés malsano por lo escabroso o prohibido.',synonyms:['patológico','enfermizo','escabroso']},
+  morcacho:{definition:'En Aragón, mezcla de trigo y centeno.',synonyms:['morcajo','mezcla de trigo y centeno']},
+  morcajo:{definition:'Mezcla de trigo y centeno.',synonyms:['morcacho','mezcla de cereales']},
+  morcal:{definition:'Tripa gruesa empleada para embutir.',synonyms:['tripa de embutir','intestino grueso']},
+  morcar:{definition:'Dicho de un toro: golpear con las astas; dicho de algunos animales, topar con la cabeza.',synonyms:['acornear','topar']},
+  morceguila:{definition:'Excremento o estiércol de murciélago; variante regional.',synonyms:['guano de murciélago','murcielaguina']},
+  morcella:{definition:'Chispa o centella; voz antigua o regional.',synonyms:['chispa','centella']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

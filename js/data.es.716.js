@@ -1,0 +1,21 @@
+(()=>{const u={
+  molinismo:{synonyms:['doctrina molinista','libertad humana y gracia']},
+  molino:{definition:'Máquina o instalación que muele granos u otros materiales; también, aparato que transforma la energía del viento o del agua.',synonyms:['molendera','molinillo','máquina de molienda']},
+  molinosismo:{definition:'Doctrina mística atribuida a Miguel de Molinos, también llamada quietismo, que propugna la pasividad contemplativa y el abandono de la voluntad.',synonyms:['quietismo','doctrina de Miguel de Molinos']},
+  molitivo:{synonyms:['triturador','que sirve para moler']},
+  molla:{definition:'Parte magra y blanda de la carne; voz regional.',synonyms:['carne magra','pulpa']},
+  mollar:{definition:'Blando y fácil de partir o pelar; dicho especialmente de frutos y alimentos.',synonyms:['blando','tierno','fácil de pelar']},
+  molle:{definition:'Árbol americano de la familia de las anacardiáceas, de hojas aromáticas y frutos pequeños; también llamado aguaribay o falso pimentero.',synonyms:['aguaribay','falso pimentero','Schinus molle']},
+  mollear:{definition:'Alisar o dar una apariencia lisa a una superficie; uso raro.',synonyms:['alisar','pulir']},
+  molledo:{synonyms:['parte carnosa del brazo','bíceps','pantorrilla']},
+  mollejo:{definition:'Molleja: órgano muscular del aparato digestivo de las aves que tritura el alimento.',synonyms:['molleja','ventrículo']},
+  mollero:{definition:'En varios países de América, parte musculosa del brazo, especialmente el bíceps; también, persona que hace o vende molletes.',synonyms:['bíceps','brazo musculoso','molletero']},
+  molleta:{definition:'Torta o pieza de pan hecha con harina fina, a veces amasada con leche.',synonyms:['panecillo','torta de pan']},
+  mollete:{synonyms:['panecillo blanco','pan blando']},
+  molletero:{synonyms:['panadero de molletes','vendedor de molletes']},
+  molletudo:{synonyms:['de carrillos prominentes','cachetón']},
+  mollez:{definition:'Blandura o suavidad; voz antigua o poco usada.',synonyms:['molleza','blandura']},
+  molleza:{definition:'Cualidad de blando; blandura o falta de firmeza.',synonyms:['blandura','molicie']},
+  mollicio:{definition:'Muelle o blando; voz poco usada.',synonyms:['blando','muelle']},
+  mollidura:{definition:'Suavidad o blandura.',synonyms:['molicie','blandura']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

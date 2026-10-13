@@ -1,0 +1,1 @@
+(()=>{for(const id of ['myrrh','miserable','misery','mercy','compassion','misericord','missile','misogynic','mysticism','mythical']){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}})();

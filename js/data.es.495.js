@@ -1,0 +1,1 @@
+(()=>{const u={faluca:{definition:'Embarcación ligera, generalmente de vela y remo, usada en el Mediterráneo y el norte de África.',synonyms:['falúa','barca ligera']}};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();

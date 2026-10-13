@@ -392,7 +392,8 @@ step. Each piece lives in its own file:
 3. Add the ordered shards to `js/dictionary-manifest.js`. The loader executes
    them before `js/app.js`; if a file approaches the host's per-file limit,
    split it into another shard instead of exceeding the limit.
-4. Add a button in `.idioma-selector` in `index.html`:
+4. The language is mounted by the shared dropdown in
+   `<div id="locale-picker"></div>`; there is no button to add.
    `<button class="idioma-btn" data-lang="<lang>">XX</button>`.
 
 None of this touches `js/app.js`: search, routing, progress, and word of
@@ -484,11 +485,18 @@ the dictionary needs to grow:
    has the full acceptance criteria for both methods, plus a table of
    plausible glossary and corpus sources for every category, so this
    step doesn't start from a blank page.
-4. **Write each entry** following this document's easy-read rules to the
+4. **Check for an equivalent headword in the other language** by consulting
+   that language's dictionary too. If an equivalent entry already exists,
+   link the two entries with `traduccion` in both records. Add the reciprocal
+   link to the existing entry if it is missing. If the other-language entry
+   does not exist, create it only when that word is genuinely difficult and
+   independently meets that language's editorial criteria; do not add
+   word-for-word translations by default. One-to-many links are supported.
+5. **Write each entry** following this document's easy-read rules to the
    letter, **in the chosen language** — the whole entry (`definicion`,
    `sinonimos`, `ejemplo`, `ejemploSinonimo`) goes in `js/data.<lang>.js`,
    never mixed with another language.
-5. **Find the pictogram** with
+6. **Find the pictogram** with
    `node scripts/search-pictogram.js "<term>" <lang>`, using the same
    language code as the word (`es`, `en`...), not always `es` (uses
    OpenSymbols if `OPENSYMBOLS_SECRET` is set, otherwise falls back to
@@ -496,7 +504,7 @@ the dictionary needs to grow:
    a pictogram in `img/` from a word in another language — ARASAAC's
    pictograms are drawings with no text, so the same `imagen.id` serves
    the same concept in any language.
-6. **Validate**: `node scripts/check.js` before considering the word
+7. **Validate**: `node scripts/check.js` before considering the word
    done. It checks every language's words at once, so one run is enough
    even if you touched several `js/data.<lang>.js` files.
 

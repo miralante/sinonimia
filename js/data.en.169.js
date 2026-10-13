@@ -1,0 +1,12 @@
+(()=>{
+ const updates={
+  outing:{definition:"A short trip or excursion, especially one made for pleasure or as part of a group activity.",synonyms:["excursion","day trip","pleasure trip"],example:{word:"outing",text:"The class went on an outing to the science museum."},exampleSynonym:{word:"excursion",text:"The class went on an excursion to the science museum."}},
+  outlandishly:{definition:"In a bizarre, eccentric, or conspicuously unconventional way.",synonyms:["bizarrely","eccentrically","extravagantly"],example:{word:"outlandishly",text:"He dressed outlandishly for the costume party."},exampleSynonym:{word:"eccentrically",text:"He dressed eccentrically for the costume party."}},
+  outlaw:{definition:"Noun: a person who has broken the law or lives outside its protection, especially as a fugitive. Verb: to make an activity illegal or to deprive someone of legal protection or banish them from a community.",synonyms:["criminal","fugitive","proscribe","banish","exclude from legal protection"],example:{word:"outlaw",text:"The new statute would outlaw the sale of the chemical."},exampleSynonym:{word:"proscribe",text:"The new statute would proscribe the sale of the chemical."}},
+  "outlet-cover":{definition:"A cover or insert fitted over an electrical outlet to help prevent a young child from touching its contacts or inserting an object.",synonyms:["socket cover","childproof outlet cover","electrical outlet protector"],example:{word:"outlet cover",text:"They fitted an outlet cover in the nursery."},exampleSynonym:{word:"socket cover",text:"They fitted a socket cover in the nursery."}},
+  outline:{definition:"Noun: the outer line or shape of an object; also, a brief summary or plan of a subject. Verb: to draw an outer line or state the main features or parts of something.",synonyms:["contour","silhouette","summary","plan","sketch","summarize"],example:{word:"outline",text:"She prepared an outline before writing the report."},exampleSynonym:{word:"plan",text:"She prepared a plan before writing the report."}}
+ };
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const id of ['outlaw-2','outlaw-3','outlaw-4','outlaw-5','outlawed'])if(!DICCIONARIOS.en.some(e=>e.id===id))throw Error('Missing en/'+id);
+ DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!['outlaw-2','outlaw-3','outlaw-4','outlaw-5','outlawed'].includes(e.id));
+})();

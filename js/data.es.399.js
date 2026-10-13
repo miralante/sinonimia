@@ -1,0 +1,22 @@
+(()=>{const u={
+ escarbillos:{synonyms:['restos de leña','brasas menudas','ceniza con rescoldos']},
+ escarbo:{synonyms:['acción de escarbar','excavación','búsqueda']},
+ escarcela:{definition:'Bolsa pequeña que se llevaba sujeta al cinturón o a la cintura.',synonyms:['bolsa de cintura','faltriquera','bolsa pequeña']},
+ escarcunar:{synonyms:['examinar','indagar','investigar']},
+ escarda:{synonyms:['deshierbe','escardadura','labor de quitar malas hierbas']},
+ escardar:{synonyms:['desherbar','desyerbar','quitar malas hierbas'],example:{word:'escardar',text:'Conviene escardar el huerto antes de que las hierbas compitan con las hortalizas.'},exampleSynonym:{word:'desherbar',text:'Conviene desherbar el huerto antes de que las hierbas compitan con las hortalizas.'}},
+ escariador:{definition:'Herramienta de corte que sirve para agrandar y dejar lisa una perforación previamente abierta.',synonyms:['reamer','herramienta de escariado','avellanador (según el tipo)'],example:{word:'escariador',text:'El mecánico pasó un escariador por el orificio para ajustarlo a la medida.'},exampleSynonym:{word:'herramienta de escariado',text:'El mecánico pasó una herramienta de escariado por el orificio para ajustarlo a la medida.'}},
+ escarioso:{definition:'En botánica, dicho de un órgano vegetal: seco, delgado y membranoso, por lo común translúcido y de color distinto del verde.',synonyms:['membranoso','seco y translúcido','escamoso (en ciertos usos)'],example:{word:'escarioso',text:'Las brácteas escariosas rodeaban la base de la inflorescencia.'},exampleSynonym:{word:'membranoso',text:'Las brácteas membranosas rodeaban la base de la inflorescencia.'}},
+ escarmenador:{definition:'Persona que escarmena lana o fibra, separando y desenredando sus hebras; también, instrumento usado para esa labor.',synonyms:['cardador','desmotador','peine para escarmenar'],example:{word:'escarmenador',text:'El escarmenador separó las fibras antes de hilar la lana.'},exampleSynonym:{word:'cardador',text:'El cardador separó las fibras antes de hilar la lana.'}},
+ escarmenar:{definition:'Desenredar y separar las fibras de la lana u otra materia textil antes de hilarla.',synonyms:['cardar','desenredar fibras','peinar lana'],example:{word:'escarmenar',text:'Primero hay que escarmenar la lana para poder hilarla.'},exampleSynonym:{word:'cardar',text:'Primero hay que cardar la lana para poder hilarla.'}},
+ escarlatin:{synonyms:['tejido escarlata','paño escarlatín','tela antigua']},
+ escarzar:{definition:'Desgarrar o rasgar algo, especialmente una tela o una superficie.',synonyms:['rasgar','desgarrar','romper parcialmente'],example:{word:'escarzar',text:'La zarza puede escarzar la tela al engancharse en ella.'},exampleSynonym:{word:'rasgar',text:'La zarza puede rasgar la tela al engancharse en ella.'}},
+ escas:{definition:'Escaso; de poca cantidad o extensión. Voz poco usada.',synonyms:['escaso','reducido','limitado']},
+ escatofagia:{definition:'Acción de comer excrementos.',synonyms:['coprofagia','ingestión de excrementos'],example:{word:'escatofagia',text:'La escatofagia se observa en algunas especies animales.'},exampleSynonym:{word:'coprofagia',text:'La coprofagia se observa en algunas especies animales.'}},
+ escatimosamente:{definition:'Con tacañería o mezquindad; usando o dando algo con excesiva parsimonia.',synonyms:['tacañamente','con mezquindad','con parsimonia']},
+ escatimoso:{definition:'Que da o usa algo con tacañería o mezquindad.',synonyms:['tacaño','mezquino','avaro']},
+ escaupil:{definition:'Prenda acolchada de algodón, usada antiguamente como protección por algunos pueblos indígenas de México.',synonyms:['armadura acolchada','jubón de algodón','protección acolchada']},
+ escavador:{definition:'Que excava o remueve superficialmente la tierra para quitar hierbas o preparar el terreno.',synonyms:['cavador','escardador','cultivador']},
+ escavanar:{synonyms:['remover superficialmente la tierra','escardar','aporcar (según la labor)'],example:{word:'escavanar',text:'Escavanaron alrededor de las plantas para quitar la maleza.'},exampleSynonym:{word:'escardar',text:'Escardaron alrededor de las plantas para quitar la maleza.'}},
+ escavillar:{definition:'Dividir o desmenuzar una masa en trozos pequeños.',synonyms:['desmenuzar','deshacer en trozos','fragmentar']}
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();

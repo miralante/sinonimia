@@ -1,0 +1,20 @@
+(()=>{const u={
+  molde:{definition:'Objeto hueco o cavidad que sirve para dar forma a una materia blanda o líquida; también, modelo que determina la forma de algo.',synonyms:['forma','matriz','patrón']},
+  moldeable:{synonyms:['maleable','modelable','flexible']},
+  moldeado:{definition:'Acción y efecto de moldear; forma obtenida mediante un molde.',synonyms:['moldeo','modelado']},
+  moldeador:{synonyms:['modelador','formador']},
+  moldear:{definition:'Dar forma a una materia usando un molde o modelándola directamente.',synonyms:['modelar','formar','dar forma']},
+  moldeo:{definition:'Acción y proceso de dar forma a un material, por ejemplo vertiéndolo o prensándolo en un molde.',synonyms:['moldeado','conformado']},
+  moldero:{definition:'Persona que fabrica o utiliza moldes para producir piezas.',synonyms:['fabricante de moldes','moldeador']},
+  moldurar:{definition:'Hacer molduras en una pieza o superficie.',synonyms:['moldurar','ornamentar con molduras']},
+  moledera:{definition:'Molestia y cansancio causados por una importunación insistente; uso regional.',synonyms:['cansera','fastidio']},
+  moledero:{synonyms:['molestia','fastidio','cansera']},
+  moledor:{definition:'Que muele; persona o máquina que reduce algo a partículas o polvo.',synonyms:['molendero','triturador','molino']},
+  moledura:{definition:'Acción y efecto de moler; material que resulta de ello.',synonyms:['molienda','trituración']},
+  moleja:{definition:'Molleja, especialmente la de las aves; variante antigua o regional.',synonyms:['molleja']},
+  molejon:{definition:'Piedra de amolar, redonda y montada sobre un eje horizontal, que suele girar sobre una artesa con agua.',synonyms:['piedra de amolar','muela de afilar']},
+  molendero:{definition:'Dicho de una persona: que muele; también, persona que trabaja en la molienda.',synonyms:['moledor','molinero']},
+  moler:{synonyms:['triturar','pulverizar','desmenuzar']},
+  molero:{definition:'Persona que comercia con ruedas de molino.',synonyms:['comerciante de ruedas de molino']},
+  molestador:{synonyms:['fastidioso','importunador']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}const ids=new Set(['molena','moleno']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

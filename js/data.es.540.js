@@ -1,0 +1,1 @@
+(()=>{const u={festear:{definition:'Antiguamente, festejar; en Murcia y Valencia, celebrar o participar en una fiesta.',synonyms:['festejar','celebrar','festejar una fiesta']}};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();

@@ -1,0 +1,3 @@
+(()=>{const u={
+ packer:{definition:'A person or machine that packs goods for storage, sale, or transport.',synonyms:['packing worker','packaging machine'],example:{word:'packer',text:'The packer checked each box before it left the warehouse.'},exampleSynonym:{word:'packing worker',text:'The packing worker checked each box before it left the warehouse.'}}
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}for(const id of ['packaging-5','packaging-7','packed-6','packed-7','packed-8','packed-9']){if(!DICCIONARIOS.en.some(x=>x.id===id))throw Error('Missing en/'+id);DICCIONARIOS.en=DICCIONARIOS.en.filter(x=>x.id!==id);}})();

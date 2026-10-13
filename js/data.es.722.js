@@ -1,0 +1,22 @@
+(()=>{const u={
+  monjio:{definition:'Estado o condición de monja; vida monástica femenina.',synonyms:['vida monástica','condición de monja']},
+  monjita:{definition:'Nombre común de varias aves acuáticas pequeñas; el referente exacto varía según la región.',synonyms:['ave acuática','monjita (ave)']},
+  monoaural:{synonyms:['monofónico','de un solo canal']},
+  monocarril:{definition:'Sistema de transporte que circula sobre un solo carril o riel; también, vehículo de ese sistema.',synonyms:['monorraíl','monorriel']},
+  monocasco:{definition:'Estructura de vehículo, embarcación o aeronave en la que la envoltura exterior soporta las cargas principales, sin armazón interno independiente.',synonyms:['estructura monocasco','casco autoportante']},
+  monoceronte:{definition:'Animal de un solo cuerno; nombre aplicado al rinoceronte y, en relatos míticos, a criaturas semejantes al unicornio.',synonyms:['rinoceronte','unicornio (mitológico)']},
+  monocerote:{definition:'Animal fabuloso de un solo cuerno, semejante al unicornio.',synonyms:['unicornio','monoceronte']},
+  monociclo:{definition:'Vehículo de una sola rueda, provisto de pedales y asiento, que mantiene el equilibrio al circular.',synonyms:['uniciclo','vehículo de una rueda']},
+  monocito:{definition:'Tipo de leucocito con un solo núcleo, que participa en la defensa inmunitaria y puede convertirse en macrófago.',synonyms:['glóbulo blanco','leucocito mononuclear']},
+  monoclonal:{definition:'Procedente de un solo clon celular o relacionado con él; aplicado, por ejemplo, a anticuerpos producidos por células genéticamente iguales.',synonyms:['de un solo clon','clonal']},
+  monocloroacetico:{definition:'Ácido cloroacético con un átomo de cloro, compuesto orgánico sólido e incoloro usado en síntesis química y otras aplicaciones.',synonyms:['ácido monocloroacético','MCAA']},
+  monocolor:{synonyms:['de un solo color','monocromático']},
+  monocorde:{definition:'De un solo sonido o tono; monótono.',synonyms:['monótono','uniforme']},
+  monocordio:{synonyms:['instrumento monocorde','diapasón antiguo']},
+  monocromatico:{synonyms:['monocromo','de un solo color']},
+  monocromia:{definition:'Uso de un solo color o de sus tonos en una obra o representación.',synonyms:['monocromatismo','monocromía']},
+  monocromo:{synonyms:['monocolor','de un solo color']},
+  monocular:{definition:'Que se refiere a un solo ojo o se realiza con un solo ojo; dicho de un instrumento, diseñado para observar por un ojo.',synonyms:['de un solo ojo','monóculo (instrumento)']},
+  monoculo:{definition:'Lente correctiva para un solo ojo; también, instrumento óptico monocular.',synonyms:['lente monocular','anteojo de un ojo']},
+  monocultivo:{definition:'Cultivo de una sola especie vegetal en una explotación o región, de manera continuada o predominante.',synonyms:['cultivo único','monocultura']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

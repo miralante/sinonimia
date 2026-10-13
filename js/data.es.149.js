@@ -1,0 +1,11 @@
+(()=>{
+ const updates={
+  dinamizante:{definition:"Que transmite dinamismo.",synonyms:["estimulante","impulsor","revitalizante"],example:{word:"dinamizante",text:"La propuesta dinamizante despertó el interés del vecindario."},exampleSynonym:{word:"estimulante",text:"La propuesta estimulante despertó el interés del vecindario."}},
+  dinamoelectrico:{definition:"Perteneciente o relativo a la dinamo.",synonyms:["relativo a la dinamo","electromecánico"],example:{word:"dinamoeléctrico",text:"El equipo instaló un sistema dinamoeléctrico en el taller."},exampleSynonym:{word:"electromecánico",text:"El equipo instaló un sistema electromecánico en el taller."}},
+  dinamogeno:{definition:"Que estimula el vigor físico.",synonyms:["estimulante","vigorizante","tonificante"],example:{word:"dinamógeno",text:"El médico describió el efecto dinamógeno del ejercicio moderado."},exampleSynonym:{word:"vigorizante",text:"El médico describió el efecto vigorizante del ejercicio moderado."}},
+  dinamometria:{definition:"En física, medición de fuerzas.",synonyms:["medición de fuerzas","medición de la fuerza"],example:{word:"dinamometría",text:"La dinamometría permitió medir la fuerza aplicada al cable."},exampleSynonym:{word:"medición de fuerzas",text:"La medición de fuerzas permitió evaluar el cable."}},
+  dinamometrico:{definition:"Perteneciente o relativo al dinamómetro.",synonyms:["relativo al dinamómetro","de medición de fuerza"],example:{word:"dinamométrico",text:"El laboratorio calibró el instrumento dinamométrico antes de usarlo."},exampleSynonym:{word:"de medición de fuerza",text:"El laboratorio calibró el instrumento de medición de fuerza antes de usarlo."}},
+  dinamometro:{definition:"Instrumento mecánico para medir fuerzas, basado en la deformación elástica de un muelle calibrado.",synonyms:["medidor de fuerza","instrumento de medición de fuerza"],example:{word:"dinamómetro",text:"El dinamómetro registró la fuerza ejercida sobre el resorte."},exampleSynonym:{word:"medidor de fuerza",text:"El medidor de fuerza registró la acción ejercida sobre el resorte."}}
+ };
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+})();

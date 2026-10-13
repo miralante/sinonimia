@@ -60,7 +60,9 @@ model". Minimum required fields:
 Optional fields:
 
 - `traduccion` — closest equivalent(s) in another language
-  (one-to-many is allowed).
+  (one-to-many is allowed). When the equivalent headword exists in the
+  other dictionary, link both records with `traduccion`; add the
+  reciprocal link if it is missing.
 - `notas` — internal notes, not shown to readers.
 
 ### 2.3 The "word must be hard in its own language" rule
@@ -71,6 +73,12 @@ This is the single most important editorial rule (see
 language picks the words that are genuinely hard **in that
 language**. A Spanish bureaucratic term that has no English
 equivalent (and vice versa) is a normal and expected case.
+
+When adding a headword, also check the other language's dictionary. If it
+already contains an equivalent headword, add a `traduccion` link in the new
+entry and in the existing entry so the relationship works in both
+directions. If the equivalent has no entry yet, create one only when it is
+genuinely difficult in that language too; do not force a literal translation.
 
 ### 2.4 Easy-read rules apply to every entry
 
@@ -129,16 +137,52 @@ Do not open `js/data.{idioma}.js` directly; the files are very large.
 
 ### 3.2 Criteria for accepting a word
 
+**Mandatory language-specific lexical check:** after confirming the
+word does not already have a standalone Sinonimia entry, validate every
+new candidate in the matching external dictionary: [RAE/DLE](https://dle.rae.es/)
+for `es`, or [Collins English
+Dictionary](https://www.collinsdictionary.com/dictionary/english) for
+`en`, passing the word in the path
+`https://www.collinsdictionary.com/dictionary/english/<word>`. Confirm
+that the headword or a recognized variant exists and that its sense
+matches the proposed use. This is an acceptance requirement for
+ingestion, not an optional lookup or a writing aid. If no verifiable
+entry is found, reject the
+candidate; recheck it only if you correct the form and can verify the
+corrected headword. Do not copy the external definition.
+
+**Hard rejection filters before acceptance:**
+
+- Reject words and senses that are already easy by themselves: familiar,
+  common, concrete, and transparent vocabulary, or basic actions the target
+  user likely already understands. Apply this criterion to candidates from
+  every source, just like the other filters. Frequency is a signal for
+  finding such words, not the only test; a frequent word may have a hard
+  sense that deserves its own entry.
+- Reject conjugated verb forms; keep only the corresponding infinitive
+  or dictionary base form.
+- Reject invented or invalid words with no verifiable entry in the
+  matching dictionary (DLE for Spanish, Collins for English). A typo
+  may be reconsidered only after correction and dictionary
+  verification.
+- Reject demonyms, even when they appear in Collins.
+- Do not insert an entry with an incorrect definition or one that
+  describes a different sense. Correct and recheck it; if it cannot
+  match the documented sense, reject the entry.
+
 1. **Real and documented.** In current use; drop archaisms, dialect forms, and rare loans.
-2. **Genuinely hard.** Nothing the target user already understands. Frequency is a guide, not the sole measure; CEFRLex/ELELex helps rule out A1-A2 vocabulary, but its absence doesn't invalidate a specialized word. Automatic reject: everyday concrete nouns (table, duck), direct action verbs (eat, sleep), and early-acquisition basic vocabulary — none of these need an adapted definition. Conversely, abstract or intangible concepts (legend, warranty) and words with a double meaning or figurative sense are good candidates even when their general frequency is high: this applies with any method in section 3.3, not just method F (which catches it specifically per sense). In bulk sourcing (method C), this automatic rejection is enforced by `scripts/ingest/pipeline/filters/common-words.js`, deliberately conservative — see its header.
-3. **Independent lemma.** No conjugations, plurals, or enclitic-pronoun forms lacking their own entry.
-4. **No proper nouns.** People, surnames, cities, countries, brands.
+2. **Hard for the target user.** A candidate must be a word the target user is unlikely to understand on its own and needs Sinonimia to explain. This criterion applies to every source; frequency and CEFRLex/ELELex provide signals, but editorial review determines whether the word and sense are genuinely hard. A person or an AI agent may conduct this review, using the same criteria. A technical word's absence from CEFRLex/ELELex does not invalidate it. Keep abstract or intangible terms (such as *legend* or *warranty*) and hard senses of frequent words, even when the word has other easy uses. Evaluate the difficulty of the candidate word and sense, not how easy it is to write its explanation. The automatic filter `scripts/ingest/pipeline/filters/common-words.js` assists bulk sourcing in method C; it does not limit the scope of the editorial criterion.
+3. **Independent lemma.** Do not accept conjugated verb forms; keep
+   only the corresponding infinitive/base form. Also reject plurals
+   and enclitic-pronoun forms lacking their own entry.
+4. **No proper nouns or demonyms.** People, surnames, cities,
+   countries, brands, and names for their inhabitants or natives.
 5. **Conceptual coverage does not invalidate an independent lexical form.** Do not discard a word merely because it expresses the same concept as another entry. If the target user could encounter that exact word in a real document and it has no standalone entry yet, it can remain a candidate even when it already appears as a synonym or in an example. `Tetrapléjico` must not disappear just because `Cuadripléjico` exists: these are lexical forms the user may search literally. Decide case by case between a standalone entry and a synonym; use a synonym for a minor variant or rewording, but create a standalone entry when the independent word needs its own explanation, category, example, or grammatical form. The app searches `word`, definition, and synonyms (`matchesSearch` in `js/app.js`), but reaching a related entry does not necessarily mean that the word itself has been explained clearly enough. A second meaning just as hard is also a legitimate candidate — a new entry with its own `id`/`situacion`/`definicion`, never a parenthetical clarifier in `palabra` (see "Words with double meaning" in `SPEC.md`). Once a word is accepted, check all of its hard senses, not just the first one you find. Automatic mining therefore drops only words whose lemma is already an existing `word`; matches found only in synonyms or examples remain in the review list for editorial review.
 6. **Category: assigned, never filtered on.** A word that passes criteria 1-5 gets incorporated even if no AIVD category fits it today — don't reject it or force it into the least-bad category. If nothing fits, not even `vida-diaria`, propose a new category; you don't need a cluster of similar candidates, one well-grounded word is enough. `vida-diaria` stays valid only when it's genuinely the best fit, never the place a word lands for lack of anywhere better. Creating the category is the maintainer's call, but the proposal must be explicit — never drop the word silently. The methods in section 3.3 that use a category to cut a huge list down to size (E and F, especially) are *discovery* techniques, not the acceptance criterion: a word absent from every cross-referenced category isn't thereby rejected on difficulty, it just means that technique didn't surface it. And the reverse also holds: the category tag a word *does* surface under in method E or F (e.g. a Wikipedia or Wiktionary category named "Law") is a hint of where to look, never the final `situacion` — review each candidate on its own merits first (criteria 1-5), then decide its category with this same criterion 6, even if it ends up different from the tag that surfaced it.
 7. **Its own scenario.** Don't reuse the same example context within a category.
 8. **Length as a guide.** 4-12 letters as an initial heuristic, not an absolute rule.
 
-No automated filter replaces human review. Topic filters based on substring matches create false positives: sharing letters with a legal stem doesn't mean a semantic link.
+No automated filter replaces editorial review by a person or an AI agent. Topic filters based on substring matches create false positives: sharing letters with a legal stem doesn't mean a semantic link.
 
 ### 3.3 Search methods
 
@@ -318,6 +362,8 @@ node scripts/check.js
       (`node scripts/search-pictogram.js`).
 - [ ] No duplicate of an existing entry in the same language and
       topic.
+- [ ] Equivalent in the other language checked; when it exists, both
+      entries have the corresponding `traduccion` link.
 - [ ] `node scripts/check.js` passes.
 
 ## 7. See also

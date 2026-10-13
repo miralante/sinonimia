@@ -1,0 +1,1 @@
+(()=>{for(const id of ['nymphomaniac','childhood','nickel','nitrogen','nobility','walnut','name','noria','ferris-wheel','big-wheel']){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}})();

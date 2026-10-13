@@ -1,0 +1,23 @@
+(()=>{const u={
+  maniquete:{definition:'Herramienta de hierro usada para sujetar o doblar barras; el sentido exacto varía según el oficio.',synonyms:['herramienta de sujeción','doblador de hierro (según el uso)']},
+  mangazo:{definition:'Golpe dado con una manga, una mano o un objeto, según el uso regional.',synonyms:['golpe','manotazo']},
+  mangoneador:{definition:'Que mangonea: se entromete en asuntos ajenos o ejerce el mando de forma abusiva.',synonyms:['entrometido','mandón','intrigante']},
+  mangonear:{definition:'Entrometerse en asuntos ajenos o ejercer el mando de forma abusiva; en algunos usos, manejar algo a conveniencia propia.',synonyms:['entrometerse','manejar a su antojo','mandonear']},
+  mangrullo:{definition:'En las pampas, torre o puesto elevado y rústico desde el que se vigila el campo.',synonyms:['atalaya','puesto de vigilancia']},
+  mangual:{synonyms:['mayal de armas','arma de cadena']},
+  manguito:{definition:'Prenda que cubre el antebrazo; también, pieza cilíndrica que une o protege partes de una máquina o instalación.',synonyms:['manga (prenda)','pieza de unión (mecánica)']},
+  manguruyu:{definition:'Pez de agua dulce de gran tamaño, conocido también como manguruyú o jaú.',synonyms:['manguruyú','jaú (uso regional)']},
+  manicuro:{definition:'Persona que realiza manicuras.',synonyms:['manicurista','técnico de uñas']},
+  manometrico:{definition:'Perteneciente o relativo al manómetro o a la medición de la presión.',synonyms:['relativo al manómetro','de medición de presión']},
+  maniluvio:{definition:'Baño o lavado de las manos, especialmente como tratamiento terapéutico.',synonyms:['baño de manos','lavado terapéutico de manos']},
+  manipulador:{definition:'Que manipula; dicho de una persona, que maneja algo o influye en otras personas, a menudo de forma interesada o engañosa.',synonyms:['operador','manipulante','controlador (según el contexto)']},
+  manisero:{definition:'Persona que vende o cultiva maní; también, adjetivo relativo al maní.',synonyms:['vendedor de maní','cultivador de maní']},
+  mansito:{definition:'Dicho de una persona o un animal: manso, dócil o apacible; puede funcionar como diminutivo expresivo de manso.',synonyms:['mansito','dócil','apacible']},
+  mansamente:{definition:'De manera mansa, dócil, apacible o sosegada.',synonyms:['apaciblemente','dócilmente','sosegadamente']},
+  manteada:{definition:'Porción de terreno o elemento cubierto por un manto (según el uso regional).',synonyms:['cubierta','capa']},
+  manteada2:{definition:'Acción y efecto de mantear a alguien.',synonyms:['lanzamiento con manta']},
+  manteo:{definition:'Acción y efecto de mantear a una persona, lanzándola repetidamente al aire con una manta.',synonyms:['manteamiento','lanzamiento con manta']},
+  mantecada:{definition:'Bollo o pastel pequeño elaborado principalmente con harina, azúcar y manteca; la receta varía según la región.',synonyms:['bollo de manteca','pastelillo']},
+  mantecado:{definition:'Dulce elaborado con harina, azúcar y manteca; según la región, también puede designar un helado de sabor tradicional.',synonyms:['polvorón (según la región)','helado de mantecado']},
+  mantillo:{definition:'Capa de materia orgánica descompuesta que cubre el suelo y mejora su fertilidad; también, cubierta vegetal o musgo.',synonyms:['humus','compost','cubierta orgánica']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}const ids=new Set(['maneota','maneto','manfanos','manal','managuense','manilense','mantiniente','manteniente','manteno']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

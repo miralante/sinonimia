@@ -1,0 +1,2 @@
+(()=>{const ids=new Set(['reputate','request-2']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();
+(()=>{const u={requalify:{definition:'To qualify again or renew a qualification, certification, or status by meeting the required conditions.',synonyms:['qualify again','renew certification','recertify']}};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();

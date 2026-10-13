@@ -252,6 +252,11 @@ Reglas del esquema:
   autoritativo entre conceptos cuando existe; si falta, la aplicación puede
   usar el pictograma compartido como fallback.
 
+Al editar contenido, si existe una voz equivalente en el otro idioma, ambas
+entradas deben incluir los ids equivalentes en `translation`. Mantén el enlace
+recíproco cuando se añade una relación nueva; usa un array en el registro que
+enlace con varias entradas.
+
 Ejemplo de traducción uno-a-uno y uno-a-varios:
 
 ```js
@@ -414,7 +419,7 @@ cambio.
 
 ## 12. Patrón de la suite — cómo se construye cada app de Miralante
 
-> ðŸŒ **Other language:** [English](../en/technical.md#8-suite-pattern-how-every-app-of-miralante-is-built)
+> 🌐 **Other language:** [English](../en/technical.md#8-suite-pattern-how-every-app-of-miralante-is-built)
 
 Esta sección es la **guía canónica y transversal** de cómo se
 construye y mantiene cada app de la [suite Miralante](https://apptonomia.uk).
@@ -534,32 +539,34 @@ la **plantilla**; las desviaciones se indican donde apliquen.
        indexed. Aimed at anyone who wants to know what Teclatlon is:
        families, professionals, journalists, funders, contributors. -->
   <meta name="robots" content="noindex, nofollow">
-  <meta name="description" content="â€¦">
+  <meta name="description" content="…">
   <meta name="theme-color" content="#FAF7F2">
   <link rel="stylesheet" href="../assets/css/tokens.css">
   <link rel="stylesheet" href="../assets/css/base.css">
   <link rel="stylesheet" href="../assets/css/components.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../assets/css/locale-picker.css?v=sinonimia-v4aa">
 </head>
 <body>
   <div class="container {legal|about}">
     <header class="cabecera-{legal|about}">
-      <div class="idioma-selector" role="group" aria-label="Elegir idioma">
-        <button type="button" class="btn-idioma" id="btnIdiomaEs"
-                data-locale="es" aria-pressed="false">ðŸ‡ªðŸ‡¸ Español</button>
-        <button type="button" class="btn-idioma" id="btnIdiomaEn"
-                data-locale="en" aria-pressed="false">ðŸ‡¬ðŸ‡§ English</button>
+      <!-- El idioma es un control de primer nivel de la cabecera, no un
+           subapartado del cajon de ajustes: el componente compartido se
+           monta dentro de .suite-controls y el engranaje se inserta el
+           solo, justo detras. No hay ningun boton de idioma en el HTML. -->
+      <div class="suite-controls">
+        <div id="locale-picker"></div>
       </div>
       <img src="../assets/img/icono.svg" alt="" width="80" height="80"
            class="logo-{legal|about}">
-      <h1>â€¦</h1>
-      <p class="lema" data-i18n="tagline">â€¦</p>
-      <p class="entradilla" data-i18n="lead">â€¦</p>
-      <nav class="indice">â€¦opcional, solo en páginas largasâ€¦</nav>
+      <h1>…</h1>
+      <p class="lema" data-i18n="tagline">…</p>
+      <p class="entradilla" data-i18n="lead">…</p>
+      <nav class="indice">…opcional, solo en páginas largas…</nav>
     </header>
 
     <main class="pila">
-      <section class="card">â€¦</section>
+      <section class="card">…</section>
     </main>
 
     <footer class="pie-{legal|about}">
@@ -580,23 +587,13 @@ la **plantilla**; las desviaciones se indican donde apliquen.
   <script src="../assets/js/i18n.js"></script>
   <script src="strings.es.js"></script>
   <script src="strings.en.js"></script>
-  <script>
-    (function () {
-      'use strict';
-      function paintLanguageSelector() {
-        var active = App.i18n.locale();
-        document.getElementById('btnIdiomaEs')
-          .setAttribute('aria-pressed', String(active === 'es'));
-        document.getElementById('btnIdiomaEn')
-          .setAttribute('aria-pressed', String(active === 'en'));
-      }
-      document.getElementById('btnIdiomaEs')
-        .addEventListener('click', function () { App.i18n.setLocale('es'); });
-      document.getElementById('btnIdiomaEn')
-        .addEventListener('click', function () { App.i18n.setLocale('en'); });
-      paintLanguageSelector();
-    })();
-  </script>
+  <!-- El desplegable necesita su configuracion ANTES que el
+       componente. Los dos van diferidos, y los diferidos se ejecutan
+       en orden de documento, con listarlos en ese orden basta. El ?v=
+       no es opcional: los .js y .css se sirven immutable un ano, sin el
+       la pagina sirve la version vieja desde la cache. -->
+  <script src="../assets/js/locale-picker-config.js?v=sinonimia-v4aa"></script>
+  <script src="../assets/js/locale-picker.js?v=sinonimia-v4aa" defer></script>
   <script>
     /* Register the SW from this entry point so it is active for any
        later navigation, matching what the main index.html and the
@@ -617,7 +614,7 @@ la **plantilla**; las desviaciones se indican donde apliquen.
   pestaña del navegador mostraría antes de que i18n.js se
   ejecute (y el fallback de la cache del SW).
 - La clase propia de la página en el wrapper
-  `<div class="container â€¦">` es bajo la que `styles.css` de
+  `<div class="container …">` es bajo la que `styles.css` de
   la página scopea sus reglas (`legal-page`, `about-page`,
   `team-page`). Sin prefijos ancestro `.sp-*` (eran residuo
   de la fusión SPA, retirado en 2026-09; ver `git log`).
@@ -642,13 +639,13 @@ la paridad de claves entre locales.
   'use strict';
   App.i18n.register({
     pageTitle: 'Protección de datos',
-    pageDescription: 'Teclatlon: qué datos guarda, dónde y por qué. â€¦',
-    routeNotice: 'Esta página no se enlaza desde la aplicación. â€¦',
+    pageDescription: 'Teclatlon: qué datos guarda, dónde y por qué. …',
+    routeNotice: 'Esta página no se enlaza desde la aplicación. …',
     tagline: 'Sin registro. Sin cookies. Sin analítica.',
-    lead: 'Teclatlon no pide tus datos personales. â€¦',
+    lead: 'Teclatlon no pide tus datos personales. …',
     navResponsible: 'Quién trata tus datos',
     navData: 'Qué guardamos',
-    /* â€¦más clavesâ€¦ */
+    /* …más claves… */
     footerActivities: 'Ir a la aplicación',
     footerAbout: 'Sobre este proyecto',
     footerTeamGuide: 'Quiénes la hacen',
@@ -674,14 +671,14 @@ etc.) es la que usa el CSS para scope:
 
 ```css
 .legal-page { max-width: 880px; }
-.legal-page .cabecera-legal { â€¦ }
-.legal-page .indice a { â€¦ }
-.legal-page section { â€¦ }
+.legal-page .cabecera-legal { … }
+.legal-page .indice a { … }
+.legal-page section { … }
 ```
 
 **No** introduzcas nombres de clase por página que colisionen
 con los componentes compartidos (`base.css` ya define
-`.cabecera`, `.lema`, `.indice`, `.btn`, `.card`, `.pila`, â€¦).
+`.cabecera`, `.lema`, `.indice`, `.btn`, `.card`, `.pila`, …).
 Cuando la página standalone necesite un aspecto distinto,
 scopea la regla bajo la clase de la página — nunca bajo un
 `.cabecera` o `.indice` genérico.
@@ -703,8 +700,8 @@ justificación canónica).
 | `storage.js` | `App.storage.{get, set, remove}` | solo páginas que leen o escriben `localStorage` (`index.html`, `config/`) |
 | `feedback.js` | `App.feedback.{success, encourage, celebrate}` | solo el `app.js` de la actividad |
 
-El orden de carga es `utils.js â†’ i18n.js â†’ tts.js â†’ storage.js â†’
-feedback.js â†’ strings.<locale>.js â†’ data.js â†’ app.js`. `i18n.js`
+El orden de carga es `utils.js → i18n.js → tts.js → storage.js →
+feedback.js → strings.<locale>.js → data.js → app.js`. `i18n.js`
 debe cargar **antes** que `tts.js` y `feedback.js`, que leen
 el idioma activo.
 
@@ -738,11 +735,11 @@ var FILES = [
   './legal/styles.css',
   './legal/strings.es.js',
   './legal/strings.en.js',
-  /* â€¦about/, team/, config/ igualâ€¦ */
+  /* …about/, team/, config/ igual… */
   './assets/css/tokens.css',
   './assets/css/base.css',
   './assets/css/components.css',
-  './assets/fonts/â€¦woff2',
+  './assets/fonts/…woff2',
   './assets/js/utils.js',
   './assets/js/i18n.js',
   './assets/js/tts.js',
@@ -754,12 +751,12 @@ var FILES = [
 
 Dos reglas gobiernan cambios en `FILES`:
 
-1. **Fichero nuevo â†’ añadirlo a `FILES`.** El handler
+1. **Fichero nuevo → añadirlo a `FILES`.** El handler
    `install` mete cada fichero individualmente (nunca
    `cache.addAll`, que aborta en el primer fallo y rompe la
    cache para todos).
-2. **Cualquier cambio en un fichero cacheado â†’ bumpear
-   `VERSION`** (`'teclatlon-vN'` â†’ `'teclatlon-vN+1'`). Sin el
+2. **Cualquier cambio en un fichero cacheado → bumpear
+   `VERSION`** (`'teclatlon-vN'` → `'teclatlon-vN+1'`). Sin el
    bump, un usuario offline queda atascado en la versión
    vieja para siempre, porque el handler `activate` solo
    purga caches con un nombre distinto.
@@ -866,7 +863,7 @@ manual:
 
 - `index.html` arranca en la pantalla de nombre o en el menú
   según el estado guardado; el roundtrip de `localStorage`
-  funciona; el botón "ðŸ—‘ï¸ Borrar mi progreso" resetea tanto
+  funciona; el botón "🗑️ Borrar mi progreso" resetea tanto
   los datos como la UI.
 - `/legal/` carga con el h1, lema y pie localizados; el
   selector de idioma cambia `lang`, `document.title` y cada

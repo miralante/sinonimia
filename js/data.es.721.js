@@ -1,0 +1,22 @@
+(()=>{const u={
+  monetarismo:{definition:'Corriente económica que atribuye a la cantidad de dinero un papel central en la determinación de los precios y de la actividad económica.',synonyms:['teoría monetarista','doctrina monetarista']},
+  monetizacion:{synonyms:['monetización','obtención de ingresos','conversión en fuente de ingresos']},
+  monetizar:{definition:'Convertir un bien, servicio, contenido o actividad en una fuente de ingresos; también, expresar un valor en moneda.',synonyms:['rentabilizar','convertir en dinero']},
+  monfi:{definition:'En la historia de al-Ándalus, persona que vivía fuera de la ley o en rebeldía, especialmente un morisco fugitivo.',synonyms:['fugitivo morisco','bandolero morisco']},
+  monga:{definition:'Femenino de «mongo» en usos coloquiales; puede referirse a una persona tonta o torpe, según la región.',synonyms:['tonta','torpe (coloquial)']},
+  mongo:{definition:'En Filipinas y otras regiones, legumbre comestible conocida como frijol mungo; coloquialmente, persona tonta o torpe.',synonyms:['frijol mungo','judía mungo','tonto (coloquial)']},
+  mongoloide:{definition:'Término antiguo y hoy desaconsejado, relacionado con una clasificación racial obsoleta; su uso aplicado a personas puede ser ofensivo.',synonyms:['término histórico obsoleto']},
+  monicaco:{definition:'Hombre de aspecto o condición despreciable; voz despectiva y poco usada.',synonyms:['hombre despreciable','mamarracho']},
+  monigote:{definition:'Figura humana dibujada de forma esquemática o grotesca; también, persona insignificante o sin voluntad propia.',synonyms:['muñeco','figura esquemática','pelele']},
+  monilla:{definition:'Adorno o pieza metálica que se usa para sujetar el cabello.',synonyms:['pasador','hebilla para el pelo']},
+  monillo:{definition:'Mono pequeño; también, diminutivo de «mono».',synonyms:['monito','mono pequeño']},
+  monimiaceo:{synonyms:['relativo a las Monimiáceas','de la familia Monimiaceae']},
+  monipodio:{definition:'Asociación de personas para cometer delitos o realizar actividades ilícitas.',synonyms:['conspiración','asociación ilícita']},
+  monis:{definition:'En Aragón rural, masa hecha con huevos y azúcar, semejante a los melindres; también, variante coloquial de «moni» por dinero.',synonyms:['masa dulce aragonesa','moni (dinero)']},
+  monitorizar:{definition:'Vigilar o medir de forma continua la evolución de uno o varios parámetros.',synonyms:['supervisar','controlar','monitorear']},
+  monja:{synonyms:['religiosa','sor']},
+  monje:{definition:'Persona que vive en una comunidad religiosa o en retiro, sometida a una regla monástica.',synonyms:['religioso','fraile (según la orden)']},
+  monjerio:{definition:'Conjunto o comunidad de monjas; también, convento de monjas.',synonyms:['comunidad de monjas','convento']},
+  monjia:{definition:'Renta, derecho o emolumento que correspondía antiguamente a un monje o religioso; también, condición monástica.',synonyms:['emolumento eclesiástico','condición monástica']},
+  monjil:{synonyms:['monástico','propio de las monjas']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

@@ -1,0 +1,22 @@
+(()=>{const u={
+  montuosidad:{synonyms:['carácter montuoso','terreno montañoso']},
+  montuoso:{definition:'Abundante en montes o cubierto de montes; montañoso.',synonyms:['montañoso','montés','agreste']},
+  montura:{definition:'Conjunto de piezas que se colocan sobre una caballería para montar; también, animal en que se monta.',synonyms:['silla de montar','aparejo','cabalgadura']},
+  monudo:{definition:'Que tiene moño, copete o penacho de plumas; copetudo.',synonyms:['copetudo','crestado']},
+  monuelo:{definition:'Dicho de un joven: afectado o falto de juicio; voz antigua.',synonyms:['afeminado (antiguo)','insensato']},
+  monumental:{synonyms:['grandioso','relativo a un monumento']},
+  monumentalidad:{synonyms:['grandeza','carácter monumental']},
+  monumentalismo:{definition:'Tendencia artística o arquitectónica a crear obras de gran tamaño o apariencia imponente.',synonyms:['grandiosidad','arquitectura monumental']},
+  monumentalizar:{synonyms:['dar carácter monumental','engrandecer']},
+  monumento:{definition:'Obra pública o artística erigida para recordar a una persona o un hecho; construcción de valor histórico o artístico.',synonyms:['memorial','monumento conmemorativo','sepulcro']},
+  monzon:{definition:'Viento estacional que cambia de dirección entre verano e invierno y que influye en el régimen de lluvias, especialmente en el sur y sudeste de Asia y el océano Índico.',synonyms:['viento monzónico','monzón']},
+  mopa:{synonyms:['fregona','trapeador','lampazo']},
+  moquear:{definition:'Echar mocos por la nariz o tener una secreción nasal abundante.',synonyms:['sorberse los mocos','tener moqueo']},
+  moquera:{definition:'Secreción nasal abundante o continua; uso regional en Argentina, Cuba, Nicaragua y Uruguay.',synonyms:['moqueo','secreción nasal']},
+  moquero:{definition:'Pañuelo para sonarse o limpiarse los mocos.',synonyms:['pañuelo','pañuelo de nariz']},
+  moqueta:{definition:'Revestimiento textil grueso que se coloca sobre el suelo o se usa para tapizar.',synonyms:['alfombra','revestimiento textil']},
+  moquete:{definition:'Puñetazo dado en la cara, especialmente en la nariz.',synonyms:['puñetazo','trompada','golpe']},
+  moquetear:{definition:'Dar moquetes o puñetazos; también, moquear con frecuencia, según el uso regional.',synonyms:['golpear a puñetazos','moquear']},
+  moquillo:{definition:'Enfermedad vírica contagiosa de perros y otros carnívoros, que afecta principalmente los aparatos respiratorio, digestivo y nervioso.',synonyms:['distemper canino','enfermedad de Carré']},
+  moquita:{synonyms:['moco claro','secreción nasal']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

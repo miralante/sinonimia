@@ -161,7 +161,9 @@ ejecutarse antes de `app.js`):
    los elementos antes de `app.js`, sin etiquetas de script hardcodeadas por
    shard. Si un shard se acerca al límite por fichero del proveedor, divídelo
    y añade el nuevo fichero al manifiesto.
-2. Dentro del bloque `.idioma-selector`, añade un botón:
+2. El idioma ya no se añade con un botón: la página monta el desplegable
+   compartido en `<div id="locale-picker"></div>` y declara los idiomas en
+   su `locale-picker-config.js`.
    `<button type="button" class="idioma-btn" data-lang="<código>" aria-pressed="false"><BANDERA/ETIQUETA NATIVA></button>`.
    - La etiqueta del botón es el **endónimo** (el nombre que el
      idioma se da a sí mismo), no "Catalán" o "Español" — `Català`,

@@ -1,0 +1,21 @@
+(()=>{const u={
+  mondo:{synonyms:['limpio','puro','sin añadidos']},
+  mondonga:{definition:'Mujer zafia o tosca que trabaja como criada; voz antigua y despectiva.',synonyms:['criada zafia','sirvienta (despectivo)']},
+  mondongueria:{synonyms:['tienda de mondongo','puesto de casquería']},
+  mondonguero:{definition:'Persona que vende o prepara mondongo, vísceras o tripas.',synonyms:['casquero','vendedor de mondongo']},
+  mondonguil:{definition:'Perteneciente o relativo al mondongo; coloquial y poco usado.',synonyms:['relativo al mondongo']},
+  mondrigo:{definition:'Móndrigo: vil, despreciable o de poco valor; voz coloquial y poco usada.',synonyms:['vil','despreciable','inútil']},
+  monear:{definition:'Hacer monadas o gestos; juguetear o hacer movimientos ociosos con algo. En algunos países tiene otros sentidos regionales.',synonyms:['hacer monadas','juguetear','remolonear']},
+  monecillo:{definition:'Monaguillo; forma antigua usada en Andalucía.',synonyms:['monaguillo','acólito']},
+  moneda:{definition:'Pieza de metal u otro material que representa un valor y sirve como medio de pago; también, unidad monetaria.',synonyms:['divisa','unidad monetaria','dinero']},
+  monedar:{definition:'Establecer o adoptar una moneda como medio de pago; voz técnica poco usada.',synonyms:['adoptar una moneda','monetizar']},
+  'moneda-suelta':{definition:'Conjunto de monedas de poco valor que se llevan para pagos pequeños; también, monedas que no están guardadas.',synonyms:['calderilla','cambio suelto']},
+  monedear:{definition:'Acuñar o fabricar monedas.',synonyms:['acuñar','fabricar moneda']},
+  monederia:{definition:'Oficio o actividad de monedero; fabricación o venta de monederos, según el contexto.',synonyms:['oficio de monedero','fabricación de monederos']},
+  monedero:{synonyms:['portamonedas','billetera pequeña','cartera']},
+  'monedero-digital':{definition:'Aplicación o servicio electrónico que almacena credenciales de pago y permite realizar transacciones digitales.',synonyms:['billetera digital','cartera electrónica']},
+  monera:{definition:'En una clasificación biológica antigua, organismo unicelular sin núcleo diferenciado; el grupo Monera ya no se usa como reino en la clasificación moderna.',synonyms:['organismo procariota','procariota (clasificación actual)']},
+  moneria:{definition:'Acción, gesto o gracia propia de un mono; también, gesto o acción afectada o infantil.',synonyms:['monada','gesto gracioso','gracia']},
+  monesco:{definition:'Propio o característico de los monos.',synonyms:['simiesco','monuno']},
+  monesterio:{definition:'Monasterio; forma antigua o variante.',synonyms:['monasterio','convento']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}const ids=new Set(['mondon']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

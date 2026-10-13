@@ -1,0 +1,22 @@
+(()=>{const u={
+  mormullar:{definition:'Murmurar o hablar entre dientes; variante antigua o regional.',synonyms:['murmurar','mormullar']},
+  mormullo:{definition:'Murmullo: ruido tenue y confuso, especialmente de voces; variante antigua.',synonyms:['murmullo','rumor de voces']},
+  morocada:{definition:'Topetada o golpe dado con la cabeza, especialmente por un carnero.',synonyms:['topetazo','cornada con la cabeza']},
+  morochillo:{definition:'Diminutivo de «morocho»; dicho de una persona, de cabello oscuro o castaño.',synonyms:['morocho pequeño','de cabello oscuro']},
+  morocho:{definition:'En varios países de América, dicho de una persona: de cabello oscuro; también puede significar gemelo o mellizo, según la región.',synonyms:['de cabello oscuro','gemelo (regional)']},
+  morocota:{definition:'Morrocota: antigua moneda de oro de gran valor.',synonyms:['morrocota','moneda de oro']},
+  morojo:{definition:'Planta herbácea de la familia de las compuestas; voz regional.',synonyms:['planta compuesta','asterácea']},
+  moron:{definition:'Elevación pequeña y aislada del terreno, generalmente de cima redondeada.',synonyms:['cerro pequeño','colina']},
+  moroncho:{definition:'Morondo: limpio, pelado o sin adornos; voz coloquial y regional.',synonyms:['morondo','pelado']},
+  morondanga:{synonyms:['bagatela','nimiedad','cosa sin valor']},
+  moronga:{definition:'En El Salvador, Honduras, México y Nicaragua, morcilla elaborada con sangre de cerdo y condimentos.',synonyms:['morcilla','embutido de sangre']},
+  morongazo:{definition:'En El Salvador y Guatemala, golpe fuerte, físico o moral.',synonyms:['golpazo','paliza','impacto fuerte']},
+  morongueada:{definition:'En El Salvador y Guatemala, paliza o serie de golpes.',synonyms:['paliza','tunda','golpiza']},
+  moronguear:{definition:'En El Salvador y Guatemala, golpear o dar una paliza.',synonyms:['golpear','apalear','dar una paliza']},
+  moronia:{definition:'Alboronía: guiso de berenjenas, calabaza y otros vegetales.',synonyms:['alboronía','guiso de verduras']},
+  morosidad:{synonyms:['demora en el pago','retraso de pago','impago']},
+  moroso:{definition:'Que se retrasa en el cumplimiento de una obligación, especialmente en el pago de una deuda.',synonyms:['deudor atrasado','incumplidor','remiso']},
+  morquero:{definition:'Morcón: embutido grueso de carne de cerdo.',synonyms:['morcón','embutido grueso']},
+  morra:{definition:'Parte superior de la cabeza; en algunas expresiones, cabeza o cara.',synonyms:['cabeza','coco']},
+  morrada:{definition:'Golpe fuerte dado con la cabeza o con la cara; también, choque frontal.',synonyms:['cabezazo','topetazo','golpe en la cara']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

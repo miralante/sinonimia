@@ -1,0 +1,2 @@
+(()=>{const ids=new Set(['fendi','fendiente']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();
+(()=>{const u={fendoz:{definition:'En Argentina, regaliz u orozuz, planta cuya raíz se usa por su sabor dulce.',synonyms:['regaliz','orozuz']},fenestra:{definition:'Antiguamente, ventana; también, abertura o cavidad, especialmente en terminología anatómica.',synonyms:['ventana','abertura']}};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();

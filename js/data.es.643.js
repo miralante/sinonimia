@@ -1,0 +1,15 @@
+(()=>{const u={
+  lifara:{definition:'En Aragón, alifara: convite o comida abundante que se ofrece con motivo de una celebración o como obsequio.',synonyms:['alifara','convite','banquete']},
+  lienteria:{definition:'Diarrea en la que se expulsan alimentos sin digerir.',synonyms:['lientera']},
+  lientera:{definition:'Diarrea en la que se expulsan alimentos sin digerir.',synonyms:['lientería']},
+  lienterico:{definition:'Relativo a la lientería o que la padece.',synonyms:['lientérico']},
+  liento:{definition:'Húmedo o impregnado de agua; uso poco frecuente.',synonyms:['húmedo','mojado']},
+  lienza:{definition:'Lista o tira estrecha de tela; en Cuba, cinta métrica.',synonyms:['tira de tela','lista','cinta métrica (Cuba)']},
+  lieva:{definition:'Cosa que se lleva; antiguamente, acción de llevar algo.',synonyms:['carga','porte']},
+  lievar:{definition:'Llevar o transportar algo de un lugar a otro; uso antiguo.',synonyms:['llevar','transportar']},
+  lieve:{definition:'Variante antigua o poco usada de leve.',synonyms:['leve','ligero']},
+  ligador:{definition:'En Paraguay y Uruguay, que tiene suerte en las relaciones amorosas o en el juego.',synonyms:['afortunado en amores','afortunado en el juego']},
+  ligamentoso:{definition:'Perteneciente o relativo a los ligamentos.',synonyms:['ligamentario']},
+  ligaterna:{definition:'En Cuenca y Palencia, lagartija.',synonyms:['lagartija']},
+  lifting:{definition:'Operación quirúrgica o procedimiento estético que tensa la piel, especialmente de la cara y el cuello, para reducir arrugas.',synonyms:['estiramiento facial','ritidectomía']},
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

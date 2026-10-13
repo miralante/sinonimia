@@ -1,0 +1,21 @@
+(()=>{const u={
+ paleografo:{definition:'Especialista en paleografía, disciplina que estudia las escrituras y documentos antiguos.',synonyms:['especialista en paleografía']},
+ paleolitico:{definition:'Perteneciente o relativo al Paleolítico, primera etapa de la Edad de Piedra, caracterizada por herramientas de piedra tallada.',synonyms:['de la Edad de Piedra antigua']},
+ paleologo:{definition:'Especialista en paleología o estudio de las cosas antiguas.',synonyms:['especialista en paleología']},
+ paleontografia:{definition:'Descripción científica de los organismos fósiles.',synonyms:['descripción de fósiles']},
+ paleontologico:{definition:'Perteneciente o relativo a la paleontología.',synonyms:['relativo a los fósiles']},
+ paleontologia:{definition:'Ciencia que estudia los seres vivos del pasado geológico a partir de sus fósiles.',synonyms:['estudio de los fósiles']},
+ paleozoico:{definition:'Perteneciente o relativo a la era paleozoica, que se extendió aproximadamente entre hace 541 y 252 millones de años.',synonyms:['relativo a la era paleozoica']},
+ paleoterio:{definition:'Mamífero perisodáctilo del Oligoceno, considerado uno de los antepasados del caballo.',synonyms:['paleotherium']},
+ palermitano:{definition:'Natural o habitante de Palermo; también, relativo a esa ciudad o a un barrio llamado Palermo.',synonyms:['natural de Palermo']},
+ palaciano:{definition:'Palaciego; perteneciente o relativo a un palacio o a la vida de la corte.',synonyms:['palaciego','cortesano']},
+ paladial:{definition:'Perteneciente o relativo al paladar.',synonyms:['palatal']},
+ palhuen:{definition:'Arbusto americano muy espinoso, de más de dos metros de altura, de la familia de las papilionáceas.',synonyms:['arbusto espinoso']},
+ palier:{definition:'En mecánica automotriz, elemento del eje motor que transmite la potencia a las ruedas; en Argentina y Uruguay, rellano de una escalera.',synonyms:['semieje','rellano (regional)']},
+ palimpsesto:{definition:'Manuscrito, generalmente en pergamino, cuya escritura fue raspada o borrada para escribir de nuevo sobre el mismo soporte, aunque pueden quedar rastros del texto anterior.',synonyms:['manuscrito reutilizado']},
+ palillona:{definition:'En Honduras y Nicaragua, joven que desfila en fiestas con uniforme de fantasía y agita rítmicamente un bastón.',synonyms:['bastonera']},
+ palilla:{definition:'En Honduras, tablilla muy delgada usada como mango de un helado de paleta.',synonyms:['palito de helado']},
+ paliducho:{definition:'Pálido o de aspecto débil.',synonyms:['descolorido','macilento']},
+ palido:{definition:'De color poco intenso o desvaído.',synonyms:['descolorido','macilento']},
+ palida:{definition:'En algunos usos coloquiales, mala noticia o serie de sucesos desafortunados.',synonyms:['mala noticia','contratiempo']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}const ids=new Set(['palermitano']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

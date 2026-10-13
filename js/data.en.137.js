@@ -1,0 +1,1 @@
+(()=>{for(const id of ['ninety','november','daughter-in-law','again','anew','otter','nutritive','oasis','obedient','obscenity']){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}})();

@@ -9,19 +9,19 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Sinonimia — Aviso legal / Legal notice</title>
 <meta name="description" content="Sinonimia: índice de páginas legales (privacidad, licencia, ARASAAC, contacto).">
-<link rel="icon" type="image/svg+xml" href="../img/logo.svg">
+<link rel="icon" type="image/svg+xml" href="../img/logo.svg?v=sinonimia-v7591a68c">
 <meta name="theme-color" content="#0a5c78">
 <meta name="application-name" content="Sinonimia">
-<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="../css/styles.css?v=sinonimia-v4a">
+<link rel="stylesheet" href="../css/locale-picker.css?v=sinonimia-v6aa">
 
 </head>
 <body class="page-legal">
 
 <header class="cabecera">
   <div class="envoltorio">
-    <div class="idioma-selector" role="group" aria-label="Idioma / Language">
-      <button type="button" class="lang-btn" data-lang="es" aria-pressed="true">Español</button>
-      <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">English</button>
+    <div class="suite-controls">
+      <div id="locale-picker"></div>
     </div>
 
     <div class="logo-about">⚖</div>
@@ -43,8 +43,8 @@
 
       <ul class="indice-legal">
         <li>
-          <a href="privacidad.html" data-lang-block="es"><strong>Privacidad</strong> — qué datos guarda Sinonimia en tu dispositivo, qué datos no se recogen, y cómo borrar lo guardado.</a>
-          <a href="privacidad.html" data-lang-block="en"><strong>Privacy</strong> — what Sinonimia saves on your device, what is not collected, and how to delete it.</a>
+          <a href="privacidad" data-lang-block="es"><strong>Privacidad</strong> — qué datos guarda Sinonimia en tu dispositivo, qué datos no se recogen, y cómo borrar lo guardado.</a>
+          <a href="privacidad" data-lang-block="en"><strong>Privacy</strong> — what Sinonimia saves on your device, what is not collected, and how to delete it.</a>
         </li>
       </ul>
     </section>
@@ -76,7 +76,13 @@
 
 <footer data-pie-app data-pie-class="pie-legal" data-pie-extra="Sobre el proyecto^About the project^../about/index.html|../about/index.html"></footer>
 
-<script src="../about/about.js"></script>
+<script src="../about/about.js?v=about-v1"></script>
+<!-- Controles compartidos con el resto de la suite: el desplegable de idioma
+     y el ⚙️, con su cajón de ajustes. El config va antes, y el componente en
+     diferido, como en las demás páginas. about.js registra el hook que mueve
+     los bloques es/en de esta página, y va antes porque no lleva diferido. -->
+<script src="../js/locale-picker-config.js?v=1ab"></script>
+<script src="../js/locale-picker.js?v=sinonimia-v6aaa" defer></script>
 
 </body>
 </html>

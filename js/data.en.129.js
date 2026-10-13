@@ -1,0 +1,1 @@
+(()=>{for(const id of ['mosquito','gnat','motel','mutiny','motivating','motivate','motorbike','motorcycle','chainsaw','mobility']){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}})();

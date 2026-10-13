@@ -7,9 +7,9 @@ Thumbs.db
 .claude/
 # Ficheros scratch de sesiones del editor/agente (no forman parte del repo)
 .tmp*
-# Scripts de exploraciÃ³n / ingest / one-off del mantenedor
+# Scripts de exploración / ingest / one-off del mantenedor
 # (no son tests, no son CI; el README en scripts/ingest/README.md
-#  explica quÃ© hay en cada subdirectorio).
+#  explica qué hay en cada subdirectorio).
 scripts/ingest/
 # Notas/workspace personal del mantenedor (otros productos, .code-workspace local)
 ,dev/
@@ -44,3 +44,15 @@ dev/corpus/
 # Nunca subir el shared secret de OpenSymbols (se pasa como variable de entorno)
 .env
 .env.*
+
+# Playwright run output (failure screenshots, traces, .last-run.json)
+test-results/
+playwright-report/
+
+# Sondas y capturas de diagnostico de sesiones de mantenimiento.
+# No son tests ni herramientas de la suite: se regeneran y se tiran.
+_diag*.cjs
+probe-*.mjs
+shot-*.png
+contrast-check.mjs
+discover-pages.mjs

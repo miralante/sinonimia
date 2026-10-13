@@ -395,6 +395,11 @@ all map to the same English word). When set, `translation` is the
 authoritative cross-language link; when not set, the shared-pictogram
 fallback described in the next section applies.
 
+When editing content, if an equivalent headword exists in the other language,
+both entries should include the equivalent ids in `translation`. Keep the
+link reciprocal when adding a relationship; use an array on the record that
+links to multiple entries.
+
 Why is this field needed when ARASAAC pictograms already link concepts
 across languages? Because ARASAAC has only one "money" pictogram, one
 "document" pictogram, one "pen" pictogram, etc., and the dictionary has
@@ -715,15 +720,17 @@ the **template**; deviations are called out where they apply.
   <link rel="stylesheet" href="../assets/css/base.css">
   <link rel="stylesheet" href="../assets/css/components.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../assets/css/locale-picker.css?v=sinonimia-v4aa">
 </head>
 <body>
   <div class="container {legal|about}">
     <header class="cabecera-{legal|about}">
-      <div class="idioma-selector" role="group" aria-label="Elegir idioma">
-        <button type="button" class="btn-idioma" id="btnIdiomaEs"
-                data-locale="es" aria-pressed="false">🇪🇸 Español</button>
-        <button type="button" class="btn-idioma" id="btnIdiomaEn"
-                data-locale="en" aria-pressed="false">🇬🇧 English</button>
+      <!-- Language is a first-level control in the header, not a
+           sub-item of the settings drawer: the shared component mounts
+           inside .suite-controls and the gear is inserted on its own,
+           right behind it. There is no language button in the HTML. -->
+      <div class="suite-controls">
+        <div id="locale-picker"></div>
       </div>
       <img src="../assets/img/icono.svg" alt="" width="80" height="80"
            class="logo-{legal|about}">
@@ -755,23 +762,13 @@ the **template**; deviations are called out where they apply.
   <script src="../assets/js/i18n.js"></script>
   <script src="strings.es.js"></script>
   <script src="strings.en.js"></script>
-  <script>
-    (function () {
-      'use strict';
-      function paintLanguageSelector() {
-        var active = App.i18n.locale();
-        document.getElementById('btnIdiomaEs')
-          .setAttribute('aria-pressed', String(active === 'es'));
-        document.getElementById('btnIdiomaEn')
-          .setAttribute('aria-pressed', String(active === 'en'));
-      }
-      document.getElementById('btnIdiomaEs')
-        .addEventListener('click', function () { App.i18n.setLocale('es'); });
-      document.getElementById('btnIdiomaEn')
-        .addEventListener('click', function () { App.i18n.setLocale('en'); });
-      paintLanguageSelector();
-    })();
-  </script>
+  <!-- The dropdown needs its config BEFORE the component. Both
+       are deferred, and deferred scripts run in document order, so
+       listing them in that order is enough. The ?v= is not optional:
+       .js and .css are served immutable for a year, and without it the
+       page serves the stale copy from cache. -->
+  <script src="../assets/js/locale-picker-config.js?v=sinonimia-v4aa"></script>
+  <script src="../assets/js/locale-picker.js?v=sinonimia-v4aa" defer></script>
   <script>
     /* Register the SW from this entry point so it is active for any
        later navigation, matching what the main index.html and the

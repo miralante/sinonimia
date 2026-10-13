@@ -1,0 +1,21 @@
+(()=>{const u={
+ ostral:{definition:'Lugar destinado a la cría de ostras.',synonyms:['criadero de ostras']},
+ ostrera:{definition:'Relativo a las ostras o dedicado a su cría o recolección; forma femenina de ostrero.',synonyms:['ostricultora']},
+ ostrero:{definition:'Persona que cría, recolecta o vende ostras; también, relativo a ellas.',synonyms:['ostricultor','vendedor de ostras']},
+ ostricola:{definition:'Que vive asociado a las ostras o en los lugares donde estas se crían.',synonyms:['asociado a las ostras']},
+ ostrifero:{definition:'Dicho de un lugar: en el que abundan o se crían ostras.',synonyms:['ostral','rico en ostras']},
+ otacustico:{definition:'Perteneciente o relativo al oído o a la audición.',synonyms:['auditivo','relativo al oído']},
+ otar:{definition:'Forma anticuada de otear: mirar desde un lugar alto o a lo lejos.',synonyms:['otear (forma anticuada)']},
+ otatal:{definition:'En México, bambusal formado por otates (bambúes americanos).',synonyms:['bambusal']},
+ otate:{definition:'Bambú americano, especialmente de los géneros Otatea y Guadua, usado en construcción y cestería.',synonyms:['bambú']},
+ otatera:{definition:'Embarcación ligera hecha de otates o bambúes.',synonyms:['balsa de bambú']},
+ otologia:{definition:'Rama de la medicina que estudia el oído y sus enfermedades.',synonyms:['estudio del oído']},
+ otologo:{definition:'Médico especializado en otología, rama que estudia el oído y sus enfermedades.',synonyms:['especialista en oído']},
+ otomia:{definition:'Acción cruel o atroz; fechoría.',synonyms:['atrocidad','fechoría']},
+ ostugo:{definition:'Porción diminuta o insignificante de algo.',synonyms:['ápice','menudencia']},
+ otacusta:{definition:'Ave rapaz de plumaje oscuro con manchas blancas, según la denominación tradicional.',synonyms:['ave rapaz']},
+ otoba:{definition:'Árbol sudamericano de la familia de las miristicáceas, del género Otoba.',synonyms:['árbol miristicáceo']},
+ otosclerosis:{definition:'Enfermedad del oído en la que se produce una alteración del hueso de la cápsula ótica, con posible fijación del estribo y pérdida de audición.',synonyms:['otoespongiosis']},
+ otoscopio:{definition:'Instrumento médico con luz que permite examinar el conducto auditivo externo y el tímpano.',synonyms:['espéculo auricular']},
+ otrano:{definition:'Antiguamente, extraño o desconocido.',synonyms:['extraño','desconocido (desusado)']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}const ids=new Set(['ostrogodo','otavaleño','otompaneco','otoman','otomana']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

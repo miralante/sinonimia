@@ -1,0 +1,21 @@
+(()=>{const u={
+  neumogastrico:{definition:'Perteneciente o relativo al nervio vago, que antiguamente se llamaba nervio neumogástrico.',synonyms:['vagal','del nervio vago']},
+  neumonia:{definition:'Infección e inflamación del tejido pulmonar, causada por microorganismos o, en algunos casos, por otros agentes.',synonyms:['infección pulmonar','pulmonía']},
+  neumonico:{definition:'Perteneciente o relativo a la neumonía.',synonyms:['relativo a la neumonía','pulmonar (según el contexto)']},
+  neumopatia:{definition:'Enfermedad o afección de los pulmones.',synonyms:['enfermedad pulmonar','afección respiratoria']},
+  neural:{definition:'Perteneciente o relativo a los nervios o al sistema nervioso.',synonyms:['nervioso','relativo a los nervios']},
+  neurastenia:{definition:'Término médico histórico para un cuadro de cansancio persistente, debilidad e irritabilidad; ya no se usa como diagnóstico clínico estándar.',synonyms:['agotamiento nervioso (histórico)','astenia nerviosa (histórico)']},
+  neurita:{definition:'Prolongación del cuerpo de una neurona, especialmente el axón.',synonyms:['prolongación neuronal','axón (en ciertos usos)']},
+  neurobiologo:{definition:'Especialista en neurobiología, rama de la biología que estudia el sistema nervioso.',synonyms:['especialista en neurobiología','neurocientífico']},
+  neurocirugia:{definition:'Especialidad quirúrgica que trata enfermedades y lesiones del cerebro, la médula espinal, los nervios y otras estructuras del sistema nervioso.',synonyms:['cirugía del sistema nervioso','cirugía neurológica']},
+  neurodegenerativo:{definition:'Dicho de un proceso o enfermedad: que causa la pérdida progresiva de estructura o función de las neuronas.',synonyms:['degenerativo del sistema nervioso','degenerativo neuronal']},
+  neuroepidemiologia:{definition:'Disciplina que estudia la frecuencia, distribución y factores asociados a las enfermedades neurológicas en poblaciones.',synonyms:['epidemiología neurológica','epidemiología del sistema nervioso']},
+  neuroesqueleto:{definition:'Esqueleto óseo o cartilaginoso que protege el sistema nervioso central de los vertebrados.',synonyms:['esqueleto protector del sistema nervioso','neurocráneo y columna vertebral']},
+  neurofisiologia:{definition:'Rama de la fisiología que estudia el funcionamiento del sistema nervioso.',synonyms:['fisiología nerviosa','fisiología del sistema nervioso']},
+  neuroleptico:{definition:'Fármaco que reduce ciertos síntomas de la psicosis y se utiliza principalmente como antipsicótico.',synonyms:['antipsicótico','neuroléptico']},
+  neuronal:{definition:'Perteneciente o relativo a las neuronas.',synonyms:['neural (según el contexto)','relativo a las neuronas']},
+  neuropata:{definition:'Persona que padece una neuropatía o afección de los nervios.',synonyms:['paciente con neuropatía','persona con afección nerviosa']},
+  neuroptero:{definition:'Insecto del orden de los neurópteros, generalmente con dos pares de alas membranosas y nervadas; incluye crisopas y hormigas león.',synonyms:['neuróptero','crisopa (uno de ellos)']},
+  neurosis:{definition:'Término histórico de psiquiatría para un conjunto de trastornos asociados con ansiedad y malestar psíquico sin pérdida de contacto con la realidad; ya no es una categoría diagnóstica estándar.',synonyms:['trastorno neurótico (uso histórico)','neuroticismo (según el contexto)']},
+  neurotico:{definition:'Perteneciente o relativo a la neurosis; dicho de una persona, que presenta síntomas neuróticos.',synonyms:['neurótico','relativo a la neurosis']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

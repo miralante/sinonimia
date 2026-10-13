@@ -1,0 +1,21 @@
+(()=>{const u={
+  molestamente:{synonyms:['de manera molesta','incómodamente']},
+  molestar:{definition:'Causar molestia, incomodidad o disgusto a alguien; interrumpir o importunar.',synonyms:['incomodar','importunar','fastidiar']},
+  molestia:{definition:'Incomodidad, disgusto o perturbación; también, acción que molesta o estorba.',synonyms:['incomodidad','fastidio','perturbación']},
+  molesto:{definition:'Que causa molestia o incomodidad; también, que siente disgusto o irritación.',synonyms:['incómodo','fastidioso','irritado']},
+  molestoso:{definition:'Que molesta con insistencia; uso coloquial y regional.',synonyms:['fastidioso','impertinente','importuno']},
+  moleta:{definition:'Piedra plana y redonda que se hace girar para moler o triturar una materia.',synonyms:['muela','piedra de moler']},
+  molibdeno:{synonyms:['metal de transición','elemento químico Mo']},
+  molicie:{definition:'Blandura o afición excesiva a la comodidad y al placer; pereza muelle.',synonyms:['blandura','molicie','indolencia']},
+  molido:{definition:'Reducido a partículas o polvo por la molienda; coloquialmente, muy cansado o fatigado.',synonyms:['triturado','pulverizado','agotado']},
+  molienda:{synonyms:['molienda','molturación','trituración']},
+  moliente:{definition:'Que muele; aparece sobre todo en la expresión «corriente y moliente», común y ordinario.',synonyms:['corriente','común y ordinario']},
+  molificable:{synonyms:['ablandable','susceptible de ablandarse']},
+  molificar:{definition:'Ablandar o hacer más suave una cosa.',synonyms:['ablandar','suavizar']},
+  molificativo:{synonyms:['ablandador','suavizante']},
+  molinar:{definition:'Lugar donde hay molinos; también, relativo a un molino.',synonyms:['sitio de molinos','molinería']},
+  molinera:{definition:'Mujer que trabaja en un molino o lo atiende.',synonyms:['molendera','trabajadora del molino']},
+  molineria:{definition:'Actividad o establecimiento relacionado con la molienda y los molinos.',synonyms:['molienda','industria molinera']},
+  molinetear:{definition:'En tauromaquia, dar molinetes al toro.',synonyms:['dar molinetes']},
+  molinillo:{synonyms:['molinillo de mano','molinete','triturador pequeño']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}const ids=new Set(['molinada']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

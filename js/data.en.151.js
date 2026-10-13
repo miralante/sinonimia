@@ -1,0 +1,13 @@
+(()=>{
+ const updates={
+  orderer:{definition:"A person who gives orders or places an order; also, someone who arranges or organizes things.",synonyms:["person who places an order","buyer","organizer"],example:{word:"orderer",text:"The orderer checked the delivery details before submitting the request."},exampleSynonym:{word:"buyer",text:"The buyer checked the delivery details before submitting the request."}},
+  orderly:{definition:"A hospital or care-facility worker who assists with moving patients and other nonmedical tasks; as an adjective, neat, organized, or disciplined.",synonyms:["hospital attendant","organized","methodical","neat"],example:{word:"orderly",text:"The orderly helped move the patient to a different ward."},exampleSynonym:{word:"hospital attendant",text:"The hospital attendant helped move the patient to a different ward."}},
+  ordinance:{definition:"A law, rule, or regulation issued by a local government or other authority.",synonyms:["regulation","bylaw","local law"],example:{word:"ordinance",text:"The city passed an ordinance limiting overnight parking."},exampleSynonym:{word:"regulation",text:"The city passed a regulation limiting overnight parking."}},
+  ordinarily:{definition:"Usually or under normal circumstances; in the ordinary way.",synonyms:["usually","normally","typically"],example:{word:"ordinarily",text:"The museum is ordinarily closed on Mondays."},exampleSynonym:{word:"usually",text:"The museum is usually closed on Mondays."}},
+  ordinary:{definition:"Usual, common, or not special; as a noun in specialized use, a person with ordinary jurisdiction or authority, such as a diocesan bishop.",synonyms:["usual","common","regular","everyday"],example:{word:"ordinary",text:"It was an ordinary weekday with no special events."},exampleSynonym:{word:"usual",text:"It was a usual weekday with no special events."}},
+  ordinate:{definition:"The vertical coordinate of a point in a Cartesian coordinate system; the y-coordinate.",synonyms:["y-coordinate","vertical coordinate"],example:{word:"ordinate",text:"The ordinate of the plotted point is five."},exampleSynonym:{word:"y-coordinate",text:"The y-coordinate of the plotted point is five."}}
+ };
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const id of ['orderer-2','ordinance-2','ordinary-and-rude-chamelote','ordinary-cane-brandy']){if(!DICCIONARIOS.en.some(e=>e.id===id))throw Error('Missing en/'+id);}
+ DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!['orderer-2','ordinance-2','ordinary-and-rude-chamelote','ordinary-cane-brandy'].includes(e.id));
+})();

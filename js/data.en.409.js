@@ -1,0 +1,6 @@
+(()=>{const u={
+ placable:{definition:'Capable of being appeased or calmed.',synonyms:['appeasable','pacifiable','mollifiable'],example:{word:'placable',text:'The placable manager listened to both sides before deciding.'},exampleSynonym:{word:'appeasable',text:'The appeasable manager listened to both sides before deciding.'}},
+ placard:{definition:'A large piece of card, paper, or similar material bearing a written or printed message, often displayed as a notice or carried in a demonstration.',synonyms:['sign','notice','protest sign'],example:{word:'placard',text:'The demonstrators held a placard above the crowd.'},exampleSynonym:{word:'protest sign',text:'The demonstrators held a protest sign above the crowd.'}},
+ placative:{definition:'Having the ability or purpose of appeasing, calming, or pacifying.',synonyms:['appeasing','soothing','pacifying'],example:{word:'placative',text:'He chose a placative tone to calm the argument.'},exampleSynonym:{word:'soothing',text:'He chose a soothing tone to calm the argument.'}}
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+(()=>{DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>r.id==='place'||!r.id.startsWith('place-'));})();

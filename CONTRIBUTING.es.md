@@ -104,16 +104,37 @@ pipeline del maintainer.
    lectura fácil, la arquitectura multi-idioma y las restricciones
    innegociables de producto.
 2. Ejecuta `node scripts/content-status.js --detalle --categoria
-   <tema> --lang <es|en>` para ver qué palabras ya existen.
-3. Edita `js/data.<lang>.js` y rellena los campos siguiendo la spec.
-4. `ejemplo.palabra` y `ejemploSinonimo.palabra` deben aparecer
+   <tema> --lang <es|en>` y comprueba si la palabra ya está como
+   entrada en el diccionario propio de ese idioma.
+3. Antes de incorporarla, valida obligatoriamente la palabra nueva en
+   el diccionario externo de ese idioma: [RAE/DLE](https://dle.rae.es/)
+   para `es` (pásale la palabra como término de búsqueda) o
+   [Collins English Dictionary](https://www.collinsdictionary.com/dictionary/english)
+   para `en`, pasando la palabra en la ruta
+   `https://www.collinsdictionary.com/dictionary/english/<word>`.
+   Confirma que el lema o una variante reconocida existe y que su
+   sentido corresponde al uso propuesto. Esta comprobación es un
+   requisito de admisión, no solo una fuente para redactar. Descarta
+   las formas verbales conjugadas (conserva solo el infinitivo), las
+   palabras inventadas o inválidas sin entrada verificable y los
+   gentilicios, aunque figuren en el diccionario. Si no hay entrada,
+   descarta la candidata; solo corrige y vuelve a comprobar si era una
+   errata. No copies la definición externa.
+4. Edita `js/data.<lang>.js` y rellena los campos siguiendo la spec.
+   La definición debe corresponder a la acepción verificada; corrígela
+   antes de insertar si es errónea. Si no puede quedar fiel a esa
+   acepción, no añadas la entrada.
+5. `ejemplo.palabra` y `ejemploSinonimo.palabra` deben aparecer
    literalmente dentro de `ejemplo.texto` y `ejemploSinonimo.texto`
    (el resaltado del sitio depende de ello).
-5. Añade un `traduccion` por id si la palabra tiene una equivalente
-   clara.
-6. Consigue un pictograma con `node scripts/search-pictogram.js`
+6. Comprueba el diccionario del otro idioma para localizar una voz
+   equivalente clara. Si existe, enlaza ambas entradas por id con
+   `traduccion` y añade el enlace recíproco si falta. Añade la voz
+   equivalente solo si también cumple por sí misma los criterios de
+   dificultad de ese idioma.
+7. Consigue un pictograma con `node scripts/search-pictogram.js`
    (ARASAAC u OpenSymbols; respeta la licencia que indique el script).
-7. Ejecuta `node scripts/build-dictionary-data.js` (regenera el índice y
+8. Ejecuta `node scripts/build-dictionary-data.js` (regenera el índice y
    los ficheros de detalle que carga el navegador), sube `VERSION` en
    `sw.js` y ejecuta `node scripts/check.js` para verificar que todo
    resuelve y que nada generado está desactualizado.

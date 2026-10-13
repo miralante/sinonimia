@@ -1,0 +1,1 @@
+(()=>{const ids=new Set(['pencil-case-3','pencil-sharpener-2','pencil-sharpener-3','penco','pendence','pendinggue','pending-loan-capital']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

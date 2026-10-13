@@ -1,0 +1,23 @@
+(()=>{const u={
+  morralada:{definition:'Cantidad de cosas que cabe en un morral.',synonyms:['contenido de un morral','carga']},
+  morralla:{definition:'Conjunto de cosas de poco valor o calidad; también, en sentido despectivo, grupo de personas consideradas de poca valía.',synonyms:['baratijas','chusma','conjunto de poca monta']},
+  morrear:{definition:'Besar apasionadamente; uso coloquial.',synonyms:['besar apasionadamente','chapar']},
+  morrena:{definition:'Acumulación de rocas y sedimentos que transporta y deposita un glaciar, a menudo en su borde o al pie.',synonyms:['depósito glaciar','acumulación glaciar']},
+  morreo:{definition:'Acción de morrear: beso apasionado.',synonyms:['beso apasionado','besuqueo']},
+  morreras:{definition:'En Aragón, lesiones, manchas o erupciones en los labios.',synonyms:['llagas en los labios','erupción labial']},
+  morrilla:{definition:'Nombre regional de la alcachofa o alcaucil.',synonyms:['alcachofa','alcaucil','alcacil']},
+  morrillo:{definition:'Parte carnosa y abultada de la zona superior y anterior del cuello de algunos animales, especialmente del toro; también, corte de carne de esa zona.',synonyms:['cogote','cerviguillo','corte de carne']},
+  morrina:{definition:'Morriña: tristeza o añoranza, especialmente la causada por estar lejos de la tierra natal.',synonyms:['morriña','añoranza','nostalgia']},
+  morrinoso:{definition:'En Puerto Rico, morriñoso: que siente morriña o añoranza.',synonyms:['morriñoso','nostálgico','añorante']},
+  morro:{definition:'Hocico o parte saliente de la cara; labios abultados. También, peñasco o monte pequeño y escarpado; en usos coloquiales, descaro.',synonyms:['hocico','jeta','labios','peñasco','descaro']},
+  morrocota:{synonyms:['morocota','moneda de oro']},
+  morrocotudo:{definition:'Familiarmente, de gran tamaño, importancia o dificultad.',synonyms:['enorme','grandísimo','de mucha importancia','difícil']},
+  morrocoy:{definition:'En varios países americanos, tortuga terrestre de caparazón abovedado; en Uruguay, también tortuga de agua dulce.',synonyms:['tortuga morrocoy','morrocota','morrocoyo']},
+  morrocoyo:{definition:'En Paraguay y el norte de Colombia, tortuga terrestre; en Uruguay, tortuga de agua dulce. En Cuba, persona baja y de complexión gruesa.',synonyms:['morrocoy','tortuga terrestre','rechoncho (Cuba)']},
+  morron:{definition:'Golpe o porrazo; también, pimiento de forma ancha y carne gruesa.',synonyms:['porrazo','golpe','pimiento morrón']},
+  morrona:{definition:'Hembra del gato; variante regional de «morroña».',synonyms:['gata','morroña']},
+  morroncho:{definition:'En Murcia, manso o dócil.',synonyms:['manso','dócil','apacible']},
+  morronga:{definition:'Femenino de «morrongo»; en el uso regional que designa al gato, gata.',synonyms:['gata','morroña']},
+  morrono:{definition:'Morroño: gato.',synonyms:['gato','morrongo']},
+  morronoso:{definition:'Morroñoso: dicho de una cosa, áspera o de superficie desigual; en Panamá, desaliñada y gastada. En Puerto Rico, variante de «morriñoso».',synonyms:['áspero','rugoso','desgastado','morriñoso']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

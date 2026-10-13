@@ -1,0 +1,2 @@
+(()=>{const ids=new Set(['restless-2','restlessness-3','restlessness-5','restlessness-6']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();
+(()=>{const u={restoration:{definition:'The act or process of returning something to its former condition, place, or owner; also, the repair of an old building, work of art, or other object.',synonyms:['renewal','repair','reinstatement','recovery']}};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();

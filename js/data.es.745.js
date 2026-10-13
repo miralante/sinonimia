@@ -1,0 +1,22 @@
+(()=>{const u={
+  muequear:{definition:'Hacer muecas o gestos con el rostro.',synonyms:['hacer muecas','gesticular','hacer visajes']},
+  muer:{definition:'Muaré: tejido que presenta aguas, visos u ondulaciones; variante poco usada de «mue».',synonyms:['muaré','moaré','mue']},
+  muergano:{definition:'Órgano musical de tubos que se toca mediante un teclado; voz antigua o regional.',synonyms:['órgano','órgano de tubos']},
+  muergo:{definition:'Molusco bivalvo marino de concha alargada y estrecha, conocido también como navaja o longueirón.',synonyms:['navaja','longueirón','molusco bivalvo']},
+  muermo:{definition:'Enfermedad infecciosa grave de caballos y otros équidos, que puede transmitirse a las personas; coloquialmente, persona o cosa aburrida y tediosa, o estado de sopor y aburrimiento.',synonyms:['enfermedad de los équidos','aburrimiento','persona tediosa','tostón']},
+  muermoso:{definition:'Que causa aburrimiento o sopor; dicho de una persona, tediosa, reservada o taciturna, según el uso regional.',synonyms:['aburrido','tedioso','soporífero','taciturno']},
+  muertero:{definition:'En México, persona encargada de preparar los cadáveres; en el sur de Ecuador, sepulturero.',synonyms:['preparador de cadáveres','sepulturero','funerario']},
+  muesca:{definition:'Concavidad o corte pequeño hecho en una cosa, generalmente para encajar otra o señalar una medida.',synonyms:['hendidura','corte','entalladura','mella']},
+  muescar:{definition:'Hacer una muesca en algo; variante de «moscar».',synonyms:['hacer una muesca','entallar','mellar']},
+  mueso:{definition:'Antiguamente y en Aragón, bocado o mordedura.',synonyms:['bocado','mordisco','mordedura']},
+  muestral:{definition:'Perteneciente o relativo a una muestra, especialmente en estadística.',synonyms:['relativo a la muestra','de muestra']},
+  muestrear:{definition:'Seleccionar una parte representativa de un conjunto para estudiarla o analizarla.',synonyms:['tomar una muestra','seleccionar una muestra']},
+  muestreo:{definition:'Procedimiento de seleccionar una parte representativa de una población o conjunto para analizarla e inferir sus características.',synonyms:['toma de muestras','selección de una muestra','sondeo']},
+  mufla:{definition:'Cámara u horno cerrado, normalmente revestido de material refractario, que calienta una muestra sin contacto directo con la llama ni con los gases de combustión.',synonyms:['horno de mufla','horno refractario']},
+  mufti:{definition:'En el islam, jurisconsulto autorizado para emitir dictámenes jurídicos o fatwas sobre cuestiones religiosas.',synonyms:['muftí','jurisconsulto islámico','intérprete de la ley islámica']},
+  muga:{definition:'Mojón o señal que indica el límite entre dos terrenos o territorios.',synonyms:['mojón','lindero','límite']},
+  mugada:{definition:'Huellas o señales que deja el desove de un pez.',synonyms:['señales de desove','rastros de puesta']},
+  mugar:{definition:'Dicho de un pez: desovar.',synonyms:['desovar','poner huevos']},
+  mugido:{definition:'Voz grave y prolongada de un toro o una vaca.',synonyms:['bramido','voz bovina']},
+  mugidor:{definition:'Que muge o produce mugidos.',synonyms:['bramador','que muge']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}const ids=new Set(['muerdisorbe','muerdo','muevedo','muflir']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

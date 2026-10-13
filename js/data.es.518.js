@@ -1,0 +1,1 @@
+(()=>{const u={fecundidad:{definition:'Capacidad de un ser vivo para reproducirse; por extensión, abundancia o capacidad de producir frutos, resultados o ideas.',synonyms:['fertilidad','productividad','abundancia']}};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();

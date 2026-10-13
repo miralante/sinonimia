@@ -97,16 +97,35 @@ for the maintainer's pipeline.
    easy-read rules, the multi-language architecture, and the
    non-negotiable product constraints.
 2. Run `node scripts/content-status.js --detalle --categoria <topic>
-   --lang <es|en>` to see the headwords that already exist.
-3. Edit `js/data.<lang>.js` and fill in its fields following the spec.
-4. `ejemplo.palabra` and `ejemploSinonimo.palabra` must appear verbatim
+   --lang <es|en>` and check whether the headword already has its own
+   entry in that language's dictionary.
+3. Before adding it, validate every new word against that language's
+   external dictionary: [RAE/DLE](https://dle.rae.es/) for `es` (pass
+   the word as the search term), or [Collins English
+   Dictionary](https://www.collinsdictionary.com/dictionary/english)
+   for `en`, passing the word in the path
+   `https://www.collinsdictionary.com/dictionary/english/<word>`.
+   Confirm that the headword or a recognized variant exists and that
+   its sense matches the proposed use. This is an admission
+   requirement, not just a writing reference. Reject conjugated verb
+   forms (keep only the corresponding infinitive/base form), invented
+   or invalid words with no verifiable entry, and demonyms even when
+   listed. If no entry is found, reject the candidate; correct and
+   recheck only if it was a typo. Do not copy the external definition.
+4. Edit `js/data.<lang>.js` and fill in its fields following the spec.
+   Its definition must match the verified sense; correct an inaccurate
+   definition before insertion. If it cannot be made accurate, do not
+   add the entry.
+5. `ejemplo.palabra` and `ejemploSinonimo.palabra` must appear verbatim
    inside `ejemplo.texto` and `ejemploSinonimo.texto` (site
    highlighting depends on it).
-5. Add a `traduccion` cross-link by id if the word has a clear
-   counterpart.
-6. Source a pictogram via `node scripts/search-pictogram.js` (ARASAAC
+6. Check the other language's dictionary for a clear counterpart. If it
+   exists, link both entries by id with `traduccion`, adding the reciprocal
+   link to the existing entry if needed. Add a counterpart entry only if it
+   independently qualifies as difficult in that language.
+7. Source a pictogram via `node scripts/search-pictogram.js` (ARASAAC
    or OpenSymbols; respect the license noted by the script).
-7. Run `node scripts/build-dictionary-data.js` (it regenerates the
+8. Run `node scripts/build-dictionary-data.js` (it regenerates the
    index and detail files the browser actually loads), bump `VERSION`
    in `sw.js`, then run `node scripts/check.js` to verify everything
    resolves and nothing generated is stale.

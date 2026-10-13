@@ -1,0 +1,21 @@
+(()=>{const u={
+  moreton:{definition:'Mancha violácea o azulada en la piel producida por una hemorragia bajo la piel, generalmente a causa de un golpe; suele cambiar de color antes de desaparecer.',synonyms:['cardenal','hematoma','equimosis']},
+  morfar:{definition:'Comer; uso coloquial, especialmente en Argentina y Uruguay.',synonyms:['comer','manducar']},
+  morfea:{definition:'Enfermedad inflamatoria de la piel que produce áreas de endurecimiento o engrosamiento; también llamada esclerodermia localizada.',synonyms:['esclerodermia localizada','morfea']},
+  morfeo:{definition:'En la mitología grecorromana, dios asociado con los sueños; por alusión, el sueño personificado.',synonyms:['dios de los sueños','sueño personificado']},
+  morfinismo:{definition:'Dependencia o uso problemático de la morfina; término antiguo, sustituido actualmente por expresiones clínicas más precisas.',synonyms:['dependencia de morfina','adicción a la morfina (término antiguo)']},
+  morfinomania:{definition:'Dependencia o consumo compulsivo de morfina; término antiguo y hoy desaconsejado en contextos clínicos.',synonyms:['dependencia de morfina','morfinismo (antiguo)']},
+  morfinomano:{definition:'Persona con dependencia de morfina; término antiguo, hoy se prefiere «persona con trastorno por consumo de opioides».',synonyms:['persona con dependencia de morfina','consumidor de morfina (según contexto)']},
+  morfofonologia:{definition:'Rama de la lingüística que estudia la interacción entre la morfología y la fonología.',synonyms:['morfofonémica','fonología morfológica']},
+  morfofonologico:{synonyms:['relativo a la morfofonología','morfofonémico']},
+  morfologico:{synonyms:['relativo a la morfología','estructural']},
+  morfosintactico:{synonyms:['relativo a la morfosintaxis','gramatical']},
+  morganatico:{definition:'Dicho de un matrimonio contraído por una persona de rango real o noble con otra de condición social inferior, sin que el cónyuge ni sus hijos adquieran los derechos del rango.',synonyms:['matrimonio desigual (histórico)','no dinástico']},
+  morgon:{definition:'Piedra de color gris oscuro; voz regional.',synonyms:['piedra gris oscura','roca oscura']},
+  morgue:{definition:'Depósito donde se conservan temporalmente los cadáveres antes de su identificación o traslado.',synonyms:['depósito de cadáveres','tanatorio (según el lugar)']},
+  moriangano:{definition:'En Canarias, fresa silvestre.',synonyms:['fresa silvestre','frutilla silvestre']},
+  moribundo:{synonyms:['agonizante','moribundo','a punto de morir']},
+  morichal:{definition:'Terreno poblado de palmas moriche.',synonyms:['palmar de moriche','palmar']},
+  moriche:{definition:'Palma tropical americana de grandes hojas, cuyo fruto es comestible; crece en terrenos húmedos.',synonyms:['palma moriche','Mauritia flexuosa']},
+  moridera:{definition:'Lugar donde se muere o donde suelen morir muchas personas o animales; variante de «moridero».',synonyms:['moridero','lugar de muerte']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}const ids=new Set(['morguera']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

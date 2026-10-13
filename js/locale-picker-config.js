@@ -13,6 +13,11 @@
  * (localStorage 'sinonimia-idioma').
  */
 window.LocalePickerConfig = {
+  /* El selector de idioma va DENTRO del cajón del ⚙️, como primera
+     fila, y el ⚙️ se queda solo en la cabecera. Antes vivía al lado
+     del ⚙️ en la fila de controles y eran dos sitios donde cambiar
+     preferencias. Coste: un clic más para llegar al idioma. */
+  languageInDrawer: true,
   storageKey: 'sinonimia-idioma',
   /* Sinonimia ships its UI strings inline in js/i18n.js (no per-locale
      file), so there's nothing to discover with HEAD requests. Setting
@@ -21,7 +26,10 @@ window.LocalePickerConfig = {
   path: null,
   requiredLocales: ['es', 'en'],
   defaultLocale: 'en',
-  settingsHref: 'config/',
+  /* No settingsHref: the drawer's "more settings" link is gone. Sinonimia
+     already reaches config/ from its own navigation, and that page carries
+     text size, contrast, theme and sounds, so the shared header drawer is
+     left with the three controls it is the only way to reach. */
   onChange: function (locale) {
     /* En el 404 no hay hash al que ir: esa página publica
        window.SinonimiaNotFound.setLanguage (js/notfound-page.js) y se

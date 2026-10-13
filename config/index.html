@@ -15,9 +15,10 @@
 <meta name="description" data-lang-block="es" content="Sinonimia: qué datos guarda en tu dispositivo y cómo borrarlos.">
 <meta name="description" data-lang-block="en" content="Sinonimia: what data it saves on your device and how to clear it.">
 <meta name="theme-color" content="#FAF7F2">
-<link rel="icon" type="image/svg+xml" href="../img/logo.svg">
-<link rel="apple-touch-icon" href="../img/logo.svg">
-<link rel="stylesheet" href="../css/styles.css?v=sinonimia-v4">
+<link rel="icon" type="image/svg+xml" href="../img/logo.svg?v=sinonimia-v7591a68c">
+<link rel="apple-touch-icon" href="../img/logo.svg?v=sinonimia-v7591a68c">
+<link rel="stylesheet" href="../css/styles.css?v=sinonimia-v4a">
+<link rel="stylesheet" href="../css/locale-picker.css?v=sinonimia-v6aa">
 </head>
 <body class="page-config">
 
@@ -26,9 +27,8 @@
 
 <header class="cabecera">
   <div class="envoltorio">
-    <div class="idioma-selector" role="group" aria-label="Idioma / Language">
-      <button type="button" class="lang-btn activo" data-lang="es" aria-pressed="true">🇪🇸 Español</button>
-      <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">🇬🇧 English</button>
+    <div class="suite-controls">
+      <div id="locale-picker"></div>
     </div>
 
     <div class="logo-about">⚙️</div>
@@ -39,12 +39,12 @@
     <nav class="indice" aria-label="Índice de esta página" data-lang-block="es">
       <a href="#que-guardamos">Qué guardamos</a>
       <a href="#borrar">Borrar mis datos</a>
-      <a href="../index.html">Volver al diccionario</a>
+      <a href="../">Volver al diccionario</a>
     </nav>
     <nav class="indice" aria-label="Page contents" data-lang-block="en">
       <a href="#que-guardamos">What we save</a>
       <a href="#borrar">Clear my data</a>
-      <a href="../index.html">Back to the dictionary</a>
+      <a href="../">Back to the dictionary</a>
     </nav>
   </div>
 </header>
@@ -178,8 +178,8 @@
     </p>
 
     <p>
-      <a href="../index.html" class="boton-cta" data-lang-block="es">Volver al diccionario</a>
-      <a href="../index.html" class="boton-cta" data-lang-block="en">Back to the dictionary</a>
+      <a href="../" class="boton-cta" data-lang-block="es">Volver al diccionario</a>
+      <a href="../" class="boton-cta" data-lang-block="en">Back to the dictionary</a>
     </p>
   </div>
 </section>
@@ -200,7 +200,12 @@
   Both scripts run synchronously at the bottom of <body>; no async /
   defer, same as about/.
 -->
-<script src="../about/about.js"></script>
+<script src="../about/about.js?v=about-v1"></script>
 <script src="config.js?v=2"></script>
+<!-- Controles compartidos con la pantalla principal: el desplegable de idioma
+     y el ⚙️ de la cabecera, con su cajón de accesibilidad. Mismo ?v= que la
+     portada, para que las dos páginas compartan la copia en caché. -->
+<script src="../js/locale-picker-config.js?v=1ab"></script>
+<script src="../js/locale-picker.js?v=sinonimia-v6aaa" defer></script>
 </body>
 </html>

@@ -1,0 +1,22 @@
+(()=>{const u={
+  monorquidia:{definition:'Presencia de un solo testículo, generalmente en el escroto, por ausencia o falta de desarrollo del otro.',synonyms:['monorquidismo','testículo único']},
+  monorrail:{definition:'Sistema de transporte guiado por un solo riel o una sola viga, sobre la que el vehículo puede circular o quedar suspendido.',synonyms:['monorriel','monocarril']},
+  monorriel:{synonyms:['monorraíl','monocarril']},
+  monorrimo:{definition:'Dicho de una composición poética o estrofa: cuyos versos tienen todos la misma rima.',synonyms:['rima única','monorrima']},
+  monorritmico:{definition:'Que mantiene un solo ritmo o un ritmo uniforme.',synonyms:['monorrítmico','de ritmo uniforme']},
+  monosabio:{definition:'En las corridas de toros, mozo que ayuda al picador y auxilia en las tareas de la plaza.',synonyms:['auxiliar del picador','mozo de plaza']},
+  monosacarido:{definition:'Azúcar simple que no puede descomponerse por hidrólisis en carbohidratos más sencillos; la glucosa y la fructosa son ejemplos.',synonyms:['azúcar simple','monosa']},
+  monosepalo:{definition:'Dicho del cáliz de una flor: formado por una sola pieza, con los sépalos soldados entre sí.',synonyms:['gamosépalo','de cáliz soldado']},
+  monosilabico:{synonyms:['de una sílaba','monosílabo']},
+  monosilabismo:{definition:'Uso frecuente o acumulación de palabras monosílabas en el habla o la escritura.',synonyms:['abundancia de monosílabos','estilo monosilábico']},
+  monosilabo:{definition:'Dicho de una palabra: que consta de una sola sílaba; también, palabra de una sílaba.',synonyms:['palabra monosilábica']},
+  monospastos:{definition:'Garrucha o polea que funciona de manera independiente, sin formar parte de un aparejo compuesto.',synonyms:['polea simple','garrucha independiente']},
+  monostrofe:{synonyms:['poema de una estrofa','composición monoestrófica']},
+  monostrofico:{definition:'Perteneciente o relativo a una composición poética de una sola estrofa.',synonyms:['monoestrófico','de una estrofa']},
+  monote:{definition:'Hombre pedantesco o afectado; voz despectiva y poco usada.',synonyms:['pedante','presuntuoso']},
+  monoteismo:{definition:'Creencia religiosa en la existencia de un solo dios.',synonyms:['creencia en un solo dios','religión monoteísta']},
+  monotelismo:{definition:'Doctrina cristológica que afirma que en Cristo hay dos naturalezas, divina y humana, pero una sola voluntad.',synonyms:['doctrina monotelita','una sola voluntad en Cristo']},
+  monotelita:{definition:'Partidario del monotelismo o perteneciente a esa doctrina cristológica.',synonyms:['adepto al monotelismo']},
+  monotipia:{definition:'Técnica de grabado que produce una sola estampa original a partir de una matriz entintada.',synonyms:['monotipografía','estampa única']},
+  monotipo:{definition:'Estampa única obtenida mediante la técnica de la monotipia; también, máquina de composición tipográfica que funde tipos individuales.',synonyms:['estampa única','monotipia']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

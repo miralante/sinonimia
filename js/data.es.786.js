@@ -1,0 +1,22 @@
+(()=>{const u={
+ paloduz:{definition:'Orozuz o regaliz: planta perenne cuya raíz, dulce y aromática, se usa como alimento y en preparados medicinales.',synonyms:['orozuz','regaliz']},
+ palomadura:{definition:'Acción de cazar palomas con una red.',synonyms:['caza con red']},
+ palomear:{definition:'Andar a la caza de palomas.',synonyms:['cazar palomas']},
+ palomero:{definition:'Persona que compra o vende palomas o se dedica a criarlas; también, palomar pequeño y páramo de corta extensión.',synonyms:['criador de palomas','palomar pequeño']},
+ palomera:{definition:'Palomero: persona que trata en palomas o las cría; también, palomar pequeño o páramo de corta extensión.',synonyms:['palomero']},
+ palomariega:{definition:'Perteneciente o relativo al palomar.',synonyms:['relativo al palomar']},
+ palomillear:{definition:'En Chile, vagabundear.',synonyms:['vagabundear']},
+ palon:{definition:'En heráldica, insignia semejante a una bandera, pero una cuarta parte más larga que ancha y terminada en cuatro puntas redondas.',synonyms:['estandarte heráldico']},
+ palopique:{definition:'En El Salvador, paloapique: cerca construida con palos hincados verticalmente y muy juntos.',synonyms:['paloapique','empalizada']},
+ palpallen:{definition:'Arbusto americano de la familia de las compuestas, de hasta dos metros, con hojas dentadas cubiertas de vello blanquecino y flores amarillas.',synonyms:['arbusto americano']},
+ paludismo:{definition:'Enfermedad infecciosa causada por parásitos del género Plasmodium y transmitida por mosquitos Anopheles.',synonyms:['malaria']},
+ paludicola:{definition:'Que vive en pantanos o lugares pantanosos.',synonyms:['palustre','de pantano']},
+ palustre:{definition:'Perteneciente o relativo a los pantanos o lagunas.',synonyms:['palúdico','de pantano']},
+ paludamento:{definition:'Manto que vestían algunos caudillos romanos y los emperadores.',synonyms:['manto romano']},
+ palpebra:{definition:'Párpado: repliegue de piel que cubre y protege el ojo.',synonyms:['párpado']},
+ pambil:{definition:'En Ecuador, palma más pequeña que la real, de follaje ancho y tronco esbelto, usada en construcción.',synonyms:['palma ecuatoriana']},
+ pambiza:{definition:'En México, paliza o serie de golpes.',synonyms:['paliza','golpiza','pamba']},
+ palto:{definition:'Árbol tropical de fruto comestible llamado aguacate; también, el propio fruto.',synonyms:['aguacate','abacate']},
+ palurdo:{definition:'Dicho de una persona: tosca o grosera, especialmente por falta de educación o refinamiento.',synonyms:['tosco','zafio','rústico']},
+ palude:{definition:'Pantano o terreno bajo cubierto de agua.',synonyms:['pantano','ciénaga']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

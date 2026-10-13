@@ -1,0 +1,1 @@
+(()=>{const ids=new Set(['pelagatos','pelibando','pelitrich','pelvian','pen-2','pen-3','pen-4','pen-5','pen-6','penalty-2','penant','pencil-2','pencil-case-2','peloponnesian-2','pelucana']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

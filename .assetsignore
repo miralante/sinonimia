@@ -1,0 +1,30 @@
+# Keep development files and repository metadata out of the public Worker.
+#
+# Without this the deploy fails with "Asset too large":
+#   - .git/objects/pack/*.pack is ~141 MiB, over the 25 MiB per-file limit;
+#   - scripts/download/*.jsonl are ~1.4 GiB and ~1.0 GiB (raw Wiktionary
+#     dumps used to regenerate the dictionary, never served).
+#
+# See wrangler.toml and CLOUDFLARE.md.
+.git/
+.dev/
+.claude/
+.github/
+.agents/
+.codex/
+.vscode/
+.wrangler/
+node_modules/
+graphify-out*/
+test-results/
+scripts/
+doc/
+
+# Screenshots kept at the repo root for the docs. This is deliberately NOT a
+# blanket "*.png": img/*.png are the dictionary pictograms the app loads at
+# runtime, and a global *.png excluded all 1,743 of them, so every one
+# answered 404 in production. The largest is 70 KB, far below Cloudflare's
+# 25 MB per-file limit, so there is no reason to exclude the folder.
+shot-*.png
+
+*.md

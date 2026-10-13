@@ -1,0 +1,13 @@
+(()=>{
+ const updates={
+  opulent:{definition:"Having or displaying great wealth; richly or lavishly provided or furnished.",synonyms:["wealthy","rich","affluent","lavish"],example:{word:"opulent",text:"The guests admired the opulent furnishings in the historic hotel."},exampleSynonym:{word:"lavish",text:"The guests admired the lavish furnishings in the historic hotel."}},
+  opulently:{definition:"In a wealthy, lavish, or richly furnished manner.",synonyms:["lavishly","richly","luxuriously"],example:{word:"opulently",text:"The reception room was opulently decorated for the ceremony."},exampleSynonym:{word:"lavishly",text:"The reception room was lavishly decorated for the ceremony."}},
+  oracle:{definition:"In ancient religions, a person or place believed to provide divine predictions or guidance; also, a prediction or authoritative source of wisdom.",synonyms:["prophet","shrine","prediction","source of wisdom"],example:{word:"oracle",text:"Travelers came to the oracle to seek guidance about the future."},exampleSynonym:{word:"prophet",text:"Travelers came to the prophet to seek guidance about the future."}},
+  oral:{definition:"Spoken rather than written; of, given through, or involving the mouth.",synonyms:["spoken","verbal","by mouth"],example:{word:"oral",text:"Each student gave an oral presentation to the class."},exampleSynonym:{word:"spoken",text:"Each student gave a spoken presentation to the class."}},
+  orality:{definition:"The quality or characteristic of communication through speech rather than writing.",synonyms:["spoken communication","oral expression"],example:{word:"orality",text:"The study examines orality in communities with a strong storytelling tradition."},exampleSynonym:{word:"spoken communication",text:"The study examines spoken communication in communities with a strong storytelling tradition."}},
+  orange:{definition:"A round citrus fruit with a thick orange rind and juicy flesh; also, the tree that bears this fruit or a color between red and yellow.",synonyms:["citrus fruit","orange tree","orange color"],example:{word:"orange",text:"She peeled an orange and shared it with her friend."},exampleSynonym:{word:"citrus fruit",text:"She peeled a citrus fruit and shared it with her friend."}}
+ };
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const id of ['oral-view','oral-view-2','orange-2','orange-3']){if(!DICCIONARIOS.en.some(e=>e.id===id))throw Error('Missing en/'+id);}
+ DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!['oral-view','oral-view-2','orange-2','orange-3'].includes(e.id));
+})();

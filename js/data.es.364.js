@@ -1,0 +1,6 @@
+(()=>{const u={
+ enologo:{definition:'Especialista que asesora y dirige los procesos de elaboración del vino.',synonyms:['especialista en vinos','técnico vitivinícola'],example:{word:'enólogo',text:'El enólogo ajustó la fermentación para obtener un vino más aromático.'},exampleSynonym:{word:'especialista en vinos',text:'El especialista en vinos ajustó la fermentación para obtener un vino más aromático.'}},
+ enotecnia:{definition:'Conjunto de técnicas y conocimientos aplicados a la elaboración del vino.',synonyms:['técnica enológica','elaboración del vino'],example:{word:'enotecnia',text:'Estudió enotecnia para trabajar en una bodega.'},exampleSynonym:{word:'técnica enológica',text:'Estudió técnica enológica para trabajar en una bodega.'}},
+ ennoblecedor:{definition:'Que ennoblece, honra o eleva la dignidad de alguien o algo.',synonyms:['dignificante','honroso','enaltecedor'],example:{word:'ennoblecedor',text:'Su gesto ennoblecedor conmovió a todos.'},exampleSynonym:{word:'enaltecedor',text:'Su gesto enaltecedor conmovió a todos.'}}
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+(()=>{const ids=new Set(['enodrido','enojada','enorfanecido']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

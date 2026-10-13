@@ -1,0 +1,21 @@
+(()=>{const u={
+  montadura:{definition:'Acción y efecto de montar; conjunto de piezas o estructura en que se sostiene algo.',synonyms:['montaje','ensamblaje']},
+  montambanco:{definition:'Charlatán que antiguamente anunciaba sus mercancías o remedios subido a un banco; saltimbanqui.',synonyms:['charlatán','saltimbanqui','embaucador']},
+  montanear:{definition:'Dicho del ganado porcino: pastar bellotas o hayucos en montes o dehesas.',synonyms:['pastar bellotas','aprovechar la montanera']},
+  montanera:{definition:'Época y práctica de engorde del ganado porcino en montes y dehesas, donde se alimenta de bellotas y otros frutos.',synonyms:['engorde en dehesa','pastoreo de bellotas']},
+  montanero:{definition:'Guarda o encargado de un monte, bosque o dehesa.',synonyms:['guarda forestal','guardamonte']},
+  montanes:{definition:'Perteneciente o relativo a la montaña; también, natural de una región montañosa.',synonyms:['montañés','serrano','de montaña']},
+  montanesismo:{definition:'Conjunto de costumbres y modo de vida propios de los habitantes de las montañas.',synonyms:['vida montañesa','costumbres serranas']},
+  montanismo:{definition:'Doctrina cristiana de los montanistas, movimiento religioso de los siglos II y III asociado a Montano.',synonyms:['montanismo cristiano','doctrina montanista']},
+  montanoso:{synonyms:['accidentado','montañoso','abundante en montañas']},
+  montantear:{definition:'En esgrima, manejar o combatir con un montante.',synonyms:['esgrimir el montante','combatir con montante']},
+  montantero:{definition:'Persona que combatía con un montante, espada grande de dos manos.',synonyms:['espadachín','combatiente con montante']},
+  montaplatos:{definition:'Pequeño elevador para transportar platos, comida u otros objetos entre plantas de un edificio.',synonyms:['elevador de platos','montaplatos']},
+  montaraz:{definition:'Criado o habituado en el monte; también, rústico o poco sociable.',synonyms:['silvestre','agreste','huraño']},
+  montaraza:{definition:'Mujer que guarda o administra montes o heredades.',synonyms:['guardesa','guardamontes']},
+  montazal:{definition:'Terreno cubierto de vegetación silvestre y densa, como zarzas y matorrales.',synonyms:['matorral','monte bajo','malezal']},
+  montazgar:{definition:'Cobrar el montazgo, tributo antiguo por el tránsito o aprovechamiento de los montes.',synonyms:['cobrar el montazgo']},
+  monte:{definition:'Elevación considerable del terreno; también, terreno poblado de árboles o matorrales.',synonyms:['montaña','cerro','bosque']},
+  monteador:{definition:'Persona que montea, es decir, que caza o acosa animales en el monte.',synonyms:['cazador de monte','montero']},
+  monteleva:{definition:'En la pesca del atún, red o arte de pesca que se dispone cuando pasan los atunes; voz regional.',synonyms:['arte de pesca atunera','red atunera']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}const ids=new Set(['montantada']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

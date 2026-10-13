@@ -1,0 +1,21 @@
+(()=>{const u={
+  modorrillo:{definition:'Antigua vasija de barro, de forma o uso particular; voz histórica.',synonyms:['vasija antigua','recipiente de barro']},
+  modosidad:{definition:'Cualidad de modoso: recato y compostura en el comportamiento.',synonyms:['recato','compostura','mesura']},
+  'modo-silencio':{definition:'Configuración que silencia los avisos sonoros de un teléfono o dispositivo.',synonyms:['modo silencioso','silencio']},
+  modoso:{synonyms:['recatado','compuesto','mesurado']},
+  modrego:{definition:'Persona torpe o poco despierta; uso coloquial y regional.',synonyms:['torpe','lerdo']},
+  modulador:{definition:'Que modula; en telecomunicaciones, dispositivo o circuito que modifica una señal portadora para transmitir información.',synonyms:['dispositivo modulador','modem (en ciertos aparatos)']},
+  modular:{definition:'Variar la intensidad, el tono o las características de algo; en telecomunicaciones, modificar una señal para transmitir información. Como adjetivo, compuesto de módulos.',synonyms:['regular','graduar','modular por módulos']},
+  moduloso:{synonyms:['cadencioso','armonioso','melódico']},
+  modurria:{definition:'Somnolencia pesada o modorra; uso coloquial y regional.',synonyms:['modorra','sopor']},
+  moer:{definition:'Moler; forma antigua o dialectal.',synonyms:['moler','triturar']},
+  mofa:{synonyms:['burla','escarnio','befa']},
+  mofador:{definition:'Que se burla de alguien o algo.',synonyms:['burlón','escarnecedor']},
+  mofadura:{definition:'Desgaste o pérdida de brillo de una superficie por el uso o la fricción.',synonyms:['desgaste','deslustre']},
+  mofar:{definition:'Burlarse de alguien o de algo.',synonyms:['burlarse','escarnecer']},
+  mofeta:{definition:'Mamífero carnívoro americano que expulsa una secreción de olor muy desagradable como defensa.',synonyms:['zorrillo','mapurite','skunk']},
+  moflete:{definition:'Carrillo muy grueso y carnoso, como si estuviera hinchado.',synonyms:['cachete','carrillo']},
+  mofletudo:{synonyms:['cachetón','de mofletes abultados']},
+  moflir:{definition:'Comer llenándose mucho la boca, de modo que se abultan las mejillas; voz coloquial.',synonyms:['comer con la boca llena','atiborrarse']},
+  mogataz:{definition:'Soldado indígena musulmán que antiguamente servía a España en sus plazas del norte de África; voz histórica.',synonyms:['soldado mogataz','auxiliar norteafricano']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}const ids=new Set(['moflearse']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

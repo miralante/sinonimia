@@ -1,0 +1,2 @@
+(()=>{const ids=new Set(['respectful-2','respectful-3','respectful-4']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();
+(()=>{const u={'respect-2':{definition:'To take account of and show due regard for someone’s rights, feelings, wishes, or a rule or requirement.',synonyms:['consider','honor','observe','heed']}};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();

@@ -1,0 +1,1 @@
+(()=>{for(const id of ['mining','minimum','kitty','minister','meticulously','minutely','minuscule','viewpoint','voyeur','peeping-tom']){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}})();

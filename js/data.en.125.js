@@ -1,0 +1,1 @@
+(()=>{for(const id of ['myth','mythology','snot','mucus','modernity','modern','modesty','moses','bassinet','wet']){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}})();

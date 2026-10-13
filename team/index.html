@@ -6,17 +6,17 @@
   <title data-i18n="pageTitle">Sinonimia — Quiénes la hacen</title>
   <meta name="robots" content="noindex, nofollow">
   <meta name="description" data-i18n="pageDescription" content="Quién mantiene Sinonimia y cómo contribuir al proyecto.">
-  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/styles.css?v=sinonimia-v4a">
+  <link rel="stylesheet" href="../css/locale-picker.css?v=sinonimia-v6aa">
   <script src="strings.es.js"></script>
 </head>
 <body>
   <div class="container about">
     <header class="cabecera-about">
-      <div class="idioma-selector" role="group" aria-label="Elegir idioma">
-        <button type="button" class="btn-lang" data-locale-switch="es" aria-pressed="false">🇪🇸 Español</button>
-        <button type="button" class="btn-lang" data-locale-switch="en" aria-pressed="false">🇬🇧 English</button>
+      <div class="suite-controls">
+        <div id="locale-picker"></div>
       </div>
-      <img src="../img/logo.svg" alt="" width="80" height="80" class="logo-about">
+      <img src="../img/logo.svg?v=sinonimia-v7591a68c" alt="" width="80" height="80" class="logo-about">
       <h1>Sinonimia</h1>
       <p class="lema" data-i18n="tagline">Sinonimia es un diccionario en lectura fácil para palabras difíciles. Software libre (MIT), mantenido por la comunidad Apptonomia. Aquí explicamos quién hay detrás y cómo ayudar.</p>
     </header>
@@ -41,5 +41,10 @@
   </div>
 
   <script src="../js/team-page-lang.js?v=1"></script>
+<!-- Controles compartidos con la pantalla principal: el desplegable de idioma
+     y el ⚙️ de la cabecera, con su cajón de accesibilidad. Mismo ?v= que la
+     portada, para que las dos páginas compartan la copia en caché. -->
+<script src="../js/locale-picker-config.js?v=1ab"></script>
+<script src="../js/locale-picker.js?v=sinonimia-v6aaa" defer></script>
 </body>
 </html>

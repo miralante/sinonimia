@@ -1,0 +1,21 @@
+(()=>{const u={
+  monaquismo:{definition:'Vida, condición o conjunto de prácticas propias de los monjes; monacato.',synonyms:['monacato','vida monástica']},
+  monarquicamente:{definition:'De manera monárquica o conforme a una monarquía.',synonyms:['según la monarquía','monárquicamente']},
+  monarquico:{synonyms:['relativo a la monarquía','realista']},
+  monarquismo:{definition:'Doctrina o actitud favorable a la monarquía como forma de gobierno.',synonyms:['monarquismo','realismo']},
+  monasterial:{definition:'Perteneciente o relativo a un monasterio.',synonyms:['monástico','monacal']},
+  monasterio:{definition:'Casa o conjunto de edificios donde vive una comunidad de monjes o monjas bajo una regla religiosa.',synonyms:['convento','abadía','cenobio']},
+  monasticamente:{definition:'De manera monástica o conforme a las reglas de la vida monástica.',synonyms:['monacalmente','según la regla monástica']},
+  monastico:{synonyms:['monacal','relativo al monasterio']},
+  monda:{definition:'Acción y efecto de mondar; cáscara o piel que se quita al mondar.',synonyms:['mondadura','peladura']},
+  mondaderas:{definition:'Instrumentos de madera usados para mondar o limpiar la tierra; voz regional y poco frecuente.',synonyms:['herramienta agrícola','instrumento de mondar']},
+  mondadientes:{synonyms:['palillo','escarbadientes']},
+  mondador:{definition:'Que monda o limpia algo quitándole la parte superflua.',synonyms:['pelador','limpiador']},
+  mondadura:{definition:'Acción y efecto de mondar; piel o cáscara que se quita.',synonyms:['peladura','monda']},
+  mondaoidos:{definition:'Instrumento pequeño, generalmente una cucharilla, usado antiguamente para limpiar los oídos.',synonyms:['mondaorejas','limpiador de oídos']},
+  mondaorejas:{synonyms:['mondaoídos','limpiador de oídos']},
+  mondapozos:{definition:'Persona que limpia o desazolve pozos.',synonyms:['pocero','limpiador de pozos']},
+  mondar:{definition:'Quitar la cáscara, piel o parte superflua de algo; limpiar o purificar.',synonyms:['pelar','descortezar','limpiar']},
+  mondarajas:{definition:'Mondaduras, especialmente las de patatas y frutas; voz coloquial que se usa en plural.',synonyms:['peladuras','mondaduras','cáscaras']},
+  mondejo:{definition:'Relleno preparado con la panza o las tripas de cerdo o carnero; voz regional.',synonyms:['embutido de tripas','relleno']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}const ids=new Set(['moncheta']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

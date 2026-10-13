@@ -1,0 +1,9 @@
+(()=>{const ids=new Set(['proclaim-2','proclamation-2','proclamation-3','proclysis','procorded','prodigy-2','producer-2','productivity-2']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();
+(()=>{const u={
+ proclamation:{definition:'A formal public or official announcement, especially one issued by a government or authority.',synonyms:['official announcement','declaration','public notice'],example:{word:'proclamation',text:'The mayor issued a proclamation declaring a day of mourning.'},exampleSynonym:{word:'official announcement',text:'The mayor issued an official announcement declaring a day of mourning.'}},
+ proctoscope:{definition:'A medical instrument used to examine the rectum and lower part of the colon.',synonyms:['rectoscope','rectal endoscope','proctoscopic instrument'],example:{word:'proctoscope',text:'The doctor used a proctoscope to examine the lower rectum.'},exampleSynonym:{word:'rectoscope',text:'The doctor used a rectoscope to examine the lower rectum.'}},
+ prodigious:{definition:'Remarkably great in size, amount, extent, or degree; also, extraordinary or amazing.',synonyms:['enormous','immense','extraordinary','astonishing'],example:{word:'prodigious',text:'The archive contains a prodigious number of handwritten letters.'},exampleSynonym:{word:'enormous',text:'The archive contains an enormous number of handwritten letters.'}},
+ proceleusmatic:{synonyms:['inciting','animating','metrical foot of four short syllables']},
+ producer:{synonyms:['maker','manufacturer','film or media producer','service provider']},
+ productivity:{synonyms:['output per unit of input','productive efficiency','work rate']}
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();

@@ -1,0 +1,1 @@
+(()=>{for(const id of ['offensive','officially','missive','writ','ogre','hear','buttonhole','god-willing','hopefully','smell']){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}})();

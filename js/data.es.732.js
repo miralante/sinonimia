@@ -1,0 +1,22 @@
+(()=>{const u={
+  morcena:{definition:'Morcella; voz antigua usada en Salamanca.',synonyms:['morcella','chispa (sentido antiguo)']},
+  morciguillo:{definition:'Pedazo pequeño de carne; voz regional.',synonyms:['trozo pequeño de carne','pedacito de carne']},
+  morcillero:{definition:'Persona que fabrica o vende morcillas.',synonyms:['fabricante de morcillas','vendedor de morcillas']},
+  morcillon:{definition:'Morcilla grande, hecha con el estómago o una tripa gruesa de cerdo, carnero u otro animal, rellena de sangre y condimentos.',synonyms:['morcilla grande','embutido de sangre']},
+  morcon:{definition:'Embutido grande de carne de cerdo, curado y preparado en una tripa gruesa.',synonyms:['embutido de cerdo','salchichón grueso']},
+  morcuero:{synonyms:['majano','montón de piedras','pila de piedras']},
+  mordacear:{definition:'En Argentina, ablandar y sobar el cuero con una mordaza.',synonyms:['sobar el cuero','ablandar cuero']},
+  mordacidad:{definition:'Cualidad de mordaz; agudeza hiriente o sarcástica.',synonyms:['sarcasmo','acritud','agudeza hiriente']},
+  mordaga:{definition:'Embriaguez o borrachera; uso coloquial y regional.',synonyms:['borrachera','ebriedad']},
+  mordante:{definition:'Que muerde, pica o produce una sensación de ardor.',synonyms:['picante','ardiente','mordaz']},
+  mordaz:{definition:'Que critica o censura con agudeza hiriente; también, que corroe o tiene efecto corrosivo.',synonyms:['sarcástico','acerbo','corrosivo']},
+  mordazmente:{synonyms:['con sarcasmo','de manera hiriente','acerbamente']},
+  mordedor:{synonyms:['que muerde','mordiente','dentellador']},
+  mordedura:{synonyms:['mordisco','dentellada']},
+  mordelon:{definition:'En Honduras y México, policía de tráfico que acepta sobornos; uso coloquial.',synonyms:['policía corrupto','agente sobornado','mordelón']},
+  mordente:{definition:'Sustancia que ayuda a fijar un colorante sobre una tela u otra superficie; también, en arte, material que prepara una superficie para el dorado.',synonyms:['fijador de tintes','mordiente']},
+  morder:{synonyms:['mordisquear','clavar los dientes','dentellear']},
+  mordicante:{definition:'Que muerde, pica o produce una sensación semejante a una mordedura.',synonyms:['picante','punzante']},
+  mordicar:{definition:'Morder ligeramente o a pequeños bocados.',synonyms:['mordisquear','dar pequeños mordiscos']},
+  mordicativo:{definition:'Que mordica o puede mordicar; que produce una sensación de mordedura o picor.',synonyms:['mordicante','picante']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

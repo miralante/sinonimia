@@ -1,0 +1,1 @@
+(()=>{const ids=new Set(['penibetic','peninsular','penitent-2','penitentiary-2','pennine','pennsylvanian','penny-2','pensel','pension-payment']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

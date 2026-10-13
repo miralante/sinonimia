@@ -1,0 +1,2 @@
+(()=>{const ids=new Set(['feeza']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();
+(()=>{const u={fedegar:{definition:'En Salamanca, bregar o amasar.',synonyms:['bregar','amasar']},federico:{definition:'Coloquial y regional, especialmente en Cuba: feo o muy feo; usado como adjetivo o sustantivo.',synonyms:['feo','muy feo','feodoro']}};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();

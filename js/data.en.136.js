@@ -1,0 +1,1 @@
+(()=>{for(const id of ['normality','nostalgia','nostalgic','notable','notoriety','nova','novelty','novel','novena','ninth']){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}})();

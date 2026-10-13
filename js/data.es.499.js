@@ -1,0 +1,2 @@
+(()=>{const ids=new Set(['fantesioso']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();
+(()=>{const u={fara:{definition:'En Colombia, zarigüeya o rabipelado, mamífero marsupial americano de cola prensil.',synonyms:['zarigüeya','rabipelado','chucha']}};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();

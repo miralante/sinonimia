@@ -1,0 +1,1 @@
+(()=>{for(const id of ['bawdiness','donation','obsessive','obstacle','obtain','obviously','occasionally','occasion','dusk','sundown']){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}})();

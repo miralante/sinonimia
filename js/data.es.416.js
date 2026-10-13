@@ -1,0 +1,26 @@
+(()=>{const ids=new Set();DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();
+(()=>{const u={
+ esparraguero:{definition:'Lugar donde crecen espárragos; también, persona que los cultiva o recolecta.',synonyms:['esparragal','cultivador de espárragos']},
+ esparraguera:{definition:'Lugar donde crecen espárragos; también, planta que los produce.',synonyms:['esparragal','planta de espárragos']},
+ esparramar:{definition:'Variante de desparramar: esparcir o dispersar algo que estaba reunido.',synonyms:['desparramar','esparcir','dispersar']},
+ esparrancarse:{definition:'Variante de espernancarse: abrir o separar mucho las piernas.',synonyms:['espernancarse','despatarrarse','espatarrarse']},
+ espartal:{definition:'Terreno donde crece el esparto o que está cubierto de esta planta.',synonyms:['espartizal','espartalera']},
+ esparteina:{definition:'Alcaloide que se encuentra en algunas especies de retama.',synonyms:['alcaloide de la retama','sparteine']},
+ esparteria:{synonyms:['oficio de espartero','fabricación de objetos de esparto']},
+ espartero:{definition:'Persona que fabrica o vende objetos hechos de esparto.',synonyms:['artesano del esparto','fabricante de objetos de esparto']},
+ espartilla:{definition:'Rollo manual de estera o esparto que sirve como escobilla para limpiar las caballerías.',synonyms:['escobilla de esparto','cepillo para caballerías']},
+ espartillo:{definition:'Nombre común de varias gramíneas de porte bajo y hojas finas que crecen en sabanas o pastizales; las especies varían según la región.',synonyms:['gramínea de sabana','pasto fino']},
+ espartizal:{synonyms:['espartal','terreno poblado de esparto']},
+ esparvar:{definition:'Amontonar o extender las mieses para que se sequen o se aireen; emparvar.',synonyms:['emparvar','amontonar mieses']},
+ esparvel:{definition:'Nombre regional de una red circular de pesca que se arroja a mano; en Aragón también se llama así al gavilán.',synonyms:['esparavel','red de lanzar','gavilán (Aragón)']},
+ esparver:{definition:'Nombre regional del gavilán, ave rapaz pequeña de la familia Accipitridae.',synonyms:['gavilán','esparvel']},
+ espasmar:{definition:'Antiguo. Provocar un espasmo; también, causar un enfriamiento repentino.',synonyms:['causar un espasmo','enfriar bruscamente']},
+ espasmodico:{definition:'Relativo a un espasmo o caracterizado por él; también, repentino e involuntario.',synonyms:['espástico (según el contexto)','convulsivo','involuntario']},
+ espasticidad:{synonyms:['hipertonía espástica','rigidez muscular','aumento del tono muscular']},
+ espata:{synonyms:['bráctea envolvente','bráctea floral']},
+ espatarrarse:{synonyms:['despatarrarse','abrir mucho las piernas','esparrancarse']},
+ espatico:{synonyms:['relativo al espato','espatado']},
+ espato:{definition:'Nombre de varios minerales de estructura cristalina y aspecto laminar o espático, como el espato calizo (calcita) y el espato flúor (fluorita).',synonyms:['espato calizo','espato flúor','mineral espático']},
+ espaturrar:{definition:'Aplastar algo hasta hacer que salga lo que contiene.',synonyms:['aplastar','estrujar','reventar']},
+ espaviento:{definition:'Variante de aspaviento: demostración exagerada de sorpresa, admiración o sentimiento.',synonyms:['aspaviento','gesto exagerado','ademán ostentoso']}
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();

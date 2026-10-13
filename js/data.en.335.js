@@ -1,0 +1,1 @@
+(()=>{const ids=new Set(['payagua','pay-it','payo','pay-off-2','payroll-2','payroll-3','payroll-account-2','payment-deferral-2','payment-2','payment-3']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

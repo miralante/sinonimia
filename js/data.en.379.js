@@ -1,0 +1,3 @@
+(()=>{const u={
+ perjurer:{definition:'A person who knowingly makes a false statement under oath.',synonyms:['one who commits perjury','false swearer'],example:{word:'perjurer',text:'The witness was convicted as a perjurer after the evidence emerged.'},exampleSynonym:{word:'one who commits perjury',text:'The witness was convicted as one who committed perjury after the evidence emerged.'}}
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}const ids=new Set(['perish-2','perjurer-2','perjury-2','perjury-3']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

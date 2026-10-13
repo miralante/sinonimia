@@ -1,0 +1,15 @@
+(()=>{
+ const updates={
+  overabundant:{definition:"Present in an excessive or unusually large amount.",synonyms:["excessive","superabundant","plentiful"],example:{word:"overabundant",text:"Overabundant rainfall flooded the low-lying fields."},exampleSynonym:{word:"excessive",text:"Excessive rainfall flooded the low-lying fields."}},
+  overabundantly:{definition:"In an excessive or unusually abundant amount.",synonyms:["excessively","superabundantly","plentifully"],example:{word:"overabundantly",text:"The plants were watered overabundantly and their roots began to rot."},exampleSynonym:{word:"excessively",text:"The plants were watered excessively and their roots began to rot."}},
+  overact:{definition:"To act with excessive theatricality or exaggeration; to make a situation or reaction seem more dramatic than it is.",synonyms:["overplay","exaggerate","ham it up"],example:{word:"overact",text:"The actor was told not to overact during the quiet scene."},exampleSynonym:{word:"overplay",text:"The actor was told not to overplay the quiet scene."}},
+  overacute:{definition:"Excessively acute, intense, or sharp; especially, unusually sensitive or perceptive.",synonyms:["excessively acute","overly sharp","hyperacute"],example:{word:"overacute",text:"His overacute hearing made the faint hum difficult to ignore."},exampleSynonym:{word:"overly sharp",text:"His overly sharp hearing made the faint hum difficult to ignore."}},
+  overadd:{definition:"To add too much or to add something excessively or repeatedly.",synonyms:["add excessively","overload","add too much"],example:{word:"overadd",text:"Be careful not to overadd salt to the soup."},exampleSynonym:{word:"add too much",text:"Be careful not to add too much salt to the soup."}},
+  "over-and-over":{definition:"Repeatedly; many times, often in the same way.",synonyms:["repeatedly","again and again","time and again"],example:{word:"over and over",text:"She listened to the song over and over during the trip."},exampleSynonym:{word:"repeatedly",text:"She listened to the song repeatedly during the trip."}},
+  "over-and-over-again":{definition:"Repeatedly or many times; again and again.",synonyms:["over and over","repeatedly","time and again"],example:{word:"over and over again",text:"He checked the address over and over again before sending the letter."},exampleSynonym:{word:"repeatedly",text:"He checked the address repeatedly before sending the letter."}},
+  overboard:{definition:"Over the side of a boat or ship and into the water; informally, excessively or too far.",synonyms:["into the water","over the side","too far (figurative)"],example:{word:"overboard",text:"The sailor fell overboard during the storm."},exampleSynonym:{word:"into the water",text:"The sailor fell into the water during the storm."}}
+ };
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ if(!DICCIONARIOS.en.some(e=>e.id==='overboard-2'))throw Error('Missing en/overboard-2');
+ DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>e.id!=='overboard-2');
+})();

@@ -1,0 +1,1 @@
+(()=>{for(const id of ['western','occidental','eighty','leisure','eighth','ocular','hate','hatred','odyssey','offense']){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}})();

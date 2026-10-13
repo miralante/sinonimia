@@ -1,0 +1,13 @@
+(()=>{
+ const updates={
+  orifice:{definition:"An opening or hole, especially one in the body or in a structure.",synonyms:["opening","aperture","body opening"],example:{word:"orifice",text:"The surgeon examined the small orifice in the tissue."},exampleSynonym:{word:"opening",text:"The surgeon examined the small opening in the tissue."}},
+  oriflamme:{definition:"The banner of Saint Denis, historically carried by French kings into battle; also, a vivid red or orange-red flag or banner.",synonyms:["war banner","bright red banner","banner of Saint Denis"],example:{word:"oriflamme",text:"The museum displayed a replica of the royal oriflamme."},exampleSynonym:{word:"war banner",text:"The museum displayed a replica of the royal war banner."}},
+  origami:{definition:"The art of folding paper into decorative or representational shapes.",synonyms:["paper folding","paper-folding art"],example:{word:"origami",text:"She made a paper crane using the Japanese art of origami."},exampleSynonym:{word:"paper folding",text:"She made a paper crane using the Japanese art of paper folding."}},
+  'origami-2':{definition:"Of or relating to origami, the art of folding paper into shapes.",synonyms:["related to origami","paper-folding"],example:{word:"origami",text:"The origami instructions showed each fold in a clear diagram."},exampleSynonym:{word:"paper-folding",text:"The paper-folding instructions showed each crease in a clear diagram."}},
+  origin:{definition:"The point, person, or source from which something begins, comes, or is derived; ancestry or provenance.",synonyms:["source","beginning","provenance","ancestry"],example:{word:"origin",text:"Researchers traced the origin of the manuscript to a monastery."},exampleSynonym:{word:"source",text:"Researchers traced the source of the manuscript to a monastery."}},
+  original:{definition:"Existing from the beginning or produced first; not copied or derived from something else. As a noun, the first or source version of something, or a work created by its author.",synonyms:["first","authentic","not copied","source version"],example:{word:"original",text:"The curator compared the reproduction with the original painting."},exampleSynonym:{word:"source version",text:"The curator compared the reproduction with the source version of the painting."}}
+ };
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const id of ['orientalizing','orifice-2','orifier','orify']){if(!DICCIONARIOS.en.some(e=>e.id===id))throw Error('Missing en/'+id);}
+ DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!['orientalizing','orifice-2','orifier','orify'].includes(e.id));
+})();

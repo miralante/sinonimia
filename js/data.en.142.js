@@ -1,0 +1,1 @@
+(()=>{for(const id of ['omnipresent','ngo','ounce','operate','opinion','opium','object','oppose','opportunity','opportune']){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}})();

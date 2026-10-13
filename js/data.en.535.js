@@ -1,0 +1,9 @@
+(()=>{const ids=new Set(['reduce-2','reduce-3','reducer-2','reducer-3','reducer-4','reducible-2','reduction-of-working-hours','reduction-of-working-hours-2']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();
+(()=>{const u={
+ reduce:{definition:'To make or become smaller in amount, size, degree, or intensity; to lower or diminish; also, to simplify or bring something to a lower level or condition.',synonyms:['decrease','lower','cut','diminish','simplify']},
+ reduced:{definition:'Made smaller, lower, or less in amount, size, degree, or intensity; also, lowered in price or status.',synonyms:['diminished','lowered','lessened','discounted']},
+ reducer:{definition:'A person, device, or substance that reduces something; especially, a fitting that joins pipes of different diameters or a chemical used to develop photographic images.',synonyms:['reducing agent','reduction fitting','diminisher']},
+ reducible:{definition:'Capable of being made smaller, simpler, or less in amount; in mathematics, capable of being expressed or factored into simpler components under a specified system.',synonyms:['capable of reduction','simplifiable','factorable']},
+ reduction:{definition:'The act, process, or result of making something smaller, lower, or less in amount, size, degree, or number; in specific fields, a chemical process, price decrease, or musical arrangement for fewer performers.',synonyms:['decrease','lowering','diminution','discount']},
+ redundancy:{definition:'Unnecessary repetition or excess; in UK employment, the loss of a job because an employer no longer needs the role.',synonyms:['repetition','surplus','job loss','layoff']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();

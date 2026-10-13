@@ -1,0 +1,1 @@
+(()=>{for(const id of ['moral','morally','mordacious','witty','moray-eel','moraine','dusky','swarthy','brunet','brown-haired']){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}})();

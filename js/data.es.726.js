@@ -1,0 +1,22 @@
+(()=>{const u={
+  monotonamente:{definition:'De manera monótona, uniforme o repetitiva.',synonyms:['monótonamente','repetidamente']},
+  monotonia:{definition:'Falta de variedad o diversidad; uniformidad que puede resultar aburrida.',synonyms:['uniformidad','repetición','tedio']},
+  monotono:{synonyms:['uniforme','repetitivo','tedioso']},
+  monovalente:{definition:'En química, dicho de un átomo o radical: que tiene valencia uno; en otros contextos, que puede combinarse con un solo valor.',synonyms:['univalente','de valencia uno']},
+  monovolumen:{definition:'Automóvil de carrocería alta y espacio interior integrado, en el que el habitáculo y el maletero forman un volumen continuo.',synonyms:['miniván','vehículo monovolumen']},
+  monoxilo:{definition:'Hecho de una sola pieza de madera; dicho especialmente de una embarcación excavada en un tronco.',synonyms:['de una pieza de madera','canoa monóxila']},
+  monra:{definition:'En Perú, Bolivia y Chile, robo cometido en una vivienda tras forzar la cerradura o entrar por una pared o abertura.',synonyms:['robo domiciliario con fuerza','asalto a vivienda']},
+  monse:{definition:'En Perú, aburrido o poco interesante; coloquial.',synonyms:['aburrido','soso','poco interesante']},
+  monsenor:{definition:'Tratamiento de cortesía que se da a ciertos prelados y dignatarios de la Iglesia católica.',synonyms:['título eclesiástico','tratamiento de cortesía']},
+  monserga:{synonyms:['discurso pesado','reprimenda','sermón']},
+  monstro:{definition:'Monstruo; variante antigua o poco usada.',synonyms:['monstruo','engendro']},
+  monstruosamente:{synonyms:['de modo monstruoso','de forma descomunal']},
+  monstruosidad:{definition:'Cualidad o condición de monstruoso; cosa extraordinariamente grande, deforme o terrible.',synonyms:['deformidad','aberración','atrocidad']},
+  monstruoso:{definition:'Que causa espanto por su deformidad, crueldad o tamaño; extraordinario por exceso.',synonyms:['deforme','enorme','atroz']},
+  montacargas:{definition:'Aparato elevador destinado principalmente a transportar mercancías o materiales entre distintos niveles.',synonyms:['elevador de carga','ascensor de carga','montacarga']},
+  montada:{definition:'Arco o pieza del freno de un caballo en la que encaja la lengua; también, forma femenina de «montado».',synonyms:['pieza del freno','bocado']},
+  montadero:{definition:'Poyo o asiento bajo que sirve para subirse a una caballería.',synonyms:['poyo para montar','estribo bajo']},
+  montadgo:{definition:'Montazgo: antiguo tributo por el tránsito o aprovechamiento de los montes; variante obsoleta.',synonyms:['montazgo','tributo de monte']},
+  montador:{definition:'Persona especializada en montar o ensamblar piezas, estructuras, cuadros o joyas.',synonyms:['ensamblador','instalador']},
+  montadora:{definition:'Mujer que monta o ensambla piezas, estructuras, cuadros o joyas; femenino de «montador».',synonyms:['ensambladora','instaladora']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

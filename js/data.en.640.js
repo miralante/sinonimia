@@ -1,0 +1,1 @@
+(()=>{const u={"saffron-3":{definition:'Of a yellow-orange color resembling the spice saffron.',synonyms:['yellow-orange','saffron-colored','saffron-coloured']}};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();

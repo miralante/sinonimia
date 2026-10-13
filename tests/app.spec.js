@@ -5,7 +5,7 @@ const { test, expect } = require('@playwright/test');
 // ---------------------------------------------------------------------------
 // Constants
 // ---------------------------------------------------------------------------
-const BASE = 'http://127.0.0.1:4174/';
+const BASE = `http://127.0.0.1:${process.env.PORT || 4174}/`;
 const NAV_TIMEOUT = 15000;
 const SETTLE_MS = 400; // DOM settle time after a view transition
 
@@ -28,7 +28,7 @@ async function openAppAtListView(browser) {
   _lastCtx = ctx;
   const page = await ctx.newPage();
   // Navigate directly to the hashed list view so the app initialises correctly.
-  await page.goto(BASE + '#/es/');
+  await page.goto(BASE + '#/es/', { waitUntil: 'domcontentloaded' });
   return page;
 }
 
@@ -43,26 +43,31 @@ async function waitForCards(page, timeout = 30000) {
   await page.waitForTimeout(SETTLE_MS);
 }
 
-/** Wait for the card count in the word-list to stabilise.
-    This is needed because the list renders in chunks of 100 — we must not
-    capture initialCount until the chunked renderer has finished or plateaued.
-    Polls until two consecutive reads (separated by 1s) return the same count. */
-async function waitForStableCardCount(page, timeout = 30000) {
-  await page.waitForFunction(
-    () => document.querySelectorAll('#word-list .card').length > 0,
-    { timeout }
-  );
-  // Poll until two consecutive reads 1s apart return the same count.
-  let prev = -1;
-  let curr = 0;
-  const start = Date.now();
-  while (Date.now() - start < timeout) {
-    curr = await page.evaluate(() => document.querySelectorAll('#word-list .card').length);
-    if (curr === prev && curr > 0) break;
-    prev = curr;
-    await page.waitForTimeout(1000);
-  }
-  return curr;
+/** Number of cards currently in the DOM.  The list is PAGINATED: only
+    PAGE_SIZE cards (60 in js/app.js) live in the DOM at a time and "show
+    more" appends the next page, so this is NOT the number of matches.  Use
+    readResultsInfo() when the question is "how many words matched?". */
+async function readCardCount(page) {
+  return page.locator('#word-list .card').count();
+}
+
+/** The text of #results-info, which carries the real number of matches
+    ("N palabras encontradas").  It is compared as a string on purpose:
+    parsing the number would make every test depend on the active language's
+    wording and on its thousands separator. */
+async function readResultsInfo(page) {
+  return ((await page.locator('#results-info').textContent()) || '').trim();
+}
+
+/** Type into the search box the way a person does.  The input is debounced
+    (150 ms in js/app.js), so callers still have to wait for the list to
+    react before asserting on it. */
+async function setSearch(page, value) {
+  await page.evaluate((text) => {
+    const el = document.getElementById('search');
+    el.value = text;
+    el.dispatchEvent(new Event('input', { bubbles: true }));
+  }, value);
 }
 
 /** Wait for the game view to be visible with at least one .game-option button.
@@ -180,44 +185,44 @@ test('3 — typing in search filters the word list', async ({ browser }) => {
   const page = await openAppAtListView(browser);
   await waitForCards(page);
 
-  // Wait for enough cards to load that we can detect filtering.
-  await page.waitForTimeout(3000);
-  const initialCount = await page.locator('#word-list .card').count();
+  // The list is PAGINATED (PAGE_SIZE cards in the DOM, "show more" appends the
+  // next page), so counting .card elements can never prove that a search
+  // narrowed anything: a term matching 63 000 entries still renders a full
+  // page, and 60 < 60 is false. #results-info holds the real number of
+  // matches, so that is what this test compares — plus a term with fewer
+  // matches than one page, which must visibly shrink the DOM.
+  const initialInfo = await readResultsInfo(page);
+  const initialCount = await readCardCount(page);
   expect(initialCount).toBeGreaterThan(1);
 
-  // Type 'a' using evaluate() to bypass Playwright's idle-detection wait.
-  await page.evaluate(() => {
-    const el = document.getElementById('search');
-    el.value = 'a';
-    el.dispatchEvent(new Event('input', { bubbles: true }));
-  });
-
-  // Poll until fewer cards are showing (filtering is working).
+  // 'cefalea' matches 2 entries: fewer than one page.
+  await setSearch(page, 'cefalea');
   await page.waitForFunction(
-    (minCount) => {
-      const cards = document.querySelectorAll('#word-list .card');
-      return cards.length < minCount ||
-        document.getElementById('no-results')?.classList.contains('hidden') === false;
-    },
+    (minCount) => document.querySelectorAll('#word-list .card').length < minCount,
     initialCount,
-    { timeout: 30000 }
-  ).catch(() => {}); // fallback: continue even if poll times out
+    { timeout: 15000 }
+  );
 
-  const filteredCount = await page.locator('#word-list .card').count();
-  const noResultsVisible = await page.locator('#no-results').isVisible().catch(() => false);
-  expect(filteredCount < initialCount || noResultsVisible).toBeTruthy();
+  const filteredCount = await readCardCount(page);
+  expect(filteredCount).toBeGreaterThan(0);
+  expect(filteredCount).toBeLessThan(initialCount);
+  expect(await readResultsInfo(page)).not.toBe(initialInfo);
+  // Every match already fits on screen, so there is no second page left.
+  await expect(page.locator('#show-more')).toBeHidden();
 
-  // Clear search — the list must restore to having many cards again.
-  await page.evaluate(() => {
-    const el = document.getElementById('search');
-    el.value = '';
-    el.dispatchEvent(new Event('input', { bubbles: true }));
-  });
-  await page.waitForTimeout(3000);
-  const restoredCount = await page.locator('#word-list .card').count();
-  // The restored count should be "substantial" — at least 50% of initial.
-  // We use a ratio rather than an exact count to handle chunked-rendering races.
-  expect(restoredCount).toBeGreaterThan(initialCount * 0.5);
+  // A term that matches nothing empties the list and offers the fallback.
+  await setSearch(page, 'xyzzyqwerty');
+  await expect(page.locator('#no-results')).toBeVisible({ timeout: 15000 });
+  expect(await readCardCount(page)).toBe(0);
+
+  // Clearing the box restores the full list.
+  await setSearch(page, '');
+  await page.waitForFunction(
+    (minCount) => document.querySelectorAll('#word-list .card').length >= minCount,
+    initialCount,
+    { timeout: 15000 }
+  );
+  expect(await readResultsInfo(page)).toBe(initialInfo);
 });
 
 test('3b — searching during initial list rendering cancels stale cards', async ({ browser }) => {
@@ -312,7 +317,8 @@ test('7 — topic filter buttons narrow the word list', async ({ browser }) => {
   const page = await openAppAtListView(browser);
   await waitForCards(page);
 
-  const initialCount = await page.locator('#word-list .card').count();
+  const initialInfo = await readResultsInfo(page);
+  const initialCount = await readCardCount(page);
   const filterBtn = page.locator('.filter-btn:not([data-tema="todos"])').first();
   const isFilterVisible = await filterBtn.isVisible().catch(() => false);
   if (!isFilterVisible) return; // No non-default filters — skip
@@ -320,8 +326,12 @@ test('7 — topic filter buttons narrow the word list', async ({ browser }) => {
   await filterBtn.click();
   await page.waitForTimeout(SETTLE_MS);
 
-  const filteredCount = await page.locator('#word-list .card').count();
+  // Same trap as the search test: a paginated list never renders more than one
+  // page, so "<=" cannot fail and proves nothing. The number of matches is
+  // the signal that actually moves when a topic filter is applied.
+  const filteredCount = await readCardCount(page);
   expect(filteredCount).toBeLessThanOrEqual(initialCount);
+  expect(await readResultsInfo(page)).not.toBe(initialInfo);
 });
 
 // ===========================================================================
@@ -516,12 +526,22 @@ test('16 — sentence game correct answer shows feedback', async ({ browser }) =
 // toggle: two paths to the same setting meant two different themes.
 // ===========================================================================
 
-/** Open the shared settings drawer from the header gear. */
+/* Open the shared settings drawer from the header gear.
+ *
+ * Idempotent on purpose. El ⚙️ es un conmutador: pulsarlo con el cajón ya
+ * abierto lo CIERRA. Antes el idioma vivía en la cabecera y el cajón solo
+ * se abría para ajustes, así que "abrir" y "cerrar" nunca se confundían.
+ * Ahora el idioma es la primera fila del cajón y cualquier prueba que
+ * cambie el idioma deja el cajón abierto —en la 404 la página se repinta
+ * sin recargar, así que no se cierra solo—, y el siguiente
+ * openSettingsDrawer() lo cerraba de paso y la aserción siguiente fallaba
+ * por un motivo que no tenía nada que ver con lo que probaba. */
 async function openSettingsDrawer(page) {
+  const drawer = page.locator('#accessibility-settings');
+  if (await drawer.isVisible().catch(() => false)) return drawer;
   const trigger = page.locator('.locale-settings-trigger');
   await expect(trigger).toBeVisible();
   await trigger.click();
-  const drawer = page.locator('#accessibility-settings');
   await expect(drawer).toBeVisible();
   return drawer;
 }
@@ -538,15 +558,88 @@ function savedSettings(page) {
     JSON.parse(localStorage.getItem('sinonimia-idioma:accessibility') || 'null'));
 }
 
+/* The static template pages (about/, config/, legal/) ship their ES/EN text
+   as paired `[data-lang-block]` blocks instead of i18n tables, so they have
+   no `App.i18n` for the shared dropdown to talk to. It announces the change
+   through `window.LocalePicker.onChange`, which about.js registers. Without
+   that bridge the dropdown wrote the locale to localStorage and nothing
+   else: it looked alive, and the page never changed language.
+   This walks all four so a future page cannot silently ship the dead one. */
+const STATIC_LANG_PAGES = [
+  'about/index.html',
+  'config/index.html',
+  'legal/index.html',
+  'legal/privacidad.html',
+];
+
+for (const path of STATIC_LANG_PAGES) {
+  test(`el desplegable cambia el idioma en ${path}`, async ({ browser }) => {
+    const context = await browser.newContext();
+    _lastCtx = context;
+    const page = await context.newPage();
+    try {
+      await page.goto(BASE + path);
+      await expect(page.locator('body')).toBeVisible();
+
+      // The only language control is the shared one, and no two-button
+      // switcher is left behind on any of these pages.
+      await expect(page.locator('.idioma-btn')).toHaveCount(0);
+      await expect(page.locator('#locale-picker .locale-picker-btn')).toHaveCount(1);
+      // It lives INSIDE the ⚙️ drawer (`languageInDrawer` in this app's
+      // locale-picker-config.js), so with the drawer closed the button is
+      // in the DOM but not on screen: `toBeVisible()` would fail here and
+      // the click below would wait on a hidden element until it times out.
+      const drawer = await openSettingsDrawer(page);
+      const dropdown = drawer.locator('.locale-picker-btn');
+      await expect(dropdown).toBeVisible();
+
+      const before = (await page.locator('main').innerText()).replace(/\s+/g, ' ');
+
+      // Click the language it is NOT already in: with a fresh context the
+      // page follows the browser language, so which option that is depends
+      // on the environment and guessing it made this test lie.
+      const current = (await dropdown.locator('.locale-picker-current').textContent()).trim().toLowerCase();
+      const chosen = current === 'en' ? 'es' : 'en';
+      await dropdown.click();
+      await drawer.locator(`.locale-picker-panel li[data-locale="${chosen}"]`).click();
+      await page.waitForTimeout(400);
+
+      const after = (await page.locator('main').innerText()).replace(/\s+/g, ' ');
+      expect(after).not.toBe(before);
+      await expect(page.locator('html')).toHaveAttribute('data-lang', chosen);
+      // `lang` too, or a screen reader announces the language the page is
+      // no longer written in (these pages never load js/i18n.js).
+      await expect(page.locator('html')).toHaveAttribute('lang', chosen);
+
+      // Only one language on screen: the other block must be hidden.
+      const otherBlocks = await page
+        .locator(`[data-lang-block="${chosen === 'es' ? 'en' : 'es'}"]`)
+        .evaluateAll((nodes) => nodes.filter((n) => n.offsetParent !== null).length);
+      expect(otherBlocks).toBe(0);
+    } finally {
+      await context.close();
+    }
+  });
+}
+
 test('17a — the header exposes one settings control, not duplicated ones', async ({ browser }) => {
   const page = await openAppAtListView(browser);
   await expect(page.locator('body')).toBeVisible();
 
-  // Exactly one gear in the header, and the language picker lives in the
-  // drawer (the header copy is emptied on purpose).
+  // Exactly one gear in the header, and the language dropdown inside its
+  // drawer as the first row — not a second control in the header next to
+  // it, and not a second copy of it either.
   await expect(page.locator('.locale-settings-trigger')).toHaveCount(1);
-  await expect(page.locator('#locale-picker')).toHaveAttribute('data-empty', 'true');
-  await expect(page.locator('#locale-picker .locale-picker-btn')).toHaveCount(0);
+  await expect(page.locator('#locale-picker .locale-picker-btn')).toHaveCount(1);
+  await expect(page.locator('#accessibility-settings .locale-picker-btn')).toHaveCount(1);
+  // The gear is the rightmost control of the header row, i.e. top right.
+  const gearAfterPicker = await page.evaluate(() => {
+    const picker = document.getElementById('locale-picker');
+    const gear = document.querySelector('.locale-settings-trigger');
+    const drawer = document.getElementById('accessibility-settings');
+    return !!gear && gear.parentNode.lastElementChild === gear && drawer.contains(picker);
+  });
+  expect(gearAfterPicker).toBe(true);
 
   // The old per-app controls must be gone for good: they wrote the same
   // font-size and the same theme by a second route.
@@ -624,12 +717,13 @@ test('17e — high contrast in the drawer switches the page to the contrast them
     .toBe(false);
   expect((await savedSettings(page)).contrast).toBe(true);
 
-  // Off: back to "auto", which means no data-theme at all so that
-  // prefers-color-scheme decides.
+  // Off: back to the saved theme, which is "light" when nobody has
+  // chosen one. Before, turning contrast off restored "auto", which
+  // left the attribute off and handed the decision to the system.
   await contrast.uncheck();
   await page.waitForTimeout(SETTLE_MS);
   expect(await page.evaluate(() =>
-    document.documentElement.hasAttribute('data-theme'))).toBe(false);
+    document.documentElement.getAttribute('data-theme'))).toBe('light');
   expect(await page.evaluate(() =>
     document.documentElement.getAttribute('data-a11y-contrast'))).toBe('normal');
 });
@@ -688,10 +782,11 @@ test('17h — the 404 page uses the same settings drawer and repaints in place',
   await expect(page.locator('.error-404-encabezado'))
     .toHaveText('No hemos encontrado esa página');
 
-  const drawer = await openSettingsDrawer(page);
-  // The language picker lives inside the drawer, as everywhere else.
-  await drawer.locator('.locale-picker-btn').click();
-  await drawer.locator('.locale-picker-panel li[data-locale="en"]').click();
+  // The language dropdown is the drawer's first row, so the gear has to be
+  // opened to change the language.
+  const languageDrawer = await openSettingsDrawer(page);
+  await languageDrawer.locator('.locale-picker-btn').click();
+  await languageDrawer.locator('.locale-picker-panel li[data-locale="en"]').click();
 
   // The 404 has no hash to route, so the page repaints where it is
   // instead of jumping into the app.
@@ -702,10 +797,11 @@ test('17h — the 404 page uses the same settings drawer and repaints in place',
   await expect(page.locator('#error-404-inicio'))
     .toHaveAttribute('href', '#/en/');
 
-  // And the reading settings work here too, from the same key. The drawer
-  // is still open from the language switch, and its backdrop covers the
-  // page, so talk to it directly instead of clicking the gear again.
-  await page.locator('[data-settings-contrast]').check();
+  // And the reading settings work here too, from the same key. The 404
+  // repaints in place instead of reloading, so the drawer is still open
+  // from the language switch; openSettingsDrawer() leaves it alone.
+  const drawer = await openSettingsDrawer(page);
+  await drawer.locator('[data-settings-contrast]').check();
   expect(await page.evaluate(() =>
     document.documentElement.getAttribute('data-theme'))).toBe('contrast');
 });
@@ -735,28 +831,29 @@ test('21 — the saved-words counter shows a number after saving words', async (
 // LANGUAGE SWITCH
 // ===========================================================================
 
-test('22 — clicking the language button switches the current language',
+test('22 — the language dropdown inside the ⚙️ switches English and Spanish',
   async ({ browser }) => {
     const page = await openAppAtListView(browser);
-    await waitForCards(page);
+    // The dropdown is the drawer's first row, so the gear opens it once and
+    // it stays open for both switches.
+    const drawer = await openSettingsDrawer(page);
+    const picker = drawer.locator('.locale-picker-btn');
+    const options = drawer.locator('.locale-picker-panel');
+    await picker.click();
+    await options.locator('li[data-locale="en"]').click();
 
-    // Get the non-default language button (English).
-    const enBtn = page.locator('.lang-btn[data-lang="en"]');
-    const enVisible = await enBtn.isVisible().catch(() => false);
-    if (!enVisible) return; // English not available — skip.
+    // The hash and stored preference change synchronously, while Sinonimia
+    // may still be loading the very large English index in the background.
+    expect(await page.evaluate(() => localStorage.getItem('sinonimia-idioma'))).toBe('en');
+    expect(page.url()).toContain('#/en/');
+    await expect(picker.locator('.locale-picker-current')).toHaveText('EN');
 
-    const esBtn = page.locator('.lang-btn[data-lang="es"]');
-    await esBtn.click();
-    await page.waitForTimeout(SETTLE_MS);
-
-    // Switch to English.
-    await enBtn.click();
-    await page.waitForTimeout(SETTLE_MS);
-
-    // After switching, the app should still be showing the list.
-    const listView = page.locator('#list-view');
-  await expect(listView).toBeVisible();
-});
+    await picker.click();
+    await options.locator('li[data-locale="es"]').click();
+    expect(await page.evaluate(() => localStorage.getItem('sinonimia-idioma'))).toBe('es');
+    expect(page.url()).toContain('#/es/');
+    await expect(picker.locator('.locale-picker-current')).toHaveText('ES');
+  });
 
 test('22b — unsupported browser language falls back to English', async ({ browser }) => {
   const context = await browser.newContext({ locale: 'fr-FR' });
@@ -764,11 +861,10 @@ test('22b — unsupported browser language falls back to English', async ({ brow
   try {
     await page.addInitScript(() => localStorage.clear());
     await page.goto(BASE);
-    // The language indicator is not in the header any more: the picker
-    // lives inside the settings drawer, so open it to read it.
-    await page.locator('.locale-settings-trigger').click();
-    await expect(page.locator('#accessibility-settings')).toBeVisible();
-    expect(await page.locator('.locale-picker-current').textContent()).toBe('EN');
+    // The language indicator is the drawer's first row, so the drawer has
+    // to be open to read it.
+    const drawer = await openSettingsDrawer(page);
+    await expect(drawer.locator('#locale-picker .locale-picker-current')).toHaveText('EN');
     expect((await page.locator('html').getAttribute('lang') || '').slice(0, 2)).toBe('en');
   } finally {
     await context.close();

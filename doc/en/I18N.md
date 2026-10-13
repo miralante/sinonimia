@@ -149,7 +149,9 @@ Two additions, in this order (the manifest and loader must run before
    `js/dictionary-loader.js` loads every manifest entry before `app.js`, so
    pages do not gain one hardcoded script tag per shard. If a shard nears the
    host's per-file limit, split it and add the new file to the manifest.
-2. Inside the `.idioma-selector` block, add a button:
+2. The language is no longer added with a button: the page mounts the shared
+   dropdown in `<div id="locale-picker"></div>` and declares the languages in
+   its `locale-picker-config.js`.
    `<button type="button" class="idioma-btn" data-lang="<code>" aria-pressed="false"><FLAG/NATIVE LABEL></button>`.
    - The button label is the **endonym** (the language's name for
      itself), not "Catalan" or "Spanish" — `Català`, `Español`,

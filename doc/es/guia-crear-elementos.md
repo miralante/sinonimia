@@ -63,7 +63,9 @@ Cada entrada sigue el esquema definido en [`tecnico.md`](tecnico.md)
 Campos opcionales:
 
 - `traduccion` — equivalente(s) más cercano(s) en otro idioma (se
-  permite uno-a-muchos).
+  permite uno-a-muchos). Al existir la voz equivalente en el otro
+  diccionario, enlaza ambos registros con `traduccion`; si falta el enlace
+  recíproco, complétalo también.
 - `notas` — notas internas, no se muestran a quien lee.
 
 ### 2.3 La regla "la palabra debe ser difícil en su propio idioma"
@@ -74,6 +76,12 @@ palabra por palabra** entre diccionarios: cada idioma elige las
 palabras que son genuinamente difíciles **en ese idioma**. Un
 término burocrático español sin equivalente inglés (y al revés) es
 un caso normal y esperado.
+
+Al añadir una voz, consulta también el diccionario del otro idioma. Si ya
+contiene una voz equivalente, añade el enlace `traduccion` en la entrada nueva
+y en la existente, para que la relación funcione en ambos sentidos. Si la voz
+equivalente aún no tiene entrada, créala solo si también es difícil por sí
+misma en ese idioma; no fuerces una traducción literal.
 
 ### 2.4 Las reglas de lectura fácil aplican a cada entrada
 
@@ -106,7 +114,7 @@ Antes de escribir una entrada hace falta una palabra candidata real.
 Esta sección explica dónde buscarlas, qué aporta cada fuente y qué
 criterios debe cumplir una palabra para aceptarse. **Una fuente solo
 propone palabras: nunca decide por sí sola que una palabra merece una
-entrada** — eso siempre es criterio humano.
+entrada** — eso siempre requiere criterio editorial, que puede aplicar una persona o un agente de IA.
 
 Para no duplicar palabra, sinónimo ni escenario de ejemplo, consulta
 primero lo que ya existe en la categoría que te interesa:
@@ -132,16 +140,51 @@ No abras `js/data.{idioma}.js` directamente: son archivos muy grandes.
 
 ### 3.2 Criterios para aceptar una palabra
 
+**Comprobación léxica obligatoria por idioma:** tras comprobar que la
+palabra aún no existe como entrada propia en Sinonimia, valida cada
+candidata nueva en el diccionario externo correspondiente: [RAE/DLE](https://dle.rae.es/)
+para `es` o [Collins English
+Dictionary](https://www.collinsdictionary.com/dictionary/english) para
+`en`, pasando la palabra en la ruta
+`https://www.collinsdictionary.com/dictionary/english/<word>`. Confirma
+que existe el lema o una variante reconocida y que la acepción
+corresponde al uso propuesto. Es un requisito para aceptar la palabra en la ingesta, no
+una consulta opcional ni una simple ayuda de redacción. Si no aparece
+una entrada verificable, descártala; solo vuelve a evaluarla si
+corriges la forma y obtienes una entrada comprobable. No copies la
+definición del diccionario externo.
+
+**Filtros excluyentes antes de aceptar la candidata:**
+
+- Descarta las palabras y acepciones que ya sean fáciles por sí mismas:
+  familiares, comunes, concretas y transparentes, o acciones básicas que
+  la persona destinataria probablemente ya entiende. Aplica este criterio
+  a candidatas de todas las fuentes, igual que los demás filtros. La
+  frecuencia es una señal para detectarlas, no el único criterio; una
+  palabra frecuente puede tener una acepción difícil que sí merece entrada.
+- Descarta las formas verbales conjugadas; conserva solo el infinitivo
+  correspondiente.
+- Descarta palabras inventadas o inválidas que no tengan una entrada
+  verificable en el DLE. Una errata solo puede volver a evaluarse tras
+  corregirla y confirmar la forma correcta en el diccionario.
+- Descarta los gentilicios, aunque aparezcan en el DLE.
+- No insertes una entrada con una definición errónea o que describa
+  otra acepción. Corrígela y vuelve a comprobarla; si no puede quedar
+  fiel a la acepción documentada, descarta la entrada.
+
 1. **Válida y real.** Documentada en uso actual; descarta arcaísmos, dialectalismos y préstamos raros.
-2. **Difícil de verdad.** Nada que la persona tipo ya entienda. La frecuencia orienta pero no decide por sí sola; CEFRLex/ELELex ayuda a descartar A1-A2, pero su ausencia no invalida una palabra técnica. Rechazo automático: sustantivos concretos cotidianos (mesa, pato), verbos de acción directa (comer, dormir) y vocabulario básico de adquisición temprana — ninguno necesita definición adaptada. En cambio, los conceptos abstractos o intangibles (leyenda, garantía) y las palabras con doble sentido o lenguaje figurado son buenas candidatas aunque su frecuencia general sea alta: esto aplica con cualquier método de la sección 3.3, no solo con el F (que lo detecta específicamente por acepción). En la ingesta masiva (método C), este rechazo automático lo aplica `scripts/ingest/pipeline/filters/common-words.js`, deliberadamente conservador — ver su cabecera.
-3. **Lema independiente.** Sin conjugaciones, plurales ni formas con pronombre enclítico que no tengan entrada propia.
-4. **Sin nombres propios.** Personas, apellidos, ciudades, países, marcas.
+2. **Difícil para la persona destinataria.** La candidata debe ser una palabra que probablemente no entienda por sí sola y necesite que Sinonimia le explique. Este criterio se aplica a todas las fuentes; la frecuencia y CEFRLex/ELELex aportan señales, pero la revisión editorial determina si la palabra y la acepción son realmente difíciles. Puede hacerla una persona o un agente de IA, con los mismos criterios. La ausencia de una palabra técnica en CEFRLex/ELELex no la invalida. Conserva términos abstractos o intangibles (como *leyenda* o *garantía*) y acepciones difíciles de palabras frecuentes, aunque la palabra tenga otros usos sencillos. Evalúa la dificultad de la palabra y de la acepción candidatas, no la facilidad de redactar su explicación. El filtro automático `scripts/ingest/pipeline/filters/common-words.js` ayuda en la ingesta masiva del método C; no limita el alcance del criterio editorial.
+3. **Lema independiente.** No admitas formas verbales conjugadas:
+   conserva solo el infinitivo. Descarta también plurales y formas con
+   pronombre enclítico que no tengan entrada propia.
+4. **Sin nombres propios ni gentilicios.** Personas, apellidos,
+   ciudades, países, marcas y nombres de sus habitantes o naturales.
 5. **La cobertura conceptual no invalida una forma léxica independiente.** No descartes una palabra solo porque expresa el mismo concepto que otra entrada. Si la persona tipo puede encontrarse esa palabra concreta en un documento real y todavía no tiene una entrada propia, puede ser candidata aunque ya aparezca como sinónimo o en un ejemplo. `Tetrapléjico` no debe desaparecer por existir `Cuadripléjico`: son formas léxicas que el usuario puede buscar literalmente. Decide caso por caso entre una entrada propia y un sinónimo; usa un sinónimo para una variante menor o una reformulación, pero crea entrada propia cuando la palabra independiente necesite su propia explicación, categoría, ejemplo o forma gramatical. El buscador de la app indexa `palabra`, definición y sinónimos (`matchesSearch` en `js/app.js`), pero que una búsqueda llegue a una entrada relacionada no significa que la palabra ya esté explicada con la claridad adecuada. Un segundo significado igual de difícil también es candidato legítimo — entrada nueva con su propio `id`/`situacion`/`definicion`, nunca una aclaración entre paréntesis en `palabra` (ver "Palabras con doble significado" en `SPEC.md`). Cuando se acepta una palabra, revisa todas sus acepciones difíciles, no solo la primera que aparezca. Por eso la minería automática descarta solo palabras cuyo lema ya es un `palabra` existente; las coincidencias que solo aparecen en sinónimos o ejemplos permanecen en la lista para revisión editorial.
 6. **Categoría: se asigna, no se filtra por ella.** Una palabra que cumple los criterios 1-5 se incorpora aunque hoy no exista una categoría AIVD que le encaje — no se rechaza ni se fuerza en la menos mala. Si ninguna encaja, ni siquiera `vida-diaria`, se propone una categoría nueva; no hace falta un grupo de candidatos parecidos, una sola palabra bien fundamentada basta. `vida-diaria` sigue siendo válido solo cuando de verdad es el mejor encaje, nunca el cajón donde meter lo que no tiene sitio. La decisión de crear la categoría es del mantenedor, pero la propuesta debe quedar explícita — nunca descartar la palabra en silencio. Los métodos de la sección 3.3 que usan una categoría para reducir una lista enorme (en particular E y F) son técnicas de *descubrimiento*, no el criterio de aceptación: que una palabra no aparezca en ninguna categoría cruzada no la descarta por dificultad, solo significa que esa técnica no la encontró. Y en dirección contraria: la etiqueta de categoría con la que una palabra *sí* aparezca en el método E o F (p. ej. una Categoría de Wikipedia o Wikcionario llamada "Derecho") es una pista de dónde buscar, nunca la `situacion` final — revisa cada candidata por sí misma primero (criterios 1-5) y decide su categoría después, con este mismo criterio 6, aunque acabe siendo distinta de la etiqueta que la trajo hasta aquí.
 7. **Escenario propio.** No reutilices el mismo contexto de ejemplo dentro de una categoría.
 8. **Longitud orientativa.** 4-12 letras como heurística inicial, no como regla absoluta.
 
-Ningún filtro sustituye la revisión humana. Las coincidencias por subcadena en filtros temáticos producen falsos positivos: compartir letras con una raíz jurídica no implica relación semántica.
+Ningún filtro sustituye la revisión editorial de una persona o un agente de IA. Las coincidencias por subcadena en filtros temáticos producen falsos positivos: compartir letras con una raíz jurídica no implica relación semántica.
 
 ### 3.3 Métodos de búsqueda
 
@@ -324,6 +367,8 @@ node scripts/check.js
       (`node scripts/search-pictogram.js`).
 - [ ] Sin duplicado de una entrada existente en el mismo idioma y
       tema.
+- [ ] Voz equivalente del otro idioma comprobada; cuando existe, ambas
+      entradas incluyen el enlace `traduccion` correspondiente.
 - [ ] `node scripts/check.js` pasa.
 
 ## 7. Ver también

@@ -1,0 +1,3 @@
+(()=>{const u={
+ encasquetar:{definition:'Encajar bien en la cabeza un sombrero, gorra o prenda semejante; también, imponer o meter a alguien una idea sin fundamento, hacerle oír palabras impertinentes, o arraigarse obstinadamente una idea.',synonyms:['calarse','poner en la cabeza','imponer','meter en la cabeza'],example:{word:'encasquetar',text:'El vendedor intentó encasquetarle una póliza que no necesitaba.'},exampleSynonym:{word:'imponer',text:'El vendedor intentó imponerle una póliza que no necesitaba.'}}
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();

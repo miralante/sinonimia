@@ -216,7 +216,16 @@ belongs to the in-flight work before adding new changes.
 2. Read the relevant sections and the affected code files.
 3. For UI, content, or activities, always check `SPEC.md` §3–§4 and
    `technical.md` §5.
-4. Closed project plan lives in `git log`. The canonical doc to use
+4. When adding a new dictionary term, first check for a duplicate in
+   Sinonimia, then validate every new candidate against RAE/DLE for
+   Spanish or Collins for English, as specified in
+   [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) /
+   [`CONTRIBUTING.md`](CONTRIBUTING.md). This is a required ingestion
+   gate: do not add a word without a verifiable dictionary entry.
+   Reject conjugated verb forms (keep only infinitives/base forms),
+   invented or invalid words, demonyms, and any entry whose definition
+   is inaccurate for the verified sense.
+5. Closed project plan lives in `git log`. The canonical doc to use
    depends on the topic, not on an external roadmap.
 
 #### A.2.3 Before finishing
@@ -407,4 +416,25 @@ and summarised in [`../apptonomia/CLAUDE.md` §B.6](../apptonomia/CLAUDE.md#b6-g
 `FAQPage` node, `llms.txt` existence, AI-crawler UA list). The
 canonical source for the policy is the metaproject's guide §7.
 
+## Asset version tokens (`?v=`) — never hand-edit these
 
+This project's `_headers` serves some assets as
+`Cache-Control: public, max-age=31536000, immutable`: one year, no
+revalidation. A changed asset only reaches a returning visitor if the
+URL referencing it changes, which is what `?v=` is for. The tokens used
+to be a hand-typed serial, so the same asset ended up with different
+tokens on different pages and a missed reference failed silently.
+
+The token is now a hash of the file's own bytes. Do not type one by hand:
+
+```bash
+node ../scripts/asset-tokens.js sinonimia           # rewrite
+node ../scripts/asset-tokens.js --check sinonimia   # verify
+```
+
+`scripts/check-version-bump.js` runs the check, so a stale token fails
+the pre-push gate with the exact value it expects. Which files are
+tokenised is read from this project's own `_headers` — see
+[../scripts/ASSET-TOKENS.md](../scripts/ASSET-TOKENS.md) for the
+per-project table and for why `*.js` also matches nested paths and why
+fonts are tokenised from CSS rather than from HTML.

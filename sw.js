@@ -26,11 +26,10 @@
    ============================================================ */
 importScripts('./js/dictionary-data.js');
 
-var VERSION = 'sinonimia-v236';
+var VERSION = 'sinonimia-v3054';
 
 var FILES = [
   './',
-  './index.html',
   './404.html',
   './manifest.json',
   './offline.html',
@@ -51,12 +50,12 @@ var FILES = [
   './js/bootstrap-i18n.js',
   './js/app.js',
   './img/logo.svg',
-  './about/index.html',
+  './about/',
   './about/about.js',
-  './legal/index.html',
+  './legal/',
   './legal/privacidad.html',
-  './team/index.html',
-  './config/index.html',
+  './team/',
+  './config/',
   './config/config.js'
 ];
 
@@ -64,16 +63,39 @@ var CACHE_NAME = 'sinonimia-' + VERSION;
 var DATA_CACHE = 'sinonimia-data';
 var IMG_CACHE = 'sinonimia-img';
 
+/* Cloudflare answers EVERY "/x.html" URL with a 307 to its extensionless form
+   (/index.html -> /, /404.html -> /404, /offline.html -> /offline,
+   /legal/privacidad.html -> /legal/privacidad). Following that redirect yields
+   a response with `redirected === true`, and the Cache API PRESERVES that flag
+   across a store/load round trip, so cache.add() silently poisons the entry
+   under its original key. Chrome refuses to hand such a response to a top-level
+   navigation ("Response served by service worker has redirections").
+
+   Rebuilding the response produces a brand-new object whose flag is false while
+   keeping body, status and headers. */
+function deRedirect(res) {
+  if (!res || !res.redirected) return res;
+  return new Response(res.body, {
+    status: res.status,
+    statusText: res.statusText,
+    headers: res.headers
+  });
+}
+
 self.addEventListener('install', function (event) {
   event.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
       // Put each file individually so one 404 on a future addition
       // does not abort the whole pre-cache pass — better to ship a
       // shell that's missing one entry than a shell that never
-      // installs.
+      // installs. Fetched by hand rather than cache.add() so the
+      // response can be de-redirected before it is stored.
       return Promise.all(
         FILES.map(function (url) {
-          return cache.add(url).catch(function (err) {
+          return fetch(new Request(url, { cache: 'reload' })).then(function (res) {
+            if (!res || !res.ok) throw new Error('HTTP ' + (res && res.status));
+            return cache.put(url, deRedirect(res));
+          }).catch(function (err) {
             // Surface the failing path in DevTools so an editor who
             // added a path that doesn't exist on disk sees the cause
             // immediately, instead of a silent "offline page" later.
@@ -131,25 +153,29 @@ self.addEventListener('fetch', function (event) {
 
   event.respondWith(
     caches.match(request).then(function (cached) {
-      if (cached) return cached;
+      // A hit can come from a precache written by an older worker.
+      if (cached) return deRedirect(cached);
       return fetch(request).then(function (response) {
         // Only cache successful basic responses — opaque / errored
         // responses are skipped so the cache stays a faithful mirror
         // of what the server actually said.
         if (response && response.status === 200 && response.type === 'basic') {
-          var copy = response.clone();
           caches.open(CACHE_NAME).then(function (cache) {
-            cache.put(request, copy);
+            cache.put(request, deRedirect(response.clone()));
           });
         }
-        return response;
+        return deRedirect(response);
       }).catch(function () {
         // No cache, no network — last resort is the offline page for
         // navigation requests. For sub-resources (CSS, JS, images)
         // we just propagate the failure so the browser surfaces a
         // standard network error.
         if (request.mode === 'navigate') {
-          return caches.match('./offline.html');
+          // This IS a navigation response: a poisoned entry here is
+          // exactly the reported failure. Sanitise it.
+          return caches.match('./offline.html').then(function (offline) {
+            return offline ? deRedirect(offline) : new Response('', { status: 504, statusText: 'Offline' });
+          });
         }
         return new Response('', { status: 504, statusText: 'Offline' });
       });
@@ -162,12 +188,12 @@ self.addEventListener('fetch', function (event) {
 function cachedResponse(request, cacheName) {
   return caches.open(cacheName).then(function (cache) {
     return cache.match(request).then(function (cached) {
-      if (cached) return cached;
+      if (cached) return deRedirect(cached);
       return fetch(request).then(function (response) {
         if (response && response.status === 200 && response.type === 'basic') {
-          cache.put(request, response.clone());
+          cache.put(request, deRedirect(response.clone()));
         }
-        return response;
+        return deRedirect(response);
       });
     });
   }).catch(function () {
@@ -217,7 +243,7 @@ function warmDictionary(language) {
         if (hit) return;
         return fetch(url).then(function (response) {
           if (!response || response.status !== 200) throw new Error('HTTP ' + (response && response.status));
-          return cache.put(url, response);
+          return cache.put(url, deRedirect(response));
         });
       }).then(function () {
         done++;
@@ -275,7 +301,7 @@ function warmImages() {
         if (hit) return;
         return fetch(url).then(function (response) {
           if (!response || response.status !== 200) throw new Error('HTTP ' + (response && response.status));
-          return cache.put(url, response);
+          return cache.put(url, deRedirect(response));
         });
       }).then(function () {
         done++;
@@ -314,3 +340,335 @@ self.addEventListener('message', function (event) {
     event.waitUntil(warmImages());
   }
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

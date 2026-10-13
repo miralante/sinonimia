@@ -1,0 +1,21 @@
+(()=>{const u={
+ pandura:{definition:'En El Salvador, mala suerte.',synonyms:['desgracia','mala suerte']},
+ panecillo:{definition:'Pieza pequeña de pan, generalmente individual.',synonyms:['bollito','pan pequeño']},
+ panenteismo:{definition:'Teoría filosófica, asociada a Karl Krause, según la cual Dios contiene el mundo y a la vez lo trasciende.',synonyms:['doctrina de Krause']},
+ paneteria:{definition:'En palacio, oficina o lugar destinado a distribuir el pan y cuidar la ropa de mesa.',synonyms:['despensa de palacio']},
+ panetero:{definition:'En una casa o palacio, persona encargada del pan o de distribuirlo.',synonyms:['proveedor de pan']},
+ pangal:{definition:'En Chile, terreno poblado de pangues, plantas de hojas grandes.',synonyms:['terreno de pangues']},
+ panico:{definition:'Terror intenso y repentino; como adjetivo, perteneciente o relativo a Pan, dios griego, o al miedo súbito.',synonyms:['terror','pavor','espanto']},
+ panameno:{definition:'Natural de Panamá; perteneciente o relativo a este país.',synonyms:['natural de Panamá']},
+ panamericano:{definition:'Perteneciente o relativo al conjunto de los países de América.',synonyms:['continental americano']},
+ paneuropeismo:{definition:'Tendencia a promover la cooperación o unión política, económica y cultural de los países europeos.',synonyms:['integración europea']},
+ paneuropeo:{definition:'Perteneciente o relativo al conjunto de Europa o a su integración.',synonyms:['europeo (en conjunto)']},
+ panfilismo:{definition:'Amor o benevolencia hacia todas las personas.',synonyms:['filantropía universal']},
+ panfleto:{definition:'Escrito breve, generalmente polémico o propagandístico, que defiende una opinión o ataca a alguien.',synonyms:['folleto polémico','libelo']},
+ pangolin:{definition:'Mamífero del orden de los folidotos, insectívoro y cubierto de grandes escamas córneas; vive en regiones tropicales de África y Asia.',synonyms:['folidoto']},
+ panguero:{definition:'Perteneciente o relativo al pangue o a su uso.',synonyms:['relativo al pangue']},
+ panhelenico:{definition:'Perteneciente o relativo al conjunto de los griegos.',synonyms:['relativo a todos los griegos']},
+ panhelenismo:{definition:'Movimiento que promueve la unión política o cultural de los pueblos griegos.',synonyms:['unidad panhelénica']},
+ panhispanico:{definition:'Perteneciente o relativo al conjunto de los países y comunidades hispanohablantes.',synonyms:['relativo al mundo hispánico']},
+ paneuropeo:{definition:'Perteneciente o relativo al conjunto de Europa o a su integración.',synonyms:['europeo (en conjunto)']}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}const ids=new Set(['pandino','pangasinan']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

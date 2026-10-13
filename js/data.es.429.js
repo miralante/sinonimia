@@ -1,0 +1,26 @@
+(()=>{const ids=new Set(['estagirita','estamena']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();
+(()=>{const u={
+ estafador:{definition:'Persona que comete una estafa.',synonyms:['timador','defraudador','embaucador']},
+ 'estafa-por-sms':{definition:'Fraude cometido mediante un mensaje de texto que engaña a la víctima para que revele datos personales o envíe dinero.',synonyms:['fraude por SMS','smishing','mensaje fraudulento']},
+ estaferia:{definition:'Asturias. Sextaferia: prestación vecinal de trabajo para realizar obras o servicios de interés común.',synonyms:['sextaferia','trabajo comunal']},
+ estafermo:{definition:'Figura giratoria de un hombre armado, usada en antiguos ejercicios de caballería; al recibir un golpe, podía devolverlo al jinete.',synonyms:['maniquí giratorio','figura de entrenamiento']},
+ estafero:{definition:'Engaño o estafa.',synonyms:['engaño','fraude','timo']},
+ estafeta:{definition:'Oficina de correos o lugar donde se reciben y entregan cartas y otros envíos postales.',synonyms:['oficina postal','correo']},
+ estafetero:{definition:'Persona encargada de una estafeta o de recoger y distribuir el correo.',synonyms:['cartero','encargado de correos','repartidor postal']},
+ estafetil:{definition:'Perteneciente o relativo a una estafeta de correos.',synonyms:['postal','relativo a una estafeta']},
+ estafiate:{definition:'México. Planta aromática del género Artemisia, usada tradicionalmente como remedio herbario.',synonyms:['ajenjo mexicano','Artemisia mexicana']},
+ estafilococia:{definition:'Medicina. Infección causada por bacterias del género Staphylococcus.',synonyms:['infección estafilocócica','infección por estafilococos']},
+ estajanovismo:{definition:'Sistema de organización del trabajo inspirado en el minero soviético Alekséi Stajánov, que promovía elevar la productividad mediante cuotas de producción muy altas.',synonyms:['movimiento estajanovista','productivismo soviético']},
+ estajar:{definition:'Antiguo. Destajar: ajustar o contratar una obra por un precio alzado.',synonyms:['destajar','contratar a precio alzado']},
+ estalactita:{definition:'Depósito mineral, generalmente de calcita, que cuelga del techo de una cueva y se forma por la precipitación de minerales disueltos en el agua.',synonyms:['formación calcárea colgante','espeleotema']},
+ estalagmita:{definition:'Depósito mineral, generalmente de calcita, que crece desde el suelo de una cueva por la precipitación de minerales disueltos en el agua.',synonyms:['formación calcárea del suelo','espeleotema']},
+ estalo:{definition:'Ruido súbito, breve y seco.',synonyms:['chasquido','estallido breve']},
+ estambrar:{definition:'Torcer la lana para convertirla en estambre.',synonyms:['hilar lana','hacer estambre']},
+ estamenete:{definition:'Tejido ligero hecho a imitación de la estameña.',synonyms:['estameñete','tejido ligero de lana']},
+ estaminal:{definition:'Botánica. Perteneciente o relativo a los estambres.',synonyms:['relativo a los estambres','estamíneo']},
+ estamineo:{definition:'Perteneciente o relativo a la estameña, tejido de lana.',synonyms:['de estameña','tejido de lana']},
+ estaminifero:{definition:'Botánica. Que lleva o produce estambres.',synonyms:['con estambres','estaminado']},
+ estampa:{synonyms:['grabado','imagen impresa','impresión','huella']},
+ estampado:{definition:'Dicho de una tela o superficie: que lleva un dibujo o motivo impreso; también, dibujo obtenido mediante estampación.',synonyms:['impreso','diseño estampado','motivo']},
+ estamperia:{definition:'Taller u oficina donde se estampan o imprimen láminas.',synonyms:['taller de estampación','imprenta']}
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();

@@ -1,0 +1,6 @@
+(()=>{const ids=new Set(['provocative-2','provoke-2']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();
+(()=>{const u={
+ 'provoke-laughter':{definition:'To cause someone or a group of people to laugh.',synonyms:['make people laugh','elicit laughter','amuse'],example:{word:'provoke laughter',text:'The comedian’s timing provoked laughter throughout the room.'},exampleSynonym:{word:'make people laugh',text:'The comedian’s timing made people laugh throughout the room.'}},
+ prowl:{definition:'To move about slowly and quietly, especially while hunting, searching, or trying not to be noticed.',synonyms:['creep','stalk','slink','roam stealthily']},
+ proximal:{definition:'Situated nearer to the point of attachment, origin, or center of the body than another part; in anatomy, contrasted with distal.',synonyms:['nearer the point of attachment','central (by context)','proximate'],example:{word:'proximal',text:'The elbow is proximal to the wrist.'},exampleSynonym:{word:'nearer the point of attachment',text:'The elbow is nearer the point of attachment than the wrist.'}}
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
