@@ -266,7 +266,7 @@ function loadSourceDictionaries() {
 function refreshSourceManifest() {
   const manifestPath = path.join(JS_DIR, "dictionary-manifest.js");
   let text = fs.readFileSync(manifestPath, "utf8");
-  text = text.replace(/(js\/data\.[a-z0-9.-]+\.js)\?v=[a-f0-9]{10}/g, function (match, file) {
+  text = text.replace(/(js\/data\.[a-z0-9.-]+\.js)\?v=(?:[a-f0-9]{10}|PLACEHOLDER)/g, function (match, file) {
     return file + "?v=" + contentHash(fs.readFileSync(path.join(ROOT, file)));
   });
   fs.writeFileSync(manifestPath, text);

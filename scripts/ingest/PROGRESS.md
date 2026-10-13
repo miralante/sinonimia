@@ -12,13 +12,15 @@ versioned `pipeline/filters/rejected-words-{es,en}.txt` lists.
 
 | | Value |
 |---|---|
-| ES entries | 62.431 |
-| EN entries | 47.380 |
+| ES entries | 62.371 |
+| EN entries | 47.246 |
 | Full dictionary hygiene review | Completed for both languages |
+| Standalone cardinal and ordinal headwords removed | 62 ES; 134 EN |
 | Valid entries with empty cards | Reviewed and completed |
 | Rejected candidates in the maintained lists | 26.725 ES; 18.966 EN |
 | Data build | Successful; `scripts/build-dictionary-data.js` |
 
+- On 2026-10-13, standalone number and ordinal headwords were excluded by the visible word only; compound terms were retained.
 - The full Spanish and English dictionaries were reviewed alphabetically for
   conjugated verb forms, inaccurate definitions, invented or invalid words,
   and demonyms. Valid entries with empty cards were completed.
