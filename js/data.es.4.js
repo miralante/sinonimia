@@ -9,14 +9,14 @@ var plainLanguageCorrections = {
     translation: undefined
   },
   trauma: {
-    definition: "Daño emocional que puede durar después de vivir algo muy difícil.",
-    synonyms: ["daño emocional", "herida psicológica"],
-    exampleSynonym: { word: "daño emocional", text: "Tras el accidente, recibió ayuda para superar el daño emocional." },
+    definition: "Daño emocional que puede quedar después de vivir algo muy difícil.",
+    synonyms: ["daño emocional", "herida emocional", "trauma psicológico"],
+    exampleSynonym: { word: "daño emocional", text: "Después de lo ocurrido, pidió ayuda para superar el daño emocional." },
     translation: { en: "trauma" }
   },
   "trauma-fisico": {
-    definition: "Lesión causada por un golpe u otro daño al cuerpo.",
-    synonyms: ["lesión", "daño físico"],
+    definition: "Lesión del cuerpo causada por un golpe o un accidente.",
+    synonyms: ["lesión", "daño físico", "traumatismo", "trauma físico"],
     exampleSynonym: { word: "lesión", text: "El médico revisó la lesión después de la caída." },
     translation: { en: "trauma-2" }
   }

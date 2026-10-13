@@ -10,5 +10,75 @@
       "example": { "word": "matalote", "text": "El matalote trabajó junto al marinero en el barco." },
       "exampleSynonym": { "word": "marinero", "text": "El marinero trabajó junto al matalote en el barco." }
     }
-  }
+  },
+  {
+    "entry": "notificacion-app",
+    "remove": [],
+    "set": {
+      "word": "Notificación de una aplicación",
+      "example": {
+        "word": "notificación",
+        "text": "La aplicación del banco envió una notificación por un pago nuevo."
+      },
+      "exampleSynonym": {
+        "word": "aviso de una app",
+        "text": "La aplicación del banco envió un aviso de una app por un pago nuevo."
+      }
+    }
+  },
+  { "entry": "trauma-fisico", "remove": [], "set": { "word": "Trauma físico" } },
+  { "entry": "plazo-limite", "remove": [], "set": { "word": "Plazo límite" } },
+  { "entry": "fianza-juridica", "remove": [], "set": { "word": "Fianza judicial" } },
+  { "entry": "suministro-contrato", "remove": [], "set": { "word": "Contrato de suministro periódico" } },
+  { "entry": "contrato-de-suministro", "remove": [], "set": { "word": "Contrato de suministros del hogar" } },
+  { "entry": "baja", "remove": [], "set": { "word": "Baja médica" } },
+  { "entry": "baja-administrativa", "remove": [], "set": { "word": "Baja administrativa" } },
+  { "entry": "caducidad", "remove": [], "set": { "word": "Caducidad de un producto" } },
+  { "entry": "caducidad-legal", "remove": [], "set": { "word": "Caducidad de un derecho" } },
+  { "entry": "pension-economica", "remove": [], "set": { "word": "Pensión de jubilación" } },
+  { "entry": "pension-alojamiento", "remove": [], "set": { "word": "Pensión de huéspedes" } },
+  {
+    "entry": "paro",
+    "remove": [],
+    "set": {
+      "word": "Paro (desempleo)",
+      "synonyms": ["desempleo", "prestación por desempleo"]
+    }
+  },
+  { "entry": "escaner", "remove": [], "set": { "word": "Escáner de documentos" } },
+  { "entry": "escaner-medico", "remove": [], "set": { "word": "Escáner médico" } },
+  {
+    "entry": "remision",
+    "remove": [],
+    "set": {
+      "word": "Remisión de una enfermedad",
+      "definition": "Disminución temporal de los síntomas de una enfermedad. También puede significar que se perdona una deuda."
+    }
+  },
+  {
+    "entry": "remision-envio",
+    "remove": [],
+    "set": {
+      "word": "Remisión de un documento",
+      "synonyms": ["envío", "derivación (médica o administrativa)"]
+    }
+  },
+  {
+    "entry": "revocar-pared",
+    "remove": [],
+    "set": {
+      "word": "Revocar una pared",
+      "definition": "Cubrir una pared con mortero, yeso u otra capa de acabado.",
+      "synonyms": ["enlucir", "cubrir con yeso"],
+      "example": {
+        "word": "revocar",
+        "text": "Van a revocar la pared antes de pintarla."
+      },
+      "exampleSynonym": {
+        "word": "enlucir",
+        "text": "Van a enlucir la pared antes de pintarla."
+      }
+    }
+  },
+  { "entry": "leyenda-mapa", "remove": [], "set": { "word": "Leyenda del mapa" } }
 ]

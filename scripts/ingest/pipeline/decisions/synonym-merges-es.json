@@ -981,5 +981,41 @@
   {
     "canonical": "pastoriego",
     "alias": "pastoricio"
+  },
+  {
+    "canonical": "comunidad-propietarios",
+    "alias": "comunidad-de-propietarios"
+  },
+  {
+    "canonical": "certificado-nacimiento",
+    "alias": "certificado-de-nacimiento"
+  },
+  {
+    "canonical": "recurso-alzada",
+    "alias": "recurso-de-alzada"
+  },
+  {
+    "canonical": "lista-espera",
+    "alias": "lista-de-espera"
+  },
+  {
+    "canonical": "redaya",
+    "alias": "redena"
+  },
+  {
+    "canonical": "baja",
+    "alias": "baja-medica"
+  },
+  {
+    "canonical": "huelga",
+    "alias": "paro-huelga"
+  },
+  {
+    "canonical": "noosfera",
+    "alias": "noosfera-lexical1"
+  },
+  {
+    "canonical": "canivete",
+    "alias": "canivete-translated1"
   }
 ]

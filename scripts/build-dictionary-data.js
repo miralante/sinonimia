@@ -264,8 +264,22 @@ function loadSourceDictionaries() {
   vm.runInContext(fs.readFileSync(path.join(JS_DIR, "dictionary-manifest.js"), "utf8"), ctx);
   const manifest = ctx.SINONIMIA_DICTIONARY_SHARDS;
   Object.keys(manifest).forEach(function (lang) {
-    manifest[lang].forEach(function (shard) {
+    manifest[lang].forEach(function (shard, index) {
       vm.runInContext(fs.readFileSync(path.join(ROOT, shard.file), "utf8"), ctx, { filename: shard.file });
+      if (index === 0) {
+        // Keep deleted entries as build-time tombstones so legacy source patches
+        // can still resolve their IDs. applySynonymMerges removes these records
+        // before any generated dictionary files are written.
+        const decisionsPath = path.join(ROOT, "scripts", "ingest", "pipeline", "decisions", `editorial-exclusions-${lang}.json`);
+        if (fs.existsSync(decisionsPath)) {
+          const entries = ctx.DICCIONARIOS[lang];
+          const present = new Set(entries.map(function (entry) { return entry.id; }));
+          const decisions = JSON.parse(fs.readFileSync(decisionsPath, "utf8"));
+          decisions.forEach(function (decision) {
+            if (!present.has(decision.id)) entries.push({ id: decision.id, word: decision.word });
+          });
+        }
+      }
     });
   });
   return ctx.DICCIONARIOS;

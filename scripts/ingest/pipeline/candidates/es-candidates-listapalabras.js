@@ -97,6 +97,7 @@ const {
 const { loadCommonWords, isCommonWord } = require('../filters/common-words');
 const { loadRejectedWords, isRejectedWord } = require('../filters/rejected-words');
 const { STEMS_ES, matchStems } = require('../shared/domain_stems');
+const { loadEditorialExclusions } = require('../shared/editorial-exclusions');
 
 const SCRATCH = __dirname;
 const CACHE = path.resolve(SCRATCH, '..', '..', '..', 'download');
@@ -348,10 +349,12 @@ async function filterAll(raw) {
   } else {
     console.log('rejected-words filter:', rejected.count, 'known rejections loaded (see filters/rejected-words.js)');
   }
+  const editorialExclusions = loadEditorialExclusions('es');
+  console.log('editorial exclusions:', editorialExclusions.words.size, 'reviewed words excluded from candidate mining');
 
   const freqSet = loadFreqSet();
 
-  let dropped = { notWordShape: 0, alreadyCovered: 0, properNoun: 0, commonWord: 0, alreadyRejected: 0 };
+  let dropped = { notWordShape: 0, alreadyCovered: 0, properNoun: 0, commonWord: 0, alreadyRejected: 0, editorialExclusion: 0 };
   const candidates = []; // { word, hint, len, inFreq, semanticCovered }
 
   for (const word of raw) {
@@ -362,6 +365,7 @@ async function filterAll(raw) {
     if (nameOnly.has(folded)) { dropped.properNoun++; continue; }
     if (isCommonWord(trimmed, common.set)) { dropped.commonWord++; continue; }
     if (isRejectedWord(trimmed, rejected.set)) { dropped.alreadyRejected++; continue; }
+    if (editorialExclusions.words.has(folded)) { dropped.editorialExclusion++; continue; }
 
     const stemCats = matchStems(folded, STEMS_ES);
     const suffix = suffixHint(folded);
@@ -403,6 +407,7 @@ async function filterAll(raw) {
   console.log('dropped_proper_noun    :', dropped.properNoun);
   console.log('dropped_common_word    :', dropped.commonWord, '(top ' + common.maxRank + ' most frequent, see filters/common-words.js)');
   console.log('dropped_already_rejected:', dropped.alreadyRejected, '(' + rejected.count + ' known rejections loaded, see filters/rejected-words.js)');
+  console.log('dropped_editorial_exclusion:', dropped.editorialExclusion, '(reviewed decisions in pipeline/decisions/editorial-exclusions-es.json)');
   console.log('candidates_total        :', candidates.length, '(every word above is a real candidate — none dropped for lacking a category)');
   console.log('  hinted (review first) :', hinted.length);
   console.log('  no hint (review after):', candidates.length - hinted.length);

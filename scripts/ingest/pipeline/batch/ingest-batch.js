@@ -40,6 +40,7 @@ const path = require("path");
 const ROOT = path.join(__dirname, "..", "..", "..", "..");
 const CATEGORY_DEFAULTS = require(path.join(ROOT, "scripts", "category-pictogram-defaults.js"));
 const { loadProperNounSet, isProperNoun } = require("../shared/proper-noun-check.js");
+const { loadEditorialExclusions } = require("../shared/editorial-exclusions.js");
 const batchPath = process.argv[2];
 const lang = process.argv[3];
 
@@ -145,6 +146,8 @@ function sleep(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
   const added = [];
   const skippedDup = [];
   const skippedName = [];
+  const editorialExclusions = loadEditorialExclusions(lang);
+  const skippedEditorial = [];
   const errors = [];
   let insertedBlocks = "";
 
@@ -156,6 +159,10 @@ function sleep(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
     }
     if (!ALLOWED_SITUACIONES.has(cand.situacion)) {
       errors.push(label + ": invalid situacion \"" + cand.situacion + "\"");
+      continue;
+    }
+    if (editorialExclusions.words.has(normalize(cand.palabra))) {
+      skippedEditorial.push(label + " (previously declined by editorial review)");
       continue;
     }
     if (isProperNoun(cand.palabra, properNouns)) {
@@ -252,6 +259,8 @@ function sleep(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
   skippedDup.forEach(function (s) { console.log("  = " + s); });
   console.log("Skipped (proper noun): " + skippedName.length);
   skippedName.forEach(function (s) { console.log("  = " + s); });
+  console.log("Skipped (editorial exclusion): " + skippedEditorial.length);
+  skippedEditorial.forEach(function (s) { console.log("  = " + s); });
   console.log("Errors: " + errors.length);
   errors.forEach(function (e) { console.log("  ! " + e); });
 })();

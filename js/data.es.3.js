@@ -6,18 +6,18 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([
     id: "cenido",
     word: "Ceñido",
     image: { id: 36384, alt: "Gastos" },
-    definition: "Muy ajustado o limitado; dicho especialmente de un presupuesto, que restringe los gastos.",
+    definition: "Un presupuesto ceñido tiene poco dinero para gastar.",
     synonyms: ["moderado", "reducido"],
     example: { word: "ceñido", text: "La familia preparó un presupuesto ceñido para el viaje." },
     exampleSynonym: { word: "moderado", text: "La familia preparó un presupuesto moderado para el viaje." },
     situacion: "finanzas",
-    translation: { en: "tight; constrained; limited (budget)" },
+    translation: { en: "tight budget" },
   },
   {
     id: "fenotipo",
     word: "Fenotipo",
     image: { id: 2450, alt: "Información y conocimiento" },
-    definition: "Conjunto de características observables de un organismo, resultado de la expresión de sus genes y de su interacción con el ambiente.",
+    definition: "El fenotipo son las características que vemos en un ser vivo. Sus genes y el ambiente influyen en ellas.",
     synonyms: ["rasgos observables", "características visibles"],
     example: { word: "fenotipo", text: "El estudio compara el fenotipo de dos plantas." },
     exampleSynonym: { word: "rasgos observables", text: "El estudio compara los rasgos observables de dos plantas." },
@@ -28,23 +28,23 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([
     id: "trauma",
     word: "Trauma",
     image: { id: 2467, alt: "Atención médica" },
-    definition: "Lesión física o daño psicológico causado por un agente externo o por una experiencia muy difícil; también, secuela que puede persistir después de ella.",
-    synonyms: ["lesión", "daño psicológico", "herida emocional"],
-    example: { word: "trauma", text: "Tras el accidente, recibió ayuda para superar el trauma." },
-    exampleSynonym: { word: "lesión", text: "Tras el accidente, recibió ayuda para tratar la lesión." },
+    definition: "Daño emocional que puede quedar después de vivir una situación muy difícil.",
+    synonyms: ["daño emocional", "herida emocional", "trauma psicológico"],
+    example: { word: "trauma", text: "Después de lo ocurrido, pidió ayuda para superar el trauma." },
+    exampleSynonym: { word: "daño emocional", text: "Después de lo ocurrido, pidió ayuda para superar el daño emocional." },
     situacion: "salud",
-    translation: { en: "trauma; physical injury; psychological trauma" }
+    translation: { en: "psychological trauma" }
   },
   {
     id: "trauma-fisico",
     word: "Trauma",
     image: { id: 2467, alt: "Atención médica" },
-    definition: "Lesión causada por un golpe u otro daño al cuerpo.",
-    synonyms: ["lesión", "daño físico"],
+    definition: "Lesión del cuerpo causada por un golpe o un accidente.",
+    synonyms: ["lesión", "daño físico", "traumatismo", "trauma físico"],
     example: { word: "trauma", text: "El médico revisó el trauma después de la caída." },
     exampleSynonym: { word: "lesión", text: "El médico revisó la lesión después de la caída." },
     situacion: "salud",
-    translation: { en: "trauma; physical injury" }
+    translation: { en: "physical trauma" }
   }
 ]);
 

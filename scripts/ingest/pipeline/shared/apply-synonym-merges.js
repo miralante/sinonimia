@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const ROOT = path.resolve(__dirname, '..', '..', '..', '..');
 const MERGE_FILE = path.join(ROOT, 'scripts', 'ingest', 'pipeline', 'decisions', 'synonym-merges-');
+const { loadEditorialExclusions, normalizeWord: normalizeExclusionWord } = require('./editorial-exclusions');
 
 function normalize(value) {
   return String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '')
@@ -85,6 +86,25 @@ function applySynonymMerges(dictionaries) {
         if (correction.set) Object.assign(entry, correction.set);
       }
     }
+
+    // Editorial exclusions are explicit, reviewable decisions for entries
+    // that do not meet the product's acceptance criteria. Keep them separate
+    // from synonym merges: an excluded word is removed, not redirected.
+    const { decisions: exclusions } = loadEditorialExclusions(lang);
+    if (exclusions.length) {
+      const excludedIds = new Set();
+      for (const exclusion of exclusions) {
+        const entry = byId.get(exclusion.id);
+        if (!entry || removed.has(exclusion.id)) {
+          throw new Error(`${lang}: editorial exclusion references missing or merged entry ${exclusion.id}`);
+        }
+        if (normalizeExclusionWord(entry.word || entry.palabra) !== normalizeExclusionWord(exclusion.word)) {
+          throw new Error(`${lang}: editorial exclusion word does not match entry ${exclusion.id}`);
+        }
+        excludedIds.add(exclusion.id);
+      }
+      dictionaries[lang] = dictionaries[lang].filter(entry => !excludedIds.has(entry.id));
+    }
   }
 
   for (const entries of Object.values(dictionaries)) {
@@ -103,3 +123,4 @@ function applySynonymMerges(dictionaries) {
 }
 
 module.exports = { applySynonymMerges, normalize };
+

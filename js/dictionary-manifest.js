@@ -12,10 +12,10 @@
  */
 window.SINONIMIA_DICTIONARY_SHARDS = {
   es: [
-    { file: "js/data.es.js", src: "js/data.es.js?v=6c131f0b92" },
-    { file: "js/data.es.2.js", src: "js/data.es.2.js?v=7d60382d47" },
-    { file: "js/data.es.3.js", src: "js/data.es.3.js?v=6fc355a59e" },
-    { file: "js/data.es.4.js", src: "js/data.es.4.js?v=e7cfd8e422" },
+    { file: "js/data.es.js", src: "js/data.es.js?v=823517b18a" },
+    { file: "js/data.es.2.js", src: "js/data.es.2.js?v=f620ec2733" },
+    { file: "js/data.es.3.js", src: "js/data.es.3.js?v=53a2d614d3" },
+    { file: "js/data.es.4.js", src: "js/data.es.4.js?v=0b06541fd1" },
     { file: "js/data.es.5.js", src: "js/data.es.5.js?v=19b32779da" },
     { file: "js/data.es.6.js", src: "js/data.es.6.js?v=04321d83d7" },
     { file: "js/data.es.7.js", src: "js/data.es.7.js?v=860a227519" },
@@ -804,13 +804,13 @@ window.SINONIMIA_DICTIONARY_SHARDS = {
     { file: "js/data.es.790.js", src: "js/data.es.790.js?v=834869d5ac" },
     { file: "js/data.es.791.js", src: "js/data.es.791.js?v=ff5678deab" },
     { file: "js/data.es.792.js", src: "js/data.es.792.js?v=8375a322bb" },
-    { file: "js/data.es.793.js", src: "js/data.es.793.js?v=1b0c319f25" },
+    { file: "js/data.es.793.js", src: "js/data.es.793.js?v=ada450a46a" },
     { file: "js/data.es.569.js", src: "js/data.es.569.js?v=26a3e605b1" },
-    { file: "js/data.es.794.js", src: "js/data.es.794.js?v=e04fe84be8" },
+    { file: "js/data.es.794.js", src: "js/data.es.794.js?v=d315e29542" },
   ],
   en: [
-    { file: "js/data.en.js", src: "js/data.en.js?v=bc9a0c6071" },
-    { file: "js/data.en.2.js", src: "js/data.en.2.js?v=ae66b61663" },
+    { file: "js/data.en.js", src: "js/data.en.js?v=628e826649" },
+    { file: "js/data.en.2.js", src: "js/data.en.2.js?v=59d9d31af0" },
     { file: "js/data.en.3.js", src: "js/data.en.3.js?v=610e913071" },
     { file: "js/data.en.4.js", src: "js/data.en.4.js?v=2a18d2ea49" },
     { file: "js/data.en.5.js", src: "js/data.en.5.js?v=7b5f4a4fb8" },
@@ -1570,7 +1570,7 @@ window.SINONIMIA_DICTIONARY_SHARDS = {
     { file: "js/data.en.759.js", src: "js/data.en.759.js?v=1f3f86ec84" },
     { file: "js/data.en.760.js", src: "js/data.en.760.js?v=4e36753d3c" },
     { file: "js/data.en.761.js", src: "js/data.en.761.js?v=ad92270819" },
-    { file: "js/data.en.762.js", src: "js/data.en.762.js?v=ca3255a5ee" },
+    { file: "js/data.en.762.js", src: "js/data.en.762.js?v=229703a2bb" },
   ],
 };
 

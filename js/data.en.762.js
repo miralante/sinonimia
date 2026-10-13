@@ -18,3 +18,43 @@
   };
   DICCIONARIOS.en = DICCIONARIOS.en.filter((entry) => !isNumberOrOrdinal(entry.word));
 })();
+
+/* Keep the two difficult meanings of trauma in separate easy-read entries. */
+(() => {
+  const updates = {
+    trauma: {
+      definition: "Emotional harm that can last after a frightening event.",
+      synonyms: ["deep emotional pain", "psychological trauma"],
+      example: { word: "trauma", text: "She got help after the frightening event left her with trauma." },
+      exampleSynonym: { word: "deep emotional pain", text: "She got help after the frightening event left her with deep emotional pain." },
+      translation: { es: "trauma" }
+    },
+    "trauma-2": {
+      definition: "An injury to the body caused by a blow or accident.",
+      synonyms: ["physical injury", "physical trauma"],
+      example: { word: "trauma", text: "The doctor treated his trauma after the fall." },
+      exampleSynonym: { word: "physical injury", text: "The doctor treated his physical injury after the fall." },
+      translation: { es: "trauma-fisico" }
+    }
+  };
+  for (const [id, fields] of Object.entries(updates)) {
+    const entry = DICCIONARIOS.en.find((item) => item.id === id);
+    if (!entry) continue; // The earlier source shard intentionally removed this entry.
+    Object.assign(entry, fields);
+  }
+})();
+
+/* Keep the physical sense as its own entry, as requested for homonyms. */
+if (!DICCIONARIOS.en.some((item) => item.id === "trauma-2")) {
+  DICCIONARIOS.en.push({
+    id: "trauma-2",
+    word: "Trauma",
+    image: { id: 2467, alt: "Medical care" },
+    definition: "An injury to the body caused by a blow or accident.",
+    synonyms: ["physical injury", "physical trauma"],
+    example: { word: "trauma", text: "The doctor treated his trauma after the fall." },
+    exampleSynonym: { word: "physical injury", text: "The doctor treated his physical injury after the fall." },
+    situacion: "salud",
+    translation: { es: "trauma-fisico" }
+  });
+}

@@ -172,6 +172,12 @@ definición del diccionario externo.
   otra acepción. Corrígela y vuelve a comprobarla; si no puede quedar
   fiel a la acepción documentada, descarta la entrada.
 
+Aplica el mismo criterio de dificultad al revisar fichas ya existentes.
+Registra las exclusiones aprobadas con su `id`, lema y motivo en
+`scripts/ingest/pipeline/decisions/editorial-exclusions-es.json`. La decisión
+se respeta al reconstruir el diccionario y al volver a minar o ingerir
+candidatas; excluir una ficha no crea sinónimos ni redirecciones de búsqueda.
+
 1. **Válida y real.** Documentada en uso actual; descarta arcaísmos, dialectalismos y préstamos raros.
 2. **Difícil para la persona destinataria.** La candidata debe ser una palabra que probablemente no entienda por sí sola y necesite que Sinonimia le explique. Este criterio se aplica a todas las fuentes; la frecuencia y CEFRLex/ELELex aportan señales, pero la revisión editorial determina si la palabra y la acepción son realmente difíciles. Puede hacerla una persona o un agente de IA, con los mismos criterios. La ausencia de una palabra técnica en CEFRLex/ELELex no la invalida. Conserva términos abstractos o intangibles (como *leyenda* o *garantía*) y acepciones difíciles de palabras frecuentes, aunque la palabra tenga otros usos sencillos. Evalúa la dificultad de la palabra y de la acepción candidatas, no la facilidad de redactar su explicación. El filtro automático `scripts/ingest/pipeline/filters/common-words.js` ayuda en la ingesta masiva del método C; no limita el alcance del criterio editorial.
 3. **Lema independiente.** No admitas formas verbales conjugadas:

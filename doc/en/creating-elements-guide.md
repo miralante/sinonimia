@@ -170,6 +170,12 @@ corrected headword. Do not copy the external definition.
   describes a different sense. Correct and recheck it; if it cannot
   match the documented sense, reject the entry.
 
+Apply the same difficulty criterion when reviewing existing entries. Record
+approved exclusions with their `id`, headword, and reason in
+`scripts/ingest/pipeline/decisions/editorial-exclusions-en.json`. The decision
+is enforced when rebuilding the dictionary and when mining or ingesting
+candidates; an exclusion does not create synonyms or search redirects.
+
 1. **Real and documented.** In current use; drop archaisms, dialect forms, and rare loans.
 2. **Hard for the target user.** A candidate must be a word the target user is unlikely to understand on its own and needs Sinonimia to explain. This criterion applies to every source; frequency and CEFRLex/ELELex provide signals, but editorial review determines whether the word and sense are genuinely hard. A person or an AI agent may conduct this review, using the same criteria. A technical word's absence from CEFRLex/ELELex does not invalidate it. Keep abstract or intangible terms (such as *legend* or *warranty*) and hard senses of frequent words, even when the word has other easy uses. Evaluate the difficulty of the candidate word and sense, not how easy it is to write its explanation. The automatic filter `scripts/ingest/pipeline/filters/common-words.js` assists bulk sourcing in method C; it does not limit the scope of the editorial criterion.
 3. **Independent lemma.** Do not accept conjugated verb forms; keep

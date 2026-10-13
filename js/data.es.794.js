@@ -32,3 +32,7 @@
   };
   DICCIONARIOS.es = DICCIONARIOS.es.filter((entry) => !isNumberOrOrdinal(entry.word));
 })();
+
+// Show both meanings of this homonym under the same headword.
+const physicalTrauma = DICCIONARIOS.es.find((entry) => entry.id === "trauma-fisico");
+if (physicalTrauma) physicalTrauma.word = "Trauma";
