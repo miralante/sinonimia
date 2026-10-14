@@ -732,8 +732,21 @@ span.detalle-navegacion-enlace {
 }
 
 .detalle .definicion {
-  font-size: 1.25rem;
-  margin: 0 0 1.25rem;
+  /* Llamada destacada dentro de la ficha: la definición es la respuesta a
+     "¿qué significa esta palabra?" y debe leerse ANTES de los sinónimos y
+     los ejemplos. Caja con fondo neutro del tema, franja izquierda en el
+     naranja de acento (mismo color que los h3 "SE PUEDE DECIR TAMBIÉN" /
+     "EN UNA FRASE DE CADA DÍA" y la barra de .sentences) y tipografía más
+     grande y semibold. En alto-contraste --color-fondo y la tarjeta
+     coinciden; el border-left y el font-weight siguen dándole jerarquía. */
+  font-size: 1.5rem;
+  line-height: 1.45;
+  font-weight: 600;
+  margin: 1.5rem 0 1.5rem;
+  padding: 1rem 1.25rem;
+  background: var(--color-fondo);
+  border-left: 4px solid var(--color-acento);
+  border-radius: var(--radio);
 }
 
 .detalle h3 {
