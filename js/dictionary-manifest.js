@@ -1500,6 +1500,9 @@ window.SINONIMIA_DICTIONARY_SHARDS = {
     { file: "js/data.es.1497.js", src: "js/data.es.1497.js?v=4945250623" },
     { file: "js/data.es.1498.js", src: "js/data.es.1498.js?v=82bd6904f9" },
     { file: "js/data.es.1499.js", src: "js/data.es.1499.js?v=8b29a6ebd3" },
+    { file: "js/data.es.editorial-cleanup.js", src: "js/data.es.editorial-cleanup.js?v=bbe76c32a4" },
+    { file: "js/data.es.editorial-categories.js", src: "js/data.es.editorial-categories.js?v=9335d920b6" },
+    { file: "js/data.es.editorial-examples.js", src: "js/data.es.editorial-examples.js?v=3c79c20eb9" },
   ],
   en: [
     { file: "js/data.en.js", src: "js/data.en.js?v=488850298e" },
@@ -2984,5 +2987,8 @@ window.SINONIMIA_DICTIONARY_SHARDS = {
     { file: "js/data.en.1500.js", src: "js/data.en.1500.js?v=38a4cb6610" },
     { file: "js/data.en.1501.js", src: "js/data.en.1501.js?v=778a44c0ac" },
     { file: "js/data.en.1502.js", src: "js/data.en.1502.js?v=ac3ab059cb" },
+    { file: "js/data.en.editorial-cleanup.js", src: "js/data.en.editorial-cleanup.js?v=f5ec96fb35" },
+    { file: "js/data.en.editorial-categories.js", src: "js/data.en.editorial-categories.js?v=5af875942a" },
+    { file: "js/data.en.editorial-examples.js", src: "js/data.en.editorial-examples.js?v=1d86caa468" },
   ],
 };
