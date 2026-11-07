@@ -1503,6 +1503,7 @@ window.SINONIMIA_DICTIONARY_SHARDS = {
     { file: "js/data.es.editorial-cleanup.js", src: "js/data.es.editorial-cleanup.js?v=bbe76c32a4" },
     { file: "js/data.es.editorial-categories.js", src: "js/data.es.editorial-categories.js?v=9335d920b6" },
     { file: "js/data.es.editorial-examples.js", src: "js/data.es.editorial-examples.js?v=3c79c20eb9" },
+    { file: "js/data.es.editorial-examples-continued.js", src: "js/data.es.editorial-examples-continued.js?v=552b1d2e84" },
   ],
   en: [
     { file: "js/data.en.js", src: "js/data.en.js?v=488850298e" },
@@ -2990,5 +2991,6 @@ window.SINONIMIA_DICTIONARY_SHARDS = {
     { file: "js/data.en.editorial-cleanup.js", src: "js/data.en.editorial-cleanup.js?v=f5ec96fb35" },
     { file: "js/data.en.editorial-categories.js", src: "js/data.en.editorial-categories.js?v=5af875942a" },
     { file: "js/data.en.editorial-examples.js", src: "js/data.en.editorial-examples.js?v=1d86caa468" },
+    { file: "js/data.en.editorial-examples-continued.js", src: "js/data.en.editorial-examples-continued.js?v=4dd9f6c393" },
   ],
 };
