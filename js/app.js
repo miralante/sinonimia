@@ -78,6 +78,16 @@
       .trim();
   }
 
+  var searchTools = SinonimiaSearch.create({
+    normalize: normalize,
+    getEntries: function () { return activeDictionary; },
+    getLanguage: function () { return currentLanguage; },
+    getState: function () { return state; },
+    getSearchValue: function () { return searchInput.value; },
+    getEntryByName: function () { return entryByName; },
+    getEntryBySynonym: function () { return entryBySynonym; }
+  });
+
   // entryByName maps a normalized headword to an ARRAY of entries, never a
   // single entry: two entries can legitimately share the same "word"
   // (a homograph, e.g. "Pensión" = retirement pay / a guesthouse). Storing
@@ -109,95 +119,8 @@
   // as `entry.translations`, so the other language never has to be loaded just
   // to draw them.
 
-  // Normalized search keys are computed once per entry and cached on it.
-  function searchKeys(entry) {
-    if (!entry._k) {
-      entry._k = {
-        word: normalize(entry.word),
-        rest: normalize(entry.definition + " | " + entry.synonyms.join(" | "))
-      };
-    }
-    return entry._k;
-  }
-
-  function matchesSearch(entry, normalizedQuery) {
-    if (!normalizedQuery) return true;
-    var keys = searchKeys(entry);
-    return keys.word.indexOf(normalizedQuery) !== -1 ||
-      keys.rest.indexOf(normalizedQuery) !== -1;
-  }
-
-  function matchesExactSearch(entry, normalizedQuery) {
-    if (searchKeys(entry).word === normalizedQuery) return true;
-    return entry.synonyms.some(function (synonym) {
-      return normalize(synonym) === normalizedQuery;
-    });
-  }
-
-  // When a search exactly matches a synonym, show the word the person typed
-  // as the result label while keeping the canonical entry as its destination.
-  function exactSearchSynonym(entry, normalizedQuery) {
-    if (!normalizedQuery) return "";
-    for (var i = 0; i < entry.synonyms.length; i++) {
-      if (normalize(entry.synonyms[i]) === normalizedQuery) return entry.synonyms[i];
-    }
-    return "";
-  }
-
-  function displayedSearchSynonym(entry, normalizedQuery) {
-    // Substitute only when the searched term has no headword and identifies
-    // one entry. Otherwise alias cards could duplicate or obscure real names.
-    if (entryByName.has(normalizedQuery)) return "";
-    var synonymMatches = entryBySynonym.get(normalizedQuery) || [];
-    if (synonymMatches.length !== 1 || synonymMatches[0].id !== entry.id) return "";
-    var synonym = exactSearchSynonym(entry, normalizedQuery);
-    return synonym ? synonym.charAt(0).toLocaleUpperCase(currentLanguage) + synonym.slice(1) : "";
-  }
-
-  // Sorted fresh from activeDictionary on every call (never cached) so it
-  // always reflects whatever words are currently in js/data.<lang>.js — the
-  // dictionary is under active ingestion and gains new entries often, and
-  // this order also drives the detail page's previous/next navigation.
-  // Cached per dictionary array: with tens of thousands of entries, sorting
-  // and normalizing on every keystroke froze the search box.
-  var sortedCache = { source: null, list: null };
-  function alphabeticalEntries() {
-    if (sortedCache.source !== activeDictionary) {
-      var collator = new Intl.Collator(currentLanguage);
-      sortedCache.source = activeDictionary;
-      sortedCache.list = activeDictionary.slice().sort(function (a, b) {
-        return collator.compare(a.word, b.word);
-      });
-    }
-    return sortedCache.list;
-  }
-
-  function filteredEntries() {
-    var query = normalize(searchInput.value || "");
-    var scopedEntries = alphabeticalEntries().filter(function (entry) {
-      if (state.topic !== "todos" && entry.situacion !== state.topic) return false;
-      if (state.letter && searchKeys(entry).word.charAt(0) !== state.letter) return false;
-      return true;
-    });
-    if (!query) return scopedEntries;
-    var exactMatches = scopedEntries.filter(function (entry) {
-      return matchesExactSearch(entry, query);
-    });
-    return exactMatches.length ? exactMatches : scopedEntries.filter(function (entry) {
-      return matchesSearch(entry, query);
-    });
-  }
-
-  function availableLetters() {
-    var set = {};
-    activeDictionary.forEach(function (e) {
-      set[normalize(e.word).charAt(0)] = true;
-    });
-    return set;
-  }
-
   function buildAlphabet() {
-    var available = availableLetters();
+    var available = searchTools.availableLetters();
     var alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
     alphabetNav.innerHTML = "";
     alphabet.forEach(function (letter) {
@@ -247,7 +170,7 @@
     var li = document.createElement("li");
     li.className = "card";
     var a = document.createElement("a");
-    var searchAlias = displayedSearchSynonym(entry, normalize(searchInput.value || ""));
+    var searchAlias = searchTools.displayedSearchSynonym(entry, normalize(searchInput.value || ""));
     a.href = wordLink(entry.id, searchAlias);
     a.className = "card-enlace";
 
@@ -331,7 +254,7 @@
 
   function renderList() {
     showView("lista");
-    listResults = filteredEntries();
+    listResults = searchTools.filteredEntries();
     listShown = 0;
     listEl.innerHTML = "";
 
@@ -395,7 +318,7 @@
 
   function renderDetail(id, displayWord) {
     var entry = entryById.get(id);
-    var searchAlias = displayWord && displayedSearchSynonym(entry || { synonyms: [] }, normalize(displayWord));
+    var searchAlias = displayWord && searchTools.displayedSearchSynonym(entry || { synonyms: [] }, normalize(displayWord));
     if (entry && !SinonimiaDictionary.hasDetail(entry)) {
       // The list only carries the light index; the example sentences and
       // translation links live in a small per-word chunk fetched on demand.
@@ -535,7 +458,7 @@
       detailView.appendChild(translationsBox);
     }
 
-    var ordered = alphabeticalEntries();
+    var ordered = searchTools.alphabeticalEntries();
     var currentIndex = ordered.indexOf(entry);
     var previousEntry = currentIndex > 0 ? ordered[currentIndex - 1] : null;
     var nextEntry = currentIndex < ordered.length - 1 ? ordered[currentIndex + 1] : null;

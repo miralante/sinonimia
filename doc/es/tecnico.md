@@ -301,7 +301,9 @@ distintos.
   desactualizado. Añadir un idioma o dividir un diccionario solo cambia los
   datos y lo generado, no `js/app.js` ni las páginas.
 - `js/app.js` es una IIFE que contiene router, renderizado, índices, juegos y
-  estado. No escribe textos de interfaz ni lee un idioma concreto: usa
+  estado. La lógica de búsqueda se encapsula en `js/app-search.js` y recibe el
+  estado y los índices mediante funciones. Ninguno de los dos módulos escribe
+  textos de interfaz ni lee un idioma concreto: usan
   `activeDictionary = DICCIONARIOS[currentLanguage]` y `t(key)`.
 
 ## 7. Router y estado

@@ -322,9 +322,11 @@ itself — so the next person to touch it knows exactly what to do.
   [`../es/idiomas.md`](../es/idiomas.md) in Spanish). That document is
   the canonical "how to add a language" reference; the SPEC.md /
   technical.md sections are the short summaries.
-- **`js/app.js`** is a single IIFE containing the whole client app. It never
-  hardcodes a UI string or a specific language's data — it only reads
-  `activeDictionary` (`= DICCIONARIOS[currentLanguage]`) and calls `t(key)`.
+- **`js/app.js`** is a single IIFE containing the router, rendering, indexes,
+  games, and application state. The search logic is encapsulated in
+  **`js/app-search.js`**, which receives state and indexes through getters.
+  Neither module hardcodes a UI string or reads a specific language's data —
+  both use `activeDictionary` (`= DICCIONARIOS[currentLanguage]`) and `t(key)`.
 
 ## Routing and view state
 
