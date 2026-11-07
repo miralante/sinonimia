@@ -112,9 +112,10 @@ del proveedor, se baja `INDEX_ROWS_PER_SHARD` en
 
 Sinonimia envía un service worker propio en la raíz del proyecto (es la
 excepción reciente dentro del suite; apptonomia no envía uno, memofun y
-sinonimia sí). El SW sigue la estrategia **cache-first**: el `fetch` genérico
-de `sw.js` sirve desde la caché cuando el archivo está listado en `FILES`,
-y solo va a la red cuando no está.
+sinonimia sí). El SW sigue la estrategia **network-first con caché de respaldo**
+para el shell: el `fetch` genérico pide a la red y solo sirve desde la caché
+cuando la red no responde. Los datos del diccionario y los pictogramas siguen en
+caché primero porque sus URLs llevan hash y son inmutables.
 
 **Regla de bump de `VERSION`** (`sw.js` declara `var VERSION =
 "sinonimia-vN";`): bumpear `VERSION` en cada commit que toque cualquier archivo

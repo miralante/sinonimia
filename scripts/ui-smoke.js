@@ -99,6 +99,11 @@ function startServer() {
 
     let filePath = path.resolve(ROOT, pathname.replace(/^\/+/, '') || 'index.html');
     if (pathname === '/') filePath = path.join(ROOT, 'index.html');
+    // Cloudflare Pages serves .html pages at extensionless URLs. Mirror that
+    // route here so the internal-link check validates production paths.
+    if (!path.extname(filePath) && fs.existsSync(filePath + '.html')) {
+      filePath += '.html';
+    }
     if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) {
       filePath = path.join(filePath, 'index.html');
     }
