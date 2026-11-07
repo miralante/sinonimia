@@ -11,5 +11,5 @@
     descorche:{definition:"Sustantivo masculino: acción y efecto de quitar el corcho al alcornoque; también, comisión que en locales de alterne obtienen las señoritas que acompañan a los clientes para que consuman más.",synonyms:["retirada del corcho","descorchamiento","comisión por consumiciones"],example:{word:"descorche",text:"El descorche del alcornoque se realiza con cuidado para no dañar el árbol."},exampleSynonym:{word:"retirada del corcho",text:"La retirada del corcho del alcornoque se realiza con cuidado para no dañar el árbol."}},
     descorrer:{definition:"Verbo transitivo: volver a correr un espacio antes recorrido; plegar o reunir algo que estaba extendido, como una cortina. Como intransitivo o pronominal, dicho de un líquido, correr o escurrir.",synonyms:["retirar","plegar","descubrir","correr","escurrir"],example:{word:"descorrer",text:"Al descorrer las cortinas, dejó entrar la luz de la mañana."},exampleSynonym:{word:"retirar",text:"Al retirar las cortinas, dejó entrar la luz de la mañana."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

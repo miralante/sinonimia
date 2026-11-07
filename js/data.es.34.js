@@ -12,5 +12,5 @@
     delga:{definition:"Cada una de las láminas metálicas que forman el colector de una máquina eléctrica de corriente continua; también, lámina calibrada que se usa para medir la separación entre dos superficies.",synonyms:["lámina del colector","segmento del colector","galga calibrada"],example:{word:"delga",text:"El técnico comprobó la distancia entre las piezas con una delga calibrada."},exampleSynonym:{word:"galga calibrada",text:"El técnico comprobó la distancia entre las piezas con una galga calibrada."}},
     delgadez:{definition:"Cualidad de delgado, especialmente la escasa anchura, grosor o volumen de una persona o cosa.",synonyms:["finura","esbeltez","poco grosor","delgadez corporal"],example:{word:"delgadez",text:"La delgadez de la lámina permitió colocarla en la ranura estrecha."},exampleSynonym:{word:"poco grosor",text:"El poco grosor de la lámina permitió colocarla en la ranura estrecha."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

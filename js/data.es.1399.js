@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3563-avestico-language","word":"avéstico","image":{"id":7024,"alt":"Una palabra del diccionario"},"definition":"Lengua antigua de Irán en que se escribió el Avesta.","synonyms":["lengua avéstica","idioma del Avesta"],"example":{"word":"avéstico","text":"El texto original del Avesta está escrito en avéstico."},"exampleSynonym":{"word":"lengua avéstica","text":"El texto original del Avesta está escrito en lengua avéstica."},"situacion":"conocimiento","translation":{"en":"avestan"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

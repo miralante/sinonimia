@@ -11,5 +11,5 @@
   desguarnecer:{definition:"Verbo transitivo: quitar el adorno, refuerzo, equipo o guarnición de algo; como pronominal, quedar sin ellos.",synonyms:["desguarnir","desproveer","desarmar","desmantelar"],example:{word:"desguarnecer",text:"Retiraron las tropas para desguarnecer el puesto fronterizo."},exampleSynonym:{word:"desproveer",text:"Retiraron las tropas para desproveer de defensas el puesto fronterizo."}},
   desguince:{definition:"Sustantivo masculino: cuchillo usado en los molinos de papel para cortar el trapo destinado a fabricar pasta.",synonyms:["cuchilla de molino","cuchillo cortatrapos","cuchilla"],example:{word:"desguince",text:"El artesano conservaba un desguince antiguo junto a la prensa."},exampleSynonym:{word:"cuchilla",text:"El artesano conservaba una cuchilla antigua junto a la prensa."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

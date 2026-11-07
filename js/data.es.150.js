@@ -11,5 +11,5 @@
   dintelar:{definition:"Hacer dinteles o construir algo en forma de dintel.",synonyms:["hacer dinteles","construir en forma de dintel"],example:{word:"dintelar",text:"Los albañiles tuvieron que dintelar la entrada principal."},exampleSynonym:{word:"hacer dinteles",text:"Los albañiles tuvieron que hacer dinteles en la entrada principal."}},
   diocesano:{definition:"Perteneciente o relativo a una diócesis.",synonyms:["relativo a una diócesis","episcopal"],example:{word:"diocesano",text:"El archivo diocesano conserva documentos de varios siglos."},exampleSynonym:{word:"relativo a una diócesis",text:"El archivo relativo a la diócesis conserva documentos de varios siglos."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

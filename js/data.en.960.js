@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error('missing en');
+if(!d.some(q=>q.id==="round3084-typhoon-activity"))d.push({"id":"round3084-typhoon-activity","word":"typhoon","image":{"id":7024,"alt":"Un equipo trabaja con mucha actividad para preparar un evento."},"definition":"A very active or forceful burst of activity.","synonyms":["whirlwind of activity","rush"],"example":{"word":"typhoon","text":"The launch week became a typhoon of activity."},"exampleSynonym":{"word":"whirlwind of activity","text":"The launch week became a whirlwind of activity."},"situacion":"trabajo"});
+})();

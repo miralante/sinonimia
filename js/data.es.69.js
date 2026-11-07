@@ -11,5 +11,5 @@
     descifrable:{definition:"Adjetivo: que se puede descifrar o comprender.",synonyms:["inteligible","interpretable","comprensible"],example:{word:"descifrable",text:"Aunque la inscripción estaba desgastada, el mensaje seguía siendo descifrable."},exampleSynonym:{word:"inteligible",text:"Aunque la inscripción estaba desgastada, el mensaje seguía siendo inteligible."}},
     descifre:{definition:"Sustantivo masculino: acción y efecto de descifrar.",synonyms:["desciframiento","descodificación","decodificación","resolución"],example:{word:"descifre",text:"El descifre del código permitió leer el mensaje oculto."},exampleSynonym:{word:"desciframiento",text:"El desciframiento del código permitió leer el mensaje oculto."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

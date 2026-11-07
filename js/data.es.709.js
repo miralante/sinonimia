@@ -1,9 +1,9 @@
 (()=>{const u={
   moderno:{definition:'Perteneciente o relativo a la época actual; también, propio de la Edad Moderna, según el contexto.',synonyms:['actual','contemporáneo','reciente']},
-  modestamente:{definition:'Con modestia o sencillez; también, en cantidad limitada o de manera no ostentosa.',synonyms:['con humildad','sencillamente','sin ostentación']},
+  
   modestia:{definition:'Cualidad de quien no se atribuye méritos o importancia excesivos; también, sobriedad y falta de ostentación.',synonyms:['humildad','sencillez','mesura']},
   modesto:{definition:'Que tiene modestia o no presume; también, sencillo o de alcance limitado.',synonyms:['humilde','sencillo','moderado']},
-  modicamente:{definition:'De manera módica, moderada o a bajo precio.',synonyms:['moderadamente','a bajo precio']},
+  
   modicidad:{definition:'Cualidad de módico: moderación en la cantidad o en el precio.',synonyms:['moderación','precio bajo']},
   modico:{definition:'Moderado o limitado en cantidad, precio o intensidad.',synonyms:['moderado','reducido','barato']},
   modificable:{synonyms:['alterable','transformable','susceptible de modificación']},

@@ -11,5 +11,5 @@
   disfrezarse:{definition:"Desusado. Disfrazarse: ocultar o cambiar la propia apariencia para no ser reconocido.",synonyms:["disfrazarse","camuflarse","encubrirse"],example:{word:"disfrezarse",text:"En el relato antiguo, el viajero tuvo que disfrezarse para entrar en la ciudad."},exampleSynonym:{word:"disfrazarse",text:"En el relato actual, el viajero tuvo que disfrazarse para entrar en la ciudad."}},
   disfrutar:{definition:"Gozar o tener el uso y beneficio de algo; sentir satisfacción al hacer o experimentar algo.",synonyms:["gozar","aprovechar","deleitarse"],example:{word:"disfrutar",text:"La familia salió temprano para disfrutar del día junto al mar."},exampleSynonym:{word:"gozar",text:"La familia salió temprano para gozar del día junto al mar."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

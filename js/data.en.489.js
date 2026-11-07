@@ -10,4 +10,4 @@
  quadruplet:{definition:'One of four children born at the same birth; also, one of a set of four related things.',synonyms:['one of four siblings born together','four-part set']},
  quagmire:{definition:'Soft, boggy ground that yields underfoot; figuratively, a difficult or entangling situation.',synonyms:['bog','mire','morass','predicament']},
  quail:{definition:'Noun: a small, plump game bird of the pheasant family. Verb: to lose heart or draw back in fear.',synonyms:['game bird','lose courage','shrink back']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

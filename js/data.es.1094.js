@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3218-jacobinismo-centralization","word":"jacobinismo","image":{"id":7024,"alt":"Un mapa muestra un gobierno central y sus regiones."},"definition":"Defensa de un Estado fuerte y centralizado.","synonyms":["centralismo estatal","centralismo jacobino"],"example":{"word":"jacobinismo","text":"El jacobinismo defendía un Estado fuerte y centralizado."},"exampleSynonym":{"word":"centralismo estatal","text":"El centralismo estatal defendía un Estado fuerte y centralizado."},"situacion":"sociedad"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

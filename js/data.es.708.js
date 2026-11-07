@@ -10,7 +10,7 @@
   moderar:{definition:'Reducir la intensidad, la cantidad o los excesos de algo; actuar con mesura.',synonyms:['atemperar','regular','contener']},
   moderativo:{synonyms:['moderador','que modera','relativo a moderar']},
   moderato:{definition:'En música, indicación de tempo moderado.',synonyms:['tempo moderado','andante moderado']},
-  modernamente:{synonyms:['de modo moderno','en la actualidad']},
+  
   modernez:{definition:'Cualidad de moderno; a veces, modernidad afectada o excesiva.',synonyms:['modernidad','modernismo']},
   modernidad:{definition:'Cualidad o condición de moderno; época histórica o cultural caracterizada por la modernidad.',synonyms:['carácter moderno','época moderna']},
   modernizador:{synonyms:['renovador','actualizador','reformador']},

@@ -1,7 +1,7 @@
 /* Reviewed English dictionary updates for batch 1993. */
 (()=>{
-  const reviewed=['unfold','unfurl','account-for','construe','expound','explicate','explicitly','explicit','explorer','express'];
-  for(const id of reviewed){const e=DICCIONARIOS.en.find(x=>x.id===id);if(!e)throw Error('Missing en/'+id);delete e.translation;}
+  const reviewed=["unfold","unfurl","account-for","construe","expound","explicate","explicit","explorer","express"];
+  for(const id of reviewed){const e=DICCIONARIOS.en.find(x=>x.id===id);if(!e)throw Error('Missing en/'+id);if(e)if(e)delete e.translation;}
   const accountFor=DICCIONARIOS.en.find(e=>e.id==='account-for');
   accountFor.example={word:'account for',text:'The audit must account for every expense, and shipping costs account for a third of the total.'};
   accountFor.exampleSynonym={word:'explain',text:'The audit must explain every expense, and shipping costs make up a third of the total.'};

@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3417-madriguera-human","word":"madriguera","image":{"id":7024,"alt":"Una palabra del diccionario."},"definition":"Escondite donde una persona o un grupo se refugia.","synonyms":["escondite","refugio"],"example":{"word":"madriguera","text":"La banda volvió a su madriguera después del robo."},"exampleSynonym":{"word":"escondite","text":"La banda volvió a su escondite después del robo."},"situacion":"vida-diaria","translation":{"en":"hideout; hiding place"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

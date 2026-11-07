@@ -1,7 +1,7 @@
 /* Reviewed English dictionary updates for batch 1989. */
 (()=>{
   const reviewed=['eternity','eternal','euphemism','eunuch','eureka','euro','evade','shirk','evaluate','gospel'];
-  for(const id of reviewed){const e=DICCIONARIOS.en.find(x=>x.id===id);if(!e)throw Error('Missing en/'+id);delete e.translation;}
+  for(const id of reviewed){const e=DICCIONARIOS.en.find(x=>x.id===id);if(!e)throw Error('Missing en/'+id);if(e)if(e)delete e.translation;}
   const eternity=DICCIONARIOS.en.find(e=>e.id==='eternity');
   eternity.example={word:"eternity",text:"The wait for the delayed train felt like an eternity."};
   eternity.exampleSynonym={word:"endless time",text:"The wait for the delayed train felt like endless time."};

@@ -2,7 +2,7 @@
 (()=>{const u={
  quixote:{definition:'A person who is impractically idealistic or romantic, in the manner of Don Quixote.',synonyms:['idealist','visionary','romantic']},
  quixotic:{synonyms:['impractically idealistic','romantic','visionary','unrealistic']},
- quixotically:{definition:'In an impractically idealistic or romantic manner, like Don Quixote.',synonyms:['idealistically','romantically','unrealistically']},
+ 
  quixotism:{definition:'Impractical idealism or romanticism resembling the character of Don Quixote.',synonyms:['quixotry','impractical idealism','romanticism']},
  quixotry:{definition:'Impractical idealism or romanticism, especially when it appears absurd or presumptuous.',synonyms:['quixotism','impractical idealism','romanticism']},
  quiz:{definition:'Noun: a short test of knowledge. Verb: to question someone, especially closely or informally.',synonyms:['test','question','interrogate']},
@@ -20,4 +20,4 @@
  'rabbit-3':{definition:'Adjective: resembling a rabbit or relating to rabbits.',synonyms:['leporine','rabbit-like']},
  'rabbit-mouthed':{definition:'Having a mouth or upper lip that resembles a rabbit’s.',synonyms:['rabbit-like-mouthed']},
  'rabbit-farming':{definition:'The breeding and raising of rabbits, especially as an agricultural activity.',synonyms:['rabbit husbandry','rabbit breeding']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

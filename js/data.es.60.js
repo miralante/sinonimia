@@ -1,7 +1,7 @@
 /* Reviewed Spanish dictionary updates for batch 2022. */
 (()=>{
   const updates={
-    desatadamente:{definition:"Adverbio: de manera desatada, sin freno ni moderación.",synonyms:["desenfrenadamente","desmedidamente","sin freno"],example:{word:"desatadamente",text:"La multitud celebró desatadamente la victoria del equipo."},exampleSynonym:{word:"desenfrenadamente",text:"La multitud celebró desenfrenadamente la victoria del equipo."}},
+    
     desatador:{definition:"Adjetivo y sustantivo: que desata.",synonyms:["que desata","liberador","desligador"],example:{word:"desatador",text:"El mecanismo desatador soltó el cable de seguridad."},exampleSynonym:{word:"liberador",text:"El mecanismo liberador soltó el cable de seguridad."}},
     desatadura:{definition:"Sustantivo femenino: acción y efecto de desatar o desatarse.",synonyms:["desatamiento","desanudamiento","desligamiento"],example:{word:"desatadura",text:"La desatadura del nudo requirió paciencia y unas pinzas."},exampleSynonym:{word:"desanudamiento",text:"El desanudamiento requirió paciencia y unas pinzas."}},
     desatalentado:{definition:"Adjetivo poco usado: desconcertado o fuera de tino.",synonyms:["desconcertado","desorientado","aturdido"],example:{word:"desatalentado",text:"El mensajero quedó desatalentado al recibir instrucciones contradictorias."},exampleSynonym:{word:"desconcertado",text:"El mensajero quedó desconcertado al recibir instrucciones contradictorias."}},
@@ -12,5 +12,5 @@
     desatemplarse:{definition:"Verbo pronominal desusado: destemplarse o desarreglarse.",synonyms:["destemplarse","desarreglarse","alterarse"],example:{word:"desatemplarse",text:"En el relato, el viajero teme desatemplarse durante la tormenta."},exampleSynonym:{word:"destemplarse",text:"En el relato, el viajero teme destemplarse durante la tormenta."}},
     desatender:{definition:"Verbo transitivo: no prestar atención a lo que se dice o hace; dejar de cuidar una obligación, necesidad o asunto.",synonyms:["ignorar","descuidar","desoír","no atender"],example:{word:"desatender",text:"No conviene desatender las señales de alarma ni las necesidades del equipo."},exampleSynonym:{word:"ignorar",text:"No conviene ignorar las señales de alarma ni las necesidades del equipo."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

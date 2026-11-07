@@ -17,4 +17,4 @@
  escuridad:{synonyms:['oscuridad','tiniebla','falta de luz']},
  escuro:{synonyms:['oscuro','tenebroso','falto de luz']},
  escurribanda:{definition:'Coloquial: escapatoria o acción de evadirse; también, zurra, flujo o corrimiento de un líquido y, en uso poco frecuente, diarrea.',synonyms:['escapatoria','evasión','zurribanda (paliza)','flujo','diarrea (poco usado)'],example:{word:'escurribanda',text:'Encontró una escurribanda y salió de la reunión sin que lo vieran.'},exampleSynonym:{word:'escapatoria',text:'Encontró una escapatoria y salió de la reunión sin que lo vieran.'}}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

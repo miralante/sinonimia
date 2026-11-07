@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3449-mamoncillo-fruit","word":"mamoncillo","image":{"id":7024,"alt":"Dictionary illustration"},"definition":"Fruto pequeño, redondo y comestible del árbol de mamoncillo.","synonyms":["quenepa","mamón","limoncillo"],"example":{"word":"mamoncillo","text":"Compraron mamoncillos maduros en el mercado."},"exampleSynonym":{"word":"quenepa","text":"Compraron quenepas maduras en el mercado."},"situacion":"vida-diaria","translation":{"en":"mamoncillo fruit; Spanish lime"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

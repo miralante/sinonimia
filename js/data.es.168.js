@@ -12,5 +12,5 @@
   disimilar:{definition:"No ser semejante o no tener las mismas características que otra cosa.",synonyms:["diferir","distinguirse","ser diferente"],example:{word:"disimilar",text:"Las dos muestras pueden disimilar en color y textura."},exampleSynonym:{word:"diferir",text:"Las dos muestras pueden diferir en color y textura."}},
   disimilitud:{definition:"Falta de semejanza entre dos o más cosas; diferencia o desigualdad.",synonyms:["diferencia","desemejanza","desigualdad"],example:{word:"disimilitud",text:"El estudio destacó la disimilitud entre ambas variedades."},exampleSynonym:{word:"diferencia",text:"El estudio destacó la diferencia entre ambas variedades."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

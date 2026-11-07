@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3554-mentalismo-performance","word":"mentalismo","image":{"id":7024,"alt":"Una palabra del diccionario"},"definition":"Espectáculo con trucos que parecen leer la mente.","synonyms":["magia mental"],"example":{"word":"mentalismo","text":"El mentalismo sorprendió al público con sus trucos."},"exampleSynonym":{"word":"magia mental","text":"La magia mental sorprendió al público con sus trucos."},"situacion":"arte","translation":{"en":"mentalism"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

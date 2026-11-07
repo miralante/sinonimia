@@ -1,0 +1,1 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)return;const ids=new Set(['gurbionado','gurdo','guri','guripa','gurisa','guro','gurrion','gurrufero','gurrumina','gurrumino','gurrunar','gurruno']);d.splice(0,d.length,...d.filter(x=>!ids.has(x.id)));})();

@@ -4,5 +4,5 @@
   twenty:{definition:'The number 20; also, the numeral or quantity represented by it.',synonyms:['20','score (group of twenty)']},
   'twenty-first':{definition:'The ordinal number after twentieth; also, one of twenty-one equal parts.',synonyms:['21st','one twenty-first']},
   'twenty-four':{definition:'The number 24; also, the numeral or quantity represented by it.',synonyms:['24','two dozen']},
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['tv-movie-2','tweet-2','tweety','twelfth-2','twelfth-3','twelfth-4','twenty-2','twenty-3','twenty-4','twenty-four-2','twenty-four-3']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

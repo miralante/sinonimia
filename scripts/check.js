@@ -30,6 +30,7 @@ const path = require("path");
 const crypto = require("crypto");
 
 const ROOT = path.join(__dirname, "..");
+const jsDir = path.join(ROOT, "js");
 let errorCount = 0;
 
 function fail(message) {
@@ -363,9 +364,12 @@ ok("dictionary source manifest and cache-busting checked (" + dictionaryFiles.le
 // or a hand edit. Fix: node scripts/build-dictionary-data.js
 (function () {
   const builder = require("./build-dictionary-data.js");
+  const { applySynonymMerges } = require("./ingest/pipeline/shared/apply-synonym-merges");
   let built;
   try {
-    built = builder.build(DICCIONARIOS);
+    // Match the production builder: the runtime files omit editorially
+    // excluded entries and apply confirmed synonym merges before hashing.
+    built = builder.build(applySynonymMerges(DICCIONARIOS));
   } catch (e) {
     fail("scripts/build-dictionary-data.js: " + e.message);
     return;

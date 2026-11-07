@@ -36,7 +36,7 @@
   souvenir:{synonyms:['memento','keepsake','remembrance']},
   sovereign:{definition:'Having supreme authority or independence; a monarch or ruler; also, a former British gold coin worth one pound. As a verb, to rule or dominate as a sovereign.',synonyms:['independent','self-governing','monarch','ruler']},
   spalting:{definition:'A pattern of dark lines or discoloration in wood caused by fungi; also, the process by which such patterns form.',synonyms:['fungal wood pattern','spalted wood']},
-  sparsely:{definition:'In a thinly scattered or widely spaced manner.',synonyms:['thinly','scantily','widely spaced']},
+  
   sparrowhawk:{definition:'A small hawk that hunts birds, especially the Eurasian sparrowhawk (Accipiter nisus).',synonyms:['Accipiter nisus','small hawk']},
   sparteine:{definition:'A quinolizidine alkaloid found in broom plants, including Scotch broom; it has pharmacological effects and has been used medicinally.',synonyms:['broom alkaloid','quinolizidine alkaloid']},
   spastic:{definition:'Relating to or affected by spasms or increased muscle tone. When used of a person, the term is often considered offensive; use a specific clinical description where relevant.',synonyms:['spasmodic','affected by muscle spasticity']},
@@ -71,6 +71,6 @@
   'squeeze-10':{definition:'To press firmly, especially with the hands or between two surfaces.',synonyms:['press','compress','squeeze']},
   'squeeze-11':{definition:'A very forceful or tight squeeze.',synonyms:['tight squeeze','strong compression']},
   'squeeze-12':{definition:'To extract liquid by applying pressure.',synonyms:['press out','wring','squeeze out']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['smallness-3','smash-2','smash-3','smash-4','smear-4','smear-5','smear-6','smelly-4','smile-2','smiledream','smiling-3','smoke-4','smoke-5','smoke-6','smoke-10','smoked-2','smoked-3','smoked-5','smoking-2','smoking-3','smoking-5','smooth-2','smooth-5','smooth-6','smoothie-2','smoothing','smoothness-2','smother-3','smother-4','smother-5','smother-6','smuggling-3','smuggling-5','smuggling-6','snag','snake-3','snake-4','snap-5','snap-6','snap-7','snap-8','snapping-2','snatch-3','snatch-4','snatch-5','sneak-5','sneak-6','sneak-away-2','sneeze-2','sneeze-3','sneeze-4','sniffle-3','sniffle-4','sniff-4','sniff-6','snitch-5','snitch-9','snooze-2','snooping-3','snout-3','snout-4','snow-3','snow-4','snowfall-2','snowy-3','snowy-4','snubly','snuffer','snuggle-2','snuggled']);
 DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

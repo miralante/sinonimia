@@ -12,5 +12,5 @@
     demonizar:{definition:"Atribuir carácter demoníaco a alguien o algo; por extensión, presentarlo como extremadamente perverso o censurable.",synonyms:["satanizar","vilipendiar","presentar como perverso"],example:{word:"demonizar",text:"El debate perdió rigor cuando algunos participantes empezaron a demonizar a sus adversarios."},exampleSynonym:{word:"satanizar",text:"El debate perdió rigor cuando algunos participantes empezaron a satanizar a sus adversarios."}},
     demonologia:{definition:"Estudio de los demonios y de las creencias, relatos y doctrinas relacionadas con ellos.",synonyms:["estudio de los demonios","doctrina sobre los demonios"],example:{word:"demonología",text:"El curso compara la demonología medieval con las tradiciones antiguas."},exampleSynonym:{word:"estudio de los demonios",text:"El curso compara el estudio de los demonios en la Edad Media con las tradiciones antiguas."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

@@ -16,4 +16,4 @@
  enastado:{definition:'Que tiene astas o cuernos.',synonyms:['cornudo','con astas'],example:{word:'enastado',text:'El animal enastado se mantuvo apartado del rebaño.'},exampleSynonym:{word:'con astas',text:'El animal con astas se mantuvo apartado del rebaño.'}},
  enastar:{definition:'Poner el mango o asta a un arma o instrumento.',synonyms:['enmangar','poner un asta','encabar'],example:{word:'enastar',text:'El herrero tuvo que enastar la herramienta.'},exampleSynonym:{word:'enmangar',text:'El herrero tuvo que enmangar la herramienta.'}},
  enastilar:{definition:'Poner un astil o mango a una herramienta.',synonyms:['enmangar','enastar','poner un astil'],example:{word:'enastilar',text:'El artesano decidió enastilar la azada nueva.'},exampleSynonym:{word:'enmangar',text:'El artesano decidió enmangar la azada nueva.'}}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

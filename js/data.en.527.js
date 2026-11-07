@@ -9,4 +9,4 @@
  reconvalesce:{definition:'To return to convalescence or recover again after a setback in recovery.',synonyms:['recover again','resume convalescence']},
  reconvert:{definition:'To convert or change something back to its previous form, state, or use.',synonyms:['change back','restore','convert again']},
  record:{definition:'A written, electronic, or other account of information or events; a best or highest achievement. As a verb, to write down, capture, or register information, sound, or images.',synonyms:['account','document','register','achievement']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

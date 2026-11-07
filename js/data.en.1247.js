@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3383-ailing-institution","word":"ailing","image":{"id":7024,"alt":"Illustration related to ailing."},"definition":"In poor condition or struggling to succeed.","synonyms":["struggling","failing"],"example":{"word":"ailing","text":"The ailing company lost many customers."},"exampleSynonym":{"word":"struggling","text":"The struggling company lost many customers."},"situacion":"vida-diaria","translation":{"es":"en dificultades; en declive"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

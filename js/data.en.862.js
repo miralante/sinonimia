@@ -1,0 +1,4 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)return;const set=(id,f)=>{const x=d.find(q=>q.id===id);if(!x)throw Error('missing en '+id);Object.assign(x,f)};
+set('rapid',{definition:'A rough, fast-flowing section of a river.',synonyms:['rough stretch of river','white-water section'],example:{word:'rapid',text:'The canoe passed through the rapid before dusk.'},exampleSynonym:{word:'rough stretch of river',text:'The canoe passed through the rough stretch of river before dusk.'},situacion:'conocimiento'});
+set('rapist',{definition:'A person who forces someone to have sex without consent.',synonyms:['person who commits rape'],example:{word:'rapist',text:'The court sentenced the rapist after the trial.'},exampleSynonym:{word:'person who commits rape',text:'The court sentenced the person who committed rape after the trial.'},situacion:'legal'});
+})();

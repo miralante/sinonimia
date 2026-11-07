@@ -10,7 +10,7 @@
   overhang:{definition:"Noun: a part of a structure that projects beyond the part below it. Verb: to project over or above something, or to threaten from above.",synonyms:["projection","eave","project over","loom over"],example:{word:"overhang",text:"The roof has a wide overhang that shelters the doorway."},exampleSynonym:{word:"projection",text:"The roof has a wide projection that shelters the doorway."}},
   overheal:{definition:"To heal over or heal excessively; in medical use, to heal beyond the normal point, sometimes forming excess scar tissue.",synonyms:["heal over","heal excessively","form excess scar tissue"],example:{word:"overheal",text:"Some wounds can overheal and develop excess scar tissue."},exampleSynonym:{word:"heal excessively",text:"Some wounds can heal excessively and develop excess scar tissue."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  if(!DICCIONARIOS.en.some(e=>e.id==='overguard'))throw Error('Missing en/overguard');
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>e.id!=='overguard');
 })();

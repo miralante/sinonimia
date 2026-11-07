@@ -11,5 +11,5 @@
   disestesia:{definition:"Sensación anormal y desagradable, espontánea o provocada por un estímulo, como ardor, dolor u hormigueo.",synonyms:["sensación desagradable anormal","alteración sensorial","parestesia dolorosa (según el caso)"],example:{word:"disestesia",text:"La lesión nerviosa le causaba disestesia y ardor en la mano."},exampleSynonym:{word:"alteración sensorial",text:"La lesión nerviosa le causaba una alteración sensorial y ardor en la mano."}},
   disfagia:{definition:"Dificultad para tragar alimentos, líquidos o saliva.",synonyms:["dificultad para tragar","trastorno de la deglución"],example:{word:"disfagia",text:"La paciente informó de disfagia al beber líquidos."},exampleSynonym:{word:"dificultad para tragar",text:"La paciente informó de dificultad para tragar líquidos."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

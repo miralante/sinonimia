@@ -5,4 +5,4 @@
  pucker:{definition:'To draw or gather into small wrinkles or folds; of the skin, lips, or fabric, to become wrinkled or puckered.',synonyms:['wrinkle','gather','crease','draw together']},
  'puff-2':{definition:'To ornament fabric with raised, rounded folds or gathers.',synonyms:['puff (sewing)','gather into puffs','ruche']},
  'public-wifi-network':{definition:'Wireless internet access made available to the public in a place such as a café, library, or station; it may be free or paid.',synonyms:['public Wi-Fi','public wireless network','Wi-Fi hotspot']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

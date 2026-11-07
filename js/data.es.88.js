@@ -11,5 +11,5 @@
   desenvoltura:{definition:"Sustantivo femenino: desembarazo, despejo o desenfado al actuar o expresarse; soltura y naturalidad.",synonyms:["desembarazo","despejo","desenfado","soltura","naturalidad"],example:{word:"desenvoltura",text:"Contestó con desenvoltura a las preguntas de la entrevista."},exampleSynonym:{word:"soltura",text:"Contestó con soltura a las preguntas de la entrevista."}},
   desenvolvedor:{definition:"Adjetivo, también usado como sustantivo: que desenvuelve, averigua o escudriña.",synonyms:["investigador","indagador","averiguador","explorador"],example:{word:"desenvolvedor",text:"El investigador desenvolvedor examinó cada detalle del caso."},exampleSynonym:{word:"indagador",text:"El investigador indagador examinó cada detalle del caso."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

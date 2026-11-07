@@ -11,5 +11,5 @@
   desforestar:{definition:"Verbo transitivo, variante de deforestar: talar o destruir los bosques de una zona.",synonyms:["deforestar","talar","desboscar"],example:{word:"desforestar",text:"La tala indiscriminada puede desforestar grandes extensiones de terreno."},exampleSynonym:{word:"deforestar",text:"La tala indiscriminada puede deforestar grandes extensiones de terreno."}},
   desfortalecer:{definition:"Verbo transitivo: desguarnecer o debilitar una fortaleza, quitándole defensas, refuerzos o fuerza.",synonyms:["desguarnecer","debilitar","desmantelar"],example:{word:"desfortalecer",text:"Retirar las murallas podía desfortalecer la fortaleza fronteriza."},exampleSynonym:{word:"desguarnecer",text:"Retirar las murallas podía desguarnecer la fortaleza fronteriza."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

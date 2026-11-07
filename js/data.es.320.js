@@ -8,4 +8,4 @@
  enacerar:{definition:'Hacer que algo parezca o se vuelva como el acero; endurecer o dar firmeza.',synonyms:['endurecer','fortalecer','hacer como acero'],example:{word:'enacerar',text:'La disciplina llegó a enacerar su voluntad.'},exampleSynonym:{word:'endurecer',text:'La disciplina llegó a endurecer su voluntad.'}},
  enaciado:{definition:'Persona muy delgada o consumida.',synonyms:['delgado','escuálido','consumido'],example:{word:'enaciado',text:'Tras la larga enfermedad, regresó enaciado.'},exampleSynonym:{word:'escuálido',text:'Tras la larga enfermedad, regresó escuálido.'}},
  enaguachar:{definition:'Llenar un recipiente o un terreno con agua en exceso.',synonyms:['enaguar','encharcar','inundar'],example:{word:'enaguachar',text:'La fuga llegó a enaguachar el patio.'},exampleSynonym:{word:'encharcar',text:'La fuga llegó a encharcar el patio.'}}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

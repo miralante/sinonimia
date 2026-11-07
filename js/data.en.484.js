@@ -7,4 +7,4 @@
  purr:{definition:'To make a low, continuous, vibrating sound, especially the sound a contented cat makes; also, the sound itself.',synonyms:['rumble softly','trill','cat’s vibrating sound']},
  pursuable:{definition:'Capable of being followed, undertaken, or pursued; in law, capable of being pursued as a claim or action.',synonyms:['achievable','followable','actionable (legal context)']},
  pursuer:{definition:'A person or thing that follows, chases, or seeks to attain someone or something.',synonyms:['chaser','follower','seeker']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

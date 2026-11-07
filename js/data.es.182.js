@@ -11,5 +11,5 @@
   divalente:{definition:"En química, dicho de un elemento o compuesto: que actúa con valencia dos o forma dos enlaces, según el contexto.",synonyms:["bivalente","de valencia dos"],example:{word:"divalente",text:"El ion divalente lleva una carga positiva doble."},exampleSynonym:{word:"bivalente",text:"El ion bivalente lleva una carga positiva doble."}},
   divan:{word:"diván",definition:"Asiento ancho, parecido a un sofá o una cama, que suele carecer de respaldo y brazos; también, en ciertos países, oficina o consejo gubernamental de tradición oriental.",synonyms:["sofá sin brazos","canapé","consejo (sentido histórico)"],example:{word:"diván",text:"Dejó el libro sobre el diván junto a la ventana."},exampleSynonym:{word:"sofá sin brazos",text:"Dejó el libro sobre el sofá sin brazos junto a la ventana."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

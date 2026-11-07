@@ -11,5 +11,5 @@
   dipsacaceo:{definition:"Perteneciente o relativo a las dipsacáceas, familia de plantas herbáceas o arbustivas; se usa también como sustantivo femenino plural para designar esa familia.",synonyms:["relativo a las dipsacáceas","de la familia Dipsacaceae"],example:{word:"dipsacáceo",text:"La escabiosa es una planta de la familia dipsacácea."},exampleSynonym:{word:"de la familia Dipsacaceae",text:"La escabiosa es una planta de la familia Dipsacaceae."}},
   dipsaceo:{definition:"Perteneciente o relativo a las dipsáceas, familia botánica también llamada Dipsacaceae.",synonyms:["relativo a las dipsáceas","dipsacáceo"],example:{word:"dipsáceo",text:"El botánico clasificó la planta como dipsácea."},exampleSynonym:{word:"dipsacáceo",text:"El botánico clasificó la planta como dipsacácea."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

@@ -7,4 +7,4 @@
  're-break':{definition:'To break something again, or to break it into smaller pieces after it has already been broken.',synonyms:['break again','break into smaller pieces']},
  rebuke:{definition:'To criticize or reprimand someone sharply.',synonyms:['reprimand','scold','reproach']},
  rebuker:{definition:'A person who rebukes or criticizes someone.',synonyms:['critic','reprover','admonisher']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

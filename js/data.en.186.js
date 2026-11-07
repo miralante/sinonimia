@@ -4,4 +4,4 @@
  'overprint-2':null,
  'overrate-2':null,
  'overprimed':null
-};for(const [id,p] of Object.entries(u)){if(p===null){if(!DICCIONARIOS.en.some(x=>x.id===id))throw Error('Missing en/'+id);DICCIONARIOS.en=DICCIONARIOS.en.filter(x=>x.id!==id);continue;}const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){if(p===null){if(!DICCIONARIOS.en.some(x=>x.id===id))throw Error('Missing en/'+id);DICCIONARIOS.en=DICCIONARIOS.en.filter(x=>x.id!==id);continue;}const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

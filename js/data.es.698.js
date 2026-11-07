@@ -7,7 +7,7 @@
   melanico:{definition:'Perteneciente o relativo a la melanina o a la pigmentación oscura.',synonyms:['relativo a la melanina','pigmentario']},
   melifero:{definition:'Que produce o contiene miel; en botánica, dicho de una planta que atrae a las abejas o les proporciona néctar.',synonyms:['melífero','productor de miel']},
   melifluo:{definition:'Dulce, suave o agradable, como la miel; dicho de una voz o manera de hablar, excesivamente suave y a veces afectada.',synonyms:['dulce','suave','empalagoso (uso peyorativo)']},
-  melifluamente:{synonyms:['dulcemente','suavemente','con tono melifluo']},
+  
   melifluidad:{synonyms:['suavidad afectada','dulzura']},
   melcochon:{definition:'De consistencia blanda, pegajosa o correosa, como la melcocha; uso regional.',synonyms:['pegajoso','correoso','melcochudo']},
   melcochoso:{definition:'De consistencia o textura semejante a la melcocha; pegajoso o blando.',synonyms:['pegajoso','melcochudo','correoso']},
@@ -37,7 +37,7 @@
   menazar:{synonyms:['amenazar (variante anticuada)','conminar']},
   menchevismo:{definition:'Corriente moderada del movimiento socialista ruso, opuesta a la mayoría bolchevique y asociada a Julius Martov y otros dirigentes.',synonyms:['corriente menchevique','menchevismo ruso']},
   mendaz:{definition:'Que miente o contiene falsedad; dicho de una persona, que no dice la verdad.',synonyms:['mentiroso','embustero','falso']},
-  mendosamente:{definition:'De manera mendaz o engañosa.',synonyms:['engañosamente','con falsedad']},
+  
   medusa:{synonyms:['cnidario gelatinoso','aguaviva','aguamala (regional)']},
   meduloso:{synonyms:['medular','con médula']},
   medusa:{synonyms:['cnidario gelatinoso','aguaviva','aguamala (regional)']},

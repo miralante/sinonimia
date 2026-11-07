@@ -29,4 +29,4 @@
  espirador:{definition:'Que espira o exhala; también, relativo a la espiración.',synonyms:['exhalador','espiratorio']},
  espirante:{definition:'Que espira o exhala aire; relativo a la espiración.',synonyms:['exhalante','espiratorio']},
  espirar:{definition:'Expulsar el aire de los pulmones; también, en sentido figurado o antiguo, morir o acabarse.',synonyms:['exhalar','expirar (en el sentido de respirar hacia fuera)','morir (uso literario)']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

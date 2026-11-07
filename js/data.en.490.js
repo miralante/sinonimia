@@ -13,4 +13,4 @@
  quantum:{synonyms:['discrete amount','quantum of energy','quantity']},
  quarantine:{definition:'A period of isolation, or the act of isolating people, animals, or goods that may carry an infectious disease to prevent its spread.',synonyms:['isolation','isolation period','separation']},
  'quarantine-zone':{definition:'An area where people, animals, or goods are kept apart to prevent the spread of an infectious disease.',synonyms:['isolation area','restricted area']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

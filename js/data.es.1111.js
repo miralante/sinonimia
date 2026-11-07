@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3255-joyeria-craft","word":"Joyería","image":{"id":7024,"alt":"A craftsperson shapes a gold ring in a jewelry workshop."},"definition":"Arte y oficio de diseñar y fabricar joyas.","synonyms":["orfebrería","fabricación de joyas"],"example":{"word":"joyería","text":"Estudió joyería para aprender a trabajar el oro."},"exampleSynonym":{"word":"orfebrería","text":"Estudió orfebrería para aprender a trabajar el oro."},"situacion":"trabajo"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

@@ -1,7 +1,7 @@
 /* Reviewed English dictionary updates for batch 1990. */
 (()=>{
-  const reviewed=['evident','evidently','invoke','exactly','exactness','accuracy','exaggeratedly','exaggerated','exaggerate','overstate'];
-  for(const id of reviewed){const e=DICCIONARIOS.en.find(x=>x.id===id);if(!e)throw Error('Missing en/'+id);delete e.translation;}
+  const reviewed=["evident","invoke","exactness","accuracy","exaggerated","exaggerate","overstate"];
+  for(const id of reviewed){const e=DICCIONARIOS.en.find(x=>x.id===id);if(!e)throw Error('Missing en/'+id);if(e)if(e)delete e.translation;}
   const invoke=DICCIONARIOS.en.find(e=>e.id==='invoke');
   invoke.definition="To call upon for help or support; to cite as authority or justification; to bring into effect; or to produce a particular response or memory.";
   invoke.synonyms=['call upon','cite','appeal to','implement','evoke (contextual)'];

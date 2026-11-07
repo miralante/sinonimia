@@ -8,7 +8,7 @@
   overdiagnosis:{definition:"The diagnosis of a real condition that would not have caused symptoms or harm during a person's lifetime; distinct from a false positive, which identifies a condition that is not actually present.",synonyms:["diagnosis of a non-harmful condition","detection of an indolent condition"],example:{word:"overdiagnosis",text:"The review examined whether screening could lead to overdiagnosis."},exampleSynonym:{word:"diagnosis of a non-harmful condition",text:"The review examined whether screening could identify a non-harmful condition."}},
   overdose:{definition:"Noun: an excessive amount of a drug or medicine taken at one time. Verb: to take or administer too much of a drug or medicine.",synonyms:["excessive dose","toxic dose","take too much"],example:{word:"overdose",text:"An overdose can be a medical emergency."},exampleSynonym:{word:"excessive dose",text:"An excessive dose can be a medical emergency."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  for(const id of ['overcome-3','overdezmero','overdine'])if(!DICCIONARIOS.en.some(e=>e.id===id))throw Error('Missing en/'+id);
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!['overcome-3','overdezmero','overdine'].includes(e.id));
 })();

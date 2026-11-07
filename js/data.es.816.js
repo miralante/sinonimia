@@ -1,0 +1,1 @@
+(()=>{const ids=new Set(['guaraca','guaracaro','guarachoso','guarachudo','guaragua','guaral','guaramo','guaranga','guarangada','guarango','guaranitico','guarapera']);DICCIONARIOS.es=DICCIONARIOS.es.filter(x=>!ids.has(x.id));})();

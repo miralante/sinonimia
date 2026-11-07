@@ -7,7 +7,7 @@
   overcomb:{definition:"To comb too much or excessively.",synonyms:["comb excessively","overgroom"],example:{word:"overcomb",text:"Do not overcomb wet hair, since it can break more easily."},exampleSynonym:{word:"comb excessively",text:"Do not comb wet hair excessively, since it can break more easily."}},
   overcome:{definition:"To succeed in dealing with or defeating a difficulty, obstacle, or opponent; to affect someone very strongly, especially with emotion; in older or less common use, to surpass or be superior to something.",synonyms:["surmount","conquer","prevail over","overwhelm","surpass"],example:{word:"overcome",text:"With patience, she overcame the initial difficulties."},exampleSynonym:{word:"surmount",text:"With patience, she surmounted the initial difficulties."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  for(const id of ['overcloister','overclosed','overcoat-2','overcome-2'])if(!DICCIONARIOS.en.some(e=>e.id===id))throw Error('Missing en/'+id);
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!['overcloister','overclosed','overcoat-2','overcome-2'].includes(e.id));
 })();

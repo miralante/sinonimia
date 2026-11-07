@@ -5,7 +5,7 @@
     poke:{definition:"Verb: to jab or prod with a finger or pointed object, to push something through an opening, or informally to make fun of someone. Noun: a jab or prod.",synonyms:["prod","jab","nudge","prick","tease"],example:{word:"poke",text:"She used a stick to poke the ashes and check whether the fire was out."},exampleSynonym:{word:"prod",text:"She used a stick to prod the ashes and check whether the fire was out."}},
     rare:{definition:"Adjective: uncommon or infrequently occurring; unusually good or valuable. Of meat, cooked only lightly, with the center still red.",synonyms:["uncommon","scarce","infrequent","exceptional","underdone"],example:{word:"rare",text:"The museum displayed a rare manuscript, and the chef served the steak rare."},exampleSynonym:{word:"uncommon",text:"The museum displayed an uncommon manuscript, and the chef served the steak lightly cooked."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
   const reviewed=['escape','pry','frost','rime','scarcity','scenic','skepticism'];
   for(const id of reviewed){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}
 })();

@@ -1,7 +1,7 @@
 /* Reviewed English dictionary updates for batch 1985. */
 (()=>{
   const reviewed=['erupt','pond','tin','statue','stature','status','stellar','star','steppe','stereotype'];
-  for(const id of reviewed){const e=DICCIONARIOS.en.find(x=>x.id===id);if(!e)throw Error('Missing en/'+id);delete e.translation;}
+  for(const id of reviewed){const e=DICCIONARIOS.en.find(x=>x.id===id);if(!e)throw Error('Missing en/'+id);if(e)if(e)delete e.translation;}
   const erupt=DICCIONARIOS.en.find(e=>e.id==='erupt');
   erupt.example={word:"erupt",text:"The volcano could erupt at any moment."};
   erupt.exampleSynonym={word:"burst forth",text:"The volcano could burst forth at any moment."};

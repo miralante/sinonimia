@@ -16,4 +16,4 @@
  pun:{synonyms:['wordplay','play on words','paronomasia']},
  puna:{definition:'A high, cold plateau or grassland region of the central Andes, above the tree line.',synonyms:['Andean high plateau','high-altitude grassland','puna region']},
  punch:{definition:'To strike with the fist; also, a forceful blow, a tool for making holes, or a mixed drink, depending on context.',synonyms:['hit','strike','blow','hole punch','mixed drink']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

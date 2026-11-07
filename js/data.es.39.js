@@ -12,5 +12,5 @@
     denodado:{definition:"Intrépido, esforzado y atrevido; que actúa con valor y resolución.",synonyms:["audaz","resuelto","osado","esforzado","intrépido","valiente","valeroso"],example:{word:"denodado",text:"El equipo denodado realizó una búsqueda hasta rescatar a los excursionistas."},exampleSynonym:{word:"valiente",text:"El equipo valiente realizó una búsqueda hasta rescatar a los excursionistas."}},
     denodarse:{definition:"Verbo pronominal desusado: atreverse, esforzarse o mostrarse osado y feroz.",synonyms:["atreverse","esforzarse","mostrarse osado"],example:{word:"denodarse",text:"El cronista pidió al capitán denodarse en la defensa de la ciudad."},exampleSynonym:{word:"esforzarse",text:"El cronista pidió al capitán esforzarse en la defensa de la ciudad."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

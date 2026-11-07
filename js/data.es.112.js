@@ -11,5 +11,5 @@
   desparrancarse:{definition:"Verbo pronominal: abrir o separar las piernas.",synonyms:["despatarrarse","espatarrarse","despernancarse"],example:{word:"desparrancarse",text:"Al sentarse en el suelo, tuvo que desparrancarse para alcanzar la caja."},exampleSynonym:{word:"despatarrarse",text:"Al sentarse en el suelo, tuvo que despatarrarse para alcanzar la caja."}},
   despartir:{definition:"Verbo transitivo desusado: separar, apartar o dividir; también, poner paz entre quienes riñen.",synonyms:["separar","dividir","reconciliar"],example:{word:"despartir",text:"El mediador intentó despartir a los vecinos que discutían en la plaza."},exampleSynonym:{word:"separar",text:"El mediador intentó separar a los vecinos que discutían en la plaza."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

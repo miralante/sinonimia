@@ -32,5 +32,5 @@
  estesudeste:{definition:'Punto del horizonte situado entre el este y el sudeste; equivale al este-sudeste.',synonyms:['este-sudeste','ESE']},
  esteta:{definition:'Persona que aprecia especialmente la belleza y el arte, o que cultiva el esteticismo.',synonyms:['amante de la belleza','esteticista']},
  estetica:{definition:'Disciplina filosófica que estudia la belleza, el arte y la experiencia estética; también, conjunto de rasgos visuales de algo.',synonyms:['filosofía del arte','teoría de la belleza','aspecto visual']},
- esteticamente:{definition:'De manera estética o conforme a criterios de belleza.',synonyms:['desde el punto de vista estético','bellamente']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+ 
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

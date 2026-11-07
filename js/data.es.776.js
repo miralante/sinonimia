@@ -4,7 +4,7 @@
   opobalsamo:{definition:'Bálsamo aromático obtenido del árbol llamado bálsamo de La Meca (Commiphora gileadensis), usado antiguamente en medicina y perfumería.',synonyms:['bálsamo de La Meca','bálsamo de Judea']},
   opoponace:{definition:'Planta umbelífera conocida como pánace; de ella se obtiene una goma resinosa aromática llamada opopónaco.',synonyms:['pánace','planta del opopónaco']},
   opremente:{definition:'Que oprime o causa agobio.',synonyms:['opresivo','agobiante']},
-  opulentamente:{definition:'Con opulencia o gran abundancia de bienes.',synonyms:['lujosamente','abundantemente']},
+  
   oraje:{definition:'Estado del tiempo o de la temperatura; antiguamente, borrasca o temporal en tierra.',synonyms:['tiempo atmosférico','borrasca (desusado)']},
   orcaneta:{definition:'Planta herbácea de la familia de las boragináceas, de flores azules o violáceas y raíz usada para obtener un colorante rojo.',synonyms:['anchusa','buglosa']},
   orchilla:{definition:'Liquen de los géneros Roccella y afines, que crece sobre rocas y del que se extrae un tinte purpúreo.',synonyms:['roccella','liquen tintóreo']},

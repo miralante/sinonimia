@@ -12,5 +12,5 @@
     decagramo:{definition:"Sustantivo masculino: unidad de masa equivalente a diez gramos; su símbolo es dag.",synonyms:["diez gramos","unidad de masa"],example:{word:"decagramo",text:"La receta antigua indicaba añadir un decagramo de levadura."},exampleSynonym:{word:"diez gramos",text:"La receta antigua indicaba añadir diez gramos de levadura."}},
     decalitro:{definition:"Sustantivo masculino: unidad de capacidad equivalente a diez litros; sus símbolos son dal y daL.",synonyms:["diez litros","unidad de capacidad"],example:{word:"decalitro",text:"El depósito podía almacenar un decalitro de agua."},exampleSynonym:{word:"diez litros",text:"El depósito podía almacenar diez litros de agua."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

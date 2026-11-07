@@ -10,4 +10,4 @@
  pussycat:{definition:'A cat, especially when referred to affectionately or in child-directed speech.',synonyms:['cat','kitty','kitten (by context)']},
  'put-back-the-horse-s-ears':{definition:'To lay a horse’s ears back against its head, usually as a sign of anger, fear, or readiness to threaten.',synonyms:['pin the horse’s ears back','lay the ears back']},
  'put-into-the-fold':{definition:'To bring or welcome someone into a group, organization, or community.',synonyms:['include','welcome into the group','bring in']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

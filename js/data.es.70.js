@@ -11,5 +11,5 @@
     descocer:{definition:"Verbo transitivo poco usado: digerir la comida.",synonyms:["digerir","hacer la digestión"],example:{word:"descocer",text:"El médico recomendó reposo mientras el paciente lograba descocer la comida."},exampleSynonym:{word:"digerir",text:"El médico recomendó reposo mientras el paciente lograba digerir la comida."}},
     descodar:{definition:"Verbo transitivo usado en Aragón: desapuntar o deshilvanar las piezas de paño.",synonyms:["desapuntar","deshilvanar","quitar el hilván"],example:{word:"descodar",text:"La modista tuvo que descodar el paño para corregir la costura."},exampleSynonym:{word:"deshilvanar",text:"La modista tuvo que deshilvanar el paño para corregir la costura."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

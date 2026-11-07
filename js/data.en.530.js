@@ -7,4 +7,4 @@
  rector:{definition:'The head of a university or college in some countries; also, a member of the clergy who leads a parish or church.',synonyms:['university president','parish priest','church leader']},
  rectory:{definition:'A house provided as the residence of a rector or parish priest.',synonyms:['parsonage','clergy residence']},
  recumbent:{definition:'Lying down or reclining, especially in a position of rest.',synonyms:['reclining','lying down','prostrate']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

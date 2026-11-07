@@ -9,7 +9,7 @@
   otorrhea:{definition:"Discharge from the ear; the fluid may be clear, bloody, or purulent depending on its cause.",synonyms:["ear discharge","otorrhoea"],example:{word:"otorrhea",text:"Persistent otorrhea prompted an examination of the ear canal."},exampleSynonym:{word:"ear discharge",text:"Persistent ear discharge prompted an examination of the ear canal."}},
   otosclerosis:{definition:"An abnormal remodeling of bone in the middle ear, often around the stapes, that can restrict its movement and cause hearing loss.",synonyms:["otospongiosis","abnormal middle-ear bone remodeling"],example:{word:"otosclerosis",text:"The specialist explained how otosclerosis can gradually affect hearing."},exampleSynonym:{word:"otospongiosis",text:"The specialist explained how otospongiosis can gradually affect hearing."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  for(const id of ['otompaneca','otomy'])if(!DICCIONARIOS.en.some(e=>e.id===id))throw Error('Missing en/'+id);
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!['otompaneca','otomy'].includes(e.id));
 })();

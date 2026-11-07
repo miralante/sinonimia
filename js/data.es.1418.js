@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3583-microsporofila-2","word":"Microsporofila","image":{"id":7024,"alt":"Una palabra del diccionario"},"definition":"Estambre de una planta con flores.","synonyms":["estambre de una planta con flores","parte masculina de una flor"],"example":{"word":"Microsporofila","text":"La microsporofila es un estambre de una planta con flores."},"exampleSynonym":{"word":"estambre de una planta con flores","text":"La microsporofila es un estambre de una planta con flores."},"situacion":"naturaleza"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

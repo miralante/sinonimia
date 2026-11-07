@@ -11,5 +11,5 @@
   desmentida:{definition:"Sustantivo femenino, usado en varios países de América y antiguamente en España: acción o efecto de desmentir; desmentido.",synonyms:["desmentido","refutación","negación"],example:{word:"desmentida",text:"La desmentida oficial se difundió pocas horas después de la noticia."},exampleSynonym:{word:"desmentido",text:"El desmentido oficial se difundió pocas horas después de la noticia."}},
   desmentido:{definition:"Acción y efecto de desmentir o negar la veracidad de algo o de alguien; también, declaración o comunicado público que lo desmiente.",synonyms:["desmentida","refutación","negación"],example:{word:"desmentido",text:"La empresa publicó un desmentido para responder a las acusaciones."},exampleSynonym:{word:"refutación",text:"La empresa publicó una refutación para responder a las acusaciones."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

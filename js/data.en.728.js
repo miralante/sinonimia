@@ -8,5 +8,5 @@
   typhlology:{definition:'The branch of knowledge concerned with blindness and the care of blind people.',synonyms:['study of blindness','science of blindness']},
   typhlotechnology:{definition:'The study and use of technology that supports people who are blind or have low vision.',synonyms:['assistive technology for visual impairment','technology for blind people']},
   typing:{definition:'The act or skill of entering text by means of a keyboard or typewriter; also, relating to that activity.',synonyms:['keyboarding','keying']},
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['type-2','type-3','type-4','typecast-2','typing-3','typho']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

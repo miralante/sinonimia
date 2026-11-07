@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3448-announcement-act","word":"announcement","image":{"id":7024,"alt":"Dictionary illustration"},"definition":"The act of telling people something officially or publicly.","synonyms":["act of announcing","public notice","declaration"],"example":{"word":"announcement","text":"The announcement of her departure surprised everyone."},"exampleSynonym":{"word":"act of announcing","text":"The act of announcing her departure surprised everyone."},"situacion":"vida-diaria","translation":{"es":"acto de anunciar"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

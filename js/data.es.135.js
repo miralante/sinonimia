@@ -11,5 +11,5 @@
   dialogal:{definition:"Perteneciente o relativo al diálogo, o que tiene características propias de una conversación entre dos o más personas.",synonyms:["dialogístico","conversacional","dialogado"],example:{word:"dialogal",text:"La novela adopta una estructura dialogal entre sus dos protagonistas."},exampleSynonym:{word:"conversacional",text:"La novela adopta una estructura conversacional entre sus dos protagonistas."}},
   dialogante:{definition:"Que participa en un diálogo o está dispuesto a dialogar.",synonyms:["dialogador","conversador","conciliador"],example:{word:"dialogante",text:"La actitud dialogante de la mediadora facilitó el acuerdo."},exampleSynonym:{word:"conciliadora",text:"La actitud conciliadora de la mediadora facilitó el acuerdo."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

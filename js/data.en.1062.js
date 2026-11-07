@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error('missing en');
+{const x={"id":"round3191-vigorous-action","word":"vigorous","image":{"id":7024,"alt":"A team carries out a forceful, energetic training session."},"definition":"Done with force, energy, or determination.","synonyms":["forceful","energetic","intense"],"example":{"word":"vigorous","text":"The team held a vigorous training session before the final."},"exampleSynonym":{"word":"energetic","text":"The team held an energetic training session before the final."},"situacion":"deportes"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

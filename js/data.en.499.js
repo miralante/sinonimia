@@ -13,4 +13,4 @@
  ragtime:{definition:'A style of American music, especially piano music, characterized by syncopated rhythms.',synonyms:['syncopated piano music','ragtime music']},
  ragu:{definition:'A richly flavored Italian meat or vegetable sauce, usually simmered and served with pasta.',synonyms:['ragù','Italian meat sauce','pasta sauce']},
  'radon-detector':{synonyms:['radon monitor','radon test device']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

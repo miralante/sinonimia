@@ -13,4 +13,4 @@
  purifier:{definition:'A person, device, or substance that removes impurities or contaminants.',synonyms:['filter','purifying device','cleanser']},
  purify:{definition:'To remove impurities or contaminants from something; also, to make something morally or symbolically pure.',synonyms:['cleanse','refine','filter','purge']},
  purifying:{definition:'Removing impurities or contaminants; serving to purify.',synonyms:['cleansing','purifying agent','filtering']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

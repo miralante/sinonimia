@@ -1,7 +1,7 @@
 /* Reviewed English dictionary updates for batch 1983. */
 (()=>{
   const reviewed=['spirit','splendid','splendor','sponge','spongy','spontaneity','husband','mate','frothy','foamy'];
-  for(const id of reviewed){const e=DICCIONARIOS.en.find(x=>x.id===id);if(!e)throw Error('Missing en/'+id);delete e.translation;}
+  for(const id of reviewed){const e=DICCIONARIOS.en.find(x=>x.id===id);if(!e)throw Error('Missing en/'+id);if(e)if(e)delete e.translation;}
   const spirit=DICCIONARIOS.en.find(e=>e.id==='spirit');
   spirit.definition="Noun: the nonphysical life or vital principle of a person; also, a supernatural being, a person's mood or energy, the essential character or intent of something, or a distilled alcoholic drink. Verb: to carry someone or something away, usually secretly or mysteriously.";
   spirit.synonyms=["soul","essence","morale","ghost","liquor","carry away secretly"];

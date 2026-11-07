@@ -16,10 +16,10 @@
   incurso:{definition:'Que está comprendido o ha incurrido en una situación, falta o causa prevista, especialmente en una norma.',synonyms:['comprendido','incurrido','sujeto a']},
   indecoro:{definition:'Falta de decoro, de respeto o de decencia.',synonyms:['indecencia','falta de decoro']},
   inconversable:{definition:'Dicho de una persona, difícil de tratar o de mantener una conversación con ella.',synonyms:['intratable','poco comunicativo']},
-  incontrastablemente:{definition:'De manera que no admite oposición o discusión.',synonyms:['irrefutablemente','sin discusión']},
+  
   incuestionable:{definition:'Que no admite duda ni discusión razonable.',synonyms:['indudable','innegable','irrefutable']},
   indeficiente:{definition:'Que no puede faltar o fallar; que se mantiene o se cumple necesariamente.',synonyms:['infalible','constante','necesario']},
-  indefinidamente:{definition:'Por un tiempo que no tiene un límite o una fecha de finalización determinados.',synonyms:['sin límite de tiempo','por tiempo indeterminado']},
+  
   indemnizacion:{definition:'Compensación que se da para reparar un daño, una pérdida o un perjuicio. Su existencia y cuantía dependen de las circunstancias y de la ley aplicable.',synonyms:['compensación','resarcimiento','reparación']},
   indescifrable:{definition:'Que no se puede descifrar, comprender o interpretar.',synonyms:['incomprensible','ilegible (si se refiere a escritura)']},
   indisciplinarse:{definition:'Perder la disciplina o dejar de respetar las reglas de conducta o de organización.',synonyms:['volverse indisciplinado','desobedecer las reglas']},

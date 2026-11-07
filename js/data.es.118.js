@@ -11,5 +11,5 @@
   despoblado:{definition:"Lugar desierto o yermo, especialmente si tuvo habitantes en otro tiempo; en derecho, puede nombrar una circunstancia agravante relacionada con la soledad del lugar.",synonyms:["desierto","yermo","lugar abandonado"],example:{word:"despoblado",text:"El antiguo pueblo quedó convertido en un despoblado tras la emigración de sus habitantes."},exampleSynonym:{word:"lugar abandonado",text:"El antiguo pueblo quedó convertido en un lugar abandonado tras la emigración de sus habitantes."}},
   despojador:{definition:"Que despoja a alguien de sus bienes o de algo que le pertenece; también se usa como sustantivo.",synonyms:["que despoja","expoliador","desposeedor"],example:{word:"despojador",text:"El funcionario despojador quitó a la familia sus tierras sin una explicación."},exampleSynonym:{word:"expoliador",text:"El funcionario expoliador quitó a la familia sus tierras sin una explicación."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

@@ -11,5 +11,5 @@
   diplodoco:{definition:"Dinosaurio saurópodo extinto del Jurásico superior de América del Norte, de cuello y cola muy largos; también llamado diplodocus.",synonyms:["diplodocus","saurópodo"],example:{word:"diplodoco",text:"El diplodoco tenía un cuello y una cola extraordinariamente largos."},exampleSynonym:{word:"diplodocus",text:"El diplodocus tenía un cuello y una cola extraordinariamente largos."}},
   diplodocus:{definition:"Dinosaurio saurópodo de hasta unos 25 metros de longitud y cuello muy largo, propio del Jurásico superior de América del Norte.",synonyms:["diplodoco","saurópodo"],example:{word:"diplodocus",text:"El diplodocus vivió en América del Norte durante el Jurásico superior."},exampleSynonym:{word:"diplodoco",text:"El diplodoco vivió en América del Norte durante el Jurásico superior."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

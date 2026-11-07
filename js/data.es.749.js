@@ -9,13 +9,13 @@
   muncho:{definition:'Variante antigua o dialectal de «mucho»; también, en asturiano, forma neutra de «munchu».',synonyms:['mucho','munchu']},
   mundanal:{definition:'Perteneciente o relativo a la vida terrenal y a las relaciones sociales, en oposición a lo espiritual o religioso.',synonyms:['terrenal','secular','social']},
   mundanalidad:{definition:'Cualidad de mundanal; apego a los placeres o asuntos de la vida terrenal.',synonyms:['mundanidad','secularidad']},
-  mundanamente:{definition:'De manera mundana o propia de la vida terrenal y social.',synonyms:['de modo mundano','terrenalmente']},
+  
   mundanear:{definition:'Atender demasiado a los asuntos o placeres de la vida mundana.',synonyms:['entregarse a los placeres terrenales','llevar vida mundana']},
   mundaneria:{definition:'Cualidad o comportamiento propio de quien está demasiado apegado a la vida mundana.',synonyms:['mundanidad','mundanalidad']},
   mundanidad:{definition:'Cualidad de mundano; apego a los placeres y asuntos de la vida terrenal.',synonyms:['mundanalidad','secularidad']},
   mundano:{definition:'Perteneciente o relativo al mundo y a la vida terrenal, especialmente a sus placeres y relaciones sociales.',synonyms:['terrenal','secular','social']},
   mundializar:{definition:'Extender algo a todo el mundo o convertirlo en mundial.',synonyms:['globalizar','universalizar']},
-  mundialmente:{definition:'En todo el mundo o a escala mundial.',synonyms:['globalmente','universalmente']},
+  
   mundicia:{definition:'Poco usado: limpieza o pureza; en Paraguay y en usos regionales, suciedad o inmundicia.',synonyms:['limpieza','pureza','suciedad (uso regional)']},
   mundificar:{definition:'Limpiar o purificar; antiguamente, limpiar una herida o una parte del cuerpo.',synonyms:['limpiar','purificar','desinfectar']},
   mundificativo:{definition:'Dicho de un medicamento: que sirve para limpiar o purificar, especialmente una herida.',synonyms:['limpiador','purificante','mundificante']},

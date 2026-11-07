@@ -10,7 +10,7 @@
     deponer:{definition:"Verbo transitivo: dejar o apartar de sí; destituir; afirmar o declarar ante una autoridad judicial, entre otros sentidos.",synonyms:["apartar","separar","destituir","atestiguar","declarar","testificar"],example:{word:"deponer",text:"El testigo tuvo que deponer ante el juez sobre lo que había visto."},exampleSynonym:{word:"testificar",text:"El testigo tuvo que testificar ante el juez sobre lo que había visto."}},
     deportismo:{definition:"Sustantivo masculino: afición a los deportes o práctica de ellos.",synonyms:["afición deportiva","práctica de deportes","interés por el deporte"],example:{word:"deportismo",text:"El deportismo de la comunidad se reflejaba en sus ligas locales."},exampleSynonym:{word:"afición deportiva",text:"La afición deportiva de la comunidad se reflejaba en sus ligas locales."}},
     deposar:{definition:"Verbo transitivo desusado: declarar ante una autoridad judicial; deponer.",synonyms:["deponer","testificar","declarar"],example:{word:"deposar",text:"El documento antiguo exigía que el vecino deposara ante el magistrado."},exampleSynonym:{word:"deponer",text:"El documento antiguo describía el acto de deponer ante el magistrado."}},
-    depravadamente:{definition:"Adverbio: de manera depravada, malvada o con gran malicia.",synonyms:["perversamente","malvadamente","viciosamente","con malicia"],example:{word:"depravadamente",text:"El personaje actuó depravadamente para perjudicar a sus rivales."},exampleSynonym:{word:"perversamente",text:"El personaje actuó perversamente para perjudicar a sus rivales."}}
+    
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

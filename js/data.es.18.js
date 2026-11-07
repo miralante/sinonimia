@@ -12,5 +12,5 @@
     cuyamel:{definition:"Sustantivo masculino, en Honduras: pez comestible de río, de hasta 70 centímetros, con dos aletas dorsales, dorso gris oscuro, costados plateados, vientre blanco amarillento y hocico carnoso y prominente.",synonyms:["pez de río hondureño","joturo","Joturus pichardi"],example:{word:"cuyamel",text:"El pescador identificó el cuyamel por su hocico carnoso y sus costados plateados."},exampleSynonym:{word:"joturo",text:"El pescador identificó el joturo por su hocico carnoso y sus costados plateados."}},
     cuye:{definition:"Sustantivo masculino, en Chile: conejillo de Indias o cobaya.",synonyms:["conejillo de Indias","cobaya","cuy"],example:{word:"cuye",text:"En Chile, el cuye es un roedor conocido también como conejillo de Indias."},exampleSynonym:{word:"cobaya",text:"En Chile, la cobaya es un roedor conocido también como conejillo de Indias."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

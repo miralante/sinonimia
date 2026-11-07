@@ -6,4 +6,4 @@
  'red-snapper':{definition:'A fish called a red snapper, especially Lutjanus campechanus, a marine food fish found in the western Atlantic and Gulf of Mexico; the common name can refer to other species in different regions.',synonyms:['Lutjanus campechanus','snapper']},
  redstart:{definition:'Any of several small songbirds called redstarts; Old World redstarts are flycatchers in the family Muscicapidae, while New World redstarts belong to other families.',synonyms:['common redstart','American redstart (a different bird)']},
  'redstem-filaree':{definition:'An annual flowering plant, Erodium cicutarium, in the geranium family, native to the Mediterranean region and now widespread.',synonyms:['Erodium cicutarium','redstem stork’s-bill','common storksbill','alfilaria']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

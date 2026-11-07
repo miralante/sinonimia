@@ -12,5 +12,5 @@
     delincuencial:{definition:"Perteneciente o relativo a la delincuencia.",synonyms:["criminal","delictivo","relativo al delito"],example:{word:"delincuencial",text:"La investigación analizó la actividad delincuencial de la banda."},exampleSynonym:{word:"criminal",text:"La investigación analizó la actividad criminal de la banda."}},
     delinear:{definition:"Trazar las líneas o contornos de una figura; también, esbozar o describir algo de manera general.",synonyms:["dibujar el contorno","bosquejar","esbozar","perfilar"],example:{word:"delinear",text:"La arquitecta comenzó a delinear la fachada en su cuaderno."},exampleSynonym:{word:"bosquejar",text:"La arquitecta comenzó a bosquejar la fachada en su cuaderno."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

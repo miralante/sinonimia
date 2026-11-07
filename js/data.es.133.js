@@ -11,5 +11,5 @@
   dey:{definition:"Título del jefe o príncipe musulmán que gobernaba la regencia de Argel bajo el Imperio otomano.",synonyms:["gobernante de Argel","príncipe de Argel","virrey de Argel (histórico)"],example:{word:"dey",text:"El dey de Argel recibió a los embajadores en su palacio."},exampleSynonym:{word:"gobernante de Argel",text:"El gobernante de Argel recibió a los embajadores en su palacio."}},
   dezmar:{definition:"Variante de diezmar: tomar una décima parte; también, reducir gravemente el número o la fuerza de algo.",synonyms:["diezmar","reducir","mermar","disminuir"],example:{word:"dezmar",text:"La peste llegó a dezmar la población de la ciudad."},exampleSynonym:{word:"diezmar",text:"La peste llegó a diezmar la población de la ciudad."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

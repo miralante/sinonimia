@@ -11,5 +11,5 @@
   desemejable:{definition:"Adjetivo desusado: terrible, desfigurado o muy feo; también, desemejante.",synonyms:["desfigurado","deforme","horrible","desemejante","diferente"],example:{word:"desemejable",text:"El texto antiguo describe una figura desemejable y temible."},exampleSynonym:{word:"deforme",text:"El texto antiguo describe una figura deforme y temible."}},
   desemejado:{definition:"Adjetivo desusado: desemejable; terrible, desfigurado o muy feo.",synonyms:["desfigurado","deforme","desemejable","desemejante"],example:{word:"desemejado",text:"En el poema, el viajero aparece desemejado tras la larga travesía."},exampleSynonym:{word:"desfigurado",text:"En el poema, el viajero aparece desfigurado tras la larga travesía."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

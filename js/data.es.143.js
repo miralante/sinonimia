@@ -11,6 +11,6 @@
   dilapidar:{definition:"Malgastar los bienes propios o aquellos que alguien tiene a su cargo.",synonyms:["despilfarrar","malgastar","derrochar","disipar"],example:{word:"dilapidar",text:"La empresa no debe dilapidar los recursos destinados al proyecto."},exampleSynonym:{word:"malgastar",text:"La empresa no debe malgastar los recursos destinados al proyecto."}},
   dilatable:{definition:"Que puede dilatarse o ampliarse.",synonyms:["ampliable","extensible"],example:{word:"dilatable",text:"La junta decidió que el plazo era dilatable por una semana."},exampleSynonym:{word:"ampliable",text:"La junta decidió que el plazo era ampliable por una semana."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();
 

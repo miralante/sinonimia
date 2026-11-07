@@ -8,7 +8,7 @@
   others:{definition:"People or things distinct from those already mentioned; used with a determiner, the remaining people or things in a group.",synonyms:["other people","the rest","the remainder"],example:{word:"others",text:"Some guests arrived early, while others came after dinner."},exampleSynonym:{word:"the rest",text:"Some guests arrived early, while the rest came after dinner."}},
   otherworldly:{definition:"Seeming to belong to another world; strange, supernatural, or unlike ordinary earthly experience.",synonyms:["unearthly","supernatural","ethereal"],example:{word:"otherworldly",text:"An otherworldly glow spread across the mist-covered lake."},exampleSynonym:{word:"unearthly",text:"An unearthly glow spread across the mist-covered lake."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  for(const id of ['ostrogoth','osyfrage','otheryear'])if(!DICCIONARIOS.en.some(e=>e.id===id))throw Error('Missing en/'+id);
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!['ostrogoth','osyfrage','otheryear'].includes(e.id));
 })();

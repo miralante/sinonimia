@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error('missing en');
+{const x={"id":"round3223-wander-thoughts","word":"wander","image":{"id":7024,"alt":"A student loses focus during a long lesson."},"definition":"To stop following a thought or topic and think about something else.","synonyms":["lose focus","stray from the topic"],"example":{"word":"wander","text":"His mind wandered during the long meeting."},"exampleSynonym":{"word":"lose focus","text":"His mind lost focus during the long meeting."},"situacion":"educacion"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

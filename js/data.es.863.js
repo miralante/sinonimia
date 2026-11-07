@@ -1,0 +1,1 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)return;const ids=new Set(['harpa','harpado','harqueno','harrado','harre','harrear','harria','harrieria','harriero','harropea','hartada','hartadera']);d.splice(0,d.length,...d.filter(x=>!ids.has(x.id)));})();

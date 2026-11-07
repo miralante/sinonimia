@@ -1,0 +1,1 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)return;const ids=new Set(['harbullar','harca','harda','hardido','harem','harija','harinado','harinero','harinoso','harinudo','harma','harmonia']);d.splice(0,d.length,...d.filter(x=>!ids.has(x.id)));})();

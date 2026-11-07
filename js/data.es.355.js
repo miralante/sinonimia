@@ -28,5 +28,5 @@
  engrasador:{definition:'Que engrasa o aplica grasa; también, dispositivo usado para distribuir lubricante.',synonyms:['lubricador','aceitador'],example:{word:'engrasador',text:'El engrasador del motor necesitaba una limpieza.'},exampleSynonym:{word:'lubricador',text:'El lubricador del motor necesitaba una limpieza.'}},
  engrasar:{definition:'Aplicar o untar grasa, especialmente para reducir la fricción.',synonyms:['lubricar','untar','aceitar'],example:{word:'engrasar',text:'Conviene engrasar la bisagra para que deje de chirriar.'},exampleSynonym:{word:'lubricar',text:'Conviene lubricar la bisagra para que deje de chirriar.'}},
  engravecer:{definition:'Dar pesadez o gravedad a algo; hacer que sea o parezca grave o pesado.',synonyms:['agravar','hacer grave','volver pesado'],example:{word:'engravecer',text:'La noticia llegó a engravecer el ánimo de todos.'},exampleSynonym:{word:'agravar',text:'La noticia llegó a agravar el ánimo de todos.'}}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();
 (()=>{const ids=new Set(['engorfa']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

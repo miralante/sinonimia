@@ -23,4 +23,4 @@
  espato:{definition:'Nombre de varios minerales de estructura cristalina y aspecto laminar o espático, como el espato calizo (calcita) y el espato flúor (fluorita).',synonyms:['espato calizo','espato flúor','mineral espático']},
  espaturrar:{definition:'Aplastar algo hasta hacer que salga lo que contiene.',synonyms:['aplastar','estrujar','reventar']},
  espaviento:{definition:'Variante de aspaviento: demostración exagerada de sorpresa, admiración o sentimiento.',synonyms:['aspaviento','gesto exagerado','ademán ostentoso']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

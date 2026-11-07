@@ -11,5 +11,5 @@
   dioptrico:{definition:"Perteneciente o relativo a la dióptrica o a la refracción de la luz.",synonyms:["relativo a la dióptrica","refractivo"],example:{word:"dióptrico",text:"El sistema dióptrico enfoca la luz mediante varias lentes."},exampleSynonym:{word:"refractivo",text:"El sistema refractivo enfoca la luz mediante varias lentes."}},
   diorama:{definition:"Representación tridimensional de una escena, dispuesta para que parezca real mediante el uso de figuras, perspectiva e iluminación.",synonyms:["maqueta escénica","escena tridimensional","representación en miniatura"],example:{word:"diorama",text:"El museo presentó un diorama de la vida en la selva."},exampleSynonym:{word:"escena tridimensional",text:"El museo presentó una escena tridimensional de la vida en la selva."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

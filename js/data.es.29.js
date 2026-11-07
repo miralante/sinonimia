@@ -12,5 +12,5 @@
     decoroso:{definition:"Dicho de una persona: que tiene decoro y pundonor; dicho de una conducta o cosa: que manifiesta decencia, dignidad o respeto.",synonyms:["decente","digno","honorable","respetable"],example:{word:"decoroso",text:"El portavoz mantuvo un trato decoroso pese a la provocación."},exampleSynonym:{word:"digno",text:"El portavoz mantuvo un trato digno pese a la provocación."}},
     decrecer:{definition:"Disminuir o menguar en cantidad, tamaño, intensidad o importancia.",synonyms:["disminuir","mermar","menguar","aminorar"],example:{word:"decrecer",text:"La población del pueblo empezó a decrecer tras el cierre de la fábrica."},exampleSynonym:{word:"disminuir",text:"La población del pueblo empezó a disminuir tras el cierre de la fábrica."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3557-mercachifle-smallmerchant","word":"mercachifle","image":{"id":7024,"alt":"Una palabra del diccionario"},"definition":"Despectivamente, comerciante de poca importancia.","synonyms":["mercader menor","vendedor de poca monta"],"example":{"word":"mercachifle","text":"Lo llamaban mercachifle por vender baratijas."},"exampleSynonym":{"word":"mercader menor","text":"Lo llamaban mercader menor por vender baratijas."},"situacion":"vida-diaria","translation":{"en":"small-time trader"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

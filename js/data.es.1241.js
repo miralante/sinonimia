@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3395-lucido-clear-minded","word":"lúcido","image":{"id":2450,"alt":"Información y conocimiento."},"definition":"Que piensa con claridad y se expresa de forma coherente.","synonyms":["con claridad","perspicaz","sensato"],"example":{"word":"lúcido","text":"El juez permaneció lúcido durante el interrogatorio."},"exampleSynonym":{"word":"con claridad","text":"El juez respondió con claridad durante el interrogatorio."},"situacion":"vida-diaria"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

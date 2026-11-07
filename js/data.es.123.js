@@ -11,5 +11,5 @@
   destemperado:{definition:"Disuelto o desleído; es un adjetivo antiguo y hoy poco usado.",synonyms:["disuelto","desleído","diluido"],example:{word:"destemperado",text:"El pigmento destemperado perdió intensidad al mezclarse con demasiada agua."},exampleSynonym:{word:"diluido",text:"El pigmento diluido perdió intensidad al mezclarse con demasiada agua."}},
   destemplado:{definition:"Falto de mesura o equilibrio; dicho del tiempo, desapacible; en pintura, con tonos que no armonizan.",synonyms:["desmedido","inmoderado","desapacible","inarmónico"],example:{word:"destemplado",text:"El tiempo destemplado trajo viento frío y lluvia durante todo el día."},exampleSynonym:{word:"desapacible",text:"El tiempo desapacible trajo viento frío y lluvia durante todo el día."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

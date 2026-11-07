@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error('missing en');
+{const x={"id":"round3221-wallow-emotional","word":"wallow","image":{"id":7024,"alt":"A woman feels sad after losing her job."},"definition":"To spend too much time feeling sad or upset.","synonyms":["feel sorry for yourself","dwell on sadness"],"example":{"word":"wallow","text":"She wallowed in sadness after losing her job."},"exampleSynonym":{"word":"feel sorry for yourself","text":"She felt sorry for herself after losing her job."},"situacion":"vida-diaria"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

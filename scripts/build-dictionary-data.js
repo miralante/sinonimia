@@ -264,6 +264,14 @@ function loadSourceDictionaries() {
   vm.runInContext(fs.readFileSync(path.join(JS_DIR, "dictionary-manifest.js"), "utf8"), ctx);
   const manifest = ctx.SINONIMIA_DICTIONARY_SHARDS;
   Object.keys(manifest).forEach(function (lang) {
+    const syntheticTombstones = new Map();
+    const changedTombstones = new Set();
+    const sourceIdsInLaterShards = new Set();
+    (manifest[lang] || []).slice(1).forEach(function (shard) {
+      const source = fs.readFileSync(path.join(ROOT, shard.file), "utf8");
+      const matches = source.matchAll(/(?:[\"']id[\"']|\bid)\s*:\s*[\"']([^\"']+)[\"']/g);
+      for (const match of matches) sourceIdsInLaterShards.add(match[1]);
+    });
     manifest[lang].forEach(function (shard, index) {
       vm.runInContext(fs.readFileSync(path.join(ROOT, shard.file), "utf8"), ctx, { filename: shard.file });
       if (index === 0) {
@@ -276,10 +284,42 @@ function loadSourceDictionaries() {
           const present = new Set(entries.map(function (entry) { return entry.id; }));
           const decisions = JSON.parse(fs.readFileSync(decisionsPath, "utf8"));
           decisions.forEach(function (decision) {
-            if (!present.has(decision.id)) entries.push({ id: decision.id, word: decision.word });
+            if (!present.has(decision.id) && !sourceIdsInLaterShards.has(decision.id)) {
+              const id = decision.id;
+              const tombstone = new Proxy({ id: id, word: decision.word }, {
+                set: function (target, property, value) {
+                  const changed = !Object.prototype.hasOwnProperty.call(target, property) ||
+                    target[property] !== value;
+                  target[property] = value;
+                  if (changed) changedTombstones.add(id);
+                  return true;
+                },
+                deleteProperty: function (target, property) {
+                  const existed = Object.prototype.hasOwnProperty.call(target, property);
+                  delete target[property];
+                  if (existed) changedTombstones.add(id);
+                  return true;
+                },
+              });
+              entries.push(tombstone);
+              syntheticTombstones.set(decision.id, { entry: tombstone, originalWord: tombstone.word });
+            }
           });
         }
       }
+      // A deleted lemma can still be updated in place by a later shard. Proxy
+      // those provisional records and revisit only the IDs a shard actually
+      // changed, rather than scanning the complete dictionary after every
+      // shard. Records added by a later shard are excluded above by ID.
+      for (const id of changedTombstones) {
+        const provisional = syntheticTombstones.get(id);
+        if (!provisional) continue;
+        const entry = provisional.entry;
+        if (entry.word !== provisional.originalWord || Object.keys(entry).length > 2) {
+          syntheticTombstones.delete(id);
+        }
+      }
+      changedTombstones.clear();
     });
   });
   return ctx.DICCIONARIOS;
@@ -289,8 +329,8 @@ function loadSourceDictionaries() {
 function refreshSourceManifest() {
   const manifestPath = path.join(JS_DIR, "dictionary-manifest.js");
   let text = fs.readFileSync(manifestPath, "utf8");
-  text = text.replace(/(js\/data\.[a-z0-9.-]+\.js)\?v=(?:[a-f0-9]{10}|PLACEHOLDER)/g, function (match, file) {
-    return file + "?v=" + contentHash(fs.readFileSync(path.join(ROOT, file)));
+  text = text.replace(/(src: ")(js\/data\.[a-z0-9.-]+\.js)(?:\?v=(?:[a-f0-9]{10}|PLACEHOLDER|pending))?("\s*\})/g, function (match, prefix, file, suffix) {
+    return prefix + file + "?v=" + contentHash(fs.readFileSync(path.join(ROOT, file))) + suffix;
   });
   fs.writeFileSync(manifestPath, text);
 }

@@ -10,6 +10,6 @@
   destrocar:{definition:"Deshacer un trueque o un cambio.",synonyms:["deshacer el trueque","revertir el intercambio","anular el cambio"],example:{word:"destrocar",text:"Después de descubrir el error, acordaron destrocar las dos piezas intercambiadas."},exampleSynonym:{word:"deshacer el trueque",text:"Después de descubrir el error, acordaron deshacer el trueque de las dos piezas."}},
   destronar:{definition:"Deponer y privar del trono o del poder a un monarca o gobernante; también, desplazar a alguien de una posición dominante.",synonyms:["deponer","derrocar","desbancar"],example:{word:"destronar",text:"La revolución consiguió destronar al monarca."},exampleSynonym:{word:"deponer",text:"La revolución consiguió deponer al monarca."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  const invalid=DICCIONARIOS.es.findIndex(e=>e.id==='destorpadura');if(invalid<0)throw Error('Missing es/destorpadura');DICCIONARIOS.es.splice(invalid,1);
 })();

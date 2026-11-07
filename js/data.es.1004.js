@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+if(!d.some(q=>q.id==="round3115-indomito-figurative"))d.push({"id":"round3115-indomito-figurative","word":"Indómito","image":{"id":7024,"alt":"A person keeps resisting pressure and refuses to give up."},"definition":"Que no se deja vencer ni controlar, incluso ante dificultades.","synonyms":["tenaz","indomable","rebelde"],"example":{"word":"indómito","text":"Mostró un espíritu indómito durante toda la lucha."},"exampleSynonym":{"word":"tenaz","text":"Mostró un espíritu tenaz durante toda la lucha."},"situacion":"vida-diaria"});
+})();

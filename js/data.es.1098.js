@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3226-jansenismo-political","word":"Jansenismo","image":{"id":7024,"alt":"Obispos y reyes debaten sobre quién debe dirigir la Iglesia."},"definition":"Movimiento del siglo XVIII que defendía más poder para obispos y reyes.","synonyms":["corriente religiosa"],"example":{"word":"jansenismo","text":"El jansenismo causó debates entre obispos y reyes."},"exampleSynonym":{"word":"corriente religiosa","text":"La corriente religiosa causó debates entre obispos y reyes."},"situacion":"historia"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

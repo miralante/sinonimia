@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3470-antonomasia-name","word":"antonomasia","image":{"id":7024,"alt":"Una palabra del diccionario"},"definition":"Using a person’s name to represent a quality associated with them.","synonyms":["name for a quality","proper name used as a common noun"],"example":{"word":"antonomasia","text":"Calling a woman known for romance “a Romeo” is antonomasia."},"exampleSynonym":{"word":"name for a quality","text":"Calling her “a Romeo” uses a name for a quality."},"situacion":"conocimiento"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

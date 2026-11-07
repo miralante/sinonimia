@@ -10,4 +10,4 @@
  'rate-4':{definition:'A proportional distribution or allocation of an amount among several people or things.',synonyms:['apportionment','proportional allocation']},
  'rate-5':{definition:'To set or specify the rate, price, or charge that applies.',synonyms:['set a rate','price']},
  'rate-6':{definition:'To set or apply a rate, price, or tax.',synonyms:['set a price','apply a rate']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

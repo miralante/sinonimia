@@ -25,4 +25,4 @@
  estaquilla:{definition:'Estaca pequeña.',synonyms:['estaca pequeña','clavija']},
  estaquillador:{definition:'Herramienta pequeña empleada para fijar o sujetar piezas con estaquillas.',synonyms:['herramienta de sujeción','clavador']},
  estaquillar:{definition:'Clavar o sujetar algo con estaquillas.',synonyms:['fijar con estacas pequeñas','clavar estaquillas']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

@@ -6,5 +6,5 @@
   tuberculin:{definition:'A protein extract from Mycobacterium tuberculosis used in skin tests to detect immune response to tuberculosis infection.',synonyms:['tuberculin extract','PPD (in testing)']},
   tuberculosis:{definition:'An infectious disease caused by Mycobacterium tuberculosis, usually affecting the lungs but sometimes other parts of the body.',synonyms:['TB','consumption (historical)']},
   tuberosity:{definition:'A rounded projection or prominence on a bone, usually serving as an attachment site for muscles or ligaments.',synonyms:['bony prominence','tubercle']},
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['try-about-you','try-it','trypon','tuban']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

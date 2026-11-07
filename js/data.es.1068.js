@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3189-invalidez-legal","word":"Invalidez","image":{"id":8537,"alt":"A court document is ruled invalid."},"definition":"Falta de validez legal de un documento, contrato o decisión.","synonyms":["nulidad","falta de validez","ineficacia jurídica"],"example":{"word":"invalidez","text":"El tribunal declaró la invalidez del contrato."},"exampleSynonym":{"word":"nulidad","text":"El tribunal declaró la nulidad del contrato."},"situacion":"legal"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

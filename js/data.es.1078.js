@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3201-irregularidad-procedural","word":"irregularidad","image":{"id":11291,"alt":"An audit finds that a decision did not follow the required rules."},"definition":"Una acción o situación que no cumple las reglas establecidas.","synonyms":["incumplimiento","anomalía administrativa","falta"],"example":{"word":"irregularidad","text":"La auditoría detectó una irregularidad en la aprobación del contrato."},"exampleSynonym":{"word":"incumplimiento","text":"La auditoría detectó un incumplimiento en la aprobación del contrato."},"situacion":"legal"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

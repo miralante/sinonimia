@@ -32,4 +32,4 @@
  estival:{definition:'Perteneciente o relativo al estío o verano.',synonyms:['veraniego','de verano']},
  estivo:{definition:'Perteneciente o relativo al estío o verano.',synonyms:['estival','veraniego']},
  estocafis:{definition:'Pez marino, generalmente bacalao, conservado seco; del neerlandés medio stokvisch.',synonyms:['bacalao seco','pescado seco']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

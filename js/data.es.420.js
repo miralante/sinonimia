@@ -3,7 +3,7 @@
  esperriaca:{definition:'Andalucía. Último mosto que se extrae de la uva.',synonyms:['último mosto','mosto final','vino de prensa final']},
  esperriadero:{definition:'Antiguo. Acción y efecto de esperriar.',synonyms:['acción de esperriar','salpicadura (según el sentido de esperriar)']},
  esperriar:{definition:'Antiguo. Espurriar: salpicar o arrojar algo en forma de chorro o gotas.',synonyms:['espurriar','salpicar','rociar']},
- espesamente:{definition:'Desusado. Con frecuencia o de manera continuada.',synonyms:['frecuentemente','continuamente','a menudo']},
+ 
  espesante:{synonyms:['agente espesante','sustancia espesante','estabilizante (según el producto)']},
  espesar:{definition:'Hacer que una mezcla o sustancia se vuelva más densa; también, aumentar la densidad o espesura.',synonyms:['densificar','condensar','hacer más espeso']},
  espesativo:{definition:'Que espesa o contribuye a aumentar el espesor de una sustancia.',synonyms:['espesante','que aumenta la densidad']},
@@ -31,4 +31,4 @@
  espigadera:{synonyms:['espigadora','recolectora de espigas']},
  espigadilla:{definition:'Nombre de varias plantas herbáceas, a menudo con flores amarillas y espigas pequeñas; la especie depende de la región.',synonyms:['planta de espiga pequeña','espigadilla amarilla (según la especie)']},
  espigador:{definition:'Persona que recoge espigas o que espiga una planta; femenino: espigadora.',synonyms:['recolector de espigas','espigadora']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

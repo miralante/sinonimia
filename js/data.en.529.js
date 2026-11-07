@@ -8,4 +8,4 @@
  recriminate:{definition:'To respond to an accusation by making an accusation in return.',synonyms:['counteraccuse','retaliate with accusations']},
  recriminator:{definition:'A person who makes accusations in response to accusations made against them.',synonyms:['counteraccuser','accuser in return']},
  recross:{definition:'To cross something again or to cross back over it.',synonyms:['cross again','re-cross']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

@@ -27,4 +27,4 @@
  radiotoxicity:{definition:'The harmful effects that radioactive substances or radiation can have on living organisms.',synonyms:['radiation toxicity','radioactive toxicity']},
  'radio-transmitter':{definition:'A device that generates and sends radio-frequency signals through an antenna.',synonyms:['radio transmitter','transmitter']},
  radiumtherapy:{definition:'Historical. Treatment using radium or its radiation, particularly for cancer.',synonyms:['radium treatment','radium radiotherapy']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

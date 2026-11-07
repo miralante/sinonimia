@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error('missing en');
+{const x={"id":"round3230-wasteland-figurative","word":"wasteland","image":{"id":7024,"alt":"An empty community space with no events or people."},"definition":"A place or time with little culture or positive activity.","synonyms":["cultural desert"],"example":{"word":"wasteland","text":"He called the empty library a cultural wasteland."},"exampleSynonym":{"word":"cultural desert","text":"He called the empty library a cultural desert."},"situacion":"vida-diaria"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

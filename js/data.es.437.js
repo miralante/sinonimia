@@ -22,9 +22,9 @@
  estragal:{definition:'Cantabria. Portal o vestíbulo de una casa.',synonyms:['portal','vestíbulo','zaguán']},
  estral:{definition:'Perteneciente o relativo al estro o celo de los animales.',synonyms:['relativo al celo animal','estrual']},
  estrambote:{definition:'Versos añadidos al final de una composición métrica, especialmente de un soneto, por efecto humorístico o expresivo.',synonyms:['añadido final de un soneto','versos de remate']},
- estramboticamente:{definition:'De manera estrambótica, extravagante o fuera de lo común.',synonyms:['extravagantemente','de forma estrafalaria']},
+ 
  estrambotico:{definition:'Extravagante, fuera de lo común o excesivamente peculiar.',synonyms:['estrafalario','extravagante','raro']},
  estramonio:{definition:'Planta anual tóxica (Datura stramonium), de la familia de las solanáceas, con flores grandes y frutos espinosos.',synonyms:['Datura stramonium','chamico','toloache']},
  estranguadera:{definition:'León. Cajón que llevan algunos carros junto al arranque de la vara.',synonyms:['cajón de carro','pieza del carro']},
  estrangulador:{definition:'Que estrangula; también, persona que mata a alguien mediante estrangulación.',synonyms:['asfixiador','asesino por estrangulación']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

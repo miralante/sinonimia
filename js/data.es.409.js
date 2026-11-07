@@ -12,4 +12,4 @@
  esdrujulismo:{synonyms:['cualidad de esdrújulo','carácter esdrújulo','acentuación esdrújula']},
  esdrujulizar:{definition:'Dar acentuación esdrújula a una palabra o voz.',synonyms:['hacer esdrújula','acentuar en la antepenúltima sílaba']},
  esenio:{definition:'Dicho de una persona: miembro de un antiguo grupo judío, activo aproximadamente entre los siglos II a. C. y I d. C.; también, relativo a ese grupo.',synonyms:['miembro de los esenios','relativo a los esenios','esenio']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

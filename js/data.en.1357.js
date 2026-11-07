@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3510-armor-military-forces","word":"armor","image":{"id":7024,"alt":"Una palabra del diccionario"},"definition":"Military vehicles and units equipped with armor.","synonyms":["armored forces","military vehicles"],"example":{"word":"armor","text":"Armor moved ahead of the infantry during the advance."},"exampleSynonym":{"word":"armored forces","text":"Armored forces moved ahead of the infantry during the advance."},"situacion":"historia"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

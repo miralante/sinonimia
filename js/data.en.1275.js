@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3419-americanism-custom","word":"Americanism","image":{"id":7024,"alt":"A community celebrates a custom from the United States."},"definition":"A custom, belief, or practice associated with the United States.","synonyms":["US custom","American way of life"],"example":{"word":"Americanism","text":"The parade is an Americanism in this town."},"exampleSynonym":{"word":"US custom","text":"The parade is a US custom in this town."},"situacion":"daily-life","translation":{"es":"americanismo; costumbre estadounidense"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

@@ -11,7 +11,7 @@
   musquerola:{definition:'Variedad de pera, conocida como pera mosquerola.',synonyms:['pera mosquerola','mosquerola']},
   mustela:{definition:'Mamífero carnívoro del género Mustela, como la comadreja o el armiño.',synonyms:['comadreja','armiño']},
   musteriense:{definition:'Perteneciente o relativo al Musteriense, cultura del Paleolítico medio asociada a los neandertales.',synonyms:['del Paleolítico medio','musteriense']},
-  mustiamente:{definition:'Con tristeza, languidez o falta de vigor.',synonyms:['tristemente','lánguidamente','apagademente']},
+  
   mustiar:{definition:'Hacer que una planta, flor u otra cosa pierda frescura y lozanía; perderlas.',synonyms:['ajar','marchitar','deslucir']},
   mustio:{definition:'Afligido, apagado o sin vigor; dicho de una planta o flor, marchita.',synonyms:['triste','lánguido','marchito']},
   musuco:{definition:'En Nicaragua y Honduras, dicho del pelo: rizado o ensortijado.',synonyms:['crespo','ensortijado','rizado']},
@@ -32,7 +32,7 @@
   mutua:{definition:'Asociación o entidad que presta servicios y, en algunos países, cubre riesgos como accidentes laborales o enfermedad.',synonyms:['mutualidad','entidad mutual']},
   mutual:{definition:'Que se da o se posee recíprocamente entre dos o más personas o partes.',synonyms:['recíproco','mutuo']},
   mutualidad:{definition:'Asociación basada en la ayuda recíproca entre sus miembros; también, sistema de previsión organizado con ese principio.',synonyms:['mutua','sociedad mutualista']},
-  mutuamente:{definition:'De manera recíproca, con correspondencia entre las partes.',synonyms:['recíprocamente','uno a otro']},
+  
   mutuante:{definition:'Persona que entrega dinero u otra cosa fungible en préstamo.',synonyms:['prestamista','acreedor']},
   muzarabe:{definition:'Variante antigua de «mozárabe»: cristiano que vivía bajo dominio musulmán en la península ibérica; también, relativo a los mozárabes.',synonyms:['mozárabe']},
   na:{definition:'Forma coloquial y popular de «nada», por pérdida de la sílaba final.',synonyms:['nada (coloquial)']}

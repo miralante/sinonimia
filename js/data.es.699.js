@@ -33,6 +33,6 @@
   mentidero:{definition:'Lugar o ambiente donde se reúnen personas para conversar y difundir noticias, a menudo rumores.',synonyms:['corrillo','lugar de cotilleo']},
   mentirijillas:{definition:'Mentiras pequeñas o de poca importancia; forma plural de «mentirijilla».',synonyms:['mentirijillas','mentiras piadosas (según el contexto)']},
   mentirillas:{definition:'Mentiras pequeñas o de poca importancia; forma plural de «mentirilla».',synonyms:['mentirijillas','mentiras pequeñas']},
-  mentirosamente:{synonyms:['con falsedad','engañosamente','de manera mentirosa']},
+  
   mentis:{definition:'Desmentido formal y enérgico; también, dicho injurioso con que se desmiente a alguien.',synonyms:['desmentido','réplica','injuria (uso antiguo)']}
 };for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);} })();

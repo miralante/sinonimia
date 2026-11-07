@@ -23,4 +23,4 @@
  estampa:{synonyms:['grabado','imagen impresa','impresión','huella']},
  estampado:{definition:'Dicho de una tela o superficie: que lleva un dibujo o motivo impreso; también, dibujo obtenido mediante estampación.',synonyms:['impreso','diseño estampado','motivo']},
  estamperia:{definition:'Taller u oficina donde se estampan o imprimen láminas.',synonyms:['taller de estampación','imprenta']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

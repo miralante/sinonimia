@@ -6,4 +6,4 @@
  escondidas:{synonyms:['escondite','juego del escondite','juego de buscar a quienes se esconden'],example:{word:'escondidas',text:'Los niños jugaron a las escondidas en el patio.'},exampleSynonym:{word:'escondite',text:'Los niños jugaron al escondite en el patio.'}},
  escomearse:{definition:'Padecer estangurria, es decir, dificultad o dolor al orinar.',synonyms:['padecer estangurria','sufrir dificultad al orinar','tener estranguria']},
  esconjuro:{definition:'Antiguamente, exorcismo o fórmula ritual para expulsar a los malos espíritus.',synonyms:['exorcismo','conjuro de expulsión','fórmula contra espíritus']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

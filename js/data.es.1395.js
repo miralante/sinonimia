@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3559-merchante-adjective","word":"merchante","image":{"id":7024,"alt":"Una palabra del diccionario"},"definition":"Related to merchants or trade.","synonyms":["mercante","comercial"],"example":{"word":"merchante","text":"El navío merchante transportaba mercancías entre puertos."},"exampleSynonym":{"word":"mercante","text":"El navío mercante transportaba mercancías entre puertos."},"situacion":"finanzas","translation":{"en":"merchant"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

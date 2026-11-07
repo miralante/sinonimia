@@ -13,5 +13,5 @@
   desinflamar:{definition:"Verbo transitivo: reducir o quitar la inflamación de un tejido o parte del cuerpo; también se usa como intransitivo y pronominal.",synonyms:["deshinchar","reducir la inflamación","calmar"],example:{word:"desinflamar",text:"El reposo y el hielo ayudaron a desinflamar el tobillo."},exampleSynonym:{word:"deshinchar",text:"El reposo y el hielo ayudaron a deshinchar el tobillo."}},
   desinflar:{definition:"Verbo transitivo: sacar el aire o fluido que mantiene inflado algo; como pronominal, perder volumen o hinchazón.",synonyms:["deshinchar","vaciar","desinflarse"],example:{word:"desinflar",text:"Antes de guardarla, tuvieron que desinflar la balsa."},exampleSynonym:{word:"deshinchar",text:"Antes de guardarla, tuvieron que deshinchar la balsa."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

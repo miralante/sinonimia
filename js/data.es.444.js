@@ -33,4 +33,4 @@
  eureka:{definition:'Interjección que expresa alegría o satisfacción al descubrir o resolver algo.',synonyms:['¡lo encontré!','¡ajá!','¡descubrimiento!']},
  euribor:{definition:'Índice de referencia basado en los tipos de interés a los que ciertas entidades financieras de la zona del euro ofrecen préstamos interbancarios; su cálculo depende de una metodología publicada.',synonyms:['tipo interbancario del euro','índice Euribor']},
  euripo:{definition:'Estrecho marino; especialmente, el canal de Euripo, entre la isla griega de Eubea y la Grecia continental, famoso por sus corrientes cambiantes.',synonyms:['estrecho de Euripo','canal marino']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

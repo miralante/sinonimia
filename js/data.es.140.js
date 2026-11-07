@@ -1,6 +1,6 @@
 (()=>{
  const updates={
-  diestramente:{definition:"Con destreza.",synonyms:["hábilmente","con destreza","mañosamente"],example:{word:"diestramente",text:"La acróbata recorrió la cuerda diestramente."},exampleSynonym:{word:"hábilmente",text:"La acróbata recorrió la cuerda hábilmente."}},
+  
   diezma:{definition:"En Aragón, forma femenina regional de diezmo; como voz desusada, equivale a décima.",synonyms:["diezmo","décima","tributo"],example:{word:"diezma",text:"El glosario aragonés registra diezma como variante de diezmo."},exampleSynonym:{word:"diezmo",text:"El glosario aragonés registra diezmo como variante regional."}},
   diezmar:{definition:"Causar gran mortandad o una gran disminución; también, sacar una décima parte, pagar el diezmo o castigar a uno de cada diez.",synonyms:["mermar","reducir","disminuir","diezmar"],example:{word:"diezmar",text:"La sequía llegó a diezmar los cultivos de la región."},exampleSynonym:{word:"mermar",text:"La sequía llegó a mermar los cultivos de la región."}},
   diezmilesimo:{definition:"Dicho de una parte, que es una de las diez mil iguales en que se divide un todo; también, que ocupa el lugar número diez mil en una serie.",synonyms:["diezmilésimo","parte diezmilésima"],example:{word:"diezmilésimo",text:"El corredor cruzó la meta en el puesto diezmilésimo."},exampleSynonym:{word:"último",text:"El corredor cruzó la meta en el puesto último."}},
@@ -11,5 +11,5 @@
   diferendo:{definition:"En América Meridional, Cuba y Guatemala, diferencia o desacuerdo entre instituciones o Estados.",synonyms:["desacuerdo","discrepancia","controversia","conflicto"],example:{word:"diferendo",text:"Ambos países acordaron resolver el diferendo mediante el diálogo."},exampleSynonym:{word:"desacuerdo",text:"Ambos países acordaron resolver el desacuerdo mediante el diálogo."}},
   diferido:{definition:"Participio de diferir; en la locución «en diferido», dicho de un programa de radio o televisión, emitido después de su grabación.",synonyms:["aplazado","grabado","no simultáneo"],example:{word:"diferido",text:"La cadena emitió el concierto en diferido esa misma noche."},exampleSynonym:{word:"grabado",text:"La cadena emitió el concierto grabado esa misma noche."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

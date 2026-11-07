@@ -1,6 +1,6 @@
 (()=>{const u={
   moralizar:{definition:'Predicar o inculcar ideas morales; también, juzgar una conducta con criterios morales.',synonyms:['aleccionar','moralizar','dar lecciones de moral']},
-  moralmente:{definition:'Desde el punto de vista moral o de acuerdo con ciertos principios éticos.',synonyms:['éticamente','según la moral']},
+  
   morapio:{definition:'Vino tinto corriente, generalmente de calidad sencilla y con poca acidez.',synonyms:['vino tinto corriente','vino común']},
   morar:{synonyms:['habitar','residir','vivir']},
   moratiniano:{synonyms:['relativo a Moratín','de estilo moratiniano']},

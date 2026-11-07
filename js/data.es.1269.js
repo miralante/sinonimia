@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3425-magnificar-exaggerate","word":"magnificar","image":{"id":7024,"alt":"Una persona exagera la importancia de un problema."},"definition":"Exagerar la importancia o las cualidades de algo.","synonyms":["exagerar","dar más importancia"],"example":{"word":"magnificar","text":"No conviene magnificar el problema."},"exampleSynonym":{"word":"exagerar","text":"No conviene exagerar el problema."},"situacion":"vida-diaria","translation":{"en":"exaggerate; overstate"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

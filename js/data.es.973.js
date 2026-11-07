@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+if(!d.some(q=>q.id==="round3082-inapreciable-small"))d.push({"id":"round3082-inapreciable-small","word":"Inapreciable","image":{"id":7024,"alt":"Una persona intenta distinguir un cambio muy pequeño en una imagen."},"definition":"Tan pequeño que apenas se puede notar.","synonyms":["imperceptible","insignificante"],"example":{"word":"inapreciable","text":"La diferencia entre las dos telas era inapreciable."},"exampleSynonym":{"word":"imperceptible","text":"La diferencia entre las dos telas era imperceptible."},"situacion":"conocimiento"});
+})();

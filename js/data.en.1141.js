@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error('missing en');
+{const x={"id":"round3270-wing-back-american-football","word":"wing-back","image":{"id":7024,"alt":"Ilustración relacionada con wing-back."},"definition":"In American football, a back who lines up outside an end.","synonyms":["wingback","offensive back"],"example":{"word":"wing-back","text":"The wing-back lined up beside the tight end."},"exampleSynonym":{"word":"wingback","text":"The wingback lined up beside the tight end."},"situacion":"conocimiento"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

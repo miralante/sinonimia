@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3434-anatomical-form","word":"anatomical","image":{"id":7024,"alt":"A shoe follows the natural shape of the foot."},"definition":"Shaped to fit the natural form of a body.","synonyms":["shaped to fit the body","body-shaped"],"example":{"word":"anatomical","text":"The shoe has an anatomical design."},"exampleSynonym":{"word":"shaped to fit the body","text":"The shoe has a design shaped to fit the body."},"situacion":"conocimiento","translation":{"es":"anatómico; adaptado a la forma del cuerpo"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3418-amen-agreement","word":"amen","image":{"id":7024,"alt":"A dictionary word."},"definition":"An expression of strong agreement with what someone said.","synonyms":["strong agreement","I agree"],"example":{"word":"amen","text":"She said amen when her friend suggested helping the neighbors."},"exampleSynonym":{"word":"strong agreement","text":"She showed strong agreement when her friend suggested helping the neighbors."},"situacion":"daily-life","translation":{"es":"amén; de acuerdo; así sea"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

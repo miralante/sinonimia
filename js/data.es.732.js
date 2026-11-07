@@ -10,7 +10,7 @@
   mordaga:{definition:'Embriaguez o borrachera; uso coloquial y regional.',synonyms:['borrachera','ebriedad']},
   mordante:{definition:'Que muerde, pica o produce una sensación de ardor.',synonyms:['picante','ardiente','mordaz']},
   mordaz:{definition:'Que critica o censura con agudeza hiriente; también, que corroe o tiene efecto corrosivo.',synonyms:['sarcástico','acerbo','corrosivo']},
-  mordazmente:{synonyms:['con sarcasmo','de manera hiriente','acerbamente']},
+  
   mordedor:{synonyms:['que muerde','mordiente','dentellador']},
   mordedura:{synonyms:['mordisco','dentellada']},
   mordelon:{definition:'En Honduras y México, policía de tráfico que acepta sobornos; uso coloquial.',synonyms:['policía corrupto','agente sobornado','mordelón']},

@@ -54,7 +54,25 @@ function formatEntry(b) {
     process.exit(1);
   }
 
+  if (batch.length === 0) {
+    console.log("No new entries; source shard unchanged.");
+    return;
+  }
+
   const formatted = batch.map(formatEntry).join("\n");
+
+  // Some continuation shards end with correction IIFEs rather than the
+  // original concat array. In that case, append a separate concat statement
+  // instead of treating a `]);` inside a correction as the array's end.
+  const hasConcatArray = /DICCIONARIOS\.es\s*=\s*DICCIONARIOS\.es\.concat\(\s*\[/.test(src);
+  if (usingShard && !hasConcatArray) {
+    const newSrc = src.trimEnd() +
+      "\nDICCIONARIOS.es = DICCIONARIOS.es.concat([\n" + formatted + "\n]);\n";
+    fs.writeFileSync(dataPath, newSrc);
+    console.log("Insertadas:", batch.length, "nuevas entradas en", dataPath);
+    console.log("Tamaño:", src.length, "->", newSrc.length);
+    return;
+  }
 
   const closingIdx = usingShard ? src.lastIndexOf("]);") : src.lastIndexOf("];");
   if (closingIdx < 0) throw new Error("No se encontró el cierre del diccionario activo");

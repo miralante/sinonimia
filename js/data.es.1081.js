@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3204-irresponsable-legal","word":"irresponsable","image":{"id":11291,"alt":"A court reviews whether a person could understand their actions."},"definition":"Persona que no puede responder legalmente por sus actos.","synonyms":["legalmente incapaz de responder","no responsable ante la ley","inimputable"],"example":{"word":"irresponsable","text":"El juez declaró al joven irresponsable por sus actos."},"exampleSynonym":{"word":"legalmente incapaz de responder","text":"El juez declaró al joven legalmente incapaz de responder por sus actos."},"situacion":"legal"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

@@ -12,4 +12,4 @@
  pyre:{definition:'A heap of combustible material on which a dead body is burned, especially in a funeral ceremony.',synonyms:['funeral pyre','burning pile']},
  pyrethogen:{definition:'A substance or agent that produces fever.',synonyms:['fever-producing agent','pyrogen']},
  pyramidal:{definition:'Having the shape or form of a pyramid.',synonyms:['pyramid-shaped','pyramid-like']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

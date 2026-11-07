@@ -5,5 +5,5 @@
   trapdoor:{definition:'A small hinged or sliding door in a floor or ceiling that provides access to the space below or above; also, a hidden opening or mechanism.',synonyms:['hatch','access panel']},
   trapeze:{definition:'A short horizontal bar suspended by ropes or straps, used by acrobats for swinging and aerial performances.',synonyms:['aerial bar']},
   trapezohedron:{definition:'A polyhedron whose faces are congruent kite-shaped quadrilaterals; a 24-faced trapezohedron has twenty-four such faces.',synonyms:['tetragonal trapezohedron (specific type)']},
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['transverse-2','transverse-3','transvestite-2','transvestite-3','trap-2','trap-3','trap-4','trap-5','trap-6','trap-7','trap-8','trap-9','trapal','trap-door','trapezery']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

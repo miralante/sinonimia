@@ -11,5 +11,5 @@
   organographic:{definition:"Of or relating to organography, the description of the structure and functions of organs.",synonyms:["relating to organography","descriptive of organs"],example:{word:"organographic",text:"The atlas provides organographic descriptions of the plant's leaves and roots."},exampleSynonym:{word:"descriptive of organs",text:"The atlas provides descriptions of the plant's leaves and roots."},},
   organology:{definition:"The study or description of the structure and functions of organs, especially in living organisms.",synonyms:["study of organs","organography"],example:{word:"organology",text:"Organology compares the structure of organs across animal species."},exampleSynonym:{word:"study of organs",text:"The study of organs compares their structure across animal species."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

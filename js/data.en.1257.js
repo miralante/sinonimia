@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3400-alley-bowling","word":"alley","image":{"id":7024,"alt":"Illustration related to a bowling lane."},"definition":"A lane where players roll balls toward pins in bowling.","synonyms":["bowling lane","bowling track"],"example":{"word":"alley","text":"The alley was closed for repairs after the tournament."},"exampleSynonym":{"word":"bowling lane","text":"The bowling lane was closed for repairs after the tournament."},"situacion":"vida-diaria"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

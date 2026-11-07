@@ -4,7 +4,7 @@
   nuche:{definition:'En Colombia, larva de una mosca que se desarrolla bajo la piel de personas o animales.',synonyms:['gusano de monte (regional)','larva subcutánea']},
   nucleido:{definition:'Especie de átomo caracterizada por un número determinado de protones y neutrones en su núcleo.',synonyms:['núclido','especie nuclear']},
   nucleon:{definition:'Cada una de las partículas que componen el núcleo atómico: el protón o el neutrón.',synonyms:['protón o neutrón','partícula nuclear']},
-  numericamente:{definition:'De manera numérica; mediante números o en lo relativo a los números.',synonyms:['en cifras','mediante números']},
+  
   numismatico:{definition:'Perteneciente o relativo a la numismática; como sustantivo, persona experta en el estudio y coleccionismo de monedas y medallas.',synonyms:['relativo a la numismática','experto en monedas y medallas']},
   numo:{definition:'Moneda de la antigua Roma.',synonyms:['moneda romana antigua']},
   nuncio:{definition:'Representante diplomático de la Santa Sede, especialmente el que ejerce como embajador ante un Estado.',synonyms:['representante pontificio','embajador de la Santa Sede']},

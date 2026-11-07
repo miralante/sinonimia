@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3562-merma-product-loss","word":"Merma","image":{"id":7024,"alt":"Una palabra del diccionario"},"definition":"Parte de un producto que se pierde o se quita.","synonyms":["pérdida de producto","desperdicio"],"example":{"word":"Merma","text":"La tienda calculó la merma durante el transporte."},"exampleSynonym":{"word":"pérdida de producto","text":"La tienda calculó la pérdida de producto durante el transporte."},"situacion":"finanzas"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

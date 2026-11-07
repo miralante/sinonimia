@@ -1,8 +1,8 @@
 (()=>{
  const updates={
   diminuir:{definition:"Verbo transitivo desusado: disminuir algo; también se usaba como verbo pronominal.",synonyms:["disminuir","reducir","menguar"],example:{word:"diminuir",text:"El autor antiguo aconseja diminuir el gasto en tiempos difíciles."},exampleSynonym:{word:"disminuir",text:"El autor antiguo aconseja disminuir el gasto en tiempos difíciles."}},
-  diminutamente:{definition:"Adverbio desusado: escasamente, con escasez; también, de manera menuda o minuciosa.",synonyms:["escasamente","con escasez","minuciosamente"],example:{word:"diminutamente",text:"El cronista describió diminutamente cada detalle de la ceremonia."},exampleSynonym:{word:"minuciosamente",text:"El cronista describió minuciosamente cada detalle de la ceremonia."}},
-  diminutivamente:{definition:"En forma de diminutivo; de manera que expresa pequeñez o afecto mediante un diminutivo.",synonyms:["en forma de diminutivo","con diminutivo"],example:{word:"diminutivamente",text:"En esa región, el nombre se usa diminutivamente para expresar cariño."},exampleSynonym:{word:"en forma de diminutivo",text:"En esa región, el nombre se usa en forma de diminutivo para expresar cariño."}},
+  
+  
   diminuto:{definition:"Extremadamente pequeño; en una acepción poco usada, defectuoso o falto de algo.",synonyms:["minúsculo","pequeñísimo","microscópico","insignificante"],example:{word:"diminuto",text:"El insecto diminuto se escondió bajo una hoja."},exampleSynonym:{word:"minúsculo",text:"El insecto minúsculo se escondió bajo una hoja."}},
   dimir:{definition:"En Asturias, derribar con varas o pértigas largas los frutos maduros de árboles como nogales, castaños o manzanos.",synonyms:["varear","hacer caer la fruta"],example:{word:"dimir",text:"Antes de la cosecha, la familia salió a dimir los castaños."},exampleSynonym:{word:"varear",text:"Antes de la cosecha, la familia salió a varear los castaños."}},
   dimision:{definition:"Renuncia o abandono de un empleo o de una comisión.",synonyms:["renuncia","abandono","retirada","abdicación"],example:{word:"dimisión",text:"La ministra presentó su dimisión después de anunciar la decisión."},exampleSynonym:{word:"renuncia",text:"La ministra presentó su renuncia después de anunciar la decisión."}},
@@ -12,5 +12,5 @@
   din:{definition:"Acortamiento coloquial de dinero; también, formato normalizado de papel identificado por el Instituto Alemán de Normalización, como DIN A4.",synonyms:["dinero","efectivo","formato DIN"],example:{word:"din",text:"En la conversación, dijo que no tenía ni un din para el viaje."},exampleSynonym:{word:"dinero",text:"En la conversación, dijo que no tenía dinero para el viaje."}},
   dina:{definition:"Unidad de fuerza del sistema cegesimal, equivalente a la fuerza necesaria para acelerar una masa de un gramo a un centímetro por segundo cada segundo.",synonyms:["unidad de fuerza CGS"],example:{word:"dina",text:"El problema expresa la fuerza en dinas, la unidad llamada dina."},exampleSynonym:{word:"unidad de fuerza CGS",text:"El problema expresa la fuerza en una unidad del sistema cegesimal."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

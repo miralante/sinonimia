@@ -12,7 +12,7 @@
  palmaceo:{definition:'Perteneciente o relativo a las palmeras o a la familia de las palmáceas.',synonyms:['palmáceo','relativo a las palmeras']},
  palmacristi:{definition:'Ricino, planta de cuyas semillas se extrae aceite de ricino.',synonyms:['ricino','higuerilla']},
  palmadilla:{definition:'Golpe suave dado con la palma de la mano.',synonyms:['palmada suave']},
- palmariamente:{definition:'De manera patente, clara y manifiesta.',synonyms:['patentemente','manifiestamente']},
+ 
  palmazon:{definition:'En Nicaragua, ambiente triste, aburrido o sin diversión.',synonyms:['aburrimiento','ambiente apagado']},
  palmejar:{definition:'En marina, tablón longitudinal fijado a las varengas de un buque para unir las cuadernas y reforzar el casco.',synonyms:['refuerzo longitudinal del casco']},
  palmenta:{definition:'En germanía, carta dirigida a una persona ausente.',synonyms:['carta a un ausente']},

@@ -6,7 +6,7 @@
  papalino:{definition:'Perteneciente o relativo al papa; también, gorra o cofia antigua de mujer.',synonyms:['papal','pontificio']},
  papalisa:{definition:'En Bolivia y Perú, melloco o ulluco, tubérculo andino comestible.',synonyms:['melloco','ulluco','olluco']},
  papalota:{definition:'En El Salvador, cometa: armazón ligera cubierta de papel o tela que se eleva con el viento.',synonyms:['cometa']},
- papalmente:{definition:'Con autoridad o potestad papal.',synonyms:['pontificalmente']},
+ 
  papanatas:{definition:'Persona simple, crédula o fácil de engañar.',synonyms:['bobo','cándido','ingenuo']},
  papanatismo:{definition:'Actitud de admirar algo o a alguien de manera excesiva, simple y poco crítica.',synonyms:['admiración ingenua','credulidad']},
  papandujo:{definition:'Dicho de una fruta: demasiado blanda o madura.',synonyms:['pasada','sobremadura']},

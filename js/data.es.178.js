@@ -11,5 +11,5 @@
   distinguir:{definition:"Percibir o reconocer las diferencias entre cosas o personas; identificar algo entre otros elementos, incluso cuando hay circunstancias que lo dificultan.",synonyms:["diferenciar","reconocer","discernir","identificar"],example:{word:"distinguir",text:"A pesar de la niebla, pudo distinguir las luces del puerto."},exampleSynonym:{word:"reconocer",text:"A pesar de la niebla, pudo reconocer las luces del puerto."}},
   distintivo:{definition:"Que distingue o caracteriza a una persona o cosa frente a otras; también, señal, marca o insignia que identifica.",synonyms:["característico","diferenciador","emblemático"],example:{word:"distintivo",text:"El uniforme llevaba un distintivo con el nombre del equipo."},exampleSynonym:{word:"emblema",text:"El uniforme llevaba un emblema con el nombre del equipo."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

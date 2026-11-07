@@ -2,7 +2,7 @@
  estructural:{definition:'Perteneciente o relativo a la estructura o a la organización de las partes de un sistema.',synonyms:['relativo a la estructura','organizativo','arquitectónico (según contexto)']},
  estructurar:{definition:'Organizar o disponer las partes de algo para darle una estructura coherente.',synonyms:['organizar','ordenar','configurar']},
  estruendo:{definition:'Ruido muy fuerte y generalmente confuso.',synonyms:['estrépito','fragor','estampido']},
- estruendosamente:{definition:'Con gran ruido o de forma muy llamativa.',synonyms:['ruidosamente','con estrépito','escandalosamente']},
+ 
  estruendoso:{definition:'Que produce un ruido muy fuerte; también, muy llamativo o espectacular.',synonyms:['ruidoso','estrépitoso','aparatoso']},
  estrujador:{definition:'Que estruja; persona o máquina que exprime o comprime algo.',synonyms:['exprimidor','prensa','estrujadora']},
  estrujadora:{definition:'Máquina o persona que estruja o exprime algo; también, forma femenina de estrujador.',synonyms:['exprimidora','prensa','estrujador']},
@@ -28,10 +28,10 @@
  estudiantino:{definition:'Perteneciente a una estudiantina; también, integrante de una agrupación musical estudiantil.',synonyms:['tunante (miembro de una tuna)','de estudiantina']},
  estudianton:{definition:'Despectivo. Estudiante muy aplicado, pero de escasas luces.',synonyms:['empollón (despectivo)','estudiante aplicado']},
  estudio:{definition:'Actividad de aprender o investigar; lugar destinado a esa actividad; también, vivienda pequeña de una sola estancia principal.',synonyms:['aprendizaje','investigación','apartamento pequeño']},
- estudiosamente:{definition:'Con dedicación o aplicación al estudio; también, de manera deliberada o meditada.',synonyms:['aplicadamente','con atención','deliberadamente']},
+ 
  estudiosidad:{definition:'Inclinación y aplicación al estudio.',synonyms:['afición al estudio','aplicación','diligencia']},
  estudioso:{definition:'Que estudia con dedicación y constancia.',synonyms:['aplicado','diligente','dedicado']},
  estufa:{definition:'Aparato destinado a calentar un espacio, que puede funcionar con electricidad, gas, combustible sólido u otra fuente de energía.',synonyms:['calefactor','calentador','radiador (según tipo)']},
  estufador:{definition:'Vasija o recipiente en que se estofa la carne.',synonyms:['recipiente de estofar','cacerola']},
  estufar:{definition:'Calentar o someter algo al calor dentro de una estufa o cámara cerrada.',synonyms:['calentar en estufa','cocer lentamente']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

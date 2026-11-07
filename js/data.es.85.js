@@ -11,5 +11,5 @@
   desengomar:{definition:"Verbo transitivo: desgomar; quitar la goma de un tejido, especialmente de la seda, para prepararlo para el teñido.",synonyms:["desgomar","quitar la goma","limpiar de goma"],example:{word:"desengomar",text:"Antes de teñir la seda, es necesario desengomarla."},exampleSynonym:{word:"desgomar",text:"Antes de teñir la seda, es necesario desgomar la seda."}},
   desengranar:{definition:"Verbo transitivo: quitar o soltar el engranaje de una pieza con otra.",synonyms:["desacoplar","separar","desconectar","soltar el engranaje"],example:{word:"desengranar",text:"Para reparar la máquina, hubo que desengranar las dos ruedas dentadas."},exampleSynonym:{word:"desacoplar",text:"Para reparar la máquina, hubo que desacoplar las dos ruedas dentadas."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

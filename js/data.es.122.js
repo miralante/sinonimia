@@ -11,5 +11,5 @@
   destapador:{definition:"En América, abrebotellas: utensilio que sirve para quitar la chapa de una botella.",synonyms:["abrebotellas","abridor","sacachapas"],example:{word:"destapador",text:"Usó un destapador para abrir la botella de refresco."},exampleSynonym:{word:"abrebotellas",text:"Usó un abrebotellas para abrir la botella de refresco."}},
   destapadura:{definition:"Acción de quitar la tapa o de dejar algo al descubierto.",synonyms:["destape","acción de destapar","descubrimiento"],example:{word:"destapadura",text:"La destapadura del frasco dejó salir el aroma de las especias."},exampleSynonym:{word:"destape",text:"El destape del frasco dejó salir el aroma de las especias."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

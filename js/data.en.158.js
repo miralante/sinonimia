@@ -10,7 +10,7 @@
   'orphan-3':{definition:"Veterinary pathology. A spontaneously occurring animal disease that has a counterpart in humans and can therefore serve as a model for studying that disease.",synonyms:["spontaneous animal disease model","animal model of human disease"],example:{word:"orphan",text:"Researchers studied the naturally occurring orphan in dogs as a model for the related human condition."},exampleSynonym:{word:"animal model of human disease",text:"Researchers studied the naturally occurring animal model of human disease in dogs."}},
   orphanage:{definition:"A residential institution that provides care for children whose parents have died or who lack parental care.",synonyms:["children's home","residential home for orphans"],example:{word:"orphanage",text:"The charity funds education and medical care at the local orphanage."},exampleSynonym:{word:"children's home",text:"The charity funds education and medical care at the local children's home."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  if(!DICCIONARIOS.en.some(e=>e.id==='oroya'))throw Error('Missing en/oroya');
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>e.id!=='oroya');
 })();

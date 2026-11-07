@@ -16,17 +16,8 @@
  espumoso:{synonyms:['espumante','espumífero','con burbujas','espumilloso']},
  espumuy:{definition:'Guatemala. Paloma silvestre.',synonyms:['paloma silvestre','paloma montaraz (regional)']},
  espundia:{definition:'Forma mucocutánea de leishmaniasis, propia de algunas regiones de América, que puede afectar piel y mucosas.',synonyms:['leishmaniasis mucocutánea','leishmaniasis americana']},
- espurio:{synonyms:['falso','apócrifo','ilegítimo','de origen dudoso']},
- espurrear:{synonyms:['rociar con saliva o líquido','salpicar','pulverizar con la boca']},
  espurriar:{definition:'Arrojar o expulsar algo con fuerza; también, salpicar o rociar.',synonyms:['lanzar','expulsar','salpicar','rociar']},
  espurrir:{definition:'Regional. Estirar o extender, especialmente los brazos o las piernas; también, estirarse.',synonyms:['estirar','extender','alargar','desperezarse']},
- esputar:{synonyms:['expectorar','escupir flemas','arrojar esputo']},
- esputo:{definition:'Saliva, mucosidad o flema expulsada por la boca al toser o aclarar la garganta.',synonyms:['flema','expectoración','mucosidad']},
  esquebrajar:{synonyms:['resquebrajar','agrietar superficialmente','rajar ligeramente']},
- esquejar:{definition:'Reproducir una planta mediante esquejes o cortar partes de ella para usarlas como esquejes.',synonyms:['reproducir por esquejes','hacer esquejes','propagar vegetativamente']},
- esquela:{definition:'Aviso escrito, a menudo publicado en un periódico, para anunciar una muerte; también, nota o impreso breve de invitación o comunicación.',synonyms:['aviso fúnebre','nota','invitación impresa']},
- esqueletado:{synonyms:['esquelético','extremadamente delgado','consumido']},
- esquema:{synonyms:['diagrama','representación simplificada','bosquejo','resumen estructurado']},
- esquematicamente:{synonyms:['de forma esquemática','resumidamente','de manera simplificada']},
- esquematico:{definition:'Que representa o explica algo de forma simplificada y ordenada, mostrando solo sus elementos principales; también, relativo a un esquema.',synonyms:['simplificado','resumido','diagramático','esquemático']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+ esquejar:{definition:'Reproducir una planta mediante esquejes o cortar partes de ella para usarlas como esquejes.',synonyms:['reproducir por esquejes','hacer esquejes','propagar vegetativamente']}
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

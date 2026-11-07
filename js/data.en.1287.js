@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3433-anathema-curse","word":"anathema","image":{"id":7024,"alt":"A religious authority formally condemns a practice."},"definition":"A formal curse or condemnation, especially one made by a religious authority.","synonyms":["curse","condemnation"],"example":{"word":"anathema","text":"The church declared the practice an anathema."},"exampleSynonym":{"word":"curse","text":"The church issued a curse against the practice."},"situacion":"conocimiento","translation":{"es":"anatema; maldición formal"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

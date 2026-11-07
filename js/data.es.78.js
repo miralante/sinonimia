@@ -1,6 +1,6 @@
 (()=>{
  const updates={
-  descuidadamente:{definition:"Adverbio: con descuido o negligencia.",synonyms:["negligentemente","sin cuidado","desatentamente"],example:{word:"descuidadamente",text:"El técnico dejó descuidadamente las herramientas en el pasillo."},exampleSynonym:{word:"negligentemente",text:"El técnico dejó negligentemente las herramientas en el pasillo."}},
+  
   descuidero:{definition:"Adjetivo y sustantivo: dicho de un ladrón, que suele hurtar aprovechándose del descuido ajeno.",synonyms:["descuidista","ratero","ladrón","pillo"],example:{word:"descuidero",text:"La policía detuvo al descuidero que robaba carteras en el mercado."},exampleSynonym:{word:"ratero",text:"La policía detuvo al ratero que robaba carteras en el mercado."}},
   descurtir:{definition:"Verbo transitivo regional de Nicaragua y la República Dominicana: despercudir o lavar una prenda para quitarle la suciedad.",synonyms:["despercudir","limpiar","lavar"],example:{word:"descurtir",text:"Puso la camisa a descurtir para quitarle las manchas."},exampleSynonym:{word:"lavar",text:"Puso la camisa a lavar para quitarle las manchas."}},
   desdar:{definition:"Verbo transitivo: dar vueltas en sentido inverso a un manubrio, carrete o cuerda para deshacer vueltas anteriores; también, desabrochar.",synonyms:["rebobinar","desabrochar","desabotonar","soltar"],example:{word:"desdar",text:"Tuvo que desdar varias vueltas a la cuerda para liberarla."},exampleSynonym:{word:"deshacer las vueltas",text:"Tuvo que deshacer las vueltas de la cuerda para liberarla."}},
@@ -11,5 +11,5 @@
   desdenar:{definition:"Verbo transitivo: tratar con desdén a alguien o algo. Como pronominal, poco usado, tener por indecoroso hacer o decir algo.",synonyms:["despreciar","desestimar","menospreciar","rechazar","desairar"],example:{word:"desdeñar",text:"No conviene desdeñar una propuesta sin haberla estudiado."},exampleSynonym:{word:"desestimar",text:"No conviene desestimar una propuesta sin haberla estudiado."}},
   desdeno:{definition:"Sustantivo masculino poco usado: desdén o desprecio.",synonyms:["desdén","desprecio","menosprecio","desaire","indiferencia"],example:{word:"desdeño",text:"Respondió con desdeño a quienes intentaron ayudarlo."},exampleSynonym:{word:"desprecio",text:"Respondió con desprecio a quienes intentaron ayudarlo."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

@@ -25,10 +25,10 @@ const { normalizeWord } = require('../shared/normalize-word');
 
 function forEachDictionaryEntry(callback) {
   const dicts = loadDict('js/data.es.js');
-  let enDict = {};
-  try { enDict = loadDict('js/data.en.js'); } catch (_) { /* optional */ }
-
-  for (const list of [dicts.es || [], enDict.en || []]) {
+  // loadDict replays the full bilingual manifest regardless of the entry
+  // point, so `dicts` already contains English as well as Spanish. Loading
+  // `js/data.en.js` a second time only doubles the cost of a coverage scan.
+  for (const list of [dicts.es || [], dicts.en || []]) {
     for (const entry of list) {
       // Hand-maintained/generated dictionary files can contain a sparse
       // slot after an append/compaction. It is not a dictionary entry.

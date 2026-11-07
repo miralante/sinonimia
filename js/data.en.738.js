@@ -6,5 +6,5 @@
   undecorate:{definition:'To remove decorations or ornamentation from something.',synonyms:['strip of decoration','remove ornaments']},
   undelete:{definition:'In computing, to restore a file or other data that was deleted.',synonyms:['restore deleted data','recover a deleted file']},
   undercooked:{definition:'Not cooked enough; insufficiently cooked.',synonyms:['underdone','insufficiently cooked']},
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['undecagon-2','undaunted-2','undefeated-2','uncut-2','underbring','undemonize']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

@@ -1,0 +1,1 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)return;const ids=new Set(['guitarreria','guitarrero','guitarresco','guitarrillo','guitarro','guitarron','guitero','guito','guiton','guitonear','guitoneria','guiye']);d.splice(0,d.length,...d.filter(x=>!ids.has(x.id)));})();

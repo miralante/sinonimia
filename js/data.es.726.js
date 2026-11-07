@@ -1,5 +1,5 @@
 (()=>{const u={
-  monotonamente:{definition:'De manera monótona, uniforme o repetitiva.',synonyms:['monótonamente','repetidamente']},
+  
   monotonia:{definition:'Falta de variedad o diversidad; uniformidad que puede resultar aburrida.',synonyms:['uniformidad','repetición','tedio']},
   monotono:{synonyms:['uniforme','repetitivo','tedioso']},
   monovalente:{definition:'En química, dicho de un átomo o radical: que tiene valencia uno; en otros contextos, que puede combinarse con un solo valor.',synonyms:['univalente','de valencia uno']},
@@ -10,7 +10,7 @@
   monsenor:{definition:'Tratamiento de cortesía que se da a ciertos prelados y dignatarios de la Iglesia católica.',synonyms:['título eclesiástico','tratamiento de cortesía']},
   monserga:{synonyms:['discurso pesado','reprimenda','sermón']},
   monstro:{definition:'Monstruo; variante antigua o poco usada.',synonyms:['monstruo','engendro']},
-  monstruosamente:{synonyms:['de modo monstruoso','de forma descomunal']},
+  
   monstruosidad:{definition:'Cualidad o condición de monstruoso; cosa extraordinariamente grande, deforme o terrible.',synonyms:['deformidad','aberración','atrocidad']},
   monstruoso:{definition:'Que causa espanto por su deformidad, crueldad o tamaño; extraordinario por exceso.',synonyms:['deforme','enorme','atroz']},
   montacargas:{definition:'Aparato elevador destinado principalmente a transportar mercancías o materiales entre distintos niveles.',synonyms:['elevador de carga','ascensor de carga','montacarga']},

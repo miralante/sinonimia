@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error('missing en');
+{const x={"id":"round3250-wheeze-noun","word":"wheeze","image":{"id":7024,"alt":"A doctor listens to a high-pitched breathing sound."},"definition":"A high-pitched sound made when someone breathes with difficulty.","synonyms":["whistling breath","wheezing sound"],"example":{"word":"wheeze","text":"The doctor heard a wheeze in his chest."},"exampleSynonym":{"word":"whistling breath","text":"The doctor heard a whistling breath in his chest."},"situacion":"salud"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

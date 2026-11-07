@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3391-losilla-idiom","word":"coger a alguien en la losilla","image":{"id":25506,"alt":"Una trampa para ratones."},"definition":"Engañar a alguien con astucia.","synonyms":["engañar a alguien con astucia","tomarle el pelo a alguien"],"example":{"word":"coger a alguien en la losilla","text":"Coger a alguien en la losilla puede salir mal."},"exampleSynonym":{"word":"engañar a alguien con astucia","text":"Engañar a alguien con astucia puede salir mal."},"situacion":"vida-diaria"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

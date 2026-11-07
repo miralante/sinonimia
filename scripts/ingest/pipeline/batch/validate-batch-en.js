@@ -7,10 +7,11 @@ const { loadDict } = require("../shared/load-dict.js");
 const { findSynonymOverlaps } = require("../shared/find-synonym-overlaps.js");
 
 const batch = require(process.argv[2] || "../batches/batch_en_corpus_nuevo.js");
+const dictionaries = loadDict("js/data.en.js");
 const { validateBatchContent } = require("./validate-batch-content.js");
 const DICCIONARIOS = {
-  en: loadDict("js/data.en.js").en || [],
-  es: loadDict("js/data.es.js").es || [],
+  en: dictionaries.en || [],
+  es: dictionaries.es || [],
 };
 const contentValidation = validateBatchContent(batch);
 contentValidation.messages.forEach((message) => console.log(message));
@@ -23,6 +24,24 @@ findSynonymOverlaps(batch, DICCIONARIOS.en).forEach((overlap) => {
 const existingIds = new Set(DICCIONARIOS.en.map((e) => e.id));
 const existingPalabras = new Set(DICCIONARIOS.en.map((e) => e.word.toLowerCase()));
 const spanishById = new Map(DICCIONARIOS.es.map((e) => [e.id, e]));
+const labelsByWord = new Map();
+batch.forEach((b) => {
+  const key = b.palabra.toLowerCase();
+  if (!labelsByWord.has(key)) labelsByWord.set(key, []);
+  labelsByWord.get(key).push(b.senseLabel);
+});
+const validSenseLabels = new Set();
+for (const [word, labels] of labelsByWord) {
+  if (labels.length > 1 || existingPalabras.has(word)) {
+    const allUnique = labels.every((label) => typeof label === "string" && label.trim()) &&
+      new Set(labels).size === labels.length;
+    if (allUnique) validSenseLabels.add(word);
+    else if (labels.length > 1) {
+      console.log(`senseLabel ausente o repetido para acepciones duplicadas: ${word}`);
+      problems++;
+    }
+  }
+}
 batch.forEach((b) => {
   if (existingIds.has(b.id)) {
     console.log(`ID ya existe en data.en.js: ${b.id}`);
@@ -30,7 +49,8 @@ batch.forEach((b) => {
   }
   const spanishTarget = b.traduccion && b.traduccion.es ? spanishById.get(b.traduccion.es) : null;
   const isNewSpanishSense = spanishTarget && !(spanishTarget.translation && spanishTarget.translation.en);
-  if (existingPalabras.has(b.palabra.toLowerCase()) && !isNewSpanishSense) {
+  const hasReciprocalSenseLink = spanishTarget && spanishTarget.translation && spanishTarget.translation.en === b.id;
+  if (existingPalabras.has(b.palabra.toLowerCase()) && !isNewSpanishSense && !hasReciprocalSenseLink && !validSenseLabels.has(b.palabra.toLowerCase())) {
     console.log(`Palabra ya existe en data.en.js: ${b.palabra}`);
     problems++;
   }

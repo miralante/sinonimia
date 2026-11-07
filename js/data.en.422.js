@@ -11,5 +11,5 @@
  'poisoner-2':{definition:'A person or agent that poisons someone or something.',synonyms:['poisoning agent','one who poisons'],example:{word:'poisoner',text:'The poisoner left traces of the substance behind.'},exampleSynonym:{word:'one who poisons',text:'The person who poisoned the victim left traces of the substance behind.'}},
  'poisonous-2':{definition:'Containing or producing poison.',synonyms:['toxic','venomous','poison-bearing'],example:{word:'poisonous',text:'The plant has poisonous berries.'},exampleSynonym:{word:'toxic',text:'The plant has toxic berries.'}},
  'poisonous-3':{definition:'Capable of harming or killing a living organism through contact, inhalation, injection, or ingestion.',synonyms:['toxic','harmful','venomous'],example:{word:'poisonous',text:'Some mushrooms are poisonous if eaten.'},exampleSynonym:{word:'toxic',text:'Some mushrooms are toxic if eaten.'}}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();
 (()=>{const ids=new Set(['pointer-2','pointer-3','poisoned-2']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

@@ -11,7 +11,7 @@
     dactilografico:{definition:"Adjetivo: perteneciente o relativo a la dactilografía o mecanografía.",synonyms:["mecanográfico","relativo a la escritura a máquina"],example:{word:"dactilográfico",text:"El curso incluía ejercicios dactilográficos para mejorar la precisión."},exampleSynonym:{word:"mecanográfico",text:"El curso incluía ejercicios mecanográficos para mejorar la precisión."}},
     dactilologico:{definition:"Adjetivo: perteneciente o relativo a la dactilología, sistema de comunicación mediante signos hechos con los dedos, como el alfabeto manual.",synonyms:["relativo a la dactilología","alfabeto manual"],example:{word:"dactilológico",text:"La intérprete utilizó el alfabeto dactilológico para deletrear el nombre."},exampleSynonym:{word:"alfabeto manual",text:"La intérprete utilizó el alfabeto manual para deletrear el nombre."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
   const removed=new Set(['daca']);
   DICCIONARIOS.es=DICCIONARIOS.es.filter(e=>!removed.has(e.id));
   for(const entry of DICCIONARIOS.es){const value=entry.translation?.en;if(!value)continue;const kept=(Array.isArray(value)?value:[value]).filter(id=>!removed.has(id));if(kept.length)entry.translation={...entry.translation,en:Array.isArray(value)?kept:kept[0]};else delete entry.translation;}

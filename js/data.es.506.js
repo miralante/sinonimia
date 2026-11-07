@@ -1,1 +1,1 @@
-(()=>{const u={farraca:{definition:'En Salamanca y Zamora, faltriquera o bolsillo de la ropa.',synonyms:['faltriquera','bolsillo']}};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+(()=>{const u={farraca:{definition:'En Salamanca y Zamora, faltriquera o bolsillo de la ropa.',synonyms:['faltriquera','bolsillo']}};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

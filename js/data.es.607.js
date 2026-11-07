@@ -14,7 +14,7 @@
   infanta:{definition:'Hija del rey o de la reina que no tiene el título de princesa heredera; también, en ciertos países, niña pequeña, en uso familiar.',synonyms:['hija de un monarca','princesa real (según el país)']},
   infartar:{definition:'Causar un infarto en un órgano o tejido.',synonyms:['provocar un infarto','ocasionar un infarto']},
   infatuar:{synonyms:['envanecer','volver presuntuoso']},
-  infamadamente:{synonyms:['de manera infamante','deshonrosamente']},
+  
   infamar:{definition:'Quitar la honra o la buena fama de alguien mediante insultos, injurias o rumores.',synonyms:['deshonrar','difamar','desprestigiar']},
   inextenso:{definition:'Sin abreviar ni omitir ninguna parte; de forma íntegra o completa.',synonyms:['íntegramente','por extenso','sin abreviar']},
   infiel:{definition:'Que no es fiel o leal; también, que no sigue una religión o creencia determinada.',synonyms:['desleal','traidor (según el contexto)']},

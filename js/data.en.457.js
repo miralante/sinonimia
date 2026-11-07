@@ -6,4 +6,4 @@
  proceleusmatic:{synonyms:['inciting','animating','metrical foot of four short syllables']},
  producer:{synonyms:['maker','manufacturer','film or media producer','service provider']},
  productivity:{synonyms:['output per unit of input','productive efficiency','work rate']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

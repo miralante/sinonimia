@@ -10,7 +10,7 @@
   discutidor:{definition:"Que discute con frecuencia o tiende a polemizar.",synonyms:["polémico","beligerante","aficionado a discutir"],example:{word:"discutidor",text:"El participante discutidor interrumpía cada propuesta del equipo."},exampleSynonym:{word:"polémico",text:"El participante polémico interrumpía cada propuesta del equipo."}},
   disecable:{definition:"Que puede disecarse, ya sea separándolo en partes para estudiarlo o preparándolo para conservarlo.",synonyms:["susceptible de disección","que puede disecarse"],example:{word:"disecable",text:"El ejemplar disecable se conservó para la colección de ciencias naturales."},exampleSynonym:{word:"que puede disecarse",text:"El ejemplar que podía disecarse se conservó para la colección de ciencias naturales."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  if(!DICCIONARIOS.es.some(e=>e.id==='discusivo'))throw Error('Missing es/discusivo');
  DICCIONARIOS.es=DICCIONARIOS.es.filter(e=>e.id!=='discusivo');
 })();

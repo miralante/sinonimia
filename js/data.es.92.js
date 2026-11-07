@@ -11,5 +11,5 @@
   desgastar:{definition:"Verbo transitivo: consumir o deteriorar algo poco a poco por el uso o el roce; también, debilitar gradualmente.",synonyms:["erosionar","deteriorar","consumir","debilitar"],example:{word:"desgastar",text:"El roce constante puede desgastar la suela de los zapatos."},exampleSynonym:{word:"deteriorar",text:"El roce constante puede deteriorar la suela de los zapatos."}},
   desgolletar:{definition:"Verbo transitivo: romper el gollete o cuello estrecho de una botella o vasija; también, ensanchar o modificar el cuello de una prenda.",synonyms:["romper el gollete","quebrar el cuello","desbocar"],example:{word:"desgolletar",text:"El golpe llegó a desgolletar la botella de vidrio."},exampleSynonym:{word:"romper el gollete",text:"El golpe llegó a romper el gollete de la botella de vidrio."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

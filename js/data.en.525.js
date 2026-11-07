@@ -6,4 +6,4 @@
  recognized:{definition:'Known, acknowledged, or officially accepted; also, appreciative of a kindness or favor in a less common use.',synonyms:['acknowledged','established','appreciative']},
  recognizer:{definition:'A person or device that identifies or acknowledges someone or something.',synonyms:['identifier','detection system','acknowledger']},
  recoil:{definition:'A sudden backward movement or reaction; as a verb, to spring or move back, often from shock, fear, or impact.',synonyms:['spring back','rebound','flinch']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

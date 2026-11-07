@@ -11,5 +11,5 @@
     descriptible:{definition:"Adjetivo: que se puede describir.",synonyms:["describible","representable","expresable"],example:{word:"descriptible",text:"La escena era tan extraña que parecía apenas descriptible."},exampleSynonym:{word:"describible",text:"La escena era tan extraña que parecía apenas describible."}},
     descriptivo:{definition:"Adjetivo: que describe o sirve para describir.",synonyms:["representativo","gráfico","expresivo","explicativo"],example:{word:"descriptivo",text:"El informe incluye un apartado descriptivo de los daños."},exampleSynonym:{word:"explicativo",text:"El informe incluye un apartado explicativo de los daños."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

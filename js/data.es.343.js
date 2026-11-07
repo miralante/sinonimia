@@ -11,4 +11,4 @@
  endamarse:{definition:'En El Salvador y Honduras, dicho de una pareja: vivir maritalmente sin estar casados.',synonyms:['vivir en unión libre','convivir sin casarse'],example:{word:'endamarse',text:'La pareja decidió endamarse y compartir casa.'},exampleSynonym:{word:'vivir en unión libre',text:'La pareja decidió vivir en unión libre y compartir casa.'}},
  ende:{definition:'Allí o de allí; forma antigua o literaria.',synonyms:['allí','de allí'],example:{word:'ende',text:'Partieron ende al amanecer.'},exampleSynonym:{word:'de allí',text:'Partieron de allí al amanecer.'}},
  endecada:{definition:'Período de once años.',synonyms:['período de once años'],example:{word:'endecada',text:'El cronista dividió la historia en endecadas.'},exampleSynonym:{word:'período de once años',text:'El cronista dividió la historia en períodos de once años.'}}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

@@ -7,7 +7,7 @@
   "out-of-step":{definition:"Not moving in step with others; figuratively, not in agreement or keeping pace with current ideas or conditions.",synonyms:["out of sync","not in step","out of touch"],example:{word:"out of step",text:"The policy seemed out of step with the needs of local families."},exampleSynonym:{word:"out of sync",text:"The policy seemed out of sync with the needs of local families."}},
   "out-of-stock":{definition:"Unavailable for purchase because the supply has been exhausted.",synonyms:["sold out","unavailable","not in stock"],example:{word:"out of stock",text:"The popular size was out of stock by noon."},exampleSynonym:{word:"sold out",text:"The popular size was sold out by noon."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  for(const id of ['outline-2','outline-3','outline-4','outline-5','out-of-step-3'])if(!DICCIONARIOS.en.some(e=>e.id===id))throw Error('Missing en/'+id);
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!['outline-2','outline-3','outline-4','outline-5','out-of-step-3'].includes(e.id));
 })();

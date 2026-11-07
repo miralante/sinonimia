@@ -6,9 +6,9 @@
 //      (defaults to scripts/ingest/batches/batch_es_corpus_nuevo.js)
 
 const batch = require(process.argv[2] || "../batches/batch_es_corpus_nuevo.js");
-const { validateBatchContent } = require("./validate-batch-content.js");
 const { loadDict } = require("../shared/load-dict.js");
 const { findSynonymOverlaps } = require("../shared/find-synonym-overlaps.js");
+const { validateBatchContent } = require("./validate-batch-content.js");
 
 const contentValidation = validateBatchContent(batch);
 contentValidation.messages.forEach((message) => console.log(message));

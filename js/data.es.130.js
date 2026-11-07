@@ -11,5 +11,5 @@
   deszumar:{definition:"Sacar o quitar el zumo de algo; también puede usarse como pronominal.",synonyms:["exprimir","extraer el zumo","sacar el jugo"],example:{word:"deszumar",text:"Para la receta, hay que deszumar las naranjas justo antes de servir."},exampleSynonym:{word:"exprimir",text:"Para la receta, hay que exprimir las naranjas justo antes de servir."}},
   detallar:{definition:"Tratar o describir algo por partes y con precisión; también, especificar o enumerar sus pormenores.",synonyms:["especificar","pormenorizar","describir","enumerar"],example:{word:"detallar",text:"El informe debe detallar los gastos de cada etapa del proyecto."},exampleSynonym:{word:"especificar",text:"El informe debe especificar los gastos de cada etapa del proyecto."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

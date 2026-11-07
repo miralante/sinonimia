@@ -8,6 +8,6 @@
   nefrosis:{definition:'Término médico para diversas afecciones renales, especialmente las que afectan los túbulos; su uso clínico depende del contexto.',synonyms:['afección renal','enfermedad renal']},
   nectarina:{definition:'Fruto del melocotonero de piel lisa, sin la pelusa característica del melocotón.',synonyms:['melocotón de piel lisa','pelón (según el país)']},
   nectarino:{definition:'Variedad de melocotonero que produce nectarinas, frutos de piel lisa.',synonyms:['melocotonero de nectarina','árbol de nectarina']},
-  neciamente:{definition:'Con necedad; de manera tonta, imprudente u obstinada.',synonyms:['tontamente','imprudentemente','obstinadamente']},
+  
   nefritico:{definition:'Perteneciente o relativo a los riñones; dicho de una persona, que padece una afección renal.',synonyms:['renal','nefrítico']}
 };for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}const ids=new Set(['nefelismo']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

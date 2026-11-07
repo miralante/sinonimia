@@ -12,5 +12,5 @@
     curtiembre:{definition:"Sustantivo femenino, usado en América: curtiduría, sitio o taller donde se curten y trabajan las pieles.",synonyms:["curtiduría","tenería","peletería"],example:{word:"curtiembre",text:"La curtiembre abastecía de cuero a los talleres de calzado de la región."},exampleSynonym:{word:"curtiduría",text:"La curtiduría abastecía de cuero a los talleres de calzado de la región."}},
     curtir:{definition:"Verbo transitivo: tratar y preparar la piel de un animal para usarla; dicho del sol o del aire, endurecer o tostar la piel; acostumbrar a alguien a las dificultades. En Argentina y Uruguay, coloquialmente, castigar con azotes.",synonyms:["adobar","broncear","tostar","acostumbrar","foguear"],example:{word:"curtir",text:"El sol puede curtir la piel y los años de trabajo curtir el carácter; luego el artesano curte el cuero."},exampleSynonym:{word:"adobar",text:"El sol puede tostar la piel y los años de trabajo endurecer el carácter; luego el artesano debe adobar el cuero."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

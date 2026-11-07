@@ -7,7 +7,7 @@
  radicalism:{definition:'The belief or movement advocating fundamental or far-reaching political or social change.',synonyms:['radical ideology','political extremism (in some contexts)','fundamental reformism']},
  radicality:{definition:'The quality or degree of being radical, fundamental, or far-reaching.',synonyms:['radical character','fundamentality']},
  radicalize:{synonyms:['make more radical','become radicalized','radicalise']},
- radically:{synonyms:['fundamentally','completely','drastically','in a radial direction']},
+ 
  radio:{definition:'Noun: the transmission or reception of sound by radio waves; a device that receives radio broadcasts. Adjective: relating to radio waves or radio communication.',synonyms:['wireless broadcasting','radio receiver','radiocommunication']},
  radioactivity:{synonyms:['radioactive decay','nuclear radiation','radioactive emission']},
  'radio-amateur':{definition:'A person who operates radio equipment as a noncommercial hobby, often under a license.',synonyms:['amateur radio operator','ham radio operator']},
@@ -21,4 +21,4 @@
  radioisotope:{definition:'A radioactive isotope of a chemical element.',synonyms:['radionuclide','radioactive isotope']},
  'radio-link':{definition:'A communication connection that carries information between points by radio waves.',synonyms:['radio connection','wireless link']},
  'radio-listener':{definition:'A person who listens to radio broadcasts.',synonyms:['radio audience member','listener']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

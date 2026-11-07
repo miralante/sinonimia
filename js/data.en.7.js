@@ -17,7 +17,7 @@
     "timid":{translation:{es:"cuitado"}},
     "soap-opera":{translation:{es:"culebron"}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);for(const[key,value]of Object.entries(fields)){if(key==='translation'&&value===null)delete row.translation;else row[key]=value;}}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row)for(const[key,value]of Object.entries(fields)){if(key==='translation'&&value===null)delete row.translation;else row[key]=value;}}
   const removed=['cuis','work-10','butt-2','wandering-2','ancient-artillery-piece'];
   DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!removed.includes(e.id));
   const culverin={id:'culverin',word:'culverin',image:{id:7024,alt:'A dictionary word'},definition:'Historical. A long-range cannon used mainly from the 15th through the 17th centuries; the word also referred to an early hand-held firearm.',synonyms:['historical cannon','long-range cannon','early musket'],example:{word:'culverin',text:'The museum displayed a 16th-century culverin beside the other naval guns.'},exampleSynonym:{word:'historical cannon',text:'The museum displayed a 16th-century historical cannon beside the other naval guns.'},situacion:'vida-diaria',translation:{es:'culebrina'}};

@@ -5,7 +5,7 @@
  estenocardia:{definition:'Angina de pecho: dolor o presión torácica causada por una reducción temporal del flujo sanguíneo al corazón.',synonyms:['angina de pecho','angina pectoris']},
  estenografia:{definition:'Sistema de escritura abreviada que permite transcribir el habla con gran rapidez.',synonyms:['taquigrafía','escritura abreviada']},
  estenografiar:{definition:'Escribir mediante un sistema de estenografía o taquigrafía.',synonyms:['taquigrafiar','tomar en taquigrafía']},
- estenograficamente:{definition:'Por medio de la estenografía o taquigrafía.',synonyms:['taquigráficamente','en escritura abreviada']},
+ 
  estenografico:{definition:'Perteneciente o relativo a la estenografía; realizado mediante este sistema de escritura.',synonyms:['taquigráfico','relativo a la estenografía']},
  estenografo:{definition:'Persona que escribe mediante estenografía o taquigrafía.',synonyms:['taquígrafo','estenotipista']},
  estenordeste:{definition:'Punto del horizonte situado entre el este y el nordeste; equivale al este-nordeste.',synonyms:['este-nordeste','ENE']},
@@ -30,4 +30,4 @@
  estereografia:{definition:'Representación de una figura o superficie tridimensional en un plano, especialmente mediante proyección estereográfica.',synonyms:['proyección estereográfica','representación plana']},
  estereografico:{definition:'Perteneciente o relativo a la estereografía o a la proyección estereográfica.',synonyms:['de proyección estereográfica','relativo a la estereografía']},
  estereografo:{definition:'Instrumento empleado para obtener o visualizar imágenes estereoscópicas.',synonyms:['visor estereoscópico','instrumento estereográfico']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

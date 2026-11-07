@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3451-mancebo-servant","word":"mancebo","image":{"id":7024,"alt":"Dictionary illustration"},"definition":"Joven que trabaja al servicio de otra persona.","synonyms":["mozo","criado","sirviente"],"example":{"word":"mancebo","text":"El mancebo atendía a los huéspedes de la posada."},"exampleSynonym":{"word":"mozo","text":"El mozo atendía a los huéspedes de la posada."},"situacion":"vida-diaria","translation":{"en":"young servant"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

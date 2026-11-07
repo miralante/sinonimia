@@ -1,0 +1,1 @@
+(()=>{const ids=new Set(['guairuro','guaita','guaitambo','guaitar','guaja','guajaca','guajacon','guajana','guajar','guajara','guajete','guajibo']);DICCIONARIOS.es=DICCIONARIOS.es.filter(x=>!ids.has(x.id));})();

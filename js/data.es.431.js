@@ -29,4 +29,4 @@
  esteliforme:{definition:'Que tiene forma de estrella.',synonyms:['estrellado','estelífero']},
  estelion:{definition:'Estelionato: fraude consistente en vender, gravar o disponer de un bien ocultando que ya estaba comprometido o que no pertenece libremente al vendedor.',synonyms:['estelionato','fraude patrimonial']},
  estelon:{definition:'Desusado. Estelión: piedra a la que antiguamente se atribuían propiedades contra venenos.',synonyms:['estelión','piedra contra venenos']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

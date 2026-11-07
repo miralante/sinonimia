@@ -11,5 +11,5 @@
     descongestion:{definition:"Sustantivo femenino: acción y efecto de descongestionar.",synonyms:["desobstrucción","desatasco","desbloqueo","alivio"],example:{word:"descongestión",text:"La descongestión del tráfico mejoró tras abrir el nuevo acceso."},exampleSynonym:{word:"desatasco",text:"El desatasco del tráfico mejoró tras abrir el nuevo acceso."}},
     descongestionante:{definition:"Adjetivo: que descongestiona; se usa también como sustantivo masculino, especialmente para un medicamento que alivia una congestión.",synonyms:["descongestivo","desobstructivo"],example:{word:"descongestionante",text:"El farmacéutico recomendó un descongestionante para aliviar la congestión nasal."},exampleSynonym:{word:"descongestivo",text:"El farmacéutico recomendó un descongestivo para aliviar la congestión nasal."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

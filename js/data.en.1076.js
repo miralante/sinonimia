@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error('missing en');
+{const x={"id":"round3205-voidable-contract","word":"voidable","image":{"id":21557,"alt":"A judge reviews whether a contract can be cancelled."},"definition":"A contract that a person may legally cancel because of a defect.","synonyms":["capable of being invalidated","subject to cancellation"],"example":{"word":"voidable","text":"The contract may be voidable because one party lied."},"exampleSynonym":{"word":"capable of being invalidated","text":"The contract may be capable of being invalidated because one party lied."},"situacion":"legal"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

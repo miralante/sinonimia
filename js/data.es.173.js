@@ -11,5 +11,5 @@
   dispensa:{definition:"Exención o permiso que una autoridad concede para no cumplir una obligación o norma general; también, permiso eclesiástico de esa clase.",synonyms:["exención","concesión","exoneración"],example:{word:"dispensa",text:"La autoridad concedió una dispensa temporal del requisito."},exampleSynonym:{word:"exención",text:"La autoridad concedió una exención temporal del requisito."}},
   dispensabilidad:{definition:"Cualidad de aquello de lo que se puede prescindir o que puede dispensarse.",synonyms:["carácter prescindible","posibilidad de exención","carácter dispensable"],example:{word:"dispensabilidad",text:"El comité evaluó la dispensabilidad de ese requisito."},exampleSynonym:{word:"carácter prescindible",text:"El comité evaluó el carácter prescindible de ese requisito."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

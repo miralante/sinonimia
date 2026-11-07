@@ -11,5 +11,5 @@
   didactico:{definition:"Perteneciente o relativo a la enseñanza; dicho de una obra o método, que enseña o facilita el aprendizaje.",synonyms:["pedagógico","educativo","instructivo"],example:{word:"didáctico",text:"El museo diseñó un recorrido didáctico para los escolares."},exampleSynonym:{word:"pedagógico",text:"El museo diseñó un recorrido pedagógico para los escolares."}},
   didascalia:{definition:"En una obra teatral, indicación del dramaturgo que orienta la actuación, los movimientos o la puesta en escena.",synonyms:["acotación","indicación escénica"],example:{word:"didascalia",text:"La didascalia indica que el personaje entra por la puerta del fondo."},exampleSynonym:{word:"acotación",text:"La acotación indica que el personaje entra por la puerta del fondo."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

@@ -7,5 +7,5 @@
   tufted:{definition:'Having one or more tufts, especially a small raised bunch of hair, feathers, or fibers.',synonyms:['tuft-bearing','crested','cushioned (of furniture)']},
   tug:{definition:'To pull something hard or repeatedly; also, a strong pull or a small powerful boat used for towing.',synonyms:['pull','yank','haul','towboat']},
   tulip:{definition:'A spring-flowering bulbous plant of the genus Tulipa, typically with a single cup-shaped flower.',synonyms:['Tulipa','bulbous flower']},
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['tuck-2','tuck-3','tuck-4','tuft-2','tuft-3','tufted-2','tufted-3','tufted-4','tufted-5']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

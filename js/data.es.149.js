@@ -7,5 +7,5 @@
   dinamometrico:{definition:"Perteneciente o relativo al dinamómetro.",synonyms:["relativo al dinamómetro","de medición de fuerza"],example:{word:"dinamométrico",text:"El laboratorio calibró el instrumento dinamométrico antes de usarlo."},exampleSynonym:{word:"de medición de fuerza",text:"El laboratorio calibró el instrumento de medición de fuerza antes de usarlo."}},
   dinamometro:{definition:"Instrumento mecánico para medir fuerzas, basado en la deformación elástica de un muelle calibrado.",synonyms:["medidor de fuerza","instrumento de medición de fuerza"],example:{word:"dinamómetro",text:"El dinamómetro registró la fuerza ejercida sobre el resorte."},exampleSynonym:{word:"medidor de fuerza",text:"El medidor de fuerza registró la acción ejercida sobre el resorte."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

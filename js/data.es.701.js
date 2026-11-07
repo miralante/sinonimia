@@ -9,7 +9,7 @@
   mergansar:{definition:'Ave palmípeda del género Mergus, conocida también como serreta o mergánsar.',synonyms:['serreta','Mergus']},
   mergo:{definition:'Sumergir o meter algo en un líquido; uso poco frecuente.',synonyms:['sumergir','someter','bañar']},
   meridiana:{definition:'Femenino de «meridiano»; como sustantivo, reloj de sol o línea que señala el mediodía solar.',synonyms:['línea meridiana','reloj de sol (uso sustantivo)']},
-  meridianamente:{definition:'Con claridad o evidencia; de manera meridiana.',synonyms:['claramente','evidentemente','con toda claridad']},
+  
   meridiano:{definition:'Cada una de las líneas imaginarias que unen los polos terrestres y sirven para medir la longitud geográfica; también, relativo al mediodía.',synonyms:['línea meridiana','círculo de longitud','relativo al mediodía']},
   meridion:{definition:'El sur o punto cardinal opuesto al norte; voz poética o antigua.',synonyms:['sur','austro','mediodía (punto cardinal)']},
   meridional:{synonyms:['sureño','austral','del sur']},
@@ -19,12 +19,12 @@
   merino:{definition:'Dicho de una oveja o carnero: de una raza apreciada por su lana fina, rizada y abundante; también, la lana de esta raza.',synonyms:['oveja merina','lana merina']},
   meristema:{definition:'Tejido vegetal de células no diferenciadas capaz de dividirse y originar nuevos tejidos u órganos; variante de «meristemo».',synonyms:['meristemo','tejido meristemático']},
   meristemo:{synonyms:['meristema','tejido meristemático']},
-  meritamente:{definition:'De manera meritoria o digna de reconocimiento.',synonyms:['meritoriamente','con mérito']},
+  
   meritar:{definition:'Ser digno de algo por los méritos propios; también, hacer méritos para conseguirlo.',synonyms:['merecer','hacerse acreedor','ganarse']},
   meritisimo:{definition:'Superlativo de «meritorio»: muy digno de reconocimiento o mérito.',synonyms:['dignísimo','muy meritorio']},
   merito:{definition:'Cualidad que hace a alguien o algo digno de aprecio o reconocimiento; también, premio o reconocimiento concedido por ello.',synonyms:['mérito','valor','reconocimiento','distinción']},
   meritocracia:{synonyms:['selección basada en méritos','asignación de puestos según logros y capacidad','sistema meritocrático']},
-  meritoriamente:{synonyms:['con mérito','de manera meritoria','dignamente']},
+  
   merla:{definition:'Ave paseriforme de la familia de los túrdidos; en algunas regiones, nombre aplicado al mirlo común.',synonyms:['mirlo','Turdus merula (según la región)']},
   merlon:{definition:'Cada uno de los prismas o salientes macizos que alternan con las almenas abiertas en la parte superior de una muralla.',synonyms:['almena maciza','parapeto almenado']},
   merluzo:{definition:'Persona tonta o de escaso entendimiento; uso coloquial y despectivo.',synonyms:['zoquete','memo','papanatas']},

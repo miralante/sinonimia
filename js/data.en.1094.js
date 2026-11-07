@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error('missing en');
+{const x={"id":"round3217-waldensian-adjective","word":"Waldensian","image":{"id":7024,"alt":"A congregation meets in a Waldensian church."},"definition":"Related to the Christian movement that began in Lyon centuries ago.","synonyms":["of the Waldensians","Waldensian Church"],"example":{"word":"Waldensian","text":"They visited a Waldensian church in the valley."},"exampleSynonym":{"word":"of the Waldensians","text":"They visited a church of the Waldensians in the valley."},"situacion":"historia"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

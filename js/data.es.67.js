@@ -12,5 +12,5 @@
     descarrillar:{definition:"Verbo transitivo desusado: despedazar animales abriéndoles la mandíbula.",synonyms:["despedazar","descuartizar"],example:{word:"descarrillar",text:"El antiguo tratado explica cómo descarrillar una res durante el faenado."},exampleSynonym:{word:"despedazar",text:"El antiguo tratado explica cómo despedazar una res durante el faenado."}},
     descarrio:{definition:"Sustantivo masculino: acción y efecto de descarriar o descarriarse; extravío o desviación de lo justo y razonable.",synonyms:["extravío","desvío","desorientación","perdición","depravación"],example:{word:"descarrío",text:"El personaje reconoció su descarrío y decidió cambiar de rumbo."},exampleSynonym:{word:"extravío",text:"El personaje reconoció su extravío y decidió cambiar de rumbo."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

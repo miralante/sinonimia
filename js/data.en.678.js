@@ -7,5 +7,5 @@
   toller:{definition:'A person who collects a toll; also, something that tolls or rings a bell.',synonyms:['toll collector','bell ringer']},
   toluene:{definition:'A colorless, flammable aromatic hydrocarbon (C₇H₈) used as an industrial solvent and in chemical manufacture.',synonyms:['methylbenzene']},
   tomatillo:{definition:'A small round fruit of the plant Physalis philadelphica, enclosed in a papery husk and used in Mexican cooking.',synonyms:['Mexican husk tomato','husk tomato']},
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['tojosite','tola','tolu','tolerate-2','toll-2']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

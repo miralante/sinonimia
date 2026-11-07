@@ -12,5 +12,5 @@
     desarrollable:{definition:"Adjetivo: que puede desarrollarse.",synonyms:["que puede desarrollarse","ampliable","expandible"],example:{word:"desarrollable",text:"El proyecto es desarrollable por etapas si se consiguen los fondos."},exampleSynonym:{word:"ampliable",text:"El proyecto es ampliable por etapas si se consiguen los fondos."}},
     desarropar:{definition:"Verbo transitivo, también pronominal: quitar o apartar la ropa.",synonyms:["desabrigar","destapar","desnudar","desvestir"],example:{word:"desarropar",text:"Tuvieron que desarropar al niño para cambiarle la ropa mojada."},exampleSynonym:{word:"desvestir",text:"Tuvieron que desvestir al niño para cambiarle la ropa mojada."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

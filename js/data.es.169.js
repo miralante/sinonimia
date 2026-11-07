@@ -1,7 +1,7 @@
 (()=>{
  const updates={
   disimulable:{definition:"Que puede disimularse, ocultarse o hacerse menos perceptible.",synonyms:["ocultable","encubrible","disfrazable"],example:{word:"disimulable",text:"La pequeña imperfección era disimulable con una capa de pintura."},exampleSynonym:{word:"ocultable",text:"La pequeña imperfección era ocultable con una capa de pintura."}},
-  disimuladamente:{definition:"Con disimulo, procurando que algo no se note o no se descubra.",synonyms:["discretamente","a escondidas","solapadamente"],example:{word:"disimuladamente",text:"Miró disimuladamente el reloj durante la reunión."},exampleSynonym:{word:"discretamente",text:"Miró discretamente el reloj durante la reunión."}},
+  
   disimulador:{definition:"Que disimula u oculta sus intenciones, sentimientos o acciones; persona que lo hace.",synonyms:["reservado","encubridor","simulador"],example:{word:"disimulador",text:"El personaje disimulador ocultó sus verdaderos motivos."},exampleSynonym:{word:"reservado",text:"El personaje reservado ocultó sus verdaderos motivos."}},
   disimular:{definition:"Ocultar o encubrir con astucia una intención, sentimiento o realidad; hacer que algo se note menos.",synonyms:["ocultar","encubrir","disfrazar"],example:{word:"disimular",text:"Intentó disimular su preocupación durante la entrevista."},exampleSynonym:{word:"ocultar",text:"Intentó ocultar su preocupación durante la entrevista."}},
   disimulo:{definition:"Acción de disimular; cautela o habilidad con que se oculta lo que se siente, piensa o hace.",synonyms:["cautela","reserva","ocultación"],example:{word:"disimulo",text:"Con disimulo, cambió de tema para evitar la discusión."},exampleSynonym:{word:"reserva",text:"Con reserva, cambió de tema para evitar la discusión."}},
@@ -10,5 +10,5 @@
   disipar:{definition:"Esparcir o dispersar gradualmente las partes de algo; hacer desaparecer o desvanecerse una duda, temor o impresión.",synonyms:["dispersar","desvanecer","despejar"],example:{word:"disipar",text:"La explicación ayudó a disipar las dudas del equipo."},exampleSynonym:{word:"despejar",text:"La explicación ayudó a despejar las dudas del equipo."}},
   disjuntos:{definition:"Separados o no unidos; en matemáticas, conjuntos disjuntos son aquellos que no tienen elementos en común.",synonyms:["separados","independientes","sin elementos comunes"],example:{word:"disjuntos",text:"En el diagrama, los dos conjuntos aparecen disjuntos."},exampleSynonym:{word:"separados",text:"En el diagrama, los dos conjuntos aparecen separados."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

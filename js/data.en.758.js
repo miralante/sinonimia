@@ -56,7 +56,7 @@
  'waste-3':{definition:'The failure to use something to its best advantage; inefficient or unnecessary use.',synonyms:['inefficiency','misuse','squandering']},
  'wasted-2':{definition:'Exhausted, depleted, or under the influence of drugs or alcohol (informal); also, used or expended without good purpose.',synonyms:['exhausted','intoxicated (informal)','spent']},
  wasteful:{synonyms:['extravagant','profligate','inefficient']},
- 'wastefully':{synonyms:['extravagantly','inefficiently','profligately']},
+ 
  wasteland:{definition:'An area of land that is barren, damaged, or otherwise unsuitable for use or cultivation.',synonyms:['desolate land','barren land','wilderness']},
  waster:{synonyms:['squanderer','time-waster','wasteful person']},
  'waste-time':{definition:'To spend time unproductively or without making useful progress.',synonyms:['fool around','idle','dawdle']},
@@ -109,5 +109,5 @@
  'water-repellent':{definition:'Resistant to water or able to cause water to bead and run off a surface.',synonyms:['water-resistant','hydrophobic']},
  'water-soluble':{definition:'Able to dissolve in water.',synonyms:['soluble in water','hydrosoluble']},
  'water-supply':{synonyms:['water service','water provision','water system']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}const ids=new Set(['warehouse-2','warehouse-3','warm-3','warm-5','warm-7','warmland','warmland-2','warmth-2','warmth-3','warmth-4','warm-up-3','warrior-2','warrior-3','wart-2','wart-3','wash-3','washed','washer-2','washing-2','watering-can-2','watering-can-3','watering-down','waterbatter','water-loose','watermaker-old','waterwashing-old','wasted-2-old','wasteful-2','wasteful-3','wasteland-2','wasteland-4','wastepaper-basket','waster-2','waster-3','watchtower-old','watercolor-old']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}const ids=new Set(['warehouse-2','warehouse-3','warm-3','warm-5','warm-7','warmland','warmland-2','warmth-2','warmth-3','warmth-4','warm-up-3','warrior-2','warrior-3','wart-2','wart-3','wash-3','washed','washer-2','washing-2','watering-can-2','watering-can-3','watering-down','waterbatter','water-loose','watermaker-old','waterwashing-old','wasted-2-old','wasteful-2','wasteful-3','wasteland-2','wasteland-4','wastepaper-basket','waster-2','waster-3','watchtower-old','watercolor-old']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();
 

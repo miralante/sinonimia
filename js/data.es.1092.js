@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3215-jable-canarias","word":"jable","image":{"id":7024,"alt":"Viñas crecen en suelo volcánico de Lanzarote."},"definition":"Arena volcánica de Canarias que retiene agua para los cultivos.","synonyms":["suelo volcánico","arena volcánica que retiene agua"],"example":{"word":"jable","text":"En Lanzarote, cultivan vides sobre jable."},"exampleSynonym":{"word":"suelo volcánico","text":"En Lanzarote, cultivan vides sobre suelo volcánico."},"situacion":"naturaleza"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

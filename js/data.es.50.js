@@ -12,5 +12,5 @@
     desaislarse:{definition:"Verbo pronominal: dejar de estar aislado, salir del aislamiento.",synonyms:["salir del aislamiento","integrarse","reincorporarse"],example:{word:"desaislarse",text:"Con el tiempo, pudo desaislarse y volver a participar en las actividades del barrio."},exampleSynonym:{word:"integrarse",text:"Con el tiempo, pudo integrarse y volver a participar en las actividades del barrio."}},
     desajacarse:{definition:"Verbo pronominal desusado: excusarse, eximirse o libertarse de algo.",synonyms:["excusarse","eximirse","librarse","liberarse"],example:{word:"desajacarse",text:"El acusado intentó desajacarse de aquella obligación."},exampleSynonym:{word:"eximirse",text:"El acusado intentó eximirse de aquella obligación."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

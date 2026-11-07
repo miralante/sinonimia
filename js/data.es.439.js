@@ -14,7 +14,7 @@
  estrenuo:{definition:'Fuerte, vigoroso o esforzado; también, valiente y resuelto.',synonyms:['vigoroso','esforzado','valeroso']},
  estrepa:{definition:'Variante de estepa.',synonyms:['estepa','terreno estepario']},
  estrepito:{definition:'Ruido grande, fuerte y generalmente confuso.',synonyms:['estruendo','fragor','barullo']},
- estrepitosamente:{definition:'Con mucho ruido o de manera llamativa y escandalosa.',synonyms:['ruidosamente','escandalosamente','aparatosamente']},
+ 
  estrepitoso:{definition:'Que causa o produce estrépito; también, muy llamativo o escandaloso.',synonyms:['estruendoso','ruidoso','aparatoso']},
  estreptococia:{definition:'Medicina. Infección causada por bacterias del género Streptococcus.',synonyms:['infección estreptocócica','estreptococosis']},
  estreptomicina:{definition:'Antibiótico aminoglucósido producido por Streptomyces griseus, utilizado contra ciertas infecciones bacterianas, incluida la tuberculosis en combinación con otros fármacos.',synonyms:['antibiótico aminoglucósido','streptomycin']},
@@ -33,4 +33,4 @@
  estricarse:{definition:'Desusado o regional. Desenvolverse, desinhibirse o actuar con soltura.',synonyms:['desenvolverse','desembarazarse','desinhibirse']},
  estricia:{definition:'Enfermedad infecciosa causada por bacterias; voz antigua o regional.',synonyms:['infección bacteriana','enfermedad infecciosa']},
  estricnina:{definition:'Alcaloide muy tóxico presente en semillas de plantas del género Strychnos, como la nuez vómica.',synonyms:['veneno de nuez vómica','alcaloide tóxico']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

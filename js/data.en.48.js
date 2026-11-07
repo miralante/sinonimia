@@ -11,7 +11,7 @@
     gigantic:{definition:"Adjective: exceeding the usual or expected size, force, or prominence; exceedingly large.",synonyms:["enormous","huge","colossal","immense","vast"],example:{word:"gigantic",text:"A gigantic wave crashed against the harbor wall."},exampleSynonym:{word:"enormous",text:"An enormous wave crashed against the harbor wall."}},
     gigantesque:{definition:"Adjective: of enormous or grotesquely large proportions.",synonyms:["gigantic","huge","enormous","grotesquely large"],example:{word:"gigantesque",text:"The artist designed a gigantesque figure that filled the entire stage."},exampleSynonym:{word:"gigantic",text:"The artist designed a gigantic figure that filled the entire stage."}}
   };
-  const reviewed=['kindly','crowd','geography','geographic','geographical','geology','geologic','geological','gigantic','gigantesque'];
+  const reviewed=["crowd","geography","geographic","geographical","geology","geologic","geological","gigantic","gigantesque"];
   for(const id of reviewed){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}
   for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,fields);}
 })();

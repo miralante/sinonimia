@@ -4,7 +4,7 @@
  esponjoso:{synonyms:['poroso','absorbente','mullido','esponjado']},
  esponsalicio:{synonyms:['relativo a los esponsales','nupcial (según el contexto)']},
  esponsorizar:{definition:'Patrocinar o financiar una actividad, organización o acontecimiento a cambio de promoción o asociación de imagen.',synonyms:['patrocinar','auspiciar','financiar como patrocinador']},
- espontaneamente:{synonyms:['naturalmente','voluntariamente','sin coacción','sin planificación previa']},
+ 
  espontanearse:{definition:'Mostrar espontaneidad o comportarse de manera espontánea.',synonyms:['expresarse con espontaneidad','actuar con naturalidad']},
  espontaneidad:{synonyms:['naturalidad','frescura','espontaneísmo (según el contexto)']},
  espontaneismo:{definition:'Tendencia a confiar en la acción espontánea y no organizada como motor de una actividad o movimiento; el sentido preciso depende del ámbito.',synonyms:['acción espontánea','espontaneidad (general)']},
@@ -29,4 +29,4 @@
  esposas:{definition:'Instrumento, generalmente metálico, que une las muñecas para limitar el movimiento; también, la persona con quien alguien está casado.',synonyms:['grilletes de muñeca','manillas','cónyuge (otra acepción)']},
  espray:{definition:'Aerosol; también, envase o dispositivo que dispersa un líquido en gotas muy finas.',synonyms:['aerosol','atomizador','pulverizador']},
  esprinter:{definition:'Deportista que compite en carreras de velocidad; también, atleta especialista en sprints.',synonyms:['velocista','atleta de velocidad','corredor de sprint']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

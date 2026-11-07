@@ -1,7 +1,7 @@
 (()=>{const u={
   'stubborn':{definition:'Unwilling to change one’s opinion, decision, or behavior; persistent or difficult to move, remove, or alter. As a noun, an obstinate person.',synonyms:['obstinate','headstrong','unyielding','persistent']},
   'stubborn-cough':{definition:'A cough that continues for a long time or is difficult to stop.',synonyms:['persistent cough','lingering cough']},
-  'stubbornly':{definition:'In a way that refuses to change an opinion, decision, or course of action.',synonyms:['obstinately','persistently','stubbornly']},
+  
   'stubbornness':{definition:'The quality of refusing to change one’s mind or course of action despite reason or persuasion.',synonyms:['obstinacy','intransigence','persistence']},
   'stuccoer':{definition:'A person who applies or works with stucco.',synonyms:['plasterer','stucco worker']},
   'stuck-up':{definition:'Conceited or arrogant; behaving as if one were more important or better than other people.',synonyms:['snobbish','conceited','arrogant']},
@@ -35,7 +35,7 @@
   'stroll':{definition:'A leisurely walk; as a verb, to walk in a relaxed, unhurried way.',synonyms:['amble','saunter','promenade']},
   'strong':{definition:'Having great physical power, force, or intensity; able to withstand pressure or difficult conditions. Also, having a powerful effect or flavor.',synonyms:['powerful','forceful','robust','intense']},
   'strong-current':{definition:'A fast and forceful flow of water in a river, sea, or other body of water.',synonyms:['powerful current','swift current']},
-  'strongly':{definition:'With great force, intensity, or conviction; to a high degree or in a firm manner.',synonyms:['firmly','forcefully','intensely','emphatically']},
+  
   'strongman':{definition:'A man who displays exceptional physical strength, especially as an entertainer or competitor; also, an authoritarian political leader who exercises power by force.',synonyms:['powerful man','authoritarian leader','strongman performer']},
   'strontianite':{definition:'A mineral made of strontium carbonate, usually colorless, white, or pale yellow.',synonyms:['strontium carbonate mineral']},
   'style':{definition:'A particular way of doing or presenting something; a distinctive manner of expression, design, or appearance. As a verb, to design, shape, or arrange something.',synonyms:['manner','fashion','method','design','arrange']},
@@ -64,5 +64,5 @@
   'subfebrile':{definition:'Having a slightly raised body temperature, below the level usually associated with a high fever.',synonyms:['low-grade feverish','slightly feverish']},
   'subfluent':{definition:'A stream or river that flows into a tributary of a larger river.',synonyms:['tributary of a tributary','secondary tributary']},
   'subgenre':{definition:'A smaller category within a broader genre, with its own recognizable features.',synonyms:['genre subdivision','genre category']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['stubborn-10','stubborn-11','stubborn-12','stubbornly-2','stubbornly-3','stubbornly-4','stubbornness-2','stubbornness-3','stubbornness-4','stubbornness-5','stubbornness-6','stubbornness-7','stucco-2','stuck','stuck-2','stuck-10','stuck-11','stuck-12','stud-2','nail-3','studded-4','studded-5','student-2','student-3','student-4','student-5','student-6','student-7','student-residence-2','students-2','stuffed-7','stuffer-3','stuffer-4','stuffing-2','stumble-2','stumble-3','stumble-4','stumble-5','stumble-6','stumble-7','stumble-8','stump-2','stumped','stun-2','stun-3','stun-5','stun-6','stun-7','stun-9','stun-10','stun-11','stun-12','stun-13','stung-3','stunned-3','stunned-4','stunned-7','stunned-8','stunned-9','stunned-10','stunned-11','stunned-12','stunning-2','stunning-4','stunning-5','stunning-6','stupid-3','stupid-4','stupid-5','stupid-6','stupid-7','stupid-8','stupid-9','stupid-10','stupid-14','stupid-15','stupid-and-stupid-person','stupid-condition-or-character','stupid-in-the-extreme','stupid-or-unintelligent-person','stupidity-2','stupidity-3','stupidity-4','stupidity-5','stupidity-6','stupidity-7','stupidly-2','stupidly-3','stutter-2','stutter-3','stutterer-2','stutterer-3','stutterer-4','stutterer-5','stuttering-2','stycomitic','stylicide','stylish-2','stylish-3','stymenus','subdiaconate-2','subdistinguish','subdued-2','subfollow','subguela','subintrant','subject-2','subject-3','subject-4','subject-program-2']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

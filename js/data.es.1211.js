@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3361-linaloe-juice","word":"lináloe","image":{"id":7024,"alt":"Ilustración relacionada con lináloe."},"definition":"Jugo obtenido de la planta llamada lináloe.","synonyms":["jugo de áloe","acíbar"],"example":{"word":"lináloe","text":"El herbolario preparó lináloe para la receta."},"exampleSynonym":{"word":"jugo de áloe","text":"El herbolario preparó jugo de áloe para la receta."},"situacion":"naturaleza","translation":{"en":"linaloe juice"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

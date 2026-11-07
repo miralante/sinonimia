@@ -11,5 +11,5 @@
   desnucar:{definition:"Sacar de su lugar los huesos de la nuca; también, causar la muerte por un golpe en la nuca. Se usa asimismo como pronominal.",synonyms:["desarticular la nuca","quebrar el cuello","matar de un golpe en la nuca"],example:{word:"desnucar",text:"El forense explicó que el accidente pudo desnucar al animal."},exampleSynonym:{word:"quebrar el cuello",text:"El forense explicó que el accidente pudo quebrar el cuello del animal."}},
   desnudador:{definition:"Que desnuda; se usa como adjetivo y también como sustantivo.",synonyms:["que desnuda","desvestidor","que deja al descubierto"],example:{word:"desnudador",text:"El viento desnudador dejó las ramas del árbol a la vista."},exampleSynonym:{word:"que deja al descubierto",text:"El viento que deja al descubierto las ramas mostró el árbol desnudo."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

@@ -1,15 +1,15 @@
 (()=>{const u={
  estufero:{definition:'Persona que fabrica o instala estufas.',synonyms:['fabricante de estufas','instalador de estufas']},
  estufido:{definition:'Gesto, expresión o manifestación de irritación o enfado.',synonyms:['bufido','gesto de enfado','muestra de irritación']},
- estultamente:{definition:'Con estulticia o necedad.',synonyms:['neciamente','estúpidamente']},
+ 
  estulticia:{definition:'Necedad, torpeza o falta de entendimiento.',synonyms:['estupidez','necedad','tontería']},
  estulto:{definition:'Falto de inteligencia, sensatez o entendimiento.',synonyms:['necio','insensato','estúpido']},
  estuosidad:{definition:'Calor o enardecimiento excesivo.',synonyms:['calor intenso','ardor','bochorno']},
  estuoso:{definition:'Muy caliente o ardoroso.',synonyms:['caluroso','ardiente','muy caliente']},
  estupefaciente:{definition:'Sustancia que produce efectos sobre el sistema nervioso central y puede alterar la percepción, el ánimo o la conciencia; su clasificación legal varía según el país.',synonyms:['droga psicoactiva','narcótico (según el contexto)','sustancia controlada']},
  estupefacto:{definition:'Atónito, pasmado o sin reacción por sorpresa o asombro.',synonyms:['atónito','pasmado','asombrado']},
- estupendamente:{definition:'De manera estupenda o excelente; también, con asombro o admiración.',synonyms:['excelentemente','maravillosamente','admirablemente']},
- estupidamente:{definition:'De manera estúpida, torpe o carente de sensatez.',synonyms:['neciamente','torpemente','insensatamente']},
+ 
+ 
  estupidez:{definition:'Falta de inteligencia o sensatez; acción o dicho propio de una persona estúpida.',synonyms:['necedad','tontería','insensatez']},
  estupido:{definition:'Falto de inteligencia o sensatez; dicho o hecho que resulta necio.',synonyms:['necio','insensato','torpe']},
  estuprador:{definition:'Persona que comete estupro.',synonyms:['autor de estupro','abusador sexual (según la ley aplicable)']},
@@ -30,5 +30,5 @@
  etereo:{definition:'Perteneciente o relativo al éter; también, sutil, vaporoso o delicado.',synonyms:['sutil','vaporoso','etéreo']},
  eterismo:{definition:'Medicina, antiguo. Pérdida de sensibilidad causada por la acción del éter.',synonyms:['insensibilidad por éter','anestesia etérea']},
  eternal:{definition:'Eterno o perpetuo.',synonyms:['eterno','perpetuo','infinito']},
- eternalmente:{definition:'Por toda la eternidad o sin fin.',synonyms:['eternamente','perpetuamente','para siempre']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+ 
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

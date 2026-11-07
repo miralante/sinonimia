@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+if(!d.some(q=>q.id==="round3100-inconveniente-obstacle"))d.push({"id":"round3100-inconveniente-obstacle","word":"Inconveniente","image":{"id":7024,"alt":"Una persona encuentra una dificultad inesperada en su camino."},"definition":"Problema o dificultad que puede impedir algo.","synonyms":["problema","obstáculo","contratiempo"],"example":{"word":"inconveniente","text":"El único inconveniente fue la lluvia."},"exampleSynonym":{"word":"problema","text":"El único problema fue la lluvia."},"situacion":"vida-diaria"});
+})();

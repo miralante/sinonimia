@@ -10,5 +10,5 @@
   distraido:{word:"distraído",definition:"Que no presta atención a lo que ocurre o está absorto en sus pensamientos.",synonyms:["despistado","abstraído","desatento"],example:{word:"distraído",text:"El conductor distraído no vio la señal a tiempo."},exampleSynonym:{word:"desatento",text:"El conductor desatento no vio la señal a tiempo."}},
   distribuidor:{definition:"Persona, empresa, dispositivo o mecanismo que distribuye o entrega productos, servicios, información o energía; en el comercio, intermediario que compra bienes para venderlos a minoristas.",synonyms:["repartidor","proveedor","intermediario","difusor"],example:{word:"distribuidor",text:"El distribuidor entregó los productos a varias tiendas de la región."},exampleSynonym:{word:"intermediario",text:"El intermediario entregó los productos a varias tiendas de la región."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

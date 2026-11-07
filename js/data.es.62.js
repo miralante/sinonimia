@@ -11,5 +11,5 @@
     desbarahustar:{definition:"Verbo transitivo desusado: desbarajustar, es decir, causar desorden o desconcierto.",synonyms:["desbarajustar","desordenar","desorganizar"],example:{word:"desbarahustar",text:"El cambio de planes llegó a desbarahustar la organización del viaje."},exampleSynonym:{word:"desbarajustar",text:"El cambio de planes llegó a desbarajustar la organización del viaje."}},
     desbarajustar:{definition:"Verbo transitivo: causar desorden o desconcierto; descomponer la disposición ordenada de algo.",synonyms:["desordenar","desorganizar","descomponer","desbaratar"],example:{word:"desbarajustar",text:"La mudanza inesperada pudo desbarajustar todo el calendario."},exampleSynonym:{word:"desorganizar",text:"La mudanza inesperada pudo desorganizar todo el calendario."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

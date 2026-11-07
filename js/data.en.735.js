@@ -6,5 +6,5 @@
   'uncertainty':{definition:'The state of being unsure or not fully informed; also, an unknown or variable factor.',synonyms:['doubt','unpredictability','indeterminacy']},
   'uncircumscribed':{definition:'Not limited, bounded, or enclosed within a particular perimeter or restriction.',synonyms:['unbounded','unrestricted','unlimited']},
   'uncivil':{definition:'Rude or discourteous; lacking politeness.',synonyms:['impolite','rude','discourteous']},
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['uncertainty-2','uncertainty-3','uncertainty-4','unchabar','unchap','uncharging','unchild','uncircumscribed-2','uncivil-2','unclean-2','unclip-2','unclog-2','unclog-3','unclog-4','unclog-5','unclog-6']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

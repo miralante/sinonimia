@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+if(!d.some(q=>q.id==="round3120-inexcusable-essential"))d.push({"id":"round3120-inexcusable-essential","word":"inexcusable","image":{"id":7024,"alt":"An essential safety step must be completed before work can begin."},"definition":"Necessary and impossible to leave out.","synonyms":["essential","indispensable","obligatory"],"example":{"word":"inexcusable","text":"Protective equipment is inexcusable on this worksite."},"exampleSynonym":{"word":"essential","text":"Protective equipment is essential on this worksite."},"situacion":"trabajo"});
+})();

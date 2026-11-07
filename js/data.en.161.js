@@ -9,5 +9,5 @@
   orthose:{definition:"Mineralogy. Orthoclase, a potassium feldspar mineral.",synonyms:["orthoclase","potassium feldspar"],example:{word:"orthose",text:"The granite sample contained pink orthose crystals."},exampleSynonym:{word:"orthoclase",text:"The granite sample contained pink orthoclase crystals."}},
   orthotypography:{definition:"The conventions governing both spelling and typography in written language, including capitalization, spacing, punctuation, and the use of type styles and symbols.",synonyms:["typographical conventions","orthotypographic rules","writing and typography rules"],example:{word:"orthotypography",text:"The editor checked the manuscript's orthotypography before publication."},exampleSynonym:{word:"typographical conventions",text:"The editor checked the manuscript's typographical conventions before publication."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

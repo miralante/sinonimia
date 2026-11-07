@@ -8,7 +8,7 @@
  estraperlo:{definition:'Comercio ilegal o clandestino de bienes sometidos a racionamiento, impuestos u otras restricciones.',synonyms:['mercado negro','contrabando','tráfico ilegal']},
  estrapontin:{definition:'Asiento supletorio y plegable en un vehículo; también, asiento adicional en una sala u organismo.',synonyms:['asiento plegable','asiento supletorio','transportín']},
  estratega:{definition:'Persona que diseña o dirige una estrategia.',synonyms:['planificador','táctico','estrategista']},
- estrategicamente:{definition:'De manera estratégica, atendiendo a un plan y a sus objetivos.',synonyms:['con estrategia','planificadamente']},
+ 
  estrategico:{definition:'Perteneciente o relativo a una estrategia; de importancia decisiva para alcanzar un objetivo.',synonyms:['táctico','decisivo','clave']},
  estratificar:{definition:'Disponer o formar en estratos, capas o niveles.',synonyms:['disponer en capas','dividir en niveles','clasificar']},
  estratigrafia:{definition:'Rama de la geología que estudia la disposición, secuencia, edad y correlación de las rocas estratificadas.',synonyms:['geología estratigráfica','estudio de estratos']},
@@ -20,7 +20,7 @@
  estrazar:{definition:'Desusado. Despedazar o romper algo.',synonyms:['despedazar','destrozar','romper']},
  estrazo:{definition:'Trapo, pedazo o desecho de ropa basta.',synonyms:['estraza','trapo','retal basto']},
  estrechadura:{definition:'Estrechamiento o reducción de anchura.',synonyms:['estrechamiento','angostamiento']},
- estrechamente:{definition:'De manera estrecha; con poco espacio o con una relación muy cercana.',synonyms:['ceñidamente','de cerca','íntimamente']},
+ 
  estrecheza:{definition:'Estrechez o falta de anchura; también, escasez o limitación.',synonyms:['estrechez','angostura','escasez']},
  estrechura:{definition:'Estrechez o angostura de un terreno, paso o lugar.',synonyms:['angostura','estrechez','desfiladero']},
  estregadera:{definition:'Utensilio con que se estrega o frota una superficie.',synonyms:['estropajo','cepillo de fregar','fregador']},
@@ -33,4 +33,4 @@
  estrellato:{definition:'Condición de estrella o figura destacada del mundo del espectáculo.',synonyms:['fama','celebridad','estatus de estrella']},
  estrellera:{definition:'Dicho de una caballería: que levanta bruscamente la cabeza, lo que puede poner en peligro a quien la monta.',synonyms:['caballo que levanta la cabeza','caballo resabiado']},
  estrellero:{definition:'Dicho de una caballería: que levanta bruscamente la cabeza.',synonyms:['caballo que levanta la cabeza','estrellera']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

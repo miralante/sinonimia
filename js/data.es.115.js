@@ -11,5 +11,5 @@
   despenadizo:{definition:"Dicho de un lugar: que puede provocar una caída por un precipicio.",synonyms:["peligroso por su precipicio","escarpado","propicio para despeñarse"],example:{word:"Despeñadizo",text:"El sendero despeñadizo estaba cerrado por el riesgo de caída."},exampleSynonym:{word:"escarpado",text:"El sendero escarpado estaba cerrado por el riesgo de caída."}},
   despeno:{definition:"Acción de despeñar o despeñarse; también, caída precipitada o ruina.",synonyms:["caída precipitada","despeñamiento","ruina"],example:{word:"Despeño",text:"El despeño de las rocas bloqueó el camino de montaña."},exampleSynonym:{word:"caída precipitada",text:"La caída precipitada de las rocas bloqueó el camino de montaña."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

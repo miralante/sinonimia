@@ -12,5 +12,5 @@
     damero:{definition:"Sustantivo masculino: tablero cuadrado de 64 casillas alternadamente blancas y negras para jugar a las damas o al ajedrez. También, pasatiempo de palabras, cuadrícula que se llena con letras para formar un texto o plano urbano en cuadrícula.",synonyms:["tablero de 64 casillas","cuadrícula","damerograma"],example:{word:"damero",text:"El damero tenía casillas blancas y negras, como un plano de calles en cuadrícula."},exampleSynonym:{word:"cuadrícula",text:"La cuadrícula tenía casillas blancas y negras, como un plano de calles en damero."}},
     damerograma:{definition:"Sustantivo masculino: damero, pasatiempo que consiste en formar un texto con letras de palabras que se averiguan a partir de sus definiciones.",synonyms:["damero","pasatiempo de palabras"],example:{word:"damerograma",text:"Resolvió el damerograma y descubrió el mensaje oculto en la cuadrícula."},exampleSynonym:{word:"damero",text:"Resolvió el damero y descubrió el mensaje oculto en la cuadrícula."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

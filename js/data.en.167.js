@@ -10,7 +10,7 @@
   outbid:{definition:"To offer a higher bid or price than another person, especially at an auction.",synonyms:["bid higher than","outdo in bidding","overbid"],example:{word:"outbid",text:"They hoped to outbid the other buyers at the auction."},exampleSynonym:{word:"bid higher than",text:"They hoped to bid higher than the other buyers at the auction."}},
   outbreak:{definition:"A sudden start or increase of something, especially a disease, conflict, or other harmful event.",synonyms:["eruption","flare-up","sudden occurrence"],example:{word:"outbreak",text:"Health workers responded quickly to the outbreak of measles."},exampleSynonym:{word:"eruption",text:"Health workers responded quickly to the eruption of measles."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  if(!DICCIONARIOS.en.some(e=>e.id==='out-2'))throw Error('Missing en/out-2');
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>e.id!=='out-2');
 })();

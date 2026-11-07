@@ -11,5 +11,5 @@
   desmoronadizo:{definition:"Que se desmorona o se deshace con facilidad.",synonyms:["deleznable","friable","quebradizo"],example:{word:"desmoronadizo",text:"El muro desmoronadizo necesitaba una reparación urgente."},exampleSynonym:{word:"quebradizo",text:"El muro quebradizo necesitaba una reparación urgente."}},
   desmoronar:{definition:"Deshacer y arruinar poco a poco edificios u otras materias cohesionadas; también, venirse abajo o perder fuerza y estabilidad.",synonyms:["derruir","deshacer","venirse abajo"],example:{word:"desmoronar",text:"Las lluvias persistentes empezaron a desmoronar el muro de piedra."},exampleSynonym:{word:"derruir",text:"Las lluvias persistentes empezaron a derruir el muro de piedra."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

@@ -18,7 +18,7 @@
     "curate-2":{translation:null},
     beodez:{translation:null}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);for(const[key,value]of Object.entries(fields)){if(key==='translation'&&value===null)delete row.translation;else row[key]=value;}}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row)for(const[key,value]of Object.entries(fields)){if(key==='translation'&&value===null)delete row.translation;else row[key]=value;}}
   const removed=['curate-2','beodez'];
   DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!removed.includes(e.id));
   for(const language of ['es','en'])for(const row of DICCIONARIOS[language]){const key=language==='es'?'en':'es',value=row.translation?.[key];if(!value)continue;const kept=(Array.isArray(value)?value:[value]).filter(id=>!removed.includes(id));if(kept.length)row.translation={...row.translation,[key]:Array.isArray(value)?kept:kept[0]};else delete row.translation;}

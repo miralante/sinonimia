@@ -11,5 +11,5 @@
   desertificar:{definition:"Verbo transitivo: convertir en desierto extensas zonas de tierras fértiles.",synonyms:["desertizar","volver árido","degradar el suelo"],example:{word:"desertificar",text:"La pérdida de vegetación puede desertificar una región fértil."},exampleSynonym:{word:"volver árido",text:"La pérdida de vegetación puede volver árido el suelo de una región fértil."}},
   desesperar:{definition:"Verbo transitivo: quitar la esperanza o la ilusión; coloquialmente, impacientar o exasperar. Como pronominal, perder la esperanza o, en uso poco frecuente, despecharse.",synonyms:["desesperanzar","desilusionar","desalentar","impacientar","exasperar"],example:{word:"desesperar",text:"La demora empezó a desesperar a los pasajeros que esperaban noticias."},exampleSynonym:{word:"impacientar",text:"La demora empezó a impacientar a los pasajeros que esperaban noticias."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

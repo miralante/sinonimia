@@ -6,5 +6,5 @@
   tracker:{definition:'A person, device, or program that follows the tracks, location, or progress of someone or something.',synonyms:['tracking device','monitor']},
   tractor:{definition:'A powerful motor vehicle used especially for pulling farm machinery; also, a truck unit designed to pull a trailer.',synonyms:['farm tractor','truck tractor']},
   trade:{definition:'The buying, selling, or exchange of goods and services; a skilled occupation; also, to buy, sell, or exchange goods.',synonyms:['commerce','business','exchange','occupation']},
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['trache','tracheo','trachy','track-2','track-4','track-5','tract-2','tractor-2','tractor-3','trade-2']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

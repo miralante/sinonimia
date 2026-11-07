@@ -5,4 +5,4 @@
  reedbed:{definition:'An area of wet ground covered mainly with reeds.',synonyms:['reed bed','reed marsh','reed swamp']},
  'reed-bed':{definition:'An area of wet ground where reeds grow densely.',synonyms:['reedbed','reed marsh']},
  reedit:{definition:'To edit something again, especially to revise or improve an earlier version.',synonyms:['edit again','revise','re-edit']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

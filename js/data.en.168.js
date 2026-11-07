@@ -8,7 +8,7 @@
   outflow:{definition:"The act, process, or amount of something flowing or moving outward from a place; an outward movement of people, money, or resources.",synonyms:["outgoing flow","discharge","efflux","outpouring"],example:{word:"outflow",text:"The dam controls the outflow of water into the valley."},exampleSynonym:{word:"outgoing flow",text:"The dam controls the outgoing flow of water into the valley."}},
   "outgoing-record":{definition:"An entry in a register or log recording a document, letter, or message sent out by an office or organization.",synonyms:["outgoing register entry","dispatch record","outgoing log entry"],example:{word:"outgoing record",text:"The clerk added the signed notice to the outgoing record."},exampleSynonym:{word:"dispatch record",text:"The clerk added the signed notice to the dispatch record."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  for(const id of ['outburst-2','outburst-3','outdated-2'])if(!DICCIONARIOS.en.some(e=>e.id===id))throw Error('Missing en/'+id);
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!['outburst-2','outburst-3','outdated-2'].includes(e.id));
 })();

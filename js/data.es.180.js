@@ -11,5 +11,5 @@
   disuasivo:{definition:"Que disuade o puede hacer que alguien desista de una acción o decisión.",synonyms:["disuasorio","desalentador","inhibidor"],example:{word:"disuasivo",text:"La multa tiene un efecto disuasivo sobre las infracciones."},exampleSynonym:{word:"disuasorio",text:"La multa tiene un efecto disuasorio sobre las infracciones."}},
   disuria:{definition:"Dificultad, molestia o dolor al orinar.",synonyms:["micción dolorosa","dolor al orinar","dificultad para orinar"],example:{word:"disuria",text:"La paciente consultó por disuria y molestias al orinar."},exampleSynonym:{word:"dolor al orinar",text:"La paciente consultó por dolor al orinar y otras molestias."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

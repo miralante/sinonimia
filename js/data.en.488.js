@@ -16,4 +16,4 @@
  quadrennium:{definition:'A period of four years.',synonyms:['four-year period','four-year cycle']},
  quadric:{definition:'A surface in three-dimensional space defined by a second-degree equation in Cartesian coordinates.',synonyms:['quadric surface','second-degree surface']},
  quadricular:{definition:'Of or relating to a grid or lattice.',synonyms:['grid-related','lattice-like']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

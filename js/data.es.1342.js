@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3504-masoquismo-general","word":"masoquismo","image":{"id":7024,"alt":"Una palabra del diccionario"},"definition":"Enjoyment of being humiliated or treated badly.","synonyms":["complacencia en el maltrato"],"example":{"word":"masoquismo","text":"Su masoquismo le hacía aceptar continuas humillaciones."},"exampleSynonym":{"word":"complacencia en el maltrato","text":"Su complacencia en el maltrato le hacía aceptar continuas humillaciones."},"situacion":"conocimiento"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

@@ -1,0 +1,1 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)return;const ids=new Set(['guisaso','guiso','guisopo','guisote','guisqueria','guisqui','guisquil','guisquilar','guita','guitar','guitarrazo','guitarreo']);d.splice(0,d.length,...d.filter(x=>!ids.has(x.id)));})();

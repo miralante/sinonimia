@@ -7,7 +7,7 @@
   row.example={word:"slave",text:"The archive records the life of an enslaved person, while the researchers had to slave over the damaged manuscript."};
   row.exampleSynonym={word:"enslaved person",text:"The archive records the life of an enslaved person, while the researchers had to work very hard over the damaged manuscript."};
   delete row.translation;
-  const reviewed=['escort','hide-and-seek','shotgun','cleavage','scribe','written','scrotum','sculpture','slippery'];
+  const reviewed=["escort","shotgun","cleavage","scribe","written","scrotum","sculpture","slippery"];
   for(const id of reviewed){const entry=DICCIONARIOS.en.find(e=>e.id===id);if(!entry)throw Error('Missing en/'+id);delete entry.translation;}
   DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>e.id!=='cushite');
   for(const language of ['es','en'])for(const entry of DICCIONARIOS[language]){const key=language==='es'?'en':'es',value=entry.translation?.[key];if(!value)continue;const kept=(Array.isArray(value)?value:[value]).filter(id=>id!=='cushite');if(kept.length)entry.translation={...entry.translation,[key]:Array.isArray(value)?kept:kept[0]};else delete entry.translation;}

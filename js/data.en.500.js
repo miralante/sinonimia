@@ -18,4 +18,4 @@
  rainwater:{definition:'Water that has fallen as rain, especially when collected for use.',synonyms:['collected rain','rain-derived water']},
  rainy:{definition:'Characterized by or receiving a considerable amount of rain.',synonyms:['wet','showery','rain-filled']},
  raise:{definition:'Verb: to lift or move something upward; to increase an amount; to bring up a child; to collect funds; or to bring up a topic. Noun: an increase in pay, chiefly North American.',synonyms:['lift','elevate','increase','bring up','pay increase']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

@@ -7,7 +7,7 @@
  estofador:{definition:'Persona que estofa o acolcha telas; también, quien decora una superficie dorada o prepara estofados, según el oficio.',synonyms:['acolchador','tapicero','decorador']},
  estofar:{definition:'Cocinar lentamente en un recipiente tapado; acolchar o labrar una tela; o pintar relieves sobre una superficie dorada.',synonyms:['guisar lentamente','acolchar','decorar sobre dorado']},
  estofo:{definition:'Acción y efecto de estofar.',synonyms:['estofado','estofadura']},
- estoicamente:{definition:'Con serenidad y firmeza ante el dolor o la adversidad.',synonyms:['con estoicismo','serenamente','imperturbablemente']},
+ 
  estoicismo:{definition:'Doctrina filosófica fundada por Zenón de Citio que propone vivir de acuerdo con la razón y la virtud; también, fortaleza y dominio de sí ante la adversidad.',synonyms:['filosofía estoica','autodominio','fortaleza ante la adversidad']},
  estoico:{definition:'Perteneciente o relativo al estoicismo; también, persona que sigue esta doctrina o afronta el dolor con fortaleza.',synonyms:['estoicista','imperturbable','sereno ante la adversidad']},
  estol:{definition:'Desusado. Conjunto de naves; escuadra o flota.',synonyms:['flota','escuadra naval']},
@@ -33,4 +33,4 @@
  estoquillo:{definition:'Planta de la familia de las ciperáceas, de tallo triangular y cortante, que crece en terrenos húmedos.',synonyms:['juncia','ciperácea','planta de humedal']},
  estor:{definition:'Cortina que se recoge o pliega verticalmente.',synonyms:['persiana enrollable','cortina enrollable']},
  estora:{definition:'Álabe: pala o parte plana de una rueda hidráulica, hélice u otro mecanismo.',synonyms:['álabe','pala']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

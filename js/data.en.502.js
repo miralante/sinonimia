@@ -16,4 +16,4 @@
  ramonian:{definition:'Of or relating to the Spanish writer Ramón Gómez de la Serna or his literary style.',synonyms:['Gómez de la Serna-related','Ramonian']},
  ramp:{definition:'A sloping surface connecting different levels; also, a verb meaning to increase or move up a ramp.',synonyms:['access ramp','inclined plane','increase rapidly']},
  'ramp-4':{definition:'To move up or over a ramp or sloping surface; also, to increase rapidly in the phrase “ramp up.”',synonyms:['climb','move up a slope','increase rapidly']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

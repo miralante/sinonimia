@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error('missing en');
+if(!d.some(q=>q.id==="round3085-tyrannicide-person"))d.push({"id":"round3085-tyrannicide-person","word":"tyrannicide","image":{"id":7024,"alt":"Un relato histórico menciona a una persona que mató a un tirano."},"definition":"A person who kills a tyrant.","synonyms":["tyrant killer","assassin of a tyrant"],"example":{"word":"tyrannicide","text":"The chronicle described him as a tyrannicide."},"exampleSynonym":{"word":"tyrant killer","text":"The chronicle described him as a tyrant killer."},"situacion":"historia"});
+})();

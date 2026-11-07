@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3330-lemniscata-symbol","word":"lemniscata","image":{"id":7024,"alt":"Illustration related to lemniscata."},"definition":"Símbolo matemático que representa el infinito.","synonyms":["símbolo del infinito","signo de infinito"],"example":{"word":"lemniscata","text":"Dibujó una lemniscata alrededor de la palabra."},"exampleSynonym":{"word":"símbolo del infinito","text":"Dibujó el símbolo del infinito alrededor de la palabra."},"situacion":"conocimiento"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

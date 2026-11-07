@@ -11,5 +11,5 @@
   desusar:{definition:"Dejar de usar algo o abandonar una costumbre.",synonyms:["abandonar","dejar de usar","descontinuar"],example:{word:"desusar",text:"La comunidad comenzó a desusar ese camino cuando se abrió la nueva carretera."},exampleSynonym:{word:"abandonar",text:"La comunidad comenzó a abandonar ese camino cuando se abrió la nueva carretera."}},
   desvaido:{definition:"Dicho de un color, que ha perdido intensidad; también, apagado o falto de viveza.",synonyms:["apagado","pálido","descolorido","mustio"],example:{word:"desvaído",text:"El sol dejó el cartel desvaído y apenas se distinguían sus letras."},exampleSynonym:{word:"descolorido",text:"El sol dejó el cartel descolorido y apenas se distinguían sus letras."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

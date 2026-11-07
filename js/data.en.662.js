@@ -1,7 +1,7 @@
 (()=>{const u={
   'secrecy-2':{definition:'The state or practice of keeping something hidden or confidential.',synonyms:['confidentiality','concealment','privacy']},
-  'secretly-2':{synonyms:['unseen','without being seen','unobserved']},
-  'secretly-3':{synonyms:['covertly','in secret','without others knowing']},
+  
+  
   'sectarianism':{definition:'Excessive attachment to a sect or faction, especially when it leads to hostility or division between groups.',synonyms:['factionalism','sectarian division']},
   'sectator':{definition:'A follower or adherent of a person, school, or doctrine.',synonyms:['follower','adherent','disciple']},
   'secular-2':{definition:'Of or relating to the nonreligious sphere or to worldly affairs.',synonyms:['nonreligious','worldly','civil']},
@@ -32,4 +32,4 @@
   'self-employed-2':{definition:'A person who works for themselves rather than as an employee.',synonyms:['independent worker','own-account worker']},
   'self-harm':{definition:'The deliberate act of causing physical injury to oneself, often as a way of coping with distress; it does not necessarily indicate an intention to die.',synonyms:['self-injury','self-inflicted injury']},
   'self-defence':{definition:'The act of protecting oneself from attack or harm; also, the techniques used for that purpose.',synonyms:['self-protection','personal defence']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!new Set(['secrestator','secrete-2','secula','secure-2','secure-3','secure-4','secure-connection-2','securities-account-2','seed-3','seedbed-2','see-me','seer','self-control-2','self-harm-2','self-defense-2','self-employed-fee-2','select-2','select-3','seduce-2','seduce-3','seductive-2','sedentary-2','seditious-2','seditious-3','security-camera-2','security-checkpoint-2','security-lock-2','security-update-2']).has(r.id));})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!new Set(['secrestator','secrete-2','secula','secure-2','secure-3','secure-4','secure-connection-2','securities-account-2','seed-3','seedbed-2','see-me','seer','self-control-2','self-harm-2','self-defense-2','self-employed-fee-2','select-2','select-3','seduce-2','seduce-3','seductive-2','sedentary-2','seditious-2','seditious-3','security-camera-2','security-checkpoint-2','security-lock-2','security-update-2']).has(r.id));})();

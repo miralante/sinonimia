@@ -7,4 +7,4 @@
  'rear-view-mirror':{definition:'A mirror inside a vehicle that allows the driver to see the area behind the vehicle.',synonyms:['rearview mirror','rear vision mirror']},
  reason:{definition:'A cause or explanation for an action, event, or belief; the faculty of logical thought. As a verb, to think logically or draw conclusions.',synonyms:['cause','explanation','rationale','logic','think logically']},
  reasonable:{definition:'Fair, sensible, or acceptable in the circumstances; not excessive in amount, degree, or cost; based on reason.',synonyms:['fair','sensible','moderate','rational']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

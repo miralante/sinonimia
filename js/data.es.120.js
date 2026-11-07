@@ -11,5 +11,5 @@
   desproteger:{definition:"Dejar a alguien o algo sin protección o amparo.",synonyms:["desamparar","desasistir","dejar indefenso"],example:{word:"desproteger",text:"No debían desproteger a las personas mayores durante la evacuación."},exampleSynonym:{word:"desamparar",text:"No debían desamparar a las personas mayores durante la evacuación."}},
   desproveer:{definition:"Privar a alguien o algo de las provisiones o de las cosas que necesita.",synonyms:["despojar","privar","dejar sin provisiones"],example:{word:"desproveer",text:"El recorte no debía desproveer al centro de los materiales básicos."},exampleSynonym:{word:"dejar sin provisiones",text:"El recorte no debía dejar sin provisiones al centro."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

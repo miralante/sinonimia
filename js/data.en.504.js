@@ -5,4 +5,4 @@
  'rant-2':{definition:'A long, tedious, or unwelcome speech or line of reasoning.',synonyms:['tirade','long-winded speech','diatribe']},
  'rant-4':{definition:'To speak at length in an angry, loud, or uncontrolled way.',synonyms:['rave','rail','hold forth']},
  rapacity:{definition:'Aggressive greed for wealth, power, or possessions.',synonyms:['greed','avarice','rapaciousness']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

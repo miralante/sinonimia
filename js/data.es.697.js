@@ -6,7 +6,7 @@
   mayorazga:{definition:'Mujer titular de un mayorazgo o heredera del vínculo, según el uso histórico.',synonyms:['titular de un mayorazgo','heredera del mayorazgo']},
   mayoradgo:{definition:'',synonyms:[]},
   matino:{definition:'Relativo a la mañana; poco usado.',synonyms:['matinal','mañanero']},
-  medianamente:{definition:'De manera mediana o moderada; en grado intermedio, sin llegar a los extremos.',synonyms:['moderadamente','regularmente','en grado medio']},
+  
   medianil:{definition:'Espacio en blanco que separa las columnas de una página impresa; también, parte central de un libro junto al lomo.',synonyms:['calle (entre columnas)','espacio intercolumnar','lomo (parte central del libro, según el contexto)']},
   mediatizar:{definition:'Condicionar o limitar la libertad de acción de alguien o algo; también, someter a una influencia o intermediación que reduce su autonomía.',synonyms:['condicionar','subordinar','limitar la autonomía']},
   mediato:{definition:'Que se realiza o se alcanza indirectamente, mediante una cosa o persona interpuesta; también, que está separado por un intervalo.',synonyms:['indirecto','intermediado','no inmediato']},
@@ -17,7 +17,7 @@
   mecapal:{definition:'En México y Centroamérica, banda o faja que se apoya en la frente y sirve para cargar pesos sujetos a la espalda.',synonyms:['banda de carga','cinta de carga frontal']},
   mecapalero:{definition:'Persona que transporta cargas con un mecapal.',synonyms:['cargador con mecapal','porteador']},
   mecedor:{definition:'Que mece o sirve para mecer; también, dispositivo o asiento que se balancea.',synonyms:['balancín','mecedora (asiento)']},
-  mecanicamente:{synonyms:['automáticamente','de modo mecánico','sin reflexión (sentido figurado)']},
+  
   mayear:{definition:'Dicho del tiempo: hacer el propio del mes de mayo, generalmente templado o agradable.',synonyms:['hacer tiempo de mayo','templarse (del tiempo)']},
   maxwell:{definition:'Unidad CGS de flujo magnético, equivalente a una línea de fuerza magnética.',synonyms:['unidad de flujo magnético','Mx']},
   maxmordon:{synonyms:['torpe','pasmado','lerdo']},

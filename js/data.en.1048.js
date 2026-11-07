@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error('missing en');
+{const x={"id":"round3174-verbosity-computing","word":"verbosity","image":{"id":2450,"alt":"A computer displays detailed information while processing a task."},"definition":"In computing, the amount of detail a program gives about what it is doing.","synonyms":["level of detail","detail setting"],"example":{"word":"verbosity","text":"Set the logging verbosity to high while diagnosing the problem."},"exampleSynonym":{"word":"level of detail","text":"Set the logging level of detail to high while diagnosing the problem."},"situacion":"tecnologia"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

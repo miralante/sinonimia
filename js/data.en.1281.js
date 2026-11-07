@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3427-amusement-activity","word":"amusement","image":{"id":7024,"alt":"Children enjoy a fun activity at a fair."},"definition":"An activity that people do for fun.","synonyms":["pastime","entertainment"],"example":{"word":"amusement","text":"A fairground amusement made the children laugh."},"exampleSynonym":{"word":"pastime","text":"A fairground pastime made the children laugh."},"situacion":"daily-life","translation":{"es":"entretenimiento; diversión"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

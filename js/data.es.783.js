@@ -1,5 +1,5 @@
 (()=>{const u={
- paladinamente:{definition:'De manera paladina: con claridad, abiertamente y sin disimulo.',synonyms:['abiertamente','claramente','sin disimulo']},
+ 
  paladion:{definition:'Objeto en el que se cree que reside la defensa o seguridad de algo.',synonyms:['talismán','salvaguardia']},
  palafitico:{definition:'Perteneciente o relativo a los palafitos.',synonyms:['relativo a los palafitos']},
  palafito:{definition:'Vivienda construida sobre estacas o pilotes, generalmente sobre el agua o en terrenos inundables.',synonyms:['casa sobre pilotes']},

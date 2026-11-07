@@ -19,4 +19,4 @@
  ptosis:{definition:'Abnormal drooping or downward displacement of an organ or body part, especially the upper eyelid.',synonyms:['drooping','eyelid droop (common type)','prolapse (some organs)']},
  ptyalin:{definition:'An older name for salivary alpha-amylase, the enzyme that begins the digestion of starch in the mouth.',synonyms:['salivary amylase','alpha-amylase']},
  puberal:{definition:'Relating to puberty or to the period when a person becomes sexually mature.',synonyms:['pubertal','adolescent (broader)']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

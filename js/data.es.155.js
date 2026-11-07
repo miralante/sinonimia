@@ -10,7 +10,7 @@
   directivo:{definition:"Que tiene la facultad o responsabilidad de dirigir; también, persona que ejerce esa función.",synonyms:["dirigente","ejecutivo","administrador"],example:{word:"directivo",text:"El equipo directivo presentó el plan anual a la plantilla."},exampleSynonym:{word:"dirigente",text:"El equipo dirigente presentó el plan anual a la plantilla."}},
   directoral:{definition:"Perteneciente o relativo al director o a la directora.",synonyms:["relativo a la dirección","directivo"],example:{word:"directoral",text:"La decisión directoral se comunicó por escrito a todo el centro."},exampleSynonym:{word:"directivo",text:"La decisión directiva se comunicó por escrito a todo el centro."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  if(!DICCIONARIOS.es.some(e=>e.id==='dirceo'))throw Error('Missing es/dirceo');
  DICCIONARIOS.es=DICCIONARIOS.es.filter(e=>e.id!=='dirceo');
 })();

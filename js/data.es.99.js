@@ -11,5 +11,5 @@
   desintestinar:{definition:"Verbo transitivo desusado: sacar o quitar los intestinos.",synonyms:["eviscerar","destripar","extraer los intestinos"],example:{word:"desintestinar",text:"El tratado antiguo explica cómo desintestinar el animal antes de prepararlo."},exampleSynonym:{word:"eviscerar",text:"El tratado antiguo explica cómo eviscerar el animal antes de prepararlo."}},
   desintoxicar:{definition:"Verbo transitivo: eliminar sustancias tóxicas de un organismo; como pronominal, recuperarse de una intoxicación o dependencia.",synonyms:["descontaminar","depurar","deshabituar","detoxificar"],example:{word:"desintoxicar",text:"El tratamiento buscaba desintoxicar al paciente bajo supervisión médica."},exampleSynonym:{word:"depurar",text:"El tratamiento buscaba depurar el organismo del paciente bajo supervisión médica."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

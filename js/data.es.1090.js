@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3213-jabalconar-voladizo","word":"jabalconar","image":{"id":2450,"alt":"A builder adds a slanted support beneath a roof overhang."},"definition":"Sostener un saliente de un edificio con una pieza inclinada.","synonyms":["reforzar un saliente con un soporte","apuntalar"],"example":{"word":"jabalconar","text":"El albañil jabalconó el saliente con una pieza inclinada."},"exampleSynonym":{"word":"reforzar un saliente con un soporte","text":"El albañil reforzó el saliente con un soporte."},"situacion":"vivienda"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

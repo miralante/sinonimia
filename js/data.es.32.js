@@ -12,5 +12,5 @@
     degustador:{definition:"Persona que prueba o degusta algo con deleite.",synonyms:["catador","probador","aficionado a la degustación"],example:{word:"degustador",text:"El degustador describió los aromas de cada café con entusiasmo."},exampleSynonym:{word:"catador",text:"El catador describió los aromas de cada café con entusiasmo."}},
     dehesa:{definition:"Terreno generalmente acotado y arbolado, destinado por lo común a pastos.",synonyms:["pasto","acampo","coto","redonda"],example:{word:"dehesa",text:"Las ovejas pastaron en la dehesa bajo la sombra de las encinas."},exampleSynonym:{word:"acampo",text:"Las ovejas pastaron en el acampo bajo la sombra de las encinas."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

@@ -8,8 +8,8 @@
   disgregante:{definition:"Que causa disgregación o separación de las partes de un conjunto.",synonyms:["disgregador","separador","disociador"],example:{word:"disgregante",text:"La humedad tuvo un efecto disgregante sobre la piedra porosa."},exampleSynonym:{word:"separador",text:"La humedad tuvo un efecto separador sobre la piedra porosa."}},
   disgregar:{definition:"Separar o desunir las partes de un conjunto; descomponer algo en elementos más pequeños.",synonyms:["separar","desunir","descomponer"],example:{word:"disgregar",text:"El agua y el viento pueden disgregar lentamente la roca."},exampleSynonym:{word:"descomponer",text:"El agua y el viento pueden descomponer lentamente la roca."}},
   disgregativo:{definition:"Perteneciente o relativo a la disgregación; que tiende a separar las partes de un conjunto.",synonyms:["disgregador","separador","disociador"],example:{word:"disgregativo",text:"El análisis describió el efecto disgregativo de la erosión."},exampleSynonym:{word:"separador",text:"El análisis describió el efecto separador de la erosión."}},
-  disgustadamente:{definition:"Con disgusto, desagrado o malestar.",synonyms:["con disgusto","con desagrado","a disgusto"],example:{word:"disgustadamente",text:"Aceptó disgustadamente la decisión del comité."},exampleSynonym:{word:"con desagrado",text:"Aceptó con desagrado la decisión del comité."}},
+  
   disgustar:{definition:"Causar disgusto, desagrado o enfado; dicho de una comida o bebida, producir una sensación desagradable al paladar.",synonyms:["desagradar","molestar","desazonar"],example:{word:"disgustar",text:"No quería disgustar a sus amigos al rechazar la invitación."},exampleSynonym:{word:"desagradar",text:"No quería desagradar a sus amigos al rechazar la invitación."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

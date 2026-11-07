@@ -13,4 +13,4 @@
  'puerto-ricanism':{definition:'A word, expression, or usage characteristic of Spanish as spoken in Puerto Rico.',synonyms:['Puerto Rican Spanish usage','Puerto Rican expression','puertorriqueñismo']},
  puff:{definition:'A short burst of air, breath, smoke, or vapor; also, to blow or breathe in short bursts, swell, or become rounded.',synonyms:['burst','breath','blow','billow','swelling']},
  'puff-pastry-2':{definition:'Made with puff pastry, a laminated dough that rises into light, flaky layers when baked.',synonyms:['made of puff pastry','flaky-pastry']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

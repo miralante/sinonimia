@@ -11,5 +11,5 @@
   disnea:{definition:"Dificultad para respirar o sensación subjetiva de falta de aire.",synonyms:["dificultad respiratoria","falta de aire","ahogo"],example:{word:"disnea",text:"La paciente informó de disnea al subir las escaleras."},exampleSynonym:{word:"dificultad respiratoria",text:"La paciente informó de dificultad respiratoria al subir las escaleras."}},
   disneico:{definition:"Perteneciente o relativo a la disnea; que presenta dificultad para respirar.",synonyms:["con dificultad respiratoria","con disnea"],example:{word:"disneico",text:"El paciente llegó disneico después de correr varias cuadras."},exampleSynonym:{word:"con dificultad respiratoria",text:"El paciente llegó con dificultad respiratoria después de correr varias cuadras."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

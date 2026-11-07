@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+if(!d.some(q=>q.id==="round3132-infrascrito-located-below"))d.push({"id":"round3132-infrascrito-located-below","word":"infrascrito","image":{"id":7024,"alt":"A sentence appears below a heading in a document."},"definition":"Dicho de un texto: escrito debajo o después de otro.","synonyms":["escrito debajo","mencionado a continuación","que aparece después"],"example":{"word":"infrascrito","text":"El apartado infrascrito explica cómo presentar la solicitud."},"exampleSynonym":{"word":"escrito debajo","text":"El apartado escrito debajo explica cómo presentar la solicitud."},"situacion":"tramites"});
+})();

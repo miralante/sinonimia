@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3406-almoravid-person","word":"Almoravid","image":{"id":7024,"alt":"A dictionary word."},"definition":"A member of a Muslim dynasty that ruled Spain and North Africa.","synonyms":["member of the Almoravid dynasty","Almoravide"],"example":{"word":"Almoravid","text":"An Almoravid ruled in Spain."},"exampleSynonym":{"word":"member of the Almoravid dynasty","text":"A member of the Almoravid dynasty ruled in Spain."},"situacion":"historia"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

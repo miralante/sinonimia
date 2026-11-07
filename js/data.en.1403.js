@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3558-autograph-manuscript","word":"autograph","image":{"id":7024,"alt":"A dictionary word"},"definition":"A book, letter, or text written by its original author.","synonyms":["handwritten original","author’s manuscript"],"example":{"word":"autograph","text":"The library displayed an autograph by the poet."},"exampleSynonym":{"word":"handwritten original","text":"The library displayed a handwritten original by the poet."},"situacion":"arte","translation":{"es":"manuscrito autógrafo"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

@@ -1,0 +1,1 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)return;const ids=new Set(['guinea','guinga','guinilla','guinja','guinjo','guinjol','guinjolero','guinador','guinadura','guinapiento','guinaposo','guino']);d.splice(0,d.length,...d.filter(x=>!ids.has(x.id)));})();

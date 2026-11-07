@@ -11,4 +11,4 @@
  escualidez:{definition:'Cualidad o estado de quien está escuálido, muy delgado o consumido.',synonyms:['extrema delgadez','demacración','consunción'],example:{word:'escualidez',text:'La escualidez del animal alertó al equipo veterinario.'},exampleSynonym:{word:'demacración',text:'La demacración del animal alertó al equipo veterinario.'}},
  escualor:{definition:'Escualidez; estado de extrema delgadez o consunción. Voz poco usada.',synonyms:['escualidez','demacración','consunción']},
  escuchadera:{synonyms:['acompañante de visitas','portera de visitas (conventos)','asistente de locutorio'],example:{word:'escuchadera',text:'La escuchadera acompañaba a las mujeres que recibían visitas en el convento.'},exampleSynonym:{word:'asistente de locutorio',text:'La asistente de locutorio acompañaba a las mujeres que recibían visitas en el convento.'}}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

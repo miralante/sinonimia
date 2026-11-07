@@ -12,5 +12,5 @@
     dentecer:{definition:"Verbo intransitivo desusado: comenzar a echar dientes; endentecer.",synonyms:["endentecer","echar los dientes"],example:{word:"dentecer",text:"El tratado antiguo describe cuándo suele dentecer un niño."},exampleSynonym:{word:"endentecer",text:"El tratado antiguo describe cuándo suele endentecer un niño."}}
   };
   DICCIONARIOS.es=DICCIONARIOS.es.filter(e=>e.id!=="dente");
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

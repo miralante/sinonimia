@@ -4,11 +4,11 @@
  'provide-2':{definition:'Historically, to settle property or money on a daughter, especially as a marriage portion.',synonyms:['endow','settle property on','provide a dowry for']},
  provided:{definition:'Supplied or equipped with something; also used as a conjunction meaning “on the condition that.”',synonyms:['supplied','equipped','on condition that'],example:{word:'provided',text:'The room is provided with fresh towels.'},exampleSynonym:{word:'supplied',text:'The room is supplied with fresh towels.'}},
  'provide-documentation':{definition:'To submit or supply the documents required to complete a process.',synonyms:['submit documentation','supply documents','provide paperwork']},
- providentially:{definition:'In a way that seems fortunate or timely, as if brought about by providence.',synonyms:['fortunately','opportunely','as if by providence']},
+ 
  provincial:{definition:'A person who lives in or comes from a province; also, a person regarded as having narrow or unsophisticated tastes.',synonyms:['provincial resident','person from the provinces','unsophisticated person (sometimes derogatory)']},
  'provincial-2':{definition:'In some religious orders, the superior who governs the houses of a province.',synonyms:['provincial superior','regional religious superior']},
  'provincial-3':{definition:'Of or relating to a province; also, characteristic of a province or its people.',synonyms:['regional','local','of a province']},
  provision:{definition:'A supply kept for future use, especially food; the act of supplying; a clause in a legal document; or an amount reserved for a future expense.',synonyms:['supply','stock','stipulation','reserve'],example:{word:'provision',text:'The contract includes a provision for annual price reviews.'},exampleSynonym:{word:'stipulation',text:'The contract includes a stipulation for annual price reviews.'}},
  provisional:{definition:'Temporary or arranged for the present, intended to be replaced, confirmed, or made permanent later.',synonyms:['temporary','interim','tentative','not yet final']},
  'provisional-prison':{definition:'Pre-trial custody or imprisonment while a criminal case is pending; in English, “pre-trial detention” or “remand custody” is usually the clearer term.',synonyms:['pre-trial detention','remand custody','pre-trial imprisonment']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

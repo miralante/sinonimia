@@ -5,7 +5,7 @@
  especialista:{definition:'Persona experta en una materia o actividad; en medicina, profesional dedicado a una especialidad.',synonyms:['experto','especializado','profesional especialista']},
  especializar:{definition:'Dedicar o limitar algo a un uso, fin o campo determinado; también, adquirir o impartir conocimientos especializados.',synonyms:['especializarse','concentrarse en','dedicarse a']},
  especieria:{definition:'Establecimiento donde se venden especias; también, conjunto o comercio de especias.',synonyms:['tienda de especias','especiería','comercio de especias']},
- especificamente:{synonyms:['en concreto','de manera específica','particularmente']},
+ 
  especificar:{synonyms:['detallar','precisar','concretar','declarar']},
  especificativo:{definition:'Que especifica o sirve para especificar; en gramática, que restringe o delimita el significado de un nombre.',synonyms:['especificador','restrictivo (en gramática)','delimitador']},
  especificidad:{synonyms:['carácter específico','particularidad','singularidad']},
@@ -27,4 +27,4 @@
  espectrohelioscopio:{synonyms:['instrumento de observación solar espectral','helioscopio espectral']},
  espectrometria:{definition:'Conjunto de técnicas para medir e interpretar espectros y determinar propiedades de la materia.',synonyms:['análisis espectrométrico','medición espectral']},
  espectrometro:{definition:'Instrumento que separa o mide componentes de un espectro; su diseño depende del tipo de radiación o partículas analizadas.',synonyms:['analizador espectral','instrumento de espectrometría']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

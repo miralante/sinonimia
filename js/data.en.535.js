@@ -6,4 +6,4 @@
  reducible:{definition:'Capable of being made smaller, simpler, or less in amount; in mathematics, capable of being expressed or factored into simpler components under a specified system.',synonyms:['capable of reduction','simplifiable','factorable']},
  reduction:{definition:'The act, process, or result of making something smaller, lower, or less in amount, size, degree, or number; in specific fields, a chemical process, price decrease, or musical arrangement for fewer performers.',synonyms:['decrease','lowering','diminution','discount']},
  redundancy:{definition:'Unnecessary repetition or excess; in UK employment, the loss of a job because an employer no longer needs the role.',synonyms:['repetition','surplus','job loss','layoff']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

@@ -6,4 +6,4 @@
  'receive-payment':{definition:'To get money paid for goods, services, work, or repayment of a debt.',synonyms:['get paid','collect payment']},
  receiver:{definition:'A person or device that receives something; in law or finance, an official appointed to take custody or control of property or a business.',synonyms:['recipient','receiving device','court-appointed administrator']},
  'receivership':{definition:'A legal or financial arrangement in which a receiver is appointed to take custody or control of specified property, assets, or a business, often for the benefit of creditors.',synonyms:['receiver administration','court-appointed control','insolvency administration']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

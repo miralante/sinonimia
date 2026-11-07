@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3403-macadam-material","word":"macadam","image":{"id":7024,"alt":"Ilustración relacionada con un camino de piedra."},"definition":"Small broken stones used to build or surface a road.","synonyms":["piedra para macadán","piedra machacada para caminos"],"example":{"word":"macadam","text":"Usaron macadam para reparar el camino."},"exampleSynonym":{"word":"piedra para macadán","text":"Usaron piedra para macadán para reparar el camino."},"situacion":"conocimiento"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

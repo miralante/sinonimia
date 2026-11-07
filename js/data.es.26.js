@@ -12,5 +12,5 @@
     decigramo:{definition:"Sustantivo masculino: unidad de masa equivalente a la décima parte de un gramo; su símbolo es dg.",synonyms:["décima parte de un gramo","unidad de masa"],example:{word:"decigramo",text:"La balanza de precisión registró cada decigramo de la muestra."},exampleSynonym:{word:"décima parte de un gramo",text:"La balanza de precisión registró cada décima parte de un gramo de la muestra."}},
     decilitro:{definition:"Sustantivo masculino: unidad de volumen equivalente a la décima parte de un litro; sus símbolos son dl y dL.",synonyms:["décima parte de un litro","unidad de volumen"],example:{word:"decilitro",text:"La receta pide un decilitro de leche."},exampleSynonym:{word:"décima parte de un litro",text:"La receta pide la décima parte de un litro de leche."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

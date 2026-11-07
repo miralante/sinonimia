@@ -7,5 +7,5 @@
   uncalmable:{definition:'Impossible or difficult to calm.',synonyms:['unappeasable','inconsolable']},
   uncanton:{definition:'To withdraw troops from a cantonment or temporary quarters.',synonyms:['withdraw from quarters','decamp']},
   uncenter:{definition:'To move something away from its center or central position.',synonyms:['decenter','displace from the center']},
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['unbreastfeed','unbrown','unbucking','unbridle-2','uncalculate','uncame','uncane','uncanton-2','uncapping','uncasing','uncast','uncatch','uncausted','uncalming','unbutton-2']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

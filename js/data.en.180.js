@@ -7,7 +7,7 @@
   overface:{definition:"Noun: the upper or upward-facing surface of an object. Verb, chiefly regional or retail: to place too much stock on display; in older dialect use, to daunt or put someone out of countenance.",synonyms:["upper surface","display too much stock","daunt (older dialect use)"],example:{word:"overface",text:"The retailer was advised not to overface the shelves with the same product."},exampleSynonym:{word:"display too much stock",text:"The retailer was advised not to display too much stock on the shelves."}},
   overfeeder:{definition:"A person or device that feeds someone or something too much; in technical contexts, a mechanism that supplies material in excess.",synonyms:["excessive feeder","overfeeding device","person who overfeeds"],example:{word:"overfeeder",text:"The automatic overfeeder clogged the machine with too much grain."},exampleSynonym:{word:"overfeeding device",text:"The automatic overfeeding device clogged the machine with too much grain."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  for(const id of ['overdue-2','overdue-3','overexceed','overearning'])if(!DICCIONARIOS.en.some(e=>e.id===id))throw Error('Missing en/'+id);
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!['overdue-2','overdue-3','overexceed','overearning'].includes(e.id));
 })();

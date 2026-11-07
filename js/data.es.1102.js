@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3239-jeroglifico-puzzle","word":"Jeroglífico","image":{"id":7024,"alt":"A newspaper puzzle uses pictures and symbols to hide a phrase."},"definition":"Acertijo en el que imágenes o símbolos esconden una palabra o frase.","synonyms":["acertijo visual"],"example":{"word":"jeroglífico","text":"Resolvió el jeroglífico del periódico."},"exampleSynonym":{"word":"acertijo visual","text":"Resolvió el acertijo visual del periódico."},"situacion":"vida-diaria"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

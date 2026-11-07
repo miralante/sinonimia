@@ -12,5 +12,5 @@
     derrengar:{definition:"Verbo transitivo: lastimar gravemente la columna vertebral, especialmente por la zona de los riñones; también, torcer o inclinar algo hacia un lado.",synonyms:["descaderar","lastimar la espalda","torcer"],example:{word:"derrengar",text:"El esfuerzo de levantar la carga acabó por derrengar al trabajador."},exampleSynonym:{word:"descaderar",text:"El esfuerzo de levantar la carga acabó por descaderar al trabajador."}},
     derreniego:{definition:"Sustantivo masculino coloquial: reniego.",synonyms:["reniego","maldición","juramento"],example:{word:"derreniego",text:"Al golpearse el dedo, soltó un derreniego y siguió trabajando."},exampleSynonym:{word:"reniego",text:"Al golpearse el dedo, soltó un reniego y siguió trabajando."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

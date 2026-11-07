@@ -11,5 +11,5 @@
   desparar:{definition:"Desordenar lo que estaba en orden o bien dispuesto.",synonyms:["desordenar","desarreglar","descomponer"],example:{word:"desparar",text:"El viento llegó a desparar las sillas que estaban alineadas en el patio."},exampleSynonym:{word:"desordenar",text:"El viento llegó a desordenar las sillas que estaban alineadas en el patio."}},
   desparcir:{definition:"Verbo transitivo anticuado: esparcir o dispersar lo que estaba junto o amontonado.",synonyms:["esparcir","dispersar","desparramar"],example:{word:"desparcir",text:"El texto antiguo describe cómo desparcir las semillas por el campo."},exampleSynonym:{word:"esparcir",text:"El texto antiguo describe cómo esparcir las semillas por el campo."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

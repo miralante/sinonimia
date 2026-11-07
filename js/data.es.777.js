@@ -25,7 +25,7 @@
   orquesta:{definition:'Conjunto numeroso de músicos que interpretan obras musicales con diversos instrumentos; también, espacio del teatro griego antiguo situado ante la escena.',synonyms:['conjunto instrumental']},
   orquestar:{definition:'Preparar o adaptar una composición musical para que pueda ser interpretada por una orquesta.',synonyms:['instrumentar','arreglar']},
   orquestina:{definition:'Orquesta pequeña, generalmente de carácter popular o ligero.',synonyms:['orquesta pequeña','conjunto musical']},
-  oropimente:{definition:'Mineral amarillo compuesto de arsénico y azufre, tóxico, usado antiguamente como pigmento.',synonyms:['trisulfuro de arsénico']},
+  
   ortogonio:{definition:'Triángulo rectángulo.',synonyms:['triángulo rectángulo']},
   ortografico:{definition:'Perteneciente o relativo a la ortografía.',synonyms:['relativo a la ortografía']},
   orfebre:{definition:'Artífice que labra objetos artísticos de oro, plata y otros metales preciosos.',synonyms:['orfebrero','platero']}

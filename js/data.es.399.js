@@ -13,10 +13,10 @@
  escarzar:{definition:'Desgarrar o rasgar algo, especialmente una tela o una superficie.',synonyms:['rasgar','desgarrar','romper parcialmente'],example:{word:'escarzar',text:'La zarza puede escarzar la tela al engancharse en ella.'},exampleSynonym:{word:'rasgar',text:'La zarza puede rasgar la tela al engancharse en ella.'}},
  escas:{definition:'Escaso; de poca cantidad o extensión. Voz poco usada.',synonyms:['escaso','reducido','limitado']},
  escatofagia:{definition:'Acción de comer excrementos.',synonyms:['coprofagia','ingestión de excrementos'],example:{word:'escatofagia',text:'La escatofagia se observa en algunas especies animales.'},exampleSynonym:{word:'coprofagia',text:'La coprofagia se observa en algunas especies animales.'}},
- escatimosamente:{definition:'Con tacañería o mezquindad; usando o dando algo con excesiva parsimonia.',synonyms:['tacañamente','con mezquindad','con parsimonia']},
+ 
  escatimoso:{definition:'Que da o usa algo con tacañería o mezquindad.',synonyms:['tacaño','mezquino','avaro']},
  escaupil:{definition:'Prenda acolchada de algodón, usada antiguamente como protección por algunos pueblos indígenas de México.',synonyms:['armadura acolchada','jubón de algodón','protección acolchada']},
  escavador:{definition:'Que excava o remueve superficialmente la tierra para quitar hierbas o preparar el terreno.',synonyms:['cavador','escardador','cultivador']},
  escavanar:{synonyms:['remover superficialmente la tierra','escardar','aporcar (según la labor)'],example:{word:'escavanar',text:'Escavanaron alrededor de las plantas para quitar la maleza.'},exampleSynonym:{word:'escardar',text:'Escardaron alrededor de las plantas para quitar la maleza.'}},
  escavillar:{definition:'Dividir o desmenuzar una masa en trozos pequeños.',synonyms:['desmenuzar','deshacer en trozos','fragmentar']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

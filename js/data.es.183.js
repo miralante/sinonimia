@@ -1,6 +1,6 @@
 (()=>{
  const updates={
-  diversamente:{definition:"De manera diversa o diferente; según otra perspectiva, orden o modalidad.",synonyms:["de manera diferente","de otro modo","de forma variada"],example:{word:"diversamente",text:"Los dos grupos interpretaron diversamente las instrucciones."},exampleSynonym:{word:"de manera diferente",text:"Los dos grupos interpretaron de manera diferente las instrucciones."}},
+  
   diversidad:{definition:"Variedad o diferencia entre personas, cosas, ideas o características; conjunto de elementos distintos entre sí.",synonyms:["variedad","pluralidad","diferencia"],example:{word:"diversidad",text:"La diversidad de opiniones enriqueció el debate."},exampleSynonym:{word:"variedad",text:"La variedad de opiniones enriqueció el debate."}},
   diversificar:{definition:"Hacer que algo sea variado o distinto; ampliar la variedad de productos, actividades, inversiones u opciones.",synonyms:["variar","ampliar","multiplicar"],example:{word:"diversificar",text:"La empresa decidió diversificar sus productos."},exampleSynonym:{word:"variar",text:"La empresa decidió variar sus productos."}},
   diversiforme:{definition:"Que presenta formas variadas o diversas.",synonyms:["multiforme","variado","polimorfo"],example:{word:"diversiforme",text:"El catálogo reúne una colección diversiforme de objetos."},exampleSynonym:{word:"multiforme",text:"El catálogo reúne una colección multiforme de objetos."}},
@@ -11,5 +11,5 @@
   divididero:{definition:"Desusado o poco frecuente. Que ha de dividirse, repartirse o fraccionarse.",synonyms:["que ha de repartirse","divisible","fraccionable"],example:{word:"divididero",text:"El documento antiguo fijaba la cantidad divididera entre las partes."},exampleSynonym:{word:"que ha de repartirse",text:"El documento antiguo fijaba la cantidad que había de repartirse entre las partes."}},
   dividivi:{definition:"Árbol tropical americano, Libidibia coriaria (sin. Caesalpinia coriaria), cuyas vainas ricas en taninos se usan para curtir y producir tintes.",synonyms:["libidibia","Caesalpinia coriaria","árbol de tanino"],example:{word:"dividivi",text:"Las vainas del dividivi se empleaban para curtir pieles."},exampleSynonym:{word:"árbol de tanino",text:"Las vainas de este árbol de tanino se empleaban para curtir pieles."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

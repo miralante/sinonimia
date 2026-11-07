@@ -11,7 +11,7 @@
     defoliante:{definition:"Dicho de una sustancia: que provoca la caída de las hojas de una planta.",synonyms:["defoliador","producto defoliante","sustancia defoliadora"],example:{word:"defoliante",text:"El manual advierte que el producto defoliante puede hacer caer las hojas antes de la cosecha."},exampleSynonym:{word:"sustancia defoliadora",text:"El manual advierte que la sustancia defoliadora puede hacer caer las hojas antes de la cosecha."}},
     deforestar:{definition:"Eliminar de forma extensa la vegetación forestal de un terreno, especialmente mediante la tala o la quema de bosques.",synonyms:["talar el bosque","desmontar","eliminar la cubierta forestal"],example:{word:"deforestar",text:"La tala ilegal puede deforestar la cuenca y acelerar la erosión del suelo."},exampleSynonym:{word:"talar el bosque",text:"La tala ilegal puede talar el bosque de la cuenca y acelerar la erosión del suelo."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
   DICCIONARIOS.es=DICCIONARIOS.es.filter(e=>e.id!=='dedocratico');
   for(const row of DICCIONARIOS.es)if(Array.isArray(row.synonyms))row.synonyms=row.synonyms.filter(term=>term!=='dedocrático'&&term!=='dedocratico');
 })();

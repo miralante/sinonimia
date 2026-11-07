@@ -11,5 +11,5 @@
   desecante:{definition:"Adjetivo y sustantivo: que deseca o absorbe humedad; se dice especialmente de una sustancia utilizada para secar.",synonyms:["desecador","secador","deshidratante"],example:{word:"desecante",text:"El envase contiene una bolsita con material desecante."},exampleSynonym:{word:"deshidratante",text:"El envase contiene una bolsita con material deshidratante."}},
   desecar:{definition:"Verbo transitivo y pronominal: hacer que algo pierda la humedad o se seque.",synonyms:["secar","deshidratar","deshumedecer","resecar"],example:{word:"desecar",text:"El sol puede desecar rápidamente la tierra descubierta."},exampleSynonym:{word:"secar",text:"El sol puede secar rápidamente la tierra descubierta."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

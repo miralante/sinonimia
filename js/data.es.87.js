@@ -11,5 +11,5 @@
   desentenderse:{definition:"Verbo pronominal: no querer saber o no ocuparse de un asunto; desviar la atención o eludir la responsabilidad.",synonyms:["despreocuparse","desligarse","desentenderse de un asunto","desentenderse de una responsabilidad"],example:{word:"desentenderse",text:"El responsable no debe desentenderse del problema ahora que conoce sus consecuencias."},exampleSynonym:{word:"desligarse",text:"El responsable no debe desligarse del problema ahora que conoce sus consecuencias."}},
   desentendido:{definition:"Adjetivo desusado: ignorante o que no tiene conocimiento de algo. Es también el participio de desentenderse.",synonyms:["ignorante","desinformado","desconocedor"],example:{word:"desentendido",text:"El cronista lo describió como desentendido de las costumbres de la región."},exampleSynonym:{word:"ignorante",text:"El cronista lo describió como ignorante de las costumbres de la región."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

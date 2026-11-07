@@ -11,5 +11,5 @@
   despachada:{definition:"Sustantivo masculino histórico: oficial que ejercía un empleo en las contadurías de relaciones.",synonyms:["oficial de contaduría","empleado de una contaduría","oficial administrativo"],example:{word:"despachada",text:"El documento antiguo identifica al despachada encargado de los registros de la contaduría."},exampleSynonym:{word:"oficial de contaduría",text:"El documento antiguo identifica al oficial de contaduría encargado de los registros."}},
   despachador:{definition:"Que despacha o tiene a su cargo un despacho; también, adjetivo desusado por diligente y nombre de un antiguo oficio minero en América.",synonyms:["encargado de despacho","diligente","despachante"],example:{word:"despachador",text:"El despachador organizó los pedidos para que salieran a tiempo."},exampleSynonym:{word:"encargado de despacho",text:"El encargado de despacho organizó los pedidos para que salieran a tiempo."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

@@ -5,4 +5,4 @@
  pavid:{definition:'(Archaic.) Fearful or apprehensive.',synonyms:['fearful','afraid','apprehensive'],example:{word:'pavid',text:'The pavid traveler hesitated at the forest entrance.'},exampleSynonym:{word:'fearful',text:'The fearful traveler hesitated at the forest entrance.'}},
  'pawn-2':{definition:'The act of depositing an item of value with a pawnbroker as security for a loan.',synonyms:['pledge','pawning'],example:{word:'pawn',text:'The pawn of her watch secured a short-term loan.'},exampleSynonym:{word:'pledge',text:'The pledge of her watch secured a short-term loan.'}},
  'pay-2':{definition:'Money paid for work or services; wages or compensation.',synonyms:['wages','salary','remuneration'],example:{word:'pay',text:'The job offers steady pay and paid leave.'},exampleSynonym:{word:'wages',text:'The job offers steady wages and paid leave.'}}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

@@ -11,5 +11,5 @@
   deslavazar:{definition:"Verbo transitivo: lavar algo superficialmente, sin limpiarlo bien.",synonyms:["lavar superficialmente","deslavar","lavar mal"],example:{word:"deslavazar",text:"Con tan poca agua, apenas consiguió deslavazar la prenda."},exampleSynonym:{word:"lavar superficialmente",text:"Con tan poca agua, apenas consiguió lavar superficialmente la prenda."}},
   deslave:{definition:"Sustantivo masculino, americanismo: desprendimiento o deslizamiento de tierra provocado por el agua; derrubio.",synonyms:["derrumbe","deslizamiento de tierra","derrubio"],example:{word:"deslave",text:"Las lluvias provocaron un deslave que cortó la carretera."},exampleSynonym:{word:"derrumbe",text:"Las lluvias provocaron un derrumbe que cortó la carretera."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

@@ -14,4 +14,4 @@
  pulmonology:{definition:'The branch of medicine concerned with the lungs and respiratory system.',synonyms:['respiratory medicine','pulmonary medicine']},
  pulp:{definition:'The soft inner part of a fruit or other material; also, to reduce something to pulp or extract its pulp.',synonyms:['soft inner tissue','fruit flesh','mash','crush to pulp']},
  pulper:{definition:'A machine or device that crushes or separates material into pulp.',synonyms:['pulping machine','pulping device']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

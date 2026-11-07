@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3247-jiron-garment","word":"Jirón","image":{"id":7024,"alt":"An old garment has a reinforcing strip sewn along its hem."},"definition":"Faja usada antiguamente para reforzar el borde de algunas prendas.","synonyms":["faja de refuerzo"],"example":{"word":"jirón","text":"El jirón reforzaba el borde del sayo."},"exampleSynonym":{"word":"faja de refuerzo","text":"La faja de refuerzo protegía el borde del sayo."},"situacion":"vida-diaria"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

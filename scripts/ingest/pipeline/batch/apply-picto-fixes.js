@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // One-off: fix mismatched pictogram id/alt for specific entries in a data file.
-// Usage: node scripts/ingest/pipeline/batch/apply-picto-fixes.js <es|en> <fixesFile.js>
+// Usage: node scripts/ingest/pipeline/batch/apply-picto-fixes.js <es|en> <fixesFile.js> [dataFile.js]
 const fs = require("fs");
 const path = require("path");
 const ROOT = path.join(__dirname, "..", "..", "..", "..");
@@ -13,7 +13,9 @@ if (!lang || !fixesPath) {
 }
 const fixes = require(path.resolve(fixesPath)); // [{ id, imgId, alt }]
 
-const filePath = path.join(ROOT, "js", "data." + lang + ".js");
+const filePath = process.argv[4]
+  ? path.resolve(process.argv[4])
+  : path.join(ROOT, "js", "data." + lang + ".js");
 let src = fs.readFileSync(filePath, "utf8");
 
 async function downloadImage(id) {
@@ -26,7 +28,8 @@ async function downloadImage(id) {
   return true;
 }
 
-// Matches exactly the `imagen: { id: <n>, alt: "<escaped text>" },` shape
+// Matches exactly either `image: { id: <n>, alt: "<escaped text>" },` or
+// `imagen: { id: <n>, alt: "<escaped text>" },` shape
 // every entry uses. Anchored with the sticky flag to match starting right
 // at imgLineStart. Deliberately does NOT search for a trailing "\n" to
 // find the end of the field: this repo's data files use CRLF line endings,
@@ -35,7 +38,7 @@ async function downloadImage(id) {
 // call — it inflated js/data.*.js from ~1.1MB to ~540MB in one run before
 // this was caught. A failed anchor now surfaces as a skipped entry, never
 // a silent byte-offset guess.
-const IMAGEN_FIELD_RE = /imagen: \{ id: \d+, alt: "(?:[^"\\]|\\.)*" \},/y;
+const IMAGEN_FIELD_RE = /(?:image|imagen): \{ id: \d+, alt: "(?:[^"\\]|\\.)*" \},/y;
 
 (async () => {
   for (const fix of fixes) {
@@ -45,14 +48,19 @@ const IMAGEN_FIELD_RE = /imagen: \{ id: \d+, alt: "(?:[^"\\]|\\.)*" \},/y;
       console.log("! entry id not found: " + fix.id);
       continue;
     }
-    const imgLineStart = src.indexOf("imagen: {", anchorPos);
+    let imgLineStart = src.indexOf("image: {", anchorPos);
+    const legacyImgLineStart = src.indexOf("imagen: {", anchorPos);
+    if (imgLineStart === -1 || (legacyImgLineStart !== -1 && legacyImgLineStart < imgLineStart)) {
+      imgLineStart = legacyImgLineStart;
+    }
     IMAGEN_FIELD_RE.lastIndex = imgLineStart;
     const match = imgLineStart === -1 ? null : IMAGEN_FIELD_RE.exec(src);
     if (!match || match.index !== imgLineStart) {
       console.log("! could not match imagen field for: " + fix.id);
       continue;
     }
-    const newLine = "imagen: { id: " + fix.imgId + ", alt: " + JSON.stringify(fix.alt) + " },";
+    const fieldName = match[0].slice(0, match[0].indexOf(": "));
+    const newLine = fieldName + ": { id: " + fix.imgId + ", alt: " + JSON.stringify(fix.alt) + " },";
     src = src.slice(0, imgLineStart) + newLine + src.slice(imgLineStart + match[0].length);
     const ok = await downloadImage(fix.imgId);
     console.log((ok ? "OK " : "FAIL ") + fix.id + " -> img " + fix.imgId + (ok ? "" : " (download failed)"));

@@ -9,4 +9,4 @@
  espanolada:{definition:'Obra artística o espectáculo que presenta de forma exagerada o estereotipada rasgos considerados españoles.',synonyms:['españolada','representación estereotipada de España']},
  espanoleria:{definition:'Cualidad o actitud de quien hace alarde de lo español o lo representa de forma afectada; también, rasgo o manifestación considerada típicamente española.',synonyms:['españolismo','afectación de lo español','rasgo español']},
  espanolidad:{synonyms:['carácter español','condición de español','identidad española']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

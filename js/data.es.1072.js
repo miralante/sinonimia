@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3193-investir-atribuir-cualidad","word":"Investir","image":{"id":7024,"alt":"Una insignia representa una cualidad atribuida a una institución."},"definition":"Dar a una persona o cosa una cualidad, autoridad o carácter determinado.","synonyms":["atribuir","conferir","dotar de"],"example":{"word":"investir","text":"La experiencia puede investir al equipo de una nueva confianza."},"exampleSynonym":{"word":"atribuir","text":"La experiencia puede atribuir al equipo una nueva confianza."},"situacion":"vida-diaria"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

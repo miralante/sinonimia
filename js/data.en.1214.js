@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3347-adapter-agent","word":"adapter","image":{"id":7024,"alt":"Ilustración relacionada con adapter."},"definition":"A person who changes a story or text for a new form.","synonyms":["person who adapts a text","adapter of a work"],"example":{"word":"adapter","text":"The adapter shortened the novel for the radio."},"exampleSynonym":{"word":"person who adapts a text","text":"The person who adapted the text shortened the novel for the radio."},"situacion":"conocimiento"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

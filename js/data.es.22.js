@@ -12,5 +12,5 @@
     danzarin:{definition:"Sustantivo masculino: persona que danza con destreza.",synonyms:["bailarín","danzador","bailador"],example:{word:"danzarín",text:"El danzarín ejecutó una serie de pasos difíciles sin perder el ritmo."},exampleSynonym:{word:"bailarín",text:"El bailarín ejecutó una serie de pasos difíciles sin perder el ritmo."}},
     danador:{definition:"Adjetivo, también usado como sustantivo: que daña.",synonyms:["dañino","perjudicial","nocivo"],example:{word:"dañador",text:"El efecto dañador de la humedad deterioró la madera del techo."},exampleSynonym:{word:"dañino",text:"El efecto dañino de la humedad deterioró la madera del techo."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

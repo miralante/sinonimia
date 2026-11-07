@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3218-jacobeo-year","word":"Año Jacobeo","image":{"id":7024,"alt":"Peregrinos llegan a Santiago durante un año jacobeo."},"definition":"Año con jubileo en Santiago cuando el 25 de julio cae domingo.","synonyms":["Año Santo Compostelano","Año Xacobeo"],"example":{"word":"Año Jacobeo","text":"El año jacobeo atrajo a miles de peregrinos."},"exampleSynonym":{"word":"Año Santo Compostelano","text":"El Año Santo Compostelano atrajo a miles de peregrinos."},"situacion":"historia"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

@@ -3,4 +3,4 @@
  extenuante:{definition:'Que causa gran cansancio o agotamiento.',synonyms:['agotador','fatigoso','extenuativo']},
  extenuar:{definition:'Debilitar o agotar física o mentalmente.',synonyms:['debilitar','agotar','fatigar']},
  extenuativo:{definition:'Que causa cansancio o agotamiento.',synonyms:['extenuante','agotador','fatigoso']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

@@ -1,0 +1,5 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3402-allow-enable","word":"allow","image":{"id":7024,"alt":"Illustration related to making something possible."},"definition":"To make something possible.","synonyms":["make faster travel possible","enable"],"example":{"word":"allow","text":"The new road allows faster travel between towns."},"exampleSynonym":{"word":"make faster travel possible","text":"The new road can make faster travel possible between towns."},"situacion":"vida-diaria"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+{const x={"id":"round3402-alloy-verb","word":"alloy","image":{"id":7024,"alt":"Illustration related to mixing metals."},"definition":"To mix a metal with another element.","synonyms":["mix metals","blend metals"],"example":{"word":"alloy","text":"Manufacturers alloy copper with zinc to make brass."},"exampleSynonym":{"word":"mix metals","text":"Manufacturers mix metals like copper and zinc to make brass."},"situacion":"conocimiento"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();
+

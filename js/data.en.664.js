@@ -1,7 +1,7 @@
 (()=>{const u={
   'starboard':{definition:'The right-hand side of a ship when facing forward toward the bow.',synonyms:['right side of a ship']},
   'stable':{definition:'A building where horses or other livestock are housed; also, to put or keep an animal in a stable.',synonyms:['barn','stall','house in a stable']},
-  'stably':{definition:'In a steady, secure, or consistent way.',synonyms:['steadily','securely','consistently']},
+  
   'stack':{definition:'A neat pile or group of things placed one on top of another; as a verb, to arrange in a pile or load onto something.',synonyms:['pile','heap','arrange in a pile']},
   'stack-2':{definition:'A pile or orderly arrangement of things placed one on top of another.',synonyms:['pile','heap']},
   'stack-3':{definition:'To arrange or load things in a pile.',synonyms:['pile up','heap']},
@@ -98,5 +98,5 @@
   'stipend':{definition:'A fixed amount of money paid regularly, often to support study, training, or public service; as a verb, to provide someone with a stipend.',synonyms:['allowance','grant','provide a stipend']},
   'stir':{definition:'To move a liquid or mixture with an implement; to mix or agitate; to cause activity or a feeling; also, a commotion or act of stirring.',synonyms:['mix','agitate','rouse','commotion']},
   'stirrup':{definition:'One of a pair of foot supports attached to a saddle, used by a rider when mounting and riding a horse.',synonyms:['riding footrest','saddle support']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['staple-2','stapler-2','stapler-3','stapler-4','star-2','star-3','star-4','starched','starchy-2','start-4','start-7','start-8','start-9','started','starter-2','starter-3','starter-5','starter-6','starter-7','starter-8','starter-9','startle-2','starvation-2','state-3','state-it','statelessness-2','statify','stationery-2','statistical-2','statue-2','statute-2','stay-up-late-2','steak-5','steak-6','sterling-2','stew-2','stew-3','stew-4','stew-5','stew-6','stew-7','stew-8','stew-9','stewardess-2','stewardship-2','stewy','sthetically','stibia','sticky-2','sticky-3','sticky-4','sticky-6','sticky-7','sticky-note-2','stiff-4','stiffen-2','stiffen-3','stillbirth-2','stiller','still-life-2','still-life-3','stillness-2','stilt-3','stilt-4','stilt-5','stilt-legged','stinging-3','sting-2','sting-7','sting-8','sting-9','sting-10','sting-11','sting-12','stinger-2','stinginess-2','stinginess-3','stink-3','stink-4','stink-5','stinky-2','stinky-3','stir-2','stir-3','stain-2','staircase-3','stake-and-chance-game','stakeholder-2','stone-charcoal','stolen','stoick','stof','stop-3','stop-4','stophon','stopped-2','storage-room-3','store-3','stores','storehouse-2','storehouse-3','stony-2','storm-4','storm-2','storm-3','stormy-2','stormy-3','stormy-4','story-2','story-3','story-ripper','storyteller-2','stone-3','stone-5','stone-7']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

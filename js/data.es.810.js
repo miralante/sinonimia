@@ -1,0 +1,3 @@
+(()=>{const ids=new Set(['guajillo','gualaicho','gualanday','gualardon','gualardonar','gualatina','gualdado','gualdera','gualdo','gualdrapa','gualdrapero']);DICCIONARIOS.es=DICCIONARIOS.es.filter(x=>!ids.has(x.id));const set=(id,f)=>{const x=DICCIONARIOS.es.find(q=>q.id===id);if(x)Object.assign(x,f)};set('guajira',{definition:'A rural music style from Cuba.',synonyms:['Cuban folk music','Cuban country music'],example:{word:'guajira',text:'The band played guajira at the festival.'},exampleSynonym:{word:'Cuban folk music',text:'The band played Cuban folk music at the festival.'},situacion:'conocimiento'});})();
+
+

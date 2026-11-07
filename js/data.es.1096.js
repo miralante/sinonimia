@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3223-jalifa-protectorate","word":"jalifa","image":{"id":7024,"alt":"El jalifa representa al sultán en una reunión oficial."},"definition":"Autoridad marroquí que representaba al sultán en el Protectorado español.","synonyms":["representante del sultán","autoridad delegada"],"example":{"word":"jalifa","text":"El jalifa gobernó la zona durante el Protectorado español."},"exampleSynonym":{"word":"representante del sultán","text":"El representante del sultán gobernó la zona durante el Protectorado español."},"situacion":"historia"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

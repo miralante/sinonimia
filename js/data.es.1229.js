@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3378-lleno-satisfied","word":"lleno","image":{"id":7024,"alt":"Illustration related to lleno."},"definition":"Que ha comido bastante y ya no tiene hambre.","synonyms":["saciado","satisfecho"],"example":{"word":"lleno","text":"Después de cenar, estaba lleno y no quiso postre."},"exampleSynonym":{"word":"saciado","text":"Después de cenar, estaba saciado y no quiso postre."},"situacion":"comida","translation":{"en":"full; satisfied after eating"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

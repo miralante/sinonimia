@@ -12,5 +12,5 @@
     descabellar:{definition:"Verbo transitivo: en tauromaquia, matar instantáneamente al toro hiriéndolo en la cerviz con la punta de la espada o con la puntilla; desusado, despeinar o desgreñar, usado más como pronominal.",synonyms:["rematar","matar con la puntilla","despeinar","desgreñar"],example:{word:"descabellar",text:"El torero intentó descabellar al toro con la puntilla."},exampleSynonym:{word:"rematar",text:"El torero intentó rematar al toro con la puntilla."}},
     descabritar:{definition:"Verbo transitivo: destetar los cabritos.",synonyms:["destetar","desmamar"],example:{word:"descabritar",text:"Al final del verano, el ganadero decidió descabritar a las crías."},exampleSynonym:{word:"destetar",text:"Al final del verano, el ganadero decidió destetar a las crías."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

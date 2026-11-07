@@ -7,6 +7,6 @@
   underside:{definition:'The lower or bottom surface of something.',synonyms:['bottom','undersurface','underneath']},
   undersell:{definition:'To sell something for less than a competitor or less than its value; also, to present it as less impressive than it is.',synonyms:['price below','undervalue','understate']},
   'underground':{definition:'Below the surface of the ground; also, an underground railway system or an organized resistance movement operating secretly.',synonyms:['belowground','subterranean','subway (transit system)']},
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['underground-2','underpants-remover','understand-3','understand-4','understand-5','understand-6','understand-7']);
 DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

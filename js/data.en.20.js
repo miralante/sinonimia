@@ -1,7 +1,7 @@
 /* Reviewed English dictionary updates for batch 1984. */
 (()=>{
   const reviewed=['outline','avoid','schizophrenic','stability','stabilizer','barn','cowshed','explode','burst','blow-up'];
-  for(const id of reviewed){const e=DICCIONARIOS.en.find(x=>x.id===id);if(!e)throw Error('Missing en/'+id);delete e.translation;}
+  for(const id of reviewed){const e=DICCIONARIOS.en.find(x=>x.id===id);if(!e)throw Error('Missing en/'+id);if(e)if(e)delete e.translation;}
   const updates={
     outline:{definition:"Noun: the outer line or shape of an object; also, a brief summary or plan of a subject. Verb: to draw an outer line or state the main features or parts of something.",synonyms:["contour","silhouette","summary","plan","sketch","summarize"],example:{word:"outline",text:"She drew the outline of the site, then used an outline to present the project plan."},exampleSynonym:{word:"contour",text:"She drew the contour of the site, then used a summary to present the project plan."}},
     avoid:{definition:"Verb: to keep away from or prevent contact with someone or something; to evade or refrain from doing something.",synonyms:["evade","shun","steer clear of","refrain from"],example:{word:"avoid",text:"We left before dawn to avoid traffic on the mountain road."},exampleSynonym:{word:"steer clear of",text:"We left before dawn to steer clear of traffic on the mountain road."}},

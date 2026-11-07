@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3219-jacobita-stuart","word":"jacobita","image":{"id":7024,"alt":"Partidarios escoceses apoyan la causa de la familia Estuardo."},"definition":"Partidario de Jacobo II y de sus descendientes al trono británico.","synonyms":["partidario de los Estuardo","seguidor de Jacobo II"],"example":{"word":"jacobita","text":"Los jacobitas apoyaban a los Estuardo."},"exampleSynonym":{"word":"partidario de los Estuardo","text":"Los partidarios de los Estuardo apoyaban a esa familia."},"situacion":"historia"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

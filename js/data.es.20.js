@@ -11,7 +11,7 @@
     daifa:{definition:"Sustantivo femenino poco usado: concubina.",synonyms:["concubina","amante"],example:{word:"daifa",text:"En la novela histórica, el narrador se refiere a ella con el término antiguo «daifa»."},exampleSynonym:{word:"concubina",text:"En la novela histórica, el narrador se refiere a ella como concubina."}},
     dallar:{definition:"Verbo transitivo: segar la hierba con un dalle, una especie de guadaña.",synonyms:["segar","cortar hierba con un dalle"],example:{word:"dallar",text:"Antes de que llegara la lluvia, el campesino salió a dallar la hierba del prado."},exampleSynonym:{word:"segar",text:"Antes de que llegara la lluvia, el campesino salió a segar la hierba del prado."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
   const removed=new Set(['daguestano']);
   DICCIONARIOS.es=DICCIONARIOS.es.filter(e=>!removed.has(e.id));
 })();

@@ -31,11 +31,11 @@
   'want-3':{definition:'',synonyms:[]},
   wanted:{definition:'Desired, sought, or required; also, an announcement that a person or thing is being sought.',synonyms:['sought','desired','required']},
   wanton:{synonyms:['reckless','gratuitous','unrestrained','lewd (sexual sense)']},
-  wantonly:{synonyms:['recklessly','maliciously','without restraint']},
+  
   war:{synonyms:['armed conflict','hostilities','combat','campaign']},
   'war-2':{definition:'To wage or conduct war.',synonyms:['wage war','fight']},
   warbler:{definition:'A small songbird, especially one belonging to the family Sylviidae or another group commonly called warblers.',synonyms:['songbird','songbird species']},
   'warbler-4':{definition:'A warbler, a small songbird; the particular species depends on the regional common name.',synonyms:['warbler','songbird']},
   warden:{synonyms:['supervisor','keeper','custodian']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}const ids=new Set(['wall-tempter','warbler-2','warbler-3','warbler-5','warbler-6','warbler-7']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}const ids=new Set(['wall-tempter','warbler-2','warbler-3','warbler-5','warbler-6','warbler-7']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();
 

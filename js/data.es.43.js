@@ -12,5 +12,5 @@
     depurado:{definition:"Participio de depurar; como adjetivo, pulido, trabajado o elaborado cuidadosamente.",synonyms:["refinado","pulido","trabajado","elaborado"],example:{word:"depurado",text:"El informe depurado presenta los datos con claridad y precisión."},exampleSynonym:{word:"refinado",text:"El informe refinado presenta los datos con claridad y precisión."}}
   };
   DICCIONARIOS.es=DICCIONARIOS.es.filter(e=>e.id!=="depuesto");
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

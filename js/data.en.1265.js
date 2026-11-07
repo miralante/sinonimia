@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3408-alpine-alps","word":"Alpine","image":{"id":2450,"alt":"Information and knowledge."},"definition":"Relating specifically to the Alps or their people and culture.","synonyms":["connected with the Alps","of the Alps"],"example":{"word":"Alpine","text":"They visited several Alpine villages."},"exampleSynonym":{"word":"connected with the Alps","text":"They stayed in a village connected with the Alps."},"situacion":"conocimiento"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

@@ -18,4 +18,4 @@
  esparragal:{synonyms:['campo de espárragos','esparragar']},
  esparragar:{synonyms:['cultivar espárragos','recolectar espárragos']},
  esparragon:{definition:'Tejido de seda con un cordoncillo más grueso y fuerte que el de la tercianela.',synonyms:['tejido de seda acanalado','tejido con cordoncillo']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

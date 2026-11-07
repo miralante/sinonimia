@@ -6,4 +6,4 @@
  esmorecer:{definition:'Perder las fuerzas o el aliento por cansancio extremo, agotamiento o desmayo.',synonyms:['desfallecer','debilitarse','desmayarse']},
  esnob:{definition:'Dicho de una persona: que imita con afectación las maneras, gustos o ideas que considera propios de una clase social elevada o distinguidos.',synonyms:['presumido','afectado','snob']},
  esmedregal:{synonyms:['cobia','pejepalo','bonito negro'],example:{word:'esmedregal',text:'El esmedregal es un pez marino del golfo de México.'},exampleSynonym:{word:'cobia',text:'La cobia es un pez marino del golfo de México.'}}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

@@ -11,6 +11,6 @@
   diano:{definition:"Eufemismo coloquial de diablo.",synonyms:["diablo","demonio","diantre","demontre"],example:{word:"diaño",text:"En el relato, el aldeano temía encontrarse con un diaño en el camino."},exampleSynonym:{word:"diablo",text:"En el relato, el aldeano temía encontrarse con el diablo en el camino."}},
   diapalma:{definition:"Emplasto desecativo compuesto de litargirio, aceite de palma y otros ingredientes.",synonyms:["emplasto desecativo","emplasto de palma"],example:{word:"diapalma",text:"El antiguo manual explica cómo se preparaba la diapalma."},exampleSynonym:{word:"emplasto desecativo",text:"El antiguo manual explica cómo se preparaba el emplasto desecativo."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();
 

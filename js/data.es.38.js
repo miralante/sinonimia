@@ -9,8 +9,8 @@
     demostrador:{definition:"Que demuestra; usado también como sustantivo para referirse a una persona que demuestra o explica algo mediante una demostración.",synonyms:["que demuestra","expositor","presentador"],example:{word:"demostrador",text:"El demostrador explicó el funcionamiento del aparato ante el público."},exampleSynonym:{word:"expositor",text:"El expositor explicó el funcionamiento del aparato ante el público."}},
     demudar:{definition:"Mudar o variar; alterar, disfrazar o desfigurar. Como pronominal, cambiar repentinamente el color, el gesto o la expresión del semblante.",synonyms:["cambiar","variar","alterar","desfigurar","palidecer","inmutarse"],example:{word:"demudar",text:"La noticia llegó a demudar el semblante de la testigo."},exampleSynonym:{word:"alterar",text:"La noticia llegó a alterar el semblante de la testigo."}},
     demulcir:{definition:"Verbo transitivo desusado: halagar o recrear, causando agrado o deleite.",synonyms:["halagar","recrear","deleitar","agradar"],example:{word:"demulcir",text:"La música serena parecía demulcir el ánimo de los viajeros."},exampleSynonym:{word:"recrear",text:"La música serena parecía recrear el ánimo de los viajeros."}},
-    denante:{definition:"Adverbio poco usado: antes, con prioridad en el tiempo.",synonyms:["antes","anteriormente","con anterioridad"],example:{word:"denante",text:"En el relato, el mensajero había partido denante del amanecer."},exampleSynonym:{word:"antes",text:"En el relato, el mensajero había partido antes del amanecer."}},
-    denantes:{definition:"Adverbio desusado y usado como vulgar: antes.",synonyms:["antes","anteriormente","con anterioridad"],example:{word:"denantes",text:"El campesino contó que había visto al viajero denantes de la tormenta."},exampleSynonym:{word:"antes",text:"El campesino contó que había visto al viajero antes de la tormenta."}}
+    
+    
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

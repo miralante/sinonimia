@@ -7,7 +7,7 @@
   disputable:{definition:"Que puede ser discutido, cuestionado o puesto en duda.",synonyms:["discutible","cuestionable","controvertible"],example:{word:"disputable",text:"La interpretación es disputable y admite otras lecturas."},exampleSynonym:{word:"discutible",text:"La interpretación es discutible y admite otras lecturas."}},
   disputador:{definition:"Que disputa o suele discutir; dicho de una persona, que participa en disputas.",synonyms:["discutidor","contendiente","disputante"],example:{word:"disputador",text:"El disputador defendió su postura durante toda la reunión."},exampleSynonym:{word:"discutidor",text:"El discutidor defendió su postura durante toda la reunión."}},
   disputar:{definition:"Discutir o contender con alguien; competir por algo o reclamarlo frente a otra persona; poner en cuestión una afirmación.",synonyms:["contender","discutir","rivalizar","reclamar"],example:{word:"disputar",text:"Dos equipos van a disputar la final el sábado."},exampleSynonym:{word:"competir",text:"Dos equipos van a competir en la final el sábado."}},
-  disputativamente:{definition:"Por vía de disputa o discusión; mediante la exposición y confrontación de argumentos.",synonyms:["por vía de disputa","mediante debate","argumentativamente"],example:{word:"disputativamente",text:"Los filósofos examinaron disputativamente las premisas del argumento."},exampleSynonym:{word:"mediante debate",text:"Los filósofos examinaron las premisas del argumento mediante debate."}}
+  
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

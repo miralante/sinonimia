@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3451-antagonism-biology","word":"antagonism","image":{"id":7024,"alt":"Dictionary illustration"},"definition":"An interaction in which one substance or process opposes another.","synonyms":["opposing effect","inhibition","counteraction"],"example":{"word":"antagonism","text":"The drug showed antagonism toward the other medicine."},"exampleSynonym":{"word":"opposing effect","text":"The drug showed an opposing effect against the other medicine."},"situacion":"conocimiento","translation":{"es":"antagonismo biológico"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

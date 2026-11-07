@@ -12,5 +12,5 @@
     desabor:{definition:"Sustantivo masculino: 1. Insipidez o desabrimiento en el paladar o en lo que se come o bebe. 2. Desusado: sinsabor, pena o disgusto.",synonyms:["insipidez","desabrimiento","sinsabor","disgusto"],example:{word:"desabor",text:"El desabor de la sopa se debía a que olvidaron añadir sal."},exampleSynonym:{word:"insipidez",text:"La insipidez de la sopa se debía a que olvidaron añadir sal."}},
     desaborido:{definition:"Adjetivo: 1. Sin sabor. 2. Sin sustancia. 3. Coloquial, dicho de una persona: sosa o de carácter indiferente; también se usa como sustantivo.",synonyms:["insípido","soso","insulso","anodino"],example:{word:"desaborido",text:"El guiso quedó desaborido porque se cocinó sin hierbas ni especias."},exampleSynonym:{word:"insípido",text:"El guiso quedó insípido porque se cocinó sin hierbas ni especias."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

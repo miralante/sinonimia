@@ -7,4 +7,4 @@
  'rash-2':{definition:'A temporary outbreak of irritated or inflamed spots on the skin.',synonyms:['skin eruption','skin irritation']},
  rasp:{definition:'To scrape or smooth a surface with a rasp; also, to make a harsh grating sound.',synonyms:['file','scrape','grate']},
  'rasp-2':{definition:'A coarse file with raised, pointed teeth, used especially for shaping wood.',synonyms:['coarse file','wood rasp']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

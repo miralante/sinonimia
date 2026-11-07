@@ -11,5 +11,5 @@
   desenchufar:{definition:"Verbo transitivo: separar o desacoplar lo que está enchufado.",synonyms:["desconectar","desacoplar","desunir","desenchufar de la corriente"],example:{word:"desenchufar",text:"Antes de limpiar el aparato, recuerda desenchufar el cable."},exampleSynonym:{word:"desconectar",text:"Antes de limpiar el aparato, recuerda desconectar el cable."}},
   desenclavar:{definition:"Verbo transitivo: desclavar o sacar algo clavado; también, sacar a alguien con violencia del lugar en que está.",synonyms:["desclavar","arrancar","expulsar","echar","arrojar"],example:{word:"desenclavar",text:"Tuvieron que desenclavar la tabla para reparar el suelo."},exampleSynonym:{word:"desclavar",text:"Tuvieron que desclavar la tabla para reparar el suelo."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

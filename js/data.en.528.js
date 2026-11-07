@@ -7,4 +7,4 @@
  recount:{definition:'To tell someone about a past event or experience; also, to count something again, especially votes.',synonyms:['narrate','relate','count again','retally']},
  recover:{definition:'To get back something lost, stolen, or spent; to return to health or a normal state; or to regain control, composure, or use.',synonyms:['regain','retrieve','recoup','get well']},
  recoverable:{definition:'Able to be recovered, retrieved, or restored.',synonyms:['retrievable','restorable','reclaimable']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

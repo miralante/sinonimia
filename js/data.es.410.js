@@ -11,4 +11,4 @@
  esforzador:{definition:'Que esfuerza, alienta o da vigor; usado también como sustantivo.',synonyms:['alentador','estimulante','que da ánimo']},
  esfoyar:{definition:'En Asturias, quitar las hojas de las panojas de maíz, especialmente en la reunión tradicional de la esfoyaza.',synonyms:['deshojar panojas','deshojar maíz','deshojar'],example:{word:'esfoyar',text:'Los vecinos se reunieron para esfoyar las panojas antes del invierno.'},exampleSynonym:{word:'deshojar',text:'Los vecinos se reunieron para deshojar las panojas antes del invierno.'}},
  esfotarse:{definition:'En Asturias, confiar demasiado en uno mismo o mostrar exceso de seguridad.',synonyms:['creerse demasiado','confiar en exceso en sí mismo','presumir']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

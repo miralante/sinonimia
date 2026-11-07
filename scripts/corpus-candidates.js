@@ -40,6 +40,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const zlib = require("zlib");
 
 const ROOT = path.join(__dirname, "..");
 const CACHE_DIR = path.join(__dirname, "download");
@@ -104,10 +105,27 @@ function loadAsGlobal(relativePath, pattern, replacement) {
   eval(src);
 }
 
+// Reads a gzip-compressed file and returns its UTF-8 contents.
+function readGzippedText(filePath) {
+  return new Promise((resolve, reject) => {
+    const chunks = [];
+    const stream = fs.createReadStream(filePath).pipe(zlib.createGunzip());
+    stream.on("data", (c) => chunks.push(c));
+    stream.on("end", () => resolve(Buffer.concat(chunks).toString("utf8")));
+    stream.on("error", reject);
+  });
+}
+
 async function loadGeneralFrequencies() {
   const cachePath = path.join(CACHE_DIR, "freq-" + lang + ".txt");
+  const gzCachePath = cachePath + ".gz";
   let raw;
-  if (fs.existsSync(cachePath)) {
+  // Prefer the gzipped cache when present (smaller on disk, kept around by
+  // housekeeping compresses elsewhere); fall back to the legacy uncompressed
+  // file; only download if neither is on disk.
+  if (fs.existsSync(gzCachePath)) {
+    raw = await readGzippedText(gzCachePath);
+  } else if (fs.existsSync(cachePath)) {
     raw = fs.readFileSync(cachePath, "utf8");
   } else {
     console.log("Downloading general-language frequency list for '" + lang + "' (one-time, cached afterwards)...");

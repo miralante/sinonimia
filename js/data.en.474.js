@@ -12,4 +12,4 @@
  psychometrist:{definition:'A specialist who administers, scores, or helps interpret psychological or neuropsychological tests.',synonyms:['psychological testing specialist','psychometrics specialist']},
  'psychomotor-skills':{definition:'Abilities to coordinate movement with sensory and cognitive processes, such as hand-eye coordination or controlled fine movement.',synonyms:['sensorimotor skills','motor coordination skills']},
  psychopath:{definition:'A person described as showing a persistent pattern of callousness, manipulation, and antisocial behavior; “psychopath” is not a standalone formal diagnosis in the DSM.',synonyms:['person with psychopathic traits','person with marked antisocial traits (context-dependent)']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

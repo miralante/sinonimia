@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3336-lepidoptero-adjective","word":"lepidóptero","image":{"id":7024,"alt":"Illustration related to lepidóptero."},"definition":"Perteneciente al grupo de mariposas y polillas.","synonyms":["propio de las mariposas","relativo a las polillas"],"example":{"word":"lepidóptero","text":"La especie lepidóptera vive en el bosque."},"exampleSynonym":{"word":"propio de las mariposas","text":"La especie propia de las mariposas vive en el bosque."},"situacion":"conocimiento"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

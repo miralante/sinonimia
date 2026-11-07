@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3188-intuitivo-facil-uso","word":"Intuitivo","image":{"id":7024,"alt":"A person uses a clear, easy-to-understand app interface."},"definition":"Fácil de usar o comprender sin instrucciones extensas.","synonyms":["fácil de usar","sencillo de entender","claro"],"example":{"word":"intuitivo","text":"El programa tiene un menú intuitivo para nuevos usuarios."},"exampleSynonym":{"word":"fácil de usar","text":"El programa tiene un menú fácil de usar para nuevos usuarios."},"situacion":"tecnologia"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

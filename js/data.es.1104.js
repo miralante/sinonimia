@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3245-jineteada-festival","word":"Jineteada","image":{"id":7024,"alt":"Riders show their horse skills at a rural festival."},"definition":"Fiesta rural en la que jinetes muestran su destreza con caballos.","synonyms":["fiesta ecuestre"],"example":{"word":"jineteada","text":"La jineteada atrajo público a la feria rural."},"exampleSynonym":{"word":"fiesta ecuestre","text":"La fiesta ecuestre atrajo público a la feria rural."},"situacion":"vida-diaria"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

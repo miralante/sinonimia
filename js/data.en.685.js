@@ -4,5 +4,5 @@
   torture:{definition:'The infliction of severe physical or mental suffering to punish, coerce, or obtain information; also, to cause such suffering or to strain or distort something.',synonyms:['torment','agony','severe pain','anguish']},
   toss:{definition:'To throw something lightly or carelessly; to throw or fling with force; to move or turn something from side to side; also, an act of tossing.',synonyms:['throw','fling','flip','hurl']},
   'toss-and-turn':{definition:'To move restlessly in bed while trying to sleep.',synonyms:['turn restlessly','shift about in bed']},
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['torte-2','tortuously-2','torture-2','torture-3']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

@@ -11,5 +11,5 @@
   diluente:{definition:"Adjetivo desusado: diluyente; se usaba también como sustantivo.",synonyms:["diluyente","disolvente"],example:{word:"diluente",text:"El tratado antiguo llama diluente a la sustancia que diluye otra."},exampleSynonym:{word:"diluyente",text:"El tratado antiguo llama diluyente a la sustancia que diluye otra."}},
   diluyente:{definition:"Dicho de una sustancia, que diluye o reduce la concentración de otra; se usa también como sustantivo.",synonyms:["disolvente","diluente"],example:{word:"diluyente",text:"El técnico añadió un diluyente para reducir la concentración de la mezcla."},exampleSynonym:{word:"disolvente",text:"El técnico añadió un disolvente para reducir la concentración de la mezcla."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

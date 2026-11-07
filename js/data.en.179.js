@@ -6,7 +6,7 @@
   overdress:{definition:"Verb: to dress oneself or someone else too elaborately or formally for the occasion. Noun: a dress or garment worn over another item of clothing.",synonyms:["dress too formally","dress too elaborately","overdress (noun: outer dress)"],example:{word:"overdress",text:"She decided not to overdress for the informal garden party."},exampleSynonym:{word:"dress too formally",text:"She decided not to dress too formally for the informal garden party."}},
   overdrive:{definition:"Noun: a high gear used for efficient high-speed driving, or a state of intense activity or effort. Verb: to drive or work too hard, or to use something excessively.",synonyms:["high gear","intense activity","overwork","overuse"],example:{word:"overdrive",text:"As the deadline approached, the whole team went into overdrive."},exampleSynonym:{word:"intense activity",text:"As the deadline approached, the whole team entered a period of intense activity."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  for(const id of ['overdose-2','overdraft-2','overdraft-fee-2','overdraw-2','overdrinking'])if(!DICCIONARIOS.en.some(e=>e.id===id))throw Error('Missing en/'+id);
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!['overdose-2','overdraft-2','overdraft-fee-2','overdraw-2','overdrinking'].includes(e.id));
 })();

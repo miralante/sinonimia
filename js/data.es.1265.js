@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3421-magacin-broadcast","word":"magacín","image":{"id":7024,"alt":"Un programa de televisión combina entrevistas y reportajes."},"definition":"Programa de radio o televisión con contenidos variados.","synonyms":["programa de variedades","espacio de variedades"],"example":{"word":"magacín","text":"El magacín de la mañana entrevistó a varios músicos."},"exampleSynonym":{"word":"programa de variedades","text":"El programa de variedades de la mañana entrevistó a varios músicos."},"situacion":"vida-diaria","translation":{"en":"variety show; magazine program"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

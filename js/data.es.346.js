@@ -12,4 +12,4 @@
  endulcecer:{definition:'Hacer que algo se vuelva dulce o más dulce; variante de endulzar.',synonyms:['endulzar','dulcificar'],example:{word:'endulcecer',text:'Añadió miel para endulcecer la infusión.'},exampleSynonym:{word:'endulzar',text:'Añadió miel para endulzar la infusión.'}},
  endulzadura:{definition:'Acción y efecto de endulzar.',synonyms:['endulzamiento','dulcificación'],example:{word:'endulzadura',text:'La endulzadura de la bebida se hizo al final.'},exampleSynonym:{word:'dulcificación',text:'La dulcificación de la bebida se hizo al final.'}},
  endulzurar:{definition:'Hacer que algo sea dulce o más dulce.',synonyms:['endulzar','dulcificar'],example:{word:'endulzurar',text:'Prefiere endulzurar el té con un poco de miel.'},exampleSynonym:{word:'dulcificar',text:'Prefiere dulcificar el té con un poco de miel.'}}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

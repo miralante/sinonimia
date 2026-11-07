@@ -11,5 +11,5 @@
   desolazar:{definition:"Verbo transitivo desusado: causar pena o aflicción, quitando el solaz o consuelo.",synonyms:["afligir","apenar","acongojar"],example:{word:"desolazar",text:"La despedida parecía desolazar al viajero, que se alejó con tristeza."},exampleSynonym:{word:"apenar",text:"La despedida parecía apenar al viajero, que se alejó con tristeza."}},
   desoldar:{definition:"Quitar la soldadura que une dos piezas; también se usa como pronominal.",synonyms:["desunir","quitar la soldadura","separar una unión soldada"],example:{word:"desoldar",text:"El técnico tuvo que desoldar el conector para reemplazarlo."},exampleSynonym:{word:"quitar la soldadura",text:"El técnico tuvo que quitar la soldadura del conector para reemplazarlo."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

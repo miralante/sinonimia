@@ -70,11 +70,17 @@ function applySynonymMerges(dictionaries) {
     }
 
     dictionaries[lang] = entries.filter(entry => !removed.has(entry.id));
+    const survivingById = new Map(dictionaries[lang].map(entry => [entry.id, entry]));
 
     const correctionFile = path.join(ROOT, 'scripts', 'ingest', 'pipeline', 'decisions', `synonym-corrections-${lang}.json`);
     if (fs.existsSync(correctionFile)) {
+      const { decisions: editorialExclusions } = loadEditorialExclusions(lang);
+      const excludedIds = new Set(editorialExclusions.map(exclusion => exclusion.id));
       for (const correction of JSON.parse(fs.readFileSync(correctionFile, 'utf8'))) {
-        const entry = dictionaries[lang].find(candidate => candidate.id === correction.entry);
+        // Corrections for an explicitly excluded entry are historical only;
+        // the entry is no longer part of the dictionary to correct.
+        if (excludedIds.has(correction.entry)) continue;
+        const entry = survivingById.get(correction.entry);
         if (!entry) throw new Error(`${lang}: synonym correction references missing entry ${correction.entry}`);
         const toRemove = new Set(correction.remove.map(normalize));
         const before = entry.synonyms || [];
@@ -83,6 +89,7 @@ function applySynonymMerges(dictionaries) {
         if (removedCount !== toRemove.size) {
           throw new Error(`${lang}/${entry.id}: expected to remove ${toRemove.size} listed synonym(s), found ${removedCount}`);
         }
+        for (const key of correction.unset || []) delete entry[key];
         if (correction.set) Object.assign(entry, correction.set);
       }
     }
@@ -95,9 +102,13 @@ function applySynonymMerges(dictionaries) {
       const excludedIds = new Set();
       for (const exclusion of exclusions) {
         const entry = byId.get(exclusion.id);
-        if (!entry || removed.has(exclusion.id)) {
+        if (removed.has(exclusion.id)) {
           throw new Error(`${lang}: editorial exclusion references missing or merged entry ${exclusion.id}`);
         }
+        // A prior editorial pass may already have removed this entry from
+        // the source shards. Keep the decision as history and treat it as
+        // satisfied instead of making every dictionary load fail.
+        if (!entry) continue;
         if (normalizeExclusionWord(entry.word || entry.palabra) !== normalizeExclusionWord(exclusion.word)) {
           throw new Error(`${lang}: editorial exclusion word does not match entry ${exclusion.id}`);
         }

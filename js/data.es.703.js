@@ -71,7 +71,7 @@
   milagriento:{definition:'Que parece milagroso o está lleno de prodigios; voz poco frecuente.',synonyms:['milagroso','prodigioso']},
   milagro:{definition:'Suceso extraordinario que se atribuye a una intervención divina o que parece superar las leyes naturales.',synonyms:['prodigio','hecho extraordinario']},
   milagron:{definition:'Acción o suceso que parece un milagro; voz coloquial o aumentativa.',synonyms:['prodigio','milagro grande']},
-  milagrosamente:{synonyms:['de manera milagrosa','prodigiosamente']},
+  
   milagroso:{synonyms:['prodigioso','extraordinario','sobrenatural (según creencia)']},
   milamores:{definition:'Expresión afectuosa o nombre cariñoso; uso coloquial.',synonyms:['cariño','amor mío (expresión relacionada)']},
   milanesa:{synonyms:['escalope empanado','filete empanado']},
@@ -99,7 +99,7 @@
   milisegundo:{synonyms:['ms','10⁻³ segundos']},
   militarismo:{synonyms:['ideología militarista','predominio de lo militar en la política']},
   militarizar:{definition:'Organizar, dotar o adaptar algo con estructura o carácter militar; también, imponer disciplina militar.',synonyms:['dar carácter militar','organizar militarmente']},
-  militarmente:{synonyms:['de manera militar','según criterios militares']},
+  
   milite:{definition:'Soldado o miembro de una fuerza militar; voz antigua.',synonyms:['soldado','militar']},
   minifaldero:{definition:'Dicho de una persona: que lleva minifalda; uso coloquial.',synonyms:['que viste minifalda']},
   miriada:{definition:'Cantidad muy grande e indefinida de personas o cosas; también, diez mil, en su origen etimológico.',synonyms:['multitud','infinidad','miríada']},
@@ -118,13 +118,13 @@
   miscelaneo:{synonyms:['mixto','variado','heterogéneo']},
   miscible:{synonyms:['mezclable','combinable (líquidos)']},
   miserable:{synonyms:['pobre','indigente','mezquino (según contexto)']},
-  miserablemente:{synonyms:['desdichadamente','lastimosamente','de forma miserable']},
-  miseramente:{synonyms:['con escasez','mezquinamente','pobremente']},
+  
+  
   miserando:{synonyms:['digno de compasión','lastimoso']},
   miserear:{synonyms:['escatimar','ser tacaño','gastar con mezquindad']},
   miseria:{synonyms:['pobreza','indigencia','escasez extrema']},
   misericordia:{synonyms:['compasión','piedad','clemencia']},
-  misericordiosamente:{synonyms:['compasivamente','con clemencia','piadosamente']},
+  
   misericordioso:{synonyms:['compasivo','piadoso','clemente']},
   miserrimo:{definition:'Superlativo irregular de «mísero»: sumamente mísero o miserable.',synonyms:['pobrísimo','miserabilísimo']},
   misil:{definition:'Proyectil autopropulsado, generalmente guiado, que puede llevar una carga explosiva; su clasificación depende del alcance, uso y trayectoria.',synonyms:['proyectil guiado','cohete militar (según tipo)']},
@@ -133,7 +133,7 @@
   misionero:{definition:'Persona enviada a realizar labor religiosa o evangelizadora; también, perteneciente o relativo a una misión.',synonyms:['predicador','evangelizador','miembro de una misión']},
   misiones:{definition:'',synonyms:[]},
   misivo:{definition:'Dicho de una carta o comunicación: que se envía a alguien.',synonyms:['enviado','relativo a una misiva']},
-  mismamente:{synonyms:['precisamente','cabalmente','justamente']},
+  
   mismidad:{definition:'Condición de ser uno mismo y conservar la propia identidad.',synonyms:['identidad personal','ipseidad']},
   misoginia:{synonyms:['prejuicio contra las mujeres','hostilidad hacia las mujeres','aversión o desprecio por las mujeres']},
   misogino:{synonyms:['hostil a las mujeres','misógino']},
@@ -147,7 +147,7 @@
   mister:{definition:'Tratamiento inglés equivalente a «señor», usado antes de un apellido o como vocativo.',synonyms:['Mr.','señor (tratamiento)']},
   misterial:{definition:'Variante antigua de «misterioso».',synonyms:['misterioso (forma usual)']},
   misterio:{synonyms:['enigma','secreto','hecho inexplicable']},
-  misteriosamente:{synonyms:['enigmáticamente','de manera misteriosa','secretamente']},
+  
   misterioso:{synonyms:['enigmático','oculto','inexplicable']},
   misticismo:{definition:'Doctrina o práctica que busca una experiencia directa de unión o comunicación con lo divino o con una realidad trascendente.',synonyms:['vida mística','contemplación espiritual']}
 };for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}const ids=new Set(['miosota','miolema','minutisa','minaz','mileon','milgranar','mexica','mexiqueno','misquito','yagan','metatizar','metatudo','mierca?']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

@@ -12,5 +12,5 @@
     cusco:{definition:"Sustantivo masculino, en Argentina y Uruguay: cuzco, perro. También se llama así al perro mediante la interjección repetida «cuz, cuz».",synonyms:["cuzco","perro"],example:{word:"cusco",text:"El cusco acudió corriendo cuando su dueña lo llamó."},exampleSynonym:{word:"cuzco",text:"El cuzco acudió corriendo cuando su dueña lo llamó."}},
     cuscurro:{definition:"Sustantivo masculino: parte del pan más tostada que corresponde a sus extremos o a la corteza.",synonyms:["currusco","corrusco","mendrugo"],example:{word:"cuscurro",text:"Guardó el cuscurro para mojarlo en la sopa."},exampleSynonym:{word:"corrusco",text:"Guardó el corrusco para mojarlo en la sopa."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

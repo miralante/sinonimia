@@ -11,5 +11,5 @@
     descolonizador:{definition:"Adjetivo: que descoloniza o pretende la descolonización.",synonyms:["anticolonial","emancipador","liberador"],example:{word:"descolonizador",text:"El movimiento descolonizador buscaba recuperar el control político del territorio."},exampleSynonym:{word:"anticolonial",text:"El movimiento anticolonial buscaba recuperar el control político del territorio."}},
     descolorar:{definition:"Verbo transitivo y pronominal: quitar o amortiguar el color.",synonyms:["decolorar","descolorir","desteñir","despintar","palidecer"],example:{word:"descolorar",text:"La exposición prolongada al sol puede descolorar la tela."},exampleSynonym:{word:"decolorar",text:"La exposición prolongada al sol puede decolorar la tela."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

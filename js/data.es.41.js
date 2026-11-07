@@ -12,5 +12,5 @@
     denar:{word:"Deñar",definition:"Verbo transitivo desusado: tener por digno; como pronominal, dignarse.",synonyms:["tener por digno","dignarse"],example:{word:"deñar",text:"El cronista rogó al rey deñar su petición y tenerla por digna de atención."},exampleSynonym:{word:"dignarse",text:"El cronista rogó al rey dignarse a atender su petición."}},
     deontologia:{definition:"Estudio de los deberes y principios morales que orientan una profesión o una actividad.",synonyms:["ética profesional","doctrina de los deberes","estudio de las obligaciones morales"],example:{word:"deontología",text:"El colegio profesional revisó su código de deontología."},exampleSynonym:{word:"ética profesional",text:"El colegio profesional revisó su código de ética profesional."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

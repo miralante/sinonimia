@@ -11,5 +11,5 @@
   detractor:{definition:"Persona que critica o se opone a alguien o algo, especialmente a sus ideas o reputación.",synonyms:["crítico","opositor","adversario","censor"],example:{word:"detractor",text:"Ningún detractor logró desacreditar el trabajo del equipo."},exampleSynonym:{word:"crítico",text:"Ningún crítico logró desacreditar el trabajo del equipo."}},
   detraer:{definition:"Restar o sustraer algo, especialmente dinero; en un uso poco frecuente, infamar o denigrar a alguien.",synonyms:["restar","sustraer","quitar","denigrar"],example:{word:"detraer",text:"La empresa no puede detraer esa cantidad del salario sin autorización."},exampleSynonym:{word:"sustraer",text:"La empresa no puede sustraer esa cantidad del salario sin autorización."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

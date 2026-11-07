@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3362-adverbial-noun","word":"adverbial","image":{"id":7024,"alt":"Ilustración relacionada con adverbial."},"definition":"A word or phrase that works like an adverb.","synonyms":["adverbial phrase","adverbial modifier","adverb phrase"],"example":{"word":"adverbial","text":"The teacher called “in the rain” an adverbial."},"exampleSynonym":{"word":"adverbial phrase","text":"The teacher called “in the rain” an adverbial phrase."},"situacion":"conocimiento"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

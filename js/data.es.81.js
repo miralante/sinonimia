@@ -11,5 +11,5 @@
   desempunar:{definition:"Verbo transitivo: dejar de empuñar algo; soltarlo de la mano.",synonyms:["soltar","dejar de empuñar","desasir"],example:{word:"desempuñar",text:"El guardia ordenó al hombre desempuñar el cuchillo."},exampleSynonym:{word:"soltar",text:"El guardia ordenó al hombre soltar el cuchillo."}},
   desenastar:{definition:"Verbo transitivo: quitar el asta o el mango a un arma o herramienta.",synonyms:["desmangar","quitar el mango","desarmar"],example:{word:"desenastar",text:"El armero tuvo que desenastar la herramienta para cambiarle el mango."},exampleSynonym:{word:"quitar el mango",text:"El armero tuvo que quitar el mango de la herramienta para cambiarlo."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

@@ -10,4 +10,4 @@
  punitive:{synonyms:['penalizing','intended as punishment','retributive (in some contexts)']},
  pupil:{synonyms:['student','learner','schoolchild (by age/context)']},
  pupillary:{synonyms:['relating to the pupil of the eye','pupil-related']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

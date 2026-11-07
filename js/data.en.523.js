@@ -8,4 +8,4 @@
  recitative:{definition:'A style of musical composition, especially in opera, in which singing follows the rhythms and inflections of speech.',synonyms:['speech-like singing','operatic recitation']},
  recite:{definition:'To say a passage, poem, speech, or list aloud, often from memory.',synonyms:['rehearse','repeat from memory','deliver']},
  reciter:{definition:'A person who recites a passage, poem, speech, or other text, often from memory.',synonyms:['reader','performer','speaker']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3518-mayate-slang","word":"mayate","image":{"id":7024,"alt":"Una palabra del diccionario"},"definition":"En México, insulto despectivo para referirse a un hombre homosexual.","synonyms":["insulto homófobo","término despectivo"],"example":{"word":"mayate","text":"El término mayate es ofensivo en México."},"exampleSynonym":{"word":"insulto homófobo","text":"Ese insulto homófobo puede herir a quien lo escucha."},"situacion":"sociedad"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

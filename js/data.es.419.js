@@ -29,4 +29,4 @@
  esperpentismo:{synonyms:['estética del esperpento','deformación grotesca de la realidad']},
  esperpentizar:{synonyms:['deformar grotescamente','convertir en esperpento','ridiculizar mediante deformación']},
  esperpento:{definition:'Persona, cosa o situación grotesca, ridícula o monstruosa; también, género o técnica literaria que deforma la realidad de modo grotesco, asociada a Ramón del Valle-Inclán.',synonyms:['monstruosidad','ridiculez','grotesco','deformación grotesca']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

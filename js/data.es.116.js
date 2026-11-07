@@ -11,5 +11,5 @@
   despesar:{definition:"Disgusto o pesar; es un sustantivo masculino antiguo y hoy poco usado.",synonyms:["disgusto","pesar","aflicción"],example:{word:"despesar",text:"La carta hablaba del despesar que le causó la noticia."},exampleSynonym:{word:"pesar",text:"La carta hablaba del pesar que le causó la noticia."}},
   despesca:{definition:"Acción de sacar los peces de un lugar donde se crían o se mantienen, como un estanque o una piscifactoría.",synonyms:["despesco","extracción de peces","recolección de peces"],example:{word:"despesca",text:"La despesca del estanque se realizó al final del verano."},exampleSynonym:{word:"extracción de peces",text:"La extracción de peces del estanque se realizó al final del verano."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

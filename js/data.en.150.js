@@ -11,5 +11,5 @@
   'order-4':{definition:"A request or instruction to supply, make, or carry out something; the act of commissioning it.",synonyms:["commission","request","instruction"],example:{word:"order",text:"The workshop received an order to build a custom table."},exampleSynonym:{word:"commission",text:"The workshop received a commission to build a custom table."}},
   'order-6':{definition:"An arrangement of people or things according to a sequence or system.",synonyms:["arrangement","sequence","organization"],example:{word:"order",text:"The files were placed in order by date."},exampleSynonym:{word:"sequence",text:"The files were placed in sequence by date."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

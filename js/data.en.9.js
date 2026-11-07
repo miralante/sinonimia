@@ -10,13 +10,13 @@
     disease:{translation:{es:'enfermedad'}},
     illness:{translation:{es:['enfermedad','dolencia']}},
     sickness:{translation:{es:['enfermedad','mareo']}},
-    sickly:{translation:{es:['enfermizo','debil','empalagoso']}},
+    
     ill:{translation:null},
     unwell:{translation:null},
     ailing:{translation:{es:'achacoso'}},
     focus:{translation:{es:['enfoque','centrar','enfocar','concentrar']}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);for(const[key,value]of Object.entries(fields)){if(key==='translation'&&value===null)delete row.translation;else row[key]=value;}}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row)for(const[key,value]of Object.entries(fields)){if(key==='translation'&&value===null)delete row.translation;else row[key]=value;}}
   const removed=['cultry','cultivator-2'];
   DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!removed.includes(e.id));
   for(const language of ['es','en'])for(const row of DICCIONARIOS[language]){const key=language==='es'?'en':'es',value=row.translation?.[key];if(!value)continue;const kept=(Array.isArray(value)?value:[value]).filter(id=>!removed.includes(id));if(kept.length)row.translation={...row.translation,[key]:Array.isArray(value)?kept:kept[0]};else delete row.translation;}

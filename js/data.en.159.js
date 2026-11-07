@@ -10,7 +10,7 @@
   orpiment:{definition:"A bright yellow to orange arsenic sulfide mineral, As₂S₃, formerly used as a pigment.",synonyms:["arsenic trisulfide","yellow arsenic sulfide"],example:{word:"orpiment",text:"The mineral collection displayed a vivid specimen of orpiment."},exampleSynonym:{word:"yellow arsenic sulfide",text:"The mineral collection displayed a vivid specimen of yellow arsenic sulfide."}},
   ortegian:{definition:"Relating to the Spanish philosopher José Ortega y Gasset or to his thought.",synonyms:["Ortega-related","relating to Ortega y Gasset"],example:{word:"ortegian",text:"The seminar examined an ortegian approach to technology and society."},exampleSynonym:{word:"Ortega-related",text:"The seminar examined an Ortega-related approach to technology and society."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  if(!DICCIONARIOS.en.some(e=>e.id==='orpho'))throw Error('Missing en/orpho');
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>e.id!=='orpho');
 })();

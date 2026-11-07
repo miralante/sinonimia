@@ -5,4 +5,4 @@
  rebinding:{definition:'The act or process of binding or covering something again, especially a book.',synonyms:['re-binding','book rebinding']},
  rebit:{definition:'To fasten or repair something again with a rivet; also, a rivet used for such a repair.',synonyms:['rivet again','re-rivet']},
  rebomb:{definition:'To bomb again; to attack a place with bombs a second time.',synonyms:['bomb again','attack again']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

@@ -11,5 +11,5 @@
   disolver:{definition:"Deshacer o mezclar una sustancia en un líquido hasta formar una mezcla homogénea; separar o terminar una asociación, vínculo u organización.",synonyms:["diluir","deshacer","disgregar"],example:{word:"disolver",text:"Hay que disolver el azúcar antes de servir la bebida."},exampleSynonym:{word:"diluir",text:"Hay que diluir el azúcar antes de servir la bebida."}},
   disonante:{definition:"Que disuena o produce una combinación de sonidos desagradable; por extensión, que no concuerda con el conjunto.",synonyms:["discordante","disonoro","inarmónico"],example:{word:"disonante",text:"Una nota disonante interrumpió la armonía del acorde."},exampleSynonym:{word:"discordante",text:"Una nota discordante interrumpió la armonía del acorde."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

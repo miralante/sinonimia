@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3211-iterar-informatica","word":"iterar","image":{"id":2450,"alt":"A program processes each item in a list in order."},"definition":"Recorrer, uno por uno, los elementos de una lista informática.","synonyms":["recorrer los elementos","procesar cada elemento"],"example":{"word":"iterar","text":"El programa itera sobre cada nombre de la lista."},"exampleSynonym":{"word":"recorrer los elementos","text":"El programa recorre los elementos de la lista."},"situacion":"tecnologia"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

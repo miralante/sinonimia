@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3436-ancillary-noun","word":"ancillary","image":{"id":7024,"alt":"A book comes with an added item that supports learning."},"definition":"An extra thing added to support or improve something.","synonyms":["extra","additional item"],"example":{"word":"ancillary","text":"The textbook includes an ancillary."},"exampleSynonym":{"word":"extra","text":"The textbook includes an extra."},"situacion":"conocimiento","translation":{"es":"complemento; elemento auxiliar"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

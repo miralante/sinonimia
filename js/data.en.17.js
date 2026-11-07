@@ -1,6 +1,6 @@
 /* Reviewed English dictionary updates for batch 1981. */
 (()=>{
-  const reviewed=['essential','essentially','sphere','slogan','spatial','capacious','scare','scatter','spartan','spice'];
+  const reviewed=['essential','sphere','slogan','spatial','capacious','scare','scatter','spartan','spice'];
   for(const id of reviewed){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}
   const spartan=DICCIONARIOS.en.find(e=>e.id==='spartan');
   spartan.definition="Adjective: very plain, strict, or self-disciplined, with little comfort or decoration.";

@@ -15,4 +15,4 @@
  psychedelic:{definition:'Relating to or resembling the altered perceptions and experiences caused by psychedelic drugs; also, describing the art or culture associated with them.',synonyms:['hallucinogenic','mind-altering','psychedelia-related']},
  psychiatric:{synonyms:['relating to psychiatry','mental-health-related (broader)']},
  psychiatrist:{synonyms:['mental health physician','doctor specializing in psychiatry']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3190-invasor-organismo","word":"Invasor","image":{"id":7024,"alt":"A parasitic organism enters another organism."},"definition":"Organism that enters another organism and can harm it.","synonyms":["parásito","agente invasor","microorganismo invasor"],"example":{"word":"invasor","text":"El organismo invasor se extendió por el tejido."},"exampleSynonym":{"word":"parásito","text":"El parásito se extendió por el tejido."},"situacion":"salud"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

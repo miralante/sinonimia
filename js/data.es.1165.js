@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3315-laudo-expert-report","word":"laudo","image":{"id":7024,"alt":"Illustration related to laudo."},"definition":"Informe en el que un especialista explica el resultado de una evaluación.","synonyms":["informe pericial","dictamen técnico"],"example":{"word":"laudo","text":"El experto entregó un laudo sobre los daños del edificio."},"exampleSynonym":{"word":"informe pericial","text":"El experto entregó un informe pericial sobre los daños del edificio."},"situacion":"conocimiento"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

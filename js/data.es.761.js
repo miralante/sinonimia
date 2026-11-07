@@ -1,6 +1,6 @@
 (()=>{const u={
   negatron:{definition:'Electrón, especialmente para distinguirlo del positrón.',synonyms:['electrón']},
-  neciamente:{definition:'Con necedad; de manera tonta, imprudente u obstinada.',synonyms:['tontamente','imprudentemente','obstinadamente']},
+  
   negrada:{definition:'En algunos países de América, conjunto de personas negras; voz coloquial que puede resultar despectiva según el contexto.',synonyms:['grupo de personas negras (regional, coloquial)']},
   negramenta:{definition:'En Honduras y Venezuela, conjunto de personas negras; voz coloquial despectiva.',synonyms:['negrada (coloquial, despectivo)']},
   negramentazon:{definition:'En Venezuela, conjunto numeroso de personas negras; voz coloquial despectiva.',synonyms:['negrada (coloquial, despectivo)','negramenta']},

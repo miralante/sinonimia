@@ -1,11 +1,11 @@
 (()=>{const u={
   monaquismo:{definition:'Vida, condición o conjunto de prácticas propias de los monjes; monacato.',synonyms:['monacato','vida monástica']},
-  monarquicamente:{definition:'De manera monárquica o conforme a una monarquía.',synonyms:['según la monarquía','monárquicamente']},
+  
   monarquico:{synonyms:['relativo a la monarquía','realista']},
   monarquismo:{definition:'Doctrina o actitud favorable a la monarquía como forma de gobierno.',synonyms:['monarquismo','realismo']},
   monasterial:{definition:'Perteneciente o relativo a un monasterio.',synonyms:['monástico','monacal']},
   monasterio:{definition:'Casa o conjunto de edificios donde vive una comunidad de monjes o monjas bajo una regla religiosa.',synonyms:['convento','abadía','cenobio']},
-  monasticamente:{definition:'De manera monástica o conforme a las reglas de la vida monástica.',synonyms:['monacalmente','según la regla monástica']},
+  
   monastico:{synonyms:['monacal','relativo al monasterio']},
   monda:{definition:'Acción y efecto de mondar; cáscara o piel que se quita al mondar.',synonyms:['mondadura','peladura']},
   mondaderas:{definition:'Instrumentos de madera usados para mondar o limpiar la tierra; voz regional y poco frecuente.',synonyms:['herramienta agrícola','instrumento de mondar']},

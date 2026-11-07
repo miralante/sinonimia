@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"overdraft-2","word":"overdraft","image":{"id":7024,"alt":"A dictionary word"},"definition":"Money spent or withdrawn beyond an account's available balance.","synonyms":["amount overdrawn","excess withdrawal"],"example":{"word":"overdraft","text":"The overdraft left her with too little money for rent."},"exampleSynonym":{"word":"amount overdrawn","text":"The amount overdrawn left her with too little money for rent."},"situacion":"finanzas"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

@@ -7,7 +7,7 @@
   origin:{definition:"The point, person, or source from which something begins, comes, or is derived; ancestry or provenance.",synonyms:["source","beginning","provenance","ancestry"],example:{word:"origin",text:"Researchers traced the origin of the manuscript to a monastery."},exampleSynonym:{word:"source",text:"Researchers traced the source of the manuscript to a monastery."}},
   original:{definition:"Existing from the beginning or produced first; not copied or derived from something else. As a noun, the first or source version of something, or a work created by its author.",synonyms:["first","authentic","not copied","source version"],example:{word:"original",text:"The curator compared the reproduction with the original painting."},exampleSynonym:{word:"source version",text:"The curator compared the reproduction with the source version of the painting."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  for(const id of ['orientalizing','orifice-2','orifier','orify']){if(!DICCIONARIOS.en.some(e=>e.id===id))throw Error('Missing en/'+id);}
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!['orientalizing','orifice-2','orifier','orify'].includes(e.id));
 })();

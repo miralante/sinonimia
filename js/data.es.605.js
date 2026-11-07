@@ -42,6 +42,6 @@
   'hipótesis':{synonyms:['suposición','conjetura','proposición provisional']},
   'hinojar':{synonyms:['oler mal','despedir mal olor']},
   'hongo':{definition:'Organismo eucariota del reino Fungi que obtiene nutrientes por absorción; incluye levaduras, mohos y setas.',synonyms:['fungus','seta (en algunas acepciones)']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['hetiquez','hispalio','hispanense','hispanojudio','hispanomusulman','hispanorromano','holandesa','holguinero','hondurense','hongarina','huachano','huaracino','huaralino','huancavelicano','huantino','huanuqueno','huasquino','huamanguino','huetar','huilota','huehueteco','ibarreno','iberoamericano','ilercaon','iliberritano','idumeo','igorote','igreja','hilaracha','hincon','honcejo','hondarras','huachache']);
 DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

@@ -8,5 +8,5 @@
   trio:{definition:'A group or set of three people or things; also, a musical composition for three performers or parts.',synonyms:['triple','threesome','ensemble']},
   tripartite:{definition:'Adjective: divided into or consisting of three parts, or shared among three parties. Verb: to divide into three parts.',synonyms:['three-part','three-way','divide into three']},
   tripe:{definition:'The edible lining of the stomach of a ruminant, especially a cow; informal nonsense or rubbish.',synonyms:['offal','stomach lining','nonsense']},
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['trigger-2','trigger-3','trigonal-2','triliter','trillionth-2','trinket-2','trinket-3','trip-2','trip-3','trip-4','tripad']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

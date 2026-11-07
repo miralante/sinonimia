@@ -1,0 +1,1 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)return;const ids=new Set(['guato','guaton','guatusa','guatusero','guatuso','guaya','guayaba','guayabal','guayabana','guayabar','guayabate','guayabearse']);d.splice(0,d.length,...d.filter(x=>!ids.has(x.id)));})();

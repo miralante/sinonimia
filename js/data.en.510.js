@@ -10,4 +10,4 @@
  raucous:{definition:'Making a loud, harsh, or rough sound, especially of a voice or crowd.',synonyms:['harsh','raucous-sounding','boisterous']},
  ravager:{definition:'A person, force, or thing that causes severe damage or destruction.',synonyms:['destroyer','devastator','despoiler']},
  rave:{definition:'To speak or write wildly, excitedly, or angrily; also, to praise something with great enthusiasm.',synonyms:['rant','rhapsodize','praise enthusiastically']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

@@ -11,5 +11,5 @@
   desherbar:{definition:"Verbo transitivo: quitar las hierbas o malezas de un terreno cultivado.",synonyms:["escardar","desyerbar","quitar las malas hierbas"],example:{word:"desherbar",text:"La jardinera salió temprano a desherbar los bancales."},exampleSynonym:{word:"escardar",text:"La jardinera salió temprano a escardar los bancales."}},
   desherrar:{definition:"Verbo transitivo: quitar o hacer que se desprendan las herraduras de una caballería o res.",synonyms:["quitar las herraduras","desherrar una caballería","desherrado"],example:{word:"desherrar",text:"El herrador tuvo que desherrar al caballo para revisar el casco."},exampleSynonym:{word:"quitar las herraduras",text:"El herrador tuvo que quitar las herraduras al caballo para revisar el casco."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

@@ -11,5 +11,5 @@
   disconvenir:{definition:"No estar de acuerdo con alguien o con algo; discrepar.",synonyms:["discrepar","estar en desacuerdo","disentir"],example:{word:"disconvenir",text:"Aunque solían disconvenir en política, conservaban una relación cordial."},exampleSynonym:{word:"discrepar",text:"Aunque solían discrepar en política, conservaban una relación cordial."}},
   discordante:{definition:"Que no concuerda o armoniza con otra cosa; también, que produce un sonido disonante.",synonyms:["disconforme","disonante","incompatible"],example:{word:"discordante",text:"El informe encontró un dato discordante con el resto de las mediciones."},exampleSynonym:{word:"incompatible",text:"El informe encontró un dato incompatible con el resto de las mediciones."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

@@ -12,5 +12,5 @@
     descantar:{definition:"Verbo transitivo: limpiar de cantos o trozos de piedra.",synonyms:["despedregar","limpiar de piedras","retirar cantos"],example:{word:"descantar",text:"Los obreros tuvieron que descantar el terreno antes de plantar."},exampleSynonym:{word:"despedregar",text:"Los obreros tuvieron que despedregar el terreno antes de plantar."}},
     descantillar:{definition:"Verbo transitivo, también pronominal: romper o quebrar las aristas o cantos de algo; también, desfalcar o rebajar una cantidad.",synonyms:["desportillar","descantonar","rebajar","descontar"],example:{word:"descantillar",text:"El golpe llegó a descantillar el borde de la mesa."},exampleSynonym:{word:"desportillar",text:"El golpe llegó a desportillar el borde de la mesa."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

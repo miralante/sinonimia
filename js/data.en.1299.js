@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3447-annihilate-defeat","word":"annihilate","image":{"id":7024,"alt":"Dictionary illustration"},"definition":"To defeat someone completely in a contest or fight.","synonyms":["beat his rival completely","crush","thrash"],"example":{"word":"annihilate","text":"The champion annihilated his rival in the final."},"exampleSynonym":{"word":"beat his rival completely","text":"The champion beat his rival completely in the final."},"situacion":"vida-diaria","translation":{"es":"aniquilar; derrotar por completo"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

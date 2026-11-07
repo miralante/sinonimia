@@ -4,4 +4,4 @@
  eurodiputado:{definition:'Miembro del Parlamento Europeo elegido para representar a los ciudadanos de un Estado miembro.',synonyms:['miembro del Parlamento Europeo','parlamentario europeo']},
  euroesceptico:{definition:'Que expresa desconfianza, crítica u oposición hacia la Unión Europea o el proceso de integración europea.',synonyms:['crítico de la Unión Europea','contrario a la integración europea']},
  europeizar:{definition:'Dar carácter europeo a algo o a alguien; también, adquirir ese carácter.',synonyms:['dar carácter europeo','adaptar a Europa']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

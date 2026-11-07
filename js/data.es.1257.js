@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3413-macroestructura-texto","word":"macroestructura","image":{"id":2450,"alt":"Información y conocimiento."},"definition":"Sentido global que expresa un texto.","synonyms":["tema global del texto","sentido general del texto"],"example":{"word":"macroestructura","text":"La macroestructura resume el contenido del texto."},"exampleSynonym":{"word":"tema global del texto","text":"El tema global del texto resume su contenido."},"situacion":"conocimiento","translation":{"en":"macrostructure-2"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

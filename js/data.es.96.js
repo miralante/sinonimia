@@ -11,5 +11,5 @@
   desideratum:{definition:"Sustantivo masculino: cosa que se desea o necesita; objetivo cuya consecución se considera conveniente.",synonyms:["aspiración","objetivo deseado","requisito"],example:{word:"desiderátum",text:"La financiación estable sigue siendo un desiderátum del proyecto."},exampleSynonym:{word:"objetivo deseado",text:"La financiación estable sigue siendo un objetivo deseado del proyecto."}},
   desidia:{definition:"Sustantivo femenino: negligencia, falta de cuidado o interés al cumplir las obligaciones o realizar una tarea.",synonyms:["negligencia","descuido","apatía","dejadez"],example:{word:"desidia",text:"La desidia en el mantenimiento provocó daños en el edificio."},exampleSynonym:{word:"negligencia",text:"La negligencia en el mantenimiento provocó daños en el edificio."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

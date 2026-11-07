@@ -3,7 +3,7 @@
   ofita:{definition:'Roca ígnea intrusiva de grano fino o medio, compuesta principalmente por plagioclasa y piroxeno.',synonyms:['dolerita (en ciertos usos)','diabasa']},
   ofendiculo:{definition:'En derecho, obstáculo o defensa colocada para proteger una propiedad, que puede causar daño a quien intenta entrar indebidamente.',synonyms:['obstáculo defensivo','medio de defensa']},
   oficio:{definition:'Ocupación o actividad habitual, especialmente la que requiere habilidad manual o aprendizaje práctico; también, comunicación escrita oficial.',synonyms:['ocupación','profesión manual','comunicación oficial']},
-  oficiosamente:{definition:'De manera no oficial o sin carácter formal; también, con diligencia y solicitud.',synonyms:['extraoficialmente','con diligencia']},
+  
   offset:{definition:'Voz inglesa usada en artes gráficas para designar un procedimiento de impresión indirecta en el que la imagen pasa de una plancha a un cilindro de caucho y de este al papel.',synonyms:['impresión offset','impresión indirecta']},
   ocurrente:{definition:'Que tiene ocurrencias ingeniosas o graciosas; también, que se le ocurre una idea.',synonyms:['ingenioso','agudo','gracioso']},
   oidor:{definition:'Históricamente, juez o magistrado de las audiencias y cancillerías.',synonyms:['magistrado de audiencia','juez histórico']},

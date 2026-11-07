@@ -28,5 +28,5 @@
  engominarse:{definition:'Aplicarse gomina en el cabello.',synonyms:['peinarse con gomina','fijarse el cabello'],example:{word:'engominarse',text:'Se engominó el pelo para la ceremonia.'},exampleSynonym:{word:'peinarse con gomina',text:'Se peinó con gomina para la ceremonia.'}},
  engonzar:{definition:'Unir mediante gonces o bisagras.',synonyms:['abisagrar','articular','unir con gonces'],example:{word:'engonzar',text:'El carpintero engonzó la puerta al marco.'},exampleSynonym:{word:'abisagrar',text:'El carpintero abisagró la puerta al marco.'}},
  engorar:{definition:'Enhuerar: hacer que un huevo se vuelva huero; también, dicho de la gallina, incubar huevos que no llegan a desarrollarse.',synonyms:['enhuerar','incubar en vano'],example:{word:'engorar',text:'La gallina llegó a engorar varios huevos sin que nacieran polluelos.'},exampleSynonym:{word:'enhuerar',text:'La gallina llegó a enhuerar varios huevos sin que nacieran polluelos.'}}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();
 (()=>{const ids=new Set(['engordaderas']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

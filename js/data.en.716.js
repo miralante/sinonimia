@@ -8,5 +8,5 @@
   trust:{definition:'Noun: confidence in someone or something, or a legal arrangement for managing property for beneficiaries. Verb: to believe in someone’s reliability or to place property or responsibility in someone’s care.',synonyms:['confidence','reliance','rely on','entrust']},
   trustee:{definition:'A person or organization legally appointed to hold or manage property or assets for another person or group, including beneficiaries or creditors.',synonyms:['fiduciary','administrator','trust manager']},
   trustor:{definition:'A person who creates a trust and transfers property or assets to it.',synonyms:['settlor','grantor']},
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['truncated-2','truncated-4','truncheon-2','trunk-2','trunk-3','trunk-4','trunk-8','trunk-9','trust-2','trustee-2','trustee-3','trustee-4','trustee-5']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

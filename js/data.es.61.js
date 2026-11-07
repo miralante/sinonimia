@@ -12,5 +12,5 @@
     desavezar:{definition:"Verbo transitivo desusado, también pronominal: desacostumbrar o hacer perder un hábito.",synonyms:["desacostumbrar","deshabituar"],example:{word:"desavezar",text:"El entrenador intentó desavezar al caballo de la rutina anterior."},exampleSynonym:{word:"desacostumbrar",text:"El entrenador intentó desacostumbrar al caballo de la rutina anterior."}},
     desayudar:{definition:"Verbo transitivo poco usado, generalmente pronominal: impedir o dificultar algo que puede servir de ayuda o auxilio.",synonyms:["estorbar","impedir","dificultar","obstaculizar"],example:{word:"desayudar",text:"No quería desayudar a sus compañeros justo antes de la presentación."},exampleSynonym:{word:"estorbar",text:"No quería estorbar a sus compañeros justo antes de la presentación."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3401-allocation-process","word":"allocation","image":{"id":7024,"alt":"Illustration related to allocating resources."},"definition":"The act of assigning shares of resources for a purpose.","synonyms":["act of assigning resources","distribution of shares"],"example":{"word":"allocation","text":"The allocation of funds took several weeks."},"exampleSynonym":{"word":"act of assigning resources","text":"The act of assigning resources took several weeks."},"situacion":"conocimiento"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

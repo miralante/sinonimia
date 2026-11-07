@@ -8,4 +8,4 @@
  recycle:{definition:'To process used materials so they can be made into new products; also, to reuse or adapt something for another purpose.',synonyms:['reuse','reprocess','repurpose']},
  recycling:{definition:'The process of collecting and processing used materials so they can be made into new products; also, the reuse or adaptation of something.',synonyms:['reuse','reprocessing','repurposing']},
  red:{definition:'A color at the long-wavelength end of the visible spectrum; also, something of that color, a red cosmetic, or a political designation associated with left-wing or communist movements, depending on context.',synonyms:['scarlet','crimson','vermilion','rouge (cosmetic)']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

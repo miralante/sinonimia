@@ -6,5 +6,5 @@
   traumatizing:{definition:'Causing severe emotional distress or psychological trauma.',synonyms:['distressing','traumatic']},
   traumatologist:{definition:'A physician who specializes in the diagnosis and treatment of traumatic injuries.',synonyms:['trauma physician','trauma specialist']},
   travel:{definition:'To go from one place to another, especially over a distance; a journey or journeys from place to place; also, the movement of a part or object through space.',synonyms:['journey','trip','voyage','go from place to place']},
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['trasher','trashy-2','trasmediterranean','traspirenaic','trasunt','trature','trauma-2','trauma-3','traumatized-2','travel-2','travel-3','traveled']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

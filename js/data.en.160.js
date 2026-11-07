@@ -10,7 +10,7 @@
   orthogonium:{definition:"Historical geometry. A right-angled triangle; in some older uses, a rectangle or instrument for setting out right angles.",synonyms:["right triangle","right-angled triangle"],example:{word:"orthogonium",text:"The geometry manual called the right-angled figure an orthogonium."},exampleSynonym:{word:"right-angled triangle",text:"The geometry manual called the figure a right-angled triangle."}},
   orthography:{definition:"The conventional system for writing a language, including its spelling and the use of written symbols.",synonyms:["spelling system","writing conventions","spelling"],example:{word:"orthography",text:"The language's orthography changed when the new spelling rules were adopted."},exampleSynonym:{word:"spelling system",text:"The language's spelling system changed when the new rules were adopted."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  if(!DICCIONARIOS.en.some(e=>e.id==='orthogradism'))throw Error('Missing en/orthogradism');
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>e.id!=='orthogradism');
 })();

@@ -1,0 +1,5 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3403-alluvial-noun","word":"alluvial","image":{"id":7024,"alt":"Illustration related to river sediment."},"definition":"Australian and New Zealand: gold-bearing soil deposited by a river.","synonyms":["gold-bearing soil","gold-bearing alluvium"],"example":{"word":"alluvial","text":"Miners searched the alluvial for gold."},"exampleSynonym":{"word":"gold-bearing soil","text":"Miners searched the gold-bearing soil for gold."},"situacion":"conocimiento"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+{const x={"id":"round3403-almanac-subject","word":"almanac","image":{"id":7024,"alt":"Illustration related to a reference book."},"definition":"An annual book of facts about a particular subject.","synonyms":["annual subject guide","subject reference book"],"example":{"word":"almanac","text":"She bought a gardening almanac for the new year."},"exampleSynonym":{"word":"annual subject guide","text":"She bought an annual subject guide to gardening."},"situacion":"conocimiento"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();
+

@@ -10,7 +10,7 @@
   dirimible:{definition:"Que puede resolverse o decidirse, especialmente una disputa o cuestión.",synonyms:["resoluble","solucionable","decidible"],example:{word:"dirimible",text:"El desacuerdo era dirimible mediante una negociación."},exampleSynonym:{word:"resoluble",text:"El desacuerdo era resoluble mediante una negociación."}},
   dirimir:{definition:"Resolver o poner fin a una disputa, diferencia o litigio.",synonyms:["resolver","zanjar","decidir"],example:{word:"dirimir",text:"Las partes acudieron a un mediador para dirimir el conflicto."},exampleSynonym:{word:"resolver",text:"Las partes acudieron a un mediador para resolver el conflicto."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  if(!DICCIONARIOS.es.some(e=>e.id==='diriambino'))throw Error('Missing es/diriambino');
  DICCIONARIOS.es=DICCIONARIOS.es.filter(e=>e.id!=='diriambino');
 })();

@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3516-arrowroot-plant","word":"arrowroot","image":{"id":7024,"alt":"Una palabra del diccionario"},"definition":"A tropical plant whose roots provide starch for cooking.","synonyms":["tropical starch plant","arrowroot plant"],"example":{"word":"arrowroot","text":"Arrowroot grows in warm climates."},"exampleSynonym":{"word":"tropical starch plant","text":"The tropical starch plant grows in warm climates."},"situacion":"naturaleza"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

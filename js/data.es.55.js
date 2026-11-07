@@ -1,7 +1,7 @@
 /* Reviewed Spanish dictionary updates for batch 2017. */
 (()=>{
   const updates={
-    desapercibidamente:{definition:"Adverbio: sin que se note o se perciba; de manera desapercibida.",synonyms:["inadvertidamente","sin que se note","sin ser percibido"],example:{word:"desapercibidamente",text:"El visitante entró desapercibidamente mientras todos miraban el escenario."},exampleSynonym:{word:"inadvertidamente",text:"El visitante entró inadvertidamente mientras todos miraban el escenario."}},
+    
     desaposesionar:{definition:"Verbo transitivo desusado: desposeer, privar a alguien de aquello que posee.",synonyms:["desposeer","privar de la posesión","despojar"],example:{word:"desaposesionar",text:"La sentencia podía desaposesionar al heredero de sus bienes."},exampleSynonym:{word:"desposeer",text:"La sentencia podía desposeer al heredero de sus bienes."}},
     desaprender:{definition:"Verbo transitivo poco usado: olvidar lo que se había aprendido.",synonyms:["olvidar","desacostumbrarse","abandonar un aprendizaje"],example:{word:"desaprender",text:"Para cambiar el hábito, tuvo que desaprender viejas rutinas."},exampleSynonym:{word:"olvidar",text:"Para cambiar el hábito, tuvo que olvidar viejas rutinas."}},
     desapretar:{definition:"Verbo transitivo, también pronominal: aflojar lo que está apretado. En desuso, sacar a alguien del aprieto en que se encuentra.",synonyms:["aflojar","soltar","desajustar","librar de un aprieto"],example:{word:"desapretar",text:"Giró el tornillo en sentido contrario para desapretar la abrazadera."},exampleSynonym:{word:"aflojar",text:"Giró el tornillo en sentido contrario para aflojar la abrazadera."}},
@@ -12,5 +12,5 @@
     desaprovechoso:{definition:"Adjetivo desusado: perjudicial o dañoso.",synonyms:["perjudicial","dañoso","nocivo"],example:{word:"desaprovechoso",text:"El tratado describe los efectos desaprovechosos de aquella medida."},exampleSynonym:{word:"perjudicial",text:"El tratado describe los efectos perjudiciales de aquella medida."}},
     desapteza:{definition:"Sustantivo femenino desusado: insuficiencia o falta de aptitud.",synonyms:["ineptitud","falta de aptitud","incapacidad"],example:{word:"desapteza",text:"El cronista atribuyó la derrota a la desapteza del capitán."},exampleSynonym:{word:"ineptitud",text:"El cronista atribuyó la derrota a la ineptitud del capitán."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

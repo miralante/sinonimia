@@ -1,6 +1,6 @@
 (()=>{const ids=new Set(['etiopico','etiopio','etneo','etolo']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();
 (()=>{const u={
- eternamente:{definition:'Por toda la eternidad o durante un tiempo que parece no terminar.',synonyms:['eternalmente','perpetuamente','para siempre']},
+ 
  eternidad:{definition:'Duración sin principio ni fin; también, tiempo muy largo o cualidad de eterno.',synonyms:['perpetuidad','infinidad','tiempo interminable']},
  eternizable:{definition:'Digno de ser eternizado o conservado para siempre en la memoria.',synonyms:['memorable','perdurable','inmortalizable']},
  eternizar:{definition:'Hacer que algo perdure en la memoria o en el tiempo; prolongar indefinidamente.',synonyms:['inmortalizar','perpetuar','perennizar']},
@@ -12,7 +12,7 @@
  etilico:{definition:'Perteneciente o relativo al etilo o al alcohol etílico (etanol).',synonyms:['relativo al etanol','alcohólico']},
  etilismo:{definition:'Consumo crónico o excesivo de alcohol que causa daño o dependencia.',synonyms:['alcoholismo','dependencia del alcohol']},
  etilo:{definition:'Grupo químico monovalente C₂H₅, derivado del etano al quitarle un átomo de hidrógeno.',synonyms:['grupo etilo','C₂H₅']},
- etimologicamente:{definition:'Desde el punto de vista de la etimología o del origen histórico de una palabra.',synonyms:['según la etimología','en cuanto a su origen']},
+ 
  etimologizar:{definition:'Investigar o proponer la etimología de una palabra.',synonyms:['averiguar etimologías','buscar el origen de una palabra']},
  etimologo:{definition:'Persona especializada en etimología.',synonyms:['especialista en etimología','lingüista histórico']},
  etiqueta:{definition:'Papel o rótulo con datos de un producto; también, norma de cortesía o protocolo social.',synonyms:['rótulo','marca','protocolo','cortesía']},
@@ -30,5 +30,5 @@
  etnologia:{definition:'Disciplina que compara y estudia las culturas y sociedades humanas.',synonyms:['antropología cultural','estudio comparado de culturas']},
  etnologico:{definition:'Perteneciente o relativo a la etnología.',synonyms:['etnológico','relativo a la etnología']},
  etnologo:{definition:'Persona especializada en etnología.',synonyms:['antropólogo cultural','especialista en etnología']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();
 (()=>{DICCIONARIOS.es.push({id:'estrenuidad',word:'Estrenuidad',image:{id:2450,alt:'Information and knowledge'},definition:'Energía, fuerza y agilidad; cualidad de quien actúa con vigor y resolución.',synonyms:['vigor','energía','fuerza','agilidad'],example:{word:'estrenuidad',text:'La estrenuidad de la atleta le permitió completar la carrera.'},exampleSynonym:{word:'vigor',text:'El vigor de la atleta le permitió completar la carrera.'},situacion:'conocimiento'});})();

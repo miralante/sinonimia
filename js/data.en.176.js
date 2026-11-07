@@ -7,7 +7,7 @@
   overbuild:{definition:"To build more than is needed or can be used; to build excessively, or to construct one structure over another.",synonyms:["build excessively","overdevelop","build over"],example:{word:"overbuild",text:"The developer was warned not to overbuild the coastal site."},exampleSynonym:{word:"overdevelop",text:"The developer was warned not to overdevelop the coastal site."}},
   overcast:{definition:"Adjective: covered with clouds and therefore not bright or sunny. Verb: to cover the sky with clouds, or to stitch over a fabric edge to prevent fraying.",synonyms:["cloudy","sunless","cover with clouds","overcast stitch"],example:{word:"overcast",text:"Thick clouds overcast the sky before the rain began."},exampleSynonym:{word:"cloudy",text:"The sky was cloudy before the rain began."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  for(const id of ['overbooking-2','overboard-3','overbone','overcane'])if(!DICCIONARIOS.en.some(e=>e.id===id))throw Error('Missing en/'+id);
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!['overbooking-2','overboard-3','overbone','overcane'].includes(e.id));
 })();

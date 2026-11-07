@@ -6,5 +6,5 @@
   ulcerative:{definition:'Causing or characterized by the formation of ulcers.',synonyms:['ulcer-forming','ulcerous']},
   ulnar:{definition:'Relating to the ulna, the forearm bone on the side opposite the thumb.',synonyms:['of the ulna','ulna-related']},
   ultra:{definition:'Extremely radical or uncompromising; also, a person who holds extreme views, especially in politics or sport.',synonyms:['extremist','radical','hard-liner']},
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['ugliness-2','ugly-2','ugly-3','ugly-4','ulcer-2','ukrainian-2','ultralight-2','ultramarine-2','ultraports']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

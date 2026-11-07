@@ -31,4 +31,4 @@
  estimabilidad:{definition:'Cualidad de estimable o digno de aprecio.',synonyms:['valor','mérito','dignidad de aprecio']},
  estimable:{definition:'Digno de estima o aprecio.',synonyms:['apreciable','valioso','meritorio']},
  estimador:{definition:'Persona que calcula o estima un valor; en estadística, regla o función usada para estimar un parámetro desconocido.',synonyms:['calculador','estimación estadística','función estimadora']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

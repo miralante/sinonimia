@@ -11,5 +11,5 @@
   desenmudecer:{definition:"Verbo intransitivo: liberarse del impedimento natural que impedía hablar; también, romper un silencio prolongado. Se usa asimismo como transitivo.",synonyms:["empezar a hablar","romper el silencio","hablar","soltarse"],example:{word:"desenmudecer",text:"Tras varios minutos de silencio, el testigo consiguió desenmudecer."},exampleSynonym:{word:"romper el silencio",text:"Tras varios minutos de silencio, el testigo consiguió romper el silencio."}},
   desenraizar:{definition:"Verbo transitivo usado en México: desarraigar o arrancar de raíz.",synonyms:["desarraigar","arrancar de raíz","extirpar","erradicar","descepar"],example:{word:"desenraizar",text:"Para despejar el terreno, tuvieron que desenraizar los arbustos."},exampleSynonym:{word:"desarraigar",text:"Para despejar el terreno, tuvieron que desarraigar los arbustos."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

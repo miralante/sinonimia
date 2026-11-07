@@ -10,7 +10,7 @@
   mudable:{definition:'Que cambia o muda con facilidad; inconstante.',synonyms:['variable','cambiante','inconstante']},
   mudada:{definition:'En varios países americanos y en Andalucía, mudanza de casa; en Centroamérica y Bolivia, traje o conjunto de ropa; también, cambio de ropa o, en El Salvador, muda de piel de las serpientes.',synonyms:['mudanza','cambio de ropa','atuendo','muda de piel']},
   mudadizo:{definition:'Que cambia o muda con facilidad; inconstante.',synonyms:['mudable','variable','inconstante']},
-  mudamente:{definition:'Sin hablar o sin emitir sonido.',synonyms:['en silencio','calladamente','sin palabras']},
+  
   mudanza:{definition:'Acción de trasladar muebles y pertenencias a otra vivienda; también, cambio o transformación de estado, lugar o apariencia.',synonyms:['traslado de vivienda','cambio','transformación','variación']},
   mudar:{definition:'Cambiar o hacer que algo cambie de estado, aspecto o lugar; también, reemplazar periódicamente pelo, piel, plumas o dientes.',synonyms:['cambiar','transformar','trasladar','renovar']},
   mudejarismo:{definition:'Estilo artístico y arquitectónico característico de los mudéjares, que combina elementos cristianos e hispanomusulmanes.',synonyms:['estilo mudéjar','arte mudéjar']},
@@ -22,6 +22,6 @@
   mueca:{definition:'Gesto del rostro, por lo común expresivo, burlesco o de desagrado.',synonyms:['gesto','visaje','carantoña']},
   muecin:{definition:'Variante de «almuecín»: persona que desde el alminar convoca a los musulmanes a la oración.',synonyms:['almuecín','almuédano','muecín']},
   muelar:{definition:'Dicho de un terreno: sembrado de muelas o almortas.',synonyms:['sembrado de almortas','tierra de muelas']},
-  muellemente:{definition:'Con blandura, delicadeza o suavidad.',synonyms:['blandamente','suavemente','delicadamente']},
+  
   muenda:{definition:'Coloquialmente, serie de golpes o azotes dados a una persona o un animal.',synonyms:['paliza','tunda','azotaina']}
 };for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}})();

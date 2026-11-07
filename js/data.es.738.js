@@ -3,7 +3,7 @@
   mortajar:{definition:'Amortajar: envolver o vestir a una persona difunta con la mortaja.',synonyms:['amortajar','envolver en una mortaja']},
   mortaldad:{definition:'Forma antigua de «mortandad»: gran cantidad de muertes, especialmente por una causa común.',synonyms:['mortandad','mortalidad elevada']},
   mortalidad:{synonyms:['número de defunciones','tasa de mortalidad','frecuencia de muertes en una población']},
-  mortalmente:{definition:'De manera mortal o capaz de causar la muerte; también, de forma muy grave, como en «herido mortalmente».',synonyms:['de muerte','fatalmente','de manera letal']},
+  
   mortandad:{definition:'Gran cantidad de muertes, especialmente las causadas por una epidemia, una catástrofe u otro mismo suceso.',synonyms:['gran número de muertes','hecatombe','mortalidad']},
   mortecino:{definition:'Que está casi muerto o se extingue; dicho de una luz o un color, apagado y sin viveza.',synonyms:['moribundo','apagado','mortecino']},
   mortera:{definition:'Recipiente, generalmente de madera y parecido a un cuenco, que sirve para beber o comer; en Canarias también puede usarse como mortero.',synonyms:['cuenco','escudilla','mortero de madera']},

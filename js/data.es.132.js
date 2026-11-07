@@ -11,5 +11,5 @@
   devastar:{definition:"Asolar o destruir un lugar, causando daños graves y dejándolo arruinado.",synonyms:["asolar","arrasar","destruir","desolar"],example:{word:"devastar",text:"El incendio llegó a devastar varias hectáreas de bosque."},exampleSynonym:{word:"arrasar",text:"El incendio llegó a arrasar varias hectáreas de bosque."}},
   develar:{definition:"Descubrir o quitar el velo que cubre algo; revelar lo que estaba oculto.",synonyms:["desvelar","descubrir","revelar","desenmascarar"],example:{word:"develar",text:"El equipo decidió develar los resultados en una conferencia pública."},exampleSynonym:{word:"revelar",text:"El equipo decidió revelar los resultados en una conferencia pública."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

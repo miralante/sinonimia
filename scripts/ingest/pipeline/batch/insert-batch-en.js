@@ -60,12 +60,29 @@ function formatContinuation(entries, number) {
     process.exit(1);
   }
 
+  if (batch.length === 0) {
+    console.log("No new entries; source shard unchanged.");
+    return;
+  }
+
   const paths = shardPaths();
   if (!paths.length) throw new Error("No existe js/data.en.js");
   const lastPath = paths[paths.length - 1];
   const src = fs.readFileSync(lastPath, "utf8");
   const formatted = batch.map(formatEntry).join("\n");
   const isContinuation = /\.concat\(\[/.test(src);
+  const hasConcatArray = /DICCIONARIOS\.en\s*=\s*DICCIONARIOS\.en\.concat\(\s*\[/.test(src);
+  if (!hasConcatArray) {
+    const newSrc = src.trimEnd() +
+      "\nDICCIONARIOS.en = DICCIONARIOS.en.concat([\n" + formatted + "\n]);\n";
+    if (Buffer.byteLength(newSrc, "utf8") > MAX_SHARD_BYTES) {
+      throw new Error(`El batch supera el límite del shard EN ${lastPath}`);
+    }
+    fs.writeFileSync(lastPath, newSrc);
+    console.log("Insertadas:", batch.length, "nuevas entradas en", lastPath);
+    console.log("Tamaño:", Buffer.byteLength(src, "utf8"), "->", Buffer.byteLength(newSrc, "utf8"));
+    return;
+  }
   const closingMarker = isContinuation ? "]);" : "];";
   const closingIdx = src.lastIndexOf(closingMarker);
   if (closingIdx < 0) throw new Error(`No se encontró el cierre del shard ${lastPath}`);

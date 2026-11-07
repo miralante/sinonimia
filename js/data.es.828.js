@@ -1,0 +1,1 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)return;const ids=new Set(['guayabita','guayabito','guayabon','guayabudo','guayaca','guayaco','guayacol','guayadero','guayar','guayola','guayuco']);d.splice(0,d.length,...d.filter(x=>!ids.has(x.id)));})();

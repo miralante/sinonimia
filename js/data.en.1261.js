@@ -1,0 +1,4 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3404-almighty-intensifier","word":"almighty","image":{"id":7024,"alt":"A dictionary word."},"definition":"Informal: very great or extreme in degree.","synonyms":["enormous","tremendous"],"example":{"word":"almighty","text":"We heard an almighty crash downstairs."},"exampleSynonym":{"word":"enormous","text":"We heard an enormous crash downstairs."},"situacion":"vida-diaria"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+{const x={"id":"round3404-almighty-deity","word":"the Almighty","image":{"id":7024,"alt":"A dictionary word."},"definition":"A title used for God.","synonyms":["God","the Lord"],"example":{"word":"the Almighty","text":"She prayed to the Almighty."},"exampleSynonym":{"word":"God","text":"She prayed to God."},"situacion":"vida-diaria"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

@@ -1,7 +1,7 @@
 (()=>{
  const updates={
   despicar:{definition:"Satisfacer o desahogar un deseo o una necesidad; como verbo pronominal, vengarse de un agravio. También significa recortar la punta del pico de un ave.",synonyms:["satisfacer","desahogar","vengarse","recortar el pico"],example:{word:"despicar",text:"El gallo fue al veterinario para despicarlo y evitar que hiriera a otras aves."},exampleSynonym:{word:"recortar el pico",text:"El veterinario tuvo que recortar el pico del gallo para evitar que hiriera a otras aves."}},
-  despiertamente:{definition:"Con ingenio y viveza; es un adverbio antiguo y hoy poco usado.",synonyms:["con ingenio","con viveza","agudamente"],example:{word:"despiertamente",text:"La joven respondió despiertamente a las preguntas del jurado."},exampleSynonym:{word:"con ingenio",text:"La joven respondió con ingenio a las preguntas del jurado."}},
+  
   despilfarrador:{definition:"Que gasta el dinero o los bienes sin cuidado ni medida; también se usa como sustantivo.",synonyms:["derrochador","malgastador","pródigo"],example:{word:"despilfarrador",text:"El protagonista despilfarrador gastó sus ahorros en compras innecesarias."},exampleSynonym:{word:"derrochador",text:"El protagonista derrochador gastó sus ahorros en compras innecesarias."}},
   despilfarrar:{definition:"Gastar dinero u otros bienes en grandes cantidades y sin obtener algo verdaderamente útil.",synonyms:["derrochar","malgastar","dilapidar"],example:{word:"despilfarrar",text:"No quería despilfarrar el agua mientras arreglaban la tubería."},exampleSynonym:{word:"malgastar",text:"No quería malgastar el agua mientras arreglaban la tubería."}},
   despintar:{definition:"Quitar la pintura o el color de una superficie que estaba pintada o teñida.",synonyms:["quitar la pintura","decolorar","descolorar"],example:{word:"despintar",text:"Usaron un producto especial para despintar la puerta vieja."},exampleSynonym:{word:"quitar la pintura",text:"Usaron un producto especial para quitar la pintura de la puerta vieja."}},
@@ -11,5 +11,5 @@
   despiporre:{definition:"Desorden o desbarajuste, a menudo en un contexto festivo; se usa de manera coloquial.",synonyms:["desbarajuste","desorden","despiole"],example:{word:"despiporre",text:"La fiesta terminó en un despiporre cuando todos se pusieron a bailar."},exampleSynonym:{word:"desbarajuste",text:"La fiesta terminó en un desbarajuste cuando todos se pusieron a bailar."}},
   despistada:{definition:"En Cuba, El Salvador y México, despiste o distracción.",synonyms:["despiste","destanteada","distracción"],example:{word:"despistada",text:"Por una despistada, dejó las llaves dentro de casa."},exampleSynonym:{word:"despiste",text:"Por un despiste, dejó las llaves dentro de casa."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

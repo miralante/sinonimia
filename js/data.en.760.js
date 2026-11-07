@@ -1,5 +1,5 @@
 (()=>{const u={
-weightily:{definition:'In a serious, forceful, or important manner; also, with considerable weight.',synonyms:['gravely','heavily','importantly']},
+
 weightiness:{definition:'The quality of being heavy, substantial, or important.',synonyms:['heaviness','substantiality','importance']},
 weighting:{definition:'Assignment of relative importance or numerical weights to items or criteria.',synonyms:['weight assignment','relative importance']},
 weightlifter:{definition:'An athlete who competes in weightlifting.',synonyms:['weightlifting athlete','lifter']},'weigh-yourself':{definition:'To measure your own body weight, usually on a scale.',synonyms:['check your weight']},
@@ -43,11 +43,11 @@ wicking:{definition:'Movement of liquid through a material by capillary action; 
 width:{synonyms:['breadth','measurement across','span']},'width-3':{definition:'The measurement of an object from side to side; its breadth, often distinguished from its length.',synonyms:['breadth','width']},'width-4':{definition:'Wider than usual or than necessary.',synonyms:['broad','wide']},
 wigeon:{synonyms:['widgeon','dabbling duck']},
 wild:{synonyms:['untamed','uncultivated','unrestrained']},'wild-2':{definition:'Rural or rustic; characteristic of the countryside.',synonyms:['rural','rustic']},
-wildly:{synonyms:['frantically','unrestrainedly','extremely']},
+
 wildness:{definition:'The state of being wild, untamed, or uncultivated; also, unruly behavior.',synonyms:['untamed nature','wilderness','unruliness']},'wild-pear':{definition:'A wild pear tree, especially Pyrus pyraster, or its fruit.',synonyms:['Pyrus pyraster','wild pear tree']},
 will:{synonyms:['testament','last will','bequest document']},'will-2':{definition:'A written legal declaration of how a person wants their property and affairs handled after death.',synonyms:['testament','last will']},
 willing:{definition:'Ready, prepared, or consenting to do something; done voluntarily.',synonyms:['ready','eager','consenting']},
-willingly:{definition:'With willingness or consent; voluntarily.',synonyms:['voluntarily','readily','freely']},
+
 wince:{synonyms:['flinch','grimace','recoil']},'wind-2':{synonyms:['moving air','breeze','air current']},'wind-4':{definition:'Coming from or carried by the wind.',synonyms:['wind-borne','windblown']},'wind-5':{definition:'Breath or the act of breathing; also, to cause someone to lose breath.',synonyms:['breath','respiration']},'wind-6':{definition:'To expel gas from the digestive tract; also, gas so expelled.',synonyms:['pass gas','fart (informal)']},
 windbreaker:{definition:'A lightweight jacket or barrier designed to protect against wind.',synonyms:['windcheater','wind jacket']},
 winder:{definition:'A machine or frame used to wind thread, yarn, or similar material onto a spool.',synonyms:['winding machine','spooler']},
@@ -66,7 +66,7 @@ winnable:{synonyms:['attainable','achievable']},'wintering-3':{definition:'The a
 wiring:{definition:'A system of electrical wires installed in a building or device; also, the act of installing wires.',synonyms:['electrical wiring','cabling']},
 wisdom:{synonyms:['good judgment','sagacity','discernment']},
 wiseguy:{definition:'A person who makes clever, sarcastic, or insolent remarks; informal.',synonyms:['smart aleck','wise guy']},
-wisely:{synonyms:['prudently','judiciously','sensibly']},
+
 wishbone:{definition:'The forked bone between a bird’s neck and breast, traditionally pulled apart for good luck.',synonyms:['furcula','forked bone']},
 witch:{definition:'A person traditionally imagined as practicing magic; also, a derogatory term for a woman.',synonyms:['spellcaster','sorceress']},'witch-2':{definition:'A man believed to possess or practice magical powers; a wizard or sorcerer.',synonyms:['wizard','sorcerer','warlock']},
 withhold:{synonyms:['hold back','retain','refuse to give']},
@@ -114,7 +114,7 @@ zoroastrianism:{synonyms:['Zoroastrian religion','Mazdayasna']},
 zucchini:{definition:'A summer squash with an elongated edible fruit; also, the plant that bears it.',synonyms:['courgette (British English)','summer squash']},
 zonda:{synonyms:['Argentine föhn wind','foehn wind']},
 zyrconium:{synonyms:['element 40','Zr']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();
 
 
 

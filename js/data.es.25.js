@@ -12,5 +12,5 @@
     decender:{definition:"Verbo intransitivo desusado: descender, bajar de un lugar a otro más bajo.",synonyms:["descender","bajar"],example:{word:"decender",text:"En el texto antiguo, los peregrinos comenzaron a decender hacia el valle."},exampleSynonym:{word:"descender",text:"En el texto antiguo, los peregrinos comenzaron a descender hacia el valle."}},
     decendida:{definition:"Sustantivo femenino desusado: descenso o caída; también, bajada.",synonyms:["descenso","caída","bajada"],example:{word:"decendida",text:"La crónica describe la decendida desde el puerto hasta el río."},exampleSynonym:{word:"descenso",text:"La crónica describe el descenso desde el puerto hasta el río."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

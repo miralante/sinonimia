@@ -47,7 +47,7 @@
   mesturar:{synonyms:['mezclar','combinar','juntar']},
   mesturero:{synonyms:['chismoso','cizañero','indiscreto']},
   mesura:{synonyms:['compostura','moderación','gravedad']},
-  mesuradamente:{synonyms:['con moderación','comedidamente','con mesura']},
+  
   mesurar:{synonyms:['medir','determinar la magnitud','cuantificar']},
   metabolico:{definition:'Perteneciente o relativo al metabolismo.',synonyms:['metabólico','relativo al metabolismo']},
   mesenterico:{synonyms:['relativo al mesenterio']},
@@ -56,12 +56,12 @@
   metad:{definition:'Mitad; forma antigua.',synonyms:['mitad (forma antigua)']},
   metadatos:{synonyms:['datos descriptivos','información sobre un recurso','datos sobre datos']},
   metafisica:{synonyms:['filosofía primera','estudio del ser y sus principios']},
-  metafisicamente:{synonyms:['en sentido metafísico','desde la metafísica']},
+  
   metafisico:{synonyms:['relativo a la metafísica','abstracto (según contexto)']},
   metafito:{definition:'Planta pluricelular; término biológico de uso técnico.',synonyms:['metáfito','planta multicelular']},
   metafonia:{definition:'Cambio de una vocal de la raíz de una palabra por influencia de otra vocal, normalmente próxima; fenómeno conocido también como metafonía.',synonyms:['metafonía','alternancia vocálica']},
   metafora:{synonyms:['imagen retórica','traslación de sentido','figura retórica']},
-  metaforicamente:{synonyms:['figuradamente','por metáfora','en sentido metafórico']},
+  
   metaforico:{synonyms:['figurado','relativo a la metáfora']},
   metaforizar:{synonyms:['usar metáforas','expresar metafóricamente']},
   metagoge:{definition:'Figura retórica que atribuye a seres inanimados o abstractos sensaciones, cualidades o acciones propias de seres animados.',synonyms:['figura retórica','personificación (parcialmente relacionada)']},
@@ -115,11 +115,11 @@
   metilico:{definition:'Perteneciente o relativo al metilo.',synonyms:['relativo al grupo metilo']},
   metilo:{synonyms:['grupo metilo','CH₃–']},
   metlapil:{definition:'Piedra alargada que se usa con el metate para moler alimentos.',synonyms:['mano de metate','piedra de moler']},
-  metodicamente:{synonyms:['con método','ordenadamente','sistemáticamente']},
+  
   metodico:{synonyms:['ordenado','sistemático','metódico']},
   metodizar:{synonyms:['ordenar','sistematizar','organizar']},
   metodologia:{synonyms:['estudio de métodos','sistema de procedimientos']},
-  metodologicamente:{synonyms:['de manera sistemática','con método']},
+  
   metodologico:{synonyms:['relativo a la metodología','metodológico']},
   metomentodo:{synonyms:['entrometido','metiche','metepatas']},
   metonimia:{definition:'Figura retórica que designa una cosa con el nombre de otra relacionada por proximidad, como la causa por el efecto o el autor por su obra.',synonyms:['figura retórica','designación por contigüidad']},
@@ -133,14 +133,14 @@
   mezcaleria:{definition:'En Honduras y México, establecimiento donde se produce o vende mezcal.',synonyms:['fábrica de mezcal','tienda de mezcal']},
   mezcalero:{synonyms:['relativo al mezcal','productor de mezcal']},
   mezclable:{synonyms:['que puede mezclarse','miscible (líquidos)']},
-  mezcladamente:{synonyms:['con mezcla','de manera combinada']},
+  
   mezclado:{definition:'Que está formado por elementos de distinta naturaleza o que se han combinado.',synonyms:['combinado','heterogéneo','mixto']},
   mezclador:{synonyms:['persona que mezcla','dispositivo mezclador']},
   mezcladora:{definition:'Máquina o dispositivo para mezclar materiales; en construcción, hormigonera.',synonyms:['hormigonera','batidora (según el uso)']},
   mezcladura:{synonyms:['mezcla','acción de mezclar','combinación']},
   mezclilla:{definition:'Tejido de algodón resistente, generalmente de sarga, usado para confeccionar pantalones vaqueros y otras prendas.',synonyms:['denim','tela vaquera','mezclilla']},
   meznada:{definition:'Variante antigua de «mesnada»: compañía de gente de armas al servicio de un señor.',synonyms:['mesnada','compañía de armas']},
-  mezquinamente:{synonyms:['miserablemente','con mezquindad','de manera avara']},
+  
   mezquinar:{synonyms:['escatimar','regatear','dar con mezquindad']},
   mezquindad:{synonyms:['tacañería','avaricia','miseria']},
   mezquino:{synonyms:['escaso','pobre','tacaño','miserable']},

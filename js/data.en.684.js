@@ -7,5 +7,5 @@
   torques:{definition:'A rigid, usually metal neck ring worn as an ornament, especially in ancient Celtic cultures.',synonyms:['torc','neck ring']},
   torque:{definition:'A twisting or turning force that tends to rotate an object around an axis; also, a rigid neck ring worn as an ornament.',synonyms:['moment of force','turning force','torc']},
   torrential:{definition:'Falling, flowing, or occurring with great force and abundance, especially of rain or a stream.',synonyms:['heavy','pouring','torrential rainfall']},
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['torn','torn-2','tornachile','tornawedding','torn-mouth','torpedness','torpedo-2','torpedo-3','torrent-2','torrija']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

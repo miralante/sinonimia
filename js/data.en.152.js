@@ -8,7 +8,7 @@
   'organ-system':{definition:"A group of organs that work together to carry out one or more functions in an organism.",synonyms:["body system","system of organs"],example:{word:"organ system",text:"The digestive system is an organ system that processes food."},exampleSynonym:{word:"body system",text:"The digestive system is a body system that processes food."}},
   organdy:{definition:"A fine, sheer, stiff cotton fabric, usually white or dyed in pale colors.",synonyms:["organdie","sheer cotton fabric"],example:{word:"organdy",text:"The dress was made of crisp white organdy."},exampleSynonym:{word:"organdie",text:"The dress was made of crisp white organdie."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  for(const id of ['oreos','organ-2','organ-rack']){if(!DICCIONARIOS.en.some(e=>e.id===id))throw Error('Missing en/'+id);}
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!['oreos','organ-2','organ-rack'].includes(e.id));
 })();

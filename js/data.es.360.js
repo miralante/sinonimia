@@ -25,5 +25,5 @@
  enlaciar:{definition:'Poner lacia o floja una cosa; hacer que pierda firmeza.',synonyms:['aflojar','debilitar','decaer'],example:{word:'enlaciar',text:'El calor llegó a enlaciar las flores.'},exampleSynonym:{word:'aflojar',text:'El calor llegó a aflojar los tallos de las flores.'}},
  enladrillador:{definition:'Persona que coloca ladrillos como pavimento; solador.',synonyms:['solador','colocador de ladrillos','enladrillador de suelos'],example:{word:'enladrillador',text:'El enladrillador reparó el suelo del patio.'},exampleSynonym:{word:'solador',text:'El solador reparó el suelo del patio.'}},
  enladrilladura:{definition:'Pavimento o superficie revestida de ladrillos.',synonyms:['enladrillado','pavimento de ladrillo'],example:{word:'enladrilladura',text:'La enladrilladura del corredor estaba desgastada.'},exampleSynonym:{word:'pavimento de ladrillo',text:'El pavimento de ladrillo del corredor estaba desgastado.'}}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();
 (()=>{const ids=new Set(['enjullo']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

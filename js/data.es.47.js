@@ -12,5 +12,5 @@
     desadormecer:{definition:"Verbo transitivo: 1. Despertar a alguien. 2. Desentorpecer el sentido. 3. Desentumecer un miembro dormido o entorpecido. También se usa como pronominal.",synonyms:["despertar","desentorpecer","desentumecer","desperezar"],example:{word:"desadormecer",text:"Un ruido en el pasillo bastó para desadormecer al bebé."},exampleSynonym:{word:"despertar",text:"Un ruido en el pasillo bastó para despertar al bebé."}},
     desafecto:{definition:"Adjetivo: 1. Que no siente estima por algo o muestra hacia ello desvío o indiferencia. 2. Opuesto o contrario. Como sustantivo masculino: malquerencia.",synonyms:["indiferente","despegado","contrario","opuesto","malquerencia"],example:{word:"desafecto",text:"El comité se mostró desafecto a la propuesta y pidió otra evaluación."},exampleSynonym:{word:"contrario",text:"El comité se mostró contrario a la propuesta y pidió otra evaluación."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

@@ -6,7 +6,7 @@
     genital:{definition:"Adjective: of, relating to, or being a sexual or reproductive organ; also, in psychoanalytic theory, relating to the genital stage of psychosexual development.",synonyms:["reproductive","sexual (anatomical)"],example:{word:"genital",text:"The doctor explained how a genital infection can be treated."},exampleSynonym:{word:"reproductive",text:"The doctor explained how a reproductive infection can be treated."}},
     genitalia:{definition:"Plural noun: the organs of the reproductive system, especially the external genital organs.",synonyms:["genitals","reproductive organs"],example:{word:"genitalia",text:"The medical diagram labels the external genitalia."},exampleSynonym:{word:"genitals",text:"The medical diagram labels the external genitals."}}
   };
-  const reviewed=['generally','generate','generosity','generous','genetic','geniality','genital','genitalia','gentile','gentleness'];
+  const reviewed=["generate","generosity","genetic","geniality","genital","genitalia","gentile","gentleness"];
   for(const id of reviewed){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}
   for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,fields);}
 })();

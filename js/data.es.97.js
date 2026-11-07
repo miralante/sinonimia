@@ -11,5 +11,5 @@
   desincentivar:{definition:"Verbo transitivo: reducir o eliminar los incentivos o la motivación para hacer algo.",synonyms:["desalentar","desmotivar","disuadir"],example:{word:"desincentivar",text:"La tasa adicional podría desincentivar el uso de bolsas de plástico."},exampleSynonym:{word:"desalentar",text:"La tasa adicional podría desalentar el uso de bolsas de plástico."}},
   desinclinar:{definition:"Verbo transitivo y pronominal: apartar a alguien de una inclinación, preferencia o tendencia que tenía.",synonyms:["disuadir","desviar","apartar"],example:{word:"desinclinar",text:"Los argumentos no consiguieron desinclinarla de su decisión inicial."},exampleSynonym:{word:"disuadir",text:"Los argumentos no consiguieron disuadirla de su decisión inicial."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

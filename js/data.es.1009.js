@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+if(!d.some(q=>q.id==="round3121-inexorable-inevitable"))d.push({"id":"round3121-inexorable-inevitable","word":"inexorable","image":{"id":7024,"alt":"The tide continues to rise and cannot be stopped."},"definition":"Certain to happen and impossible to prevent.","synonyms":["inevitable","unavoidable","inexorable"],"example":{"word":"inexorable","text":"The inexorable rise of the tide covered the path."},"exampleSynonym":{"word":"inevitable","text":"The inevitable rise of the tide covered the path."},"situacion":"naturaleza"});
+})();

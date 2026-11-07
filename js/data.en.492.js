@@ -16,4 +16,4 @@
  quick:{definition:'Adjective: moving, acting, or happening with speed; mentally agile; or responsive and sensitive. Adverb: quickly. Noun, chiefly in “the quick”: living flesh, especially under the nails.',synonyms:['rapid','swift','fast','prompt','living flesh']},
  'quick-4':{definition:'Done or occurring rapidly, forcefully, or hastily.',synonyms:['rapid','swift','hasty']},
  'quick-and-sharp-movement':{definition:'A movement made rapidly and abruptly.',synonyms:['swift movement','sudden movement','sharp motion']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

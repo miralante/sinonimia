@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3424-magnetismo-personal","word":"magnetismo","image":{"id":7024,"alt":"Una artista atrae la atención del público."},"definition":"Atractivo o encanto que hace destacar a una persona.","synonyms":["encanto personal","atractivo personal"],"example":{"word":"magnetismo","text":"La artista tenía un magnetismo que cautivaba al público."},"exampleSynonym":{"word":"encanto personal","text":"La artista tenía un encanto personal que cautivaba al público."},"situacion":"vida-diaria","translation":{"en":"personal charm; attraction"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

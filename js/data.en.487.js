@@ -16,4 +16,4 @@
  pyrogallol:{definition:'A colorless crystalline compound, also called pyrogallic acid, used as a reducing agent and in chemical analysis.',synonyms:['pyrogallic acid','benzene-1,2,3-triol']},
  pyrotechnic:{definition:'Of or relating to fireworks or the art of making them; also, a person skilled in making fireworks.',synonyms:['firework-related','firework maker']},
  pyrotechnics:{definition:'The art, craft, or science of making and using fireworks; also, a fireworks display.',synonyms:['firework making','fireworks display']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

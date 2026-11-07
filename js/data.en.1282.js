@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3428-anachronism-outdated","word":"anachronism","image":{"id":7024,"alt":"An old-fashioned object or rule seems out of place today."},"definition":"Something old-fashioned that no longer fits modern life.","synonyms":["outdated custom","relic of the past"],"example":{"word":"anachronism","text":"Some people call the old rule an anachronism."},"exampleSynonym":{"word":"outdated custom","text":"Some people call the old rule an outdated custom."},"situacion":"daily-life","translation":{"es":"anacronismo; costumbre anticuada"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

@@ -1,0 +1,5 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)return;const set=(id,f)=>{const x=d.find(q=>q.id===id);if(!x)throw Error('missing es '+id);Object.assign(x,f)};
+set('hexadecimal',{definition:'Que usa números y letras para escribir cantidades. Usa números del 0 al 9 y letras A a F.',synonyms:['con números y letras'],example:{word:'hexadecimal',text:'El número está escrito en forma hexadecimal.'},exampleSynonym:{word:'con números y letras',text:'El número está escrito en una forma con números y letras.'},situacion:'tecnologia'});
+set('hexaedro',{definition:'Figura sólida con seis caras planas.',synonyms:['sólido de seis caras'],example:{word:'hexaedro',text:'La figura del juego es un hexaedro.'},exampleSynonym:{word:'sólido de seis caras',text:'La figura del juego es un sólido de seis caras.'},situacion:'educacion'});
+set('hexagono',{definition:'Figura plana que tiene seis lados.',synonyms:['figura de seis lados'],example:{word:'hexágono',text:'El dibujo muestra un hexágono.'},exampleSynonym:{word:'figura de seis lados',text:'El dibujo muestra una figura de seis lados.'},situacion:'educacion'});
+})();

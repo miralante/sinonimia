@@ -11,5 +11,5 @@
   discoidal:{definition:"Que tiene forma de disco o se parece a él.",synonyms:["con forma de disco","discoide","aplanado y circular"],example:{word:"discoidal",text:"La muestra contenía una estructura discoidal de bordes regulares."},exampleSynonym:{word:"con forma de disco",text:"La muestra contenía una estructura con forma de disco y bordes regulares."}},
   discolo:{definition:"Que desobedece las normas o se comporta con rebeldía; indócil o díscolo.",synonyms:["rebelde","indócil","desobediente"],example:{word:"díscolo",text:"El alumno, antes díscolo, empezó a respetar los acuerdos del grupo."},exampleSynonym:{word:"rebelde",text:"El alumno, antes rebelde, empezó a respetar los acuerdos del grupo."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

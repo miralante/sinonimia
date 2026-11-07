@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+if(!d.some(q=>q.id==="round3081-inalambrico-telefono"))d.push({"id":"round3081-inalambrico-telefono","word":"Inalámbrico","image":{"id":7024,"alt":"Un teléfono portátil sin cable está sobre una mesa."},"definition":"Teléfono portátil que se conecta a una base sin usar cable.","synonyms":["teléfono sin cable","teléfono portátil"],"example":{"word":"inalámbrico","text":"Dejé el inalámbrico junto a la base."},"exampleSynonym":{"word":"teléfono sin cable","text":"Dejé el teléfono sin cable junto a la base."},"situacion":"tecnologia"});
+})();

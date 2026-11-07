@@ -10,4 +10,4 @@
  escobino:{synonyms:['brusco','áspero de trato','rudo'],example:{word:'escobino',text:'En el habla cántabra, llamaron escobino al hombre de trato brusco.'},exampleSynonym:{word:'brusco',text:'En el habla cántabra, llamaron brusco al hombre de trato áspero.'}},
  escobio:{definition:'Escoba o cepillo de limpieza provisto de un mango y una cabeza con cerdas.',synonyms:['cepillo','escobilla','utensilio de limpieza']},
  escobillon:{definition:'Escoba o cepillo de mango largo, usado para barrer suelos o limpiar chimeneas.',synonyms:['escoba de mango largo','cepillo largo','deshollinador (herramienta)']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

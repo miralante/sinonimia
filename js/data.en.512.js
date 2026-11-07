@@ -11,4 +11,4 @@
  'razor-4':{definition:'An electric device used for shaving hair.',synonyms:['electric razor','electric shaver']},
  reachable:{definition:'Able to be reached, contacted, attained, or obtained.',synonyms:['accessible','attainable','obtainable']},
  reacher:{definition:'A person or device that reaches, especially a tool used to grasp objects beyond arm’s length.',synonyms:['reaching tool','grabber','extender']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

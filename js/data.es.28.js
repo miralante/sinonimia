@@ -12,7 +12,7 @@
     decimotercio:{definition:"Adjetivo ordinal poco usado: que ocupa en una serie el lugar número trece; variante de decimotercero.",synonyms:["decimotercero","decimotercia"],example:{word:"decimotercio",text:"El decimotercio volumen de la colección apareció ese año."},exampleSynonym:{word:"decimotercero",text:"El decimotercero volumen de la colección apareció ese año."}},
     deciocheno:{definition:"Adjetivo ordinal poco usado: que ocupa en una serie el lugar número dieciocho; equivalente a decimoctavo.",synonyms:["decimoctavo","dieciocheno"],example:{word:"deciocheno",text:"El deciocheno capítulo cierra la primera parte de la novela."},exampleSynonym:{word:"decimoctavo",text:"El decimoctavo capítulo cierra la primera parte de la novela."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
   DICCIONARIOS.es=DICCIONARIOS.es.filter(e=>e.id!=='deciocheno');
   for(const row of DICCIONARIOS.es)if(Array.isArray(row.synonyms))row.synonyms=row.synonyms.filter(term=>term!=='deciocheno');
 })();

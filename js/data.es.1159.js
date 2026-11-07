@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+{const x={"id":"round3309-lasana-sheet","word":"lasaña","image":{"id":7024,"alt":"Illustration related to lasaña."},"definition":"Cada una de las láminas de pasta usadas para hacer lasaña.","synonyms":["lámina de pasta","placa de pasta"],"example":{"word":"lasaña","text":"Colocó una lasaña sobre la otra antes de añadir el relleno."},"exampleSynonym":{"word":"lámina de pasta","text":"Colocó una lámina de pasta sobre la otra antes de añadir el relleno."},"situacion":"vida-diaria"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

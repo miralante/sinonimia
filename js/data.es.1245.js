@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3400-lupus-specific","word":"lupus","image":{"id":6561,"alt":"Una persona y un estetoscopio para representar la atención médica."},"definition":"Enfermedad autoinmunitaria que puede afectar la piel, las articulaciones y varios órganos.","synonyms":["lupus eritematoso sistémico","lupus eritematoso"],"example":{"word":"lupus","text":"El lupus eritematoso sistémico puede afectar varios órganos."},"exampleSynonym":{"word":"lupus eritematoso sistémico","text":"El lupus eritematoso sistémico puede afectar varios órganos."},"situacion":"salud"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

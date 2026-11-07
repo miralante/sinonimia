@@ -13,7 +13,7 @@
   manipulador:{definition:'Que manipula; dicho de una persona, que maneja algo o influye en otras personas, a menudo de forma interesada o engañosa.',synonyms:['operador','manipulante','controlador (según el contexto)']},
   manisero:{definition:'Persona que vende o cultiva maní; también, adjetivo relativo al maní.',synonyms:['vendedor de maní','cultivador de maní']},
   mansito:{definition:'Dicho de una persona o un animal: manso, dócil o apacible; puede funcionar como diminutivo expresivo de manso.',synonyms:['mansito','dócil','apacible']},
-  mansamente:{definition:'De manera mansa, dócil, apacible o sosegada.',synonyms:['apaciblemente','dócilmente','sosegadamente']},
+  
   manteada:{definition:'Porción de terreno o elemento cubierto por un manto (según el uso regional).',synonyms:['cubierta','capa']},
   manteada2:{definition:'Acción y efecto de mantear a alguien.',synonyms:['lanzamiento con manta']},
   manteo:{definition:'Acción y efecto de mantear a una persona, lanzándola repetidamente al aire con una manta.',synonyms:['manteamiento','lanzamiento con manta']},

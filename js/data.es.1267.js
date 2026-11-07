@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3423-magistratura-collective","word":"magistratura","image":{"id":7024,"alt":"Judges meet to discuss changes to the court system."},"definition":"Conjunto de jueces que ejercen la función judicial.","synonyms":["conjunto de jueces","cuerpo judicial"],"example":{"word":"magistratura","text":"La magistratura debatió la reforma judicial."},"exampleSynonym":{"word":"conjunto de jueces","text":"El conjunto de jueces debatió la reforma judicial."},"situacion":"conocimiento","translation":{"en":"judiciary; body of judges"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

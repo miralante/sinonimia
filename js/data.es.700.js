@@ -7,7 +7,7 @@
   meon:{definition:'Que orina mucho o con frecuencia; dicho especialmente de un niño, persona o animal.',synonyms:['mion (coloquial, regional)','orinador frecuente']},
   meona:{definition:'Femenino de «meón»: que orina mucho o con frecuencia; también, persona o animal que lo hace.',synonyms:['miona (coloquial, regional)']},
   mequetrefe:{definition:'Persona de poco juicio o escasa importancia, a menudo entrometida o molesta.',synonyms:['zascandil','badulaque','don nadie']},
-  meramente:{synonyms:['solamente','simplemente','puramente']},
+  
   merca:{definition:'En varios países de América, mercancía o compra; también, acción de comprar, según la región.',synonyms:['mercancía (regional)','compra (regional)']},
   mercadante:{definition:'Mercader o comerciante; voz antigua o poco usada.',synonyms:['mercader','comerciante']},
   mercadear:{synonyms:['comerciar','hacer transacciones','negociar']},
@@ -22,7 +22,7 @@
   mercantil:{synonyms:['comercial','mercante','mercaderil']},
   mercantilismo:{definition:'Sistema económico de la Edad Moderna que identificaba la riqueza de un Estado con la acumulación de metales preciosos y favorecía una balanza comercial favorable y la intervención estatal.',synonyms:['sistema mercantilista','proteccionismo comercial (parcialmente relacionado)']},
   mercantilizar:{definition:'Tratar algo como una mercancía o someterlo a criterios de compra y venta.',synonyms:['comercializar','convertir en mercancía','mercadear']},
-  mercantilmente:{synonyms:['comercialmente','en términos mercantiles']},
+  
   mercar:{synonyms:['comprar','adquirir','negociar']},
   merced:{definition:'Gracia, favor o beneficio concedido; también, tratamiento antiguo de cortesía («vuestra merced»).',synonyms:['favor','gracia','beneficio','vuestra merced (tratamiento histórico)']},
   mercendear:{definition:'Conceder una merced o favor; verbo antiguo y poco usado.',synonyms:['hacer merced','favorecer']},
@@ -40,7 +40,7 @@
   merdoso:{definition:'Variante vulgar de «mierdoso»: sucio o despreciable.',synonyms:['mierdoso','sucio (vulgar)']},
   merecedor:{synonyms:['digno','acreedor (según el contexto)']},
   merecer:{synonyms:['ser digno de','ameritar (regional)','ganarse']},
-  merecidamente:{synonyms:['justamente','con razón','con merecimiento']},
+  
   merecido:{synonyms:['justo','ganado','bien merecido']},
   mentecapto:{definition:'Variante antigua de «mentecato»: falto de juicio o entendimiento.',synonyms:['mentecato (forma usual)','necio']},
   'menu-app':{definition:'Lista de opciones y comandos que una aplicación muestra para elegir funciones o cambiar ajustes.',synonyms:['menú de opciones','lista de comandos']},

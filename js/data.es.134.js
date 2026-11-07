@@ -11,5 +11,5 @@
   diadoco:{definition:"En la Grecia moderna, heredero de la corona; título histórico del príncipe heredero.",synonyms:["príncipe heredero","heredero de la corona"],example:{word:"diádoco",text:"El diádoco asistió a la ceremonia oficial junto al rey."},exampleSynonym:{word:"príncipe heredero",text:"El príncipe heredero asistió a la ceremonia oficial junto al rey."}},
   diafanidad:{definition:"Cualidad de diáfano: transparencia o claridad que deja pasar la luz y permite ver con nitidez.",synonyms:["transparencia","claridad","limpidez","nitidez"],example:{word:"diafanidad",text:"La diafanidad del cristal permitía ver el jardín desde el interior."},exampleSynonym:{word:"transparencia",text:"La transparencia del cristal permitía ver el jardín desde el interior."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

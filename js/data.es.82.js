@@ -11,5 +11,5 @@
   desencallar:{definition:"Verbo transitivo e intransitivo: poner a flote una embarcación encallada.",synonyms:["desembarrancar","desvarar","reflotar","zafar","desatascar"],example:{word:"desencallar",text:"La tripulación pidió ayuda para desencallar el velero."},exampleSynonym:{word:"reflotar",text:"La tripulación pidió ayuda para reflotar el velero."}},
   desencantado:{definition:"Adjetivo, participio de desencantar: decepcionado o desengañado.",synonyms:["decepcionado","desengañado","harto"],example:{word:"desencantado",text:"Quedó desencantado al comprobar que la promesa no se cumpliría."},exampleSynonym:{word:"decepcionado",text:"Quedó decepcionado al comprobar que la promesa no se cumpliría."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

@@ -6,21 +6,21 @@
   interminable:{definition:'Que parece no tener fin o que dura mucho más de lo esperado.',synonyms:['inacabable','incesante','muy largo']},
   intercambiador:{definition:'Dispositivo o instalación que permite transferir algo entre sistemas; por ejemplo, un intercambiador de calor o una estación de transbordo.',synonyms:['dispositivo de intercambio','estación de transbordo (transporte)','intercambiador de calor']},
   interiorizar:{definition:'Hacer propio un conocimiento, una idea, una norma o un sentimiento, incorporándolo a la manera de pensar o actuar.',synonyms:['asimilar','incorporar','hacer propio']},
-  intemperadamente:{definition:'Sin moderación ni templanza.',synonyms:['desmedidamente','sin moderación']},
+  
   insolar:{definition:'Exponer algo o a alguien a la acción del sol; también, sufrir una insolación.',synonyms:['asolear','exponer al sol']},
   intitular:{definition:'Poner título o nombre a una obra, documento o asunto.',synonyms:['titular','dar nombre']},
   insudar:{definition:'Exudar o desprender lentamente sudor o humedad.',synonyms:['exudar','transpirar']},
   intonso:{definition:'Dicho del cabello: que no está cortado; antiguamente, dicho de un clérigo, que no había recibido la tonsura.',synonyms:['sin cortar (cabello)','sin tonsura (uso histórico)']},
-  invariablemente:{definition:'Siempre, sin excepción o sin variación.',synonyms:['siempre','sin excepción','de manera constante']},
+  
   invar:{definition:'Aleación de hierro y níquel, con una proporción de níquel cercana al 36 %, que presenta una expansión térmica muy baja.',synonyms:['aleación de hierro y níquel de baja expansión térmica']},
   introducir:{synonyms:['meter','insertar','incorporar','hacer entrar']},
   intuir:{synonyms:['percibir intuitivamente','presentir','deducir sin razonamiento explícito']},
-  intemperadamente:{definition:'Sin moderación ni templanza.',synonyms:['desmedidamente','sin moderación']},
+  
   interponer:{definition:'Poner algo entre otras cosas o personas; también, presentar formalmente un recurso, una queja u otra actuación.',synonyms:['poner en medio','intercalar','presentar un recurso']},
   intibucano:{},
   insulano:{},
   irado:{definition:'Airado o enfadado; también, dicho de una persona, dominado por la ira.',synonyms:['airado','enfadado','iracundo']},
-  intemperadamente:{definition:'Sin moderación ni templanza.',synonyms:['desmedidamente','sin moderación']},
+  
   irritabilidad:{synonyms:['facilidad para irritarse','susceptibilidad']},
   inyeccion:{definition:'Introducción de una sustancia en el cuerpo, normalmente mediante una jeringa y una aguja; también, la sustancia administrada de ese modo.',synonyms:['administración mediante jeringa','dosis inyectada']},
   investigable:{definition:'Que puede ser investigado.',synonyms:['susceptible de investigación','que se puede investigar']},
@@ -67,6 +67,6 @@
   iterable:{definition:'En informática, que puede recorrerse elemento por elemento mediante una iteración.',synonyms:['iterable (informática)','recorrible elemento a elemento']},
   iterar:{definition:'Repetir un proceso o una operación; en informática, recorrer sucesivamente los elementos de una colección.',synonyms:['repetir','recorrer mediante iteración']},
   isquemia:{synonyms:['reducción del riego sanguíneo','flujo insuficiente de sangre a un tejido']},
-  irreflexivamente:{definition:'Sin pensar ni considerar suficientemente las consecuencias.',synonyms:['impulsivamente','sin reflexión']}
+  
 };for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}
 const ids=new Set(['inquinamento','interiorano','intibucano','insulano','innocente','innocuidad','innocuo','investigable-2','invictamente-2','invigilado','indocubano','indoantillano','indostanes','indostanico','indostano','islan','islandico','ismaelita','iranio','iroques','itapuense','itzaj','israelitico','italico','jacoibo']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"round3466-manopla-forearm","word":"manopla","image":{"id":7024,"alt":"Una palabra del diccionario"},"definition":"Adorno que cubre el antebrazo durante un desfile militar.","synonyms":["adorno para el antebrazo","protección decorativa del brazo"],"example":{"word":"manopla","text":"El soldado llevó una manopla durante el desfile."},"exampleSynonym":{"word":"adorno para el antebrazo","text":"El soldado llevó un adorno para el antebrazo durante el desfile."},"situacion":"conocimiento"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

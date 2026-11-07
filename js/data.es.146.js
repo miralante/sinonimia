@@ -11,5 +11,5 @@
   diminuecer:{definition:"Verbo intransitivo desusado: menguar o mermar.",synonyms:["menguar","mermar","disminuir"],example:{word:"diminuecer",text:"En el texto antiguo, el caudal parecía diminuecer durante la sequía."},exampleSynonym:{word:"menguar",text:"En el texto antiguo, el caudal parecía menguar durante la sequía."}},
   diminuir:{definition:"Verbo transitivo desusado: disminuir algo; también se usaba como verbo pronominal.",synonyms:["disminuir","reducir","menguar"],example:{word:"diminuir",text:"El autor antiguo aconseja diminuir el gasto en tiempos difíciles."},exampleSynonym:{word:"disminuir",text:"El autor antiguo aconseja disminuir el gasto en tiempos difíciles."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

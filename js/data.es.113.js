@@ -11,5 +11,5 @@
   despechar:{definition:"Causar pesar, despecho, resentimiento o enfado.",synonyms:["disgustar","ofender","causar despecho"],example:{word:"despechar",text:"La decisión de excluirlo llegó a despechar al antiguo colaborador."},exampleSynonym:{word:"disgustar",text:"La decisión de excluirlo llegó a disgustar al antiguo colaborador."}},
   despechoso:{definition:"Que manifiesta despecho, indignación o furia.",synonyms:["despechado","resentido","indignado"],example:{word:"despechoso",text:"El tono despechoso de la respuesta reveló su resentimiento."},exampleSynonym:{word:"resentido",text:"El tono resentido de la respuesta reveló su amargura."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

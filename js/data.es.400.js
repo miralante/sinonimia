@@ -9,4 +9,4 @@
  esclarecer:{definition:'Hacer más claro o comprensible algo; también, dar brillo o esplendor.',synonyms:['aclarar','explicar','iluminar','dar brillo'],example:{word:'esclarecer',text:'El testimonio ayudó a esclarecer lo ocurrido.'},exampleSynonym:{word:'aclarar',text:'El testimonio ayudó a aclarar lo ocurrido.'}},
  esclavon:{definition:'Que está sometido al dominio absoluto de otra persona; también se usa como sustantivo aplicado a una persona en esa condición.',synonyms:['esclavizado','sometido','subyugado']},
  esclavonia:{definition:'Antiguamente, condición o estado de esclavitud.',synonyms:['esclavitud','servidumbre','sujeción']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

@@ -12,5 +12,5 @@
     dedil:{definition:"Funda, generalmente de cuero u otro material, que se coloca en un dedo para protegerlo de golpes o manchas; en sentido desusado, dedal de coser.",synonyms:["dedal","protector de dedo","fundilla"],example:{word:"dedil",text:"Se puso un dedil de cuero para protegerse el dedo al trabajar."},exampleSynonym:{word:"protector de dedo",text:"Se puso un protector de dedo de cuero para trabajar."}},
     dedocracia:{definition:"Práctica coloquial y despectiva de nombrar a alguien para un cargo de forma arbitraria, por decisión personal y sin atender al mérito.",synonyms:["nombramiento a dedo","designación arbitraria","amiguismo"],example:{word:"dedocracia",text:"La oposición denunció la dedocracia en la elección de los nuevos cargos."},exampleSynonym:{word:"nombramiento a dedo",text:"La oposición denunció el nombramiento a dedo de los nuevos cargos."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

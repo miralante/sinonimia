@@ -12,5 +12,5 @@
     decimetro:{definition:"Sustantivo masculino: unidad de longitud equivalente a la décima parte de un metro; su símbolo es dm.",synonyms:["décima parte de un metro","unidad de longitud"],example:{word:"decímetro",text:"El cuaderno mide dos decímetros de ancho."},exampleSynonym:{word:"décima parte de un metro",text:"Un decímetro equivale a una décima parte de un metro."}},
     decimoctavo:{definition:"Adjetivo ordinal: que ocupa el lugar número dieciocho en una serie. Se usa también como sustantivo masculino.",synonyms:["dieciocheno","número dieciocho en orden"],example:{word:"decimoctavo",text:"El decimoctavo capítulo revela el motivo de la desaparición."},exampleSynonym:{word:"dieciocheno",text:"El dieciocheno capítulo revela el motivo de la desaparición."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

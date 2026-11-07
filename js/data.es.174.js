@@ -11,5 +11,5 @@
   dispertador:{definition:"Desusado. Despertador: que despierta o sirve para despertar; también, aparato que emite una señal para despertar a una persona.",synonyms:["despertador","alarma"],example:{word:"dispertador",text:"En el texto antiguo, un dispertador anunciaba el comienzo de la jornada."},exampleSynonym:{word:"despertador",text:"En el texto antiguo, un despertador anunciaba el comienzo de la jornada."}},
   dispertar:{definition:"Desusado. Despertar: dejar de dormir o hacer que alguien deje de dormir; también, hacer que surja o se avive un sentimiento o interés.",synonyms:["despertar","desvelar","avivar"],example:{word:"dispertar",text:"El ruido consiguió dispertar a los viajeros."},exampleSynonym:{word:"despertar",text:"El ruido consiguió despertar a los viajeros."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

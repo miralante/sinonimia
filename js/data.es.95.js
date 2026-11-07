@@ -9,7 +9,7 @@
   deshinchar:{definition:"Verbo transitivo: sacar el aire de algo inflado; como pronominal, perder la hinchazón o el volumen.",synonyms:["desinflar","vaciar","deshincharse"],example:{word:"deshinchar",text:"Para guardarlo, hay que deshinchar el colchón de aire."},exampleSynonym:{word:"desinflar",text:"Para guardarlo, hay que desinflar el colchón de aire."}},
   deshojar:{definition:"Verbo transitivo: quitar las hojas de una planta o los pétalos de una flor; también, pasar las páginas de un libro una a una.",synonyms:["deshojarse","desfoliar","quitar las hojas"],example:{word:"deshojar",text:"El viento empezó a deshojar los árboles del jardín."},exampleSynonym:{word:"quitar las hojas",text:"El viento empezó a quitar las hojas de los árboles del jardín."}},
   deshollinador:{definition:"Sustantivo masculino: persona que limpia chimeneas de hollín; también, cepillo o utensilio para esa tarea.",synonyms:["limpiachimeneas","escobón","cepillo de chimenea"],example:{word:"deshollinador",text:"El deshollinador retiró el hollín acumulado en la chimenea."},exampleSynonym:{word:"limpiachimeneas",text:"El limpiachimeneas retiró el hollín acumulado en la chimenea."}},
-  deshonestamente:{definition:"Adverbio: de manera deshonesta, sin honradez o integridad; también, en algunos usos, de manera indecente.",synonyms:["deslealmente","fraudulentamente","sin honradez"],example:{word:"deshonestamente",text:"El contratista actuó deshonestamente al ocultar los defectos de la obra."},exampleSynonym:{word:"fraudulentamente",text:"El contratista actuó fraudulentamente al ocultar los defectos de la obra."}}
+  
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

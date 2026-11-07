@@ -2,7 +2,7 @@
 (()=>{
   const updates={
     danoso:{definition:"Adjetivo: que daña.",synonyms:["dañino","perjudicial","nocivo","pernicioso"],example:{word:"dañoso",text:"El humo dañoso afectó la salud de quienes vivían cerca de la fábrica."},exampleSynonym:{word:"dañino",text:"El humo dañino afectó la salud de quienes vivían cerca de la fábrica."}},
-    daqui:{definition:"Adverbio desusado, contracción de «de aquí»: de este lugar.",synonyms:["de aquí","desde aquí"],example:{word:"daquí",text:"En la crónica antigua, el viajero escribe: «Daquí partimos al amanecer»."},exampleSynonym:{word:"de aquí",text:"En la crónica antigua, el viajero escribe: «De aquí partimos al amanecer»."}},
+    
     darga:{definition:"Sustantivo femenino desusado: adarga, escudo de cuero.",synonyms:["adarga","escudo de cuero"],example:{word:"darga",text:"La crónica describe una darga que protegía al jinete durante el combate."},exampleSynonym:{word:"adarga",text:"La crónica describe una adarga que protegía al jinete durante el combate."}},
     darico:{definition:"Sustantivo masculino: moneda persa de oro acuñada por Darío.",synonyms:["moneda persa de oro","dárico persa"],example:{word:"darico",text:"El museo exhibe un darico de oro acuñado durante el reinado de Darío."},exampleSynonym:{word:"moneda persa de oro",text:"El museo exhibe una moneda persa de oro acuñada durante el reinado de Darío."}},
     dasonomia:{definition:"Sustantivo femenino: estudio de la conservación, el cultivo y el aprovechamiento de los montes.",synonyms:["ciencia forestal","silvicultura"],example:{word:"dasonomía",text:"La dasonomía estudia cómo conservar los bosques y aprovechar sus recursos de forma sostenible."},exampleSynonym:{word:"ciencia forestal",text:"La ciencia forestal estudia cómo conservar los bosques y aprovechar sus recursos de forma sostenible."}},
@@ -12,5 +12,5 @@
     ddt:{definition:"Sustantivo masculino: sustancia tóxica usada como insecticida; sigla de diclorodifeniltricloroetano.",synonyms:["diclorodifeniltricloroetano","dedeté","insecticida organoclorado"],example:{word:"DDT",text:"El uso del DDT como insecticida está prohibido o restringido en muchos lugares."},exampleSynonym:{word:"insecticida organoclorado",text:"El uso de este insecticida organoclorado está prohibido o restringido en muchos lugares."}},
     debandar:{definition:"Verbo transitivo desusado: desunir, esparcir o separar.",synonyms:["desunir","esparcir","separar"],example:{word:"debandar",text:"El relato antiguo dice que el capitán ordenó debandar a los soldados dispersos."},exampleSynonym:{word:"separar",text:"El relato antiguo dice que el capitán ordenó separar a los soldados dispersos."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

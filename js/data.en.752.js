@@ -24,7 +24,7 @@
   ursuline:{definition:'A member of the Society of Saint Ursula, a Roman Catholic religious order for women; also, relating to the order.',synonyms:['Ursuline sister','member of the Ursuline order']},
   urubu:{definition:'A New World vulture, especially a black vulture of the genus Coragyps; the term is used regionally for related vultures.',synonyms:['black vulture','New World vulture','gallinazo (regional)']},
   'usb-memory':{definition:'A small portable flash-memory device that connects to a computer through a USB port.',synonyms:['USB flash drive','memory stick','thumb drive']},
-  usedly:{definition:'In accordance with customary use; rarely used.',synonyms:['customarily','according to usage']},
+  
   'urine-2':{definition:'',synonyms:[]},
   'usable-2':{definition:'',synonyms:[]},
   'usable-3':{definition:'Capable of or suitable for being used.',synonyms:['usable','serviceable']},
@@ -34,4 +34,4 @@
   'usurate':{definition:'Archaic: to lend or borrow money at usury or excessive interest.',synonyms:['lend at usury','charge excessive interest']},
   usure:{definition:'Archaic: to lend or borrow money at usury or excessive interest.',synonyms:['lend at usury','charge excessive interest']},
   usurp:{definition:'To seize or take over a right, position, power, or property without legal or rightful authority.',synonyms:['seize unlawfully','appropriate','take over']}
-};for(const[id,p]of Object.entries(u)){if(id==='upperwind')continue;const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}const ids=new Set(['upstart-2','urban-2','uproot-4','uproot-5','upset-4','unsaddle-2','unruly-5','unpredictability-2','unscoring','unshade-2','urinal-2','urinal-3','urinal-4','urinate-2','urinate-3','urinate-4','urine-2','usable-2','urban-2','use-3','unusual-3','unwind-2','unveil-2','unveil-4','unwedding','unsolvable-2','un-something','untangle-3','untangle-5','untimely-2','untimely-3']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();
+};for(const[id,p]of Object.entries(u)){if(id==='upperwind')continue;const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}const ids=new Set(['upstart-2','urban-2','uproot-4','uproot-5','upset-4','unsaddle-2','unruly-5','unpredictability-2','unscoring','unshade-2','urinal-2','urinal-3','urinal-4','urinate-2','urinate-3','urinate-4','urine-2','usable-2','urban-2','use-3','unusual-3','unwind-2','unveil-2','unveil-4','unwedding','unsolvable-2','un-something','untangle-3','untangle-5','untimely-2','untimely-3']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

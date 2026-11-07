@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3396-alienation-psychological","word":"alienation","image":{"id":2352,"alt":"A confused face with a question mark."},"definition":"A mental state where yourself or the world seems unreal.","synonyms":["feeling of unreality","sense that the world is unreal"],"example":{"word":"alienation","text":"Her alienation made her feel cut off from the world."},"exampleSynonym":{"word":"feeling of unreality","text":"Her feeling of unreality made her feel cut off from the world."},"situacion":"salud"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

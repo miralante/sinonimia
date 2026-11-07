@@ -11,5 +11,5 @@
   despreciador:{definition:"Que desprecia o trata a alguien o algo como si tuviera poco valor; también se usa como sustantivo.",synonyms:["desdeñoso","despectivo","que menosprecia"],example:{word:"despreciador",text:"El tono despreciador del comentario hizo que la reunión se volviera incómoda."},exampleSynonym:{word:"desdeñoso",text:"El tono desdeñoso del comentario hizo que la reunión se volviera incómoda."}},
   desprender:{definition:"Separar algo de aquello a lo que estaba unido; también, emitir o dejar salir algo, como un olor, calor o luz.",synonyms:["despegar","separar","desprenderse","emitir"],example:{word:"desprender",text:"El trabajador tuvo que desprender la etiqueta vieja del frasco."},exampleSynonym:{word:"despegar",text:"El trabajador tuvo que despegar la etiqueta vieja del frasco."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

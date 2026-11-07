@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3564-avionics-devices","word":"avionics","image":{"id":7024,"alt":"A dictionary word"},"definition":"Electronic systems and devices used in an aircraft or spacecraft.","synonyms":["aircraft electronic systems","aerospace electronic devices"],"example":{"word":"avionics","text":"The pilot checked the avionics before takeoff."},"exampleSynonym":{"word":"aircraft electronic systems","text":"The pilot checked the aircraft electronic systems before takeoff."},"situacion":"tecnologia","translation":{"es":"avionica"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

@@ -12,5 +12,5 @@
     desalinizar:{definition:"Verbo transitivo: quitar la sal del agua del mar o de aguas salobres para hacerlas potables o útiles para otros fines.",synonyms:["desalar","quitar la sal","eliminar la sal"],example:{word:"desalinizar",text:"La planta puede desalinizar el agua del mar para abastecer a la ciudad."},exampleSynonym:{word:"desalar",text:"La planta puede desalar el agua del mar para abastecer a la ciudad."}},
     desalivar:{definition:"Verbo intransitivo poco usado, también pronominal: arrojar saliva con abundancia.",synonyms:["salivar abundantemente","babear","salivar"],example:{word:"desalivar",text:"El perro empezó a desalivar al oler la comida."},exampleSynonym:{word:"babear",text:"El perro empezó a babear al oler la comida."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

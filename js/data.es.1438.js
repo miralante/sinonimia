@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+{const x={"id":"misero-2","word":"Misero","image":{"id":7024,"alt":"Una palabra del diccionario"},"definition":"Dicho de un sacerdote: que solo cobra el estipendio de la misa.","synonyms":["sacerdote sin otras rentas","clérigo con estipendio de misa"],"example":{"word":"Misero","text":"El misero recibía solo el pago de cada misa."},"exampleSynonym":{"word":"sacerdote sin otras rentas","text":"El sacerdote sin otras rentas recibía solo el pago de cada misa."},"situacion":"sociedad"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

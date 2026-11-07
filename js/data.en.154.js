@@ -10,7 +10,7 @@
   orientalize:{definition:"To portray or treat a person, place, or culture as characteristically Eastern, often through stereotyped or exoticizing representations.",synonyms:["exoticize","portray as Eastern","represent through Orientalist conventions"],example:{word:"orientalize",text:"The critic argued that the painting helped orientalize the region."},exampleSynonym:{word:"exoticize",text:"The critic argued that the painting helped exoticize the region."}},
   'orientalize-2':{definition:"To take on or be given features associated with Eastern cultures or artistic traditions.",synonyms:["adopt Eastern features","acquire Eastern characteristics"],example:{word:"orientalize",text:"In the later chapters, the architectural style begins to orientalize."},exampleSynonym:{word:"adopt Eastern features",text:"In the later chapters, the architecture begins to adopt Eastern features."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  if(!DICCIONARIOS.en.some(e=>e.id==='oriental'))throw Error('Missing en/oriental');
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>e.id!=='oriental');
 })();

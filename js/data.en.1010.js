@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error('missing en');
+if(!d.some(q=>q.id==="round3134-unseat-rider"))d.push({"id":"round3134-unseat-rider","word":"unseat","image":{"id":7024,"alt":"A horse throws its rider from the saddle."},"definition":"If a horse unseats its rider, it makes the rider fall from its back.","synonyms":["unhorse","throw from the saddle","dislodge"],"example":{"word":"unseat","text":"The young horse unseated its rider during the race."},"exampleSynonym":{"word":"unhorse","text":"The young horse unhorsed its rider during the race."},"situacion":"deportes"});
+})();

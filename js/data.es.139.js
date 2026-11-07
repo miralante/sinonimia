@@ -11,6 +11,6 @@
   diegesis:{definition:"En una obra narrativa o cinematográfica, mundo ficticio en el que ocurren los hechos narrados.",synonyms:["mundo narrativo","universo ficticio"],example:{word:"diégesis",text:"La novela construye una diégesis coherente con sus propias reglas."},exampleSynonym:{word:"mundo narrativo",text:"La novela construye un mundo narrativo coherente con sus propias reglas."}},
   dielectrico:{definition:"Dicho de un material aislante, que puede polarizarse cuando se somete a un campo eléctrico y almacenar energía eléctrica.",synonyms:["aislante eléctrico","material aislante"],example:{word:"dieléctrico",text:"El condensador utiliza un material dieléctrico entre sus placas."},exampleSynonym:{word:"aislante eléctrico",text:"El condensador utiliza un aislante eléctrico entre sus placas."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();
 

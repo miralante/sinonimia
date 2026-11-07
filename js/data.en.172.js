@@ -5,7 +5,7 @@
   outside:{definition:"Noun: the exterior part or surface of something. Adjective: situated or occurring outdoors or externally. Adverb or preposition: beyond or on the exterior of a place; also, apart from or in addition to a stated group or limit.",synonyms:["exterior","outer surface","outdoors","beyond","external"],example:{word:"outside",text:"They waited outside the station until the doors opened."},exampleSynonym:{word:"outdoors",text:"They waited outdoors until the station doors opened."}},
   outsider:{definition:"A person who does not belong to or is not accepted as part of a particular group, organization, or community; someone unfamiliar with a situation or coming from outside it.",synonyms:["nonmember","stranger","nonparticipant","person from outside"],example:{word:"outsider",text:"As an outsider, she noticed assumptions the team had stopped questioning."},exampleSynonym:{word:"stranger",text:"As a stranger, she noticed assumptions the team had stopped questioning."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  for(const id of ['outrageous-4','outrageous-5','outside-2','outside-3','outside-4','outsider-2','outsider-3'])if(!DICCIONARIOS.en.some(e=>e.id===id))throw Error('Missing en/'+id);
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!['outrageous-4','outrageous-5','outside-2','outside-3','outside-4','outsider-2','outsider-3'].includes(e.id));
 })();

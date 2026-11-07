@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"balustrade-2","word":"balustrade","image":{"id":7024,"alt":"A dictionary word"},"definition":"A low wall or barrier along a balcony or staircase.","synonyms":["low protective wall","parapet"],"example":{"word":"balustrade","text":"The balustrade kept visitors from falling off the balcony."},"exampleSynonym":{"word":"low protective wall","text":"The low protective wall kept visitors from falling off the balcony."},"situacion":"vivienda"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

@@ -11,5 +11,5 @@
   desmancho:{definition:"Sustantivo masculino desusado: descarrío o desmán.",synonyms:["desmán","descarrío","desorden"],example:{word:"desmancho",text:"El cronista empleó desmancho para censurar el descarrío de los gobernantes."},exampleSynonym:{word:"descarrío",text:"El cronista empleó descarrío para censurar la conducta de los gobernantes."}},
   desmanear:{definition:"Quitar a las bestias las maneas o trabas con que se les atan las patas; también se usa como pronominal.",synonyms:["destrabar","quitar las maneas","soltar"],example:{word:"desmanear",text:"Al llegar al corral, el arriero fue a desmanear las caballerías."},exampleSynonym:{word:"destrabar",text:"Al llegar al corral, el arriero fue a destrabar las caballerías."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

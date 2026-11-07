@@ -1,6 +1,6 @@
 (()=>{const u={
   nacionalizacion:{definition:'Acción y efecto de transferir al Estado la propiedad o el control de bienes o empresas privados; también, adquisición de la nacionalidad de un país.',synonyms:['estatización','transferencia al Estado','naturalización (sentido jurídico)']},
-  nacionalmente:{definition:'En el ámbito o a escala de una nación.',synonyms:['en el ámbito nacional','a escala nacional']},
+  
   nacre:{definition:'Antiguo: nácar.',synonyms:['nácar','madreperla']},
   nacrita:{definition:'Variedad de talco de brillo nacarado, susceptible de cristalizar.',synonyms:['talco nacarado']},
   nadadera:{definition:'Calabaza, vejiga u otro objeto flotante que se usa como apoyo para aprender a nadar.',synonyms:['flotador','auxiliar de flotación']},

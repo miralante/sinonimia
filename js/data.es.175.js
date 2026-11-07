@@ -11,5 +11,5 @@
   disponible:{definition:"Que está libre o puede usarse, obtenerse o consultarse; dicho de una persona, que puede atender una tarea o cita.",synonyms:["accesible","libre","utilizable","a disposición"],example:{word:"disponible",text:"El informe ya está disponible en la página web."},exampleSynonym:{word:"accesible",text:"El informe ya está accesible en la página web."}},
   "disposicion-bienes":{word:"disposición de bienes",definition:"Acto jurídico por el que se determina, transmite, grava, administra o asigna un bien o derecho, por ejemplo mediante un contrato o testamento.",synonyms:["acto de disposición patrimonial","asignación de bienes","transmisión de bienes"],example:{word:"disposición de bienes",text:"El testamento incluyó una disposición de bienes a favor de sus sobrinos."},exampleSynonym:{word:"acto de disposición patrimonial",text:"El testamento incluyó un acto de disposición patrimonial a favor de sus sobrinos."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

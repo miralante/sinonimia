@@ -1,5 +1,5 @@
 (()=>{const u={
- esplendorosamente:{synonyms:['magníficamente','con gran esplendor','de manera espléndida']},
+ 
  esplendoroso:{definition:'Que brilla intensamente o destaca por su magnificencia, belleza o excelencia.',synonyms:['resplandeciente','magnífico','brillante','excelente']},
  esplenectomia:{definition:'Extirpación quirúrgica total o parcial del bazo.',synonyms:['extirpación del bazo','cirugía esplénica']},
  esplenio:{definition:'Cada uno de los músculos posteriores del cuello y la parte superior de la espalda que ayudan a extender y girar la cabeza.',synonyms:['músculo esplenio','músculo posterior del cuello']},
@@ -29,4 +29,4 @@
  esponjadura:{definition:'Acción y efecto de esponjar o esponjarse: hacer más poroso, mullido o voluminoso algo.',synonyms:['esponjamiento','acción de esponjarse']},
  esponjar:{synonyms:['ahuecar','mullir','hacer poroso','esponjarse']},
  esponjera:{synonyms:['jabonera para esponja','soporte para esponja','esponjero']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

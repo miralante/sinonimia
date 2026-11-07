@@ -1,0 +1,1 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)return;const ids=new Set(['haldada','haldear','haldero','haldeta','haldinegro','haldudo','haleche','halieto','halifa','halito','hall','hallada']);d.splice(0,d.length,...d.filter(x=>!ids.has(x.id)));})();

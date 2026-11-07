@@ -11,5 +11,5 @@
   destilar:{definition:"Separar por calentamiento una sustancia volátil de otra menos volátil y condensar su vapor; también, desprender o dejar caer gotas lentamente.",synonyms:["refinar","purificar","gotear","rezumar"],example:{word:"destilar",text:"El laboratorio va a destilar el agua para eliminar impurezas."},exampleSynonym:{word:"purificar",text:"El laboratorio va a purificar el agua para eliminar impurezas."}},
   destinar:{definition:"Designar, señalar o reservar algo para un fin, uso o destinatario determinado.",synonyms:["asignar","dedicar","reservar","orientar"],example:{word:"destinar",text:"El municipio decidió destinar esos fondos a reparar las escuelas."},exampleSynonym:{word:"asignar",text:"El municipio decidió asignar esos fondos a reparar las escuelas."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

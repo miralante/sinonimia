@@ -9,7 +9,7 @@
   digitar:{definition:"En Chile, El Salvador, Honduras, República Dominicana y Uruguay, introducir datos en una computadora u otro dispositivo mediante el teclado; en Chile y Uruguay, manejar con destreza los dedos en un instrumento de teclas o cuerdas.",synonyms:["teclear","ingresar datos","pulsar las teclas"],example:{word:"digitar",text:"La operadora tuvo que digitar los datos de cada formulario."},exampleSynonym:{word:"teclear",text:"La operadora tuvo que teclear los datos de cada formulario."}},
   digito:{definition:"Cifra de un sistema de numeración; en astronomía, cada una de las doce partes iguales en que se divide el diámetro aparente del Sol o de la Luna al calcular eclipses.",synonyms:["cifra","número","número dígito"],example:{word:"dígito",text:"El último dígito del código de acceso era un siete."},exampleSynonym:{word:"cifra",text:"La última cifra del código de acceso era un siete."}},
   digladiar:{definition:"Verbo intransitivo desusado: batallar o pelear cuerpo a cuerpo con espada.",synonyms:["batallar","combatir","pelear"],example:{word:"digladiar",text:"La crónica cuenta que los rivales llegaron a digladiar en la plaza."},exampleSynonym:{word:"combatir",text:"La crónica cuenta que los rivales llegaron a combatir en la plaza."}},
-  dignamente:{definition:"De manera digna; con dignidad.",synonyms:["decorosamente","honrosamente","con dignidad"],example:{word:"dignamente",text:"La familia pudo vivir dignamente con los ingresos del taller."},exampleSynonym:{word:"decorosamente",text:"La familia pudo vivir decorosamente con los ingresos del taller."}}
+  
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

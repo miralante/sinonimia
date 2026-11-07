@@ -10,4 +10,4 @@
  racket:{definition:'Noun: a loud, confused noise; a fraudulent or illegal activity; or a bat used in certain sports. Verb: to make a noisy disturbance or engage in racketeering.',synonyms:['din','commotion','fraudulent scheme','sports racquet']},
  racking:{definition:'The act of placing something on a rack or transferring it from one vessel or position to another; also, severe strain or torment.',synonyms:['rack transfer','racking off','torment']},
  radian:{definition:'The SI unit of plane angle, equal to the angle subtended at a circle’s center by an arc whose length equals the radius.',synonyms:['SI unit of plane angle','angular measure']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

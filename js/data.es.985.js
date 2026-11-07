@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');
+if(!d.some(q=>q.id==="round3094-incompatibilidad-legal"))d.push({"id":"round3094-incompatibilidad-legal","word":"Incompatibilidad","image":{"id":11291,"alt":"Una norma impide que una persona ocupe dos cargos a la vez."},"definition":"Impedimento legal para ejercer un cargo o varias funciones.","synonyms":["impedimento","obstáculo","restricción"],"example":{"word":"incompatibilidad","text":"La ley establece incompatibilidad entre ambos cargos."},"exampleSynonym":{"word":"impedimento","text":"La ley establece un impedimento para ejercer ambos cargos."},"situacion":"legal"});
+})();

@@ -10,7 +10,7 @@
     desarraigo:{definition:"Sustantivo masculino: acción y efecto de desarraigar.",synonyms:["desarraigamiento","desplantación","desvinculación","desplazamiento"],example:{word:"desarraigo",text:"El desarraigo dificultó que la familia se sintiera en casa en la nueva ciudad."},exampleSynonym:{word:"desarraigamiento",text:"El desarraigamiento dificultó que la familia se sintiera en casa en la nueva ciudad."}},
     desarrancarse:{definition:"Verbo pronominal: dicho de una persona, desertar o separarse de la asociación o cuerpo al que pertenece.",synonyms:["desertar","separarse","abandonar la asociación"],example:{word:"desarrancarse",text:"Varios miembros amenazaron con desarrancarse de la asociación."},exampleSynonym:{word:"desertar",text:"Varios miembros amenazaron con desertar de la asociación."}},
     desarrapado:{definition:"Adjetivo y sustantivo: andrajoso, roto y cubierto de harapos; también, desheredado o muy pobre. Variante de desharrapado.",synonyms:["desharrapado","desastrado","andrajoso","harapiento","menesteroso"],example:{word:"desarrapado",text:"El desarrapado llevaba un abrigo remendado y gastado."},exampleSynonym:{word:"desharrapado",text:"El desharrapado llevaba un abrigo remendado y gastado."}},
-    desarrebozadamente:{definition:"Adverbio: sin rebozo, de manera clara y abierta.",synonyms:["abiertamente","claramente","sin disimulo"],example:{word:"desarrebozadamente",text:"La testigo habló desarrebozadamente sobre lo ocurrido."},exampleSynonym:{word:"abiertamente",text:"La testigo habló abiertamente sobre lo ocurrido."}}
+    
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

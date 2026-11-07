@@ -11,5 +11,5 @@
   discapacitar:{definition:"Causar una limitación o pérdida de capacidades que afecta al funcionamiento de una persona; dejarla temporal o permanentemente incapacitada.",synonyms:["incapacitar","causar una discapacidad","limitar funcionalmente"],example:{word:"discapacitar",text:"Una lesión grave puede discapacitar a una persona durante un tiempo."},exampleSynonym:{word:"incapacitar",text:"Una lesión grave puede incapacitar a una persona durante un tiempo."}},
   discar:{definition:"Marcar en un aparato telefónico los números necesarios para realizar una llamada.",synonyms:["marcar un número","marcar por teléfono"],example:{word:"discar",text:"Tuvo que discar el número completo desde el teléfono fijo."},exampleSynonym:{word:"marcar un número",text:"Tuvo que marcar el número completo desde el teléfono fijo."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

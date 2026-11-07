@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3562-avant-garde-artists","word":"avant-garde","image":{"id":7024,"alt":"A dictionary word"},"definition":"Artists and writers who introduce new ideas in art.","synonyms":["experimental artists","modern artists"],"example":{"word":"avant-garde","text":"The avant-garde met in a small Paris gallery."},"exampleSynonym":{"word":"experimental artists","text":"The experimental artists met in a small Paris gallery."},"situacion":"arte"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

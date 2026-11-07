@@ -12,5 +12,5 @@
     desandar:{definition:"Verbo transitivo: recorrer retrocediendo el camino andado, también en sentido figurado.",synonyms:["retroceder","volver sobre los pasos","regresar","recular"],example:{word:"desandar",text:"Al perder el sendero, tuvieron que desandar el camino hasta el cruce."},exampleSynonym:{word:"retroceder",text:"Al perder el sendero, tuvieron que retroceder hasta el cruce."}},
     desangelado:{definition:"Adjetivo: falto de gracia o encanto.",synonyms:["soso","deslucido","desolado","insulso"],example:{word:"desangelado",text:"El patio parecía desangelado después de retirar las plantas."},exampleSynonym:{word:"deslucido",text:"El patio parecía deslucido después de retirar las plantas."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

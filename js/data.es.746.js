@@ -19,7 +19,7 @@
   mujerero:{definition:'Dicho de una persona, especialmente de un hombre: que muestra afición o preferencia por las mujeres.',synonyms:['aficionado a las mujeres','mujeriego']},
   mujeriego:{definition:'Dicho de un hombre: aficionado a las mujeres o que busca con frecuencia su compañía amorosa o sexual.',synonyms:['mujerero','faldero','donjuán']},
   mujeril:{definition:'Perteneciente o relativo a la mujer; puede usarse con sentido despectivo.',synonyms:['femenino','de mujer']},
-  mujerilmente:{definition:'A modo de mujer; de manera que se atribuye a las mujeres, en usos antiguos o peyorativos.',synonyms:['a modo de mujer']},
+  
   mujerio:{definition:'Conjunto o multitud de mujeres.',synonyms:['grupo de mujeres','conjunto de mujeres']},
   mujerona:{definition:'Mujer grande o corpulenta; aumentativo de «mujer».',synonyms:['mujeraza','mujer grande']}
 };for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r)Object.assign(r,p);}const ids=new Set(['mugle','muisca']);DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();

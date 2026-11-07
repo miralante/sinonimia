@@ -11,5 +11,5 @@
   desmadre:{definition:"Acción de separar de la madre a las crías para destetarlas; coloquialmente, desorden, exceso o situación fuera de control.",synonyms:["destete","desorden","caos"],example:{word:"desmadre",text:"La fiesta se convirtió en un desmadre cuando se fue la luz."},exampleSynonym:{word:"desorden",text:"La fiesta se convirtió en un desorden cuando se fue la luz."}},
   desmajolar:{definition:"Arrancar o descepar los majuelos de una viña; también, aflojar y soltar las majuelas con que está ajustado un zapato.",synonyms:["arrancar los majuelos","descepar","aflojar las majuelas"],example:{word:"desmajolar",text:"Al renovar la parcela, tuvieron que desmajolar la viña vieja."},exampleSynonym:{word:"descepar",text:"Al renovar la parcela, tuvieron que descepar la viña vieja."}}
  };
- for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const[id,patch]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

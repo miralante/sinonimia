@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+{const x={"id":"round3421-ammunition-argument","word":"ammunition","image":{"id":7024,"alt":"A report provides facts used in a debate."},"definition":"Information or facts that help someone support an argument.","synonyms":["evidence","supporting facts"],"example":{"word":"ammunition","text":"The report gave her ammunition in the debate."},"exampleSynonym":{"word":"evidence","text":"The report gave her evidence in the debate."},"situacion":"daily-life","translation":{"es":"argumentos; datos de apoyo"}};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

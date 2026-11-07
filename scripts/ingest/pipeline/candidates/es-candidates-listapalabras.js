@@ -166,7 +166,25 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+// Reads a gzip-compressed file and returns its UTF-8 contents.
+function readGzippedText(filePath) {
+  return new Promise((resolve, reject) => {
+    const chunks = [];
+    const stream = fs.createReadStream(filePath).pipe(zlib.createGunzip());
+    stream.on('data', (c) => chunks.push(c));
+    stream.on('end', () => resolve(Buffer.concat(chunks).toString('utf8')));
+    stream.on('error', reject);
+  });
+}
+
 async function fetchCached(url, cacheFile) {
+  // Prefer the gzipped cache when present (smaller on disk, kept around by
+  // housekeeping compresses elsewhere); fall back to the legacy uncompressed
+  // HTML if found; only fetch from the network if neither is on disk.
+  const gzCache = cacheFile + '.gz';
+  if (fs.existsSync(gzCache)) {
+    return readGzippedText(gzCache);
+  }
   if (fs.existsSync(cacheFile)) {
     return fs.readFileSync(cacheFile, 'utf8');
   }

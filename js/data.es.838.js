@@ -1,0 +1,1 @@
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)return;const ids=new Set(['guiris','guirisapa','guirisero','guirlanda','guiropa','guirro','guisa','guisado','guisandero','guisantal','guisar','guisaro']);d.splice(0,d.length,...d.filter(x=>!ids.has(x.id)));})();

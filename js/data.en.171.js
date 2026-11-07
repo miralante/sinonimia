@@ -7,7 +7,7 @@
   outrage:{definition:"Noun: a gross violation of law, decency, or morality; an act of extreme violence or cruelty; something that causes indignation. Verb: to shock or offend deeply, especially by violating someone's dignity or feelings.",synonyms:["atrocity","abuse","violation","affront","indignation","offend deeply"],example:{word:"outrage",text:"The decision outraged residents who felt their rights had been ignored."},exampleSynonym:{word:"offend deeply",text:"The decision offended residents deeply because they felt their rights had been ignored."}},
   outrageous:{definition:"Shocking, offensive, or wildly unreasonable; provoking strong indignation or disbelief.",synonyms:["shocking","scandalous","offensive","unreasonable"],example:{word:"outrageous",text:"The restaurant charged an outrageous price for a glass of water."},exampleSynonym:{word:"unreasonable",text:"The restaurant charged an unreasonable price for a glass of water."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  for(const id of ['outrage-2','outrage-3','outrageous-2','outrageous-3'])if(!DICCIONARIOS.en.some(e=>e.id===id))throw Error('Missing en/'+id);
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!['outrage-2','outrage-3','outrageous-2','outrageous-3'].includes(e.id));
 })();

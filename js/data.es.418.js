@@ -4,7 +4,7 @@
  especulador:{definition:'Persona que formula conjeturas o que realiza operaciones buscando obtener beneficio de cambios de precio o valor.',synonyms:['conjeturador','inversor especulativo','operador especulativo']},
  especular:{definition:'Formar conjeturas sin pruebas suficientes; también, realizar operaciones económicas buscando obtener un beneficio de cambios de precio o valor.',synonyms:['conjeturar','reflexionar','invertir con expectativa de beneficio']},
  especulativa:{definition:'Femenino de especulativo: basado en conjeturas o relacionado con operaciones que buscan beneficio de variaciones de valor.',synonyms:['conjetural','teórica (según el contexto)','de inversión especulativa']},
- especulativamente:{synonyms:['de manera conjetural','con fines especulativos','mediante especulación']},
+ 
  especulativo:{definition:'Basado en conjeturas o relacionado con la especulación económica.',synonyms:['conjetural','teórico (según el contexto)','de inversión especulativa']},
  espedazar:{definition:'Vulgar. Variante de despedazar: hacer pedazos algo.',synonyms:['despedazar','hacer pedazos','destrozar']},
  espedirse:{definition:'Antiguo o regional. Irse o marcharse de un lugar.',synonyms:['marcharse','irse','partir']},
@@ -26,4 +26,4 @@
  espeluznante:{synonyms:['aterrador','terrorífico','horripilante']},
  espeluznar:{definition:'Desordenar o erizar el pelo de la cabeza, de una felpa u otra superficie.',synonyms:['despeinar','despeluzar','erizar']},
  espenjador:{definition:'Regional. Persona que limpia o desempolva; también, utensilio usado para esa tarea.',synonyms:['limpiador','desempolvador','plumero (si es el utensilio)']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

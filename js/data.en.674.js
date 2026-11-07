@@ -7,5 +7,5 @@
   tinsel:{definition:'Shiny, thin strips of material used as a bright decoration; also, something showy but of little real value.',synonyms:['glittering decoration','glitz']},
   'tinea':{definition:'A fungal infection of the skin, scalp, or nails; ringworm.',synonyms:['ringworm','dermatophytosis']},
   'tin-plating':{definition:'The process of coating iron, steel, or another material with a thin layer of tin.',synonyms:['tinning','tin coating']},
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}
 const ids=new Set(['tincada','tincar','tincazo','tindalo','tinellar','tinker-bell','tinkerer-2','tinner-2','tingling-2']);DICCIONARIOS.en=DICCIONARIOS.en.filter(r=>!ids.has(r.id));})();

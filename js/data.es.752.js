@@ -27,7 +27,7 @@
   musgoso:{definition:'Cubierto de musgo o abundante en musgo.',synonyms:['muscíneo','cubierto de musgo']},
   musicable:{definition:'Que puede ponerse en música o adaptarse a una composición musical.',synonyms:['adaptable a la música','susceptible de musicalización']},
   musicalidad:{definition:'Cualidad de lo que tiene ritmo, melodía o carácter musical; aptitud para la música.',synonyms:['sonoridad','ritmo','sentido musical']},
-  musicalmente:{definition:'De manera musical o desde el punto de vista de la música.',synonyms:['en términos musicales','con musicalidad']},
+  
   musicante:{definition:'Músico, especialmente en usos antiguos o despectivos.',synonyms:['músico','instrumentista']},
   musicastro:{definition:'Músico mediocre o de poca habilidad; término despectivo.',synonyms:['mal músico','músico mediocre']},
   musico:{definition:'Persona que se dedica a la música, como intérprete, compositor, director o docente.',synonyms:['intérprete','compositor','instrumentista']},

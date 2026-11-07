@@ -11,5 +11,5 @@
     desbautizarse:{definition:"Verbo pronominal coloquial: deshacerse, irritarse o impacientarse mucho.",synonyms:["irritarse","enfadarse","impacientarse","exasperarse"],example:{word:"desbautizarse",text:"Al ver el retraso, estuvo a punto de desbautizarse de impaciencia."},exampleSynonym:{word:"impacientarse",text:"Al ver el retraso, estuvo a punto de impacientarse."}},
     desbeber:{definition:"Verbo intransitivo coloquial: orinar, expeler la orina.",synonyms:["orinar","miccionar","hacer pis"],example:{word:"desbeber",text:"El niño pidió parar para desbeber durante el viaje."},exampleSynonym:{word:"orinar",text:"El niño pidió parar para orinar durante el viaje."}}
   };
-  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+  for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

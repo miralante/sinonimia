@@ -9,4 +9,4 @@
  punctuous:{definition:'Overly or affectedly solemn, earnest, or ceremonious; also, oily or greasy in older usage.',synonyms:['unctuous','overly solemn','affectedly earnest']},
  puncture:{definition:'To make a small hole with a sharp object; also, the hole or wound so made. In medicine, a puncture may be performed with a needle to draw fluid or take a sample.',synonyms:['pierce','perforate','small hole','needle puncture']},
  'puncture-3':{definition:'A medical procedure in which a needle or other instrument is inserted through tissue to withdraw fluid or obtain a sample.',synonyms:['needle puncture','aspiration (when fluid is withdrawn)','sampling puncture']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

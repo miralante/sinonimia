@@ -1,5 +1,5 @@
 (()=>{const u={
-  molestamente:{synonyms:['de manera molesta','incómodamente']},
+  
   molestar:{definition:'Causar molestia, incomodidad o disgusto a alguien; interrumpir o importunar.',synonyms:['incomodar','importunar','fastidiar']},
   molestia:{definition:'Incomodidad, disgusto o perturbación; también, acción que molesta o estorba.',synonyms:['incomodidad','fastidio','perturbación']},
   molesto:{definition:'Que causa molestia o incomodidad; también, que siente disgusto o irritación.',synonyms:['incómodo','fastidioso','irritado']},

@@ -1,6 +1,6 @@
 (()=>{const u={
  estricote:{definition:'Coloquial. En desorden o a mal traer, especialmente en la locución “traer al estricote”.',synonyms:['a mal traer','en desorden','al retortero']},
- estrictamente:{definition:'Con todo rigor, precisión o exactitud; sin excepciones.',synonyms:['rigurosamente','precisamente','con exactitud']},
+ 
  estrictez:{definition:'Cualidad de estricto: rigor, severidad o exactitud.',synonyms:['rigor','severidad','exactitud']},
  estricto:{definition:'Que se ajusta con rigor a una norma, condición o interpretación y no admite excepciones.',synonyms:['riguroso','severo','preciso']},
  estridente:{definition:'Dicho de un sonido: agudo, fuerte y desagradable al oído.',synonyms:['chillón','chirriante','agudo']},
@@ -24,7 +24,7 @@
  estroncianita:{definition:'Mineral formado principalmente por carbonato de estroncio, empleado en pirotecnia porque colorea la llama de rojo.',synonyms:['carbonato de estroncio natural','mineral de estroncio']},
  estroncio:{definition:'Elemento químico metálico de símbolo Sr y número atómico 38.',synonyms:['Sr','elemento 38']},
  estropajo:{definition:'Utensilio áspero, hecho de fibra vegetal, tela, esponja o metal, usado para fregar.',synonyms:['esponja de fregar','estropajo de esparto','lana de acero (un tipo)']},
- estropajosamente:{definition:'De manera estropajosa: con una pronunciación áspera o poco clara.',synonyms:['ásperamente','con pronunciación defectuosa']},
+ 
  estropajoso:{definition:'Dicho del habla o de la voz: áspero, poco claro o dificultoso, como si se pronunciara con un estropajo en la boca.',synonyms:['áspero al hablar','de pronunciación defectuosa']},
  estropear:{definition:'Deteriorar, dañar o dejar inservible algo; también, causar daño físico a una persona o animal.',synonyms:['dañar','deteriorar','estrozar']},
  estropezar:{definition:'Variante antigua de tropezar: dar con un obstáculo o encontrar dificultades.',synonyms:['tropezar','chocar con un obstáculo']},
@@ -33,4 +33,4 @@
  estropiezo:{definition:'Variante antigua de tropiezo: obstáculo, dificultad o acción de tropezar.',synonyms:['tropiezo','traspié','impedimento']},
  estrucioniforme:{definition:'Zoología. Dicho de un ave: perteneciente al grupo de las corredoras semejantes al avestruz, generalmente incapaces de volar.',synonyms:['ratita','ave corredora','paleognata (grupo más amplio)']},
  estructura:{definition:'Disposición y relación de las partes que forman un todo; también, armazón o sistema que sostiene algo.',synonyms:['organización','armazón','configuración','esquema']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(!r)throw Error('Missing es/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

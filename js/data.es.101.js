@@ -11,5 +11,5 @@
   deslizante:{definition:"Adjetivo: que se desliza o permite deslizarse con facilidad.",synonyms:["resbaladizo","deslizadero","móvil"],example:{word:"deslizante",text:"El cajón tenía un mecanismo deslizante que facilitaba su apertura."},exampleSynonym:{word:"móvil",text:"El cajón tenía un mecanismo móvil que facilitaba su apertura."}},
   deslomar:{definition:"Verbo transitivo: quebrantar, maltratar o cansar mucho los lomos; por extensión, agotar a alguien con un esfuerzo. También se usa como pronominal.",synonyms:["matar de cansancio","agotar","quebrantar la espalda"],example:{word:"deslomar",text:"La jornada de mudanza terminó por deslomar a todo el equipo."},exampleSynonym:{word:"agotar",text:"La jornada de mudanza terminó por agotar a todo el equipo."}}
  };
- for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,fields);delete row.translation;}
+ for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,fields);delete row.translation;}}
 })();

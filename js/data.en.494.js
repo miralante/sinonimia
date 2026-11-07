@@ -18,4 +18,4 @@
  quirquincho:{definition:'A South American armadillo, especially the small hairy armadillo (Chaetophractus nationi).',synonyms:['Andean hairy armadillo','armadillo']},
  quit:{definition:'To leave a job, school, or activity; to stop doing something; or, in an older use, to free someone from an obligation or debt.',synonyms:['resign','give up','stop','release from a debt']},
  quite:{definition:'To the fullest extent or degree; also, fairly or rather, depending on context.',synonyms:['completely','entirely','rather','fairly']}
-};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const [id,p] of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

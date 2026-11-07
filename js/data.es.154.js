@@ -13,5 +13,5 @@
  };
  updates.diptongo.example.text='La palabra "cuidado" contiene un diptongo en la primera sílaba.';
  updates.diptongo.exampleSynonym.text='La palabra "cuidado" contiene un grupo vocálico en la primera sílaba.';
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

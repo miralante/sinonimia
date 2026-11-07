@@ -9,7 +9,7 @@
   dicaz:{definition:"Dicho de una persona o de sus palabras, que es aguda y chistosamente mordaz. Es una voz poco usada.",synonyms:["mordaz","ingenioso","sarcástico"],example:{word:"dicaz",text:"Su comentario dicaz provocó risas en toda la mesa."},exampleSynonym:{word:"mordaz",text:"Su comentario mordaz provocó risas en toda la mesa."}},
   dicharachero:{definition:"Que tiene una conversación animada y ocurrente; también, que suele prodigar dichos ingeniosos.",synonyms:["ocurrente","ingenioso","hablador","gracioso"],example:{word:"dicharachero",text:"El vecino dicharachero animó la sobremesa con sus ocurrencias."},exampleSynonym:{word:"ocurrente",text:"El vecino ocurrente animó la sobremesa con sus ocurrencias."}},
   dicharacho:{definition:"Dicho coloquial bajo, demasiado vulgar o poco decente.",synonyms:["dicho vulgar","grosería","expresión indecente"],example:{word:"dicharacho",text:"El presentador se disculpó por el dicharacho que soltó en directo."},exampleSynonym:{word:"grosería",text:"El presentador se disculpó por la grosería que soltó en directo."}},
-  dichosamente:{definition:"Con dicha o felicidad; por fortuna.",synonyms:["felizmente","por fortuna","afortunadamente"],example:{word:"dichosamente",text:"Dichosamente, la tormenta terminó antes del amanecer."},exampleSynonym:{word:"afortunadamente",text:"Afortunadamente, la tormenta terminó antes del amanecer."}}
+  
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(!row)throw Error('Missing es/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
 })();

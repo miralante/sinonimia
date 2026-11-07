@@ -6,4 +6,4 @@
  'red-handed':{definition:'Caught in the act of committing a crime or other wrongdoing.',synonyms:['caught in the act','caught committing a crime']},
  redhead:{definition:'A person or animal with red or reddish hair; also, a North American diving duck of the genus Aythya.',synonyms:['red-haired person','ginger','redhead duck']},
  redheaded:{definition:'Having red or reddish hair.',synonyms:['red-haired','ginger-haired']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

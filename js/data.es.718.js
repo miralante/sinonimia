@@ -2,7 +2,7 @@
   molusco:{synonyms:['animal de cuerpo blando','invertebrado con manto']},
   momeador:{definition:'Que hace momos o gestos; también, persona que los hace.',synonyms:['gesticulador','momeador']},
   momear:{definition:'Hacer momos o gestos, generalmente de burla o de juego.',synonyms:['hacer muecas','gesticular']},
-  momentaneamente:{definition:'Por un momento o durante un tiempo breve, de manera pasajera.',synonyms:['temporalmente','brevemente','por un instante']},
+  
   momentaneo:{synonyms:['pasajero','transitorio','temporal']},
   momeria:{definition:'Burla o broma hecha mediante gestos o acciones ridículas.',synonyms:['burla','farsa','momería']},
   momero:{definition:'Que hace momos o gestos burlescos; también, quien los hace.',synonyms:['gesticulador','burlón']},

@@ -6,7 +6,7 @@
   orchestra:{definition:"A large group of musicians who play different instruments together, usually under a conductor; also, the musicians or seating area on a theatre's main floor, and the chorus space in an ancient Greek theatre.",synonyms:["musical ensemble","symphony orchestra","theatre stalls"],example:{word:"orchestra",text:"The orchestra rehearsed before the performance."},exampleSynonym:{word:"musical ensemble",text:"The musical ensemble rehearsed before the performance."}},
   'orchestra-2':{definition:"The semicircular space in front of the stage in an ancient Greek theatre, where the chorus performed.",synonyms:["chorus space","Greek theatre orchestra"],example:{word:"orchestra",text:"The chorus danced in the orchestra of the ancient theatre."},exampleSynonym:{word:"chorus space",text:"The chorus danced in the chorus space of the ancient theatre."}}
  };
- for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);Object.assign(row,patch);delete row.translation;}
+ for(const [id,patch] of Object.entries(updates)){const row=DICCIONARIOS.en.find(e=>e.id===id);if(row){Object.assign(row,patch);delete row.translation;}}
  for(const id of ['orchard-2','orchard-3','orchard-4','orchard-5','orchestra-3']){if(!DICCIONARIOS.en.some(e=>e.id===id))throw Error('Missing en/'+id);}
  DICCIONARIOS.en=DICCIONARIOS.en.filter(e=>!['orchard-2','orchard-3','orchard-4','orchard-5','orchestra-3'].includes(e.id));
 })();

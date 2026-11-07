@@ -1,9 +1,9 @@
 (()=>{const u={
   inmiscuir:{definition:'Intervenir o entrometerse en asuntos ajenos, a menudo sin haber sido invitado.',synonyms:['entrometerse','meterse','intervenir']},
   investigable:{definition:'Que puede ser investigado.',synonyms:['susceptible de investigación','que se puede investigar']},
-  invariablemente:{definition:'Siempre, sin excepción o sin variación.',synonyms:['siempre','sin excepción','de manera constante']},
+  
   insolar:{definition:'Exponer algo o a alguien a la acción del sol; también, sufrir una insolación.',synonyms:['asolear','exponer al sol']},
-  intemperadamente:{definition:'Sin moderación ni templanza.',synonyms:['desmedidamente','sin moderación']},
+  
   intitular:{definition:'Poner título o nombre a una obra, documento o asunto.',synonyms:['titular','dar nombre']},
   insudar:{definition:'Exudar o desprender lentamente sudor o humedad.',synonyms:['exudar','transpirar']},
   intonso:{definition:'Dicho del cabello: que no está cortado; antiguamente, dicho de un clérigo, que no había recibido la tonsura.',synonyms:['sin cortar (cabello)','sin tonsura (uso histórico)']},

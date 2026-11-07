@@ -1,0 +1,3 @@
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error('missing en');
+{const x={"id":"round3239-weariness-boredom","word":"weariness","image":{"id":7024,"alt":"A person looks bored after hearing the same complaint many times."},"definition":"A feeling of being bored by something heard too often.","synonyms":["boredom"],"example":{"word":"weariness","text":"Her weariness with the repeated complaints was clear."},"exampleSynonym":{"word":"boredom","text":"Her boredom with the repeated complaints was clear."},"situacion":"vida-diaria"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+})();

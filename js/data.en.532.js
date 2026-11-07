@@ -9,4 +9,4 @@
  redden:{definition:'To become red or make something red, especially through heat, color, or strong emotion.',synonyms:['turn red','become red','flush']},
  reddish:{definition:'Having a red tint or hue, without being fully red.',synonyms:['red-tinged','ruddy','somewhat red']},
  redecorating:{definition:'The act or process of decorating a room, building, or other space again.',synonyms:['refurbishing','redecorating a room','renewed decoration']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

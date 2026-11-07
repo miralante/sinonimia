@@ -5,4 +5,4 @@
  'ream-3':{definition:'To enlarge or smooth a hole with a reamer, a cutting tool.',synonyms:['bore out','enlarge a hole','ream out']},
  reanimate:{definition:'To restore consciousness, activity, or apparent life to someone or something; in fiction, to bring a dead person back to life.',synonyms:['revive','resuscitate','restore to life']},
  reappropriate:{definition:'To take back or appropriate again; especially, to reclaim a cultural object, practice, or term for a new use or meaning.',synonyms:['reclaim','take back','appropriate anew']}
-};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(!r)throw Error('Missing en/'+id);Object.assign(r,p);delete r.translation;}})();
+};for(const[id,p]of Object.entries(u)){const r=DICCIONARIOS.en.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}})();

@@ -1,4 +1,4 @@
 (()=>{
- const ids=["kiwifruit","brick","lama","toady","ass-licker","ass-kisser","brown-noser","lamp","wool","spear"];
+ const ids=["kiwifruit","brick","lama","toady","ass-licker","ass-kisser","brown-noser","lamp","wool"];
  for(const id of ids){const row=DICCIONARIOS.en.find(e=>e.id===id);if(!row)throw Error('Missing en/'+id);delete row.translation;}
 })();

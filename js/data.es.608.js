@@ -19,7 +19,7 @@
   infundibulo:{synonyms:['embudo','pieza cónica para trasvasar']},
   inglete:{synonyms:['ensamble a 45 grados','corte en inglete','unión en ángulo']},
   inmaculado:{synonyms:['limpio','sin mancha','impoluto']},
-  inmaculadamente:{synonyms:['sin mancha','impecablemente']},
+  
   inicuo:{definition:'Contrario a la justicia o a la equidad; muy injusto.',synonyms:['injusto','inicuo','arbitrario']},
   injundia:{definition:'Enjundia: sustancia o energía; también, importancia, valor o interés de algo.',synonyms:['enjundia','sustancia','importancia']},
   ineficiente:{synonyms:['poco eficaz','de bajo rendimiento']}

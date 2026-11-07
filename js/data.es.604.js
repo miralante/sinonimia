@@ -18,10 +18,10 @@
   gnomon:{definition:'Varilla o indicador cuya sombra sirve para señalar la hora solar en un reloj de sol.',synonyms:['estilo de reloj de sol','indicador solar']},
   gnomonica:{definition:'Arte y ciencia de construir y usar relojes de sol.',synonyms:['gnomónica','ciencia de los relojes de sol']},
   gnoseologico:{synonyms:['epistemológico','relativo a la gnoseología']},
-  gitanamente:{synonyms:['con gitanería','con zalamería']},
+  
   gitanesco:null,
   ginoves:null,
   glide:null,
   goja:null,
   goldre:null
-};for(const[id,p]of Object.entries(u)){if(p===null)continue;const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);delete r.translation;}}const ids=new Set(Object.entries(u).filter(([,p])=>p===null).map(([id])=>id));DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();
+};for(const[id,p]of Object.entries(u)){if(p===null)continue;const r=DICCIONARIOS.es.find(x=>x.id===id);if(r){Object.assign(r,p);if(r)if(r)delete r.translation;}}const ids=new Set(Object.entries(u).filter(([,p])=>p===null).map(([id])=>id));DICCIONARIOS.es=DICCIONARIOS.es.filter(r=>!ids.has(r.id));})();
