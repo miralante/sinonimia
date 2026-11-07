@@ -59,15 +59,15 @@ async function readResultsInfo(page) {
   return ((await page.locator('#results-info').textContent()) || '').trim();
 }
 
-/** Type into the search box the way a person does.  The input is debounced
+/** Type into the search box with real keyboard events. The input is debounced
     (150 ms in js/app.js), so callers still have to wait for the list to
     react before asserting on it. */
 async function setSearch(page, value) {
-  await page.evaluate((text) => {
-    const el = document.getElementById('search');
-    el.value = text;
-    el.dispatchEvent(new Event('input', { bubbles: true }));
-  }, value);
+  const search = page.locator('#search');
+  await search.click();
+  await search.press('ControlOrMeta+A');
+  await search.press('Backspace');
+  if (value) await search.pressSequentially(value);
 }
 
 /** Wait for the game view to be visible with at least one .game-option button.
@@ -180,6 +180,27 @@ test('2 — word cards link to detail view', async ({ browser }) => {
 // ===========================================================================
 // SEARCH
 // ===========================================================================
+
+test('search accepts keyboard input while the dictionary is loading', async ({ browser }) => {
+  const page = await openAppAtListView(browser);
+  const search = page.locator('#search');
+
+  // The search field is visible before the dictionary index is ready. Keep
+  // this interaction ahead of waitForCards so startup cannot hide a focus or
+  // input regression behind a fully loaded page.
+  await search.click();
+  await search.pressSequentially('cefalea');
+
+  await expect(search).toHaveValue('cefalea');
+  await page.waitForFunction(
+    () => {
+      const count = document.querySelectorAll('#word-list .card').length;
+      return count > 0 && count < 60;
+    },
+    { timeout: 30000 }
+  );
+  await expect(page.locator('#word-list .card')).toContainText(/cefalea/i);
+});
 
 test('3 — typing in search filters the word list', async ({ browser }) => {
   const page = await openAppAtListView(browser);
