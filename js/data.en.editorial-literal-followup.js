@@ -441,4 +441,24 @@
 {const e=en.find(x=>x.id==="conflict");if(!e)throw Error("missing en/conflict");e.exampleSynonym={word:"may be incompatible",text:"The two reports may be incompatible about when the outage began."};}
 {const e=en.find(x=>x.id==="crush-defeat");if(!e)throw Error("missing en/crush-defeat");e.exampleSynonym={word:"overwhelmed",text:"The army overwhelmed the rebellion."};}
 {const e=en.find(x=>x.id==="cubicle-office");if(!e)throw Error("missing en/cubicle-office");e.exampleSynonym={word:"office booth",text:"He worked in an office booth near the window."};}
+{const e=en.find(x=>x.id==="cabalistic-esoteric");if(!e)throw Error("missing en/cabalistic-esoteric");e.exampleSynonym={word:"esoteric",text:"The instructions were esoteric to new members."};}
+{const e=en.find(x=>x.id==="compare");if(!e)throw Error("missing en/compare");e.exampleSynonym={word:"set the two offers side by side",text:"Set the two offers side by side before choosing a lender."};}
+{const e=en.find(x=>x.id==="catalanize");if(!e)throw Error("missing en/catalanize");e.exampleSynonym={word:"make its cultural program Catalan",text:"The school worked to make its cultural program Catalan."};}
+{const e=en.find(x=>x.id==="crumble-dessert");if(!e)throw Error("missing en/crumble-dessert");e.exampleSynonym={word:"fruit crumble",text:"We shared a fruit crumble made with apples."};}
+{const e=en.find(x=>x.id==="crush-upset");if(!e)throw Error("missing en/crush-upset");e.exampleSynonym={word:"devastated",text:"The harsh criticism devastated him."};}
+{const e=en.find(x=>x.id==="crystallize-sugar");if(!e)throw Error("missing en/crystallize-sugar");e.exampleSynonym={word:"sugar-coated",text:"They sugar-coated orange peel for dessert."};}
+{const e=en.find(x=>x.id==="catechize");if(!e)throw Error("missing en/catechize");e.exampleSynonym={word:"instruct the new members in the faith",text:"The missionary began to instruct the new members in the faith."};}
+{const e=en.find(x=>x.id==="cruise-verb-speed");if(!e)throw Error("missing en/cruise-verb-speed");e.exampleSynonym={word:"travel steadily",text:"The train can travel steadily through the valley."};}
+{const e=en.find(x=>x.id==="chattering");if(!e)throw Error("missing en/chattering");e.exampleSynonym={word:"teeth were chattering",text:"His teeth were chattering from the cold."};}
+{const e=en.find(x=>x.id==="catalyze");if(!e)throw Error("missing en/catalyze");e.exampleSynonym={word:"accelerates the reaction",text:"The catalyst accelerates the reaction."};}
+{const e=en.find(x=>x.id==="crutch-figurative");if(!e)throw Error("missing en/crutch-figurative");e.exampleSynonym={word:"prop",text:"He used humor as a prop."};}
+{const e=en.find(x=>x.id==="clothy");if(!e)throw Error("missing en/clothy");e.exampleSynonym={word:"clothlike",text:"The fabric had a soft, slightly clothlike surface."};}
+{const e=en.find(x=>x.id==="cambrian-rock");if(!e)throw Error("missing en/cambrian-rock");e.exampleSynonym={word:"Cambrian fossil",text:"They found a Cambrian fossil near the coast."};}
+{const e=en.find(x=>x.id==="causticize");if(!e)throw Error("missing en/causticize");e.exampleSynonym={word:"make the solution caustic",text:"The process can make the solution caustic."};}
+{const e=en.find(x=>x.id==="coffee-pulp");if(!e)throw Error("missing en/coffee-pulp");e.exampleSynonym={word:"coffee cherry pulp",text:"The farmer composted coffee cherry pulp after processing the beans."};}
+{const e=en.find(x=>x.id==="cruelty-legal");if(!e)throw Error("missing en/cruelty-legal");e.exampleSynonym={word:"marital cruelty",text:"The court considered evidence of marital cruelty."};}
+{const e=en.find(x=>x.id==="cup-competition");if(!e)throw Error("missing en/cup-competition");e.exampleSynonym={word:"cup tournament",text:"They reached the cup tournament final for the first time."};}
+{const e=en.find(x=>x.id==="chalcographic");if(!e)throw Error("missing en/chalcographic");e.exampleSynonym={word:"prints pertaining to chalcography",text:"The archive preserves prints pertaining to chalcography."};}
+{const e=en.find(x=>x.id==="countrywoman");if(!e)throw Error("missing en/countrywoman");e.exampleSynonym={word:"female compatriot",text:"She met a female compatriot from her home region at the market."};}
+{const e=en.find(x=>x.id==="camber-wheel");if(!e)throw Error("missing en/camber-wheel");e.exampleSynonym={word:"wheel angle",text:"The mechanic adjusted the wheel angle."};}
 })();
