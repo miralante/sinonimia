@@ -17027,11 +17027,11 @@
       ],
       "example": {
         "word": "illegal search",
-        "text": "The court ruled that the search was illegal."
+        "text": "The court ruled that police had carried out an illegal search."
       },
       "exampleSynonym": {
         "word": "unlawful search",
-        "text": "The court ruled that the search was unlawful."
+        "text": "The court ruled that police had carried out an unlawful search."
       }
     }
   },
@@ -21201,7 +21201,7 @@
       },
       "exampleSynonym": {
         "word": "formation of a company",
-        "text": "The business completed its formation as a company last month."
+        "text": "The business completed the formation of a company last month."
       }
     }
   },
@@ -34485,7 +34485,7 @@
       },
       "exampleSynonym": {
         "word": "place side by side",
-        "text": "Artists often place light and dark colors side by side."
+        "text": "The gallery will place side by side two prints by the same artist."
       }
     }
   },
@@ -41349,7 +41349,7 @@
       },
       "exampleSynonym": {
         "word": "passive investor in a partnership",
-        "text": "As a passive investor in the partnership, she invested money but did not manage the business."
+        "text": "As a passive investor in a partnership, she contributed funds but did not manage the business."
       },
       "translation": {
         "es": "socio comanditario; socio cuya responsabilidad suele limitarse a su inversión"
@@ -41881,7 +41881,7 @@
       },
       "exampleSynonym": {
         "word": "able to be liquefied",
-        "text": "The gas can be turned into a liquid under high pressure."
+        "text": "At high pressure, the gas is able to be liquefied."
       },
       "translation": {
         "es": "licuable; que puede convertirse en líquido"
@@ -50371,7 +50371,7 @@
       },
       "exampleSynonym": {
         "word": "treating a normal part of life as a medical problem",
-        "text": "Some experts criticize treating sadness as a medical problem."
+        "text": "Some experts criticize treating a normal part of life as a medical problem, such as ordinary sadness."
       }
     }
   },
@@ -136874,11 +136874,11 @@
       ],
       "example": {
         "word": "khalifal",
-        "text": "The caliphal court moved to the new capital."
+        "text": "Historians described the new court as khalifal in style."
       },
       "exampleSynonym": {
         "word": "caliphal",
-        "text": "The court of the caliph moved to the new capital."
+        "text": "The caliphal court of the ruler moved to the new capital."
       },
       "situacion": "history"
     }
