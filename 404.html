@@ -67,17 +67,7 @@
     <p>La ruta que has visitado no existe. La página principal de Sinonimia sigue disponible.</p>
     <a href="./">Volver a Sinonimia</a>
   </main>
-  <script src="js/sw-register.js"></script>
-  <script>
-  // Hash-router apps: redirect to index.html which restores the user's
-  // language from localStorage / navigator.language (same logic as the
-  // initialLanguage() path in app.js). Using index.html instead of ./
-  // avoids a loop on hosts that serve 404.html for any missing path.
-  var saved = localStorage.getItem('currentLanguage');
-  var lang = saved || navigator.language || 'es';
-  if (!saved && lang.startsWith('en')) lang = 'en';
-  else if (!saved) lang = 'es';
-  window.location.replace('index.html#/' + lang + '/');
-  </script>
+  <script src="/js/sw-register.js"></script>
+  <script src="/js/404-redirect.js"></script>
 </body>
 </html>

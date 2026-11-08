@@ -330,7 +330,7 @@ if (fs.existsSync(html404Path)) {
 }
 
 htmlPages.forEach(function (page) {
-  if (!/<script src="js\/dictionary-data\.js"><\/script>/.test(page.content)) {
+  if (page.file === "index.html" && !/<script src="js\/dictionary-data\.js"><\/script>/.test(page.content)) {
     fail(page.file + ": missing dictionary-data.js script tag");
   }
   // Only index.html loads dictionary content; 404.html just needs the language list.
