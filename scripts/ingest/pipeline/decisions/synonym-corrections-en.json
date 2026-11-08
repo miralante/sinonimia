@@ -54097,7 +54097,7 @@
       },
       "exampleSynonym": {
         "word": "fish with a trawl",
-        "text": "The boat fished with a trawl for cod off the coast."
+        "text": "The boat began to fish with a trawl for cod off the coast."
       }
     }
   },
@@ -54521,11 +54521,11 @@
       ],
       "example": {
         "word": "trial in absentia",
-        "text": "The court allowed the trial in absentia to continue."
+        "text": "The court permitted the trial in absentia after the defendant refused to appear."
       },
       "exampleSynonym": {
-        "word": "trial without the accused",
-        "text": "The court allowed the trial without the accused to continue."
+        "word": "trial in the accused’s absence",
+        "text": "The judges permitted a trial in the accused’s absence after the defendant refused to appear."
       },
       "translation": {
         "es": "juicio-en-rebeldia"
@@ -56068,11 +56068,11 @@
       ],
       "example": {
         "word": "tsunami",
-        "text": "A tsunami flooded the coast after the earthquake."
+        "text": "A tsunami reached the coast after the undersea earthquake."
       },
       "exampleSynonym": {
         "word": "huge sea wave",
-        "text": "A huge sea wave flooded the coast after the earthquake."
+        "text": "A huge sea wave reached the coast after the undersea earthquake."
       }
     }
   },
@@ -58485,7 +58485,7 @@
       },
       "exampleSynonym": {
         "word": "constitutional violation",
-        "text": "The court ruled on the constitutional violation."
+        "text": "The court ruled that the law was a constitutional violation."
       }
     }
   },
@@ -59022,11 +59022,11 @@
       ],
       "example": {
         "word": "undergo",
-        "text": "She will undergo surgery next week."
+        "text": "She will undergo a major operation at the regional hospital next week."
       },
       "exampleSynonym": {
-        "word": "experience",
-        "text": "She will experience surgery next week."
+        "word": "go through",
+        "text": "She will go through a major operation at the regional hospital next week."
       }
     }
   },
@@ -61351,11 +61351,11 @@
       ],
       "example": {
         "word": "unionize",
-        "text": "The workers voted to unionize their workplace."
+        "text": "The employees voted to unionize the workplace before contract talks."
       },
       "exampleSynonym": {
-        "word": "join a trade union",
-        "text": "The workers voted to join a trade union."
+        "word": "organize into a union",
+        "text": "The employees voted to organize into a union before contract talks."
       }
     }
   },
@@ -61897,11 +61897,11 @@
       ],
       "example": {
         "word": "unlicensed",
-        "text": "The inspection found an unlicensed restaurant."
+        "text": "The inspection found an unlicensed restaurant operating downtown."
       },
       "exampleSynonym": {
         "word": "without a license",
-        "text": "The inspection found a restaurant operating without a license."
+        "text": "The inspection found a restaurant operating without a license downtown."
       }
     }
   },
@@ -65761,7 +65761,7 @@
       },
       "exampleSynonym": {
         "word": "develop as an urban area",
-        "text": "The plan would develop the area around the new station as an urban area."
+        "text": "The plan would develop the outskirts as an urban area."
       }
     }
   },
@@ -66172,11 +66172,11 @@
       ],
       "example": {
         "word": "usufruct",
-        "text": "She received the usufruct of the cottage for her lifetime."
+        "text": "The legal usufruct gave her a right of use and enjoyment of the cottage for life."
       },
       "exampleSynonym": {
-        "word": "right to use and benefit from property",
-        "text": "She received the right to use and benefit from the cottage for her lifetime."
+        "word": "right of use and enjoyment",
+        "text": "The legal usufruct gave her a right of use and enjoyment of the cottage for life."
       }
     }
   },
