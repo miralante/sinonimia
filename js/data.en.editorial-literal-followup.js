@@ -421,4 +421,24 @@
 {const e=en.find(x=>x.id==="crystallize-figurative");if(!e)throw Error("missing en/crystallize-figurative");e.exampleSynonym={word:"clarify",text:"The meeting helped clarify their plans."};}
 {const e=en.find(x=>x.id==="camouflage-verb");if(!e)throw Error("missing en/camouflage-verb");e.exampleSynonym={word:"disguise",text:"They disguised the entrance with branches."};}
 {const e=en.find(x=>x.id==="casuistic");if(!e)throw Error("missing en/casuistic");e.exampleSynonym={word:"casuistical",text:"The statute takes a casuistical approach to every possible exception."};}
+{const e=en.find(x=>x.id==="contextualize");if(!e)throw Error("missing en/contextualize");e.exampleSynonym={word:"put the letter into context",text:"The historian worked to put the letter into context using the events of that year."};}
+{const e=en.find(x=>x.id==="canvas-painting");if(!e)throw Error("missing en/canvas-painting");e.exampleSynonym={word:"canvas painting",text:"The gallery displayed a large canvas painting."};}
+{const e=en.find(x=>x.id==="canker-metaphor");if(!e)throw Error("missing en/canker-metaphor");e.exampleSynonym={word:"corrupting influence",text:"The scandal became a corrupting influence in the organization."};}
+{const e=en.find(x=>x.id==="child-support");if(!e)throw Error("missing en/child-support");e.exampleSynonym={word:"financial support for their child",text:"The parents agreed on financial support for their child after reviewing their custody arrangement."};}
+{const e=en.find(x=>x.id==="cultivated-crop");if(!e)throw Error("missing en/cultivated-crop");e.exampleSynonym={word:"cultivated plants",text:"Cultivated plants filled the greenhouse."};}
+{const e=en.find(x=>x.id==="catheterization");if(!e)throw Error("missing en/catheterization");e.exampleSynonym={word:"catheter insertion",text:"Catheter insertion allowed the doctors to assess the patient’s heart."};}
+{const e=en.find(x=>x.id==="caesura-music");if(!e)throw Error("missing en/caesura-music");e.exampleSynonym={word:"musical pause",text:"The composer marked a musical pause before the final chord."};}
+{const e=en.find(x=>x.id==="cella");if(!e)throw Error("missing en/cella");e.exampleSynonym={word:"temple chamber",text:"The statue stood in the temple chamber."};}
+{const e=en.find(x=>x.id==="crop-bird-organ");if(!e)throw Error("missing en/crop-bird-organ");e.exampleSynonym={word:"craw",text:"The bird stored seeds in its craw."};}
+{const e=en.find(x=>x.id==="canon-literary");if(!e)throw Error("missing en/canon-literary");e.exampleSynonym={word:"literary canon",text:"The play entered the literary canon."};}
+{const e=en.find(x=>x.id==="cottony");if(!e)throw Error("missing en/cottony");e.exampleSynonym={word:"fluffy",text:"The plant has fluffy white fibers along its stem."};}
+{const e=en.find(x=>x.id==="crop-group");if(!e)throw Error("missing en/crop-group");e.exampleSynonym={word:"batch",text:"A new batch of students joined the program."};}
+{const e=en.find(x=>x.id==="cringe-noun");if(!e)throw Error("missing en/cringe-noun");e.exampleSynonym={word:"awkward content",text:"The video became awkward content after viewers shared it online."};}
+{const e=en.find(x=>x.id==="criticism-disapproval");if(!e)throw Error("missing en/criticism-disapproval");e.exampleSynonym={word:"censure",text:"The plan faced censure from residents."};}
+{const e=en.find(x=>x.id==="campaign-verb");if(!e)throw Error("missing en/campaign-verb");e.exampleSynonym={word:"advocated",text:"They advocated for cleaner air."};}
+{const e=en.find(x=>x.id==="cult-following");if(!e)throw Error("missing en/cult-following");e.exampleSynonym={word:"cult favorite",text:"The film became a cult favorite among students."};}
+{const e=en.find(x=>x.id==="convict");if(!e)throw Error("missing en/convict");e.exampleSynonym={word:"find a defendant guilty",text:"The court may find a defendant guilty only if the evidence meets the required standard."};}
+{const e=en.find(x=>x.id==="conflict");if(!e)throw Error("missing en/conflict");e.exampleSynonym={word:"may be incompatible",text:"The two reports may be incompatible about when the outage began."};}
+{const e=en.find(x=>x.id==="crush-defeat");if(!e)throw Error("missing en/crush-defeat");e.exampleSynonym={word:"overwhelmed",text:"The army overwhelmed the rebellion."};}
+{const e=en.find(x=>x.id==="cubicle-office");if(!e)throw Error("missing en/cubicle-office");e.exampleSynonym={word:"office booth",text:"He worked in an office booth near the window."};}
 })();
