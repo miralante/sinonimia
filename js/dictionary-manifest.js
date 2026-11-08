@@ -2999,6 +2999,6 @@ window.SINONIMIA_DICTIONARY_SHARDS = {
     { file: "js/data.en.editorial-categories-followup.js", src: "js/data.en.editorial-categories-followup.js?v=cc73983674" },
     { file: "js/data.en.editorial-categories-followup2.js", src: "js/data.en.editorial-categories-followup2.js?v=bf8dce02a3" },
     { file: "js/data.en.editorial-template-context.js", src: "js/data.en.editorial-template-context.js?v=064422556d" },
-    { file: "js/data.en.editorial-literal-followup.js", src: "js/data.en.editorial-literal-followup.js?v=ffef114490" },
+    { file: "js/data.en.editorial-literal-followup.js", src: "js/data.en.editorial-literal-followup.js?v=23bab96dbd" },
   ],
 };

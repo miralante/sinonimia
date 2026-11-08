@@ -401,4 +401,24 @@
 {const e=en.find(x=>x.id==="caique");if(!e)throw Error("missing en/caique");e.example={word:"caique",text:"They crossed the harbor in a caique."};e.exampleSynonym={word:"skiff",text:"They crossed the harbor in a skiff."};}
 {const e=en.find(x=>x.id==="crusade");if(!e)throw Error("missing en/crusade");e.example={word:"crusade",text:"The crusade began in the eleventh century."};e.exampleSynonym={word:"holy war",text:"The holy war began in the eleventh century."};}
 {const e=en.find(x=>x.id==="culminate");if(!e)throw Error("missing en/culminate");e.example={word:"culminate",text:"The talks culminated in a new agreement."};e.exampleSynonym={word:"peak",text:"The talks reached a peak with a new agreement."};}
+{const e=en.find(x=>x.id==="crooked-dishonest");if(!e)throw Error("missing en/crooked-dishonest");e.exampleSynonym={word:"dishonest",text:"The dishonest official took money from bidders."};}
+{const e=en.find(x=>x.id==="cross-examination");if(!e)throw Error("missing en/cross-examination");e.exampleSynonym={word:"cross-questioning",text:"The lawyer began cross-questioning the witness."};}
+{const e=en.find(x=>x.id==="crush");if(!e)throw Error("missing en/crush");e.exampleSynonym={word:"squash",text:"Squash the garlic with the flat knife."};}
+{const e=en.find(x=>x.id==="calico-cat");if(!e)throw Error("missing en/calico-cat");e.exampleSynonym={word:"calico cat",text:"The calico cat slept beside the window."};}
+{const e=en.find(x=>x.id==="casserole-2");if(!e)throw Error("missing en/casserole-2");e.exampleSynonym={word:"baking dish",text:"She served the casserole from its baking dish straight from the oven."};}
+{const e=en.find(x=>x.id==="cephalic");if(!e)throw Error("missing en/cephalic");e.exampleSynonym={word:"cranial",text:"The cranial region includes the brain and skull."};}
+{const e=en.find(x=>x.id==="cumbersome-system");if(!e)throw Error("missing en/cumbersome-system");e.exampleSynonym={word:"unwieldy",text:"The old filing system is unwieldy."};}
+{const e=en.find(x=>x.id==="cuff-blow");if(!e)throw Error("missing en/cuff-blow");e.exampleSynonym={word:"slap",text:"The boxer landed a slap on his opponent."};}
+{const e=en.find(x=>x.id==="chancellor");if(!e)throw Error("missing en/chancellor");e.exampleSynonym={word:"senior official",text:"The senior official addressed the university graduates."};}
+{const e=en.find(x=>x.id==="countermark-2");if(!e)throw Error("missing en/countermark-2");e.exampleSynonym={word:"mark each item again",text:"The inspector will mark each item again after checking it."};}
+{const e=en.find(x=>x.id==="counterseal-2");if(!e)throw Error("missing en/counterseal-2");e.exampleSynonym={word:"seal the certificate again",text:"The clerk will seal the certificate again after verifying the first seal."};}
+{const e=en.find(x=>x.id==="crisp-air");if(!e)throw Error("missing en/crisp-air");e.exampleSynonym={word:"brisk",text:"They walked in the brisk morning air."};}
+{const e=en.find(x=>x.id==="celerity");if(!e)throw Error("missing en/celerity");e.exampleSynonym={word:"rapidity",text:"The clerk handled the request with remarkable rapidity."};}
+{const e=en.find(x=>x.id==="click-and-collect");if(!e)throw Error("missing en/click-and-collect");e.exampleSynonym={word:"collect in store",text:"She chose collect in store when ordering groceries online."};}
+{const e=en.find(x=>x.id==="clay-pot");if(!e)throw Error("missing en/clay-pot");e.exampleSynonym={word:"unglazed earthenware pot",text:"They stored drinking water in an unglazed earthenware pot."};}
+{const e=en.find(x=>x.id==="corner-pad");if(!e)throw Error("missing en/corner-pad");e.exampleSynonym={word:"corner protector",text:"The bookbinder fitted a metal corner protector to the cover."};}
+{const e=en.find(x=>x.id==="cross-verb");if(!e)throw Error("missing en/cross-verb");e.exampleSynonym={word:"go across",text:"They go across the bridge at sunrise."};}
+{const e=en.find(x=>x.id==="crystallize-figurative");if(!e)throw Error("missing en/crystallize-figurative");e.exampleSynonym={word:"clarify",text:"The meeting helped clarify their plans."};}
+{const e=en.find(x=>x.id==="camouflage-verb");if(!e)throw Error("missing en/camouflage-verb");e.exampleSynonym={word:"disguise",text:"They disguised the entrance with branches."};}
+{const e=en.find(x=>x.id==="casuistic");if(!e)throw Error("missing en/casuistic");e.exampleSynonym={word:"casuistical",text:"The statute takes a casuistical approach to every possible exception."};}
 })();
