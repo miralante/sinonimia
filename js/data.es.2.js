@@ -10830,7 +10830,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"despelotar-2","word":"Despelota
   {
     id: "dotar-qualities",
     word: "dotar",
-    image: { id: 0, alt: "A person receives a skill or quality" },
+    image: { id: 24613, alt: "Una persona aprende una habilidad durante una formación práctica." },
     definition: "Dar a una persona una cualidad o capacidad.",
     synonyms: ["conceder una cualidad","dar"],
     example: { word: "dotó al equipo de", text: "La práctica dotó al equipo de más confianza." },
@@ -10900,7 +10900,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"despelotar-2","word":"Despelota
   {
     id: "dramatizar-exaggerate",
     word: "dramatizar",
-    image: { id: 0, alt: "A person describes a problem" },
+    image: { id: 11319, alt: "Una escena teatral muestra una actuación dramática." },
     definition: "Dar demasiada importancia a un problema o contarlo como si fuera más grave.",
     synonyms: ["exagerar","hacer más dramático"],
     example: { word: "No dramatices", text: "No dramatices el retraso: llegaremos a tiempo." },
@@ -10940,7 +10940,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"despelotar-2","word":"Despelota
   {
     id: "drenaje-device",
     word: "drenaje",
-    image: { id: 0, alt: "A tube drains fluid from the body" },
+    image: { id: 32252, alt: "Un catéter permite extraer líquido del cuerpo." },
     definition: "Tubo o aparato que permite sacar el líquido acumulado en una zona del cuerpo.",
     synonyms: ["tubo de drenaje","dispositivo para extraer líquidos"],
     example: { word: "El drenaje", text: "El drenaje retiró el líquido de la herida." },
@@ -10960,7 +10960,7 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([{"id":"despelotar-2","word":"Despelota
   {
     id: "droga-figurative",
     word: "droga",
-    image: { id: 0, alt: "A person is absorbed in an activity" },
+    image: { id: 36717, alt: "Una persona está obsesionada con una idea o actividad." },
     definition: "Afición muy intensa que alguien siente que necesita y le cuesta dejar.",
     synonyms: ["obsesión","afición intensa"],
     example: { word: "una droga", text: "Para él, el fútbol es una droga." },
