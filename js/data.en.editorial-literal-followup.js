@@ -461,4 +461,24 @@
 {const e=en.find(x=>x.id==="chalcographic");if(!e)throw Error("missing en/chalcographic");e.exampleSynonym={word:"prints pertaining to chalcography",text:"The archive preserves prints pertaining to chalcography."};}
 {const e=en.find(x=>x.id==="countrywoman");if(!e)throw Error("missing en/countrywoman");e.exampleSynonym={word:"female compatriot",text:"She met a female compatriot from her home region at the market."};}
 {const e=en.find(x=>x.id==="camber-wheel");if(!e)throw Error("missing en/camber-wheel");e.exampleSynonym={word:"wheel angle",text:"The mechanic adjusted the wheel angle."};}
+{const e=en.find(x=>x.id==="calvinism-adherence");if(!e)throw Error("missing en/calvinism-adherence");e.exampleSynonym={word:"adherence to Calvinism",text:"Her family showed adherence to Calvinism."};}
+{const e=en.find(x=>x.id==="criticality-nuclear");if(!e)throw Error("missing en/criticality-nuclear");e.exampleSynonym={word:"critical state",text:"The reactor reached a critical state during testing."};}
+{const e=en.find(x=>x.id==="castration");if(!e)throw Error("missing en/castration");e.exampleSynonym={word:"emasculation",text:"The veterinarian discussed the emasculation of the animal."};}
+{const e=en.find(x=>x.id==="castilianize");if(!e)throw Error("missing en/castilianize");e.exampleSynonym={word:"Castilianise",text:"The editors will Castilianise the loanword before publication."};}
+{const e=en.find(x=>x.id==="cupel-verb");if(!e)throw Error("missing en/cupel-verb");e.exampleSynonym={word:"assayed",text:"The workers assayed the silver before weighing it."};}
+{const e=en.find(x=>x.id==="corker");if(!e)throw Error("missing en/corker");e.exampleSynonym={word:"bottle corker",text:"The small bottle corker sealed the bottles one at a time."};}
+{const e=en.find(x=>x.id==="catatonic");if(!e)throw Error("missing en/catatonic");e.exampleSynonym={word:"catatonic state",text:"The patient showed symptoms of a catatonic state during the episode."};}
+{const e=en.find(x=>x.id==="census-4");if(!e)throw Error("missing en/census-4");e.exampleSynonym={word:"census based",text:"The report was census based."};}
+{const e=en.find(x=>x.id==="cult-devotion");if(!e)throw Error("missing en/cult-devotion");e.exampleSynonym={word:"devotion",text:"Devotion to celebrity culture grew online."};}
+{const e=en.find(x=>x.id==="classic");if(!e)throw Error("missing en/classic");e.exampleSynonym={word:"canonical",text:"The novel is considered canonical in modern literature."};}
+{const e=en.find(x=>x.id==="crouch-fear");if(!e)throw Error("missing en/crouch-fear");e.exampleSynonym={word:"cringed",text:"He cringed before the angry guard."};}
+{const e=en.find(x=>x.id==="chain");if(!e)throw Error("missing en/chain");e.exampleSynonym={word:"links",text:"The gate was secured with interlocking links."};}
+{const e=en.find(x=>x.id==="criminalize-figurative");if(!e)throw Error("missing en/criminalize-figurative");e.exampleSynonym={word:"treats a homeless person as a criminal",text:"The policy treats a homeless person as a criminal."};}
+{const e=en.find(x=>x.id==="cataleptic");if(!e)throw Error("missing en/cataleptic");e.exampleSynonym={word:"cataleptic state",text:"The patient remained in a cataleptic state during the episode."};}
+{const e=en.find(x=>x.id==="camber-wing");if(!e)throw Error("missing en/camber-wing");e.exampleSynonym={word:"wing curve",text:"The new wing has a more pronounced wing curve than the old one."};}
+{const e=en.find(x=>x.id==="crisp-dessert");if(!e)throw Error("missing en/crisp-dessert");e.exampleSynonym={word:"fruit crumble",text:"We shared a fruit crumble with apples."};}
+{const e=en.find(x=>x.id==="cumulative-law");if(!e)throw Error("missing en/cumulative-law");e.exampleSynonym={word:"supporting evidence",text:"The judge admitted cumulative supporting evidence from another witness."};}
+{const e=en.find(x=>x.id==="crystallize-intransitive");if(!e)throw Error("missing en/crystallize-intransitive");e.exampleSynonym={word:"become crystalline",text:"The sugar began to become crystalline."};}
+{const e=en.find(x=>x.id==="chatter-3");if(!e)throw Error("missing en/chatter-3");e.exampleSynonym={word:"teeth began to chatter",text:"His teeth began to chatter in the cold."};}
+{const e=en.find(x=>x.id==="catoptric-2");if(!e)throw Error("missing en/catoptric-2");e.exampleSynonym={word:"reflective",text:"The reflective telescope uses mirrors to gather light."};}
 })();
