@@ -34750,7 +34750,7 @@
       }
     }
   },
-  {
+    {
     "entry": "kasbah",
     "remove": [],
     "set": {
@@ -34761,11 +34761,11 @@
       ],
       "example": {
         "word": "a kasbah",
-        "text": "The old kasbah stands above the city."
+        "text": "A kasbah stood above the old city."
       },
       "exampleSynonym": {
         "word": "a fortress",
-        "text": "The old fortress stands above the city."
+        "text": "A fortress stood above the old city."
       }
     }
   },
@@ -34917,7 +34917,7 @@
       }
     }
   },
-  {
+    {
     "entry": "kettle",
     "remove": [],
     "set": {
@@ -34927,11 +34927,11 @@
       ],
       "example": {
         "word": "a kettle",
-        "text": "She put the kettle on to make tea."
+        "text": "She put a kettle on the stove to make tea."
       },
       "exampleSynonym": {
         "word": "a water boiler",
-        "text": "She put the water boiler on to make tea."
+        "text": "She put a water boiler on the stove to make tea."
       }
     }
   },
@@ -35029,7 +35029,7 @@
       }
     }
   },
-  {
+    {
     "entry": "khalifa",
     "remove": [],
     "set": {
@@ -35039,11 +35039,11 @@
       ],
       "example": {
         "word": "a khalifa",
-        "text": "The khalifa ruled the region."
+        "text": "A khalifa ruled the region for many years."
       },
       "exampleSynonym": {
         "word": "a caliph",
-        "text": "The caliph ruled the region."
+        "text": "A caliph ruled the region for many years."
       }
     }
   },
@@ -35085,7 +35085,7 @@
       }
     }
   },
-  {
+    {
     "entry": "kick",
     "remove": [],
     "set": {
@@ -35098,8 +35098,8 @@
         "text": "He tried to kick the ball into the goal."
       },
       "exampleSynonym": {
-        "word": "strike with the foot",
-        "text": "He tried to strike the ball with his foot."
+        "word": "strike",
+        "text": "He tried to strike the ball into the goal."
       }
     }
   },
@@ -35140,7 +35140,7 @@
       }
     }
   },
-  {
+    {
     "entry": "kick-out",
     "remove": [],
     "set": {
@@ -35151,15 +35151,15 @@
       ],
       "example": {
         "word": "kick out",
-        "text": "They kicked him out of the club."
+        "text": "The manager may kick out anyone who ignores the rules."
       },
       "exampleSynonym": {
         "word": "throw out",
-        "text": "They threw him out of the club."
+        "text": "The manager may throw out anyone who ignores the rules."
       }
     }
   },
-  {
+    {
     "entry": "kid",
     "remove": [],
     "set": {
@@ -35169,11 +35169,11 @@
       ],
       "example": {
         "word": "a kid",
-        "text": "The kid stayed close to its mother."
+        "text": "A kid stayed close to its mother on the farm."
       },
       "exampleSynonym": {
         "word": "a young goat",
-        "text": "The young goat stayed close to its mother."
+        "text": "A young goat stayed close to its mother on the farm."
       }
     }
   },
@@ -35215,7 +35215,7 @@
       }
     }
   },
-  {
+    {
     "entry": "kidnapper",
     "remove": [],
     "set": {
@@ -35225,11 +35225,11 @@
       ],
       "example": {
         "word": "a kidnapper",
-        "text": "The kidnapper left a note."
+        "text": "A kidnapper left a note at the scene."
       },
       "exampleSynonym": {
         "word": "an abductor",
-        "text": "The abductor left a note."
+        "text": "An abductor left a note at the scene."
       }
     }
   },
@@ -35251,7 +35251,7 @@
       }
     }
   },
-  {
+      {
     "entry": "kidney",
     "remove": [],
     "set": {
@@ -35261,11 +35261,11 @@
       ],
       "example": {
         "word": "a kidney",
-        "text": "Each kidney helps clean the blood."
+        "text": "A kidney helps clean the blood."
       },
       "exampleSynonym": {
         "word": "a renal organ",
-        "text": "Each renal organ helps clean the blood."
+        "text": "A renal organ helps clean the blood."
       }
     }
   },
@@ -35323,7 +35323,7 @@
       }
     }
   },
-  {
+    {
     "entry": "kill-2",
     "remove": [],
     "set": {
@@ -35333,11 +35333,11 @@
       ],
       "example": {
         "word": "a kill",
-        "text": "The hunter carried his kill home."
+        "text": "The hunter carried a kill back to camp."
       },
       "exampleSynonym": {
         "word": "his prey",
-        "text": "The hunter carried his prey home."
+        "text": "The hunter carried his prey back to camp."
       }
     }
   },
@@ -35416,7 +35416,7 @@
       }
     }
   },
-  {
+    {
     "entry": "kiln",
     "remove": [],
     "set": {
@@ -35426,11 +35426,11 @@
       ],
       "example": {
         "word": "a kiln",
-        "text": "The potter placed the bowl in the kiln."
+        "text": "The potter placed the bowl in a kiln to fire it."
       },
       "exampleSynonym": {
         "word": "a firing oven",
-        "text": "The potter placed the bowl in the firing oven."
+        "text": "The potter placed the bowl in a firing oven to fire it."
       }
     }
   },
@@ -35452,7 +35452,7 @@
       }
     }
   },
-  {
+      {
     "entry": "kilogram",
     "remove": [],
     "set": {
@@ -35463,11 +35463,11 @@
       ],
       "example": {
         "word": "a kilogram",
-        "text": "The bag weighs one kilogram."
+        "text": "The bag weighs a kilogram."
       },
       "exampleSynonym": {
         "word": "a kilo",
-        "text": "The bag weighs one kilo."
+        "text": "The bag weighs a kilo."
       }
     }
   },
@@ -35525,7 +35525,7 @@
       }
     }
   },
-  {
+      {
     "entry": "kind",
     "remove": [],
     "set": {
@@ -35536,11 +35536,11 @@
       ],
       "example": {
         "word": "a kind",
-        "text": "This kind of plant grows in dry soil."
+        "text": "A kind of plant grows in dry soil."
       },
       "exampleSynonym": {
         "word": "a type",
-        "text": "This type of plant grows in dry soil."
+        "text": "A type of plant grows in dry soil."
       }
     }
   },
@@ -35940,7 +35940,7 @@
       }
     }
   },
-  {
+    {
     "entry": "kitten",
     "remove": [],
     "set": {
@@ -35950,11 +35950,11 @@
       ],
       "example": {
         "word": "a kitten",
-        "text": "The kitten slept in the basket."
+        "text": "A kitten slept in the basket beside the window."
       },
       "exampleSynonym": {
         "word": "a young cat",
-        "text": "The young cat slept in the basket."
+        "text": "A young cat slept in the basket beside the window."
       }
     }
   },
@@ -36126,7 +36126,7 @@
       }
     }
   },
-  {
+    {
     "entry": "knight",
     "remove": [],
     "set": {
@@ -36137,11 +36137,11 @@
       ],
       "example": {
         "word": "a knight",
-        "text": "The knight rode back to the castle."
+        "text": "A knight rode back to the castle at dusk."
       },
       "exampleSynonym": {
         "word": "a mounted warrior",
-        "text": "The mounted warrior rode back to the castle."
+        "text": "A mounted warrior rode back to the castle at dusk."
       }
     }
   },
@@ -36278,7 +36278,7 @@
       }
     }
   },
-  {
+    {
     "entry": "knocker",
     "remove": [],
     "set": {
@@ -36289,11 +36289,11 @@
       ],
       "example": {
         "word": "a knocker",
-        "text": "She tapped the knocker before entering."
+        "text": "She tapped a knocker before entering the old house."
       },
       "exampleSynonym": {
         "word": "a door knocker",
-        "text": "She tapped the door knocker before entering."
+        "text": "She tapped a door knocker before entering the old house."
       }
     }
   },
@@ -36316,7 +36316,7 @@
       }
     }
   },
-  {
+      {
     "entry": "knoll",
     "remove": [],
     "set": {
@@ -36327,15 +36327,15 @@
       ],
       "example": {
         "word": "a knoll",
-        "text": "The house stood on a grassy knoll."
+        "text": "The cottage stood on a knoll above the road."
       },
       "exampleSynonym": {
         "word": "a small hill",
-        "text": "The house stood on a small hill."
+        "text": "The cottage stood on a small hill above the road."
       }
     }
   },
-  {
+    {
     "entry": "knot",
     "remove": [],
     "set": {
@@ -36346,11 +36346,11 @@
       ],
       "example": {
         "word": "a knot",
-        "text": "The knot was hard to undo."
+        "text": "She tied a knot in the rope before climbing."
       },
       "exampleSynonym": {
         "word": "the fastening",
-        "text": "The fastening was hard to undo."
+        "text": "She checked the fastening in the rope before climbing."
       }
     }
   },
@@ -36487,7 +36487,7 @@
       }
     }
   },
-  {
+    {
     "entry": "kremlin",
     "remove": [],
     "set": {
@@ -36498,11 +36498,11 @@
       ],
       "example": {
         "word": "a kremlin",
-        "text": "The old kremlin stands in the center of the city."
+        "text": "A kremlin stood at the center of the ancient city."
       },
       "exampleSynonym": {
         "word": "a citadel",
-        "text": "The old citadel stands in the center of the city."
+        "text": "A citadel stood at the center of the ancient city."
       }
     }
   },
