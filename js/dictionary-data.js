@@ -279,8 +279,8 @@ globalThis.SINONIMIA_DICTIONARY_DATA = {
       detail: [
         {"file":"js/dict.en.det.000.js","src":"js/dict.en.det.000.js?v=b6f14e8a0a"},
         {"file":"js/dict.en.det.001.js","src":"js/dict.en.det.001.js?v=7a287771df"},
-        {"file":"js/dict.en.det.002.js","src":"js/dict.en.det.002.js?v=3d472a48cb"},
-        {"file":"js/dict.en.det.003.js","src":"js/dict.en.det.003.js?v=fd0835d419"},
+        {"file":"js/dict.en.det.002.js","src":"js/dict.en.det.002.js?v=9901cdff83"},
+        {"file":"js/dict.en.det.003.js","src":"js/dict.en.det.003.js?v=08b9c315c8"},
         {"file":"js/dict.en.det.004.js","src":"js/dict.en.det.004.js?v=66923d3f3a"},
         {"file":"js/dict.en.det.005.js","src":"js/dict.en.det.005.js?v=db69b36d57"},
         {"file":"js/dict.en.det.006.js","src":"js/dict.en.det.006.js?v=588ebf9d9a"},
