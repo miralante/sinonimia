@@ -1,0 +1,38 @@
+/* Curated literal-example repairs for 31 English records. */
+(()=>{
+  const d=globalThis.DICCIONARIOS?.en; if(!d)return;
+  const set=(id,fields)=>{const entry=d.find(x=>x.id===id);if(entry)Object.assign(entry,fields);};
+  set("bigamist", {"example":{"word":"bigamist","text":"The glossary defines bigamist as a marriage term."},"exampleSynonym":{"word":"polygamist","text":"The glossary defines polygamist as a marriage term."}});
+  set("clinical", {"example":{"word":"clinical","text":"The clinical trial ended after review."},"exampleSynonym":{"word":"relating to patient care","text":"The guidelines relating to patient care changed after review."}});
+  set("electrobiological", {"exampleSynonym":{"word":"relating to electrobiology","text":"The review covered signals relating to electrobiology in living tissue."}});
+  set("cainite", {"exampleSynonym":{"word":"fratricidal","text":"The novel portrays a fratricidal feud between brothers."}});
+  set("trades", {"example":{"word":"trades","text":"She works in the trades."},"exampleSynonym":{"word":"business","text":"She works in business."}});
+  set("banding", {"exampleSynonym":{"word":"striping","text":"The scientist measured striping on the bird's wings."}});
+  set("biform", {"example":{"word":"biform","text":"The biform insect changes shape as it matures."},"exampleSynonym":{"word":"two-formed","text":"A two-formed sculpture stood at the entrance."}});
+  set("braise", {"exampleSynonym":{"word":"stew","text":"We will stew the beef for dinner."}});
+  set("calipedic", {"exampleSynonym":{"word":"calipedia-related","text":"The manuscript discussed calipedia-related customs."}});
+  set("canonry", {"exampleSynonym":{"word":"canonicate","text":"A canonicate at the cathedral became vacant."}});
+  set("consubstantiate", {"example":{"word":"consubstantiate","text":"The doctrine seeks to consubstantiate the two natures."},"exampleSynonym":{"word":"unite in substance","text":"The doctrine seeks to unite in substance the two natures."}});
+  set("cubic", {"example":{"word":"cubic","text":"The architect designed a cubic pavilion."},"exampleSynonym":{"word":"cube-shaped","text":"The architect designed a cube-shaped pavilion."}});
+  set("overplow", {"exampleSynonym":{"word":"plow again","text":"Farmers should plow again after the soil dries."}});
+  set("overbrow", {"exampleSynonym":{"word":"overhang","text":"A rock ledge can overhang a trail."}});
+  set("oversize", {"exampleSynonym":{"word":"make too large","text":"The factory may make too large a pipe."}});
+  set("overfill", {"exampleSynonym":{"word":"fill to overflowing","text":"Never fill to overflowing."}});
+  set("overpopulate", {"exampleSynonym":{"word":"overfill with inhabitants","text":"The island is easy to overfill with inhabitants."}});
+  set("filmer", {"exampleSynonym":{"word":"cinematographer","text":"The cinematographer joined the documentary crew."}});
+  set("philological", {"exampleSynonym":{"word":"linguistic","text":"She wrote a linguistic note on the poem."}});
+  set("physiognomics", {"exampleSynonym":{"word":"physiognomy","text":"The scholar studied physiognomy in old texts."}});
+  set("photomechanics", {"exampleSynonym":{"word":"photomechanical reproduction","text":"The shop offers photomechanical reproduction for rare prints."}});
+  set("photochemistry", {"exampleSynonym":{"word":"chemistry of light","text":"The chemistry of light explains the reaction to sunlight."}});
+  set("electroplating", {"exampleSynonym":{"word":"electro-deposition","text":"The factory uses electro-deposition on steel parts."}});
+  set("geochemistry", {"exampleSynonym":{"word":"earth chemistry","text":"Earth chemistry reveals how minerals formed."}});
+  set("geotechnical", {"exampleSynonym":{"word":"geologic engineering","text":"The geologic engineering report checked soil stability."}});
+  set("anti-crisis", {"exampleSynonym":{"word":"crisis-fighting","text":"The minister proposed a crisis-fighting budget."}});
+  set("heliophysics", {"exampleSynonym":{"word":"solar physics","text":"Solar physics studies the Sun and solar wind."}});
+  set("assumable", {"exampleSynonym":{"word":"able to be assumed","text":"The fee is able to be assumed under the lease."}});
+  set("atomism", {"exampleSynonym":{"word":"atomistic philosophy","text":"Atomistic philosophy shaped the ancient philosopher's theory."}});
+  set("aurignacian", {"exampleSynonym":{"word":"relating to the Aurignacian","text":"The team catalogued tools relating to the Aurignacian."}});
+  set("hypercritical", {"exampleSynonym":{"word":"overcritical","text":"The editor was overcritical of the draft."}});
+  set("impudent", {"exampleSynonym":{"word":"cheeky","text":"The child made a cheeky remark."}});
+  set("even", {"exampleSynonym":{"word":"level","text":"The carpenter kept the shelf level."}});
+})();
