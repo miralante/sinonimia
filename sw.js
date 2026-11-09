@@ -27,7 +27,7 @@
    ============================================================ */
 importScripts('./js/dictionary-data.js');
 
-var VERSION = 'sinonimia-v4950';
+var VERSION = 'sinonimia-v4951';
 
 var FILES = [
   './',
