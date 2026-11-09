@@ -3002,5 +3002,11 @@ window.SINONIMIA_DICTIONARY_SHARDS = {
     { file: "js/data.en.editorial-literal-followup.js", src: "js/data.en.editorial-literal-followup.js?v=b9b9872b97" },
     { file: "js/data.en.editorial-autodef-followup.js", src: "js/data.en.editorial-autodef-followup.js?v=3711ba08a1" },
     { file: "js/data.en.editorial-autodef-followup2.js", src: "js/data.en.editorial-autodef-followup2.js?v=b6475d82de" },
+    { file: "js/data.en.editorial-autodef-followup3.js", src: "js/data.en.editorial-autodef-followup3.js?v=0d44b6c3c0" },
+    { file: "js/data.en.editorial-autodef-followup4.js", src: "js/data.en.editorial-autodef-followup4.js?v=a7de5c184d" },
+    { file: "js/data.en.editorial-autodef-followup5.js", src: "js/data.en.editorial-autodef-followup5.js?v=8592b0c4e0" },
+    { file: "js/data.en.editorial-autodef-followup6.js", src: "js/data.en.editorial-autodef-followup6.js?v=9c9ddcca50" },
+    { file: "js/data.en.editorial-autodef-followup7.js", src: "js/data.en.editorial-autodef-followup7.js?v=a02f5cf428" },
+    { file: "js/data.en.editorial-autodef-followup8.js", src: "js/data.en.editorial-autodef-followup8.js?v=ab15bbd650" },
   ],
 };
