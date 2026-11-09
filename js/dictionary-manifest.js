@@ -3025,5 +3025,6 @@ window.SINONIMIA_DICTIONARY_SHARDS = {
     { file: "js/data.en.editorial-autodef-followup23.js", src: "js/data.en.editorial-autodef-followup23.js?v=4eb02a6eec" },
     { file: "js/data.en.editorial-autodef-followup24.js", src: "js/data.en.editorial-autodef-followup24.js?v=8c82029318" },
     { file: "js/data.en.editorial-autodef-followup25.js", src: "js/data.en.editorial-autodef-followup25.js?v=a0a0d038d2" },
+    { file: "js/data.en.editorial-autodef-followup26.js", src: "js/data.en.editorial-autodef-followup26.js?v=5e1feaad0e" },
   ],
 };

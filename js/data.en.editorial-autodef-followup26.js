@@ -1,0 +1,22 @@
+/* Curated replacements for literal auto-definition examples.
+ * Batch size: 15 paired records from mixed alphabet sections.
+ */
+(()=>{
+  const d=globalThis.DICCIONARIOS?.en; if(!d)return;
+  const set=(id,fields)=>{const entry=d.find(x=>x.id===id);if(entry)Object.assign(entry,fields);};
+  set("cron", {"example":{"word":"Cron","text":"The rock layer dates back three cron, each spanning a million years."},"exampleSynonym":{"word":"chronological unit of one million years","text":"A chronological unit of one million years helps geologists describe the age of the rock layer."}});
+  set("microfilm-3", {"example":{"word":"Microfilm","text":"The library used microfilm to preserve old newspapers."},"exampleSynonym":{"word":"microscopic film used to store information","text":"Microscopic film used to store information preserved the library's old newspapers."}});
+  set("hydria-2", {"example":{"word":"hydria","text":"The museum displayed a hydria beside the cooking vessels."},"exampleSynonym":{"word":"Clay or metal vessel, hemispherical in shape, used to cook, stew and boil food","text":"The clay or metal vessel, hemispherical in shape, used to cook, stew and boil food was displayed beside the other vessels."}});
+  set("spark-6", {"example":{"word":"spark","text":"A spark jumped from the wire when the switch was turned on."},"exampleSynonym":{"word":"Ignited particle that jumps through the air","text":"An ignited particle that jumps through the air came from the wire when the switch was turned on."}});
+  set("death-policy", {"example":{"word":"Death policy","text":"She updated her death policy before retirement."},"exampleSynonym":{"word":"death insurance contract","text":"She updated her death insurance contract before retirement."}});
+  set("payment-gateway", {"example":{"word":"Payment gateway","text":"The payment gateway encrypted the card details at checkout."},"exampleSynonym":{"word":"connection that processes online payments","text":"The connection that processes online payments encrypted the card details at checkout."}});
+  set("monetize", {"example":{"word":"Monetize","text":"The artist monetized the photo archive by licensing selected images."},"exampleSynonym":{"word":"convert something into money","text":"The artist's goal was to convert something into money by licensing selected images from the archive."}});
+  set("reverend", {"example":{"word":"Reverend","text":"The reverend teacher was respected by the village."},"exampleSynonym":{"word":"worthy of reverence","text":"The teacher worthy of reverence was respected by the village."}});
+  set("conjecturable", {"example":{"word":"conjecturable","text":"The cause was conjecturable from the pattern of damage."},"exampleSynonym":{"word":"Which can be conjectured","text":"The cause, which can be conjectured from the pattern of damage, was confirmed by later tests."}});
+  set("merciful", {"example":{"word":"Merciful","text":"The merciful judge reduced the fine after hearing the circumstances."},"exampleSynonym":{"word":"that takes pity","text":"The judge that takes pity reduced the fine after hearing the circumstances."}});
+  set("slideable", {"example":{"word":"Slideable","text":"The cabinet has a slideable tray for small tools."},"exampleSynonym":{"word":"that can slide","text":"The cabinet has a tray that can slide out for small tools."}});
+  set("generational", {"example":{"word":"Generational","text":"A generational shift changed how the company trained new staff."},"exampleSynonym":{"word":"relating to a generation of contemporaries","text":"A change relating to a generation of contemporaries reshaped how the company trained new staff."}});
+  set("teletheater", {"example":{"word":"Teletheater","text":"The teletheater brought the play into homes across the country."},"exampleSynonym":{"word":"theater broadcast on television","text":"The theater broadcast on television brought the play into homes across the country."}});
+  set("non-flammable", {"example":{"word":"Non-flammable","text":"They chose non-flammable insulation for the wall beside the boiler."},"exampleSynonym":{"word":"that cannot burn with flame or catch fire","text":"They chose insulation that cannot burn with flame or catch fire for the wall beside the boiler."}});
+  set("ceresin", {"example":{"word":"Ceresin","text":"Ceresin protected the moving parts from wear."},"exampleSynonym":{"word":"Ceresin is a mineral substance used as a lubricant","text":"Ceresin is a mineral substance used as a lubricant for the moving parts."}});
+})();
