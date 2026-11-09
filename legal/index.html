@@ -13,31 +13,30 @@
 <meta name="theme-color" content="#0a5c78">
 <meta name="application-name" content="Sinonimia">
 <link rel="stylesheet" href="../css/styles.css?v=sinonimia-v4a">
+<link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="../css/locale-picker.css?v=sinonimia-v6aa">
 
 </head>
 <body class="page-legal">
 
-<header class="cabecera">
-  <div class="envoltorio">
+<div class="container legal">
+  <header class="header-legal">
     <div class="suite-controls">
       <div id="locale-picker"></div>
     </div>
 
-    <div class="logo-about">⚖</div>
+    <div class="logo-legal">⚖</div>
     <h1>Sinonimia<span>.</span></h1>
-    <p class="lema" data-lang-block="es">Aviso legal y páginas relacionadas.</p>
-    <p class="lema" data-lang-block="en">Legal notice and related pages.</p>
+    <p class="tagline" data-lang-block="es">Aviso legal y páginas relacionadas.</p>
+    <p class="tagline" data-lang-block="en">Legal notice and related pages.</p>
 
-    <p class="entradilla" data-lang-block="es">Aquí se reúne todo lo relativo al aviso legal de Sinonimia: privacidad, licencia del código y de los pictogramas, y datos de contacto.</p>
-    <p class="entradilla" data-lang-block="en">Everything related to Sinonimia's legal notice lives here: privacy, code and pictogram licenses, and contact data.</p>
-  </div>
-</header>
+    <p class="lead" data-lang-block="es">Aquí se reúne todo lo relativo al aviso legal de Sinonimia: privacidad, licencia del código y de los pictogramas, y datos de contacto.</p>
+    <p class="lead" data-lang-block="en">Everything related to Sinonimia's legal notice lives here: privacy, code and pictogram licenses, and contact data.</p>
+  </header>
 
-<div class="envoltorio">
-  <main>
+  <main class="stack">
 
-    <section id="indice">
+    <section class="card" id="indice">
       <h2 data-lang-block="es">Páginas legales</h2>
       <h2 data-lang-block="en">Legal pages</h2>
 
@@ -49,7 +48,7 @@
       </ul>
     </section>
 
-    <section id="licencia">
+    <section class="card" id="licencia">
       <h2 data-lang-block="es">Licencia del código</h2>
       <h2 data-lang-block="en">Code license</h2>
       <div data-lang-block="es">
@@ -60,7 +59,7 @@
       </div>
     </section>
 
-    <section id="contacto">
+    <section class="card" id="contacto">
       <h2 data-lang-block="es">Contacto</h2>
       <h2 data-lang-block="en">Contact</h2>
       <div data-lang-block="es">
@@ -72,9 +71,9 @@
     </section>
 
   </main>
-</div>
 
-<footer data-pie-app data-pie-class="pie-legal" data-pie-extra="Sobre el proyecto^About the project^../about/index.html|../about/index.html"></footer>
+  <footer data-pie-app data-pie-class="pie-legal" data-pie-extra="Sobre la app^About the app^../about/index.html|../about/index.html"></footer>
+</div>
 
 <script src="../about/about.js?v=about-v1"></script>
 <!-- Controles compartidos con el resto de la suite: el desplegable de idioma

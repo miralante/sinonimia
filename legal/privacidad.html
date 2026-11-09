@@ -13,24 +13,25 @@
 <meta name="theme-color" content="#0a5c78">
 <meta name="application-name" content="Sinonimia">
 <link rel="stylesheet" href="../css/styles.css?v=sinonimia-v4a">
+<link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="../css/locale-picker.css?v=sinonimia-v6aa">
 
 </head>
 <body class="page-privacidad">
 
-<header class="cabecera">
-  <div class="envoltorio">
+<div class="container legal">
+  <header class="header-legal">
     <div class="suite-controls">
       <div id="locale-picker"></div>
     </div>
 
-    <div class="logo-about"></div>
+    <div class="logo-legal"></div>
     <h1>Sinonimia<span>.</span></h1>
-    <p class="lema" data-lang-block="es">Sin registro. Sin cookies. Sin analítica.</p>
-    <p class="lema" data-lang-block="en">No sign-up. No cookies. No analytics.</p>
+    <p class="tagline" data-lang-block="es">Sin registro. Sin cookies. Sin analítica.</p>
+    <p class="tagline" data-lang-block="en">No sign-up. No cookies. No analytics.</p>
 
-    <p class="entradilla" data-lang-block="es">Sinonimia no pide tus datos personales. Todo lo que guarda vive únicamente en este dispositivo. Aquí explicamos, en detalle, qué guardamos y por qué.</p>
-    <p class="entradilla" data-lang-block="en">Sinonimia does not ask for your personal data. Everything it saves lives only on this device. Here we explain, in detail, what we save and why.</p>
+    <p class="lead" data-lang-block="es">Sinonimia no pide tus datos personales. Todo lo que guarda vive únicamente en este dispositivo. Aquí explicamos, en detalle, qué guardamos y por qué.</p>
+    <p class="lead" data-lang-block="en">Sinonimia does not ask for your personal data. Everything it saves lives only on this device. Here we explain, in detail, what we save and why.</p>
 
     <nav class="indice" aria-label="Índice de esta página / Index">
       <a href="#responsable" data-lang-block="es">Quién trata tus datos</a>
@@ -39,18 +40,18 @@
       <a href="#datos" data-lang-block="en">What we save</a>
       <a href="#derechos" data-lang-block="es">Tus derechos</a>
       <a href="#derechos" data-lang-block="en">Your rights</a>
+      <a href="#menores" data-lang-block="es">Todas las edades</a>
+      <a href="#menores" data-lang-block="en">All ages</a>
       <a href="#imagenes" data-lang-block="es">Imágenes</a>
       <a href="#imagenes" data-lang-block="en">Images</a>
       <a href="#contacto" data-lang-block="es">Cambios y contacto</a>
       <a href="#contacto" data-lang-block="en">Changes and contact</a>
     </nav>
-  </div>
-</header>
+  </header>
 
-<div class="envoltorio">
-  <main>
+  <main class="stack">
 
-    <section id="responsable">
+    <section class="card" id="responsable">
       <h2 data-lang-block="es">Quién trata tus datos</h2>
       <h2 data-lang-block="en">Who processes your data</h2>
       <div data-lang-block="es">
@@ -61,7 +62,7 @@
       </div>
     </section>
 
-    <section id="datos">
+    <section class="card" id="datos">
       <h2 data-lang-block="es">Qué guardamos y por qué</h2>
       <h2 data-lang-block="en">What we save and why</h2>
       <div data-lang-block="es">
@@ -94,7 +95,7 @@
       </div>
     </section>
 
-    <section id="derechos">
+    <section class="card" id="derechos">
       <h2 data-lang-block="es">Tus derechos y cómo ejercerlos</h2>
       <h2 data-lang-block="en">Your rights and how to exercise them</h2>
       <div data-lang-block="es">
@@ -107,7 +108,20 @@
       </div>
     </section>
 
-    <section id="imagenes">
+    <section class="card" id="menores">
+      <h2 data-lang-block="es">Todas las edades y capacidades</h2>
+      <h2 data-lang-block="en">All ages and abilities</h2>
+      <div data-lang-block="es">
+        <p>Sinonimia está pensada para que la use de forma autónoma cualquier persona, sin importar su edad ni sus capacidades.</p>
+        <p>Como la aplicación no recoge datos personales en ningún servidor, no es necesario el consentimiento de nadie para tratar datos: no hay ningún tratamiento que autorizar. Sí recomendamos la supervisión habitual que una familia o un profesional haga sobre el uso de cualquier dispositivo.</p>
+      </div>
+      <div data-lang-block="en">
+        <p>Sinonimia is designed so that anyone can use it on their own, regardless of age or abilities.</p>
+        <p>Because the application does not collect personal data on any server, no guardian consent is needed to process data: there is no processing to authorise. We do recommend the usual supervision a family or professional gives to how any device is used.</p>
+      </div>
+    </section>
+
+    <section class="card" id="imagenes">
       <h2 data-lang-block="es">Sobre las imágenes (pictogramas)</h2>
       <h2 data-lang-block="en">About the images (pictograms)</h2>
       <div data-lang-block="es">
@@ -132,23 +146,23 @@
       </div>
     </section>
 
-    <section id="contacto">
+    <section class="card" id="contacto">
       <h2 data-lang-block="es">Cambios y contacto</h2>
       <h2 data-lang-block="en">Changes and contact</h2>
       <div data-lang-block="es">
         <p>Esta página puede actualizarse si cambia la aplicación. El historial de cambios es público en el repositorio de GitHub.</p>
-        <p>Última actualización: 30 de agosto de 2026.</p>
+        <p>Última actualización: 9 de noviembre de 2026.</p>
       </div>
       <div data-lang-block="en">
         <p>This page may be updated if the app changes. The change history is public in the GitHub repository.</p>
-        <p>Last updated: August 30, 2026.</p>
+        <p>Last updated: November 9, 2026.</p>
       </div>
     </section>
 
   </main>
-</div>
 
-<footer data-pie-app data-pie-class="pie-privacidad"></footer>
+  <footer data-pie-app data-pie-class="pie-legal"></footer>
+</div>
 
 <script src="../about/about.js?v=about-v1"></script>
 <!-- Controles compartidos con el resto de la suite: el desplegable de idioma
