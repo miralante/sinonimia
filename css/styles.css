@@ -1217,6 +1217,25 @@ span.detalle-navegacion-enlace {
   line-height: 1.6;
 }
 
+/* Vocabulario de la plantilla About (about/styles.css de la suite).
+   Se define en el body, así que los temas oscuro y contraste de arriba
+   se reflejan aquí sin repetir valores. */
+.page-about {
+  --color-bg: var(--color-fondo);
+  --color-surface: var(--color-tarjeta);
+  --color-text: var(--color-texto);
+  --color-text-soft: var(--color-texto-suave);
+  --color-border: var(--color-borde);
+  --color-focus: var(--color-foco);
+  --accent: var(--color-primario);
+  --radius: var(--radio);
+  --space: 1rem;
+  --text-small: 0.9rem;
+  --text-base: 1.05rem;
+  --text-large: 1.4rem;
+  --text-title: 2.2rem;
+}
+
 /* Las mismas páginas en tema oscuro y en alto contraste. Sin esto
    quedan siempre en claro, por muy oscuro que esté el sistema o
    por mucho que la persona haya forzado el tema. */
@@ -1312,10 +1331,8 @@ span.detalle-navegacion-enlace {
 .page-config html,
 .page-404 html { scroll-behavior: smooth; }
 
-.page-about .envoltorio { max-width: 900px; }
 .page-legal .envoltorio { max-width: 760px; }
 .page-config .envoltorio { max-width: 760px; }
-.page-about .envoltorio,
 .page-legal .envoltorio,
 .page-config .envoltorio { margin: 0 auto; padding: 0 1.25rem 4rem; }
 
@@ -1362,13 +1379,10 @@ span.detalle-navegacion-enlace {
   .page-404 .error-404-actions .boton-cta { width: 100%; }
 }
 
-.page-about header.cabecera,
 /* El botón de la cabecera se pinta sobre --color-primario, así que su
    texto tiene que ser el "sobre primario". Sin esta regla gana el color
    de enlace de `.page-* a` / `.boton-cta` y queda tono sobre tono
    (1.53:1 sobre el azul de la cabecera, 1.00:1 en alto contraste). */
-.page-about header.cabecera .boton-cta,
-.page-about header.cabecera .boton-cta:visited,
 .page-legal header.cabecera .boton-cta,
 .page-legal header.cabecera .boton-cta:visited,
 .page-config header.cabecera .boton-cta,
@@ -1401,7 +1415,6 @@ span.detalle-navegacion-enlace {
   border-color: var(--texto-sobre-acento, #fff);
 }
 
-.page-about header.cabecera,
 .page-legal header.cabecera,
 .page-config header.cabecera,
 .page-404 header.cabecera,
@@ -1416,10 +1429,8 @@ span.detalle-navegacion-enlace {
   color: var(--cabecera-texto, #fff);
   text-align: center;
 }
-.page-about header.cabecera { padding: 2.5rem 1.25rem 2rem; }
 .page-legal header.cabecera { padding: 2rem 1.25rem 1.75rem; }
 .page-config header.cabecera { padding: 2rem 1.25rem 1.75rem; }
-.page-about header.cabecera .envoltorio,
 .page-legal header.cabecera .envoltorio,
 .page-config header.cabecera .envoltorio { padding: 0 1.25rem; }
 .page-about .lang-btn,
@@ -1452,31 +1463,15 @@ span.detalle-navegacion-enlace {
 .page-about .lang-btn + .lang-btn,
 .page-legal .lang-btn + .lang-btn,
 .page-config .lang-btn + .lang-btn { margin-left: 0.5rem; }
-.page-about .aviso-ruta {
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  border-radius: 10px;
-  padding: 0.6rem 1rem;
-  font-size: 0.9rem;
-  max-width: 32rem;
-  margin: 0 auto 1.5rem;
-}
-.page-about .logo-about { font-size: 3rem; line-height: 1; margin-bottom: 0.25rem; }
 .page-legal .logo-about { font-size: 2.5rem; line-height: 1; margin-bottom: 0.25rem; }
 .page-config .logo-about { font-size: 2.5rem; line-height: 1; margin-bottom: 0.25rem; }
-.page-about header.cabecera h1 { margin: 0 0 0.25rem; font-size: 2.2rem; }
 .page-legal header.cabecera h1 { margin: 0 0 0.25rem; font-size: 1.9rem; }
 .page-config header.cabecera h1 { margin: 0 0 0.25rem; font-size: 1.9rem; }
-.page-about header.cabecera h1 span,
 .page-legal header.cabecera h1 span,
 .page-config header.cabecera h1 span { color: #ffd7a8; }
-.page-about .lema { margin: 0 0 1rem; font-size: 1.1rem; opacity: 0.92; }
 .page-legal .lema { margin: 0; font-size: 1rem; opacity: 0.92; }
 .page-config .lema { margin: 0; font-size: 1rem; opacity: 0.92; }
-.page-about .entradilla { max-width: 40rem; margin: 0 auto 1.75rem; font-size: 1.05rem; }
 
-.page-about nav.indice,
 .page-legal nav.indice,
 .page-config nav.indice {
   display: flex;
@@ -1485,13 +1480,10 @@ span.detalle-navegacion-enlace {
   gap: 0.5rem 1.25rem;
   font-size: 0.95rem;
 }
-.page-about nav.indice { margin-top: 0; }
 .page-legal nav.indice { margin-top: 1.25rem; }
 .page-config nav.indice { margin-top: 1.25rem; }
-.page-about nav.indice a,
 .page-legal nav.indice a,
 .page-config nav.indice a,
-.page-privacidad nav.indice a,
 .page-offline nav.indice a {
   /* Sobre la cabecera (azul solido), el color de enlace se leia a
      1.53:1. Va con el token de cabecera, que si se adapta al tema. */
@@ -1500,19 +1492,13 @@ span.detalle-navegacion-enlace {
   border-bottom: 2px solid rgba(255, 255, 255, 0.4);
   padding-bottom: 2px;
 }
-.page-about nav.indice a:hover,
-.page-about nav.indice a:focus-visible,
 .page-legal nav.indice a:hover,
 .page-legal nav.indice a:focus-visible,
 .page-config nav.indice a:hover,
 .page-config nav.indice a:focus-visible,
-.page-privacidad nav.indice a:hover,
-.page-privacidad nav.indice a:focus-visible,
 .page-offline nav.indice a:hover,
 .page-offline nav.indice a:focus-visible { border-color: var(--cabecera-texto, #ffd7a8); }
 
-.page-about main section,
-.page-legal main section,
 .page-config main section {
   background: var(--color-tarjeta);
   border: 1px solid var(--color-borde);
@@ -1521,7 +1507,6 @@ span.detalle-navegacion-enlace {
   margin: 2rem 0;
   scroll-margin-top: 1rem;
 }
-.page-legal main section,
 .page-config main section {
   background: var(--color-tarjeta);
   border: 1px solid var(--color-borde);
@@ -1530,72 +1515,19 @@ span.detalle-navegacion-enlace {
   margin: 1.5rem 0;
   scroll-margin-top: 1rem;
 }
-.page-about main h2,
-.page-legal main h2,
 .page-config main h2 {
   color: var(--color-primario-oscuro);
   margin-top: 0;
   border-bottom: 2px solid var(--color-borde);
   padding-bottom: 0.5rem;
 }
-.page-about main h2 { font-size: 1.4rem; }
-.page-legal main h2 { font-size: 1.25rem; }
 .page-config main h2 { font-size: 1.25rem; }
-.page-about main h3 { margin-top: 0; }
-.page-legal main h3 { margin-top: 0; font-size: 1.05rem; }
 .page-config main h3 { margin-top: 0; font-size: 1.05rem; }
-.page-legal main p,
-.page-legal main li { font-size: 1rem; }
 .page-config main p,
 .page-config main li { font-size: 1rem; }
-.page-legal main ul { padding-left: 1.25rem; }
 .page-config main ul { padding-left: 1.25rem; }
-.page-legal main li { margin-bottom: 0.5rem; }
 .page-config main li { margin-bottom: 0.5rem; }
 
-.page-about .grid-principios,
-.page-about .grid-areas {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 1rem;
-  margin-top: 1.25rem;
-}
-.page-about .principio,
-.page-about .area {
-  background: var(--color-fondo);
-  border: 1px solid var(--color-borde);
-  border-left: 5px solid var(--acento, var(--color-primario));
-  border-radius: 10px;
-  padding: 1rem 1.1rem;
-}
-.page-about .principio h3,
-.page-about .area h3 {
-  font-size: 1.05rem;
-  color: var(--color-primario-oscuro);
-}
-.page-about .principio p,
-.page-about .area p { margin-bottom: 0; font-size: 0.95rem; }
-.page-about .area-cifra {
-  font-weight: 700;
-  color: var(--acento, var(--color-acento));
-  margin-top: 0.4rem !important;
-}
-.page-about .cifras {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-  gap: 1rem;
-  margin: 0 0 1.5rem;
-}
-.page-about .cifra {
-  text-align: center;
-  background: var(--color-fondo);
-  border: 1px solid var(--color-borde);
-  border-radius: 10px;
-  padding: 1rem 0.5rem;
-}
-.page-about .cifra strong { display: block; font-size: 1.8rem; color: var(--color-acento); }
-.page-about .cifra span { font-size: 0.9rem; }
-.page-about .lista-colaborar li { margin-bottom: 0.75rem; }
 
 .page-legal .resumen {
   /* Fondo y borde con tokens: fijos, el crema claro se quedaba en el
@@ -1622,7 +1554,6 @@ span.detalle-navegacion-enlace {
 }
 .page-legal .dato strong { color: var(--color-primario-oscuro); }
 
-.page-about footer[class*="pie-"],
 .page-legal footer[class*="pie-"],
 .page-privacidad footer[class*="pie-"],
 .page-team footer[class*="pie-"],
@@ -1857,16 +1788,11 @@ html[data-lang="en"] .page-privacidad span[data-lang-block="en"] { display: inli
 .page-404 .error-404 .boton-cta { margin-top: 1rem; }
 
 @media print {
-  .page-about header.cabecera,
-  .page-about header.cabecera,
   .page-legal header.cabecera,
   .page-config header.cabecera { background: none; color: var(--color-texto); }
-  .page-about header.cabecera h1 span,
-  .page-about header.cabecera h1 span,
   .page-legal header.cabecera h1 span,
-  .page-config header.cabecera h1 span { color: var(--color-acento); }.page-about .aviso-ruta, .page-about nav.indice, .page-config nav.indice, .page-legal nav.indice, .page-about footer[class*="pie-"], .page-about footer[class*="pie-"], .page-legal footer[class*="pie-"], .page-privacidad footer[class*="pie-"], .page-team footer[class*="pie-"], .page-config footer[class*="pie-"]{ display: none; }
-  .page-about main section,
-  .page-about main section,
+  .page-config header.cabecera h1 span { color: var(--color-acento); }
+  .page-config nav.indice, .page-legal nav.indice, .page-legal footer[class*="pie-"], .page-privacidad footer[class*="pie-"], .page-team footer[class*="pie-"], .page-config footer[class*="pie-"] { display: none; }
   .page-legal main section,
   .page-config main section { break-inside: avoid; border: none; padding: 0; }
 }

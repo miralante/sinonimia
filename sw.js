@@ -27,7 +27,7 @@
    ============================================================ */
 importScripts('./js/dictionary-data.js');
 
-var VERSION = 'sinonimia-v4984';
+var VERSION = 'sinonimia-v5000';
 
 var FILES = [
   './',
@@ -41,10 +41,8 @@ var FILES = [
   './js/locale-picker.js',
   './js/sw-register.js',
   /* External scripts that used to be inline <script> blocks. The CSP is
-     `script-src 'self'`, so they must stay external: team-page-lang (the
-     whole translation pass on team/), notfound-page (the 404 page's
-     controls) and 404-redirect (the hash-router fallback). */
-  './js/team-page-lang.js',
+     `script-src 'self'`, so they must stay external: notfound-page (the 404
+     page's controls) and 404-redirect (the hash-router fallback). */
   './js/notfound-page.js',
   './js/404-redirect.js',
   './js/dictionary-data.js',
@@ -56,9 +54,10 @@ var FILES = [
   './img/logo.svg',
   './about/',
   './about/about.js',
+  './about/styles.css',
   './legal/',
   './legal/privacidad.html',
-  './team/',
+  './legal/styles.css',
   './config/',
   './config/config.js',
   './about-app/index.html',
@@ -347,6 +346,7 @@ self.addEventListener('message', function (event) {
     event.waitUntil(warmImages());
   }
 });
+
 
 
 
