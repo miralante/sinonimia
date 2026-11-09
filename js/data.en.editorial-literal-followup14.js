@@ -1,0 +1,35 @@
+/* Curated literal-example repairs for 30 English records. */
+(()=>{
+  const d=globalThis.DICCIONARIOS?.en; if(!d)return;
+  const set=(id,fields)=>{const entry=d.find(x=>x.id===id);if(entry)Object.assign(entry,fields);};
+  set("sponge-cake-2", {"example":{"word":"iced sponge cake","text":"They baked an iced sponge cake for tea."},"exampleSynonym":{"word":"sugar-glazed sponge cake","text":"They baked a sugar-glazed sponge cake for tea."}});
+  set("blazon-2", {"example":{"word":"blazon","text":"The herald will blazon the crest."},"exampleSynonym":{"word":"describe a coat of arms","text":"The herald will describe a coat of arms."}});
+  set("boycott-2", {"exampleSynonym":{"word":"boycotting","text":"Boycotting the brand hurt sales."}});
+  set("gasp-2", {"exampleSynonym":{"word":"draw breath sharply","text":"The patient tried to draw breath sharply."}});
+  set("bordeaux-2", {"exampleSynonym":{"word":"Bordelais","text":"The Bordelais vintners welcomed visitors."}});
+  set("erase-2", {"exampleSynonym":{"word":"rub out","text":"She will rub out the note."}});
+  set("bottle-3", {"exampleSynonym":{"word":"small beer bottle","text":"She bought a small beer bottle."}});
+  set("brush-2", {"example":{"word":"brush","text":"She will brush the dry leaves away."},"exampleSynonym":{"word":"sweep","text":"She will sweep the dry leaves away."}});
+  set("bustle-2", {"example":{"word":"bustle","text":"The staff bustled before the guests arrived."},"exampleSynonym":{"word":"be busy","text":"The staff tried to be busy before guests arrived."}});
+  set("junk-2", {"exampleSynonym":{"word":"rubbish","text":"They cleared the rubbish from the storeroom."}});
+  set("chain-2", {"exampleSynonym":{"word":"ornamental chain","text":"The bridle held an ornamental chain."}});
+  set("bell-2", {"example":{"word":"bell","text":"The farmer fitted a bell to the lead sheep."},"exampleSynonym":{"word":"fit with a bell","text":"The lead sheep was fit with a bell before grazing."}});
+  set("chancellor-2", {"exampleSynonym":{"word":"senior official","text":"The senior official met the foreign diplomats."}});
+  set("chant-2", {"exampleSynonym":{"word":"recite rhythmically","text":"The crowd began to recite rhythmically."}});
+  set("capable-2", {"exampleSynonym":{"word":"able","text":"She is able to manage the project."}});
+  set("beaver-2", {"exampleSynonym":{"word":"napped wool fabric","text":"The vintage coat used napped wool fabric."}});
+  set("cart-4", {"example":{"word":"go partying","text":"They plan to go partying Saturday."},"exampleSynonym":{"word":"party","text":"They plan to party Saturday."}});
+  set("fourteen-2", {"example":{"word":"a set of fourteen","text":"A set of fourteen cups arrived today."},"exampleSynonym":{"word":"group of fourteen","text":"A group of fourteen cups arrived today."}});
+  set("centrifuge-2", {"exampleSynonym":{"word":"moving outward","text":"The force moving outward strained the wheel."}});
+  set("agree-3", {"exampleSynonym":{"word":"share the same opinion","text":"They share the same opinion on the delay."}});
+  set("invite-2", {"example":{"word":"invite","text":"They will invite the neighbors to dinner."},"exampleSynonym":{"word":"invite to a meal","text":"The organizers will invite to a meal all volunteers."}});
+  set("copy-2", {"example":{"word":"go drinking","text":"They plan to go drinking after the match."},"exampleSynonym":{"word":"go for drinks","text":"They plan to go for drinks after the match."}});
+  set("rampage-2", {"example":{"word":"rampage","text":"The puppies went on a rampage in the yard."},"exampleSynonym":{"word":"run wild","text":"The puppies can run wild in the yard."}});
+  set("poisoner-2", {"example":{"word":"poisoner","text":"The poisoner must face trial."},"exampleSynonym":{"word":"one who poisons","text":"One who poisons must face trial."}});
+  set("boss-2", {"exampleSynonym":{"word":"excellent","text":"That is an excellent new guitar."}});
+  set("murmur-2", {"exampleSynonym":{"word":"mutter","text":"They muttered during the performance."}});
+  set("archaebacteria-2", {"example":{"word":"archaebacteria","text":"Archaebacteria live in salty environments."},"exampleSynonym":{"word":"archaeon","text":"An archaeon lives in a salty environment."}});
+  set("caddy-2", {"exampleSynonym":{"word":"golf caddie","text":"The golf caddie carried clubs across the course."}});
+  set("orphanhood-3", {"exampleSynonym":{"word":"orphandom","text":"The novel portrays the character's orphandom."}});
+  set("imaginative-2", {"exampleSynonym":{"word":"creative","text":"The children devised a creative solution to the puzzle."}});
+})();
