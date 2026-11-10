@@ -1454,4 +1454,10 @@
 {const x={"id":"ginger-3","word":"ginger","definition":"An informal word for a person with red hair.","synonyms":["redhead"],"image":{"id":8184,"alt":"A person with reddish-orange hair."},"example":{"word":"ginger","text":"The ginger joined the school soccer team."},"exampleSynonym":{"word":"redhead","text":"The redhead joined the school soccer team."},"situacion":"vida-diaria"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
 {const x={"id":"ginger-4","word":"ginger","definition":"Add ginger spice to food.","synonyms":["spice"],"image":{"id":37252,"alt":"Ginger root and slices."},"example":{"word":"ginger","text":"They gingered the soup before serving it."},"exampleSynonym":{"word":"spice","text":"They spiced the soup with ginger before serving it."},"situacion":"comida"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
 
+// R4492 reviewed and split en
+{const x={"id":"girdle-2","word":"girdle","definition":"Surround something with a ring or belt.","synonyms":["encircle"],"image":{"id":7024,"alt":"Una avenida rodea el centro de una ciudad."},"example":{"word":"girdle","text":"A ring of trees girdles the lake."},"exampleSynonym":{"word":"encircle","text":"A ring of trees encircles the lake."},"situacion":"vida-diaria"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
+
+// R4493 reviewed and split en
+{const x={"id":"give-away-2","word":"give away","definition":"To reveal a secret or information that was meant to stay hidden.","synonyms":["reveal"],"image":{"id":7024,"alt":"Someone accidentally reveals a secret."},"example":{"word":"give away","text":"His nervous smile gave away the surprise."},"exampleSynonym":{"word":"reveal","text":"His nervous smile revealed the surprise."},"situacion":"sociedad"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
+
 })();

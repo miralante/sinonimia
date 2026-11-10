@@ -905,8 +905,8 @@
         "text": "The worker used a hatchel to separate flax fibers."
       },
       "exampleSynonym": {
-        "word": "metal comb",
-        "text": "The worker used a metal comb to separate flax fibers."
+        "word": "flax comb",
+        "text": "The worker used a flax comb to separate the plant fibers."
       }
     }
   },
@@ -9252,8 +9252,8 @@
         "text": "The din in the hall made it hard to talk."
       },
       "exampleSynonym": {
-        "word": "noise",
-        "text": "The noise in the hall made it hard to talk."
+        "word": "uproar",
+        "text": "The uproar in the hall made it hard to talk."
       },
       "situacion": "vida-diaria"
     }
@@ -36514,12 +36514,12 @@
         "Kurdish language"
       ],
       "example": {
-        "word": "the Kurdish language",
-        "text": "She is learning the Kurdish language."
+        "word": "Kurdish",
+        "text": "She is learning Kurdish for her trip."
       },
       "exampleSynonym": {
-        "word": "Kurdish",
-        "text": "She is learning Kurdish."
+        "word": "Kurdish language",
+        "text": "She is learning the Kurdish language for her trip."
       }
     }
   },
@@ -252821,6 +252821,801 @@
       "situacion": "naturaleza",
       "translation": {
         "es": "rorcual"
+      }
+    }
+  },
+  {
+    "entry": "monkey",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "monkey",
+        "text": "The monkey climbed high into the tree."
+      },
+      "exampleSynonym": {
+        "word": "simian",
+        "text": "The simian climbed high into the tree."
+      }
+    }
+  },
+  {
+    "entry": "stork",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "stork",
+        "text": "A stork stood in the shallow water near its nest."
+      },
+      "exampleSynonym": {
+        "word": "long-legged wading bird",
+        "text": "A long-legged wading bird stood in the shallow water near its nest."
+      }
+    }
+  },
+  {
+    "entry": "terrace",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "terrace",
+        "text": "They ate lunch on the terrace overlooking the garden."
+      },
+      "exampleSynonym": {
+        "word": "patio",
+        "text": "They ate lunch on the patio overlooking the garden."
+      }
+    }
+  },
+  {
+    "entry": "village",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "village",
+        "text": "They spent the summer in a quiet village by the river."
+      },
+      "exampleSynonym": {
+        "word": "small settlement",
+        "text": "They spent the summer in a small settlement by the river."
+      }
+    }
+  },
+  {
+    "entry": "snow",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "snow",
+        "text": "Snow covered the rooftops overnight."
+      },
+      "exampleSynonym": {
+        "word": "snowfall",
+        "text": "A fresh snowfall covered the rooftops overnight."
+      }
+    }
+  },
+  {
+    "entry": "rescue",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "rescue",
+        "text": "The rescue team worked through the night to reach the hikers."
+      },
+      "exampleSynonym": {
+        "word": "save",
+        "text": "The team worked through the night to save the hikers."
+      }
+    }
+  },
+  {
+    "entry": "giraffe",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "giraffe",
+      "definition": "A very tall African mammal with a long neck and spotted coat.",
+      "synonyms": [
+        "long-necked African mammal"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A tall animal with a long neck and spotted coat."
+      },
+      "example": {
+        "word": "giraffe",
+        "text": "The giraffe reached leaves high in the tree."
+      },
+      "exampleSynonym": {
+        "word": "long-necked African mammal",
+        "text": "The long-necked African mammal reached leaves high in the tree."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "girdle",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "girdle",
+      "definition": "Tight-fitting underwear that shapes the waist and hips.",
+      "synonyms": [
+        "waist-shaping underwear"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una prenda ajustada que cubre la cintura."
+      },
+      "example": {
+        "word": "girdle",
+        "text": "She wore a girdle under the dress."
+      },
+      "exampleSynonym": {
+        "word": "waist-shaping underwear",
+        "text": "She wore waist-shaping underwear under the dress."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "girl",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "girl",
+      "definition": "A female child.",
+      "synonyms": [
+        "female child"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una niña juega en un parque."
+      },
+      "example": {
+        "word": "girl",
+        "text": "The girl read a book beside the window."
+      },
+      "exampleSynonym": {
+        "word": "female child",
+        "text": "The female child read a book beside the window."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "girl-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "girl",
+      "definition": "An informal term for a young woman.",
+      "synonyms": [
+        "young woman"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una mujer joven camina por la calle."
+      },
+      "example": {
+        "word": "girl",
+        "text": "The girl started her first job at twenty."
+      },
+      "exampleSynonym": {
+        "word": "young woman",
+        "text": "The young woman started her first job at twenty."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "girl-3",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "girl",
+      "definition": "A person's girlfriend, in informal speech.",
+      "synonyms": [
+        "girlfriend"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una pareja pasea junta."
+      },
+      "example": {
+        "word": "girl",
+        "text": "That is my girl, Ana."
+      },
+      "exampleSynonym": {
+        "word": "girlfriend",
+        "text": "That is my girlfriend, Ana."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "girl-4",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "girl",
+      "definition": "Someone’s female child.",
+      "synonyms": [
+        "daughter"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una madre acompaña a su hija."
+      },
+      "example": {
+        "word": "girl",
+        "text": "Their girl starts school in September."
+      },
+      "exampleSynonym": {
+        "word": "daughter",
+        "text": "Their daughter starts school in September."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "girlish",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "girlish",
+      "definition": "Like a young girl in appearance, behavior, or voice.",
+      "synonyms": [
+        "youthful"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una mujer sonríe con alegría juvenil."
+      },
+      "example": {
+        "word": "girlish",
+        "text": "She gave a girlish giggle at the joke."
+      },
+      "exampleSynonym": {
+        "word": "youthful",
+        "text": "She gave a youthful giggle at the joke."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "girth",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Girth",
+      "definition": "The measurement around a body or object.",
+      "synonyms": [
+        "circumference"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una cinta mide el contorno de un tronco."
+      },
+      "example": {
+        "word": "girth",
+        "text": "The tree’s girth was over four meters."
+      },
+      "exampleSynonym": {
+        "word": "circumference",
+        "text": "The tree’s circumference was over four meters."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "girth-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Girth",
+      "definition": "Fasten a strap around a horse to hold its saddle.",
+      "synonyms": [
+        "tighten the saddle strap"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una correa mantiene una silla sobre un caballo."
+      },
+      "example": {
+        "word": "girth",
+        "text": "The rider must girth the horse before mounting."
+      },
+      "exampleSynonym": {
+        "word": "tighten the saddle strap",
+        "text": "The rider must tighten the saddle strap before mounting."
+      },
+      "situacion": "deportes"
+    }
+  },
+  {
+    "entry": "girth-3",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Girth",
+      "definition": "A strap under a horse’s belly that keeps its saddle in place.",
+      "synonyms": [
+        "saddle strap"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una correa mantiene una silla sobre un caballo."
+      },
+      "example": {
+        "word": "girth",
+        "text": "The girth kept the saddle secure during the ride."
+      },
+      "exampleSynonym": {
+        "word": "saddle strap",
+        "text": "The saddle strap kept the saddle secure during the ride."
+      },
+      "situacion": "deportes"
+    }
+  },
+  {
+    "entry": "gist",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "gist",
+      "definition": "The main point or meaning of something said or written.",
+      "synonyms": [
+        "main point",
+        "essence"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person explains the central idea of a text."
+      },
+      "example": {
+        "word": "gist",
+        "text": "I missed a few details, but I understood the gist of the talk."
+      },
+      "exampleSynonym": {
+        "word": "main point",
+        "text": "I missed a few details, but I understood the main point of the talk."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "give",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give",
+      "definition": "To hand or transfer something to someone so they can have or use it.",
+      "synonyms": [
+        "hand",
+        "pass"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "One person hands a book to another."
+      },
+      "example": {
+        "word": "give",
+        "text": "Please give me the book when you finish reading it."
+      },
+      "exampleSynonym": {
+        "word": "hand",
+        "text": "Please hand me the book when you finish reading it."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "give-2",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give",
+      "definition": "To give money or things as gifts, often to help a person or cause.",
+      "synonyms": [
+        "donate"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "People donate items to a charity."
+      },
+      "example": {
+        "word": "give",
+        "text": "They give clothes to the local shelter every winter."
+      },
+      "exampleSynonym": {
+        "word": "donate",
+        "text": "They donate clothes to the local shelter every winter."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "give-3",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give",
+      "definition": "To cause someone to feel or have something, or to provide it.",
+      "synonyms": [
+        "provide",
+        "cause"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A teacher gives a student useful advice."
+      },
+      "example": {
+        "word": "give",
+        "text": "Her advice gave me confidence before the interview."
+      },
+      "exampleSynonym": {
+        "word": "provide",
+        "text": "Her advice provided me with confidence before the interview."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "give-4",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give",
+      "definition": "To allow someone to have a right, chance, or permission.",
+      "synonyms": [
+        "grant"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person receives permission to enter."
+      },
+      "example": {
+        "word": "give",
+        "text": "The school gave us permission to use the library."
+      },
+      "exampleSynonym": {
+        "word": "grant",
+        "text": "The school granted us permission to use the library."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "give-5",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give",
+      "definition": "To bend, move, or break when force is applied.",
+      "synonyms": [
+        "yield"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A branch bends under pressure."
+      },
+      "example": {
+        "word": "give",
+        "text": "The old branch gave under the weight of the snow."
+      },
+      "exampleSynonym": {
+        "word": "yield",
+        "text": "The old branch yielded under the weight of the snow."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "give-away",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give away",
+      "definition": "To give something to someone without asking for payment.",
+      "synonyms": [
+        "donate",
+        "give freely"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person gives away a box of books."
+      },
+      "example": {
+        "word": "give away",
+        "text": "She gave away her old books to the community center."
+      },
+      "exampleSynonym": {
+        "word": "donate",
+        "text": "She donated her old books to the community center."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "give-away-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "give away",
+      "definition": "To reveal a secret or information that was meant to stay hidden.",
+      "synonyms": [
+        "reveal"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Someone accidentally reveals a secret."
+      },
+      "example": {
+        "word": "give away",
+        "text": "His nervous smile gave away the surprise."
+      },
+      "exampleSynonym": {
+        "word": "reveal",
+        "text": "His nervous smile revealed the surprise."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "give-back",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give back",
+      "definition": "To return something to the person who owns it.",
+      "synonyms": [
+        "return",
+        "hand back"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person returns a borrowed book."
+      },
+      "example": {
+        "word": "give back",
+        "text": "Please give back the library book by Friday."
+      },
+      "exampleSynonym": {
+        "word": "return",
+        "text": "Please return the library book by Friday."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "give-back-2",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give back",
+      "definition": "To help a person or community in return for help or support received.",
+      "synonyms": [
+        "contribute"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Volunteers help their local community."
+      },
+      "example": {
+        "word": "give back",
+        "text": "After the town helped her family, she wanted to give back."
+      },
+      "exampleSynonym": {
+        "word": "contribute",
+        "text": "After the town helped her family, she wanted to contribute."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "give-birth",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give birth",
+      "definition": "To have a baby or young animal.",
+      "synonyms": [
+        "deliver a baby",
+        "bear young"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A newborn baby rests in a parent’s arms."
+      },
+      "example": {
+        "word": "give birth",
+        "text": "The mare gave birth to a foal in spring."
+      },
+      "exampleSynonym": {
+        "word": "bear young",
+        "text": "The mare bore young in spring."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "give-in",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give in",
+      "definition": "To stop resisting or to agree to something after pressure.",
+      "synonyms": [
+        "yield",
+        "surrender"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person agrees after a long discussion."
+      },
+      "example": {
+        "word": "give in",
+        "text": "After hours of discussion, he gave in and accepted the plan."
+      },
+      "exampleSynonym": {
+        "word": "yield",
+        "text": "After hours of discussion, he yielded and accepted the plan."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "select",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "select",
+        "text": "You can select any seat near the window."
+      },
+      "exampleSynonym": {
+        "word": "choose",
+        "text": "You can choose any seat near the window."
+      }
+    }
+  },
+  {
+    "entry": "reply-2",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "reply",
+        "text": "Her reply arrived before noon."
+      },
+      "exampleSynonym": {
+        "word": "answer",
+        "text": "Her answer arrived before noon."
+      }
+    }
+  },
+  {
+    "entry": "revitalize",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "revitalize",
+        "text": "The city plans to revitalize the old waterfront."
+      },
+      "exampleSynonym": {
+        "word": "renew",
+        "text": "The city plans to renew the old waterfront."
+      }
+    }
+  },
+  {
+    "entry": "streamline",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "streamline",
+        "text": "The team plans to streamline the approval process."
+      },
+      "exampleSynonym": {
+        "word": "simplify",
+        "text": "The team plans to simplify the approval process."
+      }
+    }
+  },
+  {
+    "entry": "rummage",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "rummage",
+        "text": "She rummaged through the drawer for a spare key."
+      },
+      "exampleSynonym": {
+        "word": "search",
+        "text": "She searched through the drawer for a spare key."
+      }
+    }
+  },
+  {
+    "entry": "sneak-away",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "sneak away",
+        "text": "They tried to sneak away before the speeches ended."
+      },
+      "exampleSynonym": {
+        "word": "slip away",
+        "text": "They tried to slip away before the speeches ended."
+      }
+    }
+  },
+  {
+    "entry": "ruminate",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "ruminate",
+        "text": "She took a day to ruminate on the offer."
+      },
+      "exampleSynonym": {
+        "word": "ponder",
+        "text": "She took a day to ponder the offer."
+      }
+    }
+  },
+  {
+    "entry": "tapestry",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tapestry",
+        "text": "The museum displayed an old tapestry in the gallery."
+      },
+      "exampleSynonym": {
+        "word": "woven wall hanging",
+        "text": "The museum displayed an old woven wall hanging in the gallery."
+      }
+    }
+  },
+  {
+    "entry": "resurrection",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "resurrection",
+        "text": "The theater’s resurrection brought new life to the neighborhood."
+      },
+      "exampleSynonym": {
+        "word": "revival",
+        "text": "The theater’s revival brought new life to the neighborhood."
       }
     }
   }

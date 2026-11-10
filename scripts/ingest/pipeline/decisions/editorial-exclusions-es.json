@@ -86797,5 +86797,85 @@
     "id": "rorar",
     "word": "Rorar",
     "reason": "A little-used verb; its current definition is incorrect."
+  },
+  {
+    "id": "ros",
+    "word": "Ros",
+    "reason": "An old military headpiece with little modern synonym value."
+  },
+  {
+    "id": "rosacruz",
+    "word": "Rosacruz",
+    "reason": "A specialized esoteric term with little everyday synonym value."
+  },
+  {
+    "id": "rosadillo",
+    "word": "Rosadillo",
+    "reason": "A Palencia regional name for the ermine; the standard name is retained."
+  },
+  {
+    "id": "rosalera",
+    "word": "Rosalera",
+    "reason": "An exact duplicate of the retained rosaleda."
+  },
+  {
+    "id": "rosar",
+    "word": "Rosar",
+    "reason": "A rare Asturias regional verb meaning that dew falls."
+  },
+  {
+    "id": "rosariazo",
+    "word": "Rosariazo",
+    "reason": "A highly regional Ecuadorian weather term with little synonym value."
+  },
+  {
+    "id": "roscadero",
+    "word": "Roscadero",
+    "reason": "A rural Aragonese basket name with little general synonym value."
+  },
+  {
+    "id": "roscado",
+    "word": "Roscado",
+    "reason": "A technical manufacturing term with little general synonym value."
+  },
+  {
+    "id": "roscar",
+    "word": "Roscar",
+    "reason": "A technical or regionally restricted verb with little general synonym value."
+  },
+  {
+    "id": "rosear",
+    "word": "Rosear",
+    "reason": "A rare descriptive verb with little practical synonym value."
+  },
+  {
+    "id": "rosedal",
+    "word": "Rosedal",
+    "reason": "A regional duplicate of the retained standard word rosaleda."
+  },
+  {
+    "id": "roseo",
+    "word": "Róseo",
+    "reason": "A rare variant of the more familiar rosáceo."
+  },
+  {
+    "id": "roseola",
+    "word": "Roséola",
+    "reason": "A specialized medical term with limited everyday synonym value."
+  },
+  {
+    "id": "rosero",
+    "word": "Rosero",
+    "reason": "An uncommon occupational and regional food term with little general synonym value."
+  },
+  {
+    "id": "rosigon",
+    "word": "Rosigón",
+    "reason": "An uncommon regional word for a piece of stale bread."
+  },
+  {
+    "id": "rosillo",
+    "word": "Rosillo",
+    "reason": "A specialized regional term for a horse’s coat color."
   }
 ]

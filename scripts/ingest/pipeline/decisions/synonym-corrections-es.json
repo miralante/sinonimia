@@ -42940,7 +42940,15 @@
         "grifo",
         "canilla",
         "llave de barril"
-      ]
+      ],
+      "example": {
+        "word": "espita",
+        "text": "El tabernero abrió la espita para llenar la jarra."
+      },
+      "exampleSynonym": {
+        "word": "grifo",
+        "text": "El tabernero abrió el grifo para llenar la jarra."
+      }
     }
   },
   {
@@ -253950,6 +253958,355 @@
       "definition": "Inflamación de las encías, que puede causar enrojecimiento y sangrado.",
       "translation": {
         "en": "gingivitis"
+      }
+    }
+  },
+  {
+    "entry": "cubica",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "cúbica",
+        "text": "La caja cúbica cabe en el estante superior."
+      },
+      "exampleSynonym": {
+        "word": "con forma de cubo",
+        "text": "La caja con forma de cubo cabe en el estante superior."
+      }
+    }
+  },
+  {
+    "entry": "fotonovela",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "fotonovela",
+        "text": "La revista publicó una fotonovela sobre la vida en el barrio."
+      },
+      "exampleSynonym": {
+        "word": "novela fotográfica",
+        "text": "La revista publicó una novela fotográfica sobre la vida en el barrio."
+      }
+    }
+  },
+  {
+    "entry": "berbero",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "bérbero",
+        "text": "Los frutos del bérbero maduraron a finales del verano."
+      },
+      "exampleSynonym": {
+        "word": "agracejo",
+        "text": "Los frutos del agracejo maduraron a finales del verano."
+      }
+    }
+  },
+  {
+    "entry": "rorro",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rorro",
+      "definition": "Niño pequeño.",
+      "synonyms": [
+        "bebé"
+      ],
+      "image": {
+        "id": 6479,
+        "alt": "Un niño pequeño duerme."
+      },
+      "example": {
+        "word": "rorro",
+        "text": "La abuela acunó al rorro hasta que se durmió."
+      },
+      "exampleSynonym": {
+        "word": "bebé",
+        "text": "La abuela acunó al bebé hasta que se durmió."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rosada",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rosada",
+      "definition": "Capa de rocío congelada sobre una superficie.",
+      "synonyms": [
+        "escarcha"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una superficie cubierta de escarcha."
+      },
+      "example": {
+        "word": "rosada",
+        "text": "La rosada cubrió la hierba al amanecer."
+      },
+      "exampleSynonym": {
+        "word": "escarcha",
+        "text": "La escarcha cubrió la hierba al amanecer."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "rosadelfa",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rosadelfa",
+      "definition": "Arbusto ornamental conocido también como azalea.",
+      "synonyms": [
+        "azalea"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un arbusto de flores ornamentales."
+      },
+      "example": {
+        "word": "rosadelfa",
+        "text": "Plantaron una rosadelfa junto a la entrada."
+      },
+      "exampleSynonym": {
+        "word": "azalea",
+        "text": "Plantaron una azalea junto a la entrada."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "rosaleda",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rosaleda",
+      "definition": "Lugar donde hay muchos rosales.",
+      "synonyms": [
+        "rosedal"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un jardín con rosales."
+      },
+      "example": {
+        "word": "rosaleda",
+        "text": "Pasearon por la rosaleda del parque."
+      },
+      "exampleSynonym": {
+        "word": "rosedal",
+        "text": "Pasearon por el rosedal del parque."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "rosarse",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rosarse",
+      "definition": "Ponerse sonrosado.",
+      "synonyms": [
+        "sonrosarse"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una cara con las mejillas sonrosadas."
+      },
+      "example": {
+        "word": "rosarse",
+        "text": "El cielo empezó a rosarse al amanecer."
+      },
+      "exampleSynonym": {
+        "word": "sonrosarse",
+        "text": "El cielo empezó a sonrosarse al amanecer."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "roscon",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Roscón",
+      "definition": "Bollo grande con forma de anillo.",
+      "synonyms": [
+        "rosco"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un bollo grande con forma de anillo."
+      },
+      "example": {
+        "word": "roscón",
+        "text": "Compramos un roscón para compartirlo en la merienda."
+      },
+      "exampleSynonym": {
+        "word": "rosco",
+        "text": "Compramos un rosco para compartirlo en la merienda."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "rosicler",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rosicler",
+      "definition": "Color rosa claro y suave, parecido al del cielo al amanecer.",
+      "synonyms": [
+        "rosa claro"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "El cielo tiene un tono rosa claro al amanecer."
+      },
+      "example": {
+        "word": "rosicler",
+        "text": "El cielo se tiñó de rosicler antes de salir el sol."
+      },
+      "exampleSynonym": {
+        "word": "rosa claro",
+        "text": "El cielo tomó un tono rosa claro antes de salir el sol."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "vitrinear",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "vitrinear",
+        "text": "El sábado salieron a vitrinear por el centro antes de cenar."
+      },
+      "exampleSynonym": {
+        "word": "mirar escaparates",
+        "text": "El sábado salieron a mirar escaparates por el centro antes de cenar."
+      }
+    }
+  },
+  {
+    "entry": "trotar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "trotar",
+        "text": "Cada mañana, Rosa sale a trotar por el parque."
+      },
+      "exampleSynonym": {
+        "word": "correr al trote",
+        "text": "Cada mañana, Rosa sale a correr al trote por el parque."
+      }
+    }
+  },
+  {
+    "entry": "germinar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "germinar",
+        "text": "Las semillas empezaron a germinar después de la lluvia."
+      },
+      "exampleSynonym": {
+        "word": "brotar",
+        "text": "Las semillas empezaron a brotar después de la lluvia."
+      }
+    }
+  },
+  {
+    "entry": "planificar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "planificar",
+        "text": "El equipo planificó el viaje con varias semanas de antelación."
+      },
+      "exampleSynonym": {
+        "word": "planear",
+        "text": "El equipo planeó el viaje con varias semanas de antelación."
+      }
+    }
+  },
+  {
+    "entry": "tocadiscos",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tocadiscos",
+        "text": "Mi abuelo reparó el tocadiscos para escuchar sus discos favoritos."
+      },
+      "exampleSynonym": {
+        "word": "giradiscos",
+        "text": "Mi abuelo reparó el giradiscos para escuchar sus discos favoritos."
+      }
+    }
+  },
+  {
+    "entry": "gasoducto",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "gasoducto",
+        "text": "El gasoducto transporta gas natural desde el puerto."
+      },
+      "exampleSynonym": {
+        "word": "tubería de gas",
+        "text": "La tubería de gas transporta gas natural desde el puerto."
+      }
+    }
+  },
+  {
+    "entry": "zapatiesta",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "zapatiesta",
+        "text": "La discusión terminó en una zapatiesta frente a la puerta."
+      },
+      "exampleSynonym": {
+        "word": "alboroto",
+        "text": "La discusión terminó en un alboroto frente a la puerta."
+      }
+    }
+  },
+  {
+    "entry": "fotomaton",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "fotomatón",
+        "text": "El fotomatón imprimió dos tiras de fotos para la familia."
+      },
+      "exampleSynonym": {
+        "word": "cabina fotográfica",
+        "text": "La cabina fotográfica imprimió dos tiras de fotos para la familia."
+      }
+    }
+  },
+  {
+    "entry": "zarpa",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "zarpa",
+        "text": "El gato apoyó la zarpa en el borde de la ventana."
+      },
+      "exampleSynonym": {
+        "word": "garra",
+        "text": "El gato apoyó la garra en el borde de la ventana."
       }
     }
   }

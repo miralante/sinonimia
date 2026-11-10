@@ -499,4 +499,11 @@
 {const x={"id":"roque-3","word":"Roque","definition":"En Canarias, elevación rocosa y escarpada del terreno.","synonyms":["promontorio rocoso"],"image":{"id":6594,"alt":"Una roca grande y escarpada."},"example":{"word":"Roque","text":"Subimos hasta el roque antes del atardecer."},"exampleSynonym":{"word":"promontorio rocoso","text":"Subimos hasta el promontorio rocoso antes del atardecer."},"situacion":"regional"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
 {const x={"id":"roqueno-2","word":"Roqueño","definition":"Duro como una roca.","synonyms":["duro como una piedra"],"image":{"id":6594,"alt":"Una roca grande y escarpada."},"example":{"word":"Roqueño","text":"El suelo roqueño resistió el paso de los siglos."},"exampleSynonym":{"word":"duro como una piedra","text":"El suelo duro como una piedra resistió el paso de los siglos."},"situacion":"naturaleza"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
 
+// R4492 reviewed and split es
+{const x={"id":"rosada-2","word":"Rosada","definition":"De color rosa.","synonyms":["rosa"],"image":{"id":2807,"alt":"Una mancha de pintura rosa."},"example":{"word":"Rosada","text":"La pared quedó rosada después de pintarla."},"exampleSynonym":{"word":"rosa","text":"La pared quedó rosa después de pintarla."},"situacion":"vida-diaria"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
+{const x={"id":"rosadelfa-2","word":"Rosadelfa","definition":"Arbusto ornamental que también se llama rododendro.","synonyms":["rododendro"],"image":{"id":7024,"alt":"Un arbusto de flores ornamentales."},"example":{"word":"Rosadelfa","text":"La rosadelfa floreció junto al sendero."},"exampleSynonym":{"word":"rododendro","text":"El rododendro floreció junto al sendero."},"situacion":"naturaleza"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
+
+// R4493 reviewed and split es
+
+
 })();
