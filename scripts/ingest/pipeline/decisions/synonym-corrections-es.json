@@ -47186,16 +47186,6 @@
     }
   },
   {
-    "entry": "rotonda",
-    "remove": [],
-    "unset": [],
-    "set": {
-      "translation": {
-        "en": "traffic-circle"
-      }
-    }
-  },
-  {
     "entry": "husmear",
     "remove": [],
     "unset": [],
@@ -254308,6 +254298,805 @@
         "text": "El cielo tomó un tono rosa claro antes de salir el sol."
       },
       "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "alhondiguero",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "alhondiguero",
+        "text": "El alhondiguero cuidaba el almacén de grano."
+      },
+      "exampleSynonym": {
+        "word": "cuidador de la alhóndiga",
+        "text": "El cuidador de la alhóndiga cuidaba el almacén de grano."
+      }
+    }
+  },
+  {
+    "entry": "virologia",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "virología",
+        "text": "La virología estudia cómo se propagan algunos virus."
+      },
+      "exampleSynonym": {
+        "word": "estudio de los virus",
+        "text": "El estudio de los virus explica cómo se propagan algunos de ellos."
+      }
+    }
+  },
+  {
+    "entry": "fregotear",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "fregotear",
+        "text": "Fregotear la vajilla puede dejar manchas en los vasos."
+      },
+      "exampleSynonym": {
+        "word": "fregar mal",
+        "text": "Fregar mal la vajilla puede dejar manchas en los vasos."
+      }
+    }
+  },
+  {
+    "entry": "franciscano",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "franciscano",
+        "text": "El franciscano atendió a los viajeros en el convento."
+      },
+      "exampleSynonym": {
+        "word": "fraile franciscano",
+        "text": "El fraile franciscano atendió a los viajeros en el convento."
+      }
+    }
+  },
+  {
+    "entry": "fuguillas",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "fuguillas",
+        "text": "No seas fuguillas; todavía falta media hora para que abra la tienda."
+      },
+      "exampleSynonym": {
+        "word": "impaciente",
+        "text": "No seas impaciente; todavía falta media hora para que abra la tienda."
+      }
+    }
+  },
+  {
+    "entry": "pichiriche",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "pichiriche",
+        "text": "No seas pichiriche; aporta tu parte para el regalo del grupo."
+      },
+      "exampleSynonym": {
+        "word": "tacaño",
+        "text": "No seas tacaño; aporta tu parte para el regalo del grupo."
+      }
+    }
+  },
+  {
+    "entry": "vindicador",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "vindicador",
+        "text": "El vindicador prometió vengar la injusticia."
+      },
+      "exampleSynonym": {
+        "word": "vengador",
+        "text": "El vengador prometió vengar la injusticia."
+      }
+    }
+  },
+  {
+    "entry": "zarabanda",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "zarabanda",
+        "text": "La zarabanda animó la fiesta con su ritmo alegre."
+      },
+      "exampleSynonym": {
+        "word": "danza antigua",
+        "text": "La danza antigua animó la fiesta con su ritmo alegre."
+      }
+    }
+  },
+  {
+    "entry": "rositas",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "rositas",
+      "definition": "Palomitas de maíz.",
+      "synonyms": [
+        "palomitas"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un recipiente con palomitas de maíz."
+      },
+      "example": {
+        "word": "rositas",
+        "text": "Compramos rositas para ver la película."
+      },
+      "exampleSynonym": {
+        "word": "palomitas",
+        "text": "Compramos palomitas para ver la película."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "rosmarino",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rosmarino",
+      "definition": "Planta aromática también llamada romero.",
+      "synonyms": [
+        "romero"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una planta de romero con hojas aromáticas."
+      },
+      "example": {
+        "word": "rosmarino",
+        "text": "El rosmarino perfuma el guiso."
+      },
+      "exampleSynonym": {
+        "word": "romero",
+        "text": "El romero perfuma el guiso."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "rostir",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rostir",
+      "definition": "Asar o tostar un alimento.",
+      "synonyms": [
+        "asar"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un alimento se asa en el horno."
+      },
+      "example": {
+        "word": "rostir",
+        "text": "Vamos a rostir las verduras para la cena."
+      },
+      "exampleSynonym": {
+        "word": "asar",
+        "text": "Vamos a asar las verduras para la cena."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "visionado",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "visionado",
+        "text": "El visionado del documental duró casi dos horas."
+      },
+      "exampleSynonym": {
+        "word": "visualización",
+        "text": "La visualización del documental duró casi dos horas."
+      }
+    }
+  },
+  {
+    "entry": "tormentar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tormentar",
+        "text": "Los remordimientos pueden tormentar al acusado durante años."
+      },
+      "exampleSynonym": {
+        "word": "atormentar",
+        "text": "Los remordimientos pueden atormentar al acusado durante años."
+      }
+    }
+  },
+  {
+    "entry": "frenologia",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "frenología",
+        "text": "La frenología pretendía explicar el carácter por la forma del cráneo."
+      },
+      "exampleSynonym": {
+        "word": "pseudociencia craneal",
+        "text": "La pseudociencia craneal pretendía explicar el carácter por la forma del cráneo."
+      }
+    }
+  },
+  {
+    "entry": "estercar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "estercar",
+        "text": "El agricultor decidió estercar la huerta antes de sembrar."
+      },
+      "exampleSynonym": {
+        "word": "estercolar",
+        "text": "El agricultor decidió estercolar la huerta antes de sembrar."
+      }
+    }
+  },
+  {
+    "entry": "veranear",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "veranear",
+        "text": "La familia suele veranear en un pueblo de montaña."
+      },
+      "exampleSynonym": {
+        "word": "veranar",
+        "text": "La familia suele veranar en un pueblo de montaña."
+      }
+    }
+  },
+  {
+    "entry": "trotacalles",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "trotacalles",
+        "text": "Aquel trotacalles recorría el centro de la ciudad cada tarde."
+      },
+      "exampleSynonym": {
+        "word": "callejero",
+        "text": "Aquel callejero recorría el centro de la ciudad cada tarde."
+      }
+    }
+  },
+  {
+    "entry": "rostro",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rostro",
+      "definition": "Parte anterior de la cabeza, desde la frente hasta la barbilla.",
+      "synonyms": [
+        "cara"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "El rostro de una persona visto de frente."
+      },
+      "example": {
+        "word": "rostro",
+        "text": "Se lavó el rostro antes de dormir."
+      },
+      "exampleSynonym": {
+        "word": "cara",
+        "text": "Se lavó la cara antes de dormir."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rotafolio",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rotafolio",
+      "definition": "Soporte móvil con hojas grandes para hacer presentaciones.",
+      "synonyms": [
+        "papelógrafo"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un soporte con hojas de papel para una presentación."
+      },
+      "example": {
+        "word": "rotafolio",
+        "text": "La profesora anotó el plan en el rotafolio."
+      },
+      "exampleSynonym": {
+        "word": "papelógrafo",
+        "text": "La profesora anotó el plan en el papelógrafo."
+      },
+      "situacion": "educacion"
+    }
+  },
+  {
+    "entry": "rotar",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rotar",
+      "definition": "Girar alrededor de un eje.",
+      "synonyms": [
+        "girar"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una rueda gira sobre su eje."
+      },
+      "example": {
+        "word": "rotar",
+        "text": "La rueda puede rotar sin hacer ruido."
+      },
+      "exampleSynonym": {
+        "word": "girar",
+        "text": "La rueda puede girar sin hacer ruido."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "esterilla",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "esterilla",
+        "text": "Puso una esterilla junto a la puerta para limpiarse los zapatos."
+      },
+      "exampleSynonym": {
+        "word": "alfombrilla",
+        "text": "Puso una alfombrilla junto a la puerta para limpiarse los zapatos."
+      }
+    }
+  },
+  {
+    "entry": "trabalenguas",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "trabalenguas",
+        "text": "Los niños repitieron un trabalenguas durante el viaje."
+      },
+      "exampleSynonym": {
+        "word": "juego de palabras",
+        "text": "Los niños repitieron un juego de palabras durante el viaje."
+      }
+    }
+  },
+  {
+    "entry": "velis",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "velís",
+        "text": "Guardó la ropa en un velís antes de salir de viaje."
+      },
+      "exampleSynonym": {
+        "word": "maleta",
+        "text": "Guardó la ropa en una maleta antes de salir de viaje."
+      }
+    }
+  },
+  {
+    "entry": "yerbazal",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "yerbazal",
+        "text": "Después de las lluvias, el terreno quedó cubierto de un yerbazal."
+      },
+      "exampleSynonym": {
+        "word": "herbazal",
+        "text": "Después de las lluvias, el terreno quedó cubierto de un herbazal."
+      }
+    }
+  },
+  {
+    "entry": "tusca",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tusca",
+        "text": "La tusca crece en zonas secas del Cono Sur."
+      },
+      "exampleSynonym": {
+        "word": "aromo",
+        "text": "El aromo crece en zonas secas del Cono Sur."
+      }
+    }
+  },
+  {
+    "entry": "zocolar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "zocolar",
+        "text": "Los vecinos decidieron zocolar el terreno antes de sembrar."
+      },
+      "exampleSynonym": {
+        "word": "desmontar",
+        "text": "Los vecinos decidieron desmontar el terreno antes de sembrar."
+      }
+    }
+  },
+  {
+    "entry": "feminidad",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "feminidad",
+        "text": "En el debate, la feminidad se describió como una idea cultural cambiante."
+      },
+      "exampleSynonym": {
+        "word": "femineidad",
+        "text": "En el debate, la femineidad se describió como una idea cultural cambiante."
+      }
+    }
+  },
+  {
+    "entry": "estimulo",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "estímulo",
+        "text": "El estímulo económico animó al equipo a presentar el proyecto."
+      },
+      "exampleSynonym": {
+        "word": "incentivo",
+        "text": "El incentivo económico animó al equipo a presentar el proyecto."
+      }
+    }
+  },
+  {
+    "entry": "farola",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "farola",
+        "text": "La farola iluminó la esquina durante toda la noche."
+      },
+      "exampleSynonym": {
+        "word": "luminaria",
+        "text": "La luminaria iluminó la esquina durante toda la noche."
+      }
+    }
+  },
+  {
+    "entry": "fundamento",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "fundamento",
+        "text": "La propuesta tiene un fundamento sólido."
+      },
+      "exampleSynonym": {
+        "word": "base",
+        "text": "La propuesta tiene una base sólida."
+      }
+    }
+  },
+  {
+    "entry": "galardonar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "galardonar",
+        "text": "El jurado decidió galardonar a la novelista por su última obra."
+      },
+      "exampleSynonym": {
+        "word": "premiar",
+        "text": "El jurado decidió premiar a la novelista por su última obra."
+      }
+    }
+  },
+  {
+    "entry": "gamberrear",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "gamberrear",
+        "text": "Unos adolescentes empezaron a gamberrear en la plaza."
+      },
+      "exampleSynonym": {
+        "word": "hacer gamberradas",
+        "text": "Unos adolescentes empezaron a hacer gamberradas en la plaza."
+      }
+    }
+  },
+  {
+    "entry": "gigantico",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "gigántico",
+        "text": "El edificio tenía un tamaño gigántico visto desde la plaza."
+      },
+      "exampleSynonym": {
+        "word": "enorme",
+        "text": "El edificio tenía un tamaño enorme visto desde la plaza."
+      }
+    }
+  },
+  {
+    "entry": "glotoneria",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "glotonería",
+        "text": "Su glotonería sorprendió a los demás durante el banquete."
+      },
+      "exampleSynonym": {
+        "word": "gula",
+        "text": "Su gula sorprendió a los demás durante el banquete."
+      }
+    }
+  },
+  {
+    "entry": "horticultor",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "horticultor",
+        "text": "El horticultor plantó tomates y lechugas en el huerto."
+      },
+      "exampleSynonym": {
+        "word": "hortelano",
+        "text": "El hortelano plantó tomates y lechugas en el huerto."
+      }
+    }
+  },
+  {
+    "entry": "ludoteca",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "ludoteca",
+        "text": "El barrio abrió una ludoteca con juegos para niños."
+      },
+      "exampleSynonym": {
+        "word": "centro de juegos",
+        "text": "El barrio abrió un centro de juegos para niños."
+      }
+    }
+  },
+  {
+    "entry": "nebulizar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "nebulizar",
+        "text": "La máquina puede nebulizar agua en partículas muy finas."
+      },
+      "exampleSynonym": {
+        "word": "atomizar",
+        "text": "La máquina puede atomizar agua en partículas muy finas."
+      }
+    }
+  },
+  {
+    "entry": "organizativo",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "organizativo",
+        "text": "El equipo redactó un plan organizativo para el evento."
+      },
+      "exampleSynonym": {
+        "word": "organizacional",
+        "text": "El equipo redactó un plan organizacional para el evento."
+      }
+    }
+  },
+  {
+    "entry": "rotativa",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rotativa",
+      "definition": "Máquina que imprime muchas páginas usando rodillos.",
+      "synonyms": [
+        "prensa rotativa"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una máquina de imprenta con rodillos."
+      },
+      "example": {
+        "word": "rotativa",
+        "text": "La rotativa imprimió el periódico durante la noche."
+      },
+      "exampleSynonym": {
+        "word": "prensa rotativa",
+        "text": "La prensa rotativa imprimió el periódico durante la noche."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "rotativo",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rotativo",
+      "definition": "Que gira alrededor de un eje.",
+      "synonyms": [
+        "giratorio"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una pieza gira alrededor de un eje."
+      },
+      "example": {
+        "word": "rotativo",
+        "text": "El motor rotativo mueve las ruedas del coche."
+      },
+      "exampleSynonym": {
+        "word": "giratorio",
+        "text": "El motor giratorio mueve las ruedas del coche."
+      },
+      "situacion": "tecnologia"
+    }
+  },
+  {
+    "entry": "rotiseria",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rotisería",
+      "definition": "Tienda que vende comida preparada para llevar.",
+      "synonyms": [
+        "local de comidas"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una tienda vende comida preparada para llevar."
+      },
+      "example": {
+        "word": "rotisería",
+        "text": "Compramos empanadas en la rotisería del barrio."
+      },
+      "exampleSynonym": {
+        "word": "local de comidas",
+        "text": "Compramos empanadas en el local de comidas del barrio."
+      },
+      "situacion": "regional"
+    }
+  },
+  {
+    "entry": "rotonda",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rotonda",
+      "definition": "Cruce circular donde los vehículos eligen otra salida.",
+      "synonyms": [
+        "glorieta"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un coche recorre un cruce circular."
+      },
+      "example": {
+        "word": "rotonda",
+        "text": "El coche salió de la rotonda en la tercera salida."
+      },
+      "exampleSynonym": {
+        "word": "glorieta",
+        "text": "El coche salió de la glorieta en la tercera salida."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rotulador",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rotulador",
+      "definition": "Marcador de tinta que escribe con una punta gruesa.",
+      "synonyms": [
+        "marcador"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un marcador de tinta escribe en una hoja."
+      },
+      "example": {
+        "word": "rotulador",
+        "text": "Escribió el título con un rotulador azul."
+      },
+      "exampleSynonym": {
+        "word": "marcador",
+        "text": "Escribió el título con un marcador azul."
+      },
+      "situacion": "educacion"
+    }
+  },
+  {
+    "entry": "rotular",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rotular",
+      "definition": "Poner un letrero a algo o en algún lugar.",
+      "synonyms": [
+        "poner letreros"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona pone letreros con nombres de calles."
+      },
+      "example": {
+        "word": "rotular",
+        "text": "El municipio va a rotular estas calles."
+      },
+      "exampleSynonym": {
+        "word": "poner letreros",
+        "text": "El municipio va a poner letreros en estas calles."
+      },
+      "situacion": "tramites"
+    }
+  },
+  {
+    "entry": "rotulo",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rótulo",
+      "definition": "Título breve que aparece al comienzo de una obra.",
+      "synonyms": [
+        "título"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "El título de una película aparece en la pantalla."
+      },
+      "example": {
+        "word": "rótulo",
+        "text": "El rótulo del documental anuncia el tema."
+      },
+      "exampleSynonym": {
+        "word": "título",
+        "text": "El título del documental anuncia el tema."
+      },
+      "situacion": "arte"
     }
   }
 ]

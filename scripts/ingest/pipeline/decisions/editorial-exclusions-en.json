@@ -81111,5 +81111,95 @@
     "id": "give-off-mist-or-steam",
     "word": "give off mist or steam",
     "reason": "A transparent descriptive phrase rather than a useful synonym entry."
+  },
+  {
+    "id": "give-to-the-pirquen",
+    "word": "give to the pirquén",
+    "reason": "A specialized Chilean mining expression with little general synonym value."
+  },
+  {
+    "id": "give-waits-or-shakes",
+    "word": "give waits or shakes",
+    "reason": "A malformed phrase with no reliable dictionary sense."
+  },
+  {
+    "id": "given-to-kissing",
+    "word": "given to kissing",
+    "reason": "An unnatural, overly specific phrase rather than a useful synonym entry."
+  },
+  {
+    "id": "givingness",
+    "word": "givingness",
+    "reason": "An uncommon abstract derivative with little synonym value."
+  },
+  {
+    "id": "glacially",
+    "word": "Glacially",
+    "reason": "A transparent adverbial derivative with no independent synonym value."
+  },
+  {
+    "id": "glacierism",
+    "word": "Glacierism",
+    "reason": "A rare technical term with little general synonym value."
+  },
+  {
+    "id": "glaciologic",
+    "word": "Glaciologic",
+    "reason": "A technical variant of glaciological with little everyday synonym value."
+  },
+  {
+    "id": "glaciological",
+    "word": "Glaciological",
+    "reason": "A technical adjective derived from glaciology."
+  },
+  {
+    "id": "glaciology",
+    "word": "Glaciology",
+    "reason": "A specialized academic field with little general synonym value."
+  },
+  {
+    "id": "gladiolus-2",
+    "word": "gladiolus",
+    "reason": "A duplicate entry for the same plant sense retained in gladiolus."
+  },
+  {
+    "id": "glaius",
+    "word": "Glaius",
+    "reason": "The headword and its plant definition could not be verified."
+  },
+  {
+    "id": "glaive",
+    "word": "Glaive",
+    "reason": "An archaic word for sword with little current synonym value."
+  },
+  {
+    "id": "glamor",
+    "word": "Glamor",
+    "reason": "A spelling variant of glamour, which should be the searchable headword."
+  },
+  {
+    "id": "glamorous",
+    "word": "glamorous",
+    "reason": "A common everyday adjective outside the dictionary’s difficult-word focus."
+  },
+  {
+    "id": "glamourous",
+    "word": "glamourous",
+    "reason": "A spelling variant of glamorous with little independent synonym value."
+  },
+  {
+    "id": "glandiferous",
+    "word": "Glandiferous",
+    "reason": "A rare technical botanical adjective with little general synonym value."
+  },
+  {
+    "id": "glandiger",
+    "word": "Glandiger",
+    "reason": "A rare technical variant of glandiferous with little general synonym value."
+  },
+  {
+    "id": "glass-bead",
+    "word": "glass bead",
+    "reason": "A transparent name for a common object with little synonym value."
   }
 ]

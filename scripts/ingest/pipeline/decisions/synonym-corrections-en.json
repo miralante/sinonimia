@@ -35947,12 +35947,12 @@
         "cat"
       ],
       "example": {
-        "word": "the kitty",
-        "text": "The kitty curled up on the chair."
+        "word": "kitty",
+        "text": "A child played with a friendly kitty in the garden."
       },
       "exampleSynonym": {
-        "word": "the cat",
-        "text": "The cat curled up on the chair."
+        "word": "cat",
+        "text": "A child played with a friendly cat in the garden."
       }
     }
   },
@@ -50194,7 +50194,15 @@
       "synonyms": [
         "popular destination",
         "center of attraction"
-      ]
+      ],
+      "example": {
+        "word": "mecca",
+        "text": "For bird-watchers, the wetland became a mecca in spring."
+      },
+      "exampleSynonym": {
+        "word": "popular destination",
+        "text": "For bird-watchers, the wetland became a popular destination in spring."
+      }
     }
   },
   {
@@ -253509,6 +253517,1003 @@
         "text": "They may yield after hours of discussion."
       },
       "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "root-6",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "root",
+        "text": "Pigs root around in soft soil to find food."
+      },
+      "exampleSynonym": {
+        "word": "snuffle",
+        "text": "Pigs snuffle through soft soil to find food."
+      }
+    }
+  },
+  {
+    "entry": "root-9",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "root",
+        "text": "A new custom can take root in a community over time."
+      },
+      "exampleSynonym": {
+        "word": "take hold",
+        "text": "A new custom can take hold in a community over time."
+      }
+    }
+  },
+  {
+    "entry": "seasonality",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "seasonality",
+        "text": "The shop’s sales show seasonality, rising each summer."
+      },
+      "exampleSynonym": {
+        "word": "seasonal variation",
+        "text": "The shop’s sales show seasonal variation, rising each summer."
+      }
+    }
+  },
+  {
+    "entry": "subgroup",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "subgroup",
+        "text": "A subgroup of volunteers prepared the room."
+      },
+      "exampleSynonym": {
+        "word": "smaller group",
+        "text": "A smaller group of volunteers prepared the room."
+      }
+    }
+  },
+  {
+    "entry": "squeak-5",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "squeak",
+        "text": "The rusty hinges began to squeak whenever the door opened."
+      },
+      "exampleSynonym": {
+        "word": "creak",
+        "text": "The rusty hinges began to creak whenever the door opened."
+      }
+    }
+  },
+  {
+    "entry": "saxophone",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "saxophone",
+        "text": "The saxophone solo filled the concert hall."
+      },
+      "exampleSynonym": {
+        "word": "sax",
+        "text": "The sax solo filled the concert hall."
+      }
+    }
+  },
+  {
+    "entry": "tatami",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tatami",
+        "text": "The host unrolled a tatami in the guest room."
+      },
+      "exampleSynonym": {
+        "word": "Japanese floor mat",
+        "text": "The host unrolled a Japanese floor mat in the guest room."
+      }
+    }
+  },
+  {
+    "entry": "sandpaper",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "sandpaper",
+        "text": "Use sandpaper to smooth the rough edge of the table."
+      },
+      "exampleSynonym": {
+        "word": "abrasive paper",
+        "text": "Use abrasive paper to smooth the rough edge of the table."
+      }
+    }
+  },
+  {
+    "entry": "simian",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "simian",
+        "text": "Its simian features reminded visitors of an ape."
+      },
+      "exampleSynonym": {
+        "word": "ape-like",
+        "text": "Its ape-like features reminded visitors of an ape."
+      }
+    }
+  },
+  {
+    "entry": "school",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "school",
+        "text": "The school opens at eight and classes begin at half past eight."
+      },
+      "exampleSynonym": {
+        "word": "educational institution",
+        "text": "The educational institution opens at eight and classes begin at half past eight."
+      }
+    }
+  },
+  {
+    "entry": "cheer-up",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "cheer up",
+        "text": "A short call can cheer up a friend after a hard day."
+      },
+      "exampleSynonym": {
+        "word": "lift someone's spirits",
+        "text": "A short call can lift someone's spirits after a hard day."
+      }
+    }
+  },
+  {
+    "entry": "recusal",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "recusal",
+        "text": "The judge announced her recusal from a case she had been assigned."
+      },
+      "exampleSynonym": {
+        "word": "withdrawal from a case",
+        "text": "The judge announced her withdrawal from a case she had been assigned."
+      }
+    }
+  },
+  {
+    "entry": "give-or-take",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give or take",
+      "definition": "Approximately, allowing for a small difference in amount.",
+      "synonyms": [
+        "about"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A clock shows an approximate time."
+      },
+      "example": {
+        "word": "give or take",
+        "text": "The trip takes an hour, give or take ten minutes."
+      },
+      "exampleSynonym": {
+        "word": "about",
+        "text": "The trip takes about an hour, with a ten-minute difference."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "give-thanks",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give thanks",
+      "definition": "To express gratitude, often to God.",
+      "synonyms": [
+        "thank"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person gives thanks for a meal."
+      },
+      "example": {
+        "word": "give thanks",
+        "text": "We gather to give thanks to God."
+      },
+      "exampleSynonym": {
+        "word": "thank",
+        "text": "We gather to thank God."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "give-up",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give up",
+      "definition": "To stop trying to do something.",
+      "synonyms": [
+        "quit"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person keeps working on a difficult task."
+      },
+      "example": {
+        "word": "give up",
+        "text": "Do not give up on the project yet."
+      },
+      "exampleSynonym": {
+        "word": "quit",
+        "text": "Do not quit the project yet."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "give-up-2",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give up",
+      "definition": "To stop doing or having something by choice.",
+      "synonyms": [
+        "quit"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person chooses to stop a habit."
+      },
+      "example": {
+        "word": "give up",
+        "text": "He decided to give up smoking."
+      },
+      "exampleSynonym": {
+        "word": "quit",
+        "text": "He decided to quit smoking."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "giveaway",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "giveaway",
+      "definition": "A sign that reveals something about a person or situation.",
+      "synonyms": [
+        "clue"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A detail gives away a person’s identity."
+      },
+      "example": {
+        "word": "giveaway",
+        "text": "Her accent was the giveaway that she came from Scotland."
+      },
+      "exampleSynonym": {
+        "word": "clue",
+        "text": "Her accent was the clue that she came from Scotland."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "given",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "given",
+      "definition": "Often inclined to do something, usually with “to”.",
+      "synonyms": [
+        "prone"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person often tells long stories."
+      },
+      "example": {
+        "word": "given",
+        "text": "She is given to telling long stories."
+      },
+      "exampleSynonym": {
+        "word": "prone",
+        "text": "She is prone to telling long stories."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "giving",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "giving",
+      "definition": "Willing to give money, time, or help to others.",
+      "synonyms": [
+        "generous"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A neighbor gives time to help others."
+      },
+      "example": {
+        "word": "giving",
+        "text": "She is a giving neighbor who volunteers each week."
+      },
+      "exampleSynonym": {
+        "word": "generous",
+        "text": "She is a generous neighbor who volunteers each week."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "gizzard",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "gizzard",
+      "definition": "A bird’s muscular stomach, which grinds its food.",
+      "synonyms": [
+        "muscular stomach"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A diagram shows a bird’s stomach."
+      },
+      "example": {
+        "word": "gizzard",
+        "text": "A gizzard helps a chicken grind its food."
+      },
+      "exampleSynonym": {
+        "word": "muscular stomach",
+        "text": "A muscular stomach helps a chicken grind its food."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "subforum",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "subforum",
+        "text": "The moderator moved the question to a subforum about gardening."
+      },
+      "exampleSynonym": {
+        "word": "forum section",
+        "text": "The moderator moved the question to a forum section about gardening."
+      }
+    }
+  },
+  {
+    "entry": "segment-3",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "segment",
+        "text": "The diagram shows a segment between points A and B."
+      },
+      "exampleSynonym": {
+        "word": "line segment",
+        "text": "The diagram shows a line segment between points A and B."
+      }
+    }
+  },
+  {
+    "entry": "subcellular",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "subcellular",
+        "text": "The microscope revealed subcellular structures inside the organism."
+      },
+      "exampleSynonym": {
+        "word": "within a cell",
+        "text": "The microscope revealed structures within a cell inside the organism."
+      }
+    }
+  },
+  {
+    "entry": "salicylate",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "salicylate",
+        "text": "The medicine contains a salicylate used to reduce inflammation."
+      },
+      "exampleSynonym": {
+        "word": "salicylic acid salt",
+        "text": "The medicine contains a salicylic acid salt used to reduce inflammation."
+      }
+    }
+  },
+  {
+    "entry": "superscript",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "superscript",
+        "text": "The editor placed a superscript after the quoted word."
+      },
+      "exampleSynonym": {
+        "word": "raised character",
+        "text": "The editor placed a raised character after the quoted word."
+      }
+    }
+  },
+  {
+    "entry": "telematics",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "telematics",
+        "text": "The course introduces telematics and its uses in transport."
+      },
+      "exampleSynonym": {
+        "word": "telecommunications and computing",
+        "text": "The course introduces telecommunications and computing and their uses in transport."
+      }
+    }
+  },
+  {
+    "entry": "glacial",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glacial",
+      "definition": "Relating to glaciers or made by glaciers.",
+      "synonyms": [
+        "glacier-related"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Ice and rock show a landscape shaped by glaciers."
+      },
+      "example": {
+        "word": "glacial",
+        "text": "Researchers studied glacial deposits in the valley."
+      },
+      "exampleSynonym": {
+        "word": "glacier-related",
+        "text": "Researchers studied glacier-related deposits in the valley."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "glacier",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glacier",
+      "definition": "A large mass of ice that moves slowly over land.",
+      "synonyms": [
+        "moving mass of ice"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A large glacier moves slowly down a valley."
+      },
+      "example": {
+        "word": "glacier",
+        "text": "The glacier advanced slowly down the mountain valley."
+      },
+      "exampleSynonym": {
+        "word": "moving mass of ice",
+        "text": "The moving mass of ice advanced slowly down the mountain valley."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "glad",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glad",
+      "definition": "Happy and pleased about something.",
+      "synonyms": [
+        "happy"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person smiles after hearing good news."
+      },
+      "example": {
+        "word": "glad",
+        "text": "I am glad that you enjoyed the concert."
+      },
+      "exampleSynonym": {
+        "word": "happy",
+        "text": "I am happy that you enjoyed the concert."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "glade",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glade",
+      "definition": "An open area without trees in a wood or forest.",
+      "synonyms": [
+        "clearing"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "An open clearing surrounded by trees."
+      },
+      "example": {
+        "word": "glade",
+        "text": "We stopped to rest in a glade."
+      },
+      "exampleSynonym": {
+        "word": "clearing",
+        "text": "We stopped to rest in a clearing."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "gladiator",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "gladiator",
+      "definition": "A trained fighter in ancient Roman public contests.",
+      "synonyms": [
+        "arena fighter"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A fighter stands in an ancient Roman arena."
+      },
+      "example": {
+        "word": "gladiator",
+        "text": "The gladiator entered the arena before the contest."
+      },
+      "exampleSynonym": {
+        "word": "arena fighter",
+        "text": "The arena fighter entered the arena before the contest."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "gladiolus",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "gladiolus",
+      "definition": "A flowering plant with long leaves and tall flower spikes.",
+      "synonyms": [
+        "sword lily"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A tall flowering plant with long leaves."
+      },
+      "example": {
+        "word": "gladiolus",
+        "text": "The gladiolus grew taller than the other flowers."
+      },
+      "exampleSynonym": {
+        "word": "sword lily",
+        "text": "The sword lily grew taller than the other flowers."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "rehearsal",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "rehearsal",
+        "text": "The band held a rehearsal before the concert."
+      },
+      "exampleSynonym": {
+        "word": "practice",
+        "text": "The band held a practice before the concert."
+      }
+    }
+  },
+  {
+    "entry": "scree",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "scree",
+        "text": "The hikers crossed the scree carefully as loose stones slid below them."
+      },
+      "exampleSynonym": {
+        "word": "rock debris",
+        "text": "The hikers crossed the rock debris carefully as loose stones slid below them."
+      }
+    }
+  },
+  {
+    "entry": "studyard",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "studyard",
+        "text": "The studyard raised horses bred for long-distance races."
+      },
+      "exampleSynonym": {
+        "word": "stud farm",
+        "text": "The stud farm raised horses bred for long-distance races."
+      }
+    }
+  },
+  {
+    "entry": "stain-remover-2",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "stain remover",
+        "text": "She used a stain remover on the red wine mark."
+      },
+      "exampleSynonym": {
+        "word": "spot remover",
+        "text": "She used a spot remover on the red wine mark."
+      }
+    }
+  },
+  {
+    "entry": "retread-2",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "retread",
+        "text": "The garage can retread old tires instead of replacing them."
+      },
+      "exampleSynonym": {
+        "word": "recap",
+        "text": "The garage can recap old tires instead of replacing them."
+      }
+    }
+  },
+  {
+    "entry": "subjudge",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "subjudge",
+        "text": "The subjudge reviewed the appeal before sending it to a higher court."
+      },
+      "exampleSynonym": {
+        "word": "subordinate judge",
+        "text": "The subordinate judge reviewed the appeal before sending it to a higher court."
+      }
+    }
+  },
+  {
+    "entry": "regretful",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "regretful",
+        "text": "He felt regretful about forgetting the appointment."
+      },
+      "exampleSynonym": {
+        "word": "sorry",
+        "text": "He felt sorry about forgetting the appointment."
+      }
+    }
+  },
+  {
+    "entry": "reply-3",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "reply",
+        "text": "Please reply to my email before lunch."
+      },
+      "exampleSynonym": {
+        "word": "answer",
+        "text": "Please answer my email before lunch."
+      }
+    }
+  },
+  {
+    "entry": "reprint",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "reprint",
+        "text": "The publisher will reprint the guide next spring."
+      },
+      "exampleSynonym": {
+        "word": "republish",
+        "text": "The publisher will republish the guide next spring."
+      }
+    }
+  },
+  {
+    "entry": "remoteness",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "remoteness",
+        "text": "The remoteness of the farm made deliveries difficult."
+      },
+      "exampleSynonym": {
+        "word": "isolation",
+        "text": "The isolation of the farm made deliveries difficult."
+      }
+    }
+  },
+  {
+    "entry": "salient",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "salient",
+        "text": "One salient detail stood out in the report."
+      },
+      "exampleSynonym": {
+        "word": "prominent",
+        "text": "One prominent detail stood out in the report."
+      }
+    }
+  },
+  {
+    "entry": "romper",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "romper",
+        "text": "The child wore a romper to the picnic."
+      },
+      "exampleSynonym": {
+        "word": "one-piece outfit",
+        "text": "The child wore a one-piece outfit to the picnic."
+      }
+    }
+  },
+  {
+    "entry": "saddle-up",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "saddle up",
+        "text": "The riders saddle up before dawn."
+      },
+      "exampleSynonym": {
+        "word": "prepare to ride",
+        "text": "The riders prepare to ride before dawn."
+      }
+    }
+  },
+  {
+    "entry": "sandblast",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "sandblast",
+        "text": "Workers sandblast the old gate to remove the paint."
+      },
+      "exampleSynonym": {
+        "word": "abrasive-blast",
+        "text": "Workers abrasive-blast the old gate to remove the paint."
+      }
+    }
+  },
+  {
+    "entry": "sameness",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "sameness",
+        "text": "The repeated pattern gave the room a sense of sameness."
+      },
+      "exampleSynonym": {
+        "word": "uniformity",
+        "text": "The repeated pattern gave the room a sense of uniformity."
+      }
+    }
+  },
+  {
+    "entry": "scratch-off",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "scratch-off",
+        "text": "She bought a scratch-off at the corner shop."
+      },
+      "exampleSynonym": {
+        "word": "scratch ticket",
+        "text": "She bought a scratch ticket at the corner shop."
+      }
+    }
+  },
+  {
+    "entry": "scythe-2",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "scythe",
+        "text": "The farmer used a scythe to cut the tall grass."
+      },
+      "exampleSynonym": {
+        "word": "mowing blade",
+        "text": "The farmer used a mowing blade to cut the tall grass."
+      }
+    }
+  },
+  {
+    "entry": "glance",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glance",
+      "definition": "To look at something quickly and briefly.",
+      "synonyms": [
+        "take a quick look"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person quickly looks at a clock."
+      },
+      "example": {
+        "word": "glance",
+        "text": "She glanced at the clock before leaving."
+      },
+      "exampleSynonym": {
+        "word": "take a quick look",
+        "text": "She took a quick look at the clock before leaving."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "glance-2",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glance",
+      "definition": "A quick, brief look at someone or something.",
+      "synonyms": [
+        "quick look"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Two people exchange a quick look."
+      },
+      "example": {
+        "word": "glance",
+        "text": "They exchanged a glance across the room."
+      },
+      "exampleSynonym": {
+        "word": "quick look",
+        "text": "They exchanged a quick look across the room."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "glanders",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glanders",
+      "definition": "A contagious disease that mainly affects horses and can spread to people.",
+      "synonyms": [
+        "contagious disease"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A veterinarian checks a horse for an infectious disease."
+      },
+      "example": {
+        "word": "glanders",
+        "text": "Veterinarians test horses for glanders before ending quarantine."
+      },
+      "exampleSynonym": {
+        "word": "contagious disease",
+        "text": "Veterinarians test horses for a contagious disease before ending quarantine."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "glandular",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glandular",
+      "definition": "Related to the body’s glands.",
+      "synonyms": [
+        "gland-related"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A doctor explains the body’s glands."
+      },
+      "example": {
+        "word": "glandular",
+        "text": "The doctor ordered tests for a glandular disorder."
+      },
+      "exampleSynonym": {
+        "word": "gland-related",
+        "text": "The doctor ordered tests for a gland-related disorder."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "rotunda",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "rotunda",
+      "definition": "A large round building, often covered by a dome.",
+      "synonyms": [
+        "circular building"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A round building with a dome."
+      },
+      "example": {
+        "word": "rotunda",
+        "text": "The old rotunda stands beside the museum."
+      },
+      "exampleSynonym": {
+        "word": "circular building",
+        "text": "The old circular building stands beside the museum."
+      },
+      "situacion": "historia"
     }
   }
 ]
