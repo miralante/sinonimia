@@ -81026,5 +81026,60 @@
     "id": "gifted-3",
     "word": "Gifted",
     "reason": "The general natural-ability sense is already covered by talented."
+  },
+  {
+    "id": "gigantesque",
+    "word": "gigantesque",
+    "reason": "A rare variant of gigantic with no distinct useful sense."
+  },
+  {
+    "id": "gigantic",
+    "word": "gigantic",
+    "reason": "A familiar, transparent word meaning very large."
+  },
+  {
+    "id": "gigantic-2",
+    "word": "Gigantic",
+    "reason": "A duplicate variant card for the common word gigantic."
+  },
+  {
+    "id": "gilbert",
+    "word": "Gilbert",
+    "reason": "A personal name; proper names are excluded."
+  },
+  {
+    "id": "gimbalete",
+    "word": "gimbalete",
+    "reason": "A Spanish regional word mistakenly listed as English."
+  },
+  {
+    "id": "gin-bottle",
+    "word": "gin bottle",
+    "reason": "A transparent compound for a bottle that holds gin, with no distinct synonym value."
+  },
+  {
+    "id": "gingidium",
+    "word": "Gingidium",
+    "reason": "A botanical genus; the current animal definition is wrong."
+  },
+  {
+    "id": "gingival",
+    "word": "Gingival",
+    "reason": "A transparent technical adjective with little synonym value."
+  },
+  {
+    "id": "ginner",
+    "word": "Ginner",
+    "reason": "A rare US cotton-industry job title with little synonym value."
+  },
+  {
+    "id": "giobertite",
+    "word": "Giobertite",
+    "reason": "An obscure, outdated mineral name with no useful synonym."
+  },
+  {
+    "id": "gipsy",
+    "word": "gipsy",
+    "reason": "A variant spelling of gypsy; the retained spelling is preferred."
   }
 ]

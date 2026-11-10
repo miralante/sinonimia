@@ -1,7 +1,7 @@
 /* Reviewed Spanish dictionary updates for batch 1973. */
 (()=>{
   const updates={
-
+    
     cultedad:{definition:"Festivo. Cualidad de culterano o culto; a veces, erudición afectada o estilo artificioso.",synonyms:["cultería","erudición afectada","estilo artificioso"],example:{word:"cultedad",text:"El escritor empleó la cultedad con intención humorística en su poema."},exampleSynonym:{word:"cultería",text:"El escritor empleó la cultería con intención humorística en su poema."},translation:null},
     culteranismo:{definition:"Estilo literario del Barroco español, caracterizado por el uso abundante de cultismos, alusiones eruditas, metáforas y una sintaxis compleja; también, una expresión literaria de rasgos semejantes.",synonyms:["gongorismo","cultismo","barroquismo","estilo culterano"],example:{word:"culteranismo",text:"El culteranismo de Góngora influyó en la poesía barroca española."},exampleSynonym:{word:"gongorismo",text:"El gongorismo de Góngora influyó en la poesía barroca española."},translation:null},
     culterano:{definition:"Perteneciente o relativo al culteranismo; dicho de un escritor, que lo practica. Se usa también como sustantivo.",synonyms:["gongorino","cultero","barroco","rebuscado","afectado"],example:{word:"culterano",text:"El poema culterano combina referencias clásicas con una sintaxis elaborada."},exampleSynonym:{word:"gongorino",text:"El poema gongorino combina referencias clásicas con una sintaxis elaborada."},translation:{en:"culteranist"}},

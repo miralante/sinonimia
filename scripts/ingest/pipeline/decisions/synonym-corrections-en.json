@@ -252426,5 +252426,402 @@
         "es": "ronquera"
       }
     }
+  },
+  {
+    "entry": "gigantism",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gigantism",
+      "definition": "A disorder that makes a child’s body grow much more than usual.",
+      "synonyms": [
+        "giantism"
+      ],
+      "image": {
+        "id": 16631,
+        "alt": "A person grows much taller than another."
+      },
+      "example": {
+        "word": "gigantism",
+        "text": "The child was diagnosed with gigantism at age ten."
+      },
+      "exampleSynonym": {
+        "word": "giantism",
+        "text": "The child was diagnosed with giantism at age ten."
+      },
+      "situacion": "salud",
+      "translation": {
+        "es": "gigantismo"
+      }
+    }
+  },
+  {
+    "entry": "gigantism-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gigantism",
+      "definition": "The state of being much larger than normal.",
+      "synonyms": [
+        "extreme size"
+      ],
+      "image": {
+        "id": 16631,
+        "alt": "A person grows much taller than another."
+      },
+      "example": {
+        "word": "gigantism",
+        "text": "The gigantism of the statue surprised visitors."
+      },
+      "exampleSynonym": {
+        "word": "extreme size",
+        "text": "The extreme size of the statue surprised visitors."
+      },
+      "situacion": "naturaleza",
+      "translation": {
+        "es": "gigantez"
+      }
+    }
+  },
+  {
+    "entry": "gild",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gild",
+      "definition": "Cover something with a thin layer of gold or gold-colored paint.",
+      "synonyms": [
+        "gold-plate"
+      ],
+      "image": {
+        "id": 36908,
+        "alt": "A hand decorates a framed picture."
+      },
+      "example": {
+        "word": "gild",
+        "text": "The artist used gold leaf to gild the wooden frame."
+      },
+      "exampleSynonym": {
+        "word": "gold-plate",
+        "text": "The artist used gold leaf to gold-plate the wooden frame."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "gilder",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "gilder",
+      "definition": "A person who covers objects with a thin layer of gold.",
+      "synonyms": [
+        "gold leaf applicator"
+      ],
+      "image": {
+        "id": 36908,
+        "alt": "A hand decorates a framed picture."
+      },
+      "example": {
+        "word": "gilder",
+        "text": "The gilder restored the frame with gold leaf."
+      },
+      "exampleSynonym": {
+        "word": "gold leaf applicator",
+        "text": "The gold leaf applicator restored the frame with gold leaf."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "gilding",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gilding",
+      "definition": "A thin layer of gold or gold paint put on an object.",
+      "synonyms": [
+        "gold coating"
+      ],
+      "image": {
+        "id": 6161,
+        "alt": "A bar of gold."
+      },
+      "example": {
+        "word": "gilding",
+        "text": "The gilding on the frame had faded."
+      },
+      "exampleSynonym": {
+        "word": "gold coating",
+        "text": "The gold coating on the frame had faded."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "gill",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gill",
+      "definition": "An organ that fish use to breathe underwater.",
+      "synonyms": [
+        "breathing organ"
+      ],
+      "image": {
+        "id": 6941,
+        "alt": "The gill of a fish."
+      },
+      "example": {
+        "word": "gill",
+        "text": "The fish uses each gill to take oxygen from the water."
+      },
+      "exampleSynonym": {
+        "word": "breathing organ",
+        "text": "The fish uses each breathing organ to take oxygen from the water."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "gillnet",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gillnet",
+      "definition": "Catch fish with a net that traps them by their gills.",
+      "synonyms": [
+        "catch fish with a gill net"
+      ],
+      "image": {
+        "id": 6205,
+        "alt": "A net used to catch fish."
+      },
+      "example": {
+        "word": "gillnet",
+        "text": "Some boats gillnet fish in shallow coastal waters."
+      },
+      "exampleSynonym": {
+        "word": "catch fish with a gill net",
+        "text": "Some boats catch fish with a gill net in shallow coastal waters."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "gimbal",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gimbal",
+      "definition": "A jointed support that keeps an object level when its base moves.",
+      "synonyms": [
+        "stabilizing mount"
+      ],
+      "image": {
+        "id": 3409,
+        "alt": "A video camera."
+      },
+      "example": {
+        "word": "gimbal",
+        "text": "The gimbal kept the camera level while the boat rocked."
+      },
+      "exampleSynonym": {
+        "word": "stabilizing mount",
+        "text": "The stabilizing mount kept the camera level while the boat rocked."
+      },
+      "situacion": "tecnologia"
+    }
+  },
+  {
+    "entry": "gimbal-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gimbal",
+      "definition": "Mount something on a jointed support so it can move freely.",
+      "synonyms": [
+        "mount"
+      ],
+      "image": {
+        "id": 3409,
+        "alt": "A video camera."
+      },
+      "example": {
+        "word": "gimbal",
+        "text": "They gimbal the compass to keep it level."
+      },
+      "exampleSynonym": {
+        "word": "mount",
+        "text": "They mount the compass on a gimbal to keep it level."
+      },
+      "situacion": "tecnologia"
+    }
+  },
+  {
+    "entry": "gin",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gin",
+      "definition": "A spirit flavored with juniper berries.",
+      "synonyms": [
+        "juniper-flavored spirit"
+      ],
+      "image": {
+        "id": 28954,
+        "alt": "Una botella y una copa de licor."
+      },
+      "example": {
+        "word": "gin",
+        "text": "They served gin with lemon and ice."
+      },
+      "exampleSynonym": {
+        "word": "juniper-flavored spirit",
+        "text": "They served a juniper-flavored spirit with lemon and ice."
+      },
+      "situacion": "comida",
+      "translation": {
+        "es": "gin"
+      }
+    }
+  },
+  {
+    "entry": "ginger",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "ginger",
+      "definition": "A spicy root used to flavor food.",
+      "synonyms": [
+        "ginger root"
+      ],
+      "image": {
+        "id": 37252,
+        "alt": "Raíz de jengibre y rodajas."
+      },
+      "example": {
+        "word": "ginger",
+        "text": "She grated fresh ginger into the soup."
+      },
+      "exampleSynonym": {
+        "word": "ginger root",
+        "text": "She grated fresh ginger root into the soup."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "gimmick",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "gimmick",
+      "definition": "An unusual feature or action used to attract attention.",
+      "synonyms": [
+        "publicity stunt",
+        "marketing ploy"
+      ],
+      "image": {
+        "id": 31195,
+        "alt": "Dos personas realizan un truco en una mesa."
+      },
+      "example": {
+        "word": "gimmick",
+        "text": "The free concert was a gimmick."
+      },
+      "exampleSynonym": {
+        "word": "publicity stunt",
+        "text": "The free concert was a publicity stunt."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gingham",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "gingham",
+      "definition": "A cotton fabric with a small check pattern, often in two colors.",
+      "synonyms": [
+        "checked cotton fabric"
+      ],
+      "image": {
+        "id": 3402,
+        "alt": "Una pieza de tela estampada."
+      },
+      "example": {
+        "word": "gingham",
+        "text": "She wore a gingham apron in the kitchen."
+      },
+      "exampleSynonym": {
+        "word": "checked cotton fabric",
+        "text": "She wore a checked cotton fabric apron in the kitchen."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gingivitis",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gingivitis",
+      "definition": "Inflammation of the gums, often caused by plaque.",
+      "synonyms": [
+        "gum inflammation"
+      ],
+      "image": {
+        "id": 39875,
+        "alt": "Encías inflamadas alrededor de los dientes."
+      },
+      "example": {
+        "word": "gingivitis",
+        "text": "The dentist treated her gingivitis early."
+      },
+      "exampleSynonym": {
+        "word": "gum inflammation",
+        "text": "The dentist treated her gum inflammation early."
+      },
+      "situacion": "salud",
+      "translation": {
+        "es": "gingivitis"
+      }
+    }
+  },
+  {
+    "entry": "rorqual",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "rorqual",
+      "definition": "A large whale with pleats of skin under its throat.",
+      "synonyms": [
+        "whale with throat pleats"
+      ],
+      "image": {
+        "id": 2268,
+        "alt": "A whale seen from the side."
+      },
+      "example": {
+        "word": "rorqual",
+        "text": "The rorqual surfaced to breathe beside the boat."
+      },
+      "exampleSynonym": {
+        "word": "whale with throat pleats",
+        "text": "The whale with throat pleats surfaced to breathe beside the boat."
+      },
+      "situacion": "naturaleza",
+      "translation": {
+        "es": "rorcual"
+      }
+    }
   }
 ]

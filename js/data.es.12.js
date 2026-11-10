@@ -10,7 +10,7 @@
     culuca:{definition:"Coloquial, en El Salvador y Honduras. Cada una de las sentadillas repetidas que se hacen como castigo.",synonyms:["sentadilla","flexión de piernas"],example:{word:"culuca",text:"Como castigo, tuvo que hacer veinte culucas seguidas."},exampleSynonym:{word:"sentadilla",text:"Como castigo, tuvo que hacer veinte sentadillas seguidas."}},
     cuma:{definition:"En El Salvador, Guatemala, Honduras y Nicaragua, machete curvo usado para deshierbar o podar.",synonyms:["machete curvo","podón","rozadera"],example:{word:"cuma",text:"Con la cuma despejó la maleza del lindero."},exampleSynonym:{word:"machete curvo",text:"Con el machete curvo despejó la maleza del lindero."}},
     cumpa:{definition:"Coloquial, en Chile. Acortamiento de compadre, usado para dirigirse a un amigo de mucha confianza.",synonyms:["compadre","amigo","compa"],example:{word:"cumpa",text:"¿Cómo estás, cumpa? Hace tiempo que no nos vemos."},exampleSynonym:{word:"compadre",text:"¿Cómo estás, compadre? Hace tiempo que no nos vemos."}},
-
+    
   };
   for(const[id,fields]of Object.entries(updates)){const row=DICCIONARIOS.es.find(e=>e.id===id);if(row)for(const[key,value]of Object.entries(fields)){if(key==='translation'&&value===null)delete row.translation;else row[key]=value;}if(id==='culturoso')delete row.translation;if(id==='cumpa')delete row.translation;}
 })();

@@ -1176,8 +1176,8 @@
         "text": "El terremoto desplomó la fachada del edificio."
       },
       "exampleSynonym": {
-        "word": "derrumbó",
-        "text": "El terremoto derrumbó la fachada del edificio."
+        "word": "derribó",
+        "text": "El terremoto derribó la fachada del edificio."
       }
     }
   },
@@ -20957,7 +20957,8 @@
       "synonyms": [
         "enredar",
         "revolver",
-        "confundir"
+        "confundir",
+        "desordenar"
       ],
       "example": {
         "word": "embarullar",
@@ -253564,6 +253565,391 @@
     "set": {
       "translation": {
         "en": "gifted-2"
+      }
+    }
+  },
+  {
+    "entry": "rona",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Roña",
+      "definition": "Sarna que afecta a las ovejas.",
+      "synonyms": [
+        "sarna ovina"
+      ],
+      "image": {
+        "id": 2489,
+        "alt": "Una oveja."
+      },
+      "example": {
+        "word": "roña",
+        "text": "La roña afectó a varias ovejas del rebaño."
+      },
+      "exampleSynonym": {
+        "word": "sarna ovina",
+        "text": "La sarna ovina afectó a varias ovejas del rebaño."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "roneria",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Falta de generosidad, sobre todo al dar o gastar dinero.",
+      "synonyms": [
+        "tacañería"
+      ],
+      "image": {
+        "id": 39895,
+        "alt": "Una persona guarda sus monedas y no quiere compartirlas."
+      },
+      "example": {
+        "word": "roñería",
+        "text": "Su roñería quedó clara cuando no quiso ayudar."
+      },
+      "exampleSynonym": {
+        "word": "tacañería",
+        "text": "Su tacañería quedó clara cuando no quiso ayudar."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "ronica",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Roñica",
+      "definition": "Persona que evita gastar o compartir dinero.",
+      "synonyms": [
+        "tacaño"
+      ],
+      "image": {
+        "id": 39895,
+        "alt": "Una persona guarda sus monedas y no quiere compartirlas."
+      },
+      "example": {
+        "word": "roñica",
+        "text": "El roñica no quiso aportar para la cena."
+      },
+      "exampleSynonym": {
+        "word": "tacaño",
+        "text": "El tacaño no quiso aportar para la cena."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "ronoso",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Roñoso",
+      "definition": "Muy sucio o cubierto de mugre.",
+      "synonyms": [
+        "mugriento"
+      ],
+      "image": {
+        "id": 8700,
+        "alt": "Objetos y residuos cubiertos de suciedad."
+      },
+      "example": {
+        "word": "roñoso",
+        "text": "El cubo roñoso dejó una marca en el suelo."
+      },
+      "exampleSynonym": {
+        "word": "mugriento",
+        "text": "El cubo mugriento dejó una marca en el suelo."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "ropavejeria",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Ropavejería",
+      "definition": "Tienda donde se vende ropa y otros objetos usados.",
+      "synonyms": [
+        "tienda de segunda mano"
+      ],
+      "image": {
+        "id": 30424,
+        "alt": "Una tienda que vende ropa."
+      },
+      "example": {
+        "word": "ropavejería",
+        "text": "Encontramos una lámpara antigua en la ropavejería."
+      },
+      "exampleSynonym": {
+        "word": "tienda de segunda mano",
+        "text": "Encontramos una lámpara antigua en la tienda de segunda mano."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "ropavieja",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Ropavieja",
+      "definition": "Guiso cubano o mexicano de carne de res deshilachada y sazonada.",
+      "synonyms": [
+        "guiso de carne deshilachada"
+      ],
+      "image": {
+        "id": 5467,
+        "alt": "Un guiso servido en un plato hondo."
+      },
+      "example": {
+        "word": "ropavieja",
+        "text": "Mi vecina cubana preparó ropavieja para el almuerzo."
+      },
+      "exampleSynonym": {
+        "word": "guiso de carne deshilachada",
+        "text": "Mi vecina cubana preparó un guiso de carne deshilachada para el almuerzo."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "gigantismo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "translation": {
+        "en": "gigantism"
+      }
+    }
+  },
+  {
+    "entry": "gigantez",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "translation": {
+        "en": "gigantism-2"
+      }
+    }
+  },
+  {
+    "entry": "roperia",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Ropería",
+      "definition": "Tienda donde se vende ropa hecha.",
+      "synonyms": [
+        "tienda de ropa"
+      ],
+      "image": {
+        "id": 30424,
+        "alt": "Una tienda de ropa."
+      },
+      "example": {
+        "word": "ropería",
+        "text": "Compramos un abrigo en la ropería."
+      },
+      "exampleSynonym": {
+        "word": "tienda de ropa",
+        "text": "Compramos un abrigo en la tienda de ropa."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "ropero",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Ropero",
+      "definition": "Armario o cuarto donde se guarda ropa.",
+      "synonyms": [
+        "guardarropa"
+      ],
+      "image": {
+        "id": 2258,
+        "alt": "Un armario para guardar ropa."
+      },
+      "example": {
+        "word": "ropero",
+        "text": "Colgó el abrigo en el ropero del pasillo."
+      },
+      "exampleSynonym": {
+        "word": "guardarropa",
+        "text": "Colgó el abrigo en el guardarropa del pasillo."
+      },
+      "situacion": "vivienda"
+    }
+  },
+  {
+    "entry": "roque",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Roque",
+      "definition": "Pieza de ajedrez que se mueve en línea recta.",
+      "synonyms": [
+        "torre de ajedrez"
+      ],
+      "image": {
+        "id": 34165,
+        "alt": "Una torre de ajedrez."
+      },
+      "example": {
+        "word": "roque",
+        "text": "La jugadora movió el roque hasta la casilla final."
+      },
+      "exampleSynonym": {
+        "word": "torre de ajedrez",
+        "text": "La jugadora movió la torre de ajedrez hasta la casilla final."
+      },
+      "situacion": "juegos"
+    }
+  },
+  {
+    "entry": "roquedal",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Roquedal",
+      "definition": "Terreno donde abundan rocas y peñascos.",
+      "synonyms": [
+        "roquerío"
+      ],
+      "image": {
+        "id": 6594,
+        "alt": "Una roca grande y escarpada."
+      },
+      "example": {
+        "word": "roquedal",
+        "text": "Las lagartijas tomaban el sol en el roquedal."
+      },
+      "exampleSynonym": {
+        "word": "roquerío",
+        "text": "Las lagartijas tomaban el sol en el roquerío."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "roquedo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Roquedo",
+      "definition": "Peñasco o roca grande y escarpada.",
+      "synonyms": [
+        "peñasco"
+      ],
+      "image": {
+        "id": 6594,
+        "alt": "Una roca grande y escarpada."
+      },
+      "example": {
+        "word": "roquedo",
+        "text": "El águila anidó entre los roquedos de la sierra."
+      },
+      "exampleSynonym": {
+        "word": "peñasco",
+        "text": "El águila anidó entre los peñascos de la sierra."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "roqueno",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Roqueño",
+      "definition": "Dicho de un sitio, lleno de rocas.",
+      "synonyms": [
+        "rocoso"
+      ],
+      "image": {
+        "id": 6594,
+        "alt": "Una roca grande y escarpada."
+      },
+      "example": {
+        "word": "roqueño",
+        "text": "El sendero cruza un terreno roqueño."
+      },
+      "exampleSynonym": {
+        "word": "rocoso",
+        "text": "El sendero cruza un terreno rocoso."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "rorcual",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rorcual",
+      "definition": "Ballena con pliegues de piel bajo la garganta.",
+      "synonyms": [
+        "ballena con pliegues en la garganta"
+      ],
+      "image": {
+        "id": 2268,
+        "alt": "Una ballena vista de perfil."
+      },
+      "example": {
+        "word": "rorcual",
+        "text": "El rorcual salió a la superficie para respirar."
+      },
+      "exampleSynonym": {
+        "word": "ballena con pliegues en la garganta",
+        "text": "La ballena con pliegues en la garganta salió a la superficie para respirar."
+      },
+      "situacion": "naturaleza",
+      "translation": {
+        "en": "rorqual"
+      }
+    }
+  },
+  {
+    "entry": "gin",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "translation": {
+        "en": "gin"
+      }
+    }
+  },
+  {
+    "entry": "gingivitis",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Gingivitis",
+      "definition": "Inflamación de las encías, que puede causar enrojecimiento y sangrado.",
+      "translation": {
+        "en": "gingivitis"
       }
     }
   }
