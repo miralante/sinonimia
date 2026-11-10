@@ -80386,5 +80386,645 @@
     "id": "frowning",
     "word": "frowning",
     "reason": "Forma participial transparente, no lema independiente."
+  },
+  {
+    "id": "get-hooked-4",
+    "word": "get hooked",
+    "reason": "Corrupt or unsupported sense with no reliable standard meaning."
+  },
+  {
+    "id": "get-hooked-5",
+    "word": "get hooked",
+    "reason": "Corrupt or unsupported sense with no reliable standard meaning."
+  },
+  {
+    "id": "get-hooked-6",
+    "word": "get hooked",
+    "reason": "Corrupt or unsupported sense with no reliable standard meaning."
+  },
+  {
+    "id": "get-hooked-7",
+    "word": "get hooked",
+    "reason": "Corrupt or unsupported sense with no reliable standard meaning."
+  },
+  {
+    "id": "get-in",
+    "word": "Get in",
+    "reason": "Specialized bullfighting use with no general synonym-dictionary value."
+  },
+  {
+    "id": "get-in-3",
+    "word": "get in",
+    "reason": "Corrupt or unsupported entry; its definition is a noun, not the phrase get in."
+  },
+  {
+    "id": "get-infertilized",
+    "word": "get infertilized",
+    "reason": "Unnatural phrase and duplicated, unreliable definition."
+  },
+  {
+    "id": "get-it-out",
+    "word": "Get it out",
+    "reason": "Corrupt entry: the definition does not match the phrase."
+  },
+  {
+    "id": "get-loose-2",
+    "word": "get loose",
+    "reason": "Regional fragment without a definition or usable synonym."
+  },
+  {
+    "id": "get-loose-3",
+    "word": "get loose",
+    "reason": "Unclear definition with no reliable standard meaning."
+  },
+  {
+    "id": "get-loose-10",
+    "word": "get loose",
+    "reason": "Unsupported slang definition."
+  },
+  {
+    "id": "get-loose-11",
+    "word": "get loose",
+    "reason": "Regional definition without a reliable, general sense."
+  },
+  {
+    "id": "get-loose-4",
+    "word": "get loose",
+    "reason": "Corrupt gloss that duplicates the general sense of becoming free."
+  },
+  {
+    "id": "get-loose-5",
+    "word": "get loose",
+    "reason": "Definition matches a different phrase; unsupported as a standard sense of get loose."
+  },
+  {
+    "id": "get-loose-6",
+    "word": "get loose",
+    "reason": "Unsupported definition; it does not express a standard meaning of get loose."
+  },
+  {
+    "id": "get-loose-7",
+    "word": "get loose",
+    "reason": "Corrupt definition with no reliable standard meaning."
+  },
+  {
+    "id": "get-loose-9",
+    "word": "get loose",
+    "reason": "Regional fragment without a clear definition or useful synonym."
+  },
+  {
+    "id": "get-lost-3",
+    "word": "get lost",
+    "reason": "Unsupported definition; it does not express a standard meaning of get lost."
+  },
+  {
+    "id": "get-lost-7",
+    "word": "get lost",
+    "reason": "Corrupt definition about loss of ability, not a standard meaning of get lost."
+  },
+  {
+    "id": "get-lost-8",
+    "word": "get lost",
+    "reason": "Corrupt definition about scaring flies; unrelated to get lost."
+  },
+  {
+    "id": "get-lost-9",
+    "word": "get lost",
+    "reason": "Unsupported definition about desire; unrelated to get lost."
+  },
+  {
+    "id": "get-mad-2",
+    "word": "get mad",
+    "reason": "Corrupt definition about attachment to a mother; unrelated to get mad."
+  },
+  {
+    "id": "get-mad",
+    "word": "get mad",
+    "reason": "Common, transparent phrase meaning to become angry; it needs no easy-read dictionary entry."
+  },
+  {
+    "id": "get-married",
+    "word": "get married",
+    "reason": "Common, transparent phrase meaning to marry; it needs no easy-read dictionary entry."
+  },
+  {
+    "id": "get-married-2",
+    "word": "get married",
+    "reason": "Duplicate or corrupt entry for the common, transparent phrase get married."
+  },
+  {
+    "id": "get-gray",
+    "word": "get moldy",
+    "reason": "Common, transparent phrase with an easy meaning; it needs no dictionary entry."
+  },
+  {
+    "id": "get-moldy",
+    "word": "get moldy",
+    "reason": "Common and transparent phrase meaning to become covered in mold; no separate headword needs explaining."
+  },
+  {
+    "id": "get-muddy",
+    "word": "get muddy",
+    "reason": "Common and transparent phrase meaning to become covered in mud; the supplied definition is also incorrect."
+  },
+  {
+    "id": "get-numb",
+    "word": "get numb",
+    "reason": "The physical meaning is transparent; the emotional sense is normally expressed as go numb."
+  },
+  {
+    "id": "get-off-your-feet",
+    "word": "get off your feet",
+    "reason": "The supplied meaning is unrelated and is not a standard meaning of this phrase."
+  },
+  {
+    "id": "get-older",
+    "word": "get older",
+    "reason": "Common and transparent phrase meaning to become older; the supplied definition is unrelated."
+  },
+  {
+    "id": "get-out-3",
+    "word": "get out",
+    "reason": "The supplied boat definition is unsupported and unrelated to get out."
+  },
+  {
+    "id": "get-out-of-control-2",
+    "word": "get out of control",
+    "reason": "The supplied definition about disrespect is unrelated to this phrase."
+  },
+  {
+    "id": "get-out-of-control-3",
+    "word": "get out of control",
+    "reason": "The supplied transitive definition is unsupported for this phrase."
+  },
+  {
+    "id": "get-out-of-control-4",
+    "word": "get out of control",
+    "reason": "The cattle meaning is unrelated and unsupported."
+  },
+  {
+    "id": "get-out-of-line",
+    "word": "get out of line",
+    "reason": "The supplied definition is corrupt and Collins verifies only out of line and step out of line."
+  },
+  {
+    "id": "get-out-of-the-habit",
+    "word": "get out of the habit",
+    "reason": "A transparent phrase meaning to stop a habit; it does not need a separate entry."
+  },
+  {
+    "id": "get-overheated",
+    "word": "get overheated",
+    "reason": "The phrase transparently means to become too hot; the supplied definition is inaccurate and overly technical."
+  },
+  {
+    "id": "get-overheated-2",
+    "word": "get overheated",
+    "reason": "This duplicate has a reversed and unsupported definition."
+  },
+  {
+    "id": "get-papered",
+    "word": "get papered",
+    "reason": "No verifiable Collins headword supports the supplied meaning."
+  },
+  {
+    "id": "get-pregnant",
+    "word": "get pregnant",
+    "reason": "A common transparent phrase, and the supplied definition is false."
+  },
+  {
+    "id": "get-pregnant-2",
+    "word": "get pregnant",
+    "reason": "The supplied wind and water meaning is unrelated to pregnancy."
+  },
+  {
+    "id": "get-ready",
+    "word": "get ready",
+    "reason": "A common transparent phrase for preparing; it does not need a separate entry."
+  },
+  {
+    "id": "get-romanized",
+    "word": "Get Romanized",
+    "reason": "A finite verb phrase, not an independent lemma; its supplied meaning is false."
+  },
+  {
+    "id": "get-ready-2",
+    "word": "get ready",
+    "reason": "The supplied anticipation definition is false for this common transparent phrase."
+  },
+  {
+    "id": "get-ready-3",
+    "word": "get ready",
+    "reason": "The supplied meaning is unrelated and false."
+  },
+  {
+    "id": "get-ready-4",
+    "word": "get ready",
+    "reason": "A duplicate of the common transparent phrase get ready."
+  },
+  {
+    "id": "get-rich",
+    "word": "get rich",
+    "reason": "A common transparent phrase that does not need a separate dictionary card."
+  },
+  {
+    "id": "get-rid-of-3",
+    "word": "get rid of",
+    "reason": "The supplied definition describes a wasteful person, not this phrase."
+  },
+  {
+    "id": "get-rid-of-4",
+    "word": "get rid of",
+    "reason": "The animal-hoof definition is unrelated and unsupported for this phrase."
+  },
+  {
+    "id": "get-rid-of-5",
+    "word": "get rid of",
+    "reason": "The supplied definition means stand up, not get rid of."
+  },
+  {
+    "id": "get-rid-of-6",
+    "word": "get rid of",
+    "reason": "Duplicate broad removal sense replaced by the corrected canonical card."
+  },
+  {
+    "id": "get-rid-of-yourself",
+    "word": "get rid of yourself",
+    "reason": "The definition is unrelated and false."
+  },
+  {
+    "id": "get-scared",
+    "word": "get scared",
+    "reason": "The supplied slide or movement definition is false; this common transparent phrase needs no separate card."
+  },
+  {
+    "id": "get-shattered",
+    "word": "get shattered",
+    "reason": "The supplied definition is unrelated and false."
+  },
+  {
+    "id": "get-short",
+    "word": "get short",
+    "reason": "The supplied definition is unrelated and false."
+  },
+  {
+    "id": "get-sick-3",
+    "word": "get sick",
+    "reason": "The supplied definition is unrelated and false; the useful illness and vomiting senses are retained separately."
+  },
+  {
+    "id": "get-sick-with-flu",
+    "word": "get sick with flu",
+    "reason": "A transparent phrase formed from the retained get sick sense and flu."
+  },
+  {
+    "id": "get-silfered",
+    "word": "get silfered",
+    "reason": "This appears to be a corrupt or invented phrase with no reliable dictionary support."
+  },
+  {
+    "id": "get-smitten",
+    "word": "get smitten",
+    "reason": "The entry is an incomplete regional label with no usable definition."
+  },
+  {
+    "id": "get-soaked",
+    "word": "get soaked",
+    "reason": "The supplied definition is unrelated and false."
+  },
+  {
+    "id": "get-soaked-2",
+    "word": "get soaked",
+    "reason": "The supplied blanket definition is unrelated and false."
+  },
+  {
+    "id": "get-soaked-4",
+    "word": "get soaked",
+    "reason": "The supplied falling-in-love definition is false for this phrase."
+  },
+  {
+    "id": "get-soggy",
+    "word": "get soggy",
+    "reason": "The supplied definition is false; the ordinary phrase is transparent."
+  },
+  {
+    "id": "get-started",
+    "word": "get started",
+    "reason": "The supplied obstacle definition is false; the ordinary phrase is transparent."
+  },
+  {
+    "id": "get-started-2",
+    "word": "get started",
+    "reason": "The supplied definition is false and unrelated to getting started."
+  },
+  {
+    "id": "get-started-3",
+    "word": "get started",
+    "reason": "The supplied clothing definition is false and unrelated to getting started."
+  },
+  {
+    "id": "get-stubborn",
+    "word": "get stubborn",
+    "reason": "A transparent phrase meaning become stubborn; it needs no separate card."
+  },
+  {
+    "id": "get-stuck",
+    "word": "get stuck",
+    "reason": "The supplied definition is false; the basic physical sense is transparent."
+  },
+  {
+    "id": "get-stuck-2",
+    "word": "get stuck",
+    "reason": "The supplied gangrene definition is a false translation."
+  },
+  {
+    "id": "get-stuck-3",
+    "word": "get stuck",
+    "reason": "The supplied grilling definition is a false translation."
+  },
+  {
+    "id": "get-stuck-4",
+    "word": "get stuck",
+    "reason": "The supplied chivalry definition is a false translation."
+  },
+  {
+    "id": "get-stuck-5",
+    "word": "get stuck",
+    "reason": "The supplied crossbow definition is a false translation."
+  },
+  {
+    "id": "get-stuck-6",
+    "word": "get stuck",
+    "reason": "The supplied hiding-in-a-bush definition is a false translation."
+  },
+  {
+    "id": "get-stuck-7",
+    "word": "get stuck",
+    "reason": "The supplied drunkenness definition is unsupported for this phrase."
+  },
+  {
+    "id": "get-stuck-9",
+    "word": "get stuck",
+    "reason": "The supplied anger definition is false for this phrase."
+  },
+  {
+    "id": "get-stuck-14",
+    "word": "get stuck",
+    "reason": "The supplied attraction definition omits the required preposition and is not this phrase."
+  },
+  {
+    "id": "get-stuck-15",
+    "word": "get stuck",
+    "reason": "The supplied cattle and horsefly definition is corrupt and unsupported."
+  },
+  {
+    "id": "get-stuck-16",
+    "word": "get stuck",
+    "reason": "The supplied dressing-up definition is false and unrelated to this phrase."
+  },
+  {
+    "id": "get-stuffed",
+    "word": "get stuffed",
+    "reason": "A rude British insult, not suitable as a general easy-read synonym entry."
+  },
+  {
+    "id": "get-stuffy",
+    "word": "get stuffy",
+    "reason": "A transparent phrase meaning become stuffy; it needs no separate card."
+  },
+  {
+    "id": "get-temper",
+    "word": "Get temper",
+    "reason": "Not a verified English phrase in the supplied form."
+  },
+  {
+    "id": "get-the-flu",
+    "word": "get the flu",
+    "reason": "A familiar, transparent phrase for a common illness."
+  },
+  {
+    "id": "get-together",
+    "word": "get together",
+    "reason": "A familiar, transparent phrase for meeting or gathering."
+  },
+  {
+    "id": "get-undisciplined",
+    "word": "Get undisciplined",
+    "reason": "A transparent phrase meaning become undisciplined."
+  },
+  {
+    "id": "get-unstuck",
+    "word": "Get unstuck",
+    "reason": "A transparent phrase; the supplied “lose speech” definition is unsupported."
+  },
+  {
+    "id": "get-up",
+    "word": "get up",
+    "reason": "A basic, familiar phrase for rising; the supplied guerrilla definition is false."
+  },
+  {
+    "id": "get-up-early",
+    "word": "get up early",
+    "reason": "A familiar, transparent phrase for getting out of bed early."
+  },
+  {
+    "id": "get-used-to",
+    "word": "get used to",
+    "reason": "The supplied habit definition is false and duplicates the valid sense in get-used-to-2."
+  },
+  {
+    "id": "get-used-to-3",
+    "word": "get used to",
+    "reason": "The supplied habit definition is unsupported and duplicates the valid accustomed sense."
+  },
+  {
+    "id": "get-weak",
+    "word": "get weak",
+    "reason": "A transparent phrase meaning become weak."
+  },
+  {
+    "id": "get-wet",
+    "word": "get wet",
+    "reason": "The supplied drunk definition is false; the ordinary phrase is basic and transparent."
+  },
+  {
+    "id": "get-wormed-2",
+    "word": "get wormed",
+    "reason": "The supplied entry is incomplete and has no supported meaning."
+  },
+  {
+    "id": "get-worse",
+    "word": "get worse",
+    "reason": "A familiar, transparent phrase meaning become worse."
+  },
+  {
+    "id": "get-worse-2",
+    "word": "get worse",
+    "reason": "The supplied transitive sense is wrong; the intended phrase would be make worse."
+  },
+  {
+    "id": "get-yellow",
+    "word": "get yellow",
+    "reason": "The supplied netting definition is false; becoming yellow is transparent."
+  },
+  {
+    "id": "geta",
+    "word": "Geta",
+    "reason": "A Japanese loanword, not a verified English headword in Collins."
+  },
+  {
+    "id": "gharial",
+    "word": "Gharial",
+    "reason": "A rare, highly specialized crocodilian name; the supplied scientific name and definition are incorrect."
+  },
+  {
+    "id": "ghost",
+    "word": "ghost",
+    "reason": "The basic spirit sense is familiar and too common for this dictionary."
+  },
+  {
+    "id": "ghost-3",
+    "word": "ghost",
+    "reason": "The supplied entry is a false definition."
+  },
+  {
+    "id": "ghost-employee",
+    "word": "ghost employee",
+    "reason": "No Collins entry was found for this compound; the supplied entry is not directly supported."
+  },
+  {
+    "id": "ghosted",
+    "word": "Ghosted",
+    "reason": "The supplied definition is corrupt and duplicates neither a valid sense nor a useful lemma."
+  },
+  {
+    "id": "ghostly",
+    "word": "Ghostly",
+    "reason": "A transparent adjective meaning related to ghosts."
+  },
+  {
+    "id": "ghostly-2",
+    "word": "Ghostly",
+    "reason": "A duplicate of the transparent adjective sense."
+  },
+  {
+    "id": "ghoul",
+    "word": "Ghoul",
+    "reason": "A rare horror or folklore creature with little use in everyday documents."
+  },
+  {
+    "id": "giant",
+    "word": "Giant",
+    "reason": "A basic, familiar word; the supplied definition is also incorrect."
+  },
+  {
+    "id": "giant-feather-grass",
+    "word": "giant feather grass",
+    "reason": "A specific botanical species name with limited general document use."
+  },
+  {
+    "id": "giant-kelp",
+    "word": "giant kelp",
+    "reason": "A specific seaweed name; the broader word kelp covers the useful concept."
+  },
+  {
+    "id": "giant-reed",
+    "word": "giant reed",
+    "reason": "A specific plant name with limited use outside botany."
+  },
+  {
+    "id": "giantess",
+    "word": "Giantess",
+    "reason": "A transparent feminine form of the familiar word giant."
+  },
+  {
+    "id": "gibberer",
+    "word": "gibberer",
+    "reason": "A rare derivative for someone who speaks unclearly."
+  },
+  {
+    "id": "gibbet",
+    "word": "gibbet",
+    "reason": "An obscure historical gallows term; the common word gallows already explains the concept."
+  },
+  {
+    "id": "gibbon",
+    "word": "gibbon",
+    "reason": "A narrow animal name with little use in everyday documents."
+  },
+  {
+    "id": "gibbosity",
+    "word": "Gibbosity",
+    "reason": "A rare technical noun for a bulge or the state of being gibbous."
+  },
+  {
+    "id": "gibeonite",
+    "word": "Gibeonite",
+    "reason": "A proper name for a person from the biblical city of Gibeon."
+  },
+  {
+    "id": "gibraltarian-2",
+    "word": "Gibraltarian",
+    "reason": "A demonym; the editorial criteria exclude demonyms."
+  },
+  {
+    "id": "gift-2",
+    "word": "Gift",
+    "reason": "The verb meaning give something as a gift is transparent and basic."
+  },
+  {
+    "id": "gift-3",
+    "word": "gift",
+    "reason": "The supplied definition is malformed and does not describe a valid sense."
+  },
+  {
+    "id": "gift-4",
+    "word": "gift",
+    "reason": "The supplied definition is corrupted example text, not a usable sense."
+  },
+  {
+    "id": "gift-5",
+    "word": "Gift",
+    "reason": "The supplied definition does not match a verified English sense."
+  },
+  {
+    "id": "gift-box",
+    "word": "Gift box",
+    "reason": "A transparent, common compound; its current definition wrongly describes a gift giver."
+  },
+  {
+    "id": "gift-card",
+    "word": "Gift card",
+    "reason": "A transparent, common compound for a prepaid store card."
+  },
+  {
+    "id": "gift-card-2",
+    "word": "Gift card",
+    "reason": "A duplicate card for the same gift-card meaning."
+  },
+  {
+    "id": "gifter",
+    "word": "Gifter",
+    "reason": "No verifiable Collins headword; the supplied definition is malformed."
+  },
+  {
+    "id": "gifter-2",
+    "word": "Gifter",
+    "reason": "No verifiable Collins headword; this entry contains an unsupported adjective sense."
+  },
+  {
+    "id": "gifter-3",
+    "word": "Gifter",
+    "reason": "No verifiable Collins headword; this is a transparent, unnecessary derivative."
+  },
+  {
+    "id": "gift",
+    "word": "gift",
+    "reason": "The present sense is basic; the ability sense is already covered by talent."
+  },
+  {
+    "id": "gifted-3",
+    "word": "Gifted",
+    "reason": "The general natural-ability sense is already covered by talented."
   }
 ]

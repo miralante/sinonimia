@@ -16588,26 +16588,6 @@
     }
   },
   {
-    "entry": "dotado",
-    "remove": [],
-    "set": {
-      "definition": "Que tiene una habilidad especial para una actividad.",
-      "synonyms": [
-        "talentoso",
-        "con talento"
-      ],
-      "example": {
-        "word": "dotada para la música",
-        "text": "Es una persona dotada para la música."
-      },
-      "exampleSynonym": {
-        "word": "con talento para la música",
-        "text": "Es una persona con talento para la música."
-      },
-      "situacion": "emociones"
-    }
-  },
-  {
     "entry": "dotar",
     "remove": [],
     "set": {
@@ -252497,6 +252477,1094 @@
         "text": "La directora dio una amonestación al grupo por dañar el material."
       },
       "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "rodante",
+    "remove": [],
+    "set": {
+      "definition": "Que se mueve sobre ruedas.",
+      "synonyms": [
+        "móvil"
+      ],
+      "example": {
+        "word": "rodante",
+        "text": "La biblioteca rodante visita varios pueblos."
+      },
+      "exampleSynonym": {
+        "word": "móvil",
+        "text": "La biblioteca móvil visita varios pueblos."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rodaplancha",
+    "remove": [],
+    "set": {
+      "definition": "Tabla pequeña con ruedas para deslizarse.",
+      "synonyms": [
+        "patineta"
+      ],
+      "example": {
+        "word": "rodaplancha",
+        "text": "Aprendió a usar la rodaplancha en el parque."
+      },
+      "exampleSynonym": {
+        "word": "patineta",
+        "text": "Aprendió a usar la patineta en el parque."
+      },
+      "situacion": "deportes"
+    }
+  },
+  {
+    "entry": "rodar",
+    "remove": [],
+    "set": {
+      "definition": "Girar sobre una superficie.",
+      "synonyms": [
+        "dar vueltas"
+      ],
+      "example": {
+        "word": "rodar",
+        "text": "La pelota empezó a rodar por el suelo."
+      },
+      "exampleSynonym": {
+        "word": "dar vueltas",
+        "text": "La pelota empezó a dar vueltas por el suelo."
+      }
+    }
+  },
+  {
+    "entry": "rodeador",
+    "remove": [],
+    "set": {
+      "definition": "Que está alrededor de algo.",
+      "synonyms": [
+        "circundante"
+      ],
+      "example": {
+        "word": "rodeador",
+        "text": "El terreno rodeador del lago era fértil."
+      },
+      "exampleSynonym": {
+        "word": "circundante",
+        "text": "El terreno circundante del lago era fértil."
+      }
+    }
+  },
+  {
+    "entry": "rodear",
+    "remove": [],
+    "set": {
+      "definition": "Estar situado alrededor de algo.",
+      "synonyms": [
+        "circundar"
+      ],
+      "example": {
+        "word": "rodear",
+        "text": "Tuvimos que rodear el terreno para llegar a casa."
+      },
+      "exampleSynonym": {
+        "word": "circundar",
+        "text": "Tuvimos que circundar el terreno para llegar a casa."
+      }
+    }
+  },
+  {
+    "entry": "rodela",
+    "remove": [],
+    "set": {
+      "definition": "Escudo pequeño, redondo y sujeto con una sola asa.",
+      "synonyms": [
+        "broquel"
+      ],
+      "example": {
+        "word": "rodela",
+        "text": "El soldado llevaba una rodela en el brazo."
+      },
+      "exampleSynonym": {
+        "word": "broquel",
+        "text": "El soldado llevaba un broquel en el brazo."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "rodillada",
+    "remove": [],
+    "set": {
+      "definition": "Golpe que alguien da con la rodilla.",
+      "synonyms": [
+        "rodillazo"
+      ],
+      "example": {
+        "word": "rodillada",
+        "text": "El árbitro expulsó al jugador por dar una rodillada al rival."
+      },
+      "exampleSynonym": {
+        "word": "rodillazo",
+        "text": "El árbitro expulsó al jugador por dar un rodillazo al rival."
+      },
+      "situacion": "deportes"
+    }
+  },
+  {
+    "entry": "rodillazo",
+    "remove": [],
+    "set": {
+      "definition": "Golpe que alguien da con la rodilla.",
+      "synonyms": [
+        "rodillada"
+      ],
+      "example": {
+        "word": "rodillazo",
+        "text": "El jugador dio un rodillazo al balón para despejarlo."
+      },
+      "exampleSynonym": {
+        "word": "rodillada",
+        "text": "El jugador dio una rodillada al balón para despejarlo."
+      },
+      "situacion": "deportes"
+    }
+  },
+  {
+    "entry": "rodillera",
+    "remove": [],
+    "set": {
+      "definition": "Pieza acolchada que se coloca sobre la rodilla para protegerla.",
+      "synonyms": [
+        "protector de rodilla"
+      ],
+      "example": {
+        "word": "rodillera",
+        "text": "La jugadora se puso una rodillera antes del entrenamiento."
+      },
+      "exampleSynonym": {
+        "word": "protector de rodilla",
+        "text": "La jugadora se puso un protector de rodilla antes del entrenamiento."
+      },
+      "situacion": "deportes"
+    }
+  },
+  {
+    "entry": "rodillo",
+    "remove": [],
+    "set": {
+      "definition": "Cilindro que gira en una máquina para mover o prensar materiales.",
+      "synonyms": [
+        "cilindro mecánico"
+      ],
+      "example": {
+        "word": "rodillo",
+        "text": "El rodillo de la máquina giraba sobre la lámina de metal."
+      },
+      "exampleSynonym": {
+        "word": "cilindro mecánico",
+        "text": "El cilindro mecánico de la máquina giraba sobre la lámina de metal."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "rododendro",
+    "remove": [],
+    "set": {
+      "definition": "Arbusto ornamental con flores vistosas.",
+      "synonyms": [
+        "azalea"
+      ],
+      "example": {
+        "word": "rododendro",
+        "text": "Plantaron un rododendro en el jardín por sus flores."
+      },
+      "exampleSynonym": {
+        "word": "azalea",
+        "text": "Plantaron una azalea en el jardín por sus flores."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "rodriga",
+    "remove": [],
+    "set": {
+      "definition": "Palo que se coloca junto a una planta para sostenerla.",
+      "synonyms": [
+        "tutor"
+      ],
+      "example": {
+        "word": "rodriga",
+        "text": "Pusieron una rodriga junto al rosal joven."
+      },
+      "exampleSynonym": {
+        "word": "tutor",
+        "text": "Pusieron un tutor junto al rosal joven."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "rodrigar",
+    "remove": [],
+    "set": {
+      "definition": "Poner palos junto a las plantas para mantenerlas derechas.",
+      "synonyms": [
+        "poner tutores"
+      ],
+      "example": {
+        "word": "rodrigar",
+        "text": "Hay que rodrigar las tomateras antes de que crezcan más."
+      },
+      "exampleSynonym": {
+        "word": "poner tutores",
+        "text": "Hay que poner tutores a las tomateras antes de que crezcan más."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "rodrigon",
+    "remove": [],
+    "set": {
+      "definition": "Palo que se pone junto a una planta para mantenerla derecha.",
+      "synonyms": [
+        "tutor"
+      ],
+      "example": {
+        "word": "rodrigón",
+        "text": "El rodrigón sostuvo el tallo de la planta."
+      },
+      "exampleSynonym": {
+        "word": "tutor",
+        "text": "El tutor sostuvo el tallo de la planta."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "rodriguez",
+    "remove": [],
+    "set": {
+      "definition": "Persona que se queda trabajando mientras su pareja y su familia están de vacaciones.",
+      "synonyms": [
+        "persona que se queda trabajando"
+      ],
+      "example": {
+        "word": "Rodríguez",
+        "text": "Ana está de Rodríguez esta semana mientras su familia veranea."
+      },
+      "exampleSynonym": {
+        "word": "persona que se queda trabajando",
+        "text": "Ana es la persona que se queda trabajando mientras su familia veranea."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "roer",
+    "remove": [],
+    "set": {
+      "definition": "Causar una preocupación o tristeza que no desaparece.",
+      "synonyms": [
+        "preocupar"
+      ],
+      "example": {
+        "word": "roer",
+        "text": "La duda puede roer a quien no encuentra una respuesta."
+      },
+      "exampleSynonym": {
+        "word": "preocupar",
+        "text": "La duda puede preocupar a quien no encuentra una respuesta."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rogativa",
+    "remove": [],
+    "set": {
+      "definition": "Oración pública para pedir ayuda o un beneficio a Dios.",
+      "synonyms": [
+        "oración pública"
+      ],
+      "example": {
+        "word": "rogativa",
+        "text": "La comunidad organizó una rogativa para pedir lluvia."
+      },
+      "exampleSynonym": {
+        "word": "oración pública",
+        "text": "La comunidad organizó una oración pública para pedir lluvia."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "abajera",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "sudadero"
+      ],
+      "example": {
+        "word": "abajera",
+        "text": "Antes de cargar los sacos, puso una abajera sobre el lomo de la mula."
+      },
+      "exampleSynonym": {
+        "word": "sudadero",
+        "text": "Antes de cargar los sacos, puso un sudadero sobre el lomo de la mula."
+      }
+    }
+  },
+  {
+    "entry": "antroponimo",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "nombre propio",
+        "nombre propio de persona"
+      ],
+      "example": {
+        "word": "antropónimo",
+        "text": "El acta recoge el antropónimo elegido para la niña."
+      },
+      "exampleSynonym": {
+        "word": "nombre propio",
+        "text": "El acta recoge el nombre propio elegido para la niña."
+      }
+    }
+  },
+  {
+    "entry": "abadengo",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "propio de un abad"
+      ],
+      "example": {
+        "word": "abadengo",
+        "text": "El señorío abadengo dependía de la abadía local."
+      },
+      "exampleSynonym": {
+        "word": "propio de un abad",
+        "text": "El señorío propio de un abad dependía de la abadía local."
+      }
+    }
+  },
+  {
+    "entry": "achachila",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "deidad tutelar de las montañas"
+      ],
+      "example": {
+        "word": "achachila",
+        "text": "La comunidad celebró una ceremonia en honor de la achachila de la montaña."
+      },
+      "exampleSynonym": {
+        "word": "deidad tutelar de las montañas",
+        "text": "La comunidad celebró una ceremonia en honor de la deidad tutelar de las montañas."
+      }
+    }
+  },
+  {
+    "entry": "abajeno",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "habitante de las tierras bajas"
+      ],
+      "example": {
+        "word": "abajeño",
+        "text": "El abajeño regresó a su pueblo costero para la fiesta."
+      },
+      "exampleSynonym": {
+        "word": "habitante de las tierras bajas",
+        "text": "El habitante de las tierras bajas regresó a su pueblo costero para la fiesta."
+      }
+    }
+  },
+  {
+    "entry": "acuciante",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "urgente"
+      ],
+      "example": {
+        "word": "acuciante",
+        "text": "La falta de agua se convirtió en una necesidad acuciante durante la sequía."
+      },
+      "exampleSynonym": {
+        "word": "urgente",
+        "text": "La falta de agua se convirtió en una necesidad urgente durante la sequía."
+      }
+    }
+  },
+  {
+    "entry": "rojez",
+    "remove": [],
+    "set": {
+      "definition": "Mancha rojiza que aparece en la piel.",
+      "synonyms": [
+        "zona enrojecida"
+      ],
+      "example": {
+        "word": "rojez",
+        "text": "La rojez de la mejilla le picaba después de caminar al sol."
+      },
+      "exampleSynonym": {
+        "word": "zona enrojecida",
+        "text": "La zona enrojecida de la mejilla le picaba después de caminar al sol."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "rojete",
+    "remove": [],
+    "set": {
+      "definition": "Cosmético que se pone en las mejillas para darles color.",
+      "synonyms": [
+        "colorete"
+      ],
+      "example": {
+        "word": "rojete",
+        "text": "La actriz se puso rojete antes de salir a escena."
+      },
+      "exampleSynonym": {
+        "word": "colorete",
+        "text": "La actriz se puso colorete antes de salir a escena."
+      }
+    }
+  },
+  {
+    "entry": "rojillo",
+    "remove": [],
+    "set": {
+      "definition": "Que tiene ideas políticas de izquierda.",
+      "synonyms": [
+        "de izquierdas"
+      ],
+      "example": {
+        "word": "rojillo",
+        "text": "El periódico llamó rojillo al candidato por sus propuestas."
+      },
+      "exampleSynonym": {
+        "word": "de izquierdas",
+        "text": "El periódico llamó de izquierdas al candidato por sus propuestas."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "rol",
+    "remove": [],
+    "set": {
+      "definition": "Función que alguien cumple en una situación.",
+      "synonyms": [
+        "papel"
+      ],
+      "example": {
+        "word": "rol",
+        "text": "Su rol en el equipo es ayudar a resolver los problemas."
+      },
+      "exampleSynonym": {
+        "word": "papel",
+        "text": "Su papel en el equipo es ayudar a resolver los problemas."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "rol-2",
+    "remove": [],
+    "set": {
+      "definition": "Papel que un actor representa en una obra o película.",
+      "synonyms": [
+        "personaje"
+      ],
+      "example": {
+        "word": "rol",
+        "text": "La actriz aceptó el rol principal de la película."
+      },
+      "exampleSynonym": {
+        "word": "personaje",
+        "text": "La actriz aceptó el personaje principal de la película."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "roldana",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Rueda que guía una cuerda para levantar objetos.",
+      "synonyms": [
+        "polea"
+      ],
+      "example": {
+        "word": "roldana",
+        "text": "El mecánico cambió la roldana de la persiana."
+      },
+      "exampleSynonym": {
+        "word": "polea",
+        "text": "El mecánico cambió la polea de la persiana."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "roldar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Dar vueltas alrededor de un lugar.",
+      "synonyms": [
+        "dar vueltas alrededor"
+      ],
+      "example": {
+        "word": "roldó",
+        "text": "El gato roldó alrededor de la caja antes de entrar."
+      },
+      "exampleSynonym": {
+        "word": "dar vueltas alrededor",
+        "text": "El gato comenzó a dar vueltas alrededor de la caja antes de entrar."
+      }
+    }
+  },
+  {
+    "entry": "rollo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Pliegue de grasa que se forma en alguna parte del cuerpo.",
+      "synonyms": [
+        "pliegue de grasa"
+      ],
+      "example": {
+        "word": "rollo",
+        "text": "El pantalón marcaba un rollo en la cintura."
+      },
+      "exampleSynonym": {
+        "word": "pliegue de grasa",
+        "text": "El pantalón marcaba un pliegue de grasa en la cintura."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "romadizarse",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "definition": "Empezar a tener un resfriado con la nariz congestionada.",
+      "synonyms": [
+        "resfriarse"
+      ],
+      "example": {
+        "word": "romadizarse",
+        "text": "El médico dijo que podía romadizarse al salir al frío."
+      },
+      "exampleSynonym": {
+        "word": "resfriarse",
+        "text": "El médico dijo que podía resfriarse al salir al frío."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "arrollar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Envolver algo plano para darle forma de rollo.",
+      "synonyms": [
+        "enrollar"
+      ],
+      "example": {
+        "word": "arrollar",
+        "text": "La técnica debe arrollar el mapa para guardarlo en el tubo."
+      },
+      "exampleSynonym": {
+        "word": "enrollar",
+        "text": "La técnica debe enrollar el mapa para guardarlo en el tubo."
+      }
+    }
+  },
+  {
+    "entry": "romana",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Balanza con un brazo largo y otro corto que usa un peso móvil.",
+      "synonyms": [
+        "balanza de brazos desiguales"
+      ],
+      "image": {
+        "id": 36883,
+        "alt": "Balanza con dos platos."
+      },
+      "example": {
+        "word": "romana",
+        "text": "El vendedor pesó la bolsa en una romana."
+      },
+      "exampleSynonym": {
+        "word": "balanza de brazos desiguales",
+        "text": "El vendedor pesó la bolsa en una balanza de brazos desiguales."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "romancero",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Colección de romances tradicionales.",
+      "synonyms": [
+        "colección de romances"
+      ],
+      "image": {
+        "id": 6642,
+        "alt": "Libros de poesía."
+      },
+      "example": {
+        "word": "romancero",
+        "text": "El romancero reúne poemas transmitidos durante siglos."
+      },
+      "exampleSynonym": {
+        "word": "colección de romances",
+        "text": "La colección de romances reúne poemas transmitidos durante siglos."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "romanesco",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Variedad de coliflor verde con forma de conos.",
+      "synonyms": [
+        "coliflor romanesca"
+      ],
+      "image": {
+        "id": 23953,
+        "alt": "Coliflor verde."
+      },
+      "example": {
+        "word": "romanesco",
+        "text": "El romanesco tiene una forma parecida a pequeños conos."
+      },
+      "exampleSynonym": {
+        "word": "coliflor romanesca",
+        "text": "La coliflor romanesca tiene una forma parecida a pequeños conos."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "romaza",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Hierba con hojas comestibles que se usa en potajes.",
+      "synonyms": [
+        "hierba de hojas comestibles"
+      ],
+      "image": {
+        "id": 8311,
+        "alt": "Hoja verde de una planta."
+      },
+      "example": {
+        "word": "romaza",
+        "text": "La romaza tiene hojas comestibles que se añaden a potajes."
+      },
+      "exampleSynonym": {
+        "word": "hierba de hojas comestibles",
+        "text": "La hierba de hojas comestibles se añade a potajes."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "romanizar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Difundir la lengua, las leyes o las costumbres de la antigua Roma.",
+      "synonyms": [
+        "difundir la cultura romana"
+      ],
+      "image": {
+        "id": 23957,
+        "alt": "Edificio de la antigua Roma."
+      },
+      "example": {
+        "word": "romanizar",
+        "text": "El imperio intentó romanizar las provincias."
+      },
+      "exampleSynonym": {
+        "word": "difundir la cultura romana",
+        "text": "El imperio intentó difundir la cultura romana por las provincias."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "romantico",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Relacionado con el Romanticismo, movimiento artístico y literario.",
+      "synonyms": [
+        "propio del Romanticismo"
+      ],
+      "image": {
+        "id": 39825,
+        "alt": "Libro con máscaras teatrales."
+      },
+      "example": {
+        "word": "romántico",
+        "text": "La novela tiene un estilo romántico."
+      },
+      "exampleSynonym": {
+        "word": "propio del Romanticismo",
+        "text": "La novela tiene un estilo propio del Romanticismo."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "rombo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Pez marino plano, parecido al rodaballo, que se come.",
+      "synonyms": [
+        "rodaballo"
+      ],
+      "image": {
+        "id": 22090,
+        "alt": "Pez marino plano."
+      },
+      "example": {
+        "word": "rombo",
+        "text": "El rombo se cocina con limón y hierbas."
+      },
+      "exampleSynonym": {
+        "word": "rodaballo",
+        "text": "El rodaballo se cocina con limón y hierbas."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "romeria",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Peregrinación popular, a menudo en grupo, a un lugar sagrado.",
+      "synonyms": [
+        "peregrinación"
+      ],
+      "image": {
+        "id": 35835,
+        "alt": "Peregrino que llega a una catedral."
+      },
+      "example": {
+        "word": "romería",
+        "text": "El pueblo organiza una romería hasta la ermita."
+      },
+      "exampleSynonym": {
+        "word": "peregrinación",
+        "text": "El pueblo organiza una peregrinación hasta la ermita."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "romo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Que no tiene punta o filo.",
+      "synonyms": [
+        "sin punta ni filo"
+      ],
+      "image": {
+        "id": 4931,
+        "alt": "Cuchillo de hoja roma."
+      },
+      "example": {
+        "word": "romo",
+        "text": "El cuchillo romo no corta bien."
+      },
+      "exampleSynonym": {
+        "word": "sin punta ni filo",
+        "text": "El cuchillo sin punta ni filo no corta bien."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rompedor",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Que cambia mucho la forma habitual de hacer o diseñar algo.",
+      "synonyms": [
+        "innovador"
+      ],
+      "image": {
+        "id": 6019,
+        "alt": "Una persona tiene una idea nueva."
+      },
+      "example": {
+        "word": "rompedor",
+        "text": "La diseñadora presentó un envase rompedor."
+      },
+      "exampleSynonym": {
+        "word": "innovador",
+        "text": "La diseñadora presentó un envase innovador."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "rompegalas",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Persona que viste de forma descuidada y poco elegante.",
+      "synonyms": [
+        "persona mal vestida"
+      ],
+      "image": {
+        "id": 16293,
+        "alt": "Una persona tiene el pelo desordenado."
+      },
+      "example": {
+        "word": "rompegalas",
+        "text": "El rompegalas llegó con la camisa manchada."
+      },
+      "exampleSynonym": {
+        "word": "persona mal vestida",
+        "text": "La persona mal vestida llegó con la camisa manchada."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rompeolas",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Estructura en el mar que protege un puerto o una costa de las olas.",
+      "synonyms": [
+        "barrera contra las olas"
+      ],
+      "image": {
+        "id": 3145,
+        "alt": "Un puerto protegido por un dique de rocas."
+      },
+      "example": {
+        "word": "rompeolas",
+        "text": "El rompeolas protegió los barcos durante la tormenta."
+      },
+      "exampleSynonym": {
+        "word": "barrera contra las olas",
+        "text": "La barrera contra las olas protegió los barcos durante la tormenta."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "rompesquinas",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Hombre que espera en una esquina para intimidar o buscar pelea.",
+      "synonyms": [
+        "persona que busca pelea"
+      ],
+      "image": {
+        "id": 24254,
+        "alt": "Dos personas se pelean en la calle."
+      },
+      "example": {
+        "word": "rompesquinas",
+        "text": "El rompesquinas esperaba junto al bar al anochecer."
+      },
+      "exampleSynonym": {
+        "word": "persona que busca pelea",
+        "text": "La persona que busca pelea esperaba junto al bar al anochecer."
+      },
+      "situacion": "seguridad"
+    }
+  },
+  {
+    "entry": "ronceria",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Demora o pocas ganas al cumplir una orden.",
+      "synonyms": [
+        "tardanza"
+      ],
+      "image": {
+        "id": 8245,
+        "alt": "Una persona descansa en un sillón en vez de trabajar."
+      },
+      "example": {
+        "word": "roncería",
+        "text": "Su roncería retrasó el trabajo que le habían encargado."
+      },
+      "exampleSynonym": {
+        "word": "tardanza",
+        "text": "Su tardanza retrasó el trabajo que le habían encargado."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "roncero",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Lento y con pocas ganas de cumplir lo que le piden.",
+      "synonyms": [
+        "remolón"
+      ],
+      "image": {
+        "id": 8245,
+        "alt": "Una persona descansa en un sillón en vez de trabajar."
+      },
+      "example": {
+        "word": "roncero",
+        "text": "El roncero tardó toda la mañana en empezar la tarea."
+      },
+      "exampleSynonym": {
+        "word": "remolón",
+        "text": "El remolón tardó toda la mañana en empezar la tarea."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "ronchar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Masticar haciendo ruido un alimento crujiente.",
+      "synonyms": [
+        "hacer ruido al comer"
+      ],
+      "image": {
+        "id": 32654,
+        "alt": "Una persona muerde y mastica una manzana."
+      },
+      "example": {
+        "word": "ronchar",
+        "text": "Ronchar las galletas durante la película molestó al grupo."
+      },
+      "exampleSynonym": {
+        "word": "hacer ruido al comer",
+        "text": "Hacer ruido al comer las galletas molesta a los demás."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "rondana",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Disco fino con un agujero en el centro que se coloca bajo una tuerca o un tornillo.",
+      "synonyms": [
+        "arandela"
+      ],
+      "image": {
+        "id": 5385,
+        "alt": "Una arandela se coloca bajo una tuerca y un tornillo."
+      },
+      "example": {
+        "word": "rondana",
+        "text": "La rondana evitó que la tuerca dañara la madera."
+      },
+      "exampleSynonym": {
+        "word": "arandela",
+        "text": "La arandela evitó que la tuerca dañara la madera."
+      },
+      "situacion": "vivienda"
+    }
+  },
+  {
+    "entry": "ronquear",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "definition": "Tener la voz ronca o áspera.",
+      "synonyms": [
+        "tener la voz ronca"
+      ],
+      "image": {
+        "id": 3332,
+        "alt": "Vista del cuello y la garganta de una persona."
+      },
+      "example": {
+        "word": "ronquear",
+        "text": "El cantante empezó a ronquear después del concierto."
+      },
+      "exampleSynonym": {
+        "word": "tener la voz ronca",
+        "text": "El cantante empezó a tener la voz ronca después del concierto."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "ronquera",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "La voz se vuelve áspera o débil por enfermedad o esfuerzo.",
+      "synonyms": [
+        "voz áspera"
+      ],
+      "image": {
+        "id": 3332,
+        "alt": "Vista del cuello y la garganta de una persona."
+      },
+      "example": {
+        "word": "ronquera",
+        "text": "La ronquera dejó la voz áspera durante varios días."
+      },
+      "exampleSynonym": {
+        "word": "voz áspera",
+        "text": "La voz áspera duró varios días."
+      },
+      "situacion": "salud",
+      "translation": {
+        "en": "hoarseness"
+      }
+    }
+  },
+  {
+    "entry": "superdotado",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "translation": {
+        "en": "gifted-2"
+      }
     }
   }
 ]

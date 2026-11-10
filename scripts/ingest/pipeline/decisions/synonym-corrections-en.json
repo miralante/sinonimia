@@ -9803,26 +9803,6 @@
     }
   },
   {
-    "entry": "hoarseness",
-    "remove": [],
-    "set": {
-      "definition": "A rough or weak sound in someone’s voice, often caused by a sore throat, a cold, or shouting.",
-      "synonyms": [
-        "raspiness",
-        "roughness of voice"
-      ],
-      "example": {
-        "word": "hoarseness",
-        "text": "After the concert, the singer noticed hoarseness from shouting over the crowd."
-      },
-      "exampleSynonym": {
-        "word": "roughness of voice",
-        "text": "After the concert, the singer noticed a roughness of voice from shouting over the crowd."
-      },
-      "situacion": "salud"
-    }
-  },
-  {
     "entry": "hoax",
     "remove": [],
     "set": {
@@ -26542,7 +26522,7 @@
       },
       "exampleSynonym": {
         "word": "bankrupt",
-        "text": "The business became bankrupt."
+        "text": "The company became bankrupt after its debts mounted."
       }
     }
   },
@@ -26731,7 +26711,7 @@
       ],
       "example": {
         "word": "installment plan",
-        "text": "She bought the laptop on an installment plan."
+        "text": "They paid for the sofa through an installment plan."
       },
       "exampleSynonym": {
         "word": "payment plan",
@@ -33592,8 +33572,8 @@
         "text": "The museum has a collection of Judaica."
       },
       "exampleSynonym": {
-        "word": "Jewish artifacts",
-        "text": "The museum has a collection of Jewish artifacts."
+        "word": "Jewish cultural materials",
+        "text": "The museum catalogued Jewish cultural materials."
       }
     }
   },
@@ -34465,8 +34445,8 @@
         "text": "The court treated him as a juvenile offender due to his age."
       },
       "exampleSynonym": {
-        "word": "a young offender",
-        "text": "The court treated him as a young offender due to his age."
+        "word": "young person",
+        "text": "The court treated the young person as a juvenile."
       }
     }
   },
@@ -34750,7 +34730,7 @@
       }
     }
   },
-    {
+  {
     "entry": "kasbah",
     "remove": [],
     "set": {
@@ -34917,7 +34897,7 @@
       }
     }
   },
-    {
+  {
     "entry": "kettle",
     "remove": [],
     "set": {
@@ -35029,7 +35009,7 @@
       }
     }
   },
-    {
+  {
     "entry": "khalifa",
     "remove": [],
     "set": {
@@ -35085,7 +35065,7 @@
       }
     }
   },
-    {
+  {
     "entry": "kick",
     "remove": [],
     "set": {
@@ -35140,7 +35120,7 @@
       }
     }
   },
-    {
+  {
     "entry": "kick-out",
     "remove": [],
     "set": {
@@ -35159,7 +35139,7 @@
       }
     }
   },
-    {
+  {
     "entry": "kid",
     "remove": [],
     "set": {
@@ -35215,7 +35195,7 @@
       }
     }
   },
-    {
+  {
     "entry": "kidnapper",
     "remove": [],
     "set": {
@@ -35251,7 +35231,7 @@
       }
     }
   },
-      {
+  {
     "entry": "kidney",
     "remove": [],
     "set": {
@@ -35323,7 +35303,7 @@
       }
     }
   },
-    {
+  {
     "entry": "kill-2",
     "remove": [],
     "set": {
@@ -35416,7 +35396,7 @@
       }
     }
   },
-    {
+  {
     "entry": "kiln",
     "remove": [],
     "set": {
@@ -35452,7 +35432,7 @@
       }
     }
   },
-      {
+  {
     "entry": "kilogram",
     "remove": [],
     "set": {
@@ -35525,7 +35505,7 @@
       }
     }
   },
-      {
+  {
     "entry": "kind",
     "remove": [],
     "set": {
@@ -35940,7 +35920,7 @@
       }
     }
   },
-    {
+  {
     "entry": "kitten",
     "remove": [],
     "set": {
@@ -36126,7 +36106,7 @@
       }
     }
   },
-    {
+  {
     "entry": "knight",
     "remove": [],
     "set": {
@@ -36278,7 +36258,7 @@
       }
     }
   },
-    {
+  {
     "entry": "knocker",
     "remove": [],
     "set": {
@@ -36316,7 +36296,7 @@
       }
     }
   },
-      {
+  {
     "entry": "knoll",
     "remove": [],
     "set": {
@@ -36335,7 +36315,7 @@
       }
     }
   },
-    {
+  {
     "entry": "knot",
     "remove": [],
     "set": {
@@ -36487,7 +36467,7 @@
       }
     }
   },
-    {
+  {
     "entry": "kremlin",
     "remove": [],
     "set": {
@@ -37957,7 +37937,7 @@
       ],
       "example": {
         "word": "larceny",
-        "text": "He was charged with larceny after taking the phone."
+        "text": "The report classified the theft as larceny."
       },
       "exampleSynonym": {
         "word": "theft",
@@ -42928,7 +42908,7 @@
       ],
       "example": {
         "word": "loan shark",
-        "text": "The borrower turned to a loan shark and was charged an enormous rate of interest."
+        "text": "The loan shark charged illegal interest."
       },
       "exampleSynonym": {
         "word": "illegal moneylender",
@@ -63011,11 +62991,11 @@
       ],
       "example": {
         "word": "unravel",
-        "text": "Unravel the rope knot carefully to keep the rope intact."
+        "text": "The guide helped unravel the climber from the loose rope."
       },
       "exampleSynonym": {
         "word": "extricate",
-        "text": "Extricate the rope carefully from the knot to keep it intact."
+        "text": "The guide helped extricate the climber from the loose rope."
       }
     }
   },
@@ -120048,8 +120028,8 @@
         "text": "He ordered a bock at the old pub."
       },
       "exampleSynonym": {
-        "word": "beer mug",
-        "text": "He ordered a beer mug at the old pub."
+        "word": "beer glass",
+        "text": "The waiter served beer in a small beer glass."
       },
       "situacion": "food",
       "word": "bock"
@@ -124238,7 +124218,7 @@
       },
       "exampleSynonym": {
         "word": "two-metal material",
-        "text": "The thermostat contains a two-metal material strip."
+        "text": "The two-metal material bends when heated."
       },
       "situacion": "industry"
     }
@@ -126428,11 +126408,11 @@
       ],
       "example": {
         "word": "blind spot",
-        "text": "Check your blind spot before changing lanes."
+        "text": "A cyclist entered the car's blind spot."
       },
       "exampleSynonym": {
         "word": "unseen area",
-        "text": "Check the unseen area before changing lanes."
+        "text": "A cyclist entered the unseen area beside the car."
       },
       "situacion": "seguridad"
     }
@@ -127271,11 +127251,11 @@
       ],
       "example": {
         "word": "boiler inspection",
-        "text": "The landlord arranged a boiler inspection before winter."
+        "text": "The boiler inspection found a loose valve."
       },
       "exampleSynonym": {
-        "word": "boiler safety check",
-        "text": "The landlord arranged a boiler safety check before winter."
+        "word": "boiler examination",
+        "text": "A boiler examination revealed a cracked pipe."
       },
       "situacion": "casa"
     }
@@ -128838,11 +128818,11 @@
       ],
       "example": {
         "word": "bounced cheque",
-        "text": "The landlord received a bounced cheque."
+        "text": "The shop rejected his bounced cheque."
       },
       "exampleSynonym": {
         "word": "returned cheque",
-        "text": "The landlord received a returned cheque."
+        "text": "The bank marked it as a returned cheque."
       },
       "situacion": "finance"
     }
@@ -136836,7 +136816,7 @@
       },
       "exampleSynonym": {
         "word": "wine and cola",
-        "text": "They served wine and cola at the festival."
+        "text": "They mixed wine and cola at the festival."
       },
       "situacion": "food"
     }
@@ -137719,7 +137699,7 @@
       },
       "exampleSynonym": {
         "word": "calling off",
-        "text": "Calling off the event surprised the guests."
+        "text": "Calling off the concert disappointed the fans."
       },
       "situacion": "tramites"
     }
@@ -137966,11 +137946,11 @@
       ],
       "example": {
         "word": "candor",
-        "text": "She answered with candor."
+        "text": "She answered with candor during the interview."
       },
       "exampleSynonym": {
         "word": "frankness",
-        "text": "She answered with frankness."
+        "text": "She answered with frankness during the interview."
       },
       "situacion": "comunicacion"
     }
@@ -138495,7 +138475,7 @@
       },
       "exampleSynonym": {
         "word": "territorial division",
-        "text": "Each administrative region elects its own representatives."
+        "text": "Each territorial division held a local vote."
       },
       "situacion": "conocimiento"
     }
@@ -167587,7 +167567,7 @@
       },
       "exampleSynonym": {
         "word": "cut off",
-        "text": "Her parents threatened to cut off her inheritance."
+        "text": "They threatened to cut off her inheritance."
       },
       "situacion": "legal"
     }
@@ -178854,7 +178834,7 @@
       },
       "example": {
         "word": "driver fatigue",
-        "text": "Driver fatigue can make a long trip dangerous."
+        "text": "Driver fatigue caused the truck to drift."
       },
       "exampleSynonym": {
         "word": "fatigue while driving",
@@ -189751,7 +189731,7 @@
       },
       "example": {
         "word": "electrical earthing",
-        "text": "Electrical earthing helps prevent dangerous shocks."
+        "text": "The electrician checked the electrical earthing before repairs."
       },
       "exampleSynonym": {
         "word": "grounding",
@@ -251326,6 +251306,1124 @@
       "image": {
         "id": 2450,
         "alt": "Información y conocimiento"
+      }
+    }
+  },
+  {
+    "entry": "get-gutted",
+    "remove": [],
+    "set": {
+      "definition": "To feel very disappointed or upset.",
+      "synonyms": [
+        "feel devastated"
+      ],
+      "example": {
+        "word": "get gutted",
+        "text": "I get gutted when my team loses."
+      },
+      "exampleSynonym": {
+        "word": "feel devastated",
+        "text": "I feel devastated when my team loses."
+      },
+      "situacion": "deportes"
+    }
+  },
+  {
+    "entry": "get-hairy",
+    "remove": [],
+    "set": {
+      "definition": "To become covered with hair.",
+      "synonyms": [
+        "become hairy"
+      ],
+      "example": {
+        "word": "get hairy",
+        "text": "His legs get hairy in winter."
+      },
+      "exampleSynonym": {
+        "word": "become hairy",
+        "text": "His legs become hairy in winter."
+      }
+    }
+  },
+  {
+    "entry": "get-high",
+    "remove": [],
+    "set": {
+      "definition": "To become intoxicated after using drugs.",
+      "synonyms": [
+        "become intoxicated"
+      ],
+      "example": {
+        "word": "get high",
+        "text": "Some people get high by using illegal drugs."
+      },
+      "exampleSynonym": {
+        "word": "become intoxicated",
+        "text": "Some people become intoxicated by using illegal drugs."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "get-hooked",
+    "remove": [],
+    "set": {
+      "definition": "To become very interested in something.",
+      "synonyms": [
+        "become captivated"
+      ],
+      "example": {
+        "word": "get hooked",
+        "text": "I get hooked on a series after the first episode."
+      },
+      "exampleSynonym": {
+        "word": "become captivated",
+        "text": "I become captivated by a series after the first episode."
+      }
+    }
+  },
+  {
+    "entry": "get-hooked-2",
+    "remove": [],
+    "set": {
+      "definition": "To become dependent on a substance or habit.",
+      "synonyms": [
+        "become addicted"
+      ],
+      "example": {
+        "word": "get hooked",
+        "text": "Some people get hooked on nicotine."
+      },
+      "exampleSynonym": {
+        "word": "become addicted",
+        "text": "Some people become addicted to nicotine."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "get-hooked-3",
+    "remove": [],
+    "set": {
+      "definition": "To become caught on a hook.",
+      "synonyms": [
+        "become caught"
+      ],
+      "example": {
+        "word": "get hooked",
+        "text": "The coat can get hooked on the nail."
+      },
+      "exampleSynonym": {
+        "word": "become caught",
+        "text": "The coat can become caught on the nail."
+      }
+    }
+  },
+  {
+    "entry": "get-horny",
+    "remove": [],
+    "set": {
+      "definition": "To start feeling sexual desire.",
+      "synonyms": [
+        "become aroused"
+      ],
+      "example": {
+        "word": "get horny",
+        "text": "Some people get horny when they feel attracted to someone."
+      },
+      "exampleSynonym": {
+        "word": "become aroused",
+        "text": "Some people become aroused when they feel attracted to someone."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "get-hot",
+    "remove": [],
+    "set": {
+      "definition": "To start feeling hot.",
+      "synonyms": [
+        "become warm"
+      ],
+      "example": {
+        "word": "get hot",
+        "text": "I get hot when I run in the sun."
+      },
+      "exampleSynonym": {
+        "word": "become warm",
+        "text": "I become warm when I run in the sun."
+      }
+    }
+  },
+  {
+    "entry": "get-into-debt",
+    "remove": [],
+    "set": {
+      "definition": "To owe money because you borrow or spend too much.",
+      "synonyms": [
+        "become indebted"
+      ],
+      "example": {
+        "word": "get into debt",
+        "text": "It is easy to get into debt if you keep using credit cards."
+      },
+      "exampleSynonym": {
+        "word": "become indebted",
+        "text": "You can become indebted if you keep using credit cards."
+      }
+    }
+  },
+  {
+    "entry": "get-involved",
+    "remove": [],
+    "set": {
+      "definition": "To take part in an activity or situation.",
+      "synonyms": [
+        "take part"
+      ],
+      "example": {
+        "word": "get involved",
+        "text": "I want to get involved in the school project."
+      },
+      "exampleSynonym": {
+        "word": "take part",
+        "text": "I want to take part in the school project."
+      }
+    }
+  },
+  {
+    "entry": "get-jealous",
+    "remove": [],
+    "set": {
+      "definition": "To feel upset because someone you love seems interested in another person.",
+      "synonyms": [
+        "feel jealous"
+      ],
+      "example": {
+        "word": "get jealous",
+        "text": "I often get jealous when someone I love talks about another person."
+      },
+      "exampleSynonym": {
+        "word": "feel jealous",
+        "text": "I often feel jealous when someone I love talks about another person."
+      }
+    }
+  },
+  {
+    "entry": "get-loose",
+    "remove": [],
+    "set": {
+      "definition": "To become free after being tied, held, or trapped.",
+      "synonyms": [
+        "get free"
+      ],
+      "example": {
+        "word": "get loose",
+        "text": "The dog may get loose if you do not close the gate."
+      },
+      "exampleSynonym": {
+        "word": "get free",
+        "text": "The dog may get free if you do not close the gate."
+      }
+    }
+  },
+  {
+    "entry": "get-loose-8",
+    "remove": [],
+    "set": {
+      "definition": "To become detached from what holds or connects you.",
+      "synonyms": [
+        "come loose"
+      ],
+      "example": {
+        "word": "get loose",
+        "text": "The screw can get loose after years of use."
+      },
+      "exampleSynonym": {
+        "word": "come loose",
+        "text": "The screw can come loose after years of use."
+      }
+    }
+  },
+  {
+    "entry": "get-lost",
+    "remove": [],
+    "set": {
+      "definition": "To lose your way and not know where you are.",
+      "synonyms": [
+        "lose your way"
+      ],
+      "example": {
+        "word": "get lost",
+        "text": "You can get lost before reaching the campsite."
+      },
+      "exampleSynonym": {
+        "word": "lose your way",
+        "text": "You can lose your way before reaching the campsite."
+      }
+    }
+  },
+  {
+    "entry": "get-lost-5",
+    "remove": [],
+    "set": {
+      "definition": "If an idea gets lost, people do not understand or notice it.",
+      "synonyms": [
+        "be unclear"
+      ],
+      "example": {
+        "word": "get lost",
+        "text": "A main point can get lost in a long speech."
+      },
+      "exampleSynonym": {
+        "word": "be unclear",
+        "text": "A main point can be unclear in a long speech."
+      }
+    }
+  },
+  {
+    "entry": "get-lost-6",
+    "remove": [],
+    "set": {
+      "definition": "To become so interested in something that you stop noticing other things.",
+      "synonyms": [
+        "be very interested in"
+      ],
+      "example": {
+        "word": "get lost",
+        "text": "You can get lost in a book and miss your stop."
+      },
+      "exampleSynonym": {
+        "word": "be very interested in",
+        "text": "You can be very interested in a book and miss your stop."
+      }
+    }
+  },
+  {
+    "entry": "get-off",
+    "remove": [],
+    "set": {
+      "definition": "To leave a place and begin a journey.",
+      "synonyms": [
+        "leave"
+      ],
+      "example": {
+        "word": "get off",
+        "text": "We should get off before the roads become busy."
+      },
+      "exampleSynonym": {
+        "word": "leave",
+        "text": "We should leave before the roads become busy."
+      }
+    }
+  },
+  {
+    "entry": "get-off-2",
+    "remove": [],
+    "set": {
+      "definition": "To leave a bus, train, or plane at a stop.",
+      "synonyms": [
+        "step off"
+      ],
+      "example": {
+        "word": "get off",
+        "text": "We get off the train at the next station."
+      },
+      "exampleSynonym": {
+        "word": "step off",
+        "text": "We step off the train at the next station."
+      }
+    }
+  },
+  {
+    "entry": "get-off-4",
+    "remove": [],
+    "set": {
+      "definition": "To avoid punishment after doing something wrong.",
+      "synonyms": [
+        "escape punishment"
+      ],
+      "example": {
+        "word": "get off",
+        "text": "Some drivers get off with only a warning."
+      },
+      "exampleSynonym": {
+        "word": "escape punishment",
+        "text": "Some drivers escape punishment with only a warning."
+      }
+    }
+  },
+  {
+    "entry": "get-off-6",
+    "remove": [],
+    "set": {
+      "definition": "Slang: to feel a drug high after taking a drug.",
+      "synonyms": [
+        "get high"
+      ],
+      "example": {
+        "word": "get off",
+        "text": "Some people get off when they use heroin."
+      },
+      "exampleSynonym": {
+        "word": "get high",
+        "text": "Some people get high when they use heroin."
+      }
+    }
+  },
+  {
+    "entry": "get-on",
+    "remove": [],
+    "set": {
+      "definition": "To have a friendly relationship with someone.",
+      "synonyms": [
+        "be friendly with"
+      ],
+      "example": {
+        "word": "get on",
+        "text": "I get on well with my new neighbor."
+      },
+      "exampleSynonym": {
+        "word": "be friendly with",
+        "text": "I try to be friendly with my new neighbor."
+      }
+    }
+  },
+  {
+    "entry": "get-on-2",
+    "remove": [],
+    "set": {
+      "definition": "To make progress or manage a situation.",
+      "synonyms": [
+        "manage"
+      ],
+      "example": {
+        "word": "get on",
+        "text": "How do you get on with your new job?"
+      },
+      "exampleSynonym": {
+        "word": "manage",
+        "text": "How do you manage in your new job?"
+      }
+    }
+  },
+  {
+    "entry": "get-on-4",
+    "remove": [],
+    "set": {
+      "definition": "Informal: to grow old.",
+      "synonyms": [
+        "age"
+      ],
+      "example": {
+        "word": "gets on",
+        "text": "My uncle gets on in years, but he still walks each day."
+      },
+      "exampleSynonym": {
+        "word": "age",
+        "text": "My uncle continues to age, but he still walks each day."
+      }
+    }
+  },
+  {
+    "entry": "get-on-5",
+    "remove": [],
+    "set": {
+      "definition": "British, informal: to become late.",
+      "synonyms": [
+        "getting late"
+      ],
+      "example": {
+        "word": "getting on",
+        "text": "It is getting on, so we should leave."
+      },
+      "exampleSynonym": {
+        "word": "getting late",
+        "text": "It is getting late, so we should leave."
+      }
+    }
+  },
+  {
+    "entry": "get-on-6",
+    "remove": [],
+    "set": {
+      "definition": "To board a bus, train, plane, or boat.",
+      "synonyms": [
+        "step onto"
+      ],
+      "example": {
+        "word": "get on",
+        "text": "We get on the bus at the station."
+      },
+      "exampleSynonym": {
+        "word": "step onto",
+        "text": "We step onto the bus at the station."
+      }
+    }
+  },
+  {
+    "entry": "get-out",
+    "remove": [],
+    "set": {
+      "definition": "If news gets out, it becomes known to other people.",
+      "synonyms": [
+        "become known"
+      ],
+      "example": {
+        "word": "get out",
+        "text": "The news may get out before the family shares it."
+      },
+      "exampleSynonym": {
+        "word": "become known",
+        "text": "The news may become known before the family shares it."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "get-out-of-control",
+    "remove": [],
+    "set": {
+      "definition": "To become too strong or difficult for anyone to control.",
+      "synonyms": [
+        "become hard to control"
+      ],
+      "image": {
+        "id": 4654,
+        "alt": "Uncontrolled flames."
+      },
+      "example": {
+        "word": "get out of control",
+        "text": "The small fire can get out of control in the wind."
+      },
+      "exampleSynonym": {
+        "word": "become hard to control",
+        "text": "The small fire can become hard to control in the wind."
+      }
+    }
+  },
+  {
+    "entry": "get-out-of-debt",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "To pay what you owe until you have no debt left.",
+      "synonyms": [
+        "clear the debt"
+      ],
+      "example": {
+        "word": "get out of debt",
+        "text": "She used her bonus to get out of debt."
+      },
+      "exampleSynonym": {
+        "word": "clear the debt",
+        "text": "She used her bonus to clear the debt."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "get-rattled",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "To become nervous or lose your calm.",
+      "synonyms": [
+        "become anxious"
+      ],
+      "image": {
+        "id": 30484,
+        "alt": "Person feeling anxious."
+      },
+      "example": {
+        "word": "get rattled",
+        "text": "He may get rattled when the meeting starts."
+      },
+      "exampleSynonym": {
+        "word": "become anxious",
+        "text": "He may become anxious when the meeting starts."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "get-rid-of",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "get rid of",
+      "definition": "To remove an unwanted thing or person.",
+      "synonyms": [
+        "remove"
+      ],
+      "image": {
+        "id": 39033,
+        "alt": "Rubbish bin."
+      },
+      "example": {
+        "word": "get rid of",
+        "text": "They need to get rid of the broken sofa."
+      },
+      "exampleSynonym": {
+        "word": "remove",
+        "text": "They need to remove the broken sofa."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "get-rid-of-2",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "get rid of",
+      "definition": "To kill someone, often without saying this directly.",
+      "synonyms": [
+        "kill"
+      ],
+      "image": {
+        "id": 8160,
+        "alt": "A violent attack."
+      },
+      "example": {
+        "word": "get rid of",
+        "text": "The villain planned to get rid of the witness."
+      },
+      "exampleSynonym": {
+        "word": "kill",
+        "text": "The villain planned to kill the witness."
+      },
+      "situacion": "seguridad"
+    }
+  },
+  {
+    "entry": "get-ripped-off",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "get ripped off",
+      "definition": "To be tricked into paying too much for something.",
+      "synonyms": [
+        "be cheated"
+      ],
+      "image": {
+        "id": 39710,
+        "alt": "A person paying by card."
+      },
+      "example": {
+        "word": "get ripped off",
+        "text": "Tourists can get ripped off near busy stations."
+      },
+      "exampleSynonym": {
+        "word": "be cheated",
+        "text": "Tourists can be cheated near busy stations."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "get-rough",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "To become physically forceful or violent.",
+      "synonyms": [
+        "turn violent"
+      ],
+      "image": {
+        "id": 24254,
+        "alt": "Two people fighting."
+      },
+      "example": {
+        "word": "get rough",
+        "text": "The game can get rough when tempers rise."
+      },
+      "exampleSynonym": {
+        "word": "turn violent",
+        "text": "The game can turn violent when tempers rise."
+      },
+      "situacion": "seguridad"
+    }
+  },
+  {
+    "entry": "get-scammed",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "To be cheated in a dishonest scheme.",
+      "synonyms": [
+        "be tricked"
+      ],
+      "image": {
+        "id": 38479,
+        "alt": "A person being cheated online."
+      },
+      "example": {
+        "word": "get scammed",
+        "text": "She feared she might get scammed online."
+      },
+      "exampleSynonym": {
+        "word": "be tricked",
+        "text": "She feared she might be tricked online."
+      },
+      "situacion": "seguridad"
+    }
+  },
+  {
+    "entry": "get-sick",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "definition": "To become ill or feel unwell.",
+      "synonyms": [
+        "become ill"
+      ],
+      "image": {
+        "id": 32296,
+        "alt": "A person who feels ill."
+      },
+      "example": {
+        "word": "get sick",
+        "text": "People can get sick from unsafe food."
+      },
+      "exampleSynonym": {
+        "word": "become ill",
+        "text": "People can become ill from unsafe food."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "get-stuck-10",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "get stuck",
+      "definition": "To be unable to leave a situation that is hard to change.",
+      "synonyms": [
+        "be trapped"
+      ],
+      "image": {
+        "id": 38271,
+        "alt": "A person stuck in deep mud."
+      },
+      "example": {
+        "word": "get stuck",
+        "text": "People can get stuck in a job they dislike."
+      },
+      "exampleSynonym": {
+        "word": "be trapped",
+        "text": "People can be trapped in a job they dislike."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "get-stuck-11",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "get stuck",
+      "definition": "To have to keep an unwanted thing or responsibility.",
+      "synonyms": [
+        "be saddled with"
+      ],
+      "image": {
+        "id": 5995,
+        "alt": "A bill for one hundred euros."
+      },
+      "example": {
+        "word": "get stuck",
+        "text": "We may get stuck with the repair bill."
+      },
+      "exampleSynonym": {
+        "word": "be saddled with",
+        "text": "We may be saddled with the repair bill."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "get-stuck-12",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "get stuck",
+      "definition": "To be unable to continue because something is difficult.",
+      "synonyms": [
+        "be stumped"
+      ],
+      "image": {
+        "id": 5556,
+        "alt": "A person puzzled by a maths question."
+      },
+      "example": {
+        "word": "get stuck",
+        "text": "I can get stuck on the last question."
+      },
+      "exampleSynonym": {
+        "word": "be stumped",
+        "text": "I can be stumped by the last question."
+      },
+      "situacion": "educacion"
+    }
+  },
+  {
+    "entry": "get-stuck-13",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "get stuck",
+      "definition": "To stop making progress on a task or issue.",
+      "synonyms": [
+        "stall"
+      ],
+      "image": {
+        "id": 32304,
+        "alt": "A person puzzled by a question."
+      },
+      "example": {
+        "word": "get stuck",
+        "text": "Talks can get stuck over one detail."
+      },
+      "exampleSynonym": {
+        "word": "stall",
+        "text": "Talks can stall over one detail."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "get-stuck-in",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "get stuck in",
+      "definition": "To begin a task with energy and determination.",
+      "synonyms": [
+        "work with energy"
+      ],
+      "image": {
+        "id": 2599,
+        "alt": "A person working at a desk."
+      },
+      "example": {
+        "word": "get stuck in",
+        "text": "We get stuck in and clean the whole room."
+      },
+      "exampleSynonym": {
+        "word": "work with energy",
+        "text": "We work with energy and clean the whole room."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "get-swamped",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "To have more work or demands than you can manage.",
+      "synonyms": [
+        "have too much work"
+      ],
+      "image": {
+        "id": 2599,
+        "alt": "A worker at a desk with a stack of papers."
+      },
+      "example": {
+        "word": "get swamped",
+        "text": "I get swamped when several orders arrive together."
+      },
+      "exampleSynonym": {
+        "word": "have too much work",
+        "text": "I have too much work when several orders arrive together."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "get-tangled",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "When ideas or events get tangled, they become hard to understand.",
+      "synonyms": [
+        "become confusing"
+      ],
+      "image": {
+        "id": 35575,
+        "alt": "A confused face with a question mark."
+      },
+      "example": {
+        "word": "get tangled",
+        "text": "The plot can get tangled near the end of the story."
+      },
+      "exampleSynonym": {
+        "word": "become confusing",
+        "text": "The plot can become confusing near the end of the story."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "get-tight",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "To become drunk.",
+      "synonyms": [
+        "become drunk"
+      ],
+      "image": {
+        "id": 24895,
+        "alt": "A drunk person holding a bottle."
+      },
+      "example": {
+        "word": "get tight",
+        "text": "Sam can get tight after a few drinks."
+      },
+      "exampleSynonym": {
+        "word": "become drunk",
+        "text": "Sam can become drunk after a few drinks."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "get-used-to-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "To become familiar with something until it feels normal.",
+      "synonyms": [
+        "become accustomed to"
+      ],
+      "image": {
+        "id": 8029,
+        "alt": "A person learning with a teacher."
+      },
+      "example": {
+        "word": "get used to",
+        "text": "People get used to a new bus route after a few trips."
+      },
+      "exampleSynonym": {
+        "word": "become accustomed to",
+        "text": "People become accustomed to a new bus route after a few trips."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "geyser",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "A hot spring that sometimes shoots water and steam high into the air.",
+      "synonyms": [
+        "spring that erupts"
+      ],
+      "image": {
+        "id": 24154,
+        "alt": "A natural spring among rocks."
+      },
+      "example": {
+        "word": "geyser",
+        "text": "The geyser sent hot water above the rocks."
+      },
+      "exampleSynonym": {
+        "word": "spring that erupts",
+        "text": "The spring that erupts sent hot water above the rocks."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "ghetto",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "A city area where a group lives apart from others, often because of poverty or unfair treatment.",
+      "synonyms": [
+        "segregated neighborhood"
+      ],
+      "image": {
+        "id": 25849,
+        "alt": "A group of houses forms a city neighborhood."
+      },
+      "example": {
+        "word": "ghetto",
+        "text": "Many families were forced to live in the crowded ghetto."
+      },
+      "exampleSynonym": {
+        "word": "segregated neighborhood",
+        "text": "Many families were forced to live in the crowded segregated neighborhood."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "ghost-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "To write a book or speech for someone else, who publishes it as their own.",
+      "synonyms": [
+        "write for another person"
+      ],
+      "image": {
+        "id": 2380,
+        "alt": "A hand writes words with a pencil."
+      },
+      "example": {
+        "word": "ghost",
+        "text": "A journalist ghosted the actor’s memoir without taking credit."
+      },
+      "exampleSynonym": {
+        "word": "write for another person",
+        "text": "A journalist agreed to write for another person without taking credit."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "ghosting",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "The act of ending a relationship by suddenly stopping all contact without explanation.",
+      "synonyms": [
+        "sudden silence without explanation"
+      ],
+      "image": {
+        "id": 8537,
+        "alt": "A person looks at another person on a computer screen."
+      },
+      "example": {
+        "word": "ghosting",
+        "text": "Ghosting left him unsure why the relationship had ended."
+      },
+      "exampleSynonym": {
+        "word": "sudden silence without explanation",
+        "text": "Sudden silence without explanation left him unsure why the relationship had ended."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gibbous",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "More than half of the moon or a planet is lit, but part of it remains dark.",
+      "synonyms": [
+        "more than half lit but not full"
+      ],
+      "image": {
+        "id": 10292,
+        "alt": "A row shows the moon in several phases, including a gibbous phase."
+      },
+      "example": {
+        "word": "gibbous",
+        "text": "A gibbous moon rose over the lake."
+      },
+      "exampleSynonym": {
+        "word": "more than half lit but not full",
+        "text": "The moon was more than half lit but not full as it rose over the lake."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "gibberish",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Speech or writing that has no clear meaning.",
+      "synonyms": [
+        "nonsense"
+      ],
+      "image": {
+        "id": 15329,
+        "alt": "A person cannot understand backward, jumbled writing."
+      },
+      "example": {
+        "word": "gibberish",
+        "text": "The note was gibberish, so I could not follow it."
+      },
+      "exampleSynonym": {
+        "word": "nonsense",
+        "text": "The note was nonsense, so I could not follow it."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "giblet",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "An edible part from inside a bird, often used to make gravy.",
+      "synonyms": [
+        "edible bird part"
+      ],
+      "image": {
+        "id": 4952,
+        "alt": "A cooked chicken is ready to serve."
+      },
+      "example": {
+        "word": "giblet",
+        "text": "We used a giblet from the chicken to make gravy."
+      },
+      "exampleSynonym": {
+        "word": "edible bird part",
+        "text": "We used an edible bird part from the chicken to make gravy."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "gifted-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "definition": "Much more intelligent than most children.",
+      "synonyms": [
+        "exceptionally intelligent"
+      ],
+      "image": {
+        "id": 5899,
+        "alt": "A student writes at a desk in front of a board."
+      },
+      "example": {
+        "word": "gifted",
+        "text": "The gifted child solved the puzzle before the others."
+      },
+      "exampleSynonym": {
+        "word": "exceptionally intelligent",
+        "text": "The exceptionally intelligent child solved the puzzle before the others."
+      },
+      "situacion": "educacion",
+      "translation": {
+        "es": "superdotado"
+      }
+    }
+  },
+  {
+    "entry": "hoarseness",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "translation": {
+        "es": "ronquera"
       }
     }
   }

@@ -86127,5 +86127,620 @@
     "id": "reproducir",
     "word": "Reproducir",
     "reason": "Verbo básico y común con significado transparente."
+  },
+  {
+    "id": "rodancho",
+    "word": "Rodancho",
+    "reason": "Obsolete slang term with no useful synonym."
+  },
+  {
+    "id": "rodao",
+    "word": "Rodao",
+    "reason": "Narrow regional name for a garment, with no useful synonym."
+  },
+  {
+    "id": "rodapelo",
+    "word": "Rodapelo",
+    "reason": "Obscure term for brushing cloth or hair against its grain."
+  },
+  {
+    "id": "rodeabrazo",
+    "word": "Rodeabrazo",
+    "reason": "Rare technical term for an arm movement, without a useful synonym."
+  },
+  {
+    "id": "rodelero",
+    "word": "Rodelero",
+    "reason": "Historical occupation name too specialized for the general synonym dictionary."
+  },
+  {
+    "id": "rodenal",
+    "word": "Rodenal",
+    "reason": "Rare technical name for a pine grove, without a useful synonym."
+  },
+  {
+    "id": "rodeon",
+    "word": "Rodeón",
+    "reason": "Regional word for a local festival; uncommon and not needed in the general dictionary."
+  },
+  {
+    "id": "rodera",
+    "word": "Rodera",
+    "reason": "Historical role linked to an obsolete local tax."
+  },
+  {
+    "id": "rodero",
+    "word": "Rodero",
+    "reason": "Historical role linked to an obsolete local tax."
+  },
+  {
+    "id": "roderon",
+    "word": "Roderón",
+    "reason": "Rare regional word for a deep wheel rut."
+  },
+  {
+    "id": "rodezno",
+    "word": "Rodezno",
+    "reason": "Specialized technical name for a waterwheel part."
+  },
+  {
+    "id": "rodil",
+    "word": "Rodil",
+    "reason": "Narrow regional name for a meadow."
+  },
+  {
+    "id": "rodillero",
+    "word": "Rodillero",
+    "reason": "Regional or specialized senses; the common knee pad is covered by rodillera."
+  },
+  {
+    "id": "rodilludo",
+    "word": "Rodilludo",
+    "reason": "Rare descriptive adjective without a useful distinct synonym."
+  },
+  {
+    "id": "rodio",
+    "word": "Rodio",
+    "reason": "Specialized name for a chemical element; its definition is technical and easy to find elsewhere."
+  },
+  {
+    "id": "rodo",
+    "word": "Rodo",
+    "reason": "Obsolete, narrow word for a roller used to move heavy objects."
+  },
+  {
+    "id": "rododafne",
+    "word": "Rododafne",
+    "reason": "Uncommon botanical name without a useful general synonym."
+  },
+  {
+    "id": "rodomiel",
+    "word": "Rodomiel",
+    "reason": "Historical name for a medicinal syrup."
+  },
+  {
+    "id": "rodreja",
+    "word": "Rodreja",
+    "reason": "Narrow regional word for an unripe fruit."
+  },
+  {
+    "id": "rodrejo",
+    "word": "Rodrejo",
+    "reason": "Narrow regional word for an unripe fruit; redundant with rodreja."
+  },
+  {
+    "id": "rodrigazon",
+    "word": "Rodrigazón",
+    "reason": "Rare technical name for the act or season of staking plants."
+  },
+  {
+    "id": "roedor",
+    "word": "Roedor",
+    "reason": "The word names a familiar animal group and has no difficult, distinct synonym sense for this dictionary."
+  },
+  {
+    "id": "roel",
+    "word": "Roel",
+    "reason": "Specialized heraldic term; its synonym is also specialist vocabulary."
+  },
+  {
+    "id": "roela",
+    "word": "Roela",
+    "reason": "Rare historical name for a raw disk of gold or silver."
+  },
+  {
+    "id": "roentgen",
+    "word": "Roentgen",
+    "reason": "Obsolete technical unit for measuring radiation exposure."
+  },
+  {
+    "id": "roete",
+    "word": "Roete",
+    "reason": "Rare historical name for a medicinal pomegranate wine."
+  },
+  {
+    "id": "rogacion",
+    "word": "Rogación",
+    "reason": "The general sense is marked obsolete and the remaining sense is little used."
+  },
+  {
+    "id": "rogador",
+    "word": "Rogador",
+    "reason": "Little-used derivative meaning a person who begs or pleads."
+  },
+  {
+    "id": "rogativo",
+    "word": "Rogativo",
+    "reason": "Uncommon transparent adjective meaning that something involves a plea."
+  },
+  {
+    "id": "roedura",
+    "word": "Roedura",
+    "reason": "Transparent derivative of roer for an action, piece, or mark; its senses need no separate easy-read entry."
+  },
+  {
+    "id": "rogar",
+    "word": "Rogar",
+    "reason": "Common verb with straightforward senses that do not need an easy-read dictionary entry."
+  },
+  {
+    "id": "rogatorio",
+    "word": "Rogatorio",
+    "reason": "A specialized legal adjective used mainly in fixed expressions; its meanings are not broadly useful."
+  },
+  {
+    "id": "rojal",
+    "word": "Rojal",
+    "reason": "The documented meanings describe a red-tinged plant, seed, or soil; they are rare and transparent color derivatives."
+  },
+  {
+    "id": "rojear",
+    "word": "Rojear",
+    "reason": "A transparent verb meaning to show or approach a red color."
+  },
+  {
+    "id": "rojerio",
+    "word": "Rojerío",
+    "reason": "The supplied definition is incorrect; the real sense is a rare ironic colloquial label for a group of left-wing people."
+  },
+  {
+    "id": "rojeto",
+    "word": "Rojeto",
+    "reason": "The DLE marks this transparent color adjective as obsolete."
+  },
+  {
+    "id": "rojizo",
+    "word": "Rojizo",
+    "reason": "A common, transparent color adjective that means reddish."
+  },
+  {
+    "id": "rojura",
+    "word": "Rojura",
+    "reason": "A less-used duplicate of rojez meaning the quality of being red."
+  },
+  {
+    "id": "rolazo",
+    "word": "Rolazo",
+    "reason": "A Venezuela-specific word for a blow with a club; it is a regional slang term."
+  },
+  {
+    "id": "roldon",
+    "word": "Roldón",
+    "reason": "The DLE marks this as rural Aragonese and it names a plant; the definition is narrow and region-specific."
+  },
+  {
+    "id": "rolletal",
+    "word": "Rolletal",
+    "reason": "The documented meaning is a place in Salamanca with rounded stones; the supplied definition is false and the term is regional."
+  },
+  {
+    "id": "rollete",
+    "word": "Rollete",
+    "reason": "The supplied romantic and small-roll meanings are unsupported; the DLE sense is a regional head pad."
+  },
+  {
+    "id": "rollito",
+    "word": "Rollito",
+    "reason": "The supplied relationship and small-roll senses are wrong or transparent diminutives; the documented body-fold sense is regional."
+  },
+  {
+    "id": "rollon",
+    "word": "Rollón",
+    "reason": "A specialized cereal by-product with limited everyday or personal-document use."
+  },
+  {
+    "id": "rollona",
+    "word": "Rollona",
+    "reason": "The DLE marks the word as colloquial and obsolete; the supplied definition is incorrect."
+  },
+  {
+    "id": "romaico",
+    "word": "Romaico",
+    "reason": "The DLE marks this name for modern Greek as little used; it is a rare language term."
+  },
+  {
+    "id": "roman",
+    "word": "Román",
+    "reason": "The DLE marks this sense as obsolete; it is a rare name for a Romance language."
+  },
+  {
+    "id": "romanador",
+    "word": "Romanador",
+    "reason": "A specialized slaughterhouse job title with very limited everyday use."
+  },
+  {
+    "id": "romanar",
+    "word": "Romanar",
+    "reason": "A specialized weighing action with a Roman balance; too technical and rare."
+  },
+  {
+    "id": "romanceador",
+    "word": "Romanceador",
+    "reason": "The supplied sense is a rare derivative and has no clear general-use value."
+  },
+  {
+    "id": "romancear",
+    "word": "Romancear",
+    "reason": "The documented translation sense is specialized, and the second sense is little used."
+  },
+  {
+    "id": "romancesco",
+    "word": "Romancesco",
+    "reason": "The supplied sense is inaccurate; the documented meaning is a rare literary adjective."
+  },
+  {
+    "id": "romanche",
+    "word": "Romanche",
+    "reason": "A valid name for a Swiss language, but a specialized language term with little personal-document use."
+  },
+  {
+    "id": "romancillo",
+    "word": "Romancillo",
+    "reason": "A rare technical name for a short poetic form."
+  },
+  {
+    "id": "romancistico",
+    "word": "Romancístico",
+    "reason": "A rare, transparent literary adjective with little everyday use."
+  },
+  {
+    "id": "romanero",
+    "word": "Romanero",
+    "reason": "A specialized slaughterhouse job title, duplicating romanador."
+  },
+  {
+    "id": "romania",
+    "word": "Romanía",
+    "reason": "The entry is a corrupted proper-name record, not a useful synonym sense."
+  },
+  {
+    "id": "romanilla",
+    "word": "Romanilla",
+    "reason": "The documented sliding screen is a Venezuelan regional term with limited general use."
+  },
+  {
+    "id": "romanina",
+    "word": "Romanina",
+    "reason": "A rare traditional game term with little everyday personal-document use."
+  },
+  {
+    "id": "romanismo",
+    "word": "Romanismo",
+    "reason": "A specialized history and religion term outside the everyday scope."
+  },
+  {
+    "id": "romanistica",
+    "word": "Romanística",
+    "reason": "The name of an academic philology discipline, too specialized for this dictionary."
+  },
+  {
+    "id": "romanzador",
+    "word": "Romanzador",
+    "reason": "A rare literary derivative with no clear everyday use."
+  },
+  {
+    "id": "romanzar",
+    "word": "Romanzar",
+    "reason": "A rare literary synonym of the more familiar romancear."
+  },
+  {
+    "id": "rombal",
+    "word": "Rombal",
+    "reason": "A transparent geometry adjective whose meaning is clear from rombo."
+  },
+  {
+    "id": "rombico",
+    "word": "Rómbico",
+    "reason": "A transparent crystallography adjective used mainly in specialized geometric descriptions."
+  },
+  {
+    "id": "romboedrico",
+    "word": "Romboédrico",
+    "reason": "A transparent, specialized adjective for a technical geometric solid."
+  },
+  {
+    "id": "romboedro",
+    "word": "Romboedro",
+    "reason": "A highly specialized geometric solid with little everyday document use."
+  },
+  {
+    "id": "romboidal",
+    "word": "Romboidal",
+    "reason": "A transparent and specialized adjective meaning shaped like a romboide."
+  },
+  {
+    "id": "romboide",
+    "word": "Romboide",
+    "reason": "A basic, transparent geometry term with little need for a synonym entry."
+  },
+  {
+    "id": "romboideo",
+    "word": "Romboideo",
+    "reason": "A transparent derivative meaning related to or shaped like a romboide."
+  },
+  {
+    "id": "romeral",
+    "word": "Romeral",
+    "reason": "A rare transparent place-name for land covered with rosemary plants."
+  },
+  {
+    "id": "romeriante",
+    "word": "Romeriante",
+    "reason": "A regional Ecuadorian and Honduran term for a pilgrim."
+  },
+  {
+    "id": "romeriego",
+    "word": "Romeriego",
+    "reason": "A rare transparent adjective meaning related to a romería."
+  },
+  {
+    "id": "rompecabezas",
+    "word": "Rompecabezas",
+    "reason": "Its everyday puzzle sense is already easy; its weapon sense is obsolete."
+  },
+  {
+    "id": "rompecoches",
+    "word": "Rompecoches",
+    "reason": "An obsolete germanía word for a coarse fabric, not current everyday vocabulary."
+  },
+  {
+    "id": "rompecorazones",
+    "word": "Rompecorazones",
+    "reason": "A familiar, transparent colloquial compound already easy to understand."
+  },
+  {
+    "id": "rompedera",
+    "word": "Rompedera",
+    "reason": "The adjective sense is transparent; its other senses name specialized tools."
+  },
+  {
+    "id": "rompedero",
+    "word": "Rompedero",
+    "reason": "The adjective sense is transparent; its other senses name obsolete specialized tools."
+  },
+  {
+    "id": "rompedizo",
+    "word": "Rompedizo",
+    "reason": "A transparent derivative meaning easy to break."
+  },
+  {
+    "id": "rompedura",
+    "word": "Rompedura",
+    "reason": "A transparent action noun meaning breaking or being broken."
+  },
+  {
+    "id": "rompehuelgas",
+    "word": "Rompehuelgas",
+    "reason": "A regional, derogatory synonym of the already covered esquirol."
+  },
+  {
+    "id": "rompehuevos",
+    "word": "Rompehuevos",
+    "reason": "A vulgar regional insult that adds no useful nonregional sense."
+  },
+  {
+    "id": "rompelon",
+    "word": "Rompelón",
+    "reason": "A regional Mexican derivative of the already covered rompedor."
+  },
+  {
+    "id": "rompenecios",
+    "word": "Rompenecios",
+    "reason": "An obsolete insult, marked as disused."
+  },
+  {
+    "id": "rompenueces",
+    "word": "Rompenueces",
+    "reason": "A common, transparent name for a nutcracker."
+  },
+  {
+    "id": "rompepoyos",
+    "word": "Rompepoyos",
+    "reason": "An obsolete word for a lazy vagrant."
+  },
+  {
+    "id": "rompesacos",
+    "word": "Rompesacos",
+    "reason": "The supplied worker definition is false; the DLE entry is a highly specific grass."
+  },
+  {
+    "id": "rompezaraguelles",
+    "word": "Rompezaragüelles",
+    "reason": "A specialized American plant name with little everyday document use."
+  },
+  {
+    "id": "rompible",
+    "word": "Rompible",
+    "reason": "A transparent derivative meaning something can be broken."
+  },
+  {
+    "id": "rompido",
+    "word": "Rompido",
+    "reason": "An obscure agricultural term for land broken up for cultivation."
+  },
+  {
+    "id": "rompiente",
+    "word": "Rompiente",
+    "reason": "The adjective is transparent; its difficult coastal noun sense duplicates rompeolas-2."
+  },
+  {
+    "id": "romplon",
+    "word": "Romplón",
+    "reason": "A regional Salvadoran and Honduran expression meaning unexpectedly."
+  },
+  {
+    "id": "rompon",
+    "word": "Rompón",
+    "reason": "A strongly regional Chilean drink name, also covered by rompope."
+  },
+  {
+    "id": "rompope",
+    "word": "Rompope",
+    "reason": "A strongly regional drink name; the entry is also covered by the regional synonym rompopo."
+  },
+  {
+    "id": "rompopo",
+    "word": "Rompopo",
+    "reason": "A regional variant of rompope."
+  },
+  {
+    "id": "ron",
+    "word": "Ron",
+    "reason": "A basic, familiar word for a common drink."
+  },
+  {
+    "id": "roncada",
+    "word": "Roncada",
+    "reason": "A regional Mexican word for snoring."
+  },
+  {
+    "id": "roncadera",
+    "word": "Roncadera",
+    "reason": "A regional word for repeated snoring."
+  },
+  {
+    "id": "roncador",
+    "word": "Roncador",
+    "reason": "The ordinary sense is transparent; its fish sense is highly specialized."
+  },
+  {
+    "id": "roncadora",
+    "word": "Roncadora",
+    "reason": "A transparent feminine form; the fish sense is too specialized."
+  },
+  {
+    "id": "roncar",
+    "word": "Roncar",
+    "reason": "A basic, familiar verb."
+  },
+  {
+    "id": "roncella",
+    "word": "Roncella",
+    "reason": "A rare, specialized name for a small sailing boat."
+  },
+  {
+    "id": "ronchadora",
+    "word": "Ronchadora",
+    "reason": "A highly specific regional name for a Costa Rican ant."
+  },
+  {
+    "id": "ronchero",
+    "word": "Ronchero",
+    "reason": "A colloquial Venezuelan regionalism for many skin welts."
+  },
+  {
+    "id": "ronchon",
+    "word": "Ronchón",
+    "reason": "A transparent augmentative of roncha."
+  },
+  {
+    "id": "ronco",
+    "word": "Ronco",
+    "reason": "A familiar, basic word for a rough or hoarse voice."
+  },
+  {
+    "id": "roncon",
+    "word": "Roncón",
+    "reason": "A specific part of a Galician bagpipe, with little general document use."
+  },
+  {
+    "id": "rondador",
+    "word": "Rondador",
+    "reason": "The adjective is transparent; its other sense is an Ecuadorian instrument."
+  },
+  {
+    "id": "rondel",
+    "word": "Rondel",
+    "reason": "The current DLE gives a technical poetic form, not the supplied dish sense."
+  },
+  {
+    "id": "rondinear",
+    "word": "Rondinear",
+    "reason": "A regional Salvadoran verb for taking a short walk."
+  },
+  {
+    "id": "rondis",
+    "word": "Rondís",
+    "reason": "A specialized gem-cutting term for a face of a precious stone."
+  },
+  {
+    "id": "rondiz",
+    "word": "Rondiz",
+    "reason": "A variant of the specialized term rondís."
+  },
+  {
+    "id": "ronfea",
+    "word": "Ronfea",
+    "reason": "The supplied cold definition is false; the current DLE marks it obsolete and defines a long sword."
+  },
+  {
+    "id": "rongigata",
+    "word": "Rongigata",
+    "reason": "An obsolete name for a spinning toy, with no current general use."
+  },
+  {
+    "id": "ronqueador",
+    "word": "Ronqueador",
+    "reason": "A narrow fishing occupation: a worker who cuts up tuna."
+  },
+  {
+    "id": "ronquedad",
+    "word": "Ronquedad",
+    "reason": "A near-synonym of ronquera with no separate useful sense."
+  },
+  {
+    "id": "ronquez",
+    "word": "Ronquez",
+    "reason": "The DLE marks this synonym of ronquera as little used."
+  },
+  {
+    "id": "ronquido",
+    "word": "Ronquido",
+    "reason": "A common, concrete sound already easy to understand from roncar."
+  },
+  {
+    "id": "ronron",
+    "word": "Ronrón",
+    "reason": "Regional names for a beetle and a children’s noise toy are combined in one card."
+  },
+  {
+    "id": "ronronear",
+    "word": "Ronronear",
+    "reason": "A familiar, transparent action: a cat makes a purring sound."
+  },
+  {
+    "id": "ronzar",
+    "word": "Ronzar",
+    "reason": "The chewing sense duplicates ronchar; its other senses are rare or specialized."
+  },
+  {
+    "id": "ronzuela",
+    "word": "Ronzuela",
+    "reason": "A Cantabrian regional name for the jay, already covered by arrendajo."
+  },
+  {
+    "id": "ronzuella",
+    "word": "Ronzuella",
+    "reason": "A spelling variant of the same Cantabrian regional bird name."
   }
 ]

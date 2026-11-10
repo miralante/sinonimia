@@ -1310,5 +1310,9 @@
     ],
     "set": {},
     "unset": []
+  },
+  {
+    "canonical": "arrollar",
+    "alias": "rollar"
   }
 ]
