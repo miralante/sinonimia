@@ -131184,12 +131184,12 @@
         "patterned"
       ],
       "example": {
-        "word": "brocade-2",
-        "text": "She wore a brocade jacket."
+        "word": "brocaded",
+        "text": "She wore a brocaded jacket to the ceremony."
       },
       "exampleSynonym": {
-        "word": "brocaded",
-        "text": "She wore a patterned jacket."
+        "word": "patterned",
+        "text": "She wore a patterned jacket to the ceremony."
       },
       "situacion": "ropa"
     }
@@ -136829,12 +136829,12 @@
         "of a caliph"
       ],
       "example": {
-        "word": "khalifal",
-        "text": "Historians described the new court as khalifal in style."
+        "word": "Caliphal",
+        "text": "The historian studied caliphal court customs."
       },
       "exampleSynonym": {
-        "word": "caliphal",
-        "text": "The caliphal court of the ruler moved to the new capital."
+        "word": "of a caliph",
+        "text": "The historian studied customs of a caliph and his court."
       },
       "situacion": "history"
     }
@@ -139939,12 +139939,12 @@
         "bank-collection cheque"
       ],
       "example": {
-        "word": "crossed-check",
-        "text": "She paid by crossed cheque."
+        "word": "Crossed cheque",
+        "text": "She deposited the crossed cheque instead of cashing it."
       },
       "exampleSynonym": {
-        "word": "crossed cheque",
-        "text": "She paid by bank-collection cheque."
+        "word": "bank-collection cheque",
+        "text": "She deposited the bank-collection cheque instead of cashing it."
       },
       "situacion": "finanzas"
     }
@@ -141789,12 +141789,12 @@
         "rum and cola"
       ],
       "example": {
-        "word": "cubalibre",
-        "text": "They ordered a cubalibre with lime."
-      },
-      "exampleSynonym": {
         "word": "Cuba libre",
         "text": "They ordered a Cuba libre with lime."
+      },
+      "exampleSynonym": {
+        "word": "rum and cola",
+        "text": "They ordered rum and cola with a squeeze of lime."
       },
       "situacion": "vida-diaria",
       "word": "Cuba libre"
@@ -258969,6 +258969,293 @@
         "word": "neuromuscular irritability",
         "text": "The patient’s neuromuscular irritability caused painful muscle cramps."
       }
+    }
+  },
+  {
+    "entry": "gosling",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gosling",
+      "definition": "A young goose.",
+      "synonyms": [
+        "young goose"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A young goose walks beside its parent."
+      },
+      "example": {
+        "word": "gosling",
+        "text": "The gosling followed its mother across the grass."
+      },
+      "exampleSynonym": {
+        "word": "young goose",
+        "text": "The young goose followed its mother across the grass."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "cane-4",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Cane",
+        "text": "The law once allowed officials to cane prisoners."
+      },
+      "exampleSynonym": {
+        "word": "beat with a cane",
+        "text": "The law once allowed officials to beat prisoners with a cane."
+      }
+    }
+  },
+  {
+    "entry": "gyron",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Gyron",
+        "text": "A single gyron appeared in the center of the shield."
+      },
+      "exampleSynonym": {
+        "word": "subordinary",
+        "text": "The heraldic guide classifies the gyron as a subordinary."
+      }
+    }
+  },
+  {
+    "entry": "ombu",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "ombu",
+        "text": "An old ombú tree shaded the farmyard."
+      },
+      "exampleSynonym": {
+        "word": "Phytolacca dioica",
+        "text": "Phytolacca dioica can store water in its thick trunk."
+      }
+    }
+  },
+  {
+    "entry": "retropilaster",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Retropilaster",
+        "text": "The architect placed a retropilaster behind the main column."
+      },
+      "exampleSynonym": {
+        "word": "background pilaster",
+        "text": "The architect placed a background pilaster behind the main column."
+      }
+    }
+  },
+  {
+    "entry": "rise-2",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Rise",
+        "text": "The rise begins when fish travel up the river."
+      },
+      "exampleSynonym": {
+        "word": "fish migration upstream",
+        "text": "Fish migration upstream begins when the rains swell the river."
+      }
+    }
+  },
+  {
+    "entry": "rivet-3",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Rivet",
+        "text": "Riveting the metal sheets made a durable joint."
+      },
+      "exampleSynonym": {
+        "word": "fastening",
+        "text": "Fastening the metal sheets with rivets made a durable joint."
+      }
+    }
+  },
+  {
+    "entry": "rumor-2",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Rumor",
+        "text": "The story was rumored throughout the town before the debate."
+      },
+      "exampleSynonym": {
+        "word": "circulate gossip",
+        "text": "Their rivals tried to circulate gossip before the debate."
+      }
+    }
+  },
+  {
+    "entry": "scarlet-2",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "scarlet",
+        "text": "The scarlet cloth was stored in the museum archive."
+      },
+      "exampleSynonym": {
+        "word": "scarlet fabric",
+        "text": "The museum keeps a sample of scarlet fabric in its archive."
+      }
+    }
+  },
+  {
+    "entry": "gospel",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gospel",
+      "definition": "One of the first four New Testament books about Jesus’s life.",
+      "synonyms": [
+        "Gospel book"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "An open Bible shows one of the four Gospel books."
+      },
+      "example": {
+        "word": "gospel",
+        "text": "Mark is a gospel in the New Testament."
+      },
+      "exampleSynonym": {
+        "word": "Gospel book",
+        "text": "Mark is a Gospel book in the New Testament."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "gospel-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Gospel",
+      "definition": "A style of Christian music rooted in African American churches.",
+      "synonyms": [
+        "gospel music"
+      ],
+      "image": {
+        "id": 2450,
+        "alt": "A choir sings gospel music in a church."
+      },
+      "example": {
+        "word": "Gospel",
+        "text": "The choir sang Gospel at the service."
+      },
+      "exampleSynonym": {
+        "word": "gospel music",
+        "text": "The choir sang gospel music at the service."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "gossip",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gossip",
+      "definition": "Talk or rumors about other people’s private lives.",
+      "synonyms": [
+        "rumor"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Two people quietly share a rumor over coffee."
+      },
+      "example": {
+        "word": "gossip",
+        "text": "They spread gossip about their neighbors."
+      },
+      "exampleSynonym": {
+        "word": "rumor",
+        "text": "They spread rumors about their neighbors."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gossip-10",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gossip",
+      "definition": "To say unkind or harmful things about someone.",
+      "synonyms": [
+        "badmouth"
+      ],
+      "image": {
+        "id": 2450,
+        "alt": "A person says something unkind about a neighbor."
+      },
+      "example": {
+        "word": "gossip",
+        "text": "They gossiped about the new neighbor."
+      },
+      "exampleSynonym": {
+        "word": "badmouth",
+        "text": "They badmouthed the new neighbor."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gossip-15",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Gossip",
+      "definition": "A person who often shares private stories about others.",
+      "synonyms": [
+        "gossiper"
+      ],
+      "image": {
+        "id": 2450,
+        "alt": "A person tells a private story to a friend."
+      },
+      "example": {
+        "word": "Gossip",
+        "text": "Everyone knew she was a gossip."
+      },
+      "exampleSynonym": {
+        "word": "gossiper",
+        "text": "Everyone knew she was a gossiper."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gossip-19",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gossip",
+      "definition": "To talk about other people’s private lives or rumors.",
+      "synonyms": [
+        "spread gossip"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Friends talk about a rumor during lunch."
+      },
+      "example": {
+        "word": "gossip",
+        "text": "They gossiped about their neighbor at lunch."
+      },
+      "exampleSynonym": {
+        "word": "spread gossip",
+        "text": "They spread gossip about their neighbor at lunch."
+      },
+      "situacion": "vida-diaria"
     }
   }
 ]

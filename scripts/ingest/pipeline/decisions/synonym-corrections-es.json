@@ -259016,5 +259016,473 @@
         "text": "El ave cubana cantó desde la rama más alta."
       }
     }
+  },
+  {
+    "entry": "sacabocados",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacabocados",
+      "definition": "Herramienta de borde afilado que sirve para perforar un material.",
+      "synonyms": [
+        "perforador"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una herramienta hace un agujero redondo en una pieza de cuero."
+      },
+      "example": {
+        "word": "sacabocados",
+        "text": "Usó un sacabocados para perforar el cuero."
+      },
+      "exampleSynonym": {
+        "word": "perforador",
+        "text": "Usó un perforador para hacer un agujero en el cuero."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "sacabotas",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacabotas",
+      "definition": "Tabla con una muesca que ayuda a quitarse las botas.",
+      "synonyms": [
+        "descalzador"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona apoya el talón en una tabla para quitarse la bota."
+      },
+      "example": {
+        "word": "sacabotas",
+        "text": "Dejó el sacabotas junto a la puerta."
+      },
+      "exampleSynonym": {
+        "word": "descalzador",
+        "text": "Dejó el descalzador junto a la puerta."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "sacaclavos",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacaclavos",
+      "definition": "Herramienta que se usa para sacar clavos.",
+      "synonyms": [
+        "tenaza"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona saca un clavo de una tabla con una tenaza."
+      },
+      "example": {
+        "word": "sacaclavos",
+        "text": "El sacaclavos retiró el clavo de la madera."
+      },
+      "exampleSynonym": {
+        "word": "tenaza",
+        "text": "La tenaza retiró el clavo de la madera."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "sacacorchos",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacacorchos",
+      "definition": "Utensilio que se usa para quitar el corcho de una botella.",
+      "synonyms": [
+        "descorchador"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona usa un sacacorchos para abrir una botella."
+      },
+      "example": {
+        "word": "sacacorchos",
+        "text": "El sacacorchos abrió la botella de vino."
+      },
+      "exampleSynonym": {
+        "word": "descorchador",
+        "text": "El descorchador abrió la botella de vino."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "sacacuartos",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacacuartos",
+      "definition": "Negocio que hace gastar dinero sin ofrecer mucho a cambio.",
+      "synonyms": [
+        "negocio abusivo"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona paga por un servicio que no cumple lo prometido."
+      },
+      "example": {
+        "word": "sacacuartos",
+        "text": "La suscripción resultó un sacacuartos."
+      },
+      "exampleSynonym": {
+        "word": "negocio abusivo",
+        "text": "La suscripción resultó un negocio abusivo."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "sacada",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacada",
+      "definition": "Acción de sacar algo de un lugar.",
+      "synonyms": [
+        "extracción"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una máquina extrae agua de un pozo."
+      },
+      "example": {
+        "word": "sacada",
+        "text": "La sacada de agua del pozo requiere una bomba."
+      },
+      "exampleSynonym": {
+        "word": "extracción",
+        "text": "La extracción de agua del pozo requiere una bomba."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "sacadientes",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacadientes",
+      "definition": "En Bolivia y Honduras, dentista. Es una palabra coloquial.",
+      "synonyms": [
+        "dentista"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una dentista revisa los dientes de un paciente."
+      },
+      "example": {
+        "word": "sacadientes",
+        "text": "El sacadientes atendió a varios pacientes."
+      },
+      "exampleSynonym": {
+        "word": "dentista",
+        "text": "El dentista atendió a varios pacientes."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "achampanado",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Achampanado",
+        "text": "El refresco achampanado se sirvió en copas estrechas."
+      },
+      "exampleSynonym": {
+        "word": "achampañado",
+        "text": "El refresco achampañado se sirvió en copas estrechas."
+      }
+    }
+  },
+  {
+    "entry": "acuarelistico",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Acuarelístico",
+        "text": "El museo conserva un diseño acuarelístico de la fachada."
+      },
+      "exampleSynonym": {
+        "word": "relativo a la acuarela",
+        "text": "El museo conserva un diseño relativo a la acuarela de la fachada."
+      }
+    }
+  },
+  {
+    "entry": "ademprio",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Ademprio",
+        "text": "El concejo protegió el ademprío compartido por los pueblos."
+      },
+      "exampleSynonym": {
+        "word": "pastos comunales",
+        "text": "El concejo protegió los pastos comunales compartidos por los pueblos."
+      }
+    }
+  },
+  {
+    "entry": "afrikaans",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Afrikáans",
+        "text": "En Sudáfrica se habla afrikáans además de otras lenguas."
+      },
+      "exampleSynonym": {
+        "word": "lengua afrikáans",
+        "text": "En Sudáfrica se habla la lengua afrikáans además de otras lenguas."
+      }
+    }
+  },
+  {
+    "entry": "alhorre",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Alhorre",
+        "text": "El alhorre es la primera deposición de un recién nacido."
+      },
+      "exampleSynonym": {
+        "word": "meconio",
+        "text": "El meconio es la primera deposición de un recién nacido."
+      }
+    }
+  },
+  {
+    "entry": "araza",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Arazá",
+        "text": "El arazá da frutos ácidos que se usan en jugos y mermeladas."
+      },
+      "exampleSynonym": {
+        "word": "guayabo amazónico",
+        "text": "El guayabo amazónico da frutos ácidos que se usan en jugos y mermeladas."
+      }
+    }
+  },
+  {
+    "entry": "areito",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Areito",
+        "text": "El areito era un canto ritual taíno que reunía a la comunidad en la plaza."
+      },
+      "exampleSynonym": {
+        "word": "canto ritual taíno",
+        "text": "El canto ritual taíno reunía a la comunidad en la plaza."
+      }
+    }
+  },
+  {
+    "entry": "azala",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Azalá",
+        "text": "El manuscrito antiguo emplea azalá para nombrar la oración."
+      },
+      "exampleSynonym": {
+        "word": "oración ritual musulmana",
+        "text": "La oración ritual musulmana aparece mencionada en el manuscrito."
+      }
+    }
+  },
+  {
+    "entry": "bigamo",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Bígamo",
+        "text": "El tribunal condenó al bígamo por mantener dos matrimonios legales."
+      },
+      "exampleSynonym": {
+        "word": "persona que comete bigamia",
+        "text": "La persona que comete bigamia puede afrontar consecuencias legales."
+      }
+    }
+  },
+  {
+    "entry": "caipirina",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Caipiriña",
+        "text": "Pidió una caipiriña con hielo picado y limón."
+      },
+      "exampleSynonym": {
+        "word": "caipirinha",
+        "text": "Pidió una caipirinha con hielo picado y limón."
+      }
+    }
+  },
+  {
+    "entry": "calcografico",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Calcográfico",
+        "text": "El grabado calcográfico se conserva en el museo."
+      },
+      "exampleSynonym": {
+        "word": "relativo a la calcografía",
+        "text": "El libro relativo a la calcografía está en la biblioteca."
+      }
+    }
+  },
+  {
+    "entry": "coihue",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Coihue",
+        "text": "El coihue de hojas persistentes daba sombra al sendero."
+      },
+      "exampleSynonym": {
+        "word": "Nothofagus dombeyi",
+        "text": "Nothofagus dombeyi crece en bosques húmedos de Chile y Argentina."
+      }
+    }
+  },
+  {
+    "entry": "sacador",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacador",
+      "definition": "En tenis, jugador que inicia cada punto con el saque.",
+      "synonyms": [
+        "servidor"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un tenista lanza la pelota para iniciar el saque."
+      },
+      "example": {
+        "word": "sacador",
+        "text": "El sacador ganó el punto con un servicio potente."
+      },
+      "exampleSynonym": {
+        "word": "servidor",
+        "text": "El servidor ganó el punto con un servicio potente."
+      },
+      "situacion": "deportes"
+    }
+  },
+  {
+    "entry": "sacaleches",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacaleches",
+      "definition": "Aparato que extrae leche del pecho para alimentar a un bebé.",
+      "synonyms": [
+        "tiraleche"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un sacaleches manual recoge leche en un recipiente."
+      },
+      "example": {
+        "word": "sacaleches",
+        "text": "Guardó el sacaleches limpio en un cajón."
+      },
+      "exampleSynonym": {
+        "word": "tiraleche",
+        "text": "Guardó el tiraleche limpio en un cajón."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "sacamanchas",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacamanchas",
+      "definition": "Producto que ayuda a quitar manchas de la ropa.",
+      "synonyms": [
+        "quitamanchas"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una botella de producto para quitar una mancha de una camisa."
+      },
+      "example": {
+        "word": "sacamanchas",
+        "text": "Aplicó sacamanchas sobre la mancha de tinta."
+      },
+      "exampleSynonym": {
+        "word": "quitamanchas",
+        "text": "Aplicó quitamanchas sobre la mancha de tinta."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "sacamantecas",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacamantecas",
+      "definition": "En uso coloquial, criminal que abre el cuerpo de sus víctimas.",
+      "synonyms": [
+        "destripador"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una ilustración antigua muestra a un criminal de una leyenda."
+      },
+      "example": {
+        "word": "sacamantecas",
+        "text": "El relato popular hablaba de un sacamantecas."
+      },
+      "exampleSynonym": {
+        "word": "destripador",
+        "text": "El relato popular hablaba de un destripador."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "sacamuelas",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacamuelas",
+      "definition": "Dentista, dicho de forma coloquial y despectiva.",
+      "synonyms": [
+        "odontólogo"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un odontólogo revisa los dientes de un paciente."
+      },
+      "example": {
+        "word": "sacamuelas",
+        "text": "El sacamuelas atendió al paciente con cuidado."
+      },
+      "exampleSynonym": {
+        "word": "odontólogo",
+        "text": "El odontólogo atendió al paciente con cuidado."
+      },
+      "situacion": "salud"
+    }
   }
 ]

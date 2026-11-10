@@ -81881,5 +81881,95 @@
     "id": "gorgery",
     "word": "Gorgery",
     "reason": "Archaic and obscure word with little current synonym value."
+  },
+  {
+    "id": "gorgonian",
+    "word": "Gorgonian",
+    "reason": "Specialized coral term with little general synonym value."
+  },
+  {
+    "id": "gorgor",
+    "word": "Gorgor",
+    "reason": "Corrupted definition and no reliable English synonym value."
+  },
+  {
+    "id": "gorgorus",
+    "word": "Gorgorus",
+    "reason": "Corrupted, unverifiable definition."
+  },
+  {
+    "id": "goring",
+    "word": "goring",
+    "reason": "Transparent form of gore with no distinct synonym value."
+  },
+  {
+    "id": "goring-2",
+    "word": "goring",
+    "reason": "Corrupted duplicate definition."
+  },
+  {
+    "id": "goring-3",
+    "word": "goring",
+    "reason": "Corrupted duplicate definition."
+  },
+  {
+    "id": "goring-4",
+    "word": "goring",
+    "reason": "Variant duplicate without a useful synonym."
+  },
+  {
+    "id": "gorilla",
+    "word": "Gorrilla",
+    "reason": "Spanish regional term with a mismatched English headword."
+  },
+  {
+    "id": "gorrundo",
+    "word": "Gorrundo",
+    "reason": "Spanish word incorrectly included in the English dictionary."
+  },
+  {
+    "id": "gorse",
+    "word": "gorse",
+    "reason": "Corrupted definition unrelated to the plant name."
+  },
+  {
+    "id": "gosh",
+    "word": "Gosh",
+    "reason": "Corrupted definition unrelated to the English interjection."
+  },
+  {
+    "id": "gosling-3",
+    "word": "Gosling",
+    "reason": "Corrupted duplicate definition."
+  },
+  {
+    "id": "gosling-4",
+    "word": "gosling",
+    "reason": "Definition describes a goose herder, not a gosling."
+  },
+  {
+    "id": "gossip-11",
+    "word": "gossip",
+    "reason": "Corrupted definition unrelated to the English word."
+  },
+  {
+    "id": "gossip-12",
+    "word": "gossip",
+    "reason": "Duplicate verbal noun with no separate synonym value."
+  },
+  {
+    "id": "gossip-13",
+    "word": "Gossip",
+    "reason": "Corrupted duplicate definition."
+  },
+  {
+    "id": "gossip-14",
+    "word": "gossip",
+    "reason": "Explanatory duplicate that adds no separate meaning."
+  },
+  {
+    "id": "gossip-16",
+    "word": "gossip",
+    "reason": "Corrupted or redundant definition with no separate synonym value."
   }
 ]
