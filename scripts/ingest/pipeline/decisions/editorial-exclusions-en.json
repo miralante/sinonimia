@@ -81606,5 +81606,45 @@
     "id": "go-back",
     "word": "go back",
     "reason": "A common phrasal verb outside this dictionary’s editorial scope."
+  },
+  {
+    "id": "go-back-2",
+    "word": "Go back",
+    "reason": "A duplicate common phrasal verb outside this dictionary’s scope."
+  },
+  {
+    "id": "go-crazy",
+    "word": "Go crazy",
+    "reason": "A common phrase with a circular definition and no useful synonym."
+  },
+  {
+    "id": "copy-2",
+    "word": "go drinking",
+    "reason": "A common transparent phrase with no difficult-word value."
+  },
+  {
+    "id": "go-gray",
+    "word": "Go gray",
+    "reason": "A common, transparent phrase about hair turning gray."
+  },
+  {
+    "id": "go-into",
+    "word": "go into",
+    "reason": "A common phrasal verb with several broad senses outside this dictionary’s scope."
+  },
+  {
+    "id": "go-out",
+    "word": "go out",
+    "reason": "A common phrasal verb with many everyday senses outside this dictionary’s scope."
+  },
+  {
+    "id": "go-out-2",
+    "word": "go out",
+    "reason": "A corrupted duplicate of the common phrasal verb."
+  },
+  {
+    "id": "cart-4",
+    "word": "go partying",
+    "reason": "A transparent, common phrase with little independent synonym value."
   }
 ]

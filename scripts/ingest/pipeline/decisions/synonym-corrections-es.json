@@ -257449,5 +257449,164 @@
       },
       "situacion": "vida-diaria"
     }
+  },
+  {
+    "entry": "runrunear",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Runrunear",
+      "definition": "Difundir entre la gente un rumor o comentario.",
+      "synonyms": [
+        "murmurar"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Vecinos hablan de una noticia sin confirmar."
+      },
+      "example": {
+        "word": "runrunear",
+        "text": "Los vecinos empezaron a runrunear que cerraría la tienda."
+      },
+      "exampleSynonym": {
+        "word": "murmurar",
+        "text": "Los vecinos empezaron a murmurar que cerraría la tienda."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rupestre",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rupestre",
+      "definition": "Relacionado con las rocas.",
+      "synonyms": [
+        "rocoso"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un sendero rocoso atraviesa una montaña."
+      },
+      "example": {
+        "word": "rupestre",
+        "text": "El sendero rupestre subía por la montaña."
+      },
+      "exampleSynonym": {
+        "word": "rocoso",
+        "text": "El sendero rocoso subía por la montaña."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "rupia",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rupia",
+      "definition": "Moneda usada en India, Pakistán y otros países.",
+      "synonyms": [
+        "moneda india"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona cambia dinero antes de viajar."
+      },
+      "example": {
+        "word": "rupia",
+        "text": "La viajera cambió rupias antes de salir de India."
+      },
+      "exampleSynonym": {
+        "word": "moneda india",
+        "text": "La viajera cambió moneda india antes de salir de India."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "vivijagua",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "vivijagua",
+        "text": "La vivijagua levantó un montículo de tierra."
+      },
+      "exampleSynonym": {
+        "word": "bibijagua",
+        "text": "La bibijagua levantó un montículo de tierra."
+      }
+    }
+  },
+  {
+    "entry": "trasflor",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "trasflor",
+        "text": "La restauradora distinguió el trasflor en la pintura."
+      },
+      "exampleSynonym": {
+        "word": "transflor",
+        "text": "La restauradora distinguió el transflor en la pintura."
+      }
+    }
+  },
+  {
+    "entry": "tolonca",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tolonca",
+        "text": "La tolonca se cocinó junto al resto del maíz."
+      },
+      "exampleSynonym": {
+        "word": "mazorca pequeña",
+        "text": "La mazorca pequeña se cocinó junto al resto del maíz."
+      }
+    }
+  },
+  {
+    "entry": "vainazo",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "vainazo",
+        "text": "Su vainazo interrumpió la conversación."
+      },
+      "exampleSynonym": {
+        "word": "contestación descortés",
+        "text": "Su contestación descortés interrumpió la conversación."
+      }
+    }
+  },
+  {
+    "entry": "umju",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "umjú",
+        "text": "Al escuchar la pregunta, respondió «umjú»."
+      },
+      "exampleSynonym": {
+        "word": "unjú",
+        "text": "Al escuchar la pregunta, respondió «unjú»."
+      }
+    }
+  },
+  {
+    "entry": "tractar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tractar",
+        "text": "La médica decidió tractar la herida con cuidado."
+      },
+      "exampleSynonym": {
+        "word": "tratar",
+        "text": "La médica decidió tratar la herida con cuidado."
+      }
+    }
   }
 ]

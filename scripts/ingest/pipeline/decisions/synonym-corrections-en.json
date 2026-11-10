@@ -256899,5 +256899,189 @@
       },
       "situacion": "conocimiento"
     }
+  },
+  {
+    "entry": "go-bankrupt",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "go bankrupt",
+      "definition": "Have no money to pay business debts.",
+      "synonyms": [
+        "fail to pay its debts"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A shop owner checks unpaid bills."
+      },
+      "example": {
+        "word": "go bankrupt",
+        "text": "The shop may go bankrupt if sales keep falling."
+      },
+      "exampleSynonym": {
+        "word": "fail to pay its debts",
+        "text": "The shop may fail to pay its debts if sales keep falling."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "go-out-of-your-way",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "go out of your way",
+      "definition": "Make a special effort to help or do something.",
+      "synonyms": [
+        "make a special effort"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person makes an extra effort to welcome a guest."
+      },
+      "example": {
+        "word": "go out of your way",
+        "text": "You go out of your way to welcome each guest."
+      },
+      "exampleSynonym": {
+        "word": "make a special effort",
+        "text": "You make a special effort to welcome each guest."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "go-snooping",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "go snooping",
+      "definition": "Look around secretly to learn about something.",
+      "synonyms": [
+        "snoop around"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person secretly searches through office files."
+      },
+      "example": {
+        "word": "go snooping",
+        "text": "I go snooping through the office files."
+      },
+      "exampleSynonym": {
+        "word": "snoop around",
+        "text": "I snoop around the office files."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "go-wild",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "go wild",
+      "definition": "Become very excited and noisy.",
+      "synonyms": [
+        "get very excited"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A crowd cheers when a team wins."
+      },
+      "example": {
+        "word": "go wild",
+        "text": "The fans go wild when the team scores."
+      },
+      "exampleSynonym": {
+        "word": "get very excited",
+        "text": "The fans get very excited when the team scores."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "roll-up-sleeves",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "roll up sleeves",
+        "text": "The manual says to roll up one’s sleeves before handling the tools."
+      },
+      "exampleSynonym": {
+        "word": "push up one’s sleeves",
+        "text": "The manual says to push up one’s sleeves before handling the tools."
+      }
+    }
+  },
+  {
+    "entry": "rosicrucian",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Rosicrucian",
+        "text": "A Rosicrucian attended the meeting."
+      },
+      "exampleSynonym": {
+        "word": "member of the Rosicrucian Order",
+        "text": "A member of the Rosicrucian Order attended the meeting."
+      }
+    }
+  },
+  {
+    "entry": "superclass",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "superclass",
+        "text": "The superclass defines a method inherited by each subclass."
+      },
+      "exampleSynonym": {
+        "word": "parent class",
+        "text": "The parent class defines a method inherited by each subclass."
+      }
+    }
+  },
+  {
+    "entry": "vice-principal",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "vice principal",
+        "text": "The vice principal welcomed the new students."
+      },
+      "exampleSynonym": {
+        "word": "assistant principal",
+        "text": "The assistant principal welcomed the new students."
+      }
+    }
+  },
+  {
+    "entry": "tabulation",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tabulation",
+        "text": "The report includes a tabulation of the results."
+      },
+      "exampleSynonym": {
+        "word": "tabulated presentation",
+        "text": "The report includes a tabulated presentation of the results."
+      }
+    }
+  },
+  {
+    "entry": "tokamak",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tokamak",
+        "text": "The scientists studied the plasma inside the tokamak."
+      },
+      "exampleSynonym": {
+        "word": "magnetic-confinement fusion device",
+        "text": "The scientists studied the plasma inside the magnetic-confinement fusion device."
+      }
+    }
   }
 ]

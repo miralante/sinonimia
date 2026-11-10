@@ -1529,4 +1529,8 @@
 // R4508 reviewed and split en
 (()=>{const x={"id":"gnostic-2","word":"Gnostic","definition":"A follower of an old religious movement called Gnosticism.","synonyms":["follower of Gnosticism"],"image":{"id":7024,"alt":"A person follows an old religious movement."},"example":{"word":"Gnostic","text":"A Gnostic believed secret knowledge could save people."},"exampleSynonym":{"word":"follower of Gnosticism","text":"A follower of Gnosticism believed secret knowledge could save people."},"situacion":"conocimiento"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else a.forEach(q=>Object.assign(q,x));})();
 
+// R4509 reviewed and split en
+(()=>{const x={"id":"go-snooping-2","word":"go snooping","definition":"Secretly look for private details about someone.","synonyms":["pry into"],"image":{"id":7024,"alt":"A person reads someone else’s private messages."},"example":{"word":"go snooping","text":"I go snooping into my sister’s private messages."},"exampleSynonym":{"word":"pry into","text":"I pry into my sister’s private messages."},"situacion":"vida-diaria"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else a.forEach(q=>Object.assign(q,x));})();
+(()=>{const x={"id":"go-wild-2","word":"go wild","definition":"Lose control and behave in an excited way.","synonyms":["lose control"],"image":{"id":7024,"alt":"Children run around noisily after class."},"example":{"word":"go wild","text":"The children go wild when the lesson ends."},"exampleSynonym":{"word":"lose control","text":"The children lose control when the lesson ends."},"situacion":"vida-diaria"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else a.forEach(q=>Object.assign(q,x));})();
+
 })();
