@@ -256171,5 +256171,314 @@
         "text": "Sparteine is a quinolizidine alkaloid found in broom plants."
       }
     }
+  },
+  {
+    "entry": "glow",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glow",
+      "definition": "To give off a steady light without a flame.",
+      "synonyms": [
+        "shine steadily"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A small lamp gives off a steady light in a dark room."
+      },
+      "example": {
+        "word": "glow",
+        "text": "The lanterns glow beside the path."
+      },
+      "exampleSynonym": {
+        "word": "shine steadily",
+        "text": "The lanterns shine steadily beside the path."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "glow-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glow",
+      "definition": "A steady light or warm, radiant look.",
+      "synonyms": [
+        "soft light"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A soft warm light fills the room."
+      },
+      "example": {
+        "word": "glow",
+        "text": "The fireplace cast a warm glow."
+      },
+      "exampleSynonym": {
+        "word": "soft light",
+        "text": "The fireplace cast a warm soft light."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "glucometer",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Glucometer",
+      "definition": "A device that measures blood sugar.",
+      "synonyms": [
+        "blood glucose meter"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A small meter measures a blood sugar drop."
+      },
+      "example": {
+        "word": "glucometer",
+        "text": "She used a glucometer before breakfast."
+      },
+      "exampleSynonym": {
+        "word": "blood glucose meter",
+        "text": "She used a blood glucose meter before breakfast."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "glucose",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glucose",
+      "definition": "A simple sugar that cells use for energy.",
+      "synonyms": [
+        "dextrose"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A simple sugar provides energy to cells."
+      },
+      "example": {
+        "word": "glucose",
+        "text": "The body uses glucose as an energy source."
+      },
+      "exampleSynonym": {
+        "word": "dextrose",
+        "text": "The body uses dextrose as an energy source."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "glue",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glue",
+      "definition": "A substance used to stick materials together.",
+      "synonyms": [
+        "adhesive"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person uses adhesive to join two pieces of paper."
+      },
+      "example": {
+        "word": "glue",
+        "text": "The glue held the paper pieces together."
+      },
+      "exampleSynonym": {
+        "word": "adhesive",
+        "text": "The adhesive held the paper pieces together."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "glue-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glue",
+      "definition": "To join things using glue.",
+      "synonyms": [
+        "stick"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person joins two pieces of wood with glue."
+      },
+      "example": {
+        "word": "glue",
+        "text": "They glue the pieces together."
+      },
+      "exampleSynonym": {
+        "word": "stick",
+        "text": "They stick the pieces together."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "glutinous",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glutinous",
+      "definition": "Thick and sticky, especially when used of food.",
+      "synonyms": [
+        "sticky"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A thick, sticky food mixture clings to a spoon."
+      },
+      "example": {
+        "word": "glutinous",
+        "text": "The rice became glutinous as it cooled."
+      },
+      "exampleSynonym": {
+        "word": "sticky",
+        "text": "The rice became sticky as it cooled."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "glutton",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glutton",
+      "definition": "A person who habitually eats or drinks too much.",
+      "synonyms": [
+        "overeater"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person eats far more than everyone else at dinner."
+      },
+      "example": {
+        "word": "glutton",
+        "text": "The glutton ordered a third dessert."
+      },
+      "exampleSynonym": {
+        "word": "overeater",
+        "text": "The overeater ordered a third dessert."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "glutton-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glutton",
+      "definition": "An animal that consumes food voraciously.",
+      "synonyms": [
+        "voracious eater"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "An animal eats its food quickly and eagerly."
+      },
+      "example": {
+        "word": "glutton",
+        "text": "The glutton finished the food in seconds."
+      },
+      "exampleSynonym": {
+        "word": "voracious eater",
+        "text": "The voracious eater finished the food in seconds."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "rumor",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "rumor",
+        "text": "A rumor spread through the town before dawn."
+      },
+      "exampleSynonym": {
+        "word": "rumour",
+        "text": "A rumour spread through the town before dawn."
+      }
+    }
+  },
+  {
+    "entry": "subfebrile",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "subfebrile",
+        "text": "The patient remained subfebrile after the infection."
+      },
+      "exampleSynonym": {
+        "word": "slightly feverish",
+        "text": "The patient remained slightly feverish after the infection."
+      }
+    }
+  },
+  {
+    "entry": "subclass",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "subclass",
+        "text": "The subclass includes several related families."
+      },
+      "exampleSynonym": {
+        "word": "taxonomic division",
+        "text": "The taxonomic division includes several related families."
+      }
+    }
+  },
+  {
+    "entry": "stylobate",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "stylobate",
+        "text": "The stylobate supported the columns of the ancient temple."
+      },
+      "exampleSynonym": {
+        "word": "upper step of a temple base",
+        "text": "The upper step of a temple base supported the columns of the ancient temple."
+      }
+    }
+  },
+  {
+    "entry": "scrupulize",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "scrupulize",
+        "text": "She began to scrupulize before signing the agreement."
+      },
+      "exampleSynonym": {
+        "word": "hesitate",
+        "text": "She began to hesitate before signing the agreement."
+      }
+    }
+  },
+  {
+    "entry": "chlorite",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "chlorite",
+        "text": "The label identified the compound as chlorite."
+      },
+      "exampleSynonym": {
+        "word": "Salt of chlorous acid",
+        "text": "The label identified the compound as a salt of chlorous acid."
+      }
+    }
   }
 ]

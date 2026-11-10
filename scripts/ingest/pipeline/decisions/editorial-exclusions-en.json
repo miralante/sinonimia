@@ -81401,5 +81401,80 @@
     "id": "glove-room",
     "word": "Glove room",
     "reason": "A transparent workshop phrase with little independent value."
+  },
+  {
+    "id": "gloved",
+    "word": "Gloved",
+    "reason": "A corrupt entry with an unrelated money-bag definition."
+  },
+  {
+    "id": "gloves",
+    "word": "Gloves",
+    "reason": "A plural form rather than a separate dictionary headword."
+  },
+  {
+    "id": "gloves-2",
+    "word": "Gloves",
+    "reason": "A duplicate plural entry with little independent value."
+  },
+  {
+    "id": "glow-4",
+    "word": "Glow",
+    "reason": "A corrupted duplicate sense with an unrelated synonym."
+  },
+  {
+    "id": "glucine",
+    "word": "Glucine",
+    "reason": "An obsolete or corrupt chemical name with little synonym value."
+  },
+  {
+    "id": "glucinium",
+    "word": "Glucinium",
+    "reason": "An obsolete or corrupt chemical name with little synonym value."
+  },
+  {
+    "id": "glue-3",
+    "word": "Glue",
+    "reason": "A corrupt definition describing rope rather than adhesive."
+  },
+  {
+    "id": "glue-4",
+    "word": "glue",
+    "reason": "A duplicate noun entry with no independent synonym value."
+  },
+  {
+    "id": "gluer",
+    "word": "gluer",
+    "reason": "A transparent derivative with little independent synonym value."
+  },
+  {
+    "id": "gluer-2",
+    "word": "gluer",
+    "reason": "A duplicate transparent derivative."
+  },
+  {
+    "id": "glugglo",
+    "word": "glugglo",
+    "reason": "A nonstandard sound imitation with little dictionary value."
+  },
+  {
+    "id": "glugluo",
+    "word": "Glugluo",
+    "reason": "A nonstandard sound imitation with little dictionary value."
+  },
+  {
+    "id": "glutinosity",
+    "word": "Glutinosity",
+    "reason": "A rare abstract derivative with little general synonym value."
+  },
+  {
+    "id": "glutton-3",
+    "word": "Glutton",
+    "reason": "A malformed verb entry for the noun glutton."
+  },
+  {
+    "id": "glutton-4",
+    "word": "glutton",
+    "reason": "An incomplete corrupted entry."
   }
 ]

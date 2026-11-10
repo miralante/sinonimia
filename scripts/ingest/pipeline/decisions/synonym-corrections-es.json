@@ -256521,5 +256521,339 @@
         "text": "El escarabajo de cultivo dañó las raíces de las plantas de frijol."
       }
     }
+  },
+  {
+    "entry": "rugido",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rugido",
+      "definition": "Sonido fuerte y áspero que emiten ciertos animales.",
+      "synonyms": [
+        "bramido"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un león emite un rugido en la sabana."
+      },
+      "example": {
+        "word": "rugido",
+        "text": "El rugido del león asustó a los visitantes."
+      },
+      "exampleSynonym": {
+        "word": "bramido",
+        "text": "El bramido del león asustó a los visitantes."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "ruginoso",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Ruginoso",
+      "definition": "Cubierto de herrumbre u óxido.",
+      "synonyms": [
+        "oxidado"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una pieza de hierro cubierta de óxido."
+      },
+      "example": {
+        "word": "ruginoso",
+        "text": "El clavo ruginoso manchó la madera."
+      },
+      "exampleSynonym": {
+        "word": "oxidado",
+        "text": "El clavo oxidado manchó la madera."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rugir",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rugir",
+      "definition": "Emitir un sonido fuerte y áspero, como ciertos animales.",
+      "synonyms": [
+        "bramar"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un león ruge junto a un árbol."
+      },
+      "example": {
+        "word": "rugir",
+        "text": "El león empezó a rugir al anochecer."
+      },
+      "exampleSynonym": {
+        "word": "bramar",
+        "text": "El león empezó a bramar al anochecer."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "rugosidad",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rugosidad",
+      "definition": "Irregularidad áspera o con pliegues en una superficie.",
+      "synonyms": [
+        "aspereza"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una superficie de piedra áspera y desigual."
+      },
+      "example": {
+        "word": "rugosidad",
+        "text": "La rugosidad de la piedra dificultó el paso."
+      },
+      "exampleSynonym": {
+        "word": "aspereza",
+        "text": "La aspereza de la piedra dificultó el paso."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "ruibarbo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Ruibarbo",
+      "definition": "Planta de tallos comestibles que se usan en cocina.",
+      "synonyms": [
+        "planta de tallos comestibles"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Tallos de ruibarbo frescos sobre una tabla de cocina."
+      },
+      "example": {
+        "word": "ruibarbo",
+        "text": "El ruibarbo se usa para preparar postres."
+      },
+      "exampleSynonym": {
+        "word": "planta de tallos comestibles",
+        "text": "La planta de tallos comestibles se usa para preparar postres."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "ruidero",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Ruidero",
+      "definition": "Persona que hace mucho ruido.",
+      "synonyms": [
+        "alborotador"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona habla fuerte en una reunión."
+      },
+      "example": {
+        "word": "ruidero",
+        "text": "El ruidero interrumpió la clase."
+      },
+      "exampleSynonym": {
+        "word": "alborotador",
+        "text": "El alborotador interrumpió la clase."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "ruidoso",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Ruidoso",
+      "definition": "Que produce mucho ruido.",
+      "synonyms": [
+        "bullicioso"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una calle llena de tráfico y gente ruidosa."
+      },
+      "example": {
+        "word": "ruidoso",
+        "text": "El mercado ruidoso atraía a muchos visitantes."
+      },
+      "exampleSynonym": {
+        "word": "bullicioso",
+        "text": "El mercado bullicioso atraía a muchos visitantes."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "ruina",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Ruina",
+      "definition": "Destrucción o deterioro grave de algo.",
+      "synonyms": [
+        "destrucción"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un edificio deteriorado con paredes agrietadas."
+      },
+      "example": {
+        "word": "ruina",
+        "text": "La ruina del puente obligó a cerrarlo."
+      },
+      "exampleSynonym": {
+        "word": "destrucción",
+        "text": "La destrucción del puente obligó a cerrarlo."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "ruindad",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Ruindad",
+      "definition": "Maldad o mezquindad en la conducta.",
+      "synonyms": [
+        "maldad"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona actúa con egoísmo ante un vecino."
+      },
+      "example": {
+        "word": "ruindad",
+        "text": "Su ruindad sorprendió incluso a sus amigos."
+      },
+      "exampleSynonym": {
+        "word": "maldad",
+        "text": "Su maldad sorprendió incluso a sus amigos."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "ruinoso",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Ruinoso",
+      "definition": "Que está muy deteriorado o amenaza con derrumbarse.",
+      "synonyms": [
+        "deteriorado"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un edificio deteriorado con el techo hundido."
+      },
+      "example": {
+        "word": "ruinoso",
+        "text": "El edificio ruinoso necesitaba una reparación urgente."
+      },
+      "exampleSynonym": {
+        "word": "deteriorado",
+        "text": "El edificio deteriorado necesitaba una reparación urgente."
+      },
+      "situacion": "vivienda"
+    }
+  },
+  {
+    "entry": "triduo",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "triduo",
+        "text": "El triduo terminó con la misa del domingo."
+      },
+      "exampleSynonym": {
+        "word": "devoción de tres días",
+        "text": "La devoción de tres días terminó con la misa del domingo."
+      }
+    }
+  },
+  {
+    "entry": "zapatito",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "zapatito",
+        "text": "El bebé perdió un zapatito en el parque."
+      },
+      "exampleSynonym": {
+        "word": "zapato pequeño",
+        "text": "El bebé perdió un zapato pequeño en el parque."
+      }
+    }
+  },
+  {
+    "entry": "torgo",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "torgo",
+        "text": "El torgo quedó junto al camino."
+      },
+      "exampleSynonym": {
+        "word": "tocón",
+        "text": "El tocón quedó junto al camino."
+      }
+    }
+  },
+  {
+    "entry": "tojarra",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tojarra",
+        "text": "La tojarra crece en las laderas secas."
+      },
+      "exampleSynonym": {
+        "word": "tojo",
+        "text": "El tojo crece en las laderas secas."
+      }
+    }
+  },
+  {
+    "entry": "transflor",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "transflor",
+        "text": "El restaurador aplicó transflor sobre una lámina de plata."
+      },
+      "exampleSynonym": {
+        "word": "corla",
+        "text": "El restaurador aplicó corla sobre una lámina de plata."
+      }
+    }
+  },
+  {
+    "entry": "tremulante",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tremulante",
+        "text": "La luz tremulante de la vela iluminó la habitación."
+      },
+      "exampleSynonym": {
+        "word": "trémulo",
+        "text": "El trémulo resplandor de la vela iluminó la habitación."
+      }
+    }
   }
 ]

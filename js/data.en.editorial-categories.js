@@ -1513,4 +1513,10 @@
 {const x={"id":"gloss-3","word":"gloss","definition":"A smooth, shiny surface or appearance.","synonyms":["shine"],"image":{"id":7024,"alt":"A shiny surface reflects the sunlight."},"example":{"word":"gloss","text":"The gloss on the car caught her eye."},"exampleSynonym":{"word":"shine","text":"The shine on the car caught her eye."},"situacion":"vida-diaria"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
 {const x={"id":"glossy-2","word":"glossy","definition":"A magazine printed on shiny paper.","synonyms":["glossy magazine"],"image":{"id":7024,"alt":"A magazine printed on shiny paper lies on a desk."},"example":{"word":"glossy","text":"She read the glossy on the train."},"exampleSynonym":{"word":"glossy magazine","text":"She read the glossy magazine on the train."},"situacion":"vida-diaria"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
 
+// R4504 reviewed and split en
+
+
+// R4505 reviewed and split en
+
+
 })();
