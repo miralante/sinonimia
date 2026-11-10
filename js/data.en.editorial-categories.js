@@ -1501,4 +1501,11 @@
 // R4500 reviewed and split en
 {const x={"id":"glitter-2","word":"glitter","definition":"Small bright pieces used to decorate things.","synonyms":["sparkling particles"],"image":{"id":7024,"alt":"Tiny bright particles decorate a greeting card."},"example":{"word":"glitter","text":"Glitter covered the card with tiny bright specks."},"exampleSynonym":{"word":"sparkling particles","text":"Sparkling particles covered the card with tiny bright specks."},"situacion":"arte"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
 
+// R4501 reviewed and split en
+{const x={"id":"global-2","word":"global","definition":"Covering all parts of a system or organization.","synonyms":["comprehensive"],"image":{"id":7024,"alt":"A plan covers every part of a company."},"example":{"word":"global","text":"The review gives a global view of the project."},"exampleSynonym":{"word":"comprehensive","text":"The review gives a comprehensive view of the project."},"situacion":"trabajo"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
+{const x={"id":"gloom-2","word":"gloom","definition":"Darkness or dim light in a place.","synonyms":["darkness"],"image":{"id":7024,"alt":"A dim room is lit by one small lamp."},"example":{"word":"gloom","text":"The lamp barely lit the gloom."},"exampleSynonym":{"word":"darkness","text":"The lamp barely lit the darkness."},"situacion":"vida-diaria"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
+
+// R4502 reviewed and split en
+{const x={"id":"glorify-2","word":"glorify","definition":"To make someone or something seem better than reality.","synonyms":["idealize"],"image":{"id":7024,"alt":"A speaker presents an ordinary event as perfect."},"example":{"word":"glorify","text":"The story can glorify a difficult past."},"exampleSynonym":{"word":"idealize","text":"The story can idealize a difficult past."},"situacion":"sociedad"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
+
 })();

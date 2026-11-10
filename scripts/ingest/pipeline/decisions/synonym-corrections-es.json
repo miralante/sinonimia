@@ -255964,7 +255964,7 @@
     }
   },
   {
-    "entry": "rubicón",
+    "entry": "rubicon",
     "remove": [],
     "unset": [],
     "set": {
@@ -256021,7 +256021,7 @@
       "word": "Rubio",
       "definition": "De color amarillo dorado, especialmente referido al cabello.",
       "synonyms": [
-        "de pelo claro"
+        "de cabello claro"
       ],
       "image": {
         "id": 7024,
@@ -256032,10 +256032,335 @@
         "text": "El niño tiene el pelo rubio."
       },
       "exampleSynonym": {
-        "word": "de pelo claro",
-        "text": "El niño tiene el pelo de tono claro."
+        "word": "de cabello claro",
+        "text": "El niño es de cabello claro."
       },
       "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rublo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rublo",
+      "definition": "Moneda usada en Rusia y algunos países cercanos.",
+      "synonyms": [
+        "unidad monetaria rusa"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Monedas y billetes de rublos sobre una mesa."
+      },
+      "example": {
+        "word": "rublo",
+        "text": "El precio figura en un rublo."
+      },
+      "exampleSynonym": {
+        "word": "unidad monetaria rusa",
+        "text": "El precio figura en la unidad monetaria rusa."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "rubor",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rubor",
+      "definition": "Enrojecimiento de la cara por vergüenza, emoción o calor.",
+      "synonyms": [
+        "sonrojo"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona muestra las mejillas rojas al recibir un cumplido."
+      },
+      "example": {
+        "word": "rubor",
+        "text": "El cumplido le causó un leve rubor."
+      },
+      "exampleSynonym": {
+        "word": "sonrojo",
+        "text": "El cumplido le causó un leve sonrojo."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "ruborizar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Ruborizar",
+      "definition": "Hacer que alguien se sonroje.",
+      "synonyms": [
+        "hacer sonrojar"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona se sonroja al escuchar un elogio."
+      },
+      "example": {
+        "word": "ruborizar",
+        "text": "El elogio logró ruborizar al joven."
+      },
+      "exampleSynonym": {
+        "word": "hacer sonrojar",
+        "text": "El elogio logró hacer sonrojar al joven."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rubrica",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rúbrica",
+      "definition": "Firma breve y ornamental que acompaña al nombre.",
+      "synonyms": [
+        "firma ornamental"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una firma breve acompaña el nombre al pie de una página."
+      },
+      "example": {
+        "word": "rúbrica",
+        "text": "La rúbrica aparece junto al nombre."
+      },
+      "exampleSynonym": {
+        "word": "firma ornamental",
+        "text": "La firma ornamental aparece junto al nombre."
+      },
+      "situacion": "tramites"
+    }
+  },
+  {
+    "entry": "rubricar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rubricar",
+      "definition": "Poner una firma breve en un documento.",
+      "synonyms": [
+        "firmar"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona pone sus iniciales en un documento."
+      },
+      "example": {
+        "word": "rubricar",
+        "text": "La directora debe rubricar cada página."
+      },
+      "exampleSynonym": {
+        "word": "firmar",
+        "text": "La directora debe firmar cada página."
+      },
+      "situacion": "tramites"
+    }
+  },
+  {
+    "entry": "rubro",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rubro",
+      "definition": "Apartado o categoría dentro de una lista o presupuesto.",
+      "synonyms": [
+        "categoría"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una hoja organiza gastos bajo distintos encabezados."
+      },
+      "example": {
+        "word": "rubro",
+        "text": "El gasto figura en el rubro de transporte."
+      },
+      "exampleSynonym": {
+        "word": "categoría",
+        "text": "El gasto figura en la categoría de transporte."
+      },
+      "situacion": "regional"
+    }
+  },
+  {
+    "entry": "rucio",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rucio",
+      "definition": "Asno de pelaje gris o blanquecino.",
+      "synonyms": [
+        "asno gris"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un asno de pelaje gris está junto a una cerca."
+      },
+      "example": {
+        "word": "rucio",
+        "text": "El rucio descansaba junto a la cerca."
+      },
+      "exampleSynonym": {
+        "word": "asno gris",
+        "text": "El asno gris descansaba junto a la cerca."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "ruco",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Ruco",
+      "definition": "Dicho de una persona: vieja o de edad avanzada.",
+      "synonyms": [
+        "anciano"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona mayor camina por una plaza."
+      },
+      "example": {
+        "word": "ruco",
+        "text": "En el barrio llaman ruco al vecino mayor."
+      },
+      "exampleSynonym": {
+        "word": "anciano",
+        "text": "En el barrio llaman anciano al vecino mayor."
+      },
+      "situacion": "regional"
+    }
+  },
+  {
+    "entry": "rudeza",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rudeza",
+      "definition": "Trato áspero o poco amable.",
+      "synonyms": [
+        "aspereza"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona habla con gesto serio y tono brusco."
+      },
+      "example": {
+        "word": "rudeza",
+        "text": "La rudeza de su respuesta molestó a todos."
+      },
+      "exampleSynonym": {
+        "word": "aspereza",
+        "text": "La aspereza de su respuesta molestó a todos."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rudimental",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rudimental",
+      "definition": "Relacionado con los conocimientos más básicos de una materia.",
+      "synonyms": [
+        "fundamental"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona estudia los primeros conceptos de una materia."
+      },
+      "example": {
+        "word": "rudimental",
+        "text": "El curso ofrece una guía rudimental de química."
+      },
+      "exampleSynonym": {
+        "word": "fundamental",
+        "text": "El curso ofrece una guía fundamental de química."
+      },
+      "situacion": "educacion"
+    }
+  },
+  {
+    "entry": "rudo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rudo",
+      "definition": "Tosco, áspero y sin pulir.",
+      "synonyms": [
+        "tosco"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una pieza de madera áspera y sin pulir."
+      },
+      "example": {
+        "word": "rudo",
+        "text": "El borde rudo necesitaba más trabajo."
+      },
+      "exampleSynonym": {
+        "word": "tosco",
+        "text": "El borde tosco necesitaba más trabajo."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rueca",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rueca",
+      "definition": "Instrumento que sostiene la lana mientras se hila.",
+      "synonyms": [
+        "soporte para hilar"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una rueca sostiene lana junto a un huso."
+      },
+      "example": {
+        "word": "rueca",
+        "text": "La abuela sujetó la lana en la rueca."
+      },
+      "exampleSynonym": {
+        "word": "soporte para hilar",
+        "text": "La abuela sujetó la lana en el soporte para hilar."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rueda-de-reconocimiento",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rueda de reconocimiento",
+      "definition": "Fila de personas que un testigo observa para identificar a alguien.",
+      "synonyms": [
+        "fila de identificación"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un testigo observa a varias personas alineadas."
+      },
+      "example": {
+        "word": "rueda de reconocimiento",
+        "text": "El testigo participó en una rueda de reconocimiento."
+      },
+      "exampleSynonym": {
+        "word": "fila de identificación",
+        "text": "El testigo participó en una fila de identificación."
+      },
+      "situacion": "legal"
     }
   }
 ]

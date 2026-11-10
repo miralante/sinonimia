@@ -255737,5 +255737,255 @@
       },
       "situacion": "vida-diaria"
     }
+  },
+  {
+    "entry": "global",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "global",
+      "definition": "Relating to or involving the whole world.",
+      "synonyms": [
+        "worldwide"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A globe shows the continents and oceans."
+      },
+      "example": {
+        "word": "global",
+        "text": "The report examines global trade."
+      },
+      "exampleSynonym": {
+        "word": "worldwide",
+        "text": "The report examines worldwide trade."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "globalization",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Globalization",
+      "definition": "Growing connections between countries through trade and communication.",
+      "synonyms": [
+        "global integration"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "People in different countries exchange goods and messages."
+      },
+      "example": {
+        "word": "globalization",
+        "text": "Globalization changed how companies sell goods."
+      },
+      "exampleSynonym": {
+        "word": "global integration",
+        "text": "Global integration changed how companies sell goods."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "globalize",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Globalize",
+      "definition": "To make something spread across or involve the whole world.",
+      "synonyms": [
+        "make its service global"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A local company sells products in many countries."
+      },
+      "example": {
+        "word": "globalize",
+        "text": "The company plans to globalize its service."
+      },
+      "exampleSynonym": {
+        "word": "make its service global",
+        "text": "The company plans to make its service global."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "globular",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Globular",
+      "definition": "Shaped roughly like a ball or globe.",
+      "synonyms": [
+        "spherical"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A round, ball-shaped object rests on a table."
+      },
+      "example": {
+        "word": "globular",
+        "text": "The plant has a globular flower head."
+      },
+      "exampleSynonym": {
+        "word": "spherical",
+        "text": "The plant has a spherical flower head."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "gloom",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gloom",
+      "definition": "A feeling of sadness or lack of hope.",
+      "synonyms": [
+        "despondency"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person sits quietly on a dark, rainy day."
+      },
+      "example": {
+        "word": "gloom",
+        "text": "The news filled her with gloom."
+      },
+      "exampleSynonym": {
+        "word": "despondency",
+        "text": "The news filled her with despondency."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gloom-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gloom",
+      "definition": "Darkness or dim light in a place.",
+      "synonyms": [
+        "darkness"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A dim room is lit by one small lamp."
+      },
+      "example": {
+        "word": "gloom",
+        "text": "The lamp barely lit the gloom."
+      },
+      "exampleSynonym": {
+        "word": "darkness",
+        "text": "The lamp barely lit the darkness."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gloomy",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gloomy",
+      "definition": "Sad or without hope.",
+      "synonyms": [
+        "depressed"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person feels sad on a rainy day."
+      },
+      "example": {
+        "word": "gloomy",
+        "text": "She felt gloomy after the bad news."
+      },
+      "exampleSynonym": {
+        "word": "depressed",
+        "text": "She felt depressed after the bad news."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gloomy-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gloomy",
+      "definition": "Dark or poorly lit.",
+      "synonyms": [
+        "dim"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A dim room has only one small lamp."
+      },
+      "example": {
+        "word": "gloomy",
+        "text": "The hallway looked gloomy at night."
+      },
+      "exampleSynonym": {
+        "word": "dim",
+        "text": "The hallway looked dim at night."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "glorify",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glorify",
+      "definition": "To praise or honor someone or something greatly.",
+      "synonyms": [
+        "praise"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A crowd praises an athlete after a win."
+      },
+      "example": {
+        "word": "glorify",
+        "text": "The film seems to glorify war."
+      },
+      "exampleSynonym": {
+        "word": "praise",
+        "text": "The film seems to praise war."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "glorious",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Glorious",
+      "definition": "Extremely beautiful, impressive, or enjoyable.",
+      "synonyms": [
+        "magnificent"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A magnificent sunrise lights a mountain peak."
+      },
+      "example": {
+        "word": "glorious",
+        "text": "They watched a glorious sunset."
+      },
+      "exampleSynonym": {
+        "word": "magnificent",
+        "text": "They watched a magnificent sunset."
+      },
+      "situacion": "vida-diaria"
+    }
   }
 ]
