@@ -253732,6 +253732,14 @@
     "set": {
       "translation": {
         "en": "gigantism"
+      },
+      "example": {
+        "word": "gigantismo",
+        "text": "El especialista explicó que el gigantismo se debe a un crecimiento excesivo."
+      },
+      "exampleSynonym": {
+        "word": "crecimiento excesivo",
+        "text": "El especialista explicó que el crecimiento excesivo se debe a una alteración hormonal."
       }
     }
   },
@@ -255181,6 +255189,569 @@
         "text": "El título del documental anuncia el tema."
       },
       "situacion": "arte"
+    }
+  },
+  {
+    "entry": "escarcunar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "escarcuñar",
+        "text": "El perito tuvo que escarcuñar los documentos antes de emitir su informe."
+      },
+      "exampleSynonym": {
+        "word": "examinar",
+        "text": "El perito tuvo que examinar los documentos antes de emitir su informe."
+      }
+    }
+  },
+  {
+    "entry": "estilobato",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "estilóbato",
+        "text": "El estilóbato sostenía las columnas de la entrada del templo."
+      },
+      "exampleSynonym": {
+        "word": "plataforma de columnas",
+        "text": "La plataforma de columnas sostenía la entrada del templo."
+      }
+    }
+  },
+  {
+    "entry": "estirajar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "estirajar",
+        "text": "No debes estirajar la tela al coserla."
+      },
+      "exampleSynonym": {
+        "word": "estirar demasiado",
+        "text": "No debes estirar demasiado la tela al coserla."
+      }
+    }
+  },
+  {
+    "entry": "estirazar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "estirazar",
+        "text": "Tuvieron que estirazar la lona para cubrir la carga."
+      },
+      "exampleSynonym": {
+        "word": "extender",
+        "text": "Tuvieron que extender la lona para cubrir la carga."
+      }
+    }
+  },
+  {
+    "entry": "feminismo",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "feminismo",
+        "text": "El feminismo impulsó cambios en las leyes."
+      },
+      "exampleSynonym": {
+        "word": "movimiento por la igualdad de género",
+        "text": "El movimiento por la igualdad de género impulsó cambios en las leyes."
+      }
+    }
+  },
+  {
+    "entry": "fusil",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "fusil",
+        "text": "El museo exhibe un fusil de época."
+      },
+      "exampleSynonym": {
+        "word": "rifle",
+        "text": "El museo exhibe un rifle de época."
+      }
+    }
+  },
+  {
+    "entry": "galactosa",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "galactosa",
+        "text": "La leche contiene galactosa, un azúcar que el cuerpo puede procesar."
+      },
+      "exampleSynonym": {
+        "word": "azúcar simple",
+        "text": "La leche contiene azúcar simple que el cuerpo puede procesar."
+      }
+    }
+  },
+  {
+    "entry": "fufar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "fufar",
+        "text": "El gato empezó a fufar cuando el perro se acercó."
+      },
+      "exampleSynonym": {
+        "word": "resoplar",
+        "text": "El gato empezó a resoplar cuando el perro se acercó."
+      }
+    }
+  },
+  {
+    "entry": "fueloil",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "fueloil",
+        "text": "El barco utilizaba fueloil para alimentar sus motores."
+      },
+      "exampleSynonym": {
+        "word": "combustible pesado",
+        "text": "El barco utilizaba combustible pesado para alimentar sus motores."
+      }
+    }
+  },
+  {
+    "entry": "fuentada",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "fuentada",
+        "text": "El cocinero sirvió una fuentada de guiso para toda la mesa."
+      },
+      "exampleSynonym": {
+        "word": "porción servida",
+        "text": "El cocinero sirvió una porción servida de guiso para toda la mesa."
+      }
+    }
+  },
+  {
+    "entry": "gili",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "gilí",
+        "text": "No seas gilí; revisa la respuesta antes de entregarla."
+      },
+      "exampleSynonym": {
+        "word": "bobo",
+        "text": "No seas bobo; revisa la respuesta antes de entregarla."
+      }
+    }
+  },
+  {
+    "entry": "galantina",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "galantina",
+        "text": "La galantina se sirve fría y suele ir cubierta de gelatina."
+      },
+      "exampleSynonym": {
+        "word": "carne fría en gelatina",
+        "text": "La carne fría en gelatina se sirve durante el primer plato."
+      }
+    }
+  },
+  {
+    "entry": "galvanometro",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "galvanómetro",
+        "text": "El galvanómetro detectó una corriente eléctrica muy pequeña."
+      },
+      "exampleSynonym": {
+        "word": "medidor de corriente",
+        "text": "El medidor de corriente detectó una corriente eléctrica muy pequeña."
+      }
+    }
+  },
+  {
+    "entry": "ganapan",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "ganapán",
+        "text": "El ganapán transportó los bultos hasta el mercado."
+      },
+      "exampleSynonym": {
+        "word": "mozo de carga",
+        "text": "El mozo de carga transportó los bultos hasta el mercado."
+      }
+    }
+  },
+  {
+    "entry": "gastrectomia",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "gastrectomía",
+        "text": "El médico explicó la gastrectomía antes de la operación."
+      },
+      "exampleSynonym": {
+        "word": "resección gástrica",
+        "text": "El médico explicó la resección gástrica antes de la operación."
+      }
+    }
+  },
+  {
+    "entry": "fotovoltaico",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "fotovoltaico",
+        "text": "El panel fotovoltaico genera electricidad con la luz del sol."
+      },
+      "exampleSynonym": {
+        "word": "que convierte luz en electricidad",
+        "text": "El panel que convierte luz en electricidad genera energía con la luz del sol."
+      }
+    }
+  },
+  {
+    "entry": "furruco",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "furruco",
+        "text": "El furruco acompañó la música de la fiesta."
+      },
+      "exampleSynonym": {
+        "word": "instrumento de percusión venezolano",
+        "text": "El instrumento de percusión venezolano acompañó la música de la fiesta."
+      }
+    }
+  },
+  {
+    "entry": "rotundidad",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rotundidad",
+      "definition": "Firmeza y claridad al responder o tomar una decisión.",
+      "synonyms": [
+        "contundencia"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona responde con seguridad."
+      },
+      "example": {
+        "word": "rotundidad",
+        "text": "El portavoz respondió con rotundidad a la pregunta."
+      },
+      "exampleSynonym": {
+        "word": "contundencia",
+        "text": "El portavoz respondió con contundencia a la pregunta."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "rotundo",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rotundo",
+      "definition": "Que expresa algo con firmeza y sin dejar dudas.",
+      "synonyms": [
+        "tajante"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona da una respuesta firme."
+      },
+      "example": {
+        "word": "rotundo",
+        "text": "El juez dio un rotundo rechazo a la propuesta."
+      },
+      "exampleSynonym": {
+        "word": "tajante",
+        "text": "El juez dio un rechazo tajante a la propuesta."
+      },
+      "situacion": "legal"
+    }
+  },
+  {
+    "entry": "rotura",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rotura",
+      "definition": "Daño que aparece cuando algo se rompe.",
+      "synonyms": [
+        "ruptura"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una prueba muestra una lesión en un tendón."
+      },
+      "example": {
+        "word": "rotura",
+        "text": "La caída causó una rotura en el tendón."
+      },
+      "exampleSynonym": {
+        "word": "ruptura",
+        "text": "La caída causó una ruptura en el tendón."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "rotunda",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rotunda",
+      "definition": "Sala o edificio con forma circular.",
+      "synonyms": [
+        "sala redonda"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una sala circular con una cúpula."
+      },
+      "example": {
+        "word": "rotunda",
+        "text": "Visitamos la rotunda del museo."
+      },
+      "exampleSynonym": {
+        "word": "sala redonda",
+        "text": "Visitamos la sala redonda del museo."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "roturar",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Roturar",
+      "definition": "Preparar por primera vez un terreno para cultivarlo.",
+      "synonyms": [
+        "labrar"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un agricultor prepara la tierra para sembrar."
+      },
+      "example": {
+        "word": "roturar",
+        "text": "El agricultor debe roturar el terreno antes de sembrar."
+      },
+      "exampleSynonym": {
+        "word": "labrar",
+        "text": "El agricultor debe labrar el terreno antes de sembrar."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "roya",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Roya",
+      "definition": "Hongo que causa manchas y enfermedades en algunas plantas.",
+      "synonyms": [
+        "hongo parásito"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Manchas de roya en las hojas de una planta."
+      },
+      "example": {
+        "word": "roya",
+        "text": "La roya dañó las hojas del rosal."
+      },
+      "exampleSynonym": {
+        "word": "hongo parásito",
+        "text": "El hongo parásito dañó las hojas del rosal."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "fisible",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "fisible",
+        "text": "El núcleo fisible se dividió al captar un neutrón."
+      },
+      "exampleSynonym": {
+        "word": "fisionable",
+        "text": "El núcleo fisionable se dividió al captar un neutrón."
+      }
+    }
+  },
+  {
+    "entry": "frailuno",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "frailuno",
+        "text": "El diseño frailuno del convento se conservó durante la reforma."
+      },
+      "exampleSynonym": {
+        "word": "frailesco",
+        "text": "El diseño frailesco del convento se conservó durante la reforma."
+      }
+    }
+  },
+  {
+    "entry": "gaguear",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "gaguear",
+        "text": "Al ponerse nervioso, empezó a gaguear durante la presentación."
+      },
+      "exampleSynonym": {
+        "word": "tartamudear",
+        "text": "Al ponerse nervioso, empezó a tartamudear durante la presentación."
+      }
+    }
+  },
+  {
+    "entry": "histoquimica",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "histoquímica",
+        "text": "La histoquímica detectó proteínas en la muestra de tejido."
+      },
+      "exampleSynonym": {
+        "word": "química de los tejidos",
+        "text": "La química de los tejidos detectó proteínas en la muestra."
+      }
+    }
+  },
+  {
+    "entry": "gastropatia",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "gastropatía",
+        "text": "El especialista trató la gastropatía con una dieta adecuada."
+      },
+      "exampleSynonym": {
+        "word": "afección del estómago",
+        "text": "El especialista trató la afección del estómago con una dieta adecuada."
+      }
+    }
+  },
+  {
+    "entry": "gimnasiada",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "gimnasiada",
+        "text": "La escuela organizó una gimnasiada al final del curso."
+      },
+      "exampleSynonym": {
+        "word": "competición gimnástica",
+        "text": "La escuela organizó una competición gimnástica al final del curso."
+      }
+    }
+  },
+  {
+    "entry": "rozadura",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rozadura",
+      "definition": "Acción de frotar una cosa contra otra.",
+      "synonyms": [
+        "roce"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Dos piedras se frotan y producen chispas."
+      },
+      "example": {
+        "word": "rozadura",
+        "text": "La rozadura de las piedras produjo chispas."
+      },
+      "exampleSynonym": {
+        "word": "roce",
+        "text": "El roce de las piedras produjo chispas."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "rozagante",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rozagante",
+      "definition": "Que tiene un aspecto fresco y saludable.",
+      "synonyms": [
+        "lozano"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un rosal sano y vigoroso junto a una ventana."
+      },
+      "example": {
+        "word": "rozagante",
+        "text": "El rosal rozagante creció junto a la ventana."
+      },
+      "exampleSynonym": {
+        "word": "lozano",
+        "text": "El rosal lozano creció junto a la ventana."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "rua",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rúa",
+      "definition": "Calle de un pueblo o de una ciudad.",
+      "synonyms": [
+        "calle"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una calle estrecha de un pueblo."
+      },
+      "example": {
+        "word": "rúa",
+        "text": "La rúa termina en la plaza del pueblo."
+      },
+      "exampleSynonym": {
+        "word": "calle",
+        "text": "La calle termina en la plaza del pueblo."
+      },
+      "situacion": "regional"
     }
   }
 ]

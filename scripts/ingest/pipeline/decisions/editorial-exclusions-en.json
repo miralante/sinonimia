@@ -81201,5 +81201,50 @@
     "id": "glass-bead",
     "word": "glass bead",
     "reason": "A transparent name for a common object with little synonym value."
+  },
+  {
+    "id": "glass-blow",
+    "word": "Glass blow",
+    "reason": "The headword and definition are malformed and could not be verified."
+  },
+  {
+    "id": "glass-lifter",
+    "word": "Glass Lifter",
+    "reason": "A niche window mechanism with a malformed, unhelpful gloss."
+  },
+  {
+    "id": "glass-nipping-tool",
+    "word": "glass nipping tool",
+    "reason": "A highly specialized glassworking tool with little general synonym value."
+  },
+  {
+    "id": "glass-window",
+    "word": "Glass window",
+    "reason": "A generic noun phrase with a corrupt definition and no synonym value."
+  },
+  {
+    "id": "glassiness",
+    "word": "Glassiness",
+    "reason": "A rare derivative of glassy with little independent synonym value."
+  },
+  {
+    "id": "glaucomatous",
+    "word": "Glaucomatous",
+    "reason": "A transparent medical derivative with little general synonym value."
+  },
+  {
+    "id": "glaucous",
+    "word": "glaucous",
+    "reason": "A technical botanical color term with little general synonym value."
+  },
+  {
+    "id": "glazier-2",
+    "word": "Glazier",
+    "reason": "A corrupt definition that describes a display case, not a glazier."
+  },
+  {
+    "id": "gleaner",
+    "word": "Gleaner",
+    "reason": "A transparent derivative with little independent synonym value."
   }
 ]

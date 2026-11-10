@@ -254599,5 +254599,759 @@
       },
       "situacion": "historia"
     }
+  },
+  {
+    "entry": "repellent",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "repellent",
+        "text": "She packed repellent before the hike."
+      },
+      "exampleSynonym": {
+        "word": "insect repellent",
+        "text": "She packed insect repellent before the hike."
+      }
+    }
+  },
+  {
+    "entry": "rock-4",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "rock",
+        "text": "A large rock blocked the trail."
+      },
+      "exampleSynonym": {
+        "word": "boulder",
+        "text": "A large boulder blocked the trail."
+      }
+    }
+  },
+  {
+    "entry": "satchel-2",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "satchel",
+        "text": "The shepherd kept lunch in a satchel."
+      },
+      "exampleSynonym": {
+        "word": "shepherd’s bag",
+        "text": "The shepherd kept lunch in a shepherd’s bag."
+      }
+    }
+  },
+  {
+    "entry": "rompopo",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "rompopo",
+        "text": "They served rompopo after dinner at the family gathering."
+      },
+      "exampleSynonym": {
+        "word": "Central American eggnog",
+        "text": "They served Central American eggnog after dinner at the family gathering."
+      }
+    }
+  },
+  {
+    "entry": "refractor",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "refractor",
+        "text": "The astronomer aimed the refractor at the moon."
+      },
+      "exampleSynonym": {
+        "word": "refracting telescope",
+        "text": "The astronomer aimed the refracting telescope at the moon."
+      }
+    }
+  },
+  {
+    "entry": "sabbatize",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "sabbatize",
+        "text": "Some families sabbatize by resting from work each week."
+      },
+      "exampleSynonym": {
+        "word": "observe the Sabbath",
+        "text": "Some families observe the Sabbath by resting from work each week."
+      }
+    }
+  },
+  {
+    "entry": "relay",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "relay",
+        "text": "The technician replaced the relay in the circuit."
+      },
+      "exampleSynonym": {
+        "word": "electrical switch",
+        "text": "The technician replaced the electrical switch in the circuit."
+      }
+    }
+  },
+  {
+    "entry": "regionalism",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "regionalism",
+        "text": "Regionalism shaped the debate over local powers."
+      },
+      "exampleSynonym": {
+        "word": "regional autonomy",
+        "text": "Regional autonomy shaped the debate over local powers."
+      }
+    }
+  },
+  {
+    "entry": "rhapsode",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "rhapsode",
+        "text": "The rhapsode performed an epic poem for the crowd."
+      },
+      "exampleSynonym": {
+        "word": "epic reciter",
+        "text": "The epic reciter performed an epic poem for the crowd."
+      }
+    }
+  },
+  {
+    "entry": "rotameter",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "rotameter",
+        "text": "The engineer checked the rotameter to measure water flow."
+      },
+      "exampleSynonym": {
+        "word": "flow meter",
+        "text": "The engineer checked the flow meter to measure water flow."
+      }
+    }
+  },
+  {
+    "entry": "scyphozoan",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "scyphozoan",
+        "text": "The scyphozoan drifted through the water with its tentacles trailing."
+      },
+      "exampleSynonym": {
+        "word": "true jellyfish",
+        "text": "The true jellyfish drifted through the water with its tentacles trailing."
+      }
+    }
+  },
+  {
+    "entry": "refringent",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "refringent",
+        "text": "The refringent surface altered the path of the light."
+      },
+      "exampleSynonym": {
+        "word": "refractive",
+        "text": "The refractive surface altered the path of the light."
+      }
+    }
+  },
+  {
+    "entry": "scrupulate",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "scrupulate",
+        "text": "She began to scrupulate over the choice."
+      },
+      "exampleSynonym": {
+        "word": "hesitate",
+        "text": "She began to hesitate over the choice."
+      }
+    }
+  },
+  {
+    "entry": "scrub-3",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "scrub",
+        "text": "A thorough scrub removed the grease from the pan."
+      },
+      "exampleSynonym": {
+        "word": "scrubbing",
+        "text": "A thorough scrubbing removed the grease from the pan."
+      }
+    }
+  },
+  {
+    "entry": "saddle-4",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "saddle",
+        "text": "The saddle had three legs and a curved seat."
+      },
+      "exampleSynonym": {
+        "word": "saddle stool",
+        "text": "The saddle stool had three legs and a curved seat."
+      }
+    }
+  },
+  {
+    "entry": "salifiable",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "salifiable",
+        "text": "The salifiable compound reacted with the acid."
+      },
+      "exampleSynonym": {
+        "word": "salt-forming",
+        "text": "The salt-forming compound reacted with the acid."
+      }
+    }
+  },
+  {
+    "entry": "selectionism",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "selectionism",
+        "text": "Selectionism explains how natural selection shapes a population over time."
+      },
+      "exampleSynonym": {
+        "word": "natural-selection theory",
+        "text": "Natural-selection theory explains how natural selection shapes a population over time."
+      }
+    }
+  },
+  {
+    "entry": "glasses",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glasses",
+      "definition": "Two lenses in a frame that help a person see better.",
+      "synonyms": [
+        "eyeglasses"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A pair of glasses helps someone see."
+      },
+      "example": {
+        "word": "glasses",
+        "text": "She put on her glasses to read the letter."
+      },
+      "exampleSynonym": {
+        "word": "eyeglasses",
+        "text": "She put on her eyeglasses to read the letter."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "glasses-2",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glasses",
+      "definition": "Containers made of glass that people drink from.",
+      "synonyms": [
+        "drinking glasses"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Drinking glasses stand on a kitchen table."
+      },
+      "example": {
+        "word": "glasses",
+        "text": "She washed the glasses after dinner."
+      },
+      "exampleSynonym": {
+        "word": "drinking glasses",
+        "text": "She washed the drinking glasses after dinner."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "glassware",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glassware",
+      "definition": "Objects made of glass, such as cups and bowls.",
+      "synonyms": [
+        "glass items"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Glass cups and bowls sit on a shelf."
+      },
+      "example": {
+        "word": "glassware",
+        "text": "They packed the glassware before moving house."
+      },
+      "exampleSynonym": {
+        "word": "glass items",
+        "text": "They packed the glass items before moving house."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "glassworks",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glassworks",
+      "definition": "A factory where people make glass.",
+      "synonyms": [
+        "glass factory"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Workers make glass in a factory."
+      },
+      "example": {
+        "word": "glassworks",
+        "text": "The glassworks opened a new furnace this year."
+      },
+      "exampleSynonym": {
+        "word": "glass factory",
+        "text": "The glass factory opened a new furnace this year."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "glassy",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glassy",
+      "definition": "Smooth and shiny like glass.",
+      "synonyms": [
+        "shiny"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A smooth, shiny lake at dawn."
+      },
+      "example": {
+        "word": "glassy",
+        "text": "The lake looked glassy at dawn."
+      },
+      "exampleSynonym": {
+        "word": "shiny",
+        "text": "The lake looked shiny at dawn."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "glaucoma-en",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glaucoma",
+      "definition": "A group of eye diseases that can reduce vision.",
+      "synonyms": [
+        "condition that harms sight"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A doctor checks a patient’s eyes."
+      },
+      "example": {
+        "word": "glaucoma",
+        "text": "The doctor diagnosed glaucoma during her eye exam."
+      },
+      "exampleSynonym": {
+        "word": "condition that harms sight",
+        "text": "The doctor diagnosed a condition that harms sight during her eye exam."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "router",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "router",
+      "definition": "A device that connects networks and directs data between them.",
+      "synonyms": [
+        "network gateway"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A network device sends data between computers."
+      },
+      "example": {
+        "word": "router",
+        "text": "The router sent data between the office networks."
+      },
+      "exampleSynonym": {
+        "word": "network gateway",
+        "text": "The network gateway sent data between the office networks."
+      },
+      "situacion": "tecnologia"
+    }
+  },
+  {
+    "entry": "relent",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "relent",
+        "text": "The wind began to relent after the storm moved east."
+      },
+      "exampleSynonym": {
+        "word": "ease up",
+        "text": "The wind began to ease up after the storm moved east."
+      }
+    }
+  },
+  {
+    "entry": "revel",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "revel",
+        "text": "The fans continued to revel after the championship."
+      },
+      "exampleSynonym": {
+        "word": "celebrate",
+        "text": "The fans continued to celebrate after the championship."
+      }
+    }
+  },
+  {
+    "entry": "rock-5",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "rock",
+        "text": "A rock rose above the wooded valley."
+      },
+      "exampleSynonym": {
+        "word": "crag",
+        "text": "A crag rose above the wooded valley."
+      }
+    }
+  },
+  {
+    "entry": "rejoice-6",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "rejoice",
+        "text": "They had reason to rejoice at the result."
+      },
+      "exampleSynonym": {
+        "word": "exult",
+        "text": "They had reason to exult at the result."
+      }
+    }
+  },
+  {
+    "entry": "round-3",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "round",
+        "text": "The collection includes a round written in Spanish redondilla form."
+      },
+      "exampleSynonym": {
+        "word": "Spanish redondilla",
+        "text": "The collection includes a Spanish redondilla written in verse form."
+      }
+    }
+  },
+  {
+    "entry": "salipyrin",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "salipyrin",
+        "text": "The old medical guide lists salipyrin as a pain reliever."
+      },
+      "exampleSynonym": {
+        "word": "salicylate of antipyrine",
+        "text": "The old medical guide lists salicylate of antipyrine as a pain reliever."
+      }
+    }
+  },
+  {
+    "entry": "glaze",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glaze",
+      "definition": "A smooth, shiny coating on pottery.",
+      "synonyms": [
+        "glossy finish"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A ceramic bowl with a smooth, shiny surface."
+      },
+      "example": {
+        "word": "glaze",
+        "text": "The bowl has a blue glaze."
+      },
+      "exampleSynonym": {
+        "word": "glossy finish",
+        "text": "The bowl has a blue glossy finish."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "glaze-2",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glaze",
+      "definition": "To fit windows with glass.",
+      "synonyms": [
+        "install window glass"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A worker fits glass into a window frame."
+      },
+      "example": {
+        "word": "glaze",
+        "text": "They will glaze the windows tomorrow."
+      },
+      "exampleSynonym": {
+        "word": "install window glass",
+        "text": "They will install window glass tomorrow."
+      },
+      "situacion": "vivienda"
+    }
+  },
+  {
+    "entry": "glaze-3",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glaze",
+      "definition": "To cover food with a shiny liquid layer.",
+      "synonyms": [
+        "coat"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A baker brushes shiny syrup over a cake."
+      },
+      "example": {
+        "word": "glaze",
+        "text": "She glazed the cake with warm syrup."
+      },
+      "exampleSynonym": {
+        "word": "coat",
+        "text": "She coated the cake with warm syrup."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "glaze-4",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glaze",
+      "definition": "To cover a painting with a thin layer of clear color.",
+      "synonyms": [
+        "apply a color wash"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "An artist adds a clear color layer to a painting."
+      },
+      "example": {
+        "word": "glaze",
+        "text": "Artists can glaze a painting to soften its colors."
+      },
+      "exampleSynonym": {
+        "word": "apply a color wash",
+        "text": "Artists can apply a color wash to soften a painting’s colors."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "glazing",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glazing",
+      "definition": "Glass fitted into windows or doors.",
+      "synonyms": [
+        "window glass"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Glass panes fitted into a house window."
+      },
+      "example": {
+        "word": "glazing",
+        "text": "They replaced the glazing in the front window."
+      },
+      "exampleSynonym": {
+        "word": "window glass",
+        "text": "They replaced the window glass in the front window."
+      },
+      "situacion": "vivienda"
+    }
+  },
+  {
+    "entry": "glazing-2",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glazing",
+      "definition": "A shiny coating added to pottery or another surface.",
+      "synonyms": [
+        "glossy coating"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A shiny coating covers a ceramic bowl."
+      },
+      "example": {
+        "word": "glazing",
+        "text": "The glazing made the bowl smooth and shiny."
+      },
+      "exampleSynonym": {
+        "word": "glossy coating",
+        "text": "The glossy coating made the bowl smooth and shiny."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "glazing-3",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glazing",
+      "definition": "A thin layer spread over a surface for protection.",
+      "synonyms": [
+        "thin coating"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A thin protective layer covers a wooden surface."
+      },
+      "example": {
+        "word": "glazing",
+        "text": "The glazing protected the wood from water."
+      },
+      "exampleSynonym": {
+        "word": "thin coating",
+        "text": "The thin coating protected the wood from water."
+      },
+      "situacion": "vivienda"
+    }
+  },
+  {
+    "entry": "glazier",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glazier",
+      "definition": "A person who fits glass into windows.",
+      "synonyms": [
+        "glass fitter"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A worker fits a glass pane into a window."
+      },
+      "example": {
+        "word": "glazier",
+        "text": "The glazier replaced the broken window pane."
+      },
+      "exampleSynonym": {
+        "word": "glass fitter",
+        "text": "The glass fitter replaced the broken window pane."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "glean",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "glean",
+      "definition": "To gather crops left in a field after harvest.",
+      "synonyms": [
+        "gather leftover crops"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "People gather leftover grain after a harvest."
+      },
+      "example": {
+        "word": "glean",
+        "text": "Farmers can glean leftover crops after harvest."
+      },
+      "exampleSynonym": {
+        "word": "gather leftover crops",
+        "text": "Farmers can gather leftover crops after harvest."
+      },
+      "situacion": "trabajo"
+    }
   }
 ]

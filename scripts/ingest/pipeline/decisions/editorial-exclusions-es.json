@@ -86984,13 +86984,83 @@
     "reason": "An uncommon regional form that duplicates the more useful word rótulo."
   },
   {
-    "id": "rotunda",
-    "word": "Rotunda",
-    "reason": "An inflected form of rotundo, not a separate meaning."
-  },
-  {
     "id": "rotundez",
     "word": "Rotundez",
     "reason": "A rare derivative that simply means rotundidad."
+  },
+  {
+    "id": "rotundidez",
+    "word": "Rotundidez",
+    "reason": "A rare synonym of rotundidad with little independent synonym value."
+  },
+  {
+    "id": "roturador",
+    "word": "Roturador",
+    "reason": "A specialized derivative for a person or machine that prepares farmland."
+  },
+  {
+    "id": "roturadora",
+    "word": "Roturadora",
+    "reason": "A specialized derivative for an agricultural machine with little general value."
+  },
+  {
+    "id": "royega",
+    "word": "Royega",
+    "reason": "A Palencia regional word for a caterpillar with little general synonym value."
+  },
+  {
+    "id": "royo",
+    "word": "Royo",
+    "reason": "A regional or dialectal form with several narrow meanings."
+  },
+  {
+    "id": "rozable",
+    "word": "Rozable",
+    "reason": "A rare, transparent derivative that offers little synonym value."
+  },
+  {
+    "id": "rozadera",
+    "word": "Rozadera",
+    "reason": "A specialized farm tool with little general synonym value."
+  },
+  {
+    "id": "rozadero",
+    "word": "Rozadero",
+    "reason": "A vague derivative with little independent synonym value."
+  },
+  {
+    "id": "rozador",
+    "word": "Rozador",
+    "reason": "A rare derivative for a person or tool that clears brush."
+  },
+  {
+    "id": "rozavillon",
+    "word": "Rozavillón",
+    "reason": "A slang term for a freeloader with little current use."
+  },
+  {
+    "id": "roznar",
+    "word": "Roznar",
+    "reason": "A rare verb with several unrelated, low-value senses."
+  },
+  {
+    "id": "roznido",
+    "word": "Roznido",
+    "reason": "A rare derivative of roznar with little independent value."
+  },
+  {
+    "id": "rozno",
+    "word": "Rozno",
+    "reason": "An obsolete or regional word for a donkey."
+  },
+  {
+    "id": "rozo",
+    "word": "Rozo",
+    "reason": "A rare agricultural noun with several narrow regional senses."
+  },
+  {
+    "id": "rozon",
+    "word": "Rozón",
+    "reason": "A specialized tool for cutting brush with little general value."
   }
 ]
