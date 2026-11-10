@@ -81526,5 +81526,85 @@
     "id": "glyptic",
     "word": "Glyptic",
     "reason": "A rare specialist art term with limited general synonym value."
+  },
+  {
+    "id": "glyptotheque",
+    "word": "Glyptotheque",
+    "reason": "A specialist art term with little general synonym value."
+  },
+  {
+    "id": "gnawing",
+    "word": "Gnawing",
+    "reason": "A transparent derivative with little independent synonym value."
+  },
+  {
+    "id": "gnaw-3",
+    "word": "gnaw",
+    "reason": "A corrupted entry with a definition and synonym unrelated to gnaw."
+  },
+  {
+    "id": "gneissic",
+    "word": "Gneissic",
+    "reason": "A transparent specialist adjective with little synonym value."
+  },
+  {
+    "id": "gnetacean",
+    "word": "Gnetacean",
+    "reason": "A specialist botanical term with little general synonym value."
+  },
+  {
+    "id": "gnomish",
+    "word": "Gnomish",
+    "reason": "Its definition describes gnomic writing, not something gnomish."
+  },
+  {
+    "id": "gnomon",
+    "word": "Gnomon",
+    "reason": "A corrupted specialist term with no reliable synonym value."
+  },
+  {
+    "id": "gnomonic",
+    "word": "gnomonic",
+    "reason": "A specialist map and sundial term with little general synonym value."
+  },
+  {
+    "id": "gnomonics",
+    "word": "gnomonics",
+    "reason": "A rare technical term for designing sundials."
+  },
+  {
+    "id": "gnoseological",
+    "word": "gnoseological",
+    "reason": "A specialist philosophical adjective with little everyday synonym value."
+  },
+  {
+    "id": "gnoseology",
+    "word": "gnoseology",
+    "reason": "A specialist variant of the philosophical term epistemology."
+  },
+  {
+    "id": "go-2",
+    "word": "Go",
+    "reason": "A common basic verb outside this dictionary’s editorial scope."
+  },
+  {
+    "id": "go-3",
+    "word": "Go",
+    "reason": "A corrupted entry with a Spanish definition and no English synonym value."
+  },
+  {
+    "id": "go-4",
+    "word": "go",
+    "reason": "A corrupted translation artifact with no reliable English meaning."
+  },
+  {
+    "id": "go-away",
+    "word": "Go away",
+    "reason": "The definition describes a poet, not the phrasal verb."
+  },
+  {
+    "id": "go-back",
+    "word": "go back",
+    "reason": "A common phrasal verb outside this dictionary’s editorial scope."
   }
 ]

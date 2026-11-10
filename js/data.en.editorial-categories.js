@@ -1522,4 +1522,11 @@
 // R4506 reviewed and split en
 
 
+// R4507 reviewed and split en
+(()=>{const x={"id":"gnome-2","word":"gnome","definition":"A small statue of a gnome, often used as a garden ornament.","synonyms":["garden statue"],"image":{"id":7024,"alt":"A small statue stands beside a garden path."},"example":{"word":"gnome","text":"A gnome stood beside the garden path."},"exampleSynonym":{"word":"garden statue","text":"A garden statue stood beside the garden path."},"situacion":"conocimiento"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else a.forEach(q=>Object.assign(q,x));})();
+(()=>{const x={"id":"gnome-3","word":"gnome","definition":"A short saying that expresses a general truth.","synonyms":["maxim"],"image":{"id":7024,"alt":"A book contains short sayings about life."},"example":{"word":"gnome","text":"The book ends each chapter with a gnome."},"exampleSynonym":{"word":"maxim","text":"The book ends each chapter with a maxim."},"situacion":"conocimiento"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else a.forEach(q=>Object.assign(q,x));})();
+
+// R4508 reviewed and split en
+(()=>{const x={"id":"gnostic-2","word":"Gnostic","definition":"A follower of an old religious movement called Gnosticism.","synonyms":["follower of Gnosticism"],"image":{"id":7024,"alt":"A person follows an old religious movement."},"example":{"word":"Gnostic","text":"A Gnostic believed secret knowledge could save people."},"exampleSynonym":{"word":"follower of Gnosticism","text":"A follower of Gnosticism believed secret knowledge could save people."},"situacion":"conocimiento"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else a.forEach(q=>Object.assign(q,x));})();
+
 })();

@@ -69,3 +69,13 @@
   set("larceny", {"example":{"word":"larceny","text":"The report classified the theft as larceny."}});
   set("loanshark", {"example":{"word":"loan shark","text":"The loan shark charged illegal interest."}});
 })();
+
+/* A108: keep selected English example forms literal. */
+(()=>{
+  const d=globalThis.DICCIONARIOS?.en; if(!d)return;
+  const set=(id,fields)=>{for(const entry of d)if(entry.id===id)Object.assign(entry,fields);};
+  set("roll-4", {"exampleSynonym":{"word":"rotate","text":"The wheel will rotate freely after the cart stops."}});
+  set("rush", {"exampleSynonym":{"word":"hurry","text":"She had to hurry to catch the train."}});
+  set("snuggle-up", {"exampleSynonym":{"word":"cuddle up","text":"They chose to cuddle up under a blanket during the storm."}});
+  set("toss", {"exampleSynonym":{"word":"throw","text":"She had to throw the keys onto the counter."}});
+})();

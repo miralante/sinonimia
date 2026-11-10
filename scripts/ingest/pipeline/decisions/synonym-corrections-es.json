@@ -257064,5 +257064,390 @@
         "text": "La glucólisis libera energía de la glucosa durante la respiración celular."
       }
     }
+  },
+  {
+    "entry": "rumbear",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rumbear",
+      "definition": "Orientarse o tomar un rumbo.",
+      "synonyms": [
+        "orientarse"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona consulta un mapa para orientarse."
+      },
+      "example": {
+        "word": "rumbear",
+        "text": "El guía debe rumbear hacia el norte."
+      },
+      "exampleSynonym": {
+        "word": "orientarse",
+        "text": "El guía debe orientarse hacia el norte."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rumbero",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rumbero",
+      "definition": "Persona aficionada a bailar la rumba.",
+      "synonyms": [
+        "aficionado a la rumba"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona baila rumba en una fiesta."
+      },
+      "example": {
+        "word": "rumbero",
+        "text": "El rumbero bailó toda la noche."
+      },
+      "exampleSynonym": {
+        "word": "aficionado a la rumba",
+        "text": "El aficionado a la rumba bailó toda la noche."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rumbon",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rumbón",
+      "definition": "Generoso al dar o gastar.",
+      "synonyms": [
+        "dadivoso"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona invita a sus amigos a comer."
+      },
+      "example": {
+        "word": "rumbón",
+        "text": "El anfitrión rumbón pagó la cena."
+      },
+      "exampleSynonym": {
+        "word": "dadivoso",
+        "text": "El anfitrión dadivoso pagó la cena."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rumboso",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rumboso",
+      "definition": "Generoso al dar regalos o pagar.",
+      "synonyms": [
+        "generoso"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona ofrece un regalo a una amiga."
+      },
+      "example": {
+        "word": "rumboso",
+        "text": "Fue rumboso con las propinas."
+      },
+      "exampleSynonym": {
+        "word": "generoso",
+        "text": "Fue generoso con las propinas."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rumia",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rumia",
+      "definition": "Acción de masticar otra vez el alimento.",
+      "synonyms": [
+        "masticación repetida"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una vaca mastica hierba."
+      },
+      "example": {
+        "word": "rumia",
+        "text": "La rumia ayuda a algunas vacas a digerir el pasto."
+      },
+      "exampleSynonym": {
+        "word": "masticación repetida",
+        "text": "La masticación repetida ayuda a algunas vacas a digerir el pasto."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "rumiador",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rumiador",
+      "definition": "Que rumia el alimento.",
+      "synonyms": [
+        "rumiante"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una vaca come hierba en un prado."
+      },
+      "example": {
+        "word": "rumiador",
+        "text": "La vaca es un animal rumiador."
+      },
+      "exampleSynonym": {
+        "word": "rumiante",
+        "text": "La vaca es un animal rumiante."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "rumiante",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rumiante",
+      "definition": "Que rumia.",
+      "synonyms": [
+        "rumiador"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una vaca mastica hierba."
+      },
+      "example": {
+        "word": "rumiante",
+        "text": "El ganado rumiante come pasto."
+      },
+      "exampleSynonym": {
+        "word": "rumiador",
+        "text": "El ganado rumiador come pasto."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "rumiar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rumiar",
+      "definition": "Masticar de nuevo el alimento que vuelve a la boca.",
+      "synonyms": [
+        "remugar"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una vaca vuelve a masticar hierba."
+      },
+      "example": {
+        "word": "rumiar",
+        "text": "Las vacas suelen rumiar la hierba."
+      },
+      "exampleSynonym": {
+        "word": "remugar",
+        "text": "Las vacas suelen remugar la hierba."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "estiquirin",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "estiquirín",
+        "text": "El estiquirín cazó un ratón al anochecer."
+      },
+      "exampleSynonym": {
+        "word": "búho americano",
+        "text": "El búho americano cazó un ratón al anochecer."
+      }
+    }
+  },
+  {
+    "entry": "fotograbado",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "fotograbado",
+        "text": "La imprenta conservó un fotograbado del cartel original."
+      },
+      "exampleSynonym": {
+        "word": "impresión fotográfica",
+        "text": "La imprenta conservó una impresión fotográfica del cartel original."
+      }
+    }
+  },
+  {
+    "entry": "gadolinio",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "gadolinio",
+        "text": "El gadolinio mejora la resistencia de algunas aleaciones."
+      },
+      "exampleSynonym": {
+        "word": "elemento químico 64",
+        "text": "El elemento químico 64 mejora la resistencia de algunas aleaciones."
+      }
+    }
+  },
+  {
+    "entry": "gallinejas",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "gallinejas",
+        "text": "En la feria prepararon gallinejas con ajo."
+      },
+      "exampleSynonym": {
+        "word": "intestinos fritos",
+        "text": "En la feria prepararon intestinos fritos con ajo."
+      }
+    }
+  },
+  {
+    "entry": "gansear",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "gansear",
+        "text": "Los niños dejaron de gansear al comenzar la clase."
+      },
+      "exampleSynonym": {
+        "word": "decir tonterías",
+        "text": "Los niños dejaron de decir tonterías al comenzar la clase."
+      }
+    }
+  },
+  {
+    "entry": "glia",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "glía",
+        "text": "La glía ayuda a proteger las neuronas."
+      },
+      "exampleSynonym": {
+        "word": "neuroglía",
+        "text": "La neuroglía ayuda a proteger las neuronas."
+      }
+    }
+  },
+  {
+    "entry": "rumor",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rumor",
+      "definition": "Información que circula entre personas sin confirmación.",
+      "synonyms": [
+        "chisme"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un mensaje sin confirmar se comparte entre vecinos."
+      },
+      "example": {
+        "word": "rumor",
+        "text": "Un rumor decía que cerrarían la tienda."
+      },
+      "exampleSynonym": {
+        "word": "chisme",
+        "text": "Un chisme decía que cerrarían la tienda."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rumorear",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rumorear",
+      "definition": "Difundir entre las personas una noticia no confirmada.",
+      "synonyms": [
+        "rumorar",
+        "chismear"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Dos vecinos hablan de una noticia sin confirmar."
+      },
+      "example": {
+        "word": "rumorear",
+        "text": "Los vecinos empezaron a rumorear que cerrarían la tienda."
+      },
+      "exampleSynonym": {
+        "word": "rumorar",
+        "text": "Los vecinos empezaron a rumorar que cerrarían la tienda."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rumorologia",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rumorología",
+      "definition": "Uso o difusión de rumores.",
+      "synonyms": [
+        "difusión de rumores"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un grupo conversa después de recibir rumores."
+      },
+      "example": {
+        "word": "rumorología",
+        "text": "La rumorología dañó la confianza entre los vecinos."
+      },
+      "exampleSynonym": {
+        "word": "difusión de rumores",
+        "text": "La difusión de rumores dañó la confianza entre los vecinos."
+      },
+      "situacion": "educacion"
+    }
+  },
+  {
+    "entry": "runfla",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Runfla",
+      "definition": "Grupo grande de personas o cosas.",
+      "synonyms": [
+        "montón"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un montón de personas llega a un lugar."
+      },
+      "example": {
+        "word": "runfla",
+        "text": "Llegó una runfla de invitados a la fiesta."
+      },
+      "exampleSynonym": {
+        "word": "montón",
+        "text": "Llegó un montón de invitados a la fiesta."
+      },
+      "situacion": "vida-diaria"
+    }
   }
 ]

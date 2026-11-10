@@ -129556,30 +129556,6 @@
     }
   },
   {
-    "entry": "gneiss",
-    "remove": [],
-    "unset": [],
-    "set": {
-      "definition": "A layered rock formed from other rocks under great heat and pressure.",
-      "synonyms": [
-        "layered rock",
-        "metamorphic rock"
-      ],
-      "example": {
-        "word": "gneiss",
-        "text": "Gneiss forms part of this mountain."
-      },
-      "exampleSynonym": {
-        "word": "layered rock",
-        "text": "The layered rock forms part of this mountain."
-      },
-      "situacion": "geology",
-      "translation": {
-        "es": "gneis"
-      }
-    }
-  },
-  {
     "entry": "brass",
     "remove": [],
     "unset": [],
@@ -253267,6 +253243,12 @@
       "exampleSynonym": {
         "word": "ponder",
         "text": "She took a day to ponder the offer."
+      },
+      "translation": {
+        "es": [
+          "rumiar",
+          "rumiar-2"
+        ]
       }
     }
   },
@@ -256613,6 +256595,309 @@
         "word": "make rough",
         "text": "Wind and sand make rough patches on the wooden fence."
       }
+    }
+  },
+  {
+    "entry": "ruminant",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "translation": {
+        "es": [
+          "rumiante",
+          "rumiante-2"
+        ]
+      }
+    }
+  },
+  {
+    "entry": "gnat",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gnat",
+      "definition": "A very small flying insect that often bites people.",
+      "synonyms": [
+        "midge"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A tiny flying insect bites a person."
+      },
+      "example": {
+        "word": "gnat",
+        "text": "A gnat kept biting her arm."
+      },
+      "exampleSynonym": {
+        "word": "midge",
+        "text": "A midge kept biting her arm."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "gnaw",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gnaw",
+      "definition": "To bite something repeatedly and wear it down.",
+      "synonyms": [
+        "chew"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A puppy chews on a shoe."
+      },
+      "example": {
+        "word": "gnaw",
+        "text": "The puppy likes to gnaw on the shoe."
+      },
+      "exampleSynonym": {
+        "word": "chew",
+        "text": "The puppy likes to chew on the shoe."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gnaw-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gnaw",
+      "definition": "To keep making someone worry.",
+      "synonyms": [
+        "worry"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person worries about an unpaid bill."
+      },
+      "example": {
+        "word": "gnaw",
+        "text": "The unpaid bill continued to gnaw at him."
+      },
+      "exampleSynonym": {
+        "word": "worry",
+        "text": "The unpaid bill continued to worry him."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gneiss",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Gneiss",
+      "definition": "A hard rock with clear bands of different minerals.",
+      "synonyms": [
+        "metamorphic rock"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A rock has visible bands of different minerals."
+      },
+      "example": {
+        "word": "gneiss",
+        "text": "This mountain contains gneiss."
+      },
+      "exampleSynonym": {
+        "word": "metamorphic rock",
+        "text": "This mountain contains metamorphic rock."
+      },
+      "situacion": "conocimiento",
+      "translation": {
+        "es": "gneis"
+      }
+    }
+  },
+  {
+    "entry": "gnome",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gnome",
+      "definition": "A small imaginary creature from old stories.",
+      "synonyms": [
+        "imaginary being"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A small imaginary being from folklore."
+      },
+      "example": {
+        "word": "gnome",
+        "text": "A gnome guarded the old garden."
+      },
+      "exampleSynonym": {
+        "word": "imaginary being",
+        "text": "An imaginary being guarded the old garden."
+      },
+      "situacion": "conocimiento",
+      "translation": {
+        "es": "gnomo"
+      }
+    }
+  },
+  {
+    "entry": "roll-4",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "roll",
+        "text": "I roll the wheel across the floor."
+      },
+      "exampleSynonym": {
+        "word": "rotate",
+        "text": "I rotate the wheel across the floor."
+      }
+    }
+  },
+  {
+    "entry": "rush",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "rush",
+        "text": "I rush to catch the train."
+      },
+      "exampleSynonym": {
+        "word": "hurry",
+        "text": "I hurry to catch the train."
+      }
+    }
+  },
+  {
+    "entry": "scab",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "scab",
+        "text": "A scab formed over the cut as it healed."
+      },
+      "exampleSynonym": {
+        "word": "wound crust",
+        "text": "A wound crust formed over the cut as it healed."
+      }
+    }
+  },
+  {
+    "entry": "smile",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "smile",
+        "text": "He smiled when he saw the puppy."
+      },
+      "exampleSynonym": {
+        "word": "grin",
+        "text": "He grinned when he saw the puppy."
+      }
+    }
+  },
+  {
+    "entry": "snuggle-up",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "snuggle up",
+        "text": "They snuggle up under a blanket."
+      },
+      "exampleSynonym": {
+        "word": "cuddle up",
+        "text": "They cuddle up under a blanket."
+      }
+    }
+  },
+  {
+    "entry": "toss",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "toss",
+        "text": "I toss the keys onto the counter."
+      },
+      "exampleSynonym": {
+        "word": "throw",
+        "text": "I throw the keys onto the counter."
+      }
+    }
+  },
+  {
+    "entry": "go",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "GO",
+      "definition": "A very thin material made from graphite and oxygen.",
+      "synonyms": [
+        "graphene oxide"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Researchers test a thin material made from graphite and oxygen."
+      },
+      "example": {
+        "word": "GO",
+        "text": "Researchers tested GO in a water filter."
+      },
+      "exampleSynonym": {
+        "word": "graphene oxide",
+        "text": "Researchers tested graphene oxide in a water filter."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "gnostic",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gnostic",
+      "definition": "Related to an old religious movement called Gnosticism.",
+      "synonyms": [
+        "linked to Gnosticism"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A book describes an old religious movement."
+      },
+      "example": {
+        "word": "gnostic",
+        "text": "The historian read a gnostic text from early Christianity."
+      },
+      "exampleSynonym": {
+        "word": "linked to Gnosticism",
+        "text": "The historian read a text linked to Gnosticism from early Christianity."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "gnosticism",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Gnosticism",
+      "definition": "An old religious movement based on secret spiritual knowledge.",
+      "synonyms": [
+        "belief in secret spiritual knowledge"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A class learns about an old religious movement."
+      },
+      "example": {
+        "word": "Gnosticism",
+        "text": "The lesson explained Gnosticism to the class."
+      },
+      "exampleSynonym": {
+        "word": "belief in secret spiritual knowledge",
+        "text": "The lesson explained the belief in secret spiritual knowledge to the class."
+      },
+      "situacion": "conocimiento"
     }
   }
 ]
