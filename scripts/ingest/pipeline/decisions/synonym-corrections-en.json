@@ -113907,14 +113907,6 @@
     }
   },
   {
-    "entry": "goal",
-    "remove": [],
-    "unset": [
-      "translation"
-    ],
-    "set": {}
-  },
-  {
     "entry": "canopy",
     "remove": [],
     "unset": [],
@@ -257166,6 +257158,181 @@
         "word": "divine manifestation",
         "text": "The ancient text describes a divine manifestation witnessed by the travelers."
       }
+    }
+  },
+  {
+    "entry": "go-getter",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "go-getter",
+      "definition": "A person who works hard and takes initiative to succeed.",
+      "synonyms": [
+        "ambitious person"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person takes initiative on a project."
+      },
+      "example": {
+        "word": "go-getter",
+        "text": "The team hired a go-getter to lead the new project."
+      },
+      "exampleSynonym": {
+        "word": "ambitious person",
+        "text": "The team hired an ambitious person to lead the new project."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "goad",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goad",
+      "definition": "Push or provoke someone to do something.",
+      "synonyms": [
+        "provoke"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "One person provokes another during an argument."
+      },
+      "example": {
+        "word": "goad",
+        "text": "They tried to goad him into a fight."
+      },
+      "exampleSynonym": {
+        "word": "provoke",
+        "text": "They tried to provoke him into a fight."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "goal",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goal",
+      "definition": "Something that a person hopes or plans to achieve.",
+      "synonyms": [
+        "aim"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person works toward a personal goal."
+      },
+      "example": {
+        "word": "goal",
+        "text": "Her goal is to finish the course this year."
+      },
+      "exampleSynonym": {
+        "word": "aim",
+        "text": "Her aim is to finish the course this year."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "goal-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goal",
+      "definition": "A point scored when a ball or puck enters a goal.",
+      "synonyms": [
+        "point"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A player scores by sending a ball past the goalkeeper."
+      },
+      "example": {
+        "word": "goal",
+        "text": "She scored the winning goal in the final minute."
+      },
+      "exampleSynonym": {
+        "word": "point",
+        "text": "She scored the winning point in the final minute."
+      },
+      "situacion": "deportes"
+    }
+  },
+  {
+    "entry": "goalkeeper",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goalkeeper",
+      "definition": "A player who protects the goal in soccer or hockey.",
+      "synonyms": [
+        "goalie"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A goalkeeper blocks a shot at the goal."
+      },
+      "example": {
+        "word": "goalkeeper",
+        "text": "The goalkeeper blocked the final shot."
+      },
+      "exampleSynonym": {
+        "word": "goalie",
+        "text": "The goalie blocked the final shot."
+      },
+      "situacion": "deportes"
+    }
+  },
+  {
+    "entry": "goalscorer",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goalscorer",
+      "definition": "A player who scores a goal in a game.",
+      "synonyms": [
+        "goal scorer"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A player celebrates after scoring a goal."
+      },
+      "example": {
+        "word": "goalscorer",
+        "text": "The goalscorer celebrated after the final whistle."
+      },
+      "exampleSynonym": {
+        "word": "goal scorer",
+        "text": "The goal scorer celebrated after the final whistle."
+      },
+      "situacion": "deportes"
+    }
+  },
+  {
+    "entry": "goat",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goat",
+      "definition": "A farm animal with horns that can give milk.",
+      "synonyms": [
+        "horned farm animal"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A goat stands in a farm field."
+      },
+      "example": {
+        "word": "goat",
+        "text": "The goat followed the farmer across the field."
+      },
+      "exampleSynonym": {
+        "word": "horned farm animal",
+        "text": "The horned farm animal followed the farmer across the field."
+      },
+      "situacion": "naturaleza"
     }
   }
 ]

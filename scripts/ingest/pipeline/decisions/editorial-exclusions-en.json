@@ -81646,5 +81646,30 @@
     "id": "cart-4",
     "word": "go partying",
     "reason": "A transparent, common phrase with little independent synonym value."
+  },
+  {
+    "id": "goaded",
+    "word": "goaded",
+    "reason": "A past-tense form of goad, not a separate headword; its current gloss wrongly defines the tool."
+  },
+  {
+    "id": "goaded-2",
+    "word": "goaded",
+    "reason": "A corrupted duplicate whose gloss defines goad, not goaded."
+  },
+  {
+    "id": "goalkeeper-2",
+    "word": "Goalkeeper",
+    "reason": "A regional duplicate of the standard word goalkeeper."
+  },
+  {
+    "id": "goals",
+    "word": "Goals",
+    "reason": "A little-used heraldic variant of gules with no general synonym value."
+  },
+  {
+    "id": "goat-10",
+    "word": "Goat",
+    "reason": "A rare transparent adjective meaning goat-like, with no independent synonym value."
   }
 ]

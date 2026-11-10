@@ -257692,5 +257692,130 @@
         "text": "El calor le provocó un mareo."
       }
     }
+  },
+  {
+    "entry": "rural",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rural",
+      "definition": "Perteneciente al campo y a la vida de sus habitantes.",
+      "synonyms": [
+        "campestre"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una casa rodeada de campos."
+      },
+      "example": {
+        "word": "rural",
+        "text": "La familia se mudó a una zona rural."
+      },
+      "exampleSynonym": {
+        "word": "campestre",
+        "text": "La familia se mudó a una zona campestre."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "ruralismo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Ruralismo",
+      "definition": "Carácter propio de la vida del campo.",
+      "synonyms": [
+        "carácter campesino"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una novela describe la vida en un pueblo agrícola."
+      },
+      "example": {
+        "word": "ruralismo",
+        "text": "El ruralismo de la novela recuerda la vida del pueblo."
+      },
+      "exampleSynonym": {
+        "word": "carácter campesino",
+        "text": "El carácter campesino de la novela recuerda la vida del pueblo."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "rusiente",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rusiente",
+      "definition": "Que está al rojo por el calor del fuego.",
+      "synonyms": [
+        "candente"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una barra de metal al rojo dentro de una fragua."
+      },
+      "example": {
+        "word": "rusiente",
+        "text": "La herrera retiró la barra rusiente del horno."
+      },
+      "exampleSynonym": {
+        "word": "candente",
+        "text": "La herrera retiró la barra candente del horno."
+      },
+      "situacion": "tecnologia"
+    }
+  },
+  {
+    "entry": "rusificar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rusificar",
+      "definition": "Hacer que un pueblo adopte el ruso o sus costumbres.",
+      "synonyms": [
+        "extender las costumbres rusas"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un mapa muestra la difusión de una lengua."
+      },
+      "example": {
+        "word": "rusificar",
+        "text": "El gobierno intentó rusificar las regiones fronterizas."
+      },
+      "exampleSynonym": {
+        "word": "extender las costumbres rusas",
+        "text": "El gobierno intentó extender las costumbres rusas en las regiones fronterizas."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "rusticidad",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rusticidad",
+      "definition": "Cualidad de algo sencillo, tosco o poco refinado.",
+      "synonyms": [
+        "tosquedad"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una mesa sencilla de madera sin adornos."
+      },
+      "example": {
+        "word": "rusticidad",
+        "text": "La rusticidad de la mesa encaja con la casa."
+      },
+      "exampleSynonym": {
+        "word": "tosquedad",
+        "text": "La tosquedad de la mesa encaja con la casa."
+      },
+      "situacion": "vivienda"
+    }
   }
 ]
