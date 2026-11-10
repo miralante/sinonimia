@@ -81246,5 +81246,55 @@
     "id": "gleaner",
     "word": "Gleaner",
     "reason": "A transparent derivative with little independent synonym value."
+  },
+  {
+    "id": "gleba",
+    "word": "gleba",
+    "reason": "A specialized mycology term with little general synonym value."
+  },
+  {
+    "id": "glial",
+    "word": "Glial",
+    "reason": "A specialized neuroscience adjective with little general synonym value."
+  },
+  {
+    "id": "glimpse-4",
+    "word": "glimpse",
+    "reason": "A malformed duplicate with an unclear definition and synonym."
+  },
+  {
+    "id": "glimpse-5",
+    "word": "Glimpse",
+    "reason": "A vague duplicate sense with an unclear synonym."
+  },
+  {
+    "id": "glimpse-6",
+    "word": "glimpse",
+    "reason": "A redundant derivative with little independent synonym value."
+  },
+  {
+    "id": "glimpse-7",
+    "word": "glimpse",
+    "reason": "A malformed duplicate that mixes unrelated meanings."
+  },
+  {
+    "id": "glimpse-8",
+    "word": "glimpse",
+    "reason": "A malformed duplicate that mixes unrelated meanings."
+  },
+  {
+    "id": "glioma",
+    "word": "Glioma",
+    "reason": "A specialized medical term with limited general synonym value."
+  },
+  {
+    "id": "glitter-3",
+    "word": "Glitter",
+    "reason": "A corrupted material description with an unrelated synonym."
+  },
+  {
+    "id": "glittering-2",
+    "word": "glittering",
+    "reason": "A transparent derivative with little independent synonym value."
   }
 ]

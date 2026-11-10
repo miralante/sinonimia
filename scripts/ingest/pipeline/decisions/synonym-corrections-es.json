@@ -255753,5 +255753,289 @@
       },
       "situacion": "regional"
     }
+  },
+  {
+    "entry": "ruano",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Ruano",
+      "definition": "Caballo con pelo blanco mezclado con pelo de otro color.",
+      "synonyms": [
+        "roano"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un caballo tiene el pelaje blanco mezclado con pelos oscuros."
+      },
+      "example": {
+        "word": "ruano",
+        "text": "El caballo ruano destacaba entre los demás."
+      },
+      "exampleSynonym": {
+        "word": "roano",
+        "text": "El caballo roano destacaba entre los demás."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "ruar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Ruar",
+      "definition": "Pasear por las calles, a veces para cortejar o llamar la atención.",
+      "synonyms": [
+        "callejear"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona pasea por las calles de una ciudad."
+      },
+      "example": {
+        "word": "ruar",
+        "text": "Los jóvenes salieron a ruar por el centro."
+      },
+      "exampleSynonym": {
+        "word": "callejear",
+        "text": "Los jóvenes salieron a callejear por el centro."
+      },
+      "situacion": "regional"
+    }
+  },
+  {
+    "entry": "rubeniano",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rubeniano",
+      "definition": "Relacionado con Rubén Darío o con su obra modernista.",
+      "synonyms": [
+        "propio de Rubén Darío"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un libro de poesía modernista abierto sobre una mesa."
+      },
+      "example": {
+        "word": "rubeniano",
+        "text": "El poema rubeniano usa imágenes brillantes."
+      },
+      "exampleSynonym": {
+        "word": "propio de Rubén Darío",
+        "text": "El poema propio de Rubén Darío usa imágenes brillantes."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "rubeola",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rubéola",
+      "definition": "Infección viral que suele causar fiebre y erupción. Durante el embarazo, puede dañar gravemente al feto.",
+      "synonyms": [
+        "infección por el virus de la rubéola"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona consulta al médico por una erupción en la piel."
+      },
+      "example": {
+        "word": "rubéola",
+        "text": "La rubéola suele causar fiebre y erupción en la piel."
+      },
+      "exampleSynonym": {
+        "word": "infección por el virus de la rubéola",
+        "text": "La infección por el virus de la rubéola suele causar fiebre y erupción."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "rubi",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rubí",
+      "definition": "Gema roja y dura que se usa en joyería.",
+      "synonyms": [
+        "corindón rojo"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una gema roja tallada para una joya."
+      },
+      "example": {
+        "word": "rubí",
+        "text": "El anillo lleva un rubí pequeño."
+      },
+      "exampleSynonym": {
+        "word": "corindón rojo",
+        "text": "El anillo lleva un corindón rojo pequeño."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "tochuelo",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tochuelo",
+        "text": "El herrero cortó un tochuelo de hierro para fabricar un soporte."
+      },
+      "exampleSynonym": {
+        "word": "tocho de hierro",
+        "text": "El herrero cortó un tocho de hierro para fabricar un soporte."
+      }
+    }
+  },
+  {
+    "entry": "vinilo",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "vinilo",
+        "text": "El grupo vinilo forma parte de ciertos compuestos orgánicos."
+      },
+      "exampleSynonym": {
+        "word": "grupo vinilo",
+        "text": "El grupo vinilo forma parte de ciertos compuestos orgánicos."
+      }
+    }
+  },
+  {
+    "entry": "tulio",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tulio",
+        "text": "El tulio aparece en la tabla periódica con el número atómico 69."
+      },
+      "exampleSynonym": {
+        "word": "Tm",
+        "text": "El símbolo Tm identifica al tulio en la tabla periódica."
+      }
+    }
+  },
+  {
+    "entry": "zen",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "zen",
+        "text": "La práctica zen concede un lugar central a la meditación."
+      },
+      "exampleSynonym": {
+        "word": "budismo zen",
+        "text": "La práctica del budismo zen concede un lugar central a la meditación."
+      }
+    }
+  },
+  {
+    "entry": "yoltamal",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "yoltamal",
+        "text": "En Nicaragua sirven el yoltamal envuelto en hojas de maíz."
+      },
+      "exampleSynonym": {
+        "word": "tamal de maíz tierno",
+        "text": "En Nicaragua sirven el tamal de maíz tierno envuelto en hojas."
+      }
+    }
+  },
+  {
+    "entry": "tremuloso",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tremuloso",
+        "text": "El sonido tremuloso del violín llenó la sala."
+      },
+      "exampleSynonym": {
+        "word": "trémulo",
+        "text": "El sonido trémulo del violín llenó la sala."
+      }
+    }
+  },
+  {
+    "entry": "rubicón",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rubicón",
+      "definition": "Decisión que impide volver a la situación anterior.",
+      "synonyms": [
+        "punto sin retorno"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona toma una decisión importante antes de cruzar un puente."
+      },
+      "example": {
+        "word": "rubicón",
+        "text": "Al firmar el contrato, cruzó el rubicón."
+      },
+      "exampleSynonym": {
+        "word": "punto sin retorno",
+        "text": "Al firmar el contrato, llegó a un punto sin retorno."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rubicundo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rubicundo",
+      "definition": "De rostro rojizo, especialmente por buena salud.",
+      "synonyms": [
+        "colorado"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona con las mejillas rojas después de caminar."
+      },
+      "example": {
+        "word": "rubicundo",
+        "text": "El excursionista llegó rubicundo al refugio."
+      },
+      "exampleSynonym": {
+        "word": "colorado",
+        "text": "El excursionista llegó colorado al refugio."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rubio",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rubio",
+      "definition": "De color amarillo dorado, especialmente referido al cabello.",
+      "synonyms": [
+        "de pelo claro"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona con el cabello de color amarillo dorado."
+      },
+      "example": {
+        "word": "rubio",
+        "text": "El niño tiene el pelo rubio."
+      },
+      "exampleSynonym": {
+        "word": "de pelo claro",
+        "text": "El niño tiene el pelo de tono claro."
+      },
+      "situacion": "vida-diaria"
+    }
   }
 ]

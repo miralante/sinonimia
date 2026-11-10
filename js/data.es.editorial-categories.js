@@ -531,4 +531,10 @@
 {const x={"id":"rozagante-2","word":"Rozagante","definition":"Dicho de una prenda: larga y llamativa.","synonyms":["larga y vistosa"],"image":{"id":7024,"alt":"Una falda larga y vistosa para una fiesta."},"example":{"word":"Rozagante","text":"La actriz lució una falda rozagante en el acto."},"exampleSynonym":{"word":"larga y vistosa","text":"La actriz lució una falda larga y vistosa en el acto."},"situacion":"arte"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
 {const x={"id":"rua-2","word":"Rúa","definition":"Desfile público que recorre las calles durante una fiesta.","synonyms":["desfile"],"image":{"id":7024,"alt":"Un desfile festivo recorre las calles de una ciudad."},"example":{"word":"Rúa","text":"La rúa pasó por el centro de la ciudad."},"exampleSynonym":{"word":"desfile","text":"El desfile pasó por el centro de la ciudad."},"situacion":"regional"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
 
+// R4499 reviewed and split es
+
+
+// R4500 reviewed and split es
+{const x={"id":"rubio-2","word":"Rubio","definition":"Persona que tiene el cabello rubio.","synonyms":["persona de pelo claro"],"image":{"id":7024,"alt":"Una persona de cabello claro sonríe al sol."},"example":{"word":"Rubio","text":"El rubio trabaja en la tienda del barrio."},"exampleSynonym":{"word":"persona de pelo claro","text":"La persona de pelo claro trabaja en la tienda del barrio."},"situacion":"vida-diaria"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
+
 })();

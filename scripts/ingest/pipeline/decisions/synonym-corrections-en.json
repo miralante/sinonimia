@@ -255353,5 +255353,389 @@
       },
       "situacion": "trabajo"
     }
+  },
+  {
+    "entry": "gleaning",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gleaning",
+      "definition": "The act of gathering leftover crops after harvest.",
+      "synonyms": [
+        "gathering leftover crops"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "People gather leftover grain from a harvested field."
+      },
+      "example": {
+        "word": "gleaning",
+        "text": "Gleaning provided food after the harvest."
+      },
+      "exampleSynonym": {
+        "word": "gathering leftover crops",
+        "text": "Gathering leftover crops provided food after the harvest."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "gleeful",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gleeful",
+      "definition": "Feeling or showing great happiness.",
+      "synonyms": [
+        "delighted"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A child smiles with delight after opening a gift."
+      },
+      "example": {
+        "word": "gleeful",
+        "text": "The gleeful child opened another gift."
+      },
+      "exampleSynonym": {
+        "word": "delighted",
+        "text": "The delighted child opened another gift."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "glide",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glide",
+      "definition": "To move smoothly and easily across a surface.",
+      "synonyms": [
+        "slide smoothly"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A skater moves smoothly across an ice rink."
+      },
+      "example": {
+        "word": "glide",
+        "text": "The skater can glide across the ice."
+      },
+      "exampleSynonym": {
+        "word": "slide smoothly",
+        "text": "The skater can slide smoothly across the ice."
+      },
+      "situacion": "deportes"
+    }
+  },
+  {
+    "entry": "glider",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glider",
+      "definition": "An aircraft without an engine that flies on air currents.",
+      "synonyms": [
+        "sailplane"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A lightweight glider aircraft flies over a valley."
+      },
+      "example": {
+        "word": "glider",
+        "text": "The glider circled above the valley."
+      },
+      "exampleSynonym": {
+        "word": "sailplane",
+        "text": "The sailplane circled above the valley."
+      },
+      "situacion": "deportes"
+    }
+  },
+  {
+    "entry": "glimmer",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glimmer",
+      "definition": "A faint or unsteady light.",
+      "synonyms": [
+        "faint light"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A faint light shines through a dark room."
+      },
+      "example": {
+        "word": "glimmer",
+        "text": "A glimmer came from the distant window."
+      },
+      "exampleSynonym": {
+        "word": "faint light",
+        "text": "A faint light came from the distant window."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "glimpse",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glimpse",
+      "definition": "A brief or partial view of someone or something.",
+      "synonyms": [
+        "quick look"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person gets a quick look at a passing train."
+      },
+      "example": {
+        "word": "glimpse",
+        "text": "She caught a glimpse of the passing train."
+      },
+      "exampleSynonym": {
+        "word": "quick look",
+        "text": "She got a quick look at the passing train."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "glimpse-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glimpse",
+      "definition": "To see or notice someone or something briefly.",
+      "synonyms": [
+        "spot"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person briefly sees a friend in a crowd."
+      },
+      "example": {
+        "word": "glimpse",
+        "text": "I glimpsed my friend in the crowd."
+      },
+      "exampleSynonym": {
+        "word": "spot",
+        "text": "I spotted my friend in the crowd."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "stove-4",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "stove",
+        "text": "The fire burned steadily inside the stove."
+      },
+      "exampleSynonym": {
+        "word": "firebox",
+        "text": "The fire burned steadily inside the firebox."
+      }
+    }
+  },
+  {
+    "entry": "tarsus",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tarsus",
+        "text": "The tarsus connects the ankle joint to the toes."
+      },
+      "exampleSynonym": {
+        "word": "ankle bones",
+        "text": "The ankle bones connect the ankle joint to the toes."
+      }
+    }
+  },
+  {
+    "entry": "stratocumulus",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "stratocumulus",
+        "text": "A stratocumulus spread across the sky before sunset."
+      },
+      "exampleSynonym": {
+        "word": "stratocumulus cloud",
+        "text": "A stratocumulus cloud spread across the sky before sunset."
+      }
+    }
+  },
+  {
+    "entry": "toluene",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "toluene",
+        "text": "Toluene is used as a solvent in some industrial processes."
+      },
+      "exampleSynonym": {
+        "word": "methylbenzene",
+        "text": "Methylbenzene is used as a solvent in some industrial processes."
+      }
+    }
+  },
+  {
+    "entry": "rehoming",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "rehoming",
+        "text": "The charity helps with rehoming rescued dogs."
+      },
+      "exampleSynonym": {
+        "word": "finding a new home",
+        "text": "The charity helps owners with finding a new home for rescued dogs."
+      }
+    }
+  },
+  {
+    "entry": "rhizoid",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "rhizoid",
+        "text": "A rhizoid helps the moss attach to the soil."
+      },
+      "exampleSynonym": {
+        "word": "anchoring filament",
+        "text": "An anchoring filament helps the moss attach to the soil."
+      }
+    }
+  },
+  {
+    "entry": "glisten",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glisten",
+      "definition": "To shine with reflected light, often from a wet surface.",
+      "synonyms": [
+        "shine"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Water droplets shine on a green leaf."
+      },
+      "example": {
+        "word": "glisten",
+        "text": "The leaves glisten after the rain."
+      },
+      "exampleSynonym": {
+        "word": "shine",
+        "text": "The leaves shine after the rain."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "glitter",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glitter",
+      "definition": "To shine with many small, bright flashes of light.",
+      "synonyms": [
+        "sparkle"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Small lights sparkle across a dark surface."
+      },
+      "example": {
+        "word": "glitter",
+        "text": "The lights glitter across the lake."
+      },
+      "exampleSynonym": {
+        "word": "sparkle",
+        "text": "The lights sparkle across the lake."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gloat",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gloat",
+      "definition": "To show pleasure at your success or someone else’s failure.",
+      "synonyms": [
+        "take pleasure in another’s failure"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person smiles smugly after winning a game."
+      },
+      "example": {
+        "word": "gloat",
+        "text": "He began to gloat after winning the game."
+      },
+      "exampleSynonym": {
+        "word": "take pleasure in another’s failure",
+        "text": "He began to take pleasure in another’s failure after winning."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gloat-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gloat",
+      "definition": "A feeling of pleasure at another person’s failure.",
+      "synonyms": [
+        "smug satisfaction"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A winner shows smug satisfaction after a contest."
+      },
+      "example": {
+        "word": "gloat",
+        "text": "His gloat upset the other players."
+      },
+      "exampleSynonym": {
+        "word": "smug satisfaction",
+        "text": "His smug satisfaction upset the other players."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gloating",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gloating",
+      "definition": "Showing pleasure at another person’s failure.",
+      "synonyms": [
+        "smug"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person gives a smug smile after winning a game."
+      },
+      "example": {
+        "word": "gloating",
+        "text": "Her gloating smile annoyed the other team."
+      },
+      "exampleSynonym": {
+        "word": "smug",
+        "text": "Her smug smile annoyed the other team."
+      },
+      "situacion": "vida-diaria"
+    }
   }
 ]
