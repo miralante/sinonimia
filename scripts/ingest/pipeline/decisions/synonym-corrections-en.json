@@ -256480,5 +256480,55 @@
         "text": "The label identified the compound as a salt of chlorous acid."
       }
     }
+  },
+  {
+    "entry": "gluttonous",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gluttonous",
+      "definition": "Eating or drinking too much.",
+      "synonyms": [
+        "greedy"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person eats more food than needed at dinner."
+      },
+      "example": {
+        "word": "gluttonous",
+        "text": "The gluttonous guest ordered another dessert."
+      },
+      "exampleSynonym": {
+        "word": "greedy",
+        "text": "The greedy guest ordered another dessert."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "gluttony",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Gluttony",
+      "definition": "The habit of eating or drinking too much.",
+      "synonyms": [
+        "overindulgence"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A table is crowded with more food than people can eat."
+      },
+      "example": {
+        "word": "gluttony",
+        "text": "The story warns against gluttony."
+      },
+      "exampleSynonym": {
+        "word": "overindulgence",
+        "text": "The story warns against overindulgence."
+      },
+      "situacion": "vida-diaria"
+    }
   }
 ]

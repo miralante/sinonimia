@@ -561,4 +561,7 @@
 {const x={"id":"ruina-3","word":"Ruina","definition":"Pérdida grave de bienes o fortuna.","synonyms":["quiebra"],"image":{"id":7024,"alt":"Una familia pierde todos sus bienes en una mala inversión."},"example":{"word":"Ruina","text":"La deuda llevó al negocio a la ruina."},"exampleSynonym":{"word":"quiebra","text":"La deuda llevó al negocio a la quiebra."},"situacion":"finanzas"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
 {const x={"id":"ruinoso-2","word":"Ruinoso","definition":"Que causa una pérdida económica muy grande.","synonyms":["perjudicial"],"image":{"id":7024,"alt":"Un trato causa una pérdida económica muy grande."},"example":{"word":"Ruinoso","text":"El negocio fue ruinoso para la empresa."},"exampleSynonym":{"word":"perjudicial","text":"El negocio fue perjudicial para la empresa."},"situacion":"finanzas"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
 
+// R4506 reviewed and split es
+{const x={"id":"rulo-2","word":"Rulo","definition":"Cilindro pequeño que se usa para rizar el cabello.","synonyms":["rulero"],"image":{"id":7024,"alt":"Un cilindro pequeño sirve para rizar el cabello."},"example":{"word":"Rulo","text":"Se puso un rulo antes de dormir."},"exampleSynonym":{"word":"rulero","text":"Se puso un rulero antes de dormir."},"situacion":"vida-diaria"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else for(const q of a)Object.assign(q,x);}
+
 })();

@@ -81476,5 +81476,55 @@
     "id": "glutton-4",
     "word": "glutton",
     "reason": "An incomplete corrupted entry."
+  },
+  {
+    "id": "gluttony-2",
+    "word": "Gluttony",
+    "reason": "A duplicate definition of the standard gluttony sense."
+  },
+  {
+    "id": "glyceride",
+    "word": "Glyceride",
+    "reason": "A specialized chemistry term with little general synonym value."
+  },
+  {
+    "id": "glycocola",
+    "word": "Glycocola",
+    "reason": "An obsolete variant name for glycine."
+  },
+  {
+    "id": "glycol",
+    "word": "Glycol",
+    "reason": "A technical chemical name with little independent synonym value."
+  },
+  {
+    "id": "glycolysis",
+    "word": "Glycolysis",
+    "reason": "A specialized biochemistry process with limited general synonym value."
+  },
+  {
+    "id": "glyconium",
+    "word": "Glyconium",
+    "reason": "An obscure instrument name with little current synonym value."
+  },
+  {
+    "id": "glycoprotein",
+    "word": "glycoprotein",
+    "reason": "A technical biochemistry term with little general synonym value."
+  },
+  {
+    "id": "glycoside",
+    "word": "Glycoside",
+    "reason": "A specialized chemistry term with no synonym in the entry."
+  },
+  {
+    "id": "glycoside-2",
+    "word": "Glycoside",
+    "reason": "A narrow technical derivative with little general synonym value."
+  },
+  {
+    "id": "glyptic",
+    "word": "Glyptic",
+    "reason": "A rare specialist art term with limited general synonym value."
   }
 ]

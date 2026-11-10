@@ -256855,5 +256855,130 @@
         "text": "El trémulo resplandor de la vela iluminó la habitación."
       }
     }
+  },
+  {
+    "entry": "rular",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rular",
+      "definition": "Desplazarse girando, en uso coloquial.",
+      "synonyms": [
+        "rodar"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Unas ruedas ruedan por un camino."
+      },
+      "example": {
+        "word": "rular",
+        "text": "Los ciclistas suelen rular por la ruta."
+      },
+      "exampleSynonym": {
+        "word": "rodar",
+        "text": "Los ciclistas suelen rodar por la ruta."
+      },
+      "situacion": "regional"
+    }
+  },
+  {
+    "entry": "ruleman",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rulemán",
+      "definition": "Pieza que permite girar a un eje con poca fricción.",
+      "synonyms": [
+        "rodamiento"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un rodamiento permite que gire un eje metálico."
+      },
+      "example": {
+        "word": "rulemán",
+        "text": "El rulemán reduce la fricción del eje."
+      },
+      "exampleSynonym": {
+        "word": "rodamiento",
+        "text": "El rodamiento reduce la fricción del eje."
+      },
+      "situacion": "regional"
+    }
+  },
+  {
+    "entry": "rulero",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rulero",
+      "definition": "Cilindro que se usa para rizar el cabello.",
+      "synonyms": [
+        "bigudí"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un bigudí cilíndrico se usa para rizar el cabello."
+      },
+      "example": {
+        "word": "rulero",
+        "text": "Ella enrolló el cabello en un rulero."
+      },
+      "exampleSynonym": {
+        "word": "bigudí",
+        "text": "Ella enrolló el cabello en un bigudí."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "ruletero",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Ruletero",
+      "definition": "Conductor de taxi, especialmente en varios países americanos.",
+      "synonyms": [
+        "taxista"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un taxista conduce por una calle de la ciudad."
+      },
+      "example": {
+        "word": "ruletero",
+        "text": "El ruletero llevó a los pasajeros al centro."
+      },
+      "exampleSynonym": {
+        "word": "taxista",
+        "text": "El taxista llevó a los pasajeros al centro."
+      },
+      "situacion": "regional"
+    }
+  },
+  {
+    "entry": "rulo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rulo",
+      "definition": "Mechón de cabello que forma un círculo.",
+      "synonyms": [
+        "rizo"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un mechón de cabello forma un rizo."
+      },
+      "example": {
+        "word": "rulo",
+        "text": "Un rulo cayó sobre su frente."
+      },
+      "exampleSynonym": {
+        "word": "rizo",
+        "text": "Un rizo cayó sobre su frente."
+      },
+      "situacion": "vida-diaria"
+    }
   }
 ]
