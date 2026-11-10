@@ -590,7 +590,7 @@ const STATIC_LANG_PAGES = [
   'about/index.html',
   'config/index.html',
   'legal/index.html',
-  'legal/privacidad.html',
+  'legal/index.html',
 ];
 
 for (const path of STATIC_LANG_PAGES) {

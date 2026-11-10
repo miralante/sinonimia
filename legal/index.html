@@ -7,8 +7,8 @@
      index.html. It's reached by typing the address directly, so search
      engines are told not to index it. -->
 <meta name="robots" content="noindex, nofollow">
-<title>Sinonimia — Aviso legal / Legal notice</title>
-<meta name="description" content="Sinonimia: índice de páginas legales (privacidad, licencia, ARASAAC, contacto).">
+<title>Sinonimia — Protección de datos / Data protection</title>
+<meta name="description" content="Sinonimia: qué datos guarda, dónde y por qué. Sin registro, sin cookies, sin analítica.">
 <link rel="icon" type="image/svg+xml" href="../img/logo.svg?v=sinonimia-v7591a68c">
 <meta name="theme-color" content="#0a5c78">
 <meta name="application-name" content="Sinonimia">
@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="../css/locale-picker.css?v=sinonimia-v6aa">
 
 </head>
-<body class="page-legal">
+<body class="page-privacidad">
 
 <div class="container legal">
   <header class="header-legal">
@@ -25,54 +25,121 @@
       <div id="locale-picker"></div>
     </div>
 
-    <div class="logo-legal">⚖</div>
+    <div class="logo-legal"></div>
     <h1>Sinonimia<span>.</span></h1>
-    <p class="tagline" data-lang-block="es">Aviso legal y páginas relacionadas.</p>
-    <p class="tagline" data-lang-block="en">Legal notice and related pages.</p>
+    <p class="tagline" data-lang-block="es">Sin registro. Sin cookies. Sin analítica.</p>
+    <p class="tagline" data-lang-block="en">No registration. No cookies. No analytics.</p>
 
-    <p class="lead" data-lang-block="es">Aquí se reúne todo lo relativo al aviso legal de Sinonimia: privacidad, licencia del código y de los pictogramas, y datos de contacto.</p>
-    <p class="lead" data-lang-block="en">Everything related to Sinonimia's legal notice lives here: privacy, code and pictogram licenses, and contact data.</p>
+    <p class="lead" data-lang-block="es">Sinonimia no pide tus datos personales. Todo lo que guarda vive únicamente en este dispositivo. Aquí explicamos, en detalle, qué se guarda y por qué.</p>
+    <p class="lead" data-lang-block="en">Sinonimia does not ask for your personal data. Everything it saves lives only on this device. Here we explain, in detail, what we save and why.</p>
+
+    <nav class="indice" aria-label="Índice de esta página">
+      <a href="#responsable" data-lang-block="es">Quién trata tus datos</a>
+      <a href="#responsable" data-lang-block="en">Who processes your data</a>
+      <a href="#datos" data-lang-block="es">Qué guardamos</a>
+      <a href="#datos" data-lang-block="en">What we save</a>
+      <a href="#derechos" data-lang-block="es">Tus derechos</a>
+      <a href="#derechos" data-lang-block="en">Your rights</a>
+      <a href="#menores" data-lang-block="es">Todas las edades</a>
+      <a href="#menores" data-lang-block="en">All ages</a>
+      <a href="#fuentes" data-lang-block="es">Fuentes</a>
+      <a href="#fuentes" data-lang-block="en">Sources</a>
+      <a href="#contacto" data-lang-block="es">Cambios y contacto</a>
+      <a href="#contacto" data-lang-block="en">Changes and contact</a>
+    </nav>
   </header>
 
   <main class="stack">
 
-    <section class="card" id="indice">
-      <h2 data-lang-block="es">Páginas legales</h2>
-      <h2 data-lang-block="en">Legal pages</h2>
-
-      <ul class="indice-legal">
-        <li>
-          <a href="privacidad" data-lang-block="es"><strong>Privacidad</strong> — qué datos guarda Sinonimia en tu dispositivo, qué datos no se recogen, y cómo borrar lo guardado.</a>
-          <a href="privacidad" data-lang-block="en"><strong>Privacy</strong> — what Sinonimia saves on your device, what is not collected, and how to delete it.</a>
-        </li>
-      </ul>
-    </section>
-
-    <section class="card" id="licencia">
-      <h2 data-lang-block="es">Licencia del código</h2>
-      <h2 data-lang-block="en">Code license</h2>
+    <section class="card" id="responsable">
+      <h2 data-lang-block="es">Quién trata tus datos</h2>
+      <h2 data-lang-block="en">Who processes your data</h2>
       <div data-lang-block="es">
-        <p>El código de Sinonimia (HTML, CSS y JavaScript) se distribuye bajo licencia <strong>MIT</strong>. El contenido del diccionario se distribuye bajo <strong>CC BY-SA 4.0</strong>. Los pictogramas son de <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (Gobierno de Aragón, autor Sergio Palao) y se usan bajo <strong>CC BY-NC-SA</strong>.</p>
+        <p>Sinonimia es una aplicación desarrollada de forma independiente. No hay ningún servidor propio que reciba o almacene tus datos: la aplicación es un conjunto de páginas estáticas que se ejecutan en tu navegador.</p>
+        <p>El código fuente completo es público y auditable en el <a href="https://github.com/miralante/sinonimia">repositorio de GitHub</a>. Cualquier pregunta sobre esta página puede plantearse abriendo un issue allí.</p>
       </div>
       <div data-lang-block="en">
-        <p>Sinonimia's source code (HTML, CSS and JavaScript) is released under the <strong>MIT</strong> license. The dictionary content is released under <strong>CC BY-SA 4.0</strong>. The pictograms are by <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (Government of Aragón, author Sergio Palao) and are used under <strong>CC BY-NC-SA</strong>.</p>
+        <p>Sinonimia is an independently developed application. There is no server of our own that receives or stores your data: the application is a set of static pages that run in your browser.</p>
+        <p>The full source code is public and auditable in the <a href="https://github.com/miralante/sinonimia">GitHub repository</a>. Any question about this page can be raised by opening an issue there.</p>
+      </div>
+    </section>
+
+    <section class="card" id="datos">
+      <h2 data-lang-block="es">Qué guardamos y por qué</h2>
+      <h2 data-lang-block="en">What we save and why</h2>
+      <div data-lang-block="es">
+        <p>Sinonimia funciona sin cuentas, sin cookies y sin analítica: no sabemos quién eres ni cómo usas la aplicación.</p>
+        <p>Tus ajustes y tu progreso se guardan en el localStorage de tu navegador, en tu propio dispositivo, y nunca se envían a ningún servidor.</p>
+        <p>Además, el navegador guarda una copia de la aplicación para usarla sin conexión. Esa copia no contiene datos personales.</p>
+        <p>Nunca guardamos: nombre, contraseñas, fallos, tiempo empleado, número de intentos, comparaciones con otras personas ni historiales de uso detallados.</p>
+        <p>Esta información se guarda mientras no se borre, y sirve únicamente para que el progreso no se pierda al cerrar la aplicación.</p>
+      </div>
+      <div data-lang-block="en">
+        <p>Sinonimia works without accounts, cookies or analytics: we don't know who you are or how you use the application.</p>
+        <p>Your settings and progress are saved in your browser's localStorage, on your own device, and are never sent to any server.</p>
+        <p>The browser also keeps a copy of the application so it can be used offline. That copy does not contain personal data.</p>
+        <p>We never save: name, passwords, failures, time taken, number of attempts, comparisons with other people, or detailed usage histories.</p>
+        <p>This information is kept until it is deleted, and its only purpose is to stop your progress being lost when you close the application.</p>
+      </div>
+    </section>
+
+    <section class="card" id="derechos">
+      <h2 data-lang-block="es">Tus derechos y cómo ejercerlos</h2>
+      <h2 data-lang-block="en">Your rights and how to exercise them</h2>
+      <div data-lang-block="es">
+        <p>Como todo lo guardado está en tu dispositivo y no en un servidor, tú tienes el control directo: puedes verlo, cambiarlo o borrarlo en cualquier momento, sin pedírnoslo a nosotros.</p>
+        <p>También puedes borrar estos datos borrando los datos de navegación de tu navegador para este sitio, desde su configuración.</p>
+      </div>
+      <div data-lang-block="en">
+        <p>Since everything saved lives on your device and not on a server, you have direct control: you can view it, change it or delete it at any time, without asking us.</p>
+        <p>You can also delete this data by clearing your browser's site data for this website from its settings.</p>
+      </div>
+    </section>
+
+    <section class="card" id="menores">
+      <h2 data-lang-block="es">Todas las edades y capacidades</h2>
+      <h2 data-lang-block="en">All ages and abilities</h2>
+      <div data-lang-block="es">
+        <p>Sinonimia está pensada para que la use de forma autónoma cualquier persona, sin importar su edad ni sus capacidades.</p>
+        <p>Como la aplicación no recoge datos personales en ningún servidor, no es necesario el consentimiento de nadie para tratar datos: no hay ningún tratamiento que autorizar. Sí recomendamos la supervisión habitual que una familia o un profesional haga sobre el uso de cualquier dispositivo.</p>
+      </div>
+      <div data-lang-block="en">
+        <p>Sinonimia is designed to be used autonomously by anyone, regardless of age or abilities.</p>
+        <p>Because the application does not collect personal data on any server, no guardian consent is needed to process data: there is no processing to authorise. We do recommend the usual supervision a family or professional gives to how any device is used.</p>
+      </div>
+    </section>
+
+    <section class="card" id="fuentes">
+      <h2 data-lang-block="es">Fuentes</h2>
+      <h2 data-lang-block="en">Sources</h2>
+      <div data-lang-block="es">
+        <p>Algunas imágenes son pictogramas de <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (Gobierno de Aragón, autor Sergio Palao), usados bajo licencia <strong>CC BY-NC-SA</strong>.</p>
+        <p>Otros pictogramas proceden de <a href="https://www.opensymbols.org/" target="_blank" rel="noopener">OpenSymbols</a>, que agrupa bancos de símbolos con licencia abierta; cada símbolo conserva la licencia de su banco de origen.</p>
+        <p>Las palabras y definiciones del diccionario se basan en el <a href="https://es.wiktionary.org/" target="_blank" rel="noopener">Wikcionario</a> (licencia <strong>CC BY-SA</strong>) y se comprueban en el DLE de la RAE (español) y en Collins (inglés).</p>
+      </div>
+      <div data-lang-block="en">
+        <p>Some images are pictograms by <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (Government of Aragón, author Sergio Palao), used under the <strong>CC BY-NC-SA</strong> license.</p>
+        <p>Other pictograms come from <a href="https://www.opensymbols.org/" target="_blank" rel="noopener">OpenSymbols</a>, which aggregates open-licence symbol libraries; each symbol keeps the licence of its source library.</p>
+        <p>The dictionary words and definitions are based on <a href="https://en.wiktionary.org/" target="_blank" rel="noopener">Wiktionary</a> (<strong>CC BY-SA</strong> license) and checked against the RAE's DLE (Spanish) and Collins (English).</p>
       </div>
     </section>
 
     <section class="card" id="contacto">
-      <h2 data-lang-block="es">Contacto</h2>
-      <h2 data-lang-block="en">Contact</h2>
+      <h2 data-lang-block="es">Cambios y contacto</h2>
+      <h2 data-lang-block="en">Changes and contact</h2>
       <div data-lang-block="es">
-        <p>Para cuestiones legales, escribe al repositorio de GitHub (issues públicos o pull requests). Sinonimia no tiene correo de contacto propio.</p>
+        <p>Esta página puede actualizarse si cambia la aplicación. El historial de cambios es público en el repositorio de GitHub.</p>
+        <p>Para preguntas sobre esta página, abre un issue en el <a href="https://github.com/miralante/sinonimia">repositorio de GitHub</a>.</p>
       </div>
       <div data-lang-block="en">
-        <p>For legal questions, reach out via the GitHub repository (public issues or pull requests). Sinonimia does not maintain a contact email of its own.</p>
+        <p>This page may be updated if the application changes. The change history is public in the GitHub repository.</p>
+        <p>For questions about this page, open an issue in the <a href="https://github.com/miralante/sinonimia">GitHub repository</a>.</p>
       </div>
     </section>
 
   </main>
 
-  <footer data-pie-app data-pie-class="pie-legal" data-pie-extra="Sobre la app^About the app^../about/index.html|../about/index.html"></footer>
+  <footer data-pie-app data-pie-class="pie-legal"></footer>
 </div>
 
 <script src="../about/about.js?v=about-v1"></script>

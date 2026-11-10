@@ -78,7 +78,7 @@ function requirePlaywright() {
      /about/index.html      -> 307 /about/
      /404.html              -> 307 /404
      /offline.html          -> 307 /offline
-     /legal/privacidad.html -> 307 /legal/privacidad
+     /legal/index.html -> 307 /legal/
    and it then serves the extensionless form. Reproduced here, because
    without it no local check in this repo can see this bug. */
 function canonical(p) {

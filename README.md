@@ -326,5 +326,5 @@ local runbook.
 ## More about this project
 
 - [About this project](https://sinonimia.apptonomia.uk/about/)
-- [Privacy](https://sinonimia.apptonomia.uk/legal/privacidad.html)
+- [Privacy](https://sinonimia.apptonomia.uk/legal/)
 
