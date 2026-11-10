@@ -1,7 +1,7 @@
 /*
  * about.js — shared language switcher + footer injector for the static
  * "hidden" routes of Sinonimia (about/index.html, legal/index.html,
- * legal/privacidad.html, and any future route that uses the same
+ * legal/index.html, and any future route that uses the same
  * markup — config/ already loads this script too).
  *
  * These pages are not linked from index.html, the READMEs, or any
@@ -132,4 +132,4 @@
     }
   }
   inyectarPie();
-})();
+})();

@@ -27,7 +27,7 @@
    ============================================================ */
 importScripts('./js/dictionary-data.js');
 
-var VERSION = 'sinonimia-v4999';
+var VERSION = 'sinonimia-v5039';
 
 var FILES = [
   './',
@@ -55,7 +55,7 @@ var FILES = [
   './about/about.js',
   './about/styles.css',
   './legal/',
-  './legal/privacidad.html',
+  './legal/index.html',
   './legal/styles.css',
   './config/',
   './config/config.js'
@@ -67,7 +67,7 @@ var IMG_CACHE = 'sinonimia-img';
 
 /* Cloudflare answers EVERY "/x.html" URL with a 307 to its extensionless form
    (/index.html -> /, /404.html -> /404, /offline.html -> /offline,
-   /legal/privacidad.html -> /legal/privacidad). Following that redirect yields
+   /legal/index.html -> /legal/). Following that redirect yields
    a response with `redirected === true`, and the Cache API PRESERVES that flag
    across a store/load round trip, so cache.add() silently poisons the entry
    under its original key. Chrome refuses to hand such a response to a top-level

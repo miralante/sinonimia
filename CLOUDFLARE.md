@@ -80,8 +80,8 @@ service-account keys.
 | Root directory | *(empty — repo root)* |
 
 No environment variables are required: the app makes no
-server-side calls. The ARASAAC pictograms are public static images,
-served from `https://static.arasaac.org`.
+server-side calls. The ARASAAC pictograms are static images bundled in `img/` and
+served from the same origin as the site.
 
 ## Required Cloudflare headers
 
