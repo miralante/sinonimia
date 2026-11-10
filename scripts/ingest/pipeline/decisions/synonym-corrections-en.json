@@ -253165,335 +253165,6 @@
     }
   },
   {
-    "entry": "gist",
-    "remove": [],
-    "unset": [
-      "translation"
-    ],
-    "set": {
-      "word": "gist",
-      "definition": "The main point or meaning of something said or written.",
-      "synonyms": [
-        "main point",
-        "essence"
-      ],
-      "image": {
-        "id": 7024,
-        "alt": "A person explains the central idea of a text."
-      },
-      "example": {
-        "word": "gist",
-        "text": "I missed a few details, but I understood the gist of the talk."
-      },
-      "exampleSynonym": {
-        "word": "main point",
-        "text": "I missed a few details, but I understood the main point of the talk."
-      },
-      "situacion": "conocimiento"
-    }
-  },
-  {
-    "entry": "give",
-    "remove": [],
-    "unset": [
-      "translation"
-    ],
-    "set": {
-      "word": "give",
-      "definition": "To hand or transfer something to someone so they can have or use it.",
-      "synonyms": [
-        "hand",
-        "pass"
-      ],
-      "image": {
-        "id": 7024,
-        "alt": "One person hands a book to another."
-      },
-      "example": {
-        "word": "give",
-        "text": "Please give me the book when you finish reading it."
-      },
-      "exampleSynonym": {
-        "word": "hand",
-        "text": "Please hand me the book when you finish reading it."
-      },
-      "situacion": "vida-diaria"
-    }
-  },
-  {
-    "entry": "give-2",
-    "remove": [],
-    "unset": [
-      "translation"
-    ],
-    "set": {
-      "word": "give",
-      "definition": "To give money or things as gifts, often to help a person or cause.",
-      "synonyms": [
-        "donate"
-      ],
-      "image": {
-        "id": 7024,
-        "alt": "People donate items to a charity."
-      },
-      "example": {
-        "word": "give",
-        "text": "They give clothes to the local shelter every winter."
-      },
-      "exampleSynonym": {
-        "word": "donate",
-        "text": "They donate clothes to the local shelter every winter."
-      },
-      "situacion": "sociedad"
-    }
-  },
-  {
-    "entry": "give-3",
-    "remove": [],
-    "unset": [
-      "translation"
-    ],
-    "set": {
-      "word": "give",
-      "definition": "To cause someone to feel or have something, or to provide it.",
-      "synonyms": [
-        "provide",
-        "cause"
-      ],
-      "image": {
-        "id": 7024,
-        "alt": "A teacher gives a student useful advice."
-      },
-      "example": {
-        "word": "give",
-        "text": "Her advice gave me confidence before the interview."
-      },
-      "exampleSynonym": {
-        "word": "provide",
-        "text": "Her advice provided me with confidence before the interview."
-      },
-      "situacion": "vida-diaria"
-    }
-  },
-  {
-    "entry": "give-4",
-    "remove": [],
-    "unset": [
-      "translation"
-    ],
-    "set": {
-      "word": "give",
-      "definition": "To allow someone to have a right, chance, or permission.",
-      "synonyms": [
-        "grant"
-      ],
-      "image": {
-        "id": 7024,
-        "alt": "A person receives permission to enter."
-      },
-      "example": {
-        "word": "give",
-        "text": "The school gave us permission to use the library."
-      },
-      "exampleSynonym": {
-        "word": "grant",
-        "text": "The school granted us permission to use the library."
-      },
-      "situacion": "sociedad"
-    }
-  },
-  {
-    "entry": "give-5",
-    "remove": [],
-    "unset": [
-      "translation"
-    ],
-    "set": {
-      "word": "give",
-      "definition": "To bend, move, or break when force is applied.",
-      "synonyms": [
-        "yield"
-      ],
-      "image": {
-        "id": 7024,
-        "alt": "A branch bends under pressure."
-      },
-      "example": {
-        "word": "give",
-        "text": "The old branch gave under the weight of the snow."
-      },
-      "exampleSynonym": {
-        "word": "yield",
-        "text": "The old branch yielded under the weight of the snow."
-      },
-      "situacion": "naturaleza"
-    }
-  },
-  {
-    "entry": "give-away",
-    "remove": [],
-    "unset": [
-      "translation"
-    ],
-    "set": {
-      "word": "give away",
-      "definition": "To give something to someone without asking for payment.",
-      "synonyms": [
-        "donate",
-        "give freely"
-      ],
-      "image": {
-        "id": 7024,
-        "alt": "A person gives away a box of books."
-      },
-      "example": {
-        "word": "give away",
-        "text": "She gave away her old books to the community center."
-      },
-      "exampleSynonym": {
-        "word": "donate",
-        "text": "She donated her old books to the community center."
-      },
-      "situacion": "sociedad"
-    }
-  },
-  {
-    "entry": "give-away-2",
-    "remove": [],
-    "unset": [],
-    "set": {
-      "word": "give away",
-      "definition": "To reveal a secret or information that was meant to stay hidden.",
-      "synonyms": [
-        "reveal"
-      ],
-      "image": {
-        "id": 7024,
-        "alt": "Someone accidentally reveals a secret."
-      },
-      "example": {
-        "word": "give away",
-        "text": "His nervous smile gave away the surprise."
-      },
-      "exampleSynonym": {
-        "word": "reveal",
-        "text": "His nervous smile revealed the surprise."
-      },
-      "situacion": "sociedad"
-    }
-  },
-  {
-    "entry": "give-back",
-    "remove": [],
-    "unset": [
-      "translation"
-    ],
-    "set": {
-      "word": "give back",
-      "definition": "To return something to the person who owns it.",
-      "synonyms": [
-        "return",
-        "hand back"
-      ],
-      "image": {
-        "id": 7024,
-        "alt": "A person returns a borrowed book."
-      },
-      "example": {
-        "word": "give back",
-        "text": "Please give back the library book by Friday."
-      },
-      "exampleSynonym": {
-        "word": "return",
-        "text": "Please return the library book by Friday."
-      },
-      "situacion": "vida-diaria"
-    }
-  },
-  {
-    "entry": "give-back-2",
-    "remove": [],
-    "unset": [
-      "translation"
-    ],
-    "set": {
-      "word": "give back",
-      "definition": "To help a person or community in return for help or support received.",
-      "synonyms": [
-        "contribute"
-      ],
-      "image": {
-        "id": 7024,
-        "alt": "Volunteers help their local community."
-      },
-      "example": {
-        "word": "give back",
-        "text": "After the town helped her family, she wanted to give back."
-      },
-      "exampleSynonym": {
-        "word": "contribute",
-        "text": "After the town helped her family, she wanted to contribute."
-      },
-      "situacion": "sociedad"
-    }
-  },
-  {
-    "entry": "give-birth",
-    "remove": [],
-    "unset": [
-      "translation"
-    ],
-    "set": {
-      "word": "give birth",
-      "definition": "To have a baby or young animal.",
-      "synonyms": [
-        "deliver a baby",
-        "bear young"
-      ],
-      "image": {
-        "id": 7024,
-        "alt": "A newborn baby rests in a parent’s arms."
-      },
-      "example": {
-        "word": "give birth",
-        "text": "The mare gave birth to a foal in spring."
-      },
-      "exampleSynonym": {
-        "word": "bear young",
-        "text": "The mare bore young in spring."
-      },
-      "situacion": "naturaleza"
-    }
-  },
-  {
-    "entry": "give-in",
-    "remove": [],
-    "unset": [
-      "translation"
-    ],
-    "set": {
-      "word": "give in",
-      "definition": "To stop resisting or to agree to something after pressure.",
-      "synonyms": [
-        "yield",
-        "surrender"
-      ],
-      "image": {
-        "id": 7024,
-        "alt": "A person agrees after a long discussion."
-      },
-      "example": {
-        "word": "give in",
-        "text": "After hours of discussion, he gave in and accepted the plan."
-      },
-      "exampleSynonym": {
-        "word": "yield",
-        "text": "After hours of discussion, he yielded and accepted the plan."
-      },
-      "situacion": "sociedad"
-    }
-  },
-  {
     "entry": "select",
     "remove": [],
     "set": {
@@ -253617,6 +253288,227 @@
         "word": "revival",
         "text": "The theater’s revival brought new life to the neighborhood."
       }
+    }
+  },
+  {
+    "entry": "gist",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "gist",
+      "definition": "The main point or meaning of something said or written.",
+      "synonyms": [
+        "main point",
+        "essence"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person explains the central idea of a text."
+      },
+      "example": {
+        "word": "gist",
+        "text": "I missed a few details, but I understood the gist of the talk."
+      },
+      "exampleSynonym": {
+        "word": "main point",
+        "text": "I missed a few details, but I understood the main point of the talk."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "give",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give",
+      "definition": "To transfer something to someone for them to have or use.",
+      "synonyms": [
+        "hand",
+        "pass"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "One person hands a book to another."
+      },
+      "example": {
+        "word": "give",
+        "text": "Please give me the book when you finish reading it."
+      },
+      "exampleSynonym": {
+        "word": "hand",
+        "text": "Please hand me the book when you finish reading it."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "give-2",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give",
+      "definition": "To donate gifts or money, often to help a person or cause.",
+      "synonyms": [
+        "donate"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "People donate items to a charity."
+      },
+      "example": {
+        "word": "give",
+        "text": "They give clothes to the local shelter every winter."
+      },
+      "exampleSynonym": {
+        "word": "donate",
+        "text": "They donate clothes to the local shelter every winter."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "give-away",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give away",
+      "definition": "To give something to someone without asking for payment.",
+      "synonyms": [
+        "donate",
+        "give freely"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person gives away a box of books."
+      },
+      "example": {
+        "word": "give away",
+        "text": "She will give away her old books to the community center."
+      },
+      "exampleSynonym": {
+        "word": "donate",
+        "text": "She will donate her old books to the community center."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "give-back",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give back",
+      "definition": "To return something to the person who owns it.",
+      "synonyms": [
+        "return",
+        "hand back"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person returns a borrowed book."
+      },
+      "example": {
+        "word": "give back",
+        "text": "Please give back the library book by Friday."
+      },
+      "exampleSynonym": {
+        "word": "return",
+        "text": "Please return the library book by Friday."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "give-back-2",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give back",
+      "definition": "To help a person or community in return for their support.",
+      "synonyms": [
+        "contribute"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Volunteers help their local community."
+      },
+      "example": {
+        "word": "give back",
+        "text": "After the town helped her family, she wanted to give back."
+      },
+      "exampleSynonym": {
+        "word": "contribute",
+        "text": "After the town helped her family, she wanted to contribute."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "give-birth",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give birth",
+      "definition": "To have a baby or young animal.",
+      "synonyms": [
+        "deliver a baby"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A newborn baby rests in a parent’s arms."
+      },
+      "example": {
+        "word": "give birth",
+        "text": "She plans to give birth in the spring."
+      },
+      "exampleSynonym": {
+        "word": "deliver a baby",
+        "text": "She plans to deliver a baby in the spring."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "give-in",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "give in",
+      "definition": "To stop resisting or to agree to something after pressure.",
+      "synonyms": [
+        "yield",
+        "surrender"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person agrees after a long discussion."
+      },
+      "example": {
+        "word": "give in",
+        "text": "They may give in after hours of discussion."
+      },
+      "exampleSynonym": {
+        "word": "yield",
+        "text": "They may yield after hours of discussion."
+      },
+      "situacion": "sociedad"
     }
   }
 ]

@@ -254131,60 +254131,6 @@
     }
   },
   {
-    "entry": "roscon",
-    "remove": [],
-    "unset": [
-      "translation"
-    ],
-    "set": {
-      "word": "Roscón",
-      "definition": "Bollo grande con forma de anillo.",
-      "synonyms": [
-        "rosco"
-      ],
-      "image": {
-        "id": 7024,
-        "alt": "Un bollo grande con forma de anillo."
-      },
-      "example": {
-        "word": "roscón",
-        "text": "Compramos un roscón para compartirlo en la merienda."
-      },
-      "exampleSynonym": {
-        "word": "rosco",
-        "text": "Compramos un rosco para compartirlo en la merienda."
-      },
-      "situacion": "comida"
-    }
-  },
-  {
-    "entry": "rosicler",
-    "remove": [],
-    "unset": [
-      "translation"
-    ],
-    "set": {
-      "word": "Rosicler",
-      "definition": "Color rosa claro y suave, parecido al del cielo al amanecer.",
-      "synonyms": [
-        "rosa claro"
-      ],
-      "image": {
-        "id": 7024,
-        "alt": "El cielo tiene un tono rosa claro al amanecer."
-      },
-      "example": {
-        "word": "rosicler",
-        "text": "El cielo se tiñó de rosicler antes de salir el sol."
-      },
-      "exampleSynonym": {
-        "word": "rosa claro",
-        "text": "El cielo tomó un tono rosa claro antes de salir el sol."
-      },
-      "situacion": "naturaleza"
-    }
-  },
-  {
     "entry": "vitrinear",
     "remove": [],
     "set": {
@@ -254236,7 +254182,7 @@
       },
       "exampleSynonym": {
         "word": "planear",
-        "text": "El equipo planeó el viaje con varias semanas de antelación."
+        "text": "El equipo decidió planear el viaje con varias semanas de antelación."
       }
     }
   },
@@ -254308,6 +254254,60 @@
         "word": "garra",
         "text": "El gato apoyó la garra en el borde de la ventana."
       }
+    }
+  },
+  {
+    "entry": "roscon",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Roscón",
+      "definition": "Bollo grande con forma de anillo.",
+      "synonyms": [
+        "rosco"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un bollo grande con forma de anillo."
+      },
+      "example": {
+        "word": "roscón",
+        "text": "Compramos un roscón para compartirlo en la merienda."
+      },
+      "exampleSynonym": {
+        "word": "rosco",
+        "text": "Compramos un rosco para compartirlo en la merienda."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "rosicler",
+    "remove": [],
+    "unset": [
+      "translation"
+    ],
+    "set": {
+      "word": "Rosicler",
+      "definition": "Color rosa claro y suave, parecido al del cielo al amanecer.",
+      "synonyms": [
+        "rosa claro"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "El cielo tiene un tono rosa claro al amanecer."
+      },
+      "example": {
+        "word": "rosicler",
+        "text": "El cielo se tiñó de rosicler antes de salir el sol."
+      },
+      "exampleSynonym": {
+        "word": "rosa claro",
+        "text": "El cielo tomó un tono rosa claro antes de salir el sol."
+      },
+      "situacion": "naturaleza"
     }
   }
 ]

@@ -31779,10 +31779,19 @@ rosbif
 rosca
 rosca de Reyes
 roscadero
+roscado
+roscar
 rosco
 roscón de Reyes
+rosear
+rosedal
+róseo
+roséola
+rosero
 roseta
 rosetón
+rosigón
+rosillo
 rosquete
 rosquilla
 rosquilleta
