@@ -256362,5 +256362,164 @@
       },
       "situacion": "legal"
     }
+  },
+  {
+    "entry": "ruedo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Ruedo",
+      "definition": "Espacio circular que rodea algo.",
+      "synonyms": [
+        "espacio circular"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un espacio circular rodea una fuente en una plaza."
+      },
+      "example": {
+        "word": "ruedo",
+        "text": "El ruedo de la plaza estaba lleno de gente."
+      },
+      "exampleSynonym": {
+        "word": "espacio circular",
+        "text": "El espacio circular de la plaza estaba lleno de gente."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "ruego",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Ruego",
+      "definition": "Petición que se hace para obtener algo.",
+      "synonyms": [
+        "súplica"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona hace una petición con gesto serio."
+      },
+      "example": {
+        "word": "ruego",
+        "text": "Su ruego logró cambiar la decisión."
+      },
+      "exampleSynonym": {
+        "word": "súplica",
+        "text": "Su súplica logró cambiar la decisión."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "rufian",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rufián",
+      "definition": "Persona cruel o desvergonzada que actúa sin escrúpulos.",
+      "synonyms": [
+        "sinvergüenza"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un hombre con gesto desafiante discute en una calle."
+      },
+      "example": {
+        "word": "rufián",
+        "text": "El rufián engañó a sus propios socios."
+      },
+      "exampleSynonym": {
+        "word": "sinvergüenza",
+        "text": "El sinvergüenza engañó a sus propios socios."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "tura",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tura",
+        "text": "La tura de las obras fue de varios meses."
+      },
+      "exampleSynonym": {
+        "word": "duración",
+        "text": "La duración de las obras fue de varios meses."
+      }
+    }
+  },
+  {
+    "entry": "tunalmil",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tunalmil",
+        "text": "La familia sembró el tunalmil al comenzar las lluvias."
+      },
+      "exampleSynonym": {
+        "word": "milpa de verano",
+        "text": "La familia sembró la milpa de verano al comenzar las lluvias."
+      }
+    }
+  },
+  {
+    "entry": "tuza",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tuza",
+        "text": "La tuza protegió los granos de la mazorca."
+      },
+      "exampleSynonym": {
+        "word": "hoja de maíz",
+        "text": "La hoja de maíz protegió los granos de la mazorca."
+      }
+    }
+  },
+  {
+    "entry": "tramojo",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tramojo",
+        "text": "El tramojo impidió que el animal cruzara la alambrada."
+      },
+      "exampleSynonym": {
+        "word": "palo de sujeción",
+        "text": "El palo de sujeción impidió que el animal cruzara la alambrada."
+      }
+    }
+  },
+  {
+    "entry": "tranchete",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tranchete",
+        "text": "La vendimiadora afiló el tranchete antes de podar la vid."
+      },
+      "exampleSynonym": {
+        "word": "podadera",
+        "text": "La vendimiadora afiló la podadera antes de podar la vid."
+      }
+    }
+  },
+  {
+    "entry": "tortuguilla",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tortuguilla",
+        "text": "La tortuguilla dañó las raíces de las plantas de frijol."
+      },
+      "exampleSynonym": {
+        "word": "escarabajo de cultivo",
+        "text": "El escarabajo de cultivo dañó las raíces de las plantas de frijol."
+      }
+    }
   }
 ]

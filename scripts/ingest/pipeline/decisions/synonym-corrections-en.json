@@ -255987,5 +255987,189 @@
       },
       "situacion": "vida-diaria"
     }
+  },
+  {
+    "entry": "glossolalia",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glossolalia",
+      "definition": "Speaking in sounds others cannot understand, often during religious practice.",
+      "synonyms": [
+        "speaking in tongues"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person speaks during a religious gathering."
+      },
+      "example": {
+        "word": "glossolalia",
+        "text": "The book describes glossolalia during worship."
+      },
+      "exampleSynonym": {
+        "word": "speaking in tongues",
+        "text": "The book describes speaking in tongues during worship."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "glossy",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glossy",
+      "definition": "Shiny and smooth, especially on a surface.",
+      "synonyms": [
+        "shiny"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A smooth surface reflects light."
+      },
+      "example": {
+        "word": "glossy",
+        "text": "The glossy paint reflected the light."
+      },
+      "exampleSynonym": {
+        "word": "shiny",
+        "text": "The shiny paint reflected the light."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "glove",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "glove",
+      "definition": "A hand covering with separate sections for each finger.",
+      "synonyms": [
+        "hand covering"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A glove covers a hand with a section for each finger."
+      },
+      "example": {
+        "word": "glove",
+        "text": "She wore a warm glove in the snow."
+      },
+      "exampleSynonym": {
+        "word": "hand covering",
+        "text": "She wore a warm hand covering in the snow."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gloss",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gloss",
+      "definition": "To add notes that explain a word or passage.",
+      "synonyms": [
+        "annotate"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A student writes short notes beside a difficult word."
+      },
+      "example": {
+        "word": "gloss",
+        "text": "The editor will gloss the old term."
+      },
+      "exampleSynonym": {
+        "word": "annotate",
+        "text": "The editor will annotate the old term."
+      },
+      "situacion": "educacion"
+    }
+  },
+  {
+    "entry": "trawler",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "trawler",
+        "text": "The trawler dragged its net through the water."
+      },
+      "exampleSynonym": {
+        "word": "fishing trawler",
+        "text": "The fishing trawler dragged its net through the water."
+      }
+    }
+  },
+  {
+    "entry": "subbranchial",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "subbranchial",
+        "text": "The subbranchial region contains several important structures."
+      },
+      "exampleSynonym": {
+        "word": "below the gills",
+        "text": "The region below the gills contains several important structures."
+      }
+    }
+  },
+  {
+    "entry": "sadism",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "sadism",
+        "text": "The novel depicts sadism as a recurring pattern of abuse."
+      },
+      "exampleSynonym": {
+        "word": "sadistic behavior",
+        "text": "The novel depicts sadistic behavior as a recurring pattern of abuse."
+      }
+    }
+  },
+  {
+    "entry": "streptococcus",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Streptococcus",
+        "text": "Streptococcus can cause infections in humans."
+      },
+      "exampleSynonym": {
+        "word": "streptococcal bacterium",
+        "text": "A streptococcal bacterium can cause infections in humans."
+      }
+    }
+  },
+  {
+    "entry": "stone-fence",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "stone fence",
+        "text": "The stone fence kept rain from washing the wax away."
+      },
+      "exampleSynonym": {
+        "word": "stone wall",
+        "text": "The stone wall kept rain from washing the wax away."
+      }
+    }
+  },
+  {
+    "entry": "sparteine",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "sparteine",
+        "text": "Sparteine is an alkaloid found in broom plants."
+      },
+      "exampleSynonym": {
+        "word": "quinolizidine alkaloid",
+        "text": "Sparteine is a quinolizidine alkaloid found in broom plants."
+      }
+    }
   }
 ]
