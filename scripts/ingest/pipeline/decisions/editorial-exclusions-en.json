@@ -81761,5 +81761,50 @@
     "id": "gogo",
     "word": "Gogo",
     "reason": "A niche dance occupation term with no concise synonym."
+  },
+  {
+    "id": "goiter-2",
+    "word": "goiter",
+    "reason": "A duplicate malformed gloss of the retained thyroid swelling sense."
+  },
+  {
+    "id": "goitre",
+    "word": "goitre",
+    "reason": "A spelling variant duplicating the retained American headword goiter."
+  },
+  {
+    "id": "golden",
+    "word": "golden",
+    "reason": "A corrupted fish-name entry with no reliable synonym value."
+  },
+  {
+    "id": "goldfinch",
+    "word": "goldfinch",
+    "reason": "The source entry is malformed and has no concise exact synonym."
+  },
+  {
+    "id": "goldsmith-2",
+    "word": "goldsmith",
+    "reason": "A duplicate of the corrected goldsmith entry."
+  },
+  {
+    "id": "goliardesque",
+    "word": "Goliardesque",
+    "reason": "A rare historical adjective derived from a specialized literary group."
+  },
+  {
+    "id": "gonadic",
+    "word": "Gonadic",
+    "reason": "A spelling variant duplicating the more common gonadal."
+  },
+  {
+    "id": "gonce",
+    "word": "Gonce",
+    "reason": "A corrupted or non-English entry without reliable synonym value."
+  },
+  {
+    "id": "gonet",
+    "word": "Gonet",
+    "reason": "A corrupted definition with no recognized English sense."
   }
 ]

@@ -258042,5 +258042,498 @@
       },
       "situacion": "historia"
     }
+  },
+  {
+    "entry": "gestero",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Gestero",
+        "text": "El gestero contó la historia moviendo mucho las manos."
+      },
+      "exampleSynonym": {
+        "word": "gesticulador",
+        "text": "El gesticulador contó la historia moviendo mucho las manos."
+      }
+    }
+  },
+  {
+    "entry": "ludopata",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Ludópata",
+        "text": "El ludópata pidió ayuda para dejar las apuestas."
+      },
+      "exampleSynonym": {
+        "word": "persona con ludopatía",
+        "text": "La persona con ludopatía pidió ayuda para dejar las apuestas."
+      }
+    }
+  },
+  {
+    "entry": "plazoleta",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Plazoleta",
+        "text": "La plazoleta del barrio tiene bancos y árboles."
+      },
+      "exampleSynonym": {
+        "word": "plazuela",
+        "text": "La plazuela del barrio tiene bancos y árboles."
+      }
+    }
+  },
+  {
+    "entry": "tracalear",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Tracalear",
+        "text": "El comerciante intentó tracalear a sus clientes con una oferta falsa."
+      },
+      "exampleSynonym": {
+        "word": "estafar",
+        "text": "El comerciante intentó estafar a sus clientes con una oferta falsa."
+      }
+    }
+  },
+  {
+    "entry": "traspatio",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Traspatio",
+        "text": "El traspatio tiene una puerta que da al jardín."
+      },
+      "exampleSynonym": {
+        "word": "patio trasero",
+        "text": "El patio trasero tiene una puerta que da al jardín."
+      }
+    }
+  },
+  {
+    "entry": "validador",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Validador",
+        "text": "El validador leyó la tarjeta de transporte al subir al bus."
+      },
+      "exampleSynonym": {
+        "word": "verificador",
+        "text": "El verificador leyó la tarjeta de transporte al subir al bus."
+      }
+    }
+  },
+  {
+    "entry": "sabaya",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sabaya",
+      "definition": "Desván o habitación bajo el tejado de una casa.",
+      "synonyms": [
+        "desván"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Cajas se guardan en un espacio bajo el tejado."
+      },
+      "example": {
+        "word": "sabaya",
+        "text": "La sabaya guardaba las cajas de la familia."
+      },
+      "exampleSynonym": {
+        "word": "desván",
+        "text": "El desván guardaba las cajas de la familia."
+      },
+      "situacion": "vivienda"
+    }
+  },
+  {
+    "entry": "sabbat",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sabbat",
+      "definition": "En el judaísmo, día de descanso semanal.",
+      "synonyms": [
+        "sábado"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una familia descansa durante el día sagrado semanal."
+      },
+      "example": {
+        "word": "sabbat",
+        "text": "La familia celebró el sabbat en casa."
+      },
+      "exampleSynonym": {
+        "word": "sábado",
+        "text": "La familia celebró el sábado en casa."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "sabedor",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sabedor",
+      "definition": "Que conoce bien un tema o asunto.",
+      "synonyms": [
+        "conocedor"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona explica un tema que conoce."
+      },
+      "example": {
+        "word": "sabedor",
+        "text": "El sabedor del tema respondió las preguntas."
+      },
+      "exampleSynonym": {
+        "word": "conocedor",
+        "text": "El conocedor del tema respondió las preguntas."
+      },
+      "situacion": "educacion"
+    }
+  },
+  {
+    "entry": "sabelotodo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sabelotodo",
+      "definition": "Persona que presume de saber mucho, aunque no sea así.",
+      "synonyms": [
+        "pedante"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona interrumpe para presumir de saberlo todo."
+      },
+      "example": {
+        "word": "sabelotodo",
+        "text": "El sabelotodo corrigió a todos en la reunión."
+      },
+      "exampleSynonym": {
+        "word": "pedante",
+        "text": "El pedante corrigió a todos en la reunión."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "sabidillo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sabidillo",
+      "definition": "Que presume de saber mucho sin serlo.",
+      "synonyms": [
+        "sabelotodo"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona presume de saber mucho."
+      },
+      "example": {
+        "word": "sabidillo",
+        "text": "El sabidillo interrumpió para corregir a todos."
+      },
+      "exampleSynonym": {
+        "word": "sabelotodo",
+        "text": "El sabelotodo interrumpió para corregir a todos."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "sabiduria",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sabiduría",
+      "definition": "Conocimiento profundo de muchas materias o campos.",
+      "synonyms": [
+        "erudición"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona consulta libros de distintas materias."
+      },
+      "example": {
+        "word": "sabiduría",
+        "text": "Su sabiduría impresionó a quienes la escucharon."
+      },
+      "exampleSynonym": {
+        "word": "erudición",
+        "text": "Su erudición impresionó a quienes la escucharon."
+      },
+      "situacion": "educacion"
+    }
+  },
+  {
+    "entry": "sabiendas",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "A sabiendas",
+      "definition": "Con conocimiento de lo que se hace o de sus consecuencias.",
+      "synonyms": [
+        "deliberadamente"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona firma un documento sabiendo el riesgo."
+      },
+      "example": {
+        "word": "a sabiendas",
+        "text": "Firmó a sabiendas del riesgo."
+      },
+      "exampleSynonym": {
+        "word": "deliberadamente",
+        "text": "Firmó deliberadamente y conocía el riesgo."
+      },
+      "situacion": "legal"
+    }
+  },
+  {
+    "entry": "tolva",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Tolva",
+        "text": "La tolva almacenó el grano antes de cargarlo."
+      },
+      "exampleSynonym": {
+        "word": "depósito",
+        "text": "El depósito almacenó el grano antes de cargarlo."
+      }
+    }
+  },
+  {
+    "entry": "topografico",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Topográfico",
+        "text": "El mapa topográfico muestra las curvas de nivel."
+      },
+      "exampleSynonym": {
+        "word": "relativo a la topografía",
+        "text": "El mapa relativo a la topografía muestra las curvas de nivel."
+      }
+    }
+  },
+  {
+    "entry": "toponimia",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Toponimia",
+        "text": "La toponimia de la región conserva nombres indígenas."
+      },
+      "exampleSynonym": {
+        "word": "estudio de topónimos",
+        "text": "El estudio de topónimos de la región conserva nombres indígenas."
+      }
+    }
+  },
+  {
+    "entry": "torchuelo",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Torchuelo",
+        "text": "El herrero cortó un torchuelo para reforzar la puerta."
+      },
+      "exampleSynonym": {
+        "word": "tocho de hierro",
+        "text": "El herrero cortó un tocho de hierro para reforzar la puerta."
+      }
+    }
+  },
+  {
+    "entry": "tornavoz",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Tornavoz",
+        "text": "El tornavoz proyecta la voz del orador hacia la nave."
+      },
+      "exampleSynonym": {
+        "word": "dosel de púlpito",
+        "text": "El dosel de púlpito proyecta la voz del orador hacia la nave."
+      }
+    }
+  },
+  {
+    "entry": "tratativa",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Tratativa",
+        "text": "La tratativa entre las empresas duró varias semanas."
+      },
+      "exampleSynonym": {
+        "word": "negociación",
+        "text": "La negociación entre las empresas duró varias semanas."
+      }
+    }
+  },
+  {
+    "entry": "sabiondo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sabiondo",
+      "definition": "Que presume de saber mucho sin serlo.",
+      "synonyms": [
+        "sabelotodo"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona presume de conocer todas las respuestas."
+      },
+      "example": {
+        "word": "sabiondo",
+        "text": "El sabiondo interrumpió para corregir a todos."
+      },
+      "exampleSynonym": {
+        "word": "sabelotodo",
+        "text": "El sabelotodo interrumpió para corregir a todos."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "sabio",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sabio",
+      "definition": "Persona con profundos conocimientos en una materia, ciencia o arte.",
+      "synonyms": [
+        "erudito"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona experta explica un tema a sus estudiantes."
+      },
+      "example": {
+        "word": "sabio",
+        "text": "El sabio explicó cómo funcionan las estrellas."
+      },
+      "exampleSynonym": {
+        "word": "erudito",
+        "text": "El erudito explicó cómo funcionan las estrellas."
+      },
+      "situacion": "educacion"
+    }
+  },
+  {
+    "entry": "sabir",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sabir",
+      "definition": "Lengua franca de base romance.",
+      "synonyms": [
+        "pidgin"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Dos personas que hablan idiomas distintos se entienden con una lengua común."
+      },
+      "example": {
+        "word": "sabir",
+        "text": "El sabir permitió que comerciantes de varios países se entendieran."
+      },
+      "exampleSynonym": {
+        "word": "pidgin",
+        "text": "El pidgin permitió que comerciantes de varios países se entendieran."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "sablazo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sablazo",
+      "definition": "Golpe dado con un sable.",
+      "synonyms": [
+        "mandoble"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un combatiente golpea con un sable."
+      },
+      "example": {
+        "word": "sablazo",
+        "text": "El sablazo dañó el escudo del soldado."
+      },
+      "exampleSynonym": {
+        "word": "mandoble",
+        "text": "El mandoble dañó el escudo del soldado."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "sable",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sable",
+      "definition": "Arma blanca, curva y de un solo filo.",
+      "synonyms": [
+        "espada curva"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un sable curvo cuelga de un cinturón."
+      },
+      "example": {
+        "word": "sable",
+        "text": "El oficial llevaba un sable en el cinturón."
+      },
+      "exampleSynonym": {
+        "word": "espada curva",
+        "text": "El oficial llevaba una espada curva en el cinturón."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "sableada",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sableada",
+      "definition": "En México, petición de dinero hecha con insistencia o abuso.",
+      "synonyms": [
+        "sablazo"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona pide dinero a un amigo de forma insistente."
+      },
+      "example": {
+        "word": "sableada",
+        "text": "La sableada de su primo lo dejó sin dinero."
+      },
+      "exampleSynonym": {
+        "word": "sablazo",
+        "text": "El sablazo de su primo lo dejó sin dinero."
+      },
+      "situacion": "finanzas"
+    }
   }
 ]

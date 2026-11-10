@@ -257784,5 +257784,573 @@
       },
       "situacion": "seguridad"
     }
+  },
+  {
+    "entry": "smite",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "smite",
+        "text": "The warrior tried to smite the enemy with one blow."
+      },
+      "exampleSynonym": {
+        "word": "strike",
+        "text": "The warrior tried to strike the enemy with one blow."
+      }
+    }
+  },
+  {
+    "entry": "symbolize",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Symbolize",
+        "text": "A dove can symbolize peace."
+      },
+      "exampleSynonym": {
+        "word": "represent",
+        "text": "A dove can represent peace."
+      }
+    }
+  },
+  {
+    "entry": "speculate",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Speculate",
+        "text": "We can only speculate about the cause."
+      },
+      "exampleSynonym": {
+        "word": "conjecture",
+        "text": "We can only conjecture about the cause."
+      }
+    }
+  },
+  {
+    "entry": "subfaults",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Subfaults",
+        "text": "Researchers mapped the subfaults near the main fault."
+      },
+      "exampleSynonym": {
+        "word": "secondary faults",
+        "text": "Researchers mapped the secondary faults near the main fault."
+      }
+    }
+  },
+  {
+    "entry": "tax-clerk",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Tax clerk",
+        "text": "The tax clerk reviewed the forms before filing them."
+      },
+      "exampleSynonym": {
+        "word": "tax office clerk",
+        "text": "The tax office clerk reviewed the forms before filing them."
+      }
+    }
+  },
+  {
+    "entry": "vice-manager",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Vice Manager",
+        "text": "The vice manager approved the schedule."
+      },
+      "exampleSynonym": {
+        "word": "assistant manager",
+        "text": "The assistant manager approved the schedule."
+      }
+    }
+  },
+  {
+    "entry": "goings-on",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goings-on",
+      "definition": "Events or actions that are happening.",
+      "synonyms": [
+        "events"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "People discuss the events happening in their town."
+      },
+      "example": {
+        "word": "goings-on",
+        "text": "We discussed the goings-on in town."
+      },
+      "exampleSynonym": {
+        "word": "events",
+        "text": "We discussed the events in town."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "goiter",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goiter",
+      "definition": "Swelling at the front of the neck from an enlarged thyroid gland.",
+      "synonyms": [
+        "thyroid swelling"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A diagram shows a swollen thyroid gland."
+      },
+      "example": {
+        "word": "goiter",
+        "text": "The doctor examined the goiter in her neck."
+      },
+      "exampleSynonym": {
+        "word": "thyroid swelling",
+        "text": "The doctor examined the thyroid swelling in her neck."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "gold",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gold",
+      "definition": "A soft yellow metal used in jewelry, coins, and electronics.",
+      "synonyms": [
+        "precious metal"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Gold is shaped into a ring."
+      },
+      "example": {
+        "word": "gold",
+        "text": "The ring is made of gold."
+      },
+      "exampleSynonym": {
+        "word": "precious metal",
+        "text": "The ring is made of a precious metal."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "gold-bearing",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gold-bearing",
+      "definition": "Containing gold, or able to produce it, in rock or ore.",
+      "synonyms": [
+        "gold-producing"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A miner finds gold in a rock."
+      },
+      "example": {
+        "word": "gold-bearing",
+        "text": "The miners searched the gold-bearing rock."
+      },
+      "exampleSynonym": {
+        "word": "gold-producing",
+        "text": "The miners searched the gold-producing rock."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "golden-jackal",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "golden jackal",
+      "definition": "A wild jackal found in parts of Europe and Asia.",
+      "synonyms": [
+        "common jackal"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A golden jackal walks through grass."
+      },
+      "example": {
+        "word": "golden jackal",
+        "text": "A golden jackal crossed the path."
+      },
+      "exampleSynonym": {
+        "word": "common jackal",
+        "text": "A common jackal crossed the path."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "goldsmith",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goldsmith",
+      "definition": "A craft worker who makes or sells objects made of gold.",
+      "synonyms": [
+        "gold worker"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A craft worker shapes a gold ring."
+      },
+      "example": {
+        "word": "goldsmith",
+        "text": "The goldsmith shaped a ring by hand."
+      },
+      "exampleSynonym": {
+        "word": "gold worker",
+        "text": "The gold worker shaped a ring by hand."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "goldsmithing",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goldsmithing",
+      "definition": "The work of making or repairing objects from gold.",
+      "synonyms": [
+        "goldworking"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A craft worker repairs a gold necklace."
+      },
+      "example": {
+        "word": "goldsmithing",
+        "text": "She learned goldsmithing from her father."
+      },
+      "exampleSynonym": {
+        "word": "goldworking",
+        "text": "She learned goldworking from her father."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "subdelirium",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Subdelirium",
+        "text": "After the fever, the patient showed signs of subdelirium."
+      },
+      "exampleSynonym": {
+        "word": "mild delirium",
+        "text": "After the fever, the patient showed signs of mild delirium."
+      }
+    }
+  },
+  {
+    "entry": "vice-president",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Vice President",
+        "text": "The vice president chaired the meeting."
+      },
+      "exampleSynonym": {
+        "word": "deputy president",
+        "text": "The deputy president chaired the meeting."
+      }
+    }
+  },
+  {
+    "entry": "stock-market-2",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Stock market",
+        "text": "The stock-market report covered a sharp fall in prices."
+      },
+      "exampleSynonym": {
+        "word": "securities-market",
+        "text": "The securities-market report covered a sharp fall in prices."
+      }
+    }
+  },
+  {
+    "entry": "timer-3",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Timer",
+        "text": "The timer announced when the race had ended."
+      },
+      "exampleSynonym": {
+        "word": "timekeeper",
+        "text": "The timekeeper announced when the race had ended."
+      }
+    }
+  },
+  {
+    "entry": "theologize",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "theologize",
+        "text": "They theologize about the problem at every meeting."
+      },
+      "exampleSynonym": {
+        "word": "reason theologically",
+        "text": "They reason theologically about the problem at every meeting."
+      }
+    }
+  },
+  {
+    "entry": "sweet-and-sour",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Sweet and sour",
+        "text": "They ordered sweet-and-sour chicken for dinner."
+      },
+      "exampleSynonym": {
+        "word": "sweet-sour",
+        "text": "They ordered sweet-sour chicken for dinner."
+      }
+    }
+  },
+  {
+    "entry": "golf",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "golf",
+      "definition": "A game where players hit a ball into holes using clubs.",
+      "synonyms": [
+        "golf game"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A player hits a golf ball toward a hole."
+      },
+      "example": {
+        "word": "golf",
+        "text": "Golf takes skill and patience."
+      },
+      "exampleSynonym": {
+        "word": "golf game",
+        "text": "The golf game takes skill and patience."
+      },
+      "situacion": "deportes"
+    }
+  },
+  {
+    "entry": "golfer",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "golfer",
+      "definition": "A person who plays golf.",
+      "synonyms": [
+        "golf player"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A golfer prepares to hit a ball."
+      },
+      "example": {
+        "word": "golfer",
+        "text": "The golfer practiced before the match."
+      },
+      "exampleSynonym": {
+        "word": "golf player",
+        "text": "The golf player practiced before the match."
+      },
+      "situacion": "deportes"
+    }
+  },
+  {
+    "entry": "golfing",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "golfing",
+      "definition": "The activity of playing or practicing the game of golf.",
+      "synonyms": [
+        "playing golf"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "People practice golf on a course."
+      },
+      "example": {
+        "word": "golfing",
+        "text": "Golfing takes practice and patience."
+      },
+      "exampleSynonym": {
+        "word": "playing golf",
+        "text": "Playing golf takes practice and patience."
+      },
+      "situacion": "deportes"
+    }
+  },
+  {
+    "entry": "gonadal",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gonadal",
+      "definition": "Relating to the reproductive glands called gonads.",
+      "synonyms": [
+        "gonad-related"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A diagram shows reproductive glands in the body."
+      },
+      "example": {
+        "word": "gonadal",
+        "text": "The doctor checked her gonadal health."
+      },
+      "exampleSynonym": {
+        "word": "gonad-related",
+        "text": "The doctor checked her gonad-related health."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "gondola",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gondola",
+      "definition": "An enclosed cabin that hangs from a cable to carry people.",
+      "synonyms": [
+        "cable car cabin"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A closed cabin hangs from a cable above a mountain."
+      },
+      "example": {
+        "word": "gondola",
+        "text": "The gondola carried visitors up the mountain."
+      },
+      "exampleSynonym": {
+        "word": "cable car cabin",
+        "text": "The cable car cabin carried visitors up the mountain."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gone",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gone",
+      "definition": "No longer present or available.",
+      "synonyms": [
+        "absent"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "An empty shelf where an item used to be."
+      },
+      "example": {
+        "word": "gone",
+        "text": "The keys were gone when she returned."
+      },
+      "exampleSynonym": {
+        "word": "absent",
+        "text": "The keys were absent when she returned."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gonfalon",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gonfalon",
+      "definition": "A flag that shows a state’s or leader’s authority.",
+      "synonyms": [
+        "ensign"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A state flag hangs beside a leader’s seat."
+      },
+      "example": {
+        "word": "gonfalon",
+        "text": "The gonfalon marked the leader’s place."
+      },
+      "exampleSynonym": {
+        "word": "ensign",
+        "text": "The ensign marked the leader’s place."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "gonfalonier",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gonfalonier",
+      "definition": "A person who carries a gonfalon or other standard.",
+      "synonyms": [
+        "standard-bearer"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person carries a ceremonial flag."
+      },
+      "example": {
+        "word": "gonfalonier",
+        "text": "The gonfalonier led the parade."
+      },
+      "exampleSynonym": {
+        "word": "standard-bearer",
+        "text": "The standard-bearer led the parade."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "gonfalonier-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gonfalonier",
+      "definition": "The chief official in some medieval Italian republics.",
+      "synonyms": [
+        "chief magistrate"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A medieval official addresses a city council."
+      },
+      "example": {
+        "word": "gonfalonier",
+        "text": "The gonfalonier led the republic’s council."
+      },
+      "exampleSynonym": {
+        "word": "chief magistrate",
+        "text": "The chief magistrate led the republic’s council."
+      },
+      "situacion": "historia"
+    }
   }
 ]
