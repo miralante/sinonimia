@@ -259257,5 +259257,348 @@
       },
       "situacion": "vida-diaria"
     }
+  },
+  {
+    "entry": "goth",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goth",
+      "definition": "A person in a modern subculture linked to dark clothes and music.",
+      "synonyms": [
+        "member of the goth subculture"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A young person wears dark clothes and listens to music."
+      },
+      "example": {
+        "word": "goth",
+        "text": "Her sister is a goth who loves dark clothes and music."
+      },
+      "exampleSynonym": {
+        "word": "member of the goth subculture",
+        "text": "Her sister is a member of the goth subculture who loves dark clothes and music."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gouache-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gouache",
+      "definition": "Thick watercolor paint used in a painting method.",
+      "synonyms": [
+        "opaque watercolor paint"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A painter mixes thick watercolor paint on a palette."
+      },
+      "example": {
+        "word": "gouache",
+        "text": "He mixed gouache with a little water."
+      },
+      "exampleSynonym": {
+        "word": "opaque watercolor paint",
+        "text": "He mixed opaque watercolor paint with a little water."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "candombe-dance",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "perform candombe"
+      ],
+      "example": {
+        "word": "dance candombe",
+        "text": "They dance candombe during the carnival."
+      },
+      "exampleSynonym": {
+        "word": "perform candombe",
+        "text": "They perform candombe during the carnival."
+      }
+    }
+  },
+  {
+    "entry": "round2834-pin-number",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "pin",
+        "text": "Enter your PIN to unlock the phone."
+      },
+      "exampleSynonym": {
+        "word": "personal identification number",
+        "text": "Enter your personal identification number to unlock the phone."
+      }
+    }
+  },
+  {
+    "entry": "seed",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "seed",
+        "text": "The gardener seeded the bare patch with grass."
+      },
+      "exampleSynonym": {
+        "word": "plant",
+        "text": "The gardener used a machine to plant grass seed on the bare patch."
+      }
+    }
+  },
+  {
+    "entry": "tapaculos",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tapaculos",
+        "text": "Several tapaculos called from the dense undergrowth."
+      },
+      "exampleSynonym": {
+        "word": "rhinocryptids",
+        "text": "Several rhinocryptids called from the dense undergrowth."
+      }
+    }
+  },
+  {
+    "entry": "valkyrie",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "chooser of the slain"
+      ],
+      "example": {
+        "word": "Valkyrie",
+        "text": "In Norse mythology, a Valkyrie chose warriors who fell in battle."
+      },
+      "exampleSynonym": {
+        "word": "chooser of the slain",
+        "text": "In Norse mythology, the chooser of the slain selected warriors after battle."
+      }
+    }
+  },
+  {
+    "entry": "short-circuit",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "short"
+      ],
+      "example": {
+        "word": "short circuit",
+        "text": "A short circuit in the damaged cable tripped the breaker."
+      },
+      "exampleSynonym": {
+        "word": "short",
+        "text": "A short in the damaged cable tripped the breaker."
+      }
+    }
+  },
+  {
+    "entry": "gourd",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gourd",
+      "definition": "A climbing plant that grows large fruit with a hard skin.",
+      "synonyms": [
+        "vine"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A climbing plant grows round fruit along a garden fence."
+      },
+      "example": {
+        "word": "gourd",
+        "text": "The gourd grew along the garden fence."
+      },
+      "exampleSynonym": {
+        "word": "vine",
+        "text": "The vine grew along the garden fence."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "gourmand-3",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gourmand",
+      "definition": "A person who enjoys eating and drinking large amounts.",
+      "synonyms": [
+        "big eater"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person happily orders several large dishes."
+      },
+      "example": {
+        "word": "gourmand",
+        "text": "The gourmand ordered a second large meal."
+      },
+      "exampleSynonym": {
+        "word": "big eater",
+        "text": "The big eater ordered a second large meal."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "gourmet",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gourmet",
+      "definition": "A person who enjoys good food and knows a lot about it.",
+      "synonyms": [
+        "food expert"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person tastes food and takes notes at a restaurant."
+      },
+      "example": {
+        "word": "gourmet",
+        "text": "The gourmet reviewed the new restaurant."
+      },
+      "exampleSynonym": {
+        "word": "food expert",
+        "text": "The food expert reviewed the new restaurant."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "gout",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gout",
+      "definition": "A disease that causes sudden pain and swelling in a joint.",
+      "synonyms": [
+        "joint disease"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person rests a swollen foot after sudden joint pain."
+      },
+      "example": {
+        "word": "gout",
+        "text": "Doctors diagnosed gout after his toe became swollen."
+      },
+      "exampleSynonym": {
+        "word": "joint disease",
+        "text": "Doctors diagnosed a joint disease after his toe became swollen."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "gouty",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gouty",
+      "definition": "Having gout or often getting it.",
+      "synonyms": [
+        "affected by gout"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A doctor discusses a patient’s recurring joint pain."
+      },
+      "example": {
+        "word": "gouty",
+        "text": "The gouty patient had pain in one toe."
+      },
+      "exampleSynonym": {
+        "word": "affected by gout",
+        "text": "The patient affected by gout had pain in one toe."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "govern",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "govern",
+      "definition": "To lead and manage a country or organization.",
+      "synonyms": [
+        "run"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Elected leaders meet to make decisions for their city."
+      },
+      "example": {
+        "word": "govern",
+        "text": "The elected council governs the city."
+      },
+      "exampleSynonym": {
+        "word": "run",
+        "text": "The elected council runs the city."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "governance",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "governance",
+      "definition": "The way a country is run.",
+      "synonyms": [
+        "how the country is run"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Leaders discuss how a country is managed."
+      },
+      "example": {
+        "word": "governance",
+        "text": "The report examined the country’s governance."
+      },
+      "exampleSynonym": {
+        "word": "how the country is run",
+        "text": "The report examined how the country is run."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "governess",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "governess",
+      "definition": "A woman hired by a family to teach its children.",
+      "synonyms": [
+        "private tutor"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A woman teaches children in their family home."
+      },
+      "example": {
+        "word": "governess",
+        "text": "The family hired a governess to teach their children."
+      },
+      "exampleSynonym": {
+        "word": "private tutor",
+        "text": "The family hired a private tutor to teach their children."
+      },
+      "situacion": "historia"
+    }
   }
 ]

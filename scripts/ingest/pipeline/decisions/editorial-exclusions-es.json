@@ -87842,5 +87842,85 @@
     "id": "sacamolero",
     "word": "Sacamolero",
     "reason": "Disused variant of sacamuelas with no independent value."
+  },
+  {
+    "id": "sacamuertos",
+    "word": "Sacamuertos",
+    "reason": "Rare compound found only in a combined historical dictionary heading; no clear independent current sense."
+  },
+  {
+    "id": "sacanabo",
+    "word": "Sacanabo",
+    "reason": "Obsolete military tool with little current general synonym value."
+  },
+  {
+    "id": "sacanete",
+    "word": "Sacanete",
+    "reason": "Obsolete card game term with little current general synonym value."
+  },
+  {
+    "id": "sacapelotas",
+    "word": "Sacapelotas",
+    "reason": "The old bullet-extractor sense is too specialized and historical; retain its separate insult sense."
+  },
+  {
+    "id": "sacapuntas",
+    "word": "Sacapuntas",
+    "reason": "Common, transparent everyday word that is already easy to understand."
+  },
+  {
+    "id": "sacarigeno",
+    "word": "Sacarígeno",
+    "reason": "Highly specialized chemical term with little general synonym value."
+  },
+  {
+    "id": "sacarimetria",
+    "word": "Sacarimetría",
+    "reason": "Narrow laboratory method for measuring sugar concentration."
+  },
+  {
+    "id": "sacarimetro",
+    "word": "Sacarímetro",
+    "reason": "Highly specialized instrument used to measure sugar in liquids."
+  },
+  {
+    "id": "sacarino",
+    "word": "Sacarino",
+    "reason": "Transparent adjective that is easy to understand from its form."
+  },
+  {
+    "id": "sacaroideo",
+    "word": "Sacaroideo",
+    "reason": "Rare technical adjective with little general synonym value."
+  },
+  {
+    "id": "sacasebo",
+    "word": "Sacasebo",
+    "reason": "Regional Honduran colloquialism, excluded by the editorial criteria."
+  },
+  {
+    "id": "sacasillas",
+    "word": "Sacasillas",
+    "reason": "Transparent, narrow theatre job title with little general synonym value."
+  },
+  {
+    "id": "sacatinta",
+    "word": "Sacatinta",
+    "reason": "The candidate definition is unsupported; the DLE sense is a regional shrub."
+  },
+  {
+    "id": "sacatrapos",
+    "word": "Sacatrapos",
+    "reason": "Historical firearms tool; the candidate’s person sense is unsupported."
+  },
+  {
+    "id": "sacciforme",
+    "word": "Sacciforme",
+    "reason": "Transparent technical adjective meaning sack-shaped."
+  },
+  {
+    "id": "sacatapon",
+    "word": "Sacatapón",
+    "reason": "Easy variant synonym for the familiar sacacorchos."
   }
 ]

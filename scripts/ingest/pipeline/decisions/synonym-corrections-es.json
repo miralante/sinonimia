@@ -44342,6 +44342,14 @@
     "set": {
       "translation": {
         "en": "round2480-malleable-metal"
+      },
+      "example": {
+        "word": "maleable",
+        "text": "El cobre maleable se extendió en una lámina fina."
+      },
+      "exampleSynonym": {
+        "word": "laminable",
+        "text": "El cobre laminable se extendió en una lámina fina."
       }
     }
   },
@@ -131370,11 +131378,11 @@
       ],
       "example": {
         "word": "nuera",
-        "text": "Su nuera llegó para la cena."
+        "text": "Su nuera llegó a la cena con una tarta."
       },
       "exampleSynonym": {
-        "word": "nuera",
-        "text": "La pareja de su hijo llegó para la cena."
+        "word": "pareja del hijo",
+        "text": "La pareja del hijo llegó a la cena con una tarta."
       },
       "situacion": "family"
     }
@@ -259483,6 +259491,262 @@
         "text": "El odontólogo atendió al paciente con cuidado."
       },
       "situacion": "salud"
+    }
+  },
+  {
+    "entry": "sacamuelas-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacamuelas",
+      "definition": "Persona que habla mucho, pero dice pocas cosas de interés.",
+      "synonyms": [
+        "parlanchín"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona habla sin parar mientras otra la escucha."
+      },
+      "example": {
+        "word": "Sacamuelas",
+        "text": "Lo llamaban sacamuelas porque hablaba durante horas."
+      },
+      "exampleSynonym": {
+        "word": "parlanchín",
+        "text": "Lo llamaban parlanchín porque hablaba durante horas."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "sacamuelas-3",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacamuelas",
+      "definition": "Persona que engaña a otras con sus palabras.",
+      "synonyms": [
+        "engañador"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona promete algo falso para convencer a otra."
+      },
+      "example": {
+        "word": "Sacamuelas",
+        "text": "El sacamuelas convenció al cliente con promesas falsas."
+      },
+      "exampleSynonym": {
+        "word": "engañador",
+        "text": "El engañador convenció al cliente con promesas falsas."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "sacamuelas-4",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacamuelas",
+      "definition": "Vendedor que usa muchas palabras para vender productos de poco valor.",
+      "synonyms": [
+        "vendedor ambulante"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un vendedor ofrece sus productos en una calle."
+      },
+      "example": {
+        "word": "Sacamuelas",
+        "text": "El sacamuelas intentó vender baratijas en la plaza."
+      },
+      "exampleSynonym": {
+        "word": "vendedor ambulante",
+        "text": "El vendedor ambulante intentó vender baratijas en la plaza."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "sacaperras",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacaperras",
+      "definition": "Negocio que hace gastar dinero sin ofrecer un beneficio parecido.",
+      "synonyms": [
+        "sacacuartos"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una máquina recreativa recibe monedas de varias personas."
+      },
+      "example": {
+        "word": "sacaperras",
+        "text": "La feria parecía un sacaperras para las familias."
+      },
+      "exampleSynonym": {
+        "word": "sacacuartos",
+        "text": "La feria parecía un sacacuartos para las familias."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "sacapotras",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacapotras",
+      "definition": "Cirujano que opera mal.",
+      "synonyms": [
+        "mal cirujano"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un cirujano trabaja con cuidado en un quirófano."
+      },
+      "example": {
+        "word": "sacapotras",
+        "text": "El paciente temía que el sacapotras lo operara."
+      },
+      "exampleSynonym": {
+        "word": "mal cirujano",
+        "text": "El paciente temía que el mal cirujano lo operara."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "sacarifero",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacarífero",
+      "definition": "Que contiene azúcar o la produce.",
+      "synonyms": [
+        "que contiene o produce azúcar"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una planta produce una sustancia dulce."
+      },
+      "example": {
+        "word": "sacarífero",
+        "text": "El término sacarífero describe algo que produce azúcar."
+      },
+      "exampleSynonym": {
+        "word": "que contiene o produce azúcar",
+        "text": "La planta que contiene o produce azúcar se usa en la industria."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "sacarificar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacarificar",
+      "definition": "Convertir una sustancia que puede producir azúcar en azúcar, usando agua.",
+      "synonyms": [
+        "transformar el almidón en azúcar"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una máquina transforma una sustancia en azúcar."
+      },
+      "example": {
+        "word": "sacarificar",
+        "text": "La fábrica usa enzimas para sacarificar el almidón."
+      },
+      "exampleSynonym": {
+        "word": "transformar el almidón en azúcar",
+        "text": "La fábrica usa enzimas para transformar el almidón en azúcar."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "cubico",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Cúbico",
+        "text": "El depósito cúbico mide un metro por lado."
+      },
+      "exampleSynonym": {
+        "word": "de forma cúbica",
+        "text": "El depósito, de forma cúbica, mide un metro por lado."
+      }
+    }
+  },
+  {
+    "entry": "estator",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Estátor",
+        "text": "El estátor permanece inmóvil mientras gira el rotor."
+      },
+      "exampleSynonym": {
+        "word": "parte fija del motor",
+        "text": "La parte fija del motor permanece inmóvil mientras gira el rotor."
+      }
+    }
+  },
+  {
+    "entry": "esticomitia",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "esticomitia",
+        "text": "La esticomitia alinea una unidad sintáctica con cada verso completo."
+      },
+      "exampleSynonym": {
+        "word": "correspondencia sintáctico-métrica",
+        "text": "La correspondencia sintáctico-métrica alinea una unidad sintáctica con cada verso completo."
+      }
+    }
+  },
+  {
+    "entry": "percance",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "percance",
+        "text": "Un percance inesperado retrasó la salida del tren."
+      },
+      "exampleSynonym": {
+        "word": "contratiempo",
+        "text": "Un contratiempo inesperado retrasó la salida del tren."
+      }
+    }
+  },
+  {
+    "entry": "sacerdocio",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacerdocio",
+      "definition": "El estado o cargo de quien es sacerdote.",
+      "synonyms": [
+        "cargo de sacerdote"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona comienza su labor como sacerdote."
+      },
+      "example": {
+        "word": "sacerdocio",
+        "text": "Aceptó el sacerdocio después de varios años de estudio."
+      },
+      "exampleSynonym": {
+        "word": "cargo de sacerdote",
+        "text": "Aceptó el cargo de sacerdote después de varios años de estudio."
+      },
+      "situacion": "sociedad"
     }
   }
 ]

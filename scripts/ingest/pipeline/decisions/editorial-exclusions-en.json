@@ -81971,5 +81971,70 @@
     "id": "gossip-16",
     "word": "gossip",
     "reason": "Corrupted or redundant definition with no separate synonym value."
+  },
+  {
+    "id": "gossip-2",
+    "word": "gossip",
+    "reason": "Corrupted definition that describes a nonexistent study of gossip."
+  },
+  {
+    "id": "gossip-20",
+    "word": "gossip",
+    "reason": "Duplicate of the existing noun sense for private talk about others."
+  },
+  {
+    "id": "gossip-21",
+    "word": "gossip",
+    "reason": "Tautological duplicate with a malformed synonym."
+  },
+  {
+    "id": "gossip-22",
+    "word": "gossip",
+    "reason": "Duplicate of the existing rumor and private-talk sense."
+  },
+  {
+    "id": "gossip-23",
+    "word": "gossip",
+    "reason": "Corrupted, unverifiable definition."
+  },
+  {
+    "id": "gossip-9",
+    "word": "gossip",
+    "reason": "Duplicate of the existing rumor sense with a corrupted synonym."
+  },
+  {
+    "id": "gossiping-housewife",
+    "word": "gossiping housewife",
+    "reason": "Transparent phrase, derogatory wording, and no separate synonym value."
+  },
+  {
+    "id": "tenant-3",
+    "word": "Gossipmonger",
+    "reason": "Transparent compound whose meaning duplicates the existing person sense of gossip."
+  },
+  {
+    "id": "gouache-3",
+    "word": "Gouache",
+    "reason": "Duplicate spelling entry with no distinct meaning."
+  },
+  {
+    "id": "gound",
+    "word": "gound",
+    "reason": "Rare dialectal variant of gown with no distinct difficult meaning."
+  },
+  {
+    "id": "gourd-2",
+    "word": "Gourd",
+    "reason": "Corrupted definition unrelated to the word."
+  },
+  {
+    "id": "gourmand-2",
+    "word": "Gourmand",
+    "reason": "Corrupted definition and synonym; no separate valid sense."
+  },
+  {
+    "id": "governable",
+    "word": "Governable",
+    "reason": "Transparent derivative whose meaning is easy to infer from govern + -able."
   }
 ]
