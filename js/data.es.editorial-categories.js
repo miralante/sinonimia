@@ -647,4 +647,7 @@
 (()=>{const x={"id":"sacerdocio-2","word":"Sacerdocio","definition":"El trabajo y las funciones propias de un sacerdote.","synonyms":["labor de sacerdote"],"image":{"id":7024,"alt":"Un sacerdote acompaña a una familia durante una ceremonia."},"example":{"word":"sacerdocio","text":"Dedicó su vida al sacerdocio."},"exampleSynonym":{"word":"labor de sacerdote","text":"Dedicó su vida a la labor de sacerdote."},"situacion":"sociedad"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else a.forEach(q=>Object.assign(q,x));})();
 (()=>{const x={"id":"sacerdocio-3","word":"Sacerdocio","definition":"Dedicación intensa a un trabajo que se considera noble.","synonyms":["dedicación total"],"image":{"id":7024,"alt":"Una maestra ayuda a sus alumnos con mucha entrega."},"example":{"word":"sacerdocio","text":"Para ella, enseñar era un sacerdocio."},"exampleSynonym":{"word":"dedicación total","text":"Para ella, enseñar era una dedicación total."},"situacion":"trabajo"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else a.forEach(q=>Object.assign(q,x));})();
 
+// R4523 reviewed and split es
+
+
 })();

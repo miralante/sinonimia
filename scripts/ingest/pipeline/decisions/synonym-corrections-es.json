@@ -113960,7 +113960,15 @@
         "memorístico",
         "mnemotécnico",
         "nemotécnico"
-      ]
+      ],
+      "example": {
+        "word": "Mnemotécnico",
+        "text": "El método mnemotécnico ayudó a recordar los nombres."
+      },
+      "exampleSynonym": {
+        "word": "memorístico",
+        "text": "El método memorístico ayudó a recordar los nombres."
+      }
     }
   },
   {
@@ -131335,12 +131343,12 @@
         "con nudos"
       ],
       "example": {
-        "word": "nudoso",
-        "text": "La rama nudosa era difícil de cortar."
+        "word": "Nudoso",
+        "text": "El tronco nudoso sirvió de apoyo."
       },
       "exampleSynonym": {
-        "word": "nudoso",
-        "text": "La rama con nudos era difícil de cortar."
+        "word": "con nudos",
+        "text": "El tronco con nudos sirvió de apoyo."
       },
       "situacion": "nature"
     }
@@ -136934,11 +136942,11 @@
         "extracción de leche"
       ],
       "example": {
-        "word": "ordeno",
+        "word": "Ordeño",
         "text": "El ordeño de las cabras empieza temprano."
       },
       "exampleSynonym": {
-        "word": "ordeño",
+        "word": "extracción de leche",
         "text": "La extracción de leche de las cabras empieza temprano."
       },
       "situacion": "vida-diaria"
@@ -153453,11 +153461,11 @@
       ],
       "example": {
         "word": "Paúl",
-        "text": "Las aves anidaban en el paúl cubierto de hierba."
+        "text": "El paúl conserva agua después de la lluvia."
       },
       "exampleSynonym": {
-        "word": "paúl",
-        "text": "El paúl es un terreno cenagoso cubierto de hierba."
+        "word": "terreno cenagoso",
+        "text": "El terreno cenagoso conserva agua después de la lluvia."
       },
       "situacion": "naturaleza",
       "word": "Paúl",
@@ -153662,11 +153670,11 @@
       ],
       "example": {
         "word": "Pausa para comer",
-        "text": "La pausa para comer empieza a la una."
+        "text": "La pausa para comer duró media hora."
       },
       "exampleSynonym": {
-        "word": "pausa para comer",
-        "text": "La pausa para comer empieza a la una."
+        "word": "descanso del almuerzo",
+        "text": "El descanso del almuerzo duró media hora."
       },
       "situacion": "trabajo",
       "word": "Pausa para comer",
@@ -259747,6 +259755,123 @@
         "text": "Aceptó el cargo de sacerdote después de varios años de estudio."
       },
       "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "saciedad",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Saciedad",
+      "definition": "Sensación de haber comido suficiente o de haber logrado lo que querías.",
+      "synonyms": [
+        "satisfacción"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona termina de comer y se siente satisfecha."
+      },
+      "example": {
+        "word": "saciedad",
+        "text": "Al terminar la cena, sintió saciedad."
+      },
+      "exampleSynonym": {
+        "word": "satisfacción",
+        "text": "Al terminar la cena, sintió satisfacción."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "esticomitico",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Esticomítico",
+        "text": "El verso esticomítico forma por sí solo una unidad sintáctica."
+      },
+      "exampleSynonym": {
+        "word": "verso de unidad sintáctica completa",
+        "text": "El verso de unidad sintáctica completa forma por sí solo una unidad sintáctica."
+      }
+    }
+  },
+  {
+    "entry": "gnomonica",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Gnomónica",
+        "text": "La gnomónica ayuda a construir relojes de sol."
+      },
+      "exampleSynonym": {
+        "word": "ciencia de los relojes de sol",
+        "text": "La ciencia de los relojes de sol ayuda a construirlos."
+      }
+    }
+  },
+  {
+    "entry": "munequito",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Muñequito",
+        "text": "El muñequito de madera cayó de la mesa."
+      },
+      "exampleSynonym": {
+        "word": "muñeco pequeño",
+        "text": "El muñeco pequeño de madera cayó de la mesa."
+      }
+    }
+  },
+  {
+    "entry": "occidente-region",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "occidente",
+        "text": "En Occidente, los cambios sociales transformaron muchas ciudades."
+      },
+      "exampleSynonym": {
+        "word": "países occidentales",
+        "text": "En los países occidentales, los cambios sociales transformaron muchas ciudades."
+      }
+    }
+  },
+  {
+    "entry": "troposfera",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "tropósfera",
+        "capa inferior de la atmósfera"
+      ],
+      "example": {
+        "word": "Troposfera",
+        "text": "La troposfera concentra la mayoría de las nubes."
+      },
+      "exampleSynonym": {
+        "word": "capa inferior de la atmósfera",
+        "text": "La capa inferior de la atmósfera concentra la mayoría de las nubes."
+      }
+    }
+  },
+  {
+    "entry": "verbenaceo",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "verbenáceo",
+        "perteneciente a las verbenáceas"
+      ],
+      "example": {
+        "word": "Verbenáceo",
+        "text": "El botánico clasificó el arbusto como verbenáceo."
+      },
+      "exampleSynonym": {
+        "word": "perteneciente a las verbenáceas",
+        "text": "El botánico clasificó el arbusto como perteneciente a las verbenáceas."
+      }
     }
   }
 ]

@@ -82036,5 +82036,50 @@
     "id": "governable",
     "word": "Governable",
     "reason": "Transparent derivative whose meaning is easy to infer from govern + -able."
+  },
+  {
+    "id": "government",
+    "word": "government",
+    "reason": "Very common general word; its basic senses are easy to understand."
+  },
+  {
+    "id": "government-2",
+    "word": "Government",
+    "reason": "Duplicate and transparent adjective sense."
+  },
+  {
+    "id": "government-3",
+    "word": "Government",
+    "reason": "Duplicate and transparent adjective sense."
+  },
+  {
+    "id": "government-4",
+    "word": "Government",
+    "reason": "Duplicate and transparent adjective sense."
+  },
+  {
+    "id": "government-bond-loan",
+    "word": "Government bond loan",
+    "reason": "Uncommon financial phrase, not a useful difficult headword."
+  },
+  {
+    "id": "office-building",
+    "word": "Government office",
+    "reason": "Common phrase with a basic, transparent meaning; candidate ID and headword are mismatched."
+  },
+  {
+    "id": "governmental",
+    "word": "governmental",
+    "reason": "Transparent derivative of government."
+  },
+  {
+    "id": "governorcillo",
+    "word": "Governorcillo",
+    "reason": "Obsolete colonial title with a corrupted synonym."
+  },
+  {
+    "id": "goyaesque",
+    "word": "Goyaesque",
+    "reason": "Rare art-specific derivative from a proper name."
   }
 ]

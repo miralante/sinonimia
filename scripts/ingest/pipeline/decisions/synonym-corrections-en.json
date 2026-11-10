@@ -70156,11 +70156,11 @@
       ],
       "example": {
         "word": "vicuna",
-        "text": "The vicuna lives in the high Andes and has a fine coat."
+        "text": "Researchers recorded a vicuna near the pass."
       },
       "exampleSynonym": {
-        "word": "vicuña",
-        "text": "The vicuña lives in the high Andes and has a fine coat."
+        "word": "Lama vicugna",
+        "text": "Researchers recorded Lama vicugna near the pass."
       }
     }
   },
@@ -259599,6 +259599,81 @@
         "text": "The family hired a private tutor to teach their children."
       },
       "situacion": "historia"
+    }
+  },
+  {
+    "entry": "governor",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "governor",
+      "definition": "A person in charge of the government of a state or region.",
+      "synonyms": [
+        "regional leader"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A regional leader speaks at a public meeting."
+      },
+      "example": {
+        "word": "governor",
+        "text": "The governor spoke to people across the state."
+      },
+      "exampleSynonym": {
+        "word": "regional leader",
+        "text": "The regional leader spoke to people across the state."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "governor-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "governor",
+      "definition": "A person who leads an organization or institution.",
+      "synonyms": [
+        "person in charge"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person leads a meeting at an institution."
+      },
+      "example": {
+        "word": "governor",
+        "text": "The school governor spoke with the teachers."
+      },
+      "exampleSynonym": {
+        "word": "person in charge",
+        "text": "The person in charge spoke with the teachers."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "gp",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "GP",
+      "definition": "A doctor who treats many kinds of health problems. People often see this doctor first.",
+      "synonyms": [
+        "family doctor"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A patient talks with a doctor at a local clinic."
+      },
+      "example": {
+        "word": "GP",
+        "text": "She called her GP when she began to feel unwell."
+      },
+      "exampleSynonym": {
+        "word": "family doctor",
+        "text": "She called her family doctor when she began to feel unwell."
+      },
+      "situacion": "salud"
     }
   }
 ]
