@@ -81806,5 +81806,80 @@
     "id": "gonet",
     "word": "Gonet",
     "reason": "A corrupted definition with no recognized English sense."
+  },
+  {
+    "id": "gongorism",
+    "word": "gongorism",
+    "reason": "A rare, specialist literary movement term derived from a proper name."
+  },
+  {
+    "id": "gongorize",
+    "word": "Gongorize",
+    "reason": "A rare specialist verb derived from the literary term Gongorism."
+  },
+  {
+    "id": "goniometer",
+    "word": "Goniometer",
+    "reason": "A technical measuring instrument name with no concise synonym."
+  },
+  {
+    "id": "gonococcal",
+    "word": "Gonococcal",
+    "reason": "A specialist medical adjective with a transparent technical meaning."
+  },
+  {
+    "id": "gonococcus",
+    "word": "Gonococcus",
+    "reason": "A specialist bacterium name with no useful general synonym."
+  },
+  {
+    "id": "good-smelling",
+    "word": "Good-smelling",
+    "reason": "A transparent compound phrase with no distinct synonym value."
+  },
+  {
+    "id": "goodbye-3",
+    "word": "Goodbye",
+    "reason": "A corrupted definition unrelated to the word goodbye."
+  },
+  {
+    "id": "gooey-2",
+    "word": "Gooey",
+    "reason": "A corrupted non-English definition unrelated to gooey."
+  },
+  {
+    "id": "gopher-2",
+    "word": "gopher",
+    "reason": "A corrupted plant-part definition unrelated to the English headword."
+  },
+  {
+    "id": "gopher-guard",
+    "word": "Gopher guard",
+    "reason": "Obscure regional mining term with a mismatched synonym."
+  },
+  {
+    "id": "gordian",
+    "word": "Gordian",
+    "reason": "Corrupted definition that does not explain the headword."
+  },
+  {
+    "id": "gored-3",
+    "word": "gored",
+    "reason": "Corrupted definition that does not match the English word."
+  },
+  {
+    "id": "gorge-2",
+    "word": "Gorge",
+    "reason": "Corrupted definition with no reliable synonym value."
+  },
+  {
+    "id": "gorge-4",
+    "word": "gorge",
+    "reason": "Unsupported definition unrelated to the established senses."
+  },
+  {
+    "id": "gorgery",
+    "word": "Gorgery",
+    "reason": "Archaic and obscure word with little current synonym value."
   }
 ]

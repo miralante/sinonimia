@@ -46605,7 +46605,15 @@
     "remove": [],
     "unset": [],
     "set": {
-      "translation": null
+      "translation": null,
+      "example": {
+        "word": "Tomaticán",
+        "text": "En el mercado compraron tomaticán para el almuerzo."
+      },
+      "exampleSynonym": {
+        "word": "guiso de tomate",
+        "text": "En el mercado compraron guiso de tomate para el almuerzo."
+      }
     }
   },
   {
@@ -46650,7 +46658,15 @@
     "remove": [],
     "unset": [],
     "set": {
-      "translation": null
+      "translation": null,
+      "example": {
+        "word": "Tomín",
+        "text": "El coleccionista guardó un tomín en una caja de vidrio."
+      },
+      "exampleSynonym": {
+        "word": "moneda antigua",
+        "text": "El coleccionista guardó una moneda antigua en una caja de vidrio."
+      }
     }
   },
   {
@@ -258534,6 +258550,471 @@
         "text": "El sablazo de su primo lo dejó sin dinero."
       },
       "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "saboreador",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Saboreador",
+      "definition": "Persona que prueba y disfruta el sabor de alimentos o bebidas.",
+      "synonyms": [
+        "degustador"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona prueba una salsa para apreciar su sabor."
+      },
+      "example": {
+        "word": "saboreador",
+        "text": "El saboreador probó la salsa antes de servirla."
+      },
+      "exampleSynonym": {
+        "word": "degustador",
+        "text": "El degustador probó la salsa antes de servirla."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "saborear",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Saborear",
+      "definition": "Percibir con atención y gusto el sabor de algo.",
+      "synonyms": [
+        "paladear"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona disfruta lentamente una taza de café."
+      },
+      "example": {
+        "word": "saborear",
+        "text": "Le gusta saborear el café por la mañana."
+      },
+      "exampleSynonym": {
+        "word": "paladear",
+        "text": "Le gusta paladear el café por la mañana."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "saborizante",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Saborizante",
+      "definition": "Sustancia que se añade a un producto para darle sabor.",
+      "synonyms": [
+        "aditivo de sabor"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un cocinero añade saborizante a una sopa."
+      },
+      "example": {
+        "word": "saborizante",
+        "text": "El saborizante dio más gusto a la sopa."
+      },
+      "exampleSynonym": {
+        "word": "aditivo de sabor",
+        "text": "El aditivo de sabor dio más gusto a la sopa."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "sabotaje",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sabotaje",
+      "definition": "Daño hecho a propósito para impedir que algo funcione.",
+      "synonyms": [
+        "daño deliberado"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una máquina dañada deja de funcionar."
+      },
+      "example": {
+        "word": "sabotaje",
+        "text": "El sabotaje dejó las máquinas fuera de servicio."
+      },
+      "exampleSynonym": {
+        "word": "daño deliberado",
+        "text": "El daño deliberado dejó las máquinas fuera de servicio."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "utilero",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Utilero",
+        "text": "El utilero revisó los objetos antes de la función."
+      },
+      "exampleSynonym": {
+        "word": "encargado de utilería",
+        "text": "El encargado de utilería revisó los objetos antes de la función."
+      }
+    }
+  },
+  {
+    "entry": "travesar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Travesar",
+        "text": "El sendero permite travesar el parque a pie."
+      },
+      "exampleSynonym": {
+        "word": "atravesar",
+        "text": "El sendero permite atravesar el parque a pie."
+      }
+    }
+  },
+  {
+    "entry": "transponer",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Transponer",
+        "text": "La directora pidió transponer el último párrafo al inicio."
+      },
+      "exampleSynonym": {
+        "word": "trasponer",
+        "text": "La directora pidió trasponer el último párrafo al inicio."
+      }
+    }
+  },
+  {
+    "entry": "usurpar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Usurpar",
+        "text": "El funcionario intentó usurpar el cargo de su rival."
+      },
+      "exampleSynonym": {
+        "word": "apropiarse ilegítimamente",
+        "text": "El funcionario intentó apropiarse ilegítimamente del cargo de su rival."
+      }
+    }
+  },
+  {
+    "entry": "valorear",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Valorear",
+        "text": "Antes de comprarlo, el experto quiso valorear el cuadro."
+      },
+      "exampleSynonym": {
+        "word": "tasar",
+        "text": "Antes de comprarlo, el experto quiso tasar el cuadro."
+      }
+    }
+  },
+  {
+    "entry": "usina",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Usina",
+        "text": "La usina abastece de electricidad a varios barrios."
+      },
+      "exampleSynonym": {
+        "word": "central eléctrica",
+        "text": "La central eléctrica abastece de electricidad a varios barrios."
+      }
+    }
+  },
+  {
+    "entry": "saboteador",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Saboteador",
+      "definition": "Persona que realiza un sabotaje o participa en él.",
+      "synonyms": [
+        "boicoteador"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona bloquea a propósito el trabajo de una máquina."
+      },
+      "example": {
+        "word": "saboteador",
+        "text": "El saboteador dañó el sistema de la fábrica."
+      },
+      "exampleSynonym": {
+        "word": "boicoteador",
+        "text": "El boicoteador dañó el sistema de la fábrica."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "sabotear",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sabotear",
+      "definition": "Dañar algo a propósito para impedir que funcione.",
+      "synonyms": [
+        "boicotear"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un grupo interrumpe deliberadamente el trabajo de una empresa."
+      },
+      "example": {
+        "word": "sabotear",
+        "text": "Intentaron sabotear el trabajo de la empresa."
+      },
+      "exampleSynonym": {
+        "word": "boicotear",
+        "text": "Intentaron boicotear el trabajo de la empresa."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "sabroso",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sabroso",
+      "definition": "Que tiene buen sabor.",
+      "synonyms": [
+        "rico"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un plato humeante resulta agradable al gusto."
+      },
+      "example": {
+        "word": "sabroso",
+        "text": "El guiso quedó sabroso."
+      },
+      "exampleSynonym": {
+        "word": "rico",
+        "text": "El guiso quedó rico."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "sabroson",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sabrosón",
+      "definition": "En Cuba, dicho de una persona que vive del trabajo ajeno.",
+      "synonyms": [
+        "sabroso"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona descansa mientras otra trabaja para ella."
+      },
+      "example": {
+        "word": "sabrosón",
+        "text": "No seas sabrosón y ayuda con el trabajo."
+      },
+      "exampleSynonym": {
+        "word": "sabroso",
+        "text": "No seas sabroso y ayuda con el trabajo."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "sabueso",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sabueso",
+      "definition": "Perro que sigue un rastro gracias a su buen olfato.",
+      "synonyms": [
+        "perro rastreador"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un perro sigue un rastro por el bosque."
+      },
+      "example": {
+        "word": "sabueso",
+        "text": "El sabueso siguió el rastro hasta el río."
+      },
+      "exampleSynonym": {
+        "word": "perro rastreador",
+        "text": "El perro rastreador siguió el rastro hasta el río."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "sabugo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sabugo",
+      "definition": "Arbusto que da flores blancas y frutos oscuros.",
+      "synonyms": [
+        "saúco"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un arbusto de saúco tiene flores blancas y bayas oscuras."
+      },
+      "example": {
+        "word": "sabugo",
+        "text": "El sabugo crece junto al camino."
+      },
+      "exampleSynonym": {
+        "word": "saúco",
+        "text": "El saúco crece junto al camino."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "sabuloso",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sabuloso",
+      "definition": "Que contiene arena o está mezclado con ella.",
+      "synonyms": [
+        "arenoso"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un suelo contiene granos de arena."
+      },
+      "example": {
+        "word": "sabuloso",
+        "text": "El suelo sabuloso drena bien el agua."
+      },
+      "exampleSynonym": {
+        "word": "arenoso",
+        "text": "El suelo arenoso drena bien el agua."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "saca",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Saca",
+      "definition": "Acción de sacar algo de un lugar.",
+      "synonyms": [
+        "extracción"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona retira agua de un pozo."
+      },
+      "example": {
+        "word": "saca",
+        "text": "La saca de agua del pozo fue rápida."
+      },
+      "exampleSynonym": {
+        "word": "extracción",
+        "text": "La extracción de agua del pozo fue rápida."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "sacabera",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacabera",
+      "definition": "En Asturias, salamandra, un anfibio de cuerpo alargado.",
+      "synonyms": [
+        "salamandra"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una salamandra camina entre hojas húmedas."
+      },
+      "example": {
+        "word": "sacabera",
+        "text": "La sacabera se escondió bajo una piedra."
+      },
+      "exampleSynonym": {
+        "word": "salamandra",
+        "text": "La salamandra se escondió bajo una piedra."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "toletazo",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Toletazo",
+        "text": "El toletazo le dejó un moretón en el brazo."
+      },
+      "exampleSynonym": {
+        "word": "garrotazo",
+        "text": "El garrotazo le dejó un moretón en el brazo."
+      }
+    }
+  },
+  {
+    "entry": "toletear",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Toletear",
+        "text": "El grupo dejó de toletear la puerta cuando oyó pasos."
+      },
+      "exampleSynonym": {
+        "word": "aporrear",
+        "text": "El grupo dejó de aporrear la puerta cuando oyó pasos."
+      }
+    }
+  },
+  {
+    "entry": "tolueno",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Tolueno",
+        "text": "El frasco contiene tolueno."
+      },
+      "exampleSynonym": {
+        "word": "metilbenceno",
+        "text": "El frasco contiene metilbenceno."
+      }
+    }
+  },
+  {
+    "entry": "tomeguin",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Tomeguín",
+        "text": "El tomeguín cantó desde la rama más alta."
+      },
+      "exampleSynonym": {
+        "word": "ave cubana",
+        "text": "El ave cubana cantó desde la rama más alta."
+      }
     }
   }
 ]

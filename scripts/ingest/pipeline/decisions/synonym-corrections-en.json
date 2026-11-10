@@ -258352,5 +258352,623 @@
       },
       "situacion": "historia"
     }
+  },
+  {
+    "entry": "gonorrhea",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gonorrhea",
+      "definition": "A sexually transmitted infection caused by bacteria.",
+      "synonyms": [
+        "gonococcal infection"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A health worker explains how an infection spreads."
+      },
+      "example": {
+        "word": "gonorrhea",
+        "text": "The clinic tested him for gonorrhea."
+      },
+      "exampleSynonym": {
+        "word": "gonococcal infection",
+        "text": "The clinic tested him for gonococcal infection."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "good",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "good",
+      "definition": "Of good quality, condition, or value.",
+      "synonyms": [
+        "fine"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A meal looks fresh and well prepared."
+      },
+      "example": {
+        "word": "good",
+        "text": "The food is good."
+      },
+      "exampleSynonym": {
+        "word": "fine",
+        "text": "The food is fine."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "good-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "good",
+      "definition": "Morally right or kind.",
+      "synonyms": [
+        "virtuous"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person helps a neighbor carry groceries."
+      },
+      "example": {
+        "word": "good",
+        "text": "She is a good person."
+      },
+      "exampleSynonym": {
+        "word": "virtuous",
+        "text": "She is a virtuous person."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "syphilis",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "syphilis",
+        "text": "The clinic offers confidential testing for syphilis."
+      },
+      "exampleSynonym": {
+        "word": "Treponema pallidum infection",
+        "text": "The clinic offers confidential testing for Treponema pallidum infection."
+      }
+    }
+  },
+  {
+    "entry": "telepath",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "telepath",
+        "text": "The telepath sent a message to the team without speaking."
+      },
+      "exampleSynonym": {
+        "word": "telepathic communicator",
+        "text": "The telepathic communicator sent a message to the team without speaking."
+      }
+    }
+  },
+  {
+    "entry": "streetwalker",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "streetwalker",
+        "text": "The report discusses the safety concerns streetwalkers face."
+      },
+      "exampleSynonym": {
+        "word": "sex worker",
+        "text": "The report discusses the safety concerns sex workers face."
+      }
+    }
+  },
+  {
+    "entry": "remock",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "remock",
+        "text": "After the first take, the director asked the actors to remock."
+      },
+      "exampleSynonym": {
+        "word": "mock again",
+        "text": "After the first take, the director asked the actors to mock again."
+      }
+    }
+  },
+  {
+    "entry": "stone-pit",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "stone pit",
+        "text": "Workers reopened the stone pit after the winter."
+      },
+      "exampleSynonym": {
+        "word": "stone quarry",
+        "text": "Workers reopened the stone quarry after the winter."
+      }
+    }
+  },
+  {
+    "entry": "stupefy",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "stupefy",
+        "text": "The magician’s final trick stupefied the crowd."
+      },
+      "exampleSynonym": {
+        "word": "astonish",
+        "text": "The magician’s final trick astonished the crowd."
+      }
+    }
+  },
+  {
+    "entry": "goodbye",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goodbye",
+      "definition": "A word or gesture used when people part.",
+      "synonyms": [
+        "farewell"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Two friends wave goodbye at a station."
+      },
+      "example": {
+        "word": "goodbye",
+        "text": "They said goodbye at the station."
+      },
+      "exampleSynonym": {
+        "word": "farewell",
+        "text": "They said farewell at the station."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "goodness",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goodness",
+      "definition": "The quality of being good, kind, or honest.",
+      "synonyms": [
+        "virtue"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person acts kindly and fairly toward a neighbor."
+      },
+      "example": {
+        "word": "goodness",
+        "text": "Her goodness inspired the whole family."
+      },
+      "exampleSynonym": {
+        "word": "virtue",
+        "text": "Her virtue inspired the whole family."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "goofballs",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goofballs",
+      "definition": "People who act silly or foolishly.",
+      "synonyms": [
+        "goofs"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Friends make each other laugh with silly jokes."
+      },
+      "example": {
+        "word": "goofballs",
+        "text": "Those goofballs made us laugh all night."
+      },
+      "exampleSynonym": {
+        "word": "goofs",
+        "text": "Those goofs made us laugh all night."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "google",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "google",
+      "definition": "To use Google to search for information online.",
+      "synonyms": [
+        "search online"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person looks for information on a computer."
+      },
+      "example": {
+        "word": "google",
+        "text": "She googled the address before leaving."
+      },
+      "exampleSynonym": {
+        "word": "search online",
+        "text": "Her search online revealed the address before she left."
+      },
+      "situacion": "tecnologia"
+    }
+  },
+  {
+    "entry": "goop",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goop",
+      "definition": "A sticky or messy substance.",
+      "synonyms": [
+        "gunk"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A sticky lump of mud clings to a shoe."
+      },
+      "example": {
+        "word": "goop",
+        "text": "The shoe was covered in goop."
+      },
+      "exampleSynonym": {
+        "word": "gunk",
+        "text": "The shoe was covered in gunk."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "goose",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goose",
+      "definition": "A large waterbird with a long neck, related to ducks and swans.",
+      "synonyms": [
+        "waterfowl"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A goose swims across a pond."
+      },
+      "example": {
+        "word": "goose",
+        "text": "The goose flew south for the winter."
+      },
+      "exampleSynonym": {
+        "word": "waterfowl",
+        "text": "The waterfowl flew south for the winter."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "goose-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goose",
+      "definition": "To poke someone between the buttocks as a prank.",
+      "synonyms": [
+        "poke"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person gives a friend a playful poke."
+      },
+      "example": {
+        "word": "goose",
+        "text": "He goosed his friend as a prank."
+      },
+      "exampleSynonym": {
+        "word": "poke",
+        "text": "He poked his friend as a prank."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "goose-3",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goose",
+      "definition": "To increase the activity, speed, or power of something.",
+      "synonyms": [
+        "boost"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A new offer increases sales in a shop."
+      },
+      "example": {
+        "word": "goose",
+        "text": "The discount goosed sales."
+      },
+      "exampleSynonym": {
+        "word": "boost",
+        "text": "The discount boosted sales."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "gopher",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gopher",
+      "definition": "A burrowing rodent with large cheek pouches.",
+      "synonyms": [
+        "pocket gopher"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A small rodent digs a tunnel in the soil."
+      },
+      "example": {
+        "word": "gopher",
+        "text": "The gopher dug a tunnel under the garden."
+      },
+      "exampleSynonym": {
+        "word": "pocket gopher",
+        "text": "The pocket gopher dug a tunnel under the garden."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "gore",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gore",
+      "definition": "To pierce or wound with a horn or another sharp object.",
+      "synonyms": [
+        "pierce"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A bull uses its horn to wound a wooden target."
+      },
+      "example": {
+        "word": "gore",
+        "text": "The bull tried to gore the fence."
+      },
+      "exampleSynonym": {
+        "word": "pierce",
+        "text": "The bull tried to pierce the fence."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "gored",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gored",
+      "definition": "Wounded by a horn or another pointed object.",
+      "synonyms": [
+        "wounded"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person has a wound from a bull horn."
+      },
+      "example": {
+        "word": "gored",
+        "text": "The rider was gored by the bull."
+      },
+      "exampleSynonym": {
+        "word": "wounded",
+        "text": "The rider was wounded by the bull."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "gorge",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gorge",
+      "definition": "To eat a large amount of food very quickly.",
+      "synonyms": [
+        "overindulge"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person eats too much food at a table."
+      },
+      "example": {
+        "word": "gorge",
+        "text": "They gorge on sweets after dinner."
+      },
+      "exampleSynonym": {
+        "word": "overindulge",
+        "text": "They overindulge in sweets after dinner."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "gorge-3",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Gorge",
+      "definition": "A narrow valley with steep sides.",
+      "synonyms": [
+        "canyon"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A river runs through a narrow valley with steep sides."
+      },
+      "example": {
+        "word": "gorge",
+        "text": "The trail follows the gorge."
+      },
+      "exampleSynonym": {
+        "word": "canyon",
+        "text": "The trail follows the canyon."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "gorget",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gorget",
+      "definition": "Armor worn to protect the throat.",
+      "synonyms": [
+        "throat guard"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A piece of armor protects a knight’s throat."
+      },
+      "example": {
+        "word": "gorget",
+        "text": "The knight fastened his gorget before battle."
+      },
+      "exampleSynonym": {
+        "word": "throat guard",
+        "text": "The knight fastened his throat guard before battle."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "gorgon",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Gorgon",
+      "definition": "In Greek myths, one of three sisters with snakes for hair.",
+      "synonyms": [
+        "monster"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A figure from Greek myth has snakes in place of hair."
+      },
+      "example": {
+        "word": "Gorgon",
+        "text": "The hero faced a Gorgon in the myth."
+      },
+      "exampleSynonym": {
+        "word": "monster",
+        "text": "The hero faced a monster in the myth."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "selenide",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Selenide",
+        "text": "The lab analyzed the selenide in the mineral sample."
+      },
+      "exampleSynonym": {
+        "word": "selenium compound",
+        "text": "The lab analyzed the selenium compound in the mineral sample."
+      }
+    }
+  },
+  {
+    "entry": "stiltwalker",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Stiltwalker",
+        "text": "The stiltwalker greeted children at the festival."
+      },
+      "exampleSynonym": {
+        "word": "stilt walker",
+        "text": "The stilt walker greeted children at the festival."
+      }
+    }
+  },
+  {
+    "entry": "superstrate",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Superstrate",
+        "text": "The superstrate left many words in the local language."
+      },
+      "exampleSynonym": {
+        "word": "dominant contact language",
+        "text": "The dominant contact language left many words in the local language."
+      }
+    }
+  },
+  {
+    "entry": "tanning",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Tanning",
+        "text": "Tanning turns animal hides into leather."
+      },
+      "exampleSynonym": {
+        "word": "leather-making",
+        "text": "Leather-making turns animal hides into leather."
+      }
+    }
+  },
+  {
+    "entry": "theridophyte",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Theridophyte",
+        "text": "The botanist identified the plant as a theridophyte."
+      },
+      "exampleSynonym": {
+        "word": "pteridophyte",
+        "text": "The botanist identified the plant as a pteridophyte."
+      }
+    }
+  },
+  {
+    "entry": "tetany",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "Tetany",
+        "text": "The patient’s tetany caused painful muscle cramps."
+      },
+      "exampleSynonym": {
+        "word": "neuromuscular irritability",
+        "text": "The patient’s neuromuscular irritability caused painful muscle cramps."
+      }
+    }
   }
 ]
