@@ -257817,5 +257817,230 @@
       },
       "situacion": "vivienda"
     }
+  },
+  {
+    "entry": "ruta-de-evacuacion",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Ruta de evacuación",
+      "definition": "Camino señalizado para salir de un lugar durante una emergencia.",
+      "synonyms": [
+        "vía de evacuación"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una señal indica la salida de un edificio."
+      },
+      "example": {
+        "word": "ruta de evacuación",
+        "text": "Sigue la ruta de evacuación hasta la calle."
+      },
+      "exampleSynonym": {
+        "word": "vía de evacuación",
+        "text": "Sigue la vía de evacuación hasta la calle."
+      },
+      "situacion": "seguridad"
+    }
+  },
+  {
+    "entry": "rutilante",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rutilante",
+      "definition": "Que brilla con mucha intensidad.",
+      "synonyms": [
+        "resplandeciente"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Estrellas brillantes iluminan el cielo."
+      },
+      "example": {
+        "word": "rutilante",
+        "text": "El cielo tenía estrellas rutilantes."
+      },
+      "exampleSynonym": {
+        "word": "resplandeciente",
+        "text": "El cielo tenía estrellas resplandecientes."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "rutilar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rutilar",
+      "definition": "Brillar con mucha intensidad.",
+      "synonyms": [
+        "resplandecer"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "La luz de un faro brilla en la noche."
+      },
+      "example": {
+        "word": "rutilar",
+        "text": "El verbo rutilar puede significar resplandecer con intensidad."
+      },
+      "exampleSynonym": {
+        "word": "resplandecer",
+        "text": "El verbo rutilar puede significar resplandecer con intensidad."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "rutinero",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Rutinero",
+      "definition": "Que actúa por rutina en un trabajo o asunto.",
+      "synonyms": [
+        "rutinario"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona repite cada día la misma tarea."
+      },
+      "example": {
+        "word": "rutinero",
+        "text": "El empleado rutinero siguió el mismo método."
+      },
+      "exampleSynonym": {
+        "word": "rutinario",
+        "text": "El empleado rutinario siguió el mismo método."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "s-a",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "S.A.",
+      "definition": "Empresa con capital dividido en acciones y responsabilidad limitada de sus accionistas.",
+      "synonyms": [
+        "sociedad anónima"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un documento muestra las acciones de una empresa."
+      },
+      "example": {
+        "word": "S.A.",
+        "text": "La empresa cambió su nombre y ahora es una S.A."
+      },
+      "exampleSynonym": {
+        "word": "sociedad anónima",
+        "text": "La empresa cambió su nombre y ahora es una sociedad anónima."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "sabalo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sábalo",
+      "definition": "Pez marino que sube los ríos cada primavera para desovar.",
+      "synonyms": [
+        "saboga"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un pez nada río arriba."
+      },
+      "example": {
+        "word": "sábalo",
+        "text": "El sábalo sube el río cada primavera para desovar."
+      },
+      "exampleSynonym": {
+        "word": "saboga",
+        "text": "La saboga sube el río cada primavera para desovar."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "sabana",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sabana",
+      "definition": "Llanura tropical con hierbas y pocos árboles.",
+      "synonyms": [
+        "pradera"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una llanura tropical con hierbas y árboles dispersos."
+      },
+      "example": {
+        "word": "sabana",
+        "text": "Las cebras cruzaron la sabana al amanecer."
+      },
+      "exampleSynonym": {
+        "word": "pradera",
+        "text": "Las cebras cruzaron la pradera al amanecer."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "sabandija",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sabandija",
+      "definition": "Reptil pequeño o insecto que suele considerarse molesto.",
+      "synonyms": [
+        "bicho"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un insecto pequeño aparece sobre una hoja."
+      },
+      "example": {
+        "word": "sabandija",
+        "text": "La sabandija se escondió bajo una hoja."
+      },
+      "exampleSynonym": {
+        "word": "bicho",
+        "text": "El bicho se escondió bajo una hoja."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "sabatico",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sabático",
+      "definition": "Relativo al sábado o al sabbat.",
+      "synonyms": [
+        "sabatino"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona descansa el sábado."
+      },
+      "example": {
+        "word": "sabático",
+        "text": "La comunidad respetó el descanso sabático."
+      },
+      "exampleSynonym": {
+        "word": "sabatino",
+        "text": "La comunidad respetó el descanso sabatino."
+      },
+      "situacion": "historia"
+    }
   }
 ]

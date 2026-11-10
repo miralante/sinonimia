@@ -81671,5 +81671,95 @@
     "id": "goat-10",
     "word": "Goat",
     "reason": "A rare transparent adjective meaning goat-like, with no independent synonym value."
+  },
+  {
+    "id": "goat-8",
+    "word": "goat",
+    "reason": "A duplicate gloss for the young-goat sense retained under goat-9."
+  },
+  {
+    "id": "goat-herd",
+    "word": "goat herd",
+    "reason": "A transparent phrase duplicating the common phrase herd of goats."
+  },
+  {
+    "id": "gobball",
+    "word": "Gobball",
+    "reason": "A corrupted or game-specific name with no general synonym value."
+  },
+  {
+    "id": "gobblers",
+    "word": "gobblers",
+    "reason": "A plural form duplicating the singular gobbler entries."
+  },
+  {
+    "id": "gobelin",
+    "word": "Gobelin",
+    "reason": "A highly specialized proper-name adjective for Paris tapestry works."
+  },
+  {
+    "id": "goblet-2",
+    "word": "goblet",
+    "reason": "A corrupted definition with no recognized English sense."
+  },
+  {
+    "id": "goblin-2",
+    "word": "Goblin",
+    "reason": "A regional label with no clear general English synonym value."
+  },
+  {
+    "id": "godchild-2",
+    "word": "godchild",
+    "reason": "A corrupted definition that describes adoption, not a godchild."
+  },
+  {
+    "id": "godchild",
+    "word": "godchild",
+    "reason": "A valid term with no concise, common synonym suitable for this synonym dictionary."
+  },
+  {
+    "id": "goddess",
+    "word": "Goddess",
+    "reason": "A corrupted definition unrelated to the headword."
+  },
+  {
+    "id": "godism",
+    "word": "Godism",
+    "reason": "A corrupted definition with no recognized English sense."
+  },
+  {
+    "id": "godizo",
+    "word": "godizo",
+    "reason": "A non-English or corrupted entry with no recognized English synonym value."
+  },
+  {
+    "id": "godsoner",
+    "word": "godsoner",
+    "reason": "A non-English occupation term mistakenly included in the English dictionary."
+  },
+  {
+    "id": "goedendag",
+    "word": "goedendag",
+    "reason": "A highly specialized historical Flemish weapon term."
+  },
+  {
+    "id": "goethean",
+    "word": "Goethean",
+    "reason": "A rare adjective derived from a proper name with little synonym value."
+  },
+  {
+    "id": "goethian",
+    "word": "Goethian",
+    "reason": "A rare duplicate spelling of Goethean."
+  },
+  {
+    "id": "gofio",
+    "word": "Gofio",
+    "reason": "A regional Spanish food name mistakenly included in the English dictionary."
+  },
+  {
+    "id": "gogo",
+    "word": "Gogo",
+    "reason": "A niche dance occupation term with no concise synonym."
   }
 ]

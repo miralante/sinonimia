@@ -257334,5 +257334,455 @@
       },
       "situacion": "naturaleza"
     }
+  },
+  {
+    "entry": "goat-9",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goat",
+      "definition": "A young goat that has been weaned.",
+      "synonyms": [
+        "kid"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A young goat stands beside its mother."
+      },
+      "example": {
+        "word": "goat",
+        "text": "The goat left its mother after weaning."
+      },
+      "exampleSynonym": {
+        "word": "kid",
+        "text": "The kid left its mother after weaning."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "goatee",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goatee",
+      "definition": "A small pointed beard that grows on the chin.",
+      "synonyms": [
+        "chin beard"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A man has a small beard on his chin."
+      },
+      "example": {
+        "word": "goatee",
+        "text": "He trimmed his goatee before the interview."
+      },
+      "exampleSynonym": {
+        "word": "chin beard",
+        "text": "He trimmed his chin beard before the interview."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "goatherd",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goatherd",
+      "definition": "A person who looks after goats.",
+      "synonyms": [
+        "goat keeper"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A herder leads goats along a path."
+      },
+      "example": {
+        "word": "goatherd",
+        "text": "The goatherd led the flock up the hill."
+      },
+      "exampleSynonym": {
+        "word": "goat keeper",
+        "text": "The goat keeper led the flock up the hill."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "goatskin",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goatskin",
+      "definition": "The skin of a goat before it is made into leather.",
+      "synonyms": [
+        "goat hide"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A leatherworker prepares goat hide."
+      },
+      "example": {
+        "word": "goatskin",
+        "text": "The goatskin was ready for the leatherworker."
+      },
+      "exampleSynonym": {
+        "word": "goat hide",
+        "text": "The goat hide was ready for the leatherworker."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "gobble",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gobble",
+      "definition": "Eat something quickly and greedily.",
+      "synonyms": [
+        "wolf down"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A child eats a sandwich quickly."
+      },
+      "example": {
+        "word": "gobble",
+        "text": "He gobbles food quickly and likes to wolf down his sandwich."
+      },
+      "exampleSynonym": {
+        "word": "wolf down",
+        "text": "He gobbles food quickly and likes to wolf down his sandwich."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "gobbledygook",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gobbledygook",
+      "definition": "Language full of complex words that is hard to understand.",
+      "synonyms": [
+        "gibberish"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A reader looks confused by a complicated report."
+      },
+      "example": {
+        "word": "gobbledygook",
+        "text": "The report was full of gobbledygook."
+      },
+      "exampleSynonym": {
+        "word": "gibberish",
+        "text": "The report was full of gibberish."
+      },
+      "situacion": "educacion"
+    }
+  },
+  {
+    "entry": "gobbler",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gobbler",
+      "definition": "A male turkey.",
+      "synonyms": [
+        "tom turkey"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A male turkey struts across a farmyard."
+      },
+      "example": {
+        "word": "gobbler",
+        "text": "The gobbler strutted across the yard."
+      },
+      "exampleSynonym": {
+        "word": "tom turkey",
+        "text": "The tom turkey strutted across the yard."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "gobbler-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gobbler",
+      "definition": "A person who eats quickly and greedily.",
+      "synonyms": [
+        "greedy eater"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person eats a large meal very quickly."
+      },
+      "example": {
+        "word": "gobbler",
+        "text": "He is a gobbler when dessert arrives."
+      },
+      "exampleSynonym": {
+        "word": "greedy eater",
+        "text": "He is a greedy eater when dessert arrives."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "goblet",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goblet",
+      "definition": "A drinking cup with a stem and a base.",
+      "synonyms": [
+        "stemmed cup"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A glass drinking cup stands on a stem and base."
+      },
+      "example": {
+        "word": "goblet",
+        "text": "She filled the goblet with water."
+      },
+      "exampleSynonym": {
+        "word": "stemmed cup",
+        "text": "She filled the stemmed cup with water."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "goblin",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goblin",
+      "definition": "A small, often ugly creature in stories that likes to cause trouble.",
+      "synonyms": [
+        "elf"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A mischievous creature from a fairy tale."
+      },
+      "example": {
+        "word": "goblin",
+        "text": "The goblin hid behind a tree."
+      },
+      "exampleSynonym": {
+        "word": "elf",
+        "text": "The elf hid behind a tree."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "god",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "God",
+      "definition": "The one supreme being worshipped by people in one-God religions.",
+      "synonyms": [
+        "supreme being"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person prays in a place of worship."
+      },
+      "example": {
+        "word": "God",
+        "text": "Many people pray to God."
+      },
+      "exampleSynonym": {
+        "word": "supreme being",
+        "text": "Many people pray to the supreme being."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "god-willing",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "God willing",
+      "definition": "Used to say you hope something happens, if God allows it.",
+      "synonyms": [
+        "Lord willing"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A family hopes to travel when conditions are right."
+      },
+      "example": {
+        "word": "God willing",
+        "text": "God willing, we will finish by Friday."
+      },
+      "exampleSynonym": {
+        "word": "Lord willing",
+        "text": "Lord willing, we will finish by Friday."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "god-fearing",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "God-fearing",
+      "definition": "Respecting God and following religious beliefs.",
+      "synonyms": [
+        "devout"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person prays quietly at a place of worship."
+      },
+      "example": {
+        "word": "God-fearing",
+        "text": "She is a God-fearing woman."
+      },
+      "exampleSynonym": {
+        "word": "devout",
+        "text": "She is a devout woman."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "godfather",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "godfather",
+      "definition": "A man who promises to guide and support a child at baptism.",
+      "synonyms": [
+        "male godparent"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A man stands with a child and family at a baptism."
+      },
+      "example": {
+        "word": "godfather",
+        "text": "Her uncle is her godfather."
+      },
+      "exampleSynonym": {
+        "word": "male godparent",
+        "text": "Her uncle is her male godparent."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "godmother",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "godmother",
+      "definition": "A woman who sponsors a person at baptism.",
+      "synonyms": [
+        "female godparent"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A woman stands with a child at a baptism."
+      },
+      "example": {
+        "word": "godmother",
+        "text": "Her aunt is also her godmother."
+      },
+      "exampleSynonym": {
+        "word": "female godparent",
+        "text": "Her aunt is also her female godparent."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "godmother-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "godmother",
+      "definition": "A woman who leads or inspires a movement or field.",
+      "synonyms": [
+        "pioneer"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A woman inspires people in a movement."
+      },
+      "example": {
+        "word": "godmother",
+        "text": "She is known as the godmother of the movement."
+      },
+      "exampleSynonym": {
+        "word": "pioneer",
+        "text": "She is known as a pioneer of the movement."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "godson",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "godson",
+      "definition": "A male godchild.",
+      "synonyms": [
+        "male godchild"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A boy stands with his godparent at a baptism."
+      },
+      "example": {
+        "word": "godson",
+        "text": "He is my godson."
+      },
+      "exampleSynonym": {
+        "word": "male godchild",
+        "text": "He is my male godchild."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "goggles",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "goggles",
+      "definition": "Protective glasses that fit closely against the face.",
+      "synonyms": [
+        "protective eyewear"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Protective glasses fit closely around a person’s eyes."
+      },
+      "example": {
+        "word": "goggles",
+        "text": "Wear goggles to protect your eyes."
+      },
+      "exampleSynonym": {
+        "word": "protective eyewear",
+        "text": "Wear protective eyewear to protect your eyes."
+      },
+      "situacion": "seguridad"
+    }
   }
 ]
