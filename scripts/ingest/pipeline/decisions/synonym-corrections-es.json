@@ -254911,6 +254911,90 @@
     }
   },
   {
+    "entry": "estereomicroscopio",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "estereomicroscopio",
+        "text": "La investigadora examinó el insecto con un estereomicroscopio."
+      },
+      "exampleSynonym": {
+        "word": "microscopio estereoscópico",
+        "text": "La investigadora examinó el insecto con un microscopio estereoscópico."
+      }
+    }
+  },
+  {
+    "entry": "estilografo",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "estilógrafo",
+        "text": "Usó un estilógrafo para firmar el documento."
+      },
+      "exampleSynonym": {
+        "word": "pluma estilográfica",
+        "text": "Usó una pluma estilográfica para firmar el documento."
+      }
+    }
+  },
+  {
+    "entry": "estirajon",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "estirajón",
+        "text": "Sintió un estirajón en la espalda al levantar la caja."
+      },
+      "exampleSynonym": {
+        "word": "estirón",
+        "text": "Sintió un estirón en la espalda al levantar la caja."
+      }
+    }
+  },
+  {
+    "entry": "fotograma",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "fotograma",
+        "text": "Un fotograma mostró la entrada del actor en la escena."
+      },
+      "exampleSynonym": {
+        "word": "cuadro de película",
+        "text": "Un cuadro de película mostró la entrada del actor en la escena."
+      }
+    }
+  },
+  {
+    "entry": "fumarola",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "fumarola",
+        "text": "La fumarola lanzó vapor desde la ladera del volcán."
+      },
+      "exampleSynonym": {
+        "word": "emanación volcánica",
+        "text": "La emanación volcánica lanzó vapor desde la ladera del volcán."
+      }
+    }
+  },
+  {
+    "entry": "fundamentalismo",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "fundamentalismo",
+        "text": "El fundamentalismo influyó en las decisiones del grupo."
+      },
+      "exampleSynonym": {
+        "word": "integrismo",
+        "text": "El integrismo influyó en las decisiones del grupo."
+      }
+    }
+  },
+  {
     "entry": "rotativa",
     "remove": [],
     "unset": [

@@ -254388,6 +254388,90 @@
     }
   },
   {
+    "entry": "secrecy-2",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "secrecy",
+        "text": "The secrecy of the negotiations kept the bidders guessing."
+      },
+      "exampleSynonym": {
+        "word": "confidentiality",
+        "text": "The confidentiality of the negotiations kept the bidders guessing."
+      }
+    }
+  },
+  {
+    "entry": "sausage-3",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "sausage",
+        "text": "She grilled a sausage for lunch."
+      },
+      "exampleSynonym": {
+        "word": "pork sausage",
+        "text": "She grilled a pork sausage for lunch."
+      }
+    }
+  },
+  {
+    "entry": "scarp",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "scarp",
+        "text": "The trail followed the scarp above the valley."
+      },
+      "exampleSynonym": {
+        "word": "steep slope",
+        "text": "The trail followed the steep slope above the valley."
+      }
+    }
+  },
+  {
+    "entry": "saturnism",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "saturnism",
+        "text": "The doctor diagnosed saturnism after reviewing the blood test."
+      },
+      "exampleSynonym": {
+        "word": "lead poisoning",
+        "text": "The doctor diagnosed lead poisoning after reviewing the blood test."
+      }
+    }
+  },
+  {
+    "entry": "salmonellosis",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "salmonellosis",
+        "text": "The clinic reported a case of salmonellosis after the picnic."
+      },
+      "exampleSynonym": {
+        "word": "Salmonella infection",
+        "text": "The clinic reported a case of Salmonella infection after the picnic."
+      }
+    }
+  },
+  {
+    "entry": "seed-4",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "seed",
+        "text": "Gardeners seed the lawn in early spring."
+      },
+      "exampleSynonym": {
+        "word": "sow",
+        "text": "Gardeners sow the lawn in early spring."
+      }
+    }
+  },
+  {
     "entry": "glance",
     "remove": [],
     "unset": [
@@ -254397,7 +254481,7 @@
       "word": "glance",
       "definition": "To look at something quickly and briefly.",
       "synonyms": [
-        "take a quick look"
+        "peek"
       ],
       "image": {
         "id": 7024,
@@ -254408,8 +254492,8 @@
         "text": "She glanced at the clock before leaving."
       },
       "exampleSynonym": {
-        "word": "take a quick look",
-        "text": "She took a quick look at the clock before leaving."
+        "word": "peek",
+        "text": "She peeked at the clock before leaving."
       },
       "situacion": "vida-diaria"
     }
