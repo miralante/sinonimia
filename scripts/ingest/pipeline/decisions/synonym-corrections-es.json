@@ -257608,5 +257608,89 @@
         "text": "La médica decidió tratar la herida con cuidado."
       }
     }
+  },
+  {
+    "entry": "zancon",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "zancón",
+        "text": "El zancón cruzó el arroyo sin mojarse."
+      },
+      "exampleSynonym": {
+        "word": "patilargo",
+        "text": "El patilargo cruzó el arroyo sin mojarse."
+      }
+    }
+  },
+  {
+    "entry": "tununa",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tununa",
+        "text": "Avistaron una tununa al borde del camino."
+      },
+      "exampleSynonym": {
+        "word": "correcaminos",
+        "text": "Avistaron un correcaminos al borde del camino."
+      }
+    }
+  },
+  {
+    "entry": "trujamanear",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "trujamanear",
+        "text": "La guía tuvo que trujamanear el mensaje."
+      },
+      "exampleSynonym": {
+        "word": "interpretar",
+        "text": "La guía tuvo que interpretar el mensaje."
+      }
+    }
+  },
+  {
+    "entry": "zamurada",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "zamurada",
+        "text": "La zamurada voló sobre el valle."
+      },
+      "exampleSynonym": {
+        "word": "bandada de buitres",
+        "text": "La bandada de buitres voló sobre el valle."
+      }
+    }
+  },
+  {
+    "entry": "veloce",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "veloce",
+        "text": "El caballo veloce ganó la carrera."
+      },
+      "exampleSynonym": {
+        "word": "rápido",
+        "text": "El caballo rápido ganó la carrera."
+      }
+    }
+  },
+  {
+    "entry": "vaguido",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "vaguido",
+        "text": "El calor le provocó un vaguido."
+      },
+      "exampleSynonym": {
+        "word": "mareo",
+        "text": "El calor le provocó un mareo."
+      }
+    }
   }
 ]

@@ -257083,5 +257083,89 @@
         "text": "The scientists studied the plasma inside the magnetic-confinement fusion device."
       }
     }
+  },
+  {
+    "entry": "sunroof",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "sunroof",
+        "text": "We opened the sunroof to cool the car."
+      },
+      "exampleSynonym": {
+        "word": "roof window",
+        "text": "We opened the roof window to cool the car."
+      }
+    }
+  },
+  {
+    "entry": "strawberry-tree",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "strawberry tree",
+        "text": "A strawberry tree grows beside the stone path."
+      },
+      "exampleSynonym": {
+        "word": "Arbutus unedo",
+        "text": "An Arbutus unedo grows beside the stone path."
+      }
+    }
+  },
+  {
+    "entry": "subdelegate",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "subdelegate",
+        "text": "The subdelegate signed the form on behalf of the delegate."
+      },
+      "exampleSynonym": {
+        "word": "deputy delegate",
+        "text": "The deputy delegate signed the form on behalf of the delegate."
+      }
+    }
+  },
+  {
+    "entry": "stereochemistry",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "stereochemistry",
+        "text": "Stereochemistry explains why two molecules with the same atoms can behave differently."
+      },
+      "exampleSynonym": {
+        "word": "three-dimensional molecular chemistry",
+        "text": "Three-dimensional molecular chemistry explains why two molecules with the same atoms can behave differently."
+      }
+    }
+  },
+  {
+    "entry": "thermocouple",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "thermocouple",
+        "text": "The thermocouple measured the temperature inside the oven."
+      },
+      "exampleSynonym": {
+        "word": "thermoelectric temperature sensor",
+        "text": "The thermoelectric temperature sensor measured the temperature inside the oven."
+      }
+    }
+  },
+  {
+    "entry": "theophany",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "theophany",
+        "text": "The ancient text describes a theophany witnessed by the travelers."
+      },
+      "exampleSynonym": {
+        "word": "divine manifestation",
+        "text": "The ancient text describes a divine manifestation witnessed by the travelers."
+      }
+    }
   }
 ]
