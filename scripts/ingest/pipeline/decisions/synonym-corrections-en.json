@@ -256530,5 +256530,89 @@
       },
       "situacion": "vida-diaria"
     }
+  },
+  {
+    "entry": "refresher",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "refresher",
+        "text": "She enrolled in a refresher course before the certification exam."
+      },
+      "exampleSynonym": {
+        "word": "review course",
+        "text": "She enrolled in a review course before the certification exam."
+      }
+    }
+  },
+  {
+    "entry": "regret-4",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "regret",
+        "text": "They regret the decision to close the neighborhood library."
+      },
+      "exampleSynonym": {
+        "word": "lament",
+        "text": "They lament the decision to close the neighborhood library."
+      }
+    }
+  },
+  {
+    "entry": "remoisten",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "remoisten",
+        "text": "If the clay begins to dry, remoisten it before shaping."
+      },
+      "exampleSynonym": {
+        "word": "dampen again",
+        "text": "If the clay begins to dry, dampen again before shaping it."
+      }
+    }
+  },
+  {
+    "entry": "rigorous",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "rigorous",
+        "text": "The editor gave the report a rigorous review."
+      },
+      "exampleSynonym": {
+        "word": "thorough",
+        "text": "The editor gave the report a thorough review."
+      }
+    }
+  },
+  {
+    "entry": "roof",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "roof",
+        "text": "The roof kept rain out of the old cottage."
+      },
+      "exampleSynonym": {
+        "word": "covering",
+        "text": "The covering kept rain out of the old cottage."
+      }
+    }
+  },
+  {
+    "entry": "roughen",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "roughen",
+        "text": "Wind and sand roughen the wooden fence."
+      },
+      "exampleSynonym": {
+        "word": "make rough",
+        "text": "Wind and sand make rough patches on the wooden fence."
+      }
+    }
   }
 ]

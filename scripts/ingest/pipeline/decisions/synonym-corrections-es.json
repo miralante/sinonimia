@@ -256980,5 +256980,89 @@
       },
       "situacion": "vida-diaria"
     }
+  },
+  {
+    "entry": "estipticidad",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "estipticidad",
+        "text": "La estipticidad del extracto ayudó a detener el sangrado."
+      },
+      "exampleSynonym": {
+        "word": "astringencia",
+        "text": "La astringencia del extracto ayudó a detener el sangrado."
+      }
+    }
+  },
+  {
+    "entry": "fisiatra",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "fisiatra",
+        "text": "La fisiatra evaluó la movilidad de la paciente."
+      },
+      "exampleSynonym": {
+        "word": "especialista en medicina física",
+        "text": "La especialista en medicina física evaluó la movilidad de la paciente."
+      }
+    }
+  },
+  {
+    "entry": "fotograbadora",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "fotograbadora",
+        "text": "La fotograbadora imprimió el diseño sobre la placa."
+      },
+      "exampleSynonym": {
+        "word": "máquina de fotograbado",
+        "text": "La máquina de fotograbado imprimió el diseño sobre la placa."
+      }
+    }
+  },
+  {
+    "entry": "fumata",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "fumata",
+        "text": "Una fumata blanca anunció la elección del nuevo papa."
+      },
+      "exampleSynonym": {
+        "word": "humo del cónclave",
+        "text": "El humo del cónclave anunció la elección del nuevo papa."
+      }
+    }
+  },
+  {
+    "entry": "gastroscopio",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "gastroscopio",
+        "text": "El gastroscopio permitió observar el revestimiento del estómago."
+      },
+      "exampleSynonym": {
+        "word": "instrumento para examinar el estómago",
+        "text": "El instrumento para examinar el estómago permitió observar su revestimiento."
+      }
+    }
+  },
+  {
+    "entry": "glicolisis",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "glicolisis",
+        "text": "La glicolisis libera energía de la glucosa durante la respiración celular."
+      },
+      "exampleSynonym": {
+        "word": "glucólisis",
+        "text": "La glucólisis libera energía de la glucosa durante la respiración celular."
+      }
+    }
   }
 ]
