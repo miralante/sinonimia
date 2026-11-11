@@ -131376,8 +131376,8 @@
         "text": "The doctor checked her bronchial tubes."
       },
       "exampleSynonym": {
-        "word": "airway-related",
-        "text": "The doctor checked her airways."
+        "word": "relating to the bronchi",
+        "text": "The scan showed inflammation relating to the bronchi."
       },
       "situacion": "salud"
     }
@@ -135404,8 +135404,8 @@
         "text": "The ring held a blue cabochon."
       },
       "exampleSynonym": {
-        "word": "domed gemstone",
-        "text": "The ring held a blue domed gemstone."
+        "word": "cabochon-cut gem",
+        "text": "The jeweler set a cabochon-cut gem in a silver ring."
       },
       "situacion": "arts"
     }
@@ -221944,8 +221944,8 @@
         "text": "The museum displayed a falchion beside other medieval weapons."
       },
       "exampleSynonym": {
-        "word": "curved medieval sword",
-        "text": "The museum displayed a curved medieval sword beside other medieval weapons."
+        "word": "curved single-edged sword",
+        "text": "The guard raised a curved single-edged sword to block the attack."
       },
       "situacion": "conocimiento",
       "image": {

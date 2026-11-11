@@ -107799,7 +107799,7 @@
       },
       "exampleSynonym": {
         "word": "cría de aves",
-        "text": "La cría de aves requiere espacios limpios y seguros."
+        "text": "La cría de aves requiere atención diaria."
       },
       "situacion": "naturaleza"
     }
@@ -263718,6 +263718,70 @@
       "exampleSynonym": {
         "word": "autenticar",
         "text": "El notario debe autenticar la copia antes de archivarla."
+      }
+    }
+  },
+  {
+    "entry": "asestar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "asestar",
+        "text": "El boxeador logró asestar un golpe decisivo."
+      },
+      "exampleSynonym": {
+        "word": "propinar",
+        "text": "El boxeador logró propinar un golpe decisivo."
+      }
+    }
+  },
+  {
+    "entry": "atonico",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "atónico",
+        "text": "Un término atónico carece de acento prosódico."
+      }
+    }
+  },
+  {
+    "entry": "atribuir",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "atribuir",
+        "text": "No conviene atribuir el retraso a una sola causa."
+      }
+    }
+  },
+  {
+    "entry": "aumentable",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "ampliable",
+        "text": "La fecha límite es ampliable si ambas partes están de acuerdo."
+      }
+    }
+  },
+  {
+    "entry": "autocritica",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "autoevaluación",
+        "text": "La autoevaluación le ayudó a reconocer sus propios errores."
+      }
+    }
+  },
+  {
+    "entry": "bachear",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "reparar baches",
+        "text": "La cuadrilla salió a reparar baches en la carretera."
       }
     }
   }

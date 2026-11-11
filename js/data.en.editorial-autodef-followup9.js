@@ -515,3 +515,22 @@
 {const i=d.findIndex(q=>q.id==="autentificar");if(i<0)throw Error("Missing source entry autentificar");if(!d[i]["example"])throw Error("Missing example autentificar");d[i]["example"].word="autentificar";d[i]["example"].text="El notario debe autentificar la copia antes de archivarla.";}
 {const i=d.findIndex(q=>q.id==="autentificar");if(i<0)throw Error("Missing source entry autentificar");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym autentificar");d[i]["exampleSynonym"].word="autenticar";d[i]["exampleSynonym"].text="El notario debe autenticar la copia antes de archivarla.";}
 })();
+
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+// B11 EN literal example rewrites
+{const i=d.findIndex(q=>q.id==="falchion");if(i<0)throw Error("Missing source entry falchion");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym falchion");d[i]["exampleSynonym"].word="curved single-edged sword";d[i]["exampleSynonym"].text="The guard raised a curved single-edged sword to block the attack.";}
+{const i=d.findIndex(q=>q.id==="cabochon");if(i<0)throw Error("Missing source entry cabochon");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym cabochon");d[i]["exampleSynonym"].word="cabochon-cut gem";d[i]["exampleSynonym"].text="The jeweler set a cabochon-cut gem in a silver ring.";}
+{const i=d.findIndex(q=>q.id==="bronchial");if(i<0)throw Error("Missing source entry bronchial");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym bronchial");d[i]["exampleSynonym"].word="relating to the bronchi";d[i]["exampleSynonym"].text="The scan showed inflammation relating to the bronchi.";}
+})();
+
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+// B11 ES checker-order overrides
+{const i=d.findIndex(q=>q.id==="asestar");if(i<0)throw Error("Missing source entry asestar");if(!d[i]["example"])throw Error("Missing example asestar");d[i]["example"].word="asestar";d[i]["example"].text="El boxeador logró asestar un golpe decisivo.";}
+{const i=d.findIndex(q=>q.id==="asestar");if(i<0)throw Error("Missing source entry asestar");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym asestar");d[i]["exampleSynonym"].word="propinar";d[i]["exampleSynonym"].text="El boxeador logró propinar un golpe decisivo.";}
+{const i=d.findIndex(q=>q.id==="atonico");if(i<0)throw Error("Missing source entry atonico");if(!d[i]["example"])throw Error("Missing example atonico");d[i]["example"].word="atónico";d[i]["example"].text="Un término atónico carece de acento prosódico.";}
+{const i=d.findIndex(q=>q.id==="atribuir");if(i<0)throw Error("Missing source entry atribuir");if(!d[i]["example"])throw Error("Missing example atribuir");d[i]["example"].word="atribuir";d[i]["example"].text="No conviene atribuir el retraso a una sola causa.";}
+{const i=d.findIndex(q=>q.id==="aumentable");if(i<0)throw Error("Missing source entry aumentable");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym aumentable");d[i]["exampleSynonym"].word="ampliable";d[i]["exampleSynonym"].text="La fecha límite es ampliable si ambas partes están de acuerdo.";}
+{const i=d.findIndex(q=>q.id==="autocritica");if(i<0)throw Error("Missing source entry autocritica");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym autocritica");d[i]["exampleSynonym"].word="autoevaluación";d[i]["exampleSynonym"].text="La autoevaluación le ayudó a reconocer sus propios errores.";}
+{const i=d.findIndex(q=>q.id==="avicultura");if(i<0)throw Error("Missing source entry avicultura");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym avicultura");d[i]["exampleSynonym"].word="cría de aves";d[i]["exampleSynonym"].text="La cría de aves requiere atención diaria.";}
+{const i=d.findIndex(q=>q.id==="bachear");if(i<0)throw Error("Missing source entry bachear");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym bachear");d[i]["exampleSynonym"].word="reparar baches";d[i]["exampleSynonym"].text="La cuadrilla salió a reparar baches en la carretera.";}
+})();
