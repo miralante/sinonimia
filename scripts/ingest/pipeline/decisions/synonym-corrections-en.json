@@ -4167,8 +4167,8 @@
         "text": "The model showed a hemisphere cut from a sphere."
       },
       "exampleSynonym": {
-        "word": "a half-sphere",
-        "text": "The model showed a half-sphere cut from a sphere."
+        "word": "half-sphere",
+        "text": "A hemisphere is one half-sphere formed by a plane through the center."
       }
     }
   },
@@ -15598,11 +15598,11 @@
       ],
       "example": {
         "word": "hyperthyroidism",
-        "text": "Hyperthyroidism can cause a fast heartbeat."
+        "text": "The test helped diagnose hyperthyroidism."
       },
       "exampleSynonym": {
         "word": "overactive thyroid",
-        "text": "An overactive thyroid can cause a fast heartbeat."
+        "text": "An overactive thyroid can cause sweating and a fast heartbeat."
       }
     }
   },
@@ -24180,8 +24180,8 @@
         "text": "The town needs better infrastructure."
       },
       "exampleSynonym": {
-        "word": "basic systems",
-        "text": "The town needs better basic systems."
+        "word": "essential facilities",
+        "text": "Roads, bridges, and power lines are essential facilities for the region."
       }
     }
   },
@@ -44276,7 +44276,7 @@
       ],
       "example": {
         "word": "lordosis",
-        "text": "The scan showed the natural lordosis of the lower spine."
+        "text": "The scan showed mild lordosis in the lower spine."
       },
       "exampleSynonym": {
         "word": "inward spinal curve",
@@ -104537,8 +104537,8 @@
         "text": "A judge was asked to arbitrate the dispute."
       },
       "exampleSynonym": {
-        "word": "judge a dispute",
-        "text": "A judge was asked to judge a dispute."
+        "word": "settle a dispute by arbitration",
+        "text": "They asked the panel to settle a dispute by arbitration."
       },
       "situacion": "derecho"
     }
@@ -172610,8 +172610,8 @@
         "text": "She requested document legalisation before moving abroad."
       },
       "exampleSynonym": {
-        "word": "official document certification",
-        "text": "She requested official document certification before moving abroad."
+        "word": "document authentication",
+        "text": "The embassy requires document authentication before it accepts a copy."
       },
       "situacion": "tramites"
     },
@@ -175133,11 +175133,11 @@
       },
       "example": {
         "word": "doorstep fraud",
-        "text": "The doorstep fraud targeted older residents."
+        "text": "Doorstep fraud often begins with an unexpected visit."
       },
       "exampleSynonym": {
         "word": "doorstep scam",
-        "text": "The doorstep scam targeted older residents."
+        "text": "The caller warned residents about a doorstep scam."
       },
       "situacion": "seguridad"
     }
@@ -175563,8 +175563,8 @@
         "text": "The result left us in doubt."
       },
       "exampleSynonym": {
-        "word": "uncertainty",
-        "text": "The result left us in uncertainty."
+        "word": "be uncertain about",
+        "text": "You may be uncertain about the result until the second test."
       },
       "situacion": "vida-diaria"
     }
@@ -264058,6 +264058,132 @@
       "exampleSynonym": {
         "word": "dirty",
         "text": "They cleaned the dirty window."
+      }
+    }
+  },
+  {
+    "entry": "deregister-from-social-security",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "deregister from social security",
+        "text": "Workers must deregister from social security when they leave the country."
+      },
+      "exampleSynonym": {
+        "word": "cancel a social security registration",
+        "text": "The office helped her cancel a social security registration."
+      }
+    }
+  },
+  {
+    "entry": "radiation",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "radiation",
+        "text": "Radiation from the sun warms the ground."
+      }
+    }
+  },
+  {
+    "entry": "malignancy",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "cancerous growth",
+        "text": "The biopsy detected a cancerous growth in the tissue."
+      }
+    }
+  },
+  {
+    "entry": "radicalize",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "radicalize",
+        "text": "Extremist propaganda can radicalize a person over time."
+      }
+    }
+  },
+  {
+    "entry": "realtor",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "NAR member",
+        "text": "An NAR member can use the REALTOR® designation."
+      }
+    }
+  },
+  {
+    "entry": "adolescent",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "young person",
+        "text": "An adolescent is a young person moving toward adulthood."
+      }
+    }
+  },
+  {
+    "entry": "renal-failure",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "renal failure",
+        "text": "Renal failure can prevent the kidneys from filtering waste."
+      },
+      "exampleSynonym": {
+        "word": "kidney failure",
+        "text": "Kidney failure can make it hard to remove waste from the blood."
+      }
+    }
+  },
+  {
+    "entry": "remortgage",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "refinance a mortgage",
+        "text": "They decided to refinance a mortgage before the fixed rate ended."
+      }
+    }
+  },
+  {
+    "entry": "contraindication",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "reason a treatment should not be used",
+        "text": "An allergy can be a reason a treatment should not be used."
+      }
+    }
+  },
+  {
+    "entry": "accept-an-inheritance",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "accept an inheritance",
+        "text": "She chose to accept an inheritance from her aunt."
+      },
+      "exampleSynonym": {
+        "word": "accept a bequest",
+        "text": "He decided to accept a bequest left by his aunt."
+      }
+    }
+  },
+  {
+    "entry": "make-an-effort",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "make an effort",
+        "text": "Please make an effort to arrive on time."
+      },
+      "exampleSynonym": {
+        "word": "try hard",
+        "text": "Try hard to arrive on time."
       }
     }
   }

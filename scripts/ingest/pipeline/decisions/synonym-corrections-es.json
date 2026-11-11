@@ -47190,11 +47190,11 @@
       ],
       "example": {
         "word": "marca registrada",
-        "text": "La marca registrada distingue los productos de esa empresa."
+        "text": "La marca registrada figura en el certificado."
       },
       "exampleSynonym": {
         "word": "marca inscrita",
-        "text": "La marca inscrita distingue los productos de esa empresa."
+        "text": "La marca inscrita figura en el registro oficial."
       },
       "situacion": "legal"
     }
@@ -232337,7 +232337,7 @@
       ],
       "example": {
         "word": "reciclaje",
-        "text": "El reciclaje transforma botellas usadas en objetos nuevos."
+        "text": "El reciclaje profesional actualizó los conocimientos del equipo."
       },
       "exampleSynonym": {
         "word": "formación continua",
@@ -239655,11 +239655,11 @@
       ],
       "example": {
         "word": "refugiado",
-        "text": "El refugiado recibió ayuda al llegar a la ciudad."
+        "text": "El refugiado pidió asilo al llegar a la frontera."
       },
       "exampleSynonym": {
         "word": "persona refugiada",
-        "text": "La persona refugiada recibió ayuda al llegar a la ciudad."
+        "text": "La persona refugiada pidió asilo al llegar a la frontera."
       },
       "situacion": "sociedad",
       "image": {
@@ -260268,11 +260268,11 @@
     "set": {
       "example": {
         "word": "incendio provocado",
-        "text": "La policía investigó un incendio provocado en el almacén."
+        "text": "El incendio provocado destruyó dos cobertizos."
       },
       "exampleSynonym": {
         "word": "fuego provocado",
-        "text": "La policía investigó un fuego provocado en el almacén."
+        "text": "La policía investigó si hubo un fuego provocado."
       }
     }
   },
@@ -260282,11 +260282,11 @@
     "set": {
       "example": {
         "word": "residuos peligrosos",
-        "text": "El taller entregó los residuos peligrosos a una empresa autorizada."
+        "text": "Los residuos peligrosos se guardan en recipientes especiales."
       },
       "exampleSynonym": {
         "word": "desechos peligrosos",
-        "text": "El taller entregó los desechos peligrosos a una empresa autorizada."
+        "text": "Los desechos peligrosos requieren un tratamiento especial."
       }
     }
   },
@@ -260296,7 +260296,7 @@
     "set": {
       "exampleSynonym": {
         "word": "que puede admitirse",
-        "text": "El juez revisó la prueba que puede admitirse en el juicio."
+        "text": "Una prueba que puede admitirse debe cumplir los requisitos legales."
       }
     }
   },
@@ -260316,11 +260316,11 @@
     "set": {
       "example": {
         "word": "amnesia",
-        "text": "El golpe le causó amnesia durante unas horas."
+        "text": "La amnesia le impidió recordar lo ocurrido."
       },
       "exampleSynonym": {
         "word": "pérdida de memoria",
-        "text": "El golpe le causó pérdida de memoria durante unas horas."
+        "text": "La pérdida de memoria duró solo unos minutos."
       }
     }
   },
@@ -260330,11 +260330,11 @@
     "set": {
       "example": {
         "word": "analfabeto",
-        "text": "Ese hombre es analfabeto y no puede leer los carteles."
+        "text": "El personaje analfabeto pidió ayuda para leer el aviso."
       },
       "exampleSynonym": {
         "word": "persona que no sabe leer ni escribir",
-        "text": "Ese hombre es una persona que no sabe leer ni escribir."
+        "text": "La persona que no sabe leer ni escribir pidió ayuda."
       }
     }
   },
@@ -260344,11 +260344,11 @@
     "set": {
       "example": {
         "word": "anorexia",
-        "text": "Después de una infección, tuvo anorexia durante varios días."
+        "text": "La anorexia que siguió a la gripe le quitó el apetito."
       },
       "exampleSynonym": {
         "word": "pérdida del apetito",
-        "text": "Después de una infección, tuvo pérdida del apetito durante varios días."
+        "text": "La pérdida del apetito preocupó a su familia."
       }
     }
   },
@@ -260358,11 +260358,11 @@
     "set": {
       "example": {
         "word": "arrestar",
-        "text": "La policía tuvo que arrestar al hombre por el robo."
+        "text": "La policía decidió arrestar al sospechoso."
       },
       "exampleSynonym": {
         "word": "detener",
-        "text": "La policía tuvo que detener al hombre por el robo."
+        "text": "La policía decidió detener al sospechoso."
       }
     }
   },
@@ -260372,7 +260372,7 @@
     "set": {
       "exampleSynonym": {
         "word": "pendiente de pago",
-        "text": "Pagó el recibo pendiente de pago antes de la fecha límite."
+        "text": "El recibo pendiente de pago generó un recargo."
       }
     }
   },
@@ -260382,11 +260382,11 @@
     "set": {
       "example": {
         "word": "autismo",
-        "text": "El niño con autismo juega en clase."
+        "text": "La persona con autismo eligió cómo participar en la actividad."
       },
       "exampleSynonym": {
         "word": "condición del espectro autista",
-        "text": "El niño con condición del espectro autista juega en clase."
+        "text": "La condición del espectro autista puede variar entre personas."
       }
     }
   },
@@ -260396,11 +260396,11 @@
     "set": {
       "example": {
         "word": "absentista",
-        "text": "El alumno absentista perdió varias clases."
+        "text": "El alumno absentista acumuló varias faltas."
       },
       "exampleSynonym": {
         "word": "que se ausenta habitualmente",
-        "text": "El alumno que se ausenta habitualmente perdió varias clases."
+        "text": "La persona que se ausenta habitualmente recibió apoyo."
       }
     }
   },
@@ -260410,7 +260410,7 @@
     "set": {
       "exampleSynonym": {
         "word": "que no consume alcohol",
-        "text": "Mi tío es una persona que no consume alcohol."
+        "text": "El término describe a alguien que no consume alcohol."
       }
     }
   },
@@ -260420,11 +260420,11 @@
     "set": {
       "example": {
         "word": "acechar",
-        "text": "El gato suele acechar a los pájaros del jardín."
+        "text": "El gato volvió a acechar a los pájaros desde el seto."
       },
       "exampleSynonym": {
         "word": "aguardar oculto",
-        "text": "El gato suele aguardar oculto para atrapar a los pájaros del jardín."
+        "text": "El zorro se quedó a aguardar oculto junto al corral."
       }
     }
   },
@@ -260434,11 +260434,11 @@
     "set": {
       "example": {
         "word": "agredir",
-        "text": "No debes agredir a nadie durante una discusión."
+        "text": "La policía detuvo al hombre que intentó agredir a un vecino."
       },
       "exampleSynonym": {
         "word": "atacar",
-        "text": "No debes atacar a nadie durante una discusión."
+        "text": "El guardia tuvo que atacar al agresor para proteger a la víctima."
       }
     }
   },
@@ -260447,12 +260447,12 @@
     "remove": [],
     "set": {
       "example": {
-        "word": "con alevosía",
-        "text": "El juez investigó si el acusado actuó con alevosía."
+        "word": "alevosía",
+        "text": "La fiscalía alegó alevosía en el ataque planeado."
       },
       "exampleSynonym": {
         "word": "actuación que asegura la indefensión",
-        "text": "El juez vio una actuación que asegura la indefensión en ese ataque."
+        "text": "Una actuación que asegura la indefensión puede ser alevosa."
       }
     }
   },
@@ -260466,7 +260466,7 @@
       },
       "exampleSynonym": {
         "word": "reembolsar gradualmente una deuda",
-        "text": "La empresa empezó a reembolsar gradualmente una deuda bancaria."
+        "text": "El plan permite reembolsar gradualmente una deuda."
       }
     }
   },
@@ -260476,7 +260476,7 @@
     "set": {
       "exampleSynonym": {
         "word": "con anemia",
-        "text": "El paciente quedó débil y con anemia después de la operación."
+        "text": "La dieta está pensada para pacientes con anemia."
       }
     }
   },

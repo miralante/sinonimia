@@ -18900,3 +18900,35 @@ DICCIONARIOS.es.push(...[{"id":"round2357-enhuevar-debt","word":"enhuevar","imag
  set('estado-civil',{definition:'Situación legal de una persona según su relación con el matrimonio, como soltera, casada, divorciada o viuda.',synonyms:['situación civil','situación matrimonial'],example:{word:'estado civil',text:'El formulario solicitaba el estado civil de la persona solicitante.'},exampleSynonym:{word:'situación civil',text:'El formulario solicitaba la situación civil de la persona solicitante.'}});
  DICCIONARIOS.es.push({id:'round2527-estadistico-person',word:'Estadístico',image:{id:7024,alt:'Una palabra del diccionario'},definition:'Persona que analiza datos usando métodos estadísticos.',synonyms:['analista de datos','especialista en estadística'],example:{word:'estadístico',text:'El estadístico analizó los datos de la encuesta.'},exampleSynonym:{word:'analista de datos',text:'El analista de datos analizó los datos de la encuesta.'},situacion:'conocimiento'});
 })();
+DICCIONARIOS.es = DICCIONARIOS.es.concat([
+  {
+    id: "salve-2",
+    word: "salve",
+    image: { id: 30863, alt: "Persona que reza ante una cruz" },
+    definition: "Oración católica dirigida a la Virgen María.",
+    synonyms: ["oración mariana","rezo mariano"],
+    example: { word: "salve", text: "La familia rezó una salve en la iglesia." },
+    exampleSynonym: { word: "oración mariana", text: "La familia rezó una oración mariana en la iglesia." },
+    situacion: "conocimiento",
+  },
+  {
+    id: "salvavida-2",
+    word: "salvavida",
+    image: { id: 3103, alt: "Aro salvavidas" },
+    definition: "Aro que ayuda a alguien a mantenerse a flote en el agua.",
+    synonyms: ["aro salvavidas","flotador de rescate"],
+    example: { word: "salvavida", text: "La tripulación lanzó un salvavida al agua." },
+    exampleSynonym: { word: "aro salvavidas", text: "La tripulación lanzó un aro salvavidas al agua." },
+    situacion: "seguridad",
+  },
+  {
+    id: "salvedad-2",
+    word: "salvedad",
+    image: { id: 7187, alt: "Nota fijada en un tablón" },
+    definition: "Nota que deja constancia de una corrección en un documento.",
+    synonyms: ["nota de corrección","nota aclaratoria"],
+    example: { word: "salvedad", text: "La salvedad quedó anotada al margen del contrato." },
+    exampleSynonym: { word: "nota de corrección", text: "La nota de corrección quedó anotada al margen del contrato." },
+    situacion: "tramites",
+  },
+]);
