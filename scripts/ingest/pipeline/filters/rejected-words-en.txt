@@ -13783,6 +13783,7 @@ governorcillo
 governorcillo
 goyaesque
 goyaesque
+gp-2
 GP-land
 GPA
 GPF
@@ -13791,8 +13792,14 @@ GPI
 GPIB
 GPIO
 GPM
+GPS
+GPS navigation
 GPT
 Gr. Brit.
+grab
+grab someone forceful when fighting₁
+grabbed
+grabber
 graceful degradation
 gracelessly
 gradatim
@@ -20127,6 +20134,7 @@ password wallet
 passwordable
 passwordless
 past paper
+paste with paste
 pasteboard
 pat. pend.
 patch file
@@ -24685,6 +24693,7 @@ usage guide
 used to express pain
 usefully
 Useware
+using the hands or other appendage to hold or hold something
 USMLE
 usuriously
 utensil for lighting fire

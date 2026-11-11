@@ -259873,5 +259873,235 @@
         "text": "El botánico clasificó el arbusto como perteneciente a las verbenáceas."
       }
     }
+  },
+  {
+    "entry": "pizzicato",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "pizzicato",
+        "toque de cuerdas pellizcadas"
+      ],
+      "example": {
+        "word": "Pizzicato",
+        "text": "El cuarteto cerró la obra con un pizzicato."
+      },
+      "exampleSynonym": {
+        "word": "toque de cuerdas pellizcadas",
+        "text": "El cuarteto cerró la obra con un toque de cuerdas pellizcadas."
+      }
+    }
+  },
+  {
+    "entry": "sievert",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "siévert",
+        "unidad de dosis equivalente de radiación"
+      ],
+      "example": {
+        "word": "Sievert",
+        "text": "El equipo registró un sievert durante la prueba."
+      },
+      "exampleSynonym": {
+        "word": "unidad de dosis equivalente de radiación",
+        "text": "El equipo registró una unidad de dosis equivalente de radiación durante la prueba."
+      }
+    }
+  },
+  {
+    "entry": "travestismo",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "travestismo",
+        "uso de ropa asociada a otro género"
+      ],
+      "example": {
+        "word": "Travestismo",
+        "text": "La novela presenta el travestismo en el contexto teatral."
+      },
+      "exampleSynonym": {
+        "word": "uso de ropa asociada a otro género",
+        "text": "La novela presenta el uso de ropa asociada a otro género en el contexto teatral."
+      }
+    }
+  },
+  {
+    "entry": "trilito",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "trilito",
+        "monumento megalítico de tres piedras"
+      ],
+      "example": {
+        "word": "Trilito",
+        "text": "El trilito domina la entrada del yacimiento."
+      },
+      "exampleSynonym": {
+        "word": "monumento megalítico de tres piedras",
+        "text": "El monumento megalítico de tres piedras domina la entrada del yacimiento."
+      }
+    }
+  },
+  {
+    "entry": "uretral",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "uretral",
+        "de la uretra"
+      ],
+      "example": {
+        "word": "Uretral",
+        "text": "La lesión uretral requirió atención médica."
+      },
+      "exampleSynonym": {
+        "word": "de la uretra",
+        "text": "La lesión de la uretra requirió atención médica."
+      }
+    }
+  },
+  {
+    "entry": "vicuna",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "vicuña",
+        "camélido andino"
+      ],
+      "example": {
+        "word": "Vicuña",
+        "text": "La vicuña pasta en las alturas andinas."
+      },
+      "exampleSynonym": {
+        "word": "camélido andino",
+        "text": "El camélido andino pasta en las alturas andinas."
+      }
+    }
+  },
+  {
+    "entry": "viviparo",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "vivíparo",
+        "que pare crías vivas"
+      ],
+      "example": {
+        "word": "Vivíparo",
+        "text": "El mamífero vivíparo protege a sus crías."
+      },
+      "exampleSynonym": {
+        "word": "que pare crías vivas",
+        "text": "El mamífero que pare crías vivas protege a sus crías."
+      }
+    }
+  },
+  {
+    "entry": "vomer",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "vómer",
+        "hueso del tabique nasal"
+      ],
+      "example": {
+        "word": "Vómer",
+        "text": "El vómer se encuentra en la pared de las fosas nasales."
+      },
+      "exampleSynonym": {
+        "word": "hueso del tabique nasal",
+        "text": "El hueso del tabique nasal se encuentra en la pared de las fosas nasales."
+      }
+    }
+  },
+  {
+    "entry": "yak",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "yak",
+        "bóvido del Himalaya"
+      ],
+      "example": {
+        "word": "Yak",
+        "text": "El yak resiste el frío de las montañas."
+      },
+      "exampleSynonym": {
+        "word": "bóvido del Himalaya",
+        "text": "El bóvido del Himalaya resiste el frío de las montañas."
+      }
+    }
+  },
+  {
+    "entry": "yeismo",
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "yeísmo",
+        "fusión de los sonidos de ll e y"
+      ],
+      "example": {
+        "word": "Yeísmo",
+        "text": "El yeísmo es común en muchas regiones hispanohablantes."
+      },
+      "exampleSynonym": {
+        "word": "fusión de los sonidos de ll e y",
+        "text": "La fusión de los sonidos de ll e y es común en muchas regiones hispanohablantes."
+      }
+    }
+  },
+  {
+    "entry": "sacralizar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacralizar",
+      "definition": "Tratar algo como si fuera sagrado.",
+      "synonyms": [
+        "hacer sagrado"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una comunidad trata un bosque como un lugar sagrado."
+      },
+      "example": {
+        "word": "sacralizar",
+        "text": "Algunas culturas pueden sacralizar un bosque."
+      },
+      "exampleSynonym": {
+        "word": "hacer sagrado",
+        "text": "Algunas culturas pueden hacer sagrado un bosque."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "sacramental",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacramental",
+      "definition": "Dicho de una fórmula, fijada por costumbre para un acto.",
+      "synonyms": [
+        "fórmula fija"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona repite unas palabras fijadas para una ceremonia."
+      },
+      "example": {
+        "word": "sacramental",
+        "text": "La fórmula sacramental se repitió durante la ceremonia."
+      },
+      "exampleSynonym": {
+        "word": "fórmula fija",
+        "text": "La fórmula fija se repitió durante la ceremonia."
+      },
+      "situacion": "sociedad"
+    }
   }
 ]

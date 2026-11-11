@@ -259675,5 +259675,80 @@
       },
       "situacion": "salud"
     }
+  },
+  {
+    "entry": "gp-surgery",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "GP surgery",
+      "definition": "A clinic where people see a general doctor.",
+      "synonyms": [
+        "doctor's office"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A patient calls a local doctor’s clinic to book a visit."
+      },
+      "example": {
+        "word": "GP surgery",
+        "text": "He called the GP surgery to book an appointment."
+      },
+      "exampleSynonym": {
+        "word": "doctor's office",
+        "text": "He called the doctor's office to book an appointment."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "grace",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grace",
+      "definition": "Extra time allowed before you must pay or finish something.",
+      "synonyms": [
+        "extra time"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A bill gives someone more time to pay."
+      },
+      "example": {
+        "word": "grace",
+        "text": "The bill gave us a week’s grace to pay."
+      },
+      "exampleSynonym": {
+        "word": "extra time",
+        "text": "The bill gave us extra time to pay."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "grabber-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grabber",
+      "definition": "Something that quickly attracts people’s attention.",
+      "synonyms": [
+        "attention-getter"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A striking opening sentence makes people want to read."
+      },
+      "example": {
+        "word": "grabber",
+        "text": "The opening sentence was a real grabber."
+      },
+      "exampleSynonym": {
+        "word": "attention-getter",
+        "text": "The opening sentence was a real attention-getter."
+      },
+      "situacion": "arte"
+    }
   }
 ]

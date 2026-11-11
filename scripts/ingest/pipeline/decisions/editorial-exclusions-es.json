@@ -87977,5 +87977,55 @@
     "id": "sacolevita",
     "word": "Sacolevita",
     "reason": "Regional Colombian name for chaqué; low general usefulness."
+  },
+  {
+    "id": "sacomano",
+    "word": "Sacomano",
+    "reason": "DLE marks the word obsolete; its candidate meaning is inaccurate."
+  },
+  {
+    "id": "sacon",
+    "word": "Sacón",
+    "reason": "Regional colloquial word from El Salvador or Honduras."
+  },
+  {
+    "id": "saconear",
+    "word": "Saconear",
+    "reason": "Regional verb limited to El Salvador and Honduras."
+  },
+  {
+    "id": "saconeria",
+    "word": "Saconería",
+    "reason": "Regional word from El Salvador or Honduras with limited general use."
+  },
+  {
+    "id": "sacra",
+    "word": "Sacra",
+    "reason": "Rare historical name for altar sheets used during mass."
+  },
+  {
+    "id": "sacral",
+    "word": "Sacral",
+    "reason": "Low-use adjective with a transparent relation to sagrado."
+  },
+  {
+    "id": "sacralidad",
+    "word": "Sacralidad",
+    "reason": "Transparent abstract noun derived from sacral."
+  },
+  {
+    "id": "sacramentar",
+    "word": "Sacramentar",
+    "reason": "Candidate gloss is unsupported; sourced senses are narrowly liturgical."
+  },
+  {
+    "id": "sacramentino",
+    "word": "Sacramentino",
+    "reason": "Specialized adjective for members of one religious congregation."
+  },
+  {
+    "id": "sacratisimo",
+    "word": "Sacratísimo",
+    "reason": "Transparent superlative form of sagrado."
   }
 ]

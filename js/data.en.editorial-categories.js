@@ -1633,4 +1633,7 @@
 // R4523 reviewed and split en
 (()=>{const x={"id":"governor-3","word":"governor","definition":"A device that keeps an engine’s speed steady or below a limit.","synonyms":["speed regulator"],"image":{"id":7024,"alt":"A device controls how fast an engine runs."},"example":{"word":"governor","text":"The governor kept the engine from running too fast."},"exampleSynonym":{"word":"speed regulator","text":"The speed regulator kept the engine from running too fast."},"situacion":"tecnologia"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else a.forEach(q=>Object.assign(q,x));})();
 
+// R4524 reviewed and split en
+
+
 })();

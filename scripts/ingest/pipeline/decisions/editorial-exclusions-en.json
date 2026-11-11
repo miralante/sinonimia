@@ -82081,5 +82081,50 @@
     "id": "goyaesque",
     "word": "Goyaesque",
     "reason": "Rare art-specific derivative from a proper name."
+  },
+  {
+    "id": "gp-2",
+    "word": "GP",
+    "reason": "Duplicate of the general-practitioner sense already covered by GP."
+  },
+  {
+    "id": "gps",
+    "word": "GPS",
+    "reason": "Common abbreviation for a widely known navigation system."
+  },
+  {
+    "id": "gps-navigation",
+    "word": "GPS navigation",
+    "reason": "Common transparent phrase."
+  },
+  {
+    "id": "grab",
+    "word": "grab",
+    "reason": "Common everyday verb with an easily understood meaning."
+  },
+  {
+    "id": "grab-2",
+    "word": "grab",
+    "reason": "Duplicate or corrupted common-word sense."
+  },
+  {
+    "id": "grab-3",
+    "word": "Grab",
+    "reason": "Corrupted definition and synonym."
+  },
+  {
+    "id": "grab-4",
+    "word": "grab",
+    "reason": "Corrupted definition and synonym."
+  },
+  {
+    "id": "grab-5",
+    "word": "grab",
+    "reason": "Corrupted definition and synonym."
+  },
+  {
+    "id": "grabber",
+    "word": "grabber",
+    "reason": "Transparent derivative meaning a person or thing that grabs."
   }
 ]
