@@ -23413,8 +23413,8 @@
         "text": "The doctor explained how an infarction can damage heart tissue."
       },
       "exampleSynonym": {
-        "word": "tissue death",
-        "text": "The doctor explained how tissue death can damage heart tissue."
+        "word": "tissue death from interrupted blood supply",
+        "text": "The doctor described it as tissue death from interrupted blood supply."
       }
     }
   },
@@ -31905,8 +31905,8 @@
         "text": "The long winter left her in isolation."
       },
       "exampleSynonym": {
-        "word": "seclusion",
-        "text": "The long winter left her in seclusion."
+        "word": "separation from others",
+        "text": "Isolation means separation from others for a period."
       }
     }
   },
@@ -33739,8 +33739,8 @@
         "legal order"
       ],
       "example": {
-        "word": "a judicial writ",
-        "text": "The court issued a judicial writ."
+        "word": "judicial writ",
+        "text": "The judge issued a judicial writ to require a response."
       },
       "exampleSynonym": {
         "word": "a court order",
@@ -111540,8 +111540,8 @@
         "text": "The painting was sold at auction to a local buyer."
       },
       "exampleSynonym": {
-        "word": "public sale",
-        "text": "The painting was sold at a public sale to a local buyer."
+        "word": "sale by competitive bidding",
+        "text": "The auction was a sale by competitive bidding."
       },
       "situacion": "finanzas"
     }
@@ -138744,8 +138744,8 @@
         "text": "The law would criminalize the sale."
       },
       "exampleSynonym": {
-        "word": "make a crime",
-        "text": "The law would make the sale illegal."
+        "word": "make a criminal offence",
+        "text": "The law would make a criminal offence of repeated fraud."
       },
       "situacion": "legal"
     }
@@ -165644,8 +165644,8 @@
         "text": "The new evidence may discredit the witness."
       },
       "exampleSynonym": {
-        "word": "cast doubt on",
-        "text": "The new evidence may cast doubt on the witness."
+        "word": "undermine credibility",
+        "text": "The error could undermine credibility at the hearing."
       },
       "situacion": "legal"
     }
@@ -214226,11 +214226,11 @@
       ],
       "example": {
         "word": "execute a deed",
-        "text": "Both parties must execute a deed today."
+        "text": "The buyer must execute a deed before the transfer takes effect."
       },
       "exampleSynonym": {
-        "word": "sign a deed",
-        "text": "Both parties must sign a deed today."
+        "word": "formally sign and deliver a deed",
+        "text": "They must formally sign and deliver a deed to complete the transfer."
       },
       "situacion": "legal",
       "image": {
@@ -214469,7 +214469,7 @@
       ],
       "example": {
         "word": "execution of a deed",
-        "text": "Execution of a deed can take several steps."
+        "text": "The execution of a deed requires the correct signatures."
       },
       "exampleSynonym": {
         "word": "signing and delivery of a deed",
@@ -264184,6 +264184,138 @@
       "exampleSynonym": {
         "word": "try hard",
         "text": "Try hard to arrive on time."
+      }
+    }
+  },
+  {
+    "entry": "remand",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "send back for further proceedings",
+        "text": "The judge’s order said, “Send back for further proceedings.”"
+      }
+    }
+  },
+  {
+    "entry": "regret",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "be sorry about",
+        "text": "You may be sorry about leaving before the final song."
+      }
+    }
+  },
+  {
+    "entry": "cease-and-desist",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "cease and desist",
+        "text": "The lawyer sent a cease and desist letter to the company."
+      }
+    }
+  },
+  {
+    "entry": "repatriation",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "return to the country of origin",
+        "text": "The program offers a return to the country of origin."
+      }
+    }
+  },
+  {
+    "entry": "regularization",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "legalization of status",
+        "text": "The program offers legalization of status to eligible residents."
+      }
+    }
+  },
+  {
+    "entry": "reuse",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "use again",
+        "text": "The glass jars are sturdy enough to use again."
+      }
+    }
+  },
+  {
+    "entry": "loss-of-parliamentary-immunity",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "lifting of parliamentary immunity",
+        "text": "The motion called for the lifting of parliamentary immunity."
+      },
+      "exampleSynonym": {
+        "word": "waiver of parliamentary immunity",
+        "text": "The report described a waiver of parliamentary immunity."
+      }
+    }
+  },
+  {
+    "entry": "defendants-dock",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "defendant’s dock",
+        "text": "The defendant’s dock was full during the hearing."
+      }
+    }
+  },
+  {
+    "entry": "clinical",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "relating to patient care",
+        "text": "The course includes topics relating to patient care."
+      }
+    }
+  },
+  {
+    "entry": "pay-off-a-mortgage",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "pay off a mortgage",
+        "text": "They saved for years to pay off a mortgage."
+      },
+      "exampleSynonym": {
+        "word": "repay a mortgage in full",
+        "text": "An extra payment can repay a mortgage in full."
+      }
+    }
+  },
+  {
+    "entry": "clinical-examination",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "clinical examination",
+        "text": "The doctor performed a clinical examination before ordering tests."
+      }
+    }
+  },
+  {
+    "entry": "bone-displacement",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "bone displacement",
+        "text": "The X-ray showed bone displacement after the fall."
+      },
+      "exampleSynonym": {
+        "word": "displacement of a bone",
+        "text": "The X-ray showed displacement of a bone near the joint."
       }
     }
   }

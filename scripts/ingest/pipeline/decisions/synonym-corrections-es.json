@@ -438,8 +438,8 @@
         "text": "El país decidió despenalizar esa conducta."
       },
       "exampleSynonym": {
-        "word": "dejar de considerar delito",
-        "text": "El país decidió retirar sanciones penales por esa conducta."
+        "word": "retirar sanciones penales",
+        "text": "La propuesta busca retirar sanciones penales para esa conducta."
       }
     }
   },
@@ -4150,11 +4150,11 @@
       ],
       "example": {
         "word": "detentar",
-        "text": "El dictador llegó a detentar el poder sin apoyo legal."
+        "text": "El grupo llegó a detentar el poder sin título legítimo durante décadas."
       },
       "exampleSynonym": {
-        "word": "ocupar",
-        "text": "El funcionario llegó a ejercer sin título legítimo el cargo público."
+        "word": "ejercer sin título legítimo",
+        "text": "El grupo llegó a ejercer sin título legítimo funciones públicas."
       }
     }
   },
@@ -5291,8 +5291,8 @@
         "relacionado con la diabetes"
       ],
       "example": {
-        "word": "diabética",
-        "text": "Mi abuelo diabético revisa el azúcar de su sangre cada día."
+        "word": "diabético",
+        "text": "El paciente diabético revisó su nivel de glucosa."
       },
       "exampleSynonym": {
         "word": "dieta relacionada con la diabetes",
@@ -20707,8 +20707,8 @@
         "text": "Decidieron embalsamar el cuerpo para el funeral."
       },
       "exampleSynonym": {
-        "word": "conservar un cadáver",
-        "text": "El museo decidió conservar temporalmente un cuerpo para estudiarlo."
+        "word": "conservar temporalmente un cuerpo",
+        "text": "La técnica permite conservar temporalmente un cuerpo antes del funeral."
       }
     }
   },
@@ -22631,8 +22631,8 @@
         "text": "El ayuntamiento debe empadronar a los nuevos residentes."
       },
       "exampleSynonym": {
-        "word": "registrar como vecino",
-        "text": "La familia debe inscribir en el padrón municipal su nueva dirección."
+        "word": "inscribir en el padrón municipal",
+        "text": "La oficina ayuda a inscribir en el padrón municipal a nuevos residentes."
       }
     }
   },
@@ -260485,12 +260485,12 @@
     "remove": [],
     "set": {
       "example": {
-        "word": "antitetánica",
-        "text": "La enfermera puso la vacuna antitetánica al niño."
+        "word": "vacuna antitetánica",
+        "text": "La enfermera administró la vacuna antitetánica tras la herida."
       },
       "exampleSynonym": {
         "word": "vacuna contra el tétanos",
-        "text": "La enfermera puso la vacuna contra el tétanos al niño."
+        "text": "El médico recomendó una vacuna contra el tétanos antes del viaje."
       }
     }
   },
@@ -260500,7 +260500,7 @@
     "set": {
       "exampleSynonym": {
         "word": "persona sin nacionalidad",
-        "text": "La persona sin nacionalidad pidió ayuda para obtener documentos."
+        "text": "La persona sin nacionalidad solicitó protección en el país."
       }
     }
   },
@@ -260509,8 +260509,8 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "pausa respiratoria",
-        "text": "La apnea causó una pausa respiratoria durante el sueño."
+        "word": "pausas respiratorias durante el sueño",
+        "text": "El estudio detectó pausas respiratorias durante el sueño."
       }
     }
   },
@@ -260519,8 +260519,8 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "de un tribunal arbitral",
-        "text": "El caso terminó con una decisión de un tribunal arbitral."
+        "word": "decisión de un tribunal arbitral",
+        "text": "La decisión de un tribunal arbitral resolvió el desacuerdo."
       }
     }
   },
@@ -260530,7 +260530,7 @@
     "set": {
       "example": {
         "word": "asbestosis",
-        "text": "La asbestosis dañó sus pulmones tras años de exposición."
+        "text": "La asbestosis puede aparecer tras años de exposición al amianto."
       }
     }
   },
@@ -260540,7 +260540,7 @@
     "set": {
       "exampleSynonym": {
         "word": "beneficiario de una asignación",
-        "text": "El beneficiario de una asignación recibió el pago completo."
+        "text": "El beneficiario de una asignación recibió los bienes indicados en el testamento."
       }
     }
   },
@@ -260550,7 +260550,7 @@
     "set": {
       "example": {
         "word": "asmático",
-        "text": "El niño asmático llevó su inhalador a la escuela."
+        "text": "El paciente asmático usó el inhalador según su pauta."
       }
     }
   },
@@ -260560,11 +260560,11 @@
     "set": {
       "example": {
         "word": "auditar",
-        "text": "La empresa debe auditar sus cuentas cada año."
+        "text": "La empresa decidió auditar sus cuentas antes del cierre."
       },
       "exampleSynonym": {
         "word": "realizar una auditoría",
-        "text": "La empresa debe realizar una auditoría de sus cuentas cada año."
+        "text": "El equipo va a realizar una auditoría de sus cuentas."
       }
     }
   },
@@ -260574,7 +260574,7 @@
     "set": {
       "exampleSynonym": {
         "word": "autoinmunitario",
-        "text": "El médico explicó el trastorno autoinmunitario y sus efectos."
+        "text": "El informe describió un trastorno autoinmunitario."
       }
     }
   },
@@ -260584,7 +260584,7 @@
     "set": {
       "exampleSynonym": {
         "word": "daño autoinfligido",
-        "text": "El daño autoinfligido dejó una cicatriz en su brazo."
+        "text": "El equipo de apoyo trabaja para reducir el daño autoinfligido."
       }
     }
   },
@@ -260593,8 +260593,8 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "de dos polos",
-        "text": "El médico describió el trastorno bipolar como un trastorno de dos polos."
+        "word": "relativo al trastorno bipolar",
+        "text": "El informe incluye un apartado relativo al trastorno bipolar."
       }
     }
   },
@@ -260604,7 +260604,7 @@
     "set": {
       "example": {
         "word": "colegiado",
-        "text": "El colegiado detuvo el partido por una falta."
+        "text": "El médico colegiado mostró su acreditación profesional."
       }
     }
   },
@@ -260613,8 +260613,8 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "deshonesto",
-        "text": "El funcionario que incurre en corrupción aceptó dinero ilegal."
+        "word": "que incurre en corrupción",
+        "text": "Un funcionario que incurre en corrupción puede perder su cargo."
       }
     }
   },
@@ -260623,8 +260623,8 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "convertir en delito",
-        "text": "La ley puede tipificar como delito la venta de esos productos."
+        "word": "tipificar como delito",
+        "text": "La ley podría tipificar como delito esa conducta."
       }
     }
   },
@@ -260633,8 +260633,8 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "periodos de cuatro meses",
-        "text": "El curso se divide en un periodo de cuatro meses."
+        "word": "periodo de cuatro meses",
+        "text": "El primer cuatrimestre es un periodo de cuatro meses."
       }
     }
   },
