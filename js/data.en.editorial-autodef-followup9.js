@@ -546,3 +546,6 @@
 {const i=d.findIndex(q=>q.id==="audibilidad");if(i<0)throw Error("Missing source entry audibilidad");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym audibilidad");d[i]["exampleSynonym"].word="posibilidad de oírse";d[i]["exampleSynonym"].text="La posibilidad de oírse desde el fondo mejoró cuando subieron el volumen.";}
 {const i=d.findIndex(q=>q.id==="audible");if(i<0)throw Error("Missing source entry audible");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym audible");d[i]["exampleSynonym"].word="oíble";d[i]["exampleSynonym"].text="El pitido era oíble desde el otro extremo del pasillo.";}
 })();
+
+// B12 audibilidad simple definition
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");const i=d.findIndex(q=>q.id==="audibilidad");if(i<0)throw Error("Missing source entry audibilidad");d[i].definition="Hecho de que un sonido se pueda oír.";})();

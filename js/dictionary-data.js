@@ -140,7 +140,7 @@ globalThis.SINONIMIA_DICTIONARY_DATA = {
     "es": {
       count: 51064,
       index: [
-        {"file":"js/dict.es.idx.1.js","src":"js/dict.es.idx.1.js?v=f0917ffdbd"},
+        {"file":"js/dict.es.idx.1.js","src":"js/dict.es.idx.1.js?v=92a8fd9373"},
         {"file":"js/dict.es.idx.2.js","src":"js/dict.es.idx.2.js?v=e32d8bf121"},
         {"file":"js/dict.es.idx.3.js","src":"js/dict.es.idx.3.js?v=2320e4349f"},
       ],
