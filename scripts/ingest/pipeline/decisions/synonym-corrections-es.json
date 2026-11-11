@@ -261949,5 +261949,159 @@
       },
       "situacion": "naturaleza"
     }
+  },
+  {
+    "entry": "saldar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Saldar",
+      "image": {
+        "id": 7024,
+        "alt": "Una persona paga una deuda completa."
+      },
+      "definition": "Pagar por completo una cuenta o una deuda.",
+      "synonyms": [
+        "liquidar",
+        "pagar"
+      ],
+      "example": {
+        "word": "saldar",
+        "text": "Logró saldar la deuda antes del plazo."
+      },
+      "exampleSynonym": {
+        "word": "liquidar",
+        "text": "Logró liquidar la deuda antes del plazo."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "saldo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Saldo",
+      "image": {
+        "id": 7024,
+        "alt": "Una persona revisa la cantidad restante en su cuenta."
+      },
+      "definition": "Cantidad positiva o negativa que resulta de una cuenta.",
+      "synonyms": [
+        "balance",
+        "cantidad restante"
+      ],
+      "example": {
+        "word": "saldo",
+        "text": "El saldo de la cuenta quedó en números rojos."
+      },
+      "exampleSynonym": {
+        "word": "balance",
+        "text": "El balance de la cuenta quedó en números rojos."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "saledizo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Saledizo",
+      "image": {
+        "id": 7024,
+        "alt": "Un balcón sobresale de la pared de un edificio."
+      },
+      "definition": "En arquitectura, parte de un edificio que sobresale de una pared.",
+      "synonyms": [
+        "voladizo",
+        "saliente"
+      ],
+      "example": {
+        "word": "saledizo",
+        "text": "El saledizo protegía la entrada de la lluvia."
+      },
+      "exampleSynonym": {
+        "word": "voladizo",
+        "text": "El voladizo protegía la entrada de la lluvia."
+      },
+      "situacion": "vivienda"
+    }
+  },
+  {
+    "entry": "salegar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salegar",
+      "image": {
+        "id": 7024,
+        "alt": "Un punto del campo donde se ofrece sal al ganado."
+      },
+      "definition": "Lugar del campo donde se da sal al ganado.",
+      "synonyms": [
+        "saladero"
+      ],
+      "example": {
+        "word": "salegar",
+        "text": "Las ovejas se acercaron al salegar."
+      },
+      "exampleSynonym": {
+        "word": "saladero",
+        "text": "Las ovejas se acercaron al saladero."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "salema",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salema",
+      "image": {
+        "id": 7024,
+        "alt": "Un pez salpa nada cerca de la costa."
+      },
+      "definition": "Pez marino también llamado salpa.",
+      "synonyms": [
+        "salpa",
+        "pámpano"
+      ],
+      "example": {
+        "word": "salema",
+        "text": "Una salema nadaba cerca de la costa."
+      },
+      "exampleSynonym": {
+        "word": "salpa",
+        "text": "Una salpa nadaba cerca de la costa."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "salep",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salep",
+      "image": {
+        "id": 7024,
+        "alt": "Un polvo de raíces de orquídea se usa en una bebida."
+      },
+      "definition": "Polvo de raíces de ciertas orquídeas, usado en bebidas y postres.",
+      "synonyms": [
+        "polvo de orquídea"
+      ],
+      "example": {
+        "word": "salep",
+        "text": "El salep espesó la bebida caliente."
+      },
+      "exampleSynonym": {
+        "word": "polvo de orquídea",
+        "text": "El polvo de orquídea espesó la bebida caliente."
+      },
+      "situacion": "comida"
+    }
   }
 ]

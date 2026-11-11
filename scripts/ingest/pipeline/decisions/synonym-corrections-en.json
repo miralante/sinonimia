@@ -261226,5 +261226,134 @@
       },
       "situacion": "vida-diaria"
     }
+  },
+  {
+    "entry": "gratify",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gratify",
+      "image": {
+        "id": 7024,
+        "alt": "A kind gesture gives someone pleasure."
+      },
+      "definition": "To give someone pleasure or satisfaction.",
+      "synonyms": [
+        "please",
+        "delight"
+      ],
+      "example": {
+        "word": "gratify",
+        "text": "The praise can gratify the young artist."
+      },
+      "exampleSynonym": {
+        "word": "please",
+        "text": "The praise can please the young artist."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "gratin",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gratin",
+      "image": {
+        "id": 7024,
+        "alt": "A baked dish is covered with cheese."
+      },
+      "definition": "A dish covered with cheese or sauce and baked in the oven.",
+      "synonyms": [
+        "baked cheese dish"
+      ],
+      "example": {
+        "word": "gratin",
+        "text": "They served a potato gratin with dinner."
+      },
+      "exampleSynonym": {
+        "word": "baked cheese dish",
+        "text": "They served a baked cheese dish with dinner."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "grating",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grating",
+      "image": {
+        "id": 7024,
+        "alt": "A metal frame covers an opening in the pavement."
+      },
+      "definition": "A metal frame of bars that covers an opening.",
+      "synonyms": [
+        "grille",
+        "grid"
+      ],
+      "example": {
+        "word": "grating",
+        "text": "Rainwater flowed through the grating."
+      },
+      "exampleSynonym": {
+        "word": "grille",
+        "text": "Rainwater flowed through the grille."
+      },
+      "situacion": "vivienda"
+    }
+  },
+  {
+    "entry": "gratitude",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gratitude",
+      "image": {
+        "id": 7024,
+        "alt": "A person thanks a friend for help."
+      },
+      "definition": "A feeling of thanks for help, kindness, or a gift.",
+      "synonyms": [
+        "thankfulness",
+        "appreciation"
+      ],
+      "example": {
+        "word": "gratitude",
+        "text": "She expressed gratitude for their help."
+      },
+      "exampleSynonym": {
+        "word": "thankfulness",
+        "text": "She expressed thankfulness for their help."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "gratuitous",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gratuitous",
+      "image": {
+        "id": 7024,
+        "alt": "A film includes violence that serves no purpose."
+      },
+      "definition": "Unnecessary and without a good reason, often upsetting.",
+      "synonyms": [
+        "unjustified",
+        "needless"
+      ],
+      "example": {
+        "word": "gratuitous",
+        "text": "The film showed gratuitous violence."
+      },
+      "exampleSynonym": {
+        "word": "unjustified",
+        "text": "The film showed unjustified violence."
+      },
+      "situacion": "arte"
+    }
   }
 ]

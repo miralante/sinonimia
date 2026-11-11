@@ -82496,5 +82496,40 @@
     "id": "grater",
     "word": "grater",
     "reason": "Nombre transparente de una herramienta común para rallar."
+  },
+  {
+    "id": "grater-2",
+    "word": "grater",
+    "reason": "Duplicado de la herramienta común ya excluida; su glosa es redundante."
+  },
+  {
+    "id": "gratin-2",
+    "word": "Gratin",
+    "reason": "Collins no confirma este uso verbal; la glosa es incorrecta."
+  },
+  {
+    "id": "gratinator",
+    "word": "Gratinator",
+    "reason": "No se pudo verificar esta forma en Collins."
+  },
+  {
+    "id": "grating-2",
+    "word": "Grating",
+    "reason": "La definición de pasar un cordón por una lazada no es verificable."
+  },
+  {
+    "id": "grating-3",
+    "word": "grating",
+    "reason": "Glosa corrupta y no verificable en Collins."
+  },
+  {
+    "id": "gratis",
+    "word": "gratis",
+    "reason": "Adjetivo transparente y de dificultad insuficiente."
+  },
+  {
+    "id": "gravative",
+    "word": "Gravative",
+    "reason": "No se pudo verificar esta forma ni su definición en Collins."
   }
 ]
