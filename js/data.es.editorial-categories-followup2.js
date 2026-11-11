@@ -468,4 +468,21 @@
 {const i=d.findIndex(q=>q.id==="enlace");if(i<0)throw Error("Missing entry enlace");d[i]["exampleSynonym"].word="conexión";d[i]["exampleSynonym"].text="El matrimonio creó una conexión entre las dos familias.";}
 {const i=d.findIndex(q=>q.id==="notificacion-app");if(i<0)throw Error("Missing entry notificacion-app");d[i]["example"].word="notificación de la app";d[i]["example"].text="La notificación de la app mostró un mensaje nuevo.";}
 {const i=d.findIndex(q=>q.id==="nombre-de-usuario");if(i<0)throw Error("Missing entry nombre-de-usuario");d[i]["example"].word="nombre de usuario";d[i]["example"].text="Elige un nombre de usuario fácil de recordar.";}
+
+// v5070 source fixes: A131 active runtime examples
+{const i=d.findIndex(q=>q.id==="residuos-peligrosos");if(i<0)throw Error("Missing entry residuos-peligrosos");d[i]["exampleSynonym"].word="desechos peligrosos";d[i]["exampleSynonym"].text="El taller entregó los desechos peligrosos a una empresa autorizada.";}
+{const i=d.findIndex(q=>q.id==="marca-registrada");if(i<0)throw Error("Missing entry marca-registrada");d[i]["example"].word="marca registrada";d[i]["example"].text="La marca registrada distingue los productos de esa empresa.";}
+{const i=d.findIndex(q=>q.id==="marca-registrada");if(i<0)throw Error("Missing entry marca-registrada");d[i]["exampleSynonym"].word="marca inscrita";d[i]["exampleSynonym"].text="La marca inscrita distingue los productos de esa empresa.";}
+{const i=d.findIndex(q=>q.id==="admisible");if(i<0)throw Error("Missing entry admisible");d[i]["exampleSynonym"].word="que puede admitirse";d[i]["exampleSynonym"].text="El juez revisó la prueba que puede admitirse en el juicio.";}
+{const i=d.findIndex(q=>q.id==="analfabeto");if(i<0)throw Error("Missing entry analfabeto");d[i]["exampleSynonym"].word="persona que no sabe leer ni escribir";d[i]["exampleSynonym"].text="Ese hombre es una persona que no sabe leer ni escribir.";}
+{const i=d.findIndex(q=>q.id==="anorexia");if(i<0)throw Error("Missing entry anorexia");d[i]["exampleSynonym"].word="pérdida del apetito";d[i]["exampleSynonym"].text="Después de una infección, tuvo pérdida del apetito durante varios días.";}
+{const i=d.findIndex(q=>q.id==="atrasado");if(i<0)throw Error("Missing entry atrasado");d[i]["exampleSynonym"].word="pendiente de pago";d[i]["exampleSynonym"].text="Pagó el recibo pendiente de pago antes de la fecha límite.";}
+{const i=d.findIndex(q=>q.id==="autismo");if(i<0)throw Error("Missing entry autismo");d[i]["exampleSynonym"].word="condición del espectro autista";d[i]["exampleSynonym"].text="El niño con condición del espectro autista juega en clase.";}
+{const i=d.findIndex(q=>q.id==="absentista");if(i<0)throw Error("Missing entry absentista");d[i]["exampleSynonym"].word="que se ausenta habitualmente";d[i]["exampleSynonym"].text="El alumno que se ausenta habitualmente perdió varias clases.";}
+{const i=d.findIndex(q=>q.id==="abstemio");if(i<0)throw Error("Missing entry abstemio");d[i]["exampleSynonym"].word="que no consume alcohol";d[i]["exampleSynonym"].text="Mi tío es una persona que no consume alcohol.";}
+{const i=d.findIndex(q=>q.id==="acechar");if(i<0)throw Error("Missing entry acechar");d[i]["example"].word="acechar";d[i]["example"].text="El gato suele acechar a los pájaros del jardín.";}
+{const i=d.findIndex(q=>q.id==="acechar");if(i<0)throw Error("Missing entry acechar");d[i]["exampleSynonym"].word="aguardar oculto";d[i]["exampleSynonym"].text="El gato suele aguardar oculto para atrapar a los pájaros del jardín.";}
+{const i=d.findIndex(q=>q.id==="agredir");if(i<0)throw Error("Missing entry agredir");d[i]["example"].word="agredir";d[i]["example"].text="No debes agredir a nadie durante una discusión.";}
+{const i=d.findIndex(q=>q.id==="agredir");if(i<0)throw Error("Missing entry agredir");d[i]["exampleSynonym"].word="atacar";d[i]["exampleSynonym"].text="No debes atacar a nadie durante una discusión.";}
+{const i=d.findIndex(q=>q.id==="alevosia");if(i<0)throw Error("Missing entry alevosia");d[i]["exampleSynonym"].word="actuación que asegura la indefensión";d[i]["exampleSynonym"].text="El juez vio una actuación que asegura la indefensión en ese ataque.";}
 })();

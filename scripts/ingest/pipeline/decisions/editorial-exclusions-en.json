@@ -82531,5 +82531,30 @@
     "id": "gravative",
     "word": "Gravative",
     "reason": "No se pudo verificar esta forma ni su definición en Collins."
+  },
+  {
+    "id": "grave-jumper",
+    "word": "grave jumper",
+    "reason": "No se pudo verificar esta expresión ni la glosa en Collins."
+  },
+  {
+    "id": "gravedigger",
+    "word": "gravedigger",
+    "reason": "Compuesto transparente que nombra un oficio común."
+  },
+  {
+    "id": "gravedigger-2",
+    "word": "gravedigger",
+    "reason": "Glosa corrupta y duplicada; no se verifica en Collins."
+  },
+  {
+    "id": "gravel-pit",
+    "word": "gravel pit",
+    "reason": "Expresión transparente para una cantera de grava."
+  },
+  {
+    "id": "gravelly-ground",
+    "word": "gravelly ground",
+    "reason": "Expresión transparente formada por palabras comunes."
   }
 ]

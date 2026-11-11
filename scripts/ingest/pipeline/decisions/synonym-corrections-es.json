@@ -47189,11 +47189,11 @@
         "signo distintivo registrado"
       ],
       "example": {
-        "word": "una marca registrada",
+        "word": "marca registrada",
         "text": "La marca registrada distingue los productos de esa empresa."
       },
       "exampleSynonym": {
-        "word": "un nombre comercial protegido",
+        "word": "marca inscrita",
         "text": "La marca inscrita distingue los productos de esa empresa."
       },
       "situacion": "legal"
@@ -260285,7 +260285,7 @@
         "text": "El taller entregó los residuos peligrosos a una empresa autorizada."
       },
       "exampleSynonym": {
-        "word": "basura peligrosa",
+        "word": "desechos peligrosos",
         "text": "El taller entregó los desechos peligrosos a una empresa autorizada."
       }
     }
@@ -260295,7 +260295,7 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "válida",
+        "word": "que puede admitirse",
         "text": "El juez revisó la prueba que puede admitirse en el juicio."
       }
     }
@@ -260333,7 +260333,7 @@
         "text": "Ese hombre es analfabeto y no puede leer los carteles."
       },
       "exampleSynonym": {
-        "word": "iletrado",
+        "word": "persona que no sabe leer ni escribir",
         "text": "Ese hombre es una persona que no sabe leer ni escribir."
       }
     }
@@ -260347,7 +260347,7 @@
         "text": "Después de una infección, tuvo anorexia durante varios días."
       },
       "exampleSynonym": {
-        "word": "trastorno alimentario",
+        "word": "pérdida del apetito",
         "text": "Después de una infección, tuvo pérdida del apetito durante varios días."
       }
     }
@@ -260371,7 +260371,7 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "pendientes de pago",
+        "word": "pendiente de pago",
         "text": "Pagó el recibo pendiente de pago antes de la fecha límite."
       }
     }
@@ -260385,7 +260385,7 @@
         "text": "El niño con autismo juega en clase."
       },
       "exampleSynonym": {
-        "word": "trastorno del espectro autista",
+        "word": "condición del espectro autista",
         "text": "El niño con condición del espectro autista juega en clase."
       }
     }
@@ -260399,7 +260399,7 @@
         "text": "El alumno absentista perdió varias clases."
       },
       "exampleSynonym": {
-        "word": "ausente habitual",
+        "word": "que se ausenta habitualmente",
         "text": "El alumno que se ausenta habitualmente perdió varias clases."
       }
     }
@@ -260409,7 +260409,7 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "una persona que no bebe alcohol",
+        "word": "que no consume alcohol",
         "text": "Mi tío es una persona que no consume alcohol."
       }
     }
@@ -260419,11 +260419,11 @@
     "remove": [],
     "set": {
       "example": {
-        "word": "acechaba",
+        "word": "acechar",
         "text": "El gato suele acechar a los pájaros del jardín."
       },
       "exampleSynonym": {
-        "word": "aguardaba oculto",
+        "word": "aguardar oculto",
         "text": "El gato suele aguardar oculto para atrapar a los pájaros del jardín."
       }
     }
@@ -260433,11 +260433,11 @@
     "remove": [],
     "set": {
       "example": {
-        "word": "agredido",
+        "word": "agredir",
         "text": "No debes agredir a nadie durante una discusión."
       },
       "exampleSynonym": {
-        "word": "atacado",
+        "word": "atacar",
         "text": "No debes atacar a nadie durante una discusión."
       }
     }
@@ -260451,7 +260451,7 @@
         "text": "El juez investigó si el acusado actuó con alevosía."
       },
       "exampleSynonym": {
-        "word": "a traición",
+        "word": "actuación que asegura la indefensión",
         "text": "El juez vio una actuación que asegura la indefensión en ese ataque."
       }
     }
@@ -262102,6 +262102,161 @@
         "text": "El polvo de orquídea espesó la bebida caliente."
       },
       "situacion": "comida"
+    }
+  },
+  {
+    "entry": "salera",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salera",
+      "image": {
+        "id": 7024,
+        "alt": "El ganado come sal en un recipiente de madera."
+      },
+      "definition": "Piedra o recipiente donde el ganado come sal.",
+      "synonyms": [
+        "comedero de sal"
+      ],
+      "example": {
+        "word": "salera",
+        "text": "El rebaño comía sal en la salera."
+      },
+      "exampleSynonym": {
+        "word": "comedero de sal",
+        "text": "El rebaño comía sal en el comedero de sal."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "salero",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salero",
+      "image": {
+        "id": 7024,
+        "alt": "Una bailaora muestra gracia y donaire al bailar."
+      },
+      "definition": "Gracia y donaire al hablar, bailar o actuar.",
+      "synonyms": [
+        "donaire",
+        "garbo",
+        "chispa"
+      ],
+      "example": {
+        "word": "salero",
+        "text": "La bailaora tiene mucho salero."
+      },
+      "exampleSynonym": {
+        "word": "donaire",
+        "text": "La bailaora tiene mucho donaire."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "saleroso",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Saleroso",
+      "image": {
+        "id": 7024,
+        "alt": "Una persona ingeniosa hace reír a sus amigos."
+      },
+      "definition": "Que tiene gracia o resulta ingenioso.",
+      "synonyms": [
+        "gracioso",
+        "ingenioso"
+      ],
+      "example": {
+        "word": "saleroso",
+        "text": "El presentador saleroso hizo reír a todos."
+      },
+      "exampleSynonym": {
+        "word": "gracioso",
+        "text": "El presentador gracioso hizo reír a todos."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "saleta",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Saleta",
+      "image": {
+        "id": 7024,
+        "alt": "Un tribunal revisa una decisión tras una apelación."
+      },
+      "definition": "Sala o tribunal que revisa una apelación.",
+      "synonyms": [
+        "sala de apelaciones"
+      ],
+      "example": {
+        "word": "saleta",
+        "text": "La saleta revisó el fallo del tribunal."
+      },
+      "exampleSynonym": {
+        "word": "sala de apelaciones",
+        "text": "La sala de apelaciones revisó el fallo del tribunal."
+      },
+      "situacion": "legal"
+    }
+  },
+  {
+    "entry": "salgada",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salgada",
+      "image": {
+        "id": 7024,
+        "alt": "Una orzaga crece en un suelo salino."
+      },
+      "definition": "Planta también llamada orzaga, con hojas carnosas.",
+      "synonyms": [
+        "orzaga",
+        "armuelle"
+      ],
+      "example": {
+        "word": "salgada",
+        "text": "La salgada crecía en un terreno salino."
+      },
+      "exampleSynonym": {
+        "word": "orzaga",
+        "text": "La orzaga crecía en un terreno salino."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "salguera",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salguera",
+      "image": {
+        "id": 7024,
+        "alt": "Un sauce crece junto a un curso de agua."
+      },
+      "definition": "Árbol también llamado sauce.",
+      "synonyms": [
+        "sauce",
+        "salce"
+      ],
+      "example": {
+        "word": "salguera",
+        "text": "Una salguera crecía junto al arroyo."
+      },
+      "exampleSynonym": {
+        "word": "sauce",
+        "text": "Un sauce crecía junto al arroyo."
+      },
+      "situacion": "naturaleza"
     }
   }
 ]
