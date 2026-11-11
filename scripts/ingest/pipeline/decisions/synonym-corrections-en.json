@@ -107548,8 +107548,8 @@
         "text": "Her face turned ashen when she heard the news."
       },
       "exampleSynonym": {
-        "word": "pale",
-        "text": "Her face turned pale when she heard the news."
+        "word": "ashy",
+        "text": "Her ashy face showed how tired she felt."
       },
       "situacion": "vida-diaria"
     }
@@ -112756,7 +112756,7 @@
       },
       "exampleSynonym": {
         "word": "self-reactivity",
-        "text": "Self-reactivity can damage healthy tissue."
+        "text": "Self-reactivity can cause the immune system to attack healthy tissue."
       },
       "situacion": "salud"
     }
@@ -112869,7 +112869,7 @@
       },
       "exampleSynonym": {
         "word": "automatic character",
-        "text": "Practice gave her movements an automatic character."
+        "text": "The automatic character of the task made it easy to repeat."
       },
       "situacion": "conocimiento"
     }
@@ -115848,8 +115848,8 @@
         "text": "The report included a ballistic study of the bullet."
       },
       "exampleSynonym": {
-        "word": "projectile science",
-        "text": "The report included a study of projectile science."
+        "word": "projectile-related",
+        "text": "The report described the projectile-related damage to the vehicle."
       },
       "situacion": "tecnologia"
     }
@@ -116878,11 +116878,11 @@
       ],
       "example": {
         "word": "barcarolle",
-        "text": "The barcarolle followed a gentle rocking rhythm."
+        "text": "The barcarolle's gentle rhythm suggested a boat moving across the water."
       },
       "exampleSynonym": {
-        "word": "Venetian boat song",
-        "text": "The Venetian boat song followed a gentle rocking rhythm."
+        "word": "barcarole",
+        "text": "The barcarole's gentle rhythm suggested a boat moving across the water."
       },
       "situacion": "arte"
     }
@@ -119413,7 +119413,7 @@
       },
       "exampleSynonym": {
         "word": "declare someone blessed",
-        "text": "The church may declare someone blessed next year."
+        "text": "The church may declare someone blessed after a formal inquiry."
       },
       "situacion": "historia"
     }
@@ -124070,7 +124070,7 @@
       },
       "exampleSynonym": {
         "word": "literate in two languages",
-        "text": "The student was literate in two languages."
+        "text": "She is literate in two languages and reads novels in both."
       },
       "situacion": "education"
     }
@@ -124597,7 +124597,7 @@
       },
       "exampleSynonym": {
         "word": "biodynamic agriculture",
-        "text": "The farm uses biodynamic agriculture to care for soil and crops."
+        "text": "Biodynamic agriculture treats the farm as a connected ecosystem."
       },
       "situacion": "conocimiento"
     }
@@ -124659,8 +124659,8 @@
         "text": "Carbon is a bioelement found in every living thing."
       },
       "exampleSynonym": {
-        "word": "element needed for life",
-        "text": "Carbon is an element needed for life."
+        "word": "biological element",
+        "text": "Carbon is a biological element found in every living cell."
       },
       "situacion": "conocimiento"
     }
@@ -125690,7 +125690,7 @@
       },
       "exampleSynonym": {
         "word": "herbal bitters",
-        "text": "She added herbal bitters to the drink."
+        "text": "The bartender added herbal bitters to the cocktail."
       },
       "situacion": "vida-diaria"
     }
@@ -129009,8 +129009,8 @@
         "text": "A bovid grazed near the mountain path."
       },
       "exampleSynonym": {
-        "word": "member of the Bovidae family",
-        "text": "A member of the Bovidae family grazed near the mountain path."
+        "word": "member of Bovidae",
+        "text": "A bison is a member of Bovidae, a family of hoofed mammals."
       },
       "situacion": "nature"
     }
@@ -202718,7 +202718,7 @@
       },
       "exampleSynonym": {
         "word": "dig trenches around",
-        "text": "The soldiers dig trenches around their camp before nightfall."
+        "text": "Engineers dig trenches around the camp before an attack."
       },
       "situacion": "seguridad"
     }
@@ -264636,6 +264636,76 @@
       "exampleSynonym": {
         "word": "disease development",
         "text": "Disease development depends on several host factors."
+      }
+    }
+  },
+  {
+    "entry": "appetizers",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "starters",
+        "text": "The restaurant serves starters before the main course."
+      }
+    }
+  },
+  {
+    "entry": "own-goal",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "score an own goal",
+        "text": "A player can score an own goal by mistake."
+      },
+      "synonyms": [
+        "score an own goal"
+      ]
+    }
+  },
+  {
+    "entry": "kissing",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "kissing",
+        "text": "Kissing is a common way to greet close friends in some cultures."
+      },
+      "exampleSynonym": {
+        "word": "kiss",
+        "text": "They shared a kiss before leaving for the station."
+      }
+    }
+  },
+  {
+    "entry": "biform",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "having two forms",
+        "text": "This plant is described as having two forms."
+      },
+      "synonyms": [
+        "having two forms"
+      ]
+    }
+  },
+  {
+    "entry": "bisyllable",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "disyllable",
+        "text": "The word has two syllables, so it is a disyllable."
+      }
+    }
+  },
+  {
+    "entry": "dump",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "rubbish dump",
+        "text": "Workers carried the waste to a rubbish dump."
       }
     }
   }

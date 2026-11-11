@@ -18729,7 +18729,7 @@
       ],
       "example": {
         "word": "educable",
-        "text": "El niño es educable y aprende con apoyo."
+        "text": "Un alumno educable puede avanzar con apoyo paciente."
       },
       "exampleSynonym": {
         "word": "capaz de aprender",
@@ -206412,7 +206412,7 @@
       },
       "exampleSynonym": {
         "word": "anticipo para gastos",
-        "text": "La gestoría pidió un anticipo para gastos para iniciar el trámite."
+        "text": "El anticipo para gastos cubrió los viajes de trabajo."
       },
       "situacion": "finanzas",
       "image": {
@@ -263588,6 +263588,114 @@
       "exampleSynonym": {
         "word": "remisión de deuda",
         "text": "La remisión de deuda alivió la carga de la pequeña empresa."
+      }
+    }
+  },
+  {
+    "entry": "exhumacion",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "extracción de restos de una sepultura",
+        "text": "La extracción de restos de una sepultura se autorizó por orden judicial."
+      },
+      "synonyms": [
+        "extracción de restos de una sepultura",
+        "desenterramiento de un cadáver o restos"
+      ]
+    }
+  },
+  {
+    "entry": "herpes-zoster",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "herpes zóster",
+        "text": "El herpes zóster provocó dolor intenso en la paciente."
+      }
+    }
+  },
+  {
+    "entry": "secesion",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "separación política de un territorio",
+        "text": "La separación política de un territorio puede causar un conflicto."
+      }
+    }
+  },
+  {
+    "entry": "tecnocracia",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tecnocracia",
+        "text": "La tecnocracia confía el gobierno a especialistas técnicos."
+      }
+    }
+  },
+  {
+    "entry": "etario",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "por grupos de edad",
+        "text": "Los datos se agruparon por grupos de edad."
+      }
+    }
+  },
+  {
+    "entry": "arrodillar",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "hacer arrodillarse",
+        "text": "Tuvieron que hacer arrodillarse al testigo durante la recreación."
+      }
+    }
+  },
+  {
+    "entry": "aseverar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "aseverar",
+        "text": "La testigo tuvo que aseverar lo ocurrido ante el juez."
+      }
+    }
+  },
+  {
+    "entry": "autenticar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "autenticar",
+        "text": "El funcionario debe autenticar el documento antes de archivarlo."
+      }
+    }
+  },
+  {
+    "entry": "atollar",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "atascarse",
+        "text": "El camión puede atascarse en el barro."
+      }
+    }
+  },
+  {
+    "entry": "atragantar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "atragantar",
+        "text": "Un trozo grande puede atragantar al niño si no mastica bien."
+      },
+      "exampleSynonym": {
+        "word": "ahogar",
+        "text": "Un trozo de comida puede ahogar al niño si se atasca."
       }
     }
   }
