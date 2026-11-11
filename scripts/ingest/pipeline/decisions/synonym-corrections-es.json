@@ -260103,5 +260103,30 @@
       },
       "situacion": "sociedad"
     }
+  },
+  {
+    "entry": "sacrilegio",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacrilegio",
+      "definition": "Trato que ofende o falta al respeto a algo sagrado.",
+      "synonyms": [
+        "falta de respeto"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona trata sin respeto un objeto sagrado."
+      },
+      "example": {
+        "word": "sacrilegio",
+        "text": "Robar un objeto sagrado fue un sacrilegio."
+      },
+      "exampleSynonym": {
+        "word": "falta de respeto",
+        "text": "Robar un objeto sagrado fue una falta de respeto."
+      },
+      "situacion": "sociedad"
+    }
   }
 ]

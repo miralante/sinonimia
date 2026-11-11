@@ -88027,5 +88027,95 @@
     "id": "sacratisimo",
     "word": "Sacratísimo",
     "reason": "Transparent superlative form of sagrado."
+  },
+  {
+    "id": "sacre",
+    "word": "Sacre",
+    "reason": "Rare falconry bird, archaic thief sense, or obsolete artillery term."
+  },
+  {
+    "id": "sacrificadero",
+    "word": "Sacrificadero",
+    "reason": "Rare historical place name derived transparently from sacrificio."
+  },
+  {
+    "id": "sacrificador",
+    "word": "Sacrificador",
+    "reason": "Transparent agent noun derived from sacrificar."
+  },
+  {
+    "id": "sacrificar",
+    "word": "Sacrificar",
+    "reason": "Common everyday verb with an easily understood meaning."
+  },
+  {
+    "id": "sacrificial",
+    "word": "Sacrificial",
+    "reason": "Transparent adjective derived from sacrificio."
+  },
+  {
+    "id": "sacrificio",
+    "word": "Sacrificio",
+    "reason": "Common general word with an easily understood core meaning."
+  },
+  {
+    "id": "sacrilego",
+    "word": "Sacrílego",
+    "reason": "Transparent derivative of sacrilegio."
+  },
+  {
+    "id": "sacris",
+    "word": "Sacris",
+    "reason": "Vulgar shortening of sacristán with limited editorial value."
+  },
+  {
+    "id": "sacrismoche",
+    "word": "Sacrismoche",
+    "reason": "Rare, pejorative, obsolete insult."
+  },
+  {
+    "id": "sacristana",
+    "word": "Sacristana",
+    "reason": "Feminine form or obsolete wife-of-sacristan sense."
+  },
+  {
+    "id": "sacristanesco",
+    "word": "Sacristanesco",
+    "reason": "Transparent derivative with low general usefulness."
+  },
+  {
+    "id": "achampanado",
+    "word": "Achampanado",
+    "reason": "Orthographic variant of achampañado; it has no independent synonym value."
+  },
+  {
+    "id": "otonal",
+    "word": "Otoñal",
+    "reason": "Common, transparent adjective with an easily understood meaning and no useful synonym distinct from the headword."
+  },
+  {
+    "id": "traina",
+    "word": "Traína",
+    "reason": "Variant spelling of traíña; the entry has no independent synonym sense."
+  },
+  {
+    "id": "travelin",
+    "word": "Travelín",
+    "reason": "Variant spelling of trávelin; the entry has no independent synonym sense."
+  },
+  {
+    "id": "tuscal",
+    "word": "Tuscal",
+    "reason": "Bolivian regional term whose entry only restates its definition and offers no useful synonym."
+  },
+  {
+    "id": "ursina",
+    "word": "Ursina",
+    "reason": "Regular feminine form of ursino with a transparent meaning and no independent lexical value."
+  },
+  {
+    "id": "yoyo",
+    "word": "Yoyo",
+    "reason": "Regional spelling variant of yoyó with a duplicate definition and no distinct synonym."
   }
 ]

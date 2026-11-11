@@ -5586,6 +5586,7 @@ centesis
 centrad
 central adiposity
 Centralisation
+centralizing
 centrally
 centrifugally
 centripetally
@@ -13800,8 +13801,12 @@ grab
 grab someone forceful when fighting₁
 grabbed
 grabber
+graceful
 graceful degradation
+gracefulness
+Gracegoddess
 gracelessly
+gracile
 gradatim
 gradationally
 grade eleven
@@ -20026,6 +20031,7 @@ paper gold
 paper hands
 paper tape
 paper trade
+paper wasp
 paper-hand
 paper-handed
 Papua N.G.
@@ -22894,6 +22900,8 @@ scripless
 scripturally
 scruffily
 scrumptiously
+Scrutinize
+Sculptor
 scurrilously
 scurvily
 SDBA

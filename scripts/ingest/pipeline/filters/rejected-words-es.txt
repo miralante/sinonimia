@@ -404,6 +404,7 @@ acetosilla
 acetoso
 achabacanamiento
 achaflanar
+achampanado
 achaparrado
 achatamiento
 achatarramiento
@@ -25129,6 +25130,7 @@ otario
 ótico
 otolito
 otológico
+otonal
 otoplastia
 otoscopia
 ovado
@@ -31983,8 +31985,19 @@ sacramentino
 sacramento
 Sacramentum
 sacratísimo
+sacre
+sacrificadero
+sacrificador
+sacrificar
+sacrificial
+sacrificio
+sacrilego
+sacris
+sacrismoche
 sacrista
 sacristán
+sacristana
+sacristanesco
 sacro
 Sacroilitis
 sacrolumbar
@@ -34215,6 +34228,7 @@ trago
 traición
 traile
 tráiler
+traina
 traje
 traje acuático
 trajinera
@@ -34411,6 +34425,7 @@ Tratamiento
 tratar
 traumatismo cervical
 traumatofobia
+travelin
 traversa
 través
 travesaño
@@ -34742,6 +34757,7 @@ turnio
 turón
 turón europeo
 turpial
+tuscal
 tusígeno
 tusilago
 tútano
@@ -34950,6 +34966,7 @@ urpila
 urpilita
 urraca
 urraca criolla
+ursina
 urticación
 urutaú
 usabilidad
@@ -35704,6 +35721,7 @@ yola
 yoquepierdista
 yoruba
 youtuber
+yoyo
 yrigoyenismo
 yubo
 yuca

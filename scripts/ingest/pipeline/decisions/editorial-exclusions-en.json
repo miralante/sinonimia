@@ -82126,5 +82126,60 @@
     "id": "grabber",
     "word": "grabber",
     "reason": "Transparent derivative meaning a person or thing that grabs."
+  },
+  {
+    "id": "graceful",
+    "word": "graceful",
+    "reason": "Common adjective with an easy-to-understand meaning."
+  },
+  {
+    "id": "graceful-2",
+    "word": "Graceful",
+    "reason": "Corrupted definition and synonym."
+  },
+  {
+    "id": "graceful-3",
+    "word": "graceful",
+    "reason": "Corrupted definition mixes Spanish and English."
+  },
+  {
+    "id": "gracefulness",
+    "word": "gracefulness",
+    "reason": "Transparent noun derived from graceful."
+  },
+  {
+    "id": "gracefulness-2",
+    "word": "Gracefulness",
+    "reason": "Corrupted definition and synonym."
+  },
+  {
+    "id": "gracegoddess",
+    "word": "Gracegoddess",
+    "reason": "Corrupted, unverified phrase based on a proper name."
+  },
+  {
+    "id": "gracile",
+    "word": "gracile",
+    "reason": "Rare formal word with little everyday or personal-document value."
+  },
+  {
+    "id": "centralizer",
+    "word": "centralizing",
+    "reason": "Transparent participial adjective of centralize with no distinct synonym value."
+  },
+  {
+    "id": "paper-wasp",
+    "word": "paper wasp",
+    "reason": "Transparent compound whose definition restates its components; it has no distinct synonym."
+  },
+  {
+    "id": "scrutinize-2",
+    "word": "Scrutinize",
+    "reason": "Corrupted duplicate: the headword repeats scrutinize instead of representing the British spelling scrutinise."
+  },
+  {
+    "id": "sculptor-2",
+    "word": "Sculptor",
+    "reason": "Duplicate entry for sculptor with no separate meaning."
   }
 ]

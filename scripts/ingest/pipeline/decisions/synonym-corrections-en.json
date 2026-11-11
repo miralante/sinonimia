@@ -259750,5 +259750,130 @@
       },
       "situacion": "arte"
     }
+  },
+  {
+    "entry": "grace-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grace",
+      "definition": "To make a place or person look more attractive.",
+      "synonyms": [
+        "decorate"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A painting makes a room look more beautiful."
+      },
+      "example": {
+        "word": "grace",
+        "text": "The painting graced the main room."
+      },
+      "exampleSynonym": {
+        "word": "decorate",
+        "text": "The painting decorated the main room."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "grace-3",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grace",
+      "definition": "God’s love and help, given freely to people.",
+      "synonyms": [
+        "God's kindness"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person prays and feels supported by God."
+      },
+      "example": {
+        "word": "grace",
+        "text": "They believe people receive grace from God."
+      },
+      "exampleSynonym": {
+        "word": "God's kindness",
+        "text": "They believe people receive God's kindness."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "grace-period",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grace period",
+      "definition": "Extra time to make a payment before a late fee applies.",
+      "synonyms": [
+        "extra time to pay"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A bank lets a customer pay a bill later without a fee."
+      },
+      "example": {
+        "word": "grace period",
+        "text": "The bank gave her a grace period to pay."
+      },
+      "exampleSynonym": {
+        "word": "extra time to pay",
+        "text": "The bank gave her extra time to pay."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "grace-period-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grace period",
+      "definition": "Early part of a loan when you do not make payments yet.",
+      "synonyms": [
+        "payment break"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A loan begins with a short break before payments start."
+      },
+      "example": {
+        "word": "grace period",
+        "text": "The loan has a six-month grace period."
+      },
+      "exampleSynonym": {
+        "word": "payment break",
+        "text": "The loan has a six-month payment break."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "gracious",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gracious",
+      "definition": "Kind and polite, especially when speaking to other people.",
+      "synonyms": [
+        "kind and polite"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A host welcomes guests with kindness and polite words."
+      },
+      "example": {
+        "word": "gracious",
+        "text": "Our gracious host thanked every guest."
+      },
+      "exampleSynonym": {
+        "word": "kind and polite",
+        "text": "Our kind and polite host thanked every guest."
+      },
+      "situacion": "sociedad"
+    }
   }
 ]
