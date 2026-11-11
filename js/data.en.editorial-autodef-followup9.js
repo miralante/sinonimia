@@ -549,3 +549,24 @@
 
 // B12 audibilidad simple definition
 (()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");const i=d.findIndex(q=>q.id==="audibilidad");if(i<0)throw Error("Missing source entry audibilidad");d[i].definition="Hecho de que un sonido se pueda oír.";})();
+
+// B13: synchronize the source examples with the active editorial decisions.
+(()=>{
+  const d=globalThis.DICCIONARIOS?.en;
+  if(!d)throw Error("missing en");
+  const set=(id,fields)=>{const entry=d.find(item=>item.id===id);if(!entry)throw Error(`Missing source entry ${id}`);Object.assign(entry,fields);};
+  set("cannonade",{
+    definition:"A long attack in which cannons fire many times.",
+    synonyms:["bombardment","barrage"],
+    example:{word:"cannonade",text:"The cannonade continued through the night."},
+    exampleSynonym:{word:"bombardment",text:"The bombardment continued through the night."},
+    situacion:"conocimiento"
+  });
+  set("chanterelle",{
+    image:{id:8328,alt:"Chanterelle mushroom"},
+    definition:"A golden edible mushroom.",
+    synonyms:["golden chanterelle"],
+    example:{word:"chanterelle",text:"A chanterelle grew beside the trail after the rain."},
+    exampleSynonym:{word:"golden chanterelle",text:"A golden chanterelle grew beside the trail after the rain."}
+  });
+})();

@@ -138229,7 +138229,7 @@
     "remove": [],
     "unset": [],
     "set": {
-      "definition": "Long, intense attack with repeated artillery fire.",
+      "definition": "A long attack in which cannons fire many times.",
       "synonyms": [
         "bombardment",
         "barrage"
@@ -264706,6 +264706,29 @@
       "exampleSynonym": {
         "word": "rubbish dump",
         "text": "Workers carried the waste to a rubbish dump."
+      }
+    }
+  },
+  {
+    "entry": "chanterelle",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "image": {
+        "id": 8328,
+        "alt": "Chanterelle mushroom"
+      },
+      "definition": "A golden edible mushroom.",
+      "synonyms": [
+        "golden chanterelle"
+      ],
+      "example": {
+        "word": "chanterelle",
+        "text": "A chanterelle grew beside the trail after the rain."
+      },
+      "exampleSynonym": {
+        "word": "golden chanterelle",
+        "text": "A golden chanterelle grew beside the trail after the rain."
       }
     }
   }
