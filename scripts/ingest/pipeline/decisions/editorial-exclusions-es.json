@@ -89362,5 +89362,55 @@
     "id": "casmodia",
     "word": "casmodia",
     "reason": "La ficha propone tristeza, pero las fuentes consultadas describen un término médico antiguo relacionado con bostezos. La palabra tiene poco uso actual."
+  },
+  {
+    "id": "cauchar",
+    "word": "cauchar",
+    "reason": "La definición habla de usar una sandalia, pero la voz documentada se refiere a extraer caucho o a un uso colombiano del trompo. Es regional y poco frecuente."
+  },
+  {
+    "id": "cerron",
+    "word": "cerrón",
+    "reason": "La glosa parece generada y no aporta un significado respaldado para cerrón."
+  },
+  {
+    "id": "chaladura",
+    "word": "chaladura",
+    "reason": "Coloquialismo derivado de chalar que equivale a locura; el concepto común se expresa de forma más directa."
+  },
+  {
+    "id": "cohetazo",
+    "word": "cohetazo",
+    "reason": "Derivado transparente de cohete para nombrar su disparo; aporta poco vocabulario difícil de utilidad general."
+  },
+  {
+    "id": "colmillar",
+    "word": "colmillar",
+    "reason": "Adjetivo raro y descriptivo para algo con forma de colmillo; no tiene utilidad suficiente en textos habituales."
+  },
+  {
+    "id": "contubernal",
+    "word": "contubernal",
+    "reason": "Voz histórica para un compañero de cuartel romano; casi no aparece en textos actuales."
+  },
+  {
+    "id": "curcusilla",
+    "word": "curcusilla",
+    "reason": "Nombre muy específico de una mariposa identificado mediante una familia zoológica técnica."
+  },
+  {
+    "id": "curiquingue",
+    "word": "curiquingue",
+    "reason": "La ficha lo define como insulto, pero las fuentes ecuatorianas consultadas describen un ave andina y una danza. Esos sentidos son regionales y muy especializados."
+  },
+  {
+    "id": "desaturdir",
+    "word": "desaturdir",
+    "reason": "La definición se contradice y las fuentes localizadas la tratan como voz portuguesa, no como una palabra española válida."
+  },
+  {
+    "id": "semidiametro",
+    "word": "semidiámetro",
+    "reason": "Término geométrico redundante: la mitad del diámetro se llama radio, una palabra más conocida y suficiente."
   }
 ]

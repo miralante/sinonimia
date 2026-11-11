@@ -424,4 +424,10 @@
     example:{word:"córdobas",text:"The price is listed in córdobas."},
     exampleSynonym:{word:"Nicaraguan currency",text:"The price is listed in Nicaraguan currency."}
   });
+  set("commercial-registry",{
+    definition:"An office where companies register their details.",
+    synonyms:["company registration office"],
+    example:{word:"commercial registry",text:"The company filed its documents with the commercial registry."},
+    exampleSynonym:{word:"company registration office",text:"The company filed its documents with the company registration office."}
+  });
 })();

@@ -83336,5 +83336,100 @@
     "id": "rich-in-medicinal-minerals",
     "word": "rich in medicinal minerals",
     "reason": "The long phrase makes an unsupported health claim and is not a useful standalone difficult word."
+  },
+  {
+    "id": "cisco",
+    "word": "cisco",
+    "reason": "Acepción especializada para trozos pequeños de carbón, de escaso uso cotidiano."
+  },
+  {
+    "id": "cisco-2",
+    "word": "cisco",
+    "reason": "Duplicates the rare coal sense already reviewed under cisco; both cards are too specialized."
+  },
+  {
+    "id": "closed-3",
+    "word": "Closed",
+    "reason": "The definition “set of pigs” does not correspond to the English word closed."
+  },
+  {
+    "id": "closed-5",
+    "word": "Closed",
+    "reason": "This is an inflectional form of the common word closed, not a separate difficult meaning."
+  },
+  {
+    "id": "closed-7",
+    "word": "Closed",
+    "reason": "The card repeats the unrelated wedding-noise definition attached to closed-8, with an invalid synonym."
+  },
+  {
+    "id": "come-35",
+    "word": "come",
+    "reason": "La definición sobre vigilar cultivos no corresponde al verbo inglés come y parece contaminación de otro idioma o entrada."
+  },
+  {
+    "id": "come-40",
+    "word": "come",
+    "reason": "La definición sobre un terreno sembrado de malojos no corresponde al verbo inglés come y parece contaminación de otro idioma o entrada."
+  },
+  {
+    "id": "costa-rican-bush",
+    "word": "Costa Rican bush",
+    "reason": "Nombre regional de una planta y su fruto, con detalle botánico demasiado especializado."
+  },
+  {
+    "id": "costalada-2",
+    "word": "costalada",
+    "reason": "Costalada es una voz española, no una palabra inglesa; la traducción o la etiqueta de idioma está contaminada."
+  },
+  {
+    "id": "counterleak",
+    "word": "Counterleak",
+    "reason": "Nombre de una forma de fuga musical muy específica; utilidad demasiado baja para un diccionario de lectura general."
+  },
+  {
+    "id": "genus-muscicapa",
+    "word": "genus muscicapa",
+    "reason": "Nombre taxonómico muy específico de un género de aves; no aporta utilidad general."
+  },
+  {
+    "id": "squeamish-2",
+    "word": "squeamish",
+    "reason": "La glosa describe un dulce cocido en sartén y no corresponde a squeamish, que significa sensible a cosas desagradables."
+  },
+  {
+    "id": "steal",
+    "word": "steal",
+    "reason": "The base sense means taking something without permission; steal is common and transparent."
+  },
+  {
+    "id": "steal-2",
+    "word": "Steal",
+    "reason": "Repeats the ordinary theft sense and has an unrelated synonym (“toil”)."
+  },
+  {
+    "id": "steal-3",
+    "word": "Steal",
+    "reason": "Rare specialist sense for securing a nail by crushing its end; too technical for general use."
+  },
+  {
+    "id": "steal-4",
+    "word": "Steal",
+    "reason": "The gloss “strengthen something” does not match the spelling steal and may be confused with steel."
+  },
+  {
+    "id": "steal-5",
+    "word": "Steal",
+    "reason": "The gloss is tautological and does not explain a distinct sense."
+  },
+  {
+    "id": "steal-6",
+    "word": "steal",
+    "reason": "The repeated robberies wording is malformed and does not define a clear use of steal."
+  },
+  {
+    "id": "steal-7",
+    "word": "steal",
+    "reason": "Repite el sentido común de steal ya presente en la ficha base; la palabra y esta acepción no son difíciles."
   }
 ]
