@@ -262412,5 +262412,213 @@
       },
       "situacion": "trabajo"
     }
+  },
+  {
+    "entry": "salina",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salina",
+      "image": {
+        "id": 7024,
+        "alt": "A salt mine is worked beneath the ground."
+      },
+      "definition": "A mine where salt is extracted.",
+      "synonyms": [
+        "salt mine"
+      ],
+      "example": {
+        "word": "salina",
+        "text": "The workers entered the salina at dawn."
+      },
+      "exampleSynonym": {
+        "word": "salt mine",
+        "text": "The workers entered the salt mine at dawn."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "salinero",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salinero",
+      "image": {
+        "id": 7024,
+        "alt": "A worker extracts salt from a saltworks."
+      },
+      "definition": "Persona que fabrica, extrae, transporta o vende sal.",
+      "synonyms": [
+        "trabajador de la sal",
+        "productor de sal"
+      ],
+      "example": {
+        "word": "salinero",
+        "text": "El salinero cargó la sal en el camión."
+      },
+      "exampleSynonym": {
+        "word": "trabajador de la sal",
+        "text": "El trabajador de la sal cargó la sal en el camión."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "salinidad",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salinidad",
+      "image": {
+        "id": 7024,
+        "alt": "A scientist measures the salt content of water."
+      },
+      "definition": "Cantidad de sal que contiene una sustancia o una masa de agua.",
+      "synonyms": [
+        "contenido de sal",
+        "concentración salina"
+      ],
+      "example": {
+        "word": "salinidad",
+        "text": "La salinidad del agua aumentó durante el verano."
+      },
+      "exampleSynonym": {
+        "word": "contenido de sal",
+        "text": "El contenido de sal del agua aumentó durante el verano."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "salinizar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salinizar",
+      "image": {
+        "id": 7024,
+        "alt": "Salt builds up in soil after repeated irrigation."
+      },
+      "definition": "Aumentar mucho la cantidad de sal del agua o del suelo.",
+      "synonyms": [
+        "aumentar la salinidad",
+        "hacer más salino"
+      ],
+      "example": {
+        "word": "salinizar",
+        "text": "El riego excesivo puede salinizar el terreno."
+      },
+      "exampleSynonym": {
+        "word": "aumentar la salinidad",
+        "text": "El riego excesivo puede aumentar la salinidad del terreno."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "salino",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salino",
+      "image": {
+        "id": 7024,
+        "alt": "A salty lake has white salt along its shore."
+      },
+      "definition": "Que contiene sal.",
+      "synonyms": [
+        "salado",
+        "salobre",
+        "salífero"
+      ],
+      "example": {
+        "word": "salino",
+        "text": "El suelo salino contiene sal."
+      },
+      "exampleSynonym": {
+        "word": "salado",
+        "text": "El suelo salado contiene sal."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "salitral",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salitral",
+      "image": {
+        "id": 7024,
+        "alt": "A plain contains deposits of saltpeter."
+      },
+      "definition": "Lugar donde se forma o se encuentra salitre.",
+      "synonyms": [
+        "yacimiento de salitre",
+        "salar"
+      ],
+      "example": {
+        "word": "salitral",
+        "text": "El salitral se extiende al norte del pueblo."
+      },
+      "exampleSynonym": {
+        "word": "yacimiento de salitre",
+        "text": "El yacimiento de salitre se extiende al norte del pueblo."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "salitre",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salitre",
+      "image": {
+        "id": 7024,
+        "alt": "A white salty deposit appears on a brick wall."
+      },
+      "definition": "Depósito salino que aparece en el suelo o en las paredes.",
+      "synonyms": [
+        "eflorescencia salina",
+        "depósito de sal"
+      ],
+      "example": {
+        "word": "salitre",
+        "text": "El salitre cubrió la pared del sótano."
+      },
+      "exampleSynonym": {
+        "word": "eflorescencia salina",
+        "text": "La eflorescencia salina cubrió la pared del sótano."
+      },
+      "situacion": "vivienda"
+    }
+  },
+  {
+    "entry": "salitrera",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salitrera",
+      "image": {
+        "id": 7024,
+        "alt": "Workers extract saltpeter from a mine."
+      },
+      "definition": "Lugar donde se extrae salitre.",
+      "synonyms": [
+        "mina de salitre",
+        "yacimiento salitrero"
+      ],
+      "example": {
+        "word": "salitrera",
+        "text": "La salitrera cerró cuando se agotó el yacimiento."
+      },
+      "exampleSynonym": {
+        "word": "mina de salitre",
+        "text": "La mina de salitre cerró cuando se agotó el yacimiento."
+      },
+      "situacion": "trabajo"
+    }
   }
 ]

@@ -261796,5 +261796,165 @@
       },
       "situacion": "salud"
     }
+  },
+  {
+    "entry": "gray",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gray",
+      "image": {
+        "id": 7024,
+        "alt": "A gray coat shows a color between black and white."
+      },
+      "definition": "A color between black and white, or the color of something.",
+      "synonyms": [
+        "grey",
+        "gray-colored"
+      ],
+      "example": {
+        "word": "gray",
+        "text": "The gray coat stood out against the white wall."
+      },
+      "exampleSynonym": {
+        "word": "grey",
+        "text": "The grey coat stood out against the white wall."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gray-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gray",
+      "image": {
+        "id": 7024,
+        "alt": "A dull gray day feels gloomy."
+      },
+      "definition": "Dull, gloomy, or lacking cheer.",
+      "synonyms": [
+        "gloomy",
+        "dreary",
+        "dull"
+      ],
+      "example": {
+        "word": "gray",
+        "text": "The town felt gray after the factory closed."
+      },
+      "exampleSynonym": {
+        "word": "gloomy",
+        "text": "The town felt gloomy after the factory closed."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "gray-3",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gray",
+      "image": {
+        "id": 7024,
+        "alt": "An older person has gray hair."
+      },
+      "definition": "Having gray hair.",
+      "synonyms": [
+        "gray-haired",
+        "gray-headed",
+        "grey"
+      ],
+      "example": {
+        "word": "gray",
+        "text": "The gray professor was welcomed by former students."
+      },
+      "exampleSynonym": {
+        "word": "gray-haired",
+        "text": "The gray-haired professor was welcomed by former students."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "gray-5",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gray",
+      "image": {
+        "id": 7024,
+        "alt": "A person’s hair turns gray with age."
+      },
+      "definition": "To become gray or make something gray.",
+      "synonyms": [
+        "turn gray",
+        "make gray",
+        "grey"
+      ],
+      "example": {
+        "word": "gray",
+        "text": "His hair began to gray in his thirties."
+      },
+      "exampleSynonym": {
+        "word": "turn gray",
+        "text": "His hair began to turn gray in his thirties."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gray-bearded",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gray-bearded",
+      "image": {
+        "id": 7024,
+        "alt": "An older man has a gray beard."
+      },
+      "definition": "Having a gray beard.",
+      "synonyms": [
+        "grey-bearded",
+        "graybearded"
+      ],
+      "example": {
+        "word": "gray-bearded",
+        "text": "A gray-bearded sailor greeted the crew."
+      },
+      "exampleSynonym": {
+        "word": "grey-bearded",
+        "text": "A grey-bearded sailor greeted the crew."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "gray-haired",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gray-haired",
+      "image": {
+        "id": 7024,
+        "alt": "A gray-haired person smiles at a family gathering."
+      },
+      "definition": "Having gray or white hair.",
+      "synonyms": [
+        "grey-haired",
+        "gray-headed",
+        "white-haired"
+      ],
+      "example": {
+        "word": "gray-haired",
+        "text": "The gray-haired woman led the meeting."
+      },
+      "exampleSynonym": {
+        "word": "grey-haired",
+        "text": "The grey-haired woman led the meeting."
+      },
+      "situacion": "sociedad"
+    }
   }
 ]

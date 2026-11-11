@@ -88577,5 +88577,25 @@
     "id": "salificable",
     "word": "Salificable",
     "reason": "Término de química para una sustancia capaz de formar una sal."
+  },
+  {
+    "id": "salipirina",
+    "word": "Salipirina",
+    "reason": "Fármaco antiguo y muy especializado sin valor como sinónimo de uso general."
+  },
+  {
+    "id": "salir-trabajo",
+    "word": "Salir del trabajo",
+    "reason": "Frase conversacional introducida como entrada; su texto es una recomendación, no una definición léxica."
+  },
+  {
+    "id": "salisipan",
+    "word": "Salisipan",
+    "reason": "Tipo de embarcación regional muy específico, sin sinónimos de uso general."
+  },
+  {
+    "id": "salitrado",
+    "word": "Salitrado",
+    "reason": "Derivado transparente de salitre que solo expresa que algo está mezclado con salitre."
   }
 ]

@@ -82566,5 +82566,35 @@
     "id": "gravidarum",
     "word": "Gravidarum",
     "reason": "Latin inflected form rather than an established English headword."
+  },
+  {
+    "id": "gravity-3",
+    "word": "Gravity",
+    "reason": "Definition describes sadness or worry, a sense not supported by standard dictionaries."
+  },
+  {
+    "id": "gravure",
+    "word": "Gravure",
+    "reason": "Specialized intaglio printing term with little value in a general synonym dictionary."
+  },
+  {
+    "id": "gray-4",
+    "word": "gray",
+    "reason": "Highly specialized animal-fur sense with no established everyday synonym."
+  },
+  {
+    "id": "gray-haired-2",
+    "word": "Gray-haired",
+    "reason": "Duplicate of the standard meaning of gray-haired."
+  },
+  {
+    "id": "gray-haired-3",
+    "word": "Gray-haired",
+    "reason": "Corrupt definition unrelated to gray hair."
+  },
+  {
+    "id": "gray-haired-4",
+    "word": "gray-haired",
+    "reason": "Duplicate of the standard meaning of gray-haired."
   }
 ]
