@@ -13967,6 +13967,8 @@ grill-3
 grill-4
 grill-5
 grilled
+griller
+grimace
 grimacingly
 grime variant
 grimgribber

@@ -263934,5 +263934,131 @@
       },
       "situacion": "historia"
     }
+  },
+  {
+    "entry": "griller",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "griller",
+      "definition": "A person who cooks food on a grill.",
+      "synonyms": [
+        "barbecue cook",
+        "grill cook"
+      ],
+      "example": {
+        "word": "griller",
+        "text": "The griller cooked vegetables over charcoal."
+      },
+      "exampleSynonym": {
+        "word": "barbecue cook",
+        "text": "The barbecue cook cooked vegetables over charcoal."
+      }
+    }
+  },
+  {
+    "entry": "griller-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "griller",
+      "definition": "An appliance that cooks food with direct heat.",
+      "synonyms": [
+        "grill",
+        "broiler"
+      ],
+      "example": {
+        "word": "griller",
+        "text": "She heated the sandwiches in the griller."
+      },
+      "exampleSynonym": {
+        "word": "grill",
+        "text": "She heated the sandwiches in the grill."
+      }
+    }
+  },
+  {
+    "entry": "grim",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grim",
+      "definition": "Very unpleasant or worrying.",
+      "synonyms": [
+        "bleak",
+        "gloomy"
+      ],
+      "example": {
+        "word": "grim",
+        "text": "The report gave a grim account of the flood."
+      },
+      "exampleSynonym": {
+        "word": "bleak",
+        "text": "The report gave a bleak account of the flood."
+      }
+    }
+  },
+  {
+    "entry": "grimace",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grimace",
+      "definition": "A facial expression that shows pain, disgust, or dislike.",
+      "synonyms": [
+        "pained expression",
+        "distorted expression"
+      ],
+      "example": {
+        "word": "grimace",
+        "text": "She made a grimace at the bitter taste."
+      },
+      "exampleSynonym": {
+        "word": "pained expression",
+        "text": "She made a pained expression at the bitter taste."
+      }
+    }
+  },
+  {
+    "entry": "grimace-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grimace",
+      "definition": "To twist the face to show pain, disgust, or dislike.",
+      "synonyms": [
+        "make a face",
+        "contort one’s face"
+      ],
+      "example": {
+        "word": "grimace",
+        "text": "He may grimace when he touches the hot pan."
+      },
+      "exampleSynonym": {
+        "word": "make a face",
+        "text": "He may make a face when he touches the hot pan."
+      }
+    }
+  },
+  {
+    "entry": "grimy",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grimy",
+      "definition": "Covered with dirt that has built up on a surface.",
+      "synonyms": [
+        "dirty",
+        "filthy"
+      ],
+      "example": {
+        "word": "grimy",
+        "text": "They cleaned the grimy window."
+      },
+      "exampleSynonym": {
+        "word": "dirty",
+        "text": "They cleaned the dirty window."
+      }
+    }
   }
 ]

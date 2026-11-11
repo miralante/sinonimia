@@ -82996,5 +82996,30 @@
     "id": "grilled",
     "word": "Grilled",
     "reason": "Definición corrupta que no corresponde a grilled."
+  },
+  {
+    "id": "grilled-3",
+    "word": "Grilled",
+    "reason": "Definition is corrupt and unrelated to grilled."
+  },
+  {
+    "id": "grilled-4",
+    "word": "Grilled",
+    "reason": "Definition is corrupt and describes a fence, not grilled."
+  },
+  {
+    "id": "griller-3",
+    "word": "Griller",
+    "reason": "Duplicate or corrupt entry for a cooking appliance, already covered under griller."
+  },
+  {
+    "id": "grimace-3",
+    "word": "Grimace",
+    "reason": "Duplicate noun definition of grimace with a corrupt synonym gloss."
+  },
+  {
+    "id": "grimace-4",
+    "word": "grimace",
+    "reason": "Duplicate noun definition of grimace with an unusable synonym gloss."
   }
 ]

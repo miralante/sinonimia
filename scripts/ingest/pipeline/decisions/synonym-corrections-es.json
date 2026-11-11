@@ -263213,5 +263213,194 @@
       },
       "situacion": "salud"
     }
+  },
+  {
+    "entry": "salvapantalla",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "salvapantalla",
+      "definition": "Lámina que se coloca sobre una pantalla para protegerla.",
+      "synonyms": [
+        "protector de pantalla",
+        "lámina protectora"
+      ],
+      "example": {
+        "word": "salvapantalla",
+        "text": "Colocó un salvapantalla nuevo sobre el teléfono."
+      },
+      "exampleSynonym": {
+        "word": "protector de pantalla",
+        "text": "Colocó un protector de pantalla nuevo sobre el teléfono."
+      }
+    }
+  },
+  {
+    "entry": "salvaunas",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "salvaúñas",
+      "definition": "Estropajo con ranuras laterales que protegen las uñas al limpiar.",
+      "synonyms": [
+        "estropajo con protector de uñas"
+      ],
+      "example": {
+        "word": "salvaúñas",
+        "text": "Usó un salvaúñas para fregar la sartén."
+      },
+      "exampleSynonym": {
+        "word": "estropajo con protector de uñas",
+        "text": "Usó un estropajo con protector de uñas para fregar la sartén."
+      }
+    }
+  },
+  {
+    "entry": "salvavida",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "salvavida",
+      "definition": "Persona que vigila y protege a los bañistas.",
+      "synonyms": [
+        "socorrista",
+        "guardavidas"
+      ],
+      "example": {
+        "word": "salvavida",
+        "text": "El salvavida ayudó a una niña que no podía volver a la orilla."
+      },
+      "exampleSynonym": {
+        "word": "socorrista",
+        "text": "El socorrista ayudó a una niña que no podía volver a la orilla."
+      }
+    }
+  },
+  {
+    "entry": "salve",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "salve",
+      "definition": "Interjección literaria que se usa para saludar.",
+      "synonyms": [
+        "hola",
+        "saludo"
+      ],
+      "example": {
+        "word": "salve",
+        "text": "El viajero dijo «salve» al entrar en la plaza."
+      },
+      "exampleSynonym": {
+        "word": "hola",
+        "text": "El viajero dijo «hola» al entrar en la plaza."
+      }
+    }
+  },
+  {
+    "entry": "salvedad",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "salvedad",
+      "definition": "Aclaración que limita o matiza lo que se ha dicho.",
+      "synonyms": [
+        "excepción",
+        "reserva",
+        "limitación"
+      ],
+      "example": {
+        "word": "salvedad",
+        "text": "Aceptó la propuesta con una salvedad sobre el plazo."
+      },
+      "exampleSynonym": {
+        "word": "excepción",
+        "text": "Aceptó la propuesta con una excepción sobre el plazo."
+      }
+    }
+  },
+  {
+    "entry": "salveque",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "salveque",
+      "definition": "En Centroamérica, bolsa para llevar utensilios de pesca o caza.",
+      "synonyms": [
+        "bolsa de pesca",
+        "bolsa de caza"
+      ],
+      "example": {
+        "word": "salveque",
+        "text": "Guardó los anzuelos y la cuerda en el salveque."
+      },
+      "exampleSynonym": {
+        "word": "bolsa de pesca",
+        "text": "Guardó los anzuelos y la cuerda en la bolsa de pesca."
+      }
+    }
+  },
+  {
+    "entry": "salvilla",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "salvilla",
+      "definition": "Bandeja pequeña para servir tazas, copas u otros recipientes.",
+      "synonyms": [
+        "salva",
+        "bandeja con pie"
+      ],
+      "example": {
+        "word": "salvilla",
+        "text": "Puso las tazas de café sobre una salvilla."
+      },
+      "exampleSynonym": {
+        "word": "salva",
+        "text": "Puso las tazas de café sobre una salva."
+      }
+    }
+  },
+  {
+    "entry": "salvo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "salvo",
+      "definition": "Fuera de peligro o de sufrir algún daño.",
+      "synonyms": [
+        "ileso",
+        "a salvo"
+      ],
+      "example": {
+        "word": "salvo",
+        "text": "Todos salieron salvos del incendio."
+      },
+      "exampleSynonym": {
+        "word": "ileso",
+        "text": "Todos salieron ilesos del incendio."
+      }
+    }
+  },
+  {
+    "entry": "salvoconducto",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "salvoconducto",
+      "definition": "Documento que permite pasar por una zona con seguridad.",
+      "synonyms": [
+        "permiso de paso seguro",
+        "autorización de paso"
+      ],
+      "example": {
+        "word": "salvoconducto",
+        "text": "La familia mostró el salvoconducto al cruzar la frontera."
+      },
+      "exampleSynonym": {
+        "word": "permiso de paso seguro",
+        "text": "La familia mostró el permiso de paso seguro al cruzar la frontera."
+      }
+    }
   }
 ]
