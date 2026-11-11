@@ -261956,5 +261956,213 @@
       },
       "situacion": "sociedad"
     }
+  },
+  {
+    "entry": "grayish",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grayish",
+      "image": {
+        "id": 7024,
+        "alt": "A wall is painted a slightly gray color."
+      },
+      "definition": "Slightly gray in color.",
+      "synonyms": [
+        "greyish"
+      ],
+      "example": {
+        "word": "grayish",
+        "text": "The old plaster had a grayish tint."
+      },
+      "exampleSynonym": {
+        "word": "greyish",
+        "text": "The old plaster had a greyish tint."
+      },
+      "situacion": "vivienda"
+    }
+  },
+  {
+    "entry": "grayness",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grayness",
+      "image": {
+        "id": 7024,
+        "alt": "A gray sky makes the landscape look dull."
+      },
+      "definition": "The quality or state of being gray.",
+      "synonyms": [
+        "greyness",
+        "gray hue"
+      ],
+      "example": {
+        "word": "grayness",
+        "text": "The grayness of the sky made the town look quiet."
+      },
+      "exampleSynonym": {
+        "word": "greyness",
+        "text": "The greyness of the sky made the town look quiet."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "graze",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graze",
+      "image": {
+        "id": 7024,
+        "alt": "Cows feed on grass in a green field."
+      },
+      "definition": "When animals graze, they eat grass or other plants in a field.",
+      "synonyms": [
+        "feed on grass",
+        "forage"
+      ],
+      "example": {
+        "word": "graze",
+        "text": "The cows graze in the field each morning."
+      },
+      "exampleSynonym": {
+        "word": "feed on grass",
+        "text": "The cows feed on grass in the field each morning."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "graze-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graze",
+      "image": {
+        "id": 7024,
+        "alt": "A farmer puts sheep out to eat grass in a field."
+      },
+      "definition": "To make animals feed on grass in a field.",
+      "synonyms": [
+        "pasture",
+        "put out to pasture"
+      ],
+      "example": {
+        "word": "graze",
+        "text": "They graze sheep on the hillside."
+      },
+      "exampleSynonym": {
+        "word": "pasture",
+        "text": "They pasture sheep on the hillside."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "graze-3",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graze",
+      "image": {
+        "id": 7024,
+        "alt": "A ball brushes a player’s arm as it flies past."
+      },
+      "definition": "To touch something lightly while passing it.",
+      "synonyms": [
+        "brush",
+        "skim",
+        "scrape"
+      ],
+      "example": {
+        "word": "graze",
+        "text": "The ball grazed his arm as it flew past."
+      },
+      "exampleSynonym": {
+        "word": "brush",
+        "text": "The ball brushed his arm as it flew past."
+      },
+      "situacion": "deportes"
+    }
+  },
+  {
+    "entry": "grazer",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grazer",
+      "image": {
+        "id": 7024,
+        "alt": "A cow feeds on grass in a field."
+      },
+      "definition": "An animal that feeds on grass or other plants.",
+      "synonyms": [
+        "grazing animal",
+        "herbivore"
+      ],
+      "example": {
+        "word": "grazer",
+        "text": "A cow is a grazer."
+      },
+      "exampleSynonym": {
+        "word": "grazing animal",
+        "text": "A cow is a grazing animal."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "grazing-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grazing",
+      "image": {
+        "id": 7024,
+        "alt": "Cattle feed on pasture land."
+      },
+      "definition": "Land where animals feed on grass.",
+      "synonyms": [
+        "grazing land",
+        "pasture"
+      ],
+      "example": {
+        "word": "grazing",
+        "text": "The cattle moved onto the grazing."
+      },
+      "exampleSynonym": {
+        "word": "grazing land",
+        "text": "The cattle moved onto the grazing land."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "grease",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grease",
+      "image": {
+        "id": 7024,
+        "alt": "Thick lubricant coats the gears of a machine."
+      },
+      "definition": "A thick, oily substance used to help machine parts move smoothly.",
+      "synonyms": [
+        "lubricant",
+        "lubricating grease"
+      ],
+      "example": {
+        "word": "grease",
+        "text": "The mechanic put grease on the gears."
+      },
+      "exampleSynonym": {
+        "word": "lubricant",
+        "text": "The mechanic put lubricant on the gears."
+      },
+      "situacion": "trabajo"
+    }
   }
 ]

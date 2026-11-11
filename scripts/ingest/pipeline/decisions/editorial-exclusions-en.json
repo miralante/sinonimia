@@ -82596,5 +82596,25 @@
     "id": "gray-haired-4",
     "word": "gray-haired",
     "reason": "Duplicate of the standard meaning of gray-haired."
+  },
+  {
+    "id": "grayed",
+    "word": "grayed",
+    "reason": "Regular past form of gray, with no independent sense for this synonym dictionary."
+  },
+  {
+    "id": "grayed-2",
+    "word": "Grayed",
+    "reason": "Corrupt fabric definition could not be verified in established dictionaries."
+  },
+  {
+    "id": "grayling",
+    "word": "grayling",
+    "reason": "Specialized fish and butterfly names with no useful general synonym."
+  },
+  {
+    "id": "grazer-2",
+    "word": "Grazer",
+    "reason": "Definition as a rubbing instrument could not be verified."
   }
 ]

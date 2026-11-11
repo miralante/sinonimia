@@ -262620,5 +262620,211 @@
       },
       "situacion": "trabajo"
     }
+  },
+  {
+    "entry": "salitroso",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salitroso",
+      "image": {
+        "id": 7024,
+        "alt": "A wall contains deposits of saltpeter."
+      },
+      "definition": "Que contiene salitre.",
+      "synonyms": [
+        "salitral"
+      ],
+      "example": {
+        "word": "salitroso",
+        "text": "El muro salitroso se deterioró con la humedad."
+      },
+      "exampleSynonym": {
+        "word": "salitral",
+        "text": "El muro salitral se deterioró con la humedad."
+      },
+      "situacion": "vivienda"
+    }
+  },
+  {
+    "entry": "saliva",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Saliva",
+      "image": {
+        "id": 7024,
+        "alt": "Saliva moistens food in the mouth."
+      },
+      "definition": "Líquido de la boca que humedece los alimentos y ayuda a digerirlos.",
+      "synonyms": [
+        "baba"
+      ],
+      "example": {
+        "word": "saliva",
+        "text": "La saliva del bebé manchó la sábana."
+      },
+      "exampleSynonym": {
+        "word": "baba",
+        "text": "La baba del bebé manchó la sábana."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "salivadera",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salivadera",
+      "image": {
+        "id": 7024,
+        "alt": "A small spittoon stands in the corner of a room."
+      },
+      "definition": "Regional: recipiente donde se escupe.",
+      "synonyms": [
+        "escupidera",
+        "escupidero",
+        "escupidor"
+      ],
+      "example": {
+        "word": "salivadera",
+        "text": "El bar instaló una salivadera junto a la entrada."
+      },
+      "exampleSynonym": {
+        "word": "escupidera",
+        "text": "El bar instaló una escupidera junto a la entrada."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "salivajo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salivajo",
+      "image": {
+        "id": 7024,
+        "alt": "A person spits a blob of saliva onto the ground."
+      },
+      "definition": "Porción de saliva que se escupe de una vez.",
+      "synonyms": [
+        "salivazo",
+        "escupitajo"
+      ],
+      "example": {
+        "word": "salivajo",
+        "text": "El salivajo cayó junto al bordillo."
+      },
+      "exampleSynonym": {
+        "word": "salivazo",
+        "text": "El salivazo cayó junto al bordillo."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "salival",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salival",
+      "image": {
+        "id": 7024,
+        "alt": "A doctor points to a salivary gland."
+      },
+      "definition": "De la saliva o relacionado con ella.",
+      "synonyms": [
+        "salivar",
+        "relativo a la saliva"
+      ],
+      "example": {
+        "word": "salival",
+        "text": "La glándula salival se inflamó."
+      },
+      "exampleSynonym": {
+        "word": "salivar",
+        "text": "La glándula salivar se inflamó."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "salivar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salivar",
+      "image": {
+        "id": 7024,
+        "alt": "A dog produces saliva when it smells food."
+      },
+      "definition": "Producir saliva.",
+      "synonyms": [
+        "babear"
+      ],
+      "example": {
+        "word": "salivar",
+        "text": "El perro puede salivar al oler la comida."
+      },
+      "exampleSynonym": {
+        "word": "babear",
+        "text": "El perro puede babear al oler la comida."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "salivazo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salivazo",
+      "image": {
+        "id": 7024,
+        "alt": "A person spits a blob of saliva onto the ground."
+      },
+      "definition": "Porción de saliva que se escupe de una vez.",
+      "synonyms": [
+        "escupitajo",
+        "salivajo"
+      ],
+      "example": {
+        "word": "salivazo",
+        "text": "El salivazo cayó junto al bordillo."
+      },
+      "exampleSynonym": {
+        "word": "escupitajo",
+        "text": "El escupitajo cayó junto al bordillo."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "salivoso",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salivoso",
+      "image": {
+        "id": 7024,
+        "alt": "A dog drools as it waits for food."
+      },
+      "definition": "Que expulsa mucha saliva.",
+      "synonyms": [
+        "baboso",
+        "que babea mucho"
+      ],
+      "example": {
+        "word": "salivoso",
+        "text": "El perro salivoso esperaba junto a la mesa."
+      },
+      "exampleSynonym": {
+        "word": "baboso",
+        "text": "El perro baboso esperaba junto a la mesa."
+      },
+      "situacion": "salud"
+    }
   }
 ]
