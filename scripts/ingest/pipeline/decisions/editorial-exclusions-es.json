@@ -88457,5 +88457,40 @@
     "id": "salario-en-especie",
     "word": "Salario en especie",
     "reason": "Expresión transparente que no constituye una acepción difícil propia y no figura como forma compleja en el DLE."
+  },
+  {
+    "id": "salazonero",
+    "word": "Salazonero",
+    "reason": "Adjetivo transparente que significa relativo a la salazón."
+  },
+  {
+    "id": "salbegar",
+    "word": "Salbegar",
+    "reason": "Uso hondureño muy restringido para una práctica local de alfarería."
+  },
+  {
+    "id": "salbeque",
+    "word": "Salbeque",
+    "reason": "Regionalismo salvadoreño ligado a una fiesta local."
+  },
+  {
+    "id": "salbequear",
+    "word": "Salbequear",
+    "reason": "Verbo de uso salvadoreño muy restringido."
+  },
+  {
+    "id": "salchicheria",
+    "word": "Salchichería",
+    "reason": "Nombre transparente de un comercio de salchichas o embutidos."
+  },
+  {
+    "id": "salchichero",
+    "word": "Salchichero",
+    "reason": "Nombre transparente de quien fabrica o vende salchichas."
+  },
+  {
+    "id": "salchucho",
+    "word": "Salchucho",
+    "reason": "Acepción regional de Álava, Navarra y La Rioja; no tiene uso general."
   }
 ]

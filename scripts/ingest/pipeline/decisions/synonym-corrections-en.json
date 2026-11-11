@@ -261070,5 +261070,161 @@
       },
       "situacion": "vida-diaria"
     }
+  },
+  {
+    "entry": "grappling",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Grappling",
+      "image": {
+        "id": 7024,
+        "alt": "Two wrestlers grip each other during a match."
+      },
+      "definition": "The act of gripping or seizing someone, as in wrestling.",
+      "synonyms": [
+        "physical struggle",
+        "wrestling hold"
+      ],
+      "example": {
+        "word": "grappling",
+        "text": "The grappling ended after both wrestlers fell."
+      },
+      "exampleSynonym": {
+        "word": "physical struggle",
+        "text": "The physical struggle ended after both wrestlers fell."
+      },
+      "situacion": "deportes"
+    }
+  },
+  {
+    "entry": "grasp",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grasp",
+      "image": {
+        "id": 7024,
+        "alt": "A person holds a railing firmly."
+      },
+      "definition": "To take something in the hand and hold it firmly.",
+      "synonyms": [
+        "grip",
+        "hold"
+      ],
+      "example": {
+        "word": "grasp",
+        "text": "She grasped the railing with both hands."
+      },
+      "exampleSynonym": {
+        "word": "grip",
+        "text": "She gripped the railing with both hands."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "grass",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grass",
+      "image": {
+        "id": 7024,
+        "alt": "A person refers to marijuana using slang."
+      },
+      "definition": "Informal American slang for marijuana.",
+      "synonyms": [
+        "marijuana",
+        "cannabis"
+      ],
+      "example": {
+        "word": "grass",
+        "text": "He smoked grass when he was a student."
+      },
+      "exampleSynonym": {
+        "word": "marijuana",
+        "text": "He smoked marijuana when he was a student."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "grate",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grate",
+      "image": {
+        "id": 7024,
+        "alt": "A metal frame holds burning wood in a fireplace."
+      },
+      "definition": "A metal frame that holds fuel in a fireplace or stove.",
+      "synonyms": [
+        "fireplace grid",
+        "metal frame"
+      ],
+      "example": {
+        "word": "grate",
+        "text": "Ashes lay below the grate."
+      },
+      "exampleSynonym": {
+        "word": "fireplace grid",
+        "text": "Ashes lay below the fireplace grid."
+      },
+      "situacion": "vivienda"
+    }
+  },
+  {
+    "entry": "grate-3",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grate",
+      "image": {
+        "id": 7024,
+        "alt": "Cheese is rubbed against a grater."
+      },
+      "definition": "To cut food into small pieces by rubbing it on a grater.",
+      "synonyms": [
+        "shred",
+        "grind"
+      ],
+      "example": {
+        "word": "grate",
+        "text": "Grate the cheese into the bowl."
+      },
+      "exampleSynonym": {
+        "word": "shred",
+        "text": "Shred the cheese into the bowl."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "grateful-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Grateful",
+      "image": {
+        "id": 7024,
+        "alt": "A cool breeze brings welcome relief on a hot day."
+      },
+      "definition": "Pleasant or welcome, especially because it brings relief.",
+      "synonyms": [
+        "welcome",
+        "refreshing"
+      ],
+      "example": {
+        "word": "grateful",
+        "text": "The cool breeze was a grateful relief."
+      },
+      "exampleSynonym": {
+        "word": "welcome",
+        "text": "The cool breeze was a welcome relief."
+      },
+      "situacion": "vida-diaria"
+    }
   }
 ]

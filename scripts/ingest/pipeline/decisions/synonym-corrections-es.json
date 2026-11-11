@@ -261822,5 +261822,132 @@
       },
       "situacion": "naturaleza"
     }
+  },
+  {
+    "entry": "salaz",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salaz",
+      "image": {
+        "id": 7024,
+        "alt": "Dos personas se miran con deseo."
+      },
+      "definition": "Muy inclinado a sentir deseo sexual.",
+      "synonyms": [
+        "lujurioso",
+        "lascivo"
+      ],
+      "example": {
+        "word": "salaz",
+        "text": "El personaje salaz perseguía a las mujeres."
+      },
+      "exampleSynonym": {
+        "word": "lujurioso",
+        "text": "El personaje lujurioso perseguía a las mujeres."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "salbanda",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salbanda",
+      "image": {
+        "id": 7024,
+        "alt": "Una capa de roca separa una veta mineral de la roca vecina."
+      },
+      "definition": "En minería, capa arcillosa entre una veta mineral y roca estéril.",
+      "synonyms": [
+        "capa arcillosa",
+        "estrato de arcilla"
+      ],
+      "example": {
+        "word": "salbanda",
+        "text": "La salbanda separaba la veta de la roca estéril."
+      },
+      "exampleSynonym": {
+        "word": "capa arcillosa",
+        "text": "La capa arcillosa separaba la veta de la roca estéril."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "salbute",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salbute",
+      "image": {
+        "id": 7024,
+        "alt": "Una tortilla de maíz preparada como una chalupa mexicana."
+      },
+      "definition": "En México, tortilla de maíz preparada como una chalupa.",
+      "synonyms": [
+        "tortilla mexicana"
+      ],
+      "example": {
+        "word": "salbute",
+        "text": "Pidieron un salbute en el puesto de comida."
+      },
+      "exampleSynonym": {
+        "word": "tortilla mexicana",
+        "text": "Pidieron una tortilla mexicana en el puesto de comida."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "salce",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salce",
+      "image": {
+        "id": 7024,
+        "alt": "Un sauce crece junto a un río."
+      },
+      "definition": "Árbol también llamado sauce.",
+      "synonyms": [
+        "sauce"
+      ],
+      "example": {
+        "word": "salce",
+        "text": "Un salce crecía junto al río."
+      },
+      "exampleSynonym": {
+        "word": "sauce",
+        "text": "Un sauce crecía junto al río."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "salceda",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salceda",
+      "image": {
+        "id": 7024,
+        "alt": "Varios sauces crecen en una misma zona."
+      },
+      "definition": "Lugar poblado de sauces.",
+      "synonyms": [
+        "sauceda"
+      ],
+      "example": {
+        "word": "salceda",
+        "text": "La salceda daba sombra junto al río."
+      },
+      "exampleSynonym": {
+        "word": "sauceda",
+        "text": "La sauceda daba sombra junto al río."
+      },
+      "situacion": "naturaleza"
+    }
   }
 ]
