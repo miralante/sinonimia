@@ -232,4 +232,24 @@
     example:{word:"anfíbol",text:"El anfíbol aparece en algunas rocas volcánicas."},
     exampleSynonym:{word:"grupo de minerales de color oscuro",text:"El grupo de minerales de color oscuro aparece en algunas rocas volcánicas."}
   });
+  set("bruzos",{definition:"En «de bruzos», con la cara hacia abajo.",synonyms:["de bruces"],example:{word:"de bruzos",text:"Cayó de bruzos en el barro."},exampleSynonym:{word:"de bruces",text:"Cayó de bruces en el barro."}});
+  set("antiflogistico",{definition:"Que ayuda a reducir la inflamación.",synonyms:["antiinflamatorio"],example:{word:"antiflogístico",text:"El médico recetó un antiflogístico."},exampleSynonym:{word:"antiinflamatorio",text:"El médico recetó un antiinflamatorio."}});
+  set("antiperistaltico",{definition:"Describe un movimiento digestivo que avanza en sentido contrario al normal.",synonyms:["digestivo inverso"],example:{word:"antiperistáltico",text:"El paciente tuvo un movimiento antiperistáltico."},exampleSynonym:{word:"digestivo inverso",text:"El paciente tuvo un movimiento digestivo inverso."}});
+{
+  const addSplit=(baseId,cards)=>{const i=d.findIndex(x=>x.id===baseId);if(i<0)throw Error("Missing split source "+baseId);const base={...d[i]};d.splice(i,1);for(const card of cards){const entry={...base,id:card.id,word:card.word,definition:card.definition,synonyms:[card.synonym],example:{word:card.marker,text:card.example},exampleSynonym:{word:card.synonym,text:card.exampleSynonymText}};if(card.translation)entry.translation=card.translation;else delete entry.translation;d.push(entry);}};
+  addSplit("solevantar",[
+    {id:"round5096-solevantar-lift",word:"solevantar",definition:"Elevar algo empujándolo desde abajo.",synonym:"elevar",marker:"solevantar",example:"La palanca puede solevantar la caja.",exampleSynonymText:"La palanca puede elevar la caja.",translation:{en:"lift-3"}},
+    {id:"round5096-solevantar-incite",word:"solevantar",definition:"Incitar a alguien a rebelarse o adoptar una actitud hostil.",synonym:"sublevar",marker:"solevantar",example:"La revuelta puede solevantar a los trabajadores.",exampleSynonymText:"La revuelta puede sublevar a los trabajadores."},
+    {id:"round5096-solevantar-unsettle",word:"solevantar",definition:"Inquietar o alterar a una persona.",synonym:"inquietar",marker:"solevantar",example:"El rumor puede solevantar a los vecinos.",exampleSynonymText:"El rumor puede inquietar a los vecinos."}
+  ]);
+  addSplit("visor",[
+    {id:"round5096-visor-camera",word:"visor",definition:"Parte de la cámara por la que miras para encuadrar una imagen.",synonym:"pantalla de encuadre",marker:"visor",example:"La cámara permite mirar por visor.",exampleSynonymText:"La cámara permite mirar por pantalla de encuadre."},
+    {id:"round5096-visor-weapon",word:"visor",definition:"Dispositivo de un arma que ayuda a apuntar.",synonym:"mira",marker:"visor",example:"El rifle lleva visor.",exampleSynonymText:"El rifle lleva mira."},
+    {id:"round5096-visor-helmet",word:"visor",definition:"Pieza móvil de un casco que protege la cara.",synonym:"pantalla protectora",marker:"visor",example:"El casco lleva visor.",exampleSynonymText:"El casco lleva pantalla protectora."}
+  ]);
+  addSplit("anfictionia",[
+    {id:"round5096-anfictionia-league",word:"anfictionía",definition:"Alianza de ciudades griegas antiguas para decidir asuntos comunes.",synonym:"confederación de ciudades griegas",marker:"anfictionía",example:"La anfictionía decidió cómo proteger el santuario.",exampleSynonymText:"La confederación de ciudades griegas decidió cómo proteger el santuario."},
+    {id:"round5096-anfictionia-assembly",word:"anfictionía",definition:"Reunión de las ciudades que forman esa alianza.",synonym:"asamblea de la alianza",marker:"anfictionía",example:"Los representantes asistieron a la anfictionía.",exampleSynonymText:"Los representantes asistieron a la asamblea de la alianza."}
+  ]);
+}
 })();

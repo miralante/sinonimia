@@ -430,4 +430,9 @@
     example:{word:"commercial registry",text:"The company filed its documents with the commercial registry."},
     exampleSynonym:{word:"company registration office",text:"The company filed its documents with the company registration office."}
   });
+  set("confluent",{definition:"Describes skin or cells that join without gaps between them.",synonyms:["joined together"],example:{word:"confluent",text:"The skin lesions were confluent."},exampleSynonym:{word:"joined together",text:"The skin lesions were joined together."}});
+  set("scrubber",{definition:"A machine that removes harmful substances from gas.",synonyms:["gas-cleaning device"],example:{word:"scrubber",text:"The plant installed a scrubber to clean its exhaust gases."},exampleSynonym:{word:"gas-cleaning device",text:"The plant installed a gas-cleaning device to clean its exhaust gases."}});
+  set("neurophysiology",{definition:"The study of how the brain, spinal cord, and nerves work.",synonyms:["the physiology of the nervous system"],example:{word:"neurophysiology",text:"She studies neurophysiology."},exampleSynonym:{word:"the physiology of the nervous system",text:"She studies the physiology of the nervous system."}});
+  set("confluent-2",{definition:"A stream that joins another, usually of similar size.",synonyms:["joining stream"],example:{word:"confluent",text:"We followed the confluent to the main river."},exampleSynonym:{word:"joining stream",text:"We followed the joining stream to the main river."}});
+  set("lift-3",{translation:{es:"round5096-solevantar-lift"}});
 })();

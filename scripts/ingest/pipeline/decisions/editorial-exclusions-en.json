@@ -83431,5 +83431,45 @@
     "id": "steal-7",
     "word": "steal",
     "reason": "Repite el sentido común de steal ya presente en la ficha base; la palabra y esta acepción no son difíciles."
+  },
+  {
+    "id": "spanable",
+    "word": "spanable",
+    "reason": "Formación transparente y muy infrecuente para «capable of being spanned»; aporta poco valor editorial."
+  },
+  {
+    "id": "ribbed",
+    "word": "ribbed",
+    "reason": "Adjetivo/participio común y productivo para objetos con relieves o canales; no aporta vocabulario difícil suficiente."
+  },
+  {
+    "id": "metacenter",
+    "word": "metacenter",
+    "reason": "Término técnico válido de estabilidad naval, pero de uso muy restringido y con poca utilidad general para un diccionario de lectura fácil."
+  },
+  {
+    "id": "stereocomparator",
+    "word": "stereocomparator",
+    "reason": "Instrumento válido de fotogrametría, pero de uso muy restringido y utilidad general baja."
+  },
+  {
+    "id": "aliphate",
+    "word": "aliphate",
+    "reason": "Variante muy rara de «Arabic alphabet», sin utilidad suficiente frente a la forma actual."
+  },
+  {
+    "id": "pillowed",
+    "word": "pillowed",
+    "reason": "Forma participial transparente de «pillow», con el sentido de tener almohadas o estar acolchado."
+  },
+  {
+    "id": "stickiness",
+    "word": "stickiness",
+    "reason": "Nombre transparente de una cualidad cotidiana («sticky»), sin significado difícil o independiente."
+  },
+  {
+    "id": "scrubber-2",
+    "word": "Scrubber",
+    "reason": "This sibling is the ordinary utensil for scrubbing or scouring. That easy meaning duplicates the base entry."
   }
 ]

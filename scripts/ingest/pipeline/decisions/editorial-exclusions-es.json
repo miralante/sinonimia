@@ -89412,5 +89412,40 @@
     "id": "semidiametro",
     "word": "semidiámetro",
     "reason": "Término geométrico redundante: la mitad del diámetro se llama radio, una palabra más conocida y suficiente."
+  },
+  {
+    "id": "semihombre",
+    "word": "semihombre",
+    "reason": "Compuesto transparente, propio de seres fantásticos y de uso muy limitado."
+  },
+  {
+    "id": "sotanilla",
+    "word": "sotanilla",
+    "reason": "Diminutivo transparente de una prenda de vestir, sin significado independiente que justifique ficha."
+  },
+  {
+    "id": "tarazar",
+    "word": "tarazar",
+    "reason": "La ficha vigente es errónea; los sentidos documentados son regionales, muy poco frecuentes y de escasa utilidad general."
+  },
+  {
+    "id": "clarinado",
+    "word": "clarinado",
+    "reason": "El sentido actual se confunde con «clarinada»; el sentido documentado es heráldico y muy especializado."
+  },
+  {
+    "id": "solevantar",
+    "word": "solevantar",
+    "reason": "La ficha actual cubre solo un sentido; separar también incitar a la rebelión e inquietar."
+  },
+  {
+    "id": "visor",
+    "word": "visor",
+    "reason": "El sentido actual es inexacto y mezcla usos de cámara, arma y casco; separar los significados actuales."
+  },
+  {
+    "id": "anfictionia",
+    "word": "anfictionía",
+    "reason": "La definición actual está corrupta. La voz tiene dos sentidos históricos: alianza de ciudades y su asamblea."
   }
 ]
