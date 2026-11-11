@@ -172459,6 +172459,10 @@
           "id": 28843,
           "alt": "Moss on rock"
         }
+      },
+      "exampleSynonym": {
+        "word": "early colonizer",
+        "text": "Moss is often an early colonizer on bare rock."
       }
     }
   },
@@ -262716,6 +262720,1021 @@
         "text": "A diving bird dives beneath the water."
       },
       "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "greed-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "greed",
+      "definition": "Wanting more than you need, especially money or possessions.",
+      "synonyms": [
+        "avarice",
+        "cupidity"
+      ],
+      "example": {
+        "word": "greed",
+        "text": "Greed for money led him to cheat his partners."
+      },
+      "exampleSynonym": {
+        "word": "avarice",
+        "text": "Avarice for money led him to cheat his partners."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "greed-3",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "greed",
+      "definition": "Wanting more food than you need or can fairly eat.",
+      "synonyms": [
+        "gluttony",
+        "voracity"
+      ],
+      "example": {
+        "word": "greed",
+        "text": "His greed for food left none for the others."
+      },
+      "exampleSynonym": {
+        "word": "gluttony",
+        "text": "His gluttony for food left none for the others."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "greengrocer",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "greengrocer",
+      "definition": "A person who sells fresh fruit and vegetables.",
+      "synonyms": [
+        "fruit and vegetable seller",
+        "produce seller"
+      ],
+      "example": {
+        "word": "greengrocer",
+        "text": "The greengrocer sold fresh carrots and apples."
+      },
+      "exampleSynonym": {
+        "word": "fruit and vegetable seller",
+        "text": "The fruit and vegetable seller sold fresh carrots and apples."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "greengrocer-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "greengrocer",
+      "definition": "A shop that sells fresh fruit and vegetables.",
+      "synonyms": [
+        "greengrocer's shop",
+        "fruit and vegetable shop"
+      ],
+      "example": {
+        "word": "greengrocer",
+        "text": "We bought tomatoes at the greengrocer."
+      },
+      "exampleSynonym": {
+        "word": "greengrocer's shop",
+        "text": "We bought tomatoes at the greengrocer's shop."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "greenery",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "greenery",
+      "definition": "Plants that make an area look green and attractive.",
+      "synonyms": [
+        "vegetation",
+        "foliage"
+      ],
+      "example": {
+        "word": "greenery",
+        "text": "The valley’s greenery attracts many visitors."
+      },
+      "exampleSynonym": {
+        "word": "vegetation",
+        "text": "The valley’s vegetation attracts many visitors."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "greenery-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "greenery",
+      "definition": "Leaves and branches used to decorate a place.",
+      "synonyms": [
+        "decorative foliage",
+        "green leaves and branches"
+      ],
+      "example": {
+        "word": "greenery",
+        "text": "The hall had greenery on the tables."
+      },
+      "exampleSynonym": {
+        "word": "decorative foliage",
+        "text": "Decorative foliage covered the tables."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "greenhouse",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "greenhouse",
+      "definition": "A glass or plastic building that keeps plants warm while they grow.",
+      "synonyms": [
+        "glasshouse",
+        "hothouse"
+      ],
+      "example": {
+        "word": "greenhouse",
+        "text": "She grows tomatoes in a small greenhouse."
+      },
+      "exampleSynonym": {
+        "word": "glasshouse",
+        "text": "She grows tomatoes in a small glasshouse."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "animal-bellow",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "animal cry",
+        "text": "A calf’s rough animal cry came from the barn."
+      }
+    }
+  },
+  {
+    "entry": "round2381-lash-eyelash",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "eyelashes",
+        "text": "Her long eyelashes brushed the glasses."
+      }
+    }
+  },
+  {
+    "entry": "round2384-lateral-pass",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "lateral pass",
+        "text": "The quarterback threw a lateral pass to a teammate behind him."
+      }
+    }
+  },
+  {
+    "entry": "round2389-lax-loose",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "slack",
+        "text": "The slack rope sagged between the two posts."
+      }
+    }
+  },
+  {
+    "entry": "round2389-laxity-physical",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "looseness",
+        "text": "Repeated washing caused looseness in the fabric."
+      }
+    }
+  },
+  {
+    "entry": "round2390-layer-horticultural-plant",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "plant grown by layering",
+        "text": "The plant grown by layering was ready for its own pot."
+      }
+    }
+  },
+  {
+    "entry": "round2392-leaflet-botanical",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "leaf segment",
+        "text": "Each leaf segment grows from the centre of the compound leaf."
+      }
+    }
+  },
+  {
+    "entry": "round2393-learned-acquired",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "acquired",
+        "text": "The acquired reaction developed after years of stress."
+      }
+    }
+  },
+  {
+    "entry": "round2394-leave-farewell",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "farewell",
+        "text": "She said farewell to her hosts after dinner."
+      }
+    }
+  },
+  {
+    "entry": "round2424-liquor-solution",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "water-based solution",
+        "text": "The pharmacist prepared a water-based solution containing the medicine."
+      }
+    }
+  },
+  {
+    "entry": "round2453-low-back-pain",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "lumbar pain",
+        "text": "He saw a doctor about his lumbar pain."
+      }
+    }
+  },
+  {
+    "entry": "round2454-lowliness-status",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "humble position",
+        "text": "He was born into a humble position but later became a respected leader."
+      }
+    }
+  },
+  {
+    "entry": "round2454-loyalty-customer",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "repeat custom",
+        "text": "The café rewards repeat custom with a free drink after ten visits."
+      }
+    }
+  },
+  {
+    "entry": "round2455-lsd-currency",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "pounds, shillings, and pence",
+        "text": "The price was written in pounds, shillings, and pence before decimal currency began."
+      }
+    }
+  },
+  {
+    "entry": "round2455-lucid-transparent",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "clear",
+        "text": "The clear water revealed the stones below."
+      }
+    }
+  },
+  {
+    "entry": "round2455-lucidity-mental",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "clear thinking",
+        "text": "He had a brief moment of clear thinking after the fever."
+      }
+    }
+  },
+  {
+    "entry": "round2494-marginal-minor",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "slight",
+        "text": "The new rule made only a slight difference."
+      }
+    }
+  },
+  {
+    "entry": "round2494-marginal-election",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "closely contested",
+        "text": "The party focused its campaign on closely contested seats."
+      }
+    }
+  },
+  {
+    "entry": "round2553-mineral-nutrient",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "nutrient",
+        "text": "Milk contains a nutrient that helps keep bones strong."
+      }
+    }
+  },
+  {
+    "entry": "round2771-pass-route",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "crossing",
+        "text": "Snow blocked the crossing through the mountains."
+      }
+    }
+  },
+  {
+    "entry": "grenadine",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grenadine",
+      "definition": "A sweet red syrup made from pomegranate juice and added to drinks.",
+      "synonyms": [
+        "pomegranate syrup"
+      ],
+      "example": {
+        "word": "grenadine",
+        "text": "She added grenadine to the lemonade."
+      },
+      "exampleSynonym": {
+        "word": "pomegranate syrup",
+        "text": "She added pomegranate syrup to the lemonade."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "round2744-paint-cosmetics",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "color",
+        "text": "She put bright red color on her nails."
+      }
+    }
+  },
+  {
+    "entry": "round2783-peak-cap",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "visor",
+        "text": "He pulled the visor of his cap down over his eyes."
+      }
+    }
+  },
+  {
+    "entry": "round2787-pedigree-background",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "ancestry",
+        "text": "The family researched its Irish ancestry."
+      }
+    }
+  },
+  {
+    "entry": "round2787-pedigree-origin",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "history",
+        "text": "The policy has a long history in public health."
+      }
+    }
+  },
+  {
+    "entry": "round2789-peer-noble",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "member of the peerage",
+        "text": "The member of the peerage spoke in the House of Lords."
+      }
+    }
+  },
+  {
+    "entry": "round2791-penalty-sport",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "penalty kick",
+        "text": "The referee awarded a penalty kick."
+      }
+    }
+  },
+  {
+    "entry": "round2791-penalty-disadvantage",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "drawback",
+        "text": "The long commute is a drawback of the job."
+      }
+    }
+  },
+  {
+    "entry": "round2794-pentathlon-modern",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "five-event sport",
+        "text": "She trained for the five-event sport."
+      }
+    }
+  },
+  {
+    "entry": "round2794-people-community",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "community",
+        "text": "The community preserved its language across generations."
+      }
+    }
+  },
+  {
+    "entry": "round2794-peplum-film",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "historical adventure film",
+        "text": "The theater showed a classic historical adventure film."
+      }
+    }
+  },
+  {
+    "entry": "round2794-pepper-vegetable",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "capsicum",
+        "text": "Chop the red capsicum into small pieces."
+      }
+    }
+  },
+  {
+    "entry": "round2795-pepper-pot-food",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "Caribbean pepper stew",
+        "text": "They served Caribbean pepper stew with rice."
+      }
+    }
+  },
+  {
+    "entry": "round2796-perception-impression",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "opinion",
+        "text": "The ad changed public opinion of the brand."
+      }
+    }
+  },
+  {
+    "entry": "round2797-perfect-verb",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "improve",
+        "text": "She practiced daily to improve her serve."
+      }
+    }
+  },
+  {
+    "entry": "round2798-perform-stage",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "play",
+        "text": "The band will play tonight."
+      }
+    }
+  },
+  {
+    "entry": "round2800-period-session",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "session",
+        "text": "The class meets for one session each morning."
+      }
+    }
+  },
+  {
+    "entry": "round2804-perplexity-problem",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "problem",
+        "text": "The case was a difficult problem for the whole team."
+      }
+    }
+  },
+  {
+    "entry": "round2804-persimmon-tree",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "fruit tree",
+        "text": "The fruit tree grew behind the house."
+      }
+    }
+  },
+  {
+    "entry": "round2805-personal-ad",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "dating advertisement",
+        "text": "She placed a dating advertisement in the local paper."
+      }
+    }
+  },
+  {
+    "entry": "round2805-personal-foul",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "contact foul",
+        "text": "The referee called a contact foul on the defender."
+      }
+    }
+  },
+  {
+    "entry": "round2807-pert-cheeky",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "cheeky",
+        "text": "His cheeky reply upset the manager."
+      }
+    }
+  },
+  {
+    "entry": "round2808-pessimism-philosophy",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "belief that life is mostly suffering",
+        "text": "The book explains the philosopher's belief that life is mostly suffering."
+      }
+    }
+  },
+  {
+    "entry": "round2808-pest-crop-organism",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "harmful organism",
+        "text": "The farmer found a harmful organism eating the young plants."
+      }
+    }
+  },
+  {
+    "entry": "round2808-pestiferous-moral",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "harmful",
+        "text": "The report warned about a harmful influence on public life."
+      }
+    }
+  },
+  {
+    "entry": "round2813-pheasant-meat",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "game meat",
+        "text": "They served game meat with roasted vegetables."
+      }
+    }
+  },
+  {
+    "entry": "round2814-phenomenal-scientific",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "observable",
+        "text": "The study describes observable changes in the climate."
+      }
+    }
+  },
+  {
+    "entry": "round2815-philharmonic-orchestra",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "orchestra",
+        "text": "The orchestra performed a concert downtown."
+      }
+    }
+  },
+  {
+    "entry": "round2815-philosophical-stoic",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "calm",
+        "text": "She stayed calm and accepted the delay."
+      }
+    }
+  },
+  {
+    "entry": "round2816-phlegm-temperament",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "calmness",
+        "text": "He faced the criticism with calmness."
+      }
+    }
+  },
+  {
+    "entry": "round2816-phlegmatic-sluggish",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "apathetic",
+        "text": "The apathetic worker took little interest in the project."
+      }
+    }
+  },
+  {
+    "entry": "round2829-pickup-audio",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "transducer",
+        "text": "The guitar transducer sent the sound to an amplifier."
+      }
+    }
+  },
+  {
+    "entry": "round2831-piece-work",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "article",
+        "text": "She wrote a short article about the garden."
+      }
+    }
+  },
+  {
+    "entry": "round2833-pike-road",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "toll road",
+        "text": "They paid at a toll booth on the toll road."
+      }
+    }
+  },
+  {
+    "entry": "round2833-pill-unpleasant",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "hard truth",
+        "text": "The delay was a hard truth the team had to accept."
+      }
+    }
+  },
+  {
+    "entry": "round2836-pineapple-plant",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "Ananas comosus",
+        "text": "The Ananas comosus grew beside the greenhouse."
+      }
+    }
+  },
+  {
+    "entry": "round2837-pipe-instrument",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "wind instrument",
+        "text": "She played a simple tune on the wind instrument."
+      }
+    }
+  },
+  {
+    "entry": "round2837-pipe-bagpipes",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "bagpipe chanter",
+        "text": "The piper raised the bagpipe chanter to begin the song."
+      }
+    }
+  },
+  {
+    "entry": "round2838-piping-highvoice",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "high-pitched voice",
+        "text": "A high-pitched voice called from the next room."
+      }
+    }
+  },
+  {
+    "entry": "round2838-pirate-verb-sea",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "raid",
+        "text": "The crew planned to raid merchant ships."
+      }
+    }
+  },
+  {
+    "entry": "round2840-pitiful-poor",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "poor",
+        "text": "The team gave a very poor performance."
+      }
+    }
+  },
+  {
+    "entry": "round2842-placebo-consolation",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "token gesture",
+        "text": "The extra day off was a token gesture for the workers."
+      }
+    }
+  },
+  {
+    "entry": "round2843-plague-many",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "large number",
+        "text": "A large number of mice damaged the crops."
+      }
+    }
+  },
+  {
+    "entry": "round2843-plan-verb",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "intend",
+        "text": "We intend to visit next spring."
+      }
+    }
+  },
+  {
+    "entry": "round2845-plantain-wild",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "ribwort",
+        "text": "A ribwort grew beside the garden path."
+      }
+    }
+  },
+  {
+    "entry": "round2845-plaster-bandage",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "adhesive bandage",
+        "text": "She put an adhesive bandage on the cut."
+      }
+    }
+  },
+  {
+    "entry": "round2846-plastic-fake-adj",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "fake",
+        "text": "The fake smile made him uneasy."
+      }
+    }
+  },
+  {
+    "entry": "round2846-plate-photo",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "glass negative",
+        "text": "The photographer stored the glass negative in a dark case."
+      }
+    }
+  },
+  {
+    "entry": "round2846-plate-coating",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "plating",
+        "text": "The handle has silver plating over its base."
+      }
+    }
+  },
+  {
+    "entry": "round2848-playful-humorous",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "lighthearted",
+        "text": "She made a lighthearted comment about the weather."
+      }
+    }
+  },
+  {
+    "entry": "round2848-plc-controller",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "industrial controller",
+        "text": "The industrial controller stopped the machine when the door opened."
+      }
+    }
+  },
+  {
+    "entry": "round2849-plea-bargain-verb",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "accept a plea deal",
+        "text": "He chose to accept a plea deal before the trial."
+      }
+    }
+  },
+  {
+    "entry": "round2849-pleasant-manner",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "friendly",
+        "text": "The friendly host welcomed every guest."
+      }
+    }
+  },
+  {
+    "entry": "round2849-pleaser-people",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "approval-seeker",
+        "text": "She was an approval-seeker who rarely said no."
+      }
+    }
+  },
+  {
+    "entry": "round2849-pleasure-choice",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "choice",
+        "text": "What is your choice?"
+      }
+    }
+  },
+  {
+    "entry": "round2850-plebeian-modern-noun",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "ordinary person",
+        "text": "The novel follows an ordinary person who becomes a leader."
+      }
+    }
+  },
+  {
+    "entry": "round2850-plebs-populace",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "the masses",
+        "text": "The speaker called the public the masses."
+      }
+    }
+  },
+  {
+    "entry": "round2850-pledge-security-noun",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "security",
+        "text": "The ring served as security for the loan."
+      }
+    }
+  },
+  {
+    "entry": "round2852-plot-secret-noun",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "conspiracy",
+        "text": "Police found a conspiracy to rob the bank."
+      }
+    }
+  },
+  {
+    "entry": "round2852-plotter-computer",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "chart printer",
+        "text": "The chart printer drew a map on the paper."
+      }
+    }
+  },
+  {
+    "entry": "brechtian-person",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "supporter of Brecht",
+        "text": "The supporter of Brecht spoke after the performance."
+      }
+    }
+  },
+  {
+    "entry": "breezy-person",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "casual",
+        "text": "She gave a casual and cheerful answer."
+      }
+    }
+  },
+  {
+    "entry": "breezy-style",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "bright",
+        "text": "The film has a bright and cheerful style."
+      }
+    }
+  },
+  {
+    "entry": "bridge-game",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "card game",
+        "text": "They play the card game every Friday."
+      }
+    }
+  },
+  {
+    "entry": "buoyancy-mood",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "optimism",
+        "text": "Her optimism lifted the whole team."
+      }
     }
   }
 ]

@@ -82786,5 +82786,145 @@
     "id": "greco-roman",
     "word": "Greco-Roman",
     "reason": "Frase adjetiva transparente con una definición corrupta que no expresa un sentido verificable."
+  },
+  {
+    "id": "greed",
+    "word": "Greed",
+    "reason": "Glosa defectuosa con forma verbal, aunque el lema greed es un sustantivo."
+  },
+  {
+    "id": "greedy",
+    "word": "greedy",
+    "reason": "Adjetivo común y básico para alguien que quiere más de lo que necesita."
+  },
+  {
+    "id": "greedy-2",
+    "word": "Greedy",
+    "reason": "Duplicado de greedy con una definición circular y mal formada."
+  },
+  {
+    "id": "greek-2",
+    "word": "Greek",
+    "reason": "Sentido de ornamento arquitectónico especializado y poco útil en el vocabulario general."
+  },
+  {
+    "id": "greek-3",
+    "word": "Greek",
+    "reason": "Duplicado exacto de la ficha de ornamento griego."
+  },
+  {
+    "id": "greek-4",
+    "word": "Greek",
+    "reason": "Adjetivo transparente que significa relativo a Grecia."
+  },
+  {
+    "id": "greek-pitch",
+    "word": "Greek pitch",
+    "reason": "Término técnico de resina usado principalmente en la fabricación o cuidado de instrumentos."
+  },
+  {
+    "id": "greekize",
+    "word": "Greekize",
+    "reason": "Verbo muy raro y transparente formado a partir de Greek; no aporta un término de uso general."
+  },
+  {
+    "id": "green",
+    "word": "Green",
+    "reason": "Sentido nominal básico y transparente para la acción o el resultado de volverse verde."
+  },
+  {
+    "id": "green-2",
+    "word": "green",
+    "reason": "Verbo transparente para teñir algo de verde; el significado se deduce directamente de green."
+  },
+  {
+    "id": "greened",
+    "word": "Greened",
+    "reason": "Entrada corrupta: la definición no corresponde a un sentido de greened."
+  },
+  {
+    "id": "greengrocer-3",
+    "word": "Greengrocer",
+    "reason": "Definición incorrecta: una persona que cuida un jardín no es un greengrocer."
+  },
+  {
+    "id": "greening",
+    "word": "Greening",
+    "reason": "Forma derivada y transparente del verbo green."
+  },
+  {
+    "id": "greening-2",
+    "word": "Greening",
+    "reason": "Duplicado de greening con la misma definición."
+  },
+  {
+    "id": "greening-3",
+    "word": "Greening",
+    "reason": "Variante duplicada de la acción de volverse verde."
+  },
+  {
+    "id": "greenish",
+    "word": "Greenish",
+    "reason": "Adjetivo básico y transparente para algo de color parecido al verde."
+  },
+  {
+    "id": "greenish-2",
+    "word": "Greenish",
+    "reason": "Duplicado de la definición transparente de greenish."
+  },
+  {
+    "id": "greenmarine",
+    "word": "Greenmarine",
+    "reason": "Entrada corrupta que explica el color del mar con una glosa circular."
+  },
+  {
+    "id": "greenwater",
+    "word": "Greenwater",
+    "reason": "Nombre de uso zoológico o regional no verificado para una medusa."
+  },
+  {
+    "id": "greet",
+    "word": "Greet",
+    "reason": "Verbo muy común para saludar; no cumple el criterio de dificultad."
+  },
+  {
+    "id": "greeter",
+    "word": "Greeter",
+    "reason": "Nombre derivado y transparente de greet."
+  },
+  {
+    "id": "greeting",
+    "word": "Greeting",
+    "reason": "Nombre común y transparente para la acción de saludar."
+  },
+  {
+    "id": "gregal",
+    "word": "Gregal",
+    "reason": "Glosa corrupta y voz muy rara sin utilidad general verificada."
+  },
+  {
+    "id": "gregorian",
+    "word": "Gregorian",
+    "reason": "Adjetivo transparente que significa relativo a Gregorio o al calendario gregoriano."
+  },
+  {
+    "id": "greguesco",
+    "word": "Greguesco",
+    "reason": "Voz arcaica o corrupta sin un sentido inglés general verificable."
+  },
+  {
+    "id": "grello",
+    "word": "Grello",
+    "reason": "Entrada en español, no una voz inglesa."
+  },
+  {
+    "id": "grenade-launcher",
+    "word": "grenade launcher",
+    "reason": "Nombre de un arma especializada; fuera del vocabulario general de uso diario."
+  },
+  {
+    "id": "grenadilla",
+    "word": "grenadilla",
+    "reason": "Variante poco frecuente de granadilla; se prefiere la forma más asentada."
   }
 ]

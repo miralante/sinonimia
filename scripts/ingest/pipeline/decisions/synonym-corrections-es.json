@@ -263147,5 +263147,71 @@
       },
       "situacion": "comida"
     }
+  },
+  {
+    "entry": "saltena",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salteña",
+      "definition": "Empanada boliviana rellena, normalmente de carne, papa y huevo.",
+      "synonyms": [
+        "empanada boliviana",
+        "empanada salteña"
+      ],
+      "example": {
+        "word": "salteña",
+        "text": "Compramos una salteña para el almuerzo."
+      },
+      "exampleSynonym": {
+        "word": "empanada boliviana",
+        "text": "Compramos una empanada boliviana para el almuerzo."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "salubre",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salubre",
+      "definition": "Que ayuda a mantener la salud o evita enfermedades.",
+      "synonyms": [
+        "saludable",
+        "bueno para la salud"
+      ],
+      "example": {
+        "word": "salubre",
+        "text": "La casa es luminosa y salubre."
+      },
+      "exampleSynonym": {
+        "word": "saludable",
+        "text": "La casa es luminosa y saludable."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "salubridad",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salubridad",
+      "definition": "Condición de un lugar limpio y bueno para la salud.",
+      "synonyms": [
+        "higiene pública",
+        "condiciones higiénicas"
+      ],
+      "example": {
+        "word": "salubridad",
+        "text": "El informe revisó la salubridad del agua."
+      },
+      "exampleSynonym": {
+        "word": "higiene pública",
+        "text": "El informe revisó la higiene pública del agua."
+      },
+      "situacion": "salud"
+    }
   }
 ]
