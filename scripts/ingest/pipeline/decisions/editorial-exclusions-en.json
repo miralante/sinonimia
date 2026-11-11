@@ -83111,5 +83111,80 @@
     "id": "round2419-lime-whitewash",
     "word": "lime",
     "reason": "Specialized, low-frequency verb sense for applying limewash; limited learner value."
+  },
+  {
+    "id": "sander",
+    "word": "sander",
+    "reason": "Collins defines the noun as a machine, not a barge or a boat worker. A separate machine-sander card already represents the valid sense, so this corrupt base entry should be removed as duplicate. Keep and review sander-2 separately."
+  },
+  {
+    "id": "semiconsonant",
+    "word": "semiconsonant",
+    "reason": "Collins confirms this is a specialist linguistics term synonymous with semivowel. The concept is too technical for the current editorial scope, and the definition is not easy to explain without introducing more phonology terms."
+  },
+  {
+    "id": "comteacher",
+    "word": "comteacher",
+    "reason": "No verifiable Collins headword was found for this form; its definition appears to be a corrupted paraphrase. Exclude rather than treat it as a valid synonym lemma."
+  },
+  {
+    "id": "squig",
+    "word": "squig",
+    "reason": "No verifiable Collins entry was found for this form. The definition is a vague paraphrase, not a reliable lexical sense; exclude pending verifiable evidence."
+  },
+  {
+    "id": "substrate",
+    "word": "substrate",
+    "reason": "Collins lists separate biochemical, electronics, and general substrate senses. This entry is a circular placeholder; the technical meanings would require several specialist cards outside this batch's useful reading level. Exclude pending a separate domain review."
+  },
+  {
+    "id": "sauce",
+    "word": "sauce",
+    "reason": "Collins confirms multiple noun and verb senses, but the food sense is common and easy, while the informal sense needs a separate card and a different context. Exclude this common lemma from the difficult-word collection; do not preserve the misleading merged entry."
+  },
+  {
+    "id": "swallowing",
+    "word": "swallowing",
+    "reason": "The definition assigns the action a person meaning. «Swallowing» is a transparent everyday gerund; the intended act-of-swallowing sense does not meet the difficult-word selection criteria."
+  },
+  {
+    "id": "bonuses",
+    "word": "bonuses",
+    "reason": "The Collins headword is bonus and explicitly gives bonuses as its plural. The candidate is a common inflected form with a corrupt duplicate gloss, not a separate difficult word."
+  },
+  {
+    "id": "repeatability",
+    "word": "repeatability",
+    "reason": "The concept is understandable as a technical measurement term, but no verifiable Collins headword was found for this English form. Keep out of the curated dictionary until the required lexicographic source confirms it; do not silently rewrite an unverified record."
+  },
+  {
+    "id": "celloidin",
+    "word": "celloidin",
+    "reason": "The current meaning is wrong. The verified sense is highly specialized laboratory material and has little everyday value for the target audience; exclude rather than create a difficult chemistry definition."
+  },
+  {
+    "id": "ring-2",
+    "word": "ring",
+    "reason": "Collins confirms this is one familiar object sense of ring. The headword is very common and this sense is simple; exclude this sense card under the difficult-word criterion while preserving other useful ring senses."
+  },
+  {
+    "id": "care-3",
+    "word": "care",
+    "reason": "The definition does not match care and appears to be a corrupted mapping from another verb. Collins' care article does not support this sense; remove this bad sense record, not the valid headword care."
+  },
+  {
+    "id": "love-4",
+    "word": "love",
+    "reason": "The Collins love article does not contain this sense, and the candidate appears to be a corrupt cross-language variant. Remove this sense record while preserving ordinary love entries."
+  },
+  {
+    "id": "grinding-2",
+    "word": "grinding",
+    "reason": "The imported gloss is opaque and no matching Collins sense was verified. It appears to be an obscure or corrupt material-name record; remove pending reliable evidence rather than invent a simple definition."
+  },
+  {
+    "id": "legible-2",
+    "word": "legible",
+    "reason": "Collins defines legible as clear enough to read. The candidate meaning confuses legible with a form related to legislate; remove this false sense while keeping the valid legible entry."
   }
 ]

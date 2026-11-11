@@ -19,6 +19,50 @@
 {const i=d.findIndex(e=>e.id==="divest-2");if(i>=0)d[i].exampleSynonym.word="take rights away";}
 })();
 
+/* B15: apply reviewed English rewrites and clarify separate senses. */
+(()=>{
+  const d=globalThis.DICCIONARIOS?.en;
+  if(!d)throw Error("missing en");
+  const set=(id,fields)=>{const entry=d.find(item=>item.id===id);if(!entry)throw Error(`Missing source entry ${id}`);Object.assign(entry,fields);};
+
+  set("surveillance",{
+    definition:"Watching a place or person for safety or to learn what happens.",
+    synonyms:["monitoring"],
+    example:{word:"surveillance",text:"The company used surveillance to protect the warehouse overnight."},
+    exampleSynonym:{word:"monitoring",text:"The company used monitoring to protect the warehouse overnight."}
+  });
+  set("rowan",{
+    definition:"A small tree with red berries that grow in clusters.",
+    synonyms:["mountain ash"],
+    example:{word:"rowan",text:"We planted a rowan beside the gate."},
+    exampleSynonym:{word:"mountain ash",text:"We planted a mountain ash beside the gate."}
+  });
+  set("millenarianism",{
+    definition:"Belief in a future time of peace and happiness.",
+    synonyms:["belief in a future age of peace"],
+    example:{word:"Millenarianism",text:"Millenarianism promises peace."},
+    exampleSynonym:{word:"Belief in a future age of peace",text:"Belief in a future age of peace promises peace."}
+  });
+  set("round2549-millenarianism-christian",{
+    definition:"Christian belief that Jesus will rule during a future time of peace.",
+    synonyms:["belief in Christ's future rule"],
+    example:{word:"millenarianism",text:"The book explains Christian millenarianism."},
+    exampleSynonym:{word:"belief in Christ's future rule",text:"The book explains Christian belief in Christ's future rule."}
+  });
+  set("stigmatizer",{
+    definition:"A person who marks someone as different or bad.",
+    synonyms:["person who unfairly labels others"],
+    example:{word:"stigmatizer",text:"A stigmatizer can harm a person's reputation."},
+    exampleSynonym:{word:"person who unfairly labels others",text:"A person who unfairly labels others can harm a person's reputation."}
+  });
+  set("telemetry",{
+    definition:"A system that measures things far away and sends the results back.",
+    synonyms:["remote monitoring"],
+    example:{word:"telemetry",text:"The team used telemetry to track the drone."},
+    exampleSynonym:{word:"remote monitoring",text:"The team used remote monitoring to track the drone."}
+  });
+})();
+
 /* Curated literal-example repairs for 30 English records. */
 (()=>{
   const d=globalThis.DICCIONARIOS?.en; if(!d)return;

@@ -89122,5 +89122,65 @@
     "id": "round2423-epigenesis-development",
     "word": "epigénesis",
     "reason": "Duplicate of the biological sense retained under the base ID epigenesis."
+  },
+  {
+    "id": "tiquear",
+    "word": "tiquear",
+    "reason": "El DLE marca el verbo como uso de Chile. El valor regional y la falta de utilidad general justifican excluirlo según los criterios editoriales."
+  },
+  {
+    "id": "tornasolar",
+    "word": "tornasolar",
+    "reason": "El DLE confirma la acepción, pero es un verbo muy raro y redundante con alternativas habituales como brillar o colorear. No aporta un concepto de dificultad útil para el público del diccionario."
+  },
+  {
+    "id": "vizcacha",
+    "word": "vizcacha",
+    "reason": "El DLE recoge el animal y un sentido regional de Uruguay («persona que guarda cosas inservibles»). Ambos son de alcance regional o muy especializado para esta ficha; el sinónimo actual está corrupto."
+  },
+  {
+    "id": "artilleria",
+    "word": "artillería",
+    "reason": "El DLE recoge varios sentidos, pero la voz es de uso general y demasiado fácil para el foco editorial de vocabulario difícil. No conviene crear aquí fichas sobre un campo militar que no aparece en el uso personal cotidiano."
+  },
+  {
+    "id": "cagado",
+    "word": "cagado",
+    "reason": "El DLE marca la acepción adjetiva como malsonante y coloquial; la acepción principal es «cobarde o miedoso», no la definición actual. La ficha no cumple el registro editorial."
+  },
+  {
+    "id": "zurriar",
+    "word": "zurriar",
+    "reason": "The DLE confirms the sound meaning. The verb is rare and replaces no difficult concept needed in everyday reading."
+  },
+  {
+    "id": "acondicionado",
+    "word": "acondicionado",
+    "reason": "The current entry does not explain a useful sense. The DLE's other adjective sense means that something is in a certain condition; the ordinary participle is transparent. Remove this low-value entry rather than preserve its unclear imported gloss."
+  },
+  {
+    "id": "arreglada",
+    "word": "arreglada",
+    "reason": "This record explains only a predictable gender form. The DLE has an adjective article, but this isolated inflection adds no difficult meaning; retain the lemma's senses under the shared adjective entry."
+  },
+  {
+    "id": "be",
+    "word": "be",
+    "reason": "The DLE confirms the letter name. It is a basic, easily understood word outside the difficult-word scope."
+  },
+  {
+    "id": "cane",
+    "word": "cané",
+    "reason": "The DLE confirms the word, but the game is obscure and offers little current use for this dictionary's audience."
+  },
+  {
+    "id": "ubicado",
+    "word": "ubicado",
+    "reason": "The DLE marks the senses as regional: Argentina/Uruguay, and Cuba/Nicaragua/Uruguay. The entry is not general Spanish; exclude under the project's regionalism criterion."
+  },
+  {
+    "id": "zanquilargo",
+    "word": "zanquilargo",
+    "reason": "The DLE confirms the meaning and labels it colloquial. The headword is a transparent, low-utility description; its synonyms in the entry are also uncommon."
   }
 ]

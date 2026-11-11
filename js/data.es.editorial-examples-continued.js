@@ -125,3 +125,78 @@
 {const i=d.findIndex(e=>e.id==="round3349-licitar-bid");if(i>=0)d[i].example.word="licitó";}
 {const i=d.findIndex(e=>e.id==="round3349-licitar-bid");if(i>=0)d[i].exampleSynonym.word="presentó una oferta";}
 })();
+
+/* B15: apply reviewed Spanish rewrites and separate verified senses. */
+(()=>{
+  const d=globalThis.DICCIONARIOS?.es;
+  if(!d)throw Error("missing es");
+  const set=(id,fields)=>{const entry=d.find(item=>item.id===id);if(!entry)throw Error(`Missing source entry ${id}`);Object.assign(entry,fields);};
+  const add=entry=>{if(d.some(item=>item.id===entry.id))throw Error(`Duplicate source entry ${entry.id}`);d.push(entry);};
+
+  set("cooficialidad",{
+    definition:"Situación en que dos lenguas tienen el mismo reconocimiento oficial.",
+    synonyms:["oficialidad compartida"],
+    example:{word:"cooficialidad",text:"El estatuto reconoce la cooficialidad del español y el euskera."},
+    exampleSynonym:{word:"oficialidad compartida",text:"El estatuto reconoce la oficialidad compartida del español y el euskera."}
+  });
+  set("anosognosia",{
+    definition:"No darse cuenta de que se tiene una enfermedad o discapacidad.",
+    synonyms:["falta de conciencia de la enfermedad"],
+    example:{word:"anosognosia",text:"La anosognosia ocultó su enfermedad."},
+    exampleSynonym:{word:"falta de conciencia de la enfermedad",text:"La falta de conciencia de la enfermedad ocultó su enfermedad."}
+  });
+  set("serigrafia",{
+    definition:"Técnica para imprimir dibujos con tinta a través de una malla.",
+    synonyms:["impresión con malla"],
+    example:{word:"serigrafía",text:"El taller eligió serigrafía para imprimir el logo en camisetas."},
+    exampleSynonym:{word:"impresión con malla",text:"El taller eligió impresión con malla para imprimir el logo en camisetas."}
+  });
+  add({
+    id:"b15-serigrafia-estampa",word:"serigrafía",image:{id:7024,alt:"Una palabra del diccionario"},
+    definition:"Imagen impresa mediante serigrafía.",synonyms:["estampa"],
+    example:{word:"serigrafía",text:"Compré una serigrafía en la feria de arte."},
+    exampleSynonym:{word:"estampa",text:"Compré una estampa en la feria de arte."},situacion:"conocimiento"
+  });
+  set("sobrar",{
+    definition:"Haber más de algo de lo que se necesita.",
+    synonyms:["quedar"],
+    example:{word:"Sobró",text:"Sobró comida después de la cena."},
+    exampleSynonym:{word:"Quedó",text:"Quedó comida después de la cena."}
+  });
+  add({
+    id:"b15-sobrar-estar-de-mas",word:"sobrar",image:{id:7024,alt:"Una palabra del diccionario"},
+    definition:"No hacer falta en un lugar o una situación.",synonyms:["estar de más"],
+    example:{word:"sobraba",text:"Sentí que sobraba en la reunión y me fui."},
+    exampleSynonym:{word:"estaba de más",text:"Sentí que estaba de más en la reunión y me fui."},situacion:"vida-diaria"
+  });
+  set("colibacilo",{
+    definition:"Bacteria que vive en el intestino y a veces causa una infección.",
+    synonyms:["germen intestinal"],
+    example:{word:"colibacilo",text:"El colibacilo puede causar una infección."},
+    exampleSynonym:{word:"germen intestinal",text:"El germen intestinal puede causar una infección."}
+  });
+  set("restinga",{
+    definition:"Lengua de arena o roca que queda bajo el agua. Está cerca de la costa y queda a poca profundidad.",
+    synonyms:["barra de arena o roca"],
+    example:{word:"restinga",text:"El capitán rodeó la restinga."},
+    exampleSynonym:{word:"barra de arena o roca",text:"El capitán rodeó la barra de arena o roca."}
+  });
+  set("republica",{
+    definition:"Forma de gobierno con una autoridad elegida por un tiempo concreto.",
+    synonyms:["forma republicana de gobierno"],
+    example:{word:"república",text:"La república permite elegir a las autoridades."},
+    exampleSynonym:{word:"forma republicana de gobierno",text:"La forma republicana de gobierno permite elegir a las autoridades."}
+  });
+  add({
+    id:"republica-estado",word:"república",image:{id:7024,alt:"Una palabra del diccionario"},
+    definition:"País cuya autoridad principal se elige por un tiempo limitado.",synonyms:["nación republicana"],
+    example:{word:"república",text:"Argentina es una república de Sudamérica."},
+    exampleSynonym:{word:"nación republicana",text:"Argentina es una nación republicana de Sudamérica."},situacion:"conocimiento"
+  });
+  set("virginidad",{
+    definition:"Situación de una persona que no ha tenido relaciones sexuales.",
+    synonyms:["no haber tenido relaciones sexuales"],
+    example:{word:"virginidad",text:"Hablar de virginidad puede resultar incómodo para algunas personas."},
+    exampleSynonym:{word:"no haber tenido relaciones sexuales",text:"Hablar de no haber tenido relaciones sexuales puede resultar incómodo para algunas personas."}
+  });
+})();
