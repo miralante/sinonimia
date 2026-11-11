@@ -23637,8 +23637,8 @@
         "text": "The landlord treated the house for a mouse infestation."
       },
       "exampleSynonym": {
-        "word": "spread of pests",
-        "text": "The landlord treated the house for the spread of pests."
+        "word": "pest outbreak",
+        "text": "A pest outbreak forced the restaurant to close temporarily."
       }
     }
   },
@@ -33245,12 +33245,12 @@
         "link"
       ],
       "example": {
-        "word": "join",
-        "text": "Join the two pieces with glue."
+        "word": "join the team",
+        "text": "She hoped to join the team before the next match."
       },
       "exampleSynonym": {
-        "word": "connect",
-        "text": "Connect the two pieces with glue."
+        "word": "become a member of the team",
+        "text": "He wanted to become a member of the team after tryouts."
       }
     }
   },
@@ -84340,8 +84340,8 @@
         "text": "Her absence from class was noted."
       },
       "exampleSynonym": {
-        "word": "nonattendance",
-        "text": "Her nonattendance at class was noted."
+        "word": "lack",
+        "text": "The lack of clean water forced residents to leave."
       }
     }
   },
@@ -86737,8 +86737,8 @@
         "text": "Doctors treated the acidosis quickly."
       },
       "exampleSynonym": {
-        "word": "excess acidity",
-        "text": "Doctors treated the excess acidity quickly."
+        "word": "excess acidity of body fluids",
+        "text": "The lab reported excess acidity of body fluids after the illness."
       }
     }
   },
@@ -94562,11 +94562,11 @@
       ],
       "example": {
         "word": "alternate history",
-        "text": "The novel is an alternate history set in the 1960s."
+        "text": "The novel presents an alternate history of the 1960s."
       },
       "exampleSynonym": {
-        "word": "alternative history",
-        "text": "The novel is an alternative history set in the 1960s."
+        "word": "counterfactual history",
+        "text": "The author built a counterfactual history around a different election result."
       }
     }
   },
@@ -100675,8 +100675,8 @@
         "text": "Berries contain an antioxidant."
       },
       "exampleSynonym": {
-        "word": "oxygen-protecting substance",
-        "text": "Berries contain an oxygen-protecting substance."
+        "word": "oxidation inhibitor",
+        "text": "The researcher called it an oxidation inhibitor in the report."
       }
     }
   },
@@ -109043,8 +109043,8 @@
         "text": "We assume the shop is open because its lights are on."
       },
       "exampleSynonym": {
-        "word": "suppose",
-        "text": "We suppose the shop is open because its lights are on."
+        "word": "take on",
+        "text": "She chose to take on the role of team captain."
       },
       "situacion": "conocimiento"
     }
@@ -111669,7 +111669,7 @@
     "set": {
       "definition": "Loud enough for someone to hear.",
       "synonyms": [
-        "hearable",
+        "able to be heard",
         "clear"
       ],
       "example": {
@@ -111677,8 +111677,8 @@
         "text": "Her voice was barely audible at the back of the room."
       },
       "exampleSynonym": {
-        "word": "hearable",
-        "text": "Her voice was barely hearable at the back of the room."
+        "word": "able to be heard",
+        "text": "Her voice was barely able to be heard in the back row."
       },
       "situacion": "vida-diaria",
       "translation": {
@@ -112420,7 +112420,7 @@
       ],
       "example": {
         "word": "autism",
-        "text": "Autism can affect how a person communicates and learns."
+        "text": "The article explains how autism can affect sensory experiences."
       },
       "exampleSynonym": {
         "word": "autism spectrum disorder",
@@ -159542,8 +159542,8 @@
         "text": "The doctor will diagnose the infection today."
       },
       "exampleSynonym": {
-        "word": "identify",
-        "text": "The doctor will identify the illness today."
+        "word": "identify a condition",
+        "text": "The doctor can identify a condition from the scan results."
       },
       "situacion": "salud",
       "word": "diagnose"
@@ -184098,7 +184098,7 @@
       },
       "example": {
         "word": "dysentery",
-        "text": "Dysentery spread through unsafe drinking water."
+        "text": "Dysentery caused severe diarrhea during the outbreak."
       },
       "exampleSynonym": {
         "word": "intestinal infection",
@@ -196514,7 +196514,7 @@
       "word": "empiricist",
       "definition": "A person who believes knowledge comes from experience.",
       "synonyms": [
-        "supporter of empiricism",
+        "advocate of empiricism",
         "empirical thinker"
       ],
       "image": {
@@ -196526,8 +196526,8 @@
         "text": "The empiricist questioned the theory."
       },
       "exampleSynonym": {
-        "word": "supporter of empiricism",
-        "text": "A supporter of empiricism questioned the theory."
+        "word": "advocate of empiricism",
+        "text": "She is an advocate of empiricism in science."
       },
       "situacion": "conocimiento"
     }
@@ -264492,6 +264492,84 @@
       "exampleSynonym": {
         "word": "request for waiver of immunity",
         "text": "The official submitted a request for waiver of immunity."
+      }
+    }
+  },
+  {
+    "entry": "box-office",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "box office",
+        "text": "The film’s box office exceeded expectations during opening weekend."
+      }
+    }
+  },
+  {
+    "entry": "resend",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "send again",
+        "text": "The portal displayed “send again” after the upload failed."
+      }
+    }
+  },
+  {
+    "entry": "cling",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "cling",
+        "text": "The child would cling to her parent in a crowd."
+      },
+      "exampleSynonym": {
+        "word": "stick to",
+        "text": "Wet leaves can stick to the windshield."
+      }
+    }
+  },
+  {
+    "entry": "adopt",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "put into use",
+        "text": "A new safety plan will be put into use next week."
+      }
+    }
+  },
+  {
+    "entry": "abbatial",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "relating to an abbey",
+        "text": "The museum displayed a document relating to an abbey."
+      }
+    }
+  },
+  {
+    "entry": "eat-away",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "eat away",
+        "text": "Acid can eat away at the metal over time."
+      },
+      "exampleSynonym": {
+        "word": "wear away",
+        "text": "Wind and rain can wear away the rock."
+      }
+    }
+  },
+  {
+    "entry": "palatalize",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "make palatal",
+        "text": "Linguists use “make palatal” to describe a sound change."
       }
     }
   }

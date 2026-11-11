@@ -174370,8 +174370,8 @@
         "text": "El pluriempleo le deja poco tiempo libre."
       },
       "exampleSynonym": {
-        "word": "empleo múltiple",
-        "text": "El empleo múltiple le deja poco tiempo libre."
+        "word": "empleo simultáneo",
+        "text": "El empleo simultáneo permite combinar dos trabajos."
       },
       "situacion": "trabajo"
     }
@@ -228613,8 +228613,8 @@
         "text": "La readmisión de la trabajadora llegó tras el juicio."
       },
       "exampleSynonym": {
-        "word": "reincorporación laboral",
-        "text": "La reincorporación laboral llegó tras el juicio."
+        "word": "reincorporación al puesto",
+        "text": "La reincorporación al puesto se confirmó tras el juicio."
       },
       "situacion": "legal",
       "image": {
@@ -257965,8 +257965,8 @@
         "alt": "Un documento muestra las acciones de una empresa."
       },
       "example": {
-        "word": "S.A.",
-        "text": "La empresa cambió su nombre y ahora es una S.A."
+        "word": "S. A.",
+        "text": "La empresa cambió a S. A. tras registrar sus estatutos."
       },
       "exampleSynonym": {
         "word": "sociedad anónima",
@@ -260733,8 +260733,8 @@
     "remove": [],
     "set": {
       "example": {
-        "word": "el subempleo",
-        "text": "El subempleo obligó a la madre a aceptar dos trabajos."
+        "word": "subempleo",
+        "text": "El subempleo deja a muchos trabajadores sin ingresos suficientes."
       }
     }
   },
@@ -260743,8 +260743,8 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "un medicamento que se introduce en el recto",
-        "text": "El médico recetó una forma farmacéutica para introducir en una cavidad."
+        "word": "forma farmacéutica para introducir en una cavidad",
+        "text": "El supositorio es una forma farmacéutica para introducir en una cavidad."
       }
     }
   },
@@ -260754,11 +260754,11 @@
     "set": {
       "example": {
         "word": "tasar",
-        "text": "El perito tuvo que tasar la casa antes de venderla."
+        "text": "El perito debe tasar la vivienda antes de la venta."
       },
       "exampleSynonym": {
-        "word": "calcular el valor económico de",
-        "text": "El perito tuvo que valorar económicamente la casa antes de venderla."
+        "word": "valorar económicamente",
+        "text": "El perito debe valorar económicamente la vivienda antes de la venta."
       }
     }
   },
@@ -263400,6 +263400,112 @@
       "exampleSynonym": {
         "word": "permiso de paso seguro",
         "text": "La familia mostró el permiso de paso seguro al cruzar la frontera."
+      }
+    }
+  },
+  {
+    "entry": "atomo",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "unidad de un elemento químico",
+        "text": "Un átomo es la unidad de un elemento químico."
+      }
+    }
+  },
+  {
+    "entry": "asteroide",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "cuerpo menor del sistema solar",
+        "text": "Un asteroide es un cuerpo menor del sistema solar."
+      }
+    }
+  },
+  {
+    "entry": "stalkear",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "stalkear",
+        "text": "Reconoció que solía stalkear las publicaciones de su expareja."
+      },
+      "exampleSynonym": {
+        "word": "fisgonear en redes",
+        "text": "Admitió que solía fisgonear en redes para ver las publicaciones."
+      }
+    }
+  },
+  {
+    "entry": "ultraprocesado",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "producto ultraprocesado",
+        "text": "El nutricionista explicó por qué conviene limitar cada producto ultraprocesado."
+      }
+    }
+  },
+  {
+    "entry": "anulabilidad",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "posibilidad de anulación",
+        "text": "La posibilidad de anulación figuraba en el contrato."
+      }
+    }
+  },
+  {
+    "entry": "retroactividad",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "retroactividad",
+        "text": "La retroactividad de la norma afectaría al contrato ya firmado."
+      },
+      "exampleSynonym": {
+        "word": "aplicación retroactiva",
+        "text": "La aplicación retroactiva de la norma fue objeto de debate."
+      }
+    }
+  },
+  {
+    "entry": "apostillar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "apostillar",
+        "text": "Antes de viajar, tuvo que apostillar su certificado de nacimiento."
+      },
+      "exampleSynonym": {
+        "word": "poner una apostilla",
+        "text": "Para validar el documento en el extranjero, debe poner una apostilla."
+      }
+    }
+  },
+  {
+    "entry": "subcontratar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "subcontratar",
+        "text": "La empresa decidió subcontratar el mantenimiento de sus equipos."
+      },
+      "exampleSynonym": {
+        "word": "encargar a un tercero",
+        "text": "La empresa decidió encargar a un tercero el mantenimiento de sus equipos."
+      }
+    }
+  },
+  {
+    "entry": "vulneracion",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "lesión de un derecho",
+        "text": "La resolución calificó el caso como lesión de un derecho fundamental."
       }
     }
   }
