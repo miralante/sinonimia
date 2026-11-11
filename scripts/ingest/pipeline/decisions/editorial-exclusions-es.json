@@ -88617,5 +88617,45 @@
     "id": "sallador",
     "word": "Sallador",
     "reason": "Voz rural marcada como asturiana y cántabra."
+  },
+  {
+    "id": "salladura",
+    "word": "Salladura",
+    "reason": "Acción ligada al cultivo manual de la tierra, de escaso uso general y sin sinónimos independientes."
+  },
+  {
+    "id": "sallete",
+    "word": "Sallete",
+    "reason": "Utensilio agrícola específico para sallar, sin sinónimos de uso general."
+  },
+  {
+    "id": "salmar",
+    "word": "Salmar",
+    "reason": "Verbo marcado como regional de La Rioja y Soria."
+  },
+  {
+    "id": "salmear",
+    "word": "Salmear",
+    "reason": "Voz poco usada para una práctica religiosa concreta y sin sinónimos generales útiles en esta ficha."
+  },
+  {
+    "id": "salmer",
+    "word": "Salmer",
+    "reason": "Término especializado de arquitectura con un sinónimo técnico y poco transparente."
+  },
+  {
+    "id": "salmera",
+    "word": "Salmera",
+    "reason": "Voz especializada que solo aparece en la locución aguja salmera."
+  },
+  {
+    "id": "salmon",
+    "word": "Salmón",
+    "reason": "Nombre de un pez conocido y concreto, con un significado fácil de entender."
+  },
+  {
+    "id": "salmonado",
+    "word": "Salmonado",
+    "reason": "Adjetivo descriptivo raro y transparente que no suele necesitar explicación propia."
   }
 ]

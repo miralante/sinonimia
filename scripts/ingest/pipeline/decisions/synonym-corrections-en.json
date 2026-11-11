@@ -262164,5 +262164,31 @@
       },
       "situacion": "trabajo"
     }
+  },
+  {
+    "entry": "greasy-pole",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "greasy pole",
+      "image": {
+        "id": 4948,
+        "alt": "A climber reaches for a tall pole in a contest."
+      },
+      "definition": "Informal: the hard path to a high career or political position.",
+      "synonyms": [
+        "career ladder",
+        "path to power"
+      ],
+      "example": {
+        "word": "greasy pole",
+        "text": "She spent years climbing the greasy pole of politics."
+      },
+      "exampleSynonym": {
+        "word": "career ladder",
+        "text": "She spent years climbing the career ladder in politics."
+      },
+      "situacion": "sociedad"
+    }
   }
 ]

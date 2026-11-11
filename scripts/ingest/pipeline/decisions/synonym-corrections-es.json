@@ -262826,5 +262826,108 @@
       },
       "situacion": "salud"
     }
+  },
+  {
+    "entry": "salmodia",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salmodia",
+      "image": {
+        "id": 30831,
+        "alt": "A choir sings psalms during a church service."
+      },
+      "definition": "Parte del oficio religioso en que se rezan o cantan salmos.",
+      "synonyms": [
+        "canto de salmos",
+        "rezo de salmos"
+      ],
+      "example": {
+        "word": "salmodia",
+        "text": "La salmodia reunió varios cantos del libro de los Salmos."
+      },
+      "exampleSynonym": {
+        "word": "canto de salmos",
+        "text": "El canto de salmos reunió varias piezas del oficio."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "salmonela",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salmonela",
+      "image": {
+        "id": 23787,
+        "alt": "A laboratory worker studies bacteria in a sample."
+      },
+      "definition": "Bacteria que puede contaminar alimentos y causar trastornos intestinales.",
+      "synonyms": [
+        "bacteria salmonela"
+      ],
+      "example": {
+        "word": "salmonela",
+        "text": "La salmonela puede contaminar huevos mal cocidos."
+      },
+      "exampleSynonym": {
+        "word": "bacteria salmonela",
+        "text": "La bacteria salmonela puede contaminar huevos mal cocidos."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "salmo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salmo",
+      "image": {
+        "id": 30831,
+        "alt": "A person reads a psalm from a book of the Bible."
+      },
+      "definition": "Canto de alabanza a Dios, incluido en la Biblia.",
+      "synonyms": [
+        "himno religioso",
+        "canto de alabanza"
+      ],
+      "example": {
+        "word": "salmo",
+        "text": "Leyeron un salmo durante la ceremonia."
+      },
+      "exampleSynonym": {
+        "word": "himno religioso",
+        "text": "Leyeron un himno religioso durante la ceremonia."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "salmodiar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salmodiar",
+      "image": {
+        "id": 2315,
+        "alt": "A person sings a tune in a flat, monotonous voice."
+      },
+      "definition": "Cantar algo con una cadencia monótona.",
+      "synonyms": [
+        "canturrear",
+        "tararear"
+      ],
+      "example": {
+        "word": "salmodiar",
+        "text": "El cantor comenzó a salmodiar durante el oficio."
+      },
+      "exampleSynonym": {
+        "word": "canturrear",
+        "text": "El cantor comenzó a canturrear durante el oficio."
+      },
+      "situacion": "arte"
+    }
   }
 ]

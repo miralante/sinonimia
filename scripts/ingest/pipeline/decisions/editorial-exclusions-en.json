@@ -82616,5 +82616,60 @@
     "id": "grazer-2",
     "word": "Grazer",
     "reason": "Definition as a rubbing instrument could not be verified."
+  },
+  {
+    "id": "grease-tank",
+    "word": "Grease tank",
+    "reason": "Specialized container for grease with no useful general synonym."
+  },
+  {
+    "id": "greaser",
+    "word": "Greaser",
+    "reason": "Corrupt gloss; remaining documented senses are transparent, historically slang, regional, or offensive."
+  },
+  {
+    "id": "greasy-2",
+    "word": "Greasy",
+    "reason": "Corrupt definition with no verifiable independent sense."
+  },
+  {
+    "id": "greasy-3",
+    "word": "Greasy",
+    "reason": "Duplicate of the general sense already covered by greasy."
+  },
+  {
+    "id": "greasy-4",
+    "word": "Greasy",
+    "reason": "Duplicate of the fat or oil sense already covered by greasy."
+  },
+  {
+    "id": "greasy",
+    "word": "greasy",
+    "reason": "Common, concrete adjective with a familiar meaning that does not need a dictionary explanation."
+  },
+  {
+    "id": "great",
+    "word": "great",
+    "reason": "Very common adjective with familiar senses that do not need a dictionary explanation."
+  },
+  {
+    "id": "great-2",
+    "word": "Great",
+    "reason": "Very common adjective with familiar senses that do not need a dictionary explanation."
+  },
+  {
+    "id": "great-3",
+    "word": "Great",
+    "reason": "Very common exclamation with familiar use that does not need a dictionary explanation."
+  },
+  {
+    "id": "great-4",
+    "word": "Great",
+    "reason": "Very common adjective with familiar senses that do not need a dictionary explanation."
+  },
+  {
+    "id": "great-5",
+    "word": "Great",
+    "reason": "Very common adjective with familiar senses that do not need a dictionary explanation."
   }
 ]
