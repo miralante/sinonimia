@@ -485,4 +485,19 @@
 {const i=d.findIndex(q=>q.id==="agredir");if(i<0)throw Error("Missing entry agredir");d[i]["example"].word="agredir";d[i]["example"].text="No debes agredir a nadie durante una discusión.";}
 {const i=d.findIndex(q=>q.id==="agredir");if(i<0)throw Error("Missing entry agredir");d[i]["exampleSynonym"].word="atacar";d[i]["exampleSynonym"].text="No debes atacar a nadie durante una discusión.";}
 {const i=d.findIndex(q=>q.id==="alevosia");if(i<0)throw Error("Missing entry alevosia");d[i]["exampleSynonym"].word="actuación que asegura la indefensión";d[i]["exampleSynonym"].text="El juez vio una actuación que asegura la indefensión en ese ataque.";}
+
+// v5071 source fixes: A132 active runtime examples
+{const i=d.findIndex(q=>q.id==="amortizar");if(i<0)throw Error("Missing entry amortizar");d[i]["exampleSynonym"].word="reembolsar gradualmente una deuda";d[i]["exampleSynonym"].text="La empresa empezó a reembolsar gradualmente una deuda bancaria.";}
+{const i=d.findIndex(q=>q.id==="anemico");if(i<0)throw Error("Missing entry anemico");d[i]["exampleSynonym"].word="con anemia";d[i]["exampleSynonym"].text="El paciente quedó débil y con anemia después de la operación.";}
+{const i=d.findIndex(q=>q.id==="antitetanica");if(i<0)throw Error("Missing entry antitetanica");d[i]["example"].word="antitetánica";d[i]["example"].text="La enfermera puso la vacuna antitetánica al niño.";}
+{const i=d.findIndex(q=>q.id==="antitetanica");if(i<0)throw Error("Missing entry antitetanica");d[i]["exampleSynonym"].word="vacuna contra el tétanos";d[i]["exampleSynonym"].text="La enfermera puso la vacuna contra el tétanos al niño.";}
+{const i=d.findIndex(q=>q.id==="apatrida");if(i<0)throw Error("Missing entry apatrida");d[i]["exampleSynonym"].word="persona sin nacionalidad";d[i]["exampleSynonym"].text="La persona sin nacionalidad pidió ayuda para obtener documentos.";}
+{const i=d.findIndex(q=>q.id==="apnea");if(i<0)throw Error("Missing entry apnea");d[i]["exampleSynonym"].word="pausa respiratoria";d[i]["exampleSynonym"].text="La apnea causó una pausa respiratoria durante el sueño.";}
+{const i=d.findIndex(q=>q.id==="arbitral");if(i<0)throw Error("Missing entry arbitral");d[i]["exampleSynonym"].word="de un tribunal arbitral";d[i]["exampleSynonym"].text="El caso terminó con una decisión de un tribunal arbitral.";}
+{const i=d.findIndex(q=>q.id==="asignatario");if(i<0)throw Error("Missing entry asignatario");d[i]["exampleSynonym"].word="beneficiario de una asignación";d[i]["exampleSynonym"].text="El beneficiario de una asignación recibió el pago completo.";}
+{const i=d.findIndex(q=>q.id==="asmatico");if(i<0)throw Error("Missing entry asmatico");d[i]["example"].word="asmático";d[i]["example"].text="El niño asmático llevó su inhalador a la escuela.";}
+{const i=d.findIndex(q=>q.id==="auditar");if(i<0)throw Error("Missing entry auditar");d[i]["exampleSynonym"].word="realizar una auditoría";d[i]["exampleSynonym"].text="La empresa debe realizar una auditoría de sus cuentas cada año.";}
+{const i=d.findIndex(q=>q.id==="autoinmune");if(i<0)throw Error("Missing entry autoinmune");d[i]["exampleSynonym"].word="autoinmunitario";d[i]["exampleSynonym"].text="El médico explicó el trastorno autoinmunitario y sus efectos.";}
+{const i=d.findIndex(q=>q.id==="bipolar");if(i<0)throw Error("Missing entry bipolar");d[i]["exampleSynonym"].word="de dos polos";d[i]["exampleSynonym"].text="El médico describió el trastorno bipolar como un trastorno de dos polos.";}
+{const i=d.findIndex(q=>q.id==="colegiado");if(i<0)throw Error("Missing entry colegiado");d[i]["example"].word="colegiado";d[i]["example"].text="El colegiado detuvo el partido por una falta.";}
 })();

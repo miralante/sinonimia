@@ -261536,5 +261536,265 @@
       },
       "situacion": "vivienda"
     }
+  },
+  {
+    "entry": "graveyard",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graveyard",
+      "image": {
+        "id": 7024,
+        "alt": "Rows of gravestones mark a place where people are buried."
+      },
+      "definition": "A place where people who have died are buried.",
+      "synonyms": [
+        "cemetery",
+        "churchyard",
+        "burial ground"
+      ],
+      "example": {
+        "word": "graveyard",
+        "text": "The old graveyard stands beside the church."
+      },
+      "exampleSynonym": {
+        "word": "cemetery",
+        "text": "The old cemetery stands beside the church."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "graveyard-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graveyard",
+      "definition": "A place where many broken or unwanted things are left.",
+      "synonyms": [
+        "dumping ground",
+        "repository"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Broken machines have collected in a large storage yard."
+      },
+      "example": {
+        "word": "graveyard",
+        "text": "The field became a graveyard for abandoned cars."
+      },
+      "exampleSynonym": {
+        "word": "dumping ground",
+        "text": "The field became a dumping ground for abandoned cars."
+      },
+      "situacion": "vivienda"
+    }
+  },
+  {
+    "entry": "gravidity",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gravidity",
+      "image": {
+        "id": 7024,
+        "alt": "A pregnant person attends a checkup."
+      },
+      "definition": "The state of being pregnant.",
+      "synonyms": [
+        "pregnancy",
+        "gestation"
+      ],
+      "example": {
+        "word": "gravidity",
+        "text": "The study recorded the gravidity of each patient."
+      },
+      "exampleSynonym": {
+        "word": "pregnancy",
+        "text": "The study recorded each patient’s pregnancy."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "gravimeter",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gravimeter",
+      "image": {
+        "id": 7024,
+        "alt": "A scientist uses an instrument to measure gravity."
+      },
+      "definition": "An instrument that measures the strength of gravity in a place.",
+      "synonyms": [
+        "gravity meter"
+      ],
+      "example": {
+        "word": "gravimeter",
+        "text": "The team used a gravimeter to measure gravity at the site."
+      },
+      "exampleSynonym": {
+        "word": "gravity meter",
+        "text": "The team used a gravity meter to measure gravity at the site."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "gravimetric",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gravimetric",
+      "image": {
+        "id": 7024,
+        "alt": "A sample is weighed to measure its mass."
+      },
+      "definition": "Related to measuring a substance by weighing it.",
+      "synonyms": [
+        "weight-measuring"
+      ],
+      "example": {
+        "word": "gravimetric",
+        "text": "They used a gravimetric method to measure the sample."
+      },
+      "exampleSynonym": {
+        "word": "weight-measuring",
+        "text": "They used a weight-measuring method to measure the sample."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "gravimetry",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gravimetry",
+      "image": {
+        "id": 7024,
+        "alt": "A scientist records a measurement of gravity."
+      },
+      "definition": "The measurement of weight or gravity.",
+      "synonyms": [
+        "gravity measurement",
+        "weighing analysis"
+      ],
+      "example": {
+        "word": "gravimetry",
+        "text": "The survey used gravimetry to map changes in gravity."
+      },
+      "exampleSynonym": {
+        "word": "gravity measurement",
+        "text": "The survey used gravity measurement to map changes in gravity."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "gravitation",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gravitation",
+      "image": {
+        "id": 7024,
+        "alt": "Planets attract one another through gravity."
+      },
+      "definition": "The force that pulls objects with mass toward one another.",
+      "synonyms": [
+        "gravitational attraction",
+        "gravity"
+      ],
+      "example": {
+        "word": "gravitation",
+        "text": "Gravitation keeps the Moon in orbit around Earth."
+      },
+      "exampleSynonym": {
+        "word": "gravitational attraction",
+        "text": "Gravitational attraction keeps the Moon in orbit around Earth."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "gravitational",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gravitational",
+      "image": {
+        "id": 7024,
+        "alt": "A planet’s gravity pulls a satellite into orbit."
+      },
+      "definition": "Related to gravity or caused by it.",
+      "synonyms": [
+        "gravity-related",
+        "gravitic"
+      ],
+      "example": {
+        "word": "gravitational",
+        "text": "The planet has a strong gravitational pull."
+      },
+      "exampleSynonym": {
+        "word": "gravity-related",
+        "text": "The planet has a strong gravity-related pull."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "gravity",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gravity",
+      "image": {
+        "id": 7024,
+        "alt": "A dropped ball falls to the ground because of gravity."
+      },
+      "definition": "Force that pulls objects together and makes things fall to Earth.",
+      "synonyms": [
+        "gravitational force",
+        "gravitation"
+      ],
+      "example": {
+        "word": "gravity",
+        "text": "Gravity pulled the apple to the ground."
+      },
+      "exampleSynonym": {
+        "word": "gravitational force",
+        "text": "The gravitational force pulled the apple to the ground."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "gravity-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gravity",
+      "definition": "The serious importance of a situation or problem.",
+      "synonyms": [
+        "seriousness",
+        "severity",
+        "importance"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A doctor explains the seriousness of an illness."
+      },
+      "example": {
+        "word": "gravity",
+        "text": "The family understood the gravity of his illness."
+      },
+      "exampleSynonym": {
+        "word": "seriousness",
+        "text": "The family understood the seriousness of his illness."
+      },
+      "situacion": "salud"
+    }
   }
 ]

@@ -88547,5 +88547,35 @@
     "id": "salgar",
     "word": "Salgar",
     "reason": "Sus sentidos verbales están marcados como desusados y el nominal es regional de Asturias."
+  },
+  {
+    "id": "salicaceo",
+    "word": "Salicáceo",
+    "reason": "Término especializado de botánica para la familia de los sauces, álamos y chopos."
+  },
+  {
+    "id": "salicilato",
+    "word": "Salicilato",
+    "reason": "Término especializado de química para sales y ésteres del ácido salicílico."
+  },
+  {
+    "id": "salicina",
+    "word": "Salicina",
+    "reason": "Nombre especializado de una sustancia química presente en la corteza de algunos sauces."
+  },
+  {
+    "id": "salicineo",
+    "word": "Salicíneo",
+    "reason": "Adjetivo botánico especializado para una subfamilia de plantas."
+  },
+  {
+    "id": "salico",
+    "word": "Sálico",
+    "reason": "Adjetivo histórico muy especializado que remite a los salios, pueblo franco antiguo."
+  },
+  {
+    "id": "salificable",
+    "word": "Salificable",
+    "reason": "Término de química para una sustancia capaz de formar una sal."
   }
 ]

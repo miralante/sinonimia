@@ -260465,7 +260465,7 @@
         "text": "La empresa logró amortizar el préstamo en cinco años."
       },
       "exampleSynonym": {
-        "word": "saldar",
+        "word": "reembolsar gradualmente una deuda",
         "text": "La empresa empezó a reembolsar gradualmente una deuda bancaria."
       }
     }
@@ -260475,7 +260475,7 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "falto de hierro",
+        "word": "con anemia",
         "text": "El paciente quedó débil y con anemia después de la operación."
       }
     }
@@ -260485,11 +260485,11 @@
     "remove": [],
     "set": {
       "example": {
-        "word": "la antitetánica",
+        "word": "antitetánica",
         "text": "La enfermera puso la vacuna antitetánica al niño."
       },
       "exampleSynonym": {
-        "word": "la vacuna del tétanos",
+        "word": "vacuna contra el tétanos",
         "text": "La enfermera puso la vacuna contra el tétanos al niño."
       }
     }
@@ -260499,7 +260499,7 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "persona sin país",
+        "word": "persona sin nacionalidad",
         "text": "La persona sin nacionalidad pidió ayuda para obtener documentos."
       }
     }
@@ -260509,8 +260509,8 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "la pausa al respirar",
-        "text": "Durante la noche, tuvo pausas respiratorias durante el sueño."
+        "word": "pausa respiratoria",
+        "text": "La apnea causó una pausa respiratoria durante el sueño."
       }
     }
   },
@@ -260519,7 +260519,7 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "de arbitraje",
+        "word": "de un tribunal arbitral",
         "text": "El caso terminó con una decisión de un tribunal arbitral."
       }
     }
@@ -260539,7 +260539,7 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "heredero",
+        "word": "beneficiario de una asignación",
         "text": "El beneficiario de una asignación recibió el pago completo."
       }
     }
@@ -260549,7 +260549,7 @@
     "remove": [],
     "set": {
       "example": {
-        "word": "asmática",
+        "word": "asmático",
         "text": "El niño asmático llevó su inhalador a la escuela."
       }
     }
@@ -260563,7 +260563,7 @@
         "text": "La empresa debe auditar sus cuentas cada año."
       },
       "exampleSynonym": {
-        "word": "revisar",
+        "word": "realizar una auditoría",
         "text": "La empresa debe realizar una auditoría de sus cuentas cada año."
       }
     }
@@ -260573,7 +260573,7 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "autoinmunitaria",
+        "word": "autoinmunitario",
         "text": "El médico explicó el trastorno autoinmunitario y sus efectos."
       }
     }
@@ -260593,8 +260593,8 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "con cambios extremos de ánimo",
-        "text": "Un síntoma relativo al trastorno bipolar afectó su ánimo."
+        "word": "de dos polos",
+        "text": "El médico describió el trastorno bipolar como un trastorno de dos polos."
       }
     }
   },
@@ -260603,7 +260603,7 @@
     "remove": [],
     "set": {
       "example": {
-        "word": "colegiada",
+        "word": "colegiado",
         "text": "El colegiado detuvo el partido por una falta."
       }
     }
@@ -262257,6 +262257,160 @@
         "text": "Un sauce crecía junto al arroyo."
       },
       "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "salicilico",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salicílico",
+      "image": {
+        "id": 7024,
+        "alt": "Un frasco de ácido salicílico se usa para preparar un medicamento."
+      },
+      "definition": "Ácido que se usa en algunos medicamentos y para fabricar aspirina.",
+      "synonyms": [
+        "ácido salicílico"
+      ],
+      "example": {
+        "word": "salicílico",
+        "text": "El producto contiene ácido salicílico."
+      },
+      "exampleSynonym": {
+        "word": "ácido salicílico",
+        "text": "El producto contiene ácido salicílico."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "salidero",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salidero",
+      "image": {
+        "id": 7024,
+        "alt": "Una puerta sirve de salida de una sala."
+      },
+      "definition": "Persona a la que le gusta salir de casa.",
+      "synonyms": [
+        "aficionado a salir",
+        "amigo de salir"
+      ],
+      "example": {
+        "word": "salidero",
+        "text": "Es muy salidero y cada noche queda con sus amigos."
+      },
+      "exampleSynonym": {
+        "word": "aficionado a salir",
+        "text": "Es muy aficionado a salir y cada noche queda con sus amigos."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "salidizo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salidizo",
+      "image": {
+        "id": 7024,
+        "alt": "Un balcón sobresale de la pared de un edificio."
+      },
+      "definition": "Parte de un edificio que sobresale de la pared.",
+      "synonyms": [
+        "saledizo",
+        "saliente"
+      ],
+      "example": {
+        "word": "salidizo",
+        "text": "El balcón salidizo da a la plaza."
+      },
+      "exampleSynonym": {
+        "word": "saledizo",
+        "text": "El balcón saledizo da a la plaza."
+      },
+      "situacion": "vivienda"
+    }
+  },
+  {
+    "entry": "saliente",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Saliente",
+      "image": {
+        "id": 7024,
+        "alt": "Una roca sobresale de la pared de un acantilado."
+      },
+      "definition": "Que sobresale de una superficie o destaca frente a los demás.",
+      "synonyms": [
+        "prominente",
+        "salidizo"
+      ],
+      "example": {
+        "word": "saliente",
+        "text": "Los pómulos salientes le daban una cara angulosa."
+      },
+      "exampleSynonym": {
+        "word": "prominente",
+        "text": "Los pómulos prominentes le daban una cara angulosa."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "salifero",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salífero",
+      "image": {
+        "id": 7024,
+        "alt": "Una roca contiene depósitos de sal."
+      },
+      "definition": "Que contiene sal.",
+      "synonyms": [
+        "salino"
+      ],
+      "example": {
+        "word": "salífero",
+        "text": "El terreno salífero conserva depósitos de sal."
+      },
+      "exampleSynonym": {
+        "word": "salino",
+        "text": "El terreno salino conserva depósitos de sal."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "salin",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salín",
+      "image": {
+        "id": 7024,
+        "alt": "Un almacén guarda montones de sal."
+      },
+      "definition": "Almacén donde se guarda sal.",
+      "synonyms": [
+        "almacén de sal",
+        "depósito de sal"
+      ],
+      "example": {
+        "word": "salín",
+        "text": "Llevaron los sacos al salín del puerto."
+      },
+      "exampleSynonym": {
+        "word": "almacén de sal",
+        "text": "Llevaron los sacos al almacén de sal del puerto."
+      },
+      "situacion": "trabajo"
     }
   }
 ]
