@@ -29060,8 +29060,8 @@
         "text": "Interoperability lets the two systems share data."
       },
       "exampleSynonym": {
-        "word": "compatibility",
-        "text": "Compatibility lets the two systems share data."
+        "word": "ability to exchange and use information across systems",
+        "text": "Software needs the ability to exchange and use information across systems."
       }
     }
   },
@@ -39315,7 +39315,7 @@
       ],
       "example": {
         "word": "legal interdiction",
-        "text": "The court reviewed the legal interdiction and the person’s right to appeal."
+        "text": "Legal interdiction limited the person's ability to manage their property."
       },
       "exampleSynonym": {
         "word": "court restriction",
@@ -107407,8 +107407,8 @@
         "rise"
       ],
       "example": {
-        "word": "ascent",
-        "text": "The hikers began their ascent at dawn."
+        "word": "the ascent",
+        "text": "The ascent took three hours because the trail was steep."
       },
       "exampleSynonym": {
         "word": "climb",
@@ -149937,11 +149937,11 @@
       ],
       "example": {
         "word": "defenselessness",
-        "text": "The storm exposed their defenselessness."
+        "text": "Defenselessness left the villagers exposed during the storm."
       },
       "exampleSynonym": {
-        "word": "vulnerability",
-        "text": "The storm exposed their vulnerability."
+        "word": "inability to defend oneself",
+        "text": "The report described an inability to defend oneself without support."
       },
       "situacion": "seguridad",
       "word": "defenselessness",
@@ -187604,12 +187604,12 @@
         "alt": "Producing the result that was wanted or intended"
       },
       "example": {
-        "word": "effective",
-        "text": "The new method is effective."
+        "word": "an effective treatment",
+        "text": "The doctor prescribed an effective treatment for the infection."
       },
       "exampleSynonym": {
-        "word": "successful",
-        "text": "The new method is successful."
+        "word": "a successful treatment",
+        "text": "The clinic reported a successful treatment for the infection."
       },
       "situacion": "trabajo"
     }
@@ -190026,8 +190026,8 @@
         "text": "They measured electrobiological signals in the tissue."
       },
       "exampleSynonym": {
-        "word": "bioelectric",
-        "text": "They measured bioelectric signals in the tissue."
+        "word": "relating to electrobiology",
+        "text": "The article describes a process relating to electrobiology."
       },
       "situacion": "salud"
     }
@@ -213743,8 +213743,8 @@
         "text": "The exculpatory evidence cleared the driver."
       },
       "exampleSynonym": {
-        "word": "evidence of innocence",
-        "text": "Evidence of innocence cleared the driver."
+        "word": "tending to clear someone of blame",
+        "text": "The court described the evidence as “tending to clear someone of blame.”"
       },
       "situacion": "legal",
       "image": {
@@ -215950,15 +215950,15 @@
       "word": "Exoneration",
       "definition": "The official act of clearing someone from blame or responsibility.",
       "synonyms": [
-        "being cleared of blame"
+        "clearing someone of blame"
       ],
       "example": {
         "word": "exoneration",
         "text": "The exoneration came after new evidence appeared."
       },
       "exampleSynonym": {
-        "word": "being cleared of blame",
-        "text": "Being cleared of blame came after new evidence appeared."
+        "word": "clearing someone of blame",
+        "text": "The inquiry focused on clearing someone of blame."
       },
       "situacion": "legal",
       "image": {
@@ -221500,8 +221500,8 @@
         "text": "The judge issued a warrant after his failure to appear."
       },
       "exampleSynonym": {
-        "word": "missed court hearing",
-        "text": "The judge issued a warrant after a missed court hearing."
+        "word": "nonappearance at a required proceeding",
+        "text": "Her nonappearance at a required proceeding delayed the hearing."
       },
       "situacion": "legal",
       "image": {
@@ -221551,11 +221551,11 @@
       ],
       "example": {
         "word": "failure to render assistance",
-        "text": "He was charged for failure to render assistance."
+        "text": "Failure to render assistance can be a criminal offense."
       },
       "exampleSynonym": {
-        "word": "not helping when legally required",
-        "text": "He was charged for not helping when legally required."
+        "word": "breach of a duty to provide assistance",
+        "text": "The court found a breach of a duty to provide assistance."
       },
       "situacion": "legal",
       "image": {
@@ -224356,8 +224356,8 @@
         "text": "The far-left group held a meeting."
       },
       "exampleSynonym": {
-        "word": "extreme left-wing",
-        "text": "The extreme left-wing group held a meeting."
+        "word": "radical left",
+        "text": "The radical left organized a rally downtown."
       },
       "situacion": "sociedad",
       "image": {
@@ -224410,8 +224410,8 @@
         "text": "The far-right group held a meeting."
       },
       "exampleSynonym": {
-        "word": "extreme right-wing",
-        "text": "The extreme right-wing group held a meeting."
+        "word": "radical right",
+        "text": "The radical right gained seats in the election."
       },
       "situacion": "sociedad",
       "image": {
@@ -226069,12 +226069,12 @@
         "plume"
       ],
       "example": {
-        "word": "feather",
-        "text": "A feather floated down from the nest."
+        "word": "a feather",
+        "text": "A feather drifted across the path."
       },
       "exampleSynonym": {
-        "word": "plume",
-        "text": "A plume floated down from the nest."
+        "word": "a plume",
+        "text": "A plume floated down from the bird's wing."
       },
       "situacion": "naturaleza",
       "image": {
@@ -233981,12 +233981,12 @@
         "like fish"
       ],
       "example": {
-        "word": "fishy",
-        "text": "The soup tasted fishy after it warmed."
+        "word": "a fishy explanation",
+        "text": "The inspector noticed a fishy explanation in the report."
       },
       "exampleSynonym": {
-        "word": "like fish",
-        "text": "The soup tasted like fish after it warmed."
+        "word": "a suspicious explanation",
+        "text": "The official gave a suspicious explanation for the missing funds."
       },
       "situacion": "comida",
       "image": {
@@ -264424,6 +264424,74 @@
       "example": {
         "word": "government bond loan",
         "text": "The government bond loan financed the city’s repairs."
+      }
+    }
+  },
+  {
+    "entry": "eviction-by-court-order",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "eviction by court order",
+        "text": "The landlord sought eviction by court order after repeated rent defaults."
+      }
+    }
+  },
+  {
+    "entry": "annulment-of-marriage",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "annulment of marriage",
+        "text": "The law allows annulment of marriage under certain conditions."
+      }
+    }
+  },
+  {
+    "entry": "risk-premium",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "additional expected return for risk",
+        "text": "Investors demanded an additional expected return for risk."
+      }
+    }
+  },
+  {
+    "entry": "land-readjustment",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "land readjustment",
+        "text": "The city announced land readjustment near the new station."
+      },
+      "exampleSynonym": {
+        "word": "land pooling and replotting",
+        "text": "Land pooling and replotting helped reorganize the crowded district."
+      }
+    }
+  },
+  {
+    "entry": "compensation-for-damages",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "compensation for loss or injury",
+        "text": "The claimant sought compensation for loss or injury."
+      }
+    }
+  },
+  {
+    "entry": "request-to-lift-immunity",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "request to lift immunity",
+        "text": "The committee filed a request to lift immunity before the vote."
+      },
+      "exampleSynonym": {
+        "word": "request for waiver of immunity",
+        "text": "The official submitted a request for waiver of immunity."
       }
     }
   }
