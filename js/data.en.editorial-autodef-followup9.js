@@ -534,3 +534,15 @@
 {const i=d.findIndex(q=>q.id==="avicultura");if(i<0)throw Error("Missing source entry avicultura");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym avicultura");d[i]["exampleSynonym"].word="cría de aves";d[i]["exampleSynonym"].text="La cría de aves requiere atención diaria.";}
 {const i=d.findIndex(q=>q.id==="bachear");if(i<0)throw Error("Missing source entry bachear");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym bachear");d[i]["exampleSynonym"].word="reparar baches";d[i]["exampleSynonym"].text="La cuadrilla salió a reparar baches en la carretera.";}
 })();
+
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+// B12 EN literal example rewrites
+{const i=d.findIndex(q=>q.id==="braise");if(i<0)throw Error("Missing source entry braise");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym braise");d[i]["exampleSynonym"].word="cook slowly in a little liquid";d[i]["exampleSynonym"].text="Braising means to cook slowly in a little liquid.";}
+{const i=d.findIndex(q=>q.id==="bougainvillea");if(i<0)throw Error("Missing source entry bougainvillea");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym bougainvillea");d[i]["exampleSynonym"].word="paper flower";d[i]["exampleSynonym"].text="The paper flower vine covered the garden wall.";}
+})();
+
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+// B12 ES checker-order overrides
+{const i=d.findIndex(q=>q.id==="audibilidad");if(i<0)throw Error("Missing source entry audibilidad");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym audibilidad");d[i]["exampleSynonym"].word="posibilidad de oírse";d[i]["exampleSynonym"].text="La posibilidad de oírse desde el fondo mejoró cuando subieron el volumen.";}
+{const i=d.findIndex(q=>q.id==="audible");if(i<0)throw Error("Missing source entry audible");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym audible");d[i]["exampleSynonym"].word="oíble";d[i]["exampleSynonym"].text="El pitido era oíble desde el otro extremo del pasillo.";}
+})();

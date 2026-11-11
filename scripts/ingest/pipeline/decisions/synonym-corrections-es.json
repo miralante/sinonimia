@@ -263784,5 +263784,29 @@
         "text": "La cuadrilla salió a reparar baches en la carretera."
       }
     }
+  },
+  {
+    "entry": "audibilidad",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "posibilidad de oírse",
+        "text": "La posibilidad de oírse desde el fondo mejoró cuando subieron el volumen."
+      },
+      "synonyms": [
+        "capacidad de ser oído",
+        "posibilidad de oírse"
+      ]
+    }
+  },
+  {
+    "entry": "audible",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "oíble",
+        "text": "El pitido era oíble desde el otro extremo del pasillo."
+      }
+    }
   }
 ]

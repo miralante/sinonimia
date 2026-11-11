@@ -128716,7 +128716,7 @@
       },
       "exampleSynonym": {
         "word": "paper flower",
-        "text": "A paper flower covered the garden wall."
+        "text": "The paper flower vine covered the garden wall."
       },
       "situacion": "nature"
     }
@@ -129400,7 +129400,7 @@
     "set": {
       "definition": "To cook food slowly in a little liquid, often after browning it.",
       "synonyms": [
-        "stew",
+        "cook slowly in a little liquid",
         "slow-cook"
       ],
       "example": {
@@ -129408,8 +129408,8 @@
         "text": "They braise the beef with broth."
       },
       "exampleSynonym": {
-        "word": "stew",
-        "text": "They stew the beef slowly."
+        "word": "cook slowly in a little liquid",
+        "text": "Braising means to cook slowly in a little liquid."
       },
       "situacion": "food"
     }
