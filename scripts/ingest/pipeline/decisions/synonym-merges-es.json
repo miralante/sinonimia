@@ -1314,5 +1314,9 @@
   {
     "canonical": "arrollar",
     "alias": "rollar"
+  },
+  {
+    "canonical": "sarpullido",
+    "alias": "salpullido"
   }
 ]

@@ -263058,5 +263058,94 @@
       },
       "situacion": "historia"
     }
+  },
+  {
+    "entry": "salpicadera",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salpicadera",
+      "image": {
+        "id": 2339,
+        "alt": "Un automóvil rojo visto de lado."
+      },
+      "definition": "Pieza de un vehículo que cubre la parte superior de una rueda.",
+      "synonyms": [
+        "guardabarros",
+        "guardafangos",
+        "tapabarro"
+      ],
+      "example": {
+        "word": "salpicadera",
+        "text": "La salpicadera del coche se abolló."
+      },
+      "exampleSynonym": {
+        "word": "guardabarros",
+        "text": "El guardabarros del coche se abolló."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "sarpullido",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sarpullido",
+      "image": {
+        "id": 5578,
+        "alt": "Manchas rosadas en un brazo que una persona se rasca."
+      },
+      "definition": "Erupción leve y pasajera en la piel. Suele formar granitos o ronchas.",
+      "synonyms": [
+        "salpullido",
+        "erupción en la piel"
+      ],
+      "example": {
+        "word": "sarpullido",
+        "text": "El sarpullido le causó picor en la piel."
+      },
+      "exampleSynonym": {
+        "word": "salpullido",
+        "text": "El salpullido le causó picor en la piel."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "arestil",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "sarpullido con picor",
+        "text": "El veterinario trató un sarpullido con picor en las patas del caballo."
+      }
+    }
+  },
+  {
+    "entry": "salsina",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salsina",
+      "image": {
+        "id": 17008,
+        "alt": "Una caja de salsa de tomate con tomates dibujados."
+      },
+      "definition": "Salsa de tomate cocinada que se vende en conserva.",
+      "synonyms": [
+        "salsa de tomate en conserva",
+        "tomate frito enlatado"
+      ],
+      "example": {
+        "word": "salsina",
+        "text": "En Honduras, venden salsina en conserva."
+      },
+      "exampleSynonym": {
+        "word": "salsa de tomate en conserva",
+        "text": "En Honduras, venden salsa de tomate en conserva."
+      },
+      "situacion": "comida"
+    }
   }
 ]

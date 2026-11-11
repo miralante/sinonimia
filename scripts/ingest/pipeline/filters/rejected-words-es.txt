@@ -32045,14 +32045,21 @@ salivación
 salmista
 salmuera
 saloma
+saloncillo
+salpa
 salpicadero
 salpicadora
+salpicadura
+salpicar
 salpicón
 salpicré
 salpimentar
 salpimienta
 salpingoclasia
 salpresamiento
+salpresar
+salpuga
+salpullir
 salsa
 salsa barbacoa
 salsa blanca
@@ -32066,11 +32073,25 @@ salsa portuguesa
 salsa ranch
 salsa rosa
 salsa tártara
+salsamentar
 salsamentaría
+salsamento
+salsear
+salsedumbre
+salsera
+salsereta
+salserilla
+salsero
+salseron
 salsifí
 salsifí blanco
 salsifí de España
 salsifí negro
+salso
+salsolaceo
+saltabanco
+saltabardales
+saltabarrancos
 saltación
 saltadura
 saltamontes

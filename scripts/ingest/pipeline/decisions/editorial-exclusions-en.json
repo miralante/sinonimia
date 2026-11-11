@@ -82731,5 +82731,60 @@
     "id": "great-sound",
     "word": "Great sound",
     "reason": "Corrupt gloss unrelated to a verifiable meaning of this phrase."
+  },
+  {
+    "id": "great-taste",
+    "word": "Great taste",
+    "reason": "Definición corrupta y sin sentido léxico verificable."
+  },
+  {
+    "id": "great-template",
+    "word": "Great template",
+    "reason": "Frase transparente y definición corrupta; no es una voz independiente."
+  },
+  {
+    "id": "great-grandfather-2",
+    "word": "great-grandfather",
+    "reason": "Duplicado de la ficha principal con una explicación defectuosa."
+  },
+  {
+    "id": "great-grandfather-3",
+    "word": "great-grandfather",
+    "reason": "Describe al padre de un great-grandparent, que corresponde a great-great-grandfather."
+  },
+  {
+    "id": "great-grandson-2",
+    "word": "great-grandson",
+    "reason": "Define incorrectamente a un great-great-grandson y duplica la ficha válida."
+  },
+  {
+    "id": "greater-antillean-nightjar",
+    "word": "Greater Antillean nightjar",
+    "reason": "Nombre de una especie de ave muy especializada; queda fuera del vocabulario general de la colección."
+  },
+  {
+    "id": "greater-than-regular-curette",
+    "word": "greater than regular curette",
+    "reason": "Frase médica mal formada y definición fuente ininteligible; no es una voz léxica verificada."
+  },
+  {
+    "id": "greatjaw",
+    "word": "Greatjaw",
+    "reason": "Compuesto transparente y sin una entrada lexicográfica inglesa fiable que confirme un sentido independiente."
+  },
+  {
+    "id": "greatsword-2",
+    "word": "Greatsword",
+    "reason": "Segunda ficha corrupta con una definición ajena al significado verificado de greatsword."
+  },
+  {
+    "id": "greco-latin",
+    "word": "Greco-Latin",
+    "reason": "Adjetivo compuesto transparente y definición corrupta; no aporta una palabra difícil independiente."
+  },
+  {
+    "id": "greco-roman",
+    "word": "Greco-Roman",
+    "reason": "Frase adjetiva transparente con una definición corrupta que no expresa un sentido verificable."
   }
 ]
