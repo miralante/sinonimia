@@ -83471,5 +83471,40 @@
     "id": "scrubber-2",
     "word": "Scrubber",
     "reason": "This sibling is the ordinary utensil for scrubbing or scouring. That easy meaning duplicates the base entry."
+  },
+  {
+    "id": "suprarealism",
+    "word": "suprarealism",
+    "reason": "The card maps this spelling to superrealism, but the established English entry is super-realism/superrealism; this variant lacks editorial support."
+  },
+  {
+    "id": "crawled",
+    "word": "crawled",
+    "reason": "The entry assigns a nonsensical coat-colour gloss to a common past-tense form of «crawl»."
+  },
+  {
+    "id": "dispatchers",
+    "word": "dispatchers",
+    "reason": "Regular plural of the common noun «dispatcher», not a separate difficult lemma."
+  },
+  {
+    "id": "tearable",
+    "word": "tearable",
+    "reason": "The current definition confuses «tear» (rip) with «tears» (crying); the correct sense is a rare, transparent formation meaning easy to tear."
+  },
+  {
+    "id": "syllable",
+    "word": "syllable",
+    "reason": "Basic, common vocabulary with a simple everyday definition; it does not meet the difficult-word criterion."
+  },
+  {
+    "id": "synhedrium",
+    "word": "synhedrium",
+    "reason": "Rare variant spelling for an ancient council, with very low current utility."
+  },
+  {
+    "id": "cholagogue",
+    "word": "cholagogue",
+    "reason": "Highly specialized pharmacology term for an agent affecting bile flow; low general use and value."
   }
 ]

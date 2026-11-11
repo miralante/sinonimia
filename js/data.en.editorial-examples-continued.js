@@ -435,4 +435,6 @@
   set("neurophysiology",{definition:"The study of how the brain, spinal cord, and nerves work.",synonyms:["the physiology of the nervous system"],example:{word:"neurophysiology",text:"She studies neurophysiology."},exampleSynonym:{word:"the physiology of the nervous system",text:"She studies the physiology of the nervous system."}});
   set("confluent-2",{definition:"A stream that joins another, usually of similar size.",synonyms:["joining stream"],example:{word:"confluent",text:"We followed the confluent to the main river."},exampleSynonym:{word:"joining stream",text:"We followed the joining stream to the main river."}});
   set("lift-3",{translation:{es:"round5096-solevantar-lift"}});
+  set("saxifrage",{definition:"A flowering plant, often small, that grows among rocks.",synonyms:["small rock-growing flower"],example:{word:"saxifrage",text:"The saxifrage grows among mountain rocks."},exampleSynonym:{word:"small rock-growing flower",text:"The small rock-growing flower grows among mountain rocks."}});
+  set("chronobiology",{definition:"The study of biological rhythms, such as daily sleep and wake cycles.",synonyms:["biological timing"],example:{word:"chronobiology",text:"Researchers study chronobiology to understand daily rhythms."},exampleSynonym:{word:"biological timing",text:"Researchers study biological timing to understand daily rhythms."}});
 })();

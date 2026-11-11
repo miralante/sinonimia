@@ -252,4 +252,7 @@
     {id:"round5096-anfictionia-assembly",word:"anfictionía",definition:"Reunión de las ciudades que forman esa alianza.",synonym:"asamblea de la alianza",marker:"anfictionía",example:"Los representantes asistieron a la anfictionía.",exampleSynonymText:"Los representantes asistieron a la asamblea de la alianza."}
   ]);
 }
+  set("giboso",{definition:"Que tiene joroba.",synonyms:["jorobado"],example:{word:"giboso",text:"El animal giboso avanzaba despacio."},exampleSynonym:{word:"jorobado",text:"El animal jorobado avanzaba despacio."}});
+  set("lumbrical",{definition:"Músculo de la mano que ayuda a flexionar y estirar los dedos.",synonyms:["músculo flexor-extensor de los dedos"],example:{word:"lumbrical",text:"El lumbrical ayuda a flexionar y estirar los dedos."},exampleSynonym:{word:"músculo flexor-extensor de los dedos",text:"El músculo flexor-extensor de los dedos ayuda a flexionar y estirar los dedos."}});
+  set("biocombustible",{definition:"Combustible obtenido de plantas o residuos orgánicos.",synonyms:["combustible de origen biológico"],example:{word:"biocombustible",text:"El autobús funciona con biocombustible."},exampleSynonym:{word:"combustible de origen biológico",text:"El autobús funciona con combustible de origen biológico."}});
 })();
