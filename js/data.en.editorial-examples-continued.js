@@ -350,3 +350,78 @@
     situacion:"conocimiento",translation:{es:"caustica"}
   });
 })();
+
+/* B15 continued: apply the remaining reviewed English rewrites. */
+(()=>{
+  const d=globalThis.DICCIONARIOS?.en;
+  if(!d)throw Error("missing en");
+  const set=(id,fields)=>{const entry=d.find(item=>item.id===id);if(!entry)throw Error(`Missing source entry ${id}`);Object.assign(entry,fields);};
+
+  set("tax-5",{
+    definition:"To put a heavy demand or burden on someone or something.",
+    synonyms:["burden"],
+    example:{word:"tax",text:"The extra duties taxed the small team."},
+    exampleSynonym:{word:"burden",text:"The extra duties burdened the small team."}
+  });
+  set("late-medieval-2",{
+    definition:"From the final centuries of the Middle Ages.",
+    synonyms:["from the late Middle Ages"],
+    example:{word:"late medieval",text:"Late medieval art used bright colors."},
+    exampleSynonym:{word:"from the late Middle Ages",text:"Art from the late Middle Ages used bright colors."}
+  });
+  set("shrinkage-2",{
+    definition:"A reduction in the size or amount of something.",
+    synonyms:["decrease"],
+    example:{word:"shrinkage",text:"The store tracked shrinkage in its stock."},
+    exampleSynonym:{word:"decrease",text:"The store tracked the decrease in its stock."}
+  });
+  set("invigorate-2",{
+    definition:"To give someone or something more energy or strength.",
+    synonyms:["energize"],
+    example:{word:"invigorate",text:"A short walk can invigorate you."},
+    exampleSynonym:{word:"energize",text:"A short walk can energize you."}
+  });
+  set("lunge-3",{
+    definition:"A sudden forward attack, often made with a weapon.",
+    synonyms:["thrust"],
+    example:{word:"lunge",text:"The guard made a lunge at the intruder."},
+    exampleSynonym:{word:"thrust",text:"The guard made a thrust at the intruder."}
+  });
+  set("civet-3",{
+    definition:"A strong-smelling substance from a civet, used in some perfumes.",
+    synonyms:["scent from a civet"],
+    example:{word:"civet",text:"Some perfumes contain civet."},
+    exampleSynonym:{word:"scent from a civet",text:"Some perfumes contain scent from a civet."}
+  });
+  set("operational-2",{
+    definition:"Working and ready to be used.",
+    synonyms:["working"],
+    example:{word:"operational",text:"The backup generator is operational."},
+    exampleSynonym:{word:"working",text:"The backup generator is working."}
+  });
+  set("co-defendant",{
+    definition:"One of two or more people accused in the same court case.",
+    synonyms:["another accused person in the case"],
+    example:{word:"the co-defendant",text:"The judge questioned the co-defendant."},
+    exampleSynonym:{word:"another accused person in the case",text:"The judge questioned another accused person in the case."}
+  });
+  set("gastrovascular",{
+    definition:"Relating to a body cavity that digests and moves food.",
+    synonyms:["cavity for digestion and food movement"],
+    example:{word:"gastrovascular cavity",text:"The animal has a gastrovascular cavity."},
+    exampleSynonym:{word:"cavity for digestion and food movement",text:"The animal has a cavity for digestion and food movement."}
+  });
+  set("anosognosia",{
+    definition:"Not realizing that you have an illness or disability.",
+    synonyms:["lack of awareness of an illness"],
+    example:{word:"Anosognosia",text:"Anosognosia can affect someone’s health decisions."},
+    exampleSynonym:{word:"lack of awareness of an illness",text:"Lack of awareness of an illness can affect a person’s health decisions."}
+  });
+  set("cordoba-2",{
+    word:"córdoba",
+    definition:"The unit of money used in Nicaragua.",
+    synonyms:["Nicaraguan currency"],
+    example:{word:"córdobas",text:"The price is listed in córdobas."},
+    exampleSynonym:{word:"Nicaraguan currency",text:"The price is listed in Nicaraguan currency."}
+  });
+})();

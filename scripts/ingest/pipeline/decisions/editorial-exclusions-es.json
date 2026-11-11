@@ -89182,5 +89182,185 @@
     "id": "zanquilargo",
     "word": "zanquilargo",
     "reason": "The DLE confirms the meaning and labels it colloquial. The headword is a transparent, low-utility description; its synonyms in the entry are also uncommon."
+  },
+  {
+    "id": "apajuilarse",
+    "word": "apajuilarse",
+    "reason": "Voz limitada a El Salvador y Honduras; utilidad muy baja fuera de esas variedades."
+  },
+  {
+    "id": "apostolical",
+    "word": "apostolical",
+    "reason": "Variante antigua de apostólico. La forma vigente es más clara y suficiente."
+  },
+  {
+    "id": "asaborir",
+    "word": "asaborir",
+    "reason": "El propio registro la marca como desusada y remite a saborear, voz cotidiana."
+  },
+  {
+    "id": "astigmometro",
+    "word": "astigmómetro",
+    "reason": "Instrumento oftalmológico muy especializado y de uso muy limitado."
+  },
+  {
+    "id": "bambanear",
+    "word": "bambanear",
+    "reason": "La glosa remite a bambonear, otra voz rara que no explica el sentido."
+  },
+  {
+    "id": "bobatel",
+    "word": "bobatel",
+    "reason": "Regionalismo coloquial de utilidad limitada; la glosa solo dice «hombre bobo»."
+  },
+  {
+    "id": "calabacear",
+    "word": "calabacear",
+    "reason": "El sentido de rechazo amoroso tiene uso histórico muy bajo; el DHLE documenta su escasa vigencia reciente."
+  },
+  {
+    "id": "camelotina",
+    "word": "camelotina",
+    "reason": "Nombre de un tejido especializado, definido mediante otro término textil poco conocido."
+  },
+  {
+    "id": "cantamisa",
+    "word": "cantamisa",
+    "reason": "Ceremonia religiosa muy específica y de utilidad reducida para el público general."
+  },
+  {
+    "id": "carosiera",
+    "word": "carosiera",
+    "reason": "Nombre botánico oscuro definido por referencia a carosiero; ambos términos tienen utilidad muy limitada."
+  },
+  {
+    "id": "celan",
+    "word": "celán",
+    "reason": "Nombre de una especie de arenque, demasiado específico y poco útil fuera de contextos de pesca o biología."
+  },
+  {
+    "id": "chalanear",
+    "word": "chalanear",
+    "reason": "El sentido comercial es raro y la segunda acepción solo se usa en ciertas regiones. La glosa depende además de chalán, otra voz difícil."
+  },
+  {
+    "id": "chupadura",
+    "word": "chupadura",
+    "reason": "La definición mezcla fragmentos inconexos («chupar», «chupaflor», «cimentado») y no explica una acepción válida."
+  },
+  {
+    "id": "comprable",
+    "word": "comprable",
+    "reason": "Formación transparente de comprar («que puede comprarse»); no aporta una palabra difícil distinta."
+  },
+  {
+    "id": "contravidriera",
+    "word": "contravidriera",
+    "reason": "Término poco usado para una segunda hoja de vidrio, con escasa utilidad en textos actuales."
+  },
+  {
+    "id": "cubertura",
+    "word": "cubertura",
+    "reason": "Variante anticuada de cubierta; el sentido se expresa con una palabra cotidiana vigente."
+  },
+  {
+    "id": "cuernezuelo",
+    "word": "cuernezuelo",
+    "reason": "Instrumento veterinario muy especializado, sin utilidad suficiente para el público general."
+  },
+  {
+    "id": "desbornizar",
+    "word": "desbornizar",
+    "reason": "Término forestal muy especializado para retirar el corcho joven de un alcornoque."
+  },
+  {
+    "id": "desempolvoradura",
+    "word": "desempolvoradura",
+    "reason": "Nombre de acción derivado de desempolvorar; el verbo cotidiano comunica la misma idea."
+  },
+  {
+    "id": "embostar",
+    "word": "embostar",
+    "reason": "La definición no coincide con los usos documentados: ensuciar con estiércol o revocar paredes. El sentido de fertilizar una tierra no está respaldado."
+  },
+  {
+    "id": "gabarrero",
+    "word": "gabarrero",
+    "reason": "Oficio muy especializado relacionado con el transporte en gabarra; tiene poca utilidad general."
+  },
+  {
+    "id": "respahilar",
+    "word": "respahilar",
+    "reason": "Uso coloquial muy raro, limitado al gerundio y explicado mediante otra forma poco conocida."
+  },
+  {
+    "id": "sanchina",
+    "word": "sanchina",
+    "reason": "Regionalismo de Salamanca para una garrapata; la forma general «garrapata» ya expresa el concepto."
+  },
+  {
+    "id": "sompantle",
+    "word": "sompantle",
+    "reason": "Variante de zompantli. La ficha del lema principal ya cubre el monumento prehispánico."
+  },
+  {
+    "id": "suelazo",
+    "word": "suelazo",
+    "reason": "Voz limitada a Chile para un golpe sufrido al caer; «caída» es más clara y general."
+  },
+  {
+    "id": "tirajo",
+    "word": "tirajo",
+    "reason": "Voz despectiva y poco usada para una tira pequeña; una explicación sencilla no compensa su escasa utilidad."
+  },
+  {
+    "id": "voceras",
+    "word": "voceras",
+    "reason": "La ficha remite a boceras, voz que ya tiene una entrada. No aporta un significado independiente."
+  },
+  {
+    "id": "zapita",
+    "word": "zapita",
+    "reason": "Regionalismo rural de Cantabria para una vasija pequeña; el objeto es poco frecuente y la forma local aporta poca utilidad general."
+  },
+  {
+    "id": "zopilotada",
+    "word": "zopilotada",
+    "reason": "Regionalismo de El Salvador y Honduras para un grupo de zopilotes; es demasiado local y de bajo uso."
+  },
+  {
+    "id": "bagauda",
+    "word": "bagauda",
+    "reason": "Término histórico para una banda de rebeldes de la Antigüedad; su uso es muy restringido y especializado."
+  },
+  {
+    "id": "barrear",
+    "word": "barrear",
+    "reason": "La acepción propuesta equivale a barrer, un verbo cotidiano y más extendido."
+  },
+  {
+    "id": "biajaiba",
+    "word": "biajaiba",
+    "reason": "La definición del registro no coincide con el pez marino que documenta ASALE. Es un nombre regional y especializado de poca utilidad general."
+  },
+  {
+    "id": "burreno",
+    "word": "burreño",
+    "reason": "Gentilicio local de una población concreta; no aporta vocabulario de uso general."
+  },
+  {
+    "id": "burrillo",
+    "word": "burrillo",
+    "reason": "Diminutivo transparente de burro, con un significado cotidiano y fácil de deducir."
+  },
+  {
+    "id": "canilero",
+    "word": "cañilero",
+    "reason": "Nombre raro de un vendedor de cañas de pescar, con baja utilidad fuera de ese oficio."
+  },
+  {
+    "id": "casmodia",
+    "word": "casmodia",
+    "reason": "La ficha propone tristeza, pero las fuentes consultadas describen un término médico antiguo relacionado con bostezos. La palabra tiene poco uso actual."
   }
 ]

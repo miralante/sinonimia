@@ -83186,5 +83186,155 @@
     "id": "legible-2",
     "word": "legible",
     "reason": "Collins defines legible as clear enough to read. The candidate meaning confuses legible with a form related to legislate; remove this false sense while keeping the valid legible entry."
+  },
+  {
+    "id": "creperie",
+    "word": "Creperie",
+    "reason": "Nombre transparente de un establecimiento de comida; su significado se entiende con vocabulario corriente."
+  },
+  {
+    "id": "screamer-2",
+    "word": "Screamer",
+    "reason": "El sentido equivale a «grito» o «ruido fuerte» y no justifica una ficha difícil independiente."
+  },
+  {
+    "id": "hotelier-2",
+    "word": "hotelier",
+    "reason": "La definición adjetival no corresponde al lema hotelier, que nombra a quien gestiona un hotel."
+  },
+  {
+    "id": "section-3",
+    "word": "Section",
+    "reason": "Uso verbal de section, equivalente a dividir en partes; el sentido es común y transparente."
+  },
+  {
+    "id": "senate-2",
+    "word": "Senate",
+    "reason": "«Dignity of senator» es un sentido raro y de escasa utilidad; la glosa actual no aclara su uso."
+  },
+  {
+    "id": "captain-2",
+    "word": "Captain",
+    "reason": "La glosa habla de una especie de pez llamada skipper y no define captain. El enlace actual a capitaneja confirma una contaminación de sentidos."
+  },
+  {
+    "id": "chill-8",
+    "word": "Chill",
+    "reason": "El registro lo marca como variante anticuada de cold; ambas palabras son conocidas y la acepción es de baja utilidad."
+  },
+  {
+    "id": "soften-5",
+    "word": "Soften",
+    "reason": "Soften es una palabra común; este registro repite el lema y contiene una glosa mal formada."
+  },
+  {
+    "id": "compatibility-2",
+    "word": "Compatibility",
+    "reason": "La definición es verbal («make ... compatible») y no corresponde al sustantivo compatibility."
+  },
+  {
+    "id": "lunch-6",
+    "word": "Lunch",
+    "reason": "La glosa repite una oración incompleta y no define una acepción de lunch."
+  },
+  {
+    "id": "blade-4",
+    "word": "Blade",
+    "reason": "Blade es una palabra común; la acepción de hoja pequeña para cortar papel es directa y no difícil."
+  },
+  {
+    "id": "mannequin-2",
+    "word": "mannequin",
+    "reason": "La definición describe una herramienta de herrería, no un mannequin (figura humana para mostrar ropa)."
+  },
+  {
+    "id": "carelessness-5",
+    "word": "Carelessness",
+    "reason": "La glosa describe un lapse, no carelessness; la palabra carelessness ya tiene un sentido común y claro."
+  },
+  {
+    "id": "manager-3",
+    "word": "Manager",
+    "reason": "La definición habla de dirigir con poder o virtud y no corresponde a una acepción clara de manager."
+  },
+  {
+    "id": "murmur-4",
+    "word": "murmur",
+    "reason": "Murmur is common, and this variant-of-murmuring gloss does not establish a distinct useful sense."
+  },
+  {
+    "id": "insight-2",
+    "word": "Insight",
+    "reason": "This old-fashioned visual sense is not useful in current English; retain the common understanding or awareness sense under insight."
+  },
+  {
+    "id": "landowner-2",
+    "word": "Landowner",
+    "reason": "This card repeats the ordinary landowner meaning already represented by the base card. Keep one card and broaden its definition to a person who owns land."
+  },
+  {
+    "id": "insurer-2",
+    "word": "Insurer",
+    "reason": "This repeats the base insurer meaning. The canonical card should cover a person or company that provides insurance."
+  },
+  {
+    "id": "conductive-2",
+    "word": "Conductive",
+    "reason": "“Related to conduit” is not a valid definition of conductive. Keep the separate, correctly defined electrical-conduction sense."
+  },
+  {
+    "id": "clothesline-4",
+    "word": "clothesline",
+    "reason": "The entry is an incoherent etymological fragment (“clothesline derives from tend”), not a usable meaning."
+  },
+  {
+    "id": "loop-2",
+    "word": "Loop",
+    "reason": "The definition “taba drift loop” is corrupted and does not explain a meaning of loop."
+  },
+  {
+    "id": "migrant-2",
+    "word": "Migrant",
+    "reason": "This repeats the base migrant meaning: a person who moves to another region or country. Keep one clear card."
+  },
+  {
+    "id": "co-defendant-2",
+    "word": "Co-defendant",
+    "reason": "The valid joint-defendant sense should be kept on the canonical base card, not duplicated under a suffixed ID."
+  },
+  {
+    "id": "conversational-2",
+    "word": "Conversational",
+    "reason": "La definición repite el lema sin explicar un significado; conversational es además una palabra relativamente transparente."
+  },
+  {
+    "id": "stubborn-9",
+    "word": "Stubborn",
+    "reason": "La ficha presenta stubborn como sustantivo y repite el sentido común de la palabra. Debe mantenerse una sola ficha clara para stubborn."
+  },
+  {
+    "id": "clump",
+    "word": "clump",
+    "reason": "The definition fragment «and Ast.» contains no usable meaning for clump."
+  },
+  {
+    "id": "contubernal",
+    "word": "Contubernal",
+    "reason": "Archaic Latin-derived military term for a Roman barracks companion; too specialized for current everyday use."
+  },
+  {
+    "id": "separable",
+    "word": "Separable",
+    "reason": "Common and transparent adjective meaning that something can be separated; a dictionary card adds little value."
+  },
+  {
+    "id": "closed-8",
+    "word": "Closed",
+    "reason": "This definition of a wedding-night noise does not correspond to the common adjective closed; the record appears mismatched."
+  },
+  {
+    "id": "rich-in-medicinal-minerals",
+    "word": "rich in medicinal minerals",
+    "reason": "The long phrase makes an unsupported health claim and is not a useful standalone difficult word."
   }
 ]

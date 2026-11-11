@@ -142,8 +142,8 @@
   set("anosognosia",{
     definition:"No darse cuenta de que se tiene una enfermedad o discapacidad.",
     synonyms:["falta de conciencia de la enfermedad"],
-    example:{word:"anosognosia",text:"La anosognosia ocultó su enfermedad."},
-    exampleSynonym:{word:"falta de conciencia de la enfermedad",text:"La falta de conciencia de la enfermedad ocultó su enfermedad."}
+    example:{word:"anosognosia",text:"La anosognosia puede impedir que alguien reconozca su enfermedad."},
+    exampleSynonym:{word:"falta de conciencia de la enfermedad",text:"La falta de conciencia de la enfermedad puede impedir que alguien reconozca su enfermedad."}
   });
   set("serigrafia",{
     definition:"Técnica para imprimir dibujos con tinta a través de una malla.",
@@ -198,5 +198,38 @@
     synonyms:["no haber tenido relaciones sexuales"],
     example:{word:"virginidad",text:"Hablar de virginidad puede resultar incómodo para algunas personas."},
     exampleSynonym:{word:"no haber tenido relaciones sexuales",text:"Hablar de no haber tenido relaciones sexuales puede resultar incómodo para algunas personas."}
+  });
+})();
+
+/* B15 continued: apply the remaining reviewed Spanish rewrites. */
+(()=>{
+  const d=globalThis.DICCIONARIOS?.es;
+  if(!d)throw Error("missing es");
+  const set=(id,fields)=>{const entry=d.find(item=>item.id===id);if(!entry)throw Error(`Missing source entry ${id}`);Object.assign(entry,fields);};
+
+  set("repudiable",{
+    definition:"Que se puede rechazar o no aceptar.",
+    synonyms:["que se puede rechazar"],
+    example:{word:"repudiable",text:"La propuesta es repudiable por su falta de garantías."},
+    exampleSynonym:{word:"que se puede rechazar",text:"La propuesta se puede rechazar por su falta de garantías."}
+  });
+  set("subalcaide",{
+    definition:"Persona que ayuda al director de una cárcel o lo sustituye.",
+    synonyms:["subdirector de la cárcel"],
+    example:{word:"subalcaide",text:"El subalcaide recibió a la familia del preso."},
+    exampleSynonym:{word:"subdirector de la cárcel",text:"El subdirector de la cárcel recibió a la familia del preso."}
+  });
+  set("trapezoedro",{
+    definition:"Cuerpo geométrico con caras de cuatro lados, en forma de cometa.",
+    synonyms:["sólido con caras en forma de cometa"],
+    example:{word:"trapezoedro",text:"El museo exhibía un trapezoedro de papel."},
+    exampleSynonym:{word:"sólido con caras en forma de cometa",text:"El museo exhibía un sólido con caras en forma de cometa."}
+  });
+  set("anfibol",{
+    word:"Anfíbol",
+    definition:"Grupo de minerales, casi siempre verdes o negros. Aparecen en muchas rocas.",
+    synonyms:["grupo de minerales de color oscuro"],
+    example:{word:"anfíbol",text:"El anfíbol aparece en algunas rocas volcánicas."},
+    exampleSynonym:{word:"grupo de minerales de color oscuro",text:"El grupo de minerales de color oscuro aparece en algunas rocas volcánicas."}
   });
 })();
