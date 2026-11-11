@@ -1506,7 +1506,7 @@ window.SINONIMIA_DICTIONARY_SHARDS = {
     { file: "js/data.es.editorial-examples-continued.js", src: "js/data.es.editorial-examples-continued.js?v=552b1d2e84" },
     { file: "js/data.es.editorial-translations-followup.js", src: "js/data.es.editorial-translations-followup.js?v=3aa9a2911c" },
     { file: "js/data.es.editorial-categories-followup.js", src: "js/data.es.editorial-categories-followup.js?v=f1b71f2830" },
-    { file: "js/data.es.editorial-categories-followup2.js", src: "js/data.es.editorial-categories-followup2.js?v=a3f8f4140a" },
+    { file: "js/data.es.editorial-categories-followup2.js", src: "js/data.es.editorial-categories-followup2.js?v=0587b1402c" },
   ],
   en: [
     { file: "js/data.en.js", src: "js/data.en.js?v=285e1c18b5" },
@@ -3008,6 +3008,6 @@ window.SINONIMIA_DICTIONARY_SHARDS = {
     { file: "js/data.en.editorial-autodef-followup6.js", src: "js/data.en.editorial-autodef-followup6.js?v=9c9ddcca50" },
     { file: "js/data.en.editorial-autodef-followup7.js", src: "js/data.en.editorial-autodef-followup7.js?v=a02f5cf428" },
     { file: "js/data.en.editorial-autodef-followup8.js", src: "js/data.en.editorial-autodef-followup8.js?v=ab15bbd650" },
-    { file: "js/data.en.editorial-autodef-followup9.js", src: "js/data.en.editorial-autodef-followup9.js?v=332e9c05c1" },
+    { file: "js/data.en.editorial-autodef-followup9.js", src: "js/data.en.editorial-autodef-followup9.js?v=8d5c8c11f6" },
   ],
 };

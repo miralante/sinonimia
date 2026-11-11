@@ -811,8 +811,8 @@
         "text": "The system stores a hash for every file."
       },
       "exampleSynonym": {
-        "word": "hash value",
-        "text": "The system stores a hash value for every file."
+        "word": "meat hash",
+        "text": "The diner served meat hash with fried eggs."
       }
     }
   },
@@ -1297,8 +1297,8 @@
         "text": "The child leaned against the headboard."
       },
       "exampleSynonym": {
-        "word": "the bed panel",
-        "text": "The child leaned against the bed panel."
+        "word": "bed panel",
+        "text": "The bed panel was damaged during the move."
       }
     }
   },
@@ -9737,7 +9737,7 @@
       },
       "exampleSynonym": {
         "word": "person who hoards",
-        "text": "A person who hoards may keep things that are no longer useful."
+        "text": "The landlord complained about a person who hoards newspapers in every room."
       },
       "situacion": "salud"
     }
@@ -13011,8 +13011,8 @@
         "text": "The host welcomed everyone at the door."
       },
       "exampleSynonym": {
-        "word": "welcomer",
-        "text": "The welcomer greeted everyone at the door."
+        "word": "presenter",
+        "text": "The presenter welcomed each guest to the show."
       },
       "situacion": "vida-diaria"
     }
@@ -36025,8 +36025,8 @@
         "text": "Knead the dough until it feels smooth."
       },
       "exampleSynonym": {
-        "word": "work the dough",
-        "text": "Work the dough until it feels smooth."
+        "word": "work dough",
+        "text": "The baker had to work dough until it became smooth."
       }
     }
   },
@@ -95414,7 +95414,7 @@
       },
       "exampleSynonym": {
         "word": "surprise attack",
-        "text": "The soldiers planned a surprise attack near the bridge."
+        "text": "The patrol survived a surprise attack at dawn."
       }
     }
   },
@@ -96293,7 +96293,7 @@
     "set": {
       "definition": "To surgically remove a limb or other body part.",
       "synonyms": [
-        "remove",
+        "surgically remove",
         "cut off"
       ],
       "example": {
@@ -96301,8 +96301,8 @@
         "text": "Doctors had to amputate his leg below the knee."
       },
       "exampleSynonym": {
-        "word": "remove",
-        "text": "Doctors had to remove his leg below the knee."
+        "word": "surgically remove",
+        "text": "Doctors may surgically remove part of his foot."
       }
     }
   },
@@ -96821,8 +96821,8 @@
         "text": "The patient had an anaphylactic reaction to the food."
       },
       "exampleSynonym": {
-        "word": "allergic",
-        "text": "The patient had a severe allergic reaction to the food."
+        "word": "anaphylaxis-related",
+        "text": "The patient developed anaphylaxis-related symptoms after the injection."
       }
     }
   },
@@ -97974,7 +97974,7 @@
       },
       "exampleSynonym": {
         "word": "Japanese animation",
-        "text": "She enjoys watching Japanese animation after school."
+        "text": "Japanese animation has fans around the world."
       }
     }
   },
@@ -98124,7 +98124,7 @@
     "set": {
       "definition": "To destroy something completely, leaving nothing.",
       "synonyms": [
-        "destroy completely",
+        "completely destroy",
         "wipe out",
         "eradicate"
       ],
@@ -98133,8 +98133,8 @@
         "text": "The explosion could annihilate the small building."
       },
       "exampleSynonym": {
-        "word": "destroy the small building",
-        "text": "The explosion could destroy the small building completely."
+        "word": "completely destroy",
+        "text": "The blast could completely destroy the old bridge."
       }
     }
   },
@@ -98375,16 +98375,15 @@
       "definition": "The state of being unknown or not identified by name.",
       "synonyms": [
         "privacy",
-        "namelessness",
-        "concealment"
+        "concealment of identity"
       ],
       "example": {
         "word": "anonymity",
         "text": "The witness was promised anonymity."
       },
       "exampleSynonym": {
-        "word": "privacy",
-        "text": "The witness was promised privacy."
+        "word": "concealment of identity",
+        "text": "The witness chose concealment of identity to avoid retaliation."
       }
     }
   },
@@ -101039,7 +101038,7 @@
       },
       "exampleSynonym": {
         "word": "unsociable",
-        "text": "He felt unsociable and stayed home."
+        "text": "He seemed unsociable at the noisy gathering."
       }
     }
   },
@@ -215228,8 +215227,8 @@
         "text": "We exhaust our food supply before winter."
       },
       "exampleSynonym": {
-        "word": "use up",
-        "text": "We use up our food supply before winter."
+        "word": "tire out",
+        "text": "The long climb can tire out even experienced hikers."
       },
       "situacion": "finanzas",
       "image": {
@@ -249097,15 +249096,16 @@
       "word": "Formalize",
       "definition": "Make a plan, agreement, or system official.",
       "synonyms": [
-        "ratify"
+        "ratify",
+        "make official"
       ],
       "example": {
         "word": "formalize",
         "text": "They formalized the partnership in writing."
       },
       "exampleSynonym": {
-        "word": "ratify",
-        "text": "They ratify the partnership agreement in writing."
+        "word": "make official",
+        "text": "The agreement will make official a new partnership between the two firms."
       },
       "situacion": "tramites",
       "image": {
@@ -264570,6 +264570,72 @@
       "exampleSynonym": {
         "word": "make palatal",
         "text": "Linguists use “make palatal” to describe a sound change."
+      }
+    }
+  },
+  {
+    "entry": "outrage",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "deeply offend",
+        "text": "Her insult could deeply offend even the most patient listener."
+      },
+      "synonyms": [
+        "deeply offend"
+      ]
+    }
+  },
+  {
+    "entry": "rinse",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "wash briefly",
+        "text": "Wash briefly, then rinse the vegetables thoroughly."
+      }
+    }
+  },
+  {
+    "entry": "adore",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "deeply love",
+        "text": "They deeply love one another and support each other through difficult times."
+      },
+      "synonyms": [
+        "deeply love"
+      ]
+    }
+  },
+  {
+    "entry": "octothorpe",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "hash sign",
+        "text": "Press the hash sign to enter the next command."
+      }
+    }
+  },
+  {
+    "entry": "coffee-plantation",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "coffee farm",
+        "text": "The coffee farm supplies beans to local roasters."
+      }
+    }
+  },
+  {
+    "entry": "pathogenesis",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "disease development",
+        "text": "Disease development depends on several host factors."
       }
     }
   }

@@ -1116,7 +1116,7 @@
       ],
       "example": {
         "word": "desplazamiento óseo",
-        "text": "La radiografía mostró un desplazamiento óseo."
+        "text": "El desplazamiento óseo requirió una intervención quirúrgica."
       },
       "exampleSynonym": {
         "word": "hueso fuera de sitio",
@@ -47143,8 +47143,8 @@
         "text": "La tienda denunció el hurto de varios teléfonos."
       },
       "exampleSynonym": {
-        "word": "robo",
-        "text": "La tienda denunció el robo de varios teléfonos."
+        "word": "sustracción de bienes",
+        "text": "La sustracción de bienes ocurrió durante el horario de visita."
       },
       "situacion": "legal",
       "image": {
@@ -86623,7 +86623,7 @@
       ],
       "example": {
         "word": "lista negra",
-        "text": "La empresa puso al proveedor en la lista negra."
+        "text": "El sistema añadió su dirección a la lista negra."
       },
       "exampleSynonym": {
         "word": "lista de exclusión",
@@ -93318,11 +93318,11 @@
       ],
       "example": {
         "word": "maltratador",
-        "text": "El maltratador recibió una condena."
+        "text": "El maltratador fue condenado por violencia doméstica."
       },
       "exampleSynonym": {
         "word": "agresor",
-        "text": "El agresor recibió una condena."
+        "text": "La víctima denunció a su agresor."
       }
     }
   },
@@ -137467,8 +137467,8 @@
         "orientación temporal y espacial"
       ],
       "example": {
-        "word": "orientacion-temporo-espacial",
-        "text": "La lesión afectó su orientación témporo-espacial."
+        "word": "orientación témporo-espacial",
+        "text": "La orientación témporo-espacial ayuda a ubicarse en el entorno."
       },
       "exampleSynonym": {
         "word": "ubicación en tiempo y espacio",
@@ -192145,7 +192145,7 @@
       },
       "example": {
         "word": "premeditación",
-        "text": "La premeditación del acto quedó demostrada."
+        "text": "La premeditación agravó la condena del acusado."
       },
       "exampleSynonym": {
         "word": "planificación deliberada",
@@ -197127,7 +197127,7 @@
       },
       "example": {
         "word": "prevaricación",
-        "text": "La prevaricación exige una decisión injusta hecha a sabiendas."
+        "text": "La prevaricación del funcionario fue investigada por la fiscalía."
       },
       "exampleSynonym": {
         "word": "delito de autoridad",
@@ -228410,11 +228410,11 @@
       ],
       "example": {
         "word": "reacción adversa a un medicamento",
-        "text": "La reacción adversa a un medicamento apareció tras la primera dosis."
+        "text": "La reacción adversa a un medicamento obligó a suspender el tratamiento."
       },
       "exampleSynonym": {
-        "word": "efecto no deseado de un medicamento",
-        "text": "El efecto no deseado de un medicamento apareció tras la primera dosis."
+        "word": "efecto adverso de un medicamento",
+        "text": "El efecto adverso de un medicamento llevó al paciente a urgencias."
       },
       "situacion": "salud",
       "image": {
@@ -263506,6 +263506,88 @@
       "exampleSynonym": {
         "word": "lesión de un derecho",
         "text": "La resolución calificó el caso como lesión de un derecho fundamental."
+      }
+    }
+  },
+  {
+    "entry": "contraprestacion",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "prestación a cambio",
+        "text": "La prestación a cambio del servicio quedó fijada en el contrato."
+      }
+    }
+  },
+  {
+    "entry": "constitucion-empresa",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "constitución de una empresa",
+        "text": "La constitución de una empresa requiere varios trámites."
+      },
+      "exampleSynonym": {
+        "word": "constitución de una sociedad",
+        "text": "La constitución de una sociedad exige registrar sus estatutos."
+      }
+    }
+  },
+  {
+    "entry": "division-bienes-comunes",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "división de bienes comunes",
+        "text": "La división de bienes comunes se acordó tras el divorcio."
+      },
+      "exampleSynonym": {
+        "word": "partición de bienes comunes",
+        "text": "La partición de bienes comunes puso fin al litigio."
+      }
+    }
+  },
+  {
+    "entry": "administracion-judicial",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "gestión judicial de bienes",
+        "text": "La gestión judicial de bienes protegió los activos durante el proceso."
+      }
+    }
+  },
+  {
+    "entry": "veto",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "bloqueo de la propuesta",
+        "text": "El bloqueo de la propuesta retrasó la votación."
+      }
+    }
+  },
+  {
+    "entry": "esterilizacion",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "esterilización de material",
+        "text": "La esterilización de material es obligatoria antes de la cirugía."
+      }
+    }
+  },
+  {
+    "entry": "condonacion-deuda",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "condonación de deuda",
+        "text": "La condonación de deuda permitió a la familia empezar de nuevo."
+      },
+      "exampleSynonym": {
+        "word": "remisión de deuda",
+        "text": "La remisión de deuda alivió la carga de la pequeña empresa."
       }
     }
   }
