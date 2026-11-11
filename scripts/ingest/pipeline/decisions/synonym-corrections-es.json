@@ -25458,7 +25458,7 @@
         "text": "El juez ordenó encarcelar al acusado."
       },
       "exampleSynonym": {
-        "word": "meter en la cárcel",
+        "word": "encerrar en prisión",
         "text": "El juez decidió encerrar en prisión al ladrón."
       }
     }
@@ -25826,8 +25826,8 @@
         "text": "La fiscalía decidió encausar al funcionario."
       },
       "exampleSynonym": {
-        "word": "abrir un proceso judicial contra el empresario",
-        "text": "El fiscal decidió someter a una causa penal al sospechoso."
+        "word": "someter a una causa penal",
+        "text": "La fiscalía decidió someter a una causa penal a un funcionario investigado."
       }
     }
   },
@@ -27708,8 +27708,8 @@
         "text": "Decidieron no endeudarse para comprar el coche."
       },
       "exampleSynonym": {
-        "word": "pedir dinero prestado",
-        "text": "Tuvieron que contraer deudas para pagar la reparación de la casa."
+        "word": "contraer deudas",
+        "text": "No conviene contraer deudas para comprar artículos innecesarios."
       }
     }
   },
@@ -45206,8 +45206,8 @@
         "text": "El gravamen limitaba la venta del terreno."
       },
       "exampleSynonym": {
-        "word": "carga",
-        "text": "El banco registró una carga que recae sobre un bien inmueble."
+        "word": "carga que recae sobre un bien",
+        "text": "La hipoteca es una carga que recae sobre un bien inmueble."
       }
     }
   },
@@ -45222,10 +45222,10 @@
       ],
       "example": {
         "word": "habilitar",
-        "text": "El técnico va a habilitar la sala."
+        "text": "El ayuntamiento decidió habilitar el antiguo mercado como centro cultural."
       },
       "exampleSynonym": {
-        "word": "acondicionar",
+        "word": "poner en condiciones de funcionar",
         "text": "El técnico va a poner en condiciones de funcionar la sala."
       },
       "situacion": "vivienda"
@@ -45288,8 +45288,8 @@
         "text": "La caída le causó un hematoma en la pierna."
       },
       "exampleSynonym": {
-        "word": "acumulación de sangre",
-        "text": "La acumulación de sangre en un tejido causó un moretón visible."
+        "word": "acumulación de sangre en un tejido",
+        "text": "Un hematoma es una acumulación de sangre en un tejido."
       }
     }
   },
@@ -45418,8 +45418,8 @@
         "text": "El negocio decidió hipotecar un inmueble."
       },
       "exampleSynonym": {
-        "word": "dar un inmueble en garantía",
-        "text": "El banco puede gravar un inmueble con una hipoteca para prestar dinero."
+        "word": "gravar un inmueble con una hipoteca",
+        "text": "El banco puede gravar un inmueble con una hipoteca."
       }
     }
   },
@@ -46157,8 +46157,8 @@
         "text": "Decidieron hospitalizar al paciente esa misma noche."
       },
       "exampleSynonym": {
-        "word": "internar",
-        "text": "El médico decidió ingresar a una persona en el hospital."
+        "word": "ingresar a una persona en el hospital",
+        "text": "El médico decidió ingresar a una persona en el hospital para tratarla."
       },
       "situacion": "salud"
     }
@@ -46707,7 +46707,7 @@
         "text": "El menor quedó huérfano al morir su madre."
       },
       "exampleSynonym": {
-        "word": "sin padres",
+        "word": "persona que ha perdido a uno de sus progenitores",
         "text": "Una persona que ha perdido a uno de sus progenitores necesita apoyo."
       },
       "situacion": "familia"
@@ -51511,11 +51511,11 @@
       ],
       "example": {
         "word": "imputar",
-        "text": "El fiscal decidió imputar al acusado por el robo."
+        "text": "La fiscalía decidió imputar al funcionario por fraude."
       },
       "exampleSynonym": {
-        "word": "acusar oficialmente de un delito",
-        "text": "El fiscal decidió atribuir responsabilidad penal al acusado por el robo."
+        "word": "atribuir responsabilidad penal",
+        "text": "El informe puede atribuir responsabilidad penal a los directivos."
       }
     }
   },
@@ -55097,11 +55097,11 @@
       ],
       "example": {
         "word": "indemnizar",
-        "text": "La empresa debió indemnizar al cliente por el daño."
+        "text": "La aseguradora deberá indemnizar a las personas afectadas por el accidente."
       },
       "exampleSynonym": {
-        "word": "pagar por un daño causado",
-        "text": "La empresa tuvo que compensar económicamente un perjuicio causado al cliente."
+        "word": "compensar económicamente un perjuicio",
+        "text": "La empresa deberá compensar económicamente un perjuicio causado por su negligencia."
       }
     }
   },
@@ -260643,8 +260643,8 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "quedarse viudo o viuda",
-        "text": "Alguien puede quedar viudo o viuda tras perder a su pareja."
+        "word": "quedar viudo o viuda",
+        "text": "Cualquiera puede quedar viudo o viuda al perder a su pareja."
       }
     }
   },
@@ -260653,8 +260653,8 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "la curvatura de la columna",
-        "text": "La curvatura lateral de la columna causaba dolor al caminar."
+        "word": "curvatura lateral de la columna",
+        "text": "La radiografía mostró una curvatura lateral de la columna."
       }
     }
   },
@@ -260664,7 +260664,7 @@
     "set": {
       "exampleSynonym": {
         "word": "poner esposas",
-        "text": "La policía tuvo que poner esposas al detenido."
+        "text": "Los agentes decidieron poner esposas al sospechoso."
       }
     }
   },
@@ -260673,8 +260673,8 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "adquirir legalmente",
-        "text": "El gobierno decidió adquirir forzosamente un bien privado para construir la carretera."
+        "word": "adquirir forzosamente un bien privado",
+        "text": "El Estado puede adquirir forzosamente un bien privado por utilidad pública."
       }
     }
   },
@@ -260683,8 +260683,8 @@
     "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "desenterrar",
-        "text": "La fiscalía pidió desenterrar un cadáver para realizar otra prueba."
+        "word": "desenterrar un cadáver",
+        "text": "La autoridad ordenó desenterrar un cadáver para identificarlo."
       }
     }
   },
@@ -260694,7 +260694,7 @@
     "set": {
       "example": {
         "word": "ictérico",
-        "text": "El paciente ictérico tenía la piel y los ojos amarillos."
+        "text": "El paciente ictérico acudió al hospital para una evaluación."
       }
     }
   },

@@ -85483,8 +85483,8 @@
         "text": "The accession of the new ruler took place in spring."
       },
       "exampleSynonym": {
-        "word": "taking office",
-        "text": "The new ruler took office in spring."
+        "word": "formal acceptance of a treaty",
+        "text": "The formal acceptance of a treaty followed parliamentary approval."
       }
     }
   },
@@ -90258,7 +90258,7 @@
       ],
       "example": {
         "word": "affirmative action",
-        "text": "The company reviewed its affirmative action policy."
+        "text": "Affirmative action increased access to university admissions."
       },
       "exampleSynonym": {
         "word": "equal-opportunity policy",
@@ -103228,7 +103228,7 @@
       },
       "exampleSynonym": {
         "word": "appendix removal",
-        "text": "Appendix removal stopped her pain after the infection."
+        "text": "She recovered quickly after appendix removal."
       },
       "situacion": "salud"
     }
@@ -115364,8 +115364,8 @@
         "text": "The repair shop acted as bailee while it held the customer’s tools."
       },
       "exampleSynonym": {
-        "word": "holder of another’s goods",
-        "text": "A holder of another’s goods must care for them."
+        "word": "custodian of bailed goods",
+        "text": "A custodian of bailed goods must keep them secure."
       },
       "situacion": "legal"
     }
@@ -123818,8 +123818,8 @@
         "text": "The bigamist hid his first marriage."
       },
       "exampleSynonym": {
-        "word": "person committing bigamy",
-        "text": "The person committing bigamy hid his first marriage."
+        "word": "polygamist",
+        "text": "The court convicted the polygamist after reviewing the marriage records."
       },
       "situacion": "law"
     }
@@ -124007,8 +124007,8 @@
         "text": "The scan showed a blocked biliary duct."
       },
       "exampleSynonym": {
-        "word": "bile-carrying",
-        "text": "The scan showed a blocked bile-carrying duct."
+        "word": "relating to the biliary tract",
+        "text": "The scan found a problem relating to the biliary tract."
       },
       "situacion": "health"
     }
@@ -147548,8 +147548,8 @@
         "text": "The decentralization gave more control to local councils."
       },
       "exampleSynonym": {
-        "word": "transfer of power",
-        "text": "The transfer of power gave more control to local councils."
+        "word": "devolution of authority",
+        "text": "The reform enabled devolution of authority to local councils."
       },
       "situacion": "sociedad",
       "word": "decentralization",
@@ -148896,12 +148896,12 @@
         "ending criminalization"
       ],
       "example": {
-        "word": "Decriminalization",
-        "text": "Decriminalization changed the law."
+        "word": "decriminalization",
+        "text": "Decriminalization removed criminal penalties for possession."
       },
       "exampleSynonym": {
         "word": "removal of criminal penalties",
-        "text": "Removal of criminal penalties changed the law."
+        "text": "The proposal supports removal of criminal penalties for possession."
       },
       "situacion": "legal",
       "word": "Decriminalization",
@@ -167594,8 +167594,8 @@
         "text": "Her disinheritance shocked the whole family."
       },
       "exampleSynonym": {
-        "word": "denial of inheritance",
-        "text": "The denial of inheritance shocked the whole family."
+        "word": "exclusion from an inheritance",
+        "text": "Exclusion from an inheritance was written into the updated will."
       },
       "situacion": "legal"
     }
@@ -223062,7 +223062,7 @@
       ],
       "example": {
         "word": "family reunification",
-        "text": "They applied for family reunification last year."
+        "text": "Family reunification allowed the parents to join their children abroad."
       },
       "exampleSynonym": {
         "word": "family reunion",
@@ -264316,6 +264316,114 @@
       "exampleSynonym": {
         "word": "displacement of a bone",
         "text": "The X-ray showed displacement of a bone near the joint."
+      }
+    }
+  },
+  {
+    "entry": "readmit",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "admit again",
+        "text": "The hospital agreed to admit again patients whose symptoms returned."
+      }
+    }
+  },
+  {
+    "entry": "debt-forgiveness",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "debt cancellation",
+        "text": "The lender approved debt cancellation after the borrower lost work."
+      }
+    }
+  },
+  {
+    "entry": "involuntary-commitment",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "involuntary psychiatric admission",
+        "text": "The court authorized involuntary psychiatric admission after a hearing."
+      }
+    }
+  },
+  {
+    "entry": "antichresis",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "creditor’s right to a property’s fruits",
+        "text": "The agreement protects the creditor’s right to a property’s fruits until repayment."
+      }
+    }
+  },
+  {
+    "entry": "responsible-party",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "person responsible for a matter",
+        "text": "The form names the person responsible for a matter."
+      }
+    }
+  },
+  {
+    "entry": "fingerprint-analysis",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "fingerprint analysis",
+        "text": "The fingerprint analysis linked the suspect to the scene."
+      },
+      "exampleSynonym": {
+        "word": "fingerprint comparison",
+        "text": "Fingerprint comparison linked the suspect to the scene."
+      }
+    }
+  },
+  {
+    "entry": "repeal",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "revoke a law",
+        "text": "The legislature voted to revoke a law that no longer applied."
+      }
+    }
+  },
+  {
+    "entry": "lifting-of-attachment",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "removal of an attachment",
+        "text": "The court ordered removal of an attachment from the bank account."
+      }
+    }
+  },
+  {
+    "entry": "dismissal-of-claim",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "dismissal of claim",
+        "text": "The clerk entered “dismissal of claim” on the court docket."
+      },
+      "exampleSynonym": {
+        "word": "termination of a claim",
+        "text": "The judge ordered termination of a claim lacking evidence."
+      }
+    }
+  },
+  {
+    "entry": "government-bond-loan",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "government bond loan",
+        "text": "The government bond loan financed the city’s repairs."
       }
     }
   }
