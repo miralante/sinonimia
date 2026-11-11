@@ -288,4 +288,168 @@
 {const i=d.findIndex(q=>q.id==="pampa-cultivated-land");if(i>=0)d[i].situacion="trabajo";}
 {const i=d.findIndex(q=>q.id==="pampirolada-nonsense");if(i>=0)d[i].situacion="sociedad";}
 {const i=d.findIndex(q=>q.id==="pandectas-business-index");if(i>=0)d[i].situacion="finanzas";}
+
+// v5059 source fixes: A120-A129 literal examples
+{const i=d.findIndex(q=>q.id==="ducha");if(i<0)throw Error("Missing entry ducha");d[i]["exampleSynonym"].text="Después de correr, tomó un baño bajo la ducha.";}
+{const i=d.findIndex(q=>q.id==="escanear-un-documento");if(i<0)throw Error("Missing entry escanear-un-documento");d[i]["example"].text="La oficina pudo escanear un documento y guardarlo en el archivo.";}
+{const i=d.findIndex(q=>q.id==="escanear-un-documento");if(i<0)throw Error("Missing entry escanear-un-documento");d[i]["exampleSynonym"].text="La oficina pudo digitalizar un documento y guardarlo en el archivo.";}
+{const i=d.findIndex(q=>q.id==="incendio-provocado");if(i<0)throw Error("Missing entry incendio-provocado");d[i]["example"].text="La policía investigó un incendio provocado en el almacén.";}
+{const i=d.findIndex(q=>q.id==="incendio-provocado");if(i<0)throw Error("Missing entry incendio-provocado");d[i]["exampleSynonym"].text="La policía investigó un fuego provocado en el almacén.";}
+{const i=d.findIndex(q=>q.id==="refugiado");if(i<0)throw Error("Missing entry refugiado");d[i]["example"].text="El refugiado recibió ayuda al llegar a la ciudad.";}
+{const i=d.findIndex(q=>q.id==="refugiado");if(i<0)throw Error("Missing entry refugiado");d[i]["exampleSynonym"].text="La persona refugiada recibió ayuda al llegar a la ciudad.";}
+{const i=d.findIndex(q=>q.id==="reciclaje");if(i<0)throw Error("Missing entry reciclaje");d[i]["example"].text="El reciclaje transforma botellas usadas en objetos nuevos.";}
+{const i=d.findIndex(q=>q.id==="residuos-peligrosos");if(i<0)throw Error("Missing entry residuos-peligrosos");d[i]["example"].text="El taller entregó los residuos peligrosos a una empresa autorizada.";}
+{const i=d.findIndex(q=>q.id==="residuos-peligrosos");if(i<0)throw Error("Missing entry residuos-peligrosos");d[i]["exampleSynonym"].text="El taller entregó los desechos peligrosos a una empresa autorizada.";}
+{const i=d.findIndex(q=>q.id==="marca-registrada");if(i<0)throw Error("Missing entry marca-registrada");d[i]["example"].text="La marca registrada distingue los productos de esa empresa.";}
+{const i=d.findIndex(q=>q.id==="marca-registrada");if(i<0)throw Error("Missing entry marca-registrada");d[i]["exampleSynonym"].text="La marca inscrita distingue los productos de esa empresa.";}
+{const i=d.findIndex(q=>q.id==="admisible");if(i<0)throw Error("Missing entry admisible");d[i]["exampleSynonym"].text="El juez revisó la prueba que puede admitirse en el juicio.";}
+{const i=d.findIndex(q=>q.id==="alcoholismo");if(i<0)throw Error("Missing entry alcoholismo");d[i]["example"].text="Buscó ayuda profesional para tratar su alcoholismo.";}
+{const i=d.findIndex(q=>q.id==="amnesia");if(i<0)throw Error("Missing entry amnesia");d[i]["example"].text="El golpe le causó amnesia durante unas horas.";}
+{const i=d.findIndex(q=>q.id==="amnesia");if(i<0)throw Error("Missing entry amnesia");d[i]["exampleSynonym"].text="El golpe le causó pérdida de memoria durante unas horas.";}
+{const i=d.findIndex(q=>q.id==="analfabeto");if(i<0)throw Error("Missing entry analfabeto");d[i]["example"].text="Ese hombre es analfabeto y no puede leer los carteles.";}
+{const i=d.findIndex(q=>q.id==="analfabeto");if(i<0)throw Error("Missing entry analfabeto");d[i]["exampleSynonym"].text="Ese hombre es una persona que no sabe leer ni escribir.";}
+{const i=d.findIndex(q=>q.id==="anorexia");if(i<0)throw Error("Missing entry anorexia");d[i]["example"].text="Después de una infección, tuvo anorexia durante varios días.";}
+{const i=d.findIndex(q=>q.id==="anorexia");if(i<0)throw Error("Missing entry anorexia");d[i]["exampleSynonym"].text="Después de una infección, tuvo pérdida del apetito durante varios días.";}
+{const i=d.findIndex(q=>q.id==="arrestar");if(i<0)throw Error("Missing entry arrestar");d[i]["example"].text="La policía tuvo que arrestar al hombre por el robo.";}
+{const i=d.findIndex(q=>q.id==="arrestar");if(i<0)throw Error("Missing entry arrestar");d[i]["exampleSynonym"].text="La policía tuvo que detener al hombre por el robo.";}
+{const i=d.findIndex(q=>q.id==="atrasado");if(i<0)throw Error("Missing entry atrasado");d[i]["exampleSynonym"].text="Pagó el recibo pendiente de pago antes de la fecha límite.";}
+{const i=d.findIndex(q=>q.id==="autismo");if(i<0)throw Error("Missing entry autismo");d[i]["example"].text="El niño con autismo juega en clase.";}
+{const i=d.findIndex(q=>q.id==="autismo");if(i<0)throw Error("Missing entry autismo");d[i]["exampleSynonym"].text="El niño con condición del espectro autista juega en clase.";}
+{const i=d.findIndex(q=>q.id==="absentista");if(i<0)throw Error("Missing entry absentista");d[i]["example"].text="El alumno absentista perdió varias clases.";}
+{const i=d.findIndex(q=>q.id==="absentista");if(i<0)throw Error("Missing entry absentista");d[i]["exampleSynonym"].text="El alumno que se ausenta habitualmente perdió varias clases.";}
+{const i=d.findIndex(q=>q.id==="abstemio");if(i<0)throw Error("Missing entry abstemio");d[i]["exampleSynonym"].text="Mi tío es una persona que no consume alcohol.";}
+{const i=d.findIndex(q=>q.id==="acechar");if(i<0)throw Error("Missing entry acechar");d[i]["example"].text="El gato suele acechar a los pájaros del jardín.";}
+{const i=d.findIndex(q=>q.id==="acechar");if(i<0)throw Error("Missing entry acechar");d[i]["exampleSynonym"].text="El gato suele aguardar oculto para atrapar a los pájaros del jardín.";}
+{const i=d.findIndex(q=>q.id==="agredir");if(i<0)throw Error("Missing entry agredir");d[i]["example"].text="No debes agredir a nadie durante una discusión.";}
+{const i=d.findIndex(q=>q.id==="agredir");if(i<0)throw Error("Missing entry agredir");d[i]["exampleSynonym"].text="No debes atacar a nadie durante una discusión.";}
+{const i=d.findIndex(q=>q.id==="alevosia");if(i<0)throw Error("Missing entry alevosia");d[i]["example"].text="El juez investigó si el acusado actuó con alevosía.";}
+{const i=d.findIndex(q=>q.id==="alevosia");if(i<0)throw Error("Missing entry alevosia");d[i]["exampleSynonym"].text="El juez vio una actuación que asegura la indefensión en ese ataque.";}
+{const i=d.findIndex(q=>q.id==="amortizar");if(i<0)throw Error("Missing entry amortizar");d[i]["example"].text="La empresa logró amortizar el préstamo en cinco años.";}
+{const i=d.findIndex(q=>q.id==="amortizar");if(i<0)throw Error("Missing entry amortizar");d[i]["exampleSynonym"].text="La empresa empezó a reembolsar gradualmente una deuda bancaria.";}
+{const i=d.findIndex(q=>q.id==="anemico");if(i<0)throw Error("Missing entry anemico");d[i]["exampleSynonym"].text="El paciente quedó débil y con anemia después de la operación.";}
+{const i=d.findIndex(q=>q.id==="antitetanica");if(i<0)throw Error("Missing entry antitetanica");d[i]["example"].text="La enfermera puso la vacuna antitetánica al niño.";}
+{const i=d.findIndex(q=>q.id==="antitetanica");if(i<0)throw Error("Missing entry antitetanica");d[i]["exampleSynonym"].text="La enfermera puso la vacuna contra el tétanos al niño.";}
+{const i=d.findIndex(q=>q.id==="apatrida");if(i<0)throw Error("Missing entry apatrida");d[i]["exampleSynonym"].text="La persona sin nacionalidad pidió ayuda para obtener documentos.";}
+{const i=d.findIndex(q=>q.id==="apnea");if(i<0)throw Error("Missing entry apnea");d[i]["exampleSynonym"].text="Durante la noche, tuvo pausas respiratorias durante el sueño.";}
+{const i=d.findIndex(q=>q.id==="arbitral");if(i<0)throw Error("Missing entry arbitral");d[i]["exampleSynonym"].text="El caso terminó con una decisión de un tribunal arbitral.";}
+{const i=d.findIndex(q=>q.id==="asbestosis");if(i<0)throw Error("Missing entry asbestosis");d[i]["example"].text="La asbestosis dañó sus pulmones tras años de exposición.";}
+{const i=d.findIndex(q=>q.id==="asignatario");if(i<0)throw Error("Missing entry asignatario");d[i]["exampleSynonym"].text="El beneficiario de una asignación recibió el pago completo.";}
+{const i=d.findIndex(q=>q.id==="asmatico");if(i<0)throw Error("Missing entry asmatico");d[i]["example"].text="El niño asmático llevó su inhalador a la escuela.";}
+{const i=d.findIndex(q=>q.id==="auditar");if(i<0)throw Error("Missing entry auditar");d[i]["example"].text="La empresa debe auditar sus cuentas cada año.";}
+{const i=d.findIndex(q=>q.id==="auditar");if(i<0)throw Error("Missing entry auditar");d[i]["exampleSynonym"].text="La empresa debe realizar una auditoría de sus cuentas cada año.";}
+{const i=d.findIndex(q=>q.id==="autoinmune");if(i<0)throw Error("Missing entry autoinmune");d[i]["exampleSynonym"].text="El médico explicó el trastorno autoinmunitario y sus efectos.";}
+{const i=d.findIndex(q=>q.id==="autolesion");if(i<0)throw Error("Missing entry autolesion");d[i]["exampleSynonym"].text="El daño autoinfligido dejó una cicatriz en su brazo.";}
+{const i=d.findIndex(q=>q.id==="bipolar");if(i<0)throw Error("Missing entry bipolar");d[i]["exampleSynonym"].text="Un síntoma relativo al trastorno bipolar afectó su ánimo.";}
+{const i=d.findIndex(q=>q.id==="colegiado");if(i<0)throw Error("Missing entry colegiado");d[i]["example"].text="El colegiado detuvo el partido por una falta.";}
+{const i=d.findIndex(q=>q.id==="corrupto");if(i<0)throw Error("Missing entry corrupto");d[i]["exampleSynonym"].text="El funcionario que incurre en corrupción aceptó dinero ilegal.";}
+{const i=d.findIndex(q=>q.id==="criminalizar");if(i<0)throw Error("Missing entry criminalizar");d[i]["exampleSynonym"].text="La ley puede tipificar como delito la venta de esos productos.";}
+{const i=d.findIndex(q=>q.id==="cuatrimestre");if(i<0)throw Error("Missing entry cuatrimestre");d[i]["exampleSynonym"].text="El curso se divide en un periodo de cuatro meses.";}
+{const i=d.findIndex(q=>q.id==="despenalizar");if(i<0)throw Error("Missing entry despenalizar");d[i]["exampleSynonym"].text="El país decidió retirar sanciones penales por esa conducta.";}
+{const i=d.findIndex(q=>q.id==="detentar");if(i<0)throw Error("Missing entry detentar");d[i]["example"].text="El dictador llegó a detentar el poder sin apoyo legal.";}
+{const i=d.findIndex(q=>q.id==="detentar");if(i<0)throw Error("Missing entry detentar");d[i]["exampleSynonym"].text="El funcionario llegó a ejercer sin título legítimo el cargo público.";}
+{const i=d.findIndex(q=>q.id==="diabetico");if(i<0)throw Error("Missing entry diabetico");d[i]["example"].text="Mi abuelo diabético revisa el azúcar de su sangre cada día.";}
+{const i=d.findIndex(q=>q.id==="embalsamar");if(i<0)throw Error("Missing entry embalsamar");d[i]["exampleSynonym"].text="El museo decidió conservar temporalmente un cuerpo para estudiarlo.";}
+{const i=d.findIndex(q=>q.id==="empadronar");if(i<0)throw Error("Missing entry empadronar");d[i]["exampleSynonym"].text="La familia debe inscribir en el padrón municipal su nueva dirección.";}
+{const i=d.findIndex(q=>q.id==="encarcelar");if(i<0)throw Error("Missing entry encarcelar");d[i]["exampleSynonym"].text="El juez decidió encerrar en prisión al ladrón.";}
+{const i=d.findIndex(q=>q.id==="encausar");if(i<0)throw Error("Missing entry encausar");d[i]["exampleSynonym"].text="El fiscal decidió someter a una causa penal al sospechoso.";}
+{const i=d.findIndex(q=>q.id==="enviudar");if(i<0)throw Error("Missing entry enviudar");d[i]["exampleSynonym"].text="Alguien puede quedar viudo o viuda tras perder a su pareja.";}
+{const i=d.findIndex(q=>q.id==="endeudarse");if(i<0)throw Error("Missing entry endeudarse");d[i]["exampleSynonym"].text="Tuvieron que contraer deudas para pagar la reparación de la casa.";}
+{const i=d.findIndex(q=>q.id==="escoliosis");if(i<0)throw Error("Missing entry escoliosis");d[i]["exampleSynonym"].text="La curvatura lateral de la columna causaba dolor al caminar.";}
+{const i=d.findIndex(q=>q.id==="esposar");if(i<0)throw Error("Missing entry esposar");d[i]["exampleSynonym"].text="La policía tuvo que poner esposas al detenido.";}
+{const i=d.findIndex(q=>q.id==="expropiar");if(i<0)throw Error("Missing entry expropiar");d[i]["exampleSynonym"].text="El gobierno decidió adquirir forzosamente un bien privado para construir la carretera.";}
+{const i=d.findIndex(q=>q.id==="exhumar");if(i<0)throw Error("Missing entry exhumar");d[i]["exampleSynonym"].text="La fiscalía pidió desenterrar un cadáver para realizar otra prueba.";}
+{const i=d.findIndex(q=>q.id==="gravamen");if(i<0)throw Error("Missing entry gravamen");d[i]["exampleSynonym"].text="El banco registró una carga que recae sobre un bien inmueble.";}
+{const i=d.findIndex(q=>q.id==="habilitar");if(i<0)throw Error("Missing entry habilitar");d[i]["example"].text="El técnico va a habilitar la sala.";}
+{const i=d.findIndex(q=>q.id==="habilitar");if(i<0)throw Error("Missing entry habilitar");d[i]["exampleSynonym"].text="El técnico va a poner en condiciones de funcionar la sala.";}
+{const i=d.findIndex(q=>q.id==="hematoma");if(i<0)throw Error("Missing entry hematoma");d[i]["exampleSynonym"].text="La acumulación de sangre en un tejido causó un moretón visible.";}
+{const i=d.findIndex(q=>q.id==="hipotecar");if(i<0)throw Error("Missing entry hipotecar");d[i]["exampleSynonym"].text="El banco puede gravar un inmueble con una hipoteca para prestar dinero.";}
+{const i=d.findIndex(q=>q.id==="hospitalizar");if(i<0)throw Error("Missing entry hospitalizar");d[i]["exampleSynonym"].text="El médico decidió ingresar a una persona en el hospital.";}
+{const i=d.findIndex(q=>q.id==="huerfano");if(i<0)throw Error("Missing entry huerfano");d[i]["exampleSynonym"].text="Una persona que ha perdido a uno de sus progenitores necesita apoyo.";}
+{const i=d.findIndex(q=>q.id==="icterico");if(i<0)throw Error("Missing entry icterico");d[i]["example"].text="El paciente ictérico tenía la piel y los ojos amarillos.";}
+{const i=d.findIndex(q=>q.id==="imputar");if(i<0)throw Error("Missing entry imputar");d[i]["example"].text="El fiscal decidió imputar al acusado por el robo.";}
+{const i=d.findIndex(q=>q.id==="imputar");if(i<0)throw Error("Missing entry imputar");d[i]["exampleSynonym"].text="El fiscal decidió atribuir responsabilidad penal al acusado por el robo.";}
+{const i=d.findIndex(q=>q.id==="indemnizar");if(i<0)throw Error("Missing entry indemnizar");d[i]["example"].text="La empresa debió indemnizar al cliente por el daño.";}
+{const i=d.findIndex(q=>q.id==="indemnizar");if(i<0)throw Error("Missing entry indemnizar");d[i]["exampleSynonym"].text="La empresa tuvo que compensar económicamente un perjuicio causado al cliente.";}
+{const i=d.findIndex(q=>q.id==="inhabilitar");if(i<0)throw Error("Missing entry inhabilitar");d[i]["exampleSynonym"].text="El juez decidió privar del derecho a ejercer al conductor.";}
+{const i=d.findIndex(q=>q.id==="jurisdiccion");if(i<0)throw Error("Missing entry jurisdiccion");d[i]["exampleSynonym"].text="Ese asunto pertenece al ámbito de autoridad de un tribunal.";}
+{const i=d.findIndex(q=>q.id==="licitacion");if(i<0)throw Error("Missing entry licitacion");d[i]["exampleSynonym"].text="La empresa ganó un concurso para adjudicar un contrato público.";}
+{const i=d.findIndex(q=>q.id==="malversacion");if(i<0)throw Error("Missing entry malversacion");d[i]["example"].text="El tesorero fue acusado de malversación de fondos públicos.";}
+{const i=d.findIndex(q=>q.id==="monoparental");if(i<0)throw Error("Missing entry monoparental");d[i]["exampleSynonym"].text="La familia con un solo progenitor recibió apoyo municipal.";}
+{const i=d.findIndex(q=>q.id==="okupar");if(i<0)throw Error("Missing entry okupar");d[i]["exampleSynonym"].text="Un grupo decidió ocupar sin autorización el edificio vacío.";}
+{const i=d.findIndex(q=>q.id==="paraplejia");if(i<0)throw Error("Missing entry paraplejia");d[i]["example"].text="La paraplejía le impidió mover las piernas tras el accidente.";}
+{const i=d.findIndex(q=>q.id==="plagiar");if(i<0)throw Error("Missing entry plagiar");d[i]["example"].text="No debes plagiar el trabajo de tus compañeros.";}
+{const i=d.findIndex(q=>q.id==="plagiar");if(i<0)throw Error("Missing entry plagiar");d[i]["exampleSynonym"].text="No debes presentar ideas ajenas como propias en tu trabajo.";}
+{const i=d.findIndex(q=>q.id==="pignorar");if(i<0)throw Error("Missing entry pignorar");d[i]["exampleSynonym"].text="El cliente decidió dar en garantía prendaria sus joyas.";}
+{const i=d.findIndex(q=>q.id==="prevaricar");if(i<0)throw Error("Missing entry prevaricar");d[i]["example"].text="Un funcionario no debe prevaricar para favorecer a sus amigos.";}
+{const i=d.findIndex(q=>q.id==="prevaricar");if(i<0)throw Error("Missing entry prevaricar");d[i]["exampleSynonym"].text="El funcionario puede incurrir en prevaricación al dictar una decisión injusta.";}
+{const i=d.findIndex(q=>q.id==="procuraduria");if(i<0)throw Error("Missing entry procuraduria");d[i]["exampleSynonym"].text="La fiscalía es un organismo público de defensa o representación legal.";}
+{const i=d.findIndex(q=>q.id==="racista");if(i<0)throw Error("Missing entry racista");d[i]["exampleSynonym"].text="El comentario que discrimina por motivos raciales ofendió a sus compañeros.";}
+{const i=d.findIndex(q=>q.id==="reagrupacion");if(i<0)throw Error("Missing entry reagrupacion");d[i]["exampleSynonym"].text="El proceso de reunificación familiar permitió traer a sus hijos.";}
+{const i=d.findIndex(q=>q.id==="reembolsar");if(i<0)throw Error("Missing entry reembolsar");d[i]["exampleSynonym"].text="El comercio debe reintegrar una cantidad al comprador.";}
+{const i=d.findIndex(q=>q.id==="rehen");if(i<0)throw Error("Missing entry rehen");d[i]["exampleSynonym"].text="La policía liberó a una persona retenida como medio de presión.";}
+{const i=d.findIndex(q=>q.id==="reincidente");if(i<0)throw Error("Missing entry reincidente");d[i]["exampleSynonym"].text="La persona con reincidencia delictiva volvió a ser condenada.";}
+{const i=d.findIndex(q=>q.id==="revalidar");if(i<0)throw Error("Missing entry revalidar");d[i]["exampleSynonym"].text="El ministerio decidió reconocer oficialmente el título extranjero.";}
+{const i=d.findIndex(q=>q.id==="salvaguardia");if(i<0)throw Error("Missing entry salvaguardia");d[i]["exampleSynonym"].text="La norma creó una medida de protección para los menores.";}
+{const i=d.findIndex(q=>q.id==="subempleo");if(i<0)throw Error("Missing entry subempleo");d[i]["example"].text="El subempleo obligó a la madre a aceptar dos trabajos.";}
+{const i=d.findIndex(q=>q.id==="supositorio");if(i<0)throw Error("Missing entry supositorio");d[i]["exampleSynonym"].text="El médico recetó una forma farmacéutica para introducir en una cavidad.";}
+{const i=d.findIndex(q=>q.id==="tasar");if(i<0)throw Error("Missing entry tasar");d[i]["example"].text="El perito tuvo que tasar la casa antes de venderla.";}
+{const i=d.findIndex(q=>q.id==="tasar");if(i<0)throw Error("Missing entry tasar");d[i]["exampleSynonym"].text="El perito tuvo que valorar económicamente la casa antes de venderla.";}
+{const i=d.findIndex(q=>q.id==="tumor");if(i<0)throw Error("Missing entry tumor");d[i]["example"].text="El médico detectó un tumor benigno durante la revisión.";}
+{const i=d.findIndex(q=>q.id==="tumor");if(i<0)throw Error("Missing entry tumor");d[i]["exampleSynonym"].text="El bulto era una masa anormal de tejido.";}
+{const i=d.findIndex(q=>q.id==="vejacion");if(i<0)throw Error("Missing entry vejacion");d[i]["example"].text="La conducta fue una vejación pública y causó una queja.";}
+{const i=d.findIndex(q=>q.id==="vejacion");if(i<0)throw Error("Missing entry vejacion");d[i]["exampleSynonym"].text="El trato fue una humillación para la trabajadora.";}
+{const i=d.findIndex(q=>q.id==="abolir");if(i<0)throw Error("Missing entry abolir");d[i]["example"].text="El parlamento votó abolir una ley antigua.";}
+{const i=d.findIndex(q=>q.id==="abolir");if(i<0)throw Error("Missing entry abolir");d[i]["exampleSynonym"].text="El parlamento decidió derogar una ley antigua.";}
+{const i=d.findIndex(q=>q.id==="insuficiencia-renal");if(i<0)throw Error("Missing entry insuficiencia-renal");d[i]["example"].text="La insuficiencia renal obligó al paciente a recibir tratamiento.";}
+{const i=d.findIndex(q=>q.id==="parkinson");if(i<0)throw Error("Missing entry parkinson");d[i]["exampleSynonym"].text="La enfermedad de Parkinson le hizo temblar las manos.";}
+{const i=d.findIndex(q=>q.id==="amigdalitis");if(i<0)throw Error("Missing entry amigdalitis");d[i]["example"].text="La amigdalitis le causó dolor al tragar.";}
+{const i=d.findIndex(q=>q.id==="bocio");if(i<0)throw Error("Missing entry bocio");d[i]["example"].text="El médico detectó un bocio durante la revisión.";}
+{const i=d.findIndex(q=>q.id==="acreditar");if(i<0)throw Error("Missing entry acreditar");d[i]["example"].text="Debes acreditar la identidad antes de recoger el paquete.";}
+{const i=d.findIndex(q=>q.id==="acreditar");if(i<0)throw Error("Missing entry acreditar");d[i]["exampleSynonym"].text="Debes certificar la identidad antes de recoger el paquete.";}
+{const i=d.findIndex(q=>q.id==="geriatrico");if(i<0)throw Error("Missing entry geriatrico");d[i]["example"].text="El centro geriátrico ofrece atención diaria a los mayores.";}
+{const i=d.findIndex(q=>q.id==="geriatrico");if(i<0)throw Error("Missing entry geriatrico");d[i]["exampleSynonym"].text="El centro residencial para mayores ofrece atención diaria a los mayores.";}
+{const i=d.findIndex(q=>q.id==="presupuestar");if(i<0)throw Error("Missing entry presupuestar");d[i]["example"].text="La empresa decidió presupuestar una obra antes de iniciar.";}
+{const i=d.findIndex(q=>q.id==="presupuestar");if(i<0)throw Error("Missing entry presupuestar");d[i]["exampleSynonym"].text="La empresa decidió estimar el coste de una obra antes de iniciar.";}
+{const i=d.findIndex(q=>q.id==="tramitar");if(i<0)throw Error("Missing entry tramitar");d[i]["example"].text="Debes tramitar una solicitud para obtener la beca.";}
+{const i=d.findIndex(q=>q.id==="tramitar");if(i<0)throw Error("Missing entry tramitar");d[i]["exampleSynonym"].text="Debes gestionar una solicitud para obtener la beca.";}
+{const i=d.findIndex(q=>q.id==="googlear");if(i<0)throw Error("Missing entry googlear");d[i]["example"].text="Voy a googlear el nombre de esa tienda.";}
+{const i=d.findIndex(q=>q.id==="googlear");if(i<0)throw Error("Missing entry googlear");d[i]["exampleSynonym"].text="Voy a buscar en Google el nombre de esa tienda.";}
+{const i=d.findIndex(q=>q.id==="usuario-final");if(i<0)throw Error("Missing entry usuario-final");d[i]["example"].text="El usuario final recibió instrucciones para usar el programa.";}
+{const i=d.findIndex(q=>q.id==="usuario-final");if(i<0)throw Error("Missing entry usuario-final");d[i]["exampleSynonym"].text="La persona usuaria recibió instrucciones para usar el programa.";}
+{const i=d.findIndex(q=>q.id==="aportes-patronales");if(i<0)throw Error("Missing entry aportes-patronales");d[i]["example"].text="Los aportes patronales cubren parte del seguro de salud.";}
+{const i=d.findIndex(q=>q.id==="catfishing");if(i<0)throw Error("Missing entry catfishing");d[i]["exampleSynonym"].text="El engaño mediante un perfil falso terminó al conocerse la verdad.";}
+{const i=d.findIndex(q=>q.id==="ghosting");if(i<0)throw Error("Missing entry ghosting");d[i]["exampleSynonym"].text="Su desaparición sin explicación preocupó a sus amigos.";}
+{const i=d.findIndex(q=>q.id==="codigo-de-seguridad-de-tarjetas-de-credito");if(i<0)throw Error("Missing entry codigo-de-seguridad-de-tarjetas-de-credito");d[i]["example"].text="Al pagar, escribe el código de seguridad de tarjetas de crédito.";}
+{const i=d.findIndex(q=>q.id==="contrato-leonino");if(i<0)throw Error("Missing entry contrato-leonino");d[i]["example"].text="El abogado revisó el contrato leonino antes de firmarlo.";}
+{const i=d.findIndex(q=>q.id==="contrato-leonino");if(i<0)throw Error("Missing entry contrato-leonino");d[i]["exampleSynonym"].text="El abogado revisó el contrato abusivamente desequilibrado antes de firmarlo.";}
+{const i=d.findIndex(q=>q.id==="vacio-legal");if(i<0)throw Error("Missing entry vacio-legal");d[i]["example"].text="El juez encontró un vacío legal en la norma.";}
+{const i=d.findIndex(q=>q.id==="paraiso-fiscal");if(i<0)throw Error("Missing entry paraiso-fiscal");d[i]["exampleSynonym"].text="La empresa abrió una cuenta en una jurisdicción de baja tributación.";}
+{const i=d.findIndex(q=>q.id==="interaccion-medicamentosa");if(i<0)throw Error("Missing entry interaccion-medicamentosa");d[i]["exampleSynonym"].text="El médico explicó la interacción entre medicamentos durante la consulta.";}
+{const i=d.findIndex(q=>q.id==="vicerrector");if(i<0)throw Error("Missing entry vicerrector");d[i]["exampleSynonym"].text="El directivo universitario presentó el nuevo plan de estudios.";}
+{const i=d.findIndex(q=>q.id==="configurar");if(i<0)throw Error("Missing entry configurar");d[i]["example"].text="Debes configurar el teléfono antes de usarlo.";}
+{const i=d.findIndex(q=>q.id==="configurar");if(i<0)throw Error("Missing entry configurar");d[i]["exampleSynonym"].text="Debes ajustar el teléfono antes de usarlo.";}
+{const i=d.findIndex(q=>q.id==="pestana");if(i<0)throw Error("Missing entry pestana");d[i]["exampleSynonym"].text="Abre la ficha del navegador para ver la página.";}
+{const i=d.findIndex(q=>q.id==="reenviar");if(i<0)throw Error("Missing entry reenviar");d[i]["example"].text="Debes reenviar el mensaje al equipo esta tarde.";}
+{const i=d.findIndex(q=>q.id==="acometida");if(i<0)throw Error("Missing entry acometida");d[i]["exampleSynonym"].text="La conexión de servicio llevó agua hasta la nueva casa.";}
+{const i=d.findIndex(q=>q.id==="aprender");if(i<0)throw Error("Missing entry aprender");d[i]["example"].text="Los niños van a aprender a leer en clase.";}
+{const i=d.findIndex(q=>q.id==="dudar");if(i<0)throw Error("Missing entry dudar");d[i]["example"].text="No debes dudar antes de pedir ayuda.";}
+{const i=d.findIndex(q=>q.id==="dudar");if(i<0)throw Error("Missing entry dudar");d[i]["exampleSynonym"].text="No debes vacilar antes de pedir ayuda.";}
+{const i=d.findIndex(q=>q.id==="ensenar");if(i<0)throw Error("Missing entry ensenar");d[i]["example"].text="La maestra va a enseñar las letras a la clase.";}
+{const i=d.findIndex(q=>q.id==="imaginar");if(i<0)throw Error("Missing entry imaginar");d[i]["example"].text="A veces me gusta imaginar que vivo junto al mar.";}
+{const i=d.findIndex(q=>q.id==="observar");if(i<0)throw Error("Missing entry observar");d[i]["example"].text="El guardia pudo observar un coche junto a la puerta.";}
+{const i=d.findIndex(q=>q.id==="olvidar");if(i<0)throw Error("Missing entry olvidar");d[i]["example"].text="No debes olvidar las llaves al salir de casa.";}
+{const i=d.findIndex(q=>q.id==="recordar");if(i<0)throw Error("Missing entry recordar");d[i]["example"].text="Quiero recordar el teléfono de mi amiga.";}
+{const i=d.findIndex(q=>q.id==="comparar");if(i<0)throw Error("Missing entry comparar");d[i]["example"].text="La niña quiso comparar los dos dibujos.";}
+{const i=d.findIndex(q=>q.id==="comparar");if(i<0)throw Error("Missing entry comparar");d[i]["exampleSynonym"].text="La niña quiso contrastar los dos dibujos.";}
+{const i=d.findIndex(q=>q.id==="navegar");if(i<0)throw Error("Missing entry navegar");d[i]["example"].text="Podemos navegar por la costa en un barco.";}
+{const i=d.findIndex(q=>q.id==="navegar");if(i<0)throw Error("Missing entry navegar");d[i]["exampleSynonym"].text="Podemos recorrer internet para encontrar información.";}
+{const i=d.findIndex(q=>q.id==="verificar-informacion");if(i<0)throw Error("Missing entry verificar-informacion");d[i]["example"].text="Debes verificar información sobre la dirección.";}
+{const i=d.findIndex(q=>q.id==="aceptar-herencia");if(i<0)throw Error("Missing entry aceptar-herencia");d[i]["example"].text="Si decides aceptar herencia, consulta antes a un abogado.";}
+{const i=d.findIndex(q=>q.id==="esforzarse");if(i<0)throw Error("Missing entry esforzarse");d[i]["example"].text="El equipo decidió esforzarse para ganar el partido.";}
+{const i=d.findIndex(q=>q.id==="esforzarse");if(i<0)throw Error("Missing entry esforzarse");d[i]["exampleSynonym"].text="El equipo decidió esmerarse para ganar el partido.";}
+{const i=d.findIndex(q=>q.id==="someterse");if(i<0)throw Error("Missing entry someterse");d[i]["example"].text="La persona puede someterse a una revisión médica.";}
+{const i=d.findIndex(q=>q.id==="someterse");if(i<0)throw Error("Missing entry someterse");d[i]["exampleSynonym"].text="El paciente debe pasar por una revisión médica.";}
+{const i=d.findIndex(q=>q.id==="transbordo");if(i<0)throw Error("Missing entry transbordo");d[i]["exampleSynonym"].text="En la estación, hicimos un cambio de transporte para seguir el viaje.";}
+{const i=d.findIndex(q=>q.id==="sadico-2");if(i<0)throw Error("Missing entry es/sadico-2");d[i].situacion="sociedad";}
+{const i=d.findIndex(q=>q.id==="sadismo-2");if(i<0)throw Error("Missing entry es/sadismo-2");d[i].situacion="sociedad";}
 })();

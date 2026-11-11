@@ -438,8 +438,8 @@
         "text": "El país decidió despenalizar esa conducta."
       },
       "exampleSynonym": {
-        "word": "dejar de tipificar como delito",
-        "text": "El país decidió dejar de tipificar como delito esa conducta."
+        "word": "dejar de considerar delito",
+        "text": "El país decidió retirar sanciones penales por esa conducta."
       }
     }
   },
@@ -4149,12 +4149,12 @@
         "ejercer ilegalmente"
       ],
       "example": {
-        "word": "detentaba",
-        "text": "El general detentaba el poder desde hacía años."
+        "word": "detentar",
+        "text": "El dictador llegó a detentar el poder sin apoyo legal."
       },
       "exampleSynonym": {
-        "word": "usurpaba",
-        "text": "El general usurpaba el poder desde hacía años."
+        "word": "ocupar",
+        "text": "El funcionario llegó a ejercer sin título legítimo el cargo público."
       }
     }
   },
@@ -5291,8 +5291,8 @@
         "relacionado con la diabetes"
       ],
       "example": {
-        "word": "dieta diabética",
-        "text": "La dieta diabética se adapta a las necesidades de cada persona."
+        "word": "diabética",
+        "text": "Mi abuelo diabético revisa el azúcar de su sangre cada día."
       },
       "exampleSynonym": {
         "word": "dieta relacionada con la diabetes",
@@ -20707,8 +20707,8 @@
         "text": "Decidieron embalsamar el cuerpo para el funeral."
       },
       "exampleSynonym": {
-        "word": "preservar",
-        "text": "Decidieron preservar el cuerpo para el funeral."
+        "word": "conservar un cadáver",
+        "text": "El museo decidió conservar temporalmente un cuerpo para estudiarlo."
       }
     }
   },
@@ -22631,8 +22631,8 @@
         "text": "El ayuntamiento debe empadronar a los nuevos residentes."
       },
       "exampleSynonym": {
-        "word": "registrar",
-        "text": "El ayuntamiento debe registrar a los nuevos residentes."
+        "word": "registrar como vecino",
+        "text": "La familia debe inscribir en el padrón municipal su nueva dirección."
       }
     }
   },
@@ -25459,7 +25459,7 @@
       },
       "exampleSynonym": {
         "word": "meter en la cárcel",
-        "text": "El juez ordenó meter en la cárcel al acusado."
+        "text": "El juez decidió encerrar en prisión al ladrón."
       }
     }
   },
@@ -25826,8 +25826,8 @@
         "text": "La fiscalía decidió encausar al funcionario."
       },
       "exampleSynonym": {
-        "word": "procesar",
-        "text": "La fiscalía decidió procesar al funcionario."
+        "word": "abrir un proceso judicial contra el empresario",
+        "text": "El fiscal decidió someter a una causa penal al sospechoso."
       }
     }
   },
@@ -27708,8 +27708,8 @@
         "text": "Decidieron no endeudarse para comprar el coche."
       },
       "exampleSynonym": {
-        "word": "contraer deudas",
-        "text": "Decidieron no contraer deudas para comprar el coche."
+        "word": "pedir dinero prestado",
+        "text": "Tuvieron que contraer deudas para pagar la reparación de la casa."
       }
     }
   },
@@ -45207,7 +45207,7 @@
       },
       "exampleSynonym": {
         "word": "carga",
-        "text": "La carga limitaba la venta del terreno."
+        "text": "El banco registró una carga que recae sobre un bien inmueble."
       }
     }
   },
@@ -45222,11 +45222,11 @@
       ],
       "example": {
         "word": "habilitar",
-        "text": "El municipio debe habilitar un local como refugio."
+        "text": "El técnico va a habilitar la sala."
       },
       "exampleSynonym": {
         "word": "acondicionar",
-        "text": "El municipio debe acondicionar un local como refugio."
+        "text": "El técnico va a poner en condiciones de funcionar la sala."
       },
       "situacion": "vivienda"
     }
@@ -45289,7 +45289,7 @@
       },
       "exampleSynonym": {
         "word": "acumulación de sangre",
-        "text": "La caída le causó una acumulación de sangre en la pierna."
+        "text": "La acumulación de sangre en un tejido causó un moretón visible."
       }
     }
   },
@@ -45419,7 +45419,7 @@
       },
       "exampleSynonym": {
         "word": "dar un inmueble en garantía",
-        "text": "El negocio decidió dar un inmueble en garantía."
+        "text": "El banco puede gravar un inmueble con una hipoteca para prestar dinero."
       }
     }
   },
@@ -46158,7 +46158,7 @@
       },
       "exampleSynonym": {
         "word": "internar",
-        "text": "Decidieron internar al paciente esa misma noche."
+        "text": "El médico decidió ingresar a una persona en el hospital."
       },
       "situacion": "salud"
     }
@@ -46707,8 +46707,8 @@
         "text": "El menor quedó huérfano al morir su madre."
       },
       "exampleSynonym": {
-        "word": "sin uno de sus padres",
-        "text": "El menor quedó sin uno de sus padres al morir su madre."
+        "word": "sin padres",
+        "text": "Una persona que ha perdido a uno de sus progenitores necesita apoyo."
       },
       "situacion": "familia"
     }
@@ -47189,12 +47189,12 @@
         "signo distintivo registrado"
       ],
       "example": {
-        "word": "marca registrada",
-        "text": "La marca registrada identifica los productos de la empresa."
+        "word": "una marca registrada",
+        "text": "La marca registrada distingue los productos de esa empresa."
       },
       "exampleSynonym": {
-        "word": "marca inscrita",
-        "text": "La marca inscrita identifica los productos de la empresa."
+        "word": "un nombre comercial protegido",
+        "text": "La marca inscrita distingue los productos de esa empresa."
       },
       "situacion": "legal"
     }
@@ -51511,11 +51511,11 @@
       ],
       "example": {
         "word": "imputar",
-        "text": "La fiscalía decidió imputar el delito al sospechoso."
+        "text": "El fiscal decidió imputar al acusado por el robo."
       },
       "exampleSynonym": {
-        "word": "acusar",
-        "text": "La fiscalía decidió acusar al sospechoso del delito."
+        "word": "acusar oficialmente de un delito",
+        "text": "El fiscal decidió atribuir responsabilidad penal al acusado por el robo."
       }
     }
   },
@@ -55097,11 +55097,11 @@
       ],
       "example": {
         "word": "indemnizar",
-        "text": "La aseguradora indemnizó a la familia por los daños."
+        "text": "La empresa debió indemnizar al cliente por el daño."
       },
       "exampleSynonym": {
-        "word": "compensar",
-        "text": "La aseguradora compensó a la familia por los daños."
+        "word": "pagar por un daño causado",
+        "text": "La empresa tuvo que compensar económicamente un perjuicio causado al cliente."
       }
     }
   },
@@ -59386,8 +59386,8 @@
         "text": "La sentencia puede inhabilitar al funcionario para ejercer cargos públicos."
       },
       "exampleSynonym": {
-        "word": "incapacitar",
-        "text": "La sentencia puede incapacitar al funcionario para ejercer cargos públicos."
+        "word": "prohibir ejercer un cargo",
+        "text": "El juez decidió privar del derecho a ejercer al conductor."
       }
     }
   },
@@ -75400,8 +75400,8 @@
         "text": "La autoridad ejerce jurisdicción en toda la provincia."
       },
       "exampleSynonym": {
-        "word": "autoridad",
-        "text": "La autoridad ejerce su poder en toda la provincia."
+        "word": "del territorio de poder de ese tribunal",
+        "text": "Ese asunto pertenece al ámbito de autoridad de un tribunal."
       }
     }
   },
@@ -84676,8 +84676,8 @@
         "text": "La empresa ganó la licitación para limpiar los parques."
       },
       "exampleSynonym": {
-        "word": "concurso de ofertas",
-        "text": "La empresa ganó el concurso de ofertas para limpiar los parques."
+        "word": "el proceso público para conseguir un contrato",
+        "text": "La empresa ganó un concurso para adjudicar un contrato público."
       }
     }
   },
@@ -93443,8 +93443,8 @@
         "desfalco"
       ],
       "example": {
-        "word": "malversación",
-        "text": "La auditoría descubrió malversación en la empresa."
+        "word": "la malversación",
+        "text": "El tesorero fue acusado de malversación de fondos públicos."
       },
       "exampleSynonym": {
         "word": "desvío de fondos",
@@ -118768,8 +118768,8 @@
         "text": "La familia monoparental recibió apoyo de la comunidad."
       },
       "exampleSynonym": {
-        "word": "familia de un solo progenitor",
-        "text": "La familia de un solo progenitor recibió apoyo de la comunidad."
+        "word": "una familia con un solo progenitor",
+        "text": "La familia con un solo progenitor recibió apoyo municipal."
       },
       "situacion": "sociedad"
     }
@@ -146579,7 +146579,7 @@
       },
       "exampleSynonym": {
         "word": "jurisdicción de baja tributación",
-        "text": "La isla funciona como una jurisdicción de baja tributación."
+        "text": "La empresa abrió una cuenta en una jurisdicción de baja tributación."
       },
       "situacion": "finanzas",
       "word": "Paraíso fiscal",
@@ -147057,8 +147057,8 @@
         "pérdida de movilidad"
       ],
       "example": {
-        "word": "Paraplejía",
-        "text": "La paraplejia afectó sus dos piernas."
+        "word": "paraplejía",
+        "text": "La paraplejía le impidió mover las piernas tras el accidente."
       },
       "exampleSynonym": {
         "word": "parálisis de ambas piernas",
@@ -148123,7 +148123,7 @@
       },
       "exampleSynonym": {
         "word": "enfermedad de Parkinson",
-        "text": "La enfermedad de Parkinson puede causar temblores."
+        "text": "La enfermedad de Parkinson le hizo temblar las manos."
       },
       "situacion": "salud",
       "word": "Párkinson",
@@ -163859,8 +163859,8 @@
         "text": "Una pestaña cayó sobre la mejilla."
       },
       "exampleSynonym": {
-        "word": "cilio",
-        "text": "Un cilio cayó sobre la mejilla."
+        "word": "ficha del navegador",
+        "text": "Abre la ficha del navegador para ver la página."
       },
       "situacion": "salud"
     }
@@ -165372,8 +165372,8 @@
         "text": "El contrato permite pignorar el vehículo."
       },
       "exampleSynonym": {
-        "word": "dejar en garantía",
-        "text": "El contrato permite dejar en garantía el vehículo."
+        "word": "dejar como garantía de un préstamo",
+        "text": "El cliente decidió dar en garantía prendaria sus joyas."
       },
       "situacion": "finanzas"
     }
@@ -170216,12 +170216,12 @@
         "alt": "Dictionary illustration"
       },
       "example": {
-        "word": "plagiar",
-        "text": "Plagiar el trabajo de otra persona es deshonesto."
+        "word": "plagiado",
+        "text": "No debes plagiar el trabajo de tus compañeros."
       },
       "exampleSynonym": {
-        "word": "copiar sin dar crédito",
-        "text": "Copiar sin dar crédito el trabajo de otra persona es deshonesto."
+        "word": "presentado ideas ajenas como propias",
+        "text": "No debes presentar ideas ajenas como propias en tu trabajo."
       },
       "situacion": "sociedad"
     }
@@ -196138,12 +196138,12 @@
         "alt": "Calcular por adelantado los ingresos y gastos previstos."
       },
       "example": {
-        "word": "presupuestar",
-        "text": "El equipo debe presupuestar los gastos del viaje."
+        "word": "presupuestar una obra",
+        "text": "La empresa decidió presupuestar una obra antes de iniciar."
       },
       "exampleSynonym": {
-        "word": "calcular",
-        "text": "El equipo debe calcular los gastos del viaje."
+        "word": "estimar el coste de una obra",
+        "text": "La empresa decidió estimar el coste de una obra antes de iniciar."
       },
       "situacion": "finanzas"
     }
@@ -197178,12 +197178,12 @@
         "alt": "Dictar a sabiendas una resolución injusta desde un cargo público."
       },
       "example": {
-        "word": "prevaricar",
-        "text": "El funcionario no debe prevaricar al resolver el caso."
+        "word": "prevaricado",
+        "text": "Un funcionario no debe prevaricar para favorecer a sus amigos."
       },
       "exampleSynonym": {
-        "word": "cometer prevaricación",
-        "text": "El funcionario no debe cometer prevaricación al resolver el caso."
+        "word": "incurrido en prevaricación",
+        "text": "El funcionario puede incurrir en prevaricación al dictar una decisión injusta."
       },
       "situacion": "legal"
     }
@@ -200126,8 +200126,8 @@
         "text": "La procuraduría atendió la consulta jurídica."
       },
       "exampleSynonym": {
-        "word": "oficina del procurador",
-        "text": "La oficina del procurador atendió la consulta jurídica."
+        "word": "la institución que defiende los derechos de los ciudadanos",
+        "text": "La fiscalía es un organismo público de defensa o representación legal."
       },
       "situacion": "legal"
     }
@@ -220755,8 +220755,8 @@
         "text": "Ese grupo es racista."
       },
       "exampleSynonym": {
-        "word": "partidario del racismo",
-        "text": "Ese grupo es partidario del racismo."
+        "word": "un comentario que discrimina por raza u origen",
+        "text": "El comentario que discrimina por motivos raciales ofendió a sus compañeros."
       },
       "situacion": "sociedad",
       "image": {
@@ -228713,8 +228713,8 @@
         "text": "Solicitó la reagrupación familiar para sus hijos."
       },
       "exampleSynonym": {
-        "word": "autorización de residencia familiar",
-        "text": "Solicitó la autorización de residencia familiar para sus hijos."
+        "word": "el proceso para traer a la familia de un inmigrante",
+        "text": "El proceso de reunificación familiar permitió traer a sus hijos."
       },
       "situacion": "legal",
       "image": {
@@ -232337,7 +232337,7 @@
       ],
       "example": {
         "word": "reciclaje",
-        "text": "El curso de reciclaje actualizó los conocimientos del personal."
+        "text": "El reciclaje transforma botellas usadas en objetos nuevos."
       },
       "exampleSynonym": {
         "word": "formación continua",
@@ -236727,8 +236727,8 @@
         "text": "La tienda acordó reembolsar el precio del abrigo."
       },
       "exampleSynonym": {
-        "word": "devolver el dinero",
-        "text": "La tienda acordó devolver el dinero del abrigo."
+        "word": "devolver el dinero de la compra",
+        "text": "El comercio debe reintegrar una cantidad al comprador."
       },
       "situacion": "finanzas",
       "image": {
@@ -239655,11 +239655,11 @@
       ],
       "example": {
         "word": "refugiado",
-        "text": "El refugiado recibió ayuda al llegar."
+        "text": "El refugiado recibió ayuda al llegar a la ciudad."
       },
       "exampleSynonym": {
         "word": "persona refugiada",
-        "text": "La persona refugiada recibió ayuda al llegar."
+        "text": "La persona refugiada recibió ayuda al llegar a la ciudad."
       },
       "situacion": "sociedad",
       "image": {
@@ -245005,7 +245005,7 @@
       },
       "exampleSynonym": {
         "word": "cautivo",
-        "text": "El grupo liberó al cautivo durante la noche."
+        "text": "La policía liberó a una persona retenida como medio de presión."
       },
       "situacion": "seguridad",
       "image": {
@@ -246355,7 +246355,7 @@
       },
       "exampleSynonym": {
         "word": "quien repite una infracción",
-        "text": "Una persona reincidente es quien repite una infracción."
+        "text": "La persona con reincidencia delictiva volvió a ser condenada."
       },
       "situacion": "legal",
       "image": {
@@ -260127,6 +260127,1625 @@
         "text": "Robar un objeto sagrado fue una falta de respeto."
       },
       "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "sacristia",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacristía",
+      "definition": "Cuarto de una iglesia donde se guardan objetos de las ceremonias. Allí se preparan quienes las dirigen.",
+      "synonyms": [
+        "cuarto de la iglesia"
+      ],
+      "image": {
+        "id": 2450,
+        "alt": "Una habitación de una iglesia tiene armarios con objetos de ceremonia."
+      },
+      "example": {
+        "word": "sacristía",
+        "text": "El sacerdote guardó los objetos de la ceremonia en la sacristía."
+      },
+      "exampleSynonym": {
+        "word": "cuarto de la iglesia",
+        "text": "El sacerdote guardó los objetos de la ceremonia en el cuarto de la iglesia."
+      },
+      "situacion": "conocimiento",
+      "translation": {
+        "en": "sacristy"
+      }
+    }
+  },
+  {
+    "entry": "sacrosanto",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacrosanto",
+      "definition": "Que es muy sagrado y merece respeto.",
+      "synonyms": [
+        "sagrado"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona muestra respeto ante un objeto religioso."
+      },
+      "example": {
+        "word": "sacrosanto",
+        "text": "Para la comunidad, aquel lugar era sacrosanto."
+      },
+      "exampleSynonym": {
+        "word": "sagrado",
+        "text": "Para la comunidad, aquel lugar era sagrado."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "sacudido",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sacudido",
+      "definition": "Que trata a los demás con brusquedad y no suele obedecer.",
+      "synonyms": [
+        "brusco",
+        "indócil"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona responde con brusquedad a sus compañeros."
+      },
+      "example": {
+        "word": "sacudido",
+        "text": "El empleado sacudido habló con brusquedad al supervisor."
+      },
+      "exampleSynonym": {
+        "word": "brusco",
+        "text": "El empleado brusco habló con brusquedad al supervisor."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "graduado",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "translation": {
+        "en": "graduate"
+      }
+    }
+  },
+  {
+    "entry": "pendiente-6",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "translation": {
+        "en": "grade"
+      }
+    }
+  },
+  {
+    "entry": "egresar-educacion",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "translation": {
+        "en": "graduate-5"
+      }
+    }
+  },
+  {
+    "entry": "ducha",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "baño bajo la ducha",
+        "text": "Después de correr, tomó un baño bajo la ducha."
+      }
+    }
+  },
+  {
+    "entry": "escanear-un-documento",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "escanear un documento",
+        "text": "La oficina pudo escanear un documento y guardarlo en el archivo."
+      },
+      "exampleSynonym": {
+        "word": "digitalizar un documento",
+        "text": "La oficina pudo digitalizar un documento y guardarlo en el archivo."
+      }
+    }
+  },
+  {
+    "entry": "incendio-provocado",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "incendio provocado",
+        "text": "La policía investigó un incendio provocado en el almacén."
+      },
+      "exampleSynonym": {
+        "word": "fuego provocado",
+        "text": "La policía investigó un fuego provocado en el almacén."
+      }
+    }
+  },
+  {
+    "entry": "residuos-peligrosos",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "residuos peligrosos",
+        "text": "El taller entregó los residuos peligrosos a una empresa autorizada."
+      },
+      "exampleSynonym": {
+        "word": "basura peligrosa",
+        "text": "El taller entregó los desechos peligrosos a una empresa autorizada."
+      }
+    }
+  },
+  {
+    "entry": "admisible",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "válida",
+        "text": "El juez revisó la prueba que puede admitirse en el juicio."
+      }
+    }
+  },
+  {
+    "entry": "alcoholismo",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "alcoholismo",
+        "text": "Buscó ayuda profesional para tratar su alcoholismo."
+      }
+    }
+  },
+  {
+    "entry": "amnesia",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "amnesia",
+        "text": "El golpe le causó amnesia durante unas horas."
+      },
+      "exampleSynonym": {
+        "word": "pérdida de memoria",
+        "text": "El golpe le causó pérdida de memoria durante unas horas."
+      }
+    }
+  },
+  {
+    "entry": "analfabeto",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "analfabeto",
+        "text": "Ese hombre es analfabeto y no puede leer los carteles."
+      },
+      "exampleSynonym": {
+        "word": "iletrado",
+        "text": "Ese hombre es una persona que no sabe leer ni escribir."
+      }
+    }
+  },
+  {
+    "entry": "anorexia",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "anorexia",
+        "text": "Después de una infección, tuvo anorexia durante varios días."
+      },
+      "exampleSynonym": {
+        "word": "trastorno alimentario",
+        "text": "Después de una infección, tuvo pérdida del apetito durante varios días."
+      }
+    }
+  },
+  {
+    "entry": "arrestar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "arrestar",
+        "text": "La policía tuvo que arrestar al hombre por el robo."
+      },
+      "exampleSynonym": {
+        "word": "detener",
+        "text": "La policía tuvo que detener al hombre por el robo."
+      }
+    }
+  },
+  {
+    "entry": "atrasado",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "pendientes de pago",
+        "text": "Pagó el recibo pendiente de pago antes de la fecha límite."
+      }
+    }
+  },
+  {
+    "entry": "autismo",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "autismo",
+        "text": "El niño con autismo juega en clase."
+      },
+      "exampleSynonym": {
+        "word": "trastorno del espectro autista",
+        "text": "El niño con condición del espectro autista juega en clase."
+      }
+    }
+  },
+  {
+    "entry": "absentista",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "absentista",
+        "text": "El alumno absentista perdió varias clases."
+      },
+      "exampleSynonym": {
+        "word": "ausente habitual",
+        "text": "El alumno que se ausenta habitualmente perdió varias clases."
+      }
+    }
+  },
+  {
+    "entry": "abstemio",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "una persona que no bebe alcohol",
+        "text": "Mi tío es una persona que no consume alcohol."
+      }
+    }
+  },
+  {
+    "entry": "acechar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "acechaba",
+        "text": "El gato suele acechar a los pájaros del jardín."
+      },
+      "exampleSynonym": {
+        "word": "aguardaba oculto",
+        "text": "El gato suele aguardar oculto para atrapar a los pájaros del jardín."
+      }
+    }
+  },
+  {
+    "entry": "agredir",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "agredido",
+        "text": "No debes agredir a nadie durante una discusión."
+      },
+      "exampleSynonym": {
+        "word": "atacado",
+        "text": "No debes atacar a nadie durante una discusión."
+      }
+    }
+  },
+  {
+    "entry": "alevosia",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "con alevosía",
+        "text": "El juez investigó si el acusado actuó con alevosía."
+      },
+      "exampleSynonym": {
+        "word": "a traición",
+        "text": "El juez vio una actuación que asegura la indefensión en ese ataque."
+      }
+    }
+  },
+  {
+    "entry": "amortizar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "amortizar",
+        "text": "La empresa logró amortizar el préstamo en cinco años."
+      },
+      "exampleSynonym": {
+        "word": "saldar",
+        "text": "La empresa empezó a reembolsar gradualmente una deuda bancaria."
+      }
+    }
+  },
+  {
+    "entry": "anemico",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "falto de hierro",
+        "text": "El paciente quedó débil y con anemia después de la operación."
+      }
+    }
+  },
+  {
+    "entry": "antitetanica",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "la antitetánica",
+        "text": "La enfermera puso la vacuna antitetánica al niño."
+      },
+      "exampleSynonym": {
+        "word": "la vacuna del tétanos",
+        "text": "La enfermera puso la vacuna contra el tétanos al niño."
+      }
+    }
+  },
+  {
+    "entry": "apatrida",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "persona sin país",
+        "text": "La persona sin nacionalidad pidió ayuda para obtener documentos."
+      }
+    }
+  },
+  {
+    "entry": "apnea",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "la pausa al respirar",
+        "text": "Durante la noche, tuvo pausas respiratorias durante el sueño."
+      }
+    }
+  },
+  {
+    "entry": "arbitral",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "de arbitraje",
+        "text": "El caso terminó con una decisión de un tribunal arbitral."
+      }
+    }
+  },
+  {
+    "entry": "asbestosis",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "asbestosis",
+        "text": "La asbestosis dañó sus pulmones tras años de exposición."
+      }
+    }
+  },
+  {
+    "entry": "asignatario",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "heredero",
+        "text": "El beneficiario de una asignación recibió el pago completo."
+      }
+    }
+  },
+  {
+    "entry": "asmatico",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "asmática",
+        "text": "El niño asmático llevó su inhalador a la escuela."
+      }
+    }
+  },
+  {
+    "entry": "auditar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "auditar",
+        "text": "La empresa debe auditar sus cuentas cada año."
+      },
+      "exampleSynonym": {
+        "word": "revisar",
+        "text": "La empresa debe realizar una auditoría de sus cuentas cada año."
+      }
+    }
+  },
+  {
+    "entry": "autoinmune",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "autoinmunitaria",
+        "text": "El médico explicó el trastorno autoinmunitario y sus efectos."
+      }
+    }
+  },
+  {
+    "entry": "autolesion",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "daño autoinfligido",
+        "text": "El daño autoinfligido dejó una cicatriz en su brazo."
+      }
+    }
+  },
+  {
+    "entry": "bipolar",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "con cambios extremos de ánimo",
+        "text": "Un síntoma relativo al trastorno bipolar afectó su ánimo."
+      }
+    }
+  },
+  {
+    "entry": "colegiado",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "colegiada",
+        "text": "El colegiado detuvo el partido por una falta."
+      }
+    }
+  },
+  {
+    "entry": "corrupto",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "deshonesto",
+        "text": "El funcionario que incurre en corrupción aceptó dinero ilegal."
+      }
+    }
+  },
+  {
+    "entry": "criminalizar",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "convertir en delito",
+        "text": "La ley puede tipificar como delito la venta de esos productos."
+      }
+    }
+  },
+  {
+    "entry": "cuatrimestre",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "periodos de cuatro meses",
+        "text": "El curso se divide en un periodo de cuatro meses."
+      }
+    }
+  },
+  {
+    "entry": "enviudar",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "quedarse viudo o viuda",
+        "text": "Alguien puede quedar viudo o viuda tras perder a su pareja."
+      }
+    }
+  },
+  {
+    "entry": "escoliosis",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "la curvatura de la columna",
+        "text": "La curvatura lateral de la columna causaba dolor al caminar."
+      }
+    }
+  },
+  {
+    "entry": "esposar",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "poner esposas",
+        "text": "La policía tuvo que poner esposas al detenido."
+      }
+    }
+  },
+  {
+    "entry": "expropiar",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "adquirir legalmente",
+        "text": "El gobierno decidió adquirir forzosamente un bien privado para construir la carretera."
+      }
+    }
+  },
+  {
+    "entry": "exhumar",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "desenterrar",
+        "text": "La fiscalía pidió desenterrar un cadáver para realizar otra prueba."
+      }
+    }
+  },
+  {
+    "entry": "icterico",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "ictérico",
+        "text": "El paciente ictérico tenía la piel y los ojos amarillos."
+      }
+    }
+  },
+  {
+    "entry": "okupar",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "ocupar sin permiso ni pago",
+        "text": "Un grupo decidió ocupar sin autorización el edificio vacío."
+      }
+    }
+  },
+  {
+    "entry": "revalidar",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "confirmar oficialmente que sigue siendo válido",
+        "text": "El ministerio decidió reconocer oficialmente el título extranjero."
+      }
+    }
+  },
+  {
+    "entry": "salvaguardia",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "medidas de protección",
+        "text": "La norma creó una medida de protección para los menores."
+      }
+    }
+  },
+  {
+    "entry": "subempleo",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "el subempleo",
+        "text": "El subempleo obligó a la madre a aceptar dos trabajos."
+      }
+    }
+  },
+  {
+    "entry": "supositorio",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "un medicamento que se introduce en el recto",
+        "text": "El médico recetó una forma farmacéutica para introducir en una cavidad."
+      }
+    }
+  },
+  {
+    "entry": "tasar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tasar",
+        "text": "El perito tuvo que tasar la casa antes de venderla."
+      },
+      "exampleSynonym": {
+        "word": "calcular el valor económico de",
+        "text": "El perito tuvo que valorar económicamente la casa antes de venderla."
+      }
+    }
+  },
+  {
+    "entry": "tumor",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "un tumor benigno",
+        "text": "El médico detectó un tumor benigno durante la revisión."
+      },
+      "exampleSynonym": {
+        "word": "una masa anormal de tejido",
+        "text": "El bulto era una masa anormal de tejido."
+      }
+    }
+  },
+  {
+    "entry": "vejacion",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "una vejación",
+        "text": "La conducta fue una vejación pública y causó una queja."
+      },
+      "exampleSynonym": {
+        "word": "una humillación",
+        "text": "El trato fue una humillación para la trabajadora."
+      }
+    }
+  },
+  {
+    "entry": "abolir",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "abolir una ley",
+        "text": "El parlamento votó abolir una ley antigua."
+      },
+      "exampleSynonym": {
+        "word": "derogar una ley",
+        "text": "El parlamento decidió derogar una ley antigua."
+      }
+    }
+  },
+  {
+    "entry": "insuficiencia-renal",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "insuficiencia renal",
+        "text": "La insuficiencia renal obligó al paciente a recibir tratamiento."
+      }
+    }
+  },
+  {
+    "entry": "amigdalitis",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "amigdalitis",
+        "text": "La amigdalitis le causó dolor al tragar."
+      }
+    }
+  },
+  {
+    "entry": "bocio",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "bocio",
+        "text": "El médico detectó un bocio durante la revisión."
+      }
+    }
+  },
+  {
+    "entry": "acreditar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "acreditar la identidad",
+        "text": "Debes acreditar la identidad antes de recoger el paquete."
+      },
+      "exampleSynonym": {
+        "word": "certificar la identidad",
+        "text": "Debes certificar la identidad antes de recoger el paquete."
+      }
+    }
+  },
+  {
+    "entry": "geriatrico",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "centro geriátrico",
+        "text": "El centro geriátrico ofrece atención diaria a los mayores."
+      },
+      "exampleSynonym": {
+        "word": "centro residencial para mayores",
+        "text": "El centro residencial para mayores ofrece atención diaria a los mayores."
+      }
+    }
+  },
+  {
+    "entry": "tramitar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "tramitar una solicitud",
+        "text": "Debes tramitar una solicitud para obtener la beca."
+      },
+      "exampleSynonym": {
+        "word": "gestionar una solicitud",
+        "text": "Debes gestionar una solicitud para obtener la beca."
+      }
+    }
+  },
+  {
+    "entry": "googlear",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "googlear",
+        "text": "Voy a googlear el nombre de esa tienda."
+      },
+      "exampleSynonym": {
+        "word": "buscar en Google",
+        "text": "Voy a buscar en Google el nombre de esa tienda."
+      }
+    }
+  },
+  {
+    "entry": "usuario-final",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "usuario final",
+        "text": "El usuario final recibió instrucciones para usar el programa."
+      },
+      "exampleSynonym": {
+        "word": "persona usuaria",
+        "text": "La persona usuaria recibió instrucciones para usar el programa."
+      }
+    }
+  },
+  {
+    "entry": "aportes-patronales",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "aportes patronales",
+        "text": "Los aportes patronales cubren parte del seguro de salud."
+      }
+    }
+  },
+  {
+    "entry": "catfishing",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "engaño mediante un perfil falso",
+        "text": "El engaño mediante un perfil falso terminó al conocerse la verdad."
+      }
+    }
+  },
+  {
+    "entry": "ghosting",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "desaparición sin explicación",
+        "text": "Su desaparición sin explicación preocupó a sus amigos."
+      }
+    }
+  },
+  {
+    "entry": "codigo-de-seguridad-de-tarjetas-de-credito",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "código de seguridad de tarjetas de crédito",
+        "text": "Al pagar, escribe el código de seguridad de tarjetas de crédito."
+      }
+    }
+  },
+  {
+    "entry": "contrato-leonino",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "contrato leonino",
+        "text": "El abogado revisó el contrato leonino antes de firmarlo."
+      },
+      "exampleSynonym": {
+        "word": "contrato abusivamente desequilibrado",
+        "text": "El abogado revisó el contrato abusivamente desequilibrado antes de firmarlo."
+      }
+    }
+  },
+  {
+    "entry": "vacio-legal",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "vacío legal",
+        "text": "El juez encontró un vacío legal en la norma."
+      }
+    }
+  },
+  {
+    "entry": "interaccion-medicamentosa",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "interacción entre medicamentos",
+        "text": "El médico explicó la interacción entre medicamentos durante la consulta."
+      }
+    }
+  },
+  {
+    "entry": "vicerrector",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "directivo universitario",
+        "text": "El directivo universitario presentó el nuevo plan de estudios."
+      }
+    }
+  },
+  {
+    "entry": "configurar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "configurar",
+        "text": "Debes configurar el teléfono antes de usarlo."
+      },
+      "exampleSynonym": {
+        "word": "ajustar",
+        "text": "Debes ajustar el teléfono antes de usarlo."
+      }
+    }
+  },
+  {
+    "entry": "reenviar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "reenviar",
+        "text": "Debes reenviar el mensaje al equipo esta tarde."
+      }
+    }
+  },
+  {
+    "entry": "acometida",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "conexión de servicio",
+        "text": "La conexión de servicio llevó agua hasta la nueva casa."
+      }
+    }
+  },
+  {
+    "entry": "aprender",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "aprender",
+        "text": "Los niños van a aprender a leer en clase."
+      }
+    }
+  },
+  {
+    "entry": "dudar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "dudar",
+        "text": "No debes dudar antes de pedir ayuda."
+      },
+      "exampleSynonym": {
+        "word": "vacilar",
+        "text": "No debes vacilar antes de pedir ayuda."
+      }
+    }
+  },
+  {
+    "entry": "ensenar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "enseñar",
+        "text": "La maestra va a enseñar las letras a la clase."
+      }
+    }
+  },
+  {
+    "entry": "imaginar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "imaginar",
+        "text": "A veces me gusta imaginar que vivo junto al mar."
+      }
+    }
+  },
+  {
+    "entry": "observar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "observar",
+        "text": "El guardia pudo observar un coche junto a la puerta."
+      }
+    }
+  },
+  {
+    "entry": "olvidar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "olvidar",
+        "text": "No debes olvidar las llaves al salir de casa."
+      }
+    }
+  },
+  {
+    "entry": "recordar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "recordar",
+        "text": "Quiero recordar el teléfono de mi amiga."
+      }
+    }
+  },
+  {
+    "entry": "comparar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "comparar",
+        "text": "La niña quiso comparar los dos dibujos."
+      },
+      "exampleSynonym": {
+        "word": "contrastar",
+        "text": "La niña quiso contrastar los dos dibujos."
+      }
+    }
+  },
+  {
+    "entry": "navegar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "navegar",
+        "text": "Podemos navegar por la costa en un barco."
+      },
+      "exampleSynonym": {
+        "word": "recorrer internet",
+        "text": "Podemos recorrer internet para encontrar información."
+      }
+    }
+  },
+  {
+    "entry": "verificar-informacion",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "verificar información",
+        "text": "Debes verificar información sobre la dirección."
+      }
+    }
+  },
+  {
+    "entry": "aceptar-herencia",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "aceptar herencia",
+        "text": "Si decides aceptar herencia, consulta antes a un abogado."
+      }
+    }
+  },
+  {
+    "entry": "esforzarse",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "esforzarse",
+        "text": "El equipo decidió esforzarse para ganar el partido."
+      },
+      "exampleSynonym": {
+        "word": "esmerarse",
+        "text": "El equipo decidió esmerarse para ganar el partido."
+      }
+    }
+  },
+  {
+    "entry": "someterse",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "someterse",
+        "text": "La persona puede someterse a una revisión médica."
+      },
+      "exampleSynonym": {
+        "word": "pasar por",
+        "text": "El paciente debe pasar por una revisión médica."
+      }
+    }
+  },
+  {
+    "entry": "transbordo",
+    "remove": [],
+    "set": {
+      "exampleSynonym": {
+        "word": "cambio de transporte",
+        "text": "En la estación, hicimos un cambio de transporte para seguir el viaje."
+      }
+    }
+  },
+  {
+    "entry": "sadico-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "sadismo-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "sadico",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sádico",
+      "definition": "Que pertenece al sadismo o se relaciona con él.",
+      "synonyms": [
+        "relacionado con el sadismo"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un dibujo explica la palabra sadismo."
+      },
+      "example": {
+        "word": "sádico",
+        "text": "El médico explicó el comportamiento sádico del personaje."
+      },
+      "exampleSynonym": {
+        "word": "relacionado con el sadismo",
+        "text": "El médico explicó el comportamiento relacionado con el sadismo del personaje."
+      },
+      "situacion": "emociones"
+    }
+  },
+  {
+    "entry": "sadismo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sadismo",
+      "definition": "Placer sexual que alguien siente al hacer daño a otra persona.",
+      "synonyms": [
+        "placer sexual al causar dolor"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un profesional explica una conducta sexual relacionada con dolor."
+      },
+      "example": {
+        "word": "sadismo",
+        "text": "El libro explica el sadismo."
+      },
+      "exampleSynonym": {
+        "word": "placer sexual al causar dolor",
+        "text": "El libro explica el placer sexual al causar dolor."
+      },
+      "situacion": "cuerpo"
+    }
+  },
+  {
+    "entry": "sadomasoquismo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sadomasoquismo",
+      "definition": "Práctica sexual en la que alguien disfruta al dar y recibir dolor.",
+      "synonyms": [
+        "práctica sexual con dolor"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un profesional explica una práctica sexual con dolor."
+      },
+      "example": {
+        "word": "sadomasoquismo",
+        "text": "El artículo explica el sadomasoquismo con palabras sencillas."
+      },
+      "exampleSynonym": {
+        "word": "práctica sexual con dolor",
+        "text": "El artículo explica la práctica sexual con dolor con palabras sencillas."
+      },
+      "situacion": "cuerpo"
+    }
+  },
+  {
+    "entry": "saeta",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Saeta",
+      "definition": "Flecha que se dispara con un arco.",
+      "synonyms": [
+        "flecha"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una flecha sale disparada de un arco."
+      },
+      "example": {
+        "word": "saeta",
+        "text": "El arquero lanzó una saeta hacia el blanco."
+      },
+      "exampleSynonym": {
+        "word": "flecha",
+        "text": "El arquero lanzó una flecha hacia el blanco."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "saetero",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Saetero",
+      "definition": "Persona que canta saetas durante una procesión.",
+      "synonyms": [
+        "cantante de saetas"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona canta una saeta durante una procesión."
+      },
+      "example": {
+        "word": "saetero",
+        "text": "El saetero cantó durante la procesión."
+      },
+      "exampleSynonym": {
+        "word": "cantante de saetas",
+        "text": "El cantante de saetas cantó durante la procesión."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "safena",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Safena",
+      "definition": "Vena larga que pasa por la pierna, cerca de la piel.",
+      "synonyms": [
+        "vena superficial de la pierna"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un dibujo muestra una vena larga en la pierna."
+      },
+      "example": {
+        "word": "safena",
+        "text": "La safena de su pierna estaba inflamada."
+      },
+      "exampleSynonym": {
+        "word": "vena superficial de la pierna",
+        "text": "La vena superficial de la pierna estaba inflamada."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "saga",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Saga",
+      "definition": "Serie de libros, películas o juegos que cuentan una historia conectada.",
+      "synonyms": [
+        "serie de historias relacionadas"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Varios libros cuentan una historia continua."
+      },
+      "example": {
+        "word": "saga",
+        "text": "La saga de libros termina con una gran batalla."
+      },
+      "exampleSynonym": {
+        "word": "serie de historias relacionadas",
+        "text": "La serie de historias relacionadas termina con una gran batalla."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "sagacidad",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sagacidad",
+      "definition": "Habilidad para entender una situación y encontrar una buena solución.",
+      "synonyms": [
+        "buen criterio"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona encuentra una solución a un problema."
+      },
+      "example": {
+        "word": "sagacidad",
+        "text": "La sagacidad del inspector evitó una estafa."
+      },
+      "exampleSynonym": {
+        "word": "buen criterio",
+        "text": "El buen criterio del inspector evitó una estafa."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "sagaz",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sagaz",
+      "definition": "Que prevé lo que puede pasar y actúa con prudencia.",
+      "synonyms": [
+        "que prevé y evita problemas"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una detective piensa con cuidado antes de actuar."
+      },
+      "example": {
+        "word": "sagaz",
+        "text": "La detective sagaz encontró la pista correcta."
+      },
+      "exampleSynonym": {
+        "word": "que prevé y evita problemas",
+        "text": "La detective que prevé y evita problemas encontró la pista correcta."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "saguaro",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Saguaro",
+      "definition": "Cactus alto de los desiertos de México y Estados Unidos. Tiene flores blancas y da frutos comestibles.",
+      "synonyms": [
+        "cactus de Sonora"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un cactus alto crece en un desierto."
+      },
+      "example": {
+        "word": "saguaro",
+        "text": "El saguaro crece en el desierto."
+      },
+      "exampleSynonym": {
+        "word": "cactus de Sonora",
+        "text": "El cactus de Sonora crece en el desierto."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "sah",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sah",
+      "definition": "Rey de Persia o de Irán.",
+      "synonyms": [
+        "monarca persa o iraní"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un retrato muestra a un antiguo rey de Irán."
+      },
+      "example": {
+        "word": "sah",
+        "text": "El sah gobernó Persia durante muchos años."
+      },
+      "exampleSynonym": {
+        "word": "monarca persa o iraní",
+        "text": "El monarca persa o iraní gobernó durante muchos años."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "sahornarse",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sahornarse",
+      "definition": "Dicho de la piel, irritarse por rozarse con otra parte del cuerpo.",
+      "synonyms": [
+        "irritarse al rozarse"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "La piel se irrita donde dos partes del cuerpo se rozan."
+      },
+      "example": {
+        "word": "sahornarse",
+        "text": "La piel puede sahornarse al caminar mucho."
+      },
+      "exampleSynonym": {
+        "word": "irritarse al rozarse",
+        "text": "La piel puede irritarse al rozarse al caminar mucho."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "sahumador",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sahumador",
+      "definition": "Vaso donde se queman perfumes o sustancias aromáticas.",
+      "synonyms": [
+        "recipiente para quemar perfumes"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un recipiente contiene hierbas aromáticas encendidas."
+      },
+      "example": {
+        "word": "sahumador",
+        "text": "Encendieron hierbas aromáticas dentro del sahumador."
+      },
+      "exampleSynonym": {
+        "word": "recipiente para quemar perfumes",
+        "text": "Encendieron hierbas aromáticas dentro del recipiente para quemar perfumes."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "sahumar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sahumar",
+      "definition": "Quemar algo aromático para perfumar o limpiar con humo.",
+      "synonyms": [
+        "perfumar con humo"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona perfuma una habitación con humo de hierbas."
+      },
+      "example": {
+        "word": "sahumar",
+        "text": "Sahumaron la habitación con hierbas aromáticas."
+      },
+      "exampleSynonym": {
+        "word": "perfumar con humo",
+        "text": "Perfumar con humo la habitación con hierbas aromáticas."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "sahumerio",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sahumerio",
+      "definition": "Acción de perfumar o limpiar algo con humo aromático.",
+      "synonyms": [
+        "perfumar con humo"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona prepara un sahumerio para perfumar una sala."
+      },
+      "example": {
+        "word": "sahumerio",
+        "text": "Prepararon un sahumerio para perfumar la sala."
+      },
+      "exampleSynonym": {
+        "word": "perfumar con humo",
+        "text": "Perfumar con humo la sala llenó el cuarto de aroma."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "sainetero",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sainetero",
+      "definition": "Relacionado con los sainetes, obras de teatro cortas y cómicas.",
+      "synonyms": [
+        "relacionado con sainetes"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una escena muestra una obra teatral breve y cómica."
+      },
+      "example": {
+        "word": "sainetero",
+        "text": "El estilo sainetero aparece en esta obra."
+      },
+      "exampleSynonym": {
+        "word": "relacionado con sainetes",
+        "text": "El estilo relacionado con sainetes aparece en esta obra."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "sainetesco",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sainetesco",
+      "definition": "Que tiene el humor y el estilo de un sainete.",
+      "synonyms": [
+        "con tono de sainete"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una escena teatral mezcla humor y crítica."
+      },
+      "example": {
+        "word": "sainetesco",
+        "text": "El diálogo sainetesco mezcló humor y crítica."
+      },
+      "exampleSynonym": {
+        "word": "con tono de sainete",
+        "text": "El diálogo con tono de sainete mezcló humor y crítica."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "sake",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sake",
+      "definition": "Bebida alcohólica de Japón, hecha al fermentar arroz.",
+      "synonyms": [
+        "bebida japonesa de arroz fermentado"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Un vaso contiene una bebida tradicional hecha de arroz."
+      },
+      "example": {
+        "word": "sake",
+        "text": "Pidieron sake para acompañar la cena."
+      },
+      "exampleSynonym": {
+        "word": "bebida japonesa de arroz fermentado",
+        "text": "Pidieron bebida japonesa de arroz fermentado para acompañar la cena."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "sala-de-vistas",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Sala de vistas",
+      "definition": "Sala de un juzgado donde se celebran juicios y audiencias.",
+      "synonyms": [
+        "espacio del juzgado para celebrar juicios"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una sala de juzgado tiene asientos para un juicio."
+      },
+      "example": {
+        "word": "sala de vistas",
+        "text": "La sala de vistas estaba llena antes del juicio."
+      },
+      "exampleSynonym": {
+        "word": "espacio del juzgado para celebrar juicios",
+        "text": "El espacio del juzgado para celebrar juicios estaba lleno antes de la audiencia."
+      },
+      "situacion": "legal"
+    }
+  },
+  {
+    "entry": "salacidad",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salacidad",
+      "definition": "Inclinación fuerte a sentir deseo sexual.",
+      "synonyms": [
+        "deseo sexual intenso"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una persona muestra un fuerte interés sexual."
+      },
+      "example": {
+        "word": "salacidad",
+        "text": "Su salacidad incomodó a todos."
+      },
+      "exampleSynonym": {
+        "word": "deseo sexual intenso",
+        "text": "Su deseo sexual intenso incomodó a todos."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "saladar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Saladar",
+      "definition": "Laguna donde la sal se acumula y forma cristales.",
+      "synonyms": [
+        "laguna donde se junta la sal"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "La sal se forma en una laguna poco profunda."
+      },
+      "example": {
+        "word": "saladar",
+        "text": "La laguna se convirtió en un saladar."
+      },
+      "exampleSynonym": {
+        "word": "laguna donde se junta la sal",
+        "text": "La laguna donde se junta la sal se secó."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "salamanca",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "salamanca",
+      "definition": "En Argentina, Chile y Uruguay, cueva natural en algunos cerros. La tradición la relaciona con la magia.",
+      "synonyms": [
+        "cueva de brujas"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Una cueva de montaña aparece en una historia de magia."
+      },
+      "example": {
+        "word": "salamanca",
+        "text": "La leyenda decía que las brujas se reunían en la salamanca."
+      },
+      "exampleSynonym": {
+        "word": "cueva de brujas",
+        "text": "La leyenda decía que las brujas se reunían en la cueva de brujas."
+      },
+      "situacion": "historia"
     }
   }
 ]

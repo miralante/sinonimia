@@ -259875,5 +259875,950 @@
       },
       "situacion": "sociedad"
     }
+  },
+  {
+    "entry": "sacristy",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "translation": {
+        "es": "sacristia"
+      }
+    }
+  },
+  {
+    "entry": "gracious-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gracious",
+      "definition": "Elegant and comfortable, with many luxuries.",
+      "synonyms": [
+        "elegant and comfortable"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "An elegant home has fine furniture and decorations."
+      },
+      "example": {
+        "word": "gracious",
+        "text": "They live in a gracious home with fine furniture."
+      },
+      "exampleSynonym": {
+        "word": "elegant and comfortable",
+        "text": "They live in an elegant and comfortable home with fine furniture."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "gradation",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gradation",
+      "definition": "A series of small changes from one stage or level to another.",
+      "synonyms": [
+        "progression",
+        "gradual change"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A chart shows a series of small changes in value."
+      },
+      "example": {
+        "word": "gradation",
+        "text": "The chart showed a gradation in costs from low to high."
+      },
+      "exampleSynonym": {
+        "word": "progression",
+        "text": "The chart showed a progression in costs from low to high."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "grade",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grade",
+      "definition": "A section of road that goes uphill or downhill.",
+      "synonyms": [
+        "slope"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A car drives up a steep road."
+      },
+      "example": {
+        "word": "grade",
+        "text": "The car slowed down on the steep grade."
+      },
+      "exampleSynonym": {
+        "word": "slope",
+        "text": "The car slowed down on the steep slope."
+      },
+      "situacion": "transporte",
+      "translation": {
+        "es": "pendiente-6"
+      }
+    }
+  },
+  {
+    "entry": "grade-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grade",
+      "definition": "A level that shows a worker’s rank or importance at work.",
+      "synonyms": [
+        "work rank"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "An organization chart shows workers at different levels."
+      },
+      "example": {
+        "word": "grade",
+        "text": "She moved up to a higher grade at work."
+      },
+      "exampleSynonym": {
+        "word": "work rank",
+        "text": "She moved up to a higher work rank."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "grader",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grader",
+      "definition": "A large machine that levels soil or gravel, often when building roads.",
+      "synonyms": [
+        "road-leveling machine"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A large machine levels gravel before a road is built."
+      },
+      "example": {
+        "word": "grader",
+        "text": "A grader leveled the gravel before the road was paved."
+      },
+      "exampleSynonym": {
+        "word": "road-leveling machine",
+        "text": "A road-leveling machine leveled the gravel before the road was paved."
+      },
+      "situacion": "transporte"
+    }
+  },
+  {
+    "entry": "gradual",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "gradual",
+      "definition": "Happening in small steps over time, not all at once.",
+      "synonyms": [
+        "slow",
+        "steady"
+      ],
+      "image": {
+        "id": 2379,
+        "alt": "A small plant grows little by little over several days."
+      },
+      "example": {
+        "word": "gradual",
+        "text": "The gradual change took several months."
+      },
+      "exampleSynonym": {
+        "word": "slow",
+        "text": "The slow change took several months."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "graduate",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graduate",
+      "definition": "A person who has completed a degree at a college or university.",
+      "synonyms": [
+        "degree holder"
+      ],
+      "image": {
+        "id": 8098,
+        "alt": "A person celebrates finishing a university degree."
+      },
+      "example": {
+        "word": "graduate",
+        "text": "The graduate completed her studies at the university."
+      },
+      "exampleSynonym": {
+        "word": "degree holder",
+        "text": "The degree holder completed her studies at the university."
+      },
+      "situacion": "educacion",
+      "translation": {
+        "es": "graduado"
+      }
+    }
+  },
+  {
+    "entry": "graduate-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graduate",
+      "definition": "A cup or flask marked with lines for measuring liquid.",
+      "synonyms": [
+        "measuring vessel"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A marked glass vessel measures a small amount of liquid."
+      },
+      "example": {
+        "word": "graduate",
+        "text": "The technician measured the liquid with a graduate."
+      },
+      "exampleSynonym": {
+        "word": "measuring vessel",
+        "text": "The technician measured the liquid with a measuring vessel."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "graduate-3",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graduate",
+      "definition": "To move from one stage to a more important or advanced one.",
+      "synonyms": [
+        "move up to"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A worker moves from an entry role to a leadership role."
+      },
+      "example": {
+        "word": "graduate",
+        "text": "He began to graduate to a management role."
+      },
+      "exampleSynonym": {
+        "word": "move up to",
+        "text": "He began to move up to a management role."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "graduate-5",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graduate",
+      "definition": "To finish your studies at a school, college, or university.",
+      "synonyms": [
+        "finish college"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A student finishes college and celebrates with friends."
+      },
+      "example": {
+        "word": "graduate",
+        "text": "Some students graduate from college in four years."
+      },
+      "exampleSynonym": {
+        "word": "finish college",
+        "text": "Some students finish college in four years."
+      },
+      "situacion": "educacion",
+      "translation": {
+        "es": "egresar-educacion"
+      }
+    }
+  },
+  {
+    "entry": "graft-3",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "graft-5",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "grail-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "graffiti",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graffiti",
+      "definition": "Words or pictures drawn or written in public places, often on walls.",
+      "synonyms": [
+        "writing on walls"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Words and pictures appear on a public wall."
+      },
+      "example": {
+        "word": "graffiti",
+        "text": "The city removed graffiti from the station wall."
+      },
+      "exampleSynonym": {
+        "word": "writing on walls",
+        "text": "The city removed writing on walls from the station."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "graft",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graft",
+      "definition": "A shoot joined to another plant so they grow together.",
+      "synonyms": [
+        "plant shoot"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A shoot is joined to a branch of another plant."
+      },
+      "example": {
+        "word": "graft",
+        "text": "The gardener tied the graft to the old tree."
+      },
+      "exampleSynonym": {
+        "word": "plant shoot",
+        "text": "The gardener tied the plant shoot to the old tree."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "graft-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graft",
+      "definition": "A piece of skin moved to repair another part of the body.",
+      "synonyms": [
+        "skin transplant"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A doctor repairs damaged skin with a skin transplant."
+      },
+      "example": {
+        "word": "graft",
+        "text": "The surgeon used a graft to cover the wound."
+      },
+      "exampleSynonym": {
+        "word": "skin transplant",
+        "text": "The surgeon used a skin transplant to cover the wound."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "graft-4",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graft",
+      "definition": "To join a shoot to another plant. The two parts grow together.",
+      "synonyms": [
+        "join a shoot to another plant"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A gardener joins a shoot to another plant."
+      },
+      "example": {
+        "word": "graft",
+        "text": "They graft an apple shoot onto a strong tree."
+      },
+      "exampleSynonym": {
+        "word": "join a shoot to another plant",
+        "text": "They join a shoot to another plant."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "grail",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grail",
+      "definition": "The cup that Jesus used at the Last Supper, in Christian stories.",
+      "synonyms": [
+        "Holy Grail"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A golden cup from a Christian story."
+      },
+      "example": {
+        "word": "grail",
+        "text": "The legend says a knight searched for the grail."
+      },
+      "exampleSynonym": {
+        "word": "Holy Grail",
+        "text": "The legend says a knight searched for the Holy Grail."
+      },
+      "situacion": "historia"
+    }
+  },
+  {
+    "entry": "grainy",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grainy",
+      "definition": "Rough or full of very small pieces.",
+      "synonyms": [
+        "rough and uneven"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A rough surface has many small pieces."
+      },
+      "example": {
+        "word": "grainy",
+        "text": "The grainy paper scratched my hand."
+      },
+      "exampleSynonym": {
+        "word": "rough and uneven",
+        "text": "The rough and uneven paper scratched my hand."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "grainy-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grainy",
+      "definition": "A photo with many spots, so its details look unclear.",
+      "synonyms": [
+        "photo with many spots"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A photo shows many small spots and unclear details."
+      },
+      "example": {
+        "word": "grainy",
+        "text": "The grainy photo hid the faces."
+      },
+      "exampleSynonym": {
+        "word": "photo with many spots",
+        "text": "The photo with many spots hid the faces."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "grammarian",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grammarian",
+      "definition": "A person who studies or teaches the rules of a language.",
+      "synonyms": [
+        "grammar expert"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A teacher explains the rules of a language."
+      },
+      "example": {
+        "word": "grammarian",
+        "text": "The grammarian taught English at the school."
+      },
+      "exampleSynonym": {
+        "word": "grammar expert",
+        "text": "The grammar expert taught English at the school."
+      },
+      "situacion": "educacion"
+    }
+  },
+  {
+    "entry": "granary",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "granary",
+      "definition": "A building where grain is stored.",
+      "synonyms": [
+        "grain store"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A building holds grain after harvest."
+      },
+      "example": {
+        "word": "granary",
+        "text": "Farmers stored the wheat in the granary."
+      },
+      "exampleSynonym": {
+        "word": "grain store",
+        "text": "Farmers stored the wheat in the grain store."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "granary-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "granary",
+      "definition": "A region that produces a lot of grain.",
+      "synonyms": [
+        "grain-producing region"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A wide farming region grows large amounts of grain."
+      },
+      "example": {
+        "word": "granary",
+        "text": "The valley became the country’s granary."
+      },
+      "exampleSynonym": {
+        "word": "grain-producing region",
+        "text": "The valley became the country’s main grain-producing region."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "grand-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grand",
+      "definition": "One thousand dollars or pounds, in informal speech.",
+      "synonyms": [
+        "a thousand dollars"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person counts a thousand dollars."
+      },
+      "example": {
+        "word": "grand",
+        "text": "The repairs cost a grand."
+      },
+      "exampleSynonym": {
+        "word": "a thousand dollars",
+        "text": "The repairs cost a thousand dollars."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "grandiloquent",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grandiloquent",
+      "definition": "Using formal, complicated words to seem important.",
+      "synonyms": [
+        "trying to sound important"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A speaker uses fancy words to impress an audience."
+      },
+      "example": {
+        "word": "grandiloquent",
+        "text": "His grandiloquent speech made a simple idea sound grand."
+      },
+      "exampleSynonym": {
+        "word": "trying to sound important",
+        "text": "His speech was trying to sound important."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "grandiloquy",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grandiloquy",
+      "definition": "A way of speaking that uses fancy, impressive words.",
+      "synonyms": [
+        "pompous speech"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A speaker gives a showy speech with fancy words."
+      },
+      "example": {
+        "word": "grandiloquy",
+        "text": "Her grandiloquy hid the simple point."
+      },
+      "exampleSynonym": {
+        "word": "pompous speech",
+        "text": "Her pompous speech hid the simple point."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "grandiosity",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grandiosity",
+      "definition": "A showy sense of importance that seems excessive.",
+      "synonyms": [
+        "showy self-importance"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person acts as if they are more important than others."
+      },
+      "example": {
+        "word": "grandiosity",
+        "text": "His grandiosity made every small success sound historic."
+      },
+      "exampleSynonym": {
+        "word": "showy self-importance",
+        "text": "His showy self-importance made every small success sound historic."
+      },
+      "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "grandstand",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grandstand",
+      "definition": "A large stand with seats for sports spectators.",
+      "synonyms": [
+        "sports seating area"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "Rows of seats rise above a sports field."
+      },
+      "example": {
+        "word": "grandstand",
+        "text": "Fans filled the grandstand before the race."
+      },
+      "exampleSynonym": {
+        "word": "sports seating area",
+        "text": "Fans filled the sports seating area before the race."
+      },
+      "situacion": "deportes"
+    }
+  },
+  {
+    "entry": "granite",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "granite",
+      "definition": "A hard rock used for buildings and kitchen surfaces.",
+      "synonyms": [
+        "hard building stone"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A hard gray rock is used for a kitchen counter."
+      },
+      "example": {
+        "word": "granite",
+        "text": "The kitchen counter was made of granite."
+      },
+      "exampleSynonym": {
+        "word": "hard building stone",
+        "text": "The kitchen counter was made of hard building stone."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "grant",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grant",
+      "definition": "Money given to a person or group for a special purpose.",
+      "synonyms": [
+        "money for a special purpose"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A group receives money for a project."
+      },
+      "example": {
+        "word": "grant",
+        "text": "The school received a grant for new books."
+      },
+      "exampleSynonym": {
+        "word": "money for a special purpose",
+        "text": "The school received money for a special purpose to buy new books."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "grantee",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grantee",
+      "definition": "A person or group that receives a grant.",
+      "synonyms": [
+        "grant recipient"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person receives money for a project."
+      },
+      "example": {
+        "word": "grantee",
+        "text": "The grantee used the money to repair the school."
+      },
+      "exampleSynonym": {
+        "word": "grant recipient",
+        "text": "The grant recipient used the money to repair the school."
+      },
+      "situacion": "finanzas"
+    }
+  },
+  {
+    "entry": "grantee-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grantee",
+      "definition": "A person or group given ownership of land or property.",
+      "synonyms": [
+        "person receiving property"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person receives legal ownership of a house."
+      },
+      "example": {
+        "word": "grantee",
+        "text": "The grantee received ownership of the house."
+      },
+      "exampleSynonym": {
+        "word": "person receiving property",
+        "text": "The person receiving property became owner of the house."
+      },
+      "situacion": "legal"
+    }
+  },
+  {
+    "entry": "granular",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "granular",
+      "definition": "Made of, containing, or resembling small grains.",
+      "synonyms": [
+        "made of tiny grains"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A powder contains many small grains."
+      },
+      "example": {
+        "word": "granular",
+        "text": "The granular powder stuck to the bowl."
+      },
+      "exampleSynonym": {
+        "word": "made of tiny grains",
+        "text": "The powder made of tiny grains stuck to the bowl."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "granule",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "granule",
+      "definition": "A very small piece of a substance, often like a grain.",
+      "synonyms": [
+        "small particle"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A tiny piece of sugar sits on a spoon."
+      },
+      "example": {
+        "word": "granule",
+        "text": "A sugar granule stuck to the spoon."
+      },
+      "exampleSynonym": {
+        "word": "small particle",
+        "text": "A small particle of sugar stuck to the spoon."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "grapefruit",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grapefruit",
+      "definition": "A large, round citrus fruit with a sharp, slightly bitter taste.",
+      "synonyms": [
+        "large citrus fruit"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A large yellow citrus fruit is cut in half."
+      },
+      "example": {
+        "word": "grapefruit",
+        "text": "The grapefruit tasted too bitter for her."
+      },
+      "exampleSynonym": {
+        "word": "large citrus fruit",
+        "text": "The large citrus fruit tasted too bitter for her."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "grapefruit-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grapefruit",
+      "definition": "A citrus tree that grows grapefruits.",
+      "synonyms": [
+        "grapefruit tree"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A citrus tree grows large yellow fruits."
+      },
+      "example": {
+        "word": "grapefruit",
+        "text": "The grapefruit grew beside the orange tree."
+      },
+      "exampleSynonym": {
+        "word": "grapefruit tree",
+        "text": "The grapefruit tree grew beside the orange tree."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "grapevine",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grapevine",
+      "definition": "A climbing plant that grows grapes.",
+      "synonyms": [
+        "grape-bearing vine"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A vine with grapes climbs along a garden support."
+      },
+      "example": {
+        "word": "grapevine",
+        "text": "The grapevine covered the old fence."
+      },
+      "exampleSynonym": {
+        "word": "grape-bearing vine",
+        "text": "The grape-bearing vine covered the old fence."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "graph",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graph",
+      "definition": "A diagram that shows how numbers or amounts relate.",
+      "synonyms": [
+        "data diagram"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A diagram compares numbers on two axes."
+      },
+      "example": {
+        "word": "graph",
+        "text": "The graph showed how sales changed each month."
+      },
+      "exampleSynonym": {
+        "word": "data diagram",
+        "text": "The data diagram showed how sales changed each month."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "graph-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graph",
+      "definition": "To show information in a diagram.",
+      "synonyms": [
+        "make a graph"
+      ],
+      "image": {
+        "id": 7024,
+        "alt": "A person turns numbers into a diagram."
+      },
+      "example": {
+        "word": "graph",
+        "text": "She graphed the results for the report."
+      },
+      "exampleSynonym": {
+        "word": "make a graph",
+        "text": "The team will make a graph of the results for the report."
+      },
+      "situacion": "conocimiento"
+    }
   }
 ]

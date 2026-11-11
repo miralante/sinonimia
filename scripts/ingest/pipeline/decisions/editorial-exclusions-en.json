@@ -82181,5 +82181,255 @@
     "id": "sculptor-2",
     "word": "Sculptor",
     "reason": "Duplicate entry for sculptor with no separate meaning."
+  },
+  {
+    "id": "graciousness",
+    "word": "graciousness",
+    "reason": "Transparent noun derived from gracious; the existing card also has an unrelated definition."
+  },
+  {
+    "id": "graded-2",
+    "word": "Graded",
+    "reason": "Unverified and corrupted taste-related definition."
+  },
+  {
+    "id": "gradual-2",
+    "word": "Gradual",
+    "reason": "Duplicate of the corrected gradual sense."
+  },
+  {
+    "id": "gradually-2",
+    "word": "Gradually",
+    "reason": "Transparent and common adverbial derivative of gradual."
+  },
+  {
+    "id": "graduation",
+    "word": "Graduation",
+    "reason": "Common school and university vocabulary."
+  },
+  {
+    "id": "graduation-2",
+    "word": "Graduation",
+    "reason": "Duplicate of the common graduation ceremony sense."
+  },
+  {
+    "id": "graftable",
+    "word": "Graftable",
+    "reason": "Transparent derivative meaning able to be grafted."
+  },
+  {
+    "id": "grafter",
+    "word": "grafter",
+    "reason": "Uninformative agent derivative; the source gives no separate difficult sense."
+  },
+  {
+    "id": "grafter-2",
+    "word": "Grafter",
+    "reason": "Corrupt definition that does not match the word."
+  },
+  {
+    "id": "grain",
+    "word": "Grain",
+    "reason": "Common headword with a corrupt entry for a rare bird condition."
+  },
+  {
+    "id": "grainer",
+    "word": "Grainer",
+    "reason": "Rare transparent derivative with a corrupt definition."
+  },
+  {
+    "id": "gram",
+    "word": "gram",
+    "reason": "Common basic unit of weight, explained in beginner dictionaries."
+  },
+  {
+    "id": "grammar",
+    "word": "Grammar",
+    "reason": "Common basic vocabulary with an easy everyday meaning."
+  },
+  {
+    "id": "grammarize",
+    "word": "Grammarize",
+    "reason": "Unverified rare linguistic jargon."
+  },
+  {
+    "id": "grammatical",
+    "word": "grammatical",
+    "reason": "Common adjective with a transparent meaning."
+  },
+  {
+    "id": "grammaticality",
+    "word": "grammaticality",
+    "reason": "Specialized linguistic jargon outside the dictionary’s useful scope."
+  },
+  {
+    "id": "grainy-3",
+    "word": "Grainy",
+    "reason": "Corrupt definition about pimples; duplicates no verified grainy sense."
+  },
+  {
+    "id": "grainy-4",
+    "word": "Grainy",
+    "reason": "Corrupt definition about rogue characteristics."
+  },
+  {
+    "id": "grainy-5",
+    "word": "Grainy",
+    "reason": "Corrupt definition about rogue characteristics."
+  },
+  {
+    "id": "grainy-6",
+    "word": "grainy",
+    "reason": "Duplicate and corrupt definition of the grainy senses retained separately."
+  },
+  {
+    "id": "grammer",
+    "word": "Grammer",
+    "reason": "Corrupt entry with no valid English definition or usable synonym."
+  },
+  {
+    "id": "grammy",
+    "word": "Grammy",
+    "reason": "Definition is corrupt; the familiar award name is a proper name."
+  },
+  {
+    "id": "gramophonic",
+    "word": "Gramophonic",
+    "reason": "Rare technical adjective tied to obsolete gramophone equipment."
+  },
+  {
+    "id": "grampa",
+    "word": "Grampa",
+    "reason": "Informal spelling variant of the common word grandpa."
+  },
+  {
+    "id": "gramps",
+    "word": "gramps",
+    "reason": "Common informal word for grandfather, with a corrupt definition."
+  },
+  {
+    "id": "grana",
+    "word": "Grana",
+    "reason": "Spanish definition and an invalid English entry."
+  },
+  {
+    "id": "granadillo",
+    "word": "Granadillo",
+    "reason": "Corrupt definition confuses this entry with the Spanish word granadilla."
+  },
+  {
+    "id": "granar",
+    "word": "granar",
+    "reason": "Spanish verb incorrectly included in the English dictionary."
+  },
+  {
+    "id": "granatin",
+    "word": "Granatin",
+    "reason": "Spanish definition of an obscure drink, not an English entry."
+  },
+  {
+    "id": "grand",
+    "word": "grand",
+    "reason": "Common everyday adjective with familiar meanings."
+  },
+  {
+    "id": "granda",
+    "word": "Granda",
+    "reason": "Corrupt non-English definition."
+  },
+  {
+    "id": "grandchild",
+    "word": "grandchild",
+    "reason": "Common family word with a familiar meaning."
+  },
+  {
+    "id": "granddaughter",
+    "word": "granddaughter",
+    "reason": "Common family word; the current definition is corrupt."
+  },
+  {
+    "id": "grandfather",
+    "word": "grandfather",
+    "reason": "Common family word; the current definition is corrupt."
+  },
+  {
+    "id": "grandma",
+    "word": "Grandma",
+    "reason": "Common informal family word."
+  },
+  {
+    "id": "grandma-2",
+    "word": "Grandma",
+    "reason": "Corrupt duplicate with no valid independent English sense."
+  },
+  {
+    "id": "grandness",
+    "word": "Grandness",
+    "reason": "Rare noun duplicating the easier word grand and grandiosity."
+  },
+  {
+    "id": "granero",
+    "word": "Granero",
+    "reason": "Spanish headword incorrectly included in the English dictionary."
+  },
+  {
+    "id": "granguard",
+    "word": "Granguard",
+    "reason": "Obsolete military term for a distant cavalry guard."
+  },
+  {
+    "id": "granillera",
+    "word": "Granillera",
+    "reason": "Spanish word with a corrupt English definition."
+  },
+  {
+    "id": "granite-2",
+    "word": "Granite",
+    "reason": "Transparent adjective meaning related to granite."
+  },
+  {
+    "id": "granite-3",
+    "word": "granite",
+    "reason": "Duplicate of the transparent adjective sense."
+  },
+  {
+    "id": "granular-2",
+    "word": "Granular",
+    "reason": "Corrupt specialized definition about dispersing storm clouds."
+  },
+  {
+    "id": "granulated",
+    "word": "Granulated",
+    "reason": "Transparent derivative meaning shaped like small grains."
+  },
+  {
+    "id": "granulocyte",
+    "word": "Granulocyte",
+    "reason": "Specialized biology term for a type of white blood cell."
+  },
+  {
+    "id": "granulocytosis",
+    "word": "Granulocytosis",
+    "reason": "Specialized medical term for an abnormal increase in granulocytes."
+  },
+  {
+    "id": "granulometric",
+    "word": "granulometric",
+    "reason": "Specialized adjective for measuring grain or particle sizes."
+  },
+  {
+    "id": "granulometry",
+    "word": "Granulometry",
+    "reason": "Specialized study of particle sizes."
+  },
+  {
+    "id": "grao",
+    "word": "Grao",
+    "reason": "Corrupt non-English headword and mismatched definition."
+  },
+  {
+    "id": "grape",
+    "word": "Grape",
+    "reason": "Corrupt definition about a Spanish political organization."
   }
 ]

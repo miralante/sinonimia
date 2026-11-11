@@ -33,4 +33,9 @@
   set("insulin-2", {"example":{"word":"insulin","text":"She stores insulin, a diabetes medication, in the refrigerator."},"exampleSynonym":{"word":"diabetes medication","text":"She stores the diabetes medication in the refrigerator."}});
   set("insult-3", {"example":{"word":"Insult","text":"His insult showed disrespect toward the referee."},"exampleSynonym":{"word":"disrespect","text":"His words showed disrespect toward the referee."}});
   set("insurer", {"example":{"word":"insurer","text":"The insurer, an insurance company, covered the repair costs."},"exampleSynonym":{"word":"insurance company","text":"The insurance company covered the repair costs."}});
+
+// v5059 source fixes: R4527 valid topics
+{const i=d.findIndex(q=>q.id==="graft-3");if(i<0)throw Error("Missing entry en/graft-3");d[i].situacion="sociedad";}
+{const i=d.findIndex(q=>q.id==="graft-5");if(i<0)throw Error("Missing entry en/graft-5");d[i].situacion="salud";}
+{const i=d.findIndex(q=>q.id==="grail-2");if(i<0)throw Error("Missing entry en/grail-2");d[i].situacion="conocimiento";}
 })();
