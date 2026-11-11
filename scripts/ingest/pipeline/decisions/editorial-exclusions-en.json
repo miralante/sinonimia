@@ -83021,5 +83021,95 @@
     "id": "grimace-4",
     "word": "grimace",
     "reason": "Duplicate noun definition of grimace with an unusable synonym gloss."
+  },
+  {
+    "id": "round2418-lilliputian-adjective-related",
+    "word": "Lilliputian",
+    "reason": "Literary sense tied to Lilliput; outside the learner-focused selection."
+  },
+  {
+    "id": "round2418-lilliputian-inhabitant",
+    "word": "Lilliputian",
+    "reason": "Literary inhabitant sense tied to Lilliput; outside the learner-focused selection."
+  },
+  {
+    "id": "round2419-lime-birdlime",
+    "word": "lime",
+    "reason": "Historical birdlime noun sense; too narrow for the dictionary's learner-focused scope."
+  },
+  {
+    "id": "round2419-lime-catch",
+    "word": "lime",
+    "reason": "Historical birdlime trapping sense; too narrow for the dictionary's learner-focused scope."
+  },
+  {
+    "id": "round2419-lime-twigs",
+    "word": "lime",
+    "reason": "Historical birdlime sense; too narrow for the dictionary's learner-focused scope."
+  },
+  {
+    "id": "round2419-limelight-beam",
+    "word": "limelight",
+    "reason": "Former stage-light sense is historical and narrower than the retained figurative sense."
+  },
+  {
+    "id": "round2421-liner-eye",
+    "word": "liner",
+    "reason": "Transparent everyday synonym for eyeliner; does not meet the difficult-word criterion."
+  },
+  {
+    "id": "round2422-lining-process",
+    "word": "lining",
+    "reason": "Transparent action sense of lining; it does not meet the difficult-word criterion."
+  },
+  {
+    "id": "round2422-linoleum-similar-flooring",
+    "word": "linoleum",
+    "reason": "Near-duplicate sense naming a generic floor covering similar to linoleum."
+  },
+  {
+    "id": "round2419-lime-flavour",
+    "word": "lime",
+    "reason": "Transparent everyday flavour adjective; it does not meet the difficult-word criterion."
+  },
+  {
+    "id": "round2420-limp-adjective-energy",
+    "word": "limp",
+    "reason": "Familiar figurative adjective meaning weak or dull; low learner value in this entry."
+  },
+  {
+    "id": "round2419-lime-drink",
+    "word": "lime",
+    "reason": "Transparent name for a lime-flavoured drink; it does not meet the difficult-word criterion."
+  },
+  {
+    "id": "round2419-lime-color",
+    "word": "lime",
+    "reason": "Common colour name; it does not meet the difficult-word criterion."
+  },
+  {
+    "id": "round2419-lime-fruit",
+    "word": "lime",
+    "reason": "Common citrus fruit and tree sense; outside the difficult-word selection."
+  },
+  {
+    "id": "round2420-limp-adjective-soft",
+    "word": "limp",
+    "reason": "Familiar adjective meaning floppy or soft; it does not meet the difficult-word criterion."
+  },
+  {
+    "id": "round2421-linen-household",
+    "word": "linen",
+    "reason": "Transparent household-goods sense, already described by common words."
+  },
+  {
+    "id": "round2421-ling-heather",
+    "word": "ling",
+    "reason": "Narrow plant name with limited learner value for this dictionary."
+  },
+  {
+    "id": "round2419-lime-whitewash",
+    "word": "lime",
+    "reason": "Specialized, low-frequency verb sense for applying limewash; limited learner value."
   }
 ]

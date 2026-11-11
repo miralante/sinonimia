@@ -89057,5 +89057,70 @@
     "id": "salvilora",
     "word": "salvilora",
     "reason": "Nombre regional de una planta, demasiado especializado y poco útil en uso cotidiano."
+  },
+  {
+    "id": "catin",
+    "word": "Catín",
+    "reason": "Crucible specialized in copper refining; too narrow for the dictionary’s learner-focused scope."
+  },
+  {
+    "id": "cauda",
+    "word": "Cauda",
+    "reason": "Historical part of a church vestment; too narrow for the dictionary’s learner-focused scope."
+  },
+  {
+    "id": "epacta",
+    "word": "epacta",
+    "reason": "Término especializado de calendario lunar, fuera de la selección de vocabulario de uso general."
+  },
+  {
+    "id": "epanastrofe",
+    "word": "epanástrofe",
+    "reason": "Figura retórica técnica y especializada, fuera de la selección de vocabulario útil."
+  },
+  {
+    "id": "epicedio",
+    "word": "epicedio",
+    "reason": "Término literario antiguo y muy especializado, fuera del criterio de uso del diccionario."
+  },
+  {
+    "id": "epigrama-3",
+    "word": "Epigrama",
+    "reason": "Ancient inscription sense is specialized and duplicated by another entry."
+  },
+  {
+    "id": "round2420-epacta-calendar",
+    "word": "epacta",
+    "reason": "Término especializado de calendario, de utilidad limitada para el público objetivo."
+  },
+  {
+    "id": "round2420-epacta-december",
+    "word": "epacta",
+    "reason": "Sentido técnico de calendario lunar, de utilidad limitada para el público objetivo."
+  },
+  {
+    "id": "round2420-epanastrofe-conduplicacion",
+    "word": "epanástrofe",
+    "reason": "Figura retórica técnica y especializada, fuera de la selección de vocabulario útil."
+  },
+  {
+    "id": "round2421-epicedio-elegy",
+    "word": "epicedio",
+    "reason": "Término literario funerario muy especializado, fuera del criterio de uso del diccionario."
+  },
+  {
+    "id": "round2422-epifania-feast",
+    "word": "epifanía",
+    "reason": "Transparent feast sense commonly called Día de Reyes; it does not meet the difficult-word criterion."
+  },
+  {
+    "id": "round2423-epigrama-inscription",
+    "word": "epigrama",
+    "reason": "Ancient inscription sense is specialized and duplicated by another entry."
+  },
+  {
+    "id": "round2423-epigenesis-development",
+    "word": "epigénesis",
+    "reason": "Duplicate of the biological sense retained under the base ID epigenesis."
   }
 ]

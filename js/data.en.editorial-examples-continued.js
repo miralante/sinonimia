@@ -79,3 +79,230 @@
   set("snuggle-up", {"exampleSynonym":{"word":"cuddle up","text":"They chose to cuddle up under a blanket during the storm."}});
   set("toss", {"exampleSynonym":{"word":"throw","text":"She had to throw the keys onto the counter."}});
 })();
+
+/* B14: replace literal `undefined` example fields for reviewed retained senses. */
+(()=>{
+  const es=globalThis.DICCIONARIOS?.es;
+  const en=globalThis.DICCIONARIOS?.en;
+  if(!es||!en)throw Error("missing dictionary language");
+  const set=(entries,id,fields)=>{const entry=entries.find(item=>item.id===id);if(!entry)throw Error(`Missing source entry ${id}`);Object.assign(entry,fields);};
+  const add=(entries,entry)=>{if(entries.some(item=>item.id===entry.id))throw Error(`Duplicate source entry ${entry.id}`);entries.push(entry);};
+
+  set(es,"cateto",{
+    definition:"En geometría, cada uno de los dos lados que forman el ángulo recto en un triángulo rectángulo.",
+    synonyms:["lado del triángulo rectángulo"],
+    example:{word:"cateto",text:"El cateto mide cinco centímetros en el dibujo."},
+    exampleSynonym:{word:"lado del triángulo rectángulo",text:"El lado del triángulo rectángulo mide cinco centímetros en el dibujo."}
+  });
+  delete es.find(item=>item.id==="cateto").translation;
+  add(es,{
+    id:"cateto-2",word:"Cateto",image:{id:7024,alt:"Una palabra del diccionario"},
+    definition:"Dicho de una persona: de pueblo o de modales rústicos, en sentido despectivo.",
+    synonyms:["palurdo","rústico"],
+    example:{word:"cateto",text:"En la novela, llaman cateto al protagonista por su origen rural."},
+    exampleSynonym:{word:"palurdo",text:"En la novela, llaman palurdo al protagonista por su origen rural."},
+    situacion:"conocimiento"
+  });
+  set(es,"caustica",{translation:{en:"caustic-3"}});
+
+  set(es,"round2422-epidural-anesthetic",{
+    definition:"Anestesia que se pone cerca de la columna para aliviar el dolor.",
+    example:{word:"epidural",text:"La médica explicó la epidural antes de usarla durante el parto."},
+    exampleSynonym:{word:"anestesia epidural",text:"La médica explicó la anestesia epidural antes de usarla durante el parto."}
+  });
+  set(es,"round2423-epigrafiar-title",{
+    example:{word:"epigrafiar",text:"La autora decidió epigrafiar el capítulo para su artículo."},
+    exampleSynonym:{word:"titular",text:"La autora decidió titular el capítulo para su artículo."}
+  });
+  set(es,"round2422-epifisis-pineal",{
+    example:{word:"epífisis",text:"La epífisis ayuda a regular el sueño."},
+    exampleSynonym:{word:"glándula pineal",text:"La glándula pineal ayuda a regular el sueño."}
+  });
+  set(es,"round2421-epidemia-figurative",{
+    example:{word:"epidemia",text:"La epidemia de rumores se extendió por el barrio."},
+    exampleSynonym:{word:"propagación masiva",text:"La propagación masiva de rumores se extendió por el barrio."}
+  });
+  set(es,"round2419-eoceno-adjective",{
+    example:{word:"eoceno",text:"Los sedimentos eocenos contienen fósiles."},
+    exampleSynonym:{word:"eocénico",text:"Los sedimentos eocénicos contienen fósiles."}
+  });
+  set(es,"round2421-epicentro-figurative",{
+    example:{word:"epicentro",text:"El epicentro del debate fue la falta de agua."},
+    exampleSynonym:{word:"foco principal",text:"El foco principal del debate fue la falta de agua."}
+  });
+  set(es,"round2423-epileptico-person",{
+    example:{word:"persona epiléptica",text:"La persona epiléptica anotó cada crisis."},
+    exampleSynonym:{word:"persona con epilepsia",text:"La persona con epilepsia anotó cada crisis."}
+  });
+  set(es,"round2423-epigramatico-style",{
+    example:{word:"epigramático",text:"El estilo epigramático fue breve."},
+    exampleSynonym:{word:"ingenioso y conciso",text:"El estilo ingenioso y conciso fue breve."}
+  });
+  set(es,"round2419-eon-gnostic",{
+    definition:"Entidad divina que, según el gnosticismo, emana de la divinidad suprema.",
+    synonyms:["inteligencia eterna","entidad divina"],
+    example:{word:"eón",text:"Cada eón emanaba de la divinidad suprema."},
+    exampleSynonym:{word:"entidad divina",text:"Cada entidad divina emanaba de la divinidad suprema."}
+  });
+  set(es,"round2421-epicureo-pleasure",{
+    example:{word:"epicúreo",text:"El epicúreo disfrutó de una buena comida con sus amigos."},
+    exampleSynonym:{word:"amante de los placeres",text:"El amante de los placeres disfrutó de una buena comida con sus amigos."}
+  });
+  set(es,"round2419-enzurronar-enclose",{
+    example:{word:"enzurronar",text:"La familia quiso enzurronar la manta dentro del zurrón."},
+    exampleSynonym:{word:"encerrar",text:"La familia quiso encerrar la manta dentro del zurrón."}
+  });
+
+  set(en,"round2421-lineament-characteristic",{
+    example:{word:"lineament",text:"A lineament of her face helped the artist recognize her."},
+    exampleSynonym:{word:"characteristic",text:"A characteristic of her face helped the artist recognize her."}
+  });
+  set(en,"round2419-lime-soil",{
+    synonyms:["apply lime to","treat soil with lime","add lime to soil"],
+    example:{word:"lime",text:"Farmers lime the field before planting."},
+    exampleSynonym:{word:"apply lime to","text":"Farmers apply lime to the field before planting."}
+  });
+  set(en,"round2421-linearity-physics",{
+    example:{word:"linearity",text:"The experiment showed linearity between force and movement."},
+    exampleSynonym:{word:"direct proportionality",text:"The experiment showed direct proportionality between force and movement."}
+  });
+  set(en,"round2421-liner-lining",{
+    example:{word:"liner",text:"The coat's liner kept rain off the wool."},
+    exampleSynonym:{word:"lining",text:"The coat's lining kept rain off the wool."}
+  });
+  set(en,"round2418-lilliputian-adjective-petty",{
+    example:{word:"Lilliputian",text:"The editor called the complaint Lilliputian because it concerned one detail."},
+    exampleSynonym:{word:"trivial",text:"The editor called the complaint trivial because it concerned one detail."}
+  });
+  set(en,"round2421-lingual-articulated",{
+    example:{word:"lingual",text:"The speaker made a lingual sound with the tip of her tongue."},
+    exampleSynonym:{word:"tongue-articulated",text:"The speaker made a tongue-articulated sound with the tip of her tongue."}
+  });
+  set(en,"round2421-liner-person",{
+    example:{word:"liner",text:"The liner repaired the torn coat lining."},
+    exampleSynonym:{word:"lining fitter",text:"The lining fitter repaired the torn coat lining."}
+  });
+  set(en,"round2421-linger-stay",{
+    example:{word:"linger",text:"They can linger by the gate after the concert."},
+    exampleSynonym:{word:"stay on",text:"They can stay on by the gate after the concert."}
+  });
+  set(en,"round2421-linger-saunter",{
+    example:{word:"linger",text:"They lingered along the path after lunch."},
+    exampleSynonym:{word:"saunter",text:"They sauntered along the path after lunch."}
+  });
+  set(en,"round2421-linger-dither",{
+    example:{word:"linger",text:"She can linger over the answer for hours."},
+    exampleSynonym:{word:"dither",text:"She can dither over the answer for hours."}
+  });
+  set(en,"round2420-limp-noun",{
+    example:{word:"limp",text:"After surgery, the patient's limp was obvious."},
+    exampleSynonym:{word:"uneven walk",text:"After surgery, the patient's uneven walk was obvious."}
+  });
+  set(en,"round2420-limp-falter",{
+    synonyms:["falter","struggle","struggle along","move laboriously"],
+    example:{word:"limp",text:"He can limp along the path after surgery."},
+    exampleSynonym:{word:"struggle",text:"He can struggle along the path after surgery."}
+  });
+  set(en,"round2420-limp-adjective-body",{
+    definition:"Lacking strength or control, as an injured or unconscious arm may be.",
+    synonyms:["weak","without strength"],
+    example:{word:"limp",text:"After the injury, his arm seemed limp."},
+    exampleSynonym:{word:"weak",text:"After the injury, his arm seemed weak."}
+  });
+  set(en,"round2422-lining-anatomy",{
+    example:{word:"lining",text:"The lining protects the stomach wall."},
+    exampleSynonym:{word:"inner tissue layer",text:"The inner tissue layer protects the stomach wall."}
+  });
+  set(en,"round2421-lineman-utility",{
+    example:{word:"lineman",text:"The lineman repaired the power line after the storm."},
+    exampleSynonym:{word:"power-line technician",text:"The power-line technician repaired the power line after the storm."}
+  });
+  set(en,"round2422-linker-grammar",{
+    example:{word:"linker",text:"The linker «but» joined two clauses."},
+    exampleSynonym:{word:"connecting word",text:"The connecting word «but» joined two clauses."}
+  });
+  set(en,"round2421-lingual-consonant",{
+    synonyms:["tongue-made consonant","consonant made with the tongue"],
+    example:{word:"lingual consonant",text:"The /t/ sound is a lingual consonant."},
+    exampleSynonym:{word:"consonant made with the tongue",text:"The /t/ sound is a consonant made with the tongue."}
+  });
+  set(en,"round2418-lilliputian-noun-petty",{
+    example:{word:"Lilliputian",text:"The editor called him a Lilliputian over small details."},
+    exampleSynonym:{word:"petty person",text:"The editor called him a petty person over small details."}
+  });
+  set(en,"round2418-lilliputian-adjective-size",{
+    example:{word:"Lilliputian",text:"The statue looked Lilliputian beside the full-size building."},
+    exampleSynonym:{word:"tiny",text:"The statue looked tiny beside the full-size building."}
+  });
+  set(en,"round2419-limelight-public-attention",{
+    synonyms:["spotlight","public attention"],
+    example:{word:"limelight",text:"The singer enjoyed the limelight after winning the award."},
+    exampleSynonym:{word:"spotlight",text:"The singer enjoyed the spotlight after winning the award."}
+  });
+  set(en,"round2421-lingual-language",{
+    example:{word:"lingual",text:"The lingual rules explain how language changes."},
+    exampleSynonym:{word:"linguistic",text:"The linguistic rules explain how language changes."}
+  });
+  set(en,"round2421-lineament-geology",{
+    example:{word:"lineament",text:"The aerial image showed a lineament crossing the plateau."},
+    exampleSynonym:{word:"geological feature",text:"The aerial image showed a geological feature crossing the plateau."}
+  });
+  set(en,"round2421-linearity-electronics",{
+    example:{word:"linearity",text:"The meter's linearity matched each change in input."},
+    exampleSynonym:{word:"proportional response",text:"The meter's proportional response matched each change in input."}
+  });
+  set(en,"round2421-lineman-platelayer",{
+    example:{word:"lineman",text:"The lineman repaired the track before trains returned."},
+    exampleSynonym:{word:"railway track worker",text:"The railway track worker repaired the track before trains returned."}
+  });
+  set(en,"round2421-lineman-surveyor",{
+    example:{word:"lineman",text:"The lineman marked each survey point across the field."},
+    exampleSynonym:{word:"survey assistant",text:"The survey assistant marked each survey point across the field."}
+  });
+  set(en,"round2421-liner-tracing",{
+    example:{word:"liner",text:"The liner drew a straight border on the map."},
+    exampleSynonym:{word:"line marker",text:"The line marker drew a straight border on the map."}
+  });
+  set(en,"round2421-linguistic-study",{
+    example:{word:"linguistic",text:"The linguistic study compared words from two languages."},
+    exampleSynonym:{word:"linguistics-related",text:"The linguistics-related study compared words from two languages."}
+  });
+  set(en,"round2421-liner-line-drive",{
+    example:{word:"liner",text:"The batter hit a liner over the second baseman."},
+    exampleSynonym:{word:"line drive",text:"The batter hit a line drive over the second baseman."}
+  });
+  set(en,"round2422-lining-protective",{
+    example:{word:"lining",text:"The box's lining kept the photographs dry."},
+    exampleSynonym:{word:"protective inner layer",text:"The box's protective inner layer kept the photographs dry."}
+  });
+  set(en,"round2421-lineage-derivation",{
+    synonyms:["origin","history","derivation"],
+    example:{word:"lineage",text:"The lineage of the custom goes back to the village."},
+    exampleSynonym:{word:"history",text:"The history of the custom goes back to the village."}
+  });
+  set(en,"round2421-liner-engineering",{
+    example:{word:"liner",text:"The pump's liner reduced wear inside the machine."},
+    exampleSynonym:{word:"protective sleeve",text:"The pump's protective sleeve reduced wear inside the machine."}
+  });
+  set(en,"caustic",{
+    definition:"Able to burn or damage tissue through a chemical reaction.",
+    synonyms:["corrosive"],
+    example:{word:"caustic",text:"The cleaner contains a caustic chemical."},
+    exampleSynonym:{word:"corrosive",text:"The cleaner contains a corrosive chemical."},
+    translation:{es:"corrosivo"}
+  });
+  add(en,{
+    id:"caustic-2",word:"caustic",image:{id:7024,alt:"A dictionary word"},
+    definition:"Very critical or sarcastic in a hurtful way.",synonyms:["cutting","bitter"],
+    example:{word:"caustic",text:"The reviewer made a caustic remark about the design."},
+    exampleSynonym:{word:"cutting",text:"The reviewer made a cutting remark about the design."},
+    situacion:"conocimiento",translation:{es:"mordaz-3"}
+  });
+  add(en,{
+    id:"caustic-3",word:"caustic",image:{id:7024,alt:"A dictionary word"},
+    definition:"A bright curve formed when a curved surface reflects or bends light.",synonyms:["bright curve","light curve"],
+    example:{word:"caustic",text:"A caustic appeared on the wall when the curved mirror focused the light."},
+    exampleSynonym:{word:"bright curve",text:"A bright curve appeared on the wall when the curved mirror focused the light."},
+    situacion:"conocimiento",translation:{es:"caustica"}
+  });
+})();
