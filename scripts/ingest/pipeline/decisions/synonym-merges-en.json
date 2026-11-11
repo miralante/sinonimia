@@ -2517,5 +2517,9 @@
     "aliases": [
       "frothy"
     ]
+  },
+  {
+    "canonical": "griffin",
+    "alias": "griffon"
   }
 ]

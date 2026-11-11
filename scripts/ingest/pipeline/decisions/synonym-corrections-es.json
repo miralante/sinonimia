@@ -263213,27 +263213,5 @@
       },
       "situacion": "salud"
     }
-  },
-  {
-    "entry": "salvaguarda",
-    "remove": [],
-    "unset": [],
-    "set": {
-      "word": "Salvaguarda",
-      "definition": "Medida que protege algo de un daño o un riesgo.",
-      "synonyms": [
-        "medida de protección",
-        "salvaguardia"
-      ],
-      "example": {
-        "word": "salvaguarda",
-        "text": "La empresa tomó una salvaguarda para proteger sus datos."
-      },
-      "exampleSynonym": {
-        "word": "medida de protección",
-        "text": "La empresa tomó una medida de protección para sus datos."
-      },
-      "situacion": "seguridad"
-    }
   }
 ]

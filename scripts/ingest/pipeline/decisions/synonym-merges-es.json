@@ -1318,5 +1318,17 @@
   {
     "canonical": "sarpullido",
     "alias": "salpullido"
+  },
+  {
+    "canonical": "salvaguardia",
+    "alias": "salvaguarda"
+  },
+  {
+    "canonical": "salvajada",
+    "alias": "salvajeria"
+  },
+  {
+    "canonical": "rescate",
+    "alias": "salvamento"
   }
 ]

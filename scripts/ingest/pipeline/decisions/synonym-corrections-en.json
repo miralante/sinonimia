@@ -263846,5 +263846,93 @@
       },
       "situacion": "trabajo"
     }
+  },
+  {
+    "entry": "grievance-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grievance",
+      "definition": "A real or imagined wrong that makes someone feel unfairly treated.",
+      "synonyms": [
+        "unfair treatment",
+        "cause for complaint"
+      ],
+      "example": {
+        "word": "grievance",
+        "text": "The employee raised a grievance about unpaid overtime."
+      },
+      "exampleSynonym": {
+        "word": "unfair treatment",
+        "text": "The employee complained about unfair treatment at work."
+      },
+      "situacion": "trabajo"
+    }
+  },
+  {
+    "entry": "grieve",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grieve",
+      "definition": "To feel deep sadness, especially after a death.",
+      "synonyms": [
+        "mourn",
+        "lament"
+      ],
+      "example": {
+        "word": "grieve",
+        "text": "The family will grieve for their grandmother."
+      },
+      "exampleSynonym": {
+        "word": "mourn",
+        "text": "The family will mourn their grandmother."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "grieve-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grieve",
+      "definition": "To cause someone deep sadness or distress.",
+      "synonyms": [
+        "sadden",
+        "distress"
+      ],
+      "example": {
+        "word": "grieve",
+        "text": "The news may grieve people who knew him."
+      },
+      "exampleSynonym": {
+        "word": "sadden",
+        "text": "The news may sadden people who knew him."
+      },
+      "situacion": "sociedad"
+    }
+  },
+  {
+    "entry": "griffin",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "griffin",
+      "definition": "A creature with a lion’s body and an eagle’s head and wings.",
+      "synonyms": [
+        "gryphon",
+        "griffon"
+      ],
+      "example": {
+        "word": "griffin",
+        "text": "A griffin guards the gate in the old story."
+      },
+      "exampleSynonym": {
+        "word": "gryphon",
+        "text": "A gryphon guards the gate in the old story."
+      },
+      "situacion": "historia"
+    }
   }
 ]

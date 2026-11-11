@@ -82961,5 +82961,40 @@
     "id": "grid-3",
     "word": "Grid",
     "reason": "Definición corrupta de un verbo que no corresponde a este lema."
+  },
+  {
+    "id": "grieving",
+    "word": "grieving",
+    "reason": "Forma participial derivada de grieve, con significado transparente."
+  },
+  {
+    "id": "grill",
+    "word": "grill",
+    "reason": "Verbo y utensilio de cocina demasiado comunes para este diccionario."
+  },
+  {
+    "id": "grill-2",
+    "word": "Grill",
+    "reason": "Definición arqueológica o dialectal muy especializada."
+  },
+  {
+    "id": "grill-3",
+    "word": "Grill",
+    "reason": "Sentido básico y transparente de aparato para asar."
+  },
+  {
+    "id": "grill-4",
+    "word": "Grill",
+    "reason": "Duplicado corrupto del uso común de grill para cocinar."
+  },
+  {
+    "id": "grill-5",
+    "word": "Grill",
+    "reason": "Duplicado del aparato o método común de cocinar a la parrilla."
+  },
+  {
+    "id": "grilled",
+    "word": "Grilled",
+    "reason": "Definición corrupta que no corresponde a grilled."
   }
 ]
