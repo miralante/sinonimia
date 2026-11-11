@@ -16134,8 +16134,8 @@
         "text": "La entidad decidió domiciliar su sede en la capital."
       },
       "exampleSynonym": {
-        "word": "establecer domicilio",
-        "text": "La entidad decidió establecer su domicilio en la capital."
+        "word": "fijar el domicilio",
+        "text": "La entidad decidió fijar el domicilio en la capital."
       },
       "situacion": "tramites"
     }
@@ -29727,11 +29727,11 @@
       ],
       "example": {
         "word": "un enlace entre las dos familias",
-        "text": "El enlace entre las dos familias duró muchos años."
+        "text": "El matrimonio creó un enlace entre las dos familias."
       },
       "exampleSynonym": {
-        "word": "una unión entre las dos familias",
-        "text": "La unión entre las dos familias duró muchos años."
+        "word": "conexión",
+        "text": "El matrimonio creó una conexión entre las dos familias."
       }
     }
   },
@@ -40323,8 +40323,8 @@
         "text": "Le colocaron una escayola para proteger el brazo roto."
       },
       "exampleSynonym": {
-        "word": "yeso fino",
-        "text": "Le colocaron un vendaje rígido para proteger el brazo roto."
+        "word": "vendaje rígido",
+        "text": "El médico protegió el brazo con un vendaje rígido."
       },
       "situacion": "health",
       "translation": {
@@ -44799,7 +44799,7 @@
     "set": {
       "word": "Notificación de una aplicación",
       "example": {
-        "word": "notificacion-app",
+        "word": "notificación de la app",
         "text": "La notificación de la app mostró un mensaje nuevo."
       },
       "exampleSynonym": {
@@ -56486,7 +56486,7 @@
       },
       "exampleSynonym": {
         "word": "perdón de la pena",
-        "text": "La autoridad concedió un perdón parcial de la pena."
+        "text": "El preso recibió el perdón de la pena."
       }
     }
   },
@@ -68300,7 +68300,7 @@
       },
       "exampleSynonym": {
         "word": "administración mediante jeringa",
-        "text": "Le administraron el medicamento con una jeringa para el tétanos."
+        "text": "La administración mediante jeringa evitó que tragara la medicina."
       }
     }
   },
@@ -129924,7 +129924,7 @@
         "alias de cuenta"
       ],
       "example": {
-        "word": "nombre-de-usuario",
+        "word": "nombre de usuario",
         "text": "Elige un nombre de usuario fácil de recordar."
       },
       "exampleSynonym": {
@@ -130340,7 +130340,7 @@
         "papel autoadhesivo"
       ],
       "example": {
-        "word": "nota-adhesiva",
+        "word": "nota adhesiva",
         "text": "Dejó una nota adhesiva en la nevera."
       },
       "exampleSynonym": {
@@ -130361,7 +130361,7 @@
         "extracto de propiedad"
       ],
       "example": {
-        "word": "nota-simple",
+        "word": "nota simple",
         "text": "Pidió una nota simple antes de comprar la casa."
       },
       "exampleSynonym": {
@@ -130532,7 +130532,7 @@
         "text": "Recibió una notificación del ayuntamiento."
       },
       "exampleSynonym": {
-        "word": "comunicación oficial",
+        "word": "aviso",
         "text": "Recibió un aviso del ayuntamiento."
       },
       "situacion": "administracion"
@@ -133796,11 +133796,11 @@
         "anuncio de empleo"
       ],
       "example": {
-        "word": "oferta-trabajo",
+        "word": "oferta de trabajo",
         "text": "La empresa publicó una oferta de trabajo."
       },
       "exampleSynonym": {
-        "word": "vacante",
+        "word": "anuncio de empleo",
         "text": "La empresa publicó un anuncio de empleo."
       },
       "situacion": "trabajo"
@@ -135544,7 +135544,7 @@
       },
       "exampleSynonym": {
         "word": "cancerólogo",
-        "text": "El médico del cáncer explicó las opciones de tratamiento."
+        "text": "El cancerólogo explicó las opciones de tratamiento."
       },
       "situacion": "salud"
     }
@@ -261746,6 +261746,81 @@
         "text": "La leyenda decía que las brujas se reunían en la cueva de brujas."
       },
       "situacion": "historia"
+    }
+  },
+  {
+    "entry": "salamanquesa",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salamanquesa",
+      "image": {
+        "id": 7024,
+        "alt": "Una ficha sobre un término del español."
+      },
+      "definition": "Lagartija pequeña que trepa por las paredes. Vive en el sur de Europa.",
+      "synonyms": [
+        "geco"
+      ],
+      "example": {
+        "word": "salamanquesa",
+        "text": "Una salamanquesa apareció en la pared de la terraza."
+      },
+      "exampleSynonym": {
+        "word": "geco",
+        "text": "Un geco apareció en la pared de la terraza."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "salamin",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salamín",
+      "image": {
+        "id": 7024,
+        "alt": "Una ficha sobre un término del español."
+      },
+      "definition": "En Argentina y Uruguay, salame o embutido similar al salami.",
+      "synonyms": [
+        "salami"
+      ],
+      "example": {
+        "word": "salamín",
+        "text": "En Argentina y Uruguay, compró un salamín para la merienda."
+      },
+      "exampleSynonym": {
+        "word": "salami",
+        "text": "En Argentina y Uruguay, compró un salami para la merienda."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "salar",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salar",
+      "image": {
+        "id": 7024,
+        "alt": "Una ficha sobre un término del español."
+      },
+      "definition": "En Argentina, lugar donde se acumula el salitre.",
+      "synonyms": [
+        "depósito de salitre"
+      ],
+      "example": {
+        "word": "salar",
+        "text": "El salar se extendía por la zona desértica."
+      },
+      "exampleSynonym": {
+        "word": "depósito de salitre",
+        "text": "El depósito de salitre se extendía por la zona desértica."
+      },
+      "situacion": "naturaleza"
     }
   }
 ]

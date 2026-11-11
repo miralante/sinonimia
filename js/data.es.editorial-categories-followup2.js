@@ -452,4 +452,20 @@
 {const i=d.findIndex(q=>q.id==="transbordo");if(i<0)throw Error("Missing entry transbordo");d[i]["exampleSynonym"].text="En la estación, hicimos un cambio de transporte para seguir el viaje.";}
 {const i=d.findIndex(q=>q.id==="sadico-2");if(i<0)throw Error("Missing entry es/sadico-2");d[i].situacion="sociedad";}
 {const i=d.findIndex(q=>q.id==="sadismo-2");if(i<0)throw Error("Missing entry es/sadismo-2");d[i].situacion="sociedad";}
+
+// v5066 source fixes: A130 active examples
+{const i=d.findIndex(q=>q.id==="notificacion");if(i<0)throw Error("Missing entry notificacion");d[i]["exampleSynonym"].word="aviso";d[i]["exampleSynonym"].text="Recibió un aviso del ayuntamiento.";}
+{const i=d.findIndex(q=>q.id==="domiciliar");if(i<0)throw Error("Missing entry domiciliar");d[i]["exampleSynonym"].word="fijar el domicilio";d[i]["exampleSynonym"].text="La entidad decidió fijar el domicilio en la capital.";}
+{const i=d.findIndex(q=>q.id==="escayola");if(i<0)throw Error("Missing entry escayola");d[i]["exampleSynonym"].word="vendaje rígido";d[i]["exampleSynonym"].text="El médico protegió el brazo con un vendaje rígido.";}
+{const i=d.findIndex(q=>q.id==="inyeccion");if(i<0)throw Error("Missing entry inyeccion");d[i]["exampleSynonym"].word="administración mediante jeringa";d[i]["exampleSynonym"].text="La administración mediante jeringa evitó que tragara la medicina.";}
+{const i=d.findIndex(q=>q.id==="indulto");if(i<0)throw Error("Missing entry indulto");d[i]["exampleSynonym"].word="perdón de la pena";d[i]["exampleSynonym"].text="El preso recibió el perdón de la pena.";}
+{const i=d.findIndex(q=>q.id==="nota-simple");if(i<0)throw Error("Missing entry nota-simple");d[i]["example"].word="nota simple";d[i]["example"].text="Pidió una nota simple antes de comprar la casa.";}
+{const i=d.findIndex(q=>q.id==="oferta-trabajo");if(i<0)throw Error("Missing entry oferta-trabajo");d[i]["example"].word="oferta de trabajo";d[i]["example"].text="La empresa publicó una oferta de trabajo.";}
+{const i=d.findIndex(q=>q.id==="oferta-trabajo");if(i<0)throw Error("Missing entry oferta-trabajo");d[i]["exampleSynonym"].word="anuncio de empleo";d[i]["exampleSynonym"].text="La empresa publicó un anuncio de empleo.";}
+{const i=d.findIndex(q=>q.id==="oncologo");if(i<0)throw Error("Missing entry oncologo");d[i]["exampleSynonym"].word="cancerólogo";d[i]["exampleSynonym"].text="El cancerólogo explicó las opciones de tratamiento.";}
+{const i=d.findIndex(q=>q.id==="nota-adhesiva");if(i<0)throw Error("Missing entry nota-adhesiva");d[i]["example"].word="nota adhesiva";d[i]["example"].text="Dejó una nota adhesiva en la nevera.";}
+{const i=d.findIndex(q=>q.id==="enlace");if(i<0)throw Error("Missing entry enlace");d[i]["example"].word="un enlace entre las dos familias";d[i]["example"].text="El matrimonio creó un enlace entre las dos familias.";}
+{const i=d.findIndex(q=>q.id==="enlace");if(i<0)throw Error("Missing entry enlace");d[i]["exampleSynonym"].word="conexión";d[i]["exampleSynonym"].text="El matrimonio creó una conexión entre las dos familias.";}
+{const i=d.findIndex(q=>q.id==="notificacion-app");if(i<0)throw Error("Missing entry notificacion-app");d[i]["example"].word="notificación de la app";d[i]["example"].text="La notificación de la app mostró un mensaje nuevo.";}
+{const i=d.findIndex(q=>q.id==="nombre-de-usuario");if(i<0)throw Error("Missing entry nombre-de-usuario");d[i]["example"].word="nombre de usuario";d[i]["example"].text="Elige un nombre de usuario fácil de recordar.";}
 })();

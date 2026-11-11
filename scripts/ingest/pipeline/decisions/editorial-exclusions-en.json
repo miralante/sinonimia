@@ -82431,5 +82431,20 @@
     "id": "grape",
     "word": "Grape",
     "reason": "Corrupt definition about a Spanish political organization."
+  },
+  {
+    "id": "graphomaniac",
+    "word": "graphomaniac",
+    "reason": "No se pudo verificar una entrada independiente en Collins."
+  },
+  {
+    "id": "graphometer",
+    "word": "graphometer",
+    "reason": "Instrumento especializado no verificable en Collins y sin uso general acreditado."
+  },
+  {
+    "id": "graphoscope",
+    "word": "graphoscope",
+    "reason": "Instrumento óptico histórico no verificable en Collins y de uso obsoleto."
   }
 ]

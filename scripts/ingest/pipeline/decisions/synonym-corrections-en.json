@@ -260820,5 +260820,255 @@
       },
       "situacion": "conocimiento"
     }
+  },
+  {
+    "entry": "grapheme",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grapheme",
+      "image": {
+        "id": 7024,
+        "alt": "A dictionary word."
+      },
+      "definition": "A letter or group of letters that represents a sound in writing.",
+      "synonyms": [
+        "written sound unit"
+      ],
+      "example": {
+        "word": "grapheme",
+        "text": "The letters ph form one grapheme in this word."
+      },
+      "exampleSynonym": {
+        "word": "written sound unit",
+        "text": "The letters ph form one written sound unit in this word."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "graphic",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graphic",
+      "image": {
+        "id": 7024,
+        "alt": "A dictionary word."
+      },
+      "definition": "Related to pictures or drawings, especially in design or computing.",
+      "synonyms": [
+        "picture-related"
+      ],
+      "example": {
+        "word": "graphic",
+        "text": "She works in graphic design."
+      },
+      "exampleSynonym": {
+        "word": "picture-related",
+        "text": "She works in picture-related design."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "graphics",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graphics",
+      "image": {
+        "id": 7024,
+        "alt": "A dictionary word."
+      },
+      "definition": "The study of the symbols and rules used in writing systems.",
+      "synonyms": [
+        "writing-system study"
+      ],
+      "example": {
+        "word": "graphics",
+        "text": "The course covered graphics in several writing systems."
+      },
+      "exampleSynonym": {
+        "word": "writing-system study",
+        "text": "The course covered the writing-system study in several languages."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "graphics-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graphics",
+      "image": {
+        "id": 7024,
+        "alt": "A dictionary word."
+      },
+      "definition": "The art or activity of making drawings and visual designs.",
+      "synonyms": [
+        "visual design"
+      ],
+      "example": {
+        "word": "graphics",
+        "text": "He studied graphics at college."
+      },
+      "exampleSynonym": {
+        "word": "visual design",
+        "text": "He studied visual design at college."
+      },
+      "situacion": "arte"
+    }
+  },
+  {
+    "entry": "graphite",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graphite",
+      "image": {
+        "id": 7024,
+        "alt": "A dictionary word."
+      },
+      "definition": "A soft, black form of carbon used in pencils and electrical equipment.",
+      "synonyms": [
+        "black lead"
+      ],
+      "example": {
+        "word": "graphite",
+        "text": "The pencil core contains graphite."
+      },
+      "exampleSynonym": {
+        "word": "black lead",
+        "text": "The pencil core contains black lead."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "graphological",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graphological",
+      "image": {
+        "id": 7024,
+        "alt": "A dictionary word."
+      },
+      "definition": "Related to judging a person’s character from their handwriting.",
+      "synonyms": [
+        "handwriting-analysis-related"
+      ],
+      "example": {
+        "word": "graphological",
+        "text": "The report made a graphological claim about the writer."
+      },
+      "exampleSynonym": {
+        "word": "handwriting-analysis-related",
+        "text": "The report made a handwriting-analysis-related claim about the writer."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "graphologist",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graphologist",
+      "image": {
+        "id": 2450,
+        "alt": "A dictionary word."
+      },
+      "definition": "A person who studies handwriting to judge the writer’s character.",
+      "synonyms": [
+        "handwriting analyst"
+      ],
+      "example": {
+        "word": "graphologist",
+        "text": "The graphologist examined the letter."
+      },
+      "exampleSynonym": {
+        "word": "handwriting analyst",
+        "text": "The handwriting analyst examined the letter."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "graphology",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graphology",
+      "image": {
+        "id": 7024,
+        "alt": "A dictionary word."
+      },
+      "definition": "The practice of judging a person’s character from their handwriting.",
+      "synonyms": [
+        "handwriting analysis"
+      ],
+      "example": {
+        "word": "graphology",
+        "text": "The book questions the claims made by graphology."
+      },
+      "exampleSynonym": {
+        "word": "handwriting analysis",
+        "text": "The book questions the claims made by handwriting analysis."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "graphomania",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "graphomania",
+      "image": {
+        "id": 7024,
+        "alt": "A dictionary word."
+      },
+      "definition": "A very strong desire or need to keep writing.",
+      "synonyms": [
+        "obsession with writing"
+      ],
+      "example": {
+        "word": "graphomania",
+        "text": "Her graphomania filled several notebooks."
+      },
+      "exampleSynonym": {
+        "word": "obsession with writing",
+        "text": "Her obsession with writing filled several notebooks."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "grapple",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grapple",
+      "image": {
+        "id": 7024,
+        "alt": "A dictionary word."
+      },
+      "definition": "To try hard to solve a difficult problem.",
+      "synonyms": [
+        "work hard to solve"
+      ],
+      "example": {
+        "word": "grapple",
+        "text": "The team must grapple with the problem."
+      },
+      "exampleSynonym": {
+        "word": "work hard to solve",
+        "text": "The team must work hard to solve the problem."
+      },
+      "situacion": "vida-diaria"
+    }
   }
 ]
