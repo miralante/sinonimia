@@ -262929,5 +262929,134 @@
       },
       "situacion": "arte"
     }
+  },
+  {
+    "entry": "salmonelosis",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salmonelosis",
+      "image": {
+        "id": 23787,
+        "alt": "Bacteria are shown under a microscope."
+      },
+      "definition": "Infección intestinal causada por bacterias llamadas salmonelas.",
+      "synonyms": [
+        "salmonela"
+      ],
+      "example": {
+        "word": "salmonelosis",
+        "text": "La salmonelosis puede causar fiebre y diarrea."
+      },
+      "exampleSynonym": {
+        "word": "salmonela",
+        "text": "La salmonela puede causar fiebre y diarrea."
+      },
+      "situacion": "salud"
+    }
+  },
+  {
+    "entry": "salmonete",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salmonete",
+      "image": {
+        "id": 2519,
+        "alt": "A fish is served on a plate with greens."
+      },
+      "definition": "Pez de mar pequeño y rojizo, apreciado para comer.",
+      "synonyms": [
+        "barbo de mar",
+        "mullo"
+      ],
+      "example": {
+        "word": "salmonete",
+        "text": "El salmonete tiene muchas espinas."
+      },
+      "exampleSynonym": {
+        "word": "barbo de mar",
+        "text": "El barbo de mar tiene muchas espinas."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "salmorejo",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salmorejo",
+      "image": {
+        "id": 2573,
+        "alt": "A bowl of cold tomato soup is served at a meal."
+      },
+      "definition": "Sopa fría y espesa hecha con tomate, pan, aceite, ajo y sal.",
+      "synonyms": [
+        "sopa fría de tomate",
+        "gazpacho espeso"
+      ],
+      "example": {
+        "word": "salmorejo",
+        "text": "El salmorejo se sirve frío con huevo picado."
+      },
+      "exampleSynonym": {
+        "word": "sopa fría de tomate",
+        "text": "La sopa fría de tomate se sirve con huevo picado."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "salobre",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salobre",
+      "image": {
+        "id": 4739,
+        "alt": "A person tastes salty water beside a salt shaker."
+      },
+      "definition": "Que sabe o huele un poco a sal.",
+      "synonyms": [
+        "salado",
+        "salino"
+      ],
+      "example": {
+        "word": "salobre",
+        "text": "El agua salobre del pozo no se puede beber."
+      },
+      "exampleSynonym": {
+        "word": "salado",
+        "text": "El pozo tenía agua de sabor salado."
+      },
+      "situacion": "naturaleza"
+    }
+  },
+  {
+    "entry": "salomonico",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "Salomónico",
+      "image": {
+        "id": 30831,
+        "alt": "A person reads a story from a religious book."
+      },
+      "definition": "Relacionado con Salomón o propio de él.",
+      "synonyms": [
+        "propio de Salomón",
+        "relativo a Salomón"
+      ],
+      "example": {
+        "word": "salomónico",
+        "text": "El juicio salomónico aparece en la Biblia."
+      },
+      "exampleSynonym": {
+        "word": "propio de Salomón",
+        "text": "El juicio propio de Salomón aparece en la Biblia."
+      },
+      "situacion": "historia"
+    }
   }
 ]

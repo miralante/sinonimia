@@ -1767,4 +1767,7 @@
 // R4540: grease-tank–great-5
 (()=>{const x={"id":"greasy-pole","word":"greasy pole","image":{"id":4948,"alt":"A climber reaches for a tall pole in a contest."},"definition":"Informal: the hard path to a high career or political position.","synonyms":["career ladder","path to power"],"example":{"word":"greasy pole","text":"She spent years climbing the greasy pole of politics."},"exampleSynonym":{"word":"career ladder","text":"She spent years climbing the career ladder in politics."},"situacion":"sociedad"},a=d.filter(q=>q.id===x.id);if(!a.length)d.push(x);else a.forEach(q=>Object.assign(q,x));})();
 
+// R4541: great-6–great-sound
+
+
 })();

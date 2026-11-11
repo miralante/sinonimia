@@ -82671,5 +82671,65 @@
     "id": "great-5",
     "word": "Great",
     "reason": "Very common adjective with familiar senses that do not need a dictionary explanation."
+  },
+  {
+    "id": "great-6",
+    "word": "Great",
+    "reason": "Gloss mixes an unrelated Guásimo drink with the common adjective and is not verifiable."
+  },
+  {
+    "id": "great-7",
+    "word": "Great",
+    "reason": "Corrupt grammatical gloss; not an independent, verifiable sense of great."
+  },
+  {
+    "id": "great-8",
+    "word": "great",
+    "reason": "Corrupt and repetitive definition with no independently verifiable sense."
+  },
+  {
+    "id": "great-9",
+    "word": "great",
+    "reason": "Familiar everyday sense of the common adjective, with no need for a dictionary card."
+  },
+  {
+    "id": "great-beach",
+    "word": "great beach",
+    "reason": "Transparent phrase made from two common words."
+  },
+  {
+    "id": "great-debtor",
+    "word": "great debtor",
+    "reason": "Definition is corrupt and the proposed sense could not be verified."
+  },
+  {
+    "id": "great-guitar",
+    "word": "Great guitar",
+    "reason": "Corrupt gloss unrelated to a verifiable meaning of this phrase."
+  },
+  {
+    "id": "great-guy",
+    "word": "Great guy",
+    "reason": "Common transparent phrase with an empty or corrupt gloss."
+  },
+  {
+    "id": "great-hair",
+    "word": "Great hair",
+    "reason": "Definition describes an unrelated architectural element and could not be verified."
+  },
+  {
+    "id": "great-photo",
+    "word": "Great photo",
+    "reason": "Corrupt gloss unrelated to a verifiable meaning of this phrase."
+  },
+  {
+    "id": "great-plan",
+    "word": "Great plan",
+    "reason": "Corrupt gloss unrelated to a verifiable meaning of this phrase."
+  },
+  {
+    "id": "great-sound",
+    "word": "Great sound",
+    "reason": "Corrupt gloss unrelated to a verifiable meaning of this phrase."
   }
 ]
