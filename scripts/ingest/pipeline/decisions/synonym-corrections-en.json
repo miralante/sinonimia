@@ -263736,5 +263736,115 @@
         "text": "Her optimism lifted the whole team."
       }
     }
+  },
+  {
+    "entry": "grid",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grid",
+      "definition": "A pattern of crossing lines that forms squares.",
+      "synonyms": [
+        "grid pattern",
+        "network"
+      ],
+      "example": {
+        "word": "grid",
+        "text": "The map has a grid to show the streets."
+      },
+      "exampleSynonym": {
+        "word": "grid pattern",
+        "text": "The map has a grid pattern to show the streets."
+      },
+      "situacion": "conocimiento"
+    }
+  },
+  {
+    "entry": "grid-2",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grid",
+      "definition": "A network of cables that carries electricity across an area.",
+      "synonyms": [
+        "electric grid",
+        "power network"
+      ],
+      "example": {
+        "word": "grid",
+        "text": "The storm damaged the local grid."
+      },
+      "exampleSynonym": {
+        "word": "electric grid",
+        "text": "The storm damaged the local electric grid."
+      },
+      "situacion": "tecnologia"
+    }
+  },
+  {
+    "entry": "grid-operator",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grid operator",
+      "definition": "A company that runs an electricity or gas network.",
+      "synonyms": [
+        "network operator",
+        "utility operator"
+      ],
+      "example": {
+        "word": "grid operator",
+        "text": "The grid operator repaired a damaged power line."
+      },
+      "exampleSynonym": {
+        "word": "network operator",
+        "text": "The network operator repaired a damaged power line."
+      },
+      "situacion": "tecnologia"
+    }
+  },
+  {
+    "entry": "griddle",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "griddle",
+      "definition": "A flat metal pan used for cooking food over heat.",
+      "synonyms": [
+        "flat-top pan",
+        "griddle pan"
+      ],
+      "example": {
+        "word": "griddle",
+        "text": "She cooked pancakes on a griddle."
+      },
+      "exampleSynonym": {
+        "word": "flat-top pan",
+        "text": "She cooked pancakes on a flat-top pan."
+      },
+      "situacion": "comida"
+    }
+  },
+  {
+    "entry": "grievance",
+    "remove": [],
+    "unset": [],
+    "set": {
+      "word": "grievance",
+      "definition": "A formal complaint about a problem at work or with an employer.",
+      "synonyms": [
+        "workplace complaint",
+        "formal complaint"
+      ],
+      "example": {
+        "word": "grievance",
+        "text": "He filed a grievance about his work schedule."
+      },
+      "exampleSynonym": {
+        "word": "workplace complaint",
+        "text": "He filed a workplace complaint about his schedule."
+      },
+      "situacion": "trabajo"
+    }
   }
 ]

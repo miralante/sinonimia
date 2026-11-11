@@ -82926,5 +82926,40 @@
     "id": "grenadilla",
     "word": "grenadilla",
     "reason": "Variante poco frecuente de granadilla; se prefiere la forma más asentada."
+  },
+  {
+    "id": "grey",
+    "word": "grey",
+    "reason": "Color básico y variante británica de gray; sus sentidos son demasiado comunes para esta colección."
+  },
+  {
+    "id": "greyhound",
+    "word": "greyhound",
+    "reason": "Nombre de una raza de perro conocida y transparente."
+  },
+  {
+    "id": "greyhound-2",
+    "word": "Greyhound",
+    "reason": "Duplicado de greyhound para la misma raza de perro."
+  },
+  {
+    "id": "greyhound-3",
+    "word": "greyhound",
+    "reason": "Definición equivocada que describe otra raza de perro."
+  },
+  {
+    "id": "greyish",
+    "word": "greyish",
+    "reason": "Adjetivo transparente que significa algo gris; variante británica de grayish."
+  },
+  {
+    "id": "greyish-2",
+    "word": "Greyish",
+    "reason": "Duplicado de greyish con una glosa circular."
+  },
+  {
+    "id": "grid-3",
+    "word": "Grid",
+    "reason": "Definición corrupta de un verbo que no corresponde a este lema."
   }
 ]
