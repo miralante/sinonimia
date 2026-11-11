@@ -18732,8 +18732,8 @@
         "text": "Un alumno educable puede avanzar con apoyo paciente."
       },
       "exampleSynonym": {
-        "word": "capaz de aprender",
-        "text": "El niño es capaz de aprender y progresa con apoyo."
+        "word": "capaz de ser enseñado",
+        "text": "El niño es capaz de ser enseñado con paciencia."
       }
     }
   },
@@ -263662,6 +263662,10 @@
       "example": {
         "word": "aseverar",
         "text": "La testigo tuvo que aseverar lo ocurrido ante el juez."
+      },
+      "exampleSynonym": {
+        "word": "afirmar",
+        "text": "La testigo tuvo que afirmar lo ocurrido ante el juez."
       }
     }
   },
@@ -263672,6 +263676,10 @@
       "example": {
         "word": "autenticar",
         "text": "El funcionario debe autenticar el documento antes de archivarlo."
+      },
+      "exampleSynonym": {
+        "word": "certificar",
+        "text": "El funcionario debe certificar la copia antes de archivarla."
       }
     }
   },
@@ -263696,6 +263704,20 @@
       "exampleSynonym": {
         "word": "ahogar",
         "text": "Un trozo de comida puede ahogar al niño si se atasca."
+      }
+    }
+  },
+  {
+    "entry": "autentificar",
+    "remove": [],
+    "set": {
+      "example": {
+        "word": "autentificar",
+        "text": "El notario debe autentificar la copia antes de archivarla."
+      },
+      "exampleSynonym": {
+        "word": "autenticar",
+        "text": "El notario debe autenticar la copia antes de archivarla."
       }
     }
   }

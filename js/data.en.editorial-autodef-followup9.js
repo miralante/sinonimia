@@ -506,3 +506,12 @@
 {const i=d.findIndex(q=>q.id==="atragantar");if(i<0)throw Error("Missing source entry atragantar");if(!d[i]["example"])throw Error("Missing example atragantar");d[i]["example"].word="atragantar";d[i]["example"].text="Un trozo grande puede atragantar al niño si no mastica bien.";}
 {const i=d.findIndex(q=>q.id==="atragantar");if(i<0)throw Error("Missing source entry atragantar");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym atragantar");d[i]["exampleSynonym"].word="ahogar";d[i]["exampleSynonym"].text="Un trozo de comida puede ahogar al niño si se atasca.";}
 })();
+
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");
+// B10 ES supplemental example rewrites
+{const i=d.findIndex(q=>q.id==="educable");if(i<0)throw Error("Missing source entry educable");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym educable");d[i]["exampleSynonym"].word="capaz de ser enseñado";d[i]["exampleSynonym"].text="El niño es capaz de ser enseñado con paciencia.";}
+{const i=d.findIndex(q=>q.id==="aseverar");if(i<0)throw Error("Missing source entry aseverar");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym aseverar");d[i]["exampleSynonym"].word="afirmar";d[i]["exampleSynonym"].text="La testigo tuvo que afirmar lo ocurrido ante el juez.";}
+{const i=d.findIndex(q=>q.id==="autenticar");if(i<0)throw Error("Missing source entry autenticar");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym autenticar");d[i]["exampleSynonym"].word="certificar";d[i]["exampleSynonym"].text="El funcionario debe certificar la copia antes de archivarla.";}
+{const i=d.findIndex(q=>q.id==="autentificar");if(i<0)throw Error("Missing source entry autentificar");if(!d[i]["example"])throw Error("Missing example autentificar");d[i]["example"].word="autentificar";d[i]["example"].text="El notario debe autentificar la copia antes de archivarla.";}
+{const i=d.findIndex(q=>q.id==="autentificar");if(i<0)throw Error("Missing source entry autentificar");if(!d[i]["exampleSynonym"])throw Error("Missing exampleSynonym autentificar");d[i]["exampleSynonym"].word="autenticar";d[i]["exampleSynonym"].text="El notario debe autenticar la copia antes de archivarla.";}
+})();
