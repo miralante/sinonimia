@@ -89597,5 +89597,40 @@
     "id": "talin",
     "word": "talín",
     "reason": "El sentido del diccionario interno no está respaldado por el DLE: este recoge usos rurales de Cantabria y Honduras con otros significados."
+  },
+  {
+    "id": "descadillador",
+    "word": "descadillador",
+    "reason": "No se halló respaldo fiable para esta forma de oficio ni para una ficha independiente de utilidad general."
+  },
+  {
+    "id": "taqueria",
+    "word": "taquería",
+    "reason": "Nombre claro y cotidiano de un local donde se preparan o venden tacos."
+  },
+  {
+    "id": "tataranieto",
+    "word": "tataranieto",
+    "reason": "Parentesco cotidiano con una definición sencilla: hijo o hija de un bisnieto."
+  },
+  {
+    "id": "temporaneo",
+    "word": "temporáneo",
+    "reason": "El propio registro lo marca como poco usado y su significado, «temporal», es fácil."
+  },
+  {
+    "id": "tempranal",
+    "word": "tempranal",
+    "reason": "Adjetivo poco común y derivado que solo indica que una tierra da frutos temprano."
+  },
+  {
+    "id": "veinteanero",
+    "word": "veinteañero",
+    "reason": "Término cotidiano y fácil para alguien que tiene veinte años o está en la veintena."
+  },
+  {
+    "id": "venturina",
+    "word": "venturina",
+    "reason": "Variante de un nombre de mineral y término especializado de escasa utilidad general."
   }
 ]

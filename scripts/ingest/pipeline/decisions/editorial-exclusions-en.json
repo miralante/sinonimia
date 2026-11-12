@@ -83711,5 +83711,40 @@
     "id": "spit-9",
     "word": "spit",
     "reason": "The act of spitting saliva is a basic, common verb sense."
+  },
+  {
+    "id": "companion-3",
+    "word": "Companion",
+    "reason": "The gloss is an awkward translation of «compadrear» and does not define a current English sense of «companion»."
+  },
+  {
+    "id": "drive-5",
+    "word": "drive",
+    "reason": "The gloss about making something last or economizing is not a supported sense of the verb «drive»."
+  },
+  {
+    "id": "learn-3",
+    "word": "Learn",
+    "reason": "A common inflected verb form with ordinary senses, not a separate difficult lemma."
+  },
+  {
+    "id": "scruffy-3",
+    "word": "Scruffy",
+    "reason": "A familiar adjective with the simple meaning untidy or in poor condition."
+  },
+  {
+    "id": "fulastry",
+    "word": "Fulastry",
+    "reason": "No reliable current dictionary support was found for this rare spelling or its proposed sense."
+  },
+  {
+    "id": "museum-3",
+    "word": "Museum",
+    "reason": "The proposed meaning «homesickness» does not match any current English sense of «museum»."
+  },
+  {
+    "id": "score-3",
+    "word": "Score",
+    "reason": "The gloss for a person or thing that persistently annoys someone is not a supported Collins sense of «score»."
   }
 ]

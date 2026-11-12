@@ -271,4 +271,5 @@
   set("ribetear",{definition:"Poner una tira en el borde de una prenda u objeto.",synonyms:["rematar el borde de"],example:{word:"ribetear",text:"Aprender a ribetear una falda lleva pocos minutos."},exampleSynonym:{word:"rematar el borde de",text:"Aprender a rematar el borde de una falda lleva pocos minutos."}});
   set("garatero",{definition:"Dicho de una persona: que busca pelea o actúa como un bravucón.",synonyms:["peleador"],example:{word:"garatero",text:"Ser garatero puede meterte en peleas."},exampleSynonym:{word:"peleador",text:"Ser peleador puede meterte en peleas."}});
   set("sectarismo",{definition:"Defender una idea sin tolerar las ideas de los demás.",synonyms:["intolerancia de grupo"],example:{word:"sectarismo",text:"Hablar de sectarismo suele cerrar el diálogo."},exampleSynonym:{word:"intolerancia de grupo",text:"Hablar de intolerancia de grupo suele cerrar el diálogo."}});
+  set("testarron",{definition:"Dicho de una persona: muy terca y difícil de convencer.",synonyms:["terco"],example:{word:"testarrón",text:"El testarrón no quiso cambiar de idea."},exampleSynonym:{word:"terco",text:"El terco no quiso cambiar de idea."}});
 })();
