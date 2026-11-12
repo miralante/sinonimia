@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5152",
+  "runtime": "v5153",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1458,
-    "en": 1428
+    "es": 1468,
+    "en": 1438
   },
-  "latestLedgerBatchCount": 144,
-  "latestLedgerReviewedIdCount": 2886,
-  "appliedCount": 1235,
+  "latestLedgerBatchCount": 145,
+  "latestLedgerReviewedIdCount": 2906,
+  "appliedCount": 1255,
   "appliedByLanguage": {
-    "es": 626,
-    "en": 609
+    "es": 636,
+    "en": 619
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -77,7 +77,8 @@
     "B15-onehundredsixth-20-verdicts.json",
     "B15-onehundredseventh-20-verdicts.json",
     "B15-onehundredeighth-20-verdicts.json",
-    "B15-onehundredninth-20-verdicts.json"
+    "B15-onehundredninth-20-verdicts.json",
+    "B15-onehundredtenth-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -7674,6 +7675,126 @@
       "language": "en",
       "id": "yellowish-3",
       "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "es",
+      "id": "desmejorar",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "es",
+      "id": "rivalizar",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "es",
+      "id": "alalay",
+      "decision": "exclude-regional-interjection"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "es",
+      "id": "aseladero",
+      "decision": "exclude-rare-rural-facility-term"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "es",
+      "id": "atochon",
+      "decision": "exclude-specialized-plant-part"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "es",
+      "id": "batin",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "es",
+      "id": "bebetina",
+      "decision": "exclude-regional-colloquialism"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "es",
+      "id": "berlandina",
+      "decision": "exclude-obsolete-word"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "es",
+      "id": "bivalente",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "es",
+      "id": "botanear",
+      "decision": "exclude-regional-verb"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "en",
+      "id": "schism-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "en",
+      "id": "lace-up-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "en",
+      "id": "basket-3",
+      "decision": "exclude-specialized-weaponsmithing-sense"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "en",
+      "id": "modesty-2",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "en",
+      "id": "tap-4",
+      "decision": "exclude-corrupt-sense-entry"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "en",
+      "id": "inadmissible-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "en",
+      "id": "moisten-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "en",
+      "id": "hump-3",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "en",
+      "id": "lurker-4",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-onehundredtenth-20-verdicts.json",
+      "language": "en",
+      "id": "flake-4",
+      "decision": "split-senses-and-rewrite"
     }
   ],
   "pendingBatch25": [
@@ -7692,12 +7813,12 @@
     "runtimeNote": "improbability-2 applied; sarazo excluded; infect-4 retained with a valid contextual example pair."
   },
   "observedWipLedgerAtCommit": {
-    "reviewedIdCount": 1957,
-    "batchCount": 97,
+    "reviewedIdCount": 2906,
+    "batchCount": 145,
     "totals": {
-      "es": 989,
-      "en": 968
+      "es": 1468,
+      "en": 1438
     },
-    "integratedThrough": "B15-eighty-ninth-17-verdicts.json"
+    "integratedThrough": "B15-onehundredtenth-20-verdicts.json"
   }
 }

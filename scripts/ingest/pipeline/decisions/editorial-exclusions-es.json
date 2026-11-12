@@ -91172,5 +91172,35 @@
     "id": "ganada",
     "word": "ganada",
     "reason": "Es una nominalización poco usada de ganar y no ofrece un sentido general claro e independiente."
+  },
+  {
+    "id": "alalay",
+    "word": "alalay",
+    "reason": "Es una interjección boliviana para expresar frío, de alcance geográfico muy limitado."
+  },
+  {
+    "id": "aseladero",
+    "word": "aseladero",
+    "reason": "Nombra el lugar donde duermen las gallinas y tiene un uso rural muy limitado."
+  },
+  {
+    "id": "atochon",
+    "word": "atochón",
+    "reason": "Es el tallo de una planta de esparto, un término botánico específico sin utilidad general como sinónimo."
+  },
+  {
+    "id": "bebetina",
+    "word": "bebetina",
+    "reason": "Es una voz coloquial de algunos países centroamericanos para beber alcohol en exceso."
+  },
+  {
+    "id": "berlandina",
+    "word": "berlandina",
+    "reason": "Es una palabra desusada para fanfarronada y tiene alternativas actuales mucho más claras."
+  },
+  {
+    "id": "botanear",
+    "word": "botanear",
+    "reason": "Es un verbo mexicano para comer botanas y tiene un uso demasiado localizado para una entrada general."
   }
 ]

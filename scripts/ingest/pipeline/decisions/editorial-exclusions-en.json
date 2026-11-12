@@ -85101,5 +85101,25 @@
     "id": "german-3",
     "word": "German",
     "reason": "The gloss about carved tablecloths is unrelated to the ordinary adjective and appears to be a mismatched historical entry."
+  },
+  {
+    "id": "basket-3",
+    "word": "basket",
+    "reason": "This rare sense for fitting a guard to a weapon is specialized historical weapons terminology."
+  },
+  {
+    "id": "tap-4",
+    "word": "tap",
+    "reason": "The gloss “curl, bristle” does not match a reliable general sense of tap and appears to be a data mismatch."
+  },
+  {
+    "id": "hump-3",
+    "word": "hump",
+    "reason": "The gloss does not match a reliable sense of hump and appears to be a mistranslated entry."
+  },
+  {
+    "id": "lurker-4",
+    "word": "Lurker",
+    "reason": "The circular-motion gloss does not match a reliable meaning of lurker and appears to be attached to the wrong word."
   }
 ]
