@@ -84501,5 +84501,15 @@
     "id": "garganter",
     "word": "garganter",
     "reason": "The candidate is scraped website navigation text mixed with a Spanish article fragment, not an English definition."
+  },
+  {
+    "id": "rubescent",
+    "word": "rubescent",
+    "reason": "This rare formal word means becoming reddish; it has little value for a general synonym dictionary."
+  },
+  {
+    "id": "substantivity",
+    "word": "substantivity",
+    "reason": "This philosophical term is rare and abstract, with no clear everyday synonym suitable for the dictionary."
   }
 ]

@@ -90302,5 +90302,45 @@
     "id": "trasbarras",
     "word": "trasbarrás",
     "reason": "Onomatopeya poco transparente para un ruido al caer, sin sinónimos de uso general claros."
+  },
+  {
+    "id": "vaquear",
+    "word": "vaquear",
+    "reason": "Verbo técnico de reproducción de ganado y de uso muy limitado fuera del ámbito pecuario."
+  },
+  {
+    "id": "barbacua",
+    "word": "barbacuá",
+    "reason": "La acepción propuesta como persona de baja estatura no se corresponde con el término regional relacionado con el secado de yerba mate."
+  },
+  {
+    "id": "bastardelo",
+    "word": "bastardelo",
+    "reason": "Nombre técnico poco documentado de una acción con herramienta afilada; no tiene uso general ni sinónimo asentado."
+  },
+  {
+    "id": "bayoco",
+    "word": "bayoco",
+    "reason": "Nombre de un baile popular peruano muy localizado y sin sinónimos comunes claros."
+  },
+  {
+    "id": "bitoque",
+    "word": "bitoque",
+    "reason": "Nombre de un plato portugués específico, sin un sinónimo español general que justifique una ficha."
+  },
+  {
+    "id": "canalera",
+    "word": "canalera",
+    "reason": "La candidata se limita a la forma femenina de canalero; una forma de género no necesita ficha independiente."
+  },
+  {
+    "id": "caracolillo",
+    "word": "caracolillo",
+    "reason": "Nombre local de una planta trepadora y poco reconocible fuera de contextos botánicos; no aporta sinonimia general."
+  },
+  {
+    "id": "carnadura",
+    "word": "carnadura",
+    "reason": "La candidata confunde la palabra con la capa externa de la piel; el sentido fiable no queda acreditado por esta glosa."
   }
 ]
