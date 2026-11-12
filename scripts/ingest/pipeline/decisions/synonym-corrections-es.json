@@ -267988,5 +267988,203 @@
         "text": "La barandilla pequeña protegía el borde del balcón."
       }
     }
+  },
+  {
+    "entry": "constatar",
+    "remove": [],
+    "set": {
+      "definition": "Comprobar que un hecho es cierto.",
+      "synonyms": [
+        "verificar"
+      ],
+      "example": {
+        "word": "constatar",
+        "text": "La auditoría permitió constatar el error."
+      },
+      "exampleSynonym": {
+        "word": "verificar",
+        "text": "La auditoría permitió verificar el error."
+      }
+    }
+  },
+  {
+    "entry": "contraanalisis",
+    "remove": [],
+    "set": {
+      "definition": "Revisión de los resultados de un análisis para comprobarlos.",
+      "synonyms": [
+        "análisis de comprobación"
+      ],
+      "example": {
+        "word": "contraanálisis",
+        "text": "El contraanálisis confirmó el resultado inicial."
+      },
+      "exampleSynonym": {
+        "word": "análisis de comprobación",
+        "text": "El análisis de comprobación confirmó el resultado inicial."
+      }
+    }
+  },
+  {
+    "entry": "crisoprasa",
+    "remove": [],
+    "set": {
+      "definition": "Variedad verde de calcedonia que se usa como gema.",
+      "synonyms": [
+        "gema verde"
+      ],
+      "example": {
+        "word": "crisoprasa",
+        "text": "La crisoprasa se usa en joyería."
+      },
+      "exampleSynonym": {
+        "word": "gema verde",
+        "text": "La gema verde se usa en joyería."
+      }
+    }
+  },
+  {
+    "entry": "declividad",
+    "remove": [],
+    "set": {
+      "definition": "Inclinación de un terreno o una superficie.",
+      "synonyms": [
+        "pendiente"
+      ],
+      "example": {
+        "word": "declividad",
+        "text": "La declividad del camino dificultó el ascenso."
+      },
+      "exampleSynonym": {
+        "word": "pendiente",
+        "text": "La pendiente del camino dificultó el ascenso."
+      }
+    }
+  },
+  {
+    "entry": "deslocalizar",
+    "remove": [],
+    "set": {
+      "definition": "Trasladar una actividad o empresa a otro lugar.",
+      "synonyms": [
+        "trasladar"
+      ],
+      "example": {
+        "word": "deslocalizar",
+        "text": "La empresa decidió deslocalizar su fábrica."
+      },
+      "exampleSynonym": {
+        "word": "trasladar",
+        "text": "La empresa decidió trasladar su fábrica."
+      }
+    }
+  },
+  {
+    "entry": "estereotomia",
+    "remove": [],
+    "set": {
+      "definition": "Técnica de diseñar y cortar piedras para que encajen en una construcción.",
+      "synonyms": [
+        "técnica de corte de piedra"
+      ],
+      "example": {
+        "word": "estereotomía",
+        "text": "La estereotomía se usó para construir el arco."
+      },
+      "exampleSynonym": {
+        "word": "técnica de corte de piedra",
+        "text": "La técnica de corte de piedra se usó para construir el arco."
+      }
+    }
+  },
+  {
+    "entry": "estilizar",
+    "remove": [],
+    "set": {
+      "definition": "Simplificar o resaltar los rasgos principales de una forma.",
+      "synonyms": [
+        "simplificar"
+      ],
+      "example": {
+        "word": "estilizar",
+        "text": "La artista quiso estilizar el dibujo de una flor."
+      },
+      "exampleSynonym": {
+        "word": "simplificar",
+        "text": "La artista quiso simplificar el dibujo de una flor."
+      }
+    }
+  },
+  {
+    "entry": "casquilla",
+    "remove": [],
+    "set": {
+      "definition": "Abrazadera metálica que refuerza el extremo de una pieza de madera.",
+      "synonyms": [
+        "abrazadera metálica"
+      ],
+      "example": {
+        "word": "casquilla",
+        "text": "La casquilla protegía el extremo de la lanza."
+      },
+      "exampleSynonym": {
+        "word": "abrazadera metálica",
+        "text": "La abrazadera metálica protegía el extremo de la lanza."
+      }
+    }
+  },
+  {
+    "entry": "estereoscopico",
+    "remove": [],
+    "set": {
+      "definition": "Relacionado con imágenes que crean una sensación de profundidad.",
+      "synonyms": [
+        "tridimensional"
+      ],
+      "example": {
+        "word": "estereoscópico",
+        "text": "El visor estereoscópico mostró una imagen en relieve."
+      },
+      "exampleSynonym": {
+        "word": "tridimensional",
+        "text": "El visor tridimensional mostró una imagen en relieve."
+      }
+    }
+  },
+  {
+    "entry": "partenogenesis",
+    "remove": [],
+    "set": {
+      "definition": "Reproducción en la que un óvulo se desarrolla sin ser fecundado.",
+      "synonyms": [
+        "reproducción sin fecundación"
+      ],
+      "example": {
+        "word": "partenogénesis",
+        "text": "La partenogénesis ocurre en algunas especies de insectos."
+      },
+      "exampleSynonym": {
+        "word": "reproducción sin fecundación",
+        "text": "La reproducción sin fecundación ocurre en algunas especies de insectos."
+      }
+    }
+  },
+  {
+    "entry": "semidesnatado",
+    "remove": [],
+    "set": {
+      "definition": "Dicho de la leche, con parte de la grasa retirada.",
+      "synonyms": [
+        "parcialmente desnatado"
+      ],
+      "example": {
+        "word": "semidesnatado",
+        "text": "El producto semidesnatado contiene menos grasa."
+      },
+      "exampleSynonym": {
+        "word": "parcialmente desnatado",
+        "text": "El producto parcialmente desnatado contiene menos grasa."
+      }
+    }
   }
 ]

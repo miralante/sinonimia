@@ -46405,8 +46405,17 @@
     "entry": "squadron",
     "remove": [],
     "set": {
-      "translation": {
-        "es": "round2476-escuadrilla-aviones"
+      "definition": "A military unit made up of several aircraft.",
+      "synonyms": [
+        "aircraft unit"
+      ],
+      "example": {
+        "word": "squadron",
+        "text": "The squadron flew over the coast at dawn."
+      },
+      "exampleSynonym": {
+        "word": "aircraft unit",
+        "text": "The aircraft unit flew over the coast at dawn."
       }
     }
   },
@@ -268297,6 +268306,78 @@
       "exampleSynonym": {
         "word": "metal expert",
         "text": "The metal expert examined the damaged steel beam."
+      }
+    }
+  },
+  {
+    "entry": "olibanum",
+    "remove": [],
+    "set": {
+      "definition": "A fragrant resin burned as incense, usually from Boswellia trees.",
+      "synonyms": [
+        "frankincense"
+      ],
+      "example": {
+        "word": "olibanum",
+        "text": "During the ceremony, olibanum was burned."
+      },
+      "exampleSynonym": {
+        "word": "frankincense",
+        "text": "During the ceremony, frankincense was burned."
+      }
+    }
+  },
+  {
+    "entry": "saddler",
+    "remove": [],
+    "set": {
+      "definition": "A person who makes or repairs saddles.",
+      "synonyms": [
+        "saddle maker"
+      ],
+      "example": {
+        "word": "saddler",
+        "text": "The saddler repaired the worn leather saddle."
+      },
+      "exampleSynonym": {
+        "word": "saddle maker",
+        "text": "The saddle maker repaired the worn leather saddle."
+      }
+    }
+  },
+  {
+    "entry": "geomagnetic",
+    "remove": [],
+    "set": {
+      "definition": "Related to Earth's magnetic field.",
+      "synonyms": [
+        "related to Earth's magnetic field"
+      ],
+      "example": {
+        "word": "geomagnetic",
+        "text": "The disturbance was geomagnetic."
+      },
+      "exampleSynonym": {
+        "word": "related to Earth's magnetic field",
+        "text": "The disturbance was related to Earth's magnetic field."
+      }
+    }
+  },
+  {
+    "entry": "ssl-certificate-2",
+    "remove": [],
+    "set": {
+      "definition": "A digital document that confirms a website's identity for a secure connection.",
+      "synonyms": [
+        "website security certificate"
+      ],
+      "example": {
+        "word": "SSL certificate",
+        "text": "The browser checked the SSL certificate before opening the site."
+      },
+      "exampleSynonym": {
+        "word": "website security certificate",
+        "text": "The browser checked the website security certificate before opening the site."
       }
     }
   }
