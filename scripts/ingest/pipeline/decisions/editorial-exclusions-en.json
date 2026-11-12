@@ -84641,5 +84641,10 @@
     "id": "lazy-11",
     "word": "lazy",
     "reason": "The numbered record duplicates the common adjective with a circular gloss and establishes no separate meaning."
+  },
+  {
+    "id": "gap-5",
+    "word": "Gap",
+    "reason": "The definition describes a breccia, not a meaning of gap, so the record is corrupt."
   }
 ]

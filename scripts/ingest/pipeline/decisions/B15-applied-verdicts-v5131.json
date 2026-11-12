@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5132",
+  "runtime": "v5133",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 909,
-    "en": 888
+    "es": 1019,
+    "en": 998
   },
-  "latestLedgerBatchCount": 89,
-  "latestLedgerReviewedIdCount": 1797,
-  "appliedCount": 846,
+  "latestLedgerBatchCount": 100,
+  "latestLedgerReviewedIdCount": 2017,
+  "appliedCount": 866,
   "appliedByLanguage": {
-    "es": 427,
-    "en": 419
+    "es": 437,
+    "en": 429
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -57,7 +57,8 @@
     "B15-eighty-sixth-20-verdicts.json",
     "B15-eighty-seventh-20-verdicts.json",
     "B15-eighty-eighth-20-verdicts.json",
-    "B15-eighty-ninth-17-verdicts.json"
+    "B15-eighty-ninth-17-verdicts.json",
+    "B15-ninetieth-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -5319,6 +5320,126 @@
       "batch": "B15-eightyfourth-20-verdicts.json",
       "language": "en",
       "id": "improbability-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "es",
+      "id": "batallona",
+      "decision": "exclude-rare-archaic-adjective"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "es",
+      "id": "consignativo",
+      "decision": "exclude-obsolete-legal-term"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "es",
+      "id": "cheuto",
+      "decision": "exclude-highly-regional-sensitive-descriptor"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "es",
+      "id": "descorregido",
+      "decision": "exclude-rare-variant"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "es",
+      "id": "estofador",
+      "decision": "exclude-specialized-craft-term"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "es",
+      "id": "fulgurante",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "es",
+      "id": "medrinaque",
+      "decision": "exclude-obsolete-specialized-fabric-term"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "es",
+      "id": "reprografico",
+      "decision": "exclude-specialized-printing-term"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "es",
+      "id": "retoricar",
+      "decision": "exclude-rare-rhetorical-verb"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "es",
+      "id": "sillar",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "en",
+      "id": "indigenous-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "en",
+      "id": "roof-5",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "en",
+      "id": "gap-5",
+      "decision": "exclude-definition-sense-mismatch"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "en",
+      "id": "grumpy-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "en",
+      "id": "state-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "en",
+      "id": "skinny-7",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "en",
+      "id": "charm-4",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "en",
+      "id": "need-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "en",
+      "id": "exceed-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetieth-20-verdicts.json",
+      "language": "en",
+      "id": "sericulture-2",
       "decision": "rewrite-definition-and-example"
     }
   ],
