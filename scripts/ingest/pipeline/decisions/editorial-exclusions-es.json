@@ -91167,5 +91167,10 @@
     "id": "degenerado",
     "word": "degenerado",
     "reason": "Aplicado a una persona, es un insulto estigmatizante y no cumple los criterios de tono editorial."
+  },
+  {
+    "id": "ganada",
+    "word": "ganada",
+    "reason": "Es una nominalización poco usada de ganar y no ofrece un sentido general claro e independiente."
   }
 ]

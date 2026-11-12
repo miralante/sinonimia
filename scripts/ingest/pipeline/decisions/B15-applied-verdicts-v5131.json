@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5151",
+  "runtime": "v5152",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1438,
-    "en": 1408
+    "es": 1458,
+    "en": 1428
   },
-  "latestLedgerBatchCount": 142,
-  "latestLedgerReviewedIdCount": 2846,
-  "appliedCount": 1215,
+  "latestLedgerBatchCount": 144,
+  "latestLedgerReviewedIdCount": 2886,
+  "appliedCount": 1235,
   "appliedByLanguage": {
-    "es": 616,
-    "en": 599
+    "es": 626,
+    "en": 609
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -76,7 +76,8 @@
     "B15-onehundredfifth-20-verdicts.json",
     "B15-onehundredsixth-20-verdicts.json",
     "B15-onehundredseventh-20-verdicts.json",
-    "B15-onehundredeighth-20-verdicts.json"
+    "B15-onehundredeighth-20-verdicts.json",
+    "B15-onehundredninth-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -7552,6 +7553,126 @@
       "batch": "B15-onehundredeighth-20-verdicts.json",
       "language": "en",
       "id": "refry",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "es",
+      "id": "ganada",
+      "decision": "exclude-rare-ambiguous-noun"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "es",
+      "id": "retirado",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "es",
+      "id": "risco",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "es",
+      "id": "silbido",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "es",
+      "id": "susto",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "es",
+      "id": "tartamudeo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "es",
+      "id": "tintineo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "es",
+      "id": "toracico",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "es",
+      "id": "tremendo",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "es",
+      "id": "voto",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "en",
+      "id": "garden-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "en",
+      "id": "keyboard-2",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "en",
+      "id": "polite-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "en",
+      "id": "vex-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "en",
+      "id": "sentence-2",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "en",
+      "id": "mobile-coverage-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "en",
+      "id": "comb-2",
+      "decision": "exclude-obsolete-fashion-accessory"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "en",
+      "id": "splinter-2",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "en",
+      "id": "german-3",
+      "decision": "exclude-corrupt-specialized-definition"
+    },
+    {
+      "batch": "B15-onehundredninth-20-verdicts.json",
+      "language": "en",
+      "id": "yellowish-3",
       "decision": "rewrite-definition-and-example"
     }
   ],
