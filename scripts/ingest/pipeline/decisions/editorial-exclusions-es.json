@@ -94132,5 +94132,310 @@
     "id": "tropero",
     "word": "tropero",
     "reason": "Tropero nombra en varios países americanos a quien conduce ganado; es una voz regional de baja utilidad general."
+  },
+  {
+    "id": "uniformar",
+    "word": "uniformar",
+    "reason": "Uniformar significa hacer que varias cosas sean iguales; es un verbo común y fácil de entender."
+  },
+  {
+    "id": "velodromo",
+    "word": "velódromo",
+    "reason": "Velódromo es una instalación para carreras de bicicletas; el compuesto es transparente y la definición directa."
+  },
+  {
+    "id": "vinchuca",
+    "word": "vinchuca",
+    "reason": "Vinchuca es el nombre regional de un insecto que transmite Chagas; como nombre de especie tiene poca utilidad general."
+  },
+  {
+    "id": "virologo",
+    "word": "virólogo",
+    "reason": "Virólogo significa especialista en virología y es una formación transparente de un campo científico."
+  },
+  {
+    "id": "visitero",
+    "word": "visitero",
+    "reason": "Visitero se aplica a quien visita con frecuencia, pero es una voz rara y poco útil en el uso general."
+  },
+  {
+    "id": "vomitador",
+    "word": "vomitador",
+    "reason": "Vomitador describe directamente a quien vomita o provoca el vómito; es un derivado fácil de interpretar."
+  },
+  {
+    "id": "yuta",
+    "word": "yuta",
+    "reason": "Yuta es jerga local para un agente de policía y no tiene uso general panhispánico."
+  },
+  {
+    "id": "zambo",
+    "word": "zambo",
+    "reason": "La entrada mezcla un rasgo físico con un sentido histórico para personas de ascendencia indígena y africana; no se recomienda conservarla como ficha general."
+  },
+  {
+    "id": "zonzorro",
+    "word": "zonzorro",
+    "reason": "Zonzorro nombra una agalla de roble y es una voz rara de interés especializado."
+  },
+  {
+    "id": "zoolatria",
+    "word": "zoolatría",
+    "reason": "Zoolatría significa culto a los animales y es un término religioso muy especializado."
+  },
+  {
+    "id": "abeto",
+    "word": "abeto",
+    "reason": "Abeto es el nombre común de un árbol y la definición describe la especie en detalle botánico."
+  },
+  {
+    "id": "aligerar",
+    "word": "aligerar",
+    "reason": "Aligerar es un verbo común para hacer algo menos pesado o más fácil de llevar."
+  },
+  {
+    "id": "barrida",
+    "word": "barrida",
+    "reason": "Barrida es la acción de barrer y se entiende directamente a partir del verbo común barrer."
+  },
+  {
+    "id": "cera",
+    "word": "cera",
+    "reason": "Cera es una palabra común y el candidato desarrolla una descripción química que no hace falta para una ficha de sinonimia."
+  },
+  {
+    "id": "conejillo",
+    "word": "conejillo",
+    "reason": "Conejillo es un diminutivo transparente de conejo y no tiene un sentido independiente en esta entrada."
+  },
+  {
+    "id": "conspirar",
+    "word": "conspirar",
+    "reason": "Conspirar es una palabra común para ponerse de acuerdo en secreto; la definición candidata describe el tejido de una tela."
+  },
+  {
+    "id": "crio",
+    "word": "crío",
+    "reason": "Crío es una palabra coloquial común para un niño pequeño y no aporta un sentido difícil."
+  },
+  {
+    "id": "desafio",
+    "word": "desafío",
+    "reason": "Desafío es una palabra común para una competición o reto, y la definición candidata es directa."
+  },
+  {
+    "id": "desalojo",
+    "word": "desalojo",
+    "reason": "Desalojo significa la acción de desalojar y se entiende fácilmente por su relación con el verbo común."
+  },
+  {
+    "id": "furioso",
+    "word": "furioso",
+    "reason": "Furioso es un adjetivo común para quien siente mucha ira."
+  },
+  {
+    "id": "paternal",
+    "word": "paternal",
+    "reason": "Paternal significa relativo al padre o propio de su cariño protector; ambos sentidos son fáciles de comprender."
+  },
+  {
+    "id": "situado",
+    "word": "situado",
+    "reason": "El sentido candidato es un tipo regional de renta asignada sobre bienes productivos, de uso especializado."
+  },
+  {
+    "id": "talento",
+    "word": "talento",
+    "reason": "Talento es una palabra común para aptitud o inteligencia; el sentido histórico de medida y moneda tiene poca utilidad."
+  },
+  {
+    "id": "tartaro",
+    "word": "tártaro",
+    "reason": "El sentido candidato es un lugar de la mitología griega y tiene poca utilidad en un diccionario general de sinónimos."
+  },
+  {
+    "id": "territorial",
+    "word": "territorial",
+    "reason": "Territorial significa relativo a un territorio; es una formación transparente y de uso común."
+  },
+  {
+    "id": "tranquilizador",
+    "word": "tranquilizador",
+    "reason": "Tranquilizador significa que devuelve la calma y se entiende por su relación directa con tranquilizar."
+  },
+  {
+    "id": "venado",
+    "word": "venado",
+    "reason": "Venado es el nombre común de un mamífero y la definición describe directamente al animal."
+  },
+  {
+    "id": "deshuesador",
+    "word": "deshuesador",
+    "reason": "Deshuesador es una forma masculina cuyo femenino es deshuesadora; no representa un significado distinto."
+  },
+  {
+    "id": "apropiable",
+    "word": "apropiable",
+    "reason": "Apropiable significa que se puede hacer propio y es fácil de interpretar por su formación."
+  },
+  {
+    "id": "archifonema",
+    "word": "archifonema",
+    "reason": "Archifonema es un término técnico de fonología y tiene poca utilidad para el lector general."
+  },
+  {
+    "id": "ardinculo",
+    "word": "ardínculo",
+    "reason": "Ardínculo es un antiguo término veterinario para un absceso gangrenoso en caballos."
+  },
+  {
+    "id": "artelleria",
+    "word": "artellería",
+    "reason": "Artellería está en desuso y designa máquinas antiguas de guerra; no tiene utilidad actual general."
+  },
+  {
+    "id": "auruspice",
+    "word": "aurúspice",
+    "reason": "Aurúspice remite a arúspice, una variante poco común para un sacerdote adivino romano."
+  },
+  {
+    "id": "averiguata",
+    "word": "averiguata",
+    "reason": "Averiguata es un coloquialismo salvadoreño para una discusión prolongada y acalorada."
+  },
+  {
+    "id": "ayaco",
+    "word": "ayaco",
+    "reason": "Ayaco es una variante nicaragüense de ajiaco, un guiso de carne; tiene poco uso general."
+  },
+  {
+    "id": "barrileria",
+    "word": "barrilería",
+    "reason": "Barrilería significa conjunto de barriles; la definición es directa y la voz tiene poca utilidad como sinónimo difícil."
+  },
+  {
+    "id": "becerrillo",
+    "word": "becerrillo",
+    "reason": "Becerrillo es una piel curtida de becerro, un término comercial específico y de baja utilidad general."
+  },
+  {
+    "id": "becoquino",
+    "word": "becoquino",
+    "reason": "Becoquino remite a ceriflor y es una voz rara para una planta."
+  },
+  {
+    "id": "bitonalidad",
+    "word": "bitonalidad",
+    "reason": "Bitonalidad es un concepto técnico de composición musical con poca utilidad fuera de ese ámbito."
+  },
+  {
+    "id": "caloyo",
+    "word": "caloyo",
+    "reason": "Caloyo nombra a una cría recién nacida de oveja o cabra y es un término rural muy específico."
+  },
+  {
+    "id": "carralero",
+    "word": "carralero",
+    "reason": "Carralero nombra a quien fabrica toneles y es una ocupación antigua de poca utilidad general."
+  },
+  {
+    "id": "cascol",
+    "word": "cascol",
+    "reason": "Cascol es el nombre regional de una resina de Guayana usada para fabricar lacre, con poco uso general."
+  },
+  {
+    "id": "castanetada",
+    "word": "castañetada",
+    "reason": "Castañetada remite a castañetazo y no aporta un sentido actual independiente."
+  },
+  {
+    "id": "charneca",
+    "word": "charneca",
+    "reason": "Charneca es una variante de lentisco, nombre de un arbusto, y tiene poca utilidad general."
+  },
+  {
+    "id": "charreria",
+    "word": "charrería",
+    "reason": "Charrería remite a charrada, una obra o adorno de mal gusto, y tiene poco uso general."
+  },
+  {
+    "id": "chichota",
+    "word": "chichota",
+    "reason": "Chichota es una variante coloquial poco usada de pizca y no aporta un sentido distinto."
+  },
+  {
+    "id": "chivitero",
+    "word": "chivitero",
+    "reason": "Chivitero remite a chivetero y no ofrece un significado independiente de uso general."
+  },
+  {
+    "id": "chuzon",
+    "word": "chuzón",
+    "reason": "Chuzón remite a chuzo y mezcla sentidos diferentes, incluida una voz desusada de uso muy limitado."
+  },
+  {
+    "id": "cisticercosis",
+    "word": "cisticercosis",
+    "reason": "Cisticercosis es el nombre de una enfermedad parasitaria y no una ficha de sinónimo de uso general."
+  },
+  {
+    "id": "citofono",
+    "word": "citófono",
+    "reason": "Citófono es un término colombiano para un sistema interno de comunicación y tiene uso regional."
+  },
+  {
+    "id": "contentura",
+    "word": "contentura",
+    "reason": "Contentura remite a contento en el sentido de alegría y tiene poco uso actual."
+  },
+  {
+    "id": "cosmonave",
+    "word": "cosmonave",
+    "reason": "Cosmonave remite a astronave y no añade una acepción diferente de uso actual."
+  },
+  {
+    "id": "cuchubal",
+    "word": "cuchubal",
+    "reason": "Cuchubal es una práctica salvadoreña de ahorro con sorteo entre compañeros y tiene poca extensión general."
+  },
+  {
+    "id": "cucuba",
+    "word": "cucubá",
+    "reason": "Cucubá es un nombre cubano para el sijú y tiene poca utilidad fuera de esa región y de la zoología."
+  },
+  {
+    "id": "cuzul",
+    "word": "cuzul",
+    "reason": "Cuzul es una variante hondureña de cusul y no añade un significado de uso general."
+  },
+  {
+    "id": "desopinar",
+    "word": "desopinar",
+    "reason": "Desopinar significa desacreditar a alguien, pero es una voz antigua de muy poco uso actual."
+  },
+  {
+    "id": "pedestrismo",
+    "word": "pedestrismo",
+    "reason": "Pedestrismo nombra actividades deportivas hechas a pie y es un término técnico de uso limitado."
+  },
+  {
+    "id": "robustidad",
+    "word": "robustidad",
+    "reason": "Robustidad está marcada como antigua y no aporta un sentido actual distinto de robustez."
+  },
+  {
+    "id": "selvicultura",
+    "word": "selvicultura",
+    "reason": "Selvicultura remite a silvicultura y no aporta un significado independiente."
+  },
+  {
+    "id": "sinalefar",
+    "word": "sinalefar",
+    "reason": "Sinalefar nombra una operación métrica de poesía y tiene poca utilidad para un diccionario general."
+  },
+  {
+    "id": "sobrecielo",
+    "word": "sobrecielo",
+    "reason": "Sobrecielo es una voz rara para un dosel o toldo colocado encima de algo."
   }
 ]

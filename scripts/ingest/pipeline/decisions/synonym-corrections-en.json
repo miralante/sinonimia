@@ -264691,5 +264691,113 @@
         "text": "A golden chanterelle grew beside the trail after the rain."
       }
     }
+  },
+  {
+    "entry": "chaps-2",
+    "remove": [],
+    "set": {
+      "definition": "Leather leggings worn over trousers to protect a rider's legs.",
+      "synonyms": [
+        "Riding leggings"
+      ],
+      "example": {
+        "word": "Chaps",
+        "text": "Chaps protect a rider's legs from branches and rope burns."
+      },
+      "exampleSynonym": {
+        "word": "Riding leggings",
+        "text": "Riding leggings protect a rider's legs from branches and rope burns."
+      }
+    }
+  },
+  {
+    "entry": "murmur-5",
+    "remove": [],
+    "set": {
+      "definition": "A low, steady sound that is hard to hear clearly.",
+      "synonyms": [
+        "rustle"
+      ],
+      "example": {
+        "word": "murmur",
+        "text": "We heard a murmur among the leaves."
+      },
+      "exampleSynonym": {
+        "word": "rustle",
+        "text": "We heard a rustle among the leaves."
+      }
+    }
+  },
+  {
+    "entry": "rubicon",
+    "remove": [],
+    "set": {
+      "definition": "A point after which a decision cannot be reversed.",
+      "synonyms": [
+        "point of no return"
+      ],
+      "example": {
+        "word": "Rubicon",
+        "text": "Crossing the Rubicon changed the course of the campaign."
+      },
+      "exampleSynonym": {
+        "word": "point of no return",
+        "text": "Crossing the point of no return changed the course of the campaign."
+      }
+    }
+  },
+  {
+    "entry": "community-property",
+    "remove": [],
+    "set": {
+      "definition": "Money and property that a married couple owns together.",
+      "synonyms": [
+        "Marital property"
+      ],
+      "example": {
+        "word": "Community property",
+        "text": "Community property is divided under the terms of the divorce agreement."
+      },
+      "exampleSynonym": {
+        "word": "Marital property",
+        "text": "Marital property is divided under the terms of the divorce agreement."
+      }
+    }
+  },
+  {
+    "entry": "charlatanism",
+    "remove": [],
+    "set": {
+      "definition": "The practice of pretending to have skills or knowledge you lack.",
+      "synonyms": [
+        "Fraud"
+      ],
+      "example": {
+        "word": "Charlatanism",
+        "text": "Charlatanism harmed the clinic's reputation."
+      },
+      "exampleSynonym": {
+        "word": "Fraud",
+        "text": "Fraud harmed the clinic's reputation."
+      }
+    }
+  },
+  {
+    "entry": "relativize",
+    "remove": [],
+    "set": {
+      "definition": "To treat something as dependent on its context rather than absolute.",
+      "synonyms": [
+        "Contextualize"
+      ],
+      "example": {
+        "word": "Relativize",
+        "text": "Relativize the result by considering its context."
+      },
+      "exampleSynonym": {
+        "word": "Contextualize",
+        "text": "Contextualize the result by considering its context."
+      }
+    }
   }
 ]

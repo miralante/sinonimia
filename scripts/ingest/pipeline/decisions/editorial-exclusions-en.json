@@ -87831,5 +87831,325 @@
     "id": "tab-2",
     "word": "Tab",
     "reason": "The candidate gives a narrow casino-token sense of tab, with little general value."
+  },
+  {
+    "id": "care-2",
+    "word": "care",
+    "reason": "The candidate describes putting people face to face, not a sense of care."
+  },
+  {
+    "id": "ring-3",
+    "word": "Ring",
+    "reason": "Ring is a common word, and the candidate gives a familiar piece of jewelry."
+  },
+  {
+    "id": "capsule-2",
+    "word": "Capsule",
+    "reason": "Capsule is common, and the candidate only says that something relates to a capsule."
+  },
+  {
+    "id": "love-5",
+    "word": "love",
+    "reason": "The supplied definition describes drinking until intoxicated and does not match a sense of love."
+  },
+  {
+    "id": "sculptural-2",
+    "word": "Sculptural",
+    "reason": "Sculptural simply means relating to sculpture, a transparent adjective derived from a common word."
+  },
+  {
+    "id": "lunge-2",
+    "word": "lunge",
+    "reason": "Lunge is a common verb, and the candidate repeats its basic sense of attacking."
+  },
+  {
+    "id": "grinding-3",
+    "word": "Grinding",
+    "reason": "Grinding is a common form of grind, and the supplied wording merely repeats the headword."
+  },
+  {
+    "id": "soften-4",
+    "word": "Soften",
+    "reason": "Soften is a common verb, and “put soft or flexible” describes its basic meaning."
+  },
+  {
+    "id": "inheritance-3",
+    "word": "Inheritance",
+    "reason": "The supplied definition describes a bounded plot of land and does not match a sense of inheritance."
+  },
+  {
+    "id": "snapper-2",
+    "word": "snapper",
+    "reason": "Snapper is a fish name, and the candidate identifies one species rather than a difficult synonym meaning."
+  },
+  {
+    "id": "carelessness-4",
+    "word": "Carelessness",
+    "reason": "Carelessness means a lack of care, while “act of affection” describes a different idea."
+  },
+  {
+    "id": "screamer-3",
+    "word": "screamer",
+    "reason": "Screamer transparently means someone who screams; the candidate gives only this basic meaning."
+  },
+  {
+    "id": "late-medieval-3",
+    "word": "late medieval",
+    "reason": "Late medieval is a straightforward time-period label and not a difficult synonym entry."
+  },
+  {
+    "id": "report-3",
+    "word": "Report",
+    "reason": "Report is a common verb, and the candidate describes the basic work of a journalist."
+  },
+  {
+    "id": "civet-2",
+    "word": "civet",
+    "reason": "Civet is a name for a group of mammals, not a difficult synonym meaning for general use."
+  },
+  {
+    "id": "terribility-2",
+    "word": "Terribility",
+    "reason": "Terribility is rare and the candidate only repeats the adjective terrible without clarifying a useful meaning."
+  },
+  {
+    "id": "spillway-2",
+    "word": "spillway",
+    "reason": "A spillway is a structure that carries excess water away from a dam, a narrow engineering term."
+  },
+  {
+    "id": "chill-9",
+    "word": "Chill",
+    "reason": "Chill is a common verb, and the candidate gives the basic meaning of making something colder."
+  },
+  {
+    "id": "lunch-7",
+    "word": "Lunch",
+    "reason": "The supplied measure of capacity does not define lunch and appears to belong to another entry."
+  },
+  {
+    "id": "blade-5",
+    "word": "Blade",
+    "reason": "Blade is a common word, and the candidate repeats several basic uses in an unnecessarily long definition."
+  },
+  {
+    "id": "captain-3",
+    "word": "Captain",
+    "reason": "The candidate gives Latin grammatical forms of caput, not a meaning of captain."
+  },
+  {
+    "id": "grassy-2",
+    "word": "Grassy",
+    "reason": "Grassy means covered with grass; the candidate is a translation fragment rather than an English definition."
+  },
+  {
+    "id": "sponge-cake-4",
+    "word": "sponge cake",
+    "reason": "The candidate points to a Spanish derivative instead of defining sponge cake in English."
+  },
+  {
+    "id": "slowly-7",
+    "word": "Slowly",
+    "reason": "Slowly is a common adverb, and the candidate is a translation fragment rather than a definition."
+  },
+  {
+    "id": "basket-10",
+    "word": "Basket",
+    "reason": "Basket is a common word, and the supplied fragment does not define a distinct sense."
+  },
+  {
+    "id": "cervical-2",
+    "word": "Cervical",
+    "reason": "Cervical is a medical or anatomical adjective relating to the neck and has little general synonym value."
+  },
+  {
+    "id": "sinusitis-2",
+    "word": "Sinusitis",
+    "reason": "Sinusitis is the name of a medical condition rather than a difficult synonym sense."
+  },
+  {
+    "id": "lower-4",
+    "word": "Lower",
+    "reason": "Lower is a common word, and the supplied harassment definition does not match a documented sense of lower."
+  },
+  {
+    "id": "chopstick-3",
+    "word": "Chopstick",
+    "reason": "Chopstick is a common utensil, and the candidate describes a popsicle stick instead."
+  },
+  {
+    "id": "noema",
+    "word": "Noema",
+    "reason": "Noema is a specialized philosophical or rhetorical term with little general synonym value."
+  },
+  {
+    "id": "corral-4",
+    "word": "corral",
+    "reason": "Corral is a common word for an animal enclosure, and the candidate gives its basic meaning."
+  },
+  {
+    "id": "clangor",
+    "word": "Clangor",
+    "reason": "Clangor is a rare literary word for a loud ringing sound and has little everyday use."
+  },
+  {
+    "id": "landowner-3",
+    "word": "landowner",
+    "reason": "Landowner transparently means a person who owns land, so the candidate describes an easy sense."
+  },
+  {
+    "id": "clothesline-5",
+    "word": "Clothesline",
+    "reason": "Clothesline is a common word, and the candidate merely repeats the headword."
+  },
+  {
+    "id": "cheat-2",
+    "word": "cheat",
+    "reason": "Cheat is a common verb for deceiving someone, and the candidate's long wording describes a basic sense."
+  },
+  {
+    "id": "rough-and-rustic",
+    "word": "rough and rustic",
+    "reason": "Rough and rustic is an ordinary descriptive phrase and does not express a difficult synonym sense."
+  },
+  {
+    "id": "gentleman-2",
+    "word": "gentleman",
+    "reason": "Gentleman is common, and the supplied meaning “conceited young man” does not match the headword."
+  },
+  {
+    "id": "spathe-2",
+    "word": "spathe",
+    "reason": "A spathe is a specialized leaf around a plant's flower cluster and has little general synonym value."
+  },
+  {
+    "id": "speak-quietly",
+    "word": "speak quietly",
+    "reason": "Speak quietly is an ordinary phrase with a clear meaning and does not need a synonym card."
+  },
+  {
+    "id": "guinja",
+    "word": "guinja",
+    "reason": "Guinja is a local name for a small bird and has little general English use."
+  },
+  {
+    "id": "come-34",
+    "word": "come",
+    "reason": "The candidate defines a type of twine, not a sense of the common verb come."
+  },
+  {
+    "id": "come-41",
+    "word": "come",
+    "reason": "The candidate describes a monkey and does not define a sense of come."
+  },
+  {
+    "id": "cardiography",
+    "word": "Cardiography",
+    "reason": "Cardiography is a medical specialty focused on the heart's electrical activity, with little general synonym value."
+  },
+  {
+    "id": "semi-floor",
+    "word": "Semi-floor",
+    "reason": "Semi-floor is an Argentinian real-estate term for two units sharing one floor and has limited regional use."
+  },
+  {
+    "id": "groupable",
+    "word": "Groupable",
+    "reason": "Groupable transparently means able to be grouped and does not present a difficult meaning."
+  },
+  {
+    "id": "casuism",
+    "word": "casuism",
+    "reason": "Casuism is a rare variant of casuistry, a specialized method of moral reasoning."
+  },
+  {
+    "id": "convoluted",
+    "word": "Convoluted",
+    "reason": "The candidate calls convoluted a variant of itself and does not give a clear definition."
+  },
+  {
+    "id": "scientificity",
+    "word": "Scientificity",
+    "reason": "Scientificity is a rare abstract noun for scientific quality and has little general synonym value."
+  },
+  {
+    "id": "stacker",
+    "word": "Stacker",
+    "reason": "Stacker transparently means something or someone that stacks items and does not express a difficult sense."
+  },
+  {
+    "id": "coking",
+    "word": "coking",
+    "reason": "The candidate is a translation fragment and does not define a distinct English sense of coking."
+  },
+  {
+    "id": "choir",
+    "word": "choir",
+    "reason": "Choir is a common word for singers, and the candidate's schoolchildren definition does not match it."
+  },
+  {
+    "id": "millefeuille",
+    "word": "millefeuille",
+    "reason": "Millefeuille is a regional name for a layered pastry and has little general English synonym value."
+  },
+  {
+    "id": "robinsonism",
+    "word": "Robinsonism",
+    "reason": "Robinsonism refers to an isolated, self-sufficient way of life modeled on Robinson Crusoe and is highly specific."
+  },
+  {
+    "id": "anointing",
+    "word": "Anointing",
+    "reason": "Anointing is a familiar religious act, while the candidate repeats itself and gives no useful definition."
+  },
+  {
+    "id": "gasfitter",
+    "word": "gasfitter",
+    "reason": "Gasfitter transparently names a trade that installs gas equipment and is a narrow occupational term."
+  },
+  {
+    "id": "gesticular",
+    "word": "Gesticular",
+    "reason": "Gesticular is a rare adjective related to gestures and has little current use as a synonym entry."
+  },
+  {
+    "id": "gutta-percha",
+    "word": "Gutta-percha",
+    "reason": "Gutta-percha is a specialized natural rubber formerly used in manufacturing and has little general synonym value."
+  },
+  {
+    "id": "calvathunder",
+    "word": "Calvathunder",
+    "reason": "Calvathunder has no clear standard English meaning, and “large size horse” does not establish a reliable entry."
+  },
+  {
+    "id": "numismatics",
+    "word": "Numismatics",
+    "reason": "Numismatics is the specialist study of coins and medals, with limited value for a general synonym dictionary."
+  },
+  {
+    "id": "menthol",
+    "word": "Menthol",
+    "reason": "Menthol is a specific compound, not a mixture of menthol and other aromatic substances as the candidate claims."
+  },
+  {
+    "id": "opera",
+    "word": "opera",
+    "reason": "Opera is a familiar name for a musical drama, and the candidate gives its basic meaning."
+  },
+  {
+    "id": "synderesis",
+    "word": "Synderesis",
+    "reason": "Synderesis is a highly specialized scholastic philosophy term with little general use."
+  },
+  {
+    "id": "refound",
+    "word": "Refound",
+    "reason": "Refound transparently means to found again, and the candidate already explains its basic sense."
+  },
+  {
+    "id": "rhinology",
+    "word": "rhinology",
+    "reason": "Rhinology is the specialized medical study of the nose and nasal passages."
   }
 ]

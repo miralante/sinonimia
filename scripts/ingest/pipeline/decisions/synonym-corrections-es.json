@@ -263794,5 +263794,167 @@
         "text": "El pitido era oíble desde el otro extremo del pasillo."
       }
     }
+  },
+  {
+    "entry": "valenton",
+    "remove": [],
+    "set": {
+      "definition": "Persona que presume de valiente y actúa con arrogancia.",
+      "synonyms": [
+        "bravucón"
+      ],
+      "example": {
+        "word": "valentón",
+        "text": "El valentón amenazó a quienes no aceptaban sus órdenes."
+      },
+      "exampleSynonym": {
+        "word": "bravucón",
+        "text": "El bravucón amenazó a quienes no aceptaban sus órdenes."
+      }
+    }
+  },
+  {
+    "entry": "zampon",
+    "remove": [],
+    "set": {
+      "definition": "Persona que come mucho y con ansia.",
+      "synonyms": [
+        "glotón"
+      ],
+      "example": {
+        "word": "zampón",
+        "text": "El zampón acabó con toda la comida."
+      },
+      "exampleSynonym": {
+        "word": "glotón",
+        "text": "El glotón acabó con toda la comida."
+      }
+    }
+  },
+  {
+    "entry": "alimana",
+    "remove": [],
+    "set": {
+      "definition": "Animal que causa daños o resulta molesto.",
+      "synonyms": [
+        "bestia dañina"
+      ],
+      "example": {
+        "word": "alimaña",
+        "text": "La alimaña acechaba el gallinero."
+      },
+      "exampleSynonym": {
+        "word": "bestia dañina",
+        "text": "La bestia dañina acechaba el gallinero."
+      }
+    }
+  },
+  {
+    "entry": "comezon",
+    "remove": [],
+    "set": {
+      "definition": "Picor molesto en alguna parte del cuerpo.",
+      "synonyms": [
+        "picazón"
+      ],
+      "example": {
+        "word": "comezón",
+        "text": "La comezón empeoró después de la picadura."
+      },
+      "exampleSynonym": {
+        "word": "picazón",
+        "text": "La picazón empeoró después de la picadura."
+      }
+    }
+  },
+  {
+    "entry": "concienzudo",
+    "remove": [],
+    "set": {
+      "definition": "Que pone mucho cuidado y atención en lo que hace.",
+      "synonyms": [
+        "meticuloso"
+      ],
+      "example": {
+        "word": "concienzudo",
+        "text": "El revisor concienzudo comprobó todas las cifras."
+      },
+      "exampleSynonym": {
+        "word": "meticuloso",
+        "text": "El revisor meticuloso comprobó todas las cifras."
+      }
+    }
+  },
+  {
+    "entry": "corroborar",
+    "remove": [],
+    "set": {
+      "definition": "Confirmar algo con nuevos datos o argumentos.",
+      "synonyms": [
+        "confirmar"
+      ],
+      "example": {
+        "word": "corroborar",
+        "text": "El informe logró corroborar la hipótesis con datos nuevos."
+      },
+      "exampleSynonym": {
+        "word": "confirmar",
+        "text": "El informe logró confirmar la hipótesis con datos nuevos."
+      }
+    }
+  },
+  {
+    "entry": "chozo",
+    "remove": [],
+    "set": {
+      "definition": "Refugio pequeño y sencillo, usado a menudo por pastores.",
+      "synonyms": [
+        "refugio"
+      ],
+      "example": {
+        "word": "chozo",
+        "text": "El pastor pasó la noche en el chozo."
+      },
+      "exampleSynonym": {
+        "word": "refugio",
+        "text": "El pastor pasó la noche en el refugio."
+      }
+    }
+  },
+  {
+    "entry": "desacobardar",
+    "remove": [],
+    "set": {
+      "definition": "Quitar el miedo y dar ánimo a alguien.",
+      "synonyms": [
+        "animar"
+      ],
+      "example": {
+        "word": "desacobardar",
+        "text": "La charla logró desacobardar al equipo antes de salir."
+      },
+      "exampleSynonym": {
+        "word": "animar",
+        "text": "La charla logró animar al equipo antes de salir."
+      }
+    }
+  },
+  {
+    "entry": "secesionismo",
+    "remove": [],
+    "set": {
+      "definition": "Movimiento político que busca separar una región de un Estado.",
+      "synonyms": [
+        "independentismo"
+      ],
+      "example": {
+        "word": "secesionismo",
+        "text": "El secesionismo creció después de la crisis."
+      },
+      "exampleSynonym": {
+        "word": "independentismo",
+        "text": "El independentismo creció después de la crisis."
+      }
+    }
   }
 ]
