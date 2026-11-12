@@ -93211,5 +93211,320 @@
     "id": "spring-3",
     "word": "Spring",
     "reason": "Spring is a familiar word for an elastic metal piece, and the supplied definition merely repeats the headword."
+  },
+  {
+    "id": "shame-6",
+    "word": "shame",
+    "reason": "Shame is a familiar word for embarrassment or guilt, and the supplied definition is straightforward."
+  },
+  {
+    "id": "cheap-7",
+    "word": "Cheap",
+    "reason": "Cheap means low in price or poor in quality, not a liar or deceiver."
+  },
+  {
+    "id": "spread-9",
+    "word": "Spread",
+    "reason": "Spread is a familiar verb for extending or sharing information, and the definition is already clear."
+  },
+  {
+    "id": "right-8",
+    "word": "Right",
+    "reason": "Right is an extremely common word, and its dextrorse or right-handed sense is specialized and unnecessary here."
+  },
+  {
+    "id": "ceatic",
+    "word": "Ceatic",
+    "reason": "Ceatic is a rare or corrupt form related to sciatic and is not a standard useful English headword."
+  },
+  {
+    "id": "scavenge-2",
+    "word": "Scavenge",
+    "reason": "Scavenge means to search for or collect discarded items, not to have involuntary bowel movements."
+  },
+  {
+    "id": "cras",
+    "word": "Cras",
+    "reason": "Cras is an obsolete or rare Latin-derived word for tomorrow and has no useful general English role."
+  },
+  {
+    "id": "interpreted-2",
+    "word": "Interpreted",
+    "reason": "Interpreted is a common past form of interpret, not simultaneous translation itself."
+  },
+  {
+    "id": "nagualism",
+    "word": "Nagualism",
+    "reason": "Nagualism is a specialized religious or cultural concept from Mesoamerican traditions."
+  },
+  {
+    "id": "mitral",
+    "word": "Mitral",
+    "reason": "Mitral is a technical adjective used mainly for the mitral valve or structures shaped like a bishop's mitre."
+  },
+  {
+    "id": "semipermeable",
+    "word": "Semipermeable",
+    "reason": "Semipermeable plainly means allowing some substances to pass through but blocking others; it is a transparent technical adjective."
+  },
+  {
+    "id": "sidecar",
+    "word": "Sidecar",
+    "reason": "Sidecar is a familiar motorcycle attachment, and the supplied long description can be stated simply."
+  },
+  {
+    "id": "conacaste",
+    "word": "conacaste",
+    "reason": "Conacaste is a Central American tree name and specialized regional botanical vocabulary."
+  },
+  {
+    "id": "napalm",
+    "word": "Napalm",
+    "reason": "Napalm is a familiar incendiary military fuel, and the definition is already understandable."
+  },
+  {
+    "id": "sisal-2",
+    "word": "Sisal",
+    "reason": "Sisal is a plant fiber used for strong rope and is straightforward material vocabulary."
+  },
+  {
+    "id": "mule-3",
+    "word": "mule",
+    "reason": "Mule is a familiar animal name; the scientific cross-breeding formula is unnecessary for a simple definition."
+  },
+  {
+    "id": "monastic-2",
+    "word": "monastic",
+    "reason": "Monastic plainly means relating to monks and is easy to infer."
+  },
+  {
+    "id": "gum-3",
+    "word": "gum",
+    "reason": "Gum is a familiar verb for applying adhesive or coating with gum, and those actions are straightforward."
+  },
+  {
+    "id": "slap-11",
+    "word": "slap",
+    "reason": "Slap is a familiar word for a quick blow with an open hand."
+  },
+  {
+    "id": "drunk-stick",
+    "word": "drunk stick",
+    "reason": "Drunk stick is an English gloss for the Spanish palo borracho, a regional tree name, not a standard English synonym headword."
+  },
+  {
+    "id": "bleach-5",
+    "word": "bleach",
+    "reason": "Bleach means a chemical used to whiten or disinfect, not a shelf or wall support."
+  },
+  {
+    "id": "cloth-2",
+    "word": "cloth",
+    "reason": "Cloth means fabric or material used for clothing or cleaning; the supplied synonym velorí is unrelated."
+  },
+  {
+    "id": "infant-4",
+    "word": "infant",
+    "reason": "Infant means a very young child, not the act of smelling; the supplied definition is mismatched."
+  },
+  {
+    "id": "can-8",
+    "word": "can",
+    "reason": "Can is a very common modal verb or container noun; the supplied corset sense is unrelated and corrupt."
+  },
+  {
+    "id": "lazy-15",
+    "word": "lazy",
+    "reason": "Lazy is a familiar adjective for avoiding work or effort."
+  },
+  {
+    "id": "ant-36",
+    "word": "ant",
+    "reason": "Ant means a small social insect, not a carpenter who makes oars."
+  },
+  {
+    "id": "risk-time-zone",
+    "word": "Risk time zone",
+    "reason": "Risk time zone is a specialized phrase for periods of increased danger and has little established general use."
+  },
+  {
+    "id": "sewer",
+    "word": "Sewer",
+    "reason": "Sewer is a familiar word for the underground pipe system that carries wastewater away from buildings."
+  },
+  {
+    "id": "chamber",
+    "word": "Chamber",
+    "reason": "Chamber is a familiar word for a room or enclosed space, and the supplied definition is simple."
+  },
+  {
+    "id": "geothermal",
+    "word": "Geothermal",
+    "reason": "Geothermal means relating to heat from inside the Earth and is a transparent technical adjective."
+  },
+  {
+    "id": "co-officiality",
+    "word": "Co-officiality",
+    "reason": "Co-officiality is a specialist legal or administrative term for having two or more official languages."
+  },
+  {
+    "id": "south-southwest",
+    "word": "South-southwest",
+    "reason": "South-southwest is a transparent compass point between south and southwest."
+  },
+  {
+    "id": "cayamacan",
+    "word": "Cayamacan",
+    "reason": "Cayamacan is a Spanish historical term for a military command function, not a standard English headword."
+  },
+  {
+    "id": "categorism",
+    "word": "Categorism",
+    "reason": "Categorism is an uncommon abstract term, and the supplied definition merely repeats the idea of a category system."
+  },
+  {
+    "id": "squirt",
+    "word": "Squirt",
+    "reason": "Squirt is a familiar word for a small, sudden stream of liquid."
+  },
+  {
+    "id": "combat",
+    "word": "combat",
+    "reason": "Combat means fighting or taking action against something; the supplied regional fragment does not define the English word."
+  },
+  {
+    "id": "corpuscle",
+    "word": "Corpuscle",
+    "reason": "Corpuscle is a technical term for a tiny cell or body, mainly used in science and medicine."
+  },
+  {
+    "id": "teeth",
+    "word": "Teeth",
+    "reason": "Teeth is the common plural of tooth; the supplied definition describes tooth sensitivity rather than the word."
+  },
+  {
+    "id": "reviewable",
+    "word": "Reviewable",
+    "reason": "Reviewable plainly means able to be reviewed and its definition is already clear."
+  },
+  {
+    "id": "slinger",
+    "word": "slinger",
+    "reason": "Slinger is a transparent noun for someone who uses or throws with a sling."
+  },
+  {
+    "id": "cauliform",
+    "word": "Cauliform",
+    "reason": "Cauliform means shaped like a stem or stalk and is specialist descriptive vocabulary."
+  },
+  {
+    "id": "constitutionalization",
+    "word": "Constitutionalization",
+    "reason": "Constitutionalization is a specialized legal process for making something part of a constitution."
+  },
+  {
+    "id": "mixable",
+    "word": "Mixable",
+    "reason": "Mixable plainly means able to be mixed and is a transparent derivative."
+  },
+  {
+    "id": "stomacher",
+    "word": "stomacher",
+    "reason": "Stomacher names a decorative panel worn on historical clothing and has limited current use."
+  },
+  {
+    "id": "synergistic",
+    "word": "Synergistic",
+    "reason": "Synergistic means relating to synergy and is a transparent technical adjective."
+  },
+  {
+    "id": "pilocarpine",
+    "word": "Pilocarpine",
+    "reason": "Pilocarpine is a prescription medicine used for dry eyes and is specialist medical vocabulary."
+  },
+  {
+    "id": "stumbler",
+    "word": "stumbler",
+    "reason": "Stumbler is a transparent noun for someone who stumbles or makes mistakes."
+  },
+  {
+    "id": "chitinous",
+    "word": "Chitinous",
+    "reason": "Chitinous means made of or resembling chitin and is a transparent technical adjective."
+  },
+  {
+    "id": "garrote",
+    "word": "Garrote",
+    "reason": "Garrote is a Spanish noun, and the supplied feminine-equivalent note is malformed and does not define English garrote."
+  },
+  {
+    "id": "swordsman",
+    "word": "Swordsman",
+    "reason": "Swordsman plainly means a person skilled in using a sword and is easy to understand."
+  },
+  {
+    "id": "rubber-farmer",
+    "word": "Rubber farmer",
+    "reason": "Rubber farmer transparently names someone who grows rubber-producing plants and is a low-utility occupation phrase."
+  },
+  {
+    "id": "north-american",
+    "word": "North American",
+    "reason": "North American plainly means relating to North America or its people."
+  },
+  {
+    "id": "circumfuse",
+    "word": "Circumfuse",
+    "reason": "Circumfuse is a rare or obsolete verb for spreading around or over something."
+  },
+  {
+    "id": "colorative",
+    "word": "Colorative",
+    "reason": "Colorative plainly means having the property of adding color and is a low-utility technical adjective."
+  },
+  {
+    "id": "concessive",
+    "word": "Concessive",
+    "reason": "Concessive is a technical grammar adjective and is not a high-utility general synonym entry."
+  },
+  {
+    "id": "scallop",
+    "word": "Scallop",
+    "reason": "Scallop is a familiar shellfish and food name, and the supplied family-level description is straightforward."
+  },
+  {
+    "id": "tocological",
+    "word": "Tocological",
+    "reason": "Tocological is a rare medical adjective relating to childbirth and has little general use."
+  },
+  {
+    "id": "tailbreaker",
+    "word": "Tailbreaker",
+    "reason": "Tailbreaker is a little-known common name for a plant and has limited general use."
+  },
+  {
+    "id": "cramp-2",
+    "word": "Cramp",
+    "reason": "Cramp is a familiar painful tightening of a muscle, and the definition is already clear."
+  },
+  {
+    "id": "check-in",
+    "word": "Check-in",
+    "reason": "Check-in is a familiar travel term for registering at a hotel or airport."
+  },
+  {
+    "id": "census-2",
+    "word": "Census",
+    "reason": "Census is a familiar official count of the population, and the definition is clear."
+  },
+  {
+    "id": "registration-4",
+    "word": "Registration",
+    "reason": "Registration is a familiar administrative term for officially recording a person or item."
+  },
+  {
+    "id": "control-2",
+    "word": "Control",
+    "reason": "Control is a common word; the supplied countersigning sense is specialized administrative usage."
   }
 ]

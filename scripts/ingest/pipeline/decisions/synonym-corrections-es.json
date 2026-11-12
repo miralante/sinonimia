@@ -266908,5 +266908,59 @@
         "text": "El trabajo propio de los siervos era frecuente en la época."
       }
     }
+  },
+  {
+    "entry": "teneduria",
+    "remove": [],
+    "set": {
+      "definition": "Trabajo de registrar y organizar las cuentas de una empresa.",
+      "synonyms": [
+        "contabilidad"
+      ],
+      "example": {
+        "word": "teneduría",
+        "text": "La teneduría quedó a cargo de una empleada."
+      },
+      "exampleSynonym": {
+        "word": "contabilidad",
+        "text": "La contabilidad quedó a cargo de una empleada."
+      }
+    }
+  },
+  {
+    "entry": "anquilostomiasis",
+    "remove": [],
+    "set": {
+      "definition": "Infección intestinal causada por gusanos parásitos llamados anquilostomas.",
+      "synonyms": [
+        "infección por anquilostomas"
+      ],
+      "example": {
+        "word": "anquilostomiasis",
+        "text": "La anquilostomiasis puede causar anemia."
+      },
+      "exampleSynonym": {
+        "word": "infección por anquilostomas",
+        "text": "La infección por anquilostomas puede causar anemia."
+      }
+    }
+  },
+  {
+    "entry": "fraguador",
+    "remove": [],
+    "set": {
+      "definition": "Que planea algo ocultamente, a menudo con mala intención.",
+      "synonyms": [
+        "conspirador"
+      ],
+      "example": {
+        "word": "fraguador",
+        "text": "El fraguador del plan fue descubierto."
+      },
+      "exampleSynonym": {
+        "word": "conspirador",
+        "text": "El conspirador del plan fue descubierto."
+      }
+    }
   }
 ]

@@ -99367,5 +99367,340 @@
     "id": "tafiletear",
     "word": "tafiletear",
     "reason": "Tafiletear es un término artesanal para adornar o reparar calzado con tafilete."
+  },
+  {
+    "id": "tamarilla",
+    "word": "tamarilla",
+    "reason": "Tamarilla es otro nombre del jaguarzo, un arbusto poco conocido de uso botánico especializado."
+  },
+  {
+    "id": "termitera",
+    "word": "termitera",
+    "reason": "Termitera es un nombre directo para un nido o colonia de termitas y su sentido es transparente."
+  },
+  {
+    "id": "tientaparedes",
+    "word": "tientaparedes",
+    "reason": "Tientaparedes es una voz poco usada para una persona que avanza a tientas o a ciegas."
+  },
+  {
+    "id": "transferencial",
+    "word": "transferencial",
+    "reason": "Transferencial significa relativo a una transferencia y es un derivado transparente de uso técnico."
+  },
+  {
+    "id": "tuani",
+    "word": "tuani",
+    "reason": "Tuani es una voz coloquial de El Salvador y Nicaragua para algo excelente y no es de uso general."
+  },
+  {
+    "id": "volvible",
+    "word": "volvible",
+    "reason": "Volvible significa que puede volverse o darse vuelta y es un derivado poco usado y transparente."
+  },
+  {
+    "id": "voquible",
+    "word": "voquible",
+    "reason": "Voquible es una voz coloquial poco frecuente para vocablo o palabra."
+  },
+  {
+    "id": "yacedor",
+    "word": "yacedor",
+    "reason": "Yacedor era un mozo de labor encargado de llevar caballerías a descansar y tiene un uso histórico muy limitado."
+  },
+  {
+    "id": "zabatan",
+    "word": "zabatán",
+    "reason": "Zabatán es una voz alavesa para una planta aromática y tiene un uso local especializado."
+  },
+  {
+    "id": "zancajada",
+    "word": "zancajada",
+    "reason": "Zancajada significa zancada o paso largo y se entiende fácilmente por su relación con zancada."
+  },
+  {
+    "id": "balson",
+    "word": "balsón",
+    "reason": "Balsón es una voz regional para una bolsa grande de tela y no tiene uso general amplio."
+  },
+  {
+    "id": "bayadera",
+    "word": "bayadera",
+    "reason": "Bayadera suele nombrar a una bailarina de origen indio, no a una vendedora de productos de aseo; la definición está mal atribuida."
+  },
+  {
+    "id": "berozo",
+    "word": "berozo",
+    "reason": "Berozo es una voz poco frecuente para una persona grosera y descortés."
+  },
+  {
+    "id": "bonizo",
+    "word": "bonizo",
+    "reason": "Bonizo es una voz rara para una persona amable y generosa, sin uso general establecido."
+  },
+  {
+    "id": "brazolargo",
+    "word": "brazolargo",
+    "reason": "Brazolargo describe literalmente a alguien con brazos largos y se entiende por sus partes."
+  },
+  {
+    "id": "caladura",
+    "word": "caladura",
+    "reason": "Caladura nombra la acción de hacer una caladura o perforación y es un derivado transparente de uso técnico."
+  },
+  {
+    "id": "calcotipia",
+    "word": "calcotipia",
+    "reason": "Calcotipia es una técnica especializada de grabado en relieve para imprimir imágenes."
+  },
+  {
+    "id": "cancelleria",
+    "word": "cancellería",
+    "reason": "Cancellería es una variante antigua de cancillería para una oficina que expide documentos oficiales."
+  },
+  {
+    "id": "caperucear",
+    "word": "caperucear",
+    "reason": "Caperucear es una voz poco usada para mirar con atención y no tiene uso general estable."
+  },
+  {
+    "id": "cargazon",
+    "word": "cargazón",
+    "reason": "Cargazón es una voz poco frecuente para una gran cantidad o carga excesiva y tiene escaso uso general."
+  },
+  {
+    "id": "cecial",
+    "word": "cecial",
+    "reason": "Cecial es una voz regional para una comida ligera de media mañana y tiene uso limitado."
+  },
+  {
+    "id": "charreada",
+    "word": "charreada",
+    "reason": "Charreada nombra una competencia ecuestre tradicional mexicana y es vocabulario deportivo regional."
+  },
+  {
+    "id": "cibicon",
+    "word": "cibicón",
+    "reason": "Cibicón es una voz poco frecuente para una persona que come en exceso."
+  },
+  {
+    "id": "comicial",
+    "word": "comicial",
+    "reason": "Comicial significa relativo a elecciones o asambleas electorales, no relativo a la risa; la definición está equivocada."
+  },
+  {
+    "id": "copeicillo",
+    "word": "copeicillo",
+    "reason": "Copeicillo es una herramienta pequeña para afilar y pulir metales, de uso técnico especializado."
+  },
+  {
+    "id": "cuadricenal",
+    "word": "cuadricenal",
+    "reason": "Cuadricenal significa que ocurre cada cuatro años y se forma de manera transparente."
+  },
+  {
+    "id": "cuartera",
+    "word": "cuartera",
+    "reason": "Cuartera designa una modalidad poco conocida de juego de cartas y tiene utilidad general limitada."
+  },
+  {
+    "id": "desaviar",
+    "word": "desaviar",
+    "reason": "Desaviar es una forma poco usada relacionada con desviar y no tiene un sentido general distinto."
+  },
+  {
+    "id": "descarapelar",
+    "word": "descarapelar",
+    "reason": "Descarapelar es una voz rara cuya definición aportada como desenrollar no se confirma como sentido actual general."
+  },
+  {
+    "id": "descontextualizar",
+    "word": "descontextualizar",
+    "reason": "Descontextualizar significa separar algo de su contexto y se entiende fácilmente por su formación."
+  },
+  {
+    "id": "deselectrizar",
+    "word": "deselectrizar",
+    "reason": "Deselectrizar es una voz técnica poco usada para desconectar la electricidad y puede ser una forma irregular del término."
+  },
+  {
+    "id": "sangroneria",
+    "word": "sangronería",
+    "reason": "Sangronería es una voz coloquial para una conducta antipática o molesta, de uso regional limitado."
+  },
+  {
+    "id": "socollon",
+    "word": "socollón",
+    "reason": "Socollón tiene sentidos regionales distintos de sacudida o golpe y no tiene uso general estable."
+  },
+  {
+    "id": "taragallo",
+    "word": "taragallo",
+    "reason": "Taragallo es un palo que se cuelga del collar del ganado para limitar el movimiento de los perros pastores."
+  },
+  {
+    "id": "tolenda",
+    "word": "tolenda",
+    "reason": "Tolenda es una voz rara para un conjunto de tejidos o telas y tiene escasa utilidad actual."
+  },
+  {
+    "id": "verguena",
+    "word": "vergüeña",
+    "reason": "Vergüeña es una forma regional para timidez o vergüenza excesiva y no es de uso general."
+  },
+  {
+    "id": "corchero",
+    "word": "corchero",
+    "reason": "La definición proporcionada describe el corcho, no a un corchero; la entrada está mal atribuida."
+  },
+  {
+    "id": "carunculado",
+    "word": "carunculado",
+    "reason": "Carunculado es un término botánico para algo que tiene o parece tener una carúncula."
+  },
+  {
+    "id": "resistividad",
+    "word": "resistividad",
+    "reason": "Resistividad es una propiedad física que mide cuánto se opone un material al paso de la corriente eléctrica."
+  },
+  {
+    "id": "ahuautle",
+    "word": "ahuautle",
+    "reason": "Ahuautle remite a aguaucle, nombre regional mexicano de alimento hecho con huevecillos de insectos acuáticos."
+  },
+  {
+    "id": "cabezudo",
+    "word": "cabezudo",
+    "reason": "Cabezudo puede tener varios sentidos, pero la definición aportada es solo un encabezado incompleto y no permite editar una ficha fiable."
+  },
+  {
+    "id": "vison",
+    "word": "visón",
+    "reason": "Visón es un mamífero y también su piel; ambos sentidos se describen de forma sencilla y son conocidos."
+  },
+  {
+    "id": "camajan",
+    "word": "camaján",
+    "reason": "Camaján es una voz colombiana coloquial para lacayo o gorrón y no tiene uso general."
+  },
+  {
+    "id": "simpaticon",
+    "word": "simpaticón",
+    "reason": "Simpaticón es un aumentativo transparente de simpático para una persona agradable."
+  },
+  {
+    "id": "vandalico",
+    "word": "vandálico",
+    "reason": "Vandálico significa relativo al vandalismo o que destruye deliberadamente, y es fácil de inferir."
+  },
+  {
+    "id": "camanance",
+    "word": "camanance",
+    "reason": "Camanance es una voz regional nicaragüense para hoyuelo y tiene alcance limitado."
+  },
+  {
+    "id": "animante",
+    "word": "animante",
+    "reason": "Animante significa que anima y es un derivado transparente de animar."
+  },
+  {
+    "id": "carron",
+    "word": "carrón",
+    "reason": "Carrón es una variante poco común o desusada de carro y no tiene uso independiente actual."
+  },
+  {
+    "id": "castrapuercas",
+    "word": "castrapuercas",
+    "reason": "Castrapuercas es una herramienta rural especializada para castrar cerdas y tiene muy poca utilidad general."
+  },
+  {
+    "id": "chivon",
+    "word": "chivón",
+    "reason": "Chivón es una voz regional poco frecuente para una persona de pelo rizado o crespo."
+  },
+  {
+    "id": "cicindelido",
+    "word": "cicindélido",
+    "reason": "Cicindélido designa una familia científica de escarabajos y es vocabulario entomológico especializado."
+  },
+  {
+    "id": "cimbrador",
+    "word": "cimbrador",
+    "reason": "Cimbrador significa que arquea o da forma curva y es un derivado transparente de cimbrar."
+  },
+  {
+    "id": "coscojero",
+    "word": "coscojero",
+    "reason": "Coscojero significa relativo al coscojo, una planta, y tiene un uso botánico limitado."
+  },
+  {
+    "id": "sifilografo",
+    "word": "sifilógrafo",
+    "reason": "Sifilógrafo es una denominación antigua para un especialista en sifilografía y tiene uso médico obsoleto."
+  },
+  {
+    "id": "tanguillo",
+    "word": "tanguillo",
+    "reason": "Tanguillo nombra un cante y baile popular de Cádiz y tiene un uso cultural regional."
+  },
+  {
+    "id": "topino",
+    "word": "topino",
+    "reason": "Topino es un adjetivo raro relativo a topos o ratones y tiene escasa utilidad general."
+  },
+  {
+    "id": "trapajoso",
+    "word": "trapajoso",
+    "reason": "Trapajoso es una voz poco usada para algo lleno de trampas u obstáculos."
+  },
+  {
+    "id": "valleno",
+    "word": "valleño",
+    "reason": "Valleño significa relativo a un valle o a sus habitantes y es transparente por su forma."
+  },
+  {
+    "id": "volvedor",
+    "word": "volvedor",
+    "reason": "Volvedor es un derivado de volver para algo que hace volver o regresa."
+  },
+  {
+    "id": "gibelino",
+    "word": "gibelino",
+    "reason": "Gibelino designa a un partidario de una facción política medieval italiana y tiene un uso histórico especializado."
+  },
+  {
+    "id": "amuso",
+    "word": "amuso",
+    "reason": "Amuso era una losa usada antiguamente para trazar una rosa de los vientos y tiene escasa utilidad actual."
+  },
+  {
+    "id": "bubulin",
+    "word": "bubulín",
+    "reason": "Bubulín es una variante poco usada de renacuajo y tiene un alcance regional limitado."
+  },
+  {
+    "id": "cinquen",
+    "word": "cinquén",
+    "reason": "Cinquén era una moneda castellana antigua de escaso valor y ya no tiene uso actual."
+  },
+  {
+    "id": "comalecerse",
+    "word": "comalecerse",
+    "reason": "Comalecerse es una voz poco frecuente para marchitarse o dañarse y no tiene uso general."
+  },
+  {
+    "id": "taz",
+    "word": "taz",
+    "reason": "Taz aparece en una locución poco conocida para un trueque sin compensación en dinero."
+  },
+  {
+    "id": "usiria",
+    "word": "usiría",
+    "reason": "Usiría es un tratamiento antiguo equivalente a vuestra señoría y no se usa actualmente."
+  },
+  {
+    "id": "cariduro",
+    "word": "cariduro",
+    "reason": "Cariduro remite a fajardeño, un gentilicio de uso muy local y poco conocido."
   }
 ]

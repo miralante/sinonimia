@@ -267283,5 +267283,131 @@
         "text": "Masculinity is understood differently across cultures."
       }
     }
+  },
+  {
+    "entry": "segregation",
+    "remove": [],
+    "set": {
+      "definition": "Forced separation of people because of race or another trait.",
+      "synonyms": [
+        "Forced separation"
+      ],
+      "example": {
+        "word": "Segregation",
+        "text": "Segregation shaped the lives of many children."
+      },
+      "exampleSynonym": {
+        "word": "Forced separation",
+        "text": "Forced separation shaped the lives of many children."
+      }
+    }
+  },
+  {
+    "entry": "net-worth",
+    "remove": [],
+    "set": {
+      "definition": "The value of what you own after subtracting your debts.",
+      "synonyms": [
+        "Personal wealth"
+      ],
+      "example": {
+        "word": "Net worth",
+        "text": "Net worth is one way to measure wealth."
+      },
+      "exampleSynonym": {
+        "word": "Personal wealth",
+        "text": "Personal wealth is one way to measure wealth."
+      }
+    }
+  },
+  {
+    "entry": "neofascism",
+    "remove": [],
+    "set": {
+      "definition": "A modern far-right movement based on fascist ideas.",
+      "synonyms": [
+        "the far-right movement"
+      ],
+      "example": {
+        "word": "Neofascism",
+        "text": "People debated Neofascism after the election."
+      },
+      "exampleSynonym": {
+        "word": "the far-right movement",
+        "text": "People debated the far-right movement after the election."
+      }
+    }
+  },
+  {
+    "entry": "repulse",
+    "remove": [],
+    "set": {
+      "definition": "To force a person or attack to move back.",
+      "synonyms": [
+        "Drive back"
+      ],
+      "example": {
+        "word": "Repulse",
+        "text": "Repulse the attackers from the gate."
+      },
+      "exampleSynonym": {
+        "word": "Drive back",
+        "text": "Drive back the attackers from the gate."
+      }
+    }
+  },
+  {
+    "entry": "ritualism",
+    "remove": [],
+    "set": {
+      "definition": "Strict attention to following set rituals.",
+      "synonyms": [
+        "Formalism"
+      ],
+      "example": {
+        "word": "Ritualism",
+        "text": "Ritualism guided the service."
+      },
+      "exampleSynonym": {
+        "word": "Formalism",
+        "text": "Formalism guided the service."
+      }
+    }
+  },
+  {
+    "entry": "sentimentality",
+    "remove": [],
+    "set": {
+      "definition": "Showing or feeling more emotion than a situation calls for.",
+      "synonyms": [
+        "Emotionalism"
+      ],
+      "example": {
+        "word": "Sentimentality",
+        "text": "Sentimentality shaped the film's ending."
+      },
+      "exampleSynonym": {
+        "word": "Emotionalism",
+        "text": "Emotionalism shaped the film's ending."
+      }
+    }
+  },
+  {
+    "entry": "co-debtor-2",
+    "remove": [],
+    "set": {
+      "definition": "Someone jointly responsible for paying another person's debt.",
+      "synonyms": [
+        "Joint debtor"
+      ],
+      "example": {
+        "word": "Co-debtor",
+        "text": "Co-debtor agreements can share the risk."
+      },
+      "exampleSynonym": {
+        "word": "Joint debtor",
+        "text": "Joint debtor agreements can share the risk."
+      }
+    }
   }
 ]
