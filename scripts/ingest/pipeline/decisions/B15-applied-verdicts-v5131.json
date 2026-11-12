@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5163",
+  "runtime": "v5164",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1718,
-    "en": 1693
+    "es": 1778,
+    "en": 1753
   },
-  "latestLedgerBatchCount": 171,
-  "latestLedgerReviewedIdCount": 3411,
-  "appliedCount": 2455,
+  "latestLedgerBatchCount": 177,
+  "latestLedgerReviewedIdCount": 3531,
+  "appliedCount": 2575,
   "appliedByLanguage": {
-    "es": 1236,
-    "en": 1219
+    "es": 1296,
+    "en": 1279
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -138,7 +138,13 @@
     "B15-onehundredsixtyseventh-20-verdicts.json",
     "B15-onehundredsixtyeighth-20-verdicts.json",
     "B15-onehundredsixtyninth-20-verdicts.json",
-    "B15-onehundredseventieth-20-verdicts.json"
+    "B15-onehundredseventieth-20-verdicts.json",
+    "B15-onehundredseventyfirst-20-verdicts.json",
+    "B15-onehundredseventysecond-20-verdicts.json",
+    "B15-onehundredseventythird-20-verdicts.json",
+    "B15-onehundredseventyfourth-20-verdicts.json",
+    "B15-onehundredseventyfifth-20-verdicts.json",
+    "B15-onehundredseventysixth-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -15100,6 +15106,726 @@
       "language": "en",
       "id": "skim-2",
       "decision": "exclude-common-basic-verb"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "chinguero",
+      "decision": "exclude-vulgar-and-regional-polysemy"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "coproductor",
+      "decision": "exclude-transparent-industry-term"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "corchoso",
+      "decision": "exclude-transparent-descriptive-adjective"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "sanson",
+      "decision": "exclude-proper-name-and-cultural-reference"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "arbitrero",
+      "decision": "exclude-obsolete-polysemy"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "brocatel",
+      "decision": "exclude-specialist-textile-and-stone-term"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "cascudo",
+      "decision": "exclude-corrupt-and-specialist-adjective"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "grafologo",
+      "decision": "exclude-specialist-low-utility-occupation"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "sementino",
+      "decision": "exclude-transparent-low-utility-adjective"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "sobrancero",
+      "decision": "exclude-corrupt-and-regional-senses"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "coercive-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "demould-2",
+      "decision": "exclude-transparent-variant"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "joinery-2",
+      "decision": "exclude-specialist-and-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "chisel-4",
+      "decision": "exclude-common-headword-and-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "runway-2",
+      "decision": "exclude-common-headword-and-low-utility-sense"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "soak-4",
+      "decision": "exclude-common-headword-and-circular-definition"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "model-3",
+      "decision": "exclude-common-headword-and-easy-sense"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "spanish-speaker-4",
+      "decision": "exclude-transparent-demographic-phrase"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "switchable-2",
+      "decision": "exclude-transparent-derived-word"
+    },
+    {
+      "batch": "B15-onehundredseventyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "bleach-3",
+      "decision": "exclude-common-headword-and-easy-sense"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "es",
+      "id": "vipereo",
+      "decision": "exclude-rare-variant"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "es",
+      "id": "chuflido",
+      "decision": "exclude-rural-vulgar-regional-word"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "es",
+      "id": "sargantana",
+      "decision": "exclude-regional-reptile-name"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "es",
+      "id": "apapagayado",
+      "decision": "exclude-rare-low-utility-adjective-polysemy"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "es",
+      "id": "comprovincial",
+      "decision": "exclude-specialist-ecclesiastical-term"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "es",
+      "id": "cucubano",
+      "decision": "exclude-regional-insect-name"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "es",
+      "id": "cavanillero",
+      "decision": "exclude-regional-descriptive-word"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "es",
+      "id": "chanchullero",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "es",
+      "id": "colimote",
+      "decision": "exclude-demonym"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "es",
+      "id": "contraflorado",
+      "decision": "exclude-specialist-heraldry-term"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "en",
+      "id": "bitterness-5",
+      "decision": "exclude-common-word-and-corrupt-duplicate"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "en",
+      "id": "set-aside-3",
+      "decision": "exclude-common-phrasal-verb-and-easy-sense"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "en",
+      "id": "lifter-4",
+      "decision": "exclude-common-transparent-agent-noun"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "en",
+      "id": "infuriating-2",
+      "decision": "exclude-common-transparent-adjective"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "en",
+      "id": "rifle-2",
+      "decision": "exclude-common-basic-firearm-word"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "en",
+      "id": "flatness-2",
+      "decision": "exclude-transparent-easy-noun"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "en",
+      "id": "rigorous-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "en",
+      "id": "bravado-5",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "en",
+      "id": "lethargic-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventysecond-20-verdicts.json",
+      "language": "en",
+      "id": "shelter-12",
+      "decision": "exclude-common-headword-and-circular-definition"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "es",
+      "id": "sanidina",
+      "decision": "exclude-low-utility-specialist-mineral"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "es",
+      "id": "sardon",
+      "decision": "exclude-rare-regional-word"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "es",
+      "id": "secadal",
+      "decision": "exclude-variant"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "es",
+      "id": "seminal",
+      "decision": "rewrite-and-separate-senses"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "es",
+      "id": "senectud",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "es",
+      "id": "soberado",
+      "decision": "exclude-rare-regional-household-word"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "es",
+      "id": "sonsera",
+      "decision": "exclude-regional-low-utility-word"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "es",
+      "id": "tabular",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "es",
+      "id": "tartera",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "es",
+      "id": "trapala",
+      "decision": "exclude-rare-low-utility-word"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "en",
+      "id": "cricket",
+      "decision": "exclude-common-sport-name"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "en",
+      "id": "spanish-jewish",
+      "decision": "exclude-demonym-or-cultural-label"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "en",
+      "id": "haired",
+      "decision": "exclude-transparent-derived-word"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "en",
+      "id": "stratigraphic",
+      "decision": "exclude-low-utility-specialist-term"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "en",
+      "id": "galactogen",
+      "decision": "exclude-low-utility-specialist-term"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "en",
+      "id": "garter",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "en",
+      "id": "colactaneous",
+      "decision": "exclude-obscure-low-utility-word"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "en",
+      "id": "scholarship-2",
+      "decision": "exclude-common-word-and-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "en",
+      "id": "collusion-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventythird-20-verdicts.json",
+      "language": "en",
+      "id": "coverage-2",
+      "decision": "exclude-common-word-and-easy-sense"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "traspapelar",
+      "decision": "exclude-common-transparent-verb"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "tremendismo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "triclinio",
+      "decision": "exclude-low-utility-historical-furniture-term"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "tripada",
+      "decision": "exclude-colloquial-low-utility-word"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "tropezadero",
+      "decision": "exclude-rare-low-utility-word"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "tuberoso",
+      "decision": "exclude-low-utility-descriptive-term"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "tul",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "untada",
+      "decision": "rewrite-and-separate-senses"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "vareta",
+      "decision": "exclude-low-utility-specialist-meteorology-term"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "zarrapastroso",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "icing-2",
+      "decision": "exclude-common-word-and-circular-definition"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "road-2",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "carriage-2",
+      "decision": "exclude-common-word-and-circular-definition"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "slow-down-2",
+      "decision": "exclude-common-phrasal-verb"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "mortar-3",
+      "decision": "exclude-common-basic-material-sense"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "sprinkle-2",
+      "decision": "exclude-common-basic-verb-sense"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "curl-2",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "childhood-2",
+      "decision": "exclude-common-word-and-easy-sense"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "intoxicate-2",
+      "decision": "exclude-common-transparent-verb"
+    },
+    {
+      "batch": "B15-onehundredseventyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "gas-pipeline-2",
+      "decision": "exclude-transparent-technical-compound"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "cagada",
+      "decision": "exclude-vulgar-basic-sense"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "chas",
+      "decision": "exclude-onomatopoeia-low-utility"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "cinematografico",
+      "decision": "exclude-transparent-derived-adjective"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "clavar",
+      "decision": "exclude-common-basic-verb"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "cocido",
+      "decision": "exclude-common-basic-adjective"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "concejal",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "credo",
+      "decision": "rewrite-and-separate-senses"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "deshielo",
+      "decision": "exclude-common-transparent-noun"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "gamma",
+      "decision": "exclude-basic-alphabet-name"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "simbolo",
+      "decision": "exclude-common-basic-noun"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "guardianship-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "silhouette-2",
+      "decision": "exclude-common-word-and-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "tear-4",
+      "decision": "exclude-common-basic-verb-sense"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "sophistry-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "cliff-4",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "nice-3",
+      "decision": "exclude-common-basic-adjective-sense"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "infuse-2",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "moldy-3",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "cold-6",
+      "decision": "exclude-common-basic-word"
+    },
+    {
+      "batch": "B15-onehundredseventyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "bullfighting-5",
+      "decision": "exclude-transparent-specialist-activity-name"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "es",
+      "id": "tirado",
+      "decision": "exclude-common-polysemous-word"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "es",
+      "id": "trompo",
+      "decision": "exclude-common-toy-name"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "es",
+      "id": "argadijo",
+      "decision": "exclude-rare-variant"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "es",
+      "id": "atorozonarse",
+      "decision": "exclude-obsolete-animal-health-term"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "es",
+      "id": "atrincunar",
+      "decision": "exclude-regional-variant"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "es",
+      "id": "bachillerar",
+      "decision": "exclude-obsolete-or-rare-verb"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "es",
+      "id": "bizmar",
+      "decision": "exclude-obsolete-specialist-verb"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "es",
+      "id": "burguesismo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "es",
+      "id": "camonadura",
+      "decision": "exclude-regional-specialist-term"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "es",
+      "id": "canonjible",
+      "decision": "exclude-obsolete-word"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "en",
+      "id": "temporary-3",
+      "decision": "exclude-common-word-and-mismatched-sense"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "en",
+      "id": "capture-4",
+      "decision": "exclude-common-basic-verb"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "en",
+      "id": "commit-3",
+      "decision": "exclude-mismatched-definition"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "en",
+      "id": "intercom-5",
+      "decision": "exclude-low-utility-specialist-device-sense"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "en",
+      "id": "sedative-3",
+      "decision": "rewrite-and-separate-senses"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "en",
+      "id": "lift-3",
+      "decision": "exclude-common-basic-verb"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "en",
+      "id": "chance-4",
+      "decision": "exclude-common-basic-noun"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "en",
+      "id": "seamstress-2",
+      "decision": "exclude-transparent-occupation-name"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "en",
+      "id": "roar-6",
+      "decision": "exclude-common-word-and-mismatched-sense"
+    },
+    {
+      "batch": "B15-onehundredseventysixth-20-verdicts.json",
+      "language": "en",
+      "id": "unravel-27",
+      "decision": "exclude-common-word-and-corrupt-sense"
     }
   ],
   "pendingBatch25": [
@@ -15118,13 +15844,13 @@
     "runtimeNote": "improbability-2 applied; sarazo excluded; infect-4 retained with a valid contextual example pair."
   },
   "observedWipLedgerAtCommit": {
-    "reviewedIdCount": 3411,
-    "batchCount": 171,
+    "reviewedIdCount": 3531,
+    "batchCount": 177,
     "totals": {
-      "es": 1718,
-      "en": 1693
+      "es": 1778,
+      "en": 1753
     },
-    "integratedThrough": "B15-onehundredseventieth-20-verdicts.json"
+    "integratedThrough": "B15-onehundredseventysixth-20-verdicts.json"
   },
   "tautologyTemplateReview": {
     "auditPath": "scripts/ingest/wip/B15-example-template-tautology-audit.json",

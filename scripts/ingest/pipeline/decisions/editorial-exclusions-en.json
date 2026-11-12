@@ -87341,5 +87341,265 @@
     "id": "skim-2",
     "word": "Skim",
     "reason": "Skim is a common verb for removing fat from milk; the meaning is simple and has low value as a difficult-word card."
+  },
+  {
+    "id": "demould-2",
+    "word": "Demould",
+    "reason": "Demould means to remove something from a mould; the sense is transparent and the form is the British spelling of demold."
+  },
+  {
+    "id": "joinery-2",
+    "word": "Joinery",
+    "reason": "Collins defines joinery as the craft or work of a joiner, not a cabinetmaker's workshop; it is a specialist woodworking term."
+  },
+  {
+    "id": "chisel-4",
+    "word": "Chisel",
+    "reason": "Chisel is a common tool and verb; the candidate describes a different, wider tool and does not define a distinct chisel sense."
+  },
+  {
+    "id": "runway-2",
+    "word": "Runway",
+    "reason": "Runway is a common word for an airport strip or a fashion show path; the supplied guide-track sense is low utility and not a clear general entry."
+  },
+  {
+    "id": "soak-4",
+    "word": "Soak",
+    "reason": "Soak is a common verb for leaving something in liquid; the candidate repeats the headword instead of explaining a distinct sense."
+  },
+  {
+    "id": "model-3",
+    "word": "Model",
+    "reason": "Model is a common word; the supplied sense, serving as an example, is easy and already clear from the ordinary meaning."
+  },
+  {
+    "id": "spanish-speaker-4",
+    "word": "Spanish speaker",
+    "reason": "Spanish speaker is a straightforward phrase for someone who speaks Spanish, not a difficult word or specialized concept."
+  },
+  {
+    "id": "switchable-2",
+    "word": "Switchable",
+    "reason": "Switchable means able to be switched; the meaning is easy to infer from the common verb switch."
+  },
+  {
+    "id": "bleach-3",
+    "word": "Bleach",
+    "reason": "Bleach is a common verb and noun for making something lose its color; the supplied definition is easy to understand."
+  },
+  {
+    "id": "bitterness-5",
+    "word": "bitterness",
+    "reason": "Bitterness is a common word for a bitter taste or strong resentment; the supplied definition only calls it a variant of itself."
+  },
+  {
+    "id": "set-aside-3",
+    "word": "Set aside",
+    "reason": "Set aside is a common phrasal verb; the supplied meaning of moving something away is simple and does not identify a difficult distinct sense."
+  },
+  {
+    "id": "lifter-4",
+    "word": "Lifter",
+    "reason": "Lifter transparently names a person or tool that lifts something; the supplied sense is easy to understand."
+  },
+  {
+    "id": "infuriating-2",
+    "word": "Infuriating",
+    "reason": "Infuriating means very annoying or angering; it is a familiar adjective and the candidate is phrased as a fragment."
+  },
+  {
+    "id": "rifle-2",
+    "word": "Rifle",
+    "reason": "Rifle is a common word for a long-barrelled gun; the supplied description is easy and repeats common information."
+  },
+  {
+    "id": "flatness-2",
+    "word": "Flatness",
+    "reason": "Flatness means the quality of being flat; the supplied smooth-surface sense is easy to infer from the common adjective flat."
+  },
+  {
+    "id": "shelter-12",
+    "word": "Shelter",
+    "reason": "Shelter is a common word for a place that protects people; the supplied wording repeats several synonyms without defining a distinct difficult sense."
+  },
+  {
+    "id": "cricket",
+    "word": "Cricket",
+    "reason": "Cricket is the familiar name of a sport; the long candidate definition adds basic rules rather than a difficult synonym sense."
+  },
+  {
+    "id": "spanish-jewish",
+    "word": "Spanish-Jewish",
+    "reason": "This is a transparent cultural label, not a difficult synonym entry."
+  },
+  {
+    "id": "haired",
+    "word": "Haired",
+    "reason": "Haired is a transparent adjective formed from the common word hair, and the candidate gives only a simple description."
+  },
+  {
+    "id": "stratigraphic",
+    "word": "Stratigraphic",
+    "reason": "This is a geology term meaning related to stratigraphy; it has little use outside a specialist context."
+  },
+  {
+    "id": "galactogen",
+    "word": "Galactogen",
+    "reason": "This is a specialist biological term about milk production with little general use."
+  },
+  {
+    "id": "garter",
+    "word": "Garter",
+    "reason": "The candidate describes an epaulette, not a garter, so its definition does not match the headword."
+  },
+  {
+    "id": "colactaneous",
+    "word": "Colactaneous",
+    "reason": "This is an obsolete or very rare term for a milk sibling and has little value for a general learner."
+  },
+  {
+    "id": "scholarship-2",
+    "word": "scholarship",
+    "reason": "Scholarship is a common word, and the candidate's verb sense does not match its usual noun entry."
+  },
+  {
+    "id": "coverage-2",
+    "word": "Coverage",
+    "reason": "Coverage is a common word, and the supplied sense of putting a layer over something is easy to understand."
+  },
+  {
+    "id": "icing-2",
+    "word": "icing",
+    "reason": "Icing is a common word for cake covering, and the candidate only says to cover something with icing."
+  },
+  {
+    "id": "road-2",
+    "word": "Road",
+    "reason": "The supplied definition “wagon set” does not define road and appears corrupted."
+  },
+  {
+    "id": "carriage-2",
+    "word": "carriage",
+    "reason": "Carriage is a common word, and “carriage driver” does not define a distinct difficult sense."
+  },
+  {
+    "id": "slow-down-2",
+    "word": "Slow down",
+    "reason": "Slow down is a common phrasal verb, and the candidate describes its basic meaning."
+  },
+  {
+    "id": "mortar-3",
+    "word": "Mortar",
+    "reason": "The candidate gives the basic, readily understandable building-material sense of mortar."
+  },
+  {
+    "id": "sprinkle-2",
+    "word": "Sprinkle",
+    "reason": "Sprinkle is a common verb, and “spread dust” is a simple description of its basic meaning."
+  },
+  {
+    "id": "curl-2",
+    "word": "curl",
+    "reason": "The supplied definition describes rummaging, not a sense of curl, so the entry does not match its headword."
+  },
+  {
+    "id": "childhood-2",
+    "word": "Childhood",
+    "reason": "Childhood is a common word, and the candidate's “childlike quality” is a transparent sense."
+  },
+  {
+    "id": "intoxicate-2",
+    "word": "intoxicate",
+    "reason": "Intoxicate simply means to make someone drunk; this is a common, easily understood sense."
+  },
+  {
+    "id": "gas-pipeline-2",
+    "word": "Gas pipeline",
+    "reason": "Gas pipeline transparently names a system of pipes that carries gas and is not a difficult synonym entry."
+  },
+  {
+    "id": "silhouette-2",
+    "word": "Silhouette",
+    "reason": "Silhouette is a familiar word, and the supplied instruction to draw or walk along an outline does not define it."
+  },
+  {
+    "id": "tear-4",
+    "word": "tear",
+    "reason": "Tear meaning to produce tears is a common, basic verb sense."
+  },
+  {
+    "id": "cliff-4",
+    "word": "Cliff",
+    "reason": "The supplied definition describes someone moving in short steps, not a cliff."
+  },
+  {
+    "id": "nice-3",
+    "word": "Nice",
+    "reason": "Nice meaning pleasant to the taste is an ordinary, easy adjective sense."
+  },
+  {
+    "id": "infuse-2",
+    "word": "Infuse",
+    "reason": "The supplied definition about darkening something with dust does not match a documented sense of infuse."
+  },
+  {
+    "id": "moldy-3",
+    "word": "Moldy",
+    "reason": "Moldy means covered with mold, not a disheveled person; the candidate does not match the headword."
+  },
+  {
+    "id": "cold-6",
+    "word": "Cold",
+    "reason": "Cold is a common adjective for a low temperature; the candidate describes its basic sense."
+  },
+  {
+    "id": "bullfighting-5",
+    "word": "Bullfighting",
+    "reason": "Bullfighting transparently names the activity of fighting bulls; its basic description is not a difficult synonym sense."
+  },
+  {
+    "id": "temporary-3",
+    "word": "Temporary",
+    "reason": "Temporary is a common adjective meaning not permanent; the supplied definition describes a seasonal worker instead."
+  },
+  {
+    "id": "capture-4",
+    "word": "Capture",
+    "reason": "Capture is a common verb, and the candidate only repeats basic synonyms such as catch."
+  },
+  {
+    "id": "commit-3",
+    "word": "Commit",
+    "reason": "The candidate describes compromising or implicating someone, not a documented sense of commit."
+  },
+  {
+    "id": "intercom-5",
+    "word": "Intercom",
+    "reason": "The candidate narrows intercom to a motorcycle communication device, a specialized low-utility sense."
+  },
+  {
+    "id": "lift-3",
+    "word": "lift",
+    "reason": "Lift is a common verb, and the candidate defines its basic physical meaning."
+  },
+  {
+    "id": "chance-4",
+    "word": "Chance",
+    "reason": "Chance is a common noun for an unexpected event; the supplied description is straightforward."
+  },
+  {
+    "id": "seamstress-2",
+    "word": "Seamstress",
+    "reason": "Seamstress transparently names a woman who sews; the candidate repeats a basic description of the job."
+  },
+  {
+    "id": "roar-6",
+    "word": "roar",
+    "reason": "Roar is common, and the candidate describes an animal vocalization rather than a difficult synonym sense."
+  },
+  {
+    "id": "unravel-27",
+    "word": "Unravel",
+    "reason": "Unravel is common, and the supplied definition about removing entrails does not match its documented meanings."
   }
 ]
