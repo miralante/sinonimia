@@ -437,4 +437,9 @@
   set("lift-3",{translation:{es:"round5096-solevantar-lift"}});
   set("saxifrage",{definition:"A flowering plant, often small, that grows among rocks.",synonyms:["small rock-growing flower"],example:{word:"saxifrage",text:"The saxifrage grows among mountain rocks."},exampleSynonym:{word:"small rock-growing flower",text:"The small rock-growing flower grows among mountain rocks."}});
   set("chronobiology",{definition:"The study of biological rhythms, such as daily sleep and wake cycles.",synonyms:["biological timing"],example:{word:"chronobiology",text:"Researchers study chronobiology to understand daily rhythms."},exampleSynonym:{word:"biological timing",text:"Researchers study biological timing to understand daily rhythms."}});
+{
+  const addSense=(baseId,card)=>{const base=d.find(x=>x.id===baseId);if(!base)throw Error("Missing split source "+baseId);if(d.some(x=>x.id===card.id))throw Error("Duplicate split card "+card.id);const entry={...base,id:card.id,definition:card.definition,synonyms:[card.synonym],example:{word:card.marker,text:card.example},exampleSynonym:{word:card.synonym,text:card.exampleSynonymText}};delete entry.translation;delete entry.usageLabel;d.push(entry);};
+  set("revalue",{definition:"To calculate the value of something again.",synonyms:["reassess"],example:{word:"revalue",text:"Companies often revalue their assets."},exampleSynonym:{word:"reassess",text:"Companies often reassess their assets."}});
+  addSense("revalue",{id:"round5097-revalue-currency",definition:"To raise a country's currency value against other currencies.",synonym:"strengthen",marker:"revalue",example:"The bank plans to revalue the currency against the dollar.",exampleSynonymText:"The bank plans to strengthen the currency against the dollar."});
+}
 })();
