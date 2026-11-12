@@ -89271,5 +89271,250 @@
     "id": "court-2",
     "word": "Court",
     "reason": "Court is a common word with several everyday senses; this single candidate definition does not warrant a difficult-word card."
+  },
+  {
+    "id": "slander-2",
+    "word": "Slander",
+    "reason": "Slander is a common word for a false spoken claim that harms someone's reputation; the candidate already states it plainly."
+  },
+  {
+    "id": "usage-2",
+    "word": "Usage",
+    "reason": "The proposed property-right meaning is jurisdiction-specific and not a useful general synonym card."
+  },
+  {
+    "id": "sealing-2",
+    "word": "Sealing",
+    "reason": "Sealing is a common form of seal with a direct meaning."
+  },
+  {
+    "id": "blind-6",
+    "word": "blind",
+    "reason": "Blind as a verb meaning to deprive someone of sight is common and easy to understand."
+  },
+  {
+    "id": "courtyard-2",
+    "word": "Courtyard",
+    "reason": "The definition “How gallant” does not define courtyard and indicates a corrupt entry."
+  },
+  {
+    "id": "graph-3",
+    "word": "graph",
+    "reason": "The candidate's definition of graph as an art instrument is not reliable and appears mistranslated."
+  },
+  {
+    "id": "must-2",
+    "word": "Must",
+    "reason": "Must meaning unfermented grape juice is a specialized winemaking term with low general use."
+  },
+  {
+    "id": "hammer-3",
+    "word": "Hammer",
+    "reason": "Hammer meaning to hit repeatedly is a common, direct verb sense."
+  },
+  {
+    "id": "chubby-2",
+    "word": "Chubby",
+    "reason": "Chubby is a common adjective with an easy meaning; the candidate also confuses width and height."
+  },
+  {
+    "id": "chime-3",
+    "word": "chime",
+    "reason": "Chime is a common word for a ringing sound, and the candidate definition is repetitive rather than clarifying."
+  },
+  {
+    "id": "sowing-2",
+    "word": "Sowing",
+    "reason": "Sowing is a common form of sow, and the proposed definition is awkward but easy to correct from the root verb."
+  },
+  {
+    "id": "fullness-3",
+    "word": "Fullness",
+    "reason": "Fullness meaning abundance is common and directly understandable."
+  },
+  {
+    "id": "hunting-6",
+    "word": "Hunting",
+    "reason": "The definition “something that is bad or of poor quality” does not define hunting."
+  },
+  {
+    "id": "check-3",
+    "word": "Check",
+    "reason": "Check is a very common word and the candidate merely labels it a variant without specifying a distinct sense."
+  },
+  {
+    "id": "dazzle-5",
+    "word": "Dazzle",
+    "reason": "The candidate definition “put a candle” does not define dazzle."
+  },
+  {
+    "id": "gut-3",
+    "word": "Gut",
+    "reason": "Gut meaning to remove the internal organs is a common, directly defined verb."
+  },
+  {
+    "id": "crowd-4",
+    "word": "crowd",
+    "reason": "Crowd is a common noun and its basic meaning is easy to explain; the candidate also mixes senses."
+  },
+  {
+    "id": "soap-opera-2",
+    "word": "soap opera",
+    "reason": "Soap opera is a familiar television genre; the candidate definition is unnecessarily long and regionalized."
+  },
+  {
+    "id": "mocker-2",
+    "word": "Mocker",
+    "reason": "Mocker is an agent noun easily understood from mock, and the candidate defines mockery instead of a person."
+  },
+  {
+    "id": "cheese-2",
+    "word": "Cheese",
+    "reason": "Cheese does not mean a dialect of Aragonese; the candidate confuses unrelated words."
+  },
+  {
+    "id": "cardiac-4",
+    "word": "Cardiac",
+    "reason": "Cardiac is a medical adjective related to the heart and has limited general synonymy value."
+  },
+  {
+    "id": "suffer-4",
+    "word": "suffer",
+    "reason": "Suffer is a common verb and the proposed definition states its broad everyday meaning clearly."
+  },
+  {
+    "id": "treat-3",
+    "word": "Treat",
+    "reason": "Treat is a very common verb with many everyday meanings; this candidate definition is too broad to merit a difficult-word card."
+  },
+  {
+    "id": "rock-6",
+    "word": "rock",
+    "reason": "Rock is a common word; the candidate's geological sense is technical and easy to state directly."
+  },
+  {
+    "id": "scrubbing-8",
+    "word": "Scrubbing",
+    "reason": "Scrubbing is a common noun or verb form whose meaning is transparent from scrub."
+  },
+  {
+    "id": "comprehension",
+    "word": "Comprehension",
+    "reason": "Comprehension means the ability to understand and is common enough for a basic vocabulary."
+  },
+  {
+    "id": "celadon",
+    "word": "Celadon",
+    "reason": "Celadon names a specific green color and type of pottery, a specialized sense with low general use."
+  },
+  {
+    "id": "coital",
+    "word": "Coital",
+    "reason": "Coital is a technical adjective used in medical or formal contexts and has limited general utility."
+  },
+  {
+    "id": "corridor",
+    "word": "Corridor",
+    "reason": "The candidate defines corridor as a drainage canal, which does not match the common English meaning."
+  },
+  {
+    "id": "mulada",
+    "word": "Mulada",
+    "reason": "Mulada is a Spanish noun and the candidate does not provide an English headword."
+  },
+  {
+    "id": "inscrutable-3",
+    "word": "Inscrutable",
+    "reason": "This candidate repeats the inscrutable sense already handled in inscrutable-2; it adds no separate meaning."
+  },
+  {
+    "id": "bloody-8",
+    "word": "bloody",
+    "reason": "Bloody is an adjective or intensifier; “large amount of blood” is not a valid definition of this form."
+  },
+  {
+    "id": "reticle",
+    "word": "Reticle",
+    "reason": "A reticle is a specialized pattern in optical instruments and has limited general synonymy value."
+  },
+  {
+    "id": "genipa",
+    "word": "Genipa",
+    "reason": "Genipa is a tropical tree name used in botanical contexts and has low general utility."
+  },
+  {
+    "id": "regular",
+    "word": "Regular",
+    "reason": "Regular has common, easy meanings; the candidate wording is awkward and does not identify one difficult sense."
+  },
+  {
+    "id": "blow-delivered-with-a-cachava",
+    "word": "blow delivered with a cachava",
+    "reason": "This phrase is a literal translation of a Spanish regional term rather than an established English headword."
+  },
+  {
+    "id": "smoke-marijuana",
+    "word": "smoke marijuana",
+    "reason": "Smoke marijuana is a transparent verb phrase, not a difficult lexical entry."
+  },
+  {
+    "id": "shy-5",
+    "word": "shy",
+    "reason": "Shy is a common adjective and the candidate definition simply repeats the headword."
+  },
+  {
+    "id": "can-5",
+    "word": "can",
+    "reason": "Can is a common word with many everyday uses; the candidate exchange sense is unclear and not suitable for this card."
+  },
+  {
+    "id": "cabbage-66",
+    "word": "cabbage",
+    "reason": "The candidate meaning “girándula” is unrelated to cabbage and appears to be a corrupt translation."
+  },
+  {
+    "id": "sign-in",
+    "word": "Sign in",
+    "reason": "Sign in is a common, transparent instruction for entering an account."
+  },
+  {
+    "id": "catalog",
+    "word": "Catalog",
+    "reason": "Catalog is a common word for an organized list and its meaning is easy to understand."
+  },
+  {
+    "id": "copulator",
+    "word": "Copulator",
+    "reason": "Copulator is an uncommon, vulgar term with little general synonymy value."
+  },
+  {
+    "id": "shrinking",
+    "word": "Shrinking",
+    "reason": "The candidate definition describes childlike appearance, not shrinking."
+  },
+  {
+    "id": "carefulness",
+    "word": "Carefulness",
+    "reason": "Carefulness is a transparent noun formed from careful, and the candidate definition is awkward and inaccurate."
+  },
+  {
+    "id": "get-closer",
+    "word": "Get closer",
+    "reason": "Get closer is a common phrase meaning approach; the candidate meaning of joining a guild is not supported."
+  },
+  {
+    "id": "alcohol-maker",
+    "word": "alcohol maker",
+    "reason": "Alcohol maker is not an established adjective or headword for the candidate paraphrase."
+  },
+  {
+    "id": "cobaltine",
+    "word": "Cobaltine",
+    "reason": "Cobaltine is a specialized pigment or chemical term with low general use."
+  },
+  {
+    "id": "communicability",
+    "word": "Communicability",
+    "reason": "Communicability is a rare abstract derivative and the candidate definition repeats its root rather than explaining it."
   }
 ]

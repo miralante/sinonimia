@@ -265627,5 +265627,23 @@
         "text": "Nut-like flavor can make the sauce more interesting."
       }
     }
+  },
+  {
+    "entry": "crafty-2",
+    "remove": [],
+    "set": {
+      "definition": "Clever in a secret or dishonest way.",
+      "synonyms": [
+        "devious"
+      ],
+      "example": {
+        "word": "crafty",
+        "text": "The plan was crafty and hard to detect."
+      },
+      "exampleSynonym": {
+        "word": "devious",
+        "text": "The plan was devious and hard to detect."
+      }
+    }
   }
 ]

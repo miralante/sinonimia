@@ -264892,5 +264892,77 @@
         "text": "La vecina empezó a alcahuetear entre los dos jóvenes."
       }
     }
+  },
+  {
+    "entry": "chismotear",
+    "remove": [],
+    "set": {
+      "definition": "Contar o repetir chismes sobre otras personas.",
+      "synonyms": [
+        "chismear"
+      ],
+      "example": {
+        "word": "chismotear",
+        "text": "Deja de chismotear sobre tus vecinos."
+      },
+      "exampleSynonym": {
+        "word": "chismear",
+        "text": "Deja de chismear sobre tus vecinos."
+      }
+    }
+  },
+  {
+    "entry": "sestero",
+    "remove": [],
+    "set": {
+      "definition": "Lugar donde el ganado descansa durante las horas de más calor.",
+      "synonyms": [
+        "sesteadero"
+      ],
+      "example": {
+        "word": "sestero",
+        "text": "Al mediodía, las ovejas volvieron al sestero."
+      },
+      "exampleSynonym": {
+        "word": "sesteadero",
+        "text": "Al mediodía, las ovejas volvieron al sesteadero."
+      }
+    }
+  },
+  {
+    "entry": "brulote",
+    "remove": [],
+    "set": {
+      "definition": "Barco incendiario que se enviaba contra barcos enemigos para quemarlos.",
+      "synonyms": [
+        "barco incendiario"
+      ],
+      "example": {
+        "word": "brulote",
+        "text": "El brulote avanzó hacia la flota enemiga."
+      },
+      "exampleSynonym": {
+        "word": "barco incendiario",
+        "text": "El barco incendiario avanzó hacia la flota enemiga."
+      }
+    }
+  },
+  {
+    "entry": "coparticipe",
+    "remove": [],
+    "set": {
+      "definition": "Persona que participa junto con otra en una actividad o responsabilidad.",
+      "synonyms": [
+        "partícipe"
+      ],
+      "example": {
+        "word": "copartícipe",
+        "text": "Cada copartícipe asumió una parte del trabajo."
+      },
+      "exampleSynonym": {
+        "word": "partícipe",
+        "text": "Cada partícipe asumió una parte del trabajo."
+      }
+    }
   }
 ]
