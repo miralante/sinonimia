@@ -84246,5 +84246,40 @@
     "id": "sotile",
     "word": "Sotile",
     "reason": "This spelling is not established as a current standard English word, and the candidate presents it only as an obscure variant of subtle."
+  },
+  {
+    "id": "redilate",
+    "word": "Redilate",
+    "reason": "The supplied definition means to repeat something, but this verb is not supported as a current standard English headword."
+  },
+  {
+    "id": "sagapene",
+    "word": "Sagapene",
+    "reason": "The candidate names a rare plant resin used historically in medicine and perfume, with little value in a general vocabulary dictionary."
+  },
+  {
+    "id": "closer",
+    "word": "Closer",
+    "reason": "The candidate defines closer as someone who makes corks, but Collins supports senses for someone who closes, a business dealmaker, and a baseball relief pitcher."
+  },
+  {
+    "id": "modify",
+    "word": "Modify",
+    "reason": "The candidate gives the everyday core sense «change something», which is common and easy to understand."
+  },
+  {
+    "id": "combretaceous",
+    "word": "Combretaceous",
+    "reason": "This adjective refers to the Combretaceae plant family and is restricted to botanical classification."
+  },
+  {
+    "id": "cornaceous",
+    "word": "cornaceous",
+    "reason": "This adjective refers to the Cornaceae plant family and is restricted to botanical classification."
+  },
+  {
+    "id": "scarlatinous",
+    "word": "scarlatinous",
+    "reason": "It means related to scarlet fever and is a narrow medical adjective that is transparent from its base word."
   }
 ]
