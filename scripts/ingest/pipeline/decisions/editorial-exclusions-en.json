@@ -83871,5 +83871,45 @@
     "id": "moisturize",
     "word": "moisturize",
     "reason": "The current gloss is wrong, but the verified verb simply means making skin softer or less dry; it is common and easy."
+  },
+  {
+    "id": "rituality",
+    "word": "Rituality",
+    "reason": "This rare abstract noun describes ritual observance, a meaning more clearly expressed by common words such as «ritual»."
+  },
+  {
+    "id": "charistias",
+    "word": "Charistias",
+    "reason": "The record calls this an English plural of a Spanish or classical term, but it is not a supported English headword."
+  },
+  {
+    "id": "chamelot",
+    "word": "Chamelot",
+    "reason": "The alleged meaning «person who takes advantage of others» is unsupported; the rare historical form refers to a type of fabric."
+  },
+  {
+    "id": "sissy",
+    "word": "sissy",
+    "reason": "The record wrongly equates the word with same-sex attraction; verified uses are common informal insults, not a difficult vocabulary item."
+  },
+  {
+    "id": "counterbarrier",
+    "word": "Counterbarrier",
+    "reason": "The listed meaning is not supported by the checked English dictionary sources, and the form appears to be a specialist compound."
+  },
+  {
+    "id": "monoceros",
+    "word": "Monoceros",
+    "reason": "The source meaning «one-horned animal» is wrong for this English entry; the verified sense is a faint constellation, a specialist term."
+  },
+  {
+    "id": "soup",
+    "word": "Soup",
+    "reason": "The everyday word has a malformed, unclear verb gloss here and does not add a difficult English sense."
+  },
+  {
+    "id": "superb",
+    "word": "Superb",
+    "reason": "This is a common adjective, and the supplied example defines a different expression («That can be overcome»)."
   }
 ]

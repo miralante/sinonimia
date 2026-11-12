@@ -89752,5 +89752,40 @@
     "id": "cimbalero",
     "word": "cimbalero",
     "reason": "Nombre especializado del músico que toca el címbalo, instrumento poco conocido."
+  },
+  {
+    "id": "cocal",
+    "word": "cocal",
+    "reason": "El uso válido se limita a Bolivia y Perú, y la ficha mezcla dos entradas («cocal2») en una definición contaminada."
+  },
+  {
+    "id": "cordobanero",
+    "word": "cordobanero",
+    "reason": "Designa un oficio artesanal muy específico: fabricar cordobanes, un tipo de cuero."
+  },
+  {
+    "id": "descristianar",
+    "word": "descristianar",
+    "reason": "La voz remite a quitar el crisma, una acción litúrgica muy específica y de uso reducido."
+  },
+  {
+    "id": "desmochadura",
+    "word": "desmochadura",
+    "reason": "Es el nombre de la acción de desmochar; la base verbal expresa la misma idea de forma más directa."
+  },
+  {
+    "id": "horneria",
+    "word": "hornería",
+    "reason": "Nombra el oficio de hornero, una ocupación específica que aporta poco vocabulario de uso general."
+  },
+  {
+    "id": "pichoa",
+    "word": "pichoa",
+    "reason": "Es el nombre chileno de una planta purgante; la ficha describe una especie y un uso medicinal muy especializados."
+  },
+  {
+    "id": "sociabilizar",
+    "word": "sociabilizar",
+    "reason": "Significa hacer sociable y es una formación transparente; no aporta un sentido difícil distinto."
   }
 ]
