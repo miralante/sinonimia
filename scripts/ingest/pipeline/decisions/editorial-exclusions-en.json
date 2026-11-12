@@ -84201,5 +84201,50 @@
     "id": "generalizer",
     "word": "Generalizer",
     "reason": "It is a regular agent noun meaning someone or something that generalizes, with no useful distinct sense in this list."
+  },
+  {
+    "id": "taps",
+    "word": "Taps",
+    "reason": "The candidate's wording is malformed; taps are devices that control liquid or gas flow, a common everyday meaning."
+  },
+  {
+    "id": "counternote",
+    "word": "Counternote",
+    "reason": "The candidate offers a generic gloss, but I could not verify this as a current standard English headword in a reliable learner dictionary."
+  },
+  {
+    "id": "miniseries",
+    "word": "Miniseries",
+    "reason": "A miniseries is a familiar short television series; the meaning is clear from mini and series."
+  },
+  {
+    "id": "refreshment-shop",
+    "word": "Refreshment shop",
+    "reason": "The phrase plainly describes a shop that sells drinks and light meals, so it adds little difficult vocabulary."
+  },
+  {
+    "id": "clocking",
+    "word": "Clocking",
+    "reason": "The candidate describes measuring time with a clock or watch, a straightforward meaning of the common verb clock."
+  },
+  {
+    "id": "snook",
+    "word": "Snook",
+    "reason": "The scientific name in the candidate identifies European sea bass, not snook; the remaining fish sense is specialist vocabulary."
+  },
+  {
+    "id": "setene",
+    "word": "Setene",
+    "reason": "The proposed sense is only a rare variant for seventh, and I could not verify it as a useful current English word."
+  },
+  {
+    "id": "soliviate",
+    "word": "Soliviate",
+    "reason": "The candidate is not supported as a standard English verb; the supplied meaning appears to come from a Spanish technical verb."
+  },
+  {
+    "id": "sotile",
+    "word": "Sotile",
+    "reason": "This spelling is not established as a current standard English word, and the candidate presents it only as an obscure variant of subtle."
   }
 ]

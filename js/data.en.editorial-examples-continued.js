@@ -460,4 +460,6 @@
   set("general-power",{definition:"A legal document that lets someone act for you in many matters.",synonyms:["general power of attorney"],example:{word:"general power",text:"She signed a general power for her brother."},exampleSynonym:{word:"general power of attorney",text:"She signed a general power of attorney for her brother."}});
   set("revalidation",{definition:"A new check that a licence, qualification, or document is still valid.",synonyms:["a new validity check"],example:{word:"revalidation",text:"The agency requires revalidation each year."},exampleSynonym:{word:"a new validity check",text:"The agency requires a new validity check each year."}});
   set("geophysics",{word:"Geophysics",definition:"Science that uses physics to study Earth's structure and natural forces.",synonyms:["The study of Earth's physical features"],example:{word:"Geophysics",text:"Geophysics helps explain earthquakes."},exampleSynonym:{word:"The study of Earth's physical features",text:"The study of Earth's physical features helps explain earthquakes."}});
+
+  set("norway-lobster",{word:"Norway lobster",definition:"A small sea crustacean that people catch for food.",synonyms:["langoustine"],example:{word:"Norway lobster",text:"We ordered Norway lobster for dinner."},exampleSynonym:{word:"langoustine",text:"We ordered langoustine for dinner."}});
 })();

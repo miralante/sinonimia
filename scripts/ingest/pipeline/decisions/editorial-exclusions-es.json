@@ -90037,5 +90037,50 @@
     "id": "velonera",
     "word": "velonera",
     "reason": "Nombra de forma transparente a quien fabrica o vende velones; la ocupación es demasiado específica y de uso limitado."
+  },
+  {
+    "id": "chibuqui",
+    "word": "chibuquí",
+    "reason": "Es una pipa turca histórica de tubo largo; designa un objeto cultural muy específico y de uso limitado."
+  },
+  {
+    "id": "chuz",
+    "word": "chuz",
+    "reason": "El DLE documenta chuz solo dentro de las locuciones «no decir chuz ni muz» y «sin decir chuz ni muz», no como palabra independiente."
+  },
+  {
+    "id": "barrealoso",
+    "word": "barrealoso",
+    "reason": "Tiene dos sentidos regionales: terreno con barro en El Salvador y terreno resbaladizo en Nicaragua; es un derivado transparente de barreal."
+  },
+  {
+    "id": "chachaguato",
+    "word": "chachaguato",
+    "reason": "En Honduras significa mellizo y, dicho de un fruto, unido a otro por la cáscara; los dos sentidos son de alcance regional muy limitado."
+  },
+  {
+    "id": "contrariador",
+    "word": "contrariador",
+    "reason": "El DLE marca como desusado este adjetivo derivado de contrariar."
+  },
+  {
+    "id": "descalostrado",
+    "word": "descalostrado",
+    "reason": "Describe una cría que ya pasó el período del calostro; es un término muy específico de ganadería."
+  },
+  {
+    "id": "vafoso",
+    "word": "vafoso",
+    "reason": "El DLE marca como desusado el adjetivo y lo define mediante «vafo», una voz también muy rara."
+  },
+  {
+    "id": "gamellon",
+    "word": "gamellón",
+    "reason": "Nombra la pila donde se pisan uvas, un recipiente tradicional específico y poco útil en el vocabulario general."
+  },
+  {
+    "id": "germinativo",
+    "word": "germinativo",
+    "reason": "Significa que puede germinar o causar germinación; es un adjetivo técnico formado de manera transparente a partir de germinar."
   }
 ]

@@ -288,4 +288,6 @@
   set("corticosteroide",{definition:"Medicamento parecido a una hormona que puede reducir la inflamación.",synonyms:["medicamento corticoide"],example:{word:"corticosteroide",text:"Necesita un corticosteroide para controlar la alergia."},exampleSynonym:{word:"medicamento corticoide",text:"Necesita un medicamento corticoide para controlar la alergia."}});
   set("trimurti",{definition:"Tríada de dioses hindúes formada por Brahma, Shiva y Visnú.",synonyms:["trinidad hindú"],example:{word:"trimurti",text:"La trimurti reúne a Brahma, Shiva y Visnú."},exampleSynonym:{word:"trinidad hindú",text:"La trinidad hindú reúne a Brahma, Shiva y Visnú."}});
   set("cancerologo",{definition:"Médico especializado en tratar el cáncer.",synonyms:["oncólogo"],example:{word:"cancerólogo",text:"El cancerólogo explicó los resultados a la familia."},exampleSynonym:{word:"oncólogo",text:"El oncólogo explicó los resultados a la familia."}});
+
+  set("tramador",{definition:"Persona que prepara a escondidas un plan para hacer algo malo.",synonyms:["conspirador"],example:{word:"tramador",text:"El tramador organizó un plan contra el rey."},exampleSynonym:{word:"conspirador",text:"El conspirador organizó un plan contra el rey."}});
 })();
