@@ -90882,5 +90882,40 @@
     "id": "conchoprimo",
     "word": "conchoprimo",
     "reason": "Nombra una herramienta local y específica para abrir conchas; tiene un alcance demasiado limitado."
+  },
+  {
+    "id": "desautoridad",
+    "word": "desautoridad",
+    "reason": "Es una voz poco asentada para la desobediencia y no aporta una equivalencia clara de uso general."
+  },
+  {
+    "id": "estibia",
+    "word": "estibia",
+    "reason": "Es una forma técnica relacionada con estibar carga y no resulta útil como entrada de sinonimia general."
+  },
+  {
+    "id": "hondonal",
+    "word": "hondonal",
+    "reason": "Es una voz rural poco frecuente para un terreno hundido, con alternativas comunes más claras."
+  },
+  {
+    "id": "sergenta",
+    "word": "sergenta",
+    "reason": "El lema parece una forma corrupta de sargenta y la definición no corresponde a un término independiente fiable."
+  },
+  {
+    "id": "vadera",
+    "word": "vadera",
+    "reason": "Es una herramienta poco común para cavar y no tiene valor suficiente en una lista general de sinónimos."
+  },
+  {
+    "id": "velilla",
+    "word": "velilla",
+    "reason": "Es un diminutivo poco usado de vela, sin un significado independiente que justifique una ficha general."
+  },
+  {
+    "id": "yegueria",
+    "word": "yegüería",
+    "reason": "Nombra una instalación rural especializada para criar yeguas y tiene muy poca utilidad general."
   }
 ]

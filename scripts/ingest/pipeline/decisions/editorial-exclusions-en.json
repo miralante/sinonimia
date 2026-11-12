@@ -84861,5 +84861,25 @@
     "id": "connect-2",
     "word": "Connect",
     "reason": "The gloss repeats the headword and supplies no usable definition of the pronominal construction."
+  },
+  {
+    "id": "caster-2",
+    "word": "Caster",
+    "reason": "The gloss “what a cast” is malformed and does not identify a reliable sense of caster."
+  },
+  {
+    "id": "chill-6",
+    "word": "Chill",
+    "reason": "The gloss about dissolving gall is obscure and cannot be matched reliably to a current general English sense."
+  },
+  {
+    "id": "lancer-3",
+    "word": "Lancer",
+    "reason": "This obscure container for carrying lancets is a specialized medical object with little general synonym value."
+  },
+  {
+    "id": "clandestine-2",
+    "word": "Clandestine",
+    "reason": "The gloss defines a noun meaning clandestinity, while this headword is an adjective; the entry has a part-of-speech mismatch."
   }
 ]

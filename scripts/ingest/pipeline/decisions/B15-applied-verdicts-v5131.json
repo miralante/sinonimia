@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5141",
+  "runtime": "v5142",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1228,
-    "en": 1198
+    "es": 1258,
+    "en": 1228
   },
-  "latestLedgerBatchCount": 121,
-  "latestLedgerReviewedIdCount": 2426,
-  "appliedCount": 1026,
+  "latestLedgerBatchCount": 124,
+  "latestLedgerReviewedIdCount": 2486,
+  "appliedCount": 1046,
   "appliedByLanguage": {
-    "es": 517,
-    "en": 509
+    "es": 527,
+    "en": 519
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -66,7 +66,8 @@
     "B15-ninetyfifth-20-verdicts.json",
     "B15-ninetysixth-20-verdicts.json",
     "B15-ninetyseventh-20-verdicts.json",
-    "B15-ninetyeighth-20-verdicts.json"
+    "B15-ninetyeighth-20-verdicts.json",
+    "B15-ninetyninth-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -6408,6 +6409,126 @@
       "batch": "B15-ninetyeighth-20-verdicts.json",
       "language": "en",
       "id": "chipping-4",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "es",
+      "id": "crocanti",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "es",
+      "id": "desautoridad",
+      "decision": "exclude-rare-unestablished-noun"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "es",
+      "id": "estibia",
+      "decision": "exclude-specialized-nautical-term"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "es",
+      "id": "hondonal",
+      "decision": "exclude-rare-regional-landform"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "es",
+      "id": "sergenta",
+      "decision": "exclude-corrupt-nonstandard-variant"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "es",
+      "id": "socalzar",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "es",
+      "id": "tarma",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "es",
+      "id": "vadera",
+      "decision": "exclude-rare-specialized-tool"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "es",
+      "id": "velilla",
+      "decision": "exclude-obscure-diminutive"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "es",
+      "id": "yegueria",
+      "decision": "exclude-rare-rural-facility-term"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "en",
+      "id": "caster-2",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "en",
+      "id": "chill-6",
+      "decision": "exclude-corrupt-obscure-verb-sense"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "en",
+      "id": "slap-4",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "en",
+      "id": "lancer-3",
+      "decision": "exclude-specialized-medical-container"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "en",
+      "id": "squawk-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "en",
+      "id": "extendable-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "en",
+      "id": "solidarity-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "en",
+      "id": "milanese-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "en",
+      "id": "clandestine-2",
+      "decision": "exclude-corrupt-part-of-speech"
+    },
+    {
+      "batch": "B15-ninetyninth-20-verdicts.json",
+      "language": "en",
+      "id": "songbook-2",
       "decision": "rewrite-definition-and-example"
     }
   ],
