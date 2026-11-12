@@ -90372,5 +90372,40 @@
     "id": "sardonio",
     "word": "sardonio",
     "reason": "La definición es de un color rojizo, pero el ejemplo y el sinónimo describen sardonismo o sarcasmo; los sentidos no coinciden."
+  },
+  {
+    "id": "tequesquital",
+    "word": "tequesquital",
+    "reason": "Nombre mexicano muy localizado para un terreno con tequesquite, una sal mineral; no es un sinónimo general útil."
+  },
+  {
+    "id": "caneco",
+    "word": "caneco",
+    "reason": "Voz poco usada para un frasco de ginebra; no tiene un sinónimo actual de uso general."
+  },
+  {
+    "id": "antimonico",
+    "word": "antimónico",
+    "reason": "Adjetivo técnico referido al antimonio, de interés limitado fuera de la química."
+  },
+  {
+    "id": "baptismal",
+    "word": "baptismal",
+    "reason": "Grafía antigua de bautismal; se evita duplicar la forma moderna y preferida."
+  },
+  {
+    "id": "cagarrache",
+    "word": "cagarrache",
+    "reason": "La ficha mezcla una explicación histórica no verificada con una acepción regional poco conocida; no sirve como entrada general."
+  },
+  {
+    "id": "comitre",
+    "word": "cómitre",
+    "reason": "Cargo histórico de una galera, especializado y poco útil para la sinonimia actual; la candidata solo aporta un fragmento de definición."
+  },
+  {
+    "id": "wellingtonia",
+    "word": "wellingtonia",
+    "reason": "Nombre botánico histórico y ambiguo que se aplicó a plantas distintas; se conserva el nombre científico actual en botánica especializada."
   }
 ]

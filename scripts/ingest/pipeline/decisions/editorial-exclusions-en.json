@@ -84526,5 +84526,15 @@
     "id": "sassanian",
     "word": "sassanian",
     "reason": "This is a rare historical spelling variant of Sasanian, not a useful independent entry for a general synonym dictionary."
+  },
+  {
+    "id": "diachrony",
+    "word": "diachrony",
+    "reason": "A technical term from linguistics describing change over time; too specialized for a general synonym dictionary."
+  },
+  {
+    "id": "consented",
+    "word": "consented",
+    "reason": "Consented is the regular past-tense and past-participle form of consent, not an independent lexical entry; the proposed gloss is unrelated."
   }
 ]
