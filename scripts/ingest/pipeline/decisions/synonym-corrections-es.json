@@ -265324,5 +265324,113 @@
         "text": "La llama empezó a tambalearse con el viento."
       }
     }
+  },
+  {
+    "entry": "contrapuerta",
+    "remove": [],
+    "set": {
+      "definition": "Puerta interior que separa el zaguán del resto de la casa.",
+      "synonyms": [
+        "puerta interior"
+      ],
+      "example": {
+        "word": "contrapuerta",
+        "text": "La contrapuerta separa el zaguán del resto de la casa."
+      },
+      "exampleSynonym": {
+        "word": "puerta interior",
+        "text": "La puerta interior separa el zaguán del resto de la casa."
+      }
+    }
+  },
+  {
+    "entry": "desaparear",
+    "remove": [],
+    "set": {
+      "definition": "Separar dos cosas que antes formaban una pareja.",
+      "synonyms": [
+        "separar"
+      ],
+      "example": {
+        "word": "desaparear",
+        "text": "Al mudarse, tuvieron que desaparear los sillones."
+      },
+      "exampleSynonym": {
+        "word": "separar",
+        "text": "Al mudarse, tuvieron que separar los sillones."
+      }
+    }
+  },
+  {
+    "entry": "desescombrar",
+    "remove": [],
+    "set": {
+      "definition": "Quitar los escombros de un lugar.",
+      "synonyms": [
+        "limpiar"
+      ],
+      "example": {
+        "word": "desescombrar",
+        "text": "Vamos a desescombrar el terreno."
+      },
+      "exampleSynonym": {
+        "word": "limpiar",
+        "text": "Vamos a limpiar el terreno."
+      }
+    }
+  },
+  {
+    "entry": "hospederia",
+    "remove": [],
+    "set": {
+      "definition": "Habitación de una comunidad religiosa para alojar a sus visitantes.",
+      "synonyms": [
+        "alojamiento para visitantes"
+      ],
+      "example": {
+        "word": "hospedería",
+        "text": "El grupo usó este lugar como hospedería."
+      },
+      "exampleSynonym": {
+        "word": "alojamiento para visitantes",
+        "text": "El grupo usó este lugar como alojamiento para visitantes."
+      }
+    }
+  },
+  {
+    "entry": "vasquismo",
+    "remove": [],
+    "set": {
+      "definition": "Rasgo del español influido por la lengua vasca.",
+      "synonyms": [
+        "rasgo influido por el euskera"
+      ],
+      "example": {
+        "word": "vasquismo",
+        "text": "Ese giro es un vasquismo."
+      },
+      "exampleSynonym": {
+        "word": "rasgo influido por el euskera",
+        "text": "Ese giro es un rasgo influido por el euskera."
+      }
+    }
+  },
+  {
+    "entry": "virgueria",
+    "remove": [],
+    "set": {
+      "definition": "Trabajo hecho con gran habilidad o mucho detalle.",
+      "synonyms": [
+        "trabajo extraordinario"
+      ],
+      "example": {
+        "word": "virguería",
+        "text": "Su bordado es una virguería."
+      },
+      "exampleSynonym": {
+        "word": "trabajo extraordinario",
+        "text": "Su bordado es un trabajo extraordinario."
+      }
+    }
   }
 ]

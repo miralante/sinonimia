@@ -89891,5 +89891,145 @@
     "id": "sebesten",
     "word": "Sebesten",
     "reason": "Sebesten is a little-known tropical fruit, and the candidate example defines a different word."
+  },
+  {
+    "id": "song-3",
+    "word": "Song",
+    "reason": "The entry gives a corrupted definition about a quantity or portion of a magnitude, which does not match the common word song."
+  },
+  {
+    "id": "navicular",
+    "word": "Navicular",
+    "reason": "Navicular here names a bone in the foot, a specialized anatomical term with limited general use."
+  },
+  {
+    "id": "responsorial",
+    "word": "Responsorial",
+    "reason": "Responsorial refers to a form of singing or reading with responses in a religious service, a specialized liturgical use."
+  },
+  {
+    "id": "funnel-4",
+    "word": "funnel",
+    "reason": "Funnel is a common everyday word for a tool used to pour liquid into a narrow opening."
+  },
+  {
+    "id": "car-mess",
+    "word": "car mess",
+    "reason": "Car mess appears to be a corrupted translation of a rare railway term, not a useful current English entry."
+  },
+  {
+    "id": "tamarisk-2",
+    "word": "tamarisk",
+    "reason": "Tamarisk is the name of a shrub and is a low-utility botanical term for a general synonym dictionary."
+  },
+  {
+    "id": "hampesque",
+    "word": "hampesque",
+    "reason": "Hampesque is a very rare adjective for something related to criminals or the underworld and has little general use."
+  },
+  {
+    "id": "crash-12",
+    "word": "crash",
+    "reason": "The definition about lacking a tail does not match the common word crash and appears to be corrupted or misaligned."
+  },
+  {
+    "id": "despised-27",
+    "word": "despised",
+    "reason": "The definition describes a tiny town or something vulgar and does not match the ordinary meaning of despised."
+  },
+  {
+    "id": "come-48",
+    "word": "come",
+    "reason": "The definition describes a bird and is unrelated to the common verb come, indicating a mismatched entry."
+  },
+  {
+    "id": "chili-47",
+    "word": "chili",
+    "reason": "The entry defines a rare soap-producing shrub rather than chili pepper or chili, so the entry appears misaligned."
+  },
+  {
+    "id": "signature-power",
+    "word": "Signature power",
+    "reason": "Signature power is an awkward phrase for a specialized banking authorization and is not a suitable general English entry."
+  },
+  {
+    "id": "scaffolding",
+    "word": "scaffolding",
+    "reason": "Scaffolding is a common construction word whose meaning is readily explained as a temporary platform for workers."
+  },
+  {
+    "id": "surface-law",
+    "word": "Surface law",
+    "reason": "Surface law names a specialized legal right to build on land owned by someone else."
+  },
+  {
+    "id": "construction-zone",
+    "word": "construction zone",
+    "reason": "Construction zone is a transparent and familiar phrase for a place where road or building work is taking place."
+  },
+  {
+    "id": "nozzle",
+    "word": "Nozzle",
+    "reason": "The definition says only that something has the shape of a mouthpiece and does not give the ordinary meaning of nozzle."
+  },
+  {
+    "id": "get-bloated",
+    "word": "Get bloated",
+    "reason": "The entry is a common phrase and the definition is malformed because it defines it as a variant of bloating."
+  },
+  {
+    "id": "carraladura",
+    "word": "Carraladura",
+    "reason": "Carraladura is a rare textile term for a line or flaw in fabric and has little general use."
+  },
+  {
+    "id": "contraceptionism",
+    "word": "Contraceptionism",
+    "reason": "Contraceptionism is not a standard English headword here; the entry merely repeats the common word contraception."
+  },
+  {
+    "id": "moonlit",
+    "word": "Moonlit",
+    "reason": "Moonlit means illuminated by the moon, not marked with moles or spots; the supplied definition is mismatched."
+  },
+  {
+    "id": "obverse",
+    "word": "Obverse",
+    "reason": "The entry concerns the primary face of a coin or medal, a specialized numismatic use with limited general utility."
+  },
+  {
+    "id": "get-bogged-down",
+    "word": "get bogged down",
+    "reason": "The definition about sitting on the ground does not match this common phrase, which means to become stuck or slowed down."
+  },
+  {
+    "id": "counterstrike",
+    "word": "Counterstrike",
+    "reason": "The definition about stripes crossing one another does not match counterstrike and appears to be misaligned."
+  },
+  {
+    "id": "get-enthralled",
+    "word": "get enthralled",
+    "reason": "The definition acquire freshness does not match enthralled and appears to be corrupted."
+  },
+  {
+    "id": "cominery",
+    "word": "Cominery",
+    "reason": "Cominery is not a current common English word and the entry does not provide a reliable general-use sense."
+  },
+  {
+    "id": "monocyte",
+    "word": "monocyte",
+    "reason": "Monocyte names a specific type of white blood cell and is a specialized biology term."
+  },
+  {
+    "id": "nahuatlism",
+    "word": "Nahuatlism",
+    "reason": "Nahuatlism is a technical term for a feature of Nahuatl speech and has limited general use."
+  },
+  {
+    "id": "operability",
+    "word": "Operability",
+    "reason": "Operability is a transparent abstract noun meaning ability to function, often used in technical contexts."
   }
 ]

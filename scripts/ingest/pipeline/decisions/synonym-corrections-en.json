@@ -265915,5 +265915,41 @@
         "text": "Vitamin A1 helps maintain healthy vision."
       }
     }
+  },
+  {
+    "entry": "reprimand-4",
+    "remove": [],
+    "set": {
+      "definition": "A firm statement telling someone that they have done something wrong.",
+      "synonyms": [
+        "rebuke"
+      ],
+      "example": {
+        "word": "reprimand",
+        "text": "The manager gave him a reprimand for arriving late."
+      },
+      "exampleSynonym": {
+        "word": "rebuke",
+        "text": "The manager gave him a rebuke for arriving late."
+      }
+    }
+  },
+  {
+    "entry": "sumac",
+    "remove": [],
+    "set": {
+      "definition": "A shrub or small tree with clusters of red fruit.",
+      "synonyms": [
+        "sumach shrub"
+      ],
+      "example": {
+        "word": "sumac",
+        "text": "A sumac grows on the dry hillside."
+      },
+      "exampleSynonym": {
+        "word": "sumach shrub",
+        "text": "A sumach shrub grows on the dry hillside."
+      }
+    }
   }
 ]
