@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5138",
+  "runtime": "v5139",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1158,
-    "en": 1128
+    "es": 1188,
+    "en": 1158
   },
-  "latestLedgerBatchCount": 114,
-  "latestLedgerReviewedIdCount": 2286,
-  "appliedCount": 966,
+  "latestLedgerBatchCount": 117,
+  "latestLedgerReviewedIdCount": 2346,
+  "appliedCount": 986,
   "appliedByLanguage": {
-    "es": 487,
-    "en": 479
+    "es": 497,
+    "en": 489
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -63,7 +63,8 @@
     "B15-ninetysecond-20-verdicts.json",
     "B15-ninetythird-20-verdicts.json",
     "B15-ninetyfourth-20-verdicts.json",
-    "B15-ninetyfifth-20-verdicts.json"
+    "B15-ninetyfifth-20-verdicts.json",
+    "B15-ninetysixth-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -6045,6 +6046,126 @@
       "batch": "B15-ninetyfifth-20-verdicts.json",
       "language": "en",
       "id": "sacredness",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "es",
+      "id": "chinchunte",
+      "decision": "exclude-rare-regional-variant"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "es",
+      "id": "chiriguare",
+      "decision": "exclude-regional-ornithological-term"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "es",
+      "id": "chirleria",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "es",
+      "id": "chirotear",
+      "decision": "exclude-highly-regional-colloquial-verb"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "es",
+      "id": "choba",
+      "decision": "exclude-rare-regional-colloquialism"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "es",
+      "id": "contravapor",
+      "decision": "exclude-obsolete-specialized-engineering-term"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "es",
+      "id": "cornil",
+      "decision": "exclude-rare-technical-variant"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "es",
+      "id": "criptograma",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "es",
+      "id": "deschapar",
+      "decision": "exclude-highly-regional-technical-verb"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "es",
+      "id": "deslizable",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "en",
+      "id": "teletheater",
+      "decision": "exclude-obsolete-broadcast-term"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "en",
+      "id": "subhuman",
+      "decision": "exclude-dehumanizing-insult"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "en",
+      "id": "non-flammable",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "en",
+      "id": "caped-cape",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "en",
+      "id": "ceresin",
+      "decision": "exclude-specialized-industrial-wax-term"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "en",
+      "id": "cerolein",
+      "decision": "exclude-corrupt-specialized-chemical-entry"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "en",
+      "id": "slatwork",
+      "decision": "exclude-specialized-construction-term"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "en",
+      "id": "churriguerism",
+      "decision": "exclude-specialized-historical-art-term"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "en",
+      "id": "cribellus",
+      "decision": "exclude-corrupt-foreign-entry"
+    },
+    {
+      "batch": "B15-ninetysixth-20-verdicts.json",
+      "language": "en",
+      "id": "nothing",
       "decision": "rewrite-definition-and-example"
     }
   ],

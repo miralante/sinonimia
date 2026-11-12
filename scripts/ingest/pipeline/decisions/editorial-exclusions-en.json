@@ -84786,5 +84786,45 @@
     "id": "show-yourselves",
     "word": "Show yourselves",
     "reason": "The gloss premonstratens does not define this phrase and appears to be a corrupted translation."
+  },
+  {
+    "id": "teletheater",
+    "word": "Teletheater",
+    "reason": "This term for theatre broadcast on television is dated and has little current synonym value."
+  },
+  {
+    "id": "subhuman",
+    "word": "subhuman",
+    "reason": "This word is used to deny someone's humanity and is too harmful for an unqualified general synonym entry."
+  },
+  {
+    "id": "caped-cape",
+    "word": "caped cape",
+    "reason": "The gloss describes an insect but does not match the phrase caped cape."
+  },
+  {
+    "id": "ceresin",
+    "word": "Ceresin",
+    "reason": "Ceresin is a technical petroleum-derived wax with little use in a general synonym dictionary."
+  },
+  {
+    "id": "cerolein",
+    "word": "Cerolein",
+    "reason": "This obscure chemical name is glossed as coconut oil and does not support a reliable general synonym card."
+  },
+  {
+    "id": "slatwork",
+    "word": "Slatwork",
+    "reason": "This rare construction noun for a set of slats has no useful general synonym entry."
+  },
+  {
+    "id": "churriguerism",
+    "word": "Churriguerism",
+    "reason": "This is a narrow term for a Spanish Baroque architectural style, not general vocabulary."
+  },
+  {
+    "id": "cribellus",
+    "word": "Cribellus",
+    "reason": "The gloss is a generic description and the headword is not a recognized general English lexical item."
   }
 ]
