@@ -266,4 +266,5 @@
   addSense("cabildero",{id:"round5097-cabildero-person",definition:"Persona que intenta influir en decisiones de autoridades o legisladores.",synonym:"gestor de intereses",marker:"cabildero",example:"El cabildero se reunió con los legisladores.",exampleSynonymText:"El gestor de intereses se reunió con los legisladores."});
   addSense("celico",{id:"round5097-celico-excellent",definition:"De uso literario, muy bueno, perfecto o delicioso.",synonym:"excelente",marker:"célico",example:"El postre célico sorprendió a todos.",exampleSynonymText:"El postre excelente sorprendió a todos."});
 }
+  set("cegajoso",{definition:"Que tiene los ojos cargados y llorosos con frecuencia.",synonyms:["legañoso"],example:{word:"cegajoso",text:"El niño cegajoso se frotaba los ojos."},exampleSynonym:{word:"legañoso",text:"El niño legañoso se frotaba los ojos."}});
 })();

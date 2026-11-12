@@ -442,4 +442,7 @@
   set("revalue",{definition:"To calculate the value of something again.",synonyms:["reassess"],example:{word:"revalue",text:"Companies often revalue their assets."},exampleSynonym:{word:"reassess",text:"Companies often reassess their assets."}});
   addSense("revalue",{id:"round5097-revalue-currency",definition:"To raise a country's currency value against other currencies.",synonym:"strengthen",marker:"revalue",example:"The bank plans to revalue the currency against the dollar.",exampleSynonymText:"The bank plans to strengthen the currency against the dollar."});
 }
+  set("colluder",{definition:"A person who secretly works with others to commit fraud.",synonyms:["fraud conspirator"],example:{word:"colluder",text:"The colluder helped plan the false claims."},exampleSynonym:{word:"fraud conspirator",text:"The fraud conspirator helped plan the false claims."}});
+  set("metric",{definition:"A function that assigns a distance to each pair of points.",synonyms:["distance function"],example:{word:"metric",text:"The mathematician defined a metric on the space."},exampleSynonym:{word:"distance function",text:"The mathematician defined a distance function on the space."}});
+  set("round2541-metric-noun",{definition:"A way to measure or judge something.",synonyms:["measure"],example:{word:"metric",text:"The team chose a new metric to track customer satisfaction."},exampleSynonym:{word:"measure",text:"The team chose a new measure to track customer satisfaction."}});
 })();

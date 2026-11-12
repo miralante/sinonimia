@@ -83506,5 +83506,50 @@
     "id": "cholagogue",
     "word": "cholagogue",
     "reason": "Highly specialized pharmacology term for an agent affecting bile flow; low general use and value."
+  },
+  {
+    "id": "squeegee",
+    "word": "squeegee",
+    "reason": "The dictionary sense is a common household cleaning tool, with a straightforward definition."
+  },
+  {
+    "id": "half-shaft",
+    "word": "half shaft",
+    "reason": "Valid but narrowly specialized automotive part with low general vocabulary value."
+  },
+  {
+    "id": "cider-maker",
+    "word": "cider maker",
+    "reason": "Straightforward compound naming a person who makes cider; its meaning is easy to infer."
+  },
+  {
+    "id": "credential-holder",
+    "word": "credential holder",
+    "reason": "The current gloss confuses credentials with a church credence table and does not define the English compound."
+  },
+  {
+    "id": "shaken",
+    "word": "shaken",
+    "reason": "Common inflected form of «shake» with an unrelated, unsupported definition."
+  },
+  {
+    "id": "covered",
+    "word": "covered",
+    "reason": "Common participle of «cover»; the current definition incorrectly presents it as a noun meaning the act of covering."
+  },
+  {
+    "id": "ribbed-3",
+    "word": "Ribbed",
+    "reason": "The honeycomb-shaped gloss is not verified as a distinct Collins sense of ribbed and conflicts with its standard meaning."
+  },
+  {
+    "id": "ribbed-4",
+    "word": "Ribbed",
+    "reason": "The broad-shouldered gloss is not verified as a distinct Collins sense of ribbed."
+  },
+  {
+    "id": "crawled-2",
+    "word": "crawled",
+    "reason": "This card names the South American tree urundey and is not a verified English sense of the common inflection crawled."
   }
 ]

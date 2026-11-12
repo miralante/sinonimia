@@ -1,0 +1,1340 @@
+{
+  "batch": "B15-applied-subset",
+  "runtime": "v5103",
+  "ledger": "B15-template-review-ledger",
+  "latestLedgerTotals": {
+    "es": 240,
+    "en": 260
+  },
+  "latestLedgerBatchCount": 24,
+  "latestLedgerReviewedIdCount": 500,
+  "appliedCount": 213,
+  "appliedByLanguage": {
+    "es": 98,
+    "en": 115
+  },
+  "batches": [
+    "B15-first-20-verdicts.json",
+    "B15-next-20-verdicts.json",
+    "B15-third-20-verdicts.json",
+    "B15-fourth-20-verdicts.json",
+    "B15-fifth-20-verdicts.json",
+    "B15-sixth-20-verdicts.json",
+    "B15-seventh-20-verdicts.json",
+    "B15-eighth-20-verdicts.json",
+    "B15-ninth-20-verdicts.json",
+    "B15-tenth-20-verdicts.json"
+  ],
+  "pendingBatch10": [
+    {
+      "language": "es",
+      "id": "repullo",
+      "decision": "rewrite-and-split"
+    },
+    {
+      "language": "es",
+      "id": "auscultador",
+      "decision": "rewrite-and-split"
+    },
+    {
+      "language": "en",
+      "id": "gunslinger",
+      "decision": "rewrite-and-split"
+    },
+    {
+      "language": "en",
+      "id": "suited",
+      "decision": "rewrite-and-split-hard-senses; omit-easy-clothing-sense"
+    }
+  ],
+  "editorialAdjustments": [
+    {
+      "ids": [
+        "celico",
+        "round5097-celico-excellent"
+      ],
+      "field": "definition",
+      "adjustment": "Prefixed «De uso literario» because the runtime schema has no usageLabel field; preserves the approved usage note."
+    }
+  ],
+  "applied": [
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "es",
+      "id": "cooficialidad",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "es",
+      "id": "anosognosia",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "es",
+      "id": "serigrafia",
+      "decision": "split"
+    },
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "es",
+      "id": "sobrar",
+      "decision": "split-and-correct-synonym"
+    },
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "es",
+      "id": "tiquear",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "es",
+      "id": "tornasolar",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "es",
+      "id": "vizcacha",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "es",
+      "id": "artilleria",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "es",
+      "id": "cagado",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "es",
+      "id": "colibacilo",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "en",
+      "id": "surveillance",
+      "decision": "rewrite-example"
+    },
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "en",
+      "id": "rowan",
+      "decision": "rewrite-example"
+    },
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "en",
+      "id": "sander",
+      "decision": "exclude-base-duplicate"
+    },
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "en",
+      "id": "millenarianism",
+      "decision": "rewrite-and-separate-senses"
+    },
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "en",
+      "id": "semiconsonant",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "en",
+      "id": "comteacher",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "en",
+      "id": "squig",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "en",
+      "id": "substrate",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "en",
+      "id": "sauce",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-first-20-verdicts.json",
+      "language": "en",
+      "id": "swallowing",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "es",
+      "id": "restinga",
+      "decision": "rewrite-example-and-synonym"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "es",
+      "id": "zurriar",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "es",
+      "id": "acondicionado",
+      "decision": "exclude-sense"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "es",
+      "id": "arreglada",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "es",
+      "id": "be",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "es",
+      "id": "cane",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "es",
+      "id": "republica",
+      "decision": "rewrite-and-split"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "es",
+      "id": "ubicado",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "es",
+      "id": "virginidad",
+      "decision": "rewrite-and-narrow-to-verified-sense"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "es",
+      "id": "zanquilargo",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "en",
+      "id": "bonuses",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "en",
+      "id": "repeatability",
+      "decision": "exclude-pending-source-verification"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "en",
+      "id": "stigmatizer",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "en",
+      "id": "celloidin",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "en",
+      "id": "telemetry",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "en",
+      "id": "ring-2",
+      "decision": "exclude-sense"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "en",
+      "id": "care-3",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "en",
+      "id": "love-4",
+      "decision": "exclude-unverified-sense"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "en",
+      "id": "grinding-2",
+      "decision": "exclude-unverified-sense"
+    },
+    {
+      "batch": "B15-next-20-verdicts.json",
+      "language": "en",
+      "id": "legible-2",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "es",
+      "id": "apajuilarse",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "es",
+      "id": "apostolical",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "es",
+      "id": "asaborir",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "es",
+      "id": "astigmometro",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "es",
+      "id": "bambanear",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "es",
+      "id": "bobatel",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "es",
+      "id": "calabacear",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "es",
+      "id": "camelotina",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "es",
+      "id": "cantamisa",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "es",
+      "id": "carosiera",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "en",
+      "id": "creperie",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "en",
+      "id": "tax-5",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "en",
+      "id": "screamer-2",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "en",
+      "id": "hotelier-2",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "en",
+      "id": "section-3",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "en",
+      "id": "senate-2",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "en",
+      "id": "late-medieval-2",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "en",
+      "id": "shrinkage-2",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "en",
+      "id": "invigorate-2",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-third-20-verdicts.json",
+      "language": "en",
+      "id": "captain-2",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "es",
+      "id": "celan",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "es",
+      "id": "chalanear",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "es",
+      "id": "chupadura",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "es",
+      "id": "comprable",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "es",
+      "id": "contravidriera",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "es",
+      "id": "cubertura",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "es",
+      "id": "cuernezuelo",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "es",
+      "id": "desbornizar",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "es",
+      "id": "desempolvoradura",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "es",
+      "id": "embostar",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "en",
+      "id": "chill-8",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "en",
+      "id": "soften-5",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "en",
+      "id": "compatibility-2",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "en",
+      "id": "lunch-6",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "en",
+      "id": "blade-4",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "en",
+      "id": "mannequin-2",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "en",
+      "id": "carelessness-5",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "en",
+      "id": "manager-3",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "en",
+      "id": "lunge-3",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-fourth-20-verdicts.json",
+      "language": "en",
+      "id": "murmur-4",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "es",
+      "id": "gabarrero",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "es",
+      "id": "repudiable",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "es",
+      "id": "respahilar",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "es",
+      "id": "sanchina",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "es",
+      "id": "sompantle",
+      "decision": "exclude-variant-duplicate"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "es",
+      "id": "subalcaide",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "es",
+      "id": "suelazo",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "es",
+      "id": "tirajo",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "es",
+      "id": "trapezoedro",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "es",
+      "id": "voceras",
+      "decision": "exclude-variant-duplicate"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "en",
+      "id": "civet-3",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "en",
+      "id": "operational-2",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "en",
+      "id": "insight-2",
+      "decision": "exclude-sense"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "en",
+      "id": "landowner-2",
+      "decision": "exclude-duplicate-sense"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "en",
+      "id": "insurer-2",
+      "decision": "exclude-duplicate-sense"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "en",
+      "id": "conductive-2",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "en",
+      "id": "clothesline-4",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "en",
+      "id": "loop-2",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "en",
+      "id": "migrant-2",
+      "decision": "exclude-duplicate-sense"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "en",
+      "id": "co-defendant-2",
+      "decision": "exclude-duplicate-sense"
+    },
+    {
+      "batch": "B15-fifth-20-verdicts.json",
+      "language": "en",
+      "id": "co-defendant",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "es",
+      "id": "zapita",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "es",
+      "id": "zopilotada",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "es",
+      "id": "anfibol",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "es",
+      "id": "bagauda",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "es",
+      "id": "barrear",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "es",
+      "id": "biajaiba",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "es",
+      "id": "burreno",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "es",
+      "id": "burrillo",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "es",
+      "id": "canilero",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "es",
+      "id": "casmodia",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "en",
+      "id": "conversational-2",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "en",
+      "id": "stubborn-9",
+      "decision": "exclude-duplicate-sense"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "en",
+      "id": "gastrovascular",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "en",
+      "id": "anosognosia",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "en",
+      "id": "clump",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "en",
+      "id": "cordoba-2",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "en",
+      "id": "contubernal",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "en",
+      "id": "separable",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "en",
+      "id": "closed-8",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-sixth-20-verdicts.json",
+      "language": "en",
+      "id": "rich-in-medicinal-minerals",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "es",
+      "id": "cauchar",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "es",
+      "id": "cerron",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "es",
+      "id": "chaladura",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "es",
+      "id": "cohetazo",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "es",
+      "id": "colmillar",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "es",
+      "id": "contubernal",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "es",
+      "id": "curcusilla",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "es",
+      "id": "curiquingue",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "es",
+      "id": "desaturdir",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "es",
+      "id": "semidiametro",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "counterleak",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "squeamish-2",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "steal-7",
+      "decision": "exclude-duplicate-sense"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "cisco",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "genus-muscicapa",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "costalada-2",
+      "decision": "exclude-wrong-language"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "costa-rican-bush",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "come-35",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "come-40",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "commercial-registry",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "cisco-2",
+      "decision": "exclude-duplicate-sense"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "closed-7",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "closed-3",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "closed-5",
+      "decision": "exclude-common-inflection"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "steal",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "steal-2",
+      "decision": "exclude-duplicate-sense"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "steal-3",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "steal-4",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "steal-5",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-seventh-20-verdicts.json",
+      "language": "en",
+      "id": "steal-6",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "es",
+      "id": "semihombre",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "es",
+      "id": "solevantar",
+      "decision": "rewrite-and-split"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "es",
+      "id": "sotanilla",
+      "decision": "exclude"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "es",
+      "id": "tarazar",
+      "decision": "exclude-regional-low-utility"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "es",
+      "id": "visor",
+      "decision": "rewrite-and-split"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "es",
+      "id": "bruzos",
+      "decision": "rewrite-to-idiom"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "es",
+      "id": "clarinado",
+      "decision": "exclude-low-utility-specialist"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "es",
+      "id": "anfictionia",
+      "decision": "rewrite-and-split"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "es",
+      "id": "antiflogistico",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "es",
+      "id": "antiperistaltico",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "en",
+      "id": "spanable",
+      "decision": "exclude-low-utility"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "en",
+      "id": "ribbed",
+      "decision": "exclude-common-form"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "en",
+      "id": "metacenter",
+      "decision": "exclude-low-utility-specialist"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "en",
+      "id": "stereocomparator",
+      "decision": "exclude-low-utility-specialist"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "en",
+      "id": "aliphate",
+      "decision": "exclude-obscure-variant"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "en",
+      "id": "pillowed",
+      "decision": "exclude-transparent-form"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "en",
+      "id": "confluent",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "en",
+      "id": "scrubber",
+      "decision": "rewrite-to-technical-sense; remove-common-and-offensive-senses"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "en",
+      "id": "neurophysiology",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "en",
+      "id": "stickiness",
+      "decision": "exclude-common-derivative"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "en",
+      "id": "scrubber-2",
+      "decision": "exclude-common-sense-duplicate"
+    },
+    {
+      "batch": "B15-eighth-20-verdicts.json",
+      "language": "en",
+      "id": "confluent-2",
+      "decision": "rewrite-separate-noun-sense"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "es",
+      "id": "aoristo",
+      "decision": "rewrite-and-split"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "es",
+      "id": "asociacionismo",
+      "decision": "rewrite-and-split"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "es",
+      "id": "cabildero",
+      "decision": "rewrite-and-split"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "es",
+      "id": "celico",
+      "decision": "rewrite-and-split"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "es",
+      "id": "giboso",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "es",
+      "id": "lumbrical",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "es",
+      "id": "evolutivo",
+      "decision": "exclude-common-transparent-adjective"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "es",
+      "id": "beguino",
+      "decision": "exclude-low-utility-historical"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "es",
+      "id": "biocombustible",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "es",
+      "id": "cayente",
+      "decision": "exclude-rare-transparent"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "en",
+      "id": "suprarealism",
+      "decision": "exclude-unsupported-variant"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "en",
+      "id": "crawled",
+      "decision": "exclude-corrupt-inflection"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "en",
+      "id": "dispatchers",
+      "decision": "exclude-common-plural"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "en",
+      "id": "tearable",
+      "decision": "exclude-corrupt-low-utility"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "en",
+      "id": "revalue",
+      "decision": "rewrite-and-split"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "en",
+      "id": "syllable",
+      "decision": "exclude-common-basic-word"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "en",
+      "id": "saxifrage",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "en",
+      "id": "synhedrium",
+      "decision": "exclude-obscure-variant"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "en",
+      "id": "cholagogue",
+      "decision": "exclude-low-utility-specialist"
+    },
+    {
+      "batch": "B15-ninth-20-verdicts.json",
+      "language": "en",
+      "id": "chronobiology",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "es",
+      "id": "revocador",
+      "decision": "exclude-derivative-low-utility"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "es",
+      "id": "apepinado",
+      "decision": "exclude-transparent-derivative"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "es",
+      "id": "auranciaceo",
+      "decision": "exclude-low-utility-specialist"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "es",
+      "id": "cascapinones",
+      "decision": "exclude-low-utility-specialist"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "es",
+      "id": "cazcorvo",
+      "decision": "exclude-variant-duplicate"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "es",
+      "id": "cegajoso",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "es",
+      "id": "cinteado",
+      "decision": "exclude-transparent-adjective"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "es",
+      "id": "trascanton",
+      "decision": "exclude-low-utility-archaic"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "en",
+      "id": "squeegee",
+      "decision": "exclude-common-tool"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "en",
+      "id": "half-shaft",
+      "decision": "exclude-low-utility-specialist"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "en",
+      "id": "cider-maker",
+      "decision": "exclude-transparent-compound"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "en",
+      "id": "metric",
+      "decision": "rewrite-and-split-correct-senses"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "en",
+      "id": "colluder",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "en",
+      "id": "credential-holder",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "en",
+      "id": "shaken",
+      "decision": "exclude-common-inflection-corrupt"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "en",
+      "id": "covered",
+      "decision": "exclude-common-inflection-corrupt"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "en",
+      "id": "ribbed-3",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "en",
+      "id": "ribbed-4",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "en",
+      "id": "round2541-metric-noun",
+      "decision": "rewrite-existing-sibling"
+    },
+    {
+      "batch": "B15-tenth-20-verdicts.json",
+      "language": "en",
+      "id": "crawled-2",
+      "decision": "exclude-wrong-language-specialist-sense"
+    }
+  ]
+}
