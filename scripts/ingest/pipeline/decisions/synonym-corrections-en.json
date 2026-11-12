@@ -265591,5 +265591,41 @@
         "text": "The aging tree shed its leaves early."
       }
     }
+  },
+  {
+    "entry": "taciturnity",
+    "remove": [],
+    "set": {
+      "definition": "The habit of saying little, often in an unfriendly way.",
+      "synonyms": [
+        "reticence"
+      ],
+      "example": {
+        "word": "Taciturnity",
+        "text": "The source described Taciturnity as a barrier to conversation."
+      },
+      "exampleSynonym": {
+        "word": "reticence",
+        "text": "The source described reticence as a barrier to conversation."
+      }
+    }
+  },
+  {
+    "entry": "nutty",
+    "remove": [],
+    "set": {
+      "definition": "Tasting or smelling like nuts.",
+      "synonyms": [
+        "Nut-like"
+      ],
+      "example": {
+        "word": "Nutty",
+        "text": "Nutty flavor can make the sauce more interesting."
+      },
+      "exampleSynonym": {
+        "word": "Nut-like",
+        "text": "Nut-like flavor can make the sauce more interesting."
+      }
+    }
   }
 ]

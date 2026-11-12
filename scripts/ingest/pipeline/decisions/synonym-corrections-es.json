@@ -264838,5 +264838,59 @@
         "text": "La verja del patio estaba cerrada."
       }
     }
+  },
+  {
+    "entry": "senorito",
+    "remove": [],
+    "set": {
+      "definition": "Joven de una familia acomodada.",
+      "synonyms": [
+        "joven rico"
+      ],
+      "example": {
+        "word": "señorito",
+        "text": "El señorito llegó a la finca con su familia."
+      },
+      "exampleSynonym": {
+        "word": "joven rico",
+        "text": "El joven rico llegó a la finca con su familia."
+      }
+    }
+  },
+  {
+    "entry": "sucubo",
+    "remove": [],
+    "set": {
+      "definition": "En la leyenda, demonio femenino que seduce a hombres mientras duermen.",
+      "synonyms": [
+        "demonio"
+      ],
+      "example": {
+        "word": "súcubo",
+        "text": "En el relato, un súcubo visitó al monje durante la noche."
+      },
+      "exampleSynonym": {
+        "word": "demonio",
+        "text": "En el relato, un demonio visitó al monje durante la noche."
+      }
+    }
+  },
+  {
+    "entry": "celestinear",
+    "remove": [],
+    "set": {
+      "definition": "Actuar como intermediario para facilitar una relación amorosa, a menudo secreta.",
+      "synonyms": [
+        "alcahuetear"
+      ],
+      "example": {
+        "word": "celestinear",
+        "text": "La vecina empezó a celestinear entre los dos jóvenes."
+      },
+      "exampleSynonym": {
+        "word": "alcahuetear",
+        "text": "La vecina empezó a alcahuetear entre los dos jóvenes."
+      }
+    }
   }
 ]

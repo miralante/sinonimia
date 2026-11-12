@@ -95442,5 +95442,90 @@
     "id": "azotar",
     "word": "azotar",
     "reason": "Azotar es un verbo conocido con varios sentidos cotidianos, como golpear o castigar."
+  },
+  {
+    "id": "casete",
+    "word": "casete",
+    "reason": "Casete se ofrece como variante de caset y no aporta una entrada de sinonimia independiente."
+  },
+  {
+    "id": "civico",
+    "word": "cívico",
+    "reason": "La definición no corresponde al adjetivo cívico; la entrada candidata está corrupta."
+  },
+  {
+    "id": "impreciso",
+    "word": "impreciso",
+    "reason": "Impreciso es un adjetivo común y de comprensión directa."
+  },
+  {
+    "id": "rima",
+    "word": "rima",
+    "reason": "Rima es un término literario frecuente y su significado es fácil de explicar; no cumple el umbral editorial de dificultad."
+  },
+  {
+    "id": "sano",
+    "word": "sano",
+    "reason": "Sano es un adjetivo común y de comprensión directa."
+  },
+  {
+    "id": "secador",
+    "word": "secador",
+    "reason": "Secador nombra de forma transparente algo que seca o el aparato habitual; no requiere una ficha especializada."
+  },
+  {
+    "id": "tacho",
+    "word": "tacho",
+    "reason": "Tacho con el sentido de balde es regional y no cumple el criterio de uso general."
+  },
+  {
+    "id": "tigresa",
+    "word": "tigresa",
+    "reason": "El sentido zoológico es transparente y los usos figurados coloquiales no aportan una ficha de alta utilidad."
+  },
+  {
+    "id": "triturar",
+    "word": "triturar",
+    "reason": "Triturar es un verbo común y su significado se explica con palabras corrientes."
+  },
+  {
+    "id": "vivero",
+    "word": "vivero",
+    "reason": "Vivero es una palabra común para un lugar donde se crían plantas; no cumple el umbral de dificultad."
+  },
+  {
+    "id": "cajigo",
+    "word": "cajigo",
+    "reason": "Cajigo es una variante regional de quejigo y el árbol nombrado es un término botánico especializado."
+  },
+  {
+    "id": "archicofrade",
+    "word": "archicofrade",
+    "reason": "Archicofrade solo designa a quien pertenece a una cofradía y tiene uso especializado."
+  },
+  {
+    "id": "asolanar",
+    "word": "asolanar",
+    "reason": "Asolanar es una voz poco usada para un daño causado por el viento solano y tiene baja utilidad general."
+  },
+  {
+    "id": "belcantismo",
+    "word": "belcantismo",
+    "reason": "Belcantismo es un término especializado de técnica vocal musical."
+  },
+  {
+    "id": "cachetonearse",
+    "word": "cachetonearse",
+    "reason": "Cachetonearse es un coloquialismo chileno de uso regional."
+  },
+  {
+    "id": "caguaso",
+    "word": "caguaso",
+    "reason": "Caguaso es el nombre regional de una planta y su definición incluye vocabulario botánico especializado."
+  },
+  {
+    "id": "carrizada",
+    "word": "carrizada",
+    "reason": "Carrizada es un término marítimo muy específico para una fila de toneles remolcados."
   }
 ]
