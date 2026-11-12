@@ -89937,5 +89937,25 @@
     "id": "verbenear",
     "word": "verbenear",
     "reason": "El DLE lo define como gusanear, hormiguear, bullir o abundar; no significa asistir a verbenas."
+  },
+  {
+    "id": "bizcochero",
+    "word": "bizcochero",
+    "reason": "La ficha remite a otra entrada del mismo lema; sus sentidos de fabricante o vendedor de bizcochos son transparentes y de poco valor diferencial."
+  },
+  {
+    "id": "censurador",
+    "word": "censurador",
+    "reason": "Significa que censura y es una formación transparente del verbo común «censurar»."
+  },
+  {
+    "id": "bezoarico",
+    "word": "bezoárico",
+    "reason": "El DLE recoge el sentido de algo que contiene bezoar y el de un antiguo medicamento contra venenos; ambos son técnicos y de uso muy reducido."
+  },
+  {
+    "id": "siderurgico",
+    "word": "siderúrgico",
+    "reason": "Significa relacionado con la siderurgia o con el trabajo del acero y es un adjetivo técnico derivado de «siderurgia»."
   }
 ]
