@@ -88496,5 +88496,130 @@
     "id": "teller",
     "word": "Teller",
     "reason": "Teller is a familiar word, and the candidate gives only a transparent sense meaning someone who tells."
+  },
+  {
+    "id": "skijama",
+    "word": "Skijama",
+    "reason": "The candidate gives an unverified regional weaving label and provides no reliable distinct sense for a general dictionary."
+  },
+  {
+    "id": "overrate",
+    "word": "Overrate",
+    "reason": "Overrate is a common, transparent verb meaning to value something too highly."
+  },
+  {
+    "id": "stock",
+    "word": "Stock",
+    "reason": "Stock is a very common word; its candidate combines several everyday meanings that would require separate entries."
+  },
+  {
+    "id": "molecule",
+    "word": "Molecule",
+    "reason": "The candidate describes a hole made by a mole, not a sense of molecule."
+  },
+  {
+    "id": "sibilant",
+    "word": "sibilant",
+    "reason": "Sibilant is a specialist sound description with limited use outside language study."
+  },
+  {
+    "id": "galdosian",
+    "word": "Galdosian",
+    "reason": "Galdosian refers specifically to Benito Pérez Galdós or his style and has narrow literary use."
+  },
+  {
+    "id": "civic",
+    "word": "Civic",
+    "reason": "Civic is a familiar adjective meaning related to a city or its citizens; the candidate gives a mismatched noun definition."
+  },
+  {
+    "id": "clement",
+    "word": "Clement",
+    "reason": "Clement is a rare formal adjective meaning merciful or forgiving."
+  },
+  {
+    "id": "channeled",
+    "word": "Channeled",
+    "reason": "Channeled is a common, transparent adjective for something marked with channels or grooves."
+  },
+  {
+    "id": "capule",
+    "word": "Capule",
+    "reason": "Capule is a rare botanical term for a compact, head-shaped flower cluster."
+  },
+  {
+    "id": "coredemptor",
+    "word": "Coredemptor",
+    "reason": "Coredemptor is an obscure theological term for someone who shares in another person’s redemption."
+  },
+  {
+    "id": "crassulaceae",
+    "word": "Crassulaceae",
+    "reason": "Crassulaceae is the specialist Latin name of a family of succulent plants."
+  },
+  {
+    "id": "clearer",
+    "word": "clearer",
+    "reason": "Clearer is a common comparative form, and the candidate definition does not fit it."
+  },
+  {
+    "id": "geophage",
+    "word": "Geophage",
+    "reason": "Geophage is a rare zoological term for an animal that eats earth or soil."
+  },
+  {
+    "id": "neokantian",
+    "word": "Neokantian",
+    "reason": "Neokantian refers to a specific school of philosophy and has narrow academic use."
+  },
+  {
+    "id": "cress",
+    "word": "Cress",
+    "reason": "Cress is a familiar salad plant, while the candidate definition describes an unrelated sausage."
+  },
+  {
+    "id": "guillo",
+    "word": "Guillo",
+    "reason": "The candidate gives guillo as a regional, stigmatizing label for a sex worker, with little general editorial value."
+  },
+  {
+    "id": "stereotyper",
+    "word": "Stereotyper",
+    "reason": "Stereotyper is a transparent noun for someone who uses stereotypes and has little added value."
+  },
+  {
+    "id": "cidian",
+    "word": "Cidian",
+    "reason": "Cidian is a rare historical adjective referring to El Cid, with little use in general English."
+  },
+  {
+    "id": "cladoceran",
+    "word": "Cladoceran",
+    "reason": "Cladoceran is a specialist zoological name for a water flea."
+  },
+  {
+    "id": "rent-2",
+    "word": "Rent",
+    "reason": "Rent is a common verb with straightforward meanings of paying for or providing temporary use."
+  },
+  {
+    "id": "capper-2",
+    "word": "Capper",
+    "reason": "The candidate is a self-referential machine label and does not provide a useful general sense."
+  },
+  {
+    "id": "cliff-3",
+    "word": "cliff",
+    "reason": "Cliff is a common word for a steep rock face; the candidate gives an unrelated definition."
+  },
+  {
+    "id": "civilize-2",
+    "word": "Civilize",
+    "reason": "Civilize is a common verb meaning to make more orderly or culturally developed, not to humiliate someone."
+  },
+  {
+    "id": "sieve-3",
+    "word": "sieve",
+    "reason": "Sieve is a common household word, and the candidate gives a narrow regional farming tool sense."
   }
 ]

@@ -264997,5 +264997,95 @@
         "text": "The climbing shrub covered the garden fence."
       }
     }
+  },
+  {
+    "entry": "scupper",
+    "remove": [],
+    "set": {
+      "definition": "An opening that lets water drain from a ship or building.",
+      "synonyms": [
+        "drain opening"
+      ],
+      "example": {
+        "word": "scupper",
+        "text": "The scupper was blocked by leaves."
+      },
+      "exampleSynonym": {
+        "word": "drain opening",
+        "text": "The drain opening was blocked by leaves."
+      }
+    }
+  },
+  {
+    "entry": "obfuscate",
+    "remove": [],
+    "set": {
+      "definition": "To make an idea or message difficult to understand.",
+      "synonyms": [
+        "confuse"
+      ],
+      "example": {
+        "word": "obfuscate",
+        "text": "The report tried to obfuscate the issue."
+      },
+      "exampleSynonym": {
+        "word": "confuse",
+        "text": "The report tried to confuse the issue."
+      }
+    }
+  },
+  {
+    "entry": "sweat-lodge",
+    "remove": [],
+    "set": {
+      "definition": "A small hut where people use steam in a purification ritual.",
+      "synonyms": [
+        "ritual hut"
+      ],
+      "example": {
+        "word": "sweat lodge",
+        "text": "They entered the sweat lodge together."
+      },
+      "exampleSynonym": {
+        "word": "ritual hut",
+        "text": "They entered the ritual hut together."
+      }
+    }
+  },
+  {
+    "entry": "contraceptive-2",
+    "remove": [],
+    "set": {
+      "definition": "Used to prevent pregnancy.",
+      "synonyms": [
+        "birth-control"
+      ],
+      "example": {
+        "word": "contraceptive",
+        "text": "This contraceptive method is reliable."
+      },
+      "exampleSynonym": {
+        "word": "birth-control",
+        "text": "This birth-control method is reliable."
+      }
+    }
+  },
+  {
+    "entry": "intercom-2",
+    "remove": [],
+    "set": {
+      "definition": "A device that lets someone outside speak to a person inside.",
+      "synonyms": [
+        "door speaker"
+      ],
+      "example": {
+        "word": "intercom",
+        "text": "The intercom rang at the front gate."
+      },
+      "exampleSynonym": {
+        "word": "door speaker",
+        "text": "The door speaker rang at the front gate."
+      }
+    }
   }
 ]

@@ -264136,5 +264136,167 @@
         "text": "El familiar más cercano recibió la herencia."
       }
     }
+  },
+  {
+    "entry": "sarrio",
+    "remove": [],
+    "set": {
+      "definition": "A wild mountain goat found in the Pyrenees.",
+      "synonyms": [
+        "rebeco"
+      ],
+      "example": {
+        "word": "sarrio",
+        "text": "El sarrio bajó por la ladera rocosa."
+      },
+      "exampleSynonym": {
+        "word": "rebeco",
+        "text": "El rebeco bajó por la ladera rocosa."
+      }
+    }
+  },
+  {
+    "entry": "tempora",
+    "remove": [],
+    "set": {
+      "definition": "Días de ayuno que la Iglesia celebra cuatro veces al año.",
+      "synonyms": [
+        "ayuno estacional"
+      ],
+      "example": {
+        "word": "témpora",
+        "text": "El período de témpora empieza mañana."
+      },
+      "exampleSynonym": {
+        "word": "ayuno estacional",
+        "text": "El período de ayuno estacional empieza mañana."
+      }
+    }
+  },
+  {
+    "entry": "tupir",
+    "remove": [],
+    "set": {
+      "definition": "Rellenar los espacios de algo juntando sus partes.",
+      "synonyms": [
+        "compactar"
+      ],
+      "example": {
+        "word": "tupir",
+        "text": "La máquina puede tupir los espacios del cojín."
+      },
+      "exampleSynonym": {
+        "word": "compactar",
+        "text": "La máquina puede compactar los espacios del cojín."
+      }
+    }
+  },
+  {
+    "entry": "ubicuidad",
+    "remove": [],
+    "set": {
+      "definition": "Presencia en todas partes al mismo tiempo.",
+      "synonyms": [
+        "presencia generalizada"
+      ],
+      "example": {
+        "word": "ubicuidad",
+        "text": "La ubicuidad del servicio ayuda a sus usuarios."
+      },
+      "exampleSynonym": {
+        "word": "presencia generalizada",
+        "text": "La presencia generalizada del servicio ayuda a sus usuarios."
+      }
+    }
+  },
+  {
+    "entry": "vetusto",
+    "remove": [],
+    "set": {
+      "definition": "Muy antiguo o perteneciente a un pasado lejano.",
+      "synonyms": [
+        "antiquísimo"
+      ],
+      "example": {
+        "word": "vetusto",
+        "text": "El puente vetusto necesita una reforma."
+      },
+      "exampleSynonym": {
+        "word": "antiquísimo",
+        "text": "El puente antiquísimo necesita una reforma."
+      }
+    }
+  },
+  {
+    "entry": "vicisitud",
+    "remove": [],
+    "set": {
+      "definition": "Cambio difícil o inesperado que ocurre en la vida.",
+      "synonyms": [
+        "dificultad"
+      ],
+      "example": {
+        "word": "vicisitud",
+        "text": "Cada vicisitud cambió el plan."
+      },
+      "exampleSynonym": {
+        "word": "dificultad",
+        "text": "Cada dificultad cambió el plan."
+      }
+    }
+  },
+  {
+    "entry": "bazofia",
+    "remove": [],
+    "set": {
+      "definition": "Comida de mal sabor o aspecto muy desagradable.",
+      "synonyms": [
+        "comida repugnante"
+      ],
+      "example": {
+        "word": "bazofia",
+        "text": "No pienso probar esta bazofia."
+      },
+      "exampleSynonym": {
+        "word": "comida repugnante",
+        "text": "No pienso probar esta comida repugnante."
+      }
+    }
+  },
+  {
+    "entry": "clausura",
+    "remove": [],
+    "set": {
+      "definition": "Vida monástica apartada del mundo exterior.",
+      "synonyms": [
+        "reclusión monástica"
+      ],
+      "example": {
+        "word": "clausura",
+        "text": "La clausura del convento era estricta."
+      },
+      "exampleSynonym": {
+        "word": "reclusión monástica",
+        "text": "La reclusión monástica del convento era estricta."
+      }
+    }
+  },
+  {
+    "entry": "credulo",
+    "remove": [],
+    "set": {
+      "definition": "Que cree algo con demasiada facilidad.",
+      "synonyms": [
+        "ingenuo"
+      ],
+      "example": {
+        "word": "crédulo",
+        "text": "El lector crédulo aceptó la historia."
+      },
+      "exampleSynonym": {
+        "word": "ingenuo",
+        "text": "El lector ingenuo aceptó la historia."
+      }
+    }
   }
 ]
