@@ -3066,5 +3066,11 @@ window.SINONIMIA_DICTIONARY_SHARDS = {
     { file: "js/data.en.example-rewrite-v5253.js", src: "js/data.en.example-rewrite-v5253.js?v=11cd425a64" },
     { file: "js/data.en.example-rewrite-v5254.js", src: "js/data.en.example-rewrite-v5254.js?v=935796b82a" },
     { file: "js/data.en.example-rewrite-v5255.js", src: "js/data.en.example-rewrite-v5255.js?v=1a77e658a6" },
+    { file: "js/data.en.example-rewrite-v5256.js", src: "js/data.en.example-rewrite-v5256.js?v=33eb09d2b9" },
+    { file: "js/data.en.example-rewrite-v5257.js", src: "js/data.en.example-rewrite-v5257.js?v=0e1d4d7087" },
+    { file: "js/data.en.example-rewrite-v5258.js", src: "js/data.en.example-rewrite-v5258.js?v=9e8227028e" },
+    { file: "js/data.en.example-rewrite-v5259.js", src: "js/data.en.example-rewrite-v5259.js?v=7d65a031a2" },
+    { file: "js/data.en.example-rewrite-v5260.js", src: "js/data.en.example-rewrite-v5260.js?v=f2995c09c8" },
+    { file: "js/data.en.example-rewrite-v5261.js", src: "js/data.en.example-rewrite-v5261.js?v=c8c3132251" },
   ],
 };
