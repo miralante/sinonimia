@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5154",
+  "runtime": "v5155",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1498,
-    "en": 1468
+    "es": 1518,
+    "en": 1488
   },
-  "latestLedgerBatchCount": 148,
-  "latestLedgerReviewedIdCount": 2966,
-  "appliedCount": 2015,
+  "latestLedgerBatchCount": 150,
+  "latestLedgerReviewedIdCount": 3006,
+  "appliedCount": 2055,
   "appliedByLanguage": {
-    "es": 1016,
-    "en": 999
+    "es": 1036,
+    "en": 1019
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -116,7 +116,9 @@
     "B15-onehundredfortyfifth-20-verdicts.json",
     "B15-onehundredfortysixth-20-verdicts.json",
     "B15-onehundredfortyseventh-20-verdicts.json",
-    "B15-onehundredfortyeighth-20-verdicts.json"
+    "B15-onehundredfortyeighth-20-verdicts.json",
+    "B15-onehundredfortyninth-20-verdicts.json",
+    "B15-onehundredfiftieth-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -12398,6 +12400,246 @@
       "language": "en",
       "id": "spender-2",
       "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "es",
+      "id": "sansa",
+      "decision": "exclude-regional-low-utility-word"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "es",
+      "id": "anubado",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "es",
+      "id": "desaborado",
+      "decision": "exclude-obsolete-transparent-form"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "es",
+      "id": "bibliografo",
+      "decision": "exclude-low-utility-specialist-word"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "es",
+      "id": "damocles",
+      "decision": "exclude-proper-name"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "es",
+      "id": "estiloso",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "es",
+      "id": "anagogico",
+      "decision": "exclude-low-utility-specialist-word"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "es",
+      "id": "argentico",
+      "decision": "exclude-low-utility-chemistry-word"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "es",
+      "id": "aspectado",
+      "decision": "exclude-regional-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "es",
+      "id": "carato",
+      "decision": "exclude-regional-word"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "en",
+      "id": "ant-4",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "en",
+      "id": "apricot-5",
+      "decision": "exclude-common-corrupt-overtechnical-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "en",
+      "id": "spanish-7",
+      "decision": "exclude-common-demonym-and-inflection"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "en",
+      "id": "incense-6",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "en",
+      "id": "death-5",
+      "decision": "exclude-common-low-utility-personification"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "en",
+      "id": "chapinar",
+      "decision": "exclude-invalid-english-headword"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "en",
+      "id": "kitchen-3",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "en",
+      "id": "teenager-4",
+      "decision": "exclude-common-duplicate-and-regional-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "en",
+      "id": "comet",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyninth-20-verdicts.json",
+      "language": "en",
+      "id": "cesaraugustano-2",
+      "decision": "exclude-demonym-and-invalid-english-word"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "es",
+      "id": "chantilli",
+      "decision": "rewrite-and-select-useful-sense"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "es",
+      "id": "comunicologo",
+      "decision": "exclude-low-utility-specialist-word"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "es",
+      "id": "riscoso",
+      "decision": "rewrite-and-select-useful-sense"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "es",
+      "id": "sidrero",
+      "decision": "exclude-transparent-low-utility-word"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "es",
+      "id": "tantico",
+      "decision": "exclude-transparent-diminutive"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "es",
+      "id": "bloqueador",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "es",
+      "id": "corcuncho",
+      "decision": "exclude-regional-word"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "es",
+      "id": "semilogaritmico",
+      "decision": "exclude-low-utility-mathematics-term"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "es",
+      "id": "antipedagogico",
+      "decision": "exclude-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "es",
+      "id": "antivenereo",
+      "decision": "exclude-low-utility-medical-derivative"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "en",
+      "id": "short-legged-2",
+      "decision": "exclude-transparent-compound"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "en",
+      "id": "cabbage-22",
+      "decision": "exclude-common-corrupt-regional-sense"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "en",
+      "id": "come-27",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "en",
+      "id": "civil-protection",
+      "decision": "rewrite-high-utility-term"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "en",
+      "id": "mobile-sos-button",
+      "decision": "rewrite-high-utility-accessibility-term"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "en",
+      "id": "signature-upon-request",
+      "decision": "rewrite-high-utility-accessibility-term"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "en",
+      "id": "tax-evasion",
+      "decision": "rewrite-high-utility-financial-term"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "en",
+      "id": "mousy",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "en",
+      "id": "not-applicable",
+      "decision": "exclude-common-transparent-phrase"
+    },
+    {
+      "batch": "B15-onehundredfiftieth-20-verdicts.json",
+      "language": "en",
+      "id": "get-bored",
+      "decision": "exclude-common-corrupt-sense"
     }
   ],
   "pendingBatch25": [
@@ -12416,12 +12658,12 @@
     "runtimeNote": "improbability-2 applied; sarazo excluded; infect-4 retained with a valid contextual example pair."
   },
   "observedWipLedgerAtCommit": {
-    "reviewedIdCount": 2966,
-    "batchCount": 148,
+    "reviewedIdCount": 3006,
+    "batchCount": 150,
     "totals": {
-      "es": 1498,
-      "en": 1468
+      "es": 1518,
+      "en": 1488
     },
-    "integratedThrough": "B15-onehundredfortyeighth-20-verdicts.json"
+    "integratedThrough": "B15-onehundredfiftieth-20-verdicts.json"
   }
 }

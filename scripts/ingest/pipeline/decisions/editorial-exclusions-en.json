@@ -86446,5 +86446,85 @@
     "id": "spender-2",
     "word": "Spender",
     "reason": "Spender is a common, transparent word for someone who spends money; the proposed «grinder» sense is wrong."
+  },
+  {
+    "id": "ant-4",
+    "word": "ant",
+    "reason": "Ant is a common word for an insect; the proposed payment-to-a-prisoner definition is unsupported and obsolete-sounding."
+  },
+  {
+    "id": "apricot-5",
+    "word": "apricot",
+    "reason": "Apricot is a common fruit word; the candidate gives an overly technical plant description rather than a useful synonym entry."
+  },
+  {
+    "id": "spanish-7",
+    "word": "Spanish",
+    "reason": "Spanish is a common language name and demonym; the proposed feminine-form definition is not a distinct sense."
+  },
+  {
+    "id": "incense-6",
+    "word": "incense",
+    "reason": "Incense means fragrant material burned for its smell or to anger someone; the proposed bread definition is unrelated."
+  },
+  {
+    "id": "death-5",
+    "word": "death",
+    "reason": "Death is a common word; the proposed skeleton figure is a personification rather than a useful difficult meaning."
+  },
+  {
+    "id": "chapinar",
+    "word": "chapinar",
+    "reason": "Chapinar is not a documented English headword, and the candidate simply repeats the word as its definition."
+  },
+  {
+    "id": "kitchen-3",
+    "word": "kitchen",
+    "reason": "Kitchen is a familiar word for a room where food is prepared; the proposed rodent definition is unrelated."
+  },
+  {
+    "id": "teenager-4",
+    "word": "teenager",
+    "reason": "Teenager is common English for someone aged thirteen to nineteen; the candidate duplicates the headword and adds an unnecessary regional label."
+  },
+  {
+    "id": "comet",
+    "word": "comet",
+    "reason": "Comet is a common word for an object that orbits the sun; the proposed kite sense is a false transfer from Spanish cometa."
+  },
+  {
+    "id": "cesaraugustano-2",
+    "word": "cesaraugustano",
+    "reason": "This is a Spanish demonym for someone from Zaragoza, not a documented English synonym entry."
+  },
+  {
+    "id": "short-legged-2",
+    "word": "short-legged",
+    "reason": "Short-legged is a transparent compound that directly describes something with short legs."
+  },
+  {
+    "id": "cabbage-22",
+    "word": "cabbage",
+    "reason": "Cabbage is a common vegetable; the proposed dog sense is an unsupported regional transfer."
+  },
+  {
+    "id": "come-27",
+    "word": "come",
+    "reason": "Come is a common verb; the proposed meaning about land with cují trees is unrelated."
+  },
+  {
+    "id": "mousy",
+    "word": "mousy",
+    "reason": "Mousy commonly means like a mouse or shy and quiet; the proposed mustache meaning is wrong."
+  },
+  {
+    "id": "not-applicable",
+    "word": "Not applicable",
+    "reason": "Not applicable is a familiar phrase whose meaning is clear from its everyday words."
+  },
+  {
+    "id": "get-bored",
+    "word": "Get bored",
+    "reason": "Get bored means to become uninterested; the proposed definition is unrelated and the phrase is common."
   }
 ]

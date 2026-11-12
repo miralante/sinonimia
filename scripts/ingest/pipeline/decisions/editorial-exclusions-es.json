@@ -92747,5 +92747,95 @@
     "id": "velambre",
     "word": "velambre",
     "reason": "La definición propuesta no está documentada; el DLE marca velambre como desusado y lo relaciona con velar."
+  },
+  {
+    "id": "sansa",
+    "word": "sansa",
+    "reason": "El DLE la marca como voz rural de Teruel para el orujo de aceituna; no es vocabulario general."
+  },
+  {
+    "id": "anubado",
+    "word": "anubado",
+    "reason": "La definición candidata es incorrecta: el DLE recoge sentidos relacionados con estar nublado o anubarrado."
+  },
+  {
+    "id": "desaborado",
+    "word": "desaborado",
+    "reason": "El DLE la marca como desusada y la remite a desabrido; además es una forma derivada transparente."
+  },
+  {
+    "id": "bibliografo",
+    "word": "bibliógrafo",
+    "reason": "El DLE lo define como especialista en bibliografía o libros antiguos, un oficio de ámbito especializado."
+  },
+  {
+    "id": "damocles",
+    "word": "Damocles",
+    "reason": "Damocles es un nombre propio de la expresión «espada de Damocles», no una palabra común para una ficha independiente."
+  },
+  {
+    "id": "estiloso",
+    "word": "estiloso",
+    "reason": "Es una palabra coloquial y transparente para alguien que tiene estilo o elegancia."
+  },
+  {
+    "id": "anagogico",
+    "word": "anagógico",
+    "reason": "Es un adjetivo teológico especializado que significa relativo a la anagogía."
+  },
+  {
+    "id": "argentico",
+    "word": "argéntico",
+    "reason": "El DLE limita este adjetivo químico a óxidos o sales de plata."
+  },
+  {
+    "id": "aspectado",
+    "word": "aspectado",
+    "reason": "El sentido del candidato no está documentado; el DLE recoge las locuciones puertorriqueñas bien aspectado y mal aspectado."
+  },
+  {
+    "id": "carato",
+    "word": "carato",
+    "reason": "El DLE documenta carato como nombre de bebidas refrescantes de Puerto Rico y Venezuela."
+  },
+  {
+    "id": "comunicologo",
+    "word": "comunicólogo",
+    "reason": "El DLE lo define como especialista en comunicología, un campo especializado."
+  },
+  {
+    "id": "sidrero",
+    "word": "sidrero",
+    "reason": "El sentido relativo a la sidra es transparente; el oficio de producirla o venderla tiene poca utilidad general."
+  },
+  {
+    "id": "tantico",
+    "word": "tantico",
+    "reason": "La voz expresa una cantidad pequeña y su sentido se deduce de tanto más el diminutivo -ico."
+  },
+  {
+    "id": "bloqueador",
+    "word": "bloqueador",
+    "reason": "Es una forma derivada transparente que significa algo o alguien que bloquea."
+  },
+  {
+    "id": "corcuncho",
+    "word": "corcuncho",
+    "reason": "El DLE marca esta voz como hondureña; el sentido propuesto corresponde a jorobado."
+  },
+  {
+    "id": "semilogaritmico",
+    "word": "semilogarítmico",
+    "reason": "Es un término especializado de matemáticas para un tipo de representación gráfica."
+  },
+  {
+    "id": "antipedagogico",
+    "word": "antipedagógico",
+    "reason": "Significa lo contrario de pedagógico y su sentido se deduce del prefijo anti-."
+  },
+  {
+    "id": "antivenereo",
+    "word": "antivenéreo",
+    "reason": "Es un término médico derivado y poco actual para algo que combate enfermedades venéreas."
   }
 ]
