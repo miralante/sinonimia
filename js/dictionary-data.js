@@ -138,15 +138,15 @@ globalThis.SINONIMIA_DICTIONARY_DATA = {
   ],
   languages: {
     "es": {
-      count: 50965,
+      count: 50958,
       index: [
-        {"file":"js/dict.es.idx.1.js","src":"js/dict.es.idx.1.js?v=c36c918166"},
-        {"file":"js/dict.es.idx.2.js","src":"js/dict.es.idx.2.js?v=bba39e2e85"},
-        {"file":"js/dict.es.idx.3.js","src":"js/dict.es.idx.3.js?v=984e78d926"},
+        {"file":"js/dict.es.idx.1.js","src":"js/dict.es.idx.1.js?v=8b76f1860b"},
+        {"file":"js/dict.es.idx.2.js","src":"js/dict.es.idx.2.js?v=fc2558a638"},
+        {"file":"js/dict.es.idx.3.js","src":"js/dict.es.idx.3.js?v=43bf7a8fef"},
       ],
       detail: [
         {"file":"js/dict.es.det.000.js","src":"js/dict.es.det.000.js?v=95cbbc137f"},
-        {"file":"js/dict.es.det.001.js","src":"js/dict.es.det.001.js?v=b52516c566"},
+        {"file":"js/dict.es.det.001.js","src":"js/dict.es.det.001.js?v=2a58d13024"},
         {"file":"js/dict.es.det.002.js","src":"js/dict.es.det.002.js?v=306ec77b8d"},
         {"file":"js/dict.es.det.003.js","src":"js/dict.es.det.003.js?v=7a84888e4e"},
         {"file":"js/dict.es.det.004.js","src":"js/dict.es.det.004.js?v=b23e317ca8"},
@@ -197,7 +197,7 @@ globalThis.SINONIMIA_DICTIONARY_DATA = {
         {"file":"js/dict.es.det.049.js","src":"js/dict.es.det.049.js?v=d1c0f5a7ff"},
         {"file":"js/dict.es.det.050.js","src":"js/dict.es.det.050.js?v=77e7941cee"},
         {"file":"js/dict.es.det.051.js","src":"js/dict.es.det.051.js?v=deedae0ae1"},
-        {"file":"js/dict.es.det.052.js","src":"js/dict.es.det.052.js?v=1f90200f7c"},
+        {"file":"js/dict.es.det.052.js","src":"js/dict.es.det.052.js?v=9d882caad2"},
         {"file":"js/dict.es.det.053.js","src":"js/dict.es.det.053.js?v=664475058a"},
         {"file":"js/dict.es.det.054.js","src":"js/dict.es.det.054.js?v=fd22dee7cf"},
         {"file":"js/dict.es.det.055.js","src":"js/dict.es.det.055.js?v=dfc4f6292c"},
@@ -254,7 +254,7 @@ globalThis.SINONIMIA_DICTIONARY_DATA = {
         {"file":"js/dict.es.det.106.js","src":"js/dict.es.det.106.js?v=fab1a17a0c"},
         {"file":"js/dict.es.det.107.js","src":"js/dict.es.det.107.js?v=1bdbbd7687"},
         {"file":"js/dict.es.det.108.js","src":"js/dict.es.det.108.js?v=b90717b69d"},
-        {"file":"js/dict.es.det.109.js","src":"js/dict.es.det.109.js?v=e0db424298"},
+        {"file":"js/dict.es.det.109.js","src":"js/dict.es.det.109.js?v=50e8d40d42"},
         {"file":"js/dict.es.det.110.js","src":"js/dict.es.det.110.js?v=33047c80b0"},
         {"file":"js/dict.es.det.111.js","src":"js/dict.es.det.111.js?v=5c0057dab5"},
         {"file":"js/dict.es.det.112.js","src":"js/dict.es.det.112.js?v=e4abc5afa0"},
@@ -276,14 +276,14 @@ globalThis.SINONIMIA_DICTIONARY_DATA = {
       ]
     },
     "en": {
-      count: 39210,
+      count: 39201,
       index: [
         {"file":"js/dict.en.idx.1.js","src":"js/dict.en.idx.1.js?v=41dc3527a9"},
-        {"file":"js/dict.en.idx.2.js","src":"js/dict.en.idx.2.js?v=d816ba60c9"},
+        {"file":"js/dict.en.idx.2.js","src":"js/dict.en.idx.2.js?v=671958d4ab"},
       ],
       detail: [
         {"file":"js/dict.en.det.000.js","src":"js/dict.en.det.000.js?v=3d8f5b7ed1"},
-        {"file":"js/dict.en.det.001.js","src":"js/dict.en.det.001.js?v=6039109abe"},
+        {"file":"js/dict.en.det.001.js","src":"js/dict.en.det.001.js?v=88a814702b"},
         {"file":"js/dict.en.det.002.js","src":"js/dict.en.det.002.js?v=36f762a590"},
         {"file":"js/dict.en.det.003.js","src":"js/dict.en.det.003.js?v=6bc5eff383"},
         {"file":"js/dict.en.det.004.js","src":"js/dict.en.det.004.js?v=6cd4318022"},

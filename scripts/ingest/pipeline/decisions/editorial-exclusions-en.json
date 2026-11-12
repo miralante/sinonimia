@@ -83746,5 +83746,50 @@
     "id": "score-3",
     "word": "Score",
     "reason": "The gloss for a person or thing that persistently annoys someone is not a supported Collins sense of «score»."
+  },
+  {
+    "id": "monera",
+    "word": "Monera",
+    "reason": "An outdated biological kingdom name that is no longer a useful current classification."
+  },
+  {
+    "id": "cabbage-4",
+    "word": "cabbage",
+    "reason": "The proposed Colombian slang sense for an easy, well-paid job has narrow regional use and low general value."
+  },
+  {
+    "id": "set-of-turnips",
+    "word": "set of turnips",
+    "reason": "A literal, malformed phrase that adds no separate difficult English expression."
+  },
+  {
+    "id": "confident-5",
+    "word": "confident",
+    "reason": "The gloss about regularly drinking until drunk is unsupported and does not define «confident»."
+  },
+  {
+    "id": "false-4",
+    "word": "false",
+    "reason": "The incomplete gloss «said about animals» gives no meaning and is not a usable dictionary definition."
+  },
+  {
+    "id": "dance-8",
+    "word": "dance",
+    "reason": "A basic party sense of a common word, with an easy definition and little difficult-vocabulary value."
+  },
+  {
+    "id": "clog-4",
+    "word": "clog",
+    "reason": "The proposed shoe sense is a familiar kind of footwear and does not meet the difficult-word criterion."
+  },
+  {
+    "id": "chumbar",
+    "word": "chumbar",
+    "reason": "A Spanish verb was inserted as an English headword; it does not belong in the English dictionary."
+  },
+  {
+    "id": "small-animal-of-the-rodent-family",
+    "word": "Morito",
+    "reason": "The proposed headword and diminutive gloss are Spanish, not an English lexical entry."
   }
 ]

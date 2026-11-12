@@ -272,4 +272,5 @@
   set("garatero",{definition:"Dicho de una persona: que busca pelea o actúa como un bravucón.",synonyms:["peleador"],example:{word:"garatero",text:"Ser garatero puede meterte en peleas."},exampleSynonym:{word:"peleador",text:"Ser peleador puede meterte en peleas."}});
   set("sectarismo",{definition:"Defender una idea sin tolerar las ideas de los demás.",synonyms:["intolerancia de grupo"],example:{word:"sectarismo",text:"Hablar de sectarismo suele cerrar el diálogo."},exampleSynonym:{word:"intolerancia de grupo",text:"Hablar de intolerancia de grupo suele cerrar el diálogo."}});
   set("testarron",{definition:"Dicho de una persona: muy terca y difícil de convencer.",synonyms:["terco"],example:{word:"testarrón",text:"El testarrón no quiso cambiar de idea."},exampleSynonym:{word:"terco",text:"El terco no quiso cambiar de idea."}});
+  set("castro",{definition:"Poblado antiguo protegido por fortificaciones.",synonyms:["poblado fortificado"],example:{word:"castro",text:"El castro conserva restos de sus murallas."},exampleSynonym:{word:"poblado fortificado",text:"El poblado fortificado conserva restos de sus murallas."}});
 })();
