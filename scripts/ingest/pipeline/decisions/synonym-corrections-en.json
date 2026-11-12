@@ -265645,5 +265645,77 @@
         "text": "The plan was devious and hard to detect."
       }
     }
+  },
+  {
+    "entry": "spawn",
+    "remove": [],
+    "set": {
+      "definition": "The eggs of fish, frogs, and other water animals.",
+      "synonyms": [
+        "eggs"
+      ],
+      "example": {
+        "word": "spawn",
+        "text": "The fish left spawn among the reeds."
+      },
+      "exampleSynonym": {
+        "word": "eggs",
+        "text": "The fish left eggs among the reeds."
+      }
+    }
+  },
+  {
+    "entry": "repudiate",
+    "remove": [],
+    "set": {
+      "definition": "To refuse to accept a claim, belief, or statement as true.",
+      "synonyms": [
+        "reject"
+      ],
+      "example": {
+        "word": "repudiate",
+        "text": "She will repudiate the allegation."
+      },
+      "exampleSynonym": {
+        "word": "reject",
+        "text": "She will reject the allegation."
+      }
+    }
+  },
+  {
+    "entry": "superficiality",
+    "remove": [],
+    "set": {
+      "definition": "Lack of interest in serious or important ideas.",
+      "synonyms": [
+        "shallowness"
+      ],
+      "example": {
+        "word": "superficiality",
+        "text": "His superficiality annoyed the team."
+      },
+      "exampleSynonym": {
+        "word": "shallowness",
+        "text": "His shallowness annoyed the team."
+      }
+    }
+  },
+  {
+    "entry": "revolutionize",
+    "remove": [],
+    "set": {
+      "definition": "To cause a major change in how something works or is done.",
+      "synonyms": [
+        "transform"
+      ],
+      "example": {
+        "word": "revolutionize",
+        "text": "New technology can revolutionize public transport."
+      },
+      "exampleSynonym": {
+        "word": "transform",
+        "text": "New technology can transform public transport."
+      }
+    }
   }
 ]

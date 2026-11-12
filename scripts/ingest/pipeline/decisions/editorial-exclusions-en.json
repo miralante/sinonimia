@@ -89516,5 +89516,135 @@
     "id": "communicability",
     "word": "Communicability",
     "reason": "Communicability is a rare abstract derivative and the candidate definition repeats its root rather than explaining it."
+  },
+  {
+    "id": "conflictivity",
+    "word": "Conflictivity",
+    "reason": "Conflictivity is an uncommon abstract derivative and the candidate merely repeats its root."
+  },
+  {
+    "id": "contradurly",
+    "word": "Contradurly",
+    "reason": "Contradurly is an obscure maritime term with little general use."
+  },
+  {
+    "id": "tie-shop",
+    "word": "tie shop",
+    "reason": "Tie shop is a transparent phrase for a store selling ties and is not a difficult lexical item."
+  },
+  {
+    "id": "grove",
+    "word": "Grove",
+    "reason": "Grove means a small group of trees; the candidate confuses it with the verb grow."
+  },
+  {
+    "id": "gangosity",
+    "word": "Gangosity",
+    "reason": "Gangosity is a rare, nonstandard derivative and the candidate definition is not clear English."
+  },
+  {
+    "id": "seafood-restaurant",
+    "word": "Seafood restaurant",
+    "reason": "Seafood restaurant is a straightforward, common compound phrase."
+  },
+  {
+    "id": "navigability",
+    "word": "Navigability",
+    "reason": "Navigability is a technical abstract noun used mainly in transport, waterways, or legal contexts."
+  },
+  {
+    "id": "notoriously",
+    "word": "Notoriously",
+    "reason": "Notoriously is a familiar adverb derived from notorious, and the proposed definition repeats its root."
+  },
+  {
+    "id": "observational",
+    "word": "Observational",
+    "reason": "Observational is a transparent adjective meaning based on observation and does not meet the difficulty threshold."
+  },
+  {
+    "id": "shameless-scoundrel",
+    "word": "Shameless Scoundrel",
+    "reason": "Shameless scoundrel names a person, while the candidate defines the abstract noun shamelessness."
+  },
+  {
+    "id": "successable",
+    "word": "Successable",
+    "reason": "Successable is a rare derivative with low standard usage and little synonymy value."
+  },
+  {
+    "id": "spectacularity",
+    "word": "Spectacularity",
+    "reason": "Spectacularity is an uncommon abstract derivative whose meaning follows directly from spectacular."
+  },
+  {
+    "id": "terrify",
+    "word": "terrify",
+    "reason": "Terrify is a common verb and its definition is direct and easy to understand."
+  },
+  {
+    "id": "conchoid",
+    "word": "Conchoid",
+    "reason": "Conchoid is a technical geometry term for a curve or shell-like form and has low general use."
+  },
+  {
+    "id": "copler",
+    "word": "Copler",
+    "reason": "Copler is not established as a general English word for someone who adapts to others' wishes."
+  },
+  {
+    "id": "creature",
+    "word": "Creature",
+    "reason": "Creature is a common word and the candidate definition repeats the headword."
+  },
+  {
+    "id": "operatic",
+    "word": "Operatic",
+    "reason": "Operatic is a transparent adjective meaning related to opera."
+  },
+  {
+    "id": "superdominant",
+    "word": "Superdominant",
+    "reason": "Superdominant is a rare term, mainly used in specialized contexts, and has low general synonymy value."
+  },
+  {
+    "id": "tansy",
+    "word": "Tansy",
+    "reason": "Tansy is the name of a specific plant and has limited general use outside botanical contexts."
+  },
+  {
+    "id": "multiplexer",
+    "word": "Multiplexer",
+    "reason": "A multiplexer is a specialized digital electronics circuit and has limited general use."
+  },
+  {
+    "id": "neutron",
+    "word": "Neutron",
+    "reason": "Neutron is a familiar basic science term; the candidate's relational definition is incomplete."
+  },
+  {
+    "id": "timbalist",
+    "word": "Timbalist",
+    "reason": "Timbalist names a musician who plays a specialized percussion instrument and has low general use."
+  },
+  {
+    "id": "celloso",
+    "word": "Celloso",
+    "reason": "Celloso is not an established English headword; its candidate definition appears to be a literal translation."
+  },
+  {
+    "id": "causidic",
+    "word": "Causidic",
+    "reason": "Causidic is an antiquated term for a lawyer and does not meet the current-use criterion."
+  },
+  {
+    "id": "occupy",
+    "word": "Occupy",
+    "reason": "Occupy is a common verb with several everyday meanings; the candidate selects only a basic sense."
+  },
+  {
+    "id": "scrofulariaceae",
+    "word": "Scrofulariaceae",
+    "reason": "The candidate misspells Scrophulariaceae, a specialist plant-family name."
   }
 ]

@@ -264964,5 +264964,41 @@
         "text": "Cada partícipe asumió una parte del trabajo."
       }
     }
+  },
+  {
+    "entry": "voceador",
+    "remove": [],
+    "set": {
+      "definition": "Que habla o anuncia algo a gritos.",
+      "synonyms": [
+        "gritón"
+      ],
+      "example": {
+        "word": "voceador",
+        "text": "El voceador interrumpió la charla."
+      },
+      "exampleSynonym": {
+        "word": "gritón",
+        "text": "El gritón interrumpió la charla."
+      }
+    }
+  },
+  {
+    "entry": "soldadesca",
+    "remove": [],
+    "set": {
+      "definition": "Conjunto de soldados, a veces con sentido despectivo.",
+      "synonyms": [
+        "tropa"
+      ],
+      "example": {
+        "word": "soldadesca",
+        "text": "La soldadesca ocupó la plaza."
+      },
+      "exampleSynonym": {
+        "word": "tropa",
+        "text": "La tropa ocupó la plaza."
+      }
+    }
   }
 ]
