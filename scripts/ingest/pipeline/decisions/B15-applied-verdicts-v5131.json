@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5139",
+  "runtime": "v5140",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1188,
-    "en": 1158
+    "es": 1218,
+    "en": 1188
   },
-  "latestLedgerBatchCount": 117,
-  "latestLedgerReviewedIdCount": 2346,
-  "appliedCount": 986,
+  "latestLedgerBatchCount": 120,
+  "latestLedgerReviewedIdCount": 2406,
+  "appliedCount": 1006,
   "appliedByLanguage": {
-    "es": 497,
-    "en": 489
+    "es": 507,
+    "en": 499
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -64,7 +64,8 @@
     "B15-ninetythird-20-verdicts.json",
     "B15-ninetyfourth-20-verdicts.json",
     "B15-ninetyfifth-20-verdicts.json",
-    "B15-ninetysixth-20-verdicts.json"
+    "B15-ninetysixth-20-verdicts.json",
+    "B15-ninetyseventh-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -6166,6 +6167,126 @@
       "batch": "B15-ninetysixth-20-verdicts.json",
       "language": "en",
       "id": "nothing",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "resistidero",
+      "decision": "exclude-rare-regional-weather-term"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "retozadura",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "sobretiro",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "soliviadura",
+      "decision": "exclude-rare-derived-noun"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "somaton",
+      "decision": "exclude-regional-slang"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "sompopo",
+      "decision": "exclude-regional-animal-name"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "taponeria",
+      "decision": "exclude-rare-specialized-collective"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "tardomedieval",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "telefonometro",
+      "decision": "exclude-obsolete-technical-device"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "vocalismo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "chair",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "shade",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "reheal",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "mowable",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "ceriferous",
+      "decision": "exclude-specialized-botanical-term"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "speltheus",
+      "decision": "exclude-unverified-obscure-term"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "crackly",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "thematic",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "salmon-farm",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "reprimand-2",
       "decision": "rewrite-definition-and-example"
     }
   ],

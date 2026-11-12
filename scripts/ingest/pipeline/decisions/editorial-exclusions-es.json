@@ -90807,5 +90807,35 @@
     "id": "deschapar",
     "word": "deschapar",
     "reason": "Es un verbo regional de cerrajería o robo, restringido a varios países y sin uso general."
+  },
+  {
+    "id": "resistidero",
+    "word": "resistidero",
+    "reason": "Es una voz poco extendida para las horas de más calor de la tarde y no aporta una equivalencia general clara."
+  },
+  {
+    "id": "soliviadura",
+    "word": "soliviadura",
+    "reason": "Es una nominalización poco usada y no ofrece un sentido general asentado como entrada independiente."
+  },
+  {
+    "id": "somaton",
+    "word": "somatón",
+    "reason": "Se documenta como voz salvadoreña coloquial para golpe, con alcance demasiado local para el diccionario general."
+  },
+  {
+    "id": "sompopo",
+    "word": "sompopo",
+    "reason": "Es un nombre regional centroamericano para una hormiga concreta y no una equivalencia general de uso amplio."
+  },
+  {
+    "id": "taponeria",
+    "word": "taponería",
+    "reason": "Designa un surtido de tapones, pero es una voz muy poco usada y vinculada a un objeto específico."
+  },
+  {
+    "id": "telefonometro",
+    "word": "telefonómetro",
+    "reason": "Es un aparato de medición telefónica hoy obsoleto y demasiado especializado para una entrada general."
   }
 ]

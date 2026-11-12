@@ -84826,5 +84826,20 @@
     "id": "cribellus",
     "word": "Cribellus",
     "reason": "The gloss is a generic description and the headword is not a recognized general English lexical item."
+  },
+  {
+    "id": "chair",
+    "word": "Chair",
+    "reason": "The definition describes a rare occupation, while the entry and example do not establish a reliable general synonym sense."
+  },
+  {
+    "id": "ceriferous",
+    "word": "Ceriferous",
+    "reason": "This technical term for something that bears or produces wax is too specialized for a general synonym dictionary."
+  },
+  {
+    "id": "speltheus",
+    "word": "Speltheus",
+    "reason": "This rare form lacks reliable evidence as a current general English headword and has no useful synonym card."
   }
 ]
