@@ -84331,5 +84331,55 @@
     "id": "scream-2",
     "word": "scream",
     "reason": "The candidate describes a familiar loud cry caused by emotion or pain, a common basic sense."
+  },
+  {
+    "id": "jam-3",
+    "word": "jam",
+    "reason": "The candidate is a regular everyday use of jam meaning to block a passage or make movement impossible."
+  },
+  {
+    "id": "tempering-2",
+    "word": "tempering",
+    "reason": "The candidate only says «that tempers», a transparent participle or noun form of the common verb temper."
+  },
+  {
+    "id": "shrink-6",
+    "word": "shrink",
+    "reason": "The supplied meaning «make someone lame» is not a supported sense of the English verb shrink."
+  },
+  {
+    "id": "muddy-4",
+    "word": "Muddy",
+    "reason": "The definition «action and effect of muddying» is a noun definition for muddiness or muddying, not the adjective or verb muddy."
+  },
+  {
+    "id": "joker-2",
+    "word": "Joker",
+    "reason": "The candidate describes someone who avoids effort, but Collins defines a joker as someone who likes jokes or amusing acts."
+  },
+  {
+    "id": "interleave-2",
+    "word": "Interleave",
+    "reason": "The gloss «interposed, interfered» is a fragment about something being interleaved, not a clear headword definition; Collins gives specific verb senses."
+  },
+  {
+    "id": "boat-3",
+    "word": "Boat",
+    "reason": "The supplied flat blow supposedly occurring with a boat is not a verified sense of the English noun or verb boat."
+  },
+  {
+    "id": "suede-3",
+    "word": "suede",
+    "reason": "I could not verify «pale yellow or light brown» as a standard sense of suede in Collins; its supported core sense is soft leather."
+  },
+  {
+    "id": "intensify-2",
+    "word": "Intensify",
+    "reason": "The candidate calls itself a little-used variant of intensify and adds no separate meaning."
+  },
+  {
+    "id": "size-2",
+    "word": "size",
+    "reason": "The candidate gloss «as greatly as anything else» does not match a supported noun or verb sense of size."
   }
 ]
