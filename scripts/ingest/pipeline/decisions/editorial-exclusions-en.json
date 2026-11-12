@@ -83666,5 +83666,50 @@
     "id": "fairy-2",
     "word": "Fairy",
     "reason": "A familiar folklore word with a simple definition; it does not meet the difficult-word criterion."
+  },
+  {
+    "id": "deserving-2",
+    "word": "Deserving",
+    "reason": "A straightforward form of «deserve» meaning worthy of something; it adds no difficult sense."
+  },
+  {
+    "id": "ground-2",
+    "word": "Ground",
+    "reason": "A common participle meaning crushed into small pieces or powder, not a separate difficult lemma."
+  },
+  {
+    "id": "bruise-5",
+    "word": "Bruise",
+    "reason": "The entry gives the familiar everyday meaning of a bruise, which is easy to understand."
+  },
+  {
+    "id": "length-3",
+    "word": "Length",
+    "reason": "An obvious action noun formed from «lengthen»; it adds no difficult or distinct meaning."
+  },
+  {
+    "id": "sigh-2",
+    "word": "Sigh",
+    "reason": "The proposed sense, someone who sighs often, is an obvious and low-utility formation."
+  },
+  {
+    "id": "monosyllabic-3",
+    "word": "Monosyllabic",
+    "reason": "The proposed noun definition describes excessive use of monosyllables, not the adjective «monosyllabic»."
+  },
+  {
+    "id": "microchip",
+    "word": "Microchip",
+    "reason": "The surveillance gloss is unsupported and misleading; accurate computer and animal-identification senses are common and easy, so this entry adds no difficult vocabulary."
+  },
+  {
+    "id": "cocal",
+    "word": "Cocal",
+    "reason": "The candidate is a locally marked plant or place term with low general vocabulary value."
+  },
+  {
+    "id": "spit-9",
+    "word": "spit",
+    "reason": "The act of spitting saliva is a basic, common verb sense."
   }
 ]

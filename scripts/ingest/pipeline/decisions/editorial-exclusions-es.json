@@ -89572,5 +89572,30 @@
     "id": "riestra",
     "word": "riestra",
     "reason": "El DLE remite a «ristra»; no aporta un significado independiente y la forma de uso general es más habitual."
+  },
+  {
+    "id": "trasteador",
+    "word": "trasteador",
+    "reason": "Derivado transparente que describe a quien revuelve trastos; la definición no aporta una voz difícil independiente."
+  },
+  {
+    "id": "respetoso",
+    "word": "respetoso",
+    "reason": "El DLE lo marca como desusado y remite a «respetuoso»."
+  },
+  {
+    "id": "sardino",
+    "word": "sardino",
+    "reason": "El DLE lo marca como colombiano y lo usa para decir «adolescente»; el equivalente general es más útil."
+  },
+  {
+    "id": "sobresaltar",
+    "word": "sobresaltar",
+    "reason": "Verbo común y transparente: asustar o sorprender de repente."
+  },
+  {
+    "id": "talin",
+    "word": "talín",
+    "reason": "El sentido del diccionario interno no está respaldado por el DLE: este recoge usos rurales de Cantabria y Honduras con otros significados."
   }
 ]
