@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5156",
+  "runtime": "v5157",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1528,
-    "en": 1498
+    "es": 1538,
+    "en": 1508
   },
-  "latestLedgerBatchCount": 151,
-  "latestLedgerReviewedIdCount": 3026,
-  "appliedCount": 2075,
+  "latestLedgerBatchCount": 152,
+  "latestLedgerReviewedIdCount": 3046,
+  "appliedCount": 2095,
   "appliedByLanguage": {
-    "es": 1046,
-    "en": 1029
+    "es": 1056,
+    "en": 1039
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -119,7 +119,8 @@
     "B15-onehundredfortyeighth-20-verdicts.json",
     "B15-onehundredfortyninth-20-verdicts.json",
     "B15-onehundredfiftieth-20-verdicts.json",
-    "B15-onehundredfiftyfirst-20-verdicts.json"
+    "B15-onehundredfiftyfirst-20-verdicts.json",
+    "B15-onehundredfiftysecond-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -12761,6 +12762,126 @@
       "language": "en",
       "id": "corruptibility",
       "decision": "rewrite"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "es",
+      "id": "chancletero",
+      "decision": "exclude-regional-derogatory-word"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "es",
+      "id": "cornibrocho",
+      "decision": "exclude-low-utility-veterinary-term"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "es",
+      "id": "siluriano",
+      "decision": "exclude-low-utility-geology-variant"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "es",
+      "id": "fuagras",
+      "decision": "rewrite-and-correct-sense"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "es",
+      "id": "gimnoto",
+      "decision": "exclude-low-utility-specialist-fish-term"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "es",
+      "id": "ingenito",
+      "decision": "rewrite-and-select-useful-sense"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "es",
+      "id": "mandarria",
+      "decision": "exclude-regional-low-utility-tool-senses"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "es",
+      "id": "republico",
+      "decision": "exclude-rare-historical-word"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "es",
+      "id": "resped",
+      "decision": "exclude-low-utility-zoological-word"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "es",
+      "id": "samuelear",
+      "decision": "exclude-regional-word"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "en",
+      "id": "chrysomelid",
+      "decision": "exclude-highly-specialized-entomology-term"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "en",
+      "id": "monochrome",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "en",
+      "id": "deshald",
+      "decision": "exclude-invalid-english-headword"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "en",
+      "id": "nebulous",
+      "decision": "rewrite-and-select-useful-sense"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "en",
+      "id": "numerology",
+      "decision": "exclude-low-utility-divination-term"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "en",
+      "id": "reprune",
+      "decision": "exclude-transparent-low-utility-gardening-verb"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "en",
+      "id": "new-world",
+      "decision": "exclude-proper-name-and-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "en",
+      "id": "salinity",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "en",
+      "id": "siutic",
+      "decision": "exclude-invalid-english-regional-word"
+    },
+    {
+      "batch": "B15-onehundredfiftysecond-20-verdicts.json",
+      "language": "en",
+      "id": "big-cat",
+      "decision": "exclude-common-transparent-phrase"
     }
   ],
   "pendingBatch25": [
@@ -12779,12 +12900,12 @@
     "runtimeNote": "improbability-2 applied; sarazo excluded; infect-4 retained with a valid contextual example pair."
   },
   "observedWipLedgerAtCommit": {
-    "reviewedIdCount": 3026,
-    "batchCount": 151,
+    "reviewedIdCount": 3046,
+    "batchCount": 152,
     "totals": {
-      "es": 1528,
-      "en": 1498
+      "es": 1538,
+      "en": 1508
     },
-    "integratedThrough": "B15-onehundredfiftyfirst-20-verdicts.json"
+    "integratedThrough": "B15-onehundredfiftysecond-20-verdicts.json"
   }
 }

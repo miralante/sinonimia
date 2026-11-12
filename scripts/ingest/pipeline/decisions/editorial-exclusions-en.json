@@ -86566,5 +86566,40 @@
     "id": "ciliary",
     "word": "Ciliary",
     "reason": "Ciliary is a specialist adjective referring to cilia and is not useful general vocabulary."
+  },
+  {
+    "id": "chrysomelid",
+    "word": "Chrysomelid",
+    "reason": "Chrysomelid is a specialist insect-family name with very little general use."
+  },
+  {
+    "id": "deshald",
+    "word": "Deshald",
+    "reason": "Deshald is not a documented English word, and the candidate definition appears corrupt."
+  },
+  {
+    "id": "numerology",
+    "word": "Numerology",
+    "reason": "Numerology is a niche divination practice based on numbers and has low general utility."
+  },
+  {
+    "id": "reprune",
+    "word": "Reprune",
+    "reason": "Reprune transparently means to prune again and is a narrow gardening instruction."
+  },
+  {
+    "id": "new-world",
+    "word": "New World",
+    "reason": "New World is a historical name for the Americas; the proposed fictional-country definition is incorrect."
+  },
+  {
+    "id": "siutic",
+    "word": "Siutic",
+    "reason": "Siutic is a Spanish regional term, not a documented English headword."
+  },
+  {
+    "id": "big-cat",
+    "word": "Big cat",
+    "reason": "Big cat is a familiar, transparent phrase for a large wild cat."
   }
 ]

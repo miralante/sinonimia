@@ -92882,5 +92882,45 @@
     "id": "argiloso",
     "word": "argiloso",
     "reason": "El DLE marca esta variante de arcilloso como desusada."
+  },
+  {
+    "id": "chancletero",
+    "word": "chancletero",
+    "reason": "El DLE marca sus dos sentidos como regionales y despectivos; no cumplen el criterio de vocabulario general."
+  },
+  {
+    "id": "cornibrocho",
+    "word": "cornibrocho",
+    "reason": "Describe la forma de los cuernos de una res vacuna y es un término veterinario muy especializado."
+  },
+  {
+    "id": "siluriano",
+    "word": "siluriano",
+    "reason": "Es una variante geológica de silúrico para el período Silúrico, de poca utilidad general."
+  },
+  {
+    "id": "gimnoto",
+    "word": "gimnoto",
+    "reason": "Es un nombre zoológico especializado para un pez eléctrico de la familia Gymnotidae."
+  },
+  {
+    "id": "mandarria",
+    "word": "mandarria",
+    "reason": "El DLE recoge un sentido marinero especializado y otro regional de Cuba y República Dominicana."
+  },
+  {
+    "id": "republico",
+    "word": "repúblico",
+    "reason": "Es una voz rara y de registro antiguo para un hombre apto para cargos públicos."
+  },
+  {
+    "id": "resped",
+    "word": "résped",
+    "reason": "Nombra la lengua bífida de las serpientes y tiene poca utilidad fuera de la zoología."
+  },
+  {
+    "id": "samuelear",
+    "word": "samuelear",
+    "reason": "El DLE marca este verbo como costarricense y describe una conducta sexual invasiva."
   }
 ]
