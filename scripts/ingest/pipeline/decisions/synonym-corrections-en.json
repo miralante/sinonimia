@@ -267157,5 +267157,77 @@
         "text": "Nonreligious character can shape public policy."
       }
     }
+  },
+  {
+    "entry": "russify",
+    "remove": [],
+    "set": {
+      "definition": "To make a person or place adopt Russian language, culture, or customs.",
+      "synonyms": [
+        "Russianize"
+      ],
+      "example": {
+        "word": "Russify",
+        "text": "Russify the region, the rulers declared."
+      },
+      "exampleSynonym": {
+        "word": "Russianize",
+        "text": "Russianize the region, the rulers declared."
+      }
+    }
+  },
+  {
+    "entry": "theatricality",
+    "remove": [],
+    "set": {
+      "definition": "A dramatic or exaggerated quality, like a performance.",
+      "synonyms": [
+        "Dramatic flair"
+      ],
+      "example": {
+        "word": "Theatricality",
+        "text": "Theatricality can distract from the story."
+      },
+      "exampleSynonym": {
+        "word": "Dramatic flair",
+        "text": "Dramatic flair can distract from the story."
+      }
+    }
+  },
+  {
+    "entry": "supremacy",
+    "remove": [],
+    "set": {
+      "definition": "The state of having more power or authority than others.",
+      "synonyms": [
+        "Dominance"
+      ],
+      "example": {
+        "word": "Supremacy",
+        "text": "Supremacy was the campaign's main goal."
+      },
+      "exampleSynonym": {
+        "word": "Dominance",
+        "text": "Dominance was the campaign's main goal."
+      }
+    }
+  },
+  {
+    "entry": "grotesquerie",
+    "remove": [],
+    "set": {
+      "definition": "A strange, distorted, or absurd quality in art.",
+      "synonyms": [
+        "Grotesqueness"
+      ],
+      "example": {
+        "word": "Grotesquerie",
+        "text": "Grotesquerie defined the film's visual style."
+      },
+      "exampleSynonym": {
+        "word": "Grotesqueness",
+        "text": "Grotesqueness defined the film's visual style."
+      }
+    }
   }
 ]

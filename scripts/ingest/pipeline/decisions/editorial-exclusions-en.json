@@ -92946,5 +92946,135 @@
     "id": "get-feverish",
     "word": "get feverish",
     "reason": "Get feverish plainly means to become hot or develop a fever and is easy to understand."
+  },
+  {
+    "id": "shredder",
+    "word": "Shredder",
+    "reason": "This shredder sense is an obsolete oyster fork and has little general use."
+  },
+  {
+    "id": "chamomile",
+    "word": "Chamomile",
+    "reason": "Chamomile is a familiar herb used in tea, and the botanical description adds unnecessary technical detail."
+  },
+  {
+    "id": "non-transferable",
+    "word": "Non-transferable",
+    "reason": "Non-transferable plainly means unable to be transferred and is easy to understand."
+  },
+  {
+    "id": "releaf",
+    "word": "releaf",
+    "reason": "Releaf is an obsolete chandlers' term for whitening wax and has no useful general application."
+  },
+  {
+    "id": "required",
+    "word": "Required",
+    "reason": "Required is a familiar adjective meaning needed or demanded for a particular purpose."
+  },
+  {
+    "id": "starve",
+    "word": "starve",
+    "reason": "Starve is a familiar verb for suffering or causing severe hunger."
+  },
+  {
+    "id": "muscat",
+    "word": "Muscat",
+    "reason": "Muscat is a grape variety and wine term with limited general synonym value."
+  },
+  {
+    "id": "sinful",
+    "word": "Sinful",
+    "reason": "Sinful means involving sin, and the supplied tendency-to-sin definition repeats the same idea."
+  },
+  {
+    "id": "photodegradable",
+    "word": "Photodegradable",
+    "reason": "Photodegradable means able to break down in sunlight and is a transparent technical adjective."
+  },
+  {
+    "id": "fungiform",
+    "word": "Fungiform",
+    "reason": "Fungiform means shaped like a mushroom and is mostly used in technical descriptions."
+  },
+  {
+    "id": "gemonies",
+    "word": "Gemonies",
+    "reason": "Gemonies is an obsolete historical term for an act of lamenting or complaining."
+  },
+  {
+    "id": "persevere",
+    "word": "Persevere",
+    "reason": "Persevere is a familiar verb meaning to keep doing something despite difficulty."
+  },
+  {
+    "id": "motolite",
+    "word": "Motolite",
+    "reason": "Motolite is a regional name for a small South American bird and has little general use."
+  },
+  {
+    "id": "suppositive",
+    "word": "Suppositive",
+    "reason": "Suppositive is a rare technical adjective related to supposition and has limited general use."
+  },
+  {
+    "id": "refigure",
+    "word": "Refigure",
+    "reason": "Refigure plainly means to calculate or shape something again and is easy to understand."
+  },
+  {
+    "id": "telephotography",
+    "word": "Telephotography",
+    "reason": "Telephotography is an outdated technical term for sending images over a distance."
+  },
+  {
+    "id": "strychnine",
+    "word": "Strychnine",
+    "reason": "Strychnine is a highly toxic plant-derived alkaloid and is specialized chemical vocabulary."
+  },
+  {
+    "id": "spiny",
+    "word": "Spiny",
+    "reason": "Spiny means covered with spines, not easy to spin or unravel; the supplied definition is wrong."
+  },
+  {
+    "id": "repairman",
+    "word": "repairman",
+    "reason": "Repairman is a familiar occupation word for someone who fixes equipment or household items."
+  },
+  {
+    "id": "slum",
+    "word": "Slum",
+    "reason": "Slum means a poor and crowded urban area, not a hut made for cattle herders."
+  },
+  {
+    "id": "restroom",
+    "word": "Restroom",
+    "reason": "Restroom is a familiar US word for a public room with toilets."
+  },
+  {
+    "id": "conchoprimism",
+    "word": "Conchoprimism",
+    "reason": "Conchoprimism is a rare Dominican political term with little general use."
+  },
+  {
+    "id": "mini-library",
+    "word": "mini library",
+    "reason": "Mini library is an ordinary phrase for a small library; the supplied definition “come” is corrupt."
+  },
+  {
+    "id": "lifeguard-3",
+    "word": "lifeguard",
+    "reason": "Lifeguard is a familiar occupation word for someone who watches swimmers and rescues them when needed."
+  },
+  {
+    "id": "scale-4",
+    "word": "Scale",
+    "reason": "Scale is a familiar word, and this rating-table sense is straightforward and easy to understand."
+  },
+  {
+    "id": "council-3",
+    "word": "Council",
+    "reason": "Council names a group that meets to make decisions; the supplied office-or-position definition is mismatched."
   }
 ]

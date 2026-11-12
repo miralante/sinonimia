@@ -266890,5 +266890,23 @@
         "text": "Sus comentarios lograron ofender a su rival."
       }
     }
+  },
+  {
+    "entry": "servil",
+    "remove": [],
+    "set": {
+      "definition": "Relativo a los siervos o a la servidumbre.",
+      "synonyms": [
+        "propio de los siervos"
+      ],
+      "example": {
+        "word": "servil",
+        "text": "El trabajo servil era frecuente en la época."
+      },
+      "exampleSynonym": {
+        "word": "propio de los siervos",
+        "text": "El trabajo propio de los siervos era frecuente en la época."
+      }
+    }
   }
 ]
