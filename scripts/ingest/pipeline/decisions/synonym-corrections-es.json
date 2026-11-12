@@ -264370,5 +264370,167 @@
         "text": "La complementación del equipo mejoró el proyecto."
       }
     }
+  },
+  {
+    "entry": "caravasar",
+    "remove": [],
+    "set": {
+      "definition": "Posada donde descansaban las caravanas durante sus viajes.",
+      "synonyms": [
+        "albergue caravanero"
+      ],
+      "example": {
+        "word": "caravasar",
+        "text": "El caravasar ofrecía agua a los viajeros."
+      },
+      "exampleSynonym": {
+        "word": "albergue caravanero",
+        "text": "El albergue caravanero ofrecía agua a los viajeros."
+      }
+    }
+  },
+  {
+    "entry": "cirial",
+    "remove": [],
+    "set": {
+      "definition": "Candelabro alto que se lleva en procesiones religiosas.",
+      "synonyms": [
+        "candelero procesional"
+      ],
+      "example": {
+        "word": "cirial",
+        "text": "El cirial iba junto a la cruz."
+      },
+      "exampleSynonym": {
+        "word": "candelero procesional",
+        "text": "El candelero procesional iba junto a la cruz."
+      }
+    }
+  },
+  {
+    "entry": "socucho",
+    "remove": [],
+    "set": {
+      "definition": "Cuarto o casa pequeña, pobre y poco cuidada.",
+      "synonyms": [
+        "cuchitril"
+      ],
+      "example": {
+        "word": "socucho",
+        "text": "La familia vivía en un socucho junto al río."
+      },
+      "exampleSynonym": {
+        "word": "cuchitril",
+        "text": "La familia vivía en un cuchitril junto al río."
+      }
+    }
+  },
+  {
+    "entry": "tangana",
+    "remove": [],
+    "set": {
+      "definition": "Alboroto con discusiones o golpes entre varias personas.",
+      "synonyms": [
+        "trifulca"
+      ],
+      "example": {
+        "word": "tángana",
+        "text": "Se armó una tángana en la grada."
+      },
+      "exampleSynonym": {
+        "word": "trifulca",
+        "text": "Se armó una trifulca en la grada."
+      }
+    }
+  },
+  {
+    "entry": "tragazon",
+    "remove": [],
+    "set": {
+      "definition": "Acción de comer mucho y con avidez.",
+      "synonyms": [
+        "comilona"
+      ],
+      "example": {
+        "word": "tragazón",
+        "text": "La tragazón le sentó mal."
+      },
+      "exampleSynonym": {
+        "word": "comilona",
+        "text": "La comilona le sentó mal."
+      }
+    }
+  },
+  {
+    "entry": "trinchero",
+    "remove": [],
+    "set": {
+      "definition": "Mueble bajo para guardar vajilla y servir la comida.",
+      "synonyms": [
+        "aparador"
+      ],
+      "example": {
+        "word": "trinchero",
+        "text": "El trinchero estaba junto a la mesa."
+      },
+      "exampleSynonym": {
+        "word": "aparador",
+        "text": "El aparador estaba junto a la mesa."
+      }
+    }
+  },
+  {
+    "entry": "santero",
+    "remove": [],
+    "set": {
+      "definition": "Persona que cuida un santuario o una capilla.",
+      "synonyms": [
+        "cuidador de santuario"
+      ],
+      "example": {
+        "word": "santero",
+        "text": "El santero cuidaba el santuario del pueblo."
+      },
+      "exampleSynonym": {
+        "word": "cuidador de santuario",
+        "text": "El cuidador de santuario cuidaba el santuario del pueblo."
+      }
+    }
+  },
+  {
+    "entry": "coloratura",
+    "remove": [],
+    "set": {
+      "definition": "Adornos vocales rápidos y elaborados en una pieza musical.",
+      "synonyms": [
+        "ornamentación vocal"
+      ],
+      "example": {
+        "word": "coloratura",
+        "text": "El aria incluía coloratura."
+      },
+      "exampleSynonym": {
+        "word": "ornamentación vocal",
+        "text": "El aria incluía ornamentación vocal."
+      }
+    }
+  },
+  {
+    "entry": "cartesianismo",
+    "remove": [],
+    "set": {
+      "definition": "Filosofía basada en las ideas de René Descartes.",
+      "synonyms": [
+        "filosofía cartesiana"
+      ],
+      "example": {
+        "word": "cartesianismo",
+        "text": "El filósofo estudió cartesianismo en la universidad."
+      },
+      "exampleSynonym": {
+        "word": "filosofía cartesiana",
+        "text": "El filósofo estudió filosofía cartesiana en la universidad."
+      }
+    }
   }
 ]

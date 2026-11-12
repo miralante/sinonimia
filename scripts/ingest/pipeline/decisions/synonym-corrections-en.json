@@ -265195,5 +265195,203 @@
         "text": "The doctor prescribed under-the-tongue medicine."
       }
     }
+  },
+  {
+    "entry": "garter-belt",
+    "remove": [],
+    "set": {
+      "definition": "A belt with straps that keep stockings from slipping down.",
+      "synonyms": [
+        "suspender belt"
+      ],
+      "example": {
+        "word": "garter belt",
+        "text": "She wore a garter belt under her dress."
+      },
+      "exampleSynonym": {
+        "word": "suspender belt",
+        "text": "She wore a suspender belt under her dress."
+      }
+    }
+  },
+  {
+    "entry": "hagiographer",
+    "remove": [],
+    "set": {
+      "definition": "A writer who records the lives of saints.",
+      "synonyms": [
+        "writer of saints’ lives"
+      ],
+      "example": {
+        "word": "hagiographer",
+        "text": "The hagiographer described the saint’s life."
+      },
+      "exampleSynonym": {
+        "word": "writer of saints’ lives",
+        "text": "The writer of saints’ lives described the saint’s life."
+      }
+    }
+  },
+  {
+    "entry": "incongruity",
+    "remove": [],
+    "set": {
+      "definition": "A lack of fit or agreement between things.",
+      "synonyms": [
+        "mismatch"
+      ],
+      "example": {
+        "word": "incongruity",
+        "text": "The incongruity between their words and actions was clear."
+      },
+      "exampleSynonym": {
+        "word": "mismatch",
+        "text": "The mismatch between their words and actions was clear."
+      }
+    }
+  },
+  {
+    "entry": "revelry",
+    "remove": [],
+    "set": {
+      "definition": "Lively, noisy celebration.",
+      "synonyms": [
+        "merrymaking"
+      ],
+      "example": {
+        "word": "revelry",
+        "text": "The revelry continued until dawn."
+      },
+      "exampleSynonym": {
+        "word": "merrymaking",
+        "text": "The merrymaking continued until dawn."
+      }
+    }
+  },
+  {
+    "entry": "spotty",
+    "remove": [],
+    "set": {
+      "definition": "Covered with small spots or marks.",
+      "synonyms": [
+        "spotted"
+      ],
+      "example": {
+        "word": "spotty",
+        "text": "The shirt looked spotty after the paint spilled."
+      },
+      "exampleSynonym": {
+        "word": "spotted",
+        "text": "The shirt looked spotted after the paint spilled."
+      }
+    }
+  },
+  {
+    "entry": "brush-stroke",
+    "remove": [],
+    "set": {
+      "definition": "A mark made by a painter’s brush on a surface.",
+      "synonyms": [
+        "brush mark"
+      ],
+      "example": {
+        "word": "brush stroke",
+        "text": "A brush stroke remained visible on the canvas."
+      },
+      "exampleSynonym": {
+        "word": "brush mark",
+        "text": "A brush mark remained visible on the canvas."
+      }
+    }
+  },
+  {
+    "entry": "triplicity",
+    "remove": [],
+    "set": {
+      "definition": "The state of having three parts or forms.",
+      "synonyms": [
+        "threefold quality"
+      ],
+      "example": {
+        "word": "triplicity",
+        "text": "The triplicity of the design made it easy to remember."
+      },
+      "exampleSynonym": {
+        "word": "threefold quality",
+        "text": "The threefold quality of the design made it easy to remember."
+      }
+    }
+  },
+  {
+    "entry": "tobacconist",
+    "remove": [],
+    "set": {
+      "definition": "A person who sells tobacco and smoking products.",
+      "synonyms": [
+        "tobacco seller"
+      ],
+      "example": {
+        "word": "tobacconist",
+        "text": "The tobacconist recommended a pipe."
+      },
+      "exampleSynonym": {
+        "word": "tobacco seller",
+        "text": "The tobacco seller recommended a pipe."
+      }
+    }
+  },
+  {
+    "entry": "relapse-2",
+    "remove": [],
+    "set": {
+      "definition": "A return of illness after someone has begun to recover.",
+      "synonyms": [
+        "recurrence"
+      ],
+      "example": {
+        "word": "relapse",
+        "text": "The relapse worried her doctor."
+      },
+      "exampleSynonym": {
+        "word": "recurrence",
+        "text": "The recurrence worried her doctor."
+      }
+    }
+  },
+  {
+    "entry": "spasm-2",
+    "remove": [],
+    "set": {
+      "definition": "A sudden tightening of a muscle that cannot be controlled.",
+      "synonyms": [
+        "contraction"
+      ],
+      "example": {
+        "word": "spasm",
+        "text": "A spasm in her back stopped her moving."
+      },
+      "exampleSynonym": {
+        "word": "contraction",
+        "text": "A contraction in her back stopped her moving."
+      }
+    }
+  },
+  {
+    "entry": "leathery-2",
+    "remove": [],
+    "set": {
+      "definition": "Tough and rough like leather.",
+      "synonyms": [
+        "leatherlike"
+      ],
+      "example": {
+        "word": "leathery",
+        "text": "The leathery leaves survived the drought."
+      },
+      "exampleSynonym": {
+        "word": "leatherlike",
+        "text": "The leatherlike leaves survived the drought."
+      }
+    }
   }
 ]
