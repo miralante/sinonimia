@@ -83791,5 +83791,50 @@
     "id": "small-animal-of-the-rodent-family",
     "word": "Morito",
     "reason": "The proposed headword and diminutive gloss are Spanish, not an English lexical entry."
+  },
+  {
+    "id": "agenda-3",
+    "word": "Agenda",
+    "reason": "A basic personal planner sense already covered by the existing contextual «agenda» card; it is easy and common."
+  },
+  {
+    "id": "lackey-2",
+    "word": "lackey",
+    "reason": "The template says «Colombia lackey» without defining anything; the existing «lackey» card already has a clear, natural definition and example."
+  },
+  {
+    "id": "come-29",
+    "word": "come",
+    "reason": "The Spanish musical instrument «zambomba» was incorrectly attached to the English verb «come»."
+  },
+  {
+    "id": "sacristany",
+    "word": "Sacristany",
+    "reason": "The proposed form and definition are not supported by Collins or current general English usage."
+  },
+  {
+    "id": "opener",
+    "word": "Opener",
+    "reason": "The gloss «something that opens easily» does not define a useful distinct sense of the common noun «opener»."
+  },
+  {
+    "id": "nestorian",
+    "word": "Nestorian",
+    "reason": "A valid term for a follower of Nestorius, but its narrow theological scope gives it little general vocabulary value."
+  },
+  {
+    "id": "monorhym",
+    "word": "monorhym",
+    "reason": "The current English form is «monorhyme»; this spelling is unsupported and the poetry term has low general utility."
+  },
+  {
+    "id": "suffragan",
+    "word": "suffragan",
+    "reason": "The gloss is inaccurate. The verified church title is highly specialized and has little general vocabulary value."
+  },
+  {
+    "id": "capetoned",
+    "word": "Capetoned",
+    "reason": "The proposed illness gloss is historical and poorly supported; this entry has no useful current English sense."
   }
 ]

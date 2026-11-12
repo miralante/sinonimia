@@ -89667,5 +89667,50 @@
     "id": "antejardin",
     "word": "antejardín",
     "reason": "El DLE lo marca como término de Chile y Colombia; su significado es transparente por composición."
+  },
+  {
+    "id": "aovadolanceolada",
+    "word": "aovadolanceolada",
+    "reason": "Término botánico extremadamente específico para una forma de hoja, con poca utilidad general."
+  },
+  {
+    "id": "apatusca",
+    "word": "apatusca",
+    "reason": "Nombre rural de Aragón para un juego infantil muy específico y poco útil fuera de ese contexto."
+  },
+  {
+    "id": "apolismar",
+    "word": "apolismar",
+    "reason": "El DLE recoge tres sentidos limitados a Cuba, Panamá, Puerto Rico y Venezuela; el uso es demasiado regional para la selección general."
+  },
+  {
+    "id": "arcabuceria",
+    "word": "arcabucería",
+    "reason": "Los cinco sentidos se refieren a tropas, armas, fábricas o comercio de arcabuces; son históricos y de utilidad limitada."
+  },
+  {
+    "id": "asuntar",
+    "word": "asuntar",
+    "reason": "Verbo documentado en Andalucía, Toledo, Puerto Rico y República Dominicana para atender o comprender; es marcadamente regional."
+  },
+  {
+    "id": "atipujarse",
+    "word": "atipujarse",
+    "reason": "Uso coloquial salvadoreño equivalente a «hartarse», con alcance regional y sentido fácil."
+  },
+  {
+    "id": "batanero",
+    "word": "batanero",
+    "reason": "Nombre de un oficio ligado a los batanes, una actividad textil histórica muy específica."
+  },
+  {
+    "id": "bolsada",
+    "word": "bolsada",
+    "reason": "Sentido técnico de geología para una parte de un yacimiento mineral; utilidad general limitada."
+  },
+  {
+    "id": "caible",
+    "word": "caíble",
+    "reason": "Adjetivo transparente que solo significa «que puede caer»."
   }
 ]
