@@ -265432,5 +265432,59 @@
         "text": "Su bordado es un trabajo extraordinario."
       }
     }
+  },
+  {
+    "entry": "chipotle",
+    "remove": [],
+    "set": {
+      "definition": "Chile seco y ahumado, usado como condimento.",
+      "synonyms": [
+        "chile ahumado"
+      ],
+      "example": {
+        "word": "chipotle",
+        "text": "El chipotle da sabor a la salsa."
+      },
+      "exampleSynonym": {
+        "word": "chile ahumado",
+        "text": "El chile ahumado da sabor a la salsa."
+      }
+    }
+  },
+  {
+    "entry": "convolar",
+    "remove": [],
+    "set": {
+      "definition": "Volver a casarse después de enviudar o divorciarse.",
+      "synonyms": [
+        "casarse de nuevo"
+      ],
+      "example": {
+        "word": "convolar",
+        "text": "Después de enviudar, decidió convolar."
+      },
+      "exampleSynonym": {
+        "word": "casarse de nuevo",
+        "text": "Después de enviudar, decidió casarse de nuevo."
+      }
+    }
+  },
+  {
+    "entry": "resbaladero",
+    "remove": [],
+    "set": {
+      "definition": "Lugar donde es fácil resbalar.",
+      "synonyms": [
+        "sitio resbaladizo"
+      ],
+      "example": {
+        "word": "resbaladero",
+        "text": "El sendero se vuelve resbaladero con la lluvia."
+      },
+      "exampleSynonym": {
+        "word": "sitio resbaladizo",
+        "text": "El sendero se vuelve sitio resbaladizo con la lluvia."
+      }
+    }
   }
 ]

@@ -265951,5 +265951,95 @@
         "text": "A sumach shrub grows on the dry hillside."
       }
     }
+  },
+  {
+    "entry": "sealing-wax",
+    "remove": [],
+    "set": {
+      "definition": "A soft material that hardens to seal letters or documents.",
+      "synonyms": [
+        "sealing material"
+      ],
+      "example": {
+        "word": "Sealing wax",
+        "text": "The label says “Sealing wax.”"
+      },
+      "exampleSynonym": {
+        "word": "sealing material",
+        "text": "The label says “sealing material.”"
+      }
+    }
+  },
+  {
+    "entry": "resounding",
+    "remove": [],
+    "set": {
+      "definition": "Very strong or impressive in its effect.",
+      "synonyms": [
+        "emphatic"
+      ],
+      "example": {
+        "word": "resounding",
+        "text": "The team's victory was resounding."
+      },
+      "exampleSynonym": {
+        "word": "emphatic",
+        "text": "The team's victory was emphatic."
+      }
+    }
+  },
+  {
+    "entry": "subletting-2",
+    "remove": [],
+    "set": {
+      "definition": "Renting a home you already rent to someone else.",
+      "synonyms": [
+        "Renting out a place you already rent"
+      ],
+      "example": {
+        "word": "Subletting",
+        "text": "Subletting is forbidden under this lease."
+      },
+      "exampleSynonym": {
+        "word": "Renting out a place you already rent",
+        "text": "Renting out a place you already rent is forbidden under this lease."
+      }
+    }
+  },
+  {
+    "entry": "severance-pay-2",
+    "remove": [],
+    "set": {
+      "definition": "Money paid to an employee when their job ends.",
+      "synonyms": [
+        "Payment after job loss"
+      ],
+      "example": {
+        "word": "Severance pay",
+        "text": "Severance pay is included in the agreement."
+      },
+      "exampleSynonym": {
+        "word": "Payment after job loss",
+        "text": "Payment after job loss is included in the agreement."
+      }
+    }
+  },
+  {
+    "entry": "contraindication-2",
+    "remove": [],
+    "set": {
+      "definition": "A medical reason that makes a treatment unsafe for someone.",
+      "synonyms": [
+        "A medical reason to avoid treatment"
+      ],
+      "example": {
+        "word": "Contraindication",
+        "text": "Contraindication may require another drug."
+      },
+      "exampleSynonym": {
+        "word": "A medical reason to avoid treatment",
+        "text": "A medical reason to avoid treatment may require another drug."
+      }
+    }
   }
 ]
