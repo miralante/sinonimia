@@ -94437,5 +94437,215 @@
     "id": "sobrecielo",
     "word": "sobrecielo",
     "reason": "Sobrecielo es una voz rara para un dosel o toldo colocado encima de algo."
+  },
+  {
+    "id": "subdominante",
+    "word": "subdominante",
+    "reason": "El sentido candidato es un grado específico de una escala musical y tiene uso especializado."
+  },
+  {
+    "id": "supraclavicular",
+    "word": "supraclavicular",
+    "reason": "Supraclavicular es un adjetivo anatómico para algo situado sobre las clavículas, de uso principalmente médico."
+  },
+  {
+    "id": "tayul",
+    "word": "tayul",
+    "reason": "Tayul es jerga hondureña para un billete de un lempira y tiene poca extensión general."
+  },
+  {
+    "id": "territorialismo",
+    "word": "territorialismo",
+    "reason": "Territorialismo es una conducta animal descrita en zoología y tiene poca utilidad para el lector general."
+  },
+  {
+    "id": "trebolar",
+    "word": "trebolar",
+    "reason": "Trebolar significa terreno poblado de trébol y se entiende fácilmente por su composición."
+  },
+  {
+    "id": "vacacional",
+    "word": "vacacional",
+    "reason": "Vacacional significa relativo a las vacaciones y es una formación transparente de uso común."
+  },
+  {
+    "id": "vanilocuente",
+    "word": "vanilocuente",
+    "reason": "Vanilocuente describe a quien habla sin sustancia y es una voz muy rara y literaria."
+  },
+  {
+    "id": "balata",
+    "word": "balata",
+    "reason": "Balata es una resina natural usada en la fabricación de gomas y tiene poca utilidad como sinónimo general."
+  },
+  {
+    "id": "barbusano",
+    "word": "barbusano",
+    "reason": "La definición de barbusano como pez no concuerda con la voz conocida como nombre de árbol canario; la ficha no es fiable."
+  },
+  {
+    "id": "cacomiztle",
+    "word": "cacomiztle",
+    "reason": "Cacomiztle es el nombre mexicano de un mamífero y no una ficha de sinonimia de uso general."
+  },
+  {
+    "id": "capialzar",
+    "word": "capialzar",
+    "reason": "Capialzar es un verbo técnico de construcción y el candidato no explica con claridad su uso especializado."
+  },
+  {
+    "id": "capullina",
+    "word": "capullina",
+    "reason": "Capullina nombra un insecto y tiene poca utilidad como nombre de especie en un diccionario general."
+  },
+  {
+    "id": "cauliforme",
+    "word": "cauliforme",
+    "reason": "Cauliforme significa con forma de caña y es un adjetivo técnico fácil de interpretar."
+  },
+  {
+    "id": "centunviral",
+    "word": "centunviral",
+    "reason": "Centunviral se refiere a un tribunal romano antiguo y tiene escasa utilidad actual."
+  },
+  {
+    "id": "chamariz",
+    "word": "chamariz",
+    "reason": "Chamariz es un señuelo para atraer aves de caza, un término especializado y de baja utilidad general."
+  },
+  {
+    "id": "cobarcho",
+    "word": "cobarcho",
+    "reason": "Cobarcho es un nombre poco común para un comerciante de caballos y tiene poca utilidad actual."
+  },
+  {
+    "id": "codal",
+    "word": "codal",
+    "reason": "La definición candidata habla de un código legal y no corresponde al sentido documentado de codal."
+  },
+  {
+    "id": "confer",
+    "word": "cónfer",
+    "reason": "Cónfer se usa en citas académicas con el sentido de comparar o consultar y tiene poca utilidad general."
+  },
+  {
+    "id": "confiteor",
+    "word": "confíteor",
+    "reason": "Confíteor nombra una oración católica de confesión y es un término litúrgico especializado."
+  },
+  {
+    "id": "convoyar",
+    "word": "convoyar",
+    "reason": "Convoyar significa transportar dentro de un convoy; es una voz transparente y de uso limitado."
+  },
+  {
+    "id": "crisopeya",
+    "word": "crisopeya",
+    "reason": "Crisopeya se relaciona con la antigua alquimia y la transformación en oro; la definición de cristalino no corresponde."
+  },
+  {
+    "id": "descangallar",
+    "word": "descangallar",
+    "reason": "Descangallar se refiere a quitar la armadura de un caballo y es un término antiguo de uso muy limitado."
+  },
+  {
+    "id": "desconformar",
+    "word": "desconformar",
+    "reason": "Desconformar significa discrepar, pero es una forma rara frente al verbo actual desacordar."
+  },
+  {
+    "id": "logadero",
+    "word": "logadero",
+    "reason": "Logadero es una voz desusada para una persona que toma algo en alquiler."
+  },
+  {
+    "id": "retamilla",
+    "word": "retamilla",
+    "reason": "Retamilla es un nombre variable de distintas plantas arbustivas y tiene poca utilidad general."
+  },
+  {
+    "id": "santanita",
+    "word": "santanita",
+    "reason": "Santanita es un nombre regional de la mariquita, un insecto común."
+  },
+  {
+    "id": "somatologia",
+    "word": "somatología",
+    "reason": "Somatología nombra el estudio del cuerpo humano y es un término especializado de utilidad limitada."
+  },
+  {
+    "id": "sordon",
+    "word": "sordón",
+    "reason": "Sordón es una voz rara para una persona con dificultad auditiva; se prefiere lenguaje actual y neutral."
+  },
+  {
+    "id": "talnete",
+    "word": "talnete",
+    "reason": "Talnete reúne en Centroamérica varios nombres locales de abejas, miel y frijoles, con baja utilidad general."
+  },
+  {
+    "id": "tararaco",
+    "word": "tararaco",
+    "reason": "Tararaco es un nombre regional de varias plantas ornamentales y tiene poca utilidad general."
+  },
+  {
+    "id": "terneza",
+    "word": "terneza",
+    "reason": "Terneza significa la cualidad de tierno, como suavidad o cariño, y resulta fácil de entender."
+  },
+  {
+    "id": "teucrio",
+    "word": "teucrio",
+    "reason": "Teucrio nombra varias especies de un género botánico y no es un sinónimo general de utilidad amplia."
+  },
+  {
+    "id": "tireta",
+    "word": "tireta",
+    "reason": "Tireta es un diminutivo transparente de tira y no tiene un significado independiente en esta entrada."
+  },
+  {
+    "id": "tumbadillo",
+    "word": "tumbadillo",
+    "reason": "Tumbadillo nombra un movimiento de balanceo y es una voz poco frecuente y de uso limitado."
+  },
+  {
+    "id": "urubu",
+    "word": "urubú",
+    "reason": "Urubú es un nombre americano de aves carroñeras y tiene poco valor como ficha de sinonimia general."
+  },
+  {
+    "id": "gilbert",
+    "word": "gilbert",
+    "reason": "Gilbert es una unidad técnica poco usada para medir fuerza magnetomotriz."
+  },
+  {
+    "id": "cantarero",
+    "word": "cantarero",
+    "reason": "Cantarero nombra un soporte para cántaros y es una voz de uso doméstico antiguo y limitado."
+  },
+  {
+    "id": "hornazo",
+    "word": "hornazo",
+    "reason": "El sentido candidato es un horno pequeño para plateros y fundidores, distinto del alimento más conocido y de uso técnico limitado."
+  },
+  {
+    "id": "vicesimo",
+    "word": "vicésimo",
+    "reason": "Vicésimo significa que ocupa el puesto veinte y es un ordinal transparente."
+  },
+  {
+    "id": "perceptivo",
+    "word": "perceptivo",
+    "reason": "Perceptivo significa relativo a la percepción o capaz de percibir y es fácil de deducir por su formación."
+  },
+  {
+    "id": "beethoveniano",
+    "word": "beethoveniano",
+    "reason": "Beethoveniano significa relativo a Beethoven y se entiende fácilmente por su formación transparente."
+  },
+  {
+    "id": "cantinflesco",
+    "word": "cantinflesco",
+    "reason": "Cantinflesco es una voz coloquial basada en Cantinflas y el candidato remite a una forma poco clara o corrupta."
   }
 ]

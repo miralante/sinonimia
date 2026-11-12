@@ -263956,5 +263956,149 @@
         "text": "El independentismo creció después de la crisis."
       }
     }
+  },
+  {
+    "entry": "transitoriedad",
+    "remove": [],
+    "set": {
+      "definition": "Carácter pasajero y limitado de algo.",
+      "synonyms": [
+        "brevedad"
+      ],
+      "example": {
+        "word": "transitoriedad",
+        "text": "La transitoriedad de la fama preocupaba al artista."
+      },
+      "exampleSynonym": {
+        "word": "brevedad",
+        "text": "La brevedad de la fama preocupaba al artista."
+      }
+    }
+  },
+  {
+    "entry": "apacheta",
+    "remove": [],
+    "set": {
+      "definition": "Montón de piedras que se deja como ofrenda en los Andes.",
+      "synonyms": [
+        "ofrenda de piedras"
+      ],
+      "example": {
+        "word": "apacheta",
+        "text": "Los viajeros dejaron una apacheta en el paso de montaña."
+      },
+      "exampleSynonym": {
+        "word": "ofrenda de piedras",
+        "text": "Los viajeros dejaron una ofrenda de piedras en el paso de montaña."
+      }
+    }
+  },
+  {
+    "entry": "charlotada",
+    "remove": [],
+    "set": {
+      "definition": "Broma o actuación ridícula que hace reír.",
+      "synonyms": [
+        "payasada"
+      ],
+      "example": {
+        "word": "charlotada",
+        "text": "La charlotada del payaso hizo reír al público."
+      },
+      "exampleSynonym": {
+        "word": "payasada",
+        "text": "La payasada del payaso hizo reír al público."
+      }
+    }
+  },
+  {
+    "entry": "tematizar",
+    "remove": [],
+    "set": {
+      "definition": "Convertir algo en tema de conversación o debate.",
+      "synonyms": [
+        "plantear"
+      ],
+      "example": {
+        "word": "tematizar",
+        "text": "El autor decidió tematizar el cambio climático en su documental."
+      },
+      "exampleSynonym": {
+        "word": "plantear",
+        "text": "El autor decidió plantear el cambio climático en su documental."
+      }
+    }
+  },
+  {
+    "entry": "tendajo",
+    "remove": [],
+    "set": {
+      "definition": "Tienda pequeña y pobre que vende productos básicos.",
+      "synonyms": [
+        "establecimiento humilde"
+      ],
+      "example": {
+        "word": "tendajo",
+        "text": "El tendajo vendía alimentos de primera necesidad."
+      },
+      "exampleSynonym": {
+        "word": "establecimiento humilde",
+        "text": "El establecimiento humilde vendía alimentos de primera necesidad."
+      }
+    }
+  },
+  {
+    "entry": "territorialidad",
+    "remove": [],
+    "set": {
+      "definition": "Carácter o condición de algo relacionado con un territorio.",
+      "synonyms": [
+        "condición territorial"
+      ],
+      "example": {
+        "word": "territorialidad",
+        "text": "La territorialidad del conflicto marcó las negociaciones."
+      },
+      "exampleSynonym": {
+        "word": "condición territorial",
+        "text": "La condición territorial del conflicto marcó las negociaciones."
+      }
+    }
+  },
+  {
+    "entry": "glucido",
+    "remove": [],
+    "set": {
+      "definition": "Nutriente como los azúcares y almidones que aporta energía.",
+      "synonyms": [
+        "carbohidrato"
+      ],
+      "example": {
+        "word": "glúcido",
+        "text": "El glúcido de la fruta aporta energía al organismo."
+      },
+      "exampleSynonym": {
+        "word": "carbohidrato",
+        "text": "El carbohidrato de la fruta aporta energía al organismo."
+      }
+    }
+  },
+  {
+    "entry": "antefirma",
+    "remove": [],
+    "set": {
+      "definition": "Nombre o cargo que aparece antes de la firma en un documento.",
+      "synonyms": [
+        "línea de firma"
+      ],
+      "example": {
+        "word": "antefirma",
+        "text": "La antefirma indica el cargo de quien firma el documento."
+      },
+      "exampleSynonym": {
+        "word": "línea de firma",
+        "text": "La línea de firma indica el cargo de quien firma el documento."
+      }
+    }
   }
 ]

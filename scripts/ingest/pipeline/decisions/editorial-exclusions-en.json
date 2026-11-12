@@ -88151,5 +88151,220 @@
     "id": "rhinology",
     "word": "rhinology",
     "reason": "Rhinology is the specialized medical study of the nose and nasal passages."
+  },
+  {
+    "id": "rhizopod",
+    "word": "Rhizopod",
+    "reason": "Rhizopod is an obsolete zoological term for certain protozoa and has little current general use."
+  },
+  {
+    "id": "stanza",
+    "word": "stanza",
+    "reason": "Stanza is a common poetry term, and the candidate's geometric arrangement definition is incorrect."
+  },
+  {
+    "id": "tetragram",
+    "word": "Tetragram",
+    "reason": "Tetragram is a technical term for a four-letter word or phrase and has limited general value."
+  },
+  {
+    "id": "monadology",
+    "word": "Monadology",
+    "reason": "Monadology is a specialist philosophical work and doctrine associated with Leibniz, with little general synonym value."
+  },
+  {
+    "id": "circuit",
+    "word": "Circuit",
+    "reason": "Circuit is a common word, and the supplied land-boundary definition does not match a standard sense."
+  },
+  {
+    "id": "convicted",
+    "word": "Convicted",
+    "reason": "Convicted means found guilty of a crime, not related to convincing someone."
+  },
+  {
+    "id": "scrofulous",
+    "word": "scrofulous",
+    "reason": "Scrofulous refers to scrofula, an old medical term for a form of tuberculosis, and has little general value."
+  },
+  {
+    "id": "soot",
+    "word": "Soot",
+    "reason": "Soot is a common noun for black powder from smoke, and the candidate merely says something is full of soot."
+  },
+  {
+    "id": "shorthand-typist",
+    "word": "shorthand typist",
+    "reason": "Shorthand typist names a declining office job and the candidate repeats the meaning in transparent words."
+  },
+  {
+    "id": "conflatile",
+    "word": "Conflatile",
+    "reason": "Conflatile is a rare technical word meaning capable of being melted, with little general use."
+  },
+  {
+    "id": "carpenter-2",
+    "word": "carpenter",
+    "reason": "Carpenter is a common occupation name, and the candidate gives its basic meaning."
+  },
+  {
+    "id": "layered-2",
+    "word": "Layered",
+    "reason": "Layered means arranged in layers; “elbow-shaped” does not define the word."
+  },
+  {
+    "id": "mouthful-2",
+    "word": "Mouthful",
+    "reason": "Mouthful is a common word for an amount that fits in the mouth, not a puff of liquid."
+  },
+  {
+    "id": "county-2",
+    "word": "county",
+    "reason": "County is a common administrative-area word, and the candidate describes a count's title instead."
+  },
+  {
+    "id": "grind-4",
+    "word": "Grind",
+    "reason": "The candidate gives a specialized glass-working sense of grind, while the headword is a common verb."
+  },
+  {
+    "id": "coptic-2",
+    "word": "Coptic",
+    "reason": "Coptic refers to a language, people, or religious tradition and is not a general synonym entry."
+  },
+  {
+    "id": "companion-4",
+    "word": "Companion",
+    "reason": "Companion is a common word, and the candidate only calls it a variant of itself."
+  },
+  {
+    "id": "equipment-2",
+    "word": "Equipment",
+    "reason": "Equipment is a common noun, and the supplied chair definition describes a different word."
+  },
+  {
+    "id": "skinning-5",
+    "word": "Skinning",
+    "reason": "Skinning is a transparent noun for removing skin, and the candidate merely repeats the headword."
+  },
+  {
+    "id": "slit-2",
+    "word": "Slit",
+    "reason": "Slit is a common word for a narrow cut or opening, and the candidate only says “small slit.”"
+  },
+  {
+    "id": "shaved-3",
+    "word": "shaved",
+    "reason": "Shaved describes hair or another surface cut close; the candidate's bird-of-prey definition does not match it."
+  },
+  {
+    "id": "emphasis-2",
+    "word": "Emphasis",
+    "reason": "Emphasis is a familiar noun for special importance or stress, and the candidate repeats its basic form."
+  },
+  {
+    "id": "juicer-2",
+    "word": "Juicer",
+    "reason": "Juicer transparently names a machine that extracts juice and is a common household word."
+  },
+  {
+    "id": "muffling-2",
+    "word": "Muffling",
+    "reason": "The candidate describes mocking someone by puffing cheeks, not a meaning of muffling."
+  },
+  {
+    "id": "cooking-2",
+    "word": "Cooking",
+    "reason": "Cooking is common, and the candidate incorrectly limits it to boiling food."
+  },
+  {
+    "id": "tachometer-2",
+    "word": "Tachometer",
+    "reason": "A tachometer is a specialized device for measuring rotation speed, with limited value in a general synonym dictionary."
+  },
+  {
+    "id": "reluctance-2",
+    "word": "Reluctance",
+    "reason": "Reluctance means unwillingness or hesitation, a common and straightforward sense."
+  },
+  {
+    "id": "confident-2",
+    "word": "Confident",
+    "reason": "Confident means sure of oneself or certain, not faithful, secure, or trustworthy as the candidate says."
+  },
+  {
+    "id": "scratch-4",
+    "word": "scratch",
+    "reason": "Scratch is a common verb, and the candidate gives its basic sense of making a mark with a nail or sharp object."
+  },
+  {
+    "id": "pull-5",
+    "word": "Pull",
+    "reason": "Pull is a common verb, and the candidate describes its basic action of bringing something toward oneself."
+  },
+  {
+    "id": "course-3",
+    "word": "Course",
+    "reason": "Course is a common word, and the candidate gives a basic sense of passing or movement."
+  },
+  {
+    "id": "telephone-2",
+    "word": "telephone",
+    "reason": "Telephone is common, and the candidate gives a narrow entry-phone sense rather than a difficult synonym meaning."
+  },
+  {
+    "id": "barracks-5",
+    "word": "barracks",
+    "reason": "Barracks is a common word, and the candidate merely repeats it as its own definition."
+  },
+  {
+    "id": "spiral-3",
+    "word": "Spiral",
+    "reason": "Spiral is common, and the candidate's meaning about expiration does not match it."
+  },
+  {
+    "id": "shelf-6",
+    "word": "Shelf",
+    "reason": "Shelf is a common household word, and the candidate's excessive description adds no difficult meaning."
+  },
+  {
+    "id": "confuse-5",
+    "word": "Confuse",
+    "reason": "Confuse is a common verb for causing uncertainty, not for bruising tissue as the candidate says."
+  },
+  {
+    "id": "judge-7",
+    "word": "Judge",
+    "reason": "Judge is a common verb, and the candidate gives its basic act of forming an opinion."
+  },
+  {
+    "id": "length-4",
+    "word": "Length",
+    "reason": "Length means the measurement from end to end, not long-lasting as the candidate states."
+  },
+  {
+    "id": "cabbage-3",
+    "word": "Cabbage",
+    "reason": "Cabbage is a common vegetable, and “burly individual” does not define it."
+  },
+  {
+    "id": "careless-4",
+    "word": "Careless",
+    "reason": "Careless is a familiar adjective for acting without enough care or attention."
+  },
+  {
+    "id": "false-3",
+    "word": "False",
+    "reason": "False means not true or genuine; the supplied description of impaired faculties does not match it."
+  },
+  {
+    "id": "crack-8",
+    "word": "Crack",
+    "reason": "Crack is a common verb, and the candidate describes the basic act of making a split in a surface."
+  },
+  {
+    "id": "musketeer-3",
+    "word": "Musketeer",
+    "reason": "Musketeer names a historical soldier, while the supplied description refers to a rare theatrical sense of musketry."
   }
 ]

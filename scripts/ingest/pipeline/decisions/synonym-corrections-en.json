@@ -264799,5 +264799,131 @@
         "text": "Contextualize the result by considering its context."
       }
     }
+  },
+  {
+    "entry": "myopic",
+    "remove": [],
+    "set": {
+      "definition": "Unable to see distant objects clearly without corrective lenses.",
+      "synonyms": [
+        "short-sighted"
+      ],
+      "example": {
+        "word": "myopic",
+        "text": "The myopic driver could not read a distant road sign."
+      },
+      "exampleSynonym": {
+        "word": "short-sighted",
+        "text": "The short-sighted driver could not read a distant road sign."
+      }
+    }
+  },
+  {
+    "entry": "sterility",
+    "remove": [],
+    "set": {
+      "definition": "Inability to produce children or offspring.",
+      "synonyms": [
+        "Infertility"
+      ],
+      "example": {
+        "word": "Sterility",
+        "text": "Sterility can prevent a couple from having children."
+      },
+      "exampleSynonym": {
+        "word": "Infertility",
+        "text": "Infertility can prevent a couple from having children."
+      }
+    }
+  },
+  {
+    "entry": "validity-2",
+    "remove": [],
+    "set": {
+      "definition": "The time a document or rule remains legally effective.",
+      "synonyms": [
+        "Legal duration"
+      ],
+      "example": {
+        "word": "Validity",
+        "text": "The heading “Validity” shows how long the permit remains effective."
+      },
+      "exampleSynonym": {
+        "word": "Legal duration",
+        "text": "The heading “Legal duration” shows how long the permit remains effective."
+      }
+    }
+  },
+  {
+    "entry": "signage-2",
+    "remove": [],
+    "set": {
+      "definition": "A set of signs that gives directions or information in a place.",
+      "synonyms": [
+        "Signs"
+      ],
+      "example": {
+        "word": "Signage",
+        "text": "Signage can help visitors find the exit."
+      },
+      "exampleSynonym": {
+        "word": "Signs",
+        "text": "Signs can help visitors find the exit."
+      }
+    }
+  },
+  {
+    "entry": "subsidiarity-2",
+    "remove": [],
+    "set": {
+      "definition": "A rule that decisions should be made close to the people affected.",
+      "synonyms": [
+        "Local decision-making"
+      ],
+      "example": {
+        "word": "Subsidiarity",
+        "text": "Subsidiarity keeps many decisions near local communities."
+      },
+      "exampleSynonym": {
+        "word": "Local decision-making",
+        "text": "Local decision-making keeps many decisions near local communities."
+      }
+    }
+  },
+  {
+    "entry": "daguerreotype-4",
+    "remove": [],
+    "set": {
+      "definition": "An early process for making photographs on a silver-treated plate.",
+      "synonyms": [
+        "silver-plate process"
+      ],
+      "example": {
+        "word": "Daguerreotype",
+        "text": "The Daguerreotype used a silver-treated plate."
+      },
+      "exampleSynonym": {
+        "word": "silver-plate process",
+        "text": "The silver-plate process used a silver-treated plate."
+      }
+    }
+  },
+  {
+    "entry": "clog-3",
+    "remove": [],
+    "set": {
+      "definition": "A shoe with a thick, often wooden, sole.",
+      "synonyms": [
+        "wooden shoe"
+      ],
+      "example": {
+        "word": "Clog",
+        "text": "The Clog on display came from the region."
+      },
+      "exampleSynonym": {
+        "word": "wooden shoe",
+        "text": "The wooden shoe on display came from the region."
+      }
+    }
   }
 ]
