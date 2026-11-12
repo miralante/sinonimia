@@ -87041,5 +87041,270 @@
     "id": "sell-3",
     "word": "Sell",
     "reason": "Sell is a common basic verb meaning to exchange goods for money; “there is too much wind” is unrelated."
+  },
+  {
+    "id": "cork-8",
+    "word": "Cork",
+    "reason": "Cork is a common material and stopper; the supplied sense “burn the surface of something” is not supported by Collins."
+  },
+  {
+    "id": "lobster-2",
+    "word": "lobster",
+    "reason": "Lobster is a familiar sea animal and food; both meanings are easy and common."
+  },
+  {
+    "id": "chat-9",
+    "word": "Chat",
+    "reason": "Chat is a common word for an informal conversation or the act of talking."
+  },
+  {
+    "id": "bowl-3",
+    "word": "bowl",
+    "reason": "Bowl is a basic common word for a rounded container; the candidate clay-vessel gloss is narrower than needed."
+  },
+  {
+    "id": "limping-3",
+    "word": "Limping",
+    "reason": "Limping is a common form of limp meaning walking unevenly; it is not simply a variant of lameness."
+  },
+  {
+    "id": "shaker-3",
+    "word": "Shaker",
+    "reason": "The supplied sense describes a narrow historical grain-processing role, not the common meaning of shaker."
+  },
+  {
+    "id": "metallic-4",
+    "word": "Metallic",
+    "reason": "Metallic is a common adjective meaning made of or resembling metal; metallurgy is a different word and meaning."
+  },
+  {
+    "id": "cattle-2",
+    "word": "cattle",
+    "reason": "Cattle is a common word for cows and bulls; the supplied note about bueyera and bueyero is a corrupted grammatical gloss."
+  },
+  {
+    "id": "sandy-2",
+    "word": "sandy",
+    "reason": "Sandy is a common adjective meaning covered with or containing sand; “form equivalent to sandy” is circular and corrupted."
+  },
+  {
+    "id": "chickpea-5",
+    "word": "Chickpea",
+    "reason": "Chickpea is a common name for an edible bean; the supplied adjective sense is unusual and low-value."
+  },
+  {
+    "id": "get-drunk-15",
+    "word": "get drunk",
+    "reason": "Get drunk is a common, transparent phrase meaning to become intoxicated."
+  },
+  {
+    "id": "carana",
+    "word": "Caraña",
+    "reason": "Caraña is not a documented English headword; the definition appears to be a Spanish form or corrupted entry."
+  },
+  {
+    "id": "blur-11",
+    "word": "Blur",
+    "reason": "Blur is a common word for something unclear or for making something unclear; the supplied blue-color gloss is unrelated."
+  },
+  {
+    "id": "cautioner",
+    "word": "Cautioner",
+    "reason": "Cautioner is a Scottish legal term for a person who guarantees bail or a debt, with limited use outside that region."
+  },
+  {
+    "id": "moyo",
+    "word": "Moyo",
+    "reason": "Moyo is an old local measure of capacity used in parts of Spain; its meaning and use are too restricted."
+  },
+  {
+    "id": "cause-shame",
+    "word": "cause shame",
+    "reason": "Cause shame is a transparent common phrase, and the supplied definition mixes embarrassment, blushing, and surprise."
+  },
+  {
+    "id": "chanting",
+    "word": "Chanting",
+    "reason": "Chanting means repeating words or sounds rhythmically; maritime channels are unrelated to the word."
+  },
+  {
+    "id": "keep-4",
+    "word": "keep",
+    "reason": "Keep is a common verb with several everyday meanings; the broad template definition does not identify a difficult distinct sense."
+  },
+  {
+    "id": "shine-8",
+    "word": "shine",
+    "reason": "Shine is a common basic verb meaning to give off or reflect light."
+  },
+  {
+    "id": "confused-2",
+    "word": "confused",
+    "reason": "Confused is a common adjective; the supplied definition refers to the unrelated Spanish verb zarabutar."
+  },
+  {
+    "id": "doradilla",
+    "word": "doradilla",
+    "reason": "Doradilla is a Spanish plant name, not a documented English headword; its definition is an untranslated Spanish gloss."
+  },
+  {
+    "id": "tender-5",
+    "word": "tender",
+    "reason": "Tender has common meanings such as soft or gentle; “not ripe” is a different meaning and is not supported for this entry."
+  },
+  {
+    "id": "liar-10",
+    "word": "liar",
+    "reason": "Liar is a common word for someone who lies; the supplied Argentina label and repeated headword do not define a separate English sense."
+  },
+  {
+    "id": "germ-15",
+    "word": "germ",
+    "reason": "Germ is a common word for a microorganism or the beginning of something; the skirt gloss does not match."
+  },
+  {
+    "id": "bowl-25",
+    "word": "bowl",
+    "reason": "Bowl is a common English word; the Bolivian and Mexican abbreviations are an incomplete foreign-language gloss."
+  },
+  {
+    "id": "gastralgic",
+    "word": "Gastralgic",
+    "reason": "Gastralgic is a specialist medical adjective meaning related to stomach pain; it has low general utility."
+  },
+  {
+    "id": "claviform",
+    "word": "Claviform",
+    "reason": "Claviform is a rare technical word for a club-shaped form and is mainly useful in specialist descriptions."
+  },
+  {
+    "id": "non-derogability",
+    "word": "Non-derogability",
+    "reason": "Non-derogability is an abstract legal term for the quality of not being set aside; its utility is limited to specialist contexts."
+  },
+  {
+    "id": "irreplaceable",
+    "word": "Irreplaceable",
+    "reason": "Irreplaceable transparently means that something cannot be replaced, so the meaning is easy to infer."
+  },
+  {
+    "id": "countercurve",
+    "word": "Countercurve",
+    "reason": "Countercurve names a road-design feature and is a low-utility engineering term for a general easy-read dictionary."
+  },
+  {
+    "id": "ricoman",
+    "word": "Ricoman",
+    "reason": "Ricoman is an obsolete historical title for a member of the highest Spanish nobility, not current general English vocabulary."
+  },
+  {
+    "id": "stenograph",
+    "word": "Stenograph",
+    "reason": "Collins documents stenograph as a shorthand machine, symbol, or the act of writing in shorthand; these are low-utility specialist senses."
+  },
+  {
+    "id": "sputter",
+    "word": "Sputter",
+    "reason": "Sputter is a common verb for making short explosive sounds or speaking with difficulty; the candidate's definition of gibbering is not supported."
+  },
+  {
+    "id": "challengeable",
+    "word": "Challengeable",
+    "reason": "Challengeable transparently means that something can be challenged; the meaning is easy to infer from the common word challenge."
+  },
+  {
+    "id": "carignan",
+    "word": "Carignan",
+    "reason": "Carignan is the name of a wine-grape variety, a specialist agricultural and wine term with low general utility."
+  },
+  {
+    "id": "coenesthesia",
+    "word": "Coenesthesia",
+    "reason": "Coenesthesia is a technical medical term for a person's general sense of their own body; it has low general utility."
+  },
+  {
+    "id": "cherkessa",
+    "word": "Cherkessa",
+    "reason": "The supplied clothing gloss could not be verified as a current general English word in the reference dictionary; the term is rare and low utility."
+  },
+  {
+    "id": "conditioning",
+    "word": "Conditioning",
+    "reason": "Conditioning is a common word with established senses in training and treatment; the supplied question fragment does not define a separate sense."
+  },
+  {
+    "id": "contragod",
+    "word": "Contragod",
+    "reason": "The supplied movement gloss could not be verified as a current English headword; the entry appears corrupt and has no reliable general use."
+  },
+  {
+    "id": "motilate",
+    "word": "Motilate",
+    "reason": "The supplied hair-cutting definition could not be verified as an English word in the reference dictionary; it may be a corrupted form."
+  },
+  {
+    "id": "myosotis",
+    "word": "Myosotis",
+    "reason": "Myosotis is the botanical name of a flower genus; it is a specialist plant name with low general utility."
+  },
+  {
+    "id": "mutant",
+    "word": "Mutant",
+    "reason": "Mutant is a familiar word for a living thing with changed genes; the supplied loan-request definition does not match it."
+  },
+  {
+    "id": "rerate",
+    "word": "Rerate",
+    "reason": "Rerate means to set a new rate or value; its meaning follows directly from the common verb rate and the prefix re-."
+  },
+  {
+    "id": "roborant",
+    "word": "Roborant",
+    "reason": "Roborant is a rare adjective for something that gives strength, mostly used in medical or formal writing."
+  },
+  {
+    "id": "semi-liquid",
+    "word": "Semi-liquid",
+    "reason": "Semi-liquid means partly liquid; the hyphenated compound is easy to understand from the common word liquid."
+  },
+  {
+    "id": "clarinian",
+    "word": "Clarinian",
+    "reason": "Clarinian refers to the Spanish writer Clarín and is a narrow literary label, not useful general English vocabulary."
+  },
+  {
+    "id": "neck",
+    "word": "neck",
+    "reason": "Neck is a common body-part word; the supplied phrase describing something with a long neck is not a separate sense of the noun."
+  },
+  {
+    "id": "relativizer",
+    "word": "relativizer",
+    "reason": "Relativizer is a technical grammar label for a word or element introducing a relative clause; it has low general utility."
+  },
+  {
+    "id": "salmonid",
+    "word": "Salmonid",
+    "reason": "Salmonid refers to a family of fish and is mainly used in zoology or fisheries; it is a low-utility specialist term."
+  },
+  {
+    "id": "sultanic",
+    "word": "Sultanic",
+    "reason": "Sultanic means related to a sultan or sultanate; this rare historical adjective adds little beyond its transparent base word."
+  },
+  {
+    "id": "counterbed",
+    "word": "Counterbed",
+    "reason": "The candidate describes a specialist way of laying masonry blocks, but the headword could not be verified as current general English."
+  },
+  {
+    "id": "mode",
+    "word": "Mode",
+    "reason": "Mode is a common word with other established meanings; the supplied Roman measurement is not supported as a current sense of this headword."
+  },
+  {
+    "id": "cloak-snatcher",
+    "word": "Cloak Snatcher",
+    "reason": "Cloak snatcher is not a documented English term for a place where strong winds blow; the entry appears corrupted."
   }
 ]
