@@ -84576,5 +84576,70 @@
     "id": "cordilleran",
     "word": "cordilleran",
     "reason": "The gloss “of a saw” is unrelated; the true geographic adjective is rare and highly specialized."
+  },
+  {
+    "id": "thermionic",
+    "word": "Thermionic",
+    "reason": "This technical physics adjective has narrow specialist use and no useful general synonym entry."
+  },
+  {
+    "id": "certain-hare-stew",
+    "word": "certain hare stew",
+    "reason": "This is a malformed descriptive phrase rather than a stable lexical item, and its definition only repeats it."
+  },
+  {
+    "id": "morse",
+    "word": "Morse",
+    "reason": "The definition is an unfinished label rather than a meaning, so the record cannot support a reliable synonym card."
+  },
+  {
+    "id": "close-2",
+    "word": "Close",
+    "reason": "The gloss is only a duplicated headword and does not identify a distinct, verifiable sense."
+  },
+  {
+    "id": "compositional",
+    "word": "Compositional",
+    "reason": "The adjective is limited to specialist discussion of music or visual arrangement and lacks a clear general synonym for this dictionary."
+  },
+  {
+    "id": "stypticity",
+    "word": "Stypticity",
+    "reason": "This technical medical noun names the property of stopping bleeding and has little general synonym value."
+  },
+  {
+    "id": "transsexual",
+    "word": "Transsexual",
+    "reason": "The term is now less common, can offend, and should describe only people who use it for themselves; a general synonym card would imply an unsafe equivalence."
+  },
+  {
+    "id": "shine-5",
+    "word": "shine",
+    "reason": "The gloss only repeats the headword and does not identify which distinct meaning this duplicate record represents."
+  },
+  {
+    "id": "nicene",
+    "word": "Nicene",
+    "reason": "This adjective belongs to Christian theological history and has no useful general synonym entry."
+  },
+  {
+    "id": "tent-3",
+    "word": "tent",
+    "reason": "The gloss is a repeated headword and does not establish a distinct tent meaning for this numbered record."
+  },
+  {
+    "id": "snatch-or-steal",
+    "word": "snatch or steal",
+    "reason": "This is a gloss phrase rather than an independent lexical entry, and it merely repeats its own wording."
+  },
+  {
+    "id": "lie-6",
+    "word": "lie",
+    "reason": "The gloss repeats the headword and does not identify a distinct meaning from the other lie entries."
+  },
+  {
+    "id": "lazy-11",
+    "word": "lazy",
+    "reason": "The numbered record duplicates the common adjective with a circular gloss and establishes no separate meaning."
   }
 ]

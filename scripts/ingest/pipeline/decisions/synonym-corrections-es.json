@@ -102,13 +102,6 @@
     ]
   },
   {
-    "entry": "confeccionar",
-    "remove": [],
-    "unset": [
-      "translation"
-    ]
-  },
-  {
     "entry": "contrato-de-suministro",
     "remove": [],
     "set": {
