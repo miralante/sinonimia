@@ -12,8 +12,8 @@
  */
 window.SINONIMIA_DICTIONARY_SHARDS = {
   es: [
-    { file: "js/data.es.js", src: "js/data.es.js?v=3ec24ab697" },
-    { file: "js/data.es.2.js", src: "js/data.es.2.js?v=9f3952f434" },
+    { file: "js/data.es.js", src: "js/data.es.js?v=4ce19ff59c" },
+    { file: "js/data.es.2.js", src: "js/data.es.2.js?v=3969a66d2a" },
     { file: "js/data.es.3.js", src: "js/data.es.3.js?v=53a2d614d3" },
     { file: "js/data.es.4.js", src: "js/data.es.4.js?v=37f0da27f3" },
     { file: "js/data.es.5.js", src: "js/data.es.5.js?v=d7821a0755" },
@@ -3009,5 +3009,29 @@ window.SINONIMIA_DICTIONARY_SHARDS = {
     { file: "js/data.en.editorial-autodef-followup7.js", src: "js/data.en.editorial-autodef-followup7.js?v=a02f5cf428" },
     { file: "js/data.en.editorial-autodef-followup8.js", src: "js/data.en.editorial-autodef-followup8.js?v=ab15bbd650" },
     { file: "js/data.en.editorial-autodef-followup9.js", src: "js/data.en.editorial-autodef-followup9.js?v=a9ab00bc4e" },
+    { file: "js/data.en.translation-cleanup.js", src: "js/data.en.translation-cleanup.js?v=4c2349be3e" },
+    { file: "js/data.en.example-word-cleanup.js", src: "js/data.en.example-word-cleanup.js?v=98f80e1f8d" },
+    { file: "js/data.en.example-rewrite-v5201.js", src: "js/data.en.example-rewrite-v5201.js?v=a3592e1802" },
+    { file: "js/data.en.example-rewrite-v5202.js", src: "js/data.en.example-rewrite-v5202.js?v=1c9f90177e" },
+    { file: "js/data.en.example-rewrite-v5203.js", src: "js/data.en.example-rewrite-v5203.js?v=0d54c8fcdf" },
+    { file: "js/data.en.example-rewrite-v5204.js", src: "js/data.en.example-rewrite-v5204.js?v=c10b4caa58" },
+    { file: "js/data.en.example-rewrite-v5205.js", src: "js/data.en.example-rewrite-v5205.js?v=0ba35b3e9a" },
+    { file: "js/data.en.example-rewrite-v5206.js", src: "js/data.en.example-rewrite-v5206.js?v=a74033c3b7" },
+    { file: "js/data.en.example-rewrite-v5207.js", src: "js/data.en.example-rewrite-v5207.js?v=9d2c5baa3f" },
+    { file: "js/data.en.example-rewrite-v5208.js", src: "js/data.en.example-rewrite-v5208.js?v=a8b04dd758" },
   ],
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
