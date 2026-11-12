@@ -84766,5 +84766,25 @@
     "id": "binator",
     "word": "Binator",
     "reason": "The gloss binary manager does not establish a recognized general English word or distinct sense."
+  },
+  {
+    "id": "countermeshing",
+    "word": "Countermeshing",
+    "reason": "This rare technical verb for meshing mechanisms has little use in a general synonym dictionary."
+  },
+  {
+    "id": "slideable",
+    "word": "Slideable",
+    "reason": "This is a spelling variant of slidable and adds no separate meaning."
+  },
+  {
+    "id": "impartable",
+    "word": "Impartable",
+    "reason": "The gloss means unbreakable, which does not match the word impartable."
+  },
+  {
+    "id": "show-yourselves",
+    "word": "Show yourselves",
+    "reason": "The gloss premonstratens does not define this phrase and appears to be a corrupted translation."
   }
 ]

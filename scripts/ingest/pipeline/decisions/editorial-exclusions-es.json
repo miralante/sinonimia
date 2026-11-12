@@ -90737,5 +90737,40 @@
     "id": "cuan",
     "word": "cuan",
     "reason": "Es una forma literaria poco usada cuya función gramatical no aporta una ficha de sinonimia útil."
+  },
+  {
+    "id": "tartaja",
+    "word": "tartaja",
+    "reason": "Es una etiqueta para una condición del habla; se excluye para evitar presentar a la persona mediante un término potencialmente despectivo."
+  },
+  {
+    "id": "arrebolera",
+    "word": "arrebolera",
+    "reason": "Es un recipiente antiguo para colorete, sin uso cotidiano ni valor general de sinonimia."
+  },
+  {
+    "id": "cacheta",
+    "word": "cacheta",
+    "reason": "La entrada remite a un número de acepción sin aclarar el significado y no permite una ficha verificable."
+  },
+  {
+    "id": "camarroya",
+    "word": "camarroya",
+    "reason": "Es un nombre regional poco extendido para la achicoria silvestre y no ofrece una equivalencia general estable."
+  },
+  {
+    "id": "candilazo",
+    "word": "candilazo",
+    "reason": "Nombra un golpe relacionado con un candil, objeto antiguo, y tiene muy poca utilidad actual."
+  },
+  {
+    "id": "cazumbron",
+    "word": "cazumbrón",
+    "reason": "Es un nombre de oficio muy poco usado cuya definición depende de otro verbo oscuro."
+  },
+  {
+    "id": "cetrarina",
+    "word": "cetrarina",
+    "reason": "Es una sustancia química de algunos líquenes, sin utilidad general como ficha de sinonimia."
   }
 ]

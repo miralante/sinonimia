@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5137",
+  "runtime": "v5138",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1128,
-    "en": 1098
+    "es": 1158,
+    "en": 1128
   },
-  "latestLedgerBatchCount": 111,
-  "latestLedgerReviewedIdCount": 2226,
-  "appliedCount": 946,
+  "latestLedgerBatchCount": 114,
+  "latestLedgerReviewedIdCount": 2286,
+  "appliedCount": 966,
   "appliedByLanguage": {
-    "es": 477,
-    "en": 469
+    "es": 487,
+    "en": 479
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -62,7 +62,8 @@
     "B15-ninetyfirst-20-verdicts.json",
     "B15-ninetysecond-20-verdicts.json",
     "B15-ninetythird-20-verdicts.json",
-    "B15-ninetyfourth-20-verdicts.json"
+    "B15-ninetyfourth-20-verdicts.json",
+    "B15-ninetyfifth-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -5924,6 +5925,126 @@
       "batch": "B15-ninetyfourth-20-verdicts.json",
       "language": "en",
       "id": "conjecturable",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "volador",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "atesorar",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "tartaja",
+      "decision": "exclude-stigmatizing-person-label"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "arrebolera",
+      "decision": "exclude-obsolete-cosmetic-utensil"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "branquial",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "cacheta",
+      "decision": "exclude-corrupt-definition-reference"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "camarroya",
+      "decision": "exclude-rare-regional-plant-name"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "candilazo",
+      "decision": "exclude-archaic-object-based-term"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "cazumbron",
+      "decision": "exclude-rare-occupational-term"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "cetrarina",
+      "decision": "exclude-specialized-chemistry-term"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "sorry",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "merciful",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "countermeshing",
+      "decision": "exclude-specialized-mechanical-term"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "sexless",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "slideable",
+      "decision": "exclude-variant-spelling"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "generational",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "impartable",
+      "decision": "exclude-definition-sense-mismatch"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "delude",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "show-yourselves",
+      "decision": "exclude-corrupt-nonlexical-entry"
+    },
+    {
+      "batch": "B15-ninetyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "sacredness",
       "decision": "rewrite-definition-and-example"
     }
   ],
