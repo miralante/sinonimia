@@ -92922,5 +92922,95 @@
     "id": "samuelear",
     "word": "samuelear",
     "reason": "El DLE marca este verbo como costarricense y describe una conducta sexual invasiva."
+  },
+  {
+    "id": "tensorial",
+    "word": "tensorial",
+    "reason": "Es un adjetivo matemático relativo a tensores; tiene poca utilidad para el vocabulario general."
+  },
+  {
+    "id": "tercerear",
+    "word": "tercerear",
+    "reason": "El sentido de mediar está marcado como poco usado y el otro es rural de Álava."
+  },
+  {
+    "id": "ternada",
+    "word": "ternada",
+    "reason": "El DLE marca la palabra como propia de Chile; no cumple el criterio de uso general."
+  },
+  {
+    "id": "anacahuita",
+    "word": "anacahuita",
+    "reason": "Nombra árboles de Argentina, República Dominicana y Uruguay; es regional y botánica de baja utilidad general."
+  },
+  {
+    "id": "azacuan",
+    "word": "azacuán",
+    "reason": "La glosa de planta medicinal es errónea: el DLE define azacuán como un ave de humedal, un sentido zoológico especializado."
+  },
+  {
+    "id": "baure",
+    "word": "baure",
+    "reason": "La glosa de instrumento musical es incorrecta; el DLE recoge el pueblo baure y su lengua arahuaca, de baja utilidad general."
+  },
+  {
+    "id": "bienfecho",
+    "word": "bienfecho",
+    "reason": "El DLE marca bienfecho como desusado y lo equipara a beneficio."
+  },
+  {
+    "id": "borrachear",
+    "word": "borrachear",
+    "reason": "El DLE indica emborracharse con frecuencia, no simplemente beber en exceso; además, es un derivado transparente de borracho."
+  },
+  {
+    "id": "bregadura",
+    "word": "bregadura",
+    "reason": "Los dos sentidos del DLE están marcados como desusados."
+  },
+  {
+    "id": "budion",
+    "word": "budión",
+    "reason": "El DLE define budión como un pez; el nombre zoológico tiene poca utilidad general."
+  },
+  {
+    "id": "calboche",
+    "word": "calboche",
+    "reason": "El DLE marca calboche como regional de varias provincias españolas; nombra una olla para asar castañas."
+  },
+  {
+    "id": "canaleja",
+    "word": "canaleja",
+    "reason": "La canaleja es una pieza de un molino que conduce grano a la muela; es un término técnico de poca utilidad general."
+  },
+  {
+    "id": "carosiero",
+    "word": "carosiero",
+    "reason": "Carosiero no es una forma documentada; parece un error por carrocero."
+  },
+  {
+    "id": "caucense",
+    "word": "caucense",
+    "reason": "El DLE define caucense como natural de Coca, Segovia, y como adjetivo relativo a ese lugar."
+  },
+  {
+    "id": "cercear",
+    "word": "cercear",
+    "reason": "El DLE marca el verbo como propio de León y Palencia."
+  },
+  {
+    "id": "cercillo",
+    "word": "cercillo",
+    "reason": "Sus sentidos son regional salmantino, desusado o agrícola; ninguno cumple el criterio de uso general."
+  },
+  {
+    "id": "cicahuite",
+    "word": "cicahuite",
+    "reason": "El DLE lo marca como árbol de El Salvador y Honduras; es una voz botánica regional."
+  },
+  {
+    "id": "codez",
+    "word": "codez",
+    "reason": "Codez no aparece como forma inglesa o española documentada en el criterio de verificación; la glosa es una descripción común, no un lema válido."
   }
 ]

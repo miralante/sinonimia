@@ -86601,5 +86601,85 @@
     "id": "big-cat",
     "word": "Big cat",
     "reason": "Big cat is a familiar, transparent phrase for a large wild cat."
+  },
+  {
+    "id": "apiary-2",
+    "word": "Apiary",
+    "reason": "La glosa sobre recuento de ganado no corresponde a apiary; el sentido documentado es un lugar para colmenas y tiene utilidad especializada."
+  },
+  {
+    "id": "sesame-2",
+    "word": "Sesame",
+    "reason": "La glosa describe de forma transparente algo relativo al sésamo, un alimento común; no aporta una palabra difícil de utilidad general."
+  },
+  {
+    "id": "stealth-3",
+    "word": "Stealth",
+    "reason": "The gloss “seal, mark with a sign” does not match any Collins sense of stealth."
+  },
+  {
+    "id": "hungry-3",
+    "word": "Hungry",
+    "reason": "Hungry is a common basic adjective, and “U. in Sal” is not a usable definition."
+  },
+  {
+    "id": "grinder-10",
+    "word": "Grinder",
+    "reason": "The gloss only says that grinder derives from grinding; it is circular and does not define a distinct sense."
+  },
+  {
+    "id": "shake-8",
+    "word": "Shake",
+    "reason": "The gloss about playing a stringed instrument with a bow does not match the documented senses of shake."
+  },
+  {
+    "id": "gymnastics-2",
+    "word": "Gymnastics",
+    "reason": "The candidate describes a competition at an educational center, which is not a separate Collins sense; gymnastics is a common word."
+  },
+  {
+    "id": "china",
+    "word": "China",
+    "reason": "The gloss about a cattle-offal seller is invalid; Collins documents china as ceramic ware and China as a country, neither meeting the criteria for this candidate."
+  },
+  {
+    "id": "garron",
+    "word": "Garron",
+    "reason": "Collins define garron como un poni robusto criado sobre todo en Escocia e Irlanda; es un término regional de baja utilidad."
+  },
+  {
+    "id": "mister-2",
+    "word": "Mister",
+    "reason": "Mister es un tratamiento común; “U. with neg.” no constituye una definición legible."
+  },
+  {
+    "id": "rigority-3",
+    "word": "Rigority",
+    "reason": "Rigority-3 is not a documented Collins headword; its gloss is an incomplete Spanish regional-use note."
+  },
+  {
+    "id": "habitat",
+    "word": "Habitat",
+    "reason": "Habitat is a familiar basic word for the natural home of an animal or plant."
+  },
+  {
+    "id": "choped",
+    "word": "Choped",
+    "reason": "Choped is not a documented English headword in Collins; the definition is an incomplete or corrupted gloss."
+  },
+  {
+    "id": "chip-6",
+    "word": "Chip",
+    "reason": "Chip is a common basic word, and “and Mex.” is an incomplete regional label rather than a definition."
+  },
+  {
+    "id": "coracan",
+    "word": "Coracan",
+    "reason": "Coracan is not a documented English headword in Collins, and the proposed gloss is unsupported."
+  },
+  {
+    "id": "sexagesimal",
+    "word": "Sexagesimal",
+    "reason": "Sexagesimal correctly relates to base 60, but it is a narrow mathematics term with low general utility; the candidate incorrectly says six."
   }
 ]
