@@ -1,6 +1,6 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5143",
+  "runtime": "v5144",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
@@ -9,10 +9,10 @@
   },
   "latestLedgerBatchCount": 126,
   "latestLedgerReviewedIdCount": 2526,
-  "appliedCount": 1066,
+  "appliedCount": 1086,
   "appliedByLanguage": {
-    "es": 537,
-    "en": 529
+    "es": 547,
+    "en": 539
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -68,7 +68,8 @@
     "B15-ninetyseventh-20-verdicts.json",
     "B15-ninetyeighth-20-verdicts.json",
     "B15-ninetyninth-20-verdicts.json",
-    "B15-onehundredth-20-verdicts.json"
+    "B15-onehundredth-20-verdicts.json",
+    "B15-onehundredfirst-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -6651,6 +6652,126 @@
       "language": "en",
       "id": "gesture-5",
       "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "es",
+      "id": "talayote",
+      "decision": "exclude-regional-botanical-name"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "es",
+      "id": "teleindicador",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "es",
+      "id": "canihua",
+      "decision": "exclude-specialized-crop-name"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "es",
+      "id": "currican",
+      "decision": "exclude-specialized-fishing-term"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "es",
+      "id": "delusivo",
+      "decision": "exclude-rare-literary-adjective"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "es",
+      "id": "bivitelino",
+      "decision": "exclude-specialized-biological-term"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "es",
+      "id": "boquirrasgado",
+      "decision": "exclude-rare-descriptive-compound"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "es",
+      "id": "cacaro",
+      "decision": "exclude-regional-occupation-term"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "es",
+      "id": "canceleria",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "es",
+      "id": "cazolero",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "en",
+      "id": "move-5",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "en",
+      "id": "countryman-4",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "en",
+      "id": "southern-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "en",
+      "id": "spreader-2",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "en",
+      "id": "silicone-2",
+      "decision": "exclude-corrupt-word-confusion"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "en",
+      "id": "lunch-8",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "en",
+      "id": "muddy-12",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "en",
+      "id": "consensual",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "en",
+      "id": "coagulable",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfirst-20-verdicts.json",
+      "language": "en",
+      "id": "millionites",
+      "decision": "exclude-corrupt-misspelling"
     }
   ],
   "pendingBatch25": [

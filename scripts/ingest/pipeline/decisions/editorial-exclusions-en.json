@@ -84901,5 +84901,25 @@
     "id": "morocco-2",
     "word": "Morocco",
     "reason": "The entry uses the country name for an alleged percussion instrument and appears to be a casing or data error."
+  },
+  {
+    "id": "move-5",
+    "word": "Move",
+    "reason": "The definition of a succession of events does not match a reliable general sense of move."
+  },
+  {
+    "id": "silicone-2",
+    "word": "Silicone",
+    "reason": "The entry defines silicosis, a lung disease, rather than silicone, the material; the gloss is attached to the wrong headword."
+  },
+  {
+    "id": "lunch-8",
+    "word": "Lunch",
+    "reason": "The gloss “commissioned thing” does not match any reliable sense of lunch."
+  },
+  {
+    "id": "millionites",
+    "word": "Millionites",
+    "reason": "This form is not a reliable spelling of millionaire and the definition does not match the headword."
   }
 ]
