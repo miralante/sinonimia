@@ -265717,5 +265717,77 @@
         "text": "New technology can transform public transport."
       }
     }
+  },
+  {
+    "entry": "judiciary-2",
+    "remove": [],
+    "set": {
+      "definition": "The branch of government made up of a country's judges and courts.",
+      "synonyms": [
+        "court system"
+      ],
+      "example": {
+        "word": "judiciary",
+        "text": "The judiciary reviewed the new law."
+      },
+      "exampleSynonym": {
+        "word": "court system",
+        "text": "The court system reviewed the new law."
+      }
+    }
+  },
+  {
+    "entry": "condominium-2",
+    "remove": [],
+    "set": {
+      "definition": "Building of separately owned homes with shared areas.",
+      "synonyms": [
+        "condo building"
+      ],
+      "example": {
+        "word": "condominium",
+        "text": "The condominium has a shared pool."
+      },
+      "exampleSynonym": {
+        "word": "condo building",
+        "text": "The condo building has a shared pool."
+      }
+    }
+  },
+  {
+    "entry": "countryman-2",
+    "remove": [],
+    "set": {
+      "definition": "A person from the same country as you.",
+      "synonyms": [
+        "compatriot"
+      ],
+      "example": {
+        "word": "countryman",
+        "text": "A countryman from Spain met us at the station."
+      },
+      "exampleSynonym": {
+        "word": "compatriot",
+        "text": "A compatriot from Spain met us at the station."
+      }
+    }
+  },
+  {
+    "entry": "stencil-2",
+    "remove": [],
+    "set": {
+      "definition": "A sheet with cut-out shapes used to paint a pattern.",
+      "synonyms": [
+        "template"
+      ],
+      "example": {
+        "word": "stencil",
+        "text": "She placed a stencil on the wall."
+      },
+      "exampleSynonym": {
+        "word": "template",
+        "text": "She placed a template on the wall."
+      }
+    }
   }
 ]

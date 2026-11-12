@@ -265000,5 +265000,185 @@
         "text": "La tropa ocupó la plaza."
       }
     }
+  },
+  {
+    "entry": "gimoteo",
+    "remove": [],
+    "set": {
+      "definition": "Lloriqueo o sollozo débil y quejumbroso.",
+      "synonyms": [
+        "lloriqueo"
+      ],
+      "example": {
+        "word": "gimoteo",
+        "text": "El gimoteo del niño cesó al verla."
+      },
+      "exampleSynonym": {
+        "word": "lloriqueo",
+        "text": "El lloriqueo del niño cesó al verla."
+      }
+    }
+  },
+  {
+    "entry": "morralla",
+    "remove": [],
+    "set": {
+      "definition": "Conjunto de cosas inútiles o de muy poco valor.",
+      "synonyms": [
+        "chatarra"
+      ],
+      "example": {
+        "word": "morralla",
+        "text": "El artículo mezcla información útil con morralla."
+      },
+      "exampleSynonym": {
+        "word": "chatarra",
+        "text": "El artículo mezcla información útil con chatarra."
+      }
+    }
+  },
+  {
+    "entry": "tabletear",
+    "remove": [],
+    "set": {
+      "definition": "Chocar tablas para producir un ruido repetido.",
+      "synonyms": [
+        "repiquetear"
+      ],
+      "example": {
+        "word": "tabletear",
+        "text": "Los niños comenzaron a tabletear con las tapas."
+      },
+      "exampleSynonym": {
+        "word": "repiquetear",
+        "text": "Los niños comenzaron a repiquetear con las tapas."
+      }
+    }
+  },
+  {
+    "entry": "tartan",
+    "remove": [],
+    "set": {
+      "definition": "Tejido de lana con cuadros o líneas cruzadas de colores, de Escocia.",
+      "synonyms": [
+        "tejido escocés"
+      ],
+      "example": {
+        "word": "tartán",
+        "text": "Llevaba una falda de tartán rojo."
+      },
+      "exampleSynonym": {
+        "word": "tejido escocés",
+        "text": "Llevaba una falda de tejido escocés rojo."
+      }
+    }
+  },
+  {
+    "entry": "terraqueo",
+    "remove": [],
+    "set": {
+      "definition": "Dicho de un globo: que muestra las tierras y mares del planeta.",
+      "synonyms": [
+        "terrestre"
+      ],
+      "example": {
+        "word": "terráqueo",
+        "text": "El globo terráqueo mostraba la ruta de la expedición."
+      },
+      "exampleSynonym": {
+        "word": "terrestre",
+        "text": "El globo terrestre mostraba la ruta de la expedición."
+      }
+    }
+  },
+  {
+    "entry": "ufania",
+    "remove": [],
+    "set": {
+      "definition": "Orgullo o presunción que alguien muestra por sí mismo.",
+      "synonyms": [
+        "presunción"
+      ],
+      "example": {
+        "word": "ufanía",
+        "text": "Habló con ufanía de su esfuerzo."
+      },
+      "exampleSynonym": {
+        "word": "presunción",
+        "text": "Habló con presunción de su esfuerzo."
+      }
+    }
+  },
+  {
+    "entry": "umbrio",
+    "remove": [],
+    "set": {
+      "definition": "Dicho de un lugar: donde llega poco el sol.",
+      "synonyms": [
+        "sombrío"
+      ],
+      "example": {
+        "word": "umbrío",
+        "text": "Buscamos un rincón umbrío para descansar."
+      },
+      "exampleSynonym": {
+        "word": "sombrío",
+        "text": "Buscamos un rincón sombrío para descansar."
+      }
+    }
+  },
+  {
+    "entry": "voluntariedad",
+    "remove": [],
+    "set": {
+      "definition": "Carácter de una acción que se elige sin obligación ni presión.",
+      "synonyms": [
+        "elección libre"
+      ],
+      "example": {
+        "word": "voluntariedad",
+        "text": "La voluntariedad debe quedar clara antes de firmar."
+      },
+      "exampleSynonym": {
+        "word": "elección libre",
+        "text": "La elección libre debe quedar clara antes de firmar."
+      }
+    }
+  },
+  {
+    "entry": "zalameria",
+    "remove": [],
+    "set": {
+      "definition": "Demostración fingida y empalagosa de cariño.",
+      "synonyms": [
+        "carantoña"
+      ],
+      "example": {
+        "word": "zalamería",
+        "text": "Basta de zalamería; dime qué necesitas."
+      },
+      "exampleSynonym": {
+        "word": "carantoña",
+        "text": "Basta de carantoña; dime qué necesitas."
+      }
+    }
+  },
+  {
+    "entry": "afrodisiaco",
+    "remove": [],
+    "set": {
+      "definition": "Dicho de algo: que aumenta o estimula el deseo sexual.",
+      "synonyms": [
+        "estimulante"
+      ],
+      "example": {
+        "word": "afrodisíaco",
+        "text": "El chocolate se considera afrodisíaco."
+      },
+      "exampleSynonym": {
+        "word": "estimulante",
+        "text": "El chocolate se considera estimulante."
+      }
+    }
   }
 ]

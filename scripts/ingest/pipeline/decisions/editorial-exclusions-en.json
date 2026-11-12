@@ -89646,5 +89646,135 @@
     "id": "scrofulariaceae",
     "word": "Scrofulariaceae",
     "reason": "The candidate misspells Scrophulariaceae, a specialist plant-family name."
+  },
+  {
+    "id": "rickets",
+    "word": "Rickets",
+    "reason": "Rickets is a disease, not an instrument for opening the spinal canal; the candidate is corrupt and medically specialized."
+  },
+  {
+    "id": "sociative",
+    "word": "Sociative",
+    "reason": "Sociative is a specialist grammatical term, and the candidate definition is not clear or self-contained."
+  },
+  {
+    "id": "salted",
+    "word": "Salted",
+    "reason": "The emotional sense belongs to salty, not salted; the ordinary food sense is common and transparent."
+  },
+  {
+    "id": "coachman-2",
+    "word": "Coachman",
+    "reason": "Coachman is an outdated job title for a man who drove a horse-drawn carriage."
+  },
+  {
+    "id": "lodging-2",
+    "word": "lodging",
+    "reason": "The candidate describes crops flattened by wind or rain, a specialized agricultural sense that is poorly translated."
+  },
+  {
+    "id": "hug-2",
+    "word": "Hug",
+    "reason": "Hug is a common word for embracing; “action or effect of shaking” is an incorrect definition."
+  },
+  {
+    "id": "grooming-2",
+    "word": "Grooming",
+    "reason": "Grooming is a common noun or verb form with a direct meaning; the candidate is repetitive."
+  },
+  {
+    "id": "southeast-2",
+    "word": "Southeast",
+    "reason": "Southeast is a basic compass direction and its definition is direct."
+  },
+  {
+    "id": "affected-4",
+    "word": "Affected",
+    "reason": "Affected is common and the candidate sense of something formed by habit does not match its usual meaning."
+  },
+  {
+    "id": "chipping-2",
+    "word": "Chipping",
+    "reason": "Chipping is a transparent form of chip and the candidate definition simply repeats the word."
+  },
+  {
+    "id": "knocker-3",
+    "word": "knocker",
+    "reason": "Knocker is a noun for a door device or person; the candidate instead gives an imperative phrase."
+  },
+  {
+    "id": "lock-5",
+    "word": "lock",
+    "reason": "A high, steep hill is not a standard meaning of lock; the candidate may confuse lock with another word."
+  },
+  {
+    "id": "comfort-2",
+    "word": "Comfort",
+    "reason": "Comfort is a common word and the candidate only repeats its adjective form."
+  },
+  {
+    "id": "shit-2",
+    "word": "shit",
+    "reason": "Shit is vulgar and the candidate's meaning “get sick” is not a reliable English sense."
+  },
+  {
+    "id": "interline-2",
+    "word": "Interline",
+    "reason": "Interline meaning to write between lines is a specialized editing or publishing verb with limited general use."
+  },
+  {
+    "id": "change-8",
+    "word": "Change",
+    "reason": "Change is a common word; the candidate's water-distribution definition is not a reliable English sense."
+  },
+  {
+    "id": "interlining-3",
+    "word": "Interlining",
+    "reason": "Interlining is a specialized clothing-making process and has limited general synonymy value."
+  },
+  {
+    "id": "coke-2",
+    "word": "coke",
+    "reason": "The candidate definition “chew, chew” does not match coke and appears to be a corrupted translation."
+  },
+  {
+    "id": "courageous-3",
+    "word": "Courageous",
+    "reason": "Courageous means brave; the candidate definition describes someone who becomes angry easily."
+  },
+  {
+    "id": "spend-2",
+    "word": "Spend",
+    "reason": "Spend is a common verb, and the candidate gives a basic financial sense."
+  },
+  {
+    "id": "mirror-5",
+    "word": "Mirror",
+    "reason": "Mirror is a common verb for reflecting an image or copying a quality; the candidate only repeats a basic sense."
+  },
+  {
+    "id": "gesture-3",
+    "word": "Gesture",
+    "reason": "Gesture means a movement that communicates an idea or feeling; it does not mean face or countenance."
+  },
+  {
+    "id": "rehearse-3",
+    "word": "Rehearse",
+    "reason": "Rehearse is a common verb for practising before a performance, and the candidate repeats the headword."
+  },
+  {
+    "id": "mournful-2",
+    "word": "mournful",
+    "reason": "Mournful is a transparent adjective meaning very sad or showing sadness."
+  },
+  {
+    "id": "molding-2",
+    "word": "Molding",
+    "reason": "The candidate gives a technical industrial process; molding also has other common meanings, but this specialist sense is low utility."
+  },
+  {
+    "id": "investigation-4",
+    "word": "Investigation",
+    "reason": "Investigation is a common noun for a search to discover facts, and the candidate defines it plainly."
   }
 ]
