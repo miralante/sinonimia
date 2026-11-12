@@ -84536,5 +84536,45 @@
     "id": "consented",
     "word": "consented",
     "reason": "Consented is the regular past-tense and past-participle form of consent, not an independent lexical entry; the proposed gloss is unrelated."
+  },
+  {
+    "id": "rhizophage",
+    "word": "rhizophage",
+    "reason": "A rare biological term for an organism that feeds on roots, with little value in a general synonym dictionary."
+  },
+  {
+    "id": "syndactyl",
+    "word": "syndactyl",
+    "reason": "This is a specialized anatomical adjective for joined fingers or toes, not a general vocabulary item."
+  },
+  {
+    "id": "chromaticism",
+    "word": "chromaticism",
+    "reason": "The gloss defines achromatism, the opposite concept, rather than chromaticism."
+  },
+  {
+    "id": "haficient",
+    "word": "haficient",
+    "reason": "The headword and definition are corrupted fragments, not a verifiable English word or sense."
+  },
+  {
+    "id": "geobotanist",
+    "word": "geobotanist",
+    "reason": "A specialist in the geographic distribution of plants; too technical for a general synonym dictionary."
+  },
+  {
+    "id": "spikey",
+    "word": "spikey",
+    "reason": "The gloss is unrelated to the usual meaning of spiky and the headword is a nonpreferred spelling variant."
+  },
+  {
+    "id": "gyrostatic",
+    "word": "gyrostatic",
+    "reason": "A technical adjective relating to a gyrostat, with little use outside engineering and physics."
+  },
+  {
+    "id": "cordilleran",
+    "word": "cordilleran",
+    "reason": "The gloss “of a saw” is unrelated; the true geographic adjective is rare and highly specialized."
   }
 ]

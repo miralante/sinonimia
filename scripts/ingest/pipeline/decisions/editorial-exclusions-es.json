@@ -90407,5 +90407,35 @@
     "id": "wellingtonia",
     "word": "wellingtonia",
     "reason": "Nombre botánico histórico y ambiguo que se aplicó a plantas distintas; se conserva el nombre científico actual en botánica especializada."
+  },
+  {
+    "id": "cacaseno",
+    "word": "cacaseno",
+    "reason": "Insulto coloquial con carga ofensiva y sin un sentido neutral que justifique una ficha de sinonimia."
+  },
+  {
+    "id": "carolinense",
+    "word": "carolinense",
+    "reason": "Gentilicio de una localidad concreta; no aporta una entrada de sinonimia general."
+  },
+  {
+    "id": "chinandegano",
+    "word": "chinandegano",
+    "reason": "Gentilicio de Chinandega, de uso local y sin un sinónimo independiente."
+  },
+  {
+    "id": "cirripedo",
+    "word": "cirrípedo",
+    "reason": "Término científico para un grupo de crustáceos, no equivalente exacto de percebe y poco útil fuera de la zoología."
+  },
+  {
+    "id": "volcanologo",
+    "word": "volcanólogo",
+    "reason": "Variante de vulcanólogo; se evita mantener dos fichas para el mismo nombre de especialista."
+  },
+  {
+    "id": "berberideo",
+    "word": "berberídeo",
+    "reason": "Adjetivo taxonómico referido a una familia de plantas; demasiado especializado para un diccionario general."
   }
 ]
