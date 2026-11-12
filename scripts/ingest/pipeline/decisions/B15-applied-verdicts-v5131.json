@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5153",
+  "runtime": "v5154",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1468,
-    "en": 1438
+    "es": 1498,
+    "en": 1468
   },
-  "latestLedgerBatchCount": 145,
-  "latestLedgerReviewedIdCount": 2906,
-  "appliedCount": 1255,
+  "latestLedgerBatchCount": 148,
+  "latestLedgerReviewedIdCount": 2966,
+  "appliedCount": 2015,
   "appliedByLanguage": {
-    "es": 636,
-    "en": 619
+    "es": 1016,
+    "en": 999
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -78,7 +78,45 @@
     "B15-onehundredseventh-20-verdicts.json",
     "B15-onehundredeighth-20-verdicts.json",
     "B15-onehundredninth-20-verdicts.json",
-    "B15-onehundredtenth-20-verdicts.json"
+    "B15-onehundredtenth-20-verdicts.json",
+    "B15-onehundredeleventh-20-verdicts.json",
+    "B15-onehundredtwelfth-20-verdicts.json",
+    "B15-onehundredthirteenth-20-verdicts.json",
+    "B15-onehundredfourteenth-20-verdicts.json",
+    "B15-onehundredfifteenth-20-verdicts.json",
+    "B15-onehundredsixteenth-20-verdicts.json",
+    "B15-onehundredseventeenth-20-verdicts.json",
+    "B15-onehundredeighteenth-20-verdicts.json",
+    "B15-onehundrednineteenth-20-verdicts.json",
+    "B15-onehundredtwentieth-20-verdicts.json",
+    "B15-onehundredtwentyfirst-20-verdicts.json",
+    "B15-onehundredtwentysecond-20-verdicts.json",
+    "B15-onehundredtwentythird-20-verdicts.json",
+    "B15-onehundredtwentyfourth-20-verdicts.json",
+    "B15-onehundredtwentyfifth-20-verdicts.json",
+    "B15-onehundredtwentysixth-20-verdicts.json",
+    "B15-onehundredtwentyseventh-20-verdicts.json",
+    "B15-onehundredtwentyeighth-20-verdicts.json",
+    "B15-onehundredtwentyninth-20-verdicts.json",
+    "B15-onehundredthirtieth-20-verdicts.json",
+    "B15-onehundredthirtyfirst-20-verdicts.json",
+    "B15-onehundredthirtysecond-20-verdicts.json",
+    "B15-onehundredthirtythird-20-verdicts.json",
+    "B15-onehundredthirtyfourth-20-verdicts.json",
+    "B15-onehundredthirtyfifth-20-verdicts.json",
+    "B15-onehundredthirtysixth-20-verdicts.json",
+    "B15-onehundredthirtyseventh-20-verdicts.json",
+    "B15-onehundredthirtyeighth-20-verdicts.json",
+    "B15-onehundredthirtyninth-20-verdicts.json",
+    "B15-onehundredfortieth-20-verdicts.json",
+    "B15-onehundredfortyfirst-20-verdicts.json",
+    "B15-onehundredfortysecond-20-verdicts.json",
+    "B15-onehundredfortythird-20-verdicts.json",
+    "B15-onehundredfortyfourth-20-verdicts.json",
+    "B15-onehundredfortyfifth-20-verdicts.json",
+    "B15-onehundredfortysixth-20-verdicts.json",
+    "B15-onehundredfortyseventh-20-verdicts.json",
+    "B15-onehundredfortyeighth-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -263,6 +301,11 @@
     {
       "id": "b15-scratchy-sound",
       "adjustment": "Replaced the redundant example pair with “The old speaker made a scratchy noise.” / “The old speaker made a harsh-sounding noise.”"
+    },
+    {
+      "reason": "B131 splits desembocar into three reviewed cards; remove the obsolete translation-unset correction targeting the replaced base entry.",
+      "entry": "desembocar",
+      "file": "scripts/ingest/pipeline/decisions/synonym-corrections-es.json"
     }
   ],
   "applied": [
@@ -7795,6 +7838,4566 @@
       "language": "en",
       "id": "flake-4",
       "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "es",
+      "id": "bracman",
+      "decision": "exclude-obsolete-spelling-variant"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "es",
+      "id": "busier",
+      "decision": "exclude-obsolete-court-office"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "es",
+      "id": "cahuerco",
+      "decision": "exclude-obsolete-regional-noun"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "es",
+      "id": "caladre",
+      "decision": "exclude-rare-bird-name-variant"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "es",
+      "id": "calotipia",
+      "decision": "exclude-obsolete-photography-process-variant"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "es",
+      "id": "caparro",
+      "decision": "exclude-regional-animal-name"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "es",
+      "id": "carbonarismo",
+      "decision": "exclude-specialized-historical-movement"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "es",
+      "id": "carruchera",
+      "decision": "exclude-rare-regional-noun"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "es",
+      "id": "catera",
+      "decision": "exclude-regional-variant"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "es",
+      "id": "cerrejon",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "en",
+      "id": "accident-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "en",
+      "id": "jet-2",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "en",
+      "id": "clear-4",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "en",
+      "id": "creepy-5",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "en",
+      "id": "inject-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "en",
+      "id": "solid-2",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "en",
+      "id": "sip-3",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "en",
+      "id": "hammock-3",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "en",
+      "id": "strict-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeleventh-20-verdicts.json",
+      "language": "en",
+      "id": "simian-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "es",
+      "id": "cervatica",
+      "decision": "exclude-obscure-regional-crustacean-name"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "es",
+      "id": "copazo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "es",
+      "id": "cordada",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "es",
+      "id": "costalazo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "es",
+      "id": "desemballestar",
+      "decision": "exclude-specialized-falconry-verb"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "es",
+      "id": "desolladero",
+      "decision": "exclude-specialized-slaughter-site"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "es",
+      "id": "estimabilidad",
+      "decision": "exclude-rare-abstract-noun"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "es",
+      "id": "horconadura",
+      "decision": "exclude-rare-construction-term"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "es",
+      "id": "insonoridad",
+      "decision": "exclude-unclear-technical-noun"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "es",
+      "id": "retamon",
+      "decision": "exclude-regional-botanical-shrub"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "en",
+      "id": "common-2",
+      "decision": "exclude-corrupt-part-of-speech-entry"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "en",
+      "id": "retainer",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "en",
+      "id": "splash-8",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "en",
+      "id": "support-6",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "en",
+      "id": "tantrum-6",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "en",
+      "id": "logical-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "en",
+      "id": "pingorot",
+      "decision": "exclude-unverified-foreign-term"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "en",
+      "id": "mixtion",
+      "decision": "exclude-obsolete-chemical-term"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "en",
+      "id": "ribose",
+      "decision": "exclude-specialized-biochemistry-term"
+    },
+    {
+      "batch": "B15-onehundredtwelfth-20-verdicts.json",
+      "language": "en",
+      "id": "sovereign-3",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "es",
+      "id": "sandiego",
+      "decision": "exclude-regional-ornamental-plant-name"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "es",
+      "id": "senescalado",
+      "decision": "exclude-obsolete-feudal-jurisdiction"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "es",
+      "id": "sillada",
+      "decision": "exclude-rare-geographical-landform"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "es",
+      "id": "simaruba",
+      "decision": "exclude-specialized-regional-tree-name"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "es",
+      "id": "sincuya",
+      "decision": "exclude-regional-fruit-name"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "es",
+      "id": "sinvergonzonada",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "es",
+      "id": "sobrecana",
+      "decision": "exclude-specialized-veterinary-condition"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "es",
+      "id": "sobrecostura",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "es",
+      "id": "supriorato",
+      "decision": "exclude-specialized-religious-office"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "es",
+      "id": "tiperia",
+      "decision": "exclude-rare-regional-slang"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "en",
+      "id": "cardoncillo",
+      "decision": "exclude-foreign-botanical-name"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "en",
+      "id": "miss-5",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "en",
+      "id": "nucleon",
+      "decision": "exclude-specialized-physics-term"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "en",
+      "id": "short-stockings",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "en",
+      "id": "skimp-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "en",
+      "id": "cotton-cloth-for-cleaning",
+      "decision": "exclude-descriptive-nonlexical-phrase"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "en",
+      "id": "chili-8",
+      "decision": "exclude-specialized-botanical-homonym"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "en",
+      "id": "chili-20",
+      "decision": "exclude-specialized-ethnomusicological-term"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "en",
+      "id": "coachwork",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirteenth-20-verdicts.json",
+      "language": "en",
+      "id": "offeror",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "es",
+      "id": "verdemontana",
+      "decision": "exclude-specialized-mineral-name"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "es",
+      "id": "videoteca",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "es",
+      "id": "avugo",
+      "decision": "exclude-rare-regional-adjective"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "es",
+      "id": "bofarse",
+      "decision": "exclude-rare-archaic-verb"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "es",
+      "id": "brafonera",
+      "decision": "exclude-obsolete-clothing-accessory"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "es",
+      "id": "cabete",
+      "decision": "exclude-rare-regional-bag-term"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "es",
+      "id": "cajear",
+      "decision": "exclude-corrupt-colloquial-definition"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "es",
+      "id": "callicida",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "es",
+      "id": "canamiel",
+      "decision": "exclude-regional-traditional-drink"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "es",
+      "id": "celere",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "en",
+      "id": "missal",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "en",
+      "id": "grooving",
+      "decision": "exclude-specialized-textile-defect"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "en",
+      "id": "relic",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "en",
+      "id": "splinterable",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "en",
+      "id": "group",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "en",
+      "id": "sea-bream",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "en",
+      "id": "conceivable",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "en",
+      "id": "mildness",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "en",
+      "id": "commissary",
+      "decision": "exclude-ambiguous-specialized-office"
+    },
+    {
+      "batch": "B15-onehundredfourteenth-20-verdicts.json",
+      "language": "en",
+      "id": "resinify",
+      "decision": "exclude-rare-chemical-process-verb"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "es",
+      "id": "cerchon",
+      "decision": "exclude-rare-archaic-object-term"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "es",
+      "id": "chiltepe",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "es",
+      "id": "cristologia",
+      "decision": "exclude-specialized-theological-discipline"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "es",
+      "id": "dendrografia",
+      "decision": "exclude-specialized-botanical-discipline"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "es",
+      "id": "descantonar",
+      "decision": "exclude-rare-unclear-verb"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "es",
+      "id": "desgaire",
+      "decision": "exclude-rare-expression-based-noun"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "es",
+      "id": "gachumbo",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "es",
+      "id": "llapar",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "es",
+      "id": "mimetizar",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "es",
+      "id": "opoponace",
+      "decision": "exclude-corrupt-specialized-plant-entry"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "en",
+      "id": "slender",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "en",
+      "id": "fulminate",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "en",
+      "id": "coagent",
+      "decision": "exclude-specialized-medical-term"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "en",
+      "id": "chondril",
+      "decision": "exclude-corrupt-obscure-creature-name"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "en",
+      "id": "nightwalking",
+      "decision": "exclude-corrupt-nonstandard-entry"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "en",
+      "id": "obnubilate",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "en",
+      "id": "sponton",
+      "decision": "exclude-obsolete-military-object"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "en",
+      "id": "chylogrammeter",
+      "decision": "exclude-obsolete-unit-variant"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "en",
+      "id": "messor",
+      "decision": "exclude-obsolete-calendar-term"
+    },
+    {
+      "batch": "B15-onehundredfifteenth-20-verdicts.json",
+      "language": "en",
+      "id": "multimember",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "es",
+      "id": "sardio",
+      "decision": "exclude-specialized-mineral-name"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "es",
+      "id": "socaz",
+      "decision": "exclude-specialized-mill-channel-term"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "es",
+      "id": "tapacosturas",
+      "decision": "exclude-specialized-sewing-trim"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "es",
+      "id": "telegenia",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "es",
+      "id": "trasvinarse",
+      "decision": "exclude-rare-winemaking-verb"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "es",
+      "id": "trencellin",
+      "decision": "exclude-rare-textile-trim-term"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "es",
+      "id": "verdeceladon",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "es",
+      "id": "viracocha",
+      "decision": "exclude-specific-religious-deity-name"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "es",
+      "id": "barredero",
+      "decision": "exclude-corrupt-gender-variant"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "es",
+      "id": "villanesca",
+      "decision": "exclude-rare-literary-adjective"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "en",
+      "id": "sidestep",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "en",
+      "id": "supernatant",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "en",
+      "id": "steering-wheel",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "en",
+      "id": "sarramplinada",
+      "decision": "exclude-foreign-insult-entry"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "en",
+      "id": "neurobiologist",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "en",
+      "id": "coffee-grower",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "en",
+      "id": "fulminic",
+      "decision": "exclude-specialized-chemical-adjective"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "en",
+      "id": "sole",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "en",
+      "id": "early-riser",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredsixteenth-20-verdicts.json",
+      "language": "en",
+      "id": "geomancer",
+      "decision": "exclude-specialized-occult-practitioner"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "es",
+      "id": "citoplasmatico",
+      "decision": "exclude-specialized-cell-biology-adjective"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "es",
+      "id": "ideologo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "es",
+      "id": "anfibologico",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "es",
+      "id": "antiafrodisiaco",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "es",
+      "id": "conglomerante",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "es",
+      "id": "dello",
+      "decision": "exclude-obsolete-contraction"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "es",
+      "id": "valdense",
+      "decision": "exclude-specialized-religious-affiliation"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "es",
+      "id": "beniano",
+      "decision": "exclude-regional-demonym-adjective"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "es",
+      "id": "corografico",
+      "decision": "exclude-specialized-geography-adjective"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "es",
+      "id": "vermifugo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "en",
+      "id": "supreme",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "en",
+      "id": "teleworker-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "en",
+      "id": "refund-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "en",
+      "id": "sales-commission-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "en",
+      "id": "splint-2",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "en",
+      "id": "shelling-2",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "en",
+      "id": "buildable-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "en",
+      "id": "dismantle-7",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "en",
+      "id": "sniff-2",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredseventeenth-20-verdicts.json",
+      "language": "en",
+      "id": "show-off-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "es",
+      "id": "cacharrero",
+      "decision": "exclude-corrupt-mixed-language-entry"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "es",
+      "id": "bolinero",
+      "decision": "exclude-rare-game-related-adjective"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "es",
+      "id": "calador",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "es",
+      "id": "caperuzado",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "es",
+      "id": "capulo",
+      "decision": "exclude-specialized-botanical-term"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "es",
+      "id": "cejunto",
+      "decision": "exclude-rare-stigmatizing-description"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "es",
+      "id": "cocedizo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "es",
+      "id": "codelincuente",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "es",
+      "id": "coyolero",
+      "decision": "exclude-regional-botanical-adjective"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "es",
+      "id": "demostino",
+      "decision": "exclude-specialized-classical-adjective"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "en",
+      "id": "ironworks-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "en",
+      "id": "laziness-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "en",
+      "id": "silver-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "en",
+      "id": "immovable-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "en",
+      "id": "salting-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "en",
+      "id": "slimy-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "en",
+      "id": "endorse-6",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "en",
+      "id": "squishy-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "en",
+      "id": "square-5",
+      "decision": "exclude-corrupt-diminutive-entry"
+    },
+    {
+      "batch": "B15-onehundredeighteenth-20-verdicts.json",
+      "language": "en",
+      "id": "cardboard-4",
+      "decision": "exclude-corrupt-book-binding-entry"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "es",
+      "id": "glaucomatoso",
+      "decision": "exclude-specialized-medical-adjective"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "es",
+      "id": "becqueriana",
+      "decision": "exclude-specialized-literary-adjective"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "es",
+      "id": "aprobante",
+      "decision": "exclude-rare-legal-participle"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "es",
+      "id": "arcual",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "es",
+      "id": "cenata",
+      "decision": "exclude-rare-obsolete-dinner-term"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "es",
+      "id": "corcoveta",
+      "decision": "exclude-stigmatizing-person-label"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "es",
+      "id": "cusqui",
+      "decision": "exclude-rare-regional-verb"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "es",
+      "id": "hordiate",
+      "decision": "exclude-obsolete-grain-food-term"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "es",
+      "id": "biarca",
+      "decision": "exclude-obsolete-roman-military-office"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "es",
+      "id": "anegociado",
+      "decision": "exclude-obsolete-adjective"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "en",
+      "id": "word-4",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "en",
+      "id": "mat-4",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "en",
+      "id": "resting-place-2",
+      "decision": "exclude-corrupt-phrase-entry"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "en",
+      "id": "salmon-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "en",
+      "id": "supporter-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "en",
+      "id": "table-2",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "en",
+      "id": "barber-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "en",
+      "id": "monastery-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "en",
+      "id": "joy-4",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundrednineteenth-20-verdicts.json",
+      "language": "en",
+      "id": "stay-3",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "es",
+      "id": "bastecedor",
+      "decision": "exclude-obsolete-spelling-variant"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "es",
+      "id": "carioso",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "es",
+      "id": "chulangano",
+      "decision": "exclude-rare-colloquial-adjective"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "es",
+      "id": "costilludo",
+      "decision": "exclude-rare-descriptive-adjective"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "es",
+      "id": "reviejo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "es",
+      "id": "estilografica",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "es",
+      "id": "gleba",
+      "decision": "exclude-rare-agricultural-land-term"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "es",
+      "id": "lisonjero",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "es",
+      "id": "lumbroso",
+      "decision": "exclude-rare-literary-adjective"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "es",
+      "id": "morigerado",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "en",
+      "id": "get-dressed-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "en",
+      "id": "coarseness-2",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "en",
+      "id": "sinful-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "en",
+      "id": "shoulder-4",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "en",
+      "id": "slip-6",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "en",
+      "id": "sausage-7",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "en",
+      "id": "spanking-10",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "en",
+      "id": "shine-7",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "en",
+      "id": "guanche",
+      "decision": "exclude-specialized-historical-ethnonym"
+    },
+    {
+      "batch": "B15-onehundredtwentieth-20-verdicts.json",
+      "language": "en",
+      "id": "mark-3",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "retazo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "sarasa",
+      "decision": "exclude-stigmatizing-obsolete-senses"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "sifonero",
+      "decision": "exclude-obsolete-regional-occupation"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "silabear",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "solicitador",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "somera",
+      "decision": "exclude-inflected-feminine-form"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "taquero",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "termotecnia",
+      "decision": "exclude-specialized-industrial-discipline"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "traducibilidad",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "tramoya",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "small",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "groove-6",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "supraclavicular",
+      "decision": "exclude-specialized-anatomical-adjective"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "taste-7",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "confiteor",
+      "decision": "exclude-specialized-liturgical-prayer"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "cordoban-2",
+      "decision": "exclude-corrupt-historical-currency-entry"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "territorial",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "new-mexican-4",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "sea",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "meow-4",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "es",
+      "id": "trienal",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "es",
+      "id": "trilingue",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "es",
+      "id": "trompeteo",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "es",
+      "id": "turbinto",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "es",
+      "id": "uberrimo",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "es",
+      "id": "ungir",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "es",
+      "id": "vacilada",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "es",
+      "id": "vaporoso",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "es",
+      "id": "ventosear",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "es",
+      "id": "viaducto",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "en",
+      "id": "mur-2",
+      "decision": "exclude-corrupt-definition-and-rare-regionalism"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "en",
+      "id": "sow-3",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "en",
+      "id": "affected-by-mumps",
+      "decision": "exclude-definition-fragment"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "en",
+      "id": "mobile-phone-case",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "en",
+      "id": "securities-account",
+      "decision": "exclude-specialized-financial-term"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "en",
+      "id": "caregiver",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "en",
+      "id": "claviorgan",
+      "decision": "exclude-rare-specialized-instrument"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "en",
+      "id": "carydon",
+      "decision": "exclude-obscure-insect-name"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "en",
+      "id": "non-stick",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentysecond-20-verdicts.json",
+      "language": "en",
+      "id": "scrotal",
+      "decision": "exclude-specialized-anatomical-adjective"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "es",
+      "id": "vidorra",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "es",
+      "id": "virgulilla",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "es",
+      "id": "zurriagar",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "es",
+      "id": "admirable",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "es",
+      "id": "alimentar",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "es",
+      "id": "angelito",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "es",
+      "id": "carnal",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "es",
+      "id": "cercado",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "es",
+      "id": "comprimido",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "es",
+      "id": "concejo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "en",
+      "id": "moldable",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "en",
+      "id": "corcusid",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "en",
+      "id": "corvette",
+      "decision": "exclude-low-utility-specialist-sense"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "en",
+      "id": "conjunctural",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "en",
+      "id": "grower",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "en",
+      "id": "spiteful",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "en",
+      "id": "remedyable",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "en",
+      "id": "reproducibility",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "en",
+      "id": "restrictible",
+      "decision": "exclude-rare-derivative"
+    },
+    {
+      "batch": "B15-onehundredtwentythird-20-verdicts.json",
+      "language": "en",
+      "id": "staggered",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "criquet",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "evasiva",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "hiena",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "sari",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "saten",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "secado",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "sedan",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "sutileza",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "trituradora",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "turbina",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "skirmish",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "scouring-pad",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "stamp-keeper",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "pause",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "photolysis",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "reproach",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "muscardin",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "sanguine",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "chymosin",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "tendentious",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "yerno",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "arcabucero",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "alula",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "amolotarse",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "antimoral",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "apriorismo",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "arcense",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "arrastraculo",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "azanahoriate",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "batimento",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "sentimentaloid",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "suggestion",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "bottarga",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "modeler",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "fruticose",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "mocha",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "newscast",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "fruitive",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "sweatshirt",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "simpet-it",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "es",
+      "id": "batuda",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "es",
+      "id": "beaciense",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "es",
+      "id": "berbajo",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "es",
+      "id": "borricote",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "es",
+      "id": "cacharra",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "es",
+      "id": "calamoco",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "es",
+      "id": "catizumbada",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "es",
+      "id": "cegua",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "es",
+      "id": "cembrio",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "es",
+      "id": "cerrilismo",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "en",
+      "id": "coolant",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "en",
+      "id": "snapshot",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "en",
+      "id": "cordojaso",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "en",
+      "id": "merit-2",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "en",
+      "id": "sink-2",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "en",
+      "id": "shelter-2",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "en",
+      "id": "guess-2",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "en",
+      "id": "carpet-2",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "en",
+      "id": "cleaner-3",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentysixth-20-verdicts.json",
+      "language": "en",
+      "id": "grounding-2",
+      "decision": "exclude-editorial-criteria"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "chojin",
+      "decision": "exclude-regional-dialect-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "codicilio",
+      "decision": "exclude-obsolete-variant"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "constitucionalidad",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "contraplano",
+      "decision": "exclude-low-utility-cinema-specialist"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "contratela",
+      "decision": "exclude-obsolete-hunting-term"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "cucuruca",
+      "decision": "exclude-regional-dialect-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "curtidura",
+      "decision": "exclude-obsolete-variant"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "curujey",
+      "decision": "exclude-regional-botanical-term"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "graduador",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "horco",
+      "decision": "exclude-corrupt-merged-entry"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "snooping-2",
+      "decision": "exclude-common-transparent-form"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "freemasonry-2",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "server-2",
+      "decision": "exclude-corrupt-obsolete-sense"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "cash-2",
+      "decision": "exclude-wrong-sense-corrupt-entry"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "get-angry-5",
+      "decision": "exclude-corrupt-common-phrase"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "shotgun-7",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "bribery-4",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "lighting-3",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "soursop-2",
+      "decision": "exclude-low-utility-fruit-name"
+    },
+    {
+      "batch": "B15-onehundredtwentyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "leader-4",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "mampirlan",
+      "decision": "exclude-regional-variant"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "responsar",
+      "decision": "exclude-low-utility-religious-verb"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "robleda",
+      "decision": "exclude-transparent-common-derivative"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "sietenrama",
+      "decision": "exclude-rare-botanical-name"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "sobrebeber",
+      "decision": "exclude-rare-transparent-verb"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "sobrerrealismo",
+      "decision": "exclude-rare-variant"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "sonsanar",
+      "decision": "exclude-regional-dialect-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "sucunango",
+      "decision": "exclude-regional-specialist-plant-name"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "tatagua",
+      "decision": "exclude-regional-specialist-animal-name"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "treponema",
+      "decision": "exclude-low-utility-medical-specialist"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "corrupt-2",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "spell-3",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "depraved-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "chicken-coop-2",
+      "decision": "exclude-common-transparent-phrase"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "skillful-3",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "clearing-6",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "conditioner-3",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "lighter-4",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "clap-5",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "repel-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "es",
+      "id": "aventadura",
+      "decision": "exclude-rare-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "es",
+      "id": "bagasa",
+      "decision": "exclude-obsolete-or-stigmatizing-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "es",
+      "id": "baladronear",
+      "decision": "exclude-rare-or-corrupt-verb"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "es",
+      "id": "barbajan",
+      "decision": "exclude-corrupt-or-rare-sense"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "es",
+      "id": "belduque",
+      "decision": "exclude-rare-regional-sense"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "es",
+      "id": "braquial",
+      "decision": "exclude-low-utility-anatomical-adjective"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "es",
+      "id": "burrajo",
+      "decision": "exclude-obsolete-regional-vehicle-term"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "es",
+      "id": "cachiflin",
+      "decision": "exclude-corrupt-or-regional-sense"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "es",
+      "id": "cachorrenas",
+      "decision": "exclude-inflected-plural-form"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "es",
+      "id": "caimacan",
+      "decision": "exclude-obsolete-military-title"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "en",
+      "id": "confusing-3",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "en",
+      "id": "fruitful-4",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "en",
+      "id": "grumble-5",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "en",
+      "id": "challenge-6",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "en",
+      "id": "intermediate-4",
+      "decision": "exclude-wrong-sense-corrupt-entry"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "en",
+      "id": "shrink-8",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "en",
+      "id": "dyer-3",
+      "decision": "exclude-transparent-low-utility-occupation"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "en",
+      "id": "insufficient-2",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "en",
+      "id": "relax-7",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredtwentyninth-20-verdicts.json",
+      "language": "en",
+      "id": "chuflete",
+      "decision": "exclude-corrupt-wrong-language-headword"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "es",
+      "id": "campanol",
+      "decision": "exclude-corrupt-or-rare-word"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "es",
+      "id": "carbonita",
+      "decision": "exclude-low-utility-specialist-mineral"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "es",
+      "id": "chapinada",
+      "decision": "exclude-rare-derivative"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "es",
+      "id": "chapinete",
+      "decision": "exclude-rare-regional-bird-name"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "es",
+      "id": "charal",
+      "decision": "exclude-regional-fish-name"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "es",
+      "id": "chaveria",
+      "decision": "exclude-regional-variant"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "es",
+      "id": "chilatole",
+      "decision": "exclude-low-utility-regional-food"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "es",
+      "id": "chirumen",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "es",
+      "id": "coheredar",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "es",
+      "id": "contracosta",
+      "decision": "exclude-rare-geographical-term"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "en",
+      "id": "flask-8",
+      "decision": "exclude-corrupt-sense-common-word"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "en",
+      "id": "teletrash",
+      "decision": "exclude-unverified-low-utility-coinage"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "en",
+      "id": "guanacaste",
+      "decision": "exclude-regional-tree-name"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "en",
+      "id": "taichi",
+      "decision": "exclude-unverified-headword-form"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "en",
+      "id": "santero",
+      "decision": "exclude-wrong-language-entry"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "en",
+      "id": "coloratura",
+      "decision": "exclude-low-utility-music-specialist"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "en",
+      "id": "fuss-2",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "en",
+      "id": "smudge-4",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "en",
+      "id": "countless",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredthirtieth-20-verdicts.json",
+      "language": "en",
+      "id": "arch-3",
+      "decision": "exclude-common-word-specialist-sense"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "cospillo",
+      "decision": "exclude-rare-or-unsupported-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "crucillo",
+      "decision": "exclude-rare-regional-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "cubetada",
+      "decision": "exclude-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "desembocar",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "glucina",
+      "decision": "exclude-obsolete-corrupt-chemical-sense"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "goniometro",
+      "decision": "exclude-low-utility-specialist-tool"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "honorar",
+      "decision": "exclude-rare-formal-verb"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "rezura",
+      "decision": "exclude-explicitly-rare-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "rodalan",
+      "decision": "exclude-regional-dialect-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "tabarro",
+      "decision": "exclude-regional-low-use-garment"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "lacking-intelligence-or-understanding-3",
+      "decision": "exclude-definition-phrase"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "mockery-5",
+      "decision": "exclude-corrupt-common-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "ant-26",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "germ-24",
+      "decision": "exclude-corrupt-common-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "cabbage-51",
+      "decision": "exclude-corrupt-regional-sense"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "coming-of-age",
+      "decision": "exclude-common-transparent-phrase"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "get-dirty",
+      "decision": "exclude-corrupt-common-phrase"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "rogatory",
+      "decision": "exclude-low-utility-legal-specialist"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "stuffer",
+      "decision": "exclude-transparent-low-utility-derivative"
+    },
+    {
+      "batch": "B15-onehundredthirtyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "conversant",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "es",
+      "id": "tascador",
+      "decision": "exclude-rare-low-utility-occupation"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "es",
+      "id": "tumbaga",
+      "decision": "exclude-rare-historical-alloy"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "es",
+      "id": "tundizno",
+      "decision": "exclude-low-utility-textile-term"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "es",
+      "id": "vainazas",
+      "decision": "exclude-rare-or-corrupt-form"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "es",
+      "id": "vatimetro",
+      "decision": "exclude-low-utility-technical-tool"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "es",
+      "id": "anguilo",
+      "decision": "exclude-rare-regional-fish-name"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "es",
+      "id": "canelillo",
+      "decision": "exclude-regional-botanical-name"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "es",
+      "id": "tepachera",
+      "decision": "exclude-regional-occupation-form"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "es",
+      "id": "acuarelado",
+      "decision": "exclude-transparent-or-corrupt-form"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "es",
+      "id": "barbiblanco",
+      "decision": "exclude-rare-variant"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "en",
+      "id": "cork-oak-forest",
+      "decision": "exclude-descriptive-common-phrase"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "en",
+      "id": "tieback",
+      "decision": "exclude-low-utility-specialist-household-term"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "en",
+      "id": "removable",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "en",
+      "id": "confirmed",
+      "decision": "exclude-common-inflected-form"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "en",
+      "id": "counter-ambush",
+      "decision": "exclude-low-utility-military-phrase"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "en",
+      "id": "guerrilla",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "en",
+      "id": "monovalent",
+      "decision": "exclude-low-utility-chemistry-term"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "en",
+      "id": "reweave",
+      "decision": "exclude-transparent-low-utility-verb"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "en",
+      "id": "commend",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredthirtysecond-20-verdicts.json",
+      "language": "en",
+      "id": "get-engrossed",
+      "decision": "exclude-common-transparent-phrase"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "es",
+      "id": "ceceoso",
+      "decision": "exclude-rare-unsupported-adjective"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "es",
+      "id": "conturbador",
+      "decision": "exclude-rare-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "es",
+      "id": "corcesca",
+      "decision": "exclude-low-utility-historical-weapon"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "es",
+      "id": "unilateralidad",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "es",
+      "id": "bioenergetico",
+      "decision": "exclude-inflected-feminine-form"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "es",
+      "id": "arrapiezo",
+      "decision": "exclude-rare-stigmatizing-insult"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "es",
+      "id": "cajel",
+      "decision": "exclude-regional-orange-variety"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "es",
+      "id": "robador",
+      "decision": "exclude-rare-variant"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "es",
+      "id": "sibaritico",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "es",
+      "id": "trasatlantico",
+      "decision": "exclude-common-transparent-variant"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "en",
+      "id": "sybaritism",
+      "decision": "exclude-rare-formal-word"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "en",
+      "id": "snitching",
+      "decision": "exclude-inflected-verb-form"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "en",
+      "id": "tempestively",
+      "decision": "exclude-unverified-corrupt-word"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "en",
+      "id": "cementant",
+      "decision": "exclude-unverified-specialist-term"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "en",
+      "id": "circulating",
+      "decision": "exclude-inflected-verb-form"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "en",
+      "id": "colectomy",
+      "decision": "exclude-low-utility-medical-specialist"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "en",
+      "id": "stereotomy",
+      "decision": "exclude-low-utility-specialist-technique"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "en",
+      "id": "resentment",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "en",
+      "id": "retie",
+      "decision": "exclude-transparent-common-derivative"
+    },
+    {
+      "batch": "B15-onehundredthirtythird-20-verdicts.json",
+      "language": "en",
+      "id": "satyrion",
+      "decision": "exclude-unverified-rare-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "parodico",
+      "decision": "exclude-transparent-literary-derivative"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "tasajero",
+      "decision": "exclude-low-utility-occupation"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "septicemico",
+      "decision": "exclude-low-utility-medical-adjective"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "caballeta",
+      "decision": "exclude-rare-animal-term"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "camahuas",
+      "decision": "exclude-regional-plant-name"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "cartilagine",
+      "decision": "exclude-rare-variant"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "chaparrudo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "cibeleo",
+      "decision": "exclude-low-utility-mythological-adjective"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "colillero",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "contadero",
+      "decision": "exclude-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "semi-thread",
+      "decision": "exclude-low-utility-textile-term"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "sonetic",
+      "decision": "exclude-invalid-headword"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "roofed",
+      "decision": "exclude-common-inflected-form"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "santeria",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "conclusive",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "monthly-payment-2",
+      "decision": "exclude-common-transparent-phrase"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "mercury",
+      "decision": "exclude-low-utility-chemical-sense"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "selectivity",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "sevencallero",
+      "decision": "exclude-wrong-language-entry"
+    },
+    {
+      "batch": "B15-onehundredthirtyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "shatter",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "coriariaceo",
+      "decision": "exclude-low-utility-botanical-adjective"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "estertoroso",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "horrifico",
+      "decision": "exclude-transparent-common-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "sobrecerrado",
+      "decision": "exclude-rare-transparent-formation"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "suspiron",
+      "decision": "exclude-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "tercenco",
+      "decision": "exclude-obsolete-specialist-adjective"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "trasladador",
+      "decision": "exclude-common-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "zacataloso",
+      "decision": "exclude-regional-derivative"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "bendicera",
+      "decision": "exclude-rare-folklore-occupation"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "cocharro",
+      "decision": "exclude-rare-regional-vessel"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "metamathematics",
+      "decision": "exclude-low-utility-specialist-term"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "constitutional-court-2",
+      "decision": "exclude-unverified-low-utility-legal-phrase"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "stroke-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "cancellation-3",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "cramp-3",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "embrace-7",
+      "decision": "exclude-corrupt-common-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "donkey-2",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "shred-2",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "misinform-2",
+      "decision": "exclude-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredthirtyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "drape-2",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "es",
+      "id": "resfriante",
+      "decision": "exclude-low-utility-distilling-term"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "es",
+      "id": "aviajado",
+      "decision": "exclude-low-utility-architectural-term"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "es",
+      "id": "complexo",
+      "decision": "exclude-common-transparent-variant"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "es",
+      "id": "barbirrapado",
+      "decision": "exclude-transparent-low-utility-descriptor"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "es",
+      "id": "apalmada",
+      "decision": "exclude-rare-unclear-form"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "es",
+      "id": "breguero",
+      "decision": "exclude-rare-obsolete-word"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "es",
+      "id": "campeno",
+      "decision": "exclude-rare-regional-variant"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "es",
+      "id": "canengo",
+      "decision": "exclude-regional-colloquial-word"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "es",
+      "id": "desgarbilado",
+      "decision": "exclude-regional-variant"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "es",
+      "id": "tamarrusquito",
+      "decision": "exclude-transparent-regional-diminutive"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "en",
+      "id": "liar-2",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "en",
+      "id": "sharecropper-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "en",
+      "id": "landscaping-2",
+      "decision": "exclude-corrupt-common-form"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "en",
+      "id": "minister-3",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "en",
+      "id": "nag-2",
+      "decision": "exclude-low-utility-animal-sense"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "en",
+      "id": "conviction-2",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "en",
+      "id": "lather-2",
+      "decision": "exclude-corrupt-common-word"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "en",
+      "id": "locker-2",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "en",
+      "id": "cell-2",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredthirtysixth-20-verdicts.json",
+      "language": "en",
+      "id": "cook-6",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "todero",
+      "decision": "exclude-regional-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "garufa",
+      "decision": "exclude-regional-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "gimotear",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "grumoso",
+      "decision": "exclude-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "samsara",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "sarracina",
+      "decision": "exclude-unsupported-sense"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "seseante",
+      "decision": "exclude-low-utility-phonetics-term"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "sincretismo",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "siquiatria",
+      "decision": "exclude-common-variant"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "socalina",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "control-3",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "swab-5",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "mouthpiece-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "monomaniac-2",
+      "decision": "exclude-rare-low-utility-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "cracked-5",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "chalk-5",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "sponsor-6",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "cartilage-2",
+      "decision": "exclude-low-utility-specialist-sense"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "leather-goods-2",
+      "decision": "exclude-corrupt-common-phrase"
+    },
+    {
+      "batch": "B15-onehundredthirtyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "chatter-12",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "subvertir",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "superchero",
+      "decision": "exclude-rare-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "surcir",
+      "decision": "exclude-obsolete-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "tempero",
+      "decision": "exclude-low-utility-agricultural-term"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "tenderete",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "terrecer",
+      "decision": "exclude-regional-and-obsolete-senses"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "timalo",
+      "decision": "exclude-low-utility-specialist-term"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "tozar",
+      "decision": "exclude-regional-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "trafago",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "trienio",
+      "decision": "exclude-transparent-term"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "mixed-5",
+      "decision": "exclude-obsolete-corrupt-entry"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "captcha-2",
+      "decision": "exclude-common-technical-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "right-11",
+      "decision": "exclude-common-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "soldier-2",
+      "decision": "exclude-corrupt-entry"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "anear",
+      "decision": "exclude-archaic-specialist-term"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "complexional",
+      "decision": "exclude-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "geno",
+      "decision": "exclude-rare-unclear-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "inimitable-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "sorrow-remover",
+      "decision": "exclude-rare-transparent-phrase"
+    },
+    {
+      "batch": "B15-onehundredthirtyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "vestal",
+      "decision": "exclude-low-utility-mythological-term"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "es",
+      "id": "turifero",
+      "decision": "exclude-low-utility-liturgical-term"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "es",
+      "id": "umero",
+      "decision": "exclude-regional-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "es",
+      "id": "urdu",
+      "decision": "exclude-language-name"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "es",
+      "id": "vacuo",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "es",
+      "id": "vanilocuo",
+      "decision": "exclude-rare-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "es",
+      "id": "venerador",
+      "decision": "exclude-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "es",
+      "id": "venustez",
+      "decision": "exclude-rare-archaic-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "es",
+      "id": "villania",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "es",
+      "id": "visura",
+      "decision": "exclude-rare-legal-term"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "es",
+      "id": "vituperar",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "en",
+      "id": "musmon",
+      "decision": "exclude-unsupported-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "en",
+      "id": "noesis",
+      "decision": "exclude-low-utility-specialist-term"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "en",
+      "id": "mirza",
+      "decision": "exclude-rare-historical-title"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "en",
+      "id": "celestinear",
+      "decision": "exclude-undocumented-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "en",
+      "id": "lick-9",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "en",
+      "id": "centenary",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "en",
+      "id": "terrain",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "en",
+      "id": "soul-3",
+      "decision": "exclude-corrupt-common-word"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "en",
+      "id": "hues-3",
+      "decision": "exclude-corrupt-specialist-sense"
+    },
+    {
+      "batch": "B15-onehundredthirtyninth-20-verdicts.json",
+      "language": "en",
+      "id": "come-59",
+      "decision": "exclude-rare-collective-sense"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "es",
+      "id": "zanatear",
+      "decision": "exclude-regional-agricultural-word"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "es",
+      "id": "zarramplin",
+      "decision": "exclude-rare-regional-word"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "es",
+      "id": "zolle",
+      "decision": "exclude-regional-word"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "es",
+      "id": "zueco",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "es",
+      "id": "zuna",
+      "decision": "exclude-obsolete-and-regional-senses"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "es",
+      "id": "agarro",
+      "decision": "exclude-common-inflected-form"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "es",
+      "id": "ansia",
+      "decision": "exclude-common-word"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "es",
+      "id": "apunalar",
+      "decision": "exclude-transparent-common-verb"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "es",
+      "id": "comparable",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "es",
+      "id": "coso",
+      "decision": "exclude-common-colloquial-word"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "en",
+      "id": "cabbage-72",
+      "decision": "exclude-corrupt-entry"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "en",
+      "id": "charge-on-account",
+      "decision": "exclude-common-transparent-phrase"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "en",
+      "id": "restitution",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "en",
+      "id": "cleft-lip",
+      "decision": "exclude-low-utility-medical-term"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "en",
+      "id": "gazette",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "en",
+      "id": "swamp",
+      "decision": "exclude-common-polysemous-word"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "en",
+      "id": "sharpener",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "en",
+      "id": "chess",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "en",
+      "id": "capping",
+      "decision": "exclude-corrupt-common-form"
+    },
+    {
+      "batch": "B15-onehundredfortieth-20-verdicts.json",
+      "language": "en",
+      "id": "aliment",
+      "decision": "exclude-rare-word-and-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "cunado",
+      "decision": "exclude-common-family-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "respiro",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "retenida",
+      "decision": "exclude-low-utility-technical-term"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "riguroso",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "satanico",
+      "decision": "exclude-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "sobresaliente",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "sobresalir",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "sofocante",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "solomillo",
+      "decision": "exclude-common-food-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "sordomudo",
+      "decision": "exclude-inaccurate-and-insensitive-gloss"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "cart",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "carrized",
+      "decision": "exclude-unsupported-corrupt-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "certifiable",
+      "decision": "exclude-transparent-common-derivative"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "cording",
+      "decision": "exclude-low-utility-specialist-term"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "guitar",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "collator",
+      "decision": "exclude-low-utility-printing-term"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "rip-apart",
+      "decision": "exclude-common-phrasal-verb"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "requalify",
+      "decision": "exclude-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "straightener",
+      "decision": "exclude-transparent-common-derivative"
+    },
+    {
+      "batch": "B15-onehundredfortyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "supplemental",
+      "decision": "exclude-common-transparent-variant"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "es",
+      "id": "tacano",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "es",
+      "id": "treta",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "es",
+      "id": "tropical",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "es",
+      "id": "turquesa",
+      "decision": "exclude-common-easy-polysemous-word"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "es",
+      "id": "yoga",
+      "decision": "exclude-common-cultural-word"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "es",
+      "id": "yugo",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "es",
+      "id": "arrejada",
+      "decision": "exclude-rare-agricultural-tool"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "es",
+      "id": "ajuarar",
+      "decision": "exclude-rare-transparent-verb"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "es",
+      "id": "antepie",
+      "decision": "exclude-low-utility-anatomical-term"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "es",
+      "id": "antimafia",
+      "decision": "exclude-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "en",
+      "id": "scoot",
+      "decision": "exclude-common-corrupt-entry"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "en",
+      "id": "specificity",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "en",
+      "id": "fruiting",
+      "decision": "exclude-corrupt-duplicate-entry"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "en",
+      "id": "stoneware",
+      "decision": "exclude-low-utility-specialist-material"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "en",
+      "id": "newspaper-archive",
+      "decision": "exclude-transparent-common-phrase"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "en",
+      "id": "fruitlessness",
+      "decision": "exclude-rare-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "en",
+      "id": "contraventure",
+      "decision": "exclude-undocumented-rare-word"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "en",
+      "id": "co-payer",
+      "decision": "exclude-transparent-common-phrase"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "en",
+      "id": "modifiable",
+      "decision": "exclude-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredfortysecond-20-verdicts.json",
+      "language": "en",
+      "id": "mountainous",
+      "decision": "exclude-transparent-common-derivative"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "es",
+      "id": "aporreadura",
+      "decision": "exclude-transparent-common-derivative"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "es",
+      "id": "atarear",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "es",
+      "id": "audienciero",
+      "decision": "exclude-obsolete-word"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "es",
+      "id": "barrancal",
+      "decision": "exclude-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "es",
+      "id": "boletero",
+      "decision": "exclude-corrupt-regional-entry"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "es",
+      "id": "cabrahigal",
+      "decision": "exclude-rare-botanical-term"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "es",
+      "id": "cambiable",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "es",
+      "id": "canaricultura",
+      "decision": "exclude-low-utility-specialist-term"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "es",
+      "id": "caripelado",
+      "decision": "exclude-regional-low-utility-word"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "es",
+      "id": "chaguital",
+      "decision": "exclude-regional-word"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "en",
+      "id": "slalom",
+      "decision": "exclude-common-sport-term"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "en",
+      "id": "stomachant",
+      "decision": "exclude-undocumented-corrupt-word"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "en",
+      "id": "royalty",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "en",
+      "id": "superciliary",
+      "decision": "exclude-low-utility-anatomical-term"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "en",
+      "id": "tabific",
+      "decision": "exclude-rare-obsolete-word"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "en",
+      "id": "tartan",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "en",
+      "id": "supletism",
+      "decision": "exclude-undocumented-specialist-term"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "en",
+      "id": "colorimetric",
+      "decision": "exclude-low-utility-specialist-term"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "en",
+      "id": "scary",
+      "decision": "exclude-common-corrupt-entry"
+    },
+    {
+      "batch": "B15-onehundredfortythird-20-verdicts.json",
+      "language": "en",
+      "id": "geoid",
+      "decision": "exclude-low-utility-specialist-term"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "chalaneria",
+      "decision": "exclude-rare-low-utility-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "chirlazo",
+      "decision": "exclude-rare-colloquial-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "cidrada",
+      "decision": "exclude-transparent-specialist-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "cintajo",
+      "decision": "exclude-transparent-rare-form"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "combatidor",
+      "decision": "exclude-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "contracaja",
+      "decision": "exclude-low-utility-printing-term"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "copec",
+      "decision": "exclude-rare-regional-variant"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "coplear",
+      "decision": "exclude-rare-specialist-verb"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "coscojal",
+      "decision": "exclude-transparent-low-utility-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "cosechon",
+      "decision": "exclude-transparent-augmentative"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "seismologist",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "squeezer",
+      "decision": "exclude-transparent-common-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "tithemer",
+      "decision": "exclude-undocumented-rare-term"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "superintendent",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "reminder",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "serpentiger",
+      "decision": "exclude-rare-archaic-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "robinsonian",
+      "decision": "exclude-low-utility-literary-derivative"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "shattered",
+      "decision": "exclude-common-corrupt-entry"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "airport-2",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "shield-2",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "coxcojita",
+      "decision": "exclude-rare-dialect-variant"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "cursilada",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "desmambichar",
+      "decision": "exclude-regional-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "retrancar",
+      "decision": "exclude-low-utility-technical-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "sarmentera",
+      "decision": "exclude-transparent-agricultural-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "semiinconsciente",
+      "decision": "exclude-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "sintetizable",
+      "decision": "exclude-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "tamboron",
+      "decision": "exclude-transparent-augmentative"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "tenton",
+      "decision": "exclude-low-utility-bullfighting-term"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "es",
+      "id": "tordiga",
+      "decision": "exclude-rare-variant"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "carry-2",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "lighten-2",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "seize-5",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "lead-3",
+      "decision": "exclude-common-low-utility-technical-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "screw-3",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "lantern-3",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "comforter-2",
+      "decision": "exclude-corrupt-common-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "lightness-2",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "chest-4",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyfifth-20-verdicts.json",
+      "language": "en",
+      "id": "spurred-2",
+      "decision": "exclude-corrupt-inflected-form"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "es",
+      "id": "tueca",
+      "decision": "exclude-rare-low-utility-inflected-form"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "es",
+      "id": "unetazo",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "es",
+      "id": "videoconsola",
+      "decision": "exclude-common-transparent-word"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "es",
+      "id": "axiometro",
+      "decision": "exclude-low-utility-specialist-word"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "es",
+      "id": "camocan",
+      "decision": "exclude-low-utility-specialist-word"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "es",
+      "id": "cariucho",
+      "decision": "exclude-corrupt-regional-sense"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "es",
+      "id": "centiloquio",
+      "decision": "exclude-rare-low-utility-word"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "es",
+      "id": "cerastide",
+      "decision": "exclude-low-utility-botanical-word"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "es",
+      "id": "ceraunia",
+      "decision": "exclude-corrupt-rare-sense"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "es",
+      "id": "chinchar",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "en",
+      "id": "tin-2",
+      "decision": "exclude-common-low-utility-technical-sense"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "en",
+      "id": "leaden-2",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "en",
+      "id": "gasp-4",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "en",
+      "id": "rose-garden-2",
+      "decision": "exclude-transparent-common-phrase"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "en",
+      "id": "strength-2",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "en",
+      "id": "smooth-3",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "en",
+      "id": "frying-2",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "en",
+      "id": "morning-3",
+      "decision": "exclude-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "en",
+      "id": "manufacturer-2",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortysixth-20-verdicts.json",
+      "language": "en",
+      "id": "shocking-3",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "chocoyo",
+      "decision": "exclude-regional-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "ciato",
+      "decision": "exclude-archaic-low-utility-word"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "cifaque",
+      "decision": "exclude-obsolete-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "condolecerse",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "corbona",
+      "decision": "exclude-rare-word"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "fudre",
+      "decision": "exclude-rare-low-utility-word"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "huallca",
+      "decision": "exclude-unverified-proper-name"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "pediculicida",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "revocadura",
+      "decision": "exclude-corrupt-low-utility-technical-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "es",
+      "id": "riolada",
+      "decision": "rewrite-and-correct-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "gurgle-5",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "frying-pan-4",
+      "decision": "exclude-transparent-common-phrase"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "sob-3",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "telegraph-3",
+      "decision": "exclude-corrupt-low-utility-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "stimulate-3",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "instrument-2",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "specify-2",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "neigh-2",
+      "decision": "exclude-low-utility-animal-sound"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "terrifying-2",
+      "decision": "exclude-common-transparent-derivative"
+    },
+    {
+      "batch": "B15-onehundredfortyseventh-20-verdicts.json",
+      "language": "en",
+      "id": "courage-3",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "saucillo",
+      "decision": "exclude-low-utility-botanical-word"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "sobajanero",
+      "decision": "exclude-regional-word"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "soguilla",
+      "decision": "exclude-transparent-corrupt-low-utility-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "tabaquillo",
+      "decision": "exclude-regional-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "tanagra",
+      "decision": "exclude-corrupt-low-utility-specialist-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "taponazo",
+      "decision": "exclude-corrupt-regional-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "toner",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "turnar",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "vasado",
+      "decision": "exclude-regional-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "velambre",
+      "decision": "exclude-obsolete-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "courtesy-3",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "chain-4",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "sitting-3",
+      "decision": "exclude-common-corrupt-form"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "asleep-3",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "funeral-6",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "dream-6",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "spill-5",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "cobbling",
+      "decision": "exclude-low-utility-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "chipotle",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-onehundredfortyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "spender-2",
+      "decision": "exclude-common-easy-word"
     }
   ],
   "pendingBatch25": [
@@ -7813,12 +12416,12 @@
     "runtimeNote": "improbability-2 applied; sarazo excluded; infect-4 retained with a valid contextual example pair."
   },
   "observedWipLedgerAtCommit": {
-    "reviewedIdCount": 2906,
-    "batchCount": 145,
+    "reviewedIdCount": 2966,
+    "batchCount": 148,
     "totals": {
-      "es": 1468,
-      "en": 1438
+      "es": 1498,
+      "en": 1468
     },
-    "integratedThrough": "B15-onehundredtenth-20-verdicts.json"
+    "integratedThrough": "B15-onehundredfortyeighth-20-verdicts.json"
   }
 }

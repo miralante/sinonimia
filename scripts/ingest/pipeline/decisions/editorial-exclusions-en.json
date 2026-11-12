@@ -84678,11 +84678,6 @@
     "reason": "The gloss “a blow given with a trunk” does not identify a valid sense of crushing."
   },
   {
-    "id": "sansa",
-    "word": "Sansa",
-    "reason": "The gloss is a generic transaction payment and does not establish a recognized English lexical entry."
-  },
-  {
     "id": "samsara",
     "word": "Samsara",
     "reason": "This is a specialized religious and philosophical concept with limited general synonym value."
@@ -85121,5 +85116,1335 @@
     "id": "lurker-4",
     "word": "Lurker",
     "reason": "The circular-motion gloss does not match a reliable meaning of lurker and appears to be attached to the wrong word."
+  },
+  {
+    "id": "solid-2",
+    "word": "Solid",
+    "reason": "The definition describes a flower bed, not solid, and appears attached to the wrong headword."
+  },
+  {
+    "id": "hammock-3",
+    "word": "hammock",
+    "reason": "The gloss describes rocking rather than a hammock and does not provide a reliable sense of the noun."
+  },
+  {
+    "id": "common-2",
+    "word": "common",
+    "reason": "The gloss describes the phrase in common, not the adjective common, and the record is not a reliable standalone sense."
+  },
+  {
+    "id": "pingorot",
+    "word": "Pingorot",
+    "reason": "This is not a reliable current English headword and the gloss does not support a general synonym card."
+  },
+  {
+    "id": "mixtion",
+    "word": "Mixtion",
+    "reason": "This rare historical chemistry term for mixing substances is obsolete and too specialized for general vocabulary."
+  },
+  {
+    "id": "ribose",
+    "word": "Ribose",
+    "reason": "Ribose is a specific sugar used in nucleic acids; the entry is technical and has no useful synonym."
+  },
+  {
+    "id": "cardoncillo",
+    "word": "Cardoncillo",
+    "reason": "This is a Spanish name for a plant, not a general English headword."
+  },
+  {
+    "id": "nucleon",
+    "word": "Nucleon",
+    "reason": "A nucleon is a proton or neutron in an atomic nucleus; this specialist physics term has no useful general synonym."
+  },
+  {
+    "id": "cotton-cloth-for-cleaning",
+    "word": "cotton cloth for cleaning",
+    "reason": "This is a generic description rather than an established English headword; a washcloth is the ordinary term."
+  },
+  {
+    "id": "chili-8",
+    "word": "chili",
+    "reason": "This entry describes an obscure dye plant rather than the ordinary English pepper and is too specialized."
+  },
+  {
+    "id": "chili-20",
+    "word": "chili",
+    "reason": "This entry names a specific Mapuche ritual instrument and has little general synonym value."
+  },
+  {
+    "id": "grooving",
+    "word": "Grooving",
+    "reason": "This narrow textile term for an uneven weave or color is too specialized for a general synonym entry."
+  },
+  {
+    "id": "commissary",
+    "word": "Commissary",
+    "reason": "The entry gives a vague rank or treasurer gloss and does not establish a clear general sense of commissary."
+  },
+  {
+    "id": "resinify",
+    "word": "Resinify",
+    "reason": "This rare chemistry verb for turning a substance into resin is too specialized for general vocabulary."
+  },
+  {
+    "id": "coagent",
+    "word": "Coagent",
+    "reason": "This is a rare technical term for a substance that helps blood clot, with little general synonym value."
+  },
+  {
+    "id": "chondril",
+    "word": "chondril",
+    "reason": "This rare form is not a reliable general English headword and the shell-creature gloss cannot be verified."
+  },
+  {
+    "id": "nightwalking",
+    "word": "nightwalking",
+    "reason": "The definition describes a night owl, but nightwalking is not a reliable standard headword for that meaning."
+  },
+  {
+    "id": "sponton",
+    "word": "Sponton",
+    "reason": "This historical pole weapon or staff is obsolete and too specialized for a general synonym dictionary."
+  },
+  {
+    "id": "chylogrammeter",
+    "word": "Chylogrammeter",
+    "reason": "This obsolete spelling of kilogrammeter is not a current general English word."
+  },
+  {
+    "id": "messor",
+    "word": "Messor",
+    "reason": "This archaic word for June is not in current general use."
+  },
+  {
+    "id": "sarramplinada",
+    "word": "Sarramplinada",
+    "reason": "This is a Spanish insult rather than an English headword and does not meet the dictionary’s tone criteria."
+  },
+  {
+    "id": "fulminic",
+    "word": "fulminic",
+    "reason": "This technical adjective relates to fulminic acid and is too specialized for general synonym vocabulary."
+  },
+  {
+    "id": "geomancer",
+    "word": "Geomancer",
+    "reason": "This rare practitioner of geomancy belongs to an occult practice and has little general synonym value."
+  },
+  {
+    "id": "square-5",
+    "word": "Square",
+    "reason": "Square is not a diminutive of itself; the gloss is circular and does not establish a reliable sense."
+  },
+  {
+    "id": "cardboard-4",
+    "word": "cardboard",
+    "reason": "The gloss describes a book binding rather than cardboard and does not support a reliable synonym card."
+  },
+  {
+    "id": "resting-place-2",
+    "word": "Resting place",
+    "reason": "The gloss describes furnace stone rather than a resting place and appears attached to the wrong headword."
+  },
+  {
+    "id": "guanche",
+    "word": "Guanche",
+    "reason": "This term names the Indigenous people of the Canary Islands before conquest and is a specific historical ethnonym."
+  },
+  {
+    "id": "small",
+    "word": "Small",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "groove-6",
+    "word": "Groove",
+    "reason": "The gloss about hate and resentment does not match a reliable sense of groove."
+  },
+  {
+    "id": "supraclavicular",
+    "word": "Supraclavicular",
+    "reason": "This precise anatomical term for the area above the collarbone is too specialized for general synonym use."
+  },
+  {
+    "id": "taste-7",
+    "word": "Taste",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "confiteor",
+    "word": "Confiteor",
+    "reason": "This Latin confession prayer used in some Christian services is a specialized religious term."
+  },
+  {
+    "id": "cordoban-2",
+    "word": "Cordoban",
+    "reason": "The gold-coin gloss is not a reliable general sense of Cordoban and appears to confuse it with other currency names."
+  },
+  {
+    "id": "new-mexican-4",
+    "word": "New Mexican",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "sea",
+    "word": "sea",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "meow-4",
+    "word": "meow",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "mur-2",
+    "word": "mur",
+    "reason": "The entry gives a cryptic regional place name with no clear, useful synonym for a general dictionary."
+  },
+  {
+    "id": "affected-by-mumps",
+    "word": "affected by mumps",
+    "reason": "This is a descriptive phrase rather than an independent dictionary headword."
+  },
+  {
+    "id": "securities-account",
+    "word": "Securities account",
+    "reason": "This is a specialized financial product term rather than general vocabulary."
+  },
+  {
+    "id": "claviorgan",
+    "word": "Claviorgan",
+    "reason": "It is an extremely uncommon historical instrument name with no useful everyday equivalent."
+  },
+  {
+    "id": "carydon",
+    "word": "Carydon",
+    "reason": "This is an obscure technical insect name and is not useful general vocabulary."
+  },
+  {
+    "id": "scrotal",
+    "word": "Scrotal",
+    "reason": "This is a specialized medical adjective with little value as a general synonym entry."
+  },
+  {
+    "id": "moldable",
+    "word": "Moldable",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "corcusid",
+    "word": "Corcusid",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "corvette",
+    "word": "Corvette",
+    "reason": "Collins confirms that this is a current warship term, but the sense is too specialized to be useful general vocabulary."
+  },
+  {
+    "id": "conjunctural",
+    "word": "Conjunctural",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "grower",
+    "word": "grower",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "remedyable",
+    "word": "Remedyable",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "restrictible",
+    "word": "Restrictible",
+    "reason": "This uncommon predictable derivative adds little beyond the ordinary verb restrict."
+  },
+  {
+    "id": "scouring-pad",
+    "word": "Scouring pad",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "stamp-keeper",
+    "word": "Stamp Keeper",
+    "reason": "This sense is obsolete or archaic and does not meet the current-use criterion."
+  },
+  {
+    "id": "pause",
+    "word": "Pause",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "photolysis",
+    "word": "Photolysis",
+    "reason": "This is a low-utility specialist sense and does not meet the general vocabulary criterion."
+  },
+  {
+    "id": "muscardin",
+    "word": "Muscardin",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "chymosin",
+    "word": "Chymosin",
+    "reason": "This is a low-utility specialist sense and does not meet the general vocabulary criterion."
+  },
+  {
+    "id": "sentimentaloid",
+    "word": "Sentimentaloid",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "suggestion",
+    "word": "Suggestion",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "bottarga",
+    "word": "Bottarga",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "modeler",
+    "word": "Modeler",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "fruticose",
+    "word": "Fruticose",
+    "reason": "This is a low-utility specialist sense and does not meet the general vocabulary criterion."
+  },
+  {
+    "id": "mocha",
+    "word": "Mocha",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "newscast",
+    "word": "Newscast",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "fruitive",
+    "word": "Fruitive",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "sweatshirt",
+    "word": "Sweatshirt",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "simpet-it",
+    "word": "Simpet it",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "snapshot",
+    "word": "Snapshot",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "cordojaso",
+    "word": "Cordojaso",
+    "reason": "This is a regional or dialect form, which does not meet the project current-use criterion."
+  },
+  {
+    "id": "merit-2",
+    "word": "Merit",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "sink-2",
+    "word": "Sink",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "shelter-2",
+    "word": "shelter",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "guess-2",
+    "word": "Guess",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "carpet-2",
+    "word": "Carpet",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "cleaner-3",
+    "word": "Cleaner",
+    "reason": "This is common, transparent vocabulary or a rare low-utility form, so it does not meet the difficulty and usefulness criteria."
+  },
+  {
+    "id": "grounding-2",
+    "word": "Grounding",
+    "reason": "This is a low-utility specialist sense and does not meet the general vocabulary criterion."
+  },
+  {
+    "id": "snooping-2",
+    "word": "snooping",
+    "reason": "Snooping is a transparent form of the familiar verb snoop and is not difficult enough for a separate entry."
+  },
+  {
+    "id": "server-2",
+    "word": "Server",
+    "reason": "This candidate refers to an obsolete medieval tax collector, not a current useful sense of server."
+  },
+  {
+    "id": "cash-2",
+    "word": "Cash",
+    "reason": "The definition describes an unrelated way of speaking and cannot be matched to cash."
+  },
+  {
+    "id": "get-angry-5",
+    "word": "Get angry",
+    "reason": "The headword is a common phrase and the candidate gloss about grains is corrupt."
+  },
+  {
+    "id": "shotgun-7",
+    "word": "shotgun",
+    "reason": "Shotgun is a familiar concrete noun and the candidate definition does not justify a difficult-word entry."
+  },
+  {
+    "id": "lighting-3",
+    "word": "Lighting",
+    "reason": "Lighting is a familiar everyday word and the candidate describes an easy transparent verb sense."
+  },
+  {
+    "id": "soursop-2",
+    "word": "soursop",
+    "reason": "This is a specific tropical fruit name with limited general reading value."
+  },
+  {
+    "id": "leader-4",
+    "word": "leader",
+    "reason": "Leader is familiar basic vocabulary and its military sense does not make the word difficult enough for this dictionary."
+  },
+  {
+    "id": "corrupt-2",
+    "word": "corrupt",
+    "reason": "Corrupt is familiar vocabulary and does not meet the difficulty criterion in this candidate sense."
+  },
+  {
+    "id": "spell-3",
+    "word": "spell",
+    "reason": "Spell is familiar basic vocabulary and the candidate sense is easy to understand."
+  },
+  {
+    "id": "chicken-coop-2",
+    "word": "Chicken coop",
+    "reason": "This familiar phrase is easy to understand from its common parts."
+  },
+  {
+    "id": "skillful-3",
+    "word": "Skillful",
+    "reason": "Skillful is a familiar transparent adjective and is not difficult enough for a synonym entry."
+  },
+  {
+    "id": "clearing-6",
+    "word": "clearing",
+    "reason": "The candidate gloss about foot pain is not a documented meaning of clearing."
+  },
+  {
+    "id": "conditioner-3",
+    "word": "Conditioner",
+    "reason": "Conditioner is a familiar everyday product name and its meaning is transparent."
+  },
+  {
+    "id": "lighter-4",
+    "word": "lighter",
+    "reason": "Lighter in the pocket tool sense is common concrete vocabulary."
+  },
+  {
+    "id": "clap-5",
+    "word": "Clap",
+    "reason": "Clap is a familiar basic word and does not meet the difficulty criterion."
+  },
+  {
+    "id": "confusing-3",
+    "word": "confusing",
+    "reason": "Confusing is a familiar common word and its meaning is transparent."
+  },
+  {
+    "id": "fruitful-4",
+    "word": "fruitful",
+    "reason": "Fruitful is a transparent and familiar adjective, so it does not meet the difficulty criterion."
+  },
+  {
+    "id": "challenge-6",
+    "word": "Challenge",
+    "reason": "Challenge is familiar basic vocabulary and does not meet the entry difficulty criterion."
+  },
+  {
+    "id": "intermediate-4",
+    "word": "Intermediate",
+    "reason": "The candidate gloss describes praying or acting as a mediator, not intermediate."
+  },
+  {
+    "id": "shrink-8",
+    "word": "Shrink",
+    "reason": "Shrink is a familiar common verb and its candidate sense is not difficult enough."
+  },
+  {
+    "id": "dyer-3",
+    "word": "Dyer",
+    "reason": "Dyer is a transparent derivative of dye and a low-frequency occupation word with little general reading value."
+  },
+  {
+    "id": "insufficient-2",
+    "word": "Insufficient",
+    "reason": "Insufficient is a familiar transparent adjective and does not merit a standalone synonym entry."
+  },
+  {
+    "id": "relax-7",
+    "word": "Relax",
+    "reason": "Relax is familiar basic vocabulary and does not meet the difficulty criterion."
+  },
+  {
+    "id": "chuflete",
+    "word": "Chuflete",
+    "reason": "This is not a verified English headword and appears to be a corrupted Spanish entry."
+  },
+  {
+    "id": "flask-8",
+    "word": "Flask",
+    "reason": "The candidate gloss is corrupt; the common bottle sense is too easy for a standalone entry."
+  },
+  {
+    "id": "teletrash",
+    "word": "Teletrash",
+    "reason": "This informal coinage is not verified as a standard Collins headword and has low general value."
+  },
+  {
+    "id": "guanacaste",
+    "word": "Guanacaste",
+    "reason": "This is a Central American tree name and has low general reading value."
+  },
+  {
+    "id": "taichi",
+    "word": "Taichi",
+    "reason": "The standard spelling is two words, tai chi; this one-word headword is not verified as a Collins variant."
+  },
+  {
+    "id": "santero",
+    "word": "Santero",
+    "reason": "This is a Spanish word, not an English headword."
+  },
+  {
+    "id": "coloratura",
+    "word": "Coloratura",
+    "reason": "This is a specialist singing term with limited general reading value."
+  },
+  {
+    "id": "fuss-2",
+    "word": "fuss",
+    "reason": "Fuss is familiar everyday vocabulary and its candidate sense is easy to understand."
+  },
+  {
+    "id": "smudge-4",
+    "word": "smudge",
+    "reason": "Smudge is a familiar concrete word for a dirty mark and does not meet the difficulty criterion."
+  },
+  {
+    "id": "countless",
+    "word": "countless",
+    "reason": "Countless is a familiar transparent adjective and does not merit a separate entry."
+  },
+  {
+    "id": "arch-3",
+    "word": "arch",
+    "reason": "Arch is a common word and this candidate sense is a low-utility architectural term."
+  },
+  {
+    "id": "lacking-intelligence-or-understanding-3",
+    "word": "lacking intelligence or understanding",
+    "reason": "This is a descriptive phrase rather than an independent difficult headword."
+  },
+  {
+    "id": "mockery-5",
+    "word": "mockery",
+    "reason": "Mockery is a familiar word meaning ridicule; the candidate gloss about whistling is incorrect."
+  },
+  {
+    "id": "ant-26",
+    "word": "ant",
+    "reason": "Ant is a familiar concrete animal name and the candidate reduction gloss is corrupt."
+  },
+  {
+    "id": "germ-24",
+    "word": "germ",
+    "reason": "The candidate describes a fencer, which is not a documented sense of the common word germ."
+  },
+  {
+    "id": "cabbage-51",
+    "word": "cabbage",
+    "reason": "The candidate gives a regional drugging sense unrelated to the common word cabbage."
+  },
+  {
+    "id": "coming-of-age",
+    "word": "Coming of age",
+    "reason": "This familiar phrase is transparent and does not need a difficult-word entry."
+  },
+  {
+    "id": "get-dirty",
+    "word": "get dirty",
+    "reason": "This is a common phrase and the candidate gloss about confinement is incorrect."
+  },
+  {
+    "id": "rogatory",
+    "word": "rogatory",
+    "reason": "Collins documents this formal adjective mainly in the narrow collocation letter rogatory; it has little general use as a standalone synonym entry."
+  },
+  {
+    "id": "stuffer",
+    "word": "stuffer",
+    "reason": "This is a transparent derivative for a specialist food-processing machine and has little general reading value."
+  },
+  {
+    "id": "cork-oak-forest",
+    "word": "Cork oak forest",
+    "reason": "This is a transparent descriptive phrase, not a difficult independent headword."
+  },
+  {
+    "id": "tieback",
+    "word": "Tieback",
+    "reason": "This narrow curtain-fitting term has little general reading value."
+  },
+  {
+    "id": "removable",
+    "word": "Removable",
+    "reason": "Removable is a familiar transparent adjective and does not meet the difficulty criterion."
+  },
+  {
+    "id": "confirmed",
+    "word": "Confirmed",
+    "reason": "Confirmed is a common inflected form, not a difficult base headword."
+  },
+  {
+    "id": "counter-ambush",
+    "word": "Counter ambush",
+    "reason": "This uncommon military phrase has little general reading value."
+  },
+  {
+    "id": "monovalent",
+    "word": "Monovalent",
+    "reason": "This is a specialized chemistry and biology adjective with little general reading value."
+  },
+  {
+    "id": "reweave",
+    "word": "Reweave",
+    "reason": "This transparent and uncommon craft verb is not difficult enough for general vocabulary."
+  },
+  {
+    "id": "get-engrossed",
+    "word": "Get engrossed",
+    "reason": "This familiar phrase is transparent and the candidate thicket gloss is corrupt."
+  },
+  {
+    "id": "sybaritism",
+    "word": "sybaritism",
+    "reason": "Collins documents it only as a derived noun related to sybarite; this rare formal word has little current general use."
+  },
+  {
+    "id": "snitching",
+    "word": "snitching",
+    "reason": "This is a present participle or gerund form; the dictionary should use the base verb snitch if that word qualifies."
+  },
+  {
+    "id": "tempestively",
+    "word": "Tempestively",
+    "reason": "This form is not verified in Collins and the candidate confuses it with temporarily."
+  },
+  {
+    "id": "cementant",
+    "word": "Cementant",
+    "reason": "This form is not verified as a standard Collins headword and is a low-utility technical term."
+  },
+  {
+    "id": "circulating",
+    "word": "Circulating",
+    "reason": "This is a present participle form; the dictionary should review the base verb circulate instead."
+  },
+  {
+    "id": "colectomy",
+    "word": "Colectomy",
+    "reason": "This is a specialized surgical procedure name with little general reading value."
+  },
+  {
+    "id": "stereotomy",
+    "word": "stereotomy",
+    "reason": "This is a specialized stone-cutting technique with little general reading value."
+  },
+  {
+    "id": "retie",
+    "word": "Retie",
+    "reason": "Retie is a transparent common formation from tie and is not difficult enough for a separate entry."
+  },
+  {
+    "id": "satyrion",
+    "word": "Satyrion",
+    "reason": "This sense is not verified in Collins and appears to confuse satire with an unrelated word form."
+  },
+  {
+    "id": "semi-thread",
+    "word": "Semi-thread",
+    "reason": "This is a specialized textile description and has little general reading value."
+  },
+  {
+    "id": "sonetic",
+    "word": "Sonetic",
+    "reason": "This spelling is not verified in Collins; the intended word appears to be sonnet."
+  },
+  {
+    "id": "roofed",
+    "word": "Roofed",
+    "reason": "Roofed is a common transparent form of roof and is not difficult enough for a standalone entry."
+  },
+  {
+    "id": "monthly-payment-2",
+    "word": "Monthly payment",
+    "reason": "This is an easy descriptive phrase for money paid once a month."
+  },
+  {
+    "id": "mercury",
+    "word": "Mercury",
+    "reason": "The candidate is a specialist chemistry adjective relating to mercury and has little general reading value."
+  },
+  {
+    "id": "sevencallero",
+    "word": "sevencallero",
+    "reason": "This is not a verified English headword and appears to be a corrupted Spanish descriptor."
+  },
+  {
+    "id": "shatter",
+    "word": "shatter",
+    "reason": "Shatter is a familiar common verb and does not meet the difficulty criterion."
+  },
+  {
+    "id": "metamathematics",
+    "word": "Metamathematics",
+    "reason": "This is a specialized logic and mathematics term with little general reading value."
+  },
+  {
+    "id": "constitutional-court-2",
+    "word": "Constitutional Court",
+    "reason": "Collins shows examples of this descriptive phrase but does not verify a standalone headword with a definition; the candidate gloss is also too narrow."
+  },
+  {
+    "id": "cancellation-3",
+    "word": "Cancellation",
+    "reason": "The candidate describes an office that issues documents, which is not a sense of cancellation."
+  },
+  {
+    "id": "cramp-3",
+    "word": "Cramp",
+    "reason": "Cramp is familiar basic health vocabulary and does not meet the difficulty criterion for a separate entry."
+  },
+  {
+    "id": "embrace-7",
+    "word": "Embrace",
+    "reason": "The candidate gloss about encouraging brave action is incorrect, and embrace is familiar common vocabulary."
+  },
+  {
+    "id": "donkey-2",
+    "word": "Donkey",
+    "reason": "Donkey is a familiar animal name and the candidate adjective gloss is not a documented sense."
+  },
+  {
+    "id": "shred-2",
+    "word": "Shred",
+    "reason": "Shred is a familiar common word and the candidate reduction gloss is not a suitable difficult sense."
+  },
+  {
+    "id": "misinform-2",
+    "word": "misinform",
+    "reason": "Misinform is a transparent formation from the familiar verb inform and does not meet the difficulty criterion."
+  },
+  {
+    "id": "drape-2",
+    "word": "Drape",
+    "reason": "Drape is a familiar common verb and its candidate gloss repeats the headword meaning."
+  },
+  {
+    "id": "liar-2",
+    "word": "Liar",
+    "reason": "Liar is familiar basic vocabulary and the candidate definition is not a separate difficult sense."
+  },
+  {
+    "id": "landscaping-2",
+    "word": "Landscaping",
+    "reason": "The candidate confuses landscaping with landscape painting; landscaping is a transparent common word."
+  },
+  {
+    "id": "minister-3",
+    "word": "Minister",
+    "reason": "Minister is common vocabulary and the candidate gloss does not identify a difficult independent sense."
+  },
+  {
+    "id": "nag-2",
+    "word": "Nag",
+    "reason": "The candidate refers to a low-utility old-horse sense and does not establish a difficult useful entry."
+  },
+  {
+    "id": "lather-2",
+    "word": "lather",
+    "reason": "The candidate confinement gloss is incorrect, and lather is a common word for soap foam."
+  },
+  {
+    "id": "locker-2",
+    "word": "locker",
+    "reason": "Locker is a familiar common word for a storage cupboard."
+  },
+  {
+    "id": "cell-2",
+    "word": "Cell",
+    "reason": "Cell is familiar basic vocabulary and its prison-room sense is straightforward."
+  },
+  {
+    "id": "cook-6",
+    "word": "Cook",
+    "reason": "Cook is a familiar basic verb and does not meet the difficulty criterion."
+  },
+  {
+    "id": "control-3",
+    "word": "Control",
+    "reason": "Control is common basic vocabulary, and this verb sense is straightforward."
+  },
+  {
+    "id": "swab-5",
+    "word": "Swab",
+    "reason": "The candidate is a simple object description and does not establish a difficult useful sense."
+  },
+  {
+    "id": "monomaniac-2",
+    "word": "Monomaniac",
+    "reason": "Collins documents the word, but it is rare and has little general reading utility."
+  },
+  {
+    "id": "cracked-5",
+    "word": "Cracked",
+    "reason": "This is a familiar, transparent form meaning easy to crack, not a distinct difficult sense."
+  },
+  {
+    "id": "chalk-5",
+    "word": "Chalk",
+    "reason": "Chalk is common basic vocabulary, and the writing-material sense is familiar."
+  },
+  {
+    "id": "sponsor-6",
+    "word": "Sponsor",
+    "reason": "Sponsor is common vocabulary and the candidate provides no difficult independent meaning."
+  },
+  {
+    "id": "cartilage-2",
+    "word": "Cartilage",
+    "reason": "The candidate gives a narrow fish-anatomy sense, which has little general reading value."
+  },
+  {
+    "id": "leather-goods-2",
+    "word": "leather goods",
+    "reason": "The candidate definition is corrupted and the phrase itself is transparent common vocabulary."
+  },
+  {
+    "id": "chatter-12",
+    "word": "chatter",
+    "reason": "Chatter is a familiar verb and its talk aimlessly sense is straightforward."
+  },
+  {
+    "id": "mixed-5",
+    "word": "Mixed",
+    "reason": "The candidate explicitly marks this entry obsolete and gives no independent useful meaning."
+  },
+  {
+    "id": "captcha-2",
+    "word": "Captcha",
+    "reason": "CAPTCHA is a familiar web security test for most readers and its definition is already clear."
+  },
+  {
+    "id": "right-11",
+    "word": "Right",
+    "reason": "The candidate is the transparent noun rightness, formed from the common word right."
+  },
+  {
+    "id": "soldier-2",
+    "word": "Soldier",
+    "reason": "The candidate definition is a fragment and does not describe a documented useful sense of soldier."
+  },
+  {
+    "id": "anear",
+    "word": "Anear",
+    "reason": "The candidate refers to an old unit of measure and has little current general reading value."
+  },
+  {
+    "id": "complexional",
+    "word": "Complexional",
+    "reason": "This adjective is formed transparently from complexion and adds little independent value."
+  },
+  {
+    "id": "geno",
+    "word": "Geno",
+    "reason": "The proposed sense is not established as a current general-use meaning of this form."
+  },
+  {
+    "id": "sorrow-remover",
+    "word": "Sorrow remover",
+    "reason": "This uncommon phrase is a transparent, low-utility label for an alcoholic drink."
+  },
+  {
+    "id": "vestal",
+    "word": "Vestal",
+    "reason": "The candidate sense only describes a relation to the Roman goddess Vesta and has limited general use."
+  },
+  {
+    "id": "musmon",
+    "word": "Musmon",
+    "reason": "The proposed meaning is not documented for this headword in Collins and appears to be a corrupt entry."
+  },
+  {
+    "id": "noesis",
+    "word": "Noesis",
+    "reason": "Collins marks its meanings as philosophical and psychological technical terms with little general reading use."
+  },
+  {
+    "id": "mirza",
+    "word": "mirza",
+    "reason": "The word is a rare historical title for a person of rank and has little current general utility."
+  },
+  {
+    "id": "celestinear",
+    "word": "celestinear",
+    "reason": "The candidate is not documented as an English headword in Collins."
+  },
+  {
+    "id": "lick-9",
+    "word": "lick",
+    "reason": "The candidate gives a malformed gloss, and lick is a common verb with an easy meaning."
+  },
+  {
+    "id": "terrain",
+    "word": "terrain",
+    "reason": "Terrain is familiar general vocabulary for an area of land and its physical features."
+  },
+  {
+    "id": "soul-3",
+    "word": "soul",
+    "reason": "The candidate’s caper gloss is incorrect, and soul is common basic vocabulary."
+  },
+  {
+    "id": "hues-3",
+    "word": "hues",
+    "reason": "The candidate’s blackberry-variety gloss is not a useful general meaning of hues."
+  },
+  {
+    "id": "come-59",
+    "word": "come",
+    "reason": "The candidate is an obscure collective noun for vultures, with little general reading value."
+  },
+  {
+    "id": "cabbage-72",
+    "word": "cabbage",
+    "reason": "The candidate contains Spanish regional abbreviation fragments rather than a definition of cabbage."
+  },
+  {
+    "id": "charge-on-account",
+    "word": "Charge on account",
+    "reason": "The phrase describes a straightforward account payment and does not meet the difficult-vocabulary criterion."
+  },
+  {
+    "id": "cleft-lip",
+    "word": "cleft lip",
+    "reason": "The candidate is a medical condition name and the entry adds little general synonym vocabulary."
+  },
+  {
+    "id": "swamp",
+    "word": "Swamp",
+    "reason": "Swamp is common everyday vocabulary; both its wetland and overwhelm senses are familiar."
+  },
+  {
+    "id": "sharpener",
+    "word": "sharpener",
+    "reason": "This is a transparent name for a common sharpening tool, and the candidate gloss is corrupted."
+  },
+  {
+    "id": "chess",
+    "word": "Chess",
+    "reason": "Chess is a familiar game name, and the candidate provides only a transparent adjective form."
+  },
+  {
+    "id": "capping",
+    "word": "capping",
+    "reason": "The candidate gloss is malformed, while capping is a transparent common form of cap."
+  },
+  {
+    "id": "aliment",
+    "word": "Aliment",
+    "reason": "The candidate’s teaching gloss is wrong; Collins documents aliment as an uncommon word for nourishment or food."
+  },
+  {
+    "id": "cart",
+    "word": "Cart",
+    "reason": "Cart is common everyday vocabulary, and the candidate only gives a transparent adjective form."
+  },
+  {
+    "id": "carrized",
+    "word": "Carrized",
+    "reason": "Collins does not document this headword, and the candidate gives an unclear maritime fragment."
+  },
+  {
+    "id": "certifiable",
+    "word": "Certifiable",
+    "reason": "The candidate meaning follows directly from certify and is not difficult enough for a separate entry."
+  },
+  {
+    "id": "cording",
+    "word": "Cording",
+    "reason": "The candidate describes a narrow cord-making product and has little general reading value."
+  },
+  {
+    "id": "guitar",
+    "word": "guitar",
+    "reason": "Guitar is familiar everyday vocabulary, and the proposed small-instrument sense is not a difficult separate meaning."
+  },
+  {
+    "id": "collator",
+    "word": "Collator",
+    "reason": "This is a specialist publishing or printing job title with limited general reading use."
+  },
+  {
+    "id": "rip-apart",
+    "word": "rip apart",
+    "reason": "Rip apart is a common, transparent phrasal verb and does not meet the difficulty criterion."
+  },
+  {
+    "id": "requalify",
+    "word": "Requalify",
+    "reason": "Requalify means to qualify again, a meaning that is easy to infer from the familiar verb qualify."
+  },
+  {
+    "id": "straightener",
+    "word": "straightener",
+    "reason": "This is a transparent name for a device or person that straightens something."
+  },
+  {
+    "id": "supplemental",
+    "word": "Supplemental",
+    "reason": "Supplemental is a transparent variant of supplementary and does not need an independent difficult-word card."
+  },
+  {
+    "id": "scoot",
+    "word": "scoot",
+    "reason": "Scoot is a familiar informal verb, and the candidate example contains an unrelated malformed gloss."
+  },
+  {
+    "id": "fruiting",
+    "word": "Fruiting",
+    "reason": "The candidate defines the word as a variant of itself and provides no independent meaning."
+  },
+  {
+    "id": "stoneware",
+    "word": "Stoneware",
+    "reason": "Stoneware is a specific type of pottery material and has limited general synonym value."
+  },
+  {
+    "id": "newspaper-archive",
+    "word": "Newspaper archive",
+    "reason": "This phrase directly describes an archive of newspapers and is easy to understand."
+  },
+  {
+    "id": "fruitlessness",
+    "word": "Fruitlessness",
+    "reason": "Fruitlessness is an uncommon transparent noun formed from fruitless and adds little independent value."
+  },
+  {
+    "id": "contraventure",
+    "word": "Contraventure",
+    "reason": "Collins does not document this headword, and the proposed meaning is vague and very uncommon."
+  },
+  {
+    "id": "co-payer",
+    "word": "co-payer",
+    "reason": "Co-payer is a transparent compound meaning someone who pays together with another person."
+  },
+  {
+    "id": "modifiable",
+    "word": "Modifiable",
+    "reason": "The meaning follows directly from the common verb modify and its regular suffix."
+  },
+  {
+    "id": "mountainous",
+    "word": "Mountainous",
+    "reason": "Mountainous is a transparent adjective meaning related to or full of mountains."
+  },
+  {
+    "id": "slalom",
+    "word": "Slalom",
+    "reason": "Slalom is a familiar name for a skiing or racing event, and the candidate clue definition is incorrect."
+  },
+  {
+    "id": "stomachant",
+    "word": "Stomachant",
+    "reason": "Collins does not document this headword, and the candidate appears to be a malformed technical term."
+  },
+  {
+    "id": "superciliary",
+    "word": "Superciliary",
+    "reason": "This is a specialist adjective relating to the eyebrows, with little general reading value."
+  },
+  {
+    "id": "tabific",
+    "word": "Tabific",
+    "reason": "This uncommon adjective means causing wasting or weakness and has little current general use."
+  },
+  {
+    "id": "supletism",
+    "word": "Supletism",
+    "reason": "Collins does not document this spelling; the candidate appears to misspell the linguistic term suppletion."
+  },
+  {
+    "id": "colorimetric",
+    "word": "Colorimetric",
+    "reason": "Colorimetric is a technical adjective for color measurement and is not useful in general reading."
+  },
+  {
+    "id": "scary",
+    "word": "Scary",
+    "reason": "Scary is a common word meaning frightening; the candidate reverses this sense and describes a timid person."
+  },
+  {
+    "id": "geoid",
+    "word": "Geoid",
+    "reason": "Geoid is a geodesy term for the earth's shape and has little general reading utility."
+  },
+  {
+    "id": "squeezer",
+    "word": "Squeezer",
+    "reason": "Squeezer is a transparent name for something or someone that squeezes and is not difficult enough."
+  },
+  {
+    "id": "tithemer",
+    "word": "tithemer",
+    "reason": "Collins does not document this headword; the candidate refers to a rare historical religious role."
+  },
+  {
+    "id": "reminder",
+    "word": "Reminder",
+    "reason": "Reminder is common everyday vocabulary for something that helps a person remember."
+  },
+  {
+    "id": "serpentiger",
+    "word": "Serpentiger",
+    "reason": "This rare Latin-based adjective means carrying snakes and has little current reading value."
+  },
+  {
+    "id": "robinsonian",
+    "word": "Robinsonian",
+    "reason": "This uncommon derivative of the proper name Robinson Crusoe has limited general reading use."
+  },
+  {
+    "id": "shattered",
+    "word": "Shattered",
+    "reason": "Shattered is a common word for broken or exhausted; the candidate’s contempt gloss is incorrect."
+  },
+  {
+    "id": "airport-2",
+    "word": "Airport",
+    "reason": "Airport is basic familiar vocabulary, and the candidate describes a runway rather than an airport."
+  },
+  {
+    "id": "shield-2",
+    "word": "Shield",
+    "reason": "Shield is a common word, and protecting someone or something is an easy verb sense."
+  },
+  {
+    "id": "carry-2",
+    "word": "Carry",
+    "reason": "Carry is a common verb, and the candidate’s drive-a-cart meaning is not a useful difficult sense."
+  },
+  {
+    "id": "lighten-2",
+    "word": "Lighten",
+    "reason": "Lighten is a familiar verb whose meanings can be understood from the common word light."
+  },
+  {
+    "id": "lead-3",
+    "word": "lead",
+    "reason": "Lead is a common word; the candidate gives only a narrow technical metalworking verb sense."
+  },
+  {
+    "id": "screw-3",
+    "word": "Screw",
+    "reason": "Screw is common everyday vocabulary, and the candidate spiral-making sense is easy to infer."
+  },
+  {
+    "id": "lantern-3",
+    "word": "Lantern",
+    "reason": "Lantern is a familiar object, and the candidate hit-with-a-bluff gloss is unrelated to its meaning."
+  },
+  {
+    "id": "comforter-2",
+    "word": "Comforter",
+    "reason": "The candidate’s property-transfer definition is unsupported; Collins gives familiar senses such as a person who comforts or a bed cover."
+  },
+  {
+    "id": "lightness-2",
+    "word": "Lightness",
+    "reason": "Lightness is a transparent noun for the quality of being light."
+  },
+  {
+    "id": "chest-4",
+    "word": "chest",
+    "reason": "Chest is common vocabulary; the candidate’s definition is malformed and does not provide a useful distinct sense."
+  },
+  {
+    "id": "spurred-2",
+    "word": "Spurred",
+    "reason": "Spurred is an inflected form of spur, and the proposed mounted-attack gloss is not a documented meaning."
+  },
+  {
+    "id": "tin-2",
+    "word": "Tin",
+    "reason": "Tin is a common word, and this coating or plating sense is a low-utility technical verb use."
+  },
+  {
+    "id": "gasp-4",
+    "word": "gasp",
+    "reason": "Gasp is common vocabulary, and the proposed definition merely describes breathing with difficulty rather than a distinct synonym sense."
+  },
+  {
+    "id": "rose-garden-2",
+    "word": "Rose Garden",
+    "reason": "Rose garden is a transparent phrase for a garden where roses grow."
+  },
+  {
+    "id": "strength-2",
+    "word": "Strength",
+    "reason": "Strength is common vocabulary; the proposed strengthening sense is incorrect for this noun."
+  },
+  {
+    "id": "smooth-3",
+    "word": "Smooth",
+    "reason": "Smooth is a familiar everyday adjective whose surface meaning is easy to understand."
+  },
+  {
+    "id": "frying-2",
+    "word": "frying",
+    "reason": "Frying means cooking food in hot fat; it does not mean an establishment serving fried food."
+  },
+  {
+    "id": "morning-3",
+    "word": "Morning",
+    "reason": "The proposed meaning «spend time doing nothing» is unrelated to the common word morning."
+  },
+  {
+    "id": "manufacturer-2",
+    "word": "Manufacturer",
+    "reason": "Manufacturer is a common, transparent word for a person or company that makes goods."
+  },
+  {
+    "id": "shocking-3",
+    "word": "Shocking",
+    "reason": "Shocking is a common adjective; the proposed gloss «what an impact» is malformed and not a definition."
+  },
+  {
+    "id": "gurgle-5",
+    "word": "gurgle",
+    "reason": "Gurgle is a familiar sound word for water or a person making a bubbling noise."
+  },
+  {
+    "id": "frying-pan-4",
+    "word": "frying pan",
+    "reason": "Frying pan is a familiar, transparent name for a pan used to fry food."
+  },
+  {
+    "id": "sob-3",
+    "word": "sob",
+    "reason": "Sob is a familiar verb and noun for crying with short, noisy breaths."
+  },
+  {
+    "id": "telegraph-3",
+    "word": "Telegraph",
+    "reason": "The candidate gives an adjective meaning unrelated to the headword’s standard use as a noun or verb."
+  },
+  {
+    "id": "stimulate-3",
+    "word": "Stimulate",
+    "reason": "Stimulate is a familiar verb whose common meanings are easy to understand."
+  },
+  {
+    "id": "instrument-2",
+    "word": "Instrument",
+    "reason": "Instrument is a familiar word for a tool or device."
+  },
+  {
+    "id": "specify-2",
+    "word": "Specify",
+    "reason": "Specify is common vocabulary, and its documented meaning is to state something clearly, not force someone."
+  },
+  {
+    "id": "neigh-2",
+    "word": "neigh",
+    "reason": "Neigh names the familiar sound a horse makes and has little value as a difficult general-use word."
+  },
+  {
+    "id": "terrifying-2",
+    "word": "Terrifying",
+    "reason": "Terrifying is a familiar form of terrify with a meaning that is easy to infer."
+  },
+  {
+    "id": "courage-3",
+    "word": "Courage",
+    "reason": "Courage is a familiar general word for the ability to face danger or difficulty."
+  },
+  {
+    "id": "courtesy-3",
+    "word": "Courtesy",
+    "reason": "Courtesy is a common word for polite behavior; the proposed meaning about a department is unrelated."
+  },
+  {
+    "id": "chain-4",
+    "word": "Chain",
+    "reason": "Chain is a familiar word for linked metal rings or a series; the proposed meaning «strong blow» is unsupported."
+  },
+  {
+    "id": "sitting-3",
+    "word": "Sitting",
+    "reason": "Sitting is a common form of sit; «judicious» is an unrelated meaning and appears to be a corrupt entry."
+  },
+  {
+    "id": "asleep-3",
+    "word": "Asleep",
+    "reason": "Asleep is a common word meaning sleeping; «sleepless» gives the opposite meaning."
+  },
+  {
+    "id": "funeral-6",
+    "word": "funeral",
+    "reason": "Funeral is familiar everyday vocabulary for a ceremony after someone dies."
+  },
+  {
+    "id": "dream-6",
+    "word": "Dream",
+    "reason": "Dream is common vocabulary, and its documented meanings do not include «below» or «the lower part»."
+  },
+  {
+    "id": "spill-5",
+    "word": "spill",
+    "reason": "Spill is a familiar everyday verb; the candidate definition is also repetitive rather than a separate useful sense."
+  },
+  {
+    "id": "cobbling",
+    "word": "Cobbling",
+    "reason": "The candidate gives an unclear specialist farming sense; cobbling usually means making or repairing shoes."
+  },
+  {
+    "id": "spender-2",
+    "word": "Spender",
+    "reason": "Spender is a common, transparent word for someone who spends money; the proposed «grinder» sense is wrong."
   }
 ]
