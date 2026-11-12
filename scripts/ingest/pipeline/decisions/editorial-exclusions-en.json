@@ -84726,5 +84726,25 @@
     "id": "inside-3",
     "word": "Inside",
     "reason": "The fragment “of both” does not define an independent sense of inside."
+  },
+  {
+    "id": "garlic-5",
+    "word": "garlic",
+    "reason": "The gloss describes a washbasin, not garlic, and appears to be a corrupted entry."
+  },
+  {
+    "id": "mur-16",
+    "word": "mur",
+    "reason": "The gloss is a Spanish dialect word and does not establish a valid English entry."
+  },
+  {
+    "id": "come-50",
+    "word": "come",
+    "reason": "The gloss describes a blow from a club and does not match a meaning of come."
+  },
+  {
+    "id": "collegiate",
+    "word": "Collegiate",
+    "reason": "The gloss describes a member of a professional association, not the adjective collegiate."
   }
 ]

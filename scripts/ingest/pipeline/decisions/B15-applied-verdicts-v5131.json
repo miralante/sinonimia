@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5135",
+  "runtime": "v5136",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1069,
-    "en": 1038
+    "es": 1088,
+    "en": 1058
   },
-  "latestLedgerBatchCount": 105,
-  "latestLedgerReviewedIdCount": 2107,
-  "appliedCount": 906,
+  "latestLedgerBatchCount": 107,
+  "latestLedgerReviewedIdCount": 2146,
+  "appliedCount": 926,
   "appliedByLanguage": {
-    "es": 457,
-    "en": 449
+    "es": 467,
+    "en": 459
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -60,7 +60,8 @@
     "B15-eighty-ninth-17-verdicts.json",
     "B15-ninetieth-20-verdicts.json",
     "B15-ninetyfirst-20-verdicts.json",
-    "B15-ninetysecond-20-verdicts.json"
+    "B15-ninetysecond-20-verdicts.json",
+    "B15-ninetythird-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -5683,6 +5684,126 @@
       "language": "en",
       "id": "inside-3",
       "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "es",
+      "id": "zaranda",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "es",
+      "id": "zootecnico",
+      "decision": "exclude-specialized-animal-husbandry-term"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "es",
+      "id": "zuizon",
+      "decision": "exclude-rare-historical-weapon-term"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "es",
+      "id": "zurruscarse",
+      "decision": "exclude-rare-regional-verb"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "es",
+      "id": "acierto",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "es",
+      "id": "alcanzado",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "es",
+      "id": "arrasado",
+      "decision": "exclude-specialized-textile-sense"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "es",
+      "id": "atlantico",
+      "decision": "exclude-rare-mythological-adjective-sense"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "es",
+      "id": "boquilla",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "es",
+      "id": "brevedad",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "en",
+      "id": "speak",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "en",
+      "id": "garlic-5",
+      "decision": "exclude-definition-sense-mismatch"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "en",
+      "id": "hydria-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "en",
+      "id": "spark-6",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "en",
+      "id": "steer-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "en",
+      "id": "mur-16",
+      "decision": "exclude-corrupt-non-english-entry"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "en",
+      "id": "come-50",
+      "decision": "exclude-definition-sense-mismatch"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "en",
+      "id": "death-policy",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "en",
+      "id": "collegiate",
+      "decision": "exclude-definition-sense-mismatch"
+    },
+    {
+      "batch": "B15-ninetythird-20-verdicts.json",
+      "language": "en",
+      "id": "payment-gateway",
+      "decision": "rewrite-definition-and-example"
     }
   ],
   "pendingBatch25": [
