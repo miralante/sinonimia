@@ -268366,5 +268366,185 @@
         "text": "El revestimiento de zinc protege las piezas de acero de la corrosión."
       }
     }
+  },
+  {
+    "entry": "retribuir",
+    "remove": [],
+    "set": {
+      "definition": "Dar una compensación o recompensa por un trabajo, favor o beneficio recibido.",
+      "synonyms": [
+        "recompensar"
+      ],
+      "example": {
+        "word": "retribuir",
+        "text": "La empresa decidió retribuir el esfuerzo del equipo."
+      },
+      "exampleSynonym": {
+        "word": "recompensar",
+        "text": "La empresa decidió recompensar el esfuerzo del equipo."
+      }
+    }
+  },
+  {
+    "entry": "siniestralidad",
+    "remove": [],
+    "set": {
+      "definition": "Frecuencia de accidentes o daños en un sector o lugar.",
+      "synonyms": [
+        "frecuencia de siniestros"
+      ],
+      "example": {
+        "word": "siniestralidad",
+        "text": "La siniestralidad del sector preocupa a las aseguradoras."
+      },
+      "exampleSynonym": {
+        "word": "frecuencia de siniestros",
+        "text": "La frecuencia de siniestros del sector preocupa a las aseguradoras."
+      }
+    }
+  },
+  {
+    "entry": "sobreentender",
+    "remove": [],
+    "set": {
+      "definition": "Dar por supuesto algo que no se expresa directamente.",
+      "synonyms": [
+        "dar por supuesto"
+      ],
+      "example": {
+        "word": "sobreentender",
+        "text": "No debemos sobreentender que todos están de acuerdo."
+      },
+      "exampleSynonym": {
+        "word": "dar por supuesto",
+        "text": "No debemos dar por supuesto que todos están de acuerdo."
+      }
+    }
+  },
+  {
+    "entry": "sosegar",
+    "remove": [],
+    "set": {
+      "definition": "Calmar a alguien o reducir su inquietud.",
+      "synonyms": [
+        "tranquilizar"
+      ],
+      "example": {
+        "word": "sosegar",
+        "text": "La música ayudó a sosegar a la niña."
+      },
+      "exampleSynonym": {
+        "word": "tranquilizar",
+        "text": "La música ayudó a tranquilizar a la niña."
+      }
+    }
+  },
+  {
+    "entry": "sublevar",
+    "remove": [],
+    "set": {
+      "definition": "Provocar una rebelión contra una autoridad.",
+      "synonyms": [
+        "rebelar"
+      ],
+      "example": {
+        "word": "sublevar",
+        "text": "El líder quiso sublevar a la población."
+      },
+      "exampleSynonym": {
+        "word": "rebelar",
+        "text": "El líder quiso rebelar a la población."
+      }
+    }
+  },
+  {
+    "entry": "tiniebla",
+    "remove": [],
+    "set": {
+      "definition": "Falta de luz o claridad.",
+      "synonyms": [
+        "oscuridad"
+      ],
+      "example": {
+        "word": "tiniebla",
+        "text": "La tiniebla cubrió el valle al anochecer."
+      },
+      "exampleSynonym": {
+        "word": "oscuridad",
+        "text": "La oscuridad cubrió el valle al anochecer."
+      }
+    }
+  },
+  {
+    "entry": "tlacuache",
+    "remove": [],
+    "set": {
+      "definition": "Marsupial americano que vive en México y Centroamérica.",
+      "synonyms": [
+        "marsupial americano"
+      ],
+      "example": {
+        "word": "tlacuache",
+        "text": "El tlacuache se refugió bajo un árbol."
+      },
+      "exampleSynonym": {
+        "word": "marsupial americano",
+        "text": "El marsupial americano se refugió bajo un árbol."
+      }
+    }
+  },
+  {
+    "entry": "trastada",
+    "remove": [],
+    "set": {
+      "definition": "Acción malintencionada que perjudica a alguien.",
+      "synonyms": [
+        "mala jugada"
+      ],
+      "example": {
+        "word": "trastada",
+        "text": "La trastada perjudicó a todo el equipo."
+      },
+      "exampleSynonym": {
+        "word": "mala jugada",
+        "text": "La mala jugada perjudicó a todo el equipo."
+      }
+    }
+  },
+  {
+    "entry": "trimero",
+    "remove": [],
+    "set": {
+      "definition": "Que está formado por tres partes, unidades o elementos.",
+      "synonyms": [
+        "formado por tres piezas"
+      ],
+      "example": {
+        "word": "trímero",
+        "text": "El modelo trímero combina tres piezas de distinto tamaño."
+      },
+      "exampleSynonym": {
+        "word": "formado por tres piezas",
+        "text": "El modelo formado por tres piezas reúne elementos de distinto tamaño."
+      }
+    }
+  },
+  {
+    "entry": "vacada",
+    "remove": [],
+    "set": {
+      "definition": "Manada de ganado vacuno.",
+      "synonyms": [
+        "manada de ganado"
+      ],
+      "example": {
+        "word": "vacada",
+        "text": "La vacada del rancho pastaba cerca del río."
+      },
+      "exampleSynonym": {
+        "word": "manada de ganado",
+        "text": "La manada de ganado del rancho pastaba cerca del río."
+      }
+    }
   }
 ]

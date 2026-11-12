@@ -1,7 +1,21 @@
 [
   {
     "entry": "muezzin",
-    "remove": []
+    "remove": [],
+    "set": {
+      "definition": "A man who calls Muslims to prayer, usually from a mosque.",
+      "synonyms": [
+        "prayer caller"
+      ],
+      "example": {
+        "word": "muezzin",
+        "text": "The muezzin climbed the minaret before dawn."
+      },
+      "exampleSynonym": {
+        "word": "prayer caller",
+        "text": "The prayer caller climbed the minaret before dawn."
+      }
+    }
   },
   {
     "entry": "harness-3",
@@ -466,12 +480,6 @@
         "text": "He became overly touchy, so she moved away."
       }
     }
-  },
-  {
-    "entry": "muezzin",
-    "remove": [
-      "muezzin variant"
-    ]
   },
   {
     "entry": "handguard",
@@ -268486,6 +268494,114 @@
       "exampleSynonym": {
         "word": "brain-surface",
         "text": "The accident caused brain-surface damage."
+      }
+    }
+  },
+  {
+    "entry": "tesla",
+    "remove": [],
+    "set": {
+      "definition": "SI unit used to measure magnetic flux density.",
+      "synonyms": [
+        "magnetic-field unit"
+      ],
+      "example": {
+        "word": "tesla",
+        "text": "One tesla equals one weber per square meter."
+      },
+      "exampleSynonym": {
+        "word": "magnetic-field unit",
+        "text": "One magnetic-field unit equals one weber per square meter."
+      }
+    }
+  },
+  {
+    "entry": "tawdry",
+    "remove": [],
+    "set": {
+      "definition": "Cheap-looking or lacking good taste.",
+      "synonyms": [
+        "gaudy"
+      ],
+      "example": {
+        "word": "tawdry",
+        "text": "The room had tawdry decorations."
+      },
+      "exampleSynonym": {
+        "word": "gaudy",
+        "text": "The room had gaudy decorations."
+      }
+    }
+  },
+  {
+    "entry": "telemedicine",
+    "remove": [],
+    "set": {
+      "definition": "Medical care given remotely by phone or internet.",
+      "synonyms": [
+        "remote medical care"
+      ],
+      "example": {
+        "word": "telemedicine",
+        "text": "Some patients use telemedicine to speak with doctors online."
+      },
+      "exampleSynonym": {
+        "word": "remote medical care",
+        "text": "Some patients use remote medical care to speak with doctors online."
+      }
+    }
+  },
+  {
+    "entry": "collegiality",
+    "remove": [],
+    "set": {
+      "definition": "Friendly cooperation and respect among members of a group.",
+      "synonyms": [
+        "cooperation among colleagues"
+      ],
+      "example": {
+        "word": "collegiality",
+        "text": "The team's collegiality helped it share difficult decisions."
+      },
+      "exampleSynonym": {
+        "word": "cooperation among colleagues",
+        "text": "The team's cooperation among colleagues helped it share difficult decisions."
+      }
+    }
+  },
+  {
+    "entry": "circumstantiate",
+    "remove": [],
+    "set": {
+      "definition": "To describe something in detail or establish its circumstances.",
+      "synonyms": [
+        "detail"
+      ],
+      "example": {
+        "word": "circumstantiate",
+        "text": "The report helped circumstantiate the events of the night."
+      },
+      "exampleSynonym": {
+        "word": "detail",
+        "text": "The report helped detail the events of the night."
+      }
+    }
+  },
+  {
+    "entry": "metaphorize",
+    "remove": [],
+    "set": {
+      "definition": "To describe something by using a metaphor.",
+      "synonyms": [
+        "portray"
+      ],
+      "example": {
+        "word": "metaphorize",
+        "text": "Writers often metaphorize winter as a locked room."
+      },
+      "exampleSynonym": {
+        "word": "portray",
+        "text": "Writers often portray winter as a locked room."
       }
     }
   }

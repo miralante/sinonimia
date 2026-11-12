@@ -94821,5 +94821,70 @@
     "id": "salami",
     "word": "salami",
     "reason": "Salami is a common food name with a clear, accessible definition."
+  },
+  {
+    "id": "rubbish",
+    "word": "rubbish",
+    "reason": "Rubbish is a common word for waste, nonsense, or something of poor quality."
+  },
+  {
+    "id": "terpinol",
+    "word": "terpinol",
+    "reason": "Terpinol is an obscure chemical substance name with little general use."
+  },
+  {
+    "id": "castor-bean",
+    "word": "castor bean",
+    "reason": "The supplied definition says “castor, cherva” and does not explain castor bean."
+  },
+  {
+    "id": "chain-related",
+    "word": "chain related",
+    "reason": "Chain related is a transparent phrase with no distinct difficult meaning."
+  },
+  {
+    "id": "sailing",
+    "word": "sailing",
+    "reason": "Sailing is a common word for travelling in a boat using sails."
+  },
+  {
+    "id": "germ-7",
+    "word": "germ",
+    "reason": "The supplied definition means sword, not germ."
+  },
+  {
+    "id": "germ-12",
+    "word": "germ",
+    "reason": "The supplied definition means kitchen boiler, not germ."
+  },
+  {
+    "id": "bowl-22",
+    "word": "bowl",
+    "reason": "The supplied definition is Bolivian Spanish slang for a shoelace, not an English sense of bowl."
+  },
+  {
+    "id": "creoled",
+    "word": "creoled",
+    "reason": "Creoled is not a standard current English form in the supplied adjective sense."
+  },
+  {
+    "id": "caressingly",
+    "word": "caressingly",
+    "reason": "Caressingly is a rare transparent adverb meaning in a caressing manner."
+  },
+  {
+    "id": "squarely",
+    "word": "squarely",
+    "reason": "Squarely is a common adverb for directly or firmly."
+  },
+  {
+    "id": "conscientious",
+    "word": "conscientious",
+    "reason": "The supplied definition describes a stone polisher, not conscientious."
+  },
+  {
+    "id": "guesser",
+    "word": "guesser",
+    "reason": "Guesser is a transparent noun for a person who guesses, and the supplied definition is circular."
   }
 ]
