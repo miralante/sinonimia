@@ -84021,5 +84021,55 @@
     "id": "straw-5",
     "word": "straw",
     "reason": "The hollow dried stem of grass is a common basic meaning of «straw» and does not meet the curated vocabulary threshold."
+  },
+  {
+    "id": "complain-3",
+    "word": "complain",
+    "reason": "The candidate defines «complain» as a person, but it is a verb; the person noun would be «complainer»."
+  },
+  {
+    "id": "located-2",
+    "word": "Located",
+    "reason": "The entry describes someone sensible and suited to a situation, which is not a meaning of «located»."
+  },
+  {
+    "id": "contraceptive-3",
+    "word": "Contraceptive",
+    "reason": "The record says «contraceptive is synonymous with contraceptive», providing no definition or distinct sense."
+  },
+  {
+    "id": "capper-3",
+    "word": "Capper",
+    "reason": "The candidate simply means a person who caps something, a transparent agent noun with little vocabulary value."
+  },
+  {
+    "id": "celestial-2",
+    "word": "Celestial",
+    "reason": "The supposed «bath or broth given to cloths» is unsupported as an English sense and appears to be corrupted text."
+  },
+  {
+    "id": "howitzer-2",
+    "word": "howitzer",
+    "reason": "A howitzer is an artillery gun, not a bomber boat; the candidate sense is wrong."
+  },
+  {
+    "id": "know-3",
+    "word": "Know",
+    "reason": "The proposed Romanesque-based pidgin meaning is unsupported for the common English verb «know»."
+  },
+  {
+    "id": "skipper-2",
+    "word": "Skipper",
+    "reason": "The candidate's homopterous-insect description is inaccurate; the zoological use is for certain butterflies and is highly specialized."
+  },
+  {
+    "id": "inseparable-2",
+    "word": "Inseparable",
+    "reason": "«Inseparable» means unable to be separated, not unable or difficult to dry."
+  },
+  {
+    "id": "chepe",
+    "word": "Chepe",
+    "reason": "The record gives Spanish «chepe» as «copy, imitate»; this is not a standard English headword."
   }
 ]
