@@ -94171,5 +94171,135 @@
     "id": "generalize",
     "word": "generalize",
     "reason": "Generalize is a common verb with a clear, easily understood meaning."
+  },
+  {
+    "id": "capelet",
+    "word": "capelet",
+    "reason": "The supplied definition says “wind musical instrument” and does not define the headword capelet."
+  },
+  {
+    "id": "mirify",
+    "word": "mirify",
+    "reason": "Mirify is an extremely rare archaic verb meaning to make wonderful."
+  },
+  {
+    "id": "neologist",
+    "word": "neologist",
+    "reason": "Neologist is a rare specialist term for someone who promotes new words."
+  },
+  {
+    "id": "sculptor",
+    "word": "sculptor",
+    "reason": "Sculptor is a common occupation word with a clear, simple definition."
+  },
+  {
+    "id": "mirrors",
+    "word": "mirrors",
+    "reason": "The supplied definition repeats the headword and gives no distinct meaning."
+  },
+  {
+    "id": "spiciform",
+    "word": "spiciform",
+    "reason": "Spiciform is a rare botanical adjective for something shaped like a flower spike."
+  },
+  {
+    "id": "strangle",
+    "word": "strangle",
+    "reason": "Strangle is a common verb with a straightforward core meaning."
+  },
+  {
+    "id": "groupuscular",
+    "word": "groupuscular",
+    "reason": "Groupuscular is rare political jargon for something related to a small organized group."
+  },
+  {
+    "id": "gardener",
+    "word": "gardener",
+    "reason": "Gardener is a common occupation word with a simple definition."
+  },
+  {
+    "id": "mirliflower",
+    "word": "mirliflower",
+    "reason": "Mirliflower is an obscure plant name with little everyday use."
+  },
+  {
+    "id": "sound-level-meter",
+    "word": "sound level meter",
+    "reason": "The supplied definition describes an instrument for musical intervals, not a sound level meter."
+  },
+  {
+    "id": "sanctum-sanctorum",
+    "word": "sanctum sanctorum",
+    "reason": "Sanctum sanctorum is a rare Latin expression for a temple's most sacred room."
+  },
+  {
+    "id": "broken-down",
+    "word": "broken down",
+    "reason": "The supplied definition does not match the ordinary meanings of broken down."
+  },
+  {
+    "id": "objectivity",
+    "word": "objectivity",
+    "reason": "Objectivity is a familiar, transparent word with an easily understood meaning."
+  },
+  {
+    "id": "centunvirate",
+    "word": "centunvirate",
+    "reason": "Centunvirate is an obscure term for an ancient Roman court of judges."
+  },
+  {
+    "id": "cinnamic",
+    "word": "cinnamic",
+    "reason": "Cinnamic is a specialist chemistry adjective with little general use."
+  },
+  {
+    "id": "garrober",
+    "word": "garrober",
+    "reason": "Garrober is an obsolete or highly regional word with no clear current general use."
+  },
+  {
+    "id": "metallographic",
+    "word": "metallographic",
+    "reason": "Metallographic is a specialist adjective used in materials science and microscopy."
+  },
+  {
+    "id": "replan",
+    "word": "replan",
+    "reason": "Replan is a common verb with a transparent meaning: plan again."
+  },
+  {
+    "id": "semiotechnics",
+    "word": "semiotechnics",
+    "reason": "Semiotechnics is an obscure specialist term for signs used in musical notation."
+  },
+  {
+    "id": "co-opponent",
+    "word": "co-opponent",
+    "reason": "Co-opponent is an obsolete academic term for someone competing with another candidate."
+  },
+  {
+    "id": "mortar-blow",
+    "word": "mortar blow",
+    "reason": "Mortar blow is a specialist military phrase with little everyday use."
+  },
+  {
+    "id": "get-back-on-track",
+    "word": "get back on track",
+    "reason": "The supplied definition says “make rails” and does not match the phrase get back on track."
+  },
+  {
+    "id": "tardy",
+    "word": "tardy",
+    "reason": "Tardy is a common adjective with a simple, familiar meaning."
+  },
+  {
+    "id": "moldy-2",
+    "word": "moldy",
+    "reason": "The supplied definition is a page scrape and contains no usable meaning for moldy."
+  },
+  {
+    "id": "lift-2",
+    "word": "lift",
+    "reason": "The supplied definition describes a direction on the horizon, not a sense of lift."
   }
 ]

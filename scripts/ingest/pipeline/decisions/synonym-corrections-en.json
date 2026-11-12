@@ -267957,5 +267957,77 @@
         "text": "The furnace worker fed coal into the ship's furnace."
       }
     }
+  },
+  {
+    "entry": "chairlift",
+    "remove": [],
+    "set": {
+      "definition": "A cable system with seats that carries people up a slope.",
+      "synonyms": [
+        "cable lift"
+      ],
+      "example": {
+        "word": "chairlift",
+        "text": "The chairlift carried skiers to the top of the mountain."
+      },
+      "exampleSynonym": {
+        "word": "cable lift",
+        "text": "The cable lift carried skiers to the top of the mountain."
+      }
+    }
+  },
+  {
+    "entry": "municipalize",
+    "remove": [],
+    "set": {
+      "definition": "To place a service or company under a city's control.",
+      "synonyms": [
+        "take municipal control of"
+      ],
+      "example": {
+        "word": "municipalize",
+        "text": "The city voted to municipalize the water service."
+      },
+      "exampleSynonym": {
+        "word": "take municipal control of",
+        "text": "The city voted to take municipal control of the water service."
+      }
+    }
+  },
+  {
+    "entry": "commoner",
+    "remove": [],
+    "set": {
+      "definition": "A person who is not a member of the nobility.",
+      "synonyms": [
+        "person outside the nobility"
+      ],
+      "example": {
+        "word": "commoner",
+        "text": "The commoner married into the royal family."
+      },
+      "exampleSynonym": {
+        "word": "person outside the nobility",
+        "text": "The person outside the nobility married into the royal family."
+      }
+    }
+  },
+  {
+    "entry": "guardianship-2",
+    "remove": [],
+    "set": {
+      "definition": "Legal responsibility for caring for a child or dependent adult.",
+      "synonyms": [
+        "legal care"
+      ],
+      "example": {
+        "word": "guardianship",
+        "text": "The guardianship of the child lasted for three years."
+      },
+      "exampleSynonym": {
+        "word": "legal care",
+        "text": "The legal care of the child lasted for three years."
+      }
+    }
   }
 ]

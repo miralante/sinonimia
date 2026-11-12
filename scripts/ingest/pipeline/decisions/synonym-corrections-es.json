@@ -267574,5 +267574,113 @@
         "text": "El colegio de la orden salesiana celebró su aniversario."
       }
     }
+  },
+  {
+    "entry": "septenio",
+    "remove": [],
+    "set": {
+      "definition": "Período de siete años.",
+      "synonyms": [
+        "período de siete años"
+      ],
+      "example": {
+        "word": "septenio",
+        "text": "El país iniciará un septenio de reformas."
+      },
+      "exampleSynonym": {
+        "word": "período de siete años",
+        "text": "El país iniciará un período de siete años de reformas."
+      }
+    }
+  },
+  {
+    "entry": "sobaquina",
+    "remove": [],
+    "set": {
+      "definition": "Olor fuerte y desagradable del sudor de las axilas.",
+      "synonyms": [
+        "pestilencia de sobaco"
+      ],
+      "example": {
+        "word": "sobaquina",
+        "text": "La sobaquina llenó el vestuario después del partido."
+      },
+      "exampleSynonym": {
+        "word": "pestilencia de sobaco",
+        "text": "La pestilencia de sobaco llenó el vestuario después del partido."
+      }
+    }
+  },
+  {
+    "entry": "terbio",
+    "remove": [],
+    "set": {
+      "definition": "Elemento metálico con símbolo Tb y número atómico 65.",
+      "synonyms": [
+        "elemento químico Tb"
+      ],
+      "example": {
+        "word": "terbio",
+        "text": "El terbio es uno de los lantánidos."
+      },
+      "exampleSynonym": {
+        "word": "elemento químico Tb",
+        "text": "El elemento químico Tb es uno de los lantánidos."
+      }
+    }
+  },
+  {
+    "entry": "terere",
+    "remove": [],
+    "set": {
+      "definition": "Bebida de yerba mate que se prepara con agua fría.",
+      "synonyms": [
+        "mate frío"
+      ],
+      "example": {
+        "word": "tereré",
+        "text": "En verano, muchas familias toman tereré."
+      },
+      "exampleSynonym": {
+        "word": "mate frío",
+        "text": "En verano, muchas familias toman mate frío."
+      }
+    }
+  },
+  {
+    "entry": "vitreo",
+    "remove": [],
+    "set": {
+      "definition": "Que tiene el aspecto, el brillo o la naturaleza del vidrio.",
+      "synonyms": [
+        "parecido al vidrio"
+      ],
+      "example": {
+        "word": "vítreo",
+        "text": "La roca tenía un brillo vítreo."
+      },
+      "exampleSynonym": {
+        "word": "parecido al vidrio",
+        "text": "La roca tenía un brillo parecido al vidrio."
+      }
+    }
+  },
+  {
+    "entry": "zircon",
+    "remove": [],
+    "set": {
+      "definition": "Mineral duro de varios colores que se usa como gema.",
+      "synonyms": [
+        "mineral precioso"
+      ],
+      "example": {
+        "word": "zircón",
+        "text": "El zircón azul se exhibió en la vitrina."
+      },
+      "exampleSynonym": {
+        "word": "mineral precioso",
+        "text": "El mineral precioso azul se exhibió en la vitrina."
+      }
+    }
   }
 ]
