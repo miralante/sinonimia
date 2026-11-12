@@ -86681,5 +86681,45 @@
     "id": "sexagesimal",
     "word": "Sexagesimal",
     "reason": "Sexagesimal correctly relates to base 60, but it is a narrow mathematics term with low general utility; the candidate incorrectly says six."
+  },
+  {
+    "id": "grasshopper-2",
+    "word": "Grasshopper",
+    "reason": "Grasshopper is a common insect name; the acrobatic-performer gloss is not a documented English sense."
+  },
+  {
+    "id": "infect-3",
+    "word": "Infect",
+    "reason": "This is explicitly an obsolete variant and does not deserve a separate current English card."
+  },
+  {
+    "id": "infect-5",
+    "word": "infect",
+    "reason": "The intended disease sense is already covered under infect-2; this copy is malformed and duplicates that meaning."
+  },
+  {
+    "id": "infect-6",
+    "word": "Infect",
+    "reason": "Infect is a verb, while the adjective “infected” is a separate form; this entry is only a malformed label for that form."
+  },
+  {
+    "id": "manufacturing-2",
+    "word": "Manufacturing",
+    "reason": "This duplicate card repeats the useful manufacturing process already covered by the established manufacturing entry."
+  },
+  {
+    "id": "infect-4",
+    "word": "Infect",
+    "reason": "Duplicate infect sense; retain the four separately reviewed disease, contamination, figurative, and computer-virus cards."
+  },
+  {
+    "id": "infect-spread-influence",
+    "word": "Infect",
+    "reason": "Duplicate infect sense; retain the four separately reviewed disease, contamination, figurative, and computer-virus cards."
+  },
+  {
+    "id": "infect-computer-virus",
+    "word": "Infect",
+    "reason": "Duplicate infect sense; retain the four separately reviewed disease, contamination, figurative, and computer-virus cards."
   }
 ]

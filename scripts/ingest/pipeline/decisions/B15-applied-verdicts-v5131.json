@@ -1,6 +1,6 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5158",
+  "runtime": "v5159",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
@@ -312,6 +312,46 @@
       "reason": "B131 splits desembocar into three reviewed cards; remove the obsolete translation-unset correction targeting the replaced base entry.",
       "entry": "desembocar",
       "file": "scripts/ingest/pipeline/decisions/synonym-corrections-es.json"
+    },
+    {
+      "reason": "Reconciled active template examples against v5158 runtime; applied the B88 definido and B89 cornea proposals, contextual cid, and current reviewed senses for seven active groups. testiguar and tutia excluded as obsolete."
+    },
+    {
+      "reason": "Reconciled active template examples against v5158 runtime; activated B88 definido and B89 cornea proposals, corrected cid, and integrated seven active reviewed groups. testiguar and tutia excluded as obsolete."
+    },
+    {
+      "reason": "Remove legacy synonym-correction rules for improbability and infect because the phrase-template review replaces those base entries with reviewed sense cards.",
+      "entries": [
+        "improbability",
+        "infect"
+      ],
+      "file": "scripts/ingest/pipeline/decisions/synonym-corrections-en.json"
+    },
+    {
+      "reason": "The existing manufacturing base example is contextual; retained it and excluded duplicate manufacturing-2 instead of forcing a second card.",
+      "entry": "manufacturing",
+      "file": "scripts/ingest/pipeline/decisions/synonym-corrections-en.json"
+    },
+    {
+      "reason": "Residual runtime review: remove undocumented grasshopper sense, obsolete/corrupt infect variants and duplicate manufacturing-2; split infect-2 into literal disease and harmful-influence senses and map them into the four-card infect set.",
+      "entries": [
+        "grasshopper-2",
+        "infect-2",
+        "infect-3",
+        "infect-5",
+        "infect-6",
+        "manufacturing-2"
+      ],
+      "source": "scripts/ingest/wip/B15-runtime-residual-review-5-verdicts.json"
+    },
+    {
+      "reason": "Final runtime audit leaves four distinct infect sense cards and removes three duplicate IDs while preserving the contextual manufacturing base.",
+      "entries": [
+        "infect-4",
+        "infect-spread-influence",
+        "infect-computer-virus"
+      ],
+      "source": "B15-runtime-residual-review-5-verdicts.json"
     }
   ],
   "applied": [
@@ -13149,5 +13189,30 @@
       "en": 1528
     },
     "integratedThrough": "B15-onehundredfiftyfourth-20-verdicts.json"
+  },
+  "tautologyTemplateReview": {
+    "auditPath": "scripts/ingest/wip/B15-example-template-tautology-audit.json",
+    "reviewed": 114,
+    "total": 114,
+    "pending": 0,
+    "activeUnreviewed": 0,
+    "decisionsIntegrated": 12,
+    "reviewedCards": 17,
+    "excludedIds": [
+      "testiguar",
+      "tutia",
+      "grasshopper-2",
+      "infect-3",
+      "infect-5",
+      "infect-6",
+      "infect-4",
+      "infect-spread-influence",
+      "infect-computer-virus",
+      "manufacturing-2"
+    ],
+    "runtimeVerified": true,
+    "notes": "All 114 candidates reconciled with 0 pending: 14 queue proposals plus two companion infect cards audited; four distinct infect senses remain, manufacturing base retained and duplicate manufacturing-2 excluded.",
+    "runtimeCardsVerified": 16,
+    "runtimeErrors": 0
   }
 }

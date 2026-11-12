@@ -19877,25 +19877,6 @@
     }
   },
   {
-    "entry": "improbability",
-    "remove": [],
-    "set": {
-      "definition": "The quality of being unlikely to happen.",
-      "synonyms": [
-        "unlikelihood",
-        "low probability"
-      ],
-      "example": {
-        "word": "improbability",
-        "text": "The improbability of success did not stop the team."
-      },
-      "exampleSynonym": {
-        "word": "unlikelihood",
-        "text": "The unlikelihood of success did not stop the team."
-      }
-    }
-  },
-  {
     "entry": "impropriety",
     "remove": [],
     "set": {
@@ -23435,27 +23416,6 @@
       "exampleSynonym": {
         "word": "make foolish",
         "text": "Fame can make a young performer foolish."
-      }
-    }
-  },
-  {
-    "entry": "infect",
-    "remove": [],
-    "set": {
-      "definition": "Cause disease germs to spread in a person, animal, or plant; also, spread harmful germs, feelings, beliefs, or computer viruses.",
-      "synonyms": [
-        "contaminate",
-        "spread disease",
-        "taint",
-        "corrupt"
-      ],
-      "example": {
-        "word": "infect",
-        "text": "A virus can infect the whole network."
-      },
-      "exampleSynonym": {
-        "word": "contaminate",
-        "text": "A virus can contaminate the whole network."
       }
     }
   },

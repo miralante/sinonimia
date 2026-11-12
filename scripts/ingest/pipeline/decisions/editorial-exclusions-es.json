@@ -93012,5 +93012,15 @@
     "id": "codez",
     "word": "codez",
     "reason": "Codez no aparece como forma inglesa o española documentada en el criterio de verificación; la glosa es una descripción común, no un lema válido."
+  },
+  {
+    "id": "testiguar",
+    "word": "testiguar",
+    "reason": "El DLE marca testiguar como desusado y lo remite a atestiguar, una forma actual y clara."
+  },
+  {
+    "id": "tutia",
+    "word": "tutía",
+    "reason": "El DLE remite tutía a atutía, una sustancia medicinal antigua; la expresión no hay tutía es un sentido fraseológico aparte, no una ficha de esta palabra."
   }
 ]
