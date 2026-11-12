@@ -84121,5 +84121,50 @@
     "id": "civilize-3",
     "word": "civilize",
     "reason": "The candidate's meaning «humiliate, make someone mean and miserable» is unsupported and does not match the verb «civilize»."
+  },
+  {
+    "id": "small-gem",
+    "word": "small gem",
+    "reason": "The phrase simply means a small gem; it is ordinary wording rather than a distinct vocabulary item."
+  },
+  {
+    "id": "moche-2",
+    "word": "moche",
+    "reason": "This is the name of an ancient Indigenous people and culture from Peru, a specialized historical and archaeological term."
+  },
+  {
+    "id": "nice-5",
+    "word": "nice",
+    "reason": "The candidate repeats the everyday meaning «pleasant or charming» and adds no difficult distinct sense."
+  },
+  {
+    "id": "coffin-bearer",
+    "word": "coffin bearer",
+    "reason": "The phrase transparently names a person who carries a coffin and adds little vocabulary value."
+  },
+  {
+    "id": "shouting-of-the-moors-2",
+    "word": "shouting of the Moors",
+    "reason": "This phrase is not supported as a standard English headword and appears to be a malformed translation of a historical or regional term."
+  },
+  {
+    "id": "come-19",
+    "word": "come",
+    "reason": "The proposed riverbank trunk meaning is not a sense of the English verb «come»."
+  },
+  {
+    "id": "chili-30",
+    "word": "chili",
+    "reason": "A hair-curling cylinder is a curler, not «chili»; the entry appears to confuse unrelated words."
+  },
+  {
+    "id": "cabbage-47",
+    "word": "cabbage",
+    "reason": "The entry contains only a Colombian and Venezuelan label, without a definition or clear distinct English sense."
+  },
+  {
+    "id": "craticule",
+    "word": "Craticule",
+    "reason": "This is a small grille or opening used to distribute communion to nuns, a rare historical religious object."
   }
 ]
