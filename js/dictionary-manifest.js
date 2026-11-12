@@ -3040,6 +3040,11 @@ window.SINONIMIA_DICTIONARY_SHARDS = {
     { file: "js/data.en.example-rewrite-v5227.js", src: "js/data.en.example-rewrite-v5227.js?v=a8bafebbd8" },
     { file: "js/data.en.example-rewrite-v5228.js", src: "js/data.en.example-rewrite-v5228.js?v=51065eb8d8" },
     { file: "js/data.en.example-rewrite-v5229.js", src: "js/data.en.example-rewrite-v5229.js?v=3d49de92b4" },
+    { file: "js/data.en.example-rewrite-v5230.js", src: "js/data.en.example-rewrite-v5230.js?v=d3c3e29874" },
+    { file: "js/data.en.example-rewrite-v5231.js", src: "js/data.en.example-rewrite-v5231.js?v=d3e0c15b5e" },
+    { file: "js/data.en.example-rewrite-v5232.js", src: "js/data.en.example-rewrite-v5232.js?v=e39d5bfe95" },
+    { file: "js/data.en.example-rewrite-v5233.js", src: "js/data.en.example-rewrite-v5233.js?v=bea9f99eb8" },
+    { file: "js/data.en.example-rewrite-v5234.js", src: "js/data.en.example-rewrite-v5234.js?v=5cf1133b87" },
   ],
 };
 
