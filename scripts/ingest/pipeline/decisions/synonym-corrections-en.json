@@ -266041,5 +266041,59 @@
         "text": "A medical reason to avoid treatment may require another drug."
       }
     }
+  },
+  {
+    "entry": "remittance-3",
+    "remove": [],
+    "set": {
+      "definition": "Money sent to someone, often in another country.",
+      "synonyms": [
+        "Money sent home"
+      ],
+      "example": {
+        "word": "Remittance",
+        "text": "Remittance helps support the family."
+      },
+      "exampleSynonym": {
+        "word": "Money sent home",
+        "text": "Money sent home helps support the family."
+      }
+    }
+  },
+  {
+    "entry": "genesis",
+    "remove": [],
+    "set": {
+      "definition": "The beginning or creation of something.",
+      "synonyms": [
+        "The origin"
+      ],
+      "example": {
+        "word": "Genesis",
+        "text": "Genesis was the starting point."
+      },
+      "exampleSynonym": {
+        "word": "The origin",
+        "text": "The origin was the starting point."
+      }
+    }
+  },
+  {
+    "entry": "narcosis",
+    "remove": [],
+    "set": {
+      "definition": "Loss of feeling or awareness caused by a drug or anesthetic.",
+      "synonyms": [
+        "Unconsciousness"
+      ],
+      "example": {
+        "word": "Narcosis",
+        "text": "Narcosis may last for hours."
+      },
+      "exampleSynonym": {
+        "word": "Unconsciousness",
+        "text": "Unconsciousness may last for hours."
+      }
+    }
   }
 ]

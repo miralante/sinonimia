@@ -265486,5 +265486,131 @@
         "text": "El sendero se vuelve sitio resbaladizo con la lluvia."
       }
     }
+  },
+  {
+    "entry": "tallon",
+    "remove": [],
+    "set": {
+      "definition": "Dinero que se ofrece para liberar a una persona cautiva.",
+      "synonyms": [
+        "rescate"
+      ],
+      "example": {
+        "word": "tallón",
+        "text": "La familia reunió el tallón para liberar al comerciante."
+      },
+      "exampleSynonym": {
+        "word": "rescate",
+        "text": "La familia reunió el rescate para liberar al comerciante."
+      }
+    }
+  },
+  {
+    "entry": "transfijo",
+    "remove": [],
+    "set": {
+      "definition": "Atravesado por completo por un objeto puntiagudo.",
+      "synonyms": [
+        "atravesado"
+      ],
+      "example": {
+        "word": "transfijo",
+        "text": "La flecha dejó el cuerpo transfijo."
+      },
+      "exampleSynonym": {
+        "word": "atravesado",
+        "text": "La flecha dejó el cuerpo atravesado."
+      }
+    }
+  },
+  {
+    "entry": "satanizar",
+    "remove": [],
+    "set": {
+      "definition": "Presentar a alguien o algo como malvado.",
+      "synonyms": [
+        "demonizar"
+      ],
+      "example": {
+        "word": "satanizar",
+        "text": "No conviene satanizar a sus rivales."
+      },
+      "exampleSynonym": {
+        "word": "demonizar",
+        "text": "No conviene demonizar a sus rivales."
+      }
+    }
+  },
+  {
+    "entry": "saudade",
+    "remove": [],
+    "set": {
+      "definition": "Nostalgia intensa por alguien o algo que está lejos o falta.",
+      "synonyms": [
+        "añoranza"
+      ],
+      "example": {
+        "word": "saudade",
+        "text": "Sentía saudade por su tierra."
+      },
+      "exampleSynonym": {
+        "word": "añoranza",
+        "text": "Sentía añoranza por su tierra."
+      }
+    }
+  },
+  {
+    "entry": "semejar",
+    "remove": [],
+    "set": {
+      "definition": "Tener un aspecto parecido al de alguien o algo.",
+      "synonyms": [
+        "ser igual a"
+      ],
+      "example": {
+        "word": "semejar",
+        "text": "La copia puede semejar la original."
+      },
+      "exampleSynonym": {
+        "word": "ser igual a",
+        "text": "La copia puede ser igual a la original."
+      }
+    }
+  },
+  {
+    "entry": "sesgo",
+    "remove": [],
+    "set": {
+      "definition": "Dirección inclinada o distinta de la línea recta.",
+      "synonyms": [
+        "inclinación"
+      ],
+      "example": {
+        "word": "sesgo",
+        "text": "La línea presenta sesgo hacia la derecha."
+      },
+      "exampleSynonym": {
+        "word": "inclinación",
+        "text": "La línea presenta inclinación hacia la derecha."
+      }
+    }
+  },
+  {
+    "entry": "sobrescrito",
+    "remove": [],
+    "set": {
+      "definition": "Texto de un sobre con el nombre y dirección del destinatario.",
+      "synonyms": [
+        "texto del destinatario"
+      ],
+      "example": {
+        "word": "sobrescrito",
+        "text": "El sobrescrito estaba borroso."
+      },
+      "exampleSynonym": {
+        "word": "texto del destinatario",
+        "text": "El texto del destinatario estaba borroso."
+      }
+    }
   }
 ]

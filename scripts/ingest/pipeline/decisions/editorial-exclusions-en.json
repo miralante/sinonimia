@@ -90206,5 +90206,190 @@
     "id": "fucker-3",
     "word": "Fucker",
     "reason": "Fucker is a vulgar insult, and the supplied definition does not capture its usual insulting sense or provide useful neutral vocabulary."
+  },
+  {
+    "id": "gaseous-2",
+    "word": "gaseous",
+    "reason": "Gaseous means existing in the form of a gas; the supplied definition is tautological and not a useful entry."
+  },
+  {
+    "id": "intersect-2",
+    "word": "Intersect",
+    "reason": "Intersect means to cross or meet, not to introduce something into a place; the definition is mismatched."
+  },
+  {
+    "id": "shawl-2",
+    "word": "Shawl",
+    "reason": "Shawl is a familiar clothing word, and the supplied definition is clear enough for general readers."
+  },
+  {
+    "id": "hairy-4",
+    "word": "Hairy",
+    "reason": "Hairy is a common adjective and this less common use meaning downy or plush is not useful as a standalone difficult entry."
+  },
+  {
+    "id": "left-handed-5",
+    "word": "left-handed",
+    "reason": "The supplied definition as a variant of darning or surcing is unrelated to left-handed and appears corrupted."
+  },
+  {
+    "id": "choose-4",
+    "word": "Choose",
+    "reason": "Choose is a common verb, and the supplied definition repeats the headword instead of explaining it."
+  },
+  {
+    "id": "fool-around-3",
+    "word": "fool around",
+    "reason": "Fool around is a familiar informal phrase for acting silly or wasting time, and the definition is straightforward."
+  },
+  {
+    "id": "add-8",
+    "word": "Add",
+    "reason": "Add is a common verb meaning to join or increase, not to make charming suggestions; the entry is misaligned."
+  },
+  {
+    "id": "coastal-4",
+    "word": "Coastal",
+    "reason": "Coastal is a transparent adjective meaning related to a coast."
+  },
+  {
+    "id": "gangster-2",
+    "word": "gangster",
+    "reason": "Gangster is a familiar word for a criminal involved in organized crime, and the entry is too broad to add useful detail."
+  },
+  {
+    "id": "clumsy-4",
+    "word": "Clumsy",
+    "reason": "Clumsy is a familiar adjective for someone awkward or likely to make mistakes, and the supplied definition is straightforward."
+  },
+  {
+    "id": "sweaty-2",
+    "word": "Sweaty",
+    "reason": "Sweaty is a common adjective meaning covered with sweat or damp from sweating."
+  },
+  {
+    "id": "lucidity-2",
+    "word": "Lucidity",
+    "reason": "Lucidity means clarity of thought or expression, not a coating of whitewash; the entry is mismatched."
+  },
+  {
+    "id": "chartism-2",
+    "word": "Chartism",
+    "reason": "The supplied financial definition is truncated and describes specialized chart analysis, not a clear general-use sense."
+  },
+  {
+    "id": "remover-3",
+    "word": "Remover",
+    "reason": "Remover is a transparent agent noun meaning something or someone that removes, with little general vocabulary value."
+  },
+  {
+    "id": "comb-8",
+    "word": "Comb",
+    "reason": "Comb is a familiar everyday word for a toothed tool used to arrange hair or fibers."
+  },
+  {
+    "id": "crazy-13",
+    "word": "Crazy",
+    "reason": "Crazy is a common, potentially stigmatizing word; the supplied definition is inaccurate and unnecessarily harsh."
+  },
+  {
+    "id": "cough-7",
+    "word": "Cough",
+    "reason": "Cough is a familiar word for the act or sound of coughing, and its meaning is straightforward."
+  },
+  {
+    "id": "basket-9",
+    "word": "Basket",
+    "reason": "Basket is a common word and the supplied definition merely repeats one meaning of the headword."
+  },
+  {
+    "id": "substitute-7",
+    "word": "Substitute",
+    "reason": "Substitute is a familiar word for a person who takes another person's place."
+  },
+  {
+    "id": "tantra",
+    "word": "Tantra",
+    "reason": "Tantra names traditions and texts in South Asian religions and is a specialized religious or philosophical term."
+  },
+  {
+    "id": "cling-2",
+    "word": "cling",
+    "reason": "Cling is a common verb meaning to hold tightly or stick, while the supplied definition is incomplete."
+  },
+  {
+    "id": "chocosy",
+    "word": "Chocosy",
+    "reason": "Chocosy is not a standard English headword, and the supplied definition of whipped dough bread is unreliable."
+  },
+  {
+    "id": "mumbled",
+    "word": "mumbled",
+    "reason": "Mumbled means spoken unclearly or quietly, not done in a hurry; the supplied definition is mismatched."
+  },
+  {
+    "id": "kerosene-5",
+    "word": "kerosene",
+    "reason": "Kerosene is a familiar fuel, and the supplied fragment and repeated headword do not form a usable definition."
+  },
+  {
+    "id": "muso",
+    "word": "Muso",
+    "reason": "Muso is regional slang for a musician, not the supplied description of a hypocritical person."
+  },
+  {
+    "id": "rial",
+    "word": "Rial",
+    "reason": "Rial is the name of several national currencies and has limited value as a general synonym entry."
+  },
+  {
+    "id": "carbinol",
+    "word": "Carbinol",
+    "reason": "Carbinol is a specialized chemistry term, while the supplied definition about an ecclesiastical official is unrelated."
+  },
+  {
+    "id": "compadre-2",
+    "word": "Compadre",
+    "reason": "Compadre is a culturally specific term for a child's godfather in relation to the parents, with limited general English use."
+  },
+  {
+    "id": "chili-2",
+    "word": "chili",
+    "reason": "The supplied definition about dampness and fungus does not match chili pepper or the common dish chili."
+  },
+  {
+    "id": "noodle-2",
+    "word": "noodle",
+    "reason": "Noodle is a familiar food word for a long, thin strip of pasta."
+  },
+  {
+    "id": "concertina",
+    "word": "Concertina",
+    "reason": "Concertina names a type of accordion and is a specialized musical instrument term of limited general use."
+  },
+  {
+    "id": "chacoteo",
+    "word": "chacoteo",
+    "reason": "Chacoteo is a Spanish word, not a standard English headword, despite the English definition provided."
+  },
+  {
+    "id": "pointed-tool",
+    "word": "pointed tool",
+    "reason": "Pointed tool is a transparent descriptive phrase for any tool with a point, not a distinct difficult headword."
+  },
+  {
+    "id": "collect-7",
+    "word": "collect",
+    "reason": "Collect is a familiar verb for gathering or selecting things, and the supplied explanation is straightforward."
+  },
+  {
+    "id": "mow-2",
+    "word": "mow",
+    "reason": "Mow is a familiar verb for cutting grass or crops, and the supplied definition merely restates the action."
+  },
+  {
+    "id": "despised-4",
+    "word": "despised",
+    "reason": "Despised means strongly disliked, not a matter of little importance; the supplied definition is mismatched."
   }
 ]
