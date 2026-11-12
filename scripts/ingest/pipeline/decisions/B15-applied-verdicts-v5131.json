@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5162",
+  "runtime": "v5163",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1708,
-    "en": 1683
+    "es": 1718,
+    "en": 1693
   },
-  "latestLedgerBatchCount": 170,
-  "latestLedgerReviewedIdCount": 3391,
-  "appliedCount": 2435,
+  "latestLedgerBatchCount": 171,
+  "latestLedgerReviewedIdCount": 3411,
+  "appliedCount": 2455,
   "appliedByLanguage": {
-    "es": 1226,
-    "en": 1209
+    "es": 1236,
+    "en": 1219
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -137,7 +137,8 @@
     "B15-onehundredsixtysixth-20-verdicts.json",
     "B15-onehundredsixtyseventh-20-verdicts.json",
     "B15-onehundredsixtyeighth-20-verdicts.json",
-    "B15-onehundredsixtyninth-20-verdicts.json"
+    "B15-onehundredsixtyninth-20-verdicts.json",
+    "B15-onehundredseventieth-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -14979,6 +14980,126 @@
       "language": "en",
       "id": "cloak-snatcher",
       "decision": "exclude-corrupt-headword-and-definition"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "es",
+      "id": "berengo",
+      "decision": "exclude-regional-adjective"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "es",
+      "id": "celomado",
+      "decision": "exclude-specialist-anatomy-term"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "es",
+      "id": "sombrerete",
+      "decision": "exclude-transparent-and-specialist-senses"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "es",
+      "id": "trimetro",
+      "decision": "exclude-specialist-literary-term"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "es",
+      "id": "blanquizco",
+      "decision": "exclude-low-utility-variant"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "es",
+      "id": "chacabucano",
+      "decision": "exclude-demonym"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "es",
+      "id": "contino",
+      "decision": "exclude-obsolete-word"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "es",
+      "id": "coselete",
+      "decision": "exclude-specialist-historical-military-word"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "es",
+      "id": "tanteador",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "es",
+      "id": "alzafuelles",
+      "decision": "exclude-rare-low-utility-word"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "en",
+      "id": "cariaguilean",
+      "decision": "exclude-invalid-english-headword"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "en",
+      "id": "normotensive",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "en",
+      "id": "sarmenter",
+      "decision": "exclude-rare-agricultural-occupation"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "en",
+      "id": "chromatograph",
+      "decision": "exclude-specialist-chemistry-term"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "en",
+      "id": "correct-2",
+      "decision": "exclude-common-basic-word"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "en",
+      "id": "gate",
+      "decision": "exclude-common-basic-word"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "en",
+      "id": "confidentiality-clause-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "en",
+      "id": "loan-pre-approval-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "en",
+      "id": "castilian-2",
+      "decision": "exclude-demonym-and-transparent-adjective"
+    },
+    {
+      "batch": "B15-onehundredseventieth-20-verdicts.json",
+      "language": "en",
+      "id": "skim-2",
+      "decision": "exclude-common-basic-verb"
     }
   ],
   "pendingBatch25": [
@@ -14997,13 +15118,13 @@
     "runtimeNote": "improbability-2 applied; sarazo excluded; infect-4 retained with a valid contextual example pair."
   },
   "observedWipLedgerAtCommit": {
-    "reviewedIdCount": 3391,
-    "batchCount": 170,
+    "reviewedIdCount": 3411,
+    "batchCount": 171,
     "totals": {
-      "es": 1708,
-      "en": 1683
+      "es": 1718,
+      "en": 1693
     },
-    "integratedThrough": "B15-onehundredsixtyninth-20-verdicts.json"
+    "integratedThrough": "B15-onehundredseventieth-20-verdicts.json"
   },
   "tautologyTemplateReview": {
     "auditPath": "scripts/ingest/wip/B15-example-template-tautology-audit.json",

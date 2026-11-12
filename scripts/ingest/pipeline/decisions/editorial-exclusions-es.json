@@ -93632,5 +93632,50 @@
     "id": "costalero",
     "word": "costalero",
     "reason": "Costalero es quien carga un paso de procesión y, en Andalucía, un mozo de cuerda; la glosa de quien lleva un ataúd es incorrecta y el uso depende de una tradición regional."
+  },
+  {
+    "id": "berengo",
+    "word": "berengo",
+    "reason": "Berengo significa candoroso o bobo y el DLE lo marca como mexicano; es una voz regional que no aporta vocabulario general."
+  },
+  {
+    "id": "celomado",
+    "word": "celomado",
+    "reason": "Celomado es un término de anatomía para un organismo que tiene celoma; su uso se limita sobre todo a contextos científicos."
+  },
+  {
+    "id": "sombrerete",
+    "word": "sombrerete",
+    "reason": "El DLE recoge un sentido botánico para el sombrerillo de los hongos; el otro uso del candidato es un nombre propio. No es una palabra general difícil."
+  },
+  {
+    "id": "trimetro",
+    "word": "trímetro",
+    "reason": "Trímetro es un término de métrica para un tipo de verso; su uso se limita a estudios literarios especializados."
+  },
+  {
+    "id": "blanquizco",
+    "word": "blanquizco",
+    "reason": "Blanquizco equivale a blanquecino y no añade un sentido difícil distinto; se prefiere la forma más clara y extendida."
+  },
+  {
+    "id": "chacabucano",
+    "word": "chacabucano",
+    "reason": "Chacabucano es el gentilicio de Chacabuco, en Chile; los gentilicios locales no cumplen el criterio de vocabulario general."
+  },
+  {
+    "id": "contino",
+    "word": "contino",
+    "reason": "El DLE marca todos sus sentidos como desusados; ya no es vocabulario actual."
+  },
+  {
+    "id": "coselete",
+    "word": "coselete",
+    "reason": "Coselete nombra una coraza ligera antigua y al soldado que la llevaba; son sentidos históricos y militares especializados."
+  },
+  {
+    "id": "alzafuelles",
+    "word": "alzafuelles",
+    "reason": "Alzafuelles es una voz rara para adulador; adulador es una forma más clara y actual."
   }
 ]

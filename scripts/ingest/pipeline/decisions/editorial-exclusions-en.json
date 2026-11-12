@@ -87306,5 +87306,40 @@
     "id": "cloak-snatcher",
     "word": "Cloak Snatcher",
     "reason": "Cloak snatcher is not a documented English term for a place where strong winds blow; the entry appears corrupted."
+  },
+  {
+    "id": "cariaguilean",
+    "word": "Cariaguilean",
+    "reason": "Cariaguilean is a Spanish descriptive word, not a documented English headword; its definition is untranslated Spanish vocabulary."
+  },
+  {
+    "id": "sarmenter",
+    "word": "Sarmenter",
+    "reason": "Sarmenter is a rare word for someone who prunes or gathers vine shoots; it is a low-utility agricultural occupation."
+  },
+  {
+    "id": "chromatograph",
+    "word": "Chromatograph",
+    "reason": "Chromatograph names laboratory equipment used to separate substances; it is a specialist chemistry term with low general utility."
+  },
+  {
+    "id": "correct-2",
+    "word": "Correct",
+    "reason": "Correct is a common verb meaning to fix a mistake; this sense is easy and does not need a difficult-word card."
+  },
+  {
+    "id": "gate",
+    "word": "Gate",
+    "reason": "Gate is a common word for a barrier at an entrance; the supplied physical-barrier definition is already easy to understand."
+  },
+  {
+    "id": "castilian-2",
+    "word": "Castilian",
+    "reason": "Castilian means related to Castile or its customs; it is a transparent regional adjective or demonym, not a difficult general term."
+  },
+  {
+    "id": "skim-2",
+    "word": "Skim",
+    "reason": "Skim is a common verb for removing fat from milk; the meaning is simple and has low value as a difficult-word card."
   }
 ]
