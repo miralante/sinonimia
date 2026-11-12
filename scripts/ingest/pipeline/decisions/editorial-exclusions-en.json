@@ -83911,5 +83911,40 @@
     "id": "superb",
     "word": "Superb",
     "reason": "This is a common adjective, and the supplied example defines a different expression («That can be overcome»)."
+  },
+  {
+    "id": "stash",
+    "word": "Stash",
+    "reason": "The supplied noun and verb senses are common and easy; the entry does not add difficult vocabulary."
+  },
+  {
+    "id": "clone",
+    "word": "clone",
+    "reason": "The current candidate gives a routine adjective form of the common noun and verb «clone»."
+  },
+  {
+    "id": "scart-connector",
+    "word": "scart connector",
+    "reason": "This is a dated technical connector type that has little current general use."
+  },
+  {
+    "id": "carrionous",
+    "word": "Carrionous",
+    "reason": "This rare adjective has narrow use for something resembling carrion and adds little general vocabulary."
+  },
+  {
+    "id": "cherlichress",
+    "word": "Cherlichress",
+    "reason": "The listed parrot name is unsupported as an English headword and appears to be corrupted source text."
+  },
+  {
+    "id": "chicory",
+    "word": "chicory",
+    "reason": "The candidate says «chicory grower», but chicory is the common plant; the entry does not define a distinct useful sense."
+  },
+  {
+    "id": "consume-2",
+    "word": "Consume",
+    "reason": "The proposed sense «perform or completely complete an action» is malformed and duplicates no valid distinct meaning of «consume»."
   }
 ]
