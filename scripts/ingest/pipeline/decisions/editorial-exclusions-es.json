@@ -91072,5 +91072,30 @@
     "id": "soldadero",
     "word": "soldadero",
     "reason": "Es una forma antigua para quien recibe una soldada y tiene alternativas corrientes más claras."
+  },
+  {
+    "id": "tomon",
+    "word": "tomón",
+    "reason": "Es un adjetivo coloquial poco frecuente y su sentido depende demasiado del contexto para ofrecer un sinónimo general claro."
+  },
+  {
+    "id": "tricesimo",
+    "word": "tricésimo",
+    "reason": "La forma general y asentada para el ordinal treinta es trigésimo; esta variante no añade un sentido propio."
+  },
+  {
+    "id": "trillonesimo",
+    "word": "trillonésimo",
+    "reason": "Es una forma matemática extremadamente infrecuente para una fracción de un trillón y no aporta valor general."
+  },
+  {
+    "id": "zonconeto",
+    "word": "zonconeto",
+    "reason": "Es una voz despectiva y regional para tonto, sin uso general estable."
+  },
+  {
+    "id": "gachon",
+    "word": "gachón",
+    "reason": "Es una forma coloquial de trato con uso geográfico limitado y no una equivalencia general neutra."
   }
 ]

@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5147",
+  "runtime": "v5148",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1368,
-    "en": 1338
+    "es": 1378,
+    "en": 1348
   },
-  "latestLedgerBatchCount": 135,
-  "latestLedgerReviewedIdCount": 2706,
-  "appliedCount": 1136,
+  "latestLedgerBatchCount": 136,
+  "latestLedgerReviewedIdCount": 2726,
+  "appliedCount": 1156,
   "appliedByLanguage": {
-    "es": 577,
-    "en": 559
+    "es": 587,
+    "en": 569
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -72,7 +72,8 @@
     "B15-onehundredfirst-20-verdicts.json",
     "B15-onehundredsecond-10-verdicts.json",
     "B15-onehundredthird-20-verdicts.json",
-    "B15-onehundredfourth-20-verdicts.json"
+    "B15-onehundredfourth-20-verdicts.json",
+    "B15-onehundredfifth-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -7075,6 +7076,126 @@
       "language": "en",
       "id": "co-prince",
       "decision": "exclude-specialized-constitutional-title"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "es",
+      "id": "sonrisueno",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "es",
+      "id": "tomon",
+      "decision": "exclude-rare-colloquial-adjective"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "es",
+      "id": "tricesimo",
+      "decision": "exclude-nonstandard-ordinal-variant"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "es",
+      "id": "trillonesimo",
+      "decision": "exclude-rare-numerical-technical-term"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "es",
+      "id": "zonconeto",
+      "decision": "exclude-regional-insult"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "es",
+      "id": "francachela",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "es",
+      "id": "gachon",
+      "decision": "exclude-regional-colloquial-address"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "es",
+      "id": "grumo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "es",
+      "id": "horadable",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "es",
+      "id": "lisonjeador",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "en",
+      "id": "stack-up",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "en",
+      "id": "comfortably",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "en",
+      "id": "alabastered",
+      "decision": "exclude-rare-literary-adjective"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "en",
+      "id": "spanish-speaker",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "en",
+      "id": "ridging",
+      "decision": "exclude-specialized-farming-term"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "en",
+      "id": "suburban",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "en",
+      "id": "habituality",
+      "decision": "exclude-rare-abstract-noun"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "en",
+      "id": "cloth",
+      "decision": "exclude-corrupt-word-sense"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "en",
+      "id": "refundable",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfifth-20-verdicts.json",
+      "language": "en",
+      "id": "resale",
+      "decision": "rewrite-definition-and-example"
     }
   ],
   "pendingBatch25": [
