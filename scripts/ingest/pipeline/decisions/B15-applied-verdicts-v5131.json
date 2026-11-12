@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5155",
+  "runtime": "v5156",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1518,
-    "en": 1488
+    "es": 1528,
+    "en": 1498
   },
-  "latestLedgerBatchCount": 150,
-  "latestLedgerReviewedIdCount": 3006,
-  "appliedCount": 2055,
+  "latestLedgerBatchCount": 151,
+  "latestLedgerReviewedIdCount": 3026,
+  "appliedCount": 2075,
   "appliedByLanguage": {
-    "es": 1036,
-    "en": 1019
+    "es": 1046,
+    "en": 1029
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -118,7 +118,8 @@
     "B15-onehundredfortyseventh-20-verdicts.json",
     "B15-onehundredfortyeighth-20-verdicts.json",
     "B15-onehundredfortyninth-20-verdicts.json",
-    "B15-onehundredfiftieth-20-verdicts.json"
+    "B15-onehundredfiftieth-20-verdicts.json",
+    "B15-onehundredfiftyfirst-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -12640,6 +12641,126 @@
       "language": "en",
       "id": "get-bored",
       "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "caparidaceo",
+      "decision": "exclude-low-utility-botanical-term"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "clorotico",
+      "decision": "exclude-low-utility-plant-disease-term"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "conchifero",
+      "decision": "exclude-low-utility-specialist-term"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "contrasalva",
+      "decision": "exclude-low-utility-military-term"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "debelador",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "sebudo",
+      "decision": "exclude-low-utility-rare-descriptive-word"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "torzonado",
+      "decision": "exclude-low-utility-veterinary-term"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "zaborrero",
+      "decision": "exclude-regional-word"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "comportable",
+      "decision": "exclude-rare-word"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "argiloso",
+      "decision": "exclude-obsolete-variant"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "sue",
+      "decision": "exclude-common-easy-word"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "metathorax",
+      "decision": "exclude-highly-specialized-biology-term"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "rug-maker",
+      "decision": "exclude-transparent-common-phrase"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "fumistry",
+      "decision": "exclude-rare-obsolete-word"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "mosquito-net",
+      "decision": "exclude-transparent-common-phrase"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "tangler",
+      "decision": "exclude-transparent-low-utility-derivative"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "subgenre",
+      "decision": "rewrite"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "chewing-gum",
+      "decision": "exclude-common-corrupt-sense"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "ciliary",
+      "decision": "exclude-low-utility-anatomy-term"
+    },
+    {
+      "batch": "B15-onehundredfiftyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "corruptibility",
+      "decision": "rewrite"
     }
   ],
   "pendingBatch25": [
@@ -12658,12 +12779,12 @@
     "runtimeNote": "improbability-2 applied; sarazo excluded; infect-4 retained with a valid contextual example pair."
   },
   "observedWipLedgerAtCommit": {
-    "reviewedIdCount": 3006,
-    "batchCount": 150,
+    "reviewedIdCount": 3026,
+    "batchCount": 151,
     "totals": {
-      "es": 1518,
-      "en": 1488
+      "es": 1528,
+      "en": 1498
     },
-    "integratedThrough": "B15-onehundredfiftieth-20-verdicts.json"
+    "integratedThrough": "B15-onehundredfiftyfirst-20-verdicts.json"
   }
 }

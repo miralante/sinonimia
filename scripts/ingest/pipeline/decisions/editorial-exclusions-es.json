@@ -92837,5 +92837,50 @@
     "id": "antivenereo",
     "word": "antivenéreo",
     "reason": "Es un término médico derivado y poco actual para algo que combate enfermedades venéreas."
+  },
+  {
+    "id": "caparidaceo",
+    "word": "caparidáceo",
+    "reason": "Es un adjetivo botánico para la familia de las Caparidáceas y tiene poca utilidad general."
+  },
+  {
+    "id": "clorotico",
+    "word": "clorótico",
+    "reason": "El sentido propuesto se limita a una enfermedad de las plantas y es demasiado especializado."
+  },
+  {
+    "id": "conchifero",
+    "word": "conchífero",
+    "reason": "Es un adjetivo de ámbito zoológico para moluscos que tienen concha."
+  },
+  {
+    "id": "contrasalva",
+    "word": "contrasalva",
+    "reason": "Designa un saludo militar de respuesta y tiene poca utilidad en el vocabulario general."
+  },
+  {
+    "id": "sebudo",
+    "word": "sebudo",
+    "reason": "Es una voz rara para algo que tiene mucha grasa o sebo y no aporta un sentido general útil."
+  },
+  {
+    "id": "torzonado",
+    "word": "torzonado",
+    "reason": "El DLE lo limita a veterinaria: un animal que padece torzón."
+  },
+  {
+    "id": "zaborrero",
+    "word": "zaborrero",
+    "reason": "El DLE marca sus sentidos como propios de Álava y Navarra."
+  },
+  {
+    "id": "comportable",
+    "word": "comportable",
+    "reason": "El DLE lo marca como poco usado y ofrece sinónimos comunes: soportable, tolerable o llevadero."
+  },
+  {
+    "id": "argiloso",
+    "word": "argiloso",
+    "reason": "El DLE marca esta variante de arcilloso como desusada."
   }
 ]

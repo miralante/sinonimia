@@ -1121,3 +1121,9 @@ set("en","mobile-sos-button",{"definition":"A phone button that quickly alerts e
 set("en","signature-upon-request",{"definition":"Someone else signs your name because you cannot sign.","synonyms":["signature by another person"],"example":{"word":"Signature upon request","text":"A Signature upon request was recorded on the form."},"exampleSynonym":{"word":"signature by another person","text":"A signature by another person was recorded on the form."}});
 set("en","tax-evasion",{"definition":"Illegally avoiding taxes that a person must pay.","synonyms":["illegal tax dodging"],"example":{"word":"tax evasion","text":"Officials charged him with tax evasion."},"exampleSynonym":{"word":"illegal tax dodging","text":"Officials charged him with illegal tax dodging."}});
 })();
+
+(()=>{const dictionaries=globalThis.DICCIONARIOS;const set=(lang,id,fields)=>{const row=dictionaries[lang].find(x=>x.id===id);if(!row)throw Error('Missing source entry '+lang+'/'+id);Object.assign(row,fields);};
+set("es","debelador",{"definition":"Que derrota definitivamente a un adversario.","synonyms":["vencedor"],"example":{"word":"debelador","text":"El ejército debelador tomó la ciudad al amanecer."},"exampleSynonym":{"word":"vencedor","text":"El ejército vencedor tomó la ciudad al amanecer."}});
+set("en","subgenre",{"definition":"A smaller type within a larger category of music, books, or films.","synonyms":["Subtype"],"example":{"word":"Subgenre","text":"Subgenre helps readers classify science fiction books."},"exampleSynonym":{"word":"Subtype","text":"Subtype helps readers classify science fiction books."}});
+set("en","corruptibility",{"definition":"The possibility that a person or system can be corrupted.","synonyms":["Risk of corruption"],"example":{"word":"Corruptibility","text":"Corruptibility can weaken public trust."},"exampleSynonym":{"word":"Risk of corruption","text":"Risk of corruption can weaken public trust."}});
+})();

@@ -86526,5 +86526,45 @@
     "id": "get-bored",
     "word": "Get bored",
     "reason": "Get bored means to become uninterested; the proposed definition is unrelated and the phrase is common."
+  },
+  {
+    "id": "sue",
+    "word": "sue",
+    "reason": "Sue is a common verb meaning to take someone to court; it is easy general vocabulary."
+  },
+  {
+    "id": "metathorax",
+    "word": "Metathorax",
+    "reason": "Metathorax names a specific body section of an insect and has very low general use."
+  },
+  {
+    "id": "rug-maker",
+    "word": "rug maker",
+    "reason": "Rug maker is a transparent phrase for someone who makes rugs."
+  },
+  {
+    "id": "fumistry",
+    "word": "Fumistry",
+    "reason": "Fumistry is an obscure old word for a kitchen or stove workshop with little current use."
+  },
+  {
+    "id": "mosquito-net",
+    "word": "Mosquito net",
+    "reason": "Mosquito net is a familiar, transparent name for netting that keeps mosquitoes away."
+  },
+  {
+    "id": "tangler",
+    "word": "tangler",
+    "reason": "Tangler is a transparent derivative of tangle and has little distinct value as a synonym entry."
+  },
+  {
+    "id": "chewing-gum",
+    "word": "chewing gum",
+    "reason": "Chewing gum is a common phrase for gum that people chew; the proposed talk-nonstop definition is unrelated."
+  },
+  {
+    "id": "ciliary",
+    "word": "Ciliary",
+    "reason": "Ciliary is a specialist adjective referring to cilia and is not useful general vocabulary."
   }
 ]
