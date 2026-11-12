@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5172",
+  "runtime": "v5173",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 2138,
-    "en": 2113
+    "es": 2168,
+    "en": 2143
   },
-  "latestLedgerBatchCount": 213,
-  "latestLedgerReviewedIdCount": 4251,
-  "appliedCount": 3255,
+  "latestLedgerBatchCount": 216,
+  "latestLedgerReviewedIdCount": 4311,
+  "appliedCount": 3315,
   "appliedByLanguage": {
-    "es": 1636,
-    "en": 1619
+    "es": 1666,
+    "en": 1649
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -178,7 +178,10 @@
     "B15-two-hundred-seventh-20-verdicts.json",
     "B15-two-hundred-eighth-20-verdicts.json",
     "B15-two-hundred-ninth-20-verdicts.json",
-    "B15-two-hundred-tenth-20-verdicts.json"
+    "B15-two-hundred-tenth-20-verdicts.json",
+    "B15-two-hundred-eleventh-20-verdicts.json",
+    "B15-two-hundred-twelfth-20-verdicts.json",
+    "B15-two-hundred-thirteenth-20-verdicts.json"
   ],
   "pendingPrior": [
     {

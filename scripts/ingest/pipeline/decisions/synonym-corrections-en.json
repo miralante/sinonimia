@@ -265465,5 +265465,131 @@
         "text": "They shared cold mate in the shade."
       }
     }
+  },
+  {
+    "entry": "bribery-9",
+    "remove": [],
+    "set": {
+      "definition": "The act of offering money or gifts to influence someone unfairly.",
+      "synonyms": [
+        "corruption"
+      ],
+      "example": {
+        "word": "bribery",
+        "text": "The official was charged with bribery."
+      },
+      "exampleSynonym": {
+        "word": "corruption",
+        "text": "The official was charged with corruption."
+      }
+    }
+  },
+  {
+    "entry": "graphite-2",
+    "remove": [],
+    "set": {
+      "definition": "A soft, dark form of carbon used in pencils.",
+      "synonyms": [
+        "pencil lead"
+      ],
+      "example": {
+        "word": "graphite",
+        "text": "Artists use graphite to draw."
+      },
+      "exampleSynonym": {
+        "word": "pencil lead",
+        "text": "Artists use pencil lead to draw."
+      }
+    }
+  },
+  {
+    "entry": "rogue-11",
+    "remove": [],
+    "set": {
+      "definition": "A dishonest person who behaves in a criminal way.",
+      "synonyms": [
+        "scoundrel"
+      ],
+      "example": {
+        "word": "rogue",
+        "text": "The rogue stole money from the villagers."
+      },
+      "exampleSynonym": {
+        "word": "scoundrel",
+        "text": "The scoundrel stole money from the villagers."
+      }
+    }
+  },
+  {
+    "entry": "coagulation",
+    "remove": [],
+    "set": {
+      "definition": "The process by which a liquid becomes a gel or solid.",
+      "synonyms": [
+        "thickening"
+      ],
+      "example": {
+        "word": "coagulation",
+        "text": "The process of coagulation helped stop bleeding."
+      },
+      "exampleSynonym": {
+        "word": "thickening",
+        "text": "The process of thickening helped stop bleeding."
+      }
+    }
+  },
+  {
+    "entry": "competitiveness",
+    "remove": [],
+    "set": {
+      "definition": "The ability of a company or product to succeed against rivals.",
+      "synonyms": [
+        "market strength"
+      ],
+      "example": {
+        "word": "competitiveness",
+        "text": "The company’s competitiveness improved last year."
+      },
+      "exampleSynonym": {
+        "word": "market strength",
+        "text": "The company’s market strength improved last year."
+      }
+    }
+  },
+  {
+    "entry": "neonate",
+    "remove": [],
+    "set": {
+      "definition": "A newborn child, especially in its first four weeks.",
+      "synonyms": [
+        "newborn"
+      ],
+      "example": {
+        "word": "neonate",
+        "text": "A neonate needs careful attention."
+      },
+      "exampleSynonym": {
+        "word": "newborn",
+        "text": "A newborn needs careful attention."
+      }
+    }
+  },
+  {
+    "entry": "senescent",
+    "remove": [],
+    "set": {
+      "definition": "Growing old or beginning to decline with age.",
+      "synonyms": [
+        "aging"
+      ],
+      "example": {
+        "word": "senescent",
+        "text": "The senescent tree shed its leaves early."
+      },
+      "exampleSynonym": {
+        "word": "aging",
+        "text": "The aging tree shed its leaves early."
+      }
+    }
   }
 ]

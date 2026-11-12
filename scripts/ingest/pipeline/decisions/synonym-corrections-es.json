@@ -264604,5 +264604,239 @@
         "text": "Sintió aturdimiento después del golpe."
       }
     }
+  },
+  {
+    "entry": "tecuin",
+    "remove": [],
+    "set": {
+      "definition": "Bebida mexicana fermentada hecha con maíz, agua y piloncillo.",
+      "synonyms": [
+        "tejuino"
+      ],
+      "example": {
+        "word": "tecuín",
+        "text": "El tecuín se sirve con hielo."
+      },
+      "exampleSynonym": {
+        "word": "tejuino",
+        "text": "El tejuino se sirve con hielo."
+      }
+    }
+  },
+  {
+    "entry": "retozar",
+    "remove": [],
+    "set": {
+      "definition": "Jugar dando brincos o saltos, generalmente con alegría.",
+      "synonyms": [
+        "juguetear"
+      ],
+      "example": {
+        "word": "retozar",
+        "text": "A los cachorros les gusta retozar en el jardín."
+      },
+      "exampleSynonym": {
+        "word": "juguetear",
+        "text": "A los cachorros les gusta juguetear en el jardín."
+      }
+    }
+  },
+  {
+    "entry": "santeria",
+    "remove": [],
+    "set": {
+      "definition": "Religión afrocubana que mezcla creencias yorubas y católicas.",
+      "synonyms": [
+        "religión sincrética"
+      ],
+      "example": {
+        "word": "santería",
+        "text": "En Cuba, la santería mezcla creencias yorubas y católicas."
+      },
+      "exampleSynonym": {
+        "word": "religión sincrética",
+        "text": "En Cuba, la religión sincrética mezcla creencias yorubas y católicas."
+      }
+    }
+  },
+  {
+    "entry": "soflama",
+    "remove": [],
+    "set": {
+      "definition": "Discurso largo y apasionado, a menudo exagerado.",
+      "synonyms": [
+        "perorata"
+      ],
+      "example": {
+        "word": "soflama",
+        "text": "El orador lanzó una soflama."
+      },
+      "exampleSynonym": {
+        "word": "perorata",
+        "text": "El orador lanzó una perorata."
+      }
+    }
+  },
+  {
+    "entry": "soliviar",
+    "remove": [],
+    "set": {
+      "definition": "Ayudar a levantar algo o sostenerlo parcialmente desde abajo.",
+      "synonyms": [
+        "levantar un poco"
+      ],
+      "example": {
+        "word": "soliviar",
+        "text": "Tuvieron que soliviar la viga para colocarla."
+      },
+      "exampleSynonym": {
+        "word": "levantar un poco",
+        "text": "Tuvieron que levantar un poco la viga para colocarla."
+      }
+    }
+  },
+  {
+    "entry": "tracalero",
+    "remove": [],
+    "set": {
+      "definition": "Persona que engaña a otros para obtener un beneficio.",
+      "synonyms": [
+        "tramposo"
+      ],
+      "example": {
+        "word": "tracalero",
+        "text": "El tracalero engañó a sus socios."
+      },
+      "exampleSynonym": {
+        "word": "tramposo",
+        "text": "El tramposo engañó a sus socios."
+      }
+    }
+  },
+  {
+    "entry": "vedette",
+    "remove": [],
+    "set": {
+      "definition": "Artista principal y más destacada de un espectáculo.",
+      "synonyms": [
+        "estrella"
+      ],
+      "example": {
+        "word": "vedette",
+        "text": "La vedette saludó al público al final."
+      },
+      "exampleSynonym": {
+        "word": "estrella",
+        "text": "La estrella saludó al público al final."
+      }
+    }
+  },
+  {
+    "entry": "vestal",
+    "remove": [],
+    "set": {
+      "definition": "En la antigua Roma, sacerdotisa dedicada a la diosa Vesta.",
+      "synonyms": [
+        "sacerdotisa de Vesta"
+      ],
+      "example": {
+        "word": "vestal",
+        "text": "La vestal cuidaba el fuego sagrado."
+      },
+      "exampleSynonym": {
+        "word": "sacerdotisa de Vesta",
+        "text": "La sacerdotisa de Vesta cuidaba el fuego sagrado."
+      }
+    }
+  },
+  {
+    "entry": "vilipendiar",
+    "remove": [],
+    "set": {
+      "definition": "Despreciar o humillar a alguien con palabras o acciones.",
+      "synonyms": [
+        "menospreciar"
+      ],
+      "example": {
+        "word": "vilipendiar",
+        "text": "No conviene vilipendiar a sus rivales."
+      },
+      "exampleSynonym": {
+        "word": "menospreciar",
+        "text": "No conviene menospreciar a sus rivales."
+      }
+    }
+  },
+  {
+    "entry": "vislumbrar",
+    "remove": [],
+    "set": {
+      "definition": "Ver algo con dificultad por la distancia o la poca luz.",
+      "synonyms": [
+        "distinguir"
+      ],
+      "example": {
+        "word": "vislumbrar",
+        "text": "Desde aquí apenas pude vislumbrar el camino."
+      },
+      "exampleSynonym": {
+        "word": "distinguir",
+        "text": "Desde aquí apenas pude distinguir el camino."
+      }
+    }
+  },
+  {
+    "entry": "zaina",
+    "remove": [],
+    "set": {
+      "definition": "Dicho de un caballo: de color oscuro y sin manchas.",
+      "synonyms": [
+        "oscura"
+      ],
+      "example": {
+        "word": "zaina",
+        "text": "La yegua zaina esperaba en el establo."
+      },
+      "exampleSynonym": {
+        "word": "oscura",
+        "text": "La yegua oscura esperaba en el establo."
+      }
+    }
+  },
+  {
+    "entry": "zarria",
+    "remove": [],
+    "set": {
+      "definition": "Barro seco o suciedad pegada a la ropa o al calzado.",
+      "synonyms": [
+        "cazcarria"
+      ],
+      "example": {
+        "word": "zarria",
+        "text": "La zarria se pegó a sus botas."
+      },
+      "exampleSynonym": {
+        "word": "cazcarria",
+        "text": "La cazcarria se pegó a sus botas."
+      }
+    }
+  },
+  {
+    "entry": "cancela",
+    "remove": [],
+    "set": {
+      "definition": "Reja que separa la entrada de una casa del espacio público.",
+      "synonyms": [
+        "verja"
+      ],
+      "example": {
+        "word": "cancela",
+        "text": "La cancela del patio estaba cerrada."
+      },
+      "exampleSynonym": {
+        "word": "verja",
+        "text": "La verja del patio estaba cerrada."
+      }
+    }
   }
 ]

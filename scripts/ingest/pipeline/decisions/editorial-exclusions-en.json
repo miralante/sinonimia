@@ -89066,5 +89066,120 @@
     "id": "corbe",
     "word": "Corbe",
     "reason": "Corbe is an obscure container label for serving wine and has little current general use."
+  },
+  {
+    "id": "fryer-4",
+    "word": "Fryer",
+    "reason": "Fryer commonly means a pan or an animal prepared for frying; the candidate describes a Cuban clay casserole."
+  },
+  {
+    "id": "left-5",
+    "word": "left",
+    "reason": "Left is a common past form of leave or direction word, and the candidate gives an ordinary directional sense."
+  },
+  {
+    "id": "snack-11",
+    "word": "snack",
+    "reason": "Snack is a familiar light meal, not necessarily a large or abundant one."
+  },
+  {
+    "id": "corchapin",
+    "word": "corchapin",
+    "reason": "Corchapin remits to escorchapín, an obscure and noncurrent word with no clear general sense."
+  },
+  {
+    "id": "mocha-2",
+    "word": "mocha",
+    "reason": "Mocha is a familiar coffee or chocolate flavor, and the candidate’s relation to Moca is mismatched."
+  },
+  {
+    "id": "set-or-group-of-citations",
+    "word": "set or group of citations",
+    "reason": "The candidate ends with cytars, an unrelated or corrupted word, so it does not define this phrase."
+  },
+  {
+    "id": "chili-12",
+    "word": "chili",
+    "reason": "Chili is a common pepper or dish; the candidate’s beef-cut description is mismatched."
+  },
+  {
+    "id": "bowl-19",
+    "word": "bowl",
+    "reason": "Bowl is a common word for a rounded dish or sports action; the candidate contains only regional abbreviations."
+  },
+  {
+    "id": "schooling",
+    "word": "Schooling",
+    "reason": "Schooling is a common word for education received at school, and the candidate is already clear."
+  },
+  {
+    "id": "swimmer",
+    "word": "swimmer",
+    "reason": "Swimmer is a transparent noun for a person who swims."
+  },
+  {
+    "id": "safety-glove",
+    "word": "safety glove",
+    "reason": "Safety glove is a transparent compound for a glove that protects the hand."
+  },
+  {
+    "id": "get-gangrenous",
+    "word": "get gangrenous",
+    "reason": "Get gangrenous is a transparent medical phrase for developing gangrene."
+  },
+  {
+    "id": "burrici",
+    "word": "Burrici",
+    "reason": "Burrici appears to be an unsupported variant for clumsy or rude behavior, not a reliable current English word."
+  },
+  {
+    "id": "colibacillosis",
+    "word": "Colibacillosis",
+    "reason": "Colibacillosis is a specialist medical term for a bloodstream infection caused by E. coli."
+  },
+  {
+    "id": "contractibility",
+    "word": "Contractibility",
+    "reason": "Contractibility is a technical variant of contractility, used mainly in physiology and mechanics."
+  },
+  {
+    "id": "compend",
+    "word": "Compend",
+    "reason": "Compend is an obscure, archaic verb for making a short summary."
+  },
+  {
+    "id": "stain-removal",
+    "word": "stain removal",
+    "reason": "Stain removal is a transparent phrase for the process of cleaning stains from a surface."
+  },
+  {
+    "id": "choleriform",
+    "word": "Choleriform",
+    "reason": "Choleriform is a rare medical adjective relating to cholera; the column-shaped definition is unrelated."
+  },
+  {
+    "id": "craniofacial",
+    "word": "Craniofacial",
+    "reason": "Craniofacial is a specialist medical adjective relating to the skull and face."
+  },
+  {
+    "id": "murator",
+    "word": "Murator",
+    "reason": "Murator is an obscure old term for someone skilled at hunting mice."
+  },
+  {
+    "id": "barbell",
+    "word": "Barbell",
+    "reason": "Barbell is a common weightlifting bar, not an arrogant person."
+  },
+  {
+    "id": "neurotome",
+    "word": "Neurotome",
+    "reason": "Neurotome is a surgical instrument for cutting nerves and has highly specialized use."
+  },
+  {
+    "id": "most-holy",
+    "word": "Most Holy",
+    "reason": "Most holy is a transparent phrase meaning extremely holy, with a narrow religious context."
   }
 ]
