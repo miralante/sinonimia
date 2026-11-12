@@ -27,7 +27,7 @@
    ============================================================ */
 importScripts('./js/dictionary-data.js');
 
-var VERSION = 'sinonimia-v5246';
+var VERSION = 'sinonimia-v5250';
 
 var FILES = [
   './',
@@ -343,6 +343,8 @@ self.addEventListener('message', function (event) {
     event.waitUntil(warmImages());
   }
 });
+
+
 
 
 

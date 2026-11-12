@@ -3057,8 +3057,14 @@ window.SINONIMIA_DICTIONARY_SHARDS = {
     { file: "js/data.en.example-rewrite-v5244.js", src: "js/data.en.example-rewrite-v5244.js?v=782316b58f" },
     { file: "js/data.en.example-rewrite-v5245.js", src: "js/data.en.example-rewrite-v5245.js?v=c8491fe4ad" },
     { file: "js/data.en.example-rewrite-v5246.js", src: "js/data.en.example-rewrite-v5246.js?v=232f139322" },
+    { file: "js/data.en.example-rewrite-v5247.js", src: "js/data.en.example-rewrite-v5247.js?v=ce8a89bc86" },
+    { file: "js/data.en.example-rewrite-v5248.js", src: "js/data.en.example-rewrite-v5248.js?v=2167f7e2ec" },
+    { file: "js/data.en.example-rewrite-v5249.js", src: "js/data.en.example-rewrite-v5249.js?v=89c55c797c" },
+    { file: "js/data.en.example-rewrite-v5250.js", src: "js/data.en.example-rewrite-v5250.js?v=4fa4a6024e" },
   ],
 };
+
+
 
 
 
