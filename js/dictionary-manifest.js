@@ -3061,21 +3061,10 @@ window.SINONIMIA_DICTIONARY_SHARDS = {
     { file: "js/data.en.example-rewrite-v5248.js", src: "js/data.en.example-rewrite-v5248.js?v=2167f7e2ec" },
     { file: "js/data.en.example-rewrite-v5249.js", src: "js/data.en.example-rewrite-v5249.js?v=89c55c797c" },
     { file: "js/data.en.example-rewrite-v5250.js", src: "js/data.en.example-rewrite-v5250.js?v=4fa4a6024e" },
+    { file: "js/data.en.example-rewrite-v5251.js", src: "js/data.en.example-rewrite-v5251.js?v=1c35e26342" },
+    { file: "js/data.en.example-rewrite-v5252.js", src: "js/data.en.example-rewrite-v5252.js?v=427e7c41b6" },
+    { file: "js/data.en.example-rewrite-v5253.js", src: "js/data.en.example-rewrite-v5253.js?v=11cd425a64" },
+    { file: "js/data.en.example-rewrite-v5254.js", src: "js/data.en.example-rewrite-v5254.js?v=935796b82a" },
+    { file: "js/data.en.example-rewrite-v5255.js", src: "js/data.en.example-rewrite-v5255.js?v=1a77e658a6" },
   ],
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
