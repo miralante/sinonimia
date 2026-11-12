@@ -266293,5 +266293,95 @@
         "text": "Appearance can hide the truth."
       }
     }
+  },
+  {
+    "entry": "rococo",
+    "remove": [],
+    "set": {
+      "definition": "An ornate artistic style that began in France in the eighteenth century.",
+      "synonyms": [
+        "ornate artistic style"
+      ],
+      "example": {
+        "word": "Rococo",
+        "text": "Rococo became popular in France."
+      },
+      "exampleSynonym": {
+        "word": "ornate artistic style",
+        "text": "The ornate artistic style became popular in France."
+      }
+    }
+  },
+  {
+    "entry": "ooze",
+    "remove": [],
+    "set": {
+      "definition": "To flow slowly out through a small opening.",
+      "synonyms": [
+        "leak"
+      ],
+      "example": {
+        "word": "ooze",
+        "text": "Mud began to ooze from the crack."
+      },
+      "exampleSynonym": {
+        "word": "leak",
+        "text": "Mud began to leak from the crack."
+      }
+    }
+  },
+  {
+    "entry": "self-righteousness",
+    "remove": [],
+    "set": {
+      "definition": "Belief that you are morally better than other people.",
+      "synonyms": [
+        "Belief in one's moral superiority"
+      ],
+      "example": {
+        "word": "Self-righteousness",
+        "text": "Self-righteousness often alienates people."
+      },
+      "exampleSynonym": {
+        "word": "Belief in one's moral superiority",
+        "text": "Belief in one's moral superiority often alienates people."
+      }
+    }
+  },
+  {
+    "entry": "rejoinder",
+    "remove": [],
+    "set": {
+      "definition": "A written answer to a reply in a legal case.",
+      "synonyms": [
+        "A written reply"
+      ],
+      "example": {
+        "word": "Rejoinder",
+        "text": "Rejoinder followed the plaintiff's response."
+      },
+      "exampleSynonym": {
+        "word": "A written reply",
+        "text": "A written reply followed the plaintiff's response."
+      }
+    }
+  },
+  {
+    "entry": "soapstone",
+    "remove": [],
+    "set": {
+      "definition": "A soft rock rich in talc, often carved or used for counters.",
+      "synonyms": [
+        "Soft stone"
+      ],
+      "example": {
+        "word": "Soapstone",
+        "text": "Soapstone is often used for carving."
+      },
+      "exampleSynonym": {
+        "word": "Soft stone",
+        "text": "Soft stone is often used for carving."
+      }
+    }
   }
 ]

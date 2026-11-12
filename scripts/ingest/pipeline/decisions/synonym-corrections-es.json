@@ -265882,5 +265882,185 @@
         "text": "La hierbaluisa dio aroma al té."
       }
     }
+  },
+  {
+    "entry": "desindustrializar",
+    "remove": [],
+    "set": {
+      "definition": "Reducir o eliminar la actividad industrial de una zona.",
+      "synonyms": [
+        "reducir la actividad industrial"
+      ],
+      "example": {
+        "word": "desindustrializar",
+        "text": "La decisión de desindustrializar tomó años."
+      },
+      "exampleSynonym": {
+        "word": "reducir la actividad industrial",
+        "text": "La decisión de reducir la actividad industrial tomó años."
+      }
+    }
+  },
+  {
+    "entry": "resonante",
+    "remove": [],
+    "set": {
+      "definition": "Que produce un sonido fuerte y duradero.",
+      "synonyms": [
+        "sonoro"
+      ],
+      "example": {
+        "word": "resonante",
+        "text": "El eco resonante despertó a todos."
+      },
+      "exampleSynonym": {
+        "word": "sonoro",
+        "text": "El eco sonoro despertó a todos."
+      }
+    }
+  },
+  {
+    "entry": "rigorismo",
+    "remove": [],
+    "set": {
+      "definition": "Aplicación muy estricta de las normas o los principios.",
+      "synonyms": [
+        "severidad"
+      ],
+      "example": {
+        "word": "rigorismo",
+        "text": "Su rigorismo moral sorprendió a todos."
+      },
+      "exampleSynonym": {
+        "word": "severidad",
+        "text": "Su severidad moral sorprendió a todos."
+      }
+    }
+  },
+  {
+    "entry": "tragantada",
+    "remove": [],
+    "set": {
+      "definition": "Cantidad de comida que alguien traga de una sola vez.",
+      "synonyms": [
+        "porción"
+      ],
+      "example": {
+        "word": "tragantada",
+        "text": "La tragantada de comida fue excesiva."
+      },
+      "exampleSynonym": {
+        "word": "porción",
+        "text": "La porción de comida fue excesiva."
+      }
+    }
+  },
+  {
+    "entry": "armamentismo",
+    "remove": [],
+    "set": {
+      "definition": "Aumento del número de armas o del gasto militar.",
+      "synonyms": [
+        "rearme"
+      ],
+      "example": {
+        "word": "armamentismo",
+        "text": "El armamentismo preocupa a los países vecinos."
+      },
+      "exampleSynonym": {
+        "word": "rearme",
+        "text": "El rearme preocupa a los países vecinos."
+      }
+    }
+  },
+  {
+    "entry": "sofocon",
+    "remove": [],
+    "set": {
+      "definition": "Pena o angustia repentina, a veces acompañada de sensación de calor.",
+      "synonyms": [
+        "apuro"
+      ],
+      "example": {
+        "word": "sofocón",
+        "text": "Pasó un sofocón al oír la noticia."
+      },
+      "exampleSynonym": {
+        "word": "apuro",
+        "text": "Pasó un apuro al oír la noticia."
+      }
+    }
+  },
+  {
+    "entry": "ultraizquierdismo",
+    "remove": [],
+    "set": {
+      "definition": "Ideas o actitudes políticas de grupos muy a la izquierda.",
+      "synonyms": [
+        "radicalismo de izquierda"
+      ],
+      "example": {
+        "word": "ultraizquierdismo",
+        "text": "El ultraizquierdismo marcó el debate."
+      },
+      "exampleSynonym": {
+        "word": "radicalismo de izquierda",
+        "text": "El radicalismo de izquierda marcó el debate."
+      }
+    }
+  },
+  {
+    "entry": "repugnar",
+    "remove": [],
+    "set": {
+      "definition": "Provocar rechazo o asco muy fuertes.",
+      "synonyms": [
+        "causar aversión"
+      ],
+      "example": {
+        "word": "repugnar",
+        "text": "El olor le puede repugnar."
+      },
+      "exampleSynonym": {
+        "word": "causar aversión",
+        "text": "El olor le puede causar aversión."
+      }
+    }
+  },
+  {
+    "entry": "sinecura",
+    "remove": [],
+    "set": {
+      "definition": "Cargo remunerado que exige poco o ningún trabajo.",
+      "synonyms": [
+        "plaza tranquila"
+      ],
+      "example": {
+        "word": "sinecura",
+        "text": "Buscaba una sinecura en el gobierno."
+      },
+      "exampleSynonym": {
+        "word": "plaza tranquila",
+        "text": "Buscaba una plaza tranquila en el gobierno."
+      }
+    }
+  },
+  {
+    "entry": "sufragio",
+    "remove": [],
+    "set": {
+      "definition": "Voto que una persona emite en una elección.",
+      "synonyms": [
+        "voto"
+      ],
+      "example": {
+        "word": "sufragio",
+        "text": "El sufragio se cuenta esta noche."
+      },
+      "exampleSynonym": {
+        "word": "voto",
+        "text": "El voto se cuenta esta noche."
+      }
+    }
   }
 ]
