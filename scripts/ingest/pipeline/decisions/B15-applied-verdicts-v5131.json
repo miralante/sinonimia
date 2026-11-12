@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5133",
+  "runtime": "v5134",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1019,
-    "en": 998
+    "es": 1039,
+    "en": 1008
   },
-  "latestLedgerBatchCount": 100,
-  "latestLedgerReviewedIdCount": 2017,
-  "appliedCount": 866,
+  "latestLedgerBatchCount": 102,
+  "latestLedgerReviewedIdCount": 2047,
+  "appliedCount": 886,
   "appliedByLanguage": {
-    "es": 437,
-    "en": 429
+    "es": 447,
+    "en": 439
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -58,7 +58,8 @@
     "B15-eighty-seventh-20-verdicts.json",
     "B15-eighty-eighth-20-verdicts.json",
     "B15-eighty-ninth-17-verdicts.json",
-    "B15-ninetieth-20-verdicts.json"
+    "B15-ninetieth-20-verdicts.json",
+    "B15-ninetyfirst-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -5441,6 +5442,126 @@
       "language": "en",
       "id": "sericulture-2",
       "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "sobarcar",
+      "decision": "exclude-rare-variant"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "sobrecoger",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "sorna",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "tahona",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "tapiar",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "tapujo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "temeridad",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "tontucio",
+      "decision": "exclude-rare-colloquial-variant"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "transcurrir",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "es",
+      "id": "trapezoidal",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "cartridge-2",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "methyl-2",
+      "decision": "exclude-specialized-chemistry-term"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "hamstring-4",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "saucer-2",
+      "decision": "exclude-definition-sense-mismatch"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "sprout-4",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "copy-8",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "remedy-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "lame-8",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "crushing-8",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-ninetyfirst-20-verdicts.json",
+      "language": "en",
+      "id": "sansa",
+      "decision": "exclude-corrupt-foreign-entry"
     }
   ],
   "pendingBatch25": [

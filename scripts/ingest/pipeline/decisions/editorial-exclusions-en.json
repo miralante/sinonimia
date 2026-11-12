@@ -84646,5 +84646,40 @@
     "id": "gap-5",
     "word": "Gap",
     "reason": "The definition describes a breccia, not a meaning of gap, so the record is corrupt."
+  },
+  {
+    "id": "cartridge-2",
+    "word": "Cartridge",
+    "reason": "The gloss “cartridge drift” does not define a recognized cartridge meaning and appears corrupted."
+  },
+  {
+    "id": "methyl-2",
+    "word": "Methyl",
+    "reason": "This technical chemistry term has narrow specialist use and little value as a general synonym card."
+  },
+  {
+    "id": "hamstring-4",
+    "word": "hamstring",
+    "reason": "The gloss describes a tool for hamstringing, not a recognized independent sense of hamstring."
+  },
+  {
+    "id": "saucer-2",
+    "word": "saucer",
+    "reason": "The gloss describes furniture for storing saucers, not a sense of the word saucer."
+  },
+  {
+    "id": "lame-8",
+    "word": "Lame",
+    "reason": "The gloss describes a complaining person and does not match a recognized sense of lame."
+  },
+  {
+    "id": "crushing-8",
+    "word": "Crushing",
+    "reason": "The gloss “a blow given with a trunk” does not identify a valid sense of crushing."
+  },
+  {
+    "id": "sansa",
+    "word": "Sansa",
+    "reason": "The gloss is a generic transaction payment and does not establish a recognized English lexical entry."
   }
 ]
