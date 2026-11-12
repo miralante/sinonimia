@@ -84451,5 +84451,30 @@
     "id": "childish-quality",
     "word": "childish quality",
     "reason": "The phrase is not a usable English synonym entry and the gloss is a Spanish legal term, infanzón quality."
+  },
+  {
+    "id": "colorful-fabric",
+    "word": "colorful fabric",
+    "reason": "This phrase is a description, not a standard English headword; the gloss appears to describe brocade."
+  },
+  {
+    "id": "lock-15",
+    "word": "lock",
+    "reason": "Walking with long steps is not a sense of lock; the gloss appears to belong to another verb."
+  },
+  {
+    "id": "create-mess-or-tangles",
+    "word": "create mess or tangles",
+    "reason": "This is an explanatory phrase rather than a dictionary headword, and the proposed gloss repeats the phrase."
+  },
+  {
+    "id": "courseful",
+    "word": "courseful",
+    "reason": "The headword and proposed meaning could not be verified in standard current English dictionaries."
+  },
+  {
+    "id": "fast-and-continuous-scrolling",
+    "word": "fast and continuous scrolling",
+    "reason": "This is a descriptive phrase, not an English headword with an independent synonym entry."
   }
 ]

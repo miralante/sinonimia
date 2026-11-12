@@ -90257,5 +90257,35 @@
     "id": "confesuria",
     "word": "confesuría",
     "reason": "Nombre poco usado para el cargo de confesor, sin un sinónimo moderno claro ni una acepción de interés general."
+  },
+  {
+    "id": "cornetazo",
+    "word": "cornetazo",
+    "reason": "La acepción está limitada a Venezuela y nombra un ruido del claxon; se prefiere la voz general bocinazo."
+  },
+  {
+    "id": "cueco",
+    "word": "cueco",
+    "reason": "La voz es coloquial, regional y puede usarse como etiqueta despectiva para un hombre homosexual; no se incluye como sinónimo neutral."
+  },
+  {
+    "id": "cuentear",
+    "word": "cuentear",
+    "reason": "Uso coloquial restringido a varios países centroamericanos; la ficha general puede expresarse con engañar."
+  },
+  {
+    "id": "curuma",
+    "word": "curuma",
+    "reason": "Adjetivo de uso limitado a El Salvador, Honduras y Nicaragua; el sentido se expresa de forma general con salado."
+  },
+  {
+    "id": "depirar",
+    "word": "depirar",
+    "reason": "Verbo hondureño de un trabajo específico del calzado y difícil de entender fuera de ese oficio."
+  },
+  {
+    "id": "desenrejar",
+    "word": "desenrejar",
+    "reason": "Voz hondureña ligada a una práctica ganadera local y sin sinónimo general de uso extendido."
   }
 ]
