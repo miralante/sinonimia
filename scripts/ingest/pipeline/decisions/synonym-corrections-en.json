@@ -266095,5 +266095,95 @@
         "text": "Unconsciousness may last for hours."
       }
     }
+  },
+  {
+    "entry": "convalesce",
+    "remove": [],
+    "set": {
+      "definition": "To slowly regain health after an illness or operation.",
+      "synonyms": [
+        "Recover"
+      ],
+      "example": {
+        "word": "Convalesce",
+        "text": "Convalesce at home until you feel strong."
+      },
+      "exampleSynonym": {
+        "word": "Recover",
+        "text": "Recover at home until you feel strong."
+      }
+    }
+  },
+  {
+    "entry": "selfless",
+    "remove": [],
+    "set": {
+      "definition": "Caring more about other people than about yourself.",
+      "synonyms": [
+        "Unselfish"
+      ],
+      "example": {
+        "word": "Selfless",
+        "text": "Selfless volunteers put others first."
+      },
+      "exampleSynonym": {
+        "word": "Unselfish",
+        "text": "Unselfish volunteers put others first."
+      }
+    }
+  },
+  {
+    "entry": "tyranny",
+    "remove": [],
+    "set": {
+      "definition": "Cruel or unfair use of power over other people.",
+      "synonyms": [
+        "Oppression"
+      ],
+      "example": {
+        "word": "Tyranny",
+        "text": "Tyranny can last for years."
+      },
+      "exampleSynonym": {
+        "word": "Oppression",
+        "text": "Oppression can last for years."
+      }
+    }
+  },
+  {
+    "entry": "resin",
+    "remove": [],
+    "set": {
+      "definition": "A sticky substance made by some plants, especially trees.",
+      "synonyms": [
+        "Sticky plant material"
+      ],
+      "example": {
+        "word": "Resin",
+        "text": "Resin covered the pine tree's bark."
+      },
+      "exampleSynonym": {
+        "word": "Sticky plant material",
+        "text": "Sticky plant material covered the pine tree's bark."
+      }
+    }
+  },
+  {
+    "entry": "clatter",
+    "remove": [],
+    "set": {
+      "definition": "A loud series of hard objects hitting or moving.",
+      "synonyms": [
+        "rattling noise"
+      ],
+      "example": {
+        "word": "clatter",
+        "text": "The clatter woke the baby."
+      },
+      "exampleSynonym": {
+        "word": "rattling noise",
+        "text": "The rattling noise woke the baby."
+      }
+    }
   }
 ]

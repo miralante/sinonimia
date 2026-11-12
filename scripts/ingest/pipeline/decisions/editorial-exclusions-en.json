@@ -90391,5 +90391,180 @@
     "id": "despised-4",
     "word": "despised",
     "reason": "Despised means strongly disliked, not a matter of little importance; the supplied definition is mismatched."
+  },
+  {
+    "id": "lion-5",
+    "word": "lion",
+    "reason": "Lion names a large wild cat, not a ladybug; the supplied definition is clearly mismatched."
+  },
+  {
+    "id": "vulgar-17",
+    "word": "vulgar",
+    "reason": "Vulgar means crude or lacking good taste, not to the; the entry is incomplete and mismatched."
+  },
+  {
+    "id": "bowl-32",
+    "word": "bowl",
+    "reason": "The supplied definition is a Bolivian dance, not an English meaning of bowl."
+  },
+  {
+    "id": "cabbage-37",
+    "word": "cabbage",
+    "reason": "Cabbage is a vegetable, not a Colombian coarse-fabric skirt; the entry is misaligned."
+  },
+  {
+    "id": "cashier",
+    "word": "Cashier",
+    "reason": "Cashier means a person who handles payments, not a bank machine; the supplied definition is wrong."
+  },
+  {
+    "id": "siege-starter",
+    "word": "Siege Starter",
+    "reason": "Siege starter is not a standard headword for harvesting fallen crops, and the entry appears corrupted."
+  },
+  {
+    "id": "casino",
+    "word": "Casino",
+    "reason": "The entry describes a small recreational building in a park, not the usual English sense of a gambling establishment."
+  },
+  {
+    "id": "newsletter",
+    "word": "Newsletter",
+    "reason": "Newsletter is a familiar, transparent word for a publication sent regularly to a group of readers."
+  },
+  {
+    "id": "supriory",
+    "word": "Supriory",
+    "reason": "Supriory is not a standard English headword, and the supplied definition is malformed."
+  },
+  {
+    "id": "mixer",
+    "word": "Mixer",
+    "reason": "Mixer is a common general word, and this concrete-mixer sense is specialized construction equipment."
+  },
+  {
+    "id": "scrofulism",
+    "word": "Scrofulism",
+    "reason": "Scrofulism is an obsolete or specialist medical term for a condition involving scrofula."
+  },
+  {
+    "id": "saber",
+    "word": "Saber",
+    "reason": "Saber is a familiar name for a curved sword, and this specific cavalry weapon sense is historical."
+  },
+  {
+    "id": "cozy",
+    "word": "Cozy",
+    "reason": "Cozy means comfortable and warm, not easily received or welcomed; the definition is mismatched."
+  },
+  {
+    "id": "morbific",
+    "word": "Morbific",
+    "reason": "Morbific is a rare, archaic medical adjective meaning disease-causing."
+  },
+  {
+    "id": "christianize",
+    "word": "Christianize",
+    "reason": "Christianize is a transparent verb meaning to make Christian or convert to Christianity."
+  },
+  {
+    "id": "charranade",
+    "word": "charranade",
+    "reason": "Charranade is not a standard English headword, and its definition refers to an unrelated Spanish verb."
+  },
+  {
+    "id": "counter-notice",
+    "word": "Counter-notice",
+    "reason": "Counter-notice is a legal or administrative phrase meaning a reply to an earlier notice, with limited general use."
+  },
+  {
+    "id": "co-responsible",
+    "word": "Co-responsible",
+    "reason": "Co-responsible is a transparent adjective meaning responsible together with someone else."
+  },
+  {
+    "id": "coat-hanger",
+    "word": "Coat hanger",
+    "reason": "Coat hanger is a familiar household item used to hang clothes."
+  },
+  {
+    "id": "roast",
+    "word": "Roast",
+    "reason": "Roast is a common verb for cooking with dry heat or informally teasing someone."
+  },
+  {
+    "id": "tenmillimeter",
+    "word": "tenmillimeter",
+    "reason": "Tenmillimeter is not a standard single-word English headword and the proposed meaning is malformed."
+  },
+  {
+    "id": "compensator",
+    "word": "Compensator",
+    "reason": "Compensator is a transparent agent noun meaning something that compensates and adds little general vocabulary value."
+  },
+  {
+    "id": "computerize",
+    "word": "Computerize",
+    "reason": "Computerize is a transparent verb meaning to put information or work onto a computer."
+  },
+  {
+    "id": "refractive",
+    "word": "refractive",
+    "reason": "Refractive is a technical physics adjective meaning related to the bending of light, and the supplied definition is circular."
+  },
+  {
+    "id": "soaping",
+    "word": "soaping",
+    "reason": "Soaping is a transparent form of soap meaning the act of applying soap."
+  },
+  {
+    "id": "stomp",
+    "word": "Stomp",
+    "reason": "Stomp is a familiar verb meaning to tread heavily, and the supplied definition is already clear."
+  },
+  {
+    "id": "carniform",
+    "word": "Carniform",
+    "reason": "Carniform is an uncommon, nonstandard-looking adjective meaning shaped like flesh, with little general use."
+  },
+  {
+    "id": "dust-mat",
+    "word": "Dust Mat",
+    "reason": "Dust mat is not a standard phrase for light rain; the supplied definition appears mismatched."
+  },
+  {
+    "id": "monaural",
+    "word": "Monaural",
+    "reason": "Monaural describes audio recorded or played through one channel and is specialized sound technology vocabulary."
+  },
+  {
+    "id": "difident",
+    "word": "Difident",
+    "reason": "Difident is not the standard spelling of diffident, and the supplied sense skeptical or distrustful does not match that word."
+  },
+  {
+    "id": "necrophile",
+    "word": "Necrophile",
+    "reason": "Necrophile is a rare term related to necrophilia and has limited general vocabulary use."
+  },
+  {
+    "id": "ohmmeter",
+    "word": "Ohmmeter",
+    "reason": "Ohmmeter names a specialized electrical instrument used to measure resistance."
+  },
+  {
+    "id": "merlin",
+    "word": "Merlin",
+    "reason": "Merlin usually names a small falcon, not the freshwater fish described; the entry is mismatched."
+  },
+  {
+    "id": "morcaw",
+    "word": "Morcaw",
+    "reason": "Morcaw is not a standard English headword and the supplied definition appears to be a regional food entry."
+  },
+  {
+    "id": "nematocera",
+    "word": "Nematocera",
+    "reason": "Nematocera is a taxonomic name for a group of flies, not something shaped like a worm; the definition is mismatched."
   }
 ]

@@ -265612,5 +265612,221 @@
         "text": "El texto del destinatario estaba borroso."
       }
     }
+  },
+  {
+    "entry": "timba",
+    "remove": [],
+    "set": {
+      "definition": "Partida en la que varias personas apuestan dinero.",
+      "synonyms": [
+        "partida de apuestas"
+      ],
+      "example": {
+        "word": "timba",
+        "text": "La timba duró hasta el amanecer."
+      },
+      "exampleSynonym": {
+        "word": "partida de apuestas",
+        "text": "La partida de apuestas duró hasta el amanecer."
+      }
+    }
+  },
+  {
+    "entry": "trebejo",
+    "remove": [],
+    "set": {
+      "definition": "Instrumento sencillo que se usa para realizar un trabajo.",
+      "synonyms": [
+        "utensilio"
+      ],
+      "example": {
+        "word": "trebejo",
+        "text": "El trebejo servía para cortar cuero."
+      },
+      "exampleSynonym": {
+        "word": "utensilio",
+        "text": "El utensilio servía para cortar cuero."
+      }
+    }
+  },
+  {
+    "entry": "univoco",
+    "remove": [],
+    "set": {
+      "definition": "Que solo puede entenderse de una manera.",
+      "synonyms": [
+        "de sentido único"
+      ],
+      "example": {
+        "word": "unívoco",
+        "text": "El término es unívoco en este contexto."
+      },
+      "exampleSynonym": {
+        "word": "de sentido único",
+        "text": "El término es de sentido único en este contexto."
+      }
+    }
+  },
+  {
+    "entry": "venial",
+    "remove": [],
+    "set": {
+      "definition": "Dicho de una falta: leve y fácil de perdonar.",
+      "synonyms": [
+        "leve"
+      ],
+      "example": {
+        "word": "venial",
+        "text": "Cometió una falta venial."
+      },
+      "exampleSynonym": {
+        "word": "leve",
+        "text": "Cometió una falta leve."
+      }
+    }
+  },
+  {
+    "entry": "vespertino",
+    "remove": [],
+    "set": {
+      "definition": "Que ocurre o se realiza durante la tarde.",
+      "synonyms": [
+        "de la tarde"
+      ],
+      "example": {
+        "word": "vespertino",
+        "text": "El horario vespertino empieza a las cuatro."
+      },
+      "exampleSynonym": {
+        "word": "de la tarde",
+        "text": "El horario de la tarde empieza a las cuatro."
+      }
+    }
+  },
+  {
+    "entry": "zahori",
+    "remove": [],
+    "set": {
+      "definition": "Persona que, según una creencia, puede encontrar agua bajo tierra.",
+      "synonyms": [
+        "buscador de agua"
+      ],
+      "example": {
+        "word": "zahorí",
+        "text": "El zahorí recorrió el campo."
+      },
+      "exampleSynonym": {
+        "word": "buscador de agua",
+        "text": "El buscador de agua recorrió el campo."
+      }
+    }
+  },
+  {
+    "entry": "alarde",
+    "remove": [],
+    "set": {
+      "definition": "Muestra exagerada de una cualidad o de algo que se tiene.",
+      "synonyms": [
+        "exhibición"
+      ],
+      "example": {
+        "word": "alarde",
+        "text": "Hizo alarde de su fuerza."
+      },
+      "exampleSynonym": {
+        "word": "exhibición",
+        "text": "Hizo exhibición de su fuerza."
+      }
+    }
+  },
+  {
+    "entry": "chivatazo",
+    "remove": [],
+    "set": {
+      "definition": "Aviso que revela información que debía mantenerse oculta.",
+      "synonyms": [
+        "soplo"
+      ],
+      "example": {
+        "word": "chivatazo",
+        "text": "Un chivatazo alertó a la policía."
+      },
+      "exampleSynonym": {
+        "word": "soplo",
+        "text": "Un soplo alertó a la policía."
+      }
+    }
+  },
+  {
+    "entry": "concebir",
+    "remove": [],
+    "set": {
+      "definition": "Entender por qué alguien actúa o siente de cierta manera.",
+      "synonyms": [
+        "comprender"
+      ],
+      "example": {
+        "word": "concebir",
+        "text": "No logro concebir su reacción."
+      },
+      "exampleSynonym": {
+        "word": "comprender",
+        "text": "No logro comprender su reacción."
+      }
+    }
+  },
+  {
+    "entry": "respirador",
+    "remove": [],
+    "set": {
+      "definition": "Aparato que ayuda a una persona a respirar.",
+      "synonyms": [
+        "dispositivo de respiración"
+      ],
+      "example": {
+        "word": "respirador",
+        "text": "El paciente usó un respirador durante la noche."
+      },
+      "exampleSynonym": {
+        "word": "dispositivo de respiración",
+        "text": "El paciente usó un dispositivo de respiración durante la noche."
+      }
+    }
+  },
+  {
+    "entry": "sensibilidad",
+    "remove": [],
+    "set": {
+      "definition": "Capacidad de notar estímulos físicos, como el dolor o el frío.",
+      "synonyms": [
+        "percepción"
+      ],
+      "example": {
+        "word": "sensibilidad",
+        "text": "La sensibilidad física cambia con la edad."
+      },
+      "exampleSynonym": {
+        "word": "percepción",
+        "text": "La percepción física cambia con la edad."
+      }
+    }
+  },
+  {
+    "entry": "singularidad",
+    "remove": [],
+    "set": {
+      "definition": "Cualidad de ser único o diferente de los demás.",
+      "synonyms": [
+        "carácter único"
+      ],
+      "example": {
+        "word": "singularidad",
+        "text": "Su singularidad llamó la atención."
+      },
+      "exampleSynonym": {
+        "word": "carácter único",
+        "text": "Su carácter único llamó la atención."
+      }
+    }
   }
 ]
