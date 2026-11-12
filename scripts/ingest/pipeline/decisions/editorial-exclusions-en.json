@@ -84476,5 +84476,30 @@
     "id": "fast-and-continuous-scrolling",
     "word": "fast and continuous scrolling",
     "reason": "This is a descriptive phrase, not an English headword with an independent synonym entry."
+  },
+  {
+    "id": "chili-11",
+    "word": "chili",
+    "reason": "New lamb is unrelated to chili, which names a pepper, spice, or spicy dish."
+  },
+  {
+    "id": "ant-28",
+    "word": "ant",
+    "reason": "A weapon or pointed instrument is not a sense of ant; the gloss belongs to another headword."
+  },
+  {
+    "id": "risk-center",
+    "word": "Risk center",
+    "reason": "This phrase is a literal translation of a Spanish financial term, not a standard English name for the database described."
+  },
+  {
+    "id": "geognosy",
+    "word": "geognosy",
+    "reason": "This historical geology term is now rare and specialized, so it has little value in a general synonym dictionary."
+  },
+  {
+    "id": "garganter",
+    "word": "garganter",
+    "reason": "The candidate is scraped website navigation text mixed with a Spanish article fragment, not an English definition."
   }
 ]

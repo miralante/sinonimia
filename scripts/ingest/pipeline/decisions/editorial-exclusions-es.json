@@ -90287,5 +90287,20 @@
     "id": "desenrejar",
     "word": "desenrejar",
     "reason": "Voz hondureña ligada a una práctica ganadera local y sin sinónimo general de uso extendido."
+  },
+  {
+    "id": "suncuan",
+    "word": "suncuán",
+    "reason": "Nombre hondureño de un ave rapaz nocturna poco común; la forma propuesta remite a otra voz regional."
+  },
+  {
+    "id": "tormellera",
+    "word": "tormellera",
+    "reason": "Voz muy poco usada para un terreno pedregoso que remite a otros términos raros; no aporta una ficha general útil."
+  },
+  {
+    "id": "trasbarras",
+    "word": "trasbarrás",
+    "reason": "Onomatopeya poco transparente para un ruido al caer, sin sinónimos de uso general claros."
   }
 ]
