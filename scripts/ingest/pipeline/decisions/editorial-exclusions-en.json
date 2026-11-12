@@ -83616,5 +83616,55 @@
     "id": "release-6",
     "word": "release",
     "reason": "This ordinary «free a slave» gloss duplicates the common sense of setting someone free."
+  },
+  {
+    "id": "stand-out-2",
+    "word": "stand out",
+    "reason": "The gloss about removing or wearing off an end does not match a supported sense of the phrasal verb."
+  },
+  {
+    "id": "confuse-2",
+    "word": "confuse",
+    "reason": "The proposed meaning, making a situation harder to understand, is an ordinary sense of a common verb."
+  },
+  {
+    "id": "snoop-2",
+    "word": "snoop",
+    "reason": "The fishing gloss is not a documented sense of «snoop»; Collins defines the verb as prying or investigating."
+  },
+  {
+    "id": "loafing-3",
+    "word": "Loafing",
+    "reason": "A transparent -ing form of the common verb «loaf», not a separate difficult lemma."
+  },
+  {
+    "id": "jumper-2",
+    "word": "Jumper",
+    "reason": "The gloss «jump ship» is a different verb phrase and does not define the noun «jumper»."
+  },
+  {
+    "id": "mimeograph-2",
+    "word": "Mimeograph",
+    "reason": "The verb refers to making copies with an obsolete duplicating machine and has little current general use."
+  },
+  {
+    "id": "scratch-3",
+    "word": "scratch",
+    "reason": "The action of scratching is a basic, common sense of an everyday word."
+  },
+  {
+    "id": "crash-4",
+    "word": "Crash",
+    "reason": "The whip-cracking gloss is not a supported Collins sense of «crash»."
+  },
+  {
+    "id": "deer-3",
+    "word": "deer",
+    "reason": "A basic animal name with a straightforward definition; it does not meet the difficult-word criterion."
+  },
+  {
+    "id": "fairy-2",
+    "word": "Fairy",
+    "reason": "A familiar folklore word with a simple definition; it does not meet the difficult-word criterion."
   }
 ]

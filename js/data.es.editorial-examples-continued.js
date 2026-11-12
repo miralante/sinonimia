@@ -267,4 +267,6 @@
   addSense("celico",{id:"round5097-celico-excellent",definition:"De uso literario, muy bueno, perfecto o delicioso.",synonym:"excelente",marker:"célico",example:"El postre célico sorprendió a todos.",exampleSynonymText:"El postre excelente sorprendió a todos."});
 }
   set("cegajoso",{definition:"Que tiene los ojos cargados y llorosos con frecuencia.",synonyms:["legañoso"],example:{word:"cegajoso",text:"El niño cegajoso se frotaba los ojos."},exampleSynonym:{word:"legañoso",text:"El niño legañoso se frotaba los ojos."}});
+  set("lisiar",{definition:"Causar una lesión en alguna parte del cuerpo.",synonyms:["lesionar"],example:{word:"lisiará",text:"El accidente lo lisiará de por vida."},exampleSynonym:{word:"lesionará",text:"El accidente lo lesionará de por vida."}});
+  set("ribetear",{definition:"Poner una tira en el borde de una prenda u objeto.",synonyms:["rematar el borde de"],example:{word:"ribetear",text:"Aprender a ribetear una falda lleva pocos minutos."},exampleSynonym:{word:"rematar el borde de",text:"Aprender a rematar el borde de una falda lleva pocos minutos."}});
 })();
