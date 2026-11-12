@@ -90962,5 +90962,40 @@
     "id": "cacaro",
     "word": "cácaro",
     "reason": "Es una denominación mexicana para un trabajador de cine, de alcance regional y poco útil como sinónimo general."
+  },
+  {
+    "id": "tornagallos",
+    "word": "tornagallos",
+    "reason": "Es un nombre local alavés de una planta concreta y no tiene utilidad general como sinónimo."
+  },
+  {
+    "id": "violia",
+    "word": "violía",
+    "reason": "Es una voz hondureña poco extendida para una tabla plegable de planchar; la forma general es más clara."
+  },
+  {
+    "id": "trabajadero",
+    "word": "trabajadero",
+    "reason": "Nombra en Honduras una parcela cultivada por su dueño y tiene un alcance local y agrícola muy limitado."
+  },
+  {
+    "id": "vaqueiro",
+    "word": "vaqueiro",
+    "reason": "Es la voz asturiana para vaquero o pastor de ganado vacuno y tiene un alcance regional marcado."
+  },
+  {
+    "id": "turlerin",
+    "word": "turlerín",
+    "reason": "Es una voz de germanía, hoy obsoleta, para ladrón y no cumple el criterio de uso general actual."
+  },
+  {
+    "id": "trasfollo",
+    "word": "trasfollo",
+    "reason": "Es el nombre veterinario de un tumor en las articulaciones de las patas de los caballos, sin equivalencia general útil."
+  },
+  {
+    "id": "esteral",
+    "word": "esteral",
+    "reason": "Es un término del nordeste argentino y Uruguay para terreno pantanoso; su alcance regional es muy limitado."
   }
 ]

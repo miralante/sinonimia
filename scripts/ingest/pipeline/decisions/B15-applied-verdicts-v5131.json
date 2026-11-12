@@ -1,17 +1,17 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5144",
+  "runtime": "v5145",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1278,
-    "en": 1248
+    "es": 1298,
+    "en": 1268
   },
-  "latestLedgerBatchCount": 126,
-  "latestLedgerReviewedIdCount": 2526,
-  "appliedCount": 1086,
+  "latestLedgerBatchCount": 128,
+  "latestLedgerReviewedIdCount": 2566,
+  "appliedCount": 1096,
   "appliedByLanguage": {
-    "es": 547,
+    "es": 557,
     "en": 539
   },
   "batches": [
@@ -69,7 +69,8 @@
     "B15-ninetyeighth-20-verdicts.json",
     "B15-ninetyninth-20-verdicts.json",
     "B15-onehundredth-20-verdicts.json",
-    "B15-onehundredfirst-20-verdicts.json"
+    "B15-onehundredfirst-20-verdicts.json",
+    "B15-onehundredsecond-10-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -6772,6 +6773,66 @@
       "language": "en",
       "id": "millionites",
       "decision": "exclude-corrupt-misspelling"
+    },
+    {
+      "batch": "B15-onehundredsecond-10-verdicts.json",
+      "language": "es",
+      "id": "vara",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredsecond-10-verdicts.json",
+      "language": "es",
+      "id": "tornagallos",
+      "decision": "exclude-rare-regional-plant-name"
+    },
+    {
+      "batch": "B15-onehundredsecond-10-verdicts.json",
+      "language": "es",
+      "id": "violia",
+      "decision": "exclude-regional-household-variant"
+    },
+    {
+      "batch": "B15-onehundredsecond-10-verdicts.json",
+      "language": "es",
+      "id": "trabajadero",
+      "decision": "exclude-regional-agricultural-term"
+    },
+    {
+      "batch": "B15-onehundredsecond-10-verdicts.json",
+      "language": "es",
+      "id": "tronio",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredsecond-10-verdicts.json",
+      "language": "es",
+      "id": "vaqueiro",
+      "decision": "exclude-regional-occupation-term"
+    },
+    {
+      "batch": "B15-onehundredsecond-10-verdicts.json",
+      "language": "es",
+      "id": "turlerin",
+      "decision": "exclude-obsolete-criminal-slang"
+    },
+    {
+      "batch": "B15-onehundredsecond-10-verdicts.json",
+      "language": "es",
+      "id": "trasfollo",
+      "decision": "exclude-specialized-veterinary-condition"
+    },
+    {
+      "batch": "B15-onehundredsecond-10-verdicts.json",
+      "language": "es",
+      "id": "esteral",
+      "decision": "exclude-regional-landform-variant"
+    },
+    {
+      "batch": "B15-onehundredsecond-10-verdicts.json",
+      "language": "es",
+      "id": "tonsilar",
+      "decision": "rewrite-definition-and-example"
     }
   ],
   "pendingBatch25": [
