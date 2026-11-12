@@ -265789,5 +265789,131 @@
         "text": "She placed a template on the wall."
       }
     }
+  },
+  {
+    "entry": "gauntlet-2",
+    "remove": [],
+    "set": {
+      "definition": "A long, thick glove worn to protect the hand.",
+      "synonyms": [
+        "protective glove"
+      ],
+      "example": {
+        "word": "gauntlet",
+        "text": "The knight wore a gauntlet on each hand."
+      },
+      "exampleSynonym": {
+        "word": "protective glove",
+        "text": "The knight wore a protective glove on each hand."
+      }
+    }
+  },
+  {
+    "entry": "craving-4",
+    "remove": [],
+    "set": {
+      "definition": "A strong feeling of wanting something.",
+      "synonyms": [
+        "urge"
+      ],
+      "example": {
+        "word": "craving",
+        "text": "Her craving for chocolate grew stronger."
+      },
+      "exampleSynonym": {
+        "word": "urge",
+        "text": "Her urge for chocolate grew stronger."
+      }
+    }
+  },
+  {
+    "entry": "infanticide-2",
+    "remove": [],
+    "set": {
+      "definition": "The killing of a baby or very young child.",
+      "synonyms": [
+        "killing of an infant"
+      ],
+      "example": {
+        "word": "infanticide",
+        "text": "The report discussed infanticide in ancient history."
+      },
+      "exampleSynonym": {
+        "word": "killing of an infant",
+        "text": "The report discussed killing of an infant in ancient history."
+      }
+    }
+  },
+  {
+    "entry": "carousel-2",
+    "remove": [],
+    "set": {
+      "definition": "Fairground ride that turns while people sit on its animals or seats.",
+      "synonyms": [
+        "merry-go-round"
+      ],
+      "example": {
+        "word": "carousel",
+        "text": "The children rode the carousel at the fair."
+      },
+      "exampleSynonym": {
+        "word": "merry-go-round",
+        "text": "The children rode the merry-go-round at the fair."
+      }
+    }
+  },
+  {
+    "entry": "cromlech",
+    "remove": [],
+    "set": {
+      "definition": "Prehistoric structure of one large stone supported by several upright stones.",
+      "synonyms": [
+        "dolmen"
+      ],
+      "example": {
+        "word": "cromlech",
+        "text": "The cromlech stood on a hill above the village."
+      },
+      "exampleSynonym": {
+        "word": "dolmen",
+        "text": "The dolmen stood on a hill above the village."
+      }
+    }
+  },
+  {
+    "entry": "melancholy-4",
+    "remove": [],
+    "set": {
+      "definition": "A lasting feeling of sadness, often without a clear reason.",
+      "synonyms": [
+        "sadness"
+      ],
+      "example": {
+        "word": "melancholy",
+        "text": "The town was filled with melancholy."
+      },
+      "exampleSynonym": {
+        "word": "sadness",
+        "text": "The town was filled with sadness."
+      }
+    }
+  },
+  {
+    "entry": "retinol",
+    "remove": [],
+    "set": {
+      "definition": "An active form of vitamin A that supports vision and healthy tissues.",
+      "synonyms": [
+        "Vitamin A1"
+      ],
+      "example": {
+        "word": "Retinol",
+        "text": "Retinol helps maintain healthy vision."
+      },
+      "exampleSynonym": {
+        "word": "Vitamin A1",
+        "text": "Vitamin A1 helps maintain healthy vision."
+      }
+    }
   }
 ]

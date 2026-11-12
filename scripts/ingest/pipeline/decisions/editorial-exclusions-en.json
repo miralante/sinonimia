@@ -89776,5 +89776,120 @@
     "id": "investigation-4",
     "word": "Investigation",
     "reason": "Investigation is a common noun for a search to discover facts, and the candidate defines it plainly."
+  },
+  {
+    "id": "misfortune-4",
+    "word": "misfortune",
+    "reason": "Misfortune means bad luck or an unfortunate event; the candidate's astrological definition is incorrect."
+  },
+  {
+    "id": "stir-4",
+    "word": "Stir",
+    "reason": "Stir is a common verb, and the candidate gives a circular fragment rather than a distinct meaning."
+  },
+  {
+    "id": "chest-of-drawers-2",
+    "word": "Chest of drawers",
+    "reason": "Chest of drawers is a common, transparent name for a piece of bedroom furniture."
+  },
+  {
+    "id": "sound-3",
+    "word": "Sound",
+    "reason": "Sound is a very common word with many meanings; the candidate definition is unclear and does not identify a useful difficult sense."
+  },
+  {
+    "id": "succeed-2",
+    "word": "Succeed",
+    "reason": "Succeed is a common verb and “be victorious” is an easy, basic sense."
+  },
+  {
+    "id": "join-4",
+    "word": "Join",
+    "reason": "Join is a common verb with several simple meanings; this candidate definition states a basic one."
+  },
+  {
+    "id": "musky-3",
+    "word": "Musky",
+    "reason": "Musky means smelling like musk, a direct and transparent meaning formed from musk."
+  },
+  {
+    "id": "speaker-5",
+    "word": "Speaker",
+    "reason": "Speaker is common and the candidate mixes loud speech with a person who speaks publicly."
+  },
+  {
+    "id": "stanza-3",
+    "word": "stanza",
+    "reason": "Stanza means a group of lines in a poem, not a medicinal plant; the candidate is corrupt."
+  },
+  {
+    "id": "swallow-7",
+    "word": "Swallow",
+    "reason": "Swallow is a common verb or bird name; “a very talkative person” is not a reliable sense."
+  },
+  {
+    "id": "grinder-9",
+    "word": "Grinder",
+    "reason": "The definition “only used in current and current” does not define grinder."
+  },
+  {
+    "id": "spread-10",
+    "word": "Spread",
+    "reason": "Spread is a common verb with an easy, literal sense of applying something over a surface."
+  },
+  {
+    "id": "lie-down-7",
+    "word": "lie down",
+    "reason": "Lie down is a common, transparent phrase and the candidate repeats its meaning."
+  },
+  {
+    "id": "muddy-14",
+    "word": "Muddy",
+    "reason": "Muddy is usually an adjective or verb; the candidate gives an unsupported noun meaning."
+  },
+  {
+    "id": "roaming",
+    "word": "Roaming",
+    "reason": "The candidate gives only a technical mobile-phone service sense, which is low utility for a general synonym dictionary."
+  },
+  {
+    "id": "louse-6",
+    "word": "Louse",
+    "reason": "A plant infested with aphids is not a meaning of louse; the candidate likely confuses louse and lousy."
+  },
+  {
+    "id": "corpuscular",
+    "word": "Corpuscular",
+    "reason": "Corpuscular is a technical physics adjective meaning made of or relating to corpuscles."
+  },
+  {
+    "id": "cover-up-5",
+    "word": "cover up",
+    "reason": "Cover up is a common phrasal verb; the candidate gives an unrelated Spanish sense of pressing material tightly."
+  },
+  {
+    "id": "gaffron",
+    "word": "Gaffron",
+    "reason": "Gaffron is an obscure or obsolete name for a linnet and has little general use."
+  },
+  {
+    "id": "laborer-5",
+    "word": "Laborer",
+    "reason": "Laborer means a person who does physical work; the candidate confuses it with a chess pawn."
+  },
+  {
+    "id": "cayapa",
+    "word": "Cayapa",
+    "reason": "Cayapa is an alternate name for an Indigenous language of Ecuador and has limited general use."
+  },
+  {
+    "id": "deserved-2",
+    "word": "Deserved",
+    "reason": "Deserved is a common form of deserve with a clear meaning."
+  },
+  {
+    "id": "sebesten",
+    "word": "Sebesten",
+    "reason": "Sebesten is a little-known tropical fruit, and the candidate example defines a different word."
   }
 ]

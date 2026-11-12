@@ -265180,5 +265180,149 @@
         "text": "El chocolate se considera estimulante."
       }
     }
+  },
+  {
+    "entry": "ambrosia",
+    "remove": [],
+    "set": {
+      "definition": "En la mitología griega, alimento que daba inmortalidad a los dioses.",
+      "synonyms": [
+        "comida divina"
+      ],
+      "example": {
+        "word": "ambrosía",
+        "text": "La ambrosía daba fuerza a los dioses."
+      },
+      "exampleSynonym": {
+        "word": "comida divina",
+        "text": "La comida divina daba fuerza a los dioses."
+      }
+    }
+  },
+  {
+    "entry": "coito",
+    "remove": [],
+    "set": {
+      "definition": "Relación sexual en la que hay penetración.",
+      "synonyms": [
+        "acto sexual"
+      ],
+      "example": {
+        "word": "coito",
+        "text": "La pareja evitó el coito durante el tratamiento."
+      },
+      "exampleSynonym": {
+        "word": "acto sexual",
+        "text": "La pareja evitó el acto sexual durante el tratamiento."
+      }
+    }
+  },
+  {
+    "entry": "conglomerado",
+    "remove": [],
+    "set": {
+      "definition": "Grupo de empresas que funcionan bajo una misma dirección.",
+      "synonyms": [
+        "grupo empresarial"
+      ],
+      "example": {
+        "word": "conglomerado",
+        "text": "El conglomerado compró tres fábricas."
+      },
+      "exampleSynonym": {
+        "word": "grupo empresarial",
+        "text": "El grupo empresarial compró tres fábricas."
+      }
+    }
+  },
+  {
+    "entry": "credencial",
+    "remove": [],
+    "set": {
+      "definition": "Que sirve para acreditar una identidad o autoridad.",
+      "synonyms": [
+        "acreditativa"
+      ],
+      "example": {
+        "word": "credencial",
+        "text": "La tarjeta credencial permitió verificar la identidad."
+      },
+      "exampleSynonym": {
+        "word": "acreditativa",
+        "text": "La tarjeta acreditativa permitió verificar la identidad."
+      }
+    }
+  },
+  {
+    "entry": "gallardo",
+    "remove": [],
+    "set": {
+      "definition": "Elegante, de buen porte y con movimientos airosos.",
+      "synonyms": [
+        "airoso"
+      ],
+      "example": {
+        "word": "gallardo",
+        "text": "El gallardo actor saludó al público."
+      },
+      "exampleSynonym": {
+        "word": "airoso",
+        "text": "El airoso actor saludó al público."
+      }
+    }
+  },
+  {
+    "entry": "tenaz",
+    "remove": [],
+    "set": {
+      "definition": "Firme y constante al perseguir un propósito.",
+      "synonyms": [
+        "persistente"
+      ],
+      "example": {
+        "word": "tenaz",
+        "text": "La investigadora fue tenaz durante el proyecto."
+      },
+      "exampleSynonym": {
+        "word": "persistente",
+        "text": "La investigadora fue persistente durante el proyecto."
+      }
+    }
+  },
+  {
+    "entry": "traza",
+    "remove": [],
+    "set": {
+      "definition": "Apariencia o aspecto de una persona o cosa.",
+      "synonyms": [
+        "apariencia"
+      ],
+      "example": {
+        "word": "traza",
+        "text": "El edificio tiene traza moderna."
+      },
+      "exampleSynonym": {
+        "word": "apariencia",
+        "text": "El edificio tiene apariencia moderna."
+      }
+    }
+  },
+  {
+    "entry": "vacilar",
+    "remove": [],
+    "set": {
+      "definition": "Moverse sin equilibrio o firmeza.",
+      "synonyms": [
+        "tambalearse"
+      ],
+      "example": {
+        "word": "vacilar",
+        "text": "La llama empezó a vacilar con el viento."
+      },
+      "exampleSynonym": {
+        "word": "tambalearse",
+        "text": "La llama empezó a tambalearse con el viento."
+      }
+    }
   }
 ]
