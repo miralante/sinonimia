@@ -90917,5 +90917,15 @@
     "id": "yegueria",
     "word": "yegüería",
     "reason": "Nombra una instalación rural especializada para criar yeguas y tiene muy poca utilidad general."
+  },
+  {
+    "id": "cromosfera",
+    "word": "cromosfera",
+    "reason": "El registro tiene una definición nula y corresponde a un término de astronomía sin una equivalencia sencilla de uso general."
+  },
+  {
+    "id": "centrobarico",
+    "word": "centrobárico",
+    "reason": "Es un adjetivo técnico de física o meteorología y no resulta útil en un diccionario general de sinónimos."
   }
 ]

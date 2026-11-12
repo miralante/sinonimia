@@ -84881,5 +84881,25 @@
     "id": "clandestine-2",
     "word": "Clandestine",
     "reason": "The gloss defines a noun meaning clandestinity, while this headword is an adjective; the entry has a part-of-speech mismatch."
+  },
+  {
+    "id": "clapper-3",
+    "word": "Clapper",
+    "reason": "The definition says chatterbox but gives no reliable evidence that this is a current general sense of clapper."
+  },
+  {
+    "id": "interline-4",
+    "word": "Interline",
+    "reason": "This rare term for space between lines is limited to typesetting and has little value in a general synonym dictionary."
+  },
+  {
+    "id": "shit-4",
+    "word": "Shit",
+    "reason": "This entry is an explicit vulgar noun for defecation, which does not meet the general dictionary's register criteria."
+  },
+  {
+    "id": "morocco-2",
+    "word": "Morocco",
+    "reason": "The entry uses the country name for an alleged percussion instrument and appears to be a casing or data error."
   }
 ]

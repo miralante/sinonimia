@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5142",
+  "runtime": "v5143",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1258,
-    "en": 1228
+    "es": 1278,
+    "en": 1248
   },
-  "latestLedgerBatchCount": 124,
-  "latestLedgerReviewedIdCount": 2486,
-  "appliedCount": 1046,
+  "latestLedgerBatchCount": 126,
+  "latestLedgerReviewedIdCount": 2526,
+  "appliedCount": 1066,
   "appliedByLanguage": {
-    "es": 527,
-    "en": 519
+    "es": 537,
+    "en": 529
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -67,7 +67,8 @@
     "B15-ninetysixth-20-verdicts.json",
     "B15-ninetyseventh-20-verdicts.json",
     "B15-ninetyeighth-20-verdicts.json",
-    "B15-ninetyninth-20-verdicts.json"
+    "B15-ninetyninth-20-verdicts.json",
+    "B15-onehundredth-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -6530,6 +6531,126 @@
       "language": "en",
       "id": "songbook-2",
       "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "es",
+      "id": "chamarra",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "es",
+      "id": "cromosfera",
+      "decision": "exclude-corrupt-technical-entry"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "es",
+      "id": "confesor",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "es",
+      "id": "latifundismo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "es",
+      "id": "convicto",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "es",
+      "id": "anglofobo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "es",
+      "id": "centrobarico",
+      "decision": "exclude-specialized-technical-adjective"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "es",
+      "id": "posgraduado",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "es",
+      "id": "resinero",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "es",
+      "id": "sismorresistente",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "en",
+      "id": "clapper-3",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "en",
+      "id": "funnel-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "en",
+      "id": "interline-4",
+      "decision": "exclude-specialized-printing-term"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "en",
+      "id": "hug-4",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "en",
+      "id": "irrepressible-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "en",
+      "id": "judiciary-4",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "en",
+      "id": "shit-4",
+      "decision": "exclude-vulgar-obscene-entry"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "en",
+      "id": "morocco-2",
+      "decision": "exclude-corrupt-proper-name-entry"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "en",
+      "id": "speaker-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredth-20-verdicts.json",
+      "language": "en",
+      "id": "gesture-5",
+      "decision": "split-senses-and-rewrite"
     }
   ],
   "pendingBatch25": [
