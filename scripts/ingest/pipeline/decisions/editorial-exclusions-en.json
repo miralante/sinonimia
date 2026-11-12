@@ -84941,5 +84941,30 @@
     "id": "coke-4",
     "word": "coke",
     "reason": "This entry uses a rare slang sense meaning a light knuckle blow; it is not useful as a general synonym card."
+  },
+  {
+    "id": "guayabito",
+    "word": "guayabito",
+    "reason": "This is a Spanish regional name for a small animal, not a general English headword."
+  },
+  {
+    "id": "cornet-3",
+    "word": "cornet",
+    "reason": "This entry refers to an obscure Ajuga plant sense and is too specialized for a general English synonym card."
+  },
+  {
+    "id": "that-sucks",
+    "word": "that sucks",
+    "reason": "This highly informal phrase is a slang reaction and does not meet the dictionary’s standard register criteria."
+  },
+  {
+    "id": "chili-41",
+    "word": "chili",
+    "reason": "The gloss describes a small myrtle-family tree, not the usual English word chili, and appears to be attached to the wrong entry."
+  },
+  {
+    "id": "co-prince",
+    "word": "Co-prince",
+    "reason": "This is a specific constitutional office in Andorra, not general vocabulary with a useful synonym."
   }
 ]

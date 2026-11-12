@@ -91032,5 +91032,45 @@
     "id": "concia",
     "word": "concia",
     "reason": "Es una voz forestal poco frecuente para una zona vedada del monte y no ofrece valor general como sinónimo."
+  },
+  {
+    "id": "contraembozo",
+    "word": "contraembozo",
+    "reason": "Es una pieza concreta de una prenda antigua y carece de utilidad como sinónimo general actual."
+  },
+  {
+    "id": "retrovendendo",
+    "word": "retrovendendo",
+    "reason": "Nombra una figura histórica de compraventa con retrocesión y pertenece al derecho especializado."
+  },
+  {
+    "id": "asechoso",
+    "word": "asechoso",
+    "reason": "Es un adjetivo anticuado derivado de asechanza, con alternativas actuales más claras."
+  },
+  {
+    "id": "cantinflerico",
+    "word": "cantinflérico",
+    "reason": "Es una derivación ocasional de un nombre propio y no una voz general asentada."
+  },
+  {
+    "id": "carranclo",
+    "word": "carranclo",
+    "reason": "Es una voz coloquial poco extendida para algo o alguien de poco valor y no ofrece un equivalente general fiable."
+  },
+  {
+    "id": "deshospedado",
+    "word": "deshospedado",
+    "reason": "Es una forma muy poco usada para quien no tiene alojamiento y no añade valor frente a expresiones actuales."
+  },
+  {
+    "id": "saturnio",
+    "word": "saturnio",
+    "reason": "Se limita a referencias a Saturno o a las Saturnales y no tiene utilidad general como sinónimo."
+  },
+  {
+    "id": "soldadero",
+    "word": "soldadero",
+    "reason": "Es una forma antigua para quien recibe una soldada y tiene alternativas corrientes más claras."
   }
 ]

@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5146",
+  "runtime": "v5147",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1338,
-    "en": 1308
+    "es": 1368,
+    "en": 1338
   },
-  "latestLedgerBatchCount": 132,
-  "latestLedgerReviewedIdCount": 2646,
-  "appliedCount": 1116,
+  "latestLedgerBatchCount": 135,
+  "latestLedgerReviewedIdCount": 2706,
+  "appliedCount": 1136,
   "appliedByLanguage": {
-    "es": 567,
-    "en": 549
+    "es": 577,
+    "en": 559
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -71,7 +71,8 @@
     "B15-onehundredth-20-verdicts.json",
     "B15-onehundredfirst-20-verdicts.json",
     "B15-onehundredsecond-10-verdicts.json",
-    "B15-onehundredthird-20-verdicts.json"
+    "B15-onehundredthird-20-verdicts.json",
+    "B15-onehundredfourth-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -6954,6 +6955,126 @@
       "language": "en",
       "id": "intelligence-3",
       "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "es",
+      "id": "contraembozo",
+      "decision": "exclude-obsolete-clothing-detail"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "es",
+      "id": "retrovendendo",
+      "decision": "exclude-obsolete-legal-instrument"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "es",
+      "id": "asechoso",
+      "decision": "exclude-rare-archaic-adjective"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "es",
+      "id": "bioclimatico",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "es",
+      "id": "cantinflerico",
+      "decision": "exclude-rare-cultural-neologism"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "es",
+      "id": "carranclo",
+      "decision": "exclude-rare-regional-colloquialism"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "es",
+      "id": "confiador",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "es",
+      "id": "deshospedado",
+      "decision": "exclude-rare-archaic-adjective"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "es",
+      "id": "saturnio",
+      "decision": "exclude-specialized-mythological-adjective"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "es",
+      "id": "soldadero",
+      "decision": "exclude-obsolete-occupation-adjective"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "en",
+      "id": "guayabito",
+      "decision": "exclude-foreign-language-entry"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "en",
+      "id": "cornet-3",
+      "decision": "exclude-specialized-botanical-homonym"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "en",
+      "id": "that-sucks",
+      "decision": "exclude-informal-slang-phrase"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "en",
+      "id": "chili-41",
+      "decision": "exclude-corrupt-word-sense"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "en",
+      "id": "safety-chain",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "en",
+      "id": "geostrategy",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "en",
+      "id": "corner-protector",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "en",
+      "id": "tenancy",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "en",
+      "id": "monastic",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredfourth-20-verdicts.json",
+      "language": "en",
+      "id": "co-prince",
+      "decision": "exclude-specialized-constitutional-title"
     }
   ],
   "pendingBatch25": [
