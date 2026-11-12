@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5134",
+  "runtime": "v5135",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1039,
-    "en": 1008
+    "es": 1069,
+    "en": 1038
   },
-  "latestLedgerBatchCount": 102,
-  "latestLedgerReviewedIdCount": 2047,
-  "appliedCount": 886,
+  "latestLedgerBatchCount": 105,
+  "latestLedgerReviewedIdCount": 2107,
+  "appliedCount": 906,
   "appliedByLanguage": {
-    "es": 447,
-    "en": 439
+    "es": 457,
+    "en": 449
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -59,7 +59,8 @@
     "B15-eighty-eighth-20-verdicts.json",
     "B15-eighty-ninth-17-verdicts.json",
     "B15-ninetieth-20-verdicts.json",
-    "B15-ninetyfirst-20-verdicts.json"
+    "B15-ninetyfirst-20-verdicts.json",
+    "B15-ninetysecond-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -5562,6 +5563,126 @@
       "language": "en",
       "id": "sansa",
       "decision": "exclude-corrupt-foreign-entry"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "es",
+      "id": "trapichero",
+      "decision": "exclude-specialized-rural-occupation"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "es",
+      "id": "treceavo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "es",
+      "id": "trilocular",
+      "decision": "exclude-specialized-botanical-term"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "es",
+      "id": "tusa",
+      "decision": "exclude-rare-regional-term"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "es",
+      "id": "ubicuo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "es",
+      "id": "ubio",
+      "decision": "exclude-archaic-rural-tool-term"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "es",
+      "id": "velay",
+      "decision": "exclude-rare-regional-interjection"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "es",
+      "id": "vimbre",
+      "decision": "exclude-obsolete-variant"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "es",
+      "id": "yare",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "es",
+      "id": "yatagan",
+      "decision": "exclude-rare-historical-weapon-term"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "en",
+      "id": "samsara",
+      "decision": "exclude-specialized-religious-philosophical-term"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "en",
+      "id": "alkermes",
+      "decision": "exclude-obsolete-spelling-variant"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "en",
+      "id": "get-confused",
+      "decision": "exclude-definition-sense-mismatch"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "en",
+      "id": "cron",
+      "decision": "exclude-specialized-geology-unit"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "en",
+      "id": "lardon",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "en",
+      "id": "signature-3",
+      "decision": "exclude-definition-sense-mismatch"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "en",
+      "id": "rubin",
+      "decision": "exclude-corrupt-foreign-entry"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "en",
+      "id": "vineyard-7",
+      "decision": "exclude-definition-sense-mismatch"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "en",
+      "id": "microfilm-3",
+      "decision": "exclude-specialized-archival-term"
+    },
+    {
+      "batch": "B15-ninetysecond-20-verdicts.json",
+      "language": "en",
+      "id": "inside-3",
+      "decision": "exclude-corrupt-definition"
     }
   ],
   "pendingBatch25": [

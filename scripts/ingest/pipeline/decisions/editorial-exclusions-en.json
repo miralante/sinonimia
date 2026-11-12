@@ -84681,5 +84681,50 @@
     "id": "sansa",
     "word": "Sansa",
     "reason": "The gloss is a generic transaction payment and does not establish a recognized English lexical entry."
+  },
+  {
+    "id": "samsara",
+    "word": "Samsara",
+    "reason": "This is a specialized religious and philosophical concept with limited general synonym value."
+  },
+  {
+    "id": "alkermes",
+    "word": "Alkermes",
+    "reason": "This is an outdated spelling of alquermes and does not have a distinct meaning."
+  },
+  {
+    "id": "get-confused",
+    "word": "get confused",
+    "reason": "The definition describes a loud quarrel, not the meaning of get confused."
+  },
+  {
+    "id": "cron",
+    "word": "Cron",
+    "reason": "This is a technical geological time unit rather than a general English synonym entry."
+  },
+  {
+    "id": "signature-3",
+    "word": "Signature",
+    "reason": "The gloss defines a library call number rather than a recognized sense of signature."
+  },
+  {
+    "id": "rubin",
+    "word": "Rubin",
+    "reason": "The gloss “ruby.rubin2” is corrupted and does not establish a distinct English sense."
+  },
+  {
+    "id": "vineyard-7",
+    "word": "Vineyard",
+    "reason": "The gloss describes a printing cabinet, not a vineyard, indicating a corrupted translation."
+  },
+  {
+    "id": "microfilm-3",
+    "word": "Microfilm",
+    "reason": "This archival technology term has narrow specialist use and little general synonym value."
+  },
+  {
+    "id": "inside-3",
+    "word": "Inside",
+    "reason": "The fragment “of both” does not define an independent sense of inside."
   }
 ]
