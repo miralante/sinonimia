@@ -85016,5 +85016,40 @@
     "id": "casquillador",
     "word": "Casquillador",
     "reason": "This is not a reliable general English headword and the gloss appears to confuse unrelated words."
+  },
+  {
+    "id": "child-and-youth",
+    "word": "Child and youth",
+    "reason": "This phrase is not a reliable standalone English headword and the gloss describes an adjective, not the phrase."
+  },
+  {
+    "id": "rhetor",
+    "word": "Rhetor",
+    "reason": "This historical Greek title for a rhetoric teacher is rare and limited to specialist classical studies."
+  },
+  {
+    "id": "montanism",
+    "word": "Montanism",
+    "reason": "This is the name of a specific early Christian movement, not general vocabulary with a useful synonym."
+  },
+  {
+    "id": "semi-period",
+    "word": "Semi-period",
+    "reason": "This narrow term for half of a mathematical period is too technical for a general synonym dictionary."
+  },
+  {
+    "id": "tetrabranchial",
+    "word": "Tetrabranchial",
+    "reason": "This technical zoological adjective for animals with four gills has little general synonym value."
+  },
+  {
+    "id": "anthocyanin",
+    "word": "Anthocyanin",
+    "reason": "This is a specific class of plant pigments and its source definition is an overlong technical quotation."
+  },
+  {
+    "id": "shilling",
+    "word": "Shilling",
+    "reason": "This entry refers only to the obsolete Austrian currency; it is not useful as a current general synonym card."
   }
 ]

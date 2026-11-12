@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5149",
+  "runtime": "v5150",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1408,
-    "en": 1378
+    "es": 1418,
+    "en": 1388
   },
-  "latestLedgerBatchCount": 139,
-  "latestLedgerReviewedIdCount": 2786,
-  "appliedCount": 1175,
+  "latestLedgerBatchCount": 140,
+  "latestLedgerReviewedIdCount": 2806,
+  "appliedCount": 1195,
   "appliedByLanguage": {
-    "es": 596,
-    "en": 579
+    "es": 606,
+    "en": 589
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -74,7 +74,8 @@
     "B15-onehundredthird-20-verdicts.json",
     "B15-onehundredfourth-20-verdicts.json",
     "B15-onehundredfifth-20-verdicts.json",
-    "B15-onehundredsixth-20-verdicts.json"
+    "B15-onehundredsixth-20-verdicts.json",
+    "B15-onehundredseventh-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -7310,6 +7311,126 @@
       "batch": "B15-onehundredsixth-20-verdicts.json",
       "language": "en",
       "id": "opaline",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "es",
+      "id": "suscriptor",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "es",
+      "id": "tartajeo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "es",
+      "id": "tendiente",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "es",
+      "id": "tizonazo",
+      "decision": "exclude-rare-object-specific-term"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "es",
+      "id": "tole",
+      "decision": "exclude-rare-fixed-expression-element"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "es",
+      "id": "tolla",
+      "decision": "exclude-rare-regional-landform"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "es",
+      "id": "toril",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "es",
+      "id": "trabuquete",
+      "decision": "exclude-obsolete-siege-machine"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "es",
+      "id": "trastornadura",
+      "decision": "exclude-rare-derived-noun"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "es",
+      "id": "vociferador",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "en",
+      "id": "child-and-youth",
+      "decision": "exclude-corrupt-phrase-entry"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "en",
+      "id": "rhetor",
+      "decision": "exclude-archaic-specialized-term"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "en",
+      "id": "montanism",
+      "decision": "exclude-specialized-theological-movement"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "en",
+      "id": "seepage",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "en",
+      "id": "carving",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "en",
+      "id": "semi-period",
+      "decision": "exclude-specialized-mathematical-term"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "en",
+      "id": "tetrabranchial",
+      "decision": "exclude-specialized-zoological-term"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "en",
+      "id": "anthocyanin",
+      "decision": "exclude-specialized-chemical-pigment-term"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "en",
+      "id": "shilling",
+      "decision": "exclude-obsolete-national-currency-sense"
+    },
+    {
+      "batch": "B15-onehundredseventh-20-verdicts.json",
+      "language": "en",
+      "id": "commemorative",
       "decision": "rewrite-definition-and-example"
     }
   ],
