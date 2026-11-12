@@ -83946,5 +83946,45 @@
     "id": "consume-2",
     "word": "Consume",
     "reason": "The proposed sense «perform or completely complete an action» is malformed and duplicates no valid distinct meaning of «consume»."
+  },
+  {
+    "id": "sieve-2",
+    "word": "Sieve",
+    "reason": "The candidate describes a specialized leather strainer, a narrow traditional tool meaning with little general use."
+  },
+  {
+    "id": "cliff-2",
+    "word": "Cliff",
+    "reason": "The entry's boat-on-a-cliff wording is not a supported sense of «cliff» and appears to mix up a verb or nautical phrase."
+  },
+  {
+    "id": "mormon-2",
+    "word": "Mormon",
+    "reason": "This is a straightforward adjective meaning related to Mormonism, not a distinct difficult vocabulary item."
+  },
+  {
+    "id": "grit-2",
+    "word": "Grit",
+    "reason": "The candidate describes a historical material used to dry ink on writing, a narrow obsolete printing term."
+  },
+  {
+    "id": "intercom-3",
+    "word": "intercom",
+    "reason": "The candidate marks a Colombian closed-circuit telephone system; it adds little beyond the common, transparent word «intercom»."
+  },
+  {
+    "id": "scatter-2",
+    "word": "scatter",
+    "reason": "This is an ordinary basic verb meaning to spread or move apart, so it does not meet the curated vocabulary threshold."
+  },
+  {
+    "id": "guideline-2",
+    "word": "guideline",
+    "reason": "The gloss is a routine definition of «guideline» as a rule or recommendation and duplicates the main entry."
+  },
+  {
+    "id": "spokesperson-2",
+    "word": "spokesperson",
+    "reason": "A spokesperson is a person, not a position or status; the candidate confuses a role with the person who holds it."
   }
 ]

@@ -89822,5 +89822,45 @@
     "id": "azorero",
     "word": "azorero",
     "reason": "Designa a quien cría azores, una ocupación muy específica relacionada con la cetrería."
+  },
+  {
+    "id": "barquinazo",
+    "word": "barquinazo",
+    "reason": "El DLE recoge sentidos de vuelco de carruaje y un golpe regional; la ficha actual inventa una caída desde una embarcación."
+  },
+  {
+    "id": "baruca",
+    "word": "baruca",
+    "reason": "El DLE la marca como desusada y la define como un enredo o artificio para impedir algo."
+  },
+  {
+    "id": "bonigo",
+    "word": "boñigo",
+    "reason": "La forma válida significa una porción de excremento de ganado vacuno; la ficha lo atribuye erróneamente a una persona grosera."
+  },
+  {
+    "id": "borguil",
+    "word": "borguil",
+    "reason": "Es una voz aragonesa para un montón de heno, útil sobre todo en un contexto rural muy específico."
+  },
+  {
+    "id": "cachuelo",
+    "word": "cachuelo",
+    "reason": "El DLE lo define como un pez de río o, en Perú, un trabajo ocasional; no significa un pequeño cuerpo de agua."
+  },
+  {
+    "id": "cercen",
+    "word": "cercen",
+    "reason": "El DLE remite a la locución «a cercén»; esta forma no funciona como lema independiente en el sentido propuesto."
+  },
+  {
+    "id": "cercopiteco",
+    "word": "cercopiteco",
+    "reason": "Es un tipo concreto de mono africano, descrito con rasgos zoológicos muy especializados."
+  },
+  {
+    "id": "cibarcos",
+    "word": "cibarcos",
+    "reason": "Nombra a un pueblo antiguo de la costa gallega; la ficha lo convierte sin fundamento en un adjetivo para una persona astuta."
   }
 ]
