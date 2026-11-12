@@ -264925,5 +264925,77 @@
         "text": "The wooden shoe on display came from the region."
       }
     }
+  },
+  {
+    "entry": "semivowel",
+    "remove": [],
+    "set": {
+      "definition": "A vowel-like sound that functions as a consonant.",
+      "synonyms": [
+        "Glide"
+      ],
+      "example": {
+        "word": "Semivowel",
+        "text": "“Semivowel” names a vowel-like sound that functions as a consonant."
+      },
+      "exampleSynonym": {
+        "word": "Glide",
+        "text": "“Glide” names a vowel-like sound that functions as a consonant."
+      }
+    }
+  },
+  {
+    "entry": "oblation",
+    "remove": [],
+    "set": {
+      "definition": "An offering made to a god or a religious institution.",
+      "synonyms": [
+        "offering"
+      ],
+      "example": {
+        "word": "Oblation",
+        "text": "The priest placed the Oblation on the altar."
+      },
+      "exampleSynonym": {
+        "word": "offering",
+        "text": "The priest placed the offering on the altar."
+      }
+    }
+  },
+  {
+    "entry": "taper",
+    "remove": [],
+    "set": {
+      "definition": "To become gradually narrower toward one end.",
+      "synonyms": [
+        "narrow"
+      ],
+      "example": {
+        "word": "taper",
+        "text": "The path begins to taper near the river."
+      },
+      "exampleSynonym": {
+        "word": "narrow",
+        "text": "The path begins to narrow near the river."
+      }
+    }
+  },
+  {
+    "entry": "clematis",
+    "remove": [],
+    "set": {
+      "definition": "A flowering shrub that can climb walls or fences.",
+      "synonyms": [
+        "climbing shrub"
+      ],
+      "example": {
+        "word": "clematis",
+        "text": "The clematis covered the garden fence."
+      },
+      "exampleSynonym": {
+        "word": "climbing shrub",
+        "text": "The climbing shrub covered the garden fence."
+      }
+    }
   }
 ]

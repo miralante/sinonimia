@@ -264100,5 +264100,41 @@
         "text": "La línea de firma indica el cargo de quien firma el documento."
       }
     }
+  },
+  {
+    "entry": "bocajarro",
+    "remove": [],
+    "set": {
+      "definition": "Desde muy cerca, especialmente al disparar.",
+      "synonyms": [
+        "a quemarropa"
+      ],
+      "example": {
+        "word": "a bocajarro",
+        "text": "El atacante disparó a bocajarro contra la puerta."
+      },
+      "exampleSynonym": {
+        "word": "a quemarropa",
+        "text": "El atacante disparó a quemarropa contra la puerta."
+      }
+    }
+  },
+  {
+    "entry": "consanguineo",
+    "remove": [],
+    "set": {
+      "definition": "Que tiene parentesco de sangre con otra persona.",
+      "synonyms": [
+        "familiar"
+      ],
+      "example": {
+        "word": "consanguíneo",
+        "text": "El consanguíneo más cercano recibió la herencia."
+      },
+      "exampleSynonym": {
+        "word": "familiar",
+        "text": "El familiar más cercano recibió la herencia."
+      }
+    }
   }
 ]
