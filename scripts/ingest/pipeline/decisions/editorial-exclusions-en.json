@@ -84406,5 +84406,15 @@
     "id": "smelly-3",
     "word": "smelly",
     "reason": "The proposed pleasant-smell sense contradicts the usual meaning of smelly and duplicates fragrant."
+  },
+  {
+    "id": "cinnamon-4",
+    "word": "cinnamon",
+    "reason": "The gloss pairs cinnamon with Melia azedarach and “sour,” which does not describe the spice cinnamon and is likely a corrupted mapping."
+  },
+  {
+    "id": "slut-3",
+    "word": "slut",
+    "reason": "This is a strongly derogatory, gendered insult rather than a neutral synonym for a person who sells sex."
   }
 ]

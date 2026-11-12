@@ -90177,5 +90177,40 @@
     "id": "sao",
     "word": "saó",
     "reason": "Voz regional muy poco extendida; su única glosa no justifica una ficha de sinonimia general."
+  },
+  {
+    "id": "agriodulce",
+    "word": "agriodulce",
+    "reason": "La candidata remite a agridulce y está marcada como uso filipino; se evita una ficha duplicada de una variante regional."
+  },
+  {
+    "id": "apelgararse",
+    "word": "apelgararse",
+    "reason": "Uso andaluz de escasa difusión cuya definición remite a otra voz poco transparente; no aporta un sinónimo general útil."
+  },
+  {
+    "id": "apulgarar",
+    "word": "apulgarar",
+    "reason": "La marca de poco uso y el sentido limitado a ejercer fuerza con el pulgar hacen que no sea útil en un diccionario general."
+  },
+  {
+    "id": "apunalear",
+    "word": "apuñalear",
+    "reason": "Variante regional de apuñalar, marcada para Guatemala y Nicaragua; se conserva la forma general apuñalar."
+  },
+  {
+    "id": "atendar",
+    "word": "atendar",
+    "reason": "La voz está marcada como desusada y la glosa acaba en un fragmento editorial incompleto."
+  },
+  {
+    "id": "bachatear",
+    "word": "bachatear",
+    "reason": "Uso limitado a Cuba y Puerto Rico; la acepción de divertirse o bromear no justifica una ficha general."
+  },
+  {
+    "id": "bayunco",
+    "word": "bayunco",
+    "reason": "Voz de Andalucía y Extremadura para una planta local; la ficha mezcla esa acepción con el comienzo de otro artículo."
   }
 ]
