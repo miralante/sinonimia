@@ -265393,5 +265393,77 @@
         "text": "The leatherlike leaves survived the drought."
       }
     }
+  },
+  {
+    "entry": "skirmish-2",
+    "remove": [],
+    "set": {
+      "definition": "A short, small fight between groups of soldiers.",
+      "synonyms": [
+        "minor battle"
+      ],
+      "example": {
+        "word": "skirmish",
+        "text": "A skirmish broke out near the border."
+      },
+      "exampleSynonym": {
+        "word": "minor battle",
+        "text": "A minor battle broke out near the border."
+      }
+    }
+  },
+  {
+    "entry": "incite-2",
+    "remove": [],
+    "set": {
+      "definition": "To encourage someone to act, often in a harmful or violent way.",
+      "synonyms": [
+        "provoke"
+      ],
+      "example": {
+        "word": "incite",
+        "text": "The speech could incite violence."
+      },
+      "exampleSynonym": {
+        "word": "provoke",
+        "text": "The speech could provoke violence."
+      }
+    }
+  },
+  {
+    "entry": "incantation-2",
+    "remove": [],
+    "set": {
+      "definition": "Words spoken in a ritual to use or call on magic.",
+      "synonyms": [
+        "spell"
+      ],
+      "example": {
+        "word": "incantation",
+        "text": "The incantation protected the house."
+      },
+      "exampleSynonym": {
+        "word": "spell",
+        "text": "The spell protected the house."
+      }
+    }
+  },
+  {
+    "entry": "terere",
+    "remove": [],
+    "set": {
+      "definition": "A Paraguayan drink made from yerba mate and cold water.",
+      "synonyms": [
+        "cold mate"
+      ],
+      "example": {
+        "word": "tereré",
+        "text": "They shared tereré in the shade."
+      },
+      "exampleSynonym": {
+        "word": "cold mate",
+        "text": "They shared cold mate in the shade."
+      }
+    }
   }
 ]

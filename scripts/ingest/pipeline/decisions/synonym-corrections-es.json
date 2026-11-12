@@ -264532,5 +264532,77 @@
         "text": "El filósofo estudió filosofía cartesiana en la universidad."
       }
     }
+  },
+  {
+    "entry": "suavizador",
+    "remove": [],
+    "set": {
+      "definition": "Producto que se añade al lavado para dejar la ropa suave.",
+      "synonyms": [
+        "suavizante"
+      ],
+      "example": {
+        "word": "suavizador",
+        "text": "Añadió suavizador al lavado."
+      },
+      "exampleSynonym": {
+        "word": "suavizante",
+        "text": "Añadió suavizante al lavado."
+      }
+    }
+  },
+  {
+    "entry": "videomarcador",
+    "remove": [],
+    "set": {
+      "definition": "Pantalla que muestra el marcador y el tiempo de un partido.",
+      "synonyms": [
+        "marcador electrónico"
+      ],
+      "example": {
+        "word": "videomarcador",
+        "text": "El videomarcador mostró el resultado final."
+      },
+      "exampleSynonym": {
+        "word": "marcador electrónico",
+        "text": "El marcador electrónico mostró el resultado final."
+      }
+    }
+  },
+  {
+    "entry": "carantonero",
+    "remove": [],
+    "set": {
+      "definition": "Que muestra cariño con caricias y gestos afectuosos.",
+      "synonyms": [
+        "mimoso"
+      ],
+      "example": {
+        "word": "carantoñero",
+        "text": "El niño carantoñero abrazó a su abuela."
+      },
+      "exampleSynonym": {
+        "word": "mimoso",
+        "text": "El niño mimoso abrazó a su abuela."
+      }
+    }
+  },
+  {
+    "entry": "tarantera",
+    "remove": [],
+    "set": {
+      "definition": "Mareo o confusión que altera temporalmente los sentidos.",
+      "synonyms": [
+        "aturdimiento"
+      ],
+      "example": {
+        "word": "tarantera",
+        "text": "Sintió tarantera después del golpe."
+      },
+      "exampleSynonym": {
+        "word": "aturdimiento",
+        "text": "Sintió aturdimiento después del golpe."
+      }
+    }
   }
 ]

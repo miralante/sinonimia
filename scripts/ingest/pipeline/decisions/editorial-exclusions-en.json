@@ -88936,5 +88936,135 @@
     "id": "grip-2",
     "word": "Grip",
     "reason": "Grip is a common verb meaning to hold firmly; the candidate narrows it to tongs without a distinct sense."
+  },
+  {
+    "id": "cretaceous-2",
+    "word": "Cretaceous",
+    "reason": "Cretaceous names a geological period and is mainly used in specialist or educational contexts."
+  },
+  {
+    "id": "match-3",
+    "word": "Match",
+    "reason": "Match is a common word for pairing or equaling things; the candidate’s decorating sense is unrelated."
+  },
+  {
+    "id": "stable-3",
+    "word": "stable",
+    "reason": "Stable is a familiar noun or adjective, and the livestock-raising verb sense is narrow and unnecessary here."
+  },
+  {
+    "id": "couple-2",
+    "word": "Couple",
+    "reason": "Couple is a common word for two people or things; the candidate’s horse-racing definition is mismatched."
+  },
+  {
+    "id": "dent-5",
+    "word": "Dent",
+    "reason": "Dent is a familiar word for a small hollow or mark; the candidate’s ball-tool process is highly specialized."
+  },
+  {
+    "id": "shun-2",
+    "word": "shun",
+    "reason": "Shun is a common verb meaning to avoid someone, not to move an object away out of fear."
+  },
+  {
+    "id": "macaroni-2",
+    "word": "macaroni",
+    "reason": "Macaroni is a common pasta, and the candidate confuses it with macaroni cheese as a prepared dish."
+  },
+  {
+    "id": "shoot-5",
+    "word": "Shoot",
+    "reason": "Shoot is a very common verb with several meanings, and the candidate gives only its basic firearm sense."
+  },
+  {
+    "id": "invent-2",
+    "word": "invent",
+    "reason": "Invent is a familiar verb meaning to create or think of something new."
+  },
+  {
+    "id": "knowing-3",
+    "word": "Knowing",
+    "reason": "Knowing is a common adjective for showing awareness or knowledge; the candidate describes a pretender."
+  },
+  {
+    "id": "suggestion-2",
+    "word": "Suggestion",
+    "reason": "Suggestion is a common noun meaning an idea or proposal, and the candidate merely repeats its word form."
+  },
+  {
+    "id": "cockroach-3",
+    "word": "Cockroach",
+    "reason": "Cockroach is a familiar insect name, and the candidate’s Spanish adjective forms are unrelated."
+  },
+  {
+    "id": "spiteful-2",
+    "word": "Spiteful",
+    "reason": "Spiteful is a common adjective meaning cruel or mean, not an archaic form of itself."
+  },
+  {
+    "id": "comfortable-4",
+    "word": "Comfortable",
+    "reason": "Comfortable is a familiar adjective and the candidate gives only its broad relation to comfort."
+  },
+  {
+    "id": "future-3",
+    "word": "Future",
+    "reason": "Future is a common word for what is to come; the candidate’s definition of unfortunate is mismatched."
+  },
+  {
+    "id": "get-angry-8",
+    "word": "get angry",
+    "reason": "Get angry is a transparent everyday phrase meaning to become angry."
+  },
+  {
+    "id": "dismantle-14",
+    "word": "Dismantle",
+    "reason": "Dismantle is a common verb meaning to take something apart; the candidate’s definition is corrupt."
+  },
+  {
+    "id": "renting",
+    "word": "renting",
+    "reason": "Renting is a common form of rent, and its definition is already clear and descriptive."
+  },
+  {
+    "id": "moviola",
+    "word": "Moviola",
+    "reason": "Moviola is a brand name for an older film-editing machine and has low current general use."
+  },
+  {
+    "id": "stab-6",
+    "word": "stab",
+    "reason": "Stab is a common word for a sharp thrust or an attempt; the candidate gives only incomplete regional text."
+  },
+  {
+    "id": "gallant-3",
+    "word": "gallant",
+    "reason": "Gallant is a common adjective for bravery or courteous behavior; the candidate does not match either sense."
+  },
+  {
+    "id": "angstrom",
+    "word": "angstrom",
+    "reason": "Angstrom is a highly specialized unit of length mainly used in physics and chemistry."
+  },
+  {
+    "id": "capi",
+    "word": "Capi",
+    "reason": "Capi is an obscure name for an immature legume fruit and has little general use."
+  },
+  {
+    "id": "club-2",
+    "word": "club",
+    "reason": "Club is a familiar word for an association and its candidate definition is already clear."
+  },
+  {
+    "id": "cinnamon-7",
+    "word": "Cinnamon",
+    "reason": "Cinnamon is a common spice, and the candidate about a small snow-shaped sweet is unrelated."
+  },
+  {
+    "id": "corbe",
+    "word": "Corbe",
+    "reason": "Corbe is an obscure container label for serving wine and has little current general use."
   }
 ]
