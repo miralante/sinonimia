@@ -266062,5 +266062,671 @@
         "text": "El voto se cuenta esta noche."
       }
     }
+  },
+  {
+    "entry": "tesela",
+    "remove": [],
+    "set": {
+      "definition": "Pieza pequeña de piedra, vidrio o cerámica usada para hacer un mosaico.",
+      "synonyms": [
+        "pieza"
+      ],
+      "example": {
+        "word": "tesela",
+        "text": "La tesela azul completa el mosaico."
+      },
+      "exampleSynonym": {
+        "word": "pieza",
+        "text": "La pieza azul completa el mosaico."
+      }
+    }
+  },
+  {
+    "entry": "transfundir",
+    "remove": [],
+    "set": {
+      "definition": "Pasar un líquido de un recipiente a otro.",
+      "synonyms": [
+        "verter"
+      ],
+      "example": {
+        "word": "transfundir",
+        "text": "Puedes transfundir el aceite a otro frasco."
+      },
+      "exampleSynonym": {
+        "word": "verter",
+        "text": "Puedes verter el aceite a otro frasco."
+      }
+    }
+  },
+  {
+    "entry": "turulato",
+    "remove": [],
+    "set": {
+      "definition": "Muy aturdido o sorprendido.",
+      "synonyms": [
+        "atónito"
+      ],
+      "example": {
+        "word": "turulato",
+        "text": "La noticia lo dejó turulato."
+      },
+      "exampleSynonym": {
+        "word": "atónito",
+        "text": "La noticia lo dejó atónito."
+      }
+    }
+  },
+  {
+    "entry": "ulema",
+    "remove": [],
+    "set": {
+      "definition": "Especialista musulmán en religión y derecho.",
+      "synonyms": [
+        "erudito islámico"
+      ],
+      "example": {
+        "word": "ulema",
+        "text": "El ulema respondió a la consulta."
+      },
+      "exampleSynonym": {
+        "word": "erudito islámico",
+        "text": "El erudito islámico respondió a la consulta."
+      }
+    }
+  },
+  {
+    "entry": "capitolio",
+    "remove": [],
+    "set": {
+      "definition": "Edificio donde se reúne el poder legislativo de un país.",
+      "synonyms": [
+        "edificio legislativo"
+      ],
+      "example": {
+        "word": "capitolio",
+        "text": "El capitolio de la capital domina la plaza."
+      },
+      "exampleSynonym": {
+        "word": "edificio legislativo",
+        "text": "El edificio legislativo de la capital domina la plaza."
+      }
+    }
+  },
+  {
+    "entry": "comarca",
+    "remove": [],
+    "set": {
+      "definition": "Territorio con varios pueblos que comparten rasgos geográficos o culturales.",
+      "synonyms": [
+        "región"
+      ],
+      "example": {
+        "word": "comarca",
+        "text": "La comarca reúne cinco pueblos."
+      },
+      "exampleSynonym": {
+        "word": "región",
+        "text": "La región reúne cinco pueblos."
+      }
+    }
+  },
+  {
+    "entry": "apedazar",
+    "remove": [],
+    "set": {
+      "definition": "Romper algo en muchos trozos pequeños.",
+      "synonyms": [
+        "hacer añicos"
+      ],
+      "example": {
+        "word": "apedazar",
+        "text": "El golpe puede apedazar el jarrón."
+      },
+      "exampleSynonym": {
+        "word": "hacer añicos",
+        "text": "El golpe puede hacer añicos el jarrón."
+      }
+    }
+  },
+  {
+    "entry": "cerebralismo",
+    "remove": [],
+    "set": {
+      "definition": "Predominio de las ideas intelectuales sobre otros aspectos.",
+      "synonyms": [
+        "intelectualismo"
+      ],
+      "example": {
+        "word": "cerebralismo",
+        "text": "El cerebralismo de la novela aleja a algunos lectores."
+      },
+      "exampleSynonym": {
+        "word": "intelectualismo",
+        "text": "El intelectualismo de la novela aleja a algunos lectores."
+      }
+    }
+  },
+  {
+    "entry": "gorigori",
+    "remove": [],
+    "set": {
+      "definition": "Canto lúgubre que se oye en un entierro.",
+      "synonyms": [
+        "canto fúnebre"
+      ],
+      "example": {
+        "word": "gorigori",
+        "text": "El gorigori resonó en la iglesia."
+      },
+      "exampleSynonym": {
+        "word": "canto fúnebre",
+        "text": "El canto fúnebre resonó en la iglesia."
+      }
+    }
+  },
+  {
+    "entry": "trastabillante",
+    "remove": [],
+    "set": {
+      "definition": "Que camina de manera inestable o se tambalea.",
+      "synonyms": [
+        "tambaleante"
+      ],
+      "example": {
+        "word": "trastabillante",
+        "text": "El hombre trastabillante bajó la escalera."
+      },
+      "exampleSynonym": {
+        "word": "tambaleante",
+        "text": "El hombre tambaleante bajó la escalera."
+      }
+    }
+  },
+  {
+    "entry": "patranero",
+    "remove": [],
+    "set": {
+      "definition": "Que suele inventar o contar mentiras.",
+      "synonyms": [
+        "mentiroso"
+      ],
+      "example": {
+        "word": "patrañero",
+        "text": "Ese patrañero exageró la historia."
+      },
+      "exampleSynonym": {
+        "word": "mentiroso",
+        "text": "Ese mentiroso exageró la historia."
+      }
+    }
+  },
+  {
+    "entry": "cismatico",
+    "remove": [],
+    "set": {
+      "definition": "Que se separa de una iglesia o grupo por desacuerdo.",
+      "synonyms": [
+        "disidente"
+      ],
+      "example": {
+        "word": "cismático",
+        "text": "El grupo cismático fundó otra iglesia."
+      },
+      "exampleSynonym": {
+        "word": "disidente",
+        "text": "El grupo disidente fundó otra iglesia."
+      }
+    }
+  },
+  {
+    "entry": "sextina",
+    "remove": [],
+    "set": {
+      "definition": "Poema con seis estrofas que repiten las mismas seis palabras finales.",
+      "synonyms": [
+        "composición"
+      ],
+      "example": {
+        "word": "sextina",
+        "text": "La sextina aparece en el libro de poemas."
+      },
+      "exampleSynonym": {
+        "word": "composición",
+        "text": "La composición aparece en el libro de poemas."
+      }
+    }
+  },
+  {
+    "entry": "timina",
+    "remove": [],
+    "set": {
+      "definition": "Base del ADN que se une con la adenina.",
+      "synonyms": [
+        "base nitrogenada"
+      ],
+      "example": {
+        "word": "timina",
+        "text": "La timina se une a la adenina en el ADN."
+      },
+      "exampleSynonym": {
+        "word": "base nitrogenada",
+        "text": "La base nitrogenada se une a la adenina en el ADN."
+      }
+    }
+  },
+  {
+    "entry": "vedetismo",
+    "remove": [],
+    "set": {
+      "definition": "Atención excesiva a una estrella o figura famosa.",
+      "synonyms": [
+        "culto a las celebridades"
+      ],
+      "example": {
+        "word": "vedetismo",
+        "text": "El vedetismo domina algunos programas."
+      },
+      "exampleSynonym": {
+        "word": "culto a las celebridades",
+        "text": "El culto a las celebridades domina algunos programas."
+      }
+    }
+  },
+  {
+    "entry": "antidiabetico",
+    "remove": [],
+    "set": {
+      "definition": "Medicamento que ayuda a controlar el azúcar en la sangre.",
+      "synonyms": [
+        "medicamento para la diabetes"
+      ],
+      "example": {
+        "word": "antidiabético",
+        "text": "El médico recetó un antidiabético."
+      },
+      "exampleSynonym": {
+        "word": "medicamento para la diabetes",
+        "text": "El médico recetó un medicamento para la diabetes."
+      }
+    }
+  },
+  {
+    "entry": "desandrajado",
+    "remove": [],
+    "set": {
+      "definition": "Muy gastado, roto o en mal estado.",
+      "synonyms": [
+        "deteriorado"
+      ],
+      "example": {
+        "word": "desandrajado",
+        "text": "El abrigo desandrajado ya no abrigaba."
+      },
+      "exampleSynonym": {
+        "word": "deteriorado",
+        "text": "El abrigo deteriorado ya no abrigaba."
+      }
+    }
+  },
+  {
+    "entry": "sobrentender",
+    "remove": [],
+    "set": {
+      "definition": "Entender algo que no se dice de forma directa.",
+      "synonyms": [
+        "inferir"
+      ],
+      "example": {
+        "word": "sobrentender",
+        "text": "Hay que sobrentender que aceptó."
+      },
+      "exampleSynonym": {
+        "word": "inferir",
+        "text": "Hay que inferir que aceptó."
+      }
+    }
+  },
+  {
+    "entry": "sombrajo",
+    "remove": [],
+    "set": {
+      "definition": "Estructura ligera que protege del sol.",
+      "synonyms": [
+        "cobertizo"
+      ],
+      "example": {
+        "word": "sombrajo",
+        "text": "El sombrajo daba frescor en verano."
+      },
+      "exampleSynonym": {
+        "word": "cobertizo",
+        "text": "El cobertizo daba frescor en verano."
+      }
+    }
+  },
+  {
+    "entry": "torrefacto",
+    "remove": [],
+    "set": {
+      "definition": "Tostado con azúcar y de sabor fuerte, dicho del café.",
+      "synonyms": [
+        "tostado con azúcar"
+      ],
+      "example": {
+        "word": "torrefacto",
+        "text": "El café torrefacto tiene un sabor intenso."
+      },
+      "exampleSynonym": {
+        "word": "tostado con azúcar",
+        "text": "El café tostado con azúcar tiene un sabor intenso."
+      }
+    }
+  },
+  {
+    "entry": "trabazon",
+    "remove": [],
+    "set": {
+      "definition": "Unión firme entre dos o más partes.",
+      "synonyms": [
+        "unión"
+      ],
+      "example": {
+        "word": "trabazón",
+        "text": "La trabazón entre las piezas es sólida."
+      },
+      "exampleSynonym": {
+        "word": "unión",
+        "text": "La unión entre las piezas es sólida."
+      }
+    }
+  },
+  {
+    "entry": "conclave",
+    "remove": [],
+    "set": {
+      "definition": "Reunión de cardenales para elegir al papa.",
+      "synonyms": [
+        "grupo de cardenales"
+      ],
+      "example": {
+        "word": "cónclave",
+        "text": "El cónclave eligió al papa."
+      },
+      "exampleSynonym": {
+        "word": "grupo de cardenales",
+        "text": "El grupo de cardenales eligió al papa."
+      }
+    }
+  },
+  {
+    "entry": "concluyente",
+    "remove": [],
+    "set": {
+      "definition": "Que demuestra algo con claridad y no deja dudas.",
+      "synonyms": [
+        "definitiva"
+      ],
+      "example": {
+        "word": "concluyente",
+        "text": "La prueba concluyente resolvió el caso."
+      },
+      "exampleSynonym": {
+        "word": "definitiva",
+        "text": "La prueba definitiva resolvió el caso."
+      }
+    }
+  },
+  {
+    "entry": "reservado",
+    "remove": [],
+    "set": {
+      "definition": "Que no suele hablar de lo que siente o piensa.",
+      "synonyms": [
+        "discreto"
+      ],
+      "example": {
+        "word": "reservado",
+        "text": "El reservado estudiante evitó hablar."
+      },
+      "exampleSynonym": {
+        "word": "discreto",
+        "text": "El discreto estudiante evitó hablar."
+      }
+    }
+  },
+  {
+    "entry": "retaguardia",
+    "remove": [],
+    "set": {
+      "definition": "Parte trasera de una fuerza que avanza o combate.",
+      "synonyms": [
+        "parte trasera"
+      ],
+      "example": {
+        "word": "retaguardia",
+        "text": "La retaguardia protegía al resto del ejército."
+      },
+      "exampleSynonym": {
+        "word": "parte trasera",
+        "text": "La parte trasera protegía al resto del ejército."
+      }
+    }
+  },
+  {
+    "entry": "cizanear",
+    "remove": [],
+    "set": {
+      "definition": "Provocar discordia o enemistad entre personas.",
+      "synonyms": [
+        "sembrar discordia"
+      ],
+      "example": {
+        "word": "cizañear",
+        "text": "No conviene cizañear entre los hermanos."
+      },
+      "exampleSynonym": {
+        "word": "sembrar discordia",
+        "text": "No conviene sembrar discordia entre los hermanos."
+      }
+    }
+  },
+  {
+    "entry": "contramandato",
+    "remove": [],
+    "set": {
+      "definition": "Orden que deja sin efecto otra orden anterior.",
+      "synonyms": [
+        "mandato contrario"
+      ],
+      "example": {
+        "word": "contramandato",
+        "text": "El contramandato anuló la orden inicial."
+      },
+      "exampleSynonym": {
+        "word": "mandato contrario",
+        "text": "El mandato contrario anuló la orden inicial."
+      }
+    }
+  },
+  {
+    "entry": "cainismo",
+    "remove": [],
+    "set": {
+      "definition": "Crueldad entre personas que deberían apoyarse.",
+      "synonyms": [
+        "odio fratricida"
+      ],
+      "example": {
+        "word": "cainismo",
+        "text": "El cainismo entre hermanos causó una ruptura."
+      },
+      "exampleSynonym": {
+        "word": "odio fratricida",
+        "text": "El odio fratricida entre hermanos causó una ruptura."
+      }
+    }
+  },
+  {
+    "entry": "convivialidad",
+    "remove": [],
+    "set": {
+      "definition": "Capacidad de convivir y disfrutar de la compañía de otras personas.",
+      "synonyms": [
+        "sociabilidad"
+      ],
+      "example": {
+        "word": "convivialidad",
+        "text": "La convivialidad del grupo hizo agradable la cena."
+      },
+      "exampleSynonym": {
+        "word": "sociabilidad",
+        "text": "La sociabilidad del grupo hizo agradable la cena."
+      }
+    }
+  },
+  {
+    "entry": "desendiosar",
+    "remove": [],
+    "set": {
+      "definition": "Hacer que alguien deje de ser admirado en exceso.",
+      "synonyms": [
+        "bajar del pedestal"
+      ],
+      "example": {
+        "word": "desendiosar",
+        "text": "La crítica ayudó a desendiosar al líder."
+      },
+      "exampleSynonym": {
+        "word": "bajar del pedestal",
+        "text": "La crítica ayudó a bajar del pedestal al líder."
+      }
+    }
+  },
+  {
+    "entry": "vitriolico",
+    "remove": [],
+    "set": {
+      "definition": "Relativo al vitriolo o al ácido sulfúrico.",
+      "synonyms": [
+        "sulfúrico"
+      ],
+      "example": {
+        "word": "vitriólico",
+        "text": "El compuesto vitriólico puede ser peligroso."
+      },
+      "exampleSynonym": {
+        "word": "sulfúrico",
+        "text": "El compuesto sulfúrico puede ser peligroso."
+      }
+    }
+  },
+  {
+    "entry": "veda",
+    "remove": [],
+    "set": {
+      "definition": "Prohibición de cazar, pescar o explotar un recurso.",
+      "synonyms": [
+        "prohibición"
+      ],
+      "example": {
+        "word": "veda",
+        "text": "Se decretó una veda para proteger la especie."
+      },
+      "exampleSynonym": {
+        "word": "prohibición",
+        "text": "Se decretó una prohibición para proteger la especie."
+      }
+    }
+  },
+  {
+    "entry": "clangor",
+    "remove": [],
+    "set": {
+      "definition": "Ruido fuerte, áspero y resonante.",
+      "synonyms": [
+        "clamor"
+      ],
+      "example": {
+        "word": "clangor",
+        "text": "El clangor de las campanas nos despertó."
+      },
+      "exampleSynonym": {
+        "word": "clamor",
+        "text": "El clamor de las campanas nos despertó."
+      }
+    }
+  },
+  {
+    "entry": "vegetar",
+    "remove": [],
+    "set": {
+      "definition": "Vivir pasivamente, sin actividad ni cambios importantes.",
+      "synonyms": [
+        "vivir pasivamente"
+      ],
+      "example": {
+        "word": "vegetar",
+        "text": "No quería vegetar durante su jubilación."
+      },
+      "exampleSynonym": {
+        "word": "vivir pasivamente",
+        "text": "No quería vivir pasivamente durante su jubilación."
+      }
+    }
+  },
+  {
+    "entry": "estereotipia",
+    "remove": [],
+    "set": {
+      "definition": "Impresión realizada con una plancha fija para reproducir una página.",
+      "synonyms": [
+        "impresión estereotípica"
+      ],
+      "example": {
+        "word": "estereotipia",
+        "text": "La estereotipia facilitó imprimir muchos ejemplares."
+      },
+      "exampleSynonym": {
+        "word": "impresión estereotípica",
+        "text": "La impresión estereotípica facilitó imprimir muchos ejemplares."
+      }
+    }
+  },
+  {
+    "entry": "tesina",
+    "remove": [],
+    "set": {
+      "definition": "Un trabajo académico breve de investigación.",
+      "synonyms": [
+        "trabajo académico breve"
+      ],
+      "example": {
+        "word": "tesina",
+        "text": "Ana terminó su tesina ayer."
+      },
+      "exampleSynonym": {
+        "word": "trabajo académico breve",
+        "text": "Ana terminó su trabajo académico breve ayer."
+      }
+    }
+  },
+  {
+    "entry": "conservacionismo",
+    "remove": [],
+    "set": {
+      "definition": "Movimiento que busca proteger la naturaleza y sus recursos.",
+      "synonyms": [
+        "ecologismo"
+      ],
+      "example": {
+        "word": "conservacionismo",
+        "text": "El conservacionismo ganó apoyo en la región."
+      },
+      "exampleSynonym": {
+        "word": "ecologismo",
+        "text": "El ecologismo ganó apoyo en la región."
+      }
+    }
   }
 ]

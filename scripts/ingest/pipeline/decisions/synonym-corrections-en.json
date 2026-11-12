@@ -266383,5 +266383,725 @@
         "text": "Soft stone is often used for carving."
       }
     }
+  },
+  {
+    "entry": "anonymity-3",
+    "remove": [],
+    "set": {
+      "definition": "The state of being unknown or not identified.",
+      "synonyms": [
+        "Being unknown"
+      ],
+      "example": {
+        "word": "Anonymity",
+        "text": "Anonymity can protect a source."
+      },
+      "exampleSynonym": {
+        "word": "Being unknown",
+        "text": "Being unknown can protect a source."
+      }
+    }
+  },
+  {
+    "entry": "cheesecloth-2",
+    "remove": [],
+    "set": {
+      "definition": "A thin, loosely woven cloth used for straining food.",
+      "synonyms": [
+        "Straining cloth"
+      ],
+      "example": {
+        "word": "Cheesecloth",
+        "text": "Cheesecloth can strain soft cheese."
+      },
+      "exampleSynonym": {
+        "word": "Straining cloth",
+        "text": "Straining cloth can strain soft cheese."
+      }
+    }
+  },
+  {
+    "entry": "crag",
+    "remove": [],
+    "set": {
+      "definition": "A steep, rugged mass of rock or cliff.",
+      "synonyms": [
+        "Rocky cliff"
+      ],
+      "example": {
+        "word": "Crag",
+        "text": "Crag climbing can be dangerous."
+      },
+      "exampleSynonym": {
+        "word": "Rocky cliff",
+        "text": "Rocky cliff climbing can be dangerous."
+      }
+    }
+  },
+  {
+    "entry": "circularity",
+    "remove": [],
+    "set": {
+      "definition": "The quality of being round or following a circular path.",
+      "synonyms": [
+        "Roundness"
+      ],
+      "example": {
+        "word": "Circularity",
+        "text": "Circularity matters in the wheel design."
+      },
+      "exampleSynonym": {
+        "word": "Roundness",
+        "text": "Roundness matters in the wheel design."
+      }
+    }
+  },
+  {
+    "entry": "cobble",
+    "remove": [],
+    "set": {
+      "definition": "To lay stones together to pave a surface.",
+      "synonyms": [
+        "pave"
+      ],
+      "example": {
+        "word": "cobble",
+        "text": "Workers cobble the narrow path with stones."
+      },
+      "exampleSynonym": {
+        "word": "pave",
+        "text": "Workers pave the narrow path with stones."
+      }
+    }
+  },
+  {
+    "entry": "resonate",
+    "remove": [],
+    "set": {
+      "definition": "To make a deep sound that continues to echo.",
+      "synonyms": [
+        "Reverberate"
+      ],
+      "example": {
+        "word": "Resonate",
+        "text": "Resonate through the empty hall."
+      },
+      "exampleSynonym": {
+        "word": "Reverberate",
+        "text": "Reverberate through the empty hall."
+      }
+    }
+  },
+  {
+    "entry": "spermicide",
+    "remove": [],
+    "set": {
+      "definition": "A product that kills sperm to help prevent pregnancy.",
+      "synonyms": [
+        "contraceptive product"
+      ],
+      "example": {
+        "word": "spermicide",
+        "text": "This spermicide can help prevent pregnancy."
+      },
+      "exampleSynonym": {
+        "word": "contraceptive product",
+        "text": "This contraceptive product can help prevent pregnancy."
+      }
+    }
+  },
+  {
+    "entry": "colossus",
+    "remove": [],
+    "set": {
+      "definition": "An enormous statue of a person or animal.",
+      "synonyms": [
+        "giant statue"
+      ],
+      "example": {
+        "word": "Colossus",
+        "text": "The word “Colossus” once named an enormous statue."
+      },
+      "exampleSynonym": {
+        "word": "giant statue",
+        "text": "The word “giant statue” once named an enormous statue."
+      }
+    }
+  },
+  {
+    "entry": "compromise-2",
+    "remove": [],
+    "set": {
+      "definition": "To accept less than you want in order to reach an agreement.",
+      "synonyms": [
+        "Make concessions"
+      ],
+      "example": {
+        "word": "Compromise",
+        "text": "Compromise when both sides refuse to agree."
+      },
+      "exampleSynonym": {
+        "word": "Make concessions",
+        "text": "Make concessions when both sides refuse to agree."
+      }
+    }
+  },
+  {
+    "entry": "chinampa",
+    "remove": [],
+    "set": {
+      "definition": "A raised field built in shallow water for growing crops.",
+      "synonyms": [
+        "floating field"
+      ],
+      "example": {
+        "word": "Chinampa",
+        "text": "The word “Chinampa” names a field built in shallow water."
+      },
+      "exampleSynonym": {
+        "word": "floating field",
+        "text": "The word “floating field” names a field built in shallow water."
+      }
+    }
+  },
+  {
+    "entry": "coexistence",
+    "remove": [],
+    "set": {
+      "definition": "Living together peacefully or existing at the same time.",
+      "synonyms": [
+        "Living together"
+      ],
+      "example": {
+        "word": "Coexistence",
+        "text": "Coexistence is possible despite differences."
+      },
+      "exampleSynonym": {
+        "word": "Living together",
+        "text": "Living together is possible despite differences."
+      }
+    }
+  },
+  {
+    "entry": "reunification",
+    "remove": [],
+    "set": {
+      "definition": "The process of joining again people, families, or places that were separated.",
+      "synonyms": [
+        "Rejoining"
+      ],
+      "example": {
+        "word": "Reunification",
+        "text": "Reunification took many years."
+      },
+      "exampleSynonym": {
+        "word": "Rejoining",
+        "text": "Rejoining took many years."
+      }
+    }
+  },
+  {
+    "entry": "certification",
+    "remove": [],
+    "set": {
+      "definition": "Official proof that a person or thing meets a standard.",
+      "synonyms": [
+        "Official proof"
+      ],
+      "example": {
+        "word": "Certification",
+        "text": "Certification is required before the equipment is used."
+      },
+      "exampleSynonym": {
+        "word": "Official proof",
+        "text": "Official proof is required before the equipment is used."
+      }
+    }
+  },
+  {
+    "entry": "rusticity",
+    "remove": [],
+    "set": {
+      "definition": "Simplicity linked to life in the countryside.",
+      "synonyms": [
+        "Rural simplicity"
+      ],
+      "example": {
+        "word": "Rusticity",
+        "text": "Rusticity often shapes the style of country homes."
+      },
+      "exampleSynonym": {
+        "word": "Rural simplicity",
+        "text": "Rural simplicity often shapes the style of country homes."
+      }
+    }
+  },
+  {
+    "entry": "pertinacity",
+    "remove": [],
+    "set": {
+      "definition": "Firmly continuing to hold an opinion or plan.",
+      "synonyms": [
+        "Persistence"
+      ],
+      "example": {
+        "word": "Pertinacity",
+        "text": "Pertinacity helped her finish the project."
+      },
+      "exampleSynonym": {
+        "word": "Persistence",
+        "text": "Persistence helped her finish the project."
+      }
+    }
+  },
+  {
+    "entry": "rounding",
+    "remove": [],
+    "set": {
+      "definition": "The process of making something round or rounded.",
+      "synonyms": [
+        "Shaping"
+      ],
+      "example": {
+        "word": "Rounding",
+        "text": "Rounding the edges made the table safer."
+      },
+      "exampleSynonym": {
+        "word": "Shaping",
+        "text": "Shaping the edges made the table safer."
+      }
+    }
+  },
+  {
+    "entry": "repeal-2",
+    "remove": [],
+    "set": {
+      "definition": "To officially cancel a law or rule.",
+      "synonyms": [
+        "abolish"
+      ],
+      "example": {
+        "word": "repeal",
+        "text": "The court may repeal the rule."
+      },
+      "exampleSynonym": {
+        "word": "abolish",
+        "text": "The court may abolish the rule."
+      }
+    }
+  },
+  {
+    "entry": "convoluted-4",
+    "remove": [],
+    "set": {
+      "definition": "Hard to follow because it is complicated.",
+      "synonyms": [
+        "complicated"
+      ],
+      "example": {
+        "word": "Convoluted",
+        "text": "The plot was Convoluted."
+      },
+      "exampleSynonym": {
+        "word": "complicated",
+        "text": "The plot was complicated."
+      }
+    }
+  },
+  {
+    "entry": "irrepressible-2",
+    "remove": [],
+    "set": {
+      "definition": "Impossible to control or stop.",
+      "synonyms": [
+        "uncontrollable"
+      ],
+      "example": {
+        "word": "Irrepressible",
+        "text": "The Irrepressible laughter filled the room."
+      },
+      "exampleSynonym": {
+        "word": "uncontrollable",
+        "text": "The uncontrollable laughter filled the room."
+      }
+    }
+  },
+  {
+    "entry": "squawk-3",
+    "remove": [],
+    "set": {
+      "definition": "A loud, harsh cry made by a bird.",
+      "synonyms": [
+        "a harsh cry"
+      ],
+      "example": {
+        "word": "Squawk",
+        "text": "The sound called Squawk startled us."
+      },
+      "exampleSynonym": {
+        "word": "a harsh cry",
+        "text": "The sound called a harsh cry startled us."
+      }
+    }
+  },
+  {
+    "entry": "laxity-2",
+    "remove": [],
+    "set": {
+      "definition": "A lack of care or strictness.",
+      "synonyms": [
+        "lack of strictness"
+      ],
+      "example": {
+        "word": "Laxity",
+        "text": "The word Laxity describes loose rules."
+      },
+      "exampleSynonym": {
+        "word": "lack of strictness",
+        "text": "The word lack of strictness describes loose rules."
+      }
+    }
+  },
+  {
+    "entry": "melancholy-3",
+    "remove": [],
+    "set": {
+      "definition": "A deep, thoughtful sadness.",
+      "synonyms": [
+        "a deep sadness"
+      ],
+      "example": {
+        "word": "Melancholy",
+        "text": "We called the feeling Melancholy."
+      },
+      "exampleSynonym": {
+        "word": "a deep sadness",
+        "text": "We called the feeling a deep sadness."
+      }
+    }
+  },
+  {
+    "entry": "naiad",
+    "remove": [],
+    "set": {
+      "definition": "A water nymph in Greek mythology.",
+      "synonyms": [
+        "water spirit"
+      ],
+      "example": {
+        "word": "Naiad",
+        "text": "A Naiad guarded the spring."
+      },
+      "exampleSynonym": {
+        "word": "water spirit",
+        "text": "A water spirit guarded the spring."
+      }
+    }
+  },
+  {
+    "entry": "gape",
+    "remove": [],
+    "set": {
+      "definition": "To open your mouth wide, often in surprise.",
+      "synonyms": [
+        "Stare open-mouthed"
+      ],
+      "example": {
+        "word": "Gape",
+        "text": "Gape at the broken window!"
+      },
+      "exampleSynonym": {
+        "word": "Stare open-mouthed",
+        "text": "Stare open-mouthed at the broken window!"
+      }
+    }
+  },
+  {
+    "entry": "cassock",
+    "remove": [],
+    "set": {
+      "definition": "A long robe worn by clergy.",
+      "synonyms": [
+        "clerical robe"
+      ],
+      "example": {
+        "word": "cassock",
+        "text": "The priest wore a cassock during the service."
+      },
+      "exampleSynonym": {
+        "word": "clerical robe",
+        "text": "The priest wore a clerical robe during the service."
+      }
+    }
+  },
+  {
+    "entry": "clergy-2",
+    "remove": [],
+    "set": {
+      "definition": "The people who lead services in a religion.",
+      "synonyms": [
+        "Clerics"
+      ],
+      "example": {
+        "word": "Clergy",
+        "text": "Clergy gathered for a meeting."
+      },
+      "exampleSynonym": {
+        "word": "Clerics",
+        "text": "Clerics gathered for a meeting."
+      }
+    }
+  },
+  {
+    "entry": "lair-2",
+    "remove": [],
+    "set": {
+      "definition": "A place where a wild animal hides or sleeps.",
+      "synonyms": [
+        "den"
+      ],
+      "example": {
+        "word": "Lair",
+        "text": "The lion returned to its Lair."
+      },
+      "exampleSynonym": {
+        "word": "den",
+        "text": "The lion returned to its den."
+      }
+    }
+  },
+  {
+    "entry": "conscientious-2",
+    "remove": [],
+    "set": {
+      "definition": "Careful to do what is right and to do a task well.",
+      "synonyms": [
+        "diligent"
+      ],
+      "example": {
+        "word": "conscientious",
+        "text": "She is conscientious about her work."
+      },
+      "exampleSynonym": {
+        "word": "diligent",
+        "text": "She is diligent about her work."
+      }
+    }
+  },
+  {
+    "entry": "incessant-2",
+    "remove": [],
+    "set": {
+      "definition": "Continuing without stopping or becoming less frequent.",
+      "synonyms": [
+        "Constant"
+      ],
+      "example": {
+        "word": "Incessant",
+        "text": "Incessant noise kept us awake."
+      },
+      "exampleSynonym": {
+        "word": "Constant",
+        "text": "Constant noise kept us awake."
+      }
+    }
+  },
+  {
+    "entry": "transgress-2",
+    "remove": [],
+    "set": {
+      "definition": "To break a rule, law, or moral limit.",
+      "synonyms": [
+        "Violate"
+      ],
+      "example": {
+        "word": "Transgress",
+        "text": "Transgress the rules, and you may be punished."
+      },
+      "exampleSynonym": {
+        "word": "Violate",
+        "text": "Violate the rules, and you may be punished."
+      }
+    }
+  },
+  {
+    "entry": "scree-2",
+    "remove": [],
+    "set": {
+      "definition": "Loose stones covering a steep slope, often below a cliff.",
+      "synonyms": [
+        "rock debris"
+      ],
+      "example": {
+        "word": "scree",
+        "text": "The path was covered with scree."
+      },
+      "exampleSynonym": {
+        "word": "rock debris",
+        "text": "The path was covered with rock debris."
+      }
+    }
+  },
+  {
+    "entry": "pharyngitis",
+    "remove": [],
+    "set": {
+      "definition": "Inflammation of the throat, often causing pain when swallowing.",
+      "synonyms": [
+        "throat inflammation"
+      ],
+      "example": {
+        "word": "Pharyngitis",
+        "text": "The doctor diagnosed Pharyngitis."
+      },
+      "exampleSynonym": {
+        "word": "throat inflammation",
+        "text": "The doctor diagnosed throat inflammation."
+      }
+    }
+  },
+  {
+    "entry": "fundamentalism",
+    "remove": [],
+    "set": {
+      "definition": "Strict commitment to a set of basic beliefs.",
+      "synonyms": [
+        "Strict traditionalism"
+      ],
+      "example": {
+        "word": "Fundamentalism",
+        "text": "Fundamentalism shaped the group's rules."
+      },
+      "exampleSynonym": {
+        "word": "Strict traditionalism",
+        "text": "Strict traditionalism shaped the group's rules."
+      }
+    }
+  },
+  {
+    "entry": "phallocracy",
+    "remove": [],
+    "set": {
+      "definition": "A social system where men hold most power.",
+      "synonyms": [
+        "Male dominance"
+      ],
+      "example": {
+        "word": "Phallocracy",
+        "text": "Phallocracy shaped public life."
+      },
+      "exampleSynonym": {
+        "word": "Male dominance",
+        "text": "Male dominance shaped public life."
+      }
+    }
+  },
+  {
+    "entry": "simplism",
+    "remove": [],
+    "set": {
+      "definition": "The habit of reducing complex ideas to overly simple answers.",
+      "synonyms": [
+        "Oversimplification"
+      ],
+      "example": {
+        "word": "Simplism",
+        "text": "Simplism can hide the causes of poverty."
+      },
+      "exampleSynonym": {
+        "word": "Oversimplification",
+        "text": "Oversimplification can hide the causes of poverty."
+      }
+    }
+  },
+  {
+    "entry": "resound",
+    "remove": [],
+    "set": {
+      "definition": "To echo with a loud, deep sound.",
+      "synonyms": [
+        "Echo"
+      ],
+      "example": {
+        "word": "Resound",
+        "text": "Resound across the valley!"
+      },
+      "exampleSynonym": {
+        "word": "Echo",
+        "text": "Echo across the valley!"
+      }
+    }
+  },
+  {
+    "entry": "misfit",
+    "remove": [],
+    "set": {
+      "definition": "Someone who feels out of place in a group.",
+      "synonyms": [
+        "Outcast"
+      ],
+      "example": {
+        "word": "Misfit",
+        "text": "Misfit can be a painful label."
+      },
+      "exampleSynonym": {
+        "word": "Outcast",
+        "text": "Outcast can be a painful label."
+      }
+    }
+  },
+  {
+    "entry": "stipend-2",
+    "remove": [],
+    "set": {
+      "definition": "A regular payment for work or study expenses.",
+      "synonyms": [
+        "allowance"
+      ],
+      "example": {
+        "word": "Stipend",
+        "text": "The word Stipend means a regular payment."
+      },
+      "exampleSynonym": {
+        "word": "allowance",
+        "text": "The word allowance means a regular payment."
+      }
+    }
+  },
+  {
+    "entry": "sumptuous-2",
+    "remove": [],
+    "set": {
+      "definition": "Very rich, beautiful, and impressive, often costly.",
+      "synonyms": [
+        "Lavish"
+      ],
+      "example": {
+        "word": "Sumptuous",
+        "text": "Sumptuous meals delighted the guests."
+      },
+      "exampleSynonym": {
+        "word": "Lavish",
+        "text": "Lavish meals delighted the guests."
+      }
+    }
+  },
+  {
+    "entry": "counterargument-2",
+    "remove": [],
+    "set": {
+      "definition": "A reason given against another person's argument.",
+      "synonyms": [
+        "Opposing argument"
+      ],
+      "example": {
+        "word": "Counterargument",
+        "text": "Counterargument can strengthen a debate."
+      },
+      "exampleSynonym": {
+        "word": "Opposing argument",
+        "text": "Opposing argument can strengthen a debate."
+      }
+    }
   }
 ]
