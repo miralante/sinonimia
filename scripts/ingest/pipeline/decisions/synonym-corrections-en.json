@@ -267103,5 +267103,59 @@
         "text": "Opposing argument can strengthen a debate."
       }
     }
+  },
+  {
+    "entry": "squishy-3",
+    "remove": [],
+    "set": {
+      "definition": "Soft and easy to press or squeeze.",
+      "synonyms": [
+        "Soft"
+      ],
+      "example": {
+        "word": "Squishy",
+        "text": "Squishy toys are easy to squeeze."
+      },
+      "exampleSynonym": {
+        "word": "Soft",
+        "text": "Soft toys are easy to squeeze."
+      }
+    }
+  },
+  {
+    "entry": "contravene",
+    "remove": [],
+    "set": {
+      "definition": "To break or act against a law, rule, or agreement.",
+      "synonyms": [
+        "Violate"
+      ],
+      "example": {
+        "word": "Contravene",
+        "text": "Contravene the rule, and you may be fined."
+      },
+      "exampleSynonym": {
+        "word": "Violate",
+        "text": "Violate the rule, and you may be fined."
+      }
+    }
+  },
+  {
+    "entry": "secularity",
+    "remove": [],
+    "set": {
+      "definition": "The state of being separate from religion or religious control.",
+      "synonyms": [
+        "Nonreligious character"
+      ],
+      "example": {
+        "word": "Secularity",
+        "text": "Secularity can shape public policy."
+      },
+      "exampleSynonym": {
+        "word": "Nonreligious character",
+        "text": "Nonreligious character can shape public policy."
+      }
+    }
   }
 ]

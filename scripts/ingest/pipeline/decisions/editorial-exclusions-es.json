@@ -98917,5 +98917,160 @@
     "id": "cianico",
     "word": "ciánico",
     "reason": "Ciánico es un adjetivo químico relacionado con el ácido ciánico y tiene uso técnico limitado."
+  },
+  {
+    "id": "sexologico",
+    "word": "sexológico",
+    "reason": "Sexológico significa relativo a la sexología y se entiende fácilmente por sus partes; además, es un adjetivo especializado."
+  },
+  {
+    "id": "breteador",
+    "word": "breteador",
+    "reason": "Breteador es una voz poco usada derivada de bretear para quien crea situaciones difíciles."
+  },
+  {
+    "id": "choclonero",
+    "word": "choclonero",
+    "reason": "Choclonero es una voz de algunos países americanos para quien vende choclos y no tiene uso general."
+  },
+  {
+    "id": "cordilla",
+    "word": "cordilla",
+    "reason": "Cordilla significa cuerda pequeña o delgada y es una voz de baja utilidad general."
+  },
+  {
+    "id": "criptografo",
+    "word": "criptógrafo",
+    "reason": "Criptógrafo nombra a quien practica la criptografía y es un término profesional especializado."
+  },
+  {
+    "id": "desestimador",
+    "word": "desestimador",
+    "reason": "Desestimador significa que desestima y es un derivado transparente de desestimar."
+  },
+  {
+    "id": "triunviral",
+    "word": "triunviral",
+    "reason": "Triunviral es un adjetivo histórico relativo a un triunvirato y tiene un uso limitado."
+  },
+  {
+    "id": "yerbadulce",
+    "word": "yerbadulce",
+    "reason": "Yerbadulce es un nombre regional de la planta conocida como regaliz y tiene utilidad limitada."
+  },
+  {
+    "id": "cuzma",
+    "word": "cuzma",
+    "reason": "Cuzma designa una prenda antigua de lana usada en algunas zonas de América y tiene escaso uso actual."
+  },
+  {
+    "id": "bondoso",
+    "word": "bondoso",
+    "reason": "Bondoso es una variante antigua de bondadoso y no tiene uso actual independiente."
+  },
+  {
+    "id": "coriambico",
+    "word": "coriámbico",
+    "reason": "Coriámbico es un término de métrica para versos coriámbicos y tiene un uso literario especializado."
+  },
+  {
+    "id": "despabilador",
+    "word": "despabilador",
+    "reason": "Despabilador significa que despabila y la definición repite un verbo poco preciso."
+  },
+  {
+    "id": "fotosensible",
+    "word": "fotosensible",
+    "reason": "Fotosensible se entiende por sus partes y se usa principalmente en contextos de ciencia o tecnología."
+  },
+  {
+    "id": "fraileria",
+    "word": "frailería",
+    "reason": "Frailería es una voz poco usada para el conjunto de los frailes."
+  },
+  {
+    "id": "gestual",
+    "word": "gestual",
+    "reason": "Gestual significa relativo a los gestos y se entiende fácilmente por su forma."
+  },
+  {
+    "id": "piriforme",
+    "word": "piriforme",
+    "reason": "Piriforme significa con forma de pera y se usa sobre todo en descripciones técnicas o anatómicas."
+  },
+  {
+    "id": "resoplido",
+    "word": "resoplido",
+    "reason": "Resoplido es una palabra comprensible para la acción de expulsar aire con fuerza y ruido."
+  },
+  {
+    "id": "rochelear",
+    "word": "rochelear",
+    "reason": "Rochelear es una voz regional para burlarse o gastar bromas pesadas y no tiene uso general."
+  },
+  {
+    "id": "satirizar",
+    "word": "satirizar",
+    "reason": "Satirizar significa criticar o ridiculizar mediante la sátira y es una palabra de significado claro."
+  },
+  {
+    "id": "segundogenito",
+    "word": "segundogénito",
+    "reason": "Segundogénito es un término formal poco usado para quien nace después del primogénito."
+  },
+  {
+    "id": "serrucho",
+    "word": "serrucho",
+    "reason": "Serrucho es una herramienta manual conocida para cortar madera."
+  },
+  {
+    "id": "sinabafa",
+    "word": "sinabafa",
+    "reason": "Sinabafa es una tela fina de lino usada antiguamente y tiene escasa utilidad actual."
+  },
+  {
+    "id": "tacanear",
+    "word": "tacañear",
+    "reason": "Tacañear es una variante poco usada de tacañear o actuar con tacañería, y su definición extensa repite esa idea."
+  },
+  {
+    "id": "tetina",
+    "word": "tetina",
+    "reason": "Tetina es un objeto cotidiano del biberón y también se llama pezón; ambos sentidos son fáciles de entender."
+  },
+  {
+    "id": "trailla",
+    "word": "traílla",
+    "reason": "Traílla tiene sentidos de herramienta para perros de caza y de instrumento agrícola, ambos especializados y de utilidad general limitada."
+  },
+  {
+    "id": "veraneante",
+    "word": "veraneante",
+    "reason": "Veraneante nombra a quien veranea y se forma de manera transparente a partir del verbo veranear."
+  },
+  {
+    "id": "vertibilidad",
+    "word": "vertibilidad",
+    "reason": "Vertibilidad es un derivado poco usado que significa posibilidad de ser vertido."
+  },
+  {
+    "id": "voso",
+    "word": "voso",
+    "reason": "Voso es una forma antigua o dialectal equivalente a vuestro y no tiene uso general actual."
+  },
+  {
+    "id": "zompo",
+    "word": "zompo",
+    "reason": "Zompo es una voz regional poco frecuente para un pie o una mano torcida o deformada."
+  },
+  {
+    "id": "zurrona",
+    "word": "zurrona",
+    "reason": "Zurrona es un insulto antiguo y despectivo para una mujer, con escaso uso actual y una carga ofensiva."
+  },
+  {
+    "id": "allende",
+    "word": "allende",
+    "reason": "Allende es una forma literaria o antigua equivalente a más allá y tiene un uso actual limitado."
   }
 ]

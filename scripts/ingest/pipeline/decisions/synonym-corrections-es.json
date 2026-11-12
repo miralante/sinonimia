@@ -266728,5 +266728,167 @@
         "text": "El ecologismo ganó apoyo en la región."
       }
     }
+  },
+  {
+    "entry": "fragor",
+    "remove": [],
+    "set": {
+      "definition": "Ruido fuerte y sostenido, como el de una tormenta.",
+      "synonyms": [
+        "estruendo"
+      ],
+      "example": {
+        "word": "fragor",
+        "text": "El fragor de la tormenta impidió dormir."
+      },
+      "exampleSynonym": {
+        "word": "estruendo",
+        "text": "El estruendo de la tormenta impidió dormir."
+      }
+    }
+  },
+  {
+    "entry": "gesticular",
+    "remove": [],
+    "set": {
+      "definition": "Mover la cara o las manos para expresar algo.",
+      "synonyms": [
+        "hacer gestos"
+      ],
+      "example": {
+        "word": "gesticular",
+        "text": "Le pidieron gesticular durante la escena."
+      },
+      "exampleSynonym": {
+        "word": "hacer gestos",
+        "text": "Le pidieron hacer gestos durante la escena."
+      }
+    }
+  },
+  {
+    "entry": "secularidad",
+    "remove": [],
+    "set": {
+      "definition": "Carácter de lo que no pertenece a la religión.",
+      "synonyms": [
+        "laicidad"
+      ],
+      "example": {
+        "word": "secularidad",
+        "text": "La secularidad del Estado se debatió en el parlamento."
+      },
+      "exampleSynonym": {
+        "word": "laicidad",
+        "text": "La laicidad del Estado se debatió en el parlamento."
+      }
+    }
+  },
+  {
+    "entry": "sobrealiento",
+    "remove": [],
+    "set": {
+      "definition": "Dificultad para respirar, especialmente al hacer esfuerzo.",
+      "synonyms": [
+        "falta de aire"
+      ],
+      "example": {
+        "word": "sobrealiento",
+        "text": "Sufrió sobrealiento al subir la cuesta."
+      },
+      "exampleSynonym": {
+        "word": "falta de aire",
+        "text": "Sufrió falta de aire al subir la cuesta."
+      }
+    }
+  },
+  {
+    "entry": "suspicacia",
+    "remove": [],
+    "set": {
+      "definition": "Tendencia a desconfiar de las intenciones de otras personas.",
+      "synonyms": [
+        "desconfianza"
+      ],
+      "example": {
+        "word": "suspicacia",
+        "text": "Su suspicacia complicó la conversación."
+      },
+      "exampleSynonym": {
+        "word": "desconfianza",
+        "text": "Su desconfianza complicó la conversación."
+      }
+    }
+  },
+  {
+    "entry": "tembladeral",
+    "remove": [],
+    "set": {
+      "definition": "Terreno blando y pantanoso que tiembla al pisarlo.",
+      "synonyms": [
+        "pantano"
+      ],
+      "example": {
+        "word": "tembladeral",
+        "text": "El tembladeral rodeaba la laguna."
+      },
+      "exampleSynonym": {
+        "word": "pantano",
+        "text": "El pantano rodeaba la laguna."
+      }
+    }
+  },
+  {
+    "entry": "tiquismiquis",
+    "remove": [],
+    "set": {
+      "definition": "Persona demasiado puntillosa con detalles pequeños.",
+      "synonyms": [
+        "quisquilloso"
+      ],
+      "example": {
+        "word": "tiquismiquis",
+        "text": "No seas tiquismiquis con la comida."
+      },
+      "exampleSynonym": {
+        "word": "quisquilloso",
+        "text": "No seas quisquilloso con la comida."
+      }
+    }
+  },
+  {
+    "entry": "trasmundo",
+    "remove": [],
+    "set": {
+      "definition": "Mundo imaginado más allá de la vida o de lo conocido.",
+      "synonyms": [
+        "más allá"
+      ],
+      "example": {
+        "word": "trasmundo",
+        "text": "El trasmundo aparece en muchas leyendas."
+      },
+      "exampleSynonym": {
+        "word": "más allá",
+        "text": "El más allá aparece en muchas leyendas."
+      }
+    }
+  },
+  {
+    "entry": "zaherir",
+    "remove": [],
+    "set": {
+      "definition": "Herir la dignidad de alguien con palabras o acciones.",
+      "synonyms": [
+        "ofender"
+      ],
+      "example": {
+        "word": "zaherir",
+        "text": "Sus comentarios lograron zaherir a su rival."
+      },
+      "exampleSynonym": {
+        "word": "ofender",
+        "text": "Sus comentarios lograron ofender a su rival."
+      }
+    }
   }
 ]

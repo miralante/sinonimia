@@ -92761,5 +92761,190 @@
     "id": "right-now-2",
     "word": "right now",
     "reason": "Right now is a common phrase meaning at this moment; the supplied definition repeats it and adds contradictory timing."
+  },
+  {
+    "id": "individualize-2",
+    "word": "Individualize",
+    "reason": "Individualize is a familiar verb meaning to identify or treat something as individual."
+  },
+  {
+    "id": "sinful-2",
+    "word": "Sinful",
+    "reason": "Sinful means involving or marked by sin; the supplied person-based definition is incorrect."
+  },
+  {
+    "id": "shed-3",
+    "word": "Shed",
+    "reason": "Shed is a familiar word for a small, simple building, and the supplied definition is straightforward."
+  },
+  {
+    "id": "joke-4",
+    "word": "joke",
+    "reason": "Joke is a familiar word for something said or done to make people laugh."
+  },
+  {
+    "id": "mat-5",
+    "word": "mat",
+    "reason": "Mat is a familiar word for a flat piece of material placed on a floor, table, or seat."
+  },
+  {
+    "id": "supporter-3",
+    "word": "Supporter",
+    "reason": "Supporter means someone or something that provides help or support, not a dish shaped like part of a cake."
+  },
+  {
+    "id": "pellet-3",
+    "word": "pellet",
+    "reason": "Pellet is a familiar word for a small rounded piece of material."
+  },
+  {
+    "id": "sycamore-2",
+    "word": "sycamore",
+    "reason": "Sycamore names a tree, but the supplied identification as a willow-family tree is inaccurate."
+  },
+  {
+    "id": "mark-2",
+    "word": "Mark",
+    "reason": "Mark is a very common word, and this paper-size sense is obsolete and specialized."
+  },
+  {
+    "id": "acorn-4",
+    "word": "Acorn",
+    "reason": "Acorn is a familiar word for an oak seed, and “big acorn” adds no useful definition."
+  },
+  {
+    "id": "remove-5",
+    "word": "Remove",
+    "reason": "Remove is a familiar everyday verb for taking something away or moving it elsewhere."
+  },
+  {
+    "id": "shoulder-5",
+    "word": "Shoulder",
+    "reason": "The supplied shoulder sense is an old armor piece, while the word is common and the sense has little general use."
+  },
+  {
+    "id": "shine-6",
+    "word": "shine",
+    "reason": "Shine is a familiar verb, and the supplied definition simply repeats the headword."
+  },
+  {
+    "id": "taste-6",
+    "word": "Taste",
+    "reason": "Taste is a familiar verb for trying food or drink, and “test with taste” merely repeats the idea."
+  },
+  {
+    "id": "spanking-11",
+    "word": "Spanking",
+    "reason": "Spanking is a familiar word, and the supplied rare falling-forward sense has limited general use."
+  },
+  {
+    "id": "word-5",
+    "word": "Word",
+    "reason": "Word is a familiar term for a unit of language; the supplied definition is vague and mismatched."
+  },
+  {
+    "id": "get-feverish-2",
+    "word": "get feverish",
+    "reason": "Get feverish means to develop a fever, not to pursue an activity with enthusiasm."
+  },
+  {
+    "id": "lumber-4",
+    "word": "Lumber",
+    "reason": "This is a regional Colombian sense of lumber for collecting firewood; the word has common unrelated meanings."
+  },
+  {
+    "id": "mulita",
+    "word": "Mulita",
+    "reason": "Mulita is a Spanish regional name for an armadillo and is not a standard English headword."
+  },
+  {
+    "id": "robancin",
+    "word": "Robancin",
+    "reason": "Robancin is an obsolete or extremely rare word meaning continued theft."
+  },
+  {
+    "id": "cheviot",
+    "word": "Cheviot",
+    "reason": "Cheviot names a kind of wool or sheep and is specialized textile vocabulary."
+  },
+  {
+    "id": "sentimental",
+    "word": "Sentimental",
+    "reason": "Sentimental is a familiar adjective relating to feelings, and the supplied definition is too vague."
+  },
+  {
+    "id": "teresa",
+    "word": "Teresa",
+    "reason": "Teresa is a personal name; the supplied “a mom” definition is unsupported and corrupt."
+  },
+  {
+    "id": "tenorino",
+    "word": "Tenorino",
+    "reason": "Tenorino is a rare musical term for a singer with a tenor voice and has little general use."
+  },
+  {
+    "id": "barber-3",
+    "word": "barber",
+    "reason": "Barber is a familiar occupation word for someone who cuts and styles hair."
+  },
+  {
+    "id": "meow-5",
+    "word": "meow",
+    "reason": "Meow is the familiar sound made by a cat, and the definition merely repeats its sound."
+  },
+  {
+    "id": "nahuatlato-2",
+    "word": "nahuatlato",
+    "reason": "Nahuatlato is a Spanish term related to the Nahuatl language, not an English headword."
+  },
+  {
+    "id": "jewish-3",
+    "word": "jewish",
+    "reason": "Jewish is a familiar adjective relating to Jews and is straightforward to understand."
+  },
+  {
+    "id": "mur-3",
+    "word": "mur",
+    "reason": "Mur is a Spanish regional name for a shrub, not a standard English headword."
+  },
+  {
+    "id": "unravel-42",
+    "word": "Unravel",
+    "reason": "Unravel commonly means to undo or explain something, not to mess it up; the supplied definition is mismatched."
+  },
+  {
+    "id": "security-bars",
+    "word": "security bars",
+    "reason": "Security bars are familiar metal bars fitted to protect a window or door."
+  },
+  {
+    "id": "statement-of-allegations",
+    "word": "statement of allegations",
+    "reason": "A statement of allegations is a formal legal document and a specialized procedural phrase."
+  },
+  {
+    "id": "countervalue",
+    "word": "Countervalue",
+    "reason": "Countervalue is a technical financial term for the value given in exchange for something received."
+  },
+  {
+    "id": "sketched",
+    "word": "Sketched",
+    "reason": "Sketched is a familiar form of sketch, and the supplied description of a bocel is unrelated or corrupt."
+  },
+  {
+    "id": "gangrenous",
+    "word": "Gangrenous",
+    "reason": "Gangrenous is a medical adjective meaning affected by gangrene, a serious tissue condition."
+  },
+  {
+    "id": "get-dressed",
+    "word": "Get dressed",
+    "reason": "Get dressed means to put clothes on; clothing used to cover the body is not a definition of this phrase."
+  },
+  {
+    "id": "get-feverish",
+    "word": "get feverish",
+    "reason": "Get feverish plainly means to become hot or develop a fever and is easy to understand."
   }
 ]
