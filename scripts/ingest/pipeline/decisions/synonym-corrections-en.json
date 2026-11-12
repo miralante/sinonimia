@@ -268029,5 +268029,149 @@
         "text": "The legal care of the child lasted for three years."
       }
     }
+  },
+  {
+    "entry": "sedative-2",
+    "remove": [],
+    "set": {
+      "definition": "Having a calming effect or making someone feel sleepy.",
+      "synonyms": [
+        "calming"
+      ],
+      "example": {
+        "word": "sedative",
+        "text": "The nurse chose a sedative treatment for his anxiety."
+      },
+      "exampleSynonym": {
+        "word": "calming",
+        "text": "The nurse chose a calming treatment for his anxiety."
+      }
+    }
+  },
+  {
+    "entry": "corroborative-2",
+    "remove": [],
+    "set": {
+      "definition": "Evidence that helps confirm a statement or claim.",
+      "synonyms": [
+        "supporting"
+      ],
+      "example": {
+        "word": "corroborative",
+        "text": "The report presented corroborative evidence."
+      },
+      "exampleSynonym": {
+        "word": "supporting",
+        "text": "The report presented supporting evidence."
+      }
+    }
+  },
+  {
+    "entry": "ambages",
+    "remove": [],
+    "set": {
+      "definition": "Indirect or roundabout language used instead of speaking plainly.",
+      "synonyms": [
+        "roundabout wording"
+      ],
+      "example": {
+        "word": "ambages",
+        "text": "Her ambages confused the audience."
+      },
+      "exampleSynonym": {
+        "word": "roundabout wording",
+        "text": "Her roundabout wording confused the audience."
+      }
+    }
+  },
+  {
+    "entry": "consent-of-the-interested-party",
+    "remove": [],
+    "set": {
+      "definition": "Permission a person gives for their personal data to be used.",
+      "synonyms": [
+        "the person's permission"
+      ],
+      "example": {
+        "word": "consent of the interested party",
+        "text": "The office requested consent of the interested party before using the data."
+      },
+      "exampleSynonym": {
+        "word": "the person's permission",
+        "text": "The office requested the person's permission before using the data."
+      }
+    }
+  },
+  {
+    "entry": "termination-order",
+    "remove": [],
+    "set": {
+      "definition": "A court order that immediately stops an action or process.",
+      "synonyms": [
+        "order to stop"
+      ],
+      "example": {
+        "word": "termination order",
+        "text": "The judge acted under the termination order."
+      },
+      "exampleSynonym": {
+        "word": "order to stop",
+        "text": "The judge acted under the order to stop."
+      }
+    }
+  },
+  {
+    "entry": "resuscitation",
+    "remove": [],
+    "set": {
+      "definition": "Medical steps used to restore someone's breathing or heartbeat.",
+      "synonyms": [
+        "revival treatment"
+      ],
+      "example": {
+        "word": "resuscitation",
+        "text": "The paramedics began resuscitation at the scene."
+      },
+      "exampleSynonym": {
+        "word": "revival treatment",
+        "text": "The paramedics began revival treatment at the scene."
+      }
+    }
+  },
+  {
+    "entry": "sanctify",
+    "remove": [],
+    "set": {
+      "definition": "To make someone or something holy.",
+      "synonyms": [
+        "consecrate"
+      ],
+      "example": {
+        "word": "sanctify",
+        "text": "The priest will sanctify the new chapel."
+      },
+      "exampleSynonym": {
+        "word": "consecrate",
+        "text": "The priest will consecrate the new chapel."
+      }
+    }
+  },
+  {
+    "entry": "mouth-opener",
+    "remove": [],
+    "set": {
+      "definition": "A small food or drink served before a meal to awaken appetite.",
+      "synonyms": [
+        "appetizer"
+      ],
+      "example": {
+        "word": "mouth opener",
+        "text": "The mouth opener arrived before dinner."
+      },
+      "exampleSynonym": {
+        "word": "appetizer",
+        "text": "The appetizer arrived before dinner."
+      }
+    }
   }
 ]

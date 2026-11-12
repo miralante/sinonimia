@@ -94301,5 +94301,215 @@
     "id": "lift-2",
     "word": "lift",
     "reason": "The supplied definition describes a direction on the horizon, not a sense of lift."
+  },
+  {
+    "id": "mortar-2",
+    "word": "mortar",
+    "reason": "Mortar is a common verb meaning to join bricks with mortar."
+  },
+  {
+    "id": "serviceable-2",
+    "word": "serviceable",
+    "reason": "The supplied definition does not match serviceable and appears to describe another word."
+  },
+  {
+    "id": "coverage-3",
+    "word": "coverage",
+    "reason": "Coverage is a common noun related to covering or protecting something."
+  },
+  {
+    "id": "carriage-3",
+    "word": "carriage",
+    "reason": "The supplied definition describes a tree crown, not carriage."
+  },
+  {
+    "id": "curl-3",
+    "word": "curl",
+    "reason": "Curl is a common verb meaning to form into a curved or spiral shape."
+  },
+  {
+    "id": "sprinkle-3",
+    "word": "sprinkle",
+    "reason": "The supplied definition calls sprinkle a variant of wasting and does not match the headword."
+  },
+  {
+    "id": "intercom-4",
+    "word": "intercom",
+    "reason": "Intercom is a common name for a communication system inside a building."
+  },
+  {
+    "id": "intoxicate-3",
+    "word": "intoxicate",
+    "reason": "Intoxicate is a common verb for poisoning or affecting someone with alcohol or drugs."
+  },
+  {
+    "id": "carved-2",
+    "word": "carved",
+    "reason": "The supplied definition is a rare specialist textile sense of carved."
+  },
+  {
+    "id": "slow-down-3",
+    "word": "slow down",
+    "reason": "The supplied definition means to become soft or flexible, not to slow down."
+  },
+  {
+    "id": "sophistry-2",
+    "word": "sophistry",
+    "reason": "The supplied definition describes a mystical doctrine, not sophistry."
+  },
+  {
+    "id": "regulate-2",
+    "word": "regulate",
+    "reason": "Regulate is a common verb meaning to control or adjust something by a rule."
+  },
+  {
+    "id": "stretch-4",
+    "word": "stretch",
+    "reason": "The supplied definition “be ashamed” does not match stretch."
+  },
+  {
+    "id": "rigority-2",
+    "word": "rigority",
+    "reason": "Rigority is an obscure archaic noun for the quality of being strict or severe."
+  },
+  {
+    "id": "bullfighting-4",
+    "word": "bullfighting",
+    "reason": "Bullfighting is a transparent compound word with an easily understood meaning."
+  },
+  {
+    "id": "temporary-2",
+    "word": "temporary",
+    "reason": "Temporary is a common adjective meaning that something lasts for a limited time."
+  },
+  {
+    "id": "commit-2",
+    "word": "commit",
+    "reason": "The supplied definition does not match a clear sense of commit."
+  },
+  {
+    "id": "monochord-2",
+    "word": "monochord",
+    "reason": "Monochord is a rare specialist music term for a one-stringed instrument."
+  },
+  {
+    "id": "needy-2",
+    "word": "needy",
+    "reason": "Needy is a common adjective for someone who lacks money or other necessities."
+  },
+  {
+    "id": "stealth-2",
+    "word": "stealth",
+    "reason": "The supplied definition describes an adjective, while stealth is a noun."
+  },
+  {
+    "id": "cliff-5",
+    "word": "cliff",
+    "reason": "The supplied definition is Spanish and describes a steep slope, not an English entry."
+  },
+  {
+    "id": "intoxicating-2",
+    "word": "intoxicating",
+    "reason": "The supplied definition “How intoxicating” does not explain the adjective."
+  },
+  {
+    "id": "childhood-3",
+    "word": "childhood",
+    "reason": "Childhood is common, and the supplied definition describes a different word, boyhood."
+  },
+  {
+    "id": "seraphic-2",
+    "word": "seraphic",
+    "reason": "Seraphic is a rare literary adjective meaning angel-like."
+  },
+  {
+    "id": "slider-2",
+    "word": "slider",
+    "reason": "The supplied definition “what causes slipping” does not describe a clear sense of slider."
+  },
+  {
+    "id": "cold-7",
+    "word": "cold",
+    "reason": "The supplied definition gives verb meanings that do not match this adjective or noun entry."
+  },
+  {
+    "id": "scrub-6",
+    "word": "scrub",
+    "reason": "Scrub is a common verb for rubbing something to clean or polish it."
+  },
+  {
+    "id": "fugitive-4",
+    "word": "fugitive",
+    "reason": "The supplied wording is ambiguous and does not clearly describe a current sense of fugitive."
+  },
+  {
+    "id": "shake-9",
+    "word": "shake",
+    "reason": "Shake is a common verb for moving something quickly back and forth."
+  },
+  {
+    "id": "casinite",
+    "word": "casinite",
+    "reason": "Casinite is an obscure mineral name with little general use."
+  },
+  {
+    "id": "dispatched-4",
+    "word": "dispatched",
+    "reason": "The supplied phrase “with great brevity and lightness” does not define dispatched."
+  },
+  {
+    "id": "nugget",
+    "word": "nugget",
+    "reason": "The supplied definition “blow with some object” does not describe a useful current sense of nugget."
+  },
+  {
+    "id": "complain-4",
+    "word": "complain",
+    "reason": "Complain is a common verb for expressing dissatisfaction."
+  },
+  {
+    "id": "chance-5",
+    "word": "chance",
+    "reason": "Chance is a common word for an opportunity or possibility."
+  },
+  {
+    "id": "mister-3",
+    "word": "mister",
+    "reason": "Mister is a familiar title used to address a man."
+  },
+  {
+    "id": "tenzon",
+    "word": "tenzon",
+    "reason": "Tenzon is an obsolete term for a heated argument or poetic dispute."
+  },
+  {
+    "id": "mobile-payment-2",
+    "word": "mobile payment",
+    "reason": "Mobile payment is a common, transparent term for paying with a phone."
+  },
+  {
+    "id": "sieve-5",
+    "word": "sieve",
+    "reason": "Sieve is common, and the supplied definition describes a different agricultural tool."
+  },
+  {
+    "id": "chili-37",
+    "word": "chili",
+    "reason": "The supplied botanical definition describes a rose-family shrub, not chili."
+  },
+  {
+    "id": "cabbage-40",
+    "word": "cabbage",
+    "reason": "The supplied definition “muddy col” is malformed and does not define cabbage."
+  },
+  {
+    "id": "cohabitation",
+    "word": "cohabitation",
+    "reason": "Cohabitation is a familiar, transparent word for living together in one home."
+  },
+  {
+    "id": "gem-therapy",
+    "word": "gem therapy",
+    "reason": "Gem therapy is a niche alternative-therapy label rather than useful general vocabulary."
   }
 ]

@@ -267682,5 +267682,221 @@
         "text": "El mineral precioso azul se exhibió en la vitrina."
       }
     }
+  },
+  {
+    "entry": "curvatura",
+    "remove": [],
+    "set": {
+      "definition": "Forma curva de una línea, una superficie o una pieza.",
+      "synonyms": [
+        "curva"
+      ],
+      "example": {
+        "word": "curvatura",
+        "text": "La curvatura del camino reducía la visibilidad."
+      },
+      "exampleSynonym": {
+        "word": "curva",
+        "text": "La curva del camino reducía la visibilidad."
+      }
+    }
+  },
+  {
+    "entry": "fugaz",
+    "remove": [],
+    "set": {
+      "definition": "Que dura muy poco y desaparece pronto.",
+      "synonyms": [
+        "breve"
+      ],
+      "example": {
+        "word": "fugaz",
+        "text": "El encuentro fugaz dejó una impresión duradera."
+      },
+      "exampleSynonym": {
+        "word": "breve",
+        "text": "El encuentro breve dejó una impresión duradera."
+      }
+    }
+  },
+  {
+    "entry": "robotica",
+    "remove": [],
+    "set": {
+      "definition": "Disciplina que diseña y programa robots para realizar tareas.",
+      "synonyms": [
+        "tecnología de robots"
+      ],
+      "example": {
+        "word": "robótica",
+        "text": "El equipo estudia robótica en la universidad."
+      },
+      "exampleSynonym": {
+        "word": "tecnología de robots",
+        "text": "El equipo estudia tecnología de robots en la universidad."
+      }
+    }
+  },
+  {
+    "entry": "selectividad",
+    "remove": [],
+    "set": {
+      "definition": "Prueba de acceso a la universidad que se realiza en España.",
+      "synonyms": [
+        "prueba de acceso universitario"
+      ],
+      "example": {
+        "word": "selectividad",
+        "text": "Lucía aprobó la selectividad en junio."
+      },
+      "exampleSynonym": {
+        "word": "prueba de acceso universitario",
+        "text": "Lucía aprobó la prueba de acceso universitario en junio."
+      }
+    }
+  },
+  {
+    "entry": "zafiro",
+    "remove": [],
+    "set": {
+      "definition": "Variedad azul del corindón que se usa como gema.",
+      "synonyms": [
+        "cristal azul"
+      ],
+      "example": {
+        "word": "zafiro",
+        "text": "El zafiro brillaba en la vitrina."
+      },
+      "exampleSynonym": {
+        "word": "cristal azul",
+        "text": "El cristal azul brillaba en la vitrina."
+      }
+    }
+  },
+  {
+    "entry": "audiometro",
+    "remove": [],
+    "set": {
+      "definition": "Instrumento que mide la capacidad auditiva.",
+      "synonyms": [
+        "medidor de audición"
+      ],
+      "example": {
+        "word": "audiómetro",
+        "text": "El audiómetro midió la capacidad auditiva del paciente."
+      },
+      "exampleSynonym": {
+        "word": "medidor de audición",
+        "text": "El medidor de audición midió la capacidad auditiva del paciente."
+      }
+    }
+  },
+  {
+    "entry": "caspiroleta",
+    "remove": [],
+    "set": {
+      "definition": "Bebida caliente hecha con leche, huevo y azúcar.",
+      "synonyms": [
+        "bebida caliente"
+      ],
+      "example": {
+        "word": "caspiroleta",
+        "text": "La caspiroleta se sirvió durante la fiesta."
+      },
+      "exampleSynonym": {
+        "word": "bebida caliente",
+        "text": "La bebida caliente se sirvió durante la fiesta."
+      }
+    }
+  },
+  {
+    "entry": "changador",
+    "remove": [],
+    "set": {
+      "definition": "Persona que transporta equipajes en lugares públicos.",
+      "synonyms": [
+        "maletero"
+      ],
+      "example": {
+        "word": "changador",
+        "text": "El changador llevó las valijas hasta el andén."
+      },
+      "exampleSynonym": {
+        "word": "maletero",
+        "text": "El maletero llevó las valijas hasta el andén."
+      }
+    }
+  },
+  {
+    "entry": "chorra",
+    "remove": [],
+    "set": {
+      "definition": "Suerte o casualidad que hace que algo ocurra.",
+      "synonyms": [
+        "suerte"
+      ],
+      "example": {
+        "word": "chorra",
+        "text": "La chorra le permitió encontrar aparcamiento."
+      },
+      "exampleSynonym": {
+        "word": "suerte",
+        "text": "La suerte le permitió encontrar aparcamiento."
+      }
+    }
+  },
+  {
+    "entry": "cogestion",
+    "remove": [],
+    "set": {
+      "definition": "Gestión realizada en común por dos o más personas o grupos.",
+      "synonyms": [
+        "gestión compartida"
+      ],
+      "example": {
+        "word": "cogestión",
+        "text": "La cogestión del hospital reunió a médicos y pacientes."
+      },
+      "exampleSynonym": {
+        "word": "gestión compartida",
+        "text": "La gestión compartida del hospital reunió a médicos y pacientes."
+      }
+    }
+  },
+  {
+    "entry": "cuotear",
+    "remove": [],
+    "set": {
+      "definition": "Dividir un pago en partes o cuotas proporcionales.",
+      "synonyms": [
+        "repartir"
+      ],
+      "example": {
+        "word": "cuotear",
+        "text": "La empresa decidió cuotear el costo entre tres áreas."
+      },
+      "exampleSynonym": {
+        "word": "repartir",
+        "text": "La empresa decidió repartir el costo entre tres áreas."
+      }
+    }
+  },
+  {
+    "entry": "finitud",
+    "remove": [],
+    "set": {
+      "definition": "Cualidad de tener un límite o llegar a un final.",
+      "synonyms": [
+        "limitación"
+      ],
+      "example": {
+        "word": "finitud",
+        "text": "La finitud de la vida humana es un tema recurrente."
+      },
+      "exampleSynonym": {
+        "word": "limitación",
+        "text": "La limitación de la vida humana es un tema recurrente."
+      }
+    }
   }
 ]
