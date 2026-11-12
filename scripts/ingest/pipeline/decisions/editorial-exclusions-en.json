@@ -86721,5 +86721,325 @@
     "id": "infect-computer-virus",
     "word": "Infect",
     "reason": "Duplicate infect sense; retain the four separately reviewed disease, contamination, figurative, and computer-virus cards."
+  },
+  {
+    "id": "guide-dog",
+    "word": "guide dog",
+    "reason": "Guide dog es una expresión transparente y conocida para un perro que guía a una persona ciega."
+  },
+  {
+    "id": "charge-the-miller-the-maquila",
+    "word": "charge the miller the maquila",
+    "reason": "La frase es una instrucción opaca de molienda con el regionalismo maquila; no es una unidad léxica general."
+  },
+  {
+    "id": "china-silk-fabric",
+    "word": "china silk fabric",
+    "reason": "Es una frase descriptiva transparente para una tela; no constituye una palabra difícil de utilidad general."
+  },
+  {
+    "id": "cocaine-2",
+    "word": "cocaine",
+    "reason": "Cocaine es una palabra conocida del vocabulario general."
+  },
+  {
+    "id": "taco",
+    "word": "taco",
+    "reason": "Taco es una palabra común para una comida; el candidato describe otro sentido del español."
+  },
+  {
+    "id": "speak-softly-and-without-enthusiasm",
+    "word": "speak softly and without enthusiasm",
+    "reason": "La frase expresa su significado de forma directa y no es un lema difícil."
+  },
+  {
+    "id": "mountain-related",
+    "word": "mountain related",
+    "reason": "Mountain-related es una frase descriptiva transparente, no un lema difícil."
+  },
+  {
+    "id": "chamicero",
+    "word": "chamicero",
+    "reason": "Chamicero no es un lema documentado en inglés; la glosa parece una traducción errónea."
+  },
+  {
+    "id": "filip-8",
+    "word": "filip",
+    "reason": "No hay respaldo de Collins para Filip con el sentido de pescado ahumado; la glosa no es verificable como lema general."
+  },
+  {
+    "id": "chili-36",
+    "word": "chili",
+    "reason": "Chili es un alimento común; la glosa corresponde a una frase verbal española, no a un sentido inglés."
+  },
+  {
+    "id": "cabbage-41",
+    "word": "cabbage",
+    "reason": "Cabbage es una palabra básica común y el candidato solo contiene una nota regional incompleta."
+  },
+  {
+    "id": "spilled-quota",
+    "word": "Spilled quota",
+    "reason": "Spilled quota es una traducción literal opaca de una tasa comunitaria, no una expresión inglesa documentada."
+  },
+  {
+    "id": "novation",
+    "word": "Novation",
+    "reason": "Novation es un concepto especializado del derecho contractual y tiene poca utilidad general."
+  },
+  {
+    "id": "collection",
+    "word": "Collection",
+    "reason": "Collection es una palabra común; el sentido de recuperar una deuda no hace que este lema cumpla el criterio de dificultad."
+  },
+  {
+    "id": "municipal-benefit",
+    "word": "Municipal benefit",
+    "reason": "Municipal benefit es una frase descriptiva transparente, no un lema inglés difícil."
+  },
+  {
+    "id": "clunker",
+    "word": "clunker",
+    "reason": "La entrada solo contiene una lista de países, no una definición; clunker es un término informal común para un vehículo viejo o defectuoso."
+  },
+  {
+    "id": "clipboard",
+    "word": "clipboard",
+    "reason": "Clipboard es un objeto cotidiano y su definición es sencilla."
+  },
+  {
+    "id": "southwest",
+    "word": "Southwest",
+    "reason": "Southwest es un punto cardinal compuesto, común y fácil de entender."
+  },
+  {
+    "id": "mower",
+    "word": "mower",
+    "reason": "Mower es una palabra común para una máquina que corta hierba; la glosa de cosechar trigo no define el sentido general."
+  },
+  {
+    "id": "rhythmic",
+    "word": "rhythmic",
+    "reason": "Rhythmic es un adjetivo común y fácil relacionado con el ritmo."
+  },
+  {
+    "id": "halberd",
+    "word": "Halberd",
+    "reason": "Halberd es un arma histórica especializada y la glosa de golpe no describe el significado principal."
+  },
+  {
+    "id": "tell-us",
+    "word": "tell us",
+    "reason": "Tell us es una frase verbal común y la glosa de oruga no corresponde a su significado inglés."
+  },
+  {
+    "id": "remarkable",
+    "word": "Remarkable",
+    "reason": "Remarkable es un adjetivo común y sencillo para algo digno de atención o comentario."
+  },
+  {
+    "id": "fruitable",
+    "word": "Fruitable",
+    "reason": "Fruitable es una forma rara y transparente de fruit, con el sentido de que puede dar fruto."
+  },
+  {
+    "id": "copulation",
+    "word": "Copulation",
+    "reason": "La glosa se refiere a una definición lógica especializada y no a un sentido útil de copulation para el vocabulario general."
+  },
+  {
+    "id": "crested",
+    "word": "Crested",
+    "reason": "Crested significa que tiene cresta; es una descripción transparente y de baja dificultad."
+  },
+  {
+    "id": "mismatch",
+    "word": "Mismatch",
+    "reason": "Mismatch es un sustantivo común y fácil para una falta de correspondencia."
+  },
+  {
+    "id": "chadizo",
+    "word": "Chadizo",
+    "reason": "Chadizo no es una palabra inglesa documentada; la glosa describe una labor de espionaje sin sustento en Collins."
+  },
+  {
+    "id": "cowering",
+    "word": "cowering",
+    "reason": "Cowering es una forma común de cower; la glosa sobre toros no coincide con el sentido inglés."
+  },
+  {
+    "id": "fruit",
+    "word": "fruit",
+    "reason": "Fruit es una palabra básica común; la glosa verbal de disfrute no es un sentido actual de alta utilidad."
+  },
+  {
+    "id": "ceramite",
+    "word": "Ceramite",
+    "reason": "Ceramite no es un lema de Collins en el sentido de compuesto de arcilla y vidrio; la glosa no es verificable como palabra general."
+  },
+  {
+    "id": "cleverness",
+    "word": "Cleverness",
+    "reason": "Cleverness es una palabra común para inteligencia o ingenio; diligencia y vivacidad no corresponden a su sentido."
+  },
+  {
+    "id": "chlorate",
+    "word": "Chlorate",
+    "reason": "Chlorate nombra una sal química específica y tiene poca utilidad fuera de la química."
+  },
+  {
+    "id": "skirts",
+    "word": "Skirts",
+    "reason": "Skirts es una forma común de skirt; la glosa sobre cubrir las nalgas es imprecisa."
+  },
+  {
+    "id": "gelignite",
+    "word": "Gelignite",
+    "reason": "Gelignite es un explosivo especializado, de poca utilidad en el vocabulario general."
+  },
+  {
+    "id": "motherclaw",
+    "word": "Motherclaw",
+    "reason": "Motherclaw no aparece en Collins como el nombre inglés documentado de un clavo redondeado."
+  },
+  {
+    "id": "cottage-cheese-maker",
+    "word": "cottage cheese maker",
+    "reason": "Cottage cheese maker es una frase transparente que describe a quien fabrica queso cottage."
+  },
+  {
+    "id": "narcein",
+    "word": "Narcein",
+    "reason": "Narcein es un alcaloide de la adormidera, un término químico de baja utilidad general."
+  },
+  {
+    "id": "samoyed",
+    "word": "Samoyed",
+    "reason": "Samoyed es el nombre propio de una raza concreta de perro, no vocabulario general."
+  },
+  {
+    "id": "semi-rigid",
+    "word": "Semi-rigid",
+    "reason": "Semi-rigid es una combinación transparente que significa rígido con cierta flexibilidad."
+  },
+  {
+    "id": "serventesius",
+    "word": "Serventesius",
+    "reason": "Serventesius no es un lema inglés documentado; parece una forma corrupta de un término poético histórico."
+  },
+  {
+    "id": "slurping",
+    "word": "Slurping",
+    "reason": "Slurping es una forma común de slurp; la glosa sobre protestar a gritos no corresponde."
+  },
+  {
+    "id": "that-one",
+    "word": "That one",
+    "reason": "That one is a common demonstrative phrase, not a difficult or distinct dictionary word."
+  },
+  {
+    "id": "monster",
+    "word": "monster",
+    "reason": "Monster es una palabra común; la glosa recibida, “production against the regular order of nature”, no corresponde a este lema."
+  },
+  {
+    "id": "clod",
+    "word": "clod",
+    "reason": "Clod es una palabra básica para un terrón de tierra y no cumple el criterio de dificultad editorial."
+  },
+  {
+    "id": "saccharigen",
+    "word": "Saccharigen",
+    "reason": "Saccharigen es un término técnico raro para algo que produce azúcar, con muy poca utilidad general."
+  },
+  {
+    "id": "taxonomist",
+    "word": "Taxonomist",
+    "reason": "Taxonomist nombra a un especialista en clasificación biológica, una ocupación demasiado específica para esta selección."
+  },
+  {
+    "id": "tiliaceous",
+    "word": "Tiliaceous",
+    "reason": "Tiliaceous es un adjetivo botánico referido a una familia concreta de plantas y tiene poca utilidad general."
+  },
+  {
+    "id": "civil-code-2",
+    "word": "civil code",
+    "reason": "Civil code is a transparent legal phrase and its meaning is already clear from its two common words."
+  },
+  {
+    "id": "supreme-court-2",
+    "word": "Supreme Court",
+    "reason": "Supreme Court names a particular kind of institution and is not a difficult general vocabulary item."
+  },
+  {
+    "id": "intern-3",
+    "word": "Intern",
+    "reason": "Intern is a common word for a trainee; the proposed synonym practitioner does not mean the same thing."
+  },
+  {
+    "id": "stethoscope-2",
+    "word": "Stethoscope",
+    "reason": "Stethoscope names a familiar medical instrument and its definition is already easy to understand."
+  },
+  {
+    "id": "guard-2",
+    "word": "Guard",
+    "reason": "Guard is a common word for protecting or watching; the supplied sense “store something very carefully” is not supported by Collins."
+  },
+  {
+    "id": "squeeze-5",
+    "word": "Squeeze",
+    "reason": "Squeeze is a common verb meaning to press firmly; storing an olive in a jar is an unrelated, corrupted gloss."
+  },
+  {
+    "id": "dismantle-8",
+    "word": "Dismantle",
+    "reason": "The supplied sense about removing artillery from a fortress is a narrow historical military use; the everyday meanings of dismantle are common."
+  },
+  {
+    "id": "deny-5",
+    "word": "deny",
+    "reason": "Deny is a common basic verb meaning to say that something is not true, so it does not meet the difficulty criterion."
+  },
+  {
+    "id": "lavender-2",
+    "word": "Lavender",
+    "reason": "Lavender is a common plant and color; the supplied bleach definition describes a different substance."
+  },
+  {
+    "id": "cloudy-3",
+    "word": "Cloudy",
+    "reason": "Cloudy is a common adjective for a sky or liquid; “fill some clouds or fog” is not a supported sense."
+  },
+  {
+    "id": "sugar-3",
+    "word": "Sugar",
+    "reason": "Sugar is a common basic word; the supplied sense describes a narrowly specialized worker and is not a general meaning."
+  },
+  {
+    "id": "interesting-3",
+    "word": "Interesting",
+    "reason": "Interesting is a common adjective and “with interest” does not provide a difficult or useful distinct sense."
+  },
+  {
+    "id": "almoner-3",
+    "word": "Almoner",
+    "reason": "Almoner means a person who gives or manages charitable aid, not a bag; the candidate sense is corrupt and the correct role is historical and rare."
+  },
+  {
+    "id": "scraper-3",
+    "word": "Scraper",
+    "reason": "Scraper transparently names a tool that scrapes, and is easy to understand from the common verb scrape."
+  },
+  {
+    "id": "shaking-2",
+    "word": "Shaking",
+    "reason": "Shaking is a common form of shake; the supplied dust-cleaning gloss is an awkward, unsupported specialization."
+  },
+  {
+    "id": "sell-3",
+    "word": "Sell",
+    "reason": "Sell is a common basic verb meaning to exchange goods for money; “there is too much wind” is unrelated."
   }
 ]

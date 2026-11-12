@@ -93022,5 +93022,335 @@
     "id": "tutia",
     "word": "tutía",
     "reason": "El DLE remite tutía a atutía, una sustancia medicinal antigua; la expresión no hay tutía es un sentido fraseológico aparte, no una ficha de esta palabra."
+  },
+  {
+    "id": "contracandela",
+    "word": "contracandela",
+    "reason": "El DLE marca contracandela como voz cubana para contrafuego."
+  },
+  {
+    "id": "costribar",
+    "word": "costribar",
+    "reason": "Los dos sentidos del DLE están marcados como desusados."
+  },
+  {
+    "id": "dehortar",
+    "word": "dehortar",
+    "reason": "El DLE marca dehortar como desusado; significa disuadir o desaconsejar."
+  },
+  {
+    "id": "descalzar",
+    "word": "descalzar",
+    "reason": "Quitar el calzado es un uso común y fácil."
+  },
+  {
+    "id": "lodono",
+    "word": "lodoño",
+    "reason": "El DLE marca lodoño como voz navarra para un árbol (almez), de baja utilidad general."
+  },
+  {
+    "id": "nadilla",
+    "word": "nadilla",
+    "reason": "El DLE marca nadilla como poco usada y describe a un hombre pobre de origen humilde."
+  },
+  {
+    "id": "segable",
+    "word": "segable",
+    "reason": "Es un adjetivo agrícola transparente: algo listo para segarse."
+  },
+  {
+    "id": "sornaguear",
+    "word": "sornaguear",
+    "reason": "El DLE marca el verbo como costarricense."
+  },
+  {
+    "id": "tepetal",
+    "word": "tepetal",
+    "reason": "El DLE marca tepetal como voz mexicana para un terreno con abundante tepetate."
+  },
+  {
+    "id": "turdion",
+    "word": "turdión",
+    "reason": "El turdión es una danza antigua relacionada con la gallarda y tiene poca utilidad actual."
+  },
+  {
+    "id": "vergueta",
+    "word": "vergueta",
+    "reason": "La glosa de cerrojo no coincide con el DLE; sus sentidos documentados son una varita delgada y un uso desusado."
+  },
+  {
+    "id": "baraton",
+    "word": "baratón",
+    "reason": "La forma no es un acusativo de barato; el DLE recoge un sentido regional de poco valor y otro desusado."
+  },
+  {
+    "id": "vibrion",
+    "word": "vibrión",
+    "reason": "Vibrión es un término de biología para una bacteria curva, incluida la que causa el cólera."
+  },
+  {
+    "id": "aguambado",
+    "word": "aguambado",
+    "reason": "El DLE marca aguambado como coloquial de El Salvador."
+  },
+  {
+    "id": "anacora",
+    "word": "anacora",
+    "reason": "Anacora es una trompa o corneta poco conocida y de baja utilidad general."
+  },
+  {
+    "id": "bearnesa",
+    "word": "bearnesa",
+    "reason": "Bearnesa es el femenino de un gentilicio y adjetivo regional."
+  },
+  {
+    "id": "benzina",
+    "word": "benzina",
+    "reason": "Benzina aparece en el DLE solo como variante de bencina para gasolina; es una forma alternativa de un concepto común."
+  },
+  {
+    "id": "cavatina",
+    "word": "cavatina",
+    "reason": "Cavatina es un tipo de aria y tiene poca utilidad fuera del vocabulario musical especializado."
+  },
+  {
+    "id": "beguina",
+    "word": "beguina",
+    "reason": "Beguina nombra a una mujer de antiguas comunidades religiosas de Bélgica; es un término histórico especializado."
+  },
+  {
+    "id": "deltaico",
+    "word": "deltaico",
+    "reason": "Deltaico significa relativo a un delta; es transparente y pertenece sobre todo al vocabulario geográfico."
+  },
+  {
+    "id": "retocador",
+    "word": "retocador",
+    "reason": "Retocador es un derivado transparente de retocar y se refiere a quien retoca fotografías."
+  },
+  {
+    "id": "tostadero",
+    "word": "tostadero",
+    "reason": "Tostadero se entiende como lugar o aparato donde se tuesta; sus sentidos son transparentes y de utilidad limitada."
+  },
+  {
+    "id": "welter",
+    "word": "wélter",
+    "reason": "Wélter nombra una categoría de peso del boxeo; es un término deportivo especializado."
+  },
+  {
+    "id": "yagual",
+    "word": "yagual",
+    "reason": "El DLE marca yagual como propio de varios países de Centroamérica y México."
+  },
+  {
+    "id": "bueyuno",
+    "word": "bueyuno",
+    "reason": "Bueyuno remite a boyuno y significa bovino; es una variante transparente y de uso especializado."
+  },
+  {
+    "id": "chandoso",
+    "word": "chandoso",
+    "reason": "El DLE marca chandoso como colombiano y lo usa para describir a un perro sarnoso."
+  },
+  {
+    "id": "chulunco",
+    "word": "chulunco",
+    "reason": "El DLE marca chulunco como propio de El Salvador y Honduras."
+  },
+  {
+    "id": "conmutativo",
+    "word": "conmutativo",
+    "reason": "La glosa solo ofrece la forma femenina; el sentido matemático de conmutativo es especializado y de utilidad general limitada."
+  },
+  {
+    "id": "totoreco",
+    "word": "totoreco",
+    "reason": "El DLE define totoreco como medio ebrio en El Salvador; la glosa de “tonto” es incorrecta."
+  },
+  {
+    "id": "apellidador",
+    "word": "apellidador",
+    "reason": "Apellidador es un derivado poco útil para quien apellida; la glosa adicional apellidero no aclara el uso general."
+  },
+  {
+    "id": "avutardado",
+    "word": "avutardado",
+    "reason": "Avutardado significa parecido a una avutarda; es un adjetivo descriptivo muy específico."
+  },
+  {
+    "id": "bacinero",
+    "word": "bacinero",
+    "reason": "El DLE marca bacinero como desusado y lo define como quien recoge limosnas para obras religiosas."
+  },
+  {
+    "id": "bonina",
+    "word": "bonina",
+    "reason": "Bonina remite a una planta llamada manzanilla loca; es un nombre botánico de baja utilidad."
+  },
+  {
+    "id": "brutesco",
+    "word": "brutesco",
+    "reason": "El DLE remite brutesco a grutesco, una forma ornamental especializada; la glosa de tosco o grosero no es correcta."
+  },
+  {
+    "id": "cartometria",
+    "word": "cartometría",
+    "reason": "Cartometría es la medición de líneas en mapas; es un término técnico de cartografía."
+  },
+  {
+    "id": "chupativo",
+    "word": "chupativo",
+    "reason": "El DLE define chupativo como algo capaz de absorber o chupar; el derivado es transparente y de poca utilidad general."
+  },
+  {
+    "id": "claviculado",
+    "word": "claviculado",
+    "reason": "Claviculado significa que tiene clavículas; es un adjetivo anatómico especializado."
+  },
+  {
+    "id": "cortijero",
+    "word": "cortijero",
+    "reason": "Cortijero nombra a quien cuida o trabaja en un cortijo, un oficio rural de uso limitado."
+  },
+  {
+    "id": "tequioso",
+    "word": "tequioso",
+    "reason": "El DLE marca tequioso como costarricense para un niño travieso o inquieto; la glosa recibida no corresponde."
+  },
+  {
+    "id": "zamarriego",
+    "word": "zamarriego",
+    "reason": "El DLE define zamarriego como gentilicio de Zamarramala; la glosa sobre el zamarro es incorrecta."
+  },
+  {
+    "id": "alua",
+    "word": "alúa",
+    "reason": "Alúa no aparece en el DLE; el sentido propuesto como cocuyo no tiene respaldo para esta forma."
+  },
+  {
+    "id": "bolseador",
+    "word": "bolseador",
+    "reason": "El DLE marca bolseador como mexicano para carterista."
+  },
+  {
+    "id": "chauche",
+    "word": "chauche",
+    "reason": "Chauche es un nombre antiguo y regional de una pintura para pavimentos, de poca utilidad general."
+  },
+  {
+    "id": "dactilion",
+    "word": "dactilión",
+    "reason": "Dactilión es un antiguo aparato de práctica para piano; es un término musical especializado."
+  },
+  {
+    "id": "babilon",
+    "word": "babilón",
+    "reason": "Babilón es una forma gentilicia relacionada con Babilonia y no aporta vocabulario general de uso actual."
+  },
+  {
+    "id": "butiroso",
+    "word": "butiroso",
+    "reason": "Butiroso es un adjetivo raro y prescindible; mantecoso es la forma corriente."
+  },
+  {
+    "id": "cachigordo",
+    "word": "cachigordo",
+    "reason": "El DLE lo marca coloquial y solo describe a una persona pequeña y gorda; su utilidad general es baja."
+  },
+  {
+    "id": "venino",
+    "word": "venino",
+    "reason": "El DLE marca como desusados sus sentidos de venenoso, veneno y divieso; no es vocabulario actual."
+  },
+  {
+    "id": "giganteo",
+    "word": "giganteo",
+    "reason": "Giganteo es una variante rara de gigantesco, que es la forma habitual."
+  },
+  {
+    "id": "lijadora",
+    "word": "lijadora",
+    "reason": "Lijadora es un nombre transparente de una máquina común para lijar, formado directamente a partir del verbo lijar."
+  },
+  {
+    "id": "retractilidad",
+    "word": "retractilidad",
+    "reason": "Retractilidad es un término especializado derivado de retráctil y de escasa utilidad general."
+  },
+  {
+    "id": "ribonucleotido",
+    "word": "ribonucleótido",
+    "reason": "Ribonucleótido es un término técnico de bioquímica y biología molecular, de baja utilidad para el diccionario general."
+  },
+  {
+    "id": "semidormido",
+    "word": "semidormido",
+    "reason": "Semidormido combina medio y dormido; su significado es transparente y fácil de entender."
+  },
+  {
+    "id": "sextuplicar",
+    "word": "sextuplicar",
+    "reason": "Sextuplicar significa multiplicar por seis; la composición del verbo hace que su sentido sea fácil de deducir."
+  },
+  {
+    "id": "substantivar",
+    "word": "substantivar",
+    "reason": "El DLE redirige substantivar a sustantivar y recoge allí sentidos de gramática y filosofía especializados; la forma y glosa candidatas no justifican una ficha general."
+  },
+  {
+    "id": "tinterillo",
+    "word": "tinterillo",
+    "reason": "El DLE lo marca despectivo y coloquial para oficinista y regional para un abogado poco preparado; no es vocabulario general neutral."
+  },
+  {
+    "id": "trifurcarse",
+    "word": "trifurcarse",
+    "reason": "Trifurcarse significa dividirse en tres; su forma permite deducir el sentido y su uso es técnico."
+  },
+  {
+    "id": "trinchador",
+    "word": "trinchador",
+    "reason": "Trinchador es quien trincha; el significado se deduce fácilmente del verbo trinchar y es un uso muy específico de mesa."
+  },
+  {
+    "id": "uro",
+    "word": "uro",
+    "reason": "Uro nombra a un bóvido salvaje extinto desde el siglo XVII; es un término histórico y zoológico muy específico."
+  },
+  {
+    "id": "uncidor",
+    "word": "uncidor",
+    "reason": "Uncidor designa a quien unce o sirve para uncir animales; es un término rural de uso muy limitado."
+  },
+  {
+    "id": "ustible",
+    "word": "ustible",
+    "reason": "Ustible significa que algo puede quemarse, pero es una voz rara y prescindible frente a combustible."
+  },
+  {
+    "id": "volapuk",
+    "word": "volapuk",
+    "reason": "Volapuk es una lengua artificial del siglo XIX que apenas se usa hoy; tiene poca utilidad para el vocabulario general."
+  },
+  {
+    "id": "volatizar",
+    "word": "volatizar",
+    "reason": "El DLE remite volatizar a volatilizar, forma más habitual para convertir algo en vapor o dispersarlo."
+  },
+  {
+    "id": "zafacon",
+    "word": "zafacón",
+    "reason": "El DLE limita zafacón a Puerto Rico y República Dominicana; se excluye por ser una voz regional."
+  },
+  {
+    "id": "afirmar",
+    "word": "afirmar",
+    "reason": "Afirmar es un verbo común y fácil; la definición sencilla no justifica mantenerlo como palabra difícil."
+  },
+  {
+    "id": "antilope",
+    "word": "antílope",
+    "reason": "Antílope es el nombre común de un grupo conocido de mamíferos y no cumple el criterio de dificultad editorial."
   }
 ]
