@@ -83551,5 +83551,70 @@
     "id": "crawled-2",
     "word": "crawled",
     "reason": "This card names the South American tree urundey and is not a verified English sense of the common inflection crawled."
+  },
+  {
+    "id": "rubiaceous",
+    "word": "Rubiaceous",
+    "reason": "Valid botanical adjective, but it names a specific plant family and has little general vocabulary value."
+  },
+  {
+    "id": "sabulous",
+    "word": "Sabulous",
+    "reason": "A rare adjective that means sandy or gritty; the meaning is easy to express with common words."
+  },
+  {
+    "id": "scatophile",
+    "word": "Scatophile",
+    "reason": "No Collins entry or reliable current use was found for the proposed animal sense; the rare formation has little general value."
+  },
+  {
+    "id": "swift-code-2",
+    "word": "SWIFT code",
+    "reason": "This template card duplicates the useful existing «swift-code» entry, which already has a natural example and the synonym «BIC»."
+  },
+  {
+    "id": "chargeback-2",
+    "word": "Chargeback",
+    "reason": "This template card duplicates the existing «chargeback» card, which already explains a payment reversal in plain language."
+  },
+  {
+    "id": "release-2",
+    "word": "release",
+    "reason": "The simple sense «set a prisoner free» is ordinary vocabulary and is repeated in sibling template cards."
+  },
+  {
+    "id": "grind-3",
+    "word": "Grind",
+    "reason": "The proposed harvesting gloss is malformed and is not a current English sense supported by Collins."
+  },
+  {
+    "id": "mood-2",
+    "word": "Mood",
+    "reason": "The gloss «that belongs to the spirit» is unclear and does not establish a distinct current adjective sense of «mood»."
+  },
+  {
+    "id": "cloud-2",
+    "word": "Cloud",
+    "reason": "The proposed sense is the ordinary, easily understood verb meaning of covering or darkening the sky or a light."
+  },
+  {
+    "id": "skinning-2",
+    "word": "Skinning",
+    "reason": "A regular and transparent -ing form meaning «removing the skin», not a separate difficult word."
+  },
+  {
+    "id": "release-3",
+    "word": "Release",
+    "reason": "The template gloss «sell or distribute something for pounds» is malformed and does not match a reliable Collins sense."
+  },
+  {
+    "id": "release-4",
+    "word": "Release",
+    "reason": "This ordinary «set someone free» sense duplicates the release-of-a-prisoner sense and adds no difficult vocabulary."
+  },
+  {
+    "id": "release-6",
+    "word": "release",
+    "reason": "This ordinary «free a slave» gloss duplicates the common sense of setting someone free."
   }
 ]

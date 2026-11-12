@@ -89497,5 +89497,50 @@
     "id": "trascanton",
     "word": "trascantón",
     "reason": "La ficha es inexacta. Los sentidos correctos incluyen un poste protector, un antiguo oficio y una locución coloquial; la voz tiene muy poco uso actual."
+  },
+  {
+    "id": "bistrecha",
+    "word": "bistrecha",
+    "reason": "El DLE no recoge la voz y no se encontró respaldo léxico fiable para el sentido de «anticipo de un pago»."
+  },
+  {
+    "id": "cuatachismo",
+    "word": "cuatachismo",
+    "reason": "El DLE la marca como voz mexicana para nepotismo; el concepto ya se cubre con una forma general de mayor utilidad."
+  },
+  {
+    "id": "corrupia",
+    "word": "corrupia",
+    "reason": "El DLE remite a la locución «fiera corrupia»; la voz aislada no tiene el sentido de una figura animal independiente."
+  },
+  {
+    "id": "ugre",
+    "word": "ugre",
+    "reason": "El sentido propuesto es una especie arbórea de Costa Rica, de utilidad general muy baja."
+  },
+  {
+    "id": "arcuado",
+    "word": "arcuado",
+    "reason": "Adjetivo transparente que solo significa «con forma de arco»."
+  },
+  {
+    "id": "cambullonero",
+    "word": "cambullonero",
+    "reason": "El DLE recoge dos sentidos de Canarias ligados al comercio informal y al tráfico de víveres; tienen alcance regional y uso limitado."
+  },
+  {
+    "id": "carduzador",
+    "word": "carduzador",
+    "reason": "No se encontró una entrada fiable para esta forma derivada de oficio; el significado propuesto no basta para validar una ficha independiente."
+  },
+  {
+    "id": "constipativo",
+    "word": "constipativo",
+    "reason": "El DLE marca como desusado el adjetivo «que produce constipación»."
+  },
+  {
+    "id": "deleznadizo",
+    "word": "deleznadizo",
+    "reason": "El DLE marca como desusado este sinónimo de «resbaladizo» y «escurridizo»."
   }
 ]
