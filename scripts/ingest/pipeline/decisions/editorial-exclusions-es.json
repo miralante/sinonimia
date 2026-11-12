@@ -99702,5 +99702,635 @@
     "id": "cariduro",
     "word": "cariduro",
     "reason": "Cariduro remite a fajardeño, un gentilicio de uso muy local y poco conocido."
+  },
+  {
+    "id": "tila",
+    "word": "tila",
+    "reason": "Tila es una palabra cotidiana para una infusión conocida y para el árbol del que procede."
+  },
+  {
+    "id": "tucada",
+    "word": "tucada",
+    "reason": "Tucada es una voz coloquial y regional de Chile con uso limitado fuera de esa variedad."
+  },
+  {
+    "id": "utensilio",
+    "word": "utensilio",
+    "reason": "Utensilio es una palabra cotidiana para un objeto que se usa al hacer una tarea."
+  },
+  {
+    "id": "vagido",
+    "word": "vagido",
+    "reason": "Vagido es una voz literaria poco usada para un llanto débil, sobre todo de un recién nacido."
+  },
+  {
+    "id": "virreino",
+    "word": "virreino",
+    "reason": "Virreino es una variante antigua y poco usada de virreinato."
+  },
+  {
+    "id": "zarposo",
+    "word": "zarposo",
+    "reason": "Zarposo es una voz poco extendida y reúne usos regionales de baja utilidad general."
+  },
+  {
+    "id": "zolocho",
+    "word": "zolocho",
+    "reason": "Zolocho es una voz regional poco usada para una persona simple o poco inteligente."
+  },
+  {
+    "id": "acuesto",
+    "word": "acuesto",
+    "reason": "Acuesto es una voz poco usada para una pendiente y no resulta útil para el vocabulario general."
+  },
+  {
+    "id": "alentador",
+    "word": "alentador",
+    "reason": "Alentador es un adjetivo habitual para algo que anima o da esperanza."
+  },
+  {
+    "id": "busqueda",
+    "word": "búsqueda",
+    "reason": "Búsqueda es una palabra cotidiana para la acción de buscar algo o a alguien."
+  },
+  {
+    "id": "ce",
+    "word": "ce",
+    "reason": "Ce es el nombre conocido de la letra c."
+  },
+  {
+    "id": "cobijo",
+    "word": "cobijo",
+    "reason": "Cobijo es una palabra habitual para un lugar o una forma de protección."
+  },
+  {
+    "id": "conteo",
+    "word": "conteo",
+    "reason": "Conteo es una palabra común para la acción de contar."
+  },
+  {
+    "id": "dardo",
+    "word": "dardo",
+    "reason": "Dardo es el nombre habitual de un objeto pequeño que se lanza con la mano."
+  },
+  {
+    "id": "fronterizo",
+    "word": "fronterizo",
+    "reason": "Fronterizo es un adjetivo claro y frecuente para algo situado junto a una frontera."
+  },
+  {
+    "id": "tata",
+    "word": "tata",
+    "reason": "Tata is a familiar affectionate family word in several Spanish-speaking regions."
+  },
+  {
+    "id": "telegrama",
+    "word": "telegrama",
+    "reason": "A telegram is an old form of message delivery that has little current everyday use."
+  },
+  {
+    "id": "viajero",
+    "word": "viajero",
+    "reason": "Viajero is a familiar word for a person who travels."
+  },
+  {
+    "id": "vira",
+    "word": "vira",
+    "reason": "Vira is an old, little-used name for a narrow pointed projectile."
+  },
+  {
+    "id": "vistazo",
+    "word": "vistazo",
+    "reason": "Vistazo is a familiar word for a quick look."
+  },
+  {
+    "id": "arismetico",
+    "word": "arismético",
+    "reason": "The entry labels a feminine adjective as a separate headword, although the word is an uncommon variant form and not a useful independent entry."
+  },
+  {
+    "id": "toison",
+    "word": "toisón",
+    "reason": "Toisón is a rare, old word for the wool shorn from a sheep."
+  },
+  {
+    "id": "apegualar",
+    "word": "apegualar",
+    "reason": "Apegualar is a highly regional Chilean verb for using a pegual, a specialized horse tack item."
+  },
+  {
+    "id": "apirularse",
+    "word": "apirularse",
+    "reason": "Apirularse is a regional Chilean word for dressing up, with little use outside that variety."
+  },
+  {
+    "id": "apostolicidad",
+    "word": "apostolicidad",
+    "reason": "Apostolicidad is a specialized church term for the quality of being apostolic."
+  },
+  {
+    "id": "arcabuezo",
+    "word": "arcabuezo",
+    "reason": "Arcabuezo is an obsolete variant form with no useful current meaning of its own."
+  },
+  {
+    "id": "armonium",
+    "word": "armónium",
+    "reason": "Armónium is a little-used variant of armonio, the name of a musical instrument."
+  },
+  {
+    "id": "azanoriate",
+    "word": "azanoriate",
+    "reason": "Azanoriate is a rare regional variant of zanahoria and is not an independent useful headword."
+  },
+  {
+    "id": "badal",
+    "word": "badal",
+    "reason": "Badal is an obscure name for a specialized animal-handling tool."
+  },
+  {
+    "id": "bajelero",
+    "word": "bajelero",
+    "reason": "Bajelero is an old maritime term for the owner or charterer of a sailing vessel."
+  },
+  {
+    "id": "barcia",
+    "word": "barcia",
+    "reason": "Barcia is an obscure agricultural term for waste removed when cleaning grain."
+  },
+  {
+    "id": "bartolillo",
+    "word": "bartolillo",
+    "reason": "Bartolillo is a regional name for a small pastry and has limited general use."
+  },
+  {
+    "id": "galanteria",
+    "word": "galantería",
+    "reason": "Galantería es una palabra común para un gesto o palabra cortés y atenta."
+  },
+  {
+    "id": "gamo",
+    "word": "gamo",
+    "reason": "Gamo es un nombre común de un ciervo de tamaño mediano y su definición zoológica puede simplificarse sin crear un sentido difícil."
+  },
+  {
+    "id": "mamporrero",
+    "word": "mamporrero",
+    "reason": "Mamporrero nombra a quien ayuda en la reproducción de caballos y otros animales domésticos, un oficio rural muy especializado."
+  },
+  {
+    "id": "ringorrango",
+    "word": "ringorrango",
+    "reason": "Ringorrango es una voz poco usada para un adorno caligráfico exagerado e innecesario."
+  },
+  {
+    "id": "robinia",
+    "word": "robinia",
+    "reason": "Robinia es el nombre de un género de árboles y constituye vocabulario botánico especializado."
+  },
+  {
+    "id": "semitismo",
+    "word": "semitismo",
+    "reason": "Semitismo designa rasgos lingüísticos o culturales de pueblos semíticos o el estudio de sus lenguas y culturas; es un término especializado y puede confundirse con antisemitismo."
+  },
+  {
+    "id": "solio",
+    "word": "solio",
+    "reason": "Solio es una voz literaria y antigua para un trono o asiento solemne, a menudo bajo dosel."
+  },
+  {
+    "id": "bellardina",
+    "word": "bellardina",
+    "reason": "Bellardina is a rare fabric name with little use in everyday reading."
+  },
+  {
+    "id": "bocear",
+    "word": "bocear",
+    "reason": "Bocear is a rare verb for a horse moving its lips and has little general use."
+  },
+  {
+    "id": "boyera",
+    "word": "boyera",
+    "reason": "Boyera is a rural term for a pen or stable for oxen."
+  },
+  {
+    "id": "cangar",
+    "word": "cangar",
+    "reason": "Cangar is a regional Salamanca word tied to a little-known local game."
+  },
+  {
+    "id": "caruncular",
+    "word": "caruncular",
+    "reason": "Caruncular is a narrow anatomical adjective derived from the specialist term caruncle."
+  },
+  {
+    "id": "catibo",
+    "word": "catibo",
+    "reason": "Catibo is a little-known Cuban name for a local reptile."
+  },
+  {
+    "id": "ceborrincha",
+    "word": "ceborrincha",
+    "reason": "Ceborrincha is a rare regional name for a wild onion."
+  },
+  {
+    "id": "chirlomirlo",
+    "word": "chirlomirlo",
+    "reason": "Chirlomirlo is an uncommon colloquial word for being slightly drunk."
+  },
+  {
+    "id": "codicillo",
+    "word": "codicillo",
+    "reason": "Codicillo is an obsolete variant of codicilo and has no useful current meaning of its own."
+  },
+  {
+    "id": "conjeturable",
+    "word": "conjeturable",
+    "reason": "Conjeturable is a transparent form meaning that something can be guessed or supposed."
+  },
+  {
+    "id": "correar",
+    "word": "correar",
+    "reason": "Correar is an obsolete textile verb with little use outside a specialized trade."
+  },
+  {
+    "id": "corrosca",
+    "word": "corrosca",
+    "reason": "Corrosca is a regional Colombian name for a broad straw hat."
+  },
+  {
+    "id": "curangano",
+    "word": "curángano",
+    "reason": "Curángano is a rare derogatory word for a priest and has little neutral general use."
+  },
+  {
+    "id": "cutete",
+    "word": "cutete",
+    "reason": "Cutete is a regional Guatemalan name for a group of iguanid reptiles."
+  },
+  {
+    "id": "deanato",
+    "word": "deanato",
+    "reason": "Deanato is a specialized church term for the office or rank of a dean."
+  },
+  {
+    "id": "desenlabonar",
+    "word": "desenlabonar",
+    "reason": "Desenlabonar is a rare variant of deseslabonar and has little current general use."
+  },
+  {
+    "id": "desensebar",
+    "word": "desensebar",
+    "reason": "Desensebar is a specialized butchering verb for removing fat from a live animal."
+  },
+  {
+    "id": "floretear",
+    "word": "floretear",
+    "reason": "Floretear is a transparent verb for decorating something with flowers."
+  },
+  {
+    "id": "restituible",
+    "word": "restituible",
+    "reason": "Restituible is a transparent form meaning that something can be returned or restored."
+  },
+  {
+    "id": "sobajadura",
+    "word": "sobajadura",
+    "reason": "Sobajadura is a rare word for overfamiliar handling or treatment."
+  },
+  {
+    "id": "soplazon",
+    "word": "soplazón",
+    "reason": "Soplazón is a regional Salvadoran word for intestinal gas and is not widely used."
+  },
+  {
+    "id": "tartarita",
+    "word": "tartarita",
+    "reason": "Tartarita is a regional Guatemalan name for a kind of milk candy."
+  },
+  {
+    "id": "timocrata",
+    "word": "timócrata",
+    "reason": "Timócrata is a highly specialized term for a supporter of the rare political system timocracy."
+  },
+  {
+    "id": "tocable",
+    "word": "tocable",
+    "reason": "Tocable is a transparent form meaning that something can be touched."
+  },
+  {
+    "id": "torreznada",
+    "word": "torreznada",
+    "reason": "Torreznada is a rare word for a large serving of fried pork cracklings."
+  },
+  {
+    "id": "tranzar",
+    "word": "tranzar",
+    "reason": "Tranzar combines rare or old senses for cutting and braiding and is not a clear current headword."
+  },
+  {
+    "id": "trinquetada",
+    "word": "trinquetada",
+    "reason": "Trinquetada is a rare sailing term for navigating with only the foremast in a storm."
+  },
+  {
+    "id": "yabunal",
+    "word": "yabunal",
+    "reason": "Yabunal is a Cuban regional term for land covered with yabuna plants."
+  },
+  {
+    "id": "azabara",
+    "word": "azabara",
+    "reason": "Azabara is an obscure tool name for a type of fishing hook."
+  },
+  {
+    "id": "botaguena",
+    "word": "botagueña",
+    "reason": "Botagueña is the name of a specific olive variety and has limited general use."
+  },
+  {
+    "id": "bozon",
+    "word": "bozón",
+    "reason": "Bozón is a rare insult for a loud, rude person."
+  },
+  {
+    "id": "cachulero",
+    "word": "cachulero",
+    "reason": "Cachulero is a rare derogatory word for a person who does poor-quality manual work."
+  },
+  {
+    "id": "calamiforme",
+    "word": "calamiforme",
+    "reason": "Calamiforme is a rare botanical adjective meaning shaped like a reed."
+  },
+  {
+    "id": "calancas",
+    "word": "calancas",
+    "reason": "Calancas is a regional Andean name for a type of clothing with little general use."
+  },
+  {
+    "id": "candiotera",
+    "word": "candiotera",
+    "reason": "Candiotera is a specialist sailing term for a piece that holds a sail rope."
+  },
+  {
+    "id": "carrasquizo",
+    "word": "carrasquizo",
+    "reason": "The supplied definition describes a dance technique but the word is not a documented standard headword."
+  },
+  {
+    "id": "cascabelillo",
+    "word": "cascabelillo",
+    "reason": "Cascabelillo is a transparent diminutive meaning a small bell."
+  },
+  {
+    "id": "celajeria",
+    "word": "celajería",
+    "reason": "Celajería is a rare, old word for hiding something."
+  },
+  {
+    "id": "chaquete",
+    "word": "chaquete",
+    "reason": "Chaquete is a regional name for backgammon and has limited general use."
+  },
+  {
+    "id": "chilco",
+    "word": "chilco",
+    "reason": "Chilco is a regional name for a flowering shrub and is specialized plant vocabulary."
+  },
+  {
+    "id": "chillera",
+    "word": "chillera",
+    "reason": "Chillera is an uncommon word for a person who is excessively cheerful and enthusiastic."
+  },
+  {
+    "id": "colleta",
+    "word": "colleta",
+    "reason": "Colleta is a regional word for a braid and is not a difficult general term."
+  },
+  {
+    "id": "comendero",
+    "word": "comendero",
+    "reason": "Comendero does not mean a general food distributor; the supplied definition appears to confuse it with another historical word."
+  },
+  {
+    "id": "copador",
+    "word": "copador",
+    "reason": "Copador is an uncommon regional word for someone who takes advantage of others."
+  },
+  {
+    "id": "cotomono",
+    "word": "cotomono",
+    "reason": "Cotomono is a regional name for a small sweet banana variety and has limited general use."
+  },
+  {
+    "id": "desembotar",
+    "word": "desembotar",
+    "reason": "Desembotar is a little-used verb for removing stiffness and has no clear current everyday use."
+  },
+  {
+    "id": "horquillada",
+    "word": "horquillada",
+    "reason": "Horquillada is a rare term for a mark made with a fork-like tool."
+  },
+  {
+    "id": "retrechar",
+    "word": "retrechar",
+    "reason": "Retrechar is an uncommon verb for reducing size or extent and has little current general use."
+  },
+  {
+    "id": "tacuacin",
+    "word": "tacuacín",
+    "reason": "Tacuacín is a regional word for an opossum and, in one country, a petty thief; both uses are highly local."
+  },
+  {
+    "id": "tempate",
+    "word": "tempate",
+    "reason": "Tempate is a Central American name for a specific oil-bearing shrub and is specialist plant vocabulary."
+  },
+  {
+    "id": "tentadura",
+    "word": "tentadura",
+    "reason": "Tentadura is a little-used noun for trying or testing something and has little current general use."
+  },
+  {
+    "id": "celia",
+    "word": "celia",
+    "reason": "Celia is a personal name, not a dictionary headword for a difficult concept."
+  },
+  {
+    "id": "baezano",
+    "word": "baezano",
+    "reason": "Baezano is a demonym for a person from Baeza and is not a difficult concept word."
+  },
+  {
+    "id": "anfiprostilo",
+    "word": "anfipróstilo",
+    "reason": "Anfipróstilo is a rare technical word for one specific ancient temple layout."
+  },
+  {
+    "id": "biunivoca",
+    "word": "biunívoca",
+    "reason": "Biunívoca is only the feminine form of biunívoco, not a separate headword meaning."
+  },
+  {
+    "id": "cuzcuz",
+    "word": "cuzcuz",
+    "reason": "Cuzcuz is an uncommon spelling variant of the familiar food name cuscús."
+  },
+  {
+    "id": "talabarte",
+    "word": "talabarte",
+    "reason": "Talabarte is an old leather belt for carrying a sword or other weapon."
+  },
+  {
+    "id": "tazmia",
+    "word": "tazmía",
+    "reason": "Tazmía is an old term for grain set aside for a tithe and its distribution."
+  },
+  {
+    "id": "comprehensivo",
+    "word": "comprehensivo",
+    "reason": "Comprehensivo is a rare variant of comprensivo and adds no useful distinct meaning."
+  },
+  {
+    "id": "asfaltico",
+    "word": "asfáltico",
+    "reason": "Asfáltico is a transparent adjective meaning related to asphalt."
+  },
+  {
+    "id": "sobreno",
+    "word": "sobreño",
+    "reason": "Sobreño is a rare variant term for a young animal slightly over one year old."
+  },
+  {
+    "id": "cabestrero",
+    "word": "cabestrero",
+    "reason": "Cabestrero is a specialized rural occupation for making or selling cattle halters."
+  },
+  {
+    "id": "caldaico",
+    "word": "caldaico",
+    "reason": "Caldaico is a rare historical adjective for ancient Chaldea and its people."
+  },
+  {
+    "id": "carraspada",
+    "word": "carraspada",
+    "reason": "Carraspada is a little-used noun for the act of clearing one's throat."
+  },
+  {
+    "id": "castillado",
+    "word": "castillado",
+    "reason": "Castillado is a specialist horse-description term for a white mark on the forehead."
+  },
+  {
+    "id": "demoron",
+    "word": "demorón",
+    "reason": "Demorón is a regional colloquial adjective for someone or something very slow."
+  },
+  {
+    "id": "opoponaco",
+    "word": "opopónaco",
+    "reason": "Opopónaco is an obscure variant name for a rare plant resin."
+  },
+  {
+    "id": "taquimecanografo",
+    "word": "taquimecanógrafo",
+    "reason": "Taquimecanógrafo names an obsolete job combining shorthand and typing."
+  },
+  {
+    "id": "tiloso",
+    "word": "tiloso",
+    "reason": "Tiloso is a rare adjective for a place with linden trees."
+  },
+  {
+    "id": "trilitero",
+    "word": "trilítero",
+    "reason": "Trilítero is a less-used variant of trilátero, a technical geometry adjective."
+  },
+  {
+    "id": "uricotelico",
+    "word": "uricotélico",
+    "reason": "Uricotélico is a specialist zoology term for how some animals remove nitrogen."
+  },
+  {
+    "id": "arvejona",
+    "word": "arvejona",
+    "reason": "Arvejona is a regional or uncommon name for a wild pea plant."
+  },
+  {
+    "id": "brahonera",
+    "word": "brahonera",
+    "reason": "Brahonera is an obsolete clothing term defined through another rare word."
+  },
+  {
+    "id": "chapiro",
+    "word": "chápiro",
+    "reason": "Chápiro is a rare colloquial interjection used to express anger."
+  },
+  {
+    "id": "claustrero",
+    "word": "claustrero",
+    "reason": "Claustrero is an obsolete term for someone who lives a cloistered religious life."
+  },
+  {
+    "id": "humoralismo",
+    "word": "humoralismo",
+    "reason": "Humoralismo names an obsolete medical theory that explained illness through bodily fluids."
+  },
+  {
+    "id": "sebado",
+    "word": "sebado",
+    "reason": "Sebado is a rare regional word for a greased pole used in a climbing game."
+  },
+  {
+    "id": "simpatetico",
+    "word": "simpatético",
+    "reason": "Simpatético is a narrow linguistic term for a possessive or interest relation."
+  },
+  {
+    "id": "cordiaco",
+    "word": "cordiaco",
+    "reason": "Cordiaco is an obsolete variant of the common word cardíaco."
+  },
+  {
+    "id": "zutanejo",
+    "word": "zutanejo",
+    "reason": "Zutanejo is an obsolete colloquial word for an unspecified person."
+  },
+  {
+    "id": "betume",
+    "word": "betume",
+    "reason": "Betume is an obsolete variant of the common word betún."
+  },
+  {
+    "id": "cascalbo",
+    "word": "cascalbo",
+    "reason": "Cascalbo is a rare adjective used for certain varieties of pine or wheat."
+  },
+  {
+    "id": "frenazo",
+    "word": "frenazo",
+    "reason": "Frenazo is a common, transparent word for a sudden hard brake."
+  },
+  {
+    "id": "fritura",
+    "word": "fritura",
+    "reason": "Fritura is a common, transparent word for frying or fried food."
+  },
+  {
+    "id": "hamo",
+    "word": "hamo",
+    "reason": "Hamo is a rare, obsolete name for a sharp fishing hook."
+  },
+  {
+    "id": "pelambrera",
+    "word": "pelambrera",
+    "reason": "Pelambrera is a specialist place or process term from leather tanning."
+  },
+  {
+    "id": "sangredo",
+    "word": "sangredo",
+    "reason": "Sangredo is a rare regional name for the alder buckthorn shrub."
   }
 ]

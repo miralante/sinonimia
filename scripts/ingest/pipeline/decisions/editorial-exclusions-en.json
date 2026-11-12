@@ -93526,5 +93526,650 @@
     "id": "control-2",
     "word": "Control",
     "reason": "Control is a common word; the supplied countersigning sense is specialized administrative usage."
+  },
+  {
+    "id": "sing-2",
+    "word": "sing",
+    "reason": "Sing is a familiar everyday verb for making music with the voice."
+  },
+  {
+    "id": "swab-4",
+    "word": "Swab",
+    "reason": "The definition only says “Swab variant” and does not explain a distinct meaning."
+  },
+  {
+    "id": "roll-2",
+    "word": "Roll",
+    "reason": "This narrow wheel-mark sense is not useful enough for the general easy-read dictionary."
+  },
+  {
+    "id": "sonnet-2",
+    "word": "sonnet",
+    "reason": "Using sonnet as a verb meaning to compose sonnets is rare and has little everyday use."
+  },
+  {
+    "id": "client-2",
+    "word": "Client",
+    "reason": "A client receives a service or buys from a business; the supplied definition describes a person executing the work."
+  },
+  {
+    "id": "landscaping-3",
+    "word": "Landscaping",
+    "reason": "Landscaping is a familiar activity of arranging or caring for a garden or outdoor area."
+  },
+  {
+    "id": "get-excited-8",
+    "word": "Get excited",
+    "reason": "The supplied sense “cover yourself with something” does not mean get excited."
+  },
+  {
+    "id": "stroke-3",
+    "word": "Stroke",
+    "reason": "The supplied definition about extracting a substance does not describe a standard meaning of stroke."
+  },
+  {
+    "id": "sanding-3",
+    "word": "Sanding",
+    "reason": "Sanding is a familiar process of smoothing a surface with sandpaper."
+  },
+  {
+    "id": "chalk-4",
+    "word": "Chalk",
+    "reason": "Chalk is a familiar material used for writing or drawing."
+  },
+  {
+    "id": "superiority-2",
+    "word": "Superiority",
+    "reason": "This narrow authority relationship is less useful than the familiar meaning of superiority as being better than something else."
+  },
+  {
+    "id": "locker-3",
+    "word": "Locker",
+    "reason": "The supplied definition describes a suffix-like form, not a useful independent sense of locker."
+  },
+  {
+    "id": "hurry-7",
+    "word": "Hurry",
+    "reason": "Hurry means to move or act quickly; it does not mean purify or cleanse."
+  },
+  {
+    "id": "mixed-4",
+    "word": "Mixed",
+    "reason": "The definition claims a feminine form, but English mixed has no grammatical gender."
+  },
+  {
+    "id": "chatter-13",
+    "word": "chatter",
+    "reason": "Chatter is a familiar word for casual or rapid conversation."
+  },
+  {
+    "id": "right-10",
+    "word": "Right",
+    "reason": "The definition describes a right-handed person, not the word right in this form."
+  },
+  {
+    "id": "cook-7",
+    "word": "Cook",
+    "reason": "The supplied sense names a rope made from a South American plant and is not an English meaning of cook."
+  },
+  {
+    "id": "milk-dryer",
+    "word": "milk dryer",
+    "reason": "The supplied definition is only two regional abbreviations and gives no English meaning for milk dryer."
+  },
+  {
+    "id": "sponsor-7",
+    "word": "Sponsor",
+    "reason": "Sponsor means to support or fund something, not to hold someone in your arms."
+  },
+  {
+    "id": "cienega",
+    "word": "Ciénega",
+    "reason": "Ciénega is a Spanish word for a wetland, not an English term for a person who lives near silt."
+  },
+  {
+    "id": "swearer-2",
+    "word": "Swearer",
+    "reason": "The supplied text is an unexplained dictionary abbreviation rather than a definition."
+  },
+  {
+    "id": "caulking-apprentice",
+    "word": "caulking apprentice",
+    "reason": "The definition merely repeats the phrase with a minor word change and does not explain a distinct difficult term."
+  },
+  {
+    "id": "lick-8",
+    "word": "lick",
+    "reason": "The supplied sense for watching or spying is obscure and not a useful general meaning of lick."
+  },
+  {
+    "id": "mojama-2",
+    "word": "mojama",
+    "reason": "Mojama is a regional Spanish food name with limited use in general English."
+  },
+  {
+    "id": "sparkle-3",
+    "word": "sparkle",
+    "reason": "Sparkle means to shine with small flashes of light, not to rain lightly."
+  },
+  {
+    "id": "cool-8",
+    "word": "cool",
+    "reason": "The supplied definition does not describe the standard English word cool and appears to be a mistranslated sense."
+  },
+  {
+    "id": "shackle-4",
+    "word": "shackle",
+    "reason": "The supplied definition repeats “obstacle” and does not explain a distinct meaning of shackle."
+  },
+  {
+    "id": "soul-2",
+    "word": "soul",
+    "reason": "The supplied definition contains only unexplained regional abbreviations and no meaning."
+  },
+  {
+    "id": "hues-2",
+    "word": "hues",
+    "reason": "The supplied definition describes river sediment, not the English plural noun hues meaning colors."
+  },
+  {
+    "id": "bighead-5",
+    "word": "bighead",
+    "reason": "The supplied amphibian-larva meaning is a narrow regional animal name with little general use."
+  },
+  {
+    "id": "come-58",
+    "word": "come",
+    "reason": "The supplied sense is a Spanish palm-food term, not a meaning of the English verb come."
+  },
+  {
+    "id": "cabbage-73",
+    "word": "cabbage",
+    "reason": "The supplied definition is only regional abbreviations and does not define cabbage."
+  },
+  {
+    "id": "condense",
+    "word": "condense",
+    "reason": "Condense is a familiar verb meaning to make something shorter or more compact."
+  },
+  {
+    "id": "cinnacin",
+    "word": "Cinnacin",
+    "reason": "Cinnacin is a highly regional name for a thorny tree and is specialist botanical vocabulary."
+  },
+  {
+    "id": "compile-2",
+    "word": "Compile",
+    "reason": "Compile is a familiar verb for gathering material into one work or volume."
+  },
+  {
+    "id": "embrace-6",
+    "word": "embrace",
+    "reason": "Embrace is a familiar verb for holding someone in your arms; the supplied wording is awkward but clear in intent."
+  },
+  {
+    "id": "affection-2",
+    "word": "affection",
+    "reason": "Affection is a familiar word for warmth or fondness, and the supplied definition merely repeats the root."
+  },
+  {
+    "id": "mouthpiece-2",
+    "word": "mouthpiece",
+    "reason": "The supplied sense is a Spanish regional term for a straw covering, not a standard English meaning of mouthpiece."
+  },
+  {
+    "id": "creed-2",
+    "word": "creed",
+    "reason": "Creed means a set of beliefs or principles, not worthy of credit; the supplied definition is incorrect."
+  },
+  {
+    "id": "shred-3",
+    "word": "Shred",
+    "reason": "Shred is a familiar verb meaning to cut or tear something into small pieces."
+  },
+  {
+    "id": "liar-3",
+    "word": "Liar",
+    "reason": "Liar is a familiar noun for a person who tells lies."
+  },
+  {
+    "id": "minister-2",
+    "word": "Minister",
+    "reason": "Minister is a familiar word for a person who carries out a ministry or government role; the supplied definition repeats its root."
+  },
+  {
+    "id": "spank-2",
+    "word": "Spank",
+    "reason": "Spank is a familiar verb meaning to hit someone on the buttocks with an open hand."
+  },
+  {
+    "id": "fundable",
+    "word": "fundable",
+    "reason": "Fundable is an easy-to-understand form meaning that something can receive funding."
+  },
+  {
+    "id": "silage-machine",
+    "word": "silage machine",
+    "reason": "A silage machine is specialized farm equipment with little use outside agriculture."
+  },
+  {
+    "id": "consummative",
+    "word": "Consummative",
+    "reason": "Consummative is a rare specialist adjective meaning that something completes or finishes an action."
+  },
+  {
+    "id": "screensaver",
+    "word": "Screensaver",
+    "reason": "Screensaver is a familiar computer term whose meaning is already clear from its parts."
+  },
+  {
+    "id": "cardenalar",
+    "word": "Cardenalar",
+    "reason": "Cardenalar is a Spanish verb form, not an English headword."
+  },
+  {
+    "id": "cotton",
+    "word": "cotton",
+    "reason": "Cotton is a familiar word for the plant or cloth; the supplied definition is unclear and not useful."
+  },
+  {
+    "id": "costrict",
+    "word": "Costrict",
+    "reason": "Costrict is an old-fashioned variant of constrain and has little current use."
+  },
+  {
+    "id": "supplement",
+    "word": "Supplement",
+    "reason": "The supplied definition is only regional abbreviations and gives no meaning of supplement."
+  },
+  {
+    "id": "telephonometer",
+    "word": "Telephonometer",
+    "reason": "A telephonometer is an obsolete device for counting telephone calls and their duration."
+  },
+  {
+    "id": "spreadable",
+    "word": "Spreadable",
+    "reason": "Spreadable is a transparent adjective meaning that something can be spread."
+  },
+  {
+    "id": "galaic",
+    "word": "Galaic",
+    "reason": "Galaic is a rare historical variant of Galician and has little use in current English."
+  },
+  {
+    "id": "sanitized",
+    "word": "Sanitized",
+    "reason": "The supplied sense about property without debts is not a standard meaning of sanitized."
+  },
+  {
+    "id": "ternish",
+    "word": "Ternish",
+    "reason": "The supplied definition about calves does not describe a standard English meaning of ternish."
+  },
+  {
+    "id": "swallow-it",
+    "word": "swallow it",
+    "reason": "Swallow it is a familiar phrase for eating something at once and is not a difficult headword."
+  },
+  {
+    "id": "necrophiliac",
+    "word": "Necrophiliac",
+    "reason": "Necrophiliac is a rare specialist term for a sexual disorder and is not useful general vocabulary."
+  },
+  {
+    "id": "sideways",
+    "word": "sideways",
+    "reason": "Sideways is a familiar word meaning toward or from one side; the supplied sense is a translation artifact."
+  },
+  {
+    "id": "citrus-grower",
+    "word": "Citrus grower",
+    "reason": "Citrus grower is a transparent phrase for a person who grows citrus fruit, not a difficult independent term."
+  },
+  {
+    "id": "scandalous",
+    "word": "scandalous",
+    "reason": "Scandalous is a familiar adjective meaning shocking, disgraceful, or improper."
+  },
+  {
+    "id": "chestnut-beard",
+    "word": "chestnut beard",
+    "reason": "Chestnut beard is a transparent description of a brown beard, not a difficult independent word."
+  },
+  {
+    "id": "continuous",
+    "word": "continuous",
+    "reason": "Continuous is a familiar adjective meaning that something continues without stopping."
+  },
+  {
+    "id": "corylacean",
+    "word": "Corylacean",
+    "reason": "Corylacean is a rare botanical adjective for the hazel family and has little general use."
+  },
+  {
+    "id": "mitigative",
+    "word": "Mitigative",
+    "reason": "Mitigative is a formal derivative meaning that something reduces the harm or severity of an effect."
+  },
+  {
+    "id": "monopetal",
+    "word": "Monopetal",
+    "reason": "Monopetal is a narrow botanical term for a flower whose petals are joined."
+  },
+  {
+    "id": "guignol",
+    "word": "Guignol",
+    "reason": "Guignol is a specific French puppet character, not a useful general English word for a puppet."
+  },
+  {
+    "id": "subtilator",
+    "word": "subtilator",
+    "reason": "Subtilator is not a current standard English headword and the supplied wording does not define it."
+  },
+  {
+    "id": "check-out",
+    "word": "Check-out",
+    "reason": "Check-out is a familiar hotel term for leaving a room and returning its key."
+  },
+  {
+    "id": "settlement-3",
+    "word": "Settlement",
+    "reason": "The supplied definition about stable ties describes rootedness, not a standard meaning of settlement."
+  },
+  {
+    "id": "huddle-2",
+    "word": "Huddle",
+    "reason": "The supplied plant-bud definition does not describe a standard meaning of huddle."
+  },
+  {
+    "id": "spit-4",
+    "word": "Spit",
+    "reason": "The supplied definition about fitting a spigot describes another word, not spit."
+  },
+  {
+    "id": "delete-3",
+    "word": "Delete",
+    "reason": "The supplied definition describes sliding, not the standard English verb delete."
+  },
+  {
+    "id": "spanish-4",
+    "word": "Spanish",
+    "reason": "The supplied definition describes a Spanish cultural performance, not the standard adjective Spanish."
+  },
+  {
+    "id": "shudder-3",
+    "word": "shudder",
+    "reason": "Shudder is a familiar verb meaning to shake or tremble."
+  },
+  {
+    "id": "expand-2",
+    "word": "Expand",
+    "reason": "Expand is a familiar verb meaning to grow larger or make something larger."
+  },
+  {
+    "id": "garrotte-2",
+    "word": "Garrotte",
+    "reason": "Garrotte refers to a method or device for strangling, not hitting someone with a stick."
+  },
+  {
+    "id": "lamp-4",
+    "word": "Lamp",
+    "reason": "The supplied definition describes an aspen tree, not an English meaning of lamp."
+  },
+  {
+    "id": "mix-2",
+    "word": "Mix",
+    "reason": "Mix is a familiar verb for combining or stirring things together."
+  },
+  {
+    "id": "contrary-2",
+    "word": "Contrary",
+    "reason": "The supplied definition only repeats the familiar phrase on the contrary."
+  },
+  {
+    "id": "barbecue-3",
+    "word": "Barbecue",
+    "reason": "The supplied definition meaning a short person does not describe barbecue in English."
+  },
+  {
+    "id": "cheer-3",
+    "word": "Cheer",
+    "reason": "Cheer is a familiar verb for congratulating or encouraging someone, and this supplied wording is not a difficult sense."
+  },
+  {
+    "id": "dance-5",
+    "word": "dance",
+    "reason": "Dance means to move rhythmically to music, not a small ball used for playing."
+  },
+  {
+    "id": "shadow-2",
+    "word": "shadow",
+    "reason": "Shadow as an old-fashioned variant of overshadow is obsolete and unnecessary as a separate entry."
+  },
+  {
+    "id": "condom-2",
+    "word": "condom",
+    "reason": "The supplied definition means forgive or excuse, not condom; it is a mistranslated and unsafe entry."
+  },
+  {
+    "id": "lost-4",
+    "word": "Lost",
+    "reason": "The supplied definition describes a loser, not a standard meaning of the adjective lost."
+  },
+  {
+    "id": "sweat-4",
+    "word": "sweat",
+    "reason": "Sweat is a familiar word for perspiring or producing sweat."
+  },
+  {
+    "id": "confront-3",
+    "word": "confront",
+    "reason": "Confront is a familiar verb meaning to face someone or deal with a problem directly."
+  },
+  {
+    "id": "moth-2",
+    "word": "moth",
+    "reason": "The supplied definition is one narrow moth species and is too specialized for a general entry."
+  },
+  {
+    "id": "sabbatical-2",
+    "word": "Sabbatical",
+    "reason": "This Sabbath-related adjective is a narrow religious sense with little general use."
+  },
+  {
+    "id": "sloppy-3",
+    "word": "Sloppy",
+    "reason": "The supplied definition about losing wealth does not describe sloppy in English."
+  },
+  {
+    "id": "dream-5",
+    "word": "dream",
+    "reason": "The supplied definition about speaking in a dull tone is not a standard meaning of dream."
+  },
+  {
+    "id": "chest-7",
+    "word": "Chest",
+    "reason": "The supplied text about chestóño and beato is unrelated to the English word chest."
+  },
+  {
+    "id": "funeral-5",
+    "word": "funeral",
+    "reason": "The supplied obsolete sense simply repeats funeral and adds no meaning worth a separate entry."
+  },
+  {
+    "id": "crumpled-4",
+    "word": "Crumpled",
+    "reason": "The supplied chicken-and-cockroach wording is a mistranslation, not a meaning of crumpled."
+  },
+  {
+    "id": "fungus-4",
+    "word": "Fungus",
+    "reason": "Fungus is a noun for an organism; the supplied definition incorrectly treats it as an adjective."
+  },
+  {
+    "id": "delay-9",
+    "word": "Delay",
+    "reason": "Delay is a familiar verb meaning to make something happen later."
+  },
+  {
+    "id": "carton-3",
+    "word": "Carton",
+    "reason": "The supplied definition describes a person collecting plant sap, not carton."
+  },
+  {
+    "id": "car-2",
+    "word": "car",
+    "reason": "The supplied sense about guiding horses is obsolete and not a useful meaning of the familiar noun car."
+  },
+  {
+    "id": "incense-5",
+    "word": "Incense",
+    "reason": "The supplied text repeats an internal label and does not explain a distinct meaning of incense."
+  },
+  {
+    "id": "gayola",
+    "word": "Gayola",
+    "reason": "Gayola is a regional Spanish slang word for jail and is not a general English headword."
+  },
+  {
+    "id": "skate-2",
+    "word": "Skate",
+    "reason": "The supplied December group sense is regional and does not describe a standard English meaning of skate."
+  },
+  {
+    "id": "solferino",
+    "word": "Solferino",
+    "reason": "Solferino is a rare historical name for a reddish-purple dye or color."
+  },
+  {
+    "id": "chis",
+    "word": "Chis",
+    "reason": "Chis is a Spanish regional word for urine, not a general English headword."
+  },
+  {
+    "id": "crash-9",
+    "word": "crash",
+    "reason": "The supplied owl description is not a standard English meaning of crash."
+  },
+  {
+    "id": "apricot-6",
+    "word": "apricot",
+    "reason": "Apricot is a familiar fruit and tree name; this tree sense is straightforward."
+  },
+  {
+    "id": "bruise-8",
+    "word": "bruise",
+    "reason": "Bruise is a familiar word for an injury under the skin that usually does not bleed outside."
+  },
+  {
+    "id": "misleading-3",
+    "word": "misleading",
+    "reason": "Misleading is a familiar adjective meaning likely to give someone the wrong idea."
+  },
+  {
+    "id": "shrewd-and-insightful-person",
+    "word": "shrewd and insightful person",
+    "reason": "Shrewd and insightful person is an ordinary descriptive phrase, not a difficult independent headword."
+  },
+  {
+    "id": "sun-2",
+    "word": "sun",
+    "reason": "The supplied text about resolana is not a standard English meaning of sun."
+  },
+  {
+    "id": "small-and-fat",
+    "word": "small and fat",
+    "reason": "Small and fat is a plain descriptive phrase, not a difficult independent term."
+  },
+  {
+    "id": "ant-7",
+    "word": "ant",
+    "reason": "Ant is a familiar insect name; the supplied definition about employment is corrupt."
+  },
+  {
+    "id": "cabbage-9",
+    "word": "cabbage",
+    "reason": "The supplied Colombian folk-potion meaning is not a standard English meaning of cabbage."
+  },
+  {
+    "id": "cabbage-21",
+    "word": "cabbage",
+    "reason": "The supplied Colombian brandy meaning is not a standard English meaning of cabbage."
+  },
+  {
+    "id": "come-24",
+    "word": "come",
+    "reason": "The supplied definition describes a garment and does not match the English headword come."
+  },
+  {
+    "id": "nightlife",
+    "word": "nightlife",
+    "reason": "The supplied definition means extra pay for night work, not nightlife."
+  },
+  {
+    "id": "crematorium",
+    "word": "crematorium",
+    "reason": "Crematorium is a common, transparent place name rather than a difficult synonym entry."
+  },
+  {
+    "id": "cavities",
+    "word": "cavities",
+    "reason": "Cavities in teeth are a common, straightforward sense of a familiar word."
+  },
+  {
+    "id": "coated",
+    "word": "coated",
+    "reason": "The supplied definition, “made a rascal,” is malformed and cannot be reliably interpreted."
+  },
+  {
+    "id": "mesotrophy",
+    "word": "mesotrophy",
+    "reason": "Mesotrophy is a narrow limnology term for a lake's nutrient status."
+  },
+  {
+    "id": "take-over",
+    "word": "take over",
+    "reason": "Take over is a common phrasal verb rather than a difficult synonym entry."
+  },
+  {
+    "id": "sunbathe",
+    "word": "sunbathe",
+    "reason": "The supplied definition means to dry something in the sun, not to sunbathe."
+  },
+  {
+    "id": "shouldering",
+    "word": "shouldering",
+    "reason": "The supplied definition uses a Spanish butchery term and does not clearly define shouldering."
+  },
+  {
+    "id": "gaznate",
+    "word": "gaznate",
+    "reason": "Gaznate is a Spanish headword, not an English synonym entry."
+  },
+  {
+    "id": "copier",
+    "word": "copier",
+    "reason": "Copier is a common, straightforward word for a person or machine that copies."
+  },
+  {
+    "id": "tenfold",
+    "word": "tenfold",
+    "reason": "Tenfold is a common, transparent word meaning ten times as much."
+  },
+  {
+    "id": "milling-cutter",
+    "word": "milling cutter",
+    "reason": "Milling cutter is a specialist manufacturing occupation and is not broadly useful vocabulary."
+  },
+  {
+    "id": "fumosity",
+    "word": "fumosity",
+    "reason": "Fumosity is an obscure, rarely used word for smoke or smoky matter."
+  },
+  {
+    "id": "generalize",
+    "word": "generalize",
+    "reason": "Generalize is a common verb with a clear, easily understood meaning."
   }
 ]

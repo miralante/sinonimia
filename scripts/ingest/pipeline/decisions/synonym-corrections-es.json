@@ -266962,5 +266962,617 @@
         "text": "El conspirador del plan fue descubierto."
       }
     }
+  },
+  {
+    "entry": "soluto",
+    "remove": [],
+    "set": {
+      "definition": "Sustancia disuelta en otra sustancia llamada disolvente.",
+      "synonyms": [
+        "componente disuelto"
+      ],
+      "example": {
+        "word": "soluto",
+        "text": "El soluto se mezcla con el disolvente."
+      },
+      "exampleSynonym": {
+        "word": "componente disuelto",
+        "text": "El componente disuelto se mezcla con el disolvente."
+      }
+    }
+  },
+  {
+    "entry": "sublingual",
+    "remove": [],
+    "set": {
+      "definition": "Que se coloca o se absorbe debajo de la lengua.",
+      "synonyms": [
+        "que se aplica bajo la lengua"
+      ],
+      "example": {
+        "word": "sublingual",
+        "text": "El medicamento sublingual se absorbe bajo la lengua."
+      },
+      "exampleSynonym": {
+        "word": "que se aplica bajo la lengua",
+        "text": "El medicamento que se aplica bajo la lengua se absorbe bajo la lengua."
+      }
+    }
+  },
+  {
+    "entry": "tectonico",
+    "remove": [],
+    "set": {
+      "definition": "Relacionado con las fuerzas y movimientos de las placas de la Tierra.",
+      "synonyms": [
+        "de las placas terrestres"
+      ],
+      "example": {
+        "word": "tectónico",
+        "text": "El movimiento tectónico causó daños en la carretera."
+      },
+      "exampleSynonym": {
+        "word": "de las placas terrestres",
+        "text": "El movimiento de las placas terrestres causó daños en la carretera."
+      }
+    }
+  },
+  {
+    "entry": "ultraismo",
+    "remove": [],
+    "set": {
+      "definition": "Movimiento literario que buscó renovar la poesía con imágenes nuevas.",
+      "synonyms": [
+        "vanguardismo literario"
+      ],
+      "example": {
+        "word": "ultraísmo",
+        "text": "El ultraísmo buscaba renovar la poesía española."
+      },
+      "exampleSynonym": {
+        "word": "vanguardismo literario",
+        "text": "El vanguardismo literario buscaba renovar la poesía española."
+      }
+    }
+  },
+  {
+    "entry": "similitud",
+    "remove": [],
+    "set": {
+      "definition": "Parecido entre dos o más cosas.",
+      "synonyms": [
+        "semejanza"
+      ],
+      "example": {
+        "word": "similitud",
+        "text": "La similitud entre las dos imágenes llamó la atención."
+      },
+      "exampleSynonym": {
+        "word": "semejanza",
+        "text": "La semejanza entre las dos imágenes llamó la atención."
+      }
+    }
+  },
+  {
+    "entry": "trafico",
+    "remove": [],
+    "set": {
+      "definition": "Actividad de comprar y vender cosas; a veces, de manera ilegal.",
+      "synonyms": [
+        "comercio"
+      ],
+      "example": {
+        "word": "tráfico",
+        "text": "El tráfico de armas puede ser ilegal."
+      },
+      "exampleSynonym": {
+        "word": "comercio",
+        "text": "El comercio de armas puede ser ilegal."
+      }
+    }
+  },
+  {
+    "entry": "tumulto",
+    "remove": [],
+    "set": {
+      "definition": "Desorden ruidoso causado por un grupo de personas.",
+      "synonyms": [
+        "alboroto"
+      ],
+      "example": {
+        "word": "tumulto",
+        "text": "El tumulto obligó a cerrar la plaza."
+      },
+      "exampleSynonym": {
+        "word": "alboroto",
+        "text": "El alboroto obligó a cerrar la plaza."
+      }
+    }
+  },
+  {
+    "entry": "cromatismo",
+    "remove": [],
+    "set": {
+      "definition": "Uso de los colores en una obra o un diseño.",
+      "synonyms": [
+        "uso del color"
+      ],
+      "example": {
+        "word": "cromatismo",
+        "text": "El cromatismo crea un ambiente cálido en la pintura."
+      },
+      "exampleSynonym": {
+        "word": "uso del color",
+        "text": "El uso del color crea un ambiente cálido en la pintura."
+      }
+    }
+  },
+  {
+    "entry": "esteta",
+    "remove": [],
+    "set": {
+      "definition": "Persona que valora especialmente la belleza y el arte.",
+      "synonyms": [
+        "amante del arte"
+      ],
+      "example": {
+        "word": "esteta",
+        "text": "El esteta apreciaba la armonía de la escultura."
+      },
+      "exampleSynonym": {
+        "word": "amante del arte",
+        "text": "El amante del arte apreciaba la armonía de la escultura."
+      }
+    }
+  },
+  {
+    "entry": "sinecdoque",
+    "remove": [],
+    "set": {
+      "definition": "Figura retórica que usa parte por todo, o todo por parte.",
+      "synonyms": [
+        "figura de inclusión"
+      ],
+      "example": {
+        "word": "sinécdoque",
+        "text": "La sinécdoque aparece en «necesitamos más manos»."
+      },
+      "exampleSynonym": {
+        "word": "figura de inclusión",
+        "text": "La figura de inclusión aparece en «necesitamos más manos»."
+      }
+    }
+  },
+  {
+    "entry": "sisar",
+    "remove": [],
+    "set": {
+      "definition": "Tomar a escondidas una pequeña parte de dinero o mercancía.",
+      "synonyms": [
+        "quitar"
+      ],
+      "example": {
+        "word": "sisar",
+        "text": "El empleado intentó sisar parte del dinero."
+      },
+      "exampleSynonym": {
+        "word": "quitar",
+        "text": "El empleado intentó quitar parte del dinero."
+      }
+    }
+  },
+  {
+    "entry": "desembaldosar",
+    "remove": [],
+    "set": {
+      "definition": "Quitar las baldosas que cubren un suelo.",
+      "synonyms": [
+        "quitar las baldosas"
+      ],
+      "example": {
+        "word": "desembaldosar",
+        "text": "El albañil recomendó desembaldosar antes de colocar el nuevo suelo."
+      },
+      "exampleSynonym": {
+        "word": "quitar las baldosas",
+        "text": "El albañil recomendó quitar las baldosas antes de colocar el nuevo suelo."
+      }
+    }
+  },
+  {
+    "entry": "desencolar",
+    "remove": [],
+    "set": {
+      "definition": "Separar dos cosas pegadas con cola.",
+      "synonyms": [
+        "despegar"
+      ],
+      "example": {
+        "word": "desencolar",
+        "text": "El carpintero tuvo que desencolar dos piezas de madera."
+      },
+      "exampleSynonym": {
+        "word": "despegar",
+        "text": "El carpintero tuvo que despegar dos piezas de madera."
+      }
+    }
+  },
+  {
+    "entry": "rezurcir",
+    "remove": [],
+    "set": {
+      "definition": "Coser de nuevo una tela o una prenda rota.",
+      "synonyms": [
+        "volver a coser"
+      ],
+      "example": {
+        "word": "rezurcir",
+        "text": "Tuvo que rezurcir la manga de su camisa."
+      },
+      "exampleSynonym": {
+        "word": "volver a coser",
+        "text": "Tuvo que volver a coser la manga de su camisa."
+      }
+    }
+  },
+  {
+    "entry": "senaduria",
+    "remove": [],
+    "set": {
+      "definition": "Cargo de una persona elegida para formar parte del Senado.",
+      "synonyms": [
+        "cargo de senador"
+      ],
+      "example": {
+        "word": "senaduría",
+        "text": "Su senaduría comenzó después de las elecciones."
+      },
+      "exampleSynonym": {
+        "word": "cargo de senador",
+        "text": "Su cargo de senador comenzó después de las elecciones."
+      }
+    }
+  },
+  {
+    "entry": "trocola",
+    "remove": [],
+    "set": {
+      "definition": "Rueda por la que pasa una cuerda para levantar cargas.",
+      "synonyms": [
+        "polea"
+      ],
+      "example": {
+        "word": "trócola",
+        "text": "La trócola ayudó a levantar el motor del barco."
+      },
+      "exampleSynonym": {
+        "word": "polea",
+        "text": "La polea ayudó a levantar el motor del barco."
+      }
+    }
+  },
+  {
+    "entry": "vozarrona",
+    "remove": [],
+    "set": {
+      "definition": "Que tiene una voz muy fuerte y grave.",
+      "synonyms": [
+        "voz muy fuerte y grave"
+      ],
+      "example": {
+        "word": "vozarrona",
+        "text": "La cantante tenía una vozarrona que llenaba el teatro."
+      },
+      "exampleSynonym": {
+        "word": "voz muy fuerte y grave",
+        "text": "La cantante tenía una voz muy fuerte y grave que llenaba el teatro."
+      }
+    }
+  },
+  {
+    "entry": "siena",
+    "remove": [],
+    "set": {
+      "definition": "Color pardo amarillento o rojizo que se usa como pigmento.",
+      "synonyms": [
+        "ocre rojizo"
+      ],
+      "example": {
+        "word": "siena",
+        "text": "El artista mezcló siena con agua para pintar."
+      },
+      "exampleSynonym": {
+        "word": "ocre rojizo",
+        "text": "El artista mezcló ocre rojizo con agua para pintar."
+      }
+    }
+  },
+  {
+    "entry": "anasarca",
+    "remove": [],
+    "set": {
+      "definition": "Hinchazón general del cuerpo por acumulación de líquido en los tejidos.",
+      "synonyms": [
+        "hinchazón general"
+      ],
+      "example": {
+        "word": "anasarca",
+        "text": "La anasarca hizo que sus manos y piernas se hincharan."
+      },
+      "exampleSynonym": {
+        "word": "hinchazón general",
+        "text": "La hinchazón general hizo que sus manos y piernas se hincharan."
+      }
+    }
+  },
+  {
+    "entry": "canaladura",
+    "remove": [],
+    "set": {
+      "definition": "Obra o conducto que lleva agua de un lugar a otro.",
+      "synonyms": [
+        "canalización"
+      ],
+      "example": {
+        "word": "canaladura",
+        "text": "La canaladura llevaba agua hasta el huerto."
+      },
+      "exampleSynonym": {
+        "word": "canalización",
+        "text": "La canalización llevaba agua hasta el huerto."
+      }
+    }
+  },
+  {
+    "entry": "cocainomania",
+    "remove": [],
+    "set": {
+      "definition": "Término antiguo para la adicción a la cocaína.",
+      "synonyms": [
+        "adicción a la cocaína"
+      ],
+      "example": {
+        "word": "cocainomanía",
+        "text": "La cocainomanía afectó su salud y su vida familiar."
+      },
+      "exampleSynonym": {
+        "word": "adicción a la cocaína",
+        "text": "La adicción a la cocaína afectó su salud y su vida familiar."
+      }
+    }
+  },
+  {
+    "entry": "gorrilla",
+    "remove": [],
+    "set": {
+      "definition": "Persona que indica un sitio libre para aparcar y pide una propina.",
+      "synonyms": [
+        "aparcacoches informal"
+      ],
+      "example": {
+        "word": "gorrilla",
+        "text": "El gorrilla indicó un sitio libre y pidió una propina."
+      },
+      "exampleSynonym": {
+        "word": "aparcacoches informal",
+        "text": "El aparcacoches informal indicó un sitio libre y pidió una propina."
+      }
+    }
+  },
+  {
+    "entry": "sedosidad",
+    "remove": [],
+    "set": {
+      "definition": "Suavidad de algo que parece seda.",
+      "synonyms": [
+        "suavidad"
+      ],
+      "example": {
+        "word": "sedosidad",
+        "text": "La sedosidad de la tela la hacía agradable al tacto."
+      },
+      "exampleSynonym": {
+        "word": "suavidad",
+        "text": "La suavidad de la tela la hacía agradable al tacto."
+      }
+    }
+  },
+  {
+    "entry": "tricenal",
+    "remove": [],
+    "set": {
+      "definition": "Que dura treinta años o se repite cada treinta años.",
+      "synonyms": [
+        "de treinta años"
+      ],
+      "example": {
+        "word": "tricenal",
+        "text": "La celebración tricenal reunió a varias generaciones."
+      },
+      "exampleSynonym": {
+        "word": "de treinta años",
+        "text": "La celebración de treinta años reunió a varias generaciones."
+      }
+    }
+  },
+  {
+    "entry": "trujal",
+    "remove": [],
+    "set": {
+      "definition": "Prensa donde se aplastan aceitunas para sacar aceite.",
+      "synonyms": [
+        "lagar"
+      ],
+      "example": {
+        "word": "trujal",
+        "text": "El trujal sacó aceite de las aceitunas."
+      },
+      "exampleSynonym": {
+        "word": "lagar",
+        "text": "El lagar sacó aceite de las aceitunas."
+      }
+    }
+  },
+  {
+    "entry": "uralita",
+    "remove": [],
+    "set": {
+      "definition": "Plancha ondulada de fibrocemento usada en techos; algunas antiguas tenían amianto.",
+      "synonyms": [
+        "placa de fibrocemento"
+      ],
+      "example": {
+        "word": "uralita",
+        "text": "La uralita cubría el tejado antiguo."
+      },
+      "exampleSynonym": {
+        "word": "placa de fibrocemento",
+        "text": "La placa de fibrocemento cubría el tejado antiguo."
+      }
+    }
+  },
+  {
+    "entry": "venusterio",
+    "remove": [],
+    "set": {
+      "definition": "Lugar de una prisión para las visitas íntimas de las parejas.",
+      "synonyms": [
+        "lugar de visita íntima"
+      ],
+      "example": {
+        "word": "venusterio",
+        "text": "La pareja se reunió en el venusterio durante la visita."
+      },
+      "exampleSynonym": {
+        "word": "lugar de visita íntima",
+        "text": "La pareja se reunió en el lugar de visita íntima durante la visita."
+      }
+    }
+  },
+  {
+    "entry": "western",
+    "remove": [],
+    "set": {
+      "definition": "Género de películas ambientadas en el oeste de Estados Unidos.",
+      "synonyms": [
+        "cine del oeste"
+      ],
+      "example": {
+        "word": "wéstern",
+        "text": "El wéstern fue uno de los géneros favoritos de mi abuelo."
+      },
+      "exampleSynonym": {
+        "word": "cine del oeste",
+        "text": "El cine del oeste fue uno de los géneros favoritos de mi abuelo."
+      }
+    }
+  },
+  {
+    "entry": "bioestadistica",
+    "remove": [],
+    "set": {
+      "definition": "Aplicación de la estadística al estudio de la biología y la salud.",
+      "synonyms": [
+        "estadística aplicada a la biología"
+      ],
+      "example": {
+        "word": "bioestadística",
+        "text": "La bioestadística ayuda a evaluar nuevos tratamientos."
+      },
+      "exampleSynonym": {
+        "word": "estadística aplicada a la biología",
+        "text": "La estadística aplicada a la biología ayuda a evaluar nuevos tratamientos."
+      }
+    }
+  },
+  {
+    "entry": "timpanico",
+    "remove": [],
+    "set": {
+      "definition": "Relacionado con el tímpano del oído.",
+      "synonyms": [
+        "del tímpano"
+      ],
+      "example": {
+        "word": "timpánico",
+        "text": "El tratamiento timpánico redujo el dolor."
+      },
+      "exampleSynonym": {
+        "word": "del tímpano",
+        "text": "El tratamiento del tímpano redujo el dolor."
+      }
+    }
+  },
+  {
+    "entry": "reservon",
+    "remove": [],
+    "set": {
+      "definition": "Que suele hablar poco y guardar sus pensamientos.",
+      "synonyms": [
+        "reservado"
+      ],
+      "example": {
+        "word": "reservón",
+        "text": "El vecino reservón tardó en hablar con los demás."
+      },
+      "exampleSynonym": {
+        "word": "reservado",
+        "text": "El vecino reservado tardó en hablar con los demás."
+      }
+    }
+  },
+  {
+    "entry": "vertebrador",
+    "remove": [],
+    "set": {
+      "definition": "Que organiza las partes de un conjunto y les da estructura.",
+      "synonyms": [
+        "organizador"
+      ],
+      "example": {
+        "word": "vertebrador",
+        "text": "El transporte público es el eje vertebrador de la ciudad."
+      },
+      "exampleSynonym": {
+        "word": "organizador",
+        "text": "El transporte público es el eje organizador de la ciudad."
+      }
+    }
+  },
+  {
+    "entry": "gongorismo",
+    "remove": [],
+    "set": {
+      "definition": "Estilo literario que imita la poesía de Luis de Góngora.",
+      "synonyms": [
+        "estilo de Góngora"
+      ],
+      "example": {
+        "word": "gongorismo",
+        "text": "El gongorismo influyó en la poesía barroca."
+      },
+      "exampleSynonym": {
+        "word": "estilo de Góngora",
+        "text": "El estilo de Góngora influyó en la poesía barroca."
+      }
+    }
+  },
+  {
+    "entry": "salesiano",
+    "remove": [],
+    "set": {
+      "definition": "Relacionado con la congregación católica fundada por san Juan Bosco.",
+      "synonyms": [
+        "de la orden salesiana"
+      ],
+      "example": {
+        "word": "salesiano",
+        "text": "El colegio salesiano celebró su aniversario."
+      },
+      "exampleSynonym": {
+        "word": "de la orden salesiana",
+        "text": "El colegio de la orden salesiana celebró su aniversario."
+      }
+    }
   }
 ]

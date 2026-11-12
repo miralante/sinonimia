@@ -15890,9 +15890,17 @@
     "entry": "hypoglycemic",
     "remove": [],
     "set": {
-      "definition": "Having or characterized by a blood sugar level that is lower than normal.",
-      "translation": {
-        "es": "hipoglucemico"
+      "definition": "Having less sugar in your blood than is healthy.",
+      "synonyms": [
+        "low-blood-sugar"
+      ],
+      "example": {
+        "word": "hypoglycemic",
+        "text": "A hypoglycemic episode can make a person feel weak."
+      },
+      "exampleSynonym": {
+        "word": "low-blood-sugar",
+        "text": "A low-blood-sugar episode can make a person feel weak."
       }
     }
   },
@@ -267407,6 +267415,546 @@
       "exampleSynonym": {
         "word": "Joint debtor",
         "text": "Joint debtor agreements can share the risk."
+      }
+    }
+  },
+  {
+    "entry": "monorail-2",
+    "remove": [],
+    "set": {
+      "definition": "A train that runs on one rail instead of two.",
+      "synonyms": [
+        "single-rail train"
+      ],
+      "example": {
+        "word": "Monorail",
+        "text": "A Monorail crosses the park every day."
+      },
+      "exampleSynonym": {
+        "word": "single-rail train",
+        "text": "A single-rail train crosses the park every day."
+      }
+    }
+  },
+  {
+    "entry": "sharecropper-3",
+    "remove": [],
+    "set": {
+      "definition": "A farmer who pays the landowner with part of the crop.",
+      "synonyms": [
+        "farmer who pays with crops"
+      ],
+      "example": {
+        "word": "sharecropper",
+        "text": "The sharecropper gave part of the harvest to the landowner."
+      },
+      "exampleSynonym": {
+        "word": "farmer who pays with crops",
+        "text": "The farmer who pays with crops gave part of the harvest to the landowner."
+      }
+    }
+  },
+  {
+    "entry": "corruptible-2",
+    "remove": [],
+    "set": {
+      "definition": "Able to be influenced to act dishonestly.",
+      "synonyms": [
+        "susceptible to corruption"
+      ],
+      "example": {
+        "word": "Corruptible",
+        "text": "The official seemed “Corruptible” when offered a bribe."
+      },
+      "exampleSynonym": {
+        "word": "susceptible to corruption",
+        "text": "The official seemed “susceptible to corruption” when offered a bribe."
+      }
+    }
+  },
+  {
+    "entry": "sublimable",
+    "remove": [],
+    "set": {
+      "definition": "Able to change from a solid directly into a gas.",
+      "synonyms": [
+        "able to turn straight into gas"
+      ],
+      "example": {
+        "word": "sublimable",
+        "text": "Dry ice is sublimable at room temperature."
+      },
+      "exampleSynonym": {
+        "word": "able to turn straight into gas",
+        "text": "Dry ice is able to turn straight into gas at room temperature."
+      }
+    }
+  },
+  {
+    "entry": "subdominant",
+    "remove": [],
+    "set": {
+      "definition": "The fourth note in a musical scale.",
+      "synonyms": [
+        "fourth scale note"
+      ],
+      "example": {
+        "word": "subdominant",
+        "text": "In C major, F is the subdominant."
+      },
+      "exampleSynonym": {
+        "word": "fourth scale note",
+        "text": "In C major, F is the fourth scale note."
+      }
+    }
+  },
+  {
+    "entry": "gender-violence",
+    "remove": [],
+    "set": {
+      "definition": "Violence aimed at someone because of their gender.",
+      "synonyms": [
+        "gender-based violence"
+      ],
+      "example": {
+        "word": "gender violence",
+        "text": "People may experience gender violence at home or in public."
+      },
+      "exampleSynonym": {
+        "word": "gender-based violence",
+        "text": "People may experience gender-based violence at home or in public."
+      }
+    }
+  },
+  {
+    "entry": "lineage-2",
+    "remove": [],
+    "set": {
+      "definition": "A person's family history and ancestors.",
+      "synonyms": [
+        "Ancestry"
+      ],
+      "example": {
+        "word": "Lineage",
+        "text": "Lineage can be traced through family records."
+      },
+      "exampleSynonym": {
+        "word": "Ancestry",
+        "text": "Ancestry can be traced through family records."
+      }
+    }
+  },
+  {
+    "entry": "secessionism",
+    "remove": [],
+    "set": {
+      "definition": "The belief that a region should separate from a country.",
+      "synonyms": [
+        "Support for separation"
+      ],
+      "example": {
+        "word": "Secessionism",
+        "text": "Secessionism grew after the region lost local powers."
+      },
+      "exampleSynonym": {
+        "word": "Support for separation",
+        "text": "Support for separation grew after the region lost local powers."
+      }
+    }
+  },
+  {
+    "entry": "complementarity",
+    "remove": [],
+    "set": {
+      "definition": "The way two things work well together and improve each other.",
+      "synonyms": [
+        "mutual benefit"
+      ],
+      "example": {
+        "word": "complementarity",
+        "text": "The complementarity of the two plans became clear."
+      },
+      "exampleSynonym": {
+        "word": "mutual benefit",
+        "text": "The mutual benefit of the two plans became clear."
+      }
+    }
+  },
+  {
+    "entry": "sawyer",
+    "remove": [],
+    "set": {
+      "definition": "A person whose job is to cut wood with a saw.",
+      "synonyms": [
+        "woodcutter"
+      ],
+      "example": {
+        "word": "sawyer",
+        "text": "The sawyer cut the logs into boards for the carpenter."
+      },
+      "exampleSynonym": {
+        "word": "woodcutter",
+        "text": "The woodcutter cut the logs into boards for the carpenter."
+      }
+    }
+  },
+  {
+    "entry": "scandalizing",
+    "remove": [],
+    "set": {
+      "definition": "Likely to shock people because it seems wrong or improper.",
+      "synonyms": [
+        "shocking"
+      ],
+      "example": {
+        "word": "scandalizing",
+        "text": "The scandalizing article upset many readers."
+      },
+      "exampleSynonym": {
+        "word": "shocking",
+        "text": "The shocking article upset many readers."
+      }
+    }
+  },
+  {
+    "entry": "gesticulating",
+    "remove": [],
+    "set": {
+      "definition": "Moving your hands while you speak to express an idea.",
+      "synonyms": [
+        "gesturing"
+      ],
+      "example": {
+        "word": "gesticulating",
+        "text": "He was gesticulating to show where to turn."
+      },
+      "exampleSynonym": {
+        "word": "gesturing",
+        "text": "He was gesturing to show where to turn."
+      }
+    }
+  },
+  {
+    "entry": "impassable",
+    "remove": [],
+    "set": {
+      "definition": "Impossible to cross or travel through.",
+      "synonyms": [
+        "impossible to cross"
+      ],
+      "example": {
+        "word": "impassable",
+        "text": "The road was impassable after the storm."
+      },
+      "exampleSynonym": {
+        "word": "impossible to cross",
+        "text": "The road was impossible to cross after the storm."
+      }
+    }
+  },
+  {
+    "entry": "terracotta",
+    "remove": [],
+    "set": {
+      "definition": "A hard clay that is shaped and baked.",
+      "synonyms": [
+        "baked clay"
+      ],
+      "example": {
+        "word": "terracotta",
+        "text": "They made the roof tiles from terracotta."
+      },
+      "exampleSynonym": {
+        "word": "baked clay",
+        "text": "They made the roof tiles from baked clay."
+      }
+    }
+  },
+  {
+    "entry": "carburetor",
+    "remove": [],
+    "set": {
+      "definition": "A device in some engines that mixes air and fuel.",
+      "synonyms": [
+        "fuel-and-air mixer"
+      ],
+      "example": {
+        "word": "carburetor",
+        "text": "The mechanic cleaned the carburetor before testing the engine."
+      },
+      "exampleSynonym": {
+        "word": "fuel-and-air mixer",
+        "text": "The mechanic cleaned the fuel-and-air mixer before testing the engine."
+      }
+    }
+  },
+  {
+    "entry": "squat-2",
+    "remove": [],
+    "set": {
+      "definition": "Living in a home without the owner's permission or paying rent.",
+      "synonyms": [
+        "illegal occupation"
+      ],
+      "example": {
+        "word": "squat",
+        "text": "The squat continued until the owner returned."
+      },
+      "exampleSynonym": {
+        "word": "illegal occupation",
+        "text": "The illegal occupation continued until the owner returned."
+      }
+    }
+  },
+  {
+    "entry": "seize-6",
+    "remove": [],
+    "set": {
+      "definition": "To take property by legal order, often after a crime.",
+      "synonyms": [
+        "confiscate"
+      ],
+      "example": {
+        "word": "seize",
+        "text": "Police can seize property linked to a crime."
+      },
+      "exampleSynonym": {
+        "word": "confiscate",
+        "text": "Police can confiscate property linked to a crime."
+      }
+    }
+  },
+  {
+    "entry": "germinate-2",
+    "remove": [],
+    "set": {
+      "definition": "To start growing from a seed.",
+      "synonyms": [
+        "sprout"
+      ],
+      "example": {
+        "word": "germinate",
+        "text": "The seeds began to germinate after the rain."
+      },
+      "exampleSynonym": {
+        "word": "sprout",
+        "text": "The seeds began to sprout after the rain."
+      }
+    }
+  },
+  {
+    "entry": "savagery-2",
+    "remove": [],
+    "set": {
+      "definition": "A cruel or violent act.",
+      "synonyms": [
+        "brutality"
+      ],
+      "example": {
+        "word": "savagery",
+        "text": "The savagery of the attack shocked the town."
+      },
+      "exampleSynonym": {
+        "word": "brutality",
+        "text": "The brutality of the attack shocked the town."
+      }
+    }
+  },
+  {
+    "entry": "neglect-2",
+    "remove": [],
+    "set": {
+      "definition": "Not giving someone or something the care or attention they need.",
+      "synonyms": [
+        "Failure to care"
+      ],
+      "example": {
+        "word": "Neglect",
+        "text": "Neglect can harm a child's health."
+      },
+      "exampleSynonym": {
+        "word": "Failure to care",
+        "text": "Failure to care can harm a child's health."
+      }
+    }
+  },
+  {
+    "entry": "contempt-4",
+    "remove": [],
+    "set": {
+      "definition": "A strong feeling that someone or something deserves no respect.",
+      "synonyms": [
+        "disdain"
+      ],
+      "example": {
+        "word": "contempt",
+        "text": "She showed contempt for the unfair rules."
+      },
+      "exampleSynonym": {
+        "word": "disdain",
+        "text": "She showed disdain for the unfair rules."
+      }
+    }
+  },
+  {
+    "entry": "midwife-5",
+    "remove": [],
+    "set": {
+      "definition": "A trained person who helps during pregnancy and childbirth.",
+      "synonyms": [
+        "birth attendant"
+      ],
+      "example": {
+        "word": "midwife",
+        "text": "The midwife helped the mother give birth safely."
+      },
+      "exampleSynonym": {
+        "word": "birth attendant",
+        "text": "The birth attendant helped the mother give birth safely."
+      }
+    }
+  },
+  {
+    "entry": "milpa",
+    "remove": [],
+    "set": {
+      "definition": "A field where corn, beans, and squash are grown together.",
+      "synonyms": [
+        "mixed-crop field"
+      ],
+      "example": {
+        "word": "milpa",
+        "text": "The family grew corn and beans in the milpa."
+      },
+      "exampleSynonym": {
+        "word": "mixed-crop field",
+        "text": "The family grew corn and beans in the mixed-crop field."
+      }
+    }
+  },
+  {
+    "entry": "guitarron",
+    "remove": [],
+    "set": {
+      "definition": "A large Mexican guitar that plays low notes in mariachi music.",
+      "synonyms": [
+        "Mexican bass guitar"
+      ],
+      "example": {
+        "word": "guitarron",
+        "text": "The guitarron provides the low notes in a mariachi band."
+      },
+      "exampleSynonym": {
+        "word": "Mexican bass guitar",
+        "text": "The Mexican bass guitar provides the low notes in a mariachi band."
+      }
+    }
+  },
+  {
+    "entry": "charlatan-2",
+    "remove": [],
+    "set": {
+      "definition": "A person who falsely claims to have skills or knowledge.",
+      "synonyms": [
+        "fraud"
+      ],
+      "example": {
+        "word": "charlatan",
+        "text": "The charlatan promised a cure but had no training."
+      },
+      "exampleSynonym": {
+        "word": "fraud",
+        "text": "The fraud promised a cure but had no training."
+      }
+    }
+  },
+  {
+    "entry": "school-dropout",
+    "remove": [],
+    "set": {
+      "definition": "A person who leaves school before completing their education.",
+      "synonyms": [
+        "early school leaver"
+      ],
+      "example": {
+        "word": "school dropout",
+        "text": "The school dropout returned to education as an adult."
+      },
+      "exampleSynonym": {
+        "word": "early school leaver",
+        "text": "The early school leaver returned to education as an adult."
+      }
+    }
+  },
+  {
+    "entry": "sponsorship",
+    "remove": [],
+    "set": {
+      "definition": "Money given to support an event or person in return for advertising.",
+      "synonyms": [
+        "financial backing"
+      ],
+      "example": {
+        "word": "sponsorship",
+        "text": "The company offered sponsorship for the local festival."
+      },
+      "exampleSynonym": {
+        "word": "financial backing",
+        "text": "The company offered financial backing for the local festival."
+      }
+    }
+  },
+  {
+    "entry": "saltiness",
+    "remove": [],
+    "set": {
+      "definition": "The taste of food that contains too much salt.",
+      "synonyms": [
+        "salty taste"
+      ],
+      "example": {
+        "word": "saltiness",
+        "text": "The soup's saltiness made everyone reach for water."
+      },
+      "exampleSynonym": {
+        "word": "salty taste",
+        "text": "The soup's salty taste made everyone reach for water."
+      }
+    }
+  },
+  {
+    "entry": "phylloxera",
+    "remove": [],
+    "set": {
+      "definition": "A small insect that attacks grapevines and damages their roots.",
+      "synonyms": [
+        "grapevine pest"
+      ],
+      "example": {
+        "word": "phylloxera",
+        "text": "The phylloxera spread through the vineyard and damaged the vines."
+      },
+      "exampleSynonym": {
+        "word": "grapevine pest",
+        "text": "The grapevine pest spread through the vineyard and damaged the vines."
+      }
+    }
+  },
+  {
+    "entry": "stoker",
+    "remove": [],
+    "set": {
+      "definition": "A worker who feeds fuel into a furnace, boiler, or steam engine.",
+      "synonyms": [
+        "furnace worker"
+      ],
+      "example": {
+        "word": "stoker",
+        "text": "The stoker fed coal into the ship's furnace."
+      },
+      "exampleSynonym": {
+        "word": "furnace worker",
+        "text": "The furnace worker fed coal into the ship's furnace."
       }
     }
   }
