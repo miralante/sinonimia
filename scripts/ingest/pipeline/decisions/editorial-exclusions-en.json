@@ -83986,5 +83986,40 @@
     "id": "spokesperson-2",
     "word": "spokesperson",
     "reason": "A spokesperson is a person, not a position or status; the candidate confuses a role with the person who holds it."
+  },
+  {
+    "id": "craft-2",
+    "word": "Craft",
+    "reason": "The listed sense «work done with hands» is a common basic meaning of «craft» and adds little difficult vocabulary."
+  },
+  {
+    "id": "carriage-4",
+    "word": "Carriage",
+    "reason": "The proposed sense is an ancient Spanish unit of length with very limited historical use."
+  },
+  {
+    "id": "slow-down-4",
+    "word": "Slow down",
+    "reason": "This phrase means to make a process or activity slower, a routine and easy phrasal verb."
+  },
+  {
+    "id": "curl-4",
+    "word": "Curl",
+    "reason": "The entry defines the familiar act of making hair form curls and does not add a difficult distinct sense."
+  },
+  {
+    "id": "tempest-2",
+    "word": "Tempest",
+    "reason": "The candidate «storm variant» duplicates the common core meaning of «tempest» and is not a separate useful sense."
+  },
+  {
+    "id": "span-2",
+    "word": "Span",
+    "reason": "The candidate simply defines «span» as the time between two events, a common and easy meaning."
+  },
+  {
+    "id": "straw-5",
+    "word": "straw",
+    "reason": "The hollow dried stem of grass is a common basic meaning of «straw» and does not meet the curated vocabulary threshold."
   }
 ]
