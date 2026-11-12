@@ -266185,5 +266185,113 @@
         "text": "The rattling noise woke the baby."
       }
     }
+  },
+  {
+    "entry": "dust-jacket",
+    "remove": [],
+    "set": {
+      "definition": "A removable paper cover that protects a book's main cover.",
+      "synonyms": [
+        "protective book cover"
+      ],
+      "example": {
+        "word": "dust jacket",
+        "text": "A dust jacket can protect the hard cover of a book."
+      },
+      "exampleSynonym": {
+        "word": "protective book cover",
+        "text": "A protective book cover can protect the hard cover of a book."
+      }
+    }
+  },
+  {
+    "entry": "shifty",
+    "remove": [],
+    "set": {
+      "definition": "Dishonest or difficult to trust.",
+      "synonyms": [
+        "Untrustworthy"
+      ],
+      "example": {
+        "word": "Shifty",
+        "text": "Shifty people often avoid direct answers."
+      },
+      "exampleSynonym": {
+        "word": "Untrustworthy",
+        "text": "Untrustworthy people often avoid direct answers."
+      }
+    }
+  },
+  {
+    "entry": "niche",
+    "remove": [],
+    "set": {
+      "definition": "A shallow space in a wall for displaying an object.",
+      "synonyms": [
+        "recess"
+      ],
+      "example": {
+        "word": "niche",
+        "text": "The vase stood in a niche in the wall."
+      },
+      "exampleSynonym": {
+        "word": "recess",
+        "text": "The vase stood in a recess in the wall."
+      }
+    }
+  },
+  {
+    "entry": "interweave-2",
+    "remove": [],
+    "set": {
+      "definition": "To combine things by weaving them together or mixing them.",
+      "synonyms": [
+        "combine"
+      ],
+      "example": {
+        "word": "interweave",
+        "text": "The story interweaves history and fiction."
+      },
+      "exampleSynonym": {
+        "word": "combine",
+        "text": "The story combines history and fiction."
+      }
+    }
+  },
+  {
+    "entry": "stake-2",
+    "remove": [],
+    "set": {
+      "definition": "To tie an animal or object to a post.",
+      "synonyms": [
+        "Tie"
+      ],
+      "example": {
+        "word": "Stake",
+        "text": "Stake the goat beside the barn."
+      },
+      "exampleSynonym": {
+        "word": "Tie",
+        "text": "Tie the goat beside the barn."
+      }
+    }
+  },
+  {
+    "entry": "semblance-2",
+    "remove": [],
+    "set": {
+      "definition": "The outward appearance or likeness of someone or something.",
+      "synonyms": [
+        "Appearance"
+      ],
+      "example": {
+        "word": "Semblance",
+        "text": "Semblance can hide the truth."
+      },
+      "exampleSynonym": {
+        "word": "Appearance",
+        "text": "Appearance can hide the truth."
+      }
+    }
   }
 ]

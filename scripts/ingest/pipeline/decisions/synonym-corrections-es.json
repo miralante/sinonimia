@@ -265828,5 +265828,59 @@
         "text": "Su carácter único llamó la atención."
       }
     }
+  },
+  {
+    "entry": "astracanada",
+    "remove": [],
+    "set": {
+      "definition": "Farsa teatral con situaciones absurdas y humor vulgar.",
+      "synonyms": [
+        "comedia disparatada"
+      ],
+      "example": {
+        "word": "astracanada",
+        "text": "La obra fue una astracanada."
+      },
+      "exampleSynonym": {
+        "word": "comedia disparatada",
+        "text": "La obra fue una comedia disparatada."
+      }
+    }
+  },
+  {
+    "entry": "turbidez",
+    "remove": [],
+    "set": {
+      "definition": "Falta de transparencia de un líquido por las partículas que contiene.",
+      "synonyms": [
+        "opacidad"
+      ],
+      "example": {
+        "word": "turbidez",
+        "text": "La turbidez del agua aumentó después de la lluvia."
+      },
+      "exampleSynonym": {
+        "word": "opacidad",
+        "text": "La opacidad del agua aumentó después de la lluvia."
+      }
+    }
+  },
+  {
+    "entry": "yerbaluisa",
+    "remove": [],
+    "set": {
+      "definition": "Arbusto aromático cuyas hojas se usan para preparar infusiones.",
+      "synonyms": [
+        "hierbaluisa"
+      ],
+      "example": {
+        "word": "yerbaluisa",
+        "text": "La yerbaluisa dio aroma al té."
+      },
+      "exampleSynonym": {
+        "word": "hierbaluisa",
+        "text": "La hierbaluisa dio aroma al té."
+      }
+    }
   }
 ]
