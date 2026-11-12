@@ -87601,5 +87601,235 @@
     "id": "unravel-27",
     "word": "Unravel",
     "reason": "Unravel is common, and the supplied definition about removing entrails does not match its documented meanings."
+  },
+  {
+    "id": "button-2",
+    "word": "Button",
+    "reason": "Button is a common word, and the plant-budding sense is a low-utility specialist use."
+  },
+  {
+    "id": "template-4",
+    "word": "Template",
+    "reason": "Template is a familiar word, and the repeated “jam” definition is corrupt and does not match it."
+  },
+  {
+    "id": "occasionalism",
+    "word": "Occasionalism",
+    "reason": "Occasionalism names a specialized philosophical theory with little value for a general synonym dictionary."
+  },
+  {
+    "id": "ritual",
+    "word": "Ritual",
+    "reason": "Ritual is a familiar word, and the candidate gives the transparent sense of relating to a rite."
+  },
+  {
+    "id": "nahua",
+    "word": "Nahua",
+    "reason": "Nahua names an Indigenous people of Mexico; ethnonyms are outside this synonym dictionary's editorial scope."
+  },
+  {
+    "id": "indigestible-3",
+    "word": "Indigestible",
+    "reason": "Indigestible is a familiar adjective, and the candidate merely repeats the headword."
+  },
+  {
+    "id": "angu",
+    "word": "Angu",
+    "reason": "Angu is a regional name for a banana or banana purée and has little general use."
+  },
+  {
+    "id": "spring-5",
+    "word": "spring",
+    "reason": "Spring is a common word, and the candidate describes an ordinary kind of spring or water source."
+  },
+  {
+    "id": "infant-2",
+    "word": "infant",
+    "reason": "The candidate says “fight with stones,” which does not define infant."
+  },
+  {
+    "id": "courtesy-done-with-the-cap",
+    "word": "courtesy done with the cap",
+    "reason": "This phrase merely repeats itself and does not provide a useful distinct synonym entry."
+  },
+  {
+    "id": "grow-3",
+    "word": "grow",
+    "reason": "Grow is a common verb, and the candidate repeats it instead of explaining a distinct sense."
+  },
+  {
+    "id": "mess-6",
+    "word": "mess",
+    "reason": "Mess is a common word, and the candidate gives a familiar sense of disorder or confusion."
+  },
+  {
+    "id": "nahuat",
+    "word": "Nahuat",
+    "reason": "Nahuat names an Indigenous language and its speakers, rather than a general synonym sense."
+  },
+  {
+    "id": "terrifying-looking-mythological-monster",
+    "word": "terrifying-looking mythological monster",
+    "reason": "This phrase transparently describes a frightening mythical creature and does not warrant a synonym card."
+  },
+  {
+    "id": "ass-3",
+    "word": "ass",
+    "reason": "Ass as a colloquial word for buttocks is common and easy to understand."
+  },
+  {
+    "id": "chubby-9",
+    "word": "chubby",
+    "reason": "Chubby is a familiar adjective, and the supplied definition merely repeats its meaning."
+  },
+  {
+    "id": "lazy-13",
+    "word": "lazy",
+    "reason": "Lazy is a common adjective, and the candidate gives its basic sense of avoiding work."
+  },
+  {
+    "id": "ant-30",
+    "word": "ant",
+    "reason": "The candidate describes a person with great spirit, not an ant."
+  },
+  {
+    "id": "tag",
+    "word": "Tag",
+    "reason": "Tag is a common social-media verb, and its meaning of labeling a photo is straightforward."
+  },
+  {
+    "id": "misuse",
+    "word": "Misuse",
+    "reason": "Misuse transparently means to use something wrongly; the candidate repeats its basic sense."
+  },
+  {
+    "id": "telescope",
+    "word": "telescope",
+    "reason": "Telescope is a familiar word, and the candidate combines a basic instrument sense with a technical verb sense."
+  },
+  {
+    "id": "contrast-pit",
+    "word": "Contrast pit",
+    "reason": "This names a historical orchestra pit in a theater and is a highly specialized, low-utility term."
+  },
+  {
+    "id": "gastroscope",
+    "word": "Gastroscope",
+    "reason": "Gastroscope is a specialist medical instrument for examining the stomach, with little general synonym value."
+  },
+  {
+    "id": "germanophilia",
+    "word": "Germanophilia",
+    "reason": "Germanophilia is a rare term for admiration of German culture and has little general use."
+  },
+  {
+    "id": "takeoff",
+    "word": "Takeoff",
+    "reason": "Takeoff is a familiar noun for the act of lifting off or detaching; the candidate is easy to understand."
+  },
+  {
+    "id": "reshoe",
+    "word": "Reshoe",
+    "reason": "Reshoe means to fit a horse with horseshoes, a narrow farriery task with little general use."
+  },
+  {
+    "id": "reniform",
+    "word": "Reniform",
+    "reason": "Reniform is a specialist botanical or medical adjective meaning kidney-shaped, with little general use."
+  },
+  {
+    "id": "stereoscope",
+    "word": "Stereoscope",
+    "reason": "A stereoscope is a specialized optical device with little value in a general synonym dictionary."
+  },
+  {
+    "id": "black-hair",
+    "word": "black hair",
+    "reason": "Black hair is a familiar descriptive phrase and needs no separate synonym entry."
+  },
+  {
+    "id": "sanhedrin",
+    "word": "Sanhedrin",
+    "reason": "Sanhedrin names an ancient Jewish council and is a specialized historical proper name."
+  },
+  {
+    "id": "superferolytic",
+    "word": "Superferolytic",
+    "reason": "Superferolytic is an extremely rare word for something exquisite and has little current use."
+  },
+  {
+    "id": "stone-crusher",
+    "word": "Stone Crusher",
+    "reason": "Stone crusher transparently names a machine used to break stones and is not a difficult synonym sense."
+  },
+  {
+    "id": "rhododendron",
+    "word": "Rhododendron",
+    "reason": "Rhododendron is a plant name, not a difficult synonym entry; the candidate simply describes the shrub."
+  },
+  {
+    "id": "secess",
+    "word": "Secess",
+    "reason": "Secess is marked rare and names withdrawal from a group; it has little current general use."
+  },
+  {
+    "id": "genotypic",
+    "word": "Genotypic",
+    "reason": "Genotypic is a genetics term meaning related to a genotype, with little use outside that field."
+  },
+  {
+    "id": "nephritic",
+    "word": "Nephritic",
+    "reason": "Nephritic is a medical adjective relating to the kidneys and has low general synonym value."
+  },
+  {
+    "id": "spiritful",
+    "word": "Spiritful",
+    "reason": "Spiritful is extremely rare, and the supplied definition points to other words without defining it clearly."
+  },
+  {
+    "id": "castor",
+    "word": "castor",
+    "reason": "The candidate gives “castor” as a synonym of beaver rather than a definition and appears to mix unrelated entries."
+  },
+  {
+    "id": "scene",
+    "word": "Scene",
+    "reason": "Scene is a familiar word, and its event, play, and view meanings are straightforward."
+  },
+  {
+    "id": "celastracean",
+    "word": "Celastracean",
+    "reason": "Celastracean is a specialist adjective for a plant family and has little general synonym value."
+  },
+  {
+    "id": "metather",
+    "word": "Metather",
+    "reason": "Metather is a rare term for someone who works with a metate and has little general use."
+  },
+  {
+    "id": "shaved-beard",
+    "word": "shaved beard",
+    "reason": "Shaved beard is a straightforward description of facial hair and does not need a synonym card."
+  },
+  {
+    "id": "conductimeter",
+    "word": "Conductimeter",
+    "reason": "A conductimeter is an electrical measuring instrument with little value for a general synonym dictionary."
+  },
+  {
+    "id": "section-2",
+    "word": "Section",
+    "reason": "Section is a common word, and the candidate gives a familiar sense of a part of a text."
+  },
+  {
+    "id": "catch-2",
+    "word": "catch",
+    "reason": "Catch is a common verb, and the candidate describes its basic action of taking hold of something."
+  },
+  {
+    "id": "tab-2",
+    "word": "Tab",
+    "reason": "The candidate gives a narrow casino-token sense of tab, with little general value."
   }
 ]
