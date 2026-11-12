@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5136",
+  "runtime": "v5137",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1088,
-    "en": 1058
+    "es": 1128,
+    "en": 1098
   },
-  "latestLedgerBatchCount": 107,
-  "latestLedgerReviewedIdCount": 2146,
-  "appliedCount": 926,
+  "latestLedgerBatchCount": 111,
+  "latestLedgerReviewedIdCount": 2226,
+  "appliedCount": 946,
   "appliedByLanguage": {
-    "es": 467,
-    "en": 459
+    "es": 477,
+    "en": 469
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -61,7 +61,8 @@
     "B15-ninetieth-20-verdicts.json",
     "B15-ninetyfirst-20-verdicts.json",
     "B15-ninetysecond-20-verdicts.json",
-    "B15-ninetythird-20-verdicts.json"
+    "B15-ninetythird-20-verdicts.json",
+    "B15-ninetyfourth-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -5803,6 +5804,126 @@
       "batch": "B15-ninetythird-20-verdicts.json",
       "language": "en",
       "id": "payment-gateway",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "chita",
+      "decision": "exclude-rare-regional-interjection"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "clero",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "cuan",
+      "decision": "exclude-archaic-grammatical-form"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "cucaracha",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "delator",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "franqueza",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "sino",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "soplon",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "superioridad",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "es",
+      "id": "valeroso",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "competed",
+      "decision": "exclude-corrupt-inflected-form"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "climb",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "senechism",
+      "decision": "exclude-specialized-philosophical-doctrine"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "monetize",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "cinnamon",
+      "decision": "exclude-definition-sense-mismatch"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "gendarmerie",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "reverend",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "binator",
+      "decision": "exclude-corrupt-or-nonstandard-entry"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "chambray",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyfourth-20-verdicts.json",
+      "language": "en",
+      "id": "conjecturable",
       "decision": "rewrite-definition-and-example"
     }
   ],

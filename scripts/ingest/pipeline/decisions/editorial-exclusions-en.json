@@ -84746,5 +84746,25 @@
     "id": "collegiate",
     "word": "Collegiate",
     "reason": "The gloss describes a member of a professional association, not the adjective collegiate."
+  },
+  {
+    "id": "competed",
+    "word": "Competed",
+    "reason": "This is a past-tense form of compete, and its gloss describes insolvency rather than competition."
+  },
+  {
+    "id": "senechism",
+    "word": "Senechism",
+    "reason": "This rare term for a doctrine associated with Seneca has little general synonym value."
+  },
+  {
+    "id": "cinnamon",
+    "word": "Cinnamon",
+    "reason": "The gloss treats cinnamon as an adjective about shape or flavor and does not define the common noun sense represented here."
+  },
+  {
+    "id": "binator",
+    "word": "Binator",
+    "reason": "The gloss binary manager does not establish a recognized general English word or distinct sense."
   }
 ]
