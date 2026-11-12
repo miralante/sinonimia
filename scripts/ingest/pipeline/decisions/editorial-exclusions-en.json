@@ -94701,5 +94701,125 @@
     "id": "redness-2",
     "word": "redness",
     "reason": "Redness transparently names the quality of being red."
+  },
+  {
+    "id": "chickpea-2",
+    "word": "chickpea",
+    "reason": "The supplied definition describes someone who talks nonsense, not a chickpea."
+  },
+  {
+    "id": "kneeling-5",
+    "word": "kneeling",
+    "reason": "The supplied definition says “leave in a hurry” and does not match kneeling."
+  },
+  {
+    "id": "sugar-4",
+    "word": "sugar",
+    "reason": "Sugar is a common term of endearment with an easily understood meaning."
+  },
+  {
+    "id": "institute-3",
+    "word": "institute",
+    "reason": "Institute is a common formal verb meaning to establish something."
+  },
+  {
+    "id": "crush-7",
+    "word": "crush",
+    "reason": "The supplied definition describes shooting an arrow, not crush."
+  },
+  {
+    "id": "get-drunk-12",
+    "word": "get drunk",
+    "reason": "The supplied definition describes getting into trouble, not getting drunk."
+  },
+  {
+    "id": "almoner-4",
+    "word": "almoner",
+    "reason": "Almoner is an obsolete religious or charitable role, and the supplied definition contradicts itself."
+  },
+  {
+    "id": "longing-4",
+    "word": "longing",
+    "reason": "Longing is a familiar word for a strong desire for something."
+  },
+  {
+    "id": "indirect-2",
+    "word": "indirect",
+    "reason": "Indirect is a common adjective, and the supplied definition repeats its meaning in confusing wording."
+  },
+  {
+    "id": "bowl-4",
+    "word": "bowl",
+    "reason": "Bowl is a common word for a round, open container."
+  },
+  {
+    "id": "cooperator-2",
+    "word": "cooperator",
+    "reason": "Cooperator is a transparent noun for someone who cooperates, and the supplied definition is circular."
+  },
+  {
+    "id": "migraine-4",
+    "word": "migraine",
+    "reason": "The supplied definition describes a person who gets migraines, not the condition migraine."
+  },
+  {
+    "id": "spread-out-6",
+    "word": "spread out",
+    "reason": "The supplied definition is a Spanish slang phrase and does not define spread out."
+  },
+  {
+    "id": "shaker-4",
+    "word": "shaker",
+    "reason": "Shaker is a common transparent noun for a person or thing that shakes."
+  },
+  {
+    "id": "congreve",
+    "word": "congreve",
+    "reason": "Congreve is an obsolete historical name for a type of military rocket."
+  },
+  {
+    "id": "codaster",
+    "word": "codaster",
+    "reason": "The supplied definition is Spanish, “you elbowed,” and does not define an English word."
+  },
+  {
+    "id": "guard-5",
+    "word": "guard",
+    "reason": "Guard is a common word for protecting or watching someone or something."
+  },
+  {
+    "id": "annoying-7",
+    "word": "annoying",
+    "reason": "Annoying is a common adjective, and the supplied definition merely repeats a related noun."
+  },
+  {
+    "id": "phrase-3",
+    "word": "phrase",
+    "reason": "Phrase is a common word for a group of words or a way of speaking."
+  },
+  {
+    "id": "mot-remover",
+    "word": "mot remover",
+    "reason": "Mot remover is not a useful current English term and appears to be a malformed scraped phrase."
+  },
+  {
+    "id": "saturable",
+    "word": "saturable",
+    "reason": "Saturable is a transparent specialist adjective meaning capable of being saturated."
+  },
+  {
+    "id": "telera",
+    "word": "telera",
+    "reason": "Telera is a Spanish regional construction term, not an English headword."
+  },
+  {
+    "id": "tilia",
+    "word": "tilia",
+    "reason": "Tilia is the scientific genus name for linden trees, not a useful general synonym entry."
+  },
+  {
+    "id": "salami",
+    "word": "salami",
+    "reason": "Salami is a common food name with a clear, accessible definition."
   }
 ]

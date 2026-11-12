@@ -268380,5 +268380,113 @@
         "text": "The browser checked the website security certificate before opening the site."
       }
     }
+  },
+  {
+    "entry": "tender-2",
+    "remove": [],
+    "set": {
+      "definition": "A formal offer to do work for a stated price.",
+      "synonyms": [
+        "bid"
+      ],
+      "example": {
+        "word": "tender",
+        "text": "The company submitted a tender for the bridge project."
+      },
+      "exampleSynonym": {
+        "word": "bid",
+        "text": "The company submitted a bid for the bridge project."
+      }
+    }
+  },
+  {
+    "entry": "scraper-4",
+    "remove": [],
+    "set": {
+      "definition": "A tool that removes material from a surface by scraping.",
+      "synonyms": [
+        "scraping tool"
+      ],
+      "example": {
+        "word": "scraper",
+        "text": "The worker used a scraper to remove rust from the gate."
+      },
+      "exampleSynonym": {
+        "word": "scraping tool",
+        "text": "The worker used a scraping tool to remove rust from the gate."
+      }
+    }
+  },
+  {
+    "entry": "collinear",
+    "remove": [],
+    "set": {
+      "definition": "Describes points that lie on the same straight line.",
+      "synonyms": [
+        "on one line"
+      ],
+      "example": {
+        "word": "collinear",
+        "text": "The three points are collinear."
+      },
+      "exampleSynonym": {
+        "word": "on one line",
+        "text": "The three points are on one line."
+      }
+    }
+  },
+  {
+    "entry": "myriapod",
+    "remove": [],
+    "set": {
+      "definition": "An arthropod with many legs, such as a centipede or millipede.",
+      "synonyms": [
+        "many-legged arthropod"
+      ],
+      "example": {
+        "word": "myriapod",
+        "text": "A myriapod has a long body with many legs."
+      },
+      "exampleSynonym": {
+        "word": "many-legged arthropod",
+        "text": "A many-legged arthropod has a long body with many legs."
+      }
+    }
+  },
+  {
+    "entry": "charter-3",
+    "remove": [],
+    "set": {
+      "definition": "Describes a flight arranged for a specific group outside regular airline schedules.",
+      "synonyms": [
+        "privately arranged"
+      ],
+      "example": {
+        "word": "charter",
+        "text": "The team booked a charter flight to the island."
+      },
+      "exampleSynonym": {
+        "word": "privately arranged",
+        "text": "The team booked a privately arranged flight to the island."
+      }
+    }
+  },
+  {
+    "entry": "cortical",
+    "remove": [],
+    "set": {
+      "definition": "Related to the cerebral cortex, the brain's outer layer.",
+      "synonyms": [
+        "brain-surface"
+      ],
+      "example": {
+        "word": "cortical",
+        "text": "The accident caused cortical damage."
+      },
+      "exampleSynonym": {
+        "word": "brain-surface",
+        "text": "The accident caused brain-surface damage."
+      }
+    }
   }
 ]

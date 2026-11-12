@@ -268186,5 +268186,185 @@
         "text": "El producto parcialmente desnatado contiene menos grasa."
       }
     }
+  },
+  {
+    "entry": "cromogeno",
+    "remove": [],
+    "set": {
+      "definition": "Que puede producir color o hacer que una sustancia lo adquiera.",
+      "synonyms": [
+        "que produce color"
+      ],
+      "example": {
+        "word": "cromógeno",
+        "text": "El compuesto cromógeno cambió de tono al reaccionar."
+      },
+      "exampleSynonym": {
+        "word": "que produce color",
+        "text": "El compuesto que produce color cambió de tono al reaccionar."
+      }
+    }
+  },
+  {
+    "entry": "tornera",
+    "remove": [],
+    "set": {
+      "definition": "Mujer que maneja un torno para fabricar o reparar piezas.",
+      "synonyms": [
+        "operaria de torno"
+      ],
+      "example": {
+        "word": "tornera",
+        "text": "La tornera fabricó una pieza metálica a medida."
+      },
+      "exampleSynonym": {
+        "word": "operaria de torno",
+        "text": "La operaria de torno fabricó una pieza metálica a medida."
+      }
+    }
+  },
+  {
+    "entry": "teleguiado",
+    "remove": [],
+    "set": {
+      "definition": "Controlado a distancia mediante señales.",
+      "synonyms": [
+        "controlado a distancia"
+      ],
+      "example": {
+        "word": "teleguiado",
+        "text": "El misil teleguiado siguió el objetivo."
+      },
+      "exampleSynonym": {
+        "word": "controlado a distancia",
+        "text": "El misil controlado a distancia siguió el objetivo."
+      }
+    }
+  },
+  {
+    "entry": "zaguera",
+    "remove": [],
+    "set": {
+      "definition": "Parte que queda en la zona posterior de algo.",
+      "synonyms": [
+        "parte trasera"
+      ],
+      "example": {
+        "word": "zaguera",
+        "text": "La zaguera del edificio necesita reparaciones."
+      },
+      "exampleSynonym": {
+        "word": "parte trasera",
+        "text": "La parte trasera del edificio necesita reparaciones."
+      }
+    }
+  },
+  {
+    "entry": "antialgico",
+    "remove": [],
+    "set": {
+      "definition": "Que calma o reduce el dolor.",
+      "synonyms": [
+        "analgésico"
+      ],
+      "example": {
+        "word": "antiálgico",
+        "text": "El medicamento antiálgico alivió el dolor."
+      },
+      "exampleSynonym": {
+        "word": "analgésico",
+        "text": "El medicamento analgésico alivió el dolor."
+      }
+    }
+  },
+  {
+    "entry": "celtohispano",
+    "remove": [],
+    "set": {
+      "definition": "Relacionado con los pueblos celtas de la antigua Hispania.",
+      "synonyms": [
+        "de los celtas de Hispania"
+      ],
+      "example": {
+        "word": "celtohispano",
+        "text": "El yacimiento conserva un resto celtohispano."
+      },
+      "exampleSynonym": {
+        "word": "de los celtas de Hispania",
+        "text": "El yacimiento conserva un resto de los celtas de Hispania."
+      }
+    }
+  },
+  {
+    "entry": "decania",
+    "remove": [],
+    "set": {
+      "definition": "Tiempo durante el que una persona ocupa un decanato.",
+      "synonyms": [
+        "etapa como decana"
+      ],
+      "example": {
+        "word": "decanía",
+        "text": "Durante la decanía de Ana, el centro renovó sus aulas."
+      },
+      "exampleSynonym": {
+        "word": "etapa como decana",
+        "text": "Durante la etapa como decana de Ana, el centro renovó sus aulas."
+      }
+    }
+  },
+  {
+    "entry": "armadia",
+    "remove": [],
+    "set": {
+      "definition": "Conjunto de maderos atados para transportarlos flotando por un río.",
+      "synonyms": [
+        "balsa de troncos"
+      ],
+      "example": {
+        "word": "armadía",
+        "text": "La armadía llevó la madera río abajo."
+      },
+      "exampleSynonym": {
+        "word": "balsa de troncos",
+        "text": "La balsa de troncos llevó la madera río abajo."
+      }
+    }
+  },
+  {
+    "entry": "citarilla",
+    "remove": [],
+    "set": {
+      "definition": "Pared de ladrillos con huecos entre las piezas, usada para dividir espacios.",
+      "synonyms": [
+        "pared calada"
+      ],
+      "example": {
+        "word": "citarilla",
+        "text": "La citarilla dejaba pasar la luz."
+      },
+      "exampleSynonym": {
+        "word": "pared calada",
+        "text": "La pared calada dejaba pasar la luz."
+      }
+    }
+  },
+  {
+    "entry": "galvanizado",
+    "remove": [],
+    "set": {
+      "definition": "Capa de zinc que protege el acero de la corrosión.",
+      "synonyms": [
+        "revestimiento de zinc"
+      ],
+      "example": {
+        "word": "galvanizado",
+        "text": "El galvanizado protege las piezas de acero de la corrosión."
+      },
+      "exampleSynonym": {
+        "word": "revestimiento de zinc",
+        "text": "El revestimiento de zinc protege las piezas de acero de la corrosión."
+      }
+    }
   }
 ]
