@@ -267229,5 +267229,59 @@
         "text": "Grotesqueness defined the film's visual style."
       }
     }
+  },
+  {
+    "entry": "geriatrician-2",
+    "remove": [],
+    "set": {
+      "definition": "A doctor who treats health problems in older adults.",
+      "synonyms": [
+        "Senior-care doctor"
+      ],
+      "example": {
+        "word": "Geriatrician",
+        "text": "Geriatrician visits can improve care for older adults."
+      },
+      "exampleSynonym": {
+        "word": "Senior-care doctor",
+        "text": "Senior-care doctor visits can improve care for older adults."
+      }
+    }
+  },
+  {
+    "entry": "hypoxia-2",
+    "remove": [],
+    "set": {
+      "definition": "A condition caused by too little oxygen in the body.",
+      "synonyms": [
+        "Oxygen deficiency"
+      ],
+      "example": {
+        "word": "Hypoxia",
+        "text": "Hypoxia can damage the brain."
+      },
+      "exampleSynonym": {
+        "word": "Oxygen deficiency",
+        "text": "Oxygen deficiency can damage the brain."
+      }
+    }
+  },
+  {
+    "entry": "manliness-2",
+    "remove": [],
+    "set": {
+      "definition": "Traits traditionally associated with being a man.",
+      "synonyms": [
+        "Masculinity"
+      ],
+      "example": {
+        "word": "Manliness",
+        "text": "Manliness is understood differently across cultures."
+      },
+      "exampleSynonym": {
+        "word": "Masculinity",
+        "text": "Masculinity is understood differently across cultures."
+      }
+    }
   }
 ]

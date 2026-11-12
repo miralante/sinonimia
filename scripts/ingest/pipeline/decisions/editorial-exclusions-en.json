@@ -93076,5 +93076,140 @@
     "id": "council-3",
     "word": "Council",
     "reason": "Council names a group that meets to make decisions; the supplied office-or-position definition is mismatched."
+  },
+  {
+    "id": "lifter-2",
+    "word": "Lifter",
+    "reason": "This lifter sense names a machine used to collect cut sugar cane and is specialized agricultural equipment."
+  },
+  {
+    "id": "spanish-speaker-2",
+    "word": "Spanish speaker",
+    "reason": "Spanish speaker transparently means a person who speaks Spanish and is easy to understand."
+  },
+  {
+    "id": "soak-2",
+    "word": "Soak",
+    "reason": "Soak is a common verb; the supplied dialect labels indicate a regional variant rather than a useful separate sense."
+  },
+  {
+    "id": "chisel-2",
+    "word": "Chisel",
+    "reason": "Chisel is a familiar cutting tool, not a cut or hole made with that tool; the supplied definition is mismatched."
+  },
+  {
+    "id": "current-5",
+    "word": "Current",
+    "reason": "Current has familiar senses for flow and electricity; the supplied definition of a shock towards a person is unclear."
+  },
+  {
+    "id": "coyote-3",
+    "word": "Coyote",
+    "reason": "Coyote names an animal or a smuggler, not the action or effect of coyoting; the definition is corrupt."
+  },
+  {
+    "id": "template-2",
+    "word": "Template",
+    "reason": "Template means a pattern or model to copy, not the act of adding insoles to shoes."
+  },
+  {
+    "id": "refundable-2",
+    "word": "Refundable",
+    "reason": "Refundable plainly means that money can be paid back and is a transparent derivative."
+  },
+  {
+    "id": "canvas-4",
+    "word": "Canvas",
+    "reason": "Canvas means strong cloth used for painting or sails; the supplied narrow-strip definition is mismatched."
+  },
+  {
+    "id": "memorize-2",
+    "word": "Memorize",
+    "reason": "Memorize is a familiar verb meaning to learn something so you can remember it; the definition repeats that idea."
+  },
+  {
+    "id": "softness-5",
+    "word": "Softness",
+    "reason": "Softness is a common noun that simply names the quality of being soft."
+  },
+  {
+    "id": "fog-6",
+    "word": "Fog",
+    "reason": "Fog is a familiar weather word; the supplied covering-the-sky wording is awkward and adds drizzle unnecessarily."
+  },
+  {
+    "id": "cover-7",
+    "word": "Cover",
+    "reason": "Cover is a familiar word, and “back of the cover” is circular rather than a useful definition."
+  },
+  {
+    "id": "sap-2",
+    "word": "sap",
+    "reason": "Sap is a common word with several meanings; this older informal sense for informing on someone has limited general use."
+  },
+  {
+    "id": "suburban-2",
+    "word": "Suburban",
+    "reason": "Suburban plainly means located near or relating to a city and is easy to understand."
+  },
+  {
+    "id": "carving-2",
+    "word": "carving",
+    "reason": "Carving means the act or result of cutting or shaping something, not a person who serves food."
+  },
+  {
+    "id": "socket-3",
+    "word": "socket",
+    "reason": "Socket is a familiar opening or fitting that holds something in place; the supplied metal-connector wording is imprecise."
+  },
+  {
+    "id": "stressed-3",
+    "word": "stressed",
+    "reason": "Stressed is a familiar adjective for feeling worried or under pressure, and the definition is already clear."
+  },
+  {
+    "id": "scrubbing-5",
+    "word": "scrubbing",
+    "reason": "Scrubbing is a familiar form of scrub, and the supplied definition simply repeats the action."
+  },
+  {
+    "id": "muse-2",
+    "word": "Muse",
+    "reason": "The supplied sense of muse refers to Greek mythological goddesses and is specialized; the common inspirational sense is already familiar."
+  },
+  {
+    "id": "hum-4",
+    "word": "hum",
+    "reason": "Hum is a familiar verb for singing softly without forming words."
+  },
+  {
+    "id": "switch-4",
+    "word": "switch",
+    "reason": "Switch is a common device or action; the supplied mushroom description is unrelated and corrupt."
+  },
+  {
+    "id": "pumpkin-6",
+    "word": "Pumpkin",
+    "reason": "Pumpkin is a familiar food and plant name, and the supplied small-variety description is straightforward."
+  },
+  {
+    "id": "model-5",
+    "word": "Model",
+    "reason": "Model is a familiar word, and shaping something is a straightforward verb sense."
+  },
+  {
+    "id": "correct-4",
+    "word": "Correct",
+    "reason": "Correct is a familiar word, and its sense of being upright or fair is clear."
+  },
+  {
+    "id": "marbled-3",
+    "word": "Marbled",
+    "reason": "Marbled means marked with veins or streaks like marble, not having the consistency of jam."
+  },
+  {
+    "id": "spring-3",
+    "word": "Spring",
+    "reason": "Spring is a familiar word for an elastic metal piece, and the supplied definition merely repeats the headword."
   }
 ]
