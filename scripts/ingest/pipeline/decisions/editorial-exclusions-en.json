@@ -84381,5 +84381,30 @@
     "id": "size-2",
     "word": "size",
     "reason": "The candidate gloss «as greatly as anything else» does not match a supported noun or verb sense of size."
+  },
+  {
+    "id": "bonnet-3",
+    "word": "bonnet",
+    "reason": "The proposed fruit sense could not be verified in reliable English dictionaries; bonnet ordinarily names headwear or a vehicle cover."
+  },
+  {
+    "id": "wallow-3",
+    "word": "wallow",
+    "reason": "The gloss describes knocking someone down, which belongs to a different verb; it is not a sense of wallow."
+  },
+  {
+    "id": "dent-6",
+    "word": "dent",
+    "reason": "Remove buns from a surface is not a recognized meaning of dent and appears to be corrupted text."
+  },
+  {
+    "id": "iron-3",
+    "word": "iron",
+    "reason": "The card calls iron an obsolete variant of itself and supplies no distinct sense or useful synonym."
+  },
+  {
+    "id": "smelly-3",
+    "word": "smelly",
+    "reason": "The proposed pleasant-smell sense contradicts the usual meaning of smelly and duplicates fragrant."
   }
 ]
