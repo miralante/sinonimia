@@ -89987,5 +89987,55 @@
     "id": "balcanorromanico",
     "word": "balcanorrománico",
     "reason": "Nombra una familia de lenguas romances balcánicas y lo relativo a ella; es un término especializado de lingüística histórica."
+  },
+  {
+    "id": "boquifruncido",
+    "word": "boquifruncido",
+    "reason": "La definición candidata no coincide con el DLE: se aplica a una caballería con las comisuras de los labios bajas o estrechas. Es un término muy especializado."
+  },
+  {
+    "id": "canteno",
+    "word": "canteño",
+    "reason": "No significa relativo al canto: designa a una persona o cosa de Canta, en Perú; el gentilicio transparente aporta poco vocabulario útil."
+  },
+  {
+    "id": "caparideo",
+    "word": "caparídeo",
+    "reason": "La entrada candidata lo presenta erróneamente como una familia de peces; el DLE lo remite a caparidáceo, término botánico especializado."
+  },
+  {
+    "id": "cuadrifoliado",
+    "word": "cuadrifoliado",
+    "reason": "El DLE remite a cuadrifolio; es un adjetivo botánico raro y transparente por sus elementos."
+  },
+  {
+    "id": "desmallador",
+    "word": "desmallador",
+    "reason": "Tiene un sentido de uso raro y otro marcado como germanía para puñal; ambos son demasiado marginales para esta selección."
+  },
+  {
+    "id": "selenico",
+    "word": "selénico",
+    "reason": "La edición actual del DLE recoge solo el sentido poético «relativo a la Luna»; la definición química de la candidata no está respaldada ahí y el sentido lunar es marginal."
+  },
+  {
+    "id": "sustenido",
+    "word": "sustenido",
+    "reason": "La 24.ª edición del DLE marca la forma musical sustenido como desusada y remite a sostenido."
+  },
+  {
+    "id": "topetudo",
+    "word": "topetudo",
+    "reason": "La definición candidata sobre el pelo o el plumaje no coincide con el DLE actual, que lo aplica a un animal que suele dar topetadas."
+  },
+  {
+    "id": "vadiano",
+    "word": "vadiano",
+    "reason": "La candidata lo relaciona erróneamente con Ulrico de Hutten; el DLE lo vincula a una doctrina cristiana antigua y especializada."
+  },
+  {
+    "id": "velonera",
+    "word": "velonera",
+    "reason": "Nombra de forma transparente a quien fabrica o vende velones; la ocupación es demasiado específica y de uso limitado."
   }
 ]
