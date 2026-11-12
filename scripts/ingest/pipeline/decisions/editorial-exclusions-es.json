@@ -91152,5 +91152,20 @@
     "id": "trastornadura",
     "word": "trastornadura",
     "reason": "Es una nominalización poco usada de trastornar y no añade un significado independiente claro."
+  },
+  {
+    "id": "zabazala",
+    "word": "zabazala",
+    "reason": "Es un cargo histórico de la mezquita para dirigir la oración pública y no tiene uso general actual."
+  },
+  {
+    "id": "bruta",
+    "word": "bruta",
+    "reason": "Es solo el femenino de bruto y no constituye una entrada de significado independiente."
+  },
+  {
+    "id": "degenerado",
+    "word": "degenerado",
+    "reason": "Aplicado a una persona, es un insulto estigmatizante y no cumple los criterios de tono editorial."
   }
 ]

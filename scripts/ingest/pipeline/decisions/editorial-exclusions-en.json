@@ -85051,5 +85051,45 @@
     "id": "shilling",
     "word": "Shilling",
     "reason": "This entry refers only to the obsolete Austrian currency; it is not useful as a current general synonym card."
+  },
+  {
+    "id": "nasopharyngeal",
+    "word": "Nasopharyngeal",
+    "reason": "This technical anatomy adjective has little general synonym value."
+  },
+  {
+    "id": "guernsey",
+    "word": "Guernsey",
+    "reason": "This record is a place name rather than a general English synonym headword."
+  },
+  {
+    "id": "caparidacean",
+    "word": "Caparidacean",
+    "reason": "The spelling is unreliable and the definition names an obscure plant family rather than general vocabulary."
+  },
+  {
+    "id": "casuarid",
+    "word": "Casuarid",
+    "reason": "This rare technical adjective means related to cassowaries and has no useful general synonym."
+  },
+  {
+    "id": "conglutinative",
+    "word": "Conglutinative",
+    "reason": "This uncommon technical adjective relates to conglutination and is not useful in general vocabulary."
+  },
+  {
+    "id": "morphophonological",
+    "word": "Morphophonological",
+    "reason": "This technical linguistics adjective is too specialized for a general synonym dictionary."
+  },
+  {
+    "id": "senile",
+    "word": "Senile",
+    "reason": "The entry labels people through age-related cognitive decline in a way that is stigmatizing and outdated."
+  },
+  {
+    "id": "microtape",
+    "word": "Microtape",
+    "reason": "This very narrow film-format term is obsolete and has no general synonym value."
   }
 ]

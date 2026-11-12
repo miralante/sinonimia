@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5150",
+  "runtime": "v5151",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1418,
-    "en": 1388
+    "es": 1438,
+    "en": 1408
   },
-  "latestLedgerBatchCount": 140,
-  "latestLedgerReviewedIdCount": 2806,
-  "appliedCount": 1195,
+  "latestLedgerBatchCount": 142,
+  "latestLedgerReviewedIdCount": 2846,
+  "appliedCount": 1215,
   "appliedByLanguage": {
-    "es": 606,
-    "en": 589
+    "es": 616,
+    "en": 599
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -75,7 +75,8 @@
     "B15-onehundredfourth-20-verdicts.json",
     "B15-onehundredfifth-20-verdicts.json",
     "B15-onehundredsixth-20-verdicts.json",
-    "B15-onehundredseventh-20-verdicts.json"
+    "B15-onehundredseventh-20-verdicts.json",
+    "B15-onehundredeighth-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -7431,6 +7432,126 @@
       "batch": "B15-onehundredseventh-20-verdicts.json",
       "language": "en",
       "id": "commemorative",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "es",
+      "id": "zabazala",
+      "decision": "exclude-obsolete-religious-office"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "es",
+      "id": "zarandeo",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "es",
+      "id": "zoquetada",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "es",
+      "id": "zorreria",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "es",
+      "id": "zurrar",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "es",
+      "id": "abatido",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "es",
+      "id": "abejorro",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "es",
+      "id": "accionar",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "es",
+      "id": "bruta",
+      "decision": "exclude-inflected-form"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "es",
+      "id": "degenerado",
+      "decision": "exclude-stigmatizing-person-label"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "en",
+      "id": "nasopharyngeal",
+      "decision": "exclude-specialized-anatomical-adjective"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "en",
+      "id": "guernsey",
+      "decision": "exclude-proper-name-entry"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "en",
+      "id": "caparidacean",
+      "decision": "exclude-corrupt-specialized-botanical-term"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "en",
+      "id": "casuarid",
+      "decision": "exclude-specialized-zoological-adjective"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "en",
+      "id": "conglutinative",
+      "decision": "exclude-rare-technical-adjective"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "en",
+      "id": "morphophonological",
+      "decision": "exclude-specialized-linguistic-term"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "en",
+      "id": "senile",
+      "decision": "exclude-ageist-stigmatizing-label"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "en",
+      "id": "microtape",
+      "decision": "exclude-obsolete-film-format"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "en",
+      "id": "peel-off",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredeighth-20-verdicts.json",
+      "language": "en",
+      "id": "refry",
       "decision": "rewrite-definition-and-example"
     }
   ],
