@@ -90837,5 +90837,50 @@
     "id": "telefonometro",
     "word": "telefonómetro",
     "reason": "Es un aparato de medición telefónica hoy obsoleto y demasiado especializado para una entrada general."
+  },
+  {
+    "id": "bocabarra",
+    "word": "bocabarra",
+    "reason": "Es una voz coloquial poco extendida para una persona que habla mucho y sin interés; no aporta una equivalencia general estable."
+  },
+  {
+    "id": "cacahuatal",
+    "word": "cacahuatal",
+    "reason": "La definición de fruta seca y tostada no corresponde al sentido conocido de cacahuatal como terreno de cacahuates."
+  },
+  {
+    "id": "casatienda",
+    "word": "casatienda",
+    "reason": "Es un compuesto regional poco usado para un comercio doméstico y no ofrece una equivalencia general fiable."
+  },
+  {
+    "id": "cascarillal",
+    "word": "cascarillal",
+    "reason": "La definición de una concha seca no resulta coherente con el lema y no permite proponer una tarjeta fiable."
+  },
+  {
+    "id": "chanciller",
+    "word": "chanciller",
+    "reason": "Es un cargo histórico de la administración o justicia, hoy demasiado especializado para una entrada general."
+  },
+  {
+    "id": "circunferente",
+    "word": "circunferente",
+    "reason": "Es un adjetivo técnico y poco usado cuyo sentido de rodear no tiene una equivalencia general asentada."
+  },
+  {
+    "id": "cocuy",
+    "word": "cocuy",
+    "reason": "Es una acepción regional y antigua de lámpara hecha con caparazón, sin utilidad como sinónimo general actual."
+  },
+  {
+    "id": "concento",
+    "word": "concento",
+    "reason": "Es un término poético poco frecuente para una composición de varias voces, demasiado especializado para el diccionario general."
+  },
+  {
+    "id": "conchoprimo",
+    "word": "conchoprimo",
+    "reason": "Nombra una herramienta local y específica para abrir conchas; tiene un alcance demasiado limitado."
   }
 ]

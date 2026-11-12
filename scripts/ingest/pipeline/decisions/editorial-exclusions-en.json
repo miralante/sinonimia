@@ -84841,5 +84841,25 @@
     "id": "speltheus",
     "word": "Speltheus",
     "reason": "This rare form lacks reliable evidence as a current general English headword and has no useful synonym card."
+  },
+  {
+    "id": "affected-2",
+    "word": "Affected",
+    "reason": "The supplied pompadour gloss does not match the ordinary headword and appears to be attached from an unrelated entry."
+  },
+  {
+    "id": "kneader-2",
+    "word": "Kneader",
+    "reason": "This is a specialized machine for mixing dough or other material, with little general synonym value."
+  },
+  {
+    "id": "mirror-3",
+    "word": "Mirror",
+    "reason": "The definition describes a shop selling mirrors, not the ordinary noun or verb mirror, and appears to be a data mismatch."
+  },
+  {
+    "id": "connect-2",
+    "word": "Connect",
+    "reason": "The gloss repeats the headword and supplies no usable definition of the pronominal construction."
   }
 ]

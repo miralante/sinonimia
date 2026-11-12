@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5140",
+  "runtime": "v5141",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1218,
-    "en": 1188
+    "es": 1228,
+    "en": 1198
   },
-  "latestLedgerBatchCount": 120,
-  "latestLedgerReviewedIdCount": 2406,
-  "appliedCount": 1006,
+  "latestLedgerBatchCount": 121,
+  "latestLedgerReviewedIdCount": 2426,
+  "appliedCount": 1026,
   "appliedByLanguage": {
-    "es": 507,
-    "en": 499
+    "es": 517,
+    "en": 509
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -65,7 +65,8 @@
     "B15-ninetyfourth-20-verdicts.json",
     "B15-ninetyfifth-20-verdicts.json",
     "B15-ninetysixth-20-verdicts.json",
-    "B15-ninetyseventh-20-verdicts.json"
+    "B15-ninetyseventh-20-verdicts.json",
+    "B15-ninetyeighth-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -6287,6 +6288,126 @@
       "batch": "B15-ninetyseventh-20-verdicts.json",
       "language": "en",
       "id": "reprimand-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "bocabarra",
+      "decision": "exclude-rare-derogatory-colloquialism"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "cacahuatal",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "casatienda",
+      "decision": "exclude-rare-regional-compound"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "cascarillal",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "chanciller",
+      "decision": "exclude-obsolete-legal-office"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "circunferente",
+      "decision": "exclude-rare-technical-adjective"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "cocuy",
+      "decision": "exclude-regional-obsolete-object"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "comprimible",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "concento",
+      "decision": "exclude-rare-specialized-poetic-term"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "es",
+      "id": "conchoprimo",
+      "decision": "exclude-regional-specialized-tool"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "investigation-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "laborer-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "contractor-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "lock-3",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "affected-2",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "kneader-2",
+      "decision": "exclude-specialized-machine-term"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "craving-2",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "mirror-3",
+      "decision": "exclude-corrupt-definition"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "connect-2",
+      "decision": "exclude-circular-cross-reference"
+    },
+    {
+      "batch": "B15-ninetyeighth-20-verdicts.json",
+      "language": "en",
+      "id": "chipping-4",
       "decision": "rewrite-definition-and-example"
     }
   ],
