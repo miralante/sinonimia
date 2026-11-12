@@ -264298,5 +264298,77 @@
         "text": "El lector ingenuo aceptó la historia."
       }
     }
+  },
+  {
+    "entry": "esterilizar",
+    "remove": [],
+    "set": {
+      "definition": "Eliminar todos los microorganismos de un objeto o material.",
+      "synonyms": [
+        "dejar sin microbios"
+      ],
+      "example": {
+        "word": "esterilizar",
+        "text": "Hay que esterilizar el material antes de usarlo."
+      },
+      "exampleSynonym": {
+        "word": "dejar sin microbios",
+        "text": "Hay que dejar sin microbios el material antes de usarlo."
+      }
+    }
+  },
+  {
+    "entry": "resplandeciente",
+    "remove": [],
+    "set": {
+      "definition": "Que emite mucha luz o brilla con fuerza.",
+      "synonyms": [
+        "brillante"
+      ],
+      "example": {
+        "word": "resplandeciente",
+        "text": "El sol resplandeciente iluminaba el valle."
+      },
+      "exampleSynonym": {
+        "word": "brillante",
+        "text": "El sol brillante iluminaba el valle."
+      }
+    }
+  },
+  {
+    "entry": "yelmo",
+    "remove": [],
+    "set": {
+      "definition": "Casco de armadura que protegía la cabeza y la cara.",
+      "synonyms": [
+        "casco"
+      ],
+      "example": {
+        "word": "yelmo",
+        "text": "El yelmo protegía la cabeza del soldado."
+      },
+      "exampleSynonym": {
+        "word": "casco",
+        "text": "El casco protegía la cabeza del soldado."
+      }
+    }
+  },
+  {
+    "entry": "complementariedad",
+    "remove": [],
+    "set": {
+      "definition": "Cualidad de dos cosas que se completan entre sí.",
+      "synonyms": [
+        "complementación"
+      ],
+      "example": {
+        "word": "complementariedad",
+        "text": "La complementariedad del equipo mejoró el proyecto."
+      },
+      "exampleSynonym": {
+        "word": "complementación",
+        "text": "La complementación del equipo mejoró el proyecto."
+      }
+    }
   }
 ]

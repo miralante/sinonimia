@@ -265087,5 +265087,113 @@
         "text": "The door speaker rang at the front gate."
       }
     }
+  },
+  {
+    "entry": "impurity-2",
+    "remove": [],
+    "set": {
+      "definition": "An unwanted substance that makes another substance less pure.",
+      "synonyms": [
+        "contaminant"
+      ],
+      "example": {
+        "word": "impurity",
+        "text": "The impurity affected the sample."
+      },
+      "exampleSynonym": {
+        "word": "contaminant",
+        "text": "The contaminant affected the sample."
+      }
+    }
+  },
+  {
+    "entry": "cobbler-2",
+    "remove": [],
+    "set": {
+      "definition": "A person whose job is repairing shoes.",
+      "synonyms": [
+        "shoe repairer"
+      ],
+      "example": {
+        "word": "cobbler",
+        "text": "The cobbler fixed my boots."
+      },
+      "exampleSynonym": {
+        "word": "shoe repairer",
+        "text": "The shoe repairer fixed my boots."
+      }
+    }
+  },
+  {
+    "entry": "modernity-2",
+    "remove": [],
+    "set": {
+      "definition": "The quality or state of being modern.",
+      "synonyms": [
+        "modern character"
+      ],
+      "example": {
+        "word": "modernity",
+        "text": "The modernity of the building stood out."
+      },
+      "exampleSynonym": {
+        "word": "modern character",
+        "text": "The modern character of the building stood out."
+      }
+    }
+  },
+  {
+    "entry": "compliance-2",
+    "remove": [],
+    "set": {
+      "definition": "The act of following a rule, law, or agreement.",
+      "synonyms": [
+        "conformity"
+      ],
+      "example": {
+        "word": "compliance",
+        "text": "The team's compliance with the rules was checked."
+      },
+      "exampleSynonym": {
+        "word": "conformity",
+        "text": "The team's conformity with the rules was checked."
+      }
+    }
+  },
+  {
+    "entry": "span-3",
+    "remove": [],
+    "set": {
+      "definition": "A hand measure from the thumb tip to the little-finger tip.",
+      "synonyms": [
+        "handspan"
+      ],
+      "example": {
+        "word": "span",
+        "text": "Measure the span of your hand."
+      },
+      "exampleSynonym": {
+        "word": "handspan",
+        "text": "Measure the handspan of your hand."
+      }
+    }
+  },
+  {
+    "entry": "sublingual",
+    "remove": [],
+    "set": {
+      "definition": "Placed under the tongue, especially a medicine.",
+      "synonyms": [
+        "under-the-tongue"
+      ],
+      "example": {
+        "word": "sublingual",
+        "text": "The doctor prescribed sublingual medicine."
+      },
+      "exampleSynonym": {
+        "word": "under-the-tongue",
+        "text": "The doctor prescribed under-the-tongue medicine."
+      }
+    }
   }
 ]

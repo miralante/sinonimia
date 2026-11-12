@@ -88621,5 +88621,175 @@
     "id": "sieve-3",
     "word": "sieve",
     "reason": "Sieve is a common household word, and the candidate gives a narrow regional farming tool sense."
+  },
+  {
+    "id": "lull-2",
+    "word": "lull",
+    "reason": "Lull is a common word for calming or quieting, while the candidate describes bird courtship incorrectly."
+  },
+  {
+    "id": "grit-3",
+    "word": "Grit",
+    "reason": "Grit is a common word for small grains or courage; the candidate gives an unrelated fabric description."
+  },
+  {
+    "id": "stretch-2",
+    "word": "Stretch",
+    "reason": "Stretch is a basic common verb, and the candidate describes its ordinary exercise sense."
+  },
+  {
+    "id": "mortar-4",
+    "word": "mortar",
+    "reason": "Mortar is a common material or weapon name; the candidate’s bitumen sense is highly specialized."
+  },
+  {
+    "id": "fugitive-2",
+    "word": "Fugitive",
+    "reason": "Fugitive is a common word, and the candidate defines it as an old-fashioned variant of itself."
+  },
+  {
+    "id": "furious-2",
+    "word": "Furious",
+    "reason": "Furious is a familiar adjective meaning very angry, and the candidate merely repeats that meaning."
+  },
+  {
+    "id": "hairstyle-2",
+    "word": "Hairstyle",
+    "reason": "Hairstyle is a familiar word for the way hair is arranged, not the act of combing."
+  },
+  {
+    "id": "sprinkle-5",
+    "word": "Sprinkle",
+    "reason": "Sprinkle is a common verb, and the candidate’s mouth-spray sense is narrow and low utility."
+  },
+  {
+    "id": "complain-2",
+    "word": "complain",
+    "reason": "Complain is a common verb for expressing dissatisfaction; the candidate gives an unrelated speech definition."
+  },
+  {
+    "id": "capture-3",
+    "word": "Capture",
+    "reason": "Capture is a common word for the act of catching or taking control of something."
+  },
+  {
+    "id": "nectarine-2",
+    "word": "Nectarine",
+    "reason": "Nectarine is a familiar fruit name and does not need a difficult synonym entry."
+  },
+  {
+    "id": "slow-down-5",
+    "word": "slow down",
+    "reason": "Slow down is a common phrasal verb, and the candidate describes becoming soft rather than slowing."
+  },
+  {
+    "id": "curl-5",
+    "word": "Curl",
+    "reason": "Curl is a familiar verb for making something curved or arranging hair in curls."
+  },
+  {
+    "id": "nice-4",
+    "word": "Nice",
+    "reason": "Nice is a very common adjective, and the candidate lists familiar synonyms."
+  },
+  {
+    "id": "mohammedan-2",
+    "word": "Mohammedan",
+    "reason": "Mohammedan is an outdated label for Muslims or Islam and is no longer suitable editorially."
+  },
+  {
+    "id": "temporary-4",
+    "word": "Temporary",
+    "reason": "Temporary is a common adjective meaning lasting for a limited time, not merely relating to time."
+  },
+  {
+    "id": "caruncular",
+    "word": "caruncular",
+    "reason": "Caruncular is a specialist anatomical adjective relating to caruncles."
+  },
+  {
+    "id": "chirigote",
+    "word": "chirigote",
+    "reason": "Chirigote is an obscure form tied to Spanish satirical jokes and has no clear general English use."
+  },
+  {
+    "id": "carriage-5",
+    "word": "Carriage",
+    "reason": "Carriage is a common noun for a vehicle or a part of a train; the candidate’s adjective definition is mismatched."
+  },
+  {
+    "id": "soap-6",
+    "word": "Soap",
+    "reason": "Soap is a familiar cleaning product, and the candidate’s Uruguay sense of scare is mismatched."
+  },
+  {
+    "id": "skipper-3",
+    "word": "Skipper",
+    "reason": "Skipper commonly means a boat or team captain; the candidate’s trustee definition does not fit."
+  },
+  {
+    "id": "robinia",
+    "word": "Robinia",
+    "reason": "Robinia is a Latin genus name for ornamental trees and is too specialized for the general dictionary."
+  },
+  {
+    "id": "bozon",
+    "word": "Bozon",
+    "reason": "Bozon appears to be a misspelling or nonstandard variant of bozo rather than a separate current word."
+  },
+  {
+    "id": "cocainomania",
+    "word": "Cocainomania",
+    "reason": "Cocainomania is a rare medical term for cocaine addiction, for which clearer current wording is available."
+  },
+  {
+    "id": "mare-2",
+    "word": "mare",
+    "reason": "Mare is a common word for a female horse, and the candidate incorrectly describes a mule’s parentage."
+  },
+  {
+    "id": "black-poplar",
+    "word": "black poplar",
+    "reason": "Black poplar is a particular tree species and is too specialized for a general synonym entry."
+  },
+  {
+    "id": "roast-chestnuts-in-a-magosto",
+    "word": "roast chestnuts in a magosto",
+    "reason": "This phrase names a Galician seasonal custom and has little use outside that regional context."
+  },
+  {
+    "id": "moldy-4",
+    "word": "moldy",
+    "reason": "Moldy is a common adjective meaning covered with mold; the candidate merely repeats that meaning."
+  },
+  {
+    "id": "come-18",
+    "word": "come",
+    "reason": "Come is a common verb, and the candidate’s definition of poorly arranged teeth is unrelated."
+  },
+  {
+    "id": "chili-31",
+    "word": "chili",
+    "reason": "Chili is a familiar pepper or dish; the candidate describes an unrelated plant from the spurge family."
+  },
+  {
+    "id": "cabbage-46",
+    "word": "cabbage",
+    "reason": "Cabbage is a common vegetable, and the candidate describes a straw hat instead."
+  },
+  {
+    "id": "get-down",
+    "word": "get down",
+    "reason": "Get down is a common phrasal verb, and the candidate repeats an unclear instruction rather than defining a sense."
+  },
+  {
+    "id": "statement",
+    "word": "Statement",
+    "reason": "Statement is a common noun with several everyday senses; the candidate limits it to a formal media communication."
+  },
+  {
+    "id": "chrysocolla",
+    "word": "Chrysocolla",
+    "reason": "Chrysocolla is a rare blue-green mineral name used mainly in geology and gemology."
   }
 ]
