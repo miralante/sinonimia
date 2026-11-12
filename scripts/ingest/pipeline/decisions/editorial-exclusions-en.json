@@ -83836,5 +83836,40 @@
     "id": "capetoned",
     "word": "Capetoned",
     "reason": "The proposed illness gloss is historical and poorly supported; this entry has no useful current English sense."
+  },
+  {
+    "id": "milled",
+    "word": "Milled",
+    "reason": "The proposed “old contribution of millions” gloss is malformed and does not define a useful current English sense."
+  },
+  {
+    "id": "casing",
+    "word": "Casing",
+    "reason": "The proposed fishing-gear gloss is unclear and does not match a useful current sense of «casing»."
+  },
+  {
+    "id": "cortischear",
+    "word": "Cortischear",
+    "reason": "A malformed Spanish verb was placed in the English dictionary; it is not an English headword."
+  },
+  {
+    "id": "cretinity",
+    "word": "Cretinity",
+    "reason": "This rare formation is unsupported in Collins and adds no useful distinct sense beyond «cretinism»."
+  },
+  {
+    "id": "speller",
+    "word": "speller",
+    "reason": "A straightforward person noun formed from the common verb «spell»; it adds little difficult vocabulary."
+  },
+  {
+    "id": "growl",
+    "word": "growl",
+    "reason": "The glossary assigns a crane’s call to «growl», but the definition does not establish a distinct standard sense for this common verb."
+  },
+  {
+    "id": "moisturize",
+    "word": "moisturize",
+    "reason": "The current gloss is wrong, but the verified verb simply means making skin softer or less dry; it is common and easy."
   }
 ]
