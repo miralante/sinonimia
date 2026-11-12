@@ -267898,5 +267898,95 @@
         "text": "La limitación de la vida humana es un tema recurrente."
       }
     }
+  },
+  {
+    "entry": "verdugada",
+    "remove": [],
+    "set": {
+      "definition": "Hilada horizontal de ladrillos que refuerza o adorna un muro.",
+      "synonyms": [
+        "hilada de ladrillos"
+      ],
+      "example": {
+        "word": "verdugada",
+        "text": "La verdugada reforzó la pared exterior."
+      },
+      "exampleSynonym": {
+        "word": "hilada de ladrillos",
+        "text": "La hilada de ladrillos reforzó la pared exterior."
+      }
+    }
+  },
+  {
+    "entry": "vinador",
+    "remove": [],
+    "set": {
+      "definition": "Persona que cultiva y cuida viñedos.",
+      "synonyms": [
+        "viticultor"
+      ],
+      "example": {
+        "word": "viñador",
+        "text": "El viñador recorrió la finca antes de la vendimia."
+      },
+      "exampleSynonym": {
+        "word": "viticultor",
+        "text": "El viticultor recorrió la finca antes de la vendimia."
+      }
+    }
+  },
+  {
+    "entry": "suboficial",
+    "remove": [],
+    "set": {
+      "definition": "Militar con un rango entre oficial y tropa.",
+      "synonyms": [
+        "militar de rango intermedio"
+      ],
+      "example": {
+        "word": "suboficial",
+        "text": "El suboficial organizó la guardia nocturna."
+      },
+      "exampleSynonym": {
+        "word": "militar de rango intermedio",
+        "text": "El militar de rango intermedio organizó la guardia nocturna."
+      }
+    }
+  },
+  {
+    "entry": "apoliticidad",
+    "remove": [],
+    "set": {
+      "definition": "Actitud de no participar en asuntos políticos.",
+      "synonyms": [
+        "desinterés político"
+      ],
+      "example": {
+        "word": "apoliticidad",
+        "text": "Su apoliticidad sorprendió a los demás."
+      },
+      "exampleSynonym": {
+        "word": "desinterés político",
+        "text": "Su desinterés político sorprendió a los demás."
+      }
+    }
+  },
+  {
+    "entry": "balconera",
+    "remove": [],
+    "set": {
+      "definition": "Barandilla pequeña que rodea un balcón.",
+      "synonyms": [
+        "barandilla pequeña"
+      ],
+      "example": {
+        "word": "balconera",
+        "text": "La balconera protegía el borde del balcón."
+      },
+      "exampleSynonym": {
+        "word": "barandilla pequeña",
+        "text": "La barandilla pequeña protegía el borde del balcón."
+      }
+    }
   }
 ]

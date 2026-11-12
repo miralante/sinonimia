@@ -268173,5 +268173,131 @@
         "text": "The appetizer arrived before dinner."
       }
     }
+  },
+  {
+    "entry": "suffrage",
+    "remove": [],
+    "set": {
+      "definition": "The right to vote in political elections.",
+      "synonyms": [
+        "voting rights"
+      ],
+      "example": {
+        "word": "suffrage",
+        "text": "They demanded suffrage for all adults."
+      },
+      "exampleSynonym": {
+        "word": "voting rights",
+        "text": "They demanded voting rights for all adults."
+      }
+    }
+  },
+  {
+    "entry": "terminable",
+    "remove": [],
+    "set": {
+      "definition": "Able to be ended or brought to an end.",
+      "synonyms": [
+        "able to be ended"
+      ],
+      "example": {
+        "word": "terminable",
+        "text": "The agreement is terminable after one year."
+      },
+      "exampleSynonym": {
+        "word": "able to be ended",
+        "text": "The agreement is able to be ended after one year."
+      }
+    }
+  },
+  {
+    "entry": "tensor",
+    "remove": [],
+    "set": {
+      "definition": "A mathematical object that relates quantities in different directions.",
+      "synonyms": [
+        "multidimensional object"
+      ],
+      "example": {
+        "word": "tensor",
+        "text": "A tensor describes stress inside a material."
+      },
+      "exampleSynonym": {
+        "word": "multidimensional object",
+        "text": "A multidimensional object describes stress inside a material."
+      }
+    }
+  },
+  {
+    "entry": "guise",
+    "remove": [],
+    "set": {
+      "definition": "An appearance that hides a person's real identity.",
+      "synonyms": [
+        "disguise"
+      ],
+      "example": {
+        "word": "guise",
+        "text": "He wore the guise of a tourist."
+      },
+      "exampleSynonym": {
+        "word": "disguise",
+        "text": "He wore the disguise of a tourist."
+      }
+    }
+  },
+  {
+    "entry": "incredibility",
+    "remove": [],
+    "set": {
+      "definition": "The quality of being hard to believe.",
+      "synonyms": [
+        "implausibility"
+      ],
+      "example": {
+        "word": "incredibility",
+        "text": "The incredibility of his story surprised everyone."
+      },
+      "exampleSynonym": {
+        "word": "implausibility",
+        "text": "The implausibility of his story surprised everyone."
+      }
+    }
+  },
+  {
+    "entry": "commodify",
+    "remove": [],
+    "set": {
+      "definition": "To treat something as a product that can be bought and sold.",
+      "synonyms": [
+        "commercialize"
+      ],
+      "example": {
+        "word": "commodify",
+        "text": "Critics say the plan will commodify public art."
+      },
+      "exampleSynonym": {
+        "word": "commercialize",
+        "text": "Critics say the plan will commercialize public art."
+      }
+    }
+  },
+  {
+    "entry": "metallurgist",
+    "remove": [],
+    "set": {
+      "definition": "A scientist who studies the properties and uses of metals.",
+      "synonyms": [
+        "metal expert"
+      ],
+      "example": {
+        "word": "metallurgist",
+        "text": "The metallurgist examined the damaged steel beam."
+      },
+      "exampleSynonym": {
+        "word": "metal expert",
+        "text": "The metal expert examined the damaged steel beam."
+      }
+    }
   }
 ]
