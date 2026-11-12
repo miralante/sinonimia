@@ -84991,5 +84991,30 @@
     "id": "cloth",
     "word": "Cloth",
     "reason": "The gloss describes a planting hole, not cloth, and appears to have been attached to the wrong headword."
+  },
+  {
+    "id": "galenism",
+    "word": "Galenism",
+    "reason": "This historical school of medicine is too specialized and dated for a general synonym dictionary."
+  },
+  {
+    "id": "cerulin",
+    "word": "Cerulin",
+    "reason": "This rare color term is a variant of cerulean and adds little value over the standard form."
+  },
+  {
+    "id": "deideologize",
+    "word": "Deideologize",
+    "reason": "This specialized political-science verb is rare and has no concise general synonym."
+  },
+  {
+    "id": "muse",
+    "word": "Muse",
+    "reason": "The gloss about mold describes an unrelated, obscure form and does not match the common verb muse."
+  },
+  {
+    "id": "casquillador",
+    "word": "Casquillador",
+    "reason": "This is not a reliable general English headword and the gloss appears to confuse unrelated words."
   }
 ]

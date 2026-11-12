@@ -1,18 +1,18 @@
 {
   "batch": "B15-applied-subset",
-  "runtime": "v5148",
+  "runtime": "v5149",
   "ledger": "B15-template-review-ledger",
   "latestLedgerPath": "scripts/ingest/wip/B15-review-ledger.json",
   "latestLedgerTotals": {
-    "es": 1378,
-    "en": 1348
+    "es": 1408,
+    "en": 1378
   },
-  "latestLedgerBatchCount": 136,
-  "latestLedgerReviewedIdCount": 2726,
-  "appliedCount": 1156,
+  "latestLedgerBatchCount": 139,
+  "latestLedgerReviewedIdCount": 2786,
+  "appliedCount": 1175,
   "appliedByLanguage": {
-    "es": 587,
-    "en": 569
+    "es": 596,
+    "en": 579
   },
   "batches": [
     "B15-first-20-verdicts.json",
@@ -73,7 +73,8 @@
     "B15-onehundredsecond-10-verdicts.json",
     "B15-onehundredthird-20-verdicts.json",
     "B15-onehundredfourth-20-verdicts.json",
-    "B15-onehundredfifth-20-verdicts.json"
+    "B15-onehundredfifth-20-verdicts.json",
+    "B15-onehundredsixth-20-verdicts.json"
   ],
   "pendingPrior": [
     {
@@ -7195,6 +7196,120 @@
       "batch": "B15-onehundredfifth-20-verdicts.json",
       "language": "en",
       "id": "resale",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredsixth-20-verdicts.json",
+      "language": "es",
+      "id": "logrear",
+      "decision": "exclude-obsolete-economic-verb"
+    },
+    {
+      "batch": "B15-onehundredsixth-20-verdicts.json",
+      "language": "es",
+      "id": "mamadera",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredsixth-20-verdicts.json",
+      "language": "es",
+      "id": "semejado",
+      "decision": "exclude-rare-literary-participle"
+    },
+    {
+      "batch": "B15-onehundredsixth-20-verdicts.json",
+      "language": "es",
+      "id": "servilletero",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredsixth-20-verdicts.json",
+      "language": "es",
+      "id": "setenar",
+      "decision": "exclude-rare-mathematical-verb"
+    },
+    {
+      "batch": "B15-onehundredsixth-20-verdicts.json",
+      "language": "es",
+      "id": "solacear",
+      "decision": "exclude-rare-obsolete-verb"
+    },
+    {
+      "batch": "B15-onehundredsixth-20-verdicts.json",
+      "language": "es",
+      "id": "sostenedor",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredsixth-20-verdicts.json",
+      "language": "es",
+      "id": "suso",
+      "decision": "exclude-obsolete-adverb"
+    },
+    {
+      "batch": "B15-onehundredsixth-20-verdicts.json",
+      "language": "es",
+      "id": "tamarugal",
+      "decision": "exclude-regional-botanical-place-name"
+    },
+    {
+      "batch": "B15-onehundredsixth-20-verdicts.json",
+      "language": "en",
+      "id": "concealed",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredsixth-20-verdicts.json",
+      "language": "en",
+      "id": "stiletto",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredsixth-20-verdicts.json",
+      "language": "en",
+      "id": "galenism",
+      "decision": "exclude-specialized-historical-medical-doctrine"
+    },
+    {
+      "batch": "B15-onehundredsixth-20-verdicts.json",
+      "language": "en",
+      "id": "romp",
+      "decision": "split-senses-and-rewrite"
+    },
+    {
+      "batch": "B15-onehundredsixth-20-verdicts.json",
+      "language": "en",
+      "id": "cerulin",
+      "decision": "exclude-rare-color-variant"
+    },
+    {
+      "batch": "B15-onehundredsixth-20-verdicts.json",
+      "language": "en",
+      "id": "deideologize",
+      "decision": "exclude-specialized-academic-verb"
+    },
+    {
+      "batch": "B15-onehundredsixth-20-verdicts.json",
+      "language": "en",
+      "id": "muse",
+      "decision": "exclude-corrupt-homograph-sense"
+    },
+    {
+      "batch": "B15-onehundredsixth-20-verdicts.json",
+      "language": "en",
+      "id": "neoprene",
+      "decision": "rewrite-definition-and-example"
+    },
+    {
+      "batch": "B15-onehundredsixth-20-verdicts.json",
+      "language": "en",
+      "id": "casquillador",
+      "decision": "exclude-foreign-corrupt-tool-name"
+    },
+    {
+      "batch": "B15-onehundredsixth-20-verdicts.json",
+      "language": "en",
+      "id": "opaline",
       "decision": "rewrite-definition-and-example"
     }
   ],
