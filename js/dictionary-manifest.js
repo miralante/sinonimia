@@ -13,7 +13,8 @@
 window.SINONIMIA_DICTIONARY_SHARDS = {
   es: [
     { file: "js/data.es.js", src: "js/data.es.js?v=4ce19ff59c" },
-    { file: "js/data.es.2.js", src: "js/data.es.2.js?v=3969a66d2a" },
+    { file: "js/data.es.2.js", src: "js/data.es.2.js?v=f22cbb428a" },
+    { file: "js/data.es.2b.js", src: "js/data.es.2b.js?v=39857dced7" },
     { file: "js/data.es.3.js", src: "js/data.es.3.js?v=53a2d614d3" },
     { file: "js/data.es.4.js", src: "js/data.es.4.js?v=37f0da27f3" },
     { file: "js/data.es.5.js", src: "js/data.es.5.js?v=d7821a0755" },
