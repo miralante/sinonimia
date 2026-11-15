@@ -115,6 +115,7 @@ const I18N = {
     footerCreditsHtml: 'Pictogramas: <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (CC BY-NC-SA) y <a href="https://opensymbols.org/" target="_blank" rel="noopener">OpenSymbols</a>.',
     footerConfigHtml: '<a href="config/">Configuración</a>',
     footerPrivacyHtml: '<a href="legal/privacidad.html">Privacidad</a>',
+    "core.chrome.appName": "Sinonimia",
 
     detailTitleSuffix: " — Sinonimia",
 
@@ -145,6 +146,15 @@ const I18N = {
     wordGameDescription: "Lee la pista y elige la palabra.",
     wordGameInstruction: "Lee la pista y elige la palabra correcta.",
     wordGameIncorrect: "Esa no es. Vuelve a leer la pista: ¿qué palabra encaja mejor?",
+
+    // Game 3: match each word with its meaning
+    matchGameTitle: "Une cada palabra con su significado",
+    matchGameDescription: "Une cuatro palabras con lo que significan.",
+    matchGameInstruction: "Toca una palabra y después su significado.",
+    matchGamePick: "Ahora toca el significado.",
+    matchGameLinked: "¡Eso es! Esa palabra y ese significado van juntos.",
+    matchGameWrong: "Esa pareja no va junta. Vuelve a leer los significados.",
+    matchGameDone: "¡Muy bien! Las cuatro parejas van juntas.",
 
     // Game 2: complete the sentence with the right word
     sentenceGameTitle: "Completa la frase",
@@ -256,6 +266,7 @@ const I18N = {
     footerCreditsHtml: 'Pictograms: <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (CC BY-NC-SA) and <a href="https://opensymbols.org/" target="_blank" rel="noopener">OpenSymbols</a>.',
     footerConfigHtml: '<a href="config/">Settings</a>',
     footerPrivacyHtml: '<a href="legal/privacidad.html">Privacy</a>',
+    "core.chrome.appName": "Sinonimia",
 
     detailTitleSuffix: " — Sinonimia",
 
@@ -286,6 +297,15 @@ const I18N = {
     wordGameDescription: "Read the clue and pick the word.",
     wordGameInstruction: "Read the clue and pick the right word.",
     wordGameIncorrect: "Not quite. Read the clue again: which word fits best?",
+
+    // Game 3: match each word with its meaning
+    matchGameTitle: "Match each word with its meaning",
+    matchGameDescription: "Match four words with what they mean.",
+    matchGameInstruction: "Tap a word, then its meaning.",
+    matchGamePick: "Now tap the meaning.",
+    matchGameLinked: "That is it! That word and that meaning go together.",
+    matchGameWrong: "That pair does not go together. Read the meanings again.",
+    matchGameDone: "Well done! All four pairs go together.",
 
     // Game 2: complete the sentence with the right word
     sentenceGameTitle: "Complete the sentence",

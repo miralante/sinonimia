@@ -27,13 +27,12 @@
    ============================================================ */
 importScripts('./js/dictionary-data.js');
 
-var VERSION = 'sinonimia-v5040';
+var VERSION = 'sinonimia-v5190';
 
 var FILES = [
   './',
   './404.html',
   './manifest.json',
-  './offline.html',
   './css/styles.css',
   './css/locale-picker.css',
   './js/i18n.js',
@@ -50,6 +49,7 @@ var FILES = [
   './js/app-search.js',
   './js/bootstrap-i18n.js',
   './js/app.js',
+  './js/suite-chrome.js',
   './img/logo.svg',
   './about/',
   './about/about.js',
@@ -66,7 +66,7 @@ var DATA_CACHE = 'sinonimia-data';
 var IMG_CACHE = 'sinonimia-img';
 
 /* Cloudflare answers EVERY "/x.html" URL with a 307 to its extensionless form
-   (/index.html -> /, /404.html -> /404, /offline.html -> /offline,
+   (/index.html -> /, /404.html -> /404,
    /legal/index.html -> /legal/). Following that redirect yields
    a response with `redirected === true`, and the Cache API PRESERVES that flag
    across a store/load round trip, so cache.add() silently poisons the entry
@@ -170,13 +170,13 @@ self.addEventListener('fetch', function (event) {
     }).catch(function () {
       return caches.match(request).then(function (saved) {
         if (saved) return deRedirect(saved);
-        // Offline and not saved. For navigations, the offline page; for
+        // Offline and not saved. For navigations, the cached home page; for
         // sub-resources (CSS, JS, images) we just propagate the failure so
         // the browser surfaces a standard network error.
         if (request.mode === 'navigate') {
           // This IS a navigation response: a poisoned entry here is
           // exactly the reported failure. Sanitise it.
-          return caches.match('./offline.html').then(function (offline) {
+          return caches.match('./').then(function (offline) {
             return offline ? deRedirect(offline) : new Response('', { status: 504, statusText: 'Offline' });
           });
         }
@@ -343,6 +343,7 @@ self.addEventListener('message', function (event) {
     event.waitUntil(warmImages());
   }
 });
+
 
 
 

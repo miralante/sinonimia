@@ -47,16 +47,17 @@ consultar con `node scripts/content-status.js` (ver
 
 ---
 
-## 2. Los dos juegos
+## 2. Los tres juegos
 
-Sinonimia trae dos juegos ligeros sobre el diccionario. Reutilizan
+Sinonimia trae tres juegos ligeros sobre el diccionario. Reutilizan
 las entradas que ya están en `js/data.<lang>.js` — no hay un fichero
 de datos de "actividad" aparte.
 
 | Juego | Qué entrena | Referencia |
 |---|---|---|
-| **Emparejar** | Reconocer una palabra a partir de su definición. | [`tecnico.md`](tecnico.md) §"Juegos". |
-| **Ordenar** | Reordenar una frase de ejemplo mezclada. | [`tecnico.md`](tecnico.md) §"Juegos". |
+| **¿Qué palabra es?** | Reconocer una palabra a partir de su definición y su pictograma. | [`tecnico.md`](tecnico.md) §"Juegos". |
+| **Completa la frase** | Elegir la palabra que falta en una frase de ejemplo. | [`tecnico.md`](tecnico.md) §"Juegos". |
+| **Une cada palabra con su significado** | Unir cuatro palabras con sus significados, tocando primero la palabra y después su significado. Un acierto queda marcado; un fallo solo pide volver a leer. | [`tecnico.md`](tecnico.md) §"Juegos". |
 
 Los juegos son cortos a propósito: una sesión son **5–10
 preguntas**, no un examen. Recompensan el progreso con **mensajes

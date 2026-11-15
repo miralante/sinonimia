@@ -4857,5 +4857,52 @@ for(const id of ["front-camera","front-camera-2","front-garden","front-door","fr
 for(const id of ["frontal","frontenis","frontinus","frost","froth","frown","frown-3","frown-faced","frowning"]){for(let i=d.length-1;i>=0;i--)if(d[i].id===id)d.splice(i,1)}
 
 })();
+DICCIONARIOS.en = DICCIONARIOS.en.concat([
+  {
+    id: "seizure-medical",
+    word: "Seizure",
+    image: { id: 6000, alt: "A doctor helping a patient" },
+    definition: "A sudden episode when the brain sends unusual signals. It can affect movement, feelings, or awareness.",
+    synonyms: ["episode of unusual brain signals"],
+    example: { word: "seizure", text: "She had a seizure and needed medical help." },
+    exampleSynonym: { word: "episode of unusual brain signals", text: "She had an episode of unusual brain signals and needed medical help." },
+    situacion: "salud",
+    translation: { "es": "convulsión" },
+  },
 
+  // --- Editorial audit: separate pneumonic sense ---
+  {
+    id: "pneumonic-pneumonia-sense",
+    word: "Pneumonic",
+    image: { id: 6000, alt: "Pneumonia affecting the lungs" },
+    definition: "Related to pneumonia or affected by it.",
+    synonyms: ["pneumonia-related"],
+    example: { word: "Pneumonic", text: "The doctor checked for pneumonic symptoms." },
+    exampleSynonym: { word: "pneumonia-related", text: "The doctor checked for pneumonia-related symptoms." },
+    situacion: "salud",
+  },
 
+  // --- Editorial audit: separate secularization sense ---
+  {
+    id: "secularization-property-transfer",
+    word: "Secularization",
+    image: { id: 3118, alt: "A church and public building" },
+    definition: "Transfer of religious property or groups to nonreligious control.",
+    synonyms: ["transfer to nonreligious control"],
+    example: { word: "Secularization", text: "The secularization of the abbey changed who owned it." },
+    exampleSynonym: { word: "transfer to nonreligious control", text: "The transfer to nonreligious control of the abbey changed who owned it." },
+    situacion: "conocimiento",
+  },
+
+  // --- Editorial review v5118: separate capitalization sense ---
+  {
+    id: "capitalization-market-value",
+    word: "Capitalization",
+    image: { id: 11291, alt: "Una gráfica muestra el valor de las acciones de una empresa" },
+    definition: "Company’s market value based on its share price and shares outstanding.",
+    synonyms: ["market capitalization","market cap"],
+    example: { word: "capitalization", text: "The company’s capitalization rose after its share price increased." },
+    exampleSynonym: { word: "market cap", text: "The company’s market cap rose after its share price increased." },
+    situacion: "finance",
+  },
+]);

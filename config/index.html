@@ -27,9 +27,7 @@
 
 <header class="cabecera">
   <div class="envoltorio">
-    <div class="suite-controls">
-      <div id="locale-picker"></div>
-    </div>
+    <div class="suite-controls" data-suite-header data-suite-brand="off"></div>
 
     <div class="logo-about">⚙️</div>
     <h1>Sinonimia<span>.</span></h1>
@@ -50,7 +48,7 @@
 </header>
 
 <div class="envoltorio">
-<main id="contenido">
+<main id="contenido" class="suite-body">
 
 <section id="que-guardamos">
   <h2 data-lang-block="es">Qué guardamos en tu dispositivo</h2>
@@ -83,7 +81,7 @@
       <strong data-lang-block="en">Your sounds.</strong>
       <span data-lang-block="es">Guardamos si suenan los aciertos y los errores del juego. Es una preferencia compartida con las demás apps de Apptonomia, así que el botón de borrar de abajo no la toca.</span>
       <span data-lang-block="en">We save whether the game plays its correct and error sounds. It is a preference shared with the other Apptonomia apps, so the clear button below leaves it alone.</span>
-      <code>miralante:sounds</code>
+      <code>apptonomia:sounds</code>
     </li>
     <li>
       <strong data-lang-block="es">Las palabras que ya descubriste.</strong>
@@ -188,6 +186,7 @@
 </div>
 
 <footer class="pie">
+  <div data-suite-footer data-suite-base="../" data-suite-portal="https://apptonomia.uk/"></div>
   <p data-lang-block="es">Sinonimia explica palabras difíciles. Frases cortas. Ejemplos de cada día.</p>
   <p data-lang-block="en">Sinonimia explains hard words. Short sentences. Everyday examples.</p>
 </footer>
@@ -205,6 +204,7 @@
 <!-- Controles compartidos con la pantalla principal: el desplegable de idioma
      y el ⚙️ de la cabecera, con su cajón de accesibilidad. Mismo ?v= que la
      portada, para que las dos páginas compartan la copia en caché. -->
+<script src="../js/suite-chrome.js?v=sinonimia-v1" defer></script>
 <script src="../js/locale-picker-config.js?v=1ab"></script>
 <script src="../js/locale-picker.js?v=sinonimia-v6aaa" defer></script>
 </body>

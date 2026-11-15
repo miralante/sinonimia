@@ -20,13 +20,12 @@
 <body class="page-privacidad">
 
 <div class="container legal">
-  <header class="header-legal">
-    <div class="suite-controls">
-      <div id="locale-picker"></div>
-    </div>
-
-    <div class="logo-legal"></div>
-    <h1>Sinonimia<span>.</span></h1>
+  <div data-suite-header data-suite-logo="../img/logo.svg?v=sinonimia-v7591a68c" data-suite-byline data-suite-name="Sinonimia"></div>
+  <div class="suite-chrome-activity" data-suite-activity>
+    <a href="../" class="back-link" data-lang-block="es">← Volver</a><a href="../" class="back-link" data-lang-block="en">← Back</a>
+    <h1><span data-lang-block="es">Protección de datos</span><span data-lang-block="en">Data protection</span></h1>
+  </div>
+  <div class="about-intro">
     <p class="tagline" data-lang-block="es">Sin registro. Sin cookies. Sin analítica.</p>
     <p class="tagline" data-lang-block="en">No registration. No cookies. No analytics.</p>
 
@@ -47,9 +46,9 @@
       <a href="#contacto" data-lang-block="es">Cambios y contacto</a>
       <a href="#contacto" data-lang-block="en">Changes and contact</a>
     </nav>
-  </header>
+  </div>
 
-  <main class="stack">
+  <main class="suite-body stack">
 
     <section class="card" id="responsable">
       <h2 data-lang-block="es">Quién trata tus datos</h2>
@@ -139,7 +138,11 @@
 
   </main>
 
-  <footer data-pie-app data-pie-class="pie-legal"></footer>
+  <footer class="pie-legal">
+    <div data-suite-footer data-suite-base="../" data-suite-portal="https://apptonomia.uk/" data-suite-settings></div>
+    <a class="btn" href="../" data-lang-block="es">Ir al diccionario</a>
+    <a class="btn" href="../" data-lang-block="en">Go to the dictionary</a>
+  </footer>
 </div>
 
 <script src="../about/about.js?v=about-v1"></script>
@@ -147,6 +150,7 @@
      y el ⚙️, con su cajón de ajustes. El config va antes, y el componente en
      diferido, como en las demás páginas. about.js registra el hook que mueve
      los bloques es/en de esta página, y va antes porque no lleva diferido. -->
+<script src="../js/suite-chrome.js?v=sinonimia-v1" defer></script>
 <script src="../js/locale-picker-config.js?v=1ab"></script>
 <script src="../js/locale-picker.js?v=sinonimia-v6aaa" defer></script>
 

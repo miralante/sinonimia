@@ -646,7 +646,7 @@ offline-first PWA** built from the same minimal skeleton:
    routing**, no in-page view switching, no `pushState`. Each
    page reloads on entry; navigation between pages is a normal
    `<a>` click.
-3. Hidden routes (`about/`, `team/`, `legal/`, `config/`) share
+3. Hidden routes (`about/`, `legal/`, `config/`) share
    the same shape: `index.html` + `styles.css` + `strings.<locale>.js`
    pair, with **interlinking in the footer** so any of them is
    one click away from any other.
@@ -683,7 +683,6 @@ Every app exposes the same five folders:
     styles.css
     strings.es.js
     strings.en.js
-  team/                   # Hidden route: who builds it
     index.html
     styles.css
     strings.es.js
@@ -765,8 +764,6 @@ the **template**; deviations are called out where they apply.
          data-i18n="footerDataProtection">Protección de datos</a>
       <a class="btn btn-secundario" href="../about/"
          data-i18n="footerAbout">Sobre este proyecto</a>
-      <a class="btn btn-secundario" href="../team/"
-         data-i18n="footerTeamGuide">Quiénes la hacen</a>
       <a class="btn btn-secundario" href="../config/"
          data-i18n="footerSettings">Ajustes</a>
     </footer>
@@ -807,7 +804,7 @@ the **template**; deviations are called out where they apply.
   ancestor prefixes (those were a SPA-merge leftover, retired in
   2026-09; see `git log`).
 - The footer is **always** the same five links (in the same
-  order) on `about/`, `team/` and `legal/`. `config/` gets a
+  order) on `about/` and `legal/`. `config/` gets a
   stripped footer that only returns to the SPA. The app root
   (`index.html`) does **not** render this footer (it has its own
   footer with the reset button and the data-protection link —
@@ -836,7 +833,6 @@ key parity between locales.
     /* …more keys… */
     footerActivities: 'Ir a la aplicación',
     footerAbout: 'Sobre este proyecto',
-    footerTeamGuide: 'Quiénes la hacen',
     footerSettings: 'Ajustes'
   }, 'es');
 })();
@@ -919,7 +915,7 @@ var FILES = [
   './legal/styles.css',
   './legal/strings.es.js',
   './legal/strings.en.js',
-  /* …about/, team/, config/ likewise… */
+  /* …about/, config/ likewise… */
   './assets/css/tokens.css',
   './assets/css/base.css',
   './assets/css/components.css',
@@ -953,7 +949,7 @@ the script fails and the `cache-bump` CI job fails too.
 
 Every standalone page also runs
 `navigator.serviceWorker.register('../sw.js')` from its inline
-script, so a direct visit to `/legal/`, `/about/` or `/team/`
+script, so a direct visit to `/legal/` or `/about/`
 primes the SW for the SPA root the same way `index.html` does.
 
 ### 4 i18n invariants
@@ -968,7 +964,7 @@ incomplete until **every** file in this list is updated:
    `<script>` that picks the locale before first paint — see
    §2.5 above).
 4. `strings.<locale>.js` and every per-folder
-   `strings.<locale>.js` pair (`legal/`, `about/`, `team/`,
+   `strings.<locale>.js` pair (`legal/`, `about/`,
    `config/`).
 5. `data.js`: every locale-split array
    (`DATA.lessons.<locale>`, `DATA.words.<locale>`,
@@ -991,8 +987,7 @@ retirement. The rule is "if you find yourself reaching for one
 of these, stop and re-read this section".
 
 - **No SPA / no `pushState` / no `view-*` sections.** Every
-  page is its own URL. Do not merge `legal/`, `about/`,
-  `team/` into `index.html` as hidden sections, even with a
+  page is its own URL. Do not merge `legal/`, `about/` into `index.html` as hidden sections, even with a
   redirect shim. This was tried in 2026-09 (`spa: merge`) and
   reverted in the same release; see `git log` for the lessons
   learned. Navigation between pages must always be a real
@@ -1045,7 +1040,7 @@ smoke:
 - `/legal/` loads with the localized h1, tagline and footer;
   the language switcher toggles `lang`, `document.title` and
   every `data-i18n` text without a stale flash.
-- `/about/` and `/team/` likewise; their footer links navigate
+- `/about/` likewise; their footer links navigate
   to each other and to `/legal/` and `/config/` without reloads
   before the SW primes.
 - `/config/` lists the saved state and its two reset buttons

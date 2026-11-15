@@ -26,12 +26,14 @@
       min-height: 100vh;
       line-height: 1.5;
       display: flex;
-      align-items: center;
+      flex-direction: column;
+      align-items: stretch;
       justify-content: center;
       padding: 24px;
       -webkit-font-smoothing: antialiased;
     }
     .card {
+      margin-inline: auto;
       max-width: 480px;
       width: 100%;
       background: var(--color-surface);
@@ -60,14 +62,21 @@
       border-radius: 4px;
     }
   </style>
+<link rel="stylesheet" href="/css/styles.css?v=sinonimia-v4a">
+  <link rel="stylesheet" href="/css/locale-picker.css?v=sinonimia-v6aa">
 </head>
 <body>
-  <main class="card">
+  <div data-suite-header></div>
+  <main class="suite-body card">
     <h1>Página no encontrada</h1>
     <p>La ruta que has visitado no existe. La página principal de Sinonimia sigue disponible.</p>
     <a href="./">Volver a Sinonimia</a>
   </main>
+  <footer data-suite-footer data-suite-base="/" data-suite-portal="https://apptonomia.uk/" data-suite-settings></footer>
   <script src="/js/sw-register.js"></script>
   <script src="/js/404-redirect.js"></script>
+<script src="/js/suite-chrome.js?v=sinonimia-v1" defer></script>
+<script src="/js/locale-picker-config.js?v=1ab"></script>
+<script src="/js/locale-picker.js?v=sinonimia-v6aaa" defer></script>
 </body>
 </html>
