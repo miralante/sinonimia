@@ -44,16 +44,17 @@ with `node scripts/content-status.js` (see
 
 ---
 
-## 2. The two games
+## 2. The three games
 
-Sinonimia ships two light games on top of the dictionary. They reuse
+Sinonimia ships three light games on top of the dictionary. They reuse
 the entries already in `js/data.<lang>.js` — no separate "activity"
 data file.
 
 | Game | What it trains | Reference |
 |---|---|---|
-| **Match (Emparejar)** | Recognise a word from its definition. | [`technical.md`](technical.md) §"Games". |
-| **Order (Ordenar)** | Reorder a scrambled example sentence. | [`technical.md`](technical.md) §"Games". |
+| **Which word is it?** | Recognise a word from its definition and its pictogram. | [`technical.md`](technical.md) §"Games". |
+| **Complete the sentence** | Choose the missing word in an example sentence. | [`technical.md`](technical.md) §"Games". |
+| **Match each word with its meaning** | Match four words with their meanings, tapping the word first and then its meaning. A right pair stays marked; a wrong one only asks to read again. | [`technical.md`](technical.md) §"Games". |
 
 The games are deliberately short: a session is **5–10 questions**,
 not an exam. They reward progress with **easy-read encouragement**

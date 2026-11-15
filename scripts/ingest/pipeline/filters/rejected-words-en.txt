@@ -4403,14 +4403,10 @@ Boar
 Board
 board lot
 Board member
-Board member
-Board of Trustees
 Board of Trustees
 board that
 Boarding
 Boarding pass
-Boarding pass
-Boarding pike
 Boarding pike
 Boarding school
 Boas' sign
@@ -4533,11 +4529,9 @@ boot sector
 boot storm
 boot time
 boot twister
-boot twister
 bootability
 bootable
 bootblock
-booted
 booted
 booter
 bootflash
@@ -4545,29 +4539,21 @@ booting
 bootlessly
 bootload
 bootmaker
-bootmaker
 bootROM
 bootscan
 bootsplash
 bootstrapper
 bootup
 boquiconjuno
-boquiconjuno
 Bor.
 boratero
-boratero
 Borbollone
-Borbollone
-Borborate
 Borborate
 borborygm
 borborygmy
 borcegui
-borcegui
 bord service
 Bordeaux
-Bordeaux
-border
 border
 bordland
 bore needle
@@ -8578,10 +8564,7 @@ demographically
 demoniacally
 demonically
 demonized
-demonized
 demonmania
-demonmania
-demonolater
 demonolater
 demonstrably
 demonstrative legacy
@@ -8721,16 +8704,11 @@ deraign
 derain
 dereference
 Deregister from social security
-Deregister from social security
 derelict
 Derelinquir
-Derelinquir
 Derenegade
-Derenegade
-Derengadera
 Derengadera
 deric
-Derision
 Derision
 derisively
 derivation
@@ -8740,7 +8718,6 @@ derivative work
 derivatively
 dermadrome
 dermatochalasis
-Dermatologist
 Dermatologist
 dermatopathic
 dermatopathic lymphadenitis
@@ -8801,17 +8778,11 @@ designedly
 designee
 designer
 desilting
-desilting
-desinsaculate
 desinsaculate
 desirability
-desirability
-desirable
 desirable
 desirably
 desire
-desire
-desireer
 desireer
 desirous
 desist
@@ -9738,24 +9709,17 @@ dockerized
 docketing software
 dockling
 dockworker
-dockworker
 doco
 docset
 doctitude
-doctitude
-doctor
 doctor
 Doctor Google
 doctor shopping
 Doctor's office
-Doctor's office
 doctoral thesis
-doctrinable
 doctrinable
 doctrinally
 doctrinarism
-doctrinarism
-doctrinate
 doctrinate
 doctrinator
 Doctrine
@@ -10907,21 +10871,15 @@ epicycle
 epicycloid
 epidemically
 epidemicity
-epidemicity
 epidemy
 epidepride
 epidermal
-epidermal
 epidermitis
-epidiascope
 epidiascope
 epididymo-
 epidoxorubicin
 epigenesis
-epigenesis
 epiglossis
-epiglossis
-epigone
 epigone
 epigrammatize
 epigraphic
@@ -11150,30 +11108,20 @@ Escaping
 Escapology
 Escarpment
 Escatophagus
-Escatophagus
 eschar
 Escharotic
-Escharotic
-Escharrar
 Escharrar
 Eschatocol
 eschatologically
 escheat
 escheatment
 Eschylon
-Eschylon
-Escilla
 Escilla
 Escincid
-Escincid
-Esclava
 Esclava
 Esclerometer
-Esclerometer
-Escort
 Escort
 escular
-Escutcheon
 Escutcheon
 escutcheonectomy
 ESDA test
@@ -12429,7 +12377,6 @@ flatly
 flattened devicetree
 flattener
 flatters
-flatters
 flatulently
 flatuous
 flatways
@@ -12752,16 +12699,11 @@ forestage
 forestall
 forestaller
 forested
-forested
-forestry-2
 forestry-2
 foretell
-foretell
-forever
 forever
 forevermore
 forewoman
-foreword
 foreword
 forex
 forfaiter
@@ -12769,7 +12711,6 @@ forfaiting
 forfeit
 forfeitability
 forfeiter
-forfollas
 forfollas
 forget
 forgetful
@@ -13767,22 +13708,16 @@ Gothically
 Goulard's extract
 Gov't
 government
-government
 government bond
-government bond loan
 government bond loan
 government issue
 government name
-Government office
 Government office
 government paid position or employment
 government take
 government trophy
 governmental
-governmental
 governorcillo
-governorcillo
-goyaesque
 goyaesque
 gp-2
 GP-land
@@ -13886,25 +13821,16 @@ greatjaw
 greco-latin
 greco-roman
 greed
-greed
 greedy
-greedy
-greedy-2
 greedy-2
 Greek foot
 greek-2
-greek-2
-greek-3
 greek-3
 greek-4
-greek-4
-greek-pitch
 greek-pitch
 greeking
 greekize
-greekize
 Greeks
-green
 green
 green acre
 green bag
@@ -13917,7 +13843,6 @@ green stocks
 green thread
 green wax
 green wax money
-green-2
 green-2
 Green.
 greened

@@ -278,13 +278,19 @@ function loadSourceDictionaries() {
     const syntheticTombstones = new Map();
     const changedTombstones = new Set();
     const sourceIdsInLaterShards = new Set();
-    (manifest[lang] || []).slice(1).forEach(function (shard) {
-      const source = fs.readFileSync(path.join(ROOT, shard.file), "utf8");
-      const matches = source.matchAll(/(?:[\"']id[\"']|\bid)\s*:\s*[\"']([^\"']+)[\"']/g);
-      for (const match of matches) sourceIdsInLaterShards.add(match[1]);
+    Object.keys(manifest).forEach(function (sourceLang) {
+      // Some editorial shards update both languages, even though the manifest
+      // lists each shard under one primary language. Include later shards from
+      // every language so cross-language additions do not get tombstoned.
+      (manifest[sourceLang] || []).slice(1).forEach(function (shard) {
+        const source = fs.readFileSync(path.join(ROOT, shard.file), "utf8");
+        const matches = source.matchAll(/(?:[\"']id[\"']|\bid)\s*:\s*[\"']([^\"']+)[\"']/g);
+        for (const match of matches) sourceIdsInLaterShards.add(match[1]);
+      });
     });
     manifest[lang].forEach(function (shard, index) {
       vm.runInContext(fs.readFileSync(path.join(ROOT, shard.file), "utf8"), ctx, { filename: shard.file });
+      installFastIdLookup(ctx.DICCIONARIOS[lang]);
       if (index === 0) {
         // Keep deleted entries as build-time tombstones so legacy source patches
         // can still resolve their IDs. applySynonymMerges removes these records
@@ -336,6 +342,61 @@ function loadSourceDictionaries() {
   return ctx.DICCIONARIOS;
 }
 
+// Editorial shards often perform thousands of findIndex(id === "...")
+// updates against the same large dictionary array. Keep those lookups indexed
+// while preserving the normal Array behavior for every other predicate.
+function installFastIdLookup(entries) {
+  if (!Array.isArray(entries) || entries.__idLookupInstalled) return;
+  const byId = new Map();
+  function rebuild() {
+    byId.clear();
+    entries.forEach(function (entry, index) {
+      if (entry && typeof entry.id === "string" && !byId.has(entry.id)) byId.set(entry.id, index);
+    });
+  }
+  rebuild();
+  const originalFindIndex = Array.prototype.findIndex;
+  entries.findIndex = function (predicate, thisArg) {
+    const source = Function.prototype.toString.call(predicate);
+    const match = source.match(/\b[A-Za-z_$][\w$]*\.id\s*===\s*(["'])([^"']+)\1/);
+    if (match) {
+      const index = byId.get(match[2]);
+      if (index === undefined) return -1;
+      if (predicate.call(thisArg, this[index], index, this)) return index;
+    }
+    return originalFindIndex.call(this, predicate, thisArg);
+  };
+  const originalPush = Array.prototype.push;
+  entries.push = function (...items) {
+    const start = this.length;
+    const result = originalPush.apply(this, items);
+    items.forEach(function (entry, offset) {
+      if (entry && typeof entry.id === "string" && !byId.has(entry.id)) byId.set(entry.id, start + offset);
+    });
+    return result;
+  };
+  const originalSplice = Array.prototype.splice;
+  entries.splice = function (...args) {
+    if (args.length > 2 && args[0] === 0 && args[1] === this.length) {
+      const replacement = args.slice(2);
+      this.length = 0;
+      replacement.forEach(function (entry) { originalPush.call(entries, entry); });
+      rebuild();
+      return [];
+    }
+    const result = originalSplice.apply(this, args);
+    rebuild();
+    return result;
+  };
+  const originalFilter = Array.prototype.filter;
+  entries.filter = function (...args) {
+    const filtered = originalFilter.apply(this, args);
+    installFastIdLookup(filtered);
+    return filtered;
+  };
+  Object.defineProperty(entries, "__idLookupInstalled", { value: true });
+}
+
 // Rewrites the `?v=<hash>` of every source shard in js/dictionary-manifest.js.
 function refreshSourceManifest() {
   const manifestPath = path.join(JS_DIR, "dictionary-manifest.js");
@@ -348,7 +409,7 @@ function refreshSourceManifest() {
 
 function main() {
   const started = Date.now();
-  const dictionaries = applySynonymMerges(loadSourceDictionaries());
+  const dictionaries = applyRebaseMergeOverlay(applySynonymMerges(loadSourceDictionaries()));
   const result = build(dictionaries);
 
   const keep = new Set(result.files.map(function (f) { return f.path; }));
@@ -376,6 +437,39 @@ function main() {
     result.files.length + " files, " + written + " rewritten, " +
     ((Date.now() - started) / 1000).toFixed(1) + "s.");
   console.log("Remember: bump VERSION in sw.js (js/dictionary-data.js changed).");
+}
+
+// Applies an explicit three-way editorial merge after the source decisions.
+// This keeps the rebased dictionary reproducible while preserving the remote
+// source shards and the locally reviewed records that were merged by id.
+function applyRebaseMergeOverlay(dictionaries) {
+  const overlayPath = path.join(ROOT, "scripts", "ingest", "pipeline", "decisions", "rebase-merge-09fc.json");
+  if (!fs.existsSync(overlayPath)) return dictionaries;
+  const overlay = JSON.parse(fs.readFileSync(overlayPath, "utf8"));
+  Object.keys(overlay.languages || {}).forEach(function (lang) {
+    const merge = overlay.languages[lang];
+    const entries = dictionaries[lang] || [];
+    const byId = new Map(entries.map(function (entry) { return [entry.id, entry]; }));
+    const removed = new Set(merge.remove || []);
+    dictionaries[lang] = entries.filter(function (entry) { return !removed.has(entry.id); });
+    const remaining = new Map(dictionaries[lang].map(function (entry) { return [entry.id, entry]; }));
+    Object.keys(merge.updates || {}).forEach(function (id) {
+      const entry = remaining.get(id);
+      if (!entry) throw new Error(lang + ": rebase overlay update references missing entry " + id);
+      const update = merge.updates[id];
+      (update.unset || []).forEach(function (field) { delete entry[field]; });
+      Object.assign(entry, update.set || {});
+    });
+    (merge.add || []).forEach(function (entry) {
+      const existing = remaining.get(entry.id);
+      if (existing) Object.assign(existing, entry);
+      else {
+        dictionaries[lang].push(entry);
+        remaining.set(entry.id, entry);
+      }
+    });
+  });
+  return dictionaries;
 }
 
 module.exports = { build: build, chunkOf: chunkOf, contentHash: contentHash, DETAIL_CHUNKS: DETAIL_CHUNKS };

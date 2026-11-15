@@ -28,7 +28,7 @@
   function playSuiteSound(kind) {
     var enabled = kind === "success";
     try {
-      var saved = JSON.parse(localStorage.getItem("miralante:sounds") || "null");
+      var saved = JSON.parse(localStorage.getItem("apptonomia:sounds") || "null");
       if (saved && typeof saved[kind] === "boolean") enabled = saved[kind];
     } catch (e) { /* ignore */ }
     if (!enabled) return;
@@ -62,6 +62,10 @@
   function t(key, variables) {
     return translate(currentLanguage, key, variables);
   }
+
+  /* Hook for the shared footer (js/suite-chrome.js), which asks App.i18n.t for its labels. */
+  window.App = window.App || {};
+  window.App.i18n = { t: t };
 
   function normalize(text) {
     // Explicit `\uXXXX` escapes for the combining-marks range, NOT literal
@@ -707,6 +711,8 @@
       renderWordGame();
     } else if (parts[1] === "juego" && parts[2] === "frase") {
       renderSentenceGame();
+    } else if (parts[1] === "juego" && parts[2] === "unir") {
+      renderMatchGame();
     } else if (parts[1] === "juego") {
       renderGameMenu();
     } else {
@@ -809,6 +815,19 @@
   });
 
   window.addEventListener("hashchange", route);
+  /* The shared picker stores the language, then calls this hook. Re-route in
+     place: rewrite the hash with replaceState (no hashchange, no extra history
+     entry) so deep links keep the language, and let route() repaint. */
+  window.LocalePicker = window.LocalePicker || {};
+  window.LocalePicker.onChange = function (locale) {
+    if (window.SinonimiaNotFound && typeof window.SinonimiaNotFound.setLanguage === "function") {
+      window.SinonimiaNotFound.setLanguage(locale);
+      return;
+    }
+    if (AVAILABLE_LANGUAGES.indexOf(locale) === -1 || locale === currentLanguage) return;
+    history.replaceState(null, "", "#/" + locale + "/");
+    route();
+  };
 
   // --- Accessibility ---
   // El tamaño de letra, el tema y el alto contraste NO se controlan
@@ -995,6 +1014,7 @@
     [
       { href: "word", title: t("wordGameTitle"), desc: t("wordGameDescription"), icon: "🖼️" },
       { href: "frase", title: t("sentenceGameTitle"), desc: t("sentenceGameDescription"), icon: "✏️" },
+      { href: "unir", title: t("matchGameTitle"), desc: t("matchGameDescription"), icon: "🔗" },
     ].forEach(function (option) {
       var card = document.createElement("a");
       card.className = "juego-menu-option";
@@ -1161,6 +1181,128 @@
     });
 
     gameView.appendChild(options);
+    gameView.appendChild(message);
+
+    h2.focus();
+  }
+
+  // --- Game 3: match each word with its meaning (four words, four meanings) ---
+  // The board uses four different words (accent- and case-insensitive) and their
+  // meanings, shown in a new order each time. Each pair is picked in two taps: the word,
+  // then the meaning. A right pair stays marked; a wrong one only asks to read again.
+  function pickMatchEntries(howMany) {
+    var out = [];
+    var seenWords = {};
+    shuffle(activeDictionary.slice()).forEach(function (entry) {
+      if (out.length >= howMany || !entry.definition) return;
+      var key = normalize(entry.word);
+      if (seenWords[key]) return;
+      seenWords[key] = true;
+      out.push(entry);
+    });
+    return out;
+  }
+
+  function renderMatchGame() {
+    showView("juego");
+    gameView.innerHTML = "";
+
+    gameView.appendChild(createBackLink(t("gameBackToMenu"), "#/" + currentLanguage + "/juego"));
+
+    var h2 = document.createElement("h2");
+    h2.tabIndex = -1;
+    h2.textContent = t("matchGameTitle");
+    gameView.appendChild(h2);
+
+    if (checkTooFewWords(h2)) return;
+
+    var instructions = document.createElement("p");
+    instructions.className = "help-texto";
+    instructions.textContent = t("matchGameInstruction");
+    gameView.appendChild(instructions);
+
+    var scoreEl = createScoreBadge();
+    gameView.appendChild(scoreEl);
+
+    var pairs = pickMatchEntries(4).map(function (entry) {
+      return { entry: entry, word: null, meaning: null, done: false };
+    });
+    var selected = null;
+    var matched = 0;
+
+    var message = document.createElement("p");
+    message.className = "juego-mensaje";
+    message.setAttribute("role", "status");
+    message.setAttribute("aria-live", "polite");
+
+    var wordsBox = document.createElement("div");
+    wordsBox.className = "game-options";
+    var meaningsBox = document.createElement("div");
+    meaningsBox.className = "game-options";
+
+    pairs.forEach(function (pair) {
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "game-option";
+      btn.textContent = pair.entry.word;
+      btn.addEventListener("click", function () {
+        if (pair.done) return;
+        if (selected) selected.word.classList.remove("seleccionada");
+        selected = pair;
+        pair.word.classList.add("seleccionada");
+        message.textContent = t("matchGamePick");
+        message.className = "juego-mensaje";
+      });
+      pair.word = btn;
+      wordsBox.appendChild(btn);
+    });
+
+    shuffle(pairs.slice()).forEach(function (pair) {
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "game-option";
+      btn.textContent = pair.entry.definition;
+      btn.addEventListener("click", function () {
+        if (!selected || pair.done) return;
+        var chosen = selected;
+        selected = null;
+        chosen.word.classList.remove("seleccionada");
+        if (chosen === pair) {
+          pair.done = true;
+          pair.word.classList.add("correcta");
+          pair.word.disabled = true;
+          pair.meaning.classList.add("correcta");
+          pair.meaning.disabled = true;
+          matched += 1;
+          message.textContent = t("matchGameLinked");
+          message.className = "juego-mensaje juego-mensaje-correcto";
+          playSuiteSound("success");
+          if (matched === pairs.length) {
+            message.textContent = t("matchGameDone");
+            scoreEl.textContent = t("gameScore", { n: addPoint() });
+            markScoreEarned(scoreEl);
+            var nextBtn = document.createElement("button");
+            nextBtn.type = "button";
+            nextBtn.className = "boton-cta";
+            nextBtn.textContent = t("gameNext");
+            nextBtn.addEventListener("click", renderMatchGame);
+            gameView.appendChild(nextBtn);
+            nextBtn.focus();
+          }
+        } else {
+          message.textContent = t("matchGameWrong");
+          message.className = "juego-mensaje juego-mensaje-incorrecto";
+          playSuiteSound("error");
+        }
+      });
+      pairs.forEach(function (other) {
+        if (other.entry === pair.entry) other.meaning = btn;
+      });
+      meaningsBox.appendChild(btn);
+    });
+
+    gameView.appendChild(wordsBox);
+    gameView.appendChild(meaningsBox);
     gameView.appendChild(message);
 
     h2.focus();

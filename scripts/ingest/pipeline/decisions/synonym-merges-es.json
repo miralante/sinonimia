@@ -1266,10 +1266,6 @@
     ]
   },
   {
-    "canonical": "quincalla",
-    "alias": "quincalleria-3"
-  },
-  {
     "canonical": "quincalleria",
     "alias": "quinquilleria"
   },
@@ -1330,5 +1326,1313 @@
   {
     "canonical": "rescate",
     "alias": "salvamento"
+  },
+  {
+    "canonical": "bucal",
+    "aliases": [
+      "oral-mouth"
+    ]
+  },
+  {
+    "canonical": "detonante",
+    "aliases": [
+      "detonador-2"
+    ]
+  },
+  {
+    "canonical": "develar",
+    "aliases": [
+      "desvelar-4"
+    ]
+  },
+  {
+    "canonical": "diametral",
+    "aliases": [
+      "diametrico"
+    ]
+  },
+  {
+    "canonical": "disconforme",
+    "aliases": [
+      "inconforme"
+    ]
+  },
+  {
+    "canonical": "excusable",
+    "aliases": [
+      "disculpable"
+    ]
+  },
+  {
+    "canonical": "dondiego",
+    "aliases": [
+      "donjuan-flower"
+    ]
+  },
+  {
+    "canonical": "emotivo-sensible",
+    "aliases": [
+      "emocionable"
+    ]
+  },
+  {
+    "canonical": "epanadiplosis",
+    "aliases": [
+      "epanalepsis",
+      "epanastrofe"
+    ]
+  },
+  {
+    "canonical": "errante",
+    "aliases": [
+      "errabundo"
+    ]
+  },
+  {
+    "canonical": "estruendo",
+    "aliases": [
+      "estrepito"
+    ]
+  },
+  {
+    "canonical": "estruendoso",
+    "aliases": [
+      "estrepitoso"
+    ]
+  },
+  {
+    "canonical": "farfullero",
+    "aliases": [
+      "farfullador"
+    ]
+  },
+  {
+    "canonical": "fisonomia",
+    "aliases": [
+      "fisionomia"
+    ]
+  },
+  {
+    "canonical": "imam",
+    "aliases": [
+      "round3058-iman-religious"
+    ]
+  },
+  {
+    "canonical": "irrefrenable",
+    "aliases": [
+      "incontenible"
+    ]
+  },
+  {
+    "canonical": "indecible",
+    "aliases": [
+      "inefable",
+      "inexpresable"
+    ]
+  },
+  {
+    "canonical": "ineficaz",
+    "aliases": [
+      "inefectivo"
+    ]
+  },
+  {
+    "canonical": "infertilidad",
+    "aliases": [
+      "infecundidad"
+    ]
+  },
+  {
+    "canonical": "infinidad",
+    "aliases": [
+      "infinitud"
+    ]
+  },
+  {
+    "canonical": "incurable",
+    "aliases": [
+      "insanable"
+    ]
+  },
+  {
+    "canonical": "insipido",
+    "aliases": [
+      "soso"
+    ]
+  },
+  {
+    "canonical": "italorromanico",
+    "aliases": [
+      "italorromance"
+    ]
+  },
+  {
+    "canonical": "jumentil",
+    "aliases": [
+      "jumental"
+    ]
+  },
+  {
+    "canonical": "juncal",
+    "aliases": [
+      "juncar",
+      "round3264-juncada-place"
+    ]
+  },
+  {
+    "canonical": "liderazgo",
+    "aliases": [
+      "liderato"
+    ]
+  },
+  {
+    "canonical": "limaco",
+    "aliases": [
+      "limaza"
+    ]
+  },
+  {
+    "canonical": "matalahuva",
+    "aliases": [
+      "matalahuga"
+    ]
+  },
+  {
+    "canonical": "mendigo",
+    "aliases": [
+      "pordiosero"
+    ]
+  },
+  {
+    "canonical": "negrilla",
+    "aliases": [
+      "negrita"
+    ]
+  },
+  {
+    "canonical": "perjudicial",
+    "aliases": [
+      "nocivo"
+    ]
+  },
+  {
+    "canonical": "otorgante",
+    "aliases": [
+      "otorgador"
+    ]
+  },
+  {
+    "canonical": "pleuritis",
+    "aliases": [
+      "pleuresia"
+    ]
+  },
+  {
+    "canonical": "rodillazo",
+    "aliases": [
+      "rodillada"
+    ]
+  },
+  {
+    "canonical": "enamoradizo",
+    "aliases": [
+      "enamoradizo-easily"
+    ]
+  },
+  {
+    "canonical": "abusador",
+    "aliases": [
+      "abuson"
+    ]
+  },
+  {
+    "canonical": "alberguero",
+    "aliases": [
+      "albergero"
+    ]
+  },
+  {
+    "canonical": "bermejear",
+    "aliases": [
+      "bermejecer"
+    ]
+  },
+  {
+    "canonical": "alboroto",
+    "aliases": [
+      "bullicio"
+    ]
+  },
+  {
+    "canonical": "incombustible",
+    "aliases": [
+      "calorifugo-cannot-burn"
+    ]
+  },
+  {
+    "canonical": "litoral",
+    "aliases": [
+      "costera"
+    ]
+  },
+  {
+    "canonical": "bicolor",
+    "aliases": [
+      "dicromatico"
+    ]
+  },
+  {
+    "canonical": "disertante",
+    "aliases": [
+      "ponente"
+    ]
+  },
+  {
+    "canonical": "vagar",
+    "aliases": [
+      "divagar-2"
+    ]
+  },
+  {
+    "canonical": "efimero",
+    "aliases": [
+      "pasajero"
+    ]
+  },
+  {
+    "canonical": "ejercer-derecho",
+    "aliases": [
+      "ejercitar-derecho"
+    ]
+  },
+  {
+    "canonical": "enojoso",
+    "aliases": [
+      "enfadoso"
+    ]
+  },
+  {
+    "canonical": "enhebrar",
+    "aliases": [
+      "enhilar"
+    ]
+  },
+  {
+    "canonical": "injertar",
+    "aliases": [
+      "enjertar"
+    ]
+  },
+  {
+    "canonical": "enrabietar",
+    "aliases": [
+      "encolerizar"
+    ]
+  },
+  {
+    "canonical": "espanolidad",
+    "aliases": [
+      "round2496-espanolismo-national-identity"
+    ]
+  },
+  {
+    "canonical": "bucal",
+    "aliases": [
+      "estomatico"
+    ]
+  },
+  {
+    "canonical": "fachento",
+    "aliases": [
+      "round2613-fachoso-boastful"
+    ]
+  },
+  {
+    "canonical": "fatigoso",
+    "aliases": [
+      "fatigante"
+    ]
+  },
+  {
+    "canonical": "ginebra",
+    "aliases": [
+      "gin"
+    ]
+  },
+  {
+    "canonical": "incidente",
+    "aliases": [
+      "incidencia"
+    ]
+  },
+  {
+    "canonical": "incuestionable",
+    "aliases": [
+      "indisputable"
+    ]
+  },
+  {
+    "canonical": "indudable",
+    "aliases": [
+      "indubitable"
+    ]
+  },
+  {
+    "canonical": "ineptitud",
+    "aliases": [
+      "inhabilidad"
+    ]
+  },
+  {
+    "canonical": "infertil",
+    "aliases": [
+      "round3126-infecundo-land"
+    ]
+  },
+  {
+    "canonical": "round3205-irrompible",
+    "aliases": [
+      "infrangible"
+    ]
+  },
+  {
+    "canonical": "juncal",
+    "aliases": [
+      "junqueral"
+    ]
+  },
+  {
+    "canonical": "lentilla",
+    "aliases": [
+      "round3333-lente-contact"
+    ]
+  },
+  {
+    "canonical": "limonero",
+    "aliases": [
+      "round3359-limon-tree"
+    ]
+  },
+  {
+    "canonical": "miedoso",
+    "aliases": [
+      "medroso"
+    ]
+  },
+  {
+    "canonical": "melocotonero",
+    "aliases": [
+      "round3541-melocoton-tree"
+    ]
+  },
+  {
+    "canonical": "membrillero",
+    "aliases": [
+      "round3544-membrillo-arbol"
+    ]
+  },
+  {
+    "canonical": "mistificar",
+    "aliases": [
+      "mixtificar"
+    ]
+  },
+  {
+    "canonical": "monocromo",
+    "aliases": [
+      "monocolor"
+    ]
+  },
+  {
+    "canonical": "morrena",
+    "aliases": [
+      "morena-4"
+    ]
+  },
+  {
+    "canonical": "parlanchin",
+    "aliases": [
+      "parlon"
+    ]
+  },
+  {
+    "canonical": "transitable",
+    "aliases": [
+      "pasable-2"
+    ]
+  },
+  {
+    "canonical": "plebeyo-2",
+    "aliases": [
+      "pechero-3"
+    ]
+  },
+  {
+    "canonical": "round2566-eternizar-lasting",
+    "aliases": [
+      "perennizar"
+    ]
+  },
+  {
+    "canonical": "persistir-2",
+    "aliases": [
+      "perseverar-2"
+    ]
+  },
+  {
+    "canonical": "pesquera",
+    "aliases": [
+      "pesqueria-3"
+    ]
+  },
+  {
+    "canonical": "fetido",
+    "aliases": [
+      "pestilente-2"
+    ]
+  },
+  {
+    "canonical": "pobreria",
+    "aliases": [
+      "pobreteria"
+    ]
+  },
+  {
+    "canonical": "manzanar",
+    "aliases": [
+      "pomarada"
+    ]
+  },
+  {
+    "canonical": "gravidez",
+    "aliases": [
+      "prenado-noun"
+    ]
+  },
+  {
+    "canonical": "prorrata",
+    "aliases": [
+      "prorrateo"
+    ]
+  },
+  {
+    "canonical": "restaurar",
+    "aliases": [
+      "restituir-restaurar-estado"
+    ]
+  },
+  {
+    "canonical": "retrasar",
+    "aliases": [
+      "retardar"
+    ]
+  },
+  {
+    "canonical": "saboyano",
+    "aliases": [
+      "saboyana"
+    ]
+  },
+  {
+    "canonical": "silbante",
+    "aliases": [
+      "silboso"
+    ]
+  },
+  {
+    "canonical": "posterior",
+    "aliases": [
+      "subsecuente"
+    ]
+  },
+  {
+    "canonical": "cabezazo",
+    "aliases": [
+      "testada",
+      "testarazo"
+    ]
+  },
+  {
+    "canonical": "ultramarino",
+    "aliases": [
+      "transmarino",
+      "trasmarino"
+    ]
+  },
+  {
+    "canonical": "trasvasar",
+    "aliases": [
+      "transvasar",
+      "trasegar",
+      "trasverter"
+    ]
+  },
+  {
+    "canonical": "vacada",
+    "aliases": [
+      "vaqueria"
+    ]
+  },
+  {
+    "canonical": "veraniego",
+    "aliases": [
+      "veranero"
+    ]
+  },
+  {
+    "canonical": "vergonzoso-que-siente-verguenza",
+    "aliases": [
+      "verecundo"
+    ]
+  },
+  {
+    "canonical": "zapatazo",
+    "aliases": [
+      "zapateta-blow"
+    ]
+  },
+  {
+    "canonical": "pelafustan",
+    "aliases": [
+      "pelagatos"
+    ]
+  },
+  {
+    "canonical": "almadena",
+    "aliases": [
+      "almadina",
+      "almagana"
+    ]
+  },
+  {
+    "canonical": "rupicabra",
+    "aliases": [
+      "rupicapra"
+    ]
+  },
+  {
+    "canonical": "canturrear",
+    "aliases": [
+      "canturriar"
+    ]
+  },
+  {
+    "canonical": "albardaneria",
+    "aliases": [
+      "albardania"
+    ]
+  },
+  {
+    "canonical": "aturullar",
+    "aliases": [
+      "aturrullar"
+    ]
+  },
+  {
+    "canonical": "consustancial",
+    "aliases": [
+      "consubstancial"
+    ]
+  },
+  {
+    "canonical": "dendroideo",
+    "aliases": [
+      "dendroide"
+    ]
+  },
+  {
+    "canonical": "desimantar",
+    "aliases": [
+      "desimanar"
+    ]
+  },
+  {
+    "canonical": "acroe",
+    "aliases": [
+      "acroy"
+    ]
+  },
+  {
+    "canonical": "batahola",
+    "aliases": [
+      "bataola"
+    ]
+  },
+  {
+    "canonical": "chii",
+    "aliases": [
+      "chiita"
+    ]
+  },
+  {
+    "canonical": "achularse",
+    "aliases": [
+      "achulaparse"
+    ]
+  },
+  {
+    "canonical": "acornear",
+    "aliases": [
+      "acornar"
+    ]
+  },
+  {
+    "canonical": "alaui",
+    "aliases": [
+      "alauita"
+    ]
+  },
+  {
+    "canonical": "aporque",
+    "aliases": [
+      "aporcadura"
+    ]
+  },
+  {
+    "canonical": "desentumecer",
+    "aliases": [
+      "desentumir"
+    ]
+  },
+  {
+    "canonical": "inocuo",
+    "aliases": [
+      "inofensivo"
+    ]
+  },
+  {
+    "canonical": "patudo",
+    "aliases": [
+      "paton"
+    ]
+  },
+  {
+    "canonical": "contradictor",
+    "aliases": [
+      "contradecidor"
+    ]
+  },
+  {
+    "canonical": "desgana",
+    "aliases": [
+      "desgano"
+    ]
+  },
+  {
+    "canonical": "acechadero",
+    "aliases": [
+      "acechadera"
+    ]
+  },
+  {
+    "canonical": "aceiton",
+    "aliases": [
+      "aceitazo"
+    ]
+  },
+  {
+    "canonical": "agosteno",
+    "aliases": [
+      "agostizo"
+    ]
+  },
+  {
+    "canonical": "cheposo",
+    "aliases": [
+      "chepudo"
+    ]
+  },
+  {
+    "canonical": "insoportable",
+    "aliases": [
+      "insufrible"
+    ]
+  },
+  {
+    "canonical": "besucon",
+    "aliases": [
+      "besucador"
+    ]
+  },
+  {
+    "canonical": "cuchichiar",
+    "aliases": [
+      "chuchear"
+    ]
+  },
+  {
+    "canonical": "entreplanta",
+    "aliases": [
+      "entrepiso"
+    ]
+  },
+  {
+    "canonical": "pescozon",
+    "aliases": [
+      "pescozada"
+    ]
+  },
+  {
+    "canonical": "platanero-2",
+    "aliases": [
+      "platanera"
+    ]
+  },
+  {
+    "canonical": "babilla",
+    "aliases": [
+      "babada"
+    ]
+  },
+  {
+    "canonical": "malbaratar",
+    "aliases": [
+      "malvender"
+    ]
+  },
+  {
+    "canonical": "materno",
+    "aliases": [
+      "maternal"
+    ]
+  },
+  {
+    "canonical": "chascarrillo",
+    "aliases": [
+      "chascarro"
+    ]
+  },
+  {
+    "canonical": "masoneria",
+    "aliases": [
+      "francmasoneria"
+    ]
+  },
+  {
+    "canonical": "codice",
+    "aliases": [
+      "codex"
+    ]
+  },
+  {
+    "canonical": "aladierno",
+    "aliases": [
+      "aladierna"
+    ]
+  },
+  {
+    "canonical": "almuecin",
+    "aliases": [
+      "almueden"
+    ]
+  },
+  {
+    "canonical": "tocon",
+    "aliases": [
+      "troncon"
+    ]
+  },
+  {
+    "canonical": "tamalada",
+    "aliases": [
+      "tamaleada"
+    ]
+  },
+  {
+    "canonical": "prevaricacion",
+    "aliases": [
+      "prevaricato"
+    ]
+  },
+  {
+    "canonical": "derelinquir",
+    "aliases": [
+      "derrelinquir"
+    ]
+  },
+  {
+    "canonical": "oxear",
+    "aliases": [
+      "osear"
+    ]
+  },
+  {
+    "canonical": "aguay",
+    "aliases": [
+      "aguai"
+    ]
+  },
+  {
+    "canonical": "desencajadura",
+    "aliases": [
+      "desencasadura"
+    ]
+  },
+  {
+    "canonical": "amercendearse",
+    "aliases": [
+      "amercearse"
+    ]
+  },
+  {
+    "canonical": "anual",
+    "aliases": [
+      "anuo"
+    ]
+  },
+  {
+    "canonical": "bunolero",
+    "aliases": [
+      "bunuelero"
+    ]
+  },
+  {
+    "canonical": "amarillez",
+    "aliases": [
+      "amarillura"
+    ]
+  },
+  {
+    "canonical": "calvicie",
+    "aliases": [
+      "calvez"
+    ]
+  },
+  {
+    "canonical": "anual-duracion",
+    "aliases": [
+      "anuo-duracion"
+    ]
+  },
+  {
+    "canonical": "explosivo",
+    "aliases": [
+      "round2596-explosivo-adjective"
+    ]
+  },
+  {
+    "canonical": "enajenar",
+    "aliases": [
+      "enajenar-transfer"
+    ]
+  },
+  {
+    "canonical": "empleador",
+    "aliases": [
+      "empleador-contratante"
+    ]
+  },
+  {
+    "canonical": "empleabilidad",
+    "aliases": [
+      "empleabilidad-trabajo"
+    ]
+  },
+  {
+    "canonical": "empleado",
+    "aliases": [
+      "empleado-salariado"
+    ]
+  },
+  {
+    "canonical": "empecinado",
+    "aliases": [
+      "empecinado-stubborn"
+    ]
+  },
+  {
+    "canonical": "emperejilar",
+    "aliases": [
+      "emperejilar-adornar"
+    ]
+  },
+  {
+    "canonical": "emperifollar",
+    "aliases": [
+      "emperifollar-adornar"
+    ]
+  },
+  {
+    "canonical": "empero",
+    "aliases": [
+      "empero-contraste"
+    ]
+  },
+  {
+    "canonical": "emperrarse",
+    "aliases": [
+      "emperrarse-obstinarse"
+    ]
+  },
+  {
+    "canonical": "empirismo",
+    "aliases": [
+      "empirismo-experiencia"
+    ]
+  },
+  {
+    "canonical": "emponzonar",
+    "aliases": [
+      "emponzonar-envenenar"
+    ]
+  },
+  {
+    "canonical": "emporcar",
+    "aliases": [
+      "emporcar-ensuciar"
+    ]
+  },
+  {
+    "canonical": "empotrar",
+    "aliases": [
+      "empotrar-fijar"
+    ]
+  },
+  {
+    "canonical": "empozar",
+    "aliases": [
+      "empozar-meter"
+    ]
+  },
+  {
+    "canonical": "empresariado",
+    "aliases": [
+      "empresariado-colectivo"
+    ]
+  },
+  {
+    "canonical": "empunar",
+    "aliases": [
+      "empunar-wield"
+    ]
+  },
+  {
+    "canonical": "emular",
+    "aliases": [
+      "emular-imitate"
+    ]
+  },
+  {
+    "canonical": "enaceitar",
+    "aliases": [
+      "enaceitar-oil"
+    ]
+  },
+  {
+    "canonical": "enajenable",
+    "aliases": [
+      "enajenable-transferable"
+    ]
+  },
+  {
+    "canonical": "enamarillecer",
+    "aliases": [
+      "enamarillecer-cause"
+    ]
+  },
+  {
+    "canonical": "enarbolar",
+    "aliases": [
+      "enarbolar-raise"
+    ]
+  },
+  {
+    "canonical": "enarcar",
+    "aliases": [
+      "enarcar-curve"
+    ]
+  },
+  {
+    "canonical": "enardecer",
+    "aliases": [
+      "enardecer-emotion"
+    ]
+  },
+  {
+    "canonical": "enarenar",
+    "aliases": [
+      "enarenar-cover"
+    ]
+  },
+  {
+    "canonical": "enastado",
+    "aliases": [
+      "enastado-horns"
+    ]
+  },
+  {
+    "canonical": "enastar",
+    "aliases": [
+      "enastar-handle"
+    ]
+  },
+  {
+    "canonical": "imponderable",
+    "aliases": [
+      "round3069-imponderable-pesar"
+    ]
+  },
+  {
+    "canonical": "inigualado",
+    "aliases": [
+      "round3138-inigualado-peerless"
+    ]
+  },
+  {
+    "canonical": "insidioso",
+    "aliases": [
+      "round3155-insidioso-subtle"
+    ]
+  },
+  {
+    "canonical": "manteleria",
+    "aliases": [
+      "round3470-manteleria-set"
+    ]
+  },
+  {
+    "canonical": "mantero",
+    "aliases": [
+      "round3471-mantero-blanket-maker"
+    ]
+  },
+  {
+    "canonical": "milimetrico",
+    "aliases": [
+      "milimetrico-2"
+    ]
+  },
+  {
+    "canonical": "perada",
+    "aliases": [
+      "pequenez"
+    ]
+  },
+  {
+    "canonical": "empedernido",
+    "aliases": [
+      "empedernido-habit"
+    ]
+  },
+  {
+    "canonical": "emprendedor",
+    "aliases": [
+      "emprendedor-proyecto"
+    ]
+  },
+  {
+    "canonical": "emprender",
+    "aliases": [
+      "emprender-comenzar"
+    ]
+  },
+  {
+    "canonical": "empresarial",
+    "aliases": [
+      "empresarial-relacion"
+    ]
+  },
+  {
+    "canonical": "empujada",
+    "aliases": [
+      "empujada-empujon"
+    ]
+  },
+  {
+    "canonical": "empujon",
+    "aliases": [
+      "empujon-impulso"
+    ]
+  },
+  {
+    "canonical": "empunadura",
+    "aliases": [
+      "empunadura-handle"
+    ]
+  },
+  {
+    "canonical": "enamorar",
+    "aliases": [
+      "enamorar-cause-love"
+    ]
+  },
+  {
+    "canonical": "encabezado",
+    "aliases": [
+      "encabezado-heading"
+    ]
+  },
+  {
+    "canonical": "impropio",
+    "aliases": [
+      "round3075-impropio-inadecuado"
+    ]
+  },
+  {
+    "canonical": "militar",
+    "aliases": [
+      "militar-2"
+    ]
+  },
+  {
+    "canonical": "insertar",
+    "aliases": [
+      "round3155-insertar-object"
+    ]
+  },
+  {
+    "canonical": "empestillarse",
+    "aliases": [
+      "empestillarse-obstinarse"
+    ]
+  },
+  {
+    "canonical": "empilar",
+    "aliases": [
+      "empilar-apilar"
+    ]
+  },
+  {
+    "canonical": "emplastar",
+    "aliases": [
+      "emplastar-aplicar"
+    ]
+  },
+  {
+    "canonical": "emplomar",
+    "aliases": [
+      "emplomar-sellar"
+    ]
+  },
+  {
+    "canonical": "empolvar",
+    "aliases": [
+      "empolvar-polvo"
+    ]
+  },
+  {
+    "canonical": "enanismo",
+    "aliases": [
+      "enanismo-condition"
+    ]
+  },
+  {
+    "canonical": "interioridad",
+    "aliases": [
+      "round3175-interioridad-vida-interior"
+    ]
+  },
+  {
+    "canonical": "empapuzar",
+    "aliases": [
+      "empapuzar-comer"
+    ]
+  },
+  {
+    "canonical": "empolvorar",
+    "aliases": [
+      "empolvorar-cubrir"
+    ]
+  },
+  {
+    "canonical": "encaballar",
+    "aliases": [
+      "encaballar-saddle"
+    ]
+  },
+  {
+    "canonical": "epileptico-2",
+    "aliases": [
+      "round2423-epileptico-person"
+    ]
+  },
+  {
+    "canonical": "franquear-give-generously",
+    "aliases": [
+      "round2734-franquear-give"
+    ]
+  },
+  {
+    "canonical": "enaguachar",
+    "aliases": [
+      "enaguachar-flood"
+    ]
+  },
+  {
+    "canonical": "emulsionar",
+    "aliases": [
+      "emulsionar-mix"
+    ]
+  },
+  {
+    "canonical": "enajenacion",
+    "aliases": [
+      "enajenacion-property"
+    ]
+  },
+  {
+    "canonical": "impermeable-prenda",
+    "aliases": [
+      "round3065-impermeable-prenda"
+    ]
+  },
+  {
+    "canonical": "enaltecer",
+    "aliases": [
+      "enaltecer-elevate"
+    ]
+  },
+  {
+    "canonical": "encabezar",
+    "aliases": [
+      "encabezar-lead"
+    ]
+  },
+  {
+    "canonical": "locatis",
+    "aliases": [
+      "locatis-persona-alocada"
+    ]
+  },
+  {
+    "canonical": "ovicida",
+    "aliases": [
+      "ovicida-adjective"
+    ]
+  },
+  {
+    "canonical": "regicida",
+    "aliases": [
+      "regicida-2"
+    ]
+  },
+  {
+    "canonical": "fotofobo",
+    "aliases": [
+      "round2724-fotofobo-person"
+    ]
+  },
+  {
+    "canonical": "melenudo",
+    "aliases": [
+      "round3538-melenudo-person"
+    ]
+  },
+  {
+    "canonical": "empoderar",
+    "aliases": [
+      "empoderar-dar-poder"
+    ]
+  },
+  {
+    "canonical": "hemostatico",
+    "aliases": [
+      "round2963-hemostatico-product"
+    ]
+  },
+  {
+    "canonical": "quincalleria-3",
+    "alias": "quincalla"
   }
 ]

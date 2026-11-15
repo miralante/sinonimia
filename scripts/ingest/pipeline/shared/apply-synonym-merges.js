@@ -13,13 +13,18 @@ function normalize(value) {
 
 function applySynonymMerges(dictionaries) {
   const redirects = {};
+  const premergedCorrections = {};
+  const mergedHeadwords = {};
   for (const lang of Object.keys(dictionaries)) {
     const file = MERGE_FILE + lang + '.json';
     const decisions = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : [];
     redirects[lang] = new Map();
+    premergedCorrections[lang] = new Set();
+    mergedHeadwords[lang] = new Map();
     for (const decision of decisions) {
       for (const aliasId of decision.aliases || [decision.alias]) {
         redirects[lang].set(aliasId, decision.canonical);
+        premergedCorrections[lang].add(aliasId);
       }
     }
   }
@@ -31,6 +36,30 @@ function applySynonymMerges(dictionaries) {
     const entries = dictionaries[lang];
     const byId = new Map(entries.map(entry => [entry.id, entry]));
     const removed = new Set();
+
+    // Apply editorial corrections to aliases before merging them into their
+    // canonical entry. Otherwise those corrections would reference an ID that
+    // is removed by the merge and the alias's corrected synonyms/translations
+    // would be lost.
+    const aliasCorrectionFile = path.join(ROOT, 'scripts', 'ingest', 'pipeline', 'decisions', `synonym-corrections-${lang}.json`);
+    if (fs.existsSync(aliasCorrectionFile)) {
+      const { decisions: editorialExclusions } = loadEditorialExclusions(lang);
+      const excludedIds = new Set(editorialExclusions.map(exclusion => exclusion.id));
+      for (const correction of JSON.parse(fs.readFileSync(aliasCorrectionFile, 'utf8'))) {
+        if (!premergedCorrections[lang].has(correction.entry) || excludedIds.has(correction.entry)) continue;
+        const entry = byId.get(correction.entry);
+        if (!entry) throw new Error(`${lang}: synonym correction references missing merge alias ${correction.entry}`);
+        const toRemove = new Set(correction.remove.map(normalize));
+        const before = entry.synonyms || [];
+        entry.synonyms = before.filter(synonym => !toRemove.has(normalize(synonym)));
+        const removedCount = before.length - entry.synonyms.length;
+        if (removedCount !== toRemove.size) {
+          throw new Error(`${lang}/${entry.id}: expected to remove ${toRemove.size} listed synonym(s), found ${removedCount}`);
+        }
+        for (const key of correction.unset || []) delete entry[key];
+        if (correction.set) Object.assign(entry, correction.set);
+      }
+    }
 
     for (const decision of decisions) {
       const canonical = byId.get(decision.canonical);
@@ -49,6 +78,8 @@ function applySynonymMerges(dictionaries) {
         if (!alias || alias === canonical || removed.has(alias.id)) {
           throw new Error(`${lang}: invalid or overlapping synonym merge ${canonical.id} <- ${aliasId}`);
         }
+        if (!mergedHeadwords[lang].has(canonical.id)) mergedHeadwords[lang].set(canonical.id, new Set());
+        if (alias.word) mergedHeadwords[lang].get(canonical.id).add(alias.word);
         for (const word of [alias.word, ...(alias.synonyms || [])]) {
           const key = normalize(word);
           if (key && key !== normalize(canonical.word) && !existing.has(key)) {
@@ -77,6 +108,7 @@ function applySynonymMerges(dictionaries) {
       const { decisions: editorialExclusions } = loadEditorialExclusions(lang);
       const excludedIds = new Set(editorialExclusions.map(exclusion => exclusion.id));
       for (const correction of JSON.parse(fs.readFileSync(correctionFile, 'utf8'))) {
+        if (premergedCorrections[lang].has(correction.entry)) continue;
         // Corrections for an explicitly excluded entry are historical only;
         // the entry is no longer part of the dictionary to correct.
         if (excludedIds.has(correction.entry)) continue;
@@ -91,6 +123,23 @@ function applySynonymMerges(dictionaries) {
         }
         for (const key of correction.unset || []) delete entry[key];
         if (correction.set) Object.assign(entry, correction.set);
+      }
+    }
+
+    // A canonical correction may replace its synonym list after merges. Keep
+    // every merged headword searchable even when that correction rewrites the
+    // canonical's other synonyms.
+    for (const [canonicalId, words] of mergedHeadwords[lang]) {
+      const canonical = survivingById.get(canonicalId);
+      if (!canonical) continue;
+      canonical.synonyms = canonical.synonyms || [];
+      const existing = new Set(canonical.synonyms.map(normalize));
+      for (const word of words) {
+        const key = normalize(word);
+        if (key && key !== normalize(canonical.word) && !existing.has(key)) {
+          canonical.synonyms.push(word);
+          existing.add(key);
+        }
       }
     }
 
