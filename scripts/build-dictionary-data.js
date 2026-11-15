@@ -417,6 +417,37 @@ function refreshSourceManifest() {
   fs.writeFileSync(manifestPath, text);
 }
 
+// Reapply the reviewed local entries and updates after loading the source
+// shards. This records the editorial resolution against the newer main base.
+function applyRebaseMergeOverlay(dictionaries) {
+  const overlayPath = path.join(ROOT, "scripts", "ingest", "pipeline", "decisions", "rebase-merge-09fc.json");
+  if (!fs.existsSync(overlayPath)) return dictionaries;
+  const overlay = JSON.parse(fs.readFileSync(overlayPath, "utf8"));
+  Object.keys(overlay.languages || {}).forEach(function (lang) {
+    const merge = overlay.languages[lang];
+    const entries = dictionaries[lang] || [];
+    const removed = new Set(merge.remove || []);
+    dictionaries[lang] = entries.filter(function (entry) { return !removed.has(entry.id); });
+    const remaining = new Map(dictionaries[lang].map(function (entry) { return [entry.id, entry]; }));
+    Object.keys(merge.updates || {}).forEach(function (id) {
+      const entry = remaining.get(id);
+      if (!entry) throw new Error(lang + ": rebase overlay update references missing entry " + id);
+      const update = merge.updates[id];
+      (update.unset || []).forEach(function (field) { delete entry[field]; });
+      Object.assign(entry, update.set || {});
+    });
+    (merge.add || []).forEach(function (entry) {
+      const existing = remaining.get(entry.id);
+      if (existing) Object.assign(existing, entry);
+      else {
+        dictionaries[lang].push(entry);
+        remaining.set(entry.id, entry);
+      }
+    });
+  });
+  return dictionaries;
+}
+
 function main() {
   const started = Date.now();
   const dictionaries = applyRebaseMergeOverlay(applySynonymMerges(loadSourceDictionaries()));
@@ -452,6 +483,7 @@ function main() {
 module.exports = {
   build: build,
   loadSourceDictionaries: loadSourceDictionaries,
+  applyRebaseMergeOverlay: applyRebaseMergeOverlay,
   chunkOf: chunkOf,
   contentHash: contentHash,
   DETAIL_CHUNKS: DETAIL_CHUNKS,

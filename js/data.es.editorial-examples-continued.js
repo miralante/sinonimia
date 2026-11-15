@@ -420,5 +420,5 @@
 {const i=d.findIndex(e=>e.id==="round3349-licitar-bid");if(i>=0&&d[i].example)d[i].example.word="licitó";}
 {const i=d.findIndex(e=>e.id==="round3349-licitar-bid");if(i>=0&&d[i].exampleSynonym)d[i].exampleSynonym.word="presentó una oferta";}
 (()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");const i=d.findIndex(e=>e.id==="zeugma");if(i>=0){d[i].example={word:"zeugma",text:"El zeugma aparece en «perdió las llaves y la paciencia», donde «perdió» une un sentido literal y otro figurado."};d[i].exampleSynonym={word:"silepsis",text:"La silepsis aparece en «perdió las llaves y la paciencia», donde «perdió» tiene dos sentidos."};}})();
-(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");const i=d.findIndex(e=>e.id==="idolatrous-literal-es");if(i>=0&&d[i].exampleSynonym)d[i].exampleSynonym.text="El manual describe el símbolo como «relativo a la idolatría».";})();
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");const i=d.findIndex(e=>e.id==="idolatrous-literal-es");if(i>=0&&d[i].exampleSynonym){d[i].exampleSynonym.word="relativo a la idolatría";d[i].exampleSynonym.text="El manual describe el símbolo como relativo a la idolatría.";}})();
 })();

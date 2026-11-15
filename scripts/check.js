@@ -374,7 +374,9 @@ ok("dictionary source manifest and cache-busting checked (" + dictionaryFiles.le
     // Keep source validation separate from the production output, which omits
     // editorial exclusions and applies confirmed synonym merges. Use the
     // builder's loader here so generated hashes match the production build.
-    productionDictionaries = applySynonymMerges(dictionaryBuilder.loadSourceDictionaries());
+    productionDictionaries = dictionaryBuilder.applyRebaseMergeOverlay(
+      applySynonymMerges(dictionaryBuilder.loadSourceDictionaries())
+    );
     built = dictionaryBuilder.build(productionDictionaries);
   } catch (e) {
     fail("scripts/build-dictionary-data.js: " + e.message);
