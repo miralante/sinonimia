@@ -170,7 +170,7 @@
 <link rel="icon" type="image/svg+xml" href="img/logo.svg?v=sinonimia-v7591a68c">
 <link rel="apple-touch-icon" href="img/logo.svg?v=sinonimia-v7591a68c">
 <meta name="application-name" content="Sinonimia">
-<link rel="stylesheet" href="css/styles.css?v=sinonimia-v4a">
+<link rel="stylesheet" href="css/styles.css?v=sinonimia-v5a">
 <link rel="stylesheet" href="css/locale-picker.css?v=sinonimia-v6aa">
 <link rel="manifest" href="./manifest.json">
 </head>
@@ -178,20 +178,8 @@
 <a class="skip-link" href="#contenido" data-i18n="skipToContent">Saltar al contenido</a>
 
 <header class="cabecera">
-  <div class="cabecera-fila">
-    <div class="suite-brand-copy">
-      <h1><a href="#/">Sinonimia<span class="cabecera-punto">.</span></a></h1>
-      <p class="suite-attribution"><span data-i18n="suiteBy">Una app de</span> <a href="https://apptonomia.uk/">Apptonomia</a>.</p>
-    </div>
-    <p class="tagline" data-i18n="tagline">Palabras difíciles, explicadas fácil</p>
-  </div>
-
-  <!-- Controles de la suite: un solo botón ⚙️. js/locale-picker.js lo
-       inserta aquí y mete el selector de idioma en su cajón de ajustes,
-       junto con el tema, el tamaño de letra y el alto contraste. Igual
-       que en las otras 7 apps: nada de controles duplicados en la
-       cabecera que peleen con los del cajón por el mismo ajuste. -->
-  <div class="cabecera-controles" data-suite-header data-suite-brand="off"></div>
+  <div data-suite-header data-suite-logo="img/logo.svg?v=sinonimia-v7591a68c" data-suite-name="Sinonimia" data-suite-byline></div>
+  <p class="tagline" data-i18n="tagline">Palabras difíciles, explicadas fácil</p>
 </header>
 
 <main id="contenido" class="suite-body">
@@ -282,16 +270,22 @@
   </p>
   <p id="offline-status" class="pie-creditos" role="status" aria-live="polite" hidden></p>
   <p class="pie-creditos" hidden><button type="button" id="offline-images" class="boton-cta boton-secundario"></button></p>
+  <p class="pie-enlaces">
+    <a href="about/" data-i18n-html="footerAboutAppHtml">Sobre la app</a>
+    · <a href="config/" data-i18n-html="footerConfigHtml">Configuración</a>
+    · <a href="legal/" data-i18n-html="footerPrivacyHtml">Privacidad</a>
+  </p>
 </footer>
 
-<script src="js/i18n.js?v=2026-09-28"></script>
+<script src="js/i18n.js?v=sinonimia-v5287"></script>
 <script src="js/dictionary-data.js"></script>
 <script src="js/dictionary-loader.js"></script>
 <script src="js/app-search.js"></script>
+<script src="js/achievements.js"></script>
 <script src="js/app.js"></script>
 <!-- Locale picker config (must run BEFORE js/locale-picker.js). Kept as an
      external file, not inline, so the CSP `script-src 'self'` allows it. -->
-<script src="js/suite-chrome.js?v=sinonimia-v1" defer></script>
+<script src="js/suite-chrome.js?v=sinonimia-v2" defer></script>
 <script src="js/locale-picker-config.js?v=1ab"></script>
 <script src="js/locale-picker.js?v=sinonimia-v6aaa" defer></script>
 <!-- Service-worker registration. Kept as an external file, not inline, so

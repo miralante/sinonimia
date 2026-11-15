@@ -11,9 +11,8 @@
    exista y, si ninguno, un valor de respaldo. Nada de hex fijos fuera de
    esos respaldos.
 
-   Clases estándar del About (todas las apps): container.about, la cabecera
-   compartida (data-suite-header + .suite-chrome-activity, con el título),
-   .about-intro (.tagline, .lead, .aviso-ruta, .eyebrow opcional), nav.indice,
+   Clases estándar del About (todas las apps): container.about, header-about
+   (.tagline, .lead, .logo-about, .aviso-ruta, .eyebrow opcional), nav.indice,
    main.stack > section.card, .principios-grid > .principio[style="--acento…"],
    .areas-grid > .area (.area-cifra), .nota-cifras, .pasos, .lista,
    .siblings-grid > a.sibling (.picto, .sibling-texto > .nombre + .detalle,
@@ -37,15 +36,20 @@
   max-width: 880px;
 }
 
-/* Introducción bajo la cabecera compartida (marca y título: suite-chrome) --- */
-.about .about-intro { padding: 0 0 var(--about-space); text-align: center; }
-.about .about-intro .tagline {
+/* Cabecera tipo manifiesto ------------------------------------------------- */
+.about .header-about { padding: 24px 0 var(--about-space); text-align: center; }
+.about .header-about h1 {
+  font-size: var(--about-title);
+  margin: 12px 0 0;
+  letter-spacing: -0.02em;
+}
+.about .header-about .tagline {
   font-size: var(--about-large);
   font-weight: 700;
   color: var(--about-text-soft);
   margin: 8px 0 0;
 }
-.about .about-intro .lead {
+.about .header-about .lead {
   font-size: var(--about-base);
   max-width: 640px;
   margin: var(--about-space) auto 0;
@@ -57,6 +61,9 @@
   color: var(--about-text-soft);
   margin: 0;
 }
+.about .logo-about { margin-top: 8px; font-size: 64px; line-height: 1; }
+.about img.logo-about { width: 80px; height: 80px; }
+
 .about .aviso-ruta {
   display: inline-block; padding: 8px 16px;
   background: var(--about-surface); color: var(--about-text);
@@ -162,17 +169,6 @@
 .about .sibling .detalle { font-size: var(--about-small); color: var(--about-text-soft); }
 .about .sibling .flecha-externa { font-size: 1.2em; color: var(--about-text-soft); flex-shrink: 0; }
 
-/* Enlace a la portada de la app (arriba y abajo de la página) ------------- */
-.about .volver-portada { margin: 0; text-align: center; }
-.about .volver-portada a {
-  display: inline-flex; align-items: center; gap: 8px; box-sizing: border-box;
-  min-height: 44px; padding: 6px 16px;
-  border-radius: var(--about-radius); background: var(--about-surface);
-  border: 2px solid var(--about-border); color: var(--about-text);
-  font-size: var(--about-small); font-weight: 700; text-decoration: none;
-}
-.about .volver-portada a:hover, .about .volver-portada a:focus-visible { border-color: var(--about-focus); }
-
 /* Footer -------------------------------------------------------------------- */
 .about .pie-about {
   display: flex; flex-wrap: wrap; justify-content: center; gap: var(--about-space);
@@ -181,7 +177,8 @@
 
 /* Móvil --------------------------------------------------------------------- */
 @media (max-width: 640px) {
-  .about .about-intro .tagline { font-size: 1.2em; }
+  .about .header-about h1 { font-size: 2em; }
+  .about .header-about .tagline { font-size: 1.2em; }
   .about section { padding: var(--about-space); }
   .about .principios-grid, .about .areas-grid, .about .siblings-grid { grid-template-columns: 1fr; }
 }

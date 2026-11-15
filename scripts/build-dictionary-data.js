@@ -46,6 +46,7 @@ const path = require("path");
 const vm = require("vm");
 const crypto = require("crypto");
 const { applySynonymMerges } = require("./ingest/pipeline/shared/apply-synonym-merges");
+const { loadEditorialExclusions } = require("./ingest/pipeline/shared/editorial-exclusions");
 
 const ROOT = path.join(__dirname, "..");
 const JS_DIR = path.join(ROOT, "js");
@@ -210,10 +211,21 @@ function build(dictionaries) {
   manifest.images = Array.from(imageIds).sort(function (a, b) { return a - b; });
   manifest.images.forEach(function (id) {
     const file = path.join(ROOT, "img", id + ".png");
-    if (fs.existsSync(file)) manifest.imagesBytes += fs.statSync(file).size;
+    if (fs.existsSync(file)) manifest.imagesBytes += imageBytes(file);
   });
 
   return { files: files, manifestSource: renderManifest(manifest), manifest: manifest };
+}
+
+// Real size of a pictogram. A checkout without Git LFS (CI) holds a small
+// pointer file instead of the PNG; its "size" line is the real size, so the
+// generated manifest is the same with or without LFS.
+function imageBytes(file) {
+  const size = fs.statSync(file).size;
+  if (size > 1024) return size;
+  const pointer = fs.readFileSync(file, "utf8");
+  const match = /^version https:\/\/git-lfs\.github\.com\/spec\/v1\r?\n[\s\S]*^size (\d+)$/m.exec(pointer);
+  return match ? Number(match[1]) : size;
 }
 
 function renderManifest(manifest) {
@@ -260,6 +272,9 @@ function renderManifest(manifest) {
 function loadSourceDictionaries() {
   const ctx = {};
   ctx.window = ctx;
+  ctx.SINONIMIA_EXCLUDED_IDS = new Set(["es", "en"].flatMap(function (lang) {
+    return loadEditorialExclusions(lang).decisions.map(decision => decision.id);
+  }));
   vm.createContext(ctx);
   vm.runInContext(fs.readFileSync(path.join(JS_DIR, "dictionary-manifest.js"), "utf8"), ctx);
   const manifest = ctx.SINONIMIA_DICTIONARY_SHARDS;
@@ -267,7 +282,10 @@ function loadSourceDictionaries() {
     const syntheticTombstones = new Map();
     const changedTombstones = new Set();
     const sourceIdsInLaterShards = new Set();
-    (manifest[lang] || []).slice(1).forEach(function (shard) {
+    // Later shards in either language can patch this dictionary. Scan all of
+    // them so an excluded entry that will be reintroduced by a cross-language
+    // patch is not pre-seeded as a tombstone and then mistaken for a duplicate.
+    Object.values(manifest).flat().forEach(function (shard) {
       const source = fs.readFileSync(path.join(ROOT, shard.file), "utf8");
       const matches = source.matchAll(/(?:[\"']id[\"']|\bid)\s*:\s*[\"']([^\"']+)[\"']/g);
       for (const match of matches) sourceIdsInLaterShards.add(match[1]);
@@ -286,7 +304,15 @@ function loadSourceDictionaries() {
           decisions.forEach(function (decision) {
             if (!present.has(decision.id) && !sourceIdsInLaterShards.has(decision.id)) {
               const id = decision.id;
-              const tombstone = new Proxy({ id: id, word: decision.word }, {
+              const tombstone = new Proxy({
+                id: id,
+                word: decision.word,
+                definition: "",
+                synonyms: [],
+                example: { word: "", text: "" },
+                exampleSynonym: { word: "", text: "" },
+                image: { id: 0, alt: "" },
+              }, {
                 set: function (target, property, value) {
                   const changed = !Object.prototype.hasOwnProperty.call(target, property) ||
                     target[property] !== value;
@@ -367,6 +393,12 @@ function main() {
   console.log("Remember: bump VERSION in sw.js (js/dictionary-data.js changed).");
 }
 
-module.exports = { build: build, chunkOf: chunkOf, contentHash: contentHash, DETAIL_CHUNKS: DETAIL_CHUNKS };
+module.exports = {
+  build: build,
+  loadSourceDictionaries: loadSourceDictionaries,
+  chunkOf: chunkOf,
+  contentHash: contentHash,
+  DETAIL_CHUNKS: DETAIL_CHUNKS,
+};
 
 if (require.main === module) main();

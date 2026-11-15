@@ -723,3 +723,5 @@
 {const i=d.findIndex(q=>q.id==="dampen-wet");if(i>=0)d[i].situacion="vivienda";}
 {const i=d.findIndex(q=>q.id==="flatulent-2");if(i>=0)d[i].situacion="salud";}
 })();
+
+(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)return;const e=d.find(x=>x.id==="mildness");if(e)e.situacion="vida-diaria"})();

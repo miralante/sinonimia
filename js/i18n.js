@@ -21,6 +21,7 @@
 const I18N = {
   es: {
     htmlLang: "es",
+    "core.chrome.appName": "Sinonimia",
     suiteBy: "Una app de",
     metaTitle: "Sinonimia — Diccionario fácil de palabras difíciles",
     metaDescription: "Diccionario en lenguaje sencillo: palabras técnicas y difíciles de trámites y de salud, explicadas con ejemplos de la vida diaria y sus sinónimos.",
@@ -114,8 +115,7 @@ const I18N = {
     footerMessage: "Sinonimia explica palabras difíciles. Frases cortas. Ejemplos de cada día.",
     footerCreditsHtml: 'Pictogramas: <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (CC BY-NC-SA) y <a href="https://opensymbols.org/" target="_blank" rel="noopener">OpenSymbols</a>.',
     footerConfigHtml: '<a href="config/">Configuración</a>',
-    footerPrivacyHtml: '<a href="legal/privacidad.html">Privacidad</a>',
-    "core.chrome.appName": "Sinonimia",
+    footerPrivacyHtml: '<a href="legal/">Privacidad</a>',
 
     detailTitleSuffix: " — Sinonimia",
 
@@ -162,6 +162,32 @@ const I18N = {
     sentenceGameInstruction: "Elige la palabra que completa la frase.",
     sentenceGameIncorrect: "Esa no es. Vuelve a leer la frase: ¿qué palabra completa el hueco?",
 
+    // "About the app" page (about-app/) and its achievements
+    footerAboutAppHtml: '<a href="about/">Sobre la app</a>',
+    aboutAppPageTitle: "Sobre la app — Sinonimia",
+    aboutAppTitle: "ℹ️ Sobre la app",
+    aboutAppIntro: "Sinonimia explica palabras difíciles con frases cortas. Aquí ves tus logros.",
+    aboutAppBackToDictionary: "Ir al diccionario",
+    aboutAppConfig: "Configuración",
+    aboutAppSavedLocally: "Tus logros se guardan solo en este dispositivo.",
+    achievementsTitle: "⭐ Logros",
+    achievementsHint: "Los logros llegan solos cuando usas el diccionario y los juegos.",
+    achievementsCount: "Tienes {n} de {total} logros.",
+    achievementFirstWord: "Primera palabra",
+    achievementFirstWordDesc: "Abre tu primera palabra del diccionario.",
+    achievementTenWords: "Diez palabras",
+    achievementTenWordsDesc: "Descubre diez palabras.",
+    achievementFirstStar: "Primera estrella",
+    achievementFirstStarDesc: "Acierta tu primera pregunta en un juego.",
+    achievementStreak3: "Tres seguidas",
+    achievementStreak3Desc: "Acierta tres preguntas seguidas a la primera.",
+    achievementAllTopics: "Todos los temas",
+    achievementAllTopicsDesc: "Descubre una palabra de cada tema.",
+    achievementMySentence: "Tu primera frase",
+    achievementMySentenceDesc: "Escribe y guarda tu propia frase con una palabra.",
+    achievementLocked: "Todavía no",
+    achievementUnlockedAt: "Conseguido el {date}",
+
     // 404 page (404.html)
     error404Title: "404",
     error404Heading: "No hemos encontrado esa página",
@@ -174,6 +200,7 @@ const I18N = {
 
   en: {
     htmlLang: "en",
+    "core.chrome.appName": "Sinonimia",
     suiteBy: "An app by",
     metaTitle: "Sinonimia — An easy dictionary for hard words",
     metaDescription: "A plain-language dictionary: hard official and health words explained with everyday examples and simple synonyms.",
@@ -265,8 +292,7 @@ const I18N = {
     footerMessage: "Sinonimia explains hard words. Short sentences. Everyday examples.",
     footerCreditsHtml: 'Pictograms: <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (CC BY-NC-SA) and <a href="https://opensymbols.org/" target="_blank" rel="noopener">OpenSymbols</a>.',
     footerConfigHtml: '<a href="config/">Settings</a>',
-    footerPrivacyHtml: '<a href="legal/privacidad.html">Privacy</a>',
-    "core.chrome.appName": "Sinonimia",
+    footerPrivacyHtml: '<a href="legal/">Privacy</a>',
 
     detailTitleSuffix: " — Sinonimia",
 
@@ -312,6 +338,32 @@ const I18N = {
     sentenceGameDescription: "Pick the missing word in the sentence.",
     sentenceGameInstruction: "Pick the word that completes the sentence.",
     sentenceGameIncorrect: "Not quite. Read the sentence again: which word completes the blank?",
+
+    // "About the app" page (about-app/) and its achievements
+    footerAboutAppHtml: '<a href="about/">About the app</a>',
+    aboutAppPageTitle: "About the app — Sinonimia",
+    aboutAppTitle: "ℹ️ About the app",
+    aboutAppIntro: "Sinonimia explains hard words with short sentences. Here you can see your achievements.",
+    aboutAppBackToDictionary: "Go to the dictionary",
+    aboutAppConfig: "Settings",
+    aboutAppSavedLocally: "Your achievements are saved only on this device.",
+    achievementsTitle: "⭐ Achievements",
+    achievementsHint: "Achievements arrive on their own when you use the dictionary and the games.",
+    achievementsCount: "You have {n} of {total} achievements.",
+    achievementFirstWord: "First word",
+    achievementFirstWordDesc: "Open your first word in the dictionary.",
+    achievementTenWords: "Ten words",
+    achievementTenWordsDesc: "Discover ten words.",
+    achievementFirstStar: "First star",
+    achievementFirstStarDesc: "Get your first answer right in a game.",
+    achievementStreak3: "Three in a row",
+    achievementStreak3Desc: "Get three answers in a row right on the first try.",
+    achievementAllTopics: "Every topic",
+    achievementAllTopicsDesc: "Discover one word from each topic.",
+    achievementMySentence: "Your first sentence",
+    achievementMySentenceDesc: "Write and save your own sentence with a word.",
+    achievementLocked: "Not yet",
+    achievementUnlockedAt: "Achieved on {date}",
 
     // 404 page (404.html)
     error404Title: "404",

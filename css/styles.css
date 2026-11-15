@@ -1476,7 +1476,8 @@ span.detalle-navegacion-enlace {
 .page-legal nav.indice { margin-top: 1.25rem; }
 .page-config nav.indice { margin-top: 1.25rem; }
 .page-legal nav.indice a,
-.page-config nav.indice a {
+.page-config nav.indice a,
+.page-offline nav.indice a {
   /* Sobre la cabecera (azul solido), el color de enlace se leia a
      1.53:1. Va con el token de cabecera, que si se adapta al tema. */
   color: var(--cabecera-texto, #fff);
@@ -1487,7 +1488,9 @@ span.detalle-navegacion-enlace {
 .page-legal nav.indice a:hover,
 .page-legal nav.indice a:focus-visible,
 .page-config nav.indice a:hover,
-.page-config nav.indice a:focus-visible { border-color: var(--cabecera-texto, #ffd7a8); }
+.page-config nav.indice a:focus-visible,
+.page-offline nav.indice a:hover,
+.page-offline nav.indice a:focus-visible { border-color: var(--cabecera-texto, #ffd7a8); }
 
 .page-config main section {
   background: var(--color-tarjeta);
@@ -1725,6 +1728,49 @@ html[data-lang="en"] .page-privacidad span[data-lang-block="en"] { display: inli
   font-weight: 600;
 }
 
+/* about-app/index.html — "About the app" page with the achievements
+ * grid (js/achievements.js). The body also carries .page-config, so the
+ * header, cards, buttons and footer come from the rules above; only the
+ * badge grid lives here. Text stays at easy-read sizes (no tiny labels).
+ */
+.page-about-app .achievements-count {
+  font-weight: 700;
+  color: var(--color-primario-oscuro);
+  margin: 0.75rem 0 0;
+}
+.page-about-app main ul.achievements-grid {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 180px), 1fr));
+  gap: 0.75rem;
+}
+.page-about-app main li.achievement-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 1rem 0.75rem;
+  border-radius: 12px;
+  border: 2px solid var(--color-borde);
+  background: var(--color-fondo);
+}
+.page-about-app .achievement-badge.unlocked {
+  border-color: var(--color-acento);
+  background: #fff7ed;
+}
+.page-about-app .achievement-badge.locked .achievement-badge-icon { filter: grayscale(1); opacity: 0.5; }
+.page-about-app .achievement-badge-icon { font-size: 2rem; line-height: 1; }
+.page-about-app .achievement-badge-name { font-weight: 700; color: var(--color-texto); }
+.page-about-app .achievement-badge-desc { font-size: 0.95rem; color: #444; line-height: 1.35; }
+.page-about-app .achievement-badge-status { font-size: 0.9rem; font-weight: 700; color: #555; }
+.page-about-app .achievement-badge.unlocked .achievement-badge-status { color: #8a3c00; }
+.page-about-app .envoltorio { padding-bottom: 1rem; }
+.page-about-app footer.pie-about-app { padding-bottom: 2rem; }
+
 /* 404.html — the page is small enough that almost everything lives in
  * the markup. Keep just the layout helpers here.
  */
@@ -1738,7 +1784,7 @@ html[data-lang="en"] .page-privacidad span[data-lang-block="en"] { display: inli
   .page-config header.cabecera { background: none; color: var(--color-texto); }
   .page-legal header.cabecera h1 span,
   .page-config header.cabecera h1 span { color: var(--color-acento); }
-  .page-config nav.indice, .page-legal nav.indice, .page-legal footer[class*="pie-"], .page-privacidad footer[class*="pie-"], .page-config footer[class*="pie-"] { display: none; }
+  .page-config nav.indice, .page-legal nav.indice, .page-legal footer[class*="pie-"], .page-privacidad footer[class*="pie-"], .page-team footer[class*="pie-"], .page-config footer[class*="pie-"] { display: none; }
   .page-legal main section,
   .page-config main section { break-inside: avoid; border: none; padding: 0; }
 }
@@ -1890,6 +1936,34 @@ html[data-lang="en"] .page-privacidad span[data-lang-block="en"] { display: inli
   margin: 0;
   font-size: var(--texto-grande, 1.5rem);
   line-height: 1.2;
+  color: var(--accent, var(--acento, inherit));
+}
+
+/* The back link of a subpage: a bordered button, the same in every suite app.
+   Each colour and size comes from the app's tokens; the names after the first
+   one are the older names some apps use, and the last value is the neutral
+   fallback. A tool may still set its own module colour on the title (it loads
+   after this block and wins). */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: var(--button-min, var(--boton-min, var(--tocable, 44px)));
+  padding: 6px 16px;
+  border-radius: var(--radius, var(--radio, 12px));
+  background: var(--color-surface, var(--color-superficie, var(--superficie-1, #fff)));
+  border: 2px solid var(--color-border, var(--color-borde, var(--borde, #c9ced3)));
+  color: var(--color-text, var(--color-texto, var(--texto-primario, #1a1a2e)));
+  font-size: var(--text-small, var(--texto-pequeno, var(--texto-300, 1rem)));
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.back-link:hover { border-color: var(--accent, var(--acento, currentColor)); }
+
+.back-link:focus-visible {
+  outline: 2px solid var(--accent, var(--acento, currentColor));
+  outline-offset: 3px;
 }
 
 .suite-chrome-controls {
@@ -1952,6 +2026,31 @@ html[data-lang="en"] .page-privacidad span[data-lang-block="en"] { display: inli
 
 :where(.container) > .suite-body {
   padding-inline: 0;
+}
+
+/* The page progress bar, a component of its own like the header and the footer.
+   The script moves each page bar into a row (.suite-chrome-progress) right under
+   the header, at the top of the page body: the row takes the body's width, so the
+   bar lines up with the content below it. The bar keeps its id and its updates.
+   Only the layout and the size are shared; the colours are the app's own, from
+   its tokens, so each app keeps its branding. */
+.suite-chrome-progress {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin-block: 0 var(--suite-progress-gap, 12px);
+}
+
+.suite-chrome-progress > .progress-bar {
+  display: block;
+  width: 100%;
+  height: 6px;
+  margin: 0;
+  flex: none;
+}
+
+.suite-chrome-progress > .progress-bar .progress-fill {
+  height: 100%;
 }
 /* suite:suite-chrome:end */
 

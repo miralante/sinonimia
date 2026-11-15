@@ -12,7 +12,7 @@
 <link rel="icon" type="image/svg+xml" href="../img/logo.svg?v=sinonimia-v7591a68c">
 <meta name="theme-color" content="#0a5c78">
 <meta name="application-name" content="Sinonimia">
-<link rel="stylesheet" href="../css/styles.css?v=sinonimia-v4a">
+<link rel="stylesheet" href="../css/styles.css?v=sinonimia-v5a">
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="../css/locale-picker.css?v=sinonimia-v6aa">
 
@@ -20,12 +20,12 @@
 <body class="page-privacidad">
 
 <div class="container legal">
-  <div data-suite-header data-suite-logo="../img/logo.svg?v=sinonimia-v7591a68c" data-suite-byline data-suite-name="Sinonimia"></div>
+  <div data-suite-header data-suite-logo="../img/logo.svg?v=sinonimia-v7591a68c" data-suite-name="Sinonimia" data-suite-byline></div>
   <div class="suite-chrome-activity" data-suite-activity>
-    <a href="../" class="back-link" data-lang-block="es">← Volver</a><a href="../" class="back-link" data-lang-block="en">← Back</a>
+    <a href="../" class="back-link"><span data-lang-block="es">← Volver</span><span data-lang-block="en">← Back</span></a>
     <h1><span data-lang-block="es">Protección de datos</span><span data-lang-block="en">Data protection</span></h1>
   </div>
-  <div class="about-intro">
+  <div class="header-legal">
     <p class="tagline" data-lang-block="es">Sin registro. Sin cookies. Sin analítica.</p>
     <p class="tagline" data-lang-block="en">No registration. No cookies. No analytics.</p>
 
@@ -46,9 +46,9 @@
       <a href="#contacto" data-lang-block="es">Cambios y contacto</a>
       <a href="#contacto" data-lang-block="en">Changes and contact</a>
     </nav>
-  </div>
+    </div>
 
-  <main class="suite-body stack">
+  <main class="stack">
 
     <section class="card" id="responsable">
       <h2 data-lang-block="es">Quién trata tus datos</h2>
@@ -139,9 +139,9 @@
   </main>
 
   <footer class="pie-legal">
-    <div data-suite-footer data-suite-base="../" data-suite-portal="https://apptonomia.uk/" data-suite-settings></div>
     <a class="btn" href="../" data-lang-block="es">Ir al diccionario</a>
     <a class="btn" href="../" data-lang-block="en">Go to the dictionary</a>
+    <div data-suite-footer data-suite-base="../" data-suite-settings></div>
   </footer>
 </div>
 
@@ -150,7 +150,7 @@
      y el ⚙️, con su cajón de ajustes. El config va antes, y el componente en
      diferido, como en las demás páginas. about.js registra el hook que mueve
      los bloques es/en de esta página, y va antes porque no lleva diferido. -->
-<script src="../js/suite-chrome.js?v=sinonimia-v1" defer></script>
+<script src="../js/suite-chrome.js?v=sinonimia-v2" defer></script>
 <script src="../js/locale-picker-config.js?v=1ab"></script>
 <script src="../js/locale-picker.js?v=sinonimia-v6aaa" defer></script>
 

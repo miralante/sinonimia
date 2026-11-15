@@ -126,6 +126,8 @@ function manifestDataFiles() {
 }
 
 const dictionaryFiles = manifestDataFiles();
+const dictionaryBuilder = require("./build-dictionary-data.js");
+const { applySynonymMerges } = require("./ingest/pipeline/shared/apply-synonym-merges");
 dictionaryFiles.forEach(function (relativePath) {
   loadAsGlobal(relativePath, "window.DICCIONARIOS", "global.DICCIONARIOS");
 });
@@ -164,6 +166,9 @@ if (fs.existsSync(swPath)) {
 loadAsGlobal("js/i18n.js", "const I18N", "global.I18N");
 
 const languages = Object.keys(DICCIONARIOS);
+const idsByLanguage = Object.fromEntries(languages.map(function (language) {
+  return [language, new Set(DICCIONARIOS[language].map(function (entry) { return entry.id; }))];
+}));
 ok("languages found: " + languages.join(", "));
 
 // --- 4. Every entry: unique id, image present, well-formed example ---
@@ -175,7 +180,7 @@ ok("languages found: " + languages.join(", "));
 const VALID_TOPICS = ["tramites", "salud", "vida-diaria", "finanzas", "vivienda", "trabajo", "legal", "tecnologia", "seguridad", "educacion", "conocimiento",
   "arte", "comida", "historia", "naturaleza", "deportes", "juegos", "sociedad"];
 const imgDir = path.join(ROOT, "img");
-const imagesOnDisk = fs.readdirSync(imgDir);
+const imagesOnDisk = new Set(fs.readdirSync(imgDir));
 
 languages.forEach(function (language) {
   const entries = DICCIONARIOS[language];
@@ -193,7 +198,7 @@ languages.forEach(function (language) {
 
     if (!entry.image || !entry.image.id || !entry.image.alt) {
       fail(language + "/" + entry.id + ": missing image.id or image.alt");
-    } else if (imagesOnDisk.indexOf(entry.image.id + ".png") === -1) {
+    } else if (!imagesOnDisk.has(entry.image.id + ".png")) {
       fail(language + "/" + entry.id + ": img/" + entry.image.id + ".png does not exist");
     }
 
@@ -245,7 +250,7 @@ languages.forEach(function (language) {
             // "cl@ve", "nif"). js/app.js never renders a link to the
             // entry itself because language switches route to a different
             // language, not the same id.
-            if (!DICCIONARIOS[targetLang].some(function (e) { return e.id === otherId; })) {
+            if (!idsByLanguage[targetLang].has(otherId)) {
               fail(language + "/" + entry.id + ": translation." + targetLang + " references unknown id \"" + otherId + "\"");
             }
           });
@@ -363,13 +368,14 @@ ok("dictionary source manifest and cache-busting checked (" + dictionaryFiles.le
 // and fails on ANY difference: a stale file, a missing file, a leftover file
 // or a hand edit. Fix: node scripts/build-dictionary-data.js
 (function () {
-  const builder = require("./build-dictionary-data.js");
-  const { applySynonymMerges } = require("./ingest/pipeline/shared/apply-synonym-merges");
   let built;
+  let productionDictionaries;
   try {
-    // Match the production builder: the runtime files omit editorially
-    // excluded entries and apply confirmed synonym merges before hashing.
-    built = builder.build(applySynonymMerges(DICCIONARIOS));
+    // Keep source validation separate from the production output, which omits
+    // editorial exclusions and applies confirmed synonym merges. Use the
+    // builder's loader here so generated hashes match the production build.
+    productionDictionaries = applySynonymMerges(dictionaryBuilder.loadSourceDictionaries());
+    built = dictionaryBuilder.build(productionDictionaries);
   } catch (e) {
     fail("scripts/build-dictionary-data.js: " + e.message);
     return;
@@ -426,9 +432,9 @@ ok("dictionary source manifest and cache-busting checked (" + dictionaryFiles.le
   vm.runInContext(fs.readFileSync(manifestPath, "utf8"), loaderCtx);
   vm.runInContext(fs.readFileSync(path.join(ROOT, "js/dictionary-loader.js"), "utf8"), loaderCtx);
   let chunkMismatch = 0;
-  Object.keys(DICCIONARIOS).forEach(function (lang) {
-    DICCIONARIOS[lang].forEach(function (entry) {
-      if (loaderCtx.SinonimiaDictionary.chunkOf(entry.id) !== builder.chunkOf(entry.id, builder.DETAIL_CHUNKS)) {
+  Object.keys(productionDictionaries).forEach(function (lang) {
+    productionDictionaries[lang].forEach(function (entry) {
+      if (loaderCtx.SinonimiaDictionary.chunkOf(entry.id) !== dictionaryBuilder.chunkOf(entry.id, dictionaryBuilder.DETAIL_CHUNKS)) {
         chunkMismatch++;
       }
     });

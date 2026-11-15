@@ -1,26 +1,82 @@
 [
   {
     "canonical": "ablandabrevas",
-    "alias": "ablandahigos"
+    "aliases": [
+      "ablandahigos"
+    ]
   },
   {
     "canonical": "acatalecto",
-    "alias": "acatalectico"
+    "aliases": [
+      "acatalectico"
+    ]
   },
   {
     "canonical": "acebal",
     "aliases": [
-      "acebedo",
-      "acebeda"
+      "acebeda",
+      "acebedo"
     ]
   },
   {
-    "canonical": "aceituna",
-    "alias": "oliva"
+    "canonical": "achularse",
+    "aliases": [
+      "achulaparse"
+    ]
+  },
+  {
+    "canonical": "acornear",
+    "aliases": [
+      "acornar"
+    ]
+  },
+  {
+    "canonical": "acroe",
+    "aliases": [
+      "acroy"
+    ]
+  },
+  {
+    "canonical": "agosteno",
+    "aliases": [
+      "agostizo"
+    ]
+  },
+  {
+    "canonical": "aguay",
+    "aliases": [
+      "aguai"
+    ]
+  },
+  {
+    "canonical": "aladierno",
+    "aliases": [
+      "aladierna"
+    ]
+  },
+  {
+    "canonical": "alaui",
+    "aliases": [
+      "alauita"
+    ]
+  },
+  {
+    "canonical": "albardaneria",
+    "aliases": [
+      "albardania"
+    ]
   },
   {
     "canonical": "albarejo",
-    "alias": "albarigo"
+    "aliases": [
+      "albarigo"
+    ]
+  },
+  {
+    "canonical": "alberguero",
+    "aliases": [
+      "albergero"
+    ]
   },
   {
     "canonical": "alcoholismo",
@@ -36,16 +92,35 @@
     ]
   },
   {
-    "canonical": "almueza",
-    "alias": "almuezada"
+    "canonical": "almadena",
+    "aliases": [
+      "almadina",
+      "almagana"
+    ]
   },
   {
-    "canonical": "amenazador",
-    "alias": "amenazante"
+    "canonical": "almuecin",
+    "aliases": [
+      "almueden"
+    ]
+  },
+  {
+    "canonical": "amarillez",
+    "aliases": [
+      "amarillura"
+    ]
+  },
+  {
+    "canonical": "amercendearse",
+    "aliases": [
+      "amercearse"
+    ]
   },
   {
     "canonical": "anonadador",
-    "alias": "anonadante"
+    "aliases": [
+      "anonadante"
+    ]
   },
   {
     "canonical": "anteanteayer",
@@ -56,12 +131,34 @@
     ]
   },
   {
-    "canonical": "antinatural",
-    "alias": "innatural"
+    "canonical": "antiviral",
+    "aliases": [
+      "antivirico"
+    ]
   },
   {
-    "canonical": "antiviral",
-    "alias": "antivirico"
+    "canonical": "anual-duracion",
+    "aliases": [
+      "anuo-duracion"
+    ]
+  },
+  {
+    "canonical": "aporque",
+    "aliases": [
+      "aporcadura"
+    ]
+  },
+  {
+    "canonical": "arrabal",
+    "aliases": [
+      "rabal"
+    ]
+  },
+  {
+    "canonical": "arrollar",
+    "aliases": [
+      "rollar"
+    ]
   },
   {
     "canonical": "astringir",
@@ -72,19 +169,27 @@
   },
   {
     "canonical": "atemperador",
-    "alias": "atemperante"
+    "aliases": [
+      "atemperante"
+    ]
   },
   {
-    "canonical": "avaricioso",
-    "alias": "avaro"
+    "canonical": "aturullar",
+    "aliases": [
+      "aturrullar"
+    ]
+  },
+  {
+    "canonical": "babilla",
+    "aliases": [
+      "babada"
+    ]
   },
   {
     "canonical": "baja",
-    "alias": "baja-medica"
-  },
-  {
-    "canonical": "barrida",
-    "alias": "barredura"
+    "aliases": [
+      "baja-medica"
+    ]
   },
   {
     "canonical": "barrigon",
@@ -94,141 +199,191 @@
       "panzudo",
       "tripon",
       "tripudo",
-      "ventrudo",
-      "ventroso"
+      "ventroso",
+      "ventrudo"
     ]
   },
   {
-    "canonical": "belemnita",
-    "alias": "belemnites"
+    "canonical": "batahola",
+    "aliases": [
+      "bataola"
+    ]
   },
   {
     "canonical": "bellaqueria",
-    "alias": "bellacada"
+    "aliases": [
+      "bellacada"
+    ]
   },
   {
     "canonical": "bembon",
-    "alias": "bembudo"
+    "aliases": [
+      "bembudo"
+    ]
+  },
+  {
+    "canonical": "bermejear",
+    "aliases": [
+      "bermejecer"
+    ]
+  },
+  {
+    "canonical": "besucon",
+    "aliases": [
+      "besucador"
+    ]
+  },
+  {
+    "canonical": "bicolor",
+    "aliases": [
+      "dicromatico"
+    ]
   },
   {
     "canonical": "bisilabo",
-    "alias": "disilabo"
-  },
-  {
-    "canonical": "bisonte",
-    "alias": "cibolo"
+    "aliases": [
+      "disilabo"
+    ]
   },
   {
     "canonical": "bocanada",
-    "alias": "buchada"
+    "aliases": [
+      "buchada"
+    ]
   },
   {
     "canonical": "borbollon",
-    "alias": "borboton"
+    "aliases": [
+      "borboton"
+    ]
   },
   {
-    "canonical": "brujeril",
-    "alias": "brujesco"
+    "canonical": "bunolero",
+    "aliases": [
+      "bunuelero"
+    ]
   },
   {
-    "canonical": "brujula",
-    "alias": "calamita"
+    "canonical": "canturrear",
+    "aliases": [
+      "canturriar"
+    ]
   },
   {
-    "canonical": "calomel",
-    "alias": "calomelanos"
+    "canonical": "cardenal",
+    "aliases": [
+      "purpurado"
+    ]
   },
   {
-    "canonical": "canivete",
-    "alias": "canivete-translated1"
-  },
-  {
-    "canonical": "carolingio",
-    "alias": "carlovingio"
+    "canonical": "cardenal-2",
+    "aliases": [
+      "moradura"
+    ]
   },
   {
     "canonical": "casimir",
-    "alias": "casimira"
-  },
-  {
-    "canonical": "castilla",
-    "alias": "bayeton"
+    "aliases": [
+      "casimira"
+    ]
   },
   {
     "canonical": "casuca",
-    "alias": "casucho"
-  },
-  {
-    "canonical": "ceraste",
-    "alias": "cerasta"
+    "aliases": [
+      "casucho"
+    ]
   },
   {
     "canonical": "certificado-nacimiento",
-    "alias": "certificado-de-nacimiento"
+    "aliases": [
+      "certificado-de-nacimiento"
+    ]
+  },
+  {
+    "canonical": "chascarrillo",
+    "aliases": [
+      "chascarro"
+    ]
+  },
+  {
+    "canonical": "chii",
+    "aliases": [
+      "chiita"
+    ]
   },
   {
     "canonical": "chiquilicuatre",
-    "alias": "chiquilicuatro"
+    "aliases": [
+      "chiquilicuatro"
+    ]
   },
   {
     "canonical": "chirreador",
     "aliases": [
+      "chirriadero",
       "chirriador",
-      "chirriante",
-      "chirriadero"
+      "chirriante"
     ]
   },
   {
-    "canonical": "chispa",
-    "alias": "chiribita"
-  },
-  {
     "canonical": "ciclonico",
-    "alias": "ciclonal"
+    "aliases": [
+      "ciclonal"
+    ]
   },
   {
     "canonical": "cigonino",
-    "alias": "ciguenato"
-  },
-  {
-    "canonical": "cimbalillo",
-    "alias": "cimbanillo"
-  },
-  {
-    "canonical": "clavadura",
-    "alias": "enclavadura"
+    "aliases": [
+      "ciguenato"
+    ]
   },
   {
     "canonical": "clavicembalo",
-    "alias": "clavicimbano"
+    "aliases": [
+      "clavicimbano"
+    ]
   },
   {
     "canonical": "coadjutor",
-    "alias": "coadyutor"
+    "aliases": [
+      "coadyutor"
+    ]
   },
   {
-    "canonical": "cohombrillo",
-    "alias": "cogombrillo"
-  },
-  {
-    "canonical": "cojutepecano",
-    "alias": "cojutepequense"
-  },
-  {
-    "canonical": "compatrono",
-    "alias": "compatron"
+    "canonical": "codice",
+    "aliases": [
+      "codex"
+    ]
   },
   {
     "canonical": "comunidad-propietarios",
-    "alias": "comunidad-de-propietarios"
+    "aliases": [
+      "comunidad-de-propietarios"
+    ]
   },
   {
-    "canonical": "corcho",
-    "alias": "corchera"
+    "canonical": "consustancial",
+    "aliases": [
+      "consubstancial"
+    ]
+  },
+  {
+    "canonical": "contradictor",
+    "aliases": [
+      "contradecidor"
+    ]
   },
   {
     "canonical": "cristianodemocrata",
-    "alias": "democristiano"
+    "aliases": [
+      "democristiano"
+    ]
+  },
+  {
+    "canonical": "cuchichiar",
+    "aliases": [
+      "chuchear"
+    ]
   },
   {
     "canonical": "cuilio",
@@ -237,40 +392,88 @@
     ]
   },
   {
-    "canonical": "cuodlibetal",
-    "alias": "cuodlibetico"
-  },
-  {
-    "canonical": "decenvir",
-    "alias": "decenviro"
-  },
-  {
     "canonical": "delictivo",
-    "alias": "delictual"
+    "aliases": [
+      "delictual"
+    ]
+  },
+  {
+    "canonical": "dendroideo",
+    "aliases": [
+      "dendroide"
+    ]
+  },
+  {
+    "canonical": "derelinquir",
+    "aliases": [
+      "derrelinquir"
+    ]
   },
   {
     "canonical": "descaro",
-    "alias": "desfachatez"
+    "aliases": [
+      "desfachatez"
+    ]
+  },
+  {
+    "canonical": "desencajadura",
+    "aliases": [
+      "desencasadura"
+    ]
   },
   {
     "canonical": "desenmascarar",
-    "alias": "desembozar"
+    "aliases": [
+      "desembozar"
+    ]
+  },
+  {
+    "canonical": "desentumecer",
+    "aliases": [
+      "desentumir"
+    ]
+  },
+  {
+    "canonical": "desgana",
+    "aliases": [
+      "desgano"
+    ]
+  },
+  {
+    "canonical": "desimantar",
+    "aliases": [
+      "desimanar"
+    ]
   },
   {
     "canonical": "despedregar",
-    "alias": "despedrar"
+    "aliases": [
+      "despedrar"
+    ]
   },
   {
     "canonical": "despeluzar",
-    "alias": "despeluznar"
+    "aliases": [
+      "despeluznar"
+    ]
   },
   {
-    "canonical": "destapar",
-    "alias": "destaponar"
+    "canonical": "detonante",
+    "aliases": [
+      "detonador-2"
+    ]
   },
   {
     "canonical": "deuteron",
-    "alias": "deuton"
+    "aliases": [
+      "deuton"
+    ]
+  },
+  {
+    "canonical": "develar",
+    "aliases": [
+      "desvelar-4"
+    ]
   },
   {
     "canonical": "devonico",
@@ -315,8 +518,16 @@
     ]
   },
   {
+    "canonical": "diametral",
+    "aliases": [
+      "diametrico"
+    ]
+  },
+  {
     "canonical": "diaspro",
-    "alias": "diaspero"
+    "aliases": [
+      "diaspero"
+    ]
   },
   {
     "canonical": "didactico",
@@ -329,10 +540,6 @@
     "aliases": [
       "didacticismo"
     ]
-  },
-  {
-    "canonical": "dieciochoavo",
-    "alias": "dieciochavo"
   },
   {
     "canonical": "diezmar",
@@ -353,9 +560,16 @@
     ]
   },
   {
+    "canonical": "disconforme",
+    "aliases": [
+      "inconforme"
+    ]
+  },
+  {
     "canonical": "disertante",
     "aliases": [
-      "disertador"
+      "disertador",
+      "ponente"
     ]
   },
   {
@@ -377,15 +591,15 @@
     ]
   },
   {
-    "canonical": "doloroso",
-    "aliases": [
-      "dolorioso"
-    ]
-  },
-  {
     "canonical": "domiciliacion",
     "aliases": [
       "domiciliacion-bancaria"
+    ]
+  },
+  {
+    "canonical": "dondiego",
+    "aliases": [
+      "donjuan-flower"
     ]
   },
   {
@@ -415,1167 +629,14 @@
   },
   {
     "canonical": "dubitable",
-    "alias": "dudable"
+    "aliases": [
+      "dudable"
+    ]
   },
   {
     "canonical": "dubitativo",
     "aliases": [
       "dubitante"
-    ]
-  },
-  {
-    "canonical": "dulzon",
-    "alias": "dulzarron"
-  },
-  {
-    "canonical": "emanantismo",
-    "alias": "emanatismo"
-  },
-  {
-    "canonical": "embriagador",
-    "alias": "embriagante"
-  },
-  {
-    "canonical": "embudo",
-    "alias": "infundibulo"
-  },
-  {
-    "canonical": "enajenador",
-    "alias": "enajenante"
-  },
-  {
-    "canonical": "encinar",
-    "alias": "encinal"
-  },
-  {
-    "canonical": "enfervorecer",
-    "alias": "enfervorizar"
-  },
-  {
-    "canonical": "enjambradero",
-    "alias": "enjambradera"
-  },
-  {
-    "canonical": "enjuagadura",
-    "alias": "enjaguadura"
-  },
-  {
-    "canonical": "enmugrecer",
-    "alias": "enmugrar"
-  },
-  {
-    "canonical": "enrojecer",
-    "alias": "enrojar"
-  },
-  {
-    "canonical": "entranable",
-    "alias": "entranal"
-  },
-  {
-    "canonical": "entremedio",
-    "alias": "entremediano"
-  },
-  {
-    "canonical": "entrepierna",
-    "alias": "bragadura"
-  },
-  {
-    "canonical": "enverdecer",
-    "alias": "reverdecer"
-  },
-  {
-    "canonical": "ergastulo",
-    "alias": "ergastula"
-  },
-  {
-    "canonical": "escarnecer",
-    "alias": "befar"
-  },
-  {
-    "canonical": "esmirriado",
-    "alias": "desmirriado"
-  },
-  {
-    "canonical": "esteroideo",
-    "alias": "esteroidico"
-  },
-  {
-    "canonical": "estetoscopio",
-    "aliases": [
-      "fonendoscopio",
-      "fonendo"
-    ]
-  },
-  {
-    "canonical": "evocador",
-    "alias": "evocativo"
-  },
-  {
-    "canonical": "expresable",
-    "alias": "articulable"
-  },
-  {
-    "canonical": "falible",
-    "alias": "defectible"
-  },
-  {
-    "canonical": "fantoche",
-    "alias": "guinol"
-  },
-  {
-    "canonical": "faramallero",
-    "alias": "faramallon"
-  },
-  {
-    "canonical": "fariseismo",
-    "alias": "farisaismo"
-  },
-  {
-    "canonical": "ferruginoso",
-    "alias": "ferrugineo"
-  },
-  {
-    "canonical": "fotolitografia",
-    "alias": "litofotografia"
-  },
-  {
-    "canonical": "fraileno",
-    "alias": "frailengo"
-  },
-  {
-    "canonical": "friolento",
-    "alias": "friolero"
-  },
-  {
-    "canonical": "gesticulador",
-    "alias": "gesticulante"
-  },
-  {
-    "canonical": "giroscopio",
-    "alias": "giroscopo"
-  },
-  {
-    "canonical": "goethiano",
-    "alias": "goetheano"
-  },
-  {
-    "canonical": "gollizo",
-    "aliases": [
-      "gollizno"
-    ],
-    "reason": "El DLE remite gollizno a gollizo como variante sin un sentido independiente."
-  },
-  {
-    "canonical": "goloso",
-    "alias": "chuchero"
-  },
-  {
-    "canonical": "gordiflon",
-    "aliases": [
-      "gordinflon",
-      "gordinflas"
-    ]
-  },
-  {
-    "canonical": "gotera",
-    "alias": "griseta"
-  },
-  {
-    "canonical": "gracejada",
-    "alias": "bufonada"
-  },
-  {
-    "canonical": "granitico",
-    "alias": "berroqueno"
-  },
-  {
-    "canonical": "granujada",
-    "alias": "granujeria"
-  },
-  {
-    "canonical": "grosor",
-    "alias": "grosura"
-  },
-  {
-    "canonical": "guardamangel",
-    "alias": "guardamangier"
-  },
-  {
-    "canonical": "guayabo",
-    "alias": "guayabero"
-  },
-  {
-    "canonical": "gubernativo",
-    "alias": "gobernativo"
-  },
-  {
-    "canonical": "gulusmear",
-    "alias": "golosinear"
-  },
-  {
-    "canonical": "gusanear",
-    "alias": "hormiguear"
-  },
-  {
-    "canonical": "hamacar",
-    "alias": "hamaquear"
-  },
-  {
-    "canonical": "hampesco",
-    "alias": "hampo"
-  },
-  {
-    "canonical": "hayuco",
-    "alias": "hove"
-  },
-  {
-    "canonical": "hedentino",
-    "alias": "hedentina"
-  },
-  {
-    "canonical": "hercio",
-    "alias": "hertz"
-  },
-  {
-    "canonical": "hilomorfismo",
-    "alias": "hilemorfismo"
-  },
-  {
-    "canonical": "hispanohablante",
-    "alias": "hispanoparlante"
-  },
-  {
-    "canonical": "hocicon",
-    "alias": "hocicudo"
-  },
-  {
-    "canonical": "hominal",
-    "alias": "humanal"
-  },
-  {
-    "canonical": "huelga",
-    "alias": "paro-huelga"
-  },
-  {
-    "canonical": "huerta",
-    "alias": "huerto"
-  },
-  {
-    "canonical": "impresionable",
-    "alias": "influenciable"
-  },
-  {
-    "canonical": "incircunscrito",
-    "alias": "incircunscripto"
-  },
-  {
-    "canonical": "incivil",
-    "alias": "incivilizado"
-  },
-  {
-    "canonical": "incomprensibilidad",
-    "alias": "incomprehensibilidad"
-  },
-  {
-    "canonical": "indoeuropeo",
-    "alias": "indogermanico"
-  },
-  {
-    "canonical": "infravalorar",
-    "alias": "minusvalorar"
-  },
-  {
-    "canonical": "inhallable",
-    "alias": "inencontrable"
-  },
-  {
-    "canonical": "inmemorial",
-    "alias": "inmemorable"
-  },
-  {
-    "canonical": "inmerecido",
-    "alias": "inmerito"
-  },
-  {
-    "canonical": "inmunizador",
-    "alias": "inmunizante"
-  },
-  {
-    "canonical": "insinuador",
-    "alias": "insinuante"
-  },
-  {
-    "canonical": "intrascendente",
-    "alias": "intrascendental"
-  },
-  {
-    "canonical": "jabardillo",
-    "alias": "jabardo"
-  },
-  {
-    "canonical": "jabega",
-    "aliases": [
-      "jabega-lexical1"
-    ]
-  },
-  {
-    "canonical": "jicotea",
-    "alias": "hicotea"
-  },
-  {
-    "canonical": "jorro",
-    "alias": "arrastradero"
-  },
-  {
-    "canonical": "josefinismo",
-    "alias": "josefismo"
-  },
-  {
-    "canonical": "juraderia",
-    "alias": "juraduria"
-  },
-  {
-    "canonical": "kirie",
-    "alias": "kirieleison"
-  },
-  {
-    "canonical": "labradoresco",
-    "alias": "labradoril"
-  },
-  {
-    "canonical": "letal",
-    "alias": "mortifero"
-  },
-  {
-    "canonical": "lienteria",
-    "alias": "lientera"
-  },
-  {
-    "canonical": "lista-espera",
-    "alias": "lista-de-espera"
-  },
-  {
-    "canonical": "lobato",
-    "alias": "lobezno"
-  },
-  {
-    "canonical": "lodazal",
-    "alias": "barrizal"
-  },
-  {
-    "canonical": "ludria",
-    "alias": "lutria"
-  },
-  {
-    "canonical": "lumbrarada",
-    "alias": "lumbrerada"
-  },
-  {
-    "canonical": "macadam",
-    "alias": "macadan"
-  },
-  {
-    "canonical": "majoleto",
-    "alias": "marjoleto"
-  },
-  {
-    "canonical": "malviz",
-    "alias": "malvis"
-  },
-  {
-    "canonical": "manazo",
-    "alias": "manotazo"
-  },
-  {
-    "canonical": "mancarron",
-    "alias": "matalon"
-  },
-  {
-    "canonical": "manchadizo",
-    "alias": "manchoso"
-  },
-  {
-    "canonical": "mansejon",
-    "alias": "mansurron"
-  },
-  {
-    "canonical": "mareoso",
-    "alias": "mareador"
-  },
-  {
-    "canonical": "marihuanero",
-    "alias": "mariguanero"
-  },
-  {
-    "canonical": "marmaja",
-    "alias": "marcasita"
-  },
-  {
-    "canonical": "marrulla",
-    "alias": "marrulleria"
-  },
-  {
-    "canonical": "martillero",
-    "alias": "subastador"
-  },
-  {
-    "canonical": "martirizador",
-    "alias": "martirizante"
-  },
-  {
-    "canonical": "matarife",
-    "alias": "jifero"
-  },
-  {
-    "canonical": "maullido",
-    "alias": "maullo"
-  },
-  {
-    "canonical": "mazdeismo",
-    "alias": "zoroastrismo"
-  },
-  {
-    "canonical": "menstrual",
-    "alias": "catamenial"
-  },
-  {
-    "canonical": "merendola",
-    "alias": "merendona"
-  },
-  {
-    "canonical": "milpa",
-    "alias": "maizal"
-  },
-  {
-    "canonical": "mnemonico",
-    "aliases": [
-      "memoristico",
-      "nemonica",
-      "nemonico"
-    ]
-  },
-  {
-    "canonical": "mofletudo",
-    "aliases": [
-      "cacheton",
-      "molletudo"
-    ]
-  },
-  {
-    "canonical": "morsa",
-    "alias": "rosmaro"
-  },
-  {
-    "canonical": "nalgon",
-    "aliases": [
-      "nalgudo",
-      "fundillon",
-      "parrilludo"
-    ]
-  },
-  {
-    "canonical": "negrura",
-    "alias": "negregura"
-  },
-  {
-    "canonical": "nictemero",
-    "alias": "nictimero"
-  },
-  {
-    "canonical": "nomenclador",
-    "alias": "nomenclator"
-  },
-  {
-    "canonical": "noosfera",
-    "alias": "noosfera-lexical1"
-  },
-  {
-    "canonical": "obligatoriedad",
-    "alias": "forzosidad"
-  },
-  {
-    "canonical": "ocasionador",
-    "alias": "causador"
-  },
-  {
-    "canonical": "octagono",
-    "alias": "octogono"
-  },
-  {
-    "canonical": "ofendedor",
-    "alias": "ofensor"
-  },
-  {
-    "canonical": "omnisciente",
-    "alias": "omniscio"
-  },
-  {
-    "canonical": "orfanato",
-    "alias": "orfelinato"
-  },
-  {
-    "canonical": "ornar",
-    "alias": "adornar"
-  },
-  {
-    "canonical": "orquideo",
-    "alias": "orquidaceo"
-  },
-  {
-    "canonical": "pacae",
-    "alias": "pacay"
-  },
-  {
-    "canonical": "pamplinero",
-    "alias": "pamplinoso"
-  },
-  {
-    "canonical": "papelote",
-    "alias": "papelucho"
-  },
-  {
-    "canonical": "paragolpes",
-    "aliases": [
-      "paragolpe",
-      "parachoques"
-    ]
-  },
-  {
-    "canonical": "paramar",
-    "alias": "brisar"
-  },
-  {
-    "canonical": "parpallota",
-    "alias": "parpalla"
-  },
-  {
-    "canonical": "pastoriego",
-    "alias": "pastoricio"
-  },
-  {
-    "canonical": "pechar",
-    "alias": "pechear"
-  },
-  {
-    "canonical": "pegujalero",
-    "alias": "pegujarero"
-  },
-  {
-    "canonical": "penasco",
-    "alias": "penon"
-  },
-  {
-    "canonical": "perimetral",
-    "alias": "perimetrico"
-  },
-  {
-    "canonical": "perojimenez",
-    "alias": "perojimen"
-  },
-  {
-    "canonical": "pesadilla",
-    "alias": "mampesada"
-  },
-  {
-    "canonical": "piragon",
-    "alias": "pirausta"
-  },
-  {
-    "canonical": "plagoso",
-    "alias": "llagador"
-  },
-  {
-    "canonical": "plazoleta",
-    "alias": "plazuela"
-  },
-  {
-    "canonical": "poliglota",
-    "alias": "poligloto"
-  },
-  {
-    "canonical": "porcino",
-    "alias": "porcuno"
-  },
-  {
-    "canonical": "precipicio",
-    "alias": "despenadero"
-  },
-  {
-    "canonical": "prevalecer",
-    "alias": "prevaler"
-  },
-  {
-    "canonical": "previsibilidad",
-    "alias": "predictibilidad"
-  },
-  {
-    "canonical": "proponente",
-    "alias": "proponedor"
-  },
-  {
-    "canonical": "quejigal",
-    "alias": "cajigal"
-  },
-  {
-    "canonical": "recurso-alzada",
-    "alias": "recurso-de-alzada"
-  },
-  {
-    "canonical": "redaya",
-    "alias": "redena"
-  },
-  {
-    "canonical": "revolvedora",
-    "alias": "revolvedor"
-  },
-  {
-    "canonical": "robustez",
-    "alias": "robusteza"
-  },
-  {
-    "canonical": "rotulador",
-    "alias": "rotuladora"
-  },
-  {
-    "canonical": "semidesnatado",
-    "alias": "semidescremado"
-  },
-  {
-    "canonical": "sideral",
-    "alias": "sidereo"
-  },
-  {
-    "canonical": "sobreabundar",
-    "alias": "superabundar"
-  },
-  {
-    "canonical": "taragallo",
-    "alias": "tarangallo"
-  },
-  {
-    "canonical": "tonificador",
-    "alias": "tonificante"
-  },
-  {
-    "canonical": "tragaperras",
-    "alias": "tragamonedas"
-  },
-  {
-    "canonical": "trasnoche",
-    "alias": "trasnocho"
-  },
-  {
-    "canonical": "traumatizar",
-    "alias": "traumar"
-  },
-  {
-    "canonical": "trisilabo",
-    "alias": "trisilabico"
-  },
-  {
-    "canonical": "trispasto",
-    "alias": "tripastos"
-  },
-  {
-    "canonical": "trocola",
-    "alias": "trocla"
-  },
-  {
-    "canonical": "troglodita",
-    "alias": "cavernicola"
-  },
-  {
-    "canonical": "tumefacto",
-    "alias": "tumido"
-  },
-  {
-    "canonical": "tutia",
-    "alias": "atutia"
-  },
-  {
-    "canonical": "uraloaltaico",
-    "alias": "uralaltaico"
-  },
-  {
-    "canonical": "vacaray",
-    "alias": "vacarai"
-  },
-  {
-    "canonical": "varadura",
-    "alias": "varada"
-  },
-  {
-    "canonical": "vascohablante",
-    "alias": "vascoparlante"
-  },
-  {
-    "canonical": "velis",
-    "alias": "veliz"
-  },
-  {
-    "canonical": "venustez",
-    "alias": "venustidad"
-  },
-  {
-    "canonical": "verduzco",
-    "alias": "verdusco"
-  },
-  {
-    "canonical": "versalita",
-    "alias": "versalilla"
-  },
-  {
-    "canonical": "vociferador",
-    "alias": "vociferante"
-  },
-  {
-    "canonical": "yaguar",
-    "alias": "yaguarete"
-  },
-  {
-    "canonical": "yerbal",
-    "alias": "yerbatal"
-  },
-  {
-    "canonical": "zeta",
-    "alias": "zeda"
-  },
-  {
-    "canonical": "zooftirio",
-    "alias": "anopluro"
-  },
-  {
-    "canonical": "zorronglon",
-    "alias": "zorrongo"
-  },
-  {
-    "canonical": "zorzaleno",
-    "alias": "lechin"
-  },
-  {
-    "canonical": "zurrapiento",
-    "alias": "zurraposo"
-  },
-  {
-    "canonical": "zurriar",
-    "alias": "zurrir"
-  },
-  {
-    "canonical": "zurrumba",
-    "alias": "bramadera"
-  },
-  {
-    "canonical": "hidromiel",
-    "alias": "hidromel"
-  },
-  {
-    "canonical": "libraco",
-    "aliases": [
-      "libracho",
-      "librejo"
-    ]
-  },
-  {
-    "canonical": "minifundio-2",
-    "alias": "minifundismo"
-  },
-  {
-    "canonical": "gneis",
-    "aliases": [
-      "neis"
-    ]
-  },
-  {
-    "canonical": "mnemotecnia",
-    "aliases": [
-      "nemotecnia",
-      "nemotecnica"
-    ]
-  },
-  {
-    "canonical": "mnemotecnico",
-    "aliases": [
-      "nemotecnico"
-    ]
-  },
-  {
-    "canonical": "perengano",
-    "alias": "perencejo"
-  },
-  {
-    "canonical": "round3077-impulsar-promover",
-    "alias": "promover"
-  },
-  {
-    "canonical": "purgante-2",
-    "alias": "purgativo"
-  },
-  {
-    "canonical": "cardenal",
-    "alias": "purpurado"
-  },
-  {
-    "canonical": "cardenal-2",
-    "alias": "moradura"
-  },
-  {
-    "canonical": "purpura",
-    "alias": "purpureo"
-  },
-  {
-    "canonical": "purpura",
-    "alias": "purpurino"
-  },
-  {
-    "canonical": "cobardia",
-    "alias": "pusilanimidad"
-  },
-  {
-    "canonical": "putrefacto",
-    "alias": "putrido"
-  },
-  {
-    "canonical": "queroseno",
-    "alias": "keroseno"
-  },
-  {
-    "canonical": "querubin",
-    "alias": "querub"
-  },
-  {
-    "canonical": "querubin",
-    "alias": "querube"
-  },
-  {
-    "canonical": "quechuismo",
-    "alias": "quichuismo"
-  },
-  {
-    "canonical": "quintonil",
-    "alias": "quiltonil"
-  },
-  {
-    "canonical": "quimbambas",
-    "alias": "quimbambaras"
-  },
-  {
-    "canonical": "quina",
-    "aliases": [
-      "quinaquina",
-      "quinquina"
-    ]
-  },
-  {
-    "canonical": "quincalleria",
-    "alias": "quinquilleria"
-  },
-  {
-    "canonical": "lustro",
-    "alias": "quinquenio"
-  },
-  {
-    "canonical": "kirie",
-    "alias": "quirie"
-  },
-  {
-    "canonical": "consuelo",
-    "alias": "quitapesares"
-  },
-  {
-    "canonical": "arrabal",
-    "alias": "rabal"
-  },
-  {
-    "canonical": "rabotazo",
-    "alias": "rabotada"
-  },
-  {
-    "canonical": "radiactividad",
-    "alias": "radioactividad"
-  },
-  {
-    "canonical": "reducible",
-    "alias": "reductible"
-  },
-  {
-    "canonical": "repantigarse",
-    "aliases": [
-      "repanchigarse",
-      "repanchingarse",
-      "repantingarse"
-    ],
-    "set": {},
-    "unset": []
-  },
-  {
-    "canonical": "arrollar",
-    "alias": "rollar"
-  },
-  {
-    "canonical": "bucal",
-    "aliases": [
-      "oral-mouth"
-    ]
-  },
-  {
-    "canonical": "detonante",
-    "aliases": [
-      "detonador-2"
-    ]
-  },
-  {
-    "canonical": "develar",
-    "aliases": [
-      "desvelar-4"
-    ]
-  },
-  {
-    "canonical": "diametral",
-    "aliases": [
-      "diametrico"
-    ]
-  },
-  {
-    "canonical": "disconforme",
-    "aliases": [
-      "inconforme"
-    ]
-  },
-  {
-    "canonical": "excusable",
-    "aliases": [
-      "disculpable"
-    ]
-  },
-  {
-    "canonical": "dondiego",
-    "aliases": [
-      "donjuan-flower"
-    ]
-  },
-  {
-    "canonical": "emotivo-sensible",
-    "aliases": [
-      "emocionable"
-    ]
-  },
-  {
-    "canonical": "epanadiplosis",
-    "aliases": [
-      "epanalepsis",
-      "epanastrofe"
-    ]
-  },
-  {
-    "canonical": "errante",
-    "aliases": [
-      "errabundo"
-    ]
-  },
-  {
-    "canonical": "estruendo",
-    "aliases": [
-      "estrepito"
-    ]
-  },
-  {
-    "canonical": "estruendoso",
-    "aliases": [
-      "estrepitoso"
-    ]
-  },
-  {
-    "canonical": "farfullero",
-    "aliases": [
-      "farfullador"
-    ]
-  },
-  {
-    "canonical": "fisonomia",
-    "aliases": [
-      "fisionomia"
-    ]
-  },
-  {
-    "canonical": "imam",
-    "aliases": [
-      "round3058-iman-religious"
-    ]
-  },
-  {
-    "canonical": "irrefrenable",
-    "aliases": [
-      "incontenible"
-    ]
-  },
-  {
-    "canonical": "indecible",
-    "aliases": [
-      "inefable",
-      "inexpresable"
-    ]
-  },
-  {
-    "canonical": "ineficaz",
-    "aliases": [
-      "inefectivo"
-    ]
-  },
-  {
-    "canonical": "infertilidad",
-    "aliases": [
-      "infecundidad"
-    ]
-  },
-  {
-    "canonical": "infinidad",
-    "aliases": [
-      "infinitud"
-    ]
-  },
-  {
-    "canonical": "incurable",
-    "aliases": [
-      "insanable"
-    ]
-  },
-  {
-    "canonical": "insipido",
-    "aliases": [
-      "soso"
-    ]
-  },
-  {
-    "canonical": "italorromanico",
-    "aliases": [
-      "italorromance"
-    ]
-  },
-  {
-    "canonical": "jumentil",
-    "aliases": [
-      "jumental"
-    ]
-  },
-  {
-    "canonical": "juncal",
-    "aliases": [
-      "juncar",
-      "round3264-juncada-place"
-    ]
-  },
-  {
-    "canonical": "liderazgo",
-    "aliases": [
-      "liderato"
-    ]
-  },
-  {
-    "canonical": "limaco",
-    "aliases": [
-      "limaza"
-    ]
-  },
-  {
-    "canonical": "matalahuva",
-    "aliases": [
-      "matalahuga"
-    ]
-  },
-  {
-    "canonical": "mendigo",
-    "aliases": [
-      "pordiosero"
-    ]
-  },
-  {
-    "canonical": "negrilla",
-    "aliases": [
-      "negrita"
-    ]
-  },
-  {
-    "canonical": "perjudicial",
-    "aliases": [
-      "nocivo"
-    ]
-  },
-  {
-    "canonical": "otorgante",
-    "aliases": [
-      "otorgador"
-    ]
-  },
-  {
-    "canonical": "pleuritis",
-    "aliases": [
-      "pleuresia"
-    ]
-  },
-  {
-    "canonical": "rodillazo",
-    "aliases": [
-      "rodillada"
-    ]
-  },
-  {
-    "canonical": "enamoradizo",
-    "aliases": [
-      "enamoradizo-easily"
-    ]
-  },
-  {
-    "canonical": "abusador",
-    "aliases": [
-      "abuson"
-    ]
-  },
-  {
-    "canonical": "alberguero",
-    "aliases": [
-      "albergero"
-    ]
-  },
-  {
-    "canonical": "bermejear",
-    "aliases": [
-      "bermejecer"
-    ]
-  },
-  {
-    "canonical": "alboroto",
-    "aliases": [
-      "bullicio"
-    ]
-  },
-  {
-    "canonical": "incombustible",
-    "aliases": [
-      "calorifugo-cannot-burn"
-    ]
-  },
-  {
-    "canonical": "litoral",
-    "aliases": [
-      "costera"
-    ]
-  },
-  {
-    "canonical": "bicolor",
-    "aliases": [
-      "dicromatico"
-    ]
-  },
-  {
-    "canonical": "disertante",
-    "aliases": [
-      "ponente"
-    ]
-  },
-  {
-    "canonical": "vagar",
-    "aliases": [
-      "divagar-2"
     ]
   },
   {
@@ -1591,638 +652,39 @@
     ]
   },
   {
-    "canonical": "enojoso",
+    "canonical": "emanantismo",
     "aliases": [
-      "enfadoso"
+      "emanatismo"
     ]
   },
   {
-    "canonical": "enhebrar",
+    "canonical": "embriagador",
     "aliases": [
-      "enhilar"
+      "embriagante"
     ]
   },
   {
-    "canonical": "injertar",
+    "canonical": "embudo",
     "aliases": [
-      "enjertar"
+      "infundibulo"
     ]
   },
   {
-    "canonical": "enrabietar",
+    "canonical": "empapuzar",
     "aliases": [
-      "encolerizar"
-    ]
-  },
-  {
-    "canonical": "espanolidad",
-    "aliases": [
-      "round2496-espanolismo-national-identity"
-    ]
-  },
-  {
-    "canonical": "bucal",
-    "aliases": [
-      "estomatico"
-    ]
-  },
-  {
-    "canonical": "fachento",
-    "aliases": [
-      "round2613-fachoso-boastful"
-    ]
-  },
-  {
-    "canonical": "fatigoso",
-    "aliases": [
-      "fatigante"
-    ]
-  },
-  {
-    "canonical": "ginebra",
-    "aliases": [
-      "gin"
-    ]
-  },
-  {
-    "canonical": "incidente",
-    "aliases": [
-      "incidencia"
-    ]
-  },
-  {
-    "canonical": "incuestionable",
-    "aliases": [
-      "indisputable"
-    ]
-  },
-  {
-    "canonical": "indudable",
-    "aliases": [
-      "indubitable"
-    ]
-  },
-  {
-    "canonical": "ineptitud",
-    "aliases": [
-      "inhabilidad"
-    ]
-  },
-  {
-    "canonical": "infertil",
-    "aliases": [
-      "round3126-infecundo-land"
-    ]
-  },
-  {
-    "canonical": "round3205-irrompible",
-    "aliases": [
-      "infrangible"
-    ]
-  },
-  {
-    "canonical": "juncal",
-    "aliases": [
-      "junqueral"
-    ]
-  },
-  {
-    "canonical": "lentilla",
-    "aliases": [
-      "round3333-lente-contact"
-    ]
-  },
-  {
-    "canonical": "limonero",
-    "aliases": [
-      "round3359-limon-tree"
-    ]
-  },
-  {
-    "canonical": "miedoso",
-    "aliases": [
-      "medroso"
-    ]
-  },
-  {
-    "canonical": "melocotonero",
-    "aliases": [
-      "round3541-melocoton-tree"
-    ]
-  },
-  {
-    "canonical": "membrillero",
-    "aliases": [
-      "round3544-membrillo-arbol"
-    ]
-  },
-  {
-    "canonical": "mistificar",
-    "aliases": [
-      "mixtificar"
-    ]
-  },
-  {
-    "canonical": "monocromo",
-    "aliases": [
-      "monocolor"
-    ]
-  },
-  {
-    "canonical": "morrena",
-    "aliases": [
-      "morena-4"
-    ]
-  },
-  {
-    "canonical": "parlanchin",
-    "aliases": [
-      "parlon"
-    ]
-  },
-  {
-    "canonical": "transitable",
-    "aliases": [
-      "pasable-2"
-    ]
-  },
-  {
-    "canonical": "plebeyo-2",
-    "aliases": [
-      "pechero-3"
-    ]
-  },
-  {
-    "canonical": "round2566-eternizar-lasting",
-    "aliases": [
-      "perennizar"
-    ]
-  },
-  {
-    "canonical": "persistir-2",
-    "aliases": [
-      "perseverar-2"
-    ]
-  },
-  {
-    "canonical": "pesquera",
-    "aliases": [
-      "pesqueria-3"
-    ]
-  },
-  {
-    "canonical": "fetido",
-    "aliases": [
-      "pestilente-2"
-    ]
-  },
-  {
-    "canonical": "pobreria",
-    "aliases": [
-      "pobreteria"
-    ]
-  },
-  {
-    "canonical": "manzanar",
-    "aliases": [
-      "pomarada"
-    ]
-  },
-  {
-    "canonical": "gravidez",
-    "aliases": [
-      "prenado-noun"
-    ]
-  },
-  {
-    "canonical": "prorrata",
-    "aliases": [
-      "prorrateo"
-    ]
-  },
-  {
-    "canonical": "restaurar",
-    "aliases": [
-      "restituir-restaurar-estado"
-    ]
-  },
-  {
-    "canonical": "retrasar",
-    "aliases": [
-      "retardar"
-    ]
-  },
-  {
-    "canonical": "saboyano",
-    "aliases": [
-      "saboyana"
-    ]
-  },
-  {
-    "canonical": "silbante",
-    "aliases": [
-      "silboso"
-    ]
-  },
-  {
-    "canonical": "posterior",
-    "aliases": [
-      "subsecuente"
-    ]
-  },
-  {
-    "canonical": "cabezazo",
-    "aliases": [
-      "testada",
-      "testarazo"
-    ]
-  },
-  {
-    "canonical": "ultramarino",
-    "aliases": [
-      "transmarino",
-      "trasmarino"
-    ]
-  },
-  {
-    "canonical": "trasvasar",
-    "aliases": [
-      "transvasar",
-      "trasegar",
-      "trasverter"
-    ]
-  },
-  {
-    "canonical": "vacada",
-    "aliases": [
-      "vaqueria"
-    ]
-  },
-  {
-    "canonical": "veraniego",
-    "aliases": [
-      "veranero"
-    ]
-  },
-  {
-    "canonical": "vergonzoso-que-siente-verguenza",
-    "aliases": [
-      "verecundo"
-    ]
-  },
-  {
-    "canonical": "zapatazo",
-    "aliases": [
-      "zapateta-blow"
-    ]
-  },
-  {
-    "canonical": "pelafustan",
-    "aliases": [
-      "pelagatos"
-    ]
-  },
-  {
-    "canonical": "almadena",
-    "aliases": [
-      "almadina",
-      "almagana"
-    ]
-  },
-  {
-    "canonical": "rupicabra",
-    "aliases": [
-      "rupicapra"
-    ]
-  },
-  {
-    "canonical": "canturrear",
-    "aliases": [
-      "canturriar"
-    ]
-  },
-  {
-    "canonical": "albardaneria",
-    "aliases": [
-      "albardania"
-    ]
-  },
-  {
-    "canonical": "aturullar",
-    "aliases": [
-      "aturrullar"
-    ]
-  },
-  {
-    "canonical": "consustancial",
-    "aliases": [
-      "consubstancial"
-    ]
-  },
-  {
-    "canonical": "dendroideo",
-    "aliases": [
-      "dendroide"
-    ]
-  },
-  {
-    "canonical": "desimantar",
-    "aliases": [
-      "desimanar"
-    ]
-  },
-  {
-    "canonical": "acroe",
-    "aliases": [
-      "acroy"
-    ]
-  },
-  {
-    "canonical": "batahola",
-    "aliases": [
-      "bataola"
-    ]
-  },
-  {
-    "canonical": "chii",
-    "aliases": [
-      "chiita"
-    ]
-  },
-  {
-    "canonical": "achularse",
-    "aliases": [
-      "achulaparse"
-    ]
-  },
-  {
-    "canonical": "acornear",
-    "aliases": [
-      "acornar"
-    ]
-  },
-  {
-    "canonical": "alaui",
-    "aliases": [
-      "alauita"
-    ]
-  },
-  {
-    "canonical": "aporque",
-    "aliases": [
-      "aporcadura"
-    ]
-  },
-  {
-    "canonical": "desentumecer",
-    "aliases": [
-      "desentumir"
-    ]
-  },
-  {
-    "canonical": "inocuo",
-    "aliases": [
-      "inofensivo"
-    ]
-  },
-  {
-    "canonical": "patudo",
-    "aliases": [
-      "paton"
-    ]
-  },
-  {
-    "canonical": "contradictor",
-    "aliases": [
-      "contradecidor"
-    ]
-  },
-  {
-    "canonical": "desgana",
-    "aliases": [
-      "desgano"
-    ]
-  },
-  {
-    "canonical": "acechadero",
-    "aliases": [
-      "acechadera"
-    ]
-  },
-  {
-    "canonical": "aceiton",
-    "aliases": [
-      "aceitazo"
-    ]
-  },
-  {
-    "canonical": "agosteno",
-    "aliases": [
-      "agostizo"
-    ]
-  },
-  {
-    "canonical": "cheposo",
-    "aliases": [
-      "chepudo"
-    ]
-  },
-  {
-    "canonical": "insoportable",
-    "aliases": [
-      "insufrible"
-    ]
-  },
-  {
-    "canonical": "besucon",
-    "aliases": [
-      "besucador"
-    ]
-  },
-  {
-    "canonical": "cuchichiar",
-    "aliases": [
-      "chuchear"
-    ]
-  },
-  {
-    "canonical": "entreplanta",
-    "aliases": [
-      "entrepiso"
-    ]
-  },
-  {
-    "canonical": "pescozon",
-    "aliases": [
-      "pescozada"
-    ]
-  },
-  {
-    "canonical": "platanero-2",
-    "aliases": [
-      "platanera"
-    ]
-  },
-  {
-    "canonical": "babilla",
-    "aliases": [
-      "babada"
-    ]
-  },
-  {
-    "canonical": "malbaratar",
-    "aliases": [
-      "malvender"
-    ]
-  },
-  {
-    "canonical": "materno",
-    "aliases": [
-      "maternal"
-    ]
-  },
-  {
-    "canonical": "chascarrillo",
-    "aliases": [
-      "chascarro"
-    ]
-  },
-  {
-    "canonical": "masoneria",
-    "aliases": [
-      "francmasoneria"
-    ]
-  },
-  {
-    "canonical": "codice",
-    "aliases": [
-      "codex"
-    ]
-  },
-  {
-    "canonical": "aladierno",
-    "aliases": [
-      "aladierna"
-    ]
-  },
-  {
-    "canonical": "almuecin",
-    "aliases": [
-      "almueden"
-    ]
-  },
-  {
-    "canonical": "tocon",
-    "aliases": [
-      "troncon"
-    ]
-  },
-  {
-    "canonical": "tamalada",
-    "aliases": [
-      "tamaleada"
-    ]
-  },
-  {
-    "canonical": "prevaricacion",
-    "aliases": [
-      "prevaricato"
-    ]
-  },
-  {
-    "canonical": "derelinquir",
-    "aliases": [
-      "derrelinquir"
-    ]
-  },
-  {
-    "canonical": "oxear",
-    "aliases": [
-      "osear"
-    ]
-  },
-  {
-    "canonical": "aguay",
-    "aliases": [
-      "aguai"
-    ]
-  },
-  {
-    "canonical": "desencajadura",
-    "aliases": [
-      "desencasadura"
-    ]
-  },
-  {
-    "canonical": "amercendearse",
-    "aliases": [
-      "amercearse"
-    ]
-  },
-  {
-    "canonical": "anual",
-    "aliases": [
-      "anuo"
-    ]
-  },
-  {
-    "canonical": "bunolero",
-    "aliases": [
-      "bunuelero"
-    ]
-  },
-  {
-    "canonical": "amarillez",
-    "aliases": [
-      "amarillura"
-    ]
-  },
-  {
-    "canonical": "calvicie",
-    "aliases": [
-      "calvez"
-    ]
-  },
-  {
-    "canonical": "anual-duracion",
-    "aliases": [
-      "anuo-duracion"
-    ]
-  },
-  {
-    "canonical": "explosivo",
-    "aliases": [
-      "round2596-explosivo-adjective"
-    ]
-  },
-  {
-    "canonical": "enajenar",
-    "aliases": [
-      "enajenar-transfer"
-    ]
-  },
-  {
-    "canonical": "empleador",
-    "aliases": [
-      "empleador-contratante"
-    ]
-  },
-  {
-    "canonical": "empleabilidad",
-    "aliases": [
-      "empleabilidad-trabajo"
-    ]
-  },
-  {
-    "canonical": "empleado",
-    "aliases": [
-      "empleado-salariado"
+      "empapuzar-comer"
     ]
   },
   {
     "canonical": "empecinado",
     "aliases": [
       "empecinado-stubborn"
+    ]
+  },
+  {
+    "canonical": "empedernido",
+    "aliases": [
+      "empedernido-habit"
     ]
   },
   {
@@ -2250,9 +712,69 @@
     ]
   },
   {
+    "canonical": "empestillarse",
+    "aliases": [
+      "empestillarse-obstinarse"
+    ]
+  },
+  {
+    "canonical": "empilar",
+    "aliases": [
+      "empilar-apilar"
+    ]
+  },
+  {
     "canonical": "empirismo",
     "aliases": [
       "empirismo-experiencia"
+    ]
+  },
+  {
+    "canonical": "emplastar",
+    "aliases": [
+      "emplastar-aplicar"
+    ]
+  },
+  {
+    "canonical": "empleabilidad",
+    "aliases": [
+      "empleabilidad-trabajo"
+    ]
+  },
+  {
+    "canonical": "empleado",
+    "aliases": [
+      "empleado-salariado"
+    ]
+  },
+  {
+    "canonical": "empleador",
+    "aliases": [
+      "empleador-contratante"
+    ]
+  },
+  {
+    "canonical": "emplomar",
+    "aliases": [
+      "emplomar-sellar"
+    ]
+  },
+  {
+    "canonical": "empoderar",
+    "aliases": [
+      "empoderar-dar-poder"
+    ]
+  },
+  {
+    "canonical": "empolvar",
+    "aliases": [
+      "empolvar-polvo"
+    ]
+  },
+  {
+    "canonical": "empolvorar",
+    "aliases": [
+      "empolvorar-cubrir"
     ]
   },
   {
@@ -2280,9 +802,45 @@
     ]
   },
   {
+    "canonical": "emprendedor",
+    "aliases": [
+      "emprendedor-proyecto"
+    ]
+  },
+  {
+    "canonical": "emprender",
+    "aliases": [
+      "emprender-comenzar"
+    ]
+  },
+  {
     "canonical": "empresariado",
     "aliases": [
       "empresariado-colectivo"
+    ]
+  },
+  {
+    "canonical": "empresarial",
+    "aliases": [
+      "empresarial-relacion"
+    ]
+  },
+  {
+    "canonical": "empujada",
+    "aliases": [
+      "empujada-empujon"
+    ]
+  },
+  {
+    "canonical": "empujon",
+    "aliases": [
+      "empujon-impulso"
+    ]
+  },
+  {
+    "canonical": "empunadura",
+    "aliases": [
+      "empunadura-handle"
     ]
   },
   {
@@ -2298,9 +856,21 @@
     ]
   },
   {
+    "canonical": "emulsionar",
+    "aliases": [
+      "emulsionar-mix"
+    ]
+  },
+  {
     "canonical": "enaceitar",
     "aliases": [
       "enaceitar-oil"
+    ]
+  },
+  {
+    "canonical": "enaguachar",
+    "aliases": [
+      "enaguachar-flood"
     ]
   },
   {
@@ -2310,9 +880,45 @@
     ]
   },
   {
+    "canonical": "enajenacion",
+    "aliases": [
+      "enajenacion-property"
+    ]
+  },
+  {
+    "canonical": "enajenar",
+    "aliases": [
+      "enajenar-transfer"
+    ]
+  },
+  {
+    "canonical": "enaltecer",
+    "aliases": [
+      "enaltecer-elevate"
+    ]
+  },
+  {
     "canonical": "enamarillecer",
     "aliases": [
       "enamarillecer-cause"
+    ]
+  },
+  {
+    "canonical": "enamoradizo",
+    "aliases": [
+      "enamoradizo-easily"
+    ]
+  },
+  {
+    "canonical": "enamorar",
+    "aliases": [
+      "enamorar-cause-love"
+    ]
+  },
+  {
+    "canonical": "enanismo",
+    "aliases": [
+      "enanismo-condition"
     ]
   },
   {
@@ -2352,9 +958,437 @@
     ]
   },
   {
+    "canonical": "encaballar",
+    "aliases": [
+      "encaballar-saddle"
+    ]
+  },
+  {
+    "canonical": "encabezado",
+    "aliases": [
+      "encabezado-heading"
+    ]
+  },
+  {
+    "canonical": "encabezar",
+    "aliases": [
+      "encabezar-lead"
+    ]
+  },
+  {
+    "canonical": "enfervorecer",
+    "aliases": [
+      "enfervorizar"
+    ]
+  },
+  {
+    "canonical": "enhebrar",
+    "aliases": [
+      "enhilar"
+    ]
+  },
+  {
+    "canonical": "enmugrecer",
+    "aliases": [
+      "enmugrar"
+    ]
+  },
+  {
+    "canonical": "enojoso",
+    "aliases": [
+      "enfadoso"
+    ]
+  },
+  {
+    "canonical": "enrabietar",
+    "aliases": [
+      "encolerizar"
+    ]
+  },
+  {
+    "canonical": "enrojecer",
+    "aliases": [
+      "enrojar"
+    ]
+  },
+  {
+    "canonical": "entrepierna",
+    "aliases": [
+      "bragadura"
+    ]
+  },
+  {
+    "canonical": "entreplanta",
+    "aliases": [
+      "entrepiso"
+    ]
+  },
+  {
+    "canonical": "epanadiplosis",
+    "aliases": [
+      "epanalepsis"
+    ]
+  },
+  {
+    "canonical": "epileptico-2",
+    "aliases": [
+      "round2423-epileptico-person"
+    ]
+  },
+  {
+    "canonical": "ergastulo",
+    "aliases": [
+      "ergastula"
+    ]
+  },
+  {
+    "canonical": "escarnecer",
+    "aliases": [
+      "befar"
+    ]
+  },
+  {
+    "canonical": "esmirriado",
+    "aliases": [
+      "desmirriado"
+    ]
+  },
+  {
+    "canonical": "espanolidad",
+    "aliases": [
+      "round2496-espanolismo-national-identity"
+    ]
+  },
+  {
+    "canonical": "estetoscopio",
+    "aliases": [
+      "fonendo",
+      "fonendoscopio"
+    ]
+  },
+  {
+    "canonical": "estruendoso",
+    "aliases": [
+      "estrepitoso"
+    ]
+  },
+  {
+    "canonical": "evocador",
+    "aliases": [
+      "evocativo"
+    ]
+  },
+  {
+    "canonical": "excusable",
+    "aliases": [
+      "disculpable"
+    ]
+  },
+  {
+    "canonical": "explosivo",
+    "aliases": [
+      "round2596-explosivo-adjective"
+    ]
+  },
+  {
+    "canonical": "expresable",
+    "aliases": [
+      "articulable"
+    ]
+  },
+  {
+    "canonical": "fachento",
+    "aliases": [
+      "round2613-fachoso-boastful"
+    ]
+  },
+  {
+    "canonical": "falible",
+    "aliases": [
+      "defectible"
+    ]
+  },
+  {
+    "canonical": "fantoche",
+    "aliases": [
+      "guinol"
+    ]
+  },
+  {
+    "canonical": "faramallero",
+    "aliases": [
+      "faramallon"
+    ]
+  },
+  {
+    "canonical": "farfullero",
+    "aliases": [
+      "farfullador"
+    ]
+  },
+  {
+    "canonical": "fariseismo",
+    "aliases": [
+      "farisaismo"
+    ]
+  },
+  {
+    "canonical": "fatigoso",
+    "aliases": [
+      "fatigante"
+    ]
+  },
+  {
+    "canonical": "ferruginoso",
+    "aliases": [
+      "ferrugineo"
+    ]
+  },
+  {
+    "canonical": "fetido",
+    "aliases": [
+      "pestilente-2"
+    ]
+  },
+  {
+    "canonical": "fisonomia",
+    "aliases": [
+      "fisionomia"
+    ]
+  },
+  {
+    "canonical": "fotofobo",
+    "aliases": [
+      "round2724-fotofobo-person"
+    ]
+  },
+  {
+    "canonical": "fotolitografia",
+    "aliases": [
+      "litofotografia"
+    ]
+  },
+  {
+    "canonical": "franquear-give-generously",
+    "aliases": [
+      "round2734-franquear-give"
+    ]
+  },
+  {
+    "canonical": "friolento",
+    "aliases": [
+      "friolero"
+    ]
+  },
+  {
+    "canonical": "ginebra",
+    "aliases": [
+      "gin"
+    ]
+  },
+  {
+    "canonical": "giroscopio",
+    "aliases": [
+      "giroscopo"
+    ]
+  },
+  {
+    "canonical": "gneis",
+    "aliases": [
+      "neis"
+    ]
+  },
+  {
+    "canonical": "goethiano",
+    "aliases": [
+      "goetheano"
+    ]
+  },
+  {
+    "canonical": "gollizo",
+    "aliases": [
+      "gollizno"
+    ]
+  },
+  {
+    "canonical": "gravidez",
+    "aliases": [
+      "prenado-noun"
+    ]
+  },
+  {
+    "canonical": "gusanear",
+    "aliases": [
+      "hormiguear"
+    ]
+  },
+  {
+    "canonical": "hamacar",
+    "aliases": [
+      "hamaquear"
+    ]
+  },
+  {
+    "canonical": "hampesco",
+    "aliases": [
+      "hampo"
+    ]
+  },
+  {
+    "canonical": "hayuco",
+    "aliases": [
+      "hove"
+    ]
+  },
+  {
+    "canonical": "hedentino",
+    "aliases": [
+      "hedentina"
+    ]
+  },
+  {
+    "canonical": "hemostatico",
+    "aliases": [
+      "round2963-hemostatico-product"
+    ]
+  },
+  {
+    "canonical": "hercio",
+    "aliases": [
+      "hertz"
+    ]
+  },
+  {
+    "canonical": "hidromiel",
+    "aliases": [
+      "hidromel"
+    ]
+  },
+  {
+    "canonical": "hispanohablante",
+    "aliases": [
+      "hispanoparlante"
+    ]
+  },
+  {
+    "canonical": "hocicon",
+    "aliases": [
+      "hocicudo"
+    ]
+  },
+  {
+    "canonical": "imam",
+    "aliases": [
+      "round3058-iman-religious"
+    ]
+  },
+  {
     "canonical": "imponderable",
     "aliases": [
       "round3069-imponderable-pesar"
+    ]
+  },
+  {
+    "canonical": "impresionable",
+    "aliases": [
+      "influenciable"
+    ]
+  },
+  {
+    "canonical": "impropio",
+    "aliases": [
+      "round3075-impropio-inadecuado"
+    ]
+  },
+  {
+    "canonical": "incidente",
+    "aliases": [
+      "incidencia"
+    ]
+  },
+  {
+    "canonical": "incivil",
+    "aliases": [
+      "incivilizado"
+    ]
+  },
+  {
+    "canonical": "incombustible",
+    "aliases": [
+      "calorifugo-cannot-burn"
+    ]
+  },
+  {
+    "canonical": "incuestionable",
+    "aliases": [
+      "indisputable"
+    ]
+  },
+  {
+    "canonical": "incurable",
+    "aliases": [
+      "insanable"
+    ]
+  },
+  {
+    "canonical": "indecible",
+    "aliases": [
+      "inefable",
+      "inexpresable"
+    ]
+  },
+  {
+    "canonical": "indoeuropeo",
+    "aliases": [
+      "indogermanico"
+    ]
+  },
+  {
+    "canonical": "indudable",
+    "aliases": [
+      "indubitable"
+    ]
+  },
+  {
+    "canonical": "ineficaz",
+    "aliases": [
+      "inefectivo"
+    ]
+  },
+  {
+    "canonical": "ineptitud",
+    "aliases": [
+      "inhabilidad"
+    ]
+  },
+  {
+    "canonical": "infertil",
+    "aliases": [
+      "round3126-infecundo-land"
+    ]
+  },
+  {
+    "canonical": "infertilidad",
+    "aliases": [
+      "infecundidad"
+    ]
+  },
+  {
+    "canonical": "infinidad",
+    "aliases": [
+      "infinitud"
+    ]
+  },
+  {
+    "canonical": "infravalorar",
+    "aliases": [
+      "minusvalorar"
+    ]
+  },
+  {
+    "canonical": "inhallable",
+    "aliases": [
+      "inencontrable"
     ]
   },
   {
@@ -2364,9 +1398,223 @@
     ]
   },
   {
+    "canonical": "injertar",
+    "aliases": [
+      "enjertar"
+    ]
+  },
+  {
+    "canonical": "inmemorial",
+    "aliases": [
+      "inmemorable"
+    ]
+  },
+  {
+    "canonical": "inmerecido",
+    "aliases": [
+      "inmerito"
+    ]
+  },
+  {
+    "canonical": "inmunizador",
+    "aliases": [
+      "inmunizante"
+    ]
+  },
+  {
+    "canonical": "inocuo",
+    "aliases": [
+      "inofensivo"
+    ]
+  },
+  {
+    "canonical": "insertar",
+    "aliases": [
+      "round3155-insertar-object"
+    ]
+  },
+  {
     "canonical": "insidioso",
     "aliases": [
       "round3155-insidioso-subtle"
+    ]
+  },
+  {
+    "canonical": "insipido",
+    "aliases": [
+      "soso"
+    ]
+  },
+  {
+    "canonical": "interioridad",
+    "aliases": [
+      "round3175-interioridad-vida-interior"
+    ]
+  },
+  {
+    "canonical": "intrascendente",
+    "aliases": [
+      "intrascendental"
+    ]
+  },
+  {
+    "canonical": "irrefrenable",
+    "aliases": [
+      "incontenible"
+    ]
+  },
+  {
+    "canonical": "italorromanico",
+    "aliases": [
+      "italorromance"
+    ]
+  },
+  {
+    "canonical": "jabardillo",
+    "aliases": [
+      "jabardo"
+    ]
+  },
+  {
+    "canonical": "jabega",
+    "aliases": [
+      "jabega-lexical1"
+    ]
+  },
+  {
+    "canonical": "jicotea",
+    "aliases": [
+      "hicotea"
+    ]
+  },
+  {
+    "canonical": "jorro",
+    "aliases": [
+      "arrastradero"
+    ]
+  },
+  {
+    "canonical": "jumentil",
+    "aliases": [
+      "jumental"
+    ]
+  },
+  {
+    "canonical": "juncal",
+    "aliases": [
+      "juncar",
+      "junqueral",
+      "round3264-juncada-place"
+    ]
+  },
+  {
+    "canonical": "kirie",
+    "aliases": [
+      "kirieleison",
+      "quirie"
+    ]
+  },
+  {
+    "canonical": "lentilla",
+    "aliases": [
+      "round3333-lente-contact"
+    ]
+  },
+  {
+    "canonical": "libraco",
+    "aliases": [
+      "libracho",
+      "librejo"
+    ]
+  },
+  {
+    "canonical": "liderazgo",
+    "aliases": [
+      "liderato"
+    ]
+  },
+  {
+    "canonical": "lienteria",
+    "aliases": [
+      "lientera"
+    ]
+  },
+  {
+    "canonical": "limaco",
+    "aliases": [
+      "limaza"
+    ]
+  },
+  {
+    "canonical": "limonero",
+    "aliases": [
+      "round3359-limon-tree"
+    ]
+  },
+  {
+    "canonical": "lista-espera",
+    "aliases": [
+      "lista-de-espera"
+    ]
+  },
+  {
+    "canonical": "litoral",
+    "aliases": [
+      "costera"
+    ]
+  },
+  {
+    "canonical": "lobato",
+    "aliases": [
+      "lobezno"
+    ]
+  },
+  {
+    "canonical": "locatis",
+    "aliases": [
+      "locatis-persona-alocada"
+    ]
+  },
+  {
+    "canonical": "lodazal",
+    "aliases": [
+      "barrizal"
+    ]
+  },
+  {
+    "canonical": "ludria",
+    "aliases": [
+      "lutria"
+    ]
+  },
+  {
+    "canonical": "lustro",
+    "aliases": [
+      "quinquenio"
+    ]
+  },
+  {
+    "canonical": "macadam",
+    "aliases": [
+      "macadan"
+    ]
+  },
+  {
+    "canonical": "malbaratar",
+    "aliases": [
+      "malvender"
+    ]
+  },
+  {
+    "canonical": "manazo",
+    "aliases": [
+      "manotazo"
+    ]
+  },
+  {
+    "canonical": "manchadizo",
+    "aliases": [
+      "manchoso"
     ]
   },
   {
@@ -2382,219 +1630,51 @@
     ]
   },
   {
-    "canonical": "milimetrico",
+    "canonical": "manzanar",
     "aliases": [
-      "milimetrico-2"
+      "pomarada"
     ]
   },
   {
-    "canonical": "perada",
+    "canonical": "marmaja",
     "aliases": [
-      "pequenez"
+      "marcasita"
     ]
   },
   {
-    "canonical": "empedernido",
+    "canonical": "marrulla",
     "aliases": [
-      "empedernido-habit"
+      "marrulleria"
     ]
   },
   {
-    "canonical": "emprendedor",
+    "canonical": "masoneria",
     "aliases": [
-      "emprendedor-proyecto"
+      "francmasoneria"
     ]
   },
   {
-    "canonical": "emprender",
+    "canonical": "matalahuva",
     "aliases": [
-      "emprender-comenzar"
+      "matalahuga"
     ]
   },
   {
-    "canonical": "empresarial",
+    "canonical": "matarife",
     "aliases": [
-      "empresarial-relacion"
+      "jifero"
     ]
   },
   {
-    "canonical": "empujada",
+    "canonical": "materno",
     "aliases": [
-      "empujada-empujon"
+      "maternal"
     ]
   },
   {
-    "canonical": "empujon",
+    "canonical": "mazdeismo",
     "aliases": [
-      "empujon-impulso"
-    ]
-  },
-  {
-    "canonical": "empunadura",
-    "aliases": [
-      "empunadura-handle"
-    ]
-  },
-  {
-    "canonical": "enamorar",
-    "aliases": [
-      "enamorar-cause-love"
-    ]
-  },
-  {
-    "canonical": "encabezado",
-    "aliases": [
-      "encabezado-heading"
-    ]
-  },
-  {
-    "canonical": "impropio",
-    "aliases": [
-      "round3075-impropio-inadecuado"
-    ]
-  },
-  {
-    "canonical": "militar",
-    "aliases": [
-      "militar-2"
-    ]
-  },
-  {
-    "canonical": "insertar",
-    "aliases": [
-      "round3155-insertar-object"
-    ]
-  },
-  {
-    "canonical": "empestillarse",
-    "aliases": [
-      "empestillarse-obstinarse"
-    ]
-  },
-  {
-    "canonical": "empilar",
-    "aliases": [
-      "empilar-apilar"
-    ]
-  },
-  {
-    "canonical": "emplastar",
-    "aliases": [
-      "emplastar-aplicar"
-    ]
-  },
-  {
-    "canonical": "emplomar",
-    "aliases": [
-      "emplomar-sellar"
-    ]
-  },
-  {
-    "canonical": "empolvar",
-    "aliases": [
-      "empolvar-polvo"
-    ]
-  },
-  {
-    "canonical": "enanismo",
-    "aliases": [
-      "enanismo-condition"
-    ]
-  },
-  {
-    "canonical": "interioridad",
-    "aliases": [
-      "round3175-interioridad-vida-interior"
-    ]
-  },
-  {
-    "canonical": "empapuzar",
-    "aliases": [
-      "empapuzar-comer"
-    ]
-  },
-  {
-    "canonical": "empolvorar",
-    "aliases": [
-      "empolvorar-cubrir"
-    ]
-  },
-  {
-    "canonical": "encaballar",
-    "aliases": [
-      "encaballar-saddle"
-    ]
-  },
-  {
-    "canonical": "epileptico-2",
-    "aliases": [
-      "round2423-epileptico-person"
-    ]
-  },
-  {
-    "canonical": "franquear-give-generously",
-    "aliases": [
-      "round2734-franquear-give"
-    ]
-  },
-  {
-    "canonical": "enaguachar",
-    "aliases": [
-      "enaguachar-flood"
-    ]
-  },
-  {
-    "canonical": "emulsionar",
-    "aliases": [
-      "emulsionar-mix"
-    ]
-  },
-  {
-    "canonical": "enajenacion",
-    "aliases": [
-      "enajenacion-property"
-    ]
-  },
-  {
-    "canonical": "impermeable-prenda",
-    "aliases": [
-      "round3065-impermeable-prenda"
-    ]
-  },
-  {
-    "canonical": "enaltecer",
-    "aliases": [
-      "enaltecer-elevate"
-    ]
-  },
-  {
-    "canonical": "encabezar",
-    "aliases": [
-      "encabezar-lead"
-    ]
-  },
-  {
-    "canonical": "locatis",
-    "aliases": [
-      "locatis-persona-alocada"
-    ]
-  },
-  {
-    "canonical": "ovicida",
-    "aliases": [
-      "ovicida-adjective"
-    ]
-  },
-  {
-    "canonical": "regicida",
-    "aliases": [
-      "regicida-2"
-    ]
-  },
-  {
-    "canonical": "fotofobo",
-    "aliases": [
-      "round2724-fotofobo-person"
+      "zoroastrismo"
     ]
   },
   {
@@ -2604,19 +1684,555 @@
     ]
   },
   {
-    "canonical": "empoderar",
+    "canonical": "melocotonero",
     "aliases": [
-      "empoderar-dar-poder"
+      "round3541-melocoton-tree"
     ]
   },
   {
-    "canonical": "hemostatico",
+    "canonical": "membrillero",
     "aliases": [
-      "round2963-hemostatico-product"
+      "round3544-membrillo-arbol"
     ]
   },
   {
-    "canonical": "quincalleria-3",
-    "alias": "quincalla"
+    "canonical": "menstrual",
+    "aliases": [
+      "catamenial"
+    ]
+  },
+  {
+    "canonical": "milimetrico",
+    "aliases": [
+      "milimetrico-2"
+    ]
+  },
+  {
+    "canonical": "minifundio-2",
+    "aliases": [
+      "minifundismo"
+    ]
+  },
+  {
+    "canonical": "mistificar",
+    "aliases": [
+      "mixtificar"
+    ]
+  },
+  {
+    "canonical": "mnemonico",
+    "aliases": [
+      "memoristico",
+      "nemonica",
+      "nemonico"
+    ]
+  },
+  {
+    "canonical": "mnemotecnia",
+    "aliases": [
+      "nemotecnia",
+      "nemotecnica"
+    ]
+  },
+  {
+    "canonical": "mnemotecnico",
+    "aliases": [
+      "nemotecnico"
+    ]
+  },
+  {
+    "canonical": "monocromo",
+    "aliases": [
+      "monocolor"
+    ]
+  },
+  {
+    "canonical": "morrena",
+    "aliases": [
+      "morena-4"
+    ]
+  },
+  {
+    "canonical": "negrilla",
+    "aliases": [
+      "negrita"
+    ]
+  },
+  {
+    "canonical": "nomenclador",
+    "aliases": [
+      "nomenclator"
+    ]
+  },
+  {
+    "canonical": "noosfera",
+    "aliases": [
+      "noosfera-lexical1"
+    ]
+  },
+  {
+    "canonical": "obligatoriedad",
+    "aliases": [
+      "forzosidad"
+    ]
+  },
+  {
+    "canonical": "omnisciente",
+    "aliases": [
+      "omniscio"
+    ]
+  },
+  {
+    "canonical": "ornar",
+    "aliases": [
+      "adornar"
+    ]
+  },
+  {
+    "canonical": "otorgante",
+    "aliases": [
+      "otorgador"
+    ]
+  },
+  {
+    "canonical": "ovicida",
+    "aliases": [
+      "ovicida-adjective"
+    ]
+  },
+  {
+    "canonical": "oxear",
+    "aliases": [
+      "osear"
+    ]
+  },
+  {
+    "canonical": "pacae",
+    "aliases": [
+      "pacay"
+    ]
+  },
+  {
+    "canonical": "papelote",
+    "aliases": [
+      "papelucho"
+    ]
+  },
+  {
+    "canonical": "paragolpes",
+    "aliases": [
+      "parachoques",
+      "paragolpe"
+    ]
+  },
+  {
+    "canonical": "parlanchin",
+    "aliases": [
+      "parlon"
+    ]
+  },
+  {
+    "canonical": "patudo",
+    "aliases": [
+      "paton"
+    ]
+  },
+  {
+    "canonical": "pegujalero",
+    "aliases": [
+      "pegujarero"
+    ]
+  },
+  {
+    "canonical": "pelafustan",
+    "aliases": [
+      "pelagatos"
+    ]
+  },
+  {
+    "canonical": "penasco",
+    "aliases": [
+      "penon"
+    ]
+  },
+  {
+    "canonical": "perada",
+    "aliases": [
+      "pequenez"
+    ]
+  },
+  {
+    "canonical": "perengano",
+    "aliases": [
+      "perencejo"
+    ]
+  },
+  {
+    "canonical": "perimetral",
+    "aliases": [
+      "perimetrico"
+    ]
+  },
+  {
+    "canonical": "persistir-2",
+    "aliases": [
+      "perseverar-2"
+    ]
+  },
+  {
+    "canonical": "pescozon",
+    "aliases": [
+      "pescozada"
+    ]
+  },
+  {
+    "canonical": "pesquera",
+    "aliases": [
+      "pesqueria-3"
+    ]
+  },
+  {
+    "canonical": "platanero-2",
+    "aliases": [
+      "platanera"
+    ]
+  },
+  {
+    "canonical": "plazoleta",
+    "aliases": [
+      "plazuela"
+    ]
+  },
+  {
+    "canonical": "plebeyo-2",
+    "aliases": [
+      "pechero-3"
+    ]
+  },
+  {
+    "canonical": "pleuritis",
+    "aliases": [
+      "pleuresia"
+    ]
+  },
+  {
+    "canonical": "pobreria",
+    "aliases": [
+      "pobreteria"
+    ]
+  },
+  {
+    "canonical": "porcino",
+    "aliases": [
+      "porcuno"
+    ]
+  },
+  {
+    "canonical": "posterior",
+    "aliases": [
+      "subsecuente"
+    ]
+  },
+  {
+    "canonical": "precipicio",
+    "aliases": [
+      "despenadero"
+    ]
+  },
+  {
+    "canonical": "prevalecer",
+    "aliases": [
+      "prevaler"
+    ]
+  },
+  {
+    "canonical": "prevaricacion",
+    "aliases": [
+      "prevaricato"
+    ]
+  },
+  {
+    "canonical": "previsibilidad",
+    "aliases": [
+      "predictibilidad"
+    ]
+  },
+  {
+    "canonical": "prorrata",
+    "aliases": [
+      "prorrateo"
+    ]
+  },
+  {
+    "canonical": "purgante-2",
+    "aliases": [
+      "purgativo"
+    ]
+  },
+  {
+    "canonical": "purpura",
+    "aliases": [
+      "purpureo",
+      "purpurino"
+    ]
+  },
+  {
+    "canonical": "putrefacto",
+    "aliases": [
+      "putrido"
+    ]
+  },
+  {
+    "canonical": "quechuismo",
+    "aliases": [
+      "quichuismo"
+    ]
+  },
+  {
+    "canonical": "querubin",
+    "aliases": [
+      "querub",
+      "querube"
+    ]
+  },
+  {
+    "canonical": "quimbambas",
+    "aliases": [
+      "quimbambaras"
+    ]
+  },
+  {
+    "canonical": "quina",
+    "aliases": [
+      "quinaquina",
+      "quinquina"
+    ]
+  },
+  {
+    "canonical": "quincalleria",
+    "aliases": [
+      "quinquilleria"
+    ]
+  },
+  {
+    "canonical": "rabotazo",
+    "aliases": [
+      "rabotada"
+    ]
+  },
+  {
+    "canonical": "radiactividad",
+    "aliases": [
+      "radioactividad"
+    ]
+  },
+  {
+    "canonical": "recurso-alzada",
+    "aliases": [
+      "recurso-de-alzada"
+    ]
+  },
+  {
+    "canonical": "reducible",
+    "aliases": [
+      "reductible"
+    ]
+  },
+  {
+    "canonical": "regicida",
+    "aliases": [
+      "regicida-2"
+    ]
+  },
+  {
+    "canonical": "repantigarse",
+    "aliases": [
+      "repanchigarse",
+      "repanchingarse",
+      "repantingarse"
+    ]
+  },
+  {
+    "canonical": "restaurar",
+    "aliases": [
+      "restituir-restaurar-estado"
+    ]
+  },
+  {
+    "canonical": "retrasar",
+    "aliases": [
+      "retardar"
+    ]
+  },
+  {
+    "canonical": "revolvedora",
+    "aliases": [
+      "revolvedor"
+    ]
+  },
+  {
+    "canonical": "rodillazo",
+    "aliases": [
+      "rodillada"
+    ]
+  },
+  {
+    "canonical": "round2566-eternizar-lasting",
+    "aliases": [
+      "perennizar"
+    ]
+  },
+  {
+    "canonical": "salvaguardia",
+    "aliases": [
+      "salvaguarda"
+    ]
+  },
+  {
+    "canonical": "salvajada",
+    "aliases": [
+      "salvajeria"
+    ]
+  },
+  {
+    "canonical": "sarpullido",
+    "aliases": [
+      "salpullido"
+    ]
+  },
+  {
+    "canonical": "semidesnatado",
+    "aliases": [
+      "semidescremado"
+    ]
+  },
+  {
+    "canonical": "sideral",
+    "aliases": [
+      "sidereo"
+    ]
+  },
+  {
+    "canonical": "silbante",
+    "aliases": [
+      "silboso"
+    ]
+  },
+  {
+    "canonical": "tamalada",
+    "aliases": [
+      "tamaleada"
+    ]
+  },
+  {
+    "canonical": "tocon",
+    "aliases": [
+      "troncon"
+    ]
+  },
+  {
+    "canonical": "transitable",
+    "aliases": [
+      "pasable-2"
+    ]
+  },
+  {
+    "canonical": "trasnoche",
+    "aliases": [
+      "trasnocho"
+    ]
+  },
+  {
+    "canonical": "trasvasar",
+    "aliases": [
+      "transvasar",
+      "trasegar",
+      "trasverter"
+    ]
+  },
+  {
+    "canonical": "traumatizar",
+    "aliases": [
+      "traumar"
+    ]
+  },
+  {
+    "canonical": "trisilabo",
+    "aliases": [
+      "trisilabico"
+    ]
+  },
+  {
+    "canonical": "trocola",
+    "aliases": [
+      "trocla"
+    ]
+  },
+  {
+    "canonical": "troglodita",
+    "aliases": [
+      "cavernicola"
+    ]
+  },
+  {
+    "canonical": "tumefacto",
+    "aliases": [
+      "tumido"
+    ]
+  },
+  {
+    "canonical": "ultramarino",
+    "aliases": [
+      "transmarino",
+      "trasmarino"
+    ]
+  },
+  {
+    "canonical": "vacada",
+    "aliases": [
+      "vaqueria"
+    ]
+  },
+  {
+    "canonical": "vagar",
+    "aliases": [
+      "divagar-2"
+    ]
+  },
+  {
+    "canonical": "varadura",
+    "aliases": [
+      "varada"
+    ]
+  },
+  {
+    "canonical": "velis",
+    "aliases": [
+      "veliz"
+    ]
+  },
+  {
+    "canonical": "veraniego",
+    "aliases": [
+      "veranero"
+    ]
+  },
+  {
+    "canonical": "vociferador",
+    "aliases": [
+      "vociferante"
+    ]
+  },
+  {
+    "canonical": "zapatazo",
+    "aliases": [
+      "zapateta-blow"
+    ]
+  },
+  {
+    "canonical": "round2513-esplendidez-generosity",
+    "aliases": [
+      "esplendidez-generosity"
+    ]
   }
 ]

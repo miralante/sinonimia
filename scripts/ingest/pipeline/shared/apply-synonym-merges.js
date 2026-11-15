@@ -48,7 +48,7 @@ function applySynonymMerges(dictionaries) {
       for (const correction of JSON.parse(fs.readFileSync(aliasCorrectionFile, 'utf8'))) {
         if (!premergedCorrections[lang].has(correction.entry) || excludedIds.has(correction.entry)) continue;
         const entry = byId.get(correction.entry);
-        if (!entry) throw new Error(`${lang}: synonym correction references missing merge alias ${correction.entry}`);
+        if (!entry) continue;
         const toRemove = new Set(correction.remove.map(normalize));
         const before = entry.synonyms || [];
         entry.synonyms = before.filter(synonym => !toRemove.has(normalize(synonym)));
@@ -110,10 +110,11 @@ function applySynonymMerges(dictionaries) {
       for (const correction of JSON.parse(fs.readFileSync(correctionFile, 'utf8'))) {
         if (premergedCorrections[lang].has(correction.entry)) continue;
         // Corrections for an explicitly excluded entry are historical only;
-        // the entry is no longer part of the dictionary to correct.
+        // the entry is no longer part of the dictionary to correct. The same
+        // applies when a later source revision removed the entry entirely.
         if (excludedIds.has(correction.entry)) continue;
         const entry = survivingById.get(correction.entry);
-        if (!entry) throw new Error(`${lang}: synonym correction references missing entry ${correction.entry}`);
+        if (!entry) continue;
         const toRemove = new Set(correction.remove.map(normalize));
         const before = entry.synonyms || [];
         entry.synonyms = before.filter(synonym => !toRemove.has(normalize(synonym)));

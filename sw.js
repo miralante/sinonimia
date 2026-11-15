@@ -27,7 +27,7 @@
    ============================================================ */
 importScripts('./js/dictionary-data.js');
 
-var VERSION = 'sinonimia-v5191';
+var VERSION = 'sinonimia-v5288';
 
 var FILES = [
   './',
@@ -66,7 +66,7 @@ var DATA_CACHE = 'sinonimia-data';
 var IMG_CACHE = 'sinonimia-img';
 
 /* Cloudflare answers EVERY "/x.html" URL with a 307 to its extensionless form
-   (/index.html -> /, /404.html -> /404,
+   (/index.html -> /, /404.html -> /404, /offline.html -> /offline,
    /legal/index.html -> /legal/). Following that redirect yields
    a response with `redirected === true`, and the Cache API PRESERVES that flag
    across a store/load round trip, so cache.add() silently poisons the entry
@@ -343,168 +343,6 @@ self.addEventListener('message', function (event) {
     event.waitUntil(warmImages());
   }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

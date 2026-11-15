@@ -12,7 +12,7 @@
 <link rel="apple-touch-icon" href="../img/logo.svg?v=sinonimia-v7591a68c">
 <meta name="theme-color" content="#0a5c78">
 <meta name="application-name" content="Sinonimia">
-<link rel="stylesheet" href="../css/styles.css?v=sinonimia-v4a">
+<link rel="stylesheet" href="../css/styles.css?v=sinonimia-v5a">
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="../css/locale-picker.css?v=sinonimia-v6aa">
 
@@ -20,12 +20,12 @@
 <body class="page-about">
 
 <div class="container about">
-  <div data-suite-header data-suite-logo="../img/logo.svg?v=sinonimia-v7591a68c" data-suite-byline data-suite-name="Sinonimia"></div>
+  <div data-suite-header data-suite-logo="../img/logo.svg?v=sinonimia-v7591a68c" data-suite-name="Sinonimia" data-suite-byline></div>
   <div class="suite-chrome-activity" data-suite-activity>
-    <a href="../" class="back-link" data-lang-block="es">← Volver</a><a href="../" class="back-link" data-lang-block="en">← Back</a>
+    <a href="../" class="back-link"><span data-lang-block="es">← Volver</span><span data-lang-block="en">← Back</span></a>
     <h1><span data-lang-block="es">Sobre la app</span><span data-lang-block="en">About the app</span></h1>
   </div>
-  <div class="about-intro">
+  <div class="header-about">
     <p class="aviso-ruta" data-lang-block="es">Esta página no está enlazada desde la web de Sinonimia ni desde su README. Solo se llega escribiendo esta dirección directamente.</p>
     <p class="aviso-ruta" data-lang-block="en">This page isn't linked from Sinonimia's site or its README. It's only reached by typing this address directly.</p>
 
@@ -46,12 +46,16 @@
       <a href="#tecnologia" data-lang-block="en">How it is built</a>
       <a href="#especifico" data-lang-block="es">Esta aplicación</a>
       <a href="#especifico" data-lang-block="en">This app</a>
+      <a href="#hermanos" data-lang-block="es">Las siete apps</a>
+      <a href="#hermanos" data-lang-block="en">The seven apps</a>
+      <a href="#autoria" data-lang-block="es">Quiénes la hacen</a>
+      <a href="#autoria" data-lang-block="en">Who makes it</a>
       <a href="#colaborar" data-lang-block="es">Cómo ayudar</a>
       <a href="#colaborar" data-lang-block="en">How to help</a>
     </nav>
-  </div>
+    </div>
 
-  <main class="suite-body stack">
+  <main class="stack">
 
     <section id="origen" class="card">
         <h2  data-lang-block="es">El origen</h2><h2  data-lang-block="en">The origin</h2>
@@ -173,7 +177,73 @@
 
     </section>
 
+    <section id="hermanos" class="card">
+        <h2  data-lang-block="es">Las siete apps de la suite</h2><h2  data-lang-block="en">The seven apps of the suite</h2>
+        <p  data-lang-block="es">Apptonomia es el portal de entrada a siete aplicaciones independientes, cada una con su propio dominio y su propio ritmo de desarrollo. Todas comparten la misma filosofía de accesibilidad y respeto a la privacidad.</p><p  data-lang-block="en">Apptonomia is the gateway to seven independent applications, each with its own domain and its own development pace. They all share the same accessibility-first philosophy and the same respect for privacy.</p>
+        <div class="siblings-grid">
+          <a class="sibling" href="https://calculia.miralante.workers.dev" target="_blank" rel="noopener noreferrer">
+            <span class="picto" aria-hidden="true">🔢</span>
+            <span class="sibling-texto">
+              <span class="nombre"  data-lang-block="es">Calculia</span><span class="nombre"  data-lang-block="en">Calculia</span>
+              <span class="detalle"  data-lang-block="es">Cálculo y razonamiento lógico para el día a día.</span><span class="detalle"  data-lang-block="en">Math and logical reasoning for everyday life.</span>
+            </span>
+            <span class="flecha-externa" aria-hidden="true">⇗</span>
+            <span class="sr-only"  data-lang-block="es">Se abre en una pestaña nueva.</span><span class="sr-only"  data-lang-block="en">Opens in a new tab.</span>
+          </a>
+          <a class="sibling" href="https://memofun.miralante.workers.dev" target="_blank" rel="noopener noreferrer">
+            <span class="picto" aria-hidden="true">🧠</span>
+            <span class="sibling-texto">
+              <span class="nombre"  data-lang-block="es">Memofun</span><span class="nombre"  data-lang-block="en">Memofun</span>
+              <span class="detalle"  data-lang-block="es">Memoria y atención.</span><span class="detalle"  data-lang-block="en">Memory and attention.</span>
+            </span>
+            <span class="flecha-externa" aria-hidden="true">⇗</span>
+            <span class="sr-only"  data-lang-block="es">Se abre en una pestaña nueva.</span><span class="sr-only"  data-lang-block="en">Opens in a new tab.</span>
+          </a>
+          <a class="sibling" href="https://okeymoney.miralante.workers.dev" target="_blank" rel="noopener noreferrer">
+            <span class="picto" aria-hidden="true">💶</span>
+            <span class="sibling-texto">
+              <span class="nombre"  data-lang-block="es">Okeymoney</span><span class="nombre"  data-lang-block="en">Okeymoney</span>
+              <span class="detalle"  data-lang-block="es">Finanzas personales y autonomía cotidiana.</span><span class="detalle"  data-lang-block="en">Personal finance and everyday autonomy.</span>
+            </span>
+            <span class="flecha-externa" aria-hidden="true">⇗</span>
+            <span class="sr-only"  data-lang-block="es">Se abre en una pestaña nueva.</span><span class="sr-only"  data-lang-block="en">Opens in a new tab.</span>
+          </a>
+          <a class="sibling" href="https://routime.miralante.workers.dev" target="_blank" rel="noopener noreferrer">
+            <span class="picto" aria-hidden="true">🌿</span>
+            <span class="sibling-texto">
+              <span class="nombre"  data-lang-block="es">Routime</span><span class="nombre"  data-lang-block="en">Routime</span>
+              <span class="detalle"  data-lang-block="es">Rutinas y autonomía del día a día.</span><span class="detalle"  data-lang-block="en">Daily routines and autonomy.</span>
+            </span>
+            <span class="flecha-externa" aria-hidden="true">⇗</span>
+            <span class="sr-only"  data-lang-block="es">Se abre en una pestaña nueva.</span><span class="sr-only"  data-lang-block="en">Opens in a new tab.</span>
+          </a>
+          <a class="sibling" href="https://teclatlon.miralante.workers.dev" target="_blank" rel="noopener noreferrer">
+            <span class="picto" aria-hidden="true">⌨️</span>
+            <span class="sibling-texto">
+              <span class="nombre"  data-lang-block="es">Teclatlon</span><span class="nombre"  data-lang-block="en">Teclatlon</span>
+              <span class="detalle"  data-lang-block="es">Mecanografía con el teclado físico.</span><span class="detalle"  data-lang-block="en">Touch-typing with a physical keyboard.</span>
+              </span>
+            <span class="flecha-externa" aria-hidden="true">⇗</span>
+            <span class="sr-only"  data-lang-block="es">Se abre en una pestaña nueva.</span><span class="sr-only"  data-lang-block="en">Opens in a new tab.</span>
+          </a>
+            <a class="sibling" href="https://ludia.apptonomia.uk/" target="_blank" rel="noopener noreferrer">
+              <span class="picto" aria-hidden="true">♟</span>
+              <span class="sibling-texto">
+                <span class="nombre"  data-lang-block="es">Ludia</span><span class="nombre"  data-lang-block="en">Ludia</span>
+                <span class="detalle"  data-lang-block="es">Juegos adaptados: reglas, ejercicios y partidas a tu ritmo.</span><span class="detalle"  data-lang-block="en">Adapted games: rules, exercises and play at your own pace.</span>
+              </span>
+              <span class="flecha-externa" aria-hidden="true">⇗</span>
+              <span class="sr-only"  data-lang-block="es">Se abre en una pestaña nueva.</span><span class="sr-only"  data-lang-block="en">Opens in a new tab.</span>
+            </a>
+        </div>
+      </section>
 
+    <section id="autoria" class="card">
+        <h2  data-lang-block="es">Quiénes la hacen</h2><h2  data-lang-block="en">Who makes it</h2>
+        <p><span  data-lang-block="es">Apptonomia y sus siete aplicaciones, entre ellas Sinonimia, son una iniciativa de </span><span  data-lang-block="en">Apptonomia and its seven applications, Sinonimia among them, are an initiative by </span><strong>The Naked Frame</strong><span  data-lang-block="es">, un estudio independiente que trabaja en proyectos abiertos con impacto social y educativo.</span><span  data-lang-block="en">, an independent studio working on open projects with social and educational impact.</span></p>
+        <p  data-lang-block="es">Las aplicaciones se construyen con la participación de personas tipo, familias, profesionales de apoyo y profesorado, que prueban cada cambio y revisan el contenido antes de que llegue a producción.</p><p  data-lang-block="en">The applications are built with the involvement of the people who use them, families, support professionals and teachers, who test every change and review the content before it reaches production.</p>
+        <p  data-lang-block="es">El código, el texto y las decisiones se publican en abierto para que cualquier persona o equipo pueda auditarlos, aprender de ellos y adaptarlos a otros contextos.</p><p  data-lang-block="en">The code, the text and the decisions are published openly so anyone or any team can audit them, learn from them, and adapt them to other contexts.</p>
+      </section>
 
     <section id="colaborar" class="card">
         <h2  data-lang-block="es">Cómo ayudar</h2><h2  data-lang-block="en">How to help</h2>
@@ -193,12 +263,11 @@
   </main>
 
   <footer class="pie-about">
-    <p class="volver-portada"><a href="../" data-lang-block="es">← Volver</a><a href="../" data-lang-block="en">← Back</a></p>
-    <div data-suite-footer data-suite-base="../" data-suite-portal="https://apptonomia.uk/" data-suite-settings></div>
     <a class="btn" href="../" data-lang-block="es">Ir al diccionario</a>
     <a class="btn" href="../" data-lang-block="en">Go to the dictionary</a>
     <a class="btn" href="#tecnologia" data-lang-block="es">Código abierto</a>
     <a class="btn" href="#tecnologia" data-lang-block="en">Open source</a>
+    <div data-suite-footer data-suite-base="../" data-suite-settings></div>
   </footer>
 </div>
 <p class="pie-nota" data-lang-block="es">Sinonimia — sobre la app.</p>
@@ -209,7 +278,7 @@
 <!-- Controles compartidos con la pantalla principal: el desplegable de idioma
      y el ⚙️ de la cabecera, con su cajón de accesibilidad. Mismo ?v= que la
      portada, para que las dos páginas compartan la copia en caché. -->
-<script src="../js/suite-chrome.js?v=sinonimia-v1" defer></script>
+<script src="../js/suite-chrome.js?v=sinonimia-v2" defer></script>
 <script src="../js/locale-picker-config.js?v=1ab"></script>
 <script src="../js/locale-picker.js?v=sinonimia-v6aaa" defer></script>
 </body>

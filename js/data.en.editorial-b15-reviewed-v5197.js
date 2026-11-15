@@ -5537,3 +5537,4 @@
 
 // Follow-up: reciprocal links for the latest reviewed exact-sense candidates.
 (()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");const pairs=[["thinkable","conceivable"],["ruse","round3520-artifice-deception"],["depress","sadden"],["scrutator","scrutinizer"]];for(const[a,b]of pairs){const x=d.find(e=>e.id===a),y=d.find(e=>e.id===b);if(!x||!y)throw Error("missing reciprocal pair "+a+" / "+b);for(const[r,t]of[[x,y],[y,x]]){r.synonyms=r.synonyms||[];const v=String(t.word).toLocaleLowerCase("en");if(!r.synonyms.some(s=>String(s).toLocaleLowerCase("en")===v))r.synonyms.push(v);}}})();
+

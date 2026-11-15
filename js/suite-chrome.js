@@ -7,6 +7,9 @@
    USAGE (in the page, inside <body>):
 
      <div data-suite-header data-suite-logo="assets/img/icono.svg" data-suite-byline></div>
+     <div class="progress-bar" data-suite-progress>             (optional: moved under the header)
+       <div class="progress-fill" id="..."></div>
+     </div>
      <div class="suite-chrome-activity" data-suite-activity>   (optional, subpages)
        <a class="back-link" href="../">← Volver</a>   (href: the parent level, used
                                                         when the reader did not come from
@@ -233,6 +236,45 @@
     mount.appendChild(list);
   }
 
+  /* A page's progress bar ([data-suite-progress]) is a component of its own: it is
+     moved to the top of the page body (its <main>), right under the header. Inside
+     the body it keeps the body's width and gutters, the same width as the content
+     below it. A page with no <main> gets it right after the header. It keeps the
+     visibility of the screen it sat in (the nearest <section>): hidden with that
+     screen, shown with it. The node is moved, not copied, so the app keeps its ids
+     and its own updates. */
+  function followScreen(bar, screen) {
+    function sync() { bar.classList.toggle('hidden', screen.classList.contains('hidden')); }
+    sync();
+    if (window.MutationObserver) {
+      new MutationObserver(sync).observe(screen, { attributes: true, attributeFilter: ['class'] });
+    }
+  }
+
+  function placeProgress() {
+    var header = document.querySelector('[data-suite-header]');
+    if (!header || !header.parentNode) return;
+    var bars = document.querySelectorAll('[data-suite-progress]');
+    for (var i = 0; i < bars.length; i++) {
+      var bar = bars[i];
+      if (bar.getAttribute('data-suite-placed') !== null) continue;
+      var screen = bar.parentNode;
+      while (screen && screen.nodeName !== 'SECTION') screen = screen.parentNode;
+      var body = bar.parentNode;
+      while (body && body.nodeName !== 'MAIN') body = body.parentNode;
+      bar.setAttribute('data-suite-placed', '');
+      /* The bar goes into its own row, the progress component: the row sits right under
+         the header and takes the body's width. A page with no <main> gets a row that
+         takes the body's own width, so the bar still lines up with the content. */
+      var row = document.createElement('div');
+      row.className = 'suite-chrome-progress' + (body ? '' : ' suite-body');
+      row.appendChild(bar);
+      if (body) body.insertBefore(row, body.firstChild);
+      else header.parentNode.insertBefore(row, header.nextSibling);
+      if (screen) followScreen(row, screen);
+    }
+  }
+
   /* Fills every empty [data-suite-header] and [data-suite-footer] mount. */
   function render() {
     var headers = document.querySelectorAll('[data-suite-header]');
@@ -248,6 +290,7 @@
       renderFooter(footers[f]);
     }
     bindBackLinks();
+    placeProgress();
   }
 
   window.App.chrome = { render: render };

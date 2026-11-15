@@ -1,19 +1,9 @@
 [
   {
-    "canonical": "aaronic",
+    "canonical": "abnormal",
     "aliases": [
-      "aaronic-2"
+      "anomalous"
     ]
-  },
-  {
-    "canonical": "aaronite",
-    "aliases": [
-      "aaronite-2"
-    ]
-  },
-  {
-    "canonical": "acatalectic",
-    "alias": "acatalect"
   },
   {
     "canonical": "accuse",
@@ -24,34 +14,21 @@
     ]
   },
   {
-    "canonical": "acetin",
-    "aliases": [
-      "acetin-2",
-      "acetin-4"
-    ]
-  },
-  {
-    "canonical": "aclocate",
-    "aliases": [
-      "aclocate-2"
-    ]
-  },
-  {
     "canonical": "action-protocol",
     "aliases": [
       "action-protocol-2"
     ]
   },
   {
-    "canonical": "actions",
+    "canonical": "adaptive",
     "aliases": [
-      "actions-2"
+      "adaptative"
     ]
   },
   {
-    "canonical": "adjusted",
+    "canonical": "adjust",
     "aliases": [
-      "adjusted-2"
+      "adjust-3"
     ]
   },
   {
@@ -61,51 +38,15 @@
     ]
   },
   {
-    "canonical": "adoptionism",
+    "canonical": "aging",
     "aliases": [
-      "adoptionism-2"
-    ]
-  },
-  {
-    "canonical": "adutaque",
-    "aliases": [
-      "adutaque-2"
-    ]
-  },
-  {
-    "canonical": "advanced-electronic-signature",
-    "aliases": [
-      "advanced-electronic-signature-2"
-    ]
-  },
-  {
-    "canonical": "alawite",
-    "aliases": [
-      "alawite-2"
-    ]
-  },
-  {
-    "canonical": "alb",
-    "aliases": [
-      "alb-2"
+      "aging-4"
     ]
   },
   {
     "canonical": "alfajor",
     "aliases": [
       "alfajor-2"
-    ]
-  },
-  {
-    "canonical": "alfalfa",
-    "aliases": [
-      "alfalfa-2"
-    ]
-  },
-  {
-    "canonical": "algaeador",
-    "aliases": [
-      "algaeador-2"
     ]
   },
   {
@@ -122,12 +63,6 @@
     ]
   },
   {
-    "canonical": "aljama",
-    "aliases": [
-      "aljama-2"
-    ]
-  },
-  {
     "canonical": "allegorize",
     "aliases": [
       "allegorize-2"
@@ -140,33 +75,9 @@
     ]
   },
   {
-    "canonical": "almajar",
-    "aliases": [
-      "almajar-2"
-    ]
-  },
-  {
     "canonical": "almandine",
     "aliases": [
       "almandine-2"
-    ]
-  },
-  {
-    "canonical": "almond-tree",
-    "aliases": [
-      "almond-tree-2"
-    ]
-  },
-  {
-    "canonical": "alpine-poplar",
-    "aliases": [
-      "alpine-poplar-2"
-    ]
-  },
-  {
-    "canonical": "amatory",
-    "aliases": [
-      "amatory-2"
     ]
   },
   {
@@ -182,16 +93,6 @@
     ]
   },
   {
-    "canonical": "amphisbaena",
-    "alias": "amphesibena"
-  },
-  {
-    "canonical": "aniseal",
-    "aliases": [
-      "aniseal-2"
-    ]
-  },
-  {
     "canonical": "annotate",
     "aliases": [
       "annotate-2"
@@ -204,21 +105,15 @@
     ]
   },
   {
-    "canonical": "anteday",
-    "aliases": [
-      "anteday-2"
-    ]
-  },
-  {
-    "canonical": "anthologist",
-    "aliases": [
-      "anthologist-2"
-    ]
-  },
-  {
     "canonical": "anti-panic-door",
     "aliases": [
       "anti-panic-door-2"
+    ]
+  },
+  {
+    "canonical": "anti-semitic",
+    "aliases": [
+      "anti-semitic-2"
     ]
   },
   {
@@ -228,14 +123,59 @@
     ]
   },
   {
+    "canonical": "antithetic",
+    "aliases": [
+      "antithetical"
+    ]
+  },
+  {
+    "canonical": "antivirus",
+    "aliases": [
+      "antivirus-2"
+    ]
+  },
+  {
     "canonical": "antsy",
     "aliases": [
       "antsy-2"
     ]
   },
   {
-    "canonical": "apprehensive-2",
-    "alias": "fearful-4"
+    "canonical": "anxiety-en",
+    "aliases": [
+      "anxiety",
+      "anxiety-2"
+    ]
+  },
+  {
+    "canonical": "anxiolytic",
+    "aliases": [
+      "anxiolytic-2"
+    ]
+  },
+  {
+    "canonical": "apathetic",
+    "aliases": [
+      "apathetic-2"
+    ]
+  },
+  {
+    "canonical": "ape",
+    "aliases": [
+      "ape-2"
+    ]
+  },
+  {
+    "canonical": "aphasia",
+    "aliases": [
+      "aphasia-2"
+    ]
+  },
+  {
+    "canonical": "apoliticism",
+    "aliases": [
+      "apoliticality"
+    ]
   },
   {
     "canonical": "approving",
@@ -244,9 +184,21 @@
     ]
   },
   {
+    "canonical": "archaeology",
+    "aliases": [
+      "archeology"
+    ]
+  },
+  {
     "canonical": "archdeacon",
     "aliases": [
       "archdeacon-2"
+    ]
+  },
+  {
+    "canonical": "archive",
+    "aliases": [
+      "round3503-archive-verb"
     ]
   },
   {
@@ -257,7 +209,15 @@
   },
   {
     "canonical": "astronomical",
-    "alias": "astronomic"
+    "aliases": [
+      "astronomic"
+    ]
+  },
+  {
+    "canonical": "attach-7",
+    "aliases": [
+      "hitch-4"
+    ]
   },
   {
     "canonical": "attached-file",
@@ -266,10 +226,9 @@
     ]
   },
   {
-    "canonical": "automobile-racing",
+    "canonical": "attacker",
     "aliases": [
-      "auto-racing",
-      "car-racing"
+      "attacker-2"
     ]
   },
   {
@@ -279,9 +238,9 @@
     ]
   },
   {
-    "canonical": "banana-tree",
+    "canonical": "balustrade",
     "aliases": [
-      "banana-tree-2"
+      "balustrade-3"
     ]
   },
   {
@@ -291,51 +250,27 @@
     ]
   },
   {
-    "canonical": "basque-speaker",
+    "canonical": "bar",
     "aliases": [
-      "basque-speaker-2"
+      "bar-3"
     ]
   },
   {
-    "canonical": "beacian",
+    "canonical": "beggar-3",
     "aliases": [
-      "beacian-2"
+      "beggar-4"
     ]
   },
   {
-    "canonical": "becquerian",
+    "canonical": "bequest",
     "aliases": [
-      "becquerian-2"
+      "legacy-2"
     ]
   },
   {
-    "canonical": "below",
+    "canonical": "borage-2",
     "aliases": [
-      "below-2"
-    ]
-  },
-  {
-    "canonical": "bicycle-helmet",
-    "aliases": [
-      "bicycle-helmet-2"
-    ]
-  },
-  {
-    "canonical": "big-mouth",
-    "aliases": [
-      "big-mouth-2"
-    ]
-  },
-  {
-    "canonical": "bike-lane",
-    "aliases": [
-      "bike-lane-2"
-    ]
-  },
-  {
-    "canonical": "blasting",
-    "aliases": [
-      "blasting-2"
+      "borage-related"
     ]
   },
   {
@@ -345,9 +280,23 @@
     ]
   },
   {
-    "canonical": "browser",
+    "canonical": "brass",
     "aliases": [
-      "browser-2"
+      "brass-3"
+    ]
+  },
+  {
+    "canonical": "bravado",
+    "aliases": [
+      "bravado-2",
+      "bravado-3"
+    ]
+  },
+  {
+    "canonical": "brief",
+    "aliases": [
+      "ephemeral",
+      "transient"
     ]
   },
   {
@@ -357,30 +306,10 @@
     ]
   },
   {
-    "canonical": "building-license",
-    "aliases": [
-      "building-license-2"
-    ]
-  },
-  {
-    "canonical": "bush",
-    "alias": "shrub"
-  },
-  {
-    "canonical": "butter-dish",
-    "aliases": [
-      "butter-dish-2"
-    ]
-  },
-  {
-    "canonical": "camera",
-    "aliases": [
-      "camera-2"
-    ]
-  },
-  {
     "canonical": "candle-snuffer",
-    "alias": "candle-slayer"
+    "aliases": [
+      "candle-slayer"
+    ]
   },
   {
     "canonical": "capital-gains",
@@ -389,55 +318,27 @@
     ]
   },
   {
-    "canonical": "carolingian",
-    "alias": "carlovingian"
-  },
-  {
-    "canonical": "caste",
+    "canonical": "captivate",
     "aliases": [
-      "caste-2"
+      "captivate-2"
     ]
   },
   {
-    "canonical": "causer",
+    "canonical": "caring-2",
     "aliases": [
-      "causer-2"
+      "caring-3"
     ]
   },
   {
-    "canonical": "causidic",
+    "canonical": "centimetre",
     "aliases": [
-      "causidic-2"
-    ]
-  },
-  {
-    "canonical": "cayapa",
-    "aliases": [
-      "cayapa-2"
-    ]
-  },
-  {
-    "canonical": "cemetery",
-    "aliases": [
-      "cemetery-2"
-    ]
-  },
-  {
-    "canonical": "certificate-of-last-wills",
-    "aliases": [
-      "certificate-of-last-wills-2"
+      "centimeter"
     ]
   },
   {
     "canonical": "certificate-of-studies",
     "aliases": [
       "certificate-of-studies-2"
-    ]
-  },
-  {
-    "canonical": "certified-letter",
-    "aliases": [
-      "certified-letter-2"
     ]
   },
   {
@@ -455,6 +356,24 @@
     ]
   },
   {
+    "canonical": "chili-pepper-3",
+    "aliases": [
+      "chili-pepper-hot-fruit"
+    ]
+  },
+  {
+    "canonical": "chill-3",
+    "aliases": [
+      "chill-5"
+    ]
+  },
+  {
+    "canonical": "chilli",
+    "aliases": [
+      "chili"
+    ]
+  },
+  {
     "canonical": "chlorite",
     "aliases": [
       "chlorite-2"
@@ -464,12 +383,6 @@
     "canonical": "chorizo",
     "aliases": [
       "chorizo-2"
-    ]
-  },
-  {
-    "canonical": "christianize",
-    "aliases": [
-      "christianize-2"
     ]
   },
   {
@@ -491,9 +404,9 @@
     ]
   },
   {
-    "canonical": "clarified",
+    "canonical": "clamp",
     "aliases": [
-      "clarified-2"
+      "clamp-2"
     ]
   },
   {
@@ -503,51 +416,21 @@
     ]
   },
   {
-    "canonical": "co-owner",
-    "aliases": [
-      "co-owner-2"
-    ]
-  },
-  {
-    "canonical": "cobrated",
-    "aliases": [
-      "cobrated-2"
-    ]
-  },
-  {
     "canonical": "coeducate",
     "aliases": [
       "coeducate-2"
     ]
   },
   {
-    "canonical": "collection-of-signatures",
+    "canonical": "collate-arrange-pages-or-sheets-in-order",
     "aliases": [
-      "collection-of-signatures-2"
+      "Collate-arrange-pages-in-order"
     ]
   },
   {
-    "canonical": "collection-point",
+    "canonical": "commendable",
     "aliases": [
-      "collection-point-2"
-    ]
-  },
-  {
-    "canonical": "combined",
-    "aliases": [
-      "combined-2"
-    ]
-  },
-  {
-    "canonical": "coming-of-age",
-    "aliases": [
-      "coming-of-age-2"
-    ]
-  },
-  {
-    "canonical": "commercial-contract",
-    "aliases": [
-      "commercial-contract-2"
+      "commendable-3"
     ]
   },
   {
@@ -557,27 +440,9 @@
     ]
   },
   {
-    "canonical": "community-president",
-    "aliases": [
-      "community-president-2"
-    ]
-  },
-  {
     "canonical": "community-property",
     "aliases": [
       "community-property-2"
-    ]
-  },
-  {
-    "canonical": "community-statutes",
-    "aliases": [
-      "community-statutes-2"
-    ]
-  },
-  {
-    "canonical": "compactness",
-    "aliases": [
-      "compactness-2"
     ]
   },
   {
@@ -587,9 +452,10 @@
     ]
   },
   {
-    "canonical": "compensatory-pension",
+    "canonical": "compel-2",
     "aliases": [
-      "compensatory-pension-2"
+      "compel-3",
+      "compel-4"
     ]
   },
   {
@@ -599,15 +465,15 @@
     ]
   },
   {
-    "canonical": "comprehensive",
+    "canonical": "computer-2",
     "aliases": [
-      "comprehensive-2"
+      "computer-3"
     ]
   },
   {
-    "canonical": "confinement",
+    "canonical": "conceivable",
     "aliases": [
-      "confinement-2"
+      "conceivable-3"
     ]
   },
   {
@@ -623,40 +489,28 @@
     ]
   },
   {
-    "canonical": "consulting",
-    "aliases": [
-      "consulting-2"
-    ]
-  },
-  {
     "canonical": "contentious",
     "aliases": [
       "contentious-2"
     ]
   },
   {
-    "canonical": "continuous-day",
-    "aliases": [
-      "continuous-day-2"
-    ]
-  },
-  {
-    "canonical": "contribution-basis",
-    "aliases": [
-      "contribution-basis-2"
-    ]
-  },
-  {
     "canonical": "coquetry",
-    "alias": "flirt-3"
+    "aliases": [
+      "flirt-3"
+    ]
   },
   {
     "canonical": "cosmogonic",
-    "alias": "cosmogonical"
+    "aliases": [
+      "cosmogonical"
+    ]
   },
   {
     "canonical": "cosmographic",
-    "alias": "cosmographical"
+    "aliases": [
+      "cosmographical"
+    ]
   },
   {
     "canonical": "countertenor",
@@ -671,9 +525,9 @@
     ]
   },
   {
-    "canonical": "create-mess-or-tangles",
+    "canonical": "cowbell",
     "aliases": [
-      "create-mess-or-tangles-2"
+      "cowbell-2"
     ]
   },
   {
@@ -689,18 +543,15 @@
     ]
   },
   {
-    "canonical": "cruet",
+    "canonical": "crookedness-2",
     "aliases": [
-      "cruet-2"
+      "crookedness-dishonesty"
     ]
   },
   {
-    "canonical": "cuba-and-come",
+    "canonical": "cruet",
     "aliases": [
-      "cuba-and-come-2",
-      "cuba-and-come-3",
-      "cuba-and-come-4",
-      "cuba-and-come-5"
+      "cruet-2"
     ]
   },
   {
@@ -713,6 +564,12 @@
     "canonical": "cycad",
     "aliases": [
       "cycad-2"
+    ]
+  },
+  {
+    "canonical": "daguerreotype-3",
+    "aliases": [
+      "daguerreotype-4"
     ]
   },
   {
@@ -740,21 +597,9 @@
     ]
   },
   {
-    "canonical": "debt-reunification",
-    "aliases": [
-      "debt-reunification-2"
-    ]
-  },
-  {
     "canonical": "deductive",
     "aliases": [
       "deductive-2"
-    ]
-  },
-  {
-    "canonical": "default-interest",
-    "aliases": [
-      "default-interest-2"
     ]
   },
   {
@@ -770,6 +615,12 @@
     ]
   },
   {
+    "canonical": "delimit",
+    "aliases": [
+      "demarcate"
+    ]
+  },
+  {
     "canonical": "delivery-man",
     "aliases": [
       "delivery-man-2"
@@ -782,20 +633,16 @@
     ]
   },
   {
-    "canonical": "dendroid",
-    "aliases": [
-      "dendroid-2"
-    ]
-  },
-  {
-    "canonical": "description-of-the-procedure",
-    "aliases": [
-      "description-of-the-procedure-2"
-    ]
-  },
-  {
     "canonical": "diagram",
-    "alias": "sketch-6"
+    "aliases": [
+      "sketch-6"
+    ]
+  },
+  {
+    "canonical": "dialogic",
+    "aliases": [
+      "dialogical"
+    ]
   },
   {
     "canonical": "diet",
@@ -804,27 +651,21 @@
     ]
   },
   {
-    "canonical": "digital-payroll",
+    "canonical": "dietitian",
     "aliases": [
-      "digital-payroll-2"
+      "dietician"
     ]
   },
   {
-    "canonical": "disapplied",
+    "canonical": "dispatcher",
     "aliases": [
-      "disapplied-2"
+      "dispatcher-3"
     ]
   },
   {
-    "canonical": "diseducating",
+    "canonical": "drinkable",
     "aliases": [
-      "diseducating-2"
-    ]
-  },
-  {
-    "canonical": "driving-license",
-    "aliases": [
-      "driving-license-2"
+      "potable"
     ]
   },
   {
@@ -834,21 +675,9 @@
     ]
   },
   {
-    "canonical": "educator",
-    "aliases": [
-      "educator-2"
-    ]
-  },
-  {
     "canonical": "electrical-panel",
     "aliases": [
       "electrical-panel-2"
-    ]
-  },
-  {
-    "canonical": "electronic-headquarters",
-    "aliases": [
-      "electronic-headquarters-2"
     ]
   },
   {
@@ -858,31 +687,9 @@
     ]
   },
   {
-    "canonical": "emergencies",
+    "canonical": "endorse-5",
     "aliases": [
-      "emergencies-2"
-    ]
-  },
-  {
-    "canonical": "emergency-triangle",
-    "aliases": [
-      "emergency-triangle-2"
-    ]
-  },
-  {
-    "canonical": "energy-certificate",
-    "aliases": [
-      "energy-certificate-2"
-    ]
-  },
-  {
-    "canonical": "enfervor",
-    "alias": "enfervorize"
-  },
-  {
-    "canonical": "escalators",
-    "aliases": [
-      "escalators-2"
+      "endorse-6"
     ]
   },
   {
@@ -893,18 +700,14 @@
   },
   {
     "canonical": "eternalize",
-    "alias": "immortalize"
+    "aliases": [
+      "immortalize"
+    ]
   },
   {
     "canonical": "exam-invigilator",
     "aliases": [
       "exam-invigilator-2"
-    ]
-  },
-  {
-    "canonical": "excess-luggage",
-    "aliases": [
-      "excess-luggage-2"
     ]
   },
   {
@@ -914,16 +717,34 @@
     ]
   },
   {
-    "canonical": "ext",
+    "canonical": "executor-2",
     "aliases": [
-      "ext-2",
-      "ext-3"
+      "executor-4"
     ]
   },
   {
-    "canonical": "extension-of-the-rental-contract",
+    "canonical": "exonerate",
     "aliases": [
-      "extension-of-the-rental-contract-2"
+      "exonerate-2"
+    ]
+  },
+  {
+    "canonical": "exordium",
+    "aliases": [
+      "exorde",
+      "introduction-opening-section"
+    ]
+  },
+  {
+    "canonical": "expatriate",
+    "aliases": [
+      "expat"
+    ]
+  },
+  {
+    "canonical": "exposure-meter",
+    "aliases": [
+      "light-meter"
     ]
   },
   {
@@ -933,9 +754,45 @@
     ]
   },
   {
+    "canonical": "extortion",
+    "aliases": [
+      "extortion-2"
+    ]
+  },
+  {
+    "canonical": "extract",
+    "aliases": [
+      "extract-4"
+    ]
+  },
+  {
+    "canonical": "extracurricular-activities",
+    "aliases": [
+      "extracurricular-activities-2"
+    ]
+  },
+  {
     "canonical": "extradition",
     "aliases": [
       "extradition-2"
+    ]
+  },
+  {
+    "canonical": "extrovert",
+    "aliases": [
+      "extravert"
+    ]
+  },
+  {
+    "canonical": "eye-drops",
+    "aliases": [
+      "eyedrops"
+    ]
+  },
+  {
+    "canonical": "face-mask",
+    "aliases": [
+      "facemask"
     ]
   },
   {
@@ -945,40 +802,35 @@
     ]
   },
   {
-    "canonical": "family-book",
+    "canonical": "facsimile",
     "aliases": [
-      "family-book-2"
+      "facsimile-3"
     ]
   },
   {
-    "canonical": "family-foster-care",
+    "canonical": "factory-reset",
     "aliases": [
-      "family-foster-care-2"
+      "factory-reset-2"
     ]
   },
   {
-    "canonical": "farter",
+    "canonical": "faculty",
     "aliases": [
-      "farter-2"
+      "faculty-2"
     ]
   },
   {
-    "canonical": "fill-out",
+    "canonical": "falconry",
     "aliases": [
-      "fill-out-2",
-      "fill-2"
+      "falconry-2"
     ]
   },
   {
-    "canonical": "fire-sprinkler",
+    "canonical": "fire-extinguisher",
     "aliases": [
-      "fire-sprinkler-2"
-    ]
-  },
-  {
-    "canonical": "fixed-term",
-    "aliases": [
-      "fixed-term-2"
+      "extinguisher",
+      "fire-extinguisher-2",
+      "fire-extinguisher-3"
     ]
   },
   {
@@ -988,9 +840,33 @@
     ]
   },
   {
+    "canonical": "flattery",
+    "aliases": [
+      "flattery-12",
+      "flattery-3",
+      "flattery-4",
+      "flattery-5",
+      "flattery-6",
+      "flattery-8",
+      "flattery-9"
+    ]
+  },
+  {
     "canonical": "flea-market",
     "aliases": [
       "flea-market-2"
+    ]
+  },
+  {
+    "canonical": "flower-shop",
+    "aliases": [
+      "florist-2"
+    ]
+  },
+  {
+    "canonical": "foamy",
+    "aliases": [
+      "frothy"
     ]
   },
   {
@@ -1001,12 +877,27 @@
   },
   {
     "canonical": "francophobe",
-    "alias": "gallophobe"
+    "aliases": [
+      "gallophobe"
+    ]
+  },
+  {
+    "canonical": "fraudster",
+    "aliases": [
+      "fraudster-2",
+      "fraudster-3"
+    ]
   },
   {
     "canonical": "free-legal-assistance",
     "aliases": [
       "free-legal-assistance-2"
+    ]
+  },
+  {
+    "canonical": "freeloader",
+    "aliases": [
+      "freeloader-2"
     ]
   },
   {
@@ -1016,19 +907,21 @@
     ]
   },
   {
-    "canonical": "fusayola",
-    "aliases": [
-      "fusayola-2"
-    ]
-  },
-  {
-    "canonical": "gangrenous",
-    "alias": "gangrenic"
-  },
-  {
     "canonical": "garbage-container",
     "aliases": [
       "garbage-container-2"
+    ]
+  },
+  {
+    "canonical": "gastronomic",
+    "aliases": [
+      "gastronomical"
+    ]
+  },
+  {
+    "canonical": "gate-2",
+    "aliases": [
+      "gate-5"
     ]
   },
   {
@@ -1038,13 +931,15 @@
     ]
   },
   {
-    "canonical": "geogeny",
-    "alias": "geogony"
+    "canonical": "geographic",
+    "aliases": [
+      "geographical"
+    ]
   },
   {
-    "canonical": "giantess",
+    "canonical": "get-along",
     "aliases": [
-      "giantess-2"
+      "get-on"
     ]
   },
   {
@@ -1054,21 +949,21 @@
     ]
   },
   {
-    "canonical": "guard-and-custody",
+    "canonical": "griffin",
     "aliases": [
-      "guard-and-custody-2"
+      "griffon"
+    ]
+  },
+  {
+    "canonical": "guava-2",
+    "aliases": [
+      "guava-edible-fruit"
     ]
   },
   {
     "canonical": "gunboat",
     "aliases": [
       "gunboat-2"
-    ]
-  },
-  {
-    "canonical": "half-boarded",
-    "aliases": [
-      "half-boarded-2"
     ]
   },
   {
@@ -1079,11 +974,15 @@
   },
   {
     "canonical": "heat-stroke",
-    "alias": "heatstroke"
+    "aliases": [
+      "heatstroke"
+    ]
   },
   {
     "canonical": "hellespontic",
-    "alias": "hellespontiac"
+    "aliases": [
+      "hellespontiac"
+    ]
   },
   {
     "canonical": "helpline",
@@ -1166,6 +1065,12 @@
     ]
   },
   {
+    "canonical": "hexadecimal",
+    "aliases": [
+      "hexadecimal-2"
+    ]
+  },
+  {
     "canonical": "hibernal",
     "aliases": [
       "hibernal-2"
@@ -1176,20 +1081,6 @@
     "aliases": [
       "high-voltage-2"
     ]
-  },
-  {
-    "canonical": "hilarious",
-    "alias": "hilarious-2"
-  },
-  {
-    "canonical": "hillbilly",
-    "aliases": [
-      "hillbilly-2"
-    ]
-  },
-  {
-    "canonical": "historiographic",
-    "alias": "historiographical"
   },
   {
     "canonical": "hoarseness",
@@ -1260,12 +1151,6 @@
     ]
   },
   {
-    "canonical": "homemade",
-    "aliases": [
-      "homemade-3"
-    ]
-  },
-  {
     "canonical": "homicide",
     "aliases": [
       "homicide-2"
@@ -1286,48 +1171,22 @@
   {
     "canonical": "honor-2",
     "aliases": [
-      "honor-3"
-    ]
-  },
-  {
-    "canonical": "honor-2",
-    "aliases": [
+      "honor-3",
       "honor-5"
     ]
   },
   {
     "canonical": "honorable",
     "aliases": [
-      "honorable-2"
-    ]
-  },
-  {
-    "canonical": "honorable",
-    "aliases": [
-      "honorable-3"
-    ]
-  },
-  {
-    "canonical": "honorable",
-    "aliases": [
+      "honorable-2",
+      "honorable-3",
       "honorable-5"
     ]
   },
   {
-    "canonical": "hood",
-    "aliases": [
-      "hood-15"
-    ]
-  },
-  {
     "canonical": "hood-17",
     "aliases": [
-      "hood-12"
-    ]
-  },
-  {
-    "canonical": "hood-17",
-    "aliases": [
+      "hood-12",
       "hood-6"
     ]
   },
@@ -1338,51 +1197,16 @@
     ]
   },
   {
-    "canonical": "hood-5",
-    "aliases": [
-      "hood-8"
-    ]
-  },
-  {
     "canonical": "hooded",
     "aliases": [
-      "hooded-5"
-    ]
-  },
-  {
-    "canonical": "hooded",
-    "aliases": [
+      "hooded-5",
       "hooded-7"
-    ]
-  },
-  {
-    "canonical": "hook",
-    "aliases": [
-      "hook-3"
-    ]
-  },
-  {
-    "canonical": "hook",
-    "aliases": [
-      "hook-4"
     ]
   },
   {
     "canonical": "hookah",
     "aliases": [
       "hookah-2"
-    ]
-  },
-  {
-    "canonical": "hooligan",
-    "aliases": [
-      "hooligan-3"
-    ]
-  },
-  {
-    "canonical": "hooligan",
-    "aliases": [
-      "hooligan-4"
     ]
   },
   {
@@ -1410,18 +1234,6 @@
     ]
   },
   {
-    "canonical": "horn",
-    "aliases": [
-      "horn-6"
-    ]
-  },
-  {
-    "canonical": "hornet",
-    "aliases": [
-      "hornet-2"
-    ]
-  },
-  {
     "canonical": "horny",
     "aliases": [
       "horny-3"
@@ -1434,27 +1246,9 @@
     ]
   },
   {
-    "canonical": "horrible",
-    "aliases": [
-      "horrible-2"
-    ]
-  },
-  {
     "canonical": "horrify",
     "aliases": [
       "horrify-2"
-    ]
-  },
-  {
-    "canonical": "horrifying",
-    "aliases": [
-      "horrifying-2"
-    ]
-  },
-  {
-    "canonical": "horrifying",
-    "aliases": [
-      "horrifying-3"
     ]
   },
   {
@@ -1466,7 +1260,8 @@
   {
     "canonical": "horseback-riding",
     "aliases": [
-      "horseback-riding-4"
+      "horseback-riding-4",
+      "riding-2"
     ]
   },
   {
@@ -1488,50 +1283,16 @@
     ]
   },
   {
-    "canonical": "hose-verb",
-    "aliases": [
-      "hose-5"
-    ]
-  },
-  {
     "canonical": "hospitality-industry",
     "aliases": [
-      "hospitality-2"
-    ]
-  },
-  {
-    "canonical": "hospitality-industry",
-    "aliases": [
+      "hospitality-2",
       "hospitality-3"
     ]
   },
   {
-    "canonical": "host",
-    "aliases": [
-      "host-3"
-    ]
-  },
-  {
-    "canonical": "host",
-    "aliases": [
-      "host-7"
-    ]
-  },
-  {
-    "canonical": "host-eucharist",
-    "aliases": [
-      "host-2"
-    ]
-  },
-  {
     "canonical": "host-verb",
     "aliases": [
-      "host-4"
-    ]
-  },
-  {
-    "canonical": "host-verb",
-    "aliases": [
+      "host-4",
       "host-5"
     ]
   },
@@ -1542,32 +1303,16 @@
     ]
   },
   {
-    "canonical": "hostel",
+    "canonical": "house-3",
     "aliases": [
-      "hostel-2",
-      "hostel-5",
-      "hostel-8"
+      "house-4"
     ]
   },
   {
-    "canonical": "huemul",
+    "canonical": "hydrometer",
     "aliases": [
-      "huemul-2"
+      "hydrometer-2"
     ]
-  },
-  {
-    "canonical": "hut-2",
-    "alias": "shack-2"
-  },
-  {
-    "canonical": "hydrant",
-    "aliases": [
-      "hydrant-2"
-    ]
-  },
-  {
-    "canonical": "hylomorphism",
-    "alias": "hylemorphism"
   },
   {
     "canonical": "hypoglycemia",
@@ -1576,16 +1321,40 @@
     ]
   },
   {
-    "canonical": "id-card",
-    "alias": "id-card-2"
+    "canonical": "hypothyroidism",
+    "aliases": [
+      "hypothyroidism-2"
+    ]
+  },
+  {
+    "canonical": "icy",
+    "aliases": [
+      "glacial-2"
+    ]
   },
   {
     "canonical": "ideological",
-    "alias": "ideologic"
+    "aliases": [
+      "ideologic"
+    ]
   },
   {
     "canonical": "idiosyncratic",
-    "alias": "peculiar"
+    "aliases": [
+      "peculiar"
+    ]
+  },
+  {
+    "canonical": "idolatrous",
+    "aliases": [
+      "idolatrous-literal"
+    ]
+  },
+  {
+    "canonical": "idolize",
+    "aliases": [
+      "idolize-figurative"
+    ]
   },
   {
     "canonical": "ilk",
@@ -1594,12 +1363,46 @@
     ]
   },
   {
+    "canonical": "illegitimate",
+    "aliases": [
+      "illegitimate-2"
+    ]
+  },
+  {
+    "canonical": "illiterate",
+    "aliases": [
+      "illiterate-2"
+    ]
+  },
+  {
+    "canonical": "illiterate-field",
+    "aliases": [
+      "Illiterate-lacking-subject-knowledge"
+    ]
+  },
+  {
+    "canonical": "imbue",
+    "aliases": [
+      "infuse-quality"
+    ]
+  },
+  {
+    "canonical": "immensity",
+    "aliases": [
+      "vastness"
+    ]
+  },
+  {
     "canonical": "impostor",
-    "alias": "imposter"
+    "aliases": [
+      "imposter"
+    ]
   },
   {
     "canonical": "in-vitro-fertilization",
-    "alias": "in-vitro-fertilisation"
+    "aliases": [
+      "in-vitro-fertilisation"
+    ]
   },
   {
     "canonical": "income-tax-return",
@@ -1608,21 +1411,15 @@
     ]
   },
   {
-    "canonical": "income-update",
-    "aliases": [
-      "income-update-2"
-    ]
-  },
-  {
-    "canonical": "incomplex",
-    "aliases": [
-      "incomplex-2"
-    ]
-  },
-  {
     "canonical": "incomprehensibility",
     "aliases": [
       "incomprehensibility-2"
+    ]
+  },
+  {
+    "canonical": "incomprehensible",
+    "aliases": [
+      "impenetrable-figurative"
     ]
   },
   {
@@ -1634,12 +1431,478 @@
   },
   {
     "canonical": "indo-european",
-    "alias": "indo-germanic"
+    "aliases": [
+      "indo-germanic"
+    ]
+  },
+  {
+    "canonical": "indoctrinate",
+    "aliases": [
+      "indoctrinate-beliefs"
+    ]
+  },
+  {
+    "canonical": "ineptitude",
+    "aliases": [
+      "ineptitude-2"
+    ]
+  },
+  {
+    "canonical": "infamous-2",
+    "aliases": [
+      "infamous-4"
+    ]
+  },
+  {
+    "canonical": "infant",
+    "aliases": [
+      "infant-young-child"
+    ]
+  },
+  {
+    "canonical": "infanta",
+    "aliases": [
+      "infanta-royalty"
+    ]
+  },
+  {
+    "canonical": "infanticide",
+    "aliases": [
+      "infanticide-killing"
+    ]
+  },
+  {
+    "canonical": "infarct",
+    "aliases": [
+      "infarct-tissue"
+    ]
+  },
+  {
+    "canonical": "influence-power",
+    "aliases": [
+      "influence"
+    ]
+  },
+  {
+    "canonical": "infrasound",
+    "aliases": [
+      "infrasound-low-frequency"
+    ]
+  },
+  {
+    "canonical": "infrastructure",
+    "aliases": [
+      "infrastructure-basic"
+    ]
+  },
+  {
+    "canonical": "infrequent",
+    "aliases": [
+      "infrequent-rare"
+    ]
+  },
+  {
+    "canonical": "infuriating",
+    "aliases": [
+      "infuriating-angry"
+    ]
+  },
+  {
+    "canonical": "infused",
+    "aliases": [
+      "infused-filled"
+    ]
+  },
+  {
+    "canonical": "ingenious",
+    "aliases": [
+      "ingenious-clever"
+    ]
+  },
+  {
+    "canonical": "ingeniously",
+    "aliases": [
+      "ingeniously-skillfully"
+    ]
+  },
+  {
+    "canonical": "ingot",
+    "aliases": [
+      "ingot-metal"
+    ]
+  },
+  {
+    "canonical": "ingratitude",
+    "aliases": [
+      "ingratitude-ungrateful"
+    ]
+  },
+  {
+    "canonical": "inguinal",
+    "aliases": [
+      "inguinal-groin"
+    ]
+  },
+  {
+    "canonical": "inhabit",
+    "aliases": [
+      "inhabit-live"
+    ]
+  },
+  {
+    "canonical": "inhabitable",
+    "aliases": [
+      "inhabitable-fit"
+    ]
+  },
+  {
+    "canonical": "inhabitant",
+    "aliases": [
+      "inhabitant-resident"
+    ]
+  },
+  {
+    "canonical": "inhaler",
+    "aliases": [
+      "inhaler-device"
+    ]
+  },
+  {
+    "canonical": "inheritance-tax",
+    "aliases": [
+      "inheritance-tax-tax"
+    ]
+  },
+  {
+    "canonical": "inhospitality",
+    "aliases": [
+      "inhospitality-unwelcoming"
+    ]
+  },
+  {
+    "canonical": "inimitable",
+    "aliases": [
+      "inimitable-unique"
+    ]
+  },
+  {
+    "canonical": "iniquitous",
+    "aliases": [
+      "iniquitous-unjust"
+    ]
+  },
+  {
+    "canonical": "initialism",
+    "aliases": [
+      "initialism-abbreviation"
+    ]
   },
   {
     "canonical": "initiative",
     "aliases": [
       "initiative-2"
+    ]
+  },
+  {
+    "canonical": "injectable",
+    "aliases": [
+      "injectable-medicine"
+    ]
+  },
+  {
+    "canonical": "injunction",
+    "aliases": [
+      "injunction-court-order"
+    ]
+  },
+  {
+    "canonical": "injurious",
+    "aliases": [
+      "injurious-harmful"
+    ]
+  },
+  {
+    "canonical": "inkwell",
+    "aliases": [
+      "inkwell-container"
+    ]
+  },
+  {
+    "canonical": "inn",
+    "aliases": [
+      "inn-guesthouse"
+    ]
+  },
+  {
+    "canonical": "innate",
+    "aliases": [
+      "innate-inborn"
+    ]
+  },
+  {
+    "canonical": "innkeeper",
+    "aliases": [
+      "innkeeper-host"
+    ]
+  },
+  {
+    "canonical": "innocuous",
+    "aliases": [
+      "innocuous-harmless"
+    ]
+  },
+  {
+    "canonical": "innovate",
+    "aliases": [
+      "innovate-new-methods"
+    ]
+  },
+  {
+    "canonical": "innovator",
+    "aliases": [
+      "innovator-pioneer"
+    ]
+  },
+  {
+    "canonical": "innumerable",
+    "aliases": [
+      "innumerable-countless"
+    ]
+  },
+  {
+    "canonical": "innumeracy",
+    "aliases": [
+      "innumeracy-numbers"
+    ]
+  },
+  {
+    "canonical": "inopportune",
+    "aliases": [
+      "inopportune-bad-time"
+    ]
+  },
+  {
+    "canonical": "inopportunely",
+    "aliases": [
+      "inopportunely-bad-time"
+    ]
+  },
+  {
+    "canonical": "inpatient",
+    "aliases": [
+      "inpatient-hospital"
+    ]
+  },
+  {
+    "canonical": "inquirer",
+    "aliases": [
+      "inquirer-person"
+    ]
+  },
+  {
+    "canonical": "insatiability",
+    "aliases": [
+      "insatiability-want-more"
+    ]
+  },
+  {
+    "canonical": "insatiable",
+    "aliases": [
+      "insatiable-unsatisfied"
+    ]
+  },
+  {
+    "canonical": "inscrutable",
+    "aliases": [
+      "inscrutable-unreadable"
+    ]
+  },
+  {
+    "canonical": "insect",
+    "aliases": [
+      "insect-small-animal"
+    ]
+  },
+  {
+    "canonical": "insecticide",
+    "aliases": [
+      "insecticide-kill-insects"
+    ]
+  },
+  {
+    "canonical": "insectivore",
+    "aliases": [
+      "insectivore-insect-eater"
+    ]
+  },
+  {
+    "canonical": "insensitive",
+    "aliases": [
+      "insensitive-feelings"
+    ]
+  },
+  {
+    "canonical": "insensitivity",
+    "aliases": [
+      "insensitivity-feelings"
+    ]
+  },
+  {
+    "canonical": "inseparability",
+    "aliases": [
+      "inseparability-state"
+    ]
+  },
+  {
+    "canonical": "inseparable",
+    "aliases": [
+      "inseparable-things"
+    ]
+  },
+  {
+    "canonical": "inseparably",
+    "aliases": [
+      "inseparably-linked"
+    ]
+  },
+  {
+    "canonical": "insert",
+    "aliases": [
+      "insert-put-in"
+    ]
+  },
+  {
+    "canonical": "insert-3",
+    "aliases": [
+      "insert-4"
+    ]
+  },
+  {
+    "canonical": "insidious",
+    "aliases": [
+      "insidious-harmful"
+    ]
+  },
+  {
+    "canonical": "insidiously",
+    "aliases": [
+      "insidiously-gradually"
+    ]
+  },
+  {
+    "canonical": "insight",
+    "aliases": [
+      "insight-ability"
+    ]
+  },
+  {
+    "canonical": "insignificant",
+    "aliases": [
+      "insignificant-unimportant"
+    ]
+  },
+  {
+    "canonical": "insinuate",
+    "aliases": [
+      "insinuate-hint"
+    ]
+  },
+  {
+    "canonical": "insinuating",
+    "aliases": [
+      "insinuating-indirect"
+    ]
+  },
+  {
+    "canonical": "insipid",
+    "aliases": [
+      "insipid-flavor",
+      "tasteless"
+    ]
+  },
+  {
+    "canonical": "insist",
+    "aliases": [
+      "insist-state"
+    ]
+  },
+  {
+    "canonical": "insistent",
+    "aliases": [
+      "insistent-demand"
+    ]
+  },
+  {
+    "canonical": "insole",
+    "aliases": [
+      "insole-shoe"
+    ]
+  },
+  {
+    "canonical": "insolent",
+    "aliases": [
+      "insolent-rude"
+    ]
+  },
+  {
+    "canonical": "insolently",
+    "aliases": [
+      "insolently-rudely"
+    ]
+  },
+  {
+    "canonical": "insolubility",
+    "aliases": [
+      "insolubility-dissolve"
+    ]
+  },
+  {
+    "canonical": "insoluble",
+    "aliases": [
+      "insoluble-dissolve"
+    ]
+  },
+  {
+    "canonical": "insolvency",
+    "aliases": [
+      "insolvency-debts"
+    ]
+  },
+  {
+    "canonical": "insolvent",
+    "aliases": [
+      "insolvent-2",
+      "insolvent-unable-to-pay"
+    ]
+  },
+  {
+    "canonical": "insomnia",
+    "aliases": [
+      "insomnia-sleep"
+    ]
+  },
+  {
+    "canonical": "insomniac",
+    "aliases": [
+      "insomniac-person"
+    ]
+  },
+  {
+    "canonical": "inspector",
+    "aliases": [
+      "inspector-official"
+    ]
+  },
+  {
+    "canonical": "inspirational",
+    "aliases": [
+      "inspirational-encouraging"
+    ]
+  },
+  {
+    "canonical": "inspired",
+    "aliases": [
+      "inspired-creative"
     ]
   },
   {
@@ -1649,27 +1912,183 @@
     ]
   },
   {
+    "canonical": "instigate",
+    "aliases": [
+      "instigate-start"
+    ]
+  },
+  {
+    "canonical": "instigator",
+    "aliases": [
+      "instigator-person"
+    ]
+  },
+  {
+    "canonical": "instill",
+    "aliases": [
+      "instill-idea"
+    ]
+  },
+  {
+    "canonical": "instill-liquid",
+    "aliases": [
+      "instill-put-liquid-in-drops-1371"
+    ]
+  },
+  {
+    "canonical": "instinct",
+    "aliases": [
+      "instinct-natural"
+    ]
+  },
+  {
+    "canonical": "instinctive",
+    "aliases": [
+      "instinctive-automatic"
+    ]
+  },
+  {
+    "canonical": "institute",
+    "aliases": [
+      "institute-start"
+    ]
+  },
+  {
+    "canonical": "institutionalization",
+    "aliases": [
+      "institutionalization-placement"
+    ]
+  },
+  {
+    "canonical": "institutionalize",
+    "aliases": [
+      "institutionalize-placement"
+    ]
+  },
+  {
+    "canonical": "instruct",
+    "aliases": [
+      "instruct-teach"
+    ]
+  },
+  {
+    "canonical": "instructive",
+    "aliases": [
+      "instructive-informative"
+    ]
+  },
+  {
+    "canonical": "instructor",
+    "aliases": [
+      "instructor-teacher"
+    ]
+  },
+  {
+    "canonical": "instrument",
+    "aliases": [
+      "instrument-tool"
+    ]
+  },
+  {
+    "canonical": "instrumentalization",
+    "aliases": [
+      "instrumentalization-tool"
+    ]
+  },
+  {
+    "canonical": "instrumentalize",
+    "aliases": [
+      "instrumentalize-use"
+    ]
+  },
+  {
+    "canonical": "insubordinate",
+    "aliases": [
+      "insubordinate-disobedient"
+    ]
+  },
+  {
+    "canonical": "insubstantial",
+    "aliases": [
+      "insubstantial-flimsy"
+    ]
+  },
+  {
+    "canonical": "insubstantiality",
+    "aliases": [
+      "insubstantiality-flimsy"
+    ]
+  },
+  {
+    "canonical": "insufferable",
+    "aliases": [
+      "insufferable-endure"
+    ]
+  },
+  {
+    "canonical": "insufficient",
+    "aliases": [
+      "insufficient-not-enough"
+    ]
+  },
+  {
+    "canonical": "insular",
+    "aliases": [
+      "insular-island"
+    ]
+  },
+  {
+    "canonical": "insularity",
+    "aliases": [
+      "insularity-isolation"
+    ]
+  },
+  {
+    "canonical": "insulation",
+    "aliases": [
+      "insulation-material"
+    ]
+  },
+  {
+    "canonical": "insulator",
+    "aliases": [
+      "insulator-material"
+    ]
+  },
+  {
+    "canonical": "insulin",
+    "aliases": [
+      "insulin-hormone"
+    ]
+  },
+  {
+    "canonical": "insulin-dependent",
+    "aliases": [
+      "insulin-dependent-condition"
+    ]
+  },
+  {
+    "canonical": "insult",
+    "aliases": [
+      "insult-verb"
+    ]
+  },
+  {
     "canonical": "insurance-premium",
     "aliases": [
       "insurance-premium-2"
     ]
   },
   {
-    "canonical": "interested",
+    "canonical": "intensify",
     "aliases": [
-      "interested-2"
+      "intensify-3"
     ]
   },
   {
-    "canonical": "internships",
+    "canonical": "interlude",
     "aliases": [
-      "internships-2"
-    ]
-  },
-  {
-    "canonical": "interview-between-parents-and-teachers",
-    "aliases": [
-      "interview-between-parents-and-teachers-2"
+      "interlude-break"
     ]
   },
   {
@@ -1679,9 +2098,16 @@
     ]
   },
   {
-    "canonical": "irreducibility",
+    "canonical": "inventor",
     "aliases": [
-      "irreducibility-2"
+      "inventor-2"
+    ]
+  },
+  {
+    "canonical": "invigorate",
+    "aliases": [
+      "invigorate-2",
+      "invigorate-3"
     ]
   },
   {
@@ -1691,21 +2117,33 @@
     ]
   },
   {
+    "canonical": "jargon-2",
+    "aliases": [
+      "jargon-3"
+    ]
+  },
+  {
+    "canonical": "jingle-3",
+    "aliases": [
+      "jingle-ringing-noun"
+    ]
+  },
+  {
     "canonical": "job-position",
     "aliases": [
       "job-position-2"
     ]
   },
   {
-    "canonical": "joint-bank-account",
+    "canonical": "jocular",
     "aliases": [
-      "joint-bank-account-2"
+      "humorous-2"
     ]
   },
   {
-    "canonical": "juba",
+    "canonical": "joust",
     "aliases": [
-      "juba-2"
+      "joust-figurative-2340"
     ]
   },
   {
@@ -1715,21 +2153,27 @@
     ]
   },
   {
-    "canonical": "judicial-location",
+    "canonical": "juniper-2",
     "aliases": [
-      "judicial-location-2"
+      "editorial-juniper-berry-2345"
     ]
   },
   {
-    "canonical": "judicial-secretary",
+    "canonical": "killer",
     "aliases": [
-      "judicial-secretary-2"
+      "homicide-5"
     ]
   },
   {
-    "canonical": "kinesiologist",
+    "canonical": "kindergarten-2",
     "aliases": [
-      "kinesiologist-2"
+      "round2357-kindergarten-care"
+    ]
+  },
+  {
+    "canonical": "knee-pad",
+    "aliases": [
+      "knee-pad-2"
     ]
   },
   {
@@ -1739,39 +2183,54 @@
     ]
   },
   {
-    "canonical": "labrusca",
+    "canonical": "lacquer",
     "aliases": [
-      "labrusca-2"
+      "lacquer-3"
     ]
   },
   {
-    "canonical": "laconium",
+    "canonical": "lamb",
     "aliases": [
-      "laconium-2"
+      "lamb-4"
     ]
   },
   {
-    "canonical": "late-night",
+    "canonical": "lamb-meat",
     "aliases": [
-      "late-night-2"
+      "Lamb-meat-from-young-sheep",
+      "round2372-lamb-meat"
     ]
   },
   {
-    "canonical": "leave-work",
+    "canonical": "late-2",
     "aliases": [
-      "leave-work-2"
+      "late-5",
+      "late-8"
     ]
   },
   {
-    "canonical": "legalization-of-documents",
+    "canonical": "legacy",
     "aliases": [
-      "legalization-of-documents-2"
+      "legacy-3"
     ]
   },
   {
-    "canonical": "lemonade",
+    "canonical": "legality-2",
     "aliases": [
-      "lemonade-2"
+      "legality-3"
+    ]
+  },
+  {
+    "canonical": "lesbian",
+    "aliases": [
+      "lesbian-2",
+      "round2405-lesbian-adjective-women"
+    ]
+  },
+  {
+    "canonical": "lethal",
+    "aliases": [
+      "round2355-killer-deadly"
     ]
   },
   {
@@ -1781,45 +2240,52 @@
     ]
   },
   {
-    "canonical": "license",
-    "aliases": [
-      "license-2"
-    ]
-  },
-  {
     "canonical": "ligation",
     "aliases": [
       "ligation-2"
     ]
   },
   {
-    "canonical": "linnet",
+    "canonical": "lining-4",
     "aliases": [
-      "linnet-2"
+      "Lining-covering-the-inside"
     ]
   },
   {
-    "canonical": "locked-account",
+    "canonical": "literacy",
     "aliases": [
-      "locked-account-2"
+      "literacy-3",
+      "literacy-6"
     ]
   },
   {
-    "canonical": "log-entry",
+    "canonical": "literate",
     "aliases": [
-      "log-entry-2"
+      "literate-2"
     ]
   },
   {
-    "canonical": "lounging",
+    "canonical": "loosen",
     "aliases": [
-      "lounging-2"
+      "untighten"
     ]
   },
   {
-    "canonical": "low-social-security",
+    "canonical": "low-back-pain",
     "aliases": [
-      "low-social-security-2"
+      "round2453-low-back-pain"
+    ]
+  },
+  {
+    "canonical": "low-mood",
+    "aliases": [
+      "round2453-low-mood"
+    ]
+  },
+  {
+    "canonical": "lowercase",
+    "aliases": [
+      "lower-case"
     ]
   },
   {
@@ -1835,27 +2301,15 @@
     ]
   },
   {
-    "canonical": "magazine-rack",
+    "canonical": "lustful-2",
     "aliases": [
-      "magazine-rack-2"
+      "lustful-3"
     ]
   },
   {
-    "canonical": "maintenance-commission",
+    "canonical": "manure-2",
     "aliases": [
-      "maintenance-commission-2"
-    ]
-  },
-  {
-    "canonical": "maker",
-    "aliases": [
-      "maker-2"
-    ]
-  },
-  {
-    "canonical": "manganar",
-    "aliases": [
-      "manganar-2"
+      "round2490-manure-verb"
     ]
   },
   {
@@ -1865,56 +2319,46 @@
     ]
   },
   {
-    "canonical": "maroon-guira-from-cuba",
-    "aliases": [
-      "maroon-guira-from-cuba-2"
-    ]
-  },
-  {
-    "canonical": "master-choral",
-    "aliases": [
-      "master-choral-2"
-    ]
-  },
-  {
-    "canonical": "matchbox",
-    "aliases": [
-      "matchbox-2"
-    ]
-  },
-  {
-    "canonical": "maternal",
-    "aliases": [
-      "maternal-2"
-    ]
-  },
-  {
-    "canonical": "mechanical-workshop",
-    "aliases": [
-      "mechanical-workshop-2"
-    ]
-  },
-  {
-    "canonical": "medical-insurance",
-    "aliases": [
-      "medical-insurance-2"
-    ]
-  },
-  {
-    "canonical": "medical-prescription",
-    "aliases": [
-      "medical-prescription-2"
-    ]
-  },
-  {
-    "canonical": "meeting-point",
-    "aliases": [
-      "meeting-point-2"
-    ]
-  },
-  {
     "canonical": "menstrual",
-    "alias": "catamenial"
+    "aliases": [
+      "catamenial"
+    ]
+  },
+  {
+    "canonical": "methodological",
+    "aliases": [
+      "methodologic"
+    ]
+  },
+  {
+    "canonical": "military-5",
+    "aliases": [
+      "round2548-military-noun"
+    ]
+  },
+  {
+    "canonical": "millilitre",
+    "aliases": [
+      "milliliter"
+    ]
+  },
+  {
+    "canonical": "millimetre",
+    "aliases": [
+      "millimeter"
+    ]
+  },
+  {
+    "canonical": "misanthrope",
+    "aliases": [
+      "misanthropist"
+    ]
+  },
+  {
+    "canonical": "misstep",
+    "aliases": [
+      "round2563-misstep-literal"
+    ]
   },
   {
     "canonical": "mobile-phone-case",
@@ -1923,9 +2367,51 @@
     ]
   },
   {
+    "canonical": "mobilize",
+    "aliases": [
+      "mobilise"
+    ]
+  },
+  {
+    "canonical": "monolingual",
+    "aliases": [
+      "unilingual"
+    ]
+  },
+  {
+    "canonical": "mooring-2",
+    "aliases": [
+      "mooring-act-of-securing-a-boat"
+    ]
+  },
+  {
+    "canonical": "mooring-4",
+    "aliases": [
+      "mooring-6"
+    ]
+  },
+  {
     "canonical": "mortgage-payment",
     "aliases": [
       "mortgage-payment-2"
+    ]
+  },
+  {
+    "canonical": "mosquito-2",
+    "aliases": [
+      "mosquito-4"
+    ]
+  },
+  {
+    "canonical": "motley",
+    "aliases": [
+      "motley-2"
+    ]
+  },
+  {
+    "canonical": "mouth-3",
+    "aliases": [
+      "mouth-5"
     ]
   },
   {
@@ -1949,27 +2435,21 @@
     ]
   },
   {
+    "canonical": "muscovado",
+    "aliases": [
+      "muscovado-2"
+    ]
+  },
+  {
+    "canonical": "navajo-language",
+    "aliases": [
+      "Navajo-language"
+    ]
+  },
+  {
     "canonical": "neighborhood-watch",
     "aliases": [
       "neighborhood-watch-2"
-    ]
-  },
-  {
-    "canonical": "nightlife",
-    "aliases": [
-      "nightlife-2"
-    ]
-  },
-  {
-    "canonical": "noosphere",
-    "aliases": [
-      "noosphere-2"
-    ]
-  },
-  {
-    "canonical": "notice-to-the-population",
-    "aliases": [
-      "notice-to-the-population-2"
     ]
   },
   {
@@ -1979,9 +2459,9 @@
     ]
   },
   {
-    "canonical": "oblate",
+    "canonical": "nutty",
     "aliases": [
-      "oblate-2"
+      "round2678-nutty-flavor"
     ]
   },
   {
@@ -1997,9 +2477,9 @@
     ]
   },
   {
-    "canonical": "opening-commission",
+    "canonical": "peachy",
     "aliases": [
-      "opening-commission-2"
+      "round2783-peachy-excellent"
     ]
   },
   {
@@ -2009,20 +2489,33 @@
     ]
   },
   {
+    "canonical": "plebeian",
+    "aliases": [
+      "plebian"
+    ]
+  },
+  {
     "canonical": "plow",
-    "alias": "plough"
+    "aliases": [
+      "plough"
+    ]
   },
   {
     "canonical": "pluviometric",
     "aliases": [
       "pluviometrical"
-    ],
-    "reason": "Collins identifies pluviometrical as a variant of pluviometric; retain one searchable card."
+    ]
   },
   {
-    "canonical": "pop-up-advertising",
+    "canonical": "police-lineup",
     "aliases": [
-      "pop-up-advertising-2"
+      "recognition-lineup"
+    ]
+  },
+  {
+    "canonical": "polish-7",
+    "aliases": [
+      "polish-9"
     ]
   },
   {
@@ -2032,15 +2525,117 @@
     ]
   },
   {
-    "canonical": "redneck",
+    "canonical": "premolar",
     "aliases": [
-      "redneck-2"
+      "round2897-premolar-adjective"
     ]
   },
   {
-    "canonical": "reeducate",
+    "canonical": "psychokinesis",
     "aliases": [
-      "reeducate-2"
+      "telekinesis-mental-ability"
+    ]
+  },
+  {
+    "canonical": "quinquennium",
+    "aliases": [
+      "lustrum"
+    ]
+  },
+  {
+    "canonical": "rancor",
+    "aliases": [
+      "rancour"
+    ]
+  },
+  {
+    "canonical": "raticide",
+    "aliases": [
+      "rat-poison"
+    ]
+  },
+  {
+    "canonical": "ravine",
+    "aliases": [
+      "ravine-2"
+    ]
+  },
+  {
+    "canonical": "regicide",
+    "aliases": [
+      "regicide-2"
+    ]
+  },
+  {
+    "canonical": "regicide-monarch-killer-1236",
+    "aliases": [
+      "regicide-person-who-kills-monarch"
+    ]
+  },
+  {
+    "canonical": "repel",
+    "aliases": [
+      "repel-3"
+    ]
+  },
+  {
+    "canonical": "reply-2",
+    "aliases": [
+      "reply-3"
+    ]
+  },
+  {
+    "canonical": "reprimand",
+    "aliases": [
+      "reprimand-2"
+    ]
+  },
+  {
+    "canonical": "reutilize",
+    "aliases": [
+      "reutilise"
+    ]
+  },
+  {
+    "canonical": "rivet-hold-attention",
+    "aliases": [
+      "rivet-hold-someones-attention"
+    ]
+  },
+  {
+    "canonical": "root-6",
+    "aliases": [
+      "root-10"
+    ]
+  },
+  {
+    "canonical": "round3357-adopter-method",
+    "aliases": [
+      "round3358-adopter-method"
+    ]
+  },
+  {
+    "canonical": "round3357-adoption-method",
+    "aliases": [
+      "round3358-adoption-method"
+    ]
+  },
+  {
+    "canonical": "round3474-apex-tip",
+    "aliases": [
+      "apex-5"
+    ]
+  },
+  {
+    "canonical": "round3528-assault-verb",
+    "aliases": [
+      "assail"
+    ]
+  },
+  {
+    "canonical": "rumble-2",
+    "aliases": [
+      "grumble-low-sound"
     ]
   },
   {
@@ -2056,15 +2651,15 @@
     ]
   },
   {
-    "canonical": "savings-book",
+    "canonical": "school-cafeteria",
     "aliases": [
-      "savings-book-2"
+      "school-canteen"
     ]
   },
   {
-    "canonical": "schooling",
+    "canonical": "scoundrel-6",
     "aliases": [
-      "schooling-2"
+      "scoundrel-7"
     ]
   },
   {
@@ -2074,15 +2669,27 @@
     ]
   },
   {
+    "canonical": "screwdriver",
+    "aliases": [
+      "screwdriver-2"
+    ]
+  },
+  {
     "canonical": "search-and-capture-order",
     "aliases": [
       "search-and-capture-order-2"
     ]
   },
   {
-    "canonical": "security-bars",
+    "canonical": "seismological",
     "aliases": [
-      "security-bars-2"
+      "seismologic"
+    ]
+  },
+  {
+    "canonical": "seize",
+    "aliases": [
+      "seize-2"
     ]
   },
   {
@@ -2104,33 +2711,52 @@
     ]
   },
   {
+    "canonical": "shake-3",
+    "aliases": [
+      "shake-10",
+      "shake-11"
+    ]
+  },
+  {
     "canonical": "shamanistic",
     "aliases": [
       "shamanistic-2"
     ]
   },
   {
-    "canonical": "shopping-cart",
+    "canonical": "sharecropper",
     "aliases": [
-      "shopping-cart-2"
+      "sharecropper-2"
     ]
   },
   {
-    "canonical": "shortbread",
+    "canonical": "shearer-2",
     "aliases": [
-      "shortbread-2"
+      "shearer-3"
     ]
   },
   {
-    "canonical": "sign-in",
+    "canonical": "short-story",
     "aliases": [
-      "sign-in-2"
+      "short-story-2"
     ]
   },
   {
-    "canonical": "signature-power",
+    "canonical": "shred-6",
     "aliases": [
-      "signature-power-2"
+      "shred-7"
+    ]
+  },
+  {
+    "canonical": "shrinkage",
+    "aliases": [
+      "shrinkage-2"
+    ]
+  },
+  {
+    "canonical": "shy",
+    "aliases": [
+      "shy-3"
     ]
   },
   {
@@ -2140,14 +2766,40 @@
     ]
   },
   {
+    "canonical": "skimpy",
+    "aliases": [
+      "skimpy-2"
+    ]
+  },
+  {
+    "canonical": "skull-4",
+    "aliases": [
+      "skull-5"
+    ]
+  },
+  {
+    "canonical": "skunk-2",
+    "aliases": [
+      "skunk-3"
+    ]
+  },
+  {
     "canonical": "smart-watch",
     "aliases": [
       "smart-watch-2"
     ]
   },
   {
-    "canonical": "snuffers",
-    "alias": "smoke-killer"
+    "canonical": "sneaky-2",
+    "aliases": [
+      "sneaky-3"
+    ]
+  },
+  {
+    "canonical": "sodomitic",
+    "aliases": [
+      "sodomitical"
+    ]
   },
   {
     "canonical": "sore",
@@ -2157,21 +2809,15 @@
     ]
   },
   {
-    "canonical": "sos-post",
+    "canonical": "soteriological",
     "aliases": [
-      "sos-post-2"
+      "soteriologic"
     ]
   },
   {
-    "canonical": "speaking",
+    "canonical": "sparkling-2",
     "aliases": [
-      "speaking-2"
-    ]
-  },
-  {
-    "canonical": "split-day",
-    "aliases": [
-      "split-day-2"
+      "sparkling-shining-brightly"
     ]
   },
   {
@@ -2181,18 +2827,79 @@
     ]
   },
   {
-    "canonical": "spotty",
+    "canonical": "spontaneous",
     "aliases": [
-      "spotty-2"
+      "spontaneous-2"
     ]
   },
   {
-    "canonical": "stenograph",
-    "alias": "shorthand-3"
+    "canonical": "squawk-2",
+    "aliases": [
+      "squawk-3",
+      "squawk-harsh-cry-noun-1397"
+    ]
+  },
+  {
+    "canonical": "squishy",
+    "aliases": [
+      "squishy-2",
+      "squishy-3"
+    ]
+  },
+  {
+    "canonical": "stench",
+    "aliases": [
+      "round3007-reek-noun",
+      "stench-3"
+    ]
+  },
+  {
+    "canonical": "stench-2",
+    "aliases": [
+      "stink-2"
+    ]
+  },
+  {
+    "canonical": "strabismic",
+    "aliases": [
+      "strabismal"
+    ]
+  },
+  {
+    "canonical": "strawberry-tree",
+    "aliases": [
+      "arbutus-unedo-tree"
+    ]
+  },
+  {
+    "canonical": "stutterer",
+    "aliases": [
+      "stammerer"
+    ]
   },
   {
     "canonical": "subjugator",
-    "alias": "dominator"
+    "aliases": [
+      "dominator"
+    ]
+  },
+  {
+    "canonical": "support-6",
+    "aliases": [
+      "support-8"
+    ]
+  },
+  {
+    "canonical": "tangle",
+    "aliases": [
+      "entangle"
+    ]
+  },
+  {
+    "canonical": "tantrum-3",
+    "aliases": [
+      "tantrum-6"
+    ]
   },
   {
     "canonical": "telematic-request",
@@ -2207,850 +2914,21 @@
     ]
   },
   {
-    "canonical": "toothpicks",
-    "aliases": [
-      "toothpicks-2"
-    ]
-  },
-  {
-    "canonical": "tuition-fees",
-    "aliases": [
-      "tuition-fees-2"
-    ]
-  },
-  {
-    "canonical": "unravel-2",
-    "aliases": [
-      "untangle-6",
-      "round3129-unravel-extricate"
-    ]
-  },
-  {
-    "canonical": "venerate",
-    "aliases": [
-      "venerate-2"
-    ]
-  },
-  {
-    "canonical": "venustity",
-    "aliases": [
-      "venustity-2"
-    ]
-  },
-  {
-    "canonical": "vice-presidential",
-    "aliases": [
-      "vice-presidential-2"
-    ]
-  },
-  {
-    "canonical": "victorious",
-    "alias": "victorious-2"
-  },
-  {
-    "canonical": "video-call",
-    "aliases": [
-      "video-conference",
-      "video-call-2"
-    ]
-  },
-  {
-    "canonical": "vindictive",
-    "alias": "vengeful"
-  },
-  {
-    "canonical": "visiting-regime",
-    "aliases": [
-      "visiting-regime-2"
-    ]
-  },
-  {
-    "canonical": "visitor",
-    "aliases": [
-      "visitor-3"
-    ]
-  },
-  {
-    "canonical": "vocational-training",
-    "aliases": [
-      "vocational-training-2"
-    ]
-  },
-  {
-    "canonical": "weather-alert",
-    "aliases": [
-      "weather-alert-2"
-    ]
-  },
-  {
-    "canonical": "work-accident",
-    "aliases": [
-      "work-accident-2"
-    ]
-  },
-  {
-    "canonical": "work-helmet",
-    "aliases": [
-      "work-helmet-2"
-    ]
-  },
-  {
-    "canonical": "work-life",
-    "aliases": [
-      "work-life-2"
-    ]
-  },
-  {
-    "canonical": "rancor",
-    "aliases": [
-      "rancour"
-    ]
-  },
-  {
-    "canonical": "raticide",
-    "alias": "rat-poison"
-  },
-  {
-    "canonical": "ravine",
-    "alias": "ravine-2"
-  },
-  {
-    "canonical": "tricorn",
-    "alias": "tricorne"
-  },
-  {
-    "canonical": "adaptive",
-    "aliases": [
-      "adaptative"
-    ]
-  },
-  {
-    "canonical": "antivirus",
-    "alias": "antivirus-2"
-  },
-  {
-    "canonical": "antithetic",
-    "alias": "antithetical"
-  },
-  {
-    "canonical": "anxiety-en",
-    "alias": "anxiety"
-  },
-  {
-    "canonical": "anxiety-en",
-    "alias": "anxiety-2"
-  },
-  {
-    "canonical": "anxiolytic",
-    "alias": "anxiolytic-2"
-  },
-  {
-    "canonical": "ape",
-    "alias": "ape-2"
-  },
-  {
-    "canonical": "apathetic",
-    "alias": "apathetic-2"
-  },
-  {
-    "canonical": "aphasia",
-    "alias": "aphasia-2"
-  },
-  {
-    "canonical": "round3474-apex-tip",
-    "alias": "apex-5"
-  },
-  {
-    "canonical": "apoliticism",
-    "alias": "apoliticality"
-  },
-  {
-    "canonical": "brass",
-    "aliases": [
-      "brass-3"
-    ]
-  },
-  {
-    "canonical": "bravado",
-    "aliases": [
-      "bravado-2",
-      "bravado-3"
-    ]
-  },
-  {
-    "canonical": "dietitian",
-    "aliases": [
-      "dietician"
-    ]
-  },
-  {
-    "canonical": "exonerate",
-    "alias": "exonerate-2"
-  },
-  {
-    "canonical": "exordium",
-    "alias": "exorde"
-  },
-  {
-    "canonical": "exordium",
-    "alias": "introduction-opening-section"
-  },
-  {
-    "canonical": "expatriate",
-    "alias": "expat"
-  },
-  {
-    "canonical": "exposure-meter",
-    "alias": "light-meter"
-  },
-  {
-    "canonical": "fire-extinguisher",
-    "aliases": [
-      "extinguisher",
-      "fire-extinguisher-2",
-      "fire-extinguisher-3"
-    ]
-  },
-  {
-    "canonical": "extortion",
-    "alias": "extortion-2"
-  },
-  {
-    "canonical": "extract",
-    "alias": "extract-4"
-  },
-  {
-    "canonical": "extracurricular-activities",
-    "alias": "extracurricular-activities-2"
-  },
-  {
-    "canonical": "extrovert",
-    "alias": "extravert"
-  },
-  {
-    "canonical": "eye-drops",
-    "alias": "eyedrops"
-  },
-  {
-    "canonical": "face-mask",
-    "alias": "facemask"
-  },
-  {
-    "canonical": "facsimile",
-    "alias": "facsimile-3"
-  },
-  {
-    "canonical": "factory-reset",
-    "alias": "factory-reset-2"
-  },
-  {
-    "canonical": "faculty",
-    "alias": "faculty-2"
-  },
-  {
-    "canonical": "falconry",
-    "alias": "falconry-2"
-  },
-  {
-    "canonical": "fervent",
-    "aliases": [
-      "fervid"
-    ]
-  },
-  {
-    "canonical": "flattery",
-    "aliases": [
-      "flattery-12",
-      "flattery-3",
-      "flattery-4",
-      "flattery-5",
-      "flattery-6",
-      "flattery-8",
-      "flattery-9"
-    ]
-  },
-  {
-    "canonical": "fleeting",
-    "aliases": [
-      "fleeting-2"
-    ]
-  },
-  {
-    "canonical": "fraudster",
-    "aliases": [
-      "fraudster-2",
-      "fraudster-3"
-    ],
-    "set": {},
-    "unset": []
-  },
-  {
-    "canonical": "fraudulent",
-    "aliases": [
-      "fraudulent-2"
-    ],
-    "set": {},
-    "unset": []
-  },
-  {
-    "canonical": "free-legal-aid",
-    "aliases": [
-      "free-legal-assistance"
-    ],
-    "set": {},
-    "unset": []
-  },
-  {
-    "canonical": "freeloader",
-    "aliases": [
-      "freeloader-2"
-    ],
-    "set": {},
-    "unset": []
-  },
-  {
-    "canonical": "reprehensible",
-    "aliases": [
-      "reprehensible-2",
-      "reprehensible-4"
-    ]
-  },
-  {
-    "canonical": "foamy",
-    "aliases": [
-      "frothy"
-    ]
-  },
-  {
-    "canonical": "dialogic",
-    "aliases": [
-      "dialogical"
-    ]
-  },
-  {
-    "canonical": "flower-shop",
-    "aliases": [
-      "florist-2"
-    ]
-  },
-  {
-    "canonical": "horseback-riding",
-    "aliases": [
-      "riding-2"
-    ]
-  },
-  {
-    "canonical": "immensity",
-    "aliases": [
-      "vastness"
-    ]
-  },
-  {
-    "canonical": "round2565-mix-noun",
-    "aliases": [
-      "round2566-mixture-combination"
-    ]
-  },
-  {
-    "canonical": "dampen-wet",
-    "aliases": [
-      "moisten-2"
-    ]
-  },
-  {
-    "canonical": "drinkable",
-    "aliases": [
-      "potable"
-    ]
-  },
-  {
-    "canonical": "unionize",
-    "aliases": [
-      "unionise"
-    ]
-  },
-  {
-    "canonical": "unlawful",
-    "aliases": [
-      "illegal-2"
-    ]
-  },
-  {
-    "canonical": "unpaid",
-    "aliases": [
-      "round2727-outstanding-unpaid"
-    ]
-  },
-  {
-    "canonical": "wake",
-    "aliases": [
-      "wake-up"
-    ]
-  },
-  {
-    "canonical": "xenoglossia",
-    "aliases": [
-      "xenoglossy"
-    ]
-  },
-  {
-    "canonical": "inspector",
-    "aliases": [
-      "inspector-official"
-    ]
-  },
-  {
-    "canonical": "insipid",
-    "aliases": [
-      "insipid-flavor"
-    ]
-  },
-  {
-    "canonical": "wild-card",
-    "aliases": [
-      "round3263-wild-card-game",
-      "round3264-wildcard-card"
-    ]
-  },
-  {
-    "canonical": "affable",
-    "aliases": [
-      "approachable"
-    ]
-  },
-  {
-    "canonical": "rich-2",
-    "aliases": [
-      "affluent"
-    ]
-  },
-  {
-    "canonical": "abnormal",
-    "aliases": [
-      "anomalous"
-    ]
-  },
-  {
-    "canonical": "round3528-assault-verb",
-    "aliases": [
-      "assail"
-    ]
-  },
-  {
-    "canonical": "bequest",
-    "aliases": [
-      "legacy-2"
-    ]
-  },
-  {
-    "canonical": "decreasing",
-    "aliases": [
-      "diminishing"
-    ]
-  },
-  {
-    "canonical": "lengthen-3",
-    "aliases": [
-      "elongate"
-    ]
-  },
-  {
-    "canonical": "tangle",
-    "aliases": [
-      "entangle"
-    ]
-  },
-  {
-    "canonical": "brief",
-    "aliases": [
-      "ephemeral",
-      "transient"
-    ]
-  },
-  {
-    "canonical": "get-along",
-    "aliases": [
-      "get-on"
-    ]
-  },
-  {
-    "canonical": "icy",
-    "aliases": [
-      "glacial-2"
-    ]
-  },
-  {
-    "canonical": "rumble-2",
-    "aliases": [
-      "grumble-low-sound"
-    ]
-  },
-  {
-    "canonical": "attach-7",
-    "aliases": [
-      "hitch-4"
-    ]
-  },
-  {
-    "canonical": "killer",
-    "aliases": [
-      "homicide-5"
-    ]
-  },
-  {
-    "canonical": "incomprehensible",
-    "aliases": [
-      "impenetrable-figurative"
-    ]
-  },
-  {
-    "canonical": "insipid",
-    "aliases": [
-      "tasteless"
-    ]
-  },
-  {
-    "canonical": "jocular",
-    "aliases": [
-      "humorous-2"
-    ]
-  },
-  {
-    "canonical": "lethal",
-    "aliases": [
-      "round2355-killer-deadly"
-    ]
-  },
-  {
-    "canonical": "enraged",
-    "aliases": [
-      "round2435-livid-angry"
-    ]
-  },
-  {
-    "canonical": "quinquennium",
-    "aliases": [
-      "lustrum"
-    ]
-  },
-  {
-    "canonical": "fever",
-    "aliases": [
-      "pyrexia"
-    ]
-  },
-  {
-    "canonical": "police-lineup",
-    "aliases": [
-      "recognition-lineup"
-    ]
-  },
-  {
-    "canonical": "stench-2",
-    "aliases": [
-      "stink-2"
-    ]
-  },
-  {
-    "canonical": "round3080-tweet-bird-verb",
-    "aliases": [
-      "twitter"
-    ]
-  },
-  {
-    "canonical": "centimetre",
-    "aliases": [
-      "centimeter"
-    ]
-  },
-  {
-    "canonical": "chilli",
-    "aliases": [
-      "chili"
-    ]
-  },
-  {
-    "canonical": "shamanic",
-    "aliases": [
-      "shamanistic"
-    ]
-  },
-  {
-    "canonical": "misanthrope",
-    "aliases": [
-      "misanthropist"
-    ]
-  },
-  {
-    "canonical": "sleepwalker",
-    "aliases": [
-      "somnambulist"
-    ]
-  },
-  {
-    "canonical": "millilitre",
-    "aliases": [
-      "milliliter"
-    ]
-  },
-  {
-    "canonical": "chill-3",
-    "aliases": [
-      "chill-5"
-    ]
-  },
-  {
-    "canonical": "doorman",
-    "aliases": [
-      "doorkeeper"
-    ]
-  },
-  {
-    "canonical": "psychokinesis",
-    "aliases": [
-      "telekinesis-mental-ability"
-    ]
-  },
-  {
-    "canonical": "gastronomic",
-    "aliases": [
-      "gastronomical"
-    ]
-  },
-  {
-    "canonical": "stutterer",
-    "aliases": [
-      "stammerer"
-    ]
-  },
-  {
-    "canonical": "smelly-2",
-    "aliases": [
-      "stinky"
-    ]
-  },
-  {
-    "canonical": "unharmed",
-    "aliases": [
-      "unscathed"
-    ]
-  },
-  {
-    "canonical": "windshield",
-    "aliases": [
-      "windscreen"
-    ]
-  },
-  {
-    "canonical": "monolingual",
-    "aliases": [
-      "unilingual"
-    ]
-  },
-  {
-    "canonical": "sodomitic",
-    "aliases": [
-      "sodomitical"
-    ]
-  },
-  {
-    "canonical": "soteriological",
-    "aliases": [
-      "soteriologic"
-    ]
-  },
-  {
-    "canonical": "strabismic",
-    "aliases": [
-      "strabismal"
-    ]
-  },
-  {
-    "canonical": "methodological",
-    "aliases": [
-      "methodologic"
-    ]
-  },
-  {
-    "canonical": "school-cafeteria",
-    "aliases": [
-      "school-canteen"
-    ]
-  },
-  {
-    "canonical": "delimit",
-    "aliases": [
-      "demarcate"
-    ]
-  },
-  {
-    "canonical": "imbue",
-    "aliases": [
-      "infuse-quality"
-    ]
-  },
-  {
-    "canonical": "loosen",
-    "aliases": [
-      "untighten"
-    ]
-  },
-  {
-    "canonical": "stench",
-    "aliases": [
-      "round3007-reek-noun",
-      "stench-3"
-    ]
-  },
-  {
-    "canonical": "millimetre",
-    "aliases": [
-      "millimeter"
-    ]
-  },
-  {
-    "canonical": "geographic",
-    "aliases": [
-      "geographical"
-    ]
-  },
-  {
-    "canonical": "seismological",
-    "aliases": [
-      "seismologic"
-    ]
-  },
-  {
     "canonical": "theological",
     "aliases": [
       "theologic"
     ]
   },
   {
-    "canonical": "anti-semitic",
+    "canonical": "traceability",
     "aliases": [
-      "anti-semitic-2"
+      "round3041-traceability"
     ]
   },
   {
-    "canonical": "archaeology",
+    "canonical": "trachea",
     "aliases": [
-      "archeology"
-    ]
-  },
-  {
-    "canonical": "short-story",
-    "aliases": [
-      "short-story-2"
-    ]
-  },
-  {
-    "canonical": "plebeian",
-    "aliases": [
-      "plebian"
-    ]
-  },
-  {
-    "canonical": "lowercase",
-    "aliases": [
-      "lower-case"
-    ]
-  },
-  {
-    "canonical": "mobilize",
-    "aliases": [
-      "mobilise"
-    ]
-  },
-  {
-    "canonical": "reutilize",
-    "aliases": [
-      "reutilise"
-    ]
-  },
-  {
-    "canonical": "kindergarten-2",
-    "aliases": [
-      "round2357-kindergarten-care"
-    ]
-  },
-  {
-    "canonical": "inpatient",
-    "aliases": [
-      "inpatient-hospital"
-    ]
-  },
-  {
-    "canonical": "influence-power",
-    "aliases": [
-      "influence"
-    ]
-  },
-  {
-    "canonical": "inhaler",
-    "aliases": [
-      "inhaler-device"
-    ]
-  },
-  {
-    "canonical": "iron",
-    "aliases": [
-      "iron-metal"
-    ]
-  },
-  {
-    "canonical": "insulin",
-    "aliases": [
-      "insulin-hormone"
-    ]
-  },
-  {
-    "canonical": "insolvency",
-    "aliases": [
-      "insolvency-debts"
-    ]
-  },
-  {
-    "canonical": "inheritance-tax",
-    "aliases": [
-      "inheritance-tax-tax"
-    ]
-  },
-  {
-    "canonical": "traffic-diversion",
-    "aliases": [
-      "round3044-traffic-diversion"
-    ]
-  },
-  {
-    "canonical": "injunction",
-    "aliases": [
-      "injunction-court-order"
-    ]
-  },
-  {
-    "canonical": "innumeracy",
-    "aliases": [
-      "innumeracy-numbers"
-    ]
-  },
-  {
-    "canonical": "insolvent",
-    "aliases": [
-      "insolvent-2",
-      "insolvent-unable-to-pay"
-    ]
-  },
-  {
-    "canonical": "insomniac",
-    "aliases": [
-      "insomniac-person"
-    ]
-  },
-  {
-    "canonical": "infrastructure",
-    "aliases": [
-      "infrastructure-basic"
+      "round3041-trachea"
     ]
   },
   {
@@ -3060,207 +2938,33 @@
     ]
   },
   {
-    "canonical": "inhabitable",
+    "canonical": "traffic-diversion",
     "aliases": [
-      "inhabitable-fit"
+      "round3044-traffic-diversion"
     ]
   },
   {
-    "canonical": "illiterate",
+    "canonical": "tragedy",
     "aliases": [
-      "illiterate-2"
-    ]
-  },
-  {
-    "canonical": "innovator",
-    "aliases": [
-      "innovator-pioneer"
-    ]
-  },
-  {
-    "canonical": "insulation",
-    "aliases": [
-      "insulation-material"
-    ]
-  },
-  {
-    "canonical": "institute",
-    "aliases": [
-      "institute-start"
-    ]
-  },
-  {
-    "canonical": "insult",
-    "aliases": [
-      "insult-verb"
-    ]
-  },
-  {
-    "canonical": "insulator",
-    "aliases": [
-      "insulator-material"
-    ]
-  },
-  {
-    "canonical": "balustrade",
-    "aliases": [
-      "balustrade-3"
-    ]
-  },
-  {
-    "canonical": "bar",
-    "aliases": [
-      "bar-3"
-    ]
-  },
-  {
-    "canonical": "lamb",
-    "aliases": [
-      "lamb-4"
-    ]
-  },
-  {
-    "canonical": "twister",
-    "aliases": [
-      "round3081-twister-tornado"
-    ]
-  },
-  {
-    "canonical": "infuriating",
-    "aliases": [
-      "infuriating-angry"
-    ]
-  },
-  {
-    "canonical": "screwdriver",
-    "aliases": [
-      "screwdriver-2"
-    ]
-  },
-  {
-    "canonical": "idolatrous",
-    "aliases": [
-      "idolatrous-literal"
-    ]
-  },
-  {
-    "canonical": "idolize",
-    "aliases": [
-      "idolize-figurative"
-    ]
-  },
-  {
-    "canonical": "improbability",
-    "aliases": [
-      "improbability-2"
-    ]
-  },
-  {
-    "canonical": "inquirer",
-    "aliases": [
-      "inquirer-person"
-    ]
-  },
-  {
-    "canonical": "inscrutable",
-    "aliases": [
-      "inscrutable-unreadable"
-    ]
-  },
-  {
-    "canonical": "infrequent",
-    "aliases": [
-      "infrequent-rare"
-    ]
-  },
-  {
-    "canonical": "iniquitous",
-    "aliases": [
-      "iniquitous-unjust"
-    ]
-  },
-  {
-    "canonical": "innocuous",
-    "aliases": [
-      "innocuous-harmless"
-    ]
-  },
-  {
-    "canonical": "innovate",
-    "aliases": [
-      "innovate-new-methods"
-    ]
-  },
-  {
-    "canonical": "innumerable",
-    "aliases": [
-      "innumerable-countless"
-    ]
-  },
-  {
-    "canonical": "insidious",
-    "aliases": [
-      "insidious-harmful"
-    ]
-  },
-  {
-    "canonical": "understandable",
-    "aliases": [
-      "round3104-understandable-comprehensible"
-    ]
-  },
-  {
-    "canonical": "insular",
-    "aliases": [
-      "insular-island"
-    ]
-  },
-  {
-    "canonical": "ingot",
-    "aliases": [
-      "ingot-metal"
-    ]
-  },
-  {
-    "canonical": "inhabit",
-    "aliases": [
-      "inhabit-live"
-    ]
-  },
-  {
-    "canonical": "injurious",
-    "aliases": [
-      "injurious-harmful"
-    ]
-  },
-  {
-    "canonical": "initialism",
-    "aliases": [
-      "initialism-abbreviation"
-    ]
-  },
-  {
-    "canonical": "tuner",
-    "aliases": [
-      "round3075-tuner-person"
-    ]
-  },
-  {
-    "canonical": "shy",
-    "aliases": [
-      "shy-3"
-    ]
-  },
-  {
-    "canonical": "inkwell",
-    "aliases": [
-      "inkwell-container"
+      "round3044-tragedy-event"
     ]
   },
   {
     "canonical": "trail",
     "aliases": [
       "round3044-trail-path"
+    ]
+  },
+  {
+    "canonical": "trailer",
+    "aliases": [
+      "round3044-trailer-haul"
+    ]
+  },
+  {
+    "canonical": "tricorn",
+    "aliases": [
+      "tricorne"
     ]
   },
   {
@@ -3276,313 +2980,27 @@
     ]
   },
   {
-    "canonical": "instrument",
+    "canonical": "tune-in",
     "aliases": [
-      "instrument-tool"
+      "round3075-tune-in-broadcast"
     ]
   },
   {
-    "canonical": "trailer",
+    "canonical": "tuner",
     "aliases": [
-      "round3044-trailer-haul"
+      "round3075-tuner-person"
     ]
   },
   {
-    "canonical": "inhabitant",
+    "canonical": "twister",
     "aliases": [
-      "inhabitant-resident"
+      "round3081-twister-tornado"
     ]
   },
   {
-    "canonical": "individuality",
+    "canonical": "understandable",
     "aliases": [
-      "individuality-2"
-    ]
-  },
-  {
-    "canonical": "informative",
-    "aliases": [
-      "informative-useful"
-    ]
-  },
-  {
-    "canonical": "ingratitude",
-    "aliases": [
-      "ingratitude-ungrateful"
-    ]
-  },
-  {
-    "canonical": "innate",
-    "aliases": [
-      "innate-inborn"
-    ]
-  },
-  {
-    "canonical": "insatiable",
-    "aliases": [
-      "insatiable-unsatisfied"
-    ]
-  },
-  {
-    "canonical": "insecticide",
-    "aliases": [
-      "insecticide-kill-insects"
-    ]
-  },
-  {
-    "canonical": "insect",
-    "aliases": [
-      "insect-small-animal"
-    ]
-  },
-  {
-    "canonical": "insinuate",
-    "aliases": [
-      "insinuate-hint"
-    ]
-  },
-  {
-    "canonical": "insistent",
-    "aliases": [
-      "insistent-demand"
-    ]
-  },
-  {
-    "canonical": "insist",
-    "aliases": [
-      "insist-state"
-    ]
-  },
-  {
-    "canonical": "insolent",
-    "aliases": [
-      "insolent-rude"
-    ]
-  },
-  {
-    "canonical": "instinct",
-    "aliases": [
-      "instinct-natural"
-    ]
-  },
-  {
-    "canonical": "instructive",
-    "aliases": [
-      "instructive-informative"
-    ]
-  },
-  {
-    "canonical": "insufficient",
-    "aliases": [
-      "insufficient-not-enough"
-    ]
-  },
-  {
-    "canonical": "insufferable",
-    "aliases": [
-      "insufferable-endure"
-    ]
-  },
-  {
-    "canonical": "lesbian",
-    "aliases": [
-      "lesbian-2",
-      "round2405-lesbian-adjective-women"
-    ]
-  },
-  {
-    "canonical": "literate",
-    "aliases": [
-      "literate-2"
-    ]
-  },
-  {
-    "canonical": "instructor",
-    "aliases": [
-      "instructor-teacher"
-    ]
-  },
-  {
-    "canonical": "viewpoint",
-    "aliases": [
-      "round3190-viewpoint-opinion"
-    ]
-  },
-  {
-    "canonical": "innkeeper",
-    "aliases": [
-      "innkeeper-host"
-    ]
-  },
-  {
-    "canonical": "tragedy",
-    "aliases": [
-      "round3044-tragedy-event"
-    ]
-  },
-  {
-    "canonical": "vanguard",
-    "aliases": [
-      "round3162-vanguard-leading"
-    ]
-  },
-  {
-    "canonical": "volcanic",
-    "aliases": [
-      "round3206-volcanic-literal"
-    ]
-  },
-  {
-    "canonical": "literacy",
-    "aliases": [
-      "literacy-3",
-      "literacy-6"
-    ]
-  },
-  {
-    "canonical": "graduate",
-    "aliases": [
-      "graduate-2"
-    ]
-  },
-  {
-    "canonical": "attacker",
-    "aliases": [
-      "attacker-2"
-    ]
-  },
-  {
-    "canonical": "inside",
-    "aliases": [
-      "inside-interior"
-    ]
-  },
-  {
-    "canonical": "traceability",
-    "aliases": [
-      "round3041-traceability"
-    ]
-  },
-  {
-    "canonical": "dispatcher",
-    "aliases": [
-      "dispatcher-3"
-    ]
-  },
-  {
-    "canonical": "spontaneous",
-    "aliases": [
-      "spontaneous-2"
-    ]
-  },
-  {
-    "canonical": "cowbell",
-    "aliases": [
-      "cowbell-2"
-    ]
-  },
-  {
-    "canonical": "peachy",
-    "aliases": [
-      "round2783-peachy-excellent"
-    ]
-  },
-  {
-    "canonical": "conceivable",
-    "aliases": [
-      "conceivable-3"
-    ]
-  },
-  {
-    "canonical": "aging",
-    "aliases": [
-      "aging-4"
-    ]
-  },
-  {
-    "canonical": "sharecropper",
-    "aliases": [
-      "sharecropper-2"
-    ]
-  },
-  {
-    "canonical": "dismantle",
-    "aliases": [
-      "dismantle-16",
-      "dismantle-7"
-    ]
-  },
-  {
-    "canonical": "unschool",
-    "aliases": [
-      "round3133-unschool-education"
-    ]
-  },
-  {
-    "canonical": "clamp",
-    "aliases": [
-      "clamp-2"
-    ]
-  },
-  {
-    "canonical": "squishy",
-    "aliases": [
-      "squishy-2",
-      "squishy-3"
-    ]
-  },
-  {
-    "canonical": "insole",
-    "aliases": [
-      "insole-shoe"
-    ]
-  },
-  {
-    "canonical": "illegitimate",
-    "aliases": [
-      "illegitimate-2"
-    ]
-  },
-  {
-    "canonical": "inseparable",
-    "aliases": [
-      "inseparable-things"
-    ]
-  },
-  {
-    "canonical": "inspired",
-    "aliases": [
-      "inspired-creative"
-    ]
-  },
-  {
-    "canonical": "institutionalization",
-    "aliases": [
-      "institutionalization-placement"
-    ]
-  },
-  {
-    "canonical": "institutionalize",
-    "aliases": [
-      "institutionalize-placement"
-    ]
-  },
-  {
-    "canonical": "instrumentalization",
-    "aliases": [
-      "instrumentalization-tool"
-    ]
-  },
-  {
-    "canonical": "insubordinate",
-    "aliases": [
-      "insubordinate-disobedient"
-    ]
-  },
-  {
-    "canonical": "insularity",
-    "aliases": [
-      "insularity-isolation"
+      "round3104-understandable-comprehensible"
     ]
   },
   {
@@ -3592,219 +3010,64 @@
     ]
   },
   {
-    "canonical": "insert",
+    "canonical": "unionize",
     "aliases": [
-      "insert-put-in"
+      "unionise"
     ]
   },
   {
-    "canonical": "commendable",
+    "canonical": "unpaid",
     "aliases": [
-      "commendable-3"
+      "round2727-outstanding-unpaid"
     ]
   },
   {
-    "canonical": "greening",
+    "canonical": "unravel-2",
     "aliases": [
-      "greening-2"
+      "round3129-unravel-extricate",
+      "untangle-6"
     ]
   },
   {
-    "canonical": "instill",
+    "canonical": "unschool",
     "aliases": [
-      "instill-idea"
+      "round3133-unschool-education"
     ]
   },
   {
-    "canonical": "infanticide",
+    "canonical": "vanguard",
     "aliases": [
-      "infanticide-killing"
+      "round3162-vanguard-leading"
     ]
   },
   {
-    "canonical": "infarct",
+    "canonical": "venerate",
     "aliases": [
-      "infarct-tissue"
+      "venerate-2"
     ]
   },
   {
-    "canonical": "infused",
+    "canonical": "viewpoint",
     "aliases": [
-      "infused-filled"
+      "round3190-viewpoint-opinion"
     ]
   },
   {
-    "canonical": "ingeniously",
+    "canonical": "vindictive",
     "aliases": [
-      "ingeniously-skillfully"
+      "vengeful"
     ]
   },
   {
-    "canonical": "inimitable",
+    "canonical": "visiting-regime",
     "aliases": [
-      "inimitable-unique"
+      "visiting-regime-2"
     ]
   },
   {
-    "canonical": "insectivore",
+    "canonical": "vocational-training",
     "aliases": [
-      "insectivore-insect-eater"
-    ]
-  },
-  {
-    "canonical": "insensitivity",
-    "aliases": [
-      "insensitivity-feelings"
-    ]
-  },
-  {
-    "canonical": "insidiously",
-    "aliases": [
-      "insidiously-gradually"
-    ]
-  },
-  {
-    "canonical": "insinuating",
-    "aliases": [
-      "insinuating-indirect"
-    ]
-  },
-  {
-    "canonical": "inspirational",
-    "aliases": [
-      "inspirational-encouraging"
-    ]
-  },
-  {
-    "canonical": "instigator",
-    "aliases": [
-      "instigator-person"
-    ]
-  },
-  {
-    "canonical": "instigate",
-    "aliases": [
-      "instigate-start"
-    ]
-  },
-  {
-    "canonical": "instruct",
-    "aliases": [
-      "instruct-teach"
-    ]
-  },
-  {
-    "canonical": "instrumentalize",
-    "aliases": [
-      "instrumentalize-use"
-    ]
-  },
-  {
-    "canonical": "insubstantial",
-    "aliases": [
-      "insubstantial-flimsy"
-    ]
-  },
-  {
-    "canonical": "insubstantiality",
-    "aliases": [
-      "insubstantiality-flimsy"
-    ]
-  },
-  {
-    "canonical": "inventor",
-    "aliases": [
-      "inventor-2"
-    ]
-  },
-  {
-    "canonical": "joust",
-    "aliases": [
-      "joust-figurative-2340"
-    ]
-  },
-  {
-    "canonical": "infant",
-    "aliases": [
-      "infant-young-child"
-    ]
-  },
-  {
-    "canonical": "interlude",
-    "aliases": [
-      "interlude-break"
-    ]
-  },
-  {
-    "canonical": "hydrometer",
-    "aliases": [
-      "hydrometer-2"
-    ]
-  },
-  {
-    "canonical": "inhospitality",
-    "aliases": [
-      "inhospitality-unwelcoming"
-    ]
-  },
-  {
-    "canonical": "insatiability",
-    "aliases": [
-      "insatiability-want-more"
-    ]
-  },
-  {
-    "canonical": "inseparability",
-    "aliases": [
-      "inseparability-state"
-    ]
-  },
-  {
-    "canonical": "insolubility",
-    "aliases": [
-      "insolubility-dissolve"
-    ]
-  },
-  {
-    "canonical": "injectable",
-    "aliases": [
-      "injectable-medicine"
-    ]
-  },
-  {
-    "canonical": "repel",
-    "aliases": [
-      "repel-3"
-    ]
-  },
-  {
-    "canonical": "knee-pad",
-    "aliases": [
-      "knee-pad-2"
-    ]
-  },
-  {
-    "canonical": "insight",
-    "aliases": [
-      "insight-ability"
-    ]
-  },
-  {
-    "canonical": "regicide",
-    "aliases": [
-      "regicide-2"
-    ]
-  },
-  {
-    "canonical": "trachea",
-    "aliases": [
-      "round3041-trachea"
-    ]
-  },
-  {
-    "canonical": "misstep",
-    "aliases": [
-      "round2563-misstep-literal"
+      "vocational-training-2"
     ]
   },
   {
@@ -3814,653 +3077,22 @@
     ]
   },
   {
-    "canonical": "nutty",
+    "canonical": "volcanic",
     "aliases": [
-      "round2678-nutty-flavor"
+      "round3206-volcanic-literal"
     ]
   },
   {
-    "canonical": "inn",
+    "canonical": "wild-card",
     "aliases": [
-      "inn-guesthouse"
+      "round3263-wild-card-game",
+      "round3264-wildcard-card"
     ]
   },
   {
-    "canonical": "skimpy",
+    "canonical": "xenoglossia",
     "aliases": [
-      "skimpy-2"
-    ]
-  },
-  {
-    "canonical": "ingenious",
-    "aliases": [
-      "ingenious-clever"
-    ]
-  },
-  {
-    "canonical": "inopportune",
-    "aliases": [
-      "inopportune-bad-time"
-    ]
-  },
-  {
-    "canonical": "insensitive",
-    "aliases": [
-      "insensitive-feelings"
-    ]
-  },
-  {
-    "canonical": "insignificant",
-    "aliases": [
-      "insignificant-unimportant"
-    ]
-  },
-  {
-    "canonical": "instinctive",
-    "aliases": [
-      "instinctive-automatic"
-    ]
-  },
-  {
-    "canonical": "tune-in",
-    "aliases": [
-      "round3075-tune-in-broadcast"
-    ]
-  },
-  {
-    "canonical": "inseparably",
-    "aliases": [
-      "inseparably-linked"
-    ]
-  },
-  {
-    "canonical": "insolently",
-    "aliases": [
-      "insolently-rudely"
-    ]
-  },
-  {
-    "canonical": "inopportunely",
-    "aliases": [
-      "inopportunely-bad-time"
-    ]
-  },
-  {
-    "canonical": "insomnia",
-    "aliases": [
-      "insomnia-sleep"
-    ]
-  },
-  {
-    "canonical": "archive",
-    "aliases": [
-      "round3503-archive-verb"
-    ]
-  },
-  {
-    "canonical": "seize",
-    "aliases": [
-      "seize-2"
-    ]
-  },
-  {
-    "canonical": "shareholder-2",
-    "aliases": [
-      "shareholder-3"
-    ]
-  },
-  {
-    "canonical": "legality-2",
-    "aliases": [
-      "legality-3"
-    ]
-  },
-  {
-    "canonical": "computer-2",
-    "aliases": [
-      "computer-3"
-    ]
-  },
-  {
-    "canonical": "change-3",
-    "aliases": [
-      "change-7"
-    ]
-  },
-  {
-    "canonical": "mouth-3",
-    "aliases": [
-      "mouth-5"
-    ]
-  },
-  {
-    "canonical": "goring-2",
-    "aliases": [
-      "goring-3"
-    ]
-  },
-  {
-    "canonical": "mooring-2",
-    "aliases": [
-      "mooring-act-of-securing-a-boat"
-    ]
-  },
-  {
-    "canonical": "gosling-2",
-    "aliases": [
-      "gosling-3"
-    ]
-  },
-  {
-    "canonical": "snack-3",
-    "aliases": [
-      "snack-8",
-      "snack-7"
-    ]
-  },
-  {
-    "canonical": "juniper-2",
-    "aliases": [
-      "editorial-juniper-berry-2345"
-    ]
-  },
-  {
-    "canonical": "compel-2",
-    "aliases": [
-      "compel-3",
-      "compel-4"
-    ]
-  },
-  {
-    "canonical": "manure-2",
-    "aliases": [
-      "round2490-manure-verb"
-    ]
-  },
-  {
-    "canonical": "government-2",
-    "aliases": [
-      "government-3"
-    ]
-  },
-  {
-    "canonical": "granite-2",
-    "aliases": [
-      "granite-3"
-    ]
-  },
-  {
-    "canonical": "squawk-2",
-    "aliases": [
-      "squawk-3",
-      "squawk-harsh-cry-noun-1397"
-    ]
-  },
-  {
-    "canonical": "greek-2",
-    "aliases": [
-      "greek-3"
-    ]
-  },
-  {
-    "canonical": "chili-pepper-3",
-    "aliases": [
-      "chili-pepper-hot-fruit"
-    ]
-  },
-  {
-    "canonical": "lustful-2",
-    "aliases": [
-      "lustful-3"
-    ]
-  },
-  {
-    "canonical": "shearer-2",
-    "aliases": [
-      "shearer-3"
-    ]
-  },
-  {
-    "canonical": "military-5",
-    "aliases": [
-      "round2548-military-noun"
-    ]
-  },
-  {
-    "canonical": "mosquito-2",
-    "aliases": [
-      "mosquito-4"
-    ]
-  },
-  {
-    "canonical": "caring-2",
-    "aliases": [
-      "caring-3"
-    ]
-  },
-  {
-    "canonical": "shake-3",
-    "aliases": [
-      "shake-10",
-      "shake-11"
-    ]
-  },
-  {
-    "canonical": "sparkling-2",
-    "aliases": [
-      "sparkling-shining-brightly"
-    ]
-  },
-  {
-    "canonical": "sneaky-2",
-    "aliases": [
-      "sneaky-3"
-    ]
-  },
-  {
-    "canonical": "gate-2",
-    "aliases": [
-      "gate-5"
-    ]
-  },
-  {
-    "canonical": "tantrum-3",
-    "aliases": [
-      "tantrum-6"
-    ]
-  },
-  {
-    "canonical": "root-6",
-    "aliases": [
-      "root-10"
-    ]
-  },
-  {
-    "canonical": "lazy-5",
-    "aliases": [
-      "lazy-6",
-      "lazy-7"
-    ]
-  },
-  {
-    "canonical": "instant-2",
-    "aliases": [
-      "instant-immediate"
-    ]
-  },
-  {
-    "canonical": "jingle-3",
-    "aliases": [
-      "jingle-ringing-noun"
-    ]
-  },
-  {
-    "canonical": "borage-2",
-    "aliases": [
-      "borage-related"
-    ]
-  },
-  {
-    "canonical": "crookedness-2",
-    "aliases": [
-      "crookedness-dishonesty"
-    ]
-  },
-  {
-    "canonical": "shred-6",
-    "aliases": [
-      "shred-7"
-    ]
-  },
-  {
-    "canonical": "infrasound",
-    "aliases": [
-      "infrasound-low-frequency"
-    ]
-  },
-  {
-    "canonical": "insoluble",
-    "aliases": [
-      "insoluble-dissolve"
-    ]
-  },
-  {
-    "canonical": "reply-2",
-    "aliases": [
-      "reply-3"
-    ]
-  },
-  {
-    "canonical": "infanta",
-    "aliases": [
-      "infanta-royalty"
-    ]
-  },
-  {
-    "canonical": "inguinal",
-    "aliases": [
-      "inguinal-groin"
-    ]
-  },
-  {
-    "canonical": "low-back-pain",
-    "aliases": [
-      "round2453-low-back-pain"
-    ]
-  },
-  {
-    "canonical": "low-mood",
-    "aliases": [
-      "round2453-low-mood"
-    ]
-  },
-  {
-    "canonical": "scoundrel-6",
-    "aliases": [
-      "scoundrel-7"
-    ]
-  },
-  {
-    "canonical": "illiterate-field",
-    "aliases": [
-      "Illiterate-lacking-subject-knowledge"
-    ]
-  },
-  {
-    "canonical": "lamb-meat",
-    "aliases": [
-      "round2372-lamb-meat",
-      "Lamb-meat-from-young-sheep"
-    ]
-  },
-  {
-    "canonical": "round3357-adoption-method",
-    "aliases": [
-      "round3358-adoption-method"
-    ]
-  },
-  {
-    "canonical": "round3357-adopter-method",
-    "aliases": [
-      "round3358-adopter-method"
-    ]
-  },
-  {
-    "canonical": "regicide-monarch-killer-1236",
-    "aliases": [
-      "regicide-person-who-kills-monarch"
-    ]
-  },
-  {
-    "canonical": "navajo-language",
-    "aliases": [
-      "Navajo-language"
-    ]
-  },
-  {
-    "canonical": "hypothyroidism",
-    "aliases": [
-      "hypothyroidism-2"
-    ]
-  },
-  {
-    "canonical": "jargon-2",
-    "aliases": [
-      "jargon-3"
-    ]
-  },
-  {
-    "canonical": "adjust",
-    "aliases": [
-      "adjust-3"
-    ]
-  },
-  {
-    "canonical": "skull-4",
-    "aliases": [
-      "skull-5"
-    ]
-  },
-  {
-    "canonical": "insulin-dependent",
-    "aliases": [
-      "insulin-dependent-condition"
-    ]
-  },
-  {
-    "canonical": "rivet-hold-attention",
-    "aliases": [
-      "rivet-hold-someones-attention"
-    ]
-  },
-  {
-    "canonical": "strawberry-tree",
-    "aliases": [
-      "arbutus-unedo-tree"
-    ]
-  },
-  {
-    "canonical": "hexadecimal",
-    "aliases": [
-      "hexadecimal-2"
-    ]
-  },
-  {
-    "canonical": "captivate",
-    "aliases": [
-      "captivate-2"
-    ]
-  },
-  {
-    "canonical": "skunk-2",
-    "aliases": [
-      "skunk-3"
-    ]
-  },
-  {
-    "canonical": "shell-4",
-    "aliases": [
-      "shell-remove-outer-cover"
-    ]
-  },
-  {
-    "canonical": "legacy",
-    "aliases": [
-      "legacy-3"
-    ]
-  },
-  {
-    "canonical": "change-2",
-    "aliases": [
-      "change-4"
-    ]
-  },
-  {
-    "canonical": "guava-2",
-    "aliases": [
-      "guava-edible-fruit"
-    ]
-  },
-  {
-    "canonical": "mooring-4",
-    "aliases": [
-      "mooring-6"
-    ]
-  },
-  {
-    "canonical": "executor-2",
-    "aliases": [
-      "executor-4"
-    ]
-  },
-  {
-    "canonical": "endorse-5",
-    "aliases": [
-      "endorse-6"
-    ]
-  },
-  {
-    "canonical": "collate-arrange-pages-or-sheets-in-order",
-    "aliases": [
-      "Collate-arrange-pages-in-order"
-    ]
-  },
-  {
-    "canonical": "shave-4",
-    "aliases": [
-      "shave-5"
-    ]
-  },
-  {
-    "canonical": "span",
-    "aliases": [
-      "span-distance-between-ends"
-    ]
-  },
-  {
-    "canonical": "lining-4",
-    "aliases": [
-      "Lining-covering-the-inside"
-    ]
-  },
-  {
-    "canonical": "instill-liquid",
-    "aliases": [
-      "instill-put-liquid-in-drops-1371"
-    ]
-  },
-  {
-    "canonical": "ineptitude",
-    "aliases": [
-      "ineptitude-2"
-    ]
-  },
-  {
-    "canonical": "polish-7",
-    "aliases": [
-      "polish-9"
-    ]
-  },
-  {
-    "canonical": "support-6",
-    "aliases": [
-      "support-8"
-    ]
-  },
-  {
-    "canonical": "donkey-8",
-    "aliases": [
-      "donkey-foolish-person-insult"
-    ]
-  },
-  {
-    "canonical": "beggar-3",
-    "aliases": [
-      "beggar-4"
-    ]
-  },
-  {
-    "canonical": "motley",
-    "aliases": [
-      "motley-2"
-    ]
-  },
-  {
-    "canonical": "lacquer",
-    "aliases": [
-      "lacquer-3"
-    ]
-  },
-  {
-    "canonical": "cavity",
-    "aliases": [
-      "cavity-hole-in-a-tooth"
-    ]
-  },
-  {
-    "canonical": "intensify",
-    "aliases": [
-      "intensify-3"
-    ]
-  },
-  {
-    "canonical": "late-2",
-    "aliases": [
-      "late-5",
-      "late-8"
-    ]
-  },
-  {
-    "canonical": "infamous-2",
-    "aliases": [
-      "infamous-4"
-    ]
-  },
-  {
-    "canonical": "invigorate",
-    "aliases": [
-      "invigorate-2",
-      "invigorate-3"
-    ]
-  },
-  {
-    "canonical": "muscovado",
-    "aliases": [
-      "muscovado-2"
-    ]
-  },
-  {
-    "canonical": "indoctrinate",
-    "aliases": [
-      "indoctrinate-beliefs"
-    ]
-  },
-  {
-    "canonical": "snort-8",
-    "aliases": [
-      "snort-10"
-    ]
-  },
-  {
-    "canonical": "insert-3",
-    "aliases": [
-      "insert-4"
-    ]
-  },
-  {
-    "canonical": "shrinkage",
-    "aliases": [
-      "shrinkage-2"
-    ]
-  },
-  {
-    "canonical": "house-3",
-    "aliases": [
-      "house-4"
-    ]
-  },
-  {
-    "canonical": "huge-2",
-    "aliases": [
-      "huge-4"
-    ]
-  },
-  {
-    "canonical": "premolar",
-    "aliases": [
-      "round2897-premolar-adjective"
-    ]
-  },
-  {
-    "canonical": "daguerreotype-3",
-    "aliases": [
-      "daguerreotype-4"
-    ]
-  },
-  {
-    "canonical": "reprimand",
-    "aliases": [
-      "reprimand-2"
+      "xenoglossy"
     ]
   }
 ]

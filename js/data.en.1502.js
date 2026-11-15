@@ -4867,7 +4867,7 @@ DICCIONARIOS.en = DICCIONARIOS.en.concat([
     example: { word: "seizure", text: "She had a seizure and needed medical help." },
     exampleSynonym: { word: "episode of unusual brain signals", text: "She had an episode of unusual brain signals and needed medical help." },
     situacion: "salud",
-    translation: { "es": "convulsión" },
+    translation: { "es": "convulsion" },
   },
 
   // --- Editorial audit: separate pneumonic sense ---
@@ -4903,6 +4903,6 @@ DICCIONARIOS.en = DICCIONARIOS.en.concat([
     synonyms: ["market capitalization","market cap"],
     example: { word: "capitalization", text: "The company’s capitalization rose after its share price increased." },
     exampleSynonym: { word: "market cap", text: "The company’s market cap rose after its share price increased." },
-    situacion: "finance",
+    situacion: "finanzas",
   },
 ]);
