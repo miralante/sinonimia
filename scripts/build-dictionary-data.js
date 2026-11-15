@@ -292,6 +292,7 @@ function loadSourceDictionaries() {
     });
     manifest[lang].forEach(function (shard, index) {
       vm.runInContext(fs.readFileSync(path.join(ROOT, shard.file), "utf8"), ctx, { filename: shard.file });
+      installFastIdLookup(ctx.DICCIONARIOS[lang]);
       if (index === 0) {
         // Keep deleted entries as build-time tombstones so legacy source patches
         // can still resolve their IDs. applySynonymMerges removes these records
@@ -351,6 +352,61 @@ function loadSourceDictionaries() {
   return ctx.DICCIONARIOS;
 }
 
+// Editorial shards often perform thousands of findIndex(id === "...")
+// updates against the same large dictionary array. Keep those lookups indexed
+// while preserving the normal Array behavior for every other predicate.
+function installFastIdLookup(entries) {
+  if (!Array.isArray(entries) || entries.__idLookupInstalled) return;
+  const byId = new Map();
+  function rebuild() {
+    byId.clear();
+    entries.forEach(function (entry, index) {
+      if (entry && typeof entry.id === "string" && !byId.has(entry.id)) byId.set(entry.id, index);
+    });
+  }
+  rebuild();
+  const originalFindIndex = Array.prototype.findIndex;
+  entries.findIndex = function (predicate, thisArg) {
+    const source = Function.prototype.toString.call(predicate);
+    const match = source.match(/\b[A-Za-z_$][\w$]*\.id\s*===\s*(["'])([^"']+)\1/);
+    if (match) {
+      const index = byId.get(match[2]);
+      if (index === undefined) return -1;
+      if (predicate.call(thisArg, this[index], index, this)) return index;
+    }
+    return originalFindIndex.call(this, predicate, thisArg);
+  };
+  const originalPush = Array.prototype.push;
+  entries.push = function (...items) {
+    const start = this.length;
+    const result = originalPush.apply(this, items);
+    items.forEach(function (entry, offset) {
+      if (entry && typeof entry.id === "string" && !byId.has(entry.id)) byId.set(entry.id, start + offset);
+    });
+    return result;
+  };
+  const originalSplice = Array.prototype.splice;
+  entries.splice = function (...args) {
+    if (args.length > 2 && args[0] === 0 && args[1] === this.length) {
+      const replacement = args.slice(2);
+      this.length = 0;
+      replacement.forEach(function (entry) { originalPush.call(entries, entry); });
+      rebuild();
+      return [];
+    }
+    const result = originalSplice.apply(this, args);
+    rebuild();
+    return result;
+  };
+  const originalFilter = Array.prototype.filter;
+  entries.filter = function (...args) {
+    const filtered = originalFilter.apply(this, args);
+    installFastIdLookup(filtered);
+    return filtered;
+  };
+  Object.defineProperty(entries, "__idLookupInstalled", { value: true });
+}
+
 // Rewrites the `?v=<hash>` of every source shard in js/dictionary-manifest.js.
 function refreshSourceManifest() {
   const manifestPath = path.join(JS_DIR, "dictionary-manifest.js");
@@ -363,7 +419,7 @@ function refreshSourceManifest() {
 
 function main() {
   const started = Date.now();
-  const dictionaries = applySynonymMerges(loadSourceDictionaries());
+  const dictionaries = applyRebaseMergeOverlay(applySynonymMerges(loadSourceDictionaries()));
   const result = build(dictionaries);
 
   const keep = new Set(result.files.map(function (f) { return f.path; }));

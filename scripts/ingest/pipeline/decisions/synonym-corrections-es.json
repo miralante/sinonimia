@@ -29024,19 +29024,17 @@
     "entry": "embargo",
     "remove": [],
     "set": {
-      "definition": "Retención de bienes o dinero por orden de un juez o una autoridad para asegurar el pago de una deuda.",
+      "definition": "Orden legal que retiene bienes o dinero para cobrar una deuda. Un juez u otra autoridad puede ordenarlo.",
       "synonyms": [
-        "incautación",
-        "retención",
-        "secuestro de bienes"
+        "retención de bienes o dinero"
       ],
       "example": {
         "word": "embargo",
         "text": "El embargo de la cuenta permitió recuperar parte de la deuda."
       },
       "exampleSynonym": {
-        "word": "incautación",
-        "text": "La incautación de la cuenta permitió recuperar parte de la deuda."
+        "word": "retención de bienes o dinero",
+        "text": "La retención de bienes o dinero permitió recuperar parte de la deuda."
       }
     }
   },
@@ -32208,7 +32206,7 @@
     "entry": "empoderar",
     "remove": [],
     "set": {
-      "definition": "Dar a una persona o grupo poder, autoridad o capacidad para decidir y actuar.",
+      "definition": "Dar a una persona o grupo poder, autonomía o capacidad para decidir y actuar.",
       "synonyms": [
         "dar poder",
         "dar autonomía",
@@ -32222,7 +32220,8 @@
         "word": "dar autonomía",
         "text": "El programa busca dar autonomía a las comunidades locales."
       }
-    }
+    },
+    "unset": []
   },
   {
     "entry": "empollar",
@@ -34684,7 +34683,8 @@
       "definition": "Dicho de una mujer, que está embarazada.",
       "synonyms": [
         "embarazada",
-        "gestante"
+        "gestante",
+        "Grávido"
       ],
       "example": {
         "word": "encinta",
@@ -36737,20 +36737,21 @@
     "entry": "enfriador",
     "remove": [],
     "set": {
-      "definition": "Aparato o sustancia que sirve para enfriar algo.",
+      "definition": "Aparato que sirve para enfriar algo.",
       "synonyms": [
         "refrigerador",
         "dispositivo de enfriamiento"
       ],
       "example": {
-        "word": "un enfriador",
+        "word": "enfriador",
         "text": "El enfriador mantiene fría la bebida."
       },
       "exampleSynonym": {
-        "word": "un refrigerador",
+        "word": "refrigerador",
         "text": "El refrigerador mantiene fría la bebida."
       }
-    }
+    },
+    "unset": []
   },
   {
     "entry": "enfriar",
@@ -39880,18 +39881,18 @@
     "entry": "ente",
     "remove": [],
     "set": {
-      "definition": "Something that exists or could exist.",
+      "definition": "Ser, objeto o entidad que existe o podría existir.",
       "synonyms": [
-        "ser",
-        "entidad"
+        "entidad",
+        "ser"
       ],
       "example": {
-        "word": "un ente",
-        "text": "La filosofía pregunta qué significa que algo sea un ente."
+        "word": "ente",
+        "text": "El informe no identificó qué ente había tomado la decisión."
       },
       "exampleSynonym": {
-        "word": "un ser",
-        "text": "La filosofía pregunta qué significa que algo sea un ser."
+        "word": "entidad",
+        "text": "El informe no identificó qué entidad había tomado la decisión."
       }
     }
   },
@@ -50309,7 +50310,7 @@
     "entry": "espectro",
     "remove": [],
     "set": {
-      "definition": "A ghost or imagined presence.",
+      "definition": "Fantasma o presencia que alguien cree ver.",
       "synonyms": [
         "fantasma",
         "aparición"
@@ -50329,7 +50330,7 @@
     "entry": "espectrograma",
     "remove": [],
     "set": {
-      "definition": "A picture that shows how a signal changes over time.",
+      "definition": "Gráfico que muestra cómo cambia un sonido o una señal.",
       "synonyms": [
         "gráfico de una señal",
         "representación visual de frecuencias"
@@ -50340,7 +50341,7 @@
       },
       "exampleSynonym": {
         "word": "gráfico de una señal",
-        "text": "El gráfico de la señal mostró cómo cambió el sonido."
+        "text": "El gráfico de una señal mostró cómo cambió el sonido."
       },
       "situacion": "conocimiento"
     }
@@ -108378,18 +108379,17 @@
       "translation"
     ],
     "set": {
-      "definition": "Relating to the bony bump of the skull behind the ear.",
+      "definition": "Relacionado con el hueso que sobresale detrás de la oreja.",
       "synonyms": [
-        "relativo a la apófisis mastoides",
-        "del hueso temporal"
+        "relativo a la apófisis mastoides"
       ],
       "example": {
         "word": "mastoides",
-        "text": "La zona mastoides estaba sensible detrás de la oreja."
+        "text": "El médico revisó la zona mastoides detrás de la oreja."
       },
       "exampleSynonym": {
         "word": "relativo a la apófisis mastoides",
-        "text": "El dolor relativo a la apófisis mastoides se sentía detrás de la oreja."
+        "text": "El informe describe un dolor relativo a la apófisis mastoides, detrás de la oreja."
       },
       "situacion": "salud"
     }
@@ -108401,18 +108401,17 @@
       "translation"
     ],
     "set": {
-      "definition": "A disease or abnormal change in the breast.",
+      "definition": "Enfermedad o cambio anormal en el tejido de las mamas.",
       "synonyms": [
-        "alteración mamaria",
-        "enfermedad de la mama"
+        "alteración mamaria"
       ],
       "example": {
         "word": "mastopatía",
-        "text": "La mastopatía causó dolor en la mama."
+        "text": "La mastopatía puede causar cambios en el tejido de la mama."
       },
       "exampleSynonym": {
         "word": "alteración mamaria",
-        "text": "La alteración mamaria causó dolor en la mama."
+        "text": "La alteración mamaria puede causar cambios en el tejido de la mama."
       },
       "situacion": "salud"
     }
@@ -108424,18 +108423,17 @@
       "translation"
     ],
     "set": {
-      "definition": "An edible plant with small white flowers and a peppery taste.",
+      "definition": "Planta comestible de flores blancas pequeñas y sabor picante.",
       "synonyms": [
-        "berro de jardín",
-        "planta comestible"
+        "hierba picante"
       ],
       "example": {
         "word": "mastuerzo",
-        "text": "El mastuerzo picante crecía junto al huerto."
+        "text": "Añadieron mastuerzo a la ensalada por su sabor picante."
       },
       "exampleSynonym": {
-        "word": "berro de jardín",
-        "text": "El berro de jardín picante crecía junto al huerto."
+        "word": "hierba picante",
+        "text": "Añadieron una hierba picante a la ensalada."
       },
       "situacion": "naturaleza"
     }
@@ -108447,18 +108445,17 @@
       "translation"
     ],
     "set": {
-      "definition": "Stimulate the genitals by hand or another means for sexual pleasure.",
+      "definition": "Estimular los órganos sexuales para obtener placer.",
       "synonyms": [
-        "estimular sexualmente",
-        "darse placer"
+        "autoestimularse"
       ],
       "example": {
         "word": "masturbar",
-        "text": "La información explica cómo masturbar a otra persona con consentimiento."
+        "text": "El folleto explica qué significa masturbarse."
       },
       "exampleSynonym": {
-        "word": "estimular sexualmente",
-        "text": "La información explica cómo estimular sexualmente a otra persona con consentimiento."
+        "word": "autoestimularse",
+        "text": "El folleto explica qué significa autoestimularse."
       },
       "situacion": "salud"
     }
@@ -108470,7 +108467,7 @@
       "translation"
     ],
     "set": {
-      "definition": "A colloquial word for a dictionary.",
+      "definition": "Palabra coloquial para referirse a un diccionario.",
       "synonyms": [
         "diccionario",
         "vocabulario"
@@ -108559,7 +108556,7 @@
     "entry": "matafuego",
     "remove": [],
     "set": {
-      "definition": "A device used to put out fires.",
+      "definition": "Dispositivo que sirve para apagar incendios.",
       "synonyms": [
         "extintor",
         "apagafuegos"
@@ -108608,18 +108605,18 @@
       "translation"
     ],
     "set": {
-      "definition": "An aromatic plant whose seeds have an anise flavor.",
+      "definition": "Planta aromática cuyas semillas tienen sabor a anís.",
       "synonyms": [
-        "matalahúga",
-        "anís verde"
+        "anís",
+        "matalahúga"
       ],
       "example": {
         "word": "matalahúva",
-        "text": "La matalahúva se usa para aromatizar algunos dulces."
+        "text": "Añadieron matalahúva a la masa para darle sabor a anís."
       },
       "exampleSynonym": {
-        "word": "matalahúga",
-        "text": "La matalahúga se usa para aromatizar algunos dulces."
+        "word": "anís",
+        "text": "Añadieron anís a la masa para darle sabor."
       },
       "situacion": "naturaleza"
     }
@@ -108675,18 +108672,18 @@
       "translation"
     ],
     "set": {
-      "definition": "A woman who works as a butcher.",
+      "definition": "Mujer que trabaja en un matadero y mata o prepara animales para el consumo.",
       "synonyms": [
         "matarife",
         "trabajadora del matadero"
       ],
       "example": {
         "word": "matancera",
-        "text": "La matancera preparó la carne para el mercado."
+        "text": "La matancera preparó la carne en el matadero."
       },
       "exampleSynonym": {
         "word": "matarife",
-        "text": "La matarife preparó la carne para el mercado."
+        "text": "La matarife preparó la carne en el matadero."
       },
       "situacion": "vida-diaria"
     }
@@ -108698,18 +108695,18 @@
       "translation"
     ],
     "set": {
-      "definition": "A butcher who kills and prepares animals in a slaughterhouse.",
+      "definition": "Persona que trabaja en un matadero y mata o prepara animales para el consumo.",
       "synonyms": [
         "matarife",
         "trabajador del matadero"
       ],
       "example": {
         "word": "matancero",
-        "text": "El matancero preparó la carne para el mercado."
+        "text": "El matancero preparó la carne en el matadero."
       },
       "exampleSynonym": {
         "word": "matarife",
-        "text": "El matarife preparó la carne para el mercado."
+        "text": "El matarife preparó la carne en el matadero."
       },
       "situacion": "vida-diaria"
     }
@@ -108718,18 +108715,18 @@
     "entry": "mataperros",
     "remove": [],
     "set": {
-      "definition": "A mischievous boy who spends time in the streets.",
+      "definition": "Muchacho travieso que pasa mucho tiempo en la calle.",
       "synonyms": [
-        "muchacho callejero y travieso",
-        "chaval travieso"
+        "chico callejero",
+        "muchacho travieso"
       ],
       "example": {
         "word": "mataperros",
-        "text": "El mataperros jugaba en la calle con sus amigos."
+        "text": "De niño era un mataperros y jugaba en la calle todo el día."
       },
       "exampleSynonym": {
-        "word": "muchacho callejero y travieso",
-        "text": "El muchacho callejero y travieso jugaba con sus amigos."
+        "word": "muchacho travieso",
+        "text": "De niño era un muchacho travieso y jugaba en la calle todo el día."
       },
       "translation": {
         "en": "street urchin"
@@ -108744,7 +108741,7 @@
       "translation"
     ],
     "set": {
-      "definition": "A brief, light rain that barely wets the ground.",
+      "definition": "Lluvia fina que apenas moja el suelo.",
       "synonyms": [
         "llovizna",
         "lluvia muy fina"
@@ -108767,18 +108764,18 @@
       "translation"
     ],
     "set": {
-      "definition": "A worker who kills and prepares animals for meat.",
+      "definition": "Persona que mata y prepara animales para el consumo.",
       "synonyms": [
-        "matancero",
-        "trabajador del matadero"
+        "trabajador del matadero",
+        "Matancero"
       ],
       "example": {
         "word": "matarife",
-        "text": "El matarife preparó las reses en el matadero."
+        "text": "El matarife preparó los animales en el matadero."
       },
       "exampleSynonym": {
-        "word": "matancero",
-        "text": "El matancero preparó las reses en el matadero."
+        "word": "trabajador del matadero",
+        "text": "El trabajador del matadero preparó los animales."
       },
       "situacion": "vida-diaria"
     }
@@ -108833,18 +108830,18 @@
     "entry": "matasellos",
     "remove": [],
     "set": {
-      "definition": "A stamp used by a post office to cancel postage.",
+      "definition": "Marca que el servicio postal imprime para anular un sello o indicar la fecha del envío.",
       "synonyms": [
-        "estampilla de cancelación",
-        "sello postal cancelador"
+        "marca postal",
+        "sello de anulación"
       ],
       "example": {
         "word": "matasellos",
-        "text": "El matasellos anuló la estampilla del sobre."
+        "text": "El matasellos mostraba el día en que enviaron la carta."
       },
       "exampleSynonym": {
-        "word": "estampilla de cancelación",
-        "text": "La estampilla de cancelación quedó marcada en el sobre."
+        "word": "marca postal",
+        "text": "La marca postal mostraba el día en que enviaron la carta."
       },
       "translation": {
         "en": "postmark"
@@ -108859,10 +108856,10 @@
       "translation"
     ],
     "set": {
-      "definition": "A boastful person who claims to be brave.",
+      "definition": "Persona jactanciosa que presume de valiente.",
       "synonyms": [
         "fanfarrón",
-        "bravucón"
+        "valentón"
       ],
       "example": {
         "word": "matasiete",
@@ -108905,7 +108902,7 @@
       "translation"
     ],
     "set": {
-      "definition": "A mass killing of people.",
+      "definition": "Matanza de muchas personas.",
       "synonyms": [
         "matanza",
         "masacre"
@@ -108928,18 +108925,17 @@
       "translation"
     ],
     "set": {
-      "definition": "The act of drinking mate.",
+      "definition": "Acción de tomar mate, una infusión tradicional de Sudamérica.",
       "synonyms": [
-        "tomar mate",
-        "sesión de mate"
+        "consumo de mate"
       ],
       "example": {
         "word": "mateada",
         "text": "La mateada duró toda la tarde."
       },
       "exampleSynonym": {
-        "word": "tomar mate",
-        "text": "Tomar mate duró toda la tarde."
+        "word": "consumo de mate",
+        "text": "El consumo de mate duró toda la tarde."
       },
       "situacion": "vida-diaria"
     }
@@ -108974,18 +108970,18 @@
       "translation"
     ],
     "set": {
-      "definition": "In Chile, a person who studies a lot.",
+      "definition": "En Chile, persona que estudia mucho o es muy aplicada.",
       "synonyms": [
         "estudioso",
         "persona aplicada"
       ],
       "example": {
         "word": "mateo",
-        "text": "El mateo siempre terminaba sus tareas temprano."
+        "text": "En Chile, llaman mateo a quien estudia mucho."
       },
       "exampleSynonym": {
         "word": "estudioso",
-        "text": "El estudioso siempre terminaba sus tareas temprano."
+        "text": "El estudioso estudia mucho en Chile."
       },
       "situacion": "educacion"
     }
@@ -108997,18 +108993,17 @@
       "translation"
     ],
     "set": {
-      "definition": "The quality of being physical or made of matter.",
+      "definition": "Cualidad de ser material o tener forma física.",
       "synonyms": [
-        "naturaleza material",
-        "condición física"
+        "carácter físico"
       ],
       "example": {
         "word": "materialidad",
-        "text": "La materialidad de la roca era evidente al tocarla."
+        "text": "La materialidad del objeto permitía tocarlo."
       },
       "exampleSynonym": {
-        "word": "naturaleza material",
-        "text": "La naturaleza material de la roca era evidente al tocarla."
+        "word": "carácter físico",
+        "text": "El carácter físico del objeto permitía tocarlo."
       },
       "situacion": "conocimiento"
     }
@@ -109020,14 +109015,13 @@
       "translation"
     ],
     "set": {
-      "definition": "Giving too much importance to possessions and money.",
+      "definition": "Importancia excesiva que se da al dinero y las posesiones.",
       "synonyms": [
-        "apego a lo material",
-        "consumismo"
+        "apego a lo material"
       ],
       "example": {
         "word": "materialismo",
-        "text": "El materialismo puede hacer que olvidemos otras prioridades."
+        "text": "El materialismo puede ocultar otras prioridades."
       },
       "exampleSynonym": {
         "word": "apego a lo material",
@@ -109043,18 +109037,18 @@
       "translation"
     ],
     "set": {
-      "definition": "Give a physical form to a project, idea, or feeling.",
+      "definition": "Dar forma concreta o hacer real una idea, un proyecto o un sentimiento.",
       "synonyms": [
-        "concretar",
-        "dar cuerpo"
+        "hacer realidad",
+        "concretar"
       ],
       "example": {
         "word": "materializar",
-        "text": "El equipo espera materializar su proyecto este año."
+        "text": "El equipo logró materializar su proyecto."
       },
       "exampleSynonym": {
-        "word": "concretar",
-        "text": "El equipo espera concretar su proyecto este año."
+        "word": "hacer realidad",
+        "text": "El equipo logró hacer realidad su proyecto."
       },
       "situacion": "vida-diaria"
     }
@@ -109164,11 +109158,11 @@
       ],
       "example": {
         "word": "materno",
-        "text": "Su abuelo materno vivía cerca de la familia."
+        "text": "El vínculo materno se fortalece con el tiempo."
       },
       "exampleSynonym": {
-        "word": "de la madre",
-        "text": "El abuelo de la madre vivía cerca de la familia."
+        "word": "maternal",
+        "text": "El vínculo maternal se fortalece con el tiempo."
       }
     }
   },
@@ -113262,10 +113256,10 @@
       "translation"
     ],
     "set": {
-      "definition": "Que tiene el cabello abundante y largo.",
+      "definition": "Dicho de una persona o animal, que tiene el cabello o pelo abundante y largo; también, quien presenta esa característica.",
       "synonyms": [
         "de pelo largo",
-        "peludo"
+        "persona de larga cabellera"
       ],
       "example": {
         "word": "melenudo",
@@ -119373,18 +119367,17 @@
     "entry": "mildiu",
     "remove": [],
     "set": {
-      "definition": "Plant disease that causes spots and damage to leaves, stems, and fruit.",
+      "definition": "Enfermedad de las plantas que daña las hojas, los tallos y los frutos.",
       "synonyms": [
-        "mildéu",
-        "plant mildew"
+        "enfermedad de las plantas"
       ],
       "example": {
         "word": "mildiu",
-        "text": "El mildiu dañó las hojas de la vid."
+        "text": "El mildiu dañó las hojas de las vides."
       },
       "exampleSynonym": {
-        "word": "mildéu",
-        "text": "El mildéu dañó las hojas de la vid."
+        "word": "enfermedad de las plantas",
+        "text": "La enfermedad de las plantas dañó las hojas de las vides."
       },
       "situacion": "salud"
     }
@@ -119393,18 +119386,17 @@
     "entry": "milenarismo",
     "remove": [],
     "set": {
-      "definition": "Belief that Christ will rule the world for a thousand years.",
+      "definition": "Creencia religiosa de que Cristo gobernará el mundo durante mil años.",
       "synonyms": [
-        "creencia en el reino milenario de Cristo",
-        "doctrina milenarista"
+        "creencia del reinado de mil años"
       ],
       "example": {
         "word": "milenarismo",
-        "text": "El milenarismo anuncia un reino de mil años."
+        "text": "El milenarismo sostiene que Cristo gobernará el mundo durante mil años."
       },
       "exampleSynonym": {
-        "word": "doctrina milenarista",
-        "text": "La doctrina milenarista anuncia un reino de mil años."
+        "word": "creencia del reinado de mil años",
+        "text": "El milenarismo es la creencia del reinado de mil años de Cristo."
       },
       "situacion": "conocimiento"
     }
@@ -120935,10 +120927,10 @@
     "entry": "mirra",
     "remove": [],
     "set": {
-      "definition": "Reddish, fragrant resin from certain trees in Arabia and Africa.",
+      "definition": "Resina rojiza y aromática que se obtiene de algunos árboles.",
       "synonyms": [
-        "aromatic resin",
-        "fragrant tree resin"
+        "resina aromática",
+        "resina perfumada"
       ],
       "example": {
         "word": "mirra",
@@ -137750,12 +137742,13 @@
     "entry": "nonagono",
     "remove": [],
     "set": {
-      "definition": "A shape with nine sides and nine angles.",
+      "definition": "Figura de nueve lados y nueve ángulos.",
       "synonyms": [
-        "eneágono"
+        "eneágono",
+        "polígono de nueve lados"
       ],
       "example": {
-        "word": "nonagono",
+        "word": "nonágono",
         "text": "El nonágono tiene nueve lados iguales."
       },
       "exampleSynonym": {
@@ -143412,7 +143405,10 @@
       "definition": "Que se puede elegir, pero no es obligatorio.",
       "synonyms": [
         "voluntario",
-        "optativo"
+        "optativo",
+        "Potestativo",
+        "facultativo",
+        "electivo"
       ],
       "example": {
         "word": "opcional",
@@ -147734,10 +147730,10 @@
     "entry": "ovicida",
     "remove": [],
     "set": {
-      "definition": "Sustancia que destruye huevos de insectos u otros animales.",
+      "definition": "Que destruye huevos de insectos u otros animales; dicho de una sustancia, que los destruye.",
       "synonyms": [
-        "sustancia ovicida",
-        "matahuevos"
+        "que destruye huevos",
+        "producto ovicida"
       ],
       "example": {
         "word": "ovicida",
@@ -152876,18 +152872,17 @@
     "entry": "papable",
     "remove": [],
     "set": {
-      "definition": "Cardinal considered a possible choice for pope.",
+      "definition": "Dicho de un cardenal: posible candidato a papa.",
       "synonyms": [
-        "papal candidate",
-        "possible pope"
+        "posible candidato a papa"
       ],
       "example": {
-        "word": "Papable",
-        "text": "The cardinal was papable after the meeting."
+        "word": "papable",
+        "text": "El cardenal era papable tras la reunión."
       },
       "exampleSynonym": {
-        "word": "papal candidate",
-        "text": "The cardinal was a papal candidate after the meeting."
+        "word": "posible candidato a papa",
+        "text": "El cardenal era posible candidato a papa tras la reunión."
       },
       "situacion": "historia",
       "word": "Papable",
@@ -152919,18 +152914,18 @@
     "entry": "papado",
     "remove": [],
     "set": {
-      "definition": "Position and authority held by the pope.",
+      "definition": "Cargo y autoridad que tiene el papa en la Iglesia católica.",
       "synonyms": [
-        "pontificate",
-        "papal office"
+        "pontificado",
+        "cargo de papa"
       ],
       "example": {
-        "word": "Papado",
-        "text": "His papado began in 2013."
+        "word": "papado",
+        "text": "Su papado comenzó en 2013."
       },
       "exampleSynonym": {
-        "word": "pontificate",
-        "text": "His pontificate began in 2013."
+        "word": "pontificado",
+        "text": "Su pontificado comenzó en 2013."
       },
       "situacion": "historia",
       "word": "Papado",
@@ -152963,18 +152958,17 @@
     "entry": "papaina",
     "remove": [],
     "set": {
-      "definition": "Enzyme in papaya that breaks down proteins.",
+      "definition": "Enzima de la papaya que ayuda a descomponer las proteínas.",
       "synonyms": [
-        "enzima de papaya",
-        "papaya enzyme"
+        "enzima de la papaya"
       ],
       "example": {
-        "word": "Papaína",
+        "word": "papaína",
         "text": "La papaína ayuda a descomponer proteínas."
       },
       "exampleSynonym": {
-        "word": "enzima de papaya",
-        "text": "La enzima de papaya ayuda a descomponer proteínas."
+        "word": "enzima de la papaya",
+        "text": "La enzima de la papaya ayuda a descomponer proteínas."
       },
       "situacion": "salud",
       "word": "Papaína",
@@ -166841,7 +166835,8 @@
       "definition": "Que puede causar daño.",
       "synonyms": [
         "dañino",
-        "nocivo"
+        "nocivo",
+        "Lesivo"
       ],
       "image": {
         "id": 2450,
@@ -175680,9 +175675,9 @@
     "remove": [],
     "set": {
       "word": "Pitillera",
-      "definition": "A woman who makes cigarettes by rolling tobacco in paper.",
+      "definition": "Mujer que fabrica cigarrillos enrollando tabaco en papel.",
       "synonyms": [
-        "cigarette maker"
+        "fabricante de cigarrillos"
       ],
       "image": {
         "id": 7024,
@@ -175690,11 +175685,11 @@
       },
       "example": {
         "word": "pitillera",
-        "text": "The pitillera rolled cigarettes by hand."
+        "text": "La pitillera enrollaba el tabaco para fabricar cigarrillos."
       },
       "exampleSynonym": {
-        "word": "cigarette maker",
-        "text": "The cigarette maker rolled them by hand."
+        "word": "fabricante de cigarrillos",
+        "text": "La fabricante de cigarrillos enrollaba el tabaco para preparar cada unidad."
       },
       "situacion": "trabajo"
     }
@@ -175848,9 +175843,9 @@
     "remove": [],
     "set": {
       "word": "Pitón",
-      "definition": "A sharp point on a pole or horn.",
+      "definition": "Punta aguda de una pértiga, un cuerno u otro objeto.",
       "synonyms": [
-        "sharp tip"
+        "punta aguda"
       ],
       "image": {
         "id": 7024,
@@ -175858,11 +175853,11 @@
       },
       "example": {
         "word": "pitón",
-        "text": "The pitón of the spear was made of iron."
+        "text": "El pitón de la pértiga se clavó en la tierra."
       },
       "exampleSynonym": {
-        "word": "sharp tip",
-        "text": "The sharp tip of the spear was made of iron."
+        "word": "punta aguda",
+        "text": "La punta aguda de la pértiga se clavó en la tierra."
       },
       "situacion": "naturaleza"
     }
@@ -175896,9 +175891,10 @@
     "remove": [],
     "set": {
       "word": "Pitonisa",
-      "definition": "A woman in ancient Greece who gave Apollo’s oracles at Delphi.",
+      "definition": "En la antigua Grecia, mujer que transmitía en Delfos los mensajes del oráculo de Apolo.",
       "synonyms": [
-        "priestess of Apollo"
+        "sacerdotisa de Apolo",
+        "intérprete del oráculo"
       ],
       "image": {
         "id": 7024,
@@ -175906,11 +175902,11 @@
       },
       "example": {
         "word": "pitonisa",
-        "text": "The pitonisa spoke at the temple in Delphi."
+        "text": "La pitonisa habló en el templo de Delfos."
       },
       "exampleSynonym": {
-        "word": "priestess of Apollo",
-        "text": "The priestess of Apollo spoke at the temple in Delphi."
+        "word": "sacerdotisa de Apolo",
+        "text": "La sacerdotisa de Apolo habló en el templo de Delfos."
       },
       "situacion": "historia"
     }
@@ -175920,9 +175916,10 @@
     "remove": [],
     "set": {
       "word": "Pitonisa",
-      "definition": "A woman who claims to predict the future.",
+      "definition": "Mujer que afirma que puede predecir el futuro.",
       "synonyms": [
-        "fortune-teller"
+        "adivina",
+        "vidente"
       ],
       "image": {
         "id": 7024,
@@ -175930,11 +175927,11 @@
       },
       "example": {
         "word": "pitonisa",
-        "text": "The pitonisa read the cards for visitors."
+        "text": "La pitonisa leyó las cartas a los visitantes."
       },
       "exampleSynonym": {
-        "word": "fortune-teller",
-        "text": "The fortune-teller read the cards for visitors."
+        "word": "adivina",
+        "text": "La adivina leyó las cartas a los visitantes."
       },
       "situacion": "sociedad"
     }
@@ -175968,9 +175965,10 @@
     "remove": [],
     "set": {
       "word": "Pitorreo",
-      "definition": "Mocking someone or treating them as a joke.",
+      "definition": "Burla o trato de alguien como si fuera motivo de risa.",
       "synonyms": [
-        "ridicule"
+        "burla",
+        "tomadura de pelo"
       ],
       "image": {
         "id": 7024,
@@ -175978,11 +175976,11 @@
       },
       "example": {
         "word": "pitorreo",
-        "text": "The pitorreo continued after the mistake."
+        "text": "El pitorreo constante terminó molestando a su compañero."
       },
       "exampleSynonym": {
-        "word": "ridicule",
-        "text": "The ridicule continued after the mistake."
+        "word": "burla",
+        "text": "La burla constante terminó molestando a su compañero."
       },
       "situacion": "sociedad"
     }
@@ -175992,9 +175990,10 @@
     "remove": [],
     "set": {
       "word": "Pitorro",
-      "definition": "A narrow opening through which liquid pours from a container.",
+      "definition": "Abertura estrecha por donde sale el líquido de un recipiente.",
       "synonyms": [
-        "spout"
+        "boquilla",
+        "pico vertedor"
       ],
       "image": {
         "id": 7024,
@@ -176002,11 +176001,11 @@
       },
       "example": {
         "word": "pitorro",
-        "text": "The pitorro was too narrow to fill the bottle quickly."
+        "text": "El líquido salió por el pitorro de la botella."
       },
       "exampleSynonym": {
-        "word": "spout",
-        "text": "The spout was too narrow to fill the bottle quickly."
+        "word": "boquilla",
+        "text": "El líquido salió por la boquilla de la botella."
       },
       "situacion": "vivienda"
     }
@@ -176040,9 +176039,10 @@
     "remove": [],
     "set": {
       "word": "Pitote",
-      "definition": "A noisy disturbance, often caused by an argument.",
+      "definition": "Alboroto ruidoso, a menudo causado por una discusión.",
       "synonyms": [
-        "commotion"
+        "alboroto",
+        "jaleo"
       ],
       "image": {
         "id": 7024,
@@ -176050,11 +176050,11 @@
       },
       "example": {
         "word": "pitote",
-        "text": "A pitote started when the fans began shouting."
+        "text": "Se armó un pitote cuando los hinchas empezaron a gritar."
       },
       "exampleSynonym": {
-        "word": "commotion",
-        "text": "A commotion started when the fans began shouting."
+        "word": "alboroto",
+        "text": "Se armó un alboroto cuando los hinchas empezaron a gritar."
       },
       "situacion": "sociedad"
     }
@@ -178377,7 +178377,8 @@
       "definition": "Color blanco brillante, parecido al de la plata.",
       "synonyms": [
         "color plata",
-        "argentado"
+        "argentado",
+        "Plata"
       ],
       "image": {
         "id": 7024,
@@ -193065,10 +193066,9 @@
     "remove": [],
     "set": {
       "word": "Potencial",
-      "definition": "Difference in voltage between two points in an electric circuit.",
+      "definition": "Medida de la energía eléctrica en cada punto del circuito.",
       "synonyms": [
-        "diferencia de voltaje",
-        "tensión eléctrica"
+        "potencial eléctrico"
       ],
       "image": {
         "id": 7024,
@@ -193079,8 +193079,8 @@
         "text": "El potencial entre los dos puntos era de cinco voltios."
       },
       "exampleSynonym": {
-        "word": "diferencia de voltaje",
-        "text": "La diferencia de voltaje entre los dos puntos era de cinco voltios."
+        "word": "potencial eléctrico",
+        "text": "El potencial eléctrico entre los dos puntos era de cinco voltios."
       },
       "situacion": "conocimiento"
     }
@@ -193090,10 +193090,9 @@
     "remove": [],
     "set": {
       "word": "Potencial",
-      "definition": "A mathematical function that shows a force field at each point.",
+      "definition": "Cálculo que indica cómo actúa una fuerza en cada punto del espacio.",
       "synonyms": [
-        "función de un campo de fuerzas",
-        "función matemática del campo"
+        "función de un campo de fuerzas"
       ],
       "image": {
         "id": 7024,
@@ -193140,10 +193139,10 @@
     "remove": [],
     "set": {
       "word": "Potencial",
-      "definition": "In grammar, describing a verb form that expresses a condition.",
+      "definition": "En gramática, forma verbal que indica que algo podría ocurrir.",
       "synonyms": [
         "condicional",
-        "que expresa una condición"
+        "modo condicional"
       ],
       "image": {
         "id": 7024,
@@ -193151,11 +193150,11 @@
       },
       "example": {
         "word": "potencial",
-        "text": "La forma potencial expresa lo que ocurriría bajo una condición."
+        "text": "La forma potencial indica que algo podría ocurrir."
       },
       "exampleSynonym": {
         "word": "condicional",
-        "text": "La forma condicional expresa lo que ocurriría bajo una condición."
+        "text": "La forma condicional indica que algo podría ocurrir."
       },
       "situacion": "educacion"
     }
@@ -193165,10 +193164,9 @@
     "remove": [],
     "set": {
       "word": "Potencial",
-      "definition": "In grammar, a verb mood that expresses an action as possible.",
+      "definition": "En gramática, modo verbal que presenta una acción como posible.",
       "synonyms": [
-        "modo condicional",
-        "modo de posibilidad"
+        "modo potencial"
       ],
       "image": {
         "id": 7024,
@@ -193176,11 +193174,11 @@
       },
       "example": {
         "word": "potencial",
-        "text": "Algunas gramáticas llaman potencial a este modo verbal."
+        "text": "El potencial presenta la acción como posible."
       },
       "exampleSynonym": {
-        "word": "modo condicional",
-        "text": "Algunas gramáticas llaman modo condicional a este modo verbal."
+        "word": "modo potencial",
+        "text": "El modo potencial presenta la acción como posible."
       },
       "situacion": "educacion"
     }
@@ -193315,10 +193313,9 @@
     "remove": [],
     "set": {
       "word": "Potenciómetro",
-      "definition": "An adjustable resistor in an electric circuit.",
+      "definition": "Resistencia que permite regular la corriente de un circuito.",
       "synonyms": [
-        "resistencia variable",
-        "resistencia ajustable"
+        "resistencia variable"
       ],
       "image": {
         "id": 7024,
@@ -193326,11 +193323,11 @@
       },
       "example": {
         "word": "potenciómetro",
-        "text": "La persona ajustó el potenciómetro para cambiar la corriente."
+        "text": "Ajustó el potenciómetro para cambiar la corriente."
       },
       "exampleSynonym": {
         "word": "resistencia variable",
-        "text": "La persona ajustó la resistencia variable para cambiar la corriente."
+        "text": "Ajustó la resistencia variable para cambiar la corriente."
       },
       "situacion": "conocimiento"
     }
@@ -202163,7 +202160,8 @@
       "definition": "Persona que busca una relación amorosa formal con alguien.",
       "synonyms": [
         "cortejador",
-        "novio"
+        "novio",
+        "Pretendienta"
       ],
       "image": {
         "id": 7024,
@@ -203965,7 +203963,8 @@
       "definition": "Persona que empieza a aprender una actividad.",
       "synonyms": [
         "novata",
-        "aprendiz"
+        "aprendiz",
+        "iniciado"
       ],
       "image": {
         "id": 7024,
@@ -223827,17 +223826,18 @@
     ],
     "set": {
       "word": "Quisicosa",
-      "definition": "Informal word for a mystery or question that is hard to solve.",
+      "definition": "En lenguaje coloquial, misterio o asunto difícil de resolver.",
       "synonyms": [
-        "mystery"
+        "enigma",
+        "misterio"
       ],
       "example": {
         "word": "quisicosa",
-        "text": "The puzzle about the old map was a quisicosa."
+        "text": "Nadie entendía aquella quisicosa del acertijo."
       },
       "exampleSynonym": {
-        "word": "mystery",
-        "text": "The puzzle about the old map was a mystery."
+        "word": "enigma",
+        "text": "Nadie entendía aquel enigma del acertijo."
       },
       "situacion": "conocimiento",
       "image": {
@@ -223854,17 +223854,17 @@
     ],
     "set": {
       "word": "Quisquilla",
-      "definition": "Small matter or difficulty that deserves little attention.",
+      "definition": "Asunto pequeño que no merece mucha atención.",
       "synonyms": [
-        "trivial matter"
+        "asunto sin importancia"
       ],
       "example": {
         "word": "quisquilla",
-        "text": "They argued over a quisquilla."
+        "text": "Discutieron por una quisquilla."
       },
       "exampleSynonym": {
-        "word": "trivial matter",
-        "text": "They argued over a trivial matter."
+        "word": "asunto sin importancia",
+        "text": "Discutieron por un asunto sin importancia."
       },
       "situacion": "vida-diaria",
       "image": {
@@ -223881,17 +223881,17 @@
     ],
     "set": {
       "word": "Quisquilla",
-      "definition": "Small marine crustacean that people eat as seafood.",
+      "definition": "Crustáceo marino pequeño que se come.",
       "synonyms": [
-        "small shrimp"
+        "gamba"
       ],
       "example": {
         "word": "quisquilla",
-        "text": "We added quisquillas to the rice."
+        "text": "Añadieron quisquillas al arroz."
       },
       "exampleSynonym": {
-        "word": "small shrimp",
-        "text": "We added small shrimp to the rice."
+        "word": "gamba",
+        "text": "Añadieron gambas al arroz."
       },
       "situacion": "vida-diaria",
       "image": {
@@ -242914,7 +242914,8 @@
       "word": "Refrigerador",
       "definition": "Aparato o instalación que sirve para enfriar algo.",
       "synonyms": [
-        "equipo de refrigeración"
+        "equipo de refrigeración",
+        "enfriador"
       ],
       "example": {
         "word": "refrigerador",
@@ -245167,9 +245168,10 @@
     "remove": [],
     "set": {
       "word": "Regicida",
-      "definition": "Persona que asesina a un rey o una reina.",
+      "definition": "Que asesina a un rey o una reina; como sustantivo, persona que comete ese asesinato.",
       "synonyms": [
-        "magnicida"
+        "asesino de un rey",
+        "matador de un monarca"
       ],
       "example": {
         "word": "regicida",
@@ -253851,7 +253853,8 @@
       "word": "Remitente",
       "definition": "Persona que envía una carta o un paquete.",
       "synonyms": [
-        "persona que envía"
+        "persona que envía",
+        "expedidor"
       ],
       "example": {
         "word": "remitente",
@@ -255446,7 +255449,8 @@
       "word": "Renta",
       "definition": "Ingreso que produce un capital, una propiedad o una actividad.",
       "synonyms": [
-        "ingreso"
+        "ingreso",
+        "Provento"
       ],
       "example": {
         "word": "renta",
@@ -262663,14 +262667,15 @@
     "set": {
       "definition": "Empresa con capital dividido en acciones y responsabilidad limitada de sus accionistas.",
       "synonyms": [
-        "sociedad anónima"
+        "sociedad anónima",
+        "sociedad por acciones (descripción general)"
       ],
       "translation": {
         "en": "corporation"
       },
       "example": {
-        "word": "S. A.",
-        "text": "La empresa cambió a S. A. tras registrar sus estatutos."
+        "word": "S.A.",
+        "text": "La empresa S.A. publicó sus cuentas en el Registro Mercantil."
       },
       "exampleSynonym": {
         "word": "sociedad anónima",

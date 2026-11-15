@@ -116,6 +116,7 @@ const I18N = {
     footerCreditsHtml: 'Pictogramas: <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (CC BY-NC-SA) y <a href="https://opensymbols.org/" target="_blank" rel="noopener">OpenSymbols</a>.',
     footerConfigHtml: '<a href="config/">Configuración</a>',
     footerPrivacyHtml: '<a href="legal/">Privacidad</a>',
+    "core.chrome.appName": "Sinonimia",
 
     detailTitleSuffix: " — Sinonimia",
 
@@ -293,6 +294,7 @@ const I18N = {
     footerCreditsHtml: 'Pictograms: <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (CC BY-NC-SA) and <a href="https://opensymbols.org/" target="_blank" rel="noopener">OpenSymbols</a>.',
     footerConfigHtml: '<a href="config/">Settings</a>',
     footerPrivacyHtml: '<a href="legal/">Privacy</a>',
+    "core.chrome.appName": "Sinonimia",
 
     detailTitleSuffix: " — Sinonimia",
 

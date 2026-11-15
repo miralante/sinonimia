@@ -146141,7 +146141,7 @@
   {
     "id": "ruptura",
     "word": "Ruptura",
-    "reason": "A common word outside the dictionary’s difficult-word scope."
+    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
     "id": "ruqueta",
@@ -146366,7 +146366,7 @@
   {
     "id": "sabidor",
     "word": "Sabidor",
-    "reason": "An archaic variant of sabedor."
+    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
     "id": "sabiduria",
@@ -146571,7 +146571,7 @@
   {
     "id": "sacabocado",
     "word": "Sacabocado",
-    "reason": "Little-used variant spelling of sacabocados."
+    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
     "id": "sacabrocas",
@@ -146706,7 +146706,7 @@
   {
     "id": "sacatrapos",
     "word": "Sacatrapos",
-    "reason": "Historical firearms tool; the candidate’s person sense is unsupported."
+    "reason": "La definición del instrumento contradice el sinónimo y el ejemplo; no se confirma una acepción útil."
   },
   {
     "id": "sacciforme",
@@ -146751,7 +146751,7 @@
   {
     "id": "saciar",
     "word": "Saciar",
-    "reason": "Common everyday verb with an easily understood meaning."
+    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
     "id": "sacina",
@@ -146916,7 +146916,7 @@
   {
     "id": "sacudida",
     "word": "Sacudida",
-    "reason": "Common, transparent noun for the action of shaking."
+    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
     "id": "sacudidamente",
@@ -146946,7 +146946,7 @@
   {
     "id": "sacudir",
     "word": "Sacudir",
-    "reason": "Common everyday verb; its senses belong to basic vocabulary."
+    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
     "id": "sacudon",
@@ -147006,7 +147006,7 @@
   {
     "id": "safari",
     "word": "Safari",
-    "reason": "Common travel vocabulary, outside a difficult-word dictionary."
+    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
     "id": "safico",
@@ -147221,12 +147221,12 @@
   {
     "id": "salamanquero",
     "word": "Salamanquero",
-    "reason": "Philippine regional term for a prestidigitator."
+    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
     "id": "salamanquina",
     "word": "Salamanquina",
-    "reason": "No se pudo verificar como lema independiente en el DLE; la forma aparece solo citada como referencia."
+    "reason": "Nombre regional de una especie de lagarto, demasiado específico para el foco del diccionario."
   },
   {
     "id": "salamantiga",
@@ -147431,7 +147431,7 @@
   {
     "id": "salisipan",
     "word": "Salisipan",
-    "reason": "Tipo de embarcación regional muy específico, sin sinónimos de uso general."
+    "reason": "Nombre de una embarcación histórica de uso muy localizado; fuera del alcance editorial general."
   },
   {
     "id": "salitrado",
@@ -147506,7 +147506,7 @@
   {
     "id": "salmon",
     "word": "Salmón",
-    "reason": "Nombre de un pez conocido y concreto, con un significado fácil de entender."
+    "reason": "Nombre común de un pez y alimento; fuera del foco editorial."
   },
   {
     "id": "salmonado",
@@ -147561,7 +147561,7 @@
   {
     "id": "salpicadura",
     "word": "Salpicadura",
-    "reason": "Nombre común y transparente para el resultado de salpicar; su significado se entiende por la palabra base."
+    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
     "id": "salpicar",
@@ -147686,7 +147686,7 @@
   {
     "id": "saltador",
     "word": "Saltador",
-    "reason": "Voz cotidiana y transparente; además reúne usos de persona, adjetivo y objeto."
+    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
     "id": "saltaembancos",
@@ -147726,7 +147726,7 @@
   {
     "id": "saltapajas",
     "word": "Saltapajas",
-    "reason": "Nombre regional de Palencia y La Rioja para el saltamontes; se prefiere la voz más conocida."
+    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
     "id": "saltaparedes",
@@ -147761,7 +147761,7 @@
   {
     "id": "saltarin",
     "word": "Saltarín",
-    "reason": "Adjetivo derivado y transparente para alguien que salta mucho."
+    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
     "id": "saltarrostro",
@@ -147816,7 +147816,7 @@
   {
     "id": "salto",
     "word": "Salto",
-    "reason": "Sustantivo muy común y transparente para la acción de saltar."
+    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
     "id": "salton",
@@ -147831,7 +147831,7 @@
   {
     "id": "saluda",
     "word": "Saluda",
-    "reason": "Fórmula impresa de cortesía poco habitual en documentos actuales."
+    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
     "id": "saludable",
@@ -147851,7 +147851,7 @@
   {
     "id": "saludar",
     "word": "Saludar",
-    "reason": "Verbo básico y muy común."
+    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
     "id": "saludes",
@@ -147896,12 +147896,12 @@
   {
     "id": "salvador",
     "word": "Salvador",
-    "reason": "Adjetivo común y transparente para alguien o algo que salva."
+    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
     "id": "salvaguardar",
     "word": "Salvaguardar",
-    "reason": "Verbo transparente para proteger o defender algo."
+    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
     "id": "salvajez",

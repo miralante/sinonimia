@@ -193,65 +193,10 @@ input:focus-visible {
   padding: 1.25rem 1.25rem 1rem;
 }
 
-.cabecera-fila {
-  max-width: 900px;
-  margin: 0 auto;
-  display: flex;
-  align-items: baseline;
-  gap: 0.75rem;
-  flex-wrap: wrap;
-}
-
-.cabecera h1 {
-  margin: 0;
-  font-size: 1.9rem;
-}
-.cabecera h1 a {
-  color: var(--cabecera-texto, #fff);
-  text-decoration: none;
-}
-.cabecera-punto { color: var(--cabecera-texto-punto, var(--color-acento)); }
-
 .tagline {
   margin: 0;
   opacity: 0.92;
   font-size: 1.05rem;
-}
-
-/* Fila de controles de la cabecera. Solo va aquí el punto de anclaje
-   #locale-picker: el desplegable de idioma y el ⚙️ que inserta
-   js/locale-picker.js justo detrás, como hermano. Es la misma pieza que
-   en las otras 7 apps de la suite, sin copias propias, así que aquí no se
-   tocan sus botones: los pinta css/locale-picker.css.
-
-   Va en la MISMA fila que la marca y el lema, alineada al final y con
-   margen automático a la izquierda, para que el engranaje caiga arriba a
-   la derecha igual que en el resto de la suite. Antes esta fila estaba
-   debajo de la cabecera (`margin: 0.9rem auto 0`) y el ⚙️ quedaba
-   centrado, no arriba a la derecha. `align-self` corrige el `baseline`
-   que hereda de .cabecera-fila: los botones se centran sobre la fila en
-   lugar de alinearse por la base del texto. */
-.cabecera-controles {
-  margin-left: auto;
-  align-self: center;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 0.6rem;
-}/* El separador vertical entre el selector de idioma y el resto{
-  display: inline-flex;
-  gap: 0.3rem;
-  padding-right: 0.6rem;
-  margin-right: 0.3rem;
-  border-right: 1px solid rgba(255,255,255,0.4);
-}
-
-.lang-btn.activo,
-.lang-btn[aria-pressed="true"] {
-  background: var(--color-acento);
-  border-color: var(--color-acento);
-  color: var(--color-fondo);
-  font-weight: bold;
 }
 
 /* ---------- Main content ---------- */
@@ -1428,34 +1373,6 @@ span.detalle-navegacion-enlace {
 .page-config header.cabecera { padding: 2rem 1.25rem 1.75rem; }
 .page-legal header.cabecera .envoltorio,
 .page-config header.cabecera .envoltorio { padding: 0 1.25rem; }
-.page-about .lang-btn,
-.page-legal .lang-btn,
-.page-config .lang-btn,
-.page-404 .lang-btn,
-.page-privacidad .lang-btn {
-  font: inherit;
-  font-weight: 700;
-  padding: 0.4rem 0.9rem;
-  border-radius: 999px;
-  /* Viven dentro de la cabecera, así que van con sus tokens: el borde
-     y el texto blancos fijos quedaban a 1.71:1 con la cabecera clara. */
-  border: 2px solid var(--cabecera-borde, rgba(255, 255, 255, 0.6));
-  background: transparent;
-  color: var(--cabecera-texto, #fff);
-  cursor: pointer;
-}
-.page-about .lang-btn[aria-pressed="true"],
-.page-legal .lang-btn[aria-pressed="true"],
-.page-config .lang-btn[aria-pressed="true"],
-.page-404 .lang-btn[aria-pressed="true"],
-.page-privacidad .lang-btn[aria-pressed="true"] {
-  background: var(--cabecera-texto, #fff);
-  color: var(--cabecera-fondo, var(--color-primario-oscuro));
-  border-color: var(--cabecera-texto, #fff);
-}
-.page-about .lang-btn + .lang-btn,
-.page-legal .lang-btn + .lang-btn,
-.page-config .lang-btn + .lang-btn { margin-left: 0.5rem; }
 .page-legal .logo-about { font-size: 2.5rem; line-height: 1; margin-bottom: 0.25rem; }
 .page-config .logo-about { font-size: 2.5rem; line-height: 1; margin-bottom: 0.25rem; }
 .page-legal header.cabecera h1 { margin: 0 0 0.25rem; font-size: 1.9rem; }
@@ -1476,8 +1393,7 @@ span.detalle-navegacion-enlace {
 .page-legal nav.indice { margin-top: 1.25rem; }
 .page-config nav.indice { margin-top: 1.25rem; }
 .page-legal nav.indice a,
-.page-config nav.indice a,
-.page-offline nav.indice a {
+.page-config nav.indice a {
   /* Sobre la cabecera (azul solido), el color de enlace se leia a
      1.53:1. Va con el token de cabecera, que si se adapta al tema. */
   color: var(--cabecera-texto, #fff);
@@ -1488,9 +1404,7 @@ span.detalle-navegacion-enlace {
 .page-legal nav.indice a:hover,
 .page-legal nav.indice a:focus-visible,
 .page-config nav.indice a:hover,
-.page-config nav.indice a:focus-visible,
-.page-offline nav.indice a:hover,
-.page-offline nav.indice a:focus-visible { border-color: var(--cabecera-texto, #ffd7a8); }
+.page-config nav.indice a:focus-visible { border-color: var(--cabecera-texto, #ffd7a8); }
 
 .page-config main section {
   background: var(--color-tarjeta);
@@ -1784,7 +1698,7 @@ html[data-lang="en"] .page-privacidad span[data-lang-block="en"] { display: inli
   .page-config header.cabecera { background: none; color: var(--color-texto); }
   .page-legal header.cabecera h1 span,
   .page-config header.cabecera h1 span { color: var(--color-acento); }
-  .page-config nav.indice, .page-legal nav.indice, .page-legal footer[class*="pie-"], .page-privacidad footer[class*="pie-"], .page-team footer[class*="pie-"], .page-config footer[class*="pie-"] { display: none; }
+  .page-config nav.indice, .page-legal nav.indice, .page-legal footer[class*="pie-"], .page-privacidad footer[class*="pie-"], .page-config footer[class*="pie-"] { display: none; }
   .page-legal main section,
   .page-config main section { break-inside: avoid; border: none; padding: 0; }
 }

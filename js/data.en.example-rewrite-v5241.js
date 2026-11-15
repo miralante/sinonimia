@@ -37,6 +37,12 @@
     for (const [field, values] of Object.entries(fields)) {
       if (field === "synonyms" || field === "definition") matches[0][field] = values;
       else {
+        if (!matches[0][field] && (field === "example" || field === "exampleSynonym")) {
+          matches[0][field] = {
+            word: field === "example" ? matches[0].word : ((matches[0].synonyms || [])[0] || matches[0].word),
+            text: (matches[0].example && matches[0].example.text) || matches[0].definition || matches[0].word,
+          };
+        }
         if (!matches[0][field]) throw new Error(`v5241 missing ${field} on es/${id}`);
         Object.assign(matches[0][field], values);
       }

@@ -3581,8 +3581,7 @@
     "set": {
       "definition": "A court decision that a defendant is not guilty. It does not always prove factual innocence.",
       "synonyms": [
-        "not-guilty verdict",
-        "exoneration"
+        "not-guilty verdict"
       ],
       "example": {
         "word": "acquittal",
@@ -4060,7 +4059,8 @@
       "synonyms": [
         "start",
         "switch on",
-        "set in motion"
+        "set in motion",
+        "Actuate"
       ],
       "example": {
         "word": "activate",
@@ -5577,8 +5577,7 @@
       "definition": "Involving sex between a married person and someone else.",
       "synonyms": [
         "unfaithful",
-        "extramarital",
-        "marital"
+        "extramarital"
       ],
       "example": {
         "word": "adulterous",
@@ -35862,10 +35861,10 @@
     "entry": "beggar-3",
     "remove": [],
     "set": {
-      "definition": "To make a person or group very poor.",
+      "definition": "To make a person, group, or business very poor.",
       "synonyms": [
         "impoverish",
-        "reduce to poverty"
+        "make poor"
       ],
       "example": {
         "word": "beggar",
@@ -40597,7 +40596,8 @@
       "definition": "A sticky substance spread on twigs to catch small birds.",
       "synonyms": [
         "sticky bird trap",
-        "bird-catching glue"
+        "bird-catching glue",
+        "lime"
       ],
       "example": {
         "word": "birdlime",
@@ -41394,19 +41394,18 @@
     "entry": "blandness",
     "remove": [],
     "set": {
-      "definition": "A lack of flavor, or a lack of interest or liveliness.",
+      "definition": "A lack of flavor.",
       "synonyms": [
-        "lack of flavor",
-        "dullness",
-        "insipidity"
+        "tastelessness",
+        "lack of flavor"
       ],
       "example": {
         "word": "blandness",
-        "text": "The blandness of the soup disappointed us."
+        "text": "The soup’s blandness came from having little flavor."
       },
       "exampleSynonym": {
         "word": "lack of flavor",
-        "text": "The lack of flavor in the soup disappointed us."
+        "text": "The soup lacked flavor."
       },
       "situacion": "vida-diaria"
     }
@@ -45812,7 +45811,11 @@
       "definition": "Lasting for only a short time.",
       "synonyms": [
         "short",
-        "quick"
+        "quick",
+        "ephemeral",
+        "transient",
+        "Momentary",
+        "fleeting"
       ],
       "example": {
         "word": "brief",
@@ -57201,7 +57204,8 @@
       "definition": "Full of many people or things in a small space.",
       "synonyms": [
         "packed",
-        "full"
+        "full",
+        "dense"
       ],
       "example": {
         "word": "crowded-5",
@@ -60608,7 +60612,8 @@
       "definition": "Knives, forks, and spoons used for eating meals.",
       "synonyms": [
         "table utensils",
-        "eating utensils"
+        "eating utensils",
+        "Silverware"
       ],
       "example": {
         "word": "cutlery",
@@ -69040,7 +69045,8 @@
       "synonyms": [
         "bound",
         "define",
-        "demarcate"
+        "demarcate",
+        "determine"
       ],
       "example": {
         "word": "delimit",
@@ -80011,7 +80017,8 @@
       "definition": "To fail to meet someone’s hopes or expectations.",
       "synonyms": [
         "let down",
-        "disillusion"
+        "disillusion",
+        "betray"
       ],
       "image": {
         "id": 2450,
@@ -93220,7 +93227,8 @@
       "word": "dreadful",
       "definition": "Very bad or unpleasant.",
       "synonyms": [
-        "awful"
+        "awful",
+        "horrible"
       ],
       "image": {
         "id": 7024,
@@ -94727,7 +94735,8 @@
       "word": "Drone",
       "definition": "Low, steady sound made by a machine, aircraft, or insect.",
       "synonyms": [
-        "hum"
+        "hum",
+        "buzz"
       ],
       "image": {
         "id": 7024,
@@ -115040,7 +115049,8 @@
       "definition": "Active and full of energy or enthusiasm.",
       "synonyms": [
         "active",
-        "lively"
+        "lively",
+        "Vivacious"
       ],
       "image": {
         "id": 7024,
@@ -133753,18 +133763,18 @@
     ],
     "set": {
       "word": "Extramarital",
-      "definition": "Sex between a married person and someone else.",
+      "definition": "Related to sex or relationships outside marriage.",
       "synonyms": [
         "sex outside marriage",
         "adulterous"
       ],
       "example": {
         "word": "extramarital",
-        "text": "They discussed extramarital sex."
+        "text": "The couple had an extramarital relationship."
       },
       "exampleSynonym": {
-        "word": "sex outside marriage",
-        "text": "They discussed sex outside marriage."
+        "word": "outside marriage",
+        "text": "The couple had a relationship outside marriage."
       },
       "situacion": "vida-diaria",
       "image": {
@@ -170076,7 +170086,7 @@
     "set": {
       "definition": "An enclosed cabin that hangs from a cable to carry people.",
       "synonyms": [
-        "cable car cabin"
+        "cable-car cabin"
       ],
       "example": {
         "word": "gondola",
@@ -171095,6 +171105,7 @@
     "set": {
       "definition": "A doctor who treats many kinds of health problems. People often see this doctor first.",
       "synonyms": [
+        "general practitioner",
         "family doctor"
       ],
       "word": "GP",
@@ -231449,6 +231460,7 @@
   {
     "entry": "ruse",
     "remove": [],
+    "unset": [],
     "set": {
       "synonyms": [
         "trick",

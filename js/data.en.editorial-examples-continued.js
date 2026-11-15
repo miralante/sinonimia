@@ -1276,3 +1276,8 @@ set("es","supeditar",{"definition":"Hacer que algo dependa de otra cosa.","synon
 set("es","toxicomano",{"definition":"Persona con dependencia de drogas.","synonyms":["paciente con adicción"],"example":{"word":"toxicómano","text":"El toxicómano empezó un tratamiento para dejar las drogas."},"exampleSynonym":{"word":"paciente con adicción","text":"El paciente con adicción empezó un tratamiento para dejar las drogas."}});
 set("es","trazable",{"definition":"Que se puede seguir hasta conocer su origen.","synonyms":["rastreable"],"example":{"word":"trazable","text":"El producto es trazable desde la fábrica hasta la tienda."},"exampleSynonym":{"word":"rastreable","text":"El producto es rastreable desde la fábrica hasta la tienda."}});
 })();
+
+
+;(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
+
+})();
