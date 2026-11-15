@@ -114,7 +114,7 @@ const I18N = {
     footerMessage: "Sinonimia explica palabras difíciles. Frases cortas. Ejemplos de cada día.",
     footerCreditsHtml: 'Pictogramas: <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (CC BY-NC-SA) y <a href="https://opensymbols.org/" target="_blank" rel="noopener">OpenSymbols</a>.',
     footerConfigHtml: '<a href="config/">Configuración</a>',
-    footerPrivacyHtml: '<a href="legal/privacidad.html">Privacidad</a>',
+    footerPrivacyHtml: '<a href="legal/">Privacidad</a>',
 
     detailTitleSuffix: " — Sinonimia",
 
@@ -153,7 +153,7 @@ const I18N = {
     sentenceGameIncorrect: "Esa no es. Vuelve a leer la frase: ¿qué palabra completa el hueco?",
 
     // "About the app" page (about-app/) and its achievements
-    footerAboutAppHtml: '<a href="about-app/">Sobre la app</a>',
+    footerAboutAppHtml: '<a href="about/">Sobre la app</a>',
     aboutAppPageTitle: "Sobre la app — Sinonimia",
     aboutAppTitle: "ℹ️ Sobre la app",
     aboutAppIntro: "Sinonimia explica palabras difíciles con frases cortas. Aquí ves tus logros.",
@@ -281,7 +281,7 @@ const I18N = {
     footerMessage: "Sinonimia explains hard words. Short sentences. Everyday examples.",
     footerCreditsHtml: 'Pictograms: <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (CC BY-NC-SA) and <a href="https://opensymbols.org/" target="_blank" rel="noopener">OpenSymbols</a>.',
     footerConfigHtml: '<a href="config/">Settings</a>',
-    footerPrivacyHtml: '<a href="legal/privacidad.html">Privacy</a>',
+    footerPrivacyHtml: '<a href="legal/">Privacy</a>',
 
     detailTitleSuffix: " — Sinonimia",
 
@@ -320,7 +320,7 @@ const I18N = {
     sentenceGameIncorrect: "Not quite. Read the sentence again: which word completes the blank?",
 
     // "About the app" page (about-app/) and its achievements
-    footerAboutAppHtml: '<a href="about-app/">About the app</a>',
+    footerAboutAppHtml: '<a href="about/">About the app</a>',
     aboutAppPageTitle: "About the app — Sinonimia",
     aboutAppTitle: "ℹ️ About the app",
     aboutAppIntro: "Sinonimia explains hard words with short sentences. Here you can see your achievements.",
