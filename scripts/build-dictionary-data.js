@@ -427,16 +427,23 @@ function applyRebaseMergeOverlay(dictionaries) {
     const merge = overlay.languages[lang];
     const entries = dictionaries[lang] || [];
     const removed = new Set(merge.remove || []);
+    // Editorial exclusions are newer, explicit decisions: an excluded entry
+    // stays out even when the reviewed overlay still carries an update or an add for it.
+    const excluded = new Set(loadEditorialExclusions(lang).decisions.map(function (d) { return d.id; }));
     dictionaries[lang] = entries.filter(function (entry) { return !removed.has(entry.id); });
     const remaining = new Map(dictionaries[lang].map(function (entry) { return [entry.id, entry]; }));
     Object.keys(merge.updates || {}).forEach(function (id) {
       const entry = remaining.get(id);
-      if (!entry) throw new Error(lang + ": rebase overlay update references missing entry " + id);
+      if (!entry) {
+        if (excluded.has(id)) return;
+        throw new Error(lang + ": rebase overlay update references missing entry " + id);
+      }
       const update = merge.updates[id];
       (update.unset || []).forEach(function (field) { delete entry[field]; });
       Object.assign(entry, update.set || {});
     });
     (merge.add || []).forEach(function (entry) {
+      if (excluded.has(entry.id)) return;
       const existing = remaining.get(entry.id);
       if (existing) Object.assign(existing, entry);
       else {
