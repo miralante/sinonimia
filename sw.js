@@ -27,7 +27,7 @@
    ============================================================ */
 importScripts('./js/dictionary-data.js');
 
-var VERSION = 'sinonimia-v5291';
+var VERSION = 'sinonimia-v5436';
 
 var FILES = [
   './',
@@ -48,6 +48,8 @@ var FILES = [
   './js/dictionary-loader.js',
   './js/app-search.js',
   './js/bootstrap-i18n.js',
+  './js/stars-engine.js',
+  './js/feedback.js',
   './js/app.js',
   './js/suite-chrome.js',
   './img/logo.svg',

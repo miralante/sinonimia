@@ -66,6 +66,8 @@
   /* Hook for the shared footer (js/suite-chrome.js), which asks App.i18n.t for its labels. */
   window.App = window.App || {};
   window.App.i18n = { t: t };
+  /* Shared hook for js/feedback.js (the celebration plays the success sound). */
+  window.App.playSuiteSound = playSuiteSound;
 
   function normalize(text) {
     // Explicit `\uXXXX` escapes for the combining-marks range, NOT literal
@@ -591,11 +593,16 @@
       saveMySentence(entry.id, text);
       showAsSaved(text);
       if (earnSentenceStar(entry.id)) {
-        stars.textContent = t("sentenceStars", { n: sentenceStars().length });
+        var count = sentenceStars().length;
+        stars.textContent = t("sentenceStars", { n: count });
         stars.classList.remove("acierto-pop");
         void stars.offsetWidth;
         stars.classList.add("acierto-pop");
-        notice.appendChild(document.createTextNode(" " + t("sentenceStarEarned")));
+        /* The one reward screen of the suite: congratulation plus the progress line. */
+        window.App.feedback.celebrate(t("sentenceStarEarned"), null, window.ApptonomiaStars.line(count, {
+          reached: t("core.starsReached"),
+          goal: t("core.starsGoal")
+        }));
       }
     });
 

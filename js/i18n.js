@@ -129,6 +129,9 @@ const I18N = {
     sentenceSavedNotice: "¡Bien done! Esta es tu frase:",
     sentenceStars: "⭐ Estrellas por tus frases: {n}",
     sentenceStarEarned: "¡Has ganado una estrella!",
+    "core.moreGoal": "A por más",
+    "core.starsReached": "Ya tienes {n} estrellas",
+    "core.starsGoal": "A por las {n} estrellas",
     editSentence: "Editar mi frase",
 
     // Games: menu and shared texts
@@ -307,6 +310,9 @@ const I18N = {
     sentenceSavedNotice: "Well done! Here's your sentence:",
     sentenceStars: "⭐ Stars for your sentences: {n}",
     sentenceStarEarned: "You earned a star!",
+    "core.moreGoal": "Go for more",
+    "core.starsReached": "You already have {n} stars",
+    "core.starsGoal": "Go for {n} stars",
     editSentence: "Edit my sentence",
 
     // Games: menu and shared texts
