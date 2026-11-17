@@ -599,7 +599,8 @@
         void stars.offsetWidth;
         stars.classList.add("acierto-pop");
         /* The one reward screen of the suite: congratulation plus the progress line. */
-        window.App.feedback.celebrate(t("sentenceStarEarned"), null, window.ApptonomiaStars.line(count, {
+        /* A sentence star does not end an activity: "A por más" stays on the page. */
+        window.App.feedback.celebrate(t("sentenceStarEarned"), function () {}, window.ApptonomiaStars.line(count, {
           reached: t("core.starsReached"),
           goal: t("core.starsGoal")
         }));
