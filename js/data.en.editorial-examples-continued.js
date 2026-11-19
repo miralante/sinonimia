@@ -1280,4 +1280,20 @@ set("es","trazable",{"definition":"Que se puede seguir hasta conocer su origen."
 
 ;(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");
 
+
+// Replace the mainly American hodgepodge entries with the British form.
+for (const [oldId, newId] of [['hodgepodge', 'hotch-potch'], ['hodgepodge-2', 'hotch-potch-2']]) {
+  const i = d.findIndex(q => q.id === oldId);
+  if (i >= 0) {
+    d[i].id = newId;
+    d[i].word = 'hotch-potch';
+    if (d[i].example) {
+      d[i].example.word = 'hotch-potch';
+      d[i].example.text = d[i].example.text.replace(/hodgepodge/gi, 'hotch-potch');
+    }
+  }
+}
+
+// Replace the US automotive sense of hood with the British bonnet.
+{ const i=d.findIndex(q=>q.id==='hood-15'); if(i>=0){ d[i].id='bonnet-hood'; d[i].word='bonnet'; d[i].definition='The movable cover at the front of a car that protects the engine.'; d[i].synonyms=['engine cover']; d[i].example={word:'bonnet',text:'She lifted the bonnet to check the engine.'}; d[i].exampleSynonym={word:'engine cover',text:'She lifted the engine cover to check the engine.'}; delete d[i].translation; d[i].situacion='vida-diaria'; } }
 })();

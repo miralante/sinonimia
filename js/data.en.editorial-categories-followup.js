@@ -12,8 +12,8 @@
 {const i=d.findIndex(q=>q.id==="headband-2");if(i>=0)d[i].situacion="educacion";}
 {const i=d.findIndex(q=>q.id==="headband-3");if(i>=0)d[i].situacion="educacion";}
 {const i=d.findIndex(q=>q.id==="heist-2");if(i>=0)d[i].situacion="legal";}
-{const i=d.findIndex(q=>q.id==="hijra-2");if(i>=0)d[i].situacion="sociedad";}
-{const i=d.findIndex(q=>q.id==="hijra-3");if(i>=0)d[i].situacion="sociedad";}
+{const i=d.findIndex(q=>q.id==="hijrah-2");if(i>=0)d[i].situacion="sociedad";}
+{const i=d.findIndex(q=>q.id==="hijrah-3");if(i>=0)d[i].situacion="sociedad";}
 {const i=d.findIndex(q=>q.id==="hilum-2");if(i>=0)d[i].situacion="conocimiento";}
 {const i=d.findIndex(q=>q.id==="hilum-3");if(i>=0)d[i].situacion="conocimiento";}
 {const i=d.findIndex(q=>q.id==="hinge-7");if(i>=0)d[i].situacion="conocimiento";}

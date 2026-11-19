@@ -330,12 +330,6 @@
     ]
   },
   {
-    "canonical": "centimetre",
-    "aliases": [
-      "centimeter"
-    ]
-  },
-  {
     "canonical": "certificate-of-studies",
     "aliases": [
       "certificate-of-studies-2"
@@ -365,12 +359,6 @@
     "canonical": "chill-3",
     "aliases": [
       "chill-5"
-    ]
-  },
-  {
-    "canonical": "chilli",
-    "aliases": [
-      "chili"
     ]
   },
   {
@@ -1095,9 +1083,9 @@
     ]
   },
   {
-    "canonical": "hodgepodge",
+    "canonical": "hotch-potch",
     "aliases": [
-      "hodgepodge-2"
+      "hotch-potch-2"
     ]
   },
   {

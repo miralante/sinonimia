@@ -704,3 +704,6 @@
 
 // B12 audibilidad simple definition
 (()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error("missing es");const i=d.findIndex(q=>q.id==="audibilidad");if(i<0)throw Error("Missing source entry audibilidad");d[i].definition="Hecho de que un sonido se pueda oír.";})();
+
+// R4769: retirar el sentido chileno de caperuzo.
+(()=>{const d=globalThis.DICCIONARIOS?.es;if(!d)throw Error('missing es');const i=d.findIndex(q=>q.id==='caperuzo');if(i>=0)d.splice(i,1);})();

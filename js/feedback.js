@@ -15,6 +15,14 @@
   function restDue() { return false; }
   function restDone() { }
 
+  /* Public hooks used by the settings preview and existing activity code. */
+  window.App.feedback.success = function () {
+    if (window.App.playSuiteSound) window.App.playSuiteSound('success');
+  };
+  window.App.feedback.encourage = function () {
+    if (window.App.playSuiteSound) window.App.playSuiteSound('error');
+  };
+
   /* suite:celebrate:begin
      Apptonomia achievement screen ("logros"). ONE definition for every suite app.
      Canonical source: apptonomia/scripts/suite/celebrate.js. The block between the

@@ -180,12 +180,6 @@
     ]
   },
   {
-    "canonical": "babilla",
-    "aliases": [
-      "babada"
-    ]
-  },
-  {
     "canonical": "baja",
     "aliases": [
       "baja-medica"
@@ -1681,12 +1675,6 @@
     "canonical": "melenudo",
     "aliases": [
       "round3538-melenudo-person"
-    ]
-  },
-  {
-    "canonical": "melocotonero",
-    "aliases": [
-      "round3541-melocoton-tree"
     ]
   },
   {
