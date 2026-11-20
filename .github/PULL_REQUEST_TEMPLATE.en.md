@@ -6,7 +6,7 @@
 
 ## Checks
 
-- [ ] `node scripts/check.js` passes locally.
+- [ ] `npm run lint` passes locally.
 - [ ] If you modified the app shell, you updated the relevant
       canonical documentation in `doc/en/`.
 - [ ] If you changed UI or dictionary content, the `es`/`en` strings
