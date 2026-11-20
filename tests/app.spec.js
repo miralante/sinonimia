@@ -585,11 +585,13 @@ function savedSettings(page) {
    through `window.LocalePicker.onChange`, which about.js registers. Without
    that bridge the dropdown wrote the locale to localStorage and nothing
    else: it looked alive, and the page never changed language.
-   This walks all four so a future page cannot silently ship the dead one. */
+   This walks all three so a future page cannot silently ship the dead one.
+   The list held `legal/index.html` twice: Playwright refuses a duplicate
+   test title, so the whole file failed to load and none of these tests ran
+   — the suite had never been wired into CI, which is how that survived. */
 const STATIC_LANG_PAGES = [
   'about/index.html',
   'config/index.html',
-  'legal/index.html',
   'legal/index.html',
 ];
 
