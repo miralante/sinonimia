@@ -5444,6 +5444,7 @@ catapasm
 cataphor
 cataplasm
 cataplexy
+Cataracts
 catastaltic
 catastrophically
 catatonically
@@ -6182,6 +6183,7 @@ closed platform
 closed shop
 closed-book
 closed-end fund
+Closes
 closet index
 closing argument
 closing costs
@@ -7021,6 +7023,7 @@ cost-benefit analysis
 cost-free
 costatolide
 costochondritis
+costs
 costware
 cosurety
 coswearer
@@ -13834,6 +13837,8 @@ Greeks
 green
 green acre
 green bag
+green bean
+Green beans
 green cancer
 green candle
 green fever
@@ -20258,6 +20263,7 @@ Peonage
 people who
 peopleware
 PEP
+pepla
 peppercorn
 per contra
 per curiam
@@ -24549,6 +24555,7 @@ university belt
 university student
 unjustly
 unkemptly
+Unlearned
 unlearnedly
 unleased
 unlimited company
@@ -25057,6 +25064,7 @@ woman acting like a man
 woman throwing cisteles
 Womanguard
 Women's care unit
+Won
 wonderingly
 wondrously
 wood cutting tool

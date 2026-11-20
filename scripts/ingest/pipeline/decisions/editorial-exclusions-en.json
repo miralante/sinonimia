@@ -26329,6 +26329,11 @@
     "reason": "The definition describes a pipette, not a catalyst, and the plural form is not a useful headword here."
   },
   {
+    "id": "cataracts",
+    "word": "Cataracts",
+    "reason": "Plural redundante de la ficha activa cataract; ambas describen el mismo sentido médico, que queda cubierto por el lema singular."
+  },
+  {
     "id": "catartiform",
     "word": "catartiform",
     "reason": "No Collins headword was verified for this rare form meaning waterfall-shaped."
@@ -31184,6 +31189,11 @@
     "id": "closer",
     "word": "Closer",
     "reason": "The candidate defines closer as someone who makes corks, but Collins supports senses for someone who closes, a business dealmaker, and a baseball relief pitcher."
+  },
+  {
+    "id": "closes",
+    "word": "Closes",
+    "reason": "Forma verbal de tercera persona singular de close; no es un lema independiente y la glosa activa describe el infinitivo."
   },
   {
     "id": "closet",
@@ -36605,6 +36615,11 @@
     "id": "costrict",
     "word": "Costrict",
     "reason": "Costrict is an old-fashioned variant of constrain and has little current use."
+  },
+  {
+    "id": "costs",
+    "word": "costs",
+    "reason": "La ficha activa solo da el plural ordinario de cost y su forma verbal de tercera persona; ambos son usos comunes e inflexiones, y no recoge el sentido jurídico especializado de court costs."
   },
   {
     "id": "costume",
@@ -70811,6 +70826,16 @@
     "reason": "The gloss means harvest and does not correspond to the common adjective or verb green."
   },
   {
+    "id": "green-bean",
+    "word": "green bean",
+    "reason": "Nombre común y concreto de una verdura cotidiana; definición transparente y fácil para la persona destinataria."
+  },
+  {
+    "id": "green-beans",
+    "word": "Green beans",
+    "reason": "Plural transparente de green bean; palabra alimentaria común, concreta y fácil, sin sentido independiente difícil."
+  },
+  {
     "id": "green-june-beetle",
     "word": "green june beetle",
     "reason": "Collins defines the green June beetle as Cotinis nitida, while the candidate gives Cotinis mutabilis; the highly specialized species entry is outside the general-use scope."
@@ -71916,6 +71941,11 @@
     "reason": "The definition only repeats gumming and does not identify a useful separate meaning."
   },
   {
+    "id": "gummy",
+    "word": "gummy",
+    "reason": "Se excluye el sustantivo estadounidense para una golosina masticable; se conserva gummy como adjetivo británico con el sentido de pegajoso."
+  },
+  {
     "id": "gummy-2",
     "word": "Gummy",
     "reason": "Gummy does not mean glanders or anything derived from that disease."
@@ -71954,6 +71984,11 @@
     "id": "gurgling-2",
     "word": "gurgling",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
+  },
+  {
+    "id": "gurney",
+    "word": "Gurney",
+    "reason": "Se excluye el término estadounidense para camilla hospitalaria con ruedas; Collins indica que en inglés británico se usa trolley."
   },
   {
     "id": "guro",
@@ -72986,6 +73021,11 @@
     "reason": "Definición no sustentada y dudosa; eliminada."
   },
   {
+    "id": "hardheaded-2",
+    "word": "Hardheaded",
+    "reason": "El sentido «terco/obstinado» está marcado por Collins como estadounidense y canadiense; se excluye de la variante británica."
+  },
+  {
     "id": "hardly",
     "word": "hardly",
     "reason": "Adverb outside the dictionary editorial scope; removed."
@@ -73671,6 +73711,11 @@
     "reason": "Definición de bebida sin respaldo lexicográfico fiable."
   },
   {
+    "id": "haze-7",
+    "word": "Haze",
+    "reason": "Sentido de humillar o acosar a nuevos integrantes en un grupo; Collins lo marca principalmente estadounidense y canadiense. Se conservan los sentidos británicos de niebla y confusión."
+  },
+  {
     "id": "hazelnut",
     "word": "hazelnut",
     "reason": "Nombre común de un fruto conocido."
@@ -73684,6 +73729,11 @@
     "id": "hazelnut-tree",
     "word": "hazelnut tree",
     "reason": "Compuesto transparente para un árbol común."
+  },
+  {
+    "id": "hazing",
+    "word": "Hazing",
+    "reason": "Ritual de acoso o humillación a nuevos integrantes; Cambridge lo marca estadounidense y Collins principalmente estadounidense y canadiense. Se excluye de la variante británica."
   },
   {
     "id": "he-hates",
@@ -74194,6 +74244,11 @@
     "id": "heimlich-manoeuvre",
     "word": "Heimlich manoeuvre",
     "reason": "Variante británica del mismo término que Heimlich maneuver; se unifica en una ficha."
+  },
+  {
+    "id": "heist",
+    "word": "Heist",
+    "reason": "El sentido de robo marcado como informal está registrado por Collins como principalmente estadounidense y canadiense; se excluye de la variante británica."
   },
   {
     "id": "heist-2",
@@ -74936,6 +74991,11 @@
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
+    "id": "hickey",
+    "word": "hickey",
+    "reason": "Collins y Cambridge marcan el sentido de ‘love bite’ como estadounidense o estadounidense y canadiense; se conserva el equivalente británico ‘love bite’."
+  },
+  {
     "id": "hicotea",
     "word": "Hicotea",
     "reason": "No se encontró una entrada verificable para este lema en Collins."
@@ -75206,6 +75266,16 @@
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
+    "id": "hijra-2",
+    "word": "hijra",
+    "reason": "Para el sentido histórico de la migración de Mahoma, se sustituye la forma no británica por el equivalente británico ‘Hijrah’."
+  },
+  {
+    "id": "hijra-3",
+    "word": "hijra",
+    "reason": "Para el sentido de la era islámica, se sustituye la forma no británica por el equivalente británico ‘Hijrah’."
+  },
+  {
     "id": "hike-4",
     "word": "hike",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
@@ -75249,6 +75319,11 @@
     "id": "hillbilly",
     "word": "hillbilly",
     "reason": "Insulto informal y despectivo para una persona rural de Estados Unidos."
+  },
+  {
+    "id": "hillbilly-2",
+    "word": "hillbilly",
+    "reason": "Collins marca esta voz peyorativa como informal de Estados Unidos; se excluye de la variante británica."
   },
   {
     "id": "hilling",
@@ -75796,6 +75871,16 @@
     "reason": "Common sport name; outside the dictionary’s scope."
   },
   {
+    "id": "hodgepodge",
+    "word": "hodgepodge",
+    "reason": "Collins marca hodgepodge como principalmente estadounidense; se excluye la forma original y se conserva la forma británica hotch-potch."
+  },
+  {
+    "id": "hodgepodge-2",
+    "word": "hodgepodge",
+    "reason": "Collins marca hodgepodge como principalmente estadounidense; se excluye la forma original y se conserva la forma británica hotch-potch."
+  },
+  {
     "id": "hodgepodge-3",
     "word": "hodgepodge",
     "reason": "La definición marca este sentido como estadounidense o norteamericano; se retira de la edición británica."
@@ -76076,9 +76161,19 @@
     "reason": "Ejemplo con una variante regional eliminada y sin sustitución posible."
   },
   {
+    "id": "home-invasion",
+    "word": "Home invasion",
+    "reason": "Collins marca el sentido de aggravated burglary como propio de Australia y Nueva Zelanda; se excluye de la edición británica."
+  },
+  {
     "id": "home-run-2",
     "word": "Home run",
     "reason": "Definición verbal mal asignada a una expresión que funciona aquí como nombre."
+  },
+  {
+    "id": "home-warranty",
+    "word": "Home warranty",
+    "reason": "Esta ficha define el sentido estadounidense de contrato de reparaciones para electrodomésticos y sistemas domésticos; en el Reino Unido se usa appliance cover para electrodomésticos y home warranty suele designar garantías de viviendas nuevas."
   },
   {
     "id": "homeland-3",
@@ -76374,6 +76469,11 @@
     "id": "hood-14",
     "word": "Hood",
     "reason": "Nombre botánico muy especializado que no cumple el criterio de vocabulario general."
+  },
+  {
+    "id": "hood-15",
+    "word": "Hood",
+    "reason": "Collins marca hood para la cubierta del motor como nombre estadounidense y canadiense; se sustituye por la forma británica bonnet."
   },
   {
     "id": "hood-16",
@@ -77611,6 +77711,11 @@
     "reason": "Hungry is a common basic adjective, and “U. in Sal” is not a usable definition."
   },
   {
+    "id": "hunker-down",
+    "word": "hunker down",
+    "reason": "Collins marca como estadounidense el sentido de agacharse y bajar el cuerpo; se excluye de la edición británica."
+  },
+  {
     "id": "hunker-down-2",
     "word": "hunker down",
     "reason": "Definición en español que no describe el phrasal verb inglés."
@@ -77629,6 +77734,16 @@
     "id": "hunker-down-5",
     "word": "hunker down",
     "reason": "Definición circular y sin significado comprobable."
+  },
+  {
+    "id": "hunker-down-hide",
+    "word": "hunker down",
+    "reason": "Collins marca como estadounidense el sentido de permanecer escondido para evitar ser visto o correr peligro; se excluye de la edición británica."
+  },
+  {
+    "id": "hunker-down-prepare",
+    "word": "hunker down",
+    "reason": "El sentido de prepararse para afrontar una tarea difícil está documentado por Collins como estadounidense; se excluye de la edición británica."
   },
   {
     "id": "hunks",
@@ -77854,6 +77969,21 @@
     "id": "hustle-and-bustle",
     "word": "hustle and bustle",
     "reason": "Expresión habitual para la actividad ruidosa y ajetreada; el lote carece de una entrada verificable en Collins."
+  },
+  {
+    "id": "hustle-get-money",
+    "word": "hustle",
+    "reason": "Collins marca como principalmente estadounidense el sentido de ganar dinero o sacar ventaja mediante métodos deshonestos o ilegales; se excluye de la edición británica."
+  },
+  {
+    "id": "hustler",
+    "word": "Hustler",
+    "reason": "Collins registra el sentido de ‘persona emprendedora que trabaja duro para triunfar’ en American English; se excluye de la edición británica."
+  },
+  {
+    "id": "hustler-3",
+    "word": "Hustler",
+    "reason": "Collins registra el sentido de ‘persona emprendedora que trabaja duro para triunfar’ en American English; se excluye de la edición británica."
   },
   {
     "id": "hut",
@@ -78329,6 +78459,11 @@
     "id": "hypothetically",
     "word": "Hypothetically",
     "reason": "Adverbio transparente derivado de hypothetical."
+  },
+  {
+    "id": "hypothyroid-person",
+    "word": "Hypothyroid",
+    "reason": "Collins registra el uso sustantivo de ‘persona con hipotiroidismo’ solo en American English; se excluye de la edición británica."
   },
   {
     "id": "hypotyposis",
@@ -81721,6 +81856,21 @@
     "reason": "Adjetivo raro y especializado."
   },
   {
+    "id": "instill",
+    "word": "instill",
+    "reason": "Collins marca esta grafía con doble l como estadounidense y señala que en inglés británico se usa instil; se excluye de la edición británica."
+  },
+  {
+    "id": "instill-2",
+    "word": "instill",
+    "reason": "Collins marca esta grafía con doble l como estadounidense y señala que en inglés británico se usa instil; se excluye de la edición británica."
+  },
+  {
+    "id": "instill-liquid",
+    "word": "Instill",
+    "reason": "Collins marca esta grafía con doble l como estadounidense y señala que en inglés británico se usa instil; se excluye de la edición británica."
+  },
+  {
     "id": "instinct-ability",
     "word": "Instinct",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
@@ -81756,6 +81906,26 @@
     "reason": "Término abstracto raro y poco asentado."
   },
   {
+    "id": "institutionalization",
+    "word": "Institutionalization",
+    "reason": "Cambridge indica que en el Reino Unido se suele escribir institutionalisation; se excluye esta grafía estadounidense."
+  },
+  {
+    "id": "institutionalization-practice",
+    "word": "Institutionalization",
+    "reason": "Cambridge indica que en el Reino Unido se suele escribir institutionalisation; se excluye esta grafía estadounidense."
+  },
+  {
+    "id": "institutionalize",
+    "word": "Institutionalize",
+    "reason": "Cambridge indica que en el Reino Unido se suele escribir institutionalise; se excluye esta grafía estadounidense."
+  },
+  {
+    "id": "institutionalize-practice",
+    "word": "Institutionalize",
+    "reason": "Cambridge indica que en el Reino Unido se suele escribir institutionalise; se excluye esta grafía estadounidense."
+  },
+  {
     "id": "institutionally",
     "word": "Institutionally",
     "reason": "Adverb outside the dictionary editorial scope; removed."
@@ -81779,6 +81949,16 @@
     "id": "instrument-2",
     "word": "Instrument",
     "reason": "Instrument is a familiar word for a tool or device."
+  },
+  {
+    "id": "instrumentalization",
+    "word": "Instrumentalization",
+    "reason": "Se excluye la grafía estadounidense en -ization; la grafía británica usual es instrumentalisation."
+  },
+  {
+    "id": "instrumentalize",
+    "word": "Instrumentalize",
+    "reason": "Se excluye la grafía estadounidense en -ize; la grafía británica usual es instrumentalise."
   },
   {
     "id": "instrumentally",
@@ -81929,6 +82109,11 @@
     "id": "intellectualize",
     "word": "Intellectualize",
     "reason": "Ejemplo con una variante regional eliminada y sin sustitución posible."
+  },
+  {
+    "id": "intellectualize-rationalize",
+    "word": "intellectualize",
+    "reason": "Cambridge indica que en el Reino Unido se suele escribir intellectualise; se excluye esta ficha con la grafía estadounidense en -ize."
   },
   {
     "id": "intellectually",
@@ -82201,6 +82386,11 @@
     "reason": "Término abstracto de uso filosófico o académico poco común."
   },
   {
+    "id": "interiorize",
+    "word": "interiorize",
+    "reason": "Cambridge indica que en el Reino Unido se suele escribir interiorise; se excluye esta ficha con la grafía estadounidense en -ize."
+  },
+  {
     "id": "interjacent",
     "word": "Interjacent",
     "reason": "Adjetivo raro y formal para algo situado entre otras cosas."
@@ -82296,6 +82486,11 @@
     "reason": "Forma rara y poco documentada que no pertenece al vocabulario general."
   },
   {
+    "id": "intermission",
+    "word": "Intermission",
+    "reason": "Sentido de pausa entre partes de una obra, película o concierto marcado como principalmente estadounidense; en el Reino Unido suele usarse interval."
+  },
+  {
     "id": "intermission-2",
     "word": "Intermission",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
@@ -82374,6 +82569,26 @@
     "id": "internationality",
     "word": "Internationality",
     "reason": "Nombre abstracto de uso académico poco común."
+  },
+  {
+    "id": "internationalization",
+    "word": "Internationalization",
+    "reason": "Grafía estadounidense; Cambridge indica que en el Reino Unido suelen usarse internationalisation / internationalise."
+  },
+  {
+    "id": "internationalization-control",
+    "word": "Internationalization",
+    "reason": "Grafía estadounidense; Cambridge indica que en el Reino Unido suelen usarse internationalisation / internationalise."
+  },
+  {
+    "id": "internationalize",
+    "word": "Internationalize",
+    "reason": "Grafía estadounidense; Cambridge indica que en el Reino Unido suelen usarse internationalisation / internationalise."
+  },
+  {
+    "id": "internationalize-control",
+    "word": "Internationalize",
+    "reason": "Grafía estadounidense; Cambridge indica que en el Reino Unido suelen usarse internationalisation / internationalise."
   },
   {
     "id": "internationally",
@@ -82666,6 +82881,11 @@
     "reason": "Término especializado de filosofía e historia."
   },
   {
+    "id": "intramural",
+    "word": "Intramural",
+    "reason": "En el sentido educativo de actividad dentro de una misma institución, Collins lo marca como principalmente estadounidense y canadiense."
+  },
+  {
     "id": "intramuscularly",
     "word": "intramuscularly",
     "reason": "Adverbio técnico derivado y transparente de intramuscular."
@@ -82864,6 +83084,11 @@
     "id": "inventory-process-of-counting-items",
     "word": "Inventory",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
+  },
+  {
+    "id": "inventory-stock",
+    "word": "inventory",
+    "reason": "Sentido de existencias disponibles marcado como estadounidense por Collins; en inglés británico se usa stock."
   },
   {
     "id": "inverse",
@@ -83446,6 +83671,16 @@
     "reason": "Variante británica de ischemia; se conserva la forma principal."
   },
   {
+    "id": "ischemia",
+    "word": "Ischemia",
+    "reason": "Grafía estadounidense; Collins registra ischaemia como forma alternativa de la entrada americana y esa es la grafía británica."
+  },
+  {
+    "id": "ischemic",
+    "word": "ischemic",
+    "reason": "Grafía derivada estadounidense; en inglés británico se escribe ischaemic."
+  },
+  {
     "id": "ishmaelite",
     "word": "Ishmaelite",
     "reason": "Gentilicio bíblico antiguo y poco usado."
@@ -84006,6 +84241,11 @@
     "reason": "Derivado poco usado de javelin thrower."
   },
   {
+    "id": "jawbone-verb",
+    "word": "jawbone",
+    "reason": "Acepción verbal estadounidense: persuadir o presionar invocando un cargo o posición; Collins la marca como US."
+  },
+  {
     "id": "jaywalking",
     "word": "Jaywalking",
     "reason": "Variante regional no británica (estadounidense, australiana, etc.) o término de otra variedad del inglés."
@@ -84154,6 +84394,11 @@
     "id": "jibaro",
     "word": "Jibaro",
     "reason": "Entrada de una voz regional española que no corresponde a una palabra del inglés general."
+  },
+  {
+    "id": "jibe-agree",
+    "word": "jibe",
+    "reason": "Acepción verbal “coincidir/estar de acuerdo” marcada por Collins como mainly US; no es propia del inglés británico."
   },
   {
     "id": "jicotea",
@@ -84536,6 +84781,11 @@
     "reason": "Voz rara para la melena de un león, de uso poco extendido."
   },
   {
+    "id": "juba-2",
+    "word": "Juba",
+    "reason": "Collins marca el sentido de mane como uso de Estados Unidos."
+  },
+  {
     "id": "jubilantly",
     "word": "jubilantly",
     "reason": "Adverb outside the dictionary editorial scope; removed."
@@ -84714,6 +84964,11 @@
     "id": "jujube-candy-2343",
     "word": "jujube",
     "reason": "Sin sinónimos tras eliminar variantes regionales no británicas."
+  },
+  {
+    "id": "julep",
+    "word": "Julep",
+    "reason": "La acepción de cóctel de whisky, hielo triturado, azúcar y menta corresponde al mint julep, marcado por Collins como principalmente estadounidense."
   },
   {
     "id": "julep-2",
@@ -85214,6 +85469,11 @@
     "id": "key",
     "word": "key",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
+  },
+  {
+    "id": "key-lime",
+    "word": "Key lime",
+    "reason": "Collins recoge esta denominación para un cítrico originario de Florida Keys solo en su entrada de inglés estadounidense."
   },
   {
     "id": "keyboard-3",
@@ -89571,6 +89831,11 @@
     "reason": "Common bird name with a straightforward definition; outside the dictionary scope."
   },
   {
+    "id": "linnet-2",
+    "word": "linnet",
+    "reason": "The sense “rude or ignorant person” is not attested by Collins or Cambridge; both document the bird sense only."
+  },
+  {
     "id": "linotype",
     "word": "Linotype",
     "reason": "Former trademark for a typesetting machine; excluded as a brand name."
@@ -93531,6 +93796,11 @@
     "reason": "A store that sells necessary goods is not mandatory; the word means required by a rule or law."
   },
   {
+    "id": "mandi",
+    "word": "Mandi",
+    "reason": "Oxford Advanced Learner’s Dictionary labels this sense Indian English; it names a wholesale market for crops in India, outside the UK/US English scope."
+  },
+  {
     "id": "mandinka",
     "word": "Mandinka",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
@@ -93599,6 +93869,11 @@
     "id": "manganar",
     "word": "Manganar",
     "reason": "This is a Spanish regional verb, not an English lemma; the English gloss does not make it a valid English entry."
+  },
+  {
+    "id": "manganar-2",
+    "word": "manganar",
+    "reason": "The active row is not an English lemma; its gloss matches the regional Spanish verb manganear, ‘to throw a mangana at an animal’s legs’, documented chiefly in Mexico by the RAE’s DHLE. The older exclusion ID manganar did not catch this runtime ID."
   },
   {
     "id": "manganic",
@@ -104264,6 +104539,11 @@
     "reason": "Adverb outside the dictionary editorial scope; removed."
   },
   {
+    "id": "officially-protected-housing",
+    "word": "Officially protected housing",
+    "reason": "This is a literal English rendering of Spain’s vivienda de protección oficial (VPO) category found in translated Spanish housing material, not a UK/US English regional term or a general English housing term."
+  },
+  {
     "id": "officiate-act-as-sports-official",
     "word": "Officiate",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
@@ -105097,6 +105377,11 @@
     "id": "opening-commission",
     "word": "opening commission",
     "reason": "This is a country-specific banking phrase for a loan origination fee, not a general English synonym headword."
+  },
+  {
+    "id": "opening-commission-2",
+    "word": "opening commission",
+    "reason": "This sense is a localized translation of Spain’s comisión de apertura charged when a loan is opened; it is not an established UK/US consumer-loan term."
   },
   {
     "id": "opening-hours-2",
@@ -107902,6 +108187,11 @@
     "id": "penthrite",
     "word": "Penthrite",
     "reason": "Nombre técnico de un explosivo, poco usado fuera de química especializada; fuera del alcance editorial."
+  },
+  {
+    "id": "pepla-2",
+    "word": "pepla",
+    "reason": "Collins la identifica únicamente como plural de peplum; es una forma flexionada sin lema ni sentido independiente."
   },
   {
     "id": "pepper",
@@ -111417,6 +111707,11 @@
     "id": "prevention",
     "word": "prevention",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
+  },
+  {
+    "id": "prevention-of-occupational-risks",
+    "word": "Prevention of occupational risks",
+    "reason": "Localized English rendering of Spain’s occupational risk prevention legal framework (LPRL), used in translated Spanish institutional material; not an established UK/US English dictionary term. Spain’s official English portal uses this exact heading for its national law: https://administracion.gob.es/en/tu-espacio-europeo/derechos-obligaciones/ciudadanos/trabajo-jubilacion/seguridad-salud/prevencion-riesgos"
   },
   {
     "id": "preventively",
@@ -119600,6 +119895,11 @@
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
+    "id": "round3119-unlearned-participle",
+    "word": "unlearned",
+    "reason": "Participio/pasado de unlearn; forma verbal flexionada sin lema independiente."
+  },
+  {
     "id": "round3120-unlike-remove-like",
     "word": "unlike",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
@@ -120808,6 +121108,11 @@
     "id": "round3576-backup-traffic",
     "word": "backup",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
+  },
+  {
+    "id": "round5098-gunslinger-risk-taker",
+    "word": "gunslinger",
+    "reason": "Se excluye el sentido metafórico estadounidense de jerga para una persona que asume grandes riesgos en negocios o política; se conserva gunslinger como pistolero del Viejo Oeste."
   },
   {
     "id": "roundabout",
@@ -128960,6 +129265,11 @@
     "reason": "Social bonus is a jurisdiction-specific electricity subsidy term, not a general English synonym headword."
   },
   {
+    "id": "social-energy-discount",
+    "word": "Social energy discount",
+    "reason": "Spain-specific English rendering of the bono social electricity support scheme, used in translated material about Spain; UK policy sources use terms such as social tariff/social energy tariff. https://fra.europa.eu/sites/default/files/fra_uploads/fr-housing-in-climate-transition-country-report-spain_en.pdf"
+  },
+  {
     "id": "social-jurisdiction",
     "word": "Social jurisdiction",
     "reason": "This is a literal translation of a Spanish legal institution, not a natural general English term."
@@ -132928,6 +133238,11 @@
     "id": "streamline",
     "word": "Streamline",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
+  },
+  {
+    "id": "street-drinking-party",
+    "word": "street drinking party",
+    "reason": "Literal English gloss of Spain’s culturally specific botellón; the phrase is used primarily to explain that Spanish phenomenon rather than as a UK/US English lexical item. Spain’s Interior Ministry bilingual terminology dictionary translates botellón as “street drinking, drinking party”: https://www.interior.gob.es/opencms/pdf/archivos-y-documentacion/documentacion-y-publicaciones/publicaciones-descargables/seguridad-ciudadana/Diccionario_de_terminos_juridico-policiales_126150938.pdf"
   },
   {
     "id": "streetwalker",
@@ -141775,6 +142090,11 @@
     "reason": "Adverb outside the dictionary editorial scope; removed."
   },
   {
+    "id": "unlearned",
+    "word": "Unlearned",
+    "reason": "Adjetivo documentado con el sentido transparente de no educado o no instruido; derivación directa de learned que no necesita explicación propia."
+  },
+  {
     "id": "unleash",
     "word": "Unleash",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
@@ -144738,6 +145058,11 @@
     "id": "visit",
     "word": "visit",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
+  },
+  {
+    "id": "visiting-regime",
+    "word": "Visiting regime",
+    "reason": "Literalized English label for Spain’s régimen de visitas in translated family-law material; UK/US English normally uses visiting arrangements, contact arrangements, or visitation schedule, not “visiting regime”. Example source about Article 94 of Spain’s Civil Code: https://www.audaciabogados.com/en/blog/how-does-visitation-work-in-divorce-with-children/"
   },
   {
     "id": "visitor",
@@ -147859,6 +148184,11 @@
     "reason": "Frase administrativa muy especializada y no una voz útil para el diccionario general."
   },
   {
+    "id": "won",
+    "word": "Won",
+    "reason": "La ficha activa es el pasado y participio de win, forma verbal flexionada; se mantienen aparte las fichas independientes de la moneda coreana."
+  },
+  {
     "id": "wonder",
     "word": "wonder",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
@@ -148859,6 +149189,11 @@
     "reason": "Voz española incorporada por error a la lista inglesa."
   },
   {
+    "id": "zumbel",
+    "word": "zumbel",
+    "reason": "A regional Andalusian Spanish term for the cord used to spin a top, not an English lemma. The RAE’s historical dictionary cites the study “El peón, la peonza y el zumbel en Andalucía”: https://temporalraeweb.rae.es/dhle/trompa"
+  },
+  {
     "id": "zumbell",
     "word": "Zumbell",
     "reason": "Variante gráfica poco usada de «zumbel»."
@@ -148882,295 +149217,5 @@
     "id": "zygophylaceous",
     "word": "Zygophylaceous",
     "reason": "Adjetivo botánico muy especializado."
-  },
-  {
-    "id": "gummy",
-    "word": "gummy",
-    "reason": "Se excluye el sustantivo estadounidense para una golosina masticable; se conserva gummy como adjetivo británico con el sentido de pegajoso."
-  },
-  {
-    "id": "gurney",
-    "word": "Gurney",
-    "reason": "Se excluye el término estadounidense para camilla hospitalaria con ruedas; Collins indica que en inglés británico se usa trolley."
-  },
-  {
-    "id": "round5098-gunslinger-risk-taker",
-    "word": "gunslinger",
-    "reason": "Se excluye el sentido metafórico estadounidense de jerga para una persona que asume grandes riesgos en negocios o política; se conserva gunslinger como pistolero del Viejo Oeste."
-  },
-  {
-    "id": "hardheaded-2",
-    "word": "Hardheaded",
-    "reason": "El sentido «terco/obstinado» está marcado por Collins como estadounidense y canadiense; se excluye de la variante británica."
-  },
-  {
-    "id": "haze-7",
-    "word": "Haze",
-    "reason": "Sentido de humillar o acosar a nuevos integrantes en un grupo; Collins lo marca principalmente estadounidense y canadiense. Se conservan los sentidos británicos de niebla y confusión."
-  },
-  {
-    "id": "hazing",
-    "word": "Hazing",
-    "reason": "Ritual de acoso o humillación a nuevos integrantes; Cambridge lo marca estadounidense y Collins principalmente estadounidense y canadiense. Se excluye de la variante británica."
-  },
-  {
-    "id": "heist",
-    "word": "Heist",
-    "reason": "El sentido de robo marcado como informal está registrado por Collins como principalmente estadounidense y canadiense; se excluye de la variante británica."
-  },
-  {
-    "id": "hickey",
-    "word": "hickey",
-    "reason": "Collins y Cambridge marcan el sentido de ‘love bite’ como estadounidense o estadounidense y canadiense; se conserva el equivalente británico ‘love bite’."
-  },
-  {
-    "id": "hillbilly-2",
-    "word": "hillbilly",
-    "reason": "Collins marca esta voz peyorativa como informal de Estados Unidos; se excluye de la variante británica."
-  },
-  {
-    "id": "hijra-2",
-    "word": "hijra",
-    "reason": "Para el sentido histórico de la migración de Mahoma, se sustituye la forma no británica por el equivalente británico ‘Hijrah’."
-  },
-  {
-    "id": "hijra-3",
-    "word": "hijra",
-    "reason": "Para el sentido de la era islámica, se sustituye la forma no británica por el equivalente británico ‘Hijrah’."
-  },
-  {
-    "id": "hodgepodge",
-    "word": "hodgepodge",
-    "reason": "Collins marca hodgepodge como principalmente estadounidense; se excluye la forma original y se conserva la forma británica hotch-potch."
-  },
-  {
-    "id": "hodgepodge-2",
-    "word": "hodgepodge",
-    "reason": "Collins marca hodgepodge como principalmente estadounidense; se excluye la forma original y se conserva la forma británica hotch-potch."
-  },
-  {
-    "id": "home-invasion",
-    "word": "Home invasion",
-    "reason": "Collins marca el sentido de aggravated burglary como propio de Australia y Nueva Zelanda; se excluye de la edición británica."
-  },
-  {
-    "id": "home-warranty",
-    "word": "Home warranty",
-    "reason": "Esta ficha define el sentido estadounidense de contrato de reparaciones para electrodomésticos y sistemas domésticos; en el Reino Unido se usa appliance cover para electrodomésticos y home warranty suele designar garantías de viviendas nuevas."
-  },
-  {
-    "id": "hood-15",
-    "word": "Hood",
-    "reason": "Collins marca hood para la cubierta del motor como nombre estadounidense y canadiense; se sustituye por la forma británica bonnet."
-  },
-  {
-    "id": "hunker-down",
-    "word": "hunker down",
-    "reason": "Collins marca como estadounidense el sentido de agacharse y bajar el cuerpo; se excluye de la edición británica."
-  },
-  {
-    "id": "hunker-down-hide",
-    "word": "hunker down",
-    "reason": "Collins marca como estadounidense el sentido de permanecer escondido para evitar ser visto o correr peligro; se excluye de la edición británica."
-  },
-  {
-    "id": "hunker-down-prepare",
-    "word": "hunker down",
-    "reason": "El sentido de prepararse para afrontar una tarea difícil está documentado por Collins como estadounidense; se excluye de la edición británica."
-  },
-  {
-    "id": "hustle-get-money",
-    "word": "hustle",
-    "reason": "Collins marca como principalmente estadounidense el sentido de ganar dinero o sacar ventaja mediante métodos deshonestos o ilegales; se excluye de la edición británica."
-  },
-  {
-    "id": "hustler",
-    "word": "Hustler",
-    "reason": "Collins registra el sentido de ‘persona emprendedora que trabaja duro para triunfar’ en American English; se excluye de la edición británica."
-  },
-  {
-    "id": "hustler-3",
-    "word": "Hustler",
-    "reason": "Collins registra el sentido de ‘persona emprendedora que trabaja duro para triunfar’ en American English; se excluye de la edición británica."
-  },
-  {
-    "id": "hypothyroid-person",
-    "word": "Hypothyroid",
-    "reason": "Collins registra el uso sustantivo de ‘persona con hipotiroidismo’ solo en American English; se excluye de la edición británica."
-  },
-  {
-    "id": "instill",
-    "word": "instill",
-    "reason": "Collins marca esta grafía con doble l como estadounidense y señala que en inglés británico se usa instil; se excluye de la edición británica."
-  },
-  {
-    "id": "instill-2",
-    "word": "instill",
-    "reason": "Collins marca esta grafía con doble l como estadounidense y señala que en inglés británico se usa instil; se excluye de la edición británica."
-  },
-  {
-    "id": "instill-liquid",
-    "word": "Instill",
-    "reason": "Collins marca esta grafía con doble l como estadounidense y señala que en inglés británico se usa instil; se excluye de la edición británica."
-  },
-  {
-    "id": "institutionalization",
-    "word": "Institutionalization",
-    "reason": "Cambridge indica que en el Reino Unido se suele escribir institutionalisation; se excluye esta grafía estadounidense."
-  },
-  {
-    "id": "institutionalization-practice",
-    "word": "Institutionalization",
-    "reason": "Cambridge indica que en el Reino Unido se suele escribir institutionalisation; se excluye esta grafía estadounidense."
-  },
-  {
-    "id": "institutionalize",
-    "word": "Institutionalize",
-    "reason": "Cambridge indica que en el Reino Unido se suele escribir institutionalise; se excluye esta grafía estadounidense."
-  },
-  {
-    "id": "institutionalize-practice",
-    "word": "Institutionalize",
-    "reason": "Cambridge indica que en el Reino Unido se suele escribir institutionalise; se excluye esta grafía estadounidense."
-  },
-  {
-    "id": "instrumentalization",
-    "word": "Instrumentalization",
-    "reason": "Se excluye la grafía estadounidense en -ization; la grafía británica usual es instrumentalisation."
-  },
-  {
-    "id": "instrumentalize",
-    "word": "Instrumentalize",
-    "reason": "Se excluye la grafía estadounidense en -ize; la grafía británica usual es instrumentalise."
-  },
-  {
-    "id": "intellectualize-rationalize",
-    "word": "intellectualize",
-    "reason": "Cambridge indica que en el Reino Unido se suele escribir intellectualise; se excluye esta ficha con la grafía estadounidense en -ize."
-  },
-  {
-    "id": "interiorize",
-    "word": "interiorize",
-    "reason": "Cambridge indica que en el Reino Unido se suele escribir interiorise; se excluye esta ficha con la grafía estadounidense en -ize."
-  },
-  {
-    "id": "intermission",
-    "word": "Intermission",
-    "reason": "Sentido de pausa entre partes de una obra, película o concierto marcado como principalmente estadounidense; en el Reino Unido suele usarse interval."
-  },
-  {
-    "id": "internationalization",
-    "word": "Internationalization",
-    "reason": "Grafía estadounidense; Cambridge indica que en el Reino Unido suelen usarse internationalisation / internationalise."
-  },
-  {
-    "id": "internationalization-control",
-    "word": "Internationalization",
-    "reason": "Grafía estadounidense; Cambridge indica que en el Reino Unido suelen usarse internationalisation / internationalise."
-  },
-  {
-    "id": "internationalize",
-    "word": "Internationalize",
-    "reason": "Grafía estadounidense; Cambridge indica que en el Reino Unido suelen usarse internationalisation / internationalise."
-  },
-  {
-    "id": "internationalize-control",
-    "word": "Internationalize",
-    "reason": "Grafía estadounidense; Cambridge indica que en el Reino Unido suelen usarse internationalisation / internationalise."
-  },
-  {
-    "id": "intramural",
-    "word": "Intramural",
-    "reason": "En el sentido educativo de actividad dentro de una misma institución, Collins lo marca como principalmente estadounidense y canadiense."
-  },
-  {
-    "id": "inventory-stock",
-    "word": "inventory",
-    "reason": "Sentido de existencias disponibles marcado como estadounidense por Collins; en inglés británico se usa stock."
-  },
-  {
-    "id": "ischemia",
-    "word": "Ischemia",
-    "reason": "Grafía estadounidense; Collins registra ischaemia como forma alternativa de la entrada americana y esa es la grafía británica."
-  },
-  {
-    "id": "ischemic",
-    "word": "ischemic",
-    "reason": "Grafía derivada estadounidense; en inglés británico se escribe ischaemic."
-  },
-  {
-    "id": "jawbone-verb",
-    "word": "jawbone",
-    "reason": "Acepción verbal estadounidense: persuadir o presionar invocando un cargo o posición; Collins la marca como US."
-  },
-  {
-    "id": "jibe-agree",
-    "word": "jibe",
-    "reason": "Acepción verbal “coincidir/estar de acuerdo” marcada por Collins como mainly US; no es propia del inglés británico."
-  },
-  {
-    "id": "juba-2",
-    "word": "Juba",
-    "reason": "Collins marca el sentido de mane como uso de Estados Unidos."
-  },
-  {
-    "id": "julep",
-    "word": "Julep",
-    "reason": "La acepción de cóctel de whisky, hielo triturado, azúcar y menta corresponde al mint julep, marcado por Collins como principalmente estadounidense."
-  },
-  {
-    "id": "key-lime",
-    "word": "Key lime",
-    "reason": "Collins recoge esta denominación para un cítrico originario de Florida Keys solo en su entrada de inglés estadounidense."
-  },
-  {
-    "id": "linnet-2",
-    "word": "linnet",
-    "reason": "The sense “rude or ignorant person” is not attested by Collins or Cambridge; both document the bird sense only."
-  },
-  {
-    "id": "mandi",
-    "word": "Mandi",
-    "reason": "Oxford Advanced Learner’s Dictionary labels this sense Indian English; it names a wholesale market for crops in India, outside the UK/US English scope."
-  },
-  {
-    "id": "manganar-2",
-    "word": "manganar",
-    "reason": "The active row is not an English lemma; its gloss matches the regional Spanish verb manganear, ‘to throw a mangana at an animal’s legs’, documented chiefly in Mexico by the RAE’s DHLE. The older exclusion ID manganar did not catch this runtime ID."
-  },
-  {
-    "id": "officially-protected-housing",
-    "word": "Officially protected housing",
-    "reason": "This is a literal English rendering of Spain’s vivienda de protección oficial (VPO) category found in translated Spanish housing material, not a UK/US English regional term or a general English housing term."
-  },
-  {
-    "id": "opening-commission-2",
-    "word": "opening commission",
-    "reason": "This sense is a localized translation of Spain’s comisión de apertura charged when a loan is opened; it is not an established UK/US consumer-loan term."
-  },
-  {
-    "id": "prevention-of-occupational-risks",
-    "word": "Prevention of occupational risks",
-    "reason": "Localized English rendering of Spain’s occupational risk prevention legal framework (LPRL), used in translated Spanish institutional material; not an established UK/US English dictionary term. Spain’s official English portal uses this exact heading for its national law: https://administracion.gob.es/en/tu-espacio-europeo/derechos-obligaciones/ciudadanos/trabajo-jubilacion/seguridad-salud/prevencion-riesgos"
-  },
-  {
-    "id": "social-energy-discount",
-    "word": "Social energy discount",
-    "reason": "Spain-specific English rendering of the bono social electricity support scheme, used in translated material about Spain; UK policy sources use terms such as social tariff/social energy tariff. https://fra.europa.eu/sites/default/files/fra_uploads/fr-housing-in-climate-transition-country-report-spain_en.pdf"
-  },
-  {
-    "id": "street-drinking-party",
-    "word": "street drinking party",
-    "reason": "Literal English gloss of Spain’s culturally specific botellón; the phrase is used primarily to explain that Spanish phenomenon rather than as a UK/US English lexical item. Spain’s Interior Ministry bilingual terminology dictionary translates botellón as “street drinking, drinking party”: https://www.interior.gob.es/opencms/pdf/archivos-y-documentacion/documentacion-y-publicaciones/publicaciones-descargables/seguridad-ciudadana/Diccionario_de_terminos_juridico-policiales_126150938.pdf"
-  },
-  {
-    "id": "visiting-regime",
-    "word": "Visiting regime",
-    "reason": "Literalized English label for Spain’s régimen de visitas in translated family-law material; UK/US English normally uses visiting arrangements, contact arrangements, or visitation schedule, not “visiting regime”. Example source about Article 94 of Spain’s Civil Code: https://www.audaciabogados.com/en/blog/how-does-visitation-work-in-divorce-with-children/"
-  },
-  {
-    "id": "zumbel",
-    "word": "zumbel",
-    "reason": "A regional Andalusian Spanish term for the cord used to spin a top, not an English lemma. The RAE’s historical dictionary cites the study “El peón, la peonza y el zumbel en Andalucía”: https://temporalraeweb.rae.es/dhle/trompa"
   }
 ]

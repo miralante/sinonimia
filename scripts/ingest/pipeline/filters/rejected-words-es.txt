@@ -86,8 +86,14 @@ abanderado
 abanderamiento
 abandonamiento
 abandonista
+Abanear
 abanec
+Abanicar
+Abanicazo
 abanico
+Abanillo
+Abaniqueo
+Abaniquería
 abaniquero
 abanto
 abanzamiento
@@ -34766,6 +34772,7 @@ turnio
 turón
 turón europeo
 turpial
+Turronero
 tuscal
 tusígeno
 tusilago
@@ -34781,6 +34788,7 @@ tuteladas
 tutelado
 tutelados
 tutelais
+Tutelaje
 tutelamos
 tutelan
 tutelando
@@ -34811,6 +34819,7 @@ tutoría
 Tutorial
 tutorización
 tutti frutti
+Tutú
 tutuca
 tuyango
 twist

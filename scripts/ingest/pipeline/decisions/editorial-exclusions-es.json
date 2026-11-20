@@ -100,6 +100,36 @@
     "reason": "Palabra de uso cotidiano y familiar con una definición general sencilla; no cumple el criterio de dificultad del diccionario."
   },
   {
+    "id": "abanear",
+    "word": "Abanear",
+    "reason": "No figura como lema en el DLE, fuente de verificación exigida por la guía editorial."
+  },
+  {
+    "id": "abanicar",
+    "word": "Abanicar",
+    "reason": "La ficha activa solo recoge la acción cotidiana y transparente de dar aire moviendo un abanico; no recoge las acepciones especializadas independientes."
+  },
+  {
+    "id": "abanicazo",
+    "word": "Abanicazo",
+    "reason": "Derivado transparente: golpe dado con un abanico; la acepción se infiere directamente de abanico y -azo."
+  },
+  {
+    "id": "abanillo",
+    "word": "Abanillo",
+    "reason": "La ficha corresponde a una prenda histórica para cuellos antiguos; la otra acepción del DLE está marcada como desusada."
+  },
+  {
+    "id": "abaniqueo",
+    "word": "Abaniqueo",
+    "reason": "Nombre transparente de la acción común de abanicar o abanicarse; no aporta una acepción independiente difícil."
+  },
+  {
+    "id": "abaniqueria",
+    "word": "Abaniquería",
+    "reason": "Nombre transparente de una fábrica o tienda de abanicos; no requiere explicación léxica propia."
+  },
+  {
     "id": "abano",
     "word": "Abano",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
@@ -21574,14 +21604,14 @@
     "reason": "Gentilicio y adjetivo demográfico; no cumple el foco editorial del diccionario."
   },
   {
-    "id": "cabileno-member-of-kabyle-tribe-1407",
-    "word": "cabileño",
-    "reason": "Gentilicio, fuera del criterio editorial del diccionario."
-  },
-  {
     "id": "cabileño",
     "word": "cabileño",
     "reason": "Demonym/adjective identifying a Kabyle tribal group; demonyms are excluded under editorial criteria."
+  },
+  {
+    "id": "cabileno-member-of-kabyle-tribe-1407",
+    "word": "cabileño",
+    "reason": "Gentilicio, fuera del criterio editorial del diccionario."
   },
   {
     "id": "cabinera",
@@ -62555,9 +62585,19 @@
     "reason": "Adverbio fuera del criterio editorial del diccionario; eliminado."
   },
   {
+    "id": "empeñar-comprometer",
+    "word": "Empeñar",
+    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
+  },
+  {
     "id": "empendolar",
     "word": "Empendolar",
     "reason": "Verbo desusado para poner plumas a flechas o dardos."
+  },
+  {
+    "id": "empeño-esfuerzo",
+    "word": "Empeño",
+    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
     "id": "empenosamente",
@@ -62573,16 +62613,6 @@
     "id": "empenton",
     "word": "Empenton",
     "reason": "Variante regional de Aragón y Navarra equivalente a empellón."
-  },
-  {
-    "id": "empeñar-comprometer",
-    "word": "Empeñar",
-    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
-  },
-  {
-    "id": "empeño-esfuerzo",
-    "word": "Empeño",
-    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
     "id": "empeorar-volverse",
@@ -69015,14 +69045,14 @@
     "reason": "No se pudo verificar como lema vigente en el DLE."
   },
   {
-    "id": "entundar",
-    "word": "Entundar",
-    "reason": "El DLE limita el uso a Ecuador; la guía editorial excluye regionalismos."
-  },
-  {
     "id": "entuñarse",
     "word": "Entuñarse",
     "reason": "El DLE limita el uso a Salamanca; la guía editorial excluye regionalismos."
+  },
+  {
+    "id": "entundar",
+    "word": "Entundar",
+    "reason": "El DLE limita el uso a Ecuador; la guía editorial excluye regionalismos."
   },
   {
     "id": "enturar",
@@ -147092,7 +147122,17 @@
     "reason": "Forma derivada y transparente de rebañar."
   },
   {
+    "id": "rebañador",
+    "word": "Rebañador",
+    "reason": "Forma derivada y transparente de rebañar."
+  },
+  {
     "id": "rebanadura",
+    "word": "Rebañadura",
+    "reason": "Sustantivo coloquial derivado y transparente."
+  },
+  {
+    "id": "rebañadura",
     "word": "Rebañadura",
     "reason": "Sustantivo coloquial derivado y transparente."
   },
@@ -147115,16 +147155,6 @@
     "id": "rebano",
     "word": "Rebaño",
     "reason": "Nombre común y fácil de un grupo de animales."
-  },
-  {
-    "id": "rebañador",
-    "word": "Rebañador",
-    "reason": "Forma derivada y transparente de rebañar."
-  },
-  {
-    "id": "rebañadura",
-    "word": "Rebañadura",
-    "reason": "Sustantivo coloquial derivado y transparente."
   },
   {
     "id": "rebatar",
@@ -171033,6 +171063,11 @@
     "reason": "Regionalismo para una morcilla de calidad baja, con escasa difusión."
   },
   {
+    "id": "tarantera",
+    "word": "tarantera",
+    "reason": "El DLE marca como mexicano el sentido de aturdimiento; se excluye por ser propio de una variedad ajena a España."
+  },
+  {
     "id": "tarantin",
     "word": "tarantín",
     "reason": "Tiene varios sentidos regionales distintos y limitados: trasto, tienda pobre o utensilios de cocina."
@@ -171588,6 +171623,11 @@
     "reason": "A rare Venezuelan colloquial word for a spinning top that wobbles or jumps, with narrow local use."
   },
   {
+    "id": "tatay",
+    "word": "tatay",
+    "reason": "El DLE la marca como interjección de Ecuador para expresar asco o disgusto; se excluye por pertenecer a una variedad ajena a España."
+  },
+  {
     "id": "tate",
     "word": "tate",
     "reason": "A rare old-fashioned warning meaning take care or stop, with little contemporary use."
@@ -171726,6 +171766,11 @@
     "id": "tayacanear",
     "word": "tayacanear",
     "reason": "Es una voz de Honduras y Nicaragua para guiar una yunta de bueyes y no tiene uso general."
+  },
+  {
+    "id": "tayo",
+    "word": "tayo",
+    "reason": "El DLE marca como ecuatorianismo y peruanismo el nombre del ave amazónica; se excluye por ser una voz propia de variedades ajenas a España."
   },
   {
     "id": "tayul",
@@ -172003,6 +172048,11 @@
     "reason": "Variante antigua de tejamanil, tabla para cubrir techos."
   },
   {
+    "id": "tejamanil",
+    "word": "tejamanil",
+    "reason": "El DLE marca como mexicano el nombre de la tabla delgada usada como teja; se excluye por pertenecer a una variedad ajena a España."
+  },
+  {
     "id": "tejedera",
     "word": "tejedera",
     "reason": "This regional name for a water beetle is narrowly specialized and low utility."
@@ -172141,6 +172191,11 @@
     "id": "telefonometro",
     "word": "telefonómetro",
     "reason": "Es un aparato de medición telefónica hoy obsoleto y demasiado especializado para una entrada general."
+  },
+  {
+    "id": "telefoto-teleobjetivo",
+    "word": "telefoto",
+    "reason": "Se excluye solo la acepción de teleobjetivo: el Diccionario del español de México la documenta como equivalente mexicano de teleobjetivo, mientras se conserva la ficha general de telefotografía."
   },
   {
     "id": "telefotografia",
@@ -172373,6 +172428,11 @@
     "reason": "Voz regional con sentidos de terreno pantanoso y temblor, poco extendida."
   },
   {
+    "id": "tembladeral",
+    "word": "tembladeral",
+    "reason": "El DLE marca el término para Argentina y Uruguay como sinónimo de tremedal; se excluye por ser propio de variedades ajenas a España."
+  },
+  {
     "id": "tembladerilla",
     "word": "tembladerilla",
     "reason": "Es una planta chilena que puede causar temblores al ganado que la come, un dato botánico especializado."
@@ -172403,9 +172463,19 @@
     "reason": "Temblón significa que tiembla con facilidad o intensidad, un adjetivo transparente y de uso corriente."
   },
   {
+    "id": "temblorina",
+    "word": "temblorina",
+    "reason": "El DLE marca como mexicana esta voz para tembladera/acción de temblar; se excluye por pertenecer a una variedad ajena a España."
+  },
+  {
     "id": "tembloroso",
     "word": "tembloroso",
     "reason": "Adjetivo común y transparente derivado de temblar."
+  },
+  {
+    "id": "tembloteo",
+    "word": "tembloteo",
+    "reason": "El DLE marca como mexicana esta voz para tembladera/acción de temblar; se excluye por pertenecer a una variedad ajena a España."
   },
   {
     "id": "temedero",
@@ -172686,6 +172756,16 @@
     "id": "tenazon",
     "word": "tenazón",
     "reason": "A rare expression for shooting suddenly without taking aim, limited to specialized or old-fashioned usage."
+  },
+  {
+    "id": "tendajo",
+    "word": "tendajo",
+    "reason": "El Diccionario del español de México define tendajo como tendajón, tienda pequeña y rudimentaria; se excluye por ser propio de una variedad ajena a España."
+  },
+  {
+    "id": "tendalada",
+    "word": "tendalada",
+    "reason": "El DLE la limita a Argentina, Chile, Cuba, Ecuador, El Salvador, Guatemala, Honduras, México y Nicaragua como voz para tendal de cuerpos o cosas tendidas; se excluye por ser propia de variedades ajenas a España."
   },
   {
     "id": "tendalera",
@@ -173948,6 +174028,11 @@
     "reason": "Es el nombre médico de contracciones musculares involuntarias y tiene uso clínico especializado."
   },
   {
+    "id": "tete",
+    "word": "tete",
+    "reason": "El Diccionario de americanismos de ASALE marca como chileno el uso de tete por tetilla del biberón; se excluye por pertenecer a una variedad ajena a España."
+  },
+  {
     "id": "tetelque",
     "word": "tetelque",
     "reason": "Demonimia, derivación transparente o voz demasiado local o rara para el alcance editorial."
@@ -174086,6 +174171,11 @@
     "id": "tex",
     "word": "tex",
     "reason": "Palabra común, diminutivo, flexión o voz demasiado rara para el alcance editorial."
+  },
+  {
+    "id": "textal",
+    "word": "textal",
+    "reason": "El DLE marca como mexicana la bolita de masa con que se hace una tortilla; se excluye por pertenecer a una variedad ajena a España."
   },
   {
     "id": "texto-spoken",
@@ -174251,6 +174341,11 @@
     "id": "tierno",
     "word": "tierno",
     "reason": "Palabra común, diminutivo, flexión o voz demasiado rara para el alcance editorial."
+  },
+  {
+    "id": "tierral",
+    "word": "tierral",
+    "reason": "El DLE marca como mexicana esta voz para polvareda; se excluye por pertenecer a una variedad ajena a España."
   },
   {
     "id": "tierrero",
@@ -175038,6 +175133,11 @@
     "reason": "La ficha restringe este uso a El Salvador; regionalismo de una variedad no peninsular."
   },
   {
+    "id": "tiriciento",
+    "word": "tiriciento",
+    "reason": "El DLE marca esta voz como propia de El Salvador y Nicaragua; se excluye por pertenecer a variedades ajenas a España."
+  },
+  {
     "id": "tirillas",
     "word": "Tirillas",
     "reason": "Forma plural que solo remite al singular y no aporta una acepción independiente; se excluye según los criterios editoriales."
@@ -175233,6 +175333,11 @@
     "reason": "Voz de uso dialectal o de otra variedad del español (no peninsular)."
   },
   {
+    "id": "tizate-arbusto-medicinal-centroamericano",
+    "word": "tizate",
+    "reason": "El DLE marca esta acepción como propia de Honduras; se excluye por pertenecer a una variedad ajena a España."
+  },
+  {
     "id": "tizate-variedad-maiz-blanco",
     "word": "tizate",
     "reason": "Entrada o acepción marcada explícitamente como regional y sin uso peninsular indicado."
@@ -175406,6 +175511,11 @@
     "id": "tocable",
     "word": "tocable",
     "reason": "Tocable is a transparent form meaning that something can be touched."
+  },
+  {
+    "id": "tocada",
+    "word": "tocada",
+    "reason": "El DLE marca esta acepción de reunión musical como mexicana; se excluye por pertenecer a una variedad ajena a España."
   },
   {
     "id": "tocadiscos",
@@ -175878,6 +175988,11 @@
     "reason": "Oficio especializado de fabricar toneles, de alcance artesanal muy limitado."
   },
   {
+    "id": "tongonear",
+    "word": "Tongonear",
+    "reason": "El Diccionario de americanismos de ASALE marca este sentido como propio de México, Nicaragua, Cuba, República Dominicana, Colombia y Venezuela; se excluye por corresponder a variedades ajenas a España."
+  },
+  {
     "id": "tongoneo",
     "word": "tongoneo",
     "reason": "La glosa circular remite a tongonear, una voz poco extendida para un movimiento oscilante."
@@ -175966,6 +176081,11 @@
     "id": "tontuna",
     "word": "tontuna",
     "reason": "Nombre transparente de la cualidad o acto de una persona tonta."
+  },
+  {
+    "id": "topadora",
+    "word": "Topadora",
+    "reason": "El Diccionario de americanismos de ASALE marca la voz para la máquina o tractor de obras como propia de Ecuador, Bolivia, Argentina, Uruguay y Paraguay; se excluye por pertenecer a variedades ajenas a España."
   },
   {
     "id": "topar",
@@ -176543,6 +176663,11 @@
     "reason": "A technical naval name for a small flag flown from a ship, with little general synonym value."
   },
   {
+    "id": "torsalo",
+    "word": "Tórsalo",
+    "reason": "El Diccionario de americanismos de ASALE marca esta voz para la larva parasitaria como propia de El Salvador y Panamá; se excluye por pertenecer a variedades ajenas a España."
+  },
+  {
     "id": "tortazo",
     "word": "Tortazo",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
@@ -176893,6 +177018,11 @@
     "reason": "Voz de uso dialectal o de otra variedad del español (no peninsular)."
   },
   {
+    "id": "totumo-hard-shelled-fruit-used-to-make-containers",
+    "word": "totumo",
+    "reason": "El Diccionario de americanismos de ASALE marca el sentido de fruto usado para hacer vasijas como propio de Panamá, Colombia, Venezuela, Perú y Bolivia; se excluye por pertenecer a variedades ajenas a España."
+  },
+  {
     "id": "tova",
     "word": "tova",
     "reason": "Tova significa cara o rostro en algunas variedades regionales. Es una voz local poco conocida frente a cara o rostro."
@@ -177183,6 +177313,11 @@
     "reason": "El DLE marca la voz como desusada y describe a una persona alborotada o de poco juicio; no tiene uso general actual."
   },
   {
+    "id": "traga",
+    "word": "Traga",
+    "reason": "El Diccionario de americanismos de ASALE marca el sentido de ‘enamoramiento intenso’ como colombiano; se excluye por corresponder a una variedad ajena a España."
+  },
+  {
     "id": "tragaavemarias",
     "word": "tragaavemarías",
     "reason": "El DLE marca tragaavemarías como coloquial y desusado. No cumple el criterio de uso actual."
@@ -177221,6 +177356,11 @@
     "id": "tragamallas",
     "word": "tragamallas",
     "reason": "Es un apodo poco frecuente y despectivo para alguien que come mucho."
+  },
+  {
+    "id": "tragamonedas",
+    "word": "Tragamonedas",
+    "reason": "El Diccionario de americanismos de ASALE registra esta voz para la máquina de juego en varios países americanos, sin uso marcado para España; se excluye de la edición española."
   },
   {
     "id": "traganiquel",
@@ -177388,6 +177528,11 @@
     "reason": "Nombre de uso general para una parte de un camino o proceso, fácil de entender."
   },
   {
+    "id": "tramojo",
+    "word": "Tramojo",
+    "reason": "Esta ficha corresponde a la acepción de palo o estorbo que se pone a un animal para impedirle cruzar cercados, marcada por el DLE como propia de Argentina, Cuba, Uruguay y Venezuela; se excluye de la edición española."
+  },
+  {
     "id": "tramontano",
     "word": "tramontano",
     "reason": "Rare geographical adjective meaning beyond the mountains."
@@ -177481,6 +177626,11 @@
     "id": "tranquera",
     "word": "Tranquera",
     "reason": "Voz de uso dialectal o de otra variedad del español (no peninsular)."
+  },
+  {
+    "id": "tranquera-gate",
+    "word": "tranquera",
+    "reason": "El Diccionario de americanismos de ASALE documenta esta voz para una puerta rústica en varios países americanos y no para España; se excluye de la edición española."
   },
   {
     "id": "tranquero",
@@ -178348,6 +178498,11 @@
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
+    "id": "traspatio",
+    "word": "Traspatio",
+    "reason": "El DLE marca la acepción de patio trasero como propia de varios países americanos; no incluye España."
+  },
+  {
     "id": "traspecho",
     "word": "traspecho",
     "reason": "Nombra una pieza de ballesta y pertenece al vocabulario histórico de armas, sin uso general actual."
@@ -178441,6 +178596,11 @@
     "id": "trasroscarse",
     "word": "trasroscarse",
     "reason": "Es una variante poco usada de «pasarse de rosca» y no añade un sentido independiente de uso general."
+  },
+  {
+    "id": "trastabillon",
+    "word": "Trastabillón",
+    "reason": "El DLE marca el sentido de tropezón o traspié como propio de varios países americanos; no incluye España."
   },
   {
     "id": "trastamenta",
@@ -178621,6 +178781,11 @@
     "id": "trato-way-of-behaving-toward-someone",
     "word": "trato",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
+  },
+  {
+    "id": "traumado",
+    "word": "Traumado",
+    "reason": "El DLE señala que se usa más en América; en el español de España se prefiere traumatizado."
   },
   {
     "id": "traumatico",
@@ -178966,6 +179131,16 @@
     "id": "trepante",
     "word": "trepante",
     "reason": "La definición de alguien que usa engaños parece corresponder a trepador y no a un uso general claro de trepante."
+  },
+  {
+    "id": "treparse",
+    "word": "Treparse",
+    "reason": "Sentido pronominal de subirse/ponerse encima no registrado en el DLE para España; el DLE recoge treparse con un sentido distinto y poco usado."
+  },
+  {
+    "id": "treparse-ponerse-encima",
+    "word": "treparse",
+    "reason": "Sentido pronominal de subirse/ponerse encima no registrado en el DLE para España; el DLE recoge treparse con un sentido distinto y poco usado."
   },
   {
     "id": "trepe",
@@ -179878,6 +180053,11 @@
     "reason": "Trompo es el nombre común de un juguete infantil y su definición describe directamente cómo se usa."
   },
   {
+    "id": "trompudo",
+    "word": "Trompudo",
+    "reason": "El DLE limita la acepción coloquial de persona con labios gruesos a Argentina, El Salvador, Honduras, México, Nicaragua y Uruguay; no incluye España."
+  },
+  {
     "id": "tronador",
     "word": "tronador",
     "reason": "This transparent adjective means causing thunder and is easy to understand."
@@ -180403,6 +180583,16 @@
     "reason": "Es una voz coloquial de escaso uso y no aporta una acepción general independiente."
   },
   {
+    "id": "tufoso",
+    "word": "Tufoso",
+    "reason": "El DLE registra tufoso solo con sentido de vanidoso en El Salvador, Honduras y Nicaragua; el sentido de olor de esta ficha no aparece documentado para España."
+  },
+  {
+    "id": "tufoso-conceited-colloquial",
+    "word": "tufoso",
+    "reason": "El DLE limita el sentido coloquial de vanidoso a El Salvador, Honduras y Nicaragua; no incluye España."
+  },
+  {
     "id": "tugurio",
     "word": "Tugurio",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
@@ -180683,6 +180873,11 @@
     "reason": "Voz de uso dialectal o de otra variedad del español (no peninsular)."
   },
   {
+    "id": "tupir-block",
+    "word": "tupir",
+    "reason": "Sentido relacionado con obstruirse/cerrarse un conducto; el DLE marca ese uso pronominal como propio de Cuba y Venezuela."
+  },
+  {
     "id": "tupitaina",
     "word": "Tupitaina",
     "reason": "Voz de uso dialectal o de otra variedad del español (no peninsular)."
@@ -180893,6 +181088,11 @@
     "reason": "Sus sentidos son coloquiales y se distribuyen entre Argentina, Chile y Uruguay; además, puede significar ruin o tonto según el país."
   },
   {
+    "id": "turronero",
+    "word": "Turronero",
+    "reason": "Ocupación de significado directo y transparente: persona que fabrica o vende turrón; vocabulario común y concreto."
+  },
+  {
     "id": "turugon",
     "word": "turugón",
     "reason": "Variante regional salvadoreña que remite al nombre preferido torogoz."
@@ -180946,6 +181146,11 @@
     "id": "tusa",
     "word": "tusa",
     "reason": "Esta acepción de acción de tusar es poco extendida y no aporta un significado general independiente."
+  },
+  {
+    "id": "tusar",
+    "word": "Tusar",
+    "reason": "El DLE marca sus sentidos de trasquilar y atusar el pelo para varios países americanos, sin incluir España."
   },
   {
     "id": "tusca",
@@ -181003,6 +181208,11 @@
     "reason": "Verbo común y sencillo para tratar a alguien de tú."
   },
   {
+    "id": "tutelaje",
+    "word": "Tutelaje",
+    "reason": "El DLE lo define como acción y efecto de tutelar; derivación transparente sin concepto propio distinto de tutela o tutelar."
+  },
+  {
     "id": "tutia",
     "word": "tutía",
     "reason": "El DLE remite tutía a atutía, una sustancia medicinal antigua; la expresión no hay tutía es un sentido fraseológico aparte, no una ficha de esta palabra."
@@ -181026,6 +181236,11 @@
     "id": "tutriz",
     "word": "tutriz",
     "reason": "Forma femenina poco usada de tutora; se prefiere la forma actual tutora."
+  },
+  {
+    "id": "tutu",
+    "word": "Tutú",
+    "reason": "Prenda concreta y familiar del ballet, definida con vocabulario corriente; no alcanza la dificultad prevista para una ficha."
   },
   {
     "id": "tutumilpate",
@@ -181623,6 +181838,11 @@
     "reason": "This rare adjective for long or prominent nails has little current use."
   },
   {
+    "id": "untada-bribe",
+    "word": "Untada",
+    "reason": "La acepción de soborno está marcada para países americanos (Cuba, Honduras, República Dominicana y otros), sin incluir España, en el Diccionario de americanismos."
+  },
+  {
     "id": "untador",
     "word": "untador",
     "reason": "Derivado transparente del verbo untar, sin significado independiente necesario."
@@ -181763,6 +181983,11 @@
     "reason": "Uricotélico is a specialist zoology term for how some animals remove nitrogen."
   },
   {
+    "id": "urinal-fixed-bathroom-fixture-for-urinating",
+    "word": "urinal",
+    "reason": "Esta ficha usa el sentido inglés de aparato fijo para orinar; el DLE solo recoge urinal como adjetivo poco usado relativo a la orina. Para el aparato, el español general usa urinario."
+  },
+  {
     "id": "uro",
     "word": "uro",
     "reason": "Uro nombra a un bóvido salvaje extinto desde el siglo XVII; es un término histórico y zoológico muy específico."
@@ -181801,6 +182026,11 @@
     "id": "uruguayismo",
     "word": "uruguayismo",
     "reason": "Uruguayismo es una palabra o rasgo propio del español de Uruguay. Es un término de lingüística transparente y específico de una variedad nacional."
+  },
+  {
+    "id": "urunday",
+    "word": "Urunday",
+    "reason": "El DLE marca el árbol y su madera como uso de Argentina."
   },
   {
     "id": "urundey",
@@ -181851,6 +182081,11 @@
     "id": "usier",
     "word": "usier",
     "reason": "Variante antigua de ujier, nombre de un empleado auxiliar de oficinas o tribunales."
+  },
+  {
+    "id": "usina",
+    "word": "Usina",
+    "reason": "El DLE marca esta voz con el sentido de instalación industrial como propia de Argentina, Bolivia, Chile, Paraguay y Uruguay."
   },
   {
     "id": "usiria",
@@ -182026,6 +182261,11 @@
     "id": "vacacional",
     "word": "vacacional",
     "reason": "Vacacional significa relativo a las vacaciones y es una formación transparente de uso común."
+  },
+  {
+    "id": "vacacionar",
+    "word": "Vacacionar",
+    "reason": "El DLE limita el sentido de pasar las vacaciones en un lugar a países americanos y no incluye España."
   },
   {
     "id": "vacante",
@@ -182441,6 +182681,11 @@
     "id": "valsar",
     "word": "valsar",
     "reason": "Es una variante poco usada de bailar el vals y no añade un sentido distinto."
+  },
+  {
+    "id": "valuador",
+    "word": "Valuador",
+    "reason": "El DLE limita el oficio de calcular el valor de bienes a México."
   },
   {
     "id": "valuar",
@@ -183178,6 +183423,11 @@
     "reason": "Nombra una tela fina para cubrir la cabeza o el rostro, pero es una voz poco frecuente frente a «velo» o «pañuelo»."
   },
   {
+    "id": "velis",
+    "word": "Velís",
+    "reason": "El DLE marca el sentido de maleta de mano como mexicano."
+  },
+  {
     "id": "velite",
     "word": "Vélite",
     "reason": "Tipo histórico de soldado romano, demasiado específico y de uso muy escaso."
@@ -183716,6 +183966,11 @@
     "id": "venus",
     "word": "Venus",
     "reason": "Nombre propio muy conocido del planeta y la diosa; el sentido de escultura prehistórica también se expresa de forma clara."
+  },
+  {
+    "id": "venusterio",
+    "word": "Venusterio",
+    "reason": "El DLE limita el sentido de habitación carcelaria para visitas íntimas a Perú."
   },
   {
     "id": "venustez",
@@ -184703,6 +184958,11 @@
     "reason": "Viduño nombra una variedad o linaje de vid; es un término específico de la viticultura."
   },
   {
+    "id": "vidurria",
+    "word": "Vidurria",
+    "reason": "El DLE limita el uso coloquial con el sentido de vida regalada a Argentina y Uruguay."
+  },
+  {
     "id": "viejales",
     "word": "viejales",
     "reason": "Viejales es una forma festiva y coloquial para referirse a una persona mayor. Es una variante expresiva y poco útil como entrada general."
@@ -185503,6 +185763,11 @@
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
+    "id": "vitrinear",
+    "word": "Vitrinear",
+    "reason": "El DLE marca como chileno el uso con el sentido de mirar vitrinas o escaparates."
+  },
+  {
     "id": "vitriolo",
     "word": "vitriolo",
     "reason": "This historical name for metal sulfates and concentrated sulfuric acid is too technical for general use."
@@ -185621,6 +185886,16 @@
     "id": "vivismo",
     "word": "vivismo",
     "reason": "Corriente filosófica histórica ligada a un pensador concreto, fuera del uso general."
+  },
+  {
+    "id": "vivon",
+    "word": "Vivón",
+    "reason": "El DLE limita a Honduras el sentido de persona viva o lista."
+  },
+  {
+    "id": "vivon-seeking-personal-advantage",
+    "word": "vivón",
+    "reason": "El DLE limita a Honduras el sentido de persona viva o lista; esta ficha expresa ese uso."
   },
   {
     "id": "vizcacha",
@@ -186508,6 +186783,11 @@
     "reason": "Acepción minera americana para el mercurio añadido al mineral; no es la voz peninsular usada para una añadidura o regalo."
   },
   {
+    "id": "yapar",
+    "word": "Yapar",
+    "reason": "El DLE limita el verbo con el sentido de añadir una yapa a Argentina, Bolivia, Ecuador y Perú."
+  },
+  {
     "id": "yaquil",
     "word": "yáquil",
     "reason": "Es el nombre chileno de un arbusto espinoso con usos tradicionales, una voz botánica regional."
@@ -186678,6 +186958,16 @@
     "reason": "Acepción de marcaje de ganado documentada por el DLE solo en países de América; sin sentido propio del español de España."
   },
   {
+    "id": "yerra-fiesta-rural",
+    "word": "yerra",
+    "reason": "El DLE limita la fiesta de marcación de ganado a países de América; no se registra para España."
+  },
+  {
+    "id": "yerra-temporada-de-marcacion",
+    "word": "yerra",
+    "reason": "El DLE limita la temporada de marcación de ganado a países de América; no se registra para España."
+  },
+  {
     "id": "yervo",
     "word": "yervo",
     "reason": "Yervo es el nombre regional de una planta herbácea; se excluye como denominación botánica local."
@@ -186721,6 +187011,11 @@
     "id": "yeye",
     "word": "yeyé",
     "reason": "Describe un estilo musical y juvenil popular en los años sesenta, un uso muy fechado y específico."
+  },
+  {
+    "id": "yeyo",
+    "word": "Yeyo",
+    "reason": "El DLE marca el sentido de desmayo como propio de Panamá, Puerto Rico, República Dominicana y Venezuela."
   },
   {
     "id": "yina",
@@ -186866,6 +187161,11 @@
     "id": "yuqueri",
     "word": "yuquerí",
     "reason": "Nombre regional argentino de un arbusto espinoso, poco usado fuera de su zona."
+  },
+  {
+    "id": "yuquero",
+    "word": "Yuquero",
+    "reason": "El DLE limita la voz para quien cultiva o comercia con yuca a Bolivia y Colombia."
   },
   {
     "id": "yuquilla",
@@ -187553,6 +187853,11 @@
     "reason": "Sus sentidos de enjambre o lugar con muchos mosquitos están limitados a países de Centroamérica."
   },
   {
+    "id": "zancudo",
+    "word": "Zancudo",
+    "reason": "El DLE marca el uso con el sentido de mosquito para países de América; no se registra para España."
+  },
+  {
     "id": "zandia",
     "word": "zandía",
     "reason": "Variante dialectal o antigua de sandía, sin ventaja frente a la forma general."
@@ -188198,6 +188503,11 @@
     "reason": "This regional bird name is too narrow for the project’s target vocabulary."
   },
   {
+    "id": "ziper",
+    "word": "Zíper",
+    "reason": "El DLE recoge zíper únicamente para Costa Rica, Cuba, El Salvador, Guatemala, Honduras, México, Nicaragua, Panamá, Puerto Rico y República Dominicana; además, la ficha usa la forma no normativa sin tilde."
+  },
+  {
     "id": "zircona",
     "word": "zircona",
     "reason": "Zircona es el dióxido de circonio, un compuesto utilizado en cerámica y materiales refractarios. Es un término técnico de química y materiales."
@@ -188306,6 +188616,11 @@
     "id": "zoncear",
     "word": "zoncear",
     "reason": "Forma rara, derivada o de uso común fuera del alcance editorial."
+  },
+  {
+    "id": "zoncera",
+    "word": "Zoncera",
+    "reason": "El DLE limita el sentido de tontería o simpleza a países de América; no lo marca para España."
   },
   {
     "id": "zonceria",
@@ -188556,6 +188871,11 @@
     "id": "zorronglon",
     "word": "zorronglón",
     "reason": "Adjetivo regional raro para quien hace las cosas de mala gana y refunfuñando."
+  },
+  {
+    "id": "zorrongo",
+    "word": "Zorrongo",
+    "reason": "El DLE marca este uso de persona que hace las cosas con lentitud, desgana y refunfuñando como propio de Colombia; no se registra para España."
   },
   {
     "id": "zorruno",
@@ -188918,278 +189238,18 @@
     "reason": "Nombre botánico de una hierba silvestre, de uso especializado."
   },
   {
-    "id": "tarantera",
-    "word": "tarantera",
-    "reason": "El DLE marca como mexicano el sentido de aturdimiento; se excluye por ser propio de una variedad ajena a España."
+    "id": "tuyo",
+    "word": "Tuyo",
+    "reason": "Posesivo básico y frecuente que expresa pertenencia a quien escucha; resulta familiar y transparente para el público destinatario."
   },
   {
-    "id": "tatay",
-    "word": "tatay",
-    "reason": "El DLE la marca como interjección de Ecuador para expresar asco o disgusto; se excluye por pertenecer a una variedad ajena a España."
+    "id": "ubicacion",
+    "word": "Ubicación",
+    "reason": "Sustantivo de uso muy común y transparente, derivado de ubicar; la ficha recoge el sentido básico de lugar o acción de localizar."
   },
   {
-    "id": "tayo",
-    "word": "tayo",
-    "reason": "El DLE marca como ecuatorianismo y peruanismo el nombre del ave amazónica; se excluye por ser una voz propia de variedades ajenas a España."
-  },
-  {
-    "id": "tejamanil",
-    "word": "tejamanil",
-    "reason": "El DLE marca como mexicano el nombre de la tabla delgada usada como teja; se excluye por pertenecer a una variedad ajena a España."
-  },
-  {
-    "id": "telefoto-teleobjetivo",
-    "word": "telefoto",
-    "reason": "Se excluye solo la acepción de teleobjetivo: el Diccionario del español de México la documenta como equivalente mexicano de teleobjetivo, mientras se conserva la ficha general de telefotografía."
-  },
-  {
-    "id": "tembladeral",
-    "word": "tembladeral",
-    "reason": "El DLE marca el término para Argentina y Uruguay como sinónimo de tremedal; se excluye por ser propio de variedades ajenas a España."
-  },
-  {
-    "id": "temblorina",
-    "word": "temblorina",
-    "reason": "El DLE marca como mexicana esta voz para tembladera/acción de temblar; se excluye por pertenecer a una variedad ajena a España."
-  },
-  {
-    "id": "tembloteo",
-    "word": "tembloteo",
-    "reason": "El DLE marca como mexicana esta voz para tembladera/acción de temblar; se excluye por pertenecer a una variedad ajena a España."
-  },
-  {
-    "id": "tendajo",
-    "word": "tendajo",
-    "reason": "El Diccionario del español de México define tendajo como tendajón, tienda pequeña y rudimentaria; se excluye por ser propio de una variedad ajena a España."
-  },
-  {
-    "id": "tendalada",
-    "word": "tendalada",
-    "reason": "El DLE la limita a Argentina, Chile, Cuba, Ecuador, El Salvador, Guatemala, Honduras, México y Nicaragua como voz para tendal de cuerpos o cosas tendidas; se excluye por ser propia de variedades ajenas a España."
-  },
-  {
-    "id": "tete",
-    "word": "tete",
-    "reason": "El Diccionario de americanismos de ASALE marca como chileno el uso de tete por tetilla del biberón; se excluye por pertenecer a una variedad ajena a España."
-  },
-  {
-    "id": "textal",
-    "word": "textal",
-    "reason": "El DLE marca como mexicana la bolita de masa con que se hace una tortilla; se excluye por pertenecer a una variedad ajena a España."
-  },
-  {
-    "id": "tierral",
-    "word": "tierral",
-    "reason": "El DLE marca como mexicana esta voz para polvareda; se excluye por pertenecer a una variedad ajena a España."
-  },
-  {
-    "id": "tiriciento",
-    "word": "tiriciento",
-    "reason": "El DLE marca esta voz como propia de El Salvador y Nicaragua; se excluye por pertenecer a variedades ajenas a España."
-  },
-  {
-    "id": "tizate-arbusto-medicinal-centroamericano",
-    "word": "tizate",
-    "reason": "El DLE marca esta acepción como propia de Honduras; se excluye por pertenecer a una variedad ajena a España."
-  },
-  {
-    "id": "tocada",
-    "word": "tocada",
-    "reason": "El DLE marca esta acepción de reunión musical como mexicana; se excluye por pertenecer a una variedad ajena a España."
-  },
-  {
-    "id": "tongonear",
-    "word": "Tongonear",
-    "reason": "El Diccionario de americanismos de ASALE marca este sentido como propio de México, Nicaragua, Cuba, República Dominicana, Colombia y Venezuela; se excluye por corresponder a variedades ajenas a España."
-  },
-  {
-    "id": "topadora",
-    "word": "Topadora",
-    "reason": "El Diccionario de americanismos de ASALE marca la voz para la máquina o tractor de obras como propia de Ecuador, Bolivia, Argentina, Uruguay y Paraguay; se excluye por pertenecer a variedades ajenas a España."
-  },
-  {
-    "id": "torsalo",
-    "word": "Tórsalo",
-    "reason": "El Diccionario de americanismos de ASALE marca esta voz para la larva parasitaria como propia de El Salvador y Panamá; se excluye por pertenecer a variedades ajenas a España."
-  },
-  {
-    "id": "totumo-hard-shelled-fruit-used-to-make-containers",
-    "word": "totumo",
-    "reason": "El Diccionario de americanismos de ASALE marca el sentido de fruto usado para hacer vasijas como propio de Panamá, Colombia, Venezuela, Perú y Bolivia; se excluye por pertenecer a variedades ajenas a España."
-  },
-  {
-    "id": "traga",
-    "word": "Traga",
-    "reason": "El Diccionario de americanismos de ASALE marca el sentido de ‘enamoramiento intenso’ como colombiano; se excluye por corresponder a una variedad ajena a España."
-  },
-  {
-    "id": "tragamonedas",
-    "word": "Tragamonedas",
-    "reason": "El Diccionario de americanismos de ASALE registra esta voz para la máquina de juego en varios países americanos, sin uso marcado para España; se excluye de la edición española."
-  },
-  {
-    "id": "tramojo",
-    "word": "Tramojo",
-    "reason": "Esta ficha corresponde a la acepción de palo o estorbo que se pone a un animal para impedirle cruzar cercados, marcada por el DLE como propia de Argentina, Cuba, Uruguay y Venezuela; se excluye de la edición española."
-  },
-  {
-    "id": "tranquera-gate",
-    "word": "tranquera",
-    "reason": "El Diccionario de americanismos de ASALE documenta esta voz para una puerta rústica en varios países americanos y no para España; se excluye de la edición española."
-  },
-  {
-    "id": "traspatio",
-    "word": "Traspatio",
-    "reason": "El DLE marca la acepción de patio trasero como propia de varios países americanos; no incluye España."
-  },
-  {
-    "id": "trastabillon",
-    "word": "Trastabillón",
-    "reason": "El DLE marca el sentido de tropezón o traspié como propio de varios países americanos; no incluye España."
-  },
-  {
-    "id": "traumado",
-    "word": "Traumado",
-    "reason": "El DLE señala que se usa más en América; en el español de España se prefiere traumatizado."
-  },
-  {
-    "id": "treparse",
-    "word": "Treparse",
-    "reason": "Sentido pronominal de subirse/ponerse encima no registrado en el DLE para España; el DLE recoge treparse con un sentido distinto y poco usado."
-  },
-  {
-    "id": "treparse-ponerse-encima",
-    "word": "treparse",
-    "reason": "Sentido pronominal de subirse/ponerse encima no registrado en el DLE para España; el DLE recoge treparse con un sentido distinto y poco usado."
-  },
-  {
-    "id": "trompudo",
-    "word": "Trompudo",
-    "reason": "El DLE limita la acepción coloquial de persona con labios gruesos a Argentina, El Salvador, Honduras, México, Nicaragua y Uruguay; no incluye España."
-  },
-  {
-    "id": "tufoso",
-    "word": "Tufoso",
-    "reason": "El DLE registra tufoso solo con sentido de vanidoso en El Salvador, Honduras y Nicaragua; el sentido de olor de esta ficha no aparece documentado para España."
-  },
-  {
-    "id": "tufoso-conceited-colloquial",
-    "word": "tufoso",
-    "reason": "El DLE limita el sentido coloquial de vanidoso a El Salvador, Honduras y Nicaragua; no incluye España."
-  },
-  {
-    "id": "tupir-block",
-    "word": "tupir",
-    "reason": "Sentido relacionado con obstruirse/cerrarse un conducto; el DLE marca ese uso pronominal como propio de Cuba y Venezuela."
-  },
-  {
-    "id": "tusar",
-    "word": "Tusar",
-    "reason": "El DLE marca sus sentidos de trasquilar y atusar el pelo para varios países americanos, sin incluir España."
-  },
-  {
-    "id": "untada-bribe",
-    "word": "Untada",
-    "reason": "La acepción de soborno está marcada para países americanos (Cuba, Honduras, República Dominicana y otros), sin incluir España, en el Diccionario de americanismos."
-  },
-  {
-    "id": "urinal-fixed-bathroom-fixture-for-urinating",
-    "word": "urinal",
-    "reason": "Esta ficha usa el sentido inglés de aparato fijo para orinar; el DLE solo recoge urinal como adjetivo poco usado relativo a la orina. Para el aparato, el español general usa urinario."
-  },
-  {
-    "id": "urunday",
-    "word": "Urunday",
-    "reason": "El DLE marca el árbol y su madera como uso de Argentina."
-  },
-  {
-    "id": "usina",
-    "word": "Usina",
-    "reason": "El DLE marca esta voz con el sentido de instalación industrial como propia de Argentina, Bolivia, Chile, Paraguay y Uruguay."
-  },
-  {
-    "id": "vacacionar",
-    "word": "Vacacionar",
-    "reason": "El DLE limita el sentido de pasar las vacaciones en un lugar a países americanos y no incluye España."
-  },
-  {
-    "id": "valuador",
-    "word": "Valuador",
-    "reason": "El DLE limita el oficio de calcular el valor de bienes a México."
-  },
-  {
-    "id": "velis",
-    "word": "Velís",
-    "reason": "El DLE marca el sentido de maleta de mano como mexicano."
-  },
-  {
-    "id": "venusterio",
-    "word": "Venusterio",
-    "reason": "El DLE limita el sentido de habitación carcelaria para visitas íntimas a Perú."
-  },
-  {
-    "id": "vidurria",
-    "word": "Vidurria",
-    "reason": "El DLE limita el uso coloquial con el sentido de vida regalada a Argentina y Uruguay."
-  },
-  {
-    "id": "vitrinear",
-    "word": "Vitrinear",
-    "reason": "El DLE marca como chileno el uso con el sentido de mirar vitrinas o escaparates."
-  },
-  {
-    "id": "vivon",
-    "word": "Vivón",
-    "reason": "El DLE limita a Honduras el sentido de persona viva o lista."
-  },
-  {
-    "id": "vivon-seeking-personal-advantage",
-    "word": "vivón",
-    "reason": "El DLE limita a Honduras el sentido de persona viva o lista; esta ficha expresa ese uso."
-  },
-  {
-    "id": "yapar",
-    "word": "Yapar",
-    "reason": "El DLE limita el verbo con el sentido de añadir una yapa a Argentina, Bolivia, Ecuador y Perú."
-  },
-  {
-    "id": "yerra-fiesta-rural",
-    "word": "yerra",
-    "reason": "El DLE limita la fiesta de marcación de ganado a países de América; no se registra para España."
-  },
-  {
-    "id": "yerra-temporada-de-marcacion",
-    "word": "yerra",
-    "reason": "El DLE limita la temporada de marcación de ganado a países de América; no se registra para España."
-  },
-  {
-    "id": "yeyo",
-    "word": "Yeyo",
-    "reason": "El DLE marca el sentido de desmayo como propio de Panamá, Puerto Rico, República Dominicana y Venezuela."
-  },
-  {
-    "id": "yuquero",
-    "word": "Yuquero",
-    "reason": "El DLE limita la voz para quien cultiva o comercia con yuca a Bolivia y Colombia."
-  },
-  {
-    "id": "zancudo",
-    "word": "Zancudo",
-    "reason": "El DLE marca el uso con el sentido de mosquito para países de América; no se registra para España."
-  },
-  {
-    "id": "ziper",
-    "word": "Zíper",
-    "reason": "El DLE recoge zíper únicamente para Costa Rica, Cuba, El Salvador, Guatemala, Honduras, México, Nicaragua, Panamá, Puerto Rico y República Dominicana; además, la ficha usa la forma no normativa sin tilde."
-  },
-  {
-    "id": "zoncera",
-    "word": "Zoncera",
-    "reason": "El DLE limita el sentido de tontería o simpleza a países de América; no lo marca para España."
-  },
-  {
-    "id": "zorrongo",
-    "word": "Zorrongo",
-    "reason": "El DLE marca este uso de persona que hace las cosas con lentitud, desgana y refunfuñando como propio de Colombia; no se registra para España."
+    "id": "ubre-single-mammary-gland",
+    "word": "ubre",
+    "reason": "Duplicado exacto del sentido individual ya conservado en la ficha ubre; se mantiene aparte el sentido colectivo de ubre-collective-glands."
   }
 ]
