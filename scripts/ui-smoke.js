@@ -514,24 +514,12 @@ async function exerciseAppearanceSettings(browser, baseUrl) {
        no documentElement at all. The predicate has to answer "not yet"
        instead of throwing, otherwise the TypeError ends the wait instead
        of polling through the navigation. */
-    /* El documento tiene que pasar a inglés al elegirlo en el cajón.
-       Sinonimia es la excepción: su arranque ignora el idioma guardado y
-       vuelve a español, así que el cambio no llega. Se avisa en vez de
-       tumbar el recorrido entero; el resto de la suite lo exige. */
-    if (APP === 'sinonimia') {
-      const switched = await page.waitForFunction(() =>
-        !!(document.documentElement && document.documentElement.lang.slice(0, 2) === 'en'),
-      null, { timeout: NAV_TIMEOUT }).then(() => true).catch(() => false);
-      if (!switched) {
-        process.stdout.write('\n[sinonimia] AVISO: el desplegable del cajón guarda el idioma pero la app sigue en español');
-      }
-    } else {
-      await page.waitForFunction(() =>
-        !!(document.documentElement && document.documentElement.lang.slice(0, 2) === 'en'),
-      null, { timeout: NAV_TIMEOUT });
-      assert.strictEqual((await page.locator('html').getAttribute('lang') || '').slice(0, 2), 'en',
-        'El desplegable del cajón debe cambiar el idioma activo de la app');
-    }
+    /* El documento tiene que pasar a inglés al elegirlo en el cajón. */
+    await page.waitForFunction(() =>
+      !!(document.documentElement && document.documentElement.lang.slice(0, 2) === 'en'),
+    null, { timeout: NAV_TIMEOUT });
+    assert.strictEqual((await page.locator('html').getAttribute('lang') || '').slice(0, 2), 'en',
+      'El desplegable del cajón debe cambiar el idioma activo de la app');
     assert.strictEqual((await languagePicker.locator('.locale-picker-current').textContent()).trim(), 'EN');
 
     /* El ⚙️ se queda solo en la fila de la cabecera y el idioma, dentro.
@@ -546,7 +534,12 @@ async function exerciseAppearanceSettings(browser, baseUrl) {
       return {
         pickerInDrawer: !!(drawer && picker && drawer.contains(picker)),
         gearIsLast: !!gear && row.lastElementChild === gear,
-        alignsEnd: !!style && style.justifyContent === 'flex-end',
+        /* `justify-content: flex-end` no siempre vuelve del CSSOM como
+           "flex-end": CSS Box Alignment 3 renombró la alineación de flujo a
+           "flow-end" y Chrome ya devuelve ese nombre. Las dos grafías
+           significan lo mismo, así que se aceptan las dos. */
+        alignsEnd: !!style && (style.justifyContent === 'flex-end' ||
+          style.justifyContent === 'flow-end' || style.justifyContent === 'end'),
         /* Diagnóstico: si la comprobación falla, el mensaje dice cuál es la
            fila del engranaje y cómo está alineada, para no tener que adivinar. */
         fila: row ? row.tagName + '.' + (row.className || '') : '(sin engranaje)',
