@@ -115,9 +115,9 @@
 # tag in index.html.
 # ---------------------------------------------------------------------------
 /js/dict.*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: no-cache, must-revalidate
 /js/data.*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: no-cache, must-revalidate
 # css and the two page scripts carry no ?v= token, so they are revalidated on
 # every use (a 304 when nothing moved) instead of a 5-minute private cache.
 /css/*

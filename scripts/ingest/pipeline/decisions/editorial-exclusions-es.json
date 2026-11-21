@@ -189251,5 +189251,4255 @@
     "id": "ubre-single-mammary-gland",
     "word": "ubre",
     "reason": "Duplicado exacto del sentido individual ya conservado en la ficha ubre; se mantiene aparte el sentido colectivo de ubre-collective-glands."
+  },
+  {
+    "id": "aguachento",
+    "word": "Aguachento",
+    "reason": "La ficha marca esta voz como regional, sin delimitar una variedad aceptada."
+  },
+  {
+    "id": "abadiado",
+    "word": "Abadiado",
+    "reason": "El DLE marca el lema como regional de Aragón, alcance dialectal excluido por el criterio editorial. La ficha actual además omite esa marca."
+  },
+  {
+    "id": "efectos-secundarios",
+    "word": "Efectos secundarios",
+    "reason": "Plural de «efecto secundario»; el lema singular ya cubre el mismo concepto."
+  },
+  {
+    "id": "cookies",
+    "word": "Cookies",
+    "reason": "Plural de «cookie»; el lema singular ya cubre el mismo concepto."
+  },
+  {
+    "id": "aaronico",
+    "word": "Aarónico",
+    "reason": "El DLE no registra este lema («aarónico no está en el Diccionario»); la ficha es un adjetivo derivado de un nombre propio y no tiene respaldo lexicográfico verificable."
+  },
+  {
+    "id": "abajeno",
+    "word": "Abajeño",
+    "reason": "El DLE lo define como natural o procedente de El Bajío o de costas y tierras bajas; es un gentilicio o nombre de procedencia, criterio excluido en Sinonimia."
+  },
+  {
+    "id": "abadi",
+    "word": "Abadí",
+    "reason": "El DLE lo define como descendiente de Mohámed ben Abbad y explica que procede del patronímico de un nombre propio; es un nombre de linaje histórico, fuera del criterio de lemas generales."
+  },
+  {
+    "id": "abajar",
+    "word": "Abajar",
+    "reason": "La ficha vigente solo recoge el sentido general equivalente a «bajar», una acción básica y fácil; la acepción veterinaria del DLE no aparece en esta ficha y requeriría una entrada propia para evaluarse."
+  },
+  {
+    "id": "abajera",
+    "word": "Abajera",
+    "reason": "El DLE restringe esta manta para cabalgaduras a Argentina y Uruguay; es una voz regional fuera del alcance general fijado por la guía."
+  },
+  {
+    "id": "abalada",
+    "word": "Abalada",
+    "reason": "El DLE la deriva del dialectal «abalar» y solo remite a la expresión «harina abalada»; la ficha no cumple el criterio de uso general actual."
+  },
+  {
+    "id": "abaleadura",
+    "word": "Abaleadura",
+    "reason": "El DLE no registra este lema; la ficha además marca su acepción como antigua y no acredita un significado actual independiente."
+  },
+  {
+    "id": "abalconado",
+    "word": "Abalconado",
+    "reason": "Adjetivo transparente formado sobre «balcón»; la ficha solo describe formas provistas de balcón o barandilla, un sentido fácil y deducible."
+  },
+  {
+    "id": "abaratar",
+    "word": "Abaratar",
+    "reason": "El DLE lo define como hacer algo barato o bajar su precio; es una acción cotidiana, común y transparente."
+  },
+  {
+    "id": "abarcable",
+    "word": "Abarcable",
+    "reason": "El DLE lo define como «que se puede abarcar»; es una formación transparente con -able y una acepción fácil."
+  },
+  {
+    "id": "abarcadura",
+    "word": "Abarcadura",
+    "reason": "El DLE no registra este lema y solo sugiere «abarcador» como voz relacionada; falta respaldo lexicográfico verificable para la ficha."
+  },
+  {
+    "id": "abandono",
+    "word": "Abandono",
+    "reason": "La ficha recoge solo la acción general de abandonar, un concepto frecuente y fácil. El sentido jurídico del DLE no está representado en esta ficha y requeriría una entrada distinta."
+  },
+  {
+    "id": "abaranar",
+    "word": "Abarañar",
+    "reason": "No se ha podido verificar este lema exacto en el DLE; la ficha describe una labor rural muy restringida y no acredita uso general actual."
+  },
+  {
+    "id": "abarbechar",
+    "word": "Abarbechar",
+    "reason": "El DLE no registra esta forma y remite a «barbechar»; la ficha duplica de forma transparente el sentido de arar la tierra para dejarla descansar."
+  },
+  {
+    "id": "abarbetar",
+    "word": "Abarbetar",
+    "reason": "El DLE marca el único sentido del lema como militar y desusado; además, no coincide con el sentido marinero de amarrar con una barbeta que da la ficha vigente."
+  },
+  {
+    "id": "abarcador",
+    "word": "Abarcador",
+    "reason": "Adjetivo transparente que significa «que abarca»; el sentido es fácil y deducible de «abarcar»."
+  },
+  {
+    "id": "abarcar",
+    "word": "Abarcar",
+    "reason": "La ficha solo recoge «ceñir con los brazos o con la mano», una acción común y fácil; las acepciones más específicas del DLE no aparecen en esta ficha."
+  },
+  {
+    "id": "abarrado",
+    "word": "Abarrado",
+    "reason": "El DLE no registra el lema; la ficha ofrece un uso textil especializado sin respaldo lexicográfico verificable para esta forma."
+  },
+  {
+    "id": "abarrancadero",
+    "word": "Abarrancadero",
+    "reason": "El DLE no registra este lema y la ficha lo marca como antiguo; no hay verificación de uso actual."
+  },
+  {
+    "id": "abarrenar",
+    "word": "Abarrenar",
+    "reason": "La ficha la marca antigua y el DLE no registra el lema, sino que remite a barrenar; no acredita un uso actual independiente."
+  },
+  {
+    "id": "abarrer",
+    "word": "Abarrer",
+    "reason": "La ficha la marca antigua y el DLE no registra el lema, sino que remite a abarrar; el sentido local adicional tampoco acredita uso general vigente."
+  },
+  {
+    "id": "abarrocado",
+    "word": "Abarrocado",
+    "reason": "La ficha solo da el sentido transparente de presentar rasgos barrocos; la definición no aporta un significado independiente que supere el criterio de dificultad."
+  },
+  {
+    "id": "abasi",
+    "word": "Abasí",
+    "reason": "Adjetivo y sustantivo histórico derivado del nombre propio Abbás; se excluye por el criterio de nombres propios y derivados de nombres propios."
+  },
+  {
+    "id": "abastar",
+    "word": "Abastar",
+    "reason": "La ficha recoge únicamente el sentido básico de abastecer o proveer; las demás acepciones del DLE son desusadas o dialectales y no justifican conservar esta tarjeta."
+  },
+  {
+    "id": "abastardar",
+    "word": "Abastardar",
+    "reason": "La ficha ofrece una paráfrasis transparente de bastardear; el DLE no registra abastardar y no se verifica un sentido difícil e independiente actual."
+  },
+  {
+    "id": "abastecedor",
+    "word": "Abastecedor",
+    "reason": "Agente transparente de abastecer (“que abastece” o quien suministra); la tarjeta no aporta un sentido difícil independiente."
+  },
+  {
+    "id": "abastecer",
+    "word": "Abastecer",
+    "reason": "La ficha recoge el sentido corriente y transparente de proveer de cosas necesarias; no supera el criterio de dificultad."
+  },
+  {
+    "id": "abatible",
+    "word": "Abatible",
+    "reason": "Adjetivo transparente y corriente: algo que puede girar sobre una bisagra para cambiar de posición."
+  },
+  {
+    "id": "abatidero",
+    "word": "Abatidero",
+    "reason": "La ficha la marca antigua y regional; el DLE no registra el lema y remite a batidero."
+  },
+  {
+    "id": "abatidura",
+    "word": "Abatidura",
+    "reason": "La ficha la marca antigua, el DLE no registra el lema y describe una acción ordinaria de descender."
+  },
+  {
+    "id": "abdicativo",
+    "word": "Abdicativo",
+    "reason": "Adjetivo transparente de relación: perteneciente o relativo a la abdicación; la ficha no aporta sentido independiente."
+  },
+  {
+    "id": "abdomen",
+    "word": "Abdomen",
+    "reason": "La tarjeta recoge el sentido anatómico básico y de conocimiento común; no alcanza el umbral de dificultad editorial."
+  },
+  {
+    "id": "round2497-a-esparragar-idiom",
+    "word": "A esparragar",
+    "reason": "El DLE registra la expresión completa “anda/vete a esparragar”; la ficha usa un fragmento incompleto como lema y no documenta una locución independiente."
+  },
+  {
+    "id": "pachas",
+    "word": "Pachas",
+    "reason": "La única acepción vigente está marcada coloquial y restringida a España; se excluye por su distribución regional."
+  },
+  {
+    "id": "abdominal",
+    "word": "Abdominal",
+    "reason": "Adjetivo transparente de relación con abdomen; la ficha no añade un significado anatómico difícil."
+  },
+  {
+    "id": "abejon",
+    "word": "Abejón",
+    "reason": "La ficha se basa en el aumentativo transparente de abeja y mezcla sentidos sencillos con acepciones regionales o de juego antiguo; no aporta un sentido difícil vigente suficiente."
+  },
+  {
+    "id": "abejorrear",
+    "word": "Abejorrear",
+    "reason": "No se verifica como lema independiente en el DLE; la ficha combina un uso regional colombiano de carácter sexual con una formación transparente a partir de abejorro."
+  },
+  {
+    "id": "abeldar",
+    "word": "Abeldar",
+    "reason": "La ficha marca el término como antiguo o regional y describe una labor agrícola muy específica; no cumple el criterio de vigencia y uso general."
+  },
+  {
+    "id": "abellotado",
+    "word": "Abellotado",
+    "reason": "Adjetivo transparente que significa que tiene características propias de una bellota; la ficha no aporta un sentido difícil independiente."
+  },
+  {
+    "id": "abenuz",
+    "word": "Abenuz",
+    "reason": "La ficha marca como antiguo el sinónimo de ébano y no aporta un sentido vigente independiente."
+  },
+  {
+    "id": "abenula",
+    "word": "Abéñula",
+    "reason": "La ficha corresponde a una marca registrada de cosmético y añade una acepción desusada para «pestaña»; no es una entrada léxica general adecuada para esta colección."
+  },
+  {
+    "id": "aberenjenado",
+    "word": "Aberenjenado",
+    "reason": "Formación transparente para el color o la forma semejante a una berenjena; no aporta un concepto difícil autónomo."
+  },
+  {
+    "id": "abes",
+    "word": "Abés",
+    "reason": "La ficha marca el adverbio como antiguo y expresa apenas o con dificultad, un sentido que no cumple los criterios de vigencia y utilidad actuales."
+  },
+  {
+    "id": "abestiado",
+    "word": "Abestiado",
+    "reason": "Adjetivo transparente basado en «bestia»; la glosa de modales brutales es una extensión fácilmente deducible, no un sentido difícil independiente."
+  },
+  {
+    "id": "abestializado",
+    "word": "Abestializado",
+    "reason": "El DLE no registra el lema exacto y remite a «bestializar»; además, la ficha duplica «abestiado», ya excluido."
+  },
+  {
+    "id": "abestola",
+    "word": "Abéstola",
+    "reason": "Voz antigua para una aguijada, herramienta de uso rural hoy poco transparente y sin vigencia general suficiente."
+  },
+  {
+    "id": "abetal",
+    "word": "Abetal",
+    "reason": "Formación transparente que nombra un lugar poblado de abetos; definición fácilmente deducible de «abeto»."
+  },
+  {
+    "id": "abetunado",
+    "word": "Abetunado",
+    "reason": "Participio/adjetivo transparente de «abetunar»: que tiene características propias del betún; no aporta sentido independiente difícil."
+  },
+  {
+    "id": "abia",
+    "word": "Abia",
+    "reason": "El DLE marca el lema como regional de Álava y lo define como sinónimo local de arándano."
+  },
+  {
+    "id": "abibollo",
+    "word": "Abibollo",
+    "reason": "El DLE lo marca coloquial y regional de Álava; es una variante local de «ababol»."
+  },
+  {
+    "id": "abigotado",
+    "word": "Abigotado",
+    "reason": "Adjetivo transparente equivalente a «bigotudo»; la ficha no aporta significado propio difícil."
+  },
+  {
+    "id": "abinar",
+    "word": "Abinar",
+    "reason": "El DLE no registra este lema y la glosa agrícola no queda verificada como acepción vigente."
+  },
+  {
+    "id": "abisagrar",
+    "word": "Abisagrar",
+    "reason": "La ficha define una acción cotidiana y transparente: fijar bisagras a una puerta u objeto."
+  },
+  {
+    "id": "abiselar",
+    "word": "Abiselar",
+    "reason": "El DLE lo remite a «biselar» sin acepción diferenciada; la ficha solo repite de forma transparente la acción de hacer un bisel."
+  },
+  {
+    "id": "abismal",
+    "word": "Abismal",
+    "reason": "La ficha solo ofrece el sentido común y transparente de algo muy profundo o enorme, incluso en la expresión frecuente «diferencia abismal»; no representa una acepción difícil independiente."
+  },
+  {
+    "id": "abiso",
+    "word": "Abiso",
+    "reason": "El DLE marca la voz como culta y desusada; es un sinónimo histórico de «abismo»."
+  },
+  {
+    "id": "abizcochado",
+    "word": "Abizcochado",
+    "reason": "Adjetivo transparente que significa parecido al bizcocho; la ficha no añade un sentido difícil."
+  },
+  {
+    "id": "ablandador",
+    "word": "Ablandador",
+    "reason": "Adjetivo transparente: «que ablanda»; no recoge un concepto independiente difícil."
+  },
+  {
+    "id": "ablandativo",
+    "word": "Ablandativo",
+    "reason": "Adjetivo transparente que significa «que tiene virtud de ablandar»; no aporta un sentido propio difícil."
+  },
+  {
+    "id": "ablusado",
+    "word": "Ablusado",
+    "reason": "Adjetivo transparente que describe una prenda holgada a manera de blusa; no añade un significado difícil independiente."
+  },
+  {
+    "id": "abobado",
+    "word": "Abobado",
+    "reason": "Participio/adjetivo transparente y de sentido sencillo («que parece bobo»); no aporta una acepción difícil independiente."
+  },
+  {
+    "id": "abocardo",
+    "word": "Abocardo",
+    "reason": "El repertorio tecnológico marca el término como desusado y restringido a ingeniería minera de Almadén; la ficha presenta como actual una herramienta de uso obsoleto."
+  },
+  {
+    "id": "abochornante",
+    "word": "Abochornante",
+    "reason": "Derivación transparente de abochornar con -nte; el DLE la define únicamente como «que abochorna», sin acepción independiente difícil."
+  },
+  {
+    "id": "abofado",
+    "word": "Abofado",
+    "reason": "El DLE limita el sentido «fofo, hinchado» a Cuba, Andalucía, Honduras y República Dominicana; la ficha omite esa restricción geográfica."
+  },
+  {
+    "id": "abofarse",
+    "word": "Abofarse",
+    "reason": "El DLE restringe el uso a Cuba, Andalucía, Honduras y República Dominicana; la tarjeta presenta la acepción regional como general."
+  },
+  {
+    "id": "abofeteador",
+    "word": "Abofeteador",
+    "reason": "Derivado transparente con el sentido regular «que abofetea»; no aporta una acepción difícil propia."
+  },
+  {
+    "id": "abogacia",
+    "word": "Abogacía",
+    "reason": "La ficha recoge los sentidos corrientes de profesión y conjunto de abogados, previsibles desde abogado y sin dificultad léxica suficiente."
+  },
+  {
+    "id": "abogaderas",
+    "word": "Abogaderas",
+    "reason": "El DLE marca la voz como plural y exclusiva de Perú; la tarjeta omite esa restricción geográfica."
+  },
+  {
+    "id": "abogadesco",
+    "word": "Abogadesco",
+    "reason": "Adjetivo composicional y transparente («relativo al abogado o a su profesión»); la ficha no presenta una acepción difícil independiente."
+  },
+  {
+    "id": "abogado-defensor",
+    "word": "Abogado defensor",
+    "reason": "Locución composicional y transparente que repite el sentido común de abogado que defiende en un juicio; no constituye una acepción difícil independiente."
+  },
+  {
+    "id": "abogado-litigante",
+    "word": "Abogado litigante",
+    "reason": "Locución descriptiva y transparente para un abogado que litiga; la ficha no documenta una especialidad o acepción lexicalizada distinta."
+  },
+  {
+    "id": "abollon",
+    "word": "Abollón",
+    "reason": "La ficha ofrece únicamente un sinónimo corriente y directo de abolladura, sin acepción independiente difícil."
+  },
+  {
+    "id": "abominable",
+    "word": "Abominable",
+    "reason": "Adjetivo corriente, transparente desde abominar y glosado circularmente como «digno de ser abominado»; no añade una acepción difícil independiente."
+  },
+  {
+    "id": "abonable",
+    "word": "Abonable",
+    "reason": "Adjetivo transparente derivado de abonar con el sentido regular «que puede o debe ser abonado»; no aporta dificultad léxica propia."
+  },
+  {
+    "id": "abondar",
+    "word": "Abondar",
+    "reason": "El DLE marca sus acepciones como desusadas y su uso intransitivo como regional de León y Salamanca; la guía descarta arcaísmos y dialectalismos."
+  },
+  {
+    "id": "abono",
+    "word": "Abono",
+    "reason": "La ficha recoge el pago por un servicio y la sustancia para fertilizar la tierra; son sentidos frecuentes y familiares, sin acepción difícil propia para este diccionario."
+  },
+  {
+    "id": "aboquillado",
+    "word": "Aboquillado",
+    "reason": "Adjetivo formado como participio de aboquillar y definido de modo transparente como «que tiene forma de boquilla»; no presenta dificultad léxica independiente."
+  },
+  {
+    "id": "abordable",
+    "word": "Abordable",
+    "reason": "Adjetivo corriente para algo que se puede abordar, tratar o alcanzar; sus sentidos de accesible y tratable son familiares y transparentes."
+  },
+  {
+    "id": "abordador",
+    "word": "Abordador",
+    "reason": "Adjetivo agente regular definido únicamente como «que aborda»; el sentido es transparente y la ficha no documenta una acepción especializada independiente."
+  },
+  {
+    "id": "aborrajarse",
+    "word": "Aborrajarse",
+    "reason": "Voz agronómica muy restringida para el secado prematuro de la mies, sin marca de uso que oriente a quien consulta y sin evidencia de uso actual suficiente; no cumple el criterio de vocabulario vigente y verificable."
+  },
+  {
+    "id": "aborrascarse",
+    "word": "Aborrascarse",
+    "reason": "Verbo pronominal regular y transparente formado sobre borrasca; significa ponerse borrascoso y tiene equivalentes cotidianos como nublarse o encapotarse, sin dificultad léxica propia."
+  },
+  {
+    "id": "aborrecedor",
+    "word": "Aborrecedor",
+    "reason": "Nombre o adjetivo agente regular definido como «que aborrece»; es una formación transparente sin significado lexicalizado que requiera ficha propia."
+  },
+  {
+    "id": "aborrecible",
+    "word": "Aborrecible",
+    "reason": "Adjetivo transparente y glosado circularmente como «digno de ser aborrecido»; equivale a sinónimos comunes como odioso o detestable."
+  },
+  {
+    "id": "aborrir",
+    "word": "Aborrir",
+    "reason": "El DLE marca la única acepción como regional o dialectal de Salamanca y remite a aborrecer; no cumple el criterio de español vigente general."
+  },
+  {
+    "id": "aborronar",
+    "word": "Aborronar",
+    "reason": "La forma no aparece como lema en el DLE; la búsqueda remite a palabras distintas. No hay respaldo lexicográfico suficiente para mantenerla."
+  },
+  {
+    "id": "abotargarse",
+    "word": "Abotargarse",
+    "reason": "Variante de abotagarse con los mismos sentidos de hincharse y embotarse; no añade una acepción propia y puede resolverse como variante o sinónimo, sin una ficha redundante."
+  },
+  {
+    "id": "abotinado",
+    "word": "Abotinado",
+    "reason": "Adjetivo transparente para algo hecho con forma de botín; la ficha describe un rasgo fácil de entender y no una acepción difícil independiente."
+  },
+  {
+    "id": "abotonadura",
+    "word": "Abotonadura",
+    "reason": "La acepción es el juego de botones de una prenda, sin un sentido difícil propio; el DLE remite a la forma más habitual «botonadura»."
+  },
+  {
+    "id": "abovedado",
+    "word": "Abovedado",
+    "reason": "Participio usado como adjetivo para algo curvo o con forma de bóveda; su significado es transparente a partir de abovedar y no requiere entrada separada."
+  },
+  {
+    "id": "abozalar",
+    "word": "Abozalar",
+    "reason": "Verbo regular para poner un bozal; acción corriente, literal y comprensible por su composición con bozal."
+  },
+  {
+    "id": "abozo",
+    "word": "Abozo",
+    "reason": "La ficha ofrece un nombre regional de planta que no aparece como lema en la edición vigente del DLE; falta respaldo actual suficiente para el español general."
+  },
+  {
+    "id": "abracadabra",
+    "word": "Abracadabra",
+    "reason": "Palabra cabalística o fórmula mágica muy conocida y de comprensión inmediata; la ficha no aporta una acepción difícil independiente."
+  },
+  {
+    "id": "abracijarse",
+    "word": "Abracijarse",
+    "reason": "El DLE marca la única acepción como desusada y remite a abrazarse; no es vocabulario actual verificable para la audiencia."
+  },
+  {
+    "id": "abrasador",
+    "word": "Abrasador",
+    "reason": "Adjetivo agente regular definido como «que abrasa»; el significado es transparente desde abrasar y sus usos no añaden una dificultad léxica propia."
+  },
+  {
+    "id": "abravar",
+    "word": "Abravar",
+    "reason": "El DLE marca la acepción como desusada y remite a excitar; la guía excluye arcaísmos y voces sin uso actual suficiente."
+  },
+  {
+    "id": "gastritis",
+    "word": "Gastritis",
+    "reason": "La ficha expresa la acepción médica común de inflamación del estómago; es una condición y una palabra muy familiares, con glosa sencilla, por lo que no alcanza la dificultad prevista."
+  },
+  {
+    "id": "interes",
+    "word": "Interés",
+    "reason": "La ficha recoge el sentido cotidiano de dinero que produce o se paga por un préstamo; la palabra y la explicación son familiares para la audiencia."
+  },
+  {
+    "id": "impago",
+    "word": "Impago",
+    "reason": "Nombre transparente formado sobre «pago» para indicar la falta de pago; la definición reproduce directamente sus componentes y no añade dificultad suficiente."
+  },
+  {
+    "id": "comunidad-vecinos",
+    "word": "Comunidad de vecinos",
+    "reason": "Expresión cotidiana y composicional para las personas propietarias o residentes de un edificio; sus componentes permiten entender la ficha sin una explicación léxica propia."
+  },
+  {
+    "id": "ibi",
+    "word": "IBI",
+    "reason": "Sigla de un impuesto, no lema verificable: el DLE indica expresamente que «IBI» no está en el diccionario, por lo que no supera el requisito de forma documentada de la guía."
+  },
+  {
+    "id": "baja",
+    "word": "Baja",
+    "reason": "Expresión cotidiana y transparente para el permiso de ausencia laboral por enfermedad; la combinación no añade dificultad suficiente para una entrada independiente."
+  },
+  {
+    "id": "entrevista-trabajo",
+    "word": "Entrevista de trabajo",
+    "reason": "Expresión común y transparente para una reunión de selección laboral; los componentes explican el sentido sin dificultad léxica propia."
+  },
+  {
+    "id": "caducidad",
+    "word": "Caducidad",
+    "reason": "La ficha usa el sentido familiar de fecha límite de uso o consumo en productos alimenticios, farmacéuticos o cosméticos; no añade dificultad suficiente para la audiencia."
+  },
+  {
+    "id": "franja-horaria",
+    "word": "Franja horaria",
+    "reason": "Expresión transparente y habitual para un tramo de tiempo elegido para una cita o entrega; no requiere explicación léxica independiente."
+  },
+  {
+    "id": "justificante",
+    "word": "Justificante",
+    "reason": "La ficha describe un documento genérico que prueba algo, concepto corriente y comprensible desde «justificar»; la acepción no alcanza la dificultad prevista."
+  },
+  {
+    "id": "pension-economica",
+    "word": "Pensión",
+    "reason": "La pensión de jubilación es un concepto administrativo habitual y transparente para la audiencia; la glosa describe un pago periódico sencillo."
+  },
+  {
+    "id": "anemia",
+    "word": "Anemia",
+    "reason": "Enfermedad conocida y cognado transparente; además, la glosa tiene errores («poca hierro») y no aporta dificultad léxica suficiente."
+  },
+  {
+    "id": "antibiotico",
+    "word": "Antibiótico",
+    "reason": "Nombre común de un medicamento y cognado transparente de antibiotic; la definición describe una noción básica de salud."
+  },
+  {
+    "id": "anticonceptivo",
+    "word": "Anticonceptivo",
+    "reason": "Término de salud sexual común y composición transparente en español; la glosa presenta un método conocido con palabras básicas."
+  },
+  {
+    "id": "antiinflamatorio",
+    "word": "Antiinflamatorio",
+    "reason": "Nombre común y composicional de una clase de medicamento; la glosa expresa su función con vocabulario básico."
+  },
+  {
+    "id": "epileptico",
+    "word": "Epiléptico",
+    "reason": "Adjetivo derivado de forma transparente de epilepsia; la ficha solo expresa la relación con la enfermedad y no añade un sentido difícil."
+  },
+  {
+    "id": "escayola",
+    "word": "Escayola",
+    "reason": "La ficha recoge el material de construcción y, sobre todo, el vendaje para inmovilizar una lesión; ambos usos son concretos y familiares."
+  },
+  {
+    "id": "testamento",
+    "word": "Testamento",
+    "reason": "Documento jurídico muy conocido y descrito con vocabulario básico; no presenta dificultad léxica suficiente para esta audiencia."
+  },
+  {
+    "id": "pension-alimenticia",
+    "word": "Pensión alimenticia",
+    "reason": "Expresión asentada pero transparente para una prestación de manutención; la ficha la explica con palabras comunes y no añade dificultad suficiente."
+  },
+  {
+    "id": "apelacion",
+    "word": "Apelación",
+    "reason": "Acepción jurídica expresada mediante un cognado transparente de appeal y una explicación inmediata; no alcanza la dificultad prevista para el lema."
+  },
+  {
+    "id": "fianza-juridica",
+    "word": "Fianza",
+    "reason": "La locución es transparente y su sentido de garantía para esperar el juicio queda cubierto por la entrada general «fianza», ya conservada."
+  },
+  {
+    "id": "gastos-comunidad",
+    "word": "Gastos de comunidad",
+    "reason": "Expresión cotidiana y transparente para las cuotas que pagan vecinos o propietarios por servicios del edificio."
+  },
+  {
+    "id": "comunidad-propietarios",
+    "word": "Comunidad de propietarios",
+    "reason": "Nombre transparente y familiar del grupo de propietarios de un edificio; la ficha lo explica con palabras comunes y no alcanza dificultad suficiente para esta audiencia."
+  },
+  {
+    "id": "itp",
+    "word": "ITP",
+    "reason": "Sigla de un impuesto inmobiliario, no un lema léxico independiente verificado en el DLE; se excluye conforme al criterio de lema válido."
+  },
+  {
+    "id": "dni",
+    "word": "DNI",
+    "reason": "Sigla válida pero muy familiar para el público destinatario; designa el documento básico de identificación nacional."
+  },
+  {
+    "id": "certificado-nacimiento",
+    "word": "Certificado de nacimiento",
+    "reason": "Documento administrativo básico y familiar; tanto el nombre como la explicación permiten entender inmediatamente qué acredita."
+  },
+  {
+    "id": "cita-previa",
+    "word": "Cita previa",
+    "reason": "Expresión cotidiana y transparente para acordar con antelación el día y la hora de una atención."
+  },
+  {
+    "id": "vale",
+    "word": "Vale",
+    "reason": "La ficha combina el bono o comprobante de uso cotidiano con la expresión común de asentimiento o despedida; ninguno de esos sentidos alcanza dificultad suficiente."
+  },
+  {
+    "id": "prestamo",
+    "word": "Préstamo",
+    "reason": "La ficha presenta el sentido financiero corriente de dinero recibido con obligación de devolverlo, una noción básica y familiar."
+  },
+  {
+    "id": "comision",
+    "word": "Comisión",
+    "reason": "La ficha usa el sentido corriente de cargo bancario por un servicio; la glosa y el ejemplo describen una operación familiar."
+  },
+  {
+    "id": "cuenta-corriente",
+    "word": "Cuenta corriente",
+    "reason": "Tipo de cuenta bancaria de uso diario; la expresión y la explicación hacen transparente su función cotidiana."
+  },
+  {
+    "id": "cuenta-ahorros",
+    "word": "Cuenta de ahorros",
+    "reason": "Tipo de cuenta cuyo nombre describe directamente su uso básico de guardar dinero y obtener intereses."
+  },
+  {
+    "id": "tarjeta-debito",
+    "word": "Tarjeta de débito",
+    "reason": "Medio de pago cotidiano cuyo nombre identifica la tarjeta y cuyo cargo directo en cuenta es una característica básica."
+  },
+  {
+    "id": "extracto",
+    "word": "Extracto",
+    "reason": "En esta ficha significa resumen breve de un texto, una noción fácil y prácticamente equivalente al sinónimo común «resumen»."
+  },
+  {
+    "id": "abrazador",
+    "word": "Abrazador",
+    "reason": "La ficha solo recoge el adjetivo transparente «que abraza o rodea»; no incluye la acepción botánica especializada que sí registra el DLE."
+  },
+  {
+    "id": "abrebotellas",
+    "word": "Abrebotellas",
+    "reason": "Compuesto transparente para un utensilio doméstico familiar; el nombre expresa directamente su función."
+  },
+  {
+    "id": "abrecartas",
+    "word": "Abrecartas",
+    "reason": "Compuesto transparente para un utensilio familiar cuya función de abrir sobres está indicada literalmente por el nombre."
+  },
+  {
+    "id": "abrefacil",
+    "word": "Abrefácil",
+    "reason": "Nombre transparente y cotidiano de un sistema de apertura de envases, muy familiar por su uso en productos de consumo."
+  },
+  {
+    "id": "abregancias",
+    "word": "Abregancias",
+    "reason": "La ficha se marca como plural regional de León y el lema no figura en la consulta actual del DLE; no cumple suficientemente los criterios de uso verificable y alcance general."
+  },
+  {
+    "id": "abrenunciar",
+    "word": "Abrenunciar",
+    "reason": "El DLE marca el verbo como desusado; la ficha reproduce expresamente esa acepción histórica."
+  },
+  {
+    "id": "abreojos",
+    "word": "Abreojos",
+    "reason": "El DLE marca las acepciones de la ficha como regionales o dialectales de Álava y Aragón; no son voces generales para la audiencia."
+  },
+  {
+    "id": "abreviado",
+    "word": "Abreviado",
+    "reason": "La ficha recoge sentidos sencillos propios del participio de «abreviar»; el DLE deriva la forma de ese participio y define su acepción adjetiva como «parvo, escaso»."
+  },
+  {
+    "id": "abreviador",
+    "word": "Abreviador",
+    "reason": "La ficha usa «que abrevia» o quien reduce textos, sentidos transparentes derivados del verbo; no recoge el sentido institucional especializado de la Cancillería vaticana."
+  },
+  {
+    "id": "abreviaduria",
+    "word": "Abreviaduría",
+    "reason": "La ficha la marca como histórica y no aparece como lema en la consulta actual del DLE."
+  },
+  {
+    "id": "abrezar",
+    "word": "Abrezar",
+    "reason": "El DLE limita el verbo a cinco provincias españolas y lo da como equivalente regional de «acunar»."
+  },
+  {
+    "id": "abribonarse",
+    "word": "Abribonarse",
+    "reason": "El DLE marca el verbo como poco usado, por lo que no cumple el criterio de uso actual suficiente."
+  },
+  {
+    "id": "abrigada",
+    "word": "Abrigada",
+    "reason": "La ficha da el sentido común de lugar protegido; el DLE remite el sustantivo femenino a «abrigo», por lo que resulta una variante transparente y redundante."
+  },
+  {
+    "id": "abrigado",
+    "word": "Abrigado",
+    "reason": "La ficha recoge el participio de «abrigar» y adjetivos cotidianos como cubierto o resguardado; no presenta una acepción difícil independiente."
+  },
+  {
+    "id": "abrigador",
+    "word": "Abrigador",
+    "reason": "Adjetivo transparente derivado de «abrigar», equivalente a que abriga o protege del frío."
+  },
+  {
+    "id": "abrileno",
+    "word": "Abrileño",
+    "reason": "Adjetivo derivado de «abril» cuyo significado («propio del mes de abril») se deduce directamente de la base y el sufijo."
+  },
+  {
+    "id": "abrochadura",
+    "word": "Abrochadura",
+    "reason": "Nombre transparente de la acción de abrochar; el DLE lo remite a «abrochamiento» y la ficha no incluye una acepción especializada."
+  },
+  {
+    "id": "abrojillo",
+    "word": "Abrojillo",
+    "reason": "La ficha lo define como Spergula arvensis sin marca regional; las fuentes consultadas documentan ese nombre como uso local colombiano, mientras que el DLE marca «abrojillo» como regional de Argentina y le atribuye otra planta. La acepción no cumple el alcance general ni la precisión exigidos."
+  },
+  {
+    "id": "abroncar",
+    "word": "Abroncar",
+    "reason": "Verbo coloquial para reprender o abuchear; la acepción es común y se solapa con verbos generales como regañar o reprender."
+  },
+  {
+    "id": "abrotoñar",
+    "word": "Abrotoñar",
+    "reason": "El DLE lo marca como poco usado y remite a brotar; es una variante redundante sin sentido independiente que justifique una ficha."
+  },
+  {
+    "id": "abrumador",
+    "word": "Abrumador",
+    "reason": "Adjetivo derivado y transparente de abrumar, equivalente a que abruma; el sentido se deduce de la base."
+  },
+  {
+    "id": "abrumar",
+    "word": "Abrumar",
+    "reason": "Verbo corriente para agobiar o atosigar; sus sentidos de la ficha son de uso general y no añaden una acepción especializada o difícil."
+  },
+  {
+    "id": "abrupto",
+    "word": "Abrupto",
+    "reason": "Adjetivo de uso general para terrenos escarpados, sucesos repentinos o trato áspero; sentidos corrientes que no cumplen el umbral de selección."
+  },
+  {
+    "id": "absconder",
+    "word": "Absconder",
+    "reason": "El DLE lo marca como desusado y remite directamente a esconder; es una variante histórica sin utilidad actual suficiente."
+  },
+  {
+    "id": "absentarse",
+    "word": "Absentarse",
+    "reason": "El DLE marca la forma como desusada y remite a ausentarse; variante histórica redundante."
+  },
+  {
+    "id": "absente",
+    "word": "Absente",
+    "reason": "Adjetivo desusado que equivale directamente a ausente; variante histórica redundante."
+  },
+  {
+    "id": "absentista",
+    "word": "Absentista",
+    "reason": "Adjetivo y sustantivo derivado de absentismo con sentido previsible de quien lo practica; la ficha no aporta una acepción independiente."
+  },
+  {
+    "id": "absidial",
+    "word": "Absidial",
+    "reason": "La ficha la presenta como variante de «absidal», que sí es la forma registrada por el DLE; no aporta una acepción ni una forma independiente validada."
+  },
+  {
+    "id": "absit",
+    "word": "Ábsit",
+    "reason": "Interjección latina marcada como desusada por el DLE; forma histórica de uso muy limitado."
+  },
+  {
+    "id": "absolvederas",
+    "word": "Absolvederas",
+    "reason": "El DLE marca el plural coloquial como desusado; sus sentidos («facilidad para absolver» y «gran tolerancia») son históricos y de uso muy limitado."
+  },
+  {
+    "id": "absolvedor",
+    "word": "Absolvedor",
+    "reason": "Adjetivo y sustantivo derivado de absolver cuyo sentido se deduce directamente de la base («que absuelve»); no designa una función independiente."
+  },
+  {
+    "id": "absolver",
+    "word": "Absolver",
+    "reason": "Verbo de uso general para exculpar, liberar de una obligación o perdonar; las acepciones ordinarias de la ficha no aportan un término difícil o especializado independiente."
+  },
+  {
+    "id": "absorbible",
+    "word": "Absorbible",
+    "reason": "Adjetivo transparente formado de absorber y -ible: indica que algo puede ser absorbido; la marca biológica no añade un concepto distinto."
+  },
+  {
+    "id": "absorto",
+    "word": "Absorto",
+    "reason": "Adjetivo común para estar totalmente concentrado o admirado; la ficha lo formula como verbo («quedar con…») y sus sentidos se expresan con palabras corrientes como concentrado o pasmado."
+  },
+  {
+    "id": "abstencion",
+    "word": "Abstención",
+    "reason": "Nombre corriente y transparente, equivalente a no participar o no votar; el concepto y la forma se deducen de abstenerse."
+  },
+  {
+    "id": "abstener",
+    "word": "Abstener",
+    "reason": "El DLE marca como desusado el uso transitivo; la entrada actual describe una acción que hoy se expresa con el pronominal común «abstenerse»."
+  },
+  {
+    "id": "abstenerse",
+    "word": "Abstenerse",
+    "reason": "Verbo pronominal de uso general («privarse» o no participar); forma y significado transparentes para el público destinatario, sin una acepción difícil independiente."
+  },
+  {
+    "id": "abstinente",
+    "word": "Abstinente",
+    "reason": "Adjetivo derivado directamente de «abstener» que significa quien se abstiene; la forma y el sentido son previsibles y no añaden un concepto independiente."
+  },
+  {
+    "id": "abstraido",
+    "word": "Abstraído",
+    "reason": "La ficha corresponde al participio/adjetivo de «abstraer», forma derivada que el DLE identifica expresamente como participio; la guía excluye formas flexivas redundantes."
+  },
+  {
+    "id": "absuelto",
+    "word": "Absuelto",
+    "reason": "El DLE lo registra únicamente como participio irregular de «absolver»; no es un lema independiente y duplica una forma verbal."
+  },
+  {
+    "id": "absurdidad",
+    "word": "Absurdidad",
+    "reason": "El concepto se expresa con el sustantivo común «absurdo»; «absurdidad» es una formación transparente y no añade una acepción difícil independiente."
+  },
+  {
+    "id": "abuchear",
+    "word": "Abuchear",
+    "reason": "Verbo de uso general para desaprobar a alguien con gritos, silbidos o murmullos; acción cotidiana y fácil de entender."
+  },
+  {
+    "id": "abucheo",
+    "word": "Abucheo",
+    "reason": "Nombre corriente y directamente derivado de «abuchear» para la acción de desaprobar con gritos; la propia definición del DLE remite al verbo."
+  },
+  {
+    "id": "abultado",
+    "word": "Abultado",
+    "reason": "El DLE lo identifica como participio de «abultar»; en la ficha solo expresa el sentido corriente de grande o voluminoso, fácil y redundante."
+  },
+  {
+    "id": "abultar",
+    "word": "Abultar",
+    "reason": "Verbo de uso general para ocupar espacio o aumentar el volumen; significado cotidiano y transparente."
+  },
+  {
+    "id": "abundar",
+    "word": "Abundar",
+    "reason": "Verbo común para existir en gran cantidad o insistir en una idea; no aporta un término difícil independiente."
+  },
+  {
+    "id": "abundo",
+    "word": "Abundo",
+    "reason": "La ruta del DLE remite a «abundar» y no confirma un lema independiente; además, la forma coincide con la conjugación «yo abundo»."
+  },
+  {
+    "id": "abunolado",
+    "word": "Abuñolado",
+    "reason": "El DLE lo identifica como participio de «abuñolar» y su sentido («con forma de buñuelo») es transparente y redundante."
+  },
+  {
+    "id": "abunuelado",
+    "word": "Abuñuelado",
+    "reason": "El DLE remite a «abuñolado»; es una variante redundante del adjetivo ya excluido por ser participio transparente de «abuñolar»."
+  },
+  {
+    "id": "abunuelar",
+    "word": "Abuñuelar",
+    "reason": "El DLE lo da como sinónimo exacto de «abuñolar»; se mantiene un único lema para la misma acción culinaria."
+  },
+  {
+    "id": "abur",
+    "word": "Abur",
+    "reason": "Interjección de despedida equivalente a «adiós» o «agur»; uso común y transparente, sin concepto difícil independiente."
+  },
+  {
+    "id": "aburelado",
+    "word": "Aburelado",
+    "reason": "El DLE marca la voz como desusada y limita su significado a un color parecido al buriel; no es vocabulario actual."
+  },
+  {
+    "id": "aburridor",
+    "word": "Aburridor",
+    "reason": "Adjetivo común formado de «aburrir» que significa «que aburre»; sentido previsible y fácilmente expresable con «aburrido»."
+  },
+  {
+    "id": "abuson",
+    "word": "Abusón",
+    "reason": "Adjetivo corriente y transparente formado sobre «abusar»; la glosa solo repite que abusa y no aporta un concepto difícil independiente."
+  },
+  {
+    "id": "acabable",
+    "word": "Acabable",
+    "reason": "Derivado transparente de «acabar» con el sufijo «-ble»; significa simplemente que algo puede acabarse."
+  },
+  {
+    "id": "acabador",
+    "word": "Acabador",
+    "reason": "Derivado transparente de «acabar» para quien o lo que acaba algo; la ficha da una glosa genérica, sin acepción especializada independiente."
+  },
+  {
+    "id": "acaballerado",
+    "word": "Acaballerado",
+    "reason": "Adjetivo formado de manera transparente a partir de «acaballerar»; describe que alguien parece caballero o se precia de serlo, sin aportar un significado difícil independiente."
+  },
+  {
+    "id": "acabellado",
+    "word": "Acabellado",
+    "reason": "El DLE marca esta voz como desusada; significa «de color castaño claro»."
+  },
+  {
+    "id": "acacharse",
+    "word": "Acacharse",
+    "reason": "El DLE la marca como regional o dialectal de España oriental y remite directamente a «agacharse»; es una variante transparente."
+  },
+  {
+    "id": "acachorrar",
+    "word": "Acachorrar",
+    "reason": "El DLE marca esta voz como desusada."
+  },
+  {
+    "id": "acaciano",
+    "word": "Acaciano",
+    "reason": "Adjetivo y sustantivo derivado del nombre propio Acacio para nombrar a sus seguidores; queda fuera por el criterio de nombres propios."
+  },
+  {
+    "id": "academio",
+    "word": "Academio",
+    "reason": "El DLE marca como desusado el nombre filosófico de un miembro de la escuela de Platón."
+  },
+  {
+    "id": "acal",
+    "word": "Acal",
+    "reason": "El DLE marca como desusado el nombre de una canoa; no cumple el requisito de uso actual."
+  },
+  {
+    "id": "acalambrar",
+    "word": "Acalambrar",
+    "reason": "La ficha contiene solo el sentido corriente y transparente de producir un calambre; los usos regionales del DLE no pertenecen a esta ficha y también están marcados coloquiales."
+  },
+  {
+    "id": "acalenturarse",
+    "word": "Acalenturarse",
+    "reason": "Forma pronominal transparente de empezar a tener calentura o fiebre; el sentido es familiar y no necesita una explicación léxica propia."
+  },
+  {
+    "id": "acallador",
+    "word": "Acallador",
+    "reason": "Derivado transparente de «acallar» («que acalla»); la documentación localizada es histórica y la ficha no aporta un sentido actual difícil."
+  },
+  {
+    "id": "acallantar",
+    "word": "Acallantar",
+    "reason": "El DLE lo marca como regional/dialectal de Asturias, León, Salamanca y Zamora, y remite a «acallar»; es una variante regional transparente."
+  },
+  {
+    "id": "acalmar",
+    "word": "Acalmar",
+    "reason": "El DLE marca esta forma como desusada y remite al verbo vigente «calmar»."
+  },
+  {
+    "id": "acalonar",
+    "word": "Acaloñar",
+    "reason": "El DLE marca como desusados los dos sentidos de «acaloñar»."
+  },
+  {
+    "id": "acalorado",
+    "word": "Acalorado",
+    "reason": "Adjetivo participial de uso común para una discusión o conversación vehemente; su sentido se entiende con facilidad y no alcanza el umbral editorial."
+  },
+  {
+    "id": "acalorar",
+    "word": "Acalorar",
+    "reason": "La ficha contiene sentidos corrientes y previsibles: causar calor o enardecer; no aporta un significado difícil independiente."
+  },
+  {
+    "id": "acalorico",
+    "word": "Acalórico",
+    "reason": "Adjetivo formado de manera transparente («sin calorías») y de significado fácil de deducir."
+  },
+  {
+    "id": "acalugar",
+    "word": "Acalugar",
+    "reason": "El DLE marca esta voz como regional de Salamanca y poco usada; significa «sosegar, aliviar, acariciar»."
+  },
+  {
+    "id": "acalumniador",
+    "word": "Acalumniador",
+    "reason": "Derivado transparente de calumniar con la glosa general «persona que calumnia»; no aporta un sentido difícil independiente."
+  },
+  {
+    "id": "acalumniar",
+    "word": "Acalumniar",
+    "reason": "El DLE marca como desusados todos los sentidos de este verbo."
+  },
+  {
+    "id": "acamellado",
+    "word": "Acamellado",
+    "reason": "Adjetivo transparente que significa parecido a un camello; la ficha no aporta un sentido difícil independiente."
+  },
+  {
+    "id": "acampanado",
+    "word": "Acampanado",
+    "reason": "Adjetivo participial corriente y transparente para una forma de campana; no necesita explicación léxica propia."
+  },
+  {
+    "id": "acampanar",
+    "word": "Acampanar",
+    "reason": "Verbo corriente y composicional: dar forma de campana a algo."
+  },
+  {
+    "id": "acanalado",
+    "word": "Acanalado",
+    "reason": "Adjetivo participial transparente que describe algo con canales o estrías; no aporta un sentido difícil propio."
+  },
+  {
+    "id": "acanalar",
+    "word": "Acanalar",
+    "reason": "Verbo físico transparente para hacer canales o estrías en una superficie; no alcanza el umbral de dificultad."
+  },
+  {
+    "id": "acanelado",
+    "word": "Acanelado",
+    "reason": "Adjetivo transparente para un color o sabor semejante al de la canela; no aporta un sentido difícil independiente."
+  },
+  {
+    "id": "acantear",
+    "word": "Acantear",
+    "reason": "La acepción equivale a tirar piedras a alguien, acción fácil de comprender; además, el DLE restringe su uso a varias zonas de España."
+  },
+  {
+    "id": "acanaverear",
+    "word": "Acañaverear",
+    "reason": "El DLE describe un género de suplicio usado antiguamente; es una voz histórica sin uso actual suficiente para el diccionario."
+  },
+  {
+    "id": "acanonear",
+    "word": "Acañonear",
+    "reason": "El DLE marca la voz expresamente como desusada y remite al verbo vigente «cañonear»."
+  },
+  {
+    "id": "acanutado",
+    "word": "Acañutado",
+    "reason": "Adjetivo descriptivo y transparente: de forma de cañuto o tubo pequeño."
+  },
+  {
+    "id": "acaparador",
+    "word": "Acaparador",
+    "reason": "Derivado transparente de «acaparar» («que acapara»); el sentido de persona que acumula bienes se entiende con facilidad."
+  },
+  {
+    "id": "acaparar",
+    "word": "Acaparar",
+    "reason": "Verbo de uso corriente para adquirir y retener bienes en cantidad excesiva; su sentido se entiende fácilmente como acumular o acopiar."
+  },
+  {
+    "id": "acaparrarse",
+    "word": "Acaparrarse",
+    "reason": "El runtime atribuye a esta ficha una definición incorrecta; el DLE solo documenta un sentido desusado («ajustarse o convenirse con alguien»), por lo que no cumple uso actual y verificable."
+  },
+  {
+    "id": "acaparrosado",
+    "word": "Acaparrosado",
+    "reason": "El DLE marca la voz como desusada y la define como un color azul verdoso semejante al de la caparrosa."
+  },
+  {
+    "id": "acapillar",
+    "word": "Acapillar",
+    "reason": "El DLE marca el verbo como poco usado; significa atrapar o apresar, una acción básica sin sentido difícil independiente."
+  },
+  {
+    "id": "acaponado",
+    "word": "Acaponado",
+    "reason": "Adjetivo descriptivo y transparente que significa parecido a un capón; no aporta un significado difícil independiente."
+  },
+  {
+    "id": "acaracolado",
+    "word": "Acaracolado",
+    "reason": "Adjetivo de forma completamente transparente: con forma de caracol."
+  },
+  {
+    "id": "acarar",
+    "word": "Acarar",
+    "reason": "Verbo de sentido directo y fácil: poner dos personas o cosas cara a cara."
+  },
+  {
+    "id": "acardenalar",
+    "word": "Acardenalar",
+    "reason": "Verbo derivado de «cardenal» que significa causar cardenales o moretones; ambos sentidos son fáciles de deducir."
+  },
+  {
+    "id": "acariciador",
+    "word": "Acariciador",
+    "reason": "Adjetivo y sustantivo transparente: que acaricia; el sentido es común y previsible."
+  },
+  {
+    "id": "acariciante",
+    "word": "Acariciante",
+    "reason": "Adjetivo derivado de «acariciar» con la glosa inmediata «que acaricia»; es transparente y redundante con acariciador."
+  },
+  {
+    "id": "acarminado",
+    "word": "Acarminado",
+    "reason": "Adjetivo transparente para un color que tira a carmín o es de color carmín."
+  },
+  {
+    "id": "acarralado",
+    "word": "Acarralado",
+    "reason": "El DLE no reconoce aquí un lema independiente: redirige a «acarralar». La forma es un participio/adjetivo previsible y la ficha duplica el sentido del verbo."
+  },
+  {
+    "id": "acarrascado",
+    "word": "Acarrascado",
+    "reason": "El DLE marca la voz como desusada y su único sentido es «semejante a la carrasca»."
+  },
+  {
+    "id": "acarrazarse",
+    "word": "Acarrazarse",
+    "reason": "El DLE la limita a Huesca y significa abrazarse con fuerza; describe una acción común y sencilla, sin acepción difícil propia."
+  },
+  {
+    "id": "acarreadizo",
+    "word": "Acarreadizo",
+    "reason": "Adjetivo transparente formado sobre «acarrear»: que se puede acarrear; el sentido es inmediato."
+  },
+  {
+    "id": "acarrear",
+    "word": "Acarrear",
+    "reason": "Verbo corriente para transportar algo en carro o de cualquier otra manera; acepción básica y fácil de comprender."
+  },
+  {
+    "id": "acarretar",
+    "word": "Acarretar",
+    "reason": "El DLE la marca como regional de Galicia y la remite a «carretear», una acción sencilla sin sentido difícil independiente."
+  },
+  {
+    "id": "acarreto",
+    "word": "Acarreto",
+    "reason": "Remite a «acarreo» con el sentido fácil de transporte o traslado; no aporta un lema difícil independiente."
+  },
+  {
+    "id": "acartonarse",
+    "word": "Acartonarse",
+    "reason": "La ficha combina sentidos literales previsibles con una glosa sobre envejecer que el DLE no respalda; el uso pronominal vigente de acartonar significa volverse rígido o reseco como cartón."
+  },
+  {
+    "id": "acasarado",
+    "word": "Acasarado",
+    "reason": "El DLE no ofrece un lema autónomo: remite a la locución «lugar acasarado»; se excluye la ficha separada por no ser un lema independiente."
+  },
+  {
+    "id": "acastanado",
+    "word": "Acastañado",
+    "reason": "Adjetivo transparente para un color que tira a castaño o es de ese color."
+  },
+  {
+    "id": "acastillado",
+    "word": "Acastillado",
+    "reason": "El DLE lo marca como poco usado y la definición se limita a una descripción transparente («de forma de castillo»); no alcanza el criterio de dificultad."
+  },
+  {
+    "id": "acastorado",
+    "word": "Acastorado",
+    "reason": "Adjetivo descriptivo transparente: «semejante a la piel del castor»."
+  },
+  {
+    "id": "acatable",
+    "word": "Acatable",
+    "reason": "Derivado transparente de «acatar»; la definición («digno de respeto») expresa una idea fácil y previsible."
+  },
+  {
+    "id": "acatolico",
+    "word": "Acatólico",
+    "reason": "La acepción «que no profesa la religión católica» es transparente y fácil de deducir a partir del prefijo y la palabra base."
+  },
+  {
+    "id": "acaudalador",
+    "word": "Acaudalador",
+    "reason": "El DLE lo marca como poco usado; es un derivado agente transparente de «acaudalar» y su definición resulta previsible."
+  },
+  {
+    "id": "acaudalar",
+    "word": "Acaudalar",
+    "reason": "Verbo derivado transparente cuyo sentido de reunir o acumular riqueza es fácil de deducir."
+  },
+  {
+    "id": "acaudillador",
+    "word": "Acaudillador",
+    "reason": "Derivado transparente de «acaudillar»: la definición («que acaudilla o dirige») no alcanza el umbral de dificultad."
+  },
+  {
+    "id": "acautelarse",
+    "word": "Acautelarse",
+    "reason": "El DLE remite a «cautelarse», por lo que la ficha no aporta un lema ni una acepción independiente; además, «tomar precauciones» es transparente."
+  },
+  {
+    "id": "accesibilidad",
+    "word": "Accesibilidad",
+    "reason": "Derivado transparente de «accesible»; la definición genérica («cualidad de accesible») es directa y fácil."
+  },
+  {
+    "id": "accesibilidad-cognitiva",
+    "word": "Accesibilidad cognitiva",
+    "reason": "Expresión transparente y definición sencilla; no alcanza el umbral de dificultad para esta selección."
+  },
+  {
+    "id": "accesibilidad-fisica",
+    "word": "Accesibilidad física",
+    "reason": "Expresión transparente para la facilidad de entrar y desplazarse por un espacio; concepto sencillo."
+  },
+  {
+    "id": "accesibilidad-sensorial",
+    "word": "Accesibilidad sensorial",
+    "reason": "Expresión transparente y definición directa de las adaptaciones para distintas necesidades sensoriales."
+  },
+  {
+    "id": "accesibilidad-universal",
+    "word": "Accesibilidad universal",
+    "reason": "Expresión transparente cuya definición («que todas las personas puedan usar») es fácil y previsible."
+  },
+  {
+    "id": "accesoria",
+    "word": "Accesoria",
+    "reason": "La ficha recoge una forma femenina flexionada de «accesorio» con significado común; no presenta el sentido nominal independiente que el DLE marca como filipinismo."
+  },
+  {
+    "id": "accidental",
+    "word": "Accidental",
+    "reason": "La ficha recoge el sentido común de «casual o contingente», transparente y fácil."
+  },
+  {
+    "id": "accidentalidad",
+    "word": "Accidentalidad",
+    "reason": "La definición de la ficha mezcla el sentido transparente «cualidad de accidental» con la frecuencia de accidentes, acepción que corresponde a «accidentabilidad»."
+  },
+  {
+    "id": "accidentar",
+    "word": "Accidentar",
+    "reason": "Verbo transparente para causar un accidente o ser víctima de uno; uso directo y fácil."
+  },
+  {
+    "id": "accidente-laboral",
+    "word": "Accidente laboral",
+    "reason": "Expresión transparente para un accidente sucedido durante el trabajo o el desplazamiento laboral; la ficha presenta un concepto común y sencillo."
+  },
+  {
+    "id": "accionable",
+    "word": "Accionable",
+    "reason": "Adjetivo transparente formado sobre «accionar»; la definición se limita a «que se puede accionar»."
+  },
+  {
+    "id": "accionar-mechanism",
+    "word": "Accionar",
+    "reason": "Sentido mecánico sencillo, además duplicado en la ficha «accionar»."
+  },
+  {
+    "id": "accionarial",
+    "word": "Accionarial",
+    "reason": "Adjetivo derivado y transparente para lo relativo a las acciones de una sociedad; su sentido es fácil de deducir."
+  },
+  {
+    "id": "acciones",
+    "word": "Acciones",
+    "reason": "Plural previsible del sustantivo «acción» en el sentido financiero; no es una entrada independiente necesaria."
+  },
+  {
+    "id": "accionista",
+    "word": "Accionista",
+    "reason": "Derivado transparente de «acción» con el sufijo de agente «-ista»; su definición («dueño de acciones») es directa y familiar."
+  },
+  {
+    "id": "acebal",
+    "word": "Acebal",
+    "reason": "Nombre transparente de un lugar poblado de acebos, formado sobre «acebo» con el sufijo locativo; el DLE lo remite además a «acebeda»."
+  },
+  {
+    "id": "acebucheno",
+    "word": "Acebucheno",
+    "reason": "Adjetivo transparente que significa «perteneciente o relativo al acebuche», sin una acepción técnica independiente en la ficha."
+  },
+  {
+    "id": "acechador",
+    "word": "Acechador",
+    "reason": "Derivado agente transparente de «acechar»; el DLE lo define simplemente como «que acecha»."
+  },
+  {
+    "id": "acechante",
+    "word": "Acechante",
+    "reason": "Adjetivo transparente formado sobre «acechar», definido en el DLE como «que acecha» y equivalente a «acechador»."
+  },
+  {
+    "id": "acechar",
+    "word": "Acechar",
+    "reason": "Verbo de uso común con definición básica: observar o aguardar cautelosamente con algún propósito."
+  },
+  {
+    "id": "acecho",
+    "word": "Acecho",
+    "reason": "La ficha actual describe el seguimiento insistente como acoso, pero el DLE define principalmente la acción de acechar; el lema resulta básico y la glosa no es fiel."
+  },
+  {
+    "id": "acedar",
+    "word": "Acedar",
+    "reason": "Verbo de sentido básico y transparente: poner algo agrio o ácido; la ficha no recoge una acepción especializada independiente."
+  },
+  {
+    "id": "acefalismo",
+    "word": "Acefalismo",
+    "reason": "La ficha añade una doctrina específicamente eclesiástica que no respalda el DLE, que remite el término a acefalia; así definida, la entrada no es fiel."
+  },
+  {
+    "id": "aceitada",
+    "word": "Aceitada",
+    "reason": "Sustantivo de acción y efecto de aceitar, derivación transparente; el DLE además lo marca como uso de América."
+  },
+  {
+    "id": "aceitar",
+    "word": "Aceitar",
+    "reason": "En la ficha vigente solo aparece el sentido cotidiano y transparente de untar con aceite; no incluye el sentido coloquial regional de sobornar documentado por el DLE."
+  },
+  {
+    "id": "aceitoso",
+    "word": "Aceitoso",
+    "reason": "Adjetivo frecuente y transparente: contiene aceite o tiene su aspecto o consistencia; se deduce con facilidad de aceite."
+  },
+  {
+    "id": "aceitunera",
+    "word": "Aceitunera",
+    "reason": "Forma femenina regular de aceitunero para la persona que recoge, transporta o vende aceitunas; esta ficha no aporta el sentido regional independiente de época de recolección."
+  },
+  {
+    "id": "aceitunil",
+    "word": "Aceitunil",
+    "reason": "Adjetivo poco usado que el DLE remite a aceitunado; la ficha expresa un color derivable de aceituna y no contiene una acepción independiente."
+  },
+  {
+    "id": "aceleron",
+    "word": "Acelerón",
+    "reason": "Sustantivo corriente para una aceleración súbita e intensa de un motor; también se usa figuradamente con el sentido básico de impulso o aumento brusco."
+  },
+  {
+    "id": "acemilado",
+    "word": "Acemilado",
+    "reason": "Adjetivo transparente derivado de acémila, con sentido de parecido o perteneciente a una acémila; no presenta acepción independiente."
+  },
+  {
+    "id": "acemilar",
+    "word": "Acemilar",
+    "reason": "Adjetivo transparente definido como perteneciente o relativo a la acémila o al acemilero."
+  },
+  {
+    "id": "acensuador",
+    "word": "Acensuador",
+    "reason": "El DLE indica que «acensuador» no está en el diccionario y no se localizó una fuente jurídica vigente y verificable que respalde la definición atribuida; el término no queda acreditado como lema actual."
+  },
+  {
+    "id": "acentuar",
+    "word": "Acentuar",
+    "reason": "Verbo muy común para poner tilde o acento prosódico y para destacar o intensificar algo; sus sentidos son básicos para el nivel de la ficha."
+  },
+  {
+    "id": "acequiar",
+    "word": "Acequiar",
+    "reason": "Verbo transparente formado sobre acequia que el DLE define tautológicamente como «hacer acequias»; la ficha no ofrece un significado técnico adicional."
+  },
+  {
+    "id": "acercador",
+    "word": "Acercador",
+    "reason": "Derivado transparente que el DLE define simplemente como «que acerca»; la ficha no aporta un sentido especializado o difícil."
+  },
+  {
+    "id": "acerrojar",
+    "word": "Acerrojar",
+    "reason": "Verbo transparente para poner algo bajo cerrojo; es una acción corriente y fácil de deducir a partir de cerrojo."
+  },
+  {
+    "id": "acertador",
+    "word": "Acertador",
+    "reason": "Derivado transparente que el DLE define como «que acierta»; la ficha no aporta una acepción independiente o difícil."
+  },
+  {
+    "id": "acertajon",
+    "word": "Acertajón",
+    "reason": "Voz marcada como desusada por el DLE y derivada de acertar; remite a adivinador y no ofrece un uso vigente suficiente."
+  },
+  {
+    "id": "acertante",
+    "word": "Acertante",
+    "reason": "Derivado transparente de acertar para quien obtiene un premio en apuestas, sorteos o loterías; sentido fácil y predecible para esta ficha."
+  },
+  {
+    "id": "acervar",
+    "word": "Acervar",
+    "reason": "El DLE lo marca como poco usado y lo define solo como amontonar; sin un sentido actual o especializado que justifique la ficha."
+  },
+  {
+    "id": "acescente",
+    "word": "Acescente",
+    "reason": "Adjetivo participial que el DLE define simplemente como que se agria o empieza a agriarse; sentido transparente y básico."
+  },
+  {
+    "id": "acetar",
+    "word": "Acetar",
+    "reason": "Forma desusada que el DLE remite directamente a aceptar; no es un lema de uso actual."
+  },
+  {
+    "id": "acetico",
+    "word": "Acético",
+    "reason": "Adjetivo químico definido de forma directa como relativo al vinagre o sus derivados; sentido transparente y básico para el nivel de la ficha."
+  },
+  {
+    "id": "acetimetro",
+    "word": "Acetímetro",
+    "reason": "El DLE no lo registra como lema vigente y el DHLE documenta el instrumento para medir vinagre principalmente en fuentes históricas; no se acredita uso actual suficiente."
+  },
+  {
+    "id": "acetosidad",
+    "word": "Acetosidad",
+    "reason": "Sustantivo abstracto transparente para la cualidad de lo ácido o agrio; la definición no aporta un sentido independiente difícil."
+  },
+  {
+    "id": "acetreria",
+    "word": "Acetrería",
+    "reason": "Variante histórica de cetrería y no lema de uso actual acreditado; la ficha ya está marcada como histórica."
+  },
+  {
+    "id": "acetrero",
+    "word": "Acetrero",
+    "reason": "El DLE no registra esta forma; el tesoro histórico la documenta en textos medievales como variante de cetrero/cetrería, sin uso actual suficiente."
+  },
+  {
+    "id": "acetrinar",
+    "word": "Acetrinar",
+    "reason": "Verbo transparente derivado de cetrino: poner algo de ese color; acción fácil de deducir y sin sentido técnico adicional."
+  },
+  {
+    "id": "acevilar",
+    "word": "Acevilar",
+    "reason": "El DLE marca como desusado el sentido «envilecer o abatir»; no representa una voz de uso actual."
+  },
+  {
+    "id": "acezo",
+    "word": "Acezo",
+    "reason": "Sustantivo formado directamente sobre acezar que el DLE define solo como acción y efecto de acezar; forma transparente y redundante con el verbo."
+  },
+  {
+    "id": "acezoso",
+    "word": "Acezoso",
+    "reason": "Adjetivo derivado de acezar que el DLE equipara a jadeante; sentido deducible y redundante con el verbo conservado."
+  },
+  {
+    "id": "achacoso",
+    "word": "Achacoso",
+    "reason": "Adjetivo transparente que el DLE define como quien padece achaques; sentido común y predecible, sin matiz difícil suficiente."
+  },
+  {
+    "id": "achambergado",
+    "word": "Achambergado",
+    "reason": "Adjetivo formado de manera transparente sobre chambergo/chamberga: parecido al sombrero o a la cinta del mismo nombre; no aporta una acepción difícil independiente."
+  },
+  {
+    "id": "achaquiento",
+    "word": "Achaquiento",
+    "reason": "El DLE lo marca poco usado y regional de Aragón, y lo remite a achacoso; es un derivado transparente y no aporta un matiz actual independiente."
+  },
+  {
+    "id": "acharolado",
+    "word": "Acharolado",
+    "reason": "Adjetivo participial transparente que el DLE define como semejante al charol; no aporta una acepción difícil independiente."
+  },
+  {
+    "id": "acharolar",
+    "word": "Acharolar",
+    "reason": "Verbo derivativo que el DLE remite a charolar; equivale a dar acabado de charol, acción fácil y predecible."
+  },
+  {
+    "id": "achatarrar",
+    "word": "Achatarrar",
+    "reason": "Verbo transparente formado sobre chatarra y definido como convertir algo en chatarra; sentido sencillo y deducible."
+  },
+  {
+    "id": "achicadura",
+    "word": "Achicadura",
+    "reason": "El DLE la define únicamente como acción y efecto de achicar, sustantivo derivativo transparente y redundante con el verbo."
+  },
+  {
+    "id": "achicharradero",
+    "word": "Achicharradero",
+    "reason": "Nombre derivativo de achicharrar y -dero; designa de manera predecible un sitio donde hace mucho calor."
+  },
+  {
+    "id": "achicharrante",
+    "word": "Achicharrante",
+    "reason": "Adjetivo coloquial derivado de achicharrar cuyo sentido de abrasador o extremadamente caluroso es transparente."
+  },
+  {
+    "id": "achicharrar",
+    "word": "Achicharrar",
+    "reason": "Verbo de uso común para quemar en exceso; acepción cotidiana y fácilmente deducible, fuera del nivel de dificultad buscado."
+  },
+  {
+    "id": "achinelado",
+    "word": "Achinelado",
+    "reason": "Adjetivo formado directamente sobre chinela; significa meramente que algo tiene forma de chinela y es deducible."
+  },
+  {
+    "id": "achiquillado",
+    "word": "Achiquillado",
+    "reason": "Adjetivo transparente equivalente a aniñado o infantil; sentido sencillo y redundante con voces más comunes."
+  },
+  {
+    "id": "cuota-mensual",
+    "word": "Cuota mensual",
+    "reason": "Expresión cotidiana y composicional para la cantidad que se paga cada mes; fácil de deducir."
+  },
+  {
+    "id": "volante",
+    "word": "Volante",
+    "reason": "La ficha agrupa acepciones de uso corriente (adjetivo, pieza de vehículo, folleto y prenda); sentidos básicos y heterogéneos que no requieren una entrada de esta selección."
+  },
+  {
+    "id": "puesto-trabajo",
+    "word": "Puesto de trabajo",
+    "reason": "Combinación transparente para el empleo o función que ocupa una persona; frase común y deducible."
+  },
+  {
+    "id": "prestacion",
+    "word": "Prestación",
+    "reason": "La glosa activa recoge el sentido general de servicio o ayuda que se debe proporcionar; significado amplio y transparente."
+  },
+  {
+    "id": "oferta-trabajo",
+    "word": "Oferta de trabajo",
+    "reason": "Frase común y composicional para anunciar un puesto disponible y cómo solicitarlo."
+  },
+  {
+    "id": "carta-presentacion",
+    "word": "Carta de presentación",
+    "reason": "Documento y frase de uso corriente cuya función se deduce con facilidad de sus componentes."
+  },
+  {
+    "id": "tension-alta",
+    "word": "Tensión alta",
+    "reason": "Expresión coloquial transparente para presión arterial elevada, equivalente directo a hipertensión; no aporta una dificultad léxica propia."
+  },
+  {
+    "id": "enfermedad-cronica",
+    "word": "Enfermedad crónica",
+    "reason": "Combinación transparente que describe una enfermedad de larga duración; el sentido resulta predecible a partir de ambos componentes."
+  },
+  {
+    "id": "ultraliviano",
+    "word": "Ultraliviano",
+    "reason": "En la ficha activa solo significa que algo pesa muy poco; composición transparente de ultra- y liviano, sin acepción difícil propia."
+  },
+  {
+    "id": "umbra-eclipse",
+    "word": "umbra",
+    "reason": "Duplicado contextual del sentido general de umbra ya conservado: ambas fichas describen la zona más oscura de la sombra."
+  },
+  {
+    "id": "umbral-de-la-puerta",
+    "word": "Umbral de la puerta",
+    "reason": "Frase cotidiana y literal para la parte inferior de una puerta; su significado se deduce de sus componentes y el uso figurado de límite o comienzo es familiar."
+  },
+  {
+    "id": "round5103-umbria-adjective",
+    "word": "umbría",
+    "reason": "Forma femenina adjetiva de umbrío con la misma acepción de lugar donde da poco el sol; se conserva la forma base umbrío y el lema nominal independiente umbría."
+  },
+  {
+    "id": "ungido-elegido-para-un-cargo",
+    "word": "ungido",
+    "reason": "La acepción de elegir para un cargo está marcada por el DLE como propia de Honduras; la ficha no indica la marca regional y no cumple el criterio de uso general documentado."
+  },
+  {
+    "id": "ungir-untar-aceite",
+    "word": "ungir",
+    "reason": "Duplicado exacto del sentido básico de aplicar aceite o ungüento que ya conserva la ficha ungir."
+  },
+  {
+    "id": "unicelular",
+    "word": "Unicelular",
+    "reason": "Compuesto transparente de uni- y celular; la ficha expresa de forma directa que consta de una sola célula, concepto fácilmente deducible."
+  },
+  {
+    "id": "unicidad",
+    "word": "Unicidad",
+    "reason": "Derivación transparente de único para expresar la cualidad de ser único; la definición no aporta un sentido difícil independiente."
+  },
+  {
+    "id": "unificador",
+    "word": "Unificador",
+    "reason": "Adjetivo transparente formado de unificar; la ficha solo dice que algo ayuda a unir, significado fácil de deducir."
+  },
+  {
+    "id": "unificar",
+    "word": "Unificar",
+    "reason": "Verbo frecuente y transparente para hacer que varias partes formen una sola cosa o unidad; acepción general y fácil."
+  },
+  {
+    "id": "uniforme-de-trabajo",
+    "word": "Uniforme de trabajo",
+    "reason": "Frase cotidiana y composicional para la ropa que se usa en el trabajo."
+  },
+  {
+    "id": "uniforme-escolar",
+    "word": "Uniforme escolar",
+    "reason": "Frase cotidiana y composicional para la ropa reglamentaria del alumnado."
+  },
+  {
+    "id": "uniformizar",
+    "word": "Uniformizar",
+    "reason": "Derivado transparente de uniforme con el sufijo productivo -izar; equivale directamente a uniformar o hacer más parecidas varias cosas."
+  },
+  {
+    "id": "unilateral",
+    "word": "Unilateral",
+    "reason": "En la ficha activa solo significa situado o presente en un lado; composición transparente de uni- y lateral y explicación fácil. Se conserva la acepción jurídica independiente de unilateral-made-by-one-party."
+  },
+  {
+    "id": "unipersonal",
+    "word": "Unipersonal",
+    "reason": "La ficha expresa un sentido general y transparente: formado por una sola persona; los ejemplos de hogares y órganos unipersonales no añaden un concepto especializado independiente."
+  },
+  {
+    "id": "unisex",
+    "word": "Unisex",
+    "reason": "Término cotidiano y transparente para algo destinado o adecuado a personas de cualquier sexo o género."
+  },
+  {
+    "id": "unison",
+    "word": "Unisón",
+    "reason": "La ficha define una variante de unísono cuyo significado —tener el mismo sonido— es directo y fácil de deducir."
+  },
+  {
+    "id": "unitario",
+    "word": "Unitario",
+    "reason": "La acepción activa solo indica relación con una unidad o consideración de algo como una unidad; es un derivado transparente de unidad sin el sentido político, religioso o matemático especializado."
+  },
+  {
+    "id": "univoco",
+    "word": "Unívoco",
+    "reason": "En esta ficha el sentido es el general y transparente de algo que solo puede entenderse de una manera; no recoge una acepción filosófica especializada independiente."
+  },
+  {
+    "id": "untable",
+    "word": "Untable",
+    "reason": "Adjetivo productivo cuyo sentido se deduce directamente de untar: que puede untarse."
+  },
+  {
+    "id": "untada-spread-layer",
+    "word": "Untada",
+    "reason": "Duplicado de la ficha untada y glosa genérica de capa extendida que no corresponde a un sentido general marcado en el DLE."
+  },
+  {
+    "id": "untada",
+    "word": "Untada",
+    "reason": "La definición genérica de capa extendida no refleja los sentidos vigentes del DLE, que son coloquiales o regionales y requieren marcas omitidas en la ficha."
+  },
+  {
+    "id": "untoso",
+    "word": "Untoso",
+    "reason": "Adjetivo derivado de unto con el mismo sentido físico básico que untuoso; no aporta un sentido independiente que justifique mantener ambas variantes."
+  },
+  {
+    "id": "untura",
+    "word": "Untura",
+    "reason": "La acepción activa es la acción y efecto de untar, derivación transparente de un verbo común."
+  },
+  {
+    "id": "untura-substance",
+    "word": "Untura",
+    "reason": "La acepción de materia con que se unta es directamente deducible de untar y no presenta un uso especializado independiente."
+  },
+  {
+    "id": "unada",
+    "word": "Uñada",
+    "reason": "Palabra común y transparente para una marca o rasguño hecho con una uña."
+  },
+  {
+    "id": "upar",
+    "word": "Upar",
+    "reason": "La ficha solo expresa el sentido común y transparente de levantar o aupar a alguien."
+  },
+  {
+    "id": "uralita",
+    "word": "Uralita",
+    "reason": "La RAE identifica el lema como marca registrada; no se conservan nombres comerciales dentro del diccionario general."
+  },
+  {
+    "id": "uranografo",
+    "word": "Uranógrafo",
+    "reason": "La ficha no es verificable en el DLE actual y no se encontró una fuente lexicográfica fiable que confirme este lema vigente."
+  },
+  {
+    "id": "urbanidad",
+    "word": "Urbanidad",
+    "reason": "La definición equivale directamente a cortesía, buenos modales y atención, vocabulario común y fácil para la persona destinataria."
+  },
+  {
+    "id": "urbanistico",
+    "word": "Urbanístico",
+    "reason": "Adjetivo transparente que expresa una relación con el urbanismo, sin una acepción más específica en la ficha."
+  },
+  {
+    "id": "urbanita",
+    "word": "Urbanita",
+    "reason": "La ficha describe de forma directa a quien vive adaptado a los usos de la ciudad; la marca festiva del DLE tampoco aparece en la ficha."
+  },
+  {
+    "id": "urbanizador",
+    "word": "Urbanizador",
+    "reason": "Nombre/adjetivo transparente para quien se dedica a urbanizar terrenos; sentido composicional de una actividad común."
+  },
+  {
+    "id": "urbanizar",
+    "word": "Urbanizar",
+    "reason": "Verbo general y composicional para preparar un terreno para su uso urbano, dotándolo de calles y servicios."
+  },
+  {
+    "id": "urbe",
+    "word": "Urbe",
+    "reason": "Sinónimo directo y conocido de ciudad, sin una acepción difícil independiente en la ficha."
+  },
+  {
+    "id": "urgencias",
+    "word": "Urgencias",
+    "reason": "Nombre habitual y transparente del servicio hospitalario de atención inmediata; el uso plural institucional no aporta dificultad suficiente."
+  },
+  {
+    "id": "urinal",
+    "word": "Urinal",
+    "reason": "La glosa sustantiva de recipiente portátil no coincide con el artículo vigente del DLE, que solo registra un adjetivo poco usado relativo a la orina."
+  },
+  {
+    "id": "usitado",
+    "word": "Usitado",
+    "reason": "El DLE marca como desusado el lema, por lo que la ficha no cumple el criterio de uso actual verificable."
+  },
+  {
+    "id": "uso-indebido",
+    "word": "Uso indebido",
+    "reason": "Frase composicional de significado general y directo —uso no autorizado o contrario a una norma—, sin un sentido difícil independiente en la ficha."
+  },
+  {
+    "id": "usuario-final",
+    "word": "Usuario final",
+    "reason": "Expresión técnica transparente: persona que utiliza el producto o sistema para su finalidad prevista; su significado se deduce directamente de sus componentes."
+  },
+  {
+    "id": "utilidad",
+    "word": "Utilidad",
+    "reason": "Acepción básica y muy común: cualidad de servir para algo o ayudar a lograr un fin, fácilmente expresable como ser útil."
+  },
+  {
+    "id": "utilitarismo",
+    "word": "Utilitarismo",
+    "reason": "Se excluye solo la acepción general de actitud que valora la utilidad; es una extensión transparente. Se conserva el sentido filosófico independiente de la teoría moral."
+  },
+  {
+    "id": "utilizable",
+    "word": "Utilizable",
+    "reason": "Adjetivo productivo y transparente formado de utilizar: que puede ser utilizado."
+  },
+  {
+    "id": "utopico",
+    "word": "Utópico",
+    "reason": "Acepción adjetiva transparente y derivada directamente de utopía: perteneciente o relativo a ella."
+  },
+  {
+    "id": "utopico-person-who-imagines-utopias-1389",
+    "word": "utópico",
+    "reason": "El sentido de persona que imagina utopías se deduce directamente del sustantivo y no añade un concepto difícil independiente."
+  },
+  {
+    "id": "uve",
+    "word": "Uve",
+    "reason": "Nombre básico y común de la letra v, sin dificultad léxica para la persona destinataria."
+  },
+  {
+    "id": "vacada",
+    "word": "Vacada",
+    "reason": "Derivado transparente de vaca con el sentido directo de conjunto o manada de ganado vacuno."
+  },
+  {
+    "id": "vaciador",
+    "word": "Vaciador",
+    "reason": "La ficha describe una herramienta que vacía o destapa algo; sentido composicional de vaciar y -dor, sin una función especializada difícil."
+  },
+  {
+    "id": "vaciante",
+    "word": "Vaciante",
+    "reason": "Se excluye solo la acepción adjetiva general de aquello que hace bajar un nivel, transparente y poco usada según el DLE. Se conserva la acepción náutica de bajamar en vaciante-low-tide-or-ebb."
+  },
+  {
+    "id": "vaciedad",
+    "word": "Vaciedad",
+    "reason": "La glosa activa de falta de contenido duplica la acepción que ya conserva vacuidad; no se excluye por esta decisión el sentido de necedad que el DLE registra pero que la ficha activa no contiene."
+  },
+  {
+    "id": "vacilante",
+    "word": "Vacilante",
+    "reason": "La ficha de indecisión es un adjetivo derivado directamente de vacilar y su sentido es común y fácil."
+  },
+  {
+    "id": "vacilante-moving-without-stability",
+    "word": "vacilante",
+    "reason": "La acepción de movimiento inestable es la forma adjetiva transparente de vacilar y no aporta un concepto difícil independiente."
+  },
+  {
+    "id": "vacilar",
+    "word": "Vacilar",
+    "reason": "La ficha activa describe el sentido general y común de moverse sin firmeza o equilibrio."
+  },
+  {
+    "id": "vacilar-hesitate",
+    "word": "vacilar",
+    "reason": "La ficha activa expresa el sentido habitual de dudar antes de decidir o actuar, vocabulario común y fácil."
+  },
+  {
+    "id": "vacilon",
+    "word": "Vacilón",
+    "reason": "Sentido coloquial de bromista o burlón; la ficha omite la marca de registro del DLE y el significado es directo a partir de vacilar."
+  },
+  {
+    "id": "vacilon-cosa-divertida-o-animada",
+    "word": "vacilón",
+    "reason": "El DLE restringe el sentido de divertido a Costa Rica, Puerto Rico y Venezuela, además de marcarlo como coloquial; la ficha no indica esas restricciones."
+  },
+  {
+    "id": "vacunacion",
+    "word": "Vacunación",
+    "reason": "Término muy común y transparente para la acción y efecto de vacunar; la definición puede deducirse directamente del verbo."
+  },
+  {
+    "id": "vadeable",
+    "word": "Vadeable",
+    "reason": "Adjetivo transparente derivado de vadear: se puede cruzar a pie; el sentido activo solo describe una propiedad literal y fácil de deducir."
+  },
+  {
+    "id": "vadear",
+    "word": "Vadear",
+    "reason": "Acción básica y literal de cruzar a pie una zona poco profunda; la acepción activa es común y transparente."
+  },
+  {
+    "id": "vagabundear",
+    "word": "Vagabundear",
+    "reason": "Verbo transparente para andar como vagabundo o sin rumbo; la definición activa expresa una acción común y fácil de inferir."
+  },
+  {
+    "id": "vagabundeo",
+    "word": "Vagabundeo",
+    "reason": "Nombre transparente de la acción de vagabundear, sin un concepto independiente difícil en la ficha."
+  },
+  {
+    "id": "vagabundo",
+    "word": "Vagabundo",
+    "reason": "La acepción activa es una descripción cotidiana y fácilmente comprensible de quien anda errante o carece de domicilio estable."
+  },
+  {
+    "id": "vagar",
+    "word": "Vagar",
+    "reason": "La ficha contiene solo el sentido común y literal de andar sin rumbo; se excluye esta acepción, sin descartar otros sentidos del lema."
+  },
+  {
+    "id": "vagaroso",
+    "word": "Vagaroso",
+    "reason": "La acepción activa de lento o pausado es desusada en el DLE; se conserva por separado el sentido literario de andar errante."
+  },
+  {
+    "id": "vaguear",
+    "word": "Vaguear",
+    "reason": "Verbo transparente y cotidiano para holgazanear o perder el tiempo; la ficha no presenta un sentido independiente difícil."
+  },
+  {
+    "id": "vagoneta",
+    "word": "Vagoneta",
+    "reason": "La acepción activa nombra de forma transparente un vagón pequeño de transporte, una noción concreta y fácil de deducir."
+  },
+  {
+    "id": "vahar",
+    "word": "Vahar",
+    "reason": "Verbo poco necesario en esta ficha: significa simplemente echar vaho y duplica la acepción básica de vahear."
+  },
+  {
+    "id": "vahear",
+    "word": "Vahear",
+    "reason": "La ficha activa solo la acepción básica y transparente de echar vaho; no incluye el sentido humorístico independiente documentado por el DLE."
+  },
+  {
+    "id": "vaguedad-expresion-imprecisa",
+    "word": "Vaguedad",
+    "reason": "Duplicado ejemplificativo de vaguedad-falta-precision: una expresión imprecisa es un caso de falta de precisión, no una acepción independiente."
+  },
+  {
+    "id": "vaiven",
+    "word": "Vaivén",
+    "reason": "Movimiento físico de ida y vuelta que se describe con una definición cotidiana y fácil; no presenta aquí un uso especializado."
+  },
+  {
+    "id": "vaiven-cambios-repetidos",
+    "word": "Vaivén",
+    "reason": "Uso figurado transparente para cambios repetidos entre estados o situaciones; la idea se deduce sin explicación léxica propia."
+  },
+  {
+    "id": "valedero",
+    "word": "Valedero",
+    "reason": "El sentido activo equivale directamente a válido y es transparente a partir de valer; no aporta un significado difícil independiente."
+  },
+  {
+    "id": "validacion-del-testamento",
+    "word": "Validación del testamento",
+    "reason": "Frase procedimental composicional cuyo significado se deduce de validar y testamento; la ficha no delimita un concepto jurídico independiente verificable."
+  },
+  {
+    "id": "validador",
+    "word": "Validador",
+    "reason": "Nombre transparente de quien o aquello que valida; la ficha describe un dispositivo o programa por su función inmediata."
+  },
+  {
+    "id": "validar",
+    "word": "Validar",
+    "reason": "Verbo frecuente y transparente para dar validez o comprobar condiciones; la acepción activa es de uso general."
+  },
+  {
+    "id": "valija",
+    "word": "Valija",
+    "reason": "La acepción activa equivale a maleta o bolsa de viaje y es una noción cotidiana y concreta; se conserva el sentido postal separado."
+  },
+  {
+    "id": "valioso",
+    "word": "Valioso",
+    "reason": "Adjetivo cotidiano y transparente para algo que vale mucho o tiene gran estimación; la acepción activa no requiere explicación propia."
+  },
+  {
+    "id": "valkiria",
+    "word": "Valkiria",
+    "reason": "Variante gráfica de valquiria, sin significado ni explicación independiente; se evita duplicar la forma principal."
+  },
+  {
+    "id": "valladar",
+    "word": "Valladar",
+    "reason": "Se excluye solo el sentido literal, que equivale a vallado o cerco; se conserva el sentido figurado de obstáculo o defensa."
+  },
+  {
+    "id": "valia-value-or-appreciation-of-thing",
+    "word": "Valía",
+    "reason": "El sentido de valor o aprecio de una cosa es común y equivale directamente a valor; se conserva la acepción abstracta de mérito personal."
+  },
+  {
+    "id": "vallado-de-piscina",
+    "word": "Vallado de piscina",
+    "reason": "Frase descriptiva y transparente para una cerca de seguridad alrededor de una piscina, sin concepto léxico independiente."
+  },
+  {
+    "id": "valoracion",
+    "word": "Valoración",
+    "reason": "Nombre común y transparente de la acción o efecto de valorar; la ficha presenta el sentido general sin una acepción difícil delimitada."
+  },
+  {
+    "id": "valentona",
+    "word": "Valentona",
+    "reason": "La definición activa no corresponde al sentido registrado por el DLE, que es la jactancia o exageración del propio valor; se excluye la ficha mal definida."
+  },
+  {
+    "id": "valorativo",
+    "word": "Valorativo",
+    "reason": "Adjetivo transparente derivado de valorar y definido solo como aquello que valora; no aporta una acepción difícil independiente."
+  },
+  {
+    "id": "valorear",
+    "word": "Valorear",
+    "reason": "El DLE remite directamente a valorar; es una variante verbal sin significado independiente que justifique ficha propia."
+  },
+  {
+    "id": "valorizar",
+    "word": "Valorizar",
+    "reason": "La acepción activa de aumentar el precio o valor se deduce directamente de valorizar y es de uso general."
+  },
+  {
+    "id": "valorizar-1507-2",
+    "word": "Valorizar",
+    "reason": "La acepción de reconocer el valor o importancia repite una idea común y transparente de valorar."
+  },
+  {
+    "id": "vampiresa",
+    "word": "Vampiresa",
+    "reason": "La ficha define literalmente a una mujer vampiro, pero el DLE registra el sentido de mujer que usa su seducción en beneficio propio; la definición activa es infiel."
+  },
+  {
+    "id": "vampirismo",
+    "word": "Vampirismo",
+    "reason": "Se excluye solo la ficha literal, que describe de forma transparente la conducta de un vampiro; se conserva el uso figurado independiente."
+  },
+  {
+    "id": "vampirizar",
+    "word": "Vampirizar",
+    "reason": "La ficha activa reduce el lema a chupar sangre en la ficción; el DLE recoge el sentido actual de abusar o aprovecharse, ya conservado en su ficha separada."
+  },
+  {
+    "id": "vampiro",
+    "word": "Vampiro",
+    "reason": "La acepción de criatura fantástica es muy conocida y fácil de entender; se mantiene el sentido zoológico especializado en su ficha propia."
+  },
+  {
+    "id": "vandalizar",
+    "word": "Vandalizar",
+    "reason": "Verbo general y transparente, derivado de vándalo, para dañar o destruir bienes; la acepción activa no exige explicación léxica propia."
+  },
+  {
+    "id": "vanguardia",
+    "word": "Vanguardia",
+    "reason": "Se excluye solo el sentido militar literal de la parte del ejército que marcha delante, una descripción directa; se conservan las acepciones artísticas."
+  },
+  {
+    "id": "vanguardia-leading-group",
+    "word": "Vanguardia",
+    "reason": "El uso general de grupo que va por delante es transparente y común; se conservan los sentidos especializados separados."
+  },
+  {
+    "id": "vanguardia-bridge-construction-start",
+    "word": "Vanguardia",
+    "reason": "El DLE registra esta acepción solo en plural para lugares donde empiezan obras de puentes o presas; la ficha singular no refleja la forma documentada."
+  },
+  {
+    "id": "vanidad",
+    "word": "Vanidad",
+    "reason": "La ficha activa contiene el sentido cotidiano de deseo de admiración por la apariencia o los méritos; esa idea común no requiere explicación propia."
+  },
+  {
+    "id": "vano",
+    "word": "Vano",
+    "reason": "La acepción activa equivale a inútil o sin resultado, un sentido general que se entiende fácilmente por el contexto habitual de en vano."
+  },
+  {
+    "id": "vanova",
+    "word": "Vánova",
+    "reason": "El DLE marca esta voz como rural y propia de Huesca; la ficha no recoge esa restricción regional."
+  },
+  {
+    "id": "vaporizador",
+    "word": "Vaporizador",
+    "reason": "Aparato definido por la función transparente de vaporizar un líquido; la acepción doméstica es común y predecible."
+  },
+  {
+    "id": "vaporizador-liquid-spray-device",
+    "word": "Vaporizador",
+    "reason": "La acepción de pulverizar líquido es el atomizador cotidiano; se deduce directamente de la función del aparato."
+  },
+  {
+    "id": "vaquera",
+    "word": "Vaquera",
+    "reason": "Nombre transparente para la mujer que cuida ganado vacuno, derivado directamente de vaca y vaquero."
+  },
+  {
+    "id": "vaquera-cowboy-style",
+    "word": "Vaquera",
+    "reason": "Adjetivo transparente para lo propio de los vaqueros, sin una acepción difícil independiente en la ficha."
+  },
+  {
+    "id": "vaqueria-dairy-farm",
+    "word": "Vaquería",
+    "reason": "Lugar donde hay vacas o se vende su leche: nombre transparente y concreto formado a partir de vaca y -ería."
+  },
+  {
+    "id": "vara",
+    "word": "Vara",
+    "reason": "Duplicado del sentido literal de rama larga y delgada ya separado en vara-branch; se elimina esta copia redundante."
+  },
+  {
+    "id": "vara-branch",
+    "word": "Vara",
+    "reason": "Rama delgada, sentido cotidiano y concreto que se deduce con facilidad; además está duplicado por la ficha base."
+  },
+  {
+    "id": "vara-pole",
+    "word": "Vara",
+    "reason": "Palo largo y delgado de uso general; significado concreto y transparente que no requiere una explicación propia."
+  },
+  {
+    "id": "varapalo",
+    "word": "Varapalo",
+    "reason": "Sentido literal de golpe con palo o vara, composicional y fácil; se conserva el uso figurado de contratiempo o reprimenda."
+  },
+  {
+    "id": "vareador",
+    "word": "Vareador",
+    "reason": "Nombre de agente transparente para quien varea los árboles; la función se deduce directamente del verbo."
+  },
+  {
+    "id": "varear-1521-2",
+    "word": "Varear",
+    "reason": "El sentido activo de golpear con una vara es una acción básica y literal; se conserva el sentido agrícola específico de varear frutos."
+  },
+  {
+    "id": "varicoso",
+    "word": "Varicoso",
+    "reason": "La acepción general de relacionado con las varices queda subsumida en la acepción más precisa de tener varices, que se conserva."
+  },
+  {
+    "id": "variedad",
+    "word": "Variedad",
+    "reason": "Sentido general y cotidiano de diversidad o diferencia, fácilmente comprensible y sin una acepción difícil delimitada en esta ficha."
+  },
+  {
+    "id": "variedad-group-or-selection-of-different-things",
+    "word": "Variedad",
+    "reason": "Conjunto o surtido de cosas distintas: uso común y transparente que no requiere explicación léxica propia."
+  },
+  {
+    "id": "vario",
+    "word": "Vario",
+    "reason": "Adjetivo general que equivale a diverso o diferente; significado transparente y fácil."
+  },
+  {
+    "id": "variopinto-colorful",
+    "word": "Variopinto",
+    "reason": "El sentido de tener varios colores queda comprendido en la acepción conservada de multiforme, mezclado o diverso; no es una acepción independiente."
+  },
+  {
+    "id": "varita",
+    "word": "Varita",
+    "reason": "Diminutivo transparente de vara para un palo corto y delgado, objeto cotidiano y fácil de deducir."
+  },
+  {
+    "id": "vascoparlante",
+    "word": "Vascoparlante",
+    "reason": "Adjetivo composicional que significa que habla vasco; equivale a vascohablante y se deduce de sus componentes."
+  },
+  {
+    "id": "vascuence-relativo-al-pueblo-vasco",
+    "word": "Vascuence",
+    "reason": "Sentido adjetival/gentilicio de relativo al pueblo vasco o a su lengua, transparente; se conserva el lema nominal para la lengua."
+  },
+  {
+    "id": "vaselina",
+    "word": "Vaselina",
+    "reason": "Producto de uso doméstico muy conocido y fácil de reconocer por su función de proteger y suavizar la piel; se conservan los dos sentidos figurados."
+  },
+  {
+    "id": "vaticinador",
+    "word": "Vaticinador",
+    "reason": "Nombre de agente transparente para quien vaticina o pronostica; la función se deduce directamente del verbo."
+  },
+  {
+    "id": "vecera-turno-que-corresponde-a-alguien",
+    "word": "Vecera",
+    "reason": "La definición activa presenta un turno, pero el DLE registra aquí a la persona que guarda turno o vez; no describe fielmente la acepción."
+  },
+  {
+    "id": "vecinal",
+    "word": "Vecinal",
+    "reason": "Adjetivo común y transparente para lo relativo a vecinos o al vecindario."
+  },
+  {
+    "id": "vecindad",
+    "word": "Vecindad",
+    "reason": "La acepción activa de relación o proximidad entre vecinos es cotidiana y transparente; no aporta un concepto difícil independiente."
+  },
+  {
+    "id": "vedar",
+    "word": "Vedar",
+    "reason": "Verbo general equivalente a prohibir o impedir; la acepción activa se entiende fácilmente."
+  },
+  {
+    "id": "vedetismo",
+    "word": "Vedetismo",
+    "reason": "La definición activa trata de la atención que recibe una celebridad, pero el DLE define el término como la inclinación desmesurada a ser centro de atención; la glosa no es fiel."
+  },
+  {
+    "id": "veeduria-organization",
+    "word": "Veeduría",
+    "reason": "La ficha define un organismo de vigilancia, mientras que el DLE registra el cargo/oficio o la oficina de un veedor; la acepción activa no está documentada con precisión."
+  },
+  {
+    "id": "vegetalismo",
+    "word": "Vegetalismo",
+    "reason": "Régimen estrictamente vegetal equivalente a vegetarianismo; la definición es transparente y el concepto ya tiene un nombre común."
+  },
+  {
+    "id": "vegetar-plant-grow",
+    "word": "Vegetar",
+    "reason": "El sentido activo de que una planta viva y crezca es una función biológica básica; se conserva el uso figurado aplicado a personas."
+  },
+  {
+    "id": "vegetariano",
+    "word": "Vegetariano",
+    "reason": "Nombre de dieta/persona de uso cotidiano y transparente; no requiere explicación léxica propia en esta ficha."
+  },
+  {
+    "id": "vegueria",
+    "word": "Veguería",
+    "reason": "La ficha describe un territorio sometido a un funcionario histórico ya desaparecido; el concepto es únicamente histórico y no se identifica como acepción de uso actual."
+  },
+  {
+    "id": "veguero",
+    "word": "Veguero",
+    "reason": "Adjetivo transparente que significa relativo a una vega; se conservan por separado los sentidos especializados de cultivador de tabaco y cigarro."
+  },
+  {
+    "id": "veintavo",
+    "word": "Veintavo",
+    "reason": "El DLE marca esta forma como desusada y remite a veinteavo, que se conserva como nombre de la fracción."
+  },
+  {
+    "id": "veinteno",
+    "word": "Veinteno",
+    "reason": "La acepción ordinal equivale a vigésimo y el DLE la marca como poco usada; se conserva el nombre fraccionario veinteavo."
+  },
+  {
+    "id": "veinteno-una-de-veinte-partes",
+    "word": "Veinteno",
+    "reason": "La acepción fraccionaria es poco usada y duplica directamente veinteavo, que se conserva."
+  },
+  {
+    "id": "vejamen",
+    "word": "Vejamen",
+    "reason": "La ficha repite la definición general de vejación, mientras que el DLE también documenta un sentido festivo/satírico que no está recogido; se retira la ficha duplicada e incompleta."
+  },
+  {
+    "id": "vejigazo-blow-to-the-belly",
+    "word": "Vejigazo",
+    "reason": "El sentido de golpe en el vientre se atribuye a algunas regiones sin identificarlas; no cumple el requisito de marcar con precisión el uso regional."
+  },
+  {
+    "id": "velada",
+    "word": "Velada",
+    "reason": "Nombre transparente de la acción de velar o permanecer despierto por la noche; la acepción activa no es difícil."
+  },
+  {
+    "id": "veladora",
+    "word": "Veladora",
+    "reason": "Femenino transparente de velador para una persona que vigila o cuida; la función se deduce directamente del verbo."
+  },
+  {
+    "id": "veladura-aplicacion-de-capa",
+    "word": "Veladura",
+    "reason": "Nombre de la acción de aplicar una capa fina, duplicado del concepto de técnica pictórica ya cubierto por veladura."
+  },
+  {
+    "id": "velar-guard-at-night",
+    "word": "Velar",
+    "reason": "Duplicado exacto del sentido base ya conservado: hacer guardia durante la noche."
+  },
+  {
+    "id": "velar-attend-sick-person",
+    "word": "Velar",
+    "reason": "Acción cotidiana de asistir de noche a un enfermo, fácilmente deducible del sentido general de velar/guardar vigilia."
+  },
+  {
+    "id": "velar-stay-with-deceased",
+    "word": "Velar",
+    "reason": "Acción común de acompañar a una persona fallecida durante la noche; se entiende por el sentido general de velar."
+  },
+  {
+    "id": "velar-stay-awake",
+    "word": "Velar",
+    "reason": "Sentido transparente de permanecer despierto durante la noche, fácilmente deducible de velar una vigilia."
+  },
+  {
+    "id": "velar-cover-with-veil",
+    "word": "Velar",
+    "reason": "Cubrir con un velo es un sentido literal y transparente del verbo; no requiere una ficha de dificultad independiente."
+  },
+  {
+    "id": "velar-work-late",
+    "word": "Velar",
+    "reason": "Continuar trabajando después del horario ordinario es un sentido cotidiano y fácil de inferir de pasar la noche en vela."
+  },
+  {
+    "id": "velazqueno",
+    "word": "Velazqueño",
+    "reason": "Adjetivo derivado directamente del apellido propio de Velázquez; los gentilicios y derivados de nombres propios quedan fuera del repertorio editorial."
+  },
+  {
+    "id": "veleria",
+    "word": "Velería",
+    "reason": "Tienda donde se venden velas: denominación transparente y de uso común, formada a partir de “vela”."
+  },
+  {
+    "id": "veleta",
+    "word": "Veleta",
+    "reason": "Instrumento cotidiano que señala la dirección del viento; su función y su nombre son familiares y fáciles de comprender."
+  },
+  {
+    "id": "vellon",
+    "word": "Vellón",
+    "reason": "La acepción de lana esquilada duplica casi literalmente la ficha conservada “vellocino”; se excluye solo este sentido duplicado."
+  },
+  {
+    "id": "veloce",
+    "word": "Veloce",
+    "reason": "El DLE lo marca como desusado y equivalente a “veloz”; la indicación musical italiana de la ficha no corresponde a la acepción española documentada."
+  },
+  {
+    "id": "velocidad-de-descarga",
+    "word": "Velocidad de descarga",
+    "reason": "Expresión técnica composicional cuyo significado se deduce directamente de “velocidad” y “descarga”; concepto digital corriente."
+  },
+  {
+    "id": "velocidad-de-subida",
+    "word": "Velocidad de subida",
+    "reason": "Expresión técnica composicional cuyo significado se deduce directamente de “velocidad” y “subida”; concepto digital corriente."
+  },
+  {
+    "id": "velocimetro",
+    "word": "Velocímetro",
+    "reason": "Aparato cotidiano y transparente: mide o indica la velocidad de un vehículo."
+  },
+  {
+    "id": "velon-vela-gruesa-y-duradera",
+    "word": "velón",
+    "reason": "Aumentativo descriptivo de “vela”; la ficha expresa una característica familiar y deducible del objeto común."
+  },
+  {
+    "id": "vencedero",
+    "word": "Vencedero",
+    "reason": "La glosa activa (“que puede ser vencido”) no coincide con el sentido documentado por el DLE (“sujeto a vencimiento en época determinada”)."
+  },
+  {
+    "id": "vencer",
+    "word": "Vencer",
+    "reason": "La ficha recoge el sentido básico y cotidiano de ganar una competencia o lucha, demasiado general para el nivel de dificultad del diccionario."
+  },
+  {
+    "id": "vencer-overcome-a-difficulty-or-fear",
+    "word": "vencer",
+    "reason": "Superar una dificultad o un miedo es un uso común, transparente y ya cubierto por el significado general del verbo."
+  },
+  {
+    "id": "vendehumos",
+    "word": "Vendehúmos",
+    "reason": "La glosa ofrece una explicación general fácil de inferir de la metáfora; además, el sentido preciso del DLE es distinto (simular influencia ante un poderoso para vender favores)."
+  },
+  {
+    "id": "vendible",
+    "word": "Vendible",
+    "reason": "Adjetivo transparente derivado de vender: que puede venderse o está a la venta."
+  },
+  {
+    "id": "vendimiador",
+    "word": "Vendimiador",
+    "reason": "Nombre de agente directamente derivado de vendimiar; la definición se deduce sin dificultad del verbo."
+  },
+  {
+    "id": "vendimiar",
+    "word": "Vendimiar",
+    "reason": "Acción transparente de recoger uvas; el sentido se comprende directamente a partir de vendimia y uva."
+  },
+  {
+    "id": "venenifero",
+    "word": "Venenífero",
+    "reason": "El DLE lo marca como poético y lo remite a venenoso; la glosa actual, que añade “contiene o produce”, no coincide con ese valor."
+  },
+  {
+    "id": "veneno-harmful-quality-in-words-or-feelings",
+    "word": "veneno",
+    "reason": "Uso figurado corriente de “veneno” como maldad o rencor en palabras y actos, fácil de inferir de la acepción material."
+  },
+  {
+    "id": "venerable",
+    "word": "Venerable",
+    "reason": "Adjetivo de uso común equivalente a respetable o digno de admiración."
+  },
+  {
+    "id": "venerar",
+    "word": "Venerar",
+    "reason": "Respetar o admirar profundamente: verbo general, comprensible y de uso asentado."
+  },
+  {
+    "id": "venerar-worship-god-saints-or-sacred-things",
+    "word": "venerar",
+    "reason": "Dar culto a Dios, santos u objetos sagrados es un uso conocido y transparente del verbo."
+  },
+  {
+    "id": "venia",
+    "word": "Venia",
+    "reason": "En la ficha, permiso para hacer algo: concepto común y directamente equivalente a permiso o autorización."
+  },
+  {
+    "id": "ventada",
+    "word": "Ventada",
+    "reason": "Ráfaga breve de viento fuerte; sinónimo inmediato y fácil de comprender."
+  },
+  {
+    "id": "ventaja-lead-over-a-rival",
+    "word": "ventaja",
+    "reason": "Diferencia favorable frente a un rival: sentido cotidiano, ya expresado por el término común “ventaja”."
+  },
+  {
+    "id": "ventajero",
+    "word": "Ventajero",
+    "reason": "La ficha omite la restricción geográfica del DLE (Argentina, República Dominicana y Uruguay) y da una paráfrasis que no representa con precisión el sentido regional de “ventajista”."
+  },
+  {
+    "id": "ventana-programa",
+    "word": "Ventana de programa",
+    "reason": "Componente habitual de la interfaz de una aplicación; expresión tecnológica composicional y fácil de interpretar."
+  },
+  {
+    "id": "ventanal",
+    "word": "Ventanal",
+    "reason": "Aumentativo transparente de ventana: ventana grande, palabra común cuyo significado no requiere ficha independiente."
+  },
+  {
+    "id": "ventanazo",
+    "word": "Ventanazo",
+    "reason": "Golpe al cerrarse una ventana: acción sonora común y fácil de deducir; la ficha omite además el segundo uso documentado de cerrar ventanas violentamente como desaire."
+  },
+  {
+    "id": "ventanear",
+    "word": "Ventanear",
+    "reason": "La ficha lo define como curiosear desde una ventana, pero el DLE lo limita a asomarse o ponerse a la ventana con frecuencia; en ambos casos es una acción cotidiana y fácil."
+  },
+  {
+    "id": "ventanico",
+    "word": "Ventanico",
+    "reason": "El DLE remite a ventanillo; como “ventana pequeña” es un diminutivo transparente y de comprensión inmediata."
+  },
+  {
+    "id": "ventano",
+    "word": "Ventano",
+    "reason": "Ventana pequeña: derivación transparente y sentido básico."
+  },
+  {
+    "id": "ventarron",
+    "word": "Ventarrón",
+    "reason": "Aumentativo transparente de viento; la glosa describe un viento muy fuerte, concepto corriente."
+  },
+  {
+    "id": "ventear-soplar-viento",
+    "word": "ventear",
+    "reason": "Sentido meteorológico sencillo y equivalente a soplar el viento; no requiere una ficha de vocabulario independiente."
+  },
+  {
+    "id": "ventear-airear",
+    "word": "ventear",
+    "reason": "Poner algo al aire para secarlo o limpiarlo es un uso literal, común y fácil de inferir."
+  },
+  {
+    "id": "ventisquero-glaciar-pequeno",
+    "word": "ventisquero",
+    "reason": "La glosa “glaciar pequeño” no coincide con la acepción del DLE, que describe un sitio de montaña donde se conserva la nieve y el hielo."
+  },
+  {
+    "id": "ventolera",
+    "word": "Ventolera",
+    "reason": "En la acepción de ráfaga, palabra familiar con significado inmediato; se conserva por separado la acepción figurada menos previsible."
+  },
+  {
+    "id": "ventolera-sudden-whim",
+    "word": "ventolera",
+    "reason": "Deseo o decisión repentina y extravagante: uso coloquial familiar y fácil de entender."
+  },
+  {
+    "id": "ventorro",
+    "word": "Ventorro",
+    "reason": "Nombre alternativo para una venta de hospedaje pequeña o mala, ya cubierto por la ficha conservada “ventorrillo”; diferencia de forma sin concepto independiente."
+  },
+  {
+    "id": "ventral",
+    "word": "Ventral",
+    "reason": "Adjetivo anatómico composicional que significa relativo al vientre; transparente para el público del diccionario."
+  },
+  {
+    "id": "ventrecha",
+    "word": "Ventrecha",
+    "reason": "El DLE la remite a ventresca y la ficha conservada de “ventresca” ya cubre la parte ventral del pescado."
+  },
+  {
+    "id": "venturoso",
+    "word": "Venturoso",
+    "reason": "Adjetivo derivado de ventura; la ficha expresa la idea corriente de tener buena suerte."
+  },
+  {
+    "id": "veracidad",
+    "word": "Veracidad",
+    "reason": "Cualidad transparente de ser veraz o decir la verdad; concepto general y frecuente."
+  },
+  {
+    "id": "veranar",
+    "word": "Veranar",
+    "reason": "Acción sencilla de pasar el verano en un lugar, equivalente al común veranear."
+  },
+  {
+    "id": "veranear",
+    "word": "Veranear",
+    "reason": "Actividad cotidiana de pasar las vacaciones de verano en otro lugar, comprensible sin explicación léxica."
+  },
+  {
+    "id": "veraneo",
+    "word": "Veraneo",
+    "reason": "Nombre transparente para la temporada de vacaciones de verano."
+  },
+  {
+    "id": "veranera-bougainvillea",
+    "word": "veranera",
+    "reason": "Nombre alternativo de la buganvilla; la ficha alude vagamente a “algunos lugares” sin precisar su distribución y el referente es una planta común."
+  },
+  {
+    "id": "veraniego",
+    "word": "Veraniego",
+    "reason": "Adjetivo transparente que significa propio del verano o relacionado con él."
+  },
+  {
+    "id": "veraz",
+    "word": "Veraz",
+    "reason": "Adjetivo corriente equivalente a sincero o que dice la verdad."
+  },
+  {
+    "id": "verbalizar",
+    "word": "Verbalizar",
+    "reason": "Expresar una idea o sentimiento con palabras es un uso general, claro y actualmente común."
+  },
+  {
+    "id": "verbenero",
+    "word": "Verbenero",
+    "reason": "Adjetivo formado de manera transparente a partir de verbena; la ficha describe una relación directa con una fiesta popular."
+  },
+  {
+    "id": "verborragia",
+    "word": "Verborragia",
+    "reason": "Sinónimo exacto de verborrea (“verbosidad excesiva”); se conserva la forma coloquial más reconocible y se evita duplicar la misma noción."
+  },
+  {
+    "id": "verbosidad",
+    "word": "Verbosidad",
+    "reason": "Abundancia de palabras al hablar, concepto general y deducible de verboso; se conserva verborrea como equivalente más expresivo."
+  },
+  {
+    "id": "verboso",
+    "word": "Verboso",
+    "reason": "Adjetivo transparente para alguien o algo que emplea demasiadas palabras."
+  },
+  {
+    "id": "verdear",
+    "word": "Verdear",
+    "reason": "En la acepción general, empezar a mostrar o tomar color verde es un cambio de color transparente y fácil."
+  },
+  {
+    "id": "verdear-recoger-aceituna",
+    "word": "verdear",
+    "reason": "La ficha no señala que el DLE limita esta acepción a Córdoba y Sevilla, y altera la definición: el DLE dice coger la aceituna para consumirla como fruto, no necesariamente cuando aún está verde."
+  },
+  {
+    "id": "verdeceladon",
+    "word": "Verdeceladón",
+    "reason": "La forma soldada no está respaldada como lema del DLE; el color descrito se expresa composicionalmente como verde celadón."
+  },
+  {
+    "id": "verdecer",
+    "word": "Verdecer",
+    "reason": "Empezar a cubrirse de hojas o hierba equivale de forma transparente a cobrar verdor o reverdecer."
+  },
+  {
+    "id": "verdemar",
+    "word": "Verdemar",
+    "reason": "Compuesto transparente para un color verde azulado parecido al del mar."
+  },
+  {
+    "id": "verdigon",
+    "word": "Verdigón",
+    "reason": "La acepción es regional de Andalucía y sinónimo de berberecho, pero la ficha no indica esa restricción geográfica."
+  },
+  {
+    "id": "verdinegro",
+    "word": "Verdinegro",
+    "reason": "Compuesto transparente de verde y negro; la descripción del color es directa."
+  },
+  {
+    "id": "verdor",
+    "word": "Verdor",
+    "reason": "La ficha expresa el color verde de las plantas, sentido general y fácil de entender."
+  },
+  {
+    "id": "verdoso",
+    "word": "Verdoso",
+    "reason": "Adjetivo habitual y transparente: que tira a verde."
+  },
+  {
+    "id": "verdugon-new-shoot-growing-from-a-tree",
+    "word": "verdugón",
+    "reason": "El DLE marca como desusada la acepción de renuevo o vástago de árbol."
+  },
+  {
+    "id": "verduleria",
+    "word": "Verdulería",
+    "reason": "Tienda o puesto que vende verduras: nombre de establecimiento cotidiano, formado transparentemente a partir de verdulero."
+  },
+  {
+    "id": "verdusco",
+    "word": "Verdusco",
+    "reason": "Variante adjetiva fácilmente deducible de verde/verdoso para describir un tono de color."
+  },
+  {
+    "id": "vergeta",
+    "word": "Vergeta",
+    "reason": "La acepción de varita delgada es fácil y poco específica; se conserva el sentido heráldico independiente en su ficha propia."
+  },
+  {
+    "id": "vergonzante",
+    "word": "Vergonzante",
+    "reason": "La glosa “que siente vergüenza” es general y muy fácil; la acepción precisa relacionada con pedir limosna queda considerada en la ficha conservada separada."
+  },
+  {
+    "id": "vergonzante-pide-limosna",
+    "word": "vergonzante",
+    "reason": "La glosa solo especifica una situación cotidiana de vergüenza al pedir limosna; no aporta una acepción independiente de suficiente dificultad para conservar una ficha aparte."
+  },
+  {
+    "id": "vergonzoso",
+    "word": "Vergonzoso",
+    "reason": "Adjetivo corriente para lo que causa vergüenza o deshonra; la idea es familiar y fácil."
+  },
+  {
+    "id": "verguenza",
+    "word": "Vergüenza",
+    "reason": "Emoción básica y cotidiana de apuro, humillación o temor al ridículo."
+  },
+  {
+    "id": "verguenza-recato-respeto",
+    "word": "vergüenza",
+    "reason": "El sentido de recato o pudor es conocido y la definición se deduce del uso común de la palabra."
+  },
+  {
+    "id": "vericueto-aspecto-intrincado",
+    "word": "vericueto",
+    "reason": "La ficha da en singular un sentido que el DLE registra en plural (“condiciones o circunstancias que entorpecen o complican algo”); no se debe introducir esa acepción como lema singular."
+  },
+  {
+    "id": "verificar-informacion",
+    "word": "Verificar información",
+    "reason": "Expresión procedimental compuesta por palabras comunes, sin una unidad léxica difícil que justifique entrada propia."
+  },
+  {
+    "id": "verosimil",
+    "word": "Verosímil",
+    "reason": "Adjetivo frecuente y directamente equivalente a creíble o posible."
+  },
+  {
+    "id": "verosimilitud",
+    "word": "Verosimilitud",
+    "reason": "Nombre abstracto transparente de verosímil; concepto común en contextos educativos y de argumentación."
+  },
+  {
+    "id": "verraco-escultura-precolombina",
+    "word": "verraco",
+    "reason": "La glosa altera la referencia histórica: el DLE registra esculturas de granito de pueblos celtas de la península ibérica, no esculturas precolombinas."
+  },
+  {
+    "id": "verrugoso",
+    "word": "Verrugoso",
+    "reason": "Adjetivo transparente formado de verruga: que tiene muchas verrugas."
+  },
+  {
+    "id": "versal",
+    "word": "Versal",
+    "reason": "La glosa no coincide con el DLE: versal es una letra mayúscula inicial, especialmente decorada, no simplemente algo relativo a las mayúsculas."
+  },
+  {
+    "id": "versar",
+    "word": "Versar",
+    "reason": "En la ficha, tratar sobre un tema es un uso académico general y equivalente a hablar o referirse a él."
+  },
+  {
+    "id": "versatil",
+    "word": "Versátil",
+    "reason": "Adjetivo habitual para algo adaptable a varias funciones, de comprensión directa."
+  },
+  {
+    "id": "versatilidad",
+    "word": "Versatilidad",
+    "reason": "Nombre transparente de la cualidad de ser versátil; concepto corriente y deducible del adjetivo base."
+  },
+  {
+    "id": "verseria",
+    "word": "Versería",
+    "reason": "La definición activa no está respaldada por el uso actual consultado; la documentación histórica de la RAE recoge una voz de artillería antigua, no “conjunto de versos malos”."
+  },
+  {
+    "id": "versicula",
+    "word": "Versícula",
+    "reason": "La glosa es incorrecta: el DLE define versícula como el lugar donde se guardan los libros de coro, no como verso breve."
+  },
+  {
+    "id": "versicula-respuesta-liturgica",
+    "word": "versícula",
+    "reason": "Glosa mal asignada al lema: la respuesta litúrgica corresponde a una acepción de versículo, mientras que versícula designa el lugar de los libros de coro."
+  },
+  {
+    "id": "versiculo",
+    "word": "Versículo",
+    "reason": "La ficha ofrece la acepción bíblica común de división numerada de un capítulo; término conocido y transparente en su contexto habitual."
+  },
+  {
+    "id": "versiculo-division-texto",
+    "word": "versículo",
+    "reason": "División numerada de un texto, sentido general fácil y redundante con la acepción bíblica básica ya recogida."
+  },
+  {
+    "id": "versificar",
+    "word": "Versificar",
+    "reason": "Acción de hacer o componer versos, deducible y de comprensión inmediata para el público general."
+  },
+  {
+    "id": "versificar-compose-poetry",
+    "word": "versificar",
+    "reason": "“Componer versos o escribir poesía” repite el sentido general de versificar y expresa una actividad sencilla."
+  },
+  {
+    "id": "verso",
+    "word": "Verso",
+    "reason": "Línea de una composición poética, concepto básico y de conocimiento general."
+  },
+  {
+    "id": "vertebrado",
+    "word": "Vertebrado",
+    "reason": "Categoría biológica básica (animal con columna vertebral), habitual en la enseñanza general."
+  },
+  {
+    "id": "vertebral",
+    "word": "Vertebral",
+    "reason": "Adjetivo anatómico transparente que significa relativo a las vértebras."
+  },
+  {
+    "id": "vertedera",
+    "word": "Vertedera",
+    "reason": "La definición activa no corresponde al DLE: es una pieza del arado que voltea y extiende la tierra, no un depósito de agua."
+  },
+  {
+    "id": "vertedero",
+    "word": "Vertedero",
+    "reason": "La ficha describe el lugar donde se deposita basura; concepto cotidiano y de fácil comprensión."
+  },
+  {
+    "id": "verter",
+    "word": "Verter",
+    "reason": "Derramar o vaciar un líquido o material suelto es una acción básica y común."
+  },
+  {
+    "id": "verticalidad",
+    "word": "Verticalidad",
+    "reason": "Nombre directo de la cualidad de vertical; concepto geométrico elemental."
+  },
+  {
+    "id": "verticalizar",
+    "word": "Verticalizar",
+    "reason": "Poner algo en posición vertical es una acción literal y transparente."
+  },
+  {
+    "id": "vertiginoso",
+    "word": "Vertiginoso",
+    "reason": "La ficha recoge el sentido general “relativo al vértigo”, derivado y fácil de inferir del sustantivo vértigo."
+  },
+  {
+    "id": "vertiginoso-causes-a-strong-sense-of-dizziness",
+    "word": "vertiginoso",
+    "reason": "Que causa vértigo es el sentido literal y fácilmente comprensible del adjetivo."
+  },
+  {
+    "id": "vertiginoso-person-who-feels-dizzy",
+    "word": "vertiginoso",
+    "reason": "La glosa no coincide con el DLE: el adjetivo significa relativo al vértigo o que lo causa, no la persona que lo siente."
+  },
+  {
+    "id": "vespertino",
+    "word": "Vespertino",
+    "reason": "Adjetivo común y transparente que significa relativo a la tarde o que ocurre por la tarde."
+  },
+  {
+    "id": "vestidura",
+    "word": "Vestidura",
+    "reason": "Prenda o conjunto de prendas exteriores: equivalente fácil y general de ropa."
+  },
+  {
+    "id": "vestigio",
+    "word": "Vestigio",
+    "reason": "En la ficha, resto material del pasado: sentido común y directamente equivalente a resto."
+  },
+  {
+    "id": "vestigio-senal",
+    "word": "vestigio",
+    "reason": "Señal o indicio de que algo ocurrió, uso común y fácil de inferir de la idea general de vestigio."
+  },
+  {
+    "id": "veta",
+    "word": "Veta",
+    "reason": "Faja o franja que destaca en la materia por color o calidad; sentido visual y corriente."
+  },
+  {
+    "id": "vetar",
+    "word": "Vetar",
+    "reason": "Poner un veto o prohibir una medida: verbo común y de significado directo."
+  },
+  {
+    "id": "vetear",
+    "word": "Vetear",
+    "reason": "Hacer o pintar vetas o listas, acción transparente y derivada de veta."
+  },
+  {
+    "id": "veterano",
+    "word": "Veterano",
+    "reason": "Persona con experiencia en una profesión o actividad: sentido común y claro."
+  },
+  {
+    "id": "veterano-military-person-who-served-for-years",
+    "word": "veterano",
+    "reason": "Militar que ha servido mucho tiempo: uso conocido y fácilmente deducible del sentido general."
+  },
+  {
+    "id": "vezar",
+    "word": "Vezar",
+    "reason": "El DLE marca desusada la forma transitiva y remite a avezar; no es uso actual recomendable."
+  },
+  {
+    "id": "vezar-get-used",
+    "word": "vezar",
+    "reason": "El DLE marca desusada la forma pronominal y remite a avezarse; no es uso actual recomendable."
+  },
+  {
+    "id": "viabilidad",
+    "word": "Viabilidad",
+    "reason": "En la ficha, posibilidad de realizar o hacer funcionar algo: concepto de uso corriente y derivación transparente de viable."
+  },
+  {
+    "id": "vialidad",
+    "word": "Vialidad",
+    "reason": "La glosa de red de caminos no coincide con el DLE, que define vialidad como cualidad de vial o, en urbanismo, conjunto de servicios de las vías públicas."
+  },
+  {
+    "id": "vialidad-conditions-for-road-traffic",
+    "word": "vialidad",
+    "reason": "La glosa corresponde a la transitabilidad de una vía (viabilidad²), no al sentido urbanístico de vialidad que recoge el DLE."
+  },
+  {
+    "id": "vibracion",
+    "word": "Vibración",
+    "reason": "La acción general de vibrar es un concepto común y transparente; la ficha añade además una señal de teléfono que no constituye una acepción léxica independiente del sustantivo."
+  },
+  {
+    "id": "vibrador",
+    "word": "Vibrador",
+    "reason": "La ficha ofrece solo el aparato genérico para tareas o máquinas y omite la acepción actual de estimulación sexual; la glosa es incompleta y poco delimitada."
+  },
+  {
+    "id": "vibrante",
+    "word": "Vibrante",
+    "reason": "La ficha solo recoge el adjetivo general ‘que vibra’, de significado directo y transparente; no incluye la acepción fonética especializada."
+  },
+  {
+    "id": "vicealmiranta",
+    "word": "Vicealmiranta",
+    "reason": "La definición es incorrecta: el DLE la registra como la segunda galera de una escuadra, no como un rango naval inferior al almirante; además es una voz histórica."
+  },
+  {
+    "id": "viceconsul",
+    "word": "Vicecónsul",
+    "reason": "Cargo formado transparentemente con vice- y cónsul; la definición solo expresa que ocupa la categoría inmediatamente inferior al cónsul."
+  },
+  {
+    "id": "viceconsulado",
+    "word": "Viceconsulado",
+    "reason": "La acepción de empleo o cargo se deduce directamente de vicecónsul y no aporta un concepto léxico independiente para este diccionario."
+  },
+  {
+    "id": "viceconsulado-oficina",
+    "word": "viceconsulado",
+    "reason": "La oficina del vicecónsul es una acepción composicional y fácilmente deducible del cargo; no requiere ficha separada según el alcance editorial."
+  },
+  {
+    "id": "vicedecanato",
+    "word": "Vicedecanato",
+    "reason": "La ficha reduce la voz al cargo o período de quien sustituye al decano y omite el sentido de dependencias; la acepción incluida es transparente y la glosa incompleta."
+  },
+  {
+    "id": "vicedirector",
+    "word": "Vicedirector",
+    "reason": "Cargo transparente formado con vice- y director; equivale directamente a la persona que hace las veces del director."
+  },
+  {
+    "id": "vicegobernador",
+    "word": "Vicegobernador",
+    "reason": "Cargo transparente formado con vice- y gobernador; la ficha solo expresa que sustituye al gobernador."
+  },
+  {
+    "id": "vicejefe",
+    "word": "Vicejefe",
+    "reason": "Cargo transparente formado con vice- y jefe; su definición reproduce directamente la función de sustitución."
+  },
+  {
+    "id": "vicepresidencial",
+    "word": "Vicepresidencial",
+    "reason": "Adjetivo relacional formado directamente a partir de vicepresidencia o vicepresidente, sin significado independiente que justifique una ficha."
+  },
+  {
+    "id": "vicepresidente",
+    "word": "Vicepresidente",
+    "reason": "Cargo transparente formado con vice- y presidente; la definición es fácilmente deducible como quien hace las veces del presidente."
+  },
+  {
+    "id": "vicerrector",
+    "word": "Vicerrector",
+    "reason": "Cargo transparente formado con vice- y rector; la definición expresa directamente que sustituye al rector."
+  },
+  {
+    "id": "vicetesorero",
+    "word": "Vicetesorero",
+    "reason": "Cargo transparente formado con vice- y tesorero; equivale a quien hace las veces del tesorero."
+  },
+  {
+    "id": "vicioso",
+    "word": "Vicioso",
+    "reason": "La ficha usa un sentido cotidiano y lo reduce a ‘adicto’; la acepción general del DLE abarca a quien está entregado a los vicios, no específicamente a una adicción."
+  },
+  {
+    "id": "victimar",
+    "word": "Victimar",
+    "reason": "Glosa incorrecta: el DLE define el verbo como asesinar o matar, no como perjudicar o tratar injustamente; la ficha no recoge el sentido vigente."
+  },
+  {
+    "id": "victimismo",
+    "word": "Victimismo",
+    "reason": "La ficha añade que la persona culpa a otros, matiz que no aparece en el DLE, que define la tendencia a considerarse víctima o hacerse pasar por tal; glosa imprecisa."
+  },
+  {
+    "id": "victimizar",
+    "word": "Victimizar",
+    "reason": "La acepción general de convertir a alguien en víctima es una derivación verbal transparente y común; se conserva por separado el uso pronominal coloquial con sentido propio."
+  },
+  {
+    "id": "videoaficionado",
+    "word": "Videoaficionado",
+    "reason": "Compuesto transparente para quien graba videos como afición; la definición se deduce de sus componentes y no añade un sentido independiente."
+  },
+  {
+    "id": "videoclip",
+    "word": "Videoclip",
+    "reason": "Término audiovisual de uso muy común cuya definición promocional de video para una canción es fácilmente reconocible y deducible."
+  },
+  {
+    "id": "videoconferencia",
+    "word": "Videoconferencia",
+    "reason": "Comunicación o encuentro audiovisual por red: término cotidiano y transparente a partir de video y conferencia."
+  },
+  {
+    "id": "videograbar",
+    "word": "Videograbar",
+    "reason": "Acción general y transparente formada por video- y grabar; la glosa coincide directamente con sus componentes."
+  },
+  {
+    "id": "videografico",
+    "word": "Videográfico",
+    "reason": "Adjetivo relacional que significa simplemente perteneciente o relativo al video; formación y sentido transparentes."
+  },
+  {
+    "id": "videollamada",
+    "word": "Videollamada",
+    "reason": "Comunicación audiovisual cotidiana, compuesta transparentemente por video y llamada y sin matiz diferenciado frente a videoconferencia en la ficha."
+  },
+  {
+    "id": "videoteca",
+    "word": "Videoteca",
+    "reason": "Local o colección de cintas de video: ambos sentidos se deducen directamente de video y -teca y la glosa se refiere a un soporte ya desplazado."
+  },
+  {
+    "id": "videotelefono",
+    "word": "Videoteléfono",
+    "reason": "Dispositivo definido de forma composicional como teléfono con video; la ficha describe una tecnología antigua hoy reemplazada por funciones comunes de teléfonos inteligentes."
+  },
+  {
+    "id": "vidriar",
+    "word": "Vidriar",
+    "reason": "En la ficha, aplicar esmalte a una superficie es una acción técnica que se deduce del nombre vidriado ya conservado; además se omite el sentido pronominal de ponerse vidrioso."
+  },
+  {
+    "id": "vidrieria",
+    "word": "Vidriería",
+    "reason": "Tienda donde se venden vidrios: establecimiento cotidiano descrito de manera composicional."
+  },
+  {
+    "id": "vidrieria-taller-trabajo-vidrio",
+    "word": "vidriería",
+    "reason": "Taller donde se trabaja el vidrio: sentido laboral directo y transparente, sin valor diferencial para el alcance del diccionario."
+  },
+  {
+    "id": "vidriero",
+    "word": "Vidriero",
+    "reason": "Oficio corriente de trabajar, vender o instalar vidrio; definición directa y transparente, sin matiz especializado."
+  },
+  {
+    "id": "vidrioso",
+    "word": "Vidrioso",
+    "reason": "La ficha solo recoge el sentido literal de aspecto parecido al vidrio, claro y deducible; se conserva aparte el sentido figurado de persona susceptible."
+  },
+  {
+    "id": "vigilancia-vecinal",
+    "word": "Vigilancia vecinal",
+    "reason": "Frase composicional para vecinos que vigilan y se avisan entre sí; el significado se deduce directamente de ambos componentes."
+  },
+  {
+    "id": "vigilante-de-examen",
+    "word": "Vigilante de examen",
+    "reason": "Denominación descriptiva y transparente de quien supervisa un examen; no constituye un término independiente."
+  },
+  {
+    "id": "vigilar",
+    "word": "Vigilar",
+    "reason": "Verbo de uso común para observar o cuidar atentamente a alguien o algo; acepción básica y directa."
+  },
+  {
+    "id": "vigilia",
+    "word": "Vigilia",
+    "reason": "Estado común de estar despierto o en vela; la ficha ofrece una acepción general fácilmente comprensible."
+  },
+  {
+    "id": "vigilia-dia-que-antecede-un-hecho",
+    "word": "vigilia",
+    "reason": "Sentido general de día anterior o víspera, de uso común y comprendido por el sinónimo incluido."
+  },
+  {
+    "id": "vigilia-falta-de-sueno",
+    "word": "vigilia",
+    "reason": "Equivale a falta de sueño o insomnio ocasionado por enfermedad o preocupación; acepción cotidiana y directa."
+  },
+  {
+    "id": "vigilia-resultado-de-trabajo-nocturno",
+    "word": "vigilia",
+    "reason": "La acepción académica se usa en plural y designa el resultado del trabajo intelectual nocturno; la ficha singular es imprecisa y de uso reducido."
+  },
+  {
+    "id": "vigilia-trabajo-intelectual-nocturno",
+    "word": "vigilia",
+    "reason": "La acepción académica se usa en plural; la ficha en singular es imprecisa y el trabajo intelectual nocturno se entiende directamente por la glosa."
+  },
+  {
+    "id": "vigilia-vispera-de-fiesta-religiosa",
+    "word": "vigilia",
+    "reason": "La víspera de una festividad religiosa se deduce del sentido común de víspera; queda diferenciada de los oficios religiosos conservados."
+  },
+  {
+    "id": "vigor",
+    "word": "Vigor",
+    "reason": "Fuerza o energía física o moral: sustantivo de uso común y significado directo."
+  },
+  {
+    "id": "vigorizador",
+    "word": "Vigorizador",
+    "reason": "Adjetivo transparente que significa ‘que da vigor’; derivación directa del sustantivo común vigor."
+  },
+  {
+    "id": "vil",
+    "word": "Vil",
+    "reason": "Adjetivo de uso corriente para algo moralmente indigno o despreciable; la definición general es directa y familiar."
+  },
+  {
+    "id": "vil-barato",
+    "word": "vil",
+    "reason": "Uso composicional para indicar un precio muy bajo; la ficha solo presenta el sentido común de barato."
+  },
+  {
+    "id": "vileza",
+    "word": "Vileza",
+    "reason": "La glosa presenta una acción concreta, mientras el DLE recoge como acepción la cualidad de vil; la ficha duplica por metonimia el sentido abstracto conservado."
+  },
+  {
+    "id": "villanciquero",
+    "word": "Villanciquero",
+    "reason": "Nombre de agente transparente para quien canta o compone villancicos; significado deducible de villancico."
+  },
+  {
+    "id": "villaneria",
+    "word": "Villanería",
+    "reason": "La ficha no corresponde con precisión al DLE, que remite a villanía o villanaje; no se acredita una acepción independiente de acción o dicho grosero."
+  },
+  {
+    "id": "villania-shameful-act",
+    "word": "villanía",
+    "reason": "Duplica la acepción de acción ruin ya recogida en la ficha `villania`; se conserva una sola ficha para ese sentido."
+  },
+  {
+    "id": "vilorta",
+    "word": "Vilorta",
+    "reason": "Glosa incorrecta: el DLE define vilorta como una vara flexible de madera para hacer aros y vencejos, no como un lazo de mimbre o paja."
+  },
+  {
+    "id": "vilorta-climbing-plant",
+    "word": "vilorta",
+    "reason": "No se encontró respaldo lexicográfico para el sentido de planta trepadora; el DLE registra una vara flexible y las abrazaderas del arado."
+  },
+  {
+    "id": "vilorta-flexible-tie",
+    "word": "Vilorta",
+    "reason": "La ficha repite el lazo de mimbre no respaldado; los sentidos académicos son una vara de madera y una abrazadera de hierro del arado."
+  },
+  {
+    "id": "viltrotear",
+    "word": "Viltrotear",
+    "reason": "No se halló respaldo en el DLE para esta forma con el sentido de insultar con dureza; falta evidencia de vigencia y uso general."
+  },
+  {
+    "id": "vinateria",
+    "word": "Vinatería",
+    "reason": "Tienda donde se vende vino; establecimiento cotidiano cuya definición es transparente y directa."
+  },
+  {
+    "id": "vinculo",
+    "word": "Vínculo",
+    "reason": "Relación o unión afectiva/social, sentido muy común y fácilmente expresado por los sinónimos incluidos."
+  },
+  {
+    "id": "vindicador",
+    "word": "Vindicador",
+    "reason": "Adjetivo de agente derivado de vindicar; la ficha parafrasea de forma general a quien venga una ofensa, sin matiz léxico independiente."
+  },
+  {
+    "id": "vinico",
+    "word": "Vínico",
+    "reason": "Adjetivo relacional que significa simplemente perteneciente o relativo al vino; formación transparente."
+  },
+  {
+    "id": "vinicola",
+    "word": "Vinícola",
+    "reason": "La ficha mezcla cultivo de la vid y elaboración de vino, mientras el DLE define el adjetivo respecto de la fabricación; omite además el uso nominal de persona con viñas."
+  },
+  {
+    "id": "vinicultor",
+    "word": "Vinicultor",
+    "reason": "Glosa imprecisa: cultivar uvas corresponde a viticultor; el DLE define vinicultor como quien se dedica a elaborar y criar vino."
+  },
+  {
+    "id": "vinilico",
+    "word": "Vinílico",
+    "reason": "Adjetivo relacional que significa simplemente perteneciente o relativo al vinilo; formación y sentido transparentes."
+  },
+  {
+    "id": "vinero",
+    "word": "Viñero",
+    "reason": "Glosa incorrecta: el DLE define viñero como persona que tiene heredades de viñas, no como quien también las cultiva."
+  },
+  {
+    "id": "vineta",
+    "word": "Viñeta",
+    "reason": "Dibujo impreso que acompaña o adorna un texto; sentido gráfico común y fácilmente reconocible."
+  },
+  {
+    "id": "vineta-cuadro-de-historieta",
+    "word": "viñeta",
+    "reason": "Recuadro de una historieta con dibujo y texto; concepto cotidiano y de comprensión directa."
+  },
+  {
+    "id": "violaceo",
+    "word": "Violáceo",
+    "reason": "Adjetivo de color que tira a violeta; equivalente descriptivo y transparente de morado."
+  },
+  {
+    "id": "violado",
+    "word": "Violado",
+    "reason": "Sentido cromático de violeta, redundante con violáceo y morado ya presentes en la ficha."
+  },
+  {
+    "id": "violador",
+    "word": "Violador",
+    "reason": "La ficha solo presenta el sentido común de persona que incumple una ley, derecho o límite; nombre de agente transparente."
+  },
+  {
+    "id": "violar",
+    "word": "Violar",
+    "reason": "La acepción general de incumplir normas, derechos o acuerdos es frecuente y directamente equivalente a infringir o quebrantar; se conserva aparte la acepción sexual específica."
+  },
+  {
+    "id": "violentar",
+    "word": "Violentar",
+    "reason": "Uso general de aplicar fuerza para vencer una resistencia, de significado directo y común."
+  },
+  {
+    "id": "violentar-infringir-norma",
+    "word": "violentar",
+    "reason": "Sentido general de infringir una norma, derecho o voluntad; transparente y solapado con violar y vulnerar."
+  },
+  {
+    "id": "violoncelo",
+    "word": "Violoncelo",
+    "reason": "Variante sinónima de violonchelo; la ficha duplica el nombre del mismo instrumento y omite el sentido de músico que registra el DLE."
+  },
+  {
+    "id": "virginal",
+    "word": "Virginal",
+    "reason": "La glosa reduce el adjetivo a la virginidad humana y omite los sentidos relativos a la Virgen y a lo puro; además la acepción incluida es transparente."
+  },
+  {
+    "id": "virgo",
+    "word": "Virgo",
+    "reason": "La ficha recoge el signo zodiacal, referencia astrológica familiar y asociada a un nombre propio de constelación, sin valor léxico diferencial."
+  },
+  {
+    "id": "virgo-hymen",
+    "word": "virgo",
+    "reason": "Sinónimo anatómico raro y latino de himen, desplazado por el término actual común; no aporta una denominación independiente útil."
+  },
+  {
+    "id": "virgo-virgin",
+    "word": "virgo",
+    "reason": "Uso adjetivo equivalente directamente a virgen; forma rara y redundante frente al término general."
+  },
+  {
+    "id": "virreina",
+    "word": "Virreina",
+    "reason": "Definición incorrecta para el femenino: el DLE recoge virreina como mujer del virrey; la ficha le atribuye la función de gobernar el territorio."
+  },
+  {
+    "id": "virreinal",
+    "word": "Virreinal",
+    "reason": "Adjetivo relacional transparente que significa perteneciente o relativo al virrey o al virreinato."
+  },
+  {
+    "id": "virtuosistico",
+    "word": "Virtuosístico",
+    "reason": "Adjetivo derivado directamente de virtuoso, con glosa fácilmente deducible de gran habilidad técnica."
+  },
+  {
+    "id": "virtuoso",
+    "word": "Virtuoso",
+    "reason": "Acepción moral común: quien actúa conforme a buenos principios; significado fácil y cotidiano."
+  },
+  {
+    "id": "virtuoso-1490-2",
+    "word": "virtuoso",
+    "reason": "Acepción general de cosa que cumple su función natural, de comprensión directa y sin valor especializado suficiente."
+  },
+  {
+    "id": "virus-informatico",
+    "word": "Virus informático",
+    "reason": "Concepto cotidiano y composicional: programa dañino que se replica o infecta otros archivos y dispositivos."
+  },
+  {
+    "id": "viruta",
+    "word": "Viruta",
+    "reason": "Astilla fina y concreta que se desprende al trabajar madera o metal; uso familiar y explicación directa."
+  },
+  {
+    "id": "visceral",
+    "word": "Visceral",
+    "reason": "Acepción anatómica relacional: perteneciente o relativo a las vísceras; sentido transparente que se separa del uso figurado."
+  },
+  {
+    "id": "visear",
+    "word": "Visear",
+    "reason": "El DLE marca el verbo como poco usado y lo define como vislumbrar con visión imperfecta."
+  },
+  {
+    "id": "visibilidad",
+    "word": "Visibilidad",
+    "reason": "Cualidad común y transparente de aquello que puede verse con claridad."
+  },
+  {
+    "id": "visibilizar",
+    "word": "Visibilizar",
+    "reason": "Derivado transparente de visible: hacer algo visible o conocido."
+  },
+  {
+    "id": "visillo",
+    "word": "Visillo",
+    "reason": "Cortina doméstica común, fina y fácil de reconocer por su uso cotidiano."
+  },
+  {
+    "id": "visionado",
+    "word": "Visionado",
+    "reason": "Nombre de acción transparente para el acto de visionar o ver una grabación."
+  },
+  {
+    "id": "visionar",
+    "word": "Visionar",
+    "reason": "Ver una película o grabación con atención; acción cotidiana y transparente."
+  },
+  {
+    "id": "round5096-visor-camera",
+    "word": "visor",
+    "reason": "Parte corriente de una cámara para encuadrar imágenes; sentido concreto y fácil."
+  },
+  {
+    "id": "round5096-visor-weapon",
+    "word": "visor",
+    "reason": "Dispositivo de puntería de un arma, explicado de forma directa y familiar."
+  },
+  {
+    "id": "round5096-visor-helmet",
+    "word": "visor",
+    "reason": "Pieza móvil de un casco que protege la cara; objeto cotidiano y fácil de identificar."
+  },
+  {
+    "id": "vistosidad",
+    "word": "Vistosidad",
+    "reason": "Cualidad común y transparente de algo vistoso o atractivo."
+  },
+  {
+    "id": "visualidad",
+    "word": "Visualidad",
+    "reason": "La glosa no coincide con el DLE, que registra el efecto agradable de un conjunto de objetos vistosos; ese sentido tiene ficha propia."
+  },
+  {
+    "id": "visualizador",
+    "word": "Visualizador",
+    "reason": "Nombre de agente transparente: persona que visualiza o forma imágenes mentales."
+  },
+  {
+    "id": "visualizador-device-or-program-that-displays-information",
+    "word": "visualizador",
+    "reason": "Dispositivo o programa que muestra información visual; término tecnológico composicional y fácil."
+  },
+  {
+    "id": "vitaminico",
+    "word": "Vitamínico",
+    "reason": "Adjetivo relacional transparente: perteneciente o relativo a las vitaminas."
+  },
+  {
+    "id": "vitaminico-containing-vitamins",
+    "word": "vitamínico",
+    "reason": "Sentido corriente y composicional de algo que contiene vitaminas."
+  },
+  {
+    "id": "vitivinicola",
+    "word": "Vitivinícola",
+    "reason": "Adjetivo relacional composicional: perteneciente o relativo a la vitivinicultura."
+  },
+  {
+    "id": "vitreo",
+    "word": "Vítreo",
+    "reason": "Adjetivo transparente que significa hecho de vidrio o parecido al vidrio."
+  },
+  {
+    "id": "vitrina",
+    "word": "Vitrina",
+    "reason": "Mueble corriente de vidrio para mostrar o proteger objetos; sentido cotidiano y fácil."
+  },
+  {
+    "id": "vitroceramica-placa-cocina",
+    "word": "vitrocerámica",
+    "reason": "Sentido cotidiano de la placa calefactora de una cocina, fácil de reconocer por el contexto."
+  },
+  {
+    "id": "vitroceramico",
+    "word": "Vitrocerámico",
+    "reason": "Adjetivo relacional transparente del material vitrocerámico."
+  },
+  {
+    "id": "vituallar",
+    "word": "Vituallar",
+    "reason": "Verbo derivado de vitualla: proveer de provisiones; el DLE da como sinónimo avituallar."
+  },
+  {
+    "id": "viudedad",
+    "word": "Viudedad",
+    "reason": "Acepción general y transparente de estado de quien enviudó; se conserva el sentido específico de pensión."
+  },
+  {
+    "id": "viudez",
+    "word": "Viudez",
+    "reason": "Sinónimo general y común de viudedad, con una definición directa y sin sentido especializado propio."
+  },
+  {
+    "id": "vivaracho",
+    "word": "Vivaracho",
+    "reason": "Adjetivo cotidiano y fácil para alguien despierto, alegre y travieso."
+  },
+  {
+    "id": "vivaz",
+    "word": "Vivaz",
+    "reason": "Acepción general de energía y vigor, familiar y directamente comprensible."
+  },
+  {
+    "id": "vivencial",
+    "word": "Vivencial",
+    "reason": "Adjetivo relacional transparente derivado de vivencia, sin sentido independiente difícil."
+  },
+  {
+    "id": "viveral",
+    "word": "Viveral",
+    "reason": "El DLE remite directamente a vivero; voz redundante sin significado propio adicional."
+  },
+  {
+    "id": "viveza",
+    "word": "Viveza",
+    "reason": "Acepción general de rapidez o agilidad en las acciones, fácil y solapada con vivacidad."
+  },
+  {
+    "id": "viveza-color-brilliance",
+    "word": "viveza",
+    "reason": "Brillo intenso de los colores, sentido común y fácil de entender."
+  },
+  {
+    "id": "viveza-lively-eyes",
+    "word": "viveza",
+    "reason": "Expresividad y brillo de la mirada, descripción sencilla de una cualidad visible."
+  },
+  {
+    "id": "viveza-thoughtless-act",
+    "word": "viveza",
+    "reason": "Acción poco considerada, concepto común y fácil."
+  },
+  {
+    "id": "viveza-thoughtless-word",
+    "word": "viveza",
+    "reason": "Palabra dicha sin reflexión, concepto común y fácil."
+  },
+  {
+    "id": "vividor-full-of-life-or-vitality",
+    "word": "vividor",
+    "reason": "Acepción sencilla de persona con vitalidad, transparente y próxima al sentido general de vivaz."
+  },
+  {
+    "id": "viyela",
+    "word": "Viyela",
+    "reason": "El DLE identifica Viyella como marca registrada; la ficha corresponde a una marca y no cumple el criterio de exclusión de marcas."
+  },
+  {
+    "id": "vizcondado-territory-ruled-by-a-viscount",
+    "word": "vizcondado",
+    "reason": "Definición inexacta: el DLE lo define como territorio o lugar donde radicaba el vizcondado, no como territorio gobernado por un vizconde."
+  },
+  {
+    "id": "vocal",
+    "word": "Vocal",
+    "reason": "Adjetivo relacional común y transparente: perteneciente o relativo a la voz."
+  },
+  {
+    "id": "vocal-letra-del-alfabeto",
+    "word": "vocal",
+    "reason": "Acepción básica y familiar: letra o sonido vocálico del alfabeto."
+  },
+  {
+    "id": "vocalizador",
+    "word": "Vocalizador",
+    "reason": "Adjetivo de agente transparente, equivalente a que vocaliza; no aporta una acepción independiente."
+  },
+  {
+    "id": "voceador",
+    "word": "Voceador",
+    "reason": "Adjetivo de agente transparente, equivalente a quien vocea o da muchas voces."
+  },
+  {
+    "id": "voceador-public-announcer",
+    "word": "voceador",
+    "reason": "Glosa demasiado amplia y fácil; el DLE restringe el sustantivo regional a vendedor callejero de periódicos y remite al uso de pregonero."
+  },
+  {
+    "id": "vocear",
+    "word": "Vocear",
+    "reason": "Sentido básico y fácil: dar voces o gritar."
+  },
+  {
+    "id": "vocear-aclamar-con-gritos",
+    "word": "vocear",
+    "reason": "Acepción común y transparente de aclamar o celebrar a alguien con gritos."
+  },
+  {
+    "id": "vocear-anunciar-en-voz-alta",
+    "word": "vocear",
+    "reason": "Acepción sencilla de anunciar algo en voz alta, transparente por su definición."
+  },
+  {
+    "id": "vocear-llamar-a-alguien-en-voz-alta",
+    "word": "vocear",
+    "reason": "Acepción sencilla y transparente de llamar a alguien a gritos."
+  },
+  {
+    "id": "voceo",
+    "word": "Voceo",
+    "reason": "La ficha omite la marca regional: el DLE registra el sustantivo como uso de Honduras; además, la glosa es una nominalización sencilla de vocear."
+  },
+  {
+    "id": "voceria",
+    "word": "Vocería",
+    "reason": "Acepción de confusión de voces altas y desentonadas, redundante con vocerío, cuya ficha expresa el mismo sentido de forma más directa."
+  },
+  {
+    "id": "vociferador",
+    "word": "Vociferador",
+    "reason": "Nombre o adjetivo de agente transparente: quien vocifera."
+  },
+  {
+    "id": "vocingleria",
+    "word": "Vocinglería",
+    "reason": "Acepción abstracta transparente: cualidad de vocinglero; se conserva por separado el sentido léxico de ruido de muchas voces."
+  },
+  {
+    "id": "vodevilesco",
+    "word": "Vodevilesco",
+    "reason": "Adjetivo relacional transparente de vodevil, sin significado especializado independiente en la ficha."
+  },
+  {
+    "id": "volada",
+    "word": "Volada",
+    "reason": "Acepción de vuelo corto, derivación transparente de volar y de comprensión sencilla."
+  },
+  {
+    "id": "voladera",
+    "word": "Voladera",
+    "reason": "Adjetivo transparente con el sentido básico de que puede volar."
+  },
+  {
+    "id": "voladera-wheel-paddle-1384",
+    "word": "voladera",
+    "reason": "Glosa incompleta: el DLE la define como paleta fijada a una rueda o eje para mover algo o ser movida por una fuerza."
+  },
+  {
+    "id": "voladero-que-facilita-el-vuelo",
+    "word": "voladero",
+    "reason": "Glosa inexacta: el DLE define el adjetivo como que puede volar, no como algo que ayuda a otro animal a volar."
+  },
+  {
+    "id": "volador",
+    "word": "Volador",
+    "reason": "Adjetivo básico y transparente para algo que vuela; no alcanza el umbral de dificultad editorial."
+  },
+  {
+    "id": "volador-able-to-fly",
+    "word": "Volador",
+    "reason": "Ficha duplicada del mismo lema, definición y sinónimo que volador; además, expresa un adjetivo básico y transparente."
+  },
+  {
+    "id": "volandera",
+    "word": "Volandera",
+    "reason": "Adjetivo de comprensión sencilla y glosa demasiado amplia respecto del sentido académico de suspendido en el aire y movido por su impulso."
+  },
+  {
+    "id": "volandero",
+    "word": "Volandero",
+    "reason": "Glosa no respaldada por el DLE: volandero se refiere a un pájaro listo para volar, algo suspendido que se mueve fácilmente o algo accidental, entre otros sentidos."
+  },
+  {
+    "id": "volandillas",
+    "word": "Volandillas",
+    "reason": "Locución variante de en volandas, que el DLE remite a esa forma; redundante con las fichas ya conservadas de volandas."
+  },
+  {
+    "id": "volea",
+    "word": "Volea",
+    "reason": "Golpe deportivo básico y familiar, definido como tocar la pelota antes de que bote; no alcanza el umbral de dificultad."
+  },
+  {
+    "id": "volea-remate",
+    "word": "volea",
+    "reason": "Ficha redundante con volea: describe el mismo remate antes de que la pelota bote, de forma igualmente básica."
+  },
+  {
+    "id": "volear",
+    "word": "Volear",
+    "reason": "Sentido básico y transparente de golpear o lanzar algo al aire; se conserva por separado el sentido agrícola de sembrar a voleo."
+  },
+  {
+    "id": "volquetero",
+    "word": "Volquetero",
+    "reason": "Nombre de oficio transparente y fácil: conductor de un volquete."
+  },
+  {
+    "id": "voltaico",
+    "word": "Voltaico",
+    "reason": "La glosa remite expresamente al apellido de Alessandro Volta y a sus ideas, una referencia directa a nombre propio."
+  },
+  {
+    "id": "volteador",
+    "word": "Volteador",
+    "reason": "Nombre de agente o instrumento transparente, definido de forma genérica como aquello que voltea."
+  },
+  {
+    "id": "volteleta",
+    "word": "Volteleta",
+    "reason": "El DLE la remite directamente a voltereta; es una variante redundante sin sentido independiente en la ficha."
+  },
+  {
+    "id": "voluntariado",
+    "word": "Voluntariado",
+    "reason": "Sentido general y familiar de conjunto de personas voluntarias, explicado con una glosa sencilla; no alcanza el umbral de dificultad."
+  },
+  {
+    "id": "voluntarioso",
+    "word": "Voluntarioso",
+    "reason": "Acepción corriente y transparente de quien hace algo con voluntad y gusto; se mantiene por separado el sentido de obstinación caprichosa."
+  },
+  {
+    "id": "voraz",
+    "word": "Voraz",
+    "reason": "Sentido básico y familiar de animal o persona que come mucho; no alcanza el umbral editorial."
+  },
+  {
+    "id": "votada",
+    "word": "Votada",
+    "reason": "Glosa redundante con votación y derivada de votar; expresa una acción común y sencilla."
+  },
+  {
+    "id": "voto",
+    "word": "Voto",
+    "reason": "Acepción electoral básica y familiar; la ficha duplica también el ID voto-ballot."
+  },
+  {
+    "id": "voto-ballot",
+    "word": "Voto",
+    "reason": "Ficha duplicada de voto para el sentido electoral, con definición y sinónimo idénticos."
+  },
+  {
+    "id": "vozarron",
+    "word": "Vozarrón",
+    "reason": "Aumentativo transparente y común de voz, descrito como voz muy fuerte y grave."
+  },
+  {
+    "id": "vozarrona",
+    "word": "Vozarrona",
+    "reason": "Adjetivo aumentativo transparente y común de vozarrón."
+  },
+  {
+    "id": "vulgaridad",
+    "word": "Vulgaridad",
+    "reason": "Sentido general y sencillo de algo común o sin rasgos especiales."
+  },
+  {
+    "id": "vulgaridad-rude-or-offensive-act",
+    "word": "vulgaridad",
+    "reason": "Uso común y fácil para una expresión o acción grosera."
+  },
+  {
+    "id": "vulgarizador",
+    "word": "Vulgarizador",
+    "reason": "Adjetivo de agente transparente, equivalente a quien vulgariza o divulga."
+  },
+  {
+    "id": "vulgarizar",
+    "word": "Vulgarizar",
+    "reason": "Sentido corriente y transparente de explicar en palabras sencillas; se conserva el sentido distinto de hacer común un uso o estilo."
+  },
+  {
+    "id": "vulgata",
+    "word": "Vulgata",
+    "reason": "Nombre propio de una versión latina concreta de la Biblia, asociada a san Jerónimo."
+  },
+  {
+    "id": "vulnerable",
+    "word": "Vulnerable",
+    "reason": "Adjetivo general y de uso común para algo que puede dañarse o afectarse con facilidad."
+  },
+  {
+    "id": "western",
+    "word": "Wéstern",
+    "reason": "Género cinematográfico familiar y fácil de reconocer por la glosa."
+  },
+  {
+    "id": "whiskeria",
+    "word": "Whiskería",
+    "reason": "Nombre de un local común equivalente a güisquería; la ficha aporta una descripción fácil y no especializada."
+  },
+  {
+    "id": "wifi",
+    "word": "Wifi",
+    "reason": "Término tecnológico de uso masivo y concepto básico de conectividad; la ficha no aporta dificultad léxica."
+  },
+  {
+    "id": "windsurf",
+    "word": "Windsurf",
+    "reason": "Nombre familiar de un deporte acuático, descrito de forma directa y sencilla."
+  },
+  {
+    "id": "xenofobia",
+    "word": "Xenofobia",
+    "reason": "Concepto corriente y fácilmente deducible en el uso general; la ficha repite una definición elemental de rechazo a lo extranjero."
+  },
+  {
+    "id": "xenofobo",
+    "word": "Xenófobo",
+    "reason": "Adjetivo transparente formado sobre xenofobia y definido como quien siente o manifiesta esa actitud."
+  },
+  {
+    "id": "xenofobo-characteristic-of-xenophobic-attitude-1316",
+    "word": "xenófobo",
+    "reason": "Acepción relacional transparente: propio o característico de una actitud xenófoba."
+  },
+  {
+    "id": "xenoglosia",
+    "word": "Xenoglosia",
+    "reason": "La glosa de una capacidad supuesta de hablar una lengua no aprendida no coincide con las acepciones del DLE (glosolalia o don de lenguas)."
+  },
+  {
+    "id": "xerocopia",
+    "word": "Xerocopia",
+    "reason": "Copia fotográfica común equivalente a fotocopia; definición sencilla y redundante."
+  },
+  {
+    "id": "xilotila",
+    "word": "Xilotila",
+    "reason": "No se encontró respaldo lexicográfico ni mineralógico fiable para esta glosa; la ficha no permite verificar el lema o el sentido."
+  },
+  {
+    "id": "yacer",
+    "word": "Yacer",
+    "reason": "Sentido general de estar tendido, explicado mediante sinónimos muy comunes; no alcanza el umbral de dificultad."
+  },
+  {
+    "id": "yare",
+    "word": "Yare",
+    "reason": "La definición omite la marca regional: la acepción de jugo venenoso de yuca amarga se registra como venezolana y el lema tiene otros sentidos regionales. Una ficha sin esa delimitación no representa fielmente el uso."
+  },
+  {
+    "id": "yayo",
+    "word": "Yayo",
+    "reason": "Forma familiar y transparente para abuelo; el sentido cotidiano es fácil y no alcanza el umbral de dificultad."
+  },
+  {
+    "id": "ye",
+    "word": "Ye",
+    "reason": "Nombre básico de una letra del alfabeto, equivalente a i griega; el sentido no presenta dificultad léxica."
+  },
+  {
+    "id": "yen",
+    "word": "Yen",
+    "reason": "Nombre ampliamente conocido de la unidad monetaria japonesa; la glosa es elemental y no aporta dificultad suficiente."
+  },
+  {
+    "id": "yerbajal",
+    "word": "Yerbajal",
+    "reason": "La ficha describe un terreno con hierba mediante una formación transparente sobre yerba y una glosa común; no alcanza el umbral de dificultad."
+  },
+  {
+    "id": "yerbaluisa",
+    "word": "Yerbaluisa",
+    "reason": "Nombre de una hierba aromática de uso común en infusiones y variante de hierbaluisa; la glosa es sencilla y previsible."
+  },
+  {
+    "id": "yerbera-woman-herb-seller",
+    "word": "yerbera",
+    "reason": "Acepción de agente femenino transparente: mujer que vende hierbas; no aporta un sentido suficientemente difícil ni independiente."
+  },
+  {
+    "id": "yeso",
+    "word": "Yeso",
+    "reason": "Nombre común y cotidiano de un mineral y material de construcción; la definición elemental no alcanza el umbral de dificultad."
+  },
+  {
+    "id": "yeti",
+    "word": "Yeti",
+    "reason": "Criatura legendaria de conocimiento general y descrita con una comparación familiar; la ficha no aporta dificultad léxica suficiente."
+  },
+  {
+    "id": "yugo",
+    "word": "Yugo",
+    "reason": "Repite la acepción básica de barra que une dos animales, ya presente en la ficha específica yugo-animal-harness; no añade un sentido independiente."
+  },
+  {
+    "id": "yunta",
+    "word": "Yunta",
+    "reason": "Sentido literal y transparente de pareja de animales unida por un yugo; explicación elemental y de baja dificultad."
+  },
+  {
+    "id": "yuntero",
+    "word": "Yuntero",
+    "reason": "Nombre de agente transparente formado sobre yunta; la definición se deduce directamente de la palabra base."
+  },
+  {
+    "id": "yuxtapuesto",
+    "word": "Yuxtapuesto",
+    "reason": "Participio/adjetivo transparente derivado de yuxtaponer; la glosa explica literalmente la forma y no requiere ficha autónoma."
+  },
+  {
+    "id": "zaboyar",
+    "word": "Zaboyar",
+    "reason": "Verbo de uso dialectal restringido a Aragón, sin extensión general comprobada en esta ficha."
+  },
+  {
+    "id": "zabucar",
+    "word": "Zabucar",
+    "reason": "Forma poco usada que remite a zabuquear; la ficha duplica el mismo sentido y no aporta un lema independiente actual."
+  },
+  {
+    "id": "zabullida",
+    "word": "Zabullida",
+    "reason": "Variante gráfica transparente de zambullida, con la misma acción de entrar bruscamente en el agua."
+  },
+  {
+    "id": "zafada",
+    "word": "Zafada",
+    "reason": "Nombre de acción transparente de zafar, glosado con los mismos sentidos de soltar o liberar; no aporta acepción independiente."
+  },
+  {
+    "id": "zafar",
+    "word": "Zafar",
+    "reason": "Sentido físico común de soltar o desatar algo sujeto; la glosa es elemental y no alcanza el umbral de dificultad."
+  },
+  {
+    "id": "zaguera-defender-in-sports",
+    "word": "zaguera",
+    "reason": "Forma femenina del sustantivo/adjetivo zaguero para una jugadora de defensa; no aporta un lema independiente ni un sentido difícil."
+  },
+  {
+    "id": "zafra-sugar-production-period",
+    "word": "zafra",
+    "reason": "Sentido transparente de periodo durante el que se produce azúcar; es una delimitación temporal previsible del sentido de producción ya conservado."
+  },
+  {
+    "id": "zalameria",
+    "word": "Zalamería",
+    "reason": "Voz coloquial de uso común para una demostración exagerada de cariño; la definición se entiende de inmediato y no alcanza la dificultad prevista."
+  },
+  {
+    "id": "zamarrazo",
+    "word": "Zamarrazo",
+    "reason": "Aumentativo de golpe formado con -azo; el sentido se deduce fácilmente y no requiere ficha léxica separada."
+  },
+  {
+    "id": "zambomba",
+    "word": "Zambomba",
+    "reason": "Instrumento musical familiar de uso tradicional, definido con una descripción sencilla; no alcanza el umbral de dificultad."
+  },
+  {
+    "id": "round5104-zambombazo-explosion",
+    "word": "zambombazo",
+    "reason": "Uso coloquial y transparente para un estallido fuerte; el concepto es común y se deduce de la forma expresiva."
+  },
+  {
+    "id": "zambombazo",
+    "word": "Zambombazo",
+    "reason": "Sentido corriente de golpe fuerte, formado de manera previsible con el aumentativo -azo; no aporta dificultad suficiente."
+  },
+  {
+    "id": "zambullir",
+    "word": "Zambullir",
+    "reason": "Sentido literal y cotidiano de meter a alguien o algo de golpe bajo el agua; definición elemental y de baja dificultad."
+  },
+  {
+    "id": "zambullon",
+    "word": "Zambullón",
+    "reason": "Nombre de acción transparente derivado de zambullir; el sentido se deduce directamente del verbo común."
+  },
+  {
+    "id": "zampalimosnas",
+    "word": "Zampalimosnas",
+    "reason": "Composición transparente y despectiva para una persona que pide limosna; la ficha no aporta un lema difícil independiente."
+  },
+  {
+    "id": "zampon",
+    "word": "Zampón",
+    "reason": "Aumentativo derivado de zampar para una persona que come mucho; sentido fácil y previsible."
+  },
+  {
+    "id": "zampuzar",
+    "word": "Zampuzar",
+    "reason": "Sinónimo directo y sencillo de zambullir, sin un matiz independiente que justifique otra ficha."
+  },
+  {
+    "id": "zancada",
+    "word": "Zancada",
+    "reason": "Nombre común y fácilmente comprensible para un paso largo al caminar o correr."
+  },
+  {
+    "id": "zancadilla",
+    "word": "Zancadilla",
+    "reason": "Acción física cotidiana y transparente de hacer caer a alguien cruzándole una pierna."
+  },
+  {
+    "id": "zancadilla-obstaculo-desleal",
+    "word": "zancadilla",
+    "reason": "Extensión figurada familiar de poner una zancadilla; equivale a obstaculizar de forma desleal y no alcanza dificultad suficiente."
+  },
+  {
+    "id": "zancon",
+    "word": "Zancón",
+    "reason": "Variante de zancudo con el sentido básico y transparente de tener piernas largas; no aporta una acepción autónoma."
+  },
+  {
+    "id": "zancudo-1568-2",
+    "word": "zancudo",
+    "reason": "Sentido elemental de persona con piernas muy largas, comprensible de forma directa y sin dificultad léxica."
+  },
+  {
+    "id": "zanganear",
+    "word": "Zanganear",
+    "reason": "Verbo transparente derivado de zángano con el sentido corriente de holgazanear; no añade dificultad suficiente."
+  },
+  {
+    "id": "zangano-lazy-man",
+    "word": "zángano",
+    "reason": "Uso coloquial común para un hombre que no trabaja o no ayuda; la glosa es básica y sencilla."
+  },
+  {
+    "id": "zangolotino",
+    "word": "Zangolotino",
+    "reason": "Uso coloquial transparente para un joven que actúa o piensa como un niño; glosa sencilla y sin dificultad suficiente."
+  },
+  {
+    "id": "zangon",
+    "word": "Zangón",
+    "reason": "Uso coloquial de un joven holgazán o desgarbado; sentido sencillo que no alcanza el umbral de dificultad."
+  },
+  {
+    "id": "zanjar",
+    "word": "Zanjar",
+    "reason": "Verbo corriente para resolver o dar por terminado un asunto o dificultad; la glosa recoge su sentido general más fácil."
+  },
+  {
+    "id": "zapatazo",
+    "word": "Zapatazo",
+    "reason": "Sentido directo y transparente de golpe dado con un zapato; no aporta dificultad léxica."
+  },
+  {
+    "id": "zapatazo-fall",
+    "word": "zapatazo",
+    "reason": "Extensión sencilla para una caída aparatosa, comprensible por la forma y sin sentido léxico difícil."
+  },
+  {
+    "id": "zapatazo-fall-noise",
+    "word": "zapatazo",
+    "reason": "Ruido causado por una caída, sentido previsible y redundante con la ficha de caída ya conservada en el vocabulario general."
+  },
+  {
+    "id": "zapatazo-hard-blow",
+    "word": "zapatazo",
+    "reason": "Golpe fuerte y ruidoso, uso coloquial transparente del aumentativo -azo."
+  },
+  {
+    "id": "zapatazo-shoe-blow",
+    "word": "zapatazo",
+    "reason": "Repetición de la acepción de golpe dado con un zapato; duplicado por ID del sentido ya revisado."
+  },
+  {
+    "id": "zapateador",
+    "word": "Zapateador",
+    "reason": "Nombre de agente transparente derivado de zapatear; la definición explica literalmente a quien baila zapateando."
+  },
+  {
+    "id": "zapatillazo",
+    "word": "Zapatillazo",
+    "reason": "Aumentativo transparente para un golpe dado con una zapatilla; sentido fácil y redundante."
+  },
+  {
+    "id": "zapatismo",
+    "word": "Zapatismo",
+    "reason": "Nombre de un movimiento político derivado del apellido propio Zapata; queda fuera del alcance de lemas generales."
+  },
+  {
+    "id": "zapatito",
+    "word": "Zapatito",
+    "reason": "Diminutivo transparente de zapato, sin significado independiente que justifique una ficha."
+  },
+  {
+    "id": "zapeo-shouting-zape-to-scare-something-away",
+    "word": "zapeo",
+    "reason": "Nombre de acción transparente de espantar diciendo «zape»; sentido básico y derivado de zapear."
+  },
+  {
+    "id": "zapeo",
+    "word": "Zapeo",
+    "reason": "Uso familiar para cambiar rápidamente de canal de televisión; concepto cotidiano y fácil de deducir de zapear."
+  },
+  {
+    "id": "zapuzar",
+    "word": "Zapuzar",
+    "reason": "Sinónimo poco frecuente y redundante de meter de cabeza a alguien en el agua; no añade una acepción difícil independiente."
+  },
+  {
+    "id": "zar",
+    "word": "Zar",
+    "reason": "Título histórico ampliamente reconocido y definido de manera elemental; no alcanza la dificultad prevista para el diccionario."
+  },
+  {
+    "id": "zaragata",
+    "word": "Zaragata",
+    "reason": "Alboroto o pelea, uso coloquial de significado común y directo que no alcanza el umbral de dificultad."
+  },
+  {
+    "id": "zaragatero",
+    "word": "Zaragatero",
+    "reason": "Nombre de agente transparente derivado de zaragata: persona bulliciosa que arma alboroto."
+  },
+  {
+    "id": "zaragutero",
+    "word": "Zaragutero",
+    "reason": "Adjetivo/agente derivado de zaragata para quien provoca desorden; el significado es composicional y fácil."
+  },
+  {
+    "id": "zarandeo",
+    "word": "Zarandeo",
+    "reason": "Nombre de acción transparente de zarandear, equivalente a movimiento brusco que sacude algo."
+  },
+  {
+    "id": "zarrapastro",
+    "word": "Zarrapastro",
+    "reason": "Lema redundante con zaparrastroso, ya conservado para el mismo sentido de persona desaliñada o vestida con harapos."
+  },
+  {
+    "id": "zarzoso",
+    "word": "Zarzoso",
+    "reason": "Adjetivo transparente derivado de zarza: cubierto de zarzas o con muchas zarzas."
+  },
+  {
+    "id": "zas",
+    "word": "Zas",
+    "reason": "Onomatopeya familiar que imita el sonido de un golpe; sentido básico y fácilmente reconocible."
+  },
+  {
+    "id": "zeda",
+    "word": "Zeda",
+    "reason": "Nombre básico de la letra z, equivalente a zeta; no presenta dificultad léxica."
+  },
+  {
+    "id": "zen",
+    "word": "Zen",
+    "reason": "Nombre muy familiar de una escuela del budismo, explicado con una glosa general y sencilla."
+  },
+  {
+    "id": "zigzag",
+    "word": "Zigzag",
+    "reason": "Lema cotidiano y transparente para una línea o recorrido que cambia varias veces de dirección."
+  },
+  {
+    "id": "zigzagueante",
+    "word": "Zigzagueante",
+    "reason": "Adjetivo transparente: describe algo que avanza en zigzag."
+  },
+  {
+    "id": "zigzaguear",
+    "word": "Zigzaguear",
+    "reason": "Verbo transparente para avanzar en zigzag; la acción y el concepto son familiares."
+  },
+  {
+    "id": "zipizape-minor-fight-or-argument",
+    "word": "zipizape",
+    "reason": "Ficha redundante y de baja dificultad: riña o discusión breve, sentido ya cubierto por la ficha general de zipizape."
+  },
+  {
+    "id": "zodiacal",
+    "word": "Zodiacal",
+    "reason": "Adjetivo relacional transparente de zodiaco, cuyo sentido se comprende por composición."
+  },
+  {
+    "id": "zofra",
+    "word": "Zofra",
+    "reason": "Definición no respaldada: el DLE recoge una alfombra morisca y una acepción regional que remite a sufra, no trabajo comunitario."
+  },
+  {
+    "id": "zoilo",
+    "word": "Zoilo",
+    "reason": "Nombre común formado por alusión directa al crítico griego Zoilo; excluido conforme al criterio editorial sobre derivados de nombres propios."
+  },
+  {
+    "id": "zombi",
+    "word": "Zombi",
+    "reason": "Sentido popular y familiar de ficción: persona reanimada por brujería; no alcanza la dificultad prevista."
+  },
+  {
+    "id": "zombi-dazed-person",
+    "word": "zombi",
+    "reason": "Uso figurado familiar y transparente: persona atontada que actúa como autómata."
+  },
+  {
+    "id": "zona-comunitaria",
+    "word": "Zona comunitaria",
+    "reason": "Expresión transparente para un espacio compartido; su sentido se deduce de sus componentes."
+  },
+  {
+    "id": "zona-de-cuarentena",
+    "word": "Zona de cuarentena",
+    "reason": "Expresión descriptiva y transparente para un lugar de aislamiento temporal."
+  },
+  {
+    "id": "zona-de-descanso",
+    "word": "Zona de descanso",
+    "reason": "Expresión cotidiana y transparente para un área donde detenerse a descansar."
+  },
+  {
+    "id": "zona-de-obras",
+    "word": "Zona de obras",
+    "reason": "Expresión descriptiva y transparente para el lugar donde se realizan obras."
+  },
+  {
+    "id": "zona-horaria",
+    "word": "Zona horaria",
+    "reason": "Expresión de uso general para una región que comparte la hora oficial."
+  },
+  {
+    "id": "zona-segura",
+    "word": "Zona segura",
+    "reason": "Expresión transparente para un lugar protegido de un peligro."
+  },
+  {
+    "id": "zonal",
+    "word": "Zonal",
+    "reason": "Adjetivo relacional transparente que significa perteneciente o relativo a una zona."
+  },
+  {
+    "id": "zonal-organizado-o-distribuido-por-zonas",
+    "word": "zonal",
+    "reason": "Glosa redundante y transparente: equivale al adjetivo zonal, organizado o distribuido por zonas."
+  },
+  {
+    "id": "zonificar",
+    "word": "Zonificar",
+    "reason": "Verbo composicional derivado de zona; significa dividir un terreno o espacio en zonas."
+  },
+  {
+    "id": "zonzo-foolish",
+    "word": "zonzo",
+    "reason": "Ficha redundante del sentido tonto/simple, ya recogido en la ficha general de zonzo."
+  },
+  {
+    "id": "zoologico",
+    "word": "Zoológico",
+    "reason": "Adjetivo relacional y transparente: perteneciente o relativo a la zoología."
+  },
+  {
+    "id": "zoquetada",
+    "word": "Zoquetada",
+    "reason": "Voz marcada como regional en numerosos países de América; además significa necedad o simpleza, un concepto de baja dificultad."
+  },
+  {
+    "id": "zoquetazo",
+    "word": "Zoquetazo",
+    "reason": "El DLE lo marca para Argentina, Bolivia y México y lo define como golpe o sopapo; la glosa de la ficha es imprecisa y el uso es regional."
+  },
+  {
+    "id": "zoroastrico",
+    "word": "Zoroástrico",
+    "reason": "Adjetivo derivado de un nombre propio y transparente para algo relativo al zoroastrismo; no aporta una acepción difícil independiente."
+  },
+  {
+    "id": "zorrera",
+    "word": "Zorrera",
+    "reason": "Nombre transparente y concreto para la cueva o madriguera de zorros."
+  },
+  {
+    "id": "zorreria",
+    "word": "Zorrería",
+    "reason": "Sentido animal transparente de astucia de la zorra; la ficha específica duplicada queda fuera también."
+  },
+  {
+    "id": "zorreria-fox-cunning",
+    "word": "zorrería",
+    "reason": "Duplicado exacto del sentido de astucia animal ya representado por la ficha general de zorrería."
+  },
+  {
+    "id": "zumacal",
+    "word": "Zumacal",
+    "reason": "El DLE marca la voz como poco usada; nombra un terreno plantado de zumaque y no acredita uso actual suficiente para el alcance del diccionario."
+  },
+  {
+    "id": "zumbado",
+    "word": "Zumbado",
+    "reason": "Adjetivo coloquial para loco, sentido familiar y de baja dificultad; en la ficha no se presenta un sentido independiente más especializado."
+  },
+  {
+    "id": "zumbar",
+    "word": "Zumbar",
+    "reason": "Ficha limitada al ruido continuo de una abeja u otra fuente; verbo onomatopéyico cotidiano para un sonido básico."
+  },
+  {
+    "id": "zumbar-dar-un-golpe",
+    "word": "zumbar",
+    "reason": "Acepción coloquial de golpear, acción básica y glosa de baja dificultad."
+  },
+  {
+    "id": "zumbon",
+    "word": "Zumbón",
+    "reason": "Adjetivo coloquial para una persona burlona o bromista; sentido familiar que no alcanza el umbral de dificultad."
+  },
+  {
+    "id": "zumoso",
+    "word": "Zumoso",
+    "reason": "Adjetivo transparente y común que significa que tiene zumo."
+  },
+  {
+    "id": "zuncho-metal-structural-reinforcement",
+    "word": "zuncho",
+    "reason": "Ficha redundante: el refuerzo metálico que rodea una estructura ya queda cubierto por zuncho como abrazadera resistente que sujeta o fortalece piezas."
+  },
+  {
+    "id": "zurcidura",
+    "word": "Zurcidura",
+    "reason": "Nombre de acción transparente y redundante de zurcir; la ficha no aporta un concepto difícil independiente."
+  },
+  {
+    "id": "zurdazo",
+    "word": "Zurdazo",
+    "reason": "Compuesto transparente de zurdo y -azo para un golpe con mano o pie izquierdos."
+  },
+  {
+    "id": "zurdear",
+    "word": "Zurdear",
+    "reason": "Uso expresamente regional en países de América y verbo transparente para hacer con la izquierda lo que se hace con la derecha."
+  },
+  {
+    "id": "zurdera",
+    "word": "Zurdera",
+    "reason": "Nombre transparente de la cualidad de ser zurdo, concepto familiar y de baja dificultad."
+  },
+  {
+    "id": "zurracapote",
+    "word": "Zurracapote",
+    "reason": "El DLE marca la voz como regional/dialectal y la limita a Álava, Albacete, La Rioja y Navarra."
+  },
+  {
+    "id": "zurraposo",
+    "word": "Zurraposo",
+    "reason": "Adjetivo composicional derivado de zurrapa: lleno de restos o sedimentos."
+  },
+  {
+    "id": "zurrar-beat",
+    "word": "Zurrar",
+    "reason": "Acepción duplicada de la ficha general zurrar: ambas definen golpear a alguien con fuerza o repetidamente."
   }
 ]

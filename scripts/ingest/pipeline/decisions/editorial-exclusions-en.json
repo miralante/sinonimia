@@ -149217,5 +149217,685 @@
     "id": "zygophylaceous",
     "word": "Zygophylaceous",
     "reason": "Adjetivo botánico muy especializado."
+  },
+  {
+    "id": "front-garden",
+    "word": "Front garden",
+    "reason": "Corrupt regional definition and unrelated synonym."
+  },
+  {
+    "id": "cooperatives",
+    "word": "Cooperatives",
+    "reason": "Plural inflection of “cooperative” with the same sense; the singular lemma already covers it."
+  },
+  {
+    "id": "reps",
+    "word": "reps",
+    "reason": "Informal plural of “rep” meaning representatives; this is a plural inflection, not an independent lemma."
+  },
+  {
+    "id": "ability",
+    "word": "ability",
+    "reason": "La ficha solo define la capacidad o habilidad para hacer algo, un concepto básico y muy frecuente que no alcanza la dificultad léxica requerida."
+  },
+  {
+    "id": "3d-printer",
+    "word": "3D printer",
+    "reason": "Expresión transparente compuesta por «3D» y «printer» para una máquina conocida que fabrica objetos por capas; no aporta dificultad léxica suficiente."
+  },
+  {
+    "id": "abbasid",
+    "word": "Abbasid",
+    "reason": "Nombre y adjetivo de pertenencia a la dinastía abasí; identifica una dinastía histórica concreta, criterio de nombres propios excluido."
+  },
+  {
+    "id": "abbreviated",
+    "word": "Abbreviated",
+    "reason": "Although Collins recognizes an adjectival use, this card gives the simple, transparent meaning “made shorter”; it does not meet the difficulty threshold."
+  },
+  {
+    "id": "abnormal",
+    "word": "abnormal",
+    "reason": "Adjetivo común con el sentido directo y transparente “different from what is usual or expected”; no alcanza el umbral de dificultad."
+  },
+  {
+    "id": "abracadabra",
+    "word": "abracadabra",
+    "reason": "La tarjeta contiene el uso familiar de palabra mágica o encantamiento; es una forma conocida y la definición es sencilla."
+  },
+  {
+    "id": "abrasive",
+    "word": "abrasive",
+    "reason": "La ficha recoge solo el adjetivo literal y transparente “áspero, capaz de desgastar por fricción”; no aporta un sentido especializado difícil."
+  },
+  {
+    "id": "abridger",
+    "word": "abridger",
+    "reason": "Nombre de agente transparente: persona que abridgea o acorta un texto; no aporta un concepto difícil independiente."
+  },
+  {
+    "id": "absorbable",
+    "word": "absorbable",
+    "reason": "Adjetivo formado de manera transparente con «absorb» y «-able»: que puede ser absorbido."
+  },
+  {
+    "id": "absorbent",
+    "word": "absorbent",
+    "reason": "La ficha describe la propiedad común y transparente de absorber líquidos; no recoge un significado difícil independiente."
+  },
+  {
+    "id": "abstention-2",
+    "word": "Abstention",
+    "reason": "La ficha es una paráfrasis imprecisa y redundante del sentido ya representado por la entrada principal de abstention."
+  },
+  {
+    "id": "abstract",
+    "word": "Abstract",
+    "reason": "La ficha solo incluye el sentido básico de idea no física, familiar y equivalente al cognado transparente «abstracto»."
+  },
+  {
+    "id": "absurdity",
+    "word": "absurdity",
+    "reason": "La ficha expresa la cualidad o el ejemplo de algo absurdo; significado común, transparente y derivado de «absurd»."
+  },
+  {
+    "id": "abused",
+    "word": "Abused",
+    "reason": "Forma de pasado y participio de abuse; la guía conserva el lema base, no esta forma flexionada."
+  },
+  {
+    "id": "academic",
+    "word": "Academic",
+    "reason": "La ficha recoge solo la relación general con estudios y educación, acepción corriente y transparente para el público bilingüe por su equivalente académico."
+  },
+  {
+    "id": "academics",
+    "word": "Academics",
+    "reason": "La tarjeta recoge el sentido cotidiano y sencillo de materias o estudios escolares/universitarios; no aporta un uso avanzado independiente."
+  },
+  {
+    "id": "acaloric",
+    "word": "Acaloric",
+    "reason": "La ficha presenta como lema inglés una formación no verificada por las fuentes lexicográficas consultadas; en terminología nutricional, las equivalencias inglesas documentadas son «no calorie» y «calorie-free»."
+  },
+  {
+    "id": "acatalect",
+    "word": "Acatalect",
+    "reason": "La forma exacta acatalect no queda validada; Collins documenta el término prosódico acatalectic. La tarjeta parece omitir el sufijo de la forma estándar y no es un lema independiente confirmado."
+  },
+  {
+    "id": "accelerate",
+    "word": "accelerate",
+    "reason": "Verbo común para aumentar la velocidad o hacer algo más rápido; sentido sencillo y de uso general."
+  },
+  {
+    "id": "acceleration",
+    "word": "Acceleration",
+    "reason": "La ficha ofrece una definición general y sencilla de aumento de velocidad, sin recoger el sentido físico preciso ni aportar dificultad suficiente."
+  },
+  {
+    "id": "accent",
+    "word": "accent",
+    "reason": "La tarjeta recoge el sentido muy común de modalidad de pronunciación asociada a región o grupo; no alcanza la dificultad prevista."
+  },
+  {
+    "id": "access",
+    "word": "Access",
+    "reason": "La ficha recoge el sentido básico y muy frecuente de poder entrar, alcanzar o usar algo."
+  },
+  {
+    "id": "accessibility",
+    "word": "Accessibility",
+    "reason": "Sustantivo transparente derivado de accessible; la ficha solo da la explicación sencilla «facilidad de llegar o usar»."
+  },
+  {
+    "id": "accessory",
+    "word": "Accessory",
+    "reason": "La ficha recoge solamente el sentido común de objeto adicional o decorativo; no incluye el sentido jurídico especializado de cómplice."
+  },
+  {
+    "id": "accident",
+    "word": "Accident",
+    "reason": "La ficha presenta el sentido cotidiano y sencillo de suceso imprevisto con daño o lesión."
+  },
+  {
+    "id": "acclimatable",
+    "word": "Acclimatable",
+    "reason": "Adjetivo regular y transparente formado sobre acclimatize + -able, con sentido previsible de «capaz de aclimatarse»; no presenta dificultad léxica independiente."
+  },
+  {
+    "id": "accommodated",
+    "word": "Accommodated",
+    "reason": "Participio pasado de accommodate usado en la ficha como «alojado»; forma flexionada redundante que la guía pide sustituir por el lema base."
+  },
+  {
+    "id": "according-to",
+    "word": "according to",
+    "reason": "Locución prepositiva muy frecuente con sentidos cotidianos previsibles («según», «conforme a»); la ficha explica una acepción básica que no requiere entrada propia."
+  },
+  {
+    "id": "accordion",
+    "word": "Accordion",
+    "reason": "Nombre de un instrumento musical concreto y familiar; la ficha solo ofrece una definición literal y sencilla, sin una acepción difícil independiente."
+  },
+  {
+    "id": "account-for",
+    "word": "account for",
+    "reason": "Verbo frasal frecuente con el sentido sencillo de explicar por qué ocurrió algo; la ficha no aporta un uso especializado o difícil que justifique una entrada propia."
+  },
+  {
+    "id": "accrued",
+    "word": "Accrued",
+    "reason": "Collins identifica accrued como pasado y participio de accrue; la ficha ofrece solo ese estado participial, sin una acepción adjetiva independiente."
+  },
+  {
+    "id": "accumulator",
+    "word": "accumulator",
+    "reason": "La ficha usa una glosa genérica de «persona o dispositivo que acumula o guarda», previsible por la formación regular de accumulate + -or y sin identificar un sentido técnico propio."
+  },
+  {
+    "id": "accuracy",
+    "word": "accuracy",
+    "reason": "Sustantivo cotidiano para la cualidad de ser correcto o exacto; la acepción general es básica y familiar."
+  },
+  {
+    "id": "accuse",
+    "word": "accuse",
+    "reason": "Verbo cotidiano y básico para decir que alguien hizo algo malo o ilegal; la definición de la ficha es sencilla y de comprensión inmediata."
+  },
+  {
+    "id": "acerbically",
+    "word": "Acerbically",
+    "reason": "Adverbio formado regularmente de acerbic + -ly; la ficha expresa el sentido previsible «de manera áspera o amarga», sin dificultad léxica independiente."
+  },
+  {
+    "id": "ache",
+    "word": "ache",
+    "reason": "Verbo cotidiano y básico para sentir un dolor persistente; la definición de la ficha es inmediata y no presenta una acepción especializada."
+  },
+  {
+    "id": "achiever",
+    "word": "Achiever",
+    "reason": "Nombre agente regular y transparente para una persona que logra el éxito mediante esfuerzo o habilidad; no aporta dificultad léxica propia."
+  },
+  {
+    "id": "achromatize",
+    "word": "achromatize",
+    "reason": "Verbo técnico formado de manera regular sobre achromatic, con el sentido previsible de quitar el color; no aporta una acepción independiente respecto a las fichas de optical color already covered."
+  },
+  {
+    "id": "notice",
+    "word": "Notice",
+    "reason": "Sustantivo básico y muy frecuente para un aviso o carta; la glosa no recoge una acepción técnica diferenciada que justifique la entrada."
+  },
+  {
+    "id": "certified-copy",
+    "word": "Certified copy",
+    "reason": "Expresión composicional y transparente (“copia certificada”); los componentes y el contexto explican el sentido sin requerir una entrada léxica independiente."
+  },
+  {
+    "id": "chronic",
+    "word": "chronic",
+    "reason": "La ficha recoge el adjetivo general «que dura mucho tiempo», especialmente de una enfermedad; es una palabra común y la acepción se entiende sin explicación propia."
+  },
+  {
+    "id": "benign",
+    "word": "benign",
+    "reason": "La ficha recoge el sentido común de «kind and gentle», no el sentido patológico de tumor; esta acepción cotidiana es sencilla y no cumple el criterio de dificultad."
+  },
+  {
+    "id": "deposit",
+    "word": "Deposit",
+    "reason": "La ficha recoge el sentido familiar de dinero que se entrega al alquilar algo y se devuelve si no hay daños; acepción común, sencilla y concreta."
+  },
+  {
+    "id": "payslip",
+    "word": "Payslip",
+    "reason": "Compuesto común y transparente para el documento que muestra salario y deducciones; no requiere una entrada independiente para la audiencia prevista."
+  },
+  {
+    "id": "sick-leave",
+    "word": "Sick leave",
+    "reason": "Expresión común y composicional para el permiso de ausencia por enfermedad; sus componentes explican el sentido con facilidad."
+  },
+  {
+    "id": "job-interview",
+    "word": "Job interview",
+    "reason": "Expresión transparente y cotidiana para una entrevista de empleo; la definición no añade dificultad léxica."
+  },
+  {
+    "id": "unemployment-benefit",
+    "word": "Unemployment benefit",
+    "reason": "Expresión composicional y directa para una prestación de desempleo; los componentes explican el concepto y la ficha no delimita un sentido legal difícil independiente."
+  },
+  {
+    "id": "social-alarm",
+    "word": "Social alarm",
+    "reason": "No se encuentra una entrada verificable de Collins para esta combinación ni evidencia suficiente de que la ficha sea una unidad léxica estable; no cumple el requisito de verificación editorial."
+  },
+  {
+    "id": "antibiotic",
+    "word": "Antibiotic",
+    "reason": "Nombre muy común de una clase de medicamentos y cognado transparente de «antibiótico»; el sentido de la ficha se comprende sin explicación adicional."
+  },
+  {
+    "id": "painkiller",
+    "word": "Painkiller",
+    "reason": "Compuesto frecuente y transparente de pain + killer para un medicamento que alivia el dolor; no presenta dificultad léxica suficiente."
+  },
+  {
+    "id": "epileptic",
+    "word": "Epileptic",
+    "reason": "La ficha usa el adjetivo derivado de epilepsy con el sentido directo de «relativo a la epilepsia»; formación y significado transparentes, sin acepción difícil propia."
+  },
+  {
+    "id": "injection",
+    "word": "Injection",
+    "reason": "La ficha recoge el sentido médico común de introducir un líquido en el cuerpo con una aguja o dispositivo; es una acción familiar y el nombre es transparente para la audiencia."
+  },
+  {
+    "id": "x-ray",
+    "word": "X-ray",
+    "reason": "Prueba e imagen médica muy comunes; la ficha describe el sentido básico y fácilmente reconocible, sin dificultad léxica adicional."
+  },
+  {
+    "id": "divorce",
+    "word": "Divorce",
+    "reason": "Palabra muy común para el fin legal de un matrimonio; el sentido de la ficha es inmediato y no alcanza la dificultad prevista."
+  },
+  {
+    "id": "landlord",
+    "word": "Landlord",
+    "reason": "Palabra frecuente y familiar para el propietario que alquila una vivienda; la ficha describe una relación cotidiana con una glosa directa."
+  },
+  {
+    "id": "transfer-tax",
+    "word": "Transfer tax",
+    "reason": "Locución composicional: impuesto aplicado a la transferencia de una propiedad; su sentido se deduce de sus componentes y coincide con una noción tributaria básica."
+  },
+  {
+    "id": "appointment-request",
+    "word": "Appointment",
+    "reason": "La ficha recoge el sentido cotidiano de cita o reunión acordada, una palabra muy frecuente y de comprensión inmediata."
+  },
+  {
+    "id": "credit-money",
+    "word": "Credit",
+    "reason": "La acepción financiera es común y transparente para la audiencia por su cognado «crédito»; la glosa describe el uso cotidiano de comprar ahora y pagar después."
+  },
+  {
+    "id": "money-transfer",
+    "word": "Transfer",
+    "reason": "Expresión composicional para la acción básica de mover dinero entre cuentas; los componentes explican el sentido."
+  },
+  {
+    "id": "savings-account",
+    "word": "Savings account",
+    "reason": "Tipo de cuenta frecuente y transparente: cuenta para guardar ahorros; la glosa resulta inmediatamente comprensible."
+  },
+  {
+    "id": "application-form",
+    "word": "Application form",
+    "reason": "Expresión cotidiana y transparente para un formulario de solicitud; el significado se deduce de sus componentes."
+  },
+  {
+    "id": "counter-window",
+    "word": "Service counter",
+    "reason": "La frase service counter es composicional y fácil; además, no se encontró una entrada exacta independiente en Collins."
+  },
+  {
+    "id": "registered-letter",
+    "word": "Registered letter",
+    "reason": "Expresión transparente para una carta enviada por un servicio postal registrado; el adjetivo y el sustantivo permiten deducir el sentido."
+  },
+  {
+    "id": "proof-of-receipt",
+    "word": "Proof of receipt",
+    "reason": "Frase composicional para una prueba de recepción; los componentes explican el sentido sin conocimiento léxico especializado."
+  },
+  {
+    "id": "proof-of-address",
+    "word": "Proof of address",
+    "reason": "Frase administrativa transparente: una factura o carta que demuestra dónde vive una persona."
+  },
+  {
+    "id": "archive-store",
+    "word": "Archive",
+    "reason": "La ficha recoge el sentido general de archivo o lugar donde se guardan documentos; es un cognado transparente de «archivo» y una acepción común."
+  },
+  {
+    "id": "salary-pay",
+    "word": "Salary",
+    "reason": "Palabra frecuente para la remuneración regular de un empleo; es vocabulario laboral básico y aparece explicada mediante una paráfrasis inmediata."
+  },
+  {
+    "id": "job-role",
+    "word": "Job role",
+    "reason": "Combinación transparente de dos palabras comunes para la posición y las tareas de alguien en el trabajo."
+  },
+  {
+    "id": "round3327-acclimatize-intransitive",
+    "word": "acclimatize",
+    "reason": "Collins marca la voz como formal, pero el sentido de adaptarse a un clima o entorno es directamente transparente para la audiencia hispanohablante por el cognado «aclimatizar»."
+  },
+  {
+    "id": "acidity",
+    "word": "acidity",
+    "reason": "Acepción general de acidez o cantidad de ácido, transparente por el cognado español «acidez»."
+  },
+  {
+    "id": "acknowledgment",
+    "word": "Acknowledgment",
+    "reason": "Nombre común de reconocer o admitir algo, derivado previsible del verbo básico acknowledge."
+  },
+  {
+    "id": "acne",
+    "word": "Acne",
+    "reason": "Término médico muy común y transparente por el cognado español «acné»; no aporta valor diferencial para este diccionario."
+  },
+  {
+    "id": "acoustic",
+    "word": "acoustic",
+    "reason": "Adjetivo frecuente y transparente para el público hispanohablante por el cognado «acústico»; la definición solo da el sentido común relativo al sonido."
+  },
+  {
+    "id": "acquirable",
+    "word": "acquirable",
+    "reason": "Derivado previsible de acquire + -able para algo que se puede obtener o comprar; significado transparente y redundante."
+  },
+  {
+    "id": "acquisition",
+    "word": "acquisition",
+    "reason": "Sentido general de obtener o aprender algo, equivalente transparente al cognado español «adquisición»."
+  },
+  {
+    "id": "acridness",
+    "word": "acridness",
+    "reason": "Sustantivo derivado de «acrid» con el sufijo transparente -ness; expresa la cualidad ya descrita por el adjetivo y no añade un lema difícil independiente."
+  },
+  {
+    "id": "acrobatic",
+    "word": "acrobatic",
+    "reason": "Adjetivo común y transparente por su cognado español «acrobático»; la acepción literal solo indica relación con la acrobacia."
+  },
+  {
+    "id": "act-boldly",
+    "word": "act boldly",
+    "reason": "Frase verbal libre formada por el verbo común «act» y el adverbio transparente «boldly»; no es un lema independiente ni una expresión difícil."
+  },
+  {
+    "id": "act-lazily",
+    "word": "act lazily",
+    "reason": "Frase verbal libre formada por el verbo común «act» y el adverbio transparente «lazily»; no es un lema independiente ni una expresión difícil."
+  },
+  {
+    "id": "actinomyces",
+    "word": "Actinomyces",
+    "reason": "Nombre científico de un género bacteriano, es decir, un nombre taxonómico propio; la guía excluye nombres propios aunque Collins documente el término."
+  },
+  {
+    "id": "action-protocol",
+    "word": "Action protocol",
+    "reason": "Expresión descriptiva («protocolo de actuación») sin lema exacto verificable en Collins; su definición es una instrucción general y transparente."
+  },
+  {
+    "id": "actionable-2",
+    "word": "Actionable",
+    "reason": "Acepción general de «listo para ponerse en práctica», transparente por action + -able y de uso corriente; se conserva por separado la acepción jurídica difícil."
+  },
+  {
+    "id": "activator",
+    "word": "activator",
+    "reason": "Sentido general derivado y transparente: persona o cosa que activa algo; no aporta una acepción difícil independiente."
+  },
+  {
+    "id": "activism",
+    "word": "activism",
+    "reason": "Concepto político-social frecuente y transparente por el cognado «activismo»; la definición solo describe la participación para promover cambios."
+  },
+  {
+    "id": "acute",
+    "word": "Acute",
+    "reason": "En la ficha, «muy severo o intenso» expresa un uso común y transparente de «acute», frecuente para dolor, problemas o situaciones; no es una acepción difícil independiente."
+  },
+  {
+    "id": "ad-blocker",
+    "word": "Ad blocker",
+    "reason": "Compuesto tecnológico familiar y transparente («ad» + «blocker»); la ficha describe una herramienta común y no añade vocabulario difícil independiente. Collins no ofrece una entrada exacta verificable para esta forma."
+  },
+  {
+    "id": "round3346-adamite-human",
+    "word": "Adamite",
+    "reason": "El sentido equivale a «human being» o «descendant of Adam»; es una denominación derivada del nombre propio Adam y no aporta una acepción difícil independiente."
+  },
+  {
+    "id": "adapter",
+    "word": "adapter",
+    "reason": "Sentido común y transparente para el dispositivo que conecta piezas o equipos; no alcanza la dificultad editorial del diccionario."
+  },
+  {
+    "id": "adaptive",
+    "word": "adaptive",
+    "reason": "Adjetivo corriente y transparente derivado de «adapt»; significa que puede cambiar para ajustarse a otras condiciones."
+  },
+  {
+    "id": "addict",
+    "word": "addict",
+    "reason": "El sentido de persona dependiente de drogas es una palabra común y familiar; la ficha no necesita explicación léxica adicional para la persona destinataria."
+  },
+  {
+    "id": "adherent",
+    "word": "Adherent",
+    "reason": "La ficha recoge solo el adjetivo transparente «que se pega»; su sentido equivale a pegajoso o adherido."
+  },
+  {
+    "id": "adhesive",
+    "word": "adhesive",
+    "reason": "Acepción adjetiva fácil y transparente: capaz de pegar o hacer que algo se pegue; equivale a sticky."
+  },
+  {
+    "id": "round3351-adiaphora-textual",
+    "word": "adiaphora",
+    "reason": "El sentido de variante textual que no cambia el significado no queda respaldado por Collins, que solo documenta «matters of indifference»; se excluye esta acepción no verificable en la fuente editorial requerida."
+  },
+  {
+    "id": "adjustment",
+    "word": "Adjustment",
+    "reason": "La ficha presenta el sentido general de cambio para mejorar posición o funcionamiento; acepción cotidiana y previsible que no alcanza el umbral de dificultad."
+  },
+  {
+    "id": "round3354-administer-help",
+    "word": "administer",
+    "reason": "La ficha solo expresa dar ayuda o cuidado; la acción básica es fácil y la acepción no añade un sentido técnico preciso."
+  },
+  {
+    "id": "administrator",
+    "word": "administrator",
+    "reason": "Sustantivo común y transparente para la persona que gestiona y supervisa una organización; equivale a gerente o responsable."
+  },
+  {
+    "id": "adonis",
+    "word": "Adonis",
+    "reason": "La ficha designa al personaje de la mitología griega; es un nombre propio, excluido por el criterio editorial."
+  },
+  {
+    "id": "adoptee",
+    "word": "Adoptee",
+    "reason": "Persona que ha sido adoptada; concepto familiar y sencillo, con un derivado transparente de «adopt»."
+  },
+  {
+    "id": "adopter",
+    "word": "Adopter",
+    "reason": "Persona o grupo que adopta legalmente a un niño; sentido familiar y fácil."
+  },
+  {
+    "id": "adorer",
+    "word": "adorer",
+    "reason": "Derivado transparente de «adore» para la persona que adora o admira; sentido común y previsible."
+  },
+  {
+    "id": "adscribable",
+    "word": "Adscribable",
+    "reason": "Forma derivada transparente («que puede atribuirse o vincularse»); no se pudo verificar como lema independiente en Collins."
+  },
+  {
+    "id": "adulterer",
+    "word": "adulterer",
+    "reason": "La definición describe de forma directa una situación familiar o sexual común y es fácil de comprender."
+  },
+  {
+    "id": "adulterous",
+    "word": "adulterous",
+    "reason": "Adjetivo cuyo sentido («relativo al adulterio») es transparente a partir del sustantivo común «adultery»."
+  },
+  {
+    "id": "adultery",
+    "word": "adultery",
+    "reason": "La ficha expresa un concepto común mediante una definición sencilla; no alcanza el criterio de dificultad."
+  },
+  {
+    "id": "advance-notice",
+    "word": "Advance notice",
+    "reason": "Expresión transparente: aviso o información previa a un evento; concepto común y fácil."
+  },
+  {
+    "id": "advent-2",
+    "word": "Advent",
+    "reason": "Nombre propio capitalizado de una temporada litúrgica cristiana; excluido por el criterio sobre nombres propios."
+  },
+  {
+    "id": "advisory",
+    "word": "Advisory",
+    "reason": "Adjetivo transparente para algo que da consejo o recomendaciones; sentido fácil de deducir desde «advise»."
+  },
+  {
+    "id": "aeronautical",
+    "word": "aeronautical",
+    "reason": "Adjetivo transparente derivado de aeronautics, con el sentido general de relacionado con aeronaves o su diseño; el contenido no aporta una acepción lexicalizada adicional."
+  },
+  {
+    "id": "aesopian",
+    "word": "Aesopian",
+    "reason": "Adjetivo derivado del nombre propio Aesop; la ficha solo incluye el sentido transparente «de Esopo o de sus fábulas»."
+  },
+  {
+    "id": "affair",
+    "word": "affair",
+    "reason": "Sustantivo de uso común para un asunto, suceso o situación; definición básica y de alta frecuencia."
+  },
+  {
+    "id": "affective",
+    "word": "affective",
+    "reason": "Adjetivo transparente derivado de affect, definido en general como relacionado con sentimientos o emociones; no aporta matiz independiente en esta ficha."
+  },
+  {
+    "id": "round3370-affix-thing",
+    "word": "affix",
+    "reason": "La ficha ofrece solo el sentido general y fácil de «algo fijado a otra cosa», sin el valor especializado de lingüística que justifica conservar affix como sustantivo."
+  },
+  {
+    "id": "afflict-3",
+    "word": "afflict",
+    "reason": "La ficha física repite el sentido general conservado en afflict, que ya incluye dolor y enfermedad; no constituye una acepción independiente suficiente."
+  },
+  {
+    "id": "round3371-affluent-noun",
+    "word": "the affluent",
+    "reason": "Plural nominal regular del adjetivo affluent («las personas ricas»); forma transparente y redundante, sin sentido léxico independiente en esta ficha."
+  },
+  {
+    "id": "round3372-afrikaner-adj",
+    "word": "Afrikaner",
+    "reason": "Adjetivo gentilicio/étnico referido a las personas blancas de Sudáfrica descendientes de colonos neerlandeses; excluido por criterio editorial."
+  },
+  {
+    "id": "round3372-afro-adj",
+    "word": "Afro",
+    "reason": "Adjetivo general para algo asociado con África o con personas africanas; sentido amplio, básico y poco difícil para el nivel de esta ficha."
+  },
+  {
+    "id": "round3376-agency-government",
+    "word": "agency",
+    "reason": "Nombre genérico y transparente para una organización gubernamental responsable de un área de trabajo; sentido básico para la ficha."
+  },
+  {
+    "id": "round3378-agitation-motion",
+    "word": "agitation",
+    "reason": "Nombre de la acción de sacudir o remover; significado literal y fácilmente deducible del verbo agitate."
+  },
+  {
+    "id": "round3381-agreeable-willing",
+    "word": "agreeable",
+    "reason": "Uso sencillo equivalente a estar dispuesto a aceptar o decir que sí; es fácil de entender y no aporta la dificultad necesaria para esta ficha."
+  },
+  {
+    "id": "round3386-alarm-fear",
+    "word": "alarm",
+    "reason": "Sustantivo común para una sensación de miedo o ansiedad ante un peligro posible; sentido básico y fácil para esta ficha."
+  },
+  {
+    "id": "round3394-algonquian-language-family",
+    "word": "Algonquian",
+    "reason": "Nombre propio de una familia de pueblos y lenguas indígenas de Norteamérica; excluido por el criterio de nombres propios y etnónimos."
+  },
+  {
+    "id": "round3395-alibi-excuse",
+    "word": "alibi",
+    "reason": "Uso coloquial como excusa para explicar una acción o evitar culpa; sentido sencillo y cercano al significado común de excuse."
+  },
+  {
+    "id": "round3399-allegorize-interpret",
+    "word": "allegorize",
+    "reason": "Verbo de significado transparente: interpretar algo alegóricamente; derivación regular de allegory que no añade una dificultad léxica suficiente."
+  },
+  {
+    "id": "round3399-allergic-figurative",
+    "word": "allergic",
+    "reason": "Uso informal y transparente para expresar aversión intensa a algo o alguien; extensión figurada común de allergic."
+  },
+  {
+    "id": "round3401-allocation-process",
+    "word": "allocation",
+    "reason": "Nombre común para asignar o repartir recursos o cantidades; derivación transparente de allocate y sentido general sencillo."
+  },
+  {
+    "id": "job-offer",
+    "word": "Job offer",
+    "reason": "Oferta de empleo; combinación transparente y corriente, cuyo sentido se deduce de sus componentes."
+  },
+  {
+    "id": "cover-letter",
+    "word": "Cover letter",
+    "reason": "Carta que acompaña una solicitud o documentación y la explica; colocación profesional común de significado transparente."
+  },
+  {
+    "id": "consent-written",
+    "word": "Written consent",
+    "reason": "Expresión transparente que significa consentimiento dado por escrito; la combinación y su sentido son previsibles."
+  },
+  {
+    "id": "court-appearance",
+    "word": "Court appearance",
+    "reason": "Comparecencia de una persona ante un tribunal; combinación literal y comprensible de dos voces comunes."
+  },
+  {
+    "id": "skin-allergy",
+    "word": "Skin allergy",
+    "reason": "Expresión composicional para una reacción alérgica de la piel; el significado se obtiene fácilmente de las palabras que la forman."
+  },
+  {
+    "id": "high-blood-pressure",
+    "word": "High blood pressure",
+    "reason": "Transparent everyday phrase for pressure in the arteries that is too high; its meaning is directly predictable."
+  },
+  {
+    "id": "anxiety-en",
+    "word": "Anxiety",
+    "reason": "This entry uses the everyday sense of feeling nervous or worried, a common and easily understood emotion."
+  },
+  {
+    "id": "chronic-illness",
+    "word": "Chronic illness",
+    "reason": "A transparent combination meaning a long-term illness; its sense is easy to infer from the two common words."
   }
 ]

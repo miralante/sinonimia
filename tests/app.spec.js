@@ -98,6 +98,39 @@ async function waitForAnswerDone(page) {
   try { await page.waitForTimeout(SETTLE_MS); } catch { /* page gone */ }
 }
 
+/** Opens the detail view of the first word in the list that HAS a translation.
+    The link to the other language only exists for the entries that carry one
+    (`translations` in js/app.js), and not every word does — the dictionary has
+    33 000+ words and only some of them are linked to the other language. The
+    test walks the list until it finds one, asking for more pages when the
+    first one runs out, instead of assuming the first word has a translation. */
+async function openWordWithTranslation(page, maxCards = 180) {
+  let seen = 0;
+  while (seen < maxCards) {
+    const cards = page.locator('#word-list .card a');
+    const total = await cards.count();
+    if (total === 0) break;
+    for (let i = 0; i < total; i += 1) {
+      if (seen >= maxCards) break;
+      seen += 1;
+      await cards.nth(i).click();
+      await expect(page.locator('#detail-view')).toBeVisible({ timeout: NAV_TIMEOUT });
+      const link = page.locator('.detail-translation').first();
+      if (await link.count() > 0) return link;
+      // No translation on this word: back to the list and try the next one.
+      await page.locator('#detail-view .backToSearch').click();
+      await expect(page.locator('#word-list')).toBeVisible({ timeout: NAV_TIMEOUT });
+      await waitForCards(page);
+    }
+    // The list is paginated: ask for the next page and keep walking.
+    const more = page.locator('#show-more');
+    if (await more.count() === 0 || await more.isHidden()) break;
+    await more.click();
+    await waitForCards(page);
+  }
+  throw new Error(`No word with a translation in the first ${seen} cards`);
+}
+
 // ===========================================================================
 // LIST VIEW: HOME
 // ===========================================================================
@@ -262,13 +295,19 @@ test('3b — searching during initial list rendering cancels stale cards', async
     el.dispatchEvent(new Event('input', { bubbles: true }));
   });
 
-  await expect(page.locator('#results-info')).toHaveText(/2 palabras encontradas\./, {
+  /* The number of matches is read from the app instead of being hardcoded:
+     the dictionary grows and shrinks with every content pass, and a stale
+     constant here turned the test red for a change that had nothing to do
+     with the search. */
+  await expect(page.locator('#results-info')).toHaveText(/\d+ palabras? encontrada\./, {
     timeout: 30000,
   });
+  const matches = Number((await readResultsInfo(page)).replace(/\D/g, ''));
+  expect(matches).toBeGreaterThan(0);
   // Let any render that was incorrectly left in flight try to append more
-  // cards. The result must remain the two matching entries.
+  // cards. The result must remain the matching entries.
   await page.waitForTimeout(250);
-  await expect(page.locator('#word-list .card')).toHaveCount(2);
+  await expect(page.locator('#word-list .card')).toHaveCount(matches);
 
   await page.close();
   await _lastCtx.close();
@@ -789,21 +828,25 @@ test('17g — the reading settings survive a reload', async ({ browser }) => {
     document.documentElement.getAttribute('data-a11y-text'))).toBe('large');
 });
 
-test('17h — the 404 page uses the same settings drawer and repaints in place', async ({ browser }) => {
+test('17h — a 404 lands on the app in the reader\'s language, with the same drawer', async ({ browser }) => {
   const context = await browser.newContext();
   _lastCtx = context;
   const page = await context.newPage();
   await page.goto(BASE + '404.html');
   await expect(page.locator('body')).toBeVisible();
 
+  /* Sinonimia is a hash-router app, so 404.html does not show a page of its
+     own: js/404-redirect.js sends the reader to index.html with the hash of
+     their language. The 404 page's own text never reaches anyone. What has
+     to work is that the reader lands on the app, in their language, and that
+     the shared drawer is there to change it. */
+  await page.waitForURL(/#\/es\//, { timeout: NAV_TIMEOUT });
+  await expect(page.locator('#word-list')).toBeVisible({ timeout: NAV_TIMEOUT });
+
   // Same single gear as the app, and no leftover per-page controls.
   await expect(page.locator('.locale-settings-trigger')).toHaveCount(1);
   await expect(page.locator('#contraste-toggle')).toHaveCount(0);
   await expect(page.locator('#letra-mas')).toHaveCount(0);
-
-  // The Playwright context runs es-ES, so the page starts in Spanish.
-  await expect(page.locator('.error-404-encabezado'))
-    .toHaveText('No hemos encontrado esa página');
 
   // The language dropdown is the drawer's first row, so the gear has to be
   // opened to change the language.
@@ -811,18 +854,18 @@ test('17h — the 404 page uses the same settings drawer and repaints in place',
   await languageDrawer.locator('.locale-picker-btn').click();
   await languageDrawer.locator('.locale-picker-panel li[data-locale="en"]').click();
 
-  // The 404 has no hash to route, so the page repaints where it is
-  // instead of jumping into the app.
-  await expect(page.locator('.error-404-encabezado'))
-    .toHaveText('We couldn\'t find that page');
-  expect(await page.evaluate(() => location.hash)).toBe('');
-  expect(await page.evaluate(() => document.documentElement.lang)).toBe('en');
-  await expect(page.locator('#error-404-inicio'))
-    .toHaveAttribute('href', '#/en/');
+  // The app repaints in place instead of reloading: the hash changes and the
+  // route repaints, the page stays where it is.
+  await page.waitForURL(/#\/en\//, { timeout: NAV_TIMEOUT });
+  /* The English dictionary arrives asynchronously: the route loads its index
+     and repaints when it does, so the document's language changes then and
+     not when the hash changes. */
+  await expect(page.locator('html')).toHaveAttribute('lang', 'en', { timeout: NAV_TIMEOUT });
+  await expect(page.locator('#word-list')).toBeVisible();
 
-  // And the reading settings work here too, from the same key. The 404
-  // repaints in place instead of reloading, so the drawer is still open
-  // from the language switch; openSettingsDrawer() leaves it alone.
+  // And the reading settings work here too, from the same key. The app
+  // repaints in place instead of reloading, so the drawer is still open from
+  // the language switch; openSettingsDrawer() leaves it alone.
   const drawer = await openSettingsDrawer(page);
   await drawer.locator('[data-settings-contrast]').check();
   expect(await page.evaluate(() =>
@@ -964,20 +1007,15 @@ test('26 — play: juego menu is reachable and shows game options', async ({ bro
   await page.goto(BASE + '#/es/juego');
   await expect(page.locator('#game-view')).toBeVisible({ timeout: NAV_TIMEOUT });
   await expect(page.locator('.juego-menu')).toBeVisible();
-  // Both game types should be offered.
-  await expect(page.locator('.juego-menu-option')).toHaveCount(2);
+  // The three games should be offered: words, sentences and matching.
+  await expect(page.locator('.juego-menu-option')).toHaveCount(3);
 });
 
 test('27 — cross-language: detail view shows translation link', async ({ browser }) => {
   const page = await openAppAtListView(browser);
   await waitForCards(page);
 
-  const firstCard = page.locator('#word-list .card a').first();
-  await firstCard.click();
-  await page.waitForTimeout(SETTLE_MS);
-  await expect(page.locator('#detail-view')).toBeVisible({ timeout: NAV_TIMEOUT });
-
-  const translationLink = page.locator('.detail-translation').first();
+  const translationLink = await openWordWithTranslation(page);
   await expect(translationLink).toBeVisible({ timeout: 3000 });
   const linkText = await translationLink.textContent();
   expect(linkText).toMatch(/Ver en (inglés|español)/i);
@@ -987,12 +1025,7 @@ test('28 — cross-language: clicking translation link navigates to word in othe
   const page = await openAppAtListView(browser);
   await waitForCards(page);
 
-  const firstCard = page.locator('#word-list .card a').first();
-  await firstCard.click();
-  await page.waitForTimeout(SETTLE_MS);
-  await expect(page.locator('#detail-view')).toBeVisible({ timeout: NAV_TIMEOUT });
-
-  const translationLink = page.locator('.detail-translation').first();
+  const translationLink = await openWordWithTranslation(page);
   await expect(translationLink).toBeVisible({ timeout: 3000 });
 
   // Verify the link points to a different language.
@@ -1022,8 +1055,8 @@ test('29 — opening a word unlocks an achievement shown on "About the app"', as
   // Footer: "Sobre la app" sits right before "Configuración".
   const footerLinks = await page.locator('footer.pie .pie-enlaces > a').evaluateAll(
     links => links.map(a => a.getAttribute('href')));
-  expect(footerLinks.indexOf('about-app/')).toBeGreaterThanOrEqual(0);
-  expect(footerLinks.indexOf('about-app/')).toBe(footerLinks.indexOf('config/') - 1);
+  expect(footerLinks.indexOf('about/')).toBeGreaterThanOrEqual(0);
+  expect(footerLinks.indexOf('about/')).toBe(footerLinks.indexOf('config/') - 1);
 
   await page.locator('#word-list .card a').first().click();
   await expect(page.locator('#detail-view')).toBeVisible({ timeout: NAV_TIMEOUT });
