@@ -514,7 +514,8 @@ async function exerciseAppearanceSettings(browser, baseUrl) {
        no documentElement at all. The predicate has to answer "not yet"
        instead of throwing, otherwise the TypeError ends the wait instead
        of polling through the navigation. */
-    /* El documento tiene que pasar a inglés al elegirlo en el cajón. */
+    /* El documento tiene que pasar a inglés al elegirlo en el cajón.
+       Las 6 apps van por el mismo camino: sin excepciones por app. */
     await page.waitForFunction(() =>
       !!(document.documentElement && document.documentElement.lang.slice(0, 2) === 'en'),
     null, { timeout: NAV_TIMEOUT });
@@ -2115,9 +2116,14 @@ async function exerciseRoutimeRound(page, menuPicks, slug) {
     await page.waitForTimeout(SETTLE_MS);
   }
   /* Closing screens: the common end screen, the closing rule of a chat, or the
-     celebration title of the pages that finish inside #app. */
+     celebration title of the pages that finish inside #app.
+     The shared celebration (suite:celebrate) also counts: when it is shown,
+     `<main>` carries .is-celebrating and the app's own end screen is hidden
+     (`main.is-celebrating > :not(.celebration) { display: none }`), so the
+     round ends in the celebration layer and nowhere else. */
   const END = [
     '#endScreen:not(.hidden)', '#reglaFinal:not(.hidden)', '.titulo-celebracion', '.celebration-title',
+    '#app-celebration:not(.hidden)', '.celebration:not(.hidden)',
   ].join(', ');
   const endVisible = () => page.locator(END).first().isVisible().catch(() => false);
   /* Every third activation goes through the keyboard, so the round is played both
