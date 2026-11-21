@@ -124855,7 +124855,7 @@
         },
         "resuave": {
           "set": {
-            "definition": "Muy suave; expresión coloquial para dar más intensidad.",
+            "definition": "Muy suave.",
             "synonyms": [
               "muy suave"
             ],
@@ -147915,6 +147915,219 @@
             "exampleSynonym": {
               "word": "canuto",
               "text": "El cazador lanzó un dardo con el canuto."
+            }
+          },
+          "unset": []
+        },
+        "albogue": {
+          "set": {
+            "definition": "Flauta usada por pastores. También, dos platillos pequeños que acompañan canciones.",
+            "synonyms": [
+              "flauta de pastor",
+              "platillos pequeños"
+            ],
+            "example": {
+              "word": "albogue",
+              "text": "El músico tocó el albogue durante la danza popular."
+            },
+            "exampleSynonym": {
+              "word": "flauta de pastor",
+              "text": "El músico tocó la flauta de pastor durante la danza popular."
+            }
+          },
+          "unset": []
+        },
+        "marjoleto": {
+          "set": {
+            "definition": "Árbol espinoso de Sierra Nevada. También se llama majuelo.",
+            "synonyms": [
+              "majoleto",
+              "majuelo"
+            ],
+            "example": {
+              "word": "marjoleto",
+              "text": "El marjoleto crecía entre otros arbustos de Sierra Nevada."
+            },
+            "exampleSynonym": {
+              "word": "majuelo",
+              "text": "El majuelo crecía entre otros arbustos de Sierra Nevada."
+            }
+          },
+          "unset": []
+        },
+        "oliva": {
+          "set": {
+            "definition": "Fruto del olivo que se come y del que se extrae aceite.",
+            "example": {
+              "word": "oliva",
+              "text": "Las olivas se aliñaron antes de servirlas."
+            },
+            "exampleSynonym": {
+              "word": "aceituna",
+              "text": "Las aceitunas se aliñaron antes de servirlas."
+            }
+          },
+          "unset": []
+        },
+        "rosmaro": {
+          "set": {
+            "definition": "Mamífero marino del Ártico con dos colmillos largos.",
+            "example": {
+              "word": "rosmaro",
+              "text": "El rosmaro descansaba sobre el hielo."
+            },
+            "exampleSynonym": {
+              "word": "morsa",
+              "text": "La morsa descansaba sobre el hielo."
+            }
+          },
+          "unset": []
+        },
+        "apero": {
+          "set": {
+            "definition": "Conjunto de herramientas para trabajar la tierra o un oficio. También, animales usados para las tareas del campo.",
+            "synonyms": [
+              "herramientas de labranza",
+              "utensilios agrícolas",
+              "herramientas de un oficio",
+              "animales de trabajo"
+            ]
+          },
+          "unset": []
+        },
+        "cojinete": {
+          "set": {
+            "definition": "Pieza donde se apoya un eje para que gire. También sujeta raíles o cilindros.",
+            "synonyms": [
+              "rodamiento",
+              "pieza de apoyo para un eje",
+              "sujeción de carril"
+            ],
+            "example": {
+              "word": "cojinete",
+              "text": "El mecánico cambió el cojinete para que el eje girara bien."
+            },
+            "exampleSynonym": {
+              "word": "rodamiento",
+              "text": "El mecánico cambió el rodamiento para que el eje girara bien."
+            }
+          },
+          "unset": []
+        },
+        "cordoncillo": {
+          "set": {
+            "definition": "Rayas estrechas en relieve que forman algunas telas. También, bordado lineal o relieve en el borde de una moneda.",
+            "synonyms": [
+              "bordado lineal",
+              "relieve en el borde de una moneda"
+            ],
+            "example": {
+              "word": "cordoncillo",
+              "text": "El traje llevaba cordoncillo en las mangas."
+            },
+            "exampleSynonym": {
+              "word": "bordado lineal",
+              "text": "El traje llevaba un bordado lineal en las mangas."
+            }
+          },
+          "unset": []
+        },
+        "tocar-la-pampana": {
+          "set": {
+            "example": {
+              "word": "Tocar la pámpana",
+              "text": "El ladrón temía que fueran a tocar la pámpana."
+            },
+            "exampleSynonym": {
+              "word": "una paliza",
+              "text": "El ladrón temía que fueran a darle una paliza."
+            }
+          },
+          "unset": []
+        },
+        "vasectomia": {
+          "set": {
+            "definition": "Operación permanente que corta los tubos por donde pasan los espermatozoides. Un análisis de semen confirma que ya funciona.",
+            "synonyms": [
+              "operación para evitar embarazos"
+            ],
+            "example": {
+              "word": "vasectomía",
+              "text": "Después de la vasectomía, siguió usando otro método hasta que un análisis de semen confirmó que funcionaba."
+            },
+            "exampleSynonym": {
+              "word": "operación para evitar embarazos",
+              "text": "Después de la operación para evitar embarazos, siguió usando otro método hasta que un análisis de semen confirmó que funcionaba."
+            }
+          },
+          "unset": []
+        },
+        "anestesiologo": {
+          "set": {
+            "definition": "Médico que da medicinas para que una operación no duela. También vigila a la persona mientras la operan.",
+            "synonyms": [
+              "médico que evita el dolor durante una operación"
+            ],
+            "example": {
+              "word": "anestesiólogo",
+              "text": "El anestesiólogo preguntó a Marta sobre su salud antes de operarla."
+            },
+            "exampleSynonym": {
+              "word": "médico que evita el dolor durante una operación",
+              "text": "El médico que evita el dolor durante una operación preguntó a Marta sobre su salud antes de operarla."
+            }
+          },
+          "unset": []
+        },
+        "cambiazo": {
+          "set": {
+            "definition": "Cambio de una cosa por otra para engañar.",
+            "synonyms": [
+              "cambio para engañar"
+            ],
+            "example": {
+              "word": "cambiazo",
+              "text": "El cambiazo permitió al alumno entregar otra hoja en el examen."
+            },
+            "exampleSynonym": {
+              "word": "cambio para engañar",
+              "text": "El cambio para engañar permitió al alumno entregar otra hoja en el examen."
+            }
+          },
+          "unset": []
+        },
+        "bufido": {
+          "set": {
+            "definition": "Ruido fuerte que hace un animal al soltar el aire. También, un grito o una protesta por enfado.",
+            "synonyms": [
+              "resoplido",
+              "grito"
+            ],
+            "example": {
+              "word": "bufido",
+              "text": "Al pedirle ayuda, el hombre respondió con un bufido."
+            },
+            "exampleSynonym": {
+              "word": "grito",
+              "text": "Al pedirle ayuda, el hombre respondió con un grito."
+            }
+          },
+          "unset": []
+        },
+        "calabazazo": {
+          "set": {
+            "definition": "Golpe con una calabaza. También, golpe que alguien recibe en la cabeza.",
+            "synonyms": [
+              "golpe con una calabaza",
+              "golpe en la cabeza"
+            ],
+            "example": {
+              "word": "calabazazo",
+              "text": "En la comedia, el personaje recibió un calabazazo."
+            },
+            "exampleSynonym": {
+              "word": "golpe en la cabeza",
+              "text": "En la comedia, el personaje recibió un golpe en la cabeza."
             }
           },
           "unset": []

@@ -193501,5 +193501,10 @@
     "id": "zurrar-beat",
     "word": "Zurrar",
     "reason": "Acepción duplicada de la ficha general zurrar: ambas definen golpear a alguien con fuerza o repetidamente."
+  },
+  {
+    "id": "cafelito",
+    "word": "Cafelito",
+    "reason": "Es una forma coloquial y transparente de «café», con el diminutivo común -ito. La ficha solo ofrece «café» o «taza de café», conceptos familiares y cotidianos; no aporta una palabra difícil. DLE: https://dle.rae.es/cafelito"
   }
 ]

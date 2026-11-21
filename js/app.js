@@ -60,12 +60,11 @@
   }
 
   function t(key, variables) {
-    return translate(currentLanguage, key, variables);
+    return window.App.i18n.t(key, variables);
   }
 
-  /* Hook for the shared footer (js/suite-chrome.js), which asks App.i18n.t for its labels. */
+  /* App.i18n (js/i18n.js) serves the shared footer (js/suite-chrome.js) too. */
   window.App = window.App || {};
-  window.App.i18n = { t: t };
   /* Shared hook for js/feedback.js (the celebration plays the success sound). */
   window.App.playSuiteSound = playSuiteSound;
 
@@ -773,18 +772,6 @@
     searchInput.value = "";
   }
 
-  function initialLanguage() {
-    var parts = (location.hash || "").replace(/^#\/?/, "").split("/").filter(Boolean);
-    if (AVAILABLE_LANGUAGES.indexOf(parts[0]) !== -1) return parts[0];
-
-    var saved = localStorage.getItem("sinonimia-idioma");
-    if (AVAILABLE_LANGUAGES.indexOf(saved) !== -1) return saved;
-
-    var browserLang = ((navigator.languages && navigator.languages[0]) || navigator.language || "").toLowerCase().split(/[-_]/)[0];
-    if (AVAILABLE_LANGUAGES.indexOf(browserLang) !== -1) return browserLang;
-
-    return DEFAULT_LANGUAGE;
-  }
 
   // --- Search box and filters ---
   var searchTimer = null;
@@ -1539,7 +1526,7 @@
     }, 3000);
   }
 
-  currentLanguage = initialLanguage();
+  currentLanguage = window.App.i18n.locale();
   listView.setAttribute("aria-busy", "true");
   SinonimiaDictionary.loadIndex(currentLanguage).then(start, showLoadError);
 })();

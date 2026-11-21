@@ -418,25 +418,11 @@ and summarised in [`../apptonomia/CLAUDE.md` §B.6](../apptonomia/CLAUDE.md#b6-g
 `FAQPage` node, `llms.txt` existence, AI-crawler UA list). The
 canonical source for the policy is the metaproject's guide §7.
 
-## Asset version tokens (`?v=`) — never hand-edit these
+## Asset version tokens (`?v=`) — generated dictionary manifests only
 
-This project's `_headers` serves some assets as
-`Cache-Control: public, max-age=31536000, immutable`: one year, no
-revalidation. A changed asset only reaches a returning visitor if the
-URL referencing it changes, which is what `?v=` is for. The tokens used
-to be a hand-typed serial, so the same asset ended up with different
-tokens on different pages and a missed reference failed silently.
+Assets are served `Cache-Control: no-cache, must-revalidate` (see `_headers`), so
+HTML and static files carry no `?v=`. The only tokens left are the content hashes
+in the generated `js/dictionary-data.js` and `js/dictionary-manifest.js`. Never hand-edit
+them: run `node scripts/build-dictionary-data.js` after changing a dictionary shard;
+`node scripts/check.js` fails when they are stale.
 
-The token is now a hash of the file's own bytes. Do not type one by hand:
-
-```bash
-node ../scripts/asset-tokens.js sinonimia           # rewrite
-node ../scripts/asset-tokens.js --check sinonimia   # verify
-```
-
-`scripts/check-version-bump.js` runs the check, so a stale token fails
-the pre-push gate with the exact value it expects. Which files are
-tokenised is read from this project's own `_headers` — see
-[../scripts/ASSET-TOKENS.md](../scripts/ASSET-TOKENS.md) for the
-per-project table and for why `*.js` also matches nested paths and why
-fonts are tokenised from CSS rather than from HTML.

@@ -12,9 +12,9 @@
  */
 window.SINONIMIA_DICTIONARY_SHARDS = {
   es: [
-    { file: "js/data.es.js", src: "js/data.es.js?v=4ce19ff59c" },
+    { file: "js/data.es.js", src: "js/data.es.js?v=f7247e8199" },
     { file: "js/data.es.2.js", src: "js/data.es.2.js?v=d4dde11f66" },
-    { file: "js/data.es.2b.js", src: "js/data.es.2b.js?v=8fd666a544" },
+    { file: "js/data.es.2b.js", src: "js/data.es.2b.js?v=101bdbac49" },
     { file: "js/data.es.3.js", src: "js/data.es.3.js?v=53a2d614d3" },
     { file: "js/data.es.4.js", src: "js/data.es.4.js?v=37f0da27f3" },
     { file: "js/data.es.5.js", src: "js/data.es.5.js?v=d7821a0755" },
@@ -1500,7 +1500,7 @@ window.SINONIMIA_DICTIONARY_SHARDS = {
     { file: "js/data.es.1496.js", src: "js/data.es.1496.js?v=73af705a23" },
     { file: "js/data.es.1497.js", src: "js/data.es.1497.js?v=4945250623" },
     { file: "js/data.es.1498.js", src: "js/data.es.1498.js?v=82bd6904f9" },
-    { file: "js/data.es.1499.js", src: "js/data.es.1499.js?v=8b29a6ebd3" },
+    { file: "js/data.es.1499.js", src: "js/data.es.1499.js?v=72152cf359" },
     { file: "js/data.es.editorial-cleanup.js", src: "js/data.es.editorial-cleanup.js?v=e51ab5a12e" },
     { file: "js/data.es.editorial-categories.js", src: "js/data.es.editorial-categories.js?v=a7b49906d7" },
     { file: "js/data.es.editorial-examples.js", src: "js/data.es.editorial-examples.js?v=3c79c20eb9" },
@@ -3084,7 +3084,7 @@ window.SINONIMIA_DICTIONARY_SHARDS = {
     { file: "js/data.en.example-rewrite-v5270.js", src: "js/data.en.example-rewrite-v5270.js?v=c6a1f80e16" },
     { file: "js/data.en.example-rewrite-v5271.js", src: "js/data.en.example-rewrite-v5271.js?v=be205b420f" },
     { file: "js/data.en.editorial-b15-reviewed-v5197.js", src: "js/data.en.editorial-b15-reviewed-v5197.js?v=bb561c86f1" },
-    { file: "js/data.es.editorial-b15-reviewed-v5197.js", src: "js/data.es.editorial-b15-reviewed-v5197.js?v=bf144b5dc3" },
+    { file: "js/data.es.editorial-b15-reviewed-v5197.js", src: "js/data.es.editorial-b15-reviewed-v5197.js?v=40f33835ec" },
   ],
 };
 

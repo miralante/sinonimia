@@ -163,7 +163,27 @@ if (fs.existsSync(swPath)) {
   }
   ok("sw.js shell cache and dictionary data cache contract checked");
 }
-loadAsGlobal("js/i18n.js", "const I18N", "global.I18N");
+// The UI copy lives in js/strings.<lang>.js (registered through App.i18n). The
+// checks below read it as a flat dotted-key table, the same keys the page uses.
+const I18N = (function () {
+  const vm = require("vm");
+  const table = {};
+  for (const lang of ["es", "en"]) {
+    let captured = null;
+    vm.runInNewContext(fs.readFileSync(path.join(ROOT, "js/strings." + lang + ".js"), "utf8"), {
+      window: { App: { i18n: { register(data) { captured = data; } } } },
+    });
+    const flat = {};
+    (function walk(obj, prefix) {
+      for (const [k, v] of Object.entries(obj)) {
+        const key = prefix ? prefix + "." + k : k;
+        if (v && typeof v === "object" && !Array.isArray(v)) walk(v, key); else flat[key] = v;
+      }
+    })(captured, "");
+    table[lang] = flat;
+  }
+  return table;
+})();
 
 const languages = Object.keys(DICCIONARIOS);
 const idsByLanguage = Object.fromEntries(languages.map(function (language) {
@@ -485,7 +505,9 @@ const FORBIDDEN_TERMS = [
   { term: "underage", match: "word" },
   { term: "children", match: "word" },
 ];
-const rawI18nSrc = fs.readFileSync(path.join(ROOT, "js/i18n.js"), "utf8");
+const rawI18nSrc = ["js/i18n.js", "js/strings.es.js", "js/strings.en.js"].map(function (f) {
+  return fs.readFileSync(path.join(ROOT, f), "utf8");
+}).join("\n");
 const aboutDir = path.join(ROOT, "about");
 // Only `about/privacidad.html` is user-facing for the purpose of this
 // rule. `about/index.html` is the project presentation — it tells the

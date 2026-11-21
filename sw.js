@@ -27,7 +27,7 @@
    ============================================================ */
 importScripts('./js/dictionary-data.js');
 
-var VERSION = 'sinonimia-v5647';
+var VERSION = 'sinonimia-v5649';
 
 var FILES = [
   './',
@@ -36,6 +36,8 @@ var FILES = [
   './css/styles.css',
   './css/locale-picker.css',
   './js/i18n.js',
+  './js/strings.es.js',
+  './js/strings.en.js',
   './js/locale-picker-config.js',
   './js/locale-picker.js',
   './js/sw-register.js',

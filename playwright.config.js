@@ -10,7 +10,7 @@ module.exports = defineConfig({
   testDir: './tests',
   /* Allow generous time for the very first test on a cold browser:
      the 19 MB Spanish dictionary is loaded via document.write() and
-     buildIndexes() processes ~69 000 entries — this can take 60–90 s
+     buildIndexes() processes ~69 000 entries ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â this can take 60ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“90 s
      on a cold Chromium context.  Subsequent tests reuse the same
      dictionary cache and are fast. */
   timeout: 120000,
@@ -31,7 +31,7 @@ module.exports = defineConfig({
     },
   },
   webServer: {
-    command: 'node scripts/ui-server.js',
+    command: `node scripts/serve.js ${PORT}`,
     url: BASE_URL,
     reuseExistingServer: false,
     timeout: 10000,

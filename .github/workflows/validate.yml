@@ -107,15 +107,17 @@ jobs:
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
 
-      - name: Run Playwright UI smoke
-        run: npm run test:ui
+      - name: Run the UI crawler
+        # The crawler (scripts/ui-smoke.js) walks every public route and
+        # presses every control it finds. It is the wide net.
+        run: npm run test:crawl
 
       - name: Run Playwright spec suite
         # The written regression suite (tests/app.spec.js): word list, search,
         # the settings drawer and the language inside it. Until now only the
         # crawler above ran in CI, and the file had a duplicate test title
         # that stopped it from even loading — a defect no gate could see.
-        run: npm run test:playwright
+        run: npm run test:ui
 
       - name: Run service-worker smoke
         run: npm run test:sw

@@ -1,398 +1,274 @@
-/*
- * Sinonimia's interface texts, per language.
- * This is NOT the dictionary content (that lives in js/data.<lang>.js).
- * This is the web app's fixed UI copy: buttons, labels, messages.
- *
- * To add a new language:
- *  1. Copy the whole "es" or "en" block and translate it entirely (every key).
- *  2. Create js/data.<lang>.js with that language's words (see that file for
- *     the format) and add its <script> tag in index.html.
- *  3. Add a button to the language selector in index.html.
- * No changes needed in app.js. *
- * The full step-by-step — including the mirrored strings in
- * js/bootstrap-i18n.js, the about.js whitelist and the parallel
- * data-lang-block blocks on about/* and 404.html, the
- * languageName_<code> key that has to be added in every existing
- * I18N block, the traduccion cross-link conventions, and a complete
- * checklist — is in doc/en/i18n.md (or doc/es/i18n.md in
- * Spanish). That document is the canonical reference; this header
- * is the short version. */
+/* ==========================================================================
+   Sinonimia — internationalization core (window.App.i18n).
 
-const I18N = {
-  es: {
-    htmlLang: "es",
-    "core.chrome.appName": "Sinonimia",
-    suiteBy: "Una app de",
-    metaTitle: "Sinonimia — Diccionario fácil de palabras difíciles",
-    metaDescription: "Diccionario en lenguaje sencillo: palabras técnicas y difíciles de trámites y de salud, explicadas con ejemplos de la vida diaria y sus sinónimos.",
-    skipToContent: "Saltar al contenido",
-    tagline: "Palabras difíciles, explicadas fácil",
+   Same engine as every Apptonomia suite app (apptonomia/doc/templates/js/
+   i18n.js). The language comes from the URL hash first (#/es/…, #/en/…), which
+   the resolver at the end of this file adds; then ?lang=, the saved choice under
+   'sinonimia-idioma' and the browser language.
 
-    fontSize: "Tamaño de letra",
-    decreaseFontSize: "Reducir tamaño de letra",
-    normalFontSize: "Tamaño de letra normal",
-    increaseFontSize: "Aumentar tamaño de letra",
-    highContrast: "Alto contraste",
-    languageLabel: "Idioma",
+   Load order: js/i18n.js -> js/strings.es.js -> js/strings.en.js -> … -> app.js.
+   ========================================================================== */
 
-    heroLabel: "Palabra del día",
-    heroCta: "Descúbrela →",
-    statDiscovered: "Palabras descubiertas",
-    statDictionary: "Palabras en el diccionario",
+(function () {
+  "use strict";
 
-    searchLabel: "Escribe una palabra o un tema",
-    searchPlaceholder: "Por ejemplo: subsanar, cefalea, artrosis…",
-    searchHelp: "Busca por la palabra difícil o por su significado sencillo. No hace falta escribir acentos.",
-    surpriseMe: "🎲 Sorpréndeme",
+  window.App = window.App || {};
 
-    topicLabel: "Tema:",
-    topicAll: "Todos",
-    topic_tramites: "Trámites",
-    topic_salud: "Salud",
-    "topic_vida-diaria": "Vida diaria",
-    topic_finanzas: "Finanzas",
-    topic_vivienda: "Vivienda",
-    topic_trabajo: "Trabajo",
-    topic_legal: "Legal",
-    topic_tecnologia: "Tecnología",
-    topic_seguridad: "Seguridad",
-    topic_educacion: "Educación",
-    topic_conocimiento: "Conocimiento general",
-    /* Topics the regenerated dictionary actually uses. app.js renders them
-       with t("topic_" + entry.situacion), so without these keys the pill
-       showed the literal string "topic_arte". Keep this list in sync with
-       VALID_TOPICS in scripts/check.js. */
-    topic_arte: "Arte",
-    topic_comida: "Comida",
-    topic_historia: "Historia",
-    topic_naturaleza: "Naturaleza",
-    topic_deportes: "Deportes",
-    topic_juegos: "Juegos",
-    topic_sociedad: "Sociedad",
+  var STORAGE_KEY = "sinonimia-idioma";
+  var SUPPORTED = ["es", "en"];
+  var DEFAULT_LOCALE = "en";
+  var BCP47 = { es: "es-ES", en: "en-US" };
+  var TITLE_SUFFIX = " | Sinonimia";
+  var TEXT_FIELDS = {
+    titulo: 1, texto: 1, aviso: 1, avisoSeguro: 1,
+    confirmacion: 1, regla: 1, contacto: 1, relacion: 1
+  };
 
-    alphabetLabel: "Buscar por letra inicial",
-    listLabel: "Lista de palabras",
-    detailLabel: "Detalle de la palabra",
+  /* Built-in shell strings. strings.<locale>.js may override any of them:
+     register() deep-merges over this table. */
+  var DICT = {
+    es: {},
+    en: {}
+  };
 
-    showMore: "Mostrar más palabras",
-    loadError: "No se pudieron cargar las palabras. Comprueba tu conexión y recarga la página.",
-    offlinePreparing: "Guardando las palabras para usarlas sin conexión… {n} %",
-    offlineReady: "Todas las palabras están guardadas. Puedes usar Sinonimia sin conexión.",
-    offlineMissing: "No hay conexión y esto aún no está guardado. Conéctate a internet para verlo.",
-    offlineImagesButton: "Guardar también los dibujos para usarlos sin conexión ({mb} MB)",
-    offlineImagesPreparing: "Guardando los dibujos… {n} %",
-    offlineImagesReady: "Los dibujos están guardados. Ya puedes usar todo sin conexión.",
-    offlineImagesFailed: "No se pudieron guardar todos los dibujos. Inténtalo de nuevo con conexión.",
-    resultOne: "1 palabra encontrada.",
-    resultsMany: "{n} palabras encontradas.",
-    noResultsFound: "No hemos encontrado esa palabra. Prueba a escribir solo el principio, por ejemplo «cefal» para «cefalea».",
-    noResultsHelp: "También puedes buscar «{q}» en otro sitio:",
-    noResultsTipInternet: "Búscala en Internet.",
-    noResultsTipChatbot: "Pregúntale a tu chatbot: “Explícame con palabras muy sencillas qué significa «{q}»”.",
-    externalDictionaryLabel: "Buscar en el diccionario de la RAE",
-    externalDictionaryUrl: "https://dle.rae.es/{q}",
-    externalWikipediaLabel: "Buscar en Wikipedia",
-    externalWikipediaUrl: "https://es.wikipedia.org/w/index.php?search={q}",
-    externalOpensNote: "se abre en otra pestaña",
-    wordNotFound: "No hemos encontrado esa palabra.",
-    dictionaryEntryName: "Entrada del diccionario: {word}",
+  function detect() {
+    try {
+      var first = (navigator.languages && navigator.languages[0]) || navigator.language || "";
+      var prefix = first.split(/[-_]/)[0].toLowerCase();
+      if (SUPPORTED.indexOf(prefix) !== -1) return prefix;
+    } catch (e) { /* ignore */ }
+    return DEFAULT_LOCALE;
+  }
 
-    backToSearch: "← Volver al buscador",
-    viewInOtherLanguage: "🌐 Ver en {idioma}: {word}",
-    languageName_es: "español",
-    languageName_en: "inglés",
-    alsoKnownAs: "Se puede decir también",
-    inASentence: "En una frase de cada día",
-    saidSimply: "Dicho de forma más sencilla:",
-    alreadyDiscovered: "Ya descubierta",
+  /* Optional resolvers, checked before ?lang, storage and the browser. An app
+     whose language lives somewhere else (sinonimia: the URL hash) adds one with
+     App.i18n.addResolver(fn); fn returns 'es', 'en' or anything else. */
+  var RESOLVERS = [];
 
-    wordNavLabel: "Ir a otra palabra",
-    previousWord: "← Anterior",
-    nextWord: "Siguiente →",
-    previousWordAria: "Palabra anterior: {word}",
-    nextWordAria: "Palabra siguiente: {word}",
+  function urlLocale() {
+    try {
+      var fromUrl = new URLSearchParams(window.location.search).get("lang");
+      if (fromUrl && SUPPORTED.indexOf(fromUrl) !== -1) return fromUrl;
+    } catch (e) { /* old browser: ignore */ }
+    return null;
+  }
 
-    footerMessage: "Sinonimia explica palabras difíciles. Frases cortas. Ejemplos de cada día.",
-    footerCreditsHtml: 'Pictogramas: <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (CC BY-NC-SA) y <a href="https://opensymbols.org/" target="_blank" rel="noopener">OpenSymbols</a>.',
-    footerConfigHtml: '<a href="config/">Configuración</a>',
-    footerPrivacyHtml: '<a href="legal/">Privacidad</a>',
-    "core.chrome.appName": "Sinonimia",
+  function locale() {
+    for (var r = 0; r < RESOLVERS.length; r++) {
+      try {
+        var found = RESOLVERS[r]();
+        if (SUPPORTED.indexOf(found) !== -1) return found;
+      } catch (e) { /* a resolver that throws is skipped */ }
+    }
+    var fromUrl = urlLocale();
+    if (fromUrl) return fromUrl;
+    try {
+      var saved = localStorage.getItem(STORAGE_KEY);
+      if (saved && SUPPORTED.indexOf(saved) !== -1) return saved;
+    } catch (e) { /* storage may be off */ }
+    return detect();
+  }
 
-    detailTitleSuffix: " — Sinonimia",
+  function setLocale(loc) {
+    if (SUPPORTED.indexOf(loc) === -1) return;
+    try { localStorage.setItem(STORAGE_KEY, loc); } catch (e) { /* ignore */ }
+    window.location.reload();
+  }
 
-    // Write your own sentence (below the examples, on each word's detail page)
-    yourTurn: "Ahora te toca a ti",
-    sentenceInstruction: "Escribe tu propia frase con esta palabra.",
-    sentenceLabel: "Tu frase",
-    sentencePlaceholder: "Escribe aquí tu frase…",
-    saveSentence: "Guardar mi frase",
-    sentenceSavedNotice: "¡Bien done! Esta es tu frase:",
-    sentenceStars: "⭐ Estrellas por tus frases: {n}",
-    sentenceStarEarned: "¡Has ganado una estrella!",
-    "core.moreGoal": "A por más",
-    "core.starEarned": "¡Has conseguido una nueva estrella!",
-    "core.starsReached": "Ya tienes {n} estrellas",
-    "core.starsGoal": "A por las {n} estrellas",
-    editSentence: "Editar mi frase",
+  function addResolver(fn) {
+    if (typeof fn === "function") RESOLVERS.push(fn);
+  }
 
-    // Games: menu and shared texts
-    playCta: "🎮 Jugar",
-    gameLabel: "Juego para practicar las palabras",
-    gameMenuTitle: "¿A qué quieres jugar?",
-    gameMenuInstruction: "Elige un juego para practicar las palabras.",
-    gameScore: "⭐ Aciertos: {n}",
-    gameCorrect: "¡Correcto! 🎉",
-    gameNext: "Siguiente →",
-    gameTooFewWords: "Todavía no hay palabras suficientes para jugar en este idioma.",
-    gameBackToMenu: "← Elegir otro juego",
+  function lang() {
+    return BCP47[locale()] || BCP47[DEFAULT_LOCALE];
+  }
 
-    // Game 1: pick the right word from a clue
-    wordGameTitle: "¿Qué palabra es?",
-    wordGameDescription: "Lee la pista y elige la palabra.",
-    wordGameInstruction: "Lee la pista y elige la palabra correcta.",
-    wordGameIncorrect: "Esa no es. Vuelve a leer la pista: ¿qué palabra encaja mejor?",
+  /* Deep merge, so several files (a page's own strings and the app's shared
+     strings) can register keys under the same branch. */
+  function merge(into, from) {
+    for (var key in from) {
+      if (!Object.prototype.hasOwnProperty.call(from, key)) continue;
+      var value = from[key];
+      if (value && typeof value === "object" && !Array.isArray(value)) {
+        if (!into[key] || typeof into[key] !== "object") into[key] = {};
+        merge(into[key], value);
+      } else {
+        into[key] = value;
+      }
+    }
+  }
 
-    // Game 3: match each word with its meaning
-    matchGameTitle: "Une cada palabra con su significado",
-    matchGameDescription: "Une cuatro palabras con lo que significan.",
-    matchGameInstruction: "Toca una palabra y después su significado.",
-    matchGamePick: "Ahora toca el significado.",
-    matchGameLinked: "¡Eso es! Esa palabra y ese significado van juntos.",
-    matchGameWrong: "Esa pareja no va junta. Vuelve a leer los significados.",
-    matchGameDone: "¡Muy bien! Las cuatro parejas van juntas.",
+  /* Two signatures:
+       register(table, "es" | "en")     one locale per file (the standard)
+       register({ es: {...}, en: {...} })  both locales in one call (legacy) */
+  function register(table, loc) {
+    if (typeof loc !== "string") {
+      if (!table || typeof table !== "object") return;
+      SUPPORTED.forEach(function (l) { if (table[l]) merge(DICT[l], table[l]); });
+      return;
+    }
+    if (SUPPORTED.indexOf(loc) === -1 || !table || typeof table !== "object") return;
+    merge(DICT[loc], table);
+  }
 
-    // Game 2: complete the sentence with the right word
-    sentenceGameTitle: "Completa la frase",
-    sentenceGameDescription: "Elige la palabra que falta en la frase.",
-    sentenceGameInstruction: "Elige la palabra que completa la frase.",
-    sentenceGameIncorrect: "Esa no es. Vuelve a leer la frase: ¿qué palabra completa el hueco?",
+  function lookup(table, key) {
+    var parts = key.split(".");
+    var current = table;
+    for (var i = 0; i < parts.length; i++) {
+      if (current == null) return undefined;
+      current = current[parts[i]];
+    }
+    return current;
+  }
 
-    // "About the app" page (about-app/) and its achievements
-    footerAboutAppHtml: '<a href="about/">Sobre la app</a>',
-    aboutAppPageTitle: "Sobre la app — Sinonimia",
-    aboutAppTitle: "ℹ️ Sobre la app",
-    aboutAppIntro: "Sinonimia explica palabras difíciles con frases cortas. Aquí ves tus logros.",
-    aboutAppBackToDictionary: "Ir al diccionario",
-    aboutAppConfig: "Configuración",
-    aboutAppSavedLocally: "Tus logros se guardan solo en este dispositivo.",
-    achievementsTitle: "⭐ Logros",
-    achievementsHint: "Los logros llegan solos cuando usas el diccionario y los juegos.",
-    achievementsCount: "Tienes {n} de {total} logros.",
-    achievementFirstWord: "Primera palabra",
-    achievementFirstWordDesc: "Abre tu primera palabra del diccionario.",
-    achievementTenWords: "Diez palabras",
-    achievementTenWordsDesc: "Descubre diez palabras.",
-    achievementFirstStar: "Primera estrella",
-    achievementFirstStarDesc: "Acierta tu primera pregunta en un juego.",
-    achievementStreak3: "Tres seguidas",
-    achievementStreak3Desc: "Acierta tres preguntas seguidas a la primera.",
-    achievementAllTopics: "Todos los temas",
-    achievementAllTopicsDesc: "Descubre una palabra de cada tema.",
-    achievementMySentence: "Tu primera frase",
-    achievementMySentenceDesc: "Escribe y guarda tu propia frase con una palabra.",
-    achievementLocked: "Todavía no",
-    achievementUnlockedAt: "Conseguido el {date}",
+  function raw(key) {
+    if (typeof key !== "string") return undefined;
+    var loc = locale();
+    var value = lookup(DICT[loc], key);
+    if (value === undefined && loc !== DEFAULT_LOCALE) value = lookup(DICT[DEFAULT_LOCALE], key);
+    return value;
+  }
 
-    // 404 page (404.html)
-    error404Title: "404",
-    error404Heading: "No hemos encontrado esa página",
-    error404Description: "Puede que la dirección esté mal escrita, o que la palabra que buscas no esté en el diccionario todavía.",
-    error404Suggestion: "Puedes probar con una de estas opciones:",
-    error404HomeButton: "← Volver al inicio",
-    error404RandomButton: "🎲 Ver una palabra al azar",
-    error404PlayButton: "🎮 Jugar con las palabras",
-  },
+  /* params (optional): replaces each {name} with params.name; a placeholder
+     without a value is left as it is. */
+  function t(key, params) {
+    var value = raw(key);
+    if (value === undefined || value === null) {
+      if (window.console && console.warn) console.warn("[i18n] missing key:", key, "(locale=" + locale() + ")");
+      return "";
+    }
+    if (Array.isArray(value)) value = value.join(", ");
+    value = String(value);
+    if (params) {
+      value = value.replace(/\{(\w+)\}/g, function (mark, name) {
+        return params[name] !== undefined ? String(params[name]) : mark;
+      });
+    }
+    return value;
+  }
 
-  en: {
-    htmlLang: "en",
-    "core.chrome.appName": "Sinonimia",
-    suiteBy: "An app by",
-    metaTitle: "Sinonimia — An easy dictionary for hard words",
-    metaDescription: "A plain-language dictionary: hard official and health words explained with everyday examples and simple synonyms.",
-    skipToContent: "Skip to content",
-    tagline: "Hard words, made easy",
+  /* A random entry of an array key (e.g. feedback.success). */
+  function pick(key) {
+    var value = raw(key);
+    if (!Array.isArray(value) || !value.length) return "";
+    return value[Math.floor(Math.random() * value.length)];
+  }
 
-    fontSize: "Text size",
-    decreaseFontSize: "Decrease text size",
-    normalFontSize: "Normal text size",
-    increaseFontSize: "Increase text size",
-    highContrast: "High contrast",
-    languageLabel: "Language",
+  /* The noun that follows a star count: "1 estrella", "2 estrellas". */
+  function starsWord(count) {
+    return t(Number(count) === 1 ? "core.starOne" : "core.starOther");
+  }
 
-    heroLabel: "Word of the day",
-    heroCta: "Discover it →",
-    statDiscovered: "Words discovered",
-    statDictionary: "Words in the dictionary",
+  /* Structured data trees (escenarios, variantes, pasos...) are returned as
+     they are, not flattened: register them with register({data: {...}}, loc)
+     and read them with App.i18n.data("data"). */
+  function data(key) {
+    return raw(key);
+  }
 
-    searchLabel: "Type a word or a topic",
-    searchPlaceholder: "For example: rectify, migraine, arthritis…",
-    searchHelp: "Search by the hard word or by its plain meaning.",
-    surpriseMe: "🎲 Surprise me",
-
-    topicLabel: "Topic:",
-    topicAll: "All",
-    topic_tramites: "Paperwork",
-    topic_salud: "Health",
-    "topic_vida-diaria": "Everyday life",
-    topic_finanzas: "Finance",
-    topic_vivienda: "Housing",
-    topic_trabajo: "Employment",
-    topic_legal: "Legal",
-    topic_tecnologia: "Technology",
-    topic_seguridad: "Safety",
-    topic_educacion: "Education",
-    topic_conocimiento: "General knowledge",
-    /* See the note on the Spanish block: these topics are used by the
-       regenerated dictionary and were missing here too. */
-    topic_arte: "Art",
-    topic_comida: "Food",
-    topic_historia: "History",
-    topic_naturaleza: "Nature",
-    topic_deportes: "Sports",
-    topic_juegos: "Games",
-    topic_sociedad: "Society",
-
-    alphabetLabel: "Browse by first letter",
-    listLabel: "List of words",
-    detailLabel: "Word detail",
-
-    showMore: "Show more words",
-    loadError: "The words could not be loaded. Check your connection and reload the page.",
-    offlinePreparing: "Saving the words to use them offline… {n}%",
-    offlineReady: "All the words are saved. You can use Sinonimia offline.",
-    offlineMissing: "There is no connection and this is not saved yet. Connect to the internet to see it.",
-    offlineImagesButton: "Also save the pictures to use them offline ({mb} MB)",
-    offlineImagesPreparing: "Saving the pictures… {n}%",
-    offlineImagesReady: "The pictures are saved. You can now use everything offline.",
-    offlineImagesFailed: "Not all the pictures could be saved. Try again when you are online.",
-    resultOne: "1 word found.",
-    resultsMany: "{n} words found.",
-    noResultsFound: "We couldn't find that word. Try typing just the start, for example «migr» for «migraine».",
-    noResultsHelp: "You can also look up «{q}» somewhere else:",
-    noResultsTipInternet: "Search for it on the Internet.",
-    noResultsTipChatbot: "Ask your chatbot: “Explain in very simple words what «{q}» means.”",
-    externalDictionaryLabel: "Search the Cambridge Dictionary",
-    externalDictionaryUrl: "https://dictionary.cambridge.org/search/english/direct/?q={q}",
-    externalWikipediaLabel: "Search Wikipedia",
-    externalWikipediaUrl: "https://en.wikipedia.org/w/index.php?search={q}",
-    externalOpensNote: "opens in a new tab",
-    wordNotFound: "We couldn't find that word.",
-    dictionaryEntryName: "Dictionary entry: {word}",
-
-    backToSearch: "← Back to search",
-    viewInOtherLanguage: "🌐 See it in {idioma}: {word}",
-    languageName_es: "Spanish",
-    languageName_en: "English",
-    alsoKnownAs: "You can also say",
-    inASentence: "In an everyday sentence",
-    saidSimply: "Said in a simpler way:",
-    alreadyDiscovered: "Already discovered",
-
-    wordNavLabel: "Go to another word",
-    previousWord: "← Previous",
-    nextWord: "Next →",
-    previousWordAria: "Previous word: {word}",
-    nextWordAria: "Next word: {word}",
-
-    footerMessage: "Sinonimia explains hard words. Short sentences. Everyday examples.",
-    footerCreditsHtml: 'Pictograms: <a href="https://arasaac.org" target="_blank" rel="noopener">ARASAAC</a> (CC BY-NC-SA) and <a href="https://opensymbols.org/" target="_blank" rel="noopener">OpenSymbols</a>.',
-    footerConfigHtml: '<a href="config/">Settings</a>',
-    footerPrivacyHtml: '<a href="legal/">Privacy</a>',
-    "core.chrome.appName": "Sinonimia",
-
-    detailTitleSuffix: " — Sinonimia",
-
-    // Write your own sentence (below the examples, on each word's detail page)
-    yourTurn: "Now it's your turn",
-    sentenceInstruction: "Write your own sentence with this word.",
-    sentenceLabel: "Your sentence",
-    sentencePlaceholder: "Write your sentence here…",
-    saveSentence: "Save my sentence",
-    sentenceSavedNotice: "Well done! Here's your sentence:",
-    sentenceStars: "⭐ Stars for your sentences: {n}",
-    sentenceStarEarned: "You earned a star!",
-    "core.moreGoal": "Go for more",
-    "core.starEarned": "You earned a new star!",
-    "core.starsReached": "You already have {n} stars",
-    "core.starsGoal": "Go for {n} stars",
-    editSentence: "Edit my sentence",
-
-    // Games: menu and shared texts
-    playCta: "🎮 Play",
-    gameLabel: "A game to practise the words",
-    gameMenuTitle: "What do you want to play?",
-    gameMenuInstruction: "Choose a game to practise the words.",
-    gameScore: "⭐ Correct: {n}",
-    gameCorrect: "Correct! 🎉",
-    gameNext: "Next →",
-    gameTooFewWords: "There aren't enough words yet to play in this language.",
-    gameBackToMenu: "← Choose another game",
-
-    // Game 1: pick the right word from a clue
-    wordGameTitle: "Which word is it?",
-    wordGameDescription: "Read the clue and pick the word.",
-    wordGameInstruction: "Read the clue and pick the right word.",
-    wordGameIncorrect: "Not quite. Read the clue again: which word fits best?",
-
-    // Game 3: match each word with its meaning
-    matchGameTitle: "Match each word with its meaning",
-    matchGameDescription: "Match four words with what they mean.",
-    matchGameInstruction: "Tap a word, then its meaning.",
-    matchGamePick: "Now tap the meaning.",
-    matchGameLinked: "That is it! That word and that meaning go together.",
-    matchGameWrong: "That pair does not go together. Read the meanings again.",
-    matchGameDone: "Well done! All four pairs go together.",
-
-    // Game 2: complete the sentence with the right word
-    sentenceGameTitle: "Complete the sentence",
-    sentenceGameDescription: "Pick the missing word in the sentence.",
-    sentenceGameInstruction: "Pick the word that completes the sentence.",
-    sentenceGameIncorrect: "Not quite. Read the sentence again: which word completes the blank?",
-
-    // "About the app" page (about-app/) and its achievements
-    footerAboutAppHtml: '<a href="about/">About the app</a>',
-    aboutAppPageTitle: "About the app — Sinonimia",
-    aboutAppTitle: "ℹ️ About the app",
-    aboutAppIntro: "Sinonimia explains hard words with short sentences. Here you can see your achievements.",
-    aboutAppBackToDictionary: "Go to the dictionary",
-    aboutAppConfig: "Settings",
-    aboutAppSavedLocally: "Your achievements are saved only on this device.",
-    achievementsTitle: "⭐ Achievements",
-    achievementsHint: "Achievements arrive on their own when you use the dictionary and the games.",
-    achievementsCount: "You have {n} of {total} achievements.",
-    achievementFirstWord: "First word",
-    achievementFirstWordDesc: "Open your first word in the dictionary.",
-    achievementTenWords: "Ten words",
-    achievementTenWordsDesc: "Discover ten words.",
-    achievementFirstStar: "First star",
-    achievementFirstStarDesc: "Get your first answer right in a game.",
-    achievementStreak3: "Three in a row",
-    achievementStreak3Desc: "Get three answers in a row right on the first try.",
-    achievementAllTopics: "Every topic",
-    achievementAllTopicsDesc: "Discover one word from each topic.",
-    achievementMySentence: "Your first sentence",
-    achievementMySentenceDesc: "Write and save your own sentence with a word.",
-    achievementLocked: "Not yet",
-    achievementUnlockedAt: "Achieved on {date}",
-
-    // 404 page (404.html)
-    error404Title: "404",
-    error404Heading: "We couldn't find that page",
-    error404Description: "The address might be mistyped, or the word you're looking for might not be in the dictionary yet.",
-    error404Suggestion: "You can try one of these:",
-    error404HomeButton: "← Back to home",
-    error404RandomButton: "🎲 Show me a random word",
-    error404PlayButton: "🎮 Play with the words",
-  },
-};
-
-function translate(language, key, variables) {
-  var texts = I18N[language] || I18N.es;
-  var value = texts[key] != null ? texts[key] : (I18N.es[key] || key);
-  if (variables) {
-    Object.keys(variables).forEach(function (name) {
-      value = value.replace("{" + name + "}", function () { return variables[name]; });
+  /* Locale-neutral structure (ids, types, flags) registered once; the text
+     for each locale is merged over it by dataByLocale(). */
+  function registerStructure(structure) {
+    SUPPORTED.forEach(function (loc) {
+      DICT[loc].__structure__ = structure;
     });
   }
-  return value;
-}
+
+  /* Deep-merges structure + text: text fields (TEXT_FIELDS) come from the text
+     tree when present; everything else stays in the structure side. */
+  function mergeStructureAndText(structure, text) {
+    if (!structure && !text) return null;
+    if (!text) return structure;
+    if (!structure) return text;
+    if (Array.isArray(structure)) {
+      return structure.map(function (item, i) {
+        return mergeStructureAndText(item, Array.isArray(text) ? text[i] : null);
+      });
+    }
+    if (typeof structure === "object") {
+      var out = {};
+      var keys = {};
+      Object.keys(structure).forEach(function (k) { keys[k] = true; });
+      Object.keys(text).forEach(function (k) { keys[k] = true; });
+      Object.keys(keys).forEach(function (k) {
+        var sVal = structure[k];
+        var tVal = text[k];
+        if (TEXT_FIELDS[k]) {
+          out[k] = (tVal !== undefined) ? tVal : sVal;
+        } else if (Array.isArray(sVal) || Array.isArray(tVal) || (sVal && typeof sVal === "object")) {
+          out[k] = mergeStructureAndText(sVal, tVal);
+        } else {
+          out[k] = (tVal !== undefined) ? tVal : sVal;
+        }
+      });
+      return out;
+    }
+    return text !== undefined ? text : structure;
+  }
+
+  /* Returns the per-locale data tree: { es: {...}, en: {...} }, rebuilt from
+     the registered structure plus each locale's text tree. */
+  function dataByLocale() {
+    var out = {};
+    SUPPORTED.forEach(function (loc) {
+      var text = (DICT[loc] && DICT[loc].data) || null;
+      var structure = DICT[loc] && DICT[loc].__structure__;
+      out[loc] = mergeStructureAndText(structure, text);
+    });
+    return out;
+  }
+
+  function apply(root) {
+    root = root || document;
+    var i;
+    var nodes = root.querySelectorAll("[data-i18n]");
+    for (i = 0; i < nodes.length; i++) nodes[i].textContent = t(nodes[i].getAttribute("data-i18n"));
+    var aria = root.querySelectorAll("[data-i18n-aria]");
+    for (i = 0; i < aria.length; i++) aria[i].setAttribute("aria-label", t(aria[i].getAttribute("data-i18n-aria")));
+    var meta = root.querySelectorAll("[data-i18n-meta]");
+    for (i = 0; i < meta.length; i++) meta[i].setAttribute("content", t(meta[i].getAttribute("data-i18n-meta")));
+    var titleKey = document.documentElement.getAttribute("data-i18n-title");
+    if (titleKey) document.title = t(titleKey) + TITLE_SUFFIX;
+  }
+
+  /* applyTo("#selector") or applyTo(element): applies the bindings inside one
+     part of the page (for example a block rendered after a round). */
+  function applyTo(target) {
+    apply(typeof target === "string" ? document.querySelector(target) : target);
+  }
+
+  function init() {
+    document.documentElement.lang = locale();
+    apply(document);
+  }
+
+  window.App.i18n = {
+    SUPPORTED: SUPPORTED,
+    DEFAULT_LOCALE: DEFAULT_LOCALE,
+    STORAGE_KEY: STORAGE_KEY,
+    locale: locale,
+    setLocale: setLocale,
+    lang: lang,
+    register: register,
+    addResolver: addResolver,
+    registerStructure: registerStructure,
+    t: t,
+    pick: pick,
+    data: data,
+    dataByLocale: dataByLocale,
+    apply: apply,
+    applyTo: applyTo,
+    starsWord: starsWord,
+    LABEL: { es: "Español", en: "English" },
+    FLAG: { es: "🇪🇸", en: "🇬🇧" }
+  };
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
+  else init();
+})();
+
+/* Sinonimia keeps the language in the hash: #/es/… and #/en/word/… */
+window.App.i18n.addResolver(function () {
+  var parts = (location.hash || "").replace(/^#\/?/, "").split("/").filter(Boolean);
+  return parts[0];
+});

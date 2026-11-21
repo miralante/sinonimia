@@ -30,7 +30,7 @@
   })();
 
   function t(key) {
-    return translate(currentLanguage, key);
+    return window.App.i18n.t(key);
   }
 
   function repaintStaticTexts() {

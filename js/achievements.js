@@ -120,19 +120,19 @@ var SINONIMIA_ACHIEVEMENTS = (function () {
 
       var name = document.createElement("span");
       name.className = "achievement-badge-name";
-      name.textContent = translate(language, a.key);
+      name.textContent = window.App.i18n.t(a.key);
 
       var desc = document.createElement("span");
       desc.className = "achievement-badge-desc";
-      desc.textContent = translate(language, a.key + "Desc");
+      desc.textContent = window.App.i18n.t(a.key + "Desc");
 
       var status = document.createElement("span");
       status.className = "achievement-badge-status";
       status.textContent = isUnlocked
-        ? translate(language, "achievementUnlockedAt", {
-            date: new Date(done[a.id]).toLocaleDateString(translate(language, "htmlLang"))
+        ? window.App.i18n.t("achievementUnlockedAt", {
+            date: new Date(done[a.id]).toLocaleDateString(window.App.i18n.t("htmlLang"))
           })
-        : translate(language, "achievementLocked");
+        : window.App.i18n.t("achievementLocked");
 
       item.appendChild(icon);
       item.appendChild(name);
