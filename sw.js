@@ -27,7 +27,7 @@
    ============================================================ */
 importScripts('./js/dictionary-data.js');
 
-var VERSION = 'sinonimia-v5651';
+var VERSION = 'sinonimia-v5652';
 
 var FILES = [
   './',
@@ -60,9 +60,7 @@ var FILES = [
   './about/styles.css',
   './legal/',
   './legal/index.html',
-  './legal/styles.css',
-  './config/',
-  './config/config.js'
+  './legal/styles.css'
 ];
 
 var CACHE_NAME = 'sinonimia-' + VERSION;

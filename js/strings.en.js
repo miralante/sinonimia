@@ -92,7 +92,6 @@ window.App.i18n.register({
   "nextWordAria": "Next word: {word}",
   "footerMessage": "Sinonimia explains hard words. Short sentences. Everyday examples.",
   "footerCreditsHtml": "Pictograms: <a href=\"https://arasaac.org\" target=\"_blank\" rel=\"noopener\">ARASAAC</a> (CC BY-NC-SA) and <a href=\"https://opensymbols.org/\" target=\"_blank\" rel=\"noopener\">OpenSymbols</a>.",
-  "footerConfigHtml": "<a href=\"config/\">Settings</a>",
   "footerPrivacyHtml": "<a href=\"legal/\">Privacy</a>",
   "detailTitleSuffix": " — Sinonimia",
   "yourTurn": "Now it's your turn",

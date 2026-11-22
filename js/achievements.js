@@ -9,7 +9,7 @@
  * Storage: one localStorage key, `sinonimia-logros`, holding
  * { <achievement id>: <unlock timestamp in ms> }. It shares the
  * `sinonimia-` prefix, so the settings page's "Clear my data" button
- * (config/config.js) wipes it together with the rest of the progress.
+ * (the gear reset) wipes it together with the rest of the progress.
  *
  * Achievements are never taken away (SPEC.md: progress only grows).
  * Most of them are derived from data the app already saves

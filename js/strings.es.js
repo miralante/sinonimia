@@ -92,7 +92,6 @@ window.App.i18n.register({
   "nextWordAria": "Palabra siguiente: {word}",
   "footerMessage": "Sinonimia explica palabras difíciles. Frases cortas. Ejemplos de cada día.",
   "footerCreditsHtml": "Pictogramas: <a href=\"https://arasaac.org\" target=\"_blank\" rel=\"noopener\">ARASAAC</a> (CC BY-NC-SA) y <a href=\"https://opensymbols.org/\" target=\"_blank\" rel=\"noopener\">OpenSymbols</a>.",
-  "footerConfigHtml": "<a href=\"config/\">Configuración</a>",
   "footerPrivacyHtml": "<a href=\"legal/\">Privacidad</a>",
   "detailTitleSuffix": " — Sinonimia",
   "yourTurn": "Ahora te toca a ti",
