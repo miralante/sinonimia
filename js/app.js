@@ -819,7 +819,14 @@
       window.SinonimiaNotFound.setLanguage(locale);
       return;
     }
-    if (AVAILABLE_LANGUAGES.indexOf(locale) === -1 || locale === currentLanguage) return;
+    if (AVAILABLE_LANGUAGES.indexOf(locale) === -1) return;
+    /* The guard compares against the language in the URL, not against
+       currentLanguage: the internal state only catches up when that
+       language's index has finished loading, so a reader who switches to
+       English and straight back to Spanish would find the second switch
+       ignored (currentLanguage was still "es") and would stay in English. */
+    var parts = (location.hash || "").replace(/^#\/?/, "").split("/").filter(Boolean);
+    if (parts[0] === locale) return;
     history.replaceState(null, "", "#/" + locale + "/");
     route();
   };

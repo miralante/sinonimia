@@ -828,49 +828,34 @@ test('17g — the reading settings survive a reload', async ({ browser }) => {
     document.documentElement.getAttribute('data-a11y-text'))).toBe('large');
 });
 
-test('17h — a 404 lands on the app in the reader\'s language, with the same drawer', async ({ browser }) => {
-  const context = await browser.newContext();
-  _lastCtx = context;
-  const page = await context.newPage();
-  await page.goto(BASE + '404.html');
-  await expect(page.locator('body')).toBeVisible();
+test('17h — a 404 does not redirect: it keeps the URL, the shared chrome and the drawer',
+  async ({ browser }) => {
+    const context = await browser.newContext();
+    _lastCtx = context;
+    const page = await context.newPage();
+    const response = await page.goto(BASE + 'no-existe.html');
+    await expect(page.locator('body')).toBeVisible();
 
-  /* Sinonimia is a hash-router app, so 404.html does not show a page of its
-     own: js/404-redirect.js sends the reader to index.html with the hash of
-     their language. The 404 page's own text never reaches anyone. What has
-     to work is that the reader lands on the app, in their language, and that
-     the shared drawer is there to change it. */
-  await page.waitForURL(/#\/es\//, { timeout: NAV_TIMEOUT });
-  await expect(page.locator('#word-list')).toBeVisible({ timeout: NAV_TIMEOUT });
+    /* Cloudflare serves 404.html at the URL that was asked for, with the 404
+       status, and the page does NOT redirect into the hash-router app: the
+       redirect (js/404-redirect.js) is gone. The canonical smoke
+       (tests/smoke.spec.js) already checks the status, the chrome and the
+       root-absolute way back; what belongs to this app is that the URL is
+       left alone and that the shared drawer — the same ⚙️ the app uses, with
+       the language as its first row — is there to change the language. */
+    expect(response.status()).toBe(404);
+    expect(page.url()).toContain('no-existe.html');
+    expect(page.url()).not.toContain('#/');
 
-  // Same single gear as the app, and no leftover per-page controls.
-  await expect(page.locator('.locale-settings-trigger')).toHaveCount(1);
-  await expect(page.locator('#contraste-toggle')).toHaveCount(0);
-  await expect(page.locator('#letra-mas')).toHaveCount(0);
+    // Same single gear as the app, and no leftover per-page controls.
+    await expect(page.locator('.locale-settings-trigger')).toHaveCount(1);
+    await expect(page.locator('#contraste-toggle')).toHaveCount(0);
+    await expect(page.locator('#letra-mas')).toHaveCount(0);
 
-  // The language dropdown is the drawer's first row, so the gear has to be
-  // opened to change the language.
-  const languageDrawer = await openSettingsDrawer(page);
-  await languageDrawer.locator('.locale-picker-btn').click();
-  await languageDrawer.locator('.locale-picker-panel li[data-locale="en"]').click();
-
-  // The app repaints in place instead of reloading: the hash changes and the
-  // route repaints, the page stays where it is.
-  await page.waitForURL(/#\/en\//, { timeout: NAV_TIMEOUT });
-  /* The English dictionary arrives asynchronously: the route loads its index
-     and repaints when it does, so the document's language changes then and
-     not when the hash changes. */
-  await expect(page.locator('html')).toHaveAttribute('lang', 'en', { timeout: NAV_TIMEOUT });
-  await expect(page.locator('#word-list')).toBeVisible();
-
-  // And the reading settings work here too, from the same key. The app
-  // repaints in place instead of reloading, so the drawer is still open from
-  // the language switch; openSettingsDrawer() leaves it alone.
-  const drawer = await openSettingsDrawer(page);
-  await drawer.locator('[data-settings-contrast]').check();
-  expect(await page.evaluate(() =>
-    document.documentElement.getAttribute('data-theme'))).toBe('contrast');
-});
+    // The language row is the drawer's first row, so the gear opens it.
+    const drawer = await openSettingsDrawer(page);
+    await expect(drawer.locator('.locale-picker-btn')).toHaveCount(1);
+  });
 
 // ===========================================================================
 // PROGRESS BAR

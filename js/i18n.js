@@ -72,6 +72,13 @@
   function setLocale(loc) {
     if (SUPPORTED.indexOf(loc) === -1) return;
     try { localStorage.setItem(STORAGE_KEY, loc); } catch (e) { /* ignore */ }
+    /* A page that repaints in place registers window.LocalePicker.onChange
+       (the app's hash router rewrites the URL and repaints). Reloading there
+       would undo the change: the reload reads the URL — the hash — and not
+       the preference that was just saved, so the reader would come back to
+       the previous language. The pages without the hook (about/, config/,
+       legal/) have no way to repaint, so they still reload. */
+    if (window.LocalePicker && typeof window.LocalePicker.onChange === 'function') return;
     window.location.reload();
   }
 
