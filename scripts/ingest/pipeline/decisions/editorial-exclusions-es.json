@@ -74290,11 +74290,6 @@
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
   },
   {
-    "id": "evaluacion",
-    "word": "Evaluación",
-    "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
-  },
-  {
     "id": "evaluar",
     "word": "Evaluar",
     "reason": "Candidato incluido en la auditoría editorial; excluir del runtime y de futuras ingestas."
@@ -96526,11 +96521,6 @@
     "id": "ingeniosamente",
     "word": "Ingeniosamente",
     "reason": "Adverbio regular y transparente, explicado únicamente como «con ingenio»; no aporta una acepción difícil independiente."
-  },
-  {
-    "id": "ingenioso",
-    "word": "Ingenioso",
-    "reason": "Adjetivo familiar y transparente; no alcanza el criterio de dificultad independiente para la persona destinataria."
   },
   {
     "id": "ingenuamente",
@@ -151938,11 +151928,6 @@
     "reason": "Resultar is a common verb used for outcomes, consequences, and how things turn out."
   },
   {
-    "id": "resumen",
-    "word": "resumen",
-    "reason": "La palabra y esta acepción son familiares, concretas y comprensibles a primera vista; no cumplen el criterio de dificultad del diccionario."
-  },
-  {
     "id": "resumidamente",
     "word": "Resumidamente",
     "reason": "Adverbio fuera del criterio editorial del diccionario; eliminado."
@@ -158801,11 +158786,6 @@
     "id": "sacrificial",
     "word": "Sacrificial",
     "reason": "Transparent adjective derived from sacrificio."
-  },
-  {
-    "id": "sacrificio",
-    "word": "Sacrificio",
-    "reason": "Common general word with an easily understood core meaning."
   },
   {
     "id": "sacrilegamente",
@@ -193506,5 +193486,2830 @@
     "id": "cafelito",
     "word": "Cafelito",
     "reason": "Es una forma coloquial y transparente de «café», con el diminutivo común -ito. La ficha solo ofrece «café» o «taza de café», conceptos familiares y cotidianos; no aporta una palabra difícil. DLE: https://dle.rae.es/cafelito"
+  },
+  {
+    "id": "abedul",
+    "word": "Abedul",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "abiar",
+    "word": "Abiar",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "abrepuno",
+    "word": "Abrepuño",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "ahogaviejas",
+    "word": "Ahogaviejas",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "ajebe",
+    "word": "Ajebe",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "albarcoquero",
+    "word": "Albarcoquero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "albaricoquero",
+    "word": "Albaricoquero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alcabota",
+    "word": "Alcabota",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alcamar",
+    "word": "Alcamar",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alcanforero",
+    "word": "Alcanforero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alfilerillo",
+    "word": "Alfilerillo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "algarrobo",
+    "word": "Algarrobo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alhucena",
+    "word": "Alhuceña",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "almacigo",
+    "word": "Almácigo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "altabaquilla",
+    "word": "Altabaquilla",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "altabaquillo",
+    "word": "Altabaquillo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alucon",
+    "word": "Alucón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "anchoa",
+    "word": "Anchoa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "anchova",
+    "word": "Anchova",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "anon",
+    "word": "Anón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "antia",
+    "word": "Antia",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "arabo",
+    "word": "Arabo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "atrapamoscas",
+    "word": "Atrapamoscas",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "auca",
+    "word": "Auca",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "azufaifo",
+    "word": "Azufaifo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "babirusa",
+    "word": "Babirusa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "baniano",
+    "word": "Baniano",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "berberecho",
+    "word": "Berberecho",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "berrendo",
+    "word": "Berrendo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "besugo",
+    "word": "Besugo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "borrico",
+    "word": "Borrico",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "breca",
+    "word": "Breca",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "brotola",
+    "word": "Brótola",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "camamila",
+    "word": "Camamila",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "camelido",
+    "word": "Camélido",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "camomila",
+    "word": "Camomila",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "caracal",
+    "word": "Caracal",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "carambolo",
+    "word": "Carambolo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "carqueja",
+    "word": "Carqueja",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "casia",
+    "word": "Casia",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "catalpa",
+    "word": "Catalpa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cervido",
+    "word": "Cérvido",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "chirimoyo",
+    "word": "Chirimoyo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cigarra",
+    "word": "Cigarra",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "clavero",
+    "word": "Clavero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cogonal",
+    "word": "Cogonal",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "companon",
+    "word": "Compañón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cornejo",
+    "word": "Cornejo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "coronillo",
+    "word": "Coronillo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "crisantemo",
+    "word": "Crisantemo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "grajilla",
+    "word": "Grajilla",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "iguedo",
+    "word": "Igüedo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "bufalo",
+    "word": "Búfalo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "aron",
+    "word": "Aron",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "oliva",
+    "word": "Oliva",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "mostajo",
+    "word": "Mostajo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "artanita",
+    "word": "Artanita",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "arzolla",
+    "word": "Arzolla",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "asnacho",
+    "word": "Asnacho",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "asperilla",
+    "word": "Asperilla",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "brionia",
+    "word": "Brionia",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "calaminta",
+    "word": "Calaminta",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "correyuela",
+    "word": "Correyuela",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "dictamo",
+    "word": "Díctamo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "equiseto",
+    "word": "Equiseto",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "psitacida",
+    "word": "Psitácida",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "viverrido",
+    "word": "Vivérrido",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alpiste",
+    "word": "Alpiste",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "bada",
+    "word": "Bada",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "gradiolo",
+    "word": "Gradíolo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "psitacida-2",
+    "word": "Psitácida",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round3434-malagueta-tree",
+    "word": "Malagueta",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round3567-mesto-rebollo",
+    "word": "Mesto",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "nastuerzo-planta",
+    "word": "Nastuerzo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "avispon",
+    "word": "Avispón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "ayua",
+    "word": "Ayúa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "bovido",
+    "word": "Bóvido",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "coniza",
+    "word": "Coniza",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "mirsinaceo",
+    "word": "Mirsináceo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "caprifoliaceo",
+    "word": "Caprifoliáceo",
+    "reason": "Término que designa un grupo taxonómico de plantas o animales; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cupresaceo",
+    "word": "Cupresáceo",
+    "reason": "Término que designa un grupo taxonómico de plantas o animales; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "felido",
+    "word": "Félido",
+    "reason": "Término que designa un grupo taxonómico de plantas o animales; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "moraceo",
+    "word": "Moráceo",
+    "reason": "Término que designa un grupo taxonómico de plantas o animales; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "aroideo",
+    "word": "Aroideo",
+    "reason": "Término que designa un grupo taxonómico de plantas o animales; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "colquicaceo",
+    "word": "Colquicáceo",
+    "reason": "Término que designa un grupo taxonómico de plantas o animales; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cupulifero",
+    "word": "Cupulífero",
+    "reason": "Término que designa un grupo taxonómico de plantas o animales; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "droseraceo",
+    "word": "Droseráceo",
+    "reason": "Término que designa un grupo taxonómico de plantas o animales; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "equisetaceo",
+    "word": "Equisetáceo",
+    "reason": "Término que designa un grupo taxonómico de plantas o animales; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "mirtaceo",
+    "word": "Mirtáceo",
+    "reason": "Término que designa un grupo taxonómico de plantas o animales; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "monimiaceo",
+    "word": "Monimiáceo",
+    "reason": "Término que designa un grupo taxonómico de plantas o animales; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "oxalidaceo",
+    "word": "Oxalidáceo",
+    "reason": "Término que designa un grupo taxonómico de plantas o animales; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pontederiaceo",
+    "word": "Pontederiáceo",
+    "reason": "Término que designa un grupo taxonómico de plantas o animales; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "campanulaceo",
+    "word": "Campanuláceo",
+    "reason": "Término que designa un grupo taxonómico de plantas o animales; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "fagaceo",
+    "word": "Fagáceo",
+    "reason": "Término que designa un grupo taxonómico de plantas o animales; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "oleaceo",
+    "word": "Oleáceo",
+    "reason": "Término que designa un grupo taxonómico de plantas o animales; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "sapotaceo",
+    "word": "Sapotáceo",
+    "reason": "Término que designa un grupo taxonómico de plantas o animales; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "verbenaceo",
+    "word": "Verbenáceo",
+    "reason": "Término que designa un grupo taxonómico de plantas o animales; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round2482-malvaceo",
+    "word": "Malváceo",
+    "reason": "Término que designa una familia botánica de plantas; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "abietaceo",
+    "word": "Abietáceo",
+    "reason": "Término que designa un grupo taxonómico de árboles o plantas; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "yuglandaceo",
+    "word": "Yuglandáceo",
+    "reason": "Término que designa un grupo taxonómico de árboles o plantas; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "aborton",
+    "word": "Abortón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "abrunal",
+    "word": "Abrunal",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "acalia",
+    "word": "Acalia",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "acantio",
+    "word": "Acantio",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "acebuche",
+    "word": "Acebuche",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "acebuchina",
+    "word": "Acebuchina",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "acerola",
+    "word": "Acerola",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "acerolo",
+    "word": "Acerolo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "acetin",
+    "word": "Acetín",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "acaro",
+    "word": "Ácaro",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "acridido",
+    "word": "Acrídido",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "agerato",
+    "word": "Agérato",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "agnocasto",
+    "word": "Agnocasto",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "agracejina",
+    "word": "Agracejina",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "agrazon",
+    "word": "Agrazón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "agrecillo",
+    "word": "Agrecillo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "agreta",
+    "word": "Agreta",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "agriaz",
+    "word": "Agriaz",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "agrifolio",
+    "word": "Agrifolio",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "agrion",
+    "word": "Agrión",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "aguamala",
+    "word": "Aguamala",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "aguamar",
+    "word": "Aguamar",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "aguin",
+    "word": "Aguín",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "ailanto",
+    "word": "Ailanto",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alacranera",
+    "word": "Alacranera",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "aladierno",
+    "word": "Aladierno",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "aladroque",
+    "word": "Aladroque",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alarguez",
+    "word": "Alarguez",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alaterno",
+    "word": "Alaterno",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alatonero",
+    "word": "Alatonero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "albacora",
+    "word": "Albacora",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "albacoron",
+    "word": "Albacorón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "albaida",
+    "word": "Albaida",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "albardin",
+    "word": "Albardín",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "albarillo",
+    "word": "Albarillo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "albarrana",
+    "word": "Albarrana",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alberchiga",
+    "word": "Albérchiga",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alberchigo",
+    "word": "Albérchigo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alberchiguero",
+    "word": "Alberchiguero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "albercoque",
+    "word": "Albercoque",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "albercoquero",
+    "word": "Albercoquero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alberge",
+    "word": "Alberge",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alberguero",
+    "word": "Alberguero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "albericoque",
+    "word": "Albericoque",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "albihar",
+    "word": "Albihar",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alboheza",
+    "word": "Alboheza",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alcacel",
+    "word": "Alcacel",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alcacer",
+    "word": "Alcacer",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alcaparron",
+    "word": "Alcaparrón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alcohela",
+    "word": "Alcohela",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alcotan",
+    "word": "Alcotán",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alferraz",
+    "word": "Alferraz",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alfostiga",
+    "word": "Alfóstiga",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "algarroba",
+    "word": "Algarroba",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "algavaro",
+    "word": "Algavaro",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alhandal",
+    "word": "Alhandal",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alicantara",
+    "word": "Alicántara",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alimania",
+    "word": "Alimania",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alimana",
+    "word": "Alimaña",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alimo",
+    "word": "Álimo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "almendrolon",
+    "word": "Almendrolón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "almendruco",
+    "word": "Almendruco",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alosa",
+    "word": "Alosa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alpicoz",
+    "word": "Alpicoz",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "altamandria",
+    "word": "Altamandría",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "altamisa",
+    "word": "Altamisa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alubia",
+    "word": "Alubia",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "alverjana",
+    "word": "Alverjana",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "amargaleja",
+    "word": "Amargaleja",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "amia",
+    "word": "Amia",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "amiesgado",
+    "word": "Amiésgado",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "amonita",
+    "word": "Amonita",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "amonites",
+    "word": "Amonites",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "anavia",
+    "word": "Anavia",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "ancusa",
+    "word": "Ancusa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "andarrios",
+    "word": "Andarríos",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "andrina",
+    "word": "Andrina",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "anemone",
+    "word": "Anemone",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "aneto",
+    "word": "Aneto",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "anfineuro",
+    "word": "Anfineuro",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "angelote",
+    "word": "Angelote",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "angiospermo",
+    "word": "Angiospermo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "anguilla",
+    "word": "Anguilla",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "anopluro",
+    "word": "Anopluro",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "anseriforme",
+    "word": "Anseriforme",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "antozoo",
+    "word": "Antozoo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "aquifoliaceo",
+    "word": "Aquifoliáceo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "aracnido",
+    "word": "Arácnido",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "arangorri",
+    "word": "Arangorri",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "arcea",
+    "word": "Arcea",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "ardea",
+    "word": "Árdea",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "ardeviejas",
+    "word": "Ardeviejas",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "arduran",
+    "word": "Ardurán",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "arisaro",
+    "word": "Arísaro",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "aristoloquia",
+    "word": "Aristoloquia",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "aristoloquiaceo",
+    "word": "Aristoloquiáceo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "arjoran",
+    "word": "Arjorán",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "arquiptero",
+    "word": "Arquíptero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "arroyuela",
+    "word": "Arroyuela",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "artropodo",
+    "word": "Artrópodo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "arugas",
+    "word": "Arugas",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "asarabacara",
+    "word": "Asarabácara",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "asarero",
+    "word": "Asarero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "asciro",
+    "word": "Ásciro",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "aspidistra",
+    "word": "Aspidistra",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "asturion",
+    "word": "Asturión",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "atabaca",
+    "word": "Atabaca",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "atahorma",
+    "word": "Atahorma",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "atramuz",
+    "word": "Atramuz",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "avechucho",
+    "word": "Avechucho",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "avellana",
+    "word": "Avellana",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "azofaifo",
+    "word": "Azofaifo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "azufaifa",
+    "word": "Azufaifa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "babosilla",
+    "word": "Babosilla",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "badian",
+    "word": "Badián",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "baladre",
+    "word": "Baladre",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "barbo",
+    "word": "Barbo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "barceo",
+    "word": "Barceo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "barza",
+    "word": "Barza",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "batracio",
+    "word": "Batracio",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "baya",
+    "word": "Baya",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "belua",
+    "word": "Belua",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "berbero",
+    "word": "Bérbero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "bergamota",
+    "word": "Bergamota",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "bergamoto",
+    "word": "Bergamoto",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "boje",
+    "word": "Boje",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "borto",
+    "word": "Borto",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "breva",
+    "word": "Breva",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "brinon",
+    "word": "Briñón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "brusela",
+    "word": "Brusela",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "buganvilia",
+    "word": "Buganvilia",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "bujo",
+    "word": "Bujo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "bulbul",
+    "word": "Bulbul",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cabracho",
+    "word": "Cabracho",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cabrilla",
+    "word": "Cabrilla",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cacatua",
+    "word": "Cacatúa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cachipolla",
+    "word": "Cachipolla",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "camuesa",
+    "word": "Camuesa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "canclon",
+    "word": "Canclón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "capiton",
+    "word": "Capitón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "carabo",
+    "word": "Cárabo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "carambola",
+    "word": "Carambola",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "caramel",
+    "word": "Caramel",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cardencha",
+    "word": "Cardencha",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "carquesia",
+    "word": "Carquesia",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "carrasquilla",
+    "word": "Carrasquilla",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "carrizo",
+    "word": "Carrizo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cartamo",
+    "word": "Cártamo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "casuar",
+    "word": "Casuar",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cauchero-rubber-producing-plant",
+    "word": "Cauchero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cazon",
+    "word": "Cazón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cebada",
+    "word": "Cebada",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cefalo",
+    "word": "Céfalo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cefalopodo",
+    "word": "Cefalópodo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cespede",
+    "word": "Céspede",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "chanquete",
+    "word": "Chanquete",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "charran",
+    "word": "Charrán",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "chinche",
+    "word": "Chinche",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "chirla",
+    "word": "Chirla",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "chordon-raspberry-fruit",
+    "word": "Chordón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "chordon",
+    "word": "Chordón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "chusbarba",
+    "word": "Chusbarba",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cinife",
+    "word": "Cínife",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "colimbo",
+    "word": "Colimbo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "colirrojo",
+    "word": "Colirrojo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "colocasia",
+    "word": "Colocasia",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "colza",
+    "word": "Colza",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "comadreja",
+    "word": "Comadreja",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "coquina",
+    "word": "Coquina",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "coquino-2",
+    "word": "Coquino",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "coquino",
+    "word": "Coquino",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "corno",
+    "word": "Corno",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "corrosal",
+    "word": "Corrosal",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cortega",
+    "word": "Cortega",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "coruja",
+    "word": "Coruja",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "corvina",
+    "word": "Corvina",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "crocodilo",
+    "word": "Crocodilo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "crustaceo",
+    "word": "Crustáceo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "ctenoforo",
+    "word": "Ctenóforo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cuculiforme",
+    "word": "Cuculiforme",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cuatropea-four-footed-animal-1378",
+    "word": "Cuatropea",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "cruza-result-of-crossbreeding",
+    "word": "Cruza",
+    "reason": "Nombre de un animal híbrido o de una variedad resultante del cruce de razas; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "detienebuey",
+    "word": "Detienebuey",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "diaquenio",
+    "word": "Diaquenio",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "dibranquial",
+    "word": "Dibranquial",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "dionea",
+    "word": "Dionea",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "dondiego",
+    "word": "Dondiego",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "dulcamara",
+    "word": "Dulcamara",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "elaterio",
+    "word": "Elaterio",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "emperador-pez",
+    "word": "Emperador",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "endrina",
+    "word": "Endrina",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "endrino",
+    "word": "Endrino",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "enebrina",
+    "word": "Enebrina",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "enebro",
+    "word": "Enebro",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "enredadera",
+    "word": "Enredadera",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "eperlano",
+    "word": "Eperlano",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "equisetineo",
+    "word": "Equisetíneo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "eringe",
+    "word": "Eringe",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "eritroxilaceo",
+    "word": "Eritroxiláceo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "ervato",
+    "word": "Ervato",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "escabiosa",
+    "word": "Escabiosa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round2458-escatofago-animal",
+    "word": "Escatófago",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round2476-escualido-zoologia",
+    "word": "Escuálido",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round2476-escualo",
+    "word": "Escualo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round2477-escudete-nenufar",
+    "word": "Escudete",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round2478-escuerzo-anfibio",
+    "word": "Escuerzo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round2480-escupina-molusco",
+    "word": "Escupiña",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round2481-escusa-res-pastor",
+    "word": "Escusa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "esfenisciforme",
+    "word": "Esfenisciforme",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round2492-espadin-fish",
+    "word": "Espadín",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "esparraguera",
+    "word": "Esparraguera",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "esparver",
+    "word": "Esparver",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "estramonio",
+    "word": "Estramonio",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "esturion",
+    "word": "Esturión",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "falaris",
+    "word": "Falaris",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "falaropo",
+    "word": "Falaropo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "falconete",
+    "word": "Falconete",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "faneca",
+    "word": "Faneca",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "fenogreco",
+    "word": "Fenogreco",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "fiera",
+    "word": "Fiera",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "filipendula",
+    "word": "Filipéndula",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "filoxera",
+    "word": "Filoxera",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "fletan",
+    "word": "Fletán",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "flora",
+    "word": "Flora",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "floripondio",
+    "word": "Floripondio",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "freson",
+    "word": "Fresón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "fulica",
+    "word": "Fúlica",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "gardenia",
+    "word": "Gardenia",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "genciana",
+    "word": "Genciana",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "gerbera",
+    "word": "Gerbera",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "geofago",
+    "word": "Geófago",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "glayo",
+    "word": "Glayo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "golondrinera",
+    "word": "Golondrinera",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "granadilla",
+    "word": "Granadilla",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round2867-granadilla-plant",
+    "word": "Granadilla",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "grosella",
+    "word": "Grosella",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "gruiforme",
+    "word": "Gruiforme",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round2909-guasa-fish",
+    "word": "Guasa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "guindilla",
+    "word": "Guindilla",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "hayuco",
+    "word": "Hayuco",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "hierbaluisa",
+    "word": "Hierbaluisa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "higuerilla",
+    "word": "Higuerilla",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "himenoptero",
+    "word": "Himenóptero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "iguanido",
+    "word": "Iguánido",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "invertebrado",
+    "word": "Invertebrado",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round3209-isoptero-termita",
+    "word": "Isóptero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "jara",
+    "word": "Jara",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "jojoba",
+    "word": "Jojoba",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "junipero",
+    "word": "Junípero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "junquera",
+    "word": "Junquera",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "jurel",
+    "word": "Jurel",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "jusbarba",
+    "word": "Jusbarba",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "kiwi",
+    "word": "Kiwi",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "lada",
+    "word": "Lada",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "ladilla",
+    "word": "Ladilla",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round3288-lagarta-lizard",
+    "word": "Lagarta",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "lampuga",
+    "word": "Lampuga",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "lariforme",
+    "word": "Lariforme",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "laurel",
+    "word": "Laurel",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "lenguado",
+    "word": "Lenguado",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "lentisco",
+    "word": "Lentisco",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "lepidoptero",
+    "word": "Lepidóptero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "lepisma",
+    "word": "Lepisma",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "ligustro",
+    "word": "Ligustro",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round3355-lija-fish",
+    "word": "Lija",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "lila",
+    "word": "Lila",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "liliaceo",
+    "word": "Liliáceo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "limaco",
+    "word": "Limaco",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "limon",
+    "word": "Limón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "linaloe",
+    "word": "Lináloe",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round3368-lisa-freshwater",
+    "word": "Lisa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "lisa",
+    "word": "Lisa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "lobina",
+    "word": "Lobina",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "lucio",
+    "word": "Lucio",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round3398-luma-fruit",
+    "word": "Luma",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "macho",
+    "word": "Macho",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "magnolia",
+    "word": "Magnolia",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "maleza",
+    "word": "Maleza",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "manguruyu",
+    "word": "Manguruyú",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "mariposa",
+    "word": "Mariposa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round3489-mariquita-bird",
+    "word": "Mariquita",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "mariquita",
+    "word": "Mariquita",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "marrubio",
+    "word": "Marrubio",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "martagon",
+    "word": "Martagón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round3498-martinete-bird",
+    "word": "Martinete",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "marzoleta",
+    "word": "Marzoleta",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "marzoleto",
+    "word": "Marzoleto",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "mastuerzo",
+    "word": "Mastuerzo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "matalahuva",
+    "word": "Matalahúva",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "medusa",
+    "word": "Medusa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "melisa",
+    "word": "Melisa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "melocoton",
+    "word": "Melocotón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "melva",
+    "word": "Melva",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "membrillero",
+    "word": "Membrillero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "membrillo",
+    "word": "Membrillo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round3567-mesto-aladierna",
+    "word": "Mesto",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "metazoo",
+    "word": "Metazoo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "microfito",
+    "word": "Micrófito",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "milano",
+    "word": "Milano",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "milano-2",
+    "word": "Milano",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "milano-3",
+    "word": "Milano",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "milenrama",
+    "word": "Milenrama",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "miloca",
+    "word": "Miloca",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "mimosa",
+    "word": "Mimosa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "mimosaceo",
+    "word": "Mimosáceo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "miosotis",
+    "word": "Miosotis",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "mirabolano-2",
+    "word": "Mirabolano",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "miramelindos",
+    "word": "Miramelindos",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "miriapodo",
+    "word": "Miriápodo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "miristica",
+    "word": "Mirística",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "mirobalano",
+    "word": "Mirobálano",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "mirobalano-2",
+    "word": "Mirobálano",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "mofeta",
+    "word": "Mofeta",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "mogon",
+    "word": "Mogón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "mojarra",
+    "word": "Mojarra",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "molusco",
+    "word": "Molusco",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "momordiga",
+    "word": "Momórdiga",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "morito",
+    "word": "Morito",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "moscareta",
+    "word": "Moscareta",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "muergo",
+    "word": "Muergo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "nabicol",
+    "word": "Nabicol",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "nastuerzo-berro",
+    "word": "Nastuerzo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "navaja",
+    "word": "Navaja",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "nebrina",
+    "word": "Nebrina",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "necrofago",
+    "word": "Necrófago",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "nectarino",
+    "word": "Nectarino",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "nepente",
+    "word": "Nepente",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "oblada-pez",
+    "word": "Oblada",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "ocra",
+    "word": "Ocra",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "olivarda",
+    "word": "Olivarda",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "olivillo",
+    "word": "Olivillo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "onagra",
+    "word": "Onagra",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "ontina",
+    "word": "Ontina",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "orobanca",
+    "word": "Orobanca",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "oropendola",
+    "word": "Oropéndola",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "orozuz",
+    "word": "Orozuz",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "ortiga",
+    "word": "Ortiga",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "osteictio",
+    "word": "Osteíctio",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "ostra",
+    "word": "Ostra",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pacana-fruto",
+    "word": "Pacana",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "palmacristi",
+    "word": "Palmacristi",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "palomina-fumaria",
+    "word": "Palomina",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "papiro",
+    "word": "Papiro",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pardillo-3",
+    "word": "Pardillo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pargo",
+    "word": "Pargo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pasiflora",
+    "word": "Pasiflora",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "oviparo",
+    "word": "Ovíparo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pasto",
+    "word": "Pasto",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pasto-2",
+    "word": "Pasto",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pastura",
+    "word": "Pastura",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pataca-2",
+    "word": "Pataca",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "paulonia",
+    "word": "Paulonia",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pava",
+    "word": "Pava",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pavia-2",
+    "word": "Pavía",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pavon",
+    "word": "Pavón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pechirrojo",
+    "word": "Pechirrojo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pegamoscas",
+    "word": "Pegamoscas",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pegote-2",
+    "word": "Pegote",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pejerrey",
+    "word": "Pejerrey",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pejesapo",
+    "word": "Pejesapo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "peladillo-2",
+    "word": "Peladillo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pelargonio",
+    "word": "Pelargonio",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pelitre",
+    "word": "Pelitre",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "peonia",
+    "word": "Peonía",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "peranton",
+    "word": "Perantón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "perifollo",
+    "word": "Perifollo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "perpetuo-4",
+    "word": "Perpetuo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pervinca",
+    "word": "Pervinca",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "picudo-2",
+    "word": "Picudo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pimpinela",
+    "word": "Pimpinela",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pintarroja",
+    "word": "Pintarroja",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "piojo",
+    "word": "Piojo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "piojo-2",
+    "word": "Piojo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "piretro",
+    "word": "Piretro",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pitahaya-2",
+    "word": "Pitahaya",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "planton-2",
+    "word": "Plantón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "platanero-2",
+    "word": "Platanero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "platija",
+    "word": "Platija",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "poligala",
+    "word": "Polígala",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "polivalvo",
+    "word": "Polivalvo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "poma",
+    "word": "Poma",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pomelo",
+    "word": "Pomelo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "poncil",
+    "word": "Poncil",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "porifero",
+    "word": "Porífero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "porifero-2",
+    "word": "Porífero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "predador",
+    "word": "Predador",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "primula",
+    "word": "Prímula",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pruna",
+    "word": "Pruna",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "psitaciforme",
+    "word": "Psitaciforme",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "psitaciforme-2",
+    "word": "Psitaciforme",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pteridofito",
+    "word": "Pteridófito",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pteridofito-2",
+    "word": "Pteridófito",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pterodactilo",
+    "word": "Pterodáctilo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "pulmonado",
+    "word": "Pulmonado",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "purpurea",
+    "word": "Purpúrea",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "quebrantapiedras-2",
+    "word": "Quebrantapiedras",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "quinoto",
+    "word": "Quinoto",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "quinoto-2",
+    "word": "Quinoto",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "quitameriendas",
+    "word": "Quitameriendas",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "rabihorcado",
+    "word": "Rabihorcado",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "rabilargo",
+    "word": "Rabilargo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "rabon",
+    "word": "Rabón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "raya",
+    "word": "Raya",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "ratania",
+    "word": "Ratania",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "reduvio",
+    "word": "Reduvio",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "reiforme",
+    "word": "Reiforme",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "remora",
+    "word": "Rémora",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "rezandero-feminine-name-for-mantis",
+    "word": "Rezandero",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "ricio",
+    "word": "Ricio",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "robalo",
+    "word": "Róbalo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "rodal-3",
+    "word": "Rodal",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "rododendro",
+    "word": "Rododendro",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "romaza",
+    "word": "Romaza",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "rombo",
+    "word": "Rombo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "rosadelfa",
+    "word": "Rosadelfa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "rosadelfa-2",
+    "word": "Rosadelfa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "rosmarino",
+    "word": "Rosmarino",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "ruibarbo",
+    "word": "Ruibarbo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "rumiante-2",
+    "word": "Rumiante",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "sabalo",
+    "word": "Sábalo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "sabandija",
+    "word": "Sabandija",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "sabugo",
+    "word": "Sabugo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "sacabera",
+    "word": "Sacabera",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "salema",
+    "word": "Salema",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "salgada",
+    "word": "Salgada",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "salmonete",
+    "word": "Salmonete",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "sanguijuela",
+    "word": "Sanguijuela",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "santateresa",
+    "word": "Santateresa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "santimonia-planta",
+    "word": "Santimonia",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "sargo",
+    "word": "Sargo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "sauce",
+    "word": "Sauce",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "saurio",
+    "word": "Saurio",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "sauzgatillo",
+    "word": "Sauzgatillo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "sebe-asturian-living-hedge",
+    "word": "Sebe",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "sebesten-edible-fruit",
+    "word": "Sebestén",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "selacio",
+    "word": "Selacio",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "semental",
+    "word": "Semental",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "sepia",
+    "word": "Sepia",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "siluro",
+    "word": "Siluro",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "silva-zarza-en-salamanca",
+    "word": "Silva",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "solipedo",
+    "word": "Solípedo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "tangerina",
+    "word": "Tangerina",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "tartago",
+    "word": "Tártago",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "tellina",
+    "word": "Tellina",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "round5103-tijereta-bird",
+    "word": "Tijereta",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "tijereta",
+    "word": "Tijereta",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "tijerilla",
+    "word": "Tijerilla",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "tilo",
+    "word": "Tilo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "tipa",
+    "word": "Tipa",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "tipula",
+    "word": "Típula",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "toba-thistle",
+    "word": "Toba",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "tijeruela",
+    "word": "Tijeruela",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "toronja",
+    "word": "Toronja",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "toronjil",
+    "word": "Toronjil",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "toronjo",
+    "word": "Toronjo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "torpedo-electric-fish",
+    "word": "Torpedo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "totovia",
+    "word": "Totovía",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "triton-anfibio",
+    "word": "Tritón",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "tunal",
+    "word": "Tunal",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "tunicado-soft-bodied-marine-animal",
+    "word": "Tunicado",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "verdel",
+    "word": "Verdel",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "vieira",
+    "word": "Vieira",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "viviparo",
+    "word": "Vivíparo",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "yute",
+    "word": "Yute",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
+  },
+  {
+    "id": "zapote-edible-fruit",
+    "word": "Zapote",
+    "reason": "Nombre de una planta, árbol, fruto o animal; se excluye según el criterio editorial de alcance actualizado en 2026-11-24."
   }
 ]

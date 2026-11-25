@@ -162,6 +162,14 @@ definición del diccionario externo.
   a candidatas de todas las fuentes, igual que los demás filtros. La
   frecuencia es una señal para detectarlas, no el único criterio; una
   palabra frecuente puede tener una acepción difícil que sí merece entrada.
+- Descarta las palabras que nombran plantas, árboles, frutas o animales,
+  incluidos los términos que designan una especie o un grupo taxonómico de
+  esos organismos. Son vocabulario de conocimiento natural fuera del alcance
+  de este diccionario. Aplica el filtro por el significado de cada ficha, no
+  por coincidencias parciales del lema. Conserva una acepción distinta que
+  sea abstracta, médica o propia de los ámbitos del diccionario cuando nombre
+  un proceso, una afección o un concepto independiente, no el organismo ni su
+  grupo (por ejemplo, una enfermedad causada por un animal).
 - Descarta las formas verbales conjugadas; conserva solo el infinitivo
   correspondiente.
 - Descarta palabras inventadas o inválidas que no tengan una entrada

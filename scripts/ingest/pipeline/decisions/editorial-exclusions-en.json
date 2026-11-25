@@ -149902,5 +149902,3285 @@
     "id": "chronic-illness",
     "word": "Chronic illness",
     "reason": "A transparent combination meaning a long-term illness; its sense is easy to infer from the two common words."
+  },
+  {
+    "id": "caprifoliaceous",
+    "word": "caprifoliaceous",
+    "reason": "Names a botanical taxonomic group; excluded under the editorial scope criterion updated 2026-11-24."
+  },
+  {
+    "id": "saxifragaceous",
+    "word": "Saxifragaceous",
+    "reason": "Names a botanical taxonomic group; excluded under the editorial scope criterion updated 2026-11-24."
+  },
+  {
+    "id": "round2473-magnoliaceous",
+    "word": "magnoliaceous",
+    "reason": "Names a botanical taxonomic group; excluded under the editorial scope criterion updated 2026-11-24."
+  },
+  {
+    "id": "borage-family-adj",
+    "word": "borage",
+    "reason": "Names a botanical taxonomic group; excluded under the editorial scope criterion updated 2026-11-24."
+  },
+  {
+    "id": "round3318-absinthe-wormwood",
+    "word": "absinthe",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "acacia",
+    "word": "Acacia",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "acerola",
+    "word": "Acerola",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "agave",
+    "word": "Agave",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "almond-tree-2",
+    "word": "Almond tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "alpaca",
+    "word": "alpaca",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "alpine-poplar-2",
+    "word": "Alpine poplar",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "ammonite",
+    "word": "Ammonite",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "amphibian",
+    "word": "Amphibian",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "anchovy",
+    "word": "Anchovy",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round3438-anemone-sea",
+    "word": "Anemone",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "anemone",
+    "word": "Anemone",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "antelope",
+    "word": "Antelope",
+    "reason": "Name of an animal or taxonomic group; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "anuran",
+    "word": "Anuran",
+    "reason": "Name of an animal or taxonomic group; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "arachnid",
+    "word": "Arachnid",
+    "reason": "Name of an animal or taxonomic group; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round3499-archangel-plant",
+    "word": "Archangel",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round3505-argonaut-nautilus",
+    "word": "Argonaut",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "armadillo",
+    "word": "Armadillo",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round3516-arrowroot-plant",
+    "word": "Arrowroot",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "artiodactyl",
+    "word": "Artiodactyl",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round3523-ash-tree",
+    "word": "Ash",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "ash-tree",
+    "word": "Ash tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "avifauna",
+    "word": "Avifauna",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "balata",
+    "word": "Balata",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "balsaminaceous",
+    "word": "Balsaminaceous",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "banana-tree-2",
+    "word": "Banana tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "banyan",
+    "word": "Banyan",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "baobab",
+    "word": "Baobab",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "barbel",
+    "word": "Barbel",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "barberry-3",
+    "word": "Barberry",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "barnacle",
+    "word": "Barnacle",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "barracuda",
+    "word": "Barracuda",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bass",
+    "word": "Bass",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "basswood",
+    "word": "Basswood",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bat",
+    "word": "Bat",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bedbug",
+    "word": "Bedbug",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bee",
+    "word": "Bee",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "beech",
+    "word": "Beech",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "beechnut",
+    "word": "Beechnut",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "begoniaceous",
+    "word": "Begoniaceous",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bellflower",
+    "word": "Bellflower",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "benzoin-2",
+    "word": "Benzoin",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "berberis",
+    "word": "Berberis",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bergamot",
+    "word": "Bergamot",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bergamot-3",
+    "word": "Bergamot",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bergamot-orange",
+    "word": "Bergamot orange",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "berry",
+    "word": "Berry",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "betony",
+    "word": "Betony",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "betony-2",
+    "word": "Betony",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "betulaceous",
+    "word": "Betulaceous",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "biennial-3",
+    "word": "Biennial",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bigeye",
+    "word": "Bigeye",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bignonia-2",
+    "word": "Bignonia",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bignonia",
+    "word": "Bignonia",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bindweed",
+    "word": "Bindweed",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "biped",
+    "word": "Biped",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "birch",
+    "word": "Birch",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bittern",
+    "word": "Bittern",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "black-fly",
+    "word": "Black fly",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "blackthorn",
+    "word": "Blackthorn",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bloodhound",
+    "word": "Bloodhound",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bloodsucker",
+    "word": "Bloodsucker",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bombacaceous",
+    "word": "Bombacaceous",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bonefish",
+    "word": "Bonefish",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bonefish-2",
+    "word": "Bonefish",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "borage",
+    "word": "Borage",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "borage-2",
+    "word": "Borage",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "borraginaceous",
+    "word": "Borraginaceous",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "boronia",
+    "word": "Boronia",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bougainvillea",
+    "word": "Bougainvillea",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bovid",
+    "word": "Bovid",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bovine-animal",
+    "word": "Bovine",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "boxwood",
+    "word": "Boxwood",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "brachiopod",
+    "word": "Brachiopod",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "brachyurus",
+    "word": "Brachyuran",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bream-sea",
+    "word": "Bream",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bream",
+    "word": "Bream",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "breed-noun",
+    "word": "Breed",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bromeliad",
+    "word": "Bromeliad",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "broom-plant",
+    "word": "Broom",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bryony",
+    "word": "Bryony",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "buck",
+    "word": "Buck",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "buffalo",
+    "word": "Buffalo",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "bug",
+    "word": "Bug",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "burbot",
+    "word": "Burbot",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "buttercup",
+    "word": "Buttercup",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "calabash-tree",
+    "word": "Calabash tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "caltrop",
+    "word": "Caltrop",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "camelid",
+    "word": "Camelid",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "camelina",
+    "word": "Camelina",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "camera-2",
+    "word": "Camera",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "camphor-tree",
+    "word": "Camphor tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "canine-animal",
+    "word": "Canine",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "canistel-fruit",
+    "word": "Canistel",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "canistel",
+    "word": "Canistel",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cannabis",
+    "word": "Cannabis",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "caper-4",
+    "word": "Caper",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "carob",
+    "word": "Carob",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "carob-edible-pod",
+    "word": "Carob",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cassia",
+    "word": "Cassia",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "catalpa",
+    "word": "Catalpa",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "catfish",
+    "word": "Catfish",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "ceiba",
+    "word": "Ceiba",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "century-plant",
+    "word": "Century plant",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cephalopod",
+    "word": "Cephalopod",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cervid",
+    "word": "Cervid",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "chamomile-2",
+    "word": "Chamomile",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "chasteberry",
+    "word": "Chasteberry",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "chervil",
+    "word": "Chervil",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "chestnut",
+    "word": "Chestnut",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "chestnut-4",
+    "word": "Chestnut",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "chick",
+    "word": "Chick",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "chick-2",
+    "word": "Chick",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "chokeberry",
+    "word": "Chokeberry",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "chrysanthemum",
+    "word": "Chrysanthemum",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "chub",
+    "word": "Chub",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cicada",
+    "word": "Cicada",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "citron",
+    "word": "Citron",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "clematis",
+    "word": "Clematis",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "coati",
+    "word": "Coati",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "coati-2",
+    "word": "Coati",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "coca",
+    "word": "Coca",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "coccinella",
+    "word": "Coccinella",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cocoa-tree",
+    "word": "Cocoa tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "coconut-tree-2",
+    "word": "Coconut tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cocoplum",
+    "word": "Cocoplum",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cocoyam",
+    "word": "Cocoyam",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cole",
+    "word": "Cole",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "columbiform",
+    "word": "Columbiform",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "common-barberry",
+    "word": "Common barberry",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "common-pandora",
+    "word": "Common pandora",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "conch",
+    "word": "Conch",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cone-seed-bearing-fruit-of-a-conifer",
+    "word": "Cone",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "coral-snake",
+    "word": "Coral snake",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cork-oak",
+    "word": "Cork oak",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cormorant",
+    "word": "Cormorant",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "costus",
+    "word": "Costus",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "crab",
+    "word": "Crab",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "crane",
+    "word": "Crane",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "creeper",
+    "word": "Creeper",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "crested-caracara",
+    "word": "Crested caracara",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "croaker-2",
+    "word": "Croaker",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "crocodile",
+    "word": "Crocodile",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "crop",
+    "word": "Crop",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cross-hybrid",
+    "word": "cross",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "crustacean",
+    "word": "crustacean",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cuckoo",
+    "word": "cuckoo",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cuculiform",
+    "word": "Cuculiform",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cucumber-4",
+    "word": "cucumber",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cucumber",
+    "word": "Cucumber",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cucumber-tree",
+    "word": "cucumber tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cultivar",
+    "word": "Cultivar",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cupuliferous",
+    "word": "Cupuliferous",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "currant-berry",
+    "word": "currant",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "currant-bush",
+    "word": "currant",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "custard-apple",
+    "word": "custard apple",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "custard-apple-fruit",
+    "word": "custard apple",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cuttlefish",
+    "word": "cuttlefish",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "cycad",
+    "word": "cycad",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "daddy-longlegs",
+    "word": "daddy longlegs",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "daddy-longlegs-harvestman",
+    "word": "daddy longlegs",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "darner-dragonfly",
+    "word": "darner",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "datura",
+    "word": "Datura",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "decapod",
+    "word": "decapod",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "desman",
+    "word": "Desman",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "dinosaur",
+    "word": "dinosaur",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "diplodocus",
+    "word": "diplodocus",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "dipper",
+    "word": "dipper",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "dogwood",
+    "word": "dogwood",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "donkey",
+    "word": "donkey",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "donkey-3",
+    "word": "donkey",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "donkey-9",
+    "word": "donkey",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "donkey-7",
+    "word": "Donkey",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "earwig",
+    "word": "earwig",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "echidna",
+    "word": "Echidna",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "echinococcus",
+    "word": "Echinococcus",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "eel",
+    "word": "eel",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "electric-eel",
+    "word": "electric eel",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "elemi-2",
+    "word": "Elemi",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "elephant",
+    "word": "Elephant",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "elm",
+    "word": "elm",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "endotherm",
+    "word": "Endotherm",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "eucalyptus",
+    "word": "Eucalyptus",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "evening-primrose",
+    "word": "evening primrose",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "evergreen",
+    "word": "evergreen",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "eyebright",
+    "word": "eyebright",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "fagaceae",
+    "word": "Fagaceae",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "falconid",
+    "word": "Falconid",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "falconiform",
+    "word": "falconiform",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "fauna",
+    "word": "fauna",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "feline-2",
+    "word": "feline",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "fennel",
+    "word": "fennel",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "fenugreek",
+    "word": "fenugreek",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "ferret",
+    "word": "ferret",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "finch",
+    "word": "finch",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "finch-2",
+    "word": "finch",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "flatworm",
+    "word": "flatworm",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "fleur-de-lis",
+    "word": "fleur de lis",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "flounder-2",
+    "word": "flounder",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "flycatcher",
+    "word": "flycatcher",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "flycatcher-2",
+    "word": "flycatcher",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "flytrap-2",
+    "word": "flytrap",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "flora",
+    "word": "flora",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "foxglove",
+    "word": "foxglove",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "frangipani",
+    "word": "Frangipani",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "garden-cress",
+    "word": "garden cress",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "gardenia",
+    "word": "gardenia",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "gastropod",
+    "word": "gastropod",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "genet",
+    "word": "Genet",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "fruit-5",
+    "word": "fruit",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "gladiolus",
+    "word": "gladiolus",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "glutton-2",
+    "word": "glutton",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "goat",
+    "word": "goat",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "gourd",
+    "word": "gourd",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "gourd-3",
+    "word": "gourd",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "grapefruit",
+    "word": "grapefruit",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "grapevine",
+    "word": "grapevine",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "grazer",
+    "word": "grazer",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "greater-celandine",
+    "word": "greater celandine",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "periwinkle-3",
+    "word": "greater periwinkle",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "grebe",
+    "word": "grebe",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "greenery",
+    "word": "greenery",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "grouper",
+    "word": "grouper",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "grouper-3",
+    "word": "grouper",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "grove-2",
+    "word": "Grove",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "grove-3",
+    "word": "Grove",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "guava",
+    "word": "guava",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "guava-4",
+    "word": "guava",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "guava-2",
+    "word": "Guava",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "guava-3",
+    "word": "Guava",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "Guava-round-sweet-tropical-fruit",
+    "word": "Guava",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "gulfweed",
+    "word": "gulfweed",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "gulper",
+    "word": "gulper",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "halibut",
+    "word": "halibut",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "hedge",
+    "word": "hedge",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "heirloom-2",
+    "word": "heirloom",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "heliotrope",
+    "word": "Heliotrope",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "heliotropium",
+    "word": "Heliotropium",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "hemipteran",
+    "word": "hemipteran",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "hemp",
+    "word": "hemp",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "henna-2",
+    "word": "Henna",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "herbage",
+    "word": "Herbage",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "heritage-3",
+    "word": "heritage",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "hermit-2",
+    "word": "hermit",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "heron",
+    "word": "Heron",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "hesperid",
+    "word": "Hesperid",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "hesperidium",
+    "word": "hesperidium",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "hevea",
+    "word": "hevea",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "hexapod",
+    "word": "Hexapod",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "hinny",
+    "word": "Hinny",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "holly",
+    "word": "Holly",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "hollyhock",
+    "word": "Hollyhock",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "horehound",
+    "word": "Horehound",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "hornbill",
+    "word": "Hornbill",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "horse",
+    "word": "Horse",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "horse-mackerel",
+    "word": "Horse mackerel",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "horsetail",
+    "word": "Horsetail",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "hydrangea",
+    "word": "Hydrangea",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "hymenoptera",
+    "word": "Hymenoptera",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "indigo-plant",
+    "word": "Indigo",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "insect",
+    "word": "Insect",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "insectivore",
+    "word": "Insectivore",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "invertebrate",
+    "word": "Invertebrate",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "ipecac",
+    "word": "Ipecac",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "jacaranda",
+    "word": "Jacaranda",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "jackdaw",
+    "word": "Jackdaw",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "jalapeno-plant",
+    "word": "Jalapeno",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "jojoba",
+    "word": "Jojoba",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "jujube",
+    "word": "Jujube",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "jujube-2",
+    "word": "Jujube tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "juniper",
+    "word": "Juniper",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "juniper-2",
+    "word": "Juniper",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2347-jute-plant",
+    "word": "Jute",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "kapok-tree",
+    "word": "Kapok tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "young-oak",
+    "word": "Kermes oak",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "killer-whale",
+    "word": "Killer whale",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2360-kit-animal-young",
+    "word": "Kit",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2360-kite-bird",
+    "word": "Kite",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "kiwi",
+    "word": "Kiwi",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "kola",
+    "word": "Kola",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "kumquat",
+    "word": "Kumquat",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2365-kumquat-tree",
+    "word": "Kumquat",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "labrusca-2",
+    "word": "Labrusca",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "larch",
+    "word": "Larch",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "leafhopper",
+    "word": "Leafhopper",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2402-lemur-broader-zoological",
+    "word": "Lemur",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "lepidopteran",
+    "word": "Lepidopteran",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2390-layer-horticultural-plant",
+    "word": "Layer",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "lilac-3",
+    "word": "Lilac",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "ling",
+    "word": "Ling",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "liquorice",
+    "word": "Liquorice",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "loach",
+    "word": "Loach",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "lobeliaceous",
+    "word": "Lobeliaceous",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "loganiaceous",
+    "word": "Loganiaceous",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "loon",
+    "word": "Loon",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "loon-diving-waterbird",
+    "word": "Loon",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "loon-3",
+    "word": "Loon",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2449-loquat-tree",
+    "word": "Loquat",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "loquat",
+    "word": "Loquat",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "louse",
+    "word": "Louse",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "louse-4",
+    "word": "Louse",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "louse-7",
+    "word": "Louse",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "louse-5",
+    "word": "Louse",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "lovebird",
+    "word": "Lovebird",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "lupine",
+    "word": "Lupine",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2473-mahogany-tree",
+    "word": "Mahogany",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2474-maidenhair-tree",
+    "word": "Maidenhair",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2482-malvaceous",
+    "word": "Malvaceous",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "manatee",
+    "word": "Manatee",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "mangrove-tree",
+    "word": "Mangrove tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "mantis-2",
+    "word": "Mantis",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "marijuana-4",
+    "word": "Marijuana",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "marten",
+    "word": "Marten",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2503-mast-tree-fruit",
+    "word": "Mast",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "mastic",
+    "word": "Mastic",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "mastodon",
+    "word": "Mastodon",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "mayfly",
+    "word": "Mayfly",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "medlar",
+    "word": "Medlar",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "medlar-fruit",
+    "word": "medlar fruit",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "mesquite-2",
+    "word": "Mesquite",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2549-milker-animal",
+    "word": "Milker",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "mimosa",
+    "word": "Mimosa",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2555-mint-plant",
+    "word": "Mint",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "mollusk",
+    "word": "Mollusk",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "mongrel",
+    "word": "Mongrel",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "monkey-puzzle-tree",
+    "word": "Monkey puzzle tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "mosquito-2",
+    "word": "Mosquito",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "mulberry",
+    "word": "Mulberry",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "mule",
+    "word": "Mule",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2605-mullet-fish",
+    "word": "Mullet",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "mullet-2",
+    "word": "Mullet",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "mussel",
+    "word": "Mussel",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "myrtle",
+    "word": "Myrtle",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2623-naiad-insect",
+    "word": "naiad",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2623-naiad-plant",
+    "word": "naiad",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2623-naiad-mussel",
+    "word": "naiad",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "nag",
+    "word": "nag",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "narwhal",
+    "word": "narwhal",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "negundo",
+    "word": "Negundo",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "nectarine",
+    "word": "nectarine",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "nettle",
+    "word": "nettle",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "new-zealand",
+    "word": "New Zealand",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2651-new-zealand-rabbit",
+    "word": "New Zealand",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2652-newfoundland-dog",
+    "word": "Newfoundland",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "night-owl",
+    "word": "night owl",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "nighthawk",
+    "word": "nighthawk",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "norway-lobster",
+    "word": "Norway lobster",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "ocelot",
+    "word": "ocelot",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "odonate",
+    "word": "Odonate",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "okapi",
+    "word": "okapi",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2698-okra-pod",
+    "word": "okra",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "oleander",
+    "word": "oleander",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "onager",
+    "word": "onager",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "opossum",
+    "word": "opossum",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "orange-blossom",
+    "word": "orange blossom",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "orange-tree",
+    "word": "orange tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "orangutan",
+    "word": "orangutan",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "orc",
+    "word": "Orc",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "orca",
+    "word": "orca",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "osifrage",
+    "word": "ossifrage",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "otter",
+    "word": "otter",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "palm-tree",
+    "word": "palm tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pangolin",
+    "word": "pangolin",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "panther",
+    "word": "panther",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "papaya",
+    "word": "papaya",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "papyrus",
+    "word": "Papyrus",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "parakeet",
+    "word": "parakeet",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "parrot",
+    "word": "Parrot",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "parsley",
+    "word": "Parsley",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "parsnip",
+    "word": "Parsnip",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "passion-fruit",
+    "word": "passion fruit",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "passionflower",
+    "word": "Passionflower",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "patagonian-cavy",
+    "word": "Patagonian cavy",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "patagonian-hare",
+    "word": "Patagonian hare",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "patagonian-mara",
+    "word": "Patagonian mara",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "passer",
+    "word": "Passer",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pea",
+    "word": "pea",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "peach",
+    "word": "peach",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2783-peach-tree",
+    "word": "peach",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pear",
+    "word": "pear",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pecan",
+    "word": "Pecan",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "peccary",
+    "word": "peccary",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pelargonium",
+    "word": "Pelargonium",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "peony",
+    "word": "Peony",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2794-pepper-vegetable",
+    "word": "pepper",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2796-perch-fish",
+    "word": "perch",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "percheron",
+    "word": "Percheron",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2797-perennial-plant",
+    "word": "perennial",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "perilla",
+    "word": "Perilla",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "periwinkle",
+    "word": "Periwinkle",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2802-periwinkle-snail",
+    "word": "periwinkle",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "persimmon",
+    "word": "persimmon",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2804-persimmon-tree",
+    "word": "persimmon",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "persimmon-tree-sense",
+    "word": "persimmon",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "peyote",
+    "word": "peyote",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pheasant",
+    "word": "Pheasant",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "phylloxera",
+    "word": "Phylloxera",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2825-phylloxera-insect",
+    "word": "Phylloxera",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pike",
+    "word": "Pike",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "piggy",
+    "word": "Piggy",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pimpernel",
+    "word": "Pimpernel",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pine",
+    "word": "pine",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pineapple",
+    "word": "pineapple",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2836-pineapple-plant",
+    "word": "Pineapple",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2836-pink-flower",
+    "word": "Pink",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pink-shower-tree",
+    "word": "pink shower tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pinniped",
+    "word": "Pinniped",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pinto",
+    "word": "pinto",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2837-pinto-horse",
+    "word": "Pinto",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pinon",
+    "word": "Piñon",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "piperaceous",
+    "word": "Piperaceous",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pippin",
+    "word": "Pippin",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "piquillo",
+    "word": "Piquillo",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "piranha",
+    "word": "piranha",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pistachio",
+    "word": "Pistachio",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pistachio-tree",
+    "word": "pistachio tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pismire",
+    "word": "pismire",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pitimini-rose",
+    "word": "pitiminí rose",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "plaice",
+    "word": "plaice",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "plane-tree",
+    "word": "plane tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "plankton",
+    "word": "Plankton",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "plant",
+    "word": "plant",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "plantaginaceous",
+    "word": "Plantaginaceous",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "plantain",
+    "word": "plantain",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2845-plantain-wild",
+    "word": "plantain",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "platan",
+    "word": "platan",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "platanaceous",
+    "word": "Platanaceous",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "platanus",
+    "word": "Platanus",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "platypus",
+    "word": "platypus",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "platyrrhine",
+    "word": "Platyrrhine",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "plesiosaur",
+    "word": "Plesiosaur",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pleuronect",
+    "word": "Pleuronect",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pleuronectiform",
+    "word": "Pleuronectiform",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "plover",
+    "word": "Plover",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "plumeria",
+    "word": "Plumeria",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "plumeria-2",
+    "word": "Plumeria",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "poacher-3",
+    "word": "Poacher",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "poinsettia",
+    "word": "poinsettia",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pointer-dog",
+    "word": "pointer dog",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "poodle",
+    "word": "poodle",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "poplar",
+    "word": "poplar",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "poultry",
+    "word": "Poultry",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "predator",
+    "word": "predator",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "prehensile-tailed-monkey",
+    "word": "prehensile-tailed monkey",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "prey",
+    "word": "Prey",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2906-pride-lions",
+    "word": "pride",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "primal-2",
+    "word": "primal",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "primate",
+    "word": "primate",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "primulaceous",
+    "word": "Primulaceous",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "proboscis-monkey",
+    "word": "proboscis monkey",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pronghorn",
+    "word": "pronghorn",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pteridophyte",
+    "word": "Pteridophyte",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "pterodactyl",
+    "word": "pterodactyl",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2957-pyrethrum-plant",
+    "word": "pyrethrum",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "python",
+    "word": "Python",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "quadruped",
+    "word": "Quadruped",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "quail",
+    "word": "quail",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2965-quarry-prey",
+    "word": "quarry",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2967-queen-insect",
+    "word": "queen",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "quince",
+    "word": "quince",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "quince-tree",
+    "word": "quince tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "raven",
+    "word": "Raven",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round2988-ray-fish",
+    "word": "ray",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "redstem-filaree",
+    "word": "redstem filaree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "reed",
+    "word": "reed",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "reindeer",
+    "word": "reindeer",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "retriever",
+    "word": "retriever",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "rhinoceros",
+    "word": "rhinoceros",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "ridgling",
+    "word": "ridgling",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "rockrose",
+    "word": "rockrose",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "rodent",
+    "word": "rodent",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "roe-deer",
+    "word": "roe deer",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "rocket",
+    "word": "rocket",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "rorqual",
+    "word": "rorqual",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "roan",
+    "word": "roan",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "rowan",
+    "word": "Rowan",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "rubber-tree",
+    "word": "rubber tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "ruminant",
+    "word": "ruminant",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "roundworm",
+    "word": "Roundworm",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "rush",
+    "word": "rush",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "russet",
+    "word": "russet",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sable",
+    "word": "Sable",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sage",
+    "word": "sage",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "salmon",
+    "word": "salmon",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sapodilla",
+    "word": "sapodilla",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sardine",
+    "word": "Sardine",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sargasso",
+    "word": "sargasso",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sargo",
+    "word": "Sargo",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sasin",
+    "word": "sasin",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "saxifrage",
+    "word": "saxifrage",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "scabiosa",
+    "word": "scabiosa",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "scabious",
+    "word": "scabious",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "scaly-anteater",
+    "word": "scaly anteater",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "scavenger",
+    "word": "scavenger",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "Scavenger-animal-feeding-on-dead-animals",
+    "word": "Scavenger",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "school-shark",
+    "word": "school shark",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "caji",
+    "word": "schoolmaster snapper",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "scorpion",
+    "word": "Scorpion",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "scrub",
+    "word": "scrub",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "scyphozoan",
+    "word": "Scyphozoan",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sea-bass",
+    "word": "Sea bass",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sea-bream",
+    "word": "Sea bream",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sea-bream-2",
+    "word": "sea bream",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sea-cucumber",
+    "word": "sea cucumber",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sea-snail",
+    "word": "sea snail",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "seal",
+    "word": "seal",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "senna",
+    "word": "senna",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sepia",
+    "word": "sepia",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "serpent",
+    "word": "serpent",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "setter-2",
+    "word": "setter",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "shad",
+    "word": "shad",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "shark",
+    "word": "shark",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sheepdog",
+    "word": "sheepdog",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sheepdog-2",
+    "word": "Sheepdog",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "shoveler",
+    "word": "shoveler",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "shrew",
+    "word": "shrew",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "shrimp",
+    "word": "shrimp",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "shrimp-2",
+    "word": "Shrimp",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "shrub",
+    "word": "shrub",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "silverfish",
+    "word": "Silverfish",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "silverside-small-marine-fish-with-silver-sides",
+    "word": "silverside",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "simian",
+    "word": "simian",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sisal",
+    "word": "sisal",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "skimmer",
+    "word": "skimmer",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "skink",
+    "word": "skink",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "skunk",
+    "word": "skunk",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "skunk-2",
+    "word": "skunk",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "skunk-4",
+    "word": "skunk",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sloth",
+    "word": "sloth",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "slug",
+    "word": "slug",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "slug-2",
+    "word": "slug",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "slug-3",
+    "word": "slug",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "snail-3",
+    "word": "snail",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "snake",
+    "word": "snake",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "snapper",
+    "word": "Snapper",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sniffer",
+    "word": "sniffer",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "soapberry",
+    "word": "soapberry",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sole-fish",
+    "word": "Sole",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sole",
+    "word": "Sole",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "soliped",
+    "word": "Soliped",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sorrel",
+    "word": "Sorrel",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sounder",
+    "word": "sounder",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sow",
+    "word": "sow",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sow-female-pig",
+    "word": "sow",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sow-3",
+    "word": "sow",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "spanish-broom",
+    "word": "Spanish broom",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "spanish-snail",
+    "word": "Spanish snail",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sperm-whale",
+    "word": "sperm whale",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sponge",
+    "word": "sponge",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sprat",
+    "word": "sprat",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "spruce-3",
+    "word": "Spruce",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "stag",
+    "word": "stag",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "stallion-2",
+    "word": "Stallion",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "star-anise",
+    "word": "Star anise",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "steer-2",
+    "word": "steer",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "stilt-long-legged-wading-bird",
+    "word": "Stilt",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "stomach-worm",
+    "word": "stomach worm",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "stork",
+    "word": "Stork",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "b15-strangler-plant",
+    "word": "strangler",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "strawberry-tree",
+    "word": "strawberry tree",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sturgeon",
+    "word": "sturgeon",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "stud",
+    "word": "stud",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "suckling",
+    "word": "suckling",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sumac",
+    "word": "sumac",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "surf-clam",
+    "word": "surf clam",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "swallow",
+    "word": "swallow",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "swallow-5",
+    "word": "Swallow",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "swede",
+    "word": "swede",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sweet-potato",
+    "word": "sweet potato",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "swift",
+    "word": "swift",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "swiss-chard",
+    "word": "Swiss chard",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "sycamore",
+    "word": "sycamore",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "tabby",
+    "word": "Tabby",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "tacamahaca-resin-producing-tree-1378",
+    "word": "Tacamahaca",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "tagua-palm",
+    "word": "tagua palm",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "winch-3",
+    "word": "tame ox",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "tapaculos",
+    "word": "Tapaculos",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "tarsier",
+    "word": "Tarsier",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "teasel",
+    "word": "teasel",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "termite",
+    "word": "termite",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "tern-3",
+    "word": "Tern",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "tetterwort",
+    "word": "tetterwort",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "thornbush",
+    "word": "thornbush",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "thoroughbred",
+    "word": "Thoroughbred",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "skein",
+    "word": "skein",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "tomatillo",
+    "word": "Tomatillo",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "trefoil",
+    "word": "trefoil",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "trematode",
+    "word": "Trematode",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "triton-tropical-sea-snail-1377",
+    "word": "Triton",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "turbot",
+    "word": "turbot",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round3079-tutu-plant",
+    "word": "tutu",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "ulua",
+    "word": "Ulua",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "ungulate",
+    "word": "ungulate",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "trotter",
+    "word": "trotter",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "vampire-bat",
+    "word": "vampire bat",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round3165-variety-taxonomy",
+    "word": "variety",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "venus-flytrap",
+    "word": "Venus flytrap",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "verdin",
+    "word": "Verdin",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "vermin",
+    "word": "vermin",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "vertebrate",
+    "word": "vertebrate",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "vetch",
+    "word": "vetch",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "vetiver",
+    "word": "Vetiver",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round3187-viceroy-butterfly",
+    "word": "viceroy",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "viburnum",
+    "word": "viburnum",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "vicuna",
+    "word": "vicuna",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "violet",
+    "word": "violet",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "viper",
+    "word": "viper",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "viscacha",
+    "word": "viscacha",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "vulture",
+    "word": "Vulture",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "wader",
+    "word": "wader",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "warbler",
+    "word": "Warbler",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "weasel",
+    "word": "weasel",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round3240-weaver-bird",
+    "word": "weaver",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "weed",
+    "word": "weed",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "weevil",
+    "word": "weevil",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "whale",
+    "word": "whale",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "wheat",
+    "word": "wheat",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "whelk",
+    "word": "Whelk",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "white-wagtail",
+    "word": "white wagtail",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "whitebait",
+    "word": "Whitebait",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "whiting",
+    "word": "Whiting",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "widow-spider",
+    "word": "Widow spider",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "wigeon",
+    "word": "Wigeon",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round3263-wiggler-larva",
+    "word": "wiggler",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "wild-boar",
+    "word": "wild boar",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "wild-leek",
+    "word": "wild leek",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "small-round-hill",
+    "word": "wild oat",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "wild-olive",
+    "word": "wild olive",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "wild-pear",
+    "word": "wild pear",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round3264-wild-pear-fruit",
+    "word": "wild pear",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "wild-rose",
+    "word": "wild rose",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "wild-strawberry",
+    "word": "wild strawberry",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round3264-wild-strawberry-fruit",
+    "word": "wild strawberry",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "wolf-cub",
+    "word": "wolf cub",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "wood-duck",
+    "word": "Wood duck",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "wood-stork",
+    "word": "Wood stork",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "woodruff",
+    "word": "Woodruff",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "worm",
+    "word": "worm",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "wormwood",
+    "word": "wormwood",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "wren",
+    "word": "Wren",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "wryneck",
+    "word": "Wryneck",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "xolo",
+    "word": "Xolo",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "yacare",
+    "word": "Yacare",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "yak",
+    "word": "yak",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "yarrow",
+    "word": "yarrow",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "yearling",
+    "word": "Yearling",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "yellowfin",
+    "word": "yellowfin",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "yew",
+    "word": "yew",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round3299-yoke-pair",
+    "word": "yoke",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "yorkshire-fog",
+    "word": "Yorkshire fog",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "round3299-young-offspring",
+    "word": "young",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
+  },
+  {
+    "id": "zebu",
+    "word": "zebu",
+    "reason": "Name of a plant, tree, fruit, or animal; excluded under the editorial scope criteria updated 2026-11-24."
   }
 ]

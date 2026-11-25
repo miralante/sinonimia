@@ -159,6 +159,13 @@ corrected headword. Do not copy the external definition.
   every source, just like the other filters. Frequency is a signal for
   finding such words, not the only test; a frequent word may have a hard
   sense that deserves its own entry.
+- Reject words that name plants, trees, fruits, or animals, including terms
+  that denote a species or taxonomic group of those organisms. This natural
+  knowledge vocabulary is outside the dictionary's scope. Apply the filter
+  to each entry's meaning, not to partial matches in its headword. Keep a
+  distinct abstract, medical, or in-scope sense when it names an independent
+  process, condition, or concept rather than the organism or its group (for
+  example, a disease caused by an animal).
 - Reject conjugated verb forms; keep only the corresponding infinitive
   or dictionary base form.
 - Reject invented or invalid words with no verifiable entry in the
