@@ -20,18 +20,16 @@
 
 Las técnicas didácticas, de gamificación, de persuasión y de
 neuromarketing completas que comparten todas las apps de la
-suite Miralante viven en el repositorio de **Routime** en
-[`guia-crear-elementos.md`](https://github.com/thenkdframe/routime/blob/main/doc/es/guia-crear-elementos.md).
+suite Miralante viven en la guía canónica de **Apptonomia** en
+[`guia-crear-elementos.md`](https://github.com/miralante/apptonomia/blob/main/doc/es/guia-crear-elementos.md).
 
 Léela antes de diseñar nada. Cubre (entre otras cosas):
 
-- Las 13 reglas obligatorias de accesibilidad (con su porqué).
-- La escalera de pistas del método socrático (pista → pista más
-  grande → respuesta).
-- La paleta de refuerzo positivo (sonidos, animaciones, micro-copy).
-- Los patrones de neuromarketing adaptados a la audiencia.
-- La lista de comprobación del diseño de niveles (progresión
-  Fácil → Medio → Difícil).
+- Principios para definir objetivos de aprendizaje y adaptar el contenido al público.
+- Pautas de accesibilidad y comprensión para las consignas y la interacción.
+- Una secuencia de pistas, respuesta al error y refuerzo respetuoso.
+- Gamificación y persuasión responsables, sin presión ni penalizaciones.
+- Una lista de comprobación antes de publicar.
 
 ## 2. Lo específico de Sinonimia
 
@@ -98,15 +96,6 @@ debe cumplir:
 
 Estas reglas aplican por igual a la frase de ejemplo y a la
 traducción opcional.
-
-### 2.5 "Mis frases" es contenido de quien lee, no del editor
-
-Las frases propias de quien lee ("Mis frases") se guardan en el
-`localStorage` de quien lee y nunca se convierten en entradas del
-diccionario. El rol de apoyo no las cura; si quien escribe una
-frase deja ver un hueco de vocabulario, el siguiente paso
-adecuado es **añadir una entrada adecuada al diccionario**, no
-copiar la frase de quien lee dentro.
 
 ## 3. Cómo encontrar palabras candidatas
 
@@ -394,8 +383,8 @@ node scripts/check.js
 
 ## 7. Ver también
 
-- Guía pedagógica canónica (Routime):
-  [guia-crear-elementos.md](https://github.com/thenkdframe/routime/blob/main/doc/es/guia-crear-elementos.md).
+- Guía pedagógica canónica (Apptonomia):
+  [guia-crear-elementos.md](https://github.com/miralante/apptonomia/blob/main/doc/es/guia-crear-elementos.md).
 - Idiomas:
   [`idiomas.md`](idiomas.md).
 - Receta técnica:
