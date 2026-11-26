@@ -608,7 +608,7 @@ project's origin (including the occupational-therapy/intellectual-
 disability context that `index.html` never names), the six non-negotiable
 principles (easy-read language, synonym repetition, ARASAAC pictograms,
 non-punitive gamification, multi-language architecture, sober technology),
-how the site is built (static, no backend, `localStorage` only, MIT +
+how the site is built (static, no backend, `localStorage` only, GNU AGPL v3.0 +
 CC BY-SA 4.0), the current dictionary stats per IADL area, and how to
 help. The footer links back to the dictionary (`../index.html`).
 

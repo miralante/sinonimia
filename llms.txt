@@ -28,4 +28,4 @@
 
 ## License
 
-MIT (código). Definiciones y ejemplos son contenido propio bajo CC BY 4.0. Los pictogramas son de ARASAAC (Gobierno de Aragón / Sergio Palao) bajo CC BY-NC-SA.
+GNU AGPL v3.0 (código). Definiciones y ejemplos son contenido propio bajo CC BY 4.0. Los pictogramas son de ARASAAC (Gobierno de Aragón / Sergio Palao) bajo CC BY-NC-SA.

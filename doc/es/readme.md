@@ -100,6 +100,6 @@ El diccionario está organizado por temas para que sea fácil navegar:
 
 ## Créditos y licencia
 
-Sinonimia es un proyecto de código abierto, distribuido bajo la licencia MIT.
+Sinonimia es un proyecto de código abierto, distribuido bajo la licencia GNU AGPL v3.0.
 
 Los pictogramas son de [ARASAAC](https://arasaac.org) (Gobierno de Aragón / Sergio Palao), con licencia CC BY-NC-SA. La atribución se mantiene en el pie de página.

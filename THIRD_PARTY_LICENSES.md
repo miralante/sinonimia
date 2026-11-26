@@ -1,7 +1,7 @@
 # Third-party licenses
 
 The main code in this repository is licensed under the
-[MIT License](LICENSE) of the Miralante Sinonimia project. This file
+[GNU AGPL v3.0 License](LICENSE) of the Miralante Sinonimia project. This file
 documents the licenses of the third-party assets shipped in the
 deployed site (the dictionary entries themselves, and the
 pictograms).
@@ -11,7 +11,7 @@ pictograms).
 ## Dictionary content
 
 The dictionary content — definitions, examples, synonyms, and the
-per-entry strings — **is not part of the MIT-licensed code**. It is
+per-entry strings — **is not part of the GNU AGPL v3.0-licensed code**. It is
 licensed under the **Creative Commons Attribution-ShareAlike 4.0
 license (CC BY-SA 4.0)** so the lexicon can be reused, adapted and
 re-shared by anyone, including for commercial purposes, as long as

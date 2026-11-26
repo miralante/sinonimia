@@ -4,7 +4,7 @@
 >
 > 🚀 **Pruébalo en vivo:** [sinonimia.apptonomia.uk](https://sinonimia.apptonomia.uk/)
 
-[![Licencia MIT](https://img.shields.io/badge/licencia-MIT-blue.svg)](LICENSE)
+[![Licencia GNU AGPL v3.0](https://img.shields.io/badge/licencia-AGPL--3.0-blue.svg)](LICENSE)
 [![Sin dependencias](https://img.shields.io/badge/dependencias-ninguna-success.svg)](#-caracter%C3%ADsticas)
 [![Sitio estático](https://img.shields.io/badge/build-ninguno-informational.svg)](#-caracter%C3%ADsticas)
 [![Sin PWA](https://img.shields.io/badge/PWA-ninguna-lightgrey.svg)](#-caracter%C3%ADsticas)
@@ -247,7 +247,7 @@ privada (canal preferido:
 
 Sinonimia publica **tres** licencias, una por tipo de activo:
 
-- El **código** (HTML/CSS/JS) es de quien contribuye, bajo **MIT**
+- El **código** (HTML/CSS/JS) es de quien contribuye, bajo **GNU AGPL v3.0**
   (ver [`LICENSE`](LICENSE)).
 - El **contenido del diccionario** (definiciones, sinónimos, frases)
   está bajo **Creative Commons Attribution-ShareAlike 4.0

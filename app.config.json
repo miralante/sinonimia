@@ -20,7 +20,7 @@
   "hasItemList": false,
   "dcCreator": "Sinonimia (parte de la suite Apptonomia)",
   "dcSubject": "Diccionario en lenguaje sencillo: palabras técnicas y difíciles de trámites y de salud, explicadas con ejemplos de la vida diaria y sus sinónimos.",
-  "dcRights": "MIT (código). Las definiciones y ejemplos son contenido propio bajo CC BY 4.0. Los pictogramas son de ARASAAC (Gobierno de Aragón / Sergio Palao) bajo CC BY-NC-SA, citados en el pie del sitio.",
+  "dcRights": "GNU AGPL v3.0 (código). Las definiciones y ejemplos son contenido propio bajo CC BY 4.0. Los pictogramas son de ARASAAC (Gobierno de Aragón / Sergio Palao) bajo CC BY-NC-SA, citados en el pie del sitio.",
   "dcType": "InteractiveResource",
   "supportEmail": "hello@apptonomia.uk",
   "faq": [
@@ -68,5 +68,5 @@
     { "name": "Memofun", "url": "https://memofun.apptonomia.uk/", "description": "Tarjetas de estudio." },
     { "name": "Teclatlon", "url": "https://teclatlon.apptonomia.uk/", "description": "Mecanografía con el teclado del ordenador." }
   ],
-  "llmsLicense": "MIT (código). Definiciones y ejemplos son contenido propio bajo CC BY 4.0. Los pictogramas son de ARASAAC (Gobierno de Aragón / Sergio Palao) bajo CC BY-NC-SA."
+  "llmsLicense": "GNU AGPL v3.0 (código). Definiciones y ejemplos son contenido propio bajo CC BY 4.0. Los pictogramas son de ARASAAC (Gobierno de Aragón / Sergio Palao) bajo CC BY-NC-SA."
 }

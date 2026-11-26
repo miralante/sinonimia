@@ -4,7 +4,7 @@
 >
 > 🚀 **Try it live:** [sinonimia.apptonomia.uk](https://sinonimia.apptonomia.uk/)
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![GNU AGPL v3.0 License](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](LICENSE)
 [![No dependencies](https://img.shields.io/badge/dependencies-none-success.svg)](#-features)
 [![Static site](https://img.shields.io/badge/build-none-informational.svg)](#-features)
 [![PWA](https://img.shields.io/badge/PWA-installable-5A0FC8.svg)](manifest.json)
@@ -243,7 +243,7 @@ issue privately (preferred channel:
 Sinonimia ships **three** licences, one per asset kind:
 
 - The **code** (HTML/CSS/JS) belongs to its contributors, under the
-  **MIT** license (see [`LICENSE`](LICENSE)).
+  **GNU AGPL v3.0** license (see [`LICENSE`](LICENSE)).
 - The **dictionary content** (definitions, synonyms, sentences) is
   under **Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)**.
 - The **pictograms** in `img/` are not ours: they're from

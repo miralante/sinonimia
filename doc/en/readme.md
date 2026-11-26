@@ -100,6 +100,6 @@ The dictionary is organised by topic to make browsing easier:
 
 ## Credits and licence
 
-Sinonimia is an open source project, distributed under the MIT licence.
+Sinonimia is an open source project, distributed under the GNU AGPL v3.0 licence.
 
 Pictograms are from [ARASAAC](https://arasaac.org) (Gobierno de Aragón / Sergio Palao), licensed CC BY-NC-SA. The attribution is kept in the footer.
