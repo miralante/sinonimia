@@ -153,7 +153,7 @@ falla el commit/push si un archivo listado en `FILES` cambió sin que
 `node scripts/check-version-bump.js` antes de cada push que toque
 alguno de esos archivos.
 
-Ver [`CLOUDFLARE.md`](../../CLOUDFLARE.md) §"Cache contract" para el
+Ver [`CI-CD.md`](../../CI-CD.md) §"Cache contract" para el
 contrato de despliegue completo, y [`CLAUDE.md`](../../CLAUDE.md) §B.1
 (ya no) — esta sección del `tecnico.md` es la fuente canónica.
 ## Tipografía
@@ -839,7 +839,7 @@ de usar uno de estos, para y vuelve a leer esta sección".
   `subpages.css`.** Todos pertenecen al modelo de fusión
   SPA retirado.
 - **Sin `_redirects` SPA catch-all.** Cloudflare lo
-  rechaza como loop; documentado en `CLOUDFLARE.md` y en
+  rechaza como loop; documentado en `CI-CD.md` y en
   la receta de deploy.
 - **Sin flash de `data-app-blocked="mobile"`.** El script
   pre-paint es un único `<script>` inline en `<head>`; no
@@ -918,7 +918,7 @@ demás en el mismo PR.
   que se construyen sobre este patrón.
 - [`I18N.md`](I18N.md) — Cómo añadir un idioma manteniendo
   las invariantes de i18n intactas.
-- [`CLOUDFLARE.md`](../../CLOUDFLARE.md) — Contratos de
+- [`CI-CD.md`](../../CI-CD.md) — Contratos de
   deploy y SW/headers a nivel de Cloudflare Workers.
 - [`SPEC.md`](SPEC.md) §"Mandatory rule" — Las invariantes
   de accesibilidad y "ninguna mención clínica" que cada

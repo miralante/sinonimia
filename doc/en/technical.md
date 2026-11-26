@@ -1006,7 +1006,7 @@ of these, stop and re-read this section".
   `subpages.css`.** These all belong to the retired SPA-merge
   model.
 - **No `_redirects` SPA catch-all.** Cloudflare rejects it
-  as a loop; documented in `CLOUDFLARE.md` and in the deploy
+  as a loop; documented in `CI-CD.md` and in the deploy
   recipe.
 - **No `data-app-blocked="mobile"` flash.** The pre-paint
   script is a single inline `<script>` in `<head>`; do not
@@ -1079,7 +1079,7 @@ in one repo, mirror it across the others in the same PR.
   build on this pattern.
 - [`I18N.md`](I18N.md) — how to add a new language while keeping
   the i18n invariants intact.
-- [`CLOUDFLARE.md`](../../CLOUDFLARE.md) — deploy and SW/header
+- [`CI-CD.md`](../../CI-CD.md) — deploy and SW/header
   contracts at the Cloudflare Workers level.
 - [`SPEC.md`](SPEC.md) §"Mandatory rule" — the accessibility and
   no-clinical-mention invariants every page must respect.

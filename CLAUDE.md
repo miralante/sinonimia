@@ -1,18 +1,10 @@
 ﻿# CLAUDE.md — AI agent workflow
 
-## Shared Playwright installation
+## CI/CD and browser tests
 
-Playwright and its browsers are installed globally for the machine by
-`dev/setups/pc-playwright-first-setup.ps1` or
-`pc-playwright-next-setup.ps1`. Run the project's existing browser-test
-command (for example, `npm run test:ui`) or invoke the global CLI with
-`playwright test`.
-
-Do not add `playwright` or `@playwright/test` to project dependencies, install
-Playwright with `npm`/`npx`, or run `npx playwright install`. The setup scripts
-manage the shared browser cache under `{drive}\apps\playwright_browsers`.
-Always attempt the relevant browser test; if the global CLI or browsers are
-unavailable, report that blocker and continue with the other checks.
+Use this repository's configured test commands. See the
+[project CI/CD guide](CI-CD.md)
+for this project's Cloudflare deployment steps and the suite-wide test matrix.
 
 ## About this project
 
@@ -83,7 +75,7 @@ location.
 | Human contribution flow | [`CONTRIBUTING.md`](CONTRIBUTING.md) ↔ [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) |
 | AI agent operational flow | `CLAUDE.md` (this file) |
 | Contents / TOC | [`doc/en/contents.md`](doc/en/contents.md) ↔ [`doc/es/contenidos.md`](doc/es/contenidos.md) |
-| Cloudflare deploy / service worker cache contract (network-first with cache fallback) | [`CLOUDFLARE.md`](CLOUDFLARE.md) |
+| Cloudflare deploy / service worker cache contract (network-first with cache fallback) | [`CI-CD.md`](CI-CD.md) |
 | Doc index | [`doc/en/index.md`](doc/en/index.md) ↔ [`doc/es/indice.md`](doc/es/indice.md) |
 | Quick guide | [`doc/en/quick-guide.md`](doc/en/quick-guide.md) ↔ [`doc/es/guia-rapida.md`](doc/es/guia-rapida.md) |
 
@@ -116,8 +108,9 @@ content, not a violation.
 
 #### Commands
 
-There is no build step, no package.json, and no test framework — it's
-plain HTML/CSS/JS served as static files.
+There is no app build step or runtime dependency. The root `package.json`
+contains development and CI test tooling only; the app remains static
+HTML/CSS/JS.
 
 - **Preview**: open `index.html` directly in a browser, or serve the
   folder with any static server (e.g. `npx serve .`). Everything runs
@@ -308,7 +301,7 @@ stays stale offline and the installed worker does not re-install.
 **Rule**: bump `VERSION` on every commit that
 touches any file in `FILES`, and add any new file to `FILES` at the
 same time. Run `node scripts/check-version-bump.js` to verify the
-bump is consistent. Full contract: [`CLOUDFLARE.md`](CLOUDFLARE.md)
+bump is consistent. Full contract: [`CI-CD.md`](CI-CD.md)
 § "Cache contract".
 
 The dictionary the browser loads is **generated** (`js/dict.*`,

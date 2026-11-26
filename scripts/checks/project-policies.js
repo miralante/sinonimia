@@ -11,7 +11,7 @@ function run(options) {
   // must have exactly one leading and one trailing quote — catches
   // malformed quoting like ''self'' that browsers silently drop, turning
   // a directive into "block everything". This bit the sibling teclatlon
-  // project in production; see its CLOUDFLARE.md for the story.
+  // project in production; see its CI-CD.md for the story.
   (function () {
     var headersContent = fs.readFileSync(path.join(ROOT, "_headers"), "utf8");
     var malformed = [];
