@@ -99,8 +99,9 @@ Esta es la tarea del rol de apoyo. La versión corta:
    (`node scripts/search-pictogram.js`).
 5. Valida antes de abrir el PR: `node scripts/check.js`.
 
-El flujo editorial completo, con las fuentes de candidatos y los
-criterios de aceptación, vive en
+Las fuentes y métodos para encontrar palabras están en
+[`guia-fuentes.md`](guia-fuentes.md); los criterios editoriales y el
+procedimiento para crear la entrada están en
 [`guia-crear-elementos.md`](guia-crear-elementos.md).
 
 ---
@@ -110,4 +111,5 @@ criterios de aceptación, vive en
 - Producto: [`SPEC.md`](SPEC.md).
 - Arquitectura: [`tecnico.md`](tecnico.md).
 - Idiomas: [`idiomas.md`](idiomas.md).
-- Fuentes y flujo editorial: [`guia-crear-elementos.md`](guia-crear-elementos.md).
+- Fuentes para buscar palabras: [`guia-fuentes.md`](guia-fuentes.md).
+- Criterios y flujo para crear entradas: [`guia-crear-elementos.md`](guia-crear-elementos.md).

@@ -19,16 +19,18 @@ doc/
 │   ├── README.md   ← Introducción en lectura fácil (orientada a la audiencia)
 │   ├── tecnico.md  ← Arquitectura técnica
 │   ├── idiomas.md  ← Añadir/extendiendo idiomas (canónico, ES)
-│   └── guia-crear-elementos.md ← Cómo añadir contenido: fuentes,
-│                                  criterios y receta técnica
+│   ├── guia-crear-elementos.md ← Cómo crear entradas: criterios,
+│   │                              receta técnica y revisión
+│   └── guia-fuentes.md ← Fuentes para palabras y pictogramas
 └── en/
     ├── index.md    ← Entry point, EN
     ├── roles.md    ← Project roles
     ├── SPEC.md     ← Product definition
     ├── technical.md ← Technical architecture
     ├── languages.md ← Adding/extending languages (canonical, EN)
-    └── creating-elements-guide.md ← How to add content: sources,
-                                      criteria and technical recipe
+    ├── creating-elements-guide.md ← How to create entries: criteria,
+    │                                 technical recipe and review
+    └── sources-guide.md ← Sources for words and pictograms
 ```
 
 La documentación de contribución (`CONTRIBUTING.md` / `CONTRIBUTING.es.md`)
@@ -47,5 +49,6 @@ y la licencia viven en la raíz del repositorio junto con el
 | Añadir una palabra nueva | [`../../CONTRIBUTING.es.md`](../../CONTRIBUTING.es.md) |
 | Añadir o extender un idioma | [`idiomas.md`](idiomas.md) |
 | Ver la arquitectura técnica y las convenciones de código | [`tecnico.md`](tecnico.md) |
-| Buscar palabras candidatas para una categoría (fuentes + criterios) | [`guia-crear-elementos.md`](guia-crear-elementos.md) §3 |
+| Buscar palabras candidatas para una categoría | [`guia-fuentes.md`](guia-fuentes.md) |
+| Decidir si una palabra merece entrada y cómo crearla | [`guia-crear-elementos.md`](guia-crear-elementos.md) §3 |
 | Probar la web | [`../../README.es.md`](../../README.es.md) — "Probarlo" |

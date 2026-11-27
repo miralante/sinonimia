@@ -1,9 +1,10 @@
-# Sources for finding candidate words
+# Sources for words and pictograms
 
-This guide gathers sources and methods for discovering words that may need
-an entry in Sinonimia. A source provides candidates, not editorial decisions:
-always apply the [acceptance criteria](creating-elements-guide.md#31-criteria-for-accepting-a-word)
-and the preliminary checks in the [guide to creating elements](creating-elements-guide.md).
+This guide gathers resources for discovering candidate words and finding
+pictograms. Sources provide material, not editorial decisions: apply the
+[acceptance criteria](creating-elements-guide.md#31-criteria-for-accepting-a-word)
+and follow the [guide to creating entries](creating-elements-guide.md) before
+adding a word to the dictionary.
 
 ## 1. Sources and what each is for
 
@@ -13,7 +14,7 @@ and the preliminary checks in the [guide to creating elements](creating-elements
 | [FrequencyWords](https://github.com/hermitdave/FrequencyWords) | General usage frequency (OpenSubtitles). | Prioritizes candidates; cached as `scripts/download/freq-es.txt`. |
 | [Wikimedia](https://dumps.wikimedia.org/eswiktionary/latest/) | Raw Spanish Wiktionary titles. | Widens Kaikki's word coverage. Not Spanish-only (Spanish Wiktionary holds pages in other languages too), so it's always combined with Kaikki's `lang_code === "es"` filter. Keeps the [CC BY-SA](https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use) license. |
 | [Wikipedia](https://www.wikipedia.org/) | Thematic categories (legal, medical, financial...). | Grouped term lists (method E). |
-| [listapalabras.com](https://www.listapalabras.com/) | Alphabetical list of 87,363 unique Spanish headwords (does not cover `Ñ`). | A raw word universe with no category of its own. `es-candidates-listapalabras.js` applies automatic filters for word form, coverage, proper nouns, frequency, and editorial rejections; difficulty still needs editorial review. It never filters by domain category (see step 4 of section 3.2). The result is ~66,600 real candidates, sorted with a root/suffix hint (not a filter) so the highest-signal ones get reviewed first. Fully processed — details in `scripts/ingest/PROGRESS.md`'s listapalabras.com section. |
+| [listapalabras.com](https://www.listapalabras.com/) | Alphabetical list of 87,363 unique Spanish headwords (does not cover `Ñ`). | A raw word universe with no category of its own. `es-candidates-listapalabras.js` applies automatic filters for word form, coverage, proper nouns, frequency, and editorial rejections; difficulty still needs editorial review. It never filters by domain category (see criterion 4 in the [guide to creating entries](creating-elements-guide.md#31-criteria-for-accepting-a-word)). The result is ~66,600 real candidates, sorted with a root/suffix hint (not a filter) so the highest-signal ones get reviewed first. Fully processed — details in `scripts/ingest/PROGRESS.md`'s listapalabras.com section. |
 
 ## 2. Search methods
 
@@ -63,8 +64,8 @@ being cross-referenced against other word lists
 (`es-candidates-listapalabras.js`, method C) as an **exclusion
 filter** that discarded, without review, any word with no category
 match — the exact opposite of the rule to assign a category after
-assessing the word (step 4 in section 3.1 of the creating-elements guide). Sinonimia's editorial
-criterion is a word's actual difficulty (step 2 in section 3.1 of the creating-elements guide),
+assessing the word (criterion 4 in section 3.1 of the guide to creating entries). Sinonimia's editorial
+criterion is a word's actual difficulty (criterion 2 in section 3.1 of the guide to creating entries),
 never whether an external category — unstable, incomplete, and
 inconsistent run to run, see `scripts/ingest/PROGRESS.md` — happened
 to tag it. If this technique gets rebuilt in the future, it must
@@ -87,7 +88,18 @@ to tag it. If this technique gets rebuilt in the future, it must
 | `tecnologia` | INCIBE, ONCE, IMSERSO / GCFGlobal, AARP | App help, terms of use, smartphones |
 | `seguridad` | Protección Civil, 112, Red Cross / Ready.gov, OSHA | Evacuation, first aid |
 
+## 4. Pictogram sources
+
+| Source | Use |
+|---|---|
+| [OpenSymbols](https://www.opensymbols.org/) | Preferred search source: it brings several symbol banks together. Results may have different licenses; check each image's bank, author, and license. |
+| [ARASAAC](https://arasaac.org/) | Pictogram bank and the search tool's alternative when OpenSymbols has no usable result. Attribution under CC BY-NC-SA is required. |
+
+The `node scripts/search-pictogram.js` tool queries OpenSymbols when
+available and uses ARASAAC as a fallback. The guide to creating entries
+explains how to choose and associate an image.
+
 ## See also
 
-- [Guide to creating elements](creating-elements-guide.md), with editorial criteria and the steps for preparing an entry.
+- [Guide to creating entries](creating-elements-guide.md), with editorial criteria and the steps for preparing an entry.
 - [Ingestion workflow and status](../../scripts/ingest/README.md) and [progress log](../../scripts/ingest/PROGRESS.md).

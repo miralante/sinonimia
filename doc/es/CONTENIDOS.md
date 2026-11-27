@@ -22,9 +22,10 @@ documento a leer primero.
 
 > **Fuente de verdad de las reglas de producto**:
 > [`SPEC.md`](SPEC.md).
-> **Fuente de verdad de la pedagogía y de las reglas de
-> escritura en lectura fácil**:
+> **Criterios editoriales, pedagogía y reglas de escritura en lectura fácil**:
 > [`guia-crear-elementos.md`](guia-crear-elementos.md).
+> **Fuentes para descubrir palabras candidatas**:
+> [`guia-fuentes.md`](guia-fuentes.md).
 > **Fuente de verdad del esquema del diccionario, mecánica de
 > gamificación y lista de identificadores mantenidos
 > deliberadamente en español**: [`tecnico.md`](tecnico.md).

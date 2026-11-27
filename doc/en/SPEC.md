@@ -510,10 +510,9 @@ the dictionary needs to grow:
    same point "How to add a new language" already makes when bootstrapping
    a new language applies equally when growing an existing one).
 
-   [`doc/en/creating-elements-guide.md`](creating-elements-guide.md) §3
-   has the full acceptance criteria for both methods, plus a table of
-   plausible glossary and corpus sources for every category, so this
-   step doesn't start from a blank page.
+   [`doc/en/sources-guide.md`](sources-guide.md) lists source and search
+   methods; the acceptance criteria are in
+   [`creating-elements-guide.md`](creating-elements-guide.md) §3.1.
 4. **Check for an equivalent headword in the other language** by consulting
    that language's dictionary too. If an equivalent entry already exists,
    link the two entries with `traduccion` in both records. Add the reciprocal

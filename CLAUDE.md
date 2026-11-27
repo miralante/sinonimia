@@ -185,7 +185,8 @@ topic, not a copy in `CLAUDE.md`. Keep `i18n` parity per the I18N
 docs. For activity changes, follow `technical.md` §9 **and read
 [`creating-elements-guide.md`](doc/en/creating-elements-guide.md)
 first** (didactic, gamification, persuasion and neuromarketing
-techniques for our audience); if a guide rule conflicts with `technical.md`,
+techniques for our audience). For word-candidate sources and search methods,
+use `doc/en/sources-guide.md` / `doc/es/guia-fuentes.md`; if a guide rule conflicts with `technical.md`,
 `technical.md` wins. Update the catalogs and guides it names. Keep
 changes minimal and on-target; do not bundle unrelated refactors.
 

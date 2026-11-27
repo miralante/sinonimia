@@ -376,8 +376,8 @@ entiende. El proceso recomendado es:
    <idioma>`.
 4. **Descartar duplicados** y escenarios repetidos comparando la salida de
    `--detalle`. No traducir automáticamente las palabras del otro idioma.
-   [`guia-crear-elementos.md`](guia-crear-elementos.md) §3 contiene las
-   fuentes de referencia y los criterios de aceptación.
+   [`guia-fuentes.md`](guia-fuentes.md) reúne fuentes y métodos de búsqueda;
+   los criterios de aceptación están en [`guia-crear-elementos.md`](guia-crear-elementos.md) §3.1.
 5. **Comprobar la voz equivalente en el otro idioma** consultando también
    el diccionario de esa lengua. Si ya existe una entrada equivalente,
    enlazar ambas voces con `traduccion` en los dos registros. Si falta el
@@ -406,6 +406,7 @@ actualizar los créditos de `footerCreditsHtml` en el mismo cambio.
 
 El contenido vive en archivos planos, sin base de datos ni backend. Añadir una
 palabra normalmente consiste en copiar un bloque al archivo de su idioma y
-validarlo. Los detalles de licencias, búsqueda de pictogramas y fuentes
-editoriales están en [`guia-crear-elementos.md`](guia-crear-elementos.md)
-§3; los roles del proyecto están en [`roles.md`](roles.md).
+validarlo. La búsqueda de pictogramas y la creación de entradas se explican
+en [`guia-crear-elementos.md`](guia-crear-elementos.md); las fuentes para
+descubrir palabras están en [`guia-fuentes.md`](guia-fuentes.md). Los roles
+del proyecto están en [`roles.md`](roles.md).

@@ -1,4 +1,4 @@
-# Guide to creating activities
+# Guide to creating entries
 
 > **How to design and add new content to Sinonimia: dictionary
 > entries, games and games variants.**
@@ -216,8 +216,8 @@ steps to candidates from every source and to entries already in the dictionary.
   keep only the general sense when it is hard; otherwise remove the entry.
   Do not keep a local sense just because a dictionary records it.
 - **Assign** the category after assessing the word; do not use category
-  membership to accept or reject it. Categories in methods E and F in section
-  3.3 help discover candidates: absence from a cross-reference category does
+  membership to accept or reject it. Categories in methods E and F in the
+  [sources guide, section 2](sources-guide.md#2-search-methods) help discover candidates: absence from a cross-reference category does
   not disqualify a word. A Wikipedia or Wiktionary category label (for
   example, "Law") is a clue, not the final `situacion`.
 - If no current category fits, propose a new one, even for one well-grounded

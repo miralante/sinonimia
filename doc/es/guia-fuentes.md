@@ -1,9 +1,10 @@
-# Guía de fuentes para buscar palabras candidatas
+# Guía de fuentes para palabras y pictogramas
 
-Esta guía reúne fuentes y métodos para descubrir palabras que podrían
-necesitar una entrada en Sinonimia. Una fuente aporta candidatas, no
-decisiones editoriales: aplica siempre los [criterios de aceptación](guia-crear-elementos.md#31-criterios-para-aceptar-una-palabra)
-y las comprobaciones previas de la [guía para crear elementos](guia-crear-elementos.md).
+Esta guía reúne recursos para descubrir palabras candidatas y buscar
+pictogramas. Las fuentes proponen material, no decisiones editoriales:
+aplica los [criterios de aceptación](guia-crear-elementos.md#31-criterios-para-aceptar-una-palabra)
+y sigue la [guía para crear entradas](guia-crear-elementos.md) antes de
+incorporar una palabra al diccionario.
 
 ## 1. Fuentes y para qué sirve cada una
 
@@ -13,7 +14,7 @@ y las comprobaciones previas de la [guía para crear elementos](guia-crear-eleme
 | [FrequencyWords](https://github.com/hermitdave/FrequencyWords) | Frecuencia de uso general (OpenSubtitles). | Prioriza candidatos; cacheado en `scripts/download/freq-es.txt`. |
 | [Wikimedia](https://dumps.wikimedia.org/eswiktionary/latest/) | Títulos del Wikcionario español en bruto. | Amplía la cobertura de palabras de Kaikki. No es solo español (el Wikcionario ES incluye páginas de otras lenguas), por eso siempre se combina con el filtro `lang_code === "es"` de Kaikki. Conserva la licencia [CC BY-SA](https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use). |
 | [Wikipedia](https://www.wikipedia.org/) | Categorías temáticas (jurídico, médico, financiero...). | Lista de términos agrupados por tema (método E). |
-| [listapalabras.com](https://www.listapalabras.com/) | Lista alfabética de 87.363 cabeceras españolas únicas (no cubre `Ñ`). | Universo de palabras sin categoría propia. `es-candidates-listapalabras.js` aplica filtros automáticos de forma, cobertura, nombres propios, frecuencia y rechazos editoriales; la dificultad aún requiere revisión editorial. Nunca filtra por categoría de dominio (ver paso 4 de la sección 3.2). El resultado son ~66.600 candidatas reales, ordenadas con una pista de raíz/sufijo (no un filtro) para revisar primero las de mayor señal. Procesada por completo — detalle en la sección listapalabras.com de `scripts/ingest/PROGRESS.md`. |
+| [listapalabras.com](https://www.listapalabras.com/) | Lista alfabética de 87.363 cabeceras españolas únicas (no cubre `Ñ`). | Universo de palabras sin categoría propia. `es-candidates-listapalabras.js` aplica filtros automáticos de forma, cobertura, nombres propios, frecuencia y rechazos editoriales; la dificultad aún requiere revisión editorial. Nunca filtra por categoría de dominio (ver el criterio 4 de la [guía para crear entradas](guia-crear-elementos.md#31-criterios-para-aceptar-una-palabra)). El resultado son ~66.600 candidatas reales, ordenadas con una pista de raíz/sufijo (no un filtro) para revisar primero las de mayor señal. Procesada por completo — detalle en la sección listapalabras.com de `scripts/ingest/PROGRESS.md`. |
 
 ## 2. Métodos de búsqueda
 
@@ -60,14 +61,15 @@ consultar la API de categorías de Wikcionario esté mal — como
 *técnica de descubrimiento* para un lote acotado de palabras a revisar
 a mano sigue siendo legítima — sino porque en la práctica se estaba
 usando contra la regla de asignar la categoría después de evaluar la palabra
-(paso 4 de la guía para crear elementos, sección 3.1): su salida se
+(criterio 4 de la guía para crear entradas, sección 3.1): su salida se
 cruzaba contra otras listas de palabras (`es-candidates-listapalabras.js`,
 el método C) como un **filtro de exclusión** que descartaba sin
 revisión cualquier palabra sin coincidencia de categoría, en vez de
 usarse solo para decidir el orden de revisión. El criterio editorial
-de Sinonimia es la dificultad real de la palabra (paso 2 de la sección
-3.2), nunca si una categoría externa —inestable, incompleta e inconsistente entre
-ejecuciones, ver `scripts/ingest/PROGRESS.md`— la etiquetó o no. Si se
+de Sinonimia es la dificultad real de la palabra (criterio 2 de la guía
+para crear entradas, sección 3.1), nunca si una categoría externa —inestable,
+incompleta e inconsistente entre ejecuciones, ver
+`scripts/ingest/PROGRESS.md`— la etiquetó o no. Si se
 retoma esta técnica en el futuro, debe construirse para *anotar* una
 lista de candidatas ya seleccionada por dificultad, nunca para
 seleccionarlas.
@@ -88,7 +90,18 @@ seleccionarlas.
 | `tecnologia` | INCIBE, ONCE, IMSERSO / GCFGlobal, AARP | Ayuda de apps, condiciones de uso, smartphones |
 | `seguridad` | Protección Civil, 112, Cruz Roja / Ready.gov, OSHA | Evacuación, primeros auxilios |
 
+## 4. Fuentes para pictogramas
+
+| Fuente | Uso |
+|---|---|
+| [OpenSymbols](https://www.opensymbols.org/) | Fuente de búsqueda preferida: reúne varios bancos de símbolos. Los resultados pueden tener licencias distintas; revisa banco, autoría y licencia de cada imagen. |
+| [ARASAAC](https://arasaac.org/) | Banco de pictogramas y alternativa del buscador cuando OpenSymbols no da un resultado utilizable. Requiere atribución CC BY-NC-SA. |
+
+El buscador `node scripts/search-pictogram.js` consulta OpenSymbols cuando está
+disponible y usa ARASAAC como alternativa. La guía para crear entradas explica
+cómo elegir y asociar la imagen.
+
 ## Ver también
 
-- [Guía para crear elementos](guia-crear-elementos.md), con criterios editoriales y el procedimiento para preparar una entrada.
+- [Guía para crear entradas](guia-crear-elementos.md), con criterios editoriales y el procedimiento para preparar una entrada.
 - [Flujo y estado de la ingesta](../../scripts/ingest/README.md) y [registro de progreso](../../scripts/ingest/PROGRESS.md).

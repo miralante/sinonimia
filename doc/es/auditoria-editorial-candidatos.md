@@ -4,7 +4,7 @@
 
 **Cobertura del runtime actualizado (15-11-2026):** 36.315 entradas en español y 28.032 en inglés (64.347 en total), cargadas desde `js/dictionary-data.js`. El informe se elaboró sobre la instantánea del 14-11-2026 (40.228 ES y 32.734 EN). Se procesaron 8.321 IDs candidatos: 8.270 nuevas exclusiones, 50 exclusiones previas y un ID ya ausente del runtime. `idolatrous-literal-es` se corrigió a «Idolátrico» durante una edición paralela y se conserva con su glosa corregida; ya no figura como candidato de baja.
 
-Criterios canónicos: [`guia-crear-elementos.md` §3.2](guia-crear-elementos.md) y [`creating-elements-guide.md` §3.2](../en/creating-elements-guide.md).
+Criterios canónicos: [`guia-crear-elementos.md` §3.1](guia-crear-elementos.md) y [`creating-elements-guide.md` §3.1](../en/creating-elements-guide.md).
 
 ## Español — 114 candidatas vigentes del primer barrido de marcas explícitas
 

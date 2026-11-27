@@ -4,11 +4,14 @@ Versioned ingestion toolkit for the Spanish and English dictionaries.
 The reusable pipeline, filters, rejection registers, this guide, and
 `PROGRESS.md` are part of the repository. Local batches, downloads,
 exploration scripts, fixes, repair scratch work, and active review evidence
-remain ignored; see the root `.gitignore`. For editorial criteria and
-sourcing techniques, see
+remain ignored; see the root `.gitignore`. For editorial criteria and the
+entry workflow, see
 [`doc/en/creating-elements-guide.md`](../../doc/en/creating-elements-guide.md)
 / [`doc/es/guia-crear-elementos.md`](../../doc/es/guia-crear-elementos.md)
-§3-4. The root `scripts/` directory holds shared site tools; this
+§3-6. For candidate sources and search methods, see
+[`doc/en/sources-guide.md`](../../doc/en/sources-guide.md) /
+[`doc/es/guia-fuentes.md`](../../doc/es/guia-fuentes.md). The root
+`scripts/` directory holds shared site tools; this
 subdirectory holds the reusable ingestion pipeline and its operating
 record. Its bulky and temporary working areas are excluded from Git so
 the repository keeps the reproducible process without carrying every
@@ -27,7 +30,7 @@ directly):
 
 1. **Editorial word selection** — deciding, for each candidate in a
    sourced/filtered list, whether it genuinely belongs per
-   `guia-crear-elementos.md` §3's criteria (real personal-document use,
+   `guia-crear-elementos.md` §3.1's criteria (real personal-document use,
    not already covered under a different wording, not too common, not
    a Wiktionary false-positive domain tag, etc.).
 2. **Content authoring** — writing `definicion`/`sinonimos`/`ejemplo`/
@@ -166,7 +169,7 @@ removed once exhausted: `es-candidates-kaikki.js`,
 `wiktionary_candidates.js` (removed 2026-09-09 specifically — its
 category-cross-reference output was being used as an *exclusion
 filter* on other word lists, which `guia-crear-elementos.md`/
-`creating-elements-guide.md` §3.2 criterion 6 explicitly rules out;
+`creating-elements-guide.md` §3.1 criterion 4 explicitly rules out;
 see that file's method-F entry for the full reasoning). Their cached
 downloads went with them.
 
@@ -437,9 +440,9 @@ mined to exhaustion, documented in `PROGRESS.md`'s Sources table, and
 its script deleted — except `wiktionary_candidates.js`, which was
 removed for a different reason: its category-cross-reference output
 was being used as a *filter* on other candidate lists (see the
-"Big picture" diagram above and `guia-crear-elementos.md`/
-`creating-elements-guide.md` §3.3 method F), which
-`guia-crear-elementos.md` §3.2 criterion 6 explicitly forbids — the
+"Big picture" diagram above and `guia-fuentes.md`/
+`sources-guide.md` §2 method F), which
+`guia-crear-elementos.md` §3.1 criterion 4 explicitly forbids — the
 editorial criterion is a word's difficulty, never whether an external
 category API happened to tag it.
 

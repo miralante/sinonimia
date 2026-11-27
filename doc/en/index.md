@@ -18,8 +18,9 @@ doc/
 │   ├── SPEC.md     ← Product definition
 │   ├── tecnico.md  ← Technical architecture
 │   ├── idiomas.md  ← Adding/extending languages (canonical, ES)
-│   └── guia-crear-elementos.md ← How to add content: sources,
-│                                  criteria and technical recipe
+│   ├── guia-crear-elementos.md ← How to create entries: criteria,
+│   │                              technical recipe and review
+│   └── guia-fuentes.md ← Sources for words and pictograms
 └── en/
     ├── index.md    ← This file (entry point, EN)
     ├── roles.md    ← Project roles
@@ -27,8 +28,9 @@ doc/
     ├── README.md   ← Easy-read intro (audience-first)
     ├── technical.md ← Technical architecture
     ├── languages.md ← Adding/extending languages (canonical, EN)
-    └── creating-elements-guide.md ← How to add content: sources,
-                                      criteria and technical recipe
+    ├── creating-elements-guide.md ← How to create entries: criteria,
+    │                                 technical recipe and review
+    └── sources-guide.md ← Sources for words and pictograms
 ```
 
 Contributing documentation (`CONTRIBUTING.md` / `CONTRIBUTING.es.md`) and
@@ -47,5 +49,6 @@ the license live at the repository root alongside
 | Add a new word | [`../../CONTRIBUTING.md`](../../CONTRIBUTING.md) |
 | Add or extend a language | [`languages.md`](languages.md) |
 | See the technical architecture and code conventions | [`technical.md`](technical.md) |
-| Find candidate words for a category (sources + criteria) | [`creating-elements-guide.md`](creating-elements-guide.md) §3 |
+| Find candidate words for a category | [`sources-guide.md`](sources-guide.md) |
+| Decide whether a word merits an entry and how to create it | [`creating-elements-guide.md`](creating-elements-guide.md) §3 |
 | Try the site | [`../../README.md`](../../README.md) — "Try it" |

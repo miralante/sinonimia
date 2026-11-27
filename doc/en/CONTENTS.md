@@ -20,8 +20,10 @@ easy-read examples are reviewed, this is the document to read
 first.
 
 > **Source of truth for product rules**: [`SPEC.md`](SPEC.md).
-> **Source of truth for pedagogy and easy-read writing rules**:
+> **Editorial criteria, pedagogy, and easy-read writing rules**:
 > [`creating-elements-guide.md`](creating-elements-guide.md).
+> **Sources for discovering candidate words**:
+> [`sources-guide.md`](sources-guide.md).
 > **Source of truth for dictionary schema, gamification mechanics
 > and the list of identifiers deliberately kept in Spanish**:
 > [`technical.md`](technical.md).

@@ -95,8 +95,9 @@ This is the support role's task. The short version:
 5. Validate before opening the PR:
    `node scripts/check.js`.
 
-The full editorial workflow, with candidate sources and acceptance
-criteria, lives in
+Sources and methods for finding words are in
+[`sources-guide.md`](sources-guide.md); editorial criteria and the
+entry-creation process are in
 [`creating-elements-guide.md`](creating-elements-guide.md).
 
 ---
@@ -106,4 +107,5 @@ criteria, lives in
 - Product: [`SPEC.md`](SPEC.md).
 - Architecture: [`technical.md`](technical.md).
 - Languages: [`languages.md`](languages.md).
-- Sources and editorial workflow: [`creating-elements-guide.md`](creating-elements-guide.md).
+- Candidate word sources: [`sources-guide.md`](sources-guide.md).
+- Criteria and entry-creation workflow: [`creating-elements-guide.md`](creating-elements-guide.md).

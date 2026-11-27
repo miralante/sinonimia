@@ -97,7 +97,8 @@ primer paso, no el último.
 
 - Catálogo de palabras y juegos:
   [`actividades.md`](actividades.md).
-- Fuentes y flujo editorial (cómo se añaden palabras nuevas):
+- Fuentes para buscar palabras: [`guia-fuentes.md`](guia-fuentes.md).
+- Criterios y flujo editorial para crear entradas:
   [`guia-crear-elementos.md`](guia-crear-elementos.md).
 - Idiomas y cómo extender Sinonimia:
   [`idiomas.md`](idiomas.md).

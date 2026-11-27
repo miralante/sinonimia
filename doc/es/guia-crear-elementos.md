@@ -1,4 +1,4 @@
-# Guía para crear actividades
+# Guía para crear entradas
 
 > **Cómo diseñar y añadir contenido nuevo a Sinonimia: entradas de
 > diccionario, juegos y variantes de juegos.**
@@ -256,7 +256,7 @@ pasos tanto a candidatas de cualquier fuente como a fichas que ya existen.
   registre.
 - La categoría se **asigna después** de valorar la palabra; no sirve para
   aceptarla o descartarla. Las categorías usadas por los métodos E y F de
-  la sección 3.3 ayudan a descubrir candidatas: que una palabra no aparezca
+  la [guía de fuentes, sección 2](guia-fuentes.md#2-métodos-de-búsqueda) ayudan a descubrir candidatas: que una palabra no aparezca
   en una categoría cruzada no la invalida. Si aparece bajo una categoría de
   Wikipedia o Wikcionario (por ejemplo, «Derecho»), tómala como pista, no
   como su `situacion` final.
