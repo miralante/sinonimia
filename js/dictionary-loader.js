@@ -88,7 +88,8 @@
           definition: row[2],
           synonyms: row[3],
           image: { id: row[4] },
-          situacion: row[5]
+          situacion: row[5],
+          searchAliases: row[6] || []
         });
       });
     });

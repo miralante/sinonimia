@@ -104,8 +104,17 @@ pipeline del maintainer.
    lectura fácil, la arquitectura multi-idioma y las restricciones
    innegociables de producto.
 2. Ejecuta `node scripts/content-status.js --detalle --categoria
-   <tema> --lang <es|en>` y comprueba si la palabra ya está como
-   entrada en el diccionario propio de ese idioma.
+   <tema> --lang <es|en>` y comprueba si la palabra ya aparece en el
+   diccionario propio de ese idioma, tanto como lema como dentro de los
+   sinónimos. Revisa en qué campo aparece y su significado: una coincidencia
+   como sinónimo no significa que la palabra ya tenga ficha propia.
+   Revisa también las familias que propone
+   `node scripts/ingest/pipeline/audit-lexical-families.js <es|en>
+   --word <lema> --out <ruta.json>`. Si comparte raíz con otra entrada, compara su
+   definición y uso: la raíz solo propone una revisión, no una fusión.
+   Si es una variante redundante, conserva una ficha y registra las formas
+   retiradas como alias en `search-alias-merges-<idioma>.json`; si nombra
+   otro concepto útil, conserva su ficha.
 3. Antes de incorporarla, valida obligatoriamente la palabra nueva en
    el diccionario externo de ese idioma: [RAE/DLE](https://dle.rae.es/)
    para `es` (pásale la palabra como término de búsqueda) o

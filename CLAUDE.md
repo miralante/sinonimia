@@ -217,7 +217,11 @@ belongs to the in-flight work before adding new changes.
    gate: do not add a word without a verifiable dictionary entry.
    Reject conjugated verb forms (keep only infinitives/base forms),
    invented or invalid words, demonyms, and any entry whose definition
-   is inaccurate for the verified sense.
+   is inaccurate for the verified sense. Check possible word families
+   with `scripts/ingest/pipeline/audit-lexical-families.js`; a shared root
+   is only a review signal. Merge a derivation only when it adds no useful
+   distinct concept, and preserve its lookup form as a search alias, not a
+   teaching synonym.
 5. Closed project plan lives in `git log`. The canonical doc to use
    depends on the topic, not on an external roadmap.
 

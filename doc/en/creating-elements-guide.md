@@ -71,7 +71,7 @@ This is the single most important editorial rule (see
 [`SPEC.md`](SPEC.md) "Process for expanding content"). Sinonimia
 **does not translate word-for-word** between dictionaries: each
 language picks the words that are genuinely hard **in that
-language**. A Spanish bureaucratic term that has no English
+language**. A Spanish technical or bureaucratic term that has no English
 equivalent (and vice versa) is a normal and expected case.
 
 When adding a headword, also check the other language's dictionary. If it
@@ -96,13 +96,11 @@ follow:
 These rules apply equally to the example sentence and to the
 optional translation.
 
-## 3. How to find candidate words
+## 3. How to create an entry
 
-Writing an entry starts with a real candidate word. This section
-explains where to look, what each source contributes, and what
-criteria a word must meet to be accepted. **A source only proposes
-words: it never decides by itself that a word merits an entry** —
-that's always a human call.
+Use the [sources guide](sources-guide.md) to find candidates. Before drafting
+an entry, check that the word is not excluded and is not already covered in
+the dictionary or target category.
 
 To avoid duplicating a word, a synonym, or an example scenario, check
 what already exists in the category you're targeting first:
@@ -114,165 +112,157 @@ node scripts/content-status.js --detalle --categoria {categoria} --lang {idioma}
 
 Do not open `js/data.{idioma}.js` directly; the files are very large.
 
-### 3.1 Sources and what each is for
+**Search precaution:** a match may be in an entry's headword or in its
+synonym list. Check which field matched before deciding that the word is
+missing. If it appears as a synonym, inspect the entry it belongs to: the
+word is already discoverable there, but it may still need its own entry if
+it adds a distinct meaning or useful information. A match in an example is
+not an entry or a synonym. Do not reject or duplicate a candidate until you
+have checked the kind of match.
 
-| Source | Contribution | How it's used |
-|---|---|---|
-| [Kaikki.org](https://kaikki.org/) | Wiktionary extract: Spanish lemmas (`lang_code === "es"`), inflected forms, and a proper-noun signal (`pos: "name"`). | Backbone of `es_list_clean.js` and of the ingestion's proper-noun filter (`proper-noun-check.js`). |
-| [FrequencyWords](https://github.com/hermitdave/FrequencyWords) | General usage frequency (OpenSubtitles). | Prioritizes candidates; cached as `scripts/download/freq-es.txt`. |
-| [Wikimedia](https://dumps.wikimedia.org/eswiktionary/latest/) | Raw Spanish Wiktionary titles. | Widens Kaikki's word coverage. Not Spanish-only (Spanish Wiktionary holds pages in other languages too), so it's always combined with Kaikki's `lang_code === "es"` filter. Keeps the [CC BY-SA](https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use) license. |
-| [ARASAAC](https://api.arasaac.org/) | Pictogram bank. | Pictograms for every entry, and also a direct candidate source (method D). |
-| [OpenSymbols](https://www.opensymbols.org/) | Aggregator of several open-licensed symbol banks (ARASAAC, Sclera, Mulberry...) behind one API. | `search-pictogram.js`'s first choice (with `OPENSYMBOLS_SECRET`); falls back to ARASAAC when empty. Each bank carries its own license — check it on every result before using it. |
-| [Wikipedia](https://www.wikipedia.org/) | Thematic categories (legal, medical, financial...). | Grouped term lists (method E). |
-| [listapalabras.com](https://www.listapalabras.com/) | Alphabetical list of 87,363 unique Spanish headwords (does not cover `Ñ`). | A raw word universe with no category of its own. `es-candidates-listapalabras.js` filters only by difficulty criteria (criteria 1-5: valid word shape, not already covered, not a proper noun, not too common, not already declined) — never by domain category (see the 2026-09-09 note on criterion 6 below). The result is ~66,600 real candidates, sorted with a root/suffix hint (not a filter) so the highest-signal ones get reviewed first. Fully processed — details in `scripts/ingest/PROGRESS.md`'s listapalabras.com section. |
+### 3.1 Criteria for accepting a word
 
-### 3.2 Criteria for accepting a word
+Evaluate each word **on its own and in its specific sense**. Apply these
+steps to candidates from every source and to entries already in the dictionary.
 
-**Mandatory language-specific lexical check:** after confirming the
-word does not already have a standalone Sinonimia entry, validate every
-new candidate in the matching external dictionary: [RAE/DLE](https://dle.rae.es/)
-for `es`, or [Collins English
-Dictionary](https://www.collinsdictionary.com/dictionary/english) for
-`en`, passing the word in the path
-`https://www.collinsdictionary.com/dictionary/english/<word>`. Confirm
-that the headword or a recognized variant exists and that its sense
-matches the proposed use. This is an acceptance requirement for
-ingestion, not an optional lookup or a writing aid. If no verifiable
-entry is found, reject the
-candidate; recheck it only if you correct the form and can verify the
-corrected headword. Do not copy the external definition.
+#### 1. Confirm that the word is valid
 
-**Hard rejection filters before acceptance:**
+- It must be documented and in current use. Exclude archaic, obsolete,
+  rare, little-known, or very restricted words, even if a dictionary lists
+  them. A technical word is not automatically out of scope: keep current,
+  useful terms people may encounter in real documents related to Sinonimia.
+- Check each new candidate in the dictionary for its language: [RAE/DLE](https://dle.rae.es/)
+  for `es`, or [Collins English Dictionary](https://www.collinsdictionary.com/dictionary/english)
+  for `en` (use `https://www.collinsdictionary.com/dictionary/english/<word>`
+  for Collins). Confirm that the headword or a recognized variant exists and
+  documents the proposed sense. This check is required for ingestion, not an
+  optional writing aid. If no verifiable entry exists, reject the word. Recheck
+  it only after correcting the form and verifying the correction. Do not copy
+  the dictionary's definition.
+- Reject invented or invalid forms. Reconsider a typo only after correcting
+  it and verifying the correct form.
+- Do not add adverbs as standalone entries. Also exclude grammatical or
+  functional words—such as prepositions, conjunctions, determiners, and
+  particles—when they only express a relationship, degree, or circumstance
+  and do not add a lexical meaning that needs explanation. Apply this to the
+  specific sense: if a headword also has an independent sense in another part
+  of speech, assess that sense separately.
+- Keep the infinitive/base form, not a conjugated verb form. Reject plurals
+  and enclitic-pronoun forms unless they have their own independent entry.
+- Reject numerals and ordinals when the entry only names a number or order.
+  Assess any other independent sense of the same headword separately.
+- Reject proper nouns (people, surnames, cities, countries, and brands) and
+  demonyms, even if they appear in the reference dictionary: DLE for Spanish
+  or Collins for English.
+- The definition must match the documented sense. Remove an entry with an
+  incorrect definition; keep it only after correcting the definition and
+  confirming that it faithfully describes a current sense.
 
-- Reject words and senses that are already easy by themselves: familiar,
-  common, concrete, and transparent vocabulary, or basic actions the target
-  user likely already understands. Apply this criterion to candidates from
-  every source, just like the other filters. Frequency is a signal for
-  finding such words, not the only test; a frequent word may have a hard
-  sense that deserves its own entry.
-- Reject words that name plants, trees, fruits, or animals, including terms
-  that denote a species or taxonomic group of those organisms. This natural
-  knowledge vocabulary is outside the dictionary's scope. Apply the filter
-  to each entry's meaning, not to partial matches in its headword. Keep a
-  distinct abstract, medical, or in-scope sense when it names an independent
-  process, condition, or concept rather than the organism or its group (for
-  example, a disease caused by an animal).
-- Reject conjugated verb forms; keep only the corresponding infinitive
-  or dictionary base form.
-- Reject invented or invalid words with no verifiable entry in the
-  matching dictionary (DLE for Spanish, Collins for English). A typo
-  may be reconsidered only after correction and dictionary
-  verification.
-- Reject demonyms, even when they appear in Collins.
-- Do not insert an entry with an incorrect definition or one that
-  describes a different sense. Correct and recheck it; if it cannot
-  match the documented sense, reject the entry.
+#### 2. Check whether the word needs an explanation
 
-Apply the same difficulty criterion when reviewing existing entries. Record
-approved exclusions with their `id`, headword, and reason in
-`scripts/ingest/pipeline/decisions/editorial-exclusions-en.json`. The decision
-is enforced when rebuilding the dictionary and when mining or ingesting
-candidates; an exclusion does not create synonyms or search redirects.
+- **Reference user:** Sinonimia's internal goal is to support people with
+  intellectual disabilities who are learning vocabulary, often in
+  occupational therapy. The website is also useful to anyone who encounters
+  a difficult word. Assume no prior knowledge: the explanation should be
+  understood on first reading, use familiar words, and include a pictogram
+  when helpful. Assess difficulty for someone who understands everyday
+  words and situations but may need help with specialized, technical, or
+  bureaucratic vocabulary.
+- **Decision question:** Is the user likely to understand this word and this
+  sense without help? If yes, it does not need an entry. Exclude familiar,
+  common, concrete, transparent words and basic actions the user likely
+  understands. If Sinonimia needs to explain it, it may be a candidate.
+- Judge the difficulty of the **word and sense**, not how easy it is to write
+  the explanation. A frequent word may have a hard sense that deserves an
+  entry. Keep abstract or intangible terms such as *legend* or *warranty*.
+- Frequency and CEFRLex/ELELex are review signals, not automatic rules. A
+  technical word's absence from CEFRLex/ELELex does not disqualify it. The
+  `scripts/ingest/pipeline/filters/common-words.js` filter helps with bulk
+  sourcing in method C in the [sources guide](sources-guide.md#2-search-methods) but does not limit editorial judgment.
 
-1. **Real and documented.** In current use; drop archaisms, dialect forms, and rare loans.
-2. **Hard for the target user.** A candidate must be a word the target user is unlikely to understand on its own and needs Sinonimia to explain. This criterion applies to every source; frequency and CEFRLex/ELELex provide signals, but editorial review determines whether the word and sense are genuinely hard. A person or an AI agent may conduct this review, using the same criteria. A technical word's absence from CEFRLex/ELELex does not invalidate it. Keep abstract or intangible terms (such as *legend* or *warranty*) and hard senses of frequent words, even when the word has other easy uses. Evaluate the difficulty of the candidate word and sense, not how easy it is to write its explanation. The automatic filter `scripts/ingest/pipeline/filters/common-words.js` assists bulk sourcing in method C; it does not limit the scope of the editorial criterion.
-3. **Independent lemma.** Do not accept conjugated verb forms; keep
-   only the corresponding infinitive/base form. Also reject plurals
-   and enclitic-pronoun forms lacking their own entry.
-4. **No proper nouns or demonyms.** People, surnames, cities,
-   countries, brands, and names for their inhabitants or natives.
-5. **Conceptual coverage does not invalidate an independent lexical form.** Do not discard a word merely because it expresses the same concept as another entry. If the target user could encounter that exact word in a real document and it has no standalone entry yet, it can remain a candidate even when it already appears as a synonym or in an example. `Tetrapléjico` must not disappear just because `Cuadripléjico` exists: these are lexical forms the user may search literally. Decide case by case between a standalone entry and a synonym; use a synonym for a minor variant or rewording, but create a standalone entry when the independent word needs its own explanation, category, example, or grammatical form. The app searches `word`, definition, and synonyms (`matchesSearch` in `js/app.js`), but reaching a related entry does not necessarily mean that the word itself has been explained clearly enough. A second meaning just as hard is also a legitimate candidate — a new entry with its own `id`/`situacion`/`definicion`, never a parenthetical clarifier in `palabra` (see "Words with double meaning" in `SPEC.md`). Once a word is accepted, check all of its hard senses, not just the first one you find. Automatic mining therefore drops only words whose lemma is already an existing `word`; matches found only in synonyms or examples remain in the review list for editorial review.
-6. **Category: assigned, never filtered on.** A word that passes criteria 1-5 gets incorporated even if no AIVD category fits it today — don't reject it or force it into the least-bad category. If nothing fits, not even `vida-diaria`, propose a new category; you don't need a cluster of similar candidates, one well-grounded word is enough. `vida-diaria` stays valid only when it's genuinely the best fit, never the place a word lands for lack of anywhere better. Creating the category is the maintainer's call, but the proposal must be explicit — never drop the word silently. The methods in section 3.3 that use a category to cut a huge list down to size (E and F, especially) are *discovery* techniques, not the acceptance criterion: a word absent from every cross-referenced category isn't thereby rejected on difficulty, it just means that technique didn't surface it. And the reverse also holds: the category tag a word *does* surface under in method E or F (e.g. a Wikipedia or Wiktionary category named "Law") is a hint of where to look, never the final `situacion` — review each candidate on its own merits first (criteria 1-5), then decide its category with this same criterion 6, even if it ends up different from the tag that surfaced it.
-7. **Its own scenario.** Don't reuse the same example context within a category.
-8. **Length as a guide.** 4-12 letters as an initial heuristic, not an absolute rule.
+#### 3. Decide whether the word needs its own entry
 
-No automated filter replaces editorial review by a person or an AI agent. Topic filters based on substring matches create false positives: sharing letters with a legal stem doesn't mean a semantic link.
+- Do not reject an independent lexical form just because another entry
+  covers the same concept. If the target user may encounter that exact word
+  in a real document and it has no standalone entry, it may deserve one even
+  if it appears as a synonym or in an example. For instance, `Tetrapléjico`
+  may have an entry even if `Cuadripléjico` exists; people may search for
+  either form literally.
+- Choose between an entry and a synonym based on what the reader needs: use
+  a synonym for a minor variant or rewording; create an entry when the word
+  needs its own explanation, category, example, or grammatical form. Search
+  indexes the headword, definition, and synonyms (`matchesSearch` in
+  `js/app.js`), but reaching a related entry does not ensure the word is
+  explained clearly enough.
+- Review all hard senses of a word. Each independent sense that meets the
+  criteria may have its own entry with its own `id`, `situacion`, and
+  `definicion`; do not add a parenthetical clarification to the headword
+  (see "Words with double meaning" in `SPEC.md`).
+- Automatic mining rejects a word only when its lemma already appears in an
+  entry's `word` field. If it appears only as a synonym or example, it remains
+  a candidate for editorial review.
 
-When editorial review rejects a candidate, record it with
+#### 4. Check scope and assign a category
+
+- Exclude senses naming plants, trees, fruits, or animals, including species
+  and taxonomic groups; natural-history vocabulary is out of scope. Decide
+  by the entry's meaning, not partial matches in its headword. Keep a distinct
+  sense that names an independent process, condition, or in-scope concept,
+  such as a disease caused by an animal. Substring filters can produce false
+  positives: sharing letters with a legal stem does not prove a semantic link.
+- Exclude senses explicitly restricted to a particular region or country.
+  Check the geographic label for that sense, not the word's origin. If an
+  entry combines a regional sense with an independent general-use sense,
+  keep only the general sense when it is hard; otherwise remove the entry.
+  Do not keep a local sense just because a dictionary records it.
+- **Assign** the category after assessing the word; do not use category
+  membership to accept or reject it. Categories in methods E and F in section
+  3.3 help discover candidates: absence from a cross-reference category does
+  not disqualify a word. A Wikipedia or Wiktionary category label (for
+  example, "Law") is a clue, not the final `situacion`.
+- If no current category fits, propose a new one, even for one well-grounded
+  candidate. Do not force the word into the least-bad category. `vida-diaria`
+  is valid when it genuinely fits, not as a catch-all. The maintainer decides
+  whether to create a category, and the proposal must be explicit; never drop
+  the word silently.
+
+#### 5. Complete the entry
+
+- Use an original example scenario; do not reuse the same context within a
+  category.
+- As an initial guide, prefer headwords of 4-12 letters. This is a heuristic,
+  not an absolute rule.
+
+No filter replaces editorial review by a person or an AI agent; both must
+apply the same criteria.
+
+When rejecting a candidate, record it with
 `node scripts/ingest/pipeline/shared/record-rejection.js --lang <es|en> word`.
-Candidate filters consult that list so a declined word is not proposed
-again. The ingestion workflow and status are in
+Filters consult that list so declined words are not proposed again. When
+excluding an existing entry, record its `id`, headword, and reason in
+`scripts/ingest/pipeline/decisions/editorial-exclusions-en.json`. These
+decisions are enforced when rebuilding the dictionary and when mining or
+ingesting candidates; excluding an entry does not create synonyms or search
+redirects. See the workflow and ingestion status in
 [`scripts/ingest/README.md`](../../scripts/ingest/README.md) and
 [`scripts/ingest/PROGRESS.md`](../../scripts/ingest/PROGRESS.md).
 
-### 3.3 Search methods
+### 3.2 How to add pictograms
 
-**A. Domain corpus and *keyness*.** The main method for one specific category. Collect 15-30 real excerpts under `dev/corpus/` (sources in section 3.5) and run:
-
-```sh
-node scripts/corpus-candidates.js dev/corpus/{categoria}-{idioma}.txt {idioma} 40
-```
-
-It compares corpus frequency against general language and prioritizes domain-specific words. It has worked well with employment contracts, payslips, severance letters, utility bills, property deeds, land-registry extracts, and mortgages.
-
-**B. Existing plain-language glossaries.** Find an official glossary that explains terms simply (section 3.5 is a starting point; verify it's still available). Don't copy definitions: write original Sinonimia wording and keep only what fits the project.
-
-**C. General word list, filtered only by difficulty.** For broad expansion, not one category. Combine general vocabulary sources (Kaikki, Wikimedia, listapalabras.com, frequency) and filter only by section 3.2's criteria 1-5 (valid word shape, not already covered, not a proper noun, not too common, not already declined) — never by whether a word happens to show up in an external domain category, see the 2026-09-09 note on criterion 6 at the end of this section. Review the result word by word; a domain-characteristic root or suffix (method F, or `shared/domain_stems.js`) can decide review order, never which words get discarded without review. CEFRLex/ELELex shouldn't be required for highly specialized legal, medical, or bureaucratic vocabulary: it may be absent from graded readers. The general Kaikki/Wikimedia/frequency scripts for both languages were retired 2026-09-09 once exhausted (see `scripts/ingest/PROGRESS.md`); `es-candidates-listapalabras.js` is now the only live implementation of this method.
-
-**D. ARASAAC as a candidate source.**
-
-```text
-https://api.arasaac.org/api/pictograms/{language}/new/20000
-```
-
-Drop `schematic: true`, cross-reference with `content-status.js`, and check both meaning and image. The bank holds a lot of everyday AAC vocabulary that needs discarding. Useful categories: `law`, `financial services`, `public administration`, `disease`, `medical procedure`, `information technology`, `road safety`, `security and defense`.
-
-**E. Wikipedia categories.**
-
-```text
-https://{es|en}.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:{category}&cmlimit=500&format=json
-```
-
-Paginate with `cmcontinue`, strip parenthetical disambiguators, discard list/portal pages, check real-world use. Specific consumer-facing categories (contracts, taxes, insurance, mortgages, consumer protection, e-commerce) beat broad academic ones. Never use `Category:Disability` as a mass source.
-
-**F. Wiktionary sense-domain categories.** Wikipedia groups *articles*, so a common word with one hard technical sense rarely shows up. Wiktionary tags each *sense* by domain instead, which does catch these polysemous words:
-
-```text
-https://{es|en}.wiktionary.org/w/api.php?action=query&list=categorymembers&cmtitle=Categoría:ES:{domain}&cmlimit=500&format=json
-```
-
-A hit here only confirms *one sense* qualifies: check which one before drafting, and write the entry for that sense only. It's also the best way to check whether a word already covered has another sense worth its own entry.
-
-**2026-09-09 (maintainer directive): the script dedicated to this
-method (`wiktionary_candidates.js`, with its `PLAN`,
-`--list-categories`, and `--exhaustive`) was removed from the project
-entirely.** Not because querying Wiktionary's category API is wrong —
-as a *discovery* technique for a bounded batch of words to review by
-hand it's still legitimate — but because in practice its output was
-being cross-referenced against other word lists
-(`es-candidates-listapalabras.js`, method C) as an **exclusion
-filter** that discarded, without review, any word with no category
-match — the exact opposite of what criterion 6 says. Sinonimia's
-editorial criterion is a word's actual difficulty (criteria 1-5),
-never whether an external category — unstable, incomplete, and
-inconsistent run to run, see `scripts/ingest/PROGRESS.md` — happened
-to tag it. If this technique gets rebuilt in the future, it must
-*annotate* a candidate list already selected by difficulty, never
-*select* it.
-
-### 3.4 Glossaries and corpora by category
-
-| Category | ES / EN glossaries | ES / EN corpus |
-|---|---|---|
-| `tramites` | Plan de Lenguaje Claro de la AGE / plainlanguage.gov | BOE, tax and social-security letters / IRS, HMRC |
-| `salud` | MedlinePlus / MedlinePlus, NIH | Patient leaflets, discharge summaries, consent forms |
-| `vida-diaria` | Plena Inclusión, Easy-to-Read Europe / same | Appliance manuals, residents' notices, public transport |
-| `finanzas` | Finanzas para Todos, CNMV / US CFPB | Bank statements, loans, banking products |
-| `vivienda` | OCU / US HUD | Leases, deeds, mortgages, utilities |
-| `trabajo` | SEPE / ACAS, US Department of Labor | Payslips, employment contracts, leave letters |
-| `legal` | Plan de Lenguaje Claro de Justicia / US court self-help glossaries | Judgments, court notices, notarial documents |
-| `tecnologia` | INCIBE, ONCE, IMSERSO / GCFGlobal, AARP | App help, terms of use, smartphones |
-| `seguridad` | Protección Civil, 112, Red Cross / Ready.gov, OSHA | Evacuation, first aid |
-
-### 3.5 Pictogram warnings
-
-Always inspect the pictogram by hand. Literal keyword matching can return another meaning: an electricity-related word may produce an electric wheelchair, `cuentas` may produce beads, and `court` a tennis court.
-
-If the chosen pictogram isn't from ARASAAC (for example, an OpenSymbols result from another bank), update the footer credits with the right license.
+1. Search the headword in [OpenSymbols](https://www.opensymbols.org/) with
+   `node scripts/search-pictogram.js "<headword>" <language>`. If no suitable
+   image appears, try a synonym or a short description; the search also checks
+   ARASAAC as a fallback.
+2. Choose an image that matches the entry's sense. Reuse another entry's
+   `image.id` when its image fits; otherwise save the image as
+   `img/<id>.png` and set that id and a short alt text in the entry's
+   `image` field.
+3. For an image from another bank, record its source, author, and license,
+   and update the footer credits in `js/i18n.js`.
 
 ## 4. Batch tracking (bulk ingestion)
 
-When one of the section 3.3 techniques produces many candidates at
+When one of the methods in [section 2 of the sources guide](sources-guide.md#2-search-methods) produces many candidates at
 once (especially methods C and F), the resulting entries are staged
 as a **batch**
 (`scripts/ingest/batches/batch_<lang>_<categoria>_<n>.js`) instead of
@@ -387,5 +377,7 @@ node scripts/check.js
   [`technical.md`](technical.md).
 - Product non-negotiables:
   [`SPEC.md`](SPEC.md).
+- Candidate word sources:
+  [`sources-guide.md`](sources-guide.md).
 - Catalogue of words and games:
   [`activities.md`](activities.md).

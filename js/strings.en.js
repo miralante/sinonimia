@@ -82,6 +82,7 @@ window.App.i18n.register({
   "languageName_es": "Spanish",
   "languageName_en": "English",
   "alsoKnownAs": "You can also say",
+  "searchAliasesLabel": "You can also search for this entry by",
   "inASentence": "In an everyday sentence",
   "saidSimply": "Said in a simpler way:",
   "alreadyDiscovered": "Already discovered",

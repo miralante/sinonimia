@@ -814,6 +814,12 @@
     ]
   },
   {
+    "canonical": "fill-out-2",
+    "aliases": [
+      "fill-2"
+    ]
+  },
+  {
     "canonical": "fire-extinguisher",
     "aliases": [
       "extinguisher",
@@ -856,6 +862,13 @@
     "aliases": [
       "frothy"
     ]
+  },
+  {
+    "canonical": "foliage-2",
+    "aliases": [
+      "greenery-2"
+    ],
+    "reason": "Same decorative-leaves sense, matching definition, example, and reciprocal synonym relation."
   },
   {
     "canonical": "foxhound",
@@ -935,6 +948,13 @@
     "aliases": [
       "gingivitis-2"
     ]
+  },
+  {
+    "canonical": "graze-3",
+    "aliases": [
+      "brush-light-touch"
+    ],
+    "reason": "Same light-touch sense, matching definition, example, and reciprocal synonym relation."
   },
   {
     "canonical": "griffin",
@@ -1080,12 +1100,6 @@
     "canonical": "hock",
     "aliases": [
       "hocks"
-    ]
-  },
-  {
-    "canonical": "hotch-potch",
-    "aliases": [
-      "hotch-potch-2"
     ]
   },
   {
@@ -1288,6 +1302,12 @@
     "canonical": "hostage",
     "aliases": [
       "hostage-2"
+    ]
+  },
+  {
+    "canonical": "hotch-potch",
+    "aliases": [
+      "hotch-potch-2"
     ]
   },
   {
@@ -2874,7 +2894,8 @@
   {
     "canonical": "support-6",
     "aliases": [
-      "support-8"
+      "support-8",
+      "support-hold-up"
     ]
   },
   {
@@ -2888,6 +2909,13 @@
     "aliases": [
       "tantrum-6"
     ]
+  },
+  {
+    "canonical": "telekinesis",
+    "aliases": [
+      "telekinesis-mental-movement"
+    ],
+    "reason": "Duplicate entry: same headword, definition, topic, synonym, and example."
   },
   {
     "canonical": "telematic-request",
@@ -3035,6 +3063,12 @@
     ]
   },
   {
+    "canonical": "video-call-2",
+    "aliases": [
+      "video-conference"
+    ]
+  },
+  {
     "canonical": "viewpoint",
     "aliases": [
       "round3190-viewpoint-opinion"
@@ -3082,5 +3116,474 @@
     "aliases": [
       "xenoglossy"
     ]
+  },
+  {
+    "canonical": "scrutinizer",
+    "aliases": [
+      "scrutator"
+    ]
+  },
+  {
+    "canonical": "following",
+    "aliases": [
+      "subsequent-2"
+    ]
+  },
+  {
+    "canonical": "uproot",
+    "aliases": [
+      "unroot"
+    ]
+  },
+  {
+    "canonical": "guarantor-3",
+    "aliases": [
+      "surety-2"
+    ]
+  },
+  {
+    "canonical": "serenity",
+    "aliases": [
+      "placidness"
+    ]
+  },
+  {
+    "canonical": "underrate",
+    "aliases": [
+      "undervalue"
+    ]
+  },
+  {
+    "canonical": "playwright",
+    "aliases": [
+      "dramatist"
+    ]
+  },
+  {
+    "canonical": "shameless-2",
+    "aliases": [
+      "shameless-person-no-shame"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "ext-2",
+    "aliases": [
+      "ext-3"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "modesty-2",
+    "aliases": [
+      "modesty-humility"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "flake-4",
+    "aliases": [
+      "flake-noun-piece"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "reverend",
+    "aliases": [
+      "reverend-minister-title"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "hug-4",
+    "aliases": [
+      "hug-noun-embrace"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "gesture-5",
+    "aliases": [
+      "gesture-movement"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "spreader-2",
+    "aliases": [
+      "spreader-person-disseminator"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "seminal",
+    "aliases": [
+      "seminal-literal"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "intelligence-3",
+    "aliases": [
+      "intelligence-mental-ability"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "safety-chain",
+    "aliases": [
+      "safety-chain-door"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "stiletto",
+    "aliases": [
+      "stiletto-dagger"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "romp",
+    "aliases": [
+      "romp-noun-play"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "keyboard-2",
+    "aliases": [
+      "keyboard-computer"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "sentence-2",
+    "aliases": [
+      "sentence-court-ruling"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "splinter-2",
+    "aliases": [
+      "splinter-shard"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "jet-2",
+    "aliases": [
+      "jet-aircraft"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "clear-4",
+    "aliases": [
+      "clear-unobstructed"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "sip-3",
+    "aliases": [
+      "sip-noun-small-drink"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "retainer",
+    "aliases": [
+      "retainer-dental-device"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "splash-8",
+    "aliases": [
+      "splash-noun"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "sovereign-3",
+    "aliases": [
+      "sovereign-ruler"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "relic",
+    "aliases": [
+      "relic-remnant"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "mildness",
+    "aliases": [
+      "mildness-gentleness"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "sidestep",
+    "aliases": [
+      "sidestep-move-aside"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "splint-2",
+    "aliases": [
+      "splint-device"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "shelling-2",
+    "aliases": [
+      "shelling-remove-shells"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "sniff-2",
+    "aliases": [
+      "sniff-smell"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "mat-4",
+    "aliases": [
+      "mat-picture-border"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "stay-3",
+    "aliases": [
+      "stay-noun-visit"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "coarseness-2",
+    "aliases": [
+      "coarseness-texture"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "slip-6",
+    "aliases": [
+      "slip-small-slide"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "territorial",
+    "aliases": [
+      "territorial-land-ownership"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "staggered",
+    "aliases": [
+      "staggered-shocked"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "skirmish",
+    "aliases": [
+      "skirmish-short-fight"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "reproach",
+    "aliases": [
+      "reproach-noun-criticism"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "sanguine",
+    "aliases": [
+      "sanguine-optimistic"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "freemasonry-2",
+    "aliases": [
+      "freemasonry-organization"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "grumble-5",
+    "aliases": [
+      "grumble-complain"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "commend",
+    "aliases": [
+      "commend-praise"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "conviction-2",
+    "aliases": [
+      "conviction-strong-belief"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "centenary",
+    "aliases": [
+      "centenary-100th-anniversary"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "restitution",
+    "aliases": [
+      "restitution-return-lost-property"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "gazette",
+    "aliases": [
+      "gazette-newspaper"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "royalty",
+    "aliases": [
+      "royalty-members-of-royal-families"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "tartan",
+    "aliases": [
+      "tartan-crossed-line-design"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "superintendent",
+    "aliases": [
+      "superintendent-department-head"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "seize-5",
+    "aliases": [
+      "seize-grab-forcefully"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "monochrome",
+    "aliases": [
+      "monochrome-black-white-media"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "salinity",
+    "aliases": [
+      "salinity-soil-and-substance-salt-content"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "sapphire-2",
+    "aliases": [
+      "sapphire-precious-blue-gem"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "ministerial",
+    "aliases": [
+      "ministerial-government-minister"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "scythe-3",
+    "aliases": [
+      "scythe-cutting-tool"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "walker-5",
+    "aliases": [
+      "walker-person-who-walks"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "consumable",
+    "aliases": [
+      "consumable-adjective"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "romance",
+    "aliases": [
+      "romance-medieval-story"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "metamorphic",
+    "aliases": [
+      "metamorphic-change-of-form"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "stasis",
+    "aliases": [
+      "stasis-no-progress"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "sedative-3",
+    "aliases": [
+      "sedative-calming-adjective"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "conclave",
+    "aliases": [
+      "conclave-cardinal-meeting"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "snub",
+    "aliases": [
+      "snub-deliberately-ignore"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
   }
 ]

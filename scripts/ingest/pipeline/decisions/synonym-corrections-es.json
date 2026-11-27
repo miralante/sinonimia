@@ -1,4 +1,4 @@
-[ 
+[
   {
     "entry": "pacana-fruto",
     "remove": [
@@ -46,15 +46,16 @@
     "remove": [],
     "set": {
       "synonyms": [
-        "propio de un abad"
+        "del abad",
+        "de la abadía"
       ],
       "example": {
         "word": "abadengo",
-        "text": "El señorío abadengo dependía de la abadía local."
+        "text": "El monasterio recibió bienes abadengos."
       },
       "exampleSynonym": {
-        "word": "propio de un abad",
-        "text": "El señorío propio de un abad dependía de la abadía local."
+        "word": "del abad",
+        "text": "El monasterio recibió bienes del abad."
       }
     }
   },
@@ -122,11 +123,12 @@
     "entry": "abatanar",
     "remove": [],
     "set": {
-      "definition": "Batir o golpear el paño en el batán para desengrasarlo y enfurtirlo; también, batir o maltratar.",
+      "definition": "Golpear y limpiar una tela para compactarla; también, maltratar. En Bolivia, una tela puede desgastarse y apelmazarse.",
       "synonyms": [
-        "batanar",
-        "golpear el paño",
-        "enfurtir"
+        "golpear",
+        "maltratar",
+        "desgastarse",
+        "apelmazarse"
       ]
     }
   },
@@ -240,7 +242,7 @@
     "entry": "abotagarse",
     "remove": [],
     "set": {
-      "definition": "Dicho de una parte del cuerpo: hincharse.",
+      "definition": "Una parte del cuerpo se hincha.",
       "synonyms": [
         "hincharse",
         "inflamarse"
@@ -393,9 +395,9 @@
     "entry": "acemita",
     "remove": [],
     "set": {
-      "definition": "Pan hecho de acemite.",
+      "definition": "Pan hecho con salvado de trigo y un poco de harina.",
       "synonyms": [
-        "pan de acemite"
+        "pan de salvado"
       ]
     }
   },
@@ -440,7 +442,6 @@
     "remove": [],
     "set": {
       "synonyms": [
-        "ázimo",
         "pan sin levadura"
       ]
     }
@@ -450,7 +451,8 @@
     "remove": [],
     "set": {
       "synonyms": [
-        "arción"
+        "correa del estribo",
+        "correa de la silla de montar"
       ]
     }
   },
@@ -458,18 +460,17 @@
     "entry": "acne",
     "remove": [],
     "set": {
-      "definition": "Afección de la piel que puede causar puntos negros, manchas y granos. Suele aparecer en la cara, el pecho o la espalda.",
+      "definition": "Problema de la piel que causa granos y puntos negros. Puede aparecer en la cara, el pecho o la espalda.",
       "synonyms": [
-        "acné vulgar",
-        "granitos"
+        "granos en la piel"
       ],
       "example": {
         "word": "acné",
-        "text": "El acné puede aparecer en la adolescencia o persistir en la edad adulta."
+        "text": "El acné puede aparecer durante la adolescencia."
       },
       "exampleSynonym": {
-        "word": "acné vulgar",
-        "text": "El acné vulgar puede aparecer en la adolescencia o persistir en la edad adulta."
+        "word": "granos en la piel",
+        "text": "Los granos en la piel pueden aparecer durante la adolescencia."
       }
     }
   },
@@ -478,9 +479,8 @@
     "remove": [],
     "set": {
       "synonyms": [
-        "aporcadura",
-        "aporcado",
-        "aporque"
+        "amontonar tierra",
+        "montón de tierra"
       ]
     }
   },
@@ -489,8 +489,7 @@
     "remove": [],
     "set": {
       "synonyms": [
-        "acogombrar",
-        "aporcar"
+        "poner tierra alrededor"
       ]
     }
   },
@@ -518,8 +517,8 @@
     "remove": [],
     "set": {
       "synonyms": [
-        "acoriforme",
         "con forma de corazón",
+        "acoriforme",
         "cordiforme"
       ]
     }
@@ -539,11 +538,11 @@
     "entry": "acotejar",
     "remove": [],
     "set": {
-      "definition": "En Canarias, colocar objetos ordenadamente.",
+      "definition": "En Canarias, poner las cosas en orden.",
       "synonyms": [
         "ordenar",
-        "acomodar",
-        "arreglar"
+        "poner en su sitio",
+        "acomodar"
       ]
     }
   },
@@ -565,7 +564,7 @@
     "entry": "acrostico",
     "remove": [],
     "set": {
-      "definition": "Composición cuyas letras, leídas en vertical, forman otra palabra o mensaje."
+      "definition": "Poema cuyas letras, leídas hacia abajo, forman otra palabra o mensaje."
     }
   },
   {
@@ -580,13 +579,17 @@
     "remove": [],
     "set": {
       "example": {
-        "word": "Acuarelístico",
+        "word": "acuarelístico",
         "text": "El museo conserva un diseño acuarelístico de la fachada."
       },
       "exampleSynonym": {
-        "word": "relativo a la acuarela",
-        "text": "El museo conserva un diseño relativo a la acuarela de la fachada."
-      }
+        "word": "pintado con acuarela",
+        "text": "El museo conserva un diseño de la fachada pintado con acuarela."
+      },
+      "synonyms": [
+        "pintado con acuarela",
+        "relativo a la acuarela"
+      ]
     }
   },
   {
@@ -623,10 +626,10 @@
     "entry": "adamarse",
     "remove": [],
     "set": {
-      "definition": "Verbo pronominal poco usado: dicho de un hombre, adelgazar o hacerse delicado como una mujer.",
+      "definition": "Poco usado: un hombre adelgaza o adquiere rasgos que se consideran femeninos.",
       "synonyms": [
-        "afeminarse (sentido antiguo)",
-        "hacerse delicado"
+        "hacerse delicado",
+        "afeminarse (uso antiguo)"
       ]
     }
   },
@@ -657,11 +660,11 @@
     "set": {
       "example": {
         "word": "Ademprio",
-        "text": "El concejo protegió el ademprío compartido por los pueblos."
+        "text": "El pueblo compartía el ademprio con la aldea vecina."
       },
       "exampleSynonym": {
-        "word": "pastos comunales",
-        "text": "El concejo protegió los pastos comunales compartidos por los pueblos."
+        "word": "terreno comunal de pastos",
+        "text": "El pueblo compartía el terreno comunal de pastos con la aldea vecina."
       }
     }
   },
@@ -736,9 +739,7 @@
     "set": {
       "synonyms": [
         "comprador",
-        "adquiridor",
-        "persona que adquiere",
-        "Adquisidor"
+        "persona que adquiere"
       ]
     }
   },
@@ -911,12 +912,12 @@
     "entry": "agalludo",
     "remove": [],
     "set": {
-      "definition": "Adjetivo o sustantivo coloquial: referido a una persona, ambicioso o avaricioso; también, animoso, resuelto, valiente o audaz.",
+      "definition": "En varios países de América, quiere mucho dinero o poder. En otros, es valiente y decidido.",
       "synonyms": [
+        "ambicioso",
         "avaricioso",
-        "codicioso",
         "valiente",
-        "audaz"
+        "decidido"
       ]
     }
   },
@@ -1526,12 +1527,16 @@
     "remove": [],
     "set": {
       "synonyms": [
+        "palangana",
         "jofaina",
         "aljébana",
         "ajofaina",
-        "lavacara",
-        "almofía"
-      ]
+        "lavacara"
+      ],
+      "exampleSynonym": {
+        "word": "palangana",
+        "text": "Puso la palangana con agua junto al lavabo."
+      }
     }
   },
   {
@@ -1616,8 +1621,9 @@
     "entry": "alon",
     "remove": [],
     "set": {
-      "definition": "Ala entera de un ave, sin las plumas; por ejemplo, un alón de pavo. También, interjección desusada usada para incitar a cambiar de lugar, actividad o asunto.",
+      "definition": "Ala entera de un ave sin plumas o sombrero de ala grande. Antiguamente, se decía para pedir que alguien cambiara de sitio o tarea.",
       "synonyms": [
+        "de ala grande",
         "ala entera de un ave"
       ]
     }
@@ -1897,12 +1903,11 @@
     "entry": "amolar",
     "remove": [],
     "set": {
-      "definition": "Desgastar o afilar un instrumento en la muela; en sentido coloquial, fastidiar o molestar con insistencia.",
+      "definition": "Afilar una herramienta con una piedra de afilar. En el habla informal, molestar a alguien sin parar.",
       "synonyms": [
         "afilar",
-        "desgastar en la muela",
-        "fastidiar",
-        "molestar"
+        "molestar",
+        "fastidiar"
       ]
     }
   },
@@ -2567,10 +2572,10 @@
     "remove": [],
     "set": {
       "synonyms": [
-        "apechar",
         "soportar",
+        "apechar",
         "hacerse cargo",
-        "Apencar"
+        "apencar"
       ]
     }
   },
@@ -3525,9 +3530,11 @@
     "entry": "atarragar",
     "remove": [],
     "set": {
-      "definition": "Desusado: adobar una herradura dándole golpes con el martillo.",
+      "definition": "En Colombia, México y Venezuela, comer demasiado. También, dar forma a una herradura con un martillo.",
       "synonyms": [
-        "adobar una herradura"
+        "atiborrar",
+        "comer demasiado",
+        "dar forma a una herradura"
       ]
     }
   },
@@ -3607,9 +3614,12 @@
         "word": "atascarse",
         "text": "El camión puede atascarse en el barro."
       },
-      "definition": "Dar en un atolladero; en uso pronominal, quedar detenido por un obstáculo o atascarse.",
+      "definition": "En Costa Rica, golpear o meter en un problema. También, quedarse atascado o acabar en un lugar sin salida.",
       "synonyms": [
         "atascarse",
+        "golpear",
+        "meter en un problema",
+        "enredar",
         "quedar detenido"
       ]
     }
@@ -5493,9 +5503,7 @@
   },
   {
     "entry": "cacarear",
-    "remove": [
-      "cacaraquear"
-    ]
+    "remove": []
   },
   {
     "entry": "cachavazo",
@@ -5530,10 +5538,10 @@
     "entry": "cachetear",
     "remove": [],
     "set": {
-      "definition": "Golpear a alguien en la cara con la mano abierta.",
+      "definition": "Dar una bofetada a alguien. En Puerto Rico, conseguir gratis algo que paga otra persona.",
       "synonyms": [
         "abofetear",
-        "dar una bofetada"
+        "conseguir algo gratis"
       ]
     }
   },
@@ -5594,10 +5602,10 @@
       "guasearse"
     ],
     "set": {
-      "definition": "Como verbo pronominal coloquial, burlarse o guasearse.",
+      "definition": "Burlarse de alguien; es un uso informal. En México, también significa acariciar a alguien con cariño.",
       "synonyms": [
         "burlarse",
-        "mofarse"
+        "acariciar"
       ],
       "example": {
         "word": "cachondear",
@@ -5795,7 +5803,7 @@
       "rosario"
     ],
     "set": {
-      "definition": "En uso coloquial, hipocresía o astucia; también, persona poco fiable.",
+      "definition": "Hipocresía o astucia. También describe a una persona que no es de fiar.",
       "synonyms": [
         "hipocresía",
         "astucia",
@@ -5805,11 +5813,11 @@
       ],
       "example": {
         "word": "camándula",
-        "text": "No creí sus promesas: siempre tiene muchas camándulas."
+        "text": "Sus excusas eran pura camándula."
       },
       "exampleSynonym": {
         "word": "hipocresía",
-        "text": "No creí sus promesas: siempre mostraba mucha hipocresía."
+        "text": "Sus excusas eran pura hipocresía."
       }
     }
   },
@@ -5838,12 +5846,21 @@
     "entry": "cambalache",
     "remove": [],
     "set": {
-      "definition": "Nombre masculino coloquial, a menudo despectivo: trueque o intercambio; acuerdo poco transparente entre partes.",
+      "definition": "Acuerdo poco claro y, a menudo, deshonesto. También puede ser un intercambio de cosas de poco valor.",
       "synonyms": [
-        "trueque",
+        "acuerdo turbio",
         "componenda",
-        "chanchullo"
-      ]
+        "chanchullo",
+        "trueque"
+      ],
+      "example": {
+        "word": "cambalache",
+        "text": "Los concejales hicieron un cambalache para repartirse el dinero."
+      },
+      "exampleSynonym": {
+        "word": "acuerdo turbio",
+        "text": "Los concejales hicieron un acuerdo turbio para repartirse el dinero."
+      }
     }
   },
   {
@@ -6023,18 +6040,16 @@
   },
   {
     "entry": "canguelo",
-    "remove": [
-      "yuyu"
-    ]
+    "remove": []
   },
   {
     "entry": "canijo",
     "remove": [],
     "set": {
-      "definition": "Adjetivo coloquial: de poca estatura o tamaño; referido a una persona, pequeño, débil o enclenque.",
+      "definition": "Pequeño o de poca estatura. Si se dice de una persona, también significa débil o enfermiza.",
       "synonyms": [
-        "pequeño",
         "enclenque",
+        "pequeño",
         "débil"
       ]
     }
@@ -6068,9 +6083,7 @@
     "remove": [],
     "set": {
       "synonyms": [
-        "contoneo",
-        "balanceo afectado",
-        "campaneo"
+        "balanceo exagerado"
       ]
     }
   },
@@ -6202,7 +6215,8 @@
     "remove": [],
     "set": {
       "synonyms": [
-        "córcholis"
+        "caramba",
+        "carape"
       ]
     }
   },
@@ -6415,11 +6429,20 @@
     "entry": "carpetazo",
     "remove": [],
     "set": {
-      "definition": "En la locución «dar carpetazo», cerrar un asunto o trámite dándolo por terminado.",
+      "definition": "En Argentina, filtración de información comprometedora. «Dar carpetazo» es cerrar un asunto o dejar un trámite sin resolver.",
       "synonyms": [
+        "filtración",
         "cierre de un expediente",
-        "dar por terminado"
-      ]
+        "dar por terminado un asunto"
+      ],
+      "example": {
+        "word": "carpetazo",
+        "text": "El periódico publicó un carpetazo sobre el ministro."
+      },
+      "exampleSynonym": {
+        "word": "filtración",
+        "text": "El periódico publicó una filtración sobre el ministro."
+      }
     }
   },
   {
@@ -6721,17 +6744,17 @@
     "entry": "ceca",
     "remove": [],
     "set": {
-      "definition": "Establecimiento oficial donde se fabricaba y acuñaba moneda. También aparece en la locución «de ceca en meca».",
+      "definition": "Lugar oficial donde se hacen monedas. «De ceca en meca» es ir de un sitio a otro.",
       "synonyms": [
         "casa de moneda"
       ],
       "example": {
         "word": "ceca",
-        "text": "La ceca acuñó monedas para la Corona."
+        "text": "La ceca fabricó monedas para el país."
       },
       "exampleSynonym": {
         "word": "casa de moneda",
-        "text": "La casa de moneda acuñó monedas para la Corona."
+        "text": "La casa de moneda fabricó monedas para el país."
       }
     }
   },
@@ -7388,13 +7411,21 @@
     "entry": "chivar",
     "remove": [],
     "set": {
-      "definition": "Verbo coloquial: delatar algo o a alguien, o revelar con mala intención algo oculto que perjudica a otra persona; también, en Canarias, fastidiar, molestar o engañar a alguien.",
+      "definition": "Delatar a alguien o contar un secreto para perjudicarlo. En Canarias, también significa molestar o engañar.",
       "synonyms": [
         "delatar",
         "acusar",
         "revelar",
         "molestar (Canarias)"
-      ]
+      ],
+      "example": {
+        "word": "chivó",
+        "text": "El testigo se chivó de quién había robado el bolso."
+      },
+      "exampleSynonym": {
+        "word": "delató",
+        "text": "El testigo delató a quien había robado el bolso."
+      }
     }
   },
   {
@@ -7420,8 +7451,8 @@
     "remove": [],
     "set": {
       "synonyms": [
-        "mostrar cariño exagerado",
-        "encariñarse en exceso"
+        "encariñarse en exceso",
+        "mostrar cariño exagerado"
       ],
       "example": {
         "word": "chochear",
@@ -7430,7 +7461,8 @@
       "exampleSynonym": {
         "word": "encariñarse en exceso",
         "text": "No puede evitar encariñarse en exceso con su nieto."
-      }
+      },
+      "definition": "En el habla informal, significa perder claridad mental por la edad. También significa mostrar demasiado cariño por alguien o algo."
     }
   },
   {
@@ -7539,7 +7571,23 @@
     "entry": "chupoptero",
     "remove": [
       "ñoqui (Argentina, coloquial)"
-    ]
+    ],
+    "set": {
+      "definition": "Persona que se aprovecha de otras. También se usa como insulto para quien cobra un sueldo sin trabajar.",
+      "synonyms": [
+        "aprovechado",
+        "parásito",
+        "vividor"
+      ],
+      "example": {
+        "word": "chupóptero",
+        "text": "El chupóptero cobraba un sueldo sin trabajar."
+      },
+      "exampleSynonym": {
+        "word": "aprovechado",
+        "text": "El aprovechado cobraba un sueldo sin trabajar."
+      }
+    }
   },
   {
     "entry": "churrasco",
@@ -7772,9 +7820,22 @@
   },
   {
     "entry": "citola",
-    "remove": [
-      "tarabita"
-    ]
+    "set": {
+      "definition": "Pieza del molino que golpea la tolva para soltar el grano. También era una forma antigua de «cítara».",
+      "synonyms": [
+        "pieza del molino",
+        "tarabilla"
+      ],
+      "example": {
+        "word": "cítola",
+        "text": "El molinero ajustó la cítola para que golpeara mientras la tolva soltaba el grano."
+      },
+      "exampleSynonym": {
+        "word": "pieza del molino",
+        "text": "El molinero ajustó la pieza del molino para que golpeara mientras la tolva soltaba el grano."
+      }
+    },
+    "remove": []
   },
   {
     "entry": "civilizacion",
@@ -7794,17 +7855,17 @@
     "entry": "cizanear",
     "remove": [],
     "set": {
-      "definition": "Provocar discordia o enemistad entre personas.",
+      "definition": "Enfrentar a unas personas con otras.",
       "synonyms": [
-        "sembrar discordia"
+        "enfrentar"
       ],
       "example": {
         "word": "cizañear",
-        "text": "No conviene cizañear entre los hermanos."
+        "text": "La mentira puede cizañear a los hermanos."
       },
       "exampleSynonym": {
-        "word": "sembrar discordia",
-        "text": "No conviene sembrar discordia entre los hermanos."
+        "word": "enfrentar",
+        "text": "La mentira puede enfrentar a los hermanos."
       }
     }
   },
@@ -7812,17 +7873,18 @@
     "entry": "clangor",
     "remove": [],
     "set": {
-      "definition": "Ruido fuerte, áspero y resonante.",
+      "definition": "Sonido de trompeta o clarín, sobre todo en textos literarios.",
       "synonyms": [
-        "clamor"
+        "sonido de trompeta",
+        "sonido de clarín"
       ],
       "example": {
         "word": "clangor",
-        "text": "El clangor de las campanas nos despertó."
+        "text": "El clangor de la trompeta anunció el inicio del desfile."
       },
       "exampleSynonym": {
-        "word": "clamor",
-        "text": "El clamor de las campanas nos despertó."
+        "word": "sonido de trompeta",
+        "text": "El sonido de la trompeta anunció el inicio del desfile."
       }
     }
   },
@@ -7831,21 +7893,26 @@
     "remove": [],
     "set": {
       "synonyms": [
-        "amanecer",
-        "alborear",
-        "Alborecer"
-      ]
+        "amanecer"
+      ],
+      "definition": "Empezar a salir la luz del día. Se usa poco.",
+      "example": {
+        "word": "clarecer",
+        "text": "Salieron del refugio al clarecer, cuando empezaba a iluminarse el horizonte."
+      },
+      "exampleSynonym": {
+        "word": "amanecer",
+        "text": "Salieron del refugio al amanecer, cuando empezaba a iluminarse el horizonte."
+      }
     }
   },
   {
     "entry": "clarificador",
-    "remove": [
-      "recipiente clarificador (sentido cubano)"
-    ],
+    "remove": [],
     "set": {
-      "definition": "Que clarifica o hace comprensible algo.",
+      "definition": "Que aclara o explica algo.",
       "synonyms": [
-        "que aclara",
+        "aclaratorio",
         "explicativo"
       ],
       "example": {
@@ -7862,17 +7929,18 @@
     "entry": "clausura",
     "remove": [],
     "set": {
-      "definition": "Vida monástica apartada del mundo exterior.",
+      "definition": "Vida religiosa en la que una persona vive apartada del mundo.",
       "synonyms": [
-        "reclusión monástica"
+        "vida apartada",
+        "retiro religioso"
       ],
       "example": {
         "word": "clausura",
-        "text": "La clausura del convento era estricta."
+        "text": "La clausura de la monja duró muchos años."
       },
       "exampleSynonym": {
-        "word": "reclusión monástica",
-        "text": "La reclusión monástica del convento era estricta."
+        "word": "vida apartada",
+        "text": "La vida apartada de la monja duró muchos años."
       }
     }
   },
@@ -7898,7 +7966,7 @@
     "entry": "coagular",
     "remove": [],
     "set": {
-      "definition": "Hacer que un líquido espese o forme coágulos. También puede ocurrir por sí solo."
+      "definition": "Hacer sólido un líquido, sobre todo la sangre. Un líquido también coagula cuando se vuelve sólido o espeso."
     }
   },
   {
@@ -7946,7 +8014,7 @@
     "entry": "cocainomania",
     "remove": [],
     "set": {
-      "definition": "Término antiguo para la adicción a la cocaína.",
+      "definition": "Adicción a la cocaína.",
       "synonyms": [
         "adicción a la cocaína"
       ],
@@ -7964,17 +8032,17 @@
     "entry": "cochizo",
     "remove": [],
     "set": {
-      "definition": "Parte de una mina donde se encuentra el mineral más valioso.",
+      "definition": "En una mina, zona donde se encuentra el mineral de más valor.",
       "synonyms": [
-        "zona más rica de la mina"
+        "zona con mineral de más valor"
       ],
       "example": {
         "word": "cochizo",
         "text": "El minero encontró el cochizo de la veta."
       },
       "exampleSynonym": {
-        "word": "zona más rica de la mina",
-        "text": "El minero encontró la zona más rica de la mina."
+        "word": "zona con mineral de más valor",
+        "text": "El minero encontró la zona con mineral de más valor en la veta."
       }
     }
   },
@@ -8010,17 +8078,17 @@
     "entry": "cogestion",
     "remove": [],
     "set": {
-      "definition": "Gestión realizada en común por dos o más personas o grupos.",
+      "definition": "Organizar y dirigir algo entre varias personas. En una empresa, sus trabajadores también pueden participar en esa tarea.",
       "synonyms": [
         "gestión compartida"
       ],
       "example": {
         "word": "cogestión",
-        "text": "La cogestión del hospital reunió a médicos y pacientes."
+        "text": "Médicos y pacientes participan en la cogestión del hospital."
       },
       "exampleSynonym": {
         "word": "gestión compartida",
-        "text": "La gestión compartida del hospital reunió a médicos y pacientes."
+        "text": "Médicos y pacientes participan en la gestión compartida del hospital."
       }
     }
   },
@@ -8028,17 +8096,18 @@
     "entry": "cohecho",
     "remove": [],
     "set": {
-      "definition": "Delito relacionado con ofrecer o aceptar sobornos a funcionarios.",
+      "definition": "Delito por sobornar a un funcionario o aceptar un soborno. En agricultura, última labor antes de sembrar o época de ese trabajo.",
       "synonyms": [
-        "soborno"
+        "soborno",
+        "última labor antes de sembrar"
       ],
       "example": {
         "word": "cohecho",
-        "text": "El tribunal investigó el cohecho en la oficina pública."
+        "text": "El tribunal investigó el cohecho de un funcionario."
       },
       "exampleSynonym": {
         "word": "soborno",
-        "text": "El tribunal investigó el soborno en la oficina pública."
+        "text": "El tribunal investigó el soborno de un funcionario."
       }
     }
   },
@@ -8046,18 +8115,18 @@
     "entry": "coheteria",
     "remove": [],
     "set": {
-      "definition": "Taller o tienda donde se fabrican o venden cohetes pirotécnicos.",
+      "definition": "Taller o tienda donde se hacen o venden cohetes para fiestas.",
       "synonyms": [
         "taller de cohetes",
         "tienda de cohetes"
       ],
       "example": {
         "word": "cohetería",
-        "text": "La cohetería preparó los fuegos artificiales para la fiesta."
+        "text": "La cohetería preparó cohetes para la fiesta."
       },
       "exampleSynonym": {
-        "word": "tienda de cohetes",
-        "text": "La tienda de cohetes preparó los fuegos artificiales para la fiesta."
+        "word": "taller de cohetes",
+        "text": "El taller de cohetes preparó cohetes para la fiesta."
       }
     }
   },
@@ -8089,27 +8158,25 @@
     "entry": "cojon",
     "remove": [],
     "set": {
-      "definition": "Vulgar word for a testicle.",
+      "definition": "Testículo. Es una palabra vulgar.",
       "synonyms": [
-        "testículo (vulgar)"
+        "testículo"
       ],
       "example": {
         "word": "cojón",
-        "text": "El cojón es una palabra vulgar; el término formal es testículo."
+        "text": "Le dolía un cojón después del golpe."
       },
       "exampleSynonym": {
         "word": "testículo",
-        "text": "El testículo es el término formal para esta parte del cuerpo."
+        "text": "Le dolía un testículo después del golpe."
       }
     }
   },
   {
     "entry": "colear",
-    "remove": [
-      "derrapar (Venezuela, pronominal)"
-    ],
+    "remove": [],
     "set": {
-      "definition": "Mover la cola con frecuencia. En las corridas de toros, sujetar al toro por la cola.",
+      "definition": "Mover la cola con frecuencia. En las corridas de toros, agarrar al toro por la cola.",
       "synonyms": [
         "mover la cola"
       ],
@@ -8155,7 +8222,7 @@
     "entry": "coleoptero",
     "remove": [],
     "set": {
-      "definition": "Insect with hardened front wings that cover its back wings. Beetles, weevils, and fireflies are examples."
+      "definition": "Insecto con dos alas delanteras duras que cubren otras dos alas finas. El escarabajo y el gorgojo son coleópteros."
     }
   },
   {
@@ -8165,9 +8232,9 @@
       "paño de fregar (Venezuela)"
     ],
     "set": {
-      "definition": "Prenda de cuero ajustada al cuerpo, con o sin mangas.",
+      "definition": "Ropa de cuero que cubría la parte superior del cuerpo. Se usaba hace siglos.",
       "synonyms": [
-        "jubón de cuero"
+        "ropa de cuero"
       ]
     }
   },
@@ -8175,18 +8242,18 @@
     "entry": "colgadura",
     "remove": [],
     "set": {
-      "definition": "Cloth or curtain hung to cover or decorate a wall or balcony.",
+      "definition": "Tela colgada en una pared o un balcón para cubrirlo o adornarlo.",
       "synonyms": [
-        "tapiz",
-        "cortina"
+        "cortina",
+        "tapiz"
       ],
       "example": {
         "word": "colgadura",
-        "text": "Colgaron una colgadura de tela roja en el balcón."
+        "text": "Para la fiesta, pusieron una colgadura de tela roja en el balcón."
       },
       "exampleSynonym": {
         "word": "cortina",
-        "text": "Colgaron una cortina de tela roja en el balcón."
+        "text": "Para la fiesta, pusieron una cortina de tela roja en el balcón."
       }
     }
   },
@@ -8212,47 +8279,62 @@
   {
     "entry": "collera",
     "remove": [
-      "gemelos (Bolivia y Chile, plural)"
+      "gemelos de camisa"
     ],
     "set": {
-      "definition": "Sustantivo femenino con varios sentidos: collar acolchado de cuero o lona para caballerías o bueyes; adorno para el cuello de un caballo en actos públicos; cadena de presidiarios; en Andalucía, pareja de ciertos animales.",
+      "definition": "Collar acolchado para caballos o bueyes; también, adorno festivo de caballo. Además, cadena de presos o pareja de animales en Andalucía.",
       "synonyms": [
-        "collar para caballerías",
-        "cadena de presidiarios",
+        "collar acolchado",
+        "cadena de presos",
         "pareja de animales (Andalucía)"
-      ]
+      ],
+      "example": {
+        "word": "collera",
+        "text": "Ajustaron la collera de la mula antes de tirar del carro."
+      },
+      "exampleSynonym": {
+        "word": "collar acolchado",
+        "text": "Ajustaron el collar acolchado de la mula antes de tirar del carro."
+      }
     }
   },
   {
     "entry": "coloide",
     "remove": [],
     "set": {
-      "definition": "Substance with tiny particles spread through another substance. The particles do not dissolve fully or settle quickly.",
+      "definition": "Sustancia repartida en un líquido sin disolverse del todo. También describe algo que contiene esa mezcla.",
       "synonyms": [
-        "sistema coloidal",
-        "dispersión coloidal"
+        "mezcla de sustancias",
+        "sustancia repartida en un líquido"
       ],
       "example": {
         "word": "coloide",
-        "text": "La leche es un coloide con grasa dispersa en agua."
+        "text": "La leche es un coloide con grasa repartida en agua."
       },
       "exampleSynonym": {
-        "word": "sistema coloidal",
-        "text": "La leche es un sistema coloidal con grasa dispersa en agua."
+        "word": "mezcla de sustancias",
+        "text": "La leche es una mezcla de sustancias con grasa repartida en agua."
       }
     }
   },
   {
     "entry": "colombianismo",
-    "remove": [
-      "voz colombiana",
-      "uso colombiano"
-    ],
+    "remove": [],
     "set": {
+      "definition": "Palabra o uso del español de Colombia. También, amor por Colombia o ser colombiano.",
+      "example": {
+        "word": "colombianismo",
+        "text": "Un colombiano usó el colombianismo «parce» para saludar a un amigo."
+      },
       "exampleSynonym": {
-        "word": "colombianidad (segundo sentido)",
-        "text": "El diccionario marca como colombianidad (segundo sentido) una palabra usual en Colombia."
-      }
+        "word": "palabra colombiana",
+        "text": "Un colombiano usó la palabra colombiana «parce» para saludar a un amigo."
+      },
+      "synonyms": [
+        "palabra colombiana",
+        "amor por Colombia",
+        "ser colombiano"
+      ]
     }
   },
   {
@@ -8275,16 +8357,26 @@
   },
   {
     "entry": "colorin",
-    "remove": [
-      "pelirrojo (Chile, adjetivo)"
-    ],
+    "remove": [],
     "set": {
-      "definition": "Sustantivo masculino: jilguero; color vivo y sobresaliente, usado sobre todo en plural; vulgarmente, sarampión; en España, enfermedad de la vid.",
+      "definition": "Jilguero, color vivo o persona pelirroja en Chile. También, suplemento de periódico, cómic canario, sarampión o fin de cuento.",
       "synonyms": [
         "jilguero",
-        "color vivo (sustantivo)",
-        "sarampión (vulgar)"
-      ]
+        "color vivo",
+        "persona pelirroja (Chile)",
+        "suplemento de periódico (España)",
+        "cómic infantil (Canarias)",
+        "sarampión",
+        "final de cuento"
+      ],
+      "example": {
+        "word": "colorín",
+        "text": "El colorín cantó en el árbol durante toda la mañana."
+      },
+      "exampleSynonym": {
+        "word": "jilguero",
+        "text": "El jilguero cantó en el árbol durante toda la mañana."
+      }
     }
   },
   {
@@ -8297,12 +8389,11 @@
     "entry": "comadrear",
     "remove": [],
     "set": {
-      "definition": "Verbo intransitivo y transitivo, coloquial: chismear o murmurar; contar algo con indiscreción o malicia.",
+      "definition": "Contar chismes sobre otras personas. En varios países de América, también significa hablar de cosas sin importancia.",
       "synonyms": [
+        "contar chismes",
         "chismear",
-        "cotillear",
-        "murmurar",
-        "chismorrear"
+        "cotillear"
       ]
     }
   },
@@ -8310,7 +8401,19 @@
     "entry": "comanditario",
     "remove": [],
     "set": {
-      "definition": "Socio que aporta capital a una sociedad comanditaria. Su responsabilidad suele limitarse a su aportación, según la ley. Normalmente no dirige la sociedad. La ley local puede establecer otras consecuencias."
+      "definition": "Socio que aporta dinero y no dirige la empresa. Solo responde por una cantidad limitada.",
+      "synonyms": [
+        "socio que aporta dinero",
+        "inversor sin dirigir la empresa"
+      ],
+      "example": {
+        "word": "comanditario",
+        "text": "El comanditario aporta dinero, pero no dirige la empresa."
+      },
+      "exampleSynonym": {
+        "word": "socio que aporta dinero",
+        "text": "El socio que aporta dinero no dirige la empresa."
+      }
     }
   },
   {
@@ -8335,18 +8438,16 @@
     "entry": "comatoso",
     "remove": [],
     "set": {
-      "definition": "Que está en coma, un estado profundo de inconsciencia. La persona no puede despertarse ni responder normalmente.",
+      "definition": "Que está en coma. La persona no responde ni puede despertarse.",
       "synonyms": [
         "en estado de coma",
-        "inconsciente en estado de coma"
+        "inconsciente"
       ]
     }
   },
   {
     "entry": "comba",
-    "remove": [
-      "gamba (Honduras, cuarto sentido)"
-    ],
+    "remove": [],
     "set": {
       "definition": "Sustantivo femenino: 1. Inflexión o curvatura de un cuerpo sólido al encorvarse. 2. Juego o ejercicio de saltar una cuerda que se hace pasar por debajo de los pies y sobre la cabeza. 3. Cuerda usada para ese juego.",
       "synonyms": [
@@ -8362,7 +8463,7 @@
     "entry": "comedido",
     "remove": [],
     "set": {
-      "definition": "Prudente y moderado.",
+      "definition": "Que actúa con prudencia y moderación.",
       "synonyms": [
         "prudente",
         "moderado",
@@ -8377,10 +8478,10 @@
     "entry": "comedir",
     "remove": [],
     "set": {
-      "definition": "Verbo transitivo y pronominal: transitivo, desusado, pensar, premeditar o tomar medidas para algo; pronominal, moderarse o contenerse.",
+      "definition": "Palabra antigua: pensar o preparar algo antes de actuar. Comedirse significa moderarse o contenerse.",
       "synonyms": [
-        "premeditar",
         "planear",
+        "pensar antes de actuar",
         "moderarse",
         "contenerse"
       ]
@@ -8390,7 +8491,7 @@
     "entry": "comedirse",
     "remove": [],
     "set": {
-      "definition": "Verbo pronominal: moderarse o contenerse.",
+      "definition": "Moderarse o contenerse.",
       "synonyms": [
         "moderarse",
         "contenerse",
@@ -8418,16 +8519,10 @@
     }
   },
   {
-    "entry": "comilon",
-    "remove": [
-      "comelón (de una persona)"
-    ]
-  },
-  {
     "entry": "comodante",
     "remove": [],
     "set": {
-      "definition": "Person who lends something for free under a loan agreement. The agreement sets how long it can be used."
+      "definition": "Persona que presta algo gratis y espera que se lo devuelvan."
     }
   },
   {
@@ -8469,7 +8564,7 @@
       "dificultad (uso de El Salvador)"
     ],
     "set": {
-      "definition": "Exposición breve, oral o escrita, que reúne lo más importante de una materia.",
+      "definition": "Resumen breve, oral o escrito, con las ideas principales de un tema.",
       "synonyms": [
         "resumen",
         "síntesis",
@@ -8484,7 +8579,7 @@
       "comprender por completo (uso de México)"
     ],
     "set": {
-      "definition": "Verbo pronominal: dicho de sustancias, mezclarse penetrando unas en otras; dicho de cosas, influirse mutuamente hasta llegar a identificarse; dicho de personas, identificarse en ideas y sentimientos.",
+      "definition": "Entenderse con otras personas porque comparten ideas y sentimientos. También, mezclarse dos sustancias o influirse dos cosas entre sí.",
       "synonyms": [
         "fundirse",
         "identificarse",
@@ -8515,7 +8610,14 @@
     "entry": "compost",
     "remove": [
       "composta (variante regional)"
-    ]
+    ],
+    "set": {
+      "definition": "Abono hecho con restos de comida, plantas y otros residuos naturales descompuestos.",
+      "synonyms": [
+        "abono orgánico",
+        "abono de restos orgánicos"
+      ]
+    }
   },
   {
     "entry": "concebir",
@@ -8583,17 +8685,18 @@
     "entry": "conclave",
     "remove": [],
     "set": {
-      "definition": "Reunión de cardenales para elegir al papa.",
+      "definition": "Reunión de personas para tratar un asunto. También, reunión o lugar donde los cardenales eligen al papa.",
       "synonyms": [
+        "reunión",
         "grupo de cardenales"
       ],
       "example": {
         "word": "cónclave",
-        "text": "El cónclave eligió al papa."
+        "text": "Los cardenales celebraron un cónclave para elegir al papa."
       },
       "exampleSynonym": {
-        "word": "grupo de cardenales",
-        "text": "El grupo de cardenales eligió al papa."
+        "word": "reunión",
+        "text": "Los cardenales celebraron una reunión para elegir al papa."
       }
     }
   },
@@ -8626,9 +8729,21 @@
   },
   {
     "entry": "concubinato",
-    "remove": [
-      "amasiato"
-    ]
+    "remove": [],
+    "set": {
+      "definition": "Relación de pareja entre dos personas que viven juntas sin casarse.",
+      "synonyms": [
+        "unión de hecho"
+      ],
+      "example": {
+        "word": "concubinato",
+        "text": "La pareja vivió en concubinato durante varios años."
+      },
+      "exampleSynonym": {
+        "word": "unión de hecho",
+        "text": "La pareja vivió en unión de hecho durante varios años."
+      }
+    }
   },
   {
     "entry": "concurso-de-acreedores",
@@ -8653,7 +8768,7 @@
     "entry": "condigno",
     "remove": [],
     "set": {
-      "definition": "Fitting or deserved because of what happened or what someone did."
+      "definition": "Que alguien merece por lo que ha hecho."
     }
   },
   {
@@ -8662,11 +8777,11 @@
     "set": {
       "example": {
         "word": "condonación de deuda",
-        "text": "La condonación de deuda permitió a la familia empezar de nuevo."
+        "text": "El banco aprobó la condonación de deuda de la familia."
       },
       "exampleSynonym": {
-        "word": "remisión de deuda",
-        "text": "La remisión de deuda alivió la carga de la pequeña empresa."
+        "word": "perdón de la deuda",
+        "text": "El banco aprobó el perdón de la deuda familiar."
       }
     }
   },
@@ -8695,10 +8810,10 @@
     "entry": "confiscacion",
     "remove": [],
     "set": {
-      "definition": "Acción legal por la que una autoridad se queda con bienes.",
+      "definition": "Acción legal: una autoridad quita bienes a una persona.",
       "synonyms": [
         "decomiso",
-        "privación legal de bienes"
+        "quitar bienes por orden legal"
       ],
       "example": {
         "word": "confiscación",
@@ -8896,10 +9011,8 @@
     "remove": [],
     "set": {
       "synonyms": [
-        "impugnable",
-        "controvertible",
         "discutible",
-        "refutable"
+        "que puede recibir una respuesta"
       ]
     }
   },
@@ -8908,10 +9021,7 @@
     "remove": [],
     "set": {
       "synonyms": [
-        "contonearse",
-        "movimiento afectado",
-        "balanceo afectado",
-        "cantoneo"
+        "balanceo"
       ]
     }
   },
@@ -8962,7 +9072,7 @@
     "entry": "contraluz",
     "remove": [],
     "set": {
-      "definition": "Light coming from behind a person or object, making it appear dark. Its outline may look like a silhouette."
+      "definition": "Vista de una cosa desde el lado opuesto a la luz. También, foto tomada con la luz frente a la cámara."
     }
   },
   {
@@ -9093,9 +9203,9 @@
     "remove": [],
     "set": {
       "synonyms": [
+        "entristecer",
         "afligir",
-        "apenar",
-        "apesadumbrar"
+        "apenar"
       ]
     }
   },
@@ -9116,9 +9226,7 @@
     "set": {
       "synonyms": [
         "discutible",
-        "cuestionable",
-        "impugnable",
-        "contestable"
+        "cuestionable"
       ]
     }
   },
@@ -9180,18 +9288,17 @@
     "entry": "coordenado",
     "remove": [],
     "set": {
-      "definition": "Que ayuda a localizar un punto en un sistema de coordenadas.",
+      "definition": "Línea, eje o plano que ayuda a localizar un punto.",
       "synonyms": [
-        "de coordenadas",
-        "referido a un sistema de coordenadas"
+        "de coordenadas"
       ],
       "example": {
         "word": "coordenado",
-        "text": "El eje coordenado ayuda a ubicar el punto en el gráfico."
+        "text": "El eje coordenado indica la posición del punto en el plano."
       },
       "exampleSynonym": {
         "word": "de coordenadas",
-        "text": "El eje de coordenadas ayuda a ubicar el punto en el gráfico."
+        "text": "El eje de coordenadas indica la posición del punto en el plano."
       }
     }
   },
@@ -9228,25 +9335,32 @@
       "synonyms": [
         "beber",
         "tomar copas"
-      ]
+      ],
+      "example": {
+        "word": "copear",
+        "text": "En ese bar se puede copear hasta la hora del cierre."
+      },
+      "exampleSynonym": {
+        "word": "tomar copas",
+        "text": "En ese bar puedes tomar copas hasta que cierre."
+      }
     }
   },
   {
     "entry": "copela",
     "remove": [],
     "set": {
-      "definition": "Vasija pequeña que soporta mucho calor. Se usa para separar oro o plata de otros minerales.",
+      "definition": "Vasija pequeña que resiste mucho calor. Se usa para separar oro o plata de otros minerales.",
       "synonyms": [
-        "vaso de ensayo",
-        "vasija de copelación"
+        "vaso de ensayo"
       ],
       "example": {
         "word": "copela",
-        "text": "Calentaron la muestra en una copela para separar la plata."
+        "text": "Calentaron una muestra de mineral en una copela para separar la plata."
       },
       "exampleSynonym": {
         "word": "vaso de ensayo",
-        "text": "Calentaron la muestra en un vaso de ensayo para separar la plata."
+        "text": "Calentaron una muestra de mineral en un vaso de ensayo para separar la plata."
       }
     }
   },
@@ -9260,17 +9374,17 @@
     "entry": "coqueto",
     "remove": [],
     "set": {
-      "definition": "Que intenta atraer a otras personas con gestos o aspecto cuidados.",
+      "definition": "Persona que coquetea o cuida su aspecto para gustar. También, gesto propio de esa persona.",
       "synonyms": [
         "seductor"
       ],
       "example": {
-        "word": "Coqueto",
-        "text": "El actor coqueto intentó atraer al público con una sonrisa."
+        "word": "coqueto",
+        "text": "El actor coqueto sonrió al público para atraerlo."
       },
       "exampleSynonym": {
         "word": "seductor",
-        "text": "El actor seductor intentó atraer al público con una sonrisa."
+        "text": "El actor seductor sonrió al público para atraerlo."
       },
       "situacion": "sociedad",
       "translation": {
@@ -9307,7 +9421,6 @@
     "remove": [],
     "set": {
       "synonyms": [
-        "acorazonado",
         "en forma de corazón"
       ]
     }
@@ -9317,9 +9430,8 @@
     "remove": [],
     "set": {
       "synonyms": [
-        "óxido de aluminio cristalino",
-        "mineral abrasivo",
-        "Corundo"
+        "piedra muy dura",
+        "corundo"
       ]
     }
   },
@@ -9345,7 +9457,7 @@
     "entry": "cornetin",
     "remove": [],
     "set": {
-      "definition": "Instrumento de metal parecido a una trompeta pequeña. Se usa en bandas y para dar señales militares."
+      "definition": "Instrumento de metal parecido al clarín. Se toca en bandas y orquestas. En el ejército, sirve para dar señales a las tropas."
     }
   },
   {
@@ -9440,26 +9552,28 @@
       "poroto jaspeado"
     ],
     "set": {
-      "definition": "Golpe en la cabeza que no produce sangre, a menudo dado con los nudillos de la mano cerrada.",
+      "definition": "Golpe en la cabeza que duele, pero no sangra.",
       "synonyms": [
         "cabezada",
-        "cosque",
         "cocotazo",
         "mamporro"
       ]
     }
   },
-  {
+    {
     "entry": "costarriquenismo",
-    "remove": [
-      "vocablo costarricense",
-      "uso lingüístico costarricense"
-    ],
+    "remove": [],
     "set": {
       "exampleSynonym": {
-        "word": "identidad costarricense",
-        "text": "El diccionario registra cada identidad costarricense junto con ejemplos de uso local."
-      }
+        "word": "palabra propia de Costa Rica",
+        "text": "El diccionario registra cada palabra propia de Costa Rica con ejemplos de uso local."
+      },
+      "synonyms": [
+        "palabra propia de Costa Rica",
+        "forma de hablar de Costa Rica",
+        "identidad costarricense",
+        "apego a Costa Rica"
+      ]
     }
   },
   {
@@ -17648,10 +17762,9 @@
     "entry": "diantre-2",
     "remove": [],
     "set": {
-      "definition": "Interjección coloquial que expresa sorpresa o enfado.",
+      "definition": "Palabra informal y suave para expresar sorpresa, extrañeza, admiración o disgusto.",
       "synonyms": [
-        "caramba",
-        "demonios"
+        "caramba"
       ],
       "image": {
         "id": 2450,
@@ -18472,7 +18585,7 @@
     "entry": "dicharacho",
     "remove": [],
     "set": {
-      "definition": "Coloquial. Frase vulgar o poco decente.",
+      "definition": "Frase grosera que alguien dice. Es una palabra informal.",
       "synonyms": [
         "comentario vulgar",
         "grosería",
@@ -19793,7 +19906,7 @@
     "entry": "dificultoso-3",
     "remove": [],
     "set": {
-      "definition": "En uso coloquial, una cara dificultosa es rara o tiene mal aspecto."
+      "definition": "Una cara o figura dificultosa parece rara o está mal formada. Es un uso informal."
     }
   },
   {
@@ -21082,7 +21195,7 @@
     "entry": "din",
     "remove": [],
     "set": {
-      "definition": "Forma coloquial y muy breve de llamar al dinero.",
+      "definition": "Dinero, dicho de forma breve e informal.",
       "synonyms": [
         "dinero",
         "efectivo",
@@ -22961,16 +23074,15 @@
     "set": {
       "definition": "Dificultad o imposibilidad para tragar.",
       "synonyms": [
-        "dificultad para tragar",
-        "problema de deglución"
+        "dificultad para tragar"
       ],
       "example": {
         "word": "disfagia",
-        "text": "La paciente informó de disfagia al beber líquidos."
+        "text": "La paciente tuvo disfagia al beber agua."
       },
       "exampleSynonym": {
         "word": "dificultad para tragar",
-        "text": "La paciente informó de dificultad para tragar líquidos."
+        "text": "La paciente tuvo dificultad para tragar al beber agua."
       },
       "situacion": "salud"
     }
@@ -23441,8 +23553,7 @@
     "set": {
       "definition": "Dificultad para respirar o sensación de que falta el aire.",
       "synonyms": [
-        "falta de aire",
-        "dificultad respiratoria"
+        "falta de aire"
       ],
       "example": {
         "word": "disnea",
@@ -24661,16 +24772,15 @@
       "definition": "Dolor o dificultad al orinar.",
       "synonyms": [
         "dolor al orinar",
-        "micción dolorosa",
         "dificultad para orinar"
       ],
       "example": {
         "word": "disuria",
-        "text": "La paciente consultó por disuria y otras molestias."
+        "text": "La paciente fue al médico por disuria."
       },
       "exampleSynonym": {
         "word": "dolor al orinar",
-        "text": "La paciente consultó por dolor al orinar y otras molestias."
+        "text": "La paciente fue al médico por dolor al orinar."
       },
       "situacion": "salud"
     }
@@ -26446,7 +26556,7 @@
     "entry": "dolorosa-bill",
     "remove": [],
     "set": {
-      "definition": "Factura o cuenta que hay que pagar; uso coloquial e irónico.",
+      "definition": "Una cuenta que hay que pagar. Se dice en broma.",
       "synonyms": [
         "la cuenta",
         "la factura"
@@ -26714,10 +26824,9 @@
     "entry": "dominicanismo",
     "remove": [],
     "set": {
-      "definition": "Palabra o forma de hablar propia del español de la República Dominicana.",
+      "definition": "Palabra o expresión que se usa en el español de República Dominicana.",
       "synonyms": [
-        "expresión dominicana",
-        "uso dominicano"
+        "expresión dominicana"
       ],
       "example": {
         "word": "dominicanismo",
@@ -29068,7 +29177,7 @@
     "entry": "edema",
     "remove": [],
     "set": {
-      "definition": "Hinchazón causada por la acumulación de líquido en los tejidos.",
+      "definition": "Hinchazón por líquido que se acumula en una parte del cuerpo.",
       "synonyms": [
         "hinchazón"
       ],
@@ -39907,17 +40016,17 @@
     "entry": "enjaretar",
     "remove": [],
     "set": {
-      "definition": "Coloquial: poner o decir algo de manera precipitada y sin orden.",
+      "definition": "Hacer o decir algo deprisa y sin orden. Es una palabra informal.",
       "synonyms": [
-        "meter de prisa",
-        "improvisar"
+        "improvisar",
+        "meter de prisa"
       ],
       "example": {
         "word": "enjaretó una excusa",
         "text": "Enjaretó una excusa para salir del paso."
       },
       "exampleSynonym": {
-        "word": "improvisó una excusa",
+        "word": "improvisar",
         "text": "Improvisó una excusa para salir del paso."
       }
     }
@@ -42264,18 +42373,18 @@
     "entry": "entendederas",
     "remove": [],
     "set": {
-      "definition": "En uso coloquial, capacidad de una persona para comprender; a menudo se dice con intención de burla o desprecio.",
+      "definition": "Capacidad para entender. A veces se dice para burlarse de alguien.",
       "synonyms": [
-        "entendimiento",
-        "capacidad de comprender"
+        "comprensión",
+        "capacidad para entender"
       ],
       "example": {
         "word": "sus entendederas",
         "text": "El manual era demasiado técnico para sus entendederas."
       },
       "exampleSynonym": {
-        "word": "su capacidad de comprender",
-        "text": "El manual era demasiado técnico para su capacidad de comprender."
+        "word": "su comprensión",
+        "text": "El manual era demasiado técnico para su comprensión."
       }
     }
   },
@@ -44125,19 +44234,19 @@
     "entry": "enzalamar",
     "remove": [],
     "set": {
-      "definition": "En uso coloquial, incitar a alguien contra otra persona o provocar discordia.",
+      "definition": "Poner a una persona contra otra. Es una palabra informal.",
       "synonyms": [
+        "enfrentar",
         "azuzar",
-        "cizañar",
-        "incitar a la discordia"
+        "cizañar"
       ],
       "example": {
         "word": "enzalamó",
         "text": "El rumor enzalamó a los vecinos y avivó la disputa."
       },
       "exampleSynonym": {
-        "word": "cizañó",
-        "text": "El rumor cizañó entre los vecinos y avivó la disputa."
+        "word": "enfrentar",
+        "text": "El rumor enfrentó a los vecinos y avivó la disputa."
       },
       "translation": {
         "en": "to stir up discord or incite people against each other"
@@ -47547,9 +47656,9 @@
     "entry": "eritema",
     "remove": [],
     "set": {
-      "definition": "Enrojecimiento de la piel causado por una irritación, inflamación o infección.",
+      "definition": "La piel se pone roja en una zona del cuerpo.",
       "synonyms": [
-        "enrojecimiento cutáneo",
+        "enrojecimiento de la piel",
         "mancha roja en la piel"
       ],
       "example": {
@@ -47557,8 +47666,8 @@
         "text": "El sol le produjo un eritema en los hombros."
       },
       "exampleSynonym": {
-        "word": "enrojecimiento cutáneo",
-        "text": "El sol le produjo un enrojecimiento cutáneo en los hombros."
+        "word": "enrojecimiento de la piel",
+        "text": "El sol le produjo enrojecimiento de la piel en los hombros."
       },
       "situacion": "salud",
       "translation": {
@@ -48956,11 +49065,11 @@
     "entry": "escamonearse",
     "remove": [],
     "set": {
-      "definition": "En uso coloquial, empezar a desconfiar o a recelar de algo.",
+      "definition": "Empezar a desconfiar de algo. Es una palabra informal.",
       "synonyms": [
-        "escamarse",
+        "desconfiar",
         "recelar",
-        "desconfiar"
+        "escamarse"
       ],
       "example": {
         "word": "escamonearse",
@@ -52055,18 +52164,18 @@
     "entry": "espanolada",
     "remove": [],
     "set": {
-      "definition": "Obra o espectáculo que exagera rasgos que se consideran propios de España, a menudo de forma despectiva.",
+      "definition": "Obra o espectáculo que exagera rasgos que se consideran típicos de España. Se suele decir con desprecio.",
       "synonyms": [
         "estereotipo español",
         "representación exagerada de España"
       ],
       "example": {
         "word": "españolada",
-        "text": "La película fue criticada por convertir la historia en una españolada."
+        "text": "La película fue criticada por ser una españolada."
       },
       "exampleSynonym": {
-        "word": "estereotipo español",
-        "text": "La película fue criticada por convertir la historia en un estereotipo español."
+        "word": "representación exagerada de España",
+        "text": "La película fue criticada por ser una representación exagerada de España."
       },
       "situacion": "conocimiento"
     }
@@ -53900,6 +54009,11 @@
     "entry": "estirajar",
     "remove": [],
     "set": {
+      "definition": "Estirar algo hasta deformarlo. Es una palabra informal.",
+      "synonyms": [
+        "estirar demasiado",
+        "deformar al estirar"
+      ],
       "example": {
         "word": "estirajar",
         "text": "No debes estirajar la tela al coserla."
@@ -53914,6 +54028,11 @@
     "entry": "estirajon",
     "remove": [],
     "set": {
+      "definition": "Tirón brusco al estirar algo. Se usa en conversaciones informales.",
+      "synonyms": [
+        "estirón",
+        "tirón"
+      ],
       "example": {
         "word": "estirajón",
         "text": "Sintió un estirajón en la espalda al levantar la caja."
@@ -53928,13 +54047,115 @@
     "entry": "estirazar",
     "remove": [],
     "set": {
+      "definition": "Estirar algo. Se usa en conversaciones informales.",
+      "synonyms": [
+        "estirar",
+        "extender"
+      ],
       "example": {
         "word": "estirazar",
         "text": "Tuvieron que estirazar la lona para cubrir la carga."
       },
       "exampleSynonym": {
-        "word": "extender",
-        "text": "Tuvieron que extender la lona para cubrir la carga."
+        "word": "estirar",
+        "text": "Tuvieron que estirar la lona para cubrir la carga."
+      }
+    }
+  },
+  {
+    "entry": "fachoso",
+    "remove": [],
+    "set": {
+      "definition": "Que tiene mal aspecto o parece ridículo. Se usa en conversaciones informales.",
+      "synonyms": [
+        "ridículo",
+        "estrafalario",
+        "grotesco"
+      ],
+      "example": {
+        "word": "fachoso",
+        "text": "El abrigo viejo le daba un aspecto fachoso."
+      },
+      "exampleSynonym": {
+        "word": "ridículo",
+        "text": "El abrigo viejo le daba un aspecto ridículo."
+      }
+    }
+  },
+  {
+    "entry": "fantasmada",
+    "remove": [],
+    "set": {
+      "definition": "Afirmación o acción exagerada con la que alguien presume. Se usa en conversaciones informales."
+    }
+  },
+  {
+    "entry": "farandulear",
+    "remove": [],
+    "set": {
+      "definition": "Presumir o intentar llamar la atención. Se usa en conversaciones informales.",
+      "synonyms": [
+        "presumir",
+        "darse importancia",
+        "farolear",
+        "fanfarronear"
+      ],
+      "exampleSynonym": {
+        "word": "presumir",
+        "text": "Se puso a presumir de sus viajes."
+      }
+    }
+  },
+  {
+    "entry": "fardar",
+    "remove": [],
+    "set": {
+      "definition": "Presumir de algo. Se usa en España y en conversaciones informales.",
+      "example": {
+        "word": "fardar",
+        "text": "Le gusta fardar de su teléfono nuevo."
+      },
+      "exampleSynonym": {
+        "word": "presumir",
+        "text": "Le gusta presumir de su teléfono nuevo."
+      }
+    }
+  },
+  {
+    "entry": "feten",
+    "remove": [],
+    "set": {
+      "definition": "Muy bueno. Se usa en conversaciones informales."
+    }
+  },
+  {
+    "entry": "fijon",
+    "remove": [],
+    "set": {
+      "definition": "Persona que se fija en muchos detalles. Se usa de manera informal en Cuba y México."
+    }
+  },
+  {
+    "entry": "gansear",
+    "remove": [],
+    "set": {
+      "definition": "Hacer o decir tonterías. Se usa en conversaciones informales."
+    }
+  },
+  {
+    "entry": "jeremias",
+    "remove": [],
+    "set": {
+      "definition": "Persona que se lamenta continuamente. Se usa en conversaciones informales.",
+      "synonyms": [
+        "llorica",
+        "quejumbroso",
+        "plañidero",
+        "persona muy quejosa"
+      ],
+      "exampleSynonym": {
+        "word": "llorica",
+        "text": "No seas llorica: todavía podemos encontrar una solución."
       }
     }
   },
@@ -66154,19 +66375,18 @@
     "entry": "incurso",
     "remove": [],
     "set": {
-      "definition": "Incluido en una situación o falta que prevé una norma.",
+      "definition": "Que ha cometido una falta o delito, según la ley.",
       "synonyms": [
-        "comprendido",
-        "incurrido",
-        "sujeto a"
+        "implicado",
+        "acusado"
       ],
       "example": {
         "word": "incurso",
-        "text": "El conductor quedó incurso en una sanción prevista por la ley."
+        "text": "El conductor quedó incurso en un delito de tráfico."
       },
       "exampleSynonym": {
-        "word": "sujeto a",
-        "text": "El conductor quedó sujeto a una sanción prevista por la ley."
+        "word": "implicado",
+        "text": "El conductor quedó implicado en un delito de tráfico."
       }
     }
   },
@@ -74395,19 +74615,18 @@
     "entry": "instancia",
     "remove": [],
     "set": {
-      "definition": "Formulario oficial para presentar una petición a una administración.",
+      "definition": "Escrito con el que se presenta una petición a una administración.",
       "synonyms": [
         "solicitud",
-        "petición escrita",
-        "formulario oficial"
+        "petición escrita"
       ],
       "example": {
         "word": "instancia",
-        "text": "Rellenó una instancia para pedir el certificado."
+        "text": "Presentó una instancia al ayuntamiento para pedir una ayuda."
       },
       "exampleSynonym": {
         "word": "solicitud",
-        "text": "Rellenó una solicitud para pedir el certificado."
+        "text": "Presentó una solicitud al ayuntamiento para pedir una ayuda."
       }
     }
   },
@@ -82904,17 +83123,17 @@
     "entry": "jerigonza",
     "remove": [],
     "set": {
-      "definition": "Forma de hablar confusa y difícil de entender.",
+      "definition": "Lenguaje propio de un grupo o difícil de entender.",
       "synonyms": [
-        "lenguaje incomprensible"
+        "lenguaje difícil de entender"
       ],
       "example": {
         "word": "jerigonza",
         "text": "El manual estaba escrito en una jerigonza técnica."
       },
       "exampleSynonym": {
-        "word": "lenguaje incomprensible",
-        "text": "El manual estaba escrito en un lenguaje técnico incomprensible."
+        "word": "lenguaje difícil de entender",
+        "text": "El manual estaba escrito en un lenguaje difícil de entender."
       }
     }
   },
@@ -83276,7 +83495,7 @@
     "entry": "jolines",
     "remove": [],
     "set": {
-      "definition": "Interjección que expresa sorpresa, enfado o contrariedad.",
+      "definition": "En España, palabra informal y suave para expresar enfado, sorpresa o molestia.",
       "synonyms": [
         "caramba",
         "jo"
@@ -84961,7 +85180,7 @@
     "entry": "jumera",
     "remove": [],
     "set": {
-      "definition": "En el uso coloquial, borrachera.",
+      "definition": "Borrachera. Se usa en conversaciones informales.",
       "synonyms": [
         "borrachera",
         "embriaguez"
@@ -87253,7 +87472,7 @@
     "entry": "lacha",
     "remove": [],
     "set": {
-      "definition": "En uso coloquial: vergüenza o respeto por la propia dignidad.",
+      "definition": "Vergüenza. Se usa en conversaciones informales.",
       "synonyms": [
         "vergüenza",
         "pundonor",
@@ -87900,10 +88119,11 @@
     "entry": "lagarton",
     "remove": [],
     "set": {
-      "definition": "Persona astuta y taimada, en sentido coloquial.",
+      "definition": "Persona astuta que busca sacar ventaja. Se usa en conversaciones informales.",
       "synonyms": [
-        "taimado",
         "pícaro",
+        "astuto",
+        "taimado",
         "zorro"
       ],
       "example": {
@@ -91813,7 +92033,7 @@
     "entry": "lelo",
     "remove": [],
     "set": {
-      "definition": "Aturdido o poco espabilado, en uso coloquial.",
+      "definition": "Que está atontado o distraído. Se usa en conversaciones informales.",
       "synonyms": [
         "atontado",
         "despistado"
@@ -92556,7 +92776,7 @@
     "entry": "lesear",
     "remove": [],
     "set": {
-      "definition": "Perder el tiempo haciendo tonterías, en uso coloquial.",
+      "definition": "Hacer tonterías y perder el tiempo. Se usa en conversaciones informales en Chile.",
       "synonyms": [
         "hacer tonterías",
         "perder el tiempo"
@@ -92788,16 +93008,15 @@
     "set": {
       "definition": "Que causa sueño o disminuye la energía.",
       "synonyms": [
-        "somnífero",
-        "adormecedor"
+        "somnífero"
       ],
       "example": {
         "word": "letargoso",
         "text": "El ambiente letargoso hizo difícil concentrarse."
       },
       "exampleSynonym": {
-        "word": "adormecedor",
-        "text": "El ambiente adormecedor hizo difícil concentrarse."
+        "word": "somnífero",
+        "text": "El ambiente somnífero hizo difícil concentrarse."
       }
     }
   },
@@ -96428,11 +96647,10 @@
     "entry": "litigio",
     "remove": [],
     "set": {
-      "definition": "Conflicto de intereses o derechos que se resuelve en un juicio.",
+      "definition": "Disputa legal que se lleva ante un juez.",
       "synonyms": [
         "pleito",
-        "proceso judicial",
-        "causa legal"
+        "juicio"
       ],
       "example": {
         "word": "litigio",
@@ -96441,9 +96659,6 @@
       "exampleSynonym": {
         "word": "pleito",
         "text": "El pleito por la herencia llegó a los tribunales."
-      },
-      "translation": {
-        "en": "lawsuit; legal dispute"
       }
     }
   },
@@ -98955,10 +99170,9 @@
     "remove": [],
     "set": {
       "word": "luxación",
-      "definition": "Desplazamiento de los huesos de una articulación fuera de su posición normal.",
+      "definition": "Los huesos de una articulación se salen de su sitio.",
       "synonyms": [
-        "dislocación",
-        "desplazamiento articular"
+        "dislocación"
       ],
       "example": {
         "word": "luxación",
@@ -100801,7 +101015,7 @@
     "entry": "maja",
     "remove": [],
     "set": {
-      "definition": "Coloquial: agradable o atractiva.",
+      "definition": "Agradable o atractiva. Se usa en conversaciones informales.",
       "synonyms": [
         "simpática",
         "bonita",
@@ -100994,10 +101208,10 @@
     "entry": "majo",
     "remove": [],
     "set": {
-      "definition": "En España, coloquial: agradable, simpático o atractivo.",
+      "definition": "Agradable, simpático o atractivo. Se usa en conversaciones informales en España.",
       "synonyms": [
-        "agradable",
         "simpático",
+        "agradable",
         "bonito"
       ],
       "example": {
@@ -101217,7 +101431,7 @@
       "translation"
     ],
     "set": {
-      "definition": "Coloquial: dicho de una persona, cruel o vengativa.",
+      "definition": "Persona cruel o vengativa. Se usa de manera informal.",
       "synonyms": [
         "malvado",
         "malintencionado"
@@ -101236,7 +101450,7 @@
     "entry": "malasombra",
     "remove": [],
     "set": {
-      "definition": "Coloquial: persona de malas intenciones.",
+      "definition": "Persona que tiene malas intenciones. Se usa en conversaciones informales.",
       "synonyms": [
         "malintencionado",
         "malvado"
@@ -101249,6 +101463,13 @@
         "word": "malintencionado",
         "text": "No le cuentes nada: es un malintencionado."
       }
+    }
+  },
+  {
+    "entry": "mascujar",
+    "remove": [],
+    "set": {
+      "definition": "Hablar entre dientes y decir algo sin que se entienda bien. Se usa en conversaciones informales."
     }
   },
   {
@@ -103471,11 +103692,10 @@
     "entry": "manduca",
     "remove": [],
     "set": {
-      "definition": "Comida o alimento, en uso coloquial.",
+      "definition": "Comida. Se usa en conversaciones informales.",
       "synonyms": [
         "comida",
-        "alimento",
-        "condumio"
+        "alimento"
       ],
       "example": {
         "word": "manduca",
@@ -110852,7 +111072,7 @@
       "translation"
     ],
     "set": {
-      "definition": "Interjección coloquial que expresa sorpresa o disgusto.",
+      "definition": "Palabra suave para expresar sorpresa o molestia. Se usa en conversaciones informales.",
       "synonyms": [
         "caramba",
         "vaya"
@@ -112704,18 +112924,17 @@
       "translation"
     ],
     "set": {
-      "definition": "Palabra o forma de hablar propia del español de México.",
+      "definition": "Palabra o expresión que se usa en el español de México.",
       "synonyms": [
-        "palabra mexicana",
-        "uso mexicano"
+        "expresión mexicana"
       ],
       "example": {
         "word": "mejicanismo",
         "text": "El diccionario explicó un mejicanismo usado en México."
       },
       "exampleSynonym": {
-        "word": "palabra mexicana",
-        "text": "El diccionario explicó una palabra mexicana usada en México."
+        "word": "expresión mexicana",
+        "text": "El diccionario explicó una expresión mexicana."
       },
       "situacion": "conocimiento"
     }
@@ -113394,7 +113613,7 @@
       "translation"
     ],
     "set": {
-      "definition": "Mujer torpe o necia; se usa como insulto coloquial.",
+      "definition": "Mujer torpe o poco lista. Se usa como insulto informal.",
       "synonyms": [
         "necia",
         "torpe"
@@ -113785,7 +114004,7 @@
       "translation"
     ],
     "set": {
-      "definition": "Persona tonta o de poco juicio; uso coloquial y despectivo.",
+      "definition": "Persona tonta o que actúa sin pensar. Es un insulto informal.",
       "synonyms": [
         "bobo",
         "tonto"
@@ -113799,6 +114018,27 @@
         "text": "Lo llamaron bobo por ignorar todas las instrucciones."
       },
       "situacion": "vida-diaria"
+    }
+  },
+  {
+    "entry": "molon-3",
+    "remove": [],
+    "set": {
+      "definition": "Que gusta o resulta atractivo. Se usa en conversaciones informales."
+    }
+  },
+  {
+    "entry": "morro-7",
+    "remove": [],
+    "set": {
+      "definition": "Labios, sobre todo si son grandes. Se usa en conversaciones informales."
+    }
+  },
+  {
+    "entry": "morro-8",
+    "remove": [],
+    "set": {
+      "definition": "Descaro o atrevimiento. Se usa en conversaciones informales."
     }
   },
   {
@@ -117594,18 +117834,17 @@
     "entry": "metonimia",
     "remove": [],
     "set": {
-      "definition": "Forma de hablar que nombra algo con otra cosa relacionada.",
+      "definition": "Llamar a algo por el nombre de otra cosa relacionada.",
       "synonyms": [
-        "designación por relación",
-        "uso de un nombre relacionado"
+        "usar un nombre relacionado"
       ],
       "example": {
         "word": "metonimia",
         "text": "Llamar “la corona” al rey es un ejemplo de metonimia."
       },
       "exampleSynonym": {
-        "word": "designación por relación",
-        "text": "Llamar “la corona” al rey es una designación por relación."
+        "word": "usar un nombre relacionado",
+        "text": "Llamar «la corona» al rey es usar un nombre relacionado."
       },
       "situacion": "arte"
     }
@@ -127822,18 +128061,17 @@
     "entry": "mordacidad",
     "remove": [],
     "set": {
-      "definition": "Manera de hablar con ironía cruel o hiriente.",
+      "definition": "Forma de hablar que se burla de alguien y puede hacerle daño.",
       "synonyms": [
-        "sarcasmo hiriente",
-        "ironía cruel"
+        "palabras que hacen daño"
       ],
       "example": {
         "word": "mordacidad",
         "text": "Su mordacidad ofendió a varios invitados."
       },
       "exampleSynonym": {
-        "word": "sarcasmo hiriente",
-        "text": "Su sarcasmo hiriente ofendió a varios invitados."
+        "word": "palabras que hacen daño",
+        "text": "Sus palabras hicieron daño a varios invitados."
       },
       "situacion": "communication"
     }
@@ -149203,7 +149441,7 @@
     "entry": "palique",
     "remove": [],
     "set": {
-      "definition": "Conversación informal sobre un asunto poco importante.",
+      "definition": "Conversación sobre algo poco importante. Se usa en conversaciones informales.",
       "synonyms": [
         "charla trivial",
         "conversación ligera"
@@ -149221,6 +149459,35 @@
       "image": {
         "id": 8098,
         "alt": "A dictionary word"
+      }
+    }
+  },
+  {
+    "entry": "palmar-die",
+    "remove": [],
+    "set": {
+      "definition": "Morir. Se usa en conversaciones informales."
+    }
+  },
+  {
+    "entry": "palmar-lose",
+    "remove": [],
+    "set": {
+      "definition": "Perder en un juego o una apuesta. Se usa en conversaciones informales."
+    }
+  },
+  {
+    "entry": "pampirolada-nonsense",
+    "remove": [],
+    "set": {
+      "definition": "Tontería o cosa poco importante. Se usa en conversaciones informales.",
+      "synonyms": [
+        "tontería",
+        "cosa sin importancia"
+      ],
+      "exampleSynonym": {
+        "word": "tontería",
+        "text": "Tomarse la ofensa como una tontería sería un error."
       }
     }
   },
@@ -155311,7 +155578,7 @@
     "entry": "pasma",
     "remove": [],
     "set": {
-      "definition": "En lenguaje coloquial, la policía o sus agentes.",
+      "definition": "Policía o sus agentes. Es una palabra informal.",
       "synonyms": [
         "policía",
         "cuerpo policial"
@@ -156250,7 +156517,7 @@
     "entry": "pataleta",
     "remove": [],
     "set": {
-      "definition": "Coloquial: disgusto o enfado que se expresa con una rabieta.",
+      "definition": "Disgusto o enfado que se expresa con una rabieta. Se usa en conversaciones informales.",
       "synonyms": [
         "rabieta",
         "berrinche"
@@ -156566,7 +156833,7 @@
     "entry": "pateta",
     "remove": [],
     "set": {
-      "definition": "En uso coloquial, el diablo.",
+      "definition": "El diablo. Se usa en conversaciones informales.",
       "synonyms": [
         "diablo",
         "demonio"
@@ -156666,18 +156933,18 @@
     "entry": "paticojo",
     "remove": [],
     "set": {
-      "definition": "Coloquial: que cojea o camina con dificultad.",
+      "definition": "Que cojea o es inestable. Se usa en conversaciones informales.",
       "synonyms": [
         "cojo",
         "renco"
       ],
       "example": {
         "word": "Paticojo",
-        "text": "El perro paticojo recibió cuidados especiales."
+        "text": "El perchero viejo y paticojo ya no se mantenía de pie."
       },
       "exampleSynonym": {
         "word": "cojo",
-        "text": "El perro cojo recibió cuidados especiales."
+        "text": "El perchero viejo y cojo ya no se mantenía de pie."
       },
       "situacion": "naturaleza",
       "word": "Paticojo",
@@ -156716,24 +156983,73 @@
     "entry": "patidifuso",
     "remove": [],
     "set": {
-      "definition": "Coloquial: que queda inmóvil de asombro.",
+      "definition": "Tan sorprendido que alguien se queda quieto. Se usa en conversaciones informales.",
       "synonyms": [
+        "muy sorprendido",
         "atónito",
-        "estupefacto"
+        "estupefacto",
+        "asombrado"
       ],
       "example": {
         "word": "Patidifuso",
         "text": "El público quedó patidifuso ante el truco."
       },
       "exampleSynonym": {
-        "word": "atónito",
-        "text": "El público quedó atónito ante el truco."
+        "word": "muy sorprendido",
+        "text": "El público quedó muy sorprendido ante el truco."
       },
       "situacion": "sociedad",
       "word": "Patidifuso",
       "image": {
         "id": 7024,
         "alt": "A dictionary word"
+      }
+    }
+  },
+  {
+    "entry": "patinar-5",
+    "remove": [],
+    "set": {
+      "definition": "Perder eficacia o equivocarse al hablar o actuar. Se usa en conversaciones informales."
+    }
+  },
+  {
+    "entry": "patinazo-2",
+    "remove": [],
+    "set": {
+      "definition": "Error importante que comete una persona. Se usa en conversaciones informales.",
+      "synonyms": [
+        "error",
+        "desacierto",
+        "metedura de pata"
+      ],
+      "exampleSynonym": {
+        "word": "error",
+        "text": "El error del portavoz sorprendió a la audiencia."
+      }
+    }
+  },
+  {
+    "entry": "patio-5",
+    "remove": [],
+    "set": {
+      "definition": "Situación o estado de las cosas. Se usa en conversaciones informales."
+    }
+  },
+  {
+    "entry": "patitieso-2",
+    "remove": [],
+    "set": {
+      "definition": "Que se queda muy sorprendido por algo nuevo o extraño. Se usa en conversaciones informales.",
+      "synonyms": [
+        "muy sorprendido",
+        "atónito",
+        "estupefacto",
+        "asombrado"
+      ],
+      "exampleSynonym": {
+        "word": "muy sorprendido",
+        "text": "La noticia dejó muy sorprendido al alcalde."
       }
     }
   },
@@ -158910,7 +159226,7 @@
     "entry": "pche",
     "remove": [],
     "set": {
-      "definition": "Interjección que expresa indiferencia, desinterés o reserva.",
+      "definition": "Muestra que algo te da igual o que no quieres opinar.",
       "synonyms": [
         "meh",
         "pchs"
@@ -162668,18 +162984,17 @@
     "remove": [],
     "set": {
       "word": "Perendeca",
-      "definition": "Palabra coloquial y despectiva para referirse a una prostituta.",
+      "definition": "Palabra que puede ofender. Se usa para llamar prostituta a una mujer.",
       "synonyms": [
-        "prostituta",
-        "ramera"
+        "prostituta"
       ],
       "example": {
         "word": "perendeca",
-        "text": "En la novela, llaman perendeca a la mujer."
+        "text": "En la novela, usan «perendeca» como insulto contra una mujer prostituta."
       },
       "exampleSynonym": {
         "word": "prostituta",
-        "text": "En la novela, llaman prostituta a la mujer."
+        "text": "En la novela, la llaman prostituta."
       },
       "situacion": "sociedad"
     }
@@ -210655,18 +210970,17 @@
     ],
     "set": {
       "word": "Pucha",
-      "definition": "Interjección que expresa sorpresa o disgusto.",
+      "definition": "Se dice para expresar sorpresa o disgusto.",
       "synonyms": [
-        "caramba",
-        "expresión de disgusto"
+        "caramba"
       ],
       "example": {
         "word": "pucha",
-        "text": "¡Pucha, caramba, olvidé las llaves dentro de casa!"
+        "text": "¡Pucha, dejé las llaves dentro de casa!"
       },
       "exampleSynonym": {
         "word": "caramba",
-        "text": "¡Caramba, olvidé las llaves dentro de casa!"
+        "text": "¡Caramba, dejé las llaves dentro de casa!"
       },
       "situacion": "language",
       "image": {
@@ -219145,7 +219459,7 @@
     ],
     "set": {
       "word": "Quisicosa",
-      "definition": "En lenguaje coloquial, misterio o asunto difícil de resolver.",
+      "definition": "Misterio o pregunta difícil de resolver. Es una palabra informal.",
       "synonyms": [
         "enigma",
         "misterio"
@@ -226543,20 +226857,22 @@
   },
   {
     "entry": "rastacuero-2",
-    "remove": [],
+    "remove": [
+      "advenedizo"
+    ],
     "set": {
       "word": "Rastacuero",
       "definition": "Persona recién llegada a un grupo, vista como ajena.",
       "synonyms": [
-        "advenedizo"
+        "persona recién llegada a un grupo"
       ],
       "example": {
         "word": "rastacuero",
         "text": "El rastacuero intentó entrar en los círculos de la ciudad."
       },
       "exampleSynonym": {
-        "word": "advenedizo",
-        "text": "El advenedizo intentó entrar en los círculos de la ciudad."
+        "word": "persona recién llegada a un grupo",
+        "text": "La persona recién llegada a un grupo intentó entrar en sus círculos."
       },
       "situacion": "sociedad",
       "image": {
@@ -227651,7 +227967,7 @@
     "remove": [],
     "set": {
       "word": "Rayar",
-      "definition": "En lenguaje coloquial, causar mucha molestia o enfado.",
+      "definition": "Fastidiar o enfadar mucho a alguien. Se usa en conversaciones informales.",
       "synonyms": [
         "fastidiar"
       ],
@@ -227675,7 +227991,7 @@
     "remove": [],
     "set": {
       "word": "Rayar",
-      "definition": "En lenguaje coloquial, hacer que alguien pierda la razón.",
+      "definition": "Hacer que alguien pierda la razón. Se usa en conversaciones informales.",
       "synonyms": [
         "enloquecer"
       ],
@@ -227685,7 +228001,7 @@
       },
       "exampleSynonym": {
         "word": "enloquecer",
-        "text": "La falta de sueño puede enloquecer a cualquiera."
+        "text": "El cansancio extremo puede enloquecer a cualquiera."
       },
       "situacion": "salud",
       "image": {
@@ -236823,17 +237139,17 @@
     "remove": [],
     "set": {
       "word": "Refinar",
-      "definition": "Mejorar los modales, la forma de hablar o los gustos.",
+      "definition": "Hablar y comportarse con más cuidado, y elegir con mejor gusto.",
       "synonyms": [
-        "pulir"
+        "mejorar"
       ],
       "example": {
-        "word": "refinar",
-        "text": "Ana quiere refinar su forma de hablar con la gente."
+        "word": "Refinar",
+        "text": "Ana quiere refinar sus modales y su manera de hablar."
       },
       "exampleSynonym": {
-        "word": "pulir",
-        "text": "Ana quiere pulir su forma de hablar con la gente."
+        "word": "mejorar",
+        "text": "Ana quiere mejorar sus modales y su manera de hablar."
       },
       "situacion": "vida-diaria",
       "image": {
@@ -260814,7 +261130,7 @@
     "remove": [],
     "set": {
       "word": "salve",
-      "definition": "Interjección literaria que se usa para saludar.",
+      "definition": "Se usa para saludar, sobre todo en textos literarios.",
       "synonyms": [
         "hola",
         "saludo"
@@ -261572,17 +261888,17 @@
     "entry": "silencio-administrativo",
     "remove": [],
     "set": {
-      "definition": "Falta una respuesta oficial dentro del plazo legal. La ley decide si se acepta o rechaza la petición.",
+      "definition": "La Administración no responde a una petición dentro del plazo legal. La ley establece si se entiende aceptada o rechazada.",
       "synonyms": [
         "falta de respuesta oficial"
       ],
       "example": {
         "word": "silencio administrativo",
-        "text": "Pasado el plazo, se aplica el silencio administrativo."
+        "text": "Hubo silencio administrativo cuando la Administración dejó pasar el plazo."
       },
       "exampleSynonym": {
         "word": "falta de respuesta oficial",
-        "text": "Pasado el plazo, se aplica la falta de respuesta oficial."
+        "text": "Hubo falta de respuesta oficial cuando la Administración dejó pasar el plazo."
       }
     }
   },
@@ -262336,11 +262652,11 @@
     "set": {
       "example": {
         "word": "stalkear",
-        "text": "Reconoció que solía stalkear las publicaciones de su expareja."
+        "text": "Reconoció que solía stalkear lo que su antigua pareja publicaba en redes."
       },
       "exampleSynonym": {
-        "word": "fisgonear en redes",
-        "text": "Admitió que solía fisgonear en redes para ver las publicaciones."
+        "word": "mirar lo que alguien publica",
+        "text": "Reconoció que solía mirar lo que su antigua pareja publicaba en redes."
       }
     }
   },
@@ -265656,17 +265972,17 @@
     "entry": "usufructo",
     "remove": [],
     "set": {
-      "definition": "Derecho a usar un bien ajeno temporalmente y obtener sus beneficios. Debe cuidarlo según la ley.",
+      "definition": "Derecho temporal a usar un bien ajeno y obtener sus beneficios. Quien lo tiene debe cuidar ese bien.",
       "synonyms": [
-        "derecho de uso temporal"
+        "derecho a usar y aprovechar"
       ],
       "example": {
         "word": "usufructo",
-        "text": "La abuela dejó a su hija el usufructo de la casa."
+        "text": "La abuela le dejó a su hija el usufructo de la casa durante diez años."
       },
       "exampleSynonym": {
-        "word": "derecho de uso temporal",
-        "text": "La abuela dejó a su hija el derecho de uso temporal de la casa."
+        "word": "derecho a usar y aprovechar",
+        "text": "La abuela le dejó a su hija el derecho a usar y aprovechar la casa durante diez años."
       }
     }
   },
@@ -267139,6 +267455,7 @@
     "entry": "zapatiesta",
     "remove": [],
     "set": {
+      "definition": "Alboroto, discusión o pelea. Es una palabra informal.",
       "example": {
         "word": "zapatiesta",
         "text": "La discusión terminó en una zapatiesta frente a la puerta."
@@ -267371,9 +267688,7 @@
   },
   {
     "entry": "adulon",
-    "remove": [
-      "adulete"
-    ],
+    "remove": [],
     "set": {}
   },
   {
@@ -267436,17 +267751,12 @@
   },
   {
     "entry": "contrafuego",
-    "remove": [
-      "contracandela"
-    ],
-    "set": {}
-  },
-  {
-    "entry": "cortafrio",
-    "remove": [
-      "cortafierro"
-    ],
-    "set": {}
+    "remove": [],
+    "set": {
+      "synonyms": [
+        "fuego de contención"
+      ]
+    }
   },
   {
     "entry": "currelar",
@@ -267590,9 +267900,7 @@
   },
   {
     "entry": "aguachirle",
-    "remove": [
-      "aguachacha"
-    ],
+    "remove": [],
     "set": {}
   },
   {
@@ -267600,7 +267908,22 @@
     "remove": [
       "caspiento"
     ],
-    "set": {}
+    "set": {
+      "definition": "Lleno de caspa. En España, también describe algo viejo, descuidado o de mal gusto.",
+      "synonyms": [
+        "de mal gusto",
+        "pasado de moda",
+        "descuidado"
+      ],
+      "example": {
+        "word": "casposo",
+        "text": "Su ropa casposa parecía pasada de moda."
+      },
+      "exampleSynonym": {
+        "word": "de mal gusto",
+        "text": "Su ropa de mal gusto parecía pasada de moda."
+      }
+    }
   },
   {
     "entry": "cuin",
@@ -267656,24 +267979,45 @@
     "remove": [
       "plata"
     ],
-    "set": {}
+    "set": {
+      "definition": "Dinero. Se usa en conversaciones informales.",
+      "synonyms": [
+        "dinero",
+        "pasta"
+      ]
+    }
+  },
+  {
+    "entry": "parida-2",
+    "remove": [],
+    "set": {
+      "definition": "Tontería o disparate. Se usa en conversaciones informales.",
+      "synonyms": [
+        "tontería",
+        "disparate"
+      ],
+      "exampleSynonym": {
+        "word": "tontería",
+        "text": "Eso que dijo es una tontería."
+      }
+    }
   },
   {
     "entry": "falton",
     "remove": [],
     "set": {
-      "definition": "Adjetivo coloquial: que falta con frecuencia a sus obligaciones, promesas o citas.",
+      "definition": "Que a menudo no cumple sus obligaciones, promesas o citas. Se usa en conversaciones informales.",
       "synonyms": [
-        "malqueda",
-        "incumplidor"
+        "incumplidor",
+        "malqueda"
       ],
       "example": {
         "word": "faltón",
-        "text": "No seas faltón: cumple la promesa que hiciste."
+        "text": "El proveedor fue faltón: no acudió a la cita."
       },
       "exampleSynonym": {
-        "word": "malqueda",
-        "text": "No seas malqueda: cumple la promesa que hiciste."
+        "word": "incumplidor",
+        "text": "El proveedor fue incumplidor: no acudió a la cita."
       }
     }
   },
@@ -267889,10 +268233,10 @@
     "entry": "cordoncillo",
     "remove": [],
     "set": {
-      "definition": "Cada una de las listas o rayas estrechas y algo abultadas que forma el tejido en algunas telas; cierto bordado lineal; resalto pequeño y continuado, a manera de cordón, que señala la juntura de algunas partes, como ciertos frutos; labor hecha en el canto de las monedas para dificultar que se falsifiquen o se cercenen.",
+      "definition": "Raya estrecha que sobresale en algunas telas. También, tipo de bordado o marcas en el borde de una moneda.",
       "synonyms": [
         "bordado",
-        "labor"
+        "marcas en el borde de una moneda"
       ],
       "example": {
         "word": "cordoncillo",
@@ -267900,7 +268244,7 @@
       },
       "exampleSynonym": {
         "word": "bordado",
-        "text": "El traje llevaba un bordado lineal en las mangas."
+        "text": "El traje llevaba un bordado en las mangas."
       }
     }
   },
@@ -267938,16 +268282,21 @@
   },
   {
     "entry": "desparpajo",
-    "remove": [
-      "desorden"
-    ],
+    "remove": [],
     "set": {
-      "definition": "En uso coloquial, suma facilidad y desembarazo en el hablar o en las acciones.",
+      "definition": "En lenguaje informal, facilidad y confianza para hablar o actuar. En El Salvador, Honduras y Nicaragua, también significa desorden.",
       "synonyms": [
-        "desenvoltura",
-        "desenfado",
-        "soltura"
-      ]
+        "soltura",
+        "desorden"
+      ],
+      "example": {
+        "word": "desparpajo",
+        "text": "La joven respondió con desparpajo a las preguntas del jurado."
+      },
+      "exampleSynonym": {
+        "word": "soltura",
+        "text": "La joven respondió con soltura a las preguntas del jurado."
+      }
     }
   },
   {
@@ -267988,33 +268337,25 @@
   },
   {
     "entry": "cartuchera",
-    "remove": [
-      "estuche para lápices"
-    ],
+    "remove": [],
     "set": {
-      "definition": "Caja, funda o cinto destinado a llevar cartuchos de un arma de fuego; coloquialmente y más en plural, acumulación de grasa en la parte lateral superior de los muslos.",
+      "definition": "Funda o cinturón para llevar cartuchos. En plural, grasa acumulada en la parte alta de los muslos.",
       "synonyms": [
-        "porta-cartuchos",
-        "canana",
-        "fornitura"
+        "funda",
+        "cinturón para cartuchos",
+        "grasa en los muslos"
       ]
     }
   },
   {
     "entry": "conchabar",
-    "remove": [
-      "contratar"
-    ],
+    "remove": [],
     "set": {
-      "definition": "Ponerse de acuerdo para un fin, con frecuencia ilícito; también, unir o juntar personas o cosas.",
+      "definition": "Ponerse de acuerdo para hacer algo, a menudo ilegal. También, unir o juntar personas o cosas.",
       "synonyms": [
-        "confabularse",
-        "conspirar",
-        "intrigar",
-        "maquinar",
-        "tramar",
+        "ponerse de acuerdo",
         "juntar",
-        "asociar"
+        "unir"
       ]
     }
   },
@@ -268030,7 +268371,7 @@
       "perseguir"
     ],
     "set": {
-      "definition": "Correr en varias direcciones dentro de un espacio limitado, por juego o diversión; andar de calle en calle o de casa en casa.",
+      "definition": "Correr en varias direcciones por juego. También, andar de calle en calle o de casa en casa.",
       "synonyms": [
         "correr de un lado a otro",
         "callejear"
@@ -268087,7 +268428,7 @@
     "entry": "congelamiento",
     "remove": [],
     "set": {
-      "definition": "Acción y efecto de congelar; estado de lo que se congela.",
+      "definition": "Acción de congelar algo o estado de algo congelado. En algunos países, también significa daño en la piel por el frío.",
       "synonyms": [
         "congelación",
         "lesión por frío"
@@ -268249,12 +268590,13 @@
     "entry": "congratular",
     "remove": [],
     "set": {
-      "definition": "Alegrar a alguien o producirle alegría; dicho de una persona, sentir alegría o satisfacción por algo.",
+      "definition": "Dar alegría a alguien. También, sentir alegría o satisfacción por algo. En América, también significa felicitar a alguien.",
       "synonyms": [
         "alegrar",
         "complacer",
         "agradar",
-        "alegrarse"
+        "alegrarse",
+        "felicitar"
       ],
       "example": {
         "word": "congratular",
@@ -268396,12 +268738,12 @@
     "entry": "componedor",
     "remove": [],
     "set": {
-      "definition": "Persona que compone o ayuda a resolver un conflicto; en imprenta, regla donde se colocan letras para formar un renglón.",
+      "definition": "Persona que compone algo o ayuda a resolver una discusión. En imprenta, regla para colocar letras en una línea.",
       "synonyms": [
         "compositor",
         "conciliador",
         "mediador",
-        "instrumento de composición tipográfica"
+        "regla para colocar letras en imprenta"
       ]
     }
   },
@@ -268536,15 +268878,16 @@
     "entry": "achancar",
     "remove": [],
     "set": {
-      "definition": "En Andalucía: triturar, aplastar o estrujar; chafar a alguien o dejarlo cortado; sentarse, agacharse o aplastarse; callarse, aguantarse o achantarse.",
+      "definition": "En Andalucía, achancar es aplastar algo o dejar a alguien sin respuesta. También puede significar sentarse, agacharse, aplastarse, callarse o aguantarse.",
       "synonyms": [
-        "triturar",
         "aplastar",
         "estrujar",
-        "chafar",
+        "dejar sin respuesta",
+        "sentarse",
+        "agacharse",
+        "aplastarse",
         "callarse",
-        "aguantarse",
-        "achantarse"
+        "aguantarse"
       ]
     }
   },
@@ -268552,15 +268895,19 @@
     "entry": "aclocar",
     "remove": [],
     "set": {
-      "definition": "Dicho de un ave, como una gallina o un ánade, ponerse clueca; como pronominal, arrellanarse.",
+      "definition": "Un ave se acloca cuando empolla sus huevos. También, sentarse a gusto en un asiento.",
       "synonyms": [
-        "enclocar",
-        "encloquecer",
-        "encluecar",
-        "encoclar",
-        "enllocar",
-        "arrellanarse"
-      ]
+        "empollar",
+        "sentarse a gusto"
+      ],
+      "example": {
+        "word": "aclocarse",
+        "text": "La gallina empezó a aclocarse y se quedó en el nido."
+      },
+      "exampleSynonym": {
+        "word": "empollar",
+        "text": "La gallina empezó a empollar y se quedó en el nido."
+      }
     }
   },
   {
@@ -268625,12 +268972,20 @@
     "entry": "canguis",
     "remove": [],
     "set": {
-      "definition": "Uso coloquial: miedo o temor.",
+      "definition": "Miedo. Se usa en conversaciones informales.",
       "synonyms": [
         "miedo",
         "temor",
         "canguelo"
-      ]
+      ],
+      "example": {
+        "word": "canguis",
+        "text": "Le dio canguis hablar delante de tanta gente."
+      },
+      "exampleSynonym": {
+        "word": "miedo",
+        "text": "Le dio miedo hablar delante de tanta gente."
+      }
     }
   },
   {
@@ -268650,7 +269005,7 @@
     "entry": "empelotarse-undress",
     "remove": [],
     "set": {
-      "definition": "Uso coloquial en Andalucía y Extremadura, y en varios países de América: desnudarse o quedarse en pelota.",
+      "definition": "Desnudarse o quedarse sin ropa. Se usa en Andalucía, Extremadura y varios países de América.",
       "synonyms": [
         "desnudarse",
         "desvestirse"
@@ -268706,10 +269061,10 @@
     "entry": "achinar",
     "remove": [],
     "set": {
-      "definition": "Dar a algo rasgos semejantes a los que se atribuyen a las personas chinas; dicho de los ojos, ponerse oblicuos.",
+      "definition": "Dar a algo rasgos que se asocian con personas chinas. Los ojos también pueden quedar inclinados.",
       "synonyms": [
-        "dar rasgos achinados",
-        "hacer oblicuos los ojos"
+        "dar rasgos asociados con personas chinas",
+        "inclinar los ojos"
       ]
     }
   },
@@ -268924,7 +269279,7 @@
     "entry": "computarizar",
     "remove": [],
     "set": {
-      "definition": "Someter datos o procesos a un tratamiento informático."
+      "definition": "Usar una computadora para procesar datos o realizar tareas."
     }
   },
   {
@@ -268998,6 +269353,1626 @@
       "exampleSynonym": {
         "word": "sitio donde se siembran semillas",
         "text": "El sitio donde se siembran semillas está junto al invernadero."
+      }
+    }
+  },
+  {
+    "entry": "patada-2",
+    "remove": [],
+    "set": {
+      "definition": "Gestión o visita que se hace para conseguir algo. Se usa en conversaciones informales."
+    }
+  },
+  {
+    "entry": "pataleta-2",
+    "remove": [],
+    "set": {
+      "definition": "Convulsión que parece fingida. Se usa en conversaciones informales.",
+      "synonyms": [
+        "convulsión",
+        "ataque fingido"
+      ],
+      "example": {
+        "word": "Pataleta",
+        "text": "Quienes la vieron creyeron que la pataleta era fingida."
+      },
+      "exampleSynonym": {
+        "word": "convulsión",
+        "text": "Quienes la vieron creyeron que la convulsión era fingida."
+      }
+    }
+  },
+  {
+    "entry": "pateta-2",
+    "remove": [],
+    "set": {
+      "definition": "Persona con un problema en los pies o las piernas. Se usa en conversaciones informales.",
+      "synonyms": [
+        "persona con un problema en los pies o las piernas",
+        "persona con problemas en las piernas",
+        "persona con problemas en los pies"
+      ],
+      "example": {
+        "word": "Pateta",
+        "text": "En el cuento, el pateta caminaba con dificultad."
+      },
+      "exampleSynonym": {
+        "word": "persona con un problema en los pies o las piernas",
+        "text": "En el cuento, la persona con un problema en los pies o las piernas caminaba con dificultad."
+      }
+    }
+  },
+  {
+    "entry": "patitieso-3",
+    "remove": [],
+    "set": {
+      "definition": "Que camina muy erguido y tieso para parecer importante.",
+      "synonyms": [
+        "presumido",
+        "erguido",
+        "tieso"
+      ],
+      "example": {
+        "word": "Patitieso",
+        "text": "El patitieso caminó por el salón con orgullo."
+      },
+      "exampleSynonym": {
+        "word": "presumido",
+        "text": "El presumido caminó por el salón con orgullo."
+      }
+    }
+  },
+  {
+    "entry": "patituerto-2",
+    "remove": [],
+    "set": {
+      "definition": "Que se desvía de la línea porque está torcido o mal hecho.",
+      "synonyms": [
+        "torcido",
+        "desviado",
+        "mal hecho"
+      ],
+      "example": {
+        "word": "Patituerto",
+        "text": "El trazo patituerto se desviaba de la línea."
+      },
+      "exampleSynonym": {
+        "word": "torcido",
+        "text": "El trazo torcido se desviaba de la línea."
+      }
+    }
+  },
+  {
+    "entry": "pechono",
+    "remove": [],
+    "set": {
+      "definition": "En Bolivia, persona que exagera al practicar su religión.",
+      "synonyms": [
+        "persona que exagera en sus actos religiosos",
+        "beato"
+      ],
+      "example": {
+        "word": "pechoño",
+        "text": "El pechoño iba a misa varias veces cada día."
+      },
+      "exampleSynonym": {
+        "word": "persona que exagera en sus actos religiosos",
+        "text": "La persona que exagera en sus actos religiosos iba a misa varias veces cada día."
+      }
+    }
+  },
+  {
+    "entry": "peladero-2",
+    "remove": [],
+    "set": {
+      "definition": "Lugar donde se juega haciendo trampas. Es una palabra informal.",
+      "synonyms": [
+        "lugar de juego con trampas",
+        "casa de juego"
+      ],
+      "example": {
+        "word": "Peladero",
+        "text": "El peladero cerró después de la redada."
+      },
+      "exampleSynonym": {
+        "word": "lugar de juego con trampas",
+        "text": "El lugar de juego con trampas cerró después de la redada."
+      }
+    }
+  },
+  {
+    "entry": "pellejo-3",
+    "remove": [],
+    "set": {
+      "definition": "Piel de una persona."
+    }
+  },
+  {
+    "entry": "peranton-3",
+    "remove": [],
+    "set": {
+      "definition": "Persona muy alta. Se usa en conversaciones informales.",
+      "synonyms": [
+        "persona muy alta",
+        "gigantón"
+      ],
+      "exampleSynonym": {
+        "word": "persona muy alta",
+        "text": "La persona muy alta destacaba entre sus compañeros."
+      }
+    }
+  },
+  {
+    "entry": "persignar-3",
+    "remove": [],
+    "set": {
+      "definition": "Asombrarse mucho o escandalizarse. Se usa en conversaciones informales."
+    }
+  },
+  {
+    "entry": "persignar-4",
+    "remove": [],
+    "set": {
+      "definition": "Empezar a vender. Se usa en conversaciones informales.",
+      "synonyms": [
+        "empezar a vender",
+        "iniciar las ventas",
+        "vender por primera vez"
+      ],
+      "example": {
+        "word": "Persignar",
+        "text": "El puesto se persignó por primera vez el sábado."
+      },
+      "exampleSynonym": {
+        "word": "empezar a vender",
+        "text": "El puesto empezó a vender por primera vez el sábado."
+      }
+    }
+  },
+  {
+    "entry": "puntillon",
+    "remove": [],
+    "set": {
+      "definition": "Golpe dado con la punta del pie. Se usa en conversaciones informales."
+    }
+  },
+  {
+    "entry": "agramado",
+    "remove": [],
+    "set": {
+      "definition": "Acción de machacar lino o cáñamo para sacar la fibra. También, golpe o tunda.",
+      "synonyms": [
+        "machacado del lino",
+        "golpe",
+        "tunda"
+      ],
+      "example": {
+        "word": "Agramado",
+        "text": "El agramado permitió separar las fibras del lino antes de peinarlas."
+      },
+      "exampleSynonym": {
+        "word": "machacado del lino",
+        "text": "El machacado del lino permitió separar las fibras antes de peinarlas."
+      }
+    }
+  },
+  {
+    "entry": "ajamonarse",
+    "remove": [],
+    "set": {
+      "definition": "Engordar después de la juventud, sobre todo en las mujeres. Se usa en conversaciones informales.",
+      "synonyms": [
+        "engordar"
+      ],
+      "example": {
+        "word": "ajamonarse",
+        "text": "Algunas mujeres pueden ajamonarse con la edad."
+      },
+      "exampleSynonym": {
+        "word": "engordar",
+        "text": "Algunas mujeres pueden engordar con la edad."
+      }
+    }
+  },
+  {
+    "entry": "andorga",
+    "remove": [],
+    "set": {
+      "definition": "Vientre o tripa. Se usa en conversaciones informales.",
+      "synonyms": [
+        "tripa"
+      ]
+    }
+  },
+  {
+    "entry": "adivinaja",
+    "remove": [],
+    "set": {
+      "definition": "Acertijo. Se usa en conversaciones informales.",
+      "synonyms": [
+        "adivinanza",
+        "acertijo",
+        "enigma"
+      ],
+      "example": {
+        "word": "adivinaja",
+        "text": "La abuela propuso una adivinaja para entretener a los niños."
+      },
+      "exampleSynonym": {
+        "word": "adivinanza",
+        "text": "La abuela propuso una adivinanza para entretener a los niños."
+      }
+    }
+  },
+  {
+    "entry": "calzonazos",
+    "remove": [],
+    "set": {
+      "definition": "Hombre que se deja dominar o convencer por su pareja. Es un insulto informal.",
+      "synonyms": [
+        "bragazas",
+        "gurrumino",
+        "calzorras"
+      ]
+    }
+  },
+  {
+    "entry": "camandulero",
+    "remove": [],
+    "set": {
+      "definition": "Persona hipócrita y astuta que engaña a otros. Se usa en conversaciones informales.",
+      "synonyms": [
+        "hipócrita",
+        "astuto",
+        "embustero",
+        "bellaco"
+      ],
+      "example": {
+        "word": "camandulero",
+        "text": "El camandulero fingió ayudar para engañar a sus vecinos."
+      },
+      "exampleSynonym": {
+        "word": "hipócrita",
+        "text": "El hipócrita fingió ayudar para engañar a sus vecinos."
+      }
+    }
+  },
+  {
+    "entry": "cambalachar",
+    "remove": [],
+    "set": {
+      "definition": "Intercambiar una cosa por otra. Se usa en conversaciones informales.",
+      "synonyms": [
+        "intercambiar",
+        "hacer trueques",
+        "cambalachear"
+      ]
+    }
+  },
+  {
+    "entry": "caraba",
+    "remove": [],
+    "set": {
+      "definition": "Reunión festiva. Se usa en algunas zonas rurales de España.",
+      "synonyms": [
+        "fiesta",
+        "reunión festiva",
+        "diversión"
+      ]
+    }
+  },
+  {
+    "entry": "camelo",
+    "remove": [],
+    "set": {
+      "definition": "Noticia falsa, engaño o discurso sin sentido. En usos informales, también es una burla o una forma de ligar.",
+      "synonyms": [
+        "bulo",
+        "engaño",
+        "farsa",
+        "galanteo",
+        "broma"
+      ],
+      "example": {
+        "word": "camelo",
+        "text": "No creas ese camelo: la noticia era falsa."
+      },
+      "exampleSynonym": {
+        "word": "bulo",
+        "text": "No creas ese bulo: la noticia era falsa."
+      }
+    }
+  },
+  {
+    "entry": "caco",
+    "remove": [],
+    "set": {
+      "definition": "Ladrón. Se usa en conversaciones informales.",
+      "synonyms": [
+        "ladrón",
+        "ratero",
+        "mangante",
+        "chorizo"
+      ]
+    }
+  },
+  {
+    "entry": "canonjia",
+    "remove": [],
+    "set": {
+      "definition": "Puesto de un canónigo en una catedral. También, empleo con poco trabajo y mucho beneficio.",
+      "synonyms": [
+        "prebenda",
+        "canonicato",
+        "cargo capitular",
+        "chollo (coloquial)"
+      ],
+      "example": {
+        "word": "canonjía",
+        "text": "Le ofrecieron una canonjía en la catedral."
+      },
+      "exampleSynonym": {
+        "word": "prebenda",
+        "text": "Le ofrecieron una prebenda en la catedral."
+      }
+    }
+  },
+  {
+    "entry": "chorbo",
+    "remove": [],
+    "set": {
+      "definition": "Novio o novia de una persona. Se usa en conversaciones informales.",
+      "synonyms": [
+        "pareja"
+      ],
+      "example": {
+        "word": "chorbo",
+        "text": "Su chorbo la acompañó a la fiesta de cumpleaños."
+      },
+      "exampleSynonym": {
+        "word": "pareja",
+        "text": "Su pareja la acompañó a la fiesta de cumpleaños."
+      }
+    }
+  },
+  {
+    "entry": "chorrocientos",
+    "remove": [],
+    "set": {
+      "definition": "Muchísimos; expresa una cantidad muy alta e imprecisa. Se usa en El Salvador y México.",
+      "synonyms": [
+        "muchísimos"
+      ],
+      "example": {
+        "word": "chorrocientos",
+        "text": "Tiene chorrocientos libros apilados en el salón."
+      },
+      "exampleSynonym": {
+        "word": "muchísimos",
+        "text": "Tiene muchísimos libros apilados en el salón."
+      }
+    }
+  },
+  {
+    "entry": "curdela",
+    "remove": [],
+    "set": {
+      "definition": "Persona borracha. Se usa en conversaciones informales.",
+      "synonyms": [
+        "borracho"
+      ],
+      "example": {
+        "word": "curdela",
+        "text": "El curdela se quedó dormido en el banco del parque."
+      },
+      "exampleSynonym": {
+        "word": "borracho",
+        "text": "El borracho se quedó dormido en el banco del parque."
+      }
+    }
+  },
+  {
+    "entry": "cachivache",
+    "remove": [],
+    "set": {
+      "definition": "Puede ser un objeto roto o un utensilio. Antes, se usaba como insulto para una persona ridícula, mentirosa e inútil.",
+      "synonyms": [
+        "trasto",
+        "cacharro",
+        "trebejo",
+        "chisme"
+      ],
+      "example": {
+        "word": "cachivache",
+        "text": "Guardó el viejo cachivache en una caja de herramientas."
+      },
+      "exampleSynonym": {
+        "word": "trasto",
+        "text": "Guardó el viejo trasto en una caja de herramientas."
+      }
+    }
+  },
+  {
+    "entry": "camelador",
+    "remove": [],
+    "set": {
+      "definition": "Persona que halaga o intenta enamorar a otra.",
+      "synonyms": [
+        "adulador",
+        "galanteador",
+        "seductor"
+      ],
+      "example": {
+        "word": "camelador",
+        "text": "El camelador intentó enamorarla con muchos halagos."
+      },
+      "exampleSynonym": {
+        "word": "adulador",
+        "text": "El adulador intentó enamorarla con muchos halagos."
+      }
+    }
+  },
+  {
+    "entry": "bailongo",
+    "remove": [],
+    "set": {
+      "definition": "Persona a quien le gusta mucho bailar. También puede nombrar un baile popular y alegre.",
+      "synonyms": [
+        "aficionado al baile",
+        "baile popular",
+        "fiesta de baile"
+      ],
+      "example": {
+        "word": "bailongo",
+        "text": "El bailongo bailó con la orquesta en la fiesta del pueblo."
+      },
+      "exampleSynonym": {
+        "word": "aficionado al baile",
+        "text": "El aficionado al baile bailó con la orquesta en la fiesta del pueblo."
+      }
+    }
+  },
+  {
+    "entry": "castanazo",
+    "remove": [],
+    "set": {
+      "definition": "Golpe fuerte, porrazo o puñetazo.",
+      "synonyms": [
+        "porrazo",
+        "puñetazo",
+        "golpetazo"
+      ],
+      "example": {
+        "word": "castañazo",
+        "text": "Se dio un castañazo al caer de la bicicleta."
+      },
+      "exampleSynonym": {
+        "word": "porrazo",
+        "text": "Se dio un porrazo al caer de la bicicleta."
+      }
+    }
+  },
+  {
+    "entry": "cegato",
+    "remove": [],
+    "set": {
+      "definition": "Que ve poco. La palabra puede sonar ofensiva.",
+      "synonyms": [
+        "corto de vista",
+        "de vista escasa",
+        "miope"
+      ],
+      "example": {
+        "word": "cegato",
+        "text": "Su padre es cegato y no reconoce los carteles de lejos."
+      },
+      "exampleSynonym": {
+        "word": "corto de vista",
+        "text": "Su padre es corto de vista y no reconoce los carteles de lejos."
+      }
+    }
+  },
+  {
+    "entry": "chisgarabis",
+    "remove": [],
+    "set": {
+      "definition": "Persona poco seria o de poca importancia.",
+      "synonyms": [
+        "persona poco seria",
+        "mequetrefe",
+        "cantamañanas",
+        "chiquilicuatre"
+      ],
+      "example": {
+        "word": "chisgarabís",
+        "text": "Nadie escuchó al chisgarabís que interrumpía la reunión."
+      },
+      "exampleSynonym": {
+        "word": "persona poco seria",
+        "text": "Nadie escuchó a la persona poco seria que interrumpía la reunión."
+      }
+    }
+  },
+  {
+    "entry": "chorar",
+    "remove": [],
+    "set": {
+      "definition": "Robar algo, a veces con habilidad. Es una palabra informal.",
+      "synonyms": [
+        "robar",
+        "hurtar",
+        "choricear"
+      ],
+      "example": {
+        "word": "chorar",
+        "text": "Alguien choró la bicicleta que estaba fuera de la tienda."
+      },
+      "exampleSynonym": {
+        "word": "robar",
+        "text": "Alguien robó la bicicleta que estaba fuera de la tienda."
+      }
+    }
+  },
+  {
+    "entry": "chorizar",
+    "remove": [],
+    "set": {
+      "definition": "Robar algo. Es una palabra informal.",
+      "synonyms": [
+        "robar",
+        "hurtar",
+        "choricear"
+      ],
+      "example": {
+        "word": "chorizar",
+        "text": "Lo vieron chorizar una chaqueta en la tienda."
+      },
+      "exampleSynonym": {
+        "word": "robar",
+        "text": "Lo vieron robar una chaqueta en la tienda."
+      }
+    }
+  },
+  {
+    "entry": "chirimbolo",
+    "remove": [],
+    "set": {
+      "definition": "Objeto raro, redondo o cuyo nombre no sabes. En plural, puede ser un utensilio o algo parecido.",
+      "synonyms": [
+        "cacharro",
+        "cachivache",
+        "trasto",
+        "chisme"
+      ],
+      "example": {
+        "word": "chirimbolo",
+        "text": "Aparta ese chirimbolo de la mesa, por favor."
+      },
+      "exampleSynonym": {
+        "word": "cacharro",
+        "text": "Aparta ese cacharro de la mesa, por favor."
+      }
+    }
+  },
+  {
+    "entry": "chiquilicuatre",
+    "remove": [],
+    "set": {
+      "definition": "Persona que arma líos y no piensa antes de actuar. También, alguien poco serio.",
+      "synonyms": [
+        "persona poco seria",
+        "chiquilicuatro",
+        "chisgarabís",
+        "cantamañanas",
+        "mequetrefe"
+      ],
+      "example": {
+        "word": "chiquilicuatre",
+        "text": "Ese chiquilicuatre causó problemas en el grupo."
+      },
+      "exampleSynonym": {
+        "word": "persona poco seria",
+        "text": "Esa persona poco seria causó problemas en el grupo."
+      }
+    }
+  },
+  {
+    "entry": "chupacirios",
+    "remove": [],
+    "set": {
+      "definition": "Persona muy religiosa que va mucho a la iglesia. Se usa como insulto.",
+      "synonyms": [
+        "persona muy religiosa",
+        "beato",
+        "santurrón",
+        "mojigato"
+      ],
+      "example": {
+        "word": "chupacirios",
+        "text": "Su familia dice que es chupacirios porque va a misa a diario."
+      },
+      "exampleSynonym": {
+        "word": "persona muy religiosa",
+        "text": "Su familia dice que es una persona muy religiosa porque va a misa a diario."
+      }
+    }
+  },
+  {
+    "entry": "chamar",
+    "remove": [],
+    "set": {
+      "definition": "Intercambiar una cosa por otra. Se usa poco entre quienes venden objetos usados.",
+      "synonyms": [
+        "cambiar",
+        "trocar",
+        "permutar"
+      ],
+      "example": {
+        "word": "chamar",
+        "text": "En la tienda de segunda mano, chamaron una lámpara por una silla."
+      },
+      "exampleSynonym": {
+        "word": "cambiar",
+        "text": "En la tienda de segunda mano, cambiaron una lámpara por una silla."
+      }
+    }
+  },
+  {
+    "entry": "casquivano",
+    "remove": [],
+    "set": {
+      "definition": "Persona que actúa sin pensar o cambia de opinión. Suele coquetear y tener relaciones amorosas breves.",
+      "synonyms": [
+        "poco reflexivo",
+        "cambiante",
+        "coqueto"
+      ],
+      "example": {
+        "word": "casquivano",
+        "text": "El joven casquivano cambiaba de idea sin pensarlo."
+      },
+      "exampleSynonym": {
+        "word": "poco reflexivo",
+        "text": "El joven poco reflexivo cambiaba de idea sin pensarlo."
+      }
+    }
+  },
+  {
+    "entry": "cerril",
+    "remove": [],
+    "set": {
+      "definition": "Terreno áspero o animal que no está domado. De una persona, significa que es muy terca o grosera.",
+      "synonyms": [
+        "áspero",
+        "sin domar",
+        "terco",
+        "grosero"
+      ],
+      "example": {
+        "word": "cerril",
+        "text": "El terreno cerril era difícil de atravesar."
+      },
+      "exampleSynonym": {
+        "word": "áspero",
+        "text": "El terreno áspero era difícil de atravesar."
+      }
+    }
+  },
+  {
+    "entry": "chufletero",
+    "remove": [],
+    "set": {
+      "definition": "Persona que hace bromas y se burla de los demás.",
+      "synonyms": [
+        "bromista",
+        "burlón",
+        "guasón",
+        "chancero"
+      ],
+      "example": {
+        "word": "chufletero",
+        "text": "El vecino chufletero animó la reunión con sus bromas."
+      },
+      "exampleSynonym": {
+        "word": "bromista",
+        "text": "El vecino bromista animó la reunión con sus bromas."
+      }
+    }
+  },
+  {
+    "entry": "chirlador",
+    "remove": [],
+    "set": {
+      "definition": "Persona que habla muy deprisa y hace mucho ruido. Hoy se usa poco.",
+      "synonyms": [
+        "hablador",
+        "parlanchín",
+        "parlador"
+      ],
+      "example": {
+        "word": "chirlador",
+        "text": "El chirlador interrumpió la reunión hablando muy deprisa y muy alto."
+      },
+      "exampleSynonym": {
+        "word": "hablador",
+        "text": "El hablador interrumpió la reunión hablando muy deprisa y muy alto."
+      }
+    }
+  },
+  {
+    "entry": "chirlear",
+    "remove": [],
+    "set": {
+      "definition": "Un pájaro chirlea cuando emite chillidos.",
+      "synonyms": [
+        "chirriar",
+        "chillar",
+        "piar"
+      ],
+      "example": {
+        "word": "chirlear",
+        "text": "Los pájaros comenzaron a chirlear al amanecer."
+      },
+      "exampleSynonym": {
+        "word": "chirriar",
+        "text": "Los pájaros comenzaron a chirriar al amanecer."
+      }
+    }
+  },
+  {
+    "entry": "chulear",
+    "remove": [],
+    "set": {
+      "definition": "En algunos países, chulear es decir piropos a alguien. También significa burlarse, presumir o aprovecharse de alguien.",
+      "synonyms": [
+        "piropear",
+        "halagar",
+        "burlarse",
+        "presumir",
+        "aprovecharse"
+      ],
+      "example": {
+        "word": "chulear",
+        "text": "Algunos pasajeros empezaron a chulear a la cantante al salir del teatro."
+      },
+      "exampleSynonym": {
+        "word": "piropear",
+        "text": "Algunos pasajeros empezaron a piropear a la cantante al salir del teatro."
+      }
+    }
+  },
+  {
+    "entry": "chochera",
+    "remove": [],
+    "set": {
+      "definition": "Pérdida de claridad mental por la edad. Es una palabra informal.",
+      "synonyms": [
+        "pérdida de claridad mental"
+      ],
+      "example": {
+        "word": "chochera",
+        "text": "La familia notó su chochera y habló con su médica."
+      },
+      "exampleSynonym": {
+        "word": "pérdida de claridad mental",
+        "text": "La familia notó su pérdida de claridad mental y habló con su médica."
+      }
+    }
+  },
+  {
+    "entry": "chocolateado",
+    "remove": [],
+    "set": {
+      "definition": "Que tiene chocolate.",
+      "synonyms": [
+        "con chocolate",
+        "cubierto de chocolate"
+      ],
+      "example": {
+        "word": "chocolateado",
+        "text": "Pidió un pastel chocolateado para la merienda."
+      },
+      "exampleSynonym": {
+        "word": "con chocolate",
+        "text": "Pidió un pastel con chocolate para la merienda."
+      }
+    }
+  },
+  {
+    "entry": "chozpar",
+    "remove": [],
+    "set": {
+      "definition": "Un cordero o un cabrito chozpa cuando salta con alegría.",
+      "synonyms": [
+        "brincar",
+        "saltar",
+        "retozar"
+      ],
+      "example": {
+        "word": "chozpar",
+        "text": "Al salir al prado, los corderos empezaron a chozpar."
+      },
+      "exampleSynonym": {
+        "word": "brincar",
+        "text": "Al salir al prado, los corderos empezaron a brincar."
+      }
+    }
+  },
+  {
+    "entry": "chulada",
+    "remove": [],
+    "set": {
+      "definition": "Cosa muy bonita o agradable. Es una palabra informal.",
+      "synonyms": [
+        "cosa muy bonita",
+        "preciosidad"
+      ],
+      "example": {
+        "word": "chulada",
+        "text": "Esta chulada está en el centro de la ciudad."
+      },
+      "exampleSynonym": {
+        "word": "cosa muy bonita",
+        "text": "Esta cosa muy bonita está en el centro de la ciudad."
+      }
+    }
+  },
+  {
+    "entry": "chulada-indecent-action",
+    "remove": [],
+    "set": {
+      "definition": "Acción de mala educación o hecha con mala intención.",
+      "synonyms": [
+        "mala acción"
+      ],
+      "example": {
+        "word": "chulada",
+        "text": "El director cometió una chulada al favorecer a su cuñado."
+      },
+      "exampleSynonym": {
+        "word": "mala acción",
+        "text": "El director cometió una mala acción al favorecer a su cuñado."
+      }
+    }
+  },
+  {
+    "entry": "cibelina",
+    "remove": [],
+    "set": {
+      "definition": "Animal de pelo oscuro y suave, propio de Europa y Asia. Su piel se usa para fabricar ropa.",
+      "synonyms": [
+        "marta cibelina",
+        "marta cebellina (variante)"
+      ],
+      "example": {
+        "word": "cibelina",
+        "text": "El abrigo estaba hecho con piel de cibelina."
+      },
+      "exampleSynonym": {
+        "word": "marta cibelina",
+        "text": "El abrigo estaba hecho con piel de marta cibelina."
+      }
+    }
+  },
+  {
+    "entry": "cibo",
+    "remove": [],
+    "set": {
+      "definition": "Comida para animales. Hoy se usa poco.",
+      "synonyms": [
+        "comida",
+        "alimento para animales"
+      ],
+      "example": {
+        "word": "cibo",
+        "text": "El granjero guardó cibo para sus animales."
+      },
+      "exampleSynonym": {
+        "word": "comida",
+        "text": "El granjero guardó comida para sus animales."
+      }
+    }
+  },
+  {
+    "entry": "ciclotimico",
+    "remove": [],
+    "set": {
+      "definition": "Relacionado con una enfermedad que causa cambios de ánimo durante años. De una persona, significa que tiene esa enfermedad.",
+      "synonyms": [
+        "relacionado con cambios de ánimo duraderos"
+      ],
+      "example": {
+        "word": "ciclotímico",
+        "text": "El informe describía un síntoma ciclotímico y recomendaba una consulta médica."
+      },
+      "exampleSynonym": {
+        "word": "relacionado con cambios de ánimo duraderos",
+        "text": "El informe describía un síntoma relacionado con cambios de ánimo duraderos y recomendaba una consulta médica."
+      }
+    }
+  },
+  {
+    "entry": "cienoso",
+    "remove": [],
+    "set": {
+      "definition": "Cubierto de barro o lodo.",
+      "synonyms": [
+        "cubierto de barro",
+        "barroso",
+        "lodoso"
+      ],
+      "example": {
+        "word": "cienoso",
+        "text": "El camino cienoso se volvió difícil de atravesar tras la tormenta."
+      },
+      "exampleSynonym": {
+        "word": "cubierto de barro",
+        "text": "El camino cubierto de barro se volvió difícil de atravesar tras la tormenta."
+      }
+    }
+  },
+  {
+    "entry": "ciente",
+    "remove": [],
+    "set": {
+      "definition": "Que conoce un hecho o está informado de algo. Hoy se usa poco.",
+      "synonyms": [
+        "informado",
+        "conocedor"
+      ],
+      "example": {
+        "word": "ciente",
+        "text": "El testigo era ciente de que la deuda seguía pendiente."
+      },
+      "exampleSynonym": {
+        "word": "informado",
+        "text": "El testigo estaba informado de que la deuda seguía pendiente."
+      }
+    }
+  },
+  {
+    "entry": "cimarron",
+    "remove": [],
+    "set": {
+      "definition": "Persona esclavizada que huía en la América colonial para vivir libre. También, animal o planta que vive sin ayuda humana.",
+      "synonyms": [
+        "silvestre",
+        "salvaje",
+        "fugitivo (sentido histórico)"
+      ],
+      "example": {
+        "word": "cimarrón",
+        "text": "Un caballo cimarrón vivía libre en el campo."
+      },
+      "exampleSynonym": {
+        "word": "silvestre",
+        "text": "Un caballo silvestre vivía libre en el campo."
+      }
+    }
+  },
+  {
+    "entry": "cimento",
+    "remove": [],
+    "set": {
+      "definition": "Mineral que une trozos o granos de algunas rocas.",
+      "synonyms": [
+        "cemento"
+      ],
+      "example": {
+        "word": "cimento",
+        "text": "El geólogo vio el cimento que mantenía unidas las partes de la roca."
+      },
+      "exampleSynonym": {
+        "word": "cemento",
+        "text": "El geólogo vio el cemento que mantenía unidas las partes de la roca."
+      }
+    }
+  },
+  {
+    "entry": "cincuentavo",
+    "remove": [],
+    "set": {
+      "definition": "Una de las 50 partes iguales de algo.",
+      "synonyms": [
+        "una de las 50 partes iguales"
+      ],
+      "example": {
+        "word": "cincuentavo",
+        "text": "El equipo recibió un cincuentavo del premio."
+      },
+      "exampleSynonym": {
+        "word": "una de las 50 partes iguales",
+        "text": "El equipo recibió una de las 50 partes iguales del premio."
+      }
+    }
+  },
+  {
+    "entry": "cinquena",
+    "remove": [],
+    "set": {
+      "definition": "Quinta en una serie. Hoy se usa poco.",
+      "synonyms": [
+        "quinta"
+      ],
+      "example": {
+        "word": "cinquena",
+        "text": "La cinquena ficha del archivo estaba al final de la serie."
+      },
+      "exampleSynonym": {
+        "word": "quinta",
+        "text": "La quinta ficha del archivo estaba al final de la serie."
+      }
+    }
+  },
+  {
+    "entry": "ciquiricata",
+    "remove": [],
+    "set": {
+      "definition": "Gesto o acto exagerado para halagar a alguien. Es una palabra informal.",
+      "synonyms": [
+        "halago",
+        "elogio exagerado"
+      ],
+      "example": {
+        "word": "ciquiricata",
+        "text": "La ciquiricata de Ana pareció exagerada."
+      },
+      "exampleSynonym": {
+        "word": "halago",
+        "text": "El halago de Ana pareció exagerado."
+      }
+    }
+  },
+  {
+    "entry": "circunciso",
+    "remove": [],
+    "set": {
+      "definition": "Hombre al que le quitaron el prepucio. Es la piel que cubre la punta del pene.",
+      "synonyms": [
+        "circuncidado"
+      ],
+      "example": {
+        "word": "circunciso",
+        "text": "El médico anotó que el paciente estaba circunciso."
+      },
+      "exampleSynonym": {
+        "word": "circuncidado",
+        "text": "El médico anotó que el paciente estaba circuncidado."
+      }
+    }
+  },
+  {
+    "entry": "circunvenir",
+    "remove": [],
+    "set": {
+      "definition": "Presionar a alguien con engaños. Hoy se usa poco.",
+      "synonyms": [
+        "presionar",
+        "oprimir con engaños"
+      ],
+      "example": {
+        "word": "circunvenir",
+        "text": "Intentó circunvenir a su rival con engaños."
+      },
+      "exampleSynonym": {
+        "word": "presionar",
+        "text": "Intentó presionar a su rival con engaños."
+      }
+    }
+  },
+  {
+    "entry": "ciscar",
+    "remove": [],
+    "set": {
+      "definition": "En conversaciones informales, ensuciar algo. También, «ciscarse» significa hacer caca.",
+      "synonyms": [
+        "ensuciar",
+        "hacer caca"
+      ],
+      "example": {
+        "word": "ciscar",
+        "text": "El barro llegó a ciscar las botas."
+      },
+      "exampleSynonym": {
+        "word": "ensuciar",
+        "text": "El barro llegó a ensuciar las botas."
+      }
+    }
+  },
+  {
+    "entry": "citano",
+    "remove": [],
+    "set": {
+      "definition": "Nombre usado con «fulano» o «mengano» para hablar de alguien sin nombrarlo.",
+      "synonyms": [
+        "mengano",
+        "fulano"
+      ],
+      "example": {
+        "word": "citano",
+        "text": "Fulano y citano llegaron antes que los demás."
+      },
+      "exampleSynonym": {
+        "word": "mengano",
+        "text": "Fulano y mengano llegaron antes que los demás."
+      }
+    }
+  },
+  {
+    "entry": "citote",
+    "remove": [],
+    "set": {
+      "definition": "Aviso para que alguien se presente o haga algo. Antes, también era quien llevaba el aviso.",
+      "synonyms": [
+        "citación",
+        "requerimiento"
+      ],
+      "example": {
+        "word": "citote",
+        "text": "El alcalde mandó un citote para que el vecino fuera al ayuntamiento."
+      },
+      "exampleSynonym": {
+        "word": "citación",
+        "text": "El alcalde mandó una citación para que el vecino fuera al ayuntamiento."
+      }
+    }
+  },
+  {
+    "entry": "civilidad",
+    "remove": [],
+    "set": {
+      "definition": "Trato amable y respetuoso con los demás. Antes también podía significar ser tacaño o grosero.",
+      "synonyms": [
+        "cortesía",
+        "urbanidad",
+        "sociabilidad",
+        "civismo (sentido actual)"
+      ],
+      "example": {
+        "word": "civilidad",
+        "text": "La civilidad se notó cuando respetaron los turnos para hablar."
+      },
+      "exampleSynonym": {
+        "word": "cortesía",
+        "text": "La cortesía se notó cuando respetaron los turnos para hablar."
+      }
+    }
+  },
+  {
+    "entry": "civilizador",
+    "remove": [],
+    "set": {
+      "definition": "Que ayuda a educar y formar a una persona o sociedad. También se usa para nombrar a quien lo hace.",
+      "synonyms": [
+        "formador",
+        "educador"
+      ],
+      "example": {
+        "word": "civilizador",
+        "text": "El libro habla del papel civilizador de la escuela."
+      },
+      "exampleSynonym": {
+        "word": "formador",
+        "text": "El libro habla del papel formador de la escuela."
+      }
+    }
+  },
+  {
+    "entry": "civilizar",
+    "remove": [],
+    "set": {
+      "definition": "Educar a un grupo o mejorar su formación y comportamiento. Antes, también significaba imponer a otros pueblos un modo de vida «civilizado».",
+      "synonyms": [
+        "educar",
+        "formar"
+      ],
+      "example": {
+        "word": "civilizar",
+        "text": "En los textos coloniales, algunos decían que querían civilizar a esos pueblos."
+      },
+      "exampleSynonym": {
+        "word": "educar",
+        "text": "En los textos coloniales, algunos decían que querían educar a esos pueblos."
+      }
+    }
+  },
+  {
+    "entry": "civismo",
+    "remove": [],
+    "set": {
+      "definition": "Respeto por las normas de convivencia. También significa interés por las instituciones y el bienestar del país.",
+      "synonyms": [
+        "responsabilidad ciudadana",
+        "cultura cívica",
+        "civilidad"
+      ]
+    }
+  },
+  {
+    "entry": "cizalla",
+    "remove": [],
+    "set": {
+      "definition": "Herramienta grande, parecida a unas tijeras, que corta planchas de metal.",
+      "synonyms": [
+        "tijera para cortar metal",
+        "cortadora de chapas"
+      ],
+      "example": {
+        "word": "cizalla",
+        "text": "La cizalla cortó una chapa de metal."
+      },
+      "exampleSynonym": {
+        "word": "tijera para cortar metal",
+        "text": "La tijera para cortar metal cortó una chapa de metal."
+      }
+    }
+  },
+  {
+    "entry": "cizanador",
+    "remove": [],
+    "set": {
+      "definition": "Que provoca peleas entre otras personas. También puede nombrar a quien lo hace."
+    }
+  },
+  {
+    "entry": "cizanar",
+    "remove": [],
+    "set": {
+      "definition": "Enfrentar a unas personas con otras.",
+      "synonyms": [
+        "enfrentar",
+        "enemistar",
+        "cizañear",
+        "malmeter"
+      ],
+      "example": {
+        "word": "cizañar",
+        "text": "El rumor buscaba cizañar a dos amigos."
+      },
+      "exampleSynonym": {
+        "word": "enfrentar",
+        "text": "El rumor buscaba enfrentar a dos amigos."
+      }
+    }
+  },
+  {
+    "entry": "cizanero",
+    "remove": [],
+    "set": {
+      "definition": "Que enfrenta a unas personas con otras. También puede nombrar a quien lo hace."
+    }
+  },
+  {
+    "entry": "clamar",
+    "remove": [],
+    "set": {
+      "definition": "Pedir algo con fuerza o urgencia. También significa gritar o quejarse para pedir ayuda.",
+      "synonyms": [
+        "reclamar",
+        "pedir con fuerza",
+        "gritar"
+      ],
+      "example": {
+        "word": "clamar",
+        "text": "Los vecinos clamaron por una solución."
+      },
+      "exampleSynonym": {
+        "word": "reclamar",
+        "text": "Los vecinos reclamaron una solución."
+      }
+    }
+  },
+  {
+    "entry": "clamor",
+    "remove": [],
+    "set": {
+      "definition": "Grito fuerte de varias personas. También puede ser una protesta general.",
+      "synonyms": [
+        "gritos del público",
+        "vocerío"
+      ],
+      "example": {
+        "word": "clamor",
+        "text": "El clamor del público se oyó desde la calle."
+      },
+      "exampleSynonym": {
+        "word": "gritos del público",
+        "text": "Los gritos del público se oyeron desde la calle."
+      }
+    }
+  },
+  {
+    "entry": "clamor-1555-2",
+    "remove": [],
+    "set": {
+      "definition": "Grito fuerte.",
+      "synonyms": [
+        "grito"
+      ],
+      "example": {
+        "word": "clamor",
+        "text": "Un clamor interrumpió la reunión."
+      },
+      "exampleSynonym": {
+        "word": "grito",
+        "text": "Un grito interrumpió la reunión."
+      }
+    }
+  },
+  {
+    "entry": "clamoreada",
+    "remove": [],
+    "set": {
+      "definition": "Grito fuerte. También puede ser un grito triste o una queja.",
+      "synonyms": [
+        "grito",
+        "queja",
+        "lamento"
+      ],
+      "example": {
+        "word": "clamoreada",
+        "text": "La multitud lanzó una clamoreada al conocer el resultado."
+      },
+      "exampleSynonym": {
+        "word": "grito",
+        "text": "La multitud lanzó un grito al conocer el resultado."
+      }
+    }
+  },
+  {
+    "entry": "clamorear",
+    "remove": [],
+    "set": {
+      "definition": "Pedir algo con quejas o gritos. También significa tocar las campanas cuando alguien muere.",
+      "synonyms": [
+        "rogar",
+        "suplicar",
+        "doblar las campanas"
+      ],
+      "example": {
+        "word": "clamorear",
+        "text": "La mujer clamoreó para que la ayudaran."
+      },
+      "exampleSynonym": {
+        "word": "rogar",
+        "text": "La mujer rogó para que la ayudaran."
+      }
+    }
+  },
+  {
+    "entry": "clamoreo",
+    "remove": [],
+    "set": {
+      "definition": "Voces que se oyen una y otra vez. También, una petición repetida que molesta.",
+      "synonyms": [
+        "voces repetidas",
+        "petición repetida"
+      ],
+      "example": {
+        "word": "clamoreo",
+        "text": "El clamoreo de los niños llenó el patio."
+      },
+      "exampleSynonym": {
+        "word": "voces repetidas",
+        "text": "Las voces repetidas de los niños llenaron el patio."
+      }
+    }
+  },
+  {
+    "entry": "clamosidad",
+    "remove": [],
+    "set": {
+      "definition": "Manera de gritar o pedir algo a voces. Se usa poco.",
+      "synonyms": [
+        "manera de gritar"
+      ],
+      "example": {
+        "word": "clamosidad",
+        "text": "El autor describe la clamosidad del personaje, que siempre habla a gritos."
+      },
+      "exampleSynonym": {
+        "word": "manera de gritar",
+        "text": "El autor describe la manera de gritar del personaje, que siempre habla a gritos."
+      }
+    }
+  },
+  {
+    "entry": "clamoso",
+    "remove": [],
+    "set": {
+      "definition": "Que grita o pide algo a voces. Es una palabra antigua.",
+      "synonyms": [
+        "que grita",
+        "clamoroso (aproximado)"
+      ],
+      "example": {
+        "word": "clamoso",
+        "text": "El hombre clamoso pidió ayuda desde la calle."
+      },
+      "exampleSynonym": {
+        "word": "que grita",
+        "text": "El hombre que gritaba pidió ayuda desde la calle."
+      }
+    }
+  },
+  {
+    "entry": "clandestino",
+    "remove": [],
+    "set": {
+      "definition": "Que se hace a escondidas, sobre todo para evitar una norma. Puede ser ilegal, pero no siempre.",
+      "synonyms": [
+        "oculto",
+        "secreto",
+        "encubierto"
+      ],
+      "example": {
+        "word": "clandestino",
+        "text": "El grupo organizó un encuentro clandestino durante la guerra."
+      },
+      "exampleSynonym": {
+        "word": "oculto",
+        "text": "El grupo organizó un encuentro oculto durante la guerra."
+      }
+    }
+  },
+  {
+    "entry": "claqueta",
+    "remove": [],
+    "set": {
+      "definition": "Pizarra con dos piezas que chocan al empezar una escena. Ayuda a coordinar imagen y sonido. También puede ser electrónica.",
+      "synonyms": [
+        "pizarra de rodaje",
+        "tablilla de rodaje"
+      ],
+      "example": {
+        "word": "claqueta",
+        "text": "La claqueta marcó el inicio de la escena y ayudó a sincronizar sonido e imagen."
+      },
+      "exampleSynonym": {
+        "word": "pizarra de rodaje",
+        "text": "La pizarra de rodaje marcó el inicio de la escena y ayudó a sincronizar sonido e imagen."
+      }
+    }
+  },
+  {
+    "entry": "clarar",
+    "remove": [],
+    "set": {
+      "definition": "Aclarar algo. Es una palabra antigua y poco usada.",
+      "synonyms": [
+        "aclarar"
+      ],
+      "example": {
+        "word": "clarar",
+        "text": "El autor logró clarar el significado del pasaje."
+      },
+      "exampleSynonym": {
+        "word": "aclarar",
+        "text": "El autor logró aclarar el significado del pasaje."
+      }
+    }
+  },
+  {
+    "entry": "clarea",
+    "remove": [],
+    "set": {
+      "definition": "Bebida de vino claro con azúcar o miel, canela y otras especias.",
+      "synonyms": [
+        "bebida de vino con especias"
+      ],
+      "example": {
+        "word": "clarea",
+        "text": "Para la celebración prepararon clarea con vino, miel y canela."
+      },
+      "exampleSynonym": {
+        "word": "bebida de vino con especias",
+        "text": "Para la celebración prepararon una bebida de vino con especias."
+      }
+    }
+  },
+  {
+    "entry": "clarete",
+    "remove": [],
+    "set": {
+      "definition": "Vino tinto de color algo claro.",
+      "synonyms": [
+        "vino tinto claro"
+      ],
+      "example": {
+        "word": "clarete",
+        "text": "Sirvieron clarete con la cena."
+      },
+      "exampleSynonym": {
+        "word": "vino tinto claro",
+        "text": "Sirvieron vino tinto claro con la cena."
+      }
+    }
+  },
+  {
+    "entry": "claretiano",
+    "remove": [],
+    "set": {
+      "definition": "De san Antonio María Claret o de las congregaciones religiosas que fundó. También nombra a sus miembros.",
+      "synonyms": [
+        "miembro de una congregación claretiana",
+        "relacionado con San Antonio María Claret"
+      ],
+      "example": {
+        "word": "claretiano",
+        "text": "El claretiano saludó a los alumnos al entrar en el colegio."
+      },
+      "exampleSynonym": {
+        "word": "miembro de una congregación claretiana",
+        "text": "El miembro de una congregación claretiana saludó a los alumnos al entrar en el colegio."
+      }
+    }
+  },
+  {
+    "entry": "claridad",
+    "remove": [],
+    "set": {
+      "definition": "Facilidad para ver o entender algo sin confusión.",
+      "synonyms": [
+        "nitidez"
+      ],
+      "example": {
+        "word": "claridad",
+        "text": "La claridad del cristal permite ver el fondo."
+      },
+      "exampleSynonym": {
+        "word": "nitidez",
+        "text": "La nitidez del cristal permite ver el fondo."
+      }
+    }
+  },
+  {
+    "entry": "claridad-frank-remark",
+    "remove": [],
+    "set": {
+      "definition": "Comentario sincero que dice algo desagradable de forma directa.",
+      "synonyms": [
+        "verdad incómoda"
+      ],
+      "example": {
+        "word": "claridad",
+        "text": "Le dijo una claridad que nadie se atrevía a decir."
+      },
+      "exampleSynonym": {
+        "word": "verdad incómoda",
+        "text": "Le dijo una verdad incómoda que nadie se atrevía a decir."
+      }
+    }
+  },
+  {
+    "entry": "claridad-sharp-perception",
+    "remove": [],
+    "set": {
+      "definition": "Facilidad para entender ideas o notar lo que se siente.",
+      "synonyms": [
+        "lucidez"
+      ],
+      "example": {
+        "word": "claridad",
+        "text": "La claridad de su razonamiento convenció al grupo."
+      },
+      "exampleSynonym": {
+        "word": "lucidez",
+        "text": "La lucidez de su razonamiento convenció al grupo."
+      }
+    }
+  },
+  {
+    "entry": "alducar",
+    "remove": [
+      "adúcar"
+    ],
+    "set": {
+      "synonyms": [
+        "fibra exterior del capullo"
+      ],
+      "exampleSynonym": {
+        "word": "fibra exterior del capullo",
+        "text": "La fibra exterior del capullo conserva una textura más basta."
       }
     }
   }

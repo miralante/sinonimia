@@ -19,7 +19,7 @@
 **Actualización 2026-09-17**: los campos del esquema del diccionario y el
 segmento de ruta `"palabra"` — antes listados aquí como excepciones
 deliberadas en español — pasaron a inglés (`word`, `definition`,
-`image`, `synonyms`, `example`, `exampleSynonym`, y el segmento de ruta
+`image`, `synonyms`, `searchAliases`, `example`, `exampleSynonym`, y el segmento de ruta
 `word`; `situacion` se mantuvo, ver más abajo) en `js/data.es.js`,
 `js/data.en.js`, `js/app.js` y todas las herramientas de
 `scripts/ingest/pipeline/` que leen o escriben esos campos.
@@ -225,6 +225,7 @@ Cada elemento de `DICCIONARIOS.<idioma>` tiene esta forma:
   image: { id: "arasaac-id", alt: "texto alternativo" },
   definition: "Explicación breve y clara.",
   synonyms: ["palabra sencilla"],
+  searchAliases: ["forma derivada redundante"], // opcional; solo búsqueda
   example: { word: "forma usada", text: "Frase real." },
   exampleSynonym: { word: "forma sencilla", text: "Frase equivalente." },
   situacion: "tramites",
@@ -237,6 +238,8 @@ Reglas del esquema:
 - Solo `id` debe ser único. `word` puede repetirse para representar un
   homónimo; el índice mantiene un array de entradas con el mismo nombre.
 - `image.id` apunta a `img/<id>.png` y `image.alt` es obligatorio.
+- `searchAliases` es opcional. Sus formas llevan a esta ficha, pero no se
+  presentan como sinónimos ni se usan como respuestas en los juegos.
 - `situacion` es una de estas once claves compartidas: `tramites`, `salud`,
   `vida-diaria`, `finanzas`, `vivienda`, `trabajo`, `legal`, `tecnologia`,
   `seguridad`, `educacion`, `conocimiento`.
@@ -268,7 +271,34 @@ candidatas: se confirma que expresan la misma acepción antes de añadir una
 fusión. Las relaciones de sinónimos incorrectas y otras correcciones editoriales
 se guardan en `synonym-corrections-<idioma>.json`.
 
-Al buscar, las coincidencias exactas con el lema o un sinónimo tienen prioridad
+Las formas derivadas que se omiten por redundantes usan otro flujo:
+`search-alias-merges-<idioma>.json` guarda el id canónico y los ids retirados,
+junto con todas las formas aprobadas para búsqueda. El constructor mueve esas
+formas a `searchAliases[]`, las incluye en el índice de búsqueda y las muestra
+separadas de los sinónimos en la ficha. No se usan en los juegos como respuestas
+equivalentes. `audit-lexical-families.js` propone grupos por sufijo para revisión;
+no modifica datos ni toma decisiones. Toda forma del registro fuente que vaya a
+desaparecer (lema, alias de búsqueda y sinónimos) debe figurar explícitamente en
+`forms`, evitando perder rutas de búsqueda al fusionar.
+
+Ejecuta `node scripts/ingest/pipeline/audit-lexical-families.js es --out
+<ruta.json>` (o `en`) para crear el informe revisable. Una decisión aprobada
+tiene esta forma:
+
+```json
+{
+  "canonical": "id-confirmar",
+  "reason": "La forma derivada no aporta un concepto propio en este contexto.",
+  "aliases": [{ "id": "id-confirmador", "forms": ["confirmador"] }]
+}
+```
+
+El alias debe tener definición revisada y no puede colisionar con otro lema.
+La lista `forms` debe repetir todas las formas que desaparecerían de la ficha
+retirada, incluidas las que hoy figuren como sinónimos.
+
+Al buscar, las coincidencias exactas con el lema, un sinónimo o un alias de
+búsqueda tienen prioridad
 sobre las coincidencias parciales dentro de una definición u otra frase.
 
 Ejemplo de traducción uno-a-uno y uno-a-varios:

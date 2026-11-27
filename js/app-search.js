@@ -8,7 +8,9 @@
       if (!entry._k) {
         entry._k = {
           word: options.normalize(entry.word),
-          rest: options.normalize(entry.definition + " | " + entry.synonyms.join(" | "))
+          aliases: (entry.searchAliases || []).map(options.normalize),
+          rest: options.normalize(entry.definition + " | " + entry.synonyms.join(" | ") +
+            " | " + (entry.searchAliases || []).join(" | "))
         };
       }
       return entry._k;
@@ -23,9 +25,10 @@
 
     function matchesExactSearch(entry, normalizedQuery) {
       if (searchKeys(entry).word === normalizedQuery) return true;
-      return entry.synonyms.some(function (synonym) {
+      if (entry.synonyms.some(function (synonym) {
         return options.normalize(synonym) === normalizedQuery;
-      });
+      })) return true;
+      return searchKeys(entry).aliases.indexOf(normalizedQuery) !== -1;
     }
 
     function exactSearchSynonym(entry, normalizedQuery) {

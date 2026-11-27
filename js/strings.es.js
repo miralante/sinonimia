@@ -82,6 +82,7 @@ window.App.i18n.register({
   "languageName_es": "español",
   "languageName_en": "inglés",
   "alsoKnownAs": "Se puede decir también",
+  "searchAliasesLabel": "También puedes buscar esta ficha por",
   "inASentence": "En una frase de cada día",
   "saidSimply": "Dicho de forma más sencilla:",
   "alreadyDiscovered": "Ya descubierta",

@@ -350,9 +350,28 @@
     ]
   },
   {
+    "canonical": "cognitivo",
+    "aliases": [
+      "cognoscitivo"
+    ]
+  },
+  {
+    "canonical": "completitud",
+    "aliases": [
+      "completez",
+      "completud"
+    ]
+  },
+  {
     "canonical": "comunidad-propietarios",
     "aliases": [
       "comunidad-de-propietarios"
+    ]
+  },
+  {
+    "canonical": "confirmador",
+    "aliases": [
+      "confirmante"
     ]
   },
   {
@@ -636,7 +655,8 @@
   {
     "canonical": "efimero",
     "aliases": [
-      "pasajero"
+      "pasajero",
+      "round2755-fugitivo-temporary"
     ]
   },
   {
@@ -1820,6 +1840,13 @@
     ]
   },
   {
+    "canonical": "pataca-5",
+    "aliases": [
+      "parpalla"
+    ],
+    "reason": "Same historical copper-coin sense, matching definition, example, and reciprocal synonym relation."
+  },
+  {
     "canonical": "patudo",
     "aliases": [
       "paton"
@@ -2033,6 +2060,12 @@
     ]
   },
   {
+    "canonical": "renir-2",
+    "aliases": [
+      "pelotear-4"
+    ]
+  },
+  {
     "canonical": "repantigarse",
     "aliases": [
       "repanchigarse",
@@ -2045,6 +2078,13 @@
     "aliases": [
       "restituir-restaurar-estado"
     ]
+  },
+  {
+    "canonical": "retirado",
+    "aliases": [
+      "retirado-remote"
+    ],
+    "reason": "Duplicate entry: same headword, definition, topic, synonym, and example."
   },
   {
     "canonical": "retrasar",
@@ -2065,9 +2105,42 @@
     ]
   },
   {
+    "canonical": "round2513-esplendidez-generosity",
+    "aliases": [
+      "esplendidez-generosity",
+      "largueza"
+    ],
+    "reason": "Same generosity sense and reciprocal synonym relation; preserve the separate length sense of largueza."
+  },
+  {
     "canonical": "round2566-eternizar-lasting",
     "aliases": [
       "perennizar"
+    ]
+  },
+  {
+    "canonical": "salce",
+    "aliases": [
+      "salguera"
+    ]
+  },
+  {
+    "canonical": "salero-3",
+    "aliases": [
+      "salegar"
+    ]
+  },
+  {
+    "canonical": "salitroso",
+    "aliases": [
+      "salitral-2"
+    ],
+    "reason": "RAE lists salitral as a synonym of salitroso; this is the adjective sense. Keep the separate salitral noun entry."
+  },
+  {
+    "canonical": "salivazo",
+    "aliases": [
+      "salivajo"
     ]
   },
   {
@@ -2218,9 +2291,318 @@
     ]
   },
   {
-    "canonical": "round2513-esplendidez-generosity",
+    "canonical": "rulero",
     "aliases": [
-      "esplendidez-generosity"
+      "rulo-2"
     ]
+  },
+  {
+    "canonical": "albardero",
+    "aliases": [
+      "albardonero"
+    ]
+  },
+  {
+    "canonical": "porqueria",
+    "aliases": [
+      "bazofia-worthless-thing"
+    ]
+  },
+  {
+    "canonical": "cabizbajo",
+    "aliases": [
+      "cabizcaido"
+    ]
+  },
+  {
+    "canonical": "peladura-2",
+    "aliases": [
+      "monda-2"
+    ]
+  },
+  {
+    "canonical": "tipo-impositivo",
+    "aliases": [
+      "tipo-de-gravamen"
+    ]
+  },
+  {
+    "canonical": "colicuar",
+    "aliases": [
+      "colicuecer"
+    ]
+  },
+  {
+    "canonical": "inglete",
+    "aliases": [
+      "inglete-angle"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "condensar",
+    "aliases": [
+      "condensar-gas-to-liquid"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "confeccionar",
+    "aliases": [
+      "confeccionar-sew-garment"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "cuadrilitero",
+    "aliases": [
+      "cuadrilitero-polygon"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "cartelera",
+    "aliases": [
+      "cartelera-notice-board"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "fulgurante",
+    "aliases": [
+      "fulgurante-bright"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "sobrecoger",
+    "aliases": [
+      "sobrecoger-frighten"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "tahona",
+    "aliases": [
+      "tahona-animal-powered-mill"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "transcurrir",
+    "aliases": [
+      "transcurrir-time-pass"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "boquilla",
+    "aliases": [
+      "boquilla-wind-instrument"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "posgraduado",
+    "aliases": [
+      "posgraduado-adjective"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "resinero",
+    "aliases": [
+      "resinero-person"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "tronio",
+    "aliases": [
+      "tronio-ostentacion"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "sostenedor",
+    "aliases": [
+      "sostenedor-persona"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "suscriptor",
+    "aliases": [
+      "suscriptor-signatory"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "tremendo",
+    "aliases": [
+      "tremendo-intense"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "gachumbo",
+    "aliases": [
+      "gachumbo-container"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "mimetizar",
+    "aliases": [
+      "mimetizar-imitar"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "lisonjero",
+    "aliases": [
+      "lisonjero-person-adulador"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "tramoya",
+    "aliases": [
+      "tramoya-stage-machinery"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "sutileza",
+    "aliases": [
+      "sutileza-delicadeza"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "desembocar",
+    "aliases": [
+      "desembocar-river-into-water"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "gimotear",
+    "aliases": [
+      "gimotear-gestures-of-crying"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "sincretismo",
+    "aliases": [
+      "sincretismo-combination-of-ideas"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "trafago",
+    "aliases": [
+      "trafago-busy-activity"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "vacuo",
+    "aliases": [
+      "vacuo-empty-or-insubstantial"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "atarear",
+    "aliases": [
+      "atarear-assign-a-task"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "cursilada",
+    "aliases": [
+      "cursilada-affected-action"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "estilismo",
+    "aliases": [
+      "estilismo-image-and-style-work"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "clarinada",
+    "aliases": [
+      "clarinada-inappropriate-remark"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "temporalidad",
+    "aliases": [
+      "temporalidad-transience"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "galante",
+    "aliases": [
+      "galante-courteous-person"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "santidad",
+    "aliases": [
+      "santidad-holiness"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "descontentadizo",
+    "aliases": [
+      "descontentadizo-easily-displeased"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "delicatessen",
+    "aliases": [
+      "delicatessen-select-food"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "trabacuenta",
+    "aliases": [
+      "trabacuenta-account-error"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "tanteador",
+    "aliases": [
+      "tanteador-scorekeeper"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "seminal",
+    "aliases": [
+      "seminal-biological"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
+  },
+  {
+    "canonical": "credo",
+    "aliases": [
+      "credo-christian-prayer"
+    ],
+    "reason": "Exact duplicate headword, definition and topic; retain one searchable card."
   }
 ]

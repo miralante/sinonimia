@@ -48,8 +48,14 @@ DICCIONARIOS.es = DICCIONARIOS.es.concat([
   }
 ]);
 
-/* Let people find the existing infinitive entry when they search its participle. */
-var derruirEntry = DICCIONARIOS.es.find(function (entry) { return entry.id === "derruir"; });
-if (derruirEntry && derruirEntry.synonyms.indexOf("derruido") === -1) {
-  derruirEntry.synonyms.push("derruido");
-}
+/* Keep the participle as its own adjective entry, separate from the infinitive. */
+DICCIONARIOS.es.push({
+  id: "derruido",
+  word: "Derruido",
+  image: { id: 7024, alt: "Un edificio en ruinas" },
+  definition: "Que está en ruinas o muy deteriorado.",
+  synonyms: ["en ruinas", "muy deteriorado"],
+  example: { word: "derruido", text: "El edificio derruido será reparado por el ayuntamiento." },
+  exampleSynonym: { word: "en ruinas", text: "El edificio en ruinas será reparado por el ayuntamiento." },
+  situacion: "vida-diaria",
+});

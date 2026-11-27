@@ -10390,18 +10390,19 @@
     "entry": "alms",
     "remove": [],
     "set": {
-      "definition": "Older term for money or goods given to poor people.",
+      "definition": "Money or food given to people in need.",
       "synonyms": [
-        "charity",
-        "charitable donations"
+        "gifts",
+        "charitable donations",
+        "charity"
       ],
       "example": {
         "word": "alms",
         "text": "The church gave alms to poor families."
       },
       "exampleSynonym": {
-        "word": "charity",
-        "text": "The church gave charity to poor families."
+        "word": "gifts",
+        "text": "The church gave gifts to poor families."
       }
     }
   },
@@ -10792,18 +10793,18 @@
     "entry": "although",
     "remove": [],
     "set": {
-      "definition": "Despite the fact that; used to show a contrast.",
+      "definition": "Even though something is true.",
       "synonyms": [
-        "though",
-        "even though"
+        "even though",
+        "though"
       ],
       "example": {
         "word": "although",
         "text": "Although it was late, they kept working."
       },
       "exampleSynonym": {
-        "word": "though",
-        "text": "Though it was late, they kept working."
+        "word": "even though",
+        "text": "Even though it was late, they kept working."
       }
     }
   },
@@ -164642,7 +164643,7 @@
     "remove": [],
     "set": {
       "word": "girl",
-      "definition": "An informal term for a young woman.",
+      "definition": "A young woman. People often use this word casually.",
       "synonyms": [
         "young woman"
       ],
@@ -171075,7 +171076,10 @@
         "text": "The ball brushed his arm as it flew past."
       },
       "situacion": "deportes"
-    }
+    },
+    "unset": [
+      "translation"
+    ]
   },
   {
     "entry": "grazer",
@@ -187328,17 +187332,17 @@
     "entry": "ibidem",
     "remove": [],
     "set": {
-      "definition": "In a citation, used to show that the source is the same as the one just cited.",
+      "definition": "Marks the same source as the previous citation.",
       "synonyms": [
         "ibid."
       ],
       "example": {
         "word": "ibidem",
-        "text": "The citation ends with ibidem."
+        "text": "The citation uses ibidem for the source listed just above."
       },
       "exampleSynonym": {
         "word": "ibid.",
-        "text": "The citation ends with ibid."
+        "text": "The citation uses ibid. for the source listed just above."
       }
     }
   },
@@ -187365,7 +187369,7 @@
     "entry": "ick",
     "remove": [],
     "set": {
-      "definition": "An exclamation used to show disgust.",
+      "definition": "Said when something disgusts you.",
       "synonyms": [
         "ew",
         "ugh",
@@ -204397,7 +204401,7 @@
     "entry": "jesus-christ",
     "remove": [],
     "set": {
-      "definition": "An expression used to show strong surprise, anger, or other emotion.",
+      "definition": "Said to show strong surprise, anger, or another strong feeling.",
       "synonyms": [
         "good heavens",
         "oh my God"
@@ -205758,18 +205762,18 @@
     "entry": "jumpy",
     "remove": [],
     "set": {
-      "definition": "Informal: nervous or worried, especially because of fear or uncertainty.",
+      "definition": "Nervous or worried, especially about what may happen. People use it informally.",
       "synonyms": [
         "nervous",
         "anxious"
       ],
       "example": {
         "word": "jumpy",
-        "text": "She felt jumpy in the dark house."
+        "text": "The investors felt jumpy after the market fell."
       },
       "exampleSynonym": {
         "word": "nervous",
-        "text": "She felt nervous in the dark house."
+        "text": "The investors felt nervous after the market fell."
       }
     }
   },
@@ -206585,7 +206589,7 @@
     "entry": "keto",
     "remove": [],
     "set": {
-      "definition": "Informal: following or involving a diet with very few carbohydrates and more fat.",
+      "definition": "Following a diet with very few carbs and more fat.",
       "synonyms": [
         "low-carb diet"
       ],
@@ -206594,8 +206598,8 @@
         "text": "She follows a keto diet."
       },
       "exampleSynonym": {
-        "word": "low-carbohydrate",
-        "text": "She follows a low-carbohydrate diet."
+        "word": "low-carb diet",
+        "text": "She follows a low-carb diet."
       }
     }
   },
@@ -233119,7 +233123,16 @@
     "set": {
       "synonyms": [
         "psychiatrist"
-      ]
+      ],
+      "definition": "A psychiatrist. People use “shrink” in casual speech.",
+      "example": {
+        "word": "shrink",
+        "text": "He spoke to a shrink about his anxiety."
+      },
+      "exampleSynonym": {
+        "word": "psychiatrist",
+        "text": "He spoke to a psychiatrist about his anxiety."
+      }
     }
   },
   {
@@ -264056,18 +264069,18 @@
     "entry": "wokeism",
     "remove": [],
     "set": {
-      "definition": "Informal term for ideas or activism about social injustice, often used critically.",
+      "definition": "Ideas or activism about social injustice. Critics sometimes use this word to dismiss these ideas.",
       "synonyms": [
-        "wokery (informal, often critical)",
-        "term for “woke” politics or activism"
+        "woke ideas",
+        "woke politics"
       ],
       "example": {
         "word": "wokeism",
-        "text": "The article used “wokeism” as a critical label."
+        "text": "The article criticized wokeism in schools."
       },
       "exampleSynonym": {
-        "word": "wokery",
-        "text": "The article used “wokery” as a critical label."
+        "word": "woke ideas",
+        "text": "The article criticized woke ideas in schools."
       }
     }
   },
@@ -264150,19 +264163,19 @@
     "entry": "womanizer",
     "remove": [],
     "set": {
-      "definition": "Disapproving term for a man who seeks many brief sexual relationships.",
+      "definition": "A man who often has short sexual relationships with women. People use this word as an insult.",
       "synonyms": [
+        "man who dates many women",
         "philanderer",
-        "seducer",
-        "Don Juan"
+        "seducer"
       ],
       "example": {
         "word": "womanizer",
-        "text": "The novel portrays him as a charming womanizer."
+        "text": "His friends call him a womanizer."
       },
       "exampleSynonym": {
-        "word": "philanderer",
-        "text": "The novel portrays him as a charming philanderer."
+        "word": "man who dates many women",
+        "text": "His friends call him a man who dates many women."
       }
     }
   },
@@ -266823,7 +266836,7 @@
     "entry": "yup",
     "remove": [],
     "set": {
-      "definition": "An informal way to say yes.",
+      "definition": "Yes, said casually.",
       "synonyms": [
         "yes",
         "yeah"
@@ -270133,6 +270146,65 @@
       "exampleSynonym": {
         "word": "arrest of blood flow",
         "text": "The surgeon used a clamp to create arrest of blood flow in the organ."
+      }
+    }
+  },
+  {
+    "entry": "pill",
+    "remove": [],
+    "set": {
+      "definition": "A small, solid dose of medicine that you swallow. Informally, a tablet or capsule.",
+      "synonyms": [
+        "tablet",
+        "capsule",
+        "medicinal pill"
+      ],
+      "example": {
+        "word": "pill",
+        "text": "She took the pill with a glass of water."
+      },
+      "exampleSynonym": {
+        "word": "tablet",
+        "text": "She took the tablet with a glass of water."
+      }
+    }
+  },
+  {
+    "entry": "ripoff",
+    "remove": [],
+    "set": {
+      "definition": "An unfair deal or price. Also, a scam or a copy of another work or product.",
+      "synonyms": [
+        "overpriced deal",
+        "scam",
+        "rip-off"
+      ],
+      "example": {
+        "word": "a ripoff",
+        "text": "He thought the repair shop’s estimate was a ripoff."
+      },
+      "exampleSynonym": {
+        "word": "overpriced deal",
+        "text": "He thought the repair shop’s estimate was an overpriced deal."
+      }
+    }
+  },
+  {
+    "entry": "snoop",
+    "remove": [],
+    "set": {
+      "definition": "To secretly look for information about someone or something. Often, it means prying into someone's private affairs and sounds disapproving.",
+      "synonyms": [
+        "pry",
+        "nose around"
+      ],
+      "example": {
+        "word": "snoop",
+        "text": "He tried not to snoop through his colleague’s private messages."
+      },
+      "exampleSynonym": {
+        "word": "pry",
+        "text": "He tried not to pry into his colleague’s private messages."
       }
     }
   }

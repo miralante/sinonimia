@@ -1964,19 +1964,31 @@ html[data-lang="en"] .page-privacidad span[data-lang-block="en"] { display: inli
    share it). The colour is the app's pill colour, from its tokens. */
 .suite-chrome-controls .stars {
   flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
   min-height: 0;
   margin: 0;
   padding: 2px 8px;
   font-size: var(--suite-stars-size, 18px);
+  font-weight: var(--weight-strong, 700);
+  color: var(--color-star, inherit);
   line-height: 1.3;
   white-space: nowrap;
   border-radius: 999px;
   background: var(--accent-2-soft, var(--acento-2-suave, var(--accent-soft, #F7EFDD)));
 }
 
-.suite-chrome-controls .stars .stars-icon,
-.suite-chrome-controls .stars .stars-count {
+/* The number and the star share the counter's size. The number takes the app's display
+   face when it has one; a decorative symbol on the star belongs to the app, not here. */
+.suite-chrome-controls .stars .stars-count,
+.suite-chrome-controls .stars .stars-star {
   font-size: inherit;
+}
+
+.suite-chrome-controls .stars .stars-count {
+  font-family: var(--font-display, inherit);
+  font-weight: 800;
 }
 
 .suite-chrome-footer {

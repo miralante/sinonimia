@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const ROOT = path.resolve(__dirname, '..', '..', '..', '..');
 const MERGE_FILE = path.join(ROOT, 'scripts', 'ingest', 'pipeline', 'decisions', 'synonym-merges-');
+const SEARCH_ALIAS_FILE = path.join(ROOT, 'scripts', 'ingest', 'pipeline', 'decisions', 'search-alias-merges-');
 const { loadEditorialExclusions, normalizeWord: normalizeExclusionWord } = require('./editorial-exclusions');
 
 function normalize(value) {
@@ -15,9 +16,12 @@ function applySynonymMerges(dictionaries) {
   const redirects = {};
   const premergedCorrections = {};
   const mergedHeadwords = {};
+  const searchAliasDecisions = {};
   for (const lang of Object.keys(dictionaries)) {
     const file = MERGE_FILE + lang + '.json';
     const decisions = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : [];
+    const aliasFile = SEARCH_ALIAS_FILE + lang + '.json';
+    searchAliasDecisions[lang] = fs.existsSync(aliasFile) ? JSON.parse(fs.readFileSync(aliasFile, 'utf8')) : [];
     redirects[lang] = new Map();
     premergedCorrections[lang] = new Set();
     mergedHeadwords[lang] = new Map();
@@ -26,6 +30,9 @@ function applySynonymMerges(dictionaries) {
         redirects[lang].set(aliasId, decision.canonical);
         premergedCorrections[lang].add(aliasId);
       }
+    }
+    for (const decision of searchAliasDecisions[lang]) {
+      for (const alias of decision.aliases || []) redirects[lang].set(alias.id, decision.canonical);
     }
   }
 
@@ -100,6 +107,46 @@ function applySynonymMerges(dictionaries) {
       }
     }
 
+    // Search-only redirects are deliberately separate from synonym merges:
+    // the source headword is searchable from the canonical entry without
+    // being presented as an interchangeable word in the UI or games.
+    for (const decision of searchAliasDecisions[lang]) {
+      const canonical = byId.get(decision.canonical);
+      if (!canonical || removed.has(decision.canonical) || !Array.isArray(decision.aliases) ||
+          !decision.aliases.length || typeof decision.reason !== 'string' || !decision.reason.trim()) {
+        throw new Error(`${lang}: invalid search-alias merge for ${decision.canonical}`);
+      }
+      const aliasIds = new Set(decision.aliases.map(aliasDecision => aliasDecision.id));
+      canonical.searchAliases = canonical.searchAliases || [];
+      const existing = new Set(canonical.searchAliases.map(normalize));
+      for (const aliasDecision of decision.aliases) {
+        const alias = byId.get(aliasDecision.id);
+        if (!alias || alias === canonical || removed.has(alias.id) || !Array.isArray(aliasDecision.forms)) {
+          throw new Error(`${lang}: invalid or overlapping search-alias merge ${canonical.id} <- ${aliasDecision.id}`);
+        }
+        const declaredForms = new Set(aliasDecision.forms.map(normalize));
+        const requiredForms = [alias.word, ...(alias.searchAliases || []), ...(alias.synonyms || [])]
+          .map(normalize).filter(Boolean);
+        if (requiredForms.some(form => !declaredForms.has(form))) {
+          throw new Error(`${lang}/${alias.id}: search-alias decision must explicitly include its headword, search aliases, and synonyms in forms`);
+        }
+        for (const form of aliasDecision.forms) {
+          const key = normalize(form);
+          if (!key || key === normalize(canonical.word)) continue;
+          const wordCollision = entries.find(entry => normalize(entry.word) === key &&
+            entry.id !== canonical.id && !aliasIds.has(entry.id));
+          if (wordCollision) {
+            throw new Error(`${lang}/${canonical.id}: search alias "${form}" is also a headword (${wordCollision.id})`);
+          }
+          if (!existing.has(key)) {
+            canonical.searchAliases.push(form);
+            existing.add(key);
+          }
+        }
+        removed.add(alias.id);
+      }
+    }
+
     dictionaries[lang] = entries.filter(entry => !removed.has(entry.id));
     const survivingById = new Map(dictionaries[lang].map(entry => [entry.id, entry]));
 
@@ -150,6 +197,13 @@ function applySynonymMerges(dictionaries) {
     const { decisions: exclusions } = loadEditorialExclusions(lang);
     if (exclusions.length) {
       const excludedIds = new Set();
+      const correctionsById = new Map();
+      const correctionFile = path.join(ROOT, 'scripts', 'ingest', 'pipeline', 'decisions', `synonym-corrections-${lang}.json`);
+      if (fs.existsSync(correctionFile)) {
+        for (const correction of JSON.parse(fs.readFileSync(correctionFile, 'utf8'))) {
+          correctionsById.set(correction.entry, correction);
+        }
+      }
       for (const exclusion of exclusions) {
         const entry = byId.get(exclusion.id);
         if (removed.has(exclusion.id)) {
@@ -159,7 +213,11 @@ function applySynonymMerges(dictionaries) {
         // the source shards. Keep the decision as history and treat it as
         // satisfied instead of making every dictionary load fail.
         if (!entry) continue;
-        if (normalizeExclusionWord(entry.word || entry.palabra) !== normalizeExclusionWord(exclusion.word)) {
+        // An exclusion can refer to the editorially corrected headword, even
+        // though applying that correction is skipped for excluded entries.
+        const correctedWord = correctionsById.get(exclusion.id)?.set?.word;
+        const acceptedWords = [entry.word || entry.palabra, correctedWord].filter(Boolean);
+        if (!acceptedWords.some(word => normalizeExclusionWord(word) === normalizeExclusionWord(exclusion.word))) {
           throw new Error(`${lang}: editorial exclusion word does not match entry ${exclusion.id}`);
         }
         excludedIds.add(exclusion.id);

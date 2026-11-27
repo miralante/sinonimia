@@ -14,8 +14,8 @@
 {const i=d.findIndex(e=>e.id==="catastral");if(i>=0)d[i].exampleSynonym.word="relativa al catastro";}
 {const i=d.findIndex(e=>e.id==="cesante");if(i>=0)d[i].exampleSynonym.word="desempleadas";}
 {const i=d.findIndex(e=>e.id==="cervical");if(i>=0)d[i].exampleSynonym.word="relativa al cuello";}
-{const i=d.findIndex(e=>e.id==="clandestino");if(i>=0)d[i].example.word="clandestina";}
-{const i=d.findIndex(e=>e.id==="clandestino");if(i>=0)d[i].exampleSynonym.word="oculta";}
+{const i=d.findIndex(e=>e.id==="clandestino");if(i>=0)d[i].example.word="clandestino";}
+{const i=d.findIndex(e=>e.id==="clandestino");if(i>=0)d[i].exampleSynonym.word="oculto";}
 {const i=d.findIndex(e=>e.id==="colegiado");if(i>=0)d[i].example.word="colegiada";}
 {const i=d.findIndex(e=>e.id==="consular");if(i>=0)d[i].exampleSynonym.word="relativa al consulado";}
 {const i=d.findIndex(e=>e.id==="cuatrimestre");if(i>=0)d[i].exampleSynonym.word="periodos de cuatro meses";}
@@ -48,8 +48,8 @@
 {const i=d.findIndex(e=>e.id==="exonerar");if(i>=0)d[i].example.word="exonera";}
 {const i=d.findIndex(e=>e.id==="exonerar");if(i>=0)d[i].exampleSynonym.word="exime";}
 {const i=d.findIndex(e=>e.id==="transgenico");if(i>=0)d[i].example.word="transgénica";}
-{const i=d.findIndex(e=>e.id==="clinico");if(i>=0)d[i].example.word="clínica";}
-{const i=d.findIndex(e=>e.id==="clinico");if(i>=0)d[i].exampleSynonym.word="relativa a la atención clínica";}
+{const i=d.findIndex(e=>e.id==="clinico");if(i>=0)d[i].example.word="clínico";}
+{const i=d.findIndex(e=>e.id==="clinico");if(i>=0)d[i].exampleSynonym.word="médico";}
 {const i=d.findIndex(e=>e.id==="inembargable");if(i>=0)d[i].exampleSynonym.word="exenta de embargo";}
 {const i=d.findIndex(e=>e.id==="neurovascular");if(i>=0)d[i].exampleSynonym.word="relativos a nervios y vasos sanguíneos";}
 {const i=d.findIndex(e=>e.id==="superpotencia");if(i>=0)d[i].exampleSynonym.word="potencias mundiales de alcance excepcional";}

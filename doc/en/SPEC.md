@@ -210,6 +210,16 @@ Merge entries only when they describe the same sense. A synonym that overlaps
 only in one of several meanings, or two entries with different definitions,
 keeps separate entries. Homonyms follow the rule above.
 
+Regular grammatical variants do not need their own entries: use the base
+headword (for example, a verb's infinitive) and make searched forms lead to
+that entry. Derived words with a shared root are **review candidates only**.
+A shared root does not prove they express the same concept: keep a separate
+entry when the derived word names a different person, action, quality, or
+specialized use that deserves its own explanation. When a derivation is
+omitted as redundant, record it as a search alias, not as a teaching synonym.
+Suffix-based tools may suggest families, but must never merge them
+automatically.
+
 ## Persuasive communication in service of learning
 
 Sinonimia is a comprehension tool, not a consumer product. Its
@@ -424,6 +434,12 @@ one to remember; that document is the one to follow when actually
 adding the language.
 
 ## Process for expanding content
+
+**Editorial exclusion:** do not add animal or plant entries (fichas of
+animals, plants, fungi or their species names). Sinonimia covers
+public administration, justice, health and everyday vocabulary, not
+natural history. Reject such candidates during ingestion (§A.2.2 of
+`CLAUDE.md`), and remove any that already exist.
 
 Writing an easy-read definition needs human judgment — it can't be
 templated without it showing (that's why `scripts/check.js` checks the

@@ -72,7 +72,7 @@ Esta es la regla editorial más importante (ver [`SPEC.md`](SPEC.md)
 "Proceso para ampliar el contenido"). Sinonimia **no traduce
 palabra por palabra** entre diccionarios: cada idioma elige las
 palabras que son genuinamente difíciles **en ese idioma**. Un
-término burocrático español sin equivalente inglés (y al revés) es
+término técnico o burocrático español sin equivalente inglés (y al revés) es
 un caso normal y esperado.
 
 Al añadir una voz, consulta también el diccionario del otro idioma. Si ya
@@ -97,184 +97,212 @@ debe cumplir:
 Estas reglas aplican por igual a la frase de ejemplo y a la
 traducción opcional.
 
-## 3. Cómo encontrar palabras candidatas
+## 3. Cómo crear una entrada
 
-Antes de escribir una entrada hace falta una palabra candidata real.
-Esta sección explica dónde buscarlas, qué aporta cada fuente y qué
-criterios debe cumplir una palabra para aceptarse. **Una fuente solo
-propone palabras: nunca decide por sí sola que una palabra merece una
-entrada** — eso siempre requiere criterio editorial, que puede aplicar una persona o un agente de IA.
+Para descubrir candidatas, consulta la [guía de fuentes](guia-fuentes.md).
+Antes de redactar una ficha, comprueba que la palabra no esté excluida ni
+cubierta ya en el diccionario o en la categoría.
 
-Para no duplicar palabra, sinónimo ni escenario de ejemplo, consulta
-primero lo que ya existe en la categoría que te interesa:
+Antes de aceptar una candidata, sigue este orden para no repetir una
+decisión editorial ni duplicar contenido:
 
-```sh
-node scripts/content-status.js
-node scripts/content-status.js --detalle --categoria {categoria} --lang {idioma}
-```
+1. **Comprueba las exclusiones.** Busca la palabra en
+   `scripts/ingest/pipeline/filters/rejected-words-{idioma}.txt` y en
+   `scripts/ingest/pipeline/decisions/editorial-exclusions-{idioma}.json`.
+   Puedes buscarla en ambos archivos con:
+
+   ```sh
+   rg -ni --fixed-strings -- "{palabra}" scripts/ingest/pipeline/filters/rejected-words-{idioma}.txt scripts/ingest/pipeline/decisions/editorial-exclusions-{idioma}.json
+   ```
+
+   La primera lista contiene palabras rechazadas; el archivo JSON registra
+   exclusiones de fichas concretas. Si una decisión afecta a otra acepción
+   del mismo lema, no la apliques automáticamente a la candidata: compara
+   el `id`, la definición y el motivo.
+2. **Busca la palabra como lema y como sinónimo en el diccionario del
+   idioma.** El informe detallado permite localizar coincidencias sin abrir
+   los grandes archivos de datos:
+
+   ```sh
+   node scripts/content-status.js --detalle --lang {idioma} | rg -i --fixed-strings "{palabra}"
+   ```
+
+   **Precaución:** una coincidencia puede estar en el campo del lema o en la
+   lista de sinónimos. Revisa cuál de los dos campos coincide antes de decidir
+   que la palabra no está en el diccionario. Si aparece como lema, comprueba
+   si la ficha ya cubre la misma acepción o si la candidata propone otra que
+   merezca entrada propia. Si aparece como sinónimo, revisa a qué ficha
+   pertenece: la palabra ya se puede encontrar desde esa ficha, pero quizá
+   necesite una entrada propia si aporta una acepción o información distinta.
+   Una coincidencia en un ejemplo tampoco equivale a una entrada ni a un
+   sinónimo. No descartes ni dupliques la candidata sin revisar el tipo de
+   coincidencia.
+3. **Revisa la categoría.** Busca posibles solapamientos de concepto,
+   sinónimos y escenarios de ejemplo en la categoría donde iría la nueva
+   ficha:
+
+   ```sh
+   node scripts/content-status.js --detalle --categoria {categoria} --lang {idioma}
+   ```
 
 No abras `js/data.{idioma}.js` directamente: son archivos muy grandes.
 
-### 3.1 Fuentes y para qué sirve cada una
+### 3.1 Criterios para aceptar una palabra
 
-| Fuente | Qué aporta | Cómo se usa |
-|---|---|---|
-| [Kaikki.org](https://kaikki.org/) | Extracto de Wikcionario: lemas en español (`lang_code === "es"`), formas flexionadas y una señal de nombre propio (`pos: "name"`). | Base de `es_list_clean.js` y del filtro de nombres propios de la ingesta (`proper-noun-check.js`). |
-| [FrequencyWords](https://github.com/hermitdave/FrequencyWords) | Frecuencia de uso general (OpenSubtitles). | Prioriza candidatos; cacheado en `scripts/download/freq-es.txt`. |
-| [Wikimedia](https://dumps.wikimedia.org/eswiktionary/latest/) | Títulos del Wikcionario español en bruto. | Amplía la cobertura de palabras de Kaikki. No es solo español (el Wikcionario ES incluye páginas de otras lenguas), por eso siempre se combina con el filtro `lang_code === "es"` de Kaikki. Conserva la licencia [CC BY-SA](https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use). |
-| [ARASAAC](https://api.arasaac.org/) | Banco de pictogramas. | Pictogramas de cada entrada, y también fuente directa de candidatos ya ilustrados (método D). |
-| [OpenSymbols](https://www.opensymbols.org/) | Agregador de varios bancos de símbolos con licencia abierta (ARASAAC, Sclera, Mulberry...) tras una sola API. | Primera opción de `search-pictogram.js` (con `OPENSYMBOLS_SECRET`); si no hay resultados, cae a ARASAAC. Cada banco tiene su propia licencia — revísala en cada resultado antes de usarlo. |
-| [Wikipedia](https://www.wikipedia.org/) | Categorías temáticas (jurídico, médico, financiero...). | Lista de términos agrupados por tema (método E). |
-| [listapalabras.com](https://www.listapalabras.com/) | Lista alfabética de 87.363 cabeceras españolas únicas (no cubre `Ñ`). | Universo de palabras sin categoría propia. `es-candidates-listapalabras.js` filtra solo por criterios de dificultad (criterios 1-5: forma válida, no cubierta, no nombre propio, no demasiado común, no ya rechazada) — nunca por categoría de dominio (ver nota 2026-09-09 sobre el criterio 6 más abajo). El resultado son ~66.600 candidatas reales, ordenadas con una pista de raíz/sufijo (no un filtro) para revisar primero las de mayor señal. Procesada por completo — detalle en la sección listapalabras.com de `scripts/ingest/PROGRESS.md`. |
+Evalúa cada palabra **por separado y en su acepción concreta**. Aplica estos
+pasos tanto a candidatas de cualquier fuente como a fichas que ya existen.
 
-### 3.2 Criterios para aceptar una palabra
+#### 1. Confirma que la palabra es válida
 
-**Comprobación léxica obligatoria por idioma:** tras comprobar que la
-palabra aún no existe como entrada propia en Sinonimia, valida cada
-candidata nueva en el diccionario externo correspondiente: [RAE/DLE](https://dle.rae.es/)
-para `es` o [Collins English
-Dictionary](https://www.collinsdictionary.com/dictionary/english) para
-`en`, pasando la palabra en la ruta
-`https://www.collinsdictionary.com/dictionary/english/<word>`. Confirma
-que existe el lema o una variante reconocida y que la acepción
-corresponde al uso propuesto. Es un requisito para aceptar la palabra en la ingesta, no
-una consulta opcional ni una simple ayuda de redacción. Si no aparece
-una entrada verificable, descártala; solo vuelve a evaluarla si
-corriges la forma y obtienes una entrada comprobable. No copies la
-definición del diccionario externo.
+- Debe estar documentada, ser válida y tener un uso actual que la persona
+  pueda encontrar. Descarta voces arcaicas, en desuso, raras, poco conocidas
+  o de uso muy limitado, aunque aparezcan en un diccionario. Que una palabra
+  sea técnica no basta para descartarla: conserva los términos actuales y
+  útiles que aparecen en documentos reales del ámbito de Sinonimia.
+- Comprueba cada candidata nueva en el diccionario del idioma:
+  [RAE/DLE](https://dle.rae.es/) para `es` o [Collins English
+  Dictionary](https://www.collinsdictionary.com/dictionary/english) para
+  `en` (usa la ruta
+  `https://www.collinsdictionary.com/dictionary/english/<word>` para
+  Collins). Confirma que el lema o una variante reconocida existe y que
+  documenta la acepción propuesta. Esta comprobación es obligatoria para
+  aceptar una palabra durante la ingesta; no es una ayuda opcional de
+  redacción. Si no encuentras una entrada verificable, descártala. Solo
+  vuelve a evaluarla si corriges la forma y confirmas la corrección en el
+  diccionario. No copies su definición.
+- Descarta formas inventadas o inválidas. Una errata solo se puede revisar
+  de nuevo después de corregirla y verificar la forma correcta.
+- No incluyas adverbios como entradas independientes. Descarta también
+  palabras gramaticales o funcionales —como preposiciones, conjunciones,
+  determinantes y partículas— cuando solo expresan una relación, un grado o
+  una circunstancia y no aportan un significado léxico que necesite
+  explicación. Aplica el criterio a la acepción concreta: si un lema tiene
+  además un sentido independiente de otra categoría, evalúalo por separado.
+- Conserva el infinitivo, no las formas verbales conjugadas. Descarta
+  plurales y formas con pronombre enclítico si no tienen entrada propia.
+- Descarta los numerales y ordinales cuando la ficha solo expresa un número
+  o un orden. Evalúa por separado otros sentidos independientes del mismo
+  lema.
+- Descarta nombres propios (personas, apellidos, ciudades, países y marcas)
+  y gentilicios, aunque aparezcan en el diccionario de referencia:
+  DLE para español o Collins para inglés.
+- La definición debe corresponder a la acepción documentada. Si es errónea,
+  retira la ficha; solo consérvala si corriges la definición y confirmas que
+  refleja fielmente una acepción vigente.
 
-**Filtros excluyentes antes de aceptar la candidata:**
+#### 2. Comprueba que necesita explicación
 
-- Descarta las palabras y acepciones que ya sean fáciles por sí mismas:
-  familiares, comunes, concretas y transparentes, o acciones básicas que
-  la persona destinataria probablemente ya entiende. Aplica este criterio
-  a candidatas de todas las fuentes, igual que los demás filtros. La
-  frecuencia es una señal para detectarlas, no el único criterio; una
-  palabra frecuente puede tener una acepción difícil que sí merece entrada.
-- Descarta las palabras que nombran plantas, árboles, frutas o animales,
-  incluidos los términos que designan una especie o un grupo taxonómico de
-  esos organismos. Son vocabulario de conocimiento natural fuera del alcance
-  de este diccionario. Aplica el filtro por el significado de cada ficha, no
-  por coincidencias parciales del lema. Conserva una acepción distinta que
-  sea abstracta, médica o propia de los ámbitos del diccionario cuando nombre
-  un proceso, una afección o un concepto independiente, no el organismo ni su
-  grupo (por ejemplo, una enfermedad causada por un animal).
-- Descarta las formas verbales conjugadas; conserva solo el infinitivo
-  correspondiente.
-- Descarta palabras inventadas o inválidas que no tengan una entrada
-  verificable en el DLE. Una errata solo puede volver a evaluarse tras
-  corregirla y confirmar la forma correcta en el diccionario.
-- Descarta los gentilicios, aunque aparezcan en el DLE.
-- No insertes una entrada con una definición errónea o que describa
-  otra acepción. Corrígela y vuelve a comprobarla; si no puede quedar
-  fiel a la acepción documentada, descarta la entrada.
+- **Persona de referencia:** el objetivo interno de Sinonimia es apoyar a
+  personas con discapacidad intelectual que aprenden vocabulario, a menudo
+  en terapia ocupacional. La web también sirve a cualquier persona que se
+  encuentre una palabra difícil. No presupongas conocimientos previos: la
+  persona debe poder entender la explicación a la primera, con palabras
+  conocidas y, cuando ayude, un pictograma. Para valorar la dificultad,
+  piensa en alguien que entiende palabras y situaciones cotidianas, pero
+  puede necesitar ayuda con vocabulario especializado, técnico o burocrático.
+- **Pregunta de decisión:** ¿es probable que la persona entienda esta palabra
+  y esta acepción sin ayuda? Si sí, no hace falta una ficha. Descarta palabras
+  y acepciones familiares, comunes, concretas y transparentes, así como
+  acciones básicas que probablemente ya comprende. Si necesita que Sinonimia
+  se lo explique, puede ser candidata.
+- Valora la dificultad de la **palabra y de la acepción**, no lo fácil que
+  resulte redactar su explicación. Una palabra puede ser frecuente y tener
+  una acepción difícil que sí merece ficha. Conserva también términos
+  abstractos o intangibles, como *leyenda* o *garantía*.
+- La frecuencia y CEFRLex/ELELex son señales para orientar la revisión, no
+  reglas automáticas. Que un término técnico no aparezca en CEFRLex/ELELex
+  no lo invalida. El filtro `scripts/ingest/pipeline/filters/common-words.js`
+  ayuda en la ingesta masiva del método C de la [guía de fuentes](guia-fuentes.md#2-métodos-de-búsqueda), pero no limita el criterio
+  editorial.
 
-Aplica el mismo criterio de dificultad al revisar fichas ya existentes.
-Registra las exclusiones aprobadas con su `id`, lema y motivo en
-`scripts/ingest/pipeline/decisions/editorial-exclusions-es.json`. La decisión
-se respeta al reconstruir el diccionario y al volver a minar o ingerir
-candidatas; excluir una ficha no crea sinónimos ni redirecciones de búsqueda.
+#### 3. Decide si necesita una entrada propia
 
-1. **Válida y real.** Documentada en uso actual; descarta arcaísmos, dialectalismos y préstamos raros.
-2. **Difícil para la persona destinataria.** La candidata debe ser una palabra que probablemente no entienda por sí sola y necesite que Sinonimia le explique. Este criterio se aplica a todas las fuentes; la frecuencia y CEFRLex/ELELex aportan señales, pero la revisión editorial determina si la palabra y la acepción son realmente difíciles. Puede hacerla una persona o un agente de IA, con los mismos criterios. La ausencia de una palabra técnica en CEFRLex/ELELex no la invalida. Conserva términos abstractos o intangibles (como *leyenda* o *garantía*) y acepciones difíciles de palabras frecuentes, aunque la palabra tenga otros usos sencillos. Evalúa la dificultad de la palabra y de la acepción candidatas, no la facilidad de redactar su explicación. El filtro automático `scripts/ingest/pipeline/filters/common-words.js` ayuda en la ingesta masiva del método C; no limita el alcance del criterio editorial.
-3. **Lema independiente.** No admitas formas verbales conjugadas:
-   conserva solo el infinitivo. Descarta también plurales y formas con
-   pronombre enclítico que no tengan entrada propia.
-4. **Sin nombres propios ni gentilicios.** Personas, apellidos,
-   ciudades, países, marcas y nombres de sus habitantes o naturales.
-5. **La cobertura conceptual no invalida una forma léxica independiente.** No descartes una palabra solo porque expresa el mismo concepto que otra entrada. Si la persona tipo puede encontrarse esa palabra concreta en un documento real y todavía no tiene una entrada propia, puede ser candidata aunque ya aparezca como sinónimo o en un ejemplo. `Tetrapléjico` no debe desaparecer por existir `Cuadripléjico`: son formas léxicas que el usuario puede buscar literalmente. Decide caso por caso entre una entrada propia y un sinónimo; usa un sinónimo para una variante menor o una reformulación, pero crea entrada propia cuando la palabra independiente necesite su propia explicación, categoría, ejemplo o forma gramatical. El buscador de la app indexa `palabra`, definición y sinónimos (`matchesSearch` en `js/app.js`), pero que una búsqueda llegue a una entrada relacionada no significa que la palabra ya esté explicada con la claridad adecuada. Un segundo significado igual de difícil también es candidato legítimo — entrada nueva con su propio `id`/`situacion`/`definicion`, nunca una aclaración entre paréntesis en `palabra` (ver "Palabras con doble significado" en `SPEC.md`). Cuando se acepta una palabra, revisa todas sus acepciones difíciles, no solo la primera que aparezca. Por eso la minería automática descarta solo palabras cuyo lema ya es un `palabra` existente; las coincidencias que solo aparecen en sinónimos o ejemplos permanecen en la lista para revisión editorial.
-6. **Categoría: se asigna, no se filtra por ella.** Una palabra que cumple los criterios 1-5 se incorpora aunque hoy no exista una categoría AIVD que le encaje — no se rechaza ni se fuerza en la menos mala. Si ninguna encaja, ni siquiera `vida-diaria`, se propone una categoría nueva; no hace falta un grupo de candidatos parecidos, una sola palabra bien fundamentada basta. `vida-diaria` sigue siendo válido solo cuando de verdad es el mejor encaje, nunca el cajón donde meter lo que no tiene sitio. La decisión de crear la categoría es del mantenedor, pero la propuesta debe quedar explícita — nunca descartar la palabra en silencio. Los métodos de la sección 3.3 que usan una categoría para reducir una lista enorme (en particular E y F) son técnicas de *descubrimiento*, no el criterio de aceptación: que una palabra no aparezca en ninguna categoría cruzada no la descarta por dificultad, solo significa que esa técnica no la encontró. Y en dirección contraria: la etiqueta de categoría con la que una palabra *sí* aparezca en el método E o F (p. ej. una Categoría de Wikipedia o Wikcionario llamada "Derecho") es una pista de dónde buscar, nunca la `situacion` final — revisa cada candidata por sí misma primero (criterios 1-5) y decide su categoría después, con este mismo criterio 6, aunque acabe siendo distinta de la etiqueta que la trajo hasta aquí.
-7. **Escenario propio.** No reutilices el mismo contexto de ejemplo dentro de una categoría.
-8. **Longitud orientativa.** 4-12 letras como heurística inicial, no como regla absoluta.
+- No descartes una forma léxica independiente solo porque comparte concepto
+  con otra ficha. Si la persona tipo puede encontrar esa palabra concreta
+  en un documento real y todavía no tiene entrada propia, puede merecerla
+  aunque ya aparezca como sinónimo o en un ejemplo. Por ejemplo,
+  `Tetrapléjico` puede tener entrada aunque exista `Cuadripléjico`: son
+  palabras que se pueden buscar literalmente.
+- Decide entre entrada y sinónimo según lo que necesite quien consulta:
+  usa un sinónimo para una variante menor o una reformulación; crea una
+  entrada cuando esa palabra necesite explicación, categoría, ejemplo o
+  forma gramatical propios. La búsqueda indexa la palabra, la definición y
+  los sinónimos (`matchesSearch` en `js/app.js`), pero encontrar una ficha
+  relacionada no garantiza que la palabra esté explicada con suficiente
+  claridad.
+- Revisa todas las acepciones difíciles de una palabra. Cada significado
+  independiente que cumpla los criterios puede tener su propia ficha, con
+  `id`, `situacion` y `definicion`; no lo añadas entre paréntesis al lema
+  (ver «Palabras con doble significado» en `SPEC.md`).
+- La minería automática descarta una palabra solo si su lema ya aparece en
+  el campo `palabra` de una entrada. Si aparece únicamente como sinónimo o
+  en un ejemplo, sigue siendo candidata para revisión editorial.
 
-Ningún filtro sustituye la revisión editorial de una persona o un agente de IA. Las coincidencias por subcadena en filtros temáticos producen falsos positivos: compartir letras con una raíz jurídica no implica relación semántica.
+#### 4. Comprueba el alcance y asigna la categoría
 
-Cuando la revisión editorial rechace una candidata, registra la palabra con
+- Descarta los sentidos que nombren plantas, árboles, frutas o animales,
+  incluidas especies y grupos taxonómicos: el vocabulario de conocimiento
+  natural queda fuera del alcance. Decide por el significado de la ficha,
+  no por coincidencias parciales del lema. Conserva una acepción distinta
+  que nombre un proceso, una afección o un concepto independiente dentro
+  del ámbito del diccionario (por ejemplo, una enfermedad causada por un
+  animal). Los filtros por subcadena pueden dar falsos positivos: compartir
+  letras con una raíz jurídica no demuestra relación semántica.
+- Descarta los sentidos cuyo uso esté limitado explícitamente a una región
+  o país. Comprueba la marca geográfica de la acepción, no solo el origen de
+  la palabra. Si una ficha mezcla un sentido regional con otro de uso general,
+  conserva solo el sentido general cuando sea independiente y difícil; si no,
+  retira la ficha. No incluyas un sentido local solo porque el diccionario lo
+  registre.
+- La categoría se **asigna después** de valorar la palabra; no sirve para
+  aceptarla o descartarla. Las categorías usadas por los métodos E y F de
+  la sección 3.3 ayudan a descubrir candidatas: que una palabra no aparezca
+  en una categoría cruzada no la invalida. Si aparece bajo una categoría de
+  Wikipedia o Wikcionario (por ejemplo, «Derecho»), tómala como pista, no
+  como su `situacion` final.
+- Si ninguna categoría actual encaja, propone una nueva, aunque solo haya
+  una candidata bien fundamentada. No la fuerces en la categoría menos
+  inadecuada. `vida-diaria` es válida cuando realmente encaja, no como cajón
+  de sastre. El mantenedor decide si crea la categoría y la propuesta debe
+  quedar explícita; no descartes la palabra en silencio.
+
+#### 5. Completa la ficha
+
+- Usa un escenario de ejemplo propio: no repitas el mismo contexto dentro
+  de una categoría.
+- Como orientación inicial, busca lemas de 4 a 12 letras. Es una heurística,
+  no una regla de aceptación.
+
+Ningún filtro sustituye la revisión editorial de una persona o un agente de
+IA; ambos deben aplicar los mismos criterios.
+
+Cuando rechaces una candidata, regístrala con
 `node scripts/ingest/pipeline/shared/record-rejection.js --lang <es|en> palabra`.
-Los filtros consultan esa lista para no volver a proponer una palabra ya
-descartada. El flujo y el estado de la ingesta están en
+Los filtros consultan esa lista para no volver a proponerla. Al excluir una
+ficha existente, registra su `id`, lema y motivo en
+`scripts/ingest/pipeline/decisions/editorial-exclusions-{idioma}.json`.
+Estas decisiones se respetan al reconstruir el diccionario y al volver a
+minar o ingerir candidatas; excluir una ficha no crea sinónimos ni
+redirecciones de búsqueda. Consulta el flujo y el estado de la ingesta en
 [`scripts/ingest/README.md`](../../scripts/ingest/README.md) y
 [`scripts/ingest/PROGRESS.md`](../../scripts/ingest/PROGRESS.md).
 
-### 3.3 Métodos de búsqueda
+### 3.2 Cómo incorporar los pictogramas
 
-**A. Corpus de dominio y *keyness*.** Método principal para cubrir una categoría concreta. Reúne 15-30 fragmentos reales en `dev/corpus/` (fuentes en la sección 3.5) y ejecuta:
-
-```sh
-node scripts/corpus-candidates.js dev/corpus/{categoria}-{idioma}.txt {idioma} 40
-```
-
-Compara la frecuencia del corpus con la lengua general y prioriza lo específico del dominio. Ha funcionado bien con contratos laborales, nóminas, finiquitos, facturas, escrituras, notas simples e hipotecas.
-
-**B. Glosarios de lenguaje claro.** Busca un glosario oficial que explique términos en lenguaje sencillo (sección 3.5 es punto de partida; verifica que siga disponible). No copies definiciones: redacta con palabras propias y conserva solo lo que encaje en Sinonimia.
-
-**C. Lista general de palabras, filtrada solo por dificultad.** Para ampliación amplia, no una categoría concreta. Combina fuentes de vocabulario general (Kaikki, Wikimedia, listapalabras.com, frecuencia) y filtra únicamente por los criterios 1-5 de la sección 3.2 (forma válida, no cubierta, no nombre propio, no demasiado común, no ya rechazada) — nunca por si una palabra aparece o no en una categoría de dominio externa, ver la nota 2026-09-09 sobre el criterio 6 al final de esta sección. Revisa el resultado palabra por palabra; una raíz o sufijo característico de un dominio (método F, o `shared/domain_stems.js`) puede usarse para decidir qué revisar primero, nunca para descartar el resto sin revisión. CEFRLex/ELELex no debe exigirse para vocabulario jurídico, médico o burocrático muy especializado: puede no aparecer en sus lecturas graduadas. Los scripts de las fuentes Kaikki/Wikimedia/frecuencia generales para inglés y español se retiraron 2026-09-09 al agotarse (ver `scripts/ingest/PROGRESS.md`); `es-candidates-listapalabras.js` es hoy la única implementación activa de este método.
-
-**D. ARASAAC como fuente de candidatos.**
-
-```text
-https://api.arasaac.org/api/pictograms/{idioma}/new/20000
-```
-
-Descarta `schematic: true`, cruza con `content-status.js` y revisa significado e imagen. El banco tiene mucho vocabulario cotidiano de CAA que hay que descartar. Categorías útiles: `law`, `financial services`, `public administration`, `disease`, `medical procedure`, `information technology`, `road safety`, `security and defense`.
-
-**E. Categorías de Wikipedia.**
-
-```text
-https://{es|en}.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:{categoria}&cmlimit=500&format=json
-```
-
-Pagina con `cmcontinue`, quita desambiguadores entre paréntesis, descarta listas y portales, revisa uso real. Las categorías de consumo concreto (contratos, impuestos, seguros, hipotecas, protección del consumidor, comercio electrónico) rinden más que las académicas amplias. No se usa `Categoría:Discapacidad` como fuente masiva.
-
-**F. Categorías de dominio de Wikcionario.** Wikipedia agrupa *artículos*, así que una palabra común con un único sentido técnico difícil casi nunca aparece. Wikcionario etiqueta cada *acepción* por dominio, y sí detecta estas palabras polisémicas:
-
-```text
-https://{es|en}.wiktionary.org/w/api.php?action=query&list=categorymembers&cmtitle=Categoría:ES:{dominio}&cmlimit=500&format=json
-```
-
-Un resultado solo confirma que *una acepción* cumple los criterios: comprueba cuál antes de redactar y escribe la entrada solo para ese sentido. También es la mejor forma de comprobar si una palabra ya cubierta tiene otro sentido que merezca entrada propia.
-
-**2026-09-09 (directiva del mantenedor): el script dedicado a este método
-(`wiktionary_candidates.js`, con su `PLAN`, `--list-categories` y
-`--exhaustive`) se retiró por completo del proyecto.** No porque
-consultar la API de categorías de Wikcionario esté mal — como
-*técnica de descubrimiento* para un lote acotado de palabras a revisar
-a mano sigue siendo legítima — sino porque en la práctica se estaba
-usando para lo contrario de lo que dice el criterio 6: su salida se
-cruzaba contra otras listas de palabras (`es-candidates-listapalabras.js`,
-el método C) como un **filtro de exclusión** que descartaba sin
-revisión cualquier palabra sin coincidencia de categoría, en vez de
-usarse solo para decidir el orden de revisión. El criterio editorial
-de Sinonimia es la dificultad real de la palabra (criterios 1-5), nunca
-si una categoría externa —inestable, incompleta e inconsistente entre
-ejecuciones, ver `scripts/ingest/PROGRESS.md`— la etiquetó o no. Si se
-retoma esta técnica en el futuro, debe construirse para *anotar* una
-lista de candidatas ya seleccionada por dificultad, nunca para
-seleccionarlas.
-
-### 3.4 Glosarios y corpus por categoría
-
-| Categoría | Glosarios ES / EN | Corpus ES / EN |
-|---|---|---|
-| `tramites` | Plan de Lenguaje Claro de la AGE / plainlanguage.gov | BOE, Hacienda, Seguridad Social / IRS, HMRC |
-| `salud` | MedlinePlus / MedlinePlus, NIH | Prospectos, altas hospitalarias, consentimientos |
-| `vida-diaria` | Plena Inclusión, Easy-to-Read Europe / ídem | Manuales, comunidad de vecinos, transporte público |
-| `finanzas` | Finanzas para Todos, CNMV / CFPB (EE. UU.) | Extractos, préstamos, productos bancarios |
-| `vivienda` | OCU / HUD (EE. UU.) | Alquiler, escrituras, hipotecas, suministros |
-| `trabajo` | SEPE / ACAS, US Department of Labor | Nóminas, contratos, bajas, convenios |
-| `legal` | Plan de Lenguaje Claro de Justicia / autoayuda de tribunales de EE. UU. | Sentencias, notificaciones, documentos notariales |
-| `tecnologia` | INCIBE, ONCE, IMSERSO / GCFGlobal, AARP | Ayuda de apps, condiciones de uso, smartphones |
-| `seguridad` | Protección Civil, 112, Cruz Roja / Ready.gov, OSHA | Evacuación, primeros auxilios |
-
-### 3.5 Advertencias sobre pictogramas
-
-El pictograma se revisa siempre a mano. La coincidencia literal con etiquetas puede devolver otro significado: una palabra de electricidad puede producir una silla de ruedas eléctrica, `cuentas` puede producir abalorios y `court` una pista de tenis.
-
-Si el pictograma elegido no viene de ARASAAC (por ejemplo, un resultado de OpenSymbols de otro banco), actualiza los créditos del pie con la licencia correspondiente.
+1. Busca el lema en [OpenSymbols](https://www.opensymbols.org/) con
+   `node scripts/search-pictogram.js "<lema>" <idioma>`. Si no encuentras
+   una imagen adecuada, prueba un sinónimo o una descripción breve; el
+   buscador también consulta ARASAAC como alternativa.
+2. Elige una imagen que represente el sentido de la ficha. Reutiliza el
+   `image.id` de otra entrada si ya tiene una imagen adecuada; si no, guarda
+   la imagen como `img/<id>.png` y asigna ese id y un texto alternativo breve
+   en el campo `image`.
+3. Si la imagen no es de ARASAAC, anota su banco, autoría y licencia, y
+   actualiza los créditos del pie en `js/i18n.js`.
 
 ## 4. Seguimiento de lotes (ingesta masiva)
 
-Cuando una de las técnicas de la sección 3.3 produce muchos
+Cuando uno de los métodos de la [guía de fuentes, sección 2](guia-fuentes.md#2-métodos-de-búsqueda) produce muchos
 candidatos de golpe (sobre todo los métodos C y F), las entradas
 resultantes se preparan como un **lote**
 (`scripts/ingest/batches/batch_<idioma>_<categoria>_<n>.js`) en vez
@@ -391,5 +419,7 @@ node scripts/check.js
   [`tecnico.md`](tecnico.md).
 - Reglas innegociables del producto:
   [`SPEC.md`](SPEC.md).
+- Guía de fuentes para buscar candidatas:
+  [`guia-fuentes.md`](guia-fuentes.md).
 - Catálogo de palabras y juegos:
   [`actividades.md`](actividades.md).

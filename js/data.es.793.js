@@ -2670,7 +2670,7 @@
   const DICCIONARIOS=globalThis.DICCIONARIOS;
   const updates={
     portegado:{definition:'Arcaísmo. Pórtico o espacio cubierto adosado a un edificio.'},
-    portrecho:{definition:'m. ant. Espacio o distancia.'},
+    portrecho:{definition:'Ant. Espacio o distancia.'},
     portulano:{definition:'Carta náutica medieval que representa costas, puertos y rumbos para la navegación.'},
     porteador:{definition:'Persona que tiene el oficio de portear mercancías de un lugar a otro por dinero.'},
     porteo:{definition:'Acción de portear o precio que se paga por transportar algo.'}
@@ -3177,7 +3177,7 @@
   pruriginoso:{definition:'Que produce prurito o picazón.'},
   prusico:{definition:'Quím. Relativo al ácido prúsico o cianhídrico.'},
   pseudopodo:{definition:'Biol. Prolongación temporal del citoplasma de una célula, como la de una ameba, que sirve para desplazarse o capturar alimento.'},
-  psicoactivo:{definition:'Que afecta a los procesos mentales o al sistema nervioso central.'},
+  psicoactivo:{definition:'Que obliga a alguien a cumplir algo, a menudo mediante presión.'},
   psicoanalisis:{definition:'Método de investigación y tratamiento psicológico, y conjunto de teorías sobre los procesos mentales inconscientes, iniciado por Sigmund Freud.'},
   psicoanalitico:{definition:'Relativo al psicoanálisis.'},
   psicoanalizar:{definition:'Aplicar métodos del psicoanálisis al estudio o tratamiento de una persona.'},
@@ -3366,7 +3366,7 @@
 ;(function(){
  const DICCIONARIOS=globalThis.DICCIONARIOS;
  const updates={
-  puntillon:{definition:'Coloq. Puntapié o golpe dado con la punta del pie.'},
+  puntillon:{definition:'Golpe dado con la punta del pie. Se usa en conversaciones informales.'},
   puntillosidad:{definition:'Cualidad de quien cuida con exceso los detalles o se aferra a formalidades y escrúpulos.'},
   puntilloso:{definition:'Excesivamente cuidadoso con los detalles o susceptible en asuntos de honor y amor propio.'},
   puntisecar:{definition:'Secar las puntas o los extremos de una planta; se usa también en forma pronominal.'},
@@ -7630,9 +7630,9 @@
 
 {const x={"id":"persignar-2","word":"Persignar","image":{"id":2450,"alt":"Una persona haciendo una señal religiosa."},"definition":"Hacer la señal de la cruz y santiguar después.","synonyms":["signar y santiguar","bendecir"],"example":{"word":"persignar","text":"El sacerdote decidió persignar y santiguar al enfermo."},"exampleSynonym":{"word":"signar y santiguar","text":"El sacerdote decidió signar y santiguar al enfermo."},"situacion":"sociedad"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
 
-{const x={"id":"persignar-3","word":"Persignar","image":{"id":2450,"alt":"Una persona asombrada."},"definition":"Coloquial. Asombrarse mucho o escandalizarse.","synonyms":["asombrarse","escandalizarse"],"example":{"word":"persignar","text":"Al ver el regalo, no pudo evitar persignarse."},"exampleSynonym":{"word":"asombrarse","text":"Al ver el regalo, no pudo evitar asombrarse."},"situacion":"sociedad"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+{const x={"id":"persignar-3","word":"Persignar","image":{"id":2450,"alt":"Una persona asombrada."},"definition":"Asombrarse mucho o escandalizarse. Se usa en conversaciones informales.","synonyms":["asombrarse","escandalizarse"],"example":{"word":"persignar","text":"Al ver el regalo, no pudo evitar persignarse."},"exampleSynonym":{"word":"asombrarse","text":"Al ver el regalo, no pudo evitar asombrarse."},"situacion":"sociedad"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
 
-{const x={"id":"persignar-4","word":"Persignar","image":{"id":2450,"alt":"Un puesto de mercado que vende fruta."},"definition":"Coloquial. Comenzar a vender.","synonyms":["vender por primera vez","iniciar las ventas"],"example":{"word":"persignó","text":"El puesto por fin se persignó con la primera venta del día."},"exampleSynonym":{"word":"vender por primera vez","text":"El puesto pudo vender por primera vez ese día."},"situacion":"trabajo"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
+{const x={"id":"persignar-4","word":"Persignar","image":{"id":2450,"alt":"Un puesto de mercado que vende fruta."},"definition":"Empezar a vender. Se usa en conversaciones informales.","synonyms":["empezar a vender","iniciar las ventas","vender por primera vez"],"example":{"word":"Persignar","text":"El puesto se persignó por primera vez el sábado."},"exampleSynonym":{"word":"empezar a vender","text":"El puesto empezó a vender por primera vez el sábado."},"situacion":"trabajo"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
 
 {const x={"id":"persistir-2","word":"Persistir","image":{"id":2450,"alt":"Un reloj que avanza con el paso del tiempo."},"definition":"Durar durante mucho tiempo.","synonyms":["perdurar","permanecer","continuar"],"example":{"word":"persistir","text":"La sequía puede persistir durante varios meses."},"exampleSynonym":{"word":"perdurar","text":"La sequía puede perdurar durante varios meses."},"situacion":"naturaleza"};const i=d.findIndex(q=>q.id===x.id);if(i<0)d.push(x);else d[i]=x;}
 

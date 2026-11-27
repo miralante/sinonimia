@@ -188,6 +188,16 @@ Solo se fusionan fichas cuando describen la misma acepción. Un sinónimo que
 coincide solo en uno de varios significados, o dos definiciones distintas,
 conservan fichas separadas. Los homónimos siguen la regla de §3.3.
 
+Las variantes gramaticales regulares no necesitan fichas propias: se usa el
+lema base (por ejemplo, el infinitivo del verbo) y las formas buscadas deben
+llevar a esa ficha. Las palabras derivadas con una raíz compartida se agrupan
+solo como **candidatas a revisión**. La raíz no demuestra que expresen el mismo
+concepto: se conserva una ficha separada si la derivación nombra a otra persona,
+acción, cualidad o uso especializado que merezca explicación propia. Cuando
+una derivación se omita por redundante, se registra como alias de búsqueda, no
+como sinónimo didáctico. Las herramientas pueden proponer familias por sufijos,
+pero nunca deben fusionarlas automáticamente.
+
 ### 3.7 Comunicación persuasiva al servicio del aprendizaje
 
 Sinonimia es una herramienta de comprensión, no un producto de consumo.
@@ -339,6 +349,12 @@ No se modifica `js/app.js`: búsqueda, rutas, juegos, progreso y palabra del
 día funcionan con cualquier clave presente en `DICCIONARIOS`.
 
 ## 7. Proceso para ampliar el contenido
+
+**Exclusión editorial:** no se añaden fichas de animales ni de plantas
+(animales, plantas, hongos o sus nombres de especie). Sinonimia cubre la
+administración pública, la justicia, la salud y el vocabulario cotidiano,
+no la historia natural. Se descartan estos candidatos durante la ingesta
+(§A.2.2 de `CLAUDE.md`) y se eliminan los que ya existan.
 
 La calidad de una definición requiere criterio humano. El script de validación
 comprueba la forma de los datos, pero no puede decidir si una definición se

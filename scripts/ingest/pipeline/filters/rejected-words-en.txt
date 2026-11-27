@@ -153,6 +153,8 @@ abactor
 abaft
 abaldonar
 abalienation
+Abalone
+abandon
 abandoned property
 abandonedly
 abandonee
@@ -166,6 +168,7 @@ abate into a freehold
 abatement ab initio
 abator
 abattage
+abattoir
 abbatial
 abbé
 Abbe-Zeiss apparatus
@@ -260,27 +263,34 @@ abortus fever
 About box
 aboutjalma
 aboutsdrujulo
+above
 above the law
 ABPA
 ABPI
 ABPM
+abracadabra
 abrachia
 abrader
 abrasively
 abraxas
 abridgment
 abrunal
+abrupt
 ABS
 abs. feb.
 abscessation
+absconding
 absconsio
+absence
 absence seizure
 absentia
 absentia epileptica
 absently
 absentmindedly
 absidiolus
+absinthe
 absit
+absolute
 absolute address
 absolute assembler
 absolute code
@@ -300,6 +310,7 @@ absorptionist
 absque dubio
 absque hoc
 absque impetitione vasti
+abstemious
 abstemiously
 abstention doctrine
 abstentionism
@@ -307,10 +318,12 @@ abstersive
 abstinence syndrome
 abstinently
 abstract of title
+abstracted
 abstractedly
 abstraction
 abstractive
 abstractly
+abstruse
 abstrusely
 absurdly
 Abundant in shrimp
@@ -326,6 +339,7 @@ abusively
 Abx
 abyll
 abysmally
+abyssal
 abyssomicin
 ac etiam
 Acad.
@@ -334,6 +348,7 @@ academentia
 academia
 academic institution
 academic year
+academician
 academicism
 academicize
 academize
@@ -380,6 +395,7 @@ accepter
 acceptilation
 accepting house
 acceptor
+access
 access control
 access control list
 access day
@@ -395,11 +411,14 @@ accessorily
 accessory after the fact
 accessory before the fact
 accessoryship
+accident
 accidental abortion
 accipiter
+accommodated
 accommodatingly
 accommodation paper
 accord
+according to
 accoucheur
 account current
 accountably
@@ -414,6 +433,8 @@ accreditor
 accrual basis
 accruer
 accumulate
+accumulator
+accuracy
 accursedly
 accusatorial
 accused
@@ -429,16 +450,20 @@ acephalia
 acephalic
 acephalus
 acerbation
+acerbity
 acetabulo-
 acetabulofemoral
 acetarsol
+acetic
 acetophenazine
 acetopyrine
 acetosulfone
 acetract
+acetylcholine
 ACG
 achalasia
 acheiropody
+achievable
 achievement quotient
 Achilles reflex
 Achilles tendon reflex time
@@ -446,8 +471,11 @@ acholia
 acholic
 acholous
 achromatically
+achromatism
+achromatize
 achromia
 ACI
+acicular
 acidaemia
 acidic-5
 acidly
@@ -459,8 +487,10 @@ ACIP
 ACL
 aclacinomycin
 aclinical
+aclocate
 ACM
 acme
+acne
 acopia
 acopic
 acoustically
@@ -468,6 +498,7 @@ ACP
 acq.
 acquest
 acquiescence
+acquiescent
 acquiescently
 acquire
 acquired
@@ -475,11 +506,13 @@ acquiring financial institution
 acquis
 acquisitionism
 acquisitionist
+acquisitive
 acquisitively
 acquitment
 ACR
 acratia
 acridly
+acridness
 acriflavine
 acrimoniously
 acrinol
@@ -494,6 +527,7 @@ acrocallosal
 acrocephalia
 acrochordon
 acrodynamic
+Acromegalic
 acromegaloidism
 acromiocoracoid
 acronarcotic
@@ -516,7 +550,10 @@ acte clair
 actigraph
 actimeter
 actimycin
+actinic
 actinic keratosis
+actinium
+actinomycosis
 actinopathy
 actinorhodin
 actinoscopy
@@ -529,6 +566,7 @@ action or effect of witchcraft
 actionably
 actionize
 activated clotting time
+activator
 actively
 activist investor
 activity apron
@@ -544,7 +582,10 @@ actuals
 actuarial science
 actuarially
 actuarily
+actuate
 actus reus
+Acuminate
+Acuminous
 Acuphase
 acupuncturation
 acute cystitis
@@ -557,6 +598,7 @@ acute otitis media
 acute renal failure
 acute retroviral syndrome
 acute ulcerative gingivitis
+acute-angled
 acutely
 acuteness
 acutorsion
@@ -571,7 +613,11 @@ ad vitam aut culpam
 ad.
 adactylism
 adactyly
+Adagial
+adamantine
 adamantinoma
+Adamic
+Adamite
 Adams-Stokes syndrome
 adapine
 Adapt
@@ -587,6 +633,7 @@ add.
 addable
 added
 added to something else
+adder
 addictionologist
 addictologist
 addictology
@@ -602,7 +649,9 @@ address bar
 address of record
 address space
 addressability
+Addressable
 addressing
+Adductor
 ADE
 adeem
 Adelita
@@ -613,6 +662,7 @@ ademption
 Adencado
 adenectomy
 adeno
+Adenoid
 adenoiditis
 adenology
 adenomyomatous
@@ -627,6 +677,7 @@ Adephesio
 Adept
 adequately
 adhere
+Adherent
 adhese
 adhesion contract
 adhesive bandage
@@ -635,15 +686,19 @@ adhesively
 Adhesiveness
 adiabatically
 Adian
+Adiaphora
 adiaphoresis
 adiapneustia
 adiate
 adimensional
 adipescent
 adipo-
+Adipocere
 adipolysis
 adipoma
+Adiposis
 adipositas
+Adiposity
 adipsia
 adipsous
 adj
@@ -666,7 +721,9 @@ Adjurer
 Adjust
 adjust one piece gargoyles
 adjustable
+Adjustable-rate mortgage
 Adjusted
+Adjutant
 adjuvant therapy
 adjuvanted
 adlet
@@ -693,6 +750,7 @@ adminship
 admirable
 admirably
 Admiral
+Admiralty
 admiralty law
 Admirative
 admire
@@ -709,6 +767,7 @@ admonisher
 admonishingly
 Admonitor
 admortization
+Adnate
 adnexitis
 ADO
 Adobe
@@ -716,6 +775,7 @@ adocilate
 Adolescence
 adolescent
 Adonic
+Adonis
 Adonius
 adonize yourself
 adopt
@@ -745,6 +805,7 @@ ADRT
 ADT
 ADUC
 aducar
+Adulator
 Adult
 adult education
 adult learner
@@ -774,6 +835,7 @@ Adventurer
 Adventurous
 Adventurously
 Adver.
+Adverbial
 adverbially
 adversarial
 Adversarial system
@@ -789,6 +851,7 @@ Adverse possession
 adverse witness
 adversely
 adversely possess
+Advertise
 Advertiser
 advice
 Advisable
@@ -798,6 +861,7 @@ Advise
 advisedly
 Adviser
 Advisor
+Advisory
 advisory letter
 advisory opinion
 Advocacy
@@ -825,38 +889,47 @@ aeriferous
 aerify
 aerobeacon
 aerobically
+Aerobics
 Aerobus
 Aeroclub
 aerocolpos
 Aerocryptographic
 Aerocryptography
 aerodermectasia
+Aerodrome
 aerodynamically
 aerodyne
+Aerogram
 Aerology
 Aerolytic
 Aeromantic
 Aerometer
 Aeromotor
+Aeronaut
 aeronautic
 aeroneurosis
 aerophagic
 aerophagist
 aerophagous
+Aerophagy
 aerophobia
 aerophobic
 Aerophone
 aerophore
 aeroplane
+Aerostat
 Aerostatic
 Aerotechnics
 aerotherapy
 aeruginosin
 Aesculapian staff
+Aesopian
 Aesopic
 Aesopical
 aesthesiogenic
+Aesthete
 aesthetic surgery
+Aestheticism
 AET
 Aeta
 aetiologically
@@ -872,6 +945,7 @@ aff.
 aff'd
 aff'd mem.
 aff'g
+Affability
 affectedly
 affectingly
 Affectionate
@@ -880,6 +954,7 @@ Affectivity
 affeer
 affeerer
 affeerment
+Affiant
 Affiliate
 affiliation
 affine
@@ -890,6 +965,7 @@ Affirm
 affirmance
 affirmant
 affirmation
+Affirmative action
 affirmative defense
 affirmative pregnant
 Affirmer
@@ -901,6 +977,8 @@ afflictively
 AFFO
 affon
 Affordable
+Affordables
+Affray
 Affreightment
 Affricate
 Affront
@@ -920,8 +998,12 @@ AFP
 Afr.
 Afrail
 afresh
+African American
 Africanity
+Africanize
+Afrikaner
 Afro-Antillean
+Afro-Cuban
 Afroasiatic
 Afroblack
 After
@@ -929,6 +1011,7 @@ after image journal
 after the fact
 after-acquired title
 after-discovered evidence
+After-school club
 after-tax
 afteracquired
 afterall
@@ -942,31 +1025,40 @@ Afterschool
 Aftertaste
 Afterwards
 Agagado
+again
+again and again
 Agalactia
 agallara
 Agalochus
 agammaglobulinemia
 aganglionosis
 agangliosis
+agape
 Agarene
 agaric
 Agaricaceous
 agaricic acid
+agate
 Agatinus
 agavillar
 AGCAS
+age group
 age of consent
 age of criminal responsibility
 age standardized rate
+aged
 agelastatin
 agelessly
 Agenesis
 agentic
+Agentive
 agentspace
 ageusia
 ageusiac
+Agglomerate
 agglutin
 aggravated assault
+Aggravating
 aggregant
 aggregometer
 aggrieved party
@@ -983,6 +1075,7 @@ aglycosuria
 agname
 agnoment
 Agnosia
+agog
 agogic
 agogical
 agogy
@@ -1020,6 +1113,7 @@ agroindustrial
 agroindustry
 agrological
 agrology
+agronomic
 agronomically
 agrypnotic
 aguachirle
@@ -1034,6 +1128,7 @@ AHA
 ahajay
 AHCI
 ahelear
+ahistorical
 ahistoricism
 ahistoricity
 ahitar
@@ -1061,6 +1156,8 @@ air cell
 air chair
 air hunger
 air loan
+air taxi
+airer
 airleave
 airless
 airport malaria
@@ -1077,12 +1174,14 @@ ajarafe
 Ajasstraws
 AJDT
 Ajize
+ajoblanco
 AJP
 akathisia
 AKF
 AKI
 akimbo
 Akineton
+alacrity
 aladierna
 alajú
 alalia
@@ -1147,6 +1246,7 @@ Alcantara
 alcantareno
 Alcarraza
 alcayata
+alchemical
 alchemically
 alchemy
 Alcohol
@@ -1171,6 +1271,8 @@ alectinib
 alee
 alegal
 Alemannic
+alembic
+aleph
 Aleppo boil
 aleptinemia
 alert
@@ -1182,6 +1284,7 @@ alert and oriented x4
 alerter
 alesna
 Alexandrianism
+alexandrite
 alexia
 alexiterian
 alexiteric
@@ -1205,6 +1308,7 @@ Alford plea
 ALG
 Alg.
 Algaeador
+algaecide
 algebra
 algebraically
 Algebrian
@@ -1218,9 +1322,11 @@ algodystrophy
 algogenic
 algogenicity
 algometry
+Algonquian
 algorin
 Algorithmic
 algorithmically
+algorithmics
 alhamar variant (cover)
 alhamel
 alias
@@ -1229,15 +1335,23 @@ alible
 Alice in Wonderland syndrome
 alicer
 Alicut
+alidade
 Alidone
+alienability
+alienable
 alienation of affection
 alienation of affections
+alienator
+aliferous
 Align
+alim
 alimentation
 alipta muscata
+aliquot
 Alishort
 aliunde
 alive
+alizarin
 aljafana
 Aljama
 aljamel
@@ -1249,6 +1363,8 @@ aljez
 Aljófar
 aljor
 Alkaic
+alkalimeter
+alkalize
 alkaptonuria
 all elbows
 all rights reserved
@@ -1259,6 +1375,12 @@ all-or-none
 all-through school
 allant-
 allantochorionic
+allantoin
+allegorism
+allegorize
+allegretto
+allegro
+allelic
 Allen charge
 allengue
 allergic salute
@@ -1267,19 +1389,26 @@ allergizer
 allergogenic
 allergologic
 allergological
+allergology
 Alleude
+alliaceous
 alligator
 alliteratively
 ALLL
 allo-
 Allobrog
+allocable
 allocatable
 allocation unit
+allocator
 allocatur
 allochezia
 allocute
 allocution
+allodial
+allodium
 allœotic
+alloform
 Allogator
 allogeneous
 allogenic
@@ -1288,15 +1417,20 @@ allografic
 allograftic
 alloimmunity
 alloknesis
+allologous
+allomorph
 allonge
 allopathy
+allophone
 allotment
 allotopia
+allotropic
 allowably
 allowedly
 Allower
 alluringly
 allusively
+alluvial
 alluvion
 Allyophile
 alma mater
@@ -1307,6 +1441,7 @@ almagra
 Almagroro
 almajar
 Almanacist
+almandine
 Almarch
 almarjal
 almarraza
@@ -1317,6 +1452,7 @@ Almodrote
 almofalla
 almofariz
 almofrej
+Almohad
 almojarifazgo
 almojarife
 almojerife
@@ -1324,11 +1460,13 @@ Almond
 almond fruit
 almond tree
 Almoner
+Almoravid
 almost
 almost square rectangular comb
 almotacenazgo
 almozada
 almozala
+alms
 alms bowl
 almudi
 almudi-2
@@ -1351,6 +1489,7 @@ alopecia pityrodes
 alopecia symptomatica
 alopecia totalis
 alopecia universalis
+alopecic
 Alopia
 Alose
 aloud
@@ -1422,12 +1561,14 @@ Aludel
 Alula
 Aluminated
 Aluminite
+aluminize
 Aluminosis
 Aluminothermy
 alumnol
 Alunate
 alveloz
 alveol-
+alveolar
 alveolitis
 alveoloplasty
 alveopalatal
@@ -1436,6 +1577,7 @@ always
 always-on
 Alwaysstiff
 alymphoplasia
+Alzheimer's
 AM
 Am.
 Am. Cen., Ant. and Mex
@@ -1448,6 +1590,8 @@ amadeo duro
 amain
 Amalgamator
 Amanar
+Amanita
+amanuensis
 amaril
 amarillic
 Amaritude
@@ -1460,19 +1604,26 @@ amatory
 amazacotado
 Amazed
 amazedly
+amazon
 ambage
+ambages
 ambateno
 ambidextrously
 ambient device
 ambifix
 ambilateral
+ambit
 ambivalently
+amble
 Ambler
 Amblygonium
 Ambon
+ambrosia
 Ambrosian
 ambuesta
+ambulance
 ambulance chaser
+ambulate
 ambulatory care
 ambustion
 AMD64
@@ -1483,6 +1634,7 @@ Amelarchiar
 ameliorative waste
 amenable
 amend.
+amendable
 amends.
 amenorrhoea
 amenorrhoeic
@@ -1495,6 +1647,7 @@ American elephantfish
 American option
 American Standard Code for Information Interchange
 american stew
+Americanism
 americium
 Amesnator
 Ametric
@@ -1521,6 +1674,7 @@ aminoguanidine
 aminostasis
 amio
 Amir
+Ammeter
 ammonemia
 Ammoniacal
 Ammonites
@@ -1539,10 +1693,12 @@ amoebiasis
 amoebic dysentery
 amoebo-
 amoebosis
+Amok
 Amole
 Amolote
 among the Mapuches
 among weavers
+Amontillado
 Amoralism
 Amorality
 amorally
@@ -1564,7 +1720,9 @@ Ampelograph
 Ampelographic
 Ampelography
 ampelotherapy
+Ampere
 amphenicol
+Amphesibena
 amphetamine
 amphetaminism
 amphibiously
@@ -1582,6 +1740,7 @@ Amphipod
 Amphiprostyle
 Amphisbaena
 Amphisibene
+Amphora
 amphoric
 amphoriloquy
 Amphoterus
@@ -1624,6 +1783,7 @@ amyosthenic
 amyotrophic
 amyxorrhea
 ANA
+Anabaptism
 anabatic
 anabiotic
 anabrosis
@@ -1637,6 +1797,7 @@ anachronously
 Anachrony
 anaclasis
 anaconda mortgage
+Anacreontic
 Anacrusis
 anacusic
 anacusis
@@ -1679,6 +1840,8 @@ analyticalally
 anamnesis
 Anamniote
 Anamniotic
+Anamorphic
+Anamorphosis
 Anamu
 ananastasia
 anaortic
@@ -1745,6 +1908,7 @@ Andalusianism
 Andandio
 Andantesque
 Andantine
+Andean
 Andean folk dance
 Andean matamic
 andean pisco
@@ -1752,8 +1916,12 @@ andesite
 Androgenesis
 androgynously
 andrologist
+Andrology
+Andropause
 andrum
 anecdotally
+Anecdotic
+Anecdotism
 anechogenic
 anechogenicity
 anembryonic
@@ -1761,9 +1929,11 @@ anembryonic pregnancy
 anemiated
 Anemochord
 Anemography
+Anemometer
 Anemometric
 Anemoscope
 Anepigraphic
+Aneroid
 anesis
 anesthetic
 anesthetist
@@ -1814,28 +1984,38 @@ Angl.
 angle bracket
 Anglesite
 Anglic
+Anglicanism
 Anglice
 Anglicistic
 Anglicized
 Anglicizing
+Anglo-American
 Anglo-Americanism
+Anglo-Indian
+Anglo-Saxon
 Anglo-Vernacular
+Anglomania
 Anglomaniac
+Anglophile
+Anglophilia
 Angor
 angor animi
 Angorine
 Angostura
 angrily
 angucycline
+Anhydride
 anicteric
 anigif
 animadvert
+animal bellow
 animal from the primate family
 animal husbandry
 Animal Keeper
 animal spirits
 animal that is considered annoying
 Animality
+Animalize
 Animalized
 Animals
 animatedly
@@ -1870,6 +2050,8 @@ Annexity
 annexure
 Annihilable
 Annihilated
+Annihilating
+Annihilator
 annot.
 annotation
 annotatrix
@@ -1877,9 +2059,13 @@ annots.
 annoybot
 annoyware
 annual report
+Annular
 annularly
+Annuller
 annulo-
+Annulose
 annum
+Anodynia
 Anolate
 anomalad
 anomalistic
@@ -1893,10 +2079,12 @@ anonymous pipe
 anonymously
 anoopsia
 Anophthalmia
+Anopia
 Anor
 anorchia
 anorchic
 anorexigenic
+Anorgasmia
 anorthopia
 anoscopy
 anosodiaphoric
@@ -1936,17 +2124,22 @@ antependium
 antephialtic
 antepit
 Anteport
+anteriority
 anteriorly
 anterocollis
 anterograde
 anterolateral
+anteroposterior
 anterorolandic
 anteroverted
 anterversioflexion
 anteversion
 antevert
 anthelmintic
+anthologist
+anthologize
 anthothecol
+anthracite
 anthraco-
 Anthracosis
 anthramycin
@@ -1956,6 +2149,7 @@ Anthropogenetic
 anthropogenically
 anthropographic
 Anthropography
+anthropoid
 anthropologic
 anthropologically
 anthropometric
@@ -1966,21 +2160,43 @@ anthroponosis
 Anthroponym
 Anthropophagic
 Anthropophagus
+anthropophagy
 Anthropopithecus
 anthroporadiometry
 Anthroposophist
 anthroposophy
 Anthropozoic
 Anti-alkali
+anti-Americanism
 Anti-artistic
 anti-avoidance
+anti-bourgeois
+anti-British
+anti-crisis
+anti-democracy
 anti-detriment
 anti-episode
+anti-European
+anti-Europeanism
 anti-exploit
+anti-flood-barrier
+anti-French
 anti-K
 anti-lapse
+anti-missile
+anti-moth
+anti-novel
+anti-panic-door
+anti-pedagogical
+anti-reelectionist
+anti-satellite
+anti-Soviet
+anti-Sovietism
+anti-Spanish
 anti-suit injunction
+anti-sweat
 anti-venene
+anti-Western
 antiabortive
 antiaggregant
 antiaggregating
@@ -1994,6 +2210,7 @@ antianemia
 antianemic
 antianesthetic
 antiangiogenesis
+antiaphrodisiac
 antiassignment
 antiatherogenic
 antiatherosclerotic
@@ -2019,6 +2236,7 @@ anticholera
 anticholeraic
 anticholesterol
 anticholinergic
+antichrist
 antichromatin
 anticipation
 anticipatory bail
@@ -14824,6 +15042,7 @@ hoe commonly used for digging
 hog train
 hoggishly
 HOLAP
+hold
 hold court
 hold harmless
 hold in contempt
@@ -16542,6 +16761,7 @@ KDE
 keeb
 Keeling schedule
 keenly
+keep
 keep term
 Kennedy plea
 Kerberos
@@ -17982,6 +18202,7 @@ marginal credit
 marginally
 marital rape
 maritally
+Mark
 mark to market
 mark-making
 mark-to-market
@@ -24773,6 +24994,7 @@ vernacular school
 vernacularly
 vernally
 versatilely
+Version
 vertical round molding
 vertiginously
 very accomplished gentleman

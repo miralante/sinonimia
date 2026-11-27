@@ -11,6 +11,7 @@ window.LocalePickerConfig = {
      and the gear stays alone in the header. */
   languageInDrawer: true,
   storageKey: 'sinonimia-idioma',
+  storagePrefix: 'sinonimia-',
   /* UI strings are inline in js/i18n.js: skip HEAD discovery. */
   path: null,
   requiredLocales: ['es', 'en'],

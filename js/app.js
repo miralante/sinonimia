@@ -428,6 +428,20 @@
     });
     detailView.appendChild(synonymsList);
 
+    if ((entry.searchAliases || []).length) {
+      var searchAliasesHeading = document.createElement("h3");
+      searchAliasesHeading.textContent = t("searchAliasesLabel");
+      detailView.appendChild(searchAliasesHeading);
+      var searchAliasesList = document.createElement("ul");
+      searchAliasesList.className = "synonyms-list";
+      entry.searchAliases.forEach(function (alias) {
+        var li = document.createElement("li");
+        li.textContent = alias;
+        searchAliasesList.appendChild(li);
+      });
+      detailView.appendChild(searchAliasesList);
+    }
+
     var exampleHeading = document.createElement("h3");
     exampleHeading.textContent = t("inASentence");
     detailView.appendChild(exampleHeading);

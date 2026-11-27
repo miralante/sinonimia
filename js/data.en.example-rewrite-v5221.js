@@ -39,7 +39,7 @@
     repudiable: { exampleSynonym: { text: "Es una propuesta que se puede rechazar por su falta de garantías." } },
     evolucionar: { example: { word: "evolucionando" }, exampleSynonym: { word: "desarrollándose" } },
     acema: { exampleSynonym: { text: "Compraron pan dulce venezolano recién horneado en la panadería." } },
-    actitudinal: { exampleSynonym: { word: "relativos a la actitud" } },
+    actitudinal: { exampleSynonym: { word: "relacionados con la actitud" } },
     adarvar: { example: { word: "adarvó" }, exampleSynonym: { word: "aturdió" } },
   };
   for (const [id, fields] of Object.entries(changes)) {

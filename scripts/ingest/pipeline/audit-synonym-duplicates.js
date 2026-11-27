@@ -9,10 +9,27 @@
  */
 const fs = require('fs');
 const path = require('path');
-const { loadDict } = require('./shared/load-dict');
+const vm = require('vm');
 const args = process.argv.slice(2);
 const lang = args.find(arg => arg === 'es' || arg === 'en') || 'es';
-const entries = loadDict(`js/data.${lang}.js`)[lang] || [];
+// Read the generated index used by the app. This keeps the audit quick and
+// ensures candidate rows match the current runtime dictionary after editorial
+// merges and exclusions have been applied.
+const runtime = { SinonimiaDictionary: { defineIndex(language, number, rows) {
+  if (!this.rows) this.rows = {};
+  (this.rows[language] ||= []).push(...rows);
+} } };
+runtime.globalThis = runtime;
+vm.createContext(runtime);
+vm.runInContext(fs.readFileSync(path.resolve('js/dictionary-data.js'), 'utf8'), runtime,
+  { filename: 'js/dictionary-data.js' });
+for (const shard of runtime.SINONIMIA_DICTIONARY_DATA.languages[lang].index) {
+  vm.runInContext(fs.readFileSync(path.resolve(shard.file), 'utf8'), runtime, { filename: shard.file });
+}
+const rows = runtime.SinonimiaDictionary.rows[lang] || [];
+const entries = rows.map(row => ({
+  id: row[0], word: row[1], definition: row[2], synonyms: row[3], situacion: row[5]
+}));
 const normalize = value => String(value || '').normalize('NFD')
   .replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\s+/g, ' ').trim();
 const byWord = new Map();

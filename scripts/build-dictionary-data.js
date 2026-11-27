@@ -13,7 +13,9 @@
  *                               what the list, the search, the alphabet, the
  *                               topic filters, the word of the day and the
  *                               "which word is it?" game need:
- *                               [id, word, definition, synonyms, imageId, topic].
+ *                               [id, word, definition, synonyms, imageId, topic,
+ *                                searchAliases]. The final column is optional
+ *                               at runtime for compatibility with old indexes.
  *   js/dict.<lang>.det.<kkk>.js DETAIL chunks — the heavy fields (pictogram
  *                               alt text, both example sentences and the
  *                               already resolved translation links), keyed
@@ -58,7 +60,7 @@ const DETAIL_CHUNKS = 128;
 // Fields the source entries may have. Anything else is a hard error so a new
 // field can never be silently dropped from the runtime files.
 const KNOWN_FIELDS = new Set([
-  "id", "word", "image", "definition", "synonyms",
+  "id", "word", "image", "definition", "synonyms", "searchAliases",
   "example", "exampleSynonym", "situacion", "translation",
 ]);
 
@@ -145,6 +147,9 @@ function build(dictionaries) {
 
   languages.forEach(function (lang) {
     const entries = dictionaries[lang];
+    const hasSearchAliases = entries.some(function (entry) {
+      return Array.isArray(entry.searchAliases) && entry.searchAliases.length > 0;
+    });
     const indexShards = [];
     const detailChunks = [];
     for (let k = 0; k < DETAIL_CHUNKS; k += 1) detailChunks.push({});
@@ -152,6 +157,7 @@ function build(dictionaries) {
     entries.forEach(function (entry, position) {
       if (typeof entry.id !== "string" || typeof entry.word !== "string" ||
           typeof entry.definition !== "string" || !Array.isArray(entry.synonyms) ||
+          (entry.searchAliases !== undefined && !Array.isArray(entry.searchAliases)) ||
           !entry.image || typeof entry.image.id !== "number" || typeof entry.image.alt !== "string" ||
           !entry.example || typeof entry.example.word !== "string" || typeof entry.example.text !== "string" ||
           !entry.exampleSynonym || typeof entry.exampleSynonym.word !== "string" ||
@@ -169,9 +175,9 @@ function build(dictionaries) {
 
       const shard = Math.floor(position / INDEX_ROWS_PER_SHARD);
       if (!indexShards[shard]) indexShards[shard] = [];
-      indexShards[shard].push([
-        entry.id, entry.word, entry.definition, entry.synonyms, entry.image.id, entry.situacion,
-      ]);
+      const row = [entry.id, entry.word, entry.definition, entry.synonyms, entry.image.id, entry.situacion];
+      if (hasSearchAliases) row.push(entry.searchAliases || []);
+      indexShards[shard].push(row);
 
       const record = [
         entry.image.alt,
@@ -419,7 +425,39 @@ function refreshSourceManifest() {
 
 // Reapply the reviewed local entries and updates after loading the source
 // shards. This records the editorial resolution against the newer main base.
-function applyRebaseMergeOverlay(dictionaries) {
+function applyMergeAliasOverlayUpdates(dictionaries) {
+  const overlayPath = path.join(ROOT, "scripts", "ingest", "pipeline", "decisions", "rebase-merge-09fc.json");
+  const mergedAliasUpdates = {};
+  if (!fs.existsSync(overlayPath)) return mergedAliasUpdates;
+  const overlay = JSON.parse(fs.readFileSync(overlayPath, "utf8"));
+  Object.keys(overlay.languages || {}).forEach(function (lang) {
+    const synonymMergePath = path.join(ROOT, "scripts", "ingest", "pipeline", "decisions", "synonym-merges-" + lang + ".json");
+    const synonymMerges = fs.existsSync(synonymMergePath) ? JSON.parse(fs.readFileSync(synonymMergePath, "utf8")) : [];
+    const aliasIds = new Set();
+    synonymMerges.forEach(function (decision) {
+      (decision.aliases || [decision.alias]).forEach(function (id) { aliasIds.add(id); });
+    });
+    const updates = overlay.languages[lang].updates || {};
+    const byId = new Map((dictionaries[lang] || []).map(function (entry) { return [entry.id, entry]; }));
+    const excluded = new Set(loadEditorialExclusions(lang).decisions.map(function (d) { return d.id; }));
+    mergedAliasUpdates[lang] = new Set();
+    aliasIds.forEach(function (id) {
+      const update = updates[id];
+      if (!update) return;
+      const entry = byId.get(id);
+      if (!entry) {
+        if (excluded.has(id)) return;
+        throw new Error(lang + ": rebase overlay update references missing entry " + id);
+      }
+      (update.unset || []).forEach(function (field) { delete entry[field]; });
+      Object.assign(entry, update.set || {});
+      mergedAliasUpdates[lang].add(id);
+    });
+  });
+  return mergedAliasUpdates;
+}
+
+function applyRebaseMergeOverlay(dictionaries, mergedAliasUpdates) {
   const overlayPath = path.join(ROOT, "scripts", "ingest", "pipeline", "decisions", "rebase-merge-09fc.json");
   if (!fs.existsSync(overlayPath)) return dictionaries;
   const overlay = JSON.parse(fs.readFileSync(overlayPath, "utf8"));
@@ -436,6 +474,7 @@ function applyRebaseMergeOverlay(dictionaries) {
       const entry = remaining.get(id);
       if (!entry) {
         if (excluded.has(id)) return;
+        if (mergedAliasUpdates && mergedAliasUpdates[lang] && mergedAliasUpdates[lang].has(id)) return;
         throw new Error(lang + ": rebase overlay update references missing entry " + id);
       }
       const update = merge.updates[id];
@@ -457,7 +496,10 @@ function applyRebaseMergeOverlay(dictionaries) {
 
 function main() {
   const started = Date.now();
-  const dictionaries = applyRebaseMergeOverlay(applySynonymMerges(loadSourceDictionaries()));
+  const dictionaries = loadSourceDictionaries();
+  const mergedAliasUpdates = applyMergeAliasOverlayUpdates(dictionaries);
+  applySynonymMerges(dictionaries);
+  applyRebaseMergeOverlay(dictionaries, mergedAliasUpdates);
   const result = build(dictionaries);
 
   const keep = new Set(result.files.map(function (f) { return f.path; }));

@@ -5406,7 +5406,7 @@
   applyCard("ipecac-emetic-preparation-1379","ipecac","Ipecac",{"id":"ipecac-emetic-preparation-1379","definition":"Medicine from the root once used to cause vomiting.","synonym":"Vomiting medicine","example":"Ipecac was given to cause vomiting.","exampleSynonymText":"Vomiting medicine was given to cause vomiting."});
   applyCard("ruggedness-human-resilience-1382","ruggedness","ruggedness",{"id":"ruggedness-human-resilience-1382","definition":"The strength to cope with difficult conditions.","synonym":"resilience","example":"Her ruggedness helped her survive the journey.","exampleSynonymText":"Her resilience helped her survive the journey."});
   applyCard("shrapnel-explosion-fragments-1382","shrapnel","Shrapnel",{"id":"shrapnel-explosion-fragments-1382","definition":"Small metal pieces scattered by an exploding bomb or shell.","synonym":"Metal fragments","example":"Shrapnel from the shell injured two soldiers.","exampleSynonymText":"Metal fragments from the shell injured two soldiers."});
-  applyCard("shrapnel-british-small-change-1382","shrapnel","Shrapnel",{"id":"shrapnel-british-small-change-1382","definition":"British informal term for coins of low value.","synonym":"Small change","example":"Shrapnel is British slang for low-value coins.","exampleSynonymText":"Small change is British slang for low-value coins."});
+  applyCard("shrapnel-british-small-change-1382","shrapnel","Shrapnel",{"id":"shrapnel-british-small-change-1382","definition":"Small coins, in informal British English.","synonym":"small change","example":"She counted the shrapnel before paying for the bus fare.","exampleSynonymText":"She counted the small change before paying for the bus fare."});
   applyCard("skiving-british-truancy-1383","skiving","Skiving",{"id":"skiving-british-truancy-1383","definition":"British informal absence from work or school without permission.","synonym":"Truancy","example":"Skiving can lead to trouble at school.","exampleSynonymText":"Truancy can lead to trouble at school."});
   applyCard("territoriality-animal-defense-1384","territoriality","Territoriality",{"id":"territoriality-animal-defense-1384","definition":"An animal’s behavior when defining and defending its territory.","synonym":"Territorial behavior","example":"Territoriality helps the wolf protect its range.","exampleSynonymText":"Territorial behavior helps the wolf protect its range."});
   applyCard("territoriality-attachment-or-protection-1384","territoriality","Territoriality",{"id":"territoriality-attachment-or-protection-1384","definition":"Attachment to or protection of a territory or domain.","synonym":"Territorial attachment","example":"Territoriality can shape local political debates.","exampleSynonymText":"Territorial attachment can shape local political debates."});
@@ -5538,3 +5538,39 @@
 // Follow-up: reciprocal links for the latest reviewed exact-sense candidates.
 (()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error("missing en");const pairs=[["thinkable","conceivable"],["ruse","round3520-artifice-deception"],["depress","sadden"],["scrutator","scrutinizer"]];for(const[a,b]of pairs){const x=d.find(e=>e.id===a),y=d.find(e=>e.id===b);if(!x||!y)throw Error("missing reciprocal pair "+a+" / "+b);for(const[r,t]of[[x,y],[y,x]]){r.synonyms=r.synonyms||[];const v=String(t.word).toLocaleLowerCase("en");if(!r.synonyms.some(s=>String(s).toLocaleLowerCase("en")===v))r.synonyms.push(v);}}})();
 
+
+;(()=>{const d=globalThis.DICCIONARIOS?.en;if(!d)throw Error('missing en dictionary');const u={"sick-note":{"definition":"A note from a health professional. It says you cannot work because you are ill. In the UK, it is now usually called a fit note.","synonyms":["fit note","doctor’s note","medical certificate"],"example":{"word":"sick note","text":"Her employer asked for a sick note after her extended absence."},"exampleSynonym":{"word":"fit note","text":"Her employer asked for a fit note after her extended absence."}},"strep":{"definition":"A short name for streptococcus bacteria or an infection they cause. “Strep throat” is an infection of the throat and tonsils. Group A strep bacteria cause it.","synonyms":["strep bacteria","strep infection"],"example":{"word":"strep","text":"The test confirmed that her sore throat was caused by strep."},"exampleSynonym":{"word":"strep bacteria","text":"The test confirmed that strep bacteria caused her sore throat."}},"sync":{"definition":"Make two devices keep the same information. It can also mean making two events happen at the same time. It is a short form of “synchronize”.","synonyms":["synchronize","coordinate"],"example":{"word":"sync","text":"They sync their calendars across their phones and computers."},"exampleSynonym":{"word":"synchronize","text":"They synchronize their calendars across their phones and computers."}}};for(const [id,v] of Object.entries(u)){const e=d.find(x=>x.id===id);if(!e)throw Error('missing en/'+id);Object.assign(e,v)}})();
+
+
+;(()=>{const updates={
+"snoopy":{
+ definition:"Too curious about other people’s private lives. People often use it negatively.",
+ synonyms:["nosy"],
+ example:{word:"snoopy",text:"The snoopy neighbour asked about private family matters."},
+ exampleSynonym:{word:"nosy",text:"The nosy neighbour asked about private family matters."}
+},
+"jumpy-market-2344":{
+ definition:"Nervous or worried, especially about what may happen. People use it informally.",
+ synonyms:["nervous","anxious"],
+ example:{word:"jumpy",text:"The investors felt jumpy after the market fell."},
+ exampleSynonym:{word:"nervous",text:"The investors felt nervous after the market fell."}
+},
+"hairy-5":{
+ definition:"Covered with a lot of hair or fur. People also use it to mean scary, difficult, or dangerous.",
+ synonyms:["furry","covered with hair","difficult","dangerous"],
+ example:{word:"hairy",text:"The hairy dog left hair on the sofa."},
+ exampleSynonym:{word:"furry",text:"The furry dog left hair on the sofa."}
+},
+"funny-strange-or-unusual":{
+ definition:"Strange or surprising, and hard to explain.",
+ synonyms:["strange","surprising"],
+ example:{word:"funny",text:"There was a funny smell in the kitchen."},
+ exampleSynonym:{word:"strange",text:"There was a strange smell in the kitchen."}
+},
+"round2596-mourning-wail":{
+ definition:"Sadness after someone dies. It can also mean the time people grieve.",
+ synonyms:["grief"],
+ example:{word:"mourning",text:"The mourning continued through the night."},
+ exampleSynonym:{word:"grief",text:"The grief continued through the night."}
+}
+};for(const [id,data] of Object.entries(updates)){const row=window.DICCIONARIOS.en.find(entry=>entry.id===id);if(!row)throw new Error("Missing "+id);Object.assign(row,data);}})();

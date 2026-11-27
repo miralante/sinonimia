@@ -5,7 +5,7 @@
 #   - scripts/download/*.jsonl are ~1.4 GiB and ~1.0 GiB (raw Wiktionary
 #     dumps used to regenerate the dictionary, never served).
 #
-# See wrangler.toml and CLOUDFLARE.md.
+# See wrangler.toml and CI-CD.md.
 .git/
 .dev/
 .claude/

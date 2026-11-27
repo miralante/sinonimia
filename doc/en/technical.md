@@ -27,7 +27,7 @@ English dictionary, depending on the language the visitor picked.
 **2026-09-17 update**: the dictionary schema field names and the
 `"palabra"` URL path segment — both listed as deliberate Spanish
 exceptions in earlier versions of this section — were renamed to
-English (`word`, `definition`, `image`, `synonyms`, `example`,
+English (`word`, `definition`, `image`, `synonyms`, `searchAliases`, `example`,
 `exampleSynonym`, and route segment `word`; `situacion` was kept, see
 below) across `js/data.es.js`, `js/data.en.js`, `js/app.js`, and every
 tool under `scripts/ingest/pipeline/` that reads or writes those
@@ -273,7 +273,7 @@ itself — so the next person to touch it knows exactly what to do.
   `scripts/content-status.js` read it). The browser never loads it.
   **`scripts/build-dictionary-data.js`** derives from it, per language:
   *index shards* `js/dict.<lang>.idx.<n>.js` (rows of
-  `[id, word, definition, synonyms, imageId, topic]`) and *detail chunks*
+  `[id, word, definition, synonyms, imageId, topic, searchAliases?]`) and *detail chunks*
   `js/dict.<lang>.det.<kkk>.js` (`[imageAlt, exampleWord, exampleText,
   synonymWord, synonymText, translationLinks?]` keyed by id; an entry lives
   in chunk `fnv1a(id) % 128`, computed identically by the builder and the
@@ -351,7 +351,8 @@ the two dictionaries are unrelated content — see the key names in
 
 Every entry has: `id`, `word`, `image: {id, alt}`, `definition`,
 `synonyms[]`, `example: {word, text}`, `exampleSynonym: {word,
-text}`, `situacion`, and **optionally** `translation`. Every field is
+text}`, `situacion`, and optionally `translation` and `searchAliases[]`.
+Every field is
 English (2026-09-17 rename — see the Naming exceptions section above)
 except `situacion` itself, which stays Spanish on purpose. `situacion`
 is one of eleven values shared across every language (`tramites`,
@@ -363,6 +364,8 @@ filter key, not display text; its label per language lives in
 in that sentence (not necessarily the dictionary headword) — that's
 what `createHighlightedSentence()` and `createSentenceWithBlank()`
 search for, to highlight or blank it out.
+`searchAliases[]` contains redundant derived forms that route to this entry;
+it is separate from synonyms and is not used as a game answer.
 
 `id` is the only field required to be unique — `word` isn't, on purpose:
 a homograph (two unrelated meanings sharing one word, e.g. "pensión" —
@@ -411,7 +414,33 @@ and links to the same `id`. Matches from `audit-synonym-duplicates.js` are
 candidates; confirm that they express the same sense before adding a merge.
 Incorrect synonym links and related editorial corrections are recorded in
 `synonym-corrections-<language>.json`.
-Exact matches for a headword or synonym take priority over partial matches
+Redundant derived forms use a separate path:
+`search-alias-merges-<language>.json` stores the canonical id, removed ids,
+and every approved search form. The builder moves those forms into
+`searchAliases[]`, includes them in the search index, and displays them apart
+from synonyms on the entry page. Games do not treat them as equivalent
+answers. `audit-lexical-families.js` suggests suffix-based groups for review;
+it never edits data or makes decisions. Every source form that would disappear
+(headword, search alias, and synonyms) must be explicitly listed in `forms`, so
+merging cannot silently drop search routes.
+
+Run `node scripts/ingest/pipeline/audit-lexical-families.js en --out
+<path.json>` (or `es`) to create the review report. An approved decision has
+this shape:
+
+```json
+{
+  "canonical": "confirm-id",
+  "reason": "The derived form adds no distinct concept in this context.",
+  "aliases": [{ "id": "confirmer-id", "forms": ["confirmer"] }]
+}
+```
+
+The alias must have a reviewed definition and must not collide with another
+headword. `forms` must list every form that will disappear from the removed
+entry, including any that currently appear as synonyms.
+
+Exact matches for a headword, synonym, or search alias take priority over partial matches
 inside definitions and other phrases.
 
 Why is this field needed when ARASAAC pictograms already link concepts

@@ -97,8 +97,17 @@ for the maintainer's pipeline.
    easy-read rules, the multi-language architecture, and the
    non-negotiable product constraints.
 2. Run `node scripts/content-status.js --detalle --categoria <topic>
-   --lang <es|en>` and check whether the headword already has its own
-   entry in that language's dictionary.
+   --lang <es|en>` and check whether the word already appears in that
+   language's dictionary, either as a headword or in another entry's
+   synonyms. Inspect the field and meaning: a synonym match does not mean
+   the word already has its own entry.
+   Also review the families suggested by
+   `node scripts/ingest/pipeline/audit-lexical-families.js <es|en>
+   --word <headword> --out <path.json>`. If the candidate shares a root with an existing
+   entry, compare its sense and use: the root is a review signal, not a
+   merge decision. For a redundant variant, keep one entry and record
+   removed forms as aliases in `search-alias-merges-<language>.json`; keep
+   a separate entry when it teaches a useful distinct concept.
 3. Before adding it, validate every new word against that language's
    external dictionary: [RAE/DLE](https://dle.rae.es/) for `es` (pass
    the word as the search term), or [Collins English
