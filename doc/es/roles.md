@@ -1,37 +1,34 @@
-# Roles en el proyecto
+# Roles del proyecto
 
-Sinonimia tiene **dos roles diferenciados**. Cada uno tiene su propio
-punto de entrada:
+Todos los proyectos de la suite Miralante tienen los **mismos tres roles**,
+con los mismos nombres. Este archivo es idéntico en los ocho proyectos.
+
+> ⚠️ **No edites la copia de un solo proyecto.** El archivo canónico es
+> `apptonomia/doc/es/roles.md` (espejo en inglés: `apptonomia/doc/en/roles.md`).
+> Cámbialo ahí y cópialo a los demás proyectos. Los detalles propios de cada
+> proyecto (quién es la persona usuaria, qué pantallas usa, qué archivos
+> leer primero) van en el `README.md` y el `CLAUDE.md` de ese proyecto, no aquí.
 
 | Rol | Quién es | Cómo participa | Dónde mirar primero |
 |---|---|---|---|
-| 👤 **Persona usuaria** | Cualquiera que se encuentra una palabra difícil (y, en origen, personas con discapacidad intelectual en un contexto de terapia ocupacional — ver [`SPEC.md`](SPEC.md)) | Usa la web directamente, sin registro ni cuenta. **No participa** en el desarrollo. | La propia web (`index.html`) |
-| 💻 **Persona colaboradora**: contenido o código | Quien propone una palabra nueva, un idioma nuevo, o toca el código | Sigue el proceso de [`../../CONTRIBUTING.es.md`](../../CONTRIBUTING.es.md): añade una palabra siguiendo las reglas de lectura fácil, o implementa/revisa cambios de código. | [`../../CONTRIBUTING.es.md`](../../CONTRIBUTING.es.md) · [`tecnico.md`](tecnico.md) |
+| 👤 **Persona usuaria** | La persona que usa la app para aprender, practicar o resolver algo. La suite está pensada para lectura fácil. | Usa la app por su cuenta. No participa en el desarrollo. | La propia app — no hay nada más que leer |
+| ❤️ **Apoyo** | Familia, docente, terapeuta o cualquier persona que ayuda a la persona usuaria a elegir y usar la app, sin tomar sus decisiones por ella. | Elige la app o el contenido adecuado para una necesidad, la prepara para la persona usuaria e informa de problemas o de textos poco claros. | [`README.md`](README.md) |
+| 💻 **Construcción** | Desarrolladoras y mantenedoras que cambian el código, el contenido, las pruebas o el despliegue. | Edita el código, revisa las pull requests y despliega, siguiendo las reglas del proyecto. | [`CLAUDE.md`](CLAUDE.md), después [`CONTRIBUTING.md`](CONTRIBUTING.md) |
 
-> 💡 A diferencia de proyectos con un rol de "apoyo" dedicado (familia,
-> terapeuta) que acompaña a la persona usuaria mientras usa la
-> herramienta, Sinonimia está pensada para consultarse sola, sin que nadie
-> tenga que mediar. El origen terapéutico define **qué reglas de contenido
-> se cumplen** (lectura fácil, pictogramas, gamificación no punitiva), no
-> **quién puede usar la web** — ver "Para quién es" en [`SPEC.md`](SPEC.md).
+> 💡 **La persona usuaria es el público.** Cada decisión sobre la interfaz,
+> los textos y la accesibilidad se toma pensando en su experiencia. Las
+> decisiones técnicas corresponden al rol de Construcción.
+
+Una persona puede tener más de un rol: un familiar puede ser Apoyo y, además,
+usar la app junto con la persona usuaria.
 
 ---
 
-## 🗺️ Por dónde empezar, según tu perfil
+## 🗺️ Por dónde empezar, según perfil
 
 | Si eres… | Empieza por… |
 |---|---|
-| 🤔 Quiero entender qué es Sinonimia y por qué | [`SPEC.md`](SPEC.md) — definición de producto |
-| 💻 Quiero añadir una palabra o un idioma | [`../../CONTRIBUTING.es.md`](../../CONTRIBUTING.es.md) |
-| 🛠️ Quiero tocar el código o entender la arquitectura | [`tecnico.md`](tecnico.md) |
-
----
-
-## 🤝 Un proyecto de una sola pieza
-
-A diferencia de proyectos más grandes con equipos separados de contenido,
-diseño y desarrollo, Sinonimia es pequeño a propósito: sin build, sin
-backend, sin dependencias. Cualquier persona colaboradora puede, en
-principio, cubrir ambos frentes (contenido y código), aunque no hace
-falta — ver [`../../CONTRIBUTING.es.md`](../../CONTRIBUTING.es.md) para
-las dos vías de contribución por separado.
+| 👤 Persona usuaria, o familiar que usa la app con ella | La app. No hay nada más que leer. |
+| ❤️ Apoyo | El [`README.md`](README.md) de la app |
+| 💻 Desarrolladora o mantenedora | [`CLAUDE.md`](CLAUDE.md), después [`CONTRIBUTING.md`](CONTRIBUTING.md) |
+| 🤔 Solo quieres entender qué es el proyecto | [`README.md`](README.md) |
